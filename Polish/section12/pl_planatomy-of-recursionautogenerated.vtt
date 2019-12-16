@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.110 --> 00:09.220
+Każda funkcja rekurencyjna musi mieć coś, co nazywa się podstawowym przykładem lub punktem zatrzymania.
+
+00:09.390 --> 00:16.380
+Zapamiętajcie mój przykład na początku, gdzie pokazałem wam, jak rekurencyjnie sprawdzić wszystkie foldery
+
+00:17.010 --> 00:26.490
+w jednym z naszych projektów, musimy powiedzieć programowi, jeśli ten podfolder, którego już nie będziemy mieli, więcej folderów
+
+00:26.490 --> 00:33.770
+zatrzyma się, jeśli ten przystanek nie będzie ". t funkcja po prostu działałaby dalej.
+
+00:33.940 --> 00:36.790
+Funkcje rekursywne mają dwie ścieżki.
+
+00:37.570 --> 00:43.730
+Jednym z nich jest przypadek rekursywny, który wywołuje funkcję ponownie i uruchamia ją.
+
+00:44.080 --> 00:47.370
+A następnie podstawowa sprawa, która przestaje wywoływać funkcję.
+
+00:47.530 --> 00:49.950
+Nie ma nic więcej do wyszukiwania.
+
+00:50.000 --> 00:56.180
+Jak więc możemy dodać tę funkcję do funkcji Hej, opuść ją, jesteś teraz śmieszny,
+
+00:56.180 --> 00:57.350
+musisz przestać.
+
+00:57.830 --> 01:00.920
+Cóż, możemy zrobić coś takiego.
+
+01:01.040 --> 01:04.610
+Możemy stworzyć licznik, a powiemy, że licznik wynosi zero.
+
+01:06.960 --> 01:19.280
+Możemy dodać wyrażenie warunkowe, które powie, że jeśli licznik jest większy niż 3 w takim przypadku, po prostu
+
+01:19.280 --> 01:21.390
+wróć Gotowe.
+
+01:24.480 --> 01:27.100
+W przeciwnym razie zadzwonimy od samego początku.
+
+01:27.110 --> 01:31.360
+Ale chcemy też zwiększyć licznik o 1.
+
+01:31.390 --> 01:41.190
+Więc jeśli kliknę tutaj dobrze, muszę zadzwonić do funkcji najpierw powiedzmy "incepcja", jeśli teraz zadzwonię do tej funkcji,
+
+01:41.350 --> 01:44.340
+jak myślisz, co się stanie.
+
+01:45.210 --> 01:46.360
+Zatrzymaj wideo.
+
+01:46.360 --> 01:51.070
+Pomyśl o tym, ponieważ mam zamiar kliknąć, uruchamiać w trzech do
+
+01:54.560 --> 01:56.700
+jednego, że jestem niezdefiniowany.
+
+01:56.870 --> 02:00.220
+Czy tego się spodziewałeś?
+
+02:00.350 --> 02:07.670
+Wystarczy, że pokażę ci coś, jeśli skomentuję ten kod, a my po
+
+02:07.670 --> 02:20.630
+prostu robimy to w Incepcji, gdzie po prostu wciąż wywołujemy incepcję, a może zrobimy dziennik konsoli, mówiąc "cześć" i klikam, "biegnij",
+
+02:20.630 --> 02:24.610
+otrzymuję maksymalny rozmiar stosu przekraczający OK.
+
+02:24.800 --> 02:30.660
+Wiemy, patrząc na tę funkcję, ta wersja funkcji, której nigdy nie dostanie do konsoli logicznej, ponieważ
+
+02:30.850 --> 02:37.160
+gdy tylko znajdzie się w pierwszym wierszu funkcji, wróci i powie: "Och, nazywam to, a potem rodzajem Idź
+
+02:37.160 --> 02:42.350
+tutaj, po prostu odbijając się w tę i z powrotem, nie dostając się do
+
+02:42.350 --> 02:43.280
+logu konsoli.
+
+02:43.580 --> 02:46.000
+Ale jeśli wrócimy do tego, co mamy wcześniej.
+
+02:46.400 --> 02:50.040
+Cóż, nasza funkcja wyraźnie się skończyła.
+
+02:50.060 --> 02:58.860
+Nie wykonano przepełnienia stosu iw pewnym momencie zostało zakończone, ponieważ zwiększamy licznik.
+
+02:58.900 --> 03:05.960
+Więc pozwól mi pocieszyć cały dziennik tutaj są licznik i upewnij się, że to działa.
+
+03:06.100 --> 03:12.670
+Jeśli kliknąłem, otrzymam 0 1 2 3 4, gdy osiągnie 4.
+
+03:12.670 --> 03:15.160
+Licznik jest większy niż 3.
+
+03:15.430 --> 03:17.510
+Więc wracamy gotowe.
+
+03:17.650 --> 03:20.860
+Ale dlaczego tu nie ma.
+
+03:22.200 --> 03:26.610
+Jest to świetna ilustracja tego, jak działa rekursja.
+
+03:26.670 --> 03:28.140
+Zamierzam skopiować ten
+
+03:31.270 --> 03:34.600
+kod i wrócić do naszej przeglądarki tutaj.
+
+03:34.750 --> 03:42.860
+Pozwól mi odświeżyć tę stronę, aby upewnić się, że masz jasną globalną zmienną i mam zamiar
+
+03:42.860 --> 03:52.100
+skopiować i wkleić incepcję tym razem Będę dodać słowo kluczowe debuggera, abyśmy mogli debugować nasz kod i przejść krok
+
+03:52.130 --> 03:53.690
+po kroku to.
+
+03:55.340 --> 04:00.750
+Zacznijmy od początku i zobaczmy, co się stanie.
+
+04:00.750 --> 04:04.680
+W porządku, wracamy do naszego debuggera.
+
+04:04.730 --> 04:06.860
+Widzimy, że mamy tutaj stos wywoławczy.
+
+04:06.860 --> 04:14.720
+Incepcja została właśnie wywołana przeze mnie i otwieram tę małą zakładkę o nazwie "zakres dla naszej sprawy".
+
+04:14.740 --> 04:19.740
+Chcemy po prostu otworzyć zakres skryptu.
+
+04:19.940 --> 04:28.500
+Pokazuje nam, jakie zmienne mamy do dyspozycji w tym przypadku mamy licznik, który jest twój.
+
+04:28.640 --> 04:29.610
+Więc zamierzam kliknąć.
+
+04:29.630 --> 04:36.460
+Przejdź dalej i powiemy, że mamy licznik równy zeru.
+
+04:36.470 --> 04:38.130
+Czy to więcej niż trzy.
+
+04:38.160 --> 04:45.140
+Nie, zamierzam przeskoczyć licznik Inkerman, uruchomić i oddzielić, widzimy, że to się stało.
+
+04:46.050 --> 04:51.770
+Licznik został teraz zwiększony, ponieważ przeszliśmy przez tę linię, a teraz przechodzimy do Incepcji.
+
+04:51.810 --> 04:56.010
+Ponownie uruchomimy tę funkcję, a zauważysz, że stos wywoławczy po kliknięciu tego
+
+04:56.010 --> 04:56.510
+przycisku
+
+04:59.390 --> 05:05.670
+zwiększy się, a my pójdziemy jeszcze raz do krajów teraz jeden Nope nie zwracają niczego, co jeszcze zwiększa licznik.
+
+05:05.750 --> 05:09.460
+Zobaczysz, że licznik trafia do dwóch, a my znowu uruchomimy.
+
+05:10.590 --> 05:18.620
+I ciągle idziemy dalej, przechodząc przez Connarda stajemy się trzema dodawcami do stosu, a potem
+
+05:18.620 --> 05:23.230
+jeszcze raz trzy nie są większe niż trzy.
+
+05:23.230 --> 05:27.420
+Więc jeszcze raz zaczynamy wywoływać dodawanie do stosu.
+
+05:27.580 --> 05:36.700
+Mamy teraz te liczniki wielu stacki o czwartej, a następnie wchodzimy tutaj licznik jest teraz cztery, które są większe
+
+05:36.700 --> 05:37.760
+niż trzy.
+
+05:37.780 --> 05:43.210
+W końcu przejdziemy do warunku, który powróci dla nas.
+
+05:43.270 --> 05:44.690
+Zobaczmy, co się tutaj stanie.
+
+05:44.710 --> 05:46.590
+Zamierzam kliknąć dalej.
+
+05:48.650 --> 05:52.280
+I znowu klikam Dalej.
+
+05:52.310 --> 05:53.330
+Spójrz na to.
+
+05:53.480 --> 06:00.520
+Mamy zmienną lokalną, która ma teraz wartość zwracaną.
+
+06:00.540 --> 06:10.090
+Teraz wróciliśmy i nie będziemy już wywoływać połączenia. Stos wywoławczy zacznie teraz otwierać te
+
+06:10.150 --> 06:17.070
+funkcje, ponieważ powie nam, że mamy słowo kluczowe return.
+
+06:17.170 --> 06:22.020
+Zamierzam zatrzymać to, co robię na dole i powrócić z tej funkcji.
+
+06:22.060 --> 06:28.020
+Tak więc ta funkcja początkowa otrzyma zwrot, ale zauważ, co stanie się dalej.
+
+06:31.070 --> 06:38.390
+Mimo że otrzymuję wartość zwrotną nieokreśloną, Azari wyskoczył z wierzchołka najwyższego elementu ze stosu
+
+06:38.770 --> 06:46.010
+wywołań, a jeśli nadal wyskakuję rzeczy ze stosu wywołań, wartość zwracana jest niezdefiniowana.
+
+06:46.170 --> 06:48.590
+I dlatego otrzymujemy.
+
+06:48.800 --> 06:50.870
+Dlaczego tak jest.
+
+06:51.230 --> 06:59.990
+Cóż, jeśli wrócimy do naszej funkcji, po prostu zauważyliśmy, że robimy
+
+07:00.590 --> 07:11.500
+to w sposób, który nazywamy inicjacją raz dwa razy trzy razy, a następnie cztery razy.
+
+07:11.720 --> 07:15.910
+I tutaj, kiedy w końcu dotarliśmy, powiedzieliśmy, że wróciliśmy.
+
+07:16.130 --> 07:27.420
+Tak więc ta funkcja początkowa zamienia się w dun, a następnie przechodzimy do tej funkcji.
+
+07:27.430 --> 07:34.680
+Teraz problem z tym i wiem, że mylące jest to, że kiedy wróciliśmy, raz wyskoczyliśmy ze
+
+07:34.680 --> 07:41.530
+stosu i jesteśmy teraz w tej części początkowej, ale ten początek nigdy nie zwraca niczego.
+
+07:41.850 --> 07:46.270
+Kiedy funkcja nie zwraca niczego, po prostu wraca do wyszukiwania.
+
+07:46.290 --> 07:49.570
+Musimy więc powtarzać, aby to zrobić.
+
+07:50.070 --> 07:53.400
+I wymachuj nią do samego końca.
+
+07:53.820 --> 07:58.320
+I to jest coś, o czym musisz pamiętać podczas rekursji.
+
+07:58.410 --> 08:05.990
+Zwykle jest to podstawowy przypadek i zawsze chcesz się upewnić, że powrócisz, aby
+
+08:05.990 --> 08:09.860
+uzyskać pożądaną wartość, aż do rozmowy.
+
+08:09.890 --> 08:19.490
+W naszym przypadku wszystko, co musimy zrobić, to powiedzieć o powrocie w ten sposób, że ten początek wie, że powrócił, niezależnie od tego, jaki był
+
+08:19.490 --> 08:25.820
+jego rezultat, i że ten początek wie, aby powrócić do tego, co ten wynik był, co
+
+08:26.000 --> 08:27.200
+znowu zostało zrobione.
+
+08:27.500 --> 08:31.580
+I tak dalej i tak dalej, aż skończymy.
+
+08:31.580 --> 08:33.160
+Zróbmy to jeszcze raz.
+
+08:34.850 --> 08:35.030
+W porządku.
+
+08:35.180 --> 08:45.980
+I muszę zadzwonić, że funkcja była ponownie uruchomiona i uruchomiona, a my zrobiliśmy bardzo bardzo miłe.
+
+08:45.980 --> 08:53.730
+Jeśli wrócę tutaj i wrócę do minusów. Zachęcam do wypróbowania tego w tym momencie, dodając
+
+08:53.730 --> 08:58.780
+słowo kluczowe do Incepcji i uruchamiając debuggera, aby zobaczyć, co się stanie.
+
+08:59.970 --> 09:05.130
+Ale to, co ci pokazałem, to wszystko, czego potrzeba do zbudowania funkcji rekursywnych.
+
+09:05.130 --> 09:07.140
+Masz trzy zasady.
+
+09:07.170 --> 09:21.460
+Jednym z nich jest zidentyfikowanie przypadku bazowego dwa w celu zidentyfikowania przypadku rekurencyjnego.
+
+09:21.500 --> 09:26.520
+Zidentyfikowaliśmy więc sprawę podstawową, aby zatrzymać przypadek rekursywny.
+
+09:26.540 --> 09:30.080
+Wtedy właśnie Konner ma mniej niż trzy.
+
+09:30.180 --> 09:41.510
+I wreszcie naszym trzecim krokiem jest zbliżenie się i powrót w razie potrzeby.
+
+09:42.210 --> 09:48.750
+I zazwyczaj masz dwa zwroty dla przypadku podstawowego i przypadku
+
+09:52.640 --> 09:58.330
+rekurencyjnego, ponieważ chcesz zwrócić coś na końcu funkcji.
+
+09:58.430 --> 10:01.000
+Skomentujmy to.
+
+10:01.010 --> 10:08.690
+Mamy pomysł na to, jak działa rekursja. Funkcja coraz bardziej zbliża się do przypadku
+
+10:08.690 --> 10:09.580
+podstawowego.
+
+10:09.740 --> 10:17.210
+A kiedy dotrze do bazy, w końcu powraca i wyskakuje ze stosu, ale to wystarczy
+
+10:17.210 --> 10:18.350
+mi mówić.
+
+10:18.350 --> 10:24.500
+Sądzę, że nadszedł czas, abyśmy zrobili kilka ćwiczeń kodujących, aby naprawdę zapoznać się z tym tematem.
+
+10:24.530 --> 10:25.830
+Zobaczę w następnym.
+
+10:26.180 --> 10:26.420
+Babai.

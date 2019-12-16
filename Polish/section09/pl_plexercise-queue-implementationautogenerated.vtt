@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.330 --> 00:07.600
+Czas na kolejne ćwiczenie, w którym nauczyliśmy się tworzyć strukturę danych stosu.
+
+00:07.660 --> 00:11.030
+Ale co z nową strukturą danych.
+
+00:11.050 --> 00:15.250
+Na szczęście dla nas wielu zleceniodawców będzie takich samych.
+
+00:15.390 --> 00:21.370
+A jeśli jesteś w stanie zrozumieć, jak działa struktura danych stosu, nie powinieneś mieć problemu z
+
+00:21.460 --> 00:23.420
+budową nowej struktury danych.
+
+00:24.690 --> 00:27.460
+Stworzyłem szablon, aby nas tutaj uruchomić.
+
+00:27.810 --> 00:34.470
+Twoim zadaniem jest stworzenie tych trzech metod, które znamy.
+
+00:34.530 --> 00:42.940
+Chcemy zerknąć i zdobyć pierwszy element w naszej kolejce lub naszej linii, jak to lubię nazywać.
+
+00:43.100 --> 00:49.640
+W naszym konstruktorze zamiast mieć górę i dół, tak jak w przypadku stosu, mamy pierwszego i ostatniego, kto
+
+00:50.060 --> 00:52.670
+pierwszy w kolejce zgubił w linii.
+
+00:52.670 --> 00:56.500
+I oczywiście długość zero.
+
+00:56.660 --> 01:02.720
+Twoim zadaniem jest tworzenie i wypełnianie tych metod na żądanie.
+
+01:02.720 --> 01:09.550
+Pamiętaj, aby dodać do Q, a usunięcie kolejki to usunięcie z kolejki.
+
+01:09.630 --> 01:16.560
+Pamiętaj, że różnica między stosem, który używa popu, polega na tym, że usunięcie kolejki usuwa
+
+01:16.560 --> 01:19.860
+z początku listy wszystko, co pierwsze.
+
+01:19.990 --> 01:21.100
+I znowu, jeśli chcesz.
+
+01:21.100 --> 01:24.700
+Możesz utworzyć inną metodę o nazwie jest pusta.
+
+01:24.700 --> 01:31.930
+Twoim zadaniem jest stworzenie tej kolejki, abyś mógł stworzyć mapę listy oczekujących, w której Joy się ułoży.
+
+01:31.970 --> 01:33.870
+Potem Matt staje w kolejce.
+
+01:33.970 --> 01:35.920
+Potem Pavel staje w kolejce.
+
+01:36.010 --> 01:43.490
+Wtedy sumir staje się w kolejce, a następnie zabijasz je jeden po drugim według zasady kto pierwszy ten lepszy.
+
+01:44.920 --> 01:47.320
+Powodzenia, a do zobaczenia w wideo z rozwiązaniem.

@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.510 --> 00:11.110
+Witamy z powrotem twierdzenie, że wszystko, co może być zaimplementowane rekurencyjnie, może zostać zaimplementowane interaktywnie, dzięki
+
+00:11.630 --> 00:20.370
+czemu można przejść całe życie bez implementacji funkcji rekursywnych i po prostu użyć
+
+00:20.610 --> 00:21.450
+pętli.
+
+00:21.880 --> 00:22.420
+DOBRZE.
+
+00:22.620 --> 00:29.650
+Dlaczego więc mielibyśmy kiedykolwiek pomylić się z tematem takim jak rekurencja, który może być nieco mylący.
+
+00:30.870 --> 00:37.550
+Cóż, w przypadku niektórych problemów łatwiej jest pisać, ale to naprawdę zależy od sytuacji.
+
+00:37.560 --> 00:40.990
+Pamiętaj, że zawsze są dwie opcje.
+
+00:41.100 --> 00:48.300
+Wiesz już, że przy programowaniu zawsze są plusy i minusy, a dobry inżynier to ktoś, kto może
+
+00:48.300 --> 00:52.770
+podejmować właściwe decyzje w oparciu o te plusy i minusy.
+
+00:52.940 --> 01:00.680
+Ale chciałem o tym pamiętać podczas wywiadów, ponieważ ankieterzy proszą o rozwiązanie problemu, a problem,
+
+01:00.740 --> 01:06.730
+który można rozwiązać za pomocą rekursji, można zwykle rozwiązać intuicyjnie.
+
+01:09.770 --> 01:20.160
+A patrząc na naszą funkcję Fibonacciego jest to prostszy przykład rekurencji, ale są chwile, kiedy rekursja może
+
+01:20.370 --> 01:24.330
+utrzymać twój kod w stanie suchości.
+
+01:24.330 --> 01:26.360
+To nie powtarzaj się.
+
+01:26.430 --> 01:34.340
+Duża zasada, jeśli chodzi o programowanie i istnieje wiele problemów związanych z rekurencją, ponieważ stają się coraz
+
+01:34.340 --> 01:42.200
+trudniejsze, gdy używa się funkcji rekursywnych, dzięki czemu kod staje się bardziej czytelny, a także, że
+
+01:42.210 --> 01:48.050
+suszenie jest prostsze, a mniej pętli dzieje się z mylącym kodem.
+
+01:48.540 --> 01:55.800
+I jestem trochę stronniczy, ponieważ chociaż rekursja jest potężną techniką, moim zdaniem nie zawsze jest
+
+01:55.860 --> 01:57.670
+to najlepsze podejście.
+
+01:57.780 --> 02:07.560
+Musisz więc upewnić się, że z powodu lub jego głównej wady, mimo że rekursja może utrzymać twój kod w stanie
+
+02:07.650 --> 02:14.750
+suchym i sprawić, by twój kod był bardziej czytelny, tworzy to dodatkowy ślad pamięci.
+
+02:16.020 --> 02:23.190
+Ponieważ za każdym razem, gdy dodajemy funkcję do stosu wywołań, dodaje ona dodatkową część pamięci.
+
+02:23.430 --> 02:31.020
+Masz więc przypadki, w których można uzyskać przepełnienie stosu lub jeśli system ma kosztowną pamięć, której należy
+
+02:31.020 --> 02:38.060
+unikać wykonywania zbyt wielu wywołań rekursywnych, a dla niektórych rekurencja jest również czymś, o czym trudno
+
+02:38.060 --> 02:39.460
+jest myśleć.
+
+02:39.500 --> 02:45.470
+A jeśli mamy zespół młodych inżynierów programistów, którzy znają rekurencję, która może nie
+
+02:45.470 --> 02:46.870
+być najlepszą opcją.
+
+02:47.880 --> 02:52.770
+Ale główną wadą jest to, że iteracyjne podejścia wydają się być bardziej
+
+02:52.770 --> 03:00.510
+wydajne, ponieważ nie wykonują tych dodatkowych wywołań funkcji, które zajmują przestrzeń stosu, przy czym wadą jest to, że iteracyjne
+
+03:00.510 --> 03:08.790
+rozwiązania mogą nie być tak czytelne, a zasada, którą lubię podążać jest to, że lubię używać rekurencji, gdy pracujesz ze
+
+03:09.250 --> 03:14.410
+strukturami danych, które nie są do końca pewne, na ile głębokie są,
+
+03:14.410 --> 03:17.520
+gdzie nie wiesz, ile pętli przejść.
+
+03:17.650 --> 03:24.370
+I jak widzisz, rekursja jest bardzo użyteczna dla takich rzeczy, jak struktura danych drzewa i wykonywanie
+
+03:24.370 --> 03:26.670
+traversal, ponieważ tak jest często.
+
+03:27.770 --> 03:34.520
+Teraz w następnym filmie chciałbym porozmawiać o tym temacie nieco głębiej i kiedy użyć rekursji.
+
+03:34.640 --> 03:37.500
+Ale chcę szybko wskazać jedną rzecz.
+
+03:38.380 --> 03:43.210
+W wielu językach jest coś, co nazywa się optymalizacją połączeń końcowych.
+
+03:43.220 --> 03:51.510
+I na przykład w JavaScript z 6 pozwala wywoływać rekurencje bez zwiększania stosu wywołań.
+
+03:51.560 --> 03:57.940
+Więcej informacji na ten temat można znaleźć w materiałach dostarczonych w tym filmie, ale także w innych
+
+03:57.940 --> 03:58.500
+językach.
+
+03:58.510 --> 04:03.770
+Istnieją pewne sposoby zapisu rekursji, więc jest więcej pamięci wydajnej.
+
+04:03.940 --> 04:12.600
+Tak więc ten problem z dużym stosem może zostać rozwiązany podczas produkcji, ale porozmawiajmy o ostatecznym wskazówku, kiedy
+
+04:12.600 --> 04:15.070
+używać rekursji w następnym filmie.

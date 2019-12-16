@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.490 --> 00:01.900
+Wróci.
+
+00:02.020 --> 00:03.730
+Jak to zrobiłeś w tym ćwiczeniu.
+
+00:04.530 --> 00:06.180
+Rzućmy okiem na rozwiązanie.
+
+00:06.880 --> 00:09.700
+Zacznijmy od stosów.
+
+00:09.760 --> 00:14.770
+Powiedziałem, że przy stosach mogą być zaimplementowane za pomocą tablic lub połączonych list.
+
+00:14.770 --> 00:20.560
+W tym przypadku zarówno tablice, jak i listy długości będą działały dość dobrze na końcu.
+
+00:20.560 --> 00:24.670
+To zależy od tego, dlaczego wolisz i dlaczego twoje priorytety są.
+
+00:24.670 --> 00:30.820
+I w tym momencie powinieneś zrozumieć zalety i wady tablic oraz plusy i minusy połączonych list.
+
+00:31.000 --> 00:35.420
+Nie musimy więc wchodzić w szczegóły, odkąd już o tym rozmawialiśmy.
+
+00:35.560 --> 00:42.970
+Ale jedną ważną rzeczą jest to, że tablice zezwalają na coś, co nazywa się lokalizacją pamięci
+
+00:42.970 --> 00:50.050
+podręcznej, co sprawia, że są technicznie szybsze, gdy uzyskują dostęp do jej elementów w pamięci,
+
+00:50.470 --> 00:58.450
+ponieważ są tuż obok siebie, a lista łączy je rozproszona, a połączone listy mają dodatkową pamięć z nimi
+
+00:58.450 --> 01:01.990
+związane, ponieważ musimy trzymać się tych wskazówek.
+
+01:01.990 --> 01:06.360
+Ale z drugiej strony mają bardziej dynamiczną pamięć.
+
+01:06.370 --> 01:07.180
+Dobrze.
+
+01:07.420 --> 01:14.890
+I możemy nadal dodawać rzeczy do listy w porównaniu do tablicy, w której macie tablicę statyczną lub tablicę dynamiczną,
+
+01:14.890 --> 01:17.050
+która ma określoną ilość pamięci.
+
+01:17.050 --> 01:22.900
+A gdy tylko osiągnie granicę, będzie musiała podwoić pamięć i stworzyć dla
+
+01:23.010 --> 01:25.590
+niej nową przestrzeń w pamięci.
+
+01:25.630 --> 01:31.960
+Musisz więc zastanowić się, jakie operacje zamierzasz wykonać i dlaczego Twoim priorytetem jest decyzja, który z
+
+01:31.960 --> 01:33.340
+nich chcesz wybrać.
+
+01:33.370 --> 01:40.130
+Ale obaj mogliby pracować, a my zamierzamy zbudować strukturę danych stosu przy obu nadchodzących.
+
+01:41.310 --> 01:45.190
+Cue z drugiej strony jest bardzo prostą odpowiedzią.
+
+01:45.300 --> 01:49.650
+Nigdy nie chciałbyś go zbudować z tablicą lub, jeśli to zrobisz.
+
+01:49.810 --> 01:55.710
+Chociaż nie jest to koniecznie dobry pomysł i najlepiej chcesz je zaimplementować za pomocą połączonych list.
+
+01:55.710 --> 02:02.300
+Dlaczego tak jest dobrze, jeśli pamiętasz tablice mają indeksy z nimi powiązane.
+
+02:02.310 --> 02:05.190
+Jeśli więc tu szaleliśmy, to mamy radość.
+
+02:05.490 --> 02:06.980
+Następnie mamy sumir.
+
+02:07.200 --> 02:10.750
+Mamy Pavela, który jest w środku.
+
+02:10.750 --> 02:19.020
+Q Jeśli było to w strukturze danych macierzy i Matt był pierwszym w kolejności i
+
+02:19.020 --> 02:29.370
+musimy usunąć Matta z kolejki Dobrze, gdy usuniemy Matta, teraz musimy przesunąć indeksy, więc musimy iść jeden po drugim
+
+02:29.490 --> 02:34.950
+i powiedzieć Wszystko w porządku Joy jest teraz tutaj.
+
+02:37.300 --> 02:42.610
+Indeks sumy zerowej to ten wskaźnik wynoszący 1, a Pavel jest indeksem równym 2.
+
+02:42.720 --> 02:45.060
+I nic nie ma indeksu 3.
+
+02:45.120 --> 02:47.120
+Po prostu przenieśliśmy je do wyścigu.
+
+02:47.130 --> 02:57.270
+Jest to operacja linearno-czasowa w porównaniu z czymś w rodzaju połączonej listy, gdzie wszystko, co mamy, jest wskaźnikiem do
+
+02:57.330 --> 03:06.550
+głowy, a następnie może mamy wskaźnik do ogona i wszystko, co musimy zrobić, to powiedzieć: głowa.
+
+03:06.780 --> 03:15.980
+Dobrze Matt chcemy usunąć Matta i radość będzie głową i nic więcej się nie zmieni.
+
+03:16.730 --> 03:19.860
+A to wszystko z jednej operacji lub stałego Konstantyna.
+
+03:20.330 --> 03:24.450
+Mam nadzieję, że jesteś w stanie uzyskać odpowiedź inaczej, przynajmniej teraz wiesz.
+
+03:24.470 --> 03:29.660
+Jest to bardzo częste pytanie, które możesz zadać, mając nadzieję, że masz
+
+03:29.660 --> 03:32.090
+teraz odpowiedź, ale wystarczającą rozmowę.
+
+03:32.160 --> 03:35.590
+Myślę, że nadszedł czas, abyśmy zbudowali te struktury danych od podstaw.
+
+03:36.410 --> 03:38.390
+Zobaczę w następnym filmie Buh-Bye.

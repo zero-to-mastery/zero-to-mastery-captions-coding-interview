@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.070 --> 00:02.140
+Selamat datang kembali.
+
+00:02.450 --> 00:07.260
+Saya harap Anda dapat memikirkan mengapa daftar tautan mungkin baik atau buruk.
+
+00:08.360 --> 00:15.860
+Dalam video ini, mari kita bahas satu hal kunci yang mungkin Anda lihat adalah daftar
+
+00:15.860 --> 00:23.230
+tautan memiliki semacam struktur longgar yang memungkinkan Anda untuk memasukkan nilai ke tengah daftar.
+
+00:24.040 --> 00:32.930
+Dengan hanya mengatur ulang beberapa petunjuk seperti yang kita lihat di animasi saya dapat memasukkan apa pun yang saya
+
+00:33.500 --> 00:39.670
+inginkan dan satu-satunya perubahan yang terjadi adalah di suatu tempat di tengah sini.
+
+00:42.000 --> 00:45.720
+Dan ini sama untuk menghapus simpul dalam daftar tertaut.
+
+00:46.440 --> 00:49.720
+Dan kita ingat dengan bagaimana struktur data array.
+
+00:49.770 --> 00:56.620
+Ketika kami ingin memasukkan sesuatu yang tidak ada di akhir array, kami harus menambahkan item.
+
+00:56.850 --> 01:05.100
+Katakanlah dalam ruang memori satu ke sini dan kemudian geser semua item ke bawah dan indeks ke bawah yang menghabiskan
+
+01:05.100 --> 01:06.220
+banyak waktu.
+
+01:06.240 --> 01:09.210
+Harganya 0 per.
+
+01:09.290 --> 01:18.350
+Perbedaan utama antara array dan daftar tertaut adalah bahwa dalam array elemen atau elemen diindeks.
+
+01:18.410 --> 01:25.030
+Jadi jika saya ingin pergi ke item di indeks 5 saya bisa melakukannya dengan mudah di daftar tertaut.
+
+01:25.100 --> 01:35.900
+Anda mulai dari kepala dan melintasi daftar sampai Anda sampai ke Item 5 yang merupakan 0 dan dan ide traversal ini sama dengan iterasi yang
+
+01:35.900 --> 01:44.920
+kami lakukan dengan menghapus ke mana kami pergi 0 1 2 3 4 5 kecuali kami suka menyebutnya traversal karena
+
+01:44.920 --> 01:49.780
+Anda tidak benar-benar tahu kapan daftar yang ditautkan akan berakhir.
+
+01:49.780 --> 01:53.400
+Anda mulai dari kepala dan terus berjalan sampai Anda menekan No.
+
+01:53.920 --> 01:58.520
+Dan seperti yang akan Anda lihat dalam contoh pengkodean kami, kami harus menggunakan sesuatu seperti loop WHILE.
+
+01:58.630 --> 02:04.480
+Ketika kami menerapkan daftar tertaut kami sendiri karena kami biasanya tidak tahu berapa lama daftar akan
+
+02:05.800 --> 02:12.730
+menjadi keuntungan lain yang mungkin dimiliki oleh array adalah bahwa kebanyakan komputer memiliki sistem caching yang membuat pembacaan dari
+
+02:12.730 --> 02:16.210
+memori berurutan yang merupakan memori tepat bersebelahan .
+
+02:16.270 --> 02:18.290
+Rak tepat di sebelah satu sama lain.
+
+02:18.460 --> 02:21.390
+Lebih cepat daripada membaca alamat yang tersebar.
+
+02:21.580 --> 02:27.610
+Dan itu adalah sesuatu yang telah kita bicarakan tentang item-item array yang selalu berada tepat bersebelahan
+
+02:27.610 --> 02:29.200
+dalam memori komputer.
+
+02:30.150 --> 02:35.480
+Sebaliknya, daftar tautan dan simpul tersebar di seluruh memori.
+
+02:35.700 --> 02:44.080
+Jenis seperti tabel hash sehingga iterasi melalui daftar tertaut atau menelusuri melalui daftar tertaut biasanya sedikit lebih
+
+02:44.230 --> 02:50.210
+lambat daripada beralih melalui item seperti array meskipun mereka secara teknis keduanya
+
+02:50.210 --> 02:51.340
+merupakan sebuah.
+
+02:51.570 --> 02:59.670
+Namun sisipan yang dapat kita lakukan di tengah daftar tertaut jauh lebih baik daripada array.
+
+02:59.670 --> 03:01.140
+Bagaimana dengan tabel hash.
+
+03:01.140 --> 03:09.410
+Ingatlah ini ketika kita berbicara tentang tabel hash dengan baik seperti tabel hash ketika kita memasukkan sesuatu ke dalam daftar tertaut
+
+03:09.410 --> 03:15.620
+kita hanya menyebarkannya ke seluruh memori dan kita bisa terus menambahkan keep menambahkan menambahkan terus menambahkan
+
+03:15.620 --> 03:22.590
+dan kita tidak perlu melakukan apapun itu pada pergeseran atau pergeseran pada indeks yang kami lakukan dengan
+
+03:23.250 --> 03:25.310
+balapan yang benar-benar bagus.
+
+03:26.320 --> 03:32.300
+Anda juga dapat menghapus catatan dengan sangat mudah dibandingkan dengan array.
+
+03:32.510 --> 03:38.750
+Tetapi satu kelebihan yang dimiliki tabel hash adalah bahwa ada semacam urutan untuk menautkan daftar setiap
+
+03:39.290 --> 03:41.170
+titik pada catatan berikutnya.
+
+03:41.240 --> 03:46.360
+Jadi Anda dapat mengurutkan data seperti tabel hash.
+
+03:46.390 --> 03:55.120
+Jadi jika kita melihat deretan besar daftar tertaut kita dapat melihat prepend itu yang merupakan bahasa umum yang kita katakan
+
+03:55.270 --> 03:58.180
+untuk ditambahkan ke awal daftar tertaut.
+
+03:58.180 --> 04:03.380
+Prebend adalah 0 1 append yang ada di akhir daftar.
+
+04:03.400 --> 04:11.200
+Untuk menambahkan item baru adalah dari satu pencarian yang kami juga dapat memanggil traversal untuk mencari item.
+
+04:11.200 --> 04:17.500
+Katakanlah kita ingin menemukan 10 juga karena kita harus pergi dari kepala sampai kita menemukan apa yang
+
+04:17.770 --> 04:18.760
+kita cari.
+
+04:19.940 --> 04:27.650
+Sisipkan juga dari Karena kita harus pergi satu per satu menemukan indeks.
+
+04:27.650 --> 04:32.870
+Kita tidak tahu berapa lama lagi daftar yang ditautkan adalah kita menemukan indeks dan kemudian
+
+04:32.870 --> 04:37.550
+memasukkan di sana yang secara teknis dapat mengambil dan lagi sesuatu yang
+
+04:37.550 --> 04:45.150
+akan kita terapkan dalam kode dan memiliki pemahaman yang lebih baik tentang dan menghapus juga semua Vende karena kita harus menemukan barang.
+
+04:45.170 --> 04:50.460
+Sekarang Anda berpikir untuk menahan diri pada insert dan delete dan array juga semuanya.
+
+04:50.480 --> 04:52.960
+Jadi bagaimana itu lebih baik.
+
+04:53.020 --> 04:57.340
+Dan itu adalah sesuatu yang akan kita bahas ketika kita benar-benar melihat kodenya.
+
+04:57.340 --> 05:05.110
+Ingat, ini adalah kasus terburuk yang kami sisipkan atau hapus item terakhir dan sebagian besar waktu itu tidak akan
+
+05:05.140 --> 05:07.200
+menjadi kasus daftar yang ditautkan.
+
+05:07.360 --> 05:13.030
+Sekali lagi sesuatu yang akan kita bicarakan sedikit ketika kita mengkodekan daftar tertaut kita sendiri
+
+05:13.030 --> 05:18.960
+tetapi melihat diagram seperti ini sangat sulit untuk benar-benar memahami cara kerjanya dan berapa panjang daftar itu.
+
+05:19.130 --> 05:20.490
+Jadi kita akan membuat kode sendiri.
+
+05:21.020 --> 05:25.670
+Dan video berikutnya kita akan berbicara tentang bagian terakhir dari teka-teki ini apa itu pointer.
+
+05:25.700 --> 05:32.000
+Dan akhirnya kodekan daftar tertaut kami sendiri sehingga kami memahami implikasi big-O sedikit lebih baik.
+
+05:33.330 --> 05:34.670
+Saya akan melihat yang itu.
+
+05:34.750 --> 05:34.980
+Babai.

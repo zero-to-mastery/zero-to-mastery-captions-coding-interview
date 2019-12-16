@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.740 --> 00:09.210
+Sudah waktunya untuk berbicara tentang struktur data ketiga kami dan kami akan berbicara tentang dua jenis
+
+00:09.210 --> 00:19.360
+daftar tertaut di video berikutnya yang akan datang secara terpisah dan dua kali lipat terkait daftar masalah apa yang kami hadapi dengan balapan
+
+00:20.580 --> 00:22.980
+yang baik dengan array statis.
+
+00:23.010 --> 00:30.220
+Kami hanya memiliki sejumlah data atau memori yang dapat dialokasikan bersebelahan dalam memori
+
+00:30.220 --> 00:36.490
+tetapi kemudian array dinamis dan array statis dapat meningkatkan memori mereka.
+
+00:36.490 --> 00:43.080
+Setelah mencapai batas tertentu dan menggandakan memori itu di lokasi lain tetapi operasi
+
+00:43.080 --> 00:50.940
+itu sesekali menggandakan array untuk membuat lebih banyak memori memiliki implikasi kinerja dan biaya kita semua
+
+00:51.390 --> 01:00.060
+dari array Selain itu juga memiliki kinerja yang buruk untuk segala jenis operasi seperti menyisipkan dan menghapus yang
+
+01:00.360 --> 01:07.560
+harus menggeser indeks, terutama ketika Anda memasukkan atau menghapus kata apa pun yang bukan
+
+01:07.560 --> 01:09.390
+akhir dari array.
+
+01:10.670 --> 01:12.640
+Dan kemudian datang tabel hash.
+
+01:12.650 --> 01:13.580
+Mereka hebat.
+
+01:13.700 --> 01:19.160
+Kami cukup banyak menyimpan barang di mana pun kami inginkan dan memori dan tabel hash hanya akan mengurusnya untuk kami
+
+01:19.160 --> 01:21.430
+dan tahu di mana harus menyimpannya dalam memori.
+
+01:22.440 --> 01:25.680
+Kami tidak perlu khawatir tentang beberapa masalah yang datang dengan perlombaan.
+
+01:25.680 --> 01:30.710
+Hidup itu baik tetapi sayangnya mereka tidak benar-benar diperintahkan.
+
+01:30.810 --> 01:33.260
+Jadi bagaimana kita bisa menyelesaikan masalah ini.
+
+01:33.480 --> 01:35.480
+Linked Linked ke penyelamatan.
+
+01:35.850 --> 01:41.910
+Jadi apakah ini berarti kita semua seharusnya hanya menggunakan daftar tertaut sepanjang waktu dalam mengabaikan array
+
+01:41.910 --> 01:45.750
+dan tabel hash karena daftar tertaut adalah struktur data terbaik.
+
+01:45.840 --> 01:46.370
+Tidak.
+
+01:46.710 --> 01:50.490
+Seperti selalu ada pengorbanan ketika datang ke struktur data.
+
+01:50.520 --> 01:56.430
+Jadi, dalam video mendatang, mari kita pelajari lebih lanjut tentang hal itu sehingga kita bisa mendapatkan gambar yang lebih jelas.
+
+01:57.810 --> 02:05.060
+Ngomong-ngomong, ingat diagram ini yang saya tunjukkan dalam video tabel hash dan saya katakan bahwa ketika
+
+02:05.060 --> 02:06.440
+kita memiliki tabrakan.
+
+02:06.440 --> 02:10.210
+Salah satu cara untuk mengatasinya adalah menggunakan sesuatu seperti ini.
+
+02:11.710 --> 02:14.590
+Dan kami tidak tahu apa struktur data ini.
+
+02:14.740 --> 02:22.230
+Yah ini John Smith ke Sandra Dee dan panah kecil ini menunjuk itu daftar tertaut.
+
+02:22.300 --> 02:25.240
+Jadi mari kita mulai dan mempelajari daftar tautan.

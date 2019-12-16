@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.750 --> 00:09.340
+Pentru a rezolva problemele de coaching trebuie să învățăm aceste structuri de date și acești algoritmi.
+
+00:09.390 --> 00:10.900
+Nu arata asa de rau.
+
+00:11.970 --> 00:13.500
+Iată marele secret.
+
+00:13.500 --> 00:18.620
+Există mult mai multe structuri de date în acest și mult mai mulți algoritmi decât acesta.
+
+00:19.390 --> 00:26.500
+Dar, ca atunci când învățați o limbă nouă, nu citiți dicționarul și învățați fiecare
+
+00:26.500 --> 00:28.590
+cuvânt din acel dicționar.
+
+00:28.600 --> 00:34.170
+Și acest limbaj În schimb, vă concentrați asupra capacității de a comunica cu ceilalți.
+
+00:34.210 --> 00:37.700
+Te concentrezi doar asupra lucrurilor care sunt folosite de cele mai multe ori.
+
+00:37.960 --> 00:43.240
+Iar când vine vorba despre structurile și algoritmii de date, acestea sunt locul unde veți fi
+
+00:43.240 --> 00:50.710
+întrebat și interviurile, deoarece acestea sunt cele care se folosesc cel mai mult și 90% din timp pentru a rezolva o problemă
+
+00:50.710 --> 00:54.100
+cu adevărat complexă pe care o utilizați numai lucruri.
+
+00:54.130 --> 00:55.560
+Nu arata asa de rau.
+
+00:55.900 --> 01:02.340
+Tot ce aveți nevoie este abilitățile liniei de bază și companiile vor doar să știe că ați pregătit pentru interviu și
+
+01:02.340 --> 01:04.300
+puteți reuși în cadrul sistemului lor.
+
+01:05.200 --> 01:10.330
+O mulțime de oameni se plâng de codificarea interviurilor sau a interviurilor de la bord și de cât de
+
+01:10.330 --> 01:15.880
+inutile sunt deoarece nu folosesc niciodată unii dintre acești algoritmi sau structuri de date în munca lor de zi cu zi.
+
+01:17.090 --> 01:21.550
+Dar ele sunt doar o modalitate de a elimina oamenii care nu sunt dispuși să muncească din greu.
+
+01:23.040 --> 01:24.720
+Uitați-vă la acest avantaj.
+
+01:24.870 --> 01:27.200
+Nu mulți oameni lucrează la interviurile lor.
+
+01:27.300 --> 01:32.220
+Veți lucra mai mult decât 99% dintre oamenii de acolo, deoarece știți că obținerea
+
+01:32.220 --> 01:36.280
+unei slujbe bune va avea un impact important asupra vieții voastre.
+
+01:36.450 --> 01:38.310
+Și vreau să zic de asta iei cursul.
+
+01:38.430 --> 01:42.420
+Și după cum vedeți aici, vestea bună este că nu este așa de greu pe cât credeți.
+
+01:42.420 --> 01:49.800
+Trebuie doar să vă puneți timpul și efortul în lucrurile potrivite, atâta timp cât învățăm structurile noastre corecte de date.
+
+01:49.890 --> 01:54.360
+Când și de ce să le folosiți cum să le implementați cum să rezolve problemele cu ei.
+
+01:54.360 --> 02:02.580
+Și același lucru cu algoritmii și îl combinăm cu foaia de înșelătorie pe care o voi crea pentru dvs atunci când comparăm codul
+
+02:02.580 --> 02:04.520
+nostru care poate fi citit.
+
+02:04.680 --> 02:11.780
+Aceasta este memorie eficientă și eficientă în timp, folosind big-O între aceste două.
+
+02:12.060 --> 02:16.460
+Asta e tot interviul că toate interviurile de codificare cer.
+
+02:16.920 --> 02:24.300
+Dacă ne întoarcem la cursul online pe parcursul cursului, intrăm în secțiunea interviu tehnic.
+
+02:24.630 --> 02:29.790
+Și când fac clic pe aici, va apărea la început copleșitor și vom trece
+
+02:29.790 --> 02:32.810
+peste această diagramă, așa că are sens.
+
+02:32.880 --> 02:37.310
+Vom vorbi despre diferite structuri de date pe care le avem.
+
+02:37.410 --> 02:38.780
+Să mergem puțin aici.
+
+02:39.790 --> 02:44.620
+Puteți vedea că vom vorbi despre stive de arbori, grafice și multe altele.
+
+02:44.620 --> 02:48.640
+Vom vorbi despre O mare de fiecare dintre aceste structuri de date.
+
+02:48.700 --> 02:54.610
+Vom vorbi despre algoritmi diferiți când să folosim ceea ce și așa cum am spus că va
+
+02:54.640 --> 03:01.030
+părea copleșitor la început, dar vom trece prin acest pas cu pas, astfel încât la sfârșitul tuturor acest lucru
+
+03:01.030 --> 03:02.450
+are sens pentru tine.
+
+03:02.470 --> 03:10.650
+De asemenea, vom folosi foaia de înșelătorie aici pentru a ne ajuta să rezolvăm aceste probleme de codificare.
+
+03:10.690 --> 03:15.060
+Acum, în această foaie de înșelătorie am acoperit deja cei trei piloni de cod bun.
+
+03:15.070 --> 03:21.070
+Am vorbit deja despre abilitățile pe care intervievatorul îl caută, dar nu am
+
+03:21.400 --> 03:23.770
+vorbit despre această parte.
+
+03:23.900 --> 03:25.870
+Deci, să începem cu această secțiune în următorul videoclip.

@@ -1,0 +1,547 @@
+WEBVTT
+
+00:01.490 --> 00:08.040
+Ora che sappiamo usare gli array dove sono veloci dove ci sono lenti, entreremo in
+
+00:08.040 --> 00:15.690
+una parte che non è cruciale per le interviste, ma è bene capire come funzionano e come costruire
+
+00:15.690 --> 00:17.010
+un array.
+
+00:17.010 --> 00:22.070
+Molto probabilmente in un'intervista non ti verrà chiesto di costruire loro ray dall'inizio.
+
+00:22.410 --> 00:30.690
+Ma io voglio costruire quelle fondamenta per te in modo da comprendere una gara da un livello fondamentale.
+
+00:31.780 --> 00:35.730
+Quindi costruiamo un array noi stessi.
+
+00:35.820 --> 00:41.580
+Ora in questo video useremo la sintassi della classe in javascript, quindi creeremo
+
+00:41.580 --> 00:48.750
+una classe dell'array anche se con javascript e molti altri linguaggi possiamo farlo e abbiamo creato
+
+00:48.930 --> 00:50.270
+un array.
+
+00:50.280 --> 00:53.120
+Vediamo se possiamo costruire uno dei nostri.
+
+00:53.490 --> 01:00.210
+Perché, come scoprirai mentre attraversiamo questo corso, le strutture dati sono semplicemente cose che possiamo
+
+01:00.210 --> 01:01.870
+costruire da zero.
+
+01:01.890 --> 01:04.140
+Possiamo creare qualsiasi struttura dati che vogliamo.
+
+01:04.140 --> 01:07.260
+Possiamo creare la nostra struttura dati.
+
+01:07.260 --> 01:13.590
+Le strutture dati più comuni sono ben note e sono già state implementate nella maggior parte delle lingue
+
+01:13.590 --> 01:15.110
+perché sono così utili.
+
+01:15.540 --> 01:23.520
+Ma sei in grado di costruire qualsiasi struttura dati che desideri da zero e scoprirai che la maggior parte delle
+
+01:23.520 --> 01:27.140
+strutture dati sono costruite su altre strutture di dati.
+
+01:27.890 --> 01:33.950
+Ora per iniziare creeremo un array in javascript ma solo un avviso.
+
+01:34.100 --> 01:41.690
+Javascript è un po 'un interessante caso case in javascript sono solo oggetti con chiavi basate su interi che
+
+01:41.750 --> 01:45.740
+agiscono come indici e questo è ciò che costruiremo.
+
+01:45.920 --> 01:49.070
+Lingue diverse avranno questa implementazione in modo diverso.
+
+01:49.070 --> 01:56.980
+Ma ciò che impareremo qui sarà ancora applicabile a come gli array funzionano in altre lingue.
+
+01:57.050 --> 02:01.310
+Quindi inizieremo con la creazione di una classe.
+
+02:01.330 --> 02:11.530
+Iniziamo con la creazione di un corso e chiameremo questo il mio array.
+
+02:11.720 --> 02:19.570
+E all'interno dell'array avrà un costruttore che è la funzione iniziale che verrà eseguita
+
+02:20.110 --> 02:27.130
+quando creeremo questo Mirei e questo costruttore avrà due punti dati.
+
+02:27.220 --> 02:35.830
+Uno è la proprietà length perché con un array siamo in grado di determinare la lunghezza dell'array e la
+
+02:36.100 --> 02:38.370
+lunghezza iniziale sarà zero.
+
+02:38.410 --> 02:45.330
+Ecco quanti oggetti ha l'array e quindi ovviamente avremo i dati all'interno dell'array.
+
+02:45.470 --> 02:48.710
+E questo sarà un oggetto.
+
+02:48.740 --> 02:56.390
+Ora qual è l'azione più comune che abbiamo in un array è stato l'accesso per accedere ai dati.
+
+02:56.630 --> 03:04.410
+Quindi creiamo un metodo get e questo metodo otterrà un indice per prelevare effettivamente i dati
+
+03:04.500 --> 03:05.530
+dalla memoria.
+
+03:05.640 --> 03:16.310
+Quindi dirò semplicemente di restituire questi dati punto e se questa parola chiave ti confonde assicurati di lavare
+
+03:16.430 --> 03:18.640
+il video precedente.
+
+03:18.650 --> 03:23.630
+Questi dati si riferiscono solo a questi dati che abbiamo creato nel costruttore.
+
+03:23.840 --> 03:32.270
+E stiamo solo restituendo i dati all'indice che stiamo richiedendo.
+
+03:32.290 --> 03:35.090
+Vediamo come funzionerebbe in azione.
+
+03:36.590 --> 03:44.490
+Per creare un nuovo Mirei tutto ciò che dobbiamo fare è dire Konst nuovo
+
+03:47.520 --> 03:59.770
+array e usiamo la nuova parola chiave in javascript per creare un'istanza di questo o creare una copia di questa classe come questa.
+
+03:59.770 --> 04:12.240
+Così ora se faccio console di dialogo nuovo array e faccio clic su Esegui ottenere il mio array che ha lunghezza della proprietà di
+
+04:12.480 --> 04:15.650
+0 e dati che è vuoto.
+
+04:15.770 --> 04:25.010
+Se faccio un nuovo punto dell'array ottengo un indice zero pari a zero, ottengo undefined.
+
+04:25.370 --> 04:36.110
+Bene perché non c'è nulla in questo oggetto non abbiamo idee e Javascript ha automaticamente il tipo su
+
+04:36.180 --> 04:39.490
+definito quando non c'è nulla.
+
+04:39.860 --> 04:46.500
+Aggiungiamo il nostro prossimo metodo che è il metodo push per aggiungere qualcosa alla fine dell'array.
+
+04:46.580 --> 04:54.310
+Quindi creerò un metodo push e questo metodo prenderà un oggetto che gli daremo
+
+04:54.320 --> 04:58.280
+e qui aggiungeremo semplicemente questo ai dati.
+
+04:59.110 --> 05:05.750
+Sopra l'oggetto lo aggiungerà alla lunghezza del nostro oggetto.
+
+05:05.780 --> 05:10.140
+Quindi perché abbiamo zero elementi e la lunghezza è 0.
+
+05:10.250 --> 05:12.600
+Questo aggiungerà i dati.
+
+05:12.650 --> 05:23.650
+Questo indice dei dati DOD zero e l'indice zero conterrà semplicemente l'oggetto e poiché vogliamo continuare
+
+05:23.650 --> 05:37.280
+ad aggiungere elementi se vogliamo, diciamo questo punto lec plus plus perché ora il nostro array ha una lunghezza di
+
+05:37.280 --> 05:40.080
+1 invece di 0.
+
+05:40.310 --> 05:47.570
+Quindi la prossima volta che eseguiremo il metodo push questo lenth dobbed sarà 1 e il nuovo elemento
+
+05:47.660 --> 05:49.750
+verrà aggiunto all'indice di 1.
+
+05:49.920 --> 05:55.210
+E ora restituiamo questo punto per ora.
+
+05:56.540 --> 06:02.830
+Poiché il tipico metodo push in javascript di solito restituisce la lunghezza dell'array.
+
+06:02.840 --> 06:05.220
+Facciamolo e vediamo cosa succede.
+
+06:05.240 --> 06:09.600
+Lo dirò quaggiù.
+
+06:09.610 --> 06:10.000
+Bene.
+
+06:10.150 --> 06:16.230
+Avremo un nuovo punto dot push e stiamo andando a spingere.
+
+06:17.400 --> 06:27.420
+Se eseguo questo vedo che ho il mio array di lunghezza 1 dati avrà una proprietà 0 0.
+
+06:27.460 --> 06:28.790
+Ciao carino.
+
+06:28.990 --> 06:38.440
+Che cosa succede se aggiungiamo un'altra cosa facciamo un nuovo punto dot array e ti diremo che se eseguo questo comando ho lenth of two.
+
+06:38.440 --> 06:46.640
+Ora con l'indice 0 aggiungi alto o l'indice 0 ha un indice alto di quello che hai.
+
+06:46.660 --> 06:47.630
+Molto bello
+
+06:48.400 --> 06:49.200
+Cos'altro possiamo fare.
+
+06:49.240 --> 06:54.570
+Bene, aggiungiamo il comando pop per rimuovere l'ultimo elemento dell'array.
+
+06:55.500 --> 07:01.100
+Ancora una volta abbiamo il metodo pop che non riceve nulla.
+
+07:01.110 --> 07:02.910
+Non abbiamo bisogno di passarlo un parametro.
+
+07:03.120 --> 07:07.170
+Tutto ciò che dobbiamo fare è eliminare l'ultimo elemento nell'array.
+
+07:07.230 --> 07:10.010
+Possiamo semplicemente avere una variabile.
+
+07:10.140 --> 07:17.680
+Diciamo l'ultimo elemento che cattura l'ultimo oggetto nel nostro oggetto dati.
+
+07:17.700 --> 07:26.300
+Quindi questo sarà semplicemente l'indice dei dati DOD di lenth meno un membro.
+
+07:26.320 --> 07:32.310
+Vogliamo l'indice di uno anche se la lunghezza a perché contiamo 0 1.
+
+07:32.560 --> 07:42.730
+Vogliamo l'ultimo elemento nei dati e da qui possiamo semplicemente usare la parola chiave di cancellazione in javascript
+
+07:42.730 --> 07:49.480
+e pronunciare questo punto dati in questo punto lenth meno 1.
+
+07:49.570 --> 07:56.190
+Basta eliminare quell'elemento e ovviamente dobbiamo diminuire.
+
+07:56.320 --> 08:04.310
+Quindi solo una scorciatoia qui e javascript per ridurre la lunghezza dei nostri dati di uno.
+
+08:04.460 --> 08:09.990
+E finalmente possiamo solo restituire l'articolo che abbiamo cancellato.
+
+08:10.000 --> 08:17.510
+Quindi ora se eseguo un altro comando e tra l'altro potresti vedere qui che ho perso il punto e virgola in
+
+08:17.510 --> 08:18.090
+javascript.
+
+08:18.110 --> 08:20.820
+Il più delle volte puoi farcela senza aggiungere punti e virgola.
+
+08:20.840 --> 08:24.740
+E alcune persone non usano affatto il punto e virgola in javascript.
+
+08:24.740 --> 08:26.270
+Non farti distrarre troppo da quello.
+
+08:26.270 --> 08:30.380
+A volte dimentico e non è molto importante almeno per i nostri scopi.
+
+08:30.560 --> 08:40.750
+Aggiungiamo un nuovo elemento all'array che diventerà il punto esclamativo e dirò il mio
+
+08:41.170 --> 08:56.120
+o il nuovo pop Peridot se eseguo questo, ricevo un errore dicendo item perché questo dovrebbe essere l'ultimo elemento qui y'all.
+
+08:56.130 --> 08:57.360
+Facciamolo di nuovo.
+
+08:57.550 --> 09:00.580
+E vediamo che è alto te.
+
+09:00.790 --> 09:03.600
+Perché il segno di somma è stato cancellato.
+
+09:03.610 --> 09:05.480
+Se eseguo di nuovo
+
+09:08.380 --> 09:13.620
+il pop vedo che ho il lenth di uno e solo l'alto rimane molto bello.
+
+09:15.360 --> 09:21.900
+Bene, aggiungiamo un ultimo e mostriamo perché alcune operazioni in una corsa sono 0.
+
+09:21.990 --> 09:25.750
+Quindi aggiungeremo il metodo delete e il
+
+09:28.990 --> 09:33.630
+metodo delete prenderà un indice quale elemento vogliamo eliminare.
+
+09:35.890 --> 09:39.610
+E qui dovremo fare un costo.
+
+09:39.610 --> 09:46.980
+Quindi creeremo un riferimento a questo indice di dati puntini che è l'elemento che vogliamo eliminare.
+
+09:48.820 --> 09:51.910
+E come lo cancelleremo.
+
+09:51.910 --> 10:00.340
+Perché ricorda in un array che dovremo eliminare l'elemento, quindi spostare l'indice di tutti gli altri
+
+10:00.340 --> 10:10.110
+tipi di dati di uno perché vogliamo seguire le buone pratiche di codifica usando l'idea del principio di responsabilità
+
+10:10.110 --> 10:11.120
+singola.
+
+10:11.130 --> 10:17.820
+Aggiungiamo una funzione che fa questo per noi che fa lo spostamento dei dati per noi.
+
+10:17.910 --> 10:27.510
+Creerò un nuovo metodo e lo facciamo in javascript utilizzando questo spostamento di sintassi e questo
+
+10:27.780 --> 10:33.860
+metodo prenderà l'indice che abbiamo ricevuto qui e l'eliminazione.
+
+10:33.880 --> 10:42.890
+Ora in questo turno gli oggetti possiamo crearlo qui e salvare il metodo degli elementi maiuscoli.
+
+10:43.050 --> 10:49.050
+E dal modo in cui uso le parole, la funzione e i metodi in modo intercambiabile a volte
+
+10:49.530 --> 10:53.520
+il metodo significa semplicemente è una funzione all'interno di una classe.
+
+10:53.520 --> 10:59.730
+Quindi questo spostamento di oggetti sarà un metodo del mio array.
+
+11:00.600 --> 11:01.790
+Ma è una funzione.
+
+11:01.830 --> 11:10.920
+Quindi questa funzione che è un metodo di Mirei avrà il parametro index passato in esso.
+
+11:11.140 --> 11:13.090
+Ed è qui che facciamo cose divertenti.
+
+11:13.150 --> 11:15.770
+Dovremo scorrere gli articoli.
+
+11:15.940 --> 11:23.350
+Quindi questo è un ciclo for che dovrebbe suonare il campanello e dire oh questo è un
+
+11:23.350 --> 11:30.200
+O di un'operazione avremo un indice pari a zero o ho zero invece che zero.
+
+11:30.200 --> 11:40.130
+Ricorda perché vogliamo spostare gli elementi, non tutti, proprio da dove inizia l'indice, diciamo indice.
+
+11:40.470 --> 11:44.720
+E ora dovrò essere questo Studd lenth.
+
+11:45.120 --> 11:50.630
+Quindi sono meno di questo lenth meno uno.
+
+11:50.820 --> 11:57.790
+E aumenteremo di volta in volta ogni volta attraverso il ciclo all'interno di questo ciclo,
+
+11:57.790 --> 12:08.660
+tutto quello che faremo è dire che questi dati puntuali i nostri dati ad ogni indice che andiamo a loopare equivarranno a questi
+
+12:09.630 --> 12:13.420
+dati punto a I più uno .
+
+12:13.860 --> 12:23.610
+Quello che è appena successo qui, stiamo dicendo dall'inizio all'indice che vogliamo iniziare a cancellare e scorrere
+
+12:23.790 --> 12:26.520
+tutto fino alla fine.
+
+12:26.820 --> 12:35.970
+E all'interno di questo ciclo voglio che tu prenda ogni elemento nei dati che abbiamo e invece di quello che aveva prima che
+
+12:36.150 --> 12:41.250
+volessi aggiungere i dati che gli sono proprio accanto a più 1.
+
+12:41.610 --> 12:45.920
+Quindi avevamo un array che è zero e 2.
+
+12:46.410 --> 12:57.170
+Sto dicendo dall'indice di 0 qui che voglio che tu ora faccia 0 uguale a 2.
+
+12:57.200 --> 12:59.360
+Quindi l'indice di E-plus lo farà.
+
+12:59.520 --> 13:07.020
+Quindi spostiamo gli elementi a sinistra di 1.
+
+13:07.200 --> 13:09.220
+Quindi siamo passati qui.
+
+13:09.420 --> 13:19.780
+Tutti gli articoli uno a sinistra e perché abbiamo fatto che l'indice che abbiamo dato per
+
+13:19.780 --> 13:25.380
+l'eliminazione viene automaticamente sostituito perché quell'occhio verrà sostituito.
+
+13:26.520 --> 13:37.240
+Ora c'è un problema qui giusto perché ora l'ultimo elemento nella matrice che è questo punto dati in
+
+13:37.330 --> 13:45.100
+questo punto lenth meno 1, che è l'ultimo elemento nella matrice, esiste ancora.
+
+13:45.460 --> 13:54.430
+Abbiamo spostato tutto di uno a uno, ma non l'abbiamo mai toccato l'ultima notte perché ci siamo fermati
+
+13:54.760 --> 13:59.280
+quando sono meno di questa lunghezza meno uno.
+
+13:59.320 --> 14:03.620
+Quindi questo è ancora pieno.
+
+14:03.700 --> 14:09.800
+Quindi ho intenzione di commentare questo e solo di mostrarti cosa succede se lo lasciamo in questo modo.
+
+14:09.910 --> 14:11.470
+Ho intenzione di
+
+14:14.420 --> 14:23.560
+eseguire il nuovo array dot delete e ho intenzione di rimuovere i comandi pop per ora e nella cancellazione ho
+
+14:23.590 --> 14:27.540
+intenzione di dire che voglio eliminare l'elemento U.
+
+14:27.580 --> 14:32.710
+Quindi questo è l'indice di 1 5 eseguito questo.
+
+14:32.920 --> 14:37.200
+Mi alzo è cancellato.
+
+14:37.480 --> 14:40.760
+Ma poi ho un punto esclamativo un indice di 1.
+
+14:40.780 --> 14:43.410
+Quindi lo spostamento funziona ma l'indice di 2.
+
+14:43.420 --> 14:50.670
+Avevo ancora il punto esclamativo perché, anche se non l'abbiamo mai cancellato, abbiamo spostato tutto una volta ma non ci siamo
+
+14:50.670 --> 14:51.750
+mai toccati.
+
+14:51.840 --> 14:52.930
+Indice di due.
+
+14:53.280 --> 15:03.130
+Quindi tutto ciò che dobbiamo fare per eliminare questa è la parola chiave di cancellazione per eliminare l'ultimo elemento e
+
+15:03.340 --> 15:09.330
+ovviamente per documentare la nostra lunghezza perché eliminiamo solo un elemento.
+
+15:09.440 --> 15:13.980
+Possiamo fare questo Dodd lenth meno meno.
+
+15:14.060 --> 15:21.560
+Se eseguiamo questo ora, guardate la lunghezza di due punti esclamativi alti.
+
+15:21.580 --> 15:25.250
+Giochiamo un piccolo giro per assicurarci che tutto funzioni qui.
+
+15:25.330 --> 15:31.700
+Se diciamo aggiungo un altro paio di comandi push qui e diremo qui.
+
+15:32.250 --> 15:33.740
+Ciao, lo sei.
+
+15:33.850 --> 15:43.460
+E poi diciamo che bello se gestisco questo ottengo un forte punto esclamativo sono belle.
+
+15:43.530 --> 15:44.310
+Questo non ha senso.
+
+15:44.310 --> 15:45.990
+Cambiamo questo a zero.
+
+15:45.990 --> 15:49.020
+Per rimuovere l'alto.
+
+15:49.020 --> 15:51.720
+Se eseguo questo, ti prendo.
+
+15:51.720 --> 15:54.950
+Il punto esclamativo è bello.
+
+15:55.260 --> 15:56.540
+Ciò non ha ancora senso.
+
+15:56.550 --> 16:00.710
+Togliamo il punto esclamativo in modo che ne abbiamo solo alcuni belli.
+
+16:00.810 --> 16:03.870
+Ho intenzione di eseguire il nuovo array.
+
+16:04.720 --> 16:09.760
+E possiamo cancellare l'indice di 1 che è il punto esclamativo.
+
+16:10.020 --> 16:11.760
+E vediamo cosa otteniamo.
+
+16:11.910 --> 16:20.670
+Poi corro questo e ti faccio piacere.
+
+16:20.720 --> 16:24.580
+Ora puoi guardare questo e vuoi aggiungere i tuoi metodi.
+
+16:24.770 --> 16:34.100
+Si potrebbe desiderare di dire qui di restituire l'ultimo elemento solo come riferimento, che è come funziona in
+
+16:34.460 --> 16:35.190
+Javascript.
+
+16:36.340 --> 16:43.360
+Ma penso che per ora tu abbia una comprensione di come funzionano gli array e di come vengono implementati sotto
+
+16:43.360 --> 16:44.230
+il cofano.
+
+16:44.260 --> 16:49.070
+Abbiamo semplici tutti e 1 i comandi che sono davvero molto belli.
+
+16:49.180 --> 16:56.670
+Ma non appena dobbiamo iniziare a spostare gli indici e cambiare le cose, dobbiamo ricorrere a delle cose
+
+16:56.790 --> 17:00.930
+che rendono o un evento o un tempo lineare.
+
+17:00.980 --> 17:06.860
+Ho intenzione di lasciare questo per te come un parco giochi dopo questa lezione in modo da poter aggiungere le
+
+17:06.870 --> 17:12.050
+tue cose, magari lo scrivi in lingue diverse ed esplora un po 'di più in una gara.
+
+17:12.230 --> 17:14.260
+Ma questo video sta già diventando lungo.
+
+17:14.270 --> 17:17.890
+Non voglio annoiarmi troppo ora, quindi vedrò nel prossimo video.
+
+17:17.990 --> 17:18.290
+Buh-Bye.

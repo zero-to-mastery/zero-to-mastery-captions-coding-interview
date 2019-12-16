@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.180 --> 00:07.600
+When a program executes it has two ways to remember things.
+
+00:07.600 --> 00:18.020
+The heap and the stack the heap is usually where we store variables that we assign values to and the
+
+00:18.020 --> 00:24.790
+stack is usually where we keep track of our function calls.
+
+00:24.840 --> 00:32.600
+Sometimes we want to optimize for using less memory instead of using less time talking about memory
+
+00:32.630 --> 00:34.220
+or space complexity.
+
+00:34.340 --> 00:37.540
+Is very similar to talking about the time cost.
+
+00:37.610 --> 00:44.570
+We simply look at the total size relative to the size of the input and see how many new variables or
+
+00:44.570 --> 00:47.150
+new memory we're allocating.
+
+00:47.360 --> 00:49.740
+How much memory is being used.
+
+00:49.790 --> 00:51.850
+So let's look at an example.
+
+00:52.190 --> 00:58.640
+Up to this point we've talked about time complexity and how if we want to compress let's say some boxes
+
+00:59.210 --> 01:03.640
+we just talked about how fast and how many operations this would take.
+
+01:03.950 --> 01:12.800
+But in real life there's this other factor of memory and we have this pink little box of how much this
+
+01:12.980 --> 01:17.410
+function can take how much input it's able to take.
+
+01:17.510 --> 01:25.790
+For example if we had eight hundred of boxes that we have to create to run this function well has limited
+
+01:25.790 --> 01:29.320
+capacity and it might overflow.
+
+01:29.480 --> 01:35.660
+By the way things like Stack Overflow is something we're going to be talking about and how it's an issue
+
+01:35.660 --> 01:40.300
+when it comes to memory something we'll cover when we get into recursion.
+
+01:41.310 --> 01:45.300
+What causes this space complexity.
+
+01:45.300 --> 01:50.060
+Well luckily for you I added this to our chichi.
+
+01:50.250 --> 01:59.250
+What causes space complexity while adding variables adding data structures like arrays objects hash
+
+01:59.250 --> 02:06.290
+tables again things will talk about function calls and allocations.
+
+02:06.460 --> 02:08.280
+You don't need this PIERI.
+
+02:08.500 --> 02:14.290
+But let's actually code something and show you an example in the next video.
+
+02:14.320 --> 02:21.010
+We'll go through some space complexity exercises and figure out how we can give the go notation to the
+
+02:21.010 --> 02:21.520
+subject.

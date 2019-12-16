@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.230 --> 00:12.540
+Una este o structură de date, o structură de date este o colecție de valori. Algoritmii sunt pașii sau procesele pe care le punem în
+
+00:12.540 --> 00:16.550
+aplicare pentru a manipula această colecție de valori.
+
+00:17.640 --> 00:21.160
+Este ceea ce ne permite să scriem programe.
+
+00:21.460 --> 00:29.770
+O persoană care știe cum funcționează structurile și algoritmii de date și cum să le folosească poate să scrie
+
+00:29.770 --> 00:31.440
+programe programe excelente.
+
+00:31.440 --> 00:38.910
+Frumusețea este că acestea sunt nesfârșite, indiferent de limbajul de programare pe care îl folosiți dacă preferați o singură
+
+00:39.090 --> 00:46.920
+bibliotecă în raport cu cealaltă dacă scrieți un cod unghiular sau reacționați în lumea de dezvoltare din față sau sunteți
+
+00:47.400 --> 00:49.440
+un dezvoltator de jocuri.
+
+00:49.740 --> 00:54.360
+Sub ea sunt toate structurile și algoritmii de date.
+
+00:54.360 --> 01:01.310
+Dacă înțelegeți acest lucru, puteți să vă adaptați cu ușurință și să abordați tot felul de probleme tehnice.
+
+01:02.160 --> 01:10.770
+Acesta este motivul pentru care companiile precum Facebook Amazon Netflix Google adresează întrebări specifice structurilor de date și algoritmilor,
+
+01:10.770 --> 01:18.090
+deoarece, deși poate fi important să cunoașteți ultima și cea mai mare sintaxă javascript sau
+
+01:18.150 --> 01:26.610
+poate cea mai recentă și cea mai mare bibliotecă, aceste lucruri se schimbă dacă cunoașteți fundamentele, vă aruncă
+
+01:26.610 --> 01:31.700
+orice problemă orice situație în care puteți lua decizia corectă.
+
+01:32.040 --> 01:34.560
+Aceste cunoștințe sunt extrem de valoroase.
+
+01:34.650 --> 01:40.770
+Cu cât vă aflați mai mult pe teren, cu atât mai mult vă dați seama că aveți nevoie de aceste
+
+01:40.800 --> 01:46.270
+principii fundamentale ale structurilor și algoritmilor de date pentru a fi un mare dezvoltator sau inginer.
+
+01:46.350 --> 01:47.900
+Deci, să începem cu asta.
+
+01:48.090 --> 01:54.030
+În următoarele câteva secțiuni avem un drum lung de parcurs pentru a ne familiariza cu structurile și algoritmii de date.
+
+01:54.030 --> 01:54.710
+Deci am dreptate.
+
+01:54.720 --> 01:56.110
+Programe minunate.
+
+01:56.220 --> 01:57.100
+Să începem.

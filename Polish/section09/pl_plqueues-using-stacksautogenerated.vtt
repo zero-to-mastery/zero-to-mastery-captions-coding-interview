@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.710 --> 00:08.280
+Odprowadź jeden z najczęściej zadawanych pytań, jeśli chodzi o wskazówki i stosy.
+
+00:08.530 --> 00:12.360
+Zaimplementuj cue za pomocą stosów.
+
+00:12.590 --> 00:19.080
+Yep można zaimplementować za pomocą stosów.
+
+00:19.260 --> 00:25.380
+Jest to szczególnie łatwe, jeśli tworzysz stos używając wyścigu.
+
+00:25.410 --> 00:34.170
+Teraz pytanie dotyczy kodu Leatta, który jest naprawdę bardzo dobry, ponieważ jesteśmy w stanie zobaczyć wyjaśnione
+
+00:35.720 --> 00:40.360
+rozwiązania, a także rozwiązania w różnych językach.
+
+00:40.400 --> 00:50.850
+Jeśli przejdziesz do dyskusji i wypiszesz, powiedzmy javascript, otrzymamy rozwiązania, które ludzie złożyli także głosy DNC, jak
+
+00:50.940 --> 00:54.750
+również odpowiedź, jak to zrobić.
+
+00:54.900 --> 00:59.140
+Jeśli chcesz sprawdzić Python, powiedzmy, że piszesz w Pythonie.
+
+00:59.160 --> 01:00.780
+Cóż, oni też to mają.
+
+01:02.000 --> 01:05.360
+Każdy język, który chcesz, możesz znaleźć tutaj.
+
+01:06.320 --> 01:09.900
+Teraz mam odpowiedź także dla ciebie.
+
+01:09.980 --> 01:17.330
+A w tym wideo tutaj i dostępnych zasobach zobaczysz REPL z moją odpowiedzią na ten
+
+01:17.330 --> 01:18.350
+temat.
+
+01:18.350 --> 01:23.380
+Ale chcę rzucić ci wyzwanie i udawać, że jesteś w wywiadzie, aby wprowadzić w życie.
+
+01:23.390 --> 01:24.860
+Q Używanie stosów.
+
+01:24.950 --> 01:26.440
+Jak byś to zrobił.
+
+01:27.800 --> 01:34.560
+Możesz nawet kodować na stronie głównej kodu, jeśli chcesz używać dowolnego języka.
+
+01:34.560 --> 01:41.810
+I tylko główka tutaj, jeśli używasz javascript, że używają prototypowego sposobu dodawania metod,
+
+01:42.510 --> 01:48.180
+ale składnia klasy, którą ci pokazałem, jest nowszą wersją.
+
+01:48.210 --> 01:49.310
+Jest pod maską.
+
+01:49.320 --> 01:52.280
+Jest to dokładnie to samo, co prototyp dot.
+
+01:52.320 --> 01:55.820
+Jednak wygląda na czystsze przy użyciu składni klasy.
+
+01:55.860 --> 01:59.300
+Dlatego właśnie tak nam się to przydarzyło.
+
+01:59.310 --> 02:03.180
+Baw się dobrze, a ja podam link do kodu rozwiązania.
+
+02:03.910 --> 02:04.500
+Właśnie tutaj.

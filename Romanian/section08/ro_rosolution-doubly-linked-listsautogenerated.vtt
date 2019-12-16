@@ -1,0 +1,292 @@
+WEBVTT
+
+00:01.270 --> 00:02.190
+Bine ai revenit.
+
+00:02.390 --> 00:12.290
+Avem lista noastră cu lungimea inițială și tocmai am aflat că lista noastră legată este de fapt o listă
+
+00:12.290 --> 00:18.320
+singulară, dar vrem să o convertim acum într-o listă dublată.
+
+00:19.090 --> 00:25.300
+Așa că adăugăm acea caracteristică sigură a unui indicator suplimentar.
+
+00:25.510 --> 00:27.670
+Cum vom face asta?
+
+00:28.120 --> 00:33.210
+Să mergem liniștit și, din fericire, nu este așa de dificil.
+
+00:34.810 --> 00:41.970
+După cum vă puteți imagina dacă mergem liniar și intrăm în constructor, o singură piesă suplimentară de informații
+
+00:41.970 --> 00:49.140
+pe care trebuie să o adăugăm acum este că avem și un pointer anterior și că acest indicator anterior
+
+00:49.260 --> 00:50.630
+nu va începe.
+
+00:50.640 --> 00:52.910
+Deci, capul va indica faptul că nu.
+
+00:53.460 --> 00:55.960
+Și totul rămâne același.
+
+00:56.930 --> 01:00.730
+Dar ce se întâmplă atunci când adăugăm ceva bine.
+
+01:00.770 --> 01:08.240
+Încă o dată vom adăuga o notă nouă care are și proprietatea anterioară o proprietate nouă care
+
+01:08.240 --> 01:14.440
+indică zero și încă vom avea punctul de coadă următor egal cu noul nod.
+
+01:14.590 --> 01:23.980
+Și acest lucru nu se schimbă, dar singura linie care se schimbă este că trebuie să adăugăm o proprietate
+
+01:23.980 --> 01:28.060
+anterioară, deoarece amintesc adăugați adăugarea la sfârșitul listei.
+
+01:28.060 --> 01:35.380
+Vrem să adăugăm proprietatea anterioară la cea egală cu cea de la sfârșitul listei originale înainte de a
+
+01:35.380 --> 01:36.640
+face actualizarea.
+
+01:36.700 --> 01:46.240
+Deci, tot ce trebuie să facem este să spunem un nod nou că precedentul va egala acest punct până la ultimul
+
+01:46.930 --> 01:51.700
+element înainte de a fi actualizat aici la noul nod.
+
+01:51.720 --> 01:54.260
+Să vedem dacă append funcționează așa cum o avem.
+
+01:54.780 --> 02:04.550
+Am de gând să defilați aici și să comentați tot acest cod, cu excepția primelor două linii.
+
+02:05.350 --> 02:07.320
+Adăugați cinci și adăugați 16.
+
+02:07.390 --> 02:15.020
+Dacă dau clic aici, primesc o listă dublată care are o valoare de 10.
+
+02:15.050 --> 02:23.590
+OK, care indică la următorul, care este nodul următor, vedem valoarea 5 care indică un obiect
+
+02:23.590 --> 02:30.220
+pe care nu-l cunoaștem încă și, de asemenea, indică un obiect anterior.
+
+02:30.430 --> 02:39.050
+Și în acest 10 nod vom vedea că punctele anterioare să știm pentru că nu există nimic înaintea capului.
+
+02:39.190 --> 02:48.730
+Dacă ne uităm la acea coadă vedem că coada are acum o valoare de 16, nu este
+
+02:48.730 --> 02:59.710
+pentru că este coada este sfârșitul, dar nodul anterior indică și acest nod 5, iar lista dublu legată are
+
+02:59.710 --> 03:02.660
+o lungime de trei.
+
+03:02.700 --> 03:03.240
+Foarte tare.
+
+03:03.240 --> 03:07.260
+Deci tot ce am adăugat este această referință anterioară.
+
+03:07.410 --> 03:09.490
+Să facem același lucru și pentru Prebend.
+
+03:09.570 --> 03:12.090
+Asta se adaugă la începutul listei.
+
+03:12.090 --> 03:22.560
+Ne defilam până la prebend noi din nou doriți să adăugați o nouă proprietate, care va fi precedent, care va fi egal să
+
+03:22.590 --> 03:24.080
+știți pentru moment.
+
+03:24.480 --> 03:32.850
+Și dorim să păstrăm totul în același mod în care vrem să ne asigurăm că noul punct al nodului următor
+
+03:32.850 --> 03:36.340
+va indica orice este capul în prezent.
+
+03:36.450 --> 03:43.950
+Dar, de asemenea, dorim să spunem că acest punct a avut punctul precedent anterior ar trebui să indice acum noul nostru
+
+03:44.250 --> 03:46.410
+nod, deoarece nu mai este capul.
+
+03:46.860 --> 03:53.730
+Și apoi putem actualiza trebuie să fie nodul nostru și acest punct lenth va crește și vom reveni
+
+03:53.730 --> 03:54.880
+la asta.
+
+03:55.410 --> 04:00.210
+Dacă dau clic pe alerga aici, amintiți-vă unde prepending 1.
+
+04:00.220 --> 04:03.140
+Deci, adăugăm 1 la începutul listei.
+
+04:03.320 --> 04:10.400
+Vedem că există o listă dublă legată acum are un cap cu o valoare care indică
+
+04:10.400 --> 04:16.950
+următoarea valoare care este 10 și coada noastră este încă aceeași poveste este 16.
+
+04:16.970 --> 04:20.310
+Asta arată valoarea a cinci.
+
+04:20.780 --> 04:29.150
+Deci, dacă vom imprima anul trecut un nou 10 5:16 așa cum ne-am așteptat.
+
+04:29.160 --> 04:31.620
+Cum rămâne cu inserția.
+
+04:31.770 --> 04:32.720
+Cum ar funcționa asta.
+
+04:33.650 --> 04:41.960
+Dacă mergem să introducem metoda aici și să mergem linia în linie, această primă parte este OK.
+
+04:42.080 --> 04:43.000
+Avem un nou nod.
+
+04:43.010 --> 04:50.800
+Deci, din nou, vom adăuga o proprietate anterioară care va fi cunoscută pentru că acum încă luăm capul
+
+04:50.800 --> 04:52.190
+și traversăm indexul.
+
+04:53.100 --> 04:56.260
+Dar acum trebuie să facem lucrurile puțin diferit.
+
+04:56.800 --> 05:02.310
+Trebuie să-i luăm pe lider și pe urmaș.
+
+05:02.320 --> 05:11.550
+Deci, dacă ați dori să adăugați nouăzeci și nouă de aici, trebuie să luați o referință la 10 lider și, de asemenea, următorul
+
+05:11.830 --> 05:12.590
+5.
+
+05:13.140 --> 05:16.100
+Deci voi schimba numele liderului Don următoare.
+
+05:16.110 --> 05:22.390
+Asta este 5 aici pentru a spune urmașul.
+
+05:22.840 --> 05:30.430
+Astfel, liderul noului nostru nod și urmașul nostru, pe care îl cunoașteți acum, vor fi acum cei cinci pe care
+
+05:31.480 --> 05:33.970
+îi vom actualiza pe liderul următor.
+
+05:33.970 --> 05:41.860
+Așa că este vorba de cinci sau de lider făcut în continuare, care este ceea ce vine după 10 pentru a fi noul nod sunt
+
+05:42.960 --> 05:47.970
+nouăzeci și nouă, iar apoi noul NU făcut în continuare va fi egal cu următorul.
+
+05:48.240 --> 05:50.480
+Sunt cinci.
+
+05:50.630 --> 05:59.920
+Dar, de asemenea, dorim să ne asigurăm că nodul nostru nou primit va fi egal cu liderul.
+
+06:00.290 --> 06:10.960
+Acesta este cel de-al 10-lea și, de asemenea, asigurați-vă că următorul care este cel de-al cincilea are o valoare
+
+06:10.960 --> 06:15.070
+anterioară care indică noul nostru nod.
+
+06:15.080 --> 06:22.800
+Deci, dacă tipăresc aici lista cu inserția pe care am inserat-o, valoarea ar fi doar pentru a verifica dacă
+
+06:22.800 --> 06:23.680
+totul funcționează.
+
+06:23.730 --> 06:35.460
+Mă voi consola Daut log acest lucru care este lista noastră de link-uri dacă fac clic pe Run Vad că lista noastră de link-uri are o lenth de 5 și voi
+
+06:36.030 --> 06:42.420
+schimba doar pentru a indice un astfel încât să putem vedea în ieșirea noastre aici .
+
+06:42.450 --> 06:49.470
+Și când spun indexul unu, faceți clic pe executare, văd că capul este acum valoarea unuia din următorul și elementul are
+
+06:49.470 --> 06:50.820
+valoarea de 99.
+
+06:51.240 --> 06:59.730
+Așa cum ne-am așteptat și are atât proprietăți viitoare, cât și cele anterioare și nu este chiar așa de
+
+07:00.030 --> 07:04.200
+rău atâta timp cât vizualizați pașii și desenați diagramele.
+
+07:04.200 --> 07:11.220
+Tot ceea ce facem este să spunem adăugați noul nod sau să-l atragem pe lider să îndrepte,
+
+07:11.230 --> 07:19.470
+apoi să notați atunci că știi că acum să îndrepți spre lider și noul nod ar trebui să indice după el
+
+07:19.650 --> 07:24.430
+lângă următorul și următorul va îndrepta acum înapoi la noul nod.
+
+07:24.530 --> 07:30.560
+S-ar putea să trebuiască să treceți prin asta în pălăria dvs. sau să vă uscați pe hârtie, dar ar trebui
+
+07:30.560 --> 07:37.010
+să aibă sens acum și, la sfârșitul zilei, listele legate singure și listele dublu legate nu sunt atât de diferite, după cum vedeți.
+
+07:37.010 --> 07:41.700
+Tot ce facem este doar să vedem un alt indicator care să indice nota anterioară.
+
+07:42.520 --> 07:50.110
+Am de gând să las lista de eliminare a conexiunii până la tine pentru a pune în aplicare propria dvs.
+
+07:50.110 --> 07:56.590
+Și lista dublu legată, așa cum ați învățat până acum, ar trebui să fie foarte diferită
+
+07:56.730 --> 07:59.600
+de ceea ce am făcut în inserție.
+
+08:00.040 --> 08:03.870
+Dar sper că aveți o înțelegere a modului în care funcționează listele de link-uri.
+
+08:03.870 --> 08:11.230
+Acum intervievatorii iubesc să pună întrebări pe toate listele legate, deoarece necesită o mulțime de informații care să fie ținute în capul
+
+08:11.230 --> 08:16.420
+tău și după cum puteți vedea că pot fi cu adevărat complicate dacă nu
+
+08:16.420 --> 08:21.740
+sunteți tipul de persoană care se gândește clar prin pașii lor și înțelege ce ei fac.
+
+08:21.760 --> 08:25.640
+Unul câte unul și pașii sunt foarte importanți.
+
+08:25.660 --> 08:29.940
+Acesta este motivul pentru care intervievatorii iubesc această întrebare, deoarece într-adevăr înțeleg modul în care credeți.
+
+08:31.220 --> 08:37.400
+Iar cu listele de link-uri pe măsură ce tragi de ce faci pas cu pas, devine cu adevărat foarte
+
+08:37.400 --> 08:37.810
+ușor.
+
+08:37.820 --> 08:42.200
+Atâta timp cât nu începeți să-l codificați din memorie.
+
+08:42.200 --> 08:43.730
+Doar trageți pașii.
+
+08:43.730 --> 08:47.010
+Gândiți-vă la pașii dvs. și intervievatorul va fi impresionat.
+
+08:47.800 --> 08:48.760
+Voi vedea în următorul.

@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.660 --> 00:10.580
+Che cos'è una lista collegata come suggerisce il nome è una lista che è collegata Andre.
+
+00:10.630 --> 00:11.770
+Non è molto utile.
+
+00:11.770 --> 00:13.910
+Puoi davvero spiegarcelo.
+
+00:13.930 --> 00:14.310
+Tutto ok.
+
+00:14.410 --> 00:17.130
+Bene, ho un piccolo diagramma qui per te.
+
+00:18.020 --> 00:28.050
+Una lista o in questo caso, come scopriremo presto, una lista concatenata contiene un insieme di note e pensa ai nodi
+
+00:28.050 --> 00:30.470
+come a questi blocchi.
+
+00:31.300 --> 00:40.130
+Sia il pane che il blocco verde insieme sono una nota in cui queste note hanno due elementi il valore dei dati che si
+
+00:40.370 --> 00:41.260
+desidera memorizzare.
+
+00:41.270 --> 00:47.210
+In questo caso il numero cinque e un puntatore al prossimo nodo in linea.
+
+00:47.570 --> 00:56.560
+Quindi puoi vedere che il blocco verde qui punta al nodo successivo, il primo nodo è chiamato testa.
+
+00:56.780 --> 01:04.880
+E l'ultimo nodo è chiamato la coda ora, a seconda di alcune persone che amano chiamare la coda tutto
+
+01:05.180 --> 01:09.600
+ciò che è dopo la testa, includendo questo blocco qui.
+
+01:09.720 --> 01:20.250
+Ma preferisco il termine tail che rimanda all'ultima nota. Infine, le liste collegate sono quelle che chiamiamo null terminated,
+
+01:20.460 --> 01:26.220
+il che significa che è la fine della lista.
+
+01:26.400 --> 01:31.080
+Quindi sappiamo che questo è il nodo di coda perché punta a.
+
+01:31.150 --> 01:33.350
+No, non c'è niente che viene dopo.
+
+01:34.270 --> 01:40.460
+Ora puntatore è un termine che senti molto nella programmazione e nell'informatica.
+
+01:40.600 --> 01:44.870
+E abbiamo un video in arrivo che parla di cosa sia effettivamente un puntatore.
+
+01:45.220 --> 01:52.200
+Ma sfocate solo sugli elenchi collegati, perché ora potete vedere che si tratta di una struttura dati molto semplice.
+
+01:53.010 --> 01:59.220
+È semplicemente un elemento che si collega al prossimo elemento che si collega
+
+01:59.220 --> 02:06.430
+al prossimo elemento e continua ad andare avanti fino all'ultimo elemento che punta a no puoi ordinarli.
+
+02:06.430 --> 02:09.070
+Puoi averli ordinati e puoi averli.
+
+02:09.220 --> 02:13.130
+No, contiene praticamente qualsiasi tipo di dati.
+
+02:13.190 --> 02:17.460
+Ma diamo un'occhiata ad alcuni pseudo-codice.
+
+02:17.500 --> 02:22.040
+Fino ad ora abbiamo imparato come funzionano gli array e qui posso semplicemente creare un array semplice.
+
+02:22.120 --> 02:31.090
+Diciamo un cesto che contiene la nostra lista della spesa abbiamo le mele che abbiamo le uve più
+
+02:31.090 --> 02:35.120
+deliziose della soda e abbiamo le pere.
+
+02:35.160 --> 02:41.520
+Ora come possiamo avere un carrello che non è un array ma una lista collegata.
+
+02:42.800 --> 02:48.970
+Bene, possiamo solo dire che la nostra lista collegata e questo non è codice vero e proprio solo pseudo codice.
+
+02:49.100 --> 02:58.430
+Posso dire che la nostra lista collegata conterrà mele che poi indicano l'uva che poi indica le pere e queste piccole
+
+03:00.730 --> 03:06.660
+frecce sono essenzialmente indicatori che dicono che le mele devono bucare l'uva.
+
+03:06.740 --> 03:10.410
+Ricorda che questo non è in realtà codice Sto solo creando un buon diagramma per te.
+
+03:12.080 --> 03:20.240
+Un diagramma più accurato potrebbe essere qualcosa del genere in cui abbiamo mele in memoria dello spazio di memoria di diciamo
+
+03:20.240 --> 03:28.580
+un 9 4 7 e questo nodo punta al nodo successivo che è uva che si trova in questa posizione in memoria
+
+03:28.580 --> 03:34.650
+e quindi quel nodo punta a Parigi questo è in questa posizione nella memoria.
+
+03:34.700 --> 03:39.510
+E poiché questa è la fine della lista, la storia punta a no.
+
+03:39.550 --> 03:44.230
+Ora stai pensando a te stesso Andre Come mai non stai solo codificando
+
+03:44.230 --> 03:52.170
+questo in javascript, mostraci come funzionano le liste collegate e Javascript e fermati con questo pseudo codice jibberistico. Ben javascript in
+
+03:52.170 --> 03:55.590
+realtà non viene fornito con gli elenchi collegati.
+
+03:55.590 --> 04:00.880
+Ricorda cosa ho detto che lingue diverse hanno strumenti diversi a loro disposizione.
+
+04:01.330 --> 04:10.060
+Lingue come Java hanno liste collegate mentre javascript non viene pre-costruito con liste collegate.
+
+04:10.900 --> 04:13.470
+Ma fortunatamente per noi possiamo costruirne uno.
+
+04:13.730 --> 04:18.850
+Ed è per questo che di solito fai programmazione quando non hai qualcosa da costruire.
+
+04:18.890 --> 04:24.290
+E abbiamo gli elementi costitutivi per essere in grado di costruire una lista collegata e questo
+
+04:24.650 --> 04:32.170
+è quello che faremo come parte di un esercizio in arrivo, ma prima di codificare la nostra lista concatenata e creare la nostra struttura
+
+04:32.500 --> 04:35.590
+di dati dell'elenco collegato, facciamo un divertimento piccolo esercizio.

@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.080 --> 00:02.250
+Witamy spowrotem.
+
+00:02.580 --> 00:11.160
+Porozmawiajmy o nowych strukturach danych tutaj mamy stosy i Qs Qs z prawdopodobnie najbardziej
+
+00:11.220 --> 00:13.500
+mylącą pisownią wszechczasów.
+
+00:13.500 --> 00:18.860
+Nie martw się, nawet ja, który mówię płynnie po angielsku, bardzo trudno jest to przeliterować.
+
+00:18.900 --> 00:20.380
+Ale to wskazówki.
+
+00:20.430 --> 00:27.120
+W każdym razie nie martw się sama struktura danych nie jest tak myląca jak pisownia tej struktury danych.
+
+00:27.810 --> 00:34.820
+Będziemy uczyć się w tym samym czasie stosów w kolejkach, ponieważ są bardzo podobne.
+
+00:34.860 --> 00:42.450
+Są one tym, co nazywamy liniowymi strukturami danych, a liniowe struktury danych pozwalają nam na
+
+00:42.450 --> 00:51.750
+przechodzenie, które przechodzą kolejno przez elementy danych jeden po drugim, w którym tylko jeden element danych może zostać bezpośrednio osiągnięty.
+
+00:51.750 --> 00:57.420
+A stanie się to dla ciebie bardziej jasne, ponieważ mówimy więcej o stosach i kolejkach w następnych
+
+00:57.420 --> 00:58.410
+kilku filmach.
+
+00:59.150 --> 01:06.860
+Powodem, dla którego są one bardzo podobne, jest to, że można je zaimplementować w podobny sposób, a główną
+
+01:06.920 --> 01:12.690
+różnicą jest tylko to, jak elementy są usuwane z tej struktury danych.
+
+01:12.740 --> 01:18.830
+W przeciwieństwie do tablicy w stosach w kolejkach, nie ma operacji dostępu losowego.
+
+01:18.830 --> 01:24.500
+Używasz głównie stosów i kolejek do uruchamiania poleceń takich jak popowy szczyt pop.
+
+01:24.980 --> 01:31.480
+Wszystkie dotyczą wyłącznie elementu na początku lub na końcu struktury danych.
+
+01:31.490 --> 01:35.500
+Teraz po tym, jak powiedziałem, co było twoją pierwszą myślą.
+
+01:35.690 --> 01:39.200
+Czy to brzmi tak, że ogranicza to stosy i kolejki?
+
+01:39.350 --> 01:45.590
+Zwykle mamy dostęp tylko do pierwszego lub ostatniego elementu i struktury danych.
+
+01:45.620 --> 01:48.170
+Dlaczego mielibyśmy kiedykolwiek chcieć użyć czegoś takiego?
+
+01:48.920 --> 01:51.560
+I to jest ważny temat w informatyce.
+
+01:51.680 --> 01:59.390
+Zobaczysz, że możemy budować rzeczy takie jak stosy i Qs, które używają tablic lub list powiązanych, z wyjątkiem
+
+01:59.840 --> 02:07.820
+innych tablic i list powiązanych, mamy mniej metod lub mniej akcji, które możemy wykonać na stosach i Qs, a
+
+02:07.820 --> 02:14.950
+czasami dobrze jest mieć te dane na wyższym poziomie struktury budowane na podstawie niższych poziomów, takich jak
+
+02:14.950 --> 02:20.470
+połączone listy i tablice, aby ograniczyć operacje, które można na nich wykonywać.
+
+02:20.470 --> 02:23.580
+To w rzeczywistości korzyść z informatyki.
+
+02:23.620 --> 02:30.370
+Posiadanie tej ograniczonej zdolności w strukturze danych jest zaletą, ponieważ możesz to kontrolować.
+
+02:30.370 --> 02:36.790
+Ktokolwiek korzysta z tej struktury danych, wykonuje tylko efektywne operacje zapisu.
+
+02:36.790 --> 02:43.420
+Jeśli dajesz komuś wszystkie narzędzia na świecie, to jest o wiele trudniejsze w obsłudze, niż gdybyś
+
+02:43.420 --> 02:48.320
+dał im dwa lub trzy, aby wiedzieli dokładnie, co powinni zrobić.
+
+02:48.340 --> 02:53.230
+Porozmawiajmy teraz o stosach i kolejkach w następnych kilku filmach, aby naprawdę zrozumieć, jak
+
+02:53.230 --> 02:53.740
+działają.
+
+02:53.770 --> 02:55.810
+A potem wreszcie zakoduj nasze własne.
+
+02:56.110 --> 02:57.540
+Zobaczę w następnym.
+
+02:57.780 --> 02:58.030
+Babai.

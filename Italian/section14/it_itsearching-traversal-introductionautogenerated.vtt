@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.560 --> 00:07.400
+Abbiamo parlato della ricorsione e dell'ordinamento, ne abbiamo ancora alcuni da fare.
+
+00:07.560 --> 00:14.970
+E in questa sezione parleremo di ricerca e attraversamento, compresa la prima ricerca e la
+
+00:15.180 --> 00:21.380
+prima ricerca di profondità è qualcosa che facciamo molto sui nostri computer.
+
+00:21.380 --> 00:27.320
+Quando abbiamo parlato della classificazione di alcuni di voi potrebbe essere stato come l'uomo, in realtà non sembra così
+
+00:28.040 --> 00:29.320
+utile, ma cercare.
+
+00:29.540 --> 00:32.210
+Lo usiamo tutti i giorni, no?
+
+00:32.210 --> 00:34.590
+Cerchiamo file sul nostro computer.
+
+00:34.970 --> 00:44.030
+FACCIAMO il comando af e cerchiamo le cose cerchiamo parole e documenti cerchiamo Google cerchiamo youtube cerchiamo gli hashtag su
+
+00:44.630 --> 00:51.220
+Twitter e la ricerca su Instagram è una parte importante della nostra vita.
+
+00:51.350 --> 00:56.660
+Ma come sono tutti questi computer e programmi in grado di cercare le cose così velocemente.
+
+00:57.660 --> 01:03.060
+Ci sono sempre più dati in questo mondo sempre più siti Web da cercare.
+
+01:03.060 --> 01:06.180
+Come siamo in grado di fare queste cose così velocemente.
+
+01:06.180 --> 01:09.310
+In che modo Google è in grado di fare queste cose così velocemente.
+
+01:09.600 --> 01:14.130
+Bene in questa sezione costruiremo questa base su come tutto funziona.
+
+01:15.470 --> 01:21.110
+E parleremo di alcuni tipi di ricerca e attraversamento e, si
+
+01:21.110 --> 01:27.670
+spera, alla fine di tutto ciò che capirete come funzionano Facebook e Google Maps.
+
+01:28.010 --> 01:33.000
+Quando si tratta di cercare a un livello fondamentale, iniziamo.

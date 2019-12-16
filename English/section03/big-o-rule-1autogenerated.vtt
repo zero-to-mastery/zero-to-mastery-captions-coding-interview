@@ -1,0 +1,139 @@
+WEBVTT
+
+00:01.130 --> 00:02.120
+Welcome back.
+
+00:02.120 --> 00:09.440
+Let's talk about the very first role when it comes to big-O that is worst case when calculating big.
+
+00:09.460 --> 00:14.040
+Oh we always think about the worst case.
+
+00:14.150 --> 00:18.120
+What do I mean by that well if we go back to Finding Nemo for example
+
+00:20.940 --> 00:28.690
+and find Nemo function you may have been screaming at me while I was going through the function saying
+
+00:28.690 --> 00:31.080
+that Andre This is not efficient.
+
+00:31.090 --> 00:32.190
+What are you doing.
+
+00:32.590 --> 00:40.230
+Because if you look at this function we're looping through the entire array to find Nemo.
+
+00:41.520 --> 00:49.170
+Remember how we had the every one array with about 10 different characters from Finding Nemo.
+
+00:50.290 --> 00:56.980
+Well Nemo was only the one two three fourth member on this array.
+
+00:57.400 --> 01:02.600
+And when we run this function we found Nemo.
+
+01:03.020 --> 01:11.240
+But the funny thing is this function ran 10 times not four times.
+
+01:11.450 --> 01:24.620
+If I do a console log here and I say running and let's click this we see that this function ran one
+
+01:24.680 --> 01:30.120
+two three four five six seven eight nine ten.
+
+01:30.380 --> 01:36.300
+I mean we already found Nemo all these runs are pretty wasteful.
+
+01:36.430 --> 01:41.390
+So we can make this function a little bit more efficient in javascript.
+
+01:41.410 --> 01:48.050
+We can just have something called break.
+
+01:48.210 --> 01:53.020
+And again different languages have different ways of exiting out of a loop.
+
+01:53.090 --> 02:02.060
+If a condition is met in our case if we find Nimo just break out of this loop if I do this and click
+
+02:02.060 --> 02:04.330
+run will get that.
+
+02:04.400 --> 02:09.390
+Once we found Nimo we're done we're not going to loop through the rest of the items.
+
+02:09.410 --> 02:10.450
+Congratulations.
+
+02:10.490 --> 02:13.970
+We just made our code a little bit more efficient.
+
+02:14.420 --> 02:15.430
+That's a good thing right.
+
+02:16.420 --> 02:19.050
+Well when it comes to big O.
+
+02:19.570 --> 02:21.160
+Although this is important.
+
+02:21.220 --> 02:27.130
+And when you write good code this is something that we want to do in the big scheme of things.
+
+02:27.160 --> 02:32.520
+Big-O only cares about the worst case what is the worst case here.
+
+02:32.680 --> 02:40.480
+Well the worst case is that Nimo is set of being the fourth item is at the very end.
+
+02:43.480 --> 02:51.730
+So even if we have this break statement we're still going to run as 10 times because Neema at the end.
+
+02:51.850 --> 02:56.450
+Best case is if Nemos at the very beginning and we only have to loop through it once.
+
+02:56.590 --> 03:05.810
+But worst case we're still going to have to go through 10 loops still big o of.
+
+03:05.840 --> 03:15.410
+And so this is our very first rule the very first rule is we always care about what is the worst case
+
+03:15.410 --> 03:20.990
+scenario because when we talk about scalability we can't just assume things are going well even though
+
+03:21.140 --> 03:33.630
+the find Nimo function might be of one if Nimo is the very first item in the array it doesn't matter
+
+03:33.840 --> 03:39.720
+in the grand scheme of things because we can't be certain of what the input is going to be.
+
+03:39.750 --> 03:51.940
+We're going to assume that all of the go is of linear time again if we're finding a yellow box and the
+
+03:51.940 --> 03:54.160
+yellow box is at the very end.
+
+03:54.340 --> 03:58.060
+We have to iterate through all the boxes.
+
+03:58.310 --> 04:05.470
+If the yellow box at the very beginning you see that we don't have to iterate through these boxes but
+
+04:05.470 --> 04:07.360
+big-O doesn't really care.
+
+04:07.360 --> 04:13.900
+Even though this function yes is indeed more efficient at the end of the day when we talk about big-O
+
+04:14.290 --> 04:17.070
+we're talking about worst case.
+
+04:17.100 --> 04:19.300
+All right I hope you got that point through.
+
+04:19.360 --> 04:24.950
+I feel like I've beaten to a pulp so you should be comfortable with it by now.
+
+04:25.120 --> 04:27.530
+Let's talk about the next role on the next video.

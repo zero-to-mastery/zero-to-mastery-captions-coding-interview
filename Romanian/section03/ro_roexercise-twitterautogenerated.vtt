@@ -1,0 +1,226 @@
+WEBVTT
+
+00:01.220 --> 00:07.480
+Bine, să facem un exercițiu distractiv pentru a vă arăta că de fapt ați devenit un inginer mai bun.
+
+00:07.550 --> 00:09.270
+Să avem o situație.
+
+00:09.290 --> 00:16.740
+Să presupunem că lucrați la Twitter și sper că toată lumea știe Twitter aici.
+
+00:16.980 --> 00:26.910
+Dacă lucrați la Twitter și șeful dvs. v-a cerut să construiți o caracteristică, probabil o caracteristică care permite oricui să facă clic pe
+
+00:27.300 --> 00:35.430
+un buton de lângă numele său și să-și recupereze cele mai recente tweeturi și toate acestea sunt doar
+
+00:35.610 --> 00:36.120
+tweet.
+
+00:36.210 --> 00:44.310
+Deci, acesta este primul lor tweet și ultimul lor tweet bazat pe notația Big-O și ceea ce știm
+
+00:44.310 --> 00:45.840
+despre notația Big-O.
+
+00:46.110 --> 00:48.460
+Ce putem presupune despre această problemă.
+
+00:50.000 --> 01:02.690
+Ei bine, fără a codifica nimic, știm că trebuie să găsim mai întâi și apoi să găsim Anth sau oricare ar fi ultimul
+
+01:02.690 --> 01:03.630
+element.
+
+01:03.710 --> 01:11.960
+Acum nu știm cum sunt stocate tweets în baza noastră de date sau în orice mod Twitter organizează aceste lucruri,
+
+01:11.960 --> 01:20.500
+dar bazându-se pe modul în care sunt stocate, am putea fi capabili doar să apucăm să spunem tweets unde într-o matrice.
+
+01:20.510 --> 01:25.580
+Deci, să spunem o gamă constantă și vom avea o mulțime de tweets.
+
+01:25.820 --> 01:30.030
+Și să spunem că avem trei tweets aici.
+
+01:31.280 --> 01:39.940
+Există doar trei tweet-uri simple care vor spune că acesta este cel mai vechi și acesta este cel mai recent.
+
+01:40.190 --> 01:46.960
+Dacă avem o matrice aici, știm că o să ne ia dacă tweeturile sunt stocate într-o matrice.
+
+01:47.210 --> 01:52.340
+O să ne ia în timp ce mergem la zero.
+
+01:52.400 --> 02:06.770
+Obținem cele mai vechi tweet-uri și dacă mergem matrice matrice cu punct lent minus unul primim cele trei minus 1, deci este 2
+
+02:06.770 --> 02:10.100
+care este 0 1 2.
+
+02:10.100 --> 02:13.220
+Aceasta va fi 2.
+
+02:13.550 --> 02:15.060
+Vom ajunge la 20.
+
+02:15.170 --> 02:22.130
+Cel mai recent tweet și datorită modului în care funcționează rețeaua, știm
+
+02:22.130 --> 02:27.670
+că ambele operațiuni vor fi o singură dată.
+
+02:28.000 --> 02:33.430
+Și acesta va fi de asemenea 0 1 sau timp constante.
+
+02:33.460 --> 02:36.420
+Deci, un total de funcționare 0 2.
+
+02:36.430 --> 02:42.910
+Dar, din nou, ne folosim regulamentul nostru și îl simplificăm pe Constantin.
+
+02:42.980 --> 02:43.610
+Așa că e minunat.
+
+02:43.610 --> 02:50.430
+Construim o mică aplicație Twitter simplă și putem obține aceste informații foarte ușor.
+
+02:50.720 --> 02:58.100
+Dar acum șeful nostru se întoarce la noi și spune că vreau să compari datele despre tweet-uri.
+
+02:58.250 --> 03:05.140
+Vreau să te uiți la fiecare tweet acum în fiecare matrice.
+
+03:05.320 --> 03:21.240
+Există un obiect cu fiecare tweet.
+
+03:21.280 --> 03:25.560
+Acum avem și această persoană nu tweet foarte mult.
+
+03:25.570 --> 03:28.320
+Trei tweets în șase ani.
+
+03:28.330 --> 03:37.790
+Dar acum trebuie să comparăm fiecare tweet cu toate celelalte tweets și să le comparăm datele.
+
+03:38.040 --> 03:40.710
+Care este scopul mare al acestei operațiuni.
+
+03:43.100 --> 03:49.690
+Ei bine, deoarece comparăm fiecare element din matrice cu celălalt.
+
+03:49.700 --> 03:51.140
+Acest lucru ar trebui să sune familiar.
+
+03:51.140 --> 03:52.560
+Facem bucle imbricate.
+
+03:52.640 --> 04:00.870
+Deci, acest lucru va lua oh și de scurgere timp, cel puțin cu în timp ce știm chiar acum.
+
+04:01.060 --> 04:07.990
+Așadar, știm că acest lucru va dura mult și se potrivește unei persoane care are multe tweets și multe intrări
+
+04:08.020 --> 04:09.000
+în matrice.
+
+04:09.280 --> 04:12.420
+Această operațiune ne-ar putea costa mulți bani pe Twitter.
+
+04:12.580 --> 04:16.100
+Așadar, ați putea să-i spuneți șefului dvs. despre care ar putea să avem o problemă aici.
+
+04:16.120 --> 04:23.470
+S-ar putea să trebuiască să facem altceva, probabil, să stocăm informațiile într-un format mai bun sau să
+
+04:23.470 --> 04:31.420
+facem ceva diferit de programul nostru, pentru a evita ceva care ar putea fi ineficient și poate fi costisitor
+
+04:31.600 --> 04:32.630
+pentru companie.
+
+04:33.290 --> 04:41.240
+Și doar gândindu-te așa, acum ai această abilitate să gândești pe termen lung, gândește-te la scalabil Cote pe
+
+04:41.240 --> 04:42.870
+cale de distracție.
+
+04:43.190 --> 04:51.860
+Ce se întâmplă dacă vă întreb ce este operațiunea și ce ne va costa.
+
+04:51.890 --> 04:59.850
+Dacă am un șir și fac punct plenteous și javascript care înseamnă doar care este lungimea șirului nostru.
+
+05:00.690 --> 05:05.590
+Asta înseamnă 20, ceea ce înseamnă că avem 20 de elemente în șir.
+
+05:05.610 --> 05:13.260
+Ce credeți că este o notație importantă a acestui lucru și este un pic de întrebare și ceva
+
+05:13.260 --> 05:20.390
+ce ați putea fi întrebat într-un interviu, deoarece răspunsul la acest lucru depinde că depinde de
+
+05:20.390 --> 05:22.430
+limba cu care lucrați.
+
+05:22.460 --> 05:31.470
+Trebuie să știm cum funcționează metoda cu șiruri de caractere aici și care este construită în javascript și veți avea o metodă
+
+05:31.490 --> 05:37.100
+diferită construită pentru limba dvs. bazată pe modul în care este construită limba.
+
+05:37.160 --> 05:47.510
+Acest DOD lenth ar putea merge unul câte unul și itera pe fiecare literă și conta 0 1 2 3 4
+
+05:47.510 --> 05:57.680
+5 6 7 8 9 10 până la 20, dar javascript de fapt are proprietatea lungime construită în fiecare șir.
+
+05:58.030 --> 06:05.370
+Deci, pentru javascript această proprietate Daleth este doar o căutare simplă.
+
+06:05.430 --> 06:07.970
+Nu este o funcție.
+
+06:08.130 --> 06:10.830
+Nu folosim această funcție pentru a calcula lucrurile.
+
+06:10.830 --> 06:15.230
+În schimb, este pur și simplu o proprietate a unui obiect.
+
+06:15.450 --> 06:16.490
+Și din cauza asta.
+
+06:16.590 --> 06:21.600
+Și din nou, dacă nu sunteți foarte familiarizat cu javascript acest lucru poate fi un pic confuz, dar nu
+
+06:21.600 --> 06:22.340
+stresul afară.
+
+06:22.410 --> 06:27.660
+Ideea este că această operație în javascript este 0.
+
+06:27.840 --> 06:38.240
+Constantin, dar fără să știi cum funcționează limba ta, nu știi cum cum funcționează această proprietate cum funcționează.
+
+06:38.280 --> 06:47.070
+Poate că dacă ați avea o metodă cum ar putea funcționa, dar acum aveți o bază puternică pentru pilon pentru a începe să
+
+06:47.370 --> 06:50.240
+vă gândiți la cod într-un mod diferit.
+
+06:50.310 --> 06:57.030
+Începeți să vă uitați la spațiu și timp sunt lucruri valoroase pentru noi ca ingineri ca resurse pe care
+
+06:57.030 --> 06:58.620
+trebuie să fim atenți.
+
+06:58.620 --> 07:06.320
+Nu avem resurse infinite de care trebuie să fim atenți când codificăm modul în care folosim aceste resurse.
+
+07:06.450 --> 07:10.800
+Și asta singur te face un inginer mai bun.
+
+07:10.820 --> 07:11.660
+Voi vedea în următorii câțiva ani.

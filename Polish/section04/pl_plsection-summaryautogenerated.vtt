@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.990 --> 00:02.070
+W porządku.
+
+00:02.210 --> 00:03.960
+Kolejna sekcja wykonana.
+
+00:04.340 --> 00:10.400
+W tej sekcji omówiliśmy wywiady techniczne i sposoby rozwiązywania problemów.
+
+00:10.550 --> 00:15.470
+Jednym wielkim błędem jest to, że jesteś dobrym rozwiązywaczem problemów lub nie.
+
+00:15.500 --> 00:21.390
+Ale tak jak w przypadku wszystkiego, to jest to mięsień, który możesz trenować i ćwiczyć.
+
+00:21.390 --> 00:27.530
+Więc mając wystarczającą liczbę ćwiczeń i znając wskazówki i triki, które omówiliśmy w tej sekcji, możesz
+
+00:27.530 --> 00:29.610
+rozwiązać problemy o wiele lepiej.
+
+00:29.630 --> 00:33.530
+To pokazuje ankieterowi, o czym mówisz.
+
+00:33.530 --> 00:40.910
+Kluczem w tej sekcji był ten arkusz i krok po kroku omówić problem.
+
+00:41.120 --> 00:44.530
+Przyjrzeliśmy się, jak może wyglądać wywiad z Google.
+
+00:44.570 --> 00:49.970
+A potem naśladowaliśmy niektóre z technik używanych do rozwiązania naszego własnego problemu.
+
+00:49.970 --> 00:56.960
+Pomysł polegał na tym, aby pokazać, jak pracujesz, myśleć głośno i starać się komentować kroki,
+
+00:56.960 --> 01:03.770
+aby rozwiązać problem komunikowania się w trakcie całego procesu, a nie martwiąc się o
+
+01:03.770 --> 01:08.660
+szybkie zakończenie problemu, jest kluczem do interwencji w rozwiązywaniu problemów.
+
+01:08.660 --> 01:16.040
+W wywiadzie teraz powinniśmy również pomyśleć, że nie chcemy zapamiętywać problemów, ponieważ jeśli robisz setki problemów i starasz
+
+01:16.430 --> 01:23.150
+się je dobrze zapamiętać, to tak naprawdę nie pomoże ci to na dłuższą metę, ale także
+
+01:23.150 --> 01:24.550
+podejmujesz ryzyko dobrze.
+
+01:24.560 --> 01:29.400
+Masz nadzieję, że osoba przeprowadzająca wywiad zada Ci pytanie, które widziałeś wcześniej.
+
+01:29.750 --> 01:36.110
+Zamiast tego chcemy przejąć kontrolę nad naszym przeznaczeniem i praktyką i być gotowym
+
+01:36.110 --> 01:38.270
+na wszystko, budując podstawy.
+
+01:38.420 --> 01:45.110
+Rozmawialiśmy o tym, jak za pomocą dużego show i lekcji, których się nauczyliśmy, możemy teraz
+
+01:45.110 --> 01:51.010
+przejść do struktur danych i algorytmów i wykorzystywać je podczas naszych wywiadów kodowych.
+
+01:51.020 --> 01:56.660
+Rozmawialiśmy także o niektórych umiejętnościach poszukiwanych przez ankieterów i zademonstrowaliśmy, że niekoniecznie są to
+
+01:56.660 --> 01:58.370
+umiejętności związane z kodowaniem.
+
+01:58.520 --> 02:04.580
+Jest wiele innych aspektów, których poszukują ankieterzy, a my omawiamy te elementy i pokazujemy
+
+02:04.580 --> 02:05.300
+je.
+
+02:05.480 --> 02:14.020
+Podczas naszej praktyki w zakresie żądania, jesteśmy teraz gotowi, aby zagłębić się w ekscytującą część struktur danych
+
+02:14.050 --> 02:15.230
+i algorytmów.
+
+02:15.250 --> 02:22.630
+Mamy dobrą podstawę i wiemy, że potrzebujemy tylko nauczyć się tych struktur danych i algorytmów, aby
+
+02:22.930 --> 02:29.470
+naprawdę przygotować wywiad. Będziemy również używać arkusza do cheatowania, który dałem wam w tej sekcji
+
+02:29.470 --> 02:31.790
+przez resztę kursu. .
+
+02:31.960 --> 02:39.040
+Podstawą tego oszustwa jest idea czytelności złożoności kodu w kodzie i
+
+02:39.490 --> 02:42.370
+złożoności kodu w czasie.
+
+02:42.600 --> 02:48.060
+I chociaż nie podajemy wszystkiego w arkuszu do ściągnięcia, na końcu mamy kilka przedmiotów.
+
+02:48.210 --> 02:53.850
+Przekonasz się, że gdy przejdziemy przez strukturę danych i algorytmów,
+
+02:54.030 --> 03:01.170
+pojawi się pewien rodzaj wzorów, że chociaż pytania mogą być inne w wywiadzie,
+
+03:01.410 --> 03:10.480
+zwykle sposób na zoptymalizowanie rzeczy lub sztuczek, aby twoje odpowiedzi były lepsze, można zawęzić do określonych kroków .
+
+03:10.650 --> 03:12.030
+Więc nie daj się przytłoczony.
+
+03:12.030 --> 03:17.260
+Jest łatwa do wyczyszczenia lista kontrolna i heurystyka, które przejdziemy później.
+
+03:17.640 --> 03:23.110
+Ale w tym momencie myślę, że jesteśmy gotowi przejść do struktur danych i algorytmów.
+
+03:23.340 --> 03:30.900
+W jaki sposób tworzymy dobry kod, tworząc dobre programy, tworzymy wartość dla firm, z
+
+03:30.900 --> 03:32.480
+którymi rozmawiamy.
+
+03:32.480 --> 03:33.720
+Do zobaczenia w następnej sekcji.

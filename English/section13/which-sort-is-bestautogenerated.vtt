@@ -1,0 +1,175 @@
+WEBVTT
+
+00:01.130 --> 00:02.270
+Welcome back.
+
+00:02.270 --> 00:06.890
+We've learned our sorting algorithms by you might be asking yourself.
+
+00:06.990 --> 00:14.150
+Andre I'm still kind of confused about when to use what what about if I get asked in an interview a
+
+00:14.150 --> 00:17.470
+question about which sorting algorithm will be best.
+
+00:17.480 --> 00:26.810
+If I had a user's data of 100 million names that need to be sorted Well let's go over some rules.
+
+00:27.300 --> 00:28.070
+1.
+
+00:28.380 --> 00:31.380
+When should you use insertion sort.
+
+00:31.800 --> 00:40.680
+Well insertion sort should be used with only a few items if your input is small or items are mostly
+
+00:40.680 --> 00:41.480
+sorted.
+
+00:41.730 --> 00:43.880
+It's really really fast.
+
+00:44.800 --> 00:52.030
+It uses very little space and most importantly it's really easy to implement in code.
+
+00:52.350 --> 01:01.860
+So remember this only a few items and mostly sorted data you should use insertion sort of a bubble sort.
+
+01:02.100 --> 01:04.690
+To be honest you're never going to use bubble sort.
+
+01:05.500 --> 01:10.740
+It's only really used for educational purposes as a way to teach sorting.
+
+01:10.840 --> 01:17.520
+But it's very rare that you'll find this in real life because is just not very efficient.
+
+01:18.380 --> 01:21.020
+What about selection sort again.
+
+01:21.050 --> 01:26.070
+Same thing with selecting sort as you can see it's numbers aren't very good.
+
+01:26.120 --> 01:28.700
+So most likely you won't be using it.
+
+01:28.790 --> 01:32.200
+Mostly it's being used as a teaching mechanism which I did.
+
+01:32.250 --> 01:37.790
+Sorry didn't mean to waste your time with learning selection sorry but it is important to build the
+
+01:37.790 --> 01:38.630
+foundation.
+
+01:39.750 --> 01:41.510
+What about merge sort.
+
+01:42.120 --> 01:44.260
+And this one's my favorite.
+
+01:44.390 --> 01:50.120
+Why well Merced short is really really good because of divide and conquer.
+
+01:50.160 --> 01:54.580
+We have all of and log and it's fast.
+
+01:54.660 --> 02:03.320
+And because best average in worst case is always 0 of and log in we always divide up the seat evenly.
+
+02:03.330 --> 02:07.580
+You can always guarantee that this is going to be the case.
+
+02:07.830 --> 02:10.520
+Which is not the case for most other algorithms.
+
+02:10.740 --> 02:15.080
+So if you're worried about worst case scenarios you should use Mirch sort.
+
+02:15.360 --> 02:22.980
+But if you want to sort in memory on your machine and you're worried about space complexity merge sort
+
+02:22.980 --> 02:28.540
+is going to be really expensive a userspace complexity of all of that.
+
+02:28.700 --> 02:36.190
+However if he had huge files that can be sorted in memory so you have external sorting that you need
+
+02:36.200 --> 02:45.740
+maybe like a process outside of memory it's suitable for external sorting then merge sort is good because
+
+02:45.740 --> 02:50.830
+we won't care much as much about space complexity in what about quicksort.
+
+02:51.740 --> 02:59.390
+Quicksort is actually better than Mirch sort rate average case and space complexity.
+
+02:59.390 --> 03:05.120
+I mean it has the same speed as time as Merse short but less space complexity.
+
+03:05.120 --> 03:12.740
+It's probably one of the most popular sorting algorithms but the one downside is this worse case if
+
+03:12.740 --> 03:18.260
+you don't pick the paper properly you could have a really really slow sorting.
+
+03:18.350 --> 03:25.830
+So you have to be careful and if you're really worried about worst case then you rather pick something
+
+03:25.830 --> 03:26.330
+else.
+
+03:27.410 --> 03:32.250
+Now you might be asking yourself Andre What about heapsort.
+
+03:32.420 --> 03:34.130
+You haven't really talked about that.
+
+03:34.960 --> 03:39.550
+I'm going to leave resources for you so you can learn about heapsort as well.
+
+03:39.580 --> 03:45.610
+It's very similar to quicksort and merge sort but you see here that it has a space complexity of all
+
+03:45.610 --> 03:46.360
+of one.
+
+03:46.360 --> 03:49.260
+Isn't this better than all of the above.
+
+03:49.640 --> 03:56.860
+Well he can sort in place and doesn't have the worst case quadratic behavior that quicksort has or the
+
+03:56.860 --> 04:04.940
+memory usage that Mirch sort has but on average is actually slower than quicksort in most cases.
+
+04:04.990 --> 04:12.340
+It's one of those things where with heapsort unless you're really really worried about worst case and
+
+04:12.340 --> 04:18.250
+memory then you might use it but most of the time I would say you're using quicksort or or Murchadh
+
+04:20.020 --> 04:24.200
+OK but you're saying what about these ones Swansdown here.
+
+04:24.220 --> 04:26.250
+Bucket's sort radix sort.
+
+04:26.250 --> 04:29.180
+Or radix sort and counting sort.
+
+04:29.380 --> 04:31.050
+How come you're not talking about these ones.
+
+04:31.060 --> 04:32.200
+Why can we just use these.
+
+04:32.200 --> 04:37.910
+They look a lot better than all the other ones especially when it comes to time complexity.
+
+04:37.910 --> 04:38.660
+Good question.
+
+04:38.780 --> 04:40.240
+Let's talk about that in the next few.

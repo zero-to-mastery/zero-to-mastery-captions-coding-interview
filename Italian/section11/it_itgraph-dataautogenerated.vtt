@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.610 --> 00:01.460
+Ben tornato.
+
+00:01.690 --> 00:09.220
+Impariamo come costruire i nostri grafici grafici quando li guardi sembrano molto intimidatori.
+
+00:09.940 --> 00:19.540
+Ma ecco la cosa in realtà abbiamo imparato gli strumenti necessari per costruire grafici perché i grafici si
+
+00:19.540 --> 00:23.000
+basano su altre strutture di dati.
+
+00:23.010 --> 00:29.880
+Ricorda questo diagramma del grafo aciclico diretto. Ben molte delle strutture dati con
+
+00:29.880 --> 00:37.740
+cui abbiamo giocato fino ad ora possono creare qualcosa di simile usando alberi e liste di collegamenti.
+
+00:37.740 --> 00:39.850
+Voglio dire, sembra abbastanza simile, giusto.
+
+00:39.870 --> 00:44.460
+Hai un nodo con bambini e diversi indicatori che usano
+
+00:47.300 --> 00:48.330
+quella conoscenza.
+
+00:48.380 --> 00:55.350
+Parliamo di come iniziare a pensare ai grafici o almeno a pensare a come costruirli.
+
+00:56.540 --> 00:58.470
+Ci sono tre modi in cui possono pensarci.
+
+00:58.490 --> 01:05.930
+Il primo è chiamato un elenco di spigoli e ho un esempio per te che possiamo usare per costruire
+
+01:05.930 --> 01:07.170
+qualcosa come questo.
+
+01:07.180 --> 01:12.640
+Diciamo che vogliamo costruire questo grafico come faremmo in questo modo.
+
+01:14.600 --> 01:24.850
+Con una lista di spigoli possiamo dire che il grafico di Konst è uguale a questo.
+
+01:24.850 --> 01:27.610
+Ora vediamo cosa ho fatto qui.
+
+01:27.690 --> 01:36.240
+Ho un array e all'interno di questo array ho uno due tre quattro elementi.
+
+01:36.310 --> 01:38.070
+Sono una razza.
+
+01:38.220 --> 01:43.630
+Ma se osserviamo il grafico, la matrice indica semplicemente le connessioni.
+
+01:43.860 --> 01:49.330
+Cioè abbiamo zero e due come primo elemento nell'array.
+
+01:49.450 --> 01:58.000
+Abbiamo due e tre come secondo array all'interno dell'array e quindi due e uno e uno e tre un elenco di spigoli mostra
+
+01:58.310 --> 02:04.930
+semplicemente la connessione a cui lo zero è collegato a 2 e 2 è collegato a zero.
+
+02:06.950 --> 02:10.930
+Due sono collegati a tre tre collegati a 2 a 1 da 1 a 3.
+
+02:10.930 --> 02:14.620
+Così avanti e così via abbastanza semplice.
+
+02:14.880 --> 02:27.060
+C'è un altro modo chiamato adiacenza o elenco adiacente e in questo caso possiamo creare un grafico in cui l'indice è la
+
+02:27.120 --> 02:35.060
+nota e il valore è i nodi vicini di ciò che intendo per quello.
+
+02:35.390 --> 02:41.600
+Bene, allora qui possiamo usare gli array possiamo usare gli oggetti che possiamo usare gli elenchi collegati.
+
+02:41.630 --> 02:47.570
+Ma diciamo che nell'indice di 0 il primo elemento 0 è collegato
+
+02:50.610 --> 03:04.410
+a 2 indice di uno che è il nodo uno è collegato a 2 e tre indice di due è collegato a 0 1 e 3 e quindi infine
+
+03:04.410 --> 03:10.130
+l'indice di 3 o No3 è collegato a 1 e 2.
+
+03:10.290 --> 03:15.450
+E puoi anche fare quanto sopra con un oggetto in cui potrebbe anche essere più chiaro.
+
+03:15.460 --> 03:21.730
+E se un valore di nodo è qualcosa di diverso da un numero, puoi effettivamente dargli un valore.
+
+03:21.780 --> 03:23.250
+Quindi una chiave e un valore.
+
+03:23.520 --> 03:26.910
+E questo è estremamente utile con l'oggetto, se lo hai.
+
+03:27.120 --> 03:30.970
+Come ho detto non un numero sequenziale come facciamo in questo esempio.
+
+03:31.050 --> 03:35.850
+E quando implementiamo il nostro grafico, useremo un elenco adiacente usando un oggetto.
+
+03:35.850 --> 03:36.930
+E vedrai cosa intendo.
+
+03:37.700 --> 03:42.910
+Infine voglio mostrarti l'ultimo metodo per rappresentare i grafici.
+
+03:42.990 --> 03:53.980
+Si chiama matrice adiacente e una matrice adiacente avrà un aspetto simile a questo, questa matrice ha semplicemente degli zeri e
+
+03:54.010 --> 04:01.330
+uno che indica se il nodo X ha una connessione al nodo y.
+
+04:01.360 --> 04:04.570
+Zero significa che nessuno significa sì.
+
+04:04.690 --> 04:09.910
+E se hai un modo per creare grafici puoi effettivamente aggiungere pesi qui invece di 1 e 0.
+
+04:09.910 --> 04:12.120
+Quindi possono effettivamente essere numeri.
+
+04:12.250 --> 04:17.620
+Non ho intenzione di scrivere questo perché ti annoierò a morte ma qui è
+
+04:17.620 --> 04:23.140
+la stessa rappresentazione che abbiamo fatto con almeno una lista adiacente questa volta con matrice adiacente.
+
+04:23.200 --> 04:24.670
+Cosa significa.
+
+04:24.700 --> 04:33.500
+L'indice Well di 0 ha una connessione con 0 1 2 0 0 è collegato a due.
+
+04:33.760 --> 04:47.550
+Quindi nessuno è collegato a due e tre il nodo 2 è collegato a 0 1 e 3.
+
+04:47.550 --> 04:56.550
+E puoi vedere come è molto simile a qui e il nodo 4 è collegato a uno e due proprio
+
+04:56.550 --> 04:57.540
+come qui.
+
+04:57.540 --> 05:05.270
+E ancora una volta invece di una gara puoi usare gli oggetti qui e dargli effettivamente una chiave e un valore.
+
+05:06.160 --> 05:17.610
+In modo che questo se fosse un oggetto sarebbe zero uno a tre.
+
+05:17.690 --> 05:25.640
+E se andiamo a vedere visivamente, vedrai che hanno questi tre modi per descrivere i grafici.
+
+05:25.690 --> 05:27.220
+La matrice di adiacenza.
+
+05:27.220 --> 05:28.200
+E perché è ponderato.
+
+05:28.200 --> 05:31.900
+Vedete che qui ci sono numeri invece di 1.
+
+05:32.050 --> 05:39.250
+Abbiamo la lista di adiacenza dove sembra che qui abbiano una tabella hash con i valori e
+
+05:39.250 --> 05:44.080
+anche una lista di spigoli con una proprietà extra dei pesi.
+
+05:44.110 --> 05:48.730
+Perché questo è un modo per rappresentare graficamente e puoi vedere anche i pesi nell'elenco di adiacenza.
+
+05:48.940 --> 05:51.180
+Ma abbiamo appena dato un'occhiata a molti numeri.
+
+05:51.190 --> 05:56.230
+Penso che sia tempo per noi di costruire il nostro grafico per finalizzare la nostra comprensione.
+
+05:56.290 --> 05:57.540
+Vedrò nel prossimo.
+
+05:57.930 --> 05:58.160
+Bobby.

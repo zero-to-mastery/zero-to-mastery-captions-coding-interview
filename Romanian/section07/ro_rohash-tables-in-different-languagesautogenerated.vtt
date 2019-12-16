@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.800 --> 00:02.960
+Bine ai revenit.
+
+00:03.090 --> 00:10.560
+Acum, tabelele hash sunt implementate diferit în diferite limbi, dar de cele mai multe ori cheia și
+
+00:10.560 --> 00:14.940
+valoarea pot fi orice tip de structură de date.
+
+00:15.240 --> 00:23.010
+Am văzut aici că putem avea o funcție ca o valoare pe care putem avea un alt obiect dacă vrem ca o
+
+00:23.790 --> 00:27.340
+valoare să putem avea o matrice ca valoare dacă vrem.
+
+00:27.590 --> 00:30.760
+Și vreau să spun că puteți face asta și în mese.
+
+00:30.830 --> 00:33.950
+Nu avem numere și șiruri într-o cursă.
+
+00:34.040 --> 00:42.790
+Putem avea o serie de obiecte, dar uneori aveți și chei care sunt mai mult decât șiruri de caractere.
+
+00:43.190 --> 00:52.890
+Ați putea avea funcții ca chei și o valoare care este, de asemenea, o funcție sau poate un număr
+
+00:52.890 --> 00:56.540
+sau un matrice, indiferent de ce doriți.
+
+00:56.620 --> 01:04.900
+Acum, în Javascript într-un obiect ca acesta, dacă treci o cheie care este un număr sau o funcție, de
+
+01:04.900 --> 01:13.540
+fapt, primește un șir pe care îl găsești și nu permite decât chei de șir, dar cu noua versiune a javascript
+
+01:14.440 --> 01:19.330
+și E6 ai de fapt ceva numit Map și set .
+
+01:20.250 --> 01:23.460
+Ceea ce poate fi familiarizat și în alte limbi.
+
+01:23.460 --> 01:28.650
+O hartă este creată astfel.
+
+01:29.730 --> 01:38.170
+Și diferența dintre o hartă și un obiect este faptul că o hartă vă permite să salvați orice tip de
+
+01:38.940 --> 01:40.230
+date ca cheie.
+
+01:40.240 --> 01:46.740
+Amintiți-vă cu un obiect pe care îl puteți salva numai ca șir cu o hartă.
+
+01:46.740 --> 01:53.700
+Ne permite dacă dorim chiar să avem funcții ca chei sau matrice ca chei.
+
+01:53.790 --> 02:00.150
+Și un alt avantaj al hărții este că menține ordinul de introducere.
+
+02:00.210 --> 02:01.010
+Ce inseamna asta.
+
+02:02.070 --> 02:07.140
+Ei bine, cu un obiect nu există nici o ordine este acolo.
+
+02:07.140 --> 02:14.900
+Dacă revenim la diagrama noastră datele noastre sunt inserate aleatoriu în locuri diferite.
+
+02:15.830 --> 02:26.180
+Dacă ne întoarcem la exemplul utilizatorilor noștri, observăm că nu există nicio ordine când luăm toate valorile
+
+02:26.180 --> 02:27.420
+unui obiect.
+
+02:27.770 --> 02:35.390
+Începem cu să spunem că Lisa Smith, care a intrat pe locul doi, apoi John Smith, poate că Sandra
+
+02:36.020 --> 02:38.930
+Dee Sam Doe este selectată ultima dată.
+
+02:38.960 --> 02:47.770
+Nu există o ordine asemănătoare cu cea a cursei, dar există câteva versiuni de tabele hash precum hărțile
+
+02:47.860 --> 02:56.050
+și javascript care mențin această ordine de inserare, astfel încât atunci când ne confruntăm prin obiecte dintr-un
+
+02:56.590 --> 03:04.670
+obiect avem seturile de ordine menținute este o caracteristică nother foarte asemănătoare pentru a cartografia.
+
+03:04.740 --> 03:10.050
+Singura diferență este că stochează numai cheile fără valori.
+
+03:10.050 --> 03:17.670
+Deci, vedeți aici fiecare limbă așa cum am menționat, vine cu propriile versiuni de structuri de date pre-construite.
+
+03:17.940 --> 03:21.270
+Dar la sfârșitul zilei toate sunt tabele de tip hash.
+
+03:21.270 --> 03:28.920
+Dar, pentru a înțelege cu adevărat felul în care funcționează tabelele de tip hash, cred că ar trebui să construim una în următorul videoclip, vom face
+
+03:29.090 --> 03:30.000
+exact acest lucru.

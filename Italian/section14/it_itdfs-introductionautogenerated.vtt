@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.130 --> 00:06.960
+La prima ricerca di profondità come una prima ricerca di respiro è un po 'diversa.
+
+00:08.010 --> 00:16.440
+La ricerca segue un ramo dell'albero verso il basso quanti più livelli possibili fino a quando non viene trovato l'avviso di destinazione o
+
+00:16.770 --> 00:18.620
+viene raggiunta la fine.
+
+00:19.580 --> 00:21.970
+Quando la ricerca può proseguire oltre.
+
+00:21.970 --> 00:27.700
+Continua al più vicino antenato con un bambino inesplorato.
+
+00:27.950 --> 00:29.040
+Lascia che ti mostri.
+
+00:29.150 --> 00:30.900
+Iniziamo con nove.
+
+00:31.010 --> 00:32.900
+Poi andiamo alle sei.
+
+00:33.200 --> 00:36.560
+Poi andiamo a uno e abbiamo raggiunto un nodo foglia.
+
+00:36.600 --> 00:37.900
+Non ci sono più bambini.
+
+00:38.030 --> 00:44.870
+Quindi torniamo indietro al 6 per il nostro antenato e poi vediamo se ci sono altri bambini inesplorati in questo caso non siamo
+
+00:44.870 --> 00:46.100
+andati a quattro.
+
+00:46.160 --> 00:48.120
+Quindi torniamo indietro fino a quattro.
+
+00:48.530 --> 00:53.840
+E ora saliamo perché non ci sono più bambini fino a 9 e diciamo
+
+00:53.840 --> 01:01.500
+Va bene andiamo lì adesso andiamo a 12 e poi a 34 e poi torniamo su e poi cerchiamo anche 45.
+
+01:03.500 --> 01:11.180
+Ora la prima ricerca di profondità ha un fabbisogno di memoria inferiore, quindi amplia la prima ricerca perché non è necessario
+
+01:11.180 --> 01:14.280
+memorizzare tutti i puntatori figli a ogni livello.
+
+01:14.510 --> 01:20.980
+Qualcosa che vedremo quando abbiamo effettivamente codificato l'idea con quella prima ricerca è che vogliamo andare il più
+
+01:20.980 --> 01:23.020
+profondamente possibile in un grafico.
+
+01:23.440 --> 01:30.250
+Di solito partendo dal lato sinistro e poi iniziamo a girare a destra fino a quando l'attraversamento
+
+01:30.250 --> 01:33.410
+dell'albero è fatto come suggerisce il nome.
+
+01:33.420 --> 01:35.410
+La prima profondità è profonda.
+
+01:35.410 --> 01:41.070
+Il primo verso dice che la ricerca sulla respirazione del respiro sembra qualcosa del genere.
+
+01:41.080 --> 01:46.960
+Ancora una volta scendiamo fino in fondo torniamo giù fino in fondo.
+
+01:46.990 --> 01:51.480
+Torna indietro fino in fondo, come puoi vedere prima di andare in profondità.
+
+01:51.520 --> 01:57.080
+Poi vai avanti a destra e mi piace pensare alla morte.
+
+01:57.150 --> 02:04.200
+La prima ricerca è stata come camminare in un labirinto proprio andando più lontano che possiamo e quando colpiamo un vicolo
+
+02:04.200 --> 02:10.170
+cieco ti gira indietro e vai al punto successivo in cui puoi fare una sinistra a uno scrittore
+
+02:10.500 --> 02:14.750
+finché non arrivi a la fine del labirinto o il labirinto finisce.
+
+02:14.820 --> 02:23.470
+Quindi, se torniamo al nostro codice e guardiamo la prima ricerca del respiro, abbiamo fatto prima la ricerca del BRAF.
+
+02:23.520 --> 02:25.620
+Che dire della prima ricerca della profondità.
+
+02:25.620 --> 02:26.610
+Come sarebbe quello?
+
+02:28.380 --> 02:34.920
+Bene da quello che sappiamo e suggerimento suggeriamo che ci saranno diverse varianti di ricerca di deafer in
+
+02:34.920 --> 02:35.610
+arrivo.
+
+02:35.610 --> 02:44.840
+Ma da quello che sappiamo inizieremo con nove poi quattro poi uno poi torneremo indietro fino a quattro
+
+02:44.900 --> 02:53.760
+e poi troveremo sei tornare indietro trovare 20 andare a sinistra 15 e andare a destra 70.
+
+02:54.230 --> 02:59.620
+Quindi la nostra lista è un po 'diversa dal respiro per la ricerca.
+
+02:59.840 --> 03:06.850
+Abbiamo diversi ordini ma perché abbiamo questi due modi di esplorare un albero o un grafico.
+
+03:06.920 --> 03:08.660
+Qual è il pro e il contro.
+
+03:08.810 --> 03:15.270
+E fino ad ora ho appena parlato, ma potresti non capire perché uno è migliore dell'altro.
+
+03:16.070 --> 03:20.500
+E prima di implementarlo nel codice, voglio esaminare i pro ei contro di ciascuno.
+
+03:20.510 --> 03:21.990
+Quindi facciamolo nel prossimo video.

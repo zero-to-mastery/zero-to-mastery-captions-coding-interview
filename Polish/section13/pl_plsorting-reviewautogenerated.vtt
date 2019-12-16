@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.660 --> 00:09.970
+Kolejna sekcja, którą wykonaliśmy i omawialiśmy sortowanie algorytmu sortowania w tej sekcji przez większość czasu, kiedy
+
+00:09.970 --> 00:15.350
+mówimy o algorytmach sortowania, o których będziemy mówić i logować.
+
+00:15.370 --> 00:20.770
+Dowiedzieliśmy się, że istnieje mnóstwo algorytmów sortowania i omówiliśmy najważniejsze.
+
+00:20.770 --> 00:22.240
+Częściej się przyzwyczajają.
+
+00:22.450 --> 00:28.120
+Jeśli jesteś naprawdę podekscytowany tematem i uważasz to za interesujące, to dobrze dla ciebie.
+
+00:28.150 --> 00:29.330
+Jesteś jednym z niewielu.
+
+00:29.410 --> 00:37.060
+Zachęcam do przeszukania różnych algorytmów sortowania, ale do przejrzenia quicksortu, którego chcesz użyć, gdy twoja średnia
+
+00:37.450 --> 00:43.720
+wydajność sprawy ma większe znaczenie niż najgorszy przypadek, ponieważ quicksort pozwala nam sortować
+
+00:43.720 --> 00:46.280
+w O i logować się.
+
+00:46.420 --> 00:51.490
+Ale w najgorszym przypadku sortowanie piekarnika O piekarnika.
+
+00:51.490 --> 00:59.690
+Z drugiej strony jest świetny, ponieważ zawsze jest O i log, a także jest stabilny, co
+
+00:59.690 --> 01:07.520
+oznacza, że zawsze daje takie same wyniki, jeśli dwa elementy są takie same, chociaż złożoność przestrzeni
+
+01:07.520 --> 01:10.460
+jest trochę wyższa niż quicksort.
+
+01:10.550 --> 01:12.980
+To zdecydowanie przydatny rodzaj.
+
+01:13.030 --> 01:19.630
+Rozmawialiśmy także o sortowaniu sortowania wstawiania i sortowaniu bąbelkowym.
+
+01:19.630 --> 01:24.250
+To fajne, gdy robisz coś szybko i brudno i chcesz po prostu eksperymentować z
+
+01:24.250 --> 01:24.740
+sortowaniem.
+
+01:24.790 --> 01:31.690
+Ale w rzeczywistości nie użyjesz ich i najprawdopodobniej w prawdziwym życiu używasz algorytmu szyfrowania
+
+01:31.690 --> 01:38.470
+lub języków lub algorytmów sortowania ich zalet to to, że są dość łatwe do
+
+01:38.480 --> 01:44.340
+wdrożenia w Cote i podczas wywiadu możesz powiedzieć coś lubię to.
+
+01:44.410 --> 01:50.740
+W tych rzadkich przypadkach, gdy prosi cię o zaimplementowanie algorytmu sortowania, który powiesz dobrze, ponieważ mamy ograniczenie
+
+01:50.740 --> 01:57.220
+czasowe, lubię używać czegoś naiwnego i nieefektywnego, takiego jak sortowanie bąbelkowe, które jest powolne w prawdziwym życiu,
+
+01:57.220 --> 02:02.170
+zamiast implementować coś w rodzaju scalania, jeśli Z Tobą jest OK, ponieważ.
+
+02:02.380 --> 02:08.410
+Ponieważ możemy założyć, że sortowanie to coś, co możemy zaimplementować z biblioteką lub dość łatwo z
+
+02:08.410 --> 02:14.540
+dokumentacją, lub możesz powiedzieć, że możemy po prostu użyć sortowania scalonego, aby podzielić i zdobyć kod, aby
+
+02:14.630 --> 02:16.200
+uczynić go bardziej wydajnym.
+
+02:16.400 --> 02:21.620
+I w ten sposób pokazujesz ankieterowi, że tak możesz zaimplementować sortowanie takie jak sortowanie bąbelkowe, ale wiesz
+
+02:21.620 --> 02:26.690
+również o takich rzeczach jak Merceron, aby uczynić go bardziej wydajnym bez konieczności jego implementacji.
+
+02:28.330 --> 02:34.870
+Tak więc do końca tego wszystkiego mam nadzieję, że teraz rozumiecie kompromisy, w których można spojrzeć
+
+02:34.900 --> 02:42.970
+na algorytmy sortowania i decydować w oparciu o ich stabilność prędkości i ich czytelność, czy dane wejściowe są już posortowane czy
+
+02:42.970 --> 02:44.000
+prawie posortowane.
+
+02:44.050 --> 02:50.090
+Jak duże jest dane wejściowe, możesz podjąć właściwą decyzję w sprawie sortowania.
+
+02:50.220 --> 02:51.620
+Zobaczę w następnym.
+
+02:51.950 --> 02:52.190
+Kok.

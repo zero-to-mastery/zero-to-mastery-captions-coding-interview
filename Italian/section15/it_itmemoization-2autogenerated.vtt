@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.240 --> 00:01.420
+Daremo il benvenuto.
+
+00:01.460 --> 00:05.400
+Voglio migliorare questa funzione solo un po '.
+
+00:05.600 --> 00:12.500
+Vedete idealmente che non vogliamo riempire la cache in quello che abbiamo chiamato lo scopo globale.
+
+00:12.710 --> 00:15.620
+Quello è vivere al di fuori di questa funzione.
+
+00:17.020 --> 00:26.710
+Idealmente è buona pratica avere memoria o, in questo caso, i soldi per vivere all'interno di questa funzione
+
+00:26.710 --> 00:29.240
+non inquinando l'ambito globale.
+
+00:29.380 --> 00:34.330
+E ci sono molti modi per farlo in base alla lingua in javascript che possiamo usare qualcosa
+
+00:34.540 --> 00:35.430
+chiamato chiusure.
+
+00:35.980 --> 00:40.930
+E questo è come sembrerebbe e ti sto mostrando questo perché quando arriveremo alla programmazione
+
+00:40.930 --> 00:42.880
+dinamica vedrai molto questo pattern.
+
+00:43.120 --> 00:47.980
+Fortunatamente con la programmazione dinamica il pattern è sempre lo stesso.
+
+00:47.980 --> 00:52.030
+Quindi una volta imparato questo, diventa sempre più facile.
+
+00:52.060 --> 01:01.580
+Quindi il modo in cui portiamo questo all'interno della funzione è di farlo entrare così.
+
+01:01.690 --> 01:10.220
+Ma il problema ora è che ogni volta che eseguiamo questa operazione siamo ancora molto tempo ogni volta perché la cache viene ripristinata
+
+01:10.370 --> 01:13.410
+ogni volta che viene chiamata la funzione.
+
+01:13.430 --> 01:20.970
+Quindi la cache diventa un oggetto vuoto per aggirare questo possiamo usare chiusure in javascript e
+
+01:21.030 --> 01:23.410
+possiamo restituire un'altra funzione.
+
+01:23.460 --> 01:31.830
+Quindi una funzione che restituisce una funzione nother e qui passerà il
+
+01:36.180 --> 01:42.890
+parametro e avremo la logica all'interno di questa funzione.
+
+01:43.840 --> 01:45.010
+Questo è tutto.
+
+01:45.040 --> 01:53.570
+E a causa di qualcosa chiamato closure, siamo in grado di accedere a questa cache all'interno di questa funzione di Charles.
+
+01:53.590 --> 01:55.720
+Ora questo non è un corso su javascript.
+
+01:55.720 --> 02:02.670
+Quindi puoi leggere in chiusura da solo, ma questo è solo un modo per evitare questo ambito globale
+
+02:02.680 --> 02:06.620
+così che questa volta possiamo fare qualcosa del genere.
+
+02:06.700 --> 02:18.260
+Non possiamo semplicemente dire equivalenti a costo ridotto al minimo memorizzati a 80 e noi eseguiremo questa funzione.
+
+02:19.060 --> 02:25.660
+E possiamo addirittura rimuovere il parametro da qui in modo da avere flessibilità.
+
+02:25.690 --> 02:34.490
+Lascia che ti mostri che abbiamo l'anno delle memorie che, spero, credo che Bell abbia memorizzato, così ora
+
+02:34.490 --> 02:43.030
+che questa funzione, perché l'ho eseguita, tornerà per me questa funzione memorizzata equivale a questa funzione.
+
+02:43.310 --> 02:45.180
+Questo è letteralmente ciò che memorizzato.
+
+02:45.200 --> 02:54.540
+Aggiungi a 80 ritorni e ho accesso a questa variabile cache in modo che qui posso
+
+02:55.440 --> 02:59.910
+solo dire memorizzati 5 e memorizzati sei.
+
+03:00.070 --> 03:11.600
+Se fossi riuscito a ottenere ancora la stessa cosa, ma se faccio 5 e 5 e ho eseguito così è stato memorizzato.
+
+03:12.000 --> 03:18.000
+Questa funzione ricorda che il parametro non è cambiato.
+
+03:18.060 --> 03:23.880
+È lo stesso parametro e controllerà la cache e dirà che non ho bisogno di fare tutti quei
+
+03:23.880 --> 03:24.590
+calcoli stupidi.
+
+03:24.600 --> 03:25.540
+Ce l'ho già.
+
+03:25.560 --> 03:27.730
+Qui vai usando solo una tabella hash.
+
+03:27.870 --> 03:29.230
+Ecco qui.
+
+03:29.340 --> 03:38.430
+E mentre abbiamo appena imparato qui è davvero potente perché ci consente di essere molto efficienti con il nostro
+
+03:38.430 --> 03:47.400
+codice, qualcosa che sappiamo che gli intervistatori amano le aziende e la programmazione dinamica ci consente di utilizzare
+
+03:47.400 --> 03:53.160
+ciò che ora conosciamo sulla memoizzazione per ottimizzare il nostro codice.
+
+03:53.190 --> 03:55.320
+Scopriamolo di più nel prossimo video.

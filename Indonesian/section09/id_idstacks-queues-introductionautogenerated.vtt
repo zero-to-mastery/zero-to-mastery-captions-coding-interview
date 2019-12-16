@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.080 --> 00:02.250
+Selamat datang kembali.
+
+00:02.580 --> 00:11.160
+Mari kita bicara tentang beberapa struktur data baru di sini kita memiliki tumpukan dan Qs Qs dengan ejaan yang
+
+00:11.220 --> 00:13.500
+mungkin paling membingungkan sepanjang masa.
+
+00:13.500 --> 00:18.860
+Jangan khawatir, bahkan saya yang fasih berbahasa Inggris mengalami kesulitan mengeja ini.
+
+00:18.900 --> 00:20.380
+Tapi itu isyarat.
+
+00:20.430 --> 00:27.120
+Pokoknya jangan khawatir struktur data itu sendiri tidak membingungkan seperti ejaan struktur data ini.
+
+00:27.810 --> 00:34.820
+Kita akan belajar pada saat yang sama tumpukan dalam antrian karena mereka sangat mirip.
+
+00:34.860 --> 00:42.450
+Keduanya adalah apa yang kita sebut struktur data linier dan struktur data linier memungkinkan kita untuk
+
+00:42.450 --> 00:51.750
+melintasi yaitu melalui elemen data secara berurutan satu demi satu di mana hanya satu elemen data yang dapat dicapai secara langsung.
+
+00:51.750 --> 00:57.420
+Dan ini akan menjadi lebih jelas bagi Anda karena kami berbicara lebih banyak tentang tumpukan dan antrian di
+
+00:57.420 --> 00:58.410
+beberapa video berikutnya.
+
+00:59.150 --> 01:06.860
+Sekarang alasan bahwa ini sangat mirip adalah bahwa mereka dapat diimplementasikan dengan cara yang sama dan
+
+01:06.920 --> 01:12.690
+perbedaan utama hanya bagaimana item bisa dihapus dari struktur data ini.
+
+01:12.740 --> 01:18.830
+Anda melihat tidak seperti array di tumpukan dalam antrian tidak ada operasi akses acak.
+
+01:18.830 --> 01:24.500
+Anda terutama menggunakan tumpukan dan antrian untuk menjalankan perintah seperti push peak pop.
+
+01:24.980 --> 01:31.480
+Kesemuanya berurusan secara eksklusif dengan elemen di awal atau di akhir struktur data.
+
+01:31.490 --> 01:35.500
+Sekarang setelah saya katakan apa yang pertama kali Anda pikirkan.
+
+01:35.690 --> 01:39.200
+Apakah itu semacam suara yang membatasi dengan tumpukan dan antrian.
+
+01:39.350 --> 01:45.590
+Kami biasanya hanya dapat mengakses elemen pertama atau terakhir dan struktur data.
+
+01:45.620 --> 01:48.170
+Kenapa kita ingin menggunakan sesuatu seperti ini.
+
+01:48.920 --> 01:51.560
+Dan ini adalah topik penting dalam ilmu komputer.
+
+01:51.680 --> 01:59.390
+Anda akan melihat bahwa kita dapat membangun hal-hal seperti tumpukan dan Qs yang menggunakan array atau daftar tertaut kecuali tidak seperti
+
+01:59.840 --> 02:07.820
+array dan daftar tertaut kita memiliki lebih sedikit metode atau lebih sedikit tindakan yang dapat kita lakukan pada tumpukan dan Qs dan
+
+02:07.820 --> 02:14.950
+kadang-kadang ada baiknya memiliki data tingkat yang lebih tinggi ini. struktur yang dibangun di atas yang lebih rendah seperti
+
+02:14.950 --> 02:20.470
+daftar yang ditautkan dan array untuk membatasi operasi yang dapat Anda lakukan pada mereka.
+
+02:20.470 --> 02:23.580
+Itu sebenarnya manfaat dalam ilmu komputer.
+
+02:23.620 --> 02:30.370
+Memiliki kemampuan terbatas pada struktur data ini merupakan keuntungan karena Anda dapat mengendalikannya.
+
+02:30.370 --> 02:36.790
+Siapa pun yang menggunakan struktur data ini hanya melakukan operasi penulisan yang efisien.
+
+02:36.790 --> 02:43.420
+Jika Anda memberi seseorang semua alat di dunia, itu jauh lebih sulit bagi mereka untuk beroperasi daripada jika Anda hanya
+
+02:43.420 --> 02:48.320
+memberi mereka dua atau tiga sehingga mereka tahu persis apa yang harus mereka lakukan.
+
+02:48.340 --> 02:53.230
+Sekarang mari kita bicara tentang tumpukan dan antrian di beberapa video berikutnya untuk benar-benar memahami cara
+
+02:53.230 --> 02:53.740
+kerjanya.
+
+02:53.770 --> 02:55.810
+Dan akhirnya kode kita sendiri.
+
+02:56.110 --> 02:57.540
+Saya akan melihat yang berikutnya.
+
+02:57.780 --> 02:58.030
+Babai.

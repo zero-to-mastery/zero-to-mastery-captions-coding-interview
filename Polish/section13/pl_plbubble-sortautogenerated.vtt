@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.370 --> 00:02.330
+Witamy spowrotem.
+
+00:02.750 --> 00:06.620
+Zacznijmy od pierwszego elementu na naszej liście.
+
+00:06.620 --> 00:07.540
+Sortowanie bąbelkowe.
+
+00:07.850 --> 00:09.790
+Brzmi trochę zabawnie i przyjemnie.
+
+00:09.800 --> 00:10.220
+Świetny.
+
+00:11.180 --> 00:18.920
+Sortowanie bąbelkowe jest częścią tych pierwszych trzech algorytmów sortowania, które są nazywane sortami elementarnymi.
+
+00:18.920 --> 00:25.880
+Są to bardzo proste podstawowe algorytmy sortowania, które zwykle myślicie, jeśli ktoś was poprosi o
+
+00:25.880 --> 00:28.620
+sortowanie czegoś na czubku głowy.
+
+00:28.640 --> 00:34.790
+Druga pozycja, którą mamy zamiar wprowadzić do późniejszego krótkiego i szybkiego sortowania Merse, to bardziej złożone algorytmy,
+
+00:35.330 --> 00:39.390
+które przez większość czasu mogą być bardziej wydajne niż te pierwsze.
+
+00:40.000 --> 00:44.060
+Ale aby zbudować ten blok Lego, zacznijmy od bąbelków.
+
+00:44.110 --> 00:46.270
+Jak działa sortowanie bąbelkowe.
+
+00:47.650 --> 00:55.390
+Cóż, pozwól, że zadam ci pytanie, czy dałem ci listę i proszę, żebyś posortował ją w głowie, wyobrażając
+
+00:55.390 --> 00:58.110
+sobie, że masz bloki tych liter.
+
+00:58.210 --> 01:05.870
+Jak byś je poruszył lub jak powiedziałbyś komputerowi, żeby je przenosił, aby go posortować, a bańka sir
+
+01:05.870 --> 01:12.370
+może być jedną z pierwszych rzeczy, które przychodzą na myśl, to że bąbelek
+
+01:12.460 --> 01:19.550
+pochodzi z idei bulgotania największej wartości za pomocą wielu pastur Zobaczmy, co przez to rozumiem.
+
+01:19.810 --> 01:25.930
+Patrzymy na sześć na pięć i mówimy, że sześć jest większe niż pięć.
+
+01:26.360 --> 01:31.350
+A potem patrzymy na szóstkę i trzy i mówimy, że sześć jest większe niż trzy, wymieńmy je.
+
+01:31.400 --> 01:36.440
+Następnie patrzymy na sześć i jeden raz i jeszcze raz sześć jest większe niż jedno, posortujmy je.
+
+01:36.470 --> 01:39.790
+Patrzymy na sześć i osiem osiem jest większy niż sześć.
+
+01:39.800 --> 01:43.020
+Więc utrzymuj to tak, jak jest, i przejdźmy do następnego.
+
+01:43.130 --> 01:43.930
+Osiem i siedem.
+
+01:44.030 --> 01:44.830
+Rozwiążmy je.
+
+01:44.840 --> 01:47.370
+Osiem jest większe niż siedem osiem na dwie.
+
+01:47.540 --> 01:49.870
+Wymień je na osiem na cztery.
+
+01:49.940 --> 01:50.990
+Zamień je.
+
+01:51.000 --> 02:00.020
+Najwięcej pęczniejemy, a potem zaczynamy od piątej do trzeciej piątki w jednym, z których wypuszczamy największą liczbę,
+
+02:00.020 --> 02:02.820
+tak aby 7 następowało dalej.
+
+02:04.400 --> 02:08.160
+Potem idziemy dalej, dopóki nie pojawi się 6.
+
+02:08.270 --> 02:16.670
+Pętla się, dopóki nie sfilmujemy najwyższego numeru jeden po drugim, jeden po drugim, dopóki nie posortujemy listy,
+
+02:17.030 --> 02:19.630
+która jest sortowana bąbelkowo.
+
+02:19.640 --> 02:22.740
+Teraz zanim jeszcze zakodujemy to, co myślisz o bąbelkach.
+
+02:23.680 --> 02:28.020
+Jak można się domyślić, nie jest to najskuteczniejsze.
+
+02:28.090 --> 02:33.640
+Sprawdź, ile porównań zrobiliśmy i wszystko zostało wygrane przez jedną pętlę i pętlę oraz pętlę i sortowanie
+
+02:33.640 --> 02:34.300
+bąbelkowe.
+
+02:34.300 --> 02:41.710
+Jest jednym z najprostszych algorytmów sortowania, ale także jednym z najmniej wydajnych, więc nie nienawidź mnie za pokazanie,
+
+02:41.710 --> 02:43.090
+jak to działa.
+
+02:43.090 --> 02:48.990
+Jest zwykle używany jako narzędzie do nauki, jako pierwszy krok w nauce określonego algorytmu.
+
+02:49.030 --> 02:55.320
+Jaka jest według ciebie złożoność czasu i złożoność tego algorytmu?
+
+02:55.750 --> 03:00.920
+Cóż, możemy po prostu użyć dużego Chichi, jeśli spojrzymy na rodzaj bąbelków.
+
+03:01.120 --> 03:08.410
+Widzimy, że przypadki, którymi jesteśmy najbardziej zainteresowani, to średni i najgorszy przypadek, kiedy widzimy, że jest
+
+03:08.440 --> 03:09.580
+o kwadrat.
+
+03:10.550 --> 03:17.540
+Przy złożoności jednego z nich nie tworzymy żadnych nowych struktur danych, dlatego po prostu
+
+03:17.540 --> 03:21.670
+porównujemy elementy w zagnieżdżonych pętlach jeden po drugim.
+
+03:22.020 --> 03:28.950
+Ale zobaczmy to w kodzie, aby zobaczyć, dlaczego to wszystko jest już zajęte i chcę rzucić ci
+
+03:28.950 --> 03:33.900
+wyzwanie tutaj w następnym filmie, który będziemy kodować wzdłuż algorytmu sortowania bąbelkowego.
+
+03:34.440 --> 03:41.370
+Ale jeśli chcesz kontynuować, spróbuj wdrożyć to na własną rękę i zobaczyć, jak twój kod pasuje do
+
+03:41.370 --> 03:43.250
+mojego w następnym wideo.
+
+03:43.320 --> 03:43.710
+HUTCHEON.

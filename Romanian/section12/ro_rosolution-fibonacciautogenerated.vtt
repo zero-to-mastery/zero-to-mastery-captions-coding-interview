@@ -1,0 +1,385 @@
+WEBVTT
+
+00:01.300 --> 00:02.410
+Bine ai revenit.
+
+00:02.800 --> 00:09.370
+Cum se face acel exercițiu creierul tău din toată această secvență confuză.
+
+00:09.370 --> 00:18.010
+Să începem de fapt cu funcția recursivă de data aceasta, deoarece în acest caz funcția recursivă este
+
+00:18.040 --> 00:20.850
+de fapt mult mai simplă.
+
+00:21.930 --> 00:29.730
+Tot ce am face cu funcția noastră recursivă este să spunem bine că cazul de bază va spune
+
+00:29.940 --> 00:31.950
+numărul patru și va egala
+
+00:34.660 --> 00:35.270
+două.
+
+00:35.470 --> 00:38.290
+Dacă acesta este cazul, întoarce-te pur
+
+00:42.070 --> 00:49.100
+și simplu, dacă ne uităm la secvență, vedem că dacă indexează zero, răspunsul este zero.
+
+00:49.160 --> 00:53.900
+Dacă indicele este 1 Răspunsul este 1.
+
+00:54.200 --> 00:58.690
+Și dacă indicele este 2, răspunsul se schimbă la 1.
+
+00:58.700 --> 01:04.260
+Deci, în loc de cazul nostru de bază poate fi doar pur și simplu dacă un este mai mic de 2.
+
+01:04.280 --> 01:08.280
+Întotdeauna vom întoarce orice este sfârșitul.
+
+01:08.300 --> 01:13.500
+Deci, dacă spunem 0, va reveni 0 dacă spunem că se va întoarce 1.
+
+01:13.580 --> 01:22.150
+Dacă avem un indice mai mare decât bine, atunci trebuie să facem o recursivitate și tot ce vom face aici
+
+01:22.150 --> 01:27.730
+este să avem o declarație de returnare și să spunem această funcție.
+
+01:27.730 --> 01:30.270
+Știu că această funcție este foarte lungă.
+
+01:30.280 --> 01:33.630
+Putem probabil să facem mai scurtă doar să spunem fib.
+
+01:33.730 --> 01:38.140
+Și observ că nu avem nevoie de iterativ aici.
+
+01:38.300 --> 01:39.900
+Asta o va face puțin mai scurtă.
+
+01:39.900 --> 01:52.340
+Acolo știți că vom spune că Fed este egal și minus unu plus același lucru minus doi
+
+01:56.620 --> 02:01.180
+deoarece amintesc că suma este întotdeauna.
+
+02:01.180 --> 02:07.450
+Răspunsul este întotdeauna cu numerele 1 și 2 înainte de el.
+
+02:07.560 --> 02:17.560
+Așa că adăugăm numerele 1 și 2 înaintea secvenței noastre și asta este.
+
+02:17.560 --> 02:26.230
+Dacă executăm această funcție, să spunem dacă avem Bonacci recursivă 3 și execut un click pe mine primesc 2 pentru că
+
+02:26.470 --> 02:36.180
+0 1 2 3 este 2 ani să facem 8 care ar trebui să ne dea 21 și fac clic pe Run sau da 8.
+
+02:36.290 --> 02:45.930
+Am 21 de drăguți și dacă fac 0, obțin 0.
+
+02:46.290 --> 02:49.050
+Dacă fac una, primesc una.
+
+02:49.080 --> 02:53.470
+Dacă aș face și eu, ar trebui să-mi dau una chiar aici.
+
+02:53.520 --> 02:58.530
+Frumos și simplu simplu nu știu despre drept simplu.
+
+02:58.570 --> 03:04.340
+Chiar trebuie să te simți confortabil cu asta înainte să înțelegi cu adevărat ce se întâmplă.
+
+03:04.420 --> 03:06.630
+Dar am o mică diagramă care să te ajute aici.
+
+03:07.570 --> 03:10.300
+Tot ce am făcut este pur și simplu asta.
+
+03:10.450 --> 03:19.900
+Dacă am adăugat 7 aici, funcția recursivă va primi una mai mică de 7 și 2 mai puțin de 5 și apoi în cadrul acelor
+
+03:19.930 --> 03:26.080
+funcții face același lucru cu una mai mică de șase până la mai puțin de șase.
+
+03:26.170 --> 03:30.090
+Vrei să trimiți 5 la mai puțin de 3 și face toate acestea.
+
+03:30.100 --> 03:39.420
+Toate astea până când ajungem la FEBE de la 1 la locul unde avem cazul nostru de bază care returnează acel număr.
+
+03:39.500 --> 03:42.310
+Deci, aceasta devine una.
+
+03:42.430 --> 03:49.170
+Acest lucru devine, de asemenea, unul și apoi continuă continuă continuă să se întoarcă până când ajungem la FEBE din 7.
+
+03:49.180 --> 03:53.800
+Acum este o diagramă pe care o vom reveni, dar vedeți că facem multe calcule
+
+03:53.800 --> 03:54.340
+aici.
+
+03:55.250 --> 03:57.770
+Dar pur și simplu pune asta este tot ce facem.
+
+03:59.820 --> 04:06.360
+Acum am spus că abordarea recursivă este de fapt mai simplă decât abordarea iterativă.
+
+04:06.810 --> 04:10.860
+Să aruncăm o privire la ceea ce ar arăta abordarea iterativă.
+
+04:10.950 --> 04:14.790
+Vom crea o matrice și există multe modalități de a face acest lucru.
+
+04:14.790 --> 04:24.370
+Acesta este modul meu preferat și acest sondaj va avea elementele inițiale ale secvenței 0 și 1.
+
+04:24.580 --> 04:31.280
+Și aceasta va reveni mai întâi la matricea unui element.
+
+04:31.280 --> 04:36.680
+Și creăm această matrice și apoi luăm indicele pe care vrea utilizatorul.
+
+04:36.680 --> 04:43.940
+În cazul nostru, dacă utilizatorul cere 0 sau 1, deja avem matricea prealabilă cu zero și 1 și se va
+
+04:43.940 --> 04:45.390
+întoarce la fel.
+
+04:45.800 --> 04:49.610
+Dar trebuie să calculam pentru toate celelalte.
+
+04:49.610 --> 04:58.760
+Acolo vom face o buclă și vom spune Să fie egală cu două deoarece vom începe să adăugăm când indicele
+
+04:59.000 --> 05:12.560
+este 0 1 2 pentru a începe să umpleți ancheta va spune că este mai mică decât o plus sau putem face o cotă egală pentru că doriți o sa
+
+05:12.560 --> 05:17.660
+lasam la asta pentru moment si vom creste plus plus.
+
+05:17.960 --> 05:23.480
+Și în această buclă vom continua să mergem până când
+
+05:23.810 --> 05:26.390
+vom lovi numărul de
+
+05:28.980 --> 05:38.890
+indici pe care ni-l interesează și tot ce vom spune este "push-matrix" I minus doi plus PI minus unul.
+
+05:39.110 --> 05:40.640
+Similar cu ceea ce am făcut înainte.
+
+05:40.640 --> 05:45.830
+Suntem doar însumând cele două numere anterioare și împingându-l la matrice.
+
+05:46.820 --> 05:47.320
+In regula.
+
+05:47.420 --> 05:49.030
+Acum să vedem dacă funcționează.
+
+05:49.070 --> 05:53.410
+Voi comenta acest lucru și doar o abordare iterativă.
+
+05:54.630 --> 05:56.760
+Am două pentru trei.
+
+05:56.760 --> 05:58.900
+Dar indicele de opt.
+
+05:59.070 --> 06:01.740
+Am 21 perfect.
+
+06:01.830 --> 06:11.640
+Și apoi dacă fac indexul de 0 și X din 1 și indicele de doi ar trebui să fie unul perfect.
+
+06:11.670 --> 06:16.980
+Acum am spus că abordarea recursivă este mai simplă decât abordarea iterativă.
+
+06:16.980 --> 06:18.880
+Asta este opinia mea personală.
+
+06:18.930 --> 06:25.440
+S-ar putea să nu credeți că ați putea crede că acest lucru a fost destul de ușor, dar pentru mine acest lucru este mult
+
+06:26.190 --> 06:28.090
+mai plăcut decât tot ce facem.
+
+06:28.960 --> 06:34.390
+Și asta este ceva la care vom intra în următorul videoclip despre care vorbim despre
+
+06:34.390 --> 06:41.050
+compromisurile dintre abordările iterative și cele recursive la aceste probleme și de ce poate că te întrebi acum
+
+06:41.260 --> 06:44.210
+de ce vom scrie vreodată ceva recursiv.
+
+06:44.380 --> 06:48.720
+Dacă veți găsi acest lucru confuz, vom ajunge la asta.
+
+06:48.810 --> 06:54.000
+Dar singurul lucru pe care vreau să-ți arăt este ceva pe care tocmai îl învățăm aici, care este nou pentru noi.
+
+06:54.540 --> 06:57.370
+Ce credeți că este marele O al acestor două funcții.
+
+06:59.030 --> 07:02.770
+Ei bine, în soluția noastră iterativă.
+
+07:02.870 --> 07:06.410
+O mare O este linia dreaptă dreaptă.
+
+07:06.410 --> 07:07.640
+E o problemă.
+
+07:07.670 --> 07:16.190
+Și, în esență, noi pur și simplu iterăm prin bucla și minus de două ori, pentru că depășim
+
+07:16.190 --> 07:20.490
+primele două elemente care la rândul lor o fac.
+
+07:20.560 --> 07:22.110
+Cuptor.
+
+07:22.150 --> 07:25.930
+Dar abordarea recursivă.
+
+07:25.960 --> 07:28.610
+Ține minte diagrama pe care ți-am arătat-o
+
+07:28.860 --> 07:34.860
+Sunt mai multe calcule decât cele șapte.
+
+07:34.970 --> 07:42.430
+Avem multe apeluri de funcții care se întâmplă în acest caz în soluția de recurs.
+
+07:42.430 --> 07:52.060
+Este nevoie de ceea ce numim timp exponențial, dimensiunea copacului cresc exponențial atunci când crește și dacă numărul
+
+07:52.630 --> 08:02.020
+Fibonacci era de opt, am avea acest copac, precum și un alt copac sub FEBE de 8, deci
+
+08:03.570 --> 08:06.120
+care este marele rezultat.
+
+08:08.140 --> 08:13.040
+Acest lucru este foarte interesant pentru că învățăm despre o nouă notație Big O.
+
+08:13.270 --> 08:17.520
+Învățăm despre acest timp exponențial.
+
+08:18.670 --> 08:28.080
+Ceea ce poate fi văzut cu algoritmi recursivi care rezolvă o problemă de mărime și de 2 la puterea unui dacă mergem
+
+08:28.080 --> 08:33.230
+la marele nostru O Chichi este 0 2 la puterea unei furnici.
+
+08:33.270 --> 08:37.860
+Și tu vezi cât crește.
+
+08:37.860 --> 08:39.520
+E cam rău.
+
+08:39.780 --> 08:50.300
+Este mai mare decât egal cu 0 și pătrat cele două imbricate pentru bucle timpul exponențial înseamnă orice element
+
+08:50.390 --> 08:52.860
+suplimentar din secvența Fibonacci.
+
+08:52.880 --> 08:58.070
+Avem o creștere a apelurilor pentru funcții exponențial.
+
+08:58.150 --> 09:05.410
+Și iată un mic truc distractiv, deși aceasta este o abordare iterativă.
+
+09:05.410 --> 09:18.660
+Această funcție, pentru că toți cei doi sunt în puterea unui proces dacă execut această funcție, să zicem dacă facem 10
+
+09:20.700 --> 09:27.230
+dacă obțin un rezultat 15 dacă mai obțin un rezultat.
+
+09:27.230 --> 09:28.570
+Și dacă fac 20 aici.
+
+09:29.940 --> 09:30.300
+In regula.
+
+09:30.300 --> 09:33.120
+Încep să devină tot mai mare și mai mare.
+
+09:33.230 --> 09:40.530
+Fac 30 dacă fac 40.
+
+09:40.550 --> 09:43.810
+Vedeți cât de mult a luat-o pentru a calcula.
+
+09:44.030 --> 09:47.960
+Deoarece complexitatea noastră de timp crește din ce în ce mai mult.
+
+09:48.070 --> 09:55.340
+Dacă fac patruzeci și trei de acum, veți vedea că așteptăm și așteptăm ca calculul să se
+
+09:55.340 --> 09:55.990
+întâmple.
+
+09:56.090 --> 10:01.610
+Și în cele din urmă browserul vine cu calculul ca o întrebare bonus și să
+
+10:01.610 --> 10:05.770
+se gândească la cât de multe calcule Fibonacci 43 necesare.
+
+10:07.130 --> 10:16.940
+Acest lucru Deși ar putea fi mai ușor de citit nu este o soluție ideală, așa cum puteți vedea complexitatea timpului mare este destul de
+
+10:16.940 --> 10:17.590
+mare.
+
+10:17.750 --> 10:23.310
+Și acesta este ceva ce ați putea fi întrebat într-un interviu și știu ce gândiți.
+
+10:23.620 --> 10:28.210
+Doar tu ne-ai învățat despre recursivitate și nici nu e bine.
+
+10:28.360 --> 10:30.430
+Este lent că este confuz.
+
+10:30.430 --> 10:33.570
+De ce aș vrea vreodată să recurgem la recurs.
+
+10:34.480 --> 10:38.290
+În următorul videoclip voi vorbi despre acest compromis.
+
+10:38.290 --> 10:42.260
+De ce ai folosi vreodată recursivitate pentru ceva care este enterita.
+
+10:43.470 --> 10:46.190
+De ce ar face o persoană sănătoasă asta.
+
+10:46.530 --> 10:54.530
+Și, după cum veți afla, există câteva avantaje și dezavantaje și, de fapt, o funcție ca aceasta, cum ar
+
+10:54.530 --> 11:02.380
+fi o secvență Fibonacci, și recursiunea pot fi făcute până la capăt folosind ceva de programare dinamică și
+
+11:02.380 --> 11:05.010
+memorare despre care vom vorbi.
+
+11:05.110 --> 11:11.350
+Către sfârșitul acestui curs și vom reveni la acest lucru, dar să răspundem în final la întrebarea
+
+11:11.350 --> 11:12.810
+din următorul videoclip.
+
+11:13.030 --> 11:18.730
+De ce ai folosi vreodată recursivitate peste ceva iterativ.
+
+11:18.780 --> 11:20.320
+Voi vedea în următorul.
+
+11:20.440 --> 11:20.700
+Bebai.

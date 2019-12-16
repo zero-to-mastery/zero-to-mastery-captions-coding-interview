@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.060 --> 00:09.560
+Witaj ponownie, dlaczego tablice skrótów tabel mieszania są świetne, gdy chcesz uzyskać szybki dostęp do określonych wartości.
+
+00:09.580 --> 00:14.930
+Pamiętaj, że przeszukiwanie tablicy dla przedmiotu zajmuje naprawdę dużo czasu.
+
+00:14.930 --> 00:21.380
+Musimy przechodzić przez każdy element i sprawdzać, czy określony ciąg znaków lub pewna liczba znajduje się w tablicy z
+
+00:21.380 --> 00:22.300
+tablicami mieszającymi.
+
+00:22.310 --> 00:24.950
+To naprawdę bardzo szybko.
+
+00:25.100 --> 00:29.410
+I dlatego widać tabele mieszania w miejscach takich jak bazy danych.
+
+00:29.450 --> 00:33.500
+Chcemy wyszukać coś w bazie danych i od razu ją odsyła.
+
+00:34.360 --> 00:44.620
+Podobnie wstawianie elementów i tablica asocjacyjna w przeciwieństwie do tablicy, która może przesuwać indeksy, ma zwykle wartość
+
+00:45.020 --> 00:46.020
+jeden.
+
+00:46.450 --> 00:50.260
+Po prostu musisz mieszać i tworzyć klucz.
+
+00:50.260 --> 00:55.450
+Chociaż przez większość czasu mamy takie zderzenia, nie musimy się zbytnio
+
+00:55.450 --> 00:56.170
+przejmować.
+
+00:56.170 --> 00:59.940
+I możemy przyjąć i odpowiedzieć na wszystkie.
+
+01:00.120 --> 01:05.430
+Następnie są inne aspekty, które są dość podobne pomiędzy tymi dwoma tablicami,
+
+01:05.430 --> 01:12.870
+pozwalające szybko sprawdzić wartość dla danego klucza klucze nazywane są indeksami w tablicy, a my nie możemy
+
+01:12.870 --> 01:21.170
+ich wybrać, zawsze jest 0 1 2 3 w tabelach mieszających, które możemy wybierz je, więc tablice hash to
+
+01:21.170 --> 01:31.860
+coś w stylu hackowania na tablicy, abyśmy mogli używać elastycznych kluczy zamiast utknąć przy 0 1 2 3 problem z tablicami hash, o których
+
+01:32.010 --> 01:36.120
+mówiliśmy, to idea braku pojęcia porządku w tablicach.
+
+01:36.120 --> 01:40.810
+Każdy przedmiot został umieszczony obok siebie na półce w pamięci.
+
+01:40.930 --> 01:43.800
+Tabele skrótów są rozmieszczone w różnych miejscach.
+
+01:45.560 --> 01:51.590
+Teraz, gdy mamy pojęcie o różnicach między tymi dwoma, myślę, że nadszedł czas, abyśmy
+
+01:51.590 --> 01:58.490
+faktycznie pracowali nad niektórymi ćwiczeniami i udzielali wywiadów z pytaniami, na których użyjemy tablic hash i ich odpowiedzi.
+
+01:58.520 --> 01:59.350
+Zobaczę na tym.

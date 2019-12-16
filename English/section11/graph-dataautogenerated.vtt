@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.610 --> 00:01.460
+Welcome back.
+
+00:01.690 --> 00:09.220
+Let's learn how to build our own graph graphs when you look at them look very intimidating.
+
+00:09.940 --> 00:19.540
+But here's the thing we've actually learned the tools necessary to build graphs because graphs are built
+
+00:19.540 --> 00:23.000
+on top of other data structures.
+
+00:23.010 --> 00:29.880
+Remember this diagram of the directed acyclic graph Well many of the data structures that we've been
+
+00:29.880 --> 00:37.740
+playing with up until now can create something like this using trees and link lists.
+
+00:37.740 --> 00:39.850
+I mean it looks pretty similar right.
+
+00:39.870 --> 00:44.460
+You have a node with children and different pointers
+
+00:47.300 --> 00:48.330
+using that knowledge.
+
+00:48.380 --> 00:55.350
+Let's talk about how to start thinking about graphs or at least how to think about building them.
+
+00:56.540 --> 00:58.470
+There's three ways they can think about it.
+
+00:58.490 --> 01:05.930
+The first is called an edge list and I have an example for you that we can use to build something like
+
+01:05.930 --> 01:07.170
+this.
+
+01:07.180 --> 01:12.640
+Let's say we want to build this graph how would we go about doing this.
+
+01:14.600 --> 01:24.850
+With an edge list we can say Konst graph equals to something like this.
+
+01:24.850 --> 01:27.610
+Now let's see what I did here.
+
+01:27.690 --> 01:36.240
+I have an array and within this array I have one two three four items that itself.
+
+01:36.310 --> 01:38.070
+They are a race.
+
+01:38.220 --> 01:43.630
+But if we look at the graph the array simply states the connections.
+
+01:43.860 --> 01:49.330
+That is we have zero and two as the first item in the array.
+
+01:49.450 --> 01:58.000
+We have two and three as the second array inside of the array and then two and one and one and three
+
+01:58.310 --> 02:04.930
+an edge list simply shows the connection that zero is connected to 2 and 2 is connected to zero.
+
+02:06.950 --> 02:10.930
+Two is connected to three threes connected to 2 to 1 1 to 3.
+
+02:10.930 --> 02:14.620
+So on and so forth quite simple.
+
+02:14.880 --> 02:27.060
+There's another way called adjacency or adjacent list and in this case we can create a graph where the
+
+02:27.120 --> 02:35.060
+index is the note and the value is the nodes neighbors what I mean by that.
+
+02:35.390 --> 02:41.600
+Well then here we can use arrays we can use objects we can use Linked Lists.
+
+02:41.630 --> 02:47.570
+But let's say that in the index of 0 the first item 0 is connected to 2
+
+02:50.610 --> 03:04.410
+index of one that is node one is connected to 2 and three index of two is connected to 0 1 and 3 and
+
+03:04.410 --> 03:10.130
+then finally index of 3 or No3 is connected to 1 and 2.
+
+03:10.290 --> 03:15.450
+And you can also do the above with an object where it might even be clearer.
+
+03:15.460 --> 03:21.730
+And if a node value is something other than a number you can actually give it a value.
+
+03:21.780 --> 03:23.250
+So a key and a value.
+
+03:23.520 --> 03:26.910
+And this is extremely useful with object if you have.
+
+03:27.120 --> 03:30.970
+Like I said not a sequential number as we do in this example.
+
+03:31.050 --> 03:35.850
+And when we implement our own graph we're going to use an adjacent list using an object.
+
+03:35.850 --> 03:36.930
+And you'll see what I mean.
+
+03:37.700 --> 03:42.910
+Finally I want to show you the last method to represent graphs.
+
+03:42.990 --> 03:53.980
+It's called adjacent matrix and an adjacent matrix is going to look something like this this matrix
+
+03:54.010 --> 04:01.330
+is simply going to have zeros and ones indicating whether the node X has a connection to node y.
+
+04:01.360 --> 04:04.570
+Zero means no one means yes.
+
+04:04.690 --> 04:09.910
+And if you have a way to graph you can actually add weights here instead of 1 and 0.
+
+04:09.910 --> 04:12.120
+So they can actually be numbers.
+
+04:12.250 --> 04:17.620
+I'm not going to type this out because I'm going to bore you to death but here is the same representation
+
+04:17.620 --> 04:23.140
+that we've done with at least an adjacent list this time with adjacent matrix.
+
+04:23.200 --> 04:24.670
+What does it mean.
+
+04:24.700 --> 04:33.500
+Well index of 0 has connection with 0 1 2 0 0 is connected to two.
+
+04:33.760 --> 04:47.550
+Then no one is connected to two and three node 2 is connected to 0 1 and 3.
+
+04:47.550 --> 04:56.550
+And you can see how it's very similar to here and node 4 is connected to one and two just like over
+
+04:56.550 --> 04:57.540
+here.
+
+04:57.540 --> 05:05.270
+And once again instead of a race you can use objects here and actually give it a key and a value.
+
+05:06.160 --> 05:17.610
+So that this if it was an object would be zero one to and three.
+
+05:17.690 --> 05:25.640
+And if we go to visual go you'll actually see that they have these three ways to describe graphs.
+
+05:25.690 --> 05:27.220
+The adjacency matrix.
+
+05:27.220 --> 05:28.200
+And because it's weighted.
+
+05:28.200 --> 05:31.900
+You see that there's numbers here instead of 1.
+
+05:32.050 --> 05:39.250
+We have the adjacency list where it looks like here they have a hash table with the values and also
+
+05:39.250 --> 05:44.080
+an edge list with an extra property of the weights.
+
+05:44.110 --> 05:48.730
+Because this is a way to graph and you can see the weights as well in the adjacency list.
+
+05:48.940 --> 05:51.180
+But we've just taken a look at a lot of numbers.
+
+05:51.190 --> 05:56.230
+I think it's time for us to build our own graph to finalize our understanding.
+
+05:56.290 --> 05:57.540
+I'll see in the next one.
+
+05:57.930 --> 05:58.160
+Bobby.

@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.550 --> 00:01.330
+Bine ai revenit.
+
+00:01.450 --> 00:03.750
+Vreau doar să vă arăt un videoclip rapid.
+
+00:03.970 --> 00:09.610
+Mai ales pentru cei care sunt familiarizați cu javascript că există multe multe moduri de a face bucle
+
+00:09.610 --> 00:10.290
+în Javascript.
+
+00:10.330 --> 00:12.360
+Și la fel cu alte limbi.
+
+00:12.370 --> 00:15.520
+Există multe modalități de a face aceste bucle.
+
+00:15.610 --> 00:19.390
+Vreau doar să vă arăt câteva lucruri rapide pe care le puteți vedea pe parcursul cursului.
+
+00:19.390 --> 00:21.190
+Doar ca să fiți familiarizați cu ei.
+
+00:21.190 --> 00:28.780
+De exemplu, găsirea funcției Nemo care are o buclă pentru forță poate fi de asemenea scrisă cu ceva asemănător unei funcții
+
+00:28.780 --> 00:29.890
+pentru fiecare funcție.
+
+00:29.890 --> 00:39.610
+Așa că pot să-i spun lui Konst că Nimo se ocupă de o serie.
+
+00:42.900 --> 00:47.320
+Și putem spune că pentru fiecare verey pentru fiecare.
+
+00:47.760 --> 00:55.320
+Ceea ce este cam exact acelasi lucru ca si pentru o buclă, dar nu va trebui sa
+
+00:55.320 --> 01:09.400
+tastati intregul lucru pentru fiecare element din matrice asa ca vom spune ca am de gand sa spun daca apelurile mele Nimo pentru ca in acest caz cu 4 fiecare Nu luăm
+
+01:09.400 --> 01:13.050
+indicele pe care îl luăm în matrice.
+
+01:13.090 --> 01:17.460
+Poate că ați putea spune doar pescuitul aici, așa că este mai mult sau mai mult.
+
+01:17.590 --> 01:23.910
+Și dacă acesta este cazul, vom anula logoul din nou găsit de
+
+01:28.120 --> 01:28.710
+Nimo.
+
+01:28.760 --> 01:34.210
+Acesta este același lucru ca și pentru fiecare, care ne permite să simplificăm puțin lucrurile.
+
+01:35.520 --> 01:40.590
+Există și o altă modalitate prin care putem face acest lucru în Javascript cu forma de buclă.
+
+01:40.750 --> 01:52.170
+Dacă vom copia acest cod și veți găsi Nimo 3 de data aceasta matricea pe care o vom lua noi vom spune în
+
+01:52.170 --> 01:54.990
+loc de cele patru fiecare.
+
+01:55.140 --> 02:03.520
+De data aceasta o să spunem pentru că ne-am lăsat să trecem la masă.
+
+02:03.610 --> 02:11.300
+Și apoi, din nou, acest lucru ne oferă același lucru cu ochiul sau putem spune doar pește aici, așa că este mai clar.
+
+02:13.540 --> 02:14.710
+Este egal cu nimo.
+
+02:14.780 --> 02:23.130
+Vom spune că găsim Nimo și dacă executați aceste funcții, asigurați-vă că amândoi lucrează, așa că găsiți Nimo pentru
+
+02:23.130 --> 02:25.540
+a găsi toate cele trei.
+
+02:25.650 --> 02:33.160
+Și, de asemenea, rulați găsiți Nemo cinci ceas de alergat și veți avea nevoie de suport pentru aceasta.
+
+02:33.190 --> 02:37.330
+Dacă fac clic pe rulare, vedem că am găsit-o pe Nemo de trei ori.
+
+02:39.340 --> 02:43.340
+Diferite moduri de a rezolva această problemă.
+
+02:43.390 --> 02:51.320
+Toate dintre ele folosesc bucle, dar puteți vedea că unele sunt mai ușor de citit decât altele și asta este ceva pe care l-am întâlnit înainte
+
+02:51.320 --> 02:52.580
+de a avea dreptate.
+
+02:52.580 --> 03:03.010
+Amintiți-vă un cod bun înseamnă ceva care este scalabil, dar și ceva care poate fi citit în funcție de situația dvs.
+
+03:03.100 --> 03:06.710
+și ceva ce vom ajunge mai târziu.
+
+03:06.880 --> 03:10.940
+Cât de sustenabil și cum pot alții din echipa dvs. să înțeleagă acest cod.
+
+03:11.090 --> 03:16.100
+Există modalități diferite de a face lucrurile astfel încât să fie mai ușor să lucrați.
+
+03:16.230 --> 03:20.700
+Dar sper că dacă vedeți această sintaxă pe parcursul acestui curs, sunteți cel puțin familiarizați
+
+03:20.700 --> 03:24.120
+că, la sfârșitul zilei, tot ceea ce facem este doar buclele.
+
+03:24.240 --> 03:25.940
+Voi vedea în următorul.

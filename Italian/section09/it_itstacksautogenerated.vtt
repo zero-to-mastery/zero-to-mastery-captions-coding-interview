@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.260 --> 00:11.830
+Parliamo di stack di stack è un tipo di struttura di dati che è possibile pensare a loro come a un piatto, cioè che abbiamo
+
+00:11.830 --> 00:19.150
+un unico dato e quindi un altro dato arriva e viene impilato sopra a quel dato e
+
+00:19.150 --> 00:24.030
+continua ad andare avanti continua ad andare avanti e continua.
+
+00:24.040 --> 00:31.510
+Puoi pensarci mentre questi piatti sono impilati uno sopra l'altro verticalmente e puoi toccare solo la
+
+00:31.600 --> 00:32.950
+piastra superiore.
+
+00:33.040 --> 00:39.520
+Puoi davvero accedere a qualsiasi cosa dal basso qui il modo in cui puoi accedere ai dati da
+
+00:39.520 --> 00:46.960
+una pila è afferrare il primo piatto poi il secondo piatto e poi il terzo e vai avanti e vai avanti e
+
+00:46.960 --> 00:50.690
+vai avanti finché non sei passato attraverso tutto lo stack.
+
+00:50.940 --> 00:58.950
+E questo si chiama Life'll o last in first out perché l'ultimo oggetto che arriva è il primo
+
+00:59.070 --> 01:05.850
+che viene fuori e stai pensando a te stesso perché è utile quando useremo qualcosa come
+
+01:05.850 --> 01:07.190
+una pila.
+
+01:07.200 --> 01:10.280
+In realtà sono utili in un numero piuttosto sorprendente di modi.
+
+01:10.380 --> 01:17.250
+Ovviamente sono molto buone quando è necessario conoscere l'ultimo valore che è stato visto o aggiunto e
+
+01:17.250 --> 01:21.960
+gli stack sono molto importanti nei motori specifici della lingua.
+
+01:21.960 --> 01:28.770
+Potresti aver sentito parlare di qualcosa chiamato Stack Overflow di un sito web visitato da molti ingegneri e
+
+01:28.770 --> 01:35.040
+includerò un video bonus dopo aver parlato di come funziona il motore javascript utilizzando stack e spunti
+
+01:35.040 --> 01:40.190
+e in che modo potresti ottenere lo stack overflow quando scrivi codice cattivo
+
+01:40.970 --> 01:48.440
+Ora la maggior parte dei linguaggi di programmazione è modellata con l'architettura dello stack in mente e quando le funzioni vengono
+
+01:48.440 --> 01:56.240
+chiamate in un linguaggio di programmazione di solito seguono questo modello di ultimo in primo luogo una funzione all'interno di una funzione
+
+01:56.240 --> 01:58.760
+all'interno di una funzione viene chiamata.
+
+01:58.790 --> 02:05.150
+E poi iniziamo a fare scoppiare quelle funzioni finché non arriviamo all'inizio e non preoccupatevi che questo
+
+02:05.150 --> 02:09.700
+sarà un po 'più chiaro quando in realtà codifichiamo il nostro stack.
+
+02:09.710 --> 02:17.210
+Un altro modo utile in cui potremmo usare gli stack è come la cronologia del browser esattamente dove vai avanti e indietro da
+
+02:17.270 --> 02:23.900
+un sito Web a un altro e poi premi il pulsante indietro o il pulsante anteriore che utilizza gli stack.
+
+02:24.140 --> 02:29.930
+O forse stai scrivendo una parte di testo e vuoi annullare qualcosa, quindi puoi fare clic sull'opzione
+
+02:29.930 --> 02:33.710
+di annullamento per tornare indietro o in avanti per ripristinarla.
+
+02:33.710 --> 02:35.310
+Ti sei mai chiesto come funziona.
+
+02:35.390 --> 02:42.110
+Bene, l'idea viene dagli stack che si memorizzano lo stato precedente sul lavoro e la memoria in un
+
+02:42.110 --> 02:45.480
+ordine tale che l'ultimo viene visualizzato per primo.
+
+02:45.710 --> 02:52.070
+Questo è qualcosa che possiamo fare con gli stack come potete vedere qui stack che di
+
+02:52.340 --> 02:55.130
+solito vengono con tre tipi di metodi.
+
+02:55.130 --> 02:57.440
+Ce ne sono alcuni altri, ma questi sono i principali.
+
+02:57.440 --> 02:58.070
+Pop.
+
+02:58.160 --> 03:00.850
+Push e Peek pop vengono rimossi.
+
+03:00.860 --> 03:08.960
+L'ultimo oggetto rimosso è il modo in cui placchiare e sbirciare è semplicemente visto il più alto gioco
+
+03:08.970 --> 03:10.830
+che ho aggiunto.
+
+03:10.830 --> 03:16.920
+Cerca qui solo per mostrarti che è un grosso problema per ADD, perché di
+
+03:17.400 --> 03:24.170
+solito non vuoi attraversare un intero stack ma solo per sapere se volevamo farlo sarebbe un'operazione pesante.
+
+03:25.020 --> 03:27.410
+Parliamo di Q's nel prossimo video.
+
+03:27.720 --> 03:27.940
+Buh-Bye.

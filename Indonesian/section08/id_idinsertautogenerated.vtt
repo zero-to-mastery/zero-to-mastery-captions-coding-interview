@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.520 --> 00:02.840
+Selamat datang kembali.
+
+00:02.840 --> 00:10.100
+Kami baru saja mengimplementasikan persiapan dan penambahan dan harus jelas bagi Anda mengapa itu adalah operasi 0
+
+00:10.160 --> 00:11.620
+1 untuk keduanya.
+
+00:11.660 --> 00:14.700
+Kami tidak benar-benar harus melewati apa pun.
+
+00:14.790 --> 00:20.000
+Kami hanya memiliki referensi ke ekor dan kepala dan kami menugaskan kembali beberapa nilai.
+
+00:20.370 --> 00:21.600
+Baik dan mudah.
+
+00:21.930 --> 00:23.700
+Tetapi sekarang sampai pada bagian yang sulit.
+
+00:23.910 --> 00:25.010
+Bagaimana dengan keinginan ini.
+
+00:25.020 --> 00:26.300
+Bagaimana dengan penguncian.
+
+00:26.310 --> 00:29.750
+Sisipan traverse terhapus.
+
+00:29.810 --> 00:37.150
+Saya pikir kita harus mengkodekannya juga untuk sepenuhnya memahami bagaimana daftar panjang bekerja latihan ini akan
+
+00:37.150 --> 00:39.030
+menjadi sedikit lebih sulit.
+
+00:39.190 --> 00:43.840
+Tapi saya akan memberi Anda kepala bahwa akan ada beberapa perulangan yang terlibat.
+
+00:44.050 --> 00:53.830
+Kami ingin membuat metode penyisipan dalam metode penyisipan ini akan memiliki indeks dan parameter nilai
+
+00:54.730 --> 01:04.260
+karena kami ingin dapat mengatakan memasukkan lokasi ini nilai ini ke dalam daftar.
+
+01:04.290 --> 01:13.980
+Sebagai contoh jika saya ingin mengatakan dot list saya yang tertaut dan misalkan saya
+
+01:14.010 --> 01:19.560
+ingin memasukkan indeks dua, nilai sembilan puluh sembilan.
+
+01:19.650 --> 01:27.900
+Itu berarti bahwa jika kita kembali ke indeks contoh 2 kita berarti 0 1 di sini.
+
+01:27.960 --> 01:36.420
+Saya ingin memasukkan sembilan puluh sembilan dan arahkan ke 5 bagaimana kita melakukannya.
+
+01:37.290 --> 01:45.840
+Saya ingin memperingatkan Anda bahwa ini bisa menjadi sedikit rumit dan cara terbaik untuk benar-benar memikirkannya adalah dengan mengambil selembar
+
+01:45.840 --> 01:50.730
+kertas dan pena dan menggambar langkah-langkah yang harus Anda lakukan.
+
+01:52.020 --> 01:59.880
+Cara yang baik untuk mempraktekkan ini dan memastikan Anda melakukannya dengan benar adalah dengan menggunakan situs
+
+01:59.880 --> 02:08.560
+web Go visual dan berlatih menyisipkan dan melihat apa yang terjadi ketika Anda membuat indeks hingga katakanlah sembilan puluh
+
+02:08.560 --> 02:09.160
+sembilan.
+
+02:09.190 --> 02:12.250
+Anda harus membuat kode tindakan itu.
+
+02:12.370 --> 02:13.450
+Apakah kamu mengerti itu?
+
+02:13.810 --> 02:19.910
+Main-main dengan ini saat Anda mencoba dan kode fungsi insert.
+
+02:20.160 --> 02:25.620
+Seperti saya katakan sedikit petunjuk bahwa akan ada beberapa perulangan dan baut Anda melihat
+
+02:25.650 --> 02:29.220
+bahwa dalam demonstrasi atau dalam animasi ada semacam traversal.
+
+02:29.220 --> 02:34.180
+Jadi kita harus melakukan semacam traversal untuk menemukan indeks.
+
+02:34.350 --> 02:44.310
+Dan saya juga hanya ingin kode fungsi daftar cetak cepat sehingga alih-alih menggunakan cara mencetak daftar kami yang
+
+02:44.340 --> 02:49.390
+semakin dalam dan semakin dalam semakin sulit untuk dipahami.
+
+02:49.590 --> 02:55.740
+Saya hanya akan membuat fungsi daftar cetak yang harus Anda akses
+
+02:55.740 --> 03:04.650
+untuk memastikan bahwa metode penyisipan Anda berfungsi dan daftar cetak ini hanya akan menampilkan daftar yang ditautkan.
+
+03:04.660 --> 03:10.250
+Tapi alih-alih mencetak ini jelek saya hanya akan mencetaknya dalam array.
+
+03:10.270 --> 03:20.760
+Jadi ini hanya akan dicetak dalam array yang akan kita lakukan adalah mengatakan Konst array
+
+03:20.760 --> 03:32.090
+dan ini akan menjadi NMT aurorae akan memiliki variabel catatan saat ini yang akan memiliki pemikiran ini.
+
+03:32.570 --> 03:37.370
+Jadi item pertama dalam daftar dan yang akan kita lakukan adalah melakukan loop sementara.
+
+03:37.430 --> 03:40.210
+Ingat ini mirip dengan for loop.
+
+03:40.220 --> 03:46.220
+Kami sedang mengulang tetapi sebaliknya kami katakan saat ini terjadi sementara kondisi sedang terjadi
+
+03:46.220 --> 03:52.450
+jalankan komentar di bawah ini jadi saya akan mengatakan sementara simpul saat ini tidak sama dengan
+
+03:52.460 --> 04:02.820
+Tidak asalkan ada simpul saat ini dan kami tidak menunjuk ke terminator nol dalam kasus itu hanya
+
+04:02.820 --> 04:10.390
+cukup menambahkan ke array array dari push nilai node saat ini.
+
+04:10.590 --> 04:11.230
+Itu dia.
+
+04:11.250 --> 04:13.020
+Kami tidak peduli dengan petunjuk atau apa pun.
+
+04:13.020 --> 04:21.670
+Kami hanya ingin mendorong ke array nilai dan kami ingin kemudian memperbarui node saat ini ke titik simpul
+
+04:22.120 --> 04:24.100
+saat ini yang berikutnya.
+
+04:24.100 --> 04:29.410
+Jadi kita akan terus berjalan terus terus sampai node saat ini akan menjadi
+
+04:29.410 --> 04:36.200
+nol dan yang mana kita akan berhenti lagi sementara loop benar-benar baik jika kita tidak benar-benar tahu panjang
+
+04:36.200 --> 04:40.850
+daftar tertaut atau kami ingin melakukan sesuatu saat suatu kondisi terpenuhi.
+
+04:41.960 --> 04:45.890
+Jadi kita bisa mengembalikan array di sini.
+
+04:47.060 --> 04:48.220
+Mari kita lihat bagaimana cara kerjanya.
+
+04:49.230 --> 04:54.360
+Jika saya melakukannya dan saya akan mengomentari sisipan di sini karena kami belum akan melakukan
+
+04:54.360 --> 04:58.270
+itu, saya hanya akan mengatakan daftar tertaut saya bukan daftar cetak.
+
+04:59.640 --> 05:07.470
+Jika saya menjalankan ini ada daftar kami jadi gunakan perintah parentless untuk memeriksa pekerjaan Anda lihat apakah Anda dapat membuat metode
+
+05:08.070 --> 05:08.800
+ini.
+
+05:09.710 --> 05:11.930
+Semoga sukses dan sampai jumpa di video solusi.

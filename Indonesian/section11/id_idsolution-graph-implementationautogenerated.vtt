@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.410 --> 00:02.330
+Selamat datang kembali.
+
+00:02.760 --> 00:05.340
+Bagaimana yang Anda lakukan dalam latihan ini.
+
+00:05.340 --> 00:08.060
+Anda berhasil, kan?
+
+00:08.520 --> 00:09.460
+Ini masalahnya.
+
+00:09.510 --> 00:19.930
+Ini sebenarnya sangat sederhana tetapi terlihat terlalu rumit dan itu adalah tren umum dengan Krass.
+
+00:19.940 --> 00:26.930
+Mereka terlihat sangat mengintimidasi pada awalnya dan sangat sulit untuk benar-benar memikirkannya dalam pikiran Anda.
+
+00:26.930 --> 00:31.810
+Tetapi begitu Anda meletakkan segala sesuatunya, memahami segala sesuatu mungkin menarik banyak hal.
+
+00:31.980 --> 00:37.280
+Mereka sebenarnya cukup sederhana dan sangat mirip dengan apa yang telah kita pelajari
+
+00:37.280 --> 00:45.290
+sampai sekarang semua yang kita pelajari tentang tabel hash array pohon terkait daftar semua bagian dari grafik dan grafik hanya menggunakan
+
+00:45.410 --> 00:46.810
+struktur data tersebut.
+
+00:46.910 --> 00:53.060
+Bagi Anda yang tidak dapat menyelesaikan masalah ini mungkin karena Anda sedikit terintimidasi dengan
+
+00:53.690 --> 00:55.030
+tugas yang ada.
+
+00:56.020 --> 01:03.570
+Tapi izinkan saya menunjukkan kepada Anda betapa sederhananya hal ini untuk menambahkan simpul ke daftar kedekatan kami.
+
+01:03.610 --> 01:14.090
+Yang perlu kita lakukan hanyalah mengatakan Dot ini memiliki atau daftar adjacency ini akan memiliki simpul.
+
+01:14.320 --> 01:20.400
+Jadi kami menambahkan kunci ke objek tahu yang ingin kami tambahkan ini.
+
+01:20.950 --> 01:27.850
+Dan itu akan sama dengan array kosong karena ketika kita memasukkan node baru itu tidak akan memiliki
+
+01:27.850 --> 01:29.210
+koneksi pada awalnya.
+
+01:30.030 --> 01:32.920
+Kami ingin menambahkan tepi setelahnya.
+
+01:33.910 --> 01:39.840
+Dan akhirnya kami ingin menambah jumlah node sebanyak 1.
+
+01:39.850 --> 01:41.760
+Sekarang kita punya satu lagi.
+
+01:41.760 --> 01:43.240
+Itu dia.
+
+01:43.320 --> 01:46.130
+Kami baru saja membuat catatan kami.
+
+01:46.260 --> 01:47.040
+Lihat itu.
+
+01:47.130 --> 01:51.550
+Kita memiliki nol hingga enam dan semuanya ada dalam grafik kita.
+
+01:51.570 --> 01:54.260
+Sayangnya tidak satupun dari mereka terhubung dengan apa pun.
+
+01:54.450 --> 01:57.990
+Kami baru saja membuat catatan tetapi tidak tepi.
+
+01:57.990 --> 01:59.510
+Jadi mari kita lanjutkan dan lakukan itu.
+
+02:00.510 --> 02:04.270
+Dengan tepian karena ini adalah grafik yang tidak terarah.
+
+02:05.180 --> 02:15.920
+Nah yang harus kita lakukan adalah mengatakan daftar titik yang berdekatan ini akan mengatakan tidak kepada satu yang merupakan
+
+02:16.010 --> 02:22.540
+simpul pertama yang kita berikan dan simpul yang akan ditekan.
+
+02:22.550 --> 02:29.330
+Ingat ini adalah objek jadi kita mendapatkan kuncinya sehingga katakanlah ini adalah simpul 0 itu
+
+02:29.330 --> 02:35.750
+akan mendorong ke array koneksi yang tahu rumah Anda dan mengatakan bahwa itu akan
+
+02:36.020 --> 02:42.780
+terhubung ke Node 2 dan karena ini aktif diarahkan itu berarti kita harus melakukannya sebaliknya.
+
+02:42.780 --> 02:45.110
+Jadi kami cukup menyalin ini.
+
+02:45.220 --> 02:51.150
+Mari kita buat ini sedikit lebih besar sehingga Anda dapat melihat dan kami hanya membalikkan beberapa hal.
+
+02:51.160 --> 02:55.460
+Jadi no 2 juga terhubung ke simpul satu.
+
+02:55.630 --> 03:04.270
+Jika saya menekan run di sini, lihat bahwa grafik kami sesederhana itu.
+
+03:04.480 --> 03:05.650
+Itu tidak benar, benar.
+
+03:05.690 --> 03:09.870
+Dan maksud saya kita bisa membuat ini dalam daftar yang ditautkan jika kita mau.
+
+03:10.090 --> 03:12.890
+Namun konsepnya sama.
+
+03:13.180 --> 03:19.500
+Jika kita melihat 0 yang terhubung ke 1 dan 2, kami dapat mengonfirmasi bahwa 0 terhubung ke 1 dan 2.
+
+03:19.550 --> 03:30.160
+Jika kita melihat 1 3 2 0 1 dikumpulkan 2 3 2 0 dan kurang Shekh mungkin 5 yang terhubung ke 4 6 5
+
+03:30.160 --> 03:32.110
+terhubung ke 4 6.
+
+03:32.350 --> 03:36.780
+Dan begitulah, kami baru saja membuat grafik pertama kami.
+
+03:37.150 --> 03:43.030
+Dalam hal wawancara, grafik tidak sebesar topik seperti data lainnya.
+
+03:43.060 --> 03:49.870
+Struktur Data sebagian besar karena mereka mengambil sedikit waktu dan pertanyaan tentang grafik bisa
+
+03:49.870 --> 03:50.880
+terlalu rumit.
+
+03:50.950 --> 03:54.610
+Itu tidak berarti bahwa Anda tidak akan melihat mereka tetapi mereka jarang.
+
+03:54.910 --> 04:03.040
+Namun dengan mengetahui dasar-dasar dasar jenis rumput apa yang kita miliki dan bagaimana Anda dapat membuat kerajinan
+
+04:03.490 --> 04:10.600
+bagaimana Anda ingin menyimpan data dan grafik seperti matriks adjacency adjacency daftar daftar tepi.
+
+04:10.600 --> 04:17.480
+Anda sudah menunjukkan bahwa Anda memiliki kemampuan untuk memahami grafik yang merupakan konsep lanjutan sekarang karena
+
+04:17.480 --> 04:21.690
+pertanyaan grafik tidak terlalu besar sebagai bagian dari wawancara.
+
+04:21.830 --> 04:24.480
+Kami tidak akan menghabiskan waktu coding lagi untuk itu.
+
+04:24.620 --> 04:29.690
+Tetapi juga perlu diingat bahwa kita memiliki bagian yang muncul pada algoritma di mana kita
+
+04:29.690 --> 04:35.680
+akan menyelam sedikit lebih dalam ke hal-hal seperti pencarian pertama yang luas dan pencarian pertama yang mendalam yang
+
+04:35.710 --> 04:37.810
+dapat diterapkan baik diagraf dan Treece.
+
+04:37.880 --> 04:43.490
+Jadi jika Anda merasa Anda masih bisa belajar sedikit tentang grafik, jangan khawatir kami masih akan sampai di sana.
+
+04:43.610 --> 04:47.830
+Tetapi untuk saat ini selamat atas pembuatan grafik pertama Anda.
+
+04:48.020 --> 04:49.440
+Saya akan lihat di video berikutnya.
+
+04:49.790 --> 04:50.120
+Buh-Bye.

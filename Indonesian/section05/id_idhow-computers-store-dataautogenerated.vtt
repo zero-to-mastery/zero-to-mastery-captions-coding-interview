@@ -1,0 +1,382 @@
+WEBVTT
+
+00:01.480 --> 00:08.260
+Untuk benar-benar memahami nilai struktur data, kita harus mempelajari cara kerja komputer
+
+00:08.260 --> 00:10.370
+pada level fundamental.
+
+00:11.620 --> 00:18.960
+Agar komputer dapat menjalankan kode, ia perlu melacak hal-hal seperti variabel seperti
+
+00:19.000 --> 00:28.530
+string angka atau array variabel-variabel ini disimpan dalam apa yang kita sebut memori akses acak atau RAM.
+
+00:28.560 --> 00:30.570
+Begitulah cara program dijalankan.
+
+00:30.690 --> 00:39.000
+Kami ingat ini dari video kompleksitas ruang tepat di atas bahwa kami juga memiliki penyimpanan
+
+00:39.000 --> 00:49.540
+tempat kami menyimpan hal-hal seperti file video, file dokumen musik, dan penyimpanan ini dapat berupa disk drive, flash drive, atau
+
+00:49.780 --> 00:51.470
+solid state drive.
+
+00:52.290 --> 00:56.150
+Penyimpanan data bersifat permanen atau akan disebut persisten.
+
+00:56.190 --> 01:02.460
+Jadi ketika Anda mematikan laptop atau komputer itu masih akan ada ketika Anda menyalakannya kembali
+
+01:02.460 --> 01:06.310
+dalam RAM Anda kehilangan memori ketika komputer mati.
+
+01:07.370 --> 01:10.150
+Jadi mengapa kita tidak selalu menggunakan penyimpanan saja.
+
+01:10.610 --> 01:12.360
+Jadi kami tidak kehilangan data apa pun.
+
+01:12.830 --> 01:21.470
+Yah masalahnya adalah bahwa penyimpanan persisten lambat karena Anda melihat komputer dijalankan oleh C. P. Anda dapat menganggap C-p sebagai
+
+01:22.000 --> 01:26.820
+pekerja kecil yang melakukan semua perhitungan yang kita butuhkan.
+
+01:27.000 --> 01:29.530
+Itu berfungsi di dalam komputer kita.
+
+01:29.880 --> 01:40.020
+Dan ini Anda memerlukan akses ke RAM dan penyimpanan tetapi dapat mengakses RAM dan informasi dan ram
+
+01:40.020 --> 01:42.060
+jauh lebih cepat.
+
+01:42.610 --> 01:49.930
+Tetapi izinkan saya memberi Anda sebuah contoh seolah-olah kita sedang menggunakan Google ketika kita menjalankan Google Chrome sebagai contoh
+
+01:51.280 --> 01:54.390
+browser yang Google Chrome browser memiliki sepotong kode.
+
+01:54.400 --> 01:58.830
+Sekarang di sini saya sudah menyederhanakannya dan kami hanya memiliki variabel A sama dengan satu.
+
+01:58.870 --> 02:06.310
+Kami hanya menetapkan variabel ini tetapi kami dapat membayangkan bagaimana kami memiliki ratusan atau ribuan baris
+
+02:06.310 --> 02:08.150
+kode Google Chrome.
+
+02:08.380 --> 02:16.210
+Sekarang agar komputer kami dapat menjalankan Google Chrome, kami menjalankan CPI untuk melakukannya.
+
+02:16.260 --> 02:24.320
+Sekarang, ketika sebuah variabel dideklarasikan dalam katakanlah skrip untuk menjalankan Google Chrome, itu akan menyimpannya
+
+02:24.320 --> 02:28.470
+dalam memori dan Memori Akses Acak kami.
+
+02:28.650 --> 02:35.250
+Tetapi begitu kami mematikan atau menutup Google Chrome, kami ingin dapat membukanya kembali.
+
+02:35.250 --> 02:36.060
+Kanan.
+
+02:36.510 --> 02:40.440
+Nah itulah yang kami lakukan ketika kami menyimpan aplikasi di komputer kami.
+
+02:40.500 --> 02:51.260
+Kami menyimpannya di penyimpanan sehingga lain kali kami membuka Google Chrome CPQ akan mengambil program dari penyimpanan
+
+02:51.590 --> 02:54.950
+sehingga dapat menggunakannya lagi.
+
+02:55.160 --> 03:02.240
+Dan agar Google Chrome berjalan cepat dan menjalankan skrip yang lebih kecil, itu akan menjaga informasi dan memori
+
+03:02.360 --> 03:06.440
+akses acak itu dapat kita lihat di komputer kita juga.
+
+03:08.010 --> 03:16.050
+Jika saya membahas tentang Mac ini, komputer saya, kami dapat melihat di sini bahwa kami memiliki prosesor yang
+
+03:16.050 --> 03:25.020
+merupakan CPQ saya, kami memiliki memori yang merupakan RAM saya dan jika saya pergi ke penyimpanan Ini adalah penyimpanan flash saya
+
+03:25.200 --> 03:28.140
+penyimpanan persisten saya di komputer saya.
+
+03:28.390 --> 03:36.430
+Jadi Anda bisa menganggap RAM di komputer sebagai area penyimpanan besar seperti tingkat struktur data.
+
+03:37.570 --> 03:43.480
+Nah, ruang penyimpanan besar ini memiliki rak yang diberi nomor.
+
+03:44.490 --> 03:53.040
+Kami menyebut alamat atau alamat ini dan itu adalah rak yang sangat besar yang menyimpan
+
+03:53.760 --> 04:03.990
+banyak informasi dan memungkinkan kami untuk menjalankan program di komputer kami. Sekarang masing-masing rak ini menyimpan apa yang kita
+
+04:04.110 --> 04:07.000
+sebut delapan bit atau angka.
+
+04:07.170 --> 04:17.230
+Jika Anda lihat di sini satu dua tiga empat lima enam tujuh delapan masing-masing dari angka-angka ini sedikit dan sedikit adalah
+
+04:17.230 --> 04:21.670
+saklar listrik kecil yang dapat dihidupkan atau dimatikan.
+
+04:21.940 --> 04:30.330
+Tetapi alih-alih memanggilnya hidup atau mati kita menyebutnya 1 atau 0 dan 8 bit disebut byte.
+
+04:30.550 --> 04:41.910
+Setiap rak memiliki satu byte penyimpanan dan CPQ terhubung ke sesuatu yang disebut pengontrol memori dan pengontrol
+
+04:42.450 --> 04:51.390
+memori melakukan pembacaan memori ini serta menulis memori ini karena kadang-kadang rak mungkin
+
+04:51.570 --> 04:55.840
+kosong dan tidak memiliki apa pun.
+
+04:55.880 --> 05:05.720
+Sekarang koneksi langsung ke C-p ini penting karena C-p yang Anda tanyakan pada REM hei apa yang ada di rak nomor
+
+05:05.720 --> 05:06.700
+nol.
+
+05:07.100 --> 05:15.320
+Dan pengontrol memori sebenarnya memiliki koneksi secara individual ke semua rak ini lagi yang sangat
+
+05:15.320 --> 05:22.460
+penting karena itu berarti bahwa kita dapat mengakses rak nol dan segera mengakses
+
+05:22.460 --> 05:30.970
+tujuh rak atau sepuluh ribu tujuh ratus delapan puluh satu rak tanpa harus naik atau turun .
+
+05:32.160 --> 05:35.190
+Itulah yang dimaksud dengan nama memori akses acak.
+
+05:35.190 --> 05:41.160
+Kita dapat mengakses memori dengan sangat cepat karena kita memiliki koneksi ini dan setiap rak yang kita
+
+05:41.160 --> 05:48.380
+inginkan, kita hanya perlu tahu rak mana yang kita cari, kita dapat mengakses bit di setiap alamat acak di memori segera.
+
+05:48.690 --> 05:54.950
+Meskipun pengontrol memori ini dapat melompat antara alamat memori yang berjauhan, program yang sangat cepat cenderung
+
+05:54.950 --> 05:57.820
+mengakses memori yang ada di dekatnya.
+
+05:57.870 --> 06:06.140
+Semakin dekat informasinya dengan C. P. Anda dan semakin harus bepergian semakin cepat suatu program dapat
+
+06:06.140 --> 06:06.570
+berjalan.
+
+06:07.570 --> 06:13.040
+Jadi komputer sebenarnya disetel untuk mendapatkan peningkatan kecepatan ekstra saat membaca gaun memori.
+
+06:13.950 --> 06:22.140
+Itu berdekatan satu sama lain agar komputer dapat mengakses nol dan satu jauh lebih cepat daripada komputer.
+
+06:22.140 --> 06:29.650
+Untuk mengakses 0 dan 1000 karena ini jauh lebih dekat bersama.
+
+06:29.650 --> 06:33.400
+Dan untuk lebih mengoptimalkan ini ada komputer juga.
+
+06:33.670 --> 06:43.030
+Kami menyebut ACP Anda uang tunai di mana CPQ memiliki memori yang sangat kecil di mana menyimpan salinan barang yang
+
+06:43.030 --> 06:44.000
+benar-benar baru.
+
+06:44.810 --> 06:53.310
+Dan ini disebut cache yang datang suatu hari Anda mungkin di sini adalah sesuatu yang disebut Air LRU cache.
+
+06:53.320 --> 07:00.070
+Jadi sekali lagi jika kita menggunakan Google Chrome sebagai contoh, kita menghidupkan google chrome dengan apa yang mengatakan kita
+
+07:00.070 --> 07:08.590
+punya aplikasi untuk mengunduhnya di penyimpanan C. P. Anda memuatnya dan karena kami telah mengunjungi
+
+07:08.590 --> 07:16.630
+Hacker News dot com, itu akan memuat informasi untuk Hacker News itu dan memasukkannya ke dalam memori atau bahkan
+
+07:16.630 --> 07:19.210
+mungkin cache jika dapat disimpan.
+
+07:19.250 --> 07:22.430
+Jadi mengapa ini penting untuk struktur data.
+
+07:25.230 --> 07:30.840
+Struktur Data adalah Ingat cara bagi kita untuk menyimpan informasi.
+
+07:30.840 --> 07:38.810
+Sebagai contoh jika kita ingin menyimpan variabel A sama dengan satu baik di komputer modern kita biasanya kita mewakili
+
+07:38.870 --> 07:39.830
+bilangan bulat.
+
+07:39.980 --> 07:43.530
+Itu adalah nomor satu dalam 32 bit.
+
+07:43.670 --> 07:47.250
+Itu adalah ukuran blok RAM ini.
+
+07:47.450 --> 07:53.670
+Dan omong-omong ini sekarang bisa 64 bit dengan upgrade lebih banyak dan lebih baru.
+
+07:54.940 --> 08:06.970
+Tetapi dengan cara ini kita dapat menyimpan nomor satu dalam blok ini dari 32 bit y 32 bit karena 8 bit yang merupakan satu byte
+
+08:06.970 --> 08:13.840
+kali satu dua tiga empat sehingga delapan kali empat adalah tiga puluh dua bit.
+
+08:13.930 --> 08:23.090
+Kami dapat menyimpan 32 bit informasi dan bit yang dapat Anda lihat di sini adalah 0 0 0 0 0 0 0 0 dan 1
+
+08:23.270 --> 08:28.460
+disimpan sekarang dalam memori 0 1 2 3 atau alamat 0 1 2 3.
+
+08:28.580 --> 08:37.480
+Jika kita memiliki variabel lain sama dengan 7 kita akan menyimpannya di blok berikutnya di sini di ram kita.
+
+08:37.590 --> 08:50.570
+Dalam melakukan ini, Anda sekarang dapat berpikir tentang bagaimana sistem yang 8 dapat menyimpan 255 bit informasi yang 16 bit sementara
+
+08:50.570 --> 08:54.670
+mereka dapat menyimpan lebih banyak informasi.
+
+08:54.920 --> 09:01.670
+Dan sekarang kami memiliki sistem yang 32 bit Anda dapat melihat di sini bahwa kami
+
+09:01.670 --> 09:11.920
+dapat menyimpan satu ton informasi dan kemudian jika kami memiliki 64 bit yang alih-alih memiliki empat rak kecil di sini kami memiliki delapan rak
+
+09:12.970 --> 09:14.880
+rak kali delapan bit.
+
+09:15.040 --> 09:23.730
+Nah itu banyak informasi yang bisa kita simpan dan semakin besar. Ini semakin beragam informasi itu.
+
+09:23.800 --> 09:25.670
+Jika kita memiliki sistem 8 bit.
+
+09:25.880 --> 09:30.040
+Nah angka 256 kita benar-benar bisa menyimpannya.
+
+09:30.070 --> 09:31.680
+Itu sangat sulit dilakukan.
+
+09:31.960 --> 09:35.460
+Dan saya bisa menunjukkan ini kepada Anda dengan javascript.
+
+09:35.570 --> 09:38.350
+Anda melihat ada sesuatu yang disebut integer overflow.
+
+09:38.420 --> 09:46.100
+Sekarang javascript secara teknis tidak memiliki bilangan bulat itu hanya memiliki apa yang kita sebut pelampung 64 bit
+
+09:46.100 --> 09:54.940
+tetapi idenya adalah bahwa komputer hanya dapat menyimpan sejumlah informasi tertentu sehingga menggunakan sintaks ini dalam javascript kita memiliki Mathcad sekarang
+
+09:54.970 --> 10:00.270
+yang merupakan fungsi yang mengembalikan dasar untuk mantan porno yang berkuasa.
+
+10:00.460 --> 10:06.040
+Itu adalah parameter pertama yang menjadi dasar kekuatan parameter kedua.
+
+10:06.130 --> 10:09.160
+Jadi kita bisa membuat angka yang sangat besar seperti matematika.
+
+10:09.220 --> 10:09.690
+Kekuasaan.
+
+10:09.700 --> 10:11.680
+Jadi 5 pangkat 100.
+
+10:11.830 --> 10:14.360
+Jika saya menjalankan ini, kita melihat nomornya di sini.
+
+10:14.440 --> 10:19.610
+Jika saya meningkatkan ini untuk katakanlah 6 lagi nomor besar lainnya.
+
+10:19.660 --> 10:28.470
+Sekarang bagaimana jika saya terus berjalan dan mengubahnya menjadi enam pangkat seribu kita mendapatkan tak terbatas.
+
+10:28.730 --> 10:30.060
+Apa itu.
+
+10:30.340 --> 10:38.860
+Nah karena jumlahnya menjadi terlalu besar untuk disimpan dalam RAM kita, maka kita perlu menyatakan angka ini bahwa kita tidak
+
+10:39.010 --> 10:44.880
+dapat menyimpan ke dalam sesuatu yang nyata dan javascript kasus itu tak terbatas.
+
+10:44.920 --> 10:51.850
+Kami hanya dapat menyimpan informasi sebanyak ini dan tidak peduli seberapa besar saya membuat ini angka
+
+10:51.850 --> 10:55.960
+di atas ambang tertentu akan mengatakan tak terbatas.
+
+10:56.000 --> 10:56.930
+Betapa kerennya itu.
+
+10:58.620 --> 10:59.980
+Sekarang mari kita kembali ke slide.
+
+11:00.950 --> 11:07.880
+Saya menunjukkan kepada Anda semua ini karena tipe data lain selain angka bekerja dengan
+
+11:07.910 --> 11:16.180
+cara yang sama setiap tipe data memiliki sejumlah bit yang terkait dengannya dan perlu disimpan dalam sistem dan
+
+11:16.660 --> 11:22.760
+sistem mengalokasikan penyimpanan data dan kemudian CPQ membaca dari penyimpanan itu .
+
+11:22.760 --> 11:28.110
+Sekarang saya akan meninggalkan tautan untuk Anda setelah video ini sehingga Anda bisa mendapatkan informasi lebih lanjut jika mau.
+
+11:28.110 --> 11:35.480
+Kami tidak ingin terlalu mendalam dalam hal ini tetapi struktur data apakah ini struktur data adalah
+
+11:35.480 --> 11:36.470
+pengaturan data.
+
+11:36.620 --> 11:43.820
+Anda dapat menentukan cara Anda berinteraksi dengan data ini dan bagaimana pengaturannya dalam RAM sehingga beberapa struktur data dalam
+
+11:43.820 --> 11:47.060
+RAM diatur tepat di samping satu sama lain.
+
+11:47.090 --> 11:52.960
+Beberapa diatur terpisah satu sama lain dan mereka memiliki pro dan kontra yang berbeda pada akses.
+
+11:53.330 --> 11:55.150
+Dan benar.
+
+11:55.300 --> 12:02.980
+Tujuan kami adalah untuk meminimalkan operasi yang perlu kami lakukan untuk. Anda mendapatkan informasi untuk Anda
+
+12:02.980 --> 12:05.300
+menulis informasi.
+
+12:05.520 --> 12:08.730
+Dan itulah mengapa struktur data sangat kuat.
+
+12:08.730 --> 12:15.660
+Kami sedang berpikir tentang level rendah dan saya tidak tahu dengan Anda, tetapi ini bagi saya ketika
+
+12:15.660 --> 12:22.860
+saya mengetahui hal ini benar-benar menarik karena kami memiliki cara sekarang untuk memikirkan bagaimana struktur data benar-benar memengaruhi
+
+12:22.860 --> 12:30.600
+proses komputer kami dan bagaimana kami dapat menggunakan apa yang kita ketahui tentang komputer sekarang untuk menulis kode yang hebat.
+
+12:30.660 --> 12:31.610
+Saya akan lihat di video berikutnya.

@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.370 --> 00:02.330
+Welcome back.
+
+00:02.750 --> 00:06.620
+Let's start off with the very first item on our list.
+
+00:06.620 --> 00:07.540
+Bubble sort.
+
+00:07.850 --> 00:09.790
+Sounds kind of playful and nice.
+
+00:09.800 --> 00:10.220
+Great.
+
+00:11.180 --> 00:18.920
+Bubble sort is part of these first three sorting algorithms here that are called elementary sorts.
+
+00:18.920 --> 00:25.880
+They're very simple basic sorting algorithms that you would usually think of if somebody asked you to
+
+00:25.880 --> 00:28.620
+sort something at the top of your head.
+
+00:28.640 --> 00:34.790
+The second item here that we're going to get into later Merse short and quick sort are more complex
+
+00:35.330 --> 00:39.390
+algorithms that most of the time can be more efficient than the first ones.
+
+00:40.000 --> 00:44.060
+But to build that Lego block let's start off with bubble sort.
+
+00:44.110 --> 00:46.270
+How does bubble sort work.
+
+00:47.650 --> 00:55.390
+Well let me ask you a question if I gave you a list and I ask you to sort it in your head imagining
+
+00:55.390 --> 00:58.110
+that you had blocks of these letters.
+
+00:58.210 --> 01:05.870
+How would you move them around or how would you tell a computer to move them around to sort it and bubble
+
+01:05.870 --> 01:12.370
+sir might be one of the first things that comes into mind is the bubble sort comes from the idea of
+
+01:12.460 --> 01:19.550
+bubbling up the largest value using multiple pastur Let's see what I mean by that.
+
+01:19.810 --> 01:25.930
+We look at six in five and say six is larger than five.
+
+01:26.360 --> 01:31.350
+And then we look at six and three and say six is larger than three let's swap them out.
+
+01:31.400 --> 01:36.440
+Then we look at six and one and once again six is larger than one let's sort them up.
+
+01:36.470 --> 01:39.790
+We look at six and eight eight is larger than six.
+
+01:39.800 --> 01:43.020
+So keep it the way it is and let's move onto the next one.
+
+01:43.130 --> 01:43.930
+Eight and seven.
+
+01:44.030 --> 01:44.830
+Let's sort them out.
+
+01:44.840 --> 01:47.370
+Eight is larger than seven eight in two.
+
+01:47.540 --> 01:49.870
+Swap them out eight in four.
+
+01:49.940 --> 01:50.990
+Swap them up.
+
+01:51.000 --> 02:00.020
+We bubble up the highest number and then we go from the beginning five and three five in one we bubble
+
+02:00.020 --> 02:02.820
+up the largest number so that 7 comes next.
+
+02:04.400 --> 02:08.160
+Then we keep going keep going until 6 comes next.
+
+02:08.270 --> 02:16.670
+Then we keep looping until we bubble up the highest number one by one One by one until we have a sorted
+
+02:17.030 --> 02:19.630
+list that is bubble sort.
+
+02:19.640 --> 02:22.740
+Now before we even code this what do you think of bubble sort.
+
+02:23.680 --> 02:28.020
+As you might have guessed is not the most efficient is it.
+
+02:28.090 --> 02:33.640
+Look at how many comparisons we did and everything was won by one looping and looping and looping and
+
+02:33.640 --> 02:34.300
+bubble sort.
+
+02:34.300 --> 02:41.710
+Is one of the simplest sorting algorithm but also one of the least efficient so don't hate me for showing
+
+02:41.710 --> 02:43.090
+you how this works.
+
+02:43.090 --> 02:48.990
+It's usually used as a learning tool as the first step in learning a certain algorithm.
+
+02:49.030 --> 02:55.320
+What do you think the time complexity and space complexity of this algorithm is the answer.
+
+02:55.750 --> 03:00.920
+Well we can just use the big Chichi if we look at bubble sort.
+
+03:01.120 --> 03:08.410
+We see that the cases that we're most interested in is the average and worst case we see that it's o
+
+03:08.440 --> 03:09.580
+of an square.
+
+03:10.550 --> 03:17.540
+With a space complexity of of one we're not really creating any new data structures we're just comparing
+
+03:17.540 --> 03:21.670
+items in nested loops one by one.
+
+03:22.020 --> 03:28.950
+But let's see it in code to see why this is all over and square and I want to challenge you here in
+
+03:28.950 --> 03:33.900
+the next video we're going to code along the bubble sort algorithm.
+
+03:34.440 --> 03:41.370
+But if you want go ahead and try implementing this on your own and see how your code matches up with
+
+03:41.370 --> 03:43.250
+mine in the next video.
+
+03:43.320 --> 03:43.710
+HUTCHEON.

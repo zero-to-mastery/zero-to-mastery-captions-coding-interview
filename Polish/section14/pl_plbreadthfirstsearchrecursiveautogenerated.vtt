@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.860 --> 00:06.780
+W porządku, zrobimy to tylko dla zabawy, zwykle
+
+00:06.780 --> 00:16.020
+oddech pierwsze wyszukiwanie jest realizowane tak, jak to widzieliśmy, używając tylko iteracyjnego podejścia, ale dla zabawy chcę zobaczyć,
+
+00:16.050 --> 00:23.590
+czy możemy wykonać rekurencyjny oddech dla wyszukiwania i abyśmy mogli Wykonaj rekursywną szerokość pierwszego
+
+00:23.620 --> 00:33.310
+wyszukiwania, które możemy utworzyć, nowa funkcja będzie zawierała tutaj naszą rekursywną i tutaj musimy utworzyć bazową obudowę, która
+
+00:33.850 --> 00:49.210
+została uruchomiona i zatrzymamy się, jeśli wartość Q Dot wynosi zero lub możemy po prostu powiedzieć, kiedy Q Dot length jest 0, jeśli tak jest, chcemy mieć naszą podstawową
+
+00:49.210 --> 00:57.670
+sprawę i włączamy listę, ale zauważysz tutaj, że nie zdefiniowałem, co jest listą Q I, co
+
+00:57.670 --> 01:06.670
+zrobiłem z naszym iteracyjnym podejściem, i to dlatego, że jeśli pójdę na górze i zadeklaruj te zmienne
+
+01:06.730 --> 01:13.810
+tak jak ja, ponieważ w każdej funkcji rekursywnej funkcja ta będzie wywoływana w
+
+01:13.810 --> 01:14.520
+kółko.
+
+01:14.620 --> 01:20.420
+Będziemy resetować te zmienne i wielokrotnie wyświetlać pustą tablicę.
+
+01:20.440 --> 01:30.410
+Zatem sposób, w jaki zrobilibyśmy to w funkcji rekurencyjnej, polega na tym, że faktycznie musimy przekazać Q
+
+01:30.410 --> 01:40.600
+i listę jako parametr, aby to, co nazwalibyśmy tutaj, zamiast robić to w ten sposób, musielibyśmy powiedzieć,
+
+01:40.610 --> 01:45.050
+że q mieć ten węzeł główny kropki.
+
+01:45.590 --> 01:50.990
+Ale pamiętaj, że Q musi być tablicą, więc po prostu zawijamy to w nawiasy klamrowe iw
+
+01:50.990 --> 01:57.710
+javascriptzie, co pokazuje, że mamy tablicę z elementem tego typu korzenia, tak jak zrobiliśmy to z szerokością pierwszego wyszukiwania za
+
+01:57.770 --> 01:59.290
+pierwszym razem w prawo.
+
+01:59.360 --> 02:07.640
+Początkowe pytanie Jak obecny węzeł, który był tym korzeniem dot root, nie jest.
+
+02:07.780 --> 02:14.220
+A następnie drugim parametrem będzie lista R i Sarah, która rozpocznie się od pustej tablicy.
+
+02:15.270 --> 02:23.630
+Tak więc teraz, kiedy mamy to i to jest trochę kłopotliwe, jeśli chodzi o funkcje rekursywne, możemy teraz
+
+02:23.630 --> 02:30.040
+zrobić coś podobnego do tego, jak zrobiliśmy to za pierwszym razem z naszym
+
+02:30.040 --> 02:39.520
+iteracyjnym podejściem powie, że nasz obecny węzeł używa LET, niech węzeł Kurn jest równy do tej kropki Q Dot shift.
+
+02:40.510 --> 02:44.650
+Znowu to samo, co powyżej.
+
+02:48.560 --> 02:55.300
+Aby pobrać bieżący węzeł, możemy po prostu skopiować to, co tutaj zrobiliśmy.
+
+02:55.300 --> 03:02.440
+Jeśli bieżący węzeł nie ma lewej strony, aby przepchnąć lewy węzeł, jeśli bieżący węzeł ma prawe dziecko, wówczas również należy go przekazać do
+
+03:02.440 --> 03:02.860
+kolejki.
+
+03:02.950 --> 03:08.550
+Zamierzam to skopiować i dodać tutaj.
+
+03:08.870 --> 03:15.960
+Upewnij się, że wcięcie działa, a teraz jest lepiej.
+
+03:16.000 --> 03:25.180
+I w końcu, ponieważ jest to funkcja rekursywna, chcemy ją przełączyć tak, aby przechodziła
+
+03:25.180 --> 03:35.440
+ponownie i tym razem nadawała mu cue i listę i wiem, że może to być trochę mylące.
+
+03:35.450 --> 03:40.940
+Być może będziesz musiał spojrzeć na to, ale przechodząc przez to krok po kroku w głowie, możesz chcieć pobrać ten
+
+03:40.940 --> 03:43.640
+kod po tym wideo, aby zobaczyć, jak to działa.
+
+03:44.720 --> 03:51.710
+Nie różni się to zbytnio od iteracyjnego podejścia i ponieważ odnosi się to do metody wewnątrz klasy,
+
+03:51.710 --> 03:58.640
+tak jak działa w javascript, musimy powiedzieć, że ten kropkowany oddech dla wyszukiwania, który odnosi się
+
+03:58.640 --> 04:01.850
+do klasy, wykorzystuje metodę z tej klasy.
+
+04:01.850 --> 04:08.810
+I zauważam, że nie potrzebujemy tego dla kolejki, ponieważ kolejka jest tylko parametrem.
+
+04:08.840 --> 04:14.750
+Teraz chcemy również upewnić się, że będziemy naciskać na listę, gdy będziemy tutaj.
+
+04:14.750 --> 04:24.770
+Tak jak powyżej, powiemy, że lista nie przesyła ponownie aktualnej wartości Daut, tak jak zrobiliśmy
+
+04:24.770 --> 04:26.320
+to powyżej.
+
+04:26.390 --> 04:35.450
+Chcemy przesłać ostatnią wartość do listy, ponieważ lista jest naszą odpowiedzią.
+
+04:35.490 --> 04:39.030
+Teraz jeśli kliknę tutaj, otrzymam błąd.
+
+04:39.180 --> 04:42.510
+I jest to trochę specyficzne dla javascript.
+
+04:42.510 --> 04:50.370
+Jedną z przyczyn frustracji javascriptem jest to, że to słowo kluczowe działa tylko wtedy,
+
+04:50.370 --> 04:56.820
+gdy znajdujemy się w klasie klasy binarnych ciągów wyszukiwania poza tym.
+
+04:56.940 --> 05:01.570
+Pamiętaj, że mamy klasę drzewa, którą stworzyliśmy.
+
+05:01.590 --> 05:15.390
+Tak więc jest to root drzewa i jeśli to uruchomimy, teraz mamy naszą listę tym razem wykonywaną rekurencyjnie.
+
+05:15.450 --> 05:17.690
+Opuszczę to, abyś mógł się bawić.
+
+05:18.620 --> 05:20.620
+I zobacz, który lubisz lepiej.
+
+05:20.810 --> 05:24.290
+Ale oba te dają teraz takie same wyniki.
+
+05:24.350 --> 05:30.490
+Dziewięć za dziewięć za 20 1:06 15 170.
+
+05:30.660 --> 05:31.540
+Zobaczę w następnym filmie.

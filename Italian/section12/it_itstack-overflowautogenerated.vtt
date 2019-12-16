@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.770 --> 00:01.690
+Ben tornato.
+
+00:02.120 --> 00:05.230
+Sto per mostrarti la mia animazione preferita del corso.
+
+00:05.240 --> 00:06.140
+Sono molto orgoglioso di questo.
+
+00:06.170 --> 00:08.630
+Quindi non ridere di me se pensi che sia così.
+
+00:09.020 --> 00:17.660
+Mi piace pensare alla ricorsione come a questo scenario in cui hai questo top che versa acqua in un bicchiere
+
+00:17.660 --> 00:22.130
+per questo ometto seduto sul divano a guardare la TV.
+
+00:22.250 --> 00:27.650
+E quando penso alla ricorsione mi piace pensare che abbiano due grossi problemi.
+
+00:28.840 --> 00:34.190
+Uno è che sono difficili da capire all'inizio.
+
+00:34.240 --> 00:40.030
+Il secondo è che possiamo avere un caso come questo dove sto versando acqua in un bicchiere e versando acqua in
+
+00:40.030 --> 00:42.360
+un bicchiere e versando acqua in un bicchiere.
+
+00:42.430 --> 00:48.150
+E sono io a chiamare la funzione più e più volte.
+
+00:48.550 --> 00:53.140
+E mentre continuiamo mentre continuiamo a riempire la coppa oltre il limite.
+
+00:53.140 --> 00:54.040
+Continua così.
+
+00:54.040 --> 00:54.920
+Non si ferma.
+
+00:54.920 --> 00:59.210
+Continua a rimproverare la funzione continua a funzionare fino a quando oh ragazzo.
+
+00:59.350 --> 01:01.850
+L'uomo è annegato.
+
+01:01.940 --> 01:03.510
+Quello che è appena successo qui.
+
+01:03.620 --> 01:06.890
+Questo è chiamato Stack Overflow.
+
+01:07.160 --> 01:09.810
+Torniamo ad un codice.
+
+01:09.940 --> 01:13.850
+Ricorda l'inizio della funzione che abbiamo creato.
+
+01:13.980 --> 01:15.660
+Se eseguo questa funzione
+
+01:18.270 --> 01:19.830
+e dico
+
+01:22.720 --> 01:26.790
+start e semplicemente eseguo questa funzione, ricevo un errore.
+
+01:27.250 --> 01:30.170
+Facciamolo un po 'più grande da vedere.
+
+01:30.320 --> 01:36.140
+Viene visualizzato un errore che indica che la dimensione massima dello stack di chiamate ha superato il mio browser.
+
+01:36.200 --> 01:42.660
+In questo caso Google Chrome è abbastanza intelligente da dire tutto bene, devi fermare questa follia.
+
+01:42.680 --> 01:49.400
+Sto solo chiamando questa funzione di introduzione ancora e ancora e ancora e ancora e ancora e ancora perché ricorda che la nostra
+
+01:49.400 --> 01:50.960
+funzione chiama solo se stessa.
+
+01:50.960 --> 01:55.340
+E alla fine, se Google Chrome non si ferma, andrà in crash.
+
+01:55.340 --> 02:00.470
+E in passato è ciò che accadrebbe se eseguissi questa funzione il browser si arrestasse e
+
+02:00.470 --> 02:01.480
+dovrei riavviarlo.
+
+02:01.760 --> 02:08.120
+Ma hanno aggiunto una protezione qui dicendo hey hai chiamato la dimensione massima dello stack di chiamata.
+
+02:08.120 --> 02:10.490
+Devi smettere di fare quello che stai facendo ora.
+
+02:10.490 --> 02:14.250
+Questo è chiamato stack over for.
+
+02:14.360 --> 02:16.170
+Perché.
+
+02:16.180 --> 02:23.830
+Andiamo più in profondità in questo argomento andando a cancellare la console qui e proprio la nostra funzione di inizio.
+
+02:23.830 --> 02:33.320
+Ma questa volta aggiungerò una parola chiave chiamata debugger che il browser Chrome rileverà e interromperà
+
+02:33.380 --> 02:37.050
+la funzione quando vedrà questa parola.
+
+02:37.100 --> 02:46.690
+Quindi eseguirò questa funzione e noterai che non appena entrano in contatto si interromperà e mi fornirà un piccolo pannello
+
+02:47.110 --> 02:51.700
+in cui posso controllare la funzione che viene inviata.
+
+02:52.960 --> 02:53.790
+E tu ci vai.
+
+02:53.950 --> 02:58.960
+Voglio dire ora che la modalità debugger e vedrete qui alcune cose.
+
+02:58.980 --> 03:06.960
+Uno mi mostrerà dove sono io e la funzione e mi mostrerà anche un cambiamento surround solo così è un po
+
+03:06.960 --> 03:07.830
+'più pulito.
+
+03:07.830 --> 03:09.540
+Lo renderò un po 'più piccolo.
+
+03:09.540 --> 03:10.420
+Ecco qua.
+
+03:10.830 --> 03:13.950
+Vedete qui c'è qualcosa chiamato cold stack.
+
+03:13.950 --> 03:19.260
+Ora dal nome Stack Overflow questo potrebbe darti un piccolo suggerimento.
+
+03:19.370 --> 03:23.530
+In questo momento abbiamo chiamato la funzione di inizio proprio qui.
+
+03:23.750 --> 03:27.300
+Abbiamo chiamato la seconda volta.
+
+03:27.650 --> 03:33.090
+Se faccio clic sull'icona passo-passo qui sopra andrò alla prossima riga di codice.
+
+03:33.170 --> 03:34.980
+Andrà al prossimo.
+
+03:35.210 --> 03:38.340
+E ora chiamerà la prossima funzione di intercettazione.
+
+03:39.300 --> 03:45.130
+Dai un'occhiata qui allo stack delle chiamate su cosa succederà dopo.
+
+03:47.430 --> 03:55.470
+Vedete che ho appena aggiunto una funzione sullo stack delle chiamate e poiché sappiamo sulla struttura dei dati dello stack stiamo
+
+03:55.680 --> 03:58.230
+semplicemente aggiungendo la chiamata alla funzione.
+
+03:58.230 --> 04:06.870
+In cima a quello più vecchio e se passo di nuovo qui e vai di nuovo è una terza chiamata di funzione e se continuo
+
+04:06.870 --> 04:08.440
+ad andare avanti continua.
+
+04:08.490 --> 04:13.830
+Vedrai che sto solo aggiungendo sempre più cose in pila.
+
+04:14.310 --> 04:16.010
+Ma c'è un problema qui, giusto.
+
+04:16.290 --> 04:20.260
+Niente viene fuoriuscito dalla pila.
+
+04:20.310 --> 04:26.370
+Invece la funzione continua a funzionare, continua a funzionare, continua a funzionare continua a funzionare
+
+04:27.090 --> 04:29.870
+finché non esauriamo la memoria qui.
+
+04:29.940 --> 04:31.080
+Ricorda lo stack.
+
+04:31.140 --> 04:38.180
+In questo caso è prendere un pezzo di memoria dal nostro computer e aggiungere inizio allo stack.
+
+04:38.550 --> 04:41.980
+E come sapete, la memoria è limitata non abbiamo una quantità infinita.
+
+04:42.210 --> 04:49.230
+Quindi, man mano che procediamo, continueremo a impilare e a rimbalzare lì.
+
+04:49.740 --> 04:55.910
+E questo è uno dei maggiori problemi con la ricorsione in cui entreremo più avanti.
+
+04:56.430 --> 05:03.300
+Come vedete, però, può essere molto pericoloso perché possiamo eseguire programmi che vanno in overflow che
+
+05:03.300 --> 05:09.840
+non si fermano mai e che hanno loop infiniti essenzialmente che bloccano i nostri programmi.
+
+05:09.840 --> 05:19.170
+Vedrai anche qui che questa memoria dei costi è uno stack che tiene in mano queste chiamate di funzione e la ricorsione.
+
+05:19.170 --> 05:26.490
+Uno dei lati negativi è che dobbiamo mantenere queste chiamate e ricordarle una per una che può
+
+05:26.490 --> 05:27.920
+diventare molto costosa.
+
+05:28.260 --> 05:34.470
+Quindi, se mai ci venisse posta questa domanda in un'intervista sulla ricorsione, forse un possibile
+
+05:34.470 --> 05:42.050
+problema con la ricorsione si può semplicemente dire che il computer ha bisogno di allocare memoria per ricordare le cose.
+
+05:42.300 --> 05:49.620
+Overflow dello stack può verificarsi quando si esegue la ricorsione e non è possibile interrompere questa chiamata ricorsiva.
+
+05:49.920 --> 05:55.170
+È semplicemente il computer che dice whoa whoa whoa OK questo sta diventando sciocco.
+
+05:55.170 --> 05:57.030
+Non ricordo più cose.
+
+05:57.060 --> 05:58.640
+Ho esaurito la memoria.
+
+05:58.690 --> 06:03.080
+Vado fuori nel prossimo video.
+
+06:03.190 --> 06:07.630
+Cercheremo di risolvere questo problema e di conoscere qualcosa chiamato caso base.
+
+06:07.750 --> 06:14.710
+Penso che devi avere una funzione ricorsiva per impedirgli di farlo.
+
+06:14.710 --> 06:16.600
+Vedrò nel prossimo di.

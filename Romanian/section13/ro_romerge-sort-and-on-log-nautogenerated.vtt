@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.580 --> 00:09.100
+Bine ați venit înapoi până în acest moment am vorbit despre sortarea algoritmului de tip "bubble
+
+00:09.100 --> 00:12.920
+sort sort" sort de sortare, numite sortimente elementare.
+
+00:12.970 --> 00:16.370
+Erau în regulă, dar aveau acelea încorporate pentru bucle.
+
+00:16.460 --> 00:23.810
+Și de cele mai multe ori a fost peste tot și pătrat care a fost puțin lent.
+
+00:23.830 --> 00:25.390
+Putem face mai bine.
+
+00:25.660 --> 00:27.050
+Ei bine da, putem.
+
+00:27.310 --> 00:36.900
+Vom intalni ultima noastra mare show pe lista noastra o si log si acum pentru a intelege ce anume N log si
+
+00:37.020 --> 00:45.010
+inseamna ca trebuie sa vorbim despre algoritmul nostru de sortare care urmeaza sa fuzioneze sort si quicksort.
+
+00:45.960 --> 00:50.520
+Vedeți spre deosebire de sortarea și sortarea de sortare și selecție a bulei.
+
+00:50.520 --> 00:53.730
+Ei folosesc tehnica despre care am mai auzit.
+
+00:53.940 --> 00:55.520
+Diviza și cuceri.
+
+00:55.620 --> 01:01.530
+Am aflat despre acest lucru când învățând despre copaci să ne amintim când ne uităm printr-o agendă telefonică că nu
+
+01:01.530 --> 01:07.330
+deschidem acea carte decât din prima pagină din pagina de mijloc și continuăm să rupem paginile până când găsim
+
+01:07.330 --> 01:08.940
+numele pe care îl căutăm.
+
+01:09.770 --> 01:10.750
+Și îmbinare sort.
+
+01:10.760 --> 01:15.530
+Și folosiți rapid acest concept de împărțire și cucerire.
+
+01:15.770 --> 01:23.360
+Iar ideea de recursiune despre care am vorbit să împărțim problema în jos pentru a lucra la fiecare
+
+01:23.540 --> 01:26.250
+subset și apoi a combina soluțiile.
+
+01:26.310 --> 01:29.140
+Acum vom vedea cum funcționează de fapt.
+
+01:30.000 --> 01:35.970
+Dar vreau să vă reamintesc că oricând vedem ceva de genul divizării și cucerire, de obicei
+
+01:35.970 --> 01:38.330
+vă oferă un jurnal de avantaj.
+
+01:38.460 --> 01:42.450
+Și după cum puteți vedea aici, este ultima piesă a puzzle-ului.
+
+01:42.710 --> 01:43.830
+Oh și log.
+
+01:43.830 --> 01:48.900
+Și că, de fapt, îmbunătățește este mai bine decât toate evenimentele pătrat.
+
+01:49.230 --> 01:55.620
+Următorii câțiva algoritmi de sortare pe care vom avea de gând să le analizăm vor
+
+01:55.890 --> 02:02.760
+avea acum imbricate pentru bucle și vor avea mâini și pătrat În schimb, vor avea de această
+
+02:03.060 --> 02:10.670
+dată complexitate care face lucrurile mult mai bune și salvează companiile mult timp pentru a înțelege ce înseamnă asta.
+
+02:10.800 --> 02:16.980
+Trebuie să începem cu privirea la sortarea lui Mirch Să aruncăm o privire la modul în care
+
+02:16.980 --> 02:20.210
+funcționează și apoi voi explica ce beneficii sunt.
+
+02:20.330 --> 02:22.330
+Avem aceeași listă ca înainte.
+
+02:22.680 --> 02:30.510
+Vom lua această listă și de fapt vom împărți la jumătate și apoi vom împărți fiecare dintre aceste
+
+02:30.510 --> 02:33.160
+subseturi în jumătate din nou.
+
+02:34.140 --> 02:43.370
+Și apoi vom împărți aceste liste de salbe în jumătate din nou, până când vom avea un singur articol și odată ce
+
+02:43.370 --> 02:52.370
+vom fi împărțit vom lua primul element în al doilea element și spunem hei pe care ar trebui să o pun
+
+02:52.370 --> 02:53.490
+mai întâi.
+
+02:53.660 --> 03:02.700
+Să punem cinci în primul rând și apoi 6 imediat după și observați aici cum construim un copac invers într-un sens, atunci
+
+03:03.510 --> 03:08.610
+ne uităm la trei și unu și spunem unul și trei.
+
+03:08.620 --> 03:11.560
+Așa că ne apropiem de această notă.
+
+03:11.750 --> 03:13.730
+Comparăm opt și șapte.
+
+03:13.930 --> 03:18.330
+Șapte se află înainte de 8 2 și 4 2 înainte de 4.
+
+03:18.520 --> 03:27.460
+Și acum combinăm din nou acele liste în copac invers, spunând 5 și 1, care vine primul vine primul și
+
+03:27.550 --> 03:30.760
+apoi să comparăm cinci și trei.
+
+03:31.000 --> 03:39.270
+Trei vine primul, apoi cinci și șase, atunci ne uităm pe partea dreaptă spunem că șapte și două două sunt
+
+03:39.270 --> 03:40.300
+înaintea șapte.
+
+03:40.390 --> 03:41.660
+Dar șapte și patru.
+
+03:41.660 --> 03:43.860
+Patru devin înainte de șapte.
+
+03:43.870 --> 03:50.440
+Și pentru că știm că șapte și opt sunt deja sortați, noi punem doar șapte și opt unul
+
+03:50.440 --> 03:51.440
+lângă celălalt.
+
+03:51.640 --> 03:58.120
+Și apoi, în final, combinăm ultimele două liste în nodul rădăcină
+
+03:58.690 --> 04:06.100
+pentru a combina lista și pentru ao face sortată în trei și patru cinci.
+
+04:06.520 --> 04:13.380
+Și apoi 6 7 și 8 și avem lista noastră sortată.
+
+04:14.510 --> 04:21.620
+Acum, aceasta părea extrem de complicată mult mai complicată decât alți algoritmi de sortare.
+
+04:22.630 --> 04:29.470
+Mersch surd este una dintre cele mai eficiente moduri în care puteți sorta o listă de lucruri și de obicei
+
+04:29.470 --> 04:32.970
+va funcționa mai bine decât majoritatea algoritmilor de sortare.
+
+04:33.220 --> 04:37.750
+Și în termeni de complexitate Ei bine, este cu siguranță mai complexă, nu-i așa?
+
+04:37.780 --> 04:43.900
+Folosim o abordare divizată și cuceritoare, care ar trebui să vă sugă că va folosi
+
+04:43.900 --> 04:45.100
+o recursivitate.
+
+04:45.160 --> 04:52.630
+Prima parte a unui jurnal și asta este o provine din faptul că încă comparăm tot ce trebuie
+
+04:52.630 --> 04:58.650
+să privim la fiecare dintre numere și le comparăm pentru a le sorta.
+
+04:58.710 --> 05:10.130
+Acum, odată ce divizăm lista într-una pe care găsirea indexului de mijloc al acestor lucruri este de fapt una, pentru că
+
+05:10.170 --> 05:13.270
+este o operație matematică ușoară.
+
+05:13.320 --> 05:17.030
+Obțineți lungimea listei și găsiți mijlocul.
+
+05:17.130 --> 05:23.700
+Dar odată ce divizăm matricele, trebuie să sortim elementele care vor prelua și trebuie să
+
+05:23.700 --> 05:32.360
+ne uităm la fiecare element și să le sortăm și să reușim să creăm lista, dar spre deosebire de sortarea bulelor,
+
+05:32.420 --> 05:39.830
+deși trebuie să comparăm totul cel puțin odată ce nu trebuie să comparăm totul cu tot ceea ce
+
+05:39.830 --> 05:47.270
+am făcut cu balonul, tot ce trebuie să facem este să comparăm listele locale între ele, să ne
+
+05:47.930 --> 05:52.640
+amintim cu ceva de genul sortare sau inserție cu bule.
+
+05:52.700 --> 06:01.350
+Odată ce am trecut prin listă, odată ce am comparat următorul articol cu ​​restul cămășii de listă, este de asemenea
+
+06:01.350 --> 06:08.730
+util, deoarece este ceea ce noi numim stabil, ceea ce înseamnă doar că dacă aveți elemente
+
+06:08.730 --> 06:16.720
+echivalente, să spunem 6 și 6 sau un nume care este la fel va păstra ordinea originală în matrice.
+
+06:18.310 --> 06:21.710
+Și acest lucru poate fi uneori important în funcție de tipul de date.
+
+06:22.030 --> 06:23.940
+Hai să ne uităm la Big-O.
+
+06:24.430 --> 06:35.180
+Vedem că sabia de fuziune are tot și log și cu complexitate spațială a unui tip de inserție de sortare și selecție a
+
+06:35.180 --> 06:36.890
+tipurilor de bule.
+
+06:37.010 --> 06:44.980
+Avem o complexitate spațială mai mare pentru că trebuie să ținem cont de această listă împărțită și memorie.
+
+06:45.050 --> 06:52.480
+Deci, acesta este un dezavantaj al sortării lui Merse, dar acum am reușit să facem algoritmul de sortare mult mai rapid.
+
+06:53.530 --> 07:04.350
+Acum, cum punem în aplicare martie cum am aici pentru tine un exercițiu vreau să vă avertizez că acest lucru este într-adevăr un fel de îmbinare dificilă este
+
+07:04.440 --> 07:10.010
+cu adevărat greu de pus în aplicare și împachetați mintea în jurul valorii.
+
+07:10.320 --> 07:15.510
+Dacă nu vă simțiți confortabil cu recursiunea, va fi un pic cam dur.
+
+07:15.510 --> 07:21.540
+Rețineți că vă arăt aici cum să faceți acest lucru doar pentru propriul dvs. interes, dar cel mai
+
+07:21.540 --> 07:26.820
+probabil într-un interviu nu veți fi niciodată rugat să implementați propriul sortiment de fuziune.
+
+07:26.820 --> 07:31.890
+Veți fi întrebat, poate, cum este implementat și ați creat un mic schelet care să vă
+
+07:31.890 --> 07:32.690
+ajute aici.
+
+07:33.030 --> 07:39.310
+Avem tipul de îmbinare care va avea o funcție care are o matrice.
+
+07:39.570 --> 07:46.290
+Avem cazul de bază pentru că vom folosi recursiunea aici spunând că mărimea matricei este una.
+
+07:46.380 --> 07:48.840
+Amintiți-vă că există doar un singur element în listă.
+
+07:48.840 --> 07:53.370
+Atunci fiecare dintre acestea se află în partea de sus a listei proprii.
+
+07:54.150 --> 07:58.550
+Vom reveni la matrice acum aici.
+
+07:58.550 --> 08:08.080
+Vom reveni și vom fuziona sortând partea stângă și partea dreaptă și vom folosi
+
+08:08.080 --> 08:16.500
+această funcție de îmbinare care va fuziona mâna stângă și partea dreaptă.
+
+08:16.580 --> 08:24.110
+Deci, primul pas este să vă împărțiți matricea pe mijloc în mâna stângă și pe
+
+08:24.320 --> 08:25.830
+partea dreaptă aici.
+
+08:25.970 --> 08:32.850
+Apoi rulați-l cu algoritmul de sortare emerge și în funcția de îmbinare.
+
+08:32.850 --> 08:36.290
+Vreau să faceți comparația.
+
+08:36.690 --> 08:40.320
+Nu mă aștept să-i iei imediat.
+
+08:41.090 --> 08:42.970
+Există foarte puțini oameni care pot face acest lucru.
+
+08:43.010 --> 08:49.670
+Jumătate din partea de sus a capului lor, dar a vedea dacă puteți utiliza toate resursele disponibile sunt disc sau
+
+08:50.090 --> 08:54.920
+comunitate sau chiar Google pentru a afla cum să creați propriul dvs. sortare.
+
+08:55.520 --> 08:58.530
+Și te voi vedea în soluția video de către.

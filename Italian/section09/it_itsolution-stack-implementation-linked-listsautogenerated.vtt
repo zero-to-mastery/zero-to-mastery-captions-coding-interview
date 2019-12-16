@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.960 --> 00:01.790
+Ben tornato.
+
+00:02.010 --> 00:06.810
+Diamo un'occhiata a come vorremmo risolvere questa domanda.
+
+00:06.840 --> 00:14.610
+Questo è il modo in cui creiamo una struttura di dati dello stack con picco PUSH e POP.
+
+00:14.810 --> 00:17.960
+Ora il picco dovrebbe essere abbastanza facile, giusto.
+
+00:18.020 --> 00:28.600
+Vogliamo solo vedere l'elemento in cima alla pila, quindi posso solo dire che Peake restituirà questo punto in
+
+00:29.290 --> 00:30.020
+alto.
+
+00:30.470 --> 00:30.960
+Questo è tutto.
+
+00:30.980 --> 00:40.080
+Bello e semplice, in modo tale che se eseguiamo il mio picco di puntini, ritornerà.
+
+00:40.100 --> 00:44.870
+No, perché non c'è niente nel nostro stack. Questo top è.
+
+00:44.880 --> 00:46.770
+No che è vuoto.
+
+00:46.790 --> 00:49.600
+Andiamo a quello interessante che è push.
+
+00:49.640 --> 00:51.690
+Come aggiungiamo le cose allo stack.
+
+00:52.660 --> 00:59.720
+Beh, la prima cosa che vogliamo fare è creare un nuovo nodo e, come ho detto, possiamo creare un nuovo oggetto
+
+00:59.720 --> 01:05.390
+qui se vogliamo o possiamo semplicemente usare la classe Node che ho fornito per voi qui.
+
+01:06.560 --> 01:13.640
+Possiamo usare la classe dicendo un nuovo nodo che istanzia una classe e fornisce il valore con
+
+01:13.640 --> 01:15.770
+cui andremo a spingere.
+
+01:15.920 --> 01:24.080
+Quindi vogliamo verificare se questo è il primo elemento perché se lo stack è vuoto e questo è
+
+01:24.080 --> 01:31.050
+il primo oggetto mentre sia in alto che in basso entrambi puntano alla stessa nota.
+
+01:31.120 --> 01:38.890
+Quindi in tal caso possiamo verificare se questa lunghezza del punto è uguale a zero.
+
+01:39.880 --> 01:44.220
+In tal caso possiamo solo dire che questo top equivale al nuovo nodo.
+
+01:45.690 --> 01:57.570
+E anche questo fondo superiore equivale al nuovo nodo Altrimenti dobbiamo fare qualcosa di un po 'diverso ma non
+
+01:57.570 --> 02:04.530
+così diverso perché l'abbiamo visto nell'esempio dell'elenco collegato, dobbiamo semplicemente cambiare
+
+02:04.530 --> 02:06.480
+alcuni puntatori.
+
+02:06.570 --> 02:14.380
+Nel nostro caso vogliamo dire che Konst tiene il puntatore al nodo più in alto.
+
+02:16.820 --> 02:21.970
+Perché quello che è in cima ora verrà sostituito da qualsiasi cosa aggiungeremo ad esso.
+
+02:22.160 --> 02:29.790
+Quindi terremo il riferimento a ciò che era originariamente in alto e poi diremo che questo
+
+02:29.800 --> 02:40.110
+avvio equivale ora al nuovo nodo e questo punto in alto punto che è ora il nuovo nodo sta per indicare
+
+02:40.110 --> 02:45.360
+cosa era in anticipo ma ora è sotto di esso.
+
+02:45.780 --> 02:48.240
+Quindi diciamo semplicemente tenendo il puntatore.
+
+02:48.240 --> 02:56.920
+Questo è l'Alltop che sarà subito dopo il nostro nuovo nodo, e infine lo faremo con questo punto
+
+02:57.370 --> 03:03.960
+Blant plus plus per incrementare la lunghezza di 1 e infine vogliamo tornare.
+
+03:04.190 --> 03:08.000
+Restituiamo ciò che ci restituirà la lista dei collegamenti.
+
+03:08.680 --> 03:09.700
+Vediamo se ha funzionato.
+
+03:11.280 --> 03:12.700
+Prima dirò Peke.
+
+03:12.720 --> 03:21.150
+Beh, non c'è niente qui, ma se voglio spingere al mio stack ho intenzione di dire push e prima spingeremo Google
+
+03:21.150 --> 03:23.820
+perché stiamo visitando Google per primi.
+
+03:24.970 --> 03:33.220
+E se lo eseguo, ottengo la struttura dei dati che ha il top che ha il valore del nodo di Google.
+
+03:33.450 --> 03:40.970
+Il prossimo non è perché abbiamo solo un oggetto e anche il fondo è lo stesso Google con la prossima nota.
+
+03:41.460 --> 03:44.000
+E il nostro stack ha un lenth di uno.
+
+03:44.150 --> 03:45.340
+Cosa succede se continuiamo ad aggiungere qui.
+
+03:45.360 --> 03:49.230
+Andiamo da te, Demy, il prossimo.
+
+03:49.440 --> 03:58.220
+Se faccio clic su Esegui ora ho una lunghezza di due stack che ha il nodo superiore come Dammy e il nodo
+
+03:58.700 --> 04:03.850
+inferiore come Google perché ricorda con uno stack sovrapponiamo i piatti sopra.
+
+04:04.040 --> 04:06.780
+Quello sei tu che Demy è arrivato per ultimo.
+
+04:06.890 --> 04:10.140
+Quindi tu Dammy è in cima.
+
+04:10.160 --> 04:12.890
+Ricorda la vita, l'ultimo e il primo passo.
+
+04:13.070 --> 04:17.990
+Aggiungiamo un altro diciamo che visiteremo la nostra scrivania o comunità.
+
+04:17.990 --> 04:26.580
+Quindi tutto ciò che dico spingere questa zucca e faccio clic su Esegui e ci vai.
+
+04:26.650 --> 04:32.010
+Abbiamo la nostra comunità Dischord nella parte superiore in basso è nodo.
+
+04:32.080 --> 04:34.290
+E solo per essere sicuro che il nostro Peke funzioni.
+
+04:34.450 --> 04:44.570
+Se faccio capolino dovremmo ottenere la discordia perché era l'ultima alzata e la cima del nostro stack.
+
+04:44.610 --> 04:45.370
+Molto bella.
+
+04:45.450 --> 04:46.710
+Spero che tu l'abbia capito.
+
+04:47.160 --> 04:52.450
+Continuiamo con il pop che è quello di rimuovere ciò che è in cima alla pila.
+
+04:52.860 --> 05:00.630
+Bene, prima controlliamo per assicurarci che ci sia un oggetto, perché se non c'è e non ne abbiamo.
+
+05:00.780 --> 05:02.520
+Bene, noi torniamo indietro no.
+
+05:03.920 --> 05:13.180
+Quindi in questo caso possiamo solo dire se questa startup, se non esiste in quel caso, ritorneremo.
+
+05:15.490 --> 05:22.660
+Il prossimo possiamo solo fare il nostro Konst tenendo il puntatore a questo punto in alto.
+
+05:22.990 --> 05:30.880
+Quindi, che cosa è attualmente in cima, che è discordia, dirò che questo top Daut non è più quello che
+
+05:30.880 --> 05:33.130
+è attualmente perché vogliamo rimuoverlo.
+
+05:33.250 --> 05:38.990
+Sta per eguagliare questo puntino in alto che è al di sotto della discordia.
+
+05:39.520 --> 05:45.950
+E poi finalmente lo diciamo a lungo meno meno perché vogliamo ridurre il prestito di una unità.
+
+05:46.030 --> 05:49.920
+E poi finalmente possiamo dire di restituirlo ora.
+
+05:49.960 --> 05:54.070
+Ricorda perché Javascript è un linguaggio spazzatura raccolto.
+
+05:54.070 --> 06:05.880
+Se non l'avessi fatto e avessi detto di tenere il puntatore su questo punto, suona bene questa nota che contiene la discordia non
+
+06:06.180 --> 06:08.320
+farebbe riferimento a nulla.
+
+06:09.150 --> 06:15.720
+E non usato da niente che significa in un linguaggio spazzatura raccolto come javascript che
+
+06:15.780 --> 06:19.860
+verrà automaticamente rimosso dalla memoria durante la garbage collection.
+
+06:20.560 --> 06:25.780
+Quindi, se eseguo questo mentre non ho ancora fatto nulla.
+
+06:25.950 --> 06:31.640
+Ma in questo momento per il pop torniamo semplicemente al puntatore di mantenimento.
+
+06:31.860 --> 06:40.280
+Se clicco su Esegui o Facciamo prima il mio stack dot pop per rimuovere discord dalla lista.
+
+06:40.330 --> 06:51.990
+Se faccio clic su run torno al nodo o che è il puntatore di mantenimento nel caso in cui vogliamo ancora
+
+06:51.990 --> 06:52.600
+accedervi.
+
+06:53.130 --> 07:00.180
+Altrimenti se volessimo solo scomparire e non ne abbiamo più bisogno, possiamo solo restituirlo.
+
+07:00.210 --> 07:02.710
+Possiamo anche commentare il puntatore di attesa.
+
+07:02.820 --> 07:12.030
+E se faccio clic su Esegui ora abbiamo solo te Demy nella parte superiore e Google nella parte inferiore e discord è
+
+07:12.030 --> 07:13.380
+scomparso dalla memoria.
+
+07:13.500 --> 07:14.460
+Quindi continuiamo ad andare qui.
+
+07:14.460 --> 07:18.030
+Diciamo che voglio farne un altro
+
+07:21.000 --> 07:30.860
+e se lo gestisco ora ho solo una cosa su Google che era l'elemento originale in pila.
+
+07:30.870 --> 07:35.160
+Così, mentre lo facevamo, siamo andati su Google, poi siamo andati da te, Dammy.
+
+07:35.260 --> 07:42.600
+Poi siamo andati a discordare e poi abbiamo fatto scoppiare tutto ciò che è in cima e poi ti abbiamo fatto uscire
+
+07:42.600 --> 07:44.990
+Dammy e ora siamo rimasti con Google.
+
+07:45.180 --> 07:55.790
+Se faccio un ultimo pop qui e clicco sopra abbiamo top che non è tutto ma oh abbiamo un nodo in basso che ha
+
+07:56.390 --> 08:02.480
+ancora Google perché non abbiamo mai rimosso nel pop il nostro nodo inferiore.
+
+08:02.480 --> 08:06.400
+Tutto quello che abbiamo fatto è stato sostituire la parte superiore.
+
+08:06.530 --> 08:17.640
+Quindi abbiamo solo bisogno di aggiungere un condizionale qui che è se questo punto è uguale a questo punto in basso.
+
+08:17.780 --> 08:20.750
+Ciò significa che c'è un solo elemento nell'elenco.
+
+08:20.780 --> 08:29.380
+Avrei anche potuto fare che questa Quaresima è uguale a zero se entrambe sono uguali il che significa che c'è solo
+
+08:29.620 --> 08:30.930
+una nota rimasta.
+
+08:31.120 --> 08:36.760
+In tal caso, vogliamo dire che questo punto in basso equivale a no.
+
+08:37.060 --> 08:41.950
+Perché dopo aver rimosso l'unico nodo a sinistra vuoi che il fondo diventi uguale a no.
+
+08:42.280 --> 08:45.410
+Quindi se faccio questo e clic scappo, vai.
+
+08:45.440 --> 08:48.450
+Siamo tornati al nostro stack vuoto originale.
+
+08:49.560 --> 08:52.740
+Spero che tu l'abbia capito e che sia stato in grado di dargli un senso.
+
+08:52.770 --> 08:55.610
+Abbiamo un altro entusiasmante esercizio nel prossimo video.
+
+08:55.750 --> 08:56.780
+Lo vedrò.
+
+08:57.190 --> 08:57.400
+Bobby.

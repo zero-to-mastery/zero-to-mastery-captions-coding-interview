@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.050 --> 00:02.160
+Welcome back.
+
+00:02.220 --> 00:10.970
+CU's are our next data structure and the best way to think about them is like an entrance to a rollercoaster.
+
+00:11.030 --> 00:16.460
+The first person that arrives in line gets to go first on the roller coaster and then the second person
+
+00:16.460 --> 00:19.100
+gets to go and then the third person gets to go.
+
+00:19.250 --> 00:23.950
+And the fourth the fifth and the six finally gets to go.
+
+00:24.260 --> 00:34.730
+So it's the opposite of stacks in that we access first in first out the first item in the queue gets
+
+00:34.940 --> 00:37.290
+access first that is first.
+
+00:37.370 --> 00:45.690
+We call that FIFO and queues are used again a lot in programming problems and interview questions.
+
+00:45.740 --> 00:53.660
+For example if you had any sort of waitlist app to perhaps buy tickets for a concert that uses cues
+
+00:54.110 --> 01:01.690
+what about a restaurant app where you check into the restaurant to see if you can get a table that uses
+
+01:01.690 --> 01:02.420
+Skewes.
+
+01:02.720 --> 01:08.380
+What about Oubre or lift when you want to grab a ride.
+
+01:08.750 --> 01:14.400
+Well the person that requested the ride first will get priority and then you'll get second.
+
+01:14.630 --> 01:18.980
+And then finally the most common example of queues is a printer right.
+
+01:19.010 --> 01:24.060
+If you had a printer at home and you have three people on three different computers or your home.
+
+01:24.110 --> 01:29.880
+Let's say your family members and you press print and each person prints different items.
+
+01:29.990 --> 01:34.920
+The person that clicks print first should have their first print out.
+
+01:35.210 --> 01:37.610
+And same for the second person that goes next.
+
+01:37.610 --> 01:44.750
+And then the third person now on the right here I have a couple of words that are different then push
+
+01:44.810 --> 01:47.930
+and pop and I'm using a bit of standard here.
+
+01:47.960 --> 01:55.640
+You can use push for and cue which means add to the cue that is at a person in line which is 0 1 and
+
+01:55.650 --> 02:02.080
+dequeue which you can think of as pop which is remove person from line.
+
+02:02.240 --> 02:09.110
+However dequeue unlike pop doesn't take that last person in line takes the first person.
+
+02:09.110 --> 02:11.970
+So that's where stacks and cues differ.
+
+02:12.020 --> 02:18.290
+And we have these names to make sure that we understand the differences but we have peak which once
+
+02:18.290 --> 02:24.980
+again tells us what's the first item that's going to come up that is the first person in the list versus
+
+02:24.980 --> 02:30.520
+a cue that is the last played which was the last in first out.
+
+02:31.040 --> 02:37.490
+And once again look up in a Q You usually don't do because you're only interested in and cueing and
+
+02:37.490 --> 02:38.840
+Dijk doing.
+
+02:39.090 --> 02:42.850
+You can see here that are big O notation is quite fast.
+
+02:42.990 --> 02:49.140
+We're actually going to demonstrate this in code but I want you to try and answer this question why
+
+02:49.620 --> 02:56.840
+would you not want to use an array to build a cue pause the video if you want to think about it.
+
+02:57.800 --> 03:05.630
+Well the answer is that it's very inefficient because we're removing the first item from the list.
+
+03:05.690 --> 03:13.010
+If you remember arrays if you shift something you remove the first item you're going to have to shift
+
+03:13.070 --> 03:14.290
+all those indexes.
+
+03:14.450 --> 03:21.140
+So creating a queue from arrays although you can do it is really really bad.
+
+03:21.330 --> 03:24.580
+And that's something we'll talk a little bit more about when we actually code it.
+
+03:25.330 --> 03:25.920
+OK.
+
+03:26.270 --> 03:28.070
+That's enough for CU's.
+
+03:28.070 --> 03:29.660
+Let's go on to our first exercise.

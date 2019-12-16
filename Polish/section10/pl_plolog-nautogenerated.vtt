@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.010 --> 00:08.240
+Powróćmy do poprzedniego wideo, na którym mówiliśmy o specjalnej charakterystyce lub własnościach drzew binarnych.
+
+00:09.040 --> 00:15.190
+Ze względu na strukturę drzew binarnych istnieje pewien sposób obliczania liczby notatek,
+
+00:15.190 --> 00:20.540
+które mają na przykład na poziomie 0 drzewa binarnego.
+
+00:20.620 --> 00:26.530
+To jest najwyższy poziom, na którym mamy tylko jeden węzeł główny, możemy obliczyć, ile
+
+00:26.530 --> 00:30.940
+jest nut, robiąc dwa do potęgi poziomu, który wynosi zero.
+
+00:30.940 --> 00:34.350
+Więc jeśli zrobię dwa do potęgi zera, to będzie równa jeden.
+
+00:34.390 --> 00:37.070
+To znaczy, że mamy jedną nutę.
+
+00:37.220 --> 00:41.880
+Jeśli przejdziemy na niższy poziom i powiemy o poziomie 1, ile poziomów mamy.
+
+00:42.050 --> 00:48.700
+Mamy dwie do potęgi równej dwóm.
+
+00:49.490 --> 00:50.330
+W porządku, kontynuujmy.
+
+00:50.330 --> 00:51.920
+A co z poziomem 2.
+
+00:51.950 --> 00:54.670
+Ile węzłów w sumie mamy na tym poziomie.
+
+00:54.800 --> 00:59.910
+Cóż, mamy dwa do potęgi dwóch, które są równe czterem.
+
+01:00.380 --> 01:03.350
+A potem ostatni poziom powiedzmy Poziom trzeci.
+
+01:03.410 --> 01:09.840
+Ile węzłów będziemy mieć na poziomie trzecim w doskonale zbalansowanym drzewie binarnym.
+
+01:10.070 --> 01:15.990
+Cóż, dwa do potęgi trzech równa się ośmiu chłopcom.
+
+01:16.360 --> 01:20.120
+Po prostu robimy tu trochę matematyki i obiecałem, że ten kurs będzie mathy.
+
+01:20.140 --> 01:22.110
+Ale niedźdź tu ze mną.
+
+01:22.180 --> 01:25.660
+Chcę ci wyjaśnić, co stary dziennik i środki.
+
+01:26.910 --> 01:33.180
+Wiedząc, co właśnie zrobiliśmy i wiedząc, że są to całkowita
+
+01:33.480 --> 01:39.960
+liczba węzłów, jeśli wyobrażamy sobie, że te dane były w tablicy, co
+
+01:40.530 --> 01:48.380
+oznacza, że mamy osiem miejsc, które musimy przetestować przez osiem węzłów, które musimy sprawdzić,
+
+01:48.380 --> 02:00.630
+aby wyszukać coś dobrze bazującego na tej formule, co oznacza, że nie możemy znaleźć liczby węzłów w drzewku, robiąc dwa do potęgi
+
+02:00.630 --> 02:09.000
+H lub wysokości, która jest poziomem, jeśli wiemy, ile poziomów to drzewo binarne, które możemy
+
+02:09.000 --> 02:15.550
+dowiedzieć się, ile węzłów ogółem są dwa do potęgi H minus jeden.
+
+02:15.560 --> 02:18.160
+Teraz dlaczego to minus jeden.
+
+02:18.170 --> 02:26.660
+Cóż, jeśli wrócimy do naszego schematu tego drzewa binarnego, mamy jeden dwa trzy cztery pięć sześć siedem.
+
+02:26.900 --> 02:33.440
+Mamy siedem całych węzłów, a drzewo jest od jednego do trzech.
+
+02:33.740 --> 02:38.080
+Wysokość drzewa, gdy ma trzy poziomy głębokości.
+
+02:38.200 --> 02:43.780
+Więc dwa do potęgi trzech minus jeden to siedem węzłów.
+
+02:43.780 --> 02:51.940
+Teraz, jeśli faktycznie upraszczamy to, możemy po prostu powiedzieć, że dziennik węzłów będzie
+
+02:52.240 --> 02:54.840
+równy wysokości lub krokom.
+
+02:55.120 --> 03:04.490
+I używam logu tutaj po prostu myśl, że twój wędrujący dziennik po prostu oznacza, że log 100 jest równy dwóm,
+
+03:05.210 --> 03:09.150
+ponieważ 10 do potęgi dwóch równa się 100.
+
+03:11.380 --> 03:22.000
+Więc wszystko, co zrobiłem, wykorzystałem to, co uprościłem i powiedziałem, że notki dziennika są równe wysokości, a my
+
+03:22.330 --> 03:31.110
+upuściliśmy tutaj ujemny, ponieważ jest znaczący, ale węzły dziennika to liczba kroków lub wzrost.
+
+03:31.140 --> 03:35.910
+I zmieńmy tylko dwa kroki, które wykorzystamy w leczeniu.
+
+03:35.920 --> 03:45.250
+Pozwól mi pokazać ponownie w naszym logu diagramu i po prostu oznacza, że na podstawie wysokości maksymalna
+
+03:45.250 --> 03:46.780
+liczba decyzji.
+
+03:46.870 --> 03:52.600
+Załóżmy, że szukamy określonego węzła, który będziemy rejestrować.
+
+03:52.600 --> 03:55.890
+A to oznacza, że jest to węzeł, którego szukamy.
+
+03:55.900 --> 03:56.390
+Nie.
+
+03:56.410 --> 04:02.520
+Potem albo idziemy w lewo, albo w prawo, chyba że pójdziemy w lewo i powiemy, że to nie jest to, czego szukamy.
+
+04:02.740 --> 04:05.400
+I to jest nasz drugi krok.
+
+04:05.470 --> 04:06.590
+Jeśli odpowiedź brzmi Nie.
+
+04:06.590 --> 04:10.910
+Idą w lewo lub w prawo i mówimy, że to nie szukamy.
+
+04:11.050 --> 04:11.540
+Tak.
+
+04:11.830 --> 04:20.020
+Mamy więc maksymalnie trzy kroki w roku, a nie, jeśli chcesz jeden dwa trzy cztery pięć sześć siedem kroków.
+
+04:20.140 --> 04:23.590
+Widzisz, że jest tu pewna skuteczność.
+
+04:23.740 --> 04:29.470
+W najbliższym czasie poznamy drzewa binarne wyszukiwania, w których możemy zminimalizować
+
+04:29.480 --> 04:32.860
+te kroki zamiast odwiedzać każdą notatkę.
+
+04:33.250 --> 04:42.780
+Więc kiedy widzisz notację o Lagu i nie zaczynaj, całe to powiedzenie mówi, że wybór następnego elementu, na
+
+04:42.780 --> 04:50.400
+którym można wykonać jakąś akcję, jest jedną z wielu możliwości i tylko jedna musi
+
+04:50.520 --> 04:52.110
+zostać wybrana.
+
+04:52.140 --> 05:00.020
+Nie musimy sprawdzać obu w dobry sposób, aby myśleć o dzienniku i kiedy przeglądasz książkę
+
+05:00.020 --> 05:00.680
+telefoniczną.
+
+05:01.080 --> 05:05.490
+W rzeczywistości nie sprawdzasz każdej osoby w książce telefonicznej.
+
+05:05.490 --> 05:13.080
+Zamiast tego możesz po prostu zrobić to, co nazywa się dziel i rządź, patrząc w oparciu o miejsce, w którym zaczynają się
+
+05:13.490 --> 05:14.140
+alfabetycznie.
+
+05:14.400 --> 05:20.550
+Otworzysz książkę tam, gdzie myślisz, że list zacznie się od nazwy, a następnie będzie
+
+05:20.550 --> 05:25.170
+kontynuował dzielenie i zdobywanie, aż dotrzesz do tej osoby.
+
+05:25.280 --> 05:32.030
+Musisz tylko zbadać podzbiór każdej sekcji, zanim w końcu znajdziesz numer telefonu danej osoby.
+
+05:33.170 --> 05:34.560
+Pomyśl o tym.
+
+05:34.850 --> 05:38.350
+Oh Lagann jest jak przeglądanie książki telefonicznej.
+
+05:39.680 --> 05:45.880
+A powodem, dla którego właśnie tak szczegółowo opisałem Laganna jest to, że jest to ważna koncepcja.
+
+05:45.890 --> 05:53.420
+Jest naprawdę bardzo szybki, jak widać tutaj, jest to jak zielona dobra okolica.
+
+05:53.420 --> 06:00.780
+Jest to nawet lepsze niż czas linearny, ponieważ nie musimy sprawdzać każdego elementu.
+
+06:01.070 --> 06:05.780
+A w kolejnym filmie porozmawiamy o najbardziej typowym drzewie, które
+
+06:05.780 --> 06:09.830
+zobaczysz w wielu miejscach zwanych drzewem binarnym wyszukiwania.
+
+06:09.890 --> 06:16.520
+Jak sama nazwa wskazuje, pozwala nam to na naprawdę efektywne wyszukiwanie. Po prostu patrząc na
+
+06:16.910 --> 06:24.290
+ten wykres, możesz pomyśleć o tym, jak bardzo przydatne może być takie miejsce, jak Google i wyszukiwarka
+
+06:24.380 --> 06:25.130
+Google.
+
+06:25.130 --> 06:25.800
+Dobrze.
+
+06:25.910 --> 06:33.000
+Kiedy przeszukujemy Google, mamy mnóstwo witryn sieci Web do przeszukiwania tony węzłów.
+
+06:33.110 --> 06:42.200
+W jaki sposób są w stanie tak szybko odpowiedzieć na nasze zapytania, jeśli zastosują całą złożoność czasu Van, zajmie to
+
+06:42.620 --> 06:46.890
+dużo czasu i będzie to dla nich naprawdę kosztowne.
+
+06:46.940 --> 06:54.170
+Zamiast tego używają struktury drzewa lub struktury danych drzewa, dzięki czemu nasze wyszukiwania mogą być dużo szybsze z
+
+06:54.350 --> 06:58.420
+czymś takim jak oh log, zobaczę w następnym filmie.

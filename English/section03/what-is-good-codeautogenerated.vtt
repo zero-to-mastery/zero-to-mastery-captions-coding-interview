@@ -1,0 +1,247 @@
+WEBVTT
+
+00:01.230 --> 00:06.800
+There are two main things we talk about when we say this is good code.
+
+00:07.050 --> 00:10.890
+But before I show you what do you think good code is.
+
+00:10.950 --> 00:11.870
+Think about that.
+
+00:11.940 --> 00:15.700
+What would you tell somebody if you're asking them to write good code.
+
+00:16.520 --> 00:24.180
+All right I'll just give you the answer you see good code can be described in two things or two points.
+
+00:24.410 --> 00:31.700
+One is readability is your code just generally clean.
+
+00:31.700 --> 00:33.850
+Can others understand your code.
+
+00:34.160 --> 00:37.580
+And then we have scalable code.
+
+00:37.760 --> 00:38.800
+What does that mean.
+
+00:39.140 --> 00:49.930
+Well Big-O notation is what allows us to measure this idea of scalable code that can scale something
+
+00:49.930 --> 00:55.280
+that we're going to get into and you're going to become more familiar with as we go through this section.
+
+00:55.480 --> 01:00.550
+We're also going to talk about readable code throughout this entire course but touch upon it a little
+
+01:00.550 --> 01:03.090
+bit more in the next section.
+
+01:03.220 --> 01:09.240
+But for now because this is the big O section we're focusing on this idea of scalable code.
+
+01:09.520 --> 01:12.510
+Ok what does this really mean though.
+
+01:12.940 --> 01:17.600
+Well I want you to imagine we have a task where we want to bake a cake.
+
+01:18.010 --> 01:27.030
+We have a recipe over here and this recipe we're going to use in our kitchen to bake a cake.
+
+01:27.250 --> 01:31.040
+And there's a good way of baking a cake and a bad way.
+
+01:31.080 --> 01:32.640
+Right.
+
+01:32.700 --> 01:34.450
+We give it the instructions.
+
+01:34.470 --> 01:35.690
+That is their recipe.
+
+01:35.880 --> 01:43.710
+And hopefully this recipe and instructions work well with our kitchen so that we can bake a cake quickly
+
+01:44.400 --> 01:46.370
+and a good cake at that.
+
+01:46.680 --> 01:49.300
+Well computers are machines.
+
+01:50.020 --> 01:54.180
+And these machines need to work in order to produce something for us.
+
+01:54.370 --> 02:01.490
+And computers work in the same way we have these instructions that we give it through code and these
+
+02:01.510 --> 02:08.020
+instructions that we give to our machines our computers give these instructions that provide for us
+
+02:08.170 --> 02:13.660
+some sort of an output for example to turn on the light.
+
+02:13.660 --> 02:18.600
+We give the computer instruction to say hey turn on the light in our room.
+
+02:18.880 --> 02:24.730
+A coder is someone that gives these instructions just like there are many ways to take a cake into a
+
+02:24.730 --> 02:31.930
+kitchen or just like there are many ways to bake a cake in the kitchen with many recipes ingredients
+
+02:31.930 --> 02:33.060
+and instructions.
+
+02:33.070 --> 02:36.780
+There are many ways to solve a problem through code.
+
+02:37.000 --> 02:40.690
+They're efficient and inefficient ways to give instructions.
+
+02:40.720 --> 02:42.950
+So let's go to a coding example.
+
+02:43.090 --> 02:49.540
+I'm going to use REPL thudded and if you are not familiar with this Make sure you check out the video
+
+02:49.540 --> 02:54.930
+that I have listed down below here which explains how you can run your code in this course.
+
+02:54.990 --> 03:02.680
+You want to just log in and I already have my javascript environment set up over here.
+
+03:03.890 --> 03:07.020
+And I prefer having the dark theme.
+
+03:07.030 --> 03:08.840
+I think that looks better on your eyes.
+
+03:09.590 --> 03:16.090
+For you at least I hope you don't mind the darkness but how can I demonstrate this idea of code.
+
+03:16.960 --> 03:18.660
+Let's do something fun here.
+
+03:18.910 --> 03:23.520
+Using javascript I'm going to say Konst nimo.
+
+03:23.760 --> 03:36.890
+We have an array that contains the string Nimo and we want to create a function here that is called
+
+03:36.890 --> 03:46.960
+Find Nimo and this function is going to receive an array and it's going to be a very simple function.
+
+03:47.010 --> 03:52.890
+We're going to create a loop that you'll see in most languages in javascript.
+
+03:52.890 --> 04:01.290
+We can do that easily by saying 4 and will give let I equals zero.
+
+04:01.870 --> 04:11.890
+And as long as I is smaller than the array dot land that is the length of our array and then we're going
+
+04:11.890 --> 04:15.230
+to increment by every time.
+
+04:16.810 --> 04:22.750
+Again this isn't a javascript course so hopefully this is familiar to you any sort of loop that you
+
+04:22.750 --> 04:33.360
+want in your language and we're just going to simply say that if array by equals nimo.
+
+04:33.470 --> 04:42.370
+So if we find Nemo we're just going to console Daut log found Nemo.
+
+04:42.810 --> 04:43.570
+We're very excited.
+
+04:43.620 --> 04:45.850
+Fun.
+
+04:45.850 --> 04:46.500
+All right.
+
+04:46.690 --> 04:47.560
+That's it.
+
+04:47.600 --> 04:56.420
+And if I just simply run the function now find Nemo and we'll just give it the array Nimo over here
+
+04:57.780 --> 05:03.940
+and make sure that I spell lenth properly and we click run here.
+
+05:05.370 --> 05:10.690
+We have found Nimo on the right lane make this a little bit bigger so you can see.
+
+05:10.730 --> 05:13.150
+So we found Nemo.
+
+05:13.280 --> 05:15.830
+This is the instruction that we gave the computer.
+
+05:16.130 --> 05:22.190
+We told it that we have an array and we have a function an action that we want to perform called find
+
+05:22.210 --> 05:25.950
+Nemo that takes an array which is nimo.
+
+05:26.130 --> 05:29.600
+It's going to receive this array.
+
+05:29.800 --> 05:32.030
+Then it's going to loop over the array.
+
+05:32.560 --> 05:35.420
+We're going to say that I is going to equal zero.
+
+05:35.860 --> 05:45.110
+And because I is zero right now and the array length of Nimo is one we're going to go through the loop.
+
+05:45.370 --> 05:51.580
+We're going to check if array index of 0 which is Nimo over here.
+
+05:51.580 --> 05:56.080
+So this is going to turn into nimo.
+
+05:56.350 --> 06:02.350
+And because this is true we're going to con. log found nimo.
+
+06:02.380 --> 06:05.110
+Now why did I just show you this example.
+
+06:05.140 --> 06:12.910
+Let me just bring this back to the way it was I showed you this example because this is an instruction
+
+06:13.510 --> 06:17.120
+that we're giving our computer to find nimo.
+
+06:17.260 --> 06:20.020
+You see we call this the runtime.
+
+06:20.020 --> 06:26.200
+How long does it take to run a certain problem through a function or a task.
+
+06:26.260 --> 06:30.820
+How can we measure the big O Oh well something like this.
+
+06:30.880 --> 06:33.300
+Or the efficiency of this code.
+
+06:34.970 --> 06:37.740
+In the next video we're going to get a little bit deeper.
+
+06:37.770 --> 06:43.230
+We're going to try and measure the performance of this code and see what happens when the array gets
+
+06:43.320 --> 06:44.590
+larger and larger.
+
+06:45.440 --> 06:52.250
+And we're going to tie things together as to what scaleable means and how big-O allows us to measure
+
+06:52.390 --> 06:56.180
+the scalability see in the next video.

@@ -1,0 +1,118 @@
+WEBVTT
+
+00:01.420 --> 00:10.450
+Benvenuti nella sezione dell'algoritmo, questa è una parola che immediatamente suona bene.
+
+00:10.490 --> 00:15.800
+Tutte le aziende lo stanno usando in questi giorni per sembrare che stiano facendo qualcosa di veramente importante.
+
+00:16.510 --> 00:24.100
+Ognuno di noi ha un algoritmo segreto che usa per far sì che i modelli di apprendimento automatico analizzino i dati degli utenti che rendono le
+
+00:24.160 --> 00:25.780
+aziende un sacco di soldi.
+
+00:26.080 --> 00:35.360
+Ma al di sotto degli algoritmi della cappa ci sono solo funzioni che i programmatori scrivono una funzione a due linee è
+
+00:35.420 --> 00:43.670
+tecnicamente un algoritmo un algoritmo di migliaia di linee che ordina attraverso le immagini è anche un algoritmo.
+
+00:43.670 --> 00:51.780
+Gli algoritmi sono semplicemente passaggi di un processo che eseguiamo per eseguire un'azione desiderata con i computer.
+
+00:53.450 --> 01:00.310
+Se andiamo su Wikipedia e cerchiamo elenchi di algoritmi, la lista è piuttosto infinita.
+
+01:00.320 --> 01:05.240
+Ci sono molti algoritmi.
+
+01:05.380 --> 01:07.420
+È impossibile conoscerli tutti.
+
+01:07.480 --> 01:14.770
+È possibile creare i propri algoritmi, è possibile utilizzare altri algoritmi che sono popolari e ben stabiliti.
+
+01:14.970 --> 01:18.740
+Ma torniamo alla nostra domanda su cosa sono gli algoritmi.
+
+01:18.900 --> 01:28.220
+Se uniamo la nostra conoscenza delle strutture dati a quelle su cui abbiamo lavorato nelle sezioni precedenti, gli algoritmi ci permettono di usare
+
+01:28.310 --> 01:36.200
+il linguaggio costruito in strutture di dati come matrici e oggetti o primitive come interi e booleani e persino
+
+01:36.230 --> 01:43.910
+tipi di dati personalizzati come abbiamo fatto quando usiamo il parola chiave di classe per creare pile di alberi
+
+01:44.030 --> 01:46.560
+di ricerca binaria di cue.
+
+01:46.960 --> 01:54.010
+Gli algoritmi ci consentono di utilizzare queste strutture di dati per eseguire azioni su tali dati.
+
+01:54.040 --> 02:00.440
+Ricorda che strutture e algoritmi dati giusti creano programmi in questo corso.
+
+02:00.440 --> 02:07.520
+Parleremo degli algoritmi più comuni per le interviste in modo che la lunga lista su Wikipedia non sia
+
+02:07.520 --> 02:12.590
+così intimidatoria perché ci concentreremo solo sui desideri che interessano soprattutto le interviste,
+
+02:12.830 --> 02:19.990
+ma anche su quelli che contano di più nella tua carriera in particolare, esamineremo questi argomenti quando si
+
+02:19.990 --> 02:21.460
+tratta di algoritmi.
+
+02:21.460 --> 02:28.060
+Ora perché questi algoritmi sono così comuni nelle interviste e specialmente nelle grandi aziende.
+
+02:28.620 --> 02:34.230
+Beh, puoi cavartela senza conoscere questi argomenti da molto tempo.
+
+02:34.290 --> 02:41.520
+Come programmatori, ma come abbiamo appreso big-O e la scalabilità del codice è importante in quanto le aziende
+
+02:41.520 --> 02:45.290
+diventano sempre più grandi imparando questi algoritmi elencati.
+
+02:45.480 --> 02:50.550
+Siamo in grado di fare la maggior parte del ridimensionamento di cui abbiamo bisogno per migliorare i nostri programmi.
+
+02:50.550 --> 03:00.450
+Ricorda il nostro big-O Chichi e come non abbiamo davvero parlato di oh log e O N log e forse un po
+
+03:00.450 --> 03:02.040
+'nei video precedenti.
+
+03:02.910 --> 03:12.780
+Gli algoritmi del CERN ci consentono di semplificare la nostra grande complessità O in una complessità temporale più piccola o migliore.
+
+03:13.710 --> 03:19.740
+In questo modo, usando l'algoritmo giusto, potrei prendere una funzione che ha un grande
+
+03:19.740 --> 03:28.380
+spettacolo di questa notazione fino a qualcosa di O e accedere o qualcosa che ha una complessità temporale lineare per registrare eventi.
+
+03:28.550 --> 03:35.360
+E questi sono utilizzati ovunque nelle grandi aziende perché le grandi aziende gestiscono molti input
+
+03:35.450 --> 03:36.540
+molti dati.
+
+03:36.590 --> 03:43.670
+Quindi questo argomento è estremamente importante per loro e man mano che la tua carriera cresce e cresce
+
+03:43.670 --> 03:46.320
+questi argomenti saranno sempre più importanti.
+
+03:46.390 --> 03:48.760
+Quindi tuffiamoci nel nostro primo argomento.
+
+03:49.000 --> 03:50.480
+Vedrò nel prossimo.
+
+03:50.690 --> 03:50.950
+Babai.

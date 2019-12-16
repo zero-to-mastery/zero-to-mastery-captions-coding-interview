@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.170 --> 00:02.490
+Witamy spowrotem.
+
+00:02.490 --> 00:09.270
+Zróbmy szybkie ćwiczenie, zanim zaczniemy tworzyć własne stosy i Qs, ponieważ javascript
+
+00:09.270 --> 00:13.810
+nie ma własnej struktury danych giełdowych ani pamięciowych.
+
+00:13.830 --> 00:18.950
+Teraz wspomniałem, że istnieją dwa sposoby na zbudowanie stosów i Qs.
+
+00:19.150 --> 00:24.040
+Jeśli mówimy o stosach, możemy myśleć o tym jako o historii przeglądarki.
+
+00:24.040 --> 00:33.430
+Powiedzmy, że najpierw odwiedzamy Google'a, a potem odwiedzimy cię, Dammy dot com, a potem odwiedzimy, powiedzmy, YouTube
+
+00:34.770 --> 00:39.130
+w stosie, ponieważ Google był pierwszym elementem.
+
+00:39.280 --> 00:43.240
+Właściwie byłby umieszczony na stosie w ten sposób.
+
+00:43.240 --> 00:52.170
+Potem idziemy do ciebie, Dammy, żebyśmy byli umieszczeni na stosie, a potem idziemy na YouTube.
+
+00:52.240 --> 00:59.770
+Teraz, jeśli chcemy wejść na nową stronę internetową, powiedzmy, że idziemy na Twitter, ale zdecydowaliśmy, że nie, nie, to nie jest to, co
+
+00:59.770 --> 01:00.700
+chcę zrobić.
+
+01:00.700 --> 01:07.750
+Chcę wrócić, usuniemy backburn press backload w naszej przeglądarce, a my przejdziemy do YouTube, jeśli
+
+01:08.110 --> 01:09.050
+ponownie wrócimy.
+
+01:09.250 --> 01:19.940
+Dostajemy się do Dammy'ego, a potem wracamy do Google, więc Stax ma szczyt i dół, a my możemy
+
+01:19.940 --> 01:25.190
+go zbudować za pomocą tablic lub połączonych list.
+
+01:26.370 --> 01:35.940
+Moje pytanie brzmi: dlaczego chcielibyśmy budować stosy z tablicami, które stworzą klasę stosów, w których dane
+
+01:35.940 --> 01:43.120
+przechowywane są w tablicach, a nie w listach połączonych i na odwrót.
+
+01:43.910 --> 01:45.560
+Pomyśl o tym.
+
+01:45.560 --> 01:46.840
+Co powiesz na.
+
+01:48.840 --> 01:56.970
+Powiedzmy, że mamy Q Tworzę aplikację listy oczekujących i tutaj mamy kilka osób, które chcą dostać się na
+
+01:56.970 --> 01:58.020
+listę oczekujących.
+
+01:58.080 --> 02:01.680
+Pierwszą osobą, która się pojawi jest Tim.
+
+02:01.950 --> 02:04.690
+A potem po Timie lub wiesz co.
+
+02:04.770 --> 02:10.530
+Wykorzystajmy nasze imiona, użyjmy Matta, a potem pojawi się Matt.
+
+02:10.630 --> 02:20.550
+Ale nagła radość przychodzi i układa się, a potem może mamy coś, co przychodzi i
+
+02:20.550 --> 02:25.240
+czeka w kolejce, a potem mamy Pavola.
+
+02:25.460 --> 02:33.560
+W tym przypadku chcemy, aby Matt był pierwszy, a następnie Joy i sumir, a następnie Powell, a
+
+02:33.650 --> 02:40.160
+dzięki podpowiedziom możemy ponownie użyć naszej listy ras i długości, aby ją zrealizować.
+
+02:41.690 --> 02:44.900
+Który z nich będzie dla nas lepszy?
+
+02:44.930 --> 02:47.480
+Czy jest jeden lepszy lub obaj są równi.
+
+02:47.480 --> 02:50.210
+Chcę, żebyś pomyślał o tym w następnym wideo.
+
+02:50.240 --> 02:56.180
+Mam zamiar odpowiedzieć na to pytanie, ale zalecam poświęcenie czasu na przemyślenie tego, co wiesz o tablicach
+
+02:56.180 --> 03:01.430
+i powiązanych listach oraz o tym, w jaki sposób mogą one przynieść korzyści lub nie.
+
+03:01.490 --> 03:03.360
+Stosy i Qs.
+
+03:03.500 --> 03:04.360
+Zobaczę w następnym filmie.

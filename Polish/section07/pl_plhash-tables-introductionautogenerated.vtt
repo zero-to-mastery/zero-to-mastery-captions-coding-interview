@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.890 --> 00:13.220
+Czas na naszą następną tablicę skrótów tablic haszowania danych lub map map haszy na zamówionych słownikach map. Istnieje wiele
+
+00:13.610 --> 00:20.750
+sposobów na wywołanie tej struktury danych, a różne języki mają różne
+
+00:20.750 --> 00:26.640
+nazwy i niewielkie różnice w tabelach tablic asocjacyjnych.
+
+00:26.660 --> 00:31.970
+Na przykład w javascript znajduje się typ tablicy mieszającej.
+
+00:32.000 --> 00:38.180
+Powodem, dla którego rozpoczynam kurs z tablicami i obiektami lub tablicami hash, jest to,
+
+00:38.180 --> 00:44.700
+że są to najczęściej zadawane pytania dotyczące wywiadów, które zamierzasz wykorzystać w dowolnym pytaniu o kodowanie.
+
+00:45.400 --> 00:50.700
+Osobiście nie brałem udziału w wywiadzie, o którym nie musieliście wiedzieć.
+
+00:50.770 --> 00:53.970
+Są absolutnie MUSI teraz.
+
+00:53.980 --> 01:01.090
+Na szczęście dla nas każdy język ma wbudowaną tablicę asocjacyjną, podobnie jak tablice w Pythonie.
+
+01:01.210 --> 01:06.060
+Nazywane są słownikami javascript, tak jak mówiliśmy, są obiektami.
+
+01:06.100 --> 01:14.380
+Java ma mapy, a Ruby ma skróty, a tablice skrótów są bardzo ważne w całej informatyce.
+
+01:14.560 --> 01:21.970
+Widzisz je w bazach danych w pamięciach podręcznych i są bardzo przydatne.
+
+01:21.990 --> 01:23.550
+Więc czym one są.
+
+01:23.580 --> 01:28.710
+A także możesz się zastanawiać, co znaczy nazwa tablica hash.
+
+01:28.740 --> 01:30.100
+Skąd wzięło się to imię?
+
+01:31.400 --> 01:33.640
+Cóż, spójrzmy na przykład.
+
+01:33.660 --> 01:41.700
+Wyobraź sobie, że idziesz do sklepu spożywczego i masz przedmiot tutaj, a chcesz dodać winogrona,
+
+01:42.150 --> 01:45.470
+które są własnością obiektu koszyka.
+
+01:45.480 --> 01:49.250
+Ponownie używamy składni javascript, ale powinno to wyglądać znajomo.
+
+01:49.320 --> 01:55.620
+Więc chcieliśmy ustawić, że Baskett pies Grace ma wynieść 10000.
+
+01:55.650 --> 01:59.540
+Kupujemy 10000 winogron, ponieważ nigdy nie można mieć zbyt wielu winogron.
+
+02:00.600 --> 02:07.100
+Teraz najpierw pomyśl, jak byśmy to przechowywali w wyścigu, aby być trochę trudniejszym.
+
+02:07.200 --> 02:08.370
+Dobrze.
+
+02:08.370 --> 02:15.890
+A potem ponownie mamy indeks, który jest ponumerowany i dolinę z tablicą haszującą lub obiektem.
+
+02:15.960 --> 02:20.760
+Ustawiamy klucz, którym są winogrona i wartość.
+
+02:20.760 --> 02:23.950
+Tak więc ustawiamy parę kluczy.
+
+02:24.090 --> 02:26.520
+Od razu widzimy tu korzyści.
+
+02:27.680 --> 02:39.790
+Teraz sposób działania tablicy hash działa, mamy klucz, który jest winogronami i ten klucz jest używany jako wskaźnik, gdzie znaleźć
+
+02:39.790 --> 02:42.220
+wartość w pamięci.
+
+02:42.800 --> 02:49.160
+Pamiętajmy, że przy podbiciu mieliśmy indeks, który był liczbą, ale ze stołami hash używamy winogron
+
+02:49.160 --> 02:53.650
+jako sposobu na znalezienie go w naszej półce pamięci.
+
+02:53.660 --> 02:57.790
+Odbywa się to w ten sposób za pomocą funkcji zwanej hash.
+
+02:57.830 --> 03:00.680
+Ale na razie po prostu założymy, że to czarna skrzynka.
+
+03:00.710 --> 03:02.090
+Nie wiemy, co się tutaj dzieje.
+
+03:03.060 --> 03:07.790
+Wszystko, co się wydarzy, to przekazać winogrona do tego czarnego pudełka.
+
+03:08.100 --> 03:11.700
+Ta czarna skrzynia zrobi trochę magii.
+
+03:12.090 --> 03:19.780
+I z tego wychodzi klucz do indeksu, w którym chcemy zachować tę wartość.
+
+03:20.650 --> 03:31.900
+Teraz może być przechowywanych 1000 winogron i ten adres pamięci 7 1 1 i technicznie faktycznie przechowuje
+
+03:31.960 --> 03:36.090
+oba winogrona klucz i wartość 10000.
+
+03:36.130 --> 03:40.510
+Tutaj właśnie uprośniłem go do 10000, aby było trochę czystsze.
+
+03:40.600 --> 03:45.580
+Ale pamiętaj, że będzie on przechowywał zarówno klucz, jak i wartość, a pokażę ci
+
+03:45.580 --> 03:47.050
+diagram pokazujący to później.
+
+03:47.050 --> 03:57.930
+Ta czarna skrzynka decyduje, gdzie umieścić dane w naszej pamięci na naszych komputerach.
+
+03:58.150 --> 04:06.190
+Ale możesz się zastanawiać, co to jest i dlaczego decyduje, gdzie umieścić te wszystkie informacje.
+
+04:06.430 --> 04:09.520
+Do tego zobaczę w następnym filmie Babai.

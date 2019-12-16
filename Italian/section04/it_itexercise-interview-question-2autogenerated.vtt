@@ -1,0 +1,811 @@
+WEBVTT
+
+00:03.050 --> 00:08.450
+Torniamo al punto in cui vogliamo iniziare a scrivere il nostro codice, tenendo presente che più si
+
+00:08.450 --> 00:13.500
+prepara e si capisce ciò che è necessario codificare, migliore sarà la lavagna bianca.
+
+00:13.550 --> 00:18.050
+Quindi non iniziare mai un colloquio con la lavagna bianca senza essere sicuro di come le cose andranno a finire.
+
+00:19.020 --> 00:21.400
+Quindi abbiamo parlato.
+
+00:21.450 --> 00:23.440
+Abbiamo un piano in mente.
+
+00:23.730 --> 00:24.690
+Iniziamo a codificarlo.
+
+00:24.690 --> 00:26.600
+Facciamo il primo ciclo qui.
+
+00:27.650 --> 00:33.910
+Quello è che vogliamo fare un ciclo attraverso la prima matrice e rimuoviamo questo codice solo così è un
+
+00:33.910 --> 00:34.930
+po 'più pulito.
+
+00:34.960 --> 00:40.360
+Vogliamo eseguire il looping della prima matrice per creare un oggetto in cui le proprietà corrispondano agli
+
+00:40.450 --> 00:41.120
+elementi dell'array.
+
+00:42.120 --> 00:47.130
+Creerò un oggetto chiamiamolo solo questa mappa e
+
+00:51.750 --> 00:57.620
+questa mappa l'abbiamo creata, ma vogliamo scorrere il nostro array.
+
+00:57.630 --> 00:59.980
+Quindi per dirlo I.
+
+01:00.700 --> 01:04.560
+Chiama 0 e lo abbiamo già fatto.
+
+01:04.860 --> 01:12.100
+È il meno detto punto dell'array o array con una lunghezza del punto.
+
+01:12.480 --> 01:17.400
+Ora incrementeremo entro qui.
+
+01:17.470 --> 01:29.570
+Per prima cosa diremo se non ci sono proprietà quindi vogliamo verificare se esiste un punto mappa A mappato Parte B
+
+01:29.570 --> 01:33.110
+esiste mappa Dotsie esiste mappa.
+
+01:33.190 --> 01:35.020
+X esiste.
+
+01:35.020 --> 01:45.220
+Quindi se questo non esiste in Javascript puoi semplicemente usare questa sintassi possiamo dire se nessuna mappa si applica.
+
+01:45.220 --> 01:51.470
+Quindi, di nuovo, se la mappa I, che la prima volta sarà a.
+
+01:51.620 --> 01:57.380
+Quindi se il punto A della mappa è il contrario.
+
+01:57.380 --> 02:02.760
+Quindi questo punto esclamativo javascript significa il contrario se la mappa a esiste.
+
+02:02.930 --> 02:08.770
+Restituirà vero se non esiste.
+
+02:08.770 --> 02:11.880
+Sta per dire falso.
+
+02:11.900 --> 02:14.080
+Quindi questo potrebbe essere un po 'confuso.
+
+02:14.090 --> 02:20.880
+Ma vogliamo dire se questo non esiste in quel caso, vogliamo fare qualcosa.
+
+02:21.000 --> 02:28.200
+Ora il modo in cui le istruzioni funzionano in Javascript deve essere vero per poter eseguire qualsiasi cosa ci sia qui
+
+02:28.200 --> 02:28.840
+dentro.
+
+02:28.890 --> 02:36.020
+Quindi aggiungiamo il punto esclamativo qui per trasformare il falso in vero.
+
+02:36.030 --> 02:37.720
+So che può essere un po 'confuso.
+
+02:37.830 --> 02:38.990
+Puoi leggere su di esso.
+
+02:39.090 --> 02:44.600
+Ma in sostanza quello che stiamo facendo è che stiamo controllando la proprietà solo se esiste o meno.
+
+02:45.030 --> 02:48.710
+Se non esiste, lo aggiungeremo.
+
+02:48.780 --> 02:56.320
+Quindi ho intenzione di dire che l'oggetto Konst è uguale all'array 1 I.
+
+02:56.550 --> 03:09.540
+Quindi questo è un e questo oggetto avrà una mappa uguale a true.
+
+03:09.800 --> 03:11.060
+Cosa facciamo qui?
+
+03:11.240 --> 03:23.600
+Quello che abbiamo detto se la mappa a non esiste in quel caso, facciamo un array I che è uguale all'elemento quindi l'elemento della mappa
+
+03:23.690 --> 03:25.880
+sarà uguale a 2.
+
+03:25.880 --> 03:29.340
+Tutto quello che stiamo dicendo è la mappa a.
+
+03:29.350 --> 03:31.590
+In questo caso uguale a true.
+
+03:31.690 --> 03:41.700
+Quindi entro la fine di questo avremo un oggetto che avrà una proprietà vera e continueremo a scorrerla
+
+03:41.700 --> 03:50.430
+fino a quando non avremo un oggetto chiamato mappa che ha tutti questi elementi.
+
+03:50.430 --> 03:58.950
+Mappa una mappa b mappe c mappa X è uguale a vero, sembra che siamo in grado di raggiungere questo obiettivo e possiamo
+
+03:58.950 --> 04:03.480
+semplicemente consolare la nostra legge qui solo per verificare ciò che abbiamo.
+
+04:03.480 --> 04:07.470
+Sto per dire la mappa di dialogo di Konsole.
+
+04:07.610 --> 04:22.450
+Se eseguo questa funzione, includiamo un elemento comune per allineare una matrice e ridurla leggermente.
+
+04:22.460 --> 04:29.230
+Possiamo vedere e se eseguo questa operazione, farò in modo che scriva anche quella matrice giusta.
+
+04:29.460 --> 04:30.950
+Corriamo.
+
+04:31.170 --> 04:35.430
+Vediamo che abbiamo una vera vera C vera X vera.
+
+04:35.550 --> 04:36.270
+Eccezionale.
+
+04:36.300 --> 04:38.080
+Quindi ora abbiamo questo lavoro.
+
+04:38.220 --> 04:47.960
+Facciamo il secondo passo e in realtà ho appena notato che questo è il modo in cui ora sta
+
+04:48.020 --> 04:52.640
+controllando I che è 0 1 2 3.
+
+04:52.640 --> 04:56.260
+Ma invece vogliamo controllare a b c a X ..
+
+04:56.300 --> 05:05.930
+Quindi invece di I qui dovrebbe essere array 1 rack e notazione I.
+
+05:06.410 --> 05:13.490
+Quindi questo è un b c x ha la proprietà della mappa.
+
+05:13.680 --> 05:16.340
+Un sacco di parentesi qui, ma spero che abbia senso.
+
+05:16.350 --> 05:18.920
+Quindi se corro questo dovremmo comunque ottenere la stessa risposta.
+
+05:18.930 --> 05:20.060
+Perfezionare.
+
+05:20.070 --> 05:22.270
+Ora diamo un'occhiata alla seconda parte qui.
+
+05:22.290 --> 05:28.440
+Desideri eseguire il loop del secondo array e controllare se l'elemento nel secondo array
+
+05:28.620 --> 05:30.140
+esiste sull'oggetto creato.
+
+05:30.150 --> 05:31.700
+Questo dovrebbe essere abbastanza semplice.
+
+05:31.890 --> 05:35.420
+Tutto ciò che dobbiamo fare e rimuovere la mappa di dialogo della console qui.
+
+05:36.620 --> 05:39.660
+Tutto quello che dobbiamo fare è passare in rassegna il secondo array.
+
+05:42.790 --> 05:46.710
+Sia J uguale a zero.
+
+05:47.570 --> 05:51.910
+J dovrebbe essere inferiore a una lunghezza di due punti.
+
+05:53.060 --> 05:55.320
+E poi incrementeremo J.
+
+05:56.980 --> 06:02.030
+E tutto quello che diremo è se MAP cosa vogliamo controllare.
+
+06:02.080 --> 06:11.200
+Cosa vogliamo controllare se contiene il primo elemento nel secondo array che è Z come parte delle sue proprietà.
+
+06:11.230 --> 06:16.030
+Ricorda che il nostro oggetto mappa contiene queste proprietà.
+
+06:16.120 --> 06:22.290
+Quindi tutto ciò che diremo è che controlleremo l'array.
+
+06:22.780 --> 06:25.240
+E stiamo andando a controllare l'indice J.
+
+06:25.330 --> 06:29.460
+Quindi il primo indice 0 su 80 sarà facile.
+
+06:29.470 --> 06:31.330
+Allora perché allora a.
+
+06:31.450 --> 06:37.930
+E se è vero se contiene queste cose perché ricorda quando valuteremo che
+
+06:37.930 --> 06:40.450
+restituirà true se esiste.
+
+06:40.540 --> 06:43.900
+Se ora diventeremo indefiniti.
+
+06:44.050 --> 06:48.350
+Stiamo per dire che il ritorno è vero altrimenti.
+
+06:48.550 --> 06:53.530
+Alla fine possiamo solo dire return false.
+
+06:53.710 --> 06:57.340
+Vediamo se questo funziona davvero Vonta basta cliccare
+
+07:00.820 --> 07:03.480
+su e passare attraverso OK.
+
+07:03.690 --> 07:13.570
+Quindi vedo che in una partita cosa succede se cambio questo a qualcosa che non esiste come il nostro lago Ron.
+
+07:13.740 --> 07:15.450
+Divento falso
+
+07:15.590 --> 07:30.300
+Cosa succede se cambio questo per vedere che ottengo la verità se ottengo questo a X, divento vero se cambio questo in W. Ottengo il falso fantastico.
+
+07:30.330 --> 07:41.200
+Quindi abbiamo appena programmato qualcosa di nuovo una nuova funzione che se guardiamo rende le cose forse migliori.
+
+07:41.220 --> 07:41.820
+Destra.
+
+07:42.030 --> 07:52.290
+Perché abbiamo due quattro loop uno dopo l'altro, che è sempre un plus b rispetto a prima dove avevamo nidificato
+
+07:52.350 --> 07:53.910
+per quegli switch.
+
+07:53.960 --> 08:00.870
+A questo punto possiamo dire all'intervistatore se gli array sono sostanzialmente grandi e possiamo
+
+08:00.870 --> 08:07.410
+ottenere array molto grandi, quindi questa soluzione quando si tratta di complessità temporale è
+
+08:11.250 --> 08:12.150
+migliore.
+
+08:12.600 --> 08:13.510
+Quant'è fico.
+
+08:14.370 --> 08:19.040
+Ora passiamo ai prossimi passi perché non abbiamo ancora finito.
+
+08:20.540 --> 08:22.970
+Facciamolo un po 'più grande.
+
+08:22.970 --> 08:26.970
+Il numero 11 pensa agli assegni aerei e al modo in cui puoi rompere questo codice.
+
+08:27.170 --> 08:30.350
+Mai fare ipotesi sull'input.
+
+08:30.350 --> 08:35.120
+Supponiamo che le persone stiano cercando di infrangere il tuo codice e che Darth Vader stia usando la tua funzione.
+
+08:35.120 --> 08:39.260
+Come lo salvaguarderai, controlla sempre i falsi input.
+
+08:39.270 --> 08:46.570
+Non vogliono ma in sostanza ora guardo questo codice e dico Come posso spezzarlo.
+
+08:46.580 --> 08:52.270
+Bene, pensiamo a questo.
+
+08:52.340 --> 08:58.510
+Se passo questo codice, diciamo cosa devo fare se sono Asier e corro.
+
+08:58.610 --> 09:00.380
+Funziona ancora OK.
+
+09:00.500 --> 09:03.070
+Cosa succede se ho un
+
+09:03.120 --> 09:05.270
+E qui cosa succede.
+
+09:05.480 --> 09:07.730
+Bene, vedo che ottengo il vero, va bene.
+
+09:08.240 --> 09:14.290
+Ma cosa succede se ho un numero qui invece di una stringa.
+
+09:14.300 --> 09:20.040
+Assumiamo che gli array che contengono stringhe diventino falsi.
+
+09:20.040 --> 09:22.360
+Ok cosa succede se ne faccio uno qui.
+
+09:24.150 --> 09:26.600
+Passerò attraverso OK in modo che funzioni.
+
+09:26.600 --> 09:29.060
+Cosa succede se faccio un array
+
+09:31.970 --> 09:36.230
+vuoto qui ottengo falso ma se faccio un altro array qui OK
+
+09:41.430 --> 09:47.540
+ottengo vero cosa succede se lo so qui e javascript che è un po 'ingannevole OK ottengo false.
+
+09:47.550 --> 09:55.980
+Che cosa succede se lo so diventa vero OK, che funziona gratis tornare a quello che avevamo prima.
+
+09:56.250 --> 10:01.060
+Vogliamo ora dire all'intervistatore come potremmo essere in grado di rompere questo codice.
+
+10:01.200 --> 10:04.660
+Ad esempio, cosa succede se non riceviamo un tasso.
+
+10:04.770 --> 10:08.790
+Cosa succede se questa funzione viene chiamata con un solo array.
+
+10:08.970 --> 10:09.640
+Che succede.
+
+10:09.750 --> 10:16.620
+Oh, ci arriviamo e vogliamo iniziare a pensare a come potrebbero sorgere gli errori.
+
+10:16.710 --> 10:19.970
+Vogliamo rendere queste funzioni il più prive di errori possibile.
+
+10:20.160 --> 10:25.740
+E durante un'intro di solito non avremo il tempo di fare tutti i controlli che
+
+10:25.740 --> 10:31.380
+vuoi ma potresti voler dire all'intervistatore che una possibile soluzione è un modo per aggirare questo problema.
+
+10:31.560 --> 10:32.380
+Ad esempio.
+
+10:32.580 --> 10:45.160
+Possiamo assumere sempre due parametri nella funzione è cosa succede se nel secondo parametro I I-PASS
+
+10:45.320 --> 10:47.620
+0 OK.
+
+10:47.640 --> 10:48.950
+Continuo a diventare falso
+
+10:48.950 --> 10:50.360
+Cosa succede se passo.
+
+10:50.850 --> 10:57.180
+No, ricevo un errore che dice che non posso leggere lenth di no.
+
+10:57.580 --> 11:03.850
+Quindi vuoi iniziare a pensare e magari a discutere con l'intervistatore come potresti rompere
+
+11:03.850 --> 11:10.720
+questa funzione e come potresti migliorarla, come fare controlli come le dichiarazioni per assicurarti che gli
+
+11:10.780 --> 11:15.020
+input che stai ricevendo siano ciò che ti aspetti.
+
+11:15.030 --> 11:20.020
+Ora questo è quando i test entrano e testare il tuo codice arriva durante la maggior parte delle interviste.
+
+11:20.020 --> 11:25.110
+Questo di solito va oltre lo scopo dell'intervista ed è tempo limitato per poterlo fare.
+
+11:25.210 --> 11:28.880
+Ma è bello dire all'intervistatore cosa faresti.
+
+11:28.930 --> 11:31.360
+Questa è una di quelle cose che è abbastanza semplice.
+
+11:31.360 --> 11:33.290
+Possono solo dire all'intervistatore.
+
+11:33.400 --> 11:39.020
+Questo è il motivo per cui dovresti farlo contro la codifica e in sostanza ti daranno il massimo dei voti.
+
+11:41.140 --> 11:42.210
+Diamo un'occhiata al prossimo passo.
+
+11:43.330 --> 11:46.370
+Non usare nomi confusionari come me e j.
+
+11:46.430 --> 11:48.880
+Vai a scrivere codice che legge bene.
+
+11:48.940 --> 11:53.480
+Ora quando guardo questa funzione va bene.
+
+11:53.920 --> 12:01.510
+Ora dico di non usare variabili come i e j e anche se non sto usando i e j.
+
+12:01.510 --> 12:03.070
+Esattamente qui.
+
+12:03.070 --> 12:11.080
+Questo è usato per i loop e per i loop usando I hear is OK perché
+
+12:11.080 --> 12:19.660
+è un po 'uno standard specialmente in javascript e questi sono solo degli indici ma forse se
+
+12:19.780 --> 12:29.890
+questi parametri avevano significati come forse questo era l'array dell'utente e questo era la matrice degli oggetti che li nomina come
+
+12:29.890 --> 12:34.150
+variabili o parametri più utili potrebbe essere migliore.
+
+12:34.150 --> 12:42.330
+Forse questa variabile della mappa può essere chiamata tally o qualcosa di più significativo per il codice.
+
+12:42.330 --> 12:46.630
+Di nuovo questa è una di quelle cose che puoi parlare all'intervistatore e
+
+12:46.630 --> 12:51.240
+fargli sapere che stai pensando a queste cose e questo è molto molto importante.
+
+12:51.250 --> 12:56.380
+Di nuovo finché pensi a lui e stai dicendo all'intervistatore che stai considerando il lavandino
+
+12:56.380 --> 12:59.090
+che stai ottenendo il massimo dei voti.
+
+12:59.350 --> 13:00.640
+Continua così.
+
+13:00.640 --> 13:05.850
+Metti alla prova i tuoi controlli di codice per nessuna Paramo zero indefinita senza massicci array.
+
+13:05.920 --> 13:06.960
+Codice asincrono
+
+13:07.390 --> 13:08.640
+Così via.
+
+13:09.010 --> 13:13.510
+E in qualche modo lo copriamo nel passaggio precedente ma vuoi semplicemente verificare con un intervistatore
+
+13:13.510 --> 13:17.080
+che stiamo facendo alcune ipotesi qui, ma fagli sapere che stai pensando
+
+13:17.080 --> 13:21.460
+e stai pensando al fatto che questa funzione potrebbe non essere sempre gestito con una gara.
+
+13:21.460 --> 13:26.650
+Come possiamo testare questa funzione e come testerete questa funzione per assicurarvi che fornisca
+
+13:26.650 --> 13:30.430
+il risultato atteso che restituiamo sempre vero o falso.
+
+13:30.490 --> 13:35.350
+E qui puoi dire che testerai il tuo codice ed eseguirai alcuni test unitari.
+
+13:35.410 --> 13:38.630
+Finalmente anche se dico finalmente qui, c'è un altro punto.
+
+13:38.710 --> 13:42.920
+Ma alla fine parla all'intervistatore dove migliorerai il codice.
+
+13:43.090 --> 13:43.900
+Funziona.
+
+13:43.900 --> 13:45.760
+Ci sono approcci diversi.
+
+13:45.760 --> 13:47.140
+È leggibile
+
+13:47.140 --> 13:50.560
+Cosa faresti o cosa vorresti migliorare Google.
+
+13:50.620 --> 13:52.490
+Come può essere migliorata la performance.
+
+13:52.870 --> 13:58.030
+Bene guardando questo codice posso iniziare a dire all'intervistatore che va bene.
+
+13:58.180 --> 14:05.800
+Il lato negativo di questa soluzione è che solo i numeri e le stringhe e i booleani possono
+
+14:05.800 --> 14:12.550
+essere usati correttamente perché stiamo usando un oggetto specialmente in javascript e aggiungendo delle proprietà.
+
+14:13.790 --> 14:16.420
+A B C accanto a questo oggetto.
+
+14:16.580 --> 14:24.320
+Ora le proprietà degli oggetti, in particolare il modo in cui stiamo usando un oggetto javascript, Saray ora potrebbero non funzionare
+
+14:24.320 --> 14:26.520
+se utilizziamo valori non letterali.
+
+14:26.570 --> 14:33.830
+Forse non il punto di forza forse è un'espressione javascript e si potrebbe anche sostenere che
+
+14:33.860 --> 14:43.280
+questo codice potrebbe essere un po 'più leggibile ad esempio sebbene questo codice sia migliore in termini di complessità temporale quando si
+
+14:43.280 --> 14:44.720
+tratta di javascript.
+
+14:44.720 --> 14:48.560
+In realtà c'è un modo più semplice e più leggibile per farlo.
+
+14:48.590 --> 14:52.820
+Lascia che ti mostri questo è qualcosa che è specifico per la lingua.
+
+14:52.820 --> 14:58.580
+Ciò significa che, in base a quanto sai della lingua con cui stai lavorando, potresti essere in grado
+
+14:58.580 --> 15:02.930
+di utilizzare metodi per semplificare questo processo in modo da poterlo dire all'intervistatore.
+
+15:03.030 --> 15:10.250
+Vorrei che i metodi specifici di Google dicessero una gara per vedere se posso semplicemente ripulire il codice e
+
+15:10.250 --> 15:11.140
+renderlo leggibile.
+
+15:11.240 --> 15:14.920
+Per esempio posso fare esattamente questa stessa funzione.
+
+15:18.340 --> 15:20.650
+E lo chiameremo contiene l'elemento comune 3.
+
+15:20.890 --> 15:29.970
+Questo richiede un array di array 1 e, in una riga, posso solo
+
+15:33.030 --> 15:38.020
+restituire l'array uno con una funzione nuova.
+
+15:38.640 --> 15:45.990
+Penso che il sesso con javascript e posso dire elemento utilizzando le funzioni di
+
+15:45.990 --> 15:56.850
+errore che vengono con il sei e posso dire loop through array to dot include e controllare se include l'elemento guarda quell'elemento.
+
+15:59.160 --> 16:00.990
+Ora, cosa facciamo qui?
+
+16:02.450 --> 16:09.080
+Bene, stiamo usando alcuni metodi javascript incorporati per fare essenzialmente ciò che abbiamo fatto
+
+16:09.080 --> 16:17.360
+sopra il quale è controllare il primo array iterare attraverso ogni elemento dell'array e se alcuni di
+
+16:17.360 --> 16:22.190
+essi includono gli elementi nel nostro array per restituire
+
+16:25.660 --> 16:31.960
+solo vero o falso se in realtà lo controlliamo con il nostro array.
+
+16:32.210 --> 16:37.960
+E io gestisco questo e commentiamo il primo.
+
+16:38.110 --> 16:46.490
+Se premo play qui devo assicurarmi che questo includa non includo I get false perché il nostro array non
+
+16:47.300 --> 16:48.360
+ha corrispondenze.
+
+16:48.380 --> 16:54.000
+Se ha una corrispondenza di nomi, posso vederlo.
+
+16:54.030 --> 16:57.910
+Creo solo una bella piccola funzione usando javascript qui.
+
+16:57.920 --> 16:58.880
+Quant'è fico.
+
+16:58.880 --> 17:02.760
+Questo è ciò di cui parliamo quando diciamo che esistono diverse soluzioni a un problema.
+
+17:03.200 --> 17:08.590
+Ora abbiamo un modo per misurare diverse soluzioni a un problema.
+
+17:09.580 --> 17:14.620
+Possiamo dire che in realtà esiste un'altra soluzione che utilizza alcuni dei metodi integrati
+
+17:14.620 --> 17:18.790
+forniti con javascript, che alcuni potrebbero dire più leggibili e concisi.
+
+17:18.820 --> 17:26.260
+Se stai lavorando su una squadra che conosce davvero il loro javascript, questo è molto più facile da leggere di questo.
+
+17:26.260 --> 17:26.890
+Destra.
+
+17:27.040 --> 17:29.700
+Quindi forse la leggibilità è più importante.
+
+17:31.000 --> 17:33.300
+Potresti dire che questa è una soluzione migliore.
+
+17:34.190 --> 17:38.660
+Un'altra cosa che potresti aver notato è che abbiamo parlato della complessità del tempo qui.
+
+17:40.450 --> 17:45.820
+E non abbiamo davvero parlato della complessità dello spazio e questo è un punto finale.
+
+17:45.940 --> 17:50.780
+Se l'intervistatore è soddisfatto della soluzione, l'intervistatore di solito risponde qui.
+
+17:50.830 --> 17:56.390
+È anche comune, tuttavia, che l'intervistatore ti chieda di estendere una domanda come Come
+
+17:56.390 --> 18:03.420
+gestiresti un problema se l'intero input fosse troppo grande per essere inserito nella memoria Bene se parliamo di complessità
+
+18:03.420 --> 18:07.860
+spaziale qui possiamo vedere che nella prima soluzione che avevamo .
+
+18:07.860 --> 18:10.670
+Lasciatemi commentare questo.
+
+18:10.770 --> 18:17.550
+Abbiamo una complessità spaziale di uno perché non stiamo
+
+18:21.950 --> 18:24.400
+creando nuove variabili.
+
+18:24.410 --> 18:26.830
+Stiamo solo usando gli array di input.
+
+18:28.170 --> 18:32.730
+Tecnicamente, la complessità dello spazio aggiuntivo per la nostra funzione è uno.
+
+18:32.820 --> 18:34.210
+È costante
+
+18:34.230 --> 18:43.830
+Ma se scorriamo fino a questo pozzetto stiamo creando un nuovo oggetto qui e stiamo aggiungendo il primo array in
+
+18:45.280 --> 18:48.240
+un oggetto che occupa memoria.
+
+18:48.490 --> 18:58.050
+Quindi questa soluzione ha effettivamente la complessità spaziale di OK, che è la complessità dello spazio di primo raggio.
+
+18:58.240 --> 19:02.990
+Quindi, se un intervistatore dice che la memoria o la memoria sono limitati è costoso.
+
+19:03.010 --> 19:04.860
+Puoi dirglielo o basta.
+
+19:04.870 --> 19:13.090
+Anche se questa soluzione, sebbene più veloce in termini di complessità temporale, è più felice in termini di complessità della velocità, questo
+
+19:15.810 --> 19:21.630
+punto che abbiamo dimenticato di menzionare è qualcosa che è davvero buono da menzionare durante
+
+19:21.630 --> 19:24.810
+l'intervista per modulare il codice fin dall'inizio.
+
+19:24.810 --> 19:29.930
+Rompi il tuo codice in bellissimi pezzi piccoli e aggiungi solo commenti, se necessario.
+
+19:30.360 --> 19:31.340
+Cosa significa.
+
+19:31.650 --> 19:37.270
+Bene, abbiamo la soluzione qui su cui abbiamo lavorato e ci siamo impegnati a farlo.
+
+19:37.290 --> 19:43.920
+Abbiamo modularizzato dicendo che questo primo blocco di codice farà qualcosa, quindi questo blocco di
+
+19:43.950 --> 19:45.320
+codice farà qualcos'altro.
+
+19:45.420 --> 19:52.440
+Ma via via che il codice diventa sempre più complesso diventa sempre più importante scrivere in
+
+19:52.440 --> 20:01.470
+modo modulare che sono piccoli pezzi che leggono come l'inglese che vedi molto difficile da leggere codice costa alle aziende un
+
+20:01.530 --> 20:07.400
+sacco di soldi perché non si tratta solo di lavorare su un codebase.
+
+20:07.470 --> 20:14.950
+Probabilmente sono decine o centinaia se non migliaia di sviluppatori e ingegneri, quindi le aziende
+
+20:14.950 --> 20:22.720
+vogliono assumere qualcuno che sia in grado di scrivere un codice pulito che sia facilmente leggibile
+
+20:22.960 --> 20:24.050
+da chiunque.
+
+20:24.190 --> 20:31.750
+Per esempio qui, ciò che potremmo voler fare è in realtà separare
+
+20:31.750 --> 20:44.980
+queste funzioni in funzioni diverse, magari creando qui una funzione che forse dice array di mappe per oggetti che riceve nel primo Saray ITA
+
+20:46.450 --> 20:56.460
+e quindi forse qui una nuova funzione per il mondo esterno che dice confronta la matrice con l'oggetto.
+
+20:56.470 --> 21:01.870
+Ora non devi farlo durante un'intervista, ma è bene menzionarlo e parlare
+
+21:01.870 --> 21:04.640
+dell'idea di modularizzare nel tuo codice.
+
+21:04.750 --> 21:09.730
+Se una funzione sta facendo troppe cose che non è l'ideale.
+
+21:09.730 --> 21:15.010
+Quando diciamo modulari, vogliamo costruire SMALLPEICE, il codice che fa una cosa e una
+
+21:15.430 --> 21:24.190
+cosa davvero bene, idealmente una funzione prende un input e restituisce un output e all'interno di quel blocco fa solo una cosa se
+
+21:24.570 --> 21:26.580
+deve fare qualche azione extra.
+
+21:26.670 --> 21:35.700
+Beh, forse hai una funzione che vive nel mondo esterno e questa funzione fa anche una cosa molto bene
+
+21:35.700 --> 21:41.140
+e questo crea un codice pulito davvero testabile e modulare.
+
+21:41.310 --> 21:46.550
+Di nuovo qualcosa che è davvero bello menzionare e parlare nella tua intervista.
+
+21:46.740 --> 21:47.630
+Tutto ok.
+
+21:47.820 --> 21:54.840
+So che questo è molto ed è molto da pensare perché inizi a pensare che dovrò preoccuparmi
+
+21:55.140 --> 21:59.820
+di ogni codice che è giusto e analizzarlo così profondamente.
+
+21:59.850 --> 22:00.410
+No.
+
+22:00.450 --> 22:02.660
+Nella tua vita quotidiana non lo farai.
+
+22:02.790 --> 22:08.130
+Ma volevo dimostrarti che questo è il tipo di processo di pensiero che
+
+22:08.130 --> 22:11.510
+gli sviluppatori hanno davvero e quali società intervistano.
+
+22:11.730 --> 22:17.910
+Se sei in grado di pensare chiaramente attraverso questi passaggi come ho delineato per te e sei
+
+22:17.910 --> 22:25.080
+in grado di risolvere i problemi in questo modo, vedi quanto è più impressionante se ho appena annotato questa soluzione
+
+22:25.500 --> 22:27.010
+senza alcuna spiegazione.
+
+22:27.770 --> 22:34.580
+Anche se non arrivi a questa parte e il tempo scade durante l'intervista, hai dimostrato
+
+22:34.580 --> 22:41.460
+all'intervistatore che sei in grado di pensare chiaramente che hai le basi per pensare come un ingegnere.
+
+22:41.780 --> 22:49.030
+E queste sono le grandi qualità che le aziende amano assumere e le abilità che sono molto rare.
+
+22:49.040 --> 22:50.790
+Spero ti sia divertito con questo esercizio.
+
+22:50.960 --> 22:54.540
+Potrebbe essere necessario tornare a questi video in seguito.
+
+22:54.800 --> 22:58.160
+Ma per ora vedrò nel prossimo Buh-Bye.

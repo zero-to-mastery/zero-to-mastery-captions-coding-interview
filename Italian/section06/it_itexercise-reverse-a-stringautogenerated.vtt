@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.710 --> 00:01.750
+Torneremo.
+
+00:01.780 --> 00:04.690
+Entriamo in alcune domande divertenti di intervista.
+
+00:04.690 --> 00:10.570
+Cominceremo con uno molto comune e non dovrebbe essere troppo complicato
+
+00:10.570 --> 00:11.860
+per iniziare.
+
+00:11.890 --> 00:18.780
+L'intervistatore ti chiede di creare una funzione che inverta una stringa.
+
+00:19.200 --> 00:23.040
+Quindi se sei passato a questa funzione proprio qui.
+
+00:23.280 --> 00:25.560
+Ciao, mi chiamo Andre.
+
+00:25.830 --> 00:30.030
+Dovrebbe restituire questo jibberish che è.
+
+00:30.260 --> 00:36.670
+Oh e ho dimenticato e qui è jibberish.
+
+00:36.700 --> 00:39.520
+Questo è tutto all'indietro.
+
+00:39.700 --> 00:43.000
+È semplicemente invertendo una stringa.
+
+00:43.000 --> 00:51.280
+Ora voglio andare avanti e provare questo nel tuo ID pensiero REPL o qualsiasi editor di testo che usi e vedere se
+
+00:51.280 --> 00:53.620
+riesce a pensare al problema.
+
+00:54.420 --> 00:59.750
+Usa quello che sai sugli array per risolvere questo problema.
+
+00:59.760 --> 01:05.570
+Ora tieni a mente quando si tratta di domande come questa ci sono molti modi per fare le cose.
+
+01:05.730 --> 01:12.630
+Come programmatori conosciamo questo tasso, ci sono tanti modi per risolvere un problema e, a seconda del nostro
+
+01:12.720 --> 01:17.030
+stile, della nostra conoscenza e del nostro tempo, avremo soluzioni diverse.
+
+01:17.040 --> 01:22.660
+Quindi se la tua risposta è diversa dalla mia, quella non è la cosa peggiore.
+
+01:22.990 --> 01:28.150
+Vuoi essere in grado di fare è pensare a un problema e capire perché hai preso quelle decisioni.
+
+01:28.170 --> 01:33.180
+Quindi vai avanti invertire una stringa e ti vedrò nel video della soluzione.

@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.130 --> 00:06.960
+Adâncimea de căutare în primul rând pe ca o căutare prima respirație este un pic diferit.
+
+00:08.010 --> 00:16.440
+Căutarea urmărește o ramură a copacului cu cât mai multe niveluri posibil până când anunțul țintă nu se găsește
+
+00:16.770 --> 00:18.620
+sau se termină.
+
+00:19.580 --> 00:21.970
+Când căutarea poate continua mai departe.
+
+00:21.970 --> 00:27.700
+Continuă la cel mai apropiat strămoș cu un copil neexplorat.
+
+00:27.950 --> 00:29.040
+Lasa-ma sa-ti arat.
+
+00:29.150 --> 00:30.900
+Începem cu nouă.
+
+00:31.010 --> 00:32.900
+Apoi mergem la șase.
+
+00:33.200 --> 00:36.560
+Apoi mergem la una și am ajuns la un nod de frunze.
+
+00:36.600 --> 00:37.900
+Nu mai sunt copii.
+
+00:38.030 --> 00:44.870
+Așa că ne-am întors până la 6 la strămoșul nostru și apoi am văzut dacă mai sunt copii neexplicați, în acest caz nu
+
+00:44.870 --> 00:46.100
+am mers la patru.
+
+00:46.160 --> 00:48.120
+Deci, să revenim la patru.
+
+00:48.530 --> 00:53.840
+Și acum ne ducem pentru că nu mai avem copii până la 9 și
+
+00:53.840 --> 01:01.500
+spunem bine, haideți să mergem acolo, acum mergem la 12, apoi la 34 și apoi revenim și apoi căutăm 45 de asemenea.
+
+01:03.500 --> 01:11.180
+Acum, prima căutare de adâncime are o cerință de memorie mai mică, apoi lărgește prima căutare, deoarece nu este necesar să
+
+01:11.180 --> 01:14.280
+stocați toate indicii pentru copii la fiecare nivel.
+
+01:14.510 --> 01:20.980
+Ceea ce vom vedea atunci când am codificat ideea cu prima căutare este că vrem să mergem cât
+
+01:20.980 --> 01:23.020
+mai adânc posibil într-un grafic.
+
+01:23.440 --> 01:30.250
+De obicei pornind de la partea stângă și apoi începem să mergem spre dreapta până când traversarea
+
+01:30.250 --> 01:33.410
+copacului se face așa cum sugerează numele.
+
+01:33.420 --> 01:35.410
+Adânc în primul rând, care este adânc.
+
+01:35.410 --> 01:41.070
+Primul verset spune că căutarea respirației caută ceva asemănător.
+
+01:41.080 --> 01:46.960
+Încă o dată, mergem în jos până ajungem până la capăt până jos.
+
+01:46.990 --> 01:51.480
+Întoarce-te până la capăt, după cum poți vedea mai întâi adânc.
+
+01:51.520 --> 01:57.080
+Apoi continuați să mergeți la dreapta și îmi place să mă gândesc la moarte.
+
+01:57.150 --> 02:04.200
+Prima căutare a fost să mergem printr-un labirint, chiar dacă mergem cât de departe putem și atunci când ajungem într-un punct
+
+02:04.200 --> 02:10.170
+mort, vă întoarceți înapoi și mergeți la punctul următor în care puteți face o stânga pentru un
+
+02:10.500 --> 02:14.750
+scriitor până când ajungeți la sfârșitul labirintului sau labirintul se termină.
+
+02:14.820 --> 02:23.470
+Deci, dacă ne întoarcem la codul nostru și ne uităm la prima căutare de respirație, am făcut aici prima căutare BRAF.
+
+02:23.520 --> 02:25.620
+Cum rămâne cu prima căutare în adâncime.
+
+02:25.620 --> 02:26.610
+Cum ar arăta asta.
+
+02:28.380 --> 02:34.920
+Ei bine, din ceea ce știm și Hint indică că vor fi diferite variante ale căutării
+
+02:34.920 --> 02:35.610
+deafer.
+
+02:35.610 --> 02:44.840
+Dar, din ceea ce știm, vom începe cu nouă, apoi cu patru, apoi vom reveni până la patru și
+
+02:44.900 --> 02:53.760
+apoi vom găsi șase du-te înapoi până găsiți 20 mergeți la stânga 15 și mergeți la dreapta 70.
+
+02:54.230 --> 02:59.620
+Deci lista noastră este puțin diferită de suflare pentru căutare.
+
+02:59.840 --> 03:06.850
+Avem ordine diferite, dar de ce avem aceste două căi de a explora un copac sau un grafic.
+
+03:06.920 --> 03:08.660
+Care sunt argumentele pro și contra.
+
+03:08.810 --> 03:15.270
+Și până acum am vorbit, dar nu ați putea înțelege de ce unul este mai bun decât celălalt.
+
+03:16.070 --> 03:20.500
+Și înainte de a le pune în aplicare în cod, vreau să trec peste avantajele și dezavantajele fiecăruia.
+
+03:20.510 --> 03:21.990
+Deci, să facem asta în următorul videoclip.

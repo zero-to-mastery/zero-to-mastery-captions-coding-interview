@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.420 --> 00:01.220
+Welcome back.
+
+00:01.470 --> 00:04.250
+Let's talk about space complexity.
+
+00:04.260 --> 00:14.260
+What if I have a function that has the name of boo and all it does is it takes an input.
+
+00:14.600 --> 00:23.880
+And within this input it's going to simply have a loop that we've seen before.
+
+00:25.600 --> 00:38.630
+And this loop let's make sure that we do this properly and say that and that blank and we'll say I plus
+
+00:38.630 --> 00:49.950
+plus and this function is a really useless function that just simply logs out Konsole the log to its
+
+00:50.100 --> 00:51.900
+function.
+
+00:51.910 --> 00:55.120
+So now in here if we just run the function
+
+00:57.770 --> 01:12.700
+and just give it an input of let's say 1 2 3 4 5 and run it well we have BHU running five times and
+
+01:12.700 --> 01:19.100
+we know that the space complexity of this function or time complexity of this function is a when.
+
+01:19.330 --> 01:24.700
+But when it comes to space complexity let's think about this.
+
+01:24.870 --> 01:27.360
+What is the space complexity of this.
+
+01:27.420 --> 01:30.330
+Now try to guess before I go into the topic.
+
+01:35.410 --> 01:43.480
+The one gotcha when it comes to space complexity is that when we talk about space complexity we're talking
+
+01:43.480 --> 01:49.590
+about additional space so we don't include space taken up by the inputs.
+
+01:49.720 --> 01:54.930
+So we don't really care how big the input is.
+
+01:54.970 --> 01:56.340
+I mean we do care.
+
+01:56.350 --> 02:02.980
+But when it comes to this function we don't really have a control over what sort of input it receives.
+
+02:02.980 --> 02:06.700
+We only have control of what happens inside of this function.
+
+02:06.730 --> 02:16.060
+So within this function are we adding any space Well not really the only thing we're really doing is
+
+02:16.120 --> 02:24.030
+we're creating this let i equals zero variable and that's it.
+
+02:24.080 --> 02:27.180
+Other than that we're not really adding any more memory.
+
+02:27.470 --> 02:37.540
+So this function has a space complexity of 0 1 nice and simple but what do if we have a different function
+
+02:38.030 --> 02:40.510
+what if we have something like this.
+
+02:42.280 --> 02:49.360
+This time will have a function that says array of going to give it another terrible name.
+
+02:49.480 --> 02:52.170
+High end times.
+
+02:52.690 --> 02:53.640
+That's a terrible name.
+
+02:53.650 --> 03:01.150
+But let's say that this function takes again an input and within here we're going to create a new variable.
+
+03:01.180 --> 03:06.850
+We're going to say let Hi array is going to equal an empty array.
+
+03:07.890 --> 03:10.700
+And we think here we're going to have a loop.
+
+03:10.740 --> 03:19.510
+I'm just going to copy this for now on I have to bore you with my typing and in here I'm going to simply
+
+03:19.900 --> 03:25.710
+say hi array in the index.
+
+03:25.740 --> 03:33.290
+So as we're looping we're going to fill it up with high and we're going to return this array.
+
+03:33.300 --> 03:33.810
+Hi
+
+03:37.150 --> 03:39.170
+Ira.
+
+03:39.890 --> 03:42.630
+All we're doing is we're creating a new array.
+
+03:43.160 --> 03:52.320
+And for the number of items in our input we're going to just fill up high array with repeatedly.
+
+03:52.340 --> 03:52.670
+Hi.
+
+03:52.680 --> 03:53.320
+Hi hi.
+
+03:53.320 --> 03:54.840
+Hi string.
+
+03:54.950 --> 04:04.340
+So if I do this again and I say array of high end times and I give it let's say we'll give it and you
+
+04:04.340 --> 04:04.640
+know what.
+
+04:04.670 --> 04:07.800
+Instead of lenth let's just leave it as a number.
+
+04:07.800 --> 04:14.290
+So I'm going to say and and I'll say six times.
+
+04:14.370 --> 04:21.760
+So if I run this code we see that even though we have the boo boo boo over here from the beginning the
+
+04:22.390 --> 04:32.830
+other function array of high end times returns us a new array with six items and each item just simply
+
+04:32.830 --> 04:39.100
+says Hi what is the space complexity of this.
+
+04:39.170 --> 04:40.240
+This should give you a hint.
+
+04:40.250 --> 04:47.540
+Remember our Chichi variable's data structures function calls allocation.
+
+04:47.600 --> 04:57.560
+Those things take space and in our case we created variables in our loop variable i.e. equals zero.
+
+04:57.560 --> 05:00.190
+But we've also created data structures right.
+
+05:00.200 --> 05:02.250
+We created a new array.
+
+05:02.270 --> 05:12.920
+So now if we go back we see that in here we've created a new array and we fill this array with an loop's.
+
+05:13.110 --> 05:18.670
+And again because of our rules when it comes to begob we ignore the constant time.
+
+05:18.670 --> 05:21.120
+Let equals zero space.
+
+05:21.120 --> 05:31.350
+And instead this becomes so event because we're creating a new data structure and adding memory so each
+
+05:31.350 --> 05:38.490
+item is an additional memory space on our computers and times.
+
+05:38.690 --> 05:39.950
+And you know what.
+
+05:40.160 --> 05:43.910
+That's pretty much it when it comes to space complexity.
+
+05:43.910 --> 05:49.190
+I think you're getting the idea and we'll get a little bit more into when we talk about recursion but
+
+05:49.580 --> 05:56.180
+when it comes to space complexity you're either adding additional memory that you need to use and that's
+
+05:56.360 --> 05:58.380
+sometimes a big concern.
+
+05:58.670 --> 06:04.700
+And sometimes there isn't and something that comes up a lot in interviews and something that we'll talk
+
+06:04.700 --> 06:11.510
+about in the next section that is sometimes there's a tradeoff between saving time and saving space.
+
+06:11.780 --> 06:15.990
+So you have to decide which one you're optimizing for.
+
+06:16.340 --> 06:20.560
+Let's get into some fun examples based on what we've just learned in the next video.
+
+06:21.590 --> 06:23.500
+See on that one.

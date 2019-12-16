@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.560 --> 00:05.780
+Welcome back were you able to implement Prebend.
+
+00:06.080 --> 00:08.500
+Let's have a look at what the code should look like.
+
+00:09.270 --> 00:17.620
+The very first thing we do just like we did with a pen is to create the note that we're going to add.
+
+00:17.910 --> 00:23.460
+So I'm going to say new node value and next.
+
+00:23.490 --> 00:30.690
+Now next year I'm going to leave as no and I'll show you why in the next video that is the case and
+
+00:30.690 --> 00:33.930
+we don't just have next equals to this.
+
+00:33.930 --> 00:44.400
+Dodd had to reference the very first item in our list which is 10 but for now just trust me that this
+
+00:45.060 --> 00:47.490
+we want to leave us no because we can do that later.
+
+00:47.490 --> 00:52.000
+Right now we're just creating an empty node with the value.
+
+00:52.270 --> 01:04.750
+Next we want to say that our new node dot next which is this value over here is going to equal this
+
+01:04.960 --> 01:07.590
+Dot had.
+
+01:07.910 --> 01:14.040
+So we've just created a pointer saying that the new no do we just created is going to point to this
+
+01:14.310 --> 01:19.360
+god head the very first item in our list.
+
+01:19.360 --> 01:19.640
+OK.
+
+01:19.660 --> 01:20.950
+That shouldn't make sense.
+
+01:21.310 --> 01:25.780
+And then obviously just like we did with append we want to update the reference.
+
+01:25.780 --> 01:31.300
+Now to say that this Dodd head is no longer equal to this all value.
+
+01:31.300 --> 01:35.900
+It's now the new node.
+
+01:35.970 --> 01:43.890
+And then finally we want to add this lenth and make sure we increase the length of our list.
+
+01:43.920 --> 01:57.150
+Finally if we return this our linked list we can say run and look at that we've prepended one to the
+
+01:57.150 --> 01:59.050
+very first item.
+
+01:59.970 --> 02:10.080
+On the list the head and that is now referencing 10 and the tail of our list is now 16.
+
+02:11.150 --> 02:13.900
+That wasn't too bad it was it in the next video.
+
+02:13.910 --> 02:18.220
+I want to talk about quickly about this new Noad code.
+
+02:18.320 --> 02:24.820
+We're repeating both in append and pre-picked and what we might want to do with it.
+
+02:24.860 --> 02:25.540
+I'll see that one.

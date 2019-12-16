@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.210 --> 00:02.510
+Sfânt moly.
+
+00:02.520 --> 00:04.340
+O altă secțiune făcută.
+
+00:04.390 --> 00:11.410
+Și ne apropiem de final în această secțiune am învățat despre căutarea și traversarea unora
+
+00:11.410 --> 00:19.690
+dintre algoritmii cei mai populați și importanți pe care i-am învățat despre căutarea liniară și cum poate fi
+
+00:19.690 --> 00:25.490
+bun pentru unele cazuri, dar nu și pentru cei mai eficienți, timp.
+
+00:25.650 --> 00:34.350
+Și am vorbit de asemenea despre căutarea binară în care putem căuta lucruri în jurnalul unei escale esențialmente
+
+00:34.350 --> 00:41.270
+a multor noduri pe care ar trebui să le căutăm împărțind copacul la jumătate.
+
+00:41.280 --> 00:47.890
+Apoi am vorbit despre cum să traversăm un copac și un grafic care trebuie să viziteze fiecare notă.
+
+00:48.540 --> 00:55.020
+Și cel mai eficient mod posibil am vorbit despre o primă căutare de adâncime care merge cât mai
+
+00:55.020 --> 01:04.440
+adânc posibil într-un copac sau un grafic și o respirație pentru o căutare care merge la nivel de căutare sau traversare a unui copac sau a
+
+01:04.440 --> 01:04.900
+unui
+
+01:08.000 --> 01:14.780
+grafic și dacă o realizăm sau nu ați completat o mulțime de hartă a minții care părea atât
+
+01:15.290 --> 01:18.950
+de intimidantă la începutul cursului pe care îl vedeți.
+
+01:18.980 --> 01:29.100
+Acum, când ne uităm la o cursă, de exemplu, înțelegem că atunci când array trebuie să căutăm printr-o matrice,
+
+01:29.100 --> 01:35.900
+putem pune întrebarea hei este sortată, pentru că dacă este atunci da.
+
+01:36.000 --> 01:42.990
+În acest caz, ar trebui să împărțim și să cucerim și să aranjăm matricea într-un arbore ca structura
+
+01:42.990 --> 01:51.040
+de date, astfel încât să putem face căutare binară și să obținem o creștere a vitezei tuturor logurilor și este matricea nesortată.
+
+01:51.150 --> 02:00.420
+Ei bine, nu este de fapt mai eficient să sortați matrice, chiar dacă este nevoie de toate și să vă conectați după
+
+02:00.420 --> 02:09.310
+cum știm aici și apoi faceți o căutare binară după ce am sortat și există multe programe care fac asta.
+
+02:10.170 --> 02:17.250
+Deși poate părea consumatoare de timp pentru a face sortare și apoi căutarea este de fapt mai rapidă decât poate
+
+02:17.250 --> 02:20.600
+face o căutare liniară de peste și peste.
+
+02:20.690 --> 02:27.870
+De asemenea, putem completa această parte a graficului în cazul în care ajungem la grafice și copaci.
+
+02:27.870 --> 02:34.500
+Când facem traversări care încearcă să viziteze un nod dintr-un arbore sau un grafic sau toate nodurile dintr-un
+
+02:34.500 --> 02:35.850
+copac peste grafic.
+
+02:35.930 --> 02:40.640
+Știm că va prelua și că trebuie să vizităm fiecare nod.
+
+02:40.660 --> 02:49.970
+Va fi un moment liniar, dar există modalități de a traversa acești copaci folosind prima căutare de primăvară și o căutare în
+
+02:49.970 --> 02:57.490
+profunzime și am aflat că prima căutare a respirației este minunată pentru cea mai scurtă cale.
+
+02:57.900 --> 03:05.350
+Algoritmii în timp ce prima căutare în profunzime este cu adevărat mare la rezolvarea problemelor de Maiz sau, probabil, găsirea unui
+
+03:05.350 --> 03:06.850
+nod chiar dacă există.
+
+03:07.890 --> 03:15.050
+Și moartea pentru o căutare ne permite să facem pentru a ordona postarea și sortarea preordonată.
+
+03:15.190 --> 03:23.400
+Și chiar ne-am codificat toate aceste lucruri și învățăm cum funcționează codul folosind recursion cu căutare în
+
+03:23.430 --> 03:24.040
+profunzime.
+
+03:24.190 --> 03:33.720
+Și, de asemenea, cu Brett prima căutare folosind atât iterative și recursive folosind o structură de date cheie.
+
+03:33.740 --> 03:40.760
+În cele din urmă, am învățat și ceva despre problemele cele mai scurte ale traseului, cum ar fi cea pe care Google
+
+03:40.760 --> 03:47.630
+Maps o vor folosi atunci când există așteptări între noduri într-un grafic în care putem folosi ceva ca Belman Ford sau
+
+03:47.660 --> 03:50.000
+algoritmul diasters pentru a rezolva o problemă.
+
+03:51.230 --> 03:52.380
+Felicitări.
+
+03:52.530 --> 04:03.340
+Aceasta este harta dvs. de minte și ați acoperit fiecare lucru pe această hartă, cu excepția unuia și acesta este
+
+04:03.340 --> 04:05.420
+acesta chiar aici.
+
+04:05.470 --> 04:07.080
+Programare dinamică.
+
+04:07.570 --> 04:14.610
+Este o scurtă secțiune pentru a completa harta noastră de ansamblu și a vă pregăti interviul.
+
+04:14.690 --> 04:16.490
+Vă voi vedea în secțiunea următoare.
+
+04:16.490 --> 04:17.270
+Felicitări.
+
+04:17.270 --> 04:18.300
+Ajungeți atât de departe.
+
+04:18.380 --> 04:19.460
+Ești aproape acolo.

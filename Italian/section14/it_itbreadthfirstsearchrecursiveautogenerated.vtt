@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.860 --> 00:06.780
+Bene, lo faremo solo per divertimento, in genere la prima
+
+00:06.780 --> 00:16.020
+ricerca del respiro viene implementata nel modo in cui l'abbiamo vista usando un approccio iterativo ma per divertimento voglio vedere
+
+00:16.050 --> 00:23.590
+se possiamo fare un respiro ricorsivo per la ricerca e in modo che possiamo fare una ricorsiva
+
+00:23.620 --> 00:33.310
+ampiezza prima ricerca possiamo creare una nuova funzione avremo il nostro qui per ricorsivo e qui abbiamo bisogno di creare un caso
+
+00:33.850 --> 00:49.210
+base andato per iniziare e ci fermeremo se Q punto lenth è zero o possiamo solo dire quando Q punto lunghezza è uguale a 0 se questo è il caso che vogliamo avere il
+
+00:49.210 --> 00:57.670
+nostro caso base e giriamo la lista ma noterete qui che non ho definito cosa QE list è
+
+00:57.670 --> 01:06.670
+come ho fatto con il nostro approccio iterativo ed è perché se vado in alto qui e dichiarare queste variabili
+
+01:06.730 --> 01:13.810
+come ho fatto perché in ogni funzione ricorsiva questa funzione sarà chiamata più e più
+
+01:13.810 --> 01:14.520
+volte.
+
+01:14.620 --> 01:20.420
+Stiamo andando a ripristinare queste variabili ed elenchi più e più volte su un array vuoto.
+
+01:20.440 --> 01:30.410
+Quindi il modo in cui faremmo ciò in una funzione ricorsiva è che dobbiamo effettivamente passare Q ed
+
+01:30.410 --> 01:40.600
+elencare come parametro in modo che quello che chiameremmo qui invece di farlo in questo modo dovremmo dire che
+
+01:40.610 --> 01:45.050
+il q avere questo nodo radice di punti.
+
+01:45.590 --> 01:50.990
+Ma ricorda che il Q deve essere un array, quindi lo avvolgiamo solo tra parentesi graffe e in
+
+01:50.990 --> 01:57.710
+javascript questo mostra che abbiamo un array con elementi di questo tipo di dot root come abbiamo fatto con la prima ricerca di ampiezza
+
+01:57.770 --> 01:59.290
+la prima volta a destra.
+
+01:59.360 --> 02:07.640
+Il Q iniziale Come non funziona il nodo corrente che era questa radice radice del punto.
+
+02:07.780 --> 02:14.220
+E poi il secondo parametro sarebbe la lista R e Sarah che inizieranno con un array vuoto.
+
+02:15.270 --> 02:23.630
+Così ora che abbiamo questo e questo è un po 'complicato quando si tratta di funzioni ricorsive possiamo ora fare
+
+02:23.630 --> 02:30.040
+qualcosa di simile a come abbiamo fatto la prima volta con il nostro approccio
+
+02:30.040 --> 02:39.520
+iterativo diremo che il nostro nodo corrente usa LET qui lascia il nodo Kurn uguale a questo punto Q Dot si sposta.
+
+02:40.510 --> 02:44.650
+Ancora una volta come abbiamo fatto sopra qui.
+
+02:48.560 --> 02:55.300
+Per prendere il nodo corrente e quindi possiamo semplicemente copiare ciò che abbiamo fatto qui.
+
+02:55.300 --> 03:02.440
+Se non c'è corrente a sinistra per spingere il nodo sinistro se il nodo corrente ha un figlio destro, allora spingerlo anche alla
+
+03:02.440 --> 03:02.860
+coda.
+
+03:02.950 --> 03:08.550
+Quindi ho intenzione di copiare questo e aggiungerlo qui.
+
+03:08.870 --> 03:15.960
+Assicurati che la rientranza funzioni adesso è meglio.
+
+03:16.000 --> 03:25.180
+Infine, poiché si tratta di una funzione ricorsiva, vogliamo attivare la funzione in modo che
+
+03:25.180 --> 03:35.440
+ricominci e questa volta fornendogli la stecca e l'elenco e so che questo può risultare un po 'confuso.
+
+03:35.450 --> 03:40.940
+Potrebbe essere necessario guardarlo ma esaminarlo passo dopo passo nella testa potresti voler prendere questo codice
+
+03:40.940 --> 03:43.640
+dopo questo video per vedere come funziona.
+
+03:44.720 --> 03:51.710
+Non è molto diverso dall'approccio iterativo e poiché questo si riferisce a un metodo all'interno di una classe
+
+03:51.710 --> 03:58.640
+nel modo in cui funziona in javascript, dobbiamo dire questo punto per la ricerca che si riferisce alla
+
+03:58.640 --> 04:01.850
+classe usa il metodo all'interno di questa classe.
+
+04:01.850 --> 04:08.810
+E noto che non abbiamo bisogno di questo per la coda perché la coda è solo un parametro.
+
+04:08.840 --> 04:14.750
+Ora vogliamo anche assicurarci di andare alla lista quando siamo qui.
+
+04:14.750 --> 04:24.770
+Quindi, proprio come abbiamo fatto sopra, stiamo per dire che una lista non spinge il valore attuale del nodo Daut esattamente come abbiamo
+
+04:24.770 --> 04:26.320
+fatto qui sopra.
+
+04:26.390 --> 04:35.450
+Vogliamo inserire l'ultimo valore nell'elenco perché l'elenco è la nostra risposta.
+
+04:35.490 --> 04:39.030
+Ora se faccio clic su Esegui qui otterrò un errore.
+
+04:39.180 --> 04:42.510
+E questo è un po 'complicato per lo specifico di javascript.
+
+04:42.510 --> 04:50.370
+E uno dei motivi per cui posso essere frustrante con javascript è che questa parola chiave funziona solo quando siamo
+
+04:50.370 --> 04:56.820
+all'interno della classe della classe di stringa di ricerca binaria al di fuori di questo.
+
+04:56.940 --> 05:01.570
+Ricorda che abbiamo la classe di alberi che abbiamo istanziato.
+
+05:01.590 --> 05:15.390
+Quindi questa è la radice dei punti dell'albero e, se eseguiamo questa operazione, questa volta abbiamo la nostra lista questa volta in modo ricorsivo.
+
+05:15.450 --> 05:17.690
+Lascerò questo per te per giocare con.
+
+05:18.620 --> 05:20.620
+E vedi quale ti piace di più.
+
+05:20.810 --> 05:24.290
+Ma entrambi ora ci danno gli stessi risultati.
+
+05:24.350 --> 05:30.490
+Nove per Nove per 20 1:06 15 170.
+
+05:30.660 --> 05:31.540
+Vedrò nel prossimo video.

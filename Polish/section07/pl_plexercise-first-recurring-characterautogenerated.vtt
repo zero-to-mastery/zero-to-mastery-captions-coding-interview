@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.180 --> 00:02.450
+Witamy spowrotem.
+
+00:02.560 --> 00:10.140
+Czas na ekscytujące pytanie dotyczące wywiadu, a to pytanie pochodzi bezpośrednio od Google danej energii.
+
+00:10.480 --> 00:13.080
+Powiedzmy, że wygląda tak.
+
+00:13.150 --> 00:16.110
+Powiedz mi pierwszą powracającą postać.
+
+00:16.450 --> 00:17.260
+Co to znaczy.
+
+00:17.500 --> 00:23.660
+Jeśli spojrzymy na tę tablicę tutaj, chcę funkcji, którą mogę wprowadzić do tej tablicy.
+
+00:23.920 --> 00:31.030
+To wejście będzie przeglądać wszystkie liczby i powiedzieć mi, które z nich zostanie powtórzone jako pierwsze.
+
+00:31.480 --> 00:40.980
+Patrzymy więc na 2 5 1 i 2 i mówimy, że już widziano dwie.
+
+00:41.080 --> 00:43.570
+Dwa to powtarzająca się liczba.
+
+00:44.550 --> 00:49.360
+Jeśli spojrzymy na inny przykład, zobaczymy 2 1 1 i 0.
+
+00:49.410 --> 00:55.360
+Zatrzymujemy się tutaj, ponieważ 1 już widzieliśmy, zanim możemy powiedzieć, że pierwsza powtarzająca się postać to 1.
+
+00:55.800 --> 01:03.560
+Jeśli otrzymamy tablicę zawierającą wszystkie unikalne elementy, po prostu wrócimy niezdefiniowani.
+
+01:03.560 --> 01:06.980
+Więc jak byś rozwiązał to.
+
+01:07.040 --> 01:09.590
+Daj mu szansę, zobacz, co wymyślisz.
+
+01:10.320 --> 01:16.530
+Jeśli potrzebujesz pomocy, możesz uzyskać wynik niezgody i porozmawiać z niektórymi członkami społeczności, a do zobaczenia w filmie
+
+01:16.680 --> 01:17.630
+z rozwiązaniem.

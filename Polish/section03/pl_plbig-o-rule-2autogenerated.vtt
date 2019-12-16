@@ -1,0 +1,220 @@
+WEBVTT
+
+00:01.910 --> 00:02.990
+Witamy spowrotem.
+
+00:02.990 --> 00:07.510
+Spójrzmy na regułę numer dwa, czyli stałe usuwania.
+
+00:07.910 --> 00:08.770
+Zobaczmy, co mam na myśli.
+
+00:10.230 --> 00:14.400
+Napisałem tutaj najbardziej absurdalną funkcję w historii.
+
+00:14.400 --> 00:21.520
+Funkcja wypisuje pierwszy element, a następnie pierwszą połowę, a następnie mówi "cześć" sto razy.
+
+00:21.630 --> 00:28.920
+Prawdopodobnie nie jest to najlepiej nazwana funkcja, ale jak sama
+
+00:28.930 --> 00:40.400
+nazwa opisuje wszystko, co robimy, anulujemy log pierwszego elementu w tablicy, a następnie wydrukujemy pierwszą połowę elementów.
+
+00:40.430 --> 00:44.340
+Więc znajduję środkowy indeks przedmiotów.
+
+00:44.360 --> 00:52.730
+Tak więc mówię, że przedmioty mają długość podzieloną przez dwa i używam tutaj matematyki w javascript jako sposób,
+
+00:52.730 --> 00:58.830
+abyśmy upewnili się, że otrzymamy całą liczbę i powiemy zmienne indeksy 0.
+
+00:58.840 --> 01:08.480
+Używam tutaj szerokiej pętli zamiast pętli for i mówię tak długo, jak średni indeks jest większy
+
+01:08.690 --> 01:09.970
+od zera.
+
+01:10.130 --> 01:12.920
+Chcę, żebyś konsola logowała elementy.
+
+01:12.920 --> 01:19.160
+Oznacza to, że w konsoli zapisujemy pierwszą połowę przedmiotu, który zawiera 10 elementów.
+
+01:19.160 --> 01:22.200
+Mam zamiar skonsolidować log pierwszych pięciu elementów.
+
+01:23.610 --> 01:32.790
+A potem mam zamiar zrobić jeszcze jedną pętlę i powiedzieć, że jestem Konsole logując się wysoko 100 razy całkiem całkiem
+
+01:32.790 --> 01:33.790
+bezużytecznym, powiedziałbym.
+
+01:33.840 --> 01:35.300
+Niezbyt przydatna funkcja.
+
+01:36.420 --> 01:38.980
+Jaka jest wielka część tej funkcji.
+
+01:39.270 --> 01:48.680
+Cóż, patrząc tutaj, będzie tutaj wielka sprawa.
+
+01:48.970 --> 02:00.430
+Mamy więc jeden do rejestrowania pierwszych elementów, a potem mamy połowę tego, co jest.
+
+02:00.540 --> 02:07.440
+W takim przypadku podzielmy go przez dwa, ponieważ mimo, że mamy pętlę for lub WHILE, za
+
+02:07.500 --> 02:10.230
+każdym razem rejestrujemy tylko połowę elementów.
+
+02:10.230 --> 02:13.010
+Moglibyśmy po prostu zrobić i podzielić przez dwa.
+
+02:13.260 --> 02:16.390
+I wreszcie robimy pętlę for.
+
+02:16.410 --> 02:18.310
+Ale znowu to trochę podstęp.
+
+02:18.420 --> 02:21.070
+Nie zapętlamy się nad tablicą przedmiotów.
+
+02:21.180 --> 02:24.920
+Mamy po prostu 100 niezależnie od wielkości tablicy elementów.
+
+02:25.080 --> 02:27.090
+To zawsze będzie 100.
+
+02:27.180 --> 02:29.200
+Więc po prostu mówię plus sto.
+
+02:29.310 --> 02:37.730
+To kolejny krok, ponieważ ponownie dodajemy każdy z kroków, które tutaj widzimy.
+
+02:37.740 --> 02:46.720
+Tak więc to jest nasza duża-O dla tej funkcji, ale liczba dwóch stanów, które chcemy usunąć stałe.
+
+02:46.720 --> 02:57.630
+Po prostu mówimy, że tak naprawdę nie obchodzi nas to, że to wielkie O jest faktycznie podzielone przez dwa plus 101.
+
+02:57.820 --> 03:02.660
+Pamiętaj, że w wywiadzie dbamy tylko o rzeczy, które widzieliśmy na wykresie.
+
+03:03.130 --> 03:04.790
+Nic konkretnego takiego.
+
+03:04.810 --> 03:07.250
+Więc to zmienia się w jedno.
+
+03:07.630 --> 03:16.030
+I to pomimo tego, że jest podzielone przez połowę w wielkim schemacie rzeczy, którym zależy tylko na tym, kiedy skaluje
+
+03:16.330 --> 03:19.940
+się, gdy dane wejściowe stają się coraz większe.
+
+03:19.960 --> 03:27.490
+Kiedy stajemy się coraz więksi, nie przejmujemy się dodawaniem kolejnych 100, ponieważ jeśli n to milion, dodając
+
+03:27.490 --> 03:31.630
+sto, to kolejne 100 kroków nie ma znaczenia.
+
+03:31.870 --> 03:40.270
+I to samo z dzieleniem bieli na "jak" i staje się coraz większe, a dzielenie przez dwa ma coraz mniejszy
+
+03:40.270 --> 03:41.020
+wpływ.
+
+03:41.050 --> 03:49.820
+Więc tak upuszczamy stałe, więc wszystko to jest w porządku.
+
+03:49.990 --> 03:56.320
+A ponieważ jeden, jeśli miał milion, jest bardzo nieznaczny.
+
+03:56.650 --> 03:58.090
+Możemy też to po prostu upuścić.
+
+03:58.150 --> 04:01.150
+Ta funkcja po prostu przestaje działać.
+
+04:01.570 --> 04:13.010
+Co by było, gdybyśmy mieli inną funkcję, która powiedzmy plus minus 50 lub 50 ton zer tonowych?
+
+04:13.010 --> 04:14.080
+To naprawdę nie ma znaczenia.
+
+04:14.090 --> 04:17.360
+Zrzuciliśmy stałe.
+
+04:17.480 --> 04:21.570
+Będzie dobrze, a co z drugą sytuacją.
+
+04:23.150 --> 04:24.940
+Co jeśli mamy tę funkcję tutaj.
+
+04:25.130 --> 04:32.600
+Skompresuj pudła dwa razy tam, gdzie funkcja ta ma dwie dwie pętle, w których działa to samo,
+
+04:32.600 --> 04:34.880
+ale dwie dwie pętle.
+
+04:34.880 --> 04:38.880
+Więc wszyscy byliśmy w tej pętli for.
+
+04:38.930 --> 04:47.480
+A następnie z pętli IN THIS FOR i ponieważ są to dwa oddzielne etapy, a
+
+04:48.410 --> 04:54.130
+my dodajemy je razem, więc staje się dodatkiem dwóch wywołań.
+
+04:54.140 --> 05:01.790
+I znowu w wywiadzie nie ma to większego znaczenia, ponieważ zrzucamy stałe, a jeśli pominiemy
+
+05:01.790 --> 05:05.500
+stałe, z czym to się wiąże.
+
+05:05.600 --> 05:11.050
+To tylko wydarzenie, które udowodni, że nie kłamie.
+
+05:11.080 --> 05:20.020
+Jeśli spojrzymy na tę funkcję na naszym wykresie, zobaczymy, że elementy jako elementy powiększają się.
+
+05:20.020 --> 05:23.860
+Mamy dwie operacje, ponieważ mamy dwie cztery pętle.
+
+05:24.040 --> 05:29.350
+Jeśli mamy dwa elementy w tym przypadku, wykonujemy cztery operacje.
+
+05:30.230 --> 05:37.390
+Jeśli mamy trzy, to robimy jeden dwa trzy cztery pięć sześć i widzimy, jak się zwiększa.
+
+05:37.490 --> 05:43.870
+Ale pod koniec dnia, nawet jeśli linia jest bardziej stroma, mamy do wykonania znacznie więcej operacji.
+
+05:44.150 --> 05:53.120
+Sposób, w jaki linia się zwiększa, jest nadal liniowy i to jest klucz do tego, z big-o, którego tak naprawdę nie obchodzi
+
+05:53.330 --> 05:55.860
+nas, jak stroma jest ta linia.
+
+05:55.940 --> 06:05.000
+Dbamy o to, jak linia porusza się, gdy wzrastają nasze nakłady, sprawia, że nasze życie jest o wiele prostsze, prawda.
+
+06:05.820 --> 06:08.100
+Pamiętaj więc, upuść stałe.
+
+06:08.100 --> 06:12.960
+Nigdy nie zobaczysz liczb w notacji Big O.
+
+06:12.960 --> 06:21.560
+Najprawdopodobniej zapisy, które widzieliśmy w przeszłości na naszym wykresie Zwykle te i jedyne czasy,
+
+06:21.560 --> 06:32.050
+w których widzisz liczby, występują wtedy, gdy masz jeden z kwadratów lub dwóch do potęgi, do której dojdziemy
+
+06:32.050 --> 06:32.980
+później.
+
+06:32.990 --> 06:35.750
+Nie martw się, zobaczę w następnym filmie.

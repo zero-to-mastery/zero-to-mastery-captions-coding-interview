@@ -1,0 +1,148 @@
+WEBVTT
+
+00:01.150 --> 00:10.390
+Welcome back in this section we finalized our understanding of algorithms with dynamic programming and
+
+00:10.480 --> 00:12.950
+we've completed all of this.
+
+00:13.150 --> 00:20.950
+And now the very last piece of the puzzle is complete dynamic programming and specifically using memoization
+
+00:21.160 --> 00:23.260
+to optimize our problems.
+
+00:23.970 --> 00:30.240
+Completes our entire diagram are my map of how to master the interview.
+
+00:30.340 --> 00:32.610
+So what do we learn.
+
+00:32.680 --> 00:38.860
+We learned that with dynamic programming we can identify these types of problems by first seeing hey
+
+00:39.340 --> 00:47.800
+is there a problem that can be divided into subproblems of smaller pieces where most likely you're using
+
+00:47.800 --> 00:49.090
+recursion.
+
+00:49.090 --> 00:56.350
+If you're using recursion then ask yourself Are there any repetitive subproblems or tasks that I'm doing
+
+00:56.740 --> 00:57.900
+over and over.
+
+00:58.120 --> 01:05.470
+In that case we can memorize the subproblems so we don't constantly recalculate things and use this
+
+01:05.470 --> 01:11.920
+idea of dynamic programming so that we get a nice raise from our boss because we just made the code
+
+01:12.010 --> 01:13.390
+so efficient.
+
+01:13.480 --> 01:19.750
+Now memorization is a common strategy for dynamic programming problems which are problems that I just
+
+01:19.750 --> 01:23.450
+described here such as the Fibonacci problem.
+
+01:23.620 --> 01:31.180
+There is one other way of incorporating dynamic programming and it's called bottom up approach and we
+
+01:31.180 --> 01:35.470
+won't focus too much on it but I want to show you quickly how it might look like.
+
+01:36.780 --> 01:43.620
+In our case there's actually a third way to solve this problem and the way to do it is well it's actually
+
+01:43.620 --> 01:44.500
+fairly simple.
+
+01:44.550 --> 01:46.530
+We can do Fibonacci mastered to
+
+01:49.590 --> 02:00.430
+and in this function we'll have the answer which will be the list of our Fibonacci sequence which is
+
+02:00.520 --> 02:08.920
+right up here and we're going to prefilled it with zero and one and then from there all we do is a for
+
+02:08.920 --> 02:16.110
+loop and say Let i equal to two because we're now starting at the second index.
+
+02:16.140 --> 02:22.650
+Why is less than or equal to the number and annual increment.
+
+02:23.310 --> 02:33.920
+And then finally we will say answer that push and we'll push to the next item in this stack.
+
+02:34.200 --> 02:37.540
+The results of the first and the second.
+
+02:37.770 --> 02:49.620
+So I minus two plus answer High minus one and then we can just return answer dot pop which will give
+
+02:49.620 --> 02:55.560
+us the very last item in the list according to what index we're looking for.
+
+02:56.750 --> 02:59.090
+So that if I run this
+
+03:04.970 --> 03:06.440
+I'd call it DP to
+
+03:12.670 --> 03:24.070
+I should still get up and I have to make sure that I pass in let's say 100 if I ran this.
+
+03:24.080 --> 03:24.800
+There you go.
+
+03:24.800 --> 03:27.100
+We get both of the same results.
+
+03:27.970 --> 03:31.680
+And this type of approach avoids recursion.
+
+03:31.780 --> 03:38.170
+Some would say is not as clean not as easy to understand while others will say no this makes a lot more
+
+03:38.170 --> 03:38.770
+sense.
+
+03:38.770 --> 03:46.060
+It really depends on your preference and this type of solution is called bottom up because you start
+
+03:46.120 --> 03:53.170
+from the simplest solution from the bottom and slowly work your way up higher and higher towards more
+
+03:53.170 --> 03:54.620
+complex problems.
+
+03:54.730 --> 04:00.280
+But these types of problems although easier to see are harder to figure out when to use.
+
+04:00.430 --> 04:10.070
+So I prefer the the top down memoization approach of using this but I just want to show you that there
+
+04:10.070 --> 04:12.240
+is another way of doing things.
+
+04:13.240 --> 04:19.870
+And in an interview it's very rare that you're going to be asked to implement both methods but at the
+
+04:19.870 --> 04:25.120
+end of it all I hope you see the power of dynamic programming.
+
+04:25.130 --> 04:32.030
+The simple concept of saving ourselves a lot of trouble thinking about how our programs run and how
+
+04:32.030 --> 04:37.380
+we can optimize it so that we don't do any repeated tasks.
+
+04:37.440 --> 04:43.100
+If you're able to notice these things then you are a great engineer.
+
+04:43.160 --> 04:44.090
+I'll see you in the next one.

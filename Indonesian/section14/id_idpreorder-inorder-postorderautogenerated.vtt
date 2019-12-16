@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.090 --> 00:02.080
+Selamat datang kembali.
+
+00:02.080 --> 00:05.260
+Mari kita bicara tentang pencarian pertama yang mendalam sekarang.
+
+00:05.320 --> 00:09.230
+Kami telah mengimplementasikan pencarian nafas pertama kami dan kami merasa nyaman untuk itu.
+
+00:09.340 --> 00:17.320
+Tetapi bagaimana dengan pencarian kedalaman pertama turun pohon kami dan menjelajahi bagian terdalam dari pohon itu
+
+00:17.350 --> 00:18.980
+sebelum kami kembali.
+
+00:19.990 --> 00:22.630
+Dan jelajahi sisi kanan pohon juga.
+
+00:23.500 --> 00:30.160
+Dan ketika sampai pada pencarian pertama yang mendalam, kita harus menyadari bahwa ada tiga cara yang dapat
+
+00:30.550 --> 00:31.410
+kita implementasikan.
+
+00:32.330 --> 00:36.710
+Ini disebut dalam rangka pesanan di muka atau pos.
+
+00:36.960 --> 00:42.620
+Ingat bagaimana kami memiliki daftar yang kami dapatkan dengan nafas untuk pencarian.
+
+00:42.970 --> 00:49.590
+Nah ada tiga pesanan berbeda yang bisa kita kembalikan daftar ini dengan pencarian pertama yang mendalam.
+
+00:49.780 --> 00:54.390
+Yang pertama dipanggil secara berurutan dan terlihat seperti ini.
+
+00:54.430 --> 00:59.280
+Kami pergi dengan 33 101 105.
+
+00:59.740 --> 01:06.300
+Ini disebut perintah karena dalam pohon pencarian biner ia memberikan segalanya secara berurutan.
+
+01:06.450 --> 01:17.990
+Jika kita melihat daftar ini atau pohon ini Idealnya dalam urutan menggunakan penelusuran pertama, kita akan mendapatkan
+
+01:18.680 --> 01:21.200
+sesuatu seperti ini.
+
+01:21.260 --> 01:37.300
+Kita akan mendapatkan satu maka untuk 6 karena kita pergi 1 4 6 dan kemudian kita pergi 9 dan kemudian kita pergi ke 15
+
+01:37.540 --> 01:45.560
+dan kemudian kita kembali ke 20 dan kemudian ke 1 70.
+
+01:45.590 --> 01:50.260
+Ini baik karena melihat dengan baik bahwa semuanya beres.
+
+01:50.260 --> 01:55.580
+Jadi ini sangat berguna jika Anda memiliki pohon pencarian biner seperti ini.
+
+01:55.690 --> 01:57.590
+Dan sekarang cara Anda dapat mengembalikannya.
+
+01:58.030 --> 02:08.320
+Ini disebut preop order dan preorder dimulai dari node induk hingga 33 dan kemudian turun ke 105.
+
+02:08.490 --> 02:17.560
+Jadi kita mulai dengan orang tua dan kemudian mengambil simpul anak kiri ke kanan dalam kasus
+
+02:17.710 --> 02:28.460
+kita akan terlihat seperti ini kita akan mulai dengan sembilan karena orang tua 1 dan kemudian kita ambil karena itu
+
+02:28.460 --> 02:36.560
+yang berikutnya dalam daftar dan lalu kita pergi satu saat kita melintasi ke bawah.
+
+02:36.630 --> 02:42.940
+Ingat kita melakukan pencarian mendalam pertama jadi semuanya turun dan karena kita
+
+02:42.940 --> 02:56.120
+sampai ke paling bawah kita sekarang naik turun ke 6 jadi kita lihat di sini kita melakukan 4 1 6 dan kemudian kita pergi ke sisi kanan
+
+02:56.120 --> 03:06.260
+ke 20 dan lalu ambil 15 kemudian 170 dan Anda bertanya pada diri sendiri ini sepertinya tidak berguna mengapa kita ingin
+
+03:06.260 --> 03:07.540
+menggunakan preorder.
+
+03:07.550 --> 03:13.760
+Maksud saya agar kita memiliki segalanya untuk mengapa kita membutuhkan ini dan preorder sangat berguna jika
+
+03:13.820 --> 03:16.620
+Anda ingin misalnya membuat ulang pohon.
+
+03:16.730 --> 03:17.780
+Kanan.
+
+03:17.780 --> 03:22.230
+Karena dengan preorder saya hanya bisa pergi sembilan adalah simpul root.
+
+03:22.310 --> 03:31.970
+Kemudian kita memiliki empat sebagai sisi kiri satu sebagai sisi kiri dan kemudian dari sana kita memiliki
+
+03:31.970 --> 03:38.630
+enam di kanan 20 ke kanan 9 15 dan kemudian 170.
+
+03:38.660 --> 03:47.530
+Kami dapat membuat ulang pohon dengan sangat mudah karena dipesan untuk kami versus metode urutan yang tidak memiliki urutan
+
+03:47.540 --> 03:53.570
+yang kami inginkan jika kami ingin membuat ulang pohon dengan cara lain.
+
+03:53.570 --> 04:02.430
+Dan cara terakhir untuk melakukan ini disebut Post order dan post order adalah opsi terakhir yang akan
+
+04:02.430 --> 04:03.550
+terus menurun.
+
+04:03.790 --> 04:09.220
+Meraih 33 dan 1 hingga 5 kemudian pergi ke atas ke induk lainnya.
+
+04:09.380 --> 04:13.410
+Jadi 33 1 hingga 5 1 hingga 1.
+
+04:13.420 --> 04:26.150
+Jadi dalam kasus kami, pencarian pertama yang dilakukan setelah pemesanan akan terlihat seperti satu kemudian enam kemudian
+
+04:26.150 --> 04:40.070
+empat dan kemudian naik kembali ke 15 dari 170 kemudian 20 dan akhirnya 9 kita mencari sisi kiri terlebih dahulu.
+
+04:40.070 --> 04:45.710
+Anak-anak datang sebelum orang tua dan kemudian kita mencari sisi kanan terlebih dahulu dan anak-anak
+
+04:45.710 --> 04:47.640
+datang sebelum orang tua.
+
+04:47.640 --> 04:56.680
+Sekarang ketiga jenis pemesanan ini benar-benar spesifik dan walaupun mungkin terlihat membingungkan sekarang Anda akan melihat bahwa ketika
+
+04:56.680 --> 05:01.130
+kita menuliskannya dalam kode, itu tidak terlalu sulit.
+
+05:01.240 --> 05:07.930
+Anda hanya perlu tahu bahwa ketika datang ke pencarian pertama yang mendalam Anda memiliki tiga jenis traversal yang
+
+05:08.110 --> 05:12.940
+dapat Anda lakukan yang mungkin ingin Anda terapkan tergantung pada kebutuhan Anda.
+
+05:13.720 --> 05:19.000
+Tetapi cara termudah untuk menunjukkan kepada Anda bagaimana ini bekerja adalah apa yang benar-benar melakukannya dalam kode.
+
+05:19.210 --> 05:20.550
+Jadi mari kita lakukan di video berikutnya.

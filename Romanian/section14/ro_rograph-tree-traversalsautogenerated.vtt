@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.850 --> 00:08.350
+Există momente când vrem să facem ceva numit traversal, iar traversarea numelui și căutarea
+
+00:08.350 --> 00:13.800
+este deseori folosită interschimbabil, uneori însemnând același lucru uneori nu.
+
+00:14.080 --> 00:19.320
+Până acum am vorbit despre arbori binari de căutare și am știut ce căutăm.
+
+00:19.330 --> 00:27.050
+Și am știut mereu unde să mergem la stânga sau la dreapta, dar alteori vrem să facem niște operațiuni pe aceeași notă pe care
+
+00:27.050 --> 00:32.410
+am menționat-o înainte, am putea dori să adăugăm o notă de culoare la această notă.
+
+00:32.690 --> 00:41.090
+Poate că dacă am avea un nod de utilizator dorim să adăugăm o proprietate H tuturor utilizatorilor care se află într-o structură arborescentă.
+
+00:41.210 --> 00:45.700
+Brewhouse doriți să adăugați o proprietate de formă acestor noduri.
+
+00:45.900 --> 00:51.020
+Sau poate că nu avem un arbore sortat.
+
+00:51.120 --> 00:58.290
+Nu este un arbore binar de căutare sau avem un grafic care nu are nicio comandă pentru acesta, caz în care trebuie să
+
+00:58.380 --> 00:59.650
+vizităm fiecare nod.
+
+00:59.910 --> 01:06.420
+Sau poate că lucrăm la Google și șeful nostru ne-a cerut să verificăm dacă fluxul de căutare binar pe care
+
+01:06.990 --> 01:13.530
+l-am introdus în baza noastră de date este corect și că este de fapt valabil și vă asigurăm că elementul
+
+01:13.560 --> 01:16.410
+stâng este întotdeauna mai mic decât elementul potrivit.
+
+01:17.330 --> 01:24.240
+Și pentru ca noi să verificăm dacă trebuie să atingem fiecare notă, dar cum să facem acest
+
+01:24.240 --> 01:24.840
+lucru.
+
+01:24.870 --> 01:32.250
+Vă puteți gândi la traversale ca la fiecare vizită și cum vă puteți imagina pentru că vizităm
+
+01:32.250 --> 01:36.930
+fiecare nod care este proprietarul unei perioade liniare de funcționare.
+
+01:36.930 --> 01:45.420
+Până acum am făcut bucle pentru a vizita toate celelalte structuri de date, cum ar fi tabelele legate de liste
+
+01:46.110 --> 01:48.310
+de tabele hash cache-uri.
+
+01:48.330 --> 01:57.260
+Deci, cum facem asta într-o structură de date cum ar fi un copac sau chiar un grafic.
+
+01:57.290 --> 02:01.510
+Din fericire pentru noi există două modalități de a face acest lucru pe care trebuie să învățăm.
+
+02:01.740 --> 02:05.230
+Unul este chiar aici.
+
+02:05.390 --> 02:12.050
+Trebuie să facem o traversare de copaci sau trebuie să facem o traversare grafică.
+
+02:12.160 --> 02:18.480
+În acest caz, cele două opțiuni sunt exact identice.
+
+02:18.590 --> 02:25.700
+Avem o căutare de primă căutare și o adâncime de căutare în primul rând și uneori acest lucru se numește traversal în loc
+
+02:25.700 --> 02:29.840
+de căutare, așa cum puteți vedea atât cu arbori, cât și cu artizanat.
+
+02:29.870 --> 02:31.710
+E același lucru.
+
+02:31.900 --> 02:39.790
+O mare este O și pentru că trebuie să vizităm fiecare nod folosind aceste două tehnici.
+
+02:39.790 --> 02:46.570
+Dar să analizăm motivul pentru care acest lucru este important și de ce nu stocăm totul și doar listele care sunt mai ușor
+
+02:46.570 --> 02:47.440
+de înțeles.
+
+02:48.250 --> 02:57.060
+Ei bine, principalul beneficiu al motivului pentru care nu punem date complexe în doar liste precum arrays
+
+02:57.060 --> 03:02.430
+sortate este că obținem O de log n căutat.
+
+03:02.580 --> 03:04.110
+Ce zici de tabelele hash?
+
+03:04.110 --> 03:05.130
+Sunt ușor.
+
+03:05.370 --> 03:11.730
+Amintiți-vă că tabelele hash nu sunt ordine și la sfârșitul zilei când reprezentați date cu diferite structuri
+
+03:11.730 --> 03:19.110
+de date bazate pe nevoile lor și copaci și iarba a lucrat foarte bine pentru o mulțime de cazuri
+
+03:19.200 --> 03:25.440
+pe care le-am discutat deja când căutăm lucrurile pe care le avem, dar și atunci când
+
+03:25.440 --> 03:31.180
+inserăm sau ștergem elemente, avem performanțe mai bune decât ceva de genul unui matrice.
+
+03:31.410 --> 03:37.230
+Dar, de asemenea, ne menținem ordinea în care nu am fi avut altfel cu tabelele hash, iar
+
+03:37.290 --> 03:45.540
+copacii și graficele au folosit mult atunci când vrem să căutăm noduri sau să vizităm fiecare nod și reprezintă o mulțime de date care
+
+03:45.540 --> 03:46.920
+modelează lumea reală.
+
+03:46.920 --> 03:52.160
+Acum, să explorăm modul în care funcționează aceste două tehnici de traversare.
+
+03:52.890 --> 03:53.840
+Voi vedea în următorul.

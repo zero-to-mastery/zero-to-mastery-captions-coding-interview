@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.860 --> 00:06.780
+Bine, vom face acest lucru doar pentru distracție, de obicei respirația prima
+
+00:06.780 --> 00:16.020
+căutare este pusă în aplicare așa cum am văzut-o folosind doar o abordare iterativă, dar pentru distracție Vreau să văd dacă putem face
+
+00:16.050 --> 00:23.590
+o respirație recursivă pentru căutare și pentru ca noi face o recursivă lățime prima căutare putem crea o funcție
+
+00:23.620 --> 00:33.310
+nouă va avea aici pentru recursivă și aici avem nevoie pentru a crea un caz de bază a mers pentru a începe și ne
+
+00:33.850 --> 00:49.210
+vom opri în cazul în care Q Dot lenth este zero sau putem spune doar atunci când Q Dot lungime este 0 ca în cazul în care acesta este cazul în cazul în care dorim să avem cazul
+
+00:49.210 --> 00:57.670
+nostru de bază și am rândul său, lista, dar veți observa aici că nu am definit ceea ce Q Și lista
+
+00:57.670 --> 01:06.670
+este ca am făcut cu abordarea noastră iterativă și asta pentru că dacă mă duc la partea de sus aici și să
+
+01:06.730 --> 01:13.810
+declare aceste variabile ca și mine, pentru că în fiecare funcție recursivă această funcție va fi numită
+
+01:13.810 --> 01:14.520
+mereu.
+
+01:14.620 --> 01:20.420
+Vom reinițializa aceste variabile și vom liste din nou peste o matrice goală.
+
+01:20.440 --> 01:30.410
+Deci modul în care am face acest lucru într-o funcție recursivă este că trebuie să trecem de fapt Q și
+
+01:30.410 --> 01:40.600
+lista ca parametru, astfel încât ceea ce noi să-l numim aici, în loc să o facem așa, ar trebui să spunem
+
+01:40.610 --> 01:45.050
+că q va au acest nod rădăcină punct.
+
+01:45.590 --> 01:50.990
+Dar amintiți-vă că Q trebuie să fie o matrice, astfel încât să înfășurăm acest lucru în paranteze curbate și în javascript
+
+01:50.990 --> 01:57.710
+acest lucru arată că avem o matrice cu element din acest tip punct rădăcină ca și cum am făcut cu prima lățime de căutare prima dată
+
+01:57.770 --> 01:59.290
+în jurul valorii de dreapta.
+
+01:59.360 --> 02:07.640
+Q inițială Cum nodul curent care a fost această rădăcină de punct rădăcină nu.
+
+02:07.780 --> 02:14.220
+Și apoi al doilea parametru ar fi lista R și Sarah, care va începe cu o matrice goală.
+
+02:15.270 --> 02:23.630
+Deci, acum că avem acest lucru și asta e un pic de mers când vine vorba de funcții recursive putem
+
+02:23.630 --> 02:30.040
+face acum ceva asemănător cu modul în care am făcut prima dată în jur cu
+
+02:30.040 --> 02:39.520
+abordarea noastră iterativă va spune că nodul nostru curent folosiți LET aici lasând Kurn nod egal la acest punct Q Schimbarea de puncte.
+
+02:40.510 --> 02:44.650
+Din nou același lucru ca și noi de mai sus.
+
+02:48.560 --> 02:55.300
+Pentru a apuca nodul curent și apoi putem copia de fapt ceea ce am făcut aici.
+
+02:55.300 --> 03:02.440
+În cazul în care curentul nu este lăsat să împingă nodul stâng dacă nodul curent are un copil drept, apoi împingeți-l și în coada de
+
+03:02.440 --> 03:02.860
+așteptare.
+
+03:02.950 --> 03:08.550
+Așa că o să copiez și să o adaug pe aici.
+
+03:08.870 --> 03:15.960
+Asigurați-vă că indentarea funcționează acum este mai bine.
+
+03:16.000 --> 03:25.180
+Și în sfârșit, pentru că aceasta este o funcție recursivă, dorim să transformăm funcția astfel încât aceasta să
+
+03:25.180 --> 03:35.440
+treacă din nou și de această dată să-i dau curajul și lista și știu că acest lucru poate deveni puțin confuz.
+
+03:35.450 --> 03:40.940
+S-ar putea să trebuiască să te uiți la ea, dar trecând prin ea pas cu pas în capul tău ar putea să vrei să
+
+03:40.940 --> 03:43.640
+apucă acest cod după acest video pentru a vedea cum funcționează.
+
+03:44.720 --> 03:51.710
+Nu este atât de diferit de abordarea iterativă și pentru că aceasta se referă la o metodă din interiorul unei
+
+03:51.710 --> 03:58.640
+clase, modul în care funcționează în javascript este că trebuie să spunem această respirație punctuală pentru căutarea care se referă
+
+03:58.640 --> 04:01.850
+la clasa folosiți metoda din cadrul acestei clase.
+
+04:01.850 --> 04:08.810
+Și observ că nu avem nevoie de acest lucru pentru coadă, deoarece coada este doar un parametru.
+
+04:08.840 --> 04:14.750
+Acum, de asemenea, vrem să ne asigurăm că ne împingem la listă când suntem aici.
+
+04:14.750 --> 04:24.770
+Deci, așa cum am făcut mai sus, vom spune că o listă nu împinge din nou valoarea Dautului Daut exact așa cum am făcut
+
+04:24.770 --> 04:26.320
+mai sus aici.
+
+04:26.390 --> 04:35.450
+Vrem să împingem ultima valoare la listă deoarece lista este răspunsul nostru.
+
+04:35.490 --> 04:39.030
+Acum, dacă fac clic pe rulați aici, voi avea o eroare.
+
+04:39.180 --> 04:42.510
+Iar asta este un pic mai bun pentru un anumit javascript.
+
+04:42.510 --> 04:50.370
+Și unul dintre motivele pentru care pot fi frustrat cu javascript este că acest cuvânt cheie funcționează numai
+
+04:50.370 --> 04:56.820
+atunci când suntem în interiorul clasei clasa de căutări binare în afara acestui.
+
+04:56.940 --> 05:01.570
+Amintiți-vă că avem clasa de copaci pe care am instanțiat-o.
+
+05:01.590 --> 05:15.390
+Deci, aceasta este rădăcina de arbore copac și dacă executăm acest lucru, acum avem lista noastră făcută în acest moment recursiv.
+
+05:15.450 --> 05:17.690
+Voi lăsa asta pentru a vă juca.
+
+05:18.620 --> 05:20.620
+Și vezi ce-ți place mai bine.
+
+05:20.810 --> 05:24.290
+Dar amândouă ne dau acum aceleași rezultate.
+
+05:24.350 --> 05:30.490
+Nouă pentru Nouă pentru 20 1:06 15 170.
+
+05:30.660 --> 05:31.540
+Voi vedea în următorul videoclip.

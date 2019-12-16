@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.000 --> 00:01.820
+Witamy spowrotem.
+
+00:02.110 --> 00:08.420
+Czas zakodować nasz własny stos i mam dla ciebie trochę ćwiczeń.
+
+00:08.500 --> 00:14.140
+Stworzyłem szablon tego, jak chcemy wyglądać struktura danych stosu.
+
+00:14.280 --> 00:17.570
+I mamy też klasę węzłów.
+
+00:17.670 --> 00:23.100
+Jeśli zdecydujesz się na to i powinieneś zapoznać się z nim w naszym ćwiczeniu z listami połączonymi.
+
+00:23.310 --> 00:27.770
+Możesz też go zignorować i samemu utworzyć nowy węzeł.
+
+00:28.980 --> 00:34.380
+Teraz ten stos będzie miał w swoim konstruktorze trzy właściwości.
+
+00:34.500 --> 00:42.870
+Mamy szczyt, który pamięta górną płytę, mamy dno, które jest dolną płytką, a
+
+00:42.870 --> 00:50.430
+następnie mamy długość zero, a górna i dolna są obecnie zerowe.
+
+00:50.440 --> 00:55.640
+Teraz będziemy używać list połączonych w celu wypełnienia tych wartości.
+
+00:56.360 --> 01:01.050
+Ale nie musimy używać połączonej klasy list, której używaliśmy wcześniej.
+
+01:01.070 --> 01:09.020
+Zamiast tego możesz po prostu użyć klasy Węzeł, aby po prostu przydzielić różne wartości i
+
+01:09.230 --> 01:18.310
+upewnić się, że kropka dalej wskazuje na inny węzeł, gdy dodamy rzeczy teraz Twoim zadaniem jest stworzenie trzech metod,
+
+01:18.580 --> 01:27.030
+które działają dla tego piku struktury danych, co pozwala nam zobaczyć bardzo górny element lub górny węzeł.
+
+01:27.530 --> 01:38.330
+Nacisk, który pozwala nam dodać węzeł na szczycie stosu i pop, który pozwala nam usunąć go z
+
+01:38.330 --> 01:39.720
+wierzchu stosu.
+
+01:39.920 --> 01:47.120
+A jeśli chcesz Opcjonalnie możesz również zrobić pustą metodę, która jest typowa dla
+
+01:47.150 --> 01:51.620
+stosu, aby sprawdzić, czy nasz stos jest pusty.
+
+01:51.680 --> 01:58.960
+Zaczniemy od mojego stosu, który zostanie zainicjowany, a twój kod będzie działał.
+
+01:58.960 --> 02:07.990
+Jeśli możemy zrobić coś takiego, gdy mówisz, że mój stack dot push, powiedzmy, Google, to popychajcie, Dammy push
+
+02:08.290 --> 02:16.080
+discord, tak jak historia przeglądarki, a potem możecie popsuć dysonans i poprowadzić Demy Pop.
+
+02:16.120 --> 02:21.860
+Google Powodzenia, a zobaczę w wideo rozwiązania do widzenia.

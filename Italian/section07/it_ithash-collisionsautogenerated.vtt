@@ -1,0 +1,286 @@
+WEBVTT
+
+00:01.700 --> 00:08.660
+Guardando le funzioni di hash puoi iniziare a pensare a quali azioni eseguono e quanto velocemente può essere
+
+00:08.660 --> 00:09.220
+fatto.
+
+00:10.880 --> 00:18.080
+Quando si tratta di inserire qualcosa nel nostro spazio di memoria, beh, sarà esagerato.
+
+00:18.170 --> 00:26.570
+Abbiamo cancellato la chiave come l'uva attraverso la funzione di hash e la posiziona automaticamente nello spazio
+
+00:26.570 --> 00:29.630
+degli indirizzi che viene fuori.
+
+00:29.720 --> 00:38.150
+La ricerca è esattamente la stessa che accediamo alla proprietà che sta per ottenere l'hash e ci
+
+00:38.150 --> 00:41.860
+indirizza esattamente all'indirizzo per trovare i valori.
+
+00:41.890 --> 00:43.640
+Che dire delle eliminazioni.
+
+00:43.720 --> 00:53.740
+La stessa cosa è che usiamo semplicemente la chiave subito sappiamo dove cancellare l'oggetto e perché non è
+
+00:53.770 --> 00:54.600
+ordinato.
+
+00:54.820 --> 00:58.630
+Non dobbiamo spostare gli indici come abbiamo fatto con gli array.
+
+00:58.690 --> 01:01.430
+Tutto è semplicemente bello e semplice.
+
+01:01.540 --> 01:07.840
+Che dire della ricerca se vogliamo trovare qualcosa nel nostro cestino come mele?
+
+01:07.850 --> 01:09.590
+Bene, anche questo è facile.
+
+01:09.690 --> 01:18.910
+Usiamo semplicemente le funzioni hash se andiamo nel nostro parco giochi in javascript Posso creare un oggetto
+
+01:18.930 --> 01:26.250
+diciamo lasciare che l'utente e questo utente abbiano la proprietà di ogni 54.
+
+01:26.300 --> 01:31.200
+Diciamo che il nome sarà la magia di
+
+01:33.820 --> 01:34.940
+Kylie.
+
+01:35.080 --> 01:42.850
+Beh, diciamo che Kylie fa delle abilità magiche in modo che tutto sia impostato su
+
+01:43.480 --> 01:52.390
+True e per divertimento diciamo che l'urlo è una funzione che si limiterà a creare un grido di log.
+
+01:53.440 --> 02:00.800
+Non è stato il più forte delle urla, ma non voglio spaventare le persone intorno a me quando corro questo.
+
+02:00.930 --> 02:08.100
+Ho creato un oggetto utente e l'età 54 chiamato magia Kylie.
+
+02:08.160 --> 02:16.790
+Il vero urlo e la disfunzione verranno tutti collocati da qualche parte nella memoria di indirizzi diversi.
+
+02:16.990 --> 02:19.050
+Ma posso accedere a questo veramente molto velocemente.
+
+02:19.060 --> 02:30.320
+Posso dire utente Daut age che mi darà 54 in una sola volta, magari aggiungendo una nuova proprietà.
+
+02:30.340 --> 02:38.790
+Posso semplicemente dire che l'incantesimo punto utente equivarrà ad Habra Berra.
+
+02:39.570 --> 02:49.590
+E se eseguo questa operazione e controlliamo solo cosa ci offre l'oggetto utente, vediamo che ora
+
+02:49.650 --> 02:52.900
+abbiamo aggiunto l'incantesimo Habra cadabra.
+
+02:52.920 --> 03:03.460
+Questo è di nuovo l'accesso di tutti uno è 0 di uno perché lo prendiamo attraverso le funzioni di hash e il computer
+
+03:03.460 --> 03:07.660
+decide dove mettere in memoria sia l'incantesimo che l'abracadabra.
+
+03:09.360 --> 03:17.780
+E un utente di armi da fuoco ADOT urla la stessa cosa ma non so urlare.
+
+03:17.800 --> 03:19.500
+La stessa cosa che ottengo
+
+03:19.870 --> 03:29.390
+Sono in grado di accedere a questa funzione in memoria in modo davvero veloce in tutto ciò che è sorprendente.
+
+03:29.800 --> 03:33.070
+E so dove stai pensando che i tavoli hash sono incredibili.
+
+03:33.070 --> 03:38.720
+Dovremmo usarli sempre e hai ragione, dovremmo usarli in molti casi.
+
+03:38.980 --> 03:42.190
+Ma come sappiamo, ci sono sempre pro e contro.
+
+03:42.370 --> 03:48.370
+Ora lascia che ti parli di uno dei principali problemi con le tabelle hash.
+
+03:49.270 --> 03:51.920
+E ho una bella grafica per dimostrarlo per te.
+
+03:51.960 --> 03:57.290
+Collegherò a questo e questo video in modo da poterlo giocare più tardi.
+
+03:57.300 --> 04:02.750
+Ho una piccola animazione qui dove abbiamo 12 spazi di memoria.
+
+04:02.880 --> 04:12.420
+Ricorda che il nostro computer ha uno spazio limitato e quando creiamo un oggetto o una tabella hash il computer decide la quantità
+
+04:13.110 --> 04:14.900
+di spazio da allocare.
+
+04:14.940 --> 04:18.150
+Non assegnerà tutto lo spazio al tavolo hash.
+
+04:18.270 --> 04:24.630
+Ne assegnerò un po 'e ve lo mostrerò più avanti quando implementeremo la nostra tabella hash.
+
+04:24.990 --> 04:31.150
+Come possiamo regolare le dimensioni, ma vedendo che ci sono solo 12 spazi che puoi immaginare.
+
+04:31.150 --> 04:37.890
+Se inserisco qui diciamo uno, se riesco a ingrandirlo in modo che tu possa vederlo.
+
+04:38.070 --> 04:47.070
+Ecco qua, risponderò diciamo che il numero tre viene inserito qui facciamo 55.
+
+04:47.330 --> 04:48.060
+Inseriscilo.
+
+04:48.080 --> 04:49.550
+Oh cosa è successo lì.
+
+04:50.660 --> 05:03.060
+Vedete che la funzione di hash ha assegnato a caso uno spazio in memoria e lo metti in tre ricordi.
+
+05:03.240 --> 05:09.010
+Non c'è nulla che dice la funzione hash di distribuire uniformemente fino a quando tutto è pieno.
+
+05:09.570 --> 05:15.640
+Sebbene le funzioni di hash siano ottimizzate per provare a distribuire questi dati dappertutto.
+
+05:15.860 --> 05:17.910
+Importa anche ciò che ci mettiamo dentro.
+
+05:17.990 --> 05:27.550
+Quindi, quando 55 ottiene hash Well questa funzione di hash genera l'indirizzo di locazione di tre da inserire.
+
+05:27.710 --> 05:31.630
+E poiché ne abbiamo già tre, fa qualcosa di divertente qui.
+
+05:31.820 --> 05:33.910
+Continuiamo ad aggiungere qui e vediamo cosa succede.
+
+05:33.950 --> 05:43.810
+Aggiungerò due magari aggiungo 12 e infine aggiungerò 14 0.
+
+05:43.860 --> 05:46.130
+Ha fatto di nuovo la stessa cosa.
+
+05:46.340 --> 05:50.060
+E quello che abbiamo appena notato qui è qualcosa chiamato
+
+05:53.260 --> 05:56.700
+Collision e una collisione sembra qualcosa del genere.
+
+05:56.740 --> 05:58.350
+Abbiamo le chiavi.
+
+05:58.600 --> 06:10.720
+Diciamo che stiamo inserendo il nome e il numero di telefono di un utente e inizialmente mettiamo John Smith: questa chiave viene hash
+
+06:10.960 --> 06:16.790
+posta nello spazio degli indirizzi di 1:52 e viene memorizzata.
+
+06:16.900 --> 06:22.960
+Ricorda come ha detto che in realtà memorizza sia le chiavi che i valori memorizzati in qualcosa chiamato John's del
+
+06:23.260 --> 06:27.480
+secchio con il valore che è il suo numero di telefono proprio qui.
+
+06:28.340 --> 06:35.980
+E poi continuiamo con Lisa Smith poi Sam doe di Sandra Oh no.
+
+06:35.990 --> 06:44.610
+Appena ospitiamo Sandra Dee, diventa lo stesso spazio degli indirizzi di John Smith e abbiamo una collisione e, a causa di questa
+
+06:45.600 --> 06:53.700
+collisione, abbiamo bisogno di un modo per memorizzare entrambi gli utenti in questo spazio degli indirizzi e qualcosa di funky
+
+06:53.700 --> 06:58.730
+sta succedendo qui con questo piccolo circolo e poi un punto.
+
+06:58.740 --> 07:01.530
+E Sandra Dee.
+
+07:01.530 --> 07:02.890
+E solo un suggerimento qui.
+
+07:03.030 --> 07:09.880
+Questa è in realtà una nuova struttura di dati che apprenderemo sugli elenchi di collegamenti chiamati in arrivo.
+
+07:10.230 --> 07:17.630
+Vedete con tabelle hash non possiamo evitare queste collisioni con dati sufficienti con memoria limitata.
+
+07:17.640 --> 07:20.470
+Avremo sempre questa collisione.
+
+07:20.610 --> 07:28.920
+Quindi c'è una possibilità se torniamo al nostro esempio e mi rinfresco l'anno per ripartire da zero
+
+07:30.900 --> 07:37.060
+che aggiungiamo costantemente nonostante il nostro hash table sia davvero molto veloce.
+
+07:38.100 --> 07:42.340
+Costoso, continua ad aggiungere allo stesso spazio di memoria.
+
+07:42.930 --> 07:52.350
+Il che rallenta la nostra capacità di accedere o inserire informazioni perché ora se voglio controllare cosa c'è in questo spazio indirizzo
+
+07:52.350 --> 07:58.380
+devo andare a due tre quattro cinque e così via e così via.
+
+07:58.570 --> 08:11.270
+In teoria, quando si ha una collisione, rallenta la lettura e la scrittura con una tabella hash con 0 e divisa
+
+08:11.750 --> 08:18.350
+per k dove k è la dimensione della tabella hash.
+
+08:18.430 --> 08:26.730
+E ricorda perché rimuoviamo le costanti e semplifichiamo le cose diventa un tutto e operazione.
+
+08:26.730 --> 08:31.290
+Ora la coalizione probabilmente accadrà in qualsiasi implementazione della tabella hash.
+
+08:31.470 --> 08:38.130
+E fortunatamente per te non dovrai mai realizzare davvero te stesso e non è una domanda di intervista
+
+08:38.340 --> 08:42.140
+molto comune, ma lo vuoi sapere per poterne parlare.
+
+08:43.060 --> 08:47.170
+Ci sono due modi comuni per affrontare queste collisioni.
+
+08:47.170 --> 08:52.430
+Ti ho mostrato uno di loro con qualcosa chiamato link list di cui parleremo più avanti.
+
+08:52.960 --> 09:01.750
+Ma se andiamo alla pagina Wikipedia di hash table e guardiamo alla risoluzione delle collisioni, possiamo vedere che
+
+09:01.810 --> 09:07.480
+ci sono un sacco di modi diversi per risolvere le collisioni.
+
+09:07.730 --> 09:13.730
+Il modo in cui ti ho mostrato si chiama Separate chaining ma ci sono diversi
+
+09:14.120 --> 09:20.240
+metodi come l'open address e l'hashing di Robinhood che puoi leggere se sei davvero interessato all'argomento.
+
+09:20.660 --> 09:29.070
+Il punto che volevo fare è che c'è un po 'di svantaggio quando parliamo di blocchi veloci
+
+09:29.610 --> 09:34.870
+e tabelle hash occasionalmente a seconda della funzione di hash.
+
+09:35.010 --> 09:37.980
+Potrebbe richiedere o di un.
+
+09:38.150 --> 09:43.160
+Bene, continuiamo ad ampliare la nostra conoscenza delle tabelle hash e del prossimo video.

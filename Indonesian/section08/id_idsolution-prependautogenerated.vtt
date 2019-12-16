@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.560 --> 00:05.780
+Selamat datang kembali jika Anda dapat menerapkan Prebend.
+
+00:06.080 --> 00:08.500
+Mari kita lihat seperti apa kode itu.
+
+00:09.270 --> 00:17.620
+Hal pertama yang kita lakukan sama seperti yang kita lakukan dengan pena adalah membuat catatan yang akan kita tambahkan.
+
+00:17.910 --> 00:23.460
+Jadi saya akan mengatakan nilai simpul baru dan selanjutnya.
+
+00:23.490 --> 00:30.690
+Sekarang tahun depan saya akan pergi karena tidak dan saya akan menunjukkan kepada Anda mengapa di video berikutnya yang terjadi
+
+00:30.690 --> 00:33.930
+dan kami tidak hanya memiliki sama dengan ini.
+
+00:33.930 --> 00:44.400
+Dodd harus merujuk item pertama dalam daftar kami yaitu 10 tetapi untuk sekarang percayalah bahwa kami tidak ingin meninggalkan kami karena
+
+00:45.060 --> 00:47.490
+kami dapat melakukannya nanti.
+
+00:47.490 --> 00:52.000
+Saat ini kami hanya membuat simpul kosong dengan nilainya.
+
+00:52.270 --> 01:04.750
+Selanjutnya kita ingin mengatakan bahwa titik simpul baru kita berikutnya yang merupakan nilai ini di sini akan sama dengan
+
+01:04.960 --> 01:07.590
+yang dimiliki Dot ini.
+
+01:07.910 --> 01:14.040
+Jadi kita baru saja membuat sebuah pointer yang mengatakan bahwa no baru yang baru saja
+
+01:14.310 --> 01:19.360
+kita buat akan menunjuk ke tuhan ini item pertama dalam daftar kami.
+
+01:19.360 --> 01:19.640
+BAIK.
+
+01:19.660 --> 01:20.950
+Itu tidak masuk akal.
+
+01:21.310 --> 01:25.780
+Dan jelas seperti yang kami lakukan dengan append kami ingin memperbarui referensi.
+
+01:25.780 --> 01:31.300
+Sekarang untuk mengatakan bahwa kepala Dodd ini tidak lagi sama dengan nilai semua ini.
+
+01:31.300 --> 01:35.900
+Sekarang simpul baru.
+
+01:35.970 --> 01:43.890
+Dan akhirnya kami ingin menambahkan lenth ini dan memastikan kami menambah panjang daftar kami.
+
+01:43.920 --> 01:57.150
+Akhirnya jika kami mengembalikan daftar tertaut kami, kami dapat mengatakan jalankan dan lihat bahwa kami telah menambahkan satu ke
+
+01:57.150 --> 01:59.050
+item pertama.
+
+01:59.970 --> 02:10.080
+Pada daftar kepala dan yang sekarang merujuk 10 dan ekor daftar kami sekarang 16.
+
+02:11.150 --> 02:13.900
+Itu tidak terlalu buruk itu di video berikutnya.
+
+02:13.910 --> 02:18.220
+Saya ingin berbicara tentang kode Noad baru ini dengan cepat.
+
+02:18.320 --> 02:24.820
+Kami mengulangi keduanya di append dan pre-pick dan apa yang mungkin ingin kami lakukan dengannya.
+
+02:24.860 --> 02:25.540
+Saya akan melihat yang itu.

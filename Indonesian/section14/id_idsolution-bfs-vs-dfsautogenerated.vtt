@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.240 --> 00:02.980
+Selamat datang kembali.
+
+00:03.050 --> 00:05.170
+Bagaimana latihan ini.
+
+00:05.180 --> 00:07.020
+Semoga itu tidak terlalu sulit.
+
+00:08.720 --> 00:14.270
+Jika Anda dapat menjawab pertanyaan-pertanyaan ini, kemungkinan besar Anda akan baik-baik saja dalam sebuah wawancara
+
+00:14.270 --> 00:18.310
+jika Anda pernah ditanya tentang pencarian pertama atau pencarian napas.
+
+00:18.380 --> 00:19.790
+Jadi mari kita lanjutkan jawabannya.
+
+00:20.800 --> 00:24.710
+Jika dia tahu solusinya tidak jauh dari akar pohon.
+
+00:24.850 --> 00:26.520
+Yah kita sudah membicarakan ini.
+
+00:26.620 --> 00:34.660
+Kami ingin menggunakan nafas untuk pencarian karena itu dimulai ia mulai mencari node terdekat dengan orang
+
+00:34.720 --> 00:36.470
+tua terlebih dahulu.
+
+00:36.590 --> 00:41.460
+Jika pohonnya sangat dalam dan solusinya jarang.
+
+00:41.470 --> 00:47.630
+Nah ini sedikit pertanyaan yang lebih sulit tetapi kami akan menggunakan nafas untuk pencarian.
+
+00:47.820 --> 00:54.660
+Dan alasan kami melakukan itu pada sesuatu seperti pencarian pertama kedalaman adalah bahwa pencarian pertama mendalam
+
+00:54.660 --> 01:01.710
+akan memakan waktu sangat lama dengan jenis pohon ini karena pohon sangat dalam itu akan berjalan satu
+
+01:01.710 --> 01:04.950
+per satu akan benar-benar turun di bawah.
+
+01:04.950 --> 01:10.530
+Dan karena solusi jarang, kemungkinan besar hanya akan mengulanginya berulang-ulang.
+
+01:10.590 --> 01:16.410
+Dan seperti yang akan Anda lihat dengan pencarian pertama yang dalam, kami menggunakan fungsi rekursif.
+
+01:16.570 --> 01:20.910
+Dan dengan pencarian pertama itu bisa memakan waktu sangat lama.
+
+01:21.220 --> 01:25.620
+Meskipun dengan yang satu ini kami juga memiliki beberapa masalah memori dengan pencarian napas.
+
+01:25.690 --> 01:32.190
+Jadi jawaban Anda mungkin bervariasi tetapi ini adalah apa yang akan saya gunakan selama Anda dapat menjelaskan
+
+01:32.400 --> 01:36.930
+bahwa kepada pewawancara Anda menemukan bagaimana jika pohon itu sangat putih.
+
+01:37.000 --> 01:39.460
+Itu ada banyak catatan.
+
+01:39.550 --> 01:45.280
+Ini bukan pohon biner, hanya ada satu ton node di bawah setiap orang tua.
+
+01:45.340 --> 01:52.420
+Sekali lagi ini sedikit lebih sulit tetapi kami ingin menggunakan kematian untuk pencarian karena mandi pertama pencarian dan
+
+01:52.420 --> 01:55.290
+saya akan mengatakan cepat dari sekarang adalah.
+
+01:55.430 --> 01:58.390
+Yah itu akan membutuhkan memori
+
+02:01.560 --> 02:03.150
+terlalu banyak.
+
+02:03.450 --> 02:10.830
+Cara pencarian nafas pertama bekerja adalah bahwa ia harus melacak node dan level saat ini dalam sesuatu
+
+02:10.920 --> 02:12.550
+yang disebut antrian.
+
+02:12.640 --> 02:18.290
+Kita akan melihatnya karena itu mungkin memakan terlalu banyak memori.
+
+02:19.130 --> 02:20.070
+Bagaimana dengan yang berikutnya.
+
+02:20.090 --> 02:27.350
+Jika solusinya sering tetapi terletak jauh di dalam pohon dengan baik dalam hal itu kami menggunakan kedalaman untuk pencarian.
+
+02:27.530 --> 02:31.790
+Jadi semoga kita akan dapat menemukan jawaban lebih cepat daripada nafas untuk pencarian.
+
+02:32.760 --> 02:37.340
+Bagaimana dengan yang berikutnya menentukan apakah ada jalan di antara dua catatan.
+
+02:37.470 --> 02:42.900
+Itulah yang membangun gereja maut pertama bagi Audubon menemukan jalan terpendek.
+
+02:43.170 --> 02:44.790
+Itu untuk bernafas.
+
+02:44.800 --> 02:47.940
+Pencarian pertama.
+
+02:48.160 --> 02:56.260
+Sekarang ingat-ingat dokumen ini dan kunjungilah kembali ketika kita belajar lebih banyak tentang kedua algoritma ini karena
+
+02:56.410 --> 02:59.410
+semuanya akan mulai lebih masuk akal.
+
+02:59.800 --> 03:06.040
+Tetapi ini adalah lembar yang baik untuk diingat sebelum Anda pergi ke wawancara jika Anda ditanya pertanyaan-pertanyaan ini cukup
+
+03:08.110 --> 03:09.430
+berbicara untuk saat ini.
+
+03:09.430 --> 03:12.950
+Saya pikir ini saatnya bagi kita untuk mulai mengkode algoritma ini.
+
+03:13.090 --> 03:14.440
+Saya akan melihat yang berikutnya.
+
+03:14.830 --> 03:15.060
+Bob

@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.370 --> 00:08.960
+I tam mamy to, czego nauczyliśmy się stosów i Qs i łatwy sposób na zapamiętanie ich to po prostu talerze
+
+00:09.380 --> 00:11.060
+i nasza linia oczekiwania.
+
+00:11.060 --> 00:16.390
+Dowiedzieliśmy się, dlaczego są one zbudowane na podstawie innych struktur danych, takich jak połączone listy i tablice.
+
+00:16.520 --> 00:22.970
+Rozmawialiśmy także o tym, jak budować stosy z listami Promień i długość, a
+
+00:22.970 --> 00:31.280
+także dlaczego nie chcieliśmy używać tablicy do budowania kolejek, a także zbudowaliśmy nową strukturę danych z połączoną listą.
+
+00:31.300 --> 00:37.840
+Dowiedzieliśmy się, że stosy i kolejki są świetne dla niektórych szybkich operacji, które mają na
+
+00:37.840 --> 00:42.280
+przykład usuwanie lub wstawianie, na przykład na końcu struktury danych.
+
+00:42.920 --> 00:50.550
+Możemy również uzyskać dostęp do pierwszego elementu w kolejce lub bardzo najwyższego elementu stosu.
+
+00:50.780 --> 00:58.490
+Mamy również cały porządek danych, który jest naprawdę fajny, ale zwykle nie używamy naszych stosów
+
+00:58.490 --> 01:03.400
+ani wskazówek, aby naprawdę blokować lub przeszukiwać strukturę danych.
+
+01:03.440 --> 01:07.670
+Wszystko, co nas interesuje, to bity końcowe struktury danych.
+
+01:07.670 --> 01:14.770
+Dzięki temu korzystanie z tego, co możemy zrobić, jeśli chodzi o stosy i kolejki, jest naprawdę użyteczne.
+
+01:14.900 --> 01:20.090
+Ale upewnienie się, że to, co możemy zrobić z tymi strukturami
+
+01:20.090 --> 01:22.600
+danych, będzie naprawdę szybkie.
+
+01:22.830 --> 01:24.060
+Mamy to.
+
+01:24.180 --> 01:28.520
+Kontynuowaliśmy poszerzanie naszej mapy myśli o strukturach danych.
+
+01:28.860 --> 01:31.290
+Więc ukończyliśmy nasze stosy.
+
+01:31.290 --> 01:38.730
+Nauczyliśmy się tworzyć stosy z tablicami i listami długości, których nauczyliśmy się na temat ich notacji Big O,
+
+01:39.180 --> 01:45.190
+a także rozmawialiśmy o sygnałach i jak naprawdę chcielibyśmy użyć tablicy dla cue.
+
+01:45.270 --> 01:47.840
+Bardzo częste pytanie dotyczące wywiadu.
+
+01:48.150 --> 01:54.630
+Uczymy się korzystać z połączonej listy, aby stworzyć kolejkę, a także dowiedzieliśmy się o
+
+01:55.140 --> 01:59.570
+implikacjach bego, które są bardzo podobne do stosów.
+
+01:59.670 --> 02:03.720
+Coraz bliżej nas jest wypełnianie tej mapy myśli.
+
+02:03.930 --> 02:10.520
+Ale zanim to zrobimy, wciąż mamy jeszcze kilka struktur danych, ale koniec jest już prawie bliski.
+
+02:10.530 --> 02:13.570
+Mamy tylko drzewa i wykresy, o których można porozmawiać.
+
+02:14.650 --> 02:17.480
+Do tego zobaczę cię w następnej części.

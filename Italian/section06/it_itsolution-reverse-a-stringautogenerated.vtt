@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.730 --> 00:08.450
+Bentornato ora, non ho intenzione di esaminare tutti i nostri passi che abbiamo utilizzato nella sezione in cui abbiamo
+
+00:08.450 --> 00:15.540
+parlato di come risolvere i problemi e di come affrontare i problemi di fronte a un intervistatore.
+
+00:15.950 --> 00:21.620
+E abbiamo anche visto Die google video di tutte le cose che devi fare perché ci
+
+00:21.620 --> 00:22.870
+vorrà troppo tempo.
+
+00:22.880 --> 00:28.500
+Accelererò le cose e parlerò solo dei punti chiave su come risolvere questo problema.
+
+00:28.760 --> 00:37.540
+Bene, al fine di invertire una stringa, la prima cosa che vogliamo fare è una sorta di controllo del nostro impianto.
+
+00:37.730 --> 00:43.340
+Non possiamo semplicemente presumere che riceviamo sempre una stringa Cosa succede se qualcuno
+
+00:43.340 --> 00:48.950
+chiama la funzione inversa con un numero indefinito o con un numero.
+
+00:48.950 --> 00:50.050
+Cosa succede allora.
+
+00:50.480 --> 00:53.750
+E una buona cosa per iniziare sempre è controllare l'input.
+
+00:53.750 --> 00:56.360
+Nel mio caso ho intenzione di fare un semplice controllo.
+
+00:56.390 --> 01:01.610
+Diciamo che se non c'è nessuna corda.
+
+01:01.850 --> 01:11.950
+Quindi non è definito o forse la lunghezza del punto della stringa è inferiore a 2.
+
+01:11.990 --> 01:22.160
+Ciò significa che se la lunghezza della stringa è inferiore a 2 significa che sto solo ricevendo una lettera o nessuna lettera, nel qual caso
+
+01:22.250 --> 01:25.010
+non è necessario eseguire alcuna operazione.
+
+01:25.010 --> 01:26.600
+È già un po 'invertito.
+
+01:27.860 --> 01:34.610
+E possiamo aggiungere qui diverse validazioni di input, come usare il tipo di parola chiave in javascript per verificare se si tratta di
+
+01:34.610 --> 01:36.110
+un tipo di stringa.
+
+01:36.440 --> 01:38.950
+Ma è qualcosa che puoi fare da solo.
+
+01:39.080 --> 01:42.000
+In realtà implementiamolo visto che siamo qui comunque solo per mostrarti.
+
+01:42.170 --> 01:53.790
+Quindi posso dire tipo di stringa se non è uguale al tipo di stringa di SDR che è il parametro che riceviamo uguale
+
+01:53.820 --> 01:56.280
+al tipo di stringa.
+
+01:56.280 --> 02:03.590
+Bene in quel caso possiamo solo tornare.
+
+02:04.200 --> 02:04.970
+Non
+
+02:10.070 --> 02:14.810
+va bene altrimenti facciamo qualche operazione per invertire la stringa.
+
+02:15.290 --> 02:17.420
+Bene, pensiamo a questo.
+
+02:17.450 --> 02:20.780
+Vogliamo convertirlo in un array.
+
+02:20.840 --> 02:29.260
+Quindi creerò un array all'indietro e questo è ciò che restituiremo dalla funzione.
+
+02:29.400 --> 02:38.000
+Ho intenzione di restituire la matrice che è invertita, ma vogliamo restituire una stringa corretta.
+
+02:38.000 --> 02:39.390
+Inverte una stringa.
+
+02:39.410 --> 02:40.980
+Questo dovrebbe restituire una stringa.
+
+02:42.060 --> 02:48.120
+Anche se convertiremo tutto ciò che riceviamo in un array, alla fine vorremmo riportarlo in
+
+02:48.120 --> 02:49.160
+una stringa.
+
+02:49.500 --> 03:02.900
+Quindi in javascript possiamo fare il metodo a due corde o il metodo congiunto e diciamo solo unire tutti gli elementi
+
+03:03.020 --> 03:04.020
+dell'array.
+
+03:04.100 --> 03:15.790
+Ora qui andremo a prendere il lenth dell'array o della stringa perché lo useremo molto e non vogliamo
+
+03:15.790 --> 03:18.180
+avere codice ripetuto.
+
+03:18.330 --> 03:25.060
+Quindi ho intenzione di dire che lenth meno uno è quanti elementi abbiamo nella stringa.
+
+03:25.270 --> 03:26.980
+O forse dovremmo nominare
+
+03:30.830 --> 03:33.330
+questo articolo o in realtà gli elementi totali.
+
+03:33.400 --> 03:34.820
+Un nome migliore
+
+03:34.950 --> 03:36.800
+Ora questi articoli totali.
+
+03:36.930 --> 03:44.310
+Quindi andremo a scorrere attraverso la nostra stringa per dire let.
+
+03:44.460 --> 03:47.520
+Chiama gli oggetti totali.
+
+03:50.100 --> 03:56.560
+Quindi sarò uguale a tutti i personaggi che abbiamo nella nostra stringa e continueremo ad andare avanti
+
+03:56.560 --> 03:59.850
+fino a che non sarò pari a zero.
+
+04:03.520 --> 04:10.030
+E tutto ciò che faremo perché vogliamo andare di nuovo in primo piano.
+
+04:10.370 --> 04:13.620
+Lo documenteremo.
+
+04:13.640 --> 04:18.950
+Quindi andremo dalla lunghezza della stringa fino in fondo, quindi
+
+04:18.980 --> 04:29.780
+inizieremo con I C R D e A e inseriremo questi in una matrice che abbiamo creato uno alla volta l'array all'indietro.
+
+04:29.790 --> 04:40.760
+Quindi in questo ciclo tutto quello che faremo è dire all'indietro non spingere ogni elemento che stiamo per creare.
+
+04:40.770 --> 04:41.930
+Quindi io e
+
+04:44.770 --> 04:46.380
+SDR sappiamo cosa stai pensando.
+
+04:46.620 --> 04:50.860
+Bene, perché non convertiamo semplicemente la stringa in un array.
+
+04:50.890 --> 04:56.710
+Mi hai detto tutto sulla conversione di stringhe in un array e non l'abbiamo fatto davvero.
+
+04:56.770 --> 05:06.860
+E javascript ha effettivamente il punto di divisione SDR o possiamo eseguire il comando split per dividere le cose in un
+
+05:06.860 --> 05:16.430
+array, ma con javascript possiamo effettivamente usare solo stringhe come array e accedere a ciascuna proprietà come questa con
+
+05:16.430 --> 05:21.480
+Braque e notazione in modo che essenzialmente i nostri array.
+
+05:21.800 --> 05:24.260
+Quindi non dobbiamo eseguire alcun comando split.
+
+05:24.260 --> 05:33.440
+Anche questo funziona e tutto ciò che stiamo facendo è andare indietro di uno a uno e spingere
+
+05:33.440 --> 05:37.570
+ogni elemento della nostra stringa nel nostro array.
+
+05:38.060 --> 05:48.570
+Quindi, se registro la console qui prima di eseguire il comando congiunto, la schiera all'indietro e
+
+05:51.580 --> 05:54.680
+l'Iran invertono e invertiamo la
+
+05:58.960 --> 06:01.440
+stringa, eseguiamo questo.
+
+06:01.680 --> 06:09.450
+E potresti aver notato che questa lenth non proveniva davvero da nessuna parte dovevano essere elementi totali.
+
+06:09.450 --> 06:15.580
+Quindi questo è il totale di whoops totale.
+
+06:15.580 --> 06:17.450
+Questo è il problema con la codifica della vita.
+
+06:17.470 --> 06:23.290
+Ho provato a dimostrare che tutti commettono errori anche io ed è
+
+06:23.290 --> 06:33.730
+bello perché in questo modo si pensa al problema e questi elementi totali ricordano che vogliamo andare avanti finché io sono maggiore o
+
+06:33.820 --> 06:35.330
+uguale a zero.
+
+06:35.350 --> 06:43.450
+Quindi, se ora gestisco questo, guarda che abbiamo un array con tutti i nostri elementi indietro proprio qui.
+
+06:44.250 --> 06:54.470
+E qui vedi che il valore di ritorno che otteniamo è la stringa all'indietro che riceviamo perché ci siamo
+
+06:54.740 --> 06:56.790
+uniti alla fine.
+
+06:56.950 --> 06:57.740
+Molto bello
+
+06:57.940 --> 06:59.830
+Spero che tu abbia ottenuto questa risposta.
+
+07:00.590 --> 07:09.590
+O forse avere una risposta migliore di me perché ciò che ho ascoltato non è necessariamente il modo più pulito
+
+07:09.590 --> 07:15.710
+e, a seconda del linguaggio di programmazione che utilizzi, potresti aver integrato metodi che
+
+07:15.710 --> 07:17.740
+hanno semplificato il passo.
+
+07:17.810 --> 07:18.890
+Lascia che ti mostri cosa intendo.
+
+07:19.840 --> 07:26.470
+In javascript, ad esempio, possiamo utilizzare alcuni metodi incorporati che accompagnano la gara per semplificare l'intera operazione
+
+07:26.470 --> 07:29.900
+e rendere il nostro codice molto più leggibile.
+
+07:29.920 --> 07:32.680
+Creiamo una nuova funzione
+
+07:36.170 --> 07:44.540
+e chiamerò anche questo reverse e questo stufato inverso riceverà nuovamente una sorta di input.
+
+07:44.660 --> 07:48.220
+Non eseguirò alcuna convalida dell'input per questo.
+
+07:48.260 --> 07:51.250
+Puoi semplicemente supporre che possiamo semplicemente copiarlo e incollarlo qui.
+
+07:52.050 --> 07:55.940
+Ma qui possiamo fare una semplice dichiarazione di ritorno.
+
+07:55.950 --> 08:05.550
+Afferra la stringa esegui il comando split perché questa volta non accediamo all'occhio come abbiamo fatto
+
+08:05.550 --> 08:06.620
+quassù.
+
+08:06.660 --> 08:14.730
+Lo convertiremo in un array in modo da poter utilizzare un metodo integrato disponibile
+
+08:14.730 --> 08:19.310
+in array javascript chiamato reverse e inverso.
+
+08:19.410 --> 08:20.100
+Mentre abbiamo appena fatto.
+
+08:20.100 --> 08:24.740
+Qui per noi e ora ci siamo appena uniti alla fine.
+
+08:25.810 --> 08:34.300
+Quindi, usando un metodo integrato chiamato reverse ho evitato tutto questo lavoro.
+
+08:34.300 --> 08:35.450
+Che bello.
+
+08:35.470 --> 08:36.370
+Vediamo se funziona.
+
+08:36.370 --> 08:41.350
+Ho intenzione di dire al contrario di andare a correre e guardarlo.
+
+08:41.350 --> 08:42.280
+Funziona ancora.
+
+08:43.180 --> 08:45.220
+Che ne dici di un'altra soluzione.
+
+08:45.390 --> 08:47.300
+Ancora tanti modi diversi.
+
+08:47.350 --> 08:55.200
+E diciamo che l'intervistatore dice che c'è un modo più moderno e più pulito di poter fare questa funzione
+
+08:56.430 --> 09:01.640
+e perché in javascript c'è la nuova sintassi di iOS 6.
+
+09:01.990 --> 09:11.910
+Puoi anche creare una funzione a una riga, chiamarla inversa a tre che prenderà una
+
+09:11.910 --> 09:16.170
+stringa e farà dividere il punto.
+
+09:19.760 --> 09:25.130
+E ancora fare la stessa identica cosa usando tutte le funzioni questa volta.
+
+09:25.240 --> 09:30.840
+E questo dovrebbe ancora funzionare esattamente allo stesso modo.
+
+09:30.920 --> 09:38.540
+E se vuoi essere fantasioso puoi usare ancora una nuova funzionalità di javascript che è destrutturante o non
+
+09:38.630 --> 09:41.290
+destrutturante, questo è l'operatore di diffusione.
+
+09:41.360 --> 09:46.570
+Se corro questo non abbiamo più bisogno della divisione.
+
+09:46.580 --> 09:49.880
+Posso eseguire questo e ottengo la stessa cosa.
+
+09:51.100 --> 09:57.190
+Ancora una volta voglio solo dimostrarti che ci sono molti modi diversi per risolvere
+
+09:57.190 --> 10:06.130
+un problema e un intervistatore non ti rifiuterà per un lavoro solo perché lo hai implementato in questo modo in questo
+
+10:06.130 --> 10:07.030
+modo.
+
+10:07.090 --> 10:10.450
+Dipende da come fornisci la tua soluzione.
+
+10:10.450 --> 10:16.140
+E questo è qualcosa di cui abbiamo parlato nel modo in cui risolviamo i problemi nella sezione in
+
+10:16.140 --> 10:19.760
+cui vuoi parlare del problema spiegando all'intervistatore perché l'hai fatto.
+
+10:19.970 --> 10:26.900
+E finché capisci i pro e i contro di ciascuna soluzione è ciò che rende un grande ingegnere.
+
+10:27.960 --> 10:28.970
+Vedrò nel prossimo.

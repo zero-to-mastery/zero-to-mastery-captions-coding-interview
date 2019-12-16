@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.380 --> 00:02.610
+Ben tornato.
+
+00:02.610 --> 00:09.550
+Fino a questo punto abbiamo parlato della lista collegata singolarmente e dovremmo avere una buona idea di come funzionano.
+
+00:09.990 --> 00:13.530
+Ma cos'è una lista doppiamente collegata.
+
+00:14.440 --> 00:19.500
+La lista doppiamente concatenata è simile, tranne che si collega al nodo prima di esso.
+
+00:19.660 --> 00:21.730
+Diamo un'occhiata ad una piccola animazione qui.
+
+00:22.670 --> 00:25.160
+Abbiamo un nodo principale.
+
+00:25.220 --> 00:26.860
+Diciamo che abbiamo solo un nodo.
+
+00:26.900 --> 00:28.730
+Vedi che abbiamo un blocco in più qui.
+
+00:28.730 --> 00:30.670
+Non siamo veramente sicuri di cosa faccia ancora.
+
+00:30.920 --> 00:36.300
+Ora se volessimo aggiungere un nuovo blocco a questa lista, un elenco doppiamente collegato.
+
+00:36.500 --> 00:39.710
+E volevamo aggiungere un nodo che contenga il valore 10.
+
+00:40.100 --> 00:46.210
+Bene, ora avremmo un puntatore al prossimo nodo.
+
+00:46.670 --> 00:48.390
+Avremmo anche un puntatore.
+
+00:48.470 --> 00:56.240
+Questa è la nuova parte del nodo precedente e il nuovo nodo punta a no.
+
+00:56.350 --> 01:02.900
+E questo ora diventa la coda se aggiungessimo un altro nodo.
+
+01:03.500 --> 01:13.970
+Bene avremmo il punto 10 nodo al nuovo nodo avremmo anche il nuovo nodo puntato al nodo precedente e poi finalmente
+
+01:14.810 --> 01:20.150
+quello diventerà una coda che significa che punta a no.
+
+01:20.290 --> 01:22.770
+Ed è quello che fa una lista doppiamente collegata.
+
+01:22.810 --> 01:31.240
+Ha un piccolo blocco aggiuntivo qui un pezzo extra di dati che si collega anche al nodo precedente.
+
+01:31.240 --> 01:34.540
+Ora, perché pensi che sia importante.
+
+01:34.540 --> 01:39.640
+Le liste collegate doppi ci permettono di attraversare la nostra lista al contrario.
+
+01:40.000 --> 01:46.030
+Quindi fino ad ora siamo stati in grado di andare dall'inizio fino alla fine con una lista doppiamente
+
+01:46.030 --> 01:46.390
+collegata.
+
+01:46.390 --> 01:49.920
+Posso iniziare dalla fine e andare indietro.
+
+01:50.850 --> 01:58.970
+In una lista concatenata non c'è modo per me di sapere cosa viene prima di 10 ciò che precede questa nota.
+
+01:59.010 --> 02:01.800
+In una lista doppiamente collegata non c'è problema.
+
+02:01.800 --> 02:09.150
+È esattamente la stessa dell'elenco linkato singolarmente, ma contiene questo puntatore aggiuntivo al nodo precedente e
+
+02:09.150 --> 02:16.170
+la ricerca in una lista doppiamente collegata può effettivamente essere un po 'più efficiente.
+
+02:16.980 --> 02:23.730
+E cercare tecnicamente può essere tutto e dividere per due perché possiamo iniziare
+
+02:23.730 --> 02:33.720
+da entrambe le estremità e se sappiamo in quale metà dell'elenco stiamo cercando, possiamo scegliere il posto migliore per iniziare.
+
+02:33.720 --> 02:36.210
+Ora guarda qui è ancora tutto.
+
+02:36.240 --> 02:44.520
+E perché se ricordi con il nostro libro delle regole con 0 0 0 12 e diviso per 2 è ancora tutto allora
+
+02:44.610 --> 02:47.810
+ma è tecnicamente ancora un po 'più veloce.
+
+02:47.880 --> 02:53.940
+Ora il lato negativo di una lista doppiamente collegata, come potete vedere, è che dovremmo avere un po
+
+02:53.940 --> 03:00.930
+'più di memoria e un ulteriore blocco di memoria e abbiamo un video che parla di quando usare la lista di raddoppiamenti
+
+03:00.930 --> 03:02.460
+e una lista concatenata.
+
+03:02.610 --> 03:09.410
+In seguito, ma per capire correttamente, penso che dovremmo convertire le nostre liste collegate separatamente che abbiamo
+
+03:09.440 --> 03:13.210
+creato nei video precedenti in una lista doppiamente collegata.
+
+03:13.280 --> 03:15.440
+Quindi diamo un'occhiata a come farlo.
+
+03:15.680 --> 03:17.060
+Vedrò nel prossimo.
+
+03:17.180 --> 03:17.430
+Babai.

@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.750 --> 00:09.340
+Aby rozwiązać problemy związane z kojarzeniem, musimy nauczyć się tych struktur danych i tych algorytmów.
+
+00:09.390 --> 00:10.900
+Nie wygląda tak źle.
+
+00:11.970 --> 00:13.500
+Oto wielka tajemnica.
+
+00:13.500 --> 00:18.620
+Istnieje o wiele więcej struktur danych w tym i dużo więcej algorytmów niż to.
+
+00:19.390 --> 00:26.500
+Ale podobnie jak w przypadku nauki nowego języka, nie czyta się słownika i nie uczy się każdego
+
+00:26.500 --> 00:28.590
+słowa w tym słowniku.
+
+00:28.600 --> 00:34.170
+A w tym języku skupiasz się na komunikacji z innymi.
+
+00:34.210 --> 00:37.700
+Skupiasz się tylko na rzeczach, które są używane przez większość czasu.
+
+00:37.960 --> 00:43.240
+A jeśli chodzi o struktury danych i algorytmy, to właśnie tam będziesz zadawał
+
+00:43.240 --> 00:50.710
+pytania i wywiady, ponieważ to one są używane przez większość czasu i przez 90 procent czasu na rozwiązanie naprawdę
+
+00:50.710 --> 00:54.100
+skomplikowanego problemu, z którego korzystasz tylko rzeczy.
+
+00:54.130 --> 00:55.560
+Nie wygląda tak źle.
+
+00:55.900 --> 01:02.340
+Wszystko, czego potrzebujesz, to umiejętności podstawowe, a firmy chcą wiedzieć, że przygotowałeś się do rozmowy kwalifikacyjnej i możesz
+
+01:02.340 --> 01:04.300
+odnieść sukces w swoim systemie.
+
+01:05.200 --> 01:10.330
+Wiele osób narzeka na kodowanie wywiadów lub białych tablic wywiadowczych i na to, jak
+
+01:10.330 --> 01:15.880
+bezużyteczne są, ponieważ nigdy nie używają niektórych z tych algorytmów lub struktury danych w swojej codziennej pracy.
+
+01:17.090 --> 01:21.550
+Ale to tylko sposób na pozbycie się ludzi, którzy nie chcą ciężko pracować.
+
+01:23.040 --> 01:24.720
+Spójrz na to jako na przewagę.
+
+01:24.870 --> 01:27.200
+Niewiele osób pracuje nad pytaniami o rozmowę kwalifikacyjną.
+
+01:27.300 --> 01:32.220
+Będziesz pracować więcej niż 99 procent ludzi, ponieważ wiesz, że zdobycie
+
+01:32.220 --> 01:36.280
+dobrej pracy będzie miało duży wpływ na twoje życie.
+
+01:36.450 --> 01:38.310
+I mam na myśli to, dlatego bierzesz kurs.
+
+01:38.430 --> 01:42.420
+I jak widzisz, dobrą wiadomością jest to, że nie jest tak trudne, jak myślisz.
+
+01:42.420 --> 01:49.800
+Trzeba po prostu poświęcić swój czas i wysiłek na właściwe rzeczy, o ile poznajemy nasze właściwe struktury danych.
+
+01:49.890 --> 01:54.360
+Kiedy i dlaczego z nich korzystać, jak je wdrożyć, jak rozwiązywać problemy z nimi.
+
+01:54.360 --> 02:02.580
+Podobnie jest z algorytmami i łączymy je z naszym arkuszem do ściągania, który utworzę dla ciebie, kiedy porównamy nasz
+
+02:02.580 --> 02:04.520
+kod, który jest czytelny.
+
+02:04.680 --> 02:11.780
+Jest to efektywne pod względem pamięci i czasochłonne przy użyciu big-O między tymi dwoma.
+
+02:12.060 --> 02:16.460
+To wszystko są wywiady, o które proszą wszystkie wywiady dotyczące kodowania.
+
+02:16.920 --> 02:24.300
+Jeśli wrócimy do naszego internetowego kursu, teraz wchodzimy do działu wywiadów technicznych.
+
+02:24.630 --> 02:29.790
+A kiedy kliknę tutaj, na początku będzie to przytłaczające, a my przejdziemy
+
+02:29.790 --> 02:32.810
+do tego schematu, więc wszystko ma sens.
+
+02:32.880 --> 02:37.310
+Porozmawiamy o różnych strukturach danych, które mamy.
+
+02:37.410 --> 02:38.780
+Przesuńmy nieco tutaj.
+
+02:39.790 --> 02:44.620
+Widać, że będziemy rozmawiać o stosach i wykresach drzewek z tablicami oraz o wiele więcej.
+
+02:44.620 --> 02:48.640
+Porozmawiamy o wielkim O każdej z tych struktur danych.
+
+02:48.700 --> 02:54.610
+Porozmawiamy o różnych algorytmach, kiedy używać tego, co i jak mówiłem, z początku będzie to
+
+02:54.640 --> 03:01.030
+wyglądało na przytłaczające, ale zamierzamy przejść to krok po kroku, aby na końcu wszystko to miało
+
+03:01.030 --> 03:02.450
+dla ciebie sens.
+
+03:02.470 --> 03:10.650
+Zamierzamy również użyć arkusza do ściągnięcia, aby pomóc nam rozwiązać problemy z kodowaniem.
+
+03:10.690 --> 03:15.060
+Teraz w tym ściągnięciu opisaliśmy już trzy filary dobrego kodu.
+
+03:15.070 --> 03:21.070
+Rozmawialiśmy już o tym, jakich umiejętności szuka poszukiwacz, ale nie rozmawialiśmy
+
+03:21.400 --> 03:23.770
+o tej części.
+
+03:23.900 --> 03:25.870
+Zacznijmy od tej sekcji w następnym wideo.

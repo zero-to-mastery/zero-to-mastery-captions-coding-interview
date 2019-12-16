@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.730 --> 00:08.450
+Selamat datang kembali sekarang. Saya tidak akan membahas semua langkah kami yang kami gunakan di bagian di
+
+00:08.450 --> 00:15.540
+mana kami berbicara tentang bagaimana menyelesaikan masalah dan bagaimana membicarakan masalah Anda di depan pewawancara.
+
+00:15.950 --> 00:21.620
+Dan kami bahkan menonton video google Die semua hal yang perlu Anda lakukan karena itu akan memakan
+
+00:21.620 --> 00:22.870
+waktu terlalu lama.
+
+00:22.880 --> 00:28.500
+Saya akan mempercepat dan hanya berbicara tentang poin utama tentang bagaimana Anda akan menyelesaikan masalah ini.
+
+00:28.760 --> 00:37.540
+Nah, untuk membalikkan senar, hal pertama yang ingin kita lakukan adalah memeriksa implan kita.
+
+00:37.730 --> 00:43.340
+Kita tidak bisa hanya berasumsi bahwa kita akan selalu menerima string. Bagaimana
+
+00:43.340 --> 00:48.950
+jika seseorang memanggil fungsi terbalik dengan baik tidak terdefinisi atau dengan nomor.
+
+00:48.950 --> 00:50.050
+Apa yang terjadi kemudian?
+
+00:50.480 --> 00:53.750
+Dan hal yang baik untuk selalu memulai adalah dengan memeriksa input.
+
+00:53.750 --> 00:56.360
+Dalam kasus saya, saya akan melakukan pemeriksaan sederhana.
+
+00:56.390 --> 01:01.610
+Katakanlah jika tidak ada string.
+
+01:01.850 --> 01:11.950
+Jadi itu tidak terdefinisi atau mungkin bahwa panjang dot string kurang dari 2.
+
+01:11.990 --> 01:22.160
+Itu berarti baik jika panjang string kurang dari 2 itu berarti saya hanya menerima satu huruf atau tidak ada huruf dalam hal ini kita tidak
+
+01:22.250 --> 01:25.010
+benar-benar perlu melakukan operasi apa pun.
+
+01:25.010 --> 01:26.600
+Sudah agak terbalik.
+
+01:27.860 --> 01:34.610
+Dan kita dapat menambahkan validasi input yang berbeda di sini seperti menggunakan jenis kata kunci dalam javascript untuk memeriksa
+
+01:34.610 --> 01:36.110
+apakah itu tipe string.
+
+01:36.440 --> 01:38.950
+Tapi itu sesuatu yang bisa kamu lakukan sendiri.
+
+01:39.080 --> 01:42.000
+Sebenarnya mari kita implementasikan karena kita ada di sini hanya untuk menunjukkan Anda.
+
+01:42.170 --> 01:53.790
+Jadi saya bisa mengatakan tipe string jika tidak sama dengan tipe string SDR yang merupakan parameter yang kami terima sebagai
+
+01:53.820 --> 01:56.280
+sama dengan tipe string.
+
+01:56.280 --> 02:03.590
+Kalau begitu kita bisa kembali.
+
+02:04.200 --> 02:04.970
+Itu
+
+02:10.070 --> 02:14.810
+tidak baik kalau tidak, mari kita lakukan beberapa operasi untuk membalikkan string.
+
+02:15.290 --> 02:17.420
+Baiklah mari kita pikirkan tentang ini.
+
+02:17.450 --> 02:20.780
+Kami ingin mengubahnya menjadi sebuah array.
+
+02:20.840 --> 02:29.260
+Jadi saya akan membuat array mundur dan inilah yang akan kita kembali dari fungsi.
+
+02:29.400 --> 02:38.000
+Saya akan mengembalikan array yang terbalik tetapi kami ingin mengembalikan sebuah string dengan benar.
+
+02:38.000 --> 02:39.390
+Itu membalikkan string.
+
+02:39.410 --> 02:40.980
+Ini harus mengembalikan string.
+
+02:42.060 --> 02:48.120
+Meskipun kita akan mengonversi apa pun yang kita terima menjadi array pada akhirnya kita ingin mengubahnya kembali
+
+02:48.120 --> 02:49.160
+menjadi string.
+
+02:49.500 --> 03:02.900
+Jadi dalam javascript kita bisa melakukan metode dua string atau metode bersama dan kita hanya mengatakan gabung semua item dalam
+
+03:03.020 --> 03:04.020
+array.
+
+03:04.100 --> 03:15.790
+Sekarang di sini kita akan mengambil lenth dari array atau string karena kita akan sering menggunakannya dan kita tidak
+
+03:15.790 --> 03:18.180
+ingin kode berulang.
+
+03:18.330 --> 03:25.060
+Jadi saya akan katakan satu dikurangi minus adalah berapa banyak item yang kita miliki dalam string.
+
+03:25.270 --> 03:26.980
+Atau mungkin kita harus
+
+03:30.830 --> 03:33.330
+memberi nama item ini atau sebenarnya total item.
+
+03:33.400 --> 03:34.820
+Nama yang lebih baik.
+
+03:34.950 --> 03:36.800
+Sekarang total barang-barang ini.
+
+03:36.930 --> 03:44.310
+Jadi kita akan mengulang-ulang string kita dan katakan biarkan.
+
+03:44.460 --> 03:47.520
+Dia memanggil ke total item.
+
+03:50.100 --> 03:56.560
+Jadi saya akan sama dengan berapa banyak karakter yang kita miliki dalam string kita dan kita
+
+03:56.560 --> 03:59.850
+akan terus berjalan sampai saya sama dengan nol.
+
+04:03.520 --> 04:10.030
+Dan semua akan kita lakukan karena kita ingin pergi dari belakang ke depan.
+
+04:10.370 --> 04:13.620
+Kami akan mendokumentasikan ini.
+
+04:13.640 --> 04:18.950
+Jadi kita akan pergi dari panjang string ke belakang jadi kita
+
+04:18.980 --> 04:29.780
+akan mulai dengan I C R D dan A dan memasukkannya ke dalam array yang telah kita buat satu ke belakang array satu per satu.
+
+04:29.790 --> 04:40.760
+Jadi dalam loop ini yang akan kita lakukan adalah mengatakan mundur jangan mendorong setiap item yang akan kita buat.
+
+04:40.770 --> 04:41.930
+Jadi SDR dan
+
+04:44.770 --> 04:46.380
+saya tahu apa yang Anda pikirkan.
+
+04:46.620 --> 04:50.860
+Baiklah, mengapa kita tidak mengubah string menjadi array saja.
+
+04:50.890 --> 04:56.710
+Anda memberi tahu saya semua tentang mengubah string menjadi array dan kami tidak benar-benar melakukannya.
+
+04:56.770 --> 05:06.860
+Dan javascript sebenarnya memiliki SDR dot split atau kita dapat menjalankan perintah split untuk membagi berbagai hal menjadi sebuah
+
+05:06.860 --> 05:16.430
+array tetapi dengan javascript kita sebenarnya dapat menggunakan string sebagai array dan mengakses setiap properti seperti ini dengan
+
+05:16.430 --> 05:21.480
+Braque dan notasi sehingga pada dasarnya array kita.
+
+05:21.800 --> 05:24.260
+Jadi kita tidak harus menjalankan perintah split.
+
+05:24.260 --> 05:33.440
+Ini juga bekerja dan semua yang kita lakukan adalah kita mundur satu per satu dan mendorong setiap item
+
+05:33.440 --> 05:37.570
+dari string kita ke dalam array kita.
+
+05:38.060 --> 05:48.570
+Jadi jika saya konsol log di sini sebelum kita menjalankan perintah bersama array mundur dan Iran mundur
+
+05:51.580 --> 05:54.680
+dan mari kita membalikkan string
+
+05:58.960 --> 06:01.440
+mari kita jalankan ini.
+
+06:01.680 --> 06:09.450
+Dan Anda mungkin telah memperhatikan bahwa lenth ini tidak benar-benar datang dari mana pun itu seharusnya menjadi barang total.
+
+06:09.450 --> 06:15.580
+Jadi ini adalah total item total whoops.
+
+06:15.580 --> 06:17.450
+Ini adalah masalah dengan life coding.
+
+06:17.470 --> 06:23.290
+Saya mencoba untuk menunjukkan bahwa semua orang membuat kesalahan sendiri dan itu
+
+06:23.290 --> 06:33.730
+baik karena dengan cara ini Anda memikirkan masalah dan total item ini ingat kami ingin terus berjalan selama saya lebih besar dari atau
+
+06:33.820 --> 06:35.330
+sama dengan nol.
+
+06:35.350 --> 06:43.450
+Jadi jika sekarang saya menjalankan ini, hei lihat bahwa kita memiliki array dengan semua item terbelakang kami di sini.
+
+06:44.250 --> 06:54.470
+Dan Anda lihat di sini bahwa nilai pengembalian yang kami dapatkan adalah string mundur yang kami terima karena kami
+
+06:54.740 --> 06:56.790
+bergabung di akhir.
+
+06:56.950 --> 06:57.740
+Sangat keren.
+
+06:57.940 --> 06:59.830
+Saya harap Anda mendapat jawaban itu.
+
+07:00.590 --> 07:09.590
+Atau mungkin memiliki jawaban yang lebih baik daripada saya karena apa yang saya dengar belum tentu cara terbersih
+
+07:09.590 --> 07:15.710
+dan tergantung pada bahasa pemrograman yang Anda gunakan, Anda mungkin telah membangun metode
+
+07:15.710 --> 07:17.740
+yang menyederhanakan langkah.
+
+07:17.810 --> 07:18.890
+Mari saya tunjukkan apa yang saya maksud.
+
+07:19.840 --> 07:26.470
+Dalam javascript misalnya, kita dapat menggunakan beberapa metode bawaan yang datang dengan perlombaan untuk menyederhanakan semua
+
+07:26.470 --> 07:29.900
+ini dan membuat kode kita lebih mudah dibaca.
+
+07:29.920 --> 07:32.680
+Mari kita buat fungsi baru
+
+07:36.170 --> 07:44.540
+dan saya akan menyebutnya terbalik juga dan rebusan terbalik ini akan sekali lagi menerima semacam input.
+
+07:44.660 --> 07:48.220
+Saya tidak akan melakukan validasi input apa pun untuk yang ini.
+
+07:48.260 --> 07:51.250
+Anda dapat mengasumsikan bahwa kami hanya dapat menyalin dan menempelkannya di sini.
+
+07:52.050 --> 07:55.940
+Tetapi di sini kita dapat melakukan pernyataan pengembalian yang sederhana.
+
+07:55.950 --> 08:05.550
+Ambil string jalankan perintah split karena kali ini kita tidak akan mengakses mata seperti yang kita lakukan di
+
+08:05.550 --> 08:06.620
+sini.
+
+08:06.660 --> 08:14.730
+Kita akan mengonversinya menjadi sebuah array sehingga kita dapat menggunakan metode bawaan yang datang dalam
+
+08:14.730 --> 08:19.310
+javascript array yang disebut terbalik dan sebaliknya.
+
+08:19.410 --> 08:20.100
+Sementara kami baru saja melakukannya.
+
+08:20.100 --> 08:24.740
+Di sini untuk kita dan sekarang kita baru saja bergabung di akhir.
+
+08:25.810 --> 08:34.300
+Jadi dengan menggunakan metode bawaan yang disebut terbalik, saya menghindari semua pekerjaan ini.
+
+08:34.300 --> 08:35.450
+Betapa baiknya itu.
+
+08:35.470 --> 08:36.370
+Mari kita lihat apakah itu berhasil.
+
+08:36.370 --> 08:41.350
+Saya akan mengatakan sebaliknya untuk berlari dan melihat itu.
+
+08:41.350 --> 08:42.280
+Masih bekerja.
+
+08:43.180 --> 08:45.220
+Bagaimana dengan solusi lain.
+
+08:45.390 --> 08:47.300
+Lagi-lagi berbagai cara.
+
+08:47.350 --> 08:55.200
+Dan katakanlah pewawancara mengatakan apakah ada cara yang lebih modern yang Anda dapat membuat fungsi ini
+
+08:56.430 --> 09:01.640
+dan karena di javascript ada sintaks iOS 6 baru.
+
+09:01.990 --> 09:11.910
+Anda bahkan dapat membuat fungsi satu baris, panggil terbalik tiga yang akan mengambil string dan
+
+09:11.910 --> 09:16.170
+itu akan melakukan string dot split
+
+09:19.760 --> 09:25.130
+Dan lagi lakukan hal yang sama persis menggunakan setiap fungsi kali ini.
+
+09:25.240 --> 09:30.840
+Dan ini harus tetap bekerja dengan tampilan yang sama persis seperti itu.
+
+09:30.920 --> 09:38.540
+Dan jika Anda ingin menjadi mewah, Anda dapat kembali menggunakan fitur baru javascript yang merusak atau tidak
+
+09:38.630 --> 09:41.290
+merusak ini adalah operator spread.
+
+09:41.360 --> 09:46.570
+Jika saya menjalankan ini, kita tidak perlu lagi membagi.
+
+09:46.580 --> 09:49.880
+Saya dapat menjalankan ini dan saya mendapatkan hal yang sama.
+
+09:51.100 --> 09:57.190
+Sekali lagi saya hanya ingin menunjukkan kepada Anda bahwa ada banyak cara berbeda untuk
+
+09:57.190 --> 10:06.130
+menyelesaikan masalah dan pewawancara tidak akan menolak Anda untuk suatu pekerjaan hanya karena Anda menerapkannya dengan cara ini versus cara
+
+10:06.130 --> 10:07.030
+ini.
+
+10:07.090 --> 10:10.450
+Itu tergantung pada bagaimana Anda memberikan solusi Anda.
+
+10:10.450 --> 10:16.140
+Dan ini adalah sesuatu yang kita bicarakan di bagian bagaimana menyelesaikan masalah bagaimana Anda ingin
+
+10:16.140 --> 10:19.760
+membicarakan masalah tersebut menjelaskan kepada pewawancara mengapa Anda melakukannya.
+
+10:19.970 --> 10:26.900
+Dan selama Anda memahami pro dan kontra dari setiap solusi itulah yang membuat insinyur hebat.
+
+10:27.960 --> 10:28.970
+Saya akan melihat yang berikutnya.

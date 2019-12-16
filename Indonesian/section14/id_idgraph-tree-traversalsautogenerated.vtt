@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.850 --> 00:08.350
+Ada kalanya kita ingin melakukan sesuatu yang disebut traversal dan nama traversal dan pencarian sering
+
+00:08.350 --> 00:13.800
+digunakan secara bergantian kadang-kadang berarti hal yang sama kadang tidak.
+
+00:14.080 --> 00:19.320
+Sampai sekarang kami berbicara tentang pohon pencarian biner dan kami tahu apa yang kami cari.
+
+00:19.330 --> 00:27.050
+Dan kami selalu tahu ke mana harus pergi ke kiri atau ke kanan tetapi di lain waktu kami ingin melakukan beberapa operasi pada nada
+
+00:27.050 --> 00:32.410
+yang sama seperti yang saya sebutkan sebelumnya, kami mungkin ingin menambahkan properti warna ke catatan ini.
+
+00:32.690 --> 00:41.090
+Mungkin jika kami memiliki simpul pengguna, kami ingin menambahkan properti H ke semua pengguna kami yang berada dalam struktur pohon.
+
+00:41.210 --> 00:45.700
+Brewhouse Anda ingin menambahkan properti bentuk ke node ini.
+
+00:45.900 --> 00:51.020
+Atau mungkin kita tidak memiliki pohon yang disortir.
+
+00:51.120 --> 00:58.290
+Ini bukan pohon pencarian biner atau kami memiliki grafik yang tidak memiliki urutan untuk itu dalam hal ini kami harus
+
+00:58.380 --> 00:59.650
+mengunjungi setiap node.
+
+00:59.910 --> 01:06.420
+Atau mungkin kita sedang bekerja di google dan bos kita meminta kita untuk dapatkah kita memeriksa apakah aliran pencarian
+
+01:06.990 --> 01:13.530
+biner yang kita masukkan ke dalam basis data kita benar dan bahwa itu benar-benar valid dan memastikan bahwa item
+
+01:13.560 --> 01:16.410
+kiri selalu lebih rendah dari item yang tepat.
+
+01:17.330 --> 01:24.240
+Dan agar kita dapat memeriksa bahwa kita harus menyentuh setiap not, tetapi bagaimana kita akan melakukan
+
+01:24.240 --> 01:24.840
+ini.
+
+01:24.870 --> 01:32.250
+Anda dapat menganggap traversal sebagai mengunjungi setiap not dan seperti yang dapat Anda bayangkan karena kami
+
+01:32.250 --> 01:36.930
+mengunjungi setiap node yang merupakan pemilik waktu linear operasi.
+
+01:36.930 --> 01:45.420
+Sampai sekarang kami melakukan loop untuk mengunjungi semua struktur data kami yang lain seperti susunan yang ditautkan
+
+01:46.110 --> 01:48.310
+daftar susunan tabel hash.
+
+01:48.330 --> 01:57.260
+Jadi bagaimana kita melakukan ini dalam struktur data seperti pohon atau bahkan grafik.
+
+01:57.290 --> 02:01.510
+Untungnya bagi kita ada dua cara untuk melakukan ini yang perlu kita pelajari.
+
+02:01.740 --> 02:05.230
+Satu tepat di sini.
+
+02:05.390 --> 02:12.050
+Apakah kita harus melakukan traversal pohon atau kita harus melakukan traversal grafik.
+
+02:12.160 --> 02:18.480
+Dalam hal ini dua opsi kami sama persis.
+
+02:18.590 --> 02:25.700
+Kami memiliki pencarian pertama yang luas dan pencarian pertama yang dalam dan kadang-kadang ini disebut traversal alih-alih pencarian
+
+02:25.700 --> 02:29.840
+karena Anda dapat melihat keduanya dengan pohon dan kerajinan.
+
+02:29.870 --> 02:31.710
+Itu adalah hal yang sama.
+
+02:31.900 --> 02:39.790
+O besar dan karena kita harus mengunjungi setiap node menggunakan dua teknik ini.
+
+02:39.790 --> 02:46.570
+Tetapi mari kita tinjau mengapa ini penting dan mengapa kita tidak menyimpan semuanya dan hanya daftar yang lebih
+
+02:46.570 --> 02:47.440
+mudah dimengerti.
+
+02:48.250 --> 02:57.060
+Nah manfaat utama mengapa kita tidak memasukkan data kompleks ke dalam daftar seperti array yang diurutkan
+
+02:57.060 --> 03:02.430
+adalah bahwa kita mendapatkan O dari pencarian dan pencarian.
+
+03:02.580 --> 03:04.110
+Bagaimana dengan tabel hash.
+
+03:04.110 --> 03:05.130
+Itu mudah.
+
+03:05.370 --> 03:11.730
+Ingat juga bahwa tabel hash tidak teratur dan pada akhirnya Anda mewakili data dengan struktur
+
+03:11.730 --> 03:19.110
+data yang berbeda berdasarkan kebutuhan mereka dan pohon dan rumput bekerja sangat baik untuk banyak kasus yang telah
+
+03:19.200 --> 03:25.440
+kita bahas ketika kita mencari hal-hal yang kita manfaatkan tetapi juga ketika kita memasukkan atau
+
+03:25.440 --> 03:31.180
+menghapus item, kita memiliki kinerja yang lebih baik daripada sesuatu seperti array.
+
+03:31.410 --> 03:37.230
+Tetapi kami juga mempertahankan urutan yang tidak akan kami miliki dengan pohon tabel
+
+03:37.290 --> 03:45.540
+hash dan grafik banyak digunakan ketika kami ingin mencari node atau mengunjungi setiap node dan itu mewakili banyak data yang
+
+03:45.540 --> 03:46.920
+memodelkan dunia nyata.
+
+03:46.920 --> 03:52.160
+Sekarang mari kita telusuri bagaimana kedua teknik traversal ini bekerja.
+
+03:52.890 --> 03:53.840
+Saya akan melihat yang berikutnya.

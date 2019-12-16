@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.450 --> 00:02.500
+Bine ai revenit.
+
+00:02.800 --> 00:06.930
+Am aflat despre liste singure și duble legate.
+
+00:06.990 --> 00:10.620
+Deci, hai să vorbim despre când ar trebui să folosiți una peste cealaltă.
+
+00:10.620 --> 00:13.620
+Să începem cu lista individuală legată.
+
+00:14.260 --> 00:21.070
+Pro pentru o singură listă legată este că este o implementare destul de simplă, în special față
+
+00:21.070 --> 00:22.590
+de cea dublă.
+
+00:22.840 --> 00:26.350
+Este nevoie de mai puțină memorie, așa cum putem vedea aici mai puțin Block.
+
+00:26.860 --> 00:34.030
+Și pentru că avem mai puțină memorie atunci când facem lucruri cum ar fi ștergerea și inserarea pentru că există o operare mai mică din punct de
+
+00:34.030 --> 00:37.300
+vedere tehnic, nu trebuie să ne mutăm în jurul proprietății anterioare.
+
+00:37.300 --> 00:39.420
+Este un pic mai rapid.
+
+00:39.610 --> 00:47.950
+Acum, dezavantajul cu o singură listă legată este că nu poate fi repetat înapoi sau traversat din spate în
+
+00:48.190 --> 00:54.610
+față dacă vom pierde vreodată referința la acest Dot avut nod al listei.
+
+00:54.610 --> 01:02.080
+Lista poate fi de fapt pierdută în memorie pentru totdeauna, astfel încât singura listă este potrivită pentru a utiliza atunci când aveți mai puțină memorie
+
+01:02.080 --> 01:04.030
+sau memorie este cu adevărat costisitoare.
+
+01:04.030 --> 01:10.780
+Vreți să fiți atenți la cât de mult folosiți și obiectivul dvs. principal este acela că doriți să inserați și
+
+01:10.810 --> 01:12.070
+să ștergeți rapid.
+
+01:12.280 --> 01:19.060
+Și nu chiar căutați prea mult atunci când aveți o inserție la începutul unei
+
+01:19.060 --> 01:19.560
+liste.
+
+01:20.550 --> 01:21.710
+O listă dublu legată.
+
+01:21.760 --> 01:29.490
+Partea bună este că poate fi repetată sau traversată atât din față, cât și din spate.
+
+01:29.490 --> 01:35.910
+O altă frumusețe este că, dacă trebuie să ștergi un nod anterior, nu trebuie să treci de la nodul cap și
+
+01:35.910 --> 01:41.650
+să găsești ceea ce antetul anterior pe care o listă cu liste singulare nu are niciun concept.
+
+01:42.060 --> 01:45.620
+Puteți face acest lucru destul de ușor cu o listă dublată.
+
+01:46.530 --> 01:54.270
+Acum dezavantajul este că este destul de complex pe măsură ce am văzut să implementăm și necesită mai multă memorie și spațiu de
+
+01:54.630 --> 02:01.050
+stocare din cauza acestei proprietăți suplimentare și există câteva operații reale pe care trebuie să le îndeplinim pentru a
+
+02:01.050 --> 02:06.640
+ne asigura că atunci când introducem și ștergem că anterioare proprietatea este actualizată, de asemenea.
+
+02:06.900 --> 02:12.130
+Așadar, listele duble legate sunt foarte bune atunci când nu aveți prea multă limitare în memorie.
+
+02:12.850 --> 02:19.510
+Și când doriți o operațiune bună pentru căutarea unor elemente cum ar fi căutarea înapoi, în loc
+
+02:19.540 --> 02:25.760
+de Fort cel mai des în situațiile de interviu, veți vedea o singură listă legată.
+
+02:25.830 --> 02:32.490
+S-ar putea să vi se adreseze o întrebare teoretică sau amplă despre diferența dintre lista singulară și cea
+
+02:32.490 --> 02:32.870
+dublă.
+
+02:33.120 --> 02:36.390
+Dar, de cele mai multe ori, acolo veți vedea.
+
+02:36.490 --> 02:37.030
+In regula.
+
+02:37.510 --> 02:39.200
+Ne vedem în următorul videoclip.
+
+02:39.220 --> 02:39.490
+Buh-Pa.

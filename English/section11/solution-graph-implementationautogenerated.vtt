@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.410 --> 00:02.330
+Welcome back.
+
+00:02.760 --> 00:05.340
+How did you do in this exercise.
+
+00:05.340 --> 00:08.060
+Were you successful were you not.
+
+00:08.520 --> 00:09.460
+Here's the thing.
+
+00:09.510 --> 00:19.930
+This is actually extremely simple but it looks overly complex and that's a general trend with Krass.
+
+00:19.940 --> 00:26.930
+They look really really intimidating at first and really hard to really think about them in your mind.
+
+00:26.930 --> 00:31.810
+But once you put things down understand things maybe draw things out.
+
+00:31.980 --> 00:37.280
+They're actually quite simple and they're very similar to what we've learned up until now everything
+
+00:37.280 --> 00:45.290
+we've learned about hash tables arrays trees linked lists are all part of graphs and graphs simply use
+
+00:45.410 --> 00:46.810
+those data structures.
+
+00:46.910 --> 00:53.060
+For those of you that weren't able to solve this problem it might be because you were a little bit intimidated
+
+00:53.690 --> 00:55.030
+to the task at hand.
+
+00:56.020 --> 01:03.570
+But let me show you how simple this can be in order to add a vertex to our adjacency list.
+
+01:03.610 --> 01:14.090
+All we need to do is to simply say this Dot had or this adjacency list is going to have node.
+
+01:14.320 --> 01:20.400
+So we're adding the key into this object of the know that we want to add.
+
+01:20.950 --> 01:27.850
+And that's going to equal an empty array because when we enter a new node it's not going to have any
+
+01:27.850 --> 01:29.210
+connections initially.
+
+01:30.030 --> 01:32.920
+We want to add the edges afterwards.
+
+01:33.910 --> 01:39.840
+And then finally we want to increase the number of nodes by 1.
+
+01:39.850 --> 01:41.760
+Now we have one more.
+
+01:41.760 --> 01:43.240
+That's it.
+
+01:43.320 --> 01:46.130
+We've just created our notes.
+
+01:46.260 --> 01:47.040
+Look at that.
+
+01:47.130 --> 01:51.550
+We have zero all the way through six and they are in our graph.
+
+01:51.570 --> 01:54.260
+Unfortunately none of them connect to anything.
+
+01:54.450 --> 01:57.990
+We've just created the notes but not the edges.
+
+01:57.990 --> 01:59.510
+So let's go ahead and do that.
+
+02:00.510 --> 02:04.270
+With the edges because this is an undirected graph.
+
+02:05.180 --> 02:15.920
+Well we'll have to do is say this dot adjacent list is going to say no to one that is the first node
+
+02:16.010 --> 02:22.540
+that we're giving and the node one is going to push.
+
+02:22.550 --> 02:29.330
+Remember this is an object so we're getting the key so that is let's say this is node 0 it's going to
+
+02:29.330 --> 02:35.750
+push to the array of connections that knows your house and say that it's going to be connected to Node
+
+02:36.020 --> 02:42.780
+2 and because this is on directed that means we have to do it the other way around as well.
+
+02:42.780 --> 02:45.110
+So we simply copy this.
+
+02:45.220 --> 02:51.150
+Let's make this a little bit bigger so you can see and we simply reverse things.
+
+02:51.160 --> 02:55.460
+So no 2 is also connected to node one.
+
+02:55.630 --> 03:04.270
+If I press run here look at that we have our graph how simple as that.
+
+03:04.480 --> 03:05.650
+That wasn't bad right.
+
+03:05.690 --> 03:09.870
+And I mean we could create this in a linked list if we wanted to.
+
+03:10.090 --> 03:12.890
+But the concept is the same.
+
+03:13.180 --> 03:19.500
+If we look at 0 that is connected to 1 and 2 we can confirm that 0 is connected to 1 and 2.
+
+03:19.550 --> 03:30.160
+If we look at 1 3 2 0 1 is collected 2 3 2 0 and less Shekh maybe 5 which is connected to 4 6 5 is connected
+
+03:30.160 --> 03:32.110
+to 4 6.
+
+03:32.350 --> 03:36.780
+And there it is we've just created our very first graph.
+
+03:37.150 --> 03:43.030
+When it comes to interviews graphs aren't as big of a topic as the other data.
+
+03:43.060 --> 03:49.870
+Data Structures mostly because they take a bit of time and questions regarding graphs can be overly
+
+03:49.870 --> 03:50.880
+complex.
+
+03:50.950 --> 03:54.610
+That doesn't mean that you won't see them but they are rare.
+
+03:54.910 --> 04:03.040
+However by knowing the basic fundamentals what types of grass we have and how you might create crafts
+
+04:03.490 --> 04:10.600
+how you might want to hold data and graphs such as adjacency matrix adjacency list an edge list.
+
+04:10.600 --> 04:17.480
+You already show that you have the ability to understand graphs which is an advanced concept now because
+
+04:17.480 --> 04:21.690
+graph questions aren't that big a part of interviews.
+
+04:21.830 --> 04:24.480
+We won't be spending any more coding time on it.
+
+04:24.620 --> 04:29.690
+But also keep in mind that we have a section coming up on algorithms where we're going to dive a little
+
+04:29.690 --> 04:35.680
+bit deeper into things such as breadth first search and depth first search which can be applied both
+
+04:35.710 --> 04:37.810
+digraphs and Treece.
+
+04:37.880 --> 04:43.490
+So if you feel like you can still learn a bit about graphs don't worry we're still getting there.
+
+04:43.610 --> 04:47.830
+But for now congratulations on creating your first graph.
+
+04:48.020 --> 04:49.440
+I'll see in the next video.
+
+04:49.790 --> 04:50.120
+Buh-Bye.

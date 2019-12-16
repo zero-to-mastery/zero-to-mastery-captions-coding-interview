@@ -1,0 +1,685 @@
+WEBVTT
+
+00:01.440 --> 00:08.670
+Welcome back by this point you should be familiar with how a typical successful coding interview should
+
+00:08.670 --> 00:14.500
+look like especially how to solve a problem in front of an interviewer.
+
+00:14.500 --> 00:17.010
+And we're going to do a fun little exercise here.
+
+00:17.190 --> 00:25.860
+An interviewer just asked us a question and this is the question right here given to array's create
+
+00:26.080 --> 00:34.160
+a function that lets a user know true or false whether these two arrays contain any common items.
+
+00:34.250 --> 00:42.860
+For example if we had to erase year one containing a b c x and the other one Z Y and I would return
+
+00:42.860 --> 00:48.600
+false because there's nothing common between these two erase.
+
+00:48.620 --> 00:58.960
+However in this example array one in array to both contain X and because they have a common item it
+
+00:58.960 --> 01:02.220
+should return true.
+
+01:02.260 --> 01:05.160
+So an interviewer just asked you this question.
+
+01:05.980 --> 01:07.840
+How will we go about solving it.
+
+01:07.840 --> 01:13.550
+Well let's go step by step through our little guy.
+
+01:13.630 --> 01:19.390
+When the interviewer says the question write down the key points at the top.
+
+01:19.630 --> 01:21.700
+Make sure you have all the details.
+
+01:21.700 --> 01:23.980
+Show how organized you are.
+
+01:24.410 --> 01:28.450
+Well in this case I've kind of done this for you over here.
+
+01:28.450 --> 01:36.940
+Ideally you would write this out as you are coding and make sure that you show the interviewer.
+
+01:36.940 --> 01:37.510
+OK.
+
+01:37.840 --> 01:41.530
+If I had this example it should return false.
+
+01:41.590 --> 01:46.350
+If I had this example it should return true.
+
+01:46.390 --> 01:52.990
+Now let's say the interviewer only gave you these points and no other information at least now you have
+
+01:52.990 --> 01:59.930
+an idea of what are problems going to look at and whether we want to return false or true.
+
+02:00.030 --> 02:03.480
+But we have two things that we want to do with our function.
+
+02:03.480 --> 02:07.070
+One is we have two parameters
+
+02:10.710 --> 02:17.250
+and this function is going to return true or false.
+
+02:17.270 --> 02:18.600
+Now in the second point.
+
+02:18.800 --> 02:24.500
+Make sure you double check what are the inputs what are the outputs what we've kind of already done
+
+02:24.500 --> 02:31.730
+that and we've confirmed with our interviewer that we have two inputs which are a race we can even ask
+
+02:31.730 --> 02:32.810
+the interviewer that.
+
+02:32.930 --> 02:34.540
+Are they always going to be a raise.
+
+02:34.550 --> 02:40.760
+Is it possible that the input might not be a race maybe an object maybe a string and we can confirm
+
+02:40.760 --> 02:42.670
+with the injury or what those cases are.
+
+02:42.860 --> 02:47.780
+In our case let's say that the of year says that these two parameters are always going to be a race
+
+02:48.830 --> 02:51.520
+and we always want to return true or false.
+
+02:51.990 --> 02:56.690
+And number two is really important here because we don't ever want to jump straight into coding.
+
+02:57.050 --> 03:01.310
+Even if you think you know the answer or you've seen this problem before you know exactly what to do
+
+03:02.000 --> 03:08.540
+don't jump straight in coding first explain your approach like I'm doing here talking it out because
+
+03:08.720 --> 03:15.020
+if there are any problems with your approach or with your understanding of the question your interviewer
+
+03:15.020 --> 03:20.990
+is going to often point them out to you here before jumping straight in and looking into your code and
+
+03:20.990 --> 03:22.740
+saying that no this is wrong.
+
+03:23.150 --> 03:26.700
+This way both the you and the interviewer know exactly what the steps are.
+
+03:26.760 --> 03:28.250
+You need to follow.
+
+03:28.250 --> 03:30.320
+Now let's look at Point number three here.
+
+03:30.320 --> 03:32.910
+What is the most important value or the problem.
+
+03:33.020 --> 03:37.030
+Do you have time space and memory to run this function.
+
+03:37.070 --> 03:39.330
+What is the main goal now.
+
+03:39.380 --> 03:45.620
+Because this is a simple question we might want to ask the interviewer how large this array's gonna
+
+03:45.620 --> 03:47.230
+get.
+
+03:47.340 --> 03:54.830
+Because if the interviewer says the array is never going to be more than 5 items well then maybe we
+
+03:54.830 --> 04:01.820
+don't have to worry about big-O or time complexity or space complexity as much and then you can ask
+
+04:01.820 --> 04:07.970
+the interviewer is our goal here to be as efficient as possible with our function.
+
+04:07.970 --> 04:12.040
+What's more important to us is time complexity more important.
+
+04:12.050 --> 04:14.790
+Or is space complexity more important.
+
+04:14.900 --> 04:20.210
+Maybe the interviewer might tell you that we just want the most efficient function they can come up
+
+04:20.210 --> 04:24.940
+with assuming that the array can get very very large.
+
+04:24.950 --> 04:30.830
+So let's say in here we have two parameters arrays that have no size limit.
+
+04:30.830 --> 04:34.270
+So these arrays can get really really big.
+
+04:34.420 --> 04:38.860
+And in terms of returning true or false that's all we want we just want a boolean return.
+
+04:39.280 --> 04:45.820
+Now number four Don't be annoying when asking too many questions and we're kind of getting to that territory
+
+04:45.820 --> 04:51.820
+where we've asked a lot of questions to the interviewer and we kind of have an idea of what we want
+
+04:51.820 --> 04:52.740
+to do.
+
+04:52.870 --> 04:56.520
+We can keep asking them questions but remember you usually have a time limit.
+
+04:56.530 --> 05:03.940
+You don't want to keep bothering them and knowing them and just asking them all these small little questions
+
+05:04.510 --> 05:05.700
+before we start coding.
+
+05:05.740 --> 05:06.890
+Keep time in mind.
+
+05:07.000 --> 05:12.790
+And I think at this point we have an information that we can move on with our assumption to start solving
+
+05:12.790 --> 05:13.430
+the problem.
+
+05:14.230 --> 05:22.440
+So number five start with the naive brute force approach first thing that comes into mind.
+
+05:22.540 --> 05:28.160
+It shows that you're able to think well and critically and you don't even need to write this code.
+
+05:28.210 --> 05:30.040
+Just speak about it.
+
+05:30.550 --> 05:34.630
+This is always a case when an interviewer asks your question.
+
+05:34.630 --> 05:41.410
+They usually have an easy solution that we call the brute force which is not the most efficient but
+
+05:41.410 --> 05:45.080
+usually is the easiest one or the first one that comes up.
+
+05:46.080 --> 05:54.750
+So in our case if we look at this during an interview with a time limit you might say this looks like
+
+05:54.780 --> 06:04.980
+a nested loop where we're comparing a with Z and then a with Y then a with I and then we go to be with
+
+06:04.980 --> 06:09.360
+Z B with Y B with I and then so on and so forth.
+
+06:09.510 --> 06:17.130
+So immediately this looks like we're comparing two different areas and we're going to have two for loops
+
+06:17.340 --> 06:25.230
+one nested on top of each other and right away we know that that's a big O which we've talked about
+
+06:25.620 --> 06:29.330
+of O and square.
+
+06:29.850 --> 06:35.850
+Most likely during an interview nested for loops is something that we want to avoid just telling the
+
+06:35.850 --> 06:41.700
+interviewer this solution even though it's not the best solution already shows that you're thinking
+
+06:41.700 --> 06:43.370
+clearly about the problem.
+
+06:43.680 --> 06:47.140
+And it also gives you a point from where to improve from now.
+
+06:47.250 --> 06:52.280
+You don't necessarily have to code this part and it's usually enough just to describe how it works.
+
+06:52.290 --> 06:58.760
+Kind of like I just did now but depending on your time you may or may not want to code this as well.
+
+06:58.860 --> 07:04.920
+The important thing is that you let the interviewer know that this is the brute force or the easy naive
+
+07:04.920 --> 07:11.520
+solution that may not be the most efficient at least this way you have the right answer then running
+
+07:11.520 --> 07:13.540
+out of time and not even having an answer.
+
+07:15.560 --> 07:20.270
+Number six here is TELL ME TELL them why this approach is not the best.
+
+07:20.330 --> 07:28.760
+So in our case we said that the code might be not efficient or we might have not read abor a code that
+
+07:29.240 --> 07:34.070
+is going to be really complicated and hard to read for other developers.
+
+07:35.070 --> 07:41.400
+With my demonstration because I just want to think about this and so I can be more clear of why this
+
+07:41.400 --> 07:41.590
+is.
+
+07:41.610 --> 07:42.780
+Oh and squared.
+
+07:42.780 --> 07:46.490
+I'm going to just code and most likely you wouldn't do this in an interview.
+
+07:46.500 --> 07:50.640
+I'm just going to code the brute force solution so you can see what I mean.
+
+07:50.790 --> 08:02.170
+I'm going to have a function and this function is going to say contains common item and it's going to
+
+08:02.170 --> 08:09.140
+receive to erase array 1 and array 2.
+
+08:09.160 --> 08:14.030
+Now we are going to take the first array and do a for loop.
+
+08:14.090 --> 08:20.310
+So I'm going to say for let I whoops let pi equals zero.
+
+08:21.650 --> 08:27.120
+And we'll say that as long as I is less then the array want length.
+
+08:27.140 --> 08:32.070
+So that's the landfill the first array we're going to increment.
+
+08:32.540 --> 08:36.080
+And within this loop we're going to have a for loop.
+
+08:36.080 --> 08:43.430
+So in the first time around we're going to grab a from the first array and we're going to compare it
+
+08:43.430 --> 08:46.740
+to the second array Z Y and X.
+
+08:46.790 --> 08:51.860
+So we're going to have a for loop here and we'll say that we'll have the same thing.
+
+08:51.920 --> 08:54.530
+At this time instead of I will say J.
+
+08:55.390 --> 08:57.360
+Equals zero.
+
+08:58.030 --> 09:03.580
+And this J as long as it's smaller than Array two dot length.
+
+09:05.210 --> 09:09.900
+It's going to increment every time we look through it.
+
+09:09.980 --> 09:14.020
+And finally within here we're going to do a bit of a comparison.
+
+09:14.030 --> 09:20.930
+We're going to compare a to z then a two Y then a 2 x.
+
+09:21.080 --> 09:31.960
+So if I go over here and say if array one index of I so array one at index of I.
+
+09:31.980 --> 09:35.240
+So the first time around I is going to be zero.
+
+09:35.280 --> 09:39.670
+So that means array 1 is going to contain a.
+
+09:39.840 --> 09:46.500
+Let's actually grab this so we can see it better at the top over here.
+
+09:46.500 --> 09:55.130
+I'm going to have to race here and we're going to say that array of 0.
+
+09:55.130 --> 09:57.100
+First time around is going to grab eight.
+
+09:57.470 --> 10:09.650
+And if that equals array two to whatever J is J is the index of array 2.
+
+10:09.680 --> 10:12.270
+So first time around is going to compared to Z.
+
+10:12.360 --> 10:18.680
+So and Z and then as this increments is going to compare to a and y and then this is going to increment
+
+10:18.710 --> 10:24.830
+compare to X and then we go to the top loop again I gets incremented.
+
+10:24.830 --> 10:27.010
+So becomes 1 now.
+
+10:27.080 --> 10:34.220
+So we're going to start comparing B to Z B Y be to X and then C to Z C to high C do X and so on.
+
+10:34.550 --> 10:44.130
+If that's the case and if this is true we want to return true otherwise if we loop through this and
+
+10:44.520 --> 10:51.210
+this never matches well in that case we can just return false here.
+
+10:53.030 --> 10:56.340
+Now let's see if this works.
+
+10:56.540 --> 11:10.100
+I'm going to just say contains common item and we're going to give it to a race array 1 and array two.
+
+11:10.350 --> 11:14.550
+If you run this and let's make this a little bit smaller so you can see if I run this
+
+11:17.500 --> 11:28.240
+I get true because there is a common item of X if I change this to now have R and I click run I get
+
+11:28.240 --> 11:29.710
+false.
+
+11:29.850 --> 11:38.640
+Again if we change this to a and click run we get true because a and a match up looking at this and
+
+11:38.640 --> 11:46.050
+we look at number 6 over here that is let's make this screen a little bit more organized so we can read
+
+11:46.050 --> 11:47.450
+this.
+
+11:47.640 --> 11:51.550
+Number six just tell them why this approach is not the best.
+
+11:51.570 --> 12:00.210
+Now again you might not have time to even code this but we can bridleway see that we have two for loops
+
+12:00.810 --> 12:07.650
+one nested after another and because we've already talked about this in the Big O O.S. we know that
+
+12:07.860 --> 12:09.820
+we have a big row.
+
+12:09.870 --> 12:19.050
+When it comes to time complexity here of well we have an array a and another array.
+
+12:19.110 --> 12:21.500
+So that means multiply by B.
+
+12:21.720 --> 12:26.810
+Again this is a bit of a trick because these two arrays can be different sizes.
+
+12:26.940 --> 12:36.430
+We can't just say oh an square because these two arrays can have again like I said different sizes.
+
+12:36.570 --> 12:42.480
+So this is a bit of a trick and it's a good thing that we wrote it out because now we see that instead
+
+12:42.480 --> 12:43.460
+of 0 and square.
+
+12:43.470 --> 12:52.440
+This is more like oh a times b if the array sizes are the same will be the same as 0 and squares so
+
+12:52.440 --> 12:53.590
+that's pretty slow.
+
+12:55.220 --> 13:01.590
+So number 7 walk through your approach common things and see where you may be able to break things and
+
+13:01.600 --> 13:08.490
+you repetition bottlenecks like o n squared or unnecessary work.
+
+13:08.490 --> 13:11.300
+Did you use all the information the interviewer gave you.
+
+13:11.630 --> 13:13.350
+And so on and so forth.
+
+13:13.400 --> 13:21.020
+Now looking at this I can say that we could probably do better you might not see a solution right away
+
+13:21.410 --> 13:25.820
+and that is because you need to practice a few of these problems to understand a common pattern.
+
+13:26.030 --> 13:32.180
+But one of the most common patterns when it comes to nested for loops is that you might be able to use
+
+13:32.180 --> 13:38.630
+something called hash tables which will get you in javascript they're called objects in order to speed
+
+13:38.630 --> 13:39.780
+things up.
+
+13:39.800 --> 13:47.140
+Is there a way to turn this oh a times the time complexity into something faster.
+
+13:48.270 --> 13:58.560
+We are doing a bit of unnecessary work where we just keep looping Z A Y A and then we go Busy B Y B.
+
+13:58.830 --> 14:05.080
+And we're doing this comparison in the same work over and over what if we have a better solution.
+
+14:05.180 --> 14:07.230
+I'm going to comment this out for now.
+
+14:08.960 --> 14:13.340
+And scroll all the way to the bottom and we don't need this anymore.
+
+14:14.030 --> 14:15.370
+And try a different solution.
+
+14:15.560 --> 14:18.310
+And I bring the array down here just so we can see it.
+
+14:23.170 --> 14:30.770
+Now before we start actually coding let's think about what steps we want to take well what if we had
+
+14:30.770 --> 14:33.760
+a function that takes the first array.
+
+14:33.800 --> 14:43.880
+So let's say array one is going to be converted to an object and this object is going to contain something
+
+14:43.880 --> 14:46.580
+like this all contain.
+
+14:46.680 --> 14:50.770
+And let's make sure we combine this out.
+
+14:50.870 --> 15:02.480
+It's going to contain a equals true then be it close to true C close to true.
+
+15:02.730 --> 15:10.130
+And then finally it's going to have X equals to true.
+
+15:10.150 --> 15:21.080
+Now if we create an object like this we can now use this object without a rate to just say array 2.
+
+15:21.100 --> 15:27.050
+Can we check each item in array 2 to this object and see if a property exists.
+
+15:27.220 --> 15:38.410
+Ideally we can do something like array to index and see if this equals any of the object dot properties.
+
+15:38.860 --> 15:41.530
+OK let's let's walk through this one more time.
+
+15:41.550 --> 15:43.220
+This is a common pattern.
+
+15:43.240 --> 15:48.810
+You're going to see a lot when it comes to improving time complexity so if you don't get this right
+
+15:48.810 --> 15:51.600
+away don't stress out.
+
+15:51.660 --> 15:56.430
+This is something that will become more and more familiar to you as we do more problems.
+
+15:56.430 --> 16:03.500
+But if I'm able to convert to the first array into an object that looks like this.
+
+16:03.860 --> 16:12.050
+Now instead of having to loop over both arrays I can just loop through the second array and just simply
+
+16:12.050 --> 16:17.150
+check if the property Z exists on this object that we created.
+
+16:17.330 --> 16:18.830
+No it doesn't.
+
+16:18.830 --> 16:21.630
+Does the property Y exist on the Saray.
+
+16:21.680 --> 16:22.380
+No it doesn't.
+
+16:22.400 --> 16:26.940
+Does a property exist on this object.
+
+16:27.110 --> 16:28.400
+Yes it does.
+
+16:28.400 --> 16:34.700
+That means we have a common item now to show you how this actually works and why this solution would
+
+16:34.700 --> 16:37.170
+be better than the first one.
+
+16:37.310 --> 16:42.870
+I need to actually start coding it but as we go through Number eight we see that before you start coding.
+
+16:42.890 --> 16:51.550
+We want to walk through your code and write down the steps you're going to do so let's start doing that.
+
+16:51.550 --> 16:57.510
+I'm going to say that we're going to create a new function contains common item.
+
+16:57.510 --> 17:03.640
+This one I'm going to add to because is our second function it's going to take in an array of one and
+
+17:03.670 --> 17:06.320
+array to.
+
+17:06.470 --> 17:12.130
+And now this function Let's make this a little bit smaller so it looks nicer.
+
+17:12.130 --> 17:13.290
+There you go.
+
+17:13.360 --> 17:30.160
+This function is going to say first I want you to loop through first array and create object where properties
+
+17:30.910 --> 17:36.800
+equal items in the array.
+
+17:39.470 --> 17:47.120
+And then the second thing will be to loop through secondary
+
+17:49.580 --> 18:02.600
+and check if item and second array exists on created object.
+
+18:02.600 --> 18:10.490
+Now before we even start coding this I can write a way sense that we're going to have a better performance
+
+18:10.610 --> 18:19.330
+than the first Saray that was 0 a time speed because what we're going to do is have two loops but these
+
+18:19.330 --> 18:21.990
+two loops are going to be nested.
+
+18:22.030 --> 18:30.030
+Remember in the first solution we had nested for loops in this solution.
+
+18:30.290 --> 18:35.040
+And our second solution we're going to have to separate for loops.
+
+18:35.460 --> 18:46.180
+And if you remember our big O analysis when we have steps one after another instead of nested the big
+
+18:46.180 --> 19:00.140
+O becomes a plus b we have a potential solution here have a time complexity of a plus b instead of a
+
+19:00.260 --> 19:01.420
+time speed.
+
+19:01.610 --> 19:03.170
+Those are big savings.
+
+19:03.290 --> 19:07.790
+We need to start actually writing the code to see if we can solve this problem.
+
+19:08.060 --> 19:09.530
+And because this video is getting long.
+
+19:09.560 --> 19:11.430
+We're going to do this in the next video.
+
+19:11.810 --> 19:18.080
+But I want to show you right here what we've just done and that is although we haven't given a clear
+
+19:18.080 --> 19:22.310
+solution we've been talking about how we solve the problem.
+
+19:22.310 --> 19:25.190
+The interviewer sees how we think.
+
+19:25.220 --> 19:34.130
+CS what steps we take in CS that we're making smart critical decisions to go from understanding the
+
+19:34.130 --> 19:38.390
+problem to solving the problem in a naive way.
+
+19:38.390 --> 19:45.410
+Understanding why this might not be the best way and then start to think about possible solutions.
+
+19:45.410 --> 19:52.340
+And the beauty of this approach is that no matter whether we get this part correct maybe our assumptions
+
+19:52.340 --> 19:54.560
+are wrong and we can't do this.
+
+19:54.560 --> 20:01.770
+We're showing the interviewer that we're thinking through a problem and we're making small logical steps
+
+20:01.860 --> 20:03.110
+towards a solution.
+
+20:04.370 --> 20:09.360
+And this is a lot better than just coding right away trying a solution.
+
+20:09.380 --> 20:15.200
+And see if you get it right or wrong an interviewer is going to have a good understanding of your abilities
+
+20:15.290 --> 20:16.800
+and your thought process this way.
+
+20:16.820 --> 20:20.100
+And these are the type of people that they want to hire.
+
+20:20.390 --> 20:26.150
+So in the next video let's finish out this problem let's coded and see if we can make this solution
+
+20:26.300 --> 20:30.350
+more efficient by converting it to 0 A plus B.
+
+20:30.350 --> 20:31.730
+I'll see in the next one.
+
+20:31.920 --> 20:32.210
+Buh-Bye.

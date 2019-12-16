@@ -1,0 +1,139 @@
+WEBVTT
+
+00:01.130 --> 00:02.120
+Witamy spowrotem.
+
+00:02.120 --> 00:09.440
+Porozmawiajmy o pierwszej roli, jeśli chodzi o big-O, to najgorszy przypadek przy obliczaniu dużych.
+
+00:09.460 --> 00:14.040
+Och, zawsze myślimy o najgorszym przypadku.
+
+00:14.150 --> 00:18.120
+Co mam na myśli przez to dobrze, jeśli wrócimy do
+
+00:20.940 --> 00:28.690
+znalezienia Nemo na przykład i znajdziemy funkcję Nemo, być może krzyczałeś na mnie, gdy przechodziłem przez funkcję mówienia, że
+
+00:28.690 --> 00:31.080
+Andre To nie jest efektywne.
+
+00:31.090 --> 00:32.190
+Co robisz.
+
+00:32.590 --> 00:40.230
+Ponieważ jeśli spojrzysz na tę funkcję, przechodzimy przez całą tablicę, aby znaleźć Nemo.
+
+00:41.520 --> 00:49.170
+Pamiętasz, jak mieliśmy każdą tablicę zawierającą około 10 różnych postaci z Finding Nemo.
+
+00:50.290 --> 00:56.980
+Cóż, Nemo był tylko jeden dwa trzy czwarty członek w tej tablicy.
+
+00:57.400 --> 01:02.600
+A kiedy uruchomimy tę funkcję, znaleźliśmy Nemo.
+
+01:03.020 --> 01:11.240
+Ale zabawne jest to, że ta funkcja działała 10 razy, a nie cztery razy.
+
+01:11.450 --> 01:24.620
+Jeśli zrobię tutaj dziennik konsoli i mówię "działa", a klikniemy to, zobaczymy, że funkcja ta działała jeden dwa trzy
+
+01:24.680 --> 01:30.120
+cztery pięć sześć siedem osiem dziewięć dziesięć.
+
+01:30.380 --> 01:36.300
+Mam na myśli, że już znaleźliśmy Nemo, wszystkie te przebiegi są dość nieekonomiczne.
+
+01:36.430 --> 01:41.390
+Dlatego możemy uczynić tę funkcję nieco bardziej wydajną w javascript.
+
+01:41.410 --> 01:48.050
+Możemy po prostu mieć coś, co nazywa się break.
+
+01:48.210 --> 01:53.020
+I znowu różne języki mają różne sposoby wyjścia z pętli.
+
+01:53.090 --> 02:02.060
+Jeśli warunek jest spełniony w naszym przypadku, jeśli stwierdzimy, że Nimo po prostu wyrwie się z tej pętli, jeśli to
+
+02:02.060 --> 02:04.330
+zrobię, a kliknięcie uruchomi to.
+
+02:04.400 --> 02:09.390
+Kiedy znaleźliśmy Nimo, skończyliśmy, nie będziemy przeglądać reszty przedmiotów.
+
+02:09.410 --> 02:10.450
+Gratulacje.
+
+02:10.490 --> 02:13.970
+Po prostu sprawiliśmy, że nasz kod jest trochę bardziej wydajny.
+
+02:14.420 --> 02:15.430
+To dobrze, dobrze.
+
+02:16.420 --> 02:19.050
+Cóż, jeśli chodzi o wielkie O.
+
+02:19.570 --> 02:21.160
+Chociaż jest to ważne.
+
+02:21.220 --> 02:27.130
+A kiedy piszesz dobry kod, jest to coś, co chcemy zrobić w wielkim schemacie rzeczy.
+
+02:27.160 --> 02:32.520
+Big-O dba tylko o najgorszy przypadek, jaki jest najgorszy przypadek.
+
+02:32.680 --> 02:40.480
+Cóż, najgorszym przypadkiem jest to, że Nimo jest ustawiony na czwartą pozycję na samym końcu.
+
+02:43.480 --> 02:51.730
+Więc nawet jeśli mamy takie zdanie, nadal będziemy biegać 10 razy, ponieważ Neema na końcu.
+
+02:51.850 --> 02:56.450
+Najlepszym przypadkiem jest to, że Nemos na samym początku, a my musimy tylko przepuścić go raz.
+
+02:56.590 --> 03:05.810
+Ale w najgorszym przypadku nadal będziemy musieli przejść 10 pętli, które wciąż są duże.
+
+03:05.840 --> 03:15.410
+Tak więc jest to nasza pierwsza zasada. Pierwszą zasadą jest zawsze dbać o to, co jest najgorszym scenariuszem,
+
+03:15.410 --> 03:20.990
+ponieważ kiedy mówimy o skalowalności, nie możemy po prostu założyć,
+
+03:21.140 --> 03:33.630
+że wszystko idzie dobrze, nawet jeśli funkcja Nimo może być jedna, Nimo jest pierwszym elementem w tablicy, który nie ma znaczenia w wielkim schemacie
+
+03:33.840 --> 03:39.720
+rzeczy, ponieważ nie możemy być pewni tego, jaki będzie sygnał wejściowy.
+
+03:39.750 --> 03:51.940
+Zakładamy, że wszystko pójdzie znowu liniowo, jeśli znajdziemy żółte pudełko, a żółte pudełko na
+
+03:51.940 --> 03:54.160
+samym końcu.
+
+03:54.340 --> 03:58.060
+Musimy powtórzyć wszystkie pola.
+
+03:58.310 --> 04:05.470
+Jeśli żółte pole na samym początku zauważysz, że nie musimy powtarzać tych pól, ale wielkie-O tak
+
+04:05.470 --> 04:07.360
+naprawdę to nie obchodzi.
+
+04:07.360 --> 04:13.900
+Mimo że funkcja ta jest rzeczywiście bardziej efektywna pod koniec dnia, kiedy mówimy o
+
+04:14.290 --> 04:17.070
+big-o, mówimy o najgorszym przypadku.
+
+04:17.100 --> 04:19.300
+W porządku Mam nadzieję, że udało ci się to osiągnąć.
+
+04:19.360 --> 04:24.950
+Czuję, że pobiłem na miazgę, więc powinieneś być z nią teraz dobrze.
+
+04:25.120 --> 04:27.530
+Porozmawiajmy o następnej roli w następnym filmie.

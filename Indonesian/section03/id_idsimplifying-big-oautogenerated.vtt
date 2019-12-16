@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.960 --> 00:02.120
+Selamat datang kembali.
+
+00:02.320 --> 00:09.440
+Sekarang dalam latihan sebelumnya dan latihan yang baru saja kita lakukan kita melihat bahwa kita harus melakukan sedikit perhitungan itu agak
+
+00:09.450 --> 00:16.800
+menjengkelkan di mana kita harus menambahkan hal-hal maka kita tahu ini ditambah lima dan ditambah empat dalam wawancara Anda tidak pernah akan
+
+00:17.040 --> 00:22.380
+melakukan ini dan Anda bertanya pada diri sendiri Andre Mengapa Anda baru saja mengajari saya ini
+
+00:22.380 --> 00:23.760
+dan Anda benar.
+
+00:23.760 --> 00:28.160
+Tapi sekarang ketika Anda paling tidak mengerti seberapa besar O dihitung.
+
+00:28.590 --> 00:34.650
+Tetapi sebagian besar waktu ketika Anda pergi ke wawancara ada seperangkat aturan yang akan Anda ikuti di
+
+00:35.220 --> 00:40.680
+mana Anda tidak perlu melakukan ini dan Anda bisa melihat fungsi ini dan langsung
+
+00:40.680 --> 00:42.730
+mengatakan jenis bego itu .
+
+00:42.870 --> 00:53.650
+Misalnya fungsi ini sebenarnya hanya berubah menjadi deretan fungsi ini lagi berubah menjadi hanya 0 dari dan ini
+
+00:53.920 --> 00:57.610
+adalah trik kecil yang bagus.
+
+00:57.900 --> 01:05.460
+Ketika kita berbicara tentang big-O dalam wawancara sebagian besar waktu Anda hanya akan memberikan salah satu dari jawaban
+
+01:06.890 --> 01:14.420
+ini Anda kemungkinan besar tidak akan benar-benar menghitung dengan tepat 0 3 dan atau tiga dan ditambah dua
+
+01:14.480 --> 01:15.470
+ditambah satu.
+
+01:15.470 --> 01:20.750
+Jadi bagaimana saya bisa menyederhanakan latihan kami dan hanya mengatakan bahwa mereka ikut.
+
+01:21.190 --> 01:27.770
+Dan untungnya bagi Anda hanya ada beberapa aturan yang bisa kita ikuti ketika harus pergi.
+
+01:28.190 --> 01:29.630
+Dan hanya ada empat.
+
+01:30.390 --> 01:36.060
+Dengan mengikuti keempat aturan ini alih-alih melakukan kalkulasi kecil yang telah kami lakukan
+
+01:36.060 --> 01:42.790
+hingga saat ini, Anda bisa menyederhanakan hidup Anda sehingga tua yang besar menjadi sangat mudah untuk dihitung.
+
+01:43.170 --> 01:48.330
+Mari kita bahas yang pertama yaitu aturan nomor satu kasus terburuk.
+
+01:48.420 --> 01:50.050
+Mari kita bicarakan itu di video berikutnya.

@@ -1,0 +1,205 @@
+WEBVTT
+
+00:01.430 --> 00:09.980
+Walk I'm back in the last video we ask the question is there a better way to find a number in a sorted
+
+00:10.340 --> 00:15.340
+list and just for this example let's add an extra number to our list.
+
+00:18.620 --> 00:19.640
+That's better.
+
+00:19.730 --> 00:26.340
+Let's say I was looking for 34 and I knew that my list let's say array was sorted.
+
+00:26.360 --> 00:33.350
+What's a better way to go about it instead of checking every single item one by one from left to right.
+
+00:34.230 --> 00:41.290
+Well we can use something called binary search because we know the list is sorted.
+
+00:41.460 --> 00:45.870
+We can discard half the items instead of one at a time.
+
+00:46.750 --> 00:52.490
+Let me show you we can start in the middle of the list and say is 9.
+
+00:52.630 --> 00:59.520
+Higher or lower than 34 wall 34 is higher than 9 so let's discard everything to the left of it.
+
+01:01.040 --> 01:03.870
+And then we go to the middle index again.
+
+01:03.980 --> 01:06.350
+In this case there's no technically a medium.
+
+01:06.350 --> 01:08.030
+So let's just choose 12.
+
+01:08.130 --> 01:13.430
+Go to the left of the media is 12 higher lower than 34.
+
+01:13.530 --> 01:17.960
+While it's definitely lower So let's remove everything to the left of it.
+
+01:19.120 --> 01:26.710
+And then let's find the middle index and oh we just found 34 instead of going through the item one by
+
+01:26.710 --> 01:27.100
+one.
+
+01:27.190 --> 01:29.900
+We did that in three operations.
+
+01:30.220 --> 01:32.020
+And this looks familiar.
+
+01:32.050 --> 01:32.560
+Right.
+
+01:34.180 --> 01:41.700
+And it's something we learned about when we talked about trees specifically binary search trees because
+
+01:42.060 --> 01:51.120
+if our data is sorted we can do better than O oven or linear time because this sorted list might remind
+
+01:51.120 --> 02:01.560
+you of something we're essentially creating a binary search tree unlike linear search we can discard
+
+02:01.560 --> 02:08.640
+half the items instead of one at a time and you might be thinking well that's ridiculous Andre because
+
+02:08.910 --> 02:14.880
+in order for us to even searches we have to sort the list first and that takes computational power.
+
+02:14.910 --> 02:15.640
+Right.
+
+02:15.870 --> 02:25.290
+But storing data in a data structure like a tree instead of a linear data structure like an array is
+
+02:25.290 --> 02:27.450
+actually more efficient.
+
+02:27.540 --> 02:34.010
+And this is something we've already discussed with tree data structures as we insert items if we sort
+
+02:34.010 --> 02:35.150
+them.
+
+02:35.150 --> 02:41.030
+It actually gives us better performance then adding it to an on sorted list that we have to search through
+
+02:41.030 --> 02:48.230
+one day and because in a tree where we make a decision Should we go left or right.
+
+02:48.340 --> 02:54.400
+Should we go left or right and we discard half the items every step this should trigger something in
+
+02:54.400 --> 03:02.210
+your brain saying oh this is a divide and conquer approach which gives us a log of and time because
+
+03:02.240 --> 03:09.370
+log then comes from the fact that we're now visiting all nodes each step down the tree we're eliminating
+
+03:09.370 --> 03:10.260
+nodes.
+
+03:10.720 --> 03:17.780
+So this is the deal with binary search you split a list over sorted item and decide from there whether
+
+03:17.800 --> 03:21.580
+item you're looking for is in the left or the right of the list.
+
+03:22.440 --> 03:26.180
+And because the list is sorted you can make that decision very easily.
+
+03:26.220 --> 03:27.750
+But just comparing things.
+
+03:27.960 --> 03:32.410
+And we just keep going until we find what we want in this case.
+
+03:32.490 --> 03:40.120
+Number 34 we make 1 2 3 decisions.
+
+03:40.370 --> 03:48.260
+And this makes sense because if you're a teacher that's looking at a stack of essays and papers by students
+
+03:48.950 --> 03:55.070
+if their stack of paper is not organized then you have to go through it one by one to find.
+
+03:55.100 --> 03:56.380
+Let's say Timmy.
+
+03:56.750 --> 04:04.670
+But if the stack of paper is sorted alphabetically then you can find me by dividing the papers half
+
+04:04.700 --> 04:06.660
+each time until you get to temi.
+
+04:06.800 --> 04:09.380
+Just like a phone book.
+
+04:09.540 --> 04:18.320
+We start with an element then when we step down we have an divide by two elements remaining.
+
+04:18.420 --> 04:24.300
+And as we step down we have and divided by four elements remaining and we keep going keep going keep
+
+04:24.300 --> 04:27.820
+going until we find our element.
+
+04:27.830 --> 04:34.070
+And in the sorting section we learn that merge sort and quicksort are doing the same thing.
+
+04:34.290 --> 04:41.160
+And we also learned how to actually search through this tree in our data structure section rate with
+
+04:41.170 --> 04:42.000
+linear search.
+
+04:42.000 --> 04:46.710
+We had four loops with a binary search tree like this one.
+
+04:46.770 --> 04:55.110
+Well we had our lockup method where we checked the left node and the right node and divided up the list
+
+04:55.470 --> 04:58.720
+using a while loop in half each time.
+
+04:58.830 --> 05:03.480
+So we know how to do linear search and binary search.
+
+05:03.480 --> 05:11.400
+We know that binary search is going to be log of and time complexity versus linear search which is 0
+
+05:11.490 --> 05:20.780
+of and but what are these two well up until this point we've talked about when we're searching for an
+
+05:20.780 --> 05:25.100
+item where we know that 34 exists.
+
+05:25.100 --> 05:33.080
+Our list is sorted in a binary search tree and we know where to go left or right but sometimes we have
+
+05:33.080 --> 05:38.010
+to do something called traversals and traversals simply means.
+
+05:38.330 --> 05:46.040
+Well going from no to node either finding a specific thing or making sure that you touch every single
+
+05:46.040 --> 05:53.270
+node perhaps we don't want to add a color attribute to each note here.
+
+05:53.380 --> 05:57.330
+Perhaps we want to update these numbers and multiply them by two.
+
+05:57.370 --> 06:01.420
+In that case we have to visit every single note.
+
+06:01.420 --> 06:02.980
+How do we do that.
+
+06:03.100 --> 06:04.470
+Let's find out in the next video.

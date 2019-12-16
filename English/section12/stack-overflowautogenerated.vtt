@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.770 --> 00:01.690
+Welcome back.
+
+00:02.120 --> 00:05.230
+I'm about to show you my favorite animation of the course.
+
+00:05.240 --> 00:06.140
+I'm very proud of it.
+
+00:06.170 --> 00:08.630
+So don't laugh at me if you think it's so.
+
+00:09.020 --> 00:17.660
+I like to think of recursion as this scenario where you have this top pouring water into a glass for
+
+00:17.660 --> 00:22.130
+this little man that's sitting on the couch watching TV.
+
+00:22.250 --> 00:27.650
+And when I think about recursion I like to think that they have two big problems.
+
+00:28.840 --> 00:34.190
+One is that well they're kind of difficult to understand at first.
+
+00:34.240 --> 00:40.030
+The second is that we can have a case like this where I'm pouring water into a glass and pouring water
+
+00:40.030 --> 00:42.360
+into a glass and pouring water into a glass.
+
+00:42.430 --> 00:48.150
+And that is me calling the function over and over and over.
+
+00:48.550 --> 00:53.140
+And as we keep going as we keep going fills up the cup past it's limit.
+
+00:53.140 --> 00:54.040
+It keeps going.
+
+00:54.040 --> 00:54.920
+It doesn't stop.
+
+00:54.920 --> 00:59.210
+It keeps scolding the function keeps going to function until oh boy.
+
+00:59.350 --> 01:01.850
+The man has drowned.
+
+01:01.940 --> 01:03.510
+What just happened here.
+
+01:03.620 --> 01:06.890
+This is called Stack Overflow.
+
+01:07.160 --> 01:09.810
+Let's go back to some code.
+
+01:09.940 --> 01:13.850
+Remember the function inception that we created.
+
+01:13.980 --> 01:15.660
+If I run this function
+
+01:18.270 --> 01:19.830
+and I say inception
+
+01:22.720 --> 01:26.790
+and simply run this function I'll get an error.
+
+01:27.250 --> 01:30.170
+Let's make this a little bit bigger to see.
+
+01:30.320 --> 01:36.140
+I get an error saying maximum call stack size exceeded my browser.
+
+01:36.200 --> 01:42.660
+In this case Google Chrome is smart enough to say all right you've got to stop this madness.
+
+01:42.680 --> 01:49.400
+I'm just calling this inception function over and over and over and over because remember our function
+
+01:49.400 --> 01:50.960
+just calls itself.
+
+01:50.960 --> 01:55.340
+And eventually if Google Chrome doesn't stop this it's going to crash.
+
+01:55.340 --> 02:00.470
+And in the past that's what would happen if I run this function the browser would crash and I would
+
+02:00.470 --> 02:01.480
+have to restart it.
+
+02:01.760 --> 02:08.120
+But they've added a safeguards here saying hey you've called the maximum call stack size.
+
+02:08.120 --> 02:10.490
+You've got to stop what you're doing now.
+
+02:10.490 --> 02:14.250
+This is called stack over for.
+
+02:14.360 --> 02:16.170
+Why is that.
+
+02:16.180 --> 02:23.830
+Let's dive deeper into this topic going to clear the console here and right our inception function.
+
+02:23.830 --> 02:33.320
+But this time I'm going to add a keyword called debugger that the Chrome browser is going to detect
+
+02:33.380 --> 02:37.050
+and pause the function when it sees this word.
+
+02:37.100 --> 02:46.690
+So I'm going to run this function and you'll notice that as soon as they hit enter it's going to stop
+
+02:47.110 --> 02:51.700
+and give me a little panel here where I can control the function that's hit enter.
+
+02:52.960 --> 02:53.790
+And there you go.
+
+02:53.950 --> 02:58.960
+I mean now that debugger mode and you'll see here a few things.
+
+02:58.980 --> 03:06.960
+One will show me where I am and the function and also show me a change surround just so it's a little
+
+03:06.960 --> 03:07.830
+bit cleaner.
+
+03:07.830 --> 03:09.540
+I'm going to make this a little smaller.
+
+03:09.540 --> 03:10.420
+There you go.
+
+03:10.830 --> 03:13.950
+You see here is something called the cold stack.
+
+03:13.950 --> 03:19.260
+Now from the name Stack Overflow this might give you a bit of a hint.
+
+03:19.370 --> 03:23.530
+Right now we've called the inception function right here.
+
+03:23.750 --> 03:27.300
+We have an called it the second time around.
+
+03:27.650 --> 03:33.090
+If I click on the step over icon over here it's going to go to the next line of code.
+
+03:33.170 --> 03:34.980
+It's going to go to the next.
+
+03:35.210 --> 03:38.340
+And now it's going to call the next interception function.
+
+03:39.300 --> 03:45.130
+Have a look over here at the call stack as to what's going to happen next.
+
+03:47.430 --> 03:55.470
+Do you see that I just added a nother function on the call stack and as we know about stack data structure
+
+03:55.680 --> 03:58.230
+we're just adding the function call.
+
+03:58.230 --> 04:06.870
+On top of the older one and if I step over here and go again that's a third function call and if I keep
+
+04:06.870 --> 04:08.440
+going keep going keep going.
+
+04:08.490 --> 04:13.830
+You'll see that I'm just adding more and more and more things to the stack.
+
+04:14.310 --> 04:16.010
+But there's a problem here right.
+
+04:16.290 --> 04:20.260
+Nothing's getting popped from the stack.
+
+04:20.310 --> 04:26.370
+Instead the function just keeps running keeps running keeps running keeps running keeps running until
+
+04:27.090 --> 04:29.870
+we run out of memory here.
+
+04:29.940 --> 04:31.080
+Remember stack.
+
+04:31.140 --> 04:38.180
+In this case is grabbing a piece of memory from our computer and adding inception to the stack.
+
+04:38.550 --> 04:41.980
+And as you know memory is limited we don't have infinite amount.
+
+04:42.210 --> 04:49.230
+So as we keep going as we keep going it's going to stack overflow and throw in there.
+
+04:49.740 --> 04:55.910
+And this is one of the biggest problems with recursion that we're going to get into later on.
+
+04:56.430 --> 05:03.300
+As you see here though it can be very very dangerous because we can run programs that overflow that
+
+05:03.300 --> 05:09.840
+never stop that have infinite loops essentially that crash our programs.
+
+05:09.840 --> 05:19.170
+You'll also see here that this costs memory a stack is holding these function calls and recursion one
+
+05:19.170 --> 05:26.490
+of its downside is that we have to hold onto these calls and remember them one by one which can get
+
+05:26.490 --> 05:27.920
+really expensive.
+
+05:28.260 --> 05:34.470
+So if we ever get asked this question in an interview about recursion maybe a possible problem with
+
+05:34.470 --> 05:42.050
+recursion you can simply say well the computer needs to allocate memory to remember things.
+
+05:42.300 --> 05:49.620
+Stack Overflow can occur when we have recursion and there's no way to stop this recursive call.
+
+05:49.920 --> 05:55.170
+It's simply the computer saying whoa whoa whoa whoa OK this is getting silly.
+
+05:55.170 --> 05:57.030
+I'm not remembering anymore things.
+
+05:57.060 --> 05:58.640
+I'm out of memory.
+
+05:58.690 --> 06:03.080
+I'm going to just out in the next video.
+
+06:03.190 --> 06:07.630
+We're going to try and solve this problem and learn about something called a base case.
+
+06:07.750 --> 06:14.710
+I think that you have to have a recursive function to stop it from doing this.
+
+06:14.710 --> 06:16.600
+I'll see in the next one by.

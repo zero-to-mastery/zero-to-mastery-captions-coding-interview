@@ -1,0 +1,211 @@
+WEBVTT
+
+00:03.250 --> 00:09.700
+Voglio mostrarvi un ultimo esempio e questo è probabilmente il miglior esempio del perché la
+
+00:09.940 --> 00:12.380
+programmazione dinamica sia così importante.
+
+00:12.730 --> 00:17.540
+E come ricorderai quando dico una programmazione dinamica che suona un po 'confusa.
+
+00:17.650 --> 00:23.900
+Basti pensare al caching dell'ottimizzazione di qualcosa usando una cache.
+
+00:23.920 --> 00:31.820
+Uno dei migliori esempi del perché la programmazione dinamica sia così buona è la nostra buona vecchia sequenza di Fibonacci.
+
+00:32.320 --> 00:37.990
+Abbiamo imparato a conoscere questo nella nostra sezione di ricorsione del corso in cui i due numeri precedenti si sommano
+
+00:37.990 --> 00:39.150
+al numero successivo.
+
+00:39.640 --> 00:48.160
+Quindi 13 è il cinque più otto trenta quattro è il 13 e il 21 e continua a crescere continua a
+
+00:48.760 --> 00:51.750
+crescere e impariamo come calcolare tale diritto.
+
+00:51.820 --> 00:56.170
+Siamo in grado di calcolare il numero di Fibonacci abbastanza facilmente.
+
+00:56.170 --> 00:57.700
+Avevamo la funzione
+
+01:00.010 --> 01:03.310
+Fibonacci, che è un nome davvero difficile da pronunciare.
+
+01:03.430 --> 01:12.030
+Credo che sia così e tutto quello che abbiamo fatto è stato che usando la ricorsione avevamo un caso base di un valore inferiore
+
+01:12.030 --> 01:12.770
+a due.
+
+01:12.780 --> 01:18.210
+In tal caso, restituiremo un altro.
+
+01:18.250 --> 01:31.050
+Abbiamo fatto qualche divertente ricorsione restituendo Fibonacci e meno uno più Fibonacci e meno due.
+
+01:31.340 --> 01:41.460
+In modo che se voglio trovare il numero di Fibonacci all'indice di diciamo 6 e corro questo.
+
+01:41.560 --> 01:44.950
+E la nota dovrebbe essere un numero.
+
+01:44.950 --> 01:45.990
+Facciamolo di nuovo.
+
+01:46.240 --> 01:53.830
+Ottengo 8 perché 0 1 2 3 4 5 6 8 5 2 7.
+
+01:53.830 --> 01:57.640
+Dovrei avere 13 fantastici.
+
+01:57.650 --> 01:59.830
+Questo è qualcosa che dovremmo avere familiarità con.
+
+02:00.060 --> 02:01.600
+Ma lascia che ti faccia una domanda.
+
+02:01.640 --> 02:04.550
+Quanto è efficiente questa funzione.
+
+02:05.930 --> 02:07.810
+E ne abbiamo già parlato prima.
+
+02:07.820 --> 02:09.150
+Non è molto efficiente.
+
+02:09.260 --> 02:12.920
+Se ho qui una variabile che dice chiamiamola calcoli che
+
+02:15.460 --> 02:17.200
+saranno uguali a zero.
+
+02:17.380 --> 02:24.130
+E lo incrementeremo ogni volta che viene chiamata questa funzione.
+
+02:24.340 --> 02:27.940
+E poiché è ricorsivo, sappiamo che viene chiamato un sacco di volte.
+
+02:28.210 --> 02:31.900
+Se faccio Fibonacci 7 quanti calcoli è quello.
+
+02:31.960 --> 02:38.710
+Sono 13 calcoli quindi 13 volte che abbiamo eseguito la funzione gratuita di Bonacci.
+
+02:38.710 --> 02:45.840
+E se lo aumentassi a 8 21 Ok, che ne dici di nove e trenta.
+
+02:45.870 --> 02:48.710
+Che dire 10,55.
+
+02:48.710 --> 02:50.690
+Va bene sta aumentando abbastanza velocemente.
+
+02:50.690 --> 02:52.720
+Cosa succede se l'ho fatto 12.
+
+02:52.780 --> 02:57.640
+Centoquaranta calcoli solo per ottenere il dodicesimo indice.
+
+02:57.640 --> 03:04.710
+Wow cosa succede se faccio 15 calcoli 610.
+
+03:05.010 --> 03:07.530
+Che dire di 20.
+
+03:07.700 --> 03:09.200
+Santo Moly.
+
+03:09.200 --> 03:13.180
+Oltre 6000 calcoli e solo per divertimento.
+
+03:13.190 --> 03:16.050
+Cosa succede se ho fatto 25 Oh ragazzo.
+
+03:16.120 --> 03:18.040
+Va bene un'ultima volta solo perché ci stiamo divertendo.
+
+03:18.040 --> 03:19.730
+30.
+
+03:19.810 --> 03:20.200
+Tutto ok.
+
+03:20.200 --> 03:21.900
+Sono molti calcoli.
+
+03:22.180 --> 03:28.760
+A proposito, se hai vinto il tuo browser per bloccarlo, digita 50 o 60 e vedi cosa succede lì.
+
+03:30.160 --> 03:39.250
+Indipendentemente dal fatto che guardiamo a questo muro questo è abbastanza terribile, solo per calcolare il 30 ° numero o
+
+03:39.250 --> 03:45.910
+indice di una sequenza di Fibonacci si prendono molti passaggi che molti calcoli.
+
+03:45.910 --> 03:47.680
+Questo è molto.
+
+03:47.680 --> 03:49.230
+Non è molto efficiente.
+
+03:49.490 --> 03:57.220
+E lo sappiamo bene perché nella nostra sezione sulle ricorsioni abbiamo parlato di come la sequenza di Fibonacci e il modo
+
+03:57.250 --> 04:04.480
+in cui stiamo eseguendo la funzione è 0 di 2 per la potenza e la complessità del tempo davvero molto
+
+04:05.580 --> 04:10.350
+brutta, come abbiamo visto fare solo 30 calcoli richiede molto di passaggi.
+
+04:10.440 --> 04:18.990
+E ricorda con la ricorsione che stiamo aggiungendo ogni chiamata di funzione annidata allo stack che aumenta la nostra
+
+04:18.990 --> 04:26.400
+complessità di memoria e non vorremmo mai fare un'operazione che costa così tanto nella vita reale.
+
+04:26.430 --> 04:28.930
+Quindi, come possiamo renderlo più efficiente.
+
+04:29.100 --> 04:31.530
+Possiamo renderlo più efficiente.
+
+04:31.530 --> 04:37.950
+Voglio dire se la nostra funzione se hai scritto quella funzione è che il tuo capo ti licenzierà perché è tutto
+
+04:37.950 --> 04:38.790
+così orribile.
+
+04:38.910 --> 04:45.000
+Voglio dire se il tuo capo è orribile Forse, ma se conosci la
+
+04:45.540 --> 04:54.300
+programmazione dinamica puoi evitarlo perché se ti dicessi che possiamo fare e con questa funzione perché con la programmazione dinamica possiamo.
+
+04:54.600 --> 05:01.320
+È giusto che possiamo andare da tutti e due al parco e fino in fondo a tutti loro.
+
+05:01.590 --> 05:03.900
+Sembra una magia, no?
+
+05:03.900 --> 05:07.370
+Ed è qui che arriviamo al prossimo passo della nostra programmazione dinamica.
+
+05:07.440 --> 05:15.130
+Possiamo ridurre la complessità di tempo e spazio del nostro algoritmo utilizzando la memorizzazione e possiamo farlo perché
+
+05:15.130 --> 05:20.470
+la soluzione a ciascun problema di Suppe è ciò che chiamiamo ottimale.
+
+05:20.470 --> 05:26.560
+Ciò significa che ripetiamo ripetutamente molti problemi che sono gli stessi nel prossimo video.
+
+05:26.560 --> 05:30.290
+Spiegheremo questo concetto e vedremo come possiamo usare la memoizzazione.
+
+05:30.650 --> 05:31.300
+Vedrò su quello.

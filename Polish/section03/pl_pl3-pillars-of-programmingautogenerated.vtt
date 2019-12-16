@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.030 --> 00:09.740
+Co to jest dobra koksu, powinieneś być w stanie porozmawiać trochę o prawo do skalowania.
+
+00:09.980 --> 00:16.570
+Mam na myśli czytelność, o której będziemy mówić w następnej sekcji, ale skalowalność, którą rozumieliśmy, była
+
+00:17.170 --> 00:17.890
+wielka.
+
+00:18.320 --> 00:27.290
+No cóż, to mnie nie nienawidzi, ale mogę trochę skłamać lub uprościć rzeczy, ale nie tak bardzo, więc nie
+
+00:27.290 --> 00:33.920
+przejmuj się Bouldonem, że kiedy mówię, że jest skalowalny, są dwie rzeczy, które
+
+00:33.950 --> 00:36.260
+chcemy uważać za inżynierów.
+
+00:36.260 --> 00:38.430
+Jednym jest szybkość.
+
+00:38.480 --> 00:41.090
+Właśnie o tym rozmawialiśmy do tej pory.
+
+00:41.180 --> 00:45.210
+Jak szybki jest nasz kod runtime w kodzie.
+
+00:45.290 --> 00:49.730
+Ile czasu zajmuje uruchomienie funkcji.
+
+00:49.730 --> 00:52.820
+Ile operacji to kosztuje.
+
+00:53.270 --> 00:58.850
+Jest jeszcze inny aspekt, jeśli chodzi o maszyny do cennych zasobów.
+
+00:58.850 --> 01:06.860
+Jednym z nich jest czas i szybkość naszego kodu, a druga to pamięć.
+
+01:06.860 --> 01:11.800
+Widzisz komputery mają ograniczoną pamięć.
+
+01:11.860 --> 01:17.860
+W czasach, kiedy rodziły się komputery, pamięć była bardzo kosztowna.
+
+01:17.860 --> 01:19.560
+Mieliśmy tylko trochę tego.
+
+01:19.870 --> 01:25.280
+W miarę upływu czasu mamy coraz więcej pamięci, ale nie jest ona nieskończona.
+
+01:26.070 --> 01:36.090
+Nasze komputery działają w oparciu o szybkość, która jest zwykle podyktowana przez CPQ i pamięć w oparciu o to, ile pamięci, na przykład pamięci
+
+01:36.330 --> 01:40.000
+RAM i pamięci o dostępie swobodnym, ma komputer.
+
+01:40.260 --> 01:43.810
+A to są dwa cenne zasoby.
+
+01:43.860 --> 01:46.110
+Jak więc możemy mówić o pamięci.
+
+01:46.110 --> 01:47.770
+Rozmawialiśmy o prędkości.
+
+01:47.820 --> 01:53.010
+A co z pamięcią i dobrą wiadomością jest to, że pamięć jest dość prosta, a nie
+
+01:53.190 --> 02:00.240
+tak skomplikowana jak szybkość, a to nie zajmie nam dużo czasu, aby nauczyć się tyle, ile mamy teraz o prędkości, który kod
+
+02:00.240 --> 02:05.820
+jest najlepszy, można odpowiedzieć trzema filarami kodu coś, co chciałbym, abyś zabrał ze sobą na resztę swojej kariery
+
+02:05.870 --> 02:10.440
+i coś, co zwiększy cię jako inżyniera, ponieważ od teraz, kiedy piszesz kod, będziesz
+
+02:10.440 --> 02:12.810
+miał na myśli te trzy rzeczy.
+
+02:12.810 --> 02:20.890
+Jednym z nich jest napisanie czytelnego kodu, który inni mogą przeczytać, a który można konserwować.
+
+02:20.910 --> 02:30.270
+Drugi to szybkość, z jaką typowość, którą nazywamy złożonością czasu, charakteryzuje się dużą złożonością czasu, która
+
+02:30.270 --> 02:31.440
+jest wydajna.
+
+02:31.440 --> 02:33.020
+Waży się dobrze.
+
+02:33.230 --> 02:39.910
+Ale porozmawiamy szybko o tym trzecim filarze i to jest pamięć.
+
+02:40.010 --> 02:44.700
+Jakie jest użycie pamięci przez kod, jeśli wykorzystuje dużo pamięci.
+
+02:44.780 --> 02:45.560
+To nie jest dobrze.
+
+02:45.590 --> 02:49.430
+Mogliśmy mieć ograniczoną pamięć na naszej maszynie.
+
+02:49.520 --> 02:54.830
+Ponownie używamy big-O, aby porozmawiać o złożoności przestrzeni.
+
+02:54.830 --> 02:58.910
+Ta sama notacja, ale inny temat.
+
+02:58.910 --> 03:00.080
+Jednym jest przestrzeń.
+
+03:00.080 --> 03:02.220
+Drugi to CZAS Jeden to szybkość.
+
+03:02.300 --> 03:04.670
+Drugim jest pamięć.
+
+03:04.670 --> 03:11.610
+Mam zamiar dać ci szybki mały podgląd większości programów do programowania.
+
+03:11.610 --> 03:14.830
+Zazwyczaj kompromis między szybkością i pamięcią.
+
+03:14.830 --> 03:22.220
+Chcesz, żeby rzeczy szły szybciej, a wtedy możesz poświęcić więcej pamięci, której potrzebujesz, by mniej pamięci.
+
+03:22.330 --> 03:27.120
+Cóż, wtedy możesz poświęcić się ze zwiększoną prędkością.
+
+03:27.290 --> 03:31.040
+Zajmijmy się tym, jak mierzymy złożoność przestrzeni.

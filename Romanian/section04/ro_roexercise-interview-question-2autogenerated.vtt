@@ -1,0 +1,811 @@
+WEBVTT
+
+00:03.050 --> 00:08.450
+Să ne întoarcem în locul în care vrem să începem de fapt să ne scriem codul, ținând cont de faptul că cu
+
+00:08.450 --> 00:13.500
+cât pregătiți și înțelegeți mai mult ceea ce aveți nevoie pentru a codifica mai bine tabla albă va merge.
+
+00:13.550 --> 00:18.050
+Deci, nu începe niciodată un interviu de bord alb care să nu fie sigur de modul în care lucrurile se vor rezolva.
+
+00:19.020 --> 00:21.400
+Așa că am vorbit.
+
+00:21.450 --> 00:23.440
+Avem un plan în minte.
+
+00:23.730 --> 00:24.690
+Să începem să codificăm asta.
+
+00:24.690 --> 00:26.600
+Să facem prima buclă aici.
+
+00:27.650 --> 00:33.910
+Aceasta este vrem să bucle prin prima matrice și să eliminăm acest cod doar ca este puțin
+
+00:33.910 --> 00:34.930
+mai curat.
+
+00:34.960 --> 00:40.360
+Vrem să bucle prin prima matrice crea un obiect în cazul în care proprietățile se vor potrivi cu elementele
+
+00:40.450 --> 00:41.120
+din matrice.
+
+00:42.120 --> 00:47.130
+Am de gând să creez un obiect, să spunem doar această
+
+00:51.750 --> 00:57.620
+hartă și harta pe care am creat-o, dar vrem să ne bifăm prin matrice.
+
+00:57.630 --> 00:59.980
+Așa că să spun
+
+01:00.700 --> 01:04.560
+Sună la 0 și am făcut asta înainte.
+
+01:04.860 --> 01:12.100
+Este mai puțin numit punct matrice sau matrice cu un punct de lungime.
+
+01:12.480 --> 01:17.400
+O să creștem până acum pe aici.
+
+01:17.470 --> 01:29.570
+Vom spune mai întâi dacă nu există nici o proprietate, așa că vrem să verificăm dacă o hartă punct A există mapată. Partea
+
+01:29.570 --> 01:33.110
+B există. Harta există harta Dotsie.
+
+01:33.190 --> 01:35.020
+X există.
+
+01:35.020 --> 01:45.220
+Deci, dacă nu există în Javascript, puteți folosi această sintaxă pe care o putem spune dacă nu se aplică o hartă.
+
+01:45.220 --> 01:51.470
+Deci, din nou dacă hartă I, care prima oară va fi a.
+
+01:51.620 --> 01:57.380
+Deci dacă hartă punct A este opusul.
+
+01:57.380 --> 02:02.760
+Deci, acest semn de exclamare javascript înseamnă opusul dacă harta a există.
+
+02:02.930 --> 02:08.770
+Va reveni adevărat dacă nu există.
+
+02:08.770 --> 02:11.880
+Va spune fals.
+
+02:11.900 --> 02:14.080
+Deci, asta ar putea fi un pic confuz.
+
+02:14.090 --> 02:20.880
+Dar vrem să spunem că dacă nu există acest lucru, vrem să facem ceva.
+
+02:21.000 --> 02:28.200
+Acum, modul în care declarațiile funcționează în Javascript trebuie să fie adevărat pentru a executa ceea ce este
+
+02:28.200 --> 02:28.840
+aici.
+
+02:28.890 --> 02:36.020
+Așa că adăugăm aici semnul exclamării pentru a transforma falsul în adevărat.
+
+02:36.030 --> 02:37.720
+Știu că poate fi puțin confuz.
+
+02:37.830 --> 02:38.990
+Puteți citi acest lucru.
+
+02:39.090 --> 02:44.600
+Dar, în esență, ceea ce facem este că doar verificăm proprietatea dacă există sau nu.
+
+02:45.030 --> 02:48.710
+Dacă nu există, atunci o vom adăuga.
+
+02:48.780 --> 02:56.320
+Așa că am să spun că elementul Konst este egal cu array 1 I.
+
+02:56.550 --> 03:09.540
+Deci, este un element și acest element va avea un element de hartă egal cu adevărat.
+
+03:09.800 --> 03:11.060
+Ce facem aici.
+
+03:11.240 --> 03:23.600
+Ceea ce am spus în cazul în care hartă a nu există în acest caz să facem un tablou I care este egal cu elementul astfel încât elementul de hartă
+
+03:23.690 --> 03:25.880
+va fi egal cu 2.
+
+03:25.880 --> 03:29.340
+Tot ce spunem este harta a.
+
+03:29.350 --> 03:31.590
+În acest caz egal cu adevărat.
+
+03:31.690 --> 03:41.700
+Deci, până la sfârșitul acestui lucru vom avea un obiect care va avea o proprietate adevărată și vom continua
+
+03:41.700 --> 03:50.430
+să o luăm până când vom avea un obiect numit hartă care are toate aceste elemente.
+
+03:50.430 --> 03:58.950
+Harta unei hărți b hartă c hartă X este egal cu adevărat bine arată că suntem capabili să realizăm acest lucru și putem
+
+03:58.950 --> 04:03.480
+consola doar legea noastră aici doar pentru a verifica ceea ce avem.
+
+04:03.480 --> 04:07.470
+Voi spune harta de dialog Konsole.
+
+04:07.610 --> 04:22.450
+Dacă execut această funcție, hai să facem un element obișnuit pentru a array un matrice și să minimizăm acest lucru puțin.
+
+04:22.460 --> 04:29.230
+Putem vedea și dacă voi executa asta, oh, mă voi asigura că și eu scriu acea matrice potrivită.
+
+04:29.460 --> 04:30.950
+Să fugim.
+
+04:31.170 --> 04:35.430
+Vedem că avem un adevărat adevărat C adevărat X adevărat.
+
+04:35.550 --> 04:36.270
+Minunat.
+
+04:36.300 --> 04:38.080
+Așa că acum lucrăm.
+
+04:38.220 --> 04:47.960
+Să trecem prin cel de-al doilea pas și, de fapt, tocmai am observat că acest lucru așa cum se întâmplă
+
+04:48.020 --> 04:52.640
+acum verifică eu care este 0 1 2 3.
+
+04:52.640 --> 04:56.260
+În schimb, vrem să verificăm b c la X ..
+
+04:56.300 --> 05:05.930
+Deci, în loc de mine aici, ar trebui să fie un rack de matrice și o notație I.
+
+05:06.410 --> 05:13.490
+Deci, este un b c x are proprietatea hărții.
+
+05:13.680 --> 05:16.340
+O mulțime de paranteze aici, dar sper că are sens.
+
+05:16.350 --> 05:18.920
+Dacă conduc acest lucru, ar trebui să obținem același răspuns.
+
+05:18.930 --> 05:20.060
+Perfect.
+
+05:20.070 --> 05:22.270
+Acum, să ne uităm la partea a doua aici.
+
+05:22.290 --> 05:28.440
+Vreți să vă bucurați de a doua matrice și să verificați dacă elementul din a doua matrice
+
+05:28.620 --> 05:30.140
+există pe obiectul creat.
+
+05:30.150 --> 05:31.700
+Acest lucru ar trebui să fie destul de simplu.
+
+05:31.890 --> 05:35.420
+Tot ce trebuie să facem și să eliminăm hărțile de dialog ale consolei aici.
+
+05:36.620 --> 05:39.660
+Tot ce trebuie să facem este să batem peste a doua matrice.
+
+05:42.790 --> 05:46.710
+Fie J egal cu zero.
+
+05:47.570 --> 05:51.910
+J ar trebui să aibă o lungime mai mică de două puncte.
+
+05:53.060 --> 05:55.320
+Și apoi vom crește incrementul J.
+
+05:56.980 --> 06:02.030
+Și tot ce vom spune este dacă MAP Ce vrem să verificăm.
+
+06:02.080 --> 06:11.200
+Ceea ce vrem să verificăm dacă conține primul element din a doua matrice care este Z ca parte a proprietăților sale.
+
+06:11.230 --> 06:16.030
+Rețineți că obiectul nostru de hartă conține aceste proprietăți.
+
+06:16.120 --> 06:22.290
+Deci tot ce vom spune este că vom verifica matricea.
+
+06:22.780 --> 06:25.240
+Și vom verifica indicele J.
+
+06:25.330 --> 06:29.460
+Astfel, primul indice 0 de peste 80 va fi ușor.
+
+06:29.470 --> 06:31.330
+Atunci de ce a.
+
+06:31.450 --> 06:37.930
+Și dacă acest lucru este adevărat dacă conține aceste lucruri, amintiți-vă când evaluăm acest lucru se
+
+06:37.930 --> 06:40.450
+va întoarce adevărat dacă există.
+
+06:40.540 --> 06:43.900
+Dacă acum vom ajunge undefined.
+
+06:44.050 --> 06:48.350
+Vom spune să ne întoarcem cu adevărat altfel.
+
+06:48.550 --> 06:53.530
+La sfarsit, putem spune ca returnarea este falsa.
+
+06:53.710 --> 06:57.340
+Să vedem dacă funcționează de fapt Vonta doar faceți
+
+07:00.820 --> 07:03.480
+clic pe și am prin OK.
+
+07:03.690 --> 07:13.570
+Așa că văd că într-un meci, dacă aș schimba acest lucru la ceva care nu există ca lacul nostru Ron.
+
+07:13.740 --> 07:15.450
+Am fals.
+
+07:15.590 --> 07:30.300
+Ce se întâmplă dacă schimba acest lucru pentru a vedea dacă sunt adevărat dacă obțin acest lucru la X Se face adevărat dacă schimb acest lucru la W. Am fals minunat.
+
+07:30.330 --> 07:41.200
+Așa că am codificat ceva nou o nouă funcție care, dacă ne uităm, face lucrurile mai bune.
+
+07:41.220 --> 07:41.820
+Dreapta.
+
+07:42.030 --> 07:52.290
+Pentru că avem două patru bucle unul după altul, care este întotdeauna un plus b față de înainte în cazul în care am avut imbricate
+
+07:52.350 --> 07:53.910
+pentru acele switch-uri.
+
+07:53.960 --> 08:00.870
+O temp este în acest moment putem spune intervievatorului dacă matricea este substanțial mare și putem
+
+08:00.870 --> 08:07.410
+obține matrice foarte mari, atunci această soluție când vine vorba de complexitatea timpului este mai
+
+08:11.250 --> 08:12.150
+bună.
+
+08:12.600 --> 08:13.510
+Cat de tare e asta.
+
+08:14.370 --> 08:19.040
+Acum, hai să trecem prin pașii următori, pentru că nu am terminat încă.
+
+08:20.540 --> 08:22.970
+Să facem asta puțin mai mare.
+
+08:22.970 --> 08:26.970
+Numărul 11 ​​se gîndește la airchecks și la modul în care puteți sparge acest cod.
+
+08:27.170 --> 08:30.350
+Niciodată nu face presupuneri despre intrare.
+
+08:30.350 --> 08:35.120
+Să presupunem că oamenii încearcă să vă spargă codul și că Darth Vader vă folosește funcția.
+
+08:35.120 --> 08:39.260
+Cum veți proteja acest lucru, așa că întotdeauna verificați pentru intrări false.
+
+08:39.270 --> 08:46.570
+Ei nu vor, dar, în esență, mă uit acum la acest cod și spun cum pot să sparg acest lucru.
+
+08:46.580 --> 08:52.270
+Să gândim asta prin asta.
+
+08:52.340 --> 08:58.510
+Dacă trec prin acest cod și să spunem ce se întâmplă dacă trebuie să o conduc pe Asier.
+
+08:58.610 --> 09:00.380
+Încă funcționează bine.
+
+09:00.500 --> 09:03.070
+Și dacă am a.
+
+09:03.120 --> 09:05.270
+Și aici ce se întâmplă.
+
+09:05.480 --> 09:07.730
+În regulă, văd că sunt adevărat că e bine.
+
+09:08.240 --> 09:14.290
+Dar dacă am un număr în loc de un șir.
+
+09:14.300 --> 09:20.040
+Presupunem că matricea care conține șiruri va fi falsă.
+
+09:20.040 --> 09:22.360
+Bine, dacă fac una aici.
+
+09:24.150 --> 09:26.600
+Voi trece prin OK ca să funcționeze.
+
+09:26.600 --> 09:29.060
+Ce se întâmplă dacă fac o
+
+09:31.970 --> 09:36.230
+matrice goală aici, mă fac falsă, dar dacă fac o altă matrice
+
+09:41.430 --> 09:47.540
+aici OK am adevărat ce dacă știu aici și javascript care este un pic dificil OK am fals.
+
+09:47.550 --> 09:55.980
+Dacă știu să fiu adevărat în regulă, care funcționează liber, reveniți la ceea ce am avut înainte.
+
+09:56.250 --> 10:01.060
+Vrem să le spunem acum intervievatorului cum am putea să încălcăm acest cod.
+
+10:01.200 --> 10:04.660
+De exemplu, dacă nu primim o rată.
+
+10:04.770 --> 10:08.790
+Ce se întâmplă dacă această funcție este apelată cu o singură matrice.
+
+10:08.970 --> 10:09.640
+Ce se întâmplă.
+
+10:09.750 --> 10:16.620
+Vom ajunge acolo și vrem să ne gândim cum pot apărea erori.
+
+10:16.710 --> 10:19.970
+Dorim ca aceste funcții să fie cât mai libere posibil.
+
+10:20.160 --> 10:25.740
+Iar în timpul unui intro, de obicei, nu vom avea timp să facem toate verificările pe care le
+
+10:25.740 --> 10:31.380
+doriți, dar ați putea dori să le spuneți intervievatorului că posibilele soluții sunt modalități posibile de a face acest lucru.
+
+10:31.560 --> 10:32.380
+Precum.
+
+10:32.580 --> 10:45.160
+Putem presupune întotdeauna doi parametri în funcție este ceea ce se întâmplă dacă în al doilea parametru I
+
+10:45.320 --> 10:47.620
+I-PASS 0 OK.
+
+10:47.640 --> 10:48.950
+Încă mai fals.
+
+10:48.950 --> 10:50.360
+Dacă trec.
+
+10:50.850 --> 10:57.180
+Nu am o eroare care spune că nu pot citi lenth de nr.
+
+10:57.580 --> 11:03.850
+Așadar, doriți să începeți să vă gândiți și să discutați cu intervievatorul cum puteți întrerupe această funcție și
+
+11:03.850 --> 11:10.720
+cum puteți să o îmbunătățiți, cum ar fi efectuarea de verificări, cum ar fi declarații, pentru a vă asigura
+
+11:10.780 --> 11:15.020
+că informațiile pe care le obțineți sunt ceea ce vă așteptați.
+
+11:15.030 --> 11:20.020
+Acum, atunci când testarea vine și testarea codului dvs. vine în timpul cel mai interviu.
+
+11:20.020 --> 11:25.110
+Acesta este de obicei dincolo de sfera interviului și aveți timp limitat pentru a putea face acest lucru.
+
+11:25.210 --> 11:28.880
+Dar este bine să spuneți intervievatorului ce ați face.
+
+11:28.930 --> 11:31.360
+Acesta este unul din acele lucruri care sunt destul de simple.
+
+11:31.360 --> 11:33.290
+Pot spune doar intervievatorului.
+
+11:33.400 --> 11:39.020
+Acesta este motivul pentru care ați face acest lucru în loc să o codificați și vă vor da, în esență, note complete.
+
+11:41.140 --> 11:42.210
+Să ne uităm la pasul următor.
+
+11:43.330 --> 11:46.370
+Nu utilizați nume rău confuze ca i și j.
+
+11:46.430 --> 11:48.880
+Du-te codul de scriere care citește bine.
+
+11:48.940 --> 11:53.480
+Acum, când mă uit la această funcție este OK.
+
+11:53.920 --> 12:01.510
+Acum spun că nu folosiți variabile ca i și j și deși nu folosiți i și j.
+
+12:01.510 --> 12:03.070
+Exact aici.
+
+12:03.070 --> 12:11.080
+Acest lucru este folosit pentru buclele și pentru buclele folosind am auzit este OK, deoarece este un pic de un
+
+12:11.080 --> 12:19.660
+standard, mai ales în javascript și acestea sunt doar pur și simplu indecși, dar poate că în cazul în care acești
+
+12:19.780 --> 12:29.890
+parametri au semnificații, cum ar fi poate aceasta a fost array utilizator și aceasta a fost array-urile cu elemente care le numesc mai multe variabile sau
+
+12:29.890 --> 12:34.150
+parametri mai utile, mai importante, ar putea fi mai bune.
+
+12:34.150 --> 12:42.330
+Poate că această variabilă a hărții poate fi numită concordanță sau ceva mai semnificativ pentru cod.
+
+12:42.330 --> 12:46.630
+Din nou, acesta este unul din lucrurile pe care le puteți vorbi cu
+
+12:46.630 --> 12:51.240
+intervievatorul și le puteți spune că vă gândiți la aceste lucruri și că este foarte important.
+
+12:51.250 --> 12:56.380
+Din nou, atâta timp cât te gândești la el și îi spui intervievatorului că iei
+
+12:56.380 --> 12:59.090
+în considerare chiuveta, vei obține note întregi.
+
+12:59.350 --> 13:00.640
+Continuă.
+
+13:00.640 --> 13:05.850
+Testați-vă codurile de verificare pentru că nu Paramo zero nedefinit nici o matrice masive.
+
+13:05.920 --> 13:06.960
+Cod Async.
+
+13:07.390 --> 13:08.640
+Si asa mai departe.
+
+13:09.010 --> 13:13.510
+Și am reușit să acoperim acest lucru în etapa anterioară, dar doriți să verificați cu un intervievator că
+
+13:13.510 --> 13:17.080
+facem niște presupuneri aici, dar să le spuneți că vă gândiți și vă
+
+13:17.080 --> 13:21.460
+gândiți la faptul că această funcție s-ar putea să nu întotdeauna să fii alergat la o cursă.
+
+13:21.460 --> 13:26.650
+Cum putem testa această funcție și cum ați testa această funcție pentru a vă asigura
+
+13:26.650 --> 13:30.430
+că dă rezultatul așteptat că revenim întotdeauna adevărat sau fals.
+
+13:30.490 --> 13:35.350
+Și aici puteți spune că vă veți testa codul și veți efectua teste unitare.
+
+13:35.410 --> 13:38.630
+În cele din urmă, chiar dacă spun în cele din urmă aici, există un alt punct.
+
+13:38.710 --> 13:42.920
+Dar, în final, vorbiți cu intervievatorul unde veți îmbunătăți codul.
+
+13:43.090 --> 13:43.900
+Funcționează.
+
+13:43.900 --> 13:45.760
+Există abordări diferite.
+
+13:45.760 --> 13:47.140
+Este lizibil.
+
+13:47.140 --> 13:50.560
+Ce ați face sau ce ați putea îmbunătăți Google.
+
+13:50.620 --> 13:52.490
+Cum poate fi îmbunătățită performanța.
+
+13:52.870 --> 13:58.030
+Privind bine la acest cod, pot să încep să spun intervievatorului că este OK.
+
+13:58.180 --> 14:05.800
+Dezavantajul acestei soluții este că numai numerele și șirurile și booleanele pot fi utilizate
+
+14:05.800 --> 14:12.550
+corect deoarece folosim un obiect în special în javascript și adăugând proprietăți.
+
+14:13.790 --> 14:16.420
+A B C lângă acest obiect.
+
+14:16.580 --> 14:24.320
+Acum, proprietățile obiectului, în special modul în care folosim un obiect javascript Saray acum ar putea să nu
+
+14:24.320 --> 14:26.520
+funcționeze dacă folosim valori non-literale.
+
+14:26.570 --> 14:33.830
+Poate că puterea nu este o expresie javascript și s-ar putea să susținem și faptul că acest cod ar
+
+14:33.860 --> 14:43.280
+putea fi un pic mai ușor de citit, de exemplu, deși acest cod este mai bun din punct de vedere al complexității timpului când vine
+
+14:43.280 --> 14:44.720
+vorba de javascript.
+
+14:44.720 --> 14:48.560
+De fapt, există o modalitate mai curată de a face asta.
+
+14:48.590 --> 14:52.820
+Permiteți-mi să vă arăt că acest lucru este specific limbajului.
+
+14:52.820 --> 14:58.580
+Asta inseamna ca, in functie de cat de mult stii despre limba in care lucrezi cu tine, poti sa
+
+14:58.580 --> 15:02.930
+folosesti metode pentru a simplifica acest proces, astfel incat sa ii poti spune intervievatorului.
+
+15:03.030 --> 15:10.250
+Aș fi metodele specifice Google să spunem o cursă pentru a vedea dacă pot curăța codul și îl
+
+15:10.250 --> 15:11.140
+pot citi.
+
+15:11.240 --> 15:14.920
+De exemplu, pot să fac exact aceeași funcție.
+
+15:18.340 --> 15:20.650
+Și o vom numi conține elementul comun 3.
+
+15:20.890 --> 15:29.970
+Asta ia o matrice de 1 matrice și într-o singură linie pot să mă întorc într-o matrice pe
+
+15:33.030 --> 15:38.020
+care am primit una care este o caracteristică nouă.
+
+15:38.640 --> 15:45.990
+Cred că sexul cu javascript și pot spune element folosind funcțiile de eroare care
+
+15:45.990 --> 15:56.850
+vin cu șase și pot spune buclă prin matrice la punct include și a verifica dacă include elementul se uită la acel element.
+
+15:59.160 --> 16:00.990
+Acum ce facem aici.
+
+16:02.450 --> 16:09.080
+Ei bine, folosim câteva metode construite în javascript pentru a face esențial ceea ce am
+
+16:09.080 --> 16:17.360
+făcut mai sus, care este verificarea primei matrice iterați prin fiecare element din matrice și dacă unele dintre ele
+
+16:17.360 --> 16:22.190
+includ elementele din matricele noastre pentru a reveni doar
+
+16:25.660 --> 16:31.960
+la true sau false dacă de fapt, verificăm acest lucru cu ajutorul matricei noastre.
+
+16:32.210 --> 16:37.960
+Și conduc asta și să comentăm prima.
+
+16:38.110 --> 16:46.490
+Dacă am lovit jocul aici, trebuie să mă asigur că acest lucru nu include includerea mea devine falsă, deoarece matricea noastră nu are nici
+
+16:47.300 --> 16:48.360
+o potrivire.
+
+16:48.380 --> 16:54.000
+Dacă are un meci de nume, mă uit la asta.
+
+16:54.030 --> 16:57.910
+Doar creez o functie minunata folosind javascript aici.
+
+16:57.920 --> 16:58.880
+Cat de tare e asta.
+
+16:58.880 --> 17:02.760
+Despre asta vorbim când spunem că există soluții diferite la o problemă.
+
+17:03.200 --> 17:08.590
+Acum avem o modalitate de a măsura diferite soluții la o problemă.
+
+17:09.580 --> 17:14.620
+Putem spune că există de fapt o altă soluție care utilizează unele dintre metodele construite în
+
+17:14.620 --> 17:18.790
+combinație cu javascript, care ar spune unii mai ușor de citit mai concis.
+
+17:18.820 --> 17:26.260
+Dacă lucrați la o echipă care știe cu adevărat javascript-ul lor, este mult mai ușor de citit decât acesta.
+
+17:26.260 --> 17:26.890
+Dreapta.
+
+17:27.040 --> 17:29.700
+Așadar, este posibil ca citirea să fie mai importantă.
+
+17:31.000 --> 17:33.300
+S-ar putea spune că aceasta este o soluție mai bună.
+
+17:34.190 --> 17:38.660
+Un alt lucru pe care l-ați observat este că am vorbit despre complexitatea timpului aici.
+
+17:40.450 --> 17:45.820
+Și nu am vorbit cu adevărat despre complexitatea spațiului și acest lucru merge într-un punct final.
+
+17:45.940 --> 17:50.780
+Dacă intervievatorul dvs. este mulțumit de soluția dvs., intervievatorul răspunde de obicei aici.
+
+17:50.830 --> 17:56.390
+De asemenea, este comun că intervievatorul vă cere să prelungiți întrebarea cum ar fi cum să rezolvați
+
+17:56.390 --> 18:03.420
+o problemă dacă întreaga intrare este prea mare pentru a se încadra în memorie Ei bine, dacă vorbim despre complexitatea spațiului
+
+18:03.420 --> 18:07.860
+aici, putem vedea că în prima soluție pe care am avut-o .
+
+18:07.860 --> 18:10.670
+Dați-mi voie să comentez acest lucru.
+
+18:10.770 --> 18:17.550
+Avem o complexitate spațială a uneia pentru că nu
+
+18:21.950 --> 18:24.400
+creăm noi variabile.
+
+18:24.410 --> 18:26.830
+Folosim doar matricele de intrări.
+
+18:28.170 --> 18:32.730
+Spațiul tehnic suplimentar de spațiu pentru funcția noastră este unul.
+
+18:32.820 --> 18:34.210
+E constantă.
+
+18:34.230 --> 18:43.830
+Dar dacă ne defilem la acest bine, noi creăm un obiect nou aici și adăugăm prima matrice
+
+18:45.280 --> 18:48.240
+într-un obiect care preia memoria.
+
+18:48.490 --> 18:58.050
+Deci, această soluție are de fapt complexitatea spațială a OK, care este prima complexitate a spațiului ray.
+
+18:58.240 --> 19:02.990
+Deci, dacă intervievatorul spune dacă memoria este limitată sau memoria este costisitoare.
+
+19:03.010 --> 19:04.860
+Îi poți spune lui sau ei.
+
+19:04.870 --> 19:13.090
+În timp ce această soluție, deși este mai rapidă în ceea ce privește complexitatea de timp, este mai fericită din punctul de vedere al complexității vitezei,
+
+19:15.810 --> 19:21.630
+acest punct pe care am uitat să-l menționăm este ceva care din nou este foarte bine menționat în timpul
+
+19:21.630 --> 19:24.810
+interviului dvs. să modulați codul de la bun început.
+
+19:24.810 --> 19:29.930
+Împărțiți-vă codul în bucăți frumoase mici și adăugați doar comentarii dacă aveți nevoie.
+
+19:30.360 --> 19:31.340
+Ce inseamna asta.
+
+19:31.650 --> 19:37.270
+Ei bine, avem soluția aici pe care am lucrat și ne-am angajat să facem asta.
+
+19:37.290 --> 19:43.920
+Modificăm să spunem că acest prim bloc de cod va face ceva, atunci acest bloc de cod
+
+19:43.950 --> 19:45.320
+va face altceva.
+
+19:45.420 --> 19:52.440
+Dar, pe măsură ce codul devine din ce în ce mai complex, devine din ce în ce mai
+
+19:52.440 --> 20:01.470
+important să scrieți într-un mod modular, care este bucăți mici și fragmente care citesc ca engleza pe care o vedeți mult greu de
+
+20:01.530 --> 20:07.400
+citit, costurile companiilor o mulțime de bani pentru că nu lucrați doar la codebase.
+
+20:07.470 --> 20:14.950
+Este cel mai probabil zeci sau sute, dacă nu mii de dezvoltatori și ingineri, astfel încât companiile vor să angajeze pe
+
+20:14.950 --> 20:22.720
+cineva care este capabil să scrie un cod curat, care este ușor de citit, ușor pentru oricine să ia și cod
+
+20:22.960 --> 20:24.050
+împreună cu.
+
+20:24.190 --> 20:31.750
+De exemplu, aici, ceea ce am putea să facem este să separăm
+
+20:31.750 --> 20:44.980
+aceste funcții în diferite funcții, poate să creeze o funcție aici, care poate spune că array-ul de hartă a obiectului primește în primul Saray
+
+20:46.450 --> 20:56.460
+ITA și poate poate aici aici o funcție notră pentru lumea exterioară care spune compara matricea cu obiectul.
+
+20:56.470 --> 21:01.870
+Acum nu trebuie să faceți acest lucru în timpul unui interviu, dar este bine să o menționați și
+
+21:01.870 --> 21:04.640
+să vorbiți despre ideea modularizării în codul dvs.
+
+21:04.750 --> 21:09.730
+Dacă o funcție face prea multe lucruri care nu sunt ideale.
+
+21:09.730 --> 21:15.010
+Când spunem modular dorim să construim SMALLPEICE codul care face un singur lucru și
+
+21:15.430 --> 21:24.190
+un lucru într-adevăr ideal o funcție ia o intrare și returnează o ieșire și în interiorul acelui bloc are doar un singur lucru dacă trebuie
+
+21:24.570 --> 21:26.580
+să facă orice acțiuni suplimentare.
+
+21:26.670 --> 21:35.700
+Ei bine, poate aveți o funcție care trăiește în lumea exterioară, iar această funcție face de asemenea un lucru foarte bine și
+
+21:35.700 --> 21:41.140
+acest lucru creează un cod curat cu adevărat testabil, care este modular.
+
+21:41.310 --> 21:46.550
+Din nou, ceva ce este foarte bine să menționați și să vorbiți în interviul dvs.
+
+21:46.740 --> 21:47.630
+In regula.
+
+21:47.820 --> 21:54.840
+Știu că aceasta este o mulțime și trebuie să vă gândiți mult pentru că începeți să vă gândiți că trebuie să
+
+21:55.140 --> 21:59.820
+vă îngrijor de fiecare cod care are dreptate și să o analizați profund.
+
+21:59.850 --> 22:00.410
+Nu.
+
+22:00.450 --> 22:02.660
+În viața de zi cu zi nu vei face asta.
+
+22:02.790 --> 22:08.130
+Dar am vrut să vă demonstrez că acesta este un fel de proces de gândire pe care
+
+22:08.130 --> 22:11.510
+dezvoltatorii cu adevărat buni au și despre ce companii intervievează.
+
+22:11.730 --> 22:17.910
+Dacă sunteți capabil să gândiți clar prin acești pași, așa cum i-am prezentat pentru dvs. și sunteți
+
+22:17.910 --> 22:25.080
+capabili să rezolvați problemele în acest fel, veți vedea cât de mult mai impresionant este decât dacă am scris această
+
+22:25.500 --> 22:27.010
+soluție fără explicații.
+
+22:27.770 --> 22:34.580
+Chiar dacă nu ajungeți la această parte și timpul rămâne în timpul interviului, ați demonstrat
+
+22:34.580 --> 22:41.460
+intervievatorului dvs. că sunteți în stare să gândiți clar că aveți fundamentele de gândire ca un inginer.
+
+22:41.780 --> 22:49.030
+Și acestea sunt calități excelente pe care companiile le place să le angajeze și abilități care sunt foarte rare.
+
+22:49.040 --> 22:50.790
+Sper că te-ai distrat cu acest exercițiu.
+
+22:50.960 --> 22:54.540
+Este posibil să trebuiască să reveniți la aceste videoclipuri mai târziu.
+
+22:54.800 --> 22:58.160
+Dar pentru moment voi vedea în următorul Buh-Bye.

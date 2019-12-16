@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.110 --> 00:01.910
+Witamy spowrotem.
+
+00:02.170 --> 00:09.610
+Chciałem porozmawiać o ostatnim fragmencie układanki, zwłaszcza jeśli chodzi o wykresy, chociaż do
+
+00:09.610 --> 00:13.250
+tej pory mówiliśmy o trajektorii wykresu.
+
+00:13.390 --> 00:18.340
+A także odwrócenie Treach używają DFS i DFS.
+
+00:18.370 --> 00:25.480
+Jest jeszcze jedna rzecz, którą powinieneś rozważyć teraz w wywiadzie, że najprawdopodobniej zamierzasz wdrożyć
+
+00:25.480 --> 00:31.100
+te algorytmy, ponieważ są one niezwykle skomplikowane i zajmują dużo czasu.
+
+00:31.150 --> 00:39.040
+Jednak osoba przeprowadzająca wywiad może spodziewać się, że o nich wiesz i że użyje Belmana Forda
+
+00:39.190 --> 00:44.120
+lub algorytmu diastersów, aby znaleźć najkrótszy problem ze ścieżką.
+
+00:44.290 --> 00:45.810
+Ale możesz zadawać sobie pytanie.
+
+00:46.010 --> 00:52.940
+Cóż, Andre właśnie powiedziałeś mi, że pierwsze wyszukiwanie jest najkrótsze z powodu najkrótszej ścieżki.
+
+00:52.990 --> 00:53.980
+Dlaczego potrzebujemy tego.
+
+00:54.010 --> 00:56.790
+Pewne algorytmy X już wiem, jak to zrobić.
+
+00:56.980 --> 01:00.090
+I w rzeczywistości jest to szczególny przypadek.
+
+01:00.220 --> 01:06.540
+Widać szerokość pierwszego wyszukiwania jest świetny dla najkrótszej ścieżki problemu, ale jest jedna rzecz,
+
+01:06.540 --> 01:11.960
+która może przyjąć, że każdy skok do innego węzła na wykresie.
+
+01:11.960 --> 01:22.240
+Jeśli wrócimy tutaj, zakłada się, że każda ścieżka ma tę samą wagę z głębokością pierwszego wyszukiwania w oddechu.
+
+01:22.340 --> 01:29.590
+Pierwsze wyszukiwanie nie obchodzi nas, jaki ciężar ma krawędź.
+
+01:29.730 --> 01:37.670
+Na przykład w prawdziwym życiu, takim jak Mapy Google, niektóre drogi są szybsze niż inne.
+
+01:37.770 --> 01:38.790
+Dobrze.
+
+01:38.890 --> 01:44.730
+Prawdopodobnie mamy większy ruch na jednej drodze, może odległość od jednej nuty do drugiej.
+
+01:44.740 --> 01:51.730
+Jest krótszy od drugiego, a te ważone wykresy, o których mówiliśmy, mają przypisaną liczbę do
+
+01:51.970 --> 01:53.420
+ich krawędzi.
+
+01:53.440 --> 02:01.210
+Pamiętaj, że węzeł nazywany jest wierzchołkiem na wykresie, a połączenie między dwoma węzłami to
+
+02:01.240 --> 02:07.990
+krawędź i głębokość. Pierwsze wyszukiwanie nie pozwala nam uwzględnić tych wag.
+
+02:08.020 --> 02:09.870
+Potrzebujemy czegoś innego.
+
+02:10.150 --> 02:16.150
+I w wywiadzie, jeśli ktoś cię o to poprosi, odpowiedzią powinien
+
+02:16.180 --> 02:27.180
+być albo Belman Ford, albo algorytm diasters, który pozwala nam znaleźć najkrótszą ścieżkę pomiędzy dwoma nutami ważonego wykresu. Belman i dicer to
+
+02:27.180 --> 02:35.640
+dwaj prawdziwi ludzie, którzy są bardzo mądrymi naukowcami, którzy akademicy wymyślił własny algorytm, aby rozwiązać najkrótszy problem
+
+02:35.850 --> 02:41.910
+związany z drogą do digrafii, taką jak Google Maps, próbując ustalić, w
+
+02:41.940 --> 02:46.140
+jaki sposób można uzyskać na przykład burrito.
+
+02:46.140 --> 02:48.660
+I tylko zabawny fakt z notatek bocznych.
+
+02:48.720 --> 02:51.060
+To jest Richard Belman.
+
+02:51.360 --> 02:58.880
+I to ta sama osoba, która napisała o programowaniu dynamicznym, który jest nadchodzącą sekcją w naszym kursie.
+
+02:58.890 --> 03:02.060
+Powiedzmy, że obie te osoby są bardzo inteligentne.
+
+03:03.370 --> 03:11.110
+Teraz oba te algorytmy są dość skomplikowane i potrzeba naprawdę dużo czasu, aby je zakodować.
+
+03:11.290 --> 03:17.170
+Zostawię więc zasoby dla ciebie, jeśli chcesz dowiedzieć się więcej o tych algorytmach, ponieważ w
+
+03:17.470 --> 03:22.380
+wywiadzie bardzo rzadko zdarza się, że będziesz musiał kodować te algorytmy.
+
+03:22.390 --> 03:26.520
+W większości przypadków po prostu musisz wiedzieć, że one istnieją i kiedy z nich korzystać.
+
+03:26.530 --> 03:36.330
+Przyjrzyjmy się zatem, że algorytm Belmana Forda jest bardzo skuteczny w rozwiązywaniu najkrótszych ścieżek w porównaniu z algorytmem diasters,
+
+03:36.360 --> 03:40.070
+ponieważ może on pomieścić ujemne wagi.
+
+03:40.290 --> 03:49.110
+Jeśli więc wykres ważony ma ujemną masę lub liczbę ujemną, algorytm Belmana Forda będzie w stanie rozwiązać
+
+03:49.110 --> 03:51.210
+problem najkrótszej ścieżki.
+
+03:51.360 --> 03:54.090
+Podczas gdy Daxter nie będzie w stanie.
+
+03:54.170 --> 04:01.900
+Dlaczego więc kiedykolwiek używałbyś diasterów, jeśli algorytm Belmana Forda może się lepiej udać, nie dostaniemy do
+
+04:01.900 --> 04:02.980
+tego wszystkiego.
+
+04:03.370 --> 04:10.870
+Algorytm Belmana Forda może jednak zająć dużo czasu i nie jest to
+
+04:10.900 --> 04:12.150
+najskuteczniejszy algorytm.
+
+04:12.250 --> 04:19.460
+Najgorszy przypadek dla algorytmu Belmana do przodu to zwykle złożoność czasowa wszystkich i skurcz.
+
+04:19.810 --> 04:21.720
+Więc nie jest zbyt wydajny.
+
+04:21.730 --> 04:29.020
+Z drugiej strony algorytm Diastersa jest nieco szybszy i nieco bardziej wydajny ze względu
+
+04:29.320 --> 04:35.470
+na to, że może on pomieścić negatywne oczekiwania między węzłami.
+
+04:35.560 --> 04:43.540
+Jeśli osoba przeprowadzająca wywiad pokazuje ci ten schemat i mówi, że chcę znaleźć najkrótszą ścieżkę od 0 do 4 w
+
+04:43.960 --> 04:48.320
+ten sposób, aby wykreślić, teraz wiesz, dlaczego powinieneś mówić dobrze.
+
+04:48.730 --> 04:50.830
+Jakiego algorytmu użyjesz?
+
+04:50.830 --> 04:52.030
+Czy będziesz używał oddechu.
+
+04:52.150 --> 04:58.130
+Najpierw wyszukaj algorytm Belmana Forda lub algorytm diasters.
+
+04:58.330 --> 05:03.010
+Odpowiedź dobrze powinien być algorytmem diasters.
+
+05:03.040 --> 05:05.580
+Na tym wykresie nie ma ujemnych wag.
+
+05:05.590 --> 05:06.610
+To jest waga wykres.
+
+05:06.760 --> 05:09.710
+Więc dicer jest algorytmem, który rozwiąże ten problem.

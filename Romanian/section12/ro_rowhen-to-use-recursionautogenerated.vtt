@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.860 --> 00:05.440
+Când vom folosi recursivitatea.
+
+00:05.660 --> 00:07.600
+Acesta este rolul pe care îmi place să-l folosesc.
+
+00:08.530 --> 00:14.800
+Când ajunge la probleme complicate cum ar fi traversarea sau căutarea prin arbori sau grafice
+
+00:14.800 --> 00:21.070
+ceva despre care vom vorbi despre graficul de căutare și profunzime pentru recursul de
+
+00:21.070 --> 00:27.400
+căutare este într-adevăr foarte util și mai bun decât abordările iterative și căutăm prin elemente.
+
+00:27.430 --> 00:35.890
+Există, de asemenea, cazuri care vor vedea că recursivitatea este preferată și când vine vorba de recursivitate, acestea sunt regulile pe
+
+00:35.890 --> 00:43.190
+care îmi place să le urmez de fiecare dată când folosim un copac sau convertim ceva într-un copac.
+
+00:43.190 --> 00:51.350
+Luați în considerare recursivitatea și există trei chestiuni cheie într-o întrebare de interviu care ar putea declanșa
+
+00:51.920 --> 01:02.550
+o soluție recursivă este aceea că o problemă poate fi împărțită într-o serie de subprobleme care sunt cazuri mai mici ale aceleiași probleme,
+
+01:02.790 --> 01:09.430
+cum ar fi exercițiile pe care le-am făcut cu numerele Fibonacci sau factorial.
+
+01:09.450 --> 01:14.640
+Putem să le distrugem în copaci mici, care se descompun în bucăți mai mici și mai mici.
+
+01:14.670 --> 01:19.030
+Acestea sunt probleme inerent recursive.
+
+01:19.030 --> 01:25.420
+Un alt factor este că fiecare dintre aceste situații de problemă are aceeași natură.
+
+01:25.570 --> 01:30.160
+Acestea sunt calculele pe care trebuie să le facem cam la fel.
+
+01:30.190 --> 01:35.550
+Acestea pot fi valori mai mici, dar calculele efective de dedesubt sunt la fel.
+
+01:35.550 --> 01:38.040
+Peste și peste și peste.
+
+01:38.220 --> 01:45.660
+Și apoi, în sfârșit, al treilea punct este că aceste soluții, dacă rezolvați problemele mai mici acele noduri
+
+01:45.690 --> 01:49.190
+de frunze ale acelui copac și le combinați.
+
+01:49.290 --> 01:54.800
+Asta rezolvă problema la îndemână, atunci este o soluție recursivă pe care o puteți utiliza.
+
+01:55.170 --> 01:59.930
+Veți vedea o mulțime de împărțire și cucerire folosind recursivitate.
+
+02:00.060 --> 02:06.280
+Amintiți-vă să împărțiți și să cuceriți ceea ce am menționat când ajungem la lecția de structură a datelor
+
+02:06.280 --> 02:12.030
+arborilor, este ca și când ați căuta o carte telefonică când căutați Bell în agenda telefonică.
+
+02:12.370 --> 02:19.290
+Nu veți începe de la o și pur și simplu mergeți o singură pagină la un moment dat de la stânga la dreapta.
+
+02:19.330 --> 02:25.630
+Nu, de obicei, împărțiți agenda telefonică în mijloc sau încercați să mergeți la secțiunea B a agendei telefonice
+
+02:25.630 --> 02:33.780
+și să începeți împărțirea paginii de problemă cu pagină până când vă apropiați și mai aproape de această diviziune și de a cuceri
+
+02:33.780 --> 02:37.420
+tipul de întrebări care de obicei au recurs în ele.
+
+02:37.800 --> 02:46.110
+Și, după cum știm, singurul lucru pe care-l pot recupera poate să facă acest lucru nu este că pot face
+
+02:46.200 --> 02:50.540
+sarcini super-super ușor, cum ar fi aceste tipuri de probleme.
+
+02:50.700 --> 02:59.450
+De fapt, vă încurajez să vă scrieți propria funcție de traversare pe care o folosim în structura noastră de date
+
+02:59.450 --> 03:00.080
+arborescentă.
+
+03:00.080 --> 03:05.600
+Aceasta este o problemă la care vom ajunge când vom ajunge la căutare și secțiunea algoritmului, dar dacă
+
+03:05.600 --> 03:06.890
+doriți să vă provocați.
+
+03:06.890 --> 03:14.470
+Vedeți dacă poate scrie o funcție de traversare ca în cazul în care am făcut aici folosind recursivitate și apoi am încercat
+
+03:14.650 --> 03:16.590
+să scriu cod cu bucle.
+
+03:16.690 --> 03:21.310
+Veți vedea că cu bucle lucruri cum ar fi traversal copac este o durere de cap.
+
+03:21.310 --> 03:24.720
+Pot să o fac și pe capul meu cu recursivitate.
+
+03:24.730 --> 03:32.650
+Este destul de simplă, cu buclele de obicei, trebuie să păstrați un anumit stack pentru a urmări
+
+03:32.650 --> 03:33.290
+lucrurile.
+
+03:33.550 --> 03:35.660
+Și într-adevăr adaugă o mulțime de complexitate.
+
+03:37.300 --> 03:44.470
+Deci, folosiți regulile de mai jos pentru a observa când se prezintă o problemă recursivă în timpul unui interviu.
+
+03:44.920 --> 03:51.130
+Voi lăsa câteva exerciții pentru dvs. după acest videoclip, dar după cum vom vedea, vom reveni la acest subiect când
+
+03:51.160 --> 03:57.320
+vom intra în alte secțiuni de algoritmi și lucrurile vor începe să devină mai clare și mai clare.
+
+03:57.610 --> 03:58.990
+Voi vedea în următorul.
+
+03:59.290 --> 03:59.480
+Bob.

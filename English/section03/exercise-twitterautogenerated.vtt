@@ -1,0 +1,226 @@
+WEBVTT
+
+00:01.220 --> 00:07.480
+All right let's do a fun exercise to show you that you've actually just become a better engineer.
+
+00:07.550 --> 00:09.270
+Let's have a situation.
+
+00:09.290 --> 00:16.740
+Let's say you're working at Twitter and I hope everybody knows Twitter here.
+
+00:16.980 --> 00:26.910
+If you're working at Twitter and your boss asked you to build a feature perhaps a feature that allows
+
+00:27.300 --> 00:35.430
+anybody to click a button next to their name and retrieve their most recent tweet and they're all just
+
+00:35.610 --> 00:36.120
+tweet.
+
+00:36.210 --> 00:44.310
+So that is their very first tweet and their very latest tweet based on Big-O notation and what we know
+
+00:44.310 --> 00:45.840
+about Big-O notation.
+
+00:46.110 --> 00:48.460
+What can we assume about this problem.
+
+00:50.000 --> 01:02.690
+Well without coding anything we know that we have to find first and then find Anth or whatever the last
+
+01:02.690 --> 01:03.630
+item is.
+
+01:03.710 --> 01:11.960
+Now we don't know how the tweets are stored in our database or whichever way Twitter organizes these
+
+01:11.960 --> 01:20.500
+things but based on how they are stored we might be able to just grab say the tweets where in an array.
+
+01:20.510 --> 01:25.580
+So let's say a constant array and we'll have an array of tweets.
+
+01:25.820 --> 01:30.030
+And let's just say we have three tweets here.
+
+01:31.280 --> 01:39.940
+There are just three simple tweets will say that this one is the oldest and this one is the most recent.
+
+01:40.190 --> 01:46.960
+If we have an array here we know that it's going to take us if the tweets are stored in an array.
+
+01:47.210 --> 01:52.340
+It's going to take us while we go array to zero.
+
+01:52.400 --> 02:06.770
+We get the the oldest tweet and if we go array array dot lenth minus one we get the three minus 1 so
+
+02:06.770 --> 02:10.100
+that is 2 that is 0 1 2.
+
+02:10.100 --> 02:13.220
+This is going to be 2.
+
+02:13.550 --> 02:15.060
+We're going to get 20.
+
+02:15.170 --> 02:22.130
+The most recent tweet and because of the way arrays work we know that both of these operations will
+
+02:22.130 --> 02:27.670
+be so one time.
+
+02:28.000 --> 02:33.430
+And this one will also be 0 1 or constant time.
+
+02:33.460 --> 02:36.420
+So a total of 0 2 operation.
+
+02:36.430 --> 02:42.910
+But we again use our rule book and simplify it to Constantine.
+
+02:42.980 --> 02:43.610
+So that's great.
+
+02:43.610 --> 02:50.430
+We build a nice little simple Twitter application and we can get that information very easily.
+
+02:50.720 --> 02:58.100
+But now our boss comes back to us and say hey I want you to compare the dates of tweets.
+
+02:58.250 --> 03:05.140
+So I want you to look at every tweet now within each array.
+
+03:05.320 --> 03:21.240
+There's an object with each tweet.
+
+03:21.280 --> 03:25.560
+Now we have and this person does not tweet a lot.
+
+03:25.570 --> 03:28.320
+Three tweets in six years.
+
+03:28.330 --> 03:37.790
+But now we have to compare each tweet with all the other tweets and compare their dates.
+
+03:38.040 --> 03:40.710
+What is the big goal of this operation.
+
+03:43.100 --> 03:49.690
+Well because we're comparing each item in the array with the other.
+
+03:49.700 --> 03:51.140
+This should sound familiar.
+
+03:51.140 --> 03:52.560
+We're doing nested loops.
+
+03:52.640 --> 04:00.870
+So this is going to take oh and squirt time at least with while we know right now.
+
+04:01.060 --> 04:07.990
+So we know that this is going to take a lot and fits a person that has a lot of tweets a lot of inputs
+
+04:08.020 --> 04:09.000
+in the array.
+
+04:09.280 --> 04:12.420
+This operation might cost us a lot of money at Twitter.
+
+04:12.580 --> 04:16.100
+So you might want to tell your boss whom we might have an issue here.
+
+04:16.120 --> 04:23.470
+We might need to do something else perhaps store the information in a better format or do something
+
+04:23.470 --> 04:31.420
+different with our program in order to avoid something that might be inefficient and might be expensive
+
+04:31.600 --> 04:32.630
+for the company.
+
+04:33.290 --> 04:41.240
+And just by thinking like this now you have this ability to think long term think scalable Cote by the
+
+04:41.240 --> 04:42.870
+way as a fun one.
+
+04:43.190 --> 04:51.860
+What happens if I ask you what is the what is the operation and what's going to cost us.
+
+04:51.890 --> 04:59.850
+If I have a string and I do dot plenteous and javascript that just means what is the length of our string.
+
+05:00.690 --> 05:05.590
+That is 20 that means we have 20 items in the string.
+
+05:05.610 --> 05:13.260
+What do you think the big O notation of this is and this is a bit of a trick question and something
+
+05:13.260 --> 05:20.390
+that you might get asked in an interview because the answer to this is depends it depends on the language
+
+05:20.390 --> 05:22.430
+that you're working with.
+
+05:22.460 --> 05:31.470
+We need to know how the method works on the strings here and that's built into javascript and you'll
+
+05:31.490 --> 05:37.100
+have a different built in method for your language based on how the language is built.
+
+05:37.160 --> 05:47.510
+This DOD lenth might go one by one and iterate over each letter and count 0 1 2 3 4 5 6 7 8 9 10 all
+
+05:47.510 --> 05:57.680
+the way until 20 but javascript actually has got length property built in to each string.
+
+05:58.030 --> 06:05.370
+So for javascript this Daleth property is just a simple lookup.
+
+06:05.430 --> 06:07.970
+It's not a function.
+
+06:08.130 --> 06:10.830
+We're not running this function to calculate things.
+
+06:10.830 --> 06:15.230
+Instead it's simply a property of an object.
+
+06:15.450 --> 06:16.490
+And because of that.
+
+06:16.590 --> 06:21.600
+And again if you're not super familiar with javascript this may be a little bit confusing but don't
+
+06:21.600 --> 06:22.340
+stress out.
+
+06:22.410 --> 06:27.660
+The idea is that this operation in javascript is 0.
+
+06:27.840 --> 06:38.240
+Constantine but without knowing how your language works you don't know how this property my work how.
+
+06:38.280 --> 06:47.070
+Perhaps if you had a method how that might work but now you have a powerful foundation for pillar to
+
+06:47.370 --> 06:50.240
+start thinking about code in a different way.
+
+06:50.310 --> 06:57.030
+Start looking at space and time are something that are valuable to us as engineers as resources that
+
+06:57.030 --> 06:58.620
+we must be careful.
+
+06:58.620 --> 07:06.320
+We don't have infinite amount of resources we have to be careful when we code how we use up these resources.
+
+07:06.450 --> 07:10.800
+And that alone makes you a better engineer.
+
+07:10.820 --> 07:11.660
+I'll see in the next few.

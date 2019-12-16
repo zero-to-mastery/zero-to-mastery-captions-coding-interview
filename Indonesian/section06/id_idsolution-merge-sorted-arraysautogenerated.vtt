@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.940 --> 00:10.680
+Selamat datang kembali, ini saatnya untuk mengurutkan beberapa moray, mari kita ambil fungsi ini, letakkan di bagian paling akhir karena mudah-mudahan ini akan berfungsi di
+
+00:10.680 --> 00:12.100
+bagian paling akhir.
+
+00:12.420 --> 00:19.200
+Dan mulailah menulis kode kita.
+
+00:19.360 --> 00:25.090
+Kami akan memulai dengan terlebih dahulu mendefinisikan fungsi yang disebut antarmuka semacam gabungan.
+
+00:25.120 --> 00:31.630
+Ini akan mengambil parameter pertama yang merupakan array pertama kemudian parameter kedua yang merupakan
+
+00:31.630 --> 00:38.490
+sekunder saya akan terlebih dahulu mendefinisikan beberapa variabel yang akan kita gunakan di seluruh fungsi.
+
+00:38.560 --> 00:47.760
+Yang pertama adalah konstanta yang digabung array yang akan menjadi jawaban kita.
+
+00:47.790 --> 00:49.910
+Untuk saat ini akan menjadi array kosong.
+
+00:51.280 --> 00:56.420
+Dan kami mungkin juga memastikan bahwa kami mengembalikan array yang digabungkan ini di akhir.
+
+00:56.500 --> 01:03.160
+Semoga semuanya berhasil dan kita dapat mengisi ini dengan dua array ini.
+
+01:03.240 --> 01:14.330
+Sekarang di sini saya ingin mengambil item array hanya untuk referensi dan ini akan menjadi
+
+01:14.750 --> 01:18.700
+item array pertama kami.
+
+01:18.750 --> 01:23.090
+Jadi ini hanya memiliki item nol di sini.
+
+01:23.190 --> 01:24.180
+Dan array pertama
+
+01:27.720 --> 01:29.720
+kita dan kemudian kita akan melakukan hal yang sama.
+
+01:30.300 --> 01:31.410
+Array 2
+
+01:36.370 --> 01:39.280
+item yang akan meraih nomor empat dari sini.
+
+01:40.580 --> 01:47.240
+Sekarang hal pertama yang saya suka lakukan dalam suatu fungsi adalah memeriksa semacam input memastikan
+
+01:47.250 --> 01:47.900
+bahwa
+
+01:50.660 --> 01:57.930
+semuanya berfungsi, saya akan meluangkan waktu saya melakukan ini karena Anda harus memiliki ide tentang bagaimana
+
+01:57.930 --> 02:02.360
+memeriksa apakah itu array apakah Anda memiliki dua parameter.
+
+02:03.520 --> 02:10.820
+Tetapi satu masukan yang saya pikir layak untuk diperiksa adalah bagaimana jika kita memiliki sesuatu seperti ini.
+
+02:11.670 --> 02:15.910
+Di mana array kedua hanyalah kurs kosong.
+
+02:16.260 --> 02:19.040
+Dalam kasus kami, kami hanya dapat mengembalikan tingkat pertama.
+
+02:19.380 --> 02:23.670
+Karena sementara itu sudah diurutkan kita masih menggabungkan dua sinar tetapi array lain tidak punya
+
+02:23.670 --> 02:24.210
+apa-apa
+
+02:24.570 --> 02:29.700
+Dan itu sama jika array pertama ini juga kosong.
+
+02:30.660 --> 02:39.180
+Jadi untuk menghindari X pasti bekerja, mari kita periksa kondisi tersebut sehingga segera kami dapat memberikan jawabannya
+
+02:39.180 --> 02:42.390
+dan membuat fungsi kami lebih efisien.
+
+02:42.390 --> 02:43.780
+Dalam kasus itu.
+
+02:44.010 --> 02:45.650
+Jadi saya bisa melakukan pernyataan if.
+
+02:45.810 --> 02:51.800
+Saya akan mengatakan aere want lenth jika itu sama dengan nol.
+
+02:52.910 --> 02:54.790
+Jadi jika array pertama kosong.
+
+02:54.980 --> 02:57.740
+Cukup dengan mengembalikan sekunder
+
+03:01.300 --> 03:10.970
+dan kita dapat melakukan hal yang sama untuk kasus lain jika array ke lenth kosong maka kita bisa
+
+03:10.970 --> 03:14.690
+mengembalikan array pertama yang bagus dan sederhana.
+
+03:14.760 --> 03:20.340
+Untuk sekarang mari kita masuk ke topik yang lebih sulit yaitu apa yang terjadi jika kedua array ini penuh seperti
+
+03:20.340 --> 03:20.920
+sekarang
+
+03:22.410 --> 03:30.250
+Yah hanya untuk mengubah segalanya karena saya telah menggunakan for for loop untuk sementara waktu, saya akan menggunakan
+
+03:30.550 --> 03:36.940
+while loop di javascript dan ini hanya mengatakan perulangan melalui item saat kondisi terpenuhi.
+
+03:37.030 --> 03:48.520
+Dalam kasus kami, saya akan mengatakan sementara ada array satu item atau ada array 2 Item melakukan sesuatu dan ingat variabel-variabel
+
+03:51.360 --> 03:59.130
+ini hanya untuk sekarang item pertama di masing-masing array dan omong-omong jika Anda bertanya-tanya
+
+03:59.750 --> 04:04.960
+mengapa kadang-kadang saya menggunakan biaya kadang-kadang saya menggunakan BIARKAN.
+
+04:05.340 --> 04:12.680
+Nah biaya berarti bahwa setelah saya menetapkan variabel ini ke array ini saya tidak dapat memodifikasinya.
+
+04:12.720 --> 04:15.940
+Saya tidak bisa mengatakan array gabungan sama dengan dua.
+
+04:16.080 --> 04:21.960
+Ini akan memberi saya peringatan karena ini adalah konstanta saya dapat menambahkan sesuatu ke array tetapi saya tidak
+
+04:22.380 --> 04:24.480
+dapat mengubah referensi ini ke array.
+
+04:24.630 --> 04:27.770
+Di sisi lain biarkan memungkinkan saya untuk melakukan itu.
+
+04:27.870 --> 04:35.890
+Jadi nanti saya bisa mengatakan array satu item sama dengan sesuatu yang baru seperti array satu di indeks satu.
+
+04:36.330 --> 04:39.300
+Jadi itu sebabnya kami menggunakan sintaks ini.
+
+04:39.300 --> 04:42.680
+Ini adalah sintaks ESX dan Javascript baru.
+
+04:42.800 --> 04:43.910
+Baiklah.
+
+04:43.910 --> 04:57.810
+Jadi, sementara kita memiliki hal-hal dan array kita ingin melakukan sedikit pemeriksaan pertama katakanlah jika array
+
+04:58.710 --> 05:15.630
+satu item kurang dari item Array 2 yaitu jika 0 kurang dari 4 kita ingin menambahkan ke array kosong misteri.
+
+05:15.660 --> 05:20.860
+Kami ingin mengatakan push dan kami akan mendorong item pertama dalam array.
+
+05:21.060 --> 05:32.570
+Jadi kita akan mendorong 0 dan karena kita sekarang telah mendorong item nol ke dalam array ini kita tidak perlu khawatir
+
+05:32.570 --> 05:34.610
+tentang nol lagi.
+
+05:34.970 --> 05:49.230
+Jadi kita bisa mengatakan array satu item sekarang akan sama dengan array satu pada indeks.
+
+05:49.350 --> 05:54.710
+Benar karena sekarang kami ingin pindah ke item array.
+
+05:54.710 --> 06:00.040
+Itu di sini di indeks 1 yaitu 3 sehingga kita dapat membandingkan tiga dengan empat
+
+06:00.150 --> 06:02.450
+Sekarang kami ingin menambah ini setiap waktu.
+
+06:02.610 --> 06:11.160
+Dan karena kita melakukan perulangan di sini, mari kita ubah ini menjadi indeks yang tinggi dan bertambah dengan
+
+06:11.280 --> 06:12.740
+plus plus.
+
+06:12.970 --> 06:22.910
+Dan di bagian atas di sini kita bisa mengatakan untuk permulaan bahwa dengan pergi ke yang sama.
+
+06:23.000 --> 06:28.610
+Jadi seperti itu saat kita mengulanginya, ini akan bertambah dengan I plus plus dari
+
+06:28.610 --> 06:37.590
+itu kenaikan sebesar 1 sehingga kita bisa pergi 0 3 4 31 dan omong-omong aku hanya memperhatikan bahwa aku tidak bisa mengeja array
+
+06:37.590 --> 06:40.550
+yang buruk di sini dia 8.
+
+06:40.550 --> 06:46.430
+Nah, itu kasus ketika array satu item kurang dari array ke daftar ke sisi lain.
+
+06:46.580 --> 06:55.310
+Jika array 2 item kurang dari Array 1 sekarang kita bergabung ke dalam array.
+
+06:57.970 --> 07:07.370
+Array ke item karena jika array satu item tidak kurang dari array ke item kita bahkan tidak perlu menambahkan syarat di sini.
+
+07:07.370 --> 07:15.470
+Kita tahu bahwa array satu item lebih besar dari array dua item dalam hal ini kita bisa menambahkan
+
+07:15.470 --> 07:16.400
+item kedua.
+
+07:16.400 --> 07:19.470
+Jadi kita tambahkan item ini sebagai gantinya.
+
+07:20.860 --> 07:25.980
+Dan lagi kami ingin melakukan hal yang sama persis seperti yang kami lakukan dengan item pertama atau array pertama.
+
+07:26.110 --> 07:35.110
+Itu adalah array ke item sekarang akan sama dengan array dan kita perlu indeks yang berbeda ini.
+
+07:35.110 --> 07:43.160
+Kita dapat menggunakan tingkat yang sama sehingga kita bisa mengatakan ini akan menjadi J dan muncul
+
+07:43.360 --> 07:45.920
+Kami hanya melakukan hal yang sama.
+
+07:45.940 --> 07:49.000
+J akan sama dengan 1.
+
+07:49.390 --> 07:57.790
+Jadi, sekali kita menemukan item indeks nol, kita dapat beralih ke indeks satu dari indeks dua indeks
+
+07:57.790 --> 07:58.290
+tiga.
+
+07:58.300 --> 08:00.280
+Begitu seterusnya dan seterusnya.
+
+08:00.280 --> 08:02.480
+Sekarang mari kita periksa kode ini dan lihat apakah itu berfungsi.
+
+08:02.530 --> 08:08.790
+Jika saya menjalankan ini oh Anda akan melihat bahwa browser saya baru saja mogok.
+
+08:08.790 --> 08:15.960
+Dan itu karena saya memiliki pengaturan pada REPL ID yang memungkinkan untuk sementara waktu untuk ini terjadi kemungkinan besar jika Anda
+
+08:15.960 --> 08:19.480
+menggunakan pengaturan default di sini, itu akan memberi Anda peringatan.
+
+08:19.800 --> 08:20.390
+Tapi
+
+08:25.430 --> 08:27.130
+mari kita kembali mengapa itu terjadi.
+
+08:27.800 --> 08:33.780
+Inilah sebabnya mengapa selalu merupakan ide yang baik untuk melakukan langkah demi langkah dan memastikan semuanya berjalan baik.
+
+08:33.800 --> 08:39.130
+Kami melakukan banyak pengkodean di sini tanpa benar-benar menguji apakah semua ini berfungsi.
+
+08:39.930 --> 08:47.230
+Jadi catatan yang baik di sini adalah untuk berhenti sesekali dan hanya menguji asumsi Anda.
+
+08:47.390 --> 08:57.070
+Dalam hal ini kami melewatkan titik kritis yang ada dalam pemeriksaan ini di sini jika kami melakukan loop sementara selama array satu
+
+08:57.070 --> 09:04.810
+item atau array dua item diisi dan kami memeriksa di sini jika array satu item kurang dari
+
+09:04.810 --> 09:06.660
+item Array 2
+
+09:06.780 --> 09:14.700
+Tetapi masalahnya di sini adalah bahwa kita dapat memiliki kasus di mana salah satu dari ini karena kita menggunakan atau
+
+09:14.760 --> 09:19.690
+dapat tidak ditentukan atau kita mencapai akhir garis untuk menjelaskan itu.
+
+09:19.800 --> 09:27.280
+Hal penting yang harus dilakukan di sini adalah untuk selalu tahu bagaimana kode Anda berjalan, jadi mari kita
+
+09:27.300 --> 09:34.160
+lakukan yang dibatalkan atau kunci di sini katakanlah ... ingin item man array ke item.
+
+09:34.640 --> 09:37.790
+Mari kita lihat apa yang kita dapatkan sepanjang loop.
+
+09:38.640 --> 09:44.600
+Jika saya jalankan ini akan crash lagi dan kami tidak akan dapat melihat log kami.
+
+09:44.610 --> 09:50.410
+Jadi saya hanya akan menuliskan versi yang benar di sini dan kemudian menjelaskan mengapa kami melakukan apa yang kami lakukan.
+
+09:50.750 --> 09:56.260
+Saya hanya akan mengatakan jika kembali ke item jika array
+
+09:59.810 --> 10:06.570
+ke item tidak ada jadi jika kita tidak mendefinisikannya akan mengubahnya menjadi benar.
+
+10:06.580 --> 10:08.510
+Jadi kami menjalankan ini.
+
+10:08.800 --> 10:10.100
+Mengapa demikian.
+
+10:10.120 --> 10:10.900
+Mari kita lihat.
+
+10:13.180 --> 10:15.470
+Perhatikan apa yang baru saja kita kunci di sini.
+
+10:15.520 --> 10:18.780
+Kami telah mencatat setiap satu item lalu mengatur dua item.
+
+10:18.790 --> 10:26.770
+Jadi inilah mengapa kita membandingkan seluruh loop nol kita lebih dari 3 dan 4 kemudian baginya untuk kemudian empat
+
+10:26.770 --> 10:37.030
+dan enam kemudian 31 dan enam 31 dan 30 dan kemudian 31 dan pada mendefinisikan Anda lihat di sini bagaimana item array kedua menjadi tidak
+
+10:37.180 --> 10:38.040
+terdefinisi.
+
+10:38.880 --> 10:51.040
+Dan agar kita mem-bypass undefined ini yang menjadi definisi di sini dan kita menggunakan tanda seru dalam javascript untuk
+
+10:51.040 --> 10:54.610
+mengubahnya menjadi pernyataan yang benar.
+
+10:54.610 --> 11:04.670
+Jadi itu berubah menjadi ini sehingga kita bisa menambahkan Thirty-One dalam satu array ke dalam slot terakhir dari array.
+
+11:06.140 --> 11:08.810
+Sekarang jika ini seperti ini
+
+11:11.780 --> 11:16.420
+dan saya menjalankan kita tidak terdefinisi untuk array pertama.
+
+11:17.490 --> 11:26.480
+Namun karena kami melakukan pemeriksaan kedua yaitu array satu item kurang dari item Array 2 dan
+
+11:26.480 --> 11:36.670
+dalam kasus kami jika kami lakukan pada didefinisikan kurang dari 6 yang kami lakukan di sini dalam perbandingan ini.
+
+11:36.750 --> 11:48.760
+Jika saya menjalankan ini dan biarkan Konsole log ini melihat apa jawabannya saya salah.
+
+11:48.770 --> 11:57.200
+Jadi meskipun saat ini sekitar array satu tidak terdefinisi karena kita telah melewatinya karena
+
+11:57.200 --> 11:59.330
+pernyataan ini salah.
+
+11:59.420 --> 12:09.290
+Kami pergi ke pernyataan lain dan mengisi sisa array dengan 6 dan 13 atau 30 yang datang
+
+12:09.380 --> 12:19.390
+dari array ke saya ingin menunjukkan ini kepada Anda karena ini sekarang mungkin solusi paling bersih yang tepat.
+
+12:19.420 --> 12:27.310
+Maksud saya melihat kode ini hanya berpikir tentang apa yang harus saya jelaskan dan menarik bagi Anda untuk sepenuhnya memahami
+
+12:27.820 --> 12:29.480
+bagaimana ini bekerja.
+
+12:29.530 --> 12:33.930
+Saya dan saya melakukan ini untuk alasan tertentu selama wawancara.
+
+12:33.940 --> 12:40.180
+Jika Anda harus menjelaskan hal-hal secara rinci seperti ini dan menuliskannya dengan baik, mungkin ada cara yang lebih
+
+12:40.180 --> 12:41.350
+baik untuk menulisnya.
+
+12:43.070 --> 12:49.970
+Karena pewawancara akan menjadi bingung tentang apa artinya ini maka apa artinya ini dan itu tidak benar-benar
+
+12:49.970 --> 12:52.250
+membaca seperti bahasa Inggris melakukannya.
+
+12:52.400 --> 12:57.540
+Idealnya fungsi-fungsi ini sangat bagus untuk dibaca.
+
+12:57.610 --> 13:06.490
+Jadi mungkin saya dapat mengambil bagian ini dari fungsi dan mengubahnya menjadi fungsinya sendiri dan beri
+
+13:06.550 --> 13:10.640
+nama ini harus mendorong item array pertama.
+
+13:11.110 --> 13:18.790
+Dan ini harus mendorong array ke item dan dengan mengekstraksi bagian-bagian kode ini ke dalam fungsi kecil
+
+13:19.030 --> 13:20.170
+mereka sendiri.
+
+13:21.260 --> 13:28.700
+Anda dapat membersihkan jawaban ini dan membuatnya lebih mudah dibaca dan pewawancara akan menyukainya.
+
+13:28.750 --> 13:34.060
+Sekarang selama wawancara Anda mungkin tidak punya waktu untuk melakukannya tetapi Anda dapat memberi tahu pewawancara
+
+13:34.060 --> 13:40.510
+bagaimana Anda menulis solusinya dan Anda mengerti bahwa ini mungkin bukan solusi yang paling mudah dibaca dan ini adalah apa
+
+13:40.510 --> 13:42.960
+yang akan Anda lakukan untuk membersihkannya.
+
+13:42.970 --> 13:47.590
+Anda tidak harus benar-benar kode itu selama Anda memberi tahu mereka dan Anda mengerti di mana Anda
+
+13:47.590 --> 13:48.600
+akan meningkatkan hal-hal.
+
+13:48.890 --> 13:54.830
+Bahwa di mata pewawancara sama baiknya dengan Anda benar-benar mengkodekannya.
+
+13:54.910 --> 13:57.220
+Sepertinya ini berfungsi.
+
+13:57.220 --> 14:06.340
+Jika saya melakukan array kosong di sini saya melihat bahwa itu masih berfungsi, jawaban kami terlihat bagus.
+
+14:07.600 --> 14:09.000
+Semoga Anda sampai sejauh ini.
+
+14:09.040 --> 14:11.330
+Sampai jumpa di video berikutnya.

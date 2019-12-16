@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.680 --> 00:04.970
+Întoarce-le înapoi Am un exercițiu mic pentru tine.
+
+00:04.970 --> 00:06.390
+Și acum vă întrebați.
+
+00:06.480 --> 00:08.660
+Andrea spui că toate exercițiile sunt distractive.
+
+00:08.660 --> 00:10.750
+Ești un mincinos mare.
+
+00:10.750 --> 00:11.300
+In regula.
+
+00:11.300 --> 00:14.000
+Punctul corect, dar cred că asta va fi distractiv.
+
+00:14.000 --> 00:15.100
+Deci, stai cu mine.
+
+00:16.020 --> 00:24.390
+Vreau să scrieți o funcție de fapt două funcții care găsesc factori de orice număr.
+
+00:24.470 --> 00:26.030
+Acum de ce două funcții.
+
+00:26.240 --> 00:34.820
+Ei bine, o funcție va fi recursivă folosind ceea ce tocmai am învățat în cazul în care trebuie să creăm un caz de bază
+
+00:34.820 --> 00:37.030
+că trebuie să urmăm pașii potriviți.
+
+00:37.100 --> 00:44.030
+Dacă ne întoarcem, trebuie să identificăm un caz de bază și un caz recursiv și apoi să ne asigurăm în cele din
+
+00:44.030 --> 00:46.970
+urmă că trebuie să ne întoarcem ambele cazuri.
+
+00:47.110 --> 00:57.670
+Deci, această funcție recursivă va reveni la un răspuns, dar ceea ce este un factorial este o modalitate bună de
+
+00:57.670 --> 00:59.510
+a gândi factorial.
+
+00:59.620 --> 01:10.030
+Este această notație cinci factorială de marcă de exclamare înseamnă pur și simplu să se înmulțească de cinci ori de patru ori de trei ori
+
+01:10.150 --> 01:12.280
+de două ori câte una.
+
+01:12.490 --> 01:18.540
+Continuați să mergeți câte unul câte unul înmulțind fiecare număr până când ajungeți la 1.
+
+01:18.790 --> 01:27.260
+Deci, șase factorieni vor fi de șase ori de cinci ori de patru ori de trei ori până la 10
+
+01:27.260 --> 01:36.770
+Amazon și veți observa aici că este un model de recursiune pe care îl facem numind funcția și avem două cazuri care se
+
+01:36.770 --> 01:37.630
+pot întâmpla.
+
+01:37.670 --> 01:45.440
+Avem cazul de bază pentru a opri sau recursiv caz și așa mai departe și așa mai departe și vom continua
+
+01:45.440 --> 01:48.840
+să continue merge până când vom lovi 1.
+
+01:48.860 --> 01:52.620
+Aș vrea să construiesc o funcție care să facă asta pentru noi.
+
+01:52.760 --> 01:56.840
+Voi scrie funcția factorial.
+
+01:56.840 --> 02:01.050
+Veți pune în cinci și va trece prin asta.
+
+02:01.490 --> 02:09.190
+Dar amintiți-vă definiția noastră de recursiune de recursiune este atunci când definiți ceva în termenii ei înșiși.
+
+02:09.210 --> 02:19.490
+Acum, o modalitate buna de a ne gandi la factoriali este ca acest factorial cinci este simplu de cinci ori patru factoriali.
+
+02:19.670 --> 02:24.260
+Vedeți aici de cinci ori patru factoriali sunt factori cinci
+
+02:27.040 --> 02:34.510
+de cinci ori patru ori trei factoriali de patru ori trei sunt cinci factori, deoarece patru
+
+02:34.510 --> 02:42.500
+factori trei sunt factori egali și vedeți cum putem avea o funcție de recursiune pe care o putem
+
+02:43.010 --> 02:45.290
+scrie folosind aceste cunoștințe.
+
+02:45.290 --> 02:50.110
+Vedeți dacă puteți crea o funcție care vă permite să faceți acest lucru.
+
+02:50.210 --> 02:54.500
+Acum, când vine vorba de această întrebare, există două modalități prin care puteți să faceți acest lucru.
+
+02:54.560 --> 03:00.950
+Puteți face abordarea recursivă în cazul în care funcția se numește sau puteți face abordarea
+
+03:01.010 --> 03:09.470
+iterativă, ceea ce înseamnă looping și majoritatea probabil că veți găsi mai ușor să o rezolvi în acest fel cu
+
+03:09.470 --> 03:11.200
+doar o buclă.
+
+03:11.270 --> 03:15.840
+De exemplu, voi renunța la asta pentru a vă da seama.
+
+03:15.870 --> 03:19.540
+Vedeți dacă puteți să efectuați ambele funcții și să vedeți dacă vă dau numărul corect.
+
+03:20.010 --> 03:23.000
+Și în următorul videoclip vă voi arăta răspunsul.
+
+03:23.100 --> 03:24.230
+O să văd asta.
+
+03:24.240 --> 03:24.580
+Mult noroc.

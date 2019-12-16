@@ -1,0 +1,148 @@
+WEBVTT
+
+00:01.150 --> 00:10.390
+Witamy ponownie w tej sekcji sfinalizowaliśmy naszą wiedzę na temat algorytmów z programowaniem dynamicznym i
+
+00:10.480 --> 00:12.950
+ukończyliśmy to wszystko.
+
+00:13.150 --> 00:20.950
+A teraz ostatnim elementem układanki jest pełne dynamiczne programowanie, a zwłaszcza wykorzystanie pamięci do
+
+00:21.160 --> 00:23.260
+optymalizacji naszych problemów.
+
+00:23.970 --> 00:30.240
+Uzupełnieniem całego diagramu jest moja mapa jak opanować wywiad.
+
+00:30.340 --> 00:32.610
+Czego się uczymy.
+
+00:32.680 --> 00:38.860
+Dowiedzieliśmy się, że dzięki dynamicznemu programowaniu możemy zidentyfikować tego typu
+
+00:39.340 --> 00:47.800
+problemy, widząc najpierw, że istnieje problem, który można podzielić na podproblemy mniejszych fragmentów, gdzie najprawdopodobniej
+
+00:47.800 --> 00:49.090
+używasz rekursji.
+
+00:49.090 --> 00:56.350
+Jeśli używasz rekursji, zadaj sobie pytanie Czy istnieją powtarzające się podproblemy lub zadania, które robię
+
+00:56.740 --> 00:57.900
+w kółko.
+
+00:58.120 --> 01:05.470
+W takim przypadku możemy zapamiętać podproblemy, więc nie musimy ciągle przeliczać rzeczy i korzystać z tego
+
+01:05.470 --> 01:11.920
+pomysłu programowania dynamicznego, aby uzyskać dobre podwyższenie od naszego szefa, ponieważ właśnie zrobiliśmy kod
+
+01:12.010 --> 01:13.390
+tak wydajny.
+
+01:13.480 --> 01:19.750
+Teraz zapamiętywanie jest powszechną strategią dla problemów programowania dynamicznego, które są opisanymi
+
+01:19.750 --> 01:23.450
+tutaj problemami, takimi jak problem Fibonacciego.
+
+01:23.620 --> 01:31.180
+Jest jeszcze jeden sposób włączenia programowania dynamicznego i nazywa się podejście oddolne, a my nie będziemy się na
+
+01:31.180 --> 01:35.470
+nim zbytnio koncentrować, ale chcę szybko pokazać, jak może wyglądać.
+
+01:36.780 --> 01:43.620
+W naszym przypadku istnieje trzeci sposób rozwiązania tego problemu, a sposób jego wykonania jest całkiem
+
+01:43.620 --> 01:44.500
+prosty.
+
+01:44.550 --> 01:46.530
+Możemy zrobić Fibonacciego
+
+01:49.590 --> 02:00.430
+opanowanego i w tej funkcji otrzymamy odpowiedź, która będzie listą naszej sekwencji Fibonacciego, która jest tutaj i zamierzamy
+
+02:00.520 --> 02:08.920
+ją uzupełnić zerową i jedną, a następnie stamtąd wszystko, co robimy, to pętlę
+
+02:08.920 --> 02:16.110
+for i powiedz "Let i equal", ponieważ zaczynamy od drugiego indeksu.
+
+02:16.140 --> 02:22.650
+Dlaczego jest mniejsza lub równa liczbie i rocznemu przyrostowi.
+
+02:23.310 --> 02:33.920
+Aż w końcu powiemy, że odpowiemy, a my popchniemy do następnego elementu w tym stosie.
+
+02:34.200 --> 02:37.540
+Wyniki pierwszego i drugiego.
+
+02:37.770 --> 02:49.620
+Więc minus dwa plus odpowiedź Wysoki minus jeden, a następnie możemy po prostu zwrócić odpowiedź kropka pop, która da nam ostatni
+
+02:49.620 --> 02:55.560
+element na liście w zależności od tego, jakiego indeksu szukamy.
+
+02:56.750 --> 02:59.090
+Tak więc, jeśli to
+
+03:04.970 --> 03:06.440
+zrobię,
+
+03:12.670 --> 03:24.070
+nazwałbym to DP, powinienem wstać i muszę się upewnić, że przejdę, powiedzmy 100, jeśli to uruchomię.
+
+03:24.080 --> 03:24.800
+Proszę bardzo.
+
+03:24.800 --> 03:27.100
+Otrzymujemy oba te same wyniki.
+
+03:27.970 --> 03:31.680
+Tego typu podejście pozwala uniknąć rekursji.
+
+03:31.780 --> 03:38.170
+Niektórzy twierdzą, że nie jest tak czysty, nie tak łatwy do zrozumienia, podczas gdy inni powiedzą, że nie ma to większego
+
+03:38.170 --> 03:38.770
+sensu.
+
+03:38.770 --> 03:46.060
+To naprawdę zależy od twoich preferencji i tego typu rozwiązanie nazywa się oddolne, ponieważ zaczynasz
+
+03:46.120 --> 03:53.170
+od najprostszego rozwiązania od dołu i powoli pracujesz coraz wyżej i wyżej w kierunku bardziej
+
+03:53.170 --> 03:54.620
+złożonych problemów.
+
+03:54.730 --> 04:00.280
+Ale te typy problemów, choć łatwiejsze do zrozumienia, są trudniejsze do ustalenia, kiedy należy je stosować.
+
+04:00.430 --> 04:10.070
+Dlatego preferuję podejście polegające na zapamiętywaniu z góry na dół, ale chcę pokazać, że istnieje inny
+
+04:10.070 --> 04:12.240
+sposób robienia rzeczy.
+
+04:13.240 --> 04:19.870
+W wywiadzie bardzo rzadko zdarza się, że zostaniesz poproszony o wdrożenie obu metod, ale
+
+04:19.870 --> 04:25.120
+na końcu tego wszystkiego mam nadzieję, że widzisz moc programowania dynamicznego.
+
+04:25.130 --> 04:32.030
+Prosta koncepcja oszczędzania sobie wielu kłopotów, myśląc o tym, jak działają nasze programy i
+
+04:32.030 --> 04:37.380
+jak możemy je zoptymalizować, abyśmy nie wykonywali powtarzających się zadań.
+
+04:37.440 --> 04:43.100
+Jeśli jesteś w stanie zauważyć te rzeczy, jesteś świetnym inżynierem.
+
+04:43.160 --> 04:44.090
+Do zobaczenia w następnym.

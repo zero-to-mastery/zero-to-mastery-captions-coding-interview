@@ -1,0 +1,247 @@
+WEBVTT
+
+00:01.230 --> 00:06.800
+Ci sono due cose principali di cui parliamo quando diciamo che questo è un buon codice.
+
+00:07.050 --> 00:10.890
+Ma prima di mostrarti cosa pensi che sia un buon codice.
+
+00:10.950 --> 00:11.870
+Pensaci.
+
+00:11.940 --> 00:15.700
+Cosa diresti a qualcuno se stai chiedendo loro di scrivere un buon codice.
+
+00:16.520 --> 00:24.180
+Bene, ti darò la risposta che vedi, un buon codice può essere descritto in due o due punti.
+
+00:24.410 --> 00:31.700
+Uno è la leggibilità è il tuo codice solo in generale pulito.
+
+00:31.700 --> 00:33.850
+Gli altri possono capire il tuo codice.
+
+00:34.160 --> 00:37.580
+E poi abbiamo il codice scalabile.
+
+00:37.760 --> 00:38.800
+Cosa significa.
+
+00:39.140 --> 00:49.930
+La notazione di Big-O è ciò che ci permette di misurare questa idea di codice scalabile che può scalare qualcosa in
+
+00:49.930 --> 00:55.280
+cui entreremo e con questa sezione diventerai più familiare.
+
+00:55.480 --> 01:00.550
+Parliamo anche di codice leggibile durante l'intero corso, ma ne parleremo un
+
+01:00.550 --> 01:03.090
+po 'di più nella prossima sezione.
+
+01:03.220 --> 01:09.240
+Ma per ora perché questa è la grande sezione O ci stiamo concentrando su questa idea di codice scalabile.
+
+01:09.520 --> 01:12.510
+Ok, cosa significa veramente?
+
+01:12.940 --> 01:17.600
+Beh, voglio che tu immagini che abbiamo un compito in cui vogliamo preparare una torta.
+
+01:18.010 --> 01:27.030
+Abbiamo una ricetta qui e questa ricetta che useremo nella nostra cucina per cuocere una torta.
+
+01:27.250 --> 01:31.040
+E c'è un buon modo di cuocere una torta e una cattiva strada.
+
+01:31.080 --> 01:32.640
+Destra.
+
+01:32.700 --> 01:34.450
+Gli diamo le istruzioni.
+
+01:34.470 --> 01:35.690
+Questa è la loro ricetta.
+
+01:35.880 --> 01:43.710
+E speriamo che questa ricetta e le istruzioni funzionino bene con la nostra cucina in modo da poter cuocere una torta
+
+01:44.400 --> 01:46.370
+rapidamente e una buona torta.
+
+01:46.680 --> 01:49.300
+Bene, i computer sono macchine.
+
+01:50.020 --> 01:54.180
+E queste macchine devono lavorare per produrre qualcosa per noi.
+
+01:54.370 --> 02:01.490
+E i computer funzionano allo stesso modo in cui abbiamo queste istruzioni che gli forniamo attraverso il
+
+02:01.510 --> 02:08.020
+codice e queste istruzioni che diamo alle nostre macchine i nostri computer forniscono queste istruzioni che
+
+02:08.170 --> 02:13.660
+ci forniscono una sorta di output per esempio per accendere la luce.
+
+02:13.660 --> 02:18.600
+Diamo istruzioni al computer per dire hey accendere la luce nella nostra stanza.
+
+02:18.880 --> 02:24.730
+Un programmatore è qualcuno che dà queste istruzioni proprio come ci sono molti modi per fare
+
+02:24.730 --> 02:31.930
+una torta in una cucina o semplicemente come ci sono molti modi per cuocere una torta in cucina con molte ricette
+
+02:31.930 --> 02:33.060
+ingredienti e istruzioni.
+
+02:33.070 --> 02:36.780
+Ci sono molti modi per risolvere un problema attraverso il codice.
+
+02:37.000 --> 02:40.690
+Sono modi efficienti e inefficienti per dare istruzioni.
+
+02:40.720 --> 02:42.950
+Quindi andiamo a un esempio di codice.
+
+02:43.090 --> 02:49.540
+Userò REPL thudded e se non hai familiarità con questo assicurati di dare un'occhiata al video che ho
+
+02:49.540 --> 02:54.930
+elencato qui sotto che spiega come puoi eseguire il tuo codice in questo corso.
+
+02:54.990 --> 03:02.680
+Vuoi solo accedere e ho già il mio ambiente javascript impostato qui.
+
+03:03.890 --> 03:07.020
+E preferisco avere il tema oscuro.
+
+03:07.030 --> 03:08.840
+Penso che sia meglio per i tuoi occhi.
+
+03:09.590 --> 03:16.090
+Per te almeno spero che non ti dispiaccia l'oscurità, ma come posso dimostrare questa idea di codice.
+
+03:16.960 --> 03:18.660
+Facciamo qualcosa di divertente qui.
+
+03:18.910 --> 03:23.520
+Usando javascript ho intenzione di dire Konst nimo.
+
+03:23.760 --> 03:36.890
+Abbiamo una matrice che contiene la stringa Nimo e vogliamo creare qui una funzione che si chiama Trova
+
+03:36.890 --> 03:46.960
+Nimo e questa funzione riceverà una matrice e sarà una funzione molto semplice.
+
+03:47.010 --> 03:52.890
+Creeremo un ciclo che vedrai nella maggior parte delle lingue in javascript.
+
+03:52.890 --> 04:01.290
+Possiamo farlo facilmente dicendo 4 e daremo I pari a zero.
+
+04:01.870 --> 04:11.890
+E fintanto che sono più piccolo dell'array dot land che è la lunghezza del nostro array e quindi
+
+04:11.890 --> 04:15.230
+incrementeremo di volta in volta.
+
+04:16.810 --> 04:22.750
+Ancora una volta questo non è un corso di javascript quindi spero che
+
+04:22.750 --> 04:33.360
+questo ti sia familiare in ogni tipo di loop che vuoi nella tua lingua e semplicemente diremo che se array è uguale a nimo.
+
+04:33.470 --> 04:42.370
+Quindi, se troviamo Nemo, andiamo a consolare il registro di Daut trovato Nemo.
+
+04:42.810 --> 04:43.570
+Siamo molto emozionati
+
+04:43.620 --> 04:45.850
+Divertimento.
+
+04:45.850 --> 04:46.500
+Tutto ok.
+
+04:46.690 --> 04:47.560
+Questo è tutto.
+
+04:47.600 --> 04:56.420
+E se semplicemente eseguo semplicemente la funzione, ora trovo Nemo e gli daremo l'array Nimo qui sopra e
+
+04:57.780 --> 05:03.940
+assicuriamoci di scrivere correttamente lenth e fare clic su Esegui qui.
+
+05:05.370 --> 05:10.690
+Abbiamo trovato Nimo sulla corsia di destra che rende questo un po 'più grande in modo da poter vedere.
+
+05:10.730 --> 05:13.150
+Quindi abbiamo trovato Nemo.
+
+05:13.280 --> 05:15.830
+Questa è l'istruzione che abbiamo dato al computer.
+
+05:16.130 --> 05:22.190
+Abbiamo detto che abbiamo un array e abbiamo una funzione che vogliamo eseguire chiamata find
+
+05:22.210 --> 05:25.950
+find Nemo che accetta un array che è nimo.
+
+05:26.130 --> 05:29.600
+Sta per ricevere questo array.
+
+05:29.800 --> 05:32.030
+Quindi andrà in loop sull'array.
+
+05:32.560 --> 05:35.420
+Diremo che sarò pari a zero.
+
+05:35.860 --> 05:45.110
+E dato che in questo momento sono zero e la lunghezza dell'array di Nimo è una di quelle che seguiremo nel ciclo.
+
+05:45.370 --> 05:51.580
+Stiamo andando a controllare se l'indice di array di 0 che è Nimo qui.
+
+05:51.580 --> 05:56.080
+Quindi questo diventerà nimo.
+
+05:56.350 --> 06:02.350
+E perché questo è vero, stiamo andando a con. registro trovato nimo.
+
+06:02.380 --> 06:05.110
+Ora, perché ti ho appena mostrato questo esempio.
+
+06:05.140 --> 06:12.910
+Consentitemi di riportare questo come mi è stato mostrato in questo esempio perché questa è un'istruzione che stiamo
+
+06:13.510 --> 06:17.120
+dando al nostro computer per trovare il nimo.
+
+06:17.260 --> 06:20.020
+Vediamo che chiamiamo questo il runtime.
+
+06:20.020 --> 06:26.200
+Quanto tempo è necessario per eseguire un determinato problema attraverso una funzione o un'attività.
+
+06:26.260 --> 06:30.820
+Come possiamo misurare il grande Oh Oh bene qualcosa come questo.
+
+06:30.880 --> 06:33.300
+O l'efficienza di questo codice.
+
+06:34.970 --> 06:37.740
+Nel prossimo video diventeremo un po 'più profondi.
+
+06:37.770 --> 06:43.230
+Proveremo a misurare le prestazioni di questo codice e vediamo cosa succede quando l'array diventa
+
+06:43.320 --> 06:44.590
+sempre più grande.
+
+06:45.440 --> 06:52.250
+E legheremo le cose insieme a ciò che significa scalabile e quanto grande-O ci permette
+
+06:52.390 --> 06:56.180
+di misurare la scalabilità vedere nel prossimo video.

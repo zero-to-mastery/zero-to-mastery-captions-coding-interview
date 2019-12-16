@@ -1,0 +1,547 @@
+WEBVTT
+
+00:00.900 --> 00:02.010
+Bine ai revenit.
+
+00:02.010 --> 00:06.370
+Este timpul să mergem prin propria noastră implementare a tabelului hash.
+
+00:06.570 --> 00:12.030
+Acum, înainte de a începe, vreau să menționez ceva care ar putea fi întrebat despre asta
+
+00:12.120 --> 00:13.890
+este sublinierea asta aici.
+
+00:13.890 --> 00:18.880
+Ce inseamna acest lucru in cele mai multe alte limbi precum Java.
+
+00:19.780 --> 00:27.340
+Când creați o clasă, puteți avea proprietăți private care sunt proprietăți pe care nu le pot accesa în afara
+
+00:27.340 --> 00:28.150
+acestei clase.
+
+00:28.270 --> 00:38.800
+Deci nu aș putea să-mi fac masa de hash subliniază Passhe și să accesez această proprietate sau metodă.
+
+00:39.010 --> 00:43.800
+Acum, cu javascript E6 care nu este cu adevărat posibil.
+
+00:44.040 --> 00:52.680
+Și există un standard comun care trebuie să pună subliniere aici și lumea javascript care spune că aceasta
+
+00:52.680 --> 00:54.770
+este o proprietate privată.
+
+00:54.900 --> 00:58.410
+Acum, acest lucru este pur și simplu lipsit de sens.
+
+00:58.410 --> 01:07.350
+Încă mai pot accesa metoda hash, dar este un standard pentru dezvoltatori și comunitatea javascript pentru a permite altor dezvoltatori să știe
+
+01:07.470 --> 01:14.760
+că nu ar trebui să spui asta, chiar dacă nu poți tehnic și nu există modalități de a
+
+01:14.760 --> 01:16.190
+face să funcționeze.
+
+01:16.380 --> 01:23.070
+Și jumătate proprietăți private, dar necesită lucruri cum ar fi simboluri de închidere sau hărți slabe, care din nou este dincolo de scopul
+
+01:23.070 --> 01:26.240
+acestui curs și nu avem nevoie să ne facem griji.
+
+01:26.580 --> 01:28.850
+Deci, de acolo vine de la sublinierea.
+
+01:28.950 --> 01:32.630
+De obicei, nu vom accesa funcția de tip hash.
+
+01:32.650 --> 01:37.080
+Chiar acum că am reușit să vorbim puțin despre ce face asta.
+
+01:37.350 --> 01:45.430
+Dacă intru și aici strugurele vom crea mai întâi o variabilă nouă, care este hash, care este egal cu zero.
+
+01:45.790 --> 01:50.530
+Și apoi cheia asta o să luăm lenth sau struguri.
+
+01:50.530 --> 02:02.370
+Deci, acesta este un doi doi trei patru cinci șase și vom adăuga zero care vine de la codul de caractere cheie hash
+
+02:02.640 --> 02:04.160
+Plus la.
+
+02:04.450 --> 02:13.470
+Și codul de caractere de la javascript ne dă un număr întreg între 0 și acest număr reprezentând
+
+02:13.470 --> 02:15.120
+codul UTF 16.
+
+02:15.120 --> 02:23.420
+Deci, asta e doar o codificare este destul de mult spune spune-mi un cod de caracter, deoarece amintesc în
+
+02:23.720 --> 02:28.920
+memorie un șir sau o literă este reprezentat ca un număr.
+
+02:28.940 --> 02:35.890
+Deci, această metodă ne permite să spunem la indice ce am pus în parametru.
+
+02:35.950 --> 02:41.330
+Deci, să spunem că ne uităm la indexul lui I, primul pe care va fi g.
+
+02:41.620 --> 02:45.070
+Vom primi codul caracterului pentru G.
+
+02:45.100 --> 02:50.790
+Acesta este un număr în care îl înmulțim cu indicele.
+
+02:50.810 --> 02:59.900
+Din nou, doar pentru a ne asigura că e un produs unic și apoi folosim ceea ce se numește
+
+02:59.900 --> 03:08.770
+operatorul modulo pentru a vă asigura că acesta rămâne în limita a 50 de dimensiuni ale datelor noastre.
+
+03:09.120 --> 03:10.650
+Și apoi vom întoarce hash-ul.
+
+03:10.770 --> 03:20.380
+O modalitate ușoară de a vedea ce se întâmplă aici este pur și simplu consolăm dialogul Passhe.
+
+03:20.380 --> 03:31.350
+Dacă execut acest lucru vedem că va trece prin caracterul nostru de struguri după caracter.
+
+03:31.520 --> 03:41.500
+Se va genera un fel de hash și pentru că acest hash devine constant în buclă, vom include tot ce
+
+03:42.100 --> 03:43.310
+este generat.
+
+03:43.310 --> 03:45.050
+Să vedem că prima este zero.
+
+03:45.280 --> 03:49.190
+Va spune 0 plus ceea ce este.
+
+03:49.330 --> 03:55.210
+Apoi, următoarea iterație hash va fi egală cu 14 și va genera altceva care este de 8
+
+03:55.210 --> 03:59.080
+și continuă să continue continuând până când vom ajunge la 23.
+
+03:59.130 --> 04:02.360
+Puteți să vă faceți timp și să treceți prin acest cod dacă doriți cu adevărat.
+
+04:02.370 --> 04:05.350
+Din nou, acest lucru nu este punctul central al acestui videoclip, deci hai să mergem mai departe.
+
+04:07.600 --> 04:09.000
+Folosind funcția hash.
+
+04:09.070 --> 04:12.180
+Să facem prima noastră metodă.
+
+04:13.290 --> 04:17.750
+Să creăm metoda setată.
+
+04:17.940 --> 04:25.720
+Această metodă va primi o cheie și o valoare.
+
+04:25.870 --> 04:33.650
+Și tocmai pentru a vedea acest lucru și ce se va întâmpla, vom rula această metodă aici spunând că vrem ca strugurii
+
+04:33.800 --> 04:35.650
+să fie egali cu 10000.
+
+04:35.890 --> 04:38.420
+O mulțime de struguri pentru că sunt delicioase.
+
+04:38.450 --> 04:45.620
+Dacă execut acest lucru sunt nedefinit, deoarece în timp ce acest lucru nu face nimic cu adevărat, primul lucru pe
+
+04:45.620 --> 04:53.520
+care vrem să-l facem este să creăm o variabilă numită Let address, care va reprezenta locul în care dorim să stocăm aceste informații.
+
+04:55.390 --> 04:57.070
+Și vom
+
+05:02.610 --> 05:14.590
+spune acest punct, așa că tot ceea ce spunem este stocarea acestor date pe care vom introduce valoarea cheie în acest spațiu
+
+05:15.130 --> 05:21.130
+de adresă creat de funcția hash și îi dăm cheia strugurilor.
+
+05:21.190 --> 05:23.050
+Amintiți-vă animația noastră mică.
+
+05:23.080 --> 05:28.900
+Vom trimite strugurii în acea cutie magică care are funcția hash.
+
+05:29.380 --> 05:34.940
+De acolo pur și simplu spunem dacă acest punct de date
+
+05:37.670 --> 05:49.060
+se adresează dacă nu există și nu există nimic acolo deoarece amintesc într-o tabelă de hash putem avea coliziuni și pentru că avem doar 50
+
+05:49.390 --> 05:56.040
+de spații de 50 de rafturi aici am putea avea aceste coliziuni cu suficiente date.
+
+05:56.440 --> 06:00.140
+Așa că vom verifica dacă nu este nimic acolo.
+
+06:01.170 --> 06:04.060
+În acest caz, pur și simplu voi adăuga acele date.
+
+06:04.110 --> 06:06.130
+Vom salva
+
+06:08.950 --> 06:15.080
+această adresă de date va fi o matrice.
+
+06:15.170 --> 06:21.960
+Și în acest spațiu nou nou spațiu de adrese pur și
+
+06:30.190 --> 06:36.490
+simplu vom face prin a face valoarea cheie push.
+
+06:36.530 --> 06:38.420
+Deci haideți să vedem ce se întâmplă.
+
+06:39.500 --> 06:41.810
+Și am o adresă misspelt aici.
+
+06:41.840 --> 06:43.360
+Să o facem din nou.
+
+06:43.430 --> 06:52.290
+Mă dau la definit, dar hai să vedem ce se întâmplă dacă mă conectez doar la dotarea Konsole aici.
+
+06:55.750 --> 06:57.000
+Ei bine, verificați asta.
+
+06:57.610 --> 07:04.140
+Avem 23 de obiecte goale pe elementul 24.
+
+07:04.180 --> 07:11.530
+Avem struguri 10000 o matrice aici și apoi 26 de obiecte goale după aceea.
+
+07:11.570 --> 07:20.220
+Amintiți-vă că avem 50 de cochilii în memoria noastră și avem 23 24 plus 26 care sunt 50.
+
+07:20.480 --> 07:23.330
+Cu excepția că strugurii noștri au fost inserați undeva și 50 de ani.
+
+07:23.330 --> 07:25.960
+Se pare ca locul 24.
+
+07:26.000 --> 07:26.730
+Foarte tare.
+
+07:27.920 --> 07:34.070
+Dar ce se întâmplă dacă acest lucru există deja?
+
+07:34.130 --> 07:42.860
+Dacă schimbați tabelul hash pentru a spune doar două spații de memorie și eu dau clic pe rulați aici primesc una goală
+
+07:42.860 --> 07:52.790
+și struguri și dacă schimba asta în jurul valorii de oh vezi că dacă fac un clic din nou și să spunem să se întoarcă
+
+07:53.060 --> 07:54.380
+doar la struguri.
+
+07:54.380 --> 07:57.920
+Verificați ce se întâmplă cu masa mea de hash.
+
+07:57.920 --> 08:04.790
+Clic pe run și doar mi-am șters intrarea anterioară.
+
+08:04.920 --> 08:08.150
+Avem o coliziune, dar nu facem nimic.
+
+08:08.160 --> 08:13.970
+Și tocmai am șters datele noastre care ar fi putut fi foarte importante pentru datele utilizatorului.
+
+08:13.980 --> 08:15.650
+Cu siguranță nu vrem asta.
+
+08:15.660 --> 08:25.900
+Deci, pentru a rezolva asta, pur și simplu spunem dacă, pentru că verificăm aici dacă nu există nimic în spațiul de adrese,
+
+08:25.900 --> 08:27.650
+faceți acest lucru.
+
+08:27.910 --> 08:28.570
+În
+
+08:31.660 --> 08:35.250
+caz contrar, adăugați pur și simplu la acea matrice.
+
+08:35.590 --> 08:37.090
+Deci, de fapt,
+
+08:39.910 --> 08:47.690
+putem rula aceeasi comanda aici si un mod mai frumos si mai curat de a face acest lucru este de a scoate
+
+08:48.740 --> 08:54.620
+de fapt altceva, deoarece indiferent daca intotdeauna vom impinge cheia si valoarea vom continua sa adaugam
+
+08:54.830 --> 08:58.500
+cheia si valoare pe care am stabilit-o adăugăm la date.
+
+08:58.940 --> 09:05.760
+Deci, tot ce facem este să eliminăm acest lucru, așa că atunci când conduc asta.
+
+09:05.970 --> 09:08.180
+Și așa că știm ce se întâmplă.
+
+09:08.400 --> 09:14.040
+Să ne întoarcem gândul că sunt aici, voi alerga.
+
+09:14.550 --> 09:24.140
+Și dacă adăugăm aici să spunem un alt element, de data asta vom spune mere și doar 54 de mere.
+
+09:24.140 --> 09:27.290
+Dacă conduc asta, vezi ce sa întâmplat aici.
+
+09:28.870 --> 09:38.410
+Dacă ne uităm îndeaproape, avem un element gol și apoi o matrice care conține în interiorul lui.
+
+09:38.410 --> 09:48.090
+Primul indice care este o matrice și un al doilea index care este o altă rată, pentru că tocmai ne-am împins la matricea noastră
+
+09:48.370 --> 09:52.950
+existentă deoarece spațiul nostru de memorie este de numai 2.
+
+09:53.190 --> 09:54.360
+Foarte tare.
+
+09:54.360 --> 09:56.070
+Asta nu a fost prea rău.
+
+09:56.070 --> 09:57.060
+Sa continuam.
+
+09:57.060 --> 10:04.920
+Următoarea este bine că vreau să apuc să fie capabil să apuca strugurii și merele putem folosi metoda
+
+10:05.280 --> 10:11.030
+get aici care va primi o cheie și această metodă va funcționa foarte
+
+10:13.920 --> 10:16.230
+frumos doar spunând obține.
+
+10:16.270 --> 10:24.090
+Și apoi, în timp ce vrem să luăm care vor fi strugurii, vom face exact același lucru prin faptul că
+
+10:24.090 --> 10:30.280
+îl executăm prin acea cutie neagră unde vom crea sau vom folosi funcția hash pentru
+
+10:30.280 --> 10:33.320
+a obține adresa unde vrem să mergem.
+
+10:34.150 --> 10:41.290
+Și acum avem adresa unde vrem să ne luăm informațiile.
+
+10:41.300 --> 10:45.200
+Totuși, rețineți că stocăm aceste informații într-o găleată.
+
+10:45.240 --> 10:48.400
+Avem struguri și 10000.
+
+10:48.600 --> 10:49.570
+Cum o luăm?
+
+10:49.620 --> 10:51.100
+Știm de unde să ajungem de acum.
+
+10:51.120 --> 11:00.380
+Avem adresa, dar acum trebuie să fugim și să luăm strugurii și apoi 10000 sau mere și 954.
+
+11:00.660 --> 11:01.780
+Lasă-mă să-ți arăt ce vreau să spun.
+
+11:02.040 --> 11:07.590
+Ei bine, a crea mai întâi o variabilă spune spune bucket curent.
+
+11:08.010 --> 11:13.280
+Asta va fi doar acest canal de date greu sau o adresă doar ca să nu ne repetăm.
+
+11:13.410 --> 11:20.760
+Și avem o referință la această adresă sau la adresa și valoarea datelor.
+
+11:20.760 --> 11:31.920
+Deci, asta înseamnă că, dacă am anula buzunarul de buzunar curent și am rula asta, vezi că am galeata actuală.
+
+11:32.010 --> 11:34.140
+Chiar dacă acest lucru are două elemente.
+
+11:34.140 --> 11:40.070
+Amintiți-vă că este punct de vedere tehnic doar în propria găleată într-o singură matrice.
+
+11:40.200 --> 11:47.750
+Dacă sporeștem acest spațiu de memorie să spunem 50, vedem că această găleată conține struguri.
+
+11:48.150 --> 11:53.250
+Așadar, luăm aceste informații, dar tot ce vrem să facem este să revenim 10000.
+
+11:53.250 --> 12:03.090
+Așa funcționează tabelele de tip hash sau dacă funcția get in hash funcționează bine, tot ce trebuie să facem este să spunem dacă
+
+12:03.090 --> 12:07.630
+se află în cupă actuală și vom spune Dot Glenn.
+
+12:07.770 --> 12:12.090
+Aceasta este dacă această găleată curentă are ceva în ea.
+
+12:12.090 --> 12:20.240
+În acest caz, vom face ceva, altfel vom reveni undefined pentru că nu există
+
+12:20.260 --> 12:25.510
+nimic în cupă. Verificăm dacă acest lucru există.
+
+12:25.520 --> 12:32.140
+Deci, dacă nu există nimic în matrice dacă lungimea este 0 și matricea este
+
+12:32.140 --> 12:39.160
+goală atunci nu suntem interesați de ea, de fapt, de fapt nu avem nevoie nici de
+
+12:39.160 --> 12:50.650
+anul de lungime, deoarece amintesc inițial că va fi doar o array goală cu nedefinit și adăugăm o matrice fiecărui slot ori de câte ori setăm ceva.
+
+12:50.650 --> 12:57.490
+Și este o adresă goală, așa că putem să o lăsăm așa, pentru că dacă este nedefinită
+
+12:57.520 --> 13:01.150
+să se răcească și să se întoarcă undefined acum.
+
+13:01.170 --> 13:10.920
+Și aici vom face o buclă pentru că amintiți-vă că am putea avea mai multe elemente în această cupă așa cum am
+
+13:10.920 --> 13:22.930
+văzut atunci când am avut la spații de memorie în care caz, lasă-mă să demonstrez de fapt, astfel încât să vedem la o alergare și galeata actuală
+
+13:24.040 --> 13:27.250
+împotriva politicii rulați că din nou .
+
+13:27.250 --> 13:36.680
+În regulă, dacă anulam cupa pentru dialog și vedem acest lucru, vedem că avem două elemente în acea cupă.
+
+13:36.820 --> 13:46.380
+Așadar, va trebui să ne bifăm folosind bucla noastră favorită pentru care am făcut o tonă până acum.
+
+13:46.450 --> 13:50.760
+Vom spune atâta timp cât eu sunt mai puțin decât găleata macaralei.
+
+13:50.780 --> 13:58.950
+Urmează doar creșterea și aici.
+
+13:59.140 --> 14:01.480
+Acest lucru este un pic dificil, așa că sperăm că veți urma.
+
+14:01.480 --> 14:11.310
+Voi spune dacă galeria actuală prin care este indexul, așa că amintiți-vă, va spune zero,
+
+14:11.310 --> 14:21.450
+care va apuca acest lucru, apoi unul care va apuca acest lucru dacă Khurram va întoarce strugurii.
+
+14:21.460 --> 14:30.620
+Deci, dacă fac zero aici, înseamnă că apuca primul în cazul nostru gheața, așa că va fi zero, luați
+
+14:30.620 --> 14:39.450
+prima dată această primă matrice, apoi apucați indicele zero din cadrul acestei matrice care va fi struguri.
+
+14:39.630 --> 14:45.000
+Și, odată ce buclele data viitoare când un ochi este unul, vor fi mere.
+
+14:45.330 --> 14:49.790
+Verificați-l împotriva cheii.
+
+14:49.810 --> 14:54.130
+Amintiți-vă cheia pe care o primim aici pe care o căutăm.
+
+14:54.160 --> 15:05.620
+Deci, dacă strugurii care se potrivesc cu acest element în acest caz tocmai au întors buzunarul curent cravată și unul
+
+15:06.100 --> 15:11.180
+pentru că vrem să ne întoarcem zece mii.
+
+15:11.410 --> 15:20.090
+Sperăm că veți cădea aici pentru că, dacă execut acest lucru, primesc zece mii, iar strugurii sunt 10000.
+
+15:20.260 --> 15:24.970
+Dacă se întâmplă aici, este 54.
+
+15:24.980 --> 15:26.670
+Cat de tare e asta.
+
+15:26.780 --> 15:34.040
+Și uitându-mă la asta sper să înțelegeți la un nivel mai profund implicațiile complexității timpului de
+
+15:34.040 --> 15:40.090
+tabelele hash, chiar dacă facem o buclă aici în cadrul funcției hash.
+
+15:40.190 --> 15:43.330
+Amintiți-vă că funcțiile hash sunt într-adevăr foarte rapide.
+
+15:43.520 --> 15:48.210
+Suntem doar în buclă peste cheie, așa că nu considerăm că acesta este un eveniment total.
+
+15:48.410 --> 15:49.870
+Acest lucru este foarte rapid.
+
+15:49.880 --> 15:55.560
+Este una când ne-am stabilit ceva acolo nu există bucle aici.
+
+15:55.560 --> 15:57.960
+Îl adăugăm doar la datele noastre.
+
+15:58.170 --> 16:00.090
+Îl împingem doar.
+
+16:00.190 --> 16:02.890
+Deci, acesta este unul.
+
+16:03.120 --> 16:17.310
+Și dacă vom merge pentru a obține cele mai multe ori în cazul în care nu există coliziuni va fi 0 0 1 și în viața reală, de cele mai multe ori
+
+16:17.370 --> 16:20.160
+puteți considera că este de unul.
+
+16:20.400 --> 16:27.840
+Dar în exemplul nostru foarte rău, cu doar două spații de memorie și nu o funcție de hash foarte bună, acest
+
+16:27.840 --> 16:29.720
+lucru poate deveni peste tot.
+
+16:31.580 --> 16:36.650
+Dar pentru moment, pentru că suntem niște programatori buni care nu se vor întâmpla bine.
+
+16:36.770 --> 16:38.180
+Totul va fi bine.
+
+16:38.210 --> 16:42.180
+Avem 0 din 1.
+
+16:42.380 --> 16:52.050
+Avem buclele pentru care putem crea o listă pe care am văzut-o în exemplul nostru, vezi lista pe care o avem
+
+16:52.050 --> 16:52.580
+aici.
+
+16:52.620 --> 16:55.230
+De aceea am creat și ar fi totul.
+
+16:55.230 --> 17:01.260
+Și dacă această listă tocmai a continuat să crească și a continuat să crească.
+
+17:01.330 --> 17:07.360
+Dar există o altă metodă pe care vreau să o construim și să vă prezentăm.
+
+17:07.360 --> 17:17.940
+Un alt dezavantaj al meselor de hash Ce se întâmplă dacă am vrea să trecem prin toate cheile tabelului de tip hash cum vom face
+
+17:17.940 --> 17:18.760
+asta.
+
+17:19.680 --> 17:21.660
+Vom încerca să implementăm acest lucru în următorul videoclip.

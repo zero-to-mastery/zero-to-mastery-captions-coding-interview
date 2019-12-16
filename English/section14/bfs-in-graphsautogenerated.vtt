@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.640 --> 00:08.600
+Welcome back I encourage you to play with visual I'll go and create your own graph as I talk throughout
+
+00:08.600 --> 00:13.980
+these videos about depth first search and breadth first search when it comes to graph traversal.
+
+00:14.210 --> 00:20.540
+The way you can create a graph is to just simply say draw a graph and you'll be able to create something
+
+00:20.540 --> 00:25.570
+like this yourself and then you can explore both depth first and breath for searches.
+
+00:26.630 --> 00:32.630
+Now I'm going to have this animation running while I'm talking but we'll start off with zero and do
+
+00:32.630 --> 00:37.580
+a breath search the unique thing about breath.
+
+00:37.580 --> 00:44.510
+First search is that it lends itself really nicely to determining the shortest path between any node
+
+00:47.010 --> 00:52.550
+especially when it comes to saying hey what's the closest node to zero.
+
+00:52.590 --> 00:54.840
+That's a really easy question to ask.
+
+00:54.840 --> 01:00.810
+When it comes to breath first search and we've already talked about how that is used in recommendation
+
+01:00.810 --> 01:01.410
+engines.
+
+01:01.410 --> 01:05.290
+Peer to peer networks even Google Maps right.
+
+01:05.490 --> 01:11.970
+Facebook friend requests and Instagram recommendations breadth first search or DFS allows us to convert
+
+01:12.000 --> 01:21.120
+a graph essentially into a tree because we know who the children of the parent node is and then the
+
+01:21.120 --> 01:24.130
+grandchildren and then so on and so forth.
+
+01:24.150 --> 01:30.540
+So if you remember this diagram over here we now understand that breath first search Yes.
+
+01:30.560 --> 01:38.860
+It uses more memory to keep track of the parent knows and the children notes of that level but it also
+
+01:38.860 --> 01:45.640
+helps us determine the shortest path and it's better if we know that a node we're looking for is close
+
+01:45.640 --> 01:52.210
+to us because it's going to look at the closer nodes first so that when you get asked this in an interview
+
+01:52.720 --> 01:57.450
+you know this algorithm is going to work well for these types of questions.
+
+01:58.160 --> 02:05.450
+Because breath for a search is crafted to help us determine the shortest path between two notes in a
+
+02:05.450 --> 02:05.920
+graph.

@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.520 --> 00:01.870
+Ben tornato.
+
+00:01.870 --> 00:07.720
+Abbiamo parlato di alberi binari di ricerca di alberi binari e poi abbiamo imparato
+
+00:08.020 --> 00:16.750
+come bilanciare quegli alberi e alcune delle complessità temporali coinvolte con un BSD e voglio parlarvi di altri due tipi
+
+00:16.750 --> 00:18.540
+comuni di Treece.
+
+00:18.610 --> 00:24.560
+Uno è un mucchio e l'altro è un tri o albero in questo video.
+
+00:24.640 --> 00:27.600
+Parliamo di pecore.
+
+00:27.760 --> 00:34.060
+Ora, quando si tratta di un mucchio, molto probabilmente parleremo di heap binari come abbiamo fatto con
+
+00:34.240 --> 00:35.390
+gli alberi binari.
+
+00:35.410 --> 00:41.070
+Ciò significa che ci saranno solo due bambini in una nota.
+
+00:41.130 --> 00:46.230
+Ora, perché questi sono utili e in che modo sono diversi dagli alberi binari.
+
+00:46.230 --> 00:47.130
+Andiamo a dare un'occhiata.
+
+00:48.570 --> 00:49.810
+Un albero binario.
+
+00:50.220 --> 00:52.430
+Ogni bambino appartiene a un genitore.
+
+00:52.440 --> 00:56.790
+Nota che ha una priorità o un valore maggiore.
+
+00:56.790 --> 01:05.240
+Se guardi qui, ogni bambino che è settantadue e trentatré è inferiore a uno in uno settantadue è
+
+01:05.280 --> 01:13.590
+più alto di due e quarantacinque e trentatrè è più alto di cinque e uno in realtà
+
+01:13.590 --> 01:16.420
+è chiamato un ammasso massimo.
+
+01:16.440 --> 01:23.630
+C'è anche qualcosa chiamato heap min che è l'esatto opposto in cui il nodo radice è il più piccolo.
+
+01:23.640 --> 01:25.680
+Ora questo valore può essere qualsiasi cosa tu voglia.
+
+01:25.680 --> 01:27.720
+Può essere il nome di una persona.
+
+01:27.720 --> 01:29.270
+Può essere un numero.
+
+01:29.340 --> 01:31.960
+Può davvero essere qualsiasi cosa perché è una nota.
+
+01:32.240 --> 01:40.980
+Ma come puoi vedere tutto ciò di cui abbiamo a che fare è che in un heap binario ogni nodo del livello
+
+01:40.980 --> 01:49.920
+più alto ha un valore maggiore di ogni nodo al livello successivo e un heap può essere utilizzato in qualsiasi algoritmo in cui
+
+01:49.920 --> 01:51.180
+l'ordine è importante.
+
+01:51.180 --> 01:57.630
+E come stiamo per discutere è comunemente usato quando si tratta di code di priorità.
+
+01:57.780 --> 02:04.770
+Ora con la gara abbiamo avuto accesso casuale ci ha permesso di accedere in modo casuale a qualsiasi elemento al loro
+
+02:04.770 --> 02:07.770
+interno utilizzando un indice in una lista collegata.
+
+02:07.770 --> 02:15.360
+Possiamo cambiare le cose in modo dinamico a differenza di un array, ma trovare qualcosa al loro interno è tutto e
+
+02:15.360 --> 02:20.930
+tempo lineare perché abbiamo dovuto passare attraverso la lista dei link qui un po 'diversa.
+
+02:20.970 --> 02:28.590
+Non si può fare tutto di un accesso casuale come abbiamo fatto con gli array sono tabelle hash come sappiamo sugli
+
+02:28.600 --> 02:34.930
+alberi dobbiamo fare una sorta di attraversamenti ora rispetto a un albero di ricerca binario che vediamo.
+
+02:35.370 --> 02:38.420
+Lo sguardo bene è O.
+
+02:38.580 --> 02:45.720
+E non è tutto log e perché è meno ordinato di un albero di ricerca binario a destra.
+
+02:45.930 --> 02:51.330
+Un albero di ricerca binario in realtà aveva un significato tra sinistra e destra a sinistra era sempre inferiore a
+
+02:51.330 --> 02:53.300
+quello di destra in un heap binario.
+
+02:53.370 --> 02:54.590
+Non importa.
+
+02:54.600 --> 02:59.230
+Sinistro e destro possono essere qualsiasi valore purché inferiore al valore massimo.
+
+02:59.700 --> 03:06.150
+Quindi, se stiamo cercando, diciamo uno, dobbiamo controllare il nodo genitore, quindi dobbiamo controllare perché uno su uno
+
+03:06.260 --> 03:09.580
+o perché uno è inferiore a 1 a 1.
+
+03:09.630 --> 03:12.450
+Dobbiamo controllare entrambi i nodi sotto di esso.
+
+03:12.450 --> 03:19.050
+E poi, poiché uno è inferiore a 72 e 33, dobbiamo controllare ancora una volta
+
+03:19.050 --> 03:28.560
+ogni singola nota e cercare 1 diventa 0 di log e così praticamente trasformato in ricerca attraverso un elenco collegato o iterando
+
+03:28.590 --> 03:30.100
+attraverso un array.
+
+03:30.110 --> 03:37.870
+Quindi, perché mai dovremmo voler usare un heap binario? Si scopre che gli heap binari sono davvero
+
+03:37.870 --> 03:40.890
+molto bravi a fare operazioni comparative.
+
+03:41.140 --> 03:49.810
+Proprio come dire che voglio le persone che hanno un valore superiore a 33 perché in questo caso possiamo semplicemente prendere questi elementi
+
+03:49.810 --> 03:53.970
+abbastanza facilmente invece di andare fino in fondo alle note.
+
+03:57.520 --> 04:03.590
+Ha effettivamente utilizzato molto negli algoritmi di ordinamento delle code con priorità di memorizzazione dei dati.
+
+04:03.690 --> 04:10.090
+Quindi diamo un'occhiata a come un heap binario è implementato visivamente.
+
+04:10.150 --> 04:13.150
+Abbiamo un mucchio binario qui usando il visual go.
+
+04:13.360 --> 04:20.250
+E se volessimo aggiungere diciamo insert 26, andiamo a fare tutto ok.
+
+04:20.250 --> 04:21.890
+E 'stato davvero veloce.
+
+04:22.290 --> 04:27.320
+Ma se volessimo inserire diciamo
+
+04:30.230 --> 04:34.600
+51 finanziatore 51.
+
+04:34.830 --> 04:43.170
+Ho dovuto fare un po 'di passaggio per vedere gli heap aggiungere valore all'albero in ordine da sinistra a destra
+
+04:43.230 --> 04:44.740
+e poi bolle.
+
+04:45.030 --> 04:50.780
+Se non è nello stesso ordine o l'ordine di priorità che è una volta un po 'come abbiamo fatto qui.
+
+04:50.820 --> 04:56.780
+Quindi se aggiungo diciamo 70 o sai cosa.
+
+04:56.850 --> 04:58.910
+Aggiungiamo un centinaio.
+
+04:58.920 --> 05:00.130
+Cosa pensi che succederà.
+
+05:01.280 --> 05:07.540
+Bene, se premo vai vedrai che ne aggiungo cento e poi bolle.
+
+05:07.560 --> 05:13.170
+Così come puoi vedere gli inserimenti anche se sembra veloce può ancora prendere il registro e anche
+
+05:16.680 --> 05:19.460
+questo è lo stesso caso delle eliminazioni.
+
+05:19.500 --> 05:20.690
+È tutto di log.
+
+05:20.780 --> 05:27.900
+E ora per capire veramente perché abbiamo bisogno di qualcosa come un mucchio binario perché sono così utili.
+
+05:27.900 --> 05:30.320
+In che modo sono diversi dall'albero di ricerca binario.
+
+05:30.570 --> 05:33.140
+Dobbiamo parlare delle code prioritarie.
+
+05:33.360 --> 05:35.220
+Quindi parliamo di code di priorità.

@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.000 --> 00:01.820
+Bine ai revenit.
+
+00:02.110 --> 00:08.420
+E timpul să ne codificăm stack-ul și am un mic exercițiu pentru tine aici.
+
+00:08.500 --> 00:14.140
+Am creat șablonul a ceea ce ne dorim ca structura de date stack să arate.
+
+00:14.280 --> 00:17.570
+Și avem și o clasă de noduri.
+
+00:17.670 --> 00:23.100
+Dacă decideți să utilizați acest lucru și ar trebui să fiți familiarizați cu acesta din exercițiul listei legate.
+
+00:23.310 --> 00:27.770
+Sau puteți doar să o ignorați și să vă creați un nou nod aici.
+
+00:28.980 --> 00:34.380
+Acum, acest stiva va avea în constructor trei proprietăți.
+
+00:34.500 --> 00:42.870
+Avem partea de sus care este amintiți placa superioară avem fundul care este placa inferioară și apoi avem
+
+00:42.870 --> 00:50.430
+o lungime de zero și atât partea superioară cât și cea inferioară sunt în prezent nul.
+
+00:50.440 --> 00:55.640
+Acum vom folosi listele legate pentru a completa aceste valori.
+
+00:56.360 --> 01:01.050
+Dar nu este nevoie să folosim clasa listei de linkuri pe care am folosit-o înainte.
+
+01:01.070 --> 01:09.020
+În schimb, puteți folosi doar clasa de noduri pentru a atribui pur și simplu diferite valori și asigurați-vă
+
+01:09.230 --> 01:18.310
+că punctul următor indică un nod diferit pe măsură ce adăugăm lucruri acum sarcina dvs. este de a crea trei metode care
+
+01:18.580 --> 01:27.030
+funcționează pentru acest vârf de structură de date care ne permite să vedem foarte element superior sau nod de vârf.
+
+01:27.530 --> 01:38.330
+Push-ul care ne permite să adăugăm un nod în partea de sus a stivei și un pop care ne permite să scoatem din partea de
+
+01:38.330 --> 01:39.720
+sus a stivei.
+
+01:39.920 --> 01:47.120
+Și dacă doriți să opțional puteți face, de asemenea, o este metoda goală, care este comun cu
+
+01:47.150 --> 01:51.620
+stiva pentru a verifica dacă stiva noastră este goală.
+
+01:51.680 --> 01:58.960
+Vom începe cu un stack care devine instanțiat și codul dvs. funcționează.
+
+01:58.960 --> 02:07.990
+Dacă putem să facem ceva de genul ăsta, când spui stivuirea punctului meu de stivă, să spunem că Google va împinge apoi discordia de
+
+02:08.290 --> 02:16.080
+împingere Dammy la fel ca o istorie a browser-ului, iar apoi poți să spui discordie și să-ți spui Demy pop.
+
+02:16.120 --> 02:21.860
+Google Good luck și voi vedea în soluția video pa revedere.

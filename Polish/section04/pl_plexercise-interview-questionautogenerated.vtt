@@ -1,0 +1,682 @@
+WEBVTT
+
+00:01.440 --> 00:08.670
+Wracając do tego punktu, powinieneś wiedzieć, jak powinien wyglądać typowy, udany
+
+00:08.670 --> 00:14.500
+wywiad, zwłaszcza jak rozwiązać problem przed rozmową kwalifikacyjną.
+
+00:14.500 --> 00:17.010
+I zrobimy tutaj zabawne małe ćwiczenie.
+
+00:17.190 --> 00:25.860
+Ankieter właśnie zadał nam pytanie i to jest właśnie tutaj pytanie do tablicy, aby utworzyć funkcję, która
+
+00:26.080 --> 00:34.160
+pozwala użytkownikowi znać prawdę lub fałsz, czy te dwie tablice zawierają jakieś wspólne elementy.
+
+00:34.250 --> 00:42.860
+Na przykład, jeśli musielibyśmy usunąć rok pierwszy zawierający b c x, a drugi Z Y i ja
+
+00:42.860 --> 00:48.600
+zwrócilibyśmy fałsz, ponieważ nie ma nic wspólnego między tymi dwoma wymazaniami.
+
+00:48.620 --> 00:58.960
+Jednak w tej przykładowej tablicy jeden w tablicy zawiera oba elementy X, a ponieważ mają wspólny
+
+00:58.960 --> 01:02.220
+element, powinien zwracać wartość true.
+
+01:02.260 --> 01:05.160
+Więc ankieter właśnie zadał ci to pytanie.
+
+01:05.980 --> 01:07.840
+Jak zamierzamy go rozwiązać.
+
+01:07.840 --> 01:13.550
+Cóż, chodźmy krok po kroku przez naszego małego gościa.
+
+01:13.630 --> 01:19.390
+Gdy ankieter powie, że to pytanie, zapisz najważniejsze punkty na górze.
+
+01:19.630 --> 01:21.700
+Upewnij się, że masz wszystkie szczegóły.
+
+01:21.700 --> 01:23.980
+Pokaż, jak jesteś zorganizowany.
+
+01:24.410 --> 01:28.450
+Cóż, w tym przypadku zrobiłem to dla ciebie tutaj.
+
+01:28.450 --> 01:36.940
+Najlepiej byłoby napisać to podczas kodowania i upewnić się, że pokazujesz wywiad.
+
+01:36.940 --> 01:37.510
+DOBRZE.
+
+01:37.840 --> 01:41.530
+Gdybym miał ten przykład, powinien zwrócić false.
+
+01:41.590 --> 01:46.350
+Gdybym miał ten przykład, powinien zwrócić wartość true.
+
+01:46.390 --> 01:52.990
+Teraz załóżmy, że ankieter podarował ci tylko te punkty i nie ma żadnych innych informacji,
+
+01:52.990 --> 01:59.930
+przynajmniej teraz masz pojęcie o tym, na co patrzą i czy chcemy zwrócić fałszywe czy prawdziwe.
+
+02:00.030 --> 02:03.480
+Ale mamy dwie rzeczy, które chcemy zrobić z naszą funkcją.
+
+02:03.480 --> 02:07.070
+Jednym z nich jest to, że
+
+02:10.710 --> 02:17.250
+mamy dwa parametry i funkcja ta zwróci wartość true lub false.
+
+02:17.270 --> 02:18.600
+Teraz w drugim punkcie.
+
+02:18.800 --> 02:24.500
+Upewnij się, że dokładnie sprawdzasz, jakie są dane wejściowe, jakie są wyniki, co już
+
+02:24.500 --> 02:31.730
+zrobiliśmy, i potwierdziliśmy u naszego ankietera, że mamy dwa dane wejściowe, które są wyścigiem, możemy nawet poprosić o
+
+02:31.730 --> 02:32.810
+to ankietera.
+
+02:32.930 --> 02:34.540
+Czy zawsze będą podbijać.
+
+02:34.550 --> 02:40.760
+Czy to możliwe, że dane wejściowe mogą nie być wyścigiem, może obiekt może być ciągiem znaków, a my możemy potwierdzić
+
+02:40.760 --> 02:42.670
+szkody lub jakie są te przypadki.
+
+02:42.860 --> 02:47.780
+W naszym przypadku powiedzmy, że rok mówi, że te dwa parametry zawsze będą wyścigiem
+
+02:48.830 --> 02:51.520
+i zawsze chcemy zwrócić prawdę lub fałsz.
+
+02:51.990 --> 02:56.690
+A numer dwa jest tutaj bardzo ważny, ponieważ nie chcemy skakać od razu do kodowania.
+
+02:57.050 --> 03:01.310
+Nawet jeśli uważasz, że znasz odpowiedź lub widziałeś ten problem, zanim
+
+03:02.000 --> 03:08.540
+wiesz dokładnie, co masz robić, nie skacz prosto w kodowaniu, najpierw wyjaśnij swoje podejście, tak jak to
+
+03:08.720 --> 03:15.020
+robię, mówiąc to, ponieważ jeśli są jakieś problemy z twoim podejście lub zrozumienie pytania, które twój ankieter
+
+03:15.020 --> 03:20.990
+często będzie dla ciebie wskazywał, zanim wskoczysz prosto i zajrzysz do kodu i powiesz, że
+
+03:20.990 --> 03:22.740
+to nie jest złe.
+
+03:23.150 --> 03:26.700
+W ten sposób zarówno ty, jak i osoba przeprowadzająca wywiad dokładnie wiedzą, jakie są kroki.
+
+03:26.760 --> 03:28.250
+Musisz podążać.
+
+03:28.250 --> 03:30.320
+Teraz spójrzmy na Point numer trzy tutaj.
+
+03:30.320 --> 03:32.910
+Co to jest najważniejsza wartość lub problem.
+
+03:33.020 --> 03:37.030
+Czy masz czas i pamięć do uruchomienia tej funkcji.
+
+03:37.070 --> 03:39.330
+Jaki jest teraz główny cel.
+
+03:39.380 --> 03:45.620
+Ponieważ jest to proste pytanie, możemy chcieć poprosić osobę przeprowadzającą wywiad o
+
+03:45.620 --> 03:47.230
+wielkość tej tablicy.
+
+03:47.340 --> 03:54.830
+Ponieważ jeśli ankieter powie, że tablica nigdy nie będzie miała więcej niż 5 elementów, to może nie
+
+03:54.830 --> 04:01.820
+będziemy musieli martwić się o złożoność big-O lub czasu, ani o złożoność przestrzeni, a potem możesz
+
+04:01.820 --> 04:07.970
+poprosić rozmówcę, że naszym celem jest być jak najbardziej efektywnym dzięki naszej funkcji.
+
+04:07.970 --> 04:12.040
+Ważniejsza jest dla nas złożoność czasu.
+
+04:12.050 --> 04:14.790
+Lub ważniejsza jest złożoność przestrzeni.
+
+04:14.900 --> 04:20.210
+Może ankieter może ci powiedzieć, że chcemy tylko najbardziej wydajnej funkcji, jaką
+
+04:20.210 --> 04:24.940
+mogą wymyślić, zakładając, że tablica może być bardzo duża.
+
+04:24.950 --> 04:30.830
+Powiedzmy, że mamy tutaj dwie tablice parametrów, które nie mają limitu rozmiaru.
+
+04:30.830 --> 04:34.270
+Więc te tablice mogą stać się naprawdę naprawdę duże.
+
+04:34.420 --> 04:38.860
+A jeśli chodzi o zwrot prawdziwej lub fałszywej, to wszystko, czego chcemy, po prostu chcemy powrotu boolowskiego.
+
+04:39.280 --> 04:45.820
+Teraz numer cztery Nie denerwuj się, gdy zadajesz zbyt wiele pytań, a my w pewnym sensie docieramy
+
+04:45.820 --> 04:51.820
+do tego obszaru, gdzie zadaliśmy wiele pytań ankieterowi i jakbyśmy mieli pojęcie o tym, co
+
+04:51.820 --> 04:52.740
+chcemy zrobić.
+
+04:52.870 --> 04:56.520
+Możemy zadawać im pytania, ale pamiętaj, że zazwyczaj masz limit czasu.
+
+04:56.530 --> 05:03.940
+Nie chcesz ich zawracać, znać ich i zadawać im te wszystkie małe pytania, zanim
+
+05:04.510 --> 05:05.700
+zaczniemy kodować.
+
+05:05.740 --> 05:06.890
+Miej czas na uwadze.
+
+05:07.000 --> 05:12.790
+I myślę, że w tym momencie mamy informację, że możemy kontynuować nasze założenia, aby zacząć rozwiązywać
+
+05:12.790 --> 05:13.430
+problem.
+
+05:14.230 --> 05:22.440
+Więc numer pięć zaczyna się od naiwnego podejścia brutalnej siły, która pojawia się w pierwszej kolejności.
+
+05:22.540 --> 05:28.160
+Pokazuje, że potrafisz myśleć dobrze i krytycznie i nawet nie musisz pisać tego kodu.
+
+05:28.210 --> 05:30.040
+Po prostu o tym porozmawiaj.
+
+05:30.550 --> 05:34.630
+Zawsze tak jest, gdy osoba przeprowadzająca wywiad zadaje twoje pytanie.
+
+05:34.630 --> 05:41.410
+Zwykle mają proste rozwiązanie, które nazywamy brutalną siłą, która nie jest najskuteczniejsza, ale zazwyczaj
+
+05:41.410 --> 05:45.080
+jest najłatwiejsza lub pierwsza, która pojawia się.
+
+05:46.080 --> 05:54.750
+Tak więc w naszym przypadku, jeśli spojrzymy na to podczas wywiadu z limitem czasu, możemy powiedzieć, że wygląda to
+
+05:54.780 --> 06:04.980
+jak zagnieżdżona pętla, w której porównujemy z Z, a następnie z Y, a następnie z I, a potem idziemy do ZB z YB
+
+06:04.980 --> 06:09.360
+z I, a potem tak dalej i tak dalej.
+
+06:09.510 --> 06:17.130
+Tak więc od razu wygląda na to, że porównujemy dwa różne obszary i będziemy mieć
+
+06:17.340 --> 06:25.230
+dwie pętle, które jedna zagnieżdżają się jedna na drugiej, i od razu wiemy, że to wielkie O,
+
+06:25.620 --> 06:29.330
+o którym mówiliśmy o O i kwadracie.
+
+06:29.850 --> 06:35.850
+Najprawdopodobniej podczas wywiadu zagnieżdżonego w pętli jest coś, czego chcemy uniknąć, mówiąc po prostu rozmówcy,
+
+06:35.850 --> 06:41.700
+że to rozwiązanie, mimo że nie jest to najlepsze rozwiązanie, już pokazuje, że wyraźnie
+
+06:41.700 --> 06:43.370
+myślisz o problemie.
+
+06:43.680 --> 06:47.140
+Poza tym daje ci to punkt, od którego możesz się teraz poprawić.
+
+06:47.250 --> 06:52.280
+Nie musisz kodować tej części i zwykle wystarczy opisać, jak to działa.
+
+06:52.290 --> 06:58.760
+Tak jak teraz, ale w zależności od twojego czasu możesz, ale nie chcesz, aby to również zakodować.
+
+06:58.860 --> 07:04.920
+Ważną rzeczą jest to, abyś poinformował osobę przeprowadzającą wywiad, że jest to brutalna siła lub łatwe naiwne
+
+07:04.920 --> 07:11.520
+rozwiązanie, które może nie być najskuteczniejsze, przynajmniej w ten sposób, że masz właściwą odpowiedź, a następnie kończy się czas,
+
+07:11.520 --> 07:13.540
+a nawet nie ma odpowiedzi.
+
+07:15.560 --> 07:20.270
+Numer szósty tutaj to TELL ME TELL im, dlaczego to podejście nie jest najlepsze.
+
+07:20.330 --> 07:28.760
+Tak więc w naszym przypadku powiedzieliśmy, że kod może nie być efektywny lub może nie czytaliśmy kodu, który
+
+07:29.240 --> 07:34.070
+będzie bardzo skomplikowany i trudny do odczytania dla innych programistów.
+
+07:35.070 --> 07:41.590
+Z moją demonstracją, ponieważ chcę tylko o tym pomyśleć, więc mogę być bardziej jasna, dlaczego tak jest.
+
+07:41.610 --> 07:42.780
+Och i do kwadratu.
+
+07:42.780 --> 07:46.490
+Zamierzam po prostu kodować i najprawdopodobniej nie zrobiłbyś tego w wywiadzie.
+
+07:46.500 --> 07:50.640
+Zamierzam tylko zakodować rozwiązanie brutalnej siły, żebyś mógł zobaczyć, o co mi chodzi.
+
+07:50.790 --> 08:02.170
+Zamierzam mieć funkcję, a ta funkcja będzie zawierała wspólny element, który otrzyma,
+
+08:02.170 --> 08:09.140
+aby wymazać tablicę 1 i tablicę 2.
+
+08:09.160 --> 08:14.030
+Teraz weźmiemy pierwszą tablicę i zrobimy pętlę for.
+
+08:14.090 --> 08:20.310
+Powiem więc, niech I whoops niech pi równa się zero.
+
+08:21.650 --> 08:27.120
+Powiemy, że tak długo, jak ja jest mniej, tablica potrzebuje długości.
+
+08:27.140 --> 08:32.070
+Tak więc to składowisko, które mamy zamiar powiększyć.
+
+08:32.540 --> 08:36.080
+Wewnątrz tej pętli będziemy mieli pętlę for.
+
+08:36.080 --> 08:43.430
+Tak więc po raz pierwszy pobieramy pierwszą z tablic i będziemy ją porównywać z
+
+08:43.430 --> 08:46.740
+drugą tablicą Z Y i X.
+
+08:46.790 --> 08:51.860
+Więc będziemy mieli pętlę for, a powiemy, że będziemy mieli to samo.
+
+08:51.920 --> 08:54.530
+W tym czasie zamiast ja powiem J.
+
+08:55.390 --> 08:57.360
+Jest równa zero.
+
+08:58.030 --> 09:03.580
+I to J tak długo, jak jest mniejsze niż Array dwie kropki.
+
+09:05.210 --> 09:09.900
+Będzie się zwiększać za każdym razem, gdy go przejrzymy.
+
+09:09.980 --> 09:14.020
+I w końcu tutaj zrobimy trochę porównania.
+
+09:14.030 --> 09:20.930
+Zamierzamy porównać a do z, a następnie dwa Y, a następnie 2 x.
+
+09:21.080 --> 09:31.960
+Więc jeśli przejdę tutaj i powiemy, że tablica jeden indeks I tak ustawiamy jeden w indeksie I.
+
+09:31.980 --> 09:35.240
+Więc za pierwszym razem będę miał zero.
+
+09:35.280 --> 09:39.670
+Oznacza to, że tablica 1 będzie zawierała.
+
+09:39.840 --> 09:46.500
+Chwyćmy to, abyśmy mogli zobaczyć to lepiej na górze tutaj.
+
+09:46.500 --> 09:55.130
+Będę musiał ścigać się tutaj, a my powiemy, że tablica 0.
+
+09:55.130 --> 09:57.100
+Za pierwszym razem zdobędziesz osiem.
+
+09:57.470 --> 10:09.650
+A jeśli to równa się drugiej macierze, to J to J jest indeksem tablicy 2.
+
+10:09.680 --> 10:12.270
+Pierwszy raz w porównaniu z Z.
+
+10:12.360 --> 10:18.680
+A więc i Z, a następnie, gdy te przyrosty będą się porównywać do a i y, a
+
+10:18.710 --> 10:24.830
+następnie nastąpi przyrost w porównaniu do X, a następnie przejdziemy do najwyższej pętli ponownie, otrzymam inkrementację.
+
+10:24.830 --> 10:27.010
+Więc staje się teraz 1.
+
+10:27.080 --> 10:34.220
+Więc zaczniemy porównywać B do Z B Y do X, a potem C do Z C do wysokiego C do X i tak dalej.
+
+10:34.550 --> 10:44.130
+Jeśli tak jest i jeśli jest to prawdą, chcemy zwrócić true, jeśli przejdziemy przez to i to nigdy nie
+
+10:44.520 --> 10:51.210
+będzie dobrze pasować w tym przypadku możemy po prostu zwrócić false tutaj.
+
+10:53.030 --> 10:56.340
+Zobaczmy teraz, czy to działa.
+
+10:56.540 --> 11:10.100
+Powiem tylko, że zawiera wspólny przedmiot, a my damy go do tablicy wyścigowej 1 i drugiej.
+
+11:10.350 --> 11:14.550
+Jeśli uruchomisz to i zrobimy to trochę mniej, żebyś
+
+11:17.500 --> 11:28.240
+mógł sprawdzić, czy to zrobię, to się zgadzam, ponieważ istnieje wspólny element X, jeśli zmienię to, aby teraz miał R, a ja kliknę, uruchomiłbym
+
+11:28.240 --> 11:29.710
+się jako false.
+
+11:29.850 --> 11:38.640
+Znowu, jeśli zmienimy to na a, a kliknięcie zostanie osiągnięte, ponieważ a, i dopasowanie się do tego i
+
+11:38.640 --> 11:46.050
+patrzymy na numer 6 tutaj, sprawimy, że ten ekran będzie nieco bardziej zorganizowany, abyśmy mogli
+
+11:46.050 --> 11:47.450
+to przeczytać.
+
+11:47.640 --> 11:51.550
+Numer sześć po prostu powiedz im, dlaczego to podejście nie jest najlepsze.
+
+11:51.570 --> 12:00.210
+Znowu możesz nie mieć czasu, aby to zakodować, ale możemy przekonać się, że mamy dwie pętle za jedną zagnieżdżoną po drugiej i ponieważ już rozmawialiśmy
+
+12:00.810 --> 12:07.650
+o tym w Big O O. S. wiemy, że mamy
+
+12:07.860 --> 12:09.820
+duży rząd.
+
+12:09.870 --> 12:19.050
+Jeśli chodzi o złożoność czasową, to mamy tablicę a i inną tablicę.
+
+12:19.110 --> 12:21.500
+Oznacza to pomnożenie przez B.
+
+12:21.720 --> 12:26.810
+Ponownie jest to trochę podstępne, ponieważ te dwie tablice mogą mieć różne rozmiary.
+
+12:26.940 --> 12:36.430
+Nie możemy po prostu powiedzieć o kwadracie, ponieważ te dwie tablice mogą znowu tak jak powiedziałem różne rozmiary.
+
+12:36.570 --> 12:42.480
+To jest trochę podstęp i dobrze, że to napisaliśmy, ponieważ teraz widzimy to zamiast 0
+
+12:42.480 --> 12:43.460
+i kwadrat.
+
+12:43.470 --> 12:52.440
+To jest bardziej jak w czasach b, jeśli rozmiary macierzy są takie same, jak 0 i kwadraty, więc jest to
+
+12:52.440 --> 12:53.590
+dość powolne.
+
+12:55.220 --> 13:01.590
+Więc numer 7 przejdzie przez twoje zwykłe podejście i zobaczysz, gdzie możesz być w stanie
+
+13:01.600 --> 13:08.490
+złamać rzeczy i powtarza ci się wąskie gardła, jak na przykład n do kwadratu lub niepotrzebnej pracy.
+
+13:08.490 --> 13:11.300
+Czy wykorzystałeś wszystkie informacje, które przekazał ci ankieter?
+
+13:11.630 --> 13:13.350
+I tak dalej i tak dalej.
+
+13:13.400 --> 13:21.020
+Patrząc na to, mogę powiedzieć, że prawdopodobnie moglibyśmy zrobić lepiej, może od razu nie widać rozwiązania, a to dlatego, że
+
+13:21.410 --> 13:25.820
+trzeba ćwiczyć kilka z tych problemów, aby zrozumieć wspólny wzorzec.
+
+13:26.030 --> 13:32.180
+Ale jednym z najczęstszych wzorców, jeśli chodzi o zagnieżdżanie dla pętli, jest to, że możesz
+
+13:32.180 --> 13:38.630
+użyć czegoś, co nazywa się tablicami hash, które dostaną cię do javascriptu, nazywają się obiektami, aby
+
+13:38.630 --> 13:39.780
+przyspieszyć działanie.
+
+13:39.800 --> 13:47.140
+Czy istnieje sposób, aby zmienić to czasami złożoność czasu w coś szybciej.
+
+13:48.270 --> 13:58.560
+Robimy trochę niepotrzebnej pracy, w której po prostu zapętlamy Z A Y A, a potem idziemy Busy B Y B.
+
+13:58.830 --> 14:05.080
+I ciągle dokonujemy tego porównania w tej samej pracy, jeśli mamy lepsze rozwiązanie.
+
+14:05.180 --> 14:07.230
+Zamierzam to teraz skomentować.
+
+14:08.960 --> 14:13.340
+I przewiń do samego końca, a my już tego nie potrzebujemy.
+
+14:14.030 --> 14:15.370
+I spróbuj innego rozwiązania.
+
+14:15.560 --> 14:18.310
+I przyprowadzam tutaj tablicę, żebyśmy mogli ją zobaczyć.
+
+14:23.170 --> 14:30.770
+Zanim zaczniemy kodowanie, pomyślmy, jakie kroki chcemy podjąć, jeśli mamy funkcję,
+
+14:30.770 --> 14:33.760
+która zajmuje pierwszą tablicę.
+
+14:33.800 --> 14:43.880
+Powiedzmy, że jeden z nich zostanie przekonwertowany na obiekt, a ten obiekt będzie
+
+14:43.880 --> 14:46.580
+zawierał coś podobnego.
+
+14:46.680 --> 14:50.770
+I upewnijmy się, że to połączymy.
+
+14:50.870 --> 15:02.480
+Będzie zawierał wartość równą true, a będzie blisko prawdy C zbliżonej do prawdziwej.
+
+15:02.730 --> 15:10.130
+I w końcu to będzie mieć X równa się prawdzie.
+
+15:10.150 --> 15:21.080
+Teraz, jeśli stworzymy obiekt taki jak ten, możemy teraz użyć tego obiektu bez współczynnika, aby po prostu powiedzieć tablicę 2.
+
+15:21.100 --> 15:27.050
+Czy możemy sprawdzić każdy element w tablicy 2 dla tego obiektu i sprawdzić, czy istnieje właściwość.
+
+15:27.220 --> 15:38.410
+Idealnie możemy zrobić coś takiego jak tablica do indeksowania i zobaczmy, czy to jest równe jakiejkolwiek właściwości obiektu kropki.
+
+15:38.860 --> 15:41.530
+OK, przejdźmy przez ten jeszcze raz.
+
+15:41.550 --> 15:43.220
+To jest wspólny wzorzec.
+
+15:43.240 --> 15:48.810
+Będziesz widzieć dużo, jeśli chodzi o poprawę złożoności czasu, więc jeśli nie otrzymasz
+
+15:48.810 --> 15:51.600
+tego od razu, nie stresuj się.
+
+15:51.660 --> 15:56.430
+Jest to coś, co stanie się dla ciebie bardziej znane, gdy będziemy robić więcej problemów.
+
+15:56.430 --> 16:03.500
+Ale jeśli jestem w stanie przekonwertować pierwszą tablicę na obiekt, który wygląda tak.
+
+16:03.860 --> 16:12.050
+Teraz zamiast pętli po obu tablicach mogę po prostu przejrzeć drugą tablicę i po prostu
+
+16:12.050 --> 16:17.150
+sprawdzić, czy właściwość Z istnieje w obiekcie, który stworzyliśmy.
+
+16:17.330 --> 16:18.830
+Nie, nie.
+
+16:18.830 --> 16:21.630
+Czy nieruchomość Y istnieje w Saray.
+
+16:21.680 --> 16:22.380
+Nie, nie.
+
+16:22.400 --> 16:26.940
+Czy właściwość istnieje na tym obiekcie.
+
+16:27.110 --> 16:28.400
+Tak.
+
+16:28.400 --> 16:34.700
+Oznacza to, że mamy teraz wspólny element, aby pokazać, jak to działa i dlaczego to
+
+16:34.700 --> 16:37.170
+rozwiązanie byłoby lepsze od pierwszego.
+
+16:37.310 --> 16:42.870
+Muszę zacząć kodowanie, ale kiedy przejdziemy przez ósemkę, zobaczymy to przed rozpoczęciem kodowania.
+
+16:42.890 --> 16:51.550
+Chcemy przejść przez twój kod i zapisać kroki, które zamierzasz zrobić, zacznijmy to robić.
+
+16:51.550 --> 16:57.510
+Powiem, że zamierzamy stworzyć nową funkcję zawierającą wspólny przedmiot.
+
+16:57.510 --> 17:03.640
+Ten, do którego dodam, ponieważ jest naszą drugą funkcją, zajmie
+
+17:03.670 --> 17:06.320
+tablicę 1 i tablicę.
+
+17:06.470 --> 17:12.130
+A teraz ta funkcja Zróbmy to nieco mniej, żeby wyglądało ładniej.
+
+17:12.130 --> 17:13.290
+Proszę bardzo.
+
+17:13.360 --> 17:30.160
+Ta funkcja powie najpierw, że chcesz przepuścić pierwszą tablicę i utworzyć obiekt, w którym właściwości
+
+17:30.910 --> 17:36.800
+będą równe elementom w tablicy.
+
+17:39.470 --> 17:47.120
+Drugą rzeczą będzie przejście przez drugorzędne
+
+17:49.580 --> 18:02.600
+i sprawdzenie, czy element i druga tablica istnieją na stworzonym obiekcie.
+
+18:02.600 --> 18:10.490
+Teraz, zanim jeszcze zaczniemy to kodować, mogę napisać w pewnym sensie, że będziemy mieć lepszą wydajność
+
+18:10.610 --> 18:19.330
+niż pierwsza Saray, która była 0 szybkością czasową, ponieważ to, co zamierzamy zrobić, ma dwie pętle, ale te
+
+18:19.330 --> 18:21.990
+dwie pętle są będzie zagnieżdżony.
+
+18:22.030 --> 18:30.030
+Pamiętaj, że w pierwszym rozwiązaniu zagnieździliśmy się dla pętli w tym rozwiązaniu.
+
+18:30.290 --> 18:35.040
+A nasze drugie rozwiązanie będziemy musieli rozdzielić na pętle.
+
+18:35.460 --> 18:46.180
+A jeśli pamiętasz naszą wielką analizę O, gdy mamy kroki jeden po drugim zamiast
+
+18:46.180 --> 19:00.140
+zagnieżdżenia, to wielkie O staje się plusem b, mamy potencjalne rozwiązanie, które ma złożoność czasową plusa b zamiast prędkości
+
+19:00.260 --> 19:01.420
+czasu.
+
+19:01.610 --> 19:03.170
+To są duże oszczędności.
+
+19:03.290 --> 19:07.790
+Musimy zacząć pisać kod, aby sprawdzić, czy możemy rozwiązać ten problem.
+
+19:08.060 --> 19:09.530
+A ponieważ ten film się wydłuża.
+
+19:09.560 --> 19:11.430
+Zrobimy to w następnym wideo.
+
+19:11.810 --> 19:18.080
+Ale chcę wam pokazać to, co właśnie zrobiliśmy i to jest, chociaż nie mamy
+
+19:18.080 --> 19:22.310
+jasnego rozwiązania, o którym mówiliśmy, jak rozwiązujemy problem.
+
+19:22.310 --> 19:25.190
+Rozmówca widzi, jak myślimy.
+
+19:25.220 --> 19:34.130
+CS, jakie kroki podejmujemy w CS, podejmujemy mądre, krytyczne decyzje, aby przejść od zrozumienia problemu
+
+19:34.130 --> 19:38.390
+do rozwiązania problemu w naiwny sposób.
+
+19:38.390 --> 19:45.410
+Zrozumienie, dlaczego nie jest to najlepszy sposób, a następnie zacząć myśleć o możliwych rozwiązaniach.
+
+19:45.410 --> 19:52.340
+A piękno tego podejścia polega na tym, że bez względu na to, czy otrzymamy tę część poprawnie, być może nasze założenia są
+
+19:52.340 --> 19:54.560
+błędne i nie możemy tego zrobić.
+
+19:54.560 --> 20:01.770
+Pokazujemy rozmówcy, że myślimy o problemie i robimy małe logiczne kroki w
+
+20:01.860 --> 20:03.110
+kierunku rozwiązania.
+
+20:04.370 --> 20:09.360
+A to o wiele lepsze, niż tylko kodowanie od razu, próbując rozwiązania.
+
+20:09.380 --> 20:15.200
+Zobacz, czy dobrze zrobisz, czy nie, ankieter będzie dobrze rozumiał twoje zdolności i proces myślenia
+
+20:15.290 --> 20:16.800
+w ten sposób.
+
+20:16.820 --> 20:20.100
+I to są ludzie, których chcą zatrudnić.
+
+20:20.390 --> 20:26.150
+W następnym wideo zakończmy ten problem, zakodowaliśmy i zobaczmy, czy możemy zwiększyć wydajność
+
+20:26.300 --> 20:30.350
+tego rozwiązania, przekształcając go na 0 A plus B.
+
+20:30.350 --> 20:31.730
+Zobaczę w następnym.
+
+20:31.920 --> 20:32.210
+Buh-Bye.

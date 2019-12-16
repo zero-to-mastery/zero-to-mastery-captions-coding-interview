@@ -1,0 +1,178 @@
+WEBVTT
+
+00:01.310 --> 00:02.560
+Bine ai revenit.
+
+00:02.570 --> 00:09.190
+Să vorbim repede despre ceva despre pointer pe care veți auzi o mulțime în subiectele de informatică un pointer este
+
+00:09.190 --> 00:11.180
+pur și simplu acest lucru.
+
+00:11.340 --> 00:20.200
+Este o referință la un alt loc în memorie sau la un alt obiect sau alt nod și în
+
+00:20.200 --> 00:24.520
+javascript putem să-l demonstrăm cu ceva de genul asta.
+
+00:24.710 --> 00:36.640
+Dacă am un obiect să îl numim obiect unul care este un obiect simplu care are un adevărat.
+
+00:36.900 --> 00:38.270
+Și voi
+
+00:41.020 --> 00:48.800
+comenta acest lucru și acum vom face ceva de genul Konst obiect 2 egal cu obiectul 1.
+
+00:48.910 --> 00:57.040
+Tocmai am creat o referință la un obiect și acesta este un indicator.
+
+00:57.040 --> 01:00.150
+Este doar o referință aici.
+
+01:00.190 --> 01:02.920
+Nu copiez obiectul.
+
+01:02.980 --> 01:05.470
+Nu spun că obiectul 1 este egal cu Akos.
+
+01:05.470 --> 01:06.100
+Adevărat.
+
+01:06.100 --> 01:16.170
+Și, de asemenea, crearea unei alte locații în memorie, care spune că A este egal cu adevărat în memorie atunci când ne uităm la berbecul nostru.
+
+01:16.340 --> 01:18.170
+Există o singură intrare.
+
+01:18.280 --> 01:29.260
+A este egal cu adevărat, iar ambele obiecte doresc ca un obiect să indice aceeași locație din memorie pentru a vă arăta că este
+
+01:29.260 --> 01:30.090
+cazul.
+
+01:30.100 --> 01:32.110
+Să consolezem doar
+
+01:35.610 --> 01:39.590
+obiectul jurnal 1 și apoi dialogul consola.
+
+01:41.060 --> 01:43.090
+Obiect pentru.
+
+01:43.370 --> 01:45.800
+Și tocmai așa suntem clar despre asta.
+
+01:45.800 --> 01:55.690
+Voi spune una aici și asta va fi de două, astfel încât, dacă voi conduce acest lucru, am două ECO-uri adevărate.
+
+01:55.940 --> 02:07.380
+Dar dacă schimbăm obiectul A sau accesăm proprietatea în obiectul unu și spun că va fi egal cu Booya și eu conduc acest aspect al
+
+02:07.800 --> 02:16.860
+aceluiași obiect Twan un obiect de schimbat pentru că am creat un pointer aici spunând că mă obiect că se
+
+02:17.100 --> 02:21.530
+dorește obiectul de referință 1 cum ar fi așa.
+
+02:22.730 --> 02:26.490
+Și ambele indică aceeași locație din memorie.
+
+02:27.600 --> 02:29.680
+Și asta este un indicator.
+
+02:29.730 --> 02:38.540
+Este pur și simplu spunând Hei aici este în cazul în care este în memorie și atunci când ne uităm la
+
+02:38.540 --> 02:51.090
+lista noastră de link-ul de legătură atunci când vom elimina să spunem un nod la index de două și I Hago unul doi vom elimina și care doar dispare
+
+02:51.240 --> 02:54.120
+din memorie cum funcționează acest lucru.
+
+02:54.500 --> 03:04.930
+Ei bine, dacă ne întoarcem la exemplul nostru, pot șterge doar obiectul 1 și voi schimba acest lucru pentru a
+
+03:04.950 --> 03:09.330
+conduce, pentru că vom schimba valorile de aici.
+
+03:09.630 --> 03:11.100
+Executați clic pe butonul Phi.
+
+03:12.000 --> 03:17.060
+Obținerea obiectului de referință pentru eroare Twan nu este definit la linia 14.
+
+03:17.250 --> 03:19.220
+Asta e chiar aici.
+
+03:19.500 --> 03:19.820
+O.K.
+
+03:19.830 --> 03:23.750
+Deci, hai să comentăm acest lucru, deoarece obiectul 1 nu mai există.
+
+03:23.930 --> 03:26.290
+Reichlich a alerga.
+
+03:26.490 --> 03:34.900
+Încă am obiect ca pe Booya, chiar dacă am șters obiectul 1.
+
+03:35.060 --> 03:43.940
+Ceea ce se întâmplă aici bine în modul în care funcționează în majoritatea limbajelor de programare este că computerele
+
+03:43.940 --> 03:53.720
+noastre vor șterge memoria care este în uz și deoarece vede că acel obiect continuă să se refere la această locație
+
+03:53.720 --> 03:58.950
+în memorie această valoare în memorie nu o va șterge .
+
+03:59.810 --> 04:05.650
+Pentru că există încă un indicator pentru această locație și memorie.
+
+04:05.960 --> 04:08.410
+Și așa se elimină lucrurile.
+
+04:08.420 --> 04:16.390
+În limbi precum javascript, aceasta este ceea ce ați putea numi colecție de gunoi unde, de îndată
+
+04:17.560 --> 04:30.150
+ce spunem obiect la punct sau obiect, două sunt egale și acum fac clic pe Executare acum obiect la care ați referit spațiul de memorie care
+
+04:30.450 --> 04:36.870
+avea o egal cu adevărat este acum pur și simplu o sfoară.
+
+04:36.900 --> 04:43.910
+Deci, deoarece javascript este colectat gunoi care este memorie este gestionat în mod automat.
+
+04:44.130 --> 04:50.040
+Acest lucru devine automat gunoi colectat și șters, deoarece nimic nu indică la ea.
+
+04:51.590 --> 04:59.090
+Cu toate acestea, există limbi de nivel scăzut în care trebuie să vă administrați propria memorie și trebuie să
+
+04:59.090 --> 05:03.220
+ștergeți manual acest lucru pe elementul de referință din memorie.
+
+05:03.830 --> 05:12.170
+Și acest lucru poate provoca multe posibile probleme în care lăsați memoria care nu este folosită în memorie, care este
+
+05:12.230 --> 05:13.770
+o resursă valoroasă.
+
+05:13.970 --> 05:20.030
+Dar, atunci există și avantaje cu limbi non-gunoi colectate în cazul în care veți obține pentru a gestiona memoria
+
+05:20.030 --> 05:23.960
+ta, astfel încât să puteți face lucrurile într-adevăr foarte repede ca eficient.
+
+05:23.970 --> 05:24.730
+In regula.
+
+05:24.870 --> 05:34.340
+Cred că este suficient ca pointerul să fie un indicator este pur și simplu o referire la altceva în memorie.
+
+05:34.690 --> 05:42.070
+Și vom folosi aceste cunoștințe în videoclipul următor pentru a crea structura noastră de date a listei.
+
+05:42.290 --> 05:43.040
+Voi vedea în următorul.

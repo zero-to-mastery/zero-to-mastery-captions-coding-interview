@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.030 --> 00:08.340
+Ok ok In realtà sto iniziando con un po 'di trucco qui la ricorsione di
+
+00:08.340 --> 00:13.980
+cui parleremo nei prossimi due video non è tecnicamente un algoritmo.
+
+00:14.050 --> 00:19.870
+È più che altro un concetto che useremo in questa sezione del Corso
+
+00:19.870 --> 00:27.350
+per scrivere degli algoritmi davvero interessanti quando entriamo nell'ordinamento e nella ricerca attraverso un albero di ricerca binario.
+
+00:27.370 --> 00:30.040
+Utilizzeremo molto la ricorsione.
+
+00:30.040 --> 00:32.140
+Quindi voglio prepararti.
+
+00:32.390 --> 00:37.040
+E ovviamente è anche un argomento comune nelle interviste.
+
+00:37.040 --> 00:41.950
+In realtà questo è uno degli argomenti più popolari che vorrei dire quando si tratta di intervistare.
+
+00:42.030 --> 00:49.160
+Ora, cos'è la ricorsione quando si cercano file su un computer.
+
+00:49.200 --> 00:54.450
+Ad esempio, se sei sul tuo desktop e vuoi trovare tutti i tuoi file musicali che sei
+
+00:54.690 --> 01:01.470
+MP tre file sul tuo computer, puoi farlo guardando solo una cartella in cui vuoi guardare le cartelle in modo ricorsivo per
+
+01:02.130 --> 01:03.980
+trovare tutta la tua musica.
+
+01:04.020 --> 01:06.600
+Lascia che ti mostri cosa intendo.
+
+01:06.750 --> 01:14.120
+Ho qui i progetti che abbiamo utilizzato per uno dei miei altri corsi ed è un'API back-end a Dakar.
+
+01:14.400 --> 01:19.770
+Ora la vita ha clonato questo repository e ce l'ho proprio qui sul mio desktop.
+
+01:19.870 --> 01:27.230
+Ora, se volessi cercare tra tutti i file di questo progetto, potrei semplicemente digitare un LS per mostrarmi
+
+01:27.290 --> 01:28.120
+i file.
+
+01:28.540 --> 01:35.440
+Ma come vedi in blu qui abbiamo anche delle cartelle che al loro interno hanno anche dei file.
+
+01:35.520 --> 01:38.800
+Come possono anche vedere i file in questa cartella.
+
+01:39.270 --> 01:44.260
+Beh, posso fare qualcosa chiamato LS dash R e R.
+
+01:44.280 --> 01:47.170
+Indovina cosa significa ricorsivamente.
+
+01:47.700 --> 01:55.850
+Se faccio questo e premo Invio guardo che ottengo anche i file all'interno delle cartelle.
+
+01:56.150 --> 02:02.930
+Vedete che ho una cartella di controllo con i file javascript Ho la cartella postgresql con alcuni
+
+02:03.020 --> 02:10.520
+file doc alcuni hanno cancellato tutti i file e in quelli ho anche un'altra cartella che ha file diversi
+
+02:10.520 --> 02:19.800
+ma perché sono stato in grado di elencare gli oggetti in modo ricorsivo il mio computer è andato dentro ogni cartella e stampato i file.
+
+02:19.800 --> 02:29.880
+Quindi cos'è la ricorsione. La ricorsione è quando definisci qualcosa in termini di sé semplicemente è una funzione che
+
+02:29.910 --> 02:34.670
+si riferisce a se stessa all'interno della funzione.
+
+02:34.680 --> 02:35.050
+Tutto ok.
+
+02:35.090 --> 02:36.960
+Non c'è modo che tu abbia capito bene.
+
+02:37.200 --> 02:40.560
+Questa è probabilmente la definizione più confusa di sempre.
+
+02:40.620 --> 02:50.000
+Lascia che ti mostri un esempio se apro la console qui una funzione ricorsiva è una funzione che si riferisce a
+
+02:50.000 --> 02:51.090
+se stessa.
+
+02:51.410 --> 02:54.340
+Quindi posso creare una funzione chiamata diciamo inizio
+
+02:57.750 --> 02:59.680
+e questa funzione è ricorsiva.
+
+02:59.700 --> 03:04.000
+Se mi riferisco a se stesso al suo interno.
+
+03:04.200 --> 03:09.870
+Proviamo ancora una volta se dico start qui.
+
+03:10.880 --> 03:20.200
+Questa è una funzione ricorsiva perché quando questa funzione viene eseguita chiamerà se stessa ed eseguirà nuovamente.
+
+03:20.240 --> 03:26.420
+Il problema con la ricorsione e il motivo per cui le persone lo trovano così difficile è che si tratta di un
+
+03:26.420 --> 03:30.230
+argomento intimidatorio quando le persone iniziano a parlare di applicazioni matematiche e teoriche.
+
+03:30.350 --> 03:36.240
+Invece concentriamoci qui su come la ricorsione ci aiuta a risolvere i problemi.
+
+03:36.410 --> 03:43.590
+La ricorsione è davvero buona per le attività che hanno attività secondarie ripetute per farlo.
+
+03:43.640 --> 03:48.110
+È come quando guardavamo le cartelle all'interno di questo progetto.
+
+03:48.110 --> 03:54.410
+E la ragione della ricorsione è così importante e la ragione per cui ne parlo prima
+
+03:54.410 --> 04:01.940
+in questa sezione, prima di immergerci in tutti gli altri algoritmi, è che questo concetto verrà usato negli algoritmi
+
+04:02.120 --> 04:08.090
+di ricerca e ordinamento di cui parleremo per esempio attraversare un albero se ci pensi
+
+04:08.360 --> 04:12.960
+sono semplicemente gli stessi compiti che facciamo più e più volte.
+
+04:13.430 --> 04:18.830
+Ricorda quando costruiamo la nostra struttura di dati dell'albero nel nostro albero di ricerca binario.
+
+04:19.400 --> 04:22.350
+E ti ho dato una piccola funzione alla fine.
+
+04:23.190 --> 04:29.940
+Chiamato traversata che ci ha permesso di stampare il nostro albero in modo da poter verificare la nostra risposta.
+
+04:30.940 --> 04:35.240
+Se guardiamo più da vicino, vediamo che stiamo usando la ricorsione qui.
+
+04:35.320 --> 04:44.120
+Ho una funzione trasversale che si chiama dentro di te e questo è qualcosa che dimostreremo molto quando
+
+04:44.120 --> 04:48.500
+parliamo di ricerca e ordinamento nelle prossime sezioni.
+
+04:48.500 --> 04:50.840
+La ricorsione è ovunque.
+
+04:50.840 --> 04:57.760
+Quando facciamo DOM traversal su un sito Web se andiamo a elementi qui quando facciamo questa traversal
+
+04:57.770 --> 05:07.730
+su di lui tutti i document object model stiamo usando la ricorsione in javascript quando abbiamo un oggetto nidificato in modo tale da un oggetto
+
+05:07.730 --> 05:09.610
+all'interno di un oggetto.
+
+05:10.040 --> 05:17.930
+Bene, usiamo la ricorsione, ma la chiave per ottenere la ricorsione è capire che non è così complesso.
+
+05:17.930 --> 05:24.900
+Finché lo pratichi un po 'lo vuoi ottenere e superare la gobba iniziale, diventa una
+
+05:24.990 --> 05:25.940
+seconda natura.
+
+05:26.190 --> 05:31.750
+E il mio obiettivo è alla fine di questi video che otterrai ricorsioni.
+
+05:31.820 --> 05:33.200
+Quindi iniziamo.
+
+05:33.710 --> 05:34.620
+Ci vediamo nel prossimo.

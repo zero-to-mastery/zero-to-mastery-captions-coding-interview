@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.490 --> 00:01.900
+Va reveni.
+
+00:02.020 --> 00:03.730
+Cum ați făcut în acest exercițiu.
+
+00:04.530 --> 00:06.180
+Să aruncăm o privire la soluție.
+
+00:06.880 --> 00:09.700
+Să începem cu stive.
+
+00:09.760 --> 00:14.770
+Am spus că, cu stive, ele pot fi implementate folosind tabele sau linkuri legate.
+
+00:14.770 --> 00:20.560
+În acest caz, ambele tabele și liste de lungimi vor funcționa destul de bine în cele din urmă.
+
+00:20.560 --> 00:24.670
+Depinde de ce preferi și de ce sunt prioritățile tale.
+
+00:24.670 --> 00:30.820
+Și, din acest punct, ar trebui să înțelegeți argumentele pro și contra ale matricelor și argumentele pro și contra ale listelor legate.
+
+00:31.000 --> 00:35.420
+Deci nu trebuie să intrăm în detaliu de când am vorbit despre asta înainte.
+
+00:35.560 --> 00:42.970
+Dar un lucru important este faptul că matricele permit ceva numit localitate cache care le face mai rapid
+
+00:42.970 --> 00:50.050
+din punct de vedere tehnic atunci când accesează elementele sale în memorie deoarece sunt chiar alături
+
+00:50.470 --> 00:58.450
+unul de celălalt față de o listă legată care le împrăștie pe tot memoria și, de asemenea, asociate cu ele,
+
+00:58.450 --> 01:01.990
+pentru că trebuie să ne menținem acele indicii.
+
+01:01.990 --> 01:06.360
+Dar, pe de altă parte, au o memorie mai dinamică.
+
+01:06.370 --> 01:07.180
+Dreapta.
+
+01:07.420 --> 01:14.890
+Și putem continua să adăugăm lucruri la listă față de o matrice în care aveți fie o matrice statică, fie o matrice dinamică care
+
+01:14.890 --> 01:17.050
+are o anumită cantitate de memorie.
+
+01:17.050 --> 01:22.900
+Și de îndată ce urmează să ajungă la limită, va trebui să-și dubleze memoria și să
+
+01:23.010 --> 01:25.590
+creeze un nou spațiu undeva în memorie.
+
+01:25.630 --> 01:31.960
+Deci, trebuie să vă gândiți la ce fel de operațiuni aveți de gând să faceți și de ce trebuie să vă decideți prioritățile
+
+01:31.960 --> 01:33.340
+pe care le doriți.
+
+01:33.370 --> 01:40.130
+Dar amândouă ar putea funcționa și vom construi o structură de date stack cu cele două soluții.
+
+01:41.310 --> 01:45.190
+Cues, pe de altă parte, este un răspuns foarte simplu.
+
+01:45.300 --> 01:49.650
+Nu ați vrea niciodată să o construiți cu o matrice sau dacă o faceți.
+
+01:49.810 --> 01:55.710
+În timp ce aceasta nu este neapărat o idee bună și, în mod ideal, doriți să le implementați cu liste legate.
+
+01:55.710 --> 02:02.300
+De ce este bine dacă ții minte că matricele au indicii asociați cu ei.
+
+02:02.310 --> 02:05.190
+Deci, dacă ne-am înfuria aici, atunci avem bucurie.
+
+02:05.490 --> 02:06.980
+Apoi avem sumire.
+
+02:07.200 --> 02:10.750
+Apoi îl avem pe Pavel care intră.
+
+02:10.750 --> 02:19.020
+Q Dacă ar fi fost într-o structură de date matrice și Matt a fost primul în linie și trebuie
+
+02:19.020 --> 02:29.370
+să îl eliminăm pe Matt din coadă. După ce îl scoatem pe Matt acum trebuie să schimbăm indicii, așa că trebuie să mergem
+
+02:29.490 --> 02:34.950
+unul câte unul și să spunem bine Bucuria este acum aici.
+
+02:37.300 --> 02:42.610
+Un indice de zero sumir este că indicele de 1 și Pavel este un indice de 2.
+
+02:42.720 --> 02:45.060
+Și nu este nimic indice de 3.
+
+02:45.120 --> 02:47.120
+Tocmai am mutat pe aceia care să-și facă cursa.
+
+02:47.130 --> 02:57.270
+E un O al unei operațiuni liniare față de ceva asemănător cu o listă legată unde tot ce avem este un pointer
+
+02:57.330 --> 03:06.550
+la cap și poate că avem un pointer la coadă și tot ce trebuie să facem este să spunem cap.
+
+03:06.780 --> 03:15.980
+Ei bine, Matt vrem să înlăturăm Matt și bucuria va fi capul și nimic altceva nu se va schimba.
+
+03:16.730 --> 03:19.860
+Și asta e tot o operațiune sau un Constantin Constantin.
+
+03:20.330 --> 03:24.450
+Sper că puteți obține răspunsul altfel, cel puțin acum știți.
+
+03:24.470 --> 03:29.660
+Și aceasta este o întrebare foarte frecventă a interviului pe care ați putea să o cereți că sperăm că aveți
+
+03:29.660 --> 03:32.090
+un răspuns la acum, dar suficient de vorbit.
+
+03:32.160 --> 03:35.590
+Cred că este timpul să construim aceste structuri de date de la început.
+
+03:36.410 --> 03:38.390
+Voi vedea în următorul videoclip Buh-Bye.

@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.750 --> 00:09.340
+Untuk memecahkan masalah coing, kita perlu mempelajari struktur data dan algoritma ini.
+
+00:09.390 --> 00:10.900
+Tidak terlihat seburuk itu.
+
+00:11.970 --> 00:13.500
+Inilah rahasia besarnya.
+
+00:13.500 --> 00:18.620
+Ada lebih banyak struktur data dalam hal ini dan lebih banyak algoritma daripada ini.
+
+00:19.390 --> 00:26.500
+Tetapi sama seperti ketika Anda belajar bahasa baru Anda tidak membaca kamus dan belajar setiap
+
+00:26.500 --> 00:28.590
+kata dalam kamus itu.
+
+00:28.600 --> 00:34.170
+Dan bahasa itu Sebaliknya Anda fokus untuk dapat berkomunikasi dengan orang lain.
+
+00:34.210 --> 00:37.700
+Anda hanya fokus pada hal-hal yang paling sering digunakan.
+
+00:37.960 --> 00:43.240
+Dan ketika datang ke struktur data dan algoritma ini adalah di mana Anda
+
+00:43.240 --> 00:50.710
+akan diminta dan wawancara karena ini adalah yang paling sering digunakan dan 90 persen dari waktu untuk memecahkan masalah
+
+00:50.710 --> 00:54.100
+yang sangat rumit Anda hanya menggunakan ini sesuatu.
+
+00:54.130 --> 00:55.560
+Tidak terlihat seburuk itu.
+
+00:55.900 --> 01:02.340
+Yang Anda butuhkan adalah keterampilan garis dasar dan perusahaan hanya ingin tahu bahwa Anda sudah siap untuk wawancara dan
+
+01:02.340 --> 01:04.300
+dapat berhasil dalam sistem mereka.
+
+01:05.200 --> 01:10.330
+Banyak orang mengeluh tentang wawancara coding atau wawancara papan tulis dan betapa tidak bergunanya
+
+01:10.330 --> 01:15.880
+mereka karena mereka tidak pernah menggunakan beberapa algoritma atau struktur data ini dalam pekerjaan sehari-hari mereka.
+
+01:17.090 --> 01:21.550
+Tapi mereka hanya cara untuk menyingkirkan orang yang tidak mau bekerja keras.
+
+01:23.040 --> 01:24.720
+Lihatlah ini sebagai keuntungan.
+
+01:24.870 --> 01:27.200
+Tidak banyak orang mengerjakan pertanyaan wawancara mereka.
+
+01:27.300 --> 01:32.220
+Anda akan bekerja lebih keras dari 99 persen orang di luar sana karena Anda tahu
+
+01:32.220 --> 01:36.280
+bahwa mendapatkan pekerjaan yang baik akan berdampak besar pada kehidupan Anda.
+
+01:36.450 --> 01:38.310
+Dan maksud saya itu sebabnya Anda mengambil kursus.
+
+01:38.430 --> 01:42.420
+Dan seperti yang Anda lihat di sini, kabar baiknya adalah bahwa itu tidak sesulit yang Anda kira.
+
+01:42.420 --> 01:49.800
+Anda hanya perlu meluangkan waktu dan upaya Anda dalam hal yang benar selama kami mempelajari struktur data yang benar.
+
+01:49.890 --> 01:54.360
+Kapan dan mengapa menggunakannya bagaimana menerapkannya bagaimana memecahkan masalah dengan mereka.
+
+01:54.360 --> 02:02.580
+Dan sama dengan algoritma dan kami menggabungkannya dengan lembar contekan kami yang akan saya buat untuk Anda ketika kami membandingkan kode
+
+02:02.580 --> 02:04.520
+kami yang dapat dibaca.
+
+02:04.680 --> 02:11.780
+Itu adalah memori efisien dan efisien waktu menggunakan big-O antara keduanya.
+
+02:12.060 --> 02:16.460
+Itu semua wawancara, hanya itu yang diminta wawancara oleh pengkodean.
+
+02:16.920 --> 02:24.300
+Jika kita kembali ke online kita selama kursus kita sekarang masuk ke bagian wawancara teknis.
+
+02:24.630 --> 02:29.790
+Dan ketika saya klik di sini akan terlihat luar biasa pada awalnya dan kita
+
+02:29.790 --> 02:32.810
+akan membahas diagram ini sehingga semuanya masuk akal
+
+02:32.880 --> 02:37.310
+Kita akan berbicara tentang berbagai struktur data yang kita miliki.
+
+02:37.410 --> 02:38.780
+Mari kita perbesar sedikit di sini.
+
+02:39.790 --> 02:44.620
+Anda dapat melihat kita akan berbicara tentang susunan susunan pohon dan grafik dan banyak lagi.
+
+02:44.620 --> 02:48.640
+Kita akan berbicara tentang O besar dari masing-masing struktur data ini.
+
+02:48.700 --> 02:54.610
+Kita akan berbicara tentang algoritma yang berbeda kapan harus menggunakan apa dan seperti yang saya katakan ini
+
+02:54.640 --> 03:01.030
+akan terlihat luar biasa pada awalnya, tetapi kita akan melalui langkah demi langkah ini sehingga pada akhirnya semua ini
+
+03:01.030 --> 03:02.450
+masuk akal bagi Anda.
+
+03:02.470 --> 03:10.650
+Kami juga akan menggunakan lembar contekan di sini untuk membantu kami memecahkan masalah pengkodean ini.
+
+03:10.690 --> 03:15.060
+Sekarang di lembar contekan ini kita sudah membahas tiga pilar kode yang baik.
+
+03:15.070 --> 03:21.070
+Kami sudah berbicara tentang keterampilan apa yang dicari pewawancara tetapi kami
+
+03:21.400 --> 03:23.770
+belum membicarakan bagian ini.
+
+03:23.900 --> 03:25.870
+Jadi mari kita mulai dengan bagian ini di video berikutnya.

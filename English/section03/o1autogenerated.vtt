@@ -1,0 +1,190 @@
+WEBVTT
+
+00:01.540 --> 00:02.710
+Welcome back.
+
+00:02.710 --> 00:06.500
+We just learned our first notation Oh.
+
+00:06.580 --> 00:13.850
+And or linear time and we see here that we have a few others remaining.
+
+00:14.240 --> 00:16.690
+So let's talk about the next one.
+
+00:16.730 --> 00:22.640
+Another very common Big-O notation that you're going to see what happens if we have a function like
+
+00:22.640 --> 00:23.230
+this.
+
+00:24.690 --> 00:35.950
+A function that says compressed first box that receives an array of boxes and this function simply has
+
+00:35.950 --> 00:39.160
+console dialog boxes zero.
+
+00:39.220 --> 00:45.520
+So that is it's logging out just the first item in the box.
+
+00:45.520 --> 00:54.750
+What would you say the Big O of this function is how many steps or operations does this function take.
+
+00:54.750 --> 01:04.400
+If the boxes increase from 0 to maybe 10 to maybe 100 to 100000 what would happen here.
+
+01:04.710 --> 01:11.890
+Ready for the answer well this is what we call constant time.
+
+01:11.950 --> 01:20.050
+It's an O of one that is no matter how many times the boxes increase year or however many boxes we have
+
+01:20.410 --> 01:25.440
+we're always just grabbing the first item in the array.
+
+01:25.480 --> 01:33.050
+If we look at this with an example if we had an array of Buxus year and we run it through the function
+
+01:33.200 --> 01:36.830
+that just takes the first item in the array.
+
+01:37.750 --> 01:43.510
+Well the number of operations is one no matter how big this the number of boxes are.
+
+01:43.510 --> 01:46.400
+We're only doing one thing.
+
+01:46.520 --> 01:49.660
+So it's a constant time.
+
+01:49.930 --> 01:59.580
+If we look at this on a graph if we have one element or one box we do one operation.
+
+01:59.780 --> 02:05.260
+If we have three again we still do just one because we're just grabbing the first item in the array.
+
+02:05.360 --> 02:08.220
+If we have let's say five.
+
+02:08.240 --> 02:11.600
+Same thing Seven same thing.
+
+02:11.600 --> 02:16.460
+And what about nine again same number of operation.
+
+02:16.460 --> 02:21.030
+And this is I don't know if you can see the line but this is just constant time.
+
+02:21.050 --> 02:26.720
+It's not linear time like it was where it increases and increases with the number of operations the
+
+02:26.720 --> 02:29.900
+number of operations just stays flat.
+
+02:32.840 --> 02:36.230
+But I have a question here what if we do something different.
+
+02:36.350 --> 02:38.020
+What if we do something like this.
+
+02:39.400 --> 02:47.070
+What if we have a function that says function GRABBE bar log.
+
+02:47.070 --> 02:47.760
+First
+
+02:51.110 --> 03:04.710
+two boxes and this takes an array of boxes and is going to console or log the first item in the array
+
+03:06.110 --> 03:08.180
+and it's going to console dialog.
+
+03:08.300 --> 03:15.200
+Also the second item in the array.
+
+03:15.350 --> 03:17.740
+How do we measure the big-O of this function.
+
+03:18.870 --> 03:25.770
+Well let me just common this solve for a second because we don't need this right now and just create
+
+03:25.880 --> 03:36.050
+an array called boxes and this boxes has to say 0 1 2 3 4 and 5.
+
+03:36.120 --> 03:47.090
+So 5 items or 6 in this case because we include 0 and if we run this function log first two boxes and
+
+03:47.090 --> 03:51.220
+we give it the boxes array and we click Run.
+
+03:51.220 --> 03:54.890
+Here we have 0 and 1.
+
+03:54.890 --> 04:00.470
+So we've logged this one and then this one what's the number of operations here.
+
+04:01.520 --> 04:09.030
+Well we have all of one that is one operation here.
+
+04:09.030 --> 04:20.890
+And then we have over here so of one again each time this function runs two operations.
+
+04:20.930 --> 04:31.730
+So this function in total is actually running 0 of two operations every time.
+
+04:31.730 --> 04:39.470
+So no matter how big the boxes get the number of operations here is going to be too if we look at this
+
+04:39.470 --> 04:49.260
+on a graph instead of having all of one like we have before we have o of two and then if we had three
+
+04:49.260 --> 04:52.210
+operations it will just be 0 or 3.
+
+04:52.290 --> 04:56.340
+But overall it's still a flat line.
+
+04:56.530 --> 04:59.650
+And this is something we're going to get into later on.
+
+04:59.650 --> 05:08.920
+But when it comes to costs and time we don't care about the nitty gritty of one of two or three of even
+
+05:08.940 --> 05:10.020
+a hundred.
+
+05:10.240 --> 05:17.060
+We round this down to just simply saying oh of one that is.
+
+05:17.170 --> 05:18.860
+We have constant time.
+
+05:18.880 --> 05:22.050
+It's a flat line in terms of scalability.
+
+05:22.120 --> 05:28.520
+It doesn't matter how big our inputs are we're always going to do the constant amount of time on a function
+
+05:30.840 --> 05:37.740
+and if we look at this on a graph we see that of one over here is the dark green area.
+
+05:37.780 --> 05:39.070
+It's excellent.
+
+05:39.070 --> 05:42.480
+We love all one because it's very scalable right.
+
+05:42.520 --> 05:44.630
+It doesn't matter how many elements we have.
+
+05:44.640 --> 05:50.750
+It's always going to run the same predictability when it comes to computing is very very nice and all
+
+05:50.790 --> 05:56.120
+of one is definitely excellent OK.
+
+05:56.220 --> 06:04.810
+So we've learned about linear time all of and and then costs and time oh of one.
+
+06:04.970 --> 06:09.120
+Let's do a bit of a fun exercise to really solidify our knowledge here.

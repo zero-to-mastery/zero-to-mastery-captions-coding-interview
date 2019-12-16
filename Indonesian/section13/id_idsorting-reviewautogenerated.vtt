@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.660 --> 00:09.970
+Bagian lain selesai dan kami membahas pengurutan algoritma pengurutan khusus di bagian ini sebagian besar waktu ketika
+
+00:09.970 --> 00:15.350
+berbicara tentang pengurutan algoritma kita akan berbicara tentang semua dan log.
+
+00:15.370 --> 00:20.770
+Dan kami belajar bahwa ada banyak algoritma penyortiran dan kami membahas yang utama.
+
+00:20.770 --> 00:22.240
+Mereka lebih sering digunakan.
+
+00:22.450 --> 00:28.120
+Jika Anda benar-benar bersemangat dengan topik ini dan Anda menemukan ini menarik, maka itu bagus untuk Anda.
+
+00:28.150 --> 00:29.330
+Anda salah satu dari sedikit.
+
+00:29.410 --> 00:37.060
+Saya mendorong Anda untuk mencari berbagai algoritma penyortiran tetapi untuk meninjau quicksort yang ingin Anda gunakan ketika kinerja
+
+00:37.450 --> 00:43.720
+kasus rata-rata Anda lebih penting daripada kinerja kasus terburuk karena quicksort memungkinkan kami untuk
+
+00:43.720 --> 00:46.280
+mengurutkan dalam O dan masuk.
+
+00:46.420 --> 00:51.490
+Tetapi dalam kasus terburuk semacam oven O menggabungkan squit.
+
+00:51.490 --> 00:59.690
+Di sisi lain itu bagus karena selalu dari dan masuk dan itu juga stabil yang
+
+00:59.690 --> 01:07.520
+berarti selalu memberikan hasil yang sama jika dua item sama meskipun kompleksitas ruang sedikit
+
+01:07.520 --> 01:10.460
+lebih tinggi daripada quicksort.
+
+01:10.550 --> 01:12.980
+Ini pasti jenis yang berguna.
+
+01:13.030 --> 01:19.630
+Kami juga berbicara tentang jenis pemilihan jenis penyisipan dan jenis gelembung.
+
+01:19.630 --> 01:24.250
+Itu menyenangkan ketika Anda melakukan sesuatu yang cepat dan kotor dan Anda hanya ingin bereksperimen dengan
+
+01:24.250 --> 01:24.740
+menyortir.
+
+01:24.790 --> 01:31.690
+Tetapi dalam kehidupan nyata Anda tidak akan menggunakannya dan kemungkinan besar dalam kehidupan nyata Anda menggunakan
+
+01:31.690 --> 01:38.470
+kerangka kerja atau bahasa atau perpustakaan menyortir algoritma keuntungan mereka adalah bahwa mereka cukup mudah
+
+01:38.480 --> 01:44.340
+diimplementasikan di Cote dan selama wawancara Anda mungkin mengatakan sesuatu seperti ini.
+
+01:44.410 --> 01:50.740
+Dalam kasus-kasus langka yang mereka minta Anda untuk menerapkan algoritma pengurutan Anda akan mengatakan dengan baik karena kami
+
+01:50.740 --> 01:57.220
+memiliki batasan waktu saya suka menggunakan sesuatu yang naif dan tidak efisien seperti bubble sort yang lambat dalam
+
+01:57.220 --> 02:02.170
+kehidupan nyata alih-alih menerapkan sesuatu seperti merge sort jika tidak apa-apa denganmu karena.
+
+02:02.380 --> 02:08.410
+Karena kita dapat berasumsi bahwa sort adalah sesuatu yang dapat kita terapkan dengan perpustakaan atau cukup mudah
+
+02:08.410 --> 02:14.540
+dengan dokumentasi atau Anda dapat mengatakan sesuatu seperti kita dapat menggunakan sortir gabungan untuk membagi dan menaklukkan
+
+02:14.630 --> 02:16.200
+kode agar lebih efisien.
+
+02:16.400 --> 02:21.620
+Dan dengan cara ini Anda menunjukkan kepada pewawancara bahwa ya Anda bisa menerapkan penyortiran seperti penyortiran gelembung
+
+02:21.620 --> 02:26.690
+tetapi Anda juga tahu tentang hal-hal seperti Merceron untuk membuatnya lebih efisien tanpa harus benar-benar menerapkannya.
+
+02:28.330 --> 02:34.870
+Jadi pada akhir semua ini saya harap Anda sekarang memahami tradeoffs di mana
+
+02:34.900 --> 02:42.970
+Anda dapat melihat algoritma pengurutan dan memutuskan berdasarkan stabilitas kecepatan dan keterbacaan mereka apakah input sudah diurutkan atau
+
+02:42.970 --> 02:44.000
+hampir diurutkan.
+
+02:44.050 --> 02:50.090
+Seberapa besar input yang Anda dapat membuat keputusan yang tepat tentang penyortiran.
+
+02:50.220 --> 02:51.620
+Saya akan melihat yang berikutnya.
+
+02:51.950 --> 02:52.190
+Bob

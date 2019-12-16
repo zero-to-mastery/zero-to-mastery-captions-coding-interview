@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.860 --> 00:02.110
+Witamy spowrotem.
+
+00:02.120 --> 00:04.550
+Jaka była metoda usuwania.
+
+00:04.560 --> 00:06.460
+To nie było trudne.
+
+00:06.500 --> 00:10.220
+Teraz nie oczekuję, że będziesz w stanie zdobyć to nawet dla mnie.
+
+00:10.220 --> 00:15.670
+Zajęło to sporo czasu, aby to zadziałało, a ja dam ci kolejną szansę na jego ukończenie.
+
+00:15.680 --> 00:22.310
+Jeśli chcesz, mam tutaj zminimalizowany kod, aby pokazać Ci instrukcje if i kroki, które
+
+00:22.310 --> 00:22.890
+podejmuję.
+
+00:23.090 --> 00:27.580
+Więc zawsze możesz wstrzymać ten film, ale pozwól mi przejść przez kolejne kroki.
+
+00:27.590 --> 00:32.550
+Zamierzam wziąć i zwykle lubię kodować krok po kroku.
+
+00:32.720 --> 00:41.210
+Ale jeśli chodzi o tę funkcję, naprawdę bardzo trudno jest przejść krok po kroku, gdy nie kodujesz siebie lub nie masz
+
+00:41.210 --> 00:44.340
+schematu, który można by wskazać i pokazać.
+
+00:44.330 --> 00:48.350
+Więc zostawię ci kod, abyś mógł go zaimplementować samodzielnie.
+
+00:48.350 --> 00:55.070
+I tak naprawdę zawsze zalecam wyschnięcie kawałkiem papieru, aby zrozumieć, co się dzieje.
+
+00:55.080 --> 01:01.280
+W przeciwnym razie, jeśli po prostu to koduję, byłoby to 30-minutowe wideo, w którym się
+
+01:01.400 --> 01:08.340
+nudzisz, a potem będziesz się dobrze bawić z tym strukturami i nie chcemy tego, więc wszystko, co
+
+01:08.400 --> 01:15.030
+robimy, jest dobre, jeśli usuniemy sprawdzimy, czy coś jest w katalogu głównym, jeśli nie ma, gdy
+
+01:15.060 --> 01:22.100
+drzewo jest puste, nie ma nic do usunięcia, zwrócimy wartość false, w przeciwnym razie najpierw złapiemy bieżący węzeł
+
+01:22.340 --> 01:29.180
+jako trasę gwiazdy, a następnie zrób tutaj coś nowego, czego jeszcze nie widzieliśmy, zanim zadeklarujemy nową zmienną
+
+01:29.180 --> 01:35.000
+o nazwie Notatka nadrzędna, a być może zauważyłeś, że to ja ją kodowałem.
+
+01:35.450 --> 01:42.840
+Potrzebujemy odniesienia do rodzica, ponieważ jeśli usuniemy stąd coś takiego, jak 14.
+
+01:43.430 --> 01:52.130
+Cóż, zanim dotrzemy do jednego Geba, mamy referencję 14, aby po przejściu do jednej mamy dostęp do 30, abyśmy
+
+01:52.130 --> 02:00.660
+mogli połączyć 30 z jedną, więc jeśli wrócimy tutaj teraz, gdy mam zmienną węzła nadrzędnego i mam moja
+
+02:00.660 --> 02:09.800
+pętla, aby sprawdzić, czy wartość jest mniejsza niż bieżący węzeł, w którym to przypadku pójdę w lewo i to powinno
+
+02:09.800 --> 02:10.820
+być znajome.
+
+02:10.820 --> 02:18.230
+Ale tym razem śledzę również węzeł nadrzędny, a jeśli nie, musimy iść w prawo,
+
+02:18.360 --> 02:23.540
+a następnie w prawo, ale także śledzić węzeł nadrzędny.
+
+02:23.570 --> 02:31.640
+To jest interesująca część, w której przeglądamy wszystko tutaj i nic nie jest zbyt szalone, dopóki
+
+02:31.640 --> 02:33.860
+nie dojdziemy do meczu.
+
+02:33.860 --> 02:41.380
+Gdy dojdziemy do dopasowania i znajdziemy aktualny węzeł, który chcemy usunąć, mamy dopasowanie.
+
+02:41.480 --> 02:45.490
+Musimy zabrać się do pracy i mamy tutaj trzy opcje.
+
+02:45.550 --> 02:56.360
+Pierwszą opcją jest to, że bieżący węzeł nie ma odpowiedniego elementu podrzędnego, jeśli bieżący węzeł nie ma odpowiedniego elementu podrzędnego.
+
+02:56.430 --> 03:01.440
+Weźmy 55 jako przykład lub zróbmy 14 jako przykład.
+
+03:01.620 --> 03:03.450
+Jeśli usunę 14, zobaczysz,
+
+03:10.660 --> 03:19.090
+że usunęliśmy 14, ale zachowaliśmy odniesienie do węzła nadrzędnego i po prostu przenieśliśmy jeden w
+
+03:19.330 --> 03:20.360
+górę.
+
+03:20.500 --> 03:25.330
+To było miłe i łatwe, tutaj z opcją 1.
+
+03:25.440 --> 03:32.530
+To naprawdę wszystko, co robimy, najpierw upewniamy się, że węzeł nadrzędny nie jest równy nie.
+
+03:32.530 --> 03:38.710
+Oznacza to, że modyfikujemy węzeł główny, w przeciwnym razie cenna zmienna główna zostanie
+
+03:38.710 --> 03:48.430
+zaktualizowana do naszego obecnego węzła, w przeciwnym razie, jeśli rodzic jest większy niż bieżąca wartość, ustaw bieżące lewe dziecko jako dziecko lub
+
+03:48.430 --> 03:55.330
+rodzica, jeśli rodzic jest mniejszy niż bieżąca wartość, uczyń lewe dziecko lub prawe dziecko rodzica.
+
+03:55.450 --> 04:01.150
+Znów wiem, że jest to mylące i jak powiedziałem, jest to coś, co może być konieczne.
+
+04:01.150 --> 04:06.280
+Zostawię tu dla ciebie komentarze, abyś mógł się z tym bawić i bawić się wizualnie,
+
+04:06.280 --> 04:08.150
+aby zrozumieć, co się dzieje.
+
+04:09.520 --> 04:14.460
+Więc to pierwsza opcja, jeśli tak jest, to zrób to.
+
+04:14.560 --> 04:23.140
+Jeśli właściwe dziecko, jeśli mamy właściwe dziecko, ale ich prawe dziecko nie ma lewego dziecka, znajdźmy taki
+
+04:23.160 --> 04:24.070
+przykład.
+
+04:24.100 --> 04:27.810
+Mamy więc właściwe dziecko, które nie ma lewego dziecka.
+
+04:27.840 --> 04:29.250
+To jest 54.
+
+04:29.320 --> 04:31.810
+Co się stanie, gdy usuniemy
+
+04:35.190 --> 04:36.110
+50,
+
+04:39.270 --> 04:51.900
+klikam ten 54 zostaje usunięty i po prostu umieszczamy teraz 55 zamiast 54, więc w takim przypadku ponownie sprawdzamy, czy węzeł nadrzędny
+
+04:51.900 --> 04:53.810
+nie jest pusty.
+
+04:54.330 --> 04:56.240
+Tak więc musimy zastąpić węzeł główny.
+
+04:56.430 --> 05:05.250
+W przeciwnym razie wykonamy podobne kroki, aby ponownie przypisać węzeł.
+
+05:05.260 --> 05:07.720
+Co z ostatnią opcją.
+
+05:07.720 --> 05:09.670
+Prawe dziecko, które ma lewe dziecko.
+
+05:10.150 --> 05:13.630
+Więc jeśli tu pójdziemy, mamy odpowiednie dziecko.
+
+05:13.630 --> 05:17.400
+Powiedzmy, że jeśli chcemy usunąć 30, które ma pozostawione dziecko 38.
+
+05:17.470 --> 05:19.480
+Więc jeśli chcemy usunąć
+
+05:23.060 --> 05:23.660
+30,
+
+05:27.150 --> 05:37.040
+a on pójdzie, nadal będziemy trawersować, aż dojdziemy do lewej, a potem, och, chłopcze, wykonujemy trochę magii, będzie to wymagać od ciebie przeczytania
+
+05:37.040 --> 05:42.890
+kodu i zostawiłem kilka miłych komentarzy dla tak, aby miało to sens, ale
+
+05:42.890 --> 05:45.440
+zasadniczo znajdujemy lewą prawą stronę dziecka.
+
+05:45.440 --> 05:55.310
+Większość dzieci i przechodzi przez to zmieniając subdrzewa drzewa, jak powiedziałem, jest to dość zaawansowane i
+
+05:55.310 --> 05:57.800
+naprawdę trudne do wyjaśnienia.
+
+05:57.800 --> 06:03.920
+Tylko na ekranie, więc polecam, jeśli nie możesz uzyskać funkcji usuwania, aby przejść przez ten krok
+
+06:03.920 --> 06:05.140
+po kroku.
+
+06:05.210 --> 06:10.850
+Łączę się z kodem bezpośrednio w zasobach, abyś mógł się tym pobawić i sprawdzić,
+
+06:11.240 --> 06:14.770
+czy działa, ale sprawdzić, czy usunięcie rzeczywiście działa.
+
+06:14.900 --> 06:23.240
+Powiedzmy, że usunę zero z tej listy, jeśli kliknę Uruchom, nie jestem zdefiniowany, ponieważ nie
+
+06:23.240 --> 06:34.720
+mam nic do usunięcia, ale jeśli usunę, powiedzmy 170 i kliknę Uruchom, spełniam się i jeśli przejdę przez naszą listę
+
+06:34.720 --> 06:39.300
+i spróbuję złapać nasze drzewo, otwórz narzędzia
+
+06:45.480 --> 06:58.140
+programistyczne wklej ten PRESENTER A teraz, jeśli przejdziemy do 9 20 i zobaczymy, że właściwy węzeł jest teraz pusty tam, gdzie powinno być
+
+06:58.280 --> 06:59.010
+170.
+
+06:59.060 --> 07:05.280
+Jesteśmy w stanie usunąć węzeł z powodzeniem, na razie wystarczy.
+
+07:05.430 --> 07:08.280
+Jeśli chcesz, możesz pobawić się metodą usuwania.
+
+07:08.280 --> 07:10.480
+Możesz spróbować samemu kodować.
+
+07:10.530 --> 07:12.590
+To zajmie trochę czasu.
+
+07:12.690 --> 07:13.700
+Wiem, że ciągle to powtarzam.
+
+07:13.700 --> 07:20.280
+Zachęcam, abyś nie zawiódł się, jeśli usunięta metoda była naprawdę trudna.
+
+07:20.400 --> 07:24.870
+Naprawdę nie chciałem tego włączać do kursu, ponieważ jest on zbyt skomplikowany i nie jest czymś,
+
+07:24.870 --> 07:27.470
+o co chciałbyś się martwić, jeśli chodzi o wywiad.
+
+07:27.960 --> 07:32.910
+Ale pomyślałem, że niektórzy z was mogą być tym zainteresowani, po prostu upewnijcie się, że nie jest to
+
+07:32.910 --> 07:36.100
+coś, co was zniechęci, o ile będziecie mogli wstawiać i wyszukiwać.
+
+07:36.240 --> 07:38.380
+To jest ważne dla wywiadów.
+
+07:38.490 --> 07:40.080
+Zobaczę w następnym.
+
+07:40.100 --> 07:40.380
+Konstabl.

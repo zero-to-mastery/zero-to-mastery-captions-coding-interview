@@ -1,0 +1,178 @@
+WEBVTT
+
+00:01.310 --> 00:02.560
+Selamat datang kembali.
+
+00:02.570 --> 00:09.190
+Mari kita cepat berbicara tentang sesuatu pointer yang Anda akan banyak mendengar dalam
+
+00:09.190 --> 00:11.180
+topik ilmu komputer.
+
+00:11.340 --> 00:20.200
+Ini referensi ke tempat lain di memori atau objek lain atau node lain dan dalam javascript
+
+00:20.200 --> 00:24.520
+kita dapat menunjukkannya dengan sesuatu seperti ini.
+
+00:24.710 --> 00:36.640
+Jika saya memiliki objek, sebut saja objek yang merupakan objek sederhana yang memiliki true.
+
+00:36.900 --> 00:38.270
+Dan saya
+
+00:41.020 --> 00:48.800
+akan mengomentari ini dan sekarang kita melakukan sesuatu seperti Konst objek 2 sama dengan objek 1.
+
+00:48.910 --> 00:57.040
+Kami baru saja membuat pointer referensi ke objek dan itulah pointer.
+
+00:57.040 --> 01:00.150
+Ini hanya referensi di sini.
+
+01:00.190 --> 01:02.920
+Saya tidak menyalin objek.
+
+01:02.980 --> 01:05.470
+Saya tidak mengatakan objek 1 sama dengan Akos.
+
+01:05.470 --> 01:06.100
+Benar.
+
+01:06.100 --> 01:16.170
+Dan juga menciptakan lokasi lain dalam memori yang mengatakan A sama dengan benar dalam memori ketika kita melihat ram kita.
+
+01:16.340 --> 01:18.170
+Hanya ada satu entri.
+
+01:18.280 --> 01:29.260
+A sama dengan true dan kedua objek ingin objek menunjuk ke lokasi yang sama dalam memori untuk menunjukkan kepada Anda bahwa ini adalah
+
+01:29.260 --> 01:30.090
+kasusnya.
+
+01:30.100 --> 01:32.110
+Mari kita hanya
+
+01:35.610 --> 01:39.590
+menghibur objek log 1 dan kemudian konsol dialog.
+
+01:41.060 --> 01:43.090
+Objek untuk.
+
+01:43.370 --> 01:45.800
+Dan supaya kita jelas tentang ini.
+
+01:45.800 --> 01:55.690
+Saya akan mengatakan satu di sini dan ini akan menjadi dua sehingga jika saya menjalankan ini saya memiliki kedua ECOs untuk true
+
+01:55.940 --> 02:07.380
+Tetapi jika saya mengubah objek A atau mengakses properti di objek satu dan saya katakan bahwa itu akan sama dengan Booya dan saya
+
+02:07.800 --> 02:16.860
+menjalankan tampilan ini bahwa kedua objek Twan objek untuk diubah karena saya telah membuat pointer di sini mengatakan
+
+02:17.100 --> 02:21.530
+saya keberatan akan referensi objek 1 seperti itu.
+
+02:22.730 --> 02:26.490
+Dan keduanya menunjuk ke lokasi yang sama dalam memori.
+
+02:27.600 --> 02:29.680
+Dan itulah gunanya pointer.
+
+02:29.730 --> 02:38.540
+Itu hanya mengatakan Hei ini di mana itu dalam memori dan ketika kita melihat contoh daftar
+
+02:38.540 --> 02:51.090
+tautan kita ketika kita menghapus katakanlah sebuah simpul pada indeks dua dan I Hago satu dua kita menghapus itu dan itu hanya menghilang
+
+02:51.240 --> 02:54.120
+dari memori bagaimana cara kerjanya.
+
+02:54.500 --> 03:04.930
+Nah jika kita kembali ke contoh kita, saya bisa menghapus objek 1 dan saya akan mengubahnya untuk memimpin
+
+03:04.950 --> 03:09.330
+karena kita akan mengubah nilai-nilai di sini.
+
+03:09.630 --> 03:11.100
+Klik Phi menjalankan.
+
+03:12.000 --> 03:17.060
+Saya mendapatkan referensi objek error Twan tidak didefinisikan pada baris 14.
+
+03:17.250 --> 03:19.220
+Itu tepat di sini.
+
+03:19.500 --> 03:19.820
+BAIK.
+
+03:19.830 --> 03:23.750
+Jadi mari kita komentari ini karena objek 1 tidak ada lagi.
+
+03:23.930 --> 03:26.290
+Reichlich lari.
+
+03:26.490 --> 03:34.900
+Saya masih memiliki objek sebagai Booya meskipun kami menghapus objek 1.
+
+03:35.060 --> 03:43.940
+Apa yang terjadi di sini dengan baik cara kerjanya di sebagian besar bahasa pemrograman adalah bahwa
+
+03:43.940 --> 03:53.720
+komputer kita akan menghapus memori yang sedang digunakan dan karena melihat objek itu masih merujuk lokasi ini dalam memori,
+
+03:53.720 --> 03:58.950
+nilai ini dalam memori ini tidak akan menghapusnya .
+
+03:59.810 --> 04:05.650
+Karena masih ada pointer ke lokasi dan memori ini.
+
+04:05.960 --> 04:08.410
+Dan ini adalah bagaimana hal-hal dihapus.
+
+04:08.420 --> 04:16.390
+Dalam bahasa seperti javascript, ini adalah apa yang Anda sebut pengumpulan sampah, di mana segera setelah
+
+04:17.560 --> 04:30.150
+kami mengatakan objek ke titik atau objek dua sama dengan halo sekarang dan saya klik Jalankan objek sekarang, di mana Anda mereferensikan ruang memori yang
+
+04:30.450 --> 04:36.870
+memiliki nilai yang sama dengan yang benar sekarang hanya cukup Sebuah benang.
+
+04:36.900 --> 04:43.910
+Jadi karena javascript adalah sampah yang dikumpulkan, maka memori dikelola secara otomatis.
+
+04:44.130 --> 04:50.040
+Ini secara otomatis mengumpulkan dan menghapus sampah karena tidak ada yang menunjuk ke sana.
+
+04:51.590 --> 04:59.090
+Namun ada bahasa tingkat rendah di mana Anda harus mengelola memori Anda sendiri dan Anda harus menghapus
+
+04:59.090 --> 05:03.220
+ini secara manual pada item yang dirujuk dalam memori.
+
+05:03.830 --> 05:12.170
+Dan ini dapat menyebabkan banyak masalah di mana Anda meninggalkan memori yang tidak digunakan dalam memori yang merupakan
+
+05:12.230 --> 05:13.770
+sumber daya berharga.
+
+05:13.970 --> 05:20.030
+Tapi kemudian ada juga manfaat dengan bahasa yang dikumpulkan tanpa sampah di mana Anda bisa mengelola memori Anda
+
+05:20.030 --> 05:23.960
+sendiri sehingga Anda dapat membuat hal-hal yang sangat cepat menjadi efisien.
+
+05:23.970 --> 05:24.730
+Baiklah.
+
+05:24.870 --> 05:34.340
+Saya pikir itu cukup untuk pointer pointer hanyalah referensi ke sesuatu yang lain dalam memori.
+
+05:34.690 --> 05:42.070
+Dan kami akan menggunakan pengetahuan ini dalam video kami berikutnya untuk membuat struktur data daftar tertaut pertama kami.
+
+05:42.290 --> 05:43.040
+Saya akan melihat yang berikutnya.

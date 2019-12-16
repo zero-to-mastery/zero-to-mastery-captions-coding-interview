@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.960 --> 00:04.100
+Bentornato mentre si gioca con Visual Go.
+
+00:04.100 --> 00:10.870
+Hai notato un problema con gli alberi di ricerca binari se non lascia che ti mostri qualcosa.
+
+00:10.870 --> 00:15.960
+Diciamo che continuo a inserire qui
+
+00:20.720 --> 00:24.070
+diciamo 86 e
+
+00:28.420 --> 00:37.260
+poi mentre sto andando inserirò anche 90 e infine inserirò novantanove.
+
+00:37.380 --> 00:38.050
+Tutto ok.
+
+00:38.250 --> 00:41.160
+Qual è il problema con questo.
+
+00:41.160 --> 00:49.710
+Bene, puoi immaginare una situazione in cui abbiamo questo albero di ricerca binaria davvero squilibrato in cui tutti i nodi continuano ad essere
+
+00:49.710 --> 00:53.250
+aggiunti a destra a destra a destra a destra.
+
+00:54.210 --> 00:59.970
+Se immaginiamo di ritenere e avere questa sezione tutto questo all'improvviso si trasforma in un
+
+00:59.970 --> 01:04.780
+elenco di collegamenti in cui stiamo solo ripetendo ciclicamente ogni singola nota.
+
+01:05.000 --> 01:08.180
+Questo è un grosso problema che viene fornito con alberi di ricerca binari.
+
+01:08.240 --> 01:13.600
+Cioè puoi avere alberi di ricerca bilanciati come quello qui.
+
+01:13.610 --> 01:21.920
+Questo ci dà questo registro e le prestazioni ma poi ha anche quelli sbilanciati in cui si trasforma in una
+
+01:21.920 --> 01:30.470
+lunga lista collegata dove invece di essere in grado di fare il registro e le operazioni ora devi passare attraverso ogni
+
+01:30.530 --> 01:39.680
+singola nota e cercare e le ricerche diventano o evento o tempo lineare e hai persino visto nella nostra dimostrazione visiva andare quanto
+
+01:39.680 --> 01:45.650
+tempo ci è voluto per inserire gli elementi perché dovevano scorrere così tante cose.
+
+01:45.680 --> 01:50.750
+Una delle chiavi che dovrai ricordare e questa è una domanda che potresti essere posto nelle
+
+01:51.200 --> 01:56.060
+interviste è il motivo per cui un albero di ricerca binario sbilanciato non va bene.
+
+01:56.060 --> 01:59.770
+E spero che ciò dimostri perché non è una buona idea.
+
+01:59.780 --> 02:08.150
+Idealmente vogliamo bilanciare i nostri alberi di ricerca in modo da poter avere questa ottimizzazione delle prestazioni se andiamo al
+
+02:08.150 --> 02:10.220
+nostro grande O Chichi.
+
+02:10.340 --> 02:19.670
+Vediamo che con alberi di ricerca binari abbiamo tutti i log di N per la maggior parte delle cose che è nella media.
+
+02:19.760 --> 02:26.420
+Ma nel caso peggiore, quando abbiamo un albero sbilanciato, tutte le operazioni sono O allora o tempo
+
+02:26.420 --> 02:27.160
+lineare.
+
+02:27.350 --> 02:34.240
+Quindi potresti chiederti come bilanciare un albero e fortunatamente per noi ci sono algoritmi che
+
+02:34.240 --> 02:36.170
+ci aiutano a farlo.
+
+02:36.250 --> 02:42.250
+È davvero avanzato e ne parleremo dopo aver costruito il nostro albero e alcune delle opzioni
+
+02:42.250 --> 02:43.300
+che abbiamo.
+
+02:43.480 --> 02:50.110
+Ad esempio, abbiamo cose come alberi VL e alberi neri rossi che ci consentono di assicurarci che il
+
+02:50.110 --> 02:56.910
+nostro albero di ricerca binario sarà bilanciato per fortuna per noi, sono costruiti nella maggior parte dei linguaggi
+
+02:57.330 --> 03:04.620
+di programmazione e domande di intervista che non ti faranno davvero per bilanciare un circuito binario perché può diventare piuttosto
+
+03:04.620 --> 03:10.710
+complicato e richiedere molto tempo e le interviste di solito non hanno abbastanza tempo per
+
+03:10.710 --> 03:11.130
+farlo.
+
+03:11.130 --> 03:17.790
+L'idea è quella di essere in grado di parlarne e sapere che ci sono modi per bilanciare un intervento chirurgico ed essere in
+
+03:17.790 --> 03:20.730
+grado di parlare dei compromessi proprio come abbiamo fatto noi.
+
+03:20.790 --> 03:27.150
+Ora parleremo di questi due modi di bilanciare questo intervento chirurgico in un prossimo video,
+
+03:27.150 --> 03:31.990
+ma per ora concentriamoci solo sulle basi del prossimo video.
+
+03:31.990 --> 03:36.230
+Voglio parlare dei pro e dei contro dell'utilizzo di qualcosa come un albero di ricerca binario.
+
+03:36.340 --> 03:41.410
+E infine implementare il nostro vedrò nel prossimo da.

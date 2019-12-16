@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.780 --> 00:01.950
+Ben tornato.
+
+00:01.950 --> 00:04.370
+Spero che non sia stato male.
+
+00:04.590 --> 00:09.720
+Tieni presente che quando si tratta di intervistare gli intervistatori vogliono farti sapere che capisci
+
+00:09.720 --> 00:10.750
+i concetti.
+
+00:10.950 --> 00:14.890
+Non dovrai necessariamente codificare un pacchetto di ricerca binaria da zero.
+
+00:14.970 --> 00:21.930
+Il più delle volte, almeno perché nella vita reale ci sono cose come questa libreria che qualcun
+
+00:21.930 --> 00:29.220
+altro ha creato che ti permette di usare le tecniche di inversione e manipolazione di Treach perché questo è
+
+00:29.220 --> 00:36.720
+già stato fatto prima e puoi vedere usando una libreria come questa che puoi basta usarlo e creare l'albero
+
+00:36.720 --> 00:38.240
+che si desidera.
+
+00:38.250 --> 00:44.790
+Molto probabilmente non lo implementerai da zero da solo, ma vorremmo capire i
+
+00:44.790 --> 00:47.310
+fondamenti e come funziona.
+
+00:47.310 --> 00:49.420
+Quindi se questo è stato difficile per te.
+
+00:49.650 --> 00:50.570
+Non essere frustrato
+
+00:50.580 --> 00:54.350
+Questo non ti rende un cattivo ingegnere o un cattivo programmatore.
+
+00:54.570 --> 01:00.630
+Stai solo lavorando per costruire questi fondamentali in modo da poter utilizzare strumenti come questo in futuro
+
+01:00.960 --> 01:03.140
+e capire ancora come funzionano.
+
+01:04.760 --> 01:05.660
+Ma basta parlare.
+
+01:05.840 --> 01:07.180
+Andiamo alla risposta.
+
+01:07.580 --> 01:11.420
+Voglio creare un albero che assomigli a questo.
+
+01:12.720 --> 01:17.850
+Quindi la prima cosa che farò è lavorare sulla funzione di inserimento.
+
+01:17.960 --> 01:24.110
+Ora, all'interno di questa intera funzione, la prima cosa che voglio fare è dire che vogliamo
+
+01:24.110 --> 01:24.620
+creare
+
+01:27.930 --> 01:32.960
+il nuovo nodo e diremo che il nuovo nodo sarà il valore.
+
+01:33.030 --> 01:37.650
+Quindi stiamo solo creando una nuova classe bassa che la istanzia con il valore.
+
+01:37.710 --> 01:39.290
+E questo è il nostro nuovo no ora.
+
+01:39.600 --> 01:41.360
+Quindi abbiamo un riferimento ad esso.
+
+01:41.400 --> 01:42.910
+La prima cosa che vogliamo controllare.
+
+01:43.230 --> 01:49.830
+Bene se l'albero è vuoto e non c'è nessun nodo Rudin Bene, dovremmo aggiungere questo come nostro nodo radice.
+
+01:49.860 --> 01:53.250
+Quindi dirò che questa dot root è uguale a no.
+
+01:53.430 --> 02:01.790
+In tal caso, è sufficiente rendere il nodo root il nostro nodo corrente che abbiamo inserito.
+
+02:01.860 --> 02:05.940
+Bello e facile e solo per verificare che funzioni.
+
+02:06.040 --> 02:11.100
+Se commento tutto questo e clicco su Esegui.
+
+02:11.300 --> 02:12.510
+Ecco qua.
+
+02:12.590 --> 02:20.930
+Il nostro nodo radice ha un valore di 9 rimasto come nullo a destra è no perché è l'unica nota e,
+
+02:20.930 --> 02:28.970
+a proposito di mostrare come funziona questa stringa, è davvero molto utile perché se copio questo e basta sottolineare che
+
+02:28.970 --> 02:33.270
+non sto copiando le virgolette che lo rendono una stringa.
+
+02:33.680 --> 02:35.750
+E se apro gli
+
+02:39.630 --> 02:47.450
+strumenti per sviluppatori e Google Chrome e vado nella mia scheda della console, posso copiare e incollare questo.
+
+02:47.650 --> 02:55.060
+Premi invio e ora ho accesso a questo albero ed è molto più semplice per me vederlo.
+
+02:55.180 --> 03:01.450
+E una volta inseriti altri nodi, vedrai che è molto facile attraversare questo albero in questo modo e controllare
+
+03:01.450 --> 03:02.750
+il tuo lavoro.
+
+03:02.850 --> 03:06.750
+Ecco perché ho aggiunto questa funzione, quindi torneremo su questo.
+
+03:06.750 --> 03:14.180
+Per ora vediamo che il nostro inserto sta funzionando con Olly se il nodo radice è no, ma continuiamo.
+
+03:14.190 --> 03:18.450
+Se questo non è il caso, diremo.
+
+03:18.450 --> 03:30.360
+Altrimenti, se il nodo radice è già pieno, il nodo corrente sarà la stella, perché dovremo attraversare
+
+03:30.360 --> 03:38.440
+questa nota e non sapremo per quanto tempo attraverseremo la nevicata.
+
+03:38.770 --> 03:43.470
+Vogliamo continuare ad attraversare finché non troviamo un posto dove inserirli.
+
+03:43.780 --> 03:48.620
+E questo è un po 'complicato ma a cui ti abituerai quando costruisci alberi.
+
+03:48.730 --> 03:54.430
+Vogliamo utilizzare un ciclo while e le condizioni che useremo sono vere.
+
+03:54.760 --> 03:59.790
+Ciò significa semplicemente continuare ad andare in loop ogni volta, perché il vero equivale sempre.
+
+03:59.800 --> 04:06.130
+Vero e dobbiamo stare attenti qui se lo facciamo vogliamo assicurarci che ci sia un modo per uscire
+
+04:06.400 --> 04:07.840
+da questo ciclo.
+
+04:07.840 --> 04:13.290
+Altrimenti avremo un ciclo infinito e faremo crash qui la nostra piccola pagina.
+
+04:13.330 --> 04:15.580
+Quindi quali sono le condizioni che attraverseremo.
+
+04:15.580 --> 04:23.940
+Vogliamo attraversare l'albero Bene, il primo controllo che faremo è dire se il valore è ricordare il valore
+
+04:23.940 --> 04:25.860
+mentre è inserito.
+
+04:25.860 --> 04:30.540
+Se questo è inferiore all'attuale valore senza punti.
+
+04:30.660 --> 04:35.610
+Quindi partiremo dalla nota fondamentale e diciamo hey è il valore che stiamo inserendo meno del valore corrente
+
+04:35.610 --> 04:36.470
+del nodo.
+
+04:36.810 --> 04:39.250
+Se è così, conosciamo le regole.
+
+04:39.390 --> 04:45.160
+Quindi andremo a sinistra se si svaluta meno della nota corrente.
+
+04:45.240 --> 04:59.920
+Ora qui vogliamo controllare prima di tutto se non è rimasto nessun nodo corrente c'è un elemento già a sinistra del nodo radice perché se non c'è
+
+05:00.130 --> 05:08.620
+in quel caso possiamo solo assegnare il punto del nodo corrente lasciato al nostro tu
+
+05:08.860 --> 05:17.900
+sai che vogliamo entrare perché non c'è niente lì e possiamo solo uscire da questo ciclo e
+
+05:17.900 --> 05:23.450
+solo restituire ciò che è l'albero di ricerca binario.
+
+05:23.470 --> 05:29.730
+Tuttavia se c'è qualcosa alla sinistra della nostra nota diciamo in questo caso 9.
+
+05:29.870 --> 05:37.190
+In questo caso diremo che la nota corrente equivale al punto corrente del nodo sinistro.
+
+05:37.280 --> 05:43.640
+Quindi aggiorneremo e invertiremo in modo che il nodo corrente non sia più 9, ma
+
+05:43.640 --> 05:49.430
+qualunque cosa sia a sinistra di 9 e questo ci manterrà in loop.
+
+05:49.690 --> 05:56.170
+Quindi continueremo a fare il ciclo continuando a tenere il ciclo continuo fino a quando non colpiamo un
+
+05:56.260 --> 06:04.140
+nodo che non ha un lato sinistro in modo che possiamo posizionare il nodo corrente per il nostro nodo nella sua posizione.
+
+06:04.290 --> 06:05.470
+Ma questo è per il lato sinistro.
+
+06:05.490 --> 06:14.420
+Se il valore è inferiore al nodo corrente se il valore è maggiore o in questo caso uguale al nostro nodo
+
+06:14.420 --> 06:18.820
+corrente e possiamo decidere qui dove vogliamo posizionare valori uguali.
+
+06:18.860 --> 06:26.860
+Dipende da noi e come vogliamo implementarlo diremo che andremo a destra se il valore è maggiore o
+
+06:26.860 --> 06:28.980
+uguale al nodo corrente.
+
+06:29.070 --> 06:34.540
+In tal caso, cosa vogliamo fare prima il primo controllo, che è se NO corrente.
+
+06:35.040 --> 06:35.540
+Destra.
+
+06:35.550 --> 06:41.700
+Non c'è niente in questo caso non c'è niente accanto a esso in questo caso, proprio come un bar
+
+06:41.700 --> 06:42.380
+contro corrente.
+
+06:42.420 --> 06:45.480
+Nessun punto destro equivale al nuovo
+
+06:49.030 --> 06:54.430
+nodo e lo restituiremo anche perché desideriamo interrompere il ciclo di
+
+06:57.740 --> 07:01.800
+memorizzazione non appena abbiamo un punto o due.
+
+07:01.820 --> 07:09.590
+No, questo è il momento in cui vogliamo uscire da questo selvaggio loop che andrà in loop per sempre altrimenti diciamo
+
+07:09.650 --> 07:13.870
+semplicemente che il nodo corrente sta per essere uguale alla corrente.
+
+07:14.100 --> 07:19.610
+Nessun punto fantastico.
+
+07:19.830 --> 07:20.960
+E tu ci vai.
+
+07:21.420 --> 07:23.570
+Spero che questo funzioni.
+
+07:24.540 --> 07:28.400
+Ma prima di testare questo e vedere se incontriamo eventuali errori minori.
+
+07:28.620 --> 07:36.180
+Voglio metterti in guardia se stai solo programmando, ti incoraggio a mettere in pausa il video e pensare una riga
+
+07:36.450 --> 07:43.770
+dopo l'altra, magari anche disegnare le cose, magari usando visuale, vai a vedere cosa stiamo facendo perché è davvero
+
+07:43.770 --> 07:45.940
+difficile tenerlo nel tuo capo.
+
+07:45.990 --> 07:48.660
+Anche io posso codificarlo da capo.
+
+07:48.720 --> 07:55.830
+Mi ci vuole un po 'di tempo per riflettere e vedere come vogliamo strutturare il codice, quindi non sentirti frustrato se
+
+07:55.830 --> 08:02.130
+questo è un po' opprimente. Ti incoraggio a mettere in pausa il video per cercare di codificare e
+
+08:02.130 --> 08:04.810
+capire cosa sta succedendo passo dopo passo.
+
+08:04.810 --> 08:05.620
+Tutto ok.
+
+08:05.620 --> 08:06.860
+Proviamo questo.
+
+08:07.880 --> 08:11.420
+Ho un inserto di 9 qui se faccio clic su questa corsa che funziona.
+
+08:11.420 --> 08:14.470
+Se rispondo per.
+
+08:14.640 --> 08:14.960
+Tutto ok.
+
+08:14.970 --> 08:16.630
+Sembra che siano stati inseriti quattro.
+
+08:16.650 --> 08:18.830
+Che dire di sei.
+
+08:18.830 --> 08:19.120
+Tutto ok.
+
+08:19.130 --> 08:23.650
+Ho intenzione di commentare tutto questo e vedere se funziona.
+
+08:23.660 --> 08:26.250
+Ho intenzione di fare clic su Esegui.
+
+08:26.260 --> 08:26.890
+Tutto ok.
+
+08:26.950 --> 08:28.890
+Sembra che abbiamo disconnesso tutto.
+
+08:29.050 --> 08:34.930
+Ma voglio testare che tutto funzioni come previsto.
+
+08:34.930 --> 08:40.630
+Quindi quello che ho intenzione di fare è copiare e incollare questo ricordo senza le virgolette alla fine perché non
+
+08:40.630 --> 08:41.980
+voglio copiare la stringa.
+
+08:42.200 --> 08:52.530
+Voglio copiare l'oggetto e ho intenzione di aprire di nuovo i miei strumenti per sviluppatori. cancella il mio codice e poi copia
+
+08:52.530 --> 08:54.330
+e incolla.
+
+08:54.480 --> 08:55.530
+Hit enter.
+
+08:55.740 --> 09:00.500
+E ora possiamo testare il nostro albero e tu scorri quaggiù.
+
+09:00.540 --> 09:02.430
+Questo è l'albero che vogliamo.
+
+09:02.430 --> 09:06.130
+Abbiamo nove in alto a sinistra ea destra.
+
+09:06.130 --> 09:07.830
+Ne abbiamo quattro e venti.
+
+09:07.840 --> 09:08.920
+Quello è buono.
+
+09:09.040 --> 09:18.310
+E due quando andiamo alle quattro che abbiamo lasciato è un diritto è 6 fantastico e uno dovrebbe avere normale a destra
+
+09:18.310 --> 09:19.810
+e lasciato perfetto.
+
+09:19.810 --> 09:21.390
+Lo stesso con sei.
+
+09:21.460 --> 09:22.310
+Perfezionare.
+
+09:22.660 --> 09:24.820
+E se scorriamo verso il basso diamo un'occhiata a 20.
+
+09:24.850 --> 09:32.790
+Dovrebbe avere non solo dovrebbe avere 15 e 170 ha questo Shulgin abbiamo 59 170.
+
+09:32.790 --> 09:36.900
+E tutti e due stanno puntando sul no.
+
+09:37.010 --> 09:39.960
+Non male, niente male.
+
+09:40.020 --> 09:44.720
+Non è stato tanto male una volta che ne hai capito e lo hai codificato da solo.
+
+09:44.870 --> 09:46.860
+Vedrai che ha senso.
+
+09:46.880 --> 09:54.410
+È tutto solo logica e qualcosa che abbiamo imparato lavorando con elenchi collegati nel prossimo video che
+
+09:54.410 --> 09:55.950
+tenteremo di affrontare.
+
+09:55.980 --> 10:03.160
+Cerca se non sei stato in grado di implementare l'inserto, per favore prova a farlo ora, prima di andare a cercare.
+
+10:03.260 --> 10:05.660
+Altrimenti prova a implementare.
+
+10:05.690 --> 10:09.770
+Cerca da solo e ti vedrò nel video della soluzione.
+
+10:09.850 --> 10:10.010
+Bobby.

@@ -1,0 +1,544 @@
+WEBVTT
+
+00:00.900 --> 00:02.010
+Witamy spowrotem.
+
+00:02.010 --> 00:06.370
+Czas przejść przez naszą własną implementację tabeli hash.
+
+00:06.570 --> 00:12.030
+Zanim zaczniemy, chciałbym wspomnieć o czymś, co możesz zastanawiać się nad tym
+
+00:12.120 --> 00:13.890
+właśnie podkreśleniem tutaj.
+
+00:13.890 --> 00:18.880
+Co to oznacza w większości innych języków, takich jak Java.
+
+00:19.780 --> 00:27.340
+Tworząc klasę, możesz mieć prywatne właściwości, do których nie mam dostępu poza tą
+
+00:27.340 --> 00:28.150
+klasą.
+
+00:28.270 --> 00:38.800
+Więc nie byłbym w stanie zrobić mojego hashowego stołu podkreślając Passhe i uzyskać dostęp do tej właściwości lub metody.
+
+00:39.010 --> 00:43.800
+Teraz z javascript E6 tak naprawdę nie jest możliwe.
+
+00:44.040 --> 00:52.680
+Jest też wspólny standard, który polega na podkreśleniu tutaj i na świecie javascript, który mówi, że jest
+
+00:52.680 --> 00:54.770
+to własność prywatna.
+
+00:54.900 --> 00:58.410
+Teraz to po prostu nie ma znaczenia.
+
+00:58.410 --> 01:07.350
+Wciąż mam dostęp do metody hash, ale jest to standard programisty i społeczność javascript, aby inni deweloperzy wiedzieli,
+
+01:07.470 --> 01:14.760
+że nie powinieneś tego mówić, nawet jeśli technicznie nie możesz i istnieją sposoby, aby
+
+01:14.760 --> 01:16.190
+to zadziałało.
+
+01:16.380 --> 01:23.070
+I pół własności prywatnych, ale wymaga to takich rzeczy, jak symbole zamknięć czy słabe mapy, które znów są poza
+
+01:23.070 --> 01:26.240
+zakresem tego kursu i nie musimy się martwić.
+
+01:26.580 --> 01:28.850
+Właśnie stąd pochodzi podkreślenie.
+
+01:28.950 --> 01:32.630
+Zwykle nie uzyskujemy dostępu do funkcji mieszania w ten sposób.
+
+01:32.650 --> 01:37.080
+Skoro już to usunęliśmy, porozmawiajmy trochę o tym, co to robi.
+
+01:37.350 --> 01:45.430
+Jeśli wejdę i tutaj winogrona najpierw utworzymy nową zmienną, która jest hash równa zeru.
+
+01:45.790 --> 01:50.530
+A potem ten klucz. Chcemy złapać dnie lub winogrona.
+
+01:50.530 --> 02:02.370
+To jest jeden dwa trzy cztery pięć sześć, a my dodamy zero, które pochodzi z hash kluczowego kodu
+
+02:02.640 --> 02:04.160
+postaci w.
+
+02:04.450 --> 02:13.470
+Kod znaków w javascriptu daje nam liczbę całkowitą od 0 do liczby reprezentującej
+
+02:13.470 --> 02:15.120
+kod UTF16.
+
+02:15.120 --> 02:23.420
+Jest to po prostu kodowanie, które mówi, daj mi kod znaku, ponieważ pamiętaj, że w
+
+02:23.720 --> 02:28.920
+pamięci ciąg lub litera jest reprezentowana jako liczba.
+
+02:28.940 --> 02:35.890
+Tak więc ta metoda pozwala nam powiedzieć w indeksie, co wpisaliśmy w parametrze.
+
+02:35.950 --> 02:41.330
+Załóżmy, że patrzymy na indeks I, który jest pierwszym, na którym zostanie wyświetlony.
+
+02:41.620 --> 02:45.070
+Otrzymamy kod postaci dla G.
+
+02:45.100 --> 02:50.790
+Jest to liczba, w której mnożymy ją przez indeks.
+
+02:50.810 --> 02:59.900
+Ponownie, aby upewnić się, że s tworzy unikat, a następnie używamy tego, co nazywamy operatorem
+
+02:59.900 --> 03:08.770
+modulo, aby upewnić się, że pozostanie on w obrębie 50 wielkości naszych danych.
+
+03:09.120 --> 03:10.650
+A potem zwracamy hasz.
+
+03:10.770 --> 03:20.380
+Łatwym sposobem sprawdzenia, co się tutaj dzieje jest po prostu wybranie okna dialogowego Passhe.
+
+03:20.380 --> 03:31.350
+Jeśli to zrobię, zobaczymy, że będzie przechodzić przez naszą postać winogron po znaku.
+
+03:31.520 --> 03:41.500
+Spowoduje to wygenerowanie pewnego rodzaju skrótu, a ponieważ ten hash będzie stale zapętlony, uwzględnimy to, co
+
+03:42.100 --> 03:43.310
+wygenerowaliśmy.
+
+03:43.310 --> 03:45.050
+Zobaczmy, że pierwszy to zero.
+
+03:45.280 --> 03:49.190
+To znaczy 0 plus cokolwiek to jest.
+
+03:49.330 --> 03:55.210
+Następnie następna mieszanka iteracji będzie równa 14 i wygeneruje coś innego, co wynosi
+
+03:55.210 --> 03:59.080
+8, a kontynuowanie będzie kontynuowane aż do 23.
+
+03:59.130 --> 04:02.360
+Możesz poświęcić swój czas i przejść przez ten kod, jeśli naprawdę chcesz.
+
+04:02.370 --> 04:05.350
+Ponownie nie jest to tematem tego filmu, więc przejdźmy dalej.
+
+04:07.600 --> 04:09.000
+Korzystanie z naszej funkcji skrótu.
+
+04:09.070 --> 04:12.180
+Zróbmy naszą pierwszą metodę.
+
+04:13.290 --> 04:17.750
+Stwórzmy metodę set.
+
+04:17.940 --> 04:25.720
+Ta metoda otrzyma klucz i wartość.
+
+04:25.870 --> 04:33.650
+I po prostu możemy to zobaczyć i co się stanie, poprowadzimy tę metodę tutaj, mówiąc, że chcemy, aby
+
+04:33.800 --> 04:35.650
+winogrona były równe 10000.
+
+04:35.890 --> 04:38.420
+Mnóstwo winogron, bo są pyszne.
+
+04:38.450 --> 04:45.620
+Jeśli go uruchomię, nieokreślony, ponieważ tak naprawdę nic nie robię, pierwszą rzeczą, którą chcemy zrobić,
+
+04:45.620 --> 04:53.520
+jest utworzenie zmiennej o nazwie Let address, która będzie reprezentować miejsce, w którym chcemy przechowywać te informacje.
+
+04:55.390 --> 04:57.070
+I powiemy
+
+05:02.610 --> 05:14.590
+tę kropkę, więc wszystko, co mówimy, przechowuje te dane, że wstawimy kluczową wartość w tej przestrzeni adresowej, która jest tworzona
+
+05:15.130 --> 05:21.130
+przez naszą funkcję mieszającą i dajemy jej klucz do winogron.
+
+05:21.190 --> 05:23.050
+Zapamiętaj naszą małą animację.
+
+05:23.080 --> 05:28.900
+Wysyłamy winogrona do tego magicznego pudełka, które ma funkcję skrótu.
+
+05:29.380 --> 05:34.940
+Stamtąd po prostu mówimy, czy ten adres danych kropek,
+
+05:37.670 --> 05:49.060
+jeśli nie istnieje i nic tam nie ma, ponieważ pamiętamy w tabeli mieszającej, że możemy mieć kolizje i ponieważ mamy tylko
+
+05:49.390 --> 05:56.040
+50 miejsc 50 półek, możemy mieć te kolizje z wystarczającą ilością danych.
+
+05:56.440 --> 06:00.140
+Więc sprawdzimy, czy nic tam nie ma.
+
+06:01.170 --> 06:04.060
+W takim przypadku po prostu dodaję te dane.
+
+06:04.110 --> 06:06.130
+Zamierzamy
+
+06:08.950 --> 06:15.080
+zapisać ten adres danych jako tablicę.
+
+06:15.170 --> 06:21.960
+I w tej nowej przestrzeni nowej przestrzeni adresowej
+
+06:30.190 --> 06:36.490
+po prostu idziemy, wykonując kluczową wartość.
+
+06:36.530 --> 06:38.420
+Więc uruchommy to i zobaczmy, co się stanie.
+
+06:39.500 --> 06:41.810
+Mam tutaj adres z błędną pisownią.
+
+06:41.840 --> 06:43.360
+Zróbmy to jeszcze raz.
+
+06:43.430 --> 06:52.290
+Rozumiem, ale zobaczmy, co się stanie, gdy ja po prostu Konsole zapisałem tutaj dane dot.
+
+06:55.750 --> 06:57.000
+Sprawdź to.
+
+06:57.610 --> 07:04.140
+Mamy 23 puste przedmioty na 24 pozycji.
+
+07:04.180 --> 07:11.530
+Mamy winogrona 10000 tablic tu i potem 26 pustych przedmiotów po tym.
+
+07:11.570 --> 07:20.220
+Pamiętajmy, że mamy 50 pocisków w naszej pamięci i mamy 23 24 plus 26 to 50.
+
+07:20.480 --> 07:23.330
+Poza tym, że nasze winogrona zostały gdzieś wstawione i 50.
+
+07:23.330 --> 07:25.960
+Wygląda na 24 miejsce.
+
+07:26.000 --> 07:26.730
+Bardzo fajny.
+
+07:27.920 --> 07:34.070
+Ale co się stanie, jeśli to już istnieje.
+
+07:34.130 --> 07:42.860
+Jeśli zmienię tabelę haszującą, po prostu powiedzmy dwie przestrzenie pamięci i kliknę, biegnij tutaj, dostaję
+
+07:42.860 --> 07:52.790
+pusty i winogrona, a jeśli zmienię to na około, widzisz, że jeśli kliknę ponownie, powiedzmy, wróć do
+
+07:53.060 --> 07:54.380
+tylko winogron.
+
+07:54.380 --> 07:57.920
+Sprawdź, co dzieje się z moim stołem mieszającym.
+
+07:57.920 --> 08:04.790
+Kliknąłem, uruchomiłem i po prostu usunąłem mój poprzedni wpis.
+
+08:04.920 --> 08:08.150
+Mamy kolizję, ale nic na ten temat nie robimy.
+
+08:08.160 --> 08:13.970
+Właśnie usunęliśmy nasze dane, które mogły być bardzo ważne dla danych użytkowników.
+
+08:13.980 --> 08:15.650
+Zdecydowanie tego nie chcemy.
+
+08:15.660 --> 08:25.900
+Aby rozwiązać ten problem, wystarczy powiedzieć, że jeśli sprawdzamy, czy w tej przestrzeni adresowej nie ma nic, należy
+
+08:25.900 --> 08:27.650
+to zrobić.
+
+08:27.910 --> 08:28.570
+W
+
+08:31.660 --> 08:35.250
+przeciwnym razie po prostu dodaj do tej tablicy.
+
+08:35.590 --> 08:37.090
+Tak więc możemy
+
+08:39.910 --> 08:47.690
+po prostu uruchomić to samo polecenie, a ładniejszym i czystszym sposobem na zrobienie tego jest po prostu wyjęcie innego,
+
+08:48.740 --> 08:54.620
+ponieważ niezależnie od tego, że zawsze będziemy naciskać klucz i wartość, zawsze będziemy dodawać
+
+08:54.830 --> 08:58.500
+klucz i wartość, którą ustawiamy, dodajemy do danych.
+
+08:58.940 --> 09:05.760
+Więc wszystko, co robimy, to po prostu usunąć to, aby po uruchomieniu tego.
+
+09:05.970 --> 09:08.180
+I po prostu wiemy, co się dzieje.
+
+09:08.400 --> 09:14.040
+Powróćmy do tej myśli, że jestem tutaj, zamierzam biec.
+
+09:14.550 --> 09:24.140
+A jeśli dodamy tutaj, powiedzmy inny przedmiot tym razem powiemy jabłka i tylko 54 jabłka.
+
+09:24.140 --> 09:27.290
+Jeśli to zrobię, zobaczysz, co się tutaj stało.
+
+09:28.870 --> 09:38.410
+Jeśli przyjrzysz się uważnie, mamy jeden pusty przedmiot, a następnie tablicę zawierającą jego wnętrze.
+
+09:38.410 --> 09:48.090
+Pierwszy indeks, który jest tablicą i drugim indeksem, jest inną szybkością, ponieważ właśnie wprowadziliśmy naszą istniejącą
+
+09:48.370 --> 09:52.950
+macierz, ponieważ nasza pamięć ma tylko 2.
+
+09:53.190 --> 09:54.360
+Bardzo fajny.
+
+09:54.360 --> 09:56.070
+Nie było tak źle.
+
+09:56.070 --> 09:57.060
+Idźmy dalej.
+
+09:57.060 --> 10:04.920
+Następna jest dobra Chcę złapać możliwość pobrania winogron i jabłek, możemy skorzystać z metody
+
+10:05.280 --> 10:11.030
+get, która otrzyma klucz i ta metoda zadziała bardzo dobrze,
+
+10:13.920 --> 10:16.230
+mówiąc po prostu "get".
+
+10:16.270 --> 10:24.090
+A potem, podczas gdy chcemy złapać, które będą winogronami, zrobimy dokładnie to samo, w tym, że przeprowadzimy to
+
+10:24.090 --> 10:30.280
+przez czarne pole, w którym zamierzamy stworzyć lub zamierzamy użyć funkcji skrótu, aby uzyskać adres
+
+10:30.280 --> 10:33.320
+miejsca, do którego chcemy się udać.
+
+10:34.150 --> 10:41.290
+A teraz mamy adres, pod którym chcemy pobrać nasze informacje.
+
+10:41.300 --> 10:45.200
+Pamiętaj jednak, że przechowujemy te informacje w wiadrze.
+
+10:45.240 --> 10:48.400
+Więc mamy winogrona i 10000.
+
+10:48.600 --> 10:49.570
+Jak to złapiemy.
+
+10:49.620 --> 10:51.100
+Wiemy, gdzie ją zdobyć.
+
+10:51.120 --> 11:00.380
+Mamy adres, ale musimy teraz zapętlić się i pobrać winogrona, a następnie 10000 lub jabłka i 954.
+
+11:00.660 --> 11:01.780
+Pozwól, że ci pokażę, co mam na myśli.
+
+11:02.040 --> 11:07.590
+Najpierw utwórz zmienną mówiąc, że mówisz o bieżącym wiadrze.
+
+11:08.010 --> 11:13.280
+To będzie właśnie ten twardy kanał danych lub adres, żebyśmy się nie powtarzali.
+
+11:13.410 --> 11:20.760
+I mamy odniesienie do tego adresu lub adresu i wartości danych.
+
+11:20.760 --> 11:31.920
+Oznacza to, że jeśli anulujemy dziennik bieżący dziennika i uruchomię to widzę, że mam bieżące wiadro.
+
+11:32.010 --> 11:34.140
+Chociaż ma to dwa elementy.
+
+11:34.140 --> 11:40.070
+Pamiętaj, że technicznie jest to tylko w obrębie własnego zasobnika w ramach jednej tablicy.
+
+11:40.200 --> 11:47.750
+Jeśli zwiększymy tę przestrzeń pamięci, powiedzmy 50, zobaczymy, że to wiadro zawiera winogrona.
+
+11:48.150 --> 11:53.250
+Więc łapiemy te informacje, ale chcemy tylko, żeby zwrócono 10000.
+
+11:53.250 --> 12:03.090
+Tak działają tablice asocjacyjne lub funkcja get w haszowaniu działa dobrze, wszystko co musimy zrobić, to powiedzieć, czy
+
+12:03.090 --> 12:07.630
+bieżące wiadro, a my powiemy Dot Glenn.
+
+12:07.770 --> 12:12.090
+To znaczy, jeśli obecne wiadro ma coś w sobie.
+
+12:12.090 --> 12:20.240
+W takim przypadku zamierzamy coś zrobić, inaczej po prostu wrócimy niezdefiniowani, ponieważ w wiadrze
+
+12:20.260 --> 12:25.510
+nie ma nic Sprawdzamy, czy to rzeczywiście istnieje.
+
+12:25.520 --> 12:32.140
+Więc jeśli nie ma nic w tablicy, jeśli długość wynosi 0, a
+
+12:32.140 --> 12:39.160
+tablica jest pusta, to nie jesteśmy nią zainteresowani, bo właściwie nie potrzebujemy nawet
+
+12:39.160 --> 12:50.650
+roku długości, ponieważ pamiętajcie, że początkowo będzie to tylko pusta tablica z undefined i dodajemy tablicę do każdego gniazda, gdy coś ustawimy.
+
+12:50.650 --> 12:57.490
+I jest to pusty adres, więc możemy po prostu zostawić to tak, ponieważ jeśli jest
+
+12:57.520 --> 13:01.150
+niezdefiniowany, to przeskakuje i wraca teraz niezdefiniowany.
+
+13:01.170 --> 13:10.920
+I tutaj zrobimy pętlę for, ponieważ pamiętamy, że możemy mieć wiele elementów w tym wiadrze, tak jak widzieliśmy,
+
+13:10.920 --> 13:22.930
+kiedy musieliśmy zapełnić miejsca pamięci, w którym to przypadku pozwól mi zademonstrować to, abyśmy mogli zobaczyć na biegu i bieżącym wiadrze przed
+
+13:24.040 --> 13:27.250
+uruchomieniem polityki, że znowu .
+
+13:27.250 --> 13:36.680
+W porządku, jeśli anulujemy wiadro bieżące dialogu i uruchomimy to widzimy, że mamy dwie rzeczy w tym wiadrze.
+
+13:36.820 --> 13:46.380
+Więc będziemy musieli zapętlić się, używając naszej ulubionej pętli for, którą zrobiliśmy już teraz.
+
+13:46.450 --> 13:50.760
+Powiemy tak długo, jak długo będę mniejszy niż wiadro żurawia.
+
+13:50.780 --> 13:58.950
+Dno rośnie tu i tu.
+
+13:59.140 --> 14:01.480
+Jest to trochę trudne, więc miejmy nadzieję, że podążysz za nim.
+
+14:01.480 --> 14:11.310
+Zamierzam powiedzieć, że jeśli bieżące wiadro, przez które jest indeks, pamiętaj, że powie
+
+14:11.310 --> 14:21.450
+zero, które ma zamiar złapać to, które będzie chciało go złapać, jeśli Khurram przywróci winogrona.
+
+14:21.460 --> 14:30.620
+Więc jeśli zrobię zero tutaj, oznacza to, że weź pierwszy w naszym przypadku lód, więc będzie to
+
+14:30.620 --> 14:39.450
+zero najpierw złap pierwszą tablicę, a następnie weź wskaźnik zerowy w tej tablicy, która będzie winogronami.
+
+14:39.630 --> 14:45.000
+A potem, gdy pętle, następnym razem wokół oka, będą to jabłka.
+
+14:45.330 --> 14:49.790
+Sprawdź to pod kluczem.
+
+14:49.810 --> 14:54.130
+Pamiętaj klucz, który otrzymujemy tutaj, którego szukamy.
+
+14:54.160 --> 15:05.620
+Więc jeśli winogrona, które są kluczem pasuje do tego przedmiotu, właśnie zwróciły bieżącą kieszeń i
+
+15:06.100 --> 15:11.180
+jeden, ponieważ chcemy zwrócić dziesięć tysięcy.
+
+15:11.410 --> 15:20.090
+Mam nadzieję, że tu wpadniesz, bo jeśli to zrobię, dostanę dziesięć tysięcy winogron na wynos 10000.
+
+15:20.260 --> 15:24.970
+Jeśli tak się stanie, to jest 54.
+
+15:24.980 --> 15:26.670
+Jakie to jest świetne.
+
+15:26.780 --> 15:34.040
+Patrząc na to mam nadzieję, że zrozumiecie na głębszym poziomie złożoność czasową implikacji
+
+15:34.040 --> 15:40.090
+tabel mieszających, nawet jeśli robimy pętlę tutaj w funkcji mieszania.
+
+15:40.190 --> 15:43.330
+Pamiętaj, że funkcje skrótu są naprawdę szybkie.
+
+15:43.520 --> 15:48.210
+Po prostu zapętliliśmy klucz, więc nie uważamy tego za zdarzenie.
+
+15:48.410 --> 15:49.870
+To bardzo szybko.
+
+15:49.880 --> 15:55.560
+To jeden z nich, gdy ustawiamy coś, tutaj nie ma pętli.
+
+15:55.560 --> 15:57.960
+Właśnie dodajemy to do naszych danych.
+
+15:58.170 --> 16:00.090
+Po prostu to pchamy.
+
+16:00.190 --> 16:02.890
+To jedno.
+
+16:03.120 --> 16:17.310
+Jeśli pójdziemy na większość czasu, jeśli nie będzie kolizji, będzie to 0 0 1, a w rzeczywistości przez większość czasu można uznać,
+
+16:17.370 --> 16:20.160
+że jest to jedno.
+
+16:20.400 --> 16:27.840
+Ale w naszym naprawdę złym przykładzie z tylko dwiema przestrzeniami pamięci i niezbyt dobrą funkcją mieszania, to
+
+16:27.840 --> 16:29.720
+może się wszystko skończyć.
+
+16:31.580 --> 16:36.650
+Ale na razie, ponieważ jesteśmy dobrymi programistami, co nie będzie się działo dobrze.
+
+16:36.770 --> 16:38.180
+Wszystko będzie dobrze.
+
+16:38.210 --> 16:42.180
+Mamy 0 z 1 dostać.
+
+16:42.380 --> 16:52.580
+Mamy tutaj pętlę for, która może stworzyć listę, którą widzieliśmy w naszym przykładzie, zobacz tę listę, którą mamy tutaj.
+
+16:52.620 --> 16:55.230
+Właśnie dlatego stworzyliśmy i to wszystko.
+
+16:55.230 --> 17:01.260
+A jeśli ta lista wciąż działała, ciągle rosła i rosła.
+
+17:01.330 --> 17:07.360
+Ale jest jeszcze jedna metoda, którą chcę, abyśmy budowali i przedstawiali.
+
+17:07.360 --> 17:17.940
+Kolejną wadą tabel hash Co jeśli chcemy przejść przez wszystkie klucze tabeli hash, jak to
+
+17:17.940 --> 17:18.760
+zrobimy.
+
+17:19.680 --> 17:21.660
+Spróbujemy to zaimplementować w kolejnym filmie.

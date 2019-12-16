@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.110 --> 00:01.910
+Bine ai revenit.
+
+00:02.170 --> 00:09.610
+Am vrut să vorbesc despre o ultimă piesă a puzzle-ului, mai ales când vine vorba de grafice,
+
+00:09.610 --> 00:13.250
+deși am vorbit despre traversarea graficului până acum.
+
+00:13.390 --> 00:18.340
+Și, de asemenea, inversarea Treach utilizează DFS și DFS.
+
+00:18.370 --> 00:25.480
+Există, de asemenea, un alt lucru pe care ar trebui să-l consideri acum într-un interviu că cel mai probabil
+
+00:25.480 --> 00:31.100
+acum veți implementa aceste algoritmi, deoarece acestea sunt extrem de complicate și durează mult.
+
+00:31.150 --> 00:39.040
+Cu toate acestea, un intervievator s-ar putea aștepta să știți despre ele și știți că veți folosi algoritmul Belman Ford
+
+00:39.190 --> 00:44.120
+sau diasters pentru a găsi o problemă cu cea mai scurtă cale.
+
+00:44.290 --> 00:45.810
+Dar s-ar putea să te întrebi pe tine însuți.
+
+00:46.010 --> 00:52.940
+Ei bine, tocmai mi-ai spus că prima căutare este utilizată pentru cea mai scurtă problemă a căii.
+
+00:52.990 --> 00:53.980
+De ce avem nevoie de acestea?
+
+00:54.010 --> 00:56.790
+X algoritmi sigur stiu deja cum sa fac asta.
+
+00:56.980 --> 01:00.090
+Și acesta este de fapt un caz special.
+
+01:00.220 --> 01:06.540
+Veți vedea că prima căutare este minunată pentru cea mai scurtă problemă a căii, dar există un lucru pe
+
+01:06.540 --> 01:11.960
+care o poate să o presupună că fiecare salt la un alt nod dintr-un grafic.
+
+01:11.960 --> 01:22.240
+Dacă ne întoarcem aici, se presupune că fiecare cale are aceeași greutate cu o primă căutare în profunzime într-o respirație.
+
+01:22.340 --> 01:29.590
+Prima căutare nu ne pasă ce fel de greutate are o margine.
+
+01:29.730 --> 01:37.670
+De exemplu, în viața reală, cum ar fi Google Maps, unele drumuri sunt mai rapide decât celelalte.
+
+01:37.770 --> 01:38.790
+Dreapta.
+
+01:38.890 --> 01:44.730
+Avem probabil mai mult trafic pe un drum, poate distanța de la o notă la alta.
+
+01:44.740 --> 01:51.730
+Este mai scurtă decât cealaltă și aceste grafice ponderate despre care am vorbit au un număr
+
+01:51.970 --> 01:53.420
+asociat marginilor lor.
+
+01:53.440 --> 02:01.210
+Amintiți-vă că un nod este numit un vârf într-un grafic, iar legătura dintre două noduri este o
+
+02:01.240 --> 02:07.990
+căutare de margine și adâncime nu ne permite să luăm în considerare aceste greutăți.
+
+02:08.020 --> 02:09.870
+Avem nevoie de altceva.
+
+02:10.150 --> 02:16.150
+Într-un interviu, dacă cineva v-ar fi întrebat acest lucru, răspunsul dvs. ar trebui să fie
+
+02:16.180 --> 02:27.180
+fie Belman Ford, fie algoritmul diasterilor care ne permit să găsim calea cea mai scurtă dintre două note ale unui grafic ponderat acum Belman și dicer sunt doi
+
+02:27.180 --> 02:35.640
+oameni adevărați, academicieni, a venit cu algoritmul lor propriu pentru a rezolva problema cea mai scurtă cale a unei modalități de
+
+02:35.850 --> 02:41.910
+a digraph, cum ar fi Google Maps încercând să dau seama care este cel mai
+
+02:41.940 --> 02:46.140
+apropiat mod pentru a vă obține burrito de exemplu.
+
+02:46.140 --> 02:48.660
+Și doar un fapt distractiv.
+
+02:48.720 --> 02:51.060
+Acesta este Richard Belman.
+
+02:51.360 --> 02:58.880
+Și este aceeași persoană care a scris despre programarea dinamică, care este o secțiune viitoare în cursul nostru.
+
+02:58.890 --> 03:02.060
+Să spunem că ambii oameni sunt foarte inteligenți.
+
+03:03.370 --> 03:11.110
+Acum, ambii dintre acești algoritmi sunt destul de complexi și durează foarte mult timp pentru a fi codificați.
+
+03:11.290 --> 03:17.170
+Așadar, voi lăsa resurse pentru dvs. dacă doriți să aflați mai multe despre acești algoritmi, deoarece într-un
+
+03:17.470 --> 03:22.380
+interviu este foarte rar că ați fi fost nevoiți să codificați acești algoritmi.
+
+03:22.390 --> 03:26.520
+De cele mai multe ori trebuie să știți că există și când să le utilizați.
+
+03:26.530 --> 03:36.330
+Deci, să trecem peste faptul că algoritmul Belman Ford este foarte eficient în rezolvarea celei mai scurte căi spre
+
+03:36.360 --> 03:40.070
+algoritmul diasterilor, deoarece poate găzdui greutăți negative.
+
+03:40.290 --> 03:49.110
+Deci, dacă un grafic ponderat are greutăți negative sau un număr negativ algoritmul Belman Ford va reuși să rezolve cea mai
+
+03:49.110 --> 03:51.210
+scurtă problemă a căii.
+
+03:51.360 --> 03:54.090
+În timp ce Daxter nu va putea.
+
+03:54.170 --> 04:01.900
+Acum, de ce ați folosi vreodată diasteri, atunci dacă algoritmul lui Belman Ford se poate face mai bine, nu vom intra în
+
+04:01.900 --> 04:02.980
+matematica a tot.
+
+04:03.370 --> 04:10.870
+Dar algoritmul Belman Ford poate dura mult timp pentru a rula în termeni de complexitate și nu este cel
+
+04:10.900 --> 04:12.150
+mai eficient algoritm.
+
+04:12.250 --> 04:19.460
+Cel mai rău caz pentru algoritmul Belman forward este, de obicei, complexitatea de timp a tuturor și squit.
+
+04:19.810 --> 04:21.720
+Deci nu e foarte eficient.
+
+04:21.730 --> 04:29.020
+Algoritmul diasterilor, pe de altă parte, este un pic mai rapid decât acesta și un pic mai
+
+04:29.320 --> 04:35.470
+eficient cu dezavantajul pe care îl poate găzdui pentru așteptări negative între noduri.
+
+04:35.560 --> 04:43.540
+Dacă un intervievator vă arată această diagramă și vă spune că vreau să găsesc calea cea mai scurtă de la 0 la 4 în
+
+04:43.960 --> 04:48.320
+acest fel spre grafic, acum știți de ce ar trebui să spuneți corect.
+
+04:48.730 --> 04:50.830
+Ce algoritm vei folosi?
+
+04:50.830 --> 04:52.030
+Veți folosi o respirație.
+
+04:52.150 --> 04:58.130
+Caută mai întâi algoritmul sau algoritmul diasterilor Belman Ford.
+
+04:58.330 --> 05:03.010
+Răspunsul ar trebui să fie algoritmul diasterilor.
+
+05:03.040 --> 05:05.580
+Nu există greutăți negative pe acest grafic.
+
+05:05.590 --> 05:06.610
+Este un grafic.
+
+05:06.760 --> 05:09.710
+Deci dicer este algoritmul care va rezolva problema.

@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.560 --> 00:05.780
+Witamy ponownie, gdy jesteście w stanie zaimplementować Prebend.
+
+00:06.080 --> 00:08.500
+Rzućmy okiem na to, jak powinien wyglądać kod.
+
+00:09.270 --> 00:17.620
+Pierwszą rzeczą, jaką robimy po prostu za pomocą pióra, jest stworzenie notatki, którą dodamy.
+
+00:17.910 --> 00:23.460
+Tak więc powiem nową wartość węzła i następną.
+
+00:23.490 --> 00:30.690
+Teraz w przyszłym roku odejdę jako nie, a pokażę wam, dlaczego w następnym filmie tak właśnie jest, a
+
+00:30.690 --> 00:33.930
+my nie mamy po prostu równych sobie.
+
+00:33.930 --> 00:44.400
+Dodd musiał odnieść się do pierwszego elementu na naszej liście, który ma 10 lat, ale na razie po prostu zaufaj mi, że nie chcemy, abyśmy nie
+
+00:45.060 --> 00:47.490
+mieli, ponieważ możemy to zrobić później.
+
+00:47.490 --> 00:52.000
+Właśnie teraz tworzymy pusty węzeł z wartością.
+
+00:52.270 --> 01:04.750
+Następnie chcemy powiedzieć, że nasza nowa kropka węzła, która jest tą wartością tutaj, będzie równa
+
+01:04.960 --> 01:07.590
+tej kropce.
+
+01:07.910 --> 01:14.040
+Dlatego właśnie stworzyliśmy wskaźnik mówiąc, że nowe nie, które właśnie stworzyliśmy,
+
+01:14.310 --> 01:19.360
+wskaże temu bogu głównemu pierwszemu przedmiotowi na naszej liście.
+
+01:19.360 --> 01:19.640
+DOBRZE.
+
+01:19.660 --> 01:20.950
+To nie powinno mieć sensu.
+
+01:21.310 --> 01:25.780
+I oczywiście, tak jak zrobiliśmy z appendem, chcemy zaktualizować referencję.
+
+01:25.780 --> 01:31.300
+Teraz powiedzmy, że ta głowa Dodda nie jest już równa tej całej wartości.
+
+01:31.300 --> 01:35.900
+To jest teraz nowy węzeł.
+
+01:35.970 --> 01:43.890
+A na koniec chcemy dodać tę liczbę i upewnić się, że zwiększamy długość naszej listy.
+
+01:43.920 --> 01:57.150
+Na koniec, jeśli zwrócimy tę naszą połączoną listę, możemy powiedzieć, że biegniemy i patrzymy na to, że dodaliśmy jeden do
+
+01:57.150 --> 01:59.050
+pierwszego elementu.
+
+01:59.970 --> 02:10.080
+Na liście głowa i to odnosi się teraz do 10, a ogon naszej listy ma teraz 16.
+
+02:11.150 --> 02:13.900
+Nie było tak źle, tak było w następnym wideo.
+
+02:13.910 --> 02:18.220
+Chcę szybko opowiedzieć o tym nowym kodzie Noada.
+
+02:18.320 --> 02:24.820
+Powtarzamy zarówno w dołączonym, jak i wstępnie wybranym, i tym, co moglibyśmy z nim zrobić.
+
+02:24.860 --> 02:25.540
+Zobaczę to.

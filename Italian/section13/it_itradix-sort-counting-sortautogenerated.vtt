@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.310 --> 00:02.160
+Ben tornato.
+
+00:02.270 --> 00:08.540
+Abbiamo parlato di questi cinque algoritmi di ordinamento e ormai dovresti sapere che l'ordinamento e l'ordinamento
+
+00:08.540 --> 00:16.040
+rapido di Merse, sebbene siano più difficili da implementare, sono gli algoritmi più utilizzati nella vita reale perché usano
+
+00:16.040 --> 00:21.710
+dividi e conquisti per ottenerli in questo modo. Aumento delle prestazioni di Lagann.
+
+00:21.950 --> 00:26.340
+Ma non possiamo battere Oh of e log e.
+
+00:26.520 --> 00:27.960
+Ed ecco la cosa.
+
+00:28.020 --> 00:33.980
+Matematicamente è impossibile migliorare su questo.
+
+00:34.170 --> 00:39.570
+Se qualcuno arriva con un algoritmo che è più veloce di quello che stanno andando bene
+
+00:39.570 --> 00:41.080
+saranno molto molto ricchi.
+
+00:41.130 --> 00:49.680
+Matematicamente è impossibile perché tutto e Lagann significa che dobbiamo ordinare per confronto tutti
+
+00:49.680 --> 00:56.510
+questi algoritmi di ordinamento devono confrontare ogni numero l'uno con l'altro.
+
+00:56.790 --> 01:00.290
+Ma c'è un'eccezione a questa regola.
+
+01:00.510 --> 01:05.920
+Puoi migliorare questo se non fai paragoni.
+
+01:06.780 --> 01:07.160
+Huh.
+
+01:07.350 --> 01:08.760
+Cosa significa.
+
+01:08.850 --> 01:18.330
+C'è una piccola sezione di input che possiamo effettivamente sconfiggere e registrare e questi sono chiamati ordinamenti non
+
+01:18.750 --> 01:25.930
+di confronto e molto probabilmente vedrai il conteggio degli ordinamenti sort e radix.
+
+01:26.010 --> 01:33.130
+Ma cosa vuol dire che contare in ordinamento digitale è un modo completamente diverso di pensare all'ordinamento.
+
+01:34.200 --> 01:41.550
+Con l'ordinamento di confronto abbiamo deciso l'ordine dei numeri basandoci sul porre la domanda hey è questo
+
+01:41.550 --> 01:44.290
+aliment più grande di quello laggiù.
+
+01:44.610 --> 01:46.600
+Che mi dici di quello laggiù?
+
+01:46.710 --> 01:52.980
+E continuammo a farlo che ogni numero ottenuto confrontato l'uno con l'altro l'ordinamento senza confronto lo fa
+
+01:52.980 --> 01:54.400
+un po 'diversamente.
+
+01:54.480 --> 02:02.760
+Useremo il modo in cui i numeri e i dati sono memorizzati nei nostri computer a zero e uno e
+
+02:02.760 --> 02:06.320
+approfittiamo di questo fatto per ordinare le cose.
+
+02:06.490 --> 02:08.960
+Ora questo può diventare piuttosto complesso.
+
+02:09.130 --> 02:16.960
+E come potete vedere qui in questo articolo, basta guardare i diagrammi e ad esempio radix sort qui nel
+
+02:16.960 --> 02:25.600
+modo in cui memorizziamo i numeri in zeri e quelli in cui possiamo usare questa conoscenza per ordinare effettivamente alcune cose.
+
+02:25.600 --> 02:30.980
+Ho intenzione di lasciare delle risorse per te se vuoi diventare davvero tecnico e su questo argomento.
+
+02:31.150 --> 02:38.770
+Vi avverto che è possibile ottenere un po 'di pazienza ma l'unica cosa da notare qui è
+
+02:38.770 --> 02:47.890
+che questo tipo di algoritmo di ordinamento che conta ordinamento sort e radix funziona solo con numeri specificatamente interi in un
+
+02:47.950 --> 02:48.980
+intervallo limitato.
+
+02:49.060 --> 02:54.730
+Quindi se hai solo numeri che vuoi risolvere sort e il range di quei numeri va
+
+02:54.730 --> 03:02.370
+da diciamo zero a 100 che è una piccola gamma allora dovresti usare qualcosa del genere per rendere le cose veramente veloci
+
+03:03.310 --> 03:06.220
+ma non funzionerebbe su nessuna tipo di dati.
+
+03:06.370 --> 03:12.340
+Funziona davvero solo sui numeri a causa del modo in cui i numeri vengono memorizzati nella memoria.
+
+03:12.360 --> 03:17.150
+Vedete che mi piace qualcosa come unire sort o quicksort che sono universali.
+
+03:17.250 --> 03:24.850
+In altre parole, possono ordinare qualsiasi tipo di dati, ad esempio il conteggio dell'ordinamento e l'ordinamento digitale è utile solo per
+
+03:24.850 --> 03:26.090
+numeri interi fissi.
+
+03:27.140 --> 03:32.080
+Ma sono in grado di battere la velocità di tutti quando si accede.
+
+03:32.270 --> 03:40.640
+E come potete vedere qui l'ordinamento di tipo ordinamento radix di secchio nel loro caso medio ha tutti e più
+
+03:40.820 --> 03:48.640
+K di e K di e k cosa e k significa va oltre lo scopo di questo corso.
+
+03:48.830 --> 03:54.570
+E alcuni sostengono che alla fine questo risulta ancora piuttosto lento.
+
+03:54.920 --> 03:56.800
+Lascerò le risorse per te come ho detto.
+
+03:56.900 --> 04:02.570
+Quindi puoi leggerli, ma l'unica cosa che devi sapere su questo è che a
+
+04:02.570 --> 04:09.900
+volte se hai numeri che si trovano entro un certo intervallo, potrebbe essere più veloce di Quicksort o Murcer.
+
+04:09.980 --> 04:16.940
+Quindi, ora che lo sappiamo, facciamo degli esercizi di intervista basati sull'ordinamento per consolidare ciò che abbiamo appena appreso.

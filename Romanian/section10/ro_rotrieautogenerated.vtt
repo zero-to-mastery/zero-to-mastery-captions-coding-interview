@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.110 --> 00:02.280
+Bine ai revenit.
+
+00:02.280 --> 00:09.270
+Avem un ultim copac despre care vreau să vorbesc și care este o pronunție tri sau copac aici variază de
+
+00:09.270 --> 00:10.340
+cine vă cereți.
+
+00:10.500 --> 00:20.460
+Dar să aruncăm o privire la ceea ce este o încercare este un copac specializat folosit în căutarea cel mai adesea cu text.
+
+00:20.590 --> 00:29.480
+După cum puteți vedea aici și în majoritatea cazurilor poate depăși performanțele tabelelor hash de arbori binari și cele mai multe structuri de date pe care
+
+00:29.480 --> 00:33.590
+le-am vorbit în funcție de tipul de căutare pe care îl faceți.
+
+00:34.810 --> 00:43.120
+Și doar dacă vă uitați la această imagine, ați putea înțelege ce face triul vă permite să știți dacă există un
+
+00:43.240 --> 00:47.700
+cuvânt sau o parte a unui cuvânt într-un corp de text.
+
+00:48.070 --> 00:55.410
+Vedeți o încercare are, de obicei, un nod rădăcină goală, care este punctul de plecare și de acolo sunt adăugate
+
+00:55.410 --> 00:55.900
+litere.
+
+00:55.950 --> 00:59.370
+Vedeți că nu este un copac binar care poate avea mai mulți copii.
+
+00:59.730 --> 01:06.390
+În acest caz, toți au cel mai probabil 26 de copii, deoarece există 26 de litere în alfabet.
+
+01:06.540 --> 01:15.370
+Puterea încercării este atunci când căutăm ceva de genul dacă, dacă avem acest dicționar, știm imediat
+
+01:15.370 --> 01:23.560
+că există două cuvinte asociate cu cuvântul și un alt nume pentru încercare este ceva
+
+01:23.560 --> 01:25.690
+numit arbore prefix.
+
+01:25.860 --> 01:31.140
+Este o structură de date de tip copac, care sa dovedit a fi destul de eficientă în rezolvarea acestor probleme
+
+01:31.140 --> 01:31.970
+specifice șirurilor.
+
+01:32.070 --> 01:35.170
+Vă puteți gândi la aceasta ca la finalizarea automată.
+
+01:35.220 --> 01:35.840
+Dreapta.
+
+01:35.880 --> 01:42.300
+Când căutați ceva pe Google, știe ce ați căutat sau care încearcă și termină
+
+01:42.480 --> 01:44.130
+cuvântul pentru dvs.
+
+01:44.220 --> 01:50.850
+Și aceasta este ceea ce este folosit pentru căutarea cuvintelor într-un dicționar care oferă sugestii auto pe motoarele
+
+01:50.850 --> 01:53.200
+de căutare sau chiar rutarea IP.
+
+01:53.430 --> 02:01.540
+Dacă am scris într-o Știu imediat că toți copiii sunt legați de A și pot imprima un copac și apoi
+
+02:01.630 --> 02:06.760
+A-S, beneficiul acestui tip de structură de date este viteza și spațiul.
+
+02:06.940 --> 02:12.530
+Ce credeți că este spectacolul mare de a găsi un cuvânt în structura de date?
+
+02:12.550 --> 02:16.510
+Nu vom trece prin fiecare nod în schimb.
+
+02:16.600 --> 02:19.940
+Tot ce trebuie să facem este să găsim lungimea cuvântului.
+
+02:20.080 --> 02:27.390
+Deci, big-O de încercare este 0 de lungime care este lungimea cuvântului.
+
+02:27.520 --> 02:31.460
+Dacă sunt în căutarea cuvântului sunt un rău.
+
+02:31.510 --> 02:35.800
+Tot ceea ce fac este să caut o căutare apoi pentru noi.
+
+02:35.980 --> 02:38.110
+Apoi căutați.
+
+02:38.240 --> 02:43.730
+Tot ce fac este să dau trei note care sunt asociate cu lungimea cuvântului.
+
+02:43.730 --> 02:48.300
+Când vine vorba de spațiu, complexitatea încercărilor are de asemenea un avantaj major.
+
+02:49.640 --> 02:52.970
+Pentru că folosim prefixe precum.
+
+02:52.970 --> 02:57.100
+Și aici este folosit în cuvinte diferite și același cu a.
+
+02:57.200 --> 02:59.830
+Nu trebuie să îl stocăm de mai multe ori.
+
+02:59.990 --> 03:06.140
+Este stocat într-o singură locație și aveți copii legați de el din cauza acestor prefixe.
+
+03:06.140 --> 03:12.140
+Economisiți o mulțime de spațiu pentru că nu trebuie să păstrați cuvântul care nu este utilizat.
+
+03:12.320 --> 03:14.720
+Trebuie să evitați să stocați extra și mai mult.

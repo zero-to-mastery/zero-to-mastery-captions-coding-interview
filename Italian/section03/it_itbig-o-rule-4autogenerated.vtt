@@ -1,0 +1,250 @@
+WEBVTT
+
+00:01.260 --> 00:05.750
+Oh, non possiamo sentire la fine di quasi la Regola numero quattro.
+
+00:05.760 --> 00:13.130
+La regola finale nel nostro regolamento lascia cadere il dominio o i termini non dominanti.
+
+00:13.410 --> 00:14.300
+Cosa intendiamo?
+
+00:14.400 --> 00:15.360
+Diamo un'occhiata.
+
+00:16.760 --> 00:26.420
+Diciamo che abbiamo di nuovo una funzione con un nome molto lungo che dice di stampare tutti i numeri e poi tutti i set
+
+00:26.590 --> 00:27.660
+di coppie.
+
+00:28.070 --> 00:30.080
+Forse non è il miglior nome per la nostra funzione.
+
+00:30.110 --> 00:34.950
+Probabilmente possiamo lavorare sulla leggibilità qui, ma vediamo come funziona questa funzione.
+
+00:35.030 --> 00:40.670
+Questa funzione richiede numeri e questi numeri variabili.
+
+00:40.670 --> 00:44.150
+Li analizzeremo con un ciclo For Each.
+
+00:44.510 --> 00:51.560
+Quindi, di nuovo, basta fare il loop e registrare i numeri e poi abbiamo un altro passaggio che dovrebbe
+
+00:51.560 --> 00:58.460
+ricordarti che probabilmente è un'aggiunta che stiamo facendo, stiamo aggiungendo un altro passo e qui stiamo sommando
+
+00:59.150 --> 01:00.410
+i punti coppia.
+
+01:00.410 --> 01:07.290
+Ecco dove aggiungere ogni numero uno dopo l'altro.
+
+01:07.670 --> 01:11.610
+Ti mostriamo un po 'di demo qui.
+
+01:11.840 --> 01:19.160
+Se diciamo che creiamo, in realtà, stamperemo solo numeri e finiremo qui per
+
+01:19.160 --> 01:26.290
+i numeri, diamo una serie di 1 2 3 4 5.
+
+01:26.400 --> 01:34.130
+Se faccio clic errati qui vediamo che questi sono i numeri 1 2 3 4 5.
+
+01:34.160 --> 01:37.750
+Perché questo è il passo in cui basta loggarlo.
+
+01:37.850 --> 01:39.210
+Niente di troppo difficile.
+
+01:39.680 --> 01:43.190
+E questi sono i loro rubinetti.
+
+01:43.190 --> 01:50.060
+Tutto quello che stiamo facendo è aggiungere uno con uno e uno con due che è uguale a tre.
+
+01:50.330 --> 01:52.330
+Uno con tre che è uguale a quattro.
+
+01:52.460 --> 01:56.080
+Uno con quattro che equivale a cinque e uno su cinque che è uguale a sei.
+
+01:56.090 --> 02:03.520
+E poi passiamo al ciclo successivo che è due e uno che equivale a tre due e due che è uguale
+
+02:03.520 --> 02:07.710
+a quattro e continua ad andare avanti e avanti e avanti.
+
+02:07.720 --> 02:14.260
+Quindi vediamo i loop che abbiamo fatto qui e problemi come questo è qualcosa che faremo più avanti nel
+
+02:14.260 --> 02:17.500
+corso in questo momento siamo solo preoccupati di big-O.
+
+02:17.770 --> 02:21.810
+Cosa pensi che la notazione Big-O qui stia bene.
+
+02:21.850 --> 02:27.690
+Ancora una volta se facciamo 0 della prima parte è il ciclo for.
+
+02:27.760 --> 02:35.400
+Quindi possiamo dire che c'è un E poi la seconda parte che è di
+
+02:35.400 --> 02:42.530
+nuovo un altro passo, quindi aggiungeremo aggiungendo questo ha due quattro anelli annidati.
+
+02:42.670 --> 02:46.650
+Quindi questo significa 0 alla potenza di due.
+
+02:46.650 --> 02:47.020
+Tutto ok.
+
+02:47.030 --> 02:49.120
+Questa è la nostra notazione Big-O.
+
+02:49.310 --> 02:55.200
+In base alla regola numero quattro si intende abbandonare i termini non dominanti.
+
+02:55.260 --> 02:59.930
+Ciò significa che ci interessa il termine più importante in questo caso.
+
+02:59.940 --> 03:04.240
+In realtà rilasciamo il n e abbiamo appena.
+
+03:04.270 --> 03:13.240
+E alla potenza di due perché come l'input aumenta la dimensione di N alla potenza di due è molto
+
+03:13.240 --> 03:15.080
+più importante della.
+
+03:15.140 --> 03:19.880
+E così manteniamo sempre il termine dominante.
+
+03:20.050 --> 03:21.510
+Lascia che ti dia un altro esempio.
+
+03:22.330 --> 03:32.960
+E se avessimo una funzione che aveva una grande O di diciamo X alla potenza
+
+03:33.380 --> 03:46.070
+di 2 e poi diremmo che ha 3 x più 1000 e forse diremo più X diviso per due.
+
+03:46.080 --> 03:46.920
+Tutto ok.
+
+03:46.920 --> 03:49.470
+Questo è davvero molto confuso che sia matematica.
+
+03:49.470 --> 03:51.960
+Beh, non vogliamo occuparcene troppo.
+
+03:51.960 --> 03:54.180
+Come possiamo semplificare questo.
+
+03:54.180 --> 04:02.980
+Sulla base della riduzione dei termini non dominanti, la quarta regola afferma che di nuovo ci preoccupiamo del termine dominante
+
+04:03.040 --> 04:08.790
+più importante perché X alla potenza di due è il più significativo.
+
+04:08.890 --> 04:19.340
+Cioè se X è 5 5 alla potenza di due è venticinque cinque volte tre è 15.
+
+04:19.360 --> 04:25.060
+Questo è il centodiio diviso per due è 2. 5.
+
+04:25.060 --> 04:28.180
+In questo caso il termine dominante è cento.
+
+04:28.360 --> 04:32.280
+Ma ricorda con big-O siamo preoccupati per la scala.
+
+04:32.320 --> 04:35.740
+E mentre le cose diventano sempre più grandi e più grandi.
+
+04:35.830 --> 04:48.590
+Quindi quando questo diventa cinquemila Well 5000 alla potenza di due o 500 alla potenza di due è 250000.
+
+04:48.610 --> 04:58.220
+Se ho fatto i conti a destra tre volte 500 sono solo centomilacinquecento è ora insignificante e 500
+
+04:58.430 --> 05:01.310
+diviso per due è 250.
+
+05:01.310 --> 05:07.830
+Vedete come questo è cresciuto significativamente di più perché siamo solo preoccupati per la scala qui.
+
+05:08.000 --> 05:11.690
+Lasciamo tutto il resto e possiamo semplicemente ignorarlo completamente.
+
+05:11.810 --> 05:14.830
+E questo diventa X al potere di 2.
+
+05:14.930 --> 05:19.250
+Che bello è che rende le cose molto più semplici.
+
+05:20.600 --> 05:21.880
+Così il gioco è fatto.
+
+05:22.010 --> 05:24.950
+Ora abbiamo un modo per semplificare tutto.
+
+05:24.950 --> 05:28.870
+Se torniamo ai nostri esempi precedenti ricordate questo.
+
+05:29.030 --> 05:37.560
+Ricorda questo, ora ha senso il motivo per cui abbiamo appena detto il big-O di e perché non ci interessano
+
+05:37.560 --> 05:41.020
+gli elementi insignificanti solo quelli più importanti.
+
+05:41.040 --> 05:46.520
+E lo stesso con questo, a proposito di una piccola nota divertente qui.
+
+05:46.780 --> 05:54.090
+Se avessimo un ciclo interno all'interno di questi due anelli, questo diventerebbe o.
+
+05:55.130 --> 05:58.760
+Per il potere di x a cubetti o a cubetti.
+
+05:58.770 --> 06:03.450
+Non importa quello che abbiamo, ma sarà al potere di Thweatt
+
+06:03.690 --> 06:07.750
+perché abbiamo tre livelli nidificati e puoi andare avanti.
+
+06:07.770 --> 06:10.500
+Devi avere il potere di quattro per il potere di cinque.
+
+06:10.590 --> 06:11.810
+Ma ecco la cosa.
+
+06:11.910 --> 06:13.750
+Se hai tre anelli annidati.
+
+06:13.800 --> 06:17.020
+Novantanove punti novantanove per cento del tempo.
+
+06:17.220 --> 06:18.960
+Di solito è una cattiva idea.
+
+06:18.960 --> 06:23.250
+È molto scalabile e molto probabilmente stai facendo qualcosa di sbagliato.
+
+06:24.690 --> 06:25.520
+E il gioco è fatto.
+
+06:25.530 --> 06:32.460
+Abbiamo esaminato le quattro regole e con questo in mente daremo un'occhiata al cheat sheet che ho preparato
+
+06:32.460 --> 06:33.330
+per te.
+
+06:33.330 --> 06:39.600
+Quindi, da ora in poi, invece di dover calcolare tutto e osservare veramente ogni singolo dettaglio
+
+06:39.600 --> 06:47.000
+di una funzione, puoi subito capire che cos'è il big-O o quale sia la complessità temporale di una funzione.

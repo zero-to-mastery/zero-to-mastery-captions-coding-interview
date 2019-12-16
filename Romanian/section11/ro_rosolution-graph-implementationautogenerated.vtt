@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.410 --> 00:02.330
+Bine ai revenit.
+
+00:02.760 --> 00:05.340
+Cum ați făcut acest exercițiu.
+
+00:05.340 --> 00:08.060
+Ați avut succes dacă nu ați fost.
+
+00:08.520 --> 00:09.460
+Iată ce e.
+
+00:09.510 --> 00:19.930
+Acest lucru este de fapt extrem de simplu, dar pare prea complex și este o tendință generală cu Krass.
+
+00:19.940 --> 00:26.930
+Ele arata intr-adevar foarte intimidante la inceput si foarte greu sa te gandesti la ele in mintea ta.
+
+00:26.930 --> 00:31.810
+Dar odată ce puneți lucrurile jos înțelegeți lucrurile, puteți scoate lucrurile.
+
+00:31.980 --> 00:37.280
+Ele sunt de fapt destul de simple și sunt foarte asemănătoare cu ceea ce am învățat
+
+00:37.280 --> 00:45.290
+până acum tot ceea ce am învățat despre tabelele hash arrays listele cu arbori legate sunt toate parte din grafice și grafice pur și simplu utilizează
+
+00:45.410 --> 00:46.810
+acele structuri de date.
+
+00:46.910 --> 00:53.060
+Pentru cei dintre voi care nu au reușit să rezolve această problemă, s-ar putea să fie pentru că ați fost puțin intimidați față
+
+00:53.690 --> 00:55.030
+de sarcina la îndemână.
+
+00:56.020 --> 01:03.570
+Dar permiteți-mi să vă arăt cât de simplu este acest lucru pentru a adăuga un vertex în lista noastră de adiacenți.
+
+01:03.610 --> 01:14.090
+Tot ce trebuie să facem este să spunem pur și simplu că acest Dot avea sau că această listă de apropiere va avea un nod.
+
+01:14.320 --> 01:20.400
+Așa că adăugăm cheia în acest obiect al știu că vrem să adăugăm.
+
+01:20.950 --> 01:27.850
+Și asta va egala o matrice goală deoarece, atunci când intrăm într-un nou nod, nu va
+
+01:27.850 --> 01:29.210
+avea legături inițiale.
+
+01:30.030 --> 01:32.920
+Vrem să adăugăm marginile după aceea.
+
+01:33.910 --> 01:39.840
+Și apoi, în final, vrem să creștem numărul de noduri cu 1.
+
+01:39.850 --> 01:41.760
+Acum avem încă unul.
+
+01:41.760 --> 01:43.240
+Asta e.
+
+01:43.320 --> 01:46.130
+Tocmai am creat notele noastre.
+
+01:46.260 --> 01:47.040
+Uită-te la asta.
+
+01:47.130 --> 01:51.550
+Avem zero până la șase și sunt în graficul nostru.
+
+01:51.570 --> 01:54.260
+Din păcate, niciunul dintre ei nu se conectează la nimic.
+
+01:54.450 --> 01:57.990
+Tocmai am creat notele, dar nu margini.
+
+01:57.990 --> 01:59.510
+Să mergem mai departe și să facem asta.
+
+02:00.510 --> 02:04.270
+Cu marginile deoarece acesta este un grafic nedirecționat.
+
+02:05.180 --> 02:15.920
+Ei bine, va trebui să spunem că această listă adiacentă va spune nu la unul care este primul nod
+
+02:16.010 --> 02:22.540
+pe care îl dăm și nodul pe care îl vom împinge.
+
+02:22.550 --> 02:29.330
+Amintiți-vă că acest lucru este un obiect, așa că primim cheia, așa că să spunem că acesta este nodul 0,
+
+02:29.330 --> 02:35.750
+acesta va împinge la gama de conexiuni care vă cunoaște casa și va spune că va fi
+
+02:36.020 --> 02:42.780
+conectată la Nodul 2 și pentru că aceasta este activată direcționată înseamnă că trebuie să o facem și invers.
+
+02:42.780 --> 02:45.110
+Deci, pur și simplu, copiem asta.
+
+02:45.220 --> 02:51.150
+Să facem acest lucru un pic mai mare, astfel încât să puteți vedea și pur și simplu inversăm lucrurile.
+
+02:51.160 --> 02:55.460
+Deci nr. 2 este, de asemenea, conectat la nodul unu.
+
+02:55.630 --> 03:04.270
+Dacă apăs pe rulați aici, uitați-vă la faptul că graficul nostru este atât de simplu.
+
+03:04.480 --> 03:05.650
+Asta nu a fost corect.
+
+03:05.690 --> 03:09.870
+Și vreau să spun că am putea crea acest lucru într-o listă legată dacă vrem.
+
+03:10.090 --> 03:12.890
+Dar conceptul este același.
+
+03:13.180 --> 03:19.500
+Dacă ne uităm la 0 care este conectat la 1 și 2 putem confirma că 0 este conectat la 1 și 2.
+
+03:19.550 --> 03:30.160
+Dacă ne uităm la 1 3 2 0 1 este colectat 2 3 2 0 și mai puțin Shekh poate 5 care este conectat la 4 6 5
+
+03:30.160 --> 03:32.110
+este conectat la 4 6.
+
+03:32.350 --> 03:36.780
+Și acolo este tocmai am creat primul nostru grafic.
+
+03:37.150 --> 03:43.030
+Când vine vorba de interviuri, graficele nu sunt la fel de importante ca și celelalte date.
+
+03:43.060 --> 03:49.870
+Structurile de date, în cea mai mare parte pentru că au un pic de timp și întrebări referitoare la grafice, pot
+
+03:49.870 --> 03:50.880
+fi prea complexe.
+
+03:50.950 --> 03:54.610
+Asta nu înseamnă că nu le veți vedea, dar sunt rare.
+
+03:54.910 --> 04:03.040
+Cu toate acestea, prin cunoașterea fundamentelor de bază ce tipuri de iarbă avem și cum ați putea crea meșteșuguri cum ați
+
+04:03.490 --> 04:10.600
+putea dori să dețineți date și grafice, cum ar fi matricitatea adjacency adjacency lista o listă de margine.
+
+04:10.600 --> 04:17.480
+Ați arătat deja că aveți abilitatea de a înțelege grafice, care este un concept avansat acum, deoarece
+
+04:17.480 --> 04:21.690
+întrebările grafice nu reprezintă o mare parte din interviuri.
+
+04:21.830 --> 04:24.480
+Nu vom mai petrece timp de codare pe ea.
+
+04:24.620 --> 04:29.690
+Dar țineți minte, de asemenea, că avem o secțiune care vine pe algoritmi în care vom începe
+
+04:29.690 --> 04:35.680
+să ne aruncăm puțin mai adânc în lucruri, cum ar fi prima căutare și căutare de profunzime în primul rând, care
+
+04:35.710 --> 04:37.810
+pot fi aplicate atât digraph și Treece.
+
+04:37.880 --> 04:43.490
+Deci, dacă simți că mai poți învăța câte ceva despre grafice, nu-ți face griji că ajungem încă acolo.
+
+04:43.610 --> 04:47.830
+Dar, pentru moment, felicitări pentru crearea primului dvs. grafic.
+
+04:48.020 --> 04:49.440
+Voi vedea în următorul videoclip.
+
+04:49.790 --> 04:50.120
+Buh-Pa.

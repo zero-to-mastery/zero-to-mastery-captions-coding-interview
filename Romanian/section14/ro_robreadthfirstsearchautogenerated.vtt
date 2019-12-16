@@ -1,0 +1,283 @@
+WEBVTT
+
+00:01.960 --> 00:02.800
+Bine ai revenit.
+
+00:02.890 --> 00:08.680
+Să începem să codificăm primul nostru algoritm cu prima căutare amplă.
+
+00:08.860 --> 00:15.850
+Dacă vă amintiți cu prima căutare în lățime, trebuie să mergem de sus, apoi spre stânga și apoi să
+
+00:15.880 --> 00:18.550
+vizitați toate nodurile din acel nivel.
+
+00:18.550 --> 00:26.650
+Și când am spus că folosește o mulțime de memorie este că atunci când vizitează 6 și 12 de acolo, se va
+
+00:26.650 --> 00:29.820
+întoarce la 1 4 apoi 34 apoi 45.
+
+00:30.100 --> 00:38.380
+Deci, pe măsură ce trece prin acest nivel, trebuie să păstrăm o referință la toate nodurile pentru copii ale fiecărui nod pe care
+
+00:38.560 --> 00:45.940
+le vizităm, astfel încât să ne putem întoarce la ei și să vizităm 1 și 4 de unde vine memoria,
+
+00:46.000 --> 00:52.030
+pentru că trebuie să ținem evidența din acei copii de nivelul pe care suntem pe.
+
+00:52.100 --> 00:59.990
+Și veți observa și această cale pe care o luăm de la nouă la 6 la 12 la una la patru la 34 la 45.
+
+01:00.170 --> 01:05.810
+Vom folosi o structură de date Q care ne permite să păstrăm o referință la notele la
+
+01:05.810 --> 01:10.480
+care vrem să ne întoarcem deoarece știm că 6 este în fața a 12.
+
+01:10.550 --> 01:14.970
+Putem să ne întoarcem la el și să descoperim nodurile copilului său.
+
+01:15.410 --> 01:22.610
+Deci, haideți să codificăm cu algoritmul nostru de căutare primul respirație, avem aici arborele nostru de căutare binar
+
+01:22.670 --> 01:25.620
+din secțiunea noastră structură de date arborescentă.
+
+01:25.620 --> 01:32.930
+Am implementat deja metodele de inserare a inserării Look-Up și am creat acest arbore binar de căutare
+
+01:32.990 --> 01:36.390
+care ne dă acest tip de copac.
+
+01:36.410 --> 01:46.250
+Să le eliminăm deocamdată și să începem să codificăm propriile noastre implementări de căutare și, în mod ideal, sunând la
+
+01:46.250 --> 01:52.720
+această funcție, vom obține o listă a tuturor acestor elemente în ordinea respirației.
+
+01:52.760 --> 01:59.760
+Prima căutare care este 9: 4 20 o dată x 15 170.
+
+01:59.900 --> 02:00.710
+Să
+
+02:03.820 --> 02:05.080
+chemăm această primă
+
+02:08.670 --> 02:12.010
+căutare și aici avem nevoie de trei lucruri.
+
+02:12.060 --> 02:19.460
+Una este nodul curent care va începe cu nodul rădăcină și avem nevoie de
+
+02:23.390 --> 02:25.440
+alte două lucruri.
+
+02:25.490 --> 02:33.770
+Una este lista actuală care va fi răspunsul nostru va avea o matrice aici, unde vom introduce aceste
+
+02:33.770 --> 02:36.570
+numere în ordinea respirației pentru căutare.
+
+02:36.920 --> 02:43.780
+Și avem nevoie și de o structură de date Q care va folosi o matrice pentru acest exemplu.
+
+02:44.710 --> 02:53.740
+Pentru a urmări nivelul la care ne aflăm, astfel încât să putem accesa copiii odată ce trecem prin el, amintiți-vă că vom urmări
+
+02:53.750 --> 03:00.020
+9, atunci vom urmări 6 și 12 și când ajungem la 6 și 12 care va
+
+03:00.110 --> 03:01.720
+fi în coada noastră.
+
+03:01.760 --> 03:10.520
+Dar trebuie să ne întoarcem odată ce suntem la sfârșitul acestui nivel la 6 astfel încât să putem descoperi 1 și 4.
+
+03:10.570 --> 03:12.630
+Deci, pentru asta va fi folosit Q.
+
+03:13.740 --> 03:20.410
+Acum, primul lucru pe care îl vom face este să adăugăm la coadă primul element nodul rădăcină.
+
+03:20.700 --> 03:29.040
+Așa că vom spune că Q Dot împinge nodul curent.
+
+03:29.100 --> 03:36.000
+Acum, ceea ce trebuie să facem aici este să mergem de la nodul curent până la nodul nostru de copii și din nou mergem de
+
+03:36.000 --> 03:41.380
+la stânga la dreapta și apoi mergem la nota copiilor lor și mergem de la stânga la dreapta.
+
+03:41.550 --> 03:48.000
+Și modul în care o să facem asta este să folosim o buclă în timp și vom spune că atâta timp cât Q
+
+03:48.600 --> 03:52.840
+Dot lenth va fi mai mare decât zero, adică nu mai avem nimic în coadă.
+
+03:54.050 --> 04:01.100
+În acest caz, vom spune că nodul curent va fi q schimbare punct și
+
+04:03.880 --> 04:10.300
+schimbare pur și simplu înseamnă că luăm primul element din coadă.
+
+04:10.300 --> 04:15.730
+Amintiți-vă că o coadă este doar linia până la roller coaster și prima persoană
+
+04:15.730 --> 04:24.400
+care vine vine să meargă mai întâi pe roller coaster și schimbarea pur și simplu întoarce și elimină primul element din
+
+04:24.400 --> 04:29.770
+coadă și cazul nostru va avea 9 ca primul element în coada.
+
+04:29.770 --> 04:40.320
+Nodul 9 și o vom schimba și îl vom atribui nodului curent și pentru că acesta este nodul rădăcină pe care
+
+04:40.320 --> 04:48.990
+dorim să-l începem în răspunsul nostru că lista va avea numărul nouă din partea de sus.
+
+04:49.200 --> 04:51.600
+Să ne mișcăm aici doar ca să vezi mai bine.
+
+04:54.470 --> 05:06.280
+Deci, primul lucru pe care îl vom face este să spuneți lista dot push nodul curent punct Valley, care va fi nouă.
+
+05:06.450 --> 05:11.190
+Deci, avem primul răspuns în lista noastră, care nu este de acolo.
+
+05:11.250 --> 05:18.600
+Vom spune că cele nouă noduri au un copil stâng.
+
+05:19.670 --> 05:27.740
+Pentru că dacă o adăugăm la Q spunând că trebuie să verificăm acea notă și o
+
+05:27.740 --> 05:41.440
+vom împinge la punctul nodului Q curent, așa că ceea ce am făcut aici este că am adăugat patru la coadă și apoi de asemenea, dorim să
+
+05:41.450 --> 05:44.280
+adăugăm 20 la acest lucru.
+
+05:44.510 --> 05:50.870
+Așa că am să spun că dacă după ce ai adăugat 4 la coadă, o să spun că
+
+05:50.870 --> 05:54.420
+are o notă curentă având un nod copil nod drept.
+
+05:54.560 --> 06:01.490
+În acest caz, Wolf a adăugat din nou la coadă ca al doilea element din coadă
+
+06:02.180 --> 06:07.160
+și rata actuală fără îndoială va fi împinsă la coadă.
+
+06:07.260 --> 06:09.950
+Și acesta este uimitorul lucru din tot ce am făcut.
+
+06:10.050 --> 06:17.660
+Acum că coada de așteptare are două elemente pe măsură ce trece, veți avea 4 și 20.
+
+06:17.840 --> 06:28.400
+Va trece prin această linie și va spune că q se va schimba și va apăsa pe
+
+06:28.400 --> 06:30.050
+lista curentă.
+
+06:30.790 --> 06:36.060
+Și apoi va spune că hei are patru au un copil stâng.
+
+06:36.100 --> 06:37.660
+Da, are una.
+
+06:37.810 --> 06:40.030
+Ei bine, apoi adăugat la coadă.
+
+06:40.450 --> 06:48.350
+Deci, unul se adaugă la coada de așteptare care are pentru 20 și acum 1 și apoi spunem că hei are 4 au un copil dreapta.
+
+06:48.790 --> 06:49.950
+Da, avem șase.
+
+06:50.140 --> 06:52.080
+Ei bine, vom adăuga asta la coadă din nou.
+
+06:52.090 --> 06:58.570
+Așa că vom avea 4 21: 6 și apoi vom reveni la vârf și vom spune ce urmează în linie.
+
+06:58.720 --> 07:00.030
+Ei bine, avem 20 de ani.
+
+07:00.070 --> 07:03.010
+Deci, să trecem 20.
+
+07:03.070 --> 07:04.030
+Prinde asta.
+
+07:04.030 --> 07:08.000
+Eliminați-l din coada noastră și treceți din nou din nou.
+
+07:08.050 --> 07:14.760
+Copilul din stânga va fi de 15 ani și va scrie un copil care va fi de 170 dacă am anulat toate jurnalele de aici.
+
+07:15.890 --> 07:22.370
+Actualul nostru nod dot Valley și, de fapt, trebuie doar să vă
+
+07:26.270 --> 07:30.170
+conectați aici, care va fi schimbat.
+
+07:30.180 --> 07:35.310
+Nu, asta e "Nu" că vom lucra și vom verifica
+
+07:35.310 --> 07:45.890
+și va trebui să-l sunăm de fapt, așa că să facem respirația copacilor pentru o căutare și fac clic pe rulare vedem că verific
+
+07:45.890 --> 07:53.610
+9, m verificând că verific 20, că verific una, apoi șase apoi 15 apoi 170 foarte cool.
+
+07:53.790 --> 07:56.220
+Și o împingem de fiecare dată la listă.
+
+07:56.580 --> 08:06.820
+Deci, tot ce trebuie să facem la final este doar salvați lista de întoarcere, astfel încât, dacă voi rula acest aspect, că am respirația
+
+08:06.820 --> 08:07.350
+mea.
+
+08:07.520 --> 08:13.580
+Prima căutare care returnează nouă după 20.
+
+08:13.600 --> 08:18.520
+Sunt 1 16 și 170.
+
+08:18.680 --> 08:20.600
+Nu a fost prea rău a fost.
+
+08:20.600 --> 08:28.490
+Vedem din acest cod aici că este destul de simplu și singura problemă pe care o avem este că
+
+08:28.520 --> 08:38.060
+această coadă poate deveni destul de mare pentru că trebuie să ținem referință la nodurile noastre copilului consumul de memorie care ne poate
+
+08:38.480 --> 08:39.650
+face rău.
+
+08:39.680 --> 08:48.890
+Este acest cue pe care noi continuăm să-l adunăm continuând să adăugăm lucruri pe care le adaugăm de asemenea la Q Deci dacă avem un copac cu adevărat lat
+
+08:48.890 --> 08:55.340
+în locul unui copac binar în care avem doar o stânga și un drept și poate avem 10 note copil
+
+08:55.400 --> 09:02.060
+această coadă poate ajunge destul de mare și în funcție de datele pe care consumul de memorie ar putea fi
+
+09:02.630 --> 09:03.200
+mari.
+
+09:03.200 --> 09:06.230
+Și acesta este unul dintre principalele dezavantaje cu Brad pentru căutare.
+
+09:06.650 --> 09:13.050
+Dar, sperăm că vedeți simplitatea respirației, prima căutare nu a fost prea rău, a fost bine, vă voi
+
+09:13.050 --> 09:14.660
+vedea în următorul videoclip.

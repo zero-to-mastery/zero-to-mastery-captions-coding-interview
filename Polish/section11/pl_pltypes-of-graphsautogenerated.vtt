@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.640 --> 00:07.330
+Jak widzieliśmy, istnieje wiele rodzajów wykresów, ale istnieją pewne cechy, które pozwalają nam opisywać
+
+00:07.330 --> 00:07.990
+wykresy.
+
+00:08.200 --> 00:09.790
+Przejdźmy do nich.
+
+00:09.790 --> 00:15.880
+Jedną rzeczą, którą naprawdę chcesz poznać, jest pomysł skierowania na skierowany
+
+00:15.880 --> 00:16.840
+wykres.
+
+00:16.930 --> 00:23.440
+Tego typu wykresy są przydatne do opisywania przepływu ruchu, na przykład pewnego rodzaju
+
+00:23.440 --> 00:27.140
+systemu, w którym ruch nie jest dwukierunkowy.
+
+00:27.220 --> 00:34.180
+Oznacza to, że tak jak tutaj, gdzie mogę przechodzić między notatkami, mogę iść tylko w jednym kierunku.
+
+00:35.770 --> 00:43.210
+Dobrym sposobem na przemyślenie grafu jest myślenie o autostradzie pomiędzy dwoma miastami, gdzie możesz jechać tam iz powrotem,
+
+00:43.210 --> 00:49.480
+z drugiej strony będzie to ulica jednokierunkowa, na którą możesz iść tylko w jedną
+
+00:49.480 --> 00:50.100
+stronę.
+
+00:50.470 --> 00:57.150
+Innym sposobem na przemyślenie tego jest Facebook, jaki rodzaj wykresu uważasz, że Facebook ma.
+
+00:58.080 --> 01:06.120
+Cóż, ma on skierowany wykres, ponieważ kiedy jestem połączony z przyjacielem, który jest również ze mną związany,
+
+01:06.120 --> 01:08.530
+nie jest to jedna droga.
+
+01:08.580 --> 01:09.570
+A co z Twitterem?
+
+01:10.570 --> 01:20.120
+Twitter jest bardziej ukierunkowany, ponieważ jeśli mam swój profil, ludzie mogą podążać za mną i mogę śledzić ludzi.
+
+01:20.230 --> 01:23.770
+Ale jeśli ktoś mnie śledzi, nie podążam za nimi automatycznie.
+
+01:23.770 --> 01:32.460
+W związku z tym, że Twitter jest bardziej ukierunkowany, innym sposobem opisywania wykresów jest idea ważonych wykresów na
+
+01:32.550 --> 01:41.110
+czekanych i czekanych wykresach, a jak widać na obrazach wartości można zastosować do różnych aspektów wykresu.
+
+01:41.220 --> 01:47.670
+Nie tylko notatki pamiętają, że notatki mogą przenosić wszelkiego rodzaju informacje, ale za pomocą wykresów można
+
+01:47.670 --> 01:53.490
+również uzyskać informacje na krawędziach i połączeniach, być może wybierasz się w podróż i
+
+01:53.490 --> 01:58.490
+próbujesz znaleźć najbardziej efektywny sposób na odwiedzanie interesujących Cię witryn .
+
+01:58.650 --> 02:05.370
+W takim przypadku Mapy Google użyłyby ważonego wykresu, aby zdecydować, jaka jest najkrótsza droga, aby
+
+02:05.370 --> 02:13.060
+się tam dostać, a tego typu wykresy są często używane do obliczania optymalnych ścieżek, najszybszy sposób, aby
+
+02:13.060 --> 02:16.790
+uzyskać, na przykład, od 1 do 6.
+
+02:16.800 --> 02:27.430
+Wreszcie inny sposób opisu wykresu jest cykliczny lub acykliczny, gdy masz połączone wierzchołki w sposób
+
+02:27.610 --> 02:28.630
+kołowy.
+
+02:28.780 --> 02:33.970
+Nazywa się to cyklem, kiedy można przejść z jednego węzła do drugiego, a następnie z
+
+02:33.970 --> 02:40.550
+powrotem do tego oryginalnego węzła w porównaniu z acyklicznym, gdzie można to zrobić, a wykresy kodu C są bardzo powszechne.
+
+02:40.590 --> 02:49.150
+Szczególnie ważone wykresy, takie jak mapy Google, ponieważ w większości przypadków istnieje sposób na odzyskanie.
+
+02:49.180 --> 02:57.480
+Teraz rozumiemy kilka sposobów opisywania wykresów. Pokażę ci mój ulubiony wykres wszechczasów.
+
+02:57.570 --> 02:59.820
+To jest mój ulubiony wykres.
+
+03:00.900 --> 03:05.990
+Jest to projekt opti i jest to częściowa mapa Internetu.
+
+03:06.300 --> 03:12.680
+Jeśli spojrzysz tutaj, zobaczysz, że mamy adresy IP łączące się z adresami IP.
+
+03:12.810 --> 03:17.580
+A to wszystkie węzły połączone, aby stworzyć internet.
+
+03:17.730 --> 03:19.210
+Całkiem spektakularne prawo.
+
+03:19.230 --> 03:24.290
+To najlepszy przykład wykresu.
+
+03:24.310 --> 03:31.600
+Teraz, gdy rozumiemy lub przynajmniej rozumiemy podstawowe wykresy, zróbmy fajne ćwiczenie.

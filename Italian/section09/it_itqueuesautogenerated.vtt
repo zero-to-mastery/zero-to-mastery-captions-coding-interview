@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.050 --> 00:02.160
+Ben tornato.
+
+00:02.220 --> 00:10.970
+Le CU sono la nostra prossima struttura dati e il modo migliore di pensarle è come un ingresso in montagne russe.
+
+00:11.030 --> 00:16.460
+La prima persona che arriva in linea arriva prima sulle montagne russe e poi la seconda persona deve
+
+00:16.460 --> 00:19.100
+andare e poi la terza persona deve andare.
+
+00:19.250 --> 00:23.950
+E il quarto il quinto e il sei finalmente se ne vanno.
+
+00:24.260 --> 00:34.730
+Quindi è l'opposto degli stack in cui accediamo per primo in prima uscita, il primo elemento nella coda ottiene prima l'accesso
+
+00:34.940 --> 00:37.290
+che è il primo.
+
+00:37.370 --> 00:45.690
+Chiamiamo FIFO e le code vengono utilizzate di nuovo molto nei problemi di programmazione e nelle domande di intervista.
+
+00:45.740 --> 00:53.660
+Per esempio, se hai qualche tipo di app di waitlist per comprare i biglietti per un concerto che usa degli
+
+00:54.110 --> 01:01.690
+spunti e un'app di ristorante dove controlli nel ristorante per vedere se riesci a prendere un tavolo che usi
+
+01:01.690 --> 01:02.420
+Skewes.
+
+01:02.720 --> 01:08.380
+Che mi dici di Oubre o dell'ascensore quando vuoi fare un giro.
+
+01:08.750 --> 01:14.400
+Bene, la persona che ha richiesto la corsa per prima avrà la priorità e poi la seconda.
+
+01:14.630 --> 01:18.980
+E infine l'esempio più comune di code è una stampante giusta.
+
+01:19.010 --> 01:24.060
+Se hai una stampante a casa e hai tre persone su tre computer diversi o casa tua.
+
+01:24.110 --> 01:29.880
+Diciamo i membri della tua famiglia e tu stampa la stampa e ogni persona stampa diversi oggetti.
+
+01:29.990 --> 01:34.920
+La persona che fa clic prima sulla stampa dovrebbe avere la prima stampa.
+
+01:35.210 --> 01:37.610
+E lo stesso vale per la seconda persona che viene dopo.
+
+01:37.610 --> 01:44.750
+E poi la terza persona ora sulla destra qui ho un paio di parole che sono diverse da spingere e pop
+
+01:44.810 --> 01:47.930
+e sto usando un po 'di standard qui.
+
+01:47.960 --> 01:55.640
+Puoi usare push per e cue che significa aggiungere alla stecca che è a una persona in linea che
+
+01:55.650 --> 02:02.080
+è 0 1 e dequeue che puoi pensare come pop che rimuove persona dalla riga.
+
+02:02.240 --> 02:09.110
+Tuttavia, il dequeue a differenza del pop non accetta che l'ultima persona in linea prenda la prima persona.
+
+02:09.110 --> 02:11.970
+Ecco dove sono diversi stack e segnali.
+
+02:12.020 --> 02:18.290
+E abbiamo questi nomi per assicurarci di comprendere le differenze, ma abbiamo un picco che ci dice ancora
+
+02:18.290 --> 02:24.980
+una volta quale sarà il primo elemento che verrà fuori che è la prima persona nella lista contro una
+
+02:24.980 --> 02:30.520
+stecca che è l'ultima giocata che è stata la ultimo ad entrare, primo ad uscire.
+
+02:31.040 --> 02:37.490
+E ancora una volta guardi in una Q Di solito non lo fai perché ti interessa solo il
+
+02:37.490 --> 02:38.840
+cueing e Dijk.
+
+02:39.090 --> 02:42.850
+Puoi vedere qui che la notazione O grande è abbastanza veloce.
+
+02:42.990 --> 02:49.140
+In realtà lo dimostreremo in codice, ma voglio che tu tenti di rispondere a questa
+
+02:49.620 --> 02:56.840
+domanda, perché non vorresti usare un array per creare una cue mettere in pausa il video se vuoi pensarci.
+
+02:57.800 --> 03:05.630
+Beh, la risposta è che è molto inefficiente perché stiamo rimuovendo il primo elemento dall'elenco.
+
+03:05.690 --> 03:13.010
+Se ti ricordi di matrici se sposti qualcosa, rimuovi il primo oggetto che dovrai spostare tutti
+
+03:13.070 --> 03:14.290
+quegli indici.
+
+03:14.450 --> 03:21.140
+Quindi creare una coda dagli array anche se puoi farlo è davvero pessima.
+
+03:21.330 --> 03:24.580
+E questo è qualcosa su cui parleremo un po 'di più quando effettivamente lo codifichiamo.
+
+03:25.330 --> 03:25.920
+OK.
+
+03:26.270 --> 03:28.070
+Questo è abbastanza per CU's.
+
+03:28.070 --> 03:29.660
+Andiamo al nostro primo esercizio.

@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.360 --> 00:02.240
+Selamat datang kembali.
+
+00:02.470 --> 00:08.800
+Saatnya untuk membuat struktur data daftar tertaut pertama kami dan katakanlah saya ingin membuat daftar
+
+00:08.800 --> 00:13.190
+tertaut yang memiliki 10 poin menjadi lima poin menjadi 16.
+
+00:13.320 --> 00:15.460
+Sederhana kecil yang bagus.
+
+00:15.460 --> 00:22.330
+Pertama bagaimana kita akan memvisualisasikan ini dalam bahasa seperti javascript yang tidak memiliki daftar
+
+00:22.380 --> 00:23.120
+tertaut.
+
+00:24.320 --> 00:31.110
+Baiklah kita dapat mengatakan bahwa kita memiliki daftar tertaut baru, mari kita gunakan timah saja di sini.
+
+00:31.280 --> 00:41.570
+Daftar tertaut saya dan ini akan sama dengan objek yang memiliki properti kepala ingat karena
+
+00:41.570 --> 00:46.400
+item pertama dalam daftar tertaut adalah kepala.
+
+00:46.590 --> 00:49.290
+Dan kita akan memiliki catatan.
+
+00:49.410 --> 00:53.990
+Inti dari simpul itu adalah untuk mengatakan hei apa pun yang ada di salju.
+
+00:53.990 --> 01:00.230
+Cukup masukkan apa pun yang Anda inginkan dan itu adalah wadah di sekitar data ini.
+
+01:00.320 --> 01:04.180
+Jadi pikirkan note sebagai seember data.
+
+01:04.340 --> 01:11.030
+Dan dalam hal ini kita bisa menggunakan objek untuk meletakkan data kita di semua
+
+01:11.030 --> 01:20.270
+simpul ini yang perlu ada dalam daftar tertaut adalah properti nilai dari apa nilai catatan itu Ditambah properti berikutnya yang
+
+01:20.570 --> 01:23.250
+merupakan penunjuk ke simpul berikutnya.
+
+01:23.270 --> 01:33.860
+Sekarang nilai ini bisa berupa apa pun yang kita inginkan dan properti berikutnya harus menjadi pointer atau referensi ke node berikutnya ketika
+
+01:33.860 --> 01:41.340
+dalam hal ini akan menjadi objek sehingga akan menjadi objek nother yang akan kita referensi
+
+01:41.350 --> 01:42.630
+dalam memori.
+
+01:42.700 --> 01:48.130
+Dengan cara ini nilai not selalu dapat berubah tetapi pointer selalu akan menunjuk ke sana.
+
+01:48.160 --> 01:51.860
+Jadi kami dapat mengubah item dan tidak ada yang akan berubah.
+
+01:51.880 --> 01:55.650
+Itu masih akan menunjuk ke nilai yang diubah dan diperbarui itu.
+
+01:55.660 --> 01:57.130
+Mari saya tunjukkan apa yang saya maksud.
+
+01:57.130 --> 02:06.430
+Kami memiliki kepala di sini dalam hal ini 10 jadi kami ingin menetapkan 10 nilai Azara dan ini di depan
+
+02:06.430 --> 02:11.370
+akan merujuk titik ke simpul berikutnya yang akan memiliki nilai.
+
+02:12.130 --> 02:13.410
+Dari 5.
+
+02:13.580 --> 02:20.250
+Pastikan saya menambahkan koma di sini dan nilai selanjutnya dari apa yang Anda pikirkan.
+
+02:20.540 --> 02:29.750
+Nah catatan selanjutnya dalam daftar yang bernilai 16 dan selanjutnya referensi apa.
+
+02:29.930 --> 02:34.540
+Nah 16 adalah ekor dari daftar tertaut kami.
+
+02:34.580 --> 02:39.680
+Jadi itu berarti harus menunjuk ke nol atau apa yang kita sebut null diakhiri.
+
+02:39.710 --> 02:43.210
+Itu artinya akhir dari daftar sempurna.
+
+02:43.230 --> 02:51.870
+Jadi ini yang ingin kita buat daftar tertaut menggunakan ini sebagai struktur kita.
+
+02:51.870 --> 03:02.840
+Kita akan membuat kelas yang disebut Daftar tertaut kelas dan kelas ini dan kita seharusnya sudah akrab dengan
+
+03:02.840 --> 03:04.120
+sintaksis sekarang.
+
+03:04.370 --> 03:10.310
+Kami akan memiliki konstruktor yang merupakan fungsi yang dijalankan di awal ketika kami membuat
+
+03:10.310 --> 03:11.270
+daftar tertaut.
+
+03:11.270 --> 03:14.350
+Itu akan mengambil nilai.
+
+03:14.560 --> 03:15.390
+Apa artinya.
+
+03:15.460 --> 03:27.770
+Ya, ketika kami akhirnya mengatakan bahwa kami sedang membuat daftar tertaut saya. Ingat kami ingin membuat ini ketika saya membuat daftar
+
+03:27.770 --> 03:29.570
+tertaut saya.
+
+03:29.570 --> 03:37.190
+Saya akan instantiate kelas yang menjalankan fungsi kelas di sini jalankan konstruktor dan buat
+
+03:37.340 --> 03:38.940
+daftar tertaut.
+
+03:38.990 --> 03:44.870
+Saya akan mengatakan daftar tertaut dan kemudian memberikan nilai untuk memulai daftar karena sementara daftar dapat
+
+03:44.870 --> 03:48.620
+kosong untuk memiliki sesuatu yang harus dimulai dengan kepala.
+
+03:48.980 --> 03:56.460
+Jadi dalam kasus kami, kami ingin memulai dengan 10 dan idealnya dengan menjalankan perintah ini.
+
+03:56.460 --> 04:02.280
+Kami telah membuat bagian pertama dari daftar tertaut kami hanya 10.
+
+04:02.540 --> 04:05.320
+Biarkan saya berkomentar karena kami tidak akan membutuhkannya untuk saat ini.
+
+04:07.760 --> 04:10.340
+Sekarang dalam konstruktor ini kita miliki.
+
+04:10.490 --> 04:18.710
+Yah dokumen ini memiliki referensi karena sementara kita perlu melacak kepala dan kepala ini akan
+
+04:18.710 --> 04:24.870
+hanya memiliki nilai yang sama dengan nilai yang kita lewati.
+
+04:24.900 --> 04:29.810
+Itu adalah 10 di sini dan akhirnya yang berikutnya.
+
+04:30.000 --> 04:31.350
+Dan apa yang seharusnya terjadi selanjutnya.
+
+04:31.380 --> 04:34.110
+Ketika kami pertama kali membuat daftar ini.
+
+04:34.110 --> 04:41.380
+Nah karena 10 adalah satu-satunya hal yang akan memiliki atau satu node berikutnya akan sama dengan tidak
+
+04:41.490 --> 04:47.640
+Pertama-tama, ingat konstruktor adalah tentang membuat daftar tertaut pertama.
+
+04:47.650 --> 04:55.280
+Catat apa yang terjadi ketika kita membuat kelas untuk memulai daftar tertaut saya.
+
+04:55.710 --> 05:00.430
+Dan akhirnya kami memiliki dua informasi lain yang perlu kami lacak.
+
+05:00.480 --> 05:09.270
+Salah satunya adalah dongeng ini dan ingat kata ini hanya merujuk ke daftar tertaut sehingga hanya mengacu pada daftar
+
+05:09.270 --> 05:11.440
+tertaut yang kita buat
+
+05:11.550 --> 05:13.470
+Apa ekornya nanti.
+
+05:14.130 --> 05:19.560
+Nah karena kita hanya punya satu item kepala juga ekor.
+
+05:19.590 --> 05:22.490
+Jadi kami hanya mengatakan ini kepala Tuhan.
+
+05:22.890 --> 05:29.580
+Ngomong-ngomong, saya kenal dia sedikit membingungkan dan saat kita melihat seri video ini di Linked
+
+05:29.580 --> 05:33.000
+Lists, agak sulit untuk menyelami pikiran Anda.
+
+05:33.000 --> 05:39.450
+Jadi saya sangat merekomendasikan agar Yokota menyembuhkan lama dan melakukan latihan karena hanya menonton saya berbicara
+
+05:39.450 --> 05:42.730
+tentang daftar tertaut tidak akan memperkuat informasi Anda.
+
+05:42.840 --> 05:45.510
+Sulit untuk benar-benar memvisualisasikan hal-hal.
+
+05:45.780 --> 05:51.870
+Jadi, Anda mungkin perlu membuat daftar tertaut beberapa kali untuk benar-benar memahami hal itu
+
+05:51.870 --> 05:59.550
+tetapi ini akan menjadi kebiasaan kedua setelah Anda terbiasa dengan sintaks dan juga gagasan memiliki kepala dan ekor
+
+05:59.550 --> 06:01.310
+ini dan tetap merujuknya.
+
+06:01.470 --> 06:09.030
+Bagian terakhir dari teka-teki adalah jika Anda mau, kami dapat melacak panjang daftar yang ditautkan.
+
+06:09.030 --> 06:14.280
+Ini opsional tetapi saya pikir bagus untuk tetap melacak dan karena kami memiliki satu
+
+06:14.760 --> 06:20.190
+item ketika kami membuat daftar tautan ini karena kami memberikan nilai kami akan memberikannya panjang 1.
+
+06:20.200 --> 06:20.810
+Itu dia.
+
+06:20.980 --> 06:30.290
+Jika saya menjalankan ini, Anda mendapatkan kesalahan karena baik saya memiliki kode ini yang tidak benar-benar javascript jadi mari kita komentar
+
+06:30.290 --> 06:32.720
+itu dan klik jalankan lagi.
+
+06:33.760 --> 06:36.730
+Saya mendapatkan undefined sementara karena kami belum login apa pun.
+
+06:36.920 --> 06:49.910
+Tetapi jika konsol saya mencatat daftar tautan saya dan saya menjalankan tampilan ini maka saya memiliki daftar tautan dengan kepala yang
+
+06:49.910 --> 06:51.150
+bernilai 10.
+
+06:51.350 --> 06:58.460
+Berikutnya adalah null karena sementara hanya ada satu simpul dan ekor yang merupakan hal yang sama persis menunjuk
+
+06:58.460 --> 07:00.860
+ke M. dan panjang satu.
+
+07:01.040 --> 07:02.290
+Selamat.
+
+07:02.330 --> 07:06.530
+Kami baru saja membuat daftar tautan pertama kami.
+
+07:06.530 --> 07:09.900
+Namun sudah waktunya untuk sedikit latihan.
+
+07:09.920 --> 07:12.030
+Daftar kami tidak lengkap benar.
+
+07:12.080 --> 07:18.920
+Kita perlu membuat daftar tertaut ini sehingga kita harus dapat menambah 5 dan 16.
+
+07:18.920 --> 07:21.630
+Jadi tantangan saya kepada Anda adalah ini.
+
+07:22.520 --> 07:31.860
+Kami ingin membuat metode append dan metode append ini akan mengambil nilai dan di sini.
+
+07:34.140 --> 07:48.820
+Kami ingin menulis sepotong kode yang memungkinkan kami untuk mengatakan Konst untuk daftar tertaut saya menambahkan Daut dan memberikan
+
+07:48.820 --> 07:49.850
+nilai.
+
+07:49.870 --> 07:56.290
+Jika kita melihat daftar 5 kita untuk ditambahkan ke daftar kita saat ini.
+
+07:56.290 --> 08:10.390
+Jadi saya ingin dapat mengatakan menambahkan 5 dan kemudian menambahkan 16 untuk membuat daftar 10 5 dan 16 yang lengkap.
+
+08:10.420 --> 08:13.200
+Bagaimana Anda melakukannya?
+
+08:14.000 --> 08:19.980
+Dan saya akan meninggalkan ini untuk Anda coba.
+
+08:20.050 --> 08:24.730
+Ingat ini mungkin agak sulit dan saya akan memberikan solusi video dan kami akan kode bersama.
+
+08:24.730 --> 08:29.980
+Tapi saya mendorong Anda untuk menantang diri sendiri dan hanya berpikir tentang apa yang terjadi dan
+
+08:29.980 --> 08:34.450
+apa yang telah kami lakukan di konstruktor untuk membuat metode penambahan ini.
+
+08:34.460 --> 08:37.560
+Semoga sukses dan sampai jumpa di video solusi.
+
+08:37.570 --> 08:38.170
+Sampai jumpa.

@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.630 --> 00:08.320
+Zaimplementujmy naszą strukturę danych. Pierwszą rzeczą, którą zrobimy, jest ładne i proste
+
+00:08.350 --> 00:15.300
+spojrzenie, które po prostu mówi nam, co jest pierwszym elementem w naszej kolejce.
+
+00:15.340 --> 00:28.020
+Więc to jest na pierwszym miejscu, gdzie chcemy się zagłębić, jeśli uruchomię cue dot peek powinienem dostać.
+
+00:28.340 --> 00:36.560
+Nie, ponieważ nie ma absolutnie nic w naszej kolejce Co powiesz na Cue lub Anke.
+
+00:36.810 --> 00:37.980
+Nie jestem pewien, jak to wymówić.
+
+00:37.980 --> 00:40.670
+Chodźmy tam z tobą.
+
+00:40.890 --> 00:47.070
+Chcemy dodać do naszej listy oczekujących ponownie podobne do tego, co zrobiliśmy ze stosami.
+
+00:47.070 --> 00:53.790
+Zamierzamy stworzyć nowy węzeł i będziemy tworzyć instancję tej nowej notatki z wartością.
+
+00:53.790 --> 00:55.960
+Pamiętaj, że mamy tutaj klasę.
+
+00:57.700 --> 01:04.330
+I ta wartość zostanie dodana do węzła, który ma tę wartość, a następnie tę kropkę.
+
+01:04.620 --> 01:14.130
+Następnie chcemy sprawdzić i powiedzieć hej, jeśli ten DOD Dental zostanie wywołany do zera.
+
+01:14.160 --> 01:16.970
+Oznacza to, że nie ma niczego w naszej kolejce.
+
+01:17.430 --> 01:28.930
+Następnie powiedz po prostu, że ta rzecz będzie równa nowemu węzłowi i tym samym z tą kropką jako ostatnią, ponieważ na naszej liście
+
+01:28.940 --> 01:32.040
+znajduje się tylko jeden węzeł.
+
+01:32.050 --> 01:38.410
+Jest to bardzo podobne do tego, co zaimplementowaliśmy w stosie.
+
+01:38.510 --> 01:50.120
+W przeciwnym razie możemy powiedzieć, że to nie może trwać dalej.
+
+01:50.130 --> 01:53.200
+Tak więc to, co jest na samym końcu linii.
+
+01:53.520 --> 01:59.860
+I niezależnie od następnej wartości, która początkowo cokolwiek jest ostatnia, wskazuje na nie.
+
+01:59.970 --> 02:07.880
+Ale chcemy to zaktualizować, aby powiedzieć, że tym razem zamiast Punktu Bez Punktu, to zauważysz jako ostatni w linii.
+
+02:08.550 --> 02:19.010
+I chcemy zaktualizować to ostatnie dwie ostatnie teraz równe nowemu węzłowi, tak aby cokolwiek było ostatnie w linii wskazuje
+
+02:19.010 --> 02:25.490
+teraz na nowy węzeł, a nowy węzeł jest teraz ostatni, który
+
+02:25.730 --> 02:38.640
+ma się upewnić, że to ostatnie wskazuje na koniec. Wreszcie możemy zapomnij zwiększyć długość o 1, a następnie po prostu zwróćmy tę naszą
+
+02:38.930 --> 02:40.390
+strukturę danych.
+
+02:40.470 --> 02:41.640
+Więc spójrzmy.
+
+02:41.640 --> 02:45.270
+Chcemy stworzyć tę linię.
+
+02:45.370 --> 02:52.840
+Q Więc wszystko, co zamierzamy zrobić, to powiedzieć, że chcemy uzyskać radość.
+
+02:53.090 --> 02:57.520
+W rzeczywistości jak pierwsza notatka Rona, mam radość z następnym.
+
+02:57.740 --> 03:02.620
+Ostatni węzeł to znowu radość z kolejnym brakiem i długością jednego.
+
+03:02.630 --> 03:03.820
+Jak na razie dobrze.
+
+03:04.010 --> 03:08.130
+Co jeśli Matt przyjdzie i dostanie się w kolejce.
+
+03:08.340 --> 03:13.010
+We Matt mamy teraz pierwszą nutę, która jest radością i ostatnim węzłem.
+
+03:13.070 --> 03:14.020
+To jest Matt.
+
+03:14.090 --> 03:21.210
+I widać tutaj, że pierwsza nuta radości wskazuje na następny węzeł, który nie jest.
+
+03:21.340 --> 03:23.360
+W porządku, dodajmy jeszcze trochę, dodamy
+
+03:26.050 --> 03:27.910
+Pawła, który właśnie się ustawił.
+
+03:28.040 --> 03:32.220
+A potem w końcu suma trochę za późno, ale on też się ustawił.
+
+03:32.310 --> 03:36.700
+Jeśli klikam Uruchom doskonały, naszą ostatnią nutą jest suma.
+
+03:36.760 --> 03:45.480
+Mamy soczewicę i mamy węzeł łączenia, który jest pierwszym elementem w naszej kolejce. Powiedzmy, że otwieramy
+
+03:45.480 --> 03:48.510
+drzwi i zaczynamy wpuszczać ludzi.
+
+03:48.600 --> 03:55.430
+Chcemy zdekonfigurować tę listę i przejść od pierwszego do pierwszego, aż do końca, po raz
+
+03:56.480 --> 04:03.740
+kolejny jest bardzo podobny do stosu, z tym wyjątkiem, że pobieramy węzeł od początku zamiast od niego.
+
+04:03.750 --> 04:13.520
+Tak więc najpierw powiemy, że jeśli nie ma pierwszego przedmiotu, jeśli nie ma pierwszego przedmiotu, możemy również sprawdzić Leontine,
+
+04:13.520 --> 04:14.810
+jeśli chcemy.
+
+04:14.810 --> 04:17.330
+Lista jest pusta.
+
+04:17.330 --> 04:20.010
+W takim przypadku po prostu nie wracaj.
+
+04:20.480 --> 04:26.270
+A według listy mam na myśli kolejkę, jeśli kolejka jest pusta, a potem nie.
+
+04:26.390 --> 04:33.950
+Chcemy również sprawdzić, czy jest to ostatni węzeł w naszej kolejce, abyśmy mogli zrobić coś
+
+04:33.950 --> 04:44.120
+podobnego z tym, dlaczego nie zrobiliśmy instaksu, możemy powiedzieć, że jeśli zaczniemy pierwszy, to będzie to znowu ostatni raz, możemy po prostu
+
+04:44.130 --> 04:54.160
+sprawdzić lata dwudzieste, jeśli chcemy, ale dla teraz byłoby dobrze, gdyby to było w tym przypadku Chcę, żeby ta kropka była taka
+
+04:54.880 --> 05:05.590
+sama jak Knol pamiętaj, upewnij się, że teraz ostatnie punkty dla wszystkich i niezależnie od tego, jak tylko usuniemy zamówienie, chcemy to powiedzieć.
+
+05:05.800 --> 05:16.950
+Najpierw jest to kropka pierwsza kropka, która jest teraz, kto jest teraz pierwszy, ponieważ chcemy usunąć radość, której
+
+05:17.280 --> 05:24.490
+pragniemy, kto jest kiedykolwiek za radością, która jest teraz najważniejsza.
+
+05:25.380 --> 05:35.090
+Następnie mówimy po prostu ten dwanaście minus, aby zmniejszyć długość i możemy wrócić.
+
+05:35.320 --> 05:40.310
+Jeśli prowadzę tę studnię, to to samo, ponieważ nie uruchomiliśmy jej tutaj.
+
+05:40.450 --> 05:42.060
+Więc chodźmy dalej i róbmy to.
+
+05:42.580 --> 05:52.710
+Najpierw poprowadźmy cue dot peek, aby zobaczyć, kto powinien wyjść z kolejki i to jest radość.
+
+05:52.720 --> 06:03.110
+Więc jeśli zrobię moją kolejkę Q Dot i kliknę, widzimy, że teraz Matt jest pierwszy w kolejce.
+
+06:03.110 --> 06:08.900
+Radość została usunięta, a ostatnia z trzech i jednej rzeczy do wskazania tutaj.
+
+06:09.090 --> 06:19.500
+Kiedy uruchamiamy tutaj dequeue, całkowicie straciliśmy węzeł radości z naszej pamięci, ponieważ nie mamy już do tego
+
+06:19.590 --> 06:20.660
+odniesienia.
+
+06:20.670 --> 06:27.420
+Nic nie wskazuje na tę przestrzeń pamięci, a JavaScript, tak jak działa, będzie
+
+06:27.750 --> 06:33.930
+zbierał śmieci i usuwał radość, jeśli chcemy mieć wskaźnik radości.
+
+06:33.970 --> 06:36.490
+Wtedy moglibyśmy powiedzieć, że
+
+06:39.240 --> 06:51.080
+Konst trzymałby wskaźnik i wypowiadał tę kropkę jako pierwszą, więc zanim zaktualizujemy kto pierwszy, możemy odwołać się do niej za pomocą tej zmiennej, abyśmy
+
+06:51.080 --> 06:57.550
+mogli potencjalnie, jeśli nadal chcemy korzystać z radości na przykład w aplikacji listy oczekującej,
+
+06:57.590 --> 07:00.950
+może nadal chcemy zrób coś dla użytkownika.
+
+07:01.160 --> 07:07.130
+Możemy to zrobić i nadal mamy dostęp do węzła łączyć.
+
+07:07.130 --> 07:08.350
+W porządku, skończyć pochylenie.
+
+07:08.370 --> 07:14.810
+Zdejmijmy wszystkich stąd, jeśli usuwam kartę i odwróćmy to do tego.
+
+07:14.810 --> 07:16.330
+Widzimy więc, co się dzieje.
+
+07:16.850 --> 07:22.960
+Jeśli teraz biegnę, Pavel jest pierwszy w linii, a sumir jest ostatni w kolejce.
+
+07:22.970 --> 07:32.400
+Jeśli kliknę lub ponownie usunąłem dane z kolejki, kliknę przycisk Uruchom sumir, który jest ostatnią osobą na liście.
+
+07:32.400 --> 07:34.810
+Ale możemy wreszcie go wpuścić.
+
+07:35.690 --> 07:36.950
+No to jedziemy.
+
+07:37.010 --> 07:45.640
+Teraz mamy pustą kostkę i właśnie zaimplementowaliśmy naszą własną strukturę danych Q dobrze.
+
+07:45.660 --> 07:47.190
+Mam nadzieję, że dobrze się bawiłeś.
+
+07:47.190 --> 07:48.730
+Zobaczę w następnym filmie.
+
+07:49.040 --> 07:49.270
+Babai.

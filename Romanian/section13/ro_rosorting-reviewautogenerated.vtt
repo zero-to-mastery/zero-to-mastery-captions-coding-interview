@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.660 --> 00:09.970
+O altă secțiune făcută și am acoperit sortarea algoritmului de sortare în mod special în această secțiune, în majoritatea timpului când
+
+00:09.970 --> 00:15.350
+vorbim despre algoritmii de sortare, vom vorbi despre toate și despre log.
+
+00:15.370 --> 00:20.770
+Și am aflat că există o mulțime de algoritmi de sortare și am acoperit cele principale.
+
+00:20.770 --> 00:22.240
+Ei se obisnuiesc mai des.
+
+00:22.450 --> 00:28.120
+Dacă sunteți foarte încântat de subiect și veți găsi acest lucru interesant, atunci bine pentru tine.
+
+00:28.150 --> 00:29.330
+Ești unul dintre puțini.
+
+00:29.410 --> 00:37.060
+Vă încurajez să căutați alți algoritmi de sortare, dar să examinați rapidul pe care doriți să îl utilizați atunci când performanța
+
+00:37.450 --> 00:43.720
+medie a cazului contează mai mult decât performanța celui mai rău caz, deoarece rapiditatea ne permite să sortăm
+
+00:43.720 --> 00:46.280
+în O și să ne logăm.
+
+00:46.420 --> 00:51.490
+Dar, în cel mai rău caz, un cuptor cu cuptoare O se îmbină cu sortarea.
+
+00:51.490 --> 00:59.690
+Pe de altă parte este minunat deoarece este întotdeauna O și log și este de asemenea stabil, ceea
+
+00:59.690 --> 01:07.520
+ce înseamnă că întotdeauna dă aceleași rezultate pentru ca două elemente să fie aceleași, deși complexitatea spațiului
+
+01:07.520 --> 01:10.460
+este puțin mai mare decât rapidul.
+
+01:10.550 --> 01:12.980
+Este cu siguranță un tip util.
+
+01:13.030 --> 01:19.630
+Am vorbit, de asemenea, despre sortarea selecției de inserție și sortarea bulelor.
+
+01:19.630 --> 01:24.250
+Acestea sunt distractive atunci când faci ceva rapid și murdar și vrei să experimentezi doar în jurul cu
+
+01:24.250 --> 01:24.740
+sortarea.
+
+01:24.790 --> 01:31.690
+Dar în viața reală nu le veți folosi și cel mai probabil în viața reală folosiți algoritmul
+
+01:31.690 --> 01:38.470
+de sortare a limbilor sau a limbilor sau a bibliotecilor lor avantajul lor este că sunt destul
+
+01:38.480 --> 01:44.340
+de ușor de implementat în Cote și în timpul interviului puteți spune ceva asa.
+
+01:44.410 --> 01:50.740
+În acele cazuri rare pe care le cer să implementați un algoritm de sortare, veți spune bine pentru că avem o
+
+01:50.740 --> 01:57.220
+constrângere de timp, îmi place să folosesc ceva naiv și nu eficient ca sortarea bulelor, care este lentă în viața reală, în
+
+01:57.220 --> 02:02.170
+loc de a implementa ceva de genul combinare sort e ok cu tine pentru că.
+
+02:02.380 --> 02:08.410
+Pentru că putem presupune că acest lucru este ceva pe care îl putem implementa cu o bibliotecă sau destul de ușor cu
+
+02:08.410 --> 02:14.540
+documentația sau puteți spune ceva de genul că putem folosi doar un fel de îmbinare pentru a împărți și a cuceri codul
+
+02:14.630 --> 02:16.200
+pentru ao face mai eficientă.
+
+02:16.400 --> 02:21.620
+Și în acest fel îi arătați intervievatorului că da puteți implementa sortarea ca sortarea bubble-urilor, dar, de asemenea,
+
+02:21.620 --> 02:26.690
+știți despre lucruri ca Merceron pentru a-l face mai eficient fără a trebui să îl implementați.
+
+02:28.330 --> 02:34.870
+Deci, până la sfârșitul acestui lucru, sper că acum înțelegeți compromisurile în care puteți să vă
+
+02:34.900 --> 02:42.970
+uitați la algoritmii de sortare și decideți pe baza stabilității vitezei și a lizibilității lor dacă intrarea este deja sortită sau
+
+02:42.970 --> 02:44.000
+aproape sortită.
+
+02:44.050 --> 02:50.090
+Cât de mare este intrarea, puteți lua decizia corectă cu privire la sortare.
+
+02:50.220 --> 02:51.620
+Voi vedea în următorul.
+
+02:51.950 --> 02:52.190
+Bob.

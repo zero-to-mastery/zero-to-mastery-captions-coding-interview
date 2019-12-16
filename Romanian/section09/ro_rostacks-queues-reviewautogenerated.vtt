@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.370 --> 00:08.960
+Și acolo o avem, am învățat stive și Q-uri și o modalitate ușoară de a le aminti este pur și simplu plăci
+
+00:09.380 --> 00:11.060
+și linia de așteptare.
+
+00:11.060 --> 00:16.390
+Am aflat de ce sunt construite pe lângă alte structuri de date cum ar fi listele și matricele asociate.
+
+00:16.520 --> 00:22.970
+De asemenea, am vorbit despre cum să construim stive cu razele și listele de lungime și, de asemenea, de ce
+
+00:22.970 --> 00:31.280
+s-ar putea să nu dorim să folosim o matrice pentru a construi cozi și, de asemenea, să construim o nouă structură de date cu o listă legată.
+
+00:31.300 --> 00:37.840
+Am aflat că stivele și cozile sunt excelente pentru unele operații rapide pe care le au cum ar
+
+00:37.840 --> 00:42.280
+fi înlăturarea sau inserarea, cum ar fi la sfârșitul structurii de date.
+
+00:42.920 --> 00:50.550
+Putem de asemenea să accesăm primul element dintr-o coadă sau elementul de sus într-un teanc.
+
+00:50.780 --> 00:58.490
+Și avem, de asemenea, toate ordinea de date care este cu adevărat foarte plăcută, dar de obicei nu folosim stivele sau indiciile
+
+00:58.490 --> 01:03.400
+noastre pentru a face vreun fel de blocare sau căutarea prin structura de date.
+
+01:03.440 --> 01:07.670
+Tot ce ne interesează sunt biții finali ai structurii de date.
+
+01:07.670 --> 01:14.770
+Deci, ele o fac foarte util prin limitarea utilizării noastre de ceea ce putem face atunci când vine vorba de stive și cozi.
+
+01:14.900 --> 01:20.090
+Dar asigurându-ne că ceea ce ni se permite să facem cu aceste structuri
+
+01:20.090 --> 01:22.600
+de date va fi foarte rapid.
+
+01:22.830 --> 01:24.060
+Și acolo o avem.
+
+01:24.180 --> 01:28.520
+Am continuat să ne extindem harta hărții despre structurile de date.
+
+01:28.860 --> 01:31.290
+Așa că am completat stivele noastre.
+
+01:31.290 --> 01:38.730
+Am învățat cum să creăm stive cu matrice și liste de lungime pe care le-am învățat despre notația lor Big O și am
+
+01:39.180 --> 01:45.190
+vorbit și despre indicii și cum am vrea cu adevărat să folosim o matrice pentru un indiciu.
+
+01:45.270 --> 01:47.840
+O întrebare de interviu foarte comună.
+
+01:48.150 --> 01:54.630
+Învățăm cum să folosim o listă asociată pentru a crea o coadă și, de asemenea, am aflat
+
+01:55.140 --> 01:59.570
+despre implicațiile de bego care seamănă foarte mult cu stivele.
+
+01:59.670 --> 02:03.720
+Ne apropiem și mai aproape de completarea acestei hărți a minții.
+
+02:03.930 --> 02:10.520
+Dar înainte de a face asta avem încă câteva structuri de date pentru a merge, dar capătul este aproape de aproape.
+
+02:10.530 --> 02:13.570
+Avem doar copaci și grafice pentru a vorbi despre.
+
+02:14.650 --> 02:17.480
+Pentru asta o să te văd în următoarea parte.

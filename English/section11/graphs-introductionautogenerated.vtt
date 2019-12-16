@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.470 --> 00:09.720
+Let's learn about the lost data structure in this course graphs graphs are one of the most useful and
+
+00:09.720 --> 00:16.340
+most used data structures in computer science when it comes to modeling real life.
+
+00:16.450 --> 00:24.880
+In short a graph is simply a set of values that are related in a pair wise fashion and you can see over
+
+00:24.880 --> 00:25.440
+here.
+
+00:25.630 --> 00:27.360
+It looks like a little network.
+
+00:27.460 --> 00:33.110
+There's connections to different nodes in a graph.
+
+00:33.110 --> 00:37.750
+Each item is called a node or a vertex.
+
+00:37.970 --> 00:39.670
+So this is a node.
+
+00:39.830 --> 00:46.630
+This is a node nodes are then connected with edges.
+
+00:46.880 --> 00:54.880
+So that's an edge that's an edge and that's a niche and as you can imagine graphs are great data structures
+
+00:54.880 --> 00:57.910
+to model real world relationships.
+
+00:57.970 --> 01:04.120
+We're presenting length's grass Sorry deal for cases where you're working with things that connect to
+
+01:04.120 --> 01:04.830
+other things.
+
+01:04.930 --> 01:07.510
+Kind of like how the Internet works.
+
+01:07.510 --> 01:08.590
+Right.
+
+01:08.650 --> 01:18.450
+We can use graphs to represent maybe friendships maybe family trees we can use graphs to represent networks
+
+01:18.640 --> 01:25.690
+and the worldwide web or we can use graphs to represent roads one city to another and the roads that
+
+01:25.690 --> 01:27.850
+are connected as you can imagine.
+
+01:27.850 --> 01:30.630
+Facebook uses it for their social network.
+
+01:30.640 --> 01:38.740
+Amazon uses it for their recommendation engines and Google Maps uses graphs for determining the shortest
+
+01:38.740 --> 01:40.750
+path to where you want to go.
+
+01:41.080 --> 01:43.380
+So let me ask you a question.
+
+01:43.570 --> 01:45.640
+Do you think this is a graph.
+
+01:45.640 --> 01:48.020
+Well yeah obviously we just went through it.
+
+01:48.040 --> 01:49.610
+What about this.
+
+01:49.690 --> 01:53.040
+What about this and this and this.
+
+01:53.080 --> 01:54.190
+What about this one.
+
+01:54.190 --> 02:02.560
+All right finally this just getting a few more this this and this and this Yep they are all graphs.
+
+02:02.800 --> 02:06.190
+Even this one that kind of looks like a linked list.
+
+02:06.190 --> 02:09.390
+That's a graph.
+
+02:09.540 --> 02:15.810
+And as you can see in our my map graphs encompass things that we've learned before such as trees and
+
+02:15.810 --> 02:20.730
+linked lists linked lists are a type of tree.
+
+02:20.730 --> 02:23.350
+Trees are a type of graph.
+
+02:23.370 --> 02:26.970
+So in the next couple of videos Let's learn all about graphs.

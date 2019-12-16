@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.100 --> 00:02.000
+Witamy spowrotem.
+
+00:02.120 --> 00:05.920
+Zastosujmy jedną ostatnią cechę w naszym tabeli mieszania tutaj.
+
+00:06.050 --> 00:18.290
+Chcę utworzyć coś o nazwie KIIS, a klucze pozwalają nam na iterację lub przechodzenie przez wszystkie klucze naszego tabeli
+
+00:18.290 --> 00:19.350
+mieszania.
+
+00:19.430 --> 00:23.990
+W tym przypadku winogrona i jabłka i dodajmy jeszcze trochę dla zabawy.
+
+00:23.990 --> 00:27.130
+Więc widzimy, co się dzieje.
+
+00:27.330 --> 00:31.160
+Te pomarańcze i my nie lubimy ich zbyt wiele, więc dodamy tylko dwa z nich.
+
+00:32.450 --> 00:45.030
+Teraz, jeśli uruchomimy KIIS Idealnie będzie iterować i wypluwać winogrona z jabłek i pomarańczy, aby zobaczyć, co musimy
+
+00:45.030 --> 00:47.460
+robić na zakupy.
+
+00:47.650 --> 00:50.090
+Jak byśmy to zbudowali?
+
+00:50.260 --> 00:53.250
+Cóż, ponieważ zamierzamy zrobić coś w rodzaju pętli.
+
+00:53.350 --> 00:59.300
+Zacznę od stworzenia stałej, nazwijmy ją tablicą zwiastuna.
+
+01:00.010 --> 01:04.030
+A tutaj będzie pusta tablica.
+
+01:04.050 --> 01:10.850
+Będziemy pętlę, więc dla LeT zadzwonię do 0 i tak długo,
+
+01:13.780 --> 01:18.040
+jak będę mniejszy i ta długość danych
+
+01:20.990 --> 01:30.170
+będziemy zwiększać do końca tutaj, mówimy, że chcemy przechodzić przez wszystkie 50 elementów półki jeden po
+
+01:30.170 --> 01:31.340
+drugim.
+
+01:31.340 --> 01:32.550
+Przejrzymy je.
+
+01:32.690 --> 01:34.700
+Tak, to dużo iteracji.
+
+01:35.120 --> 01:42.450
+A jeśli na półce są jakieś dane.
+
+01:42.450 --> 01:48.600
+Jeśli nie jest to niezdefiniowane całkowicie puste i jest coś cennego dla nas, chcemy wyglądać.
+
+01:48.600 --> 01:56.730
+Ponieważ pamiętaj, że przydzielamy 50 miejsc na półce, ale umieściliśmy tylko 3 przedmioty lub trzy
+
+01:56.730 --> 01:58.040
+punkty danych.
+
+01:58.050 --> 02:07.560
+Więc jeśli jest coś w tej pamięci w tym przypadku, możemy powiedzieć, że kropka
+
+02:07.560 --> 02:13.350
+Kuzari przesuwa dane kropki i pobieramy indeks.
+
+02:13.350 --> 02:17.200
+Tak więc pierwszy IRA lub tablica, którą mamy tutaj.
+
+02:17.670 --> 02:20.350
+A potem chcemy złapać jabłka w prawo.
+
+02:20.820 --> 02:28.670
+Cóż, jeśli zrobię zero tutaj i teraz uderzę, to musimy coś zwrócić.
+
+02:28.910 --> 02:30.620
+Wróćmy tutaj.
+
+02:30.770 --> 02:33.360
+Klucz przepraszam na końcu tego wszystkiego.
+
+02:33.380 --> 02:44.460
+Więc po tych wszystkich pętlach, po prostu powiemy, że klawisze klawisza zwrotnego uruchomią to, otrzymam winogrona, jabłka i
+
+02:44.460 --> 02:45.440
+pomarańcze.
+
+02:45.810 --> 02:46.770
+To fantastycznie.
+
+02:46.780 --> 02:53.360
+Ale chciałem tylko, żeby winogrona, jabłka i pomarańcze, zobaczyły, co się tutaj dzieje.
+
+02:53.460 --> 03:06.810
+Konsolujmy się, logując te dane z kropek wysoko, co robimy tutaj, kiedy naciskamy i jeśli to
+
+03:06.810 --> 03:19.020
+uruchomię, widzimy, że dostaniemy podwyżkę w tablicy, ponieważ pamiętamy, że mamy jedną masywną tablicę.
+
+03:19.060 --> 03:26.440
+I za każdym razem, gdy tworzymy nową przestrzeń półki, musimy stworzyć nową szykownię, którą tworzymy i w
+
+03:26.440 --> 03:27.410
+nią wkraczamy.
+
+03:27.490 --> 03:30.300
+Więc trochę tutaj.
+
+03:30.340 --> 03:31.480
+Musimy
+
+03:34.890 --> 03:39.050
+powiedzieć zero, które usuwa nieparzystość lub re.
+
+03:39.300 --> 03:46.220
+A teraz zero, aby pobrać pierwszy indeks tej tablicy.
+
+03:50.210 --> 03:59.110
+Więc jeśli dodamy teraz teraz tam zero, aby uzyskać dostęp do pierwszego indeksu tablicy, którą klikamy uruchomić.
+
+03:59.190 --> 03:59.770
+Spójrz na to.
+
+03:59.910 --> 04:02.560
+Dostajemy winogrona, jabłka i pomarańcze.
+
+04:02.970 --> 04:03.600
+Dobra robota.
+
+04:03.600 --> 04:06.930
+Właśnie zaimplementowaliśmy tabelę mieszającą.
+
+04:07.160 --> 04:11.790
+Być może zauważyłeś coś, co jest wadą tabel hash.
+
+04:11.960 --> 04:14.770
+Musieliśmy pętać tutaj w prawo.
+
+04:14.810 --> 04:21.540
+Mieliśmy pętlę for przechodzącą przez całą pamięć w celu znalezienia naszych kluczy.
+
+04:21.680 --> 04:26.840
+To było o wiele łatwiejsze w wyścigu z podbiciem, bo mielibyśmy tylko
+
+04:26.840 --> 04:29.850
+trzy przedmioty i zamiast tego trzykrotnie zawrócilibyśmy.
+
+04:29.900 --> 04:32.570
+Tutaj zapętliliśmy ponad 50 razy.
+
+04:32.570 --> 04:35.100
+Wyobraź sobie, że mamy 500.
+
+04:35.120 --> 04:36.830
+To jeszcze więcej.
+
+04:36.830 --> 04:38.190
+Jakie to ekscytujące.
+
+04:38.210 --> 04:46.370
+Zaczynamy się uczyć, jak to działa pod maską, więc teraz mamy pomysł hmm, może
+
+04:46.640 --> 04:53.210
+jeśli używamy tego typu metod, obiekty mogą nie być najlepszym pomysłem.
+
+04:53.210 --> 04:57.450
+I to jest jedna z wad obiektów lub tabel mieszających w javascript.
+
+04:57.520 --> 05:08.450
+Możemy użyć czegoś w rodzaju pętli do pętli nad przedmiotami w obiekcie, który znowu jest bardzo wolny.
+
+05:09.250 --> 05:21.060
+A może zdajesz sobie sprawę, że nie ma gwarantowanej kolejności za każdym razem, gdy dodamy coś do naszego adresu.
+
+05:21.210 --> 05:29.310
+Ale kiedy złapiemy przedmioty z adresu, po prostu przechodzimy od 0 do 50, mimo że przedmioty są losowo umieszczane
+
+05:29.310 --> 05:30.930
+na różnych półkach.
+
+05:30.990 --> 05:34.460
+Mam jednak nadzieję, że teraz zobaczysz, jak to działa.
+
+05:34.500 --> 05:39.240
+Losowo umieszczamy przedmioty na półce, ale kiedy je odzyskujemy, wszystkie są na zamówieniu.
+
+05:41.290 --> 05:48.520
+I dlatego kodowanie rzeczy, nawet jeśli najprawdopodobniej nie dostaniesz tego w wywiadzie.
+
+05:48.610 --> 05:55.660
+Wiedząc, jak działają rzeczy, możesz mówić o nich inteligentnie i mam nadzieję, że to ćwiczenie zrobiło to
+
+05:55.660 --> 05:56.920
+za Ciebie.
+
+05:56.950 --> 06:03.640
+Zostawię to, abyś mógł się bawić i może dodawać różne metody, takie jak wartości,
+
+06:03.910 --> 06:06.550
+które chwytają wartości zamiast kluczy.
+
+06:06.550 --> 06:10.990
+Ale na razie zakończmy rozmowę o tabelach hashowych, porównując je do rasy.

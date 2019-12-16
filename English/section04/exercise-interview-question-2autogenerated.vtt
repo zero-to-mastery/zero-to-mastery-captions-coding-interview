@@ -1,0 +1,820 @@
+WEBVTT
+
+00:03.050 --> 00:08.450
+Let's get back to where we where we want to start actually writing our code keeping in mind that the
+
+00:08.450 --> 00:13.500
+more you prepare and understand what you need to code the better the white board will go.
+
+00:13.550 --> 00:18.050
+So never start a white board interview not being sure of how things are going to work out.
+
+00:19.020 --> 00:21.400
+So we've talked it out.
+
+00:21.450 --> 00:23.440
+We have a plan in mind.
+
+00:23.730 --> 00:24.690
+Let's start to code this.
+
+00:24.690 --> 00:26.600
+Let's do the first loop over here.
+
+00:27.650 --> 00:33.910
+That is we want to loop through the first array and let's remove this code just so it's a little bit
+
+00:33.910 --> 00:34.930
+cleaner.
+
+00:34.960 --> 00:40.360
+We want to loop through the first array create an object where properties are going to match the items
+
+00:40.450 --> 00:41.120
+in the array.
+
+00:42.120 --> 00:47.130
+I'm going to create an object let's just call this map
+
+00:51.750 --> 00:57.620
+and this map we've created a but we want to loop through our array.
+
+00:57.630 --> 00:59.980
+So to say let I.
+
+01:00.700 --> 01:04.560
+He calls 0 and we've done this before.
+
+01:04.860 --> 01:12.100
+Is the less said array dot or array one dot length.
+
+01:12.480 --> 01:17.400
+We're going to increment by now within here.
+
+01:17.470 --> 01:29.570
+We're first going to say if there is no property so we want to check whether a map dot A exists mapped
+
+01:29.570 --> 01:33.110
+Part B exists map Dotsie exists map.
+
+01:33.190 --> 01:35.020
+X exists.
+
+01:35.020 --> 01:45.220
+So if that doesn't exist in Javascript you can just use this syntax we can say if no map apply.
+
+01:45.220 --> 01:51.470
+So again if map I which the first time around is going to be a.
+
+01:51.620 --> 01:57.380
+So if map dot A is the opposite.
+
+01:57.380 --> 02:02.760
+So this exclamation mark javascript's means the opposite if map a exists.
+
+02:02.930 --> 02:08.770
+It's going to return true if it doesn't exist.
+
+02:08.770 --> 02:11.880
+It's going to say false.
+
+02:11.900 --> 02:14.080
+So this is this might be a little bit confusing.
+
+02:14.090 --> 02:20.880
+But we want to say if this doesn't exist in that case we want to do something.
+
+02:21.000 --> 02:28.200
+Now the way if statements work in Javascript it needs to be true in order to execute whatever is in
+
+02:28.200 --> 02:28.840
+here.
+
+02:28.890 --> 02:36.020
+So we add the exclamation mark here to turn false into true.
+
+02:36.030 --> 02:37.720
+I know that can be a little bit confusing.
+
+02:37.830 --> 02:38.990
+You can read up on it.
+
+02:39.090 --> 02:44.600
+But essentially what we're doing is we're just checking for the property if it exists or not.
+
+02:45.030 --> 02:48.710
+If it doesn't exist then we're going to add it.
+
+02:48.780 --> 02:56.320
+So I'm going to say Konst item equals array 1 I.
+
+02:56.550 --> 03:09.540
+So that is a and this item is going to have a map item equal to true.
+
+03:09.800 --> 03:11.060
+What do we just do here.
+
+03:11.240 --> 03:23.600
+What we said if map a doesn't exist in that case let's make array one I which is a equal to item so
+
+03:23.690 --> 03:25.880
+map item is going to equal to 2.
+
+03:25.880 --> 03:29.340
+All we're saying is map a.
+
+03:29.350 --> 03:31.590
+In this case equal to true.
+
+03:31.690 --> 03:41.700
+So by the end of this we're going to have an object that is going to have a property a true and we're
+
+03:41.700 --> 03:50.430
+going to keep looping through it until we have an object called map that has all these items.
+
+03:50.430 --> 03:58.950
+Map a map b maps c map X equals to true all right it looks like we're able to achieve this and we can
+
+03:58.950 --> 04:03.480
+just console's our law here just to check what we have.
+
+04:03.480 --> 04:07.470
+I'm going to say Konsole dialogue map.
+
+04:07.610 --> 04:22.040
+If I run this function let's do contains a common item to array one array to and let's minimize this
+
+04:22.030 --> 04:22.450
+a little bit.
+
+04:22.460 --> 04:29.230
+We can see and if I run this oh I'm going to make sure I spell that right array too.
+
+04:29.460 --> 04:30.950
+Let's run.
+
+04:31.170 --> 04:35.430
+We see that we have a true true C true X true.
+
+04:35.550 --> 04:36.270
+Awesome.
+
+04:36.300 --> 04:38.080
+So now we have that working.
+
+04:38.220 --> 04:47.960
+Let's go through the second step and actually I just noticed that this the way it is right now is checking
+
+04:48.020 --> 04:52.640
+I which is 0 1 2 3.
+
+04:52.640 --> 04:56.260
+But instead we want to check a b c at X..
+
+04:56.300 --> 05:05.930
+So instead of I here it should be array 1 rack and notation I.
+
+05:06.410 --> 05:13.490
+So that is a b c x has the property of the map.
+
+05:13.680 --> 05:16.340
+Lots of brackets here but I hope that makes sense.
+
+05:16.350 --> 05:18.920
+So if I run this we should still get the same answer.
+
+05:18.930 --> 05:20.060
+Perfect.
+
+05:20.070 --> 05:22.270
+Now let's look at the second part here.
+
+05:22.290 --> 05:28.440
+Want to loop through the second array and check if the item in the second array exists on the created
+
+05:28.620 --> 05:30.140
+object.
+
+05:30.150 --> 05:31.700
+This should be fairly simple.
+
+05:31.890 --> 05:35.420
+All we need to do and let's remove the console dialog map here.
+
+05:36.620 --> 05:39.660
+All we need to do is to loop over the second array.
+
+05:42.790 --> 05:46.710
+Let J equals zero.
+
+05:47.570 --> 05:51.910
+J should be less than a two dot length.
+
+05:53.060 --> 05:55.320
+And then we're going to increment J.
+
+05:56.980 --> 06:02.030
+And all we're going to say is if MAP What do we want to check.
+
+06:02.080 --> 06:11.200
+What we want to check if it contains the first item in the second array that is Z as part of its properties.
+
+06:11.230 --> 06:16.030
+Remember our map object contains these properties.
+
+06:16.120 --> 06:22.290
+So all we're going to say is we're going to check the array to.
+
+06:22.780 --> 06:25.240
+And we're going to check the J index.
+
+06:25.330 --> 06:29.460
+So the first index 0 over 80 is going to be easy.
+
+06:29.470 --> 06:31.330
+Then why then a.
+
+06:31.450 --> 06:37.930
+And if that's true if it does contain those things because remember when we evaluate this is going to
+
+06:37.930 --> 06:40.450
+return true if it exists.
+
+06:40.540 --> 06:43.900
+If now we're just going to get undefined.
+
+06:44.050 --> 06:48.350
+We're going to say return true otherwise.
+
+06:48.550 --> 06:53.530
+At the very end we can just say return false.
+
+06:53.710 --> 06:57.340
+Let's see if this actually works Vonta just click on
+
+07:00.820 --> 07:03.480
+and I get through OK.
+
+07:03.690 --> 07:13.570
+So I see that a in a match what if I change this to something that doesn't exist like our lake Ron.
+
+07:13.740 --> 07:15.450
+I get false.
+
+07:15.590 --> 07:27.610
+What if I change this to see I get true if I get this to X I get true if I change this to W. I get false
+
+07:28.980 --> 07:30.300
+awesome.
+
+07:30.330 --> 07:41.200
+So we've just coded something new a new function that if we look at makes things possibly better.
+
+07:41.220 --> 07:41.820
+Right.
+
+07:42.030 --> 07:52.290
+Because we have two four loops one after another which is always a plus b versus before where we had
+
+07:52.350 --> 07:53.910
+nested for those switches.
+
+07:53.960 --> 08:00.870
+Oh a temp's be at this point we can tell the interviewer if the arrays are substantially large and we
+
+08:00.870 --> 08:07.410
+can get really large arrays then this solution when it comes to time complexity
+
+08:11.250 --> 08:12.150
+is better.
+
+08:12.600 --> 08:13.510
+How cool is that.
+
+08:14.370 --> 08:19.040
+Now let's go through the next steps because we're not actually done yet.
+
+08:20.540 --> 08:22.970
+Let's make this a little bit bigger.
+
+08:22.970 --> 08:26.970
+Number 11 is think about airchecks and how you can break this code.
+
+08:27.170 --> 08:30.350
+Never makes assumptions about the input.
+
+08:30.350 --> 08:35.120
+Assume people are trying to break your code and that Darth Vader is using your function.
+
+08:35.120 --> 08:39.260
+How will you safeguard it so always check for false inputs.
+
+08:39.270 --> 08:46.570
+They don't want but essentially I now look at this code and say How can I break this.
+
+08:46.580 --> 08:52.270
+Well let's think this through.
+
+08:52.340 --> 08:58.510
+If I go through this code and let's say what if I have to Asier and I run.
+
+08:58.610 --> 09:00.380
+Does this still work OK.
+
+09:00.500 --> 09:03.070
+What if I have a.
+
+09:03.120 --> 09:05.270
+And here what happens.
+
+09:05.480 --> 09:07.730
+All right I see I get true that's good.
+
+09:08.240 --> 09:14.290
+But what if I have a number here instead of a string.
+
+09:14.300 --> 09:20.040
+We just assume that the arrays going to contain strings I get false.
+
+09:20.040 --> 09:22.360
+Ok what if I do one here.
+
+09:24.150 --> 09:26.600
+I'll get through OK so that works.
+
+09:26.600 --> 09:29.060
+What if I do an empty array here
+
+09:31.970 --> 09:36.230
+I get false but if I do another array here OK I get true
+
+09:41.430 --> 09:47.540
+what if I do know here and javascript which is a little tricky OK I get false.
+
+09:47.550 --> 09:55.980
+What if I do know get true OK that works free go back to what we had before.
+
+09:56.250 --> 10:01.060
+We want to now tell the interviewer how we might be able to break this code.
+
+10:01.200 --> 10:04.660
+For example what if we don't receive a rate.
+
+10:04.770 --> 10:08.790
+What if this function is called with just one array.
+
+10:08.970 --> 10:09.640
+What happens.
+
+10:09.750 --> 10:16.620
+Oh we get an there we want to start thinking about how errors might arise.
+
+10:16.710 --> 10:19.970
+We want to make these functions as error free as possible.
+
+10:20.160 --> 10:25.740
+And during an intro we usually won't have time to do all the checks that you want but you might want
+
+10:25.740 --> 10:31.380
+to tell the interviewer a possible solutions are possible ways to go around this.
+
+10:31.560 --> 10:32.380
+Such as.
+
+10:32.580 --> 10:45.160
+Can we assume always two parameters in the function is what happens if in the second parameter I I-PASS
+
+10:45.320 --> 10:47.620
+0 OK.
+
+10:47.640 --> 10:48.950
+I still get false.
+
+10:48.950 --> 10:50.360
+What if I pass.
+
+10:50.850 --> 10:57.180
+No I get an error that says I can't read lenth of no.
+
+10:57.580 --> 11:03.850
+So you want to start thinking about and maybe discussing with the interviewer how you may break this
+
+11:03.850 --> 11:10.720
+function and how you may improve it such as doing checks such as if statements to make sure that what
+
+11:10.780 --> 11:15.020
+the inputs you're getting are what you are expecting.
+
+11:15.030 --> 11:20.020
+Now this is when testing comes in and testing your code comes in during most interview.
+
+11:20.020 --> 11:25.110
+That's usually beyond the scope of the interview and it's you have limited time so you can do this.
+
+11:25.210 --> 11:28.880
+But it's good to tell the interviewer what you would do.
+
+11:28.930 --> 11:31.360
+This is one of those things that it's simple enough.
+
+11:31.360 --> 11:33.290
+They can just tell the interviewer.
+
+11:33.400 --> 11:39.020
+This is why you would do versus coding it and they will essentially give you full marks for it.
+
+11:41.140 --> 11:42.210
+Let's look at the next step.
+
+11:43.330 --> 11:46.370
+Don't use bad confusing names like i and j.
+
+11:46.430 --> 11:48.880
+Go write code that reads well.
+
+11:48.940 --> 11:53.480
+Now when I look at this function it's OK.
+
+11:53.920 --> 12:01.510
+Now I say don't use variables like i and j and although aren't using i and j.
+
+12:01.510 --> 12:03.070
+Exactly here.
+
+12:03.070 --> 12:11.080
+This is being used for for loops and for loops using I hear is OK because it is a bit of a standard
+
+12:11.080 --> 12:19.660
+especially in javascript and these are just simply indexes but perhaps if these parameters had meanings
+
+12:19.780 --> 12:29.890
+such as maybe this was the user array and this was the items array naming these as more useful more
+
+12:29.890 --> 12:34.150
+meaningful variables or parameters might be better.
+
+12:34.150 --> 12:42.330
+Maybe this map variable can be called tally or something more meaningful specific for the code.
+
+12:42.330 --> 12:46.630
+Again this is one of those things that you can talk to the interviewer about and let them know that
+
+12:46.630 --> 12:51.240
+you're thinking about these things and that's very very important.
+
+12:51.250 --> 12:56.380
+Again as long as you're thinking about him and you're telling the interviewer that you're considering
+
+12:56.380 --> 12:59.090
+the sink's you're getting full marks for it.
+
+12:59.350 --> 13:00.640
+Keep going.
+
+13:00.640 --> 13:05.850
+Test your code checks for no Paramo zero undefined no massive arrays.
+
+13:05.920 --> 13:06.960
+Async code.
+
+13:07.390 --> 13:08.640
+So on and so forth.
+
+13:09.010 --> 13:13.510
+And we kind of cover this in the previous step but you want to just check with an interviewer that we're
+
+13:13.510 --> 13:17.080
+making some assumptions here but let them know that you're thinking about and you're thinking about
+
+13:17.080 --> 13:21.460
+the fact that this function might not always be run with to a race.
+
+13:21.460 --> 13:26.650
+How can we test this function and how would you test this function to make sure that it gives the expected
+
+13:26.650 --> 13:30.430
+result that we always return true or false.
+
+13:30.490 --> 13:35.350
+And this is where you might say that you're going to test your code and run some unit tests.
+
+13:35.410 --> 13:38.630
+Finally even though I say finally here there is another point.
+
+13:38.710 --> 13:42.920
+But finally talk to the interviewer where you would improve the code.
+
+13:43.090 --> 13:43.900
+Does it work.
+
+13:43.900 --> 13:45.760
+Are there different approaches.
+
+13:45.760 --> 13:47.140
+Is it readable.
+
+13:47.140 --> 13:50.560
+What would you do or what would you Google to improve.
+
+13:50.620 --> 13:52.490
+How can performance be improved.
+
+13:52.870 --> 13:58.030
+Well looking at this code I can start telling the interviewer that OK.
+
+13:58.180 --> 14:05.800
+The downside to this solution is that well only numbers and strings and booleans can be used correctly
+
+14:05.800 --> 14:12.550
+because we're using an object especially in javascript and adding properties.
+
+14:13.790 --> 14:16.420
+A B C next to this object.
+
+14:16.580 --> 14:24.320
+Now object properties especially the way we're using a javascript object Saray now might not work if
+
+14:24.320 --> 14:26.520
+we're using non literal values.
+
+14:26.570 --> 14:33.830
+Maybe not strength's maybe a javascript expression and you might also argue that this code could be
+
+14:33.860 --> 14:43.280
+a little bit more readable for example although this code is better in terms of time complexity when
+
+14:43.280 --> 14:44.720
+it comes to javascript.
+
+14:44.720 --> 14:48.560
+There's actually a more readable cleaner way of doing this.
+
+14:48.590 --> 14:52.820
+Let me show you this is something that is language specific.
+
+14:52.820 --> 14:58.580
+That means depending on how much you know about the language that you're working with you might be able
+
+14:58.580 --> 15:02.930
+to use methods to simplify this process so you can tell the interviewer.
+
+15:03.030 --> 15:10.250
+I would Google specific methods on let's say a race to see if I can just clean up the code and make
+
+15:10.250 --> 15:11.140
+it readable.
+
+15:11.240 --> 15:14.920
+For example I can do this exact same function.
+
+15:18.340 --> 15:20.650
+And we'll call it contains common item 3.
+
+15:20.890 --> 15:29.970
+That takes an array 1 array to and in one line I can just return
+
+15:33.030 --> 15:38.020
+array one got some which is a new feature.
+
+15:38.640 --> 15:45.990
+I think sex with javascript and I can say item using error functions which come with the six and I can
+
+15:45.990 --> 15:56.850
+say loop through array to dot includes and check if it includes the item looks at that item.
+
+15:59.160 --> 16:00.990
+Now what do we just do here.
+
+16:02.450 --> 16:09.080
+Well we're using some built in javascript methods to do essentially what we've done above which is check
+
+16:09.080 --> 16:17.360
+the first array iterate through each item in the array and if some of them include the items in our
+
+16:17.360 --> 16:22.190
+array to just return true or false if we actually check this
+
+16:25.660 --> 16:31.960
+with our array.
+
+16:32.210 --> 16:37.960
+And I run this and let's comment out the first one.
+
+16:38.110 --> 16:46.490
+If I hit play here I've got to make sure that this includes not include I get false because our array
+
+16:47.300 --> 16:48.360
+doesn't have any matches.
+
+16:48.380 --> 16:54.000
+If it does have a name match I get to look at that.
+
+16:54.030 --> 16:57.910
+I just create a nice little function using javascript here.
+
+16:57.920 --> 16:58.880
+How cool is that.
+
+16:58.880 --> 17:02.760
+This is what we talk about when we say there's different solutions to a problem.
+
+17:03.200 --> 17:08.590
+We now have a way to measure different solutions to a problem.
+
+17:09.580 --> 17:14.620
+We can say that there's actually another solution using some of the built in methods that comes with
+
+17:14.620 --> 17:18.790
+javascript that is some would say more readable more concise.
+
+17:18.820 --> 17:26.260
+If you're working on a team that really knows their javascript this is a lot easier to read than this.
+
+17:26.260 --> 17:26.890
+Right.
+
+17:27.040 --> 17:29.700
+So maybe readability is more important.
+
+17:31.000 --> 17:33.300
+You might say that this is a better solution.
+
+17:34.190 --> 17:38.660
+Another thing you may have noticed is that we've talked about time complexity here.
+
+17:40.450 --> 17:45.820
+And we haven't really talked about space complexity and this goes into a final point.
+
+17:45.940 --> 17:50.780
+If your interviewer is happy with your solution the interviewer usually answers here.
+
+17:50.830 --> 17:56.390
+It is also common though that the interviewer asks you extending question such as How would you handle
+
+17:56.390 --> 18:03.420
+a problem if the whole input is too large to fit into memory Well if we talk about space complexity
+
+18:03.420 --> 18:07.860
+here we can see that in the first solution that we had.
+
+18:07.860 --> 18:10.670
+Let me comment this out.
+
+18:10.770 --> 18:12.690
+We have space complexity of
+
+18:17.220 --> 18:17.550
+one
+
+18:21.950 --> 18:24.400
+because we're not creating any new variables.
+
+18:24.410 --> 18:26.830
+We're just using the inputs arrays.
+
+18:28.170 --> 18:32.730
+Technically additional space complexity for our function is a one.
+
+18:32.820 --> 18:34.210
+It's constant.
+
+18:34.230 --> 18:43.830
+But if we scroll down to this one well we're creating a new object here and we're adding the first array
+
+18:45.280 --> 18:48.240
+into an object which takes up memory.
+
+18:48.490 --> 18:58.050
+So this solution actually has space complexity of OK which is the first ray space complexity.
+
+18:58.240 --> 19:02.990
+So if an interviewer says if there's limited memory or memory is expensive.
+
+19:03.010 --> 19:04.860
+You can just tell him or her.
+
+19:04.870 --> 19:13.090
+While this solution although faster in terms of time complexity is more happy in terms of speed complexity
+
+19:15.810 --> 19:21.630
+this point here that we forgot to mention is something that again is really good to mention during your
+
+19:21.630 --> 19:24.810
+interview modularize your code from the very beginning.
+
+19:24.810 --> 19:29.930
+Break up your code into beautiful small pieces and add just comments if you need to.
+
+19:30.360 --> 19:31.340
+What does that mean.
+
+19:31.650 --> 19:37.270
+Well we have the solution over here that we've worked on and we've committed to do that.
+
+19:37.290 --> 19:43.920
+We've modularize saying that this first block of code is going to do something then this block of code
+
+19:43.950 --> 19:45.320
+is going to do something else.
+
+19:45.420 --> 19:52.440
+But as code gets more and more complex it becomes increasingly important to write in a modular way that
+
+19:52.440 --> 20:01.470
+is small bits and pieces that read like English you see long really hard to read code costs companies
+
+20:01.530 --> 20:07.400
+a lot of money because it's not just you working on a codebase.
+
+20:07.470 --> 20:14.950
+It's most likely tens or hundreds if not thousands of developers and engineers so companies want to
+
+20:14.950 --> 20:22.720
+hire somebody that is able to write clean code that is readable that is easy for anyone to pick up and
+
+20:22.960 --> 20:24.050
+code along with.
+
+20:24.190 --> 20:31.750
+For example here what we might want to do is actually separate these out into different functions maybe
+
+20:31.750 --> 20:44.980
+creating a function in here that perhaps says map array to object that receives in the first Saray ITA
+
+20:46.450 --> 20:56.460
+and then maybe here a nother function to the outside world that says compare array to object.
+
+20:56.470 --> 21:01.870
+Now you don't really have to do this during an interview but it's good to mention it and talk about
+
+21:01.870 --> 21:04.640
+the idea of modularize in your code.
+
+21:04.750 --> 21:09.730
+If a function is doing too many things that's not ideal.
+
+21:09.730 --> 21:15.010
+When we say modular we want to build SMALLPEICE the code that do one thing and one thing really well
+
+21:15.430 --> 21:24.190
+ideally a function takes an input and returns an output and inside of that block does just one thing
+
+21:24.570 --> 21:26.580
+if it has to do any extra actions.
+
+21:26.670 --> 21:35.700
+Well perhaps you have a function that lives on the outside world and this function also does one thing
+
+21:35.700 --> 21:41.140
+really well and this creates really testable clean code that is modular.
+
+21:41.310 --> 21:46.550
+Again something that is really good to mention and talk about in your interview.
+
+21:46.740 --> 21:47.630
+All right.
+
+21:47.820 --> 21:54.840
+I know this is a lot and it's a lot to think about because you start thinking am I going to have to
+
+21:55.140 --> 21:59.820
+worry about each code that are right and analyze it this deeply.
+
+21:59.850 --> 22:00.410
+No.
+
+22:00.450 --> 22:02.660
+In your day to day life you're not going to do that.
+
+22:02.790 --> 22:08.130
+But I wanted to demonstrate to you that this is the kind of thought process that really good developers
+
+22:08.130 --> 22:11.510
+have and what companies are interviewing for.
+
+22:11.730 --> 22:17.910
+If you're able to think clearly through these steps like I have outlined for you and you're able to
+
+22:17.910 --> 22:25.080
+solve problems this way you see how much more impressive it is than if I just wrote down this solution
+
+22:25.500 --> 22:27.010
+without any explanation.
+
+22:27.770 --> 22:34.580
+Even if you don't get to this part and time runs out during your interview you've demonstrated to your
+
+22:34.580 --> 22:41.460
+interviewer that you're able to think clearly you have the fundamentals to think like an engineer.
+
+22:41.780 --> 22:49.030
+And these are great qualities that companies love to hire for and skills that are very rare.
+
+22:49.040 --> 22:50.790
+I hope you had fun with this exercise.
+
+22:50.960 --> 22:54.540
+You might have to come back to these videos later on.
+
+22:54.800 --> 22:58.160
+But for now I'll see in the next one Buh-Bye.

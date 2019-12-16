@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.890 --> 00:01.750
+Selamat datang kembali.
+
+00:02.150 --> 00:06.040
+Mari kita coba dan terapkan fungsi pencarian atau fungsi pencarian.
+
+00:06.110 --> 00:12.440
+Kami ingin memeriksa apakah item atau simpul ada di pohon kami.
+
+00:12.490 --> 00:14.920
+Mari kita lihat bagaimana ini.
+
+00:14.980 --> 00:19.930
+Hal pertama yang ingin saya lakukan adalah memeriksa apakah ada yang namanya simpul root.
+
+00:19.960 --> 00:22.470
+Jika kosong.
+
+00:22.610 --> 00:25.280
+Jadi saya menggunakan saya bisa melakukan ini.
+
+00:25.310 --> 00:27.650
+Sama dengan sama dengan tidak.
+
+00:27.980 --> 00:32.220
+Untuk memeriksa apakah rute itu kosong atau saya dapat menggunakan tanda seru di Javascript.
+
+00:34.070 --> 00:40.600
+Dan kami hanya akan mengatakan return false karena jika root tidak ada maka itu tidak masalah.
+
+00:40.610 --> 00:43.470
+Kami tidak akan menemukan catatan itu.
+
+00:44.680 --> 00:55.030
+Kalau tidak, kami akan mengatakan sekali lagi biarkan catatan saat ini sama dengan titik akar ini sangat mirip dengan apa yang kami lakukan
+
+00:55.030 --> 00:56.380
+di atas.
+
+00:56.380 --> 01:03.780
+Ingat kami di sini dan Anda akan melihat beberapa kesamaan dengan apa yang kami lakukan ketika kami melakukan jawabannya.
+
+01:03.930 --> 01:12.390
+Kita masih perlu melintasi pohon kita tetapi sebaliknya loop sementara kita akan berhenti setiap kali simpul saat ini tidak
+
+01:12.420 --> 01:21.570
+ada lagi atau kita tidak lagi memiliki simpul untuk dilalui karena begitu kita telah melewati pohon pencarian biner kita dan itu
+
+01:21.570 --> 01:26.390
+nol yang berarti kami tidak menemukan apa yang kami cari.
+
+01:27.180 --> 01:34.670
+Jadi dalam hal ini saya hanya akan mengatakan jika nilai yang kita cari kurang dari
+
+01:34.850 --> 01:36.140
+nilai simpul
+
+01:39.790 --> 01:46.420
+saat ini dalam hal ini simpul saat ini akan sama dengan arus.
+
+01:46.450 --> 01:52.670
+Perhatikan titik kiri karena kita sekarang ingin pergi ke kiri jika nilainya kurang dari nilai simpul saat ini.
+
+01:52.720 --> 01:55.930
+Itu berarti tidak sama, bukan tidak, yang kita cari.
+
+01:56.050 --> 02:02.170
+Jadi ke kiri karena di situlah saya dapat menemukan sesuatu yang mungkin kurang dari catatan saat ini sebaliknya.
+
+02:02.230 --> 02:07.120
+Dan apakah Anda akan menggunakan pernyataan IF LAIN di sini yang mengatakan kondisi lain.
+
+02:07.150 --> 02:17.560
+Jadi jika itu tidak cocok jika saat ini Jika nilainya lebih besar dari simpul saat ini, nilai Daut apa yang Anda pikir kami lakukan
+
+02:17.560 --> 02:18.660
+di sini.
+
+02:18.850 --> 02:20.600
+Baiklah kita pergi ke kanan.
+
+02:20.890 --> 02:26.480
+Jadi kita akan mengatakan simpul Curren sekarang akan menjadi simpul saat ini.
+
+02:26.620 --> 02:31.520
+Jadi kami terus memeriksa di sebelah kanan kami dan akhirnya.
+
+02:31.520 --> 02:43.730
+Lain jika itu adalah kondisi lain dan kita tidak bisa mengatakan apakah simpul saat ini adalah nilai sama dengan nilai aktual
+
+02:43.730 --> 02:45.500
+yang kita cari.
+
+02:45.500 --> 02:46.730
+Itu berarti kami mendapat kecocokan.
+
+02:46.730 --> 02:48.680
+Itu berarti simpul itu ada.
+
+02:48.770 --> 02:52.300
+Jadi kita hanya akan mengembalikan uang yang sekarang.
+
+02:52.610 --> 02:53.690
+Bagus dan sederhana.
+
+02:54.000 --> 03:00.020
+Dan akhirnya karena kita tidak mengembalikan apa pun, kita hanya akan mengulangi loop sementara sampai kita menemukan
+
+03:00.020 --> 03:07.150
+simpul saat ini di mana kita mengembalikan simpul saat ini atau Kerno menjadi nol karena kita tidak dapat menemukan apa
+
+03:07.160 --> 03:10.070
+pun jika kita tidak menemukan apa pun.
+
+03:10.120 --> 03:12.470
+Kembalikan salah.
+
+03:12.520 --> 03:20.190
+Satu-satunya cara kami mengembalikan sesuatu selain yang salah adalah ketika kami menemukan catatan kami dengan nilai yang cocok.
+
+03:20.290 --> 03:21.240
+Jadi mari kita lihat ini.
+
+03:21.460 --> 03:33.000
+Jika sekarang saya menjalankan tree dot look up 9 dan saya akan berkomentar karena kami tidak perlu memeriksa apakah pohon kami
+
+03:33.000 --> 03:34.160
+sedang dibuat.
+
+03:34.260 --> 03:36.740
+Jika saya lari ke sana Anda pergi.
+
+03:36.750 --> 03:42.890
+Saya mendapatkan 9 node yang memiliki referensi ke semua node lain di bawahnya.
+
+03:42.930 --> 03:47.250
+Jika saya mencari 90 saya akan mendapatkan salah karena tidak ada.
+
+03:47.270 --> 03:51.000
+Bagaimana dengan 20 yang ada Yap kami menemukan 20.
+
+03:51.000 --> 03:56.250
+Bagaimana dengan 170 Ya, kami menemukan 170.
+
+03:56.250 --> 04:04.230
+Ini adalah simpul tetapi tidak memiliki referensi kiri dan kanan karena itu adalah leafnode dan akhirnya
+
+04:04.380 --> 04:07.850
+171 salah karena tidak ada Walden.
+
+04:07.930 --> 04:08.980
+Sampai sejauh ini.
+
+04:08.980 --> 04:12.820
+Semoga Anda bisa menerapkan pohon pencarian biner Anda sendiri.
+
+04:12.970 --> 04:16.150
+Setelah Anda memahami itu benar-benar tidak terlalu buruk.
+
+04:17.650 --> 04:23.470
+Pada akhirnya, setiap baris harus masuk akal dan melintasi pohon harus masuk akal bagi Anda
+
+04:23.470 --> 04:24.250
+sekarang.
+
+04:24.250 --> 04:33.160
+Kami juga mengerti mengapa kami memiliki O-log yang besar dan meskipun kami memiliki loop di sini seperti saat loop kami tidak
+
+04:33.190 --> 04:37.870
+benar-benar mengulangi melalui setiap node tunggal kami hanya menggunakan iterasi.
+
+04:37.900 --> 04:41.140
+Bagilah dan taklukkan sesuatu yang akan Anda dengar banyak.
+
+04:41.200 --> 04:46.910
+Membagi dan menaklukkan berarti kita membagi sehingga kita tidak mengunjungi semua catatan.
+
+04:46.960 --> 04:52.200
+Setiap node yang kami kunjungi kami membuat keputusan untuk ke kiri atau kanan.
+
+04:52.270 --> 04:53.690
+Saya akan melihat yang berikutnya.
+
+04:53.920 --> 04:54.150
+Polisi.

@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.860 --> 00:06.780
+Baiklah kita akan melakukan ini hanya untuk bersenang-senang. Biasanya pencarian
+
+00:06.780 --> 00:16.020
+nafas pertama dilaksanakan dengan cara kita melihatnya hanya menggunakan pendekatan iteratif tapi untuk bersenang-senang saya ingin melihat apakah kita dapat
+
+00:16.050 --> 00:23.590
+melakukan napas rekursif untuk pencarian dan agar kita dapat lakukan pencarian rekursif pertama yang luas kita
+
+00:23.620 --> 00:33.310
+dapat membuat fungsi baru akan memiliki di sini kita untuk rekursif dan di sini kita perlu membuat kasus dasar pergi untuk
+
+00:33.850 --> 00:49.210
+memulai dan kita akan berhenti jika Q Dot lenth adalah nol atau kita bisa mengatakan kapan panjang Q Dot adalah 0 seperti ini jika itu kasus kami ingin memiliki kasus dasar kami dan
+
+00:49.210 --> 00:57.670
+kami mengubah daftar tetapi Anda akan melihat di sini bahwa saya belum menentukan apa Q Dan daftar seperti
+
+00:57.670 --> 01:06.670
+yang saya lakukan dengan pendekatan berulang kami dan itu karena jika saya pergi ke atas di sini dan mendeklarasikan variabel-variabel
+
+01:06.730 --> 01:13.810
+ini seperti yang saya lakukan karena dalam setiap fungsi rekursif fungsi ini akan dipanggil berulang
+
+01:13.810 --> 01:14.520
+kali.
+
+01:14.620 --> 01:20.420
+Kita akan mengatur ulang variabel dan daftar ini berulang-ulang ke array kosong.
+
+01:20.440 --> 01:30.410
+Jadi cara kita melakukan ini dalam fungsi rekursif adalah bahwa kita harus benar-benar melewati Q dan daftar
+
+01:30.410 --> 01:40.600
+sebagai parameter sehingga apa yang kita sebut di sini daripada melakukannya dengan cara ini kita harus mengatakan bahwa
+
+01:40.610 --> 01:45.050
+q akan memiliki simpul titik akar ini.
+
+01:45.590 --> 01:50.990
+Tapi ingat Q harus berupa array jadi kami hanya membungkusnya dalam kurung keriting dan dalam javascript ini
+
+01:50.990 --> 01:57.710
+menunjukkan bahwa kami memiliki sebuah array dengan item dari jenis titik akar ini seperti yang kami lakukan dengan pencarian pertama yang
+
+01:57.770 --> 01:59.290
+luas pertama kali tepat.
+
+01:59.360 --> 02:07.640
+Q awal Bagaimana simpul saat ini yang merupakan root root dot ini tidak.
+
+02:07.780 --> 02:14.220
+Dan kemudian parameter kedua adalah daftar R dan Sarah yang akan dimulai dengan array kosong.
+
+02:15.270 --> 02:23.630
+Jadi sekarang kita memiliki ini dan itu sedikit getcha ketika datang ke fungsi rekursif kita sekarang dapat melakukan
+
+02:23.630 --> 02:30.040
+sesuatu yang mirip dengan bagaimana kita melakukan pertama kali dengan pendekatan iteratif kita
+
+02:30.040 --> 02:39.520
+akan mengatakan bahwa node kita saat ini LET di sini biarkan Kurn simpul sama untuk ini dot Q Dot shift.
+
+02:40.510 --> 02:44.650
+Lagi hal yang sama seperti yang kita lakukan di atas sini.
+
+02:48.560 --> 02:55.300
+Untuk mengambil node saat ini dan kemudian kita sebenarnya bisa menyalin apa yang kita lakukan di sini.
+
+02:55.300 --> 03:02.440
+Jika saat ini tidak ada kiri untuk mendorong simpul kiri jika simpul saat ini memiliki anak kanan kemudian dorong ke antrian
+
+03:02.440 --> 03:02.860
+juga.
+
+03:02.950 --> 03:08.550
+Jadi saya hanya akan menyalin ini dan menambahkannya di sini.
+
+03:08.870 --> 03:15.960
+Pastikan indentasi berfungsi sekarang lebih baik.
+
+03:16.000 --> 03:25.180
+Dan akhirnya karena ini adalah fungsi rekursif kami ingin mengubah fungsi itu sehingga bisa
+
+03:25.180 --> 03:35.440
+melewatinya lagi dan kali ini memberikan isyarat dan daftar dan saya tahu ini bisa sedikit membingungkan.
+
+03:35.450 --> 03:40.940
+Anda mungkin harus melihatnya tetapi melewatinya langkah demi langkah di kepala Anda, Anda mungkin ingin mengambil kode
+
+03:40.940 --> 03:43.640
+ini setelah video ini untuk melihat cara kerjanya.
+
+03:44.720 --> 03:51.710
+Ini tidak jauh berbeda dari pendekatan iteratif dan karena ini merujuk pada metode di dalam kelas
+
+03:51.710 --> 03:58.640
+cara kerjanya di javascript adalah kita harus mengatakan ini titik nafas untuk pencarian yang merujuk ke
+
+03:58.640 --> 04:01.850
+kelas menggunakan metode dalam kelas ini.
+
+04:01.850 --> 04:08.810
+Dan saya perhatikan bahwa kita tidak memerlukan ini untuk antrian karena antrian hanyalah parameter.
+
+04:08.840 --> 04:14.750
+Sekarang kami juga ingin memastikan bahwa kami mendorong ke daftar ketika kami di sini.
+
+04:14.750 --> 04:24.770
+Jadi seperti yang kita lakukan di atas kita akan mengatakan daftar jangan tekan simpul saat ini Nilai Daut lagi persis seperti yang telah kita lakukan
+
+04:24.770 --> 04:26.320
+di atas sini.
+
+04:26.390 --> 04:35.450
+Kami ingin mendorong nilai terakhir ke daftar karena daftar adalah jawaban kami.
+
+04:35.490 --> 04:39.030
+Sekarang jika saya klik jalankan di sini saya akan mendapatkan kesalahan.
+
+04:39.180 --> 04:42.510
+Dan ini sedikit mengerti sedikit javascript.
+
+04:42.510 --> 04:50.370
+Dan salah satu alasan saya bisa frustrasi dengan javascript adalah bahwa kata kunci ini hanya berfungsi
+
+04:50.370 --> 04:56.820
+ketika kita berada di dalam kelas, kelas string pencarian biner di luar ini.
+
+04:56.940 --> 05:01.570
+Ingat bahwa kita memiliki kelas pohon yang kita instantiasikan.
+
+05:01.590 --> 05:15.390
+Jadi ini adalah tree dot root dan jika kita menjalankan ini, kita sekarang memiliki daftar kita kali ini dilakukan secara rekursif.
+
+05:15.450 --> 05:17.690
+Saya akan meninggalkan ini untuk Anda mainkan.
+
+05:18.620 --> 05:20.620
+Dan lihat mana yang paling Anda sukai.
+
+05:20.810 --> 05:24.290
+Tapi keduanya sekarang memberi kita hasil yang sama.
+
+05:24.350 --> 05:30.490
+Nine for Nine untuk 20 1:06 15 170.
+
+05:30.660 --> 05:31.540
+Saya akan lihat di video berikutnya.

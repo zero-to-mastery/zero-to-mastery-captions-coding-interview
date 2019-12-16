@@ -1,0 +1,250 @@
+WEBVTT
+
+00:01.260 --> 00:05.750
+Oh we can't feel the end to almost we're in Rule number four.
+
+00:05.760 --> 00:13.130
+The final rule in our rule book drop non dominance or drop non-dominant terms.
+
+00:13.410 --> 00:14.300
+What do we mean.
+
+00:14.400 --> 00:15.360
+Let's have a look.
+
+00:16.760 --> 00:26.420
+Let's say we have a function again with a really long name that says print all numbers then all pair
+
+00:26.590 --> 00:27.660
+sumps.
+
+00:28.070 --> 00:30.080
+Maybe not the best name for our function.
+
+00:30.110 --> 00:34.950
+We can probably work on the readability here but let's see what this function does well.
+
+00:35.030 --> 00:40.670
+This function takes numbers and these numbers variable.
+
+00:40.670 --> 00:44.150
+We're going to loop over them with a For Each loop.
+
+00:44.510 --> 00:51.560
+So again just looping over and logging out the numbers and then we have another step which should remind
+
+00:51.560 --> 00:58.460
+you that's probably an addition that we're doing we're adding another step and in here we're summing
+
+00:59.150 --> 01:00.410
+the pair sumps.
+
+01:00.410 --> 01:07.290
+That is where adding each number one after another.
+
+01:07.670 --> 01:11.610
+Let's show you with a little bit of a demo here.
+
+01:11.840 --> 01:19.160
+If let's say we create actually We'll just print numbers and end here for the numbers let's just give
+
+01:19.160 --> 01:26.290
+it an array of 1 2 3 4 5.
+
+01:26.400 --> 01:34.130
+If I click wrong here we see that these are the numbers 1 2 3 4 5.
+
+01:34.160 --> 01:37.750
+Because this is the step where just logging it out.
+
+01:37.850 --> 01:39.210
+Nothing too difficult.
+
+01:39.680 --> 01:43.190
+And these are their sumps.
+
+01:43.190 --> 01:50.060
+All we're doing is adding one with one then one with two which equals three.
+
+01:50.330 --> 01:52.330
+One with three which equals four.
+
+01:52.460 --> 01:56.080
+One with four which equals five and one in five which equals six.
+
+01:56.090 --> 02:03.520
+And then we move on to the next loop which is two and one which equals three two and two which equals
+
+02:03.520 --> 02:07.710
+four and it keeps going on and on and on.
+
+02:07.720 --> 02:14.260
+So we see the loops that we've done here and problems like this is something we're going to do later
+
+02:14.260 --> 02:17.500
+on in the course right now we're just worried about big-O.
+
+02:17.770 --> 02:21.810
+What do you think the Big-O notation here is well.
+
+02:21.850 --> 02:27.690
+Once again if we do 0 of the first part is the for loop.
+
+02:27.760 --> 02:35.400
+So we can say that there is of an And then the second part which again is another step so we're going
+
+02:35.400 --> 02:42.530
+to say add plus this one has two four loops nested.
+
+02:42.670 --> 02:46.650
+So that means 0 to the power of two.
+
+02:46.650 --> 02:47.020
+All right.
+
+02:47.030 --> 02:49.120
+So that's our Big-O notation.
+
+02:49.310 --> 02:55.200
+By Rule number four states that we want to drop the non dominant terms.
+
+02:55.260 --> 02:59.930
+That means we care about the most important term in this case.
+
+02:59.940 --> 03:04.240
+We actually drop the n and just have.
+
+03:04.270 --> 03:13.240
+And to the power of two because as the input increases the size of N to the power of two is way more
+
+03:13.240 --> 03:15.080
+important than the.
+
+03:15.140 --> 03:19.880
+And so we always just keep the dominant term.
+
+03:20.050 --> 03:21.510
+Let me give you another example.
+
+03:22.330 --> 03:32.960
+What if we had a function that had a big O of let's say X to the power of 2 and then we'll say that
+
+03:33.380 --> 03:46.070
+it has 3 x plus 1000 and maybe we'll say plus X divided by two.
+
+03:46.080 --> 03:46.920
+All right.
+
+03:46.920 --> 03:49.470
+That's really really confusing that's math.
+
+03:49.470 --> 03:51.960
+Well we're not gonna want to deal with that too much.
+
+03:51.960 --> 03:54.180
+How do we simplify this.
+
+03:54.180 --> 04:02.980
+Based on the drop non-dominant terms the fourth rule states that again we worry about the most important
+
+04:03.040 --> 04:08.790
+dominant term because X to the power of two is the most significant.
+
+04:08.890 --> 04:19.340
+That is if X is 5 5 to the power of two is twenty five five times three is 15.
+
+04:19.360 --> 04:25.060
+This is a hundred and five divided by two is 2.5.
+
+04:25.060 --> 04:28.180
+In this case the dominant term is a hundred.
+
+04:28.360 --> 04:32.280
+But remember with big-O we're worried about scale.
+
+04:32.320 --> 04:35.740
+And as things go larger and larger and larger.
+
+04:35.830 --> 04:48.590
+So when this becomes five thousand Well 5000 to the power of two or 500 to the power of two that's 250000.
+
+04:48.610 --> 04:58.220
+If I did the math right three times 500 is only a hundred thousand five hundred a hundred is now insignificant
+
+04:58.430 --> 05:01.310
+and 500 divided by two is 250.
+
+05:01.310 --> 05:07.830
+You see how this has grown significantly more again because we're only worried about scale here.
+
+05:08.000 --> 05:11.690
+We drop everything else and we can just ignore it completely.
+
+05:11.810 --> 05:14.830
+And this becomes X to the power of 2.
+
+05:14.930 --> 05:19.250
+How nice is that just makes things so much simpler.
+
+05:20.600 --> 05:21.880
+So there you have it.
+
+05:22.010 --> 05:24.950
+We have now a way to simplify everything.
+
+05:24.950 --> 05:28.870
+If we go back to our past examples remember this one.
+
+05:29.030 --> 05:37.560
+Remember this one it now makes sense why we've just said big-O of and because we don't care about the
+
+05:37.560 --> 05:41.020
+insignificant items only the most important ones.
+
+05:41.040 --> 05:46.520
+And same with this one by the way a fun little note here.
+
+05:46.780 --> 05:54.090
+If we had a nother loop inside of these two loops Well this would become o.
+
+05:55.130 --> 05:58.760
+To the power of x cubed or and cubed.
+
+05:58.770 --> 06:03.450
+Doesn't really matter what we have but it's going to be to the power of Thweatt because we have three
+
+06:03.690 --> 06:07.750
+nested layers and you can keep going.
+
+06:07.770 --> 06:10.500
+You have to the power of four to the power of five.
+
+06:10.590 --> 06:11.810
+But here's the thing.
+
+06:11.910 --> 06:13.750
+If you have three nested loops.
+
+06:13.800 --> 06:17.020
+Ninety nine point ninety nine percent of the time.
+
+06:17.220 --> 06:18.960
+That's usually a bad idea.
+
+06:18.960 --> 06:23.250
+It scales really really badly and most likely you're doing something wrong.
+
+06:24.690 --> 06:25.520
+And there you have it.
+
+06:25.530 --> 06:32.460
+We've gone over the four rules and with this in mind we're going to take a look at the cheat sheet that
+
+06:32.460 --> 06:33.330
+I prepared for you.
+
+06:33.330 --> 06:39.600
+So from now on instead of having to calculate everything and really look at every single detail of a
+
+06:39.600 --> 06:47.000
+function you can right away figure out what the big-O is or what the time complexity of a function is.

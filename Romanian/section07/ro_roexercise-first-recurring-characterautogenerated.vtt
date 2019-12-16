@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.180 --> 00:02.450
+Bine ai revenit.
+
+00:02.560 --> 00:10.140
+Este timpul pentru o întrebare interesantă pentru interviu și această întrebare vine direct de la energia dată de Google.
+
+00:10.480 --> 00:13.080
+Să spunem că arată așa.
+
+00:13.150 --> 00:16.110
+Spune-mi primul personaj recurent.
+
+00:16.450 --> 00:17.260
+Ce inseamna asta.
+
+00:17.500 --> 00:23.660
+Ei bine, dacă ne uităm la matricea de aici, vreau o funcție pe care să o pot introduce în această matrice.
+
+00:23.920 --> 00:31.030
+Această intrare va arăta prin toate numerele și îmi va spune care se repetă mai întâi.
+
+00:31.480 --> 00:40.980
+Deci, ne uităm la 2 5 1 și 2 și spunem că doi au fost deja văzuți.
+
+00:41.080 --> 00:43.570
+Două este numărul recurent.
+
+00:44.550 --> 00:49.360
+Dacă ne uităm la un alt exemplu, vedem 2 1 1 și 0.
+
+00:49.410 --> 00:55.360
+Ne oprim aici pentru că 1 am văzut deja înainte de a putea spune că primul personaj recurent este 1.
+
+00:55.800 --> 01:03.560
+Dacă obținem o matrice care are toate elementele unice, ne întoarcem undefined.
+
+01:03.560 --> 01:06.980
+Deci, cum ai putea rezolva asta?
+
+01:07.040 --> 01:09.590
+Dă-i drumul să vezi ce cauți.
+
+01:10.320 --> 01:16.530
+Dacă ai nevoie de ajutor, probabil că ai scor în discordie și discuta cu unii dintre membrii comunității și te voi vedea
+
+01:16.680 --> 01:17.630
+în soluția video.

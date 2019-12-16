@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.410 --> 00:07.580
+Odpocznij, zanim zakodujemy nasze własne binarne drzewo wyszukiwania, po prostu omówmy konsekwencje wydajności i dlaczego
+
+00:07.730 --> 00:11.310
+możemy chcieć użyć go w innych strukturach danych.
+
+00:11.440 --> 00:16.430
+Jego zaletą jest to, że ma naprawdę dobrą wydajność we wszystkich dziedzinach.
+
+00:16.490 --> 00:22.590
+Zauważyłeś, że większość operacji lub wszystkich operacji w drzewie wyszukiwania binarnego jest lepsza niż 0.
+
+00:22.640 --> 00:27.620
+Zdarzenie przy założeniu, że drzewo wyszukiwania binarnego jest kulkowe.
+
+00:27.730 --> 00:36.690
+Jest również uporządkowany i ponieważ możemy umieścić węzeł w dowolnym miejscu pamięci, możemy po prostu mieć elastyczny rozmiar.
+
+00:36.690 --> 00:40.070
+Możemy dalej rosnąć nasze drzewo.
+
+00:40.080 --> 00:46.460
+Minusem jest to, że jak można zauważyć, nie ma operacji 0 1.
+
+00:46.590 --> 00:53.770
+Zwykle musimy przechodzić przez drzewo w celu wykonania jakiejkolwiek operacji, więc w porównaniu do tablicy, na przykład wyszukiwanie będzie o
+
+00:53.770 --> 01:02.080
+wiele szybsze, ponieważ mamy cały log n dla wyszukiwania vs. jeśli przejdziemy przez całą tablicę, jeśli tablica
+
+01:02.080 --> 01:09.480
+jest niesortowanymi wstawkami, a usunięcia są również szybsze, węższa tablica, chyba że
+
+01:09.480 --> 01:12.920
+tablica dodaje się do końca.
+
+01:12.970 --> 01:18.790
+W przeciwnym razie tablice muszą przesuwać wszystkie indeksy w stosunku do binarnego drzewa wyszukiwania.
+
+01:18.790 --> 01:23.350
+To tylko 0 logów, co w porównaniu do tabel hash.
+
+01:23.540 --> 01:32.030
+No cóż, chociaż tablice mieszające pozwalają nam wstawiać i przeszukiwać w stałych odstępach czasowych przy drzewach
+
+01:32.030 --> 01:40.490
+binarnych, mamy posortowane dane, a także mamy tę strukturę relacji między rodzicami, której nie da
+
+01:40.490 --> 01:47.300
+się osiągnąć za pomocą tabel hashowych. jest to, że drzewa wyszukiwania binarnego
+
+01:47.300 --> 01:50.240
+nie są najszybsze do niczego.
+
+01:50.280 --> 01:57.420
+Pamiętaj, że ich operacje są zwykle zawsze równe 0 logów, a średnia tablica lub obiekt
+
+01:57.420 --> 01:59.040
+będą działać szybciej.
+
+01:59.310 --> 02:07.520
+Ale są pewne warunki, w których wykonują obiekty i tablice, więc binarne drzewa wyszukiwania działają
+
+02:07.520 --> 02:08.950
+naprawdę dobrze.
+
+02:09.140 --> 02:14.780
+Dopóki upewnisz się, że trzymasz się z daleka od spraw, które omówiliśmy,
+
+02:14.780 --> 02:22.620
+i zbalansujemy nasze binarne drzewo wyszukiwania, ale wystarczającą liczbę rozmów wystarczającą do pełnego zrozumienia i zrozumienia sposobu działania drzew.
+
+02:22.620 --> 02:23.860
+Powinniśmy zakodować nasz własny.
+
+02:24.240 --> 02:25.930
+Zobaczę w następnym.

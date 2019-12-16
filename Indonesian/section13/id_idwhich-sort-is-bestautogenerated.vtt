@@ -1,0 +1,175 @@
+WEBVTT
+
+00:01.130 --> 00:02.270
+Selamat datang kembali.
+
+00:02.270 --> 00:06.890
+Kami telah mempelajari algoritme pengurutan kami oleh Anda mungkin bertanya pada diri sendiri.
+
+00:06.990 --> 00:14.150
+Andre Saya masih agak bingung kapan harus menggunakan bagaimana dengan jika saya ditanyai dalam sebuah wawancara
+
+00:14.150 --> 00:17.470
+pertanyaan tentang algoritma pengurutan mana yang terbaik.
+
+00:17.480 --> 00:26.810
+Jika saya memiliki data pengguna 100 juta nama yang perlu diurutkan Yah mari kita membahas beberapa aturan.
+
+00:27.300 --> 00:28.070
+1.
+
+00:28.380 --> 00:31.380
+Kapan Anda harus menggunakan jenis penyisipan.
+
+00:31.800 --> 00:40.680
+Jenis penyisipan yang baik harus digunakan dengan hanya beberapa item jika input Anda kecil atau sebagian besar item
+
+00:40.680 --> 00:41.480
+diurutkan.
+
+00:41.730 --> 00:43.880
+Ini sangat cepat.
+
+00:44.800 --> 00:52.030
+Ini menggunakan sangat sedikit ruang dan yang paling penting sangat mudah diimplementasikan dalam kode.
+
+00:52.350 --> 01:01.860
+Jadi ingat ini hanya beberapa item dan sebagian besar data yang diurutkan Anda harus menggunakan semacam penyisipan semacam gelembung.
+
+01:02.100 --> 01:04.690
+Sejujurnya Anda tidak akan pernah menggunakan semacam gelembung.
+
+01:05.500 --> 01:10.740
+Ini hanya benar-benar digunakan untuk tujuan pendidikan sebagai cara untuk mengajar penyortiran.
+
+01:10.840 --> 01:17.520
+Tetapi sangat jarang bahwa Anda akan menemukan ini dalam kehidupan nyata karena tidak sangat efisien.
+
+01:18.380 --> 01:21.020
+Bagaimana dengan seleksi semacam lagi.
+
+01:21.050 --> 01:26.070
+Hal yang sama dengan memilih sortir seperti yang Anda lihat jumlahnya tidak terlalu bagus.
+
+01:26.120 --> 01:28.700
+Jadi kemungkinan besar Anda tidak akan menggunakannya.
+
+01:28.790 --> 01:32.200
+Sebagian besar digunakan sebagai mekanisme pengajaran yang saya lakukan.
+
+01:32.250 --> 01:37.790
+Maaf tidak berarti membuang waktu Anda dengan pilihan belajar maaf tetapi penting untuk membangun
+
+01:37.790 --> 01:38.630
+yayasan.
+
+01:39.750 --> 01:41.510
+Bagaimana dengan semacam penggabungan.
+
+01:42.120 --> 01:44.260
+Dan ini favorit saya.
+
+01:44.390 --> 01:50.120
+Mengapa baik Merced pendek benar-benar bagus karena memecah belah dan menaklukkan.
+
+01:50.160 --> 01:54.580
+Kami memiliki semua log dan cepat.
+
+01:54.660 --> 02:03.320
+Dan karena rata-rata terbaik dalam kasus terburuk selalu 0 dan kami selalu membagi kursi secara merata.
+
+02:03.330 --> 02:07.580
+Anda selalu dapat menjamin bahwa ini akan menjadi masalahnya.
+
+02:07.830 --> 02:10.520
+Yang tidak demikian untuk kebanyakan algoritma lainnya.
+
+02:10.740 --> 02:15.080
+Jadi, jika Anda khawatir tentang skenario terburuk, Anda harus menggunakan Mirch sort.
+
+02:15.360 --> 02:22.980
+Tetapi jika Anda ingin menyortir memori pada mesin Anda dan Anda khawatir tentang kompleksitas ruang,
+
+02:22.980 --> 02:28.540
+penggabungan semacam akan menjadi sangat mahal, kompleksitas semua ruang pengguna.
+
+02:28.700 --> 02:36.190
+Namun jika dia memiliki file besar yang dapat diurutkan dalam memori sehingga Anda memiliki penyortiran eksternal yang
+
+02:36.200 --> 02:45.740
+Anda butuhkan mungkin seperti proses di luar memori itu cocok untuk penyortiran eksternal maka penggabungan sortir adalah baik karena kami tidak
+
+02:45.740 --> 02:50.830
+akan terlalu peduli tentang kompleksitas ruang dalam bagaimana dengan quicksort.
+
+02:51.740 --> 02:59.390
+Quicksort sebenarnya lebih baik daripada Mirch sort rate case rata-rata dan kompleksitas ruang.
+
+02:59.390 --> 03:05.120
+Maksud saya memiliki kecepatan yang sama dengan waktu sebagai Merse pendek tetapi kompleksitas ruang kurang.
+
+03:05.120 --> 03:12.740
+Ini mungkin salah satu algoritma penyortiran yang paling populer tetapi satu-satunya kelemahan adalah kasus yang lebih buruk ini jika Anda
+
+03:12.740 --> 03:18.260
+tidak memilih kertas dengan benar Anda bisa memiliki penyortiran yang sangat sangat lambat.
+
+03:18.350 --> 03:25.830
+Jadi Anda harus berhati-hati dan jika Anda benar-benar khawatir tentang kasus terburuk maka Anda lebih memilih yang
+
+03:25.830 --> 03:26.330
+lain.
+
+03:27.410 --> 03:32.250
+Sekarang Anda mungkin bertanya pada diri sendiri Andre Bagaimana dengan heapsort.
+
+03:32.420 --> 03:34.130
+Anda belum benar-benar membicarakan hal itu.
+
+03:34.960 --> 03:39.550
+Saya akan meninggalkan sumber daya untuk Anda sehingga Anda dapat belajar tentang heapsort juga.
+
+03:39.580 --> 03:45.610
+Ini sangat mirip dengan quicksort dan menggabungkan semacam tetapi Anda lihat di sini bahwa ia memiliki kompleksitas ruang
+
+03:45.610 --> 03:46.360
+dari semuanya.
+
+03:46.360 --> 03:49.260
+Bukankah ini lebih baik dari semua yang di atas.
+
+03:49.640 --> 03:56.860
+Yah dia bisa mengurutkan di tempat dan tidak memiliki perilaku kuadrat kasus terburuk yang dimiliki
+
+03:56.860 --> 04:04.940
+quicksort atau penggunaan memori yang dimiliki Mirch sort tetapi rata-rata sebenarnya lebih lambat daripada quicksort dalam kebanyakan kasus.
+
+04:04.990 --> 04:12.340
+Itu salah satu hal di mana dengan heapsort kecuali Anda benar-benar khawatir tentang case dan memori terburuk maka Anda
+
+04:12.340 --> 04:18.250
+mungkin menggunakannya tetapi sebagian besar waktu saya akan mengatakan Anda menggunakan quicksort atau atau Murchadh
+
+04:20.020 --> 04:24.200
+OK tapi Anda mengatakan bagaimana yang Swansdown di sini.
+
+04:24.220 --> 04:26.250
+Semacam radix semacam ember.
+
+04:26.250 --> 04:29.180
+Atau jenis radix dan jenis penghitungan.
+
+04:29.380 --> 04:31.050
+Kenapa Anda tidak membicarakan yang ini.
+
+04:31.060 --> 04:32.200
+Kenapa kita bisa menggunakan ini saja.
+
+04:32.200 --> 04:37.910
+Mereka terlihat jauh lebih baik daripada yang lain terutama ketika datang ke kompleksitas waktu.
+
+04:37.910 --> 04:38.660
+Pertanyaan bagus.
+
+04:38.780 --> 04:40.240
+Mari kita bicarakan hal itu dalam beberapa berikut.

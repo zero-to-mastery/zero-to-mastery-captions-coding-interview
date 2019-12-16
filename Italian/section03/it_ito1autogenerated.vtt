@@ -1,0 +1,190 @@
+WEBVTT
+
+00:01.540 --> 00:02.710
+Ben tornato.
+
+00:02.710 --> 00:06.500
+Abbiamo appena imparato la nostra prima notazione Oh.
+
+00:06.580 --> 00:13.850
+E o tempo lineare e vediamo qui che ne restano pochi altri.
+
+00:14.240 --> 00:16.690
+Quindi parliamo del prossimo.
+
+00:16.730 --> 00:22.640
+Un'altra notazione Big-O molto comune che vedrai cosa succede se abbiamo una funzione come
+
+00:22.640 --> 00:23.230
+questa.
+
+00:24.690 --> 00:35.950
+Una funzione che dice una prima casella compresso che riceve una matrice di caselle e questa funzione ha semplicemente zero
+
+00:35.950 --> 00:39.160
+finestre di dialogo della console.
+
+00:39.220 --> 00:45.520
+In questo modo si disconnette solo il primo elemento nella casella.
+
+00:45.520 --> 00:54.750
+Cosa diresti che il Big O di questa funzione è il numero di passaggi o operazioni che questa funzione svolge.
+
+00:54.750 --> 01:04.400
+Se le caselle aumentano da 0 a forse da 10 a forse da 100 a 100000, cosa succederebbe qui.
+
+01:04.710 --> 01:11.890
+Pronto per la risposta, questo è ciò che chiamiamo tempo costante.
+
+01:11.950 --> 01:20.050
+È un O di uno che non importa quante volte le scatole aumentano l'anno o comunque molte
+
+01:20.410 --> 01:25.440
+scatole che abbiamo, prendiamo sempre il primo oggetto dell'array.
+
+01:25.480 --> 01:33.050
+Se guardiamo a questo con un esempio se avessimo una serie di Buxus anno e lo eseguiamo attraverso la
+
+01:33.200 --> 01:36.830
+funzione che prende solo il primo elemento nella matrice.
+
+01:37.750 --> 01:43.510
+Bene, il numero di operazioni è uno, indipendentemente da quanto grande sia il numero di scatole.
+
+01:43.510 --> 01:46.400
+Stiamo solo facendo una cosa.
+
+01:46.520 --> 01:49.660
+Quindi è un tempo costante.
+
+01:49.930 --> 01:59.580
+Se guardiamo questo su un grafico se abbiamo un elemento o una scatola facciamo una operazione.
+
+01:59.780 --> 02:05.260
+Se ne abbiamo ancora tre ne facciamo ancora uno solo perché stiamo semplicemente afferrando il primo elemento dell'array.
+
+02:05.360 --> 02:08.220
+Se diciamo cinque.
+
+02:08.240 --> 02:11.600
+La stessa cosa 7 volte stessa.
+
+02:11.600 --> 02:16.460
+E che dire di nove di nuovo lo stesso numero di operazioni.
+
+02:16.460 --> 02:21.030
+E questo non so se puoi vedere la linea ma questo è solo un tempo costante.
+
+02:21.050 --> 02:26.720
+Non è il tempo lineare come se fosse dove aumenta e aumenta con il numero
+
+02:26.720 --> 02:29.900
+di operazioni il numero di operazioni rimane piatto.
+
+02:32.840 --> 02:36.230
+Ma ho una domanda qui e se facciamo qualcosa di diverso.
+
+02:36.350 --> 02:38.020
+Cosa succede se facciamo qualcosa di simile.
+
+02:39.400 --> 02:47.070
+Cosa succede se abbiamo una funzione che dice la funzione barra di registro GRABBE.
+
+02:47.070 --> 02:47.760
+Primi
+
+02:51.110 --> 03:04.710
+due riquadri e questo prende una serie di scatole e sta per consolare o registrare il primo elemento nell'array e andrà alla finestra di
+
+03:06.110 --> 03:08.180
+dialogo della console.
+
+03:08.300 --> 03:15.200
+Anche il secondo elemento dell'array.
+
+03:15.350 --> 03:17.740
+Come misuriamo il big-O di questa funzione.
+
+03:18.870 --> 03:25.770
+Bene, lasciatemi solo questa soluzione comune per un secondo, perché non abbiamo bisogno di
+
+03:25.880 --> 03:36.050
+questo ora e basta creare un array chiamato box e questa casella ha da dire 0 1 2 3 4 e 5.
+
+03:36.120 --> 03:47.090
+Quindi 5 articoli o 6 in questo caso perché includiamo 0 e se eseguiamo questa funzione registriamo prima due caselle e le diamo
+
+03:47.090 --> 03:51.220
+l'array di caselle e facciamo clic su Esegui.
+
+03:51.220 --> 03:54.890
+Qui abbiamo 0 e 1.
+
+03:54.890 --> 04:00.470
+Quindi abbiamo registrato questo e poi questo qual è il numero di operazioni qui.
+
+04:01.520 --> 04:09.030
+Bene, abbiamo tutto quello che è una operazione qui.
+
+04:09.030 --> 04:20.890
+E poi abbiamo di nuovo qui così di uno ogni volta che questa funzione esegue due operazioni.
+
+04:20.930 --> 04:31.730
+Quindi questa funzione in totale esegue effettivamente 0 di due operazioni ogni volta.
+
+04:31.730 --> 04:39.470
+Quindi, indipendentemente da quanto grandi siano le scatole, il numero di operazioni sarà anche qui se guardiamo a
+
+04:39.470 --> 04:49.260
+questo su un grafico invece di avere tutto ciò che abbiamo prima di avere o due e poi se avessimo tre operazioni
+
+04:49.260 --> 04:52.210
+sarà solo essere 0 o 3.
+
+04:52.290 --> 04:56.340
+Ma nel complesso è ancora una linea piatta.
+
+04:56.530 --> 04:59.650
+E questo è qualcosa su cui ci occuperemo più avanti.
+
+04:59.650 --> 05:08.920
+Ma quando si tratta di costi e tempo, non ci interessa il nocciolo di uno o due o anche
+
+05:08.940 --> 05:10.020
+di cento.
+
+05:10.240 --> 05:17.060
+Intorno a questo semplicemente dicendo semplicemente oh di quello che è.
+
+05:17.170 --> 05:18.860
+Abbiamo un tempo costante.
+
+05:18.880 --> 05:22.050
+È una linea piatta in termini di scalabilità.
+
+05:22.120 --> 05:28.520
+Non importa quanto siano grandi i nostri input, continueremo a fare la costante quantità di tempo su
+
+05:30.840 --> 05:37.740
+una funzione e se guardiamo a questo su un grafico vediamo che uno di questi è l'area verde scuro.
+
+05:37.780 --> 05:39.070
+È eccellente
+
+05:39.070 --> 05:42.480
+Amiamo tutto perché è molto scalabile.
+
+05:42.520 --> 05:44.630
+Non importa quanti elementi abbiamo.
+
+05:44.640 --> 05:50.750
+Funzionerà sempre con la stessa prevedibilità quando si tratta di informatica è
+
+05:50.790 --> 05:56.120
+molto, molto bello e tutto ciò è sicuramente OK.
+
+05:56.220 --> 06:04.810
+Quindi abbiamo imparato il tempo lineare tutto e quindi i costi e il tempo oh di uno.
+
+06:04.970 --> 06:09.120
+Facciamo un po 'di esercizio divertente per consolidare davvero le nostre conoscenze qui.

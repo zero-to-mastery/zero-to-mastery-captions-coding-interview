@@ -1,0 +1,199 @@
+WEBVTT
+
+00:02.180 --> 00:10.500
+Welcome back you may have noticed something while talking about they go scaleable means we worry about
+
+00:10.590 --> 00:12.110
+large inputs.
+
+00:12.420 --> 00:15.680
+What does the end of the graph look like.
+
+00:16.080 --> 00:24.360
+So if our function is only worried about really small inputs or we know that our inputs are only going
+
+00:24.360 --> 00:29.610
+to be let's say an array of five items big-O won't matter as much does it.
+
+00:29.610 --> 00:34.710
+Because over here if the elements are small all these lines are kind of bunched up together they're
+
+00:34.710 --> 00:35.890
+all the same.
+
+00:35.970 --> 00:38.420
+But is that real life.
+
+00:38.430 --> 00:46.230
+No because as humans we tend to think in here and now we tend to think that oh our Web sites are only
+
+00:46.230 --> 00:48.420
+going to have 100 users.
+
+00:48.480 --> 00:49.760
+That's it.
+
+00:49.800 --> 00:53.850
+But what if that user base grows What if our inputs grow.
+
+00:53.850 --> 00:59.760
+We never know when we write code we want to write code that can scale so that we don't have to constantly
+
+00:59.760 --> 01:03.560
+go back and fix things or when things get out of hand.
+
+01:03.720 --> 01:12.110
+The code breaks and that's why big-O is so important to write scalable code means thinking outside of
+
+01:12.110 --> 01:14.500
+just the small little section over here.
+
+01:14.540 --> 01:20.220
+It means thinking long term thinking big about your code and what could happen in the future.
+
+01:20.250 --> 01:23.200
+Now you're thinking to yourself right now.
+
+01:23.630 --> 01:28.800
+Hey Andre I feel like I just learned a whole bunch of theory and no practical information.
+
+01:28.820 --> 01:33.500
+Andre I want to know exactly how I can use this in my day to day life as a coder.
+
+01:33.610 --> 01:35.500
+I'm I'm kind of getting bored here.
+
+01:35.720 --> 01:39.710
+What with this newfound knowledge you're going to look at code differently.
+
+01:39.980 --> 01:40.800
+Right.
+
+01:40.850 --> 01:41.620
+Let's have a look.
+
+01:42.780 --> 01:49.970
+You see now when we look at methods that we get in a language such as methods in an array.
+
+01:50.160 --> 01:56.670
+When it comes to javascript we have things like push pop shift on shift.
+
+01:56.790 --> 02:03.470
+You see all these methods which are functions have a cost associated with them.
+
+02:03.540 --> 02:08.530
+A big low cost for example when it comes to arrays.
+
+02:08.540 --> 02:16.710
+When we search for an item over me access the first item an array for example it's all of one.
+
+02:16.870 --> 02:18.370
+But when we use something like.
+
+02:18.370 --> 02:19.620
+On shift.
+
+02:19.930 --> 02:24.620
+Well it actually turns out to be oh then and why that is.
+
+02:24.620 --> 02:30.140
+We're going to get into when we talk about the data structure array in the data structure section but
+
+02:30.800 --> 02:38.780
+you're going to start to see for the rest of this course how we use big-O to measure why one data structure
+
+02:38.930 --> 02:40.530
+might be better than others.
+
+02:40.550 --> 02:48.020
+Why should we use an array instead of let's say an object maybe object has better functions that we
+
+02:48.020 --> 02:49.920
+need for hard data.
+
+02:51.040 --> 02:58.600
+This graph that we've talked about up until now is actually part of big-O Chichi dotcom and free scroll
+
+02:58.600 --> 03:04.290
+down here you'll see that each data structure that is an array.
+
+03:04.350 --> 03:08.180
+And in this case objects on this table is a hash table.
+
+03:08.340 --> 03:14.010
+Again something that we're going to cover in the data structure section but we see that we have different
+
+03:14.700 --> 03:23.370
+Big-O notation for different data structure and some data structures have really good search big-O some
+
+03:23.370 --> 03:25.520
+have insertions some have deletion.
+
+03:25.530 --> 03:32.190
+And you can see here that there's different pros and cons to each of these data structures.
+
+03:32.970 --> 03:41.130
+As you'll find out in this course data structures are simply ways to store data and algorithms are simply
+
+03:41.280 --> 03:46.800
+functions or ways to use data structures to write our programs.
+
+03:46.800 --> 03:56.160
+Remember our instructions for machines for our computers and great programmers have this knowledge where
+
+03:56.280 --> 04:03.960
+they pick the right data structure the right algorithms to write good programs.
+
+04:04.120 --> 04:12.430
+Remember our two rules of good code readable and scalable and what we've learned is the foundation for
+
+04:12.430 --> 04:18.880
+us to make a decision of which data structure is going to be best when we get into the data structure
+
+04:18.880 --> 04:26.740
+section because we're going to know oh array's allows us to access at all in one constant time.
+
+04:26.740 --> 04:34.460
+But when it comes to searching through an array it's going to give us linear time versus perhaps maybe
+
+04:34.460 --> 04:35.590
+an object.
+
+04:35.930 --> 04:42.140
+So behind the scenes even though this section may be a little bit theoretical and boring.
+
+04:42.380 --> 04:47.840
+What we've just learned is going to lay the foundation for the rest of the course for us to be able
+
+04:47.840 --> 04:52.280
+to write good code for the rest of the sections.
+
+04:52.370 --> 04:58.940
+We're going to use big-O to see what is a good solution to a problem and what is a bad solution to a
+
+04:58.940 --> 05:03.700
+problem in most interviews have this core concept.
+
+05:04.070 --> 05:05.860
+What's the right data structure.
+
+05:05.930 --> 05:09.650
+What's the right algorithm to write good programs.
+
+05:09.650 --> 05:17.330
+Google hires engineers and developers that know this because they have a lot of scale that they have
+
+05:17.330 --> 05:18.140
+to think about.
+
+05:18.260 --> 05:25.770
+A lot of inputs and people that know how to handle these programs are the ones that are going to be
+
+05:25.770 --> 05:27.760
+able to build great programs.
+
+05:29.360 --> 05:30.790
+I'll see you in the next one.
+
+05:30.990 --> 05:31.290
+Bebai.

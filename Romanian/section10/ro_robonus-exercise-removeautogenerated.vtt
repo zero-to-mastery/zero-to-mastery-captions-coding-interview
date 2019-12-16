@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.700 --> 00:01.570
+Bine ai revenit.
+
+00:01.790 --> 00:03.430
+Avem un bonus.
+
+00:03.470 --> 00:04.920
+Exercițiu.
+
+00:05.170 --> 00:12.100
+Acum puteți trece peste acest exercițiu deoarece este puțin avansat și cel mai probabil nu îl veți
+
+00:12.100 --> 00:13.420
+întâlni într-un interviu.
+
+00:13.540 --> 00:20.470
+Dar, pentru cei care sunt curioși, este modul de implementare a metodei Remove aici.
+
+00:21.600 --> 00:28.430
+Dacă vrem să eliminăm un element dintr-un copac, cum să facem asta?
+
+00:28.620 --> 00:35.260
+Acum, dacă doriți să încercați să implementați acest lucru, vreau să vă dau un cap de lucru în sus, cel
+
+00:35.260 --> 00:43.140
+mai bun mod pentru a vă vizualiza și a vedea ce pași trebuie să faceți este să mergeți înapoi la vizual mergeți asigurați-vă că vă
+
+00:43.140 --> 00:50.720
+deplasați viteza la cel mai lent Asa vedeți ce se întâmplă și începeți să eliminați câteva note pentru a vedea ce este logica.
+
+00:50.730 --> 00:55.180
+Și scoaterea notelor niște pași este foarte ușoară.
+
+00:55.180 --> 01:02.100
+Dacă vrem să eliminăm unul, de exemplu, este ceea ce pur și simplu traversăm și găsim unul și doar îl eliminăm.
+
+01:02.650 --> 01:11.690
+Dar atunci există alte cazuri care se complică cu adevărat, cum ar fi Ce facem atunci când eliminăm bine 51.
+
+01:11.860 --> 01:23.400
+Dacă dau clic pe juca aici și spun că eliminați 51 Ei bine, veți vedea că vom începe să traverseze pentru a găsi
+
+01:23.400 --> 01:28.450
+51 și observați ce se întâmplă atunci când găsim 51.
+
+01:28.590 --> 01:37.760
+De fapt, continuăm să mergem la 55 de ani și apoi continuăm până la 54 de ani.
+
+01:37.970 --> 01:44.860
+Și odată ce am împărțit lucrurile și m-am mutat în sus.
+
+01:45.170 --> 01:47.390
+Și știu că este foarte confuz.
+
+01:47.390 --> 01:50.690
+S-ar putea să doriți să faceți acest lucru de câteva ori pentru a vedea ce este logica.
+
+01:51.020 --> 01:56.690
+Dar, în esență, ceea ce facem este că găsim locul în care vrem să înlocuim să mergem în
+
+01:57.200 --> 02:01.130
+partea dreaptă, apoi pe stânga și să plasăm acel articol la stânga.
+
+02:01.130 --> 02:03.650
+Cum am spus că va fi un
+
+02:06.930 --> 02:14.700
+pic avansat, dar dacă doriți să vă provocați folosind animația vizuală du-te încearcă să dai seama cum să pună în aplicare
+
+02:14.940 --> 02:16.720
+propria metodă de ștergere.
+
+02:17.920 --> 02:24.200
+Apoi, următorul videoclip vă voi arăta soluția mea și voi trece pașii pe care îi luăm pentru ca acest lucru să funcționeze.
+
+02:25.360 --> 02:26.330
+Voi vedea în următorul.

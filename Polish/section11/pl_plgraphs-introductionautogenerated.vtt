@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.470 --> 00:09.720
+Nauczmy się o utraconej strukturze danych w tym kursie. Wykresy są jedną z najbardziej użytecznych i
+
+00:09.720 --> 00:16.340
+najczęściej używanych struktur danych w informatyce, jeśli chodzi o modelowanie prawdziwego życia.
+
+00:16.450 --> 00:24.880
+W skrócie, wykres jest po prostu zestawem wartości, które są powiązane parami i można je zobaczyć
+
+00:24.880 --> 00:25.440
+tutaj.
+
+00:25.630 --> 00:27.360
+Wygląda jak mała sieć.
+
+00:27.460 --> 00:33.110
+Są połączenia do różnych węzłów na wykresie.
+
+00:33.110 --> 00:37.750
+Każda pozycja jest nazywana węzłem lub wierzchołkiem.
+
+00:37.970 --> 00:39.670
+Więc to jest węzeł.
+
+00:39.830 --> 00:46.630
+Jest to węzeł węzła połączony następnie z krawędziami.
+
+00:46.880 --> 00:54.880
+To jest krawędź, która jest krawędzią i jest niszą, a jak można sobie wyobrazić, wykresy są świetnymi
+
+00:54.880 --> 00:57.910
+strukturami danych do modelowania rzeczywistych relacji.
+
+00:57.970 --> 01:04.120
+Prezentujemy trawkę długości Przykro nam w przypadku przypadków, w których pracujesz z rzeczami, które łączą się z innymi
+
+01:04.120 --> 01:04.830
+rzeczami.
+
+01:04.930 --> 01:07.510
+Coś w rodzaju działania Internetu.
+
+01:07.510 --> 01:08.590
+Dobrze.
+
+01:08.650 --> 01:18.450
+Możemy wykorzystywać wykresy do reprezentowania może przyjaźni może drzew genealogicznych możemy użyć wykresów do reprezentowania sieci i światowych sieci lub możemy
+
+01:18.640 --> 01:25.690
+użyć wykresów do reprezentowania dróg jednego miasta do drugiego i dróg, które są połączone,
+
+01:25.690 --> 01:27.850
+jak możesz sobie wyobrazić.
+
+01:27.850 --> 01:30.630
+Facebook używa go do swojej sieci społecznościowej.
+
+01:30.640 --> 01:38.740
+Amazon używa go do swoich silników rekomendacji, a Mapy Google używają wykresów do określenia najkrótszej ścieżki do miejsca, do
+
+01:38.740 --> 01:40.750
+którego chcesz się udać.
+
+01:41.080 --> 01:43.380
+Więc pozwól, że zadam ci pytanie.
+
+01:43.570 --> 01:45.640
+Czy myślisz, że to jest wykres?
+
+01:45.640 --> 01:48.020
+Cóż, oczywiście po prostu przez to przeszliśmy.
+
+01:48.040 --> 01:49.610
+A co z tym.
+
+01:49.690 --> 01:53.040
+A co z tym i tym i tym.
+
+01:53.080 --> 01:54.190
+A co z tym.
+
+01:54.190 --> 02:02.560
+No dobra, w końcu to tylko dostaję kilka więcej tego i tego i tego Yep oni wszyscy są wykresami.
+
+02:02.800 --> 02:06.190
+Nawet ten ten rodzaj wygląda jak połączona lista.
+
+02:06.190 --> 02:09.390
+To jest wykres.
+
+02:09.540 --> 02:15.810
+I jak widać na naszych wykresach mapowych uwzględniamy rzeczy, których się nauczyliśmy wcześniej, takie
+
+02:15.810 --> 02:20.730
+jak drzewa i połączone listy list powiązanych są rodzajem drzewa.
+
+02:20.730 --> 02:23.350
+Drzewa są rodzajem wykresu.
+
+02:23.370 --> 02:26.970
+W następnych kilku filmach Nauczmy się wszystkiego o wykresach.

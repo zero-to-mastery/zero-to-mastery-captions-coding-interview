@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.260 --> 00:11.830
+Să vorbim despre stivele de stive este un tip de structură de date pe care le puteți gândi la ele ca plăci, care este că avem o singură bucată
+
+00:11.830 --> 00:19.150
+de date și apoi o altă piesă de date vine de-a lungul și este stivuită pe partea de sus a
+
+00:19.150 --> 00:24.030
+acelei bucăți de date și ea continuă să păstreze păstra continuă și continuă.
+
+00:24.040 --> 00:31.510
+Vă puteți gândi la ele deoarece aceste plăci s-au așezat vertical unul pe celălalt și puteți atinge
+
+00:31.600 --> 00:32.950
+numai placa superioară.
+
+00:33.040 --> 00:39.520
+Puteți accesa cu adevărat orice din partea de jos de aici, modul în care puteți accesa datele
+
+00:39.520 --> 00:46.960
+dintr-un teanc este să luați prima placă, apoi cea de-a doua, apoi a treia și să continuați și să continuați
+
+00:46.960 --> 00:50.690
+și continuați să continuați până veți trece tot stiva.
+
+00:50.940 --> 00:58.950
+Și acest lucru se numește Life'll sau ultimul în primul out pentru că ultimul element care vine este primul care vine și
+
+00:59.070 --> 01:05.850
+vă gândiți la tine de ce este util acest lucru atunci când vom folosi de fapt, ceva de
+
+01:05.850 --> 01:07.190
+genul unui stiva.
+
+01:07.200 --> 01:10.280
+Sunt de fapt utile într-un număr destul de surprinzător.
+
+01:10.380 --> 01:17.250
+Sunt foarte bine atunci când trebuie să cunoașteți ultima valoare care a fost văzută sau
+
+01:17.250 --> 01:21.960
+adăugată și stivele sunt foarte importante în motoarele specifice limbii.
+
+01:21.960 --> 01:28.770
+S-ar putea să fi auzit de ceva numit Stack Overflow un site pe care o mulțime de ingineri vizitează și de
+
+01:28.770 --> 01:35.040
+fapt voi include un videoclip bonus după ce vorbim despre indicii despre modul în care motorul javascript funcționează folosind stive
+
+01:35.040 --> 01:40.190
+și indici și cum s-ar putea să obțineți stivă de preaplin când scrie cod rău.
+
+01:40.970 --> 01:48.440
+Acum, majoritatea limbajelor de programare sunt modelate cu arhitectura stivă și atunci când funcțiile sunt apelate într-un limbaj
+
+01:48.440 --> 01:56.240
+de programare, de obicei, ei urmează acest model de ultim în primul out o funcție în cadrul unei funcții
+
+01:56.240 --> 01:58.760
+în cadrul unei funcții este chemată.
+
+01:58.790 --> 02:05.150
+Apoi, începem să deschidem aceste funcții până ajungem la început și nu ne îngrijorăm că va
+
+02:05.150 --> 02:09.700
+fi ceva mai clar când ne codificăm propriul nostru stack.
+
+02:09.710 --> 02:17.210
+O altă metodă utilă în care putem folosi stivele este istoria browser-ului chiar în locul în care mergeți înainte și înapoi de
+
+02:17.270 --> 02:23.900
+la un site web la altul, apoi apăsați pe butonul din spate sau pe butonul frontal care folosește stive.
+
+02:24.140 --> 02:29.930
+Sau poate scrieți o bucată de text și doriți să anulați ceva, astfel încât să puteți face clic pe
+
+02:29.930 --> 02:33.710
+opțiunea anulare pentru a reveni sau a reveni pentru a reveni.
+
+02:33.710 --> 02:35.310
+Vă întrebați vreodată cum funcționează.
+
+02:35.390 --> 02:42.110
+Ei bine, ideea vine din stive care stochezi starea anterioară asupra muncii tale și a memoriei într-o
+
+02:42.110 --> 02:45.480
+astfel de ordine încât ultima apare mai întâi.
+
+02:45.710 --> 02:52.070
+Acesta este un lucru pe care îl putem face cu stive, după cum puteți vedea aici stive care de
+
+02:52.340 --> 02:55.130
+obicei vin cu trei tipuri de metode.
+
+02:55.130 --> 02:57.440
+Sunt și alte câteva, dar acestea sunt cele principale.
+
+02:57.440 --> 02:58.070
+Pop.
+
+02:58.160 --> 03:00.850
+Împingeți și aruncați popul.
+
+03:00.860 --> 03:08.960
+Ultimul element pe care se elimină împingerea plăcii este modul în care se plătește și se examinează pur și simplu cel mai bun
+
+03:08.970 --> 03:10.830
+joc pe care l-am adăugat.
+
+03:10.830 --> 03:16.920
+Priviți-vă aici doar pentru a vă arăta că este destul de mare pentru ADD deoarece, de obicei, nu
+
+03:17.400 --> 03:24.170
+doriți să treceți printr-un întreg stack, dar doar pentru a ști dacă vrem să facem asta, va fi o operație grea.
+
+03:25.020 --> 03:27.410
+Să vorbim despre Q în următorul videoclip.
+
+03:27.720 --> 03:27.940
+Buh-Pa.

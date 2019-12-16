@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.550 --> 00:05.010
+Bagaimana Merse cukup sulit, benar.
+
+00:05.360 --> 00:13.070
+Saya punya jawaban untuk Anda di sini dan saya tidak akan ikut serta karena ini adalah salah satu dari
+
+00:13.070 --> 00:20.150
+potongan kode yang saya tulis dan ketik dalam video 30 menit tidak akan membantu pemahaman Anda.
+
+00:20.150 --> 00:25.000
+Saya sarankan Anda melalui kode ini baris demi baris untuk memahami sepenuhnya.
+
+00:25.180 --> 00:33.580
+Tetapi jika kita melihat di sini semua yang kita lakukan di pass pertama dalam fungsi semacam gabungan
+
+00:33.580 --> 00:40.690
+adalah kita akan mendapatkan panjang array menemukan tengah array dan kemudian kita akan mengiris array
+
+00:41.110 --> 00:51.970
+menjadi sisi kiri dan sisi kanan sehingga jika saya Konsole login di sini dan saya klik run kita melihat bahwa pertama kali
+
+00:51.970 --> 00:59.850
+di sekitar kita hanya membagi item di tengah di mana kita memiliki sembilan puluh sembilan hingga
+
+00:59.850 --> 01:04.420
+1 di sisi kiri dan 5 ke nol.
+
+01:04.570 --> 01:13.060
+Dan sisi kanan di lintasan berikutnya karena ingat kita sedang melakukan rekursi dan ini dipanggil lagi
+
+01:13.060 --> 01:15.930
+ketika kita sampai di sini.
+
+01:16.130 --> 01:25.400
+Kita sekarang membagi sembilan puluh sembilan dan 44 dan enam menjadi satu menjadi bagiannya sendiri dan kemudian sembilan puluh sembilan dan
+
+01:25.520 --> 01:33.860
+44 menjadi masing-masing item enam dan satu menjadi kiri dan kanan sampai kita memiliki semuanya menjadi satu item.
+
+01:35.410 --> 01:38.460
+Dan kemudian kita mulai memisahkan ini dan sisi juga.
+
+01:39.220 --> 01:41.230
+Sekarang bagaimana dengan fungsi gabungan.
+
+01:44.070 --> 01:50.360
+Fungsi penggabungan akan menjadi sedikit sulit untuk dibaca tetapi jika kita lihat di sini yang kami
+
+01:50.480 --> 01:57.590
+katakan adalah kami memiliki array hasil yang akan kami isi semuanya dan kami akan memiliki indeks kiri dan indeks
+
+01:57.620 --> 01:58.830
+yang tepat.
+
+01:59.120 --> 01:59.960
+Dan kita akan membandingkan.
+
+01:59.960 --> 02:12.130
+Berikut ini adalah indeks kiri kurang dari panjang kiri ke kanan dan indeks kanan kurang dari panjang array kanan
+
+02:12.130 --> 02:18.750
+yang memastikan bahwa kami memiliki item dalam array kami.
+
+02:18.840 --> 02:24.440
+Jika demikian, mari kita bandingkan item kiri kita dengan item kanan.
+
+02:25.570 --> 02:31.450
+Dan dorong ke array baru ke hasil kami kembali item yang kurang.
+
+02:31.450 --> 02:36.840
+Dalam hal ini akan menjadi item tangan kiri dan kemudian kita naikkan.
+
+02:37.000 --> 02:44.050
+Kalau tidak, jika item kiri lebih tinggi dari item kanan kita melakukan sebaliknya dan kanan padanya masuk ke
+
+02:44.050 --> 02:45.060
+hasil kami.
+
+02:47.540 --> 02:56.890
+Ingat fungsi penggabungan ini melakukan apa yang kita lihat di animasi di mana memisahkan fungsi di bagian pertama
+
+02:57.550 --> 03:04.620
+dari fungsi dan kemudian di penggabungan kita akan mengambil membandingkan kiri dan kanan dan
+
+03:04.620 --> 03:07.700
+menempatkannya ke dalam array hasil.
+
+03:08.600 --> 03:16.240
+Dan kemudian pergi ke yang berikutnya dan terus melakukan ini berulang-ulang dan menciptakan array hasil kami.
+
+03:17.590 --> 03:25.250
+Jika saya banyak Konsole di sini kiri dan kanan dan saya klik jalankan kita melihat persis apa yang kita lakukan.
+
+03:25.250 --> 03:31.390
+Kami memiliki sembilan puluh sembilan dan 44 dan kemudian dua dan satu.
+
+03:31.400 --> 03:39.670
+Jadi di sisi kiri dan kanan, sembilan puluh sembilan dan 44 bisa dibandingkan menjadi 44 dan sembilan, lalu kami
+
+03:41.240 --> 03:51.440
+membandingkan dua dan satu yang menjadi 1 dan 2 lalu 6 dan 1 dan 2 yang menjadi 1 2 6 dan kami terus
+
+03:51.440 --> 03:59.030
+berjalan teruskan sampai langkah terakhir di mana kita memiliki dua daftar di sini dan kita membandingkannya
+
+03:59.030 --> 04:07.520
+0 dan 1 kita menempatkan 0 dan hasilnya adalah a dan kemudian kita menempatkan 1 2 dan terus berjalan dan
+
+04:07.820 --> 04:10.670
+terus berjalan persis seperti animasi kita.
+
+04:10.670 --> 04:16.250
+Sekarang saya mendorong Anda untuk bermain-main dengan ini dan mungkin pergi selangkah demi selangkah.
+
+04:16.420 --> 04:23.610
+Algoritma yang sangat sulit untuk mendapatkan kabar buruk adalah bahwa algoritma berikutnya bahkan lebih rumit.
+
+04:24.280 --> 04:29.990
+Tapi untungnya bagi Anda seperti yang saya katakan Anda tidak perlu melakukan ini dalam sebuah wawancara.
+
+04:30.050 --> 04:40.740
+Anda hanya perlu tahu bahwa merge sort adalah algoritma yang hebat untuk digunakan karena kita mendapatkan semua log dan bingo.
+
+04:40.990 --> 04:43.280
+Mari kita lihat algoritma pengurutan lainnya.

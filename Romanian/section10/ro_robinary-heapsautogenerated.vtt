@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.520 --> 00:01.870
+Bine ai revenit.
+
+00:01.870 --> 00:07.720
+Am vorbit despre arbori binari de căutare binar și apoi am învățat cum să
+
+00:08.020 --> 00:16.750
+echilibrăm acei copaci și unele dintre complexitățile de timp implicate cu un BSD și vreau să vorbesc cu dvs despre alte două
+
+00:16.750 --> 00:18.540
+tipuri comune de Treece.
+
+00:18.610 --> 00:24.560
+Una este o grămadă, iar cealaltă este un tri sau un copac în acest videoclip.
+
+00:24.640 --> 00:27.600
+Să vorbim despre oi.
+
+00:27.760 --> 00:34.060
+Acum, când vine vorba de o grămadă, probabil vom vorbi despre grămezi binare, exact așa cum am avut
+
+00:34.240 --> 00:35.390
+cu arborii binari.
+
+00:35.410 --> 00:41.070
+Asta înseamnă că vor fi doar doi copii la o notă.
+
+00:41.130 --> 00:46.230
+Acum, de ce sunt acestea utile și cum se deosebesc de arborii binari.
+
+00:46.230 --> 00:47.130
+Hai să aruncăm o privire.
+
+00:48.570 --> 00:49.810
+Un copac binar.
+
+00:50.220 --> 00:52.430
+Fiecare copil aparține unui părinte.
+
+00:52.440 --> 00:56.790
+Rețineți că are o prioritate sau o valoare mai mare.
+
+00:56.790 --> 01:05.240
+Dacă priviți aici, fiecare copil care este de șaptezeci și douăzeci și trei este mai mic decât unul dintr-un șaptezeci și doi
+
+01:05.280 --> 01:13.590
+este mai mare decât două și patruzeci și cinci și treizeci și trei este mai mare de cinci și unul este
+
+01:13.590 --> 01:16.420
+numit de fapt un heap max.
+
+01:16.440 --> 01:23.630
+Există, de asemenea, ceva numit minusculă, care este exact opusul unde nodul rădăcină este cel mai mic.
+
+01:23.640 --> 01:25.680
+Acum, această valoare poate fi orice doriți.
+
+01:25.680 --> 01:27.720
+Poate fi numele unei persoane.
+
+01:27.720 --> 01:29.270
+Poate fi un număr.
+
+01:29.340 --> 01:31.960
+Poate fi ceva pentru că este o notă.
+
+01:32.240 --> 01:40.980
+Dar, după cum puteți vedea tot ce avem de-a face este că într-un heap binar fiecare nod de nivel superior are
+
+01:40.980 --> 01:49.920
+o valoare mai mare decât orice nod din nivelul următor în jos și un heap poate fi folosit în orice algoritm în care
+
+01:49.920 --> 01:51.180
+ordonarea este importantă.
+
+01:51.180 --> 01:57.630
+Și pe măsură ce vom discuta despre cum se obișnuiește când vine vorba de cozile prioritare.
+
+01:57.780 --> 02:04.770
+Acum, odată cu cursa, am avut acces aleatoriu, ne-a permis accesul la întâmplare a oricăror elemente din cadrul
+
+02:04.770 --> 02:07.770
+acestora utilizând un index dintr-o listă legată.
+
+02:07.770 --> 02:15.360
+Putem schimba lucrurile dinamic, spre deosebire de o matrice, dar găsind ceva în interiorul lor este tot timpul
+
+02:15.360 --> 02:20.930
+liniar, pentru că trebuia să trecem prin lista de link-uri aici puțin diferită.
+
+02:20.970 --> 02:28.590
+Nu puteți face toate accesările aleatoare, așa cum am făcut cu tablourile de tabele de tip hash, deoarece știm despre copaci că trebuie
+
+02:28.600 --> 02:34.930
+să facem un fel de traversări acum, în comparație cu un arbore binar de căutare pe care îl vedem.
+
+02:35.370 --> 02:38.420
+Ei bine, uite-te este O.
+
+02:38.580 --> 02:45.720
+Și nu este tot din jurnal și pentru că este mai puțin ordonat decât un binar de arbori de căutare dreapta.
+
+02:45.930 --> 02:51.330
+Un arbore binar de căutare a avut de fapt semnificație între stânga și dreapta la stânga a fost întotdeauna mai
+
+02:51.330 --> 02:53.300
+puțin decât dreptul într-un heap binar.
+
+02:53.370 --> 02:54.590
+Nu contează.
+
+02:54.600 --> 02:59.230
+Stânga și dreapta pot fi orice valoare atâta timp cât este mai mică decât valoarea de vârf.
+
+02:59.700 --> 03:06.150
+Deci, dacă căutăm să spunem că trebuie să verificăm nodul părinte, atunci trebuie să verificăm deoarece unul pe unul sau
+
+03:06.260 --> 03:09.580
+pentru că unul este mai mic de 1 la 1.
+
+03:09.630 --> 03:12.450
+Trebuie să verificăm ambele noduri dedesubt.
+
+03:12.450 --> 03:19.050
+Și apoi, pentru că unul este mai mic de 72 și 33, trebuie să verificăm din
+
+03:19.050 --> 03:28.560
+nou fiecare notă și să căutăm 1 devine 0 din jurnal și așa mai mult sa transformat în căutarea printr-o listă legată sau
+
+03:28.590 --> 03:30.100
+iterând printr-o matrice.
+
+03:30.110 --> 03:37.870
+Deci, de ce am vrea vreodată să folosim un heap binar? Se pare că grămecile binare sunt cu
+
+03:37.870 --> 03:40.890
+adevărat minunate pentru a face operații comparative.
+
+03:41.140 --> 03:49.810
+Așa cum spun că vreau oameni care au o valoare de peste 33, pentru că în acest caz putem să luăm aceste elemente
+
+03:49.810 --> 03:53.970
+destul de ușor, în loc să mergem până la note.
+
+03:57.520 --> 04:03.590
+De fapt, el a folosit foarte mult algoritmi de sortare a cozilor prioritare de stocare a datelor.
+
+04:03.690 --> 04:10.090
+Așadar, haideți să aruncăm o privire asupra modului în care este implementat vizual o grămadă binară.
+
+04:10.150 --> 04:13.150
+Avem aici o grămadă binară folosind vizuale.
+
+04:13.360 --> 04:20.250
+Și dacă vrem să adăugăm, să spunem că inserați 26, l-am lovit bine.
+
+04:20.250 --> 04:21.890
+A fost foarte rapid.
+
+04:22.290 --> 04:27.320
+Dar dacă am fi vrut să inserăm
+
+04:30.230 --> 04:34.600
+să spunem 51 finanțator 51.
+
+04:34.830 --> 04:43.170
+A trebuit să fac un pic de comutator pentru a vedea heap-uri adăuga valoare pe arbore în ordinea de la stânga la dreapta și
+
+04:43.230 --> 04:44.740
+apoi bule în sus.
+
+04:45.030 --> 04:50.780
+Dacă nu este în aceeași ordine sau într-o ordine prioritară care este o dată ca și cum am făcut-o aici.
+
+04:50.820 --> 04:56.780
+Dacă aș adăuga să zicem 70 sau știi ce.
+
+04:56.850 --> 04:58.910
+Să adăugăm o sută.
+
+04:58.920 --> 05:00.130
+Ce crezi ca se va intampla.
+
+05:01.280 --> 05:07.540
+Ei bine, dacă am lovit du-te, veți vedea că adaug o sută și apoi bulează.
+
+05:07.560 --> 05:13.170
+Deci, după cum puteți vedea inserturi, deși arată rapid, este posibil să se înregistreze în continuare și
+
+05:16.680 --> 05:19.460
+acest lucru este același caz cu ștergerile.
+
+05:19.500 --> 05:20.690
+E totul din jurnal.
+
+05:20.780 --> 05:27.900
+Și acum, pentru a înțelege cu adevărat de ce avem nevoie de ceva asemănător unui heap binar, de ce sunt atât de utile.
+
+05:27.900 --> 05:30.320
+Cum diferă de arborele de căutare binar.
+
+05:30.570 --> 05:33.140
+Trebuie să vorbim despre cozi prioritare.
+
+05:33.360 --> 05:35.220
+Asa ca sa vorbim despre cozile prioritare.

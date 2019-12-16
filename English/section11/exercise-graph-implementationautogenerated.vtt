@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.720 --> 00:01.600
+Welcome back.
+
+00:01.770 --> 00:08.110
+It's time to create our own graph and I've created the template here for you.
+
+00:08.130 --> 00:14.220
+You can also create your own if you want but I've only included things that lets you focus on the critical
+
+00:14.220 --> 00:14.870
+part.
+
+00:15.270 --> 00:19.670
+We have a graph class and a few methods that we're going to have to add.
+
+00:19.740 --> 00:31.230
+Now we're going to recreate a graph right here a on directed unweighted graph like this using adjacency
+
+00:31.470 --> 00:37.560
+list and for the adjacency list we're going to use a hash table.
+
+00:37.560 --> 00:40.380
+So how are we going to go about doing this.
+
+00:40.410 --> 00:44.080
+Well I have a few things that I've set up for you.
+
+00:44.890 --> 00:50.980
+One is that in the constructor we have simply number of notes that we'll have to increment just to keep
+
+00:50.980 --> 00:56.330
+track of how many notes or vertexes or Virts sees we have in our graph.
+
+00:57.440 --> 01:03.260
+And also I've created the adjacent list for you which is an object.
+
+01:03.440 --> 01:10.220
+And as you do this exercise you're going to realize why we want to use let's say an object versus an
+
+01:10.220 --> 01:17.600
+array because if we start removing things from the graph or placing things in the graph that's out of
+
+01:17.600 --> 01:20.000
+order it's going to cost us a lot.
+
+01:20.000 --> 01:27.140
+Remember arrays on shifting and shifting is expensive with objects we can quickly find items and see
+
+01:27.140 --> 01:35.280
+their connections so that ideally in this case where we have three or let's look at 0 in this case will
+
+01:35.280 --> 01:43.610
+have zero is going to be connected to an array of its connections which will be 1 and 2.
+
+01:43.740 --> 01:48.820
+So Ill have something like this.
+
+01:48.850 --> 01:55.900
+Your task is to add a new method called had Virtex that adds a new node or a vertex.
+
+01:55.960 --> 02:02.920
+The naming here kind of goes back and forth and then also add edge that is to add a connection between
+
+02:02.920 --> 02:04.490
+node 1 and No 2.
+
+02:04.600 --> 02:11.380
+And keep in mind that this is on directive if I guess bell it's an undirected graph.
+
+02:11.380 --> 02:16.460
+So both No.1 and No.2 point to each other and if you scroll down here.
+
+02:16.570 --> 02:21.260
+I've actually created the calls the function calls that we're going to do.
+
+02:21.380 --> 02:28.240
+We've created the graph and then I'm creating zero all the way through 6 just like we have on the graph
+
+02:28.240 --> 02:29.320
+here.
+
+02:29.320 --> 02:32.200
+And then we're going to add the edges.
+
+02:32.200 --> 02:39.280
+That is the connection between everything one is connected 0 0 connected to six is connected to five
+
+02:41.340 --> 02:47.520
+simply just saying this I'm never repeating myself that means I'm never saying add three in one and
+
+02:47.520 --> 02:49.540
+then saying add edge 1 and 3.
+
+02:49.620 --> 02:53.570
+I only say this once and that's the key.
+
+02:53.790 --> 02:59.940
+And also the order doesn't matter if I switch the order of these calls around it should still give me
+
+03:00.120 --> 03:02.050
+this graph.
+
+03:02.090 --> 03:02.630
+All right.
+
+03:02.630 --> 03:08.630
+I know you're excited to get going but the final thing and this is only optional if you want to do this
+
+03:08.630 --> 03:10.500
+yourself you can also Codie yourself.
+
+03:10.550 --> 03:14.540
+But it's not really that important for this video.
+
+03:14.900 --> 03:22.490
+I've created a small helper function called show connections and you can look through this function
+
+03:22.520 --> 03:24.230
+if you want.
+
+03:24.250 --> 03:29.230
+It's not really important to the core of the course but I've made this so you can check your work because
+
+03:29.500 --> 03:38.860
+if I run this using a the end my graph show connections it's going to printout the answer like this
+
+03:40.830 --> 03:44.500
+and it's going to show all the connections of the graphs that you've created.
+
+03:44.730 --> 03:52.740
+And this way you can check that these connections that is node for is connected to 3 2 and 5 note 4
+
+03:52.890 --> 03:59.340
+is connected to 3 2 and 5 just like we have here.
+
+03:59.340 --> 04:01.310
+All right that's enough for me.
+
+04:01.350 --> 04:05.010
+Good luck on this exercise and I'll see you in the solution video.
+
+04:05.100 --> 04:05.370
+Malet.

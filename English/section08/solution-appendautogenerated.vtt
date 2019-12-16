@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.780 --> 00:05.100
+Welcome back how was the exercise.
+
+00:05.170 --> 00:09.580
+Were you able to figure out the append method.
+
+00:09.670 --> 00:13.070
+Let me show you what I would have done.
+
+00:13.160 --> 00:21.530
+The first thing we would want to do is to create a new node with the value and we can do that quite
+
+00:21.530 --> 00:22.550
+easily.
+
+00:22.550 --> 00:30.620
+Saying Konst new node that's going to equal an object with the properties that we shouldn't be familiar
+
+00:30.620 --> 00:38.240
+by now that we have value that is going to equal the value that we get as a parameter and then the next
+
+00:39.140 --> 00:43.330
+that will be no.
+
+00:43.350 --> 00:51.250
+So we have our new node here and we want to attach it now after the 10 node which is our very first
+
+00:51.250 --> 01:05.070
+note well we can simply do that by saying this dot tail dot next which is the remember this spot over
+
+01:05.080 --> 01:06.860
+here next equals Gnoll.
+
+01:06.880 --> 01:14.140
+So that is what is the tail that is the last item in our list because this method doesn't know that
+
+01:14.410 --> 01:17.110
+we only have one item we could have 100 items.
+
+01:17.110 --> 01:18.570
+We just want to add at the end.
+
+01:18.790 --> 01:23.080
+So it's going to grab the tail and then grab the next value of the tail.
+
+01:23.080 --> 01:28.930
+So it's going to grab the pointer of the tail and say hey instead of pointing at to Noal pointed to
+
+01:28.930 --> 01:34.030
+this new node that we just created.
+
+01:34.080 --> 01:43.180
+All right we've pointed the tail to now point to the new node which has next node already set up and
+
+01:43.180 --> 01:50.560
+then we also want to say that this what we had US tail before which was the value of 10 is no longer
+
+01:50.560 --> 01:51.150
+the tail.
+
+01:51.190 --> 02:04.420
+We have a new last item that is this tail is now going to equal the new node and because we are running
+
+02:04.420 --> 02:14.920
+this operation after this one when we run this the tail dot next is still this node.
+
+02:15.010 --> 02:25.420
+And as soon as we update this node to have a next of the new node we can now remove.
+
+02:25.840 --> 02:33.530
+We can now update the tail to be the new node because by that point by the time this line runs the next
+
+02:33.530 --> 02:37.440
+has been updated properly for this older tail value.
+
+02:38.630 --> 02:45.110
+And then finally we want to make sure that we add the lenth Tikal tuneup.
+
+02:45.200 --> 02:50.380
+So we're going to do plus plus And just for fun because we want to make sure that we do this right.
+
+02:50.390 --> 02:54.730
+We're going to return this which is the linked list.
+
+02:54.800 --> 02:59.540
+Remember this just references what this class is that gets instantiated.
+
+02:59.570 --> 03:04.880
+So we're just going to say returned this so that we get back our linked list.
+
+03:04.950 --> 03:10.450
+I'm going to remove the console lock for now and see what happens when we just run a point five.
+
+03:10.640 --> 03:13.310
+I'm going to click run.
+
+03:13.320 --> 03:13.860
+All right.
+
+03:13.950 --> 03:18.830
+I have returned our linked list which has a head of value 10.
+
+03:18.840 --> 03:20.760
+Next is the new.
+
+03:20.760 --> 03:23.440
+Know that we created the value of 5.
+
+03:23.930 --> 03:24.730
+And next.
+
+03:24.730 --> 03:25.380
+No.
+
+03:25.740 --> 03:28.680
+And then the tail is a value five.
+
+03:28.800 --> 03:32.750
+Next is no perfect with a length of two.
+
+03:33.030 --> 03:33.730
+Awesome.
+
+03:33.780 --> 03:34.940
+It looks like it's working.
+
+03:35.010 --> 03:37.400
+Let's do this one as well.
+
+03:37.530 --> 03:41.030
+Append and there we go.
+
+03:41.150 --> 03:44.010
+We have value of five.
+
+03:44.120 --> 03:50.930
+So the head is referencing value of 10 which points to the next note which has value 5 which points
+
+03:50.930 --> 03:57.960
+to next which is an object that is the tail because of the way logging works.
+
+03:57.980 --> 04:05.060
+It won't show this nested I'll just say that this is an object but this is pointing to tail which has
+
+04:05.060 --> 04:09.860
+a value of 16 next no length of three.
+
+04:09.860 --> 04:10.980
+How cool is that.
+
+04:11.030 --> 04:18.710
+We just created our linked list are 10 5 16 linked list just like that.
+
+04:19.130 --> 04:20.360
+I hope you got that right.
+
+04:20.420 --> 04:26.180
+But if you didn't don't get discouraged This takes some time to get used to.
+
+04:26.210 --> 04:32.000
+Luckily for you once you write it a couple of times then it becomes like I said second nature.
+
+04:32.000 --> 04:36.010
+So don't stress out because I have another challenge for you now.
+
+04:36.050 --> 04:37.960
+You know how to do append.
+
+04:38.060 --> 04:41.760
+You should be able to do prebend right.
+
+04:42.000 --> 04:45.570
+Prepend is adding to the beginning of the list.
+
+04:46.070 --> 04:54.230
+So let's say that in our list of we here we want to add one as our head now instead of 10.
+
+04:54.320 --> 05:00.920
+How would we do that with a method called prebend this prebend is going to take a value.
+
+05:02.340 --> 05:13.050
+And we're going to be able to run a command like my linked list dot prebend one to add the one at the
+
+05:13.050 --> 05:14.750
+beginning of this list.
+
+05:15.870 --> 05:17.380
+So code here.
+
+05:17.580 --> 05:18.380
+Good luck.
+
+05:18.400 --> 05:19.720
+Let's see if we can solve this one.
+
+05:19.770 --> 05:23.610
+And I'll see you in the next video where I give you the solution.

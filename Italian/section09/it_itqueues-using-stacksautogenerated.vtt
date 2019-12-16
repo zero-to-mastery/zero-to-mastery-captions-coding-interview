@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.710 --> 00:08.280
+Riportali indietro a una delle domande più comuni dell'intervista quando si tratta di spunti e stack è questo.
+
+00:08.530 --> 00:12.360
+Implementa una stecca usando pile.
+
+00:12.590 --> 00:19.080
+Sì, puoi implementare segnali usando pile.
+
+00:19.260 --> 00:25.380
+Ed è particolarmente facile se si crea una pila usando una gara.
+
+00:25.410 --> 00:34.170
+Ora questa domanda è sul codice Leatt che è davvero molto bello perché siamo in grado di vedere
+
+00:35.720 --> 00:40.360
+le soluzioni spiegate e le soluzioni in diverse lingue.
+
+00:40.400 --> 00:50.850
+Se andate a discutere e scriviamo, diciamo javascript, otteniamo soluzioni che le persone hanno anche votato DNC
+
+00:50.940 --> 00:54.750
+sulla risposta a come farlo.
+
+00:54.900 --> 00:59.140
+Se vuoi controllare Python perché diciamo che stai scrivendo in Python.
+
+00:59.160 --> 01:00.780
+Bene, lo hanno anche loro.
+
+01:02.000 --> 01:05.360
+Qualsiasi lingua tu voglia puoi trovare qui.
+
+01:06.320 --> 01:09.900
+Ora ho la risposta anche per te.
+
+01:09.980 --> 01:17.330
+E in questo video qui e nelle risorse disponibili vedrai una REPL con la mia
+
+01:17.330 --> 01:18.350
+risposta.
+
+01:18.350 --> 01:23.380
+Ma voglio sfidarti e far finta di essere coinvolto in un'intervista.
+
+01:23.390 --> 01:24.860
+Q Uso di pile.
+
+01:24.950 --> 01:26.440
+Come faresti a farlo.
+
+01:27.800 --> 01:34.560
+In realtà, puoi persino codificarti sul sito web del codice di condotta se vuoi utilizzare la lingua che preferisci.
+
+01:34.560 --> 01:41.810
+E solo un testa di testa qui se usi javascript che usano il prototipo per aggiungere metodi, ma
+
+01:42.510 --> 01:48.180
+la sintassi di classe che ti ho mostrato è la versione più recente.
+
+01:48.210 --> 01:49.310
+È sotto il cofano.
+
+01:49.320 --> 01:52.280
+È esattamente la stessa cosa del prototipo di punti.
+
+01:52.320 --> 01:55.820
+Tuttavia sembra semplicemente più pulito usando la sintassi della classe.
+
+01:55.860 --> 01:59.300
+Ecco perché abbiamo fatto tanta fortuna con quello.
+
+01:59.310 --> 02:03.180
+Divertiti e collegherò il codice della soluzione per te.
+
+02:03.910 --> 02:04.500
+Proprio qui.

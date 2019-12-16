@@ -1,0 +1,241 @@
+WEBVTT
+
+00:01.170 --> 00:08.630
+Untuk memahami bagaimana pemrograman dinamis bekerja, kita perlu memahami apa artinya caching.
+
+00:09.000 --> 00:13.970
+Caching adalah cara untuk menyimpan nilai sehingga Anda dapat menggunakannya nanti.
+
+00:14.310 --> 00:23.240
+Idealnya Anda bisa menganggap caching sebagai ransel yang mereka bawa ke sekolah alih-alih pulang ke rumah saat Anda
+
+00:23.360 --> 00:25.520
+membutuhkan sesuatu seperti pensil.
+
+00:25.640 --> 00:34.940
+Anda memiliki sebuah kotak kecil di punggung Anda yang menampung barang-barang yang Anda butuhkan sehingga ketika Anda pergi ke sekolah Anda
+
+00:34.940 --> 00:38.340
+dapat menggunakannya kembali dengan cepat berulang kali.
+
+00:38.350 --> 00:40.720
+Nah, itu sedikit contoh konyol.
+
+00:40.750 --> 00:48.700
+Caching hanyalah cara bagi kita untuk mempercepat program dan menyimpan sebagian data dalam kotak yang mudah diakses
+
+00:48.700 --> 00:55.690
+dan memoisasi adalah bentuk caching khusus yang akan kita bicarakan karena kita sering menggunakannya
+
+00:55.690 --> 00:57.640
+dalam pemrograman dinamis.
+
+00:58.090 --> 01:06.270
+Tetapi alih-alih hanya membicarakannya, mari kita benar-benar menunjukkannya dalam kode cara kita dapat men-cache sesuatu.
+
+01:06.550 --> 01:14.940
+Yah mari kita bayangkan kita memiliki fungsi yang mengatakan kita ingin menambahkan ke 80 dan
+
+01:16.040 --> 01:21.310
+fungsi ini mengambil angka dan semua itu mengembalikan nilai
+
+01:21.330 --> 01:22.960
+Dan itu adalah parameter.
+
+01:22.960 --> 01:25.940
+Kami memberikannya dan menambahkan delapan puluh untuk itu.
+
+01:26.870 --> 01:37.450
+Sehingga ketika kita menjalankan fungsi tambahkan ke 80 dan katakanlah kita memasukkan lima kita mendapatkan 85 tingkat bagus dan sederhana tetapi jika
+
+01:38.030 --> 01:46.920
+saya menjalankan fungsi ini lagi saya harus melalui langkah ini lagi dan menambahkan 80 untuk jawaban itu.
+
+01:46.970 --> 01:54.950
+Dan jika saya melakukan ini lagi lagi melakukan hal yang sama saya sudah menjalankan perhitungan tiga kali tetapi
+
+01:54.950 --> 01:59.160
+bagaimana jika operasi ini memakan waktu yang sangat lama.
+
+01:59.600 --> 02:06.540
+Bagaimana jika saya memiliki konsol seperti di sini dan kita dapat membayangkan bahwa operasi ini memakan waktu beberapa detik.
+
+02:06.710 --> 02:07.990
+Butuh waktu lama.
+
+02:08.800 --> 02:15.700
+Setiap kali ketika Anda menjalankan fungsi ini, kami harus menjalankan waktu yang lama tiga kali dan melalui langkah satu
+
+02:16.390 --> 02:17.440
+per satu.
+
+02:17.620 --> 02:25.100
+Meskipun kami telah melakukan perhitungan yang sama persis tiga kali. Adakah cara untuk mengoptimalkan ini?
+
+02:25.260 --> 02:34.140
+Dan di sinilah kita dapat menggunakan caching dan memoisasi, mari kita tingkatkan fungsi di atas dengan melakukan sesuatu
+
+02:34.140 --> 02:35.230
+yang berbeda.
+
+02:35.280 --> 02:42.480
+Saya akan membuat objek baru bernama Cache yang akan menampung objek kosong.
+
+02:42.480 --> 02:50.570
+Kita juga akan memiliki fungsi yang sekarang akan disebut memorized not menghafal add to DD
+
+02:52.120 --> 03:00.970
+yang mengambil angka dan di dalam sini kita akan melakukan sesuatu yang sedikit berbeda dari yang di
+
+03:00.970 --> 03:01.590
+atas.
+
+03:01.600 --> 03:06.990
+Kami masih akan menambahkan 280 tetapi kami akan melakukannya dengan cara khusus.
+
+03:07.120 --> 03:18.460
+Saya akan mengatakan bahwa jika n dalam bentuk tunai dan ini adalah cara untuk memeriksa apakah suatu properti ada dalam objek dalam
+
+03:18.460 --> 03:19.220
+Javascript.
+
+03:19.270 --> 03:25.630
+Jadi mirip dengan saya melakukan cash dot dan memeriksa properti.
+
+03:25.630 --> 03:27.730
+Yang ini hanya membaca tentang lagu dan menjaganya seperti itu.
+
+03:27.730 --> 03:30.170
+Jadi jika ada uang tunai.
+
+03:30.250 --> 03:43.610
+Jadi, jika kita sudah menguangkannya sebelumnya maka kembalikan dot uang tunai dan atau uang tunai jadi kembalikan nilai yang di-cache.
+
+03:44.020 --> 03:45.820
+Tapi jelas itu kosong.
+
+03:45.820 --> 03:52.440
+Pertama kali sekitar jadi ini tidak akan berfungsi jika tidak ada dalam cache yang merupakan kasus
+
+03:52.440 --> 03:53.410
+pertama kali.
+
+03:53.490 --> 04:07.170
+Yah kita punya pernyataan lain dan di sini kita akan memiliki uang tunai kita yang belum ada dan
+
+04:07.170 --> 04:21.120
+memberikannya plus 80 sehingga setelah ini jika kita melakukan sesuatu seperti Moammar paling dekat harus delapan puluh lima akan
+
+04:21.130 --> 04:24.260
+mengatakan lima ditambah 80.
+
+04:24.340 --> 04:33.860
+Jadi di sini kita akan menguangkan properti lima untuk memiliki nilai delapan puluh lima yang kita lakukan
+
+04:33.860 --> 04:40.870
+di sini sehingga di waktu berikutnya kita melakukan sesuatu seperti ini.
+
+04:41.150 --> 04:47.870
+Kita melihat pernyataan if menemukan fakta bahwa kita telah menghitung lima dan hanya
+
+04:47.930 --> 04:55.960
+melakukan akses properti sederhana yang seperti kita ketahui satu kali sangat cepat dengan tabel hash seperti ini.
+
+04:56.090 --> 04:59.220
+Mari kita lengkapi contoh ini untuk menunjukkan cara kerjanya.
+
+04:59.360 --> 05:03.360
+Saya hanya akan kembali karena kita baru saja
+
+05:10.100 --> 05:12.140
+mengisinya di sini.
+
+05:12.140 --> 05:19.160
+Dan mari kita memiliki konsol log di sini yang membutuhkan waktu lama untuk melihat bahwa kita sedang melakukan perhitungan yang
+
+05:19.160 --> 05:20.450
+membutuhkan waktu lama.
+
+05:21.380 --> 05:28.940
+Pertama kali saya menjalankan fungsi ini, saya mendapatkan delapan puluh lima dan saya memiliki uang tunai pra-diisi.
+
+05:29.020 --> 05:30.940
+Begitu itu dan menghitung lama.
+
+05:30.940 --> 05:32.020
+Mari kita coba lagi.
+
+05:32.290 --> 05:40.500
+Klik jalankan lama. Lewat pertama melewati sini dan melakukan perhitungan ini yang secara hipotesis akan memakan
+
+05:40.500 --> 05:42.450
+waktu sangat lama.
+
+05:42.450 --> 05:47.490
+Sekali lagi kami menggunakan contoh mudah yang bagus di sini, tetapi Anda dapat membayangkan
+
+05:47.490 --> 05:54.470
+ini adalah perhitungan yang membutuhkan waktu lama beberapa detik bagaimana jika kami melakukan ini lagi, kami dapat menghibur seperti anjing
+
+05:58.020 --> 06:01.440
+di sini untuk memastikan bahwa kami menangkap nilai-nilai ini.
+
+06:04.580 --> 06:12.700
+Dan kami akan memberi label satu dan dua agar kami dapat membedakannya.
+
+06:12.700 --> 06:20.150
+Jadi tujuan pertama dan panggilan kedua jika saya tekan lihat lari pada saat itu pertama kali.
+
+06:20.180 --> 06:23.440
+Kami menelepon lama dan kami menghitung sampai 85.
+
+06:23.630 --> 06:31.400
+Tetapi yang kedua kalinya karena nilai ini dalam bentuk tunai, kami harus melakukan perhitungan panjang ini
+
+06:31.430 --> 06:33.870
+dan kami segera mengembalikannya.
+
+06:35.300 --> 06:43.880
+Jadi, apakah penghafalan akan memoisasi adalah bentuk khusus dari caching yang melibatkan menguangkan
+
+06:43.880 --> 06:45.220
+nilai kembali.
+
+06:46.260 --> 06:53.510
+Semua fungsi yang merupakan nilai balik dari fungsi ini berdasarkan parameternya.
+
+06:53.960 --> 07:03.260
+Dan jika parameter fungsi ini tidak berubah seperti di sini maka itu dihafal.
+
+07:03.260 --> 07:09.800
+Itu menggunakan cache karena itu menghitung hal yang sama sebelumnya dengan parameter yang
+
+07:09.800 --> 07:14.410
+sama dan itu akan mengembalikan versi fungsi yang di-cache.
+
+07:14.630 --> 07:18.960
+Dihafal jika parameter berubah.
+
+07:19.340 --> 07:26.220
+Yah itu parameter yang berbeda yang belum pernah dilihat sebelumnya sehingga akan menghitung dua kali.
+
+07:27.060 --> 07:28.040
+Hal yang berbeda.
+
+07:28.230 --> 07:30.930
+Dan saya hanya memperhatikan bahwa seharusnya tidak ada lima masalah.
+
+07:31.190 --> 07:33.150
+Dan di sini jadi itu dinamis.
+
+07:33.150 --> 07:33.770
+Ini dia.
+
+07:33.840 --> 07:35.670
+Itu lebih baik.
+
+07:35.670 --> 07:42.810
+Jadi ingat memoisasi ini hanyalah cara untuk mengingat solusi untuk masalah yang diselesaikan.
+
+07:42.990 --> 07:45.600
+Jadi Anda tidak perlu menghitungnya lagi.

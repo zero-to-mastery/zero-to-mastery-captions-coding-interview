@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.960 --> 00:01.790
+Bine ai revenit.
+
+00:02.010 --> 00:06.810
+Să aruncăm o privire la modul în care vrem să rezolvăm această întrebare.
+
+00:06.840 --> 00:14.610
+Astfel vom crea o structură de date stack care are vârful PUSH și POP.
+
+00:14.810 --> 00:17.960
+Acum vârful ar trebui să fie destul de ușor de dreapta.
+
+00:18.020 --> 00:28.600
+Vrem doar să vedem elementul de top al stivei, așa că pot să spun că Peake va reveni la acest
+
+00:29.290 --> 00:30.020
+top.
+
+00:30.470 --> 00:30.960
+Asta e.
+
+00:30.980 --> 00:40.080
+Frumoasă și simplă, astfel încât, dacă vom rula vârful punctului de vârf, se va întoarce.
+
+00:40.100 --> 00:44.870
+Nu, pentru că nu există nimic în stackul nostru.
+
+00:44.880 --> 00:46.770
+Nu este gol.
+
+00:46.790 --> 00:49.600
+Să mergem la cel interesant care este împins.
+
+00:49.640 --> 00:51.690
+Cum adăugăm lucrurile în stivă.
+
+00:52.660 --> 00:59.720
+Primul lucru pe care vrem să-l facem este să creezi un nod nou și cum am spus că putem crea un obiect
+
+00:59.720 --> 01:05.390
+nou aici dacă vrem sau putem folosi doar clasa de noduri pe care ți-am oferit-o aici.
+
+01:06.560 --> 01:13.640
+Putem folosi clasa spunând un nou nod care instanțiateste o clasă și îi dă valoarea pe
+
+01:13.640 --> 01:15.770
+care o vom împinge.
+
+01:15.920 --> 01:24.080
+În continuare vrem să verificăm dacă acesta este primul element, deoarece dacă stiva este goală și acesta este primul
+
+01:24.080 --> 01:31.050
+element, în timp ce partea superioară și cea de jos vor îndrepta simultan aceeași notă.
+
+01:31.120 --> 01:38.890
+În acest caz, putem verifica dacă această lungime a punctului este egală cu zero.
+
+01:39.880 --> 01:44.220
+În acest caz, putem spune că acest top va egala noul nod.
+
+01:45.690 --> 01:57.570
+Și, de asemenea, acest fund va fi egal cu noul nod Altfel trebuie să facem ceva diferit, dar nu atât de diferit pentru
+
+01:57.570 --> 02:04.530
+că l-am văzut în exemplul listei legate de care trebuie să schimbăm câteva
+
+02:04.530 --> 02:06.480
+indicii în jur.
+
+02:06.570 --> 02:14.380
+În cazul nostru dorim să spunem Konst ținând pointerul la nodul superior.
+
+02:16.820 --> 02:21.970
+Pentru că ceea ce este vreodată în vârf acum va fi înlocuit de ceea ce vom adăuga la ea.
+
+02:22.160 --> 02:29.790
+Așadar, vom reține referința la ceea ce a fost inițial și apoi vom spune că această
+
+02:29.800 --> 02:40.110
+pornire va fi acum egală cu noul nod și acest punct punct top următor, care este acum noul nod, va indica ceea
+
+02:40.110 --> 02:45.360
+ce a fost de top înainte, dar acum este sub ea.
+
+02:45.780 --> 02:48.240
+Așa că spunem doar să țineți indicatorul.
+
+02:48.240 --> 02:56.920
+Așa că este Alltop va fi acum după noul nostru nod și apoi în final vom face că acest punct Blant plus plus
+
+02:57.370 --> 03:03.960
+pentru a crește lungimea cu 1 și apoi în cele din urmă vrem să ne întoarcem.
+
+03:04.190 --> 03:08.000
+Să revenim doar la acest lucru care ne va întoarce lista de link-uri.
+
+03:08.680 --> 03:09.700
+Să vedem dacă asta a funcționat.
+
+03:11.280 --> 03:12.700
+Voi spune mai întâi Peke.
+
+03:12.720 --> 03:21.150
+Ei bine, nu este nimic aici, dar dacă vreau să-mi împing stack-ul, o să spun că o să împingem și vom apăsa pe Google mai
+
+03:21.150 --> 03:23.820
+întâi pentru că vizităm Google mai întâi.
+
+03:24.970 --> 03:33.220
+Și dacă execut acest lucru, obțin structura de date care are top care are valoarea nodului Google.
+
+03:33.450 --> 03:40.970
+Următorul nu este pentru că avem doar un singur element, iar partea de jos este, de asemenea, același Google cu nota următoare.
+
+03:41.460 --> 03:44.000
+Și stiva noastră are o sumă de unu.
+
+03:44.150 --> 03:45.340
+Dacă continuăm să adăugăm aici.
+
+03:45.360 --> 03:49.230
+Să mergem la tine Demy următor.
+
+03:49.440 --> 03:58.220
+Dacă fac clic pe executare, am acum o lungime de două stiva care are un nod de vârf, pe măsură ce tu și nodul inferior
+
+03:58.700 --> 04:03.850
+ai Google, pentru că îți amintești cu un teanc de stivă plăcuțele de sus.
+
+04:04.040 --> 04:06.780
+Asta ești tu, Demy a venit în ultima vreme.
+
+04:06.890 --> 04:10.140
+Deci, Dammy e pe partea de sus.
+
+04:10.160 --> 04:12.890
+Amintiți-vă că viața va fi ultimul și primul pas.
+
+04:13.070 --> 04:17.990
+Să adăugăm încă o dată să spunem că vom vizita ulterior biroul sau comunitatea noastră.
+
+04:17.990 --> 04:26.580
+Deci, tot ce spun spun că împingeți acest tărtăcuță și fac clic pe fugă și acolo mergeți.
+
+04:26.650 --> 04:32.010
+Avem comunitatea Dischord din partea de sus în partea de jos este nodul.
+
+04:32.080 --> 04:34.290
+Și doar pentru a ne asigura că Peke-ul nostru funcționează.
+
+04:34.450 --> 04:44.570
+Dacă fac o privire, ar trebui să ne discordăm pentru că a fost ultima poziție și chiar partea de sus a stack-ului nostru.
+
+04:44.610 --> 04:45.370
+Foarte frumos.
+
+04:45.450 --> 04:46.710
+Sper că ai primit asta.
+
+04:47.160 --> 04:52.450
+Să continuăm cu popul care va elimina tot ce se află pe partea de sus a stivei.
+
+04:52.860 --> 05:00.630
+Ei bine, haideți să verificăm mai întâi pentru a vă asigura că există un element, deoarece dacă nu există și pur și simplu nu avem.
+
+05:00.780 --> 05:02.520
+Ei bine tocmai ne întoarcem nu.
+
+05:03.920 --> 05:13.180
+Deci, în acest caz, putem spune doar dacă această pornire, dacă nu există, atunci vom reveni.
+
+05:15.490 --> 05:22.660
+În continuare putem să-i facem pe pointerul nostru Konst cu acest punct.
+
+05:22.990 --> 05:30.880
+Deci, ceea ce este în prezent în vârf, care este discordanță, voi spune că acest top Daut nu mai este ceea ce este în
+
+05:30.880 --> 05:33.130
+prezent pentru că vrem să-l eliminăm.
+
+05:33.250 --> 05:38.990
+Ea va egala acest punct punct top următor, care este sub discordie.
+
+05:39.520 --> 05:45.950
+Și apoi, în cele din urmă, spunem acest lucru minus minus pentru că vrem să micșorăm împrumutul cu unul.
+
+05:46.030 --> 05:49.920
+Și apoi, în cele din urmă, putem spune să ne întoarcem acum.
+
+05:49.960 --> 05:54.070
+Amintiți-vă pentru că Javascript este un limbaj colectat de gunoi.
+
+05:54.070 --> 06:05.880
+Dacă nu am făcut acest lucru și am spus să țină indicatorul la acest punct de top Ei bine, discordie această notă care conține discord nu ar
+
+06:06.180 --> 06:08.320
+fi menționat de nimic.
+
+06:09.150 --> 06:15.720
+Și nu este folosit de nimic care înseamnă într-un limbaj colectat de gunoi cum ar fi javascript că
+
+06:15.780 --> 06:19.860
+va fi eliminat automat din memorie în timpul colectării gunoiului.
+
+06:20.560 --> 06:25.780
+Deci, dacă alerg în timp ce nu am făcut încă nimic.
+
+06:25.950 --> 06:31.640
+Dar acum, pentru pop, să revenim la pointerul de exploatație.
+
+06:31.860 --> 06:40.280
+Dacă dau clic pe Run (Executare) sau Let (Let), faceți prima dată stack pop pop pentru a elimina discordie din listă.
+
+06:40.330 --> 06:51.990
+Dacă fac clic pe Run, primesc din nou nodul care este indicatorul de exploatație, în cazul în care încă mai dorim să avem acces la
+
+06:51.990 --> 06:52.600
+el.
+
+06:53.130 --> 07:00.180
+În caz contrar, dacă vrem să disparăm și nu mai avem nevoie de ea, putem să ne întoarcem.
+
+07:00.210 --> 07:02.710
+Putem chiar să comentăm indicatorul de exploatație.
+
+07:02.820 --> 07:12.030
+Și dacă fac clic pe rulați, acum avem doar Demy în partea de sus și Google în partea de jos și discordie este
+
+07:12.030 --> 07:13.380
+dispărut din memorie.
+
+07:13.500 --> 07:14.460
+Hai să continuăm aici.
+
+07:14.460 --> 07:18.030
+Să spunem că vreau să mai arunc
+
+07:21.000 --> 07:30.860
+o privire și dacă execut acest lucru am acum doar un singur lucru pe care Google a fost elementul original pe stiva.
+
+07:30.870 --> 07:35.160
+Așa că, în timp ce noi am făcut-o, am fost la Google, atunci am fost la Dammy.
+
+07:35.260 --> 07:42.600
+Apoi am început să discordăm și apoi am apărut tot ce este pe partea de sus și apoi v-am arătat Dammy
+
+07:42.600 --> 07:44.990
+și acum am plecat cu Google.
+
+07:45.180 --> 07:55.790
+Dacă fac un ultim pop aici și fac clic pe noi avem top care nu este tot, dar oh avem un nod de jos având în
+
+07:56.390 --> 08:02.480
+continuare Google, pentru că nu am eliminat niciodată în popul nostru nodul de jos.
+
+08:02.480 --> 08:06.400
+Tot ce am făcut a fost înlocuirea vârfului.
+
+08:06.530 --> 08:17.640
+Așadar, trebuie doar să adăugăm una condițională, care este dacă acest punct de top este egal cu acest punct de fund.
+
+08:17.780 --> 08:20.750
+Asta înseamnă că există doar un singur articol pe listă.
+
+08:20.780 --> 08:29.380
+Aș fi putut face și acest Post, egal cu zero, dacă ambele sunt egale, ceea ce înseamnă că există o
+
+08:29.620 --> 08:30.930
+singură notă rămasă.
+
+08:31.120 --> 08:36.760
+În acest caz, vrem să spunem că acest punct va fi egal cu nr.
+
+08:37.060 --> 08:41.950
+Pentru că după ce eliminăm singurul nod din stânga, vrei ca partea de jos să fie egală cu nr.
+
+08:42.280 --> 08:45.410
+Deci, dacă fac acest lucru și faceți clic pe rulați acolo mergeți.
+
+08:45.440 --> 08:48.450
+Ne-am întors la stiva noastră inițială goală.
+
+08:49.560 --> 08:52.740
+Sper că ați primit asta și ați reușit să înțelegeți.
+
+08:52.770 --> 08:55.610
+Avem un alt exercițiu interesant în următorul videoclip.
+
+08:55.750 --> 08:56.780
+O să văd asta.
+
+08:57.190 --> 08:57.400
+Bobby.

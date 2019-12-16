@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.530 --> 00:06.630
+Saatnya merayakan karena Anda baru saja menyelesaikan struktur data pertama Anda dan mereka akan
+
+00:06.630 --> 00:07.850
+menjadi semakin menyenangkan.
+
+00:08.070 --> 00:14.510
+Tetapi Anda lihat di sini bahwa kami telah belajar untuk melengkapi model mental struktur data kami.
+
+00:14.670 --> 00:20.490
+Saya berjanji kepada Anda bahwa pada akhir kursus ini seluruh diagram ini akan masuk akal dan kami telah menyelesaikan
+
+00:20.520 --> 00:21.770
+sebagian kecil darinya.
+
+00:21.870 --> 00:32.710
+Array kita berbicara tentang array statis dan dinamis kita berbicara tentang kompleksitas O besar dan bagaimana array dinamis kadang-kadang
+
+00:32.710 --> 00:43.840
+memiliki O dan pena karena sementara kadang-kadang kita harus menggandakan atau memperluas memori kita, kita juga berbicara tentang bagaimana
+
+00:44.560 --> 00:51.100
+string dan pertanyaan mengenai string dapat diperlakukan sangat mirip dengan pertanyaan
+
+00:51.100 --> 00:52.120
+array.
+
+00:52.760 --> 00:58.760
+Di mana Anda hanya mengonversikannya menjadi sebuah array dan kemudian bergabung kembali dan mengembalikan string.
+
+00:58.800 --> 01:05.090
+Jawab kebutuhan itu dan ada beberapa poin lain untuk array yang akan kita bicarakan ketika kita
+
+01:05.210 --> 01:06.430
+masuk ke algoritma.
+
+01:06.650 --> 01:14.930
+Tetapi sekarang Anda harus melihat pada lembar conto bego dan memahami mengapa struktur data array
+
+01:15.170 --> 01:17.700
+memiliki angka besar ini.
+
+01:18.110 --> 01:22.890
+Dan mengerti kapan sebuah array adalah hal yang baik untuk digunakan.
+
+01:22.940 --> 01:28.310
+Satu hal yang akan Anda perhatikan ketika datang ke balapan terutama ketika kita mendapatkan
+
+01:28.310 --> 01:37.130
+algoritma adalah bahwa mereka benar-benar bagus dalam memiliki data yang diurutkan ketika datang ke array penyortiran yang luar biasa karena mereka berada di
+
+01:37.130 --> 01:40.820
+memori dalam urutan berurutan sesuai dengan indeks mereka.
+
+01:40.820 --> 01:45.740
+Sekarang sebelum saya pergi ke slide Anda membuat video.
+
+01:45.740 --> 01:49.940
+Pikirkan kapan Anda ingin menggunakan array saat melakukannya.
+
+01:50.180 --> 01:54.410
+Karena dalam waktu sekitar lima detik saya akan menunjukkan kepada Anda pro dan kontra.
+
+01:54.530 --> 02:00.850
+Jadi jeda video dan jawabannya kapan Anda harus menggunakan array dengan baik.
+
+02:01.050 --> 02:02.250
+Ini dia.
+
+02:02.250 --> 02:05.310
+Array sangat bagus untuk pencarian cepat.
+
+02:05.400 --> 02:10.420
+Itu hanya mengakses informasi di mana Anda tahu indeks mana yang ingin Anda lihat.
+
+02:10.740 --> 02:12.840
+Sangat cepat mendorong dan pop.
+
+02:12.840 --> 02:18.770
+Jadi saya pikir hal-hal di akhir array atau mengambil sesuatu di akhir array.
+
+02:19.020 --> 02:24.810
+Dan tentu saja karena diperintahkan memiliki sesuatu yang dipesan dan saling berdekatan dalam
+
+02:25.200 --> 02:27.330
+memori membuatnya sangat cepat.
+
+02:27.460 --> 02:34.770
+Namun memiliki sisipan dan penghapusan yang lambat karena kami harus beralih ke balapan setiap kali itu tidak
+
+02:34.770 --> 02:36.300
+di akhir array.
+
+02:36.420 --> 02:41.590
+Dan akhirnya jika menggunakan array statis itu ukuran tetap.
+
+02:41.610 --> 02:48.630
+Itu berarti kadang-kadang Anda harus mendeklarasikan memori sebelumnya dan seberapa besar array yang Anda inginkan.
+
+02:48.630 --> 02:55.460
+Tapi itu bisa dihindari jika kita menggunakan beberapa bahasa yang lebih modern yang memiliki array dinamis.
+
+02:55.530 --> 03:01.980
+Saya juga baru menyadari bahwa wajah tersenyum ini terlihat seperti orang gila tetapi ini dimaksudkan untuk menjadi
+
+03:01.980 --> 03:02.380
+baik.
+
+03:02.400 --> 03:03.240
+Ini bagus.
+
+03:03.360 --> 03:05.330
+Ikon kecil yang menakutkan ini.
+
+03:05.370 --> 03:06.510
+Itu buruk.
+
+03:07.110 --> 03:07.830
+BAIK.
+
+03:08.290 --> 03:10.340
+Saya pikir kita mengerti sekarang.
+
+03:10.360 --> 03:14.590
+Kita akan kembali menaikkan karena banyak struktur data lain yang
+
+03:14.590 --> 03:19.120
+akan kita bicarakan nanti seperti antrian dan tumpukan terkait dengan ras.
+
+03:19.300 --> 03:25.370
+Tetapi untuk saat ini saya ingin masuk ke struktur data lain karena kami masih memiliki beberapa untuk dilalui.
+
+03:25.430 --> 03:26.440
+Saya akan melihat yang berikutnya.

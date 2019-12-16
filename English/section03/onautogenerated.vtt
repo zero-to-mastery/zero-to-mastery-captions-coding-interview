@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.950 --> 00:07.540
+What would you say if I asked you what is the big go of the function Finding Nemo.
+
+00:07.970 --> 00:13.760
+Well to make this a little bit cleaner let's just remove performance done now because we've learned
+
+00:13.760 --> 00:18.940
+that it's not very very important and we can remove the console log as well.
+
+00:20.440 --> 00:27.500
+And looking at this and this loop what would you say the big-O is and this video we're going to learn
+
+00:27.560 --> 00:30.260
+about our very first Big-O notation.
+
+00:30.620 --> 00:34.540
+As we said a runtime is simply how long something takes to run.
+
+00:34.700 --> 00:43.860
+How does this function and its runtime grow as our input increases as our input goes from just a single
+
+00:44.190 --> 00:49.130
+item in an array Nimo to 10 items in array to 100000.
+
+00:49.320 --> 00:53.780
+How does the efficiency of this function increase.
+
+00:53.950 --> 01:01.180
+If we look at this graph and we say we have 4 items in the array while the number of operations is going
+
+01:01.180 --> 01:10.500
+to be 4 right because we're going to loop through each item and say Is this Nimo is this nimo.
+
+01:10.500 --> 01:11.550
+Is this nimo.
+
+01:11.850 --> 01:14.000
+Is this Nimo four times.
+
+01:14.130 --> 01:19.650
+No matter what we're looping four times at least with the way that we have this code set up if we have
+
+01:19.980 --> 01:28.860
+five items in the array it's going to be five operations five loops six is the same six items is six
+
+01:28.860 --> 01:30.030
+operations.
+
+01:30.030 --> 01:34.070
+Seven is seven operations and eight is eight.
+
+01:34.090 --> 01:38.230
+Operation do we see a little bit of pattern here.
+
+01:38.570 --> 01:40.410
+Well we can draw a line through it.
+
+01:42.090 --> 01:51.640
+This is linear rate as our number of inputs increase the number of operations increase as well.
+
+01:51.840 --> 01:57.680
+And here ladies and gentlemen we've learned our very first Big-O notation.
+
+01:58.020 --> 02:11.480
+We say that the finding nemo function has a big O notation of 0 and that's a little bit strange.
+
+02:11.490 --> 02:21.750
+This is just a notation that you have to get used to but we say Big O of N or what we call linear linear
+
+02:21.750 --> 02:27.280
+time it takes linear time to find a nimo.
+
+02:27.300 --> 02:29.980
+Now where does this end come from.
+
+02:30.790 --> 02:33.100
+This can be anything really.
+
+02:33.130 --> 02:34.680
+I could put x.
+
+02:34.900 --> 02:40.540
+I could put fish in here if I want is just an arbitrary letter.
+
+02:40.840 --> 02:42.680
+And we usually give.
+
+02:42.690 --> 02:50.100
+And when it comes to big-O this is just a standard that you'll see across the board and simply means
+
+02:50.790 --> 02:56.790
+the big O depends on the number of inputs the number of fish.
+
+02:56.790 --> 03:06.130
+So if we just had the Nimo array this would just be one if we had the every one array this would be
+
+03:06.340 --> 03:06.840
+10.
+
+03:07.090 --> 03:12.270
+And we had the large array Elby 100000.
+
+03:12.390 --> 03:23.090
+But as the inputs increase you see that the number of operations increase linearly with it 0 when is
+
+03:23.090 --> 03:30.830
+probably the most common Big O notation you'll find if we go back to the graph you can see that O N
+
+03:30.920 --> 03:38.000
+is right here in the yellow region that's as far as the number of elements increase.
+
+03:38.000 --> 03:40.250
+You see that is just a straight line.
+
+03:40.370 --> 03:47.910
+The number of operations increases by the same amount because Keep this in mind big-O doesn't measure
+
+03:47.910 --> 03:49.170
+things in seconds.
+
+03:49.260 --> 03:53.980
+Instead we're focusing on how quickly our runtime grows.
+
+03:54.150 --> 04:00.680
+We simply do this by using the size of the input which we call an or anything else that we want really.
+
+04:00.930 --> 04:06.820
+And compared to the number of operations that increase that's what scalability means.
+
+04:06.870 --> 04:11.270
+As things grow larger and larger Does it scale.
+
+04:11.390 --> 04:16.330
+So the find Nimo function is o of and linear time.
+
+04:16.500 --> 04:19.190
+And now the way to think about it is this.
+
+04:19.620 --> 04:26.160
+If we had a compression algorithm let's say this function is this little compression and the input is
+
+04:26.250 --> 04:31.640
+this little box what's the big oh notation of this function.
+
+04:31.860 --> 04:35.580
+Well if we had one element it will just compress
+
+04:38.620 --> 04:39.960
+one item.
+
+04:40.090 --> 04:47.430
+If we had multiple elements again we still have to run each box through the compression algorithm to
+
+04:47.430 --> 04:50.400
+compress the box.
+
+04:50.450 --> 04:58.610
+If we look at the function for the compress boxes while we're using the E.S. and ESX syntax here but
+
+04:58.610 --> 05:04.130
+we're essentially looping through each box and in the other case we're just cancel logging it.
+
+05:04.280 --> 05:11.960
+But you can see here that all of these all we're doing as the input increases the boxes the number of
+
+05:11.960 --> 05:18.100
+boxes increases the number of operations increase and that is O-N linear time.
+
+05:19.460 --> 05:26.270
+Congratulations you've just learned your first big O notation and this probably the most common but
+
+05:26.270 --> 05:28.090
+there's a few others.
+
+05:28.220 --> 05:35.610
+So what other Big-O notation do we have other than linear time for that you're going to have to keep
+
+05:35.610 --> 05:36.460
+watching.
+
+05:36.510 --> 05:38.360
+I'll see in the next video Bebai.

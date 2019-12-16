@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.950 --> 00:11.880
+Selamat datang di apa itu struktur data, struktur data adalah kumpulan dari nilai-nilai yang dapat memiliki hubungan di antara mereka dan
+
+00:11.880 --> 00:15.690
+mereka dapat memiliki fungsi yang diterapkan padanya.
+
+00:15.710 --> 00:21.970
+Masing-masing berbeda dalam hal apa yang dapat dilakukan dan apa yang paling baik digunakan.
+
+00:23.000 --> 00:30.260
+Hal terpenting yang harus diambil adalah setiap struktur data baik dan dikhususkan untuk hal
+
+00:30.260 --> 00:31.750
+itu sendiri.
+
+00:32.120 --> 00:36.470
+Baiklah, Andre, kau baru saja mengucapkan banyak kata dan aku tidak begitu mengerti.
+
+00:36.800 --> 00:40.480
+Mari kita tunjukkan beberapa gambar untuk menyederhanakan ini.
+
+00:41.650 --> 00:50.570
+Anda lihat dapat menganggap struktur data sebagai segala jenis kompartemen atau wadah, struktur data hanyalah kabinet
+
+00:50.570 --> 00:53.180
+file dari berbagai jenis.
+
+00:53.330 --> 01:00.320
+Anda memiliki tas ransel tempat Anda meletakkan mungkin buku sekolah Anda memiliki laci tempat Anda
+
+01:00.320 --> 01:08.230
+menarik lemari pakaian di mana Anda meletakkan folder makanan untuk file Anda dan kotak kemasan mungkin untuk mainan Anda.
+
+01:09.880 --> 01:17.410
+Masing-masing wadah ini berguna untuk barang itu sendiri. Contohnya, saya tidak akan meletakkan makanan di laci
+
+01:17.440 --> 01:22.170
+di sini karena yogurt akan menjadi buruk di sini.
+
+01:23.170 --> 01:32.710
+Demikian juga saya tidak akan meletakkan semua kertas dan file saya di ransel saya atau mungkin kotak mainan karena hanya
+
+01:32.710 --> 01:34.360
+akan menjadi kusut.
+
+01:34.390 --> 01:40.870
+Masing-masing wadah ini khusus untuk hal itu sendiri dan itulah struktur data sebenarnya.
+
+01:40.960 --> 01:48.370
+Ini adalah cara bagi kami untuk mengatur data sehingga kami dapat masuk ke dalam ransel dan mengambil data itu dengan sangat
+
+01:48.370 --> 01:48.930
+mudah.
+
+01:48.940 --> 01:54.940
+Kita bisa masuk ke lemari es dan mengambil es krim atau es krim dengan sangat cepat.
+
+01:55.060 --> 02:00.670
+Kita dapat meletakkan berbagai hal dalam struktur data dan kita dapat mengambil berbagai hal dari struktur data dan hanya itu
+
+02:00.670 --> 02:01.420
+yang terjadi.
+
+02:02.420 --> 02:08.990
+Dan ada satu ton struktur data seperti dalam kehidupan nyata kita bagaimana kita memiliki semua wadah
+
+02:08.990 --> 02:11.000
+ini menampung tempat-tempat ini.
+
+02:11.110 --> 02:14.900
+Dalam pemrograman kami memiliki banyak sekali.
+
+02:14.980 --> 02:21.500
+Jika kita pergi ke Wikipedia misalnya ketika kita gulir ke sini kita melihat banyak struktur data.
+
+02:21.610 --> 02:28.060
+Dan ini akan terlihat luar biasa tetapi jangan khawatir sebagian besar dari ini sementara saya belum pernah menemukan diri
+
+02:28.090 --> 02:30.240
+saya dan mereka sangat sangat spesifik.
+
+02:30.400 --> 02:36.190
+Anda mungkin hanya memiliki sekitar lima atau enam struktur data yang
+
+02:36.190 --> 02:39.900
+sangat penting yang akan kita bahas.
+
+02:39.980 --> 02:45.810
+Anda mungkin pernah mendengar tentang Bitcoin dan cara menggunakannya adalah teknologi rantai blok.
+
+02:45.830 --> 02:54.400
+Kata ajaib ini akan memblokir Shane pada akhir hari hanyalah sebuah struktur data cara untuk menyimpan informasi
+
+02:57.290 --> 03:06.290
+sehingga dalam struktur data dunia pemrograman kami, kami dapat menyimpan hal-hal seperti angka string tipe boolean seperti yang kami
+
+03:06.290 --> 03:13.950
+lihat ketika kami mengkodekan dalam Javascript dengan array dan array objek dan objek dalam javascript.
+
+03:13.950 --> 03:19.350
+Bagaimana masing-masing bentuk struktur data yang memungkinkan kita untuk menyimpan informasi.
+
+03:19.510 --> 03:22.910
+Anda lihat sebagai manusia, inilah yang kita lakukan di Bumi.
+
+03:22.960 --> 03:23.770
+Kanan.
+
+03:23.950 --> 03:29.150
+Kami mengambil kekacauan dan kekacauan dan membuat urutan dari itu.
+
+03:29.350 --> 03:33.690
+Setidaknya kami mencoba mengatur pertanian kami untuk menghasilkan makanan.
+
+03:33.850 --> 03:40.030
+Kami mengemas makanan dan mengirimkannya ke toko-toko kelontong dan mengaturnya di toko kelontong sehingga
+
+03:40.030 --> 03:48.280
+manusia dapat mengambilnya dan kemudian dapat membeli bahan makanan ini dan memberikan uang untuk dimasukkan ke dalam kompartemen dan
+
+03:48.370 --> 03:51.930
+bank yang semua program kami modelkan .
+
+03:51.940 --> 03:53.500
+Skenario kehidupan nyata.
+
+03:54.530 --> 04:01.280
+Dan semakin maju seorang pengembang, semakin Anda akan mulai berpikir dan menghabiskan waktu
+
+04:01.880 --> 04:04.130
+berbicara tentang struktur data.
+
+04:04.130 --> 04:08.590
+Inilah sebabnya mengapa pewawancara suka berbicara tentang struktur data.
+
+04:08.670 --> 04:13.790
+Sekarang karena saya selalu suka menyebutkan selalu ada pengorbanan.
+
+04:13.910 --> 04:16.790
+Setiap pertanyaan pemrograman memiliki tradeoff.
+
+04:16.790 --> 04:24.490
+Ingat tiga pilar memori mudah dibaca dan kecepatan.
+
+04:24.490 --> 04:26.910
+Ketika kami berbicara tentang kode apa yang terbaik.
+
+04:26.950 --> 04:29.680
+Kami memiliki hal yang sama dengan struktur data.
+
+04:29.770 --> 04:34.210
+Yang satu lebih baik dari yang lain dalam beberapa aspek dan yang lain lebih baik dari yang lain.
+
+04:34.210 --> 04:35.240
+Itu sebabnya mereka ada.
+
+04:35.320 --> 04:42.780
+Masing-masing menang untuk kasus spesifiknya sendiri dan ada dua bagian untuk memahami struktur data.
+
+04:43.730 --> 04:46.150
+Salah satunya adalah bagaimana membangunnya.
+
+04:46.160 --> 04:48.710
+Bagaimana kita bisa membangun dengan kode.
+
+04:48.710 --> 04:56.270
+Beberapa struktur data ini dan dua adalah bagaimana menggunakannya bagaimana menggunakan struktur data ini.
+
+04:56.300 --> 05:02.490
+Kita akan melakukan keduanya dalam kursus ini tetapi poin kedua adalah hak yang paling penting.
+
+05:02.600 --> 05:12.280
+Karena struktur data biasanya hanya alat dan sebagian besar waktu mereka sudah dibangun sebelumnya untuk kami, bagian terpenting adalah bagaimana menggunakannya
+
+05:13.030 --> 05:18.310
+ketika menggunakan satu di atas yang lain dan kami agak melihat
+
+05:18.310 --> 05:24.850
+itu di sebelumnya bagian ketika kita berbicara tentang bagaimana menyelesaikan masalah di mana kita menggunakan
+
+05:25.060 --> 05:29.570
+objek versus array untuk membuat kode kita lebih efisien.
+
+05:30.840 --> 05:35.880
+Tujuan dalam kursus ini adalah untuk memahami struktur data sehingga Anda dapat memilih struktur data yang tepat untuk
+
+05:35.880 --> 05:36.750
+masalah Anda.
+
+05:37.750 --> 05:42.790
+Berdasarkan berbagai skenario data perlu disimpan dalam format tertentu.
+
+05:42.790 --> 05:49.030
+Kami memiliki beberapa struktur data yang mencakup kebutuhan kami untuk menyimpan data dalam format yang berbeda.
+
+05:49.170 --> 05:52.320
+Jadi mari kita sedikit lebih dalam ke topik ini.

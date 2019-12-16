@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.230 --> 00:12.540
+One is a data structure a data structure is a collection of values algorithms are the steps or processes
+
+00:12.540 --> 00:16.550
+we put into place to manipulate these collection of values.
+
+00:17.640 --> 00:21.160
+It's what allows us to write programs.
+
+00:21.460 --> 00:29.770
+A person who knows how data structures and algorithms work and how to use them can write programs great
+
+00:29.770 --> 00:31.440
+programs.
+
+00:31.440 --> 00:38.910
+The beauty is that these are timeless no matter what programming language you use whether you prefer
+
+00:39.090 --> 00:46.920
+one library over the other whether you write code in angular or react in the front end development world
+
+00:47.400 --> 00:49.440
+or you are a game developer.
+
+00:49.740 --> 00:54.360
+Underneath it all it's all data structures and algorithms.
+
+00:54.360 --> 01:01.310
+If you understand this then you can really easily adapt and tackle all sorts of technical problems.
+
+01:02.160 --> 01:10.770
+It is why companies like Facebook Amazon Netflix Google ask questions specific to data structures and
+
+01:10.770 --> 01:18.090
+algorithms because although it may be important to know the latest and greatest javascript syntax or
+
+01:18.150 --> 01:26.610
+maybe the latest and greatest library those things change if you know the fundamentals so then they
+
+01:26.610 --> 01:31.700
+can throw you any problem any situation any you are able to make the right decision.
+
+01:32.040 --> 01:34.560
+This knowledge is extremely valuable.
+
+01:34.650 --> 01:40.770
+The longer you are in the field the more and more you realize that you need these fundamental principles
+
+01:40.800 --> 01:46.270
+of data structures and algorithms in order to be a great developer or engineer.
+
+01:46.350 --> 01:47.900
+So let's get started with that.
+
+01:48.090 --> 01:54.030
+Over the next few sections we have a long way to go to get familiar with data structures and algorithms.
+
+01:54.030 --> 01:54.710
+So I'm right.
+
+01:54.720 --> 01:56.110
+Great programs.
+
+01:56.220 --> 01:57.100
+Let's get started.

@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.000 --> 00:01.820
+Ben tornato.
+
+00:02.110 --> 00:08.420
+È il momento di programmare il nostro stack e ho un piccolo esercizio per te qui.
+
+00:08.500 --> 00:14.140
+Ho creato il modello di ciò che vogliamo per la struttura dei dati dello stack.
+
+00:14.280 --> 00:17.570
+E abbiamo anche una classe di nodi.
+
+00:17.670 --> 00:23.100
+Se decidi di usarlo e dovresti averne familiarità con il nostro esercizio di liste collegate.
+
+00:23.310 --> 00:27.770
+Oppure puoi semplicemente ignorarlo e creare un nuovo nodo tu stesso qui.
+
+00:28.980 --> 00:34.380
+Ora questo stack avrà nel suo costruttore tre proprietà.
+
+00:34.500 --> 00:42.870
+Abbiamo la parte superiore che ricorda la piastra superiore che abbiamo il fondo che è la piastra inferiore e quindi
+
+00:42.870 --> 00:50.430
+abbiamo una lunghezza pari a zero e sia la parte superiore che quella inferiore sono attualmente nulle.
+
+00:50.440 --> 00:55.640
+Ora utilizzeremo elenchi collegati per riempire questi valori.
+
+00:56.360 --> 01:01.050
+Ma non abbiamo bisogno di usare la classe lista collegata che abbiamo usato prima.
+
+01:01.070 --> 01:09.020
+Invece puoi semplicemente usare la classe Node per assegnare semplicemente diversi valori e assicurarti che il punto
+
+01:09.230 --> 01:18.310
+successivo punti ad un nodo diverso mentre aggiungiamo le cose ora il tuo compito è di creare tre metodi che
+
+01:18.580 --> 01:27.030
+funzionano per questo picco della struttura dati che ci permette di vedere il vero elemento superiore o nodo superiore.
+
+01:27.530 --> 01:38.330
+La spinta che ci consente di aggiungere un nodo alla cima dello stack e un pop che ci consente di rimuoverlo dalla cima
+
+01:38.330 --> 01:39.720
+della pila.
+
+01:39.920 --> 01:47.120
+E se vuoi Opzionalmente puoi anche fare un metodo vuoto che è comune con lo
+
+01:47.150 --> 01:51.620
+stack per verificare che il nostro stack sia vuoto.
+
+01:51.680 --> 01:58.960
+Iniziamo con un mio stack che viene istanziato e il tuo codice funziona.
+
+01:58.960 --> 02:07.990
+Se possiamo fare qualcosa di simile in cui dici il mio stack dot push, diciamo Google, poi ti spingo Dammy push
+
+02:08.290 --> 02:16.080
+discord come una cronologia del browser e poi puoi fare il pop discord e pop Demy pop.
+
+02:16.120 --> 02:21.860
+Google Buona fortuna e vedrò nel video della soluzione ciao.

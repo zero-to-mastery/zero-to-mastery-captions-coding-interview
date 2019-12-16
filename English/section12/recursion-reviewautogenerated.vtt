@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.570 --> 00:10.240
+When we talk about recursion and computer science we're talking about a function that calls itself this
+
+00:10.540 --> 00:18.670
+type of technique is really good at some problems because of its ability to maintain state a different
+
+00:18.850 --> 00:25.190
+level of recursions just like our coachmen watching TV here.
+
+00:25.190 --> 00:32.430
+Recursion can be thought of as a bit of glass that gets filled up with recursive calls of functions
+
+00:33.380 --> 00:41.070
+and then we start popping from the top until the very last function gets popped off and returns a value.
+
+00:42.440 --> 00:48.310
+One thing that we want to be careful of with recursion was this idea of stack overflow.
+
+00:48.350 --> 00:56.750
+This added memory space as we keep calling the same function over and over until we possibly can reach
+
+00:56.750 --> 01:00.900
+a limit and get stack overflow.
+
+01:00.950 --> 01:07.130
+The rule of thumb that we learned is that we should use recursion when it makes code more readable.
+
+01:08.290 --> 01:13.130
+But sometimes it can be less efficient than iterative or looping solutions.
+
+01:13.150 --> 01:14.440
+So we have to be careful.
+
+01:15.370 --> 01:23.310
+We also learned the rule that anything you do with recursion can be done intuitively and in interviews
+
+01:23.670 --> 01:31.290
+you'll get asked the question of the pros and cons of why we might want to use recursive over iterative
+
+01:32.100 --> 01:35.810
+and I know I've brought this up before but it's worth repeating.
+
+01:36.210 --> 01:41.660
+Recursion is interesting and clever but can be costly.
+
+01:41.760 --> 01:48.650
+So you have to be really careful with it because recursion and space complexity are not friends.
+
+01:49.530 --> 01:56.760
+But when it comes to some problems like sorting and tree traversal you'll see that we're going to have
+
+01:56.760 --> 02:00.500
+to use recursive solutions to make things simpler.
+
+02:00.690 --> 02:06.970
+Specifically when we talk about these upcoming topics we're going to be using recursion.
+
+02:07.380 --> 02:15.200
+So get ready for that merge sort of quicksort tree traversal graph traversal all use recursion.
+
+02:15.230 --> 02:20.980
+Now we're equipt a lot better to handle those situations that are going to come up.
+
+02:21.030 --> 02:30.300
+We're starting to build our mind map slowly and slowly and you see over here that when it comes to tree
+
+02:30.300 --> 02:35.160
+data structure ask yourself Should we use recursion.
+
+02:35.220 --> 02:42.330
+Most of the time you do want to use recursion but be mindful that space complexity or stack overflow
+
+02:42.660 --> 02:43.360
+can happen.
+
+02:44.240 --> 02:45.040
+I'll see in the next one.

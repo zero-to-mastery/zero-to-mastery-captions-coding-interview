@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.470 --> 00:09.720
+Impariamo a conoscere la struttura dei dati persi in questo corso I grafici dei grafici sono una delle strutture di
+
+00:09.720 --> 00:16.340
+dati più utili e più utilizzate nell'informatica quando si tratta di modellare la vita reale.
+
+00:16.450 --> 00:24.880
+In breve, un grafico è semplicemente un insieme di valori che sono correlati in un modo saggio coppia e puoi vedere
+
+00:24.880 --> 00:25.440
+qui.
+
+00:25.630 --> 00:27.360
+Sembra una piccola rete.
+
+00:27.460 --> 00:33.110
+Ci sono connessioni a diversi nodi in un grafico.
+
+00:33.110 --> 00:37.750
+Ogni oggetto è chiamato nodo o vertice.
+
+00:37.970 --> 00:39.670
+Quindi questo è un nodo.
+
+00:39.830 --> 00:46.630
+Questo è un nodo nodi sono quindi collegati con i bordi.
+
+00:46.880 --> 00:54.880
+Quindi questo è un vantaggio che è un vantaggio e questa è una nicchia e come puoi immaginare i grafici sono grandi strutture di
+
+00:54.880 --> 00:57.910
+dati per modellare le relazioni del mondo reale.
+
+00:57.970 --> 01:04.120
+Stiamo presentando un'erba lunga Ci dispiace affrontare casi in cui stai lavorando con cose che si collegano ad
+
+01:04.120 --> 01:04.830
+altre cose.
+
+01:04.930 --> 01:07.510
+Un po 'come funziona su Internet.
+
+01:07.510 --> 01:08.590
+Destra.
+
+01:08.650 --> 01:18.450
+Possiamo usare i grafici per rappresentare forse le amicizie, magari gli alberi genealogici, possiamo usare i grafici per rappresentare le reti e il web mondiale
+
+01:18.640 --> 01:25.690
+o possiamo usare i grafici per rappresentare le strade da una città all'altra e le strade che
+
+01:25.690 --> 01:27.850
+sono collegate come potete immaginare.
+
+01:27.850 --> 01:30.630
+Facebook lo usa per il loro social network.
+
+01:30.640 --> 01:38.740
+Amazon lo utilizza per i loro motori di raccomandazione e Google Maps utilizza i grafici per determinare il percorso più breve verso il punto
+
+01:38.740 --> 01:40.750
+in cui si desidera andare.
+
+01:41.080 --> 01:43.380
+Quindi lascia che ti faccia una domanda.
+
+01:43.570 --> 01:45.640
+Pensi che questo sia un grafico.
+
+01:45.640 --> 01:48.020
+Beh, sì, ovviamente l'abbiamo appena superato.
+
+01:48.040 --> 01:49.610
+Che dire di questo.
+
+01:49.690 --> 01:53.040
+Che dire di questo, questo e questo.
+
+01:53.080 --> 01:54.190
+Che dire di questa.
+
+01:54.190 --> 02:02.560
+Bene, alla fine questo ne guadagna ancora un po 'questo questo e questo e questo sì sono tutti grafici.
+
+02:02.800 --> 02:06.190
+Anche questo sembra un elenco collegato.
+
+02:06.190 --> 02:09.390
+Questo è un grafico.
+
+02:09.540 --> 02:15.810
+E come puoi vedere nella nostra mappa, i miei grafici comprendono cose che abbiamo imparato prima, come
+
+02:15.810 --> 02:20.730
+alberi e liste collegate. Le liste collegate sono un tipo di albero.
+
+02:20.730 --> 02:23.350
+Gli alberi sono un tipo di grafico.
+
+02:23.370 --> 02:26.970
+Quindi nel prossimo paio di video impariamo tutto sui grafici.

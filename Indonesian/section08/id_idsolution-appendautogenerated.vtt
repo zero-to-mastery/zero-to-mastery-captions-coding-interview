@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.780 --> 00:05.100
+Selamat datang kembali bagaimana latihannya.
+
+00:05.170 --> 00:09.580
+Apakah Anda dapat mengetahui metode append.
+
+00:09.670 --> 00:13.070
+Biarkan saya menunjukkan kepada Anda apa yang akan saya lakukan.
+
+00:13.160 --> 00:21.530
+Hal pertama yang ingin kita lakukan adalah membuat simpul baru dengan nilai dan kita bisa melakukannya dengan
+
+00:21.530 --> 00:22.550
+mudah.
+
+00:22.550 --> 00:30.620
+Mengatakan Konst simpul baru yang akan menyamakan objek dengan properti yang tidak seharusnya kita
+
+00:30.620 --> 00:38.240
+kenal sekarang karena kita memiliki nilai yang akan sama dengan nilai yang kita
+
+00:39.140 --> 00:43.330
+dapatkan sebagai parameter dan selanjutnya yang tidak.
+
+00:43.350 --> 00:51.250
+Jadi kami memiliki simpul baru kami di sini dan kami ingin melampirkannya sekarang setelah 10
+
+00:51.250 --> 01:05.070
+simpul yang merupakan catatan pertama kami dengan baik, kami cukup melakukannya dengan mengatakan ini dot tail dot next yang mana mengingat tempat ini di sini selanjutnya
+
+01:05.080 --> 01:06.860
+sama dengan Gnoll.
+
+01:06.880 --> 01:14.140
+Jadi itulah yang merupakan ekor yang merupakan item terakhir dalam daftar kami karena metode ini tidak tahu bahwa kami hanya memiliki
+
+01:14.410 --> 01:17.110
+satu item, kami dapat memiliki 100 item.
+
+01:17.110 --> 01:18.570
+Kami hanya ingin menambahkan di akhir.
+
+01:18.790 --> 01:23.080
+Jadi itu akan mengambil ekornya dan kemudian mengambil nilai berikutnya dari ekornya.
+
+01:23.080 --> 01:28.930
+Jadi itu akan mengambil pointer dari ekor dan mengatakan hei bukannya menunjuk ke
+
+01:28.930 --> 01:34.030
+Noal menunjuk ke simpul baru ini yang baru saja kita buat.
+
+01:34.080 --> 01:43.180
+Baiklah kita menunjuk ekor sekarang menunjuk ke simpul baru yang memiliki simpul berikutnya sudah diatur dan kemudian kita juga
+
+01:43.180 --> 01:50.560
+ingin mengatakan bahwa ini yang kita punya ekor AS sebelumnya yang nilai 10 bukan lagi
+
+01:50.560 --> 01:51.150
+ekor.
+
+01:51.190 --> 02:04.420
+Kami memiliki item terakhir baru yaitu ekor ini sekarang akan sama dengan simpul baru dan karena kami menjalankan
+
+02:04.420 --> 02:14.920
+operasi ini setelah ini ketika kami menjalankan ini, ujung ekor berikutnya masih simpul ini.
+
+02:15.010 --> 02:25.420
+Dan segera setelah kami memperbarui simpul ini untuk memiliki simpul baru berikutnya sekarang kami dapat menghapus.
+
+02:25.840 --> 02:33.530
+Kami sekarang dapat memperbarui ekor menjadi simpul baru karena pada saat baris ini berjalan berikutnya telah diperbarui
+
+02:33.530 --> 02:37.440
+dengan benar untuk nilai ekor yang lebih lama.
+
+02:38.630 --> 02:45.110
+Dan akhirnya kami ingin memastikan bahwa kami menambahkan mimbar Tikal tune.
+
+02:45.200 --> 02:50.380
+Jadi kita akan melakukan plus plus Dan hanya untuk bersenang-senang karena kami ingin memastikan bahwa kami melakukan ini dengan benar.
+
+02:50.390 --> 02:54.730
+Kami akan mengembalikan ini yang merupakan daftar tertaut.
+
+02:54.800 --> 02:59.540
+Ingat ini hanya referensi apa kelas ini yang akan dipakai.
+
+02:59.570 --> 03:04.880
+Jadi kami hanya akan mengatakan mengembalikan ini sehingga kami mendapatkan kembali daftar tertaut kami.
+
+03:04.950 --> 03:10.450
+Saya akan menghapus kunci konsol untuk saat ini dan melihat apa yang terjadi ketika kita baru saja menjalankan poin lima.
+
+03:10.640 --> 03:13.310
+Saya akan klik run.
+
+03:13.320 --> 03:13.860
+Baiklah.
+
+03:13.950 --> 03:18.830
+Saya telah mengembalikan daftar tertaut kami yang memiliki nilai tertinggi 10.
+
+03:18.840 --> 03:20.760
+Berikutnya adalah yang baru.
+
+03:20.760 --> 03:23.440
+Ketahuilah bahwa kami menciptakan nilai 5.
+
+03:23.930 --> 03:24.730
+Dan selanjutnya.
+
+03:24.730 --> 03:25.380
+Tidak.
+
+03:25.740 --> 03:28.680
+Dan ekornya bernilai lima.
+
+03:28.800 --> 03:32.750
+Berikutnya tidak sempurna dengan panjang dua.
+
+03:33.030 --> 03:33.730
+Luar biasa.
+
+03:33.780 --> 03:34.940
+Sepertinya itu berfungsi.
+
+03:35.010 --> 03:37.400
+Mari kita lakukan yang ini juga.
+
+03:37.530 --> 03:41.030
+Tambahkan dan kita mulai.
+
+03:41.150 --> 03:44.010
+Kami memiliki nilai lima.
+
+03:44.120 --> 03:50.930
+Jadi head mereferensikan nilai 10 yang menunjuk ke note berikutnya yang memiliki nilai
+
+03:50.930 --> 03:57.960
+5 yang menunjuk ke berikutnya yang merupakan objek yang merupakan ekor karena cara logging bekerja.
+
+03:57.980 --> 04:05.060
+Itu tidak akan menunjukkan ini bersarang saya hanya akan mengatakan bahwa ini adalah objek tetapi ini menunjuk
+
+04:05.060 --> 04:09.860
+ke ekor yang memiliki nilai 16 selanjutnya tidak panjang tiga.
+
+04:09.860 --> 04:10.980
+Betapa kerennya itu.
+
+04:11.030 --> 04:18.710
+Kami baru saja membuat daftar tertaut kami 10 10 16 daftar tertaut begitu saja.
+
+04:19.130 --> 04:20.360
+Saya harap Anda benar.
+
+04:20.420 --> 04:26.180
+Tetapi jika Anda tidak berkecil hati, ini membutuhkan waktu untuk terbiasa.
+
+04:26.210 --> 04:32.000
+Beruntung bagi Anda begitu Anda menulisnya beberapa kali maka itu menjadi seperti saya katakan sifat kedua.
+
+04:32.000 --> 04:36.010
+Jadi jangan stres karena saya punya tantangan lain untuk Anda sekarang.
+
+04:36.050 --> 04:37.960
+Anda tahu bagaimana cara menambahkan.
+
+04:38.060 --> 04:41.760
+Anda harus dapat melakukan prebend dengan benar.
+
+04:42.000 --> 04:45.570
+Prepend menambahkan ke awal daftar.
+
+04:46.070 --> 04:54.230
+Jadi katakanlah dalam daftar kami di sini kami ingin menambahkan satu sebagai kepala kami sekarang, bukan 10.
+
+04:54.320 --> 05:00.920
+Bagaimana kita melakukannya dengan metode yang disebut prebend prebend ini akan mengambil nilai.
+
+05:02.340 --> 05:13.050
+Dan kita akan dapat menjalankan perintah seperti daftar tertaut saya dot prebend untuk menambahkannya di awal
+
+05:13.050 --> 05:14.750
+daftar ini.
+
+05:15.870 --> 05:17.380
+Jadi kode di sini.
+
+05:17.580 --> 05:18.380
+Semoga berhasil.
+
+05:18.400 --> 05:19.720
+Mari kita lihat apakah kita dapat menyelesaikan yang ini.
+
+05:19.770 --> 05:23.610
+Dan sampai jumpa di video berikutnya di mana saya memberikan solusinya.

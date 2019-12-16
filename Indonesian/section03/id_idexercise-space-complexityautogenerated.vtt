@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.420 --> 00:01.220
+Selamat datang kembali.
+
+00:01.470 --> 00:04.250
+Mari kita bicara tentang kompleksitas ruang.
+
+00:04.260 --> 00:14.260
+Bagaimana jika saya memiliki fungsi yang memiliki nama boo dan semua yang dilakukannya adalah membutuhkan input.
+
+00:14.600 --> 00:23.880
+Dan dalam input ini hanya akan memiliki loop yang telah kita lihat sebelumnya
+
+00:25.600 --> 00:38.630
+Dan loop ini mari kita pastikan bahwa kita melakukan ini dengan benar dan mengatakan itu dan itu kosong dan kita akan
+
+00:38.630 --> 00:49.950
+mengatakan I plus plus dan fungsi ini adalah fungsi yang benar-benar tidak berguna yang hanya mengeluarkan Konsole log
+
+00:50.100 --> 00:51.900
+ke fungsinya.
+
+00:51.910 --> 00:55.120
+Jadi sekarang di sini jika kita
+
+00:57.770 --> 01:12.700
+hanya menjalankan fungsi dan hanya memberi masukan katakanlah 1 2 3 4 5 dan menjalankannya dengan baik, kita memiliki BHU yang berjalan lima kali dan kita tahu bahwa kompleksitas
+
+01:12.700 --> 01:19.100
+ruang dari fungsi ini atau kompleksitas waktu dari fungsi ini adalah saat.
+
+01:19.330 --> 01:24.700
+Tetapi ketika datang ke kompleksitas ruang mari kita pikirkan tentang ini.
+
+01:24.870 --> 01:27.360
+Apa kompleksitas ruang ini.
+
+01:27.420 --> 01:30.330
+Sekarang coba tebak sebelum saya masuk ke topik.
+
+01:35.410 --> 01:43.480
+Satu-satunya masalah dalam hal kompleksitas ruang adalah ketika kita berbicara tentang kompleksitas ruang kita berbicara tentang
+
+01:43.480 --> 01:49.590
+ruang tambahan sehingga kita tidak memasukkan ruang yang digunakan oleh input.
+
+01:49.720 --> 01:54.930
+Jadi kami tidak terlalu peduli seberapa besar inputnya.
+
+01:54.970 --> 01:56.340
+Maksud saya kita peduli.
+
+01:56.350 --> 02:02.980
+Tetapi ketika datang ke fungsi ini kita tidak benar-benar memiliki kontrol atas apa jenis input yang diterimanya.
+
+02:02.980 --> 02:06.700
+Kami hanya memiliki kendali atas apa yang terjadi di dalam fungsi ini.
+
+02:06.730 --> 02:16.060
+Jadi dalam fungsi ini kita menambahkan ruang apa pun. Yah, bukan satu-satunya hal yang benar-benar kita lakukan
+
+02:16.120 --> 02:24.030
+adalah kita membuat ini, biarkan aku sama dengan variabel nol dan hanya itu.
+
+02:24.080 --> 02:27.180
+Selain itu kami tidak benar-benar menambahkan lebih banyak memori.
+
+02:27.470 --> 02:37.540
+Jadi fungsi ini memiliki kompleksitas ruang 0 1 yang bagus dan sederhana tetapi bagaimana jika kita memiliki fungsi yang berbeda bagaimana jika
+
+02:38.030 --> 02:40.510
+kita memiliki sesuatu seperti ini.
+
+02:42.280 --> 02:49.360
+Kali ini akan memiliki fungsi yang mengatakan array akan memberikan nama yang mengerikan.
+
+02:49.480 --> 02:52.170
+Waktu akhir yang tinggi.
+
+02:52.690 --> 02:53.640
+Itu nama yang mengerikan.
+
+02:53.650 --> 03:01.150
+Tapi katakanlah fungsi ini membutuhkan input lagi dan di sini kita akan membuat variabel baru.
+
+03:01.180 --> 03:06.850
+Kita akan mengatakan biarkan array Hi akan sama dengan array kosong.
+
+03:07.890 --> 03:10.700
+Dan kami pikir di sini kita akan memiliki satu lingkaran.
+
+03:10.740 --> 03:19.510
+Saya hanya akan menyalin ini untuk saat ini saya harus membuat Anda bosan dengan pengetikan saya dan
+
+03:19.900 --> 03:25.710
+di sini saya hanya akan menyapa array hi dalam indeks.
+
+03:25.740 --> 03:33.290
+Jadi saat kita mengulang, kita akan mengisinya dengan tinggi dan kita akan mengembalikan array ini.
+
+03:33.300 --> 03:39.170
+Hai Ira.
+
+03:39.890 --> 03:42.630
+Yang kami lakukan hanyalah membuat array baru.
+
+03:43.160 --> 03:52.320
+Dan untuk jumlah item dalam input kami, kami akan mengisi array tinggi dengan berulang kali.
+
+03:52.340 --> 03:52.670
+Hai.
+
+03:52.680 --> 03:53.320
+Hai.
+
+03:53.320 --> 03:54.840
+Hai string.
+
+03:54.950 --> 04:04.640
+Jadi jika saya melakukan ini lagi dan saya katakan array high end times dan saya berikan katakanlah kita akan memberikannya dan Anda tahu apa.
+
+04:04.670 --> 04:07.800
+Alih-alih lenth mari kita tinggalkan saja sebagai nomor.
+
+04:07.800 --> 04:14.290
+Jadi saya akan katakan dan saya akan katakan enam kali.
+
+04:14.370 --> 04:21.760
+Jadi jika saya menjalankan kode ini, kita melihat bahwa meskipun kita memiliki boo
+
+04:22.390 --> 04:32.830
+boo boo di sini dari awal, array fungsi lain dari waktu akhir yang tinggi mengembalikan kita array baru dengan enam
+
+04:32.830 --> 04:39.100
+item dan setiap item hanya mengatakan Hi apa kompleksitas ruang ini.
+
+04:39.170 --> 04:40.240
+Ini akan memberi Anda petunjuk.
+
+04:40.250 --> 04:47.540
+Ingat alokasi fungsi fungsi data variabel Chichi kami.
+
+04:47.600 --> 04:57.560
+Hal-hal itu membutuhkan ruang dan dalam kasus kami kami membuat variabel dalam variabel loop kami i. e. sama dengan nol.
+
+04:57.560 --> 05:00.190
+Tetapi kami juga telah membuat struktur data dengan benar.
+
+05:00.200 --> 05:02.250
+Kami membuat array baru.
+
+05:02.270 --> 05:12.920
+Jadi sekarang jika kita kembali kita melihat bahwa di sini kita telah membuat array baru dan kita mengisi array ini dengan sebuah loop.
+
+05:13.110 --> 05:18.670
+Dan lagi karena aturan kita ketika datang ke pengemis kita mengabaikan waktu yang konstan.
+
+05:18.670 --> 05:21.120
+Biarkan sama dengan nol ruang.
+
+05:21.120 --> 05:31.350
+Dan sebaliknya ini menjadi begitu peristiwa karena kami membuat struktur data baru dan menambahkan memori sehingga
+
+05:31.350 --> 05:38.490
+setiap item adalah ruang memori tambahan pada komputer dan waktu kita.
+
+05:38.690 --> 05:39.950
+Dan kamu tahu.
+
+05:40.160 --> 05:43.910
+Cukup banyak tentang kompleksitas ruang.
+
+05:43.910 --> 05:49.190
+Saya pikir Anda mendapatkan idenya dan kami akan sedikit lebih dalam ketika kita berbicara
+
+05:49.580 --> 05:56.180
+tentang rekursi tetapi ketika datang ke kompleksitas ruang Anda baik menambahkan memori tambahan yang perlu Anda gunakan dan
+
+05:56.360 --> 05:58.380
+itu kadang-kadang menjadi perhatian besar.
+
+05:58.670 --> 06:04.700
+Dan kadang-kadang tidak ada dan sesuatu yang banyak muncul dalam wawancara dan sesuatu yang
+
+06:04.700 --> 06:11.510
+akan kita bicarakan di bagian berikutnya yang terkadang ada pertukaran antara menghemat waktu dan menghemat ruang.
+
+06:11.780 --> 06:15.990
+Jadi, Anda harus memutuskan mana yang Anda optimalkan.
+
+06:16.340 --> 06:20.560
+Mari kita masuk ke beberapa contoh menyenangkan berdasarkan apa yang baru saja kita pelajari di video berikutnya.
+
+06:21.590 --> 06:23.500
+Lihat yang itu.

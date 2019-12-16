@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.070 --> 00:02.140
+Bine ai revenit.
+
+00:02.450 --> 00:07.260
+Sper că vă puteți gândi de ce liste de link-uri ar putea fi bune sau rele.
+
+00:08.360 --> 00:15.860
+În acest videoclip, să discutăm răspunsul, un lucru cheie pe care l-ați văzut este că listele de linkuri
+
+00:15.860 --> 00:23.230
+au un fel de structură liberă care vă permite să introduceți o valoare în mijlocul listei.
+
+00:24.040 --> 00:32.930
+Prin simpla resetare a câtorva pointeri, la fel cum am văzut în animație, pot să introduc tot ce vreau
+
+00:33.500 --> 00:39.670
+și singurele schimbări care se întâmplă sunt undeva în mijlocul de aici.
+
+00:42.000 --> 00:45.720
+Și aceasta este aceeași pentru ștergerea nodului într-o listă legată.
+
+00:46.440 --> 00:49.720
+Și ne amintim cu o structură de date array cum.
+
+00:49.770 --> 00:56.620
+Când am vrut să inserăm ceva care nu era la sfârșitul matricei, trebuia să adăugăm elementul.
+
+00:56.850 --> 01:05.100
+Să spunem în spațiul de memorie unul aici și apoi să schimbăm toate elementele în jos și indexul jos care ne-au costat
+
+01:05.100 --> 01:06.220
+mult timp.
+
+01:06.240 --> 01:09.210
+Ne-a costat 0 un an.
+
+01:09.290 --> 01:18.350
+Principala diferență dintre matrice și listele legate este că într-o matrice un element sau elemente sunt indexate.
+
+01:18.410 --> 01:25.030
+Deci, dacă aș vrea să merg la un articol la indexul 5, o pot face ușor într-o listă legată.
+
+01:25.100 --> 01:35.900
+Începeți la cap și traversați lista până când ajungeți la punctul 5, care este 0 și această idee de traversal este aceeași cu iterația pe care
+
+01:35.900 --> 01:44.920
+am făcut-o cu ștergerea unde mergem 0 1 2 3 4 5 cu excepția faptului că ne place să sunăm traversal deoarece
+
+01:44.920 --> 01:49.780
+nu știți cu adevărat când lista de legături se va încheia.
+
+01:49.780 --> 01:53.400
+Începeți de la cap și continuați să continuați până când nu vă lăsați
+
+01:53.920 --> 01:58.520
+Și așa cum veți vedea în exemplul nostru de codificare, va trebui să folosim ceva de genul o buclă WHILE.
+
+01:58.630 --> 02:04.480
+Atunci când implementăm listele noastre proprii, pentru că de obicei nu știm cât timp lista va fi un
+
+02:05.800 --> 02:12.730
+alt avantaj pe care ar putea-o avea o matrice este că majoritatea calculatoarelor au sisteme de caching care fac citirea din
+
+02:12.730 --> 02:16.210
+memoria secvențială care este memorie exact una lângă cealaltă .
+
+02:16.270 --> 02:18.290
+Perioadele de lângă unul lângă celălalt.
+
+02:18.460 --> 02:21.390
+Mai repede decât citirea adreselor împrăștiate.
+
+02:21.580 --> 02:27.610
+Și asta este ceva despre care am vorbit despre elementele de matrice deja existente, care sunt întotdeauna localizate unul
+
+02:27.610 --> 02:29.200
+lângă celălalt în memoria calculatorului.
+
+02:30.150 --> 02:35.480
+Lista de legături și nodurile sunt împrăștiate de-a lungul întregii memorii.
+
+02:35.700 --> 02:44.080
+Un fel de tabele de tip hash care iteră printr-o listă legată sau traversând printr-o listă asociată este, de obicei, destul de
+
+02:44.230 --> 02:50.210
+lentă decât iterarea prin elemente precum un tablou, chiar dacă acestea sunt din punct de
+
+02:50.210 --> 02:51.340
+vedere tehnic.
+
+02:51.570 --> 02:59.670
+Cu toate acestea, aceste inserții pe care le putem face în mijlocul unei liste legate sunt mult mai bune decât o matrice.
+
+02:59.670 --> 03:01.140
+Ce zici de tabelele hash?
+
+03:01.140 --> 03:09.410
+Amintiți-vă acest lucru când am vorbit despre tabelele hash la fel ca și tabelele de hash atunci când inserăm ceva într-o listă legată
+
+03:09.410 --> 03:15.620
+pe care o împrăștiem peste tot memoria și putem continua să adăugăm o menținere adăugând o mențineți
+
+03:15.620 --> 03:22.590
+adăugând-o și nu trebuie să facem din asta pe schimbarea sau schimbarea pe indiciile pe care le-am făcut cu cursa,
+
+03:23.250 --> 03:25.310
+care este într-adevăr foarte frumos.
+
+03:26.320 --> 03:32.300
+Puteți, de asemenea, să ștergeți note foarte ușor față de un tablou.
+
+03:32.510 --> 03:38.750
+Dar singurul avantaj pe care îl are asupra tabelelor hash este acela că există un fel de ordin pentru a lega lista fiecare
+
+03:39.290 --> 03:41.170
+punct de nod la următoarea notă.
+
+03:41.240 --> 03:46.360
+Deci, puteți avea date sortate ca pe o tabelă de tip hash.
+
+03:46.390 --> 03:55.120
+Deci, dacă ne uităm la rândul nostru mare de liste legate putem vedea că prepend, care este o limbă comună spunem pentru
+
+03:55.270 --> 03:58.180
+a adăuga la începutul unei liste legate.
+
+03:58.180 --> 04:03.380
+Prebend este 0 1 append care se află la sfârșitul listei.
+
+04:03.400 --> 04:11.200
+Pentru a adăuga un element nou este de o privire în sus pe care putem apela traversal pentru a căuta un element.
+
+04:11.200 --> 04:17.500
+Să presupunem că vrem să aflăm și 10, pentru că trebuie să mergem din cap până când găsim ceea
+
+04:17.770 --> 04:18.760
+ce căutăm.
+
+04:19.940 --> 04:27.650
+Inserarea este, de asemenea, de un Pentru că trebuie să mergem unul câte unul pentru a găsi indicele.
+
+04:27.650 --> 04:32.870
+Nu știm cum este mai lungă lista de linkuri pe care o găsim și apoi introducem acolo
+
+04:32.870 --> 04:37.550
+ceea ce ar putea dura din punct de vedere tehnic și din nou ceva
+
+04:37.550 --> 04:45.150
+ce vom implementa în cod și să avem o mai bună înțelegere și ștergere este tot Vende pentru că noi trebuie să găsească elementele.
+
+04:45.170 --> 04:50.460
+Acum te gândești să te ții pe inserați și să ștergeți, iar matricele sunt și ele toate.
+
+04:50.480 --> 04:52.960
+Deci, cum este mai bine.
+
+04:53.020 --> 04:57.340
+Și asta este ceva la care vom intra în momentul în care aruncăm o privire la cod.
+
+04:57.340 --> 05:05.110
+Amintiți-vă acest lucru este cel mai rău caz, caz în care inserați sau ștergeți ultimul element și de cele mai multe ori nu
+
+05:05.140 --> 05:07.200
+va fi cazul o listă legată.
+
+05:07.360 --> 05:13.030
+Din nou, ceva despre care vom vorbi despre un pic atunci când ne codificăm propria listă legată, dar uităm
+
+05:13.030 --> 05:18.960
+la o diagramă ca aceasta este foarte greu să înțelegem cu adevărat cum funcționează și ce liste de lungimi sunt.
+
+05:19.130 --> 05:20.490
+Așa că vom codifica propria noastră.
+
+05:21.020 --> 05:25.670
+Și următorul videoclip despre care vom vorbi despre ultima piesă a puzzle-ului despre ce este un pointer.
+
+05:25.700 --> 05:32.000
+Și apoi codul în sfârșit lista noastră proprie, astfel încât să înțelegem implicațiile mari-O puțin mai bine.
+
+05:33.330 --> 05:34.670
+O să văd asta.
+
+05:34.750 --> 05:34.980
+Babai.

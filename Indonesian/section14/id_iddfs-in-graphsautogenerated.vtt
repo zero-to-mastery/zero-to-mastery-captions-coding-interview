@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.890 --> 00:08.540
+Bagaimana dengan pencarian pertama yang dalam pada grafik yang mungkin tidak Anda ketahui, tetapi Anda baru saja
+
+00:08.840 --> 00:16.970
+belajar bagaimana menyelesaikan sebuah maze dengan menggunakan program karena pencarian kematian pertama adalah persis seperti menyelesaikan sebuah maze yang benar.
+
+00:17.300 --> 00:23.360
+Jika Anda pernah melakukan kehidupan nyata labirin sendiri atau melihat program yang mencoba untuk
+
+00:23.360 --> 00:30.560
+menyelesaikan jalan mana untuk mengambil ide adalah untuk pergi sedalam mungkin dan ketika Anda menabrak penghalang jalan atau
+
+00:30.560 --> 00:37.370
+tempat di mana Anda tidak bisa pergi lagi Anda mundur dan menemukan rute yang berbeda dan kemudian
+
+00:37.370 --> 00:44.850
+Anda terus mundur sampai Anda menemukan simpul yang diinginkan atau Anda menerima labirin dan itulah keindahan kematian untuk pencarian.
+
+00:44.920 --> 00:50.350
+Anda sekarang dapat menerapkan algoritma yang memecahkan teka-teki labirin.
+
+00:50.410 --> 00:52.980
+Bukankah itu keren seperti di sini.
+
+00:53.020 --> 01:02.980
+Jika kita melakukan pencarian def pertama katakanlah kita mulai di nomor satu dan 10 adalah penerimaan atau sembilan adalah pintu
+
+01:02.980 --> 01:03.990
+keluar.
+
+01:04.360 --> 01:12.250
+Dan sebenarnya seseorang tidak akan bekerja karena ini Berbeda dengan grafik kami sebelumnya yang tidak diarahkan yang memiliki
+
+01:12.250 --> 01:14.520
+kedua arah saya bisa bolak-balik.
+
+01:14.560 --> 01:19.220
+Ini adalah grafik terarah yang memiliki arah spesifik yang bisa dituju.
+
+01:19.420 --> 01:21.680
+Jadi mari kita lakukan nol hingga sembilan.
+
+01:21.880 --> 01:28.230
+Jika saya mati untuk pencarian dan lakukan 9 atau kita akan mulai dari nol mencoba menemukan sembilan.
+
+01:28.420 --> 01:32.140
+Sama seperti melihat melalui labirin saya pergi ke sini saya pergi di sini.
+
+01:32.290 --> 01:39.460
+Saya terus melalui anak-anak saya dan kemudian mencoba dan pergi sedalam mungkin dan saya berhasil keluar dari labirin
+
+01:39.460 --> 01:43.180
+bahkan sebelum saya mencari 6 dan 5 di sini.
+
+01:44.370 --> 01:48.500
+Dan yang jelas algoritma ini terus berjalan karena saya bisa bilang berhenti di sembilan.
+
+01:48.630 --> 01:52.730
+Tetapi Anda melihat bagaimana itu persis seperti memecahkan labirin.
+
+01:53.720 --> 01:57.030
+Dan itulah mengapa kami menggunakan rekursi untuk kematian untuk pencarian yang benar.
+
+01:58.120 --> 02:06.220
+Gagasan untuk mundur setelah jalan buntu dan mengulangi perjalanan menyusuri jalan lain hanyalah rekursi setiap langkah yang lebih kecil dari yang
+
+02:07.260 --> 02:12.470
+lain dan kemudian kita kembali dan terus melakukan hal yang sama berulang kali.
+
+02:13.430 --> 02:20.340
+Gagasan kematian untuk pencarian adalah bahwa itu sangat bagus untuk mengatakan apakah jalan itu ada.
+
+02:20.420 --> 02:29.960
+Itu tidak memberi tahu kita jalur terpendek tetapi apakah itu ada dan menggunakan pencarian kedalaman memori lebih sedikit.
+
+02:30.000 --> 02:38.280
+Kelemahannya adalah jika Anda memiliki grafik yang benar-benar sangat dalam maka grafiknya bisa menjadi sangat lambat karena semakin
+
+02:38.370 --> 02:46.440
+dalam grafik, semakin banyak panggilan rekursif, semakin banyak kompleksitas ruang yang Anda tambahkan karena kami harus melacak
+
+02:46.440 --> 02:48.900
+pemanggilan fungsi pada tumpukan.

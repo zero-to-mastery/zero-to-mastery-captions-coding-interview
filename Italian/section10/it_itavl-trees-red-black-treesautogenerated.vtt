@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.330 --> 00:02.270
+Ben tornato.
+
+00:02.620 --> 00:07.840
+Ora che abbiamo implementato il nostro albero di ricerca binario, voglio parlare un po 'del bilanciamento
+
+00:07.840 --> 00:10.300
+del nostro albero di solito in produzione.
+
+00:10.300 --> 00:13.570
+Vuoi avere un albero di ricerca equilibrato.
+
+00:13.630 --> 00:17.000
+Ci sono due tipi di alberi che sono molto popolari quando si tratta di questo.
+
+00:17.110 --> 00:23.640
+Sebbene abbiamo creato il nostro albero di ricerca binario, molto probabilmente nella produzione useremo qualcosa come un
+
+00:23.650 --> 00:31.360
+albero reale o un albero nero rosso che si riequilibra automaticamente in modo che non abbiamo quei casi limite in cui
+
+00:31.690 --> 00:36.400
+il nostro albero equilibrato si trasforma in un albero squilibrato lineare .
+
+00:36.400 --> 00:42.730
+Ora su questi argomenti non è necessario codificarci perché sono un po 'complessi e il più delle volte
+
+00:42.730 --> 00:46.580
+si sta usando una sorta di libreria che la implementa.
+
+00:46.840 --> 00:49.280
+Ma voglio che tu capisca come funziona.
+
+00:49.300 --> 00:56.560
+Quindi lascerò le risorse per te sia per l'albero nero rosso che per gli alberi Avi, dove se clicchi
+
+00:56.620 --> 01:01.320
+qui vedrai che anche l'aspetto visivo deve dimostrare per te come funziona.
+
+01:01.330 --> 01:11.020
+Se voglio inserire diciamo settantasette nella mia avi Peltry non c'è niente di diverso.
+
+01:11.020 --> 01:13.910
+Stiamo aggiungendo 77 all'albero.
+
+01:15.160 --> 01:23.810
+Ma se ora aggiungo diciamo 80 che renderà il nostro albero un po 'sbilanciato se premo go vedrai
+
+01:28.300 --> 01:36.520
+che sto attraversando in giù aggiungo 80 e poi tutto ad un tratto oh sembra equilibrato
+
+01:36.790 --> 01:46.750
+andrà indietro e fai un po 'di un interruttore o di una rotazione per bilanciare l'albero per assicurarti che i livelli
+
+01:46.750 --> 01:57.030
+che abbiamo in un albero siano sempre rimbalzati e poi abbiamo anche alberi REPP neri che fanno le cose in modo
+
+01:57.420 --> 01:59.110
+un po' diverso.
+
+01:59.250 --> 02:05.820
+Se diciamo che abbiamo inserito 9 qui, diciamo
+
+02:08.570 --> 02:15.060
+che inseriamo 10 e infine inseriamo 11.
+
+02:15.150 --> 02:16.000
+Lo noterai.
+
+02:16.030 --> 02:17.810
+Oh, non è equilibrato.
+
+02:17.850 --> 02:26.730
+Dobbiamo bilanciarlo e ancora una volta assicurarci automaticamente che il nostro albero sia bilanciato con qualcosa chiamato
+
+02:26.730 --> 02:28.880
+albero nero rosso.
+
+02:28.950 --> 02:33.780
+Come puoi vedere il naso è rosso e nero qui e questo è qualcosa che usiamo per tenere
+
+02:33.780 --> 02:35.910
+traccia di quando abbiamo bisogno di noi.
+
+02:36.000 --> 02:39.220
+Lascerò delle risorse per te se vuoi saperne di più su di loro.
+
+02:39.240 --> 02:45.090
+Tieni a mente che questi due sono solitamente i più popolari per il bilanciamento degli alberi di ricerca
+
+02:45.090 --> 02:47.590
+binaria e nelle interviste non dovrai implementarli.
+
+02:47.640 --> 02:51.380
+Devi solo essere in grado di parlarne e perché sono utili.
+
+02:51.420 --> 02:53.770
+Qualcosa che dovremmo sapere ormai.
+
+02:53.850 --> 02:55.340
+Vedrò nel prossimo.
+
+02:55.500 --> 02:55.740
+Bob.

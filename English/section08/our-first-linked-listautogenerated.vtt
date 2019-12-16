@@ -1,0 +1,301 @@
+WEBVTT
+
+00:01.360 --> 00:02.240
+Welcome back.
+
+00:02.470 --> 00:08.800
+It's time to create our very first linked list data structure and let's say I wanted to create a linked
+
+00:08.800 --> 00:13.190
+list that has 10 pointing to five point to 16.
+
+00:13.320 --> 00:15.460
+A nice little simple one.
+
+00:15.460 --> 00:22.330
+First off how will we go about visualizing this in a language like javascript that doesn't have linked
+
+00:22.380 --> 00:23.120
+lists.
+
+00:24.320 --> 00:31.110
+Well we can simply say that we have a new linked list let's just use lead here.
+
+00:31.280 --> 00:41.570
+My linked list and this is going to equal to an object that has a head property remember because the
+
+00:41.570 --> 00:46.400
+very first item in a linked list is the head.
+
+00:46.590 --> 00:49.290
+And we're going to have a note.
+
+00:49.410 --> 00:53.990
+The point of the node is to say hey anything can be in the snow.
+
+00:53.990 --> 01:00.230
+Just put anything you want and it's a container around this data.
+
+01:00.320 --> 01:04.180
+So think of note as a bucket of data.
+
+01:04.340 --> 01:11.030
+And in this case we can just use an object to put our data in all this node needs to have in a linked
+
+01:11.030 --> 01:20.270
+list is a value property of what the value of the note is Plus a next property which is the pointer
+
+01:20.570 --> 01:23.250
+to the next node.
+
+01:23.270 --> 01:33.860
+Now this value can be anything we want and the next property has to be a pointer or a reference to the
+
+01:33.860 --> 01:41.340
+next node when in which case will be an object so will be a nother object that we're going to reference
+
+01:41.350 --> 01:42.630
+in memory.
+
+01:42.700 --> 01:47.860
+This way the value of the note can always change but the pointers are always going to be pointing to
+
+01:47.860 --> 01:48.130
+that.
+
+01:48.160 --> 01:51.860
+So we can change items and nothing else will change.
+
+01:51.880 --> 01:55.650
+It will still point to that changed and updated value.
+
+01:55.660 --> 01:57.130
+Let me show you what I mean.
+
+01:57.130 --> 02:06.430
+We have the head here in which case it's 10 so we want to set 10 Azara value and this ahead is going
+
+02:06.430 --> 02:11.370
+to reference point to the next node which will have a value.
+
+02:12.130 --> 02:13.410
+Of 5.
+
+02:13.580 --> 02:20.250
+Make sure I add the commas in here and the next value of what do you think.
+
+02:20.540 --> 02:29.750
+Well the next note in the list which is value of 16 and next referencing what.
+
+02:29.930 --> 02:34.540
+Well 16 is the tail of our linked list.
+
+02:34.580 --> 02:39.680
+So that means it has to point to nil or what we call null terminated.
+
+02:39.710 --> 02:43.210
+That means it's the end of the list perfect.
+
+02:43.230 --> 02:51.870
+So this is what we want to create a linked list using this as our structure.
+
+02:51.870 --> 03:02.840
+We're going to create a class called Class linked list and this class and we should be familiar with
+
+03:02.840 --> 03:04.120
+the syntax by now.
+
+03:04.370 --> 03:10.310
+We'll have a constructor which is the function that gets run at the very beginning when we create the
+
+03:10.310 --> 03:11.270
+linked list.
+
+03:11.270 --> 03:14.350
+That's going to take a value.
+
+03:14.560 --> 03:15.390
+What does that mean.
+
+03:15.460 --> 03:27.770
+Well when we finally say that we're creating a my linked list Remember we want to create this when I
+
+03:27.770 --> 03:29.570
+create my linked list.
+
+03:29.570 --> 03:37.190
+I'm going to instantiate the class that is run the class function here run the constructor and create
+
+03:37.340 --> 03:38.940
+the linked list.
+
+03:38.990 --> 03:44.870
+I'm going to say linked list and then give it a value to start off the list because while the list can
+
+03:44.870 --> 03:48.620
+be empty as to have something it has to start with the head.
+
+03:48.980 --> 03:56.460
+So in our case we want to started with 10 and ideally by running this command.
+
+03:56.460 --> 04:02.280
+We've created the first part of our linked list just the 10.
+
+04:02.540 --> 04:05.320
+Let me comment this out since we won't need it for now.
+
+04:07.760 --> 04:10.340
+Now within this constructor we have.
+
+04:10.490 --> 04:18.710
+Well the this doc had reference because while we need to keep track of the head and this head is going
+
+04:18.710 --> 04:24.870
+to simply have a value that is equal to the value that we passed in.
+
+04:24.900 --> 04:29.810
+That is the 10 here and then finally the next.
+
+04:30.000 --> 04:31.350
+And what should the next be.
+
+04:31.380 --> 04:34.110
+When we first create this list.
+
+04:34.110 --> 04:41.380
+Well since 10 is the only thing that will have or one node next is going to equal no.
+
+04:41.490 --> 04:47.640
+To begin with remember constructor is all about creating the very first linked list.
+
+04:47.650 --> 04:55.280
+Note what happens when we instantiate a class to start off my linked list.
+
+04:55.710 --> 05:00.430
+And then finally we have two other pieces of information that we need to track.
+
+05:00.480 --> 05:09.270
+One is this dot tale and remember the word this just refers to the linked list so it's just referring
+
+05:09.270 --> 05:11.440
+to the linked list that we create.
+
+05:11.550 --> 05:13.470
+What is the tail going to be.
+
+05:14.130 --> 05:19.560
+Well because we only have one item the head is also the tail.
+
+05:19.590 --> 05:22.490
+So we simply say this God head.
+
+05:22.890 --> 05:29.580
+And by the way I know him get a little bit confusing and as we go through this video series on Linked
+
+05:29.580 --> 05:33.000
+Lists it is a bit hard to wrap your mind around.
+
+05:33.000 --> 05:39.450
+So I really recommend that Yokota long cure and do the exercises because just watching me talk about
+
+05:39.450 --> 05:42.730
+linked lists is not going to solidify your information.
+
+05:42.840 --> 05:45.510
+It is hard to really visualize things.
+
+05:45.780 --> 05:51.870
+So you may need to build a linked list a couple times to really get the hang of it but this will become
+
+05:51.870 --> 05:59.550
+second nature once you get used to the syntax and also the idea of having this head and tail and referencing
+
+05:59.550 --> 06:01.310
+them anyway.
+
+06:01.470 --> 06:09.030
+The final piece of the puzzle is if you want we can keep track of the length of the linked list.
+
+06:09.030 --> 06:14.280
+This is optional but I think it's good to keep track and because we have one item when we create this
+
+06:14.760 --> 06:20.190
+link list because we give it a value we'll give it a length of 1.
+
+06:20.200 --> 06:20.810
+There we go.
+
+06:20.980 --> 06:30.290
+If I run this you get an error because well I have this code that's not really javascript so let's comment
+
+06:30.290 --> 06:32.720
+that out and click run again.
+
+06:33.760 --> 06:36.730
+I get undefined while because we haven't logged anything.
+
+06:36.920 --> 06:49.910
+But if my console log my linked list and I run this look of that I have a linked list with a head that
+
+06:49.910 --> 06:51.150
+is value of 10.
+
+06:51.350 --> 06:58.460
+Next is null because while there's only one node and a tail which is the exact same thing pointing to
+
+06:58.460 --> 07:00.860
+M. and a length of one.
+
+07:01.040 --> 07:02.290
+Congratulations.
+
+07:02.330 --> 07:06.530
+We just built our very first linked list.
+
+07:06.530 --> 07:09.900
+However it's time for a little bit of an exercise.
+
+07:09.920 --> 07:12.030
+Our list is not complete right.
+
+07:12.080 --> 07:18.920
+We need to create this linked list so we need to be able to add 5 and then 16.
+
+07:18.920 --> 07:21.630
+So my challenge to you is this.
+
+07:22.520 --> 07:31.860
+We want to create an append method and this append method is going to take a value and in here.
+
+07:34.140 --> 07:48.820
+We want to write a piece of code that allows us to say Konst for my linked list Daut append and give
+
+07:48.820 --> 07:49.850
+it a value.
+
+07:49.870 --> 07:56.290
+If we look at our list of 5 to append to our current list.
+
+07:56.290 --> 08:10.390
+So I want to be able to say append 5 and then append 16 to create our completed list of 10 5 and 16.
+
+08:10.420 --> 08:13.200
+How would you go about doing that.
+
+08:14.000 --> 08:19.980
+And I'm going to leave this for you to try out.
+
+08:20.050 --> 08:24.730
+Remember this may be a little bit hard and I'll provide the solution video and we'll code along.
+
+08:24.730 --> 08:29.980
+But I do encourage you to challenge yourself and just think about what's happening and what we've done
+
+08:29.980 --> 08:34.450
+in the constructor to create this append method.
+
+08:34.460 --> 08:37.560
+Good luck and I'll see you in the solution video.
+
+08:37.570 --> 08:38.170
+Bye bye.

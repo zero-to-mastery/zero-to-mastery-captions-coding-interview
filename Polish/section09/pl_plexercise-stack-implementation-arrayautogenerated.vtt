@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.020 --> 00:02.310
+Witamy spowrotem.
+
+00:02.310 --> 00:10.440
+Po prostu zaimplementowaliśmy własny stos i mam nadzieję, że możesz kodować również w swoim własnym języku.
+
+00:10.440 --> 00:19.480
+Oto moje kolejne wyzwanie dla ciebie, jeśli użyjemy wyścigu dla tego stosu do tego momentu lub
+
+00:19.480 --> 00:24.580
+to, co napisaliśmy, było z połączoną listą, którą stworzyliśmy.
+
+00:24.580 --> 00:28.330
+Jak byś zmienił kod, jeśli chcesz zaimplementować to w tablicy.
+
+00:29.270 --> 00:35.360
+A podpowiedź jest taka, że będzie to super super proste, to będzie wymagało usunięcia dużej
+
+00:35.360 --> 00:40.560
+ilości tego kodu, ponieważ podczas gdy tablice mają już PUSH i POP.
+
+00:40.720 --> 00:48.260
+Dlatego moim wyzwaniem jest przekonwertowanie tej struktury danych stosu, aby używać tablic zamiast połączonych list.
+
+00:49.040 --> 00:52.190
+Powodzenia, a zobaczę w następnym wideo.
+
+00:52.280 --> 00:52.550
+Buh-Bye.

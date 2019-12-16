@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.480 --> 00:01.270
+Ben tornato.
+
+00:01.590 --> 00:06.420
+Ho un piccolo esercizio divertente per te e so che definisco bene ogni singolo esercizio.
+
+00:06.570 --> 00:09.810
+Ma penso che questo sia particolarmente divertente.
+
+00:10.960 --> 00:20.020
+Ora una delle domande più frequenti sulle interviste quando si tratta di liste collegate è di invertire
+
+00:20.350 --> 00:22.170
+una lista concatenata.
+
+00:22.190 --> 00:23.290
+Cosa intendo con quello.
+
+00:23.570 --> 00:28.190
+Bene, un intervistatore sta per dire che abbiamo una lista di lunghezza qui.
+
+00:28.190 --> 00:36.620
+Come faresti a invertire questa lista se ho una lista qui sopra che è una 10 16 18.
+
+00:36.620 --> 00:39.500
+Come si può rendere la lista la lista dei collegamenti.
+
+00:40.340 --> 00:44.310
+Vai da 88 a 16 a 10 a 1.
+
+00:44.330 --> 00:48.130
+Come faresti a invertirlo e capovolgerlo.
+
+00:48.370 --> 00:55.120
+E useremo una lista concatenata per questo esercizio e tutto ciò che vogliamo è creare un nuovo
+
+00:55.120 --> 00:55.700
+metodo.
+
+00:56.620 --> 00:58.540
+Questo dirà il contrario
+
+01:01.330 --> 01:08.060
+e questo metodo qui dovrà fare un po 'di magia che invertirà questo per noi.
+
+01:08.820 --> 01:15.720
+Ricorda che non stiamo solo stampando una matrice, ma vogliamo che una lista collegata in senso inverso abbia ora 88
+
+01:15.720 --> 01:23.870
+referenziamenti 16 che hanno un riferimento che dice o che punta a 10 e 10 che puntano a uno e uno che punta a
+
+01:23.870 --> 01:26.030
+no come andresti a fare questo.
+
+01:26.030 --> 01:29.830
+Buona fortuna con questo esercizio e ci vediamo nel video della soluzione.
+
+01:29.830 --> 01:30.300
+Ciao ciao.

@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.510 --> 00:11.110
+Welcome back there is a theorem that states anything that can be implemented recursively can be implemented
+
+00:11.630 --> 00:20.370
+interactively that is you can go your whole life without implementing recursive functions and just use
+
+00:20.610 --> 00:21.450
+loops.
+
+00:21.880 --> 00:22.420
+OK.
+
+00:22.620 --> 00:29.650
+So why would we ever want to confuse yourself with a topic like recursion that can be a little confusing.
+
+00:30.870 --> 00:37.550
+Well for some problems it's actually easier to write but it really depends on the situation.
+
+00:37.560 --> 00:40.990
+Keep in mind that there's always two options.
+
+00:41.100 --> 00:48.300
+And by now you know that with programming there's always pros and cons and a good engineer is somebody
+
+00:48.300 --> 00:52.770
+who can make the right decisions based on those pros and cons.
+
+00:52.940 --> 01:00.680
+But I wanted to keep this in mind for interviews because interviewers will ask you to solve a problem
+
+01:00.740 --> 01:06.730
+and a problem that can be solved with recursion can usually be solved intuitively as well.
+
+01:09.770 --> 01:20.160
+And looking at our Fibonacci function this is a simpler example of recursion but there are times when
+
+01:20.370 --> 01:24.330
+recursion can keep your code dry.
+
+01:24.330 --> 01:26.360
+That is do not repeat yourself.
+
+01:26.430 --> 01:34.340
+A big rule when it comes to programming and there are a lot of problems when it comes to recursion as
+
+01:34.340 --> 01:42.200
+it get harder and harder when using recursive functions allow your code to be more readable and also
+
+01:42.210 --> 01:48.050
+dry simpler have less loops happening with confusing code.
+
+01:48.540 --> 01:55.800
+And I'm a little bit biased because although recursion is a powerful technique in my opinion it's not
+
+01:55.860 --> 01:57.670
+always the best approach.
+
+01:57.780 --> 02:07.560
+So you need to make sure because of or its main drawback that is although recursion can keep your code
+
+02:07.650 --> 02:14.750
+dry and make your code more readable it also creates this extra memory footprint.
+
+02:16.020 --> 02:23.190
+Because every time we add a function to the call stack it adds extra piece of memory.
+
+02:23.430 --> 02:31.020
+So you have cases where you can get stack overflows or if your system has expensive memory you want
+
+02:31.020 --> 02:38.060
+to avoid making too many recursive calls and for some people recursion is also something that is hard
+
+02:38.060 --> 02:39.460
+to wrap their mind around.
+
+02:39.500 --> 02:45.470
+And if we have a team of young engineers of developers that are familiar with recursion that may not
+
+02:45.470 --> 02:46.870
+be the best option.
+
+02:47.880 --> 02:52.770
+But the main drawback is this that iterative approaches tend to be more efficient because they don't
+
+02:52.770 --> 03:00.510
+make these additional function calls that take up the stack space with the downside being that iterative
+
+03:00.510 --> 03:08.790
+solutions might be not as readable and the rule that I like to follow is that I like to use recursion
+
+03:09.250 --> 03:14.410
+when you're working with data structures that you're not really sure how deep they are where you don't
+
+03:14.410 --> 03:17.520
+know how many loops to go through.
+
+03:17.650 --> 03:24.370
+And as you'll see recursion is really useful for things such as tree data structures and doing traversal
+
+03:24.370 --> 03:26.670
+because that is often the case.
+
+03:27.770 --> 03:34.520
+Now in the next video I want to talk about this topic a little bit deeper and when to use recursion.
+
+03:34.640 --> 03:37.500
+But I do want to point one thing quickly.
+
+03:38.380 --> 03:43.210
+There's something called tail call optimization in many languages.
+
+03:43.220 --> 03:51.510
+And for example in Javascript with 6 it allows recursions to be called without increasing the call stack.
+
+03:51.560 --> 03:57.940
+You can read more about it in the resources that are provided to you in this video but in other languages
+
+03:57.940 --> 03:58.500
+as well.
+
+03:58.510 --> 04:03.770
+There are certain ways to write recursion So there are more memory efficient.
+
+04:03.940 --> 04:12.600
+So this large stack issue can actually be resolved during production but let's talk about a definitive
+
+04:12.600 --> 04:15.070
+guide to when to use recursion in the next video.

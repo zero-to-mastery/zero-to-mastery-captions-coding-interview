@@ -1,0 +1,328 @@
+WEBVTT
+
+00:01.600 --> 00:02.590
+Witamy spowrotem.
+
+00:02.590 --> 00:07.030
+Właśnie włożyliśmy swój pierwszy wkład, co nie było tak szalone, prawda.
+
+00:07.030 --> 00:13.970
+Po prostu poszliśmy do przewodnika tutaj na początku i dodaliśmy nasze nazwiska do listy autorów, ale w rzeczywistości
+
+00:13.970 --> 00:17.020
+przyczyniamy się teraz do projektu open source.
+
+00:17.060 --> 00:22.710
+Teraz w naszej społeczności co miesiąc wykonujemy wyzwania związane z kodowaniem.
+
+00:22.750 --> 00:30.280
+Teraz możesz tutaj szukać wyzwań związanych z kodowaniem, ale ten miesiąc jest wydarzeniem specjalnym, ponieważ w rzeczywistości
+
+00:30.280 --> 00:37.460
+organizujemy imprezę z okazji pół święta Tobar, co zdarza się raz w roku w naszej społeczności.
+
+00:37.460 --> 00:46.120
+W październiku można zobaczyć, że jeśli klikniemy link hack Tobar fest 2019, więc w zależności od tego,
+
+00:46.120 --> 00:49.830
+kiedy go obejrzysz, możesz mieć inne ucho.
+
+00:49.970 --> 00:56.080
+Widzisz, że daliśmy Ci możliwość wniesienia wkładu w projekt open source.
+
+00:56.120 --> 00:59.300
+W rzeczywistości mamy animację narodu.
+
+00:59.390 --> 01:11.840
+Mamy projekt Świętego Mikołaja, a także projekt Python, a ty możesz wnieść swój wkład w którykolwiek z nich, więc jeśli
+
+01:11.900 --> 01:19.810
+spojrzymy na naród animacji, podczas gdy ludzie wnieśli tu swoje animacje CSF.
+
+01:20.090 --> 01:22.290
+Ten wygląda ładnie.
+
+01:22.300 --> 01:24.820
+Mamy również projekt Świętego Mikołaja.
+
+01:24.910 --> 01:33.170
+Ludzie stworzyli małą stronę internetową Świętego Mikołaja, która jest całkiem fajna, bardzo fajna.
+
+01:33.530 --> 01:40.160
+Mamy też projekt artystyczny python, który robi coś naprawdę fajnego.
+
+01:40.280 --> 01:49.900
+Jeśli przejdę tutaj na stronę internetową, zmieni obraz w grafikę ASCII, co jest naprawdę naprawdę fajne.
+
+01:49.900 --> 01:59.050
+Teraz jest mnóstwo projektów, które możesz wykonać, ale spróbujmy wykonać ten projekt animacji narodu, więc pierwszą rzeczą,
+
+01:59.050 --> 02:03.040
+którą zamierzam zrobić, to przejść do repozytorium projektu
+
+02:06.480 --> 02:11.880
+i postępować zgodnie z krokami, które zrobiliśmy wcześniej, to jest
+
+02:14.710 --> 02:18.510
+rozwidlenie repozytorium teraz klonujemy to repozytorium.
+
+02:18.810 --> 02:22.050
+Zdobądźmy klon.
+
+02:22.260 --> 02:28.840
+Podczas klonowania spójrzmy teraz na instrukcje.
+
+02:28.870 --> 02:35.510
+Większość projektów o otwartym kodzie źródłowym będzie zawierać instrukcje, w jaki sposób możesz wnieść swój wkład w naszą sprawę.
+
+02:35.580 --> 02:38.270
+Mamy fajny przewodnik krok po kroku.
+
+02:38.490 --> 02:43.200
+Więc w naszym katalogu utwórz nazwę katalogu po sobie.
+
+02:43.290 --> 02:45.500
+Ok, to miłe i łatwe do zrobienia.
+
+02:45.870 --> 02:57.520
+Więc przejdźmy do C. RE. do projektu animacji narodu otwórzmy go
+
+02:57.570 --> 03:06.760
+i wysublimujmy i widzimy, że jest folder artystyczny i tutaj musimy stworzyć własną nazwę lub własny folder
+
+03:06.760 --> 03:18.960
+z naszą nazwą W rzeczywistości już utworzyłem folder o nazwie animatronic, który ma trochę Projekt CSR z X kropką HMO i CSX.
+
+03:19.150 --> 03:25.810
+Więc tylko po to, aby pokazać, przenieśmy to lub po prostu, aby pokazać.
+
+03:26.020 --> 03:31.680
+To moja mała animacja wykorzystująca prosty indeks arkusza blachy i CSX.
+
+03:31.780 --> 03:33.220
+Nic zbyt szalonego.
+
+03:33.370 --> 03:38.860
+Teraz wszystko, co musimy zrobić, to przenieść to do folderu artystycznego, tak
+
+03:41.650 --> 03:45.600
+jak otrzymaliśmy instrukcje i dodaliśmy nasz projekt.
+
+03:45.610 --> 03:48.240
+Zobaczmy, gdzie jest animatronika.
+
+03:48.250 --> 03:49.000
+Tu jest.
+
+03:49.000 --> 03:50.920
+Tam jest mój projekt.
+
+03:51.700 --> 04:00.280
+Następnie przejdź do tego folderu, upewnij się, że tworzymy dwa pliki: plik HMO i plik CSX i łączymy
+
+04:00.280 --> 04:05.820
+plik CSX z Twoim HMO, używając tylko H2 Mellon CSX.
+
+04:05.830 --> 04:07.270
+Stwórz dzieło sztuki.
+
+04:07.360 --> 04:10.460
+Więc właściwie to już zrobiłem.
+
+04:10.480 --> 04:16.630
+Jeśli wrócimy do projektu, mam bardzo prosty plik indeksu arkusza blachy, który jest połączony
+
+04:16.630 --> 04:22.090
+z arkuszem stylów i to moje style, które dodałem do mojej animacji, to
+
+04:25.540 --> 04:27.200
+te małe linie.
+
+04:27.280 --> 04:33.220
+Ostatnią częścią tutaj jest dodanie mojej własnej karty do tej sekcji, aby uwzględnić podejrzany JSF.
+
+04:33.520 --> 04:35.950
+Więc skopiujmy to do
+
+04:39.730 --> 04:40.690
+załączników
+
+04:43.320 --> 04:45.620
+lub dołącz Dodge.
+
+04:45.620 --> 04:49.230
+Tak i widzisz, że tutaj wszyscy wpisują swoje informacje.
+
+04:50.970 --> 04:56.220
+I właśnie tutaj możemy po prostu dodać podczas kopiowania i wklejania.
+
+04:56.390 --> 04:59.400
+Upewnij się, że wcięcie jest prawidłowe.
+
+04:59.540 --> 05:03.370
+Nasza nazwa będzie się nazywać animatronicznym linkiem do
+
+05:05.900 --> 05:08.870
+strony, a nazwa naszego folderu.
+
+05:08.900 --> 05:14.130
+Nazwałem więc kropkę indeksu Tron HMO, a następnie
+
+05:19.510 --> 05:24.530
+nazwę prezentu, którą zasugerowali, abyśmy założyli prezent.
+
+05:24.530 --> 05:32.860
+Więc jeśli dobrze pamiętam, nazwa prezentu była prezentem w transie.
+
+05:32.900 --> 05:38.000
+Znów stworzyłem mały gif mojej animacji.
+
+05:38.540 --> 05:41.140
+Nazwiemy to więc trance dot gif.
+
+05:41.450 --> 05:49.190
+Autorem jest Andre, a oni rozumieją, jak puste jest, jak mrugać.
+
+05:49.260 --> 05:49.980
+W porządku.
+
+05:50.110 --> 05:52.410
+To powinno być dobre.
+
+05:52.420 --> 05:56.040
+Złóżmy teraz żądanie ściągnięcia.
+
+05:56.110 --> 06:00.020
+Teraz zauważ tutaj, jak zrobiłem te wszystkie zmiany w M ..
+
+06:00.070 --> 06:08.000
+Idealnie, że stworzyliśmy te zmiany w nowej gałęzi, abyśmy mogli to zrobić teraz, pobierz kasę i
+
+06:10.320 --> 06:12.390
+nazwij to animatronic,
+
+06:18.010 --> 06:23.140
+więc jeśli dostanę status teraz, widzę, że mam dwie zmiany.
+
+06:23.150 --> 06:24.050
+Dobre.
+
+06:24.050 --> 06:28.680
+Zróbmy reklamę, aby
+
+06:32.060 --> 06:39.460
+zatwierdzić, dodając moją artyzm do projektu.
+
+06:39.710 --> 06:48.210
+A potem wreszcie uzyskaj animatroniczne pochodzenie.
+
+06:48.220 --> 06:48.980
+W porządku.
+
+06:49.180 --> 06:58.730
+Jeśli wrócimy do projektu, zobaczymy, że faktycznie mamy małą ikonę, która mówi, że porównuję kiepską prośbę,
+
+06:59.870 --> 07:10.510
+jeśli wrócę do mistrzostwa w repo fort 2 0, które tutaj widzicie, że mam również ten żółty sztandar.
+
+07:10.510 --> 07:24.270
+Więc jeśli kliknę na to i powiedz, proszę dodaj mnie do tej listy, a link do tego to Joy, który jest jednym
+
+07:24.270 --> 07:25.650
+z menedżerów.
+
+07:25.650 --> 07:27.860
+Więc powiem tylko, proszę dodaj mnie do listy.
+
+07:27.870 --> 07:32.190
+W rzeczywistości nie musimy jej nawet śledzić, ponieważ od czasu do czasu to sprawdza.
+
+07:32.220 --> 07:36.520
+Więc utworzę żądanie ściągnięcia.
+
+07:36.600 --> 07:38.940
+Teraz jest otwarty.
+
+07:38.940 --> 07:40.470
+To cudownie.
+
+07:40.500 --> 07:47.010
+Więc proszę dodaj mnie do listy, jeśli spojrzę na moje zmiany plików, możesz zobaczyć, że
+
+07:47.100 --> 07:56.220
+to są te, które dodałem do projektu, więc jeśli teraz ponownie scalę żądanie ściągnięcia, nie będziesz w stanie tego zrobić, ale niektórzy
+
+07:56.220 --> 08:01.260
+z naszego kierownictwa członkowie zespołu, którzy zarządzają projektami typu open source, będą
+
+08:05.560 --> 08:10.540
+mogli połączyć się z tobą. Możemy usunąć oddział, ponieważ wszystko połączyliśmy.
+
+08:10.750 --> 08:13.410
+A teraz zobaczmy, czy zmiany zostały wprowadzone.
+
+08:13.480 --> 08:16.750
+Jeśli pójdę do tych narodów animacji 0 2.
+
+08:16.990 --> 08:25.820
+Więc jeśli teraz szukam mojego projektu, to jest mój mały animatroniczny projekt, który jest w porządku.
+
+08:25.830 --> 08:27.290
+Oto mój CSX.
+
+08:27.300 --> 08:28.170
+To piękne,
+
+08:31.250 --> 08:32.930
+jak zaprojektowano ten projekt.
+
+08:32.930 --> 08:40.340
+Losowo wybiera animację CSX, więc może nie wyświetlać wszystkich jednocześnie, więc może być
+
+08:40.340 --> 08:42.350
+konieczne kilkakrotne odświeżenie.
+
+08:42.350 --> 08:46.760
+Ale właśnie tak włożyłem swój wkład w open source.
+
+08:46.760 --> 08:51.740
+Teraz jest tu mnóstwo projektów, do których możesz dołączyć.
+
+08:51.740 --> 08:59.330
+I tak jak powiedziałem, jest to plac zabaw do testowania błędów, ponieważ to nie jest prawdziwe miejsce pracy.
+
+08:59.510 --> 09:05.810
+Chcemy ćwiczyć te umiejętności, zanim zaczniemy pracę i wprowadzimy duże niebezpieczne zmiany.
+
+09:05.810 --> 09:07.940
+I to jest open source.
+
+09:08.000 --> 09:10.780
+Bardzo polecam się zaangażować.
+
+09:10.790 --> 09:12.710
+To świetny sposób na pracę z innymi.
+
+09:12.710 --> 09:16.490
+To świetny sposób, aby dowiedzieć się, jak naprawdę uzyskać i uzyskać hub.
+
+09:16.490 --> 09:21.290
+Nie ma wątpliwości, że indywidualny programista może wiele zrobić.
+
+09:21.290 --> 09:28.610
+Jednak postęp i skala, jaką można zbudować, jest naprawdę skomplikowana, gdy wiele osób pracuje nad
+
+09:28.700 --> 09:30.150
+czymś razem.
+
+09:30.290 --> 09:35.800
+Idź wnieś swój pierwszy wkład typu open source i baw się dobrze, budując coś z innymi programistami.
+
+09:36.010 --> 09:39.790
+I może pewnego dnia zaimponujesz potencjalnemu pracodawcy.
+
+09:39.990 --> 09:41.490
+Do zobaczenia w następnym.
+
+09:41.730 --> 09:41.930
+Przez.

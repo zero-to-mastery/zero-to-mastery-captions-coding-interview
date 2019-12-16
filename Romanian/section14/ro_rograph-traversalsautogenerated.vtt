@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.670 --> 00:07.990
+Bine ați venit înapoi frumusețea a ceea ce tocmai am învățat în inversarea Treach care a fost de
+
+00:08.080 --> 00:16.490
+un Și ne vizităm fiecare nod este că este la fel ca în traversal grafic, deoarece copacii sunt pur și simplu un
+
+00:17.700 --> 00:25.060
+tip de grafic, folosind aceeași tehnică în loc să folosească stânga și dreptul de proprietate, probabil, există 10 copii.
+
+00:25.410 --> 00:32.870
+Ce putem face același lucru folosind moartea pentru căutarea și lățimea primei căutări și acest lucru este
+
+00:32.870 --> 00:42.480
+cu adevărat puternic deoarece graficele sunt folosite pentru a modela modelele de viață reală, cum ar fi un motor de recomandare Amazon.
+
+00:42.720 --> 00:53.220
+Acum putem vedea ce tipuri de articole sunt probabil legate sau sunt cele mai apropiate de ultima carte pe care am
+
+00:53.220 --> 00:54.110
+cumpărat-o.
+
+00:54.420 --> 01:01.740
+Și în acest caz ar folosi ceva de genul respirație pentru o căutare sau pe Facebook pentru a vedea ce tip de
+
+01:01.980 --> 01:04.690
+prieten solicită ar trebui să fiu recomandat.
+
+01:05.070 --> 01:12.240
+Dacă am o conexiune la Linked-In, probabil aș putea folosi moartea pentru o căutare pentru a vedea ce
+
+01:12.330 --> 01:14.140
+legătură am cu asta.
+
+01:14.190 --> 01:15.830
+Foarte important SEO.
+
+01:15.990 --> 01:26.520
+Folosim căutarea deafer și acestea sunt bazele modului în care rețelele peer-to-peer funcționează cum funcționează Google Maps.
+
+01:26.520 --> 01:27.370
+Dreapta.
+
+01:27.480 --> 01:33.060
+Ceea ce este într-adevăr foarte puternic și am o viziune frumoasă aici.
+
+01:33.060 --> 01:34.670
+Am viziunea noastră.
+
+01:34.670 --> 01:35.790
+Mă duc aici.
+
+01:35.840 --> 01:41.550
+Prietenul nostru bun și ei au moartea pentru o căutare și am făcut acest mic grafic și putem traversa acum
+
+01:41.550 --> 01:46.830
+folosind Louis real pentru a respira pentru o căutare în primul rând și vom începe cu zero.
+
+01:46.950 --> 01:52.380
+Așa că am să intru în zero aici și să văd cum ar funcționa cercetarea morții.
+
+01:52.440 --> 01:58.950
+Verificăm toate nodurile cele mai apropiate 1 3 4 5 6 și apoi începem cu 1.
+
+01:58.950 --> 02:00.010
+Are copii.
+
+02:00.080 --> 02:02.360
+Da 2 7 și 8.
+
+02:02.580 --> 02:04.240
+Și apoi vom merge mai departe în linia 3.
+
+02:04.280 --> 02:05.310
+Ce zici de 4.
+
+02:05.370 --> 02:06.220
+Ce zici de 5.
+
+02:06.330 --> 02:07.050
+Ce zici de 6.
+
+02:07.050 --> 02:08.420
+Nu au copii.
+
+02:09.330 --> 02:10.790
+OK hai să mergem.
+
+02:10.890 --> 02:19.100
+Continuați să mergeți în următoarea locație care are Shulgin și traversăm graficul după cum puteți vedea începând cu
+
+02:19.100 --> 02:27.230
+cei mai apropiați vecini și apoi mergând mai departe și mai departe cu o căutare în profunzime.
+
+02:27.530 --> 02:30.030
+Să spunem că începem de la zero.
+
+02:31.260 --> 02:43.980
+Și am lovit merge mergem la una apoi la 7 și apoi vom continua să mergem mai adânc 8.
+
+02:44.180 --> 02:47.350
+Vom merge la nouă și apoi la 10.
+
+02:47.360 --> 02:48.970
+Nu mai există noduri.
+
+02:49.040 --> 02:58.590
+Deci, vom merge tot drumul înapoi și du-te la următorul și lista care este 3 și 4 apoi 5 și 6.
+
+02:58.640 --> 03:07.010
+Deci, doar dacă te uiți la asta, s-ar putea să vezi ce am vrut să spun când ți-am dat informațiile de la începutul
+
+03:07.070 --> 03:13.430
+acestei secțiuni, care este la prima căutare, este de obicei bună pentru calea cea mai scurtă.
+
+03:13.580 --> 03:16.880
+Asta e cel mai apropiat de nodul nostru.
+
+03:16.910 --> 03:19.890
+Care sunt cele mai legate de articole pe Amazon.
+
+03:20.890 --> 03:28.600
+Cine sunt prietenii noștri cei mai apropiați pe Facebook sau cele mai apropiate conexiuni pe prima legătură în legătură directă cu adâncimea, care
+
+03:29.200 --> 03:32.620
+este foarte bună pentru a vedea dacă există ceva.
+
+03:34.800 --> 03:42.430
+Cu ajutorul căutării deaferi, putem ajunge într-un grafic destul de rapid, apoi respirație.
+
+03:42.450 --> 03:47.040
+Prima căutare care ar putea costa un pic de memorie suplimentară.
+
+03:47.060 --> 03:52.150
+Să vorbim despre acești doi algoritmi mai detaliat când vine vorba de grafice.

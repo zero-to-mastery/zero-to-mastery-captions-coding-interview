@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.320 --> 00:02.350
+In regula.
+
+00:02.370 --> 00:09.140
+Așadar, avem o idee despre cum să ne creștem procentul de șanse de a obține un interviu.
+
+00:09.150 --> 00:16.020
+De asemenea, am aflat despre notația Big-O și cum o putem folosi pentru a ne uita la codul nostru și pentru a analiza
+
+00:16.020 --> 00:17.710
+dacă este eficient sau nu.
+
+00:18.540 --> 00:23.740
+Folosind cunoștințele noastre până acum, trecem la un alt subiect important.
+
+00:23.910 --> 00:29.250
+La sfârșitul zilei, un interviu este o modalitate pentru compania să afle.
+
+00:29.430 --> 00:33.710
+Puteți rezolva o problemă pe care compania sau angajatorul o are.
+
+00:33.780 --> 00:40.680
+Pentru că dacă reușești să-ți rezolvi problemele, atunci ești valoros și le vei aduce
+
+00:40.680 --> 00:44.920
+mai multă valoare decât salariul pe care-l plătesc.
+
+00:44.940 --> 00:49.760
+Acesta este un interviu tehnic care încearcă să răspundă.
+
+00:49.780 --> 00:55.050
+Acum putem fi inteligenți și strategici în ceea ce privește modul în care aplicăm și modul în care aplicăm unei companii.
+
+00:55.120 --> 00:57.630
+Și am aflat despre asta în secțiunile anterioare.
+
+00:57.880 --> 01:00.140
+Dar aici vine marele provocare.
+
+01:00.190 --> 01:01.990
+Ai un interviu.
+
+01:02.180 --> 01:06.330
+Ce faceți în următoarele două secțiuni.
+
+01:06.330 --> 01:11.750
+Vom aborda această întrebare și vă vom pregăti cât mai bine pentru interviul de codificare.
+
+01:12.000 --> 01:13.860
+Și vom deveni foarte tehnici.
+
+01:13.860 --> 01:18.290
+Știu că pînă acum nu am văzut prea multe coduri, dar vom intra în
+
+01:18.300 --> 01:20.120
+detaliile aspre pe următoarele secțiuni.
+
+01:20.280 --> 01:27.090
+Dar înainte de a ne scufunda în structura și algoritmul de date de codificare a datelor și
+
+01:27.300 --> 01:37.570
+toate aceste detalii de codificare FAAN trebuie să înțelegem mai întâi acest principiu cum să rezolvăm problemele pe care le vedeți dacă știm fiecare algoritm din
+
+01:37.630 --> 01:44.300
+lume în interiorul și în afara cunoașteți toate structurile de date cel mai bun coder din
+
+01:44.300 --> 01:44.960
+lume.
+
+01:45.170 --> 01:49.740
+Ei bine, nu garantează că veți reuși într-un interviu tehnic.
+
+01:50.680 --> 01:56.860
+Această secțiune este menită să vă pregătească astfel încât să aveți fundația stabilită astfel încât după aceea
+
+01:56.860 --> 02:02.920
+tot ce trebuie să reușiți în interviul tehnic este aspectele actuale de codificare a întrebărilor.
+
+02:02.920 --> 02:08.470
+Vedeți că nu este cel mai inteligent intervievator care este angajat de cele mai
+
+02:08.470 --> 02:14.300
+multe ori intervievatorul care este capabil să răspundă la această întrebare fundamentală, veți rezolva problema companiei.
+
+02:15.300 --> 02:21.960
+Dacă sunteți un geniu dar nu puteți vorbi cu persoane pe care nu le faceți bine altora sau dacă scrieți un
+
+02:21.960 --> 02:29.000
+cod urât pe care oamenii nu îl înțeleg sau nu puteți comunica o soluție la o problemă atunci nu veți obține un serviciu.
+
+02:29.520 --> 02:35.880
+Vedeți că nu este neapărat soluția la o problemă într-un interviu de codificare, este vorba de
+
+02:35.880 --> 02:42.990
+procesul de gândire și de cunoașterea compromisurilor între structurile de date și algoritmii de complexitate a spațiului și timpului.
+
+02:42.990 --> 02:46.520
+La fel ca în codarea vieții reale, nu memorați lucrurile.
+
+02:46.680 --> 02:52.050
+Trebuie să înțelegeți profund înțelegerea compromisurilor.
+
+02:52.050 --> 02:53.660
+Deci asta facem aici.
+
+02:53.670 --> 02:59.040
+Știu că durez mult pentru a ajunge la punctele mele, dar încercăm să construim fundamentele înainte de
+
+02:59.040 --> 03:03.050
+a ne scufunda cu adevărat, pentru a înțelege motivul fiecărui lucru.
+
+03:03.330 --> 03:10.110
+Construim această fundație, înțelegând mai întâi marele O pe care l-am făcut în secțiunea anterioară și
+
+03:10.560 --> 03:14.000
+apoi învățând cum să rezolvăm aceste probleme.
+
+03:14.400 --> 03:21.510
+În această secțiune, vă voi arăta pas cu pas ce trebuie să facem pentru a rezolva problemele într-un mod care într-adevăr
+
+03:21.510 --> 03:25.940
+îi plac companiile, astfel încât să reușiți în acest interviu de codificare.
+
+03:26.010 --> 03:33.210
+Vom analiza câteva exemple de interviuri de codificare de la Google și vom vedea ce au făcut și care este
+
+03:33.210 --> 03:36.120
+procesul ideal pentru a asculta acest interviu.
+
+03:36.740 --> 03:43.550
+Deci, odată ce avem aceste fundații, putem folosi structuri de date și algoritmi pentru a ne rezolva problemele, deoarece
+
+03:44.300 --> 03:50.440
+interviul nu are legătură cu capacitatea dvs. de memorare a structurilor de date și a algoritmilor.
+
+03:50.570 --> 03:57.830
+Cei mai mulți oameni fac această greșeală și intervievatorii pot detecta imediat cine știe de fapt aceste lucruri față de
+
+03:57.890 --> 04:01.670
+memorarea lor doar cu o săptămână înainte de interviu.
+
+04:01.760 --> 04:08.720
+Deci, cum vă puteți asculta interviul de codificare în această secțiune, vom vorbi despre interviurile tehnice și
+
+04:08.990 --> 04:11.300
+cum să reușim în ele.
+
+04:11.360 --> 04:17.060
+Îți voi arăta cum arată un interviu de succes la Google și apoi sparge totul.
+
+04:17.060 --> 04:19.790
+Pas cu pas, de ce trebuie să faceți.
+
+04:19.820 --> 04:25.340
+De asemenea, vă voi oferi o foaie ieftină de înșelat pentru a rezuma totul în această secțiune, astfel încât să
+
+04:25.400 --> 04:27.480
+puteți vedea întotdeauna înainte de un interviu.
+
+04:28.300 --> 04:34.690
+În final, vom rezolva o problemă de codare pe noi înșine ca și cum ați fi într-un interviu și vom analiza
+
+04:34.750 --> 04:36.520
+diferite soluții la această problemă.
+
+04:36.610 --> 04:42.210
+Bazându-ne pe ceea ce am învățat până acum, vom încerca să găsim cel mai bun mod
+
+04:42.520 --> 04:48.640
+de a rezolva problema, dar și să analizăm diferite soluții big-O atunci când vine vorba de spațiu și timp.
+
+04:48.850 --> 04:52.440
+Până la sfârșitul acestei secțiuni vei avea un moment mare de aha.
+
+04:52.600 --> 04:55.780
+Garantează-i de unde vom lua tot ce am învățat.
+
+04:55.780 --> 05:02.540
+Până în prezent, în structurile noastre de date și în secțiunile de algoritmi pentru a înțelege cu adevărat compromisurile, să
+
+05:02.550 --> 05:03.010
+începem.
+
+05:03.010 --> 05:03.370
+Shelly.

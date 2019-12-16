@@ -1,0 +1,682 @@
+WEBVTT
+
+00:01.440 --> 00:08.670
+Bentornato a questo punto dovresti avere familiarità con come dovrebbe essere una tipica intervista di codifica di
+
+00:08.670 --> 00:14.500
+successo, in particolare su come risolvere un problema di fronte a un intervistatore.
+
+00:14.500 --> 00:17.010
+E faremo un piccolo esercizio divertente qui.
+
+00:17.190 --> 00:25.860
+Un intervistatore ci ha appena fatto una domanda e questa è la domanda qui data alla matrice di creare
+
+00:26.080 --> 00:34.160
+una funzione che consente all'utente di sapere vero o falso se questi due array contengono elementi comuni.
+
+00:34.250 --> 00:42.860
+Ad esempio, se dovessimo cancellare il primo anno contenente un b c x e l'altro Z Y e I
+
+00:42.860 --> 00:48.600
+restituiremmo falso perché non c'è nulla di comune tra questi due cancelli.
+
+00:48.620 --> 00:58.960
+Tuttavia, in questo esempio, un array dell'array contiene sia X sia perché hanno un oggetto comune
+
+00:58.960 --> 01:02.220
+che dovrebbe restituire true.
+
+01:02.260 --> 01:05.160
+Quindi un intervistatore ti ha appena fatto questa domanda.
+
+01:05.980 --> 01:07.840
+Come andremo a risolverlo.
+
+01:07.840 --> 01:13.550
+Bene, andiamo passo dopo passo attraverso il nostro piccolino.
+
+01:13.630 --> 01:19.390
+Quando l'intervistatore dice la domanda, annota i punti chiave in alto.
+
+01:19.630 --> 01:21.700
+Assicurati di avere tutti i dettagli.
+
+01:21.700 --> 01:23.980
+Mostra come sei organizzato.
+
+01:24.410 --> 01:28.450
+Beh, in questo caso ho fatto questo per te qui.
+
+01:28.450 --> 01:36.940
+Idealmente lo scriverai mentre stai programmando e assicurati di mostrare l'intervistatore.
+
+01:36.940 --> 01:37.510
+OK.
+
+01:37.840 --> 01:41.530
+Se avessi questo esempio dovrebbe restituire false.
+
+01:41.590 --> 01:46.350
+Se avessi questo esempio, dovrebbe restituire true.
+
+01:46.390 --> 01:52.990
+Ora diciamo che l'intervistatore ti ha dato solo questi punti e nessun'altra informazione almeno ora
+
+01:52.990 --> 01:59.930
+hai un'idea di quali problemi devono essere esaminati e se vogliamo restituire il falso o il vero.
+
+02:00.030 --> 02:03.480
+Ma abbiamo due cose che vogliamo fare con la nostra funzione.
+
+02:03.480 --> 02:07.070
+Uno è che abbiamo
+
+02:10.710 --> 02:17.250
+due parametri e questa funzione restituirà true o false.
+
+02:17.270 --> 02:18.600
+Ora nel secondo punto.
+
+02:18.800 --> 02:24.500
+Assicurati di ricontrollare quali sono gli input quali sono le uscite che abbiamo già
+
+02:24.500 --> 02:31.730
+fatto e abbiamo confermato con il nostro intervistatore che abbiamo due input che sono una gara che possiamo anche
+
+02:31.730 --> 02:32.810
+chiedere all'intervistatore.
+
+02:32.930 --> 02:34.540
+Saranno sempre un rilancio.
+
+02:34.550 --> 02:40.760
+È possibile che l'input non sia una gara, forse un oggetto, magari una stringa, e possiamo confermare con l'infortunio
+
+02:40.760 --> 02:42.670
+o quali sono questi casi.
+
+02:42.860 --> 02:47.780
+Nel nostro caso diciamo che l'anno dice che questi due parametri saranno sempre una gara
+
+02:48.830 --> 02:51.520
+e vogliamo sempre ritornare vero o falso.
+
+02:51.990 --> 02:56.690
+E il numero due è davvero importante qui perché non vogliamo mai passare direttamente alla programmazione.
+
+02:57.050 --> 03:01.310
+Anche se pensi di conoscere la risposta o di aver visto questo problema
+
+03:02.000 --> 03:08.540
+prima di sapere esattamente cosa fare, non passare direttamente alla codifica, per prima cosa spiega il tuo approccio come sto
+
+03:08.720 --> 03:15.020
+facendo qui, discuterne perché se ci sono problemi con il tuo avvicinati o con la tua comprensione della domanda
+
+03:15.020 --> 03:20.990
+che il tuo intervistatore sta per segnalarti spesso qui prima di entrare direttamente nel tuo codice e dire
+
+03:20.990 --> 03:22.740
+che non è sbagliato.
+
+03:23.150 --> 03:26.700
+In questo modo sia tu che l'intervistatore sai esattamente quali sono i passaggi.
+
+03:26.760 --> 03:28.250
+Devi seguire.
+
+03:28.250 --> 03:30.320
+Ora diamo un'occhiata al punto numero tre qui.
+
+03:30.320 --> 03:32.910
+Qual è il valore più importante o il problema.
+
+03:33.020 --> 03:37.030
+Disponi di spazio e memoria per eseguire questa funzione.
+
+03:37.070 --> 03:39.330
+Qual è l'obiettivo principale ora.
+
+03:39.380 --> 03:45.620
+Poiché questa è una semplice domanda, potremmo voler chiedere all'intervistatore quanto sarà
+
+03:45.620 --> 03:47.230
+grande questo array.
+
+03:47.340 --> 03:54.830
+Perché se l'intervistatore dice che l'array non sarà mai più di 5 item allora forse non dovremo preoccuparci
+
+03:54.830 --> 04:01.820
+di big-O o complessità temporale o complessità dello spazio tanto e poi puoi chiedere all'intervistatore il
+
+04:01.820 --> 04:07.970
+nostro obiettivo qui per essere il più efficiente possibile con la nostra funzione.
+
+04:07.970 --> 04:12.040
+Ciò che è più importante per noi è la complessità del tempo più importante.
+
+04:12.050 --> 04:14.790
+Oppure la complessità dello spazio è più importante.
+
+04:14.900 --> 04:20.210
+Forse l'intervistatore potrebbe dirti che vogliamo solo la funzione più efficiente che
+
+04:20.210 --> 04:24.940
+possono venire supponendo che l'array possa diventare molto grande.
+
+04:24.950 --> 04:30.830
+Quindi diciamo che qui abbiamo due array di parametri che non hanno limiti di dimensione.
+
+04:30.830 --> 04:34.270
+Quindi questi array possono diventare veramente grandi.
+
+04:34.420 --> 04:38.860
+E in termini di ritorno vero o falso è tutto ciò che vogliamo, vogliamo solo un ritorno booleano.
+
+04:39.280 --> 04:45.820
+Ora numero quattro Non essere noioso quando fai troppe domande e arriviamo a quel territorio
+
+04:45.820 --> 04:51.820
+in cui abbiamo posto molte domande all'intervistatore e abbiamo un'idea di cosa vogliamo
+
+04:51.820 --> 04:52.740
+fare.
+
+04:52.870 --> 04:56.520
+Possiamo continuare a fare domande, ma ricorda che di solito hai un limite di tempo.
+
+04:56.530 --> 05:03.940
+Non vuoi continuare a preoccuparti di loro e conoscerli e basta chiedere loro tutte queste piccole piccole domande prima di
+
+05:04.510 --> 05:05.700
+iniziare a programmare.
+
+05:05.740 --> 05:06.890
+Tieni a mente il tempo.
+
+05:07.000 --> 05:12.790
+E penso che a questo punto abbiamo un'informazione che possiamo andare avanti con la nostra assunzione per iniziare a risolvere
+
+05:12.790 --> 05:13.430
+il problema.
+
+05:14.230 --> 05:22.440
+Quindi il numero cinque inizia con l'approccio ingenuo della forza bruta, la prima cosa che viene in mente.
+
+05:22.540 --> 05:28.160
+Dimostra che sei in grado di pensare bene e in modo critico e non hai nemmeno bisogno di scrivere questo codice.
+
+05:28.210 --> 05:30.040
+Parla solo di questo.
+
+05:30.550 --> 05:34.630
+Questo è sempre un caso in cui un intervistatore pone la tua domanda.
+
+05:34.630 --> 05:41.410
+Di solito hanno una soluzione facile che chiamiamo la forza bruta che non è la più efficiente ma di solito
+
+05:41.410 --> 05:45.080
+è la più semplice o la prima che viene fuori.
+
+05:46.080 --> 05:54.750
+Quindi nel nostro caso se guardiamo a questo durante un'intervista con un limite di tempo, potresti dire che questo sembra un
+
+05:54.780 --> 06:04.980
+ciclo annidato dove stiamo confrontando a con Z e poi a con Y poi a con I e poi andiamo a stare con ZB con
+
+06:04.980 --> 06:09.360
+YB con I e poi così via e così via.
+
+06:09.510 --> 06:17.130
+Quindi immediatamente sembra che stiamo confrontando due aree diverse e ne avremo due per loop
+
+06:17.340 --> 06:25.230
+uno innestato uno sull'altro e subito sappiamo che questo è un O grande di cui
+
+06:25.620 --> 06:29.330
+abbiamo parlato di O e square.
+
+06:29.850 --> 06:35.850
+Molto probabilmente durante un'intervista annidato per loop è qualcosa che vogliamo evitare di dire all'intervistatore
+
+06:35.850 --> 06:41.700
+questa soluzione, anche se non è la soluzione migliore che già mostra che stai pensando
+
+06:41.700 --> 06:43.370
+chiaramente al problema.
+
+06:43.680 --> 06:47.140
+E ti dà anche un punto da dove migliorare da ora.
+
+06:47.250 --> 06:52.280
+Non devi necessariamente codificare questa parte e di solito è sufficiente solo per descrivere come funziona.
+
+06:52.290 --> 06:58.760
+Un po 'come l'ho appena fatto ma, a seconda del tempo che si impiega, si può o non si vuole programmare anche questo.
+
+06:58.860 --> 07:04.920
+La cosa importante è che tu lasci che l'intervistatore sappia che questa è la forza bruta o
+
+07:04.920 --> 07:11.520
+la soluzione facile e ingenua che potrebbe non essere la più efficiente, almeno così hai la risposta giusta, quindi
+
+07:11.520 --> 07:13.540
+non hai più una risposta.
+
+07:15.560 --> 07:20.270
+Il numero sei qui dice di dirgli perché questo approccio non è il migliore.
+
+07:20.330 --> 07:28.760
+Quindi nel nostro caso abbiamo detto che il codice potrebbe non essere efficiente o che potremmo non aver letto un codice
+
+07:29.240 --> 07:34.070
+che sarà molto complicato e difficile da leggere per altri sviluppatori.
+
+07:35.070 --> 07:41.590
+Con la mia dimostrazione perché voglio solo pensare a questo e quindi posso essere più chiaro del perché questo è.
+
+07:41.610 --> 07:42.780
+Oh e al quadrato.
+
+07:42.780 --> 07:46.490
+Ho intenzione di codificare e molto probabilmente non lo faresti in un'intervista.
+
+07:46.500 --> 07:50.640
+Sto solo andando a codificare la soluzione di forza bruta in modo da poter vedere cosa intendo.
+
+07:50.790 --> 08:02.170
+Avrò una funzione e questa funzione dirà che contiene elementi comuni e che riceverà
+
+08:02.170 --> 08:09.140
+per cancellare l'array 1 e l'array 2.
+
+08:09.160 --> 08:14.030
+Ora stiamo per prendere il primo array e fare un ciclo for.
+
+08:14.090 --> 08:20.310
+Quindi ho intenzione di dire per lasciare che whoops lasci che pi uguale a zero.
+
+08:21.650 --> 08:27.120
+E diremo che finché io sono inferiore, la matrice vuole la lunghezza.
+
+08:27.140 --> 08:32.070
+Questa è la discarica, il primo array che incrementeremo.
+
+08:32.540 --> 08:36.080
+E all'interno di questo ciclo avremo un ciclo for.
+
+08:36.080 --> 08:43.430
+Quindi nella prima volta andremo a prendere una dal primo array e lo confronteremo con
+
+08:43.430 --> 08:46.740
+il secondo array ZY e X.
+
+08:46.790 --> 08:51.860
+Quindi avremo un ciclo for qui e diremo che avremo la stessa cosa.
+
+08:51.920 --> 08:54.530
+In questo momento invece dirò J.
+
+08:55.390 --> 08:57.360
+Uguale a zero.
+
+08:58.030 --> 09:03.580
+E questo J fintanto che è più piccolo di Array a due punti.
+
+09:05.210 --> 09:09.900
+Aumenterà ogni volta che lo esamineremo.
+
+09:09.980 --> 09:14.020
+E finalmente qui dentro faremo un po 'di paragone.
+
+09:14.030 --> 09:20.930
+Stiamo andando a confrontare da a a z quindi a due Y poi a 2 x.
+
+09:21.080 --> 09:31.960
+Quindi, se vado qui e dico se array un indice di I così array uno all'indice di I.
+
+09:31.980 --> 09:35.240
+Quindi la prima volta che girerò sarà zero.
+
+09:35.280 --> 09:39.670
+Ciò significa che l'array 1 sta per contenere a.
+
+09:39.840 --> 09:46.500
+In realtà prendiamo questo in modo che possiamo vederlo meglio in alto qui.
+
+09:46.500 --> 09:55.130
+Dovrò correre qui e diremo quell'array di 0.
+
+09:55.130 --> 09:57.100
+La prima volta ne prenderà otto.
+
+09:57.470 --> 10:09.650
+E se questo è uguale all'array 2 a quello che J è J è l'indice dell'array 2.
+
+10:09.680 --> 10:12.270
+Quindi la prima volta verrà paragonata a Z.
+
+10:12.360 --> 10:18.680
+Quindi e Z e poi con questi incrementi si andrà a confrontare con ae y e quindi questo andrà
+
+10:18.710 --> 10:24.830
+ad incrementare il confronto con X e poi andremo al ciclo superiore di nuovo che mi viene incrementato.
+
+10:24.830 --> 10:27.010
+Quindi diventa 1 ora.
+
+10:27.080 --> 10:34.220
+Quindi inizieremo a confrontare B a Z B Y a X e poi C a Z C a C alto X e così via.
+
+10:34.550 --> 10:44.130
+Se questo è il caso e se questo è vero, vogliamo restituire true altrimenti se passiamo in rassegna questo e
+
+10:44.520 --> 10:51.210
+questo non corrisponde mai bene in quel caso possiamo semplicemente restituire false qui.
+
+10:53.030 --> 10:56.340
+Ora vediamo se questo funziona.
+
+10:56.540 --> 11:10.100
+Devo solo dire che contiene elementi comuni e lo daremo a un array di gara 1 e all'array due.
+
+11:10.350 --> 11:14.550
+Se esegui questo e rendiamolo un po 'più piccolo in
+
+11:17.500 --> 11:28.240
+modo che tu possa vedere se lo eseguo, divento vero perché c'è un elemento comune di X se cambio questo, ora ho R e clicco su
+
+11:28.240 --> 11:29.710
+run ottengo false.
+
+11:29.850 --> 11:38.640
+Di nuovo, se cambiamo questo aspetto in un clic e eseguiamo, diventiamo veri perché una partita e una partita guardando questo
+
+11:38.640 --> 11:46.050
+e guardiamo il numero 6 qui è che rendiamo questo schermo un po 'più organizzato in modo
+
+11:46.050 --> 11:47.450
+da poterlo leggere.
+
+11:47.640 --> 11:51.550
+Il numero sei spiega loro perché questo approccio non è il migliore.
+
+11:51.570 --> 12:00.210
+Ora potreste non avere ancora il tempo di scrivere il codice, ma possiamo vedere che abbiamo due loop per uno uno dopo l'altro e perché ne abbiamo
+
+12:00.810 --> 12:07.650
+già parlato nel Big O O. S. sappiamo che abbiamo una
+
+12:07.860 --> 12:09.820
+grande fila.
+
+12:09.870 --> 12:19.050
+Quando si tratta di complessità temporale qui bene abbiamo un array a e un altro array.
+
+12:19.110 --> 12:21.500
+Quindi significa moltiplicare per B.
+
+12:21.720 --> 12:26.810
+Ancora una volta questo è un po 'un trucco perché questi due array possono essere di dimensioni diverse.
+
+12:26.940 --> 12:36.430
+Non possiamo semplicemente dire oh un quadrato perché questi due array possono avere di nuovo come ho detto diverse dimensioni.
+
+12:36.570 --> 12:42.480
+Quindi questo è un po 'un trucco ed è una buona cosa che lo abbiamo scritto perché ora lo vediamo invece di
+
+12:42.480 --> 12:43.460
+0 e quadrato.
+
+12:43.470 --> 12:52.440
+Questo è più simile a volte b se le dimensioni dell'array sono uguali a 0 e ai quadrati, quindi è
+
+12:52.440 --> 12:53.590
+piuttosto lento.
+
+12:55.220 --> 13:01.590
+Quindi il numero 7 cammina attraverso le tue cose comuni e vedi dove potresti essere in
+
+13:01.600 --> 13:08.490
+grado di rompere le cose e ti ricominci a colli di bottiglia come un lavoro quadrato o non necessario.
+
+13:08.490 --> 13:11.300
+Hai usato tutte le informazioni fornite dall'intervistatore.
+
+13:11.630 --> 13:13.350
+E così via e così via.
+
+13:13.400 --> 13:21.020
+Ora, osservando questo, posso dire che probabilmente potremmo fare meglio che tu non possa vedere subito una soluzione ed è perché hai
+
+13:21.410 --> 13:25.820
+bisogno di praticare alcuni di questi problemi per capire un modello comune.
+
+13:26.030 --> 13:32.180
+Ma uno dei modelli più comuni quando si parla di loop nidificati è che potresti essere in
+
+13:32.180 --> 13:38.630
+grado di usare qualcosa chiamato hash tables che ti porterà in javascript che vengono chiamati oggetti per accelerare
+
+13:38.630 --> 13:39.780
+le cose.
+
+13:39.800 --> 13:47.140
+C'è un modo per trasformare questa o più volte la complessità temporale in qualcosa di più veloce.
+
+13:48.270 --> 13:58.560
+Stiamo facendo un po 'di lavoro inutile dove continuiamo a fare il ciclo di Z A Y A e poi ci occupiamo di B Y B.
+
+13:58.830 --> 14:05.080
+E stiamo facendo questo confronto nello stesso lavoro più e più volte se avessimo una soluzione migliore.
+
+14:05.180 --> 14:07.230
+Ho intenzione di commentare questo per ora.
+
+14:08.960 --> 14:13.340
+E scorrere fino in fondo e non abbiamo più bisogno di questo.
+
+14:14.030 --> 14:15.370
+E prova una soluzione diversa.
+
+14:15.560 --> 14:18.310
+E porto qui l'array solo per poterlo vedere.
+
+14:23.170 --> 14:30.770
+Ora, prima di iniziare effettivamente la codifica, pensiamo a quali passi vogliamo prendere bene e se avessimo una
+
+14:30.770 --> 14:33.760
+funzione che prende il primo array.
+
+14:33.800 --> 14:43.880
+Quindi diciamo che l'array 1 sarà convertito in un oggetto e questo oggetto conterrà qualcosa come
+
+14:43.880 --> 14:46.580
+questo che tutti contengono.
+
+14:46.680 --> 14:50.770
+E assicuriamoci di combinarlo.
+
+14:50.870 --> 15:02.480
+Conterrà un vero uguaglianza quindi sarà vicino al vero C vicino al vero.
+
+15:02.730 --> 15:10.130
+E poi finalmente avrà X uguale al vero.
+
+15:10.150 --> 15:21.080
+Ora se creiamo un oggetto come questo possiamo ora usare questo oggetto senza un rate per dire semplicemente array 2.
+
+15:21.100 --> 15:27.050
+Possiamo controllare ogni elemento nell'array 2 su questo oggetto e vedere se esiste una proprietà.
+
+15:27.220 --> 15:38.410
+Idealmente possiamo fare qualcosa come array per indicizzare e vedere se questo è uguale a qualsiasi proprietà del punto dell'oggetto.
+
+15:38.860 --> 15:41.530
+OK, passiamo un'altra ora.
+
+15:41.550 --> 15:43.220
+Questo è un modello comune.
+
+15:43.240 --> 15:48.810
+Vedrai molto quando si tratta di migliorare la complessità del tempo, quindi se
+
+15:48.810 --> 15:51.600
+non lo capisci subito non stressarti.
+
+15:51.660 --> 15:56.430
+Questo è qualcosa che diventerà sempre più familiare a voi mentre facciamo più problemi.
+
+15:56.430 --> 16:03.500
+Ma se riesco a convertire il primo array in un oggetto che assomiglia a questo.
+
+16:03.860 --> 16:12.050
+Ora invece di dover eseguire il loop su entrambi gli array, posso semplicemente passare in rassegna il secondo array e verificare
+
+16:12.050 --> 16:17.150
+semplicemente se la proprietà Z esiste su questo oggetto che abbiamo creato.
+
+16:17.330 --> 16:18.830
+No, non lo è.
+
+16:18.830 --> 16:21.630
+La proprietà Y esiste sul Saray.
+
+16:21.680 --> 16:22.380
+No, non lo è.
+
+16:22.400 --> 16:26.940
+Esiste una proprietà su questo oggetto.
+
+16:27.110 --> 16:28.400
+Sì, lo fa.
+
+16:28.400 --> 16:34.700
+Ciò significa che ora abbiamo un elemento comune per mostrarti come funziona e perché questa
+
+16:34.700 --> 16:37.170
+soluzione sarebbe migliore della prima.
+
+16:37.310 --> 16:42.870
+Devo davvero iniziare a programmarlo, ma mentre passiamo attraverso il numero otto lo vediamo prima di iniziare la codifica.
+
+16:42.890 --> 16:51.550
+Vogliamo esaminare il tuo codice e scrivere i passaggi che intendi fare, quindi iniziamo a farlo.
+
+16:51.550 --> 16:57.510
+Devo dire che creeremo una nuova funzione che contiene elementi comuni.
+
+16:57.510 --> 17:03.640
+Questo lo aggiungerò perché è la nostra seconda funzione che prenderà in una
+
+17:03.670 --> 17:06.320
+matrice di uno e matrice.
+
+17:06.470 --> 17:12.130
+E ora questa funzione Facciamolo un po 'più piccolo, quindi sembra più bello.
+
+17:12.130 --> 17:13.290
+Ecco qua.
+
+17:13.360 --> 17:30.160
+Questa funzione dirà innanzitutto che desidero che tu faccia un ciclo attraverso il primo array e crei un oggetto dove
+
+17:30.910 --> 17:36.800
+le proprietà siano uguali agli elementi dell'array.
+
+17:39.470 --> 17:47.120
+E poi la seconda cosa sarà fare un
+
+17:49.580 --> 18:02.600
+ciclo attraverso il secondario e controllare se l'oggetto e il secondo array esistono sull'oggetto creato.
+
+18:02.600 --> 18:10.490
+Ora, prima ancora che iniziamo a scrivere questo codice, posso dire che avremo una performance migliore del
+
+18:10.610 --> 18:19.330
+primo Saray con una velocità di 0, perché quello che faremo è avere due cicli ma questi due circuiti
+
+18:19.330 --> 18:21.990
+sono andando ad essere annidato.
+
+18:22.030 --> 18:30.030
+Ricorda che nella prima soluzione avevamo annidato loop in questa soluzione.
+
+18:30.290 --> 18:35.040
+E la nostra seconda soluzione dovremo separare per cicli.
+
+18:35.460 --> 18:46.180
+E se ricordi la nostra grande analisi di O quando eseguiamo passi uno dopo l'altro invece di nidificare il
+
+18:46.180 --> 19:00.140
+grande O diventa un plus b, abbiamo una potenziale soluzione che qui ha una complessità temporale di un vantaggio b invece di una velocità
+
+19:00.260 --> 19:01.420
+temporale.
+
+19:01.610 --> 19:03.170
+Questi sono grandi risparmi.
+
+19:03.290 --> 19:07.790
+Dobbiamo iniziare effettivamente a scrivere il codice per vedere se possiamo risolvere questo problema.
+
+19:08.060 --> 19:09.530
+E perché questo video sta diventando lungo.
+
+19:09.560 --> 19:11.430
+Lo faremo nel prossimo video.
+
+19:11.810 --> 19:18.080
+Ma voglio mostrarti proprio qui quello che abbiamo appena fatto e anche se non abbiamo fornito
+
+19:18.080 --> 19:22.310
+una soluzione chiara abbiamo parlato di come risolvere il problema.
+
+19:22.310 --> 19:25.190
+L'intervistatore vede come pensiamo.
+
+19:25.220 --> 19:34.130
+CS quali passi prendiamo in CS che stiamo prendendo decisioni intelligenti per passare dalla comprensione del problema
+
+19:34.130 --> 19:38.390
+alla soluzione del problema in modo ingenuo.
+
+19:38.390 --> 19:45.410
+Capire perché questo potrebbe non essere il modo migliore e quindi iniziare a pensare a possibili soluzioni.
+
+19:45.410 --> 19:52.340
+E la bellezza di questo approccio è che non importa se otteniamo questa parte corretta forse le nostre supposizioni
+
+19:52.340 --> 19:54.560
+sono sbagliate e non possiamo farlo.
+
+19:54.560 --> 20:01.770
+Stiamo mostrando all'intervistatore che stiamo pensando a un problema e stiamo facendo dei piccoli passi logici verso
+
+20:01.860 --> 20:03.110
+una soluzione.
+
+20:04.370 --> 20:09.360
+E questo è molto meglio che semplicemente programmare subito una soluzione.
+
+20:09.380 --> 20:15.200
+E vedi se hai capito bene o sbagliato un intervistatore avrà una buona comprensione delle tue capacità e del tuo modo
+
+20:15.290 --> 20:16.800
+di pensare in questo modo.
+
+20:16.820 --> 20:20.100
+E questi sono il tipo di persone che vogliono assumere.
+
+20:20.390 --> 20:26.150
+Quindi nel prossimo video finiamo questo problema, diciamocelo e vediamo se possiamo rendere questa
+
+20:26.300 --> 20:30.350
+soluzione più efficiente convertendola in 0 A più B.
+
+20:30.350 --> 20:31.730
+Vedrò nel prossimo.
+
+20:31.920 --> 20:32.210
+Buh-Bye.

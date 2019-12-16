@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.640 --> 00:09.130
+Selamat datang kembali, mari kita konversi struktur data tumpukan kita untuk menggunakan array dan ini akan menjadi cukup sederhana.
+
+00:09.370 --> 00:17.770
+Yang akan kita lakukan adalah menghapus semua ini di konstruktor dan membuat array yang disimpan ini sama dengan
+
+00:17.770 --> 00:19.170
+array kosong.
+
+00:19.240 --> 00:25.700
+Kami tidak memerlukan properti panjang karena itu dibangun dengan array dan Javascript.
+
+00:25.780 --> 00:31.180
+Jelas ini mungkin berbeda untuk berbagai bahasa pemrograman tetapi untuk saat ini kami memiliki ini tersedia bagi
+
+00:31.180 --> 00:34.440
+kami dalam bahasa kami yang kami gunakan saat ini.
+
+00:34.450 --> 00:35.890
+Jadi begitulah.
+
+00:35.950 --> 00:37.960
+Itu konstruktor kami.
+
+00:38.010 --> 00:40.340
+Bagaimana dengan oli puncak.
+
+00:40.410 --> 00:43.800
+Puncak berarti kita ingin melihat bagian paling akhir dari array.
+
+00:43.980 --> 00:47.890
+Ingat dengan tumpukan itu yang terakhir keluar pertama.
+
+00:47.910 --> 00:50.580
+Jadi, ketika kita melakukan puncak kita ingin melihat hal yang paling atas.
+
+00:50.580 --> 00:59.100
+Hal terbaru yang kami tambahkan dalam kasus kami, kami cukup mengatakan dot array ini dan kami akan
+
+00:59.100 --> 01:06.750
+mengakses array itu dengan BRAC dan notasi dan itu akan mengatakan dot array dot lenth
+
+01:06.750 --> 01:14.550
+ini yang merupakan panjang sewa array. minus satu karena kami minus satu karena indeks kami mulai
+
+01:14.700 --> 01:20.820
+dari nol hingga 1 dibandingkan panjang yang dimulai dari 1 hingga 2.
+
+01:20.840 --> 01:21.440
+Itu dia.
+
+01:21.440 --> 01:23.420
+Kami telah menerapkan puncak.
+
+01:23.570 --> 01:33.820
+Mari kita komentari ini dan pastikan bahwa puncak bekerja dari ini kita tidak terdefinisi.
+
+01:34.230 --> 01:40.000
+Yah karena tidak ada apa-apa dalam array dan kita mungkin bisa memberikan kesalahan yang lebih baik jika kita ingin mendengar
+
+01:40.040 --> 01:41.990
+Tetapi untuk sekarang saya pikir ini baik-baik saja.
+
+01:43.390 --> 01:47.340
+Bagaimana dengan push layak untuk didorong.
+
+01:47.450 --> 01:59.400
+Kita bisa menghapus semua kode ini dan hanya mengatakan ini dot push dot push value.
+
+01:59.520 --> 02:00.670
+Betapa baiknya itu.
+
+02:00.680 --> 02:03.510
+Sekarang sudah bagus dan bersih sudah terpasang dengan balapan.
+
+02:03.540 --> 02:05.660
+Kami hanya bisa menggunakan push.
+
+02:05.690 --> 02:16.070
+Jadi jika saya melakukan push stack dan saya klik run ketika mengintip di sini memberi saya Google tetapi menjalankan run legist hanya saya
+
+02:16.460 --> 02:20.670
+mendapatkan stack yang memiliki array dengan Google di dalamnya.
+
+02:20.720 --> 02:30.620
+Jika saya mendorong Anda, Dammy saya telah menambahkan Anda Dammy jika saya mendorong kabel ini, saya telah menambahkan kuartal ini dan jika saya
+
+02:30.620 --> 02:36.450
+mengintip di sini saya harus mendapatkan Dischord kembali karena itu entri terbaru.
+
+02:36.450 --> 02:37.510
+Ini dia.
+
+02:37.560 --> 02:39.610
+Betapa sederhananya itu.
+
+02:39.620 --> 02:43.520
+Itu artinya pop juga akan menjadi sangat sederhana.
+
+02:44.400 --> 02:47.730
+Benar-benar terasa enak menghapus kode bukan.
+
+02:47.910 --> 02:55.620
+Apa yang kami lakukan adalah dot array ini, dot pop yang sudah ada dalam javascript.
+
+02:55.620 --> 03:00.090
+Kami tidak bisa mengembalikan ini jika kami mau.
+
+03:00.130 --> 03:04.190
+Jika saya klik run tetapi harus menjalankan pop di sini mari kita jalankan
+
+03:04.360 --> 03:09.740
+Pop yang menghilangkan perselisihan dari daftar.
+
+03:09.860 --> 03:20.920
+Jika saya menjalankan pop lagi saya mendapatkan Google dan jika saya pop ini dan saya klik run kita memiliki array kosong seperti itu.
+
+03:20.970 --> 03:22.460
+Bagus dan sederhana.
+
+03:22.480 --> 03:26.910
+Kita harus menggunakan kelas simpul dan itu cukup bagus.
+
+03:27.860 --> 03:32.270
+Jadi Anda bisa menggunakan array sebagai tumpukan dengan mudah.
+
+03:32.270 --> 03:39.080
+Dan kita sudah membahas pro dan kontra dalam menggunakan daftar tertaut versus menghapus salah satu hal menyenangkan
+
+03:39.080 --> 03:45.770
+tentang menggunakan array adalah sementara array setidaknya dalam javascript sudah bertindak seperti tumpukan dan itu membuat
+
+03:45.770 --> 03:50.060
+hal-hal yang sangat sederhana bagi kita tetapi cukup tentang tumpukan.
+
+03:50.230 --> 03:51.790
+Mari kita implementasikan sendiri.
+
+03:51.860 --> 03:55.380
+T Kali ini saya akan melihat yang berikutnya.

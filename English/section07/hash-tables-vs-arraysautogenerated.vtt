@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.060 --> 00:09.560
+Welcome back why hash tables hash tables are great when you want quick access to certain values.
+
+00:09.580 --> 00:14.930
+Remember that searching through an array for an item takes a really long time.
+
+00:14.930 --> 00:21.380
+We have to loop through every item and see if a certain string or a certain number is in an array with
+
+00:21.380 --> 00:22.300
+hash tables.
+
+00:22.310 --> 00:24.950
+That's really really fast.
+
+00:25.100 --> 00:29.410
+And this is why you see hash tables in places like databases right.
+
+00:29.450 --> 00:33.500
+We want to search for something in a database and it gives it back to us right away.
+
+00:34.360 --> 00:44.620
+Similarly inserting items in and a hash table unlike an array that might shift indexes is typically
+
+00:45.020 --> 00:46.020
+of one.
+
+00:46.450 --> 00:50.260
+You just simply have to hash and create the key.
+
+00:50.260 --> 00:55.450
+Although we have those cases of collision most of the time that's something that we don't need to worry
+
+00:55.450 --> 00:56.170
+about too much.
+
+00:56.170 --> 00:59.940
+And we can assume and answered of all one.
+
+01:00.120 --> 01:05.430
+Then there's other aspects that are quite similar between the two arrays let you quickly look up the
+
+01:05.430 --> 01:12.870
+value for a given key keys are called indexes in an array and we don't get to pick them it's always
+
+01:12.870 --> 01:21.170
+0 1 2 3 in hash tables we can pick them so hash tables is kind of like a hack on top of an array to
+
+01:21.170 --> 01:31.860
+let us use flexible keys instead of being stuck with 0 1 2 3 a problem of hash tables that we discussed
+
+01:32.010 --> 01:36.120
+was the idea of no concept of order in arrays.
+
+01:36.120 --> 01:40.810
+Each item was placed next to each other on a shelf in memory.
+
+01:40.930 --> 01:43.800
+Hash tables are kind of placed all over the place.
+
+01:45.560 --> 01:51.590
+Now that we have an idea of the differences between the two I think it's time for us to actually work
+
+01:51.590 --> 01:58.490
+on some exercises and interview questions that we'll use hash tables and their answers.
+
+01:58.520 --> 01:59.350
+I'll see on that one.

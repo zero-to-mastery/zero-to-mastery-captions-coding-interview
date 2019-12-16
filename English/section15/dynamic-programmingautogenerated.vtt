@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.900 --> 00:08.530
+Walk back if we take a look at our Fibonacci function that we created this is what we're doing.
+
+00:09.000 --> 00:17.670
+If I was looking for a Fibonacci number of 7 using recursion Well we'd have to run all these calculations
+
+00:17.670 --> 00:21.030
+recursively and all of this as well.
+
+00:21.360 --> 00:25.010
+And you can see here what's happening right.
+
+00:25.020 --> 00:28.430
+Look where we're calculating Fibonacci of one.
+
+00:28.710 --> 00:34.970
+We have this function running one two three four five times calculating the same thing.
+
+00:35.060 --> 00:37.300
+What about Fibonacci of two.
+
+00:37.460 --> 00:45.630
+Again look at all these calculations that are being repeated what about 3 and you see here where the
+
+00:45.630 --> 00:53.700
+triangles are overlapping where we're calculating 3 over where we calculated fit 2 and Fibonacci of
+
+00:53.700 --> 00:54.870
+1 as well.
+
+00:54.870 --> 01:04.660
+And then if we keep going to pure Bonacci number four there again repeated tasks triangles over triangles
+
+01:04.750 --> 01:07.910
+and then finally Fibonacci of six or five.
+
+01:08.080 --> 01:14.320
+We see that once again we just have more repeated calculations.
+
+01:14.320 --> 01:16.640
+This does not look efficient does it.
+
+01:16.780 --> 01:18.720
+And that's what we saw in the previous video.
+
+01:18.730 --> 01:21.340
+This is what we're doing with our calculations.
+
+01:21.910 --> 01:30.220
+But if you notice here with dynamic programming we can optimize this and use memoization to say hey
+
+01:31.570 --> 01:42.260
+calculate Fibonacci of seven go recursively down to 6 2 5 2 4 2 3 2 2 and also 2 1.
+
+01:42.390 --> 01:51.030
+And now as we go back remember as we start to return the statements and we go to five of two or five
+
+01:51.030 --> 01:59.790
+or three or four before because we've already calculated these numbers we can actually return a memorized
+
+01:59.910 --> 02:09.200
+version so that all these calculations are no longer needed.
+
+02:09.310 --> 02:10.200
+Why.
+
+02:10.240 --> 02:19.050
+Because two three four and five every time we ask for it in this case we've already calculated on the
+
+02:19.050 --> 02:27.510
+left hand side so we can use the cached or memorized version so that these we can just ask the memorized
+
+02:27.510 --> 02:29.230
+function to just give for us.
+
+02:29.250 --> 02:36.660
+We avoid all these calculations look so simple that looks and I'm going to show you in the next video
+
+02:36.660 --> 02:40.500
+how we actually implement this with the Fibonacci sequence.
+
+02:40.860 --> 02:46.860
+But to demonstrate to you that this is not only just this problem that we can use dynamic programming
+
+02:46.860 --> 02:47.520
+on.
+
+02:47.640 --> 02:50.270
+I have a set of rules.
+
+02:50.430 --> 02:57.280
+One is that you can't think of dynamic programming as combining divide and conquer.
+
+02:57.300 --> 03:06.450
+What we did with the tree like structure of Bonacci number where we use recursion and using reuse that
+
+03:06.450 --> 03:14.920
+is cashing in memoization with recursion to get savings in performance and use dynamic programming.
+
+03:15.630 --> 03:23.850
+And these are the steps that are like to follow to see if a problem can use dynamic programming to optimize
+
+03:23.850 --> 03:24.810
+it.
+
+03:24.840 --> 03:32.520
+We first ask can the problem be divided into subproblems that is.
+
+03:32.590 --> 03:39.160
+Is it a tree like structure where each problem is broken down into smaller problems into smaller problems
+
+03:39.160 --> 03:44.600
+and do small problems which usually indicates a recursive solution.
+
+03:45.010 --> 03:51.080
+Again something that we're very familiar with from our previous videos and now the third question is
+
+03:51.080 --> 03:58.190
+really important because you can have tree like structures that don't have repetitive subproblems.
+
+03:58.430 --> 04:05.330
+But if these subproblems are repetitive that is that we're doing the same calculation over and over
+
+04:05.400 --> 04:06.630
+in the subproblems.
+
+04:06.860 --> 04:16.130
+Well if the answer is yes then we can memorize these subproblems and once we do that we see tremendous
+
+04:16.310 --> 04:23.720
+benefits and these benefits are used all over computer science to improve performance so that the fifth
+
+04:23.720 --> 04:26.290
+step should be to demand a raise from your boss.
+
+04:26.300 --> 04:34.090
+If you've implemented this because you've just saved so many calculations so much time complexity I
+
+04:34.090 --> 04:42.010
+want you to think like this instead of being intimidated by the confusing name that is dynamic programming
+
+04:42.940 --> 04:47.350
+you just need to know when a problem can use this technique.
+
+04:47.500 --> 04:53.040
+And at least some problems for you after this section to practice on but you want to just follow this
+
+04:53.040 --> 04:53.580
+pattern.
+
+04:54.560 --> 05:00.950
+When a problem has solutions composed of solutions to the same problem with smaller and smaller inputs
+
+05:01.640 --> 05:08.900
+each problem is solved only once and the result of each subproblem is stored in a table like a cache
+
+05:09.740 --> 05:12.810
+such as a hash table like we've done in the previous video.
+
+05:12.950 --> 05:21.410
+For future reference we can use this table to obtain the original solution of a repeated problem.
+
+05:21.770 --> 05:22.550
+Enough talk.
+
+05:22.640 --> 05:30.870
+I think it's time for us to implement our own memorization with Fibonacci number if you want to challenge
+
+05:30.870 --> 05:32.040
+yourself.
+
+05:32.070 --> 05:35.270
+Go ahead and see if it coded yourself otherwise.
+
+05:35.280 --> 05:42.530
+And the next video I'm going to show you how to improve our terrible performing Fibonacci function and
+
+05:42.560 --> 05:45.710
+to go over and I'll see in that one.

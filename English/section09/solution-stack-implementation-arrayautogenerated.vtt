@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.640 --> 00:09.130
+Welcome back let's convert our stack data structure to use arrays and this is going to be fairly simple.
+
+00:09.370 --> 00:17.770
+All we're going to do is remove all of this in the constructor and have this stored array equal to an
+
+00:17.770 --> 00:19.170
+empty array.
+
+00:19.240 --> 00:25.700
+We don't need the length property because that comes built in with arrays and Javascript.
+
+00:25.780 --> 00:31.180
+Obviously this may be different for different programming languages but for now we have this available
+
+00:31.180 --> 00:34.440
+to us in our language that we're using right now.
+
+00:34.450 --> 00:35.890
+So there we have it.
+
+00:35.950 --> 00:37.960
+That's our constructor.
+
+00:38.010 --> 00:40.340
+What about peak oil.
+
+00:40.410 --> 00:43.800
+Peak simply means that we want to see the very end of the array.
+
+00:43.980 --> 00:47.890
+Remember with stack it's last in first out.
+
+00:47.910 --> 00:50.580
+So when we do a peak we want to see the very top thing.
+
+00:50.580 --> 00:59.100
+The latest thing that we've added in our case we can just simply say this dot array and we're going
+
+00:59.100 --> 01:06.750
+to access that array with BRAC and notation and it's going to say this dot array dot lenth which is
+
+01:06.750 --> 01:14.550
+the rent length of the array minus one because we do minus one because our index starts from zero to
+
+01:14.700 --> 01:20.820
+1 versus the length that starts from 1 to 2.
+
+01:20.840 --> 01:21.440
+That's it.
+
+01:21.440 --> 01:23.420
+We have peak implemented.
+
+01:23.570 --> 01:33.820
+Let's just comment this out and make sure that peak works from this we get undefined.
+
+01:34.230 --> 01:40.000
+Well because there's nothing in the array and we can probably give better errors if we wanted to hear.
+
+01:40.040 --> 01:41.990
+But for now I think this is fine.
+
+01:43.390 --> 01:47.340
+What about push well worth push.
+
+01:47.450 --> 01:59.400
+We get to delete all this code and simply say this dot array dot push value.
+
+01:59.520 --> 02:00.670
+How nice is that.
+
+02:00.680 --> 02:03.510
+Now it is nice and clean comes pre-built with the race.
+
+02:03.540 --> 02:05.660
+We can just use push.
+
+02:05.690 --> 02:16.070
+So if I do my stack push and I click run while peek here is giving me Google but legist run push only
+
+02:16.460 --> 02:20.670
+I get a stack that has an array with Google in it.
+
+02:20.720 --> 02:30.620
+If I push to you Dammy I've added you Dammy if I do push this cord I've added this quarter and if I
+
+02:30.620 --> 02:36.450
+do peek here I should get Dischord back because it's the latest entry.
+
+02:36.450 --> 02:37.510
+There you go.
+
+02:37.560 --> 02:39.610
+How simple is that.
+
+02:39.620 --> 02:43.520
+That means that pop is also going to be very simple right.
+
+02:44.400 --> 02:47.730
+Absolutely feels good deleting code doesn't it.
+
+02:47.910 --> 02:55.620
+What we do is this dot array dot the pop that comes already in javascript.
+
+02:55.620 --> 03:00.090
+We can't just return this if we want.
+
+03:00.130 --> 03:04.190
+If I click run but will have to run the pop here let's run.
+
+03:04.360 --> 03:09.740
+Pop which removes discord from the list.
+
+03:09.860 --> 03:20.920
+If I run pop again I get Google and if I pop this and I click run we have an empty array like that.
+
+03:20.970 --> 03:22.460
+Nice and simple.
+
+03:22.480 --> 03:26.910
+We to have to use the node class and that's pretty nice right.
+
+03:27.860 --> 03:32.270
+So you can just use arrays as stacks quite easily.
+
+03:32.270 --> 03:39.080
+And we've already discussed the pros and cons in using linked lists versus erase one of the nice things
+
+03:39.080 --> 03:45.770
+about using an array is while arrays at least in javascript already act like stacks and it makes things
+
+03:45.770 --> 03:50.060
+very simple for us but enough about stacks.
+
+03:50.230 --> 03:51.790
+Let's implement our own.
+
+03:51.860 --> 03:55.380
+Q This time around I'll see in the next one.

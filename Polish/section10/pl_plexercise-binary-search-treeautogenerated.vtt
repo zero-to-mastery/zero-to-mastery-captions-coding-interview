@@ -1,0 +1,112 @@
+WEBVTT
+
+00:01.270 --> 00:07.460
+Witamy ponownie nadszedł czas, aby napisać własne drzewo wyszukiwania binarnego.
+
+00:07.570 --> 00:14.070
+W tym ćwiczeniu zamierzam rzucić ci wyzwanie, by napisać własną, zanim zaczniesz myć moje rozwiązanie.
+
+00:15.290 --> 00:23.030
+Teraz należy pamiętać, że podobnie jak w przypadku list połączonych, będziemy wymagać od nas śledzenia węzłów
+
+00:23.240 --> 00:27.160
+po lewej i po prawej stronie bieżącego węzła.
+
+00:27.440 --> 00:31.400
+A także mamy wartość związaną z notatką.
+
+00:31.820 --> 00:37.370
+Zalecam, abyś wyciągnął to na kartce papieru, aby to zrozumieć, ponieważ trzymanie wszystkiego
+
+00:37.370 --> 00:41.760
+w twojej głowie i obliczenia mogą być trochę trudne.
+
+00:41.960 --> 00:45.910
+Ale mam tu kogoś ze wszystkimi niezbędnymi rzeczami.
+
+00:45.950 --> 00:48.740
+Stworzyliśmy binarną klasę drzewa wyszukiwania.
+
+00:48.890 --> 00:51.130
+Nie mamy klasy, której moglibyśmy użyć.
+
+00:51.170 --> 00:59.130
+Zaczynamy drzewo binarne z tym korzeniem o zerowej wartości, ponieważ nie mamy jeszcze nic.
+
+00:59.250 --> 01:06.500
+Ale pamiętaj, że mamy root, który jest naszym najwyżej położonym węzłem, który obecnie jest pusty.
+
+01:06.500 --> 01:13.220
+Zamierzamy zainicjować nasze binarne drzewo wyszukiwania i mamy nadzieję, że jesteśmy w stanie stworzyć dwie metody.
+
+01:13.280 --> 01:16.470
+Jeden odpowiada, a drugi się podnosi.
+
+01:16.820 --> 01:23.370
+Naszym celem jest stworzenie tego drzewa tutaj 9 jako węzła głównego.
+
+01:23.410 --> 01:32.140
+Potem cztery i dwadzieścia, jako dzieci, a czworo ma jedno na sześć dzieci, a 20 ma 15 i 170, jak
+
+01:32.320 --> 01:33.310
+to dzieci.
+
+01:34.090 --> 01:51.900
+Idealnie więc, jeśli właściwie wstawimy wkładkę, możemy powiedzieć, że wstawiamy kropkę drzewa 9, następnie wstawiamy 4, a następnie wstawiamy 6, a następnie
+
+01:53.470 --> 01:56.560
+wstawmy, powiedzmy 20.
+
+01:56.860 --> 02:05.930
+Dobrze wstawić 170 ostatnie dwa wstawi 15 i widzimy, że mamy tu jeszcze jeden Syllis
+
+02:09.790 --> 02:18.480
+do wstawienia, a najlepiej po uruchomieniu tych poleceń możesz utworzyć strukturę danych drzewa.
+
+02:18.510 --> 02:26.600
+Teraz na dole tworzę dla ciebie małą małą funkcję i na razie chcę, żebyś to zignorował, ponieważ używamy
+
+02:26.600 --> 02:31.770
+tutaj czegoś, co nazywa się rekurencją, do której jeszcze nie doszliśmy.
+
+02:32.120 --> 02:38.870
+Ale stworzyłem tę funkcję tylko po to, aby móc przetestować swój kod, aby upewnić się, że faktycznie
+
+02:38.870 --> 02:39.650
+działa.
+
+02:41.260 --> 02:52.330
+Wszystko, co musisz zrobić, aby sprawdzić, czy to działa, to powiedzieć Jason dot string phi, który jest
+
+02:52.330 --> 02:57.690
+specyficznym dla javascripta sposobem tworzenia łańcucha na łańcuchu.
+
+02:58.090 --> 02:59.920
+A my powiemy:
+
+03:03.580 --> 03:13.330
+"Przetrwamy korzeń drzewa drzewiastego", po prostu dajemy mu węzeł główny naszego drzewa, a on będzie przemierzał i drukował wszystko
+
+03:13.360 --> 03:21.690
+w sznurku, abyś mógł sprawdzić i konsolę, że drzewo faktycznie działa i Wideo rozwiązania pokażę, jak to
+
+03:21.690 --> 03:28.230
+działa, ale dodałem to jako mały pomocnik, jeśli chcesz dokładnie sprawdzić swoją pracę,
+
+03:28.590 --> 03:32.060
+aby upewnić się, że jest poprawna.
+
+03:33.100 --> 03:40.750
+A tak na marginesie metoda look up powinna po prostu zwrócić węzeł, którego szukamy, a jeśli nie znajdzie węzła,
+
+03:40.750 --> 03:45.570
+wówczas możemy zwrócić normalne lub fałszywe, zależnie od tego, co chcemy.
+
+03:46.000 --> 03:50.620
+I dodałem tutaj metodę Remove, o której będziemy mówić później, ponieważ jest to trochę
+
+03:50.620 --> 03:51.180
+trudne.
+
+03:51.220 --> 03:56.650
+Więc na razie martw się wstawieniem i sprawdzeniem, a do zobaczenia w wideo rozwiązania.

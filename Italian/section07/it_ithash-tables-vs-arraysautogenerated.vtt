@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.060 --> 00:09.560
+Bentornato, perché le tabelle hash delle tabelle hash sono fantastiche quando si desidera accedere rapidamente a determinati valori.
+
+00:09.580 --> 00:14.930
+Ricorda che la ricerca attraverso un array per un oggetto richiede molto tempo.
+
+00:14.930 --> 00:21.380
+Dobbiamo scorrere ogni elemento e vedere se una determinata stringa o un certo numero si trova in un array con
+
+00:21.380 --> 00:22.300
+tabelle hash.
+
+00:22.310 --> 00:24.950
+È davvero molto veloce.
+
+00:25.100 --> 00:29.410
+Ed è per questo che vedi tabelle hash in posti come i database giusto.
+
+00:29.450 --> 00:33.500
+Vogliamo cercare qualcosa in un database e ce lo restituisce subito.
+
+00:34.360 --> 00:44.620
+Allo stesso modo l'inserimento di elementi in e una tabella hash a differenza di un array che potrebbe spostare gli indici è in
+
+00:45.020 --> 00:46.020
+genere uno.
+
+00:46.450 --> 00:50.260
+Devi semplicemente hash e creare la chiave.
+
+00:50.260 --> 00:55.450
+Anche se abbiamo quei casi di collisione il più delle volte è qualcosa di cui non dobbiamo
+
+00:55.450 --> 00:56.170
+preoccuparci troppo.
+
+00:56.170 --> 00:59.940
+E possiamo assumere e rispondere a tutti.
+
+01:00.120 --> 01:05.430
+Poi ci sono altri aspetti che sono abbastanza simili tra i due array che ti
+
+01:05.430 --> 01:12.870
+permettono di cercare rapidamente il valore di un dato tasto. Le chiavi sono chiamate indici in un array e non
+
+01:12.870 --> 01:21.170
+possiamo sceglierle è sempre 0 1 2 3 nelle tabelle hash che possiamo sceglierli in modo che le tabelle hash siano un po
+
+01:21.170 --> 01:31.860
+'come un hack su un array per permetterci di usare le chiavi flessibili invece di rimanere bloccati con 0 1 2 3 un problema di tabelle hash di cui
+
+01:32.010 --> 01:36.120
+abbiamo discusso l'idea di nessun concetto di ordine negli array.
+
+01:36.120 --> 01:40.810
+Ogni oggetto è stato messo uno accanto all'altro su uno scaffale in memoria.
+
+01:40.930 --> 01:43.800
+Le tabelle di hash sono in genere collocate ovunque.
+
+01:45.560 --> 01:51.590
+Ora che abbiamo un'idea delle differenze tra i due, penso che sia tempo per
+
+01:51.590 --> 01:58.490
+noi di lavorare su alcuni esercizi e intervistare le domande che useremo tabelle hash e le loro risposte.
+
+01:58.520 --> 01:59.350
+Vedrò su quello.

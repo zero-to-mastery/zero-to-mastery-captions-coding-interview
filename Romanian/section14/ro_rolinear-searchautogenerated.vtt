@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.890 --> 00:01.740
+Bine ai revenit.
+
+00:02.030 --> 00:10.870
+Să vorbim despre primul tip de căutare în căutarea dvs. în domeniul cercetării liniare sau căutare secvențială
+
+00:10.960 --> 00:16.760
+este o metodă de a găsi o valoare țintă în listă.
+
+00:16.960 --> 00:22.480
+Și noi ar trebui să fim familiarizați cu acest lucru înainte, pentru că pentru a rula cursul
+
+00:22.480 --> 00:30.310
+am bucle prin matrice pentru a găsi elemente se verifică secvențial fiecare element al listei pentru valoarea țintă până când un meci este găsit
+
+00:30.340 --> 00:32.990
+sau până când toate elementele au fost căutate.
+
+00:33.460 --> 00:38.650
+Să aruncăm o privire la o căutare vizuală liniară este pur și simplu aceasta.
+
+00:38.770 --> 00:47.450
+Avem elemente care pot fi noduri care pot fi numere care pot fi orice și mergem unul câte unul
+
+00:47.450 --> 00:49.420
+care caută prin listă.
+
+00:49.650 --> 00:57.540
+Verificăm primul element, apoi cel de-al doilea, al treilea, al patrulea, cel de-al cincilea și cel de-al
+
+00:57.540 --> 01:05.250
+șaselea, în cel mai bun scenariu, găsim tot ceea ce căutăm, pentru că este la începutul
+
+01:05.250 --> 01:05.860
+listei.
+
+01:05.940 --> 01:08.850
+Cum ar fi dacă căutăm șase aici.
+
+01:08.850 --> 01:12.620
+Cu toate acestea, în cel mai rău caz, trebuie să trecem prin întreaga listă.
+
+01:12.720 --> 01:17.460
+Dacă căutăm nouă și verificăm fiecare notă sau dacă căutăm ceva
+
+01:17.460 --> 01:23.690
+care nu există, trebuie să verificăm fiecare element și acest tip de sortare este foarte familiar.
+
+01:24.850 --> 01:32.220
+De exemplu, dacă aruncăm o privire la javascript, am o listă aici despre fiare și să spunem că căutăm un
+
+01:32.220 --> 01:33.220
+bun Zilah.
+
+01:33.600 --> 01:37.200
+Există multe modalități prin care aș putea căuta acest element.
+
+01:37.270 --> 01:39.420
+Good Godzilla în această listă.
+
+01:39.510 --> 01:47.480
+O modalitate de a face acest lucru în javascript este utilizarea indexului care îmi oferă indicele în care îl găsesc pe Godzilla.
+
+01:47.670 --> 01:57.900
+Și aceasta folosește căutarea liniară pentru a încerca să găsească elementul. O altă modalitate este de a folosi indexul care găsește o funcție cu condiția ca
+
+01:58.260 --> 02:04.530
+elementul să fie egal cu Godzilla și va reveni la adevărat când va găsi ceva din
+
+02:04.980 --> 02:05.640
+nou.
+
+02:05.670 --> 02:16.580
+Dacă rulați acest lucru, obțin un alt mod este să folosiți funcția de Căutare oferindu-i aceeași funcție ca cea de mai sus.
+
+02:16.730 --> 02:21.420
+Dar de data aceasta va reveni la elementul real în locul indexului.
+
+02:21.510 --> 02:22.760
+Fondul comercial.
+
+02:22.980 --> 02:31.700
+Și apoi, în sfârșit, avem și acest fel de căutări care include o metodă care pur și simplu spune că
+
+02:31.730 --> 02:36.590
+fiarele includ Godzilla și o să-mi dea adevărat sau fals.
+
+02:36.710 --> 02:43.470
+În acest caz, este adevărat și limba dvs. va avea modalități diferite de a implementa acest tip de căutare.
+
+02:44.060 --> 02:49.480
+Dar toate aceste căutări sunt căutări liniare, care este cel mai rău caz.
+
+02:49.490 --> 02:56.150
+Vom trece prin întreaga listă și după cum știți intrările noastre sunt listele noastre pot obține într-adevăr timp
+
+02:56.570 --> 03:05.570
+foarte mare și liniar de o este OK, dar nu este cel mai rapid nu putem folosi căutare liniară pentru a indexa site-uri web
+
+03:05.570 --> 03:11.760
+ca Google sau pentru a căuta prieteni ca Facebook, deoarece ne va costa mult timp.
+
+03:14.360 --> 03:16.260
+Există o cale mai bună.
+
+03:17.520 --> 03:27.670
+Ei bine, dacă lista de date de aici a fost probabil sortată, asta ne va ajuta în vreun fel să ne
+
+03:27.670 --> 03:28.820
+putem îmbunătăți.
+
+03:28.990 --> 03:31.620
+Să spunem că acum căutăm 9 ani.
+
+03:31.900 --> 03:34.190
+Și am știut că lista a fost sortată.
+
+03:34.420 --> 03:36.550
+Să răspundem la această întrebare în următorul videoclip.

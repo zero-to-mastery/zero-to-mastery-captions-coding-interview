@@ -1,0 +1,196 @@
+WEBVTT
+
+00:01.000 --> 00:05.440
+Selamat datang kembali saatnya mempelajari struktur data nother.
+
+00:05.470 --> 00:12.520
+Ini adalah hal yang besar dan menarik karena akan memperkenalkan banyak topik baru terutama ketika
+
+00:12.520 --> 00:14.990
+kita masuk ke algoritma juga.
+
+00:15.130 --> 00:19.610
+Mereka disebut pohon dan tidak, tidak, tidak, bukan jenis pohon ini.
+
+00:19.690 --> 00:30.520
+Lebih seperti ini Pohon adalah struktur data yang memiliki apa yang kita sebut struktur hierarkis yang bertentangan dengan sesuatu
+
+00:30.520 --> 00:35.290
+seperti daftar tertaut atau array yang linear.
+
+00:35.620 --> 00:39.640
+Pohon dapat memiliki nol atau lebih node anak.
+
+00:39.640 --> 00:49.060
+Anda melihat pohon biasanya dimulai dengan simpul akar tunggal atau simpul induk dan setiap anak dari pohon turun dari
+
+00:49.090 --> 00:50.790
+simpul akar ini.
+
+00:51.100 --> 00:53.890
+Jadi itu seperti pohon terbalik benar-benar.
+
+00:54.910 --> 01:02.120
+Dan setiap anak dari sebuah simpul hanya berasal dari satu orangtua.
+
+01:02.250 --> 01:09.080
+Jadi Anda memiliki hubungan anak orang tua yang Anda lihat adalah Anda perlu arah. Itu sudah hilang
+
+01:10.340 --> 01:16.430
+satu arah dan Anda juga memiliki catatan daun yang merupakan akhir dari struktur data pohon.
+
+01:16.490 --> 01:24.820
+Akhirnya di dalam pohon Anda dapat memiliki hal-hal seperti sub pohon seperti daerah di sini dilingkari merah tiga enam
+
+01:24.830 --> 01:31.530
+tujuh membentuk pohon dan struktur data pohon sangat penting karena Anda bekerja dengannya setiap
+
+01:31.540 --> 01:32.040
+hari.
+
+01:34.430 --> 01:39.860
+Jika kita pergi ke Twitter. com atau situs Web mana pun dalam
+
+01:44.090 --> 01:52.030
+hal ini dan kami membuka alat pengembang seperti yang saya lakukan di sini jika saya membuka tab elemen yang Anda lihat halaman web kami
+
+01:52.030 --> 01:55.220
+dibuat oleh sesuatu yang disebut asrama atau model objek dokumen.
+
+01:55.330 --> 01:58.450
+Dan ini adalah struktur data pohon.
+
+01:58.450 --> 02:04.390
+Itu tidak terlihat seperti pohon yang baru saja saya perlihatkan kepada Anda tetapi browser hanya
+
+02:04.390 --> 02:11.380
+membuatnya terlihat bagus tetapi di bawahnya kami memiliki seseorang yang adalah anak-anak dari tag Schimmel di dalam tubuh.
+
+02:11.380 --> 02:18.820
+Kami memiliki semua anak-anak ini dan di dalam anak-anak ini kami memiliki lebih banyak anak dan
+
+02:18.820 --> 02:24.520
+lebih banyak anak dan mereka semua terhubung secara hierarkis satu sama lain.
+
+02:24.570 --> 02:28.540
+Saya yakin semua orang telah mencoba bermain catur online versus komputer.
+
+02:28.650 --> 02:35.850
+Yah komputer dalam permainan catur setidaknya kembali pada hari sebelumnya kami memiliki hal-hal seperti pembelajaran mesin menggunakan
+
+02:36.880 --> 02:39.710
+struktur data pohon untuk membuat keputusan.
+
+02:40.000 --> 02:47.230
+Haruskah saya membuat langkah ini atau haruskah saya membuat langkah itu atau haruskah saya membuat langkah itu dan itu akan memilih
+
+02:47.620 --> 02:51.550
+langkah berdasarkan langkah mana yang memiliki hasil yang lebih baik.
+
+02:51.550 --> 02:57.970
+Komentar Facebook misalnya adalah struktur data pohon di mana saya dapat mengomentari foto teman dan
+
+02:57.970 --> 03:00.760
+teman mereka dapat mengomentari komentar saya.
+
+03:00.790 --> 03:04.930
+Pohon keluarga dapat direpresentasikan dalam struktur data pohon.
+
+03:04.930 --> 03:14.730
+Dan bagi kami para insinyur dan programmer, Anda mungkin pernah mendengar tentang sintaksis abstrak jika saya menggunakan sintaksis
+
+03:14.730 --> 03:22.090
+abstrak Google di sini dengan baik, begini caranya dan program biasanya dijalankan.
+
+03:22.120 --> 03:30.210
+Biasanya kita menulis kode dan kemudian dipecah oleh mesin menjadi pohon sintaksis abstrak ini sehingga
+
+03:30.210 --> 03:33.450
+mengerti apa yang kita tulis.
+
+03:33.600 --> 03:38.630
+Dan ini seperti yang Anda lihat gunakan adalah struktur data pohon.
+
+03:38.680 --> 03:44.260
+Keindahan pohon adalah bahwa kami menggunakan prinsip yang sama seperti yang kami lakukan dalam daftar terkait.
+
+03:44.260 --> 03:51.550
+Itu adalah kami memiliki catatan dan catatan ini dapat berisi semua jenis informasi yang kami inginkan, kami dapat memiliki informasi pengguna, kami hanya dapat memiliki
+
+03:51.550 --> 03:55.170
+nomor seperti yang kami miliki di sini apa pun yang kami inginkan.
+
+03:55.180 --> 03:57.720
+Kami dapat berisi dalam catatan.
+
+03:57.760 --> 04:04.160
+Sekarang Anda mungkin berpikir ini mengingatkan saya pada daftar yang tertaut dan Anda benar.
+
+04:04.160 --> 04:14.920
+Daftar tautan secara teknis adalah jenis pohon tetapi dengan hanya satu jalur tunggal dan linear, hanya ada satu cara untuk beralih dari atas ke bawah
+
+04:14.920 --> 04:20.610
+dibandingkan dengan apa yang telah kita lihat sebelumnya di pohon normal seperti ini.
+
+04:21.930 --> 04:25.500
+Sekarang hal yang perlu diingat di sini mungkin ada yang berbeda dari daftar tertaut.
+
+04:25.560 --> 04:31.420
+Apakah itu simpul hanya dapat menunjuk ke anak karena Anda dapat melihat semua panah menunjuk ke bawah.
+
+04:32.590 --> 04:40.060
+Selalu ada satu titik masuk yang merupakan root tetapi node tidak benar-benar harus merujuk orang tua mereka
+
+04:41.090 --> 04:47.740
+sekarang seperti dalam kehidupan nyata ada banyak jenis struktur data pohon yang bisa kita miliki.
+
+04:48.040 --> 04:59.300
+Dan jika Anda pergi ke Wikipedia dan Anda mencari semua struktur data pohon itu akan mengintimidasi Anda.
+
+04:59.300 --> 05:00.180
+Itu sudah pasti.
+
+05:00.350 --> 05:07.580
+Karena lihatlah berapa banyak jenis pohon yang kita miliki seperti dalam kehidupan nyata bagaimana kita memiliki semua jenis pohon
+
+05:07.580 --> 05:08.860
+yang berbeda ini.
+
+05:08.900 --> 05:16.050
+Ada berbagai jenis pohon yang bisa kita miliki untuk kasus penggunaan tertentu tetapi jangan sampai kewalahan.
+
+05:16.050 --> 05:20.410
+Dan kursus ini kita akan membahas yang utama yang digunakan.
+
+05:20.410 --> 05:25.550
+Saya akan mengatakan 90 persen dari waktu dan hal-hal yang kemungkinan besar
+
+05:25.550 --> 05:31.280
+akan Anda temui selama wawancara karena pada akhirnya setelah Anda memahami seperti apa struktur
+
+05:31.280 --> 05:38.360
+data pohon seperti cara membuatnya, bagaimana mungkin menggunakan beberapa tindakan pada maka semua pohon lain yang Anda
+
+05:38.360 --> 05:47.120
+lihat hanyalah perubahan kecil mengapa kami tahu sekarang sekarang saya ingin memperingatkan Anda kembali pada hari ketika saya mengambil kelas tentang
+
+05:48.310 --> 05:56.140
+struktur data bagian ini terutama pohon benar-benar berlarut-larut dan membuat saya tidak tertarik struktur data karena ada begitu banyak
+
+05:56.200 --> 05:59.690
+hal yang dapat Anda bicarakan tentang pohon.
+
+05:59.710 --> 06:06.400
+Saya akan mencoba dan membuat Anda tetap terlibat dengan kemampuan terbaik saya dan mencoba dan menjadi efisien melalui
+
+06:06.400 --> 06:11.950
+bagian ini dan menunjukkan kepada Anda aspek-aspek penting yang perlu Anda ketahui untuk wawancara
+
+06:12.790 --> 06:18.590
+dan untuk meletakkan fondasi untuk tidak mengajarkan Anda setiap pohon bahwa ada yang tidak akan menguntungkan.
+
+06:18.810 --> 06:22.270
+Dengan mengingat hal itu, saya akan melihat Anda di video berikutnya.
+
+06:22.380 --> 06:22.660
+Bob

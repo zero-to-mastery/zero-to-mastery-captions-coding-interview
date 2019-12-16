@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.750 --> 00:09.340
+In order to solve coing problems we need to learn these data structures and these algorithms.
+
+00:09.390 --> 00:10.900
+It doesn't look that bad does it.
+
+00:11.970 --> 00:13.500
+Here's the big secret.
+
+00:13.500 --> 00:18.620
+There are a lot more data structures in this and a lot more algorithms than this.
+
+00:19.390 --> 00:26.500
+But just like when you learn a new language you don't read through the dictionary and learn every single
+
+00:26.500 --> 00:28.590
+word in that dictionary.
+
+00:28.600 --> 00:34.170
+And that language Instead you focus on being able to communicate with others.
+
+00:34.210 --> 00:37.700
+You only focus on things that are being used most of the time.
+
+00:37.960 --> 00:43.240
+And when it comes to data structures and algorithms these are where you're going to get asked on and
+
+00:43.240 --> 00:50.710
+interviews because these are the ones that get used the most and 90 percent of the time to solve a really
+
+00:50.710 --> 00:54.100
+complex problem you're only using these things.
+
+00:54.130 --> 00:55.560
+It doesn't look that bad does it.
+
+00:55.900 --> 01:02.340
+All you need is the base line skills and companies just want to know that you've prepared for the interview
+
+01:02.340 --> 01:04.300
+and can succeed within their system.
+
+01:05.200 --> 01:10.330
+A lot of people complain about coding interviews or white board interviews and how useless they are
+
+01:10.330 --> 01:15.880
+because they never use some of these algorithms or data structure in their day to day job.
+
+01:17.090 --> 01:21.550
+But they're just a way to weed out people that aren't willing to work hard.
+
+01:23.040 --> 01:24.720
+Look at this as an advantage.
+
+01:24.870 --> 01:27.200
+Not many people work on their interview questions.
+
+01:27.300 --> 01:32.220
+You're going to work harder than 99 percent of the people out there because you know that getting a
+
+01:32.220 --> 01:36.280
+good job will have a big impact on your life.
+
+01:36.450 --> 01:38.310
+And I mean that's why you're taking the course.
+
+01:38.430 --> 01:42.420
+And as you see here the good news is that it's not as hard as you think.
+
+01:42.420 --> 01:49.800
+You just have to put your time and effort into the right things as long as we learn our right data structures.
+
+01:49.890 --> 01:54.360
+When and why to use them how to implement them how to solve problems with them.
+
+01:54.360 --> 02:02.580
+And same with algorithms and we combine it with our cheat sheet that I'll create for you when we compare
+
+02:02.580 --> 02:04.520
+our code that is readable.
+
+02:04.680 --> 02:11.780
+That is memory efficient and time efficient using big-O between these two.
+
+02:12.060 --> 02:16.460
+That's all interviews are that's all coding interviews ask for.
+
+02:16.920 --> 02:24.300
+If we go back to our online over the course we're now getting into the technical interview section.
+
+02:24.630 --> 02:29.790
+And when I click over here it's going to look overwhelming at first and we're going to go over this
+
+02:29.790 --> 02:32.810
+diagram so it all makes sense.
+
+02:32.880 --> 02:37.310
+We're going to talk about different data structures that we have.
+
+02:37.410 --> 02:38.780
+Let's zoom in a bit here.
+
+02:39.790 --> 02:44.620
+You can see we're going to talk about arrays trees stacks and graphs and a lot more.
+
+02:44.620 --> 02:48.640
+We're going to talk about the big O of each one of these data structures.
+
+02:48.700 --> 02:54.610
+We're going to talk about different algorithms when to use what and like I said this is going to look
+
+02:54.640 --> 03:01.030
+overwhelming at first but we're going to go through this step by step so that at the end all of this
+
+03:01.030 --> 03:02.450
+makes sense to you.
+
+03:02.470 --> 03:10.650
+We're also going to use the cheat sheet right over here to help us solve these coding problems.
+
+03:10.690 --> 03:15.060
+Now in this cheat sheet we've already covered the three pillars of good code.
+
+03:15.070 --> 03:21.070
+We already talked about what skills the interviewer is looking for but we haven't talked about this
+
+03:21.400 --> 03:23.770
+part.
+
+03:23.900 --> 03:25.870
+So let's start with this section in the next video.

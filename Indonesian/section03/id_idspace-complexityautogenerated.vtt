@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.180 --> 00:07.600
+Ketika sebuah program dijalankan, ia memiliki dua cara untuk mengingat berbagai hal.
+
+00:07.600 --> 00:18.020
+Tumpukan dan tumpukan tumpukan biasanya di mana kita menyimpan variabel yang kita tetapkan nilai dan
+
+00:18.020 --> 00:24.790
+tumpukan biasanya di mana kita melacak panggilan fungsi kita.
+
+00:24.840 --> 00:32.600
+Terkadang kami ingin mengoptimalkan untuk menggunakan lebih sedikit memori daripada menggunakan lebih sedikit waktu untuk berbicara tentang memori
+
+00:32.630 --> 00:34.220
+atau kompleksitas ruang.
+
+00:34.340 --> 00:37.540
+Sangat mirip dengan berbicara tentang biaya waktu.
+
+00:37.610 --> 00:44.570
+Kami hanya melihat ukuran total relatif terhadap ukuran input dan melihat berapa banyak variabel baru atau
+
+00:44.570 --> 00:47.150
+memori baru yang kami alokasikan.
+
+00:47.360 --> 00:49.740
+Berapa banyak memori yang digunakan.
+
+00:49.790 --> 00:51.850
+Jadi mari kita lihat sebuah contoh.
+
+00:52.190 --> 00:58.640
+Hingga saat ini kami telah berbicara tentang kompleksitas waktu dan bagaimana jika kami ingin mengompres, katakanlah beberapa kotak,
+
+00:59.210 --> 01:03.640
+kami hanya berbicara tentang seberapa cepat dan berapa banyak operasi yang diperlukan.
+
+01:03.950 --> 01:12.800
+Tetapi dalam kehidupan nyata ada faktor memori lain ini dan kami memiliki kotak kecil merah muda ini tentang seberapa banyak
+
+01:12.980 --> 01:17.410
+fungsi ini dapat mengambil berapa banyak input yang dapat diambil.
+
+01:17.510 --> 01:25.790
+Sebagai contoh jika kita memiliki delapan ratus kotak yang harus kita buat untuk menjalankan fungsi ini dengan
+
+01:25.790 --> 01:29.320
+baik memiliki kapasitas terbatas dan mungkin meluap.
+
+01:29.480 --> 01:35.660
+Ngomong-ngomong hal-hal seperti Stack Overflow adalah sesuatu yang akan kita bicarakan dan bagaimana itu menjadi masalah ketika
+
+01:35.660 --> 01:40.300
+kita mengingat sesuatu yang akan kita bahas ketika kita masuk ke rekursi.
+
+01:41.310 --> 01:45.300
+Apa yang menyebabkan kompleksitas ruang ini.
+
+01:45.300 --> 01:50.060
+Untungnya Anda, saya menambahkan ini ke chichi kami.
+
+01:50.250 --> 01:59.250
+Apa yang menyebabkan kompleksitas ruang sambil menambahkan variabel menambahkan struktur data seperti array objek tabel
+
+01:59.250 --> 02:06.290
+hash lagi hal-hal akan berbicara tentang pemanggilan fungsi dan alokasi.
+
+02:06.460 --> 02:08.280
+Anda tidak membutuhkan PIERI ini.
+
+02:08.500 --> 02:14.290
+Tapi mari kita benar-benar kode sesuatu dan tunjukkan contoh di video berikutnya.
+
+02:14.320 --> 02:21.010
+Kami akan melalui beberapa latihan kompleksitas ruang dan mencari tahu bagaimana kami bisa memberikan notasi go untuk
+
+02:21.010 --> 02:21.520
+subjek.

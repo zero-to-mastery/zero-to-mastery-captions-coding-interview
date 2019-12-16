@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.990 --> 00:02.220
+Witamy spowrotem.
+
+00:02.220 --> 00:09.210
+Porozmawiajmy o naszym piątym algorytmie sortowania quicksort nawet od nazwy, którą myślisz huh.
+
+00:09.360 --> 00:11.250
+To będzie szybkie.
+
+00:11.250 --> 00:15.810
+Szybki sortowanie, podobnie jak sortowanie scalone, to algorytm dziel i podbijaj.
+
+00:17.040 --> 00:23.400
+Co oznacza i powinno zadzwonić w twojej głowie, mówiąc, że prawdopodobnie będzie wszystko i się
+
+00:23.510 --> 00:26.840
+zalogować, a jeśli myślisz, że masz rację.
+
+00:27.880 --> 00:33.900
+Widać, że quicksort używa czegoś, co nazywa się techniką obracania, aby podzielić listę główną na mniejsze
+
+00:34.620 --> 00:39.690
+listy, a te mniejsze listy wykorzystują technikę obrotu, dopóki nie zostaną posortowane.
+
+00:40.120 --> 00:42.290
+Ale pokażę ci animację quicksorta.
+
+00:43.420 --> 00:47.040
+Quicksort działa w ten sposób.
+
+00:47.160 --> 00:51.770
+A jeśli patrzysz na ten diagram jak ja i jesteś całkowicie zdezorientowany co do tego,
+
+00:52.350 --> 00:55.310
+co się dzieje, to dość dobrze opisuje quicksort.
+
+00:55.320 --> 00:59.040
+Zrozumienie tego jest dość skomplikowane.
+
+00:59.080 --> 01:01.400
+Pozwól, że pokażę ci lepszą demonstrację.
+
+01:03.910 --> 01:05.630
+Mam tutaj mały diagram.
+
+01:05.890 --> 01:09.960
+Powiedzmy, że mamy listę, która wygląda tak.
+
+01:10.090 --> 01:19.290
+Mamy 3 7 8 9 5 2 1 9 5 4 to, co robimy tutaj, to wybieramy losowy pivot.
+
+01:19.420 --> 01:23.540
+Powiedzmy, że 4 będzie naszym czopem.
+
+01:23.600 --> 01:31.610
+Kiedy wybierzemy ten element obrotu, powiemy, że wszystkie liczby, które są mniejsze niż 4, powinny znajdować się po jego lewej
+
+01:31.610 --> 01:37.540
+stronie, a wszystkie liczby większe niż 4, aby znaleźć się po jego prawej stronie.
+
+01:39.470 --> 01:40.500
+Więc co robimy.
+
+01:40.700 --> 01:45.430
+Cóż, zaczynamy porównywać liczby, na które patrzymy na trzy i cztery.
+
+01:45.580 --> 01:45.990
+W porządku.
+
+01:46.010 --> 01:48.020
+Trzy są po lewej stronie czterech, co jest w porządku.
+
+01:48.020 --> 01:50.370
+Co około 7 m dla.
+
+01:50.610 --> 01:54.650
+Siedem jest wyższe niż cztery, więc powinno być po prawej.
+
+01:54.650 --> 02:04.200
+Przesuniemy cztery w lewo, aby zrobić miejsce dla siedmiu siedmiu przeskoków w prawo i
+
+02:04.710 --> 02:11.990
+zamieniamy piątkę, z której cztery weszły w siedmioosobową pozycję.
+
+02:12.200 --> 02:14.440
+A teraz sprawdzamy pięć i cztery.
+
+02:14.710 --> 02:15.950
+Musimy zrobić to samo.
+
+02:15.980 --> 02:22.130
+Umieszczamy pięć na prawo od czterech, a więc dziewięć na górze, jeszcze raz dziewięć jest wyższe niż cztery.
+
+02:22.130 --> 02:24.600
+Tak więc 9 znajduje się na prawo od 4.
+
+02:24.710 --> 02:26.120
+Potem patrzymy na ósemkę.
+
+02:26.120 --> 02:27.460
+To samo z nienawiścią.
+
+02:27.470 --> 02:29.910
+A potem wreszcie pięć i cztery.
+
+02:30.120 --> 02:34.610
+Cóż cztery i pięć zmieniają miejsca.
+
+02:34.850 --> 02:39.280
+A teraz mamy listę, która ma cztery jako oś obrotu.
+
+02:39.440 --> 02:46.280
+I wiemy, że czwórka będzie w tej pozycji w całym szeregu, a wszystko inne na lewo od niego i
+
+02:46.280 --> 02:49.490
+na prawo od niego wciąż musi zostać posortowane.
+
+02:49.670 --> 02:55.290
+Ale przynajmniej wiemy, skąd cztery stoją, dzieląc i podbijając.
+
+02:55.550 --> 02:59.130
+Teraz dzielimy listę i robimy to samo.
+
+02:59.150 --> 03:06.950
+Dostajemy pivot na lewej liście, która będzie 2 i mówimy, że wszystko na prawo od 2 powinno być wyższe.
+
+03:06.950 --> 03:08.970
+Wszystko na lewo od dwóch powinno być niższe.
+
+03:09.170 --> 03:17.010
+I mamy tę lewą listę posortowaną po prawej stronie, robimy to samo, dopóki nie podzielimy listy na 7 w
+
+03:17.010 --> 03:22.190
+środku, a my ciągle łamiemy rzeczy, a wszystko to jak drzewo.
+
+03:22.320 --> 03:24.230
+I to jest miejsce, w którym dzielimy się i zdobywamy.
+
+03:24.390 --> 03:30.150
+Dopóki nie posortujemy wszystkich poszczególnych list i połączymy je.
+
+03:30.210 --> 03:35.360
+Teraz możesz mieć dwa pytania do mnie patrząc na to.
+
+03:35.580 --> 03:39.990
+Jednym z nich jest sposób, w jaki wybieramy ten punkt obrotu.
+
+03:40.350 --> 03:42.070
+To jest trochę przypadkowe.
+
+03:42.090 --> 03:44.210
+To naprawdę zależy od sytuacji.
+
+03:44.220 --> 03:51.150
+Ale jak widzisz, po prostu wybieramy punkt obrotu jako zawsze ostatni element w tablicy.
+
+03:51.210 --> 03:56.900
+Drugim jest to, w jaki sposób zamierzam to zakodować.
+
+03:57.020 --> 04:00.210
+I to jest dość trudne i nie spodziewam się, że to dostaniesz.
+
+04:00.280 --> 04:06.980
+Zostawię kod dla ciebie i możesz go wypróbować, jeśli chcesz, ale najlepszym sposobem, aby
+
+04:07.280 --> 04:12.890
+zrozumieć, że quicksort jest moim ulubionym tańcem węgierskim w historii.
+
+04:12.920 --> 04:14.470
+Nie zamierzam tego dla ciebie grać.
+
+04:14.480 --> 04:18.770
+Możesz grać samemu, ale przysięgam, że mogę to oglądać przez cały dzień.
+
+04:18.770 --> 04:20.240
+Myślę, że taniec jest niesamowity.
+
+04:20.360 --> 04:21.700
+Muzyka jest niesamowita.
+
+04:21.880 --> 04:25.420
+A jeśli przyspieszysz go do dwóch razy, będzie jeszcze lepiej.
+
+04:26.760 --> 04:29.640
+Tutaj w tym filmie niech mi to zignoruje.
+
+04:29.640 --> 04:36.780
+Zobaczysz, że ta osoba w Czarnym Kapeluszu stanie się osią obrotu i wszyscy porównują osobę w Czerwonym
+
+04:36.780 --> 04:45.530
+Kapeluszu to wskaźnik, który myślę, lub przedmiot, który jest porównywany z osią obrotu, a zobaczysz tutaj, że tak szybko kiedy
+
+04:45.530 --> 04:51.620
+dojdziemy do tego, że ta osoba ma numer trzy, powie, że powinieneś być
+
+04:51.620 --> 04:53.060
+po lewej stronie.
+
+04:53.150 --> 04:55.080
+Więc będą tańczyć.
+
+04:55.130 --> 04:56.900
+Przy okazji świetne ruchy taneczne.
+
+04:56.930 --> 04:58.150
+Muszę nauczyć się tych kroków.
+
+04:58.550 --> 05:03.880
+A dwie i trzy są teraz w różnych lokalizacjach.
+
+05:05.880 --> 05:09.050
+A teraz porównujemy 0 i trzy.
+
+05:09.140 --> 05:15.550
+Teraz ta implementacja i wizualne, które wam pokazałem, są trochę inne.
+
+05:15.920 --> 05:19.630
+Ale pomysł jest taki sam, że quicksort może być implementowany na różne sposoby.
+
+05:19.760 --> 05:22.310
+Ale idea osi obrotu jest taka sama.
+
+05:22.310 --> 05:30.290
+Zachęcam do obejrzenia tego filmu wideo, aby w pełni zrozumieć jego działanie pod maską, ale przejdźmy do
+
+05:30.290 --> 05:31.580
+głównych pojęć.
+
+05:32.610 --> 05:40.040
+Quicksort jest naprawdę bardzo przydatny i między quicksort i Merceron powiedziałbym, że są
+
+05:40.100 --> 05:42.980
+to najczęściej używane algorytmy sortowania.
+
+05:43.150 --> 05:45.520
+Zauważysz dwie rzeczy.
+
+05:45.610 --> 05:51.320
+Jednym z nich jest to, że skomplikowana złożoność kosmosu jest naprawdę dobra.
+
+05:51.370 --> 05:57.580
+Mam na myśli nie tak dobre jak sortowanie bąbelkowe, sortowanie wtrącone lub sortowanie, ale
+
+05:57.600 --> 06:06.410
+wciąż jest lepsze niż Murchu w najgorszym przypadku wynosi 0 i kwadrat, ponieważ może się ono skończyć, gdy podniesione do kwadratu,
+
+06:06.410 --> 06:13.890
+gdy oś jest najmniejszym lub największym elementem w na liście, ponieważ tak naprawdę nie dzielisz listy na pół.
+
+06:14.000 --> 06:19.420
+I dlatego naprawdę chcesz mieć pewność, że wybierzesz dobry punkt obrotu dla quicksort.
+
+06:19.610 --> 06:25.040
+Dostaniesz większą złożoność przestrzeni, ale najgorszy przypadek może być zły.
+
+06:25.070 --> 06:31.420
+W takich przypadkach scalanie sortowania może być lepsze, jeśli twoja lista została wybrana z jakiegokolwiek powodu.
+
+06:31.580 --> 06:37.350
+I na tej liście, jeśli wybierzemy pivot jako pierwszy element lub ostatni element, nasza
+
+06:37.560 --> 06:43.940
+procedura sortowania zajmie bardzo dużo czasu, ponieważ ponownie lista nie zostanie podzielona na pół i idealnie
+
+06:43.940 --> 06:48.710
+w krótkim rodzaju, który wybierasz Pivot inteligentnie oparty na twojej liście.
+
+06:48.890 --> 06:55.310
+Teraz quicksort jest bardzo zróżnicowany i istnieją różne implementacje.
+
+06:55.480 --> 06:58.350
+Ale chcę, żebyś zabrał to z tego filmu.
+
+06:58.370 --> 07:05.970
+Quicksort jest zwykle najszybszy średnio, ale jedną wadą jest to, że ma pewne
+
+07:05.980 --> 07:07.660
+wredne przypadki.
+
+07:07.660 --> 07:14.800
+Więc jeśli musisz zagwarantować brak złych danych lub możesz zagwarantować, że czop będzie dobry,
+
+07:14.830 --> 07:16.600
+powinieneś unikać quicksort.
+
+07:16.630 --> 07:21.940
+Ale średnio jest to zwykle najlepszy algorytm sortowania.
+
+07:22.000 --> 07:22.590
+W porządku.
+
+07:22.670 --> 07:30.420
+Więc nauczyliśmy się pięciu różnych algorytmów sortowania, ale najważniejszą częścią jest, kiedy powinienem użyć
+
+07:30.590 --> 07:37.820
+tego, co w następnym filmie zamierzamy przejść dokładnie po zabawnym małym ćwiczeniu.
+
+07:38.090 --> 07:38.930
+Zobaczę w tym.

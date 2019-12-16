@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.110 --> 00:09.220
+Every recursive function needs to have something called a base case or a stop point.
+
+00:09.390 --> 00:16.380
+Remember my example at the beginning where I showed you how to recursively check out all the folders
+
+00:17.010 --> 00:26.490
+in one of our projects we have to tell the program hey if this subfolder we're going to no longer has
+
+00:26.490 --> 00:33.770
+any more folders stop if this stop wasn't there the function would just keep running.
+
+00:33.940 --> 00:36.790
+So recursive functions have two paths.
+
+00:37.570 --> 00:43.730
+One is the recursive case that is call the function again and run it.
+
+00:44.080 --> 00:47.370
+And then the base case that is stop calling the function.
+
+00:47.530 --> 00:49.950
+Is nothing more to search.
+
+00:50.000 --> 00:56.180
+So how can we add this feature of telling the function Hey quit it you're being ridiculous right now
+
+00:56.180 --> 00:57.350
+you need to stop.
+
+00:57.830 --> 01:00.920
+Well we can do something like this.
+
+01:01.040 --> 01:04.610
+We can create a counter and we'll say this counter is zero.
+
+01:06.960 --> 01:19.280
+And we can add a conditional statement will say that if the counter is greater than 3 in that case just
+
+01:19.280 --> 01:21.390
+return Done.
+
+01:24.480 --> 01:27.100
+Otherwise we'll call inception.
+
+01:27.110 --> 01:31.360
+But we also want to increment the counter by 1.
+
+01:31.390 --> 01:41.190
+So if I click run here well I have to call the function first let's say inception if I call this function
+
+01:41.350 --> 01:44.340
+right now what do you think will happen.
+
+01:45.210 --> 01:46.360
+Pause a video.
+
+01:46.360 --> 01:51.070
+Think about it because I'm about to click run in three to one
+
+01:54.560 --> 01:56.700
+I get undefined.
+
+01:56.870 --> 02:00.220
+Is that what you expected.
+
+02:00.350 --> 02:07.670
+Just to show you something if I comment this code out and we just do this Inception where we just keep
+
+02:07.670 --> 02:20.630
+calling inception inception and perhaps do a console log here saying hello and I click run I get maximum
+
+02:20.630 --> 02:24.610
+call stack size exceeded OK.
+
+02:24.800 --> 02:30.660
+We know by looking at this function this version of the function that it's never going to get to console
+
+02:30.850 --> 02:37.160
+log because as soon as it hits the first line of the function it's going to go back and say oh I'm calling
+
+02:37.160 --> 02:42.350
+this and then kind of go here is just going to bounce back and forth back and forth never getting to
+
+02:42.350 --> 02:43.280
+console log.
+
+02:43.580 --> 02:46.000
+But if we go back to what we have before.
+
+02:46.400 --> 02:50.040
+Well our function clearly has ended.
+
+02:50.060 --> 02:58.860
+It hasn't done stack overflow and at one point it's ended because we increment the counter.
+
+02:58.900 --> 03:05.960
+So let me console all log here are counter and make sure that this works.
+
+03:06.100 --> 03:12.670
+If I click run I get 0 1 2 3 4 when it gets to 4.
+
+03:12.670 --> 03:15.160
+Counter is greater than 3.
+
+03:15.430 --> 03:17.510
+So we're returning done.
+
+03:17.650 --> 03:20.860
+But why is there no done here.
+
+03:22.200 --> 03:26.610
+And this is a great illustration of how recursion works.
+
+03:26.670 --> 03:28.140
+I'm going to copy this code
+
+03:31.270 --> 03:34.600
+and go back to our browser over here.
+
+03:34.750 --> 03:42.860
+Let me refresh this page to make sure that you have a clear global variable and I'm going to copy and
+
+03:42.860 --> 03:52.100
+paste inception this time around I'm going to add the debugger keyword so that we can debug our code
+
+03:52.130 --> 03:53.690
+and go step by step through it.
+
+03:55.340 --> 04:00.750
+Let's run inception and see what happens.
+
+04:00.750 --> 04:04.680
+All right we're back to our debugger.
+
+04:04.730 --> 04:06.860
+We see that we have the call stack here.
+
+04:06.860 --> 04:14.720
+Inception has just been called by me and I also open up this little tab called scope for our case.
+
+04:14.740 --> 04:19.740
+We want to just open up the script scope.
+
+04:19.940 --> 04:28.500
+It shows us what variables we have available to us in this case we have a counter which is your.
+
+04:28.640 --> 04:29.610
+So I'm going to click.
+
+04:29.630 --> 04:36.460
+Step over and it's going to say hey we have counter is equal to zero.
+
+04:36.470 --> 04:38.130
+Is that greater than three.
+
+04:38.160 --> 04:45.140
+No I'm going to skip over Inkerman counter and run and separate we see that that's happened.
+
+04:46.050 --> 04:51.770
+Counter has now been incremented because we've gone through this line and now we go to Inception.
+
+04:51.810 --> 04:56.010
+We're going to run the function again and you'll notice that the call stack when I click this is going
+
+04:56.010 --> 04:56.510
+to increase
+
+04:59.390 --> 05:05.670
+and we're going to go one more time countries now one Nope don't return anything yet incrementing counter.
+
+05:05.750 --> 05:09.460
+You'll see counter goes to two and we're going to run inception again.
+
+05:10.590 --> 05:18.620
+And we keep going once more passing through Connard becomes three adding inception to the stack and
+
+05:18.620 --> 05:23.230
+then one more time three is not greater than three.
+
+05:23.230 --> 05:27.420
+So we go one more time calling inception adding into the stack.
+
+05:27.580 --> 05:36.700
+We now have these many stacks counters at four and then we step over here counter is now four which
+
+05:36.700 --> 05:37.760
+is greater than three.
+
+05:37.780 --> 05:43.210
+We're finally going to enter the if condition that's going to return done for us.
+
+05:43.270 --> 05:44.690
+Let's see what happens here.
+
+05:44.710 --> 05:46.590
+I'm going to click next.
+
+05:48.650 --> 05:52.280
+And I click Next again.
+
+05:52.310 --> 05:53.330
+Look at that.
+
+05:53.480 --> 06:00.520
+We have a local variable now that has return value done.
+
+06:00.540 --> 06:10.090
+We've now returned done and we're no longer going to call inception the call stack is now going to start
+
+06:10.150 --> 06:17.070
+popping off these functions because it's going to say oh we have a return keyword.
+
+06:17.170 --> 06:22.020
+I'm going to stop whatever I'm doing at the bottom here and return from this function.
+
+06:22.060 --> 06:28.020
+So this inception function is going to get return done but notice what happens next.
+
+06:31.070 --> 06:38.390
+Though I get return value undefined Azari popped off the top item from inception from the call stack
+
+06:38.770 --> 06:46.010
+and if I keep popping things from the call stack the return value is undefined.
+
+06:46.170 --> 06:48.590
+And that's why we get.
+
+06:48.800 --> 06:50.870
+Now why is that.
+
+06:51.230 --> 06:59.990
+Well if we go back to our function well you just saw was us essentially doing this we called inception
+
+07:00.590 --> 07:11.500
+once twice three times and then four times.
+
+07:11.720 --> 07:15.910
+And within here when we finally got here we said oh return done.
+
+07:16.130 --> 07:27.420
+So this inception function turns into dun and then we go to this function.
+
+07:27.430 --> 07:34.680
+Now the problem with this and I know the tsking it confusing is that once we returned once we popped
+
+07:34.680 --> 07:41.530
+off the stack and we're now at this part of inception but this inception never returns anything.
+
+07:41.850 --> 07:46.270
+When a function doesn't return anything it just returns on to find.
+
+07:46.290 --> 07:49.570
+So we need to keep telling it to return this done.
+
+07:50.070 --> 07:53.400
+And bubble it up towards the very end.
+
+07:53.820 --> 07:58.320
+And this is something that you have to keep in mind with recursion.
+
+07:58.410 --> 08:05.990
+There is usually a base case and you always want to make sure you return so that the value that you
+
+08:05.990 --> 08:09.860
+want gets bubbled up all the way to talk.
+
+08:09.890 --> 08:19.490
+In our case all we need to do is say return inception this way this inception knows to return whatever
+
+08:19.490 --> 08:25.820
+its result was which was done and this inception knows to result to return whatever this result was
+
+08:26.000 --> 08:27.200
+which again is done.
+
+08:27.500 --> 08:31.580
+And so on and so forth until we get done back.
+
+08:31.580 --> 08:33.160
+Let's run this again.
+
+08:34.850 --> 08:35.030
+All right.
+
+08:35.180 --> 08:45.980
+And I have to call the function was to again inception and run and we're done very very nice.
+
+08:45.980 --> 08:53.730
+If I go back here and go back to the cons. I encourage you to try this out this time adding the return
+
+08:53.730 --> 08:58.780
+keyword to Inception and running through the debugger to see what happens.
+
+08:59.970 --> 09:05.130
+But what I just showed you is all you need to build recursive functions.
+
+09:05.130 --> 09:07.140
+You have three rules.
+
+09:07.170 --> 09:21.460
+One is to identify the base case two is to identify the recursive case.
+
+09:21.500 --> 09:26.520
+So we've identified the base case went to stop the recursive case.
+
+09:26.540 --> 09:30.080
+That is when Konner is less than three.
+
+09:30.180 --> 09:41.510
+And then finally our third step is to get closer and closer and return when needed.
+
+09:42.210 --> 09:48.750
+And that usually you have two returns
+
+09:52.640 --> 09:58.330
+for the base case and the recursive case because you want to return something at the end of the function.
+
+09:58.430 --> 10:01.000
+So let's comment this out.
+
+10:01.010 --> 10:08.690
+We have an idea of how recursion works the function simply gets closer and closer and closer to the
+
+10:08.690 --> 10:09.580
+base case.
+
+10:09.740 --> 10:17.210
+And once it gets to the base case it finally returns and pops functions off the stack but that's enough
+
+10:17.210 --> 10:18.350
+talking for me.
+
+10:18.350 --> 10:24.500
+I think it's time for us to do some coding exercises to get really familiar with this topic.
+
+10:24.530 --> 10:25.830
+I'll see in the next one.
+
+10:26.180 --> 10:26.420
+Babai.

@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.010 --> 00:08.240
+Întoarceți-vă în videoclipul precedent despre care am vorbit despre o caracteristică sau proprietăți speciale ale copacilor binari.
+
+00:09.040 --> 00:15.190
+Și din cauza modului în care sunt structurați copacii binari, există o anumită metodă pentru a calcula numărul
+
+00:15.190 --> 00:20.540
+de note pe care le au, de exemplu, la nivelul 0 al unui copac binar.
+
+00:20.620 --> 00:26.530
+Acesta este cel mai înalt nivel în care avem doar un singur nod rădăcină pe care îl putem
+
+00:26.530 --> 00:30.940
+calcula câte note există, făcând două la puterea nivelului care este zero.
+
+00:30.940 --> 00:34.350
+Deci, dacă fac două la puterea de zero, va fi egală cu una.
+
+00:34.390 --> 00:37.070
+Asta este o notă.
+
+00:37.220 --> 00:41.880
+Dacă mergem nivelul nostru în jos și spunem despre Nivelul 1 câte niveluri avem.
+
+00:42.050 --> 00:48.700
+Ei bine, avem doi la puterea celui care este egal cu doi.
+
+00:49.490 --> 00:50.330
+Hai să continuăm.
+
+00:50.330 --> 00:51.920
+Dar nivelul 2.
+
+00:51.950 --> 00:54.670
+Câte noduri în total avem pe acest nivel.
+
+00:54.800 --> 00:59.910
+Ei bine, avem doi la puterea a două care este egală cu patru.
+
+01:00.380 --> 01:03.350
+Și apoi un ultim nivel spune Nivelul Trei.
+
+01:03.410 --> 01:09.840
+Câte noduri vom avea la nivelul trei într-un copac binar perfect echilibrat.
+
+01:10.070 --> 01:15.990
+Ei bine, doi la puterea a trei va fi egal cu opt băiat Oh.
+
+01:16.360 --> 01:20.120
+Pur și simplu facem niște matematici aici și am promis că acest curs va fi cel mat.
+
+01:20.140 --> 01:22.110
+Dar purtați-mă cu mine aici.
+
+01:22.180 --> 01:25.660
+Vreau să vă explic ce jurnal vechi și ce înseamnă.
+
+01:26.910 --> 01:33.180
+Știind ce am făcut acum și știind că acestea sunt numărul total de
+
+01:33.480 --> 01:39.960
+noduri dacă ne imaginăm că aceste date erau într-o matrice, ceea ce înseamnă că
+
+01:40.530 --> 01:48.380
+avem opt locuri pe care trebuie să le repetăm prin intermediul a opt noduri pe care trebuie
+
+01:48.380 --> 02:00.630
+să le verificăm probabil pentru a căuta ceva bine bazat pe această formulă aici, ceea ce înseamnă că nu putem afla numărul de noduri dintr-un copac prin
+
+02:00.630 --> 02:09.000
+a face două la puterea H sau la înălțimea care este nivelul dacă știm câte niveluri sunt binar
+
+02:09.000 --> 02:15.550
+copac putem aflați câte noduri totale sunt două la puterea lui H minus unul.
+
+02:15.560 --> 02:18.160
+Acum de ce minusul ăsta.
+
+02:18.170 --> 02:26.660
+Ei bine, dacă ne întoarcem la diagrama noastră, acest copac binar avem unu două, trei, patru, șase, șapte.
+
+02:26.900 --> 02:33.440
+Avem șapte noduri totale, iar copacul este unul până la trei.
+
+02:33.740 --> 02:38.080
+Înălțimea copacului în timp ce are trei niveluri adânci.
+
+02:38.200 --> 02:43.780
+Deci doi la puterea a trei minus unul sunt șapte noduri.
+
+02:43.780 --> 02:51.940
+Dacă simplificăm acest lucru, putem spune pur și simplu că logul nodurilor va fi egal
+
+02:52.240 --> 02:54.840
+cu înălțimea sau pașii.
+
+02:55.120 --> 03:04.490
+Și eu folosesc jurnalul aici, doar credeți că jurnalul dvs. de rătăcire pur și simplu înseamnă că log 100 este egal cu două deoarece
+
+03:05.210 --> 03:09.150
+10 la puterea a două este egală cu 100.
+
+03:11.380 --> 03:22.000
+Deci, tot ce am făcut a fost folosirea acestui lucru am simplificat și a spus că notele jurnalului sunt egale cu înălțimea și am
+
+03:22.330 --> 03:31.110
+renunțat la unul negativ aici pentru că este în noduri semnificative, dar log este numărul de pași sau înălțime.
+
+03:31.140 --> 03:35.910
+Și să schimbăm doar doi pași pe care îi vom folosi într-un tratament.
+
+03:35.920 --> 03:45.250
+Permiteți-mi să vă arăt din nou în jurnalul nostru de diagrame și pur și simplu înseamnă că, pe baza înălțimii, numărul
+
+03:45.250 --> 03:46.780
+maxim de decizii.
+
+03:46.870 --> 03:52.600
+Să spunem că căutăm un nod specific pe care vom lua-o va fi log.
+
+03:52.600 --> 03:55.890
+Și asta înseamnă că e nodul pe care îl căutăm.
+
+03:55.900 --> 03:56.390
+Nu.
+
+03:56.410 --> 04:02.520
+Apoi, mergem la stânga sau la dreapta dacă nu mergem la stânga și să spunem că nu este ceea ce căutăm.
+
+04:02.740 --> 04:05.400
+Și acesta este al doilea pas.
+
+04:05.470 --> 04:06.590
+Dacă răspunsul este nr.
+
+04:06.590 --> 04:10.910
+Sunt ori mergeți spre stânga sau spre dreapta și spunem că este vorba despre un lucru pe care nu îl căutăm.
+
+04:11.050 --> 04:11.540
+Da.
+
+04:11.830 --> 04:20.020
+Așadar, avem maxim trei pași în loc de dacă vreți doi, trei, patru șase șapte pași.
+
+04:20.140 --> 04:23.590
+Vedeți că există un fel de eficiență aici.
+
+04:23.740 --> 04:29.470
+Și vom veni să învățăm despre arbori binari de căutare în care putem minimiza
+
+04:29.480 --> 04:32.860
+acești pași în loc să vizităm fiecare notă.
+
+04:33.250 --> 04:42.780
+Așa că atunci când vezi notația lui oh Lague și nu începi tot ce spune că alegerea următorului element pe
+
+04:42.780 --> 04:50.400
+care să faci un fel de acțiune este una din mai multe posibilități și trebuie
+
+04:50.520 --> 04:52.110
+aleasă doar una.
+
+04:52.140 --> 05:00.020
+Nu trebuie să verificăm atât o modalitate bună de a vă gândi la jurnal, cât și atunci când căutați prin intermediul unei agende
+
+05:00.020 --> 05:00.680
+telefonice.
+
+05:01.080 --> 05:05.490
+De fapt, nu verificați fiecare persoană dintr-o agendă telefonică.
+
+05:05.490 --> 05:13.080
+În schimb, poți pur și simplu să faci ceea ce se numește diviziune și cucerire prin căutarea în funcție de unde încep numele lor
+
+05:13.490 --> 05:14.140
+în alfabet.
+
+05:14.400 --> 05:20.550
+Veți deschide cartea în locul în care credeți că va începe scrisoarea cu numele care va începe și
+
+05:20.550 --> 05:25.170
+apoi va păstra împărțirea și cucerirea până când veți ajunge la acea persoană.
+
+05:25.280 --> 05:32.030
+Trebuie doar să explorați un subset din fiecare secțiune înainte de a găsi în cele din urmă numărul de telefon al cuiva.
+
+05:33.170 --> 05:34.560
+Așa că gândiți-vă la asta.
+
+05:34.850 --> 05:38.350
+Oh, Lagann este ca și cum ai vedea o carte telefonică.
+
+05:39.680 --> 05:45.880
+Și motivul pentru care tocmai am vorbit despre tot Lagann într-un asemenea detaliu este că este un concept important.
+
+05:45.890 --> 05:53.420
+Este într-adevăr foarte rapid, după cum puteți vedea aici din nou, este ca o zonă verde bună.
+
+05:53.420 --> 06:00.780
+Acest lucru este chiar mai bun decât oh atunci timpul liniar, pentru că nu avem nevoie să verificăm fiecare element.
+
+06:01.070 --> 06:05.780
+Și în următorul videoclip vom vorbi despre cel mai comun copac pe care îl
+
+06:05.780 --> 06:09.830
+veți vedea într-o mulțime de locuri numite arbore binar de căutare.
+
+06:09.890 --> 06:16.520
+Și cum sugerează și numele, ne permite să căutăm într-adevăr eficient și doar dacă ne uităm la acest
+
+06:16.910 --> 06:24.290
+grafic, ați putea să vă gândiți cum un loc precum Google și Google de căutare ar putea găsi acest lucru extrem
+
+06:24.380 --> 06:25.130
+de util.
+
+06:25.130 --> 06:25.800
+Dreapta.
+
+06:25.910 --> 06:33.000
+Atunci când căutăm prin Google, au o tona de site-uri web o tona de noduri pentru a căuta.
+
+06:33.110 --> 06:42.200
+Cum pot să ne dea un răspuns la căutările noastre atât de repede, dacă au folosit toată complexitatea timpului Van, va dura
+
+06:42.620 --> 06:46.890
+mult timp și va fi foarte scump pentru ei.
+
+06:46.940 --> 06:54.170
+Deci, ei folosesc o structură de arbori sau o structură de date arborescentă, astfel că căutările noastre pot fi mult mai rapide,
+
+06:54.350 --> 06:58.420
+cu ceva de genul oh log in. Voi vedea în următorul videoclip.

@@ -1,0 +1,190 @@
+WEBVTT
+
+00:01.800 --> 00:10.500
+Ad oggi, un'altra struttura di dati verso il basso sulle tabelle hash dovrebbe essere assolutamente adorabile perché sono
+
+00:10.500 --> 00:13.510
+molto utili e vengono utilizzate ovunque.
+
+00:13.680 --> 00:21.940
+E la cosa divertente è che è probabilmente la domanda di intervista più comune in cui si
+
+00:22.180 --> 00:30.790
+utilizza una tabella hash per ottimizzare qualcosa di simile a quello che abbiamo visto nella nostra domanda di
+
+00:30.790 --> 00:39.420
+intervista usando le tabelle hash ottimizziamo quei loop nidificati che sono tutti al quadrato su o in lineare tempo.
+
+00:39.420 --> 00:45.420
+Questa è una domanda che ti viene ripetutamente promessa, se notiamo questo schema,
+
+00:45.540 --> 00:52.050
+sarà estremamente utile per te in un'intervista e Indubbiamente avrai un'istanza in cui devi
+
+00:52.050 --> 00:57.190
+usarlo e seguire esattamente lo stesso passo in questa sezione.
+
+00:57.210 --> 01:04.830
+Abbiamo appreso che i tavoli hash hanno blocchi molto veloci, ma ricordati che abbiamo bisogno di una buona
+
+01:04.830 --> 01:11.640
+risoluzione di collisione, di solito non dobbiamo preoccuparci di questo perché il nostro linguaggio nel computer
+
+01:11.670 --> 01:13.830
+ci aiuta per quello.
+
+01:13.830 --> 01:22.020
+Ci consente di fare risposte rapide e, in base al tipo di tabelle hash come le
+
+01:22.290 --> 01:31.840
+mappe in javascript, possiamo avere chiavi flessibili invece di un array che ha indici 0 1 2 3 appena numerati.
+
+01:31.850 --> 01:35.950
+Il rovescio della medaglia con i tavoli hash è che si tratta di un ordine.
+
+01:35.990 --> 01:39.440
+È difficile davvero passare tutto in ordine.
+
+01:39.440 --> 01:42.560
+E ha anche l'iterazione della chiave lenta.
+
+01:42.590 --> 01:49.550
+Cioè se voglio prendere tutte le chiavi da una tabella hash dovrò passare attraverso l'intero spazio di
+
+01:49.880 --> 01:58.300
+memoria come abbiamo visto quando abbiamo creato la nostra tabella hash guardando il grande OTTF possiamo vedere che le tabelle hash hanno un
+
+01:58.300 --> 02:05.420
+inserimento di ricerca cancellazione di uno ma nel peggiore dei casi a causa di collisione ce ne sono alcuni.
+
+02:05.470 --> 02:09.200
+Tutte operazioni che potrebbero accadere.
+
+02:09.420 --> 02:16.550
+E se andiamo nella nostra mappa mentale, possiamo ora cancellare i nostri hash table dalla nostra lista.
+
+02:16.700 --> 02:19.920
+Comprendiamo la complessità dell'enorme.
+
+02:20.010 --> 02:26.550
+Comprendiamo anche che con le collisioni potremmo voler usare qualcosa come le liste concatenate di cui
+
+02:26.550 --> 02:29.390
+parleremo molto presto nel nostro esercizio.
+
+02:29.400 --> 02:32.190
+Abbiamo semplicemente usato gli array.
+
+02:32.230 --> 02:40.480
+Abbiamo anche imparato l'idea che le tabelle hash nelle interviste sono solitamente utili per migliorare la complessità del tempo,
+
+02:40.840 --> 02:43.620
+in particolare per i cicli annidati.
+
+02:43.650 --> 02:54.780
+Il compromesso è che possiamo avere un accesso veloce ma più memoria tornando alla nostra domanda che avevamo qualche lezione fa in cui
+
+02:55.530 --> 03:03.440
+dovevamo trovare l'elemento comune di due array che avevamo array uno e array due e dovevamo
+
+03:04.050 --> 03:08.930
+vedere se qualcuno di questi array contengono oggetti simili.
+
+03:09.000 --> 03:10.360
+Ne abbiamo avuto uno che no.
+
+03:10.650 --> 03:17.570
+E la seconda versione in cui x e x entrambi gli array contengono X, restituirebbe true.
+
+03:17.760 --> 03:25.320
+La nostra prima iterazione di quell'esercizio abbiamo dovuto usare 2 per i loop che erano nidificati.
+
+03:25.470 --> 03:38.210
+Quindi, creando una volta la complessità usando le mappe di hash, eravamo in grado di fare solo uno per loop
+
+03:38.840 --> 03:41.780
+e ottimizzare questa funzione.
+
+03:41.880 --> 03:49.590
+Come ho detto prima, questo è un modello così comune che ne parleremo più avanti nel corso.
+
+03:49.590 --> 03:57.200
+Quando parliamo di programmazione dinamica, se torniamo al nostro cheat sheet che ho condiviso con voi all'inizio di questo corso,
+
+03:57.200 --> 04:02.510
+ora possiamo cancellare alcune cose dalla lista di cui non abbiamo parlato nella
+
+04:03.440 --> 04:05.950
+lista di controllo del buon codice.
+
+04:06.440 --> 04:15.040
+Abbiamo parlato del buon uso delle strutture dati quando utilizzare le tabelle hash su una gara forse l'idea di riutilizzare il
+
+04:15.040 --> 04:21.430
+codice e non ripetersi è qualcosa che abbiamo seguito e dovrebbe essere familiare a tutti
+
+04:21.430 --> 04:22.210
+noi.
+
+04:23.350 --> 04:29.530
+Abbiamo anche parlato del codice modulare e rendendo il codice più leggibile che consente al codice di essere più
+
+04:29.530 --> 04:30.770
+gestibile e verificabile.
+
+04:30.790 --> 04:39.730
+Abbiamo parlato di come solitamente in un'intervista vogliamo evitare lo spettacolo e le operazioni al quadrato e abbiamo visto che siamo in
+
+04:39.730 --> 04:41.810
+grado di farlo con
+
+04:44.610 --> 04:53.250
+i tavoli hash ma abbiamo visto che con un hash table abbiamo dovuto aumentare la nostra complessità spaziale a tutti .
+
+04:53.250 --> 04:59.850
+E perché abbiamo creato questa nuova variabile che tiene traccia di tutti gli elementi nella matrice.
+
+05:00.090 --> 05:01.480
+Quindi questo è il compromesso.
+
+05:03.210 --> 05:09.030
+E poi possiamo passare qualche euristica per quelli che non lo sanno. Sicuramente gli errori sono
+
+05:09.420 --> 05:17.430
+come le regole o semplici trucchi che stanno per venire ripetutamente e ripetutamente che puoi usare in una hash map o
+
+05:17.430 --> 05:23.180
+in un hash table. di solito la risposta per migliorare la complessità del tempo.
+
+05:23.470 --> 05:28.080
+Ancora una volta le tabelle hash sono il modo migliore per ottimizzare il tuo codice.
+
+05:28.990 --> 05:35.230
+E guardando il tempo contro il compromesso dello spazio a volte la memorizzazione di stato e memoria extra come abbiamo fatto con
+
+05:35.230 --> 05:38.440
+le tabelle hash può aiutare il tempo o il runtime.
+
+05:39.260 --> 05:41.750
+E poi finalmente i compromessi spazio-tempo.
+
+05:41.750 --> 05:43.770
+Le tabelle hash di solito risolvono questo problema.
+
+05:43.820 --> 05:52.290
+Molto tempo usa più spazio ma puoi ottenere un'ottimizzazione temporale del processo.
+
+05:52.300 --> 05:58.930
+So che abbiamo parlato solo di due strutture di dati, ma penso che questi due siano i passi avanti
+
+05:58.930 --> 06:02.400
+più importanti che li utilizzeremo per conoscere gli altri.
+
+06:02.440 --> 06:03.790
+Buon lavoro arrivare così lontano.
+
+06:03.790 --> 06:08.300
+Fai una bella pausa, prendi un caffè e ci vediamo nel prossimo video.
+
+06:08.450 --> 06:08.690
+Buh-Bye.

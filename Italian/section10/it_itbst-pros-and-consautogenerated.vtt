@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.410 --> 00:07.580
+Riportali indietro prima di codificare il nostro albero di ricerca binario, passandoci sopra le implicazioni sulle prestazioni e il
+
+00:07.730 --> 00:11.310
+motivo per cui potremmo volerlo utilizzare su altre strutture di dati.
+
+00:11.440 --> 00:16.430
+I suoi punti di forza sono che ha davvero ottime prestazioni su tutta la linea.
+
+00:16.490 --> 00:22.590
+Hai visto che la maggior parte delle operazioni o tutte le operazioni in un albero di ricerca binario sono migliori di 0.
+
+00:22.640 --> 00:27.620
+Evento presupponendo che l'albero di ricerca binario sia ingarbugliato.
+
+00:27.730 --> 00:36.690
+È anche ordinato e poiché possiamo posizionare il nodo ovunque nella memoria possiamo solo avere dimensioni flessibili.
+
+00:36.690 --> 00:40.070
+Possiamo continuare a far crescere il nostro albero.
+
+00:40.080 --> 00:46.460
+Il rovescio della medaglia è che come avrete notato, non ha nessuna operazione 0 1.
+
+00:46.590 --> 00:53.770
+Di solito dobbiamo fare una sorta di attraversamento attraverso l'albero per qualsiasi tipo di operazione, quindi rispetto ad un array una ricerca, ad esempio, sarà
+
+00:53.770 --> 01:02.080
+molto più veloce perché abbiamo tutto il log n per le ricerche vs. se eseguiamo l'iterazione su un intero array se l'array è
+
+01:02.080 --> 01:09.480
+non ordinato, gli inserimenti e le eliminazioni sono anche più veloci della matrice più stretta, a meno
+
+01:09.480 --> 01:12.920
+che l'array non venga aggiunto alla fine.
+
+01:12.970 --> 01:18.790
+In caso contrario, gli array devono spostare tutti gli indici rispetto a un albero di ricerca binario.
+
+01:18.790 --> 01:23.350
+Questo è solo 0 di log in che dire rispetto alle tabelle hash.
+
+01:23.540 --> 01:32.030
+Bene, anche se le tabelle hash ci permettono di inserire e cercare a tempo costante con gli alberi di ricerca binari
+
+01:32.030 --> 01:40.490
+abbiamo dati ordinati e abbiamo anche questa struttura di relazione genitore figlio che non sarete in grado di ottenere molto con
+
+01:40.490 --> 01:47.300
+le tabelle hash una buona cosa da tenere in mente è che gli alberi di ricerca binaria
+
+01:47.300 --> 01:50.240
+non sono i più veloci per niente.
+
+01:50.280 --> 01:57.420
+Ricorda che le loro operazioni sono in genere sempre 0 di log e in media una matrice o un oggetto
+
+01:57.420 --> 01:59.040
+avranno un'operazione più veloce.
+
+01:59.310 --> 02:07.520
+Ma ci sono determinate condizioni in cui eseguono oggetti e array in modo che gli alberi di ricerca binari
+
+02:07.520 --> 02:08.950
+funzionino davvero bene.
+
+02:09.140 --> 02:14.780
+Fintanto che ti assicuri di stare lontano dai casi che abbiamo discusso e bilanciamo il
+
+02:14.780 --> 02:22.620
+nostro albero di ricerca binario, ma abbastanza parliamo abbastanza diapositive penso di capire e capire a fondo come funzionano gli alberi.
+
+02:22.620 --> 02:23.860
+Dovremmo codificare i nostri.
+
+02:24.240 --> 02:25.930
+Vedrò nel prossimo.

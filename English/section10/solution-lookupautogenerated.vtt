@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.890 --> 00:01.750
+Welcome back.
+
+00:02.150 --> 00:06.040
+Let's try and implement a look up function or the search function.
+
+00:06.110 --> 00:12.440
+We want to check if an item or a node exists in our tree.
+
+00:12.490 --> 00:14.920
+Let's see how we go about this.
+
+00:14.980 --> 00:19.930
+The first thing I would want to do is to check if there is such a thing as a root node.
+
+00:19.960 --> 00:22.470
+If it's empty.
+
+00:22.610 --> 00:25.280
+So I'm using I could have done this got.
+
+00:25.310 --> 00:27.650
+Equals equals equals no.
+
+00:27.980 --> 00:32.220
+To check if the route is empty or I can use the exclamation mark in Javascript.
+
+00:34.070 --> 00:40.600
+And we'll just say return false because if the root doesn't exist then it doesn't really matter.
+
+00:40.610 --> 00:43.470
+We're not going to find that note.
+
+00:44.680 --> 00:55.030
+Otherwise we're going to say once again let current note equal to this dot root very similar to what
+
+00:55.030 --> 00:56.380
+we did above.
+
+00:56.380 --> 01:03.780
+Remember we here and you'll notice some similarities with what we did when we did the answer.
+
+01:03.930 --> 01:12.390
+We still need to traverse through our tree but instead our while loop is going to stop whenever the
+
+01:12.420 --> 01:21.570
+current node no longer exists or we no longer have a node to go through because once we've gone through
+
+01:21.570 --> 01:26.390
+our binary search tree and it's null that means we didn't find what we're looking for.
+
+01:27.180 --> 01:34.670
+So in this case I'm simply going to say if the value that we're looking for is less than the current
+
+01:34.850 --> 01:36.140
+node value
+
+01:39.790 --> 01:46.420
+in that case the current node is going to equal current.
+
+01:46.450 --> 01:52.670
+Note the dot left because we now want to go left if the value is less than the current node value.
+
+01:52.720 --> 01:55.930
+That means it's not the same it's not the no we're looking for.
+
+01:56.050 --> 02:02.170
+So go left because that's where I can find something that might be less than the current note otherwise.
+
+02:02.230 --> 02:07.120
+And will you use an ELSE IF statement here which says another condition.
+
+02:07.150 --> 02:17.560
+So if that doesn't match if the current If the value is greater than the current node Daut value what
+
+02:17.560 --> 02:18.660
+do you think we do here.
+
+02:18.850 --> 02:20.600
+Well we go to the right.
+
+02:20.890 --> 02:26.480
+So we're going to say Curren node is now going to be current node Daut right.
+
+02:26.620 --> 02:31.520
+So we just keep checking to the right of us and then finally.
+
+02:31.520 --> 02:43.730
+Else if that is another condition and we can't say if current node is value equals the actual value
+
+02:43.730 --> 02:45.500
+that we're looking for.
+
+02:45.500 --> 02:46.730
+That means we got a match.
+
+02:46.730 --> 02:48.680
+That means that node exists.
+
+02:48.770 --> 02:52.300
+So we're just going to return the current note.
+
+02:52.610 --> 02:53.690
+Nice and simple.
+
+02:54.000 --> 03:00.020
+And then finally because we're not returning anything we'll just looping through the while loop until
+
+03:00.020 --> 03:07.150
+we find the current node where we return the current node or Kerno becomes null because we can't find
+
+03:07.160 --> 03:10.070
+anything if we don't find anything.
+
+03:10.120 --> 03:12.470
+Just return false.
+
+03:12.520 --> 03:20.190
+The only way we return something other than false is when we find our note with the matching value.
+
+03:20.290 --> 03:21.240
+So let's see this.
+
+03:21.460 --> 03:33.000
+If I now run tree dot look up 9 and I'm going to comment this out because we don't need to check that
+
+03:33.000 --> 03:34.160
+our tree is being made.
+
+03:34.260 --> 03:36.740
+If I run there you go.
+
+03:36.750 --> 03:42.890
+I get the 9 node that has reference to all the other nodes beneath it.
+
+03:42.930 --> 03:47.250
+If I look up 90 I'll get false because it doesn't exist.
+
+03:47.270 --> 03:51.000
+What about 20 which exists Yep we found 20.
+
+03:51.000 --> 03:56.250
+What about 170 Yeah we found 170.
+
+03:56.250 --> 04:04.230
+It's a node but has no left and right references because it's a leafnode and then finally 171 is false
+
+04:04.380 --> 04:07.850
+because it doesn't exist Walden.
+
+04:07.930 --> 04:08.980
+Getting this far.
+
+04:08.980 --> 04:12.820
+Hope you're able to implement your own binary search tree.
+
+04:12.970 --> 04:16.150
+Once you get the hang of it it's really not that bad.
+
+04:17.650 --> 04:23.470
+At the end of the day each line should make sense and traversing a tree should make sense to you by
+
+04:23.470 --> 04:24.250
+now.
+
+04:24.250 --> 04:33.160
+We also understand why we have big-O of log and although we have loops here like while loops we're not
+
+04:33.190 --> 04:37.870
+actually iterating through every single node we're only iterating using.
+
+04:37.900 --> 04:41.140
+Divide and conquer something that you'll hear a lot of.
+
+04:41.200 --> 04:46.910
+Divide and conquer simply means we're dividing up so that we don't visit all the notes.
+
+04:46.960 --> 04:52.200
+Each node that we visit we make a decision to go left or right.
+
+04:52.270 --> 04:53.690
+I'll see in the next one.
+
+04:53.920 --> 04:54.150
+Bobby.

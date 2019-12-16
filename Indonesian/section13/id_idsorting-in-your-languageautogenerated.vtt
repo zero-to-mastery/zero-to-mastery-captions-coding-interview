@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.130 --> 00:02.230
+Selamat datang kembali.
+
+00:02.360 --> 00:07.950
+Saya bertanya-tanya bagaimana, tetapi hanya video cepat untuk memberi tahu Anda tentang sesuatu yang menarik.
+
+00:08.800 --> 00:10.400
+Dan ini tergantung pada bahasa Anda.
+
+00:10.480 --> 00:17.990
+Tapi ingat metode pengurutan yang kami miliki dalam javascript atau mungkin bahasa Anda.
+
+00:18.150 --> 00:23.820
+Saya menantang Anda untuk mencari tahu algoritma penyortiran macam apa yang digunakannya di bawah tenda.
+
+00:24.680 --> 00:32.130
+Sekarang dalam kebanyakan kasus itu akan menjadi quicksort atau sortir sortir dan menggabungkan sortir digabungkan bersama.
+
+00:32.360 --> 00:38.650
+Jadi pergilah dan cari algoritma pengurutan apa yang digunakan bahasa Anda ketika datang ke javascript.
+
+00:38.660 --> 00:45.500
+Sebenarnya tidak ada persyaratan untuk javascript untuk algoritma pengurutan mana yang digunakan.
+
+00:45.500 --> 00:51.350
+Kami memiliki ECMAScript dalam javascript yang merupakan standar tetapi karena standar tidak menyebutkan
+
+00:51.440 --> 00:53.660
+bagaimana ini harus diterapkan.
+
+00:53.660 --> 00:57.260
+Browser yang berbeda yang memiliki mesin javascript yang berbeda.
+
+00:57.290 --> 01:02.490
+Chrome memiliki V8 Mozilla memiliki mesin Safari sendiri mesinnya sendiri.
+
+01:02.600 --> 01:04.800
+Mereka semua menerapkannya secara berbeda.
+
+01:05.580 --> 01:10.880
+Yah terakhir kali saya memeriksa di Mozilla mereka menggunakan semacam gabungan untuk menyortir.
+
+01:11.070 --> 01:19.950
+Dan di Chrome dan jenis mesin V-8 diimplementasikan dengan quicksort dan juga jenis penyisipan untuk penghapusan
+
+01:19.950 --> 01:22.220
+yang lebih kecil.
+
+01:22.300 --> 01:24.510
+Saya pikir itu menarik.
+
+01:24.560 --> 01:26.250
+Saya melihat di video berikutnya oleh.

@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.580 --> 00:09.100
+Welcome back up until this point we talked about sorting algorithm bubble sort insertion sort selection
+
+00:09.100 --> 00:12.920
+sort that were called elementary sorts.
+
+00:12.970 --> 00:16.370
+They were OK but they have those nested for loops.
+
+00:16.460 --> 00:23.810
+And most of the time it was all over and square which was a little bit slow.
+
+00:23.830 --> 00:25.390
+Can we do better.
+
+00:25.660 --> 00:27.050
+Well yes we can.
+
+00:27.310 --> 00:36.900
+We're going to encounter our last big show on our list o of and log and now in order to understand what
+
+00:37.020 --> 00:45.010
+all of N log and means we have to talk about our next sorting algorithm merge sort and quicksort.
+
+00:45.960 --> 00:50.520
+You see unlike bubble sort and insertion sort and selection sort.
+
+00:50.520 --> 00:53.730
+They use the technique that we've heard of before.
+
+00:53.940 --> 00:55.520
+Divide and conquer.
+
+00:55.620 --> 01:01.530
+We learned about this when learning about trees remember when looking through a phone book we open up
+
+01:01.530 --> 01:07.330
+that book not from the first page from the middle page and we keep breaking up the pages until we find
+
+01:07.330 --> 01:08.940
+the name we're looking for.
+
+01:09.770 --> 01:10.750
+And merge sort.
+
+01:10.760 --> 01:15.530
+And quicksort use this concept of divide and conquer.
+
+01:15.770 --> 01:23.360
+And the idea of recursion which we've talked about to divide the problem down to do work on each subset
+
+01:23.540 --> 01:26.250
+and then combining the solutions.
+
+01:26.310 --> 01:29.140
+Now we're going to see how this actually works.
+
+01:30.000 --> 01:35.970
+But I want to remind you that any time we see something like divide and conquer it usually gives you
+
+01:35.970 --> 01:38.330
+a log of an advantage.
+
+01:38.460 --> 01:42.450
+And as you can see here it is the last piece of the puzzle.
+
+01:42.710 --> 01:43.830
+Oh of and log.
+
+01:43.830 --> 01:48.900
+And that actually improves is better than all events squared.
+
+01:49.230 --> 01:55.620
+The next couple of sorting algorithms we're going to look at are now going to have nested for loops
+
+01:55.890 --> 02:02.760
+and have of hands and squared Instead they're going to have this time complexity which makes things
+
+02:03.060 --> 02:10.670
+a lot better and saves companies a lot of time in order to understand what this means.
+
+02:10.800 --> 02:16.980
+We have to start off with looking at Mirch sort Let's have a look at how it works and then I'm going
+
+02:16.980 --> 02:20.210
+to explain what the benefits are.
+
+02:20.330 --> 02:22.330
+We have the same list as before.
+
+02:22.680 --> 02:30.510
+We're going to take this list and actually divide it in half and then we're going to divide each of
+
+02:30.510 --> 02:33.160
+these subsets into half again.
+
+02:34.140 --> 02:43.370
+And then we're going to divide those salbe lists into half again until we have one item and once we
+
+02:43.370 --> 02:52.370
+have that divided up we're going to take the first item in second item and say hey which one should
+
+02:52.370 --> 02:53.490
+I put first.
+
+02:53.660 --> 03:02.700
+Let's put five first and then 6 right after and notice here how we're building a reverse tree in a sense
+
+03:03.510 --> 03:08.610
+then we look at three and one and say one and three.
+
+03:08.620 --> 03:11.560
+So we're getting closer and closer to that root note.
+
+03:11.750 --> 03:13.730
+We're comparing eight and seven.
+
+03:13.930 --> 03:18.330
+Seven comes before 8 2 and 4 2 before 4.
+
+03:18.520 --> 03:27.460
+And now we again combine those lists in reverse tree saying 5 and 1 which one comes first one comes
+
+03:27.550 --> 03:30.760
+first and then let's compare five and three.
+
+03:31.000 --> 03:39.270
+Three comes first then five and six then we look on the right side we say seven and two two comes before
+
+03:39.270 --> 03:40.300
+seven.
+
+03:40.390 --> 03:41.660
+What about seven and four.
+
+03:41.660 --> 03:43.860
+Four becomes before seven.
+
+03:43.870 --> 03:50.440
+And because we know that seven and eight are already sorted we just place seven and eight right next
+
+03:50.440 --> 03:51.440
+to each other.
+
+03:51.640 --> 03:58.120
+And then finally we combine these last two lists into our root node to combine the list and make it
+
+03:58.690 --> 04:06.100
+sorted one into three and four five.
+
+04:06.520 --> 04:13.380
+And then 6 7 and 8 and we have our sorted list.
+
+04:14.510 --> 04:21.620
+Now that looked extremely complicated a lot more complicated than the other sorting algorithms right.
+
+04:22.630 --> 04:29.470
+Mersch surd is one of the most efficient ways you can sort a list of things and typically is going to
+
+04:29.470 --> 04:32.970
+perform better than most other sorting algorithms.
+
+04:33.220 --> 04:37.750
+And in terms of complexity Well it's definitely more complex isn't it.
+
+04:37.780 --> 04:43.900
+We're using divide and conquer approach which should tip you off that it's going to use some sort of
+
+04:43.900 --> 04:45.100
+recursion.
+
+04:45.160 --> 04:52.630
+The first part of an log and that is an comes from the fact that we're still comparing everything we
+
+04:52.630 --> 04:58.650
+have to look at each one of the numbers and compare them in order to sort it.
+
+04:58.710 --> 05:10.130
+Now once we divide the list into one which finding the middle index of these things are actually of
+
+05:10.170 --> 05:13.270
+one because it's an easy mathematical operation.
+
+05:13.320 --> 05:17.030
+Get the length of the list and find the middle.
+
+05:17.130 --> 05:23.700
+But once we divide the array we need to sort the items which is going to take over and we have to look
+
+05:23.700 --> 05:32.360
+at every single item and actually sort them and were able to create the list but unlike bubble sort
+
+05:32.420 --> 05:39.830
+for example although we have to compare everything at least once we don't have to compare everything
+
+05:39.830 --> 05:47.270
+to everything like we did with bubble sort all we have to do is compare their local lists to each other
+
+05:47.930 --> 05:52.640
+remember with something like bubble sort or insertion sort.
+
+05:52.700 --> 06:01.350
+Once we went through the list once we then compared the next item to the rest of the list shirt is also
+
+06:01.350 --> 06:08.730
+helpful because it's what we call stable which just means that if you have equivalent elements that
+
+06:08.730 --> 06:16.720
+is let's say 6 and 6 or a name that is the same it will keep the original order in the array.
+
+06:18.310 --> 06:21.710
+And this can sometimes be important depending on the type of data.
+
+06:22.030 --> 06:23.940
+Let's have a look at its big-O.
+
+06:24.430 --> 06:35.180
+We see that merge sword has all of and log and with space complexity of of an unlike bubble sort insertion
+
+06:35.180 --> 06:36.890
+sort and selection sort.
+
+06:37.010 --> 06:44.980
+We have a bit of a bigger space complexity because we have to hold onto that divided up list and memory.
+
+06:45.050 --> 06:52.480
+So that is one downside of Merse sort but we've now managed to make our sorting algorithm a lot faster.
+
+06:53.530 --> 07:04.350
+Now how do we implement March sort I have here for you an exercise I want to warn you this is really
+
+07:04.440 --> 07:10.010
+difficult merge sort is really hard to implement and wrap your mind around.
+
+07:10.320 --> 07:15.510
+If you don't feel comfortable with recursion it's going to be a little bit tough.
+
+07:15.510 --> 07:21.540
+Keep in mind that I'm showing you here how to do it just for your own interest but most likely in an
+
+07:21.540 --> 07:26.820
+interview you're never going to be asked to implement your own merge sort.
+
+07:26.820 --> 07:31.890
+You're just going to be asked maybe how it's implemented and have created a little skeleton to help
+
+07:31.890 --> 07:32.690
+you out here.
+
+07:33.030 --> 07:39.310
+We have the merge sort that is going to have a function that takes an array.
+
+07:39.570 --> 07:46.290
+We have the base case because we're going to use recursion here saying that went array length is one.
+
+07:46.380 --> 07:48.840
+Remember there's only one item in the list.
+
+07:48.840 --> 07:53.370
+That is when each one of this is at the top in its own list.
+
+07:54.150 --> 07:58.550
+We're going to just return the array now in here.
+
+07:58.550 --> 08:08.080
+We're going to return and we're going to merge sort the left hand side and the right hand side and we're
+
+08:08.080 --> 08:16.500
+going to use this function merge that is going to merge the left hand and the right hand side.
+
+08:16.580 --> 08:24.110
+So the first step is for you to split the array down the middle in the left hand and right hand side
+
+08:24.320 --> 08:25.830
+in here.
+
+08:25.970 --> 08:32.850
+Then run it with the emersed sort algorithm and in the merge function.
+
+08:32.850 --> 08:36.290
+I want you to actually do the comparison.
+
+08:36.690 --> 08:40.320
+I don't expect you to get this right away.
+
+08:41.090 --> 08:42.970
+There's very few people that can do this.
+
+08:43.010 --> 08:49.670
+Half of the top of their head but see if you can use all your resources available are disk or community
+
+08:50.090 --> 08:54.920
+or even Google to figure out how to create your own sort.
+
+08:55.520 --> 08:58.530
+And I'll see you in the solution video by.

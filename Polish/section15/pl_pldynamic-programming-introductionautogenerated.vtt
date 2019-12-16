@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.950 --> 00:11.610
+Witamy w naszej ostatniej sekcji dotyczącej ostatniego brakującego algorytmu, a to znaczy, że dynamiczne programowanie brzmi
+
+00:11.970 --> 00:14.190
+bardzo ważnie, prawda?
+
+00:15.250 --> 00:24.340
+W tej sekcji przejdziemy przez ostatni fragment naszej mapy myśli, aby uzupełnić cały nasz wykres
+
+00:24.340 --> 00:25.140
+wiedzy.
+
+00:25.150 --> 00:27.100
+Jesteśmy gotowi na wywiady.
+
+00:27.160 --> 00:34.480
+To właśnie ten ostatni fragment dynamicznego programowania, w szczególności zapamiętywania, o którym będziemy
+
+00:34.480 --> 00:35.410
+mówić.
+
+00:35.830 --> 00:44.380
+Ale czym jest programowanie dynamiczne to tylko technika optymalizacji.
+
+00:44.520 --> 00:50.800
+A oto zabawne, że dynamiczne programowanie właściwie nic nie znaczy.
+
+00:50.940 --> 00:55.610
+To zupełnie modne śmiecie i nie żartuję.
+
+00:55.730 --> 01:01.530
+Wszystko to połączone jest z zabawnym artykułem o tym, jak się to nazywa, ale
+
+01:01.530 --> 01:07.420
+programowanie dynamiczne pod koniec dnia to tylko technika optymalizacji z użyciem czegoś, co nazywa się buforowaniem.
+
+01:07.460 --> 01:14.120
+Jeśli masz coś, co możesz dobrze zapisać w pamięci podręcznej, to może użyć programowania dynamicznego.
+
+01:14.130 --> 01:20.130
+Teraz zajmiemy się szczegółami tego, co to oznacza w kolejnych filmach, ale
+
+01:20.130 --> 01:28.260
+na wyższym poziomie programowania dynamicznego jest sposobem na rozwiązanie problemów poprzez podzielenie go na zbiór podtroblemów rozwiązujących
+
+01:28.740 --> 01:35.040
+każdy z tych problemów tylko jeden raz i przechowywanie ich rozwiązania w przypadku.
+
+01:35.040 --> 01:42.960
+Następnym razem pojawi się ten sam podproblem, ale przejdźmy do tego i zrozumiemy, co to znaczy, jak możemy
+
+01:42.960 --> 01:48.450
+go zaimplementować, aby stać się lepszym ankieterami, lepszymi inżynierami i lepszymi programistami.
+
+01:48.600 --> 01:50.740
+Zobaczę w następnym wideo przez.

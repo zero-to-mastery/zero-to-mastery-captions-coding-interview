@@ -1,0 +1,547 @@
+WEBVTT
+
+00:01.490 --> 00:08.040
+Acum că știm cum să folosim matricele acolo unde sunt repede acolo unde sunt lent, vom
+
+00:08.040 --> 00:15.690
+ajunge într-o parte care nu este crucială pentru interviuri, dar este bine să înțelegem cum funcționează și cum să
+
+00:15.690 --> 00:17.010
+construiască o matrice.
+
+00:17.010 --> 00:22.070
+Cel mai probabil intr-un interviu nu veti fi intrebat sa le construiti raza de la inceput.
+
+00:22.410 --> 00:30.690
+Dar vreau să-ți construiesc fundațiile pentru a înțelege o cursă de la un nivel fundamental.
+
+00:31.780 --> 00:35.730
+Deci, să construim o matrice pe noi înșine.
+
+00:35.820 --> 00:41.580
+Acum, în acest videoclip, vom folosi sintaxa de clasă în javascript, astfel că vom
+
+00:41.580 --> 00:48.750
+crea o clasă de matrice, chiar dacă cu javascript și multe alte limbi putem face acest lucru și am
+
+00:48.930 --> 00:50.270
+creat o matrice.
+
+00:50.280 --> 00:53.120
+Să vedem dacă putem construi una proprie.
+
+00:53.490 --> 01:00.210
+Pentru că, după cum veți afla, atunci când vom trece prin acest curs, structurile de date sunt pur și simplu lucruri pe care le
+
+01:00.210 --> 01:01.870
+putem construi de la zero.
+
+01:01.890 --> 01:04.140
+Putem crea orice structură de date dorim.
+
+01:04.140 --> 01:07.260
+Putem crea propria noastră structură de date.
+
+01:07.260 --> 01:13.590
+Cele mai comune structuri de date sunt bine cunoscute și sunt deja implementate în majoritatea limbilor deoarece
+
+01:13.590 --> 01:15.110
+sunt atât de utile.
+
+01:15.540 --> 01:23.520
+Dar puteți să construiți orice structură de date pe care o doriți de la zero și, după cum veți afla, cele mai multe structuri
+
+01:23.520 --> 01:27.140
+de date sunt construite pe lângă alte structuri de date.
+
+01:27.890 --> 01:33.950
+Acum, pentru a începe, vom crea o matrice în javascript, dar doar un heads-up.
+
+01:34.100 --> 01:41.690
+Javascript-ul este un pic de interes în cazul în care arrays în javascript sunt doar obiecte cu chei pe baza de intreg care
+
+01:41.750 --> 01:45.740
+se comporta ca indexuri si asta este ceea ce vom construi.
+
+01:45.920 --> 01:49.070
+Diferitele limbi vor avea această implementare în mod diferit.
+
+01:49.070 --> 01:56.980
+Dar ceea ce vom învăța aici se va aplica în continuare modului în care arracile funcționează în alte limbi.
+
+01:57.050 --> 02:01.310
+Așa că vom începe să creăm o clasă.
+
+02:01.330 --> 02:11.530
+Să începem cu crearea unei clase și o vom numi matricea mea.
+
+02:11.720 --> 02:19.570
+Și în interiorul matricei va avea un constructor care este funcția inițială care va fi rulată
+
+02:20.110 --> 02:27.130
+când vom crea acest Mirei și acest constructor va avea două puncte de date.
+
+02:27.220 --> 02:35.830
+Una este proprietatea lungime, deoarece cu o matrice putem determina lungimea matricei iar lungimea inițială
+
+02:36.100 --> 02:38.370
+va fi zero.
+
+02:38.410 --> 02:45.330
+Acesta este modul în care multe elemente au matricea și atunci vom avea în mod evident datele din matrice.
+
+02:45.470 --> 02:48.710
+Și acesta va fi un obiect.
+
+02:48.740 --> 02:56.390
+Acum, ceea ce este cea mai comună acțiune pe care o avem într-o matrice a fost accesul la accesul la date.
+
+02:56.630 --> 03:04.410
+Deci, haideți să creați o metodă de obținere și această metodă de obținere va lua un indice pentru a apuca de fapt datele
+
+03:04.500 --> 03:05.530
+din memorie.
+
+03:05.640 --> 03:16.310
+Așa că am să spun doar returnați aceste date punct și dacă acest cuvânt cheie este confuz pentru tine asigurați-vă că
+
+03:16.430 --> 03:18.640
+ați spălat video precedent.
+
+03:18.650 --> 03:23.630
+Aceste date se referă doar la datele pe care le-am creat în constructor.
+
+03:23.840 --> 03:32.270
+Și vom reveni doar la datele pe care le cerem.
+
+03:32.290 --> 03:35.090
+Să vedem cum ar funcționa acest lucru în acțiune.
+
+03:36.590 --> 03:44.490
+Pentru a crea un nou Mirei tot ce trebuie să facem este să spunem Konst noua
+
+03:47.520 --> 03:59.770
+matrice și vom folosi noul cuvânt cheie în javascript pentru a instanțiza acest lucru sau pentru a crea o copie a acestei clase ca aceasta.
+
+03:59.770 --> 04:12.240
+Deci, acum dacă fac consola de dialog noi matrice și fac clic pe Run obtin matricea mea care are lungimea proprietății de 0
+
+04:12.480 --> 04:15.650
+și datele care sunt goale.
+
+04:15.770 --> 04:25.010
+Dacă fac noul punct de matrice obține indice zero de zero am fost nedefinit.
+
+04:25.370 --> 04:36.110
+Ei bine, pentru că nu există nimic în acest obiect, nu avem idei și Javascript are automat tipul definit
+
+04:36.180 --> 04:39.490
+atunci când nu există nimic.
+
+04:39.860 --> 04:46.500
+Să adăugăm următoarea metodă care este metoda push pentru a adăuga ceva la sfârșitul matricei.
+
+04:46.580 --> 04:54.310
+Așa că am de gând să creez o metodă de împingere și această metodă va lua un element pe care îl vom da,
+
+04:54.320 --> 04:58.280
+iar aici vom adăuga pur și simplu acest lucru la date.
+
+04:59.110 --> 05:05.750
+Peste obiect o va adăuga la lungimea elementului nostru.
+
+05:05.780 --> 05:10.140
+Deci, avem elemente zero și lungimea este 0.
+
+05:10.250 --> 05:12.600
+Aceasta va adăuga datele.
+
+05:12.650 --> 05:23.650
+Acest indice DOD de date zero și indicele zero vor conține acum elementul și pentru că dorim să
+
+05:23.650 --> 05:37.280
+păstrăm adăugarea de elemente dacă vrem să spunem acest punct lenth plus plus deoarece acum matricea noastră are o lungime de 1
+
+05:37.280 --> 05:40.080
+în loc de 0.
+
+05:40.310 --> 05:47.570
+Data viitoare când vom rula metoda push, acest lenth va fi 1 și noul element va fi adăugat
+
+05:47.660 --> 05:49.750
+la indexul de 1.
+
+05:49.920 --> 05:55.210
+Și să ne întoarcem doar acest punct pentru moment.
+
+05:56.540 --> 06:02.830
+Deoarece metoda tipică de împingere în javascript va reveni, de obicei, lungimea matricei.
+
+06:02.840 --> 06:05.220
+Hai să vedem ce se întâmplă.
+
+06:05.240 --> 06:09.600
+O să spun asta aici.
+
+06:09.610 --> 06:10.000
+Bine.
+
+06:10.150 --> 06:16.230
+Vom avea un nou punct de tip matrix și o să împingem.
+
+06:17.400 --> 06:27.420
+Dacă execut acest lucru văd că am lungimea matricei mele 1 datele vor avea o proprietate 0 0.
+
+06:27.460 --> 06:28.790
+Salut frumos.
+
+06:28.990 --> 06:38.440
+Dacă adăugăm un alt lucru, să facem noi împingeri și să vă spunem că dacă execut acest lucru, am două luni.
+
+06:38.440 --> 06:46.640
+Acum, cu indicele de 0 adăugați un indice mare sau indicele de 0 are indicele ridicat de unul pe care îl aveți.
+
+06:46.660 --> 06:47.630
+Foarte tare.
+
+06:48.400 --> 06:49.200
+Ce altceva putem face.
+
+06:49.240 --> 06:54.570
+Ei bine, să adăugăm comanda pop pentru a elimina ultimul element al matricei.
+
+06:55.500 --> 07:01.100
+Încă o dată avem metoda pop care nu primește nimic.
+
+07:01.110 --> 07:02.910
+Nu trebuie să-i transmitem un parametru.
+
+07:03.120 --> 07:07.170
+Tot ce trebuie să faceți este să ștergeți ultimul element din matrice.
+
+07:07.230 --> 07:10.010
+Putem pur și simplu să avem o variabilă.
+
+07:10.140 --> 07:17.680
+Să spunem ultimul element care capturează ultimul element din obiectul nostru de date.
+
+07:17.700 --> 07:26.300
+Deci, acest lucru va fi pur și simplu acest indice DOD de date de lenth minus un membru.
+
+07:26.320 --> 07:32.310
+Vrem indicele unuia, chiar dacă lungimea sa, deoarece numărăm 0 1.
+
+07:32.560 --> 07:42.730
+Vrem ultimul element din date și de aici putem folosi cuvântul cheie de ștergere în javascript
+
+07:42.730 --> 07:49.480
+și spunem acest punct la acest punct lenth minus 1.
+
+07:49.570 --> 07:56.190
+Doar ștergeți acel element și, evident, trebuie să scădem.
+
+07:56.320 --> 08:04.310
+Deci, doar stenograma aici și javascript pentru a reduce lungimea datelor noastre de unul.
+
+08:04.460 --> 08:09.990
+Și apoi, în cele din urmă, putem returna elementul pe care l-am șters.
+
+08:10.000 --> 08:17.510
+Deci, dacă mai conduc o altă comandă și după cum ați putea vedea aici că mi-am pierdut semicolorii în
+
+08:17.510 --> 08:18.090
+javascript.
+
+08:18.110 --> 08:20.820
+De cele mai multe ori, puteți să scăpați fără a adăuga semi-colonii.
+
+08:20.840 --> 08:24.740
+Și unii oameni nu folosesc semi-colonii deloc în javascript.
+
+08:24.740 --> 08:26.270
+Nu te distra prea mult de asta.
+
+08:26.270 --> 08:30.380
+Uneori uit și nu este chiar important pentru scopurile noastre.
+
+08:30.560 --> 08:40.750
+Să adăugăm un element nou la matricea care va fi punctul de exclamare și o să-mi
+
+08:41.170 --> 08:56.120
+spun popul meu sau noul Peridot dacă execut acest lucru Am o eroare spunând articol deoarece acesta ar trebui să fie ultimul element aici.
+
+08:56.130 --> 08:57.360
+Să o facem din nou.
+
+08:57.550 --> 09:00.580
+Și vedem că ești mare.
+
+09:00.790 --> 09:03.600
+Deoarece marcajul de însumare a fost șters.
+
+09:03.610 --> 09:05.480
+Dacă alerg din nou pop,
+
+09:08.380 --> 09:13.620
+văd că am un lenth de unul singur și numai de mare rămas foarte cool.
+
+09:15.360 --> 09:21.900
+Să adăugăm încă o ultima și să vă arăt de ce unele operații dintr-o cursă sunt 0.
+
+09:21.990 --> 09:25.750
+Apoi vom adăuga metoda de ștergere și metoda de
+
+09:28.990 --> 09:33.630
+ștergere va lua un index care element pe care dorim să îl ștergem.
+
+09:35.890 --> 09:39.610
+Și aici trebuie să facem un cost.
+
+09:39.610 --> 09:46.980
+Deci, vom crea o referință la acest index de date punct, care este elementul pe care dorim să îl ștergem.
+
+09:48.820 --> 09:51.910
+Și cum vom șterge acest lucru.
+
+09:51.910 --> 10:00.340
+Deoarece ne amintim într-o matrice, va trebui să ștergem elementul, apoi să schimbăm indexul tuturor celorlalte
+
+10:00.340 --> 10:10.110
+tipuri de date cu unul, deoarece dorim să urmăm practici bune de codificare folosind ideea unui principiu de responsabilitate
+
+10:10.110 --> 10:11.120
+unică.
+
+10:11.130 --> 10:17.820
+Să adăugăm o funcție notter care face acest lucru pentru noi care face schimbarea de date pentru noi.
+
+10:17.910 --> 10:27.510
+Voi crea o nouă metodă și vom face acest lucru în javascript folosind aceste elemente de schimbare de sintaxă și
+
+10:27.780 --> 10:33.860
+această metodă va lua indicele pe care l-am primit aici și ștergerea.
+
+10:33.880 --> 10:42.890
+Acum, aceste elemente de schimbare putem să le creăm aici și să salvăm acea metodă de schimbare a elementelor.
+
+10:43.050 --> 10:49.050
+Și de modul în care folosesc cuvintele funcția și metodele interschimbabile, uneori metoda pur și simplu
+
+10:49.530 --> 10:53.520
+înseamnă că este o funcție în cadrul unei clase.
+
+10:53.520 --> 10:59.730
+Deci, aceste elemente de schimb vor fi o metodă a matricei mele.
+
+11:00.600 --> 11:01.790
+Dar este o funcție.
+
+11:01.830 --> 11:10.920
+Deci, această funcție, care este o metodă a lui Mirei, va avea parametrul indexului trecut în ea.
+
+11:11.140 --> 11:13.090
+Și aici lucrăm la niște lucruri amuzante.
+
+11:13.150 --> 11:15.770
+Va trebui să trecem prin ele.
+
+11:15.940 --> 11:23.350
+Deci, aceasta este o buclă pentru care imediat ar trebui să sune clopotul și să spunem că acesta este un O al
+
+11:23.350 --> 11:30.200
+unei operațiuni pe care o vom avea un indice de zero sau am zero, de fapt, în loc de zero.
+
+11:30.200 --> 11:40.130
+Amintiți-vă pentru că vrem să schimbăm elementele nu toate, ori de câte ori indexul pornește de la indicatorul nostru.
+
+11:40.470 --> 11:44.720
+Și acum va trebui să fiu studentul ăsta.
+
+11:45.120 --> 11:50.630
+Deci, eu sunt mai puțin decât acest lenth minus unul.
+
+11:50.820 --> 11:57.790
+Și vom crește cu câte o dată de fiecare dată prin bucla din cadrul acestei buclă tot
+
+11:57.790 --> 12:08.660
+ceea ce vom face este să spunem că datele de date noastre datele noastre la fiecare indice pe care am buclă prin intermediul se va egala acest
+
+12:09.630 --> 12:13.420
+punct de date la I plus un .
+
+12:13.860 --> 12:23.610
+Ce sa întâmplat aici, bine spunem că începem la indexul pe care dorim să îl ștergem și să
+
+12:23.790 --> 12:26.520
+îl iteram până la capăt.
+
+12:26.820 --> 12:35.970
+Și în această buclă vreau să luați fiecare element în datele pe care le avem și în loc de ceea ce a avut înainte de a
+
+12:36.150 --> 12:41.250
+fi vrut să adăugați datele care sunt chiar lângă ea în plus 1.
+
+12:41.610 --> 12:45.920
+Așadar, am avut o matrice care este zero și 2.
+
+12:46.410 --> 12:57.170
+Spun din indexul de 0 de aici, vreau ca acum sa facem 0 egal cu 2.
+
+12:57.200 --> 12:59.360
+Deci, indicatorul E-plus va.
+
+12:59.520 --> 13:07.020
+Deci, schimbăm elementele din stânga cu 1.
+
+13:07.200 --> 13:09.220
+Deci ne-am mutat aici.
+
+13:09.420 --> 13:19.780
+Toate elementele unul la stânga și pentru că am făcut că indicele pe care l-am dat pentru ștergere se
+
+13:19.780 --> 13:25.380
+înlocuiește automat, pentru că acel ochi va fi înlocuit.
+
+13:26.520 --> 13:37.240
+Acum, există o problemă aici, deoarece acum ultimul element din matrice care este acest punct de date la acest punct
+
+13:37.330 --> 13:45.100
+lenth minus 1, care este ultimul element din matrice va exista în continuare.
+
+13:45.460 --> 13:54.430
+Am schimbat totul cu unul, dar nu am atins nici ultima noapte, pentru că ne-am oprit când
+
+13:54.760 --> 13:59.280
+sunt mai puțin decât această lungime minus unul.
+
+13:59.320 --> 14:03.620
+Deci, aceasta este încă plină.
+
+14:03.700 --> 14:09.800
+Deci voi comenta acest lucru și vă voi arăta ce se va întâmpla dacă o lăsăm așa.
+
+14:09.910 --> 14:11.470
+Voi rula
+
+14:14.420 --> 14:23.560
+noua ștergere a matricei și voi elimina comenzile pop pentru acum și în ștergerea voi
+
+14:23.590 --> 14:27.540
+spune că vreau să șterg articolul U.
+
+14:27.580 --> 14:32.710
+Deci asta e indicele de 1 5 alerga asta.
+
+14:32.920 --> 14:37.200
+Mă ridic, ești șters.
+
+14:37.480 --> 14:40.760
+Dar atunci am un semn de exclamare un indice de 1.
+
+14:40.780 --> 14:43.410
+Deci schimbarea funcționează dar indică 2.
+
+14:43.420 --> 14:50.670
+Aveam încă semnul exclamării, pentru că în timp ce nu l-am șters niciodată, am schimbat totul odată, dar nu am
+
+14:50.670 --> 14:51.750
+atins niciodată.
+
+14:51.840 --> 14:52.930
+Indexul a două.
+
+14:53.280 --> 15:03.130
+Deci, tot ce trebuie să facem pentru a scăpa de acest lucru este cuvântul cheie ștergeți pentru a șterge ultimul element
+
+15:03.340 --> 15:09.330
+și, evident, pentru a ne documenta lungimea, deoarece ștergem doar un element.
+
+15:09.440 --> 15:13.980
+Putem face acest Dodd lenth minus minus.
+
+15:14.060 --> 15:21.560
+Dacă facem asta acum, uită-te la acea lungime de două semne de exclamare.
+
+15:21.580 --> 15:25.250
+Să jucăm o rundă pentru a ne asigura că totul funcționează aici.
+
+15:25.330 --> 15:31.700
+Dacă spunem că mai adaug câteva comenzi de împingere aici și vom spune că sunt aici.
+
+15:32.250 --> 15:33.740
+Bună, tu ești.
+
+15:33.850 --> 15:43.460
+Și apoi să spunem frumos dacă am rula acest lucru I a lua mare semn de exclamare sunt frumos.
+
+15:43.530 --> 15:44.310
+Asta nu are sens.
+
+15:44.310 --> 15:45.990
+Să schimbăm acest lucru la zero.
+
+15:45.990 --> 15:49.020
+Pentru a elimina nivelul ridicat.
+
+15:49.020 --> 15:51.720
+Dacă conduc asta, te prind.
+
+15:51.720 --> 15:54.950
+Semnul de exclamare este frumos.
+
+15:55.260 --> 15:56.540
+Încă nu are sens.
+
+15:56.550 --> 16:00.710
+Să eliminăm semnul exclamării, astfel încât numai câțiva dintre ei sunt drăguți.
+
+16:00.810 --> 16:03.870
+Voi conduce noua matrice.
+
+16:04.720 --> 16:09.760
+Și putem șterge indexul de 1 care este semnul exclamării.
+
+16:10.020 --> 16:11.760
+Și să vedem ce avem.
+
+16:11.910 --> 16:20.670
+Apoi conduc asta, mă simt bine.
+
+16:20.720 --> 16:24.580
+Acum puteți privi acest lucru și doriți să adăugați propriile metode.
+
+16:24.770 --> 16:34.100
+S-ar putea să doriți să spunem aici aici returnați ultimul element ca o referință care funcționează în
+
+16:34.460 --> 16:35.190
+Javascript.
+
+16:36.340 --> 16:43.360
+Dar cred că deocamdată aveți o înțelegere a modului în care funcționează matricea și modul în care sunt implementate
+
+16:43.360 --> 16:44.230
+sub capotă.
+
+16:44.260 --> 16:49.070
+Avem simple toate comenzile care sunt cu adevărat frumoase.
+
+16:49.180 --> 16:56.670
+Dar, de îndată ce trebuie să începem să schimbăm indicii și să schimbăm lucrurile, trebuie să ne bifăm lucrurile
+
+16:56.790 --> 17:00.930
+care o fac un eveniment sau un timp liniar.
+
+17:00.980 --> 17:06.860
+Am să vă las acest lucru ca pe un loc de joacă după această lecție, ca să puteți adăuga lucrurile
+
+17:06.870 --> 17:12.050
+proprii, poate să le scrieți în limbi diferite și să explorați un pic mai mult într-o cursă.
+
+17:12.230 --> 17:14.260
+Dar acest videoclip este deja lung.
+
+17:14.270 --> 17:17.890
+Nu vreau să mă plictisesc acum, așa că voi vedea în următorul videoclip.
+
+17:17.990 --> 17:18.290
+Buh-Pa.

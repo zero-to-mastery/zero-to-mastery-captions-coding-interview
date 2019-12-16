@@ -1,0 +1,220 @@
+WEBVTT
+
+00:01.910 --> 00:02.990
+Bine ai revenit.
+
+00:02.990 --> 00:07.510
+Să ne uităm la regula numărul doi, care este să eliminăm constantele.
+
+00:07.910 --> 00:08.770
+Să vedem ce vreau să spun.
+
+00:10.230 --> 00:14.400
+Am scris aici cea mai ridicolă funcție de până acum.
+
+00:14.400 --> 00:21.520
+Funcția este de a imprima primul element, apoi prima jumătate, apoi spune hi de o sută de ori.
+
+00:21.630 --> 00:28.920
+Probabil nu cea mai bine numită funcție vreodată, dar pe măsură ce numele
+
+00:28.930 --> 00:40.400
+descrie tot ce facem este că vom anula logul primului element din matrice și apoi vom imprima prima jumătate a elementelor.
+
+00:40.430 --> 00:44.340
+Așa că găsesc indexul de mijloc al articolelor.
+
+00:44.360 --> 00:52.730
+Deci spun că articolele au o lungime împărțită la două și eu folosesc etajul de matematică aici în javascript ca o modalitate
+
+00:52.730 --> 00:58.830
+de a ne asigura că vom obține un număr întreg și vom spune indicii variabili 0.
+
+00:58.840 --> 01:08.480
+Eu folosesc o buclă largă aici în loc de o buclă pentru și spun că atâta timp cât indicele de mijloc este mai
+
+01:08.690 --> 01:09.970
+mare decât zero.
+
+01:10.130 --> 01:12.920
+Vreau să consolezi jurnalul articolelor.
+
+01:12.920 --> 01:19.160
+Deci, asta inseamna consola log prima jumatate a elementului am avut 10 elemente.
+
+01:19.160 --> 01:22.200
+Mă voi consola să înregistrez primele cinci elemente.
+
+01:23.610 --> 01:32.790
+Și apoi voi face un altul pentru buclă și spun că sunt Konsole logare de mare 100 de ori destul de inutil
+
+01:32.790 --> 01:33.790
+mi-ar spune.
+
+01:33.840 --> 01:35.300
+Nu este o funcție foarte utilă.
+
+01:36.420 --> 01:38.980
+Care este pasul mare al acestei funcții.
+
+01:39.270 --> 01:48.680
+Bine căutând aici, va fi mare O de aici.
+
+01:48.970 --> 02:00.430
+Deci avem unul pentru logarea primelor elemente, atunci avem jumătate din ele.
+
+02:00.540 --> 02:07.440
+Deci, în acest caz și împărțiți-l cu două deoarece, deși avem o buclă pentru buclă sau o buclă WHILE, suntem doar
+
+02:07.500 --> 02:10.230
+logați jumătate de articole de fiecare dată.
+
+02:10.230 --> 02:13.010
+Așa că am putea să facem și să împărțim câte două.
+
+02:13.260 --> 02:16.390
+Și apoi, în sfârșit, facem o buclă.
+
+02:16.410 --> 02:18.310
+Dar din nou acest lucru este un truc.
+
+02:18.420 --> 02:21.070
+Nu ne confruntăm cu matricea elementelor.
+
+02:21.180 --> 02:24.920
+Avem doar 100, indiferent cât de mare este matricea elementelor.
+
+02:25.080 --> 02:27.090
+Aceasta va fi întotdeauna 100.
+
+02:27.180 --> 02:29.200
+Deci eu spun doar plus o sută.
+
+02:29.310 --> 02:37.730
+Acesta este un alt pas deoarece din nou adăugăm fiecare dintre pașii pe care îi vedem aici.
+
+02:37.740 --> 02:46.720
+Deci, acesta este big-O pentru această funcție, dar statul numără două state pe care dorim să-l abandonăm.
+
+02:46.720 --> 02:57.630
+Pur și simplu spunem că nu ne pasă că acest mare O este de fapt și se împarte cu doi plus 101.
+
+02:57.820 --> 03:02.660
+Amintiți-vă într-un interviu că ne pasă de lucrurile pe care le-am văzut pe diagramă.
+
+03:03.130 --> 03:04.790
+Nimic specific ca asta.
+
+03:04.810 --> 03:07.250
+Deci, aceasta se transformă într-una.
+
+03:07.630 --> 03:16.030
+Și acest lucru, deși este împărțit pe jumătate în marea schemă a lucrurilor pe care ni le pasă doar când scade
+
+03:16.330 --> 03:19.940
+când intrările devin din ce în ce mai mari.
+
+03:19.960 --> 03:27.490
+Deci, pe măsură ce devine tot mai mare și mai mare, nu ne pasă de adăugarea unui supliment de 100, pentru că dacă n este
+
+03:27.490 --> 03:31.630
+un milion adăugând o suta suplimentară acolo, încă 100 de pași nu contează.
+
+03:31.870 --> 03:40.270
+Și același lucru cu împărțirea albei la și cu divizarea mai mare și mai mare de două are un efect descrescător
+
+03:40.270 --> 03:41.020
+semnificativ.
+
+03:41.050 --> 03:49.820
+Așa că am lăsat constantele de genul acesta, astfel încât acest lucru devine tot un plus un OK.
+
+03:49.990 --> 03:56.320
+Și pentru că unul și un milion este foarte nesemnificativ.
+
+03:56.650 --> 03:58.090
+Putem doar să renunțăm la asta.
+
+03:58.150 --> 04:01.150
+Această funcție doar devine oh.
+
+04:01.570 --> 04:13.010
+Ce-ar fi dacă am avea o altă funcție care să zicem un plus de 50 sau 50 cu o tona de zerouri.
+
+04:13.010 --> 04:14.080
+Nu contează cu adevărat.
+
+04:14.090 --> 04:17.360
+Am renunțat la constante.
+
+04:17.480 --> 04:21.570
+O sa fie ok ok ce se intampla cu cealalta situatie.
+
+04:23.150 --> 04:24.940
+Dacă avem această funcție aici.
+
+04:25.130 --> 04:32.600
+Se compară cutii de două ori în cazul în care această funcție de fapt are două patru bucle, în cazul în care face
+
+04:32.600 --> 04:34.880
+același lucru, dar sunt două patru bucle.
+
+04:34.880 --> 04:38.880
+Deci, toți am fost în această chestiune.
+
+04:38.930 --> 04:47.480
+Și apoi pentru o buclă IN THIS FOR și pentru că aceștia sunt doi pași separați, în timp
+
+04:48.410 --> 04:54.130
+ce le adăugăm împreună, devine un plus al unui apel de doi.
+
+04:54.140 --> 05:01.790
+Și din nou, într-un interviu, acest lucru nu contează cu adevărat pentru că renunțăm la constante și dacă renunțăm
+
+05:01.790 --> 05:05.500
+la constante cu ce se potrivește această funcție.
+
+05:05.600 --> 05:11.050
+Ei bine, doar ca un eveniment care să dovedească faptul că nu mint pentru tine.
+
+05:11.080 --> 05:20.020
+Dacă ne uităm la această funcție pe graficul nostru vedem că elementele ca elemente cresc.
+
+05:20.020 --> 05:23.860
+Avem două operațiuni deoarece avem două patru bucle.
+
+05:24.040 --> 05:29.350
+Dacă avem două elemente în acest caz, facem patru operațiuni.
+
+05:30.230 --> 05:37.390
+Dacă avem trei, atunci facem două, trei, patru, șase și vedem cum crește.
+
+05:37.490 --> 05:43.870
+Dar, la sfârșitul zilei, chiar dacă linia este mai abruptă, avem mai multe operațiuni de făcut.
+
+05:44.150 --> 05:53.120
+Modul în care crește linia este încă liniară și asta e cheia aici, cu mare-O, nu ne pasă de
+
+05:53.330 --> 05:55.860
+cât de abruptă este linia.
+
+05:55.940 --> 06:05.000
+Ne pasă de modul în care linia se mișcă pe măsură ce creșterile noastre de intrare ne fac viața mult mai simplă, nu o face.
+
+06:05.820 --> 06:08.100
+Așadar amintiți-vă că scăpați constantele
+
+06:08.100 --> 06:12.960
+Niciodată nu vei vedea numere în nota Big O.
+
+06:12.960 --> 06:21.560
+Cel mai probabil notațiile pe care le-am văzut în trecut în graficul nostru În mod obișnuit, aceste și
+
+06:21.560 --> 06:32.050
+singura dată când vedeți numere este atunci când aveți una sau două pătraturi sau două la puterea unui care vom ajunge mai
+
+06:32.050 --> 06:32.980
+târziu.
+
+06:32.990 --> 06:35.750
+Nu vă faceți griji pe care o voi vedea în următorul videoclip.

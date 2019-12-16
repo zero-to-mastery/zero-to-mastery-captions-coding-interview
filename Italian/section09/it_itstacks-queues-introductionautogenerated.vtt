@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.080 --> 00:02.250
+Ben tornato.
+
+00:02.580 --> 00:11.160
+Parliamo di alcune nuove strutture dati qui abbiamo stack e Qs Q con probabilmente l'ortografia più confusa
+
+00:11.220 --> 00:13.500
+di tutti i tempi.
+
+00:13.500 --> 00:18.860
+Non preoccuparti, anche io, che sono fluente in inglese, ho davvero difficoltà a scrivere questo.
+
+00:18.900 --> 00:20.380
+Ma è spunto.
+
+00:20.430 --> 00:27.120
+Ad ogni modo non preoccuparti, la struttura dei dati non è così confusa come l'ortografia di questa struttura di dati.
+
+00:27.810 --> 00:34.820
+Impareremo allo stesso tempo pile in coda perché sono molto simili.
+
+00:34.860 --> 00:42.450
+Sono entrambe quelle che chiamiamo strutture dati lineari e strutture di dati lineari che ci permettono di attraversare
+
+00:42.450 --> 00:51.750
+che passa attraverso gli elementi di dati in sequenza uno per uno in cui è possibile raggiungere direttamente un solo elemento di dati.
+
+00:51.750 --> 00:57.420
+E questo ti diventerà più chiaro mentre parliamo di stack e code nei prossimi
+
+00:57.420 --> 00:58.410
+due video.
+
+00:59.150 --> 01:06.860
+Ora il motivo per cui questi sono molto simili è che possono essere implementati in modi simili e la principale differenza
+
+01:06.920 --> 01:12.690
+è solo il modo in cui gli oggetti vengono rimossi da questa struttura di dati.
+
+01:12.740 --> 01:18.830
+A differenza di un array in stack nelle code, non ci sono operazioni di accesso casuale.
+
+01:18.830 --> 01:24.500
+Utilizzi principalmente stack e code per eseguire comandi come push peak pop.
+
+01:24.980 --> 01:31.480
+Tutto ciò riguarda esclusivamente l'elemento all'inizio o alla fine della struttura dei dati.
+
+01:31.490 --> 01:35.500
+Ora, dopo aver detto quello che è stato il tuo primo pensiero.
+
+01:35.690 --> 01:39.200
+È un po 'come limitare il suono con pile e code.
+
+01:39.350 --> 01:45.590
+Solitamente, possiamo accedere solo al primo o all'ultimo elemento e alla struttura dei dati.
+
+01:45.620 --> 01:48.170
+Perché dovremmo voler usare qualcosa di simile.
+
+01:48.920 --> 01:51.560
+E questo è un argomento importante nell'informatica.
+
+01:51.680 --> 01:59.390
+Vedrai che possiamo costruire cose come stack e Qs che usano array o liste concatenate tranne che a differenza di array
+
+01:59.840 --> 02:07.820
+e liste collegate abbiamo meno metodi o meno azioni che possiamo eseguire su stack e Qs ea volte è bene avere
+
+02:07.820 --> 02:14.950
+questi dati di livello superiore strutture che sono costruite in cima a quelle di livello inferiore come liste e
+
+02:14.950 --> 02:20.470
+matrici collegate per limitare le operazioni che si possono fare su di esse.
+
+02:20.470 --> 02:23.580
+Questo è in realtà un vantaggio in informatica.
+
+02:23.620 --> 02:30.370
+Avere questa capacità limitata su una struttura dati è un vantaggio perché puoi controllarlo.
+
+02:30.370 --> 02:36.790
+Chiunque usi questa struttura dati esegue solo le proprie operazioni di scrittura che sono efficienti.
+
+02:36.790 --> 02:43.420
+Se offri a qualcuno tutti gli strumenti del mondo è molto più difficile per loro operare che se tu
+
+02:43.420 --> 02:48.320
+li dia solo due o tre in modo che sappiano esattamente cosa devono fare.
+
+02:48.340 --> 02:53.230
+Ora parliamo di pile e code nei prossimi due video per capire veramente come
+
+02:53.230 --> 02:53.740
+funzionano.
+
+02:53.770 --> 02:55.810
+E poi finalmente codice nostro.
+
+02:56.110 --> 02:57.540
+Vedrò nel prossimo.
+
+02:57.780 --> 02:58.030
+Babai.

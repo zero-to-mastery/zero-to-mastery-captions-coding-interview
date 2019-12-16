@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.390 --> 00:11.130
+Una domanda di intervista comune che potresti ottenere è qualcosa sulla falsariga di registrare tutte le coppie di orecchi.
+
+00:11.150 --> 00:13.250
+Ora, cosa significa in realtà.
+
+00:13.520 --> 00:24.690
+Bene, se avessimo un array, diciamo solo le caselle e questo array contiene solo caselle numerate da
+
+00:24.690 --> 00:26.740
+1 a 5.
+
+00:26.750 --> 00:38.940
+Ora questo array se voglio registrare tutte le coppie significa che voglio registrare 1 2 quindi 1 3 1 4 1 5 poi 2 1 e poi
+
+00:39.180 --> 00:42.800
+2 2 2 3 2 4 2 5.
+
+00:42.990 --> 00:47.560
+Così avanti e così via, come faremmo a farlo.
+
+00:47.780 --> 00:52.030
+E se vuoi puoi mettere in pausa il video e provare a tentare da solo questo problema.
+
+00:54.740 --> 01:06.890
+Ora, in questo caso, quello che vogliamo fare è creare una funzione e diremo di registrare tutte le coppie di array
+
+01:07.820 --> 01:10.340
+che ricevono una matrice.
+
+01:10.610 --> 01:11.740
+Diciamo solo array.
+
+01:11.750 --> 01:18.960
+Quindi siamo descrittivi qui e qui faremo un ciclo for.
+
+01:19.420 --> 01:22.190
+Quindi per LET.
+
+01:22.360 --> 01:25.300
+Ciao è uguale a zero.
+
+01:25.320 --> 01:38.440
+E lo abbiamo fatto prima, quindi se io sono meno della lunghezza del prodotto e aumenterò fino ad ora.
+
+01:38.460 --> 01:45.190
+E qui vogliamo fare il loop così ora nella prima iterazione del ciclo for ne prendiamo uno.
+
+01:45.540 --> 01:52.750
+Ma poi vogliamo riattivare le caselle e registrare 1 1 1 2 1 3 1 4 1 5.
+
+01:53.040 --> 02:04.120
+Quindi abbiamo un altro ciclo for e questa volta diremo che J è uguale a zero se vogliamo eseguire il ciclo dall'inizio.
+
+02:04.330 --> 02:12.550
+Oppure potrei anche dire 1 se vogliamo iniziare con 1 2 perché iniziamo con l'indice
+
+02:12.550 --> 02:13.660
+1 qui.
+
+02:13.660 --> 02:19.040
+Per ora possiamo lasciarlo a 0 e lo diremo fino a quando J.
+
+02:19.950 --> 02:23.390
+È inferiore alla lunghezza del redcoat.
+
+02:24.330 --> 02:28.390
+E incrementeremo JJ.
+
+02:28.490 --> 02:32.720
+E ora finalmente qui posso solo dire di cancellare
+
+02:35.960 --> 02:38.720
+il log di e J.
+
+02:38.830 --> 02:40.660
+Eseguiamo questa funzione e vediamo cosa succede.
+
+02:43.440 --> 02:50.650
+Quindi devo effettivamente chiamare questa funzione, quindi facciamo questo registro tutte le coppie di array e io gli
+
+02:50.830 --> 02:52.720
+darò l'array di caselle.
+
+02:52.950 --> 03:00.080
+Oh, e vogliamo assicurarci che stiamo disconnettendo gli elementi reali e non l'indice dell'array.
+
+03:00.430 --> 03:13.990
+Quindi diremo semplicemente qui e l'array J qui e solo così non ti confondi con i numeri.
+
+03:13.980 --> 03:20.650
+Forse il mondo cambia in lettere in modo che sia più ovvio ciò che stiamo facendo.
+
+03:22.330 --> 03:25.860
+Vedi Dee.
+
+03:26.050 --> 03:29.110
+Cattivo e diremo e.
+
+03:29.520 --> 03:37.070
+Quindi se clicco qui intorno vediamo che stiamo registrando tutte le coppie a a b a c d.
+
+03:37.300 --> 03:39.360
+Continua ad andare avanti fino a e.
+
+03:39.700 --> 03:43.000
+Puoi vedere il registro qui.
+
+03:43.030 --> 03:46.530
+Qual è il grande spettacolo di questo.
+
+03:46.660 --> 03:52.770
+E questo è qualcosa che vedrai molto nelle interviste e una buona
+
+03:52.770 --> 04:02.580
+regola è se vedi cicli annidati che significa invece di avere due quattro anelli uno dopo l'altro dove usiamo l'aggiunta
+
+04:03.210 --> 04:08.770
+quando vedi i loop che sono annidati usiamo la moltiplicazione.
+
+04:08.880 --> 04:12.870
+Quindi questo diventa vecchio dei tempi finali.
+
+04:12.900 --> 04:13.700
+Oh di
+
+04:13.710 --> 04:26.620
+E che quando li moltiplichiamo diventa 0 di e piazza 0 alla fine alla potenza di due.
+
+04:26.770 --> 04:29.040
+E questa è una buona regola empirica.
+
+04:29.930 --> 04:36.840
+E se torniamo al nostro grafico questa funzione che abbiamo appena creato e sto usando la sintassi
+
+04:36.840 --> 04:44.350
+dell'S-5 qui invece che i quattro lo abbiamo fatto sopra e al quadrato è ciò che chiamiamo tempo quadratico.
+
+04:44.490 --> 04:48.440
+Ciò significa che ogni volta aumenta il numero di elementi.
+
+04:48.480 --> 04:50.370
+Quindi diciamo che abbiamo due elementi.
+
+04:50.490 --> 04:55.880
+Abbiamo quattro operazioni che facciamo se abbiamo tre elementi.
+
+04:55.890 --> 04:58.880
+Questo in realtà aumenta quadraticamente.
+
+04:58.980 --> 05:09.370
+Ciò significa che invece di quattro operazioni ora abbiamo 1 2 3 4 5 6 7 8 9 perché abbiamo tre
+
+05:09.370 --> 05:12.760
+elementi per la potenza di due.
+
+05:12.980 --> 05:19.660
+E vedi qui come si intende ora la linea e aumenta abbastanza velocemente.
+
+05:20.290 --> 05:27.990
+Se torniamo alla nostra notazione O grande o al grafico O grande vediamo che o n al quadrato.
+
+05:28.070 --> 05:35.120
+Mentre è orribile dato che è piuttosto lento dato che il numero di elementi aumenta il numero
+
+05:35.450 --> 05:38.030
+di operazioni aumenta in modo significativo.
+
+05:38.510 --> 05:46.610
+E un sacco di domande per il colloquio sono domande che ti chiedono di risolvere un problema, inizialmente è tutto vente al
+
+05:46.610 --> 05:53.940
+quadrato e renderlo più veloce forse trasformandolo in qualcosa che è un po 'più basso qui che è male.
+
+05:53.940 --> 05:57.310
+Giusto buono eccellente ma decisamente non orribile.
+
+05:58.420 --> 06:06.900
+Se torniamo alla nostra regola numero tre, stavamo discutendo termini diversi per gli input.
+
+06:07.240 --> 06:16.330
+Bene, tornando all'esempio che avevamo nel video precedente ricordiamo questo bene, abbiamo detto oh di un
+
+06:16.330 --> 06:22.210
+punto a favore, perché avevamo due gare o ingressi diversi.
+
+06:22.240 --> 06:31.100
+Ora se questi loop sono stati effettivamente annidati e ora uno dopo l'altro il grande spettacolo sarebbe
+
+06:31.130 --> 06:34.060
+stato tutto un tempo b.
+
+06:35.060 --> 06:42.950
+E questa è la regola numero tre assicurandosi di sapere che abbiamo matrici diverse che significano notazione diversa per
+
+06:43.730 --> 06:50.840
+ciascun array perché non conosciamo l'obiettivo e una semplice regola empirica è qualsiasi passaggio che si
+
+06:50.840 --> 06:52.800
+verifica nella stessa indentazione.
+
+06:52.850 --> 07:06.090
+Quindi uno dopo l'altro si aggiunge e tutto ciò che accade con l'indentazione che è annidata Si moltiplica.
+
+07:06.140 --> 07:10.420
+Quindi, di nuovo, input differenti dovrebbero avere variabili diverse.
+
+07:10.440 --> 07:12.930
+Passiamo all'ultima regola nel prossimo video.

@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.560 --> 00:07.400
+We've talked about recursion and sorting we have a few more to go.
+
+00:07.560 --> 00:14.970
+And in this section we're going to talk about searching and traversal including breadth first search
+
+00:15.180 --> 00:21.380
+and depth first search searching is something we do a lot on our computers.
+
+00:21.380 --> 00:27.320
+When we talked about sorting some of you may have been like man it doesn't really sound that useful
+
+00:28.040 --> 00:29.320
+but searching.
+
+00:29.540 --> 00:32.210
+We use that every day don't we.
+
+00:32.210 --> 00:34.590
+We look for files on our computer.
+
+00:34.970 --> 00:44.030
+WE RUN command af and search for things search for words and documents we search Google we search youtube
+
+00:44.630 --> 00:51.220
+we search hashtags on Twitter and Instagram searching is a big part of our lives.
+
+00:51.350 --> 00:56.660
+But how are all these computers and programs able to search things so fast.
+
+00:57.660 --> 01:03.060
+There's more and more data in this world more and more Web sites to search for.
+
+01:03.060 --> 01:06.180
+How are we able to do these things so fast.
+
+01:06.180 --> 01:09.310
+How is Google able to do these things so fast.
+
+01:09.600 --> 01:14.130
+Well in this section we're going to build this foundation of how it all works.
+
+01:15.470 --> 01:21.110
+And we're going to be talking about a few types of searching and traversal and hopefully by the end
+
+01:21.110 --> 01:27.670
+of it all you're going to understand how places like Facebook Google and Google Maps work.
+
+01:28.010 --> 01:33.000
+When it comes to searching at a fundamental level let's get started.

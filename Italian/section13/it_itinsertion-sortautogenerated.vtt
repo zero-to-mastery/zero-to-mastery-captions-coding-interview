@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.060 --> 00:08.390
+Torneremo su fino a questo punto abbiamo parlato di algoritmi di ordinamento che non erano molto
+
+00:08.780 --> 00:17.710
+efficienti e non sono comunemente usati ora l'inserimento non è l'algoritmo più efficiente, ma ci sono casi in cui è
+
+00:17.720 --> 00:22.600
+in realtà estremamente veloce che noi di cui parleremo.
+
+00:22.820 --> 00:26.780
+Quindi fai attenzione perché questo diventa importante.
+
+00:26.930 --> 00:33.620
+Vedete che l'inserimento di ordinamento è utile nei momenti in cui siete quasi sicuri che la loro lista sia quasi ordinata.
+
+00:34.580 --> 00:35.970
+O è già in ordine.
+
+00:36.230 --> 00:43.020
+Che suona sciocco ma a volte questo è importante in informatica e nel migliore dei casi.
+
+00:43.220 --> 00:48.100
+È possibile ottenere tutto il tempo o lineare quando la lista è quasi ordinata.
+
+00:48.470 --> 00:49.860
+Vediamo come funziona.
+
+00:49.880 --> 00:53.620
+Abbiamo una lista e guardiamo alle sei.
+
+00:53.660 --> 00:56.350
+Guardiamo il primo segno e lo lasciamo dov'è.
+
+00:56.420 --> 01:06.650
+Vediamo ora il prossimo punto 5 e poiché cinque sono meno di sei, lo accendiamo e poi entriamo nella lista
+
+01:06.690 --> 01:13.040
+diciamo hey 3 dove sei in relazione a cinque e sei palle.
+
+01:13.080 --> 01:15.460
+È meno di quei due.
+
+01:15.510 --> 01:20.380
+Quindi spostiamo quelli sopra e tre vengono posti nella parte anteriore.
+
+01:20.470 --> 01:23.420
+Quindi ora abbiamo questa lista di 3 5 6.
+
+01:23.500 --> 01:30.520
+Guardiamo uno e dico oh sì, questo è il primo elemento che vogliamo spostare tutto quello verso sinistra.
+
+01:30.520 --> 01:31.640
+Diamo un'occhiata alle otto.
+
+01:31.870 --> 01:37.270
+Beh, otto è più grande di tutti quegli articoli quindi collegalo alla fine della nostra lista.
+
+01:37.850 --> 01:40.580
+La palla da sette va tra le sei e le otto.
+
+01:40.580 --> 01:52.230
+Quindi mettilo lì tra 1 e 3, posizionalo lì e 4 posto tra 5 o 3 e 5 e il gioco
+
+01:55.320 --> 01:56.450
+è fatto.
+
+01:56.460 --> 02:01.880
+Questo è probabilmente il modo in cui funziona il tuo cervello se tu avessi fisicamente blocchi
+
+02:01.920 --> 02:06.680
+Lego con questi numeri e avresti spostato le cose e questo tipo di ordinamento.
+
+02:06.680 --> 02:13.160
+Esibisce davvero molto bene quando si tratta di piccoli set di dati che verranno illustrati in seguito con le nostre dimensioni
+
+02:13.170 --> 02:14.020
+di uscita.
+
+02:14.300 --> 02:21.340
+Ma puoi fare questo tipo di ordinamento nel codice per vedere se è in grado di implementare il tuo ordinamento di inserimento.
+
+02:22.220 --> 02:23.690
+La stessa cosa di prima.
+
+02:23.750 --> 02:31.340
+Questa volta abbiamo l'algoritmo di ordinamento di inserzione basato sul video e i ballerini di YouTube il link ad
+
+02:31.340 --> 02:31.970
+esso.
+
+02:32.290 --> 02:36.650
+Puoi implementare il tuo algoritmo di inserimento nel prossimo video.
+
+02:36.670 --> 02:37.460
+Ti mostrerò la risposta.

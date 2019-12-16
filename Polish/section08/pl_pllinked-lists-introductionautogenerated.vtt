@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.740 --> 00:09.210
+Czas porozmawiać o naszej trzeciej strukturze danych i będziemy rozmawiać o dwóch typach
+
+00:09.210 --> 00:19.360
+połączonych list w następnych nadchodzących filmach pojedynczo i podwójnie powiązanych listach, o jaki problem napotykamy podczas wyścigu
+
+00:20.580 --> 00:22.980
+z tablicami statycznymi.
+
+00:23.010 --> 00:30.220
+Mieliśmy tylko pewną ilość danych lub pamięci, które można przypisać sobie w pamięci, ale
+
+00:30.220 --> 00:36.490
+zarówno dynamiczne tablice, jak i statyczne tablice mogą zwiększyć ich pamięć.
+
+00:36.490 --> 00:43.080
+Po osiągnięciu pewnego limitu i podwojeniu tej pamięci w innym miejscu, ale ta
+
+00:43.080 --> 00:50.940
+operacja co jakiś czas podwojenia tablicy w celu utworzenia większej ilości pamięci wiązała się z implikacją
+
+00:51.390 --> 01:00.060
+wydajności i kosztowała nas wszystkie tablice z dodatkami również miały złą wydajność dla wszelkich operacji, takich jak wstawianie
+
+01:00.360 --> 01:07.560
+i usuwanie, które musiały przesuwać indeksy, szczególnie gdy wstawiłeś lub usunięto słowo, które nie
+
+01:07.560 --> 01:09.390
+było końcem tablicy.
+
+01:10.670 --> 01:12.640
+A potem przyszedł tabele mieszania.
+
+01:12.650 --> 01:13.580
+Oni byli wspaniali.
+
+01:13.700 --> 01:19.160
+Mieliśmy prawie wszystko, gdzie chcieliśmy, a tablice z pamięcią i hashami zajmowałyby się nami i
+
+01:19.160 --> 01:21.430
+wiedzą, gdzie umieścić je w pamięci.
+
+01:22.440 --> 01:25.680
+Nie musieliśmy się martwić o problemy, które pojawiły się w wyścigu.
+
+01:25.680 --> 01:30.710
+Życie było dobre, ale niestety nie zostały zamówione.
+
+01:30.810 --> 01:33.260
+Więc jak możemy rozwiązać ten problem.
+
+01:33.480 --> 01:35.480
+Połączone listy z ratunkiem.
+
+01:35.850 --> 01:41.910
+Czyli oznacza to, że wszyscy powinniśmy po prostu korzystać z list połączonych przez cały czas w tablicach ignorowania
+
+01:41.910 --> 01:45.750
+i tabelach mieszania, ponieważ połączone listy są najlepszymi strukturami danych.
+
+01:45.840 --> 01:46.370
+Nie.
+
+01:46.710 --> 01:50.490
+Jak zwykle istnieją kompromisy jeśli chodzi o struktury danych.
+
+01:50.520 --> 01:56.430
+W następnych nadchodzących filmach dowiedzmy się więcej o nich, abyśmy mogli uzyskać wyraźniejszy obraz.
+
+01:57.810 --> 02:05.060
+Przy okazji zapamiętaj ten schemat, który pokazałem ci w filmach z tabelami mieszającymi i powiedziałem, że
+
+02:05.060 --> 02:06.440
+kiedy mieliśmy kolizję.
+
+02:06.440 --> 02:10.210
+Jednym ze sposobów rozwiązania tego problemu było użycie czegoś takiego.
+
+02:11.710 --> 02:14.590
+I nie mieliśmy pojęcia, czym jest ta struktura danych.
+
+02:14.740 --> 02:22.230
+Cóż, ten John Smith do Sandry Dee i ta mała strzałka wskazująca, że jest połączoną listą.
+
+02:22.300 --> 02:25.240
+Zacznijmy więc i dowiedz się, jakie są listy linków.

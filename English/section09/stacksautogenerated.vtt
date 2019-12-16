@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.260 --> 00:11.830
+Let's talk about stacks stacks is a type of data structure that you can think of them as plate's that
+
+00:11.830 --> 00:19.150
+is we have one piece of data and then another piece of data comes along and gets stacked on top of that
+
+00:19.150 --> 00:24.030
+piece of data and it keeps going keeps going keeps going and keeps going.
+
+00:24.040 --> 00:31.510
+You can think of it as these plates stacked on top of each other vertically and you can only touch the
+
+00:31.600 --> 00:32.950
+top plate.
+
+00:33.040 --> 00:39.520
+You can really access anything from the bottom over here the way you can access data from a stack is
+
+00:39.520 --> 00:46.960
+to grab the first plate then the second plate then the third and you keep going and you keep going and
+
+00:46.960 --> 00:50.690
+you keep going until you've gone through all the stack.
+
+00:50.940 --> 00:58.950
+And this is called Life'll or last in first out because the last item that comes in is the first one
+
+00:59.070 --> 01:05.850
+that comes up and you're thinking to yourself why is this useful when will we actually use something
+
+01:05.850 --> 01:07.190
+like a stack.
+
+01:07.200 --> 01:10.280
+They're actually useful in quite a surprising number of ways.
+
+01:10.380 --> 01:17.250
+They're very good obviously when you need to know the very last value that was seen or added and stacks
+
+01:17.250 --> 01:21.960
+are very important in language specific engines.
+
+01:21.960 --> 01:28.770
+You might have heard of something called Stack Overflow a website that a lot of engineers visit and
+
+01:28.770 --> 01:35.040
+I'll actually include a bonus video after we talk about cues of how the javascript engine works using
+
+01:35.040 --> 01:40.190
+stacks and cues and how you might get stack overflow when you write bad code.
+
+01:40.970 --> 01:48.440
+Now most programming languages are modeled with the stack architecture in mind and when functions get
+
+01:48.440 --> 01:56.240
+called in a programming language usually they follow this model of last in first out a function within
+
+01:56.240 --> 01:58.760
+a function within a function gets called.
+
+01:58.790 --> 02:05.150
+And then we start popping those functions until we get to the very beginning and don't worry this is
+
+02:05.150 --> 02:09.700
+going to be a little bit more clear when we actually code our own stack.
+
+02:09.710 --> 02:17.210
+Another useful way that we might use stacks is such as browser history right where you go back and forth
+
+02:17.270 --> 02:23.900
+from one web site to another and then you hit the back button or the front button that's using stacks.
+
+02:24.140 --> 02:29.930
+Or maybe you're writing a piece of text and you want to undo something so you can click the undo option
+
+02:29.930 --> 02:33.710
+to go back or forward to redo.
+
+02:33.710 --> 02:35.310
+Ever wonder how that works.
+
+02:35.390 --> 02:42.110
+Well the idea comes from stacks that is you store the previous state over your work and the memory in
+
+02:42.110 --> 02:45.480
+such an order that the last one appears first.
+
+02:45.710 --> 02:52.070
+This is something that we can do with stacks as you can see over here stacks that usually come with
+
+02:52.340 --> 02:55.130
+three types of methods.
+
+02:55.130 --> 02:57.440
+There's a few others but these are the main ones.
+
+02:57.440 --> 02:58.070
+Pop.
+
+02:58.160 --> 03:00.850
+Push and peek pop is removed.
+
+03:00.860 --> 03:08.960
+The last item that is removed the plate push is how to plate and peek is simply viewed the top most
+
+03:08.970 --> 03:10.830
+play I've added.
+
+03:10.830 --> 03:16.920
+Look up in here just to show you that it's big go of ADD because you usually don't want to traverse
+
+03:17.400 --> 03:24.170
+through an entire stack but just so you know if we wanted to do that it's going to be a heavy operation.
+
+03:25.020 --> 03:27.410
+Let's talk about Q's in the next video.
+
+03:27.720 --> 03:27.940
+Buh-Bye.

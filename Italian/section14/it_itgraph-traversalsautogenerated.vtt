@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.670 --> 00:07.990
+Bentornata la bellezza di ciò che abbiamo appena imparato nell'inversione di Treach che era di un E
+
+00:08.080 --> 00:16.490
+stiamo visitando ogni nodo è che è lo stesso del traversal grafico perché gli alberi sono semplicemente un tipo di grafico,
+
+00:17.700 --> 00:25.060
+quindi usando la stessa tecnica invece di usare sinistra e le proprietà giuste forse ci sono 10 bambini.
+
+00:25.410 --> 00:32.870
+Quello che possiamo fare la stessa cosa usando la morte per la ricerca e l'ampiezza della prima ricerca
+
+00:32.870 --> 00:42.480
+e questo è davvero potente proprio perché i grafici sono usati per modellare modelli di vita reale come un motore di raccomandazione e Amazon.
+
+00:42.720 --> 00:53.220
+Ora possiamo vedere quale tipo di articoli sono correlati o sono la relazione più vicina all'ultimo libro che abbiamo
+
+00:53.220 --> 00:54.110
+comprato.
+
+00:54.420 --> 01:01.740
+E in quel caso userebbero qualcosa come respiro per una ricerca o su Facebook per vedere quale tipo di
+
+01:01.980 --> 01:04.690
+richieste di amicizia dovrei essere raccomandato.
+
+01:05.070 --> 01:12.240
+Se ho una connessione su Linked-In forse potrei usare la morte per una ricerca per vedere quale grado di
+
+01:12.330 --> 01:14.140
+connessione ho con quello.
+
+01:14.190 --> 01:15.830
+SEO davvero importante.
+
+01:15.990 --> 01:26.520
+Utilizziamo la ricerca di deafer e queste sono le basi su come le reti peer to peer funzionano come funziona Google Maps.
+
+01:26.520 --> 01:27.370
+Destra.
+
+01:27.480 --> 01:33.060
+Il che è davvero molto potente e ho una bella grafica qui.
+
+01:33.060 --> 01:34.670
+Ho il nostro aspetto.
+
+01:34.670 --> 01:35.790
+Andrò qui
+
+01:35.840 --> 01:41.550
+Il nostro buon amico e loro hanno una morte per una ricerca e ho fatto questo piccolo grafico
+
+01:41.550 --> 01:46.830
+e possiamo attraversare ora usando Louis reale per respirare prima una ricerca e inizieremo con zero.
+
+01:46.950 --> 01:52.380
+Quindi inserirò zero qui e vedrò come funzionerebbe la ricerca sulla morte.
+
+01:52.440 --> 01:58.950
+Controlliamo tutti i nodi più vicini 1 3 4 5 6 e quindi iniziamo con 1.
+
+01:58.950 --> 02:00.010
+Ha figli.
+
+02:00.080 --> 02:02.360
+Sì 2 7 e 8.
+
+02:02.580 --> 02:04.240
+E poi andiamo avanti nella riga 3.
+
+02:04.280 --> 02:05.310
+Che dire di 4.
+
+02:05.370 --> 02:06.220
+Che dire di 5.
+
+02:06.330 --> 02:07.050
+Che dire di 6.
+
+02:07.050 --> 02:08.420
+Non hanno figli.
+
+02:09.330 --> 02:10.790
+Ok andiamo.
+
+02:10.890 --> 02:19.100
+Continuate fino al prossimo luogo che ha Shulgin e attraversiamo il grafico come potete vedere partendo dai
+
+02:19.100 --> 02:27.230
+nostri vicini più prossimi e poi andando sempre più lontano con una prima ricerca di profondità.
+
+02:27.530 --> 02:30.030
+Diciamo che iniziamo a zero.
+
+02:31.260 --> 02:43.980
+E io colpisco, andiamo da uno a poi a 7 e poi continueremo ad andare più in profondità 8.
+
+02:44.180 --> 02:47.350
+Andremo alle nove e alle dieci.
+
+02:47.360 --> 02:48.970
+Non ci sono più nodi.
+
+02:49.040 --> 02:58.590
+Quindi torneremo indietro e andremo alla successiva e all'elenco che è 3 e 4, quindi 5 e 6.
+
+02:58.640 --> 03:07.010
+Quindi, osservando questo, potresti vedere cosa intendevo quando ti ho dato le informazioni all'inizio di questa sezione che è
+
+03:07.070 --> 03:13.430
+ampia. La prima ricerca di solito è buona per il percorso più breve.
+
+03:13.580 --> 03:16.880
+Questo è ciò che è il più vicino al nostro nodo.
+
+03:16.910 --> 03:19.890
+Quali sono gli oggetti più correlati su Amazon.
+
+03:20.890 --> 03:28.600
+Chi sono i nostri amici più cari su Facebook o le connessioni più vicine su Linked-In rispetto alla prima ricerca approfondita
+
+03:29.200 --> 03:32.620
+che è davvero bello vedere se qualcosa esiste.
+
+03:34.800 --> 03:42.430
+Con la ricerca di deafer siamo in grado di andare veramente in profondità in un grafico abbastanza veloce e veloce.
+
+03:42.450 --> 03:47.040
+Prima ricerca che potrebbe costare un po 'di memoria extra.
+
+03:47.060 --> 03:52.150
+Parliamo di questi due algoritmi in modo più dettagliato quando si tratta di grafici.

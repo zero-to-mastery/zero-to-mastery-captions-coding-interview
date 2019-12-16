@@ -1,0 +1,286 @@
+WEBVTT
+
+00:01.700 --> 00:08.660
+Privind la funcțiile hash puteți începe să vă gândiți la acțiunile pe care le efectuează și la cât de repede se poate
+
+00:08.660 --> 00:09.220
+face.
+
+00:10.880 --> 00:18.080
+Când vine vorba de a introduce ceva în spațiul nostru de memorie Ei bine, va fi suprasolicitat.
+
+00:18.170 --> 00:26.570
+Am hash cheie, cum ar fi struguri, prin intermediul funcției hash și îl plasează automat în spațiul
+
+00:26.570 --> 00:29.630
+de adrese cu care vine.
+
+00:29.720 --> 00:38.150
+Căutați în sus este exact același lucru la care accesăm proprietatea pe care proprietatea urmează să o obțină și ne
+
+00:38.150 --> 00:41.860
+direcționează exact la adresă pentru a găsi valorile.
+
+00:41.890 --> 00:43.640
+Ce ștergeți.
+
+00:43.720 --> 00:53.740
+Același lucru pe care îl folosim pur și simplu cheia imediat ce știm unde să ștergem articolul și pentru că nu este
+
+00:53.770 --> 00:54.600
+comandat.
+
+00:54.820 --> 00:58.630
+Nu trebuie să schimbăm indiciile așa cum am făcut-o cu matricea.
+
+00:58.690 --> 01:01.430
+Totul este simplu și simplu.
+
+01:01.540 --> 01:07.840
+Dar căutarea dacă vrem să găsim ceva în coșul nostru, cum ar fi merele.
+
+01:07.850 --> 01:09.590
+Și asta e ușor.
+
+01:09.690 --> 01:18.910
+Folosim pur și simplu funcțiile hash dacă mergem la terenul nostru de joacă în javascript Pot să creez un obiect
+
+01:18.930 --> 01:26.250
+care să spună că lasă utilizatorul și acest utilizator să aibă proprietatea a fiecare 54.
+
+01:26.300 --> 01:31.200
+Să spunem că numele va fi magia lui
+
+01:33.820 --> 01:34.940
+Kylie.
+
+01:35.080 --> 01:42.850
+Ei bine, sa zicem ca Kylie are abilitati magice atat de intregi, incat sa-l aduca
+
+01:43.480 --> 01:52.390
+la Adevarata si pentru distractie sa zicem ca strigatul este o functie care va consola doar inregistrand un urlet.
+
+01:53.440 --> 02:00.800
+Asta nu a fost cel mai puternic strigăte, dar nu vreau să sperii oameni în jurul meu când conduc asta.
+
+02:00.930 --> 02:08.100
+Am creat un obiect utilizator și vârsta de 54 de ani numită Kylie magic.
+
+02:08.160 --> 02:16.790
+Ticălosul și disfuncția adevărată vor fi plasate undeva în memorie cu adrese diferite.
+
+02:16.990 --> 02:19.050
+Dar pot accesa acest lucru foarte repede.
+
+02:19.060 --> 02:30.320
+Pot spune că vârsta Daut a utilizatorului, care îmi va da 54 la un moment dat, poate adăugând o nouă proprietate.
+
+02:30.340 --> 02:38.790
+Pot să spun pur și simplu că vraja punctului de utilizator va fi egală cu Habra Berra.
+
+02:39.570 --> 02:49.590
+Și dacă execut acest lucru și să verificăm doar ce ne oferă obiectul utilizatorului vedem că acum
+
+02:49.650 --> 02:52.900
+avem vraja Habra cadabra adăugată.
+
+02:52.920 --> 03:03.460
+Acest lucru este din nou accesul tuturor celor de la 0 la unul, deoarece le luam prin funcțiile hash și calculatorul decide unde
+
+03:03.460 --> 03:07.660
+să pună ambele vraja și abracadabra în memorie.
+
+03:09.360 --> 03:17.780
+Iar un utilizator de arme de foc ADOT a țipat același lucru, dar nu pot scrie vraja.
+
+03:17.800 --> 03:19.500
+Același lucru îl înțeleg.
+
+03:19.870 --> 03:29.390
+Am acces la această funcție în memorie într-adevăr foarte repede la oricare dintre cât de uimitor este asta.
+
+03:29.800 --> 03:33.070
+Și știu unde crezi că mesele de hash sunt uimitoare.
+
+03:33.070 --> 03:38.720
+Ar trebui să le folosim tot timpul și aveți dreptate că ar trebui să le folosim în multe cazuri.
+
+03:38.980 --> 03:42.190
+Dar, după cum știm, există mereu argumente pro și contra.
+
+03:42.370 --> 03:48.370
+Acum permiteți-mi să vă vorbesc despre una dintre principalele probleme cu tabelele de hash.
+
+03:49.270 --> 03:51.920
+Și am o viziune frumoasă pentru a demonstra acest lucru pentru tine.
+
+03:51.960 --> 03:57.290
+Voi conecta la acest videoclip și la acest videoclip, astfel încât să puteți juca mai târziu cu el.
+
+03:57.300 --> 04:02.750
+Am o mică animație aici, unde avem 12 spații de memorie.
+
+04:02.880 --> 04:12.420
+Amintiți-vă că calculatorul nostru are un spațiu limitat și atunci când creăm un obiect sau o tabelă de tip hash, calculatorul decide
+
+04:13.110 --> 04:14.900
+cât spațiu trebuie alocat.
+
+04:14.940 --> 04:18.150
+Nu va aloca întregul spațiu mesei de tip hash.
+
+04:18.270 --> 04:24.630
+Acesta va aloca un pic de ea și vă voi arăta mai târziu atunci când vom implementa propriul nostru tabel hash.
+
+04:24.990 --> 04:31.150
+Cum putem ajusta mărimea, dar văd că există doar 12 spații pe care le puteți imagina.
+
+04:31.150 --> 04:37.890
+Dacă introduc aici, să spunem că unul văd dacă pot face acest lucru mai mare, ca să îl puteți vedea.
+
+04:38.070 --> 04:47.070
+Acolo te duci să răspund să spunem că numărul trei este introdus aici să facem 55.
+
+04:47.330 --> 04:48.060
+Introduceți-l.
+
+04:48.080 --> 04:49.550
+Ce sa întâmplat acolo.
+
+04:50.660 --> 05:03.060
+Vedeți funcția hash atribuită în mod aleatoriu un spațiu în memorie și puneți-o în trei amintiți.
+
+05:03.240 --> 05:09.010
+Nu există nimic care să spună că funcția hash este distribuită uniform până când totul este plin.
+
+05:09.570 --> 05:15.640
+Deși funcțiile hash sunt optimizate pentru a încerca să distribuie toate aceste date.
+
+05:15.860 --> 05:17.910
+De asemenea, contează ce am pus în ea.
+
+05:17.990 --> 05:27.550
+Deci, atunci când 55 devine hashed Ei bine această funcție hash generează locația adresei de trei pentru a pune în ea.
+
+05:27.710 --> 05:31.630
+Și pentru că avem deja trei acolo, face ceva amuzant aici.
+
+05:31.820 --> 05:33.910
+Să continuăm să adăugăm aici și să vedem ce se întâmplă.
+
+05:33.950 --> 05:43.810
+Voi adăuga două poate adăuga 12 și în cele din urmă adăugați 14 0.
+
+05:43.860 --> 05:46.130
+A făcut același lucru din nou.
+
+05:46.340 --> 05:50.060
+Și ceea ce tocmai am observat aici este ceva
+
+05:53.260 --> 05:56.700
+numit Coliziune și o coliziune arată cam așa.
+
+05:56.740 --> 05:58.350
+Avem cheile.
+
+05:58.600 --> 06:10.720
+Să presupunem că introducem numele și numărul de telefon al unui utilizator și l-am plasat inițial pe John Smith, acest șir de chei devine
+
+06:10.960 --> 06:16.790
+plasat în spațiul de adrese de la 1:52 și este stocat.
+
+06:16.900 --> 06:22.960
+Amintiți-vă cum a spus că stochează, de fapt, atât cheile, cât și valorile pe care le stochează în ceva numit
+
+06:23.260 --> 06:27.480
+John Smith, cu valoarea lui care este numărul său de telefon chiar aici.
+
+06:28.340 --> 06:35.980
+Și apoi vom continua să mergem cu Lisa Smith, apoi Sam doe decât Sandra Oh nu.
+
+06:35.990 --> 06:44.610
+De îndată ce locuim Sandra Dee, el devine același spațiu de adresă ca John Smith și avem o coliziune și din cauza
+
+06:45.600 --> 06:53.700
+acestei coliziuni avem nevoie de o modalitate de a stoca amândoi utilizatorii cumva în acest spațiu de adresă și ceva
+
+06:53.700 --> 06:58.730
+funky se întâmplă aici cu acest cerc mic și apoi un punct.
+
+06:58.740 --> 07:01.530
+Și Sandra Dee.
+
+07:01.530 --> 07:02.890
+Și doar o sugestie aici.
+
+07:03.030 --> 07:09.880
+Aceasta este de fapt o nouă structură a datelor pe care o vom învăța despre listele de legături numite.
+
+07:10.230 --> 07:17.630
+Vedeți cu tabelele hash nu putem evita aceste coliziuni cu date suficiente cu memorie limitată.
+
+07:17.640 --> 07:20.470
+Vom avea întotdeauna această coliziune.
+
+07:20.610 --> 07:28.920
+Deci, există o posibilitate dacă ne întoarcem la exemplul nostru și refresh anul pentru a începe de la zero, pe care o
+
+07:30.900 --> 07:37.060
+adăugăm în mod constant, în ciuda tabelului nostru de hash, care este într-adevăr foarte rapid.
+
+07:38.100 --> 07:42.340
+Costisitoare continuați să adăugați la același spațiu de memorie.
+
+07:42.930 --> 07:52.350
+Ceea ce ne încetinește abilitatea de a accesa sau de a insera informații, pentru că acum, dacă vreau să verific ce este în acest
+
+07:52.350 --> 07:58.380
+spațiu de adresă, trebuie să merg unul câte două, trei, patru și așa mai departe.
+
+07:58.570 --> 08:11.270
+Teoretic, atunci când aveți o coliziune, aceasta încetinește citirea și scrierea cu o tabelă hash cu 0 și împărțită la k în
+
+08:11.750 --> 08:18.350
+cazul în care k este dimensiunea tabelului dvs. de hash.
+
+08:18.430 --> 08:26.730
+Și amintiți-vă pentru că eliminăm constantele și simplificăm lucrurile devenind totul și operațiunea.
+
+08:26.730 --> 08:31.290
+Acum, coaliția se va întâmpla probabil în orice implementare a tabelului hash.
+
+08:31.470 --> 08:38.130
+Și, din fericire, nu va trebui niciodată să vă implementați cu adevărat și nu este o întrebare foarte frecventă a interviului, dar
+
+08:38.340 --> 08:42.140
+doriți să știți despre asta pentru a putea vorbi despre el.
+
+08:43.060 --> 08:47.170
+Există două modalități comune de a face față acestor coliziuni.
+
+08:47.170 --> 08:52.430
+Ți-am arătat unul dintre ei cu ceva numit listă de link-uri despre care vom vorbi mai târziu.
+
+08:52.960 --> 09:01.750
+Dar dacă mergem la pagina Wikipedia a tabelului hash și uităm la rezoluția de coliziune, puteți vedea că
+
+09:01.810 --> 09:07.480
+există o mulțime de moduri diferite de a rezolva coliziunile.
+
+09:07.730 --> 09:13.730
+Modul în care v-am arătat este numit înlănțuire separată, dar există metode diferite, cum ar
+
+09:14.120 --> 09:20.240
+fi abordarea deschisă și corespondența robinetului despre care puteți citi dacă sunteți cu adevărat interesat de subiect.
+
+09:20.660 --> 09:29.070
+Ideea pe care am vrut să o fac este că există un dezavantaj când vorbim de blocări rapide
+
+09:29.610 --> 09:34.870
+și de mese de hash ocazional, în funcție de funcția hash.
+
+09:35.010 --> 09:37.980
+Ar putea dura un an.
+
+09:38.150 --> 09:43.160
+Bine, să continuăm să ne extindem cunoștințele despre tabelele de tip hash și următorul videoclip.

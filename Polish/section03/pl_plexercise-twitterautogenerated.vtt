@@ -1,0 +1,223 @@
+WEBVTT
+
+00:01.220 --> 00:07.480
+W porządku, zróbmy zabawne ćwiczenie, aby pokazać, że właśnie zostałeś lepszym inżynierem.
+
+00:07.550 --> 00:09.270
+Miejmy sytuację.
+
+00:09.290 --> 00:16.740
+Załóżmy, że pracujesz na Twitterze i mam nadzieję, że wszyscy znają Twittera tutaj.
+
+00:16.980 --> 00:26.910
+Jeśli pracujesz na Twitterze, a Twój szef poprosił Cię o zbudowanie funkcji, być może funkcji, która pozwala każdemu
+
+00:27.300 --> 00:36.120
+kliknąć przycisk obok jego nazwy i pobrać najnowszy tweet, a oni po prostu dodają tweeta.
+
+00:36.210 --> 00:44.310
+To jest ich pierwszy tweet i ich najnowszy tweet oparty na notacji Big-O i tym, co wiemy
+
+00:44.310 --> 00:45.840
+o notacji Big-O.
+
+00:46.110 --> 00:48.460
+Co możemy założyć na temat tego problemu.
+
+00:50.000 --> 01:02.690
+Cóż, bez kodowania czegokolwiek, co wiemy, musimy najpierw znaleźć, a potem znaleźć Anta lub cokolwiek, co jest ostatnim
+
+01:02.690 --> 01:03.630
+elementem.
+
+01:03.710 --> 01:11.960
+Teraz nie wiemy, w jaki sposób tweety są przechowywane w naszej bazie danych lub w jaki sposób Twitter organizuje
+
+01:11.960 --> 01:20.500
+takie rzeczy, ale w oparciu o to, jak są przechowywane, możemy po prostu pobrać tweety, które znajdują się w tablicy.
+
+01:20.510 --> 01:25.580
+Powiedzmy więc, że macie stałą tablicę, a my będziemy mieć cały szereg tweetów.
+
+01:25.820 --> 01:30.030
+Powiedzmy, że mamy tu trzy tweety.
+
+01:31.280 --> 01:39.940
+Są tylko trzy proste tweety, które mówią, że ten jest najstarszy, a ten jest najnowszy.
+
+01:40.190 --> 01:46.960
+Jeśli mamy tutaj tablicę, wiemy, że zajmie nam to, jeśli tweety będą przechowywane w tablicy.
+
+01:47.210 --> 01:52.340
+Zabierze to nas, gdy skończymy tablicę do zera.
+
+01:52.400 --> 02:06.770
+Otrzymujemy najstarszy tweet, a jeśli przejdziemy do tablicy tablicowej, kropka dziesiąta minus jedna, otrzymamy trzy minus 1, czyli 2,
+
+02:06.770 --> 02:10.100
+czyli 0 1 2.
+
+02:10.100 --> 02:13.220
+To będzie 2.
+
+02:13.550 --> 02:15.060
+Dostaniemy 20.
+
+02:15.170 --> 02:22.130
+Najnowszy tweet i ze względu na sposób pracy tablic wiemy,
+
+02:22.130 --> 02:27.670
+że obie te operacje będą tak jednorazowe.
+
+02:28.000 --> 02:33.430
+I ten będzie równy 0 1 lub stały czas.
+
+02:33.460 --> 02:36.420
+Łącznie 0 2 operacji.
+
+02:36.430 --> 02:42.910
+Ale ponownie używamy naszego podręcznika zasad i upraszczamy go dla Constantine.
+
+02:42.980 --> 02:43.610
+To świetnie.
+
+02:43.610 --> 02:50.430
+Tworzymy fajną prostą aplikację na Twitterze i możemy łatwo uzyskać te informacje.
+
+02:50.720 --> 02:58.100
+Ale teraz nasz szef wraca do nas i mówi: Hej, chcę, żebyś porównał daty tweetów.
+
+02:58.250 --> 03:05.140
+Więc chcę, żebyś spojrzał na każdy tweet w każdej z tablic.
+
+03:05.320 --> 03:21.240
+Z każdym tweetem jest obiekt.
+
+03:21.280 --> 03:25.560
+Teraz mamy i ta osoba nie ćwierka dużo.
+
+03:25.570 --> 03:28.320
+Trzy tweety w ciągu sześciu lat.
+
+03:28.330 --> 03:37.790
+Ale teraz musimy porównać każdy tweet z wszystkimi innymi tweetami i porównać ich daty.
+
+03:38.040 --> 03:40.710
+Jaki jest główny cel tej operacji.
+
+03:43.100 --> 03:49.690
+Cóż, ponieważ porównujemy każdy przedmiot w tablicy z drugim.
+
+03:49.700 --> 03:51.140
+To powinno brzmieć znajomo.
+
+03:51.140 --> 03:52.560
+Robimy zagnieżdżone pętle.
+
+03:52.640 --> 04:00.870
+Więc to zajmie och i czas squirta przynajmniej z chwilą, gdy wiemy już teraz.
+
+04:01.060 --> 04:07.990
+Wiemy więc, że to zajmie dużo i pasuje do osoby, która ma wiele tweetów na wiele wejść
+
+04:08.020 --> 04:09.000
+w tablicy.
+
+04:09.280 --> 04:12.420
+Ta operacja może kosztować nas dużo pieniędzy na Twitterze.
+
+04:12.580 --> 04:16.100
+Możesz więc powiedzieć swojemu szefowi, że możemy mieć tutaj problem.
+
+04:16.120 --> 04:23.470
+Być może będziemy musieli zrobić coś innego, być może przechowywać informacje w lepszym formacie lub
+
+04:23.470 --> 04:31.420
+zrobić coś innego z naszym programem, aby uniknąć czegoś, co może być nieskuteczne i może być kosztowne
+
+04:31.600 --> 04:32.630
+dla firmy.
+
+04:33.290 --> 04:41.240
+I właśnie tak myśląc, teraz masz zdolność myślenia długoterminowego, myślącego skalowalnie Cote przy okazji,
+
+04:41.240 --> 04:42.870
+jako zabawnego.
+
+04:43.190 --> 04:51.860
+Co się stanie, jeśli zapytam cię, jaka jest operacja i co nas czeka.
+
+04:51.890 --> 04:59.850
+Jeśli mam ciąg i robię kropkę obfite i javascript, które po prostu oznacza, co jest długość naszego łańcucha.
+
+05:00.690 --> 05:05.590
+To 20 oznacza, że mamy 20 elementów w ciągu.
+
+05:05.610 --> 05:13.260
+Jak myślisz, co to jest duża notacja O, a to jest podchwytliwe pytanie i coś,
+
+05:13.260 --> 05:20.390
+o co możesz zapytać w wywiadzie, ponieważ odpowiedź na to pytanie zależy od języka,
+
+05:20.390 --> 05:22.430
+z którym pracujesz.
+
+05:22.460 --> 05:31.470
+Musimy wiedzieć, w jaki sposób metoda działa na napisach tutaj i która jest wbudowana w javascript, a będziesz miał inną
+
+05:31.490 --> 05:37.100
+wbudowaną metodę dla twojego języka na podstawie tego, jak zbudowany jest język.
+
+05:37.160 --> 05:47.510
+Ten poziom DOD może iść jeden po drugim i powtarzać nad każdą literą i liczyć 0 1 2 3 4
+
+05:47.510 --> 05:57.680
+5 6 7 8 9 10 aż do 20, ale javascript ma właściwość length wbudowaną w każdy ciąg znaków.
+
+05:58.030 --> 06:05.370
+Tak więc dla javascript ta właściwość Daleth jest po prostu prostą opcją.
+
+06:05.430 --> 06:07.970
+To nie jest funkcja.
+
+06:08.130 --> 06:10.830
+Nie używamy tej funkcji do obliczania rzeczy.
+
+06:10.830 --> 06:15.230
+Zamiast tego jest po prostu właściwością obiektu.
+
+06:15.450 --> 06:16.490
+I z tego powodu.
+
+06:16.590 --> 06:21.600
+I znowu, jeśli nie jesteś bardzo zaznajomiony z javascriptem, może to być trochę mylące, ale nie
+
+06:21.600 --> 06:22.340
+stresuj się.
+
+06:22.410 --> 06:27.660
+Chodzi o to, że ta operacja w javascript wynosi 0.
+
+06:27.840 --> 06:38.240
+Konstantyn, ale nie wiedząc, jak działa twój język, nie wiesz, jak ta własność jest moją pracą.
+
+06:38.280 --> 06:47.070
+Być może, gdybyś miał metodę, która by działała, ale teraz masz potężną podstawę dla filaru, aby zacząć myśleć
+
+06:47.370 --> 06:50.240
+o kodzie w inny sposób.
+
+06:50.310 --> 06:57.030
+Rozpocznij spojrzenie na przestrzeń i czas, są dla nas cenne, jako inżynierowie, jako zasoby, które
+
+06:57.030 --> 06:58.620
+musimy zachować ostrożność.
+
+06:58.620 --> 07:06.320
+Nie mamy nieskończonej ilości zasobów, musimy być ostrożni, kiedy kodujemy sposób wykorzystania tych zasobów.
+
+07:06.450 --> 07:10.800
+I to samo czyni cię lepszym inżynierem.
+
+07:10.820 --> 07:11.660
+Zobaczę w następnych kilku.

@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.070 --> 00:02.140
+Welcome back.
+
+00:02.450 --> 00:07.260
+I hope you are able to think about why link lists might be good or bad.
+
+00:08.360 --> 00:15.860
+In this video let's discuss the answer one key thing that you may have seen is that link lists have
+
+00:15.860 --> 00:23.230
+a sort of loose structure that allows you to insert a value into the middle of the list.
+
+00:24.040 --> 00:32.930
+By simply resetting a few pointers just like we saw in the animation I can insert anything that I want
+
+00:33.500 --> 00:39.670
+and the only changes that happen is somewhere in the middle here.
+
+00:42.000 --> 00:45.720
+And this is the same for deleting node in a linked list.
+
+00:46.440 --> 00:49.720
+And we remember with an array data structure how.
+
+00:49.770 --> 00:56.620
+When we wanted to insert something that wasn't at the end of the array we had to add the item.
+
+00:56.850 --> 01:05.100
+Let's say in memory space one into here and then shift all the items down and index down which cost
+
+01:05.100 --> 01:06.220
+us a lot of time.
+
+01:06.240 --> 01:09.210
+It cost us 0 of an.
+
+01:09.290 --> 01:18.350
+The main difference between arrays and linked lists is that in an array an element or elements are indexed.
+
+01:18.410 --> 01:25.030
+So if I wanted to go to item at index 5 I can do that easily in a linked list.
+
+01:25.100 --> 01:35.900
+You start at the head and traverse the list until you get to Item 5 which is 0 of and and this idea
+
+01:35.900 --> 01:44.920
+of traversal is the same as iteration that we did with erase where we go 0 1 2 3 4 5 except we like
+
+01:44.920 --> 01:49.780
+to call this traversal because you don't really know when the linked list will end.
+
+01:49.780 --> 01:53.400
+You start from the head and you keep going until you hit No.
+
+01:53.920 --> 01:58.520
+And as you'll see in our coding example we're going to have to use something like a WHILE loop.
+
+01:58.630 --> 02:04.480
+When we implement our own linked lists because we don't usually know how long the list is going to be
+
+02:05.800 --> 02:12.730
+another advantage that an array might have is that most computers have caching systems that make reading
+
+02:12.730 --> 02:16.210
+from sequential memory that is memory right next to each other.
+
+02:16.270 --> 02:18.290
+Shelfs right next to each other.
+
+02:18.460 --> 02:21.390
+Faster than reading scattered addresses.
+
+02:21.580 --> 02:27.610
+And that's something that we've talked about already array items are always located right next to each
+
+02:27.610 --> 02:29.200
+other in computer memory.
+
+02:30.150 --> 02:35.480
+Link list and nodes instead are actually scattered all over memory.
+
+02:35.700 --> 02:44.080
+Kind of like hash tables so iterating through a linked list or traversing through a linked list is usually
+
+02:44.230 --> 02:50.210
+quite a bit slower than iterating through items like an array even though they're technically both of
+
+02:50.210 --> 02:51.340
+an.
+
+02:51.570 --> 02:59.670
+However these inserts that we can do in the middle of a linked list is a lot better than an array.
+
+02:59.670 --> 03:01.140
+What about hash tables.
+
+03:01.140 --> 03:09.410
+Remember this when we talked about hash tables well just like hash tables when we insert something into
+
+03:09.410 --> 03:15.620
+a linked list we just scatter it all over memory and we can just keep adding a keep adding a keep adding
+
+03:15.620 --> 03:22.590
+it and we don't have to do any of that on shifting or shifting on the indexes that we did with the race
+
+03:23.250 --> 03:25.310
+which is really really nice.
+
+03:26.320 --> 03:32.300
+You can also delete notes very easily versus with an array.
+
+03:32.510 --> 03:38.750
+But the one advantage that it has over hash tables is that there is some sort of order to link list
+
+03:39.290 --> 03:41.170
+each node points to the next note.
+
+03:41.240 --> 03:46.360
+So you can have sorted data on like a hash table.
+
+03:46.390 --> 03:55.120
+So if we look at our big row of linked lists we can see that prepend which is a common language we say
+
+03:55.270 --> 03:58.180
+to add to the beginning of a linked list.
+
+03:58.180 --> 04:03.380
+Prebend is 0 1 append which is at the end of the list.
+
+04:03.400 --> 04:11.200
+To add a new item is of one look up which we can also call traversal to look for an item.
+
+04:11.200 --> 04:17.500
+Let's say we want to find 10 is also in because we have to go from the head all the way until we find
+
+04:17.770 --> 04:18.760
+what we're looking for.
+
+04:19.940 --> 04:27.650
+Insert is also of an Because we have to go one by one find the index.
+
+04:27.650 --> 04:32.870
+We don't know how longer linked list is we find the index and then insert there which technically could
+
+04:32.870 --> 04:37.550
+take of an and again something that we're going to implement in code and have a better understanding
+
+04:37.550 --> 04:45.150
+of and delete is also all Vende because we have to find the items.
+
+04:45.170 --> 04:50.460
+Now you're thinking to yourself hold on insert and delete and arrays are also all of them.
+
+04:50.480 --> 04:52.960
+So how is that better.
+
+04:53.020 --> 04:57.340
+And that's something that we're going to get into when we actually take a look at the code.
+
+04:57.340 --> 05:05.110
+Remember this is the worst case in which case we insert or delete the very last item and most of the
+
+05:05.140 --> 05:07.200
+times that won't be the case a linked list.
+
+05:07.360 --> 05:13.030
+Again something that we're going to talk about a little bit when we code our own linked list but looking
+
+05:13.030 --> 05:18.960
+at a diagram like this it's really hard to truly understand how they work and what length lists are.
+
+05:19.130 --> 05:20.490
+So we're going to code our own.
+
+05:21.020 --> 05:25.670
+And the next video we're going to talk about this final piece of the puzzle what a pointer is.
+
+05:25.700 --> 05:32.000
+And then finally code our own linked list so we understand the big-O implications a little bit better.
+
+05:33.330 --> 05:34.670
+I'll see that one.
+
+05:34.750 --> 05:34.980
+Babai.

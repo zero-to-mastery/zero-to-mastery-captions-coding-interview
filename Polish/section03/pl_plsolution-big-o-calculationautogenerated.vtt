@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.050 --> 00:02.080
+Witamy spowrotem.
+
+00:02.220 --> 00:05.980
+Ile mnie nienawidziłeś po wykonaniu tego wyzwania.
+
+00:06.030 --> 00:13.080
+Teraz miało to być trudne, trudne i frustrujące, a najprawdopodobniej nie da się tego zrobić
+
+00:13.080 --> 00:14.990
+za pierwszym razem.
+
+00:15.240 --> 00:18.260
+Dokonano tego w celu zilustrowania punktu.
+
+00:18.300 --> 00:20.340
+Co tutaj właściwie robimy.
+
+00:20.460 --> 00:23.300
+Cóż, nie zostaniesz poproszony o zrobienie tego w wywiadzie.
+
+00:23.430 --> 00:29.010
+Ale chciałem pokazać ci, jak myśleć o rzeczach, ponieważ później pokażę
+
+00:29.010 --> 00:37.070
+ci, jak to jest naprawdę dużo prostsze niż myślenie o każdym pojedynczym kroku i funkcja do obliczania rzeczy.
+
+00:37.110 --> 00:42.850
+Nie ma w tym wiele matematyki, a to jest tak samo jak mathy, ponieważ zamierzamy wziąć udział w tym kursie.
+
+00:42.960 --> 00:48.810
+Ale po prostu chcę pokazać wam szczegóły, abyście mogli pomyśleć o tym i mieć przyjemny
+
+00:48.810 --> 00:53.800
+fundament, abyśmy posunęli się naprzód, aby uprościć rzeczy o wiele lepiej.
+
+00:54.920 --> 00:56.930
+Teraz spójrzmy na tę funkcję.
+
+00:57.040 --> 01:01.780
+Jest to zabawna funkcja wyzwalająca, która przyjmuje pewien rodzaj danych wejściowych.
+
+01:01.850 --> 01:08.120
+Przede wszystkim w ramach tej funkcji, gdy prowadzimy zabawne wyzwanie, powiedzmy, że
+
+01:08.450 --> 01:15.170
+bawimy się dobrze i uruchamiamy tę funkcję, a dane wejściowe nie mają znaczenia.
+
+01:15.200 --> 01:22.580
+Może to być tablica, która może być przedmiotem wiedzy, ale utrzymuj proste rzeczy, mówiąc, że jest to tablica złożona z pięciu.
+
+01:22.820 --> 01:28.440
+Teraz, gdy uruchamiamy tę funkcję, pierwszą rzeczą, którą zrobimy, jest zadanie.
+
+01:28.700 --> 01:36.180
+Zamierzamy teraz przypisać zmienną A jako 10 na podstawie konwencji.
+
+01:36.470 --> 01:42.770
+I dlatego nie spotkasz się z tym w wywiadzie, ponieważ wiele osób interpretuje to inaczej.
+
+01:42.770 --> 01:46.400
+Niektórzy twierdzą, że to zadanie nie należy liczyć do big-O.
+
+01:46.700 --> 01:48.830
+A niektórzy ludzie mówią, że powinieneś.
+
+01:48.830 --> 01:53.710
+W naszym przypadku, aby uprościć rzeczy, policzmy każdy krok i co robi funkcja.
+
+01:54.080 --> 02:02.480
+Niech 10 to 0 z 1, ponieważ działa tylko raz.
+
+02:02.480 --> 02:03.230
+Zabawne wyzwanie.
+
+02:03.230 --> 02:03.770
+to jest to!
+
+02:03.790 --> 02:06.240
+Nie ma znaczenia, jak duże są dane wejściowe.
+
+02:06.260 --> 02:12.850
+To działa tylko raz, a następnie 50 plus trzy, które ponownie przypisujemy A.
+
+02:13.130 --> 02:18.900
+To znów jest jeden.
+
+02:19.060 --> 02:21.660
+A potem wchodzimy w pętlę.
+
+02:21.790 --> 02:29.200
+Wiemy, że z pętlą wygląda na to, że patrzymy na długość wejścia i pętlę w zależności od tego,
+
+02:29.200 --> 02:31.360
+co jest na wejściu.
+
+02:31.360 --> 02:40.860
+W naszym przypadku będzie to O, Dodajmy ten komentarz tutaj i to znowu jest dane wejściowe.
+
+02:40.900 --> 02:45.550
+Pamiętaj, że mogę zmienić tylko dwa wejścia, które mogę zmienić tylko 2 X, tak naprawdę nie ma to znaczenia.
+
+02:45.550 --> 02:50.020
+Po prostu odzwierciedla to, jak duże są dane wejściowe, to jak długo potrwają pętle.
+
+02:50.200 --> 02:59.490
+I wiemy już, że pętle są czasem liniowym, a następnie w tej funkcji nie wiemy, czym jest
+
+02:59.490 --> 03:05.790
+ta funkcja, ale ona wywołuje inną funkcję poza funcyjną funkcją wyzwanie.
+
+03:05.790 --> 03:08.630
+Jest to również wywoływane ile razy.
+
+03:08.880 --> 03:12.320
+To zależy od tego, jak duże są nasze dane wejściowe.
+
+03:12.330 --> 03:15.950
+Więc po raz kolejny jest z.
+
+03:16.130 --> 03:17.630
+A co z tym.
+
+03:17.680 --> 03:24.540
+Niech zmienna nieznajoma równa się true zaczęła tutaj inne losowe przypisanie.
+
+03:24.930 --> 03:32.430
+Ale działa to tyle razy, ile trwa ta pętla, jeśli dane wejściowe były pięciokrotnie pięciokrotne.
+
+03:32.430 --> 03:41.260
+Znowu to byłby, a potem tutaj mamy plus plus który w javascriptach oznacza
+
+03:41.260 --> 03:43.800
+po prostu plus.
+
+03:43.870 --> 03:48.090
+Tak więc zwiększamy tylko liczbę, jaką mamy w danym momencie.
+
+03:48.130 --> 03:58.680
+Tak więc 53 stanie się 54, a następnie, gdy będziemy przez niego przechodzić, liczba ta będzie rosła o 1 54 55 56.
+
+03:59.000 --> 04:01.990
+To ponownie uruchamia 0 czasów końcowych.
+
+04:02.000 --> 04:08.230
+To zależy od tego, ile razy Brunt kupi dane wejściowe, ponieważ znowu przepuszczamy.
+
+04:08.330 --> 04:10.960
+A na koniec kolejna rzecz, której niektórzy ludzie się nie liczą.
+
+04:10.970 --> 04:15.670
+Ale po to, aby zachować spójność każdego kroku, który powracamy.
+
+04:15.800 --> 04:21.180
+To działa tylko raz za każdym razem, gdy zabawa stawia wyzwanie.
+
+04:21.470 --> 04:25.630
+Instrukcja return działa tylko raz.
+
+04:25.680 --> 04:26.370
+W porządku.
+
+04:26.370 --> 04:29.280
+Mamy więc wszystkie te notacje Big O.
+
+04:29.280 --> 04:34.160
+A teraz zaczynamy myśleć o tym, jak działa funkcja i jak wydajna jest funkcja.
+
+04:34.410 --> 04:41.750
+Jeśli właściwie to policzymy, jeśli to wszystko podsumujemy, zobaczymy, że mamy 1 2 3.
+
+04:41.820 --> 04:51.040
+Mamy więc trzy kroki plus jeden z piekarnika.
+
+04:51.110 --> 05:02.710
+Oznacza to, że mamy plus i plus A więc oznacza to, że prowadzimy obliczenia.
+
+05:02.970 --> 05:07.360
+Oraz plus i plus oraz plus, który okazuje się być cztery.
+
+05:07.430 --> 05:19.300
+A więc trzy plus cztery i to nasza notacja Big O, to jest tak, jak mówiłem wcześniej, jeśli chodzi o duże.
+
+05:19.330 --> 05:22.740
+Och, nie zwlekajcie zbyt długo.
+
+05:22.900 --> 05:23.970
+Czy to rozumiem?
+
+05:24.010 --> 05:30.850
+Ponieważ w wywiadzie nie będziesz tego potrzebował, ale możesz teraz zastanowić się, w jaki sposób
+
+05:30.850 --> 05:34.890
+funkcja działa głębiej niż po prostu napisanie kodu.
+
+05:35.440 --> 05:42.130
+Gdy przechodziliśmy przez kolejne filmy, dowiesz się, że to pod koniec
+
+05:42.310 --> 05:49.370
+dnia zostanie uproszczone, a my przejdziemy przez to i dlaczego tak się dzieje.

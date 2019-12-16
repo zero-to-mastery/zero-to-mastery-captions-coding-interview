@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.780 --> 00:05.100
+Witaj ponownie, jak było ćwiczenie.
+
+00:05.170 --> 00:09.580
+Czy byłeś w stanie znaleźć metodę dołączania?
+
+00:09.670 --> 00:13.070
+Pozwól, że pokażę ci, co bym zrobił.
+
+00:13.160 --> 00:21.530
+Pierwszą rzeczą, którą chcielibyśmy zrobić, jest stworzenie nowego węzła z wartością i możemy to zrobić całkiem
+
+00:21.530 --> 00:22.550
+łatwo.
+
+00:22.550 --> 00:30.620
+Mówiąc, że nowy węzeł Konst ma być równy obiektowi z właściwościami, których nie powinniśmy
+
+00:30.620 --> 00:38.240
+już znać, że mamy wartość, która będzie równa wartości, którą otrzymamy jako parametr,
+
+00:39.140 --> 00:43.330
+a następnie następnej, która nie będzie.
+
+00:43.350 --> 00:51.250
+Mamy tutaj nasz nowy węzeł i chcemy go dołączyć teraz po 10-tym
+
+00:51.250 --> 01:05.070
+węźle, który jest naszą pierwszą notatką, możemy to zrobić, wypowiadając kropkę kropki obok, która jest pamięcią, że to miejsce jest tutaj
+
+01:05.080 --> 01:06.860
+równe Gnollowi.
+
+01:06.880 --> 01:14.140
+Więc to jest ogon, który jest ostatnim elementem na naszej liście, ponieważ ta metoda nie wie, że mamy tylko
+
+01:14.410 --> 01:17.110
+jeden przedmiot, który możemy mieć 100 sztuk.
+
+01:17.110 --> 01:18.570
+Chcemy tylko dodać na końcu.
+
+01:18.790 --> 01:23.080
+Więc złapie ogon, a następnie chwyci następną wartość ogona.
+
+01:23.080 --> 01:28.930
+Więc będzie chwytał wskaźnik ogona i mówi hej zamiast wskazywać Noalowi
+
+01:28.930 --> 01:34.030
+wskazał na ten nowy węzeł, który właśnie stworzyliśmy.
+
+01:34.080 --> 01:43.180
+W porządku, wskazywaliśmy teraz, aby ogon wskazywał teraz na nowy węzeł, który ma już ustawiony węzeł, a następnie chcemy
+
+01:43.180 --> 01:50.560
+powiedzieć, że to, co mieliśmy przed ogonem, przed którym była wartość 10, nie jest już
+
+01:50.560 --> 01:51.150
+ogonem.
+
+01:51.190 --> 02:04.420
+Mamy nowy, ostatni element, który jest tym ogonem, który teraz będzie równy nowemu węzłowi, i ponieważ uruchamiamy tę
+
+02:04.420 --> 02:14.920
+operację po tej, kiedy uruchomimy tę kropkę, to następny jest nadal tym węzłem.
+
+02:15.010 --> 02:25.420
+I jak tylko zaktualizujemy ten węzeł, aby mieć następny węzeł, możemy go teraz usunąć.
+
+02:25.840 --> 02:33.530
+Możemy teraz zaktualizować ogon tak, aby był nowym węzłem, ponieważ do tego czasu do czasu, kiedy ta linia zostanie uruchomiona,
+
+02:33.530 --> 02:37.440
+następna została poprawnie zaktualizowana dla tej starszej wartości ogona.
+
+02:38.630 --> 02:45.110
+A na koniec chcemy się upewnić, że dodamy do tego dostrojenie Tikala.
+
+02:45.200 --> 02:50.380
+Zrobimy plus plus I tylko dla zabawy, ponieważ chcemy się upewnić, że robimy to dobrze.
+
+02:50.390 --> 02:54.730
+Zwrócimy to, co jest połączoną listą.
+
+02:54.800 --> 02:59.540
+Zapamiętajcie to tylko odniesienia do tego, do czego ta klasa jest tworzona.
+
+02:59.570 --> 03:04.880
+Powiemy tylko, że zwróciliśmy to, abyśmy mogli odzyskać naszą połączoną listę.
+
+03:04.950 --> 03:10.450
+Zamierzam teraz usunąć blokadę konsoli i zobaczyć, co się stanie, gdy po prostu uruchomimy punkt pięć.
+
+03:10.640 --> 03:13.310
+Kliknij, aby uruchomić.
+
+03:13.320 --> 03:13.860
+W porządku.
+
+03:13.950 --> 03:18.830
+Zwróciłem naszą połączoną listę, która ma wartość równą 10.
+
+03:18.840 --> 03:20.760
+Następny jest nowy.
+
+03:20.760 --> 03:23.440
+Wiedz, że stworzyliśmy wartość 5.
+
+03:23.930 --> 03:24.730
+I dalej.
+
+03:24.730 --> 03:25.380
+Nie.
+
+03:25.740 --> 03:28.680
+A potem ogon ma wartość pięć.
+
+03:28.800 --> 03:32.750
+Następny nie jest idealny z długością dwóch.
+
+03:33.030 --> 03:33.730
+Niesamowite.
+
+03:33.780 --> 03:34.940
+Wygląda na to, że działa.
+
+03:35.010 --> 03:37.400
+Zróbmy też to.
+
+03:37.530 --> 03:41.030
+Dołącz i zaczynamy.
+
+03:41.150 --> 03:44.010
+Mamy wartość pięciu.
+
+03:44.120 --> 03:50.930
+Głowica odwołuje się do wartości 10, która wskazuje na następną nutę, która ma wartość 5,
+
+03:50.930 --> 03:57.960
+która wskazuje na następny, który jest obiektem, który jest ogonem z powodu sposobu, w jaki działa logowanie.
+
+03:57.980 --> 04:05.060
+Nie pokaże tego zagnieżdżonego Powiem tylko, że jest to obiekt, ale wskazuje on na
+
+04:05.060 --> 04:09.860
+ogon, który ma wartość 16, a nie długość trzech.
+
+04:09.860 --> 04:10.980
+Jakie to jest świetne.
+
+04:11.030 --> 04:18.710
+Właśnie stworzyliśmy naszą połączoną listę, taką listę zawiera 10 5 16 połączonych list.
+
+04:19.130 --> 04:20.360
+Mam nadzieję, że to dobrze.
+
+04:20.420 --> 04:26.180
+Ale jeśli nie zniechęcisz się To zajmuje trochę czasu, aby się przyzwyczaić.
+
+04:26.210 --> 04:32.000
+Na szczęście dla ciebie, gdy napiszesz to kilka razy, staje się tak, jak powiedziałem drugą naturę.
+
+04:32.000 --> 04:36.010
+Więc nie stresuj się, ponieważ mam teraz dla ciebie kolejne wyzwanie.
+
+04:36.050 --> 04:37.960
+Wiesz, jak to zrobić.
+
+04:38.060 --> 04:41.760
+Powinieneś być w stanie zrobić prawo wstępne.
+
+04:42.000 --> 04:45.570
+Przedpłata jest dodawana na początku listy.
+
+04:46.070 --> 04:54.230
+Powiedzmy więc, że na naszej liście chcemy dodać teraz naszą głowę zamiast 10.
+
+04:54.320 --> 05:00.920
+Jak byśmy to zrobili za pomocą metody zwanej przedrozrostem, ta wstępna wartość będzie miała wartość.
+
+05:02.340 --> 05:13.050
+I będziemy mogli uruchomić polecenie podobne do mojej listy z połączonymi punktami, poprzedzające ją, aby dodać tę na początku
+
+05:13.050 --> 05:14.750
+tej listy.
+
+05:15.870 --> 05:17.380
+Więc tutaj kod.
+
+05:17.580 --> 05:18.380
+Powodzenia.
+
+05:18.400 --> 05:19.720
+Zobaczmy, czy możemy rozwiązać ten problem.
+
+05:19.770 --> 05:23.610
+Do zobaczenia w następnym filmie, na którym dam ci rozwiązanie.

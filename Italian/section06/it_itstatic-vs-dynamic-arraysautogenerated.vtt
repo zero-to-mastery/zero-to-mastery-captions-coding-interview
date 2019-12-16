@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.910 --> 00:07.810
+Bentornato come ho detto nel video precedente ci sono in realtà due tipi di una gara.
+
+00:07.830 --> 00:13.820
+Uno è chiamato statico e l'altro dinamico è una razza.
+
+00:13.830 --> 00:16.940
+Ora qual è la differenza tra i due.
+
+00:16.940 --> 00:26.950
+Bene, l'unica limitazione di static o race è che sono fissi in termini di dimensioni, il che significa che è necessario specificare il numero
+
+00:26.950 --> 00:30.940
+di elementi che il tuo array manterrà in anticipo.
+
+00:31.810 --> 00:39.490
+Quindi in questo caso se si trattasse di un array statico, direi di creare una serie di sette
+
+00:39.760 --> 00:50.740
+elementi sapendo in anticipo che nella mia lista della spesa avrò solo un massimo di sette elementi perché gli array sono allocati in blocchi di memoria
+
+00:50.740 --> 00:53.390
+adiacenti quando vengono creati .
+
+00:53.720 --> 01:01.810
+Non c'è alcuna garanzia che dopo aver assegnato 7 shelfs di memoria su cui è possibile continuare
+
+01:02.680 --> 01:10.830
+ad aggiungere cose soprattutto per risolvere questo problema con array statici che ci richiedono di dire in anticipo.
+
+01:10.910 --> 01:21.500
+Ehi, voglio solo 7 shelfs di memoria con dinamica dinamica e array dinamici che ci permettono di copiare e ricostruire un
+
+01:21.560 --> 01:26.690
+array in una nuova posizione che con più memoria.
+
+01:26.690 --> 01:34.590
+Se volessimo più memoria, ad esempio con il nostro array statico, se ci rendessimo conto che abbiamo dimenticato un altro elemento nella nostra lista
+
+01:34.590 --> 01:36.820
+e abbiamo bisogno di 8 articoli.
+
+01:37.050 --> 01:42.080
+Quello che succede è copiare questo intero array.
+
+01:42.180 --> 01:53.380
+Assegniamo 14 blocchi di memoria e incolliamo questo elenco più l'ottavo elemento in quella nuova posizione.
+
+01:53.460 --> 02:00.130
+Lascia che ti mostri come funziona con il codice che vedi in linguaggi come il C ++.
+
+02:00.180 --> 02:08.130
+Fammi scorrere verso il basso qui in C ++ che ha array statici per creare un array.
+
+02:08.130 --> 02:09.770
+Fai qualcosa del genere.
+
+02:11.360 --> 02:18.460
+Diresti int a.
+
+02:18.560 --> 02:24.900
+E questo dice che voglio un nuovo array che abbia uno spazio di 20 elementi.
+
+02:26.690 --> 02:28.180
+O possiamo fare qualcosa di simile.
+
+02:28.240 --> 02:33.140
+Int b.
+
+02:33.290 --> 02:40.750
+E poi riempire la matrice di cinque elementi con 1 2 3 4 5 interi.
+
+02:40.850 --> 02:42.830
+Questo è ciò che rappresenta i numeri.
+
+02:43.770 --> 02:51.420
+E a causa di questo e perché questo è un array statico per poter
+
+02:51.510 --> 03:00.560
+aggiungere un sei elementi qui bene, dovremmo copiare l'intero array e spostarlo in un'area completamente diversa della memoria.
+
+03:01.220 --> 03:03.680
+Per creare lo spazio per questo.
+
+03:03.830 --> 03:11.460
+Ora fortunatamente per noi quando ti ho mostrato con javascript come fare bene non ci dobbiamo mai preoccupare di
+
+03:11.460 --> 03:18.640
+aver fatto nel nostro esempio di javascript che non abbiamo mai veramente assegnato memoria e questo
+
+03:18.700 --> 03:27.850
+perché in javascript e in altri linguaggi come Python dove hai liste e liste di array in Java funzionano come array dinamici.
+
+03:28.060 --> 03:35.070
+Assegnano automaticamente la memoria in base all'aumento delle dimensioni dell'array.
+
+03:35.500 --> 03:40.470
+Quindi, a prima vista, stai pensando che gli array dinamici siano molto più semplici.
+
+03:40.480 --> 03:46.800
+Non devo pensare alla memoria a causa del ridimensionamento automatico e questo entra in una discussione sulla gestione
+
+03:46.800 --> 03:51.570
+della memoria che consentono linguaggi di basso livello come il C ++.
+
+03:51.750 --> 03:57.780
+Mentre i linguaggi di livello superiore come javascript ci permettono di non pensare alla memoria e lasciare che la macchina si
+
+03:57.780 --> 03:59.790
+prenda cura di te per te.
+
+03:59.790 --> 04:06.750
+Ci sono momenti in cui forse vuoi gestire la tua memoria e le volte in cui non ti serve in base
+
+04:06.750 --> 04:07.970
+alle tue esigenze.
+
+04:08.280 --> 04:13.950
+Ovviamente avere più controllo sulla memoria consente di modificare davvero le cose e rendere le cose più veloci ed è per
+
+04:13.950 --> 04:18.420
+questo che linguaggi come il C ++ possono essere molto più veloci delle lingue superiori.
+
+04:18.420 --> 04:23.820
+Lingue di livello superiore come javascript ma non è necessario approfondire questo argomento.
+
+04:24.170 --> 04:29.230
+Ciò che vogliamo ottenere da questa lezione è che l'array dinamico si espande man mano che aggiungi più elementi.
+
+04:29.330 --> 04:35.660
+Quindi non è necessario determinare la dimensione in anticipo, ma è possibile che si sia notato qualcosa con gli array
+
+04:35.660 --> 04:36.270
+dinamici.
+
+04:37.810 --> 04:45.130
+Vedi qui come ho un punto in tutto uguale al comando push che abbiamo fatto
+
+04:45.130 --> 04:46.660
+nella lezione precedente.
+
+04:46.930 --> 04:52.670
+Ma ho una stella qui che dice che può essere 0 di un perché è quello.
+
+04:53.030 --> 05:01.560
+Bene se ricordiamo il nostro array e rimuoviamo gli elementi extra qui che non
+
+05:01.560 --> 05:15.460
+abbiamo bisogno quindi dì abcd se sotto javascript hood e la nostra macchina crea solo quattro blocchi di memoria per questo array e
+
+05:15.460 --> 05:23.170
+aggiungiamo un'altra lettera sotto il cofano perché questo è una matrice dinamica.
+
+05:23.270 --> 05:26.140
+Passerà sopra questi elementi.
+
+05:26.330 --> 05:31.360
+Copiali e spostali in un'altra posizione con.
+
+05:31.390 --> 05:34.310
+Ora otto blocchi di spazio.
+
+05:35.200 --> 05:37.660
+In modo che possiamo continuare ad aggiungere qui.
+
+05:39.450 --> 05:47.850
+E vedi qui perché abbiamo fatto questo ciclo l'operazione si è conclusa e quindi è qualcosa da tenere a mente
+
+05:47.850 --> 05:50.750
+anche se è un dettaglio minore.
+
+05:51.030 --> 05:56.070
+È bello sapere come funzionano le cose sotto la cappa e
+
+05:56.070 --> 06:03.330
+il più delle volte con le lingue in cui lavori e durante le interviste parlerai di array dinamici
+
+06:03.660 --> 06:10.020
+e non dovrai preoccuparti di allocare memoria e pensare alla possibilità che potresti dover copiare l'array.
+
+06:10.110 --> 06:16.830
+Questo è davvero di basso livello, ma volevo mostrarti come funzionano in modo da far avanzare questi
+
+06:16.850 --> 06:17.400
+fondamentali.
+
+06:17.670 --> 06:24.180
+E capisco che quando si tratta di un rilancio solo perché si sta aggiungendo alla fine usando il
+
+06:24.180 --> 06:31.770
+comando push, si può presumere che sia 0 di 1 la maggior parte delle volte o il tempo costante ma ogni
+
+06:31.830 --> 06:37.190
+tanto si può incontrare una situazione in cui è tutto allora tempo lineare.
+
+06:37.300 --> 06:38.290
+Vedrò nel prossimo video.

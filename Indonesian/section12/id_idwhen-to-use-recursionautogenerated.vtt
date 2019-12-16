@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.860 --> 00:05.440
+Kapan kita akan menggunakan rekursi.
+
+00:05.660 --> 00:07.600
+Ini adalah peran yang saya suka gunakan.
+
+00:08.530 --> 00:14.800
+Ketika sampai pada masalah rumit seperti melintasi atau mencari melalui pohon atau grafik
+
+00:14.800 --> 00:21.070
+sesuatu yang akan kita bicarakan dengan grafik untuk pencarian dan kedalaman untuk
+
+00:21.070 --> 00:27.400
+rekursi pencarian benar-benar berguna dan lebih baik daripada pendekatan berulang dan kami memilah-milah item.
+
+00:27.430 --> 00:35.890
+Ada juga kasus yang akan melihat bahwa rekursi lebih disukai dan ketika menyangkut rekursi, inilah aturan yang
+
+00:35.890 --> 00:43.190
+ingin saya ikuti setiap kali kita menggunakan pohon atau mengubah sesuatu menjadi pohon.
+
+00:43.190 --> 00:51.350
+Pertimbangkan rekursi dan ada tiga hal utama dalam pertanyaan wawancara yang mungkin memicu solusi
+
+00:51.920 --> 01:02.550
+rekursif. Salah satunya adalah bahwa masalah dapat dibagi menjadi beberapa submasalah yang merupakan contoh kecil dari masalah yang sama
+
+01:02.790 --> 01:09.430
+seperti latihan yang telah kami lakukan dengan angka Fibonacci atau faktorial.
+
+01:09.450 --> 01:14.640
+Kita dapat memecahnya menjadi pohon-pohon kecil yang terurai menjadi potongan-potongan kecil dan kecil.
+
+01:14.670 --> 01:19.030
+Itu adalah masalah yang sifatnya rekursif.
+
+01:19.030 --> 01:25.420
+Faktor lain adalah bahwa masing-masing contoh masalah ini bersifat identik.
+
+01:25.570 --> 01:30.160
+Itulah perhitungan yang perlu kita lakukan hampir sama.
+
+01:30.190 --> 01:35.550
+Mereka mungkin nilai yang lebih kecil tetapi perhitungan aktual di bawahnya semuanya sama.
+
+01:35.550 --> 01:38.040
+Lagi dan lagi dan lagi.
+
+01:38.220 --> 01:45.660
+Dan akhirnya poin ketiga adalah solusi itu jika Anda memecahkan masalah yang lebih kecil dari
+
+01:45.690 --> 01:49.190
+simpul daun pohon itu dan Anda menggabungkannya.
+
+01:49.290 --> 01:54.800
+Itu memecahkan masalah yang ada maka itu adalah solusi rekursif yang dapat Anda gunakan.
+
+01:55.170 --> 01:59.930
+Dan Anda akan melihat banyak membagi dan menaklukkan menggunakan rekursi.
+
+02:00.060 --> 02:06.280
+Ingat membagi dan menaklukkan yang kami sebutkan ketika kami sampai di pelajaran struktur data pohon itu
+
+02:06.280 --> 02:12.030
+seperti melihat melalui buku telepon ketika Anda sedang mencari Bell di buku telepon.
+
+02:12.370 --> 02:19.290
+Anda tidak akan memulai dari dan hanya pergi satu halaman pada satu waktu dari kiri ke kanan.
+
+02:19.330 --> 02:25.630
+Tidak, Anda biasanya membagi buku telepon di tengah atau mencoba untuk pergi ke bagian B
+
+02:25.630 --> 02:33.780
+dari buku telepon dan mulai membagi masalah halaman demi halaman sampai Anda semakin dekat dan dekat ini membagi dan
+
+02:33.780 --> 02:37.420
+menaklukkan jenis pertanyaan biasanya memiliki rekursi di dalamnya.
+
+02:37.800 --> 02:46.110
+Dan seperti yang kita ketahui, satu hal yang dapat dilakukan rekursi agar tidak dapat diulang adalah bahwa mereka dapat membuat
+
+02:46.200 --> 02:50.540
+tugas menjadi super super mudah seperti jenis masalah ini.
+
+02:50.700 --> 02:59.450
+Sebenarnya saya mendorong Anda untuk menulis fungsi lintasan Anda sendiri yang kami gunakan dalam struktur data pohon
+
+02:59.450 --> 03:00.080
+kami.
+
+03:00.080 --> 03:05.600
+Ini adalah sesuatu yang akan kita bahas ketika kita mencari bagian algoritma dan tetapi jika Anda ingin
+
+03:05.600 --> 03:06.890
+menantang diri sendiri.
+
+03:06.890 --> 03:14.470
+Lihat apakah dia dapat menulis fungsi traverse seperti yang saya lakukan di sini menggunakan rekursi dan kemudian juga mencoba
+
+03:14.650 --> 03:16.590
+menulis kode dengan loop.
+
+03:16.690 --> 03:21.310
+Anda akan melihat bahwa dengan loop hal-hal seperti traversal pohon adalah sakit kepala.
+
+03:21.310 --> 03:24.720
+Saya bahkan dapat melakukannya di atas kepala saya dengan rekursi.
+
+03:24.730 --> 03:32.650
+Ini cukup mudah dengan loop Anda biasanya harus memelihara semacam tumpukan untuk melacak
+
+03:32.650 --> 03:33.290
+hal-hal.
+
+03:33.550 --> 03:35.660
+Dan itu benar-benar menambah banyak kerumitan.
+
+03:37.300 --> 03:44.470
+Jadi gunakan aturan di bawah ini untuk mengetahui kapan masalah rekursif muncul dengan sendirinya selama wawancara.
+
+03:44.920 --> 03:51.130
+Saya akan meninggalkan beberapa latihan lagi untuk Anda setelah video ini, tetapi seperti yang akan kita lihat kita akan kembali ke
+
+03:51.160 --> 03:57.320
+topik ini ketika kita masuk ke bagian algoritma lain dan semuanya akan mulai menjadi lebih jelas dan lebih jelas.
+
+03:57.610 --> 03:58.990
+Saya akan melihat yang berikutnya.
+
+03:59.290 --> 03:59.480
+Bob

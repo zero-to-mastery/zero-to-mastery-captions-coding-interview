@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.240 --> 00:01.420
+Vom primi bine înapoi.
+
+00:01.460 --> 00:05.400
+Vreau să îmbunătățesc această funcție doar puțin.
+
+00:05.600 --> 00:12.500
+Vedeți în mod ideal că nu vrem să umplem memoria cache în ceea ce noi am numit domeniu de aplicare global.
+
+00:12.710 --> 00:15.620
+Asta înseamnă a trăi în afara acestei funcții.
+
+00:17.020 --> 00:26.710
+În mod ideal, este o practică bună să ai memorie sau, în acest caz, banii în bani să trăiască în interiorul acestei funcții și să
+
+00:26.710 --> 00:29.240
+nu polueze domeniul de aplicare global.
+
+00:29.380 --> 00:34.330
+Și există multe moduri de a face acest lucru pe baza limbajului din javascript că putem folosi
+
+00:34.540 --> 00:35.430
+ceva numit închideri.
+
+00:35.980 --> 00:40.930
+Și așa ar arăta și îți arăt asta pentru că atunci când ajungem la programarea dinamică
+
+00:40.930 --> 00:42.880
+vei vedea foarte mult acest model.
+
+00:43.120 --> 00:47.980
+Din fericire, cu programare dinamică, modelul este de obicei întotdeauna același.
+
+00:47.980 --> 00:52.030
+Deci, odată ce ați învățat acest lucru, atunci devine mai ușor și mai ușor.
+
+00:52.060 --> 01:01.580
+Deci modul în care aducem acest lucru în interiorul funcției este de a aduce bine așa ceva.
+
+01:01.690 --> 01:10.220
+Dar problema este acum că de fiecare dată când executăm acest lucru, suntem încă mult timp de fiecare dată, deoarece memoria cache se
+
+01:10.370 --> 01:13.410
+resetează de fiecare dată când funcția este apelată.
+
+01:13.430 --> 01:20.970
+Deci, cache-ul devine un obiect gol pentru a obține în jurul acestui lucru putem folosi închideri în javascript și putem
+
+01:21.030 --> 01:23.410
+reveni la o altă funcție.
+
+01:23.460 --> 01:31.830
+Deci, o funcție care returnează o funcție nother și aici va trece
+
+01:36.180 --> 01:42.890
+parametrul și vom avea logica în interiorul acestei funcții.
+
+01:43.840 --> 01:45.010
+Asta e.
+
+01:45.040 --> 01:53.570
+Și din cauza a ceva numit închidere putem accesa acest cache în interiorul acestei funcții Charles.
+
+01:53.590 --> 01:55.720
+Acum nu este vorba despre javascript.
+
+01:55.720 --> 02:02.670
+Deci, puteți citi singur despre închidere pe cont propriu, dar aceasta este doar o modalitate pentru a evita acest domeniu global,
+
+02:02.680 --> 02:06.620
+astfel încât de această dată putem face ceva de genul acesta.
+
+02:06.700 --> 02:18.260
+Nu putem spune pur și simplu că costul minimizat este egal memorat la 80 și vom executa această funcție.
+
+02:19.060 --> 02:25.660
+Și putem chiar să eliminăm parametrul de aici, astfel încât să avem flexibilitate.
+
+02:25.690 --> 02:34.490
+Permiteți-mi să vă arăt că avem anul memoriștilor care, sperăm, cred că Bell a memorat, astfel că acum această
+
+02:34.490 --> 02:43.030
+funcție pentru că am alergat-o va reveni pentru mine această funcție memorată este egală cu această funcție.
+
+02:43.310 --> 02:45.180
+Aceasta este literalmente ceea ce a memorat.
+
+02:45.200 --> 02:54.540
+Adăugați la 80 întoarce și am acces la această variabilă cache, astfel încât aici pot
+
+02:55.440 --> 02:59.910
+spune doar memorat 5 și memorat șase.
+
+03:00.070 --> 03:11.600
+Dacă aș fi alergat, încă mai obțin același lucru, dar dacă fac 5 și 5 și am alergat așa, este memorat.
+
+03:12.000 --> 03:18.000
+Această funcție memorează faptul că parametrul nu sa schimbat.
+
+03:18.060 --> 03:23.880
+Este același parametru și va verifica memoria cache și va spune că nu trebuie să fac acest
+
+03:23.880 --> 03:24.590
+calcul prost.
+
+03:24.600 --> 03:25.540
+Deja il am.
+
+03:25.560 --> 03:27.730
+Aici mergeți doar folosind o masă de tip hash.
+
+03:27.870 --> 03:29.230
+Aici este.
+
+03:29.340 --> 03:38.430
+Și în timp ce tocmai am învățat aici este foarte puternic pentru că ne permite să fim foarte eficienți
+
+03:38.430 --> 03:47.400
+cu codul nostru ceva ce știm că intervievatorii iubesc companiile dragostea și programarea dinamică ne permite să folosim
+
+03:47.400 --> 03:53.160
+ceea ce știm acum despre memoizare pentru a optimiza codul nostru.
+
+03:53.190 --> 03:55.320
+Să vedem mai multe în următorul videoclip.

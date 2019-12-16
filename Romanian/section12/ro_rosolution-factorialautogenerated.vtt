@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.980 --> 00:01.820
+Bine ai revenit.
+
+00:02.190 --> 00:09.540
+Să începem cu abordarea iterativă care nu este recursivă dacă vrem să executăm funcția să
+
+00:09.540 --> 00:20.940
+spunem că găsim iterativ factorial cinci în timp ce putem crea o variabilă să spunem cancer și pentru moment acest răspuns va fi unul și
+
+00:20.940 --> 00:31.980
+tot ce vom face este face o buclă pentru va spune Să i-au cost cu o schimbare zero sau în cazul nostru pentru
+
+00:31.980 --> 00:33.510
+a simplifica lucrurile.
+
+00:33.570 --> 00:43.040
+Să începem la două și voi explica într-o clipă de ce vrem să începem un doi să
+
+00:43.040 --> 00:50.580
+spunem că sunt mai puțin decât numărul și apoi vom crește cu 1.
+
+00:50.640 --> 00:55.480
+Acum de ce începem să adăugăm.
+
+00:55.600 --> 00:57.510
+S-ar putea să observați o scurtă tăiere aici.
+
+00:58.250 --> 01:08.520
+1 factorial este doar o două factorial este de două ori 1, care este doar două.
+
+01:08.560 --> 01:11.210
+Deci, ultimii doi biți.
+
+01:11.290 --> 01:18.790
+Dacă cineva spune un factorial sau doi factoriali care returnează pur și simplu numărul pe care l-au introdus pentru că
+
+01:18.790 --> 01:22.890
+nu există un calcul real pe care trebuie să-l facem.
+
+01:22.960 --> 01:33.440
+Deci, aceasta este o mică scurtătură, pentru a evita bucle suplimentare, dar doar pentru a spune că dacă numărul pe care îl introduce
+
+01:33.440 --> 01:36.200
+utilizatorul este să spunem 2.
+
+01:36.200 --> 01:39.750
+Deci, acesta este doi nu este mai mare decât numărul doi.
+
+01:41.080 --> 01:49.960
+Așa cum o avem acum, dacă cineva intră să găsească factorial iterativ 2 vom reveni 1,
+
+01:49.990 --> 02:00.520
+dar în schimb putem spune doar o simplă verificare condițională spunând că dacă numărul este egal cu doi vom
+
+02:00.520 --> 02:04.530
+spune că răspunsul este egal cu 2.
+
+02:04.630 --> 02:14.210
+Așa că, dacă am fugit de această funcție și doar spun că am două, dacă spun că am unul și sunt alte verificări pe care
+
+02:14.210 --> 02:16.740
+le putem face în mod evident.
+
+02:17.180 --> 02:19.490
+Dar pentru cazul nostru este destul de bun.
+
+02:19.490 --> 02:22.270
+Să ne uităm la ce putem face aici.
+
+02:23.270 --> 02:33.740
+Ei bine, modul de lucru factorial este de a spune pur și simplu că răspunsul va ajunge la timpii de răspuns egali.
+
+02:33.960 --> 02:41.950
+Așa că dacă fac clic pe Quraan aici și să facem cinci, primesc 24, ceea ce nu este
+
+02:42.190 --> 02:50.970
+de fapt răspunsul corect, deoarece de cinci ori patru este de 20 de ori trei este mult mai clar decât 24.
+
+02:51.370 --> 02:56.800
+Și asta din cauza unei mici greșeli aici vrem să ne asigurăm că acest lucru este egal pentru
+
+02:56.800 --> 02:58.900
+că vrem să includem numărul cinci.
+
+02:59.260 --> 03:09.800
+Deci, dacă am rula din nou, am o sută douăzeci care este răspunsul corect de cinci ori patru este de 20 de ori.
+
+03:09.940 --> 03:20.940
+Timpii trei sunt de 60 de ori doi este de 120 de ori unul este doar 120 perfect.
+
+03:21.280 --> 03:24.650
+Deci, speram ca ai raspuns corect.
+
+03:25.570 --> 03:27.540
+Dar abordarea recursivă.
+
+03:29.750 --> 03:41.910
+În versiunea recursivă, vom face o simplă verificare spunând dacă numărul este egal cu 2 și putem face și alte
+
+03:41.910 --> 03:42.550
+verificări.
+
+03:42.570 --> 03:46.590
+Dar asta ar trebui să fie suficient pentru ca noi să creăm un caz de bază.
+
+03:46.590 --> 03:55.570
+Deci, dacă numărul ajunge la 2, vom reveni la cazul nostru de bază.
+
+03:55.600 --> 03:57.120
+Așa ne oprim.
+
+03:57.190 --> 04:09.360
+Înainte vom reveni la versiunea noastră recursivă, care va fi pur și simplu de câteva ori funcția.
+
+04:09.470 --> 04:16.050
+Și în această funcție o să spunem doar un număr minus unul.
+
+04:16.460 --> 04:17.830
+Și asta e cheia aici.
+
+04:18.020 --> 04:25.500
+Vrem să intrăm mereu mai jos și mai puțin până când ajungem la cazul de bază.
+
+04:25.520 --> 04:29.870
+Așa că dacă l-am lovit pe fugă aici
+
+04:33.010 --> 04:41.570
+să facem recursivă de data asta, o să mut aici și dacă am alerga, am și 120.
+
+04:41.750 --> 04:44.380
+Și este greu să îți împaci mintea în jurul tău.
+
+04:44.450 --> 04:50.540
+Deci, ați putea dori să copiați acest cod și să deschideți instrumentele de dezvoltare ale dezvoltatorilor Google Chrome, așa cum v-am arătat
+
+04:50.540 --> 04:52.190
+și mergeți pas cu pas.
+
+04:52.280 --> 04:57.680
+Dar dacă începem cu numărul cinci de aici, sunt cinci egale.
+
+04:57.750 --> 04:58.280
+Nu.
+
+04:58.400 --> 05:11.330
+Apoi vom spune factori de cinci ori fina pentru a fi răspunsul nostru la fel ca diagrama pe care v-am arătat-o.
+
+05:11.740 --> 05:22.810
+Și vom continua să continuăm până vom ajunge la numărul de bază egal cu.
+
+05:22.930 --> 05:29.430
+Acum, un ultim pic ce credeți că este complexitatea timpului acestor două funcții.
+
+05:30.590 --> 05:38.740
+Ei bine, unul utilizează o buclă pentru că buclă este numărul asociat cu ea.
+
+05:39.020 --> 05:44.970
+Și facem un pic de scurtătură aici, deci este mai puțin tehnic decât, și din
+
+05:45.140 --> 05:48.530
+cauza regulilor noastre mari, acest lucru încă va învinge
+
+05:51.350 --> 05:52.730
+toată funcția recursivă.
+
+05:52.750 --> 05:55.280
+Dacă ne uităm la asta, suntem în buclă.
+
+05:55.330 --> 05:56.540
+De cate ori.
+
+05:57.130 --> 06:03.640
+Ei bine, numim funcția funcțională, găsim recursivă factorială recursivă de același număr de ori ca
+
+06:03.700 --> 06:05.760
+și numărul în sine.
+
+06:05.770 --> 06:12.350
+Deci, acest lucru devine, de asemenea, de un, dacă aveți această întrebare.
+
+06:12.370 --> 06:13.080
+Bună treabă.
+
+06:13.090 --> 06:14.010
+Este unul dur.
+
+06:14.020 --> 06:17.430
+Dacă nu te-ai îngrijorat, avem un altul care vine.
+
+06:17.500 --> 06:18.830
+Voi vedea în următorul.
+
+06:18.960 --> 06:19.190
+Babai.

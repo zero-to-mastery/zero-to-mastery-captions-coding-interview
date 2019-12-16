@@ -1,0 +1,178 @@
+WEBVTT
+
+00:01.310 --> 00:02.560
+Witamy spowrotem.
+
+00:02.570 --> 00:09.190
+Porozmawiajmy szybko o czymś, o czym wiele usłyszysz w informatyce, a wskaźnik jest
+
+00:09.190 --> 00:11.180
+po prostu tym.
+
+00:11.340 --> 00:20.200
+Jest to odniesienie do innego miejsca w pamięci lub innego obiektu lub innego węzła, aw javascript
+
+00:20.200 --> 00:24.520
+możemy to pokazać za pomocą czegoś takiego.
+
+00:24.710 --> 00:36.640
+Jeśli mam obiekt, nazwijmy go obiektem, który jest prostym obiektem, który ma wartość true.
+
+00:36.900 --> 00:38.270
+I zamierzam
+
+00:41.020 --> 00:48.800
+to skomentować, a teraz robimy coś takiego, jak obiekt Konst 2 jest równy obiektowi 1.
+
+00:48.910 --> 00:57.040
+Właśnie stworzyliśmy wskaźnik odwołujący się do obiektu i właśnie nim jest wskaźnik.
+
+00:57.040 --> 01:00.150
+To po prostu odniesienie tutaj.
+
+01:00.190 --> 01:02.920
+Nie kopiuję obiektu.
+
+01:02.980 --> 01:05.470
+Nie twierdzę, że obiekt 1 jest równy Akos.
+
+01:05.470 --> 01:06.100
+Prawdziwe.
+
+01:06.100 --> 01:16.170
+A także stworzenie w pamięci innej lokalizacji, która mówi, że A jest prawdą w pamięci, kiedy patrzymy na naszego barana.
+
+01:16.340 --> 01:18.170
+Jest tylko jeden wpis.
+
+01:18.280 --> 01:29.260
+A jest równy true i oba obiekty chcą, aby obiekt wskazywał tę samą lokalizację w pamięci, aby pokazać, że tak właśnie
+
+01:29.260 --> 01:30.090
+jest.
+
+01:30.100 --> 01:32.110
+Po prostu zsynchronizujmy
+
+01:35.610 --> 01:39.590
+obiekt logu 1, a następnie okno konsoli.
+
+01:41.060 --> 01:43.090
+Oponować.
+
+01:43.370 --> 01:45.800
+I tylko dlatego jesteśmy tego świadomi.
+
+01:45.800 --> 01:55.690
+Mam zamiar powiedzieć tutaj jeden i to będzie dwa, więc jeśli to zrobię, oba ECO będą prawdziwe.
+
+01:55.940 --> 02:07.380
+Ale jeśli zmienię obiekt A lub uzyskuję dostęp do własności w obiekcie, a ja mówię, że to będzie równa Booya
+
+02:07.800 --> 02:16.860
+i uruchomię ten wygląd tego obiektu, któremu obiekt się zmienił, ponieważ utworzyłem tu wskaźnik mówiąc, że
+
+02:17.100 --> 02:21.530
+sprzeciwiam się obiekt referencyjny 1 tak jak.
+
+02:22.730 --> 02:26.490
+I oba wskazują na to samo miejsce w pamięci.
+
+02:27.600 --> 02:29.680
+I właśnie taki jest wskaźnik.
+
+02:29.730 --> 02:38.540
+Chodzi po prostu o to, że to jest miejsce w pamięci i kiedy patrzymy na przykład
+
+02:38.540 --> 02:51.090
+na naszej liście odnośników, kiedy usuniemy, powiedzmy węzeł na indeksie dwóch i ja Hago jeden dwa usuwamy i to właśnie znika z
+
+02:51.240 --> 02:54.120
+pamięci, jak to działa.
+
+02:54.500 --> 03:04.930
+Cóż, jeśli wrócimy do naszego przykładu, mogę po prostu usunąć obiekt 1 i zamierzam to zmienić,
+
+03:04.950 --> 03:09.330
+aby prowadzić, ponieważ zmienimy tutaj wartości.
+
+03:09.630 --> 03:11.100
+Phi kliknij uruchom.
+
+03:12.000 --> 03:17.060
+Otrzymuję obiekt błędu odniesienia Twan nie jest zdefiniowany w linii 14.
+
+03:17.250 --> 03:19.220
+To już tutaj.
+
+03:19.500 --> 03:19.820
+DOBRZE.
+
+03:19.830 --> 03:23.750
+Po prostu skomentujmy to, ponieważ obiekt 1 już nie istnieje.
+
+03:23.930 --> 03:26.290
+Biegnij Reichlichiem.
+
+03:26.490 --> 03:34.900
+Nadal mam obiekt jako Booya, mimo że usunęliśmy obiekt 1.
+
+03:35.060 --> 03:43.940
+To, co się dzieje tutaj, tak jak w większości języków programowania, polega na tym, że nasze
+
+03:43.940 --> 03:53.720
+komputery usuwają używaną pamięć i ponieważ widzi, że obiekt wciąż odwołuje się do tej lokalizacji w pamięci, ta
+
+03:53.720 --> 03:58.950
+wartość w pamięci nie będzie jej usuwać .
+
+03:59.810 --> 04:05.650
+Ponieważ wciąż jest wskaźnik do tej lokalizacji i pamięci.
+
+04:05.960 --> 04:08.410
+I w ten sposób rzeczy zostają usunięte.
+
+04:08.420 --> 04:16.390
+W językach takich jak javascript jest to coś, co możesz nazwać śmieciem, skoro tylko
+
+04:17.560 --> 04:30.150
+powiemy "obiekt kropka" lub "obiekt" dwa razy "cześć", a ja klikam "Uruchom teraz obiekt", do którego odwołujesz się do przestrzeni pamięci, która
+
+04:30.450 --> 04:36.870
+ma wartość równą prawdzie, teraz jest po prostu ciąg znaków.
+
+04:36.900 --> 04:43.910
+Ponieważ javascript jest zbiorem śmieci, to pamięć jest zarządzana automatycznie.
+
+04:44.130 --> 04:50.040
+Spowoduje to automatyczne pobranie i usunięcie śmieci, ponieważ nic nie wskazuje na to.
+
+04:51.590 --> 04:59.090
+Istnieją jednak języki niskiego poziomu, w których musisz zarządzać własną pamięcią i musisz ręcznie
+
+04:59.090 --> 05:03.220
+usunąć to na przywołanym elemencie w pamięci.
+
+05:03.830 --> 05:12.170
+A to może spowodować wiele możliwych problemów, w których pozostawiasz pamięć, która nie jest używana w pamięci, która
+
+05:12.230 --> 05:13.770
+jest cennym zasobem.
+
+05:13.970 --> 05:20.030
+Ale są też korzyści z języków, w których nie ma śmieci, gdzie można zarządzać własną
+
+05:20.030 --> 05:23.960
+pamięcią, dzięki czemu możesz naprawdę szybko działać tak wydajnie.
+
+05:23.970 --> 05:24.730
+W porządku.
+
+05:24.870 --> 05:34.340
+Myślę, że wystarczy, aby wskaźnik był wskaźnikiem, to po prostu odniesienie do czegoś innego w pamięci.
+
+05:34.690 --> 05:42.070
+I wykorzystamy tę wiedzę w następnym filmiku, aby stworzyć naszą pierwszą strukturę danych z linkami do list.
+
+05:42.290 --> 05:43.040
+Zobaczę w następnym.

@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.240 --> 00:01.420
+Powitamy z powrotem.
+
+00:01.460 --> 00:05.400
+Chcę trochę poprawić tę funkcję.
+
+00:05.600 --> 00:12.500
+Idealnie nie chcemy wypełniać pamięci podręcznej w tak zwanym globalnym zasięgu.
+
+00:12.710 --> 00:15.620
+To znaczy żyć poza tą funkcją.
+
+00:17.020 --> 00:26.710
+Najlepiej byłoby mieć pamięć lub w tym przypadku gotówkę do życia wewnątrz tej funkcji, nie
+
+00:26.710 --> 00:29.240
+zanieczyszczającą globalnego zasięgu.
+
+00:29.380 --> 00:34.330
+Istnieje wiele sposobów na to, w oparciu o język w javascript, że możemy użyć czegoś, co nazywa
+
+00:34.540 --> 00:35.430
+się zamknięciem.
+
+00:35.980 --> 00:40.930
+I tak to będzie wyglądało i pokażę ci to, ponieważ kiedy dojdziemy do programowania dynamicznego,
+
+00:40.930 --> 00:42.880
+zobaczycie ten wzór bardzo często.
+
+00:43.120 --> 00:47.980
+Na szczęście przy programowaniu dynamicznym wzór zwykle jest taki sam.
+
+00:47.980 --> 00:52.030
+Więc kiedy się tego nauczysz, stanie się łatwiejsze i łatwiejsze.
+
+00:52.060 --> 01:01.580
+Zatem sposób, w jaki wprowadzamy to do funkcji, to dobrze ją wprowadzić.
+
+01:01.690 --> 01:10.220
+Problem polega jednak na tym, że za każdym razem, gdy to uruchamiamy, za każdym razem jesteśmy za długo, ponieważ pamięć podręczna jest resetowana
+
+01:10.370 --> 01:13.410
+za każdym razem, gdy wywoływana jest funkcja.
+
+01:13.430 --> 01:20.970
+Więc pamięć podręczna staje się pustym obiektem, aby obejść to, możemy użyć zamknięć w javascript i
+
+01:21.030 --> 01:23.410
+możemy zwrócić inną funkcję.
+
+01:23.460 --> 01:31.830
+Tak więc funkcja, która zwraca funkcję Nother i tutaj przejdzie ten
+
+01:36.180 --> 01:42.890
+parametr i będziemy mieć logikę wewnątrz tej funkcji.
+
+01:43.840 --> 01:45.010
+to jest to!
+
+01:45.040 --> 01:53.570
+A z powodu czegoś, co nazywa się zamknięciem, możemy uzyskać dostęp do tej pamięci podręcznej w tej funkcji Charlesa.
+
+01:53.590 --> 01:55.720
+To nie jest kurs o javascript.
+
+01:55.720 --> 02:02.670
+Możecie sami przeczytać o zamknięciu, ale jest to po prostu sposób na uniknięcie tego globalnego
+
+02:02.680 --> 02:06.620
+zasięgu, abyśmy tym razem mogli zrobić coś takiego.
+
+02:06.700 --> 02:18.260
+Nie możemy po prostu powiedzieć, że minimalizowane koszty są równe zapamiętanym do 80, a my uruchomimy tę funkcję.
+
+02:19.060 --> 02:25.660
+Możemy nawet usunąć parametr stąd, abyśmy mieli elastyczność.
+
+02:25.690 --> 02:34.490
+Pozwól, że pokażę ci, że mamy rok pamiętników, który mam nadzieję, że Bell zapamiętał, że teraz
+
+02:34.490 --> 02:43.030
+ta funkcja, ponieważ uruchomiłem to, powróci dla mnie, funkcja zapamiętana jest równa tej funkcji.
+
+02:43.310 --> 02:45.180
+Dosłownie to, co zapamiętałem.
+
+02:45.200 --> 02:54.540
+Dodaj do 80 zwrotów i mam dostęp do tej zmiennej pamięci podręcznej, więc tutaj mogę po
+
+02:55.440 --> 02:59.910
+prostu powiedzieć zapamiętane 5 i zapamiętane sześć.
+
+03:00.070 --> 03:11.600
+Gdybym biec, nadal mam to samo, ale jeśli zrobię 5 i 5 i tak biegnę, to jest to na pamięć.
+
+03:12.000 --> 03:18.000
+Ta funkcja zapamiętuje, że parametr się nie zmienił.
+
+03:18.060 --> 03:23.880
+To ten sam parametr, który sprawdzi pamięć podręczną i powie, że nie muszę wykonywać wszystkich tych głupich
+
+03:23.880 --> 03:24.590
+obliczeń.
+
+03:24.600 --> 03:25.540
+Już to mam.
+
+03:25.560 --> 03:27.730
+Tutaj możesz po prostu użyć tabeli mieszania.
+
+03:27.870 --> 03:29.230
+Oto jest.
+
+03:29.340 --> 03:38.430
+Podczas gdy właśnie się dowiedzieliśmy, jest to naprawdę potężne, ponieważ pozwala nam być bardzo wydajnym z naszym
+
+03:38.430 --> 03:47.400
+kodem, co wiemy, że ankieterzy uwielbiają miłość firmy, a dynamiczne programowanie pozwala nam wykorzystać to, co
+
+03:47.400 --> 03:53.160
+wiemy teraz na temat zapamiętywania, aby zoptymalizować nasz kod.
+
+03:53.190 --> 03:55.320
+Dowiedzmy się więcej w następnym wideo.

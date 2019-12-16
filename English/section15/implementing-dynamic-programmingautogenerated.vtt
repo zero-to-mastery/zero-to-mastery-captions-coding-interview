@@ -1,0 +1,280 @@
+WEBVTT
+
+00:01.020 --> 00:07.650
+Welcome back let's use dynamic programming and memorization to improve this function.
+
+00:08.420 --> 00:16.540
+Just like we did when we learned about memorization this is fairly simple let's remove this for now.
+
+00:16.540 --> 00:27.050
+I'll keep this at the top and then here create a new function we'll call it Fibonacci master this function
+
+00:27.080 --> 00:37.320
+will have a cache hash table or an object to store our pre-calculated answers.
+
+00:37.480 --> 00:43.780
+And if you remember because we want to make sure that we don't reset this every time we run this function
+
+00:44.110 --> 00:51.130
+we're gonna return a nother function inside here again using closures and Javascript and in other languages
+
+00:51.160 --> 00:53.360
+you might have to use different techniques.
+
+00:54.010 --> 01:01.320
+And in here we can just have a function we can name in whatever let's call it fib that takes.
+
+01:01.440 --> 01:03.820
+And that is the number we give it.
+
+01:04.210 --> 01:11.840
+And inside here will we do something very similar to the above except we're going to check the for us.
+
+01:12.070 --> 01:15.540
+We're going to say if an is in cache
+
+01:19.680 --> 01:27.330
+just like we did in the memo zation videos and we're going to check if the cache exists and if it does
+
+01:27.420 --> 01:29.510
+we're going to return cash.
+
+01:30.340 --> 01:35.940
+And the first time around this is going to be empty so it's not going to work it's going to go into
+
+01:35.940 --> 01:37.990
+the else condition.
+
+01:40.040 --> 01:44.270
+And then here we have two conditions just like we do up here.
+
+01:46.360 --> 01:51.800
+And is less than two them we need to return.
+
+01:51.930 --> 02:00.850
+And just like we did above over here otherwise we would run our sequence.
+
+02:01.040 --> 02:10.010
+So we do fib of and minus one plus fib of and minus 2.
+
+02:10.260 --> 02:13.290
+But we want to store this value in our cash.
+
+02:13.500 --> 02:24.030
+So we're going to say cash and is going to equal the result of this.
+
+02:24.090 --> 02:33.910
+And finally we want to return this value because we are using recursion here and return cash of and
+
+02:34.110 --> 02:39.170
+which we've just set and that's it.
+
+02:39.250 --> 02:41.310
+That wasn't that hard right.
+
+02:41.570 --> 02:51.590
+I mean we have a few extra steps but all we did was just add the result to our hash table so that now
+
+02:51.680 --> 02:59.580
+if I do Konst let's say faster fib is going to equal to Fibonacci.
+
+02:59.630 --> 03:08.210
+M. remember the first time around when we're going to run this function and create the cash variable.
+
+03:09.110 --> 03:16.680
+That again and create the cash variable and it's going to just return this function.
+
+03:17.030 --> 03:26.240
+So it's similar to just saying like that faster fib equals this function now.
+
+03:26.370 --> 03:36.460
+Except that now we have access to the cash variable so that now I can console all log and let's call
+
+03:36.460 --> 03:49.580
+this DP for dynamic programming and we'll say faster fib and give it let's say 10 if I run this I get
+
+03:49.670 --> 03:58.700
+55 0 1 2 3 4 5 6 7 8 9 10 55.
+
+03:58.830 --> 04:00.030
+That's pretty good.
+
+04:00.960 --> 04:07.920
+But let's do something fun here to see if it works this calculations tally that we used in Fibonacci
+
+04:07.920 --> 04:20.750
+number let's move it to the Fibonacci M. or instead of here down in this function because this is the
+
+04:20.750 --> 04:30.010
+one that we recursing over and let's see how many times this calculation happens if I run this and we
+
+04:30.010 --> 04:32.500
+need to cancel log these calculations.
+
+04:32.500 --> 04:35.780
+So at the bottom over here let's have a console log
+
+04:38.940 --> 04:40.710
+and we'll say we did
+
+04:44.790 --> 04:49.820
+calculations just like that.
+
+04:50.040 --> 05:02.790
+So that if I run this we see that we did 19 calculations with the Fibonacci M. When we entered 10 versus
+
+05:03.060 --> 05:09.480
+if we moved back calculations up to here to our old version.
+
+05:09.780 --> 05:12.100
+And we actually have to run this function.
+
+05:12.240 --> 05:20.760
+So and here let's just have console locks so begin how everything clean we'll say canceled or log.
+
+05:20.760 --> 05:28.060
+This is will be this will be called slow and it will be called was it Fibonacci.
+
+05:28.260 --> 05:34.100
+So we'll just do our original function Fibonacci with 10.
+
+05:34.140 --> 05:34.820
+So let's see.
+
+05:34.830 --> 05:45.070
+And Ron we got the same answers 55 but it took us a hundred and seventy seven calculations to get to
+
+05:45.070 --> 05:47.080
+10.
+
+05:47.160 --> 05:48.000
+Holy moly.
+
+05:48.000 --> 05:51.930
+So 19 versus a hundred and seventy seven calculations.
+
+05:52.230 --> 05:53.880
+And if we do 20 here
+
+05:56.880 --> 06:01.900
+well we have that many calculations and actually just do 35.
+
+06:01.920 --> 06:06.490
+See if that's possible we'll see 35.
+
+06:06.490 --> 06:07.270
+There you go.
+
+06:07.270 --> 06:17.140
+Look how many calculations we had to do versus if I do 35 with our minimalized function move the calculations
+
+06:17.730 --> 06:18.490
+in here.
+
+06:23.830 --> 06:28.320
+And we ran this sixty nine.
+
+06:28.340 --> 06:29.490
+Calculations.
+
+06:29.610 --> 06:36.110
+It instead of before where if I entered Fibonacci 50 here it would actually crash a browser because
+
+06:36.410 --> 06:41.090
+we would do so many calculations with this one.
+
+06:41.150 --> 06:45.940
+I can do even Achi a hundred and I have no problem.
+
+06:45.950 --> 06:48.020
+Look how fast they calculated that.
+
+06:48.020 --> 06:49.030
+That's pretty amazing.
+
+06:49.040 --> 06:52.110
+It only did 199 calculation.
+
+06:52.460 --> 06:56.760
+I hope you see the power of dynamic programming and it's not that hard.
+
+06:56.840 --> 06:57.440
+Right.
+
+06:57.770 --> 07:00.130
+All you need is to remember this pattern.
+
+07:00.230 --> 07:08.630
+And if there's any repeated calculation to just memorize the result of a function so that if the parameter
+
+07:08.630 --> 07:13.800
+is the same we check in the cache first for the result.
+
+07:13.880 --> 07:21.830
+But let's talk about space and time complexity here this well because we're only doing the necessary
+
+07:21.830 --> 07:24.190
+calculation.
+
+07:24.420 --> 07:36.020
+In this case all our calculations will are and right we do one two three four five six seven calculations
+
+07:36.260 --> 07:38.430
+versus all the ones that we did before.
+
+07:39.320 --> 07:46.330
+So that our time complexity for this one is full of and and versus.
+
+07:46.340 --> 07:53.790
+With this one that was of two to the power of 10 just like that we made a huge huge savings.
+
+07:55.440 --> 08:01.970
+The one drawback is that well we increased the space complexity.
+
+08:01.980 --> 08:02.600
+Right.
+
+08:02.970 --> 08:12.140
+I mean with the first Fibonacci number we had to add functions to the stack and these functions.
+
+08:12.180 --> 08:14.330
+The deeper it is we added to the stack.
+
+08:14.400 --> 08:21.870
+But once we got to the bottom we popped off the stack so that the stack was as deep as the tree.
+
+08:22.470 --> 08:29.130
+But with the memorized version we also had this new variable this cache hash table that we have to store
+
+08:29.130 --> 08:30.020
+our memory.
+
+08:30.020 --> 08:37.290
+And but as we know we sometimes need to trade up space complexity for better time complexity.
+
+08:37.380 --> 08:39.100
+And this is what we're doing in this case.
+
+08:39.330 --> 08:44.520
+And in this case that the time complexity savings are very very large.
+
+08:44.520 --> 08:47.880
+All right I hope I got you excited about dynamic programming.
+
+08:47.910 --> 08:52.020
+It's very interesting and not as overwhelming as you think.
+
+08:52.130 --> 08:53.450
+Right.
+
+08:53.460 --> 09:00.030
+I'll leave a couple of problems for you to do to get used to dynamic programming but I recommend that
+
+09:00.090 --> 09:07.440
+you take the code the leaf here for you and you can just grab it from resources and play around with
+
+09:07.440 --> 09:07.760
+it.
+
+09:08.570 --> 09:11.620
+Otherwise I'll see in the next video by.

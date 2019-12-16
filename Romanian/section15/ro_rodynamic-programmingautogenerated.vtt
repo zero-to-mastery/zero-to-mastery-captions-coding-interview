@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.900 --> 00:08.530
+Dacă ne uităm la funcția noastră Fibonacci pe care am creat-o, asta este ceea ce facem.
+
+00:09.000 --> 00:17.670
+Dacă aș fi căutat un număr Fibonacci de 7 folosind recursivă, ar fi trebuit să executăm toate
+
+00:17.670 --> 00:21.030
+aceste calcule recursiv și toate astea.
+
+00:21.360 --> 00:25.010
+Și puteți vedea aici ce se întâmplă corect.
+
+00:25.020 --> 00:28.430
+Uite unde calculăm Fibonacci de unul.
+
+00:28.710 --> 00:34.970
+Avem această funcție funcționând în două, trei, patru și cinci, calculând același lucru.
+
+00:35.060 --> 00:37.300
+Ce-i cu Fibonacci?
+
+00:37.460 --> 00:45.630
+Din nou, uitați-vă la toate aceste calcule care se repetă și la 3 și vedeți aici unde triunghiurile
+
+00:45.630 --> 00:53.700
+se suprapun unde se calculează 3 de unde am calculat că se potrivesc 2 și Fibonacci de 1,
+
+00:53.700 --> 00:54.870
+de asemenea.
+
+00:54.870 --> 01:04.660
+Și apoi, dacă continuăm să ajungem la numărul patru pur Bonacci, repetați din nou sarcinile cu triunghiuri peste triunghiuri și apoi în cele din
+
+01:04.750 --> 01:07.910
+urmă cu Fibonacci de șase sau cinci.
+
+01:08.080 --> 01:14.320
+Vedem că încă o dată avem calcule repetate.
+
+01:14.320 --> 01:16.640
+Acest lucru nu pare eficient.
+
+01:16.780 --> 01:18.720
+Și asta am văzut în videoclipul precedent.
+
+01:18.730 --> 01:21.340
+Asta facem cu calculele noastre.
+
+01:21.910 --> 01:30.220
+Dar dacă observați aici, cu programare dinamică, putem optimiza acest lucru și vom folosi memoizarea pentru a spune
+
+01:31.570 --> 01:42.260
+că hei calculează Fibonacci de șapte mutați recursiv până la 6 2 5 2 4 2 3 2 2 și de asemenea 2 1.
+
+01:42.390 --> 01:51.030
+Și acum, pe măsură ce ne întoarcem amintește-te când începem să ne întoarcem declarațiile și mergem la
+
+01:51.030 --> 01:59.790
+cinci din două sau cinci sau trei sau patru înainte pentru că am calculat deja aceste cifre, putem
+
+01:59.910 --> 02:09.200
+să revenim de fapt la o versiune memorată, astfel încât toate aceste calcule să nu fie necesar mai mult.
+
+02:09.310 --> 02:10.200
+De ce.
+
+02:10.240 --> 02:19.050
+Pentru că două trei patru și cinci de fiecare dată când o cerem, în acest caz am calculat deja pe partea
+
+02:19.050 --> 02:27.510
+stângă pentru a putea folosi versiunea memorată sau memorată, astfel încât acestea să putem cere doar funcția memorată să ne
+
+02:27.510 --> 02:29.230
+dea doar pentru noi.
+
+02:29.250 --> 02:36.660
+Evităm că toate aceste calcule arăta atât de simplu încât arată și vă voi arăta în următorul videoclip
+
+02:36.660 --> 02:40.500
+modul în care implementăm acest lucru cu secvența Fibonacci.
+
+02:40.860 --> 02:46.860
+Dar pentru a vă demonstra că nu este doar această problemă pe care putem folosi programarea
+
+02:46.860 --> 02:47.520
+dinamică.
+
+02:47.640 --> 02:50.270
+Am un set de reguli.
+
+02:50.430 --> 02:57.280
+Una este că nu vă puteți gândi la programarea dinamică ca la combinarea divizării și cuceririi.
+
+02:57.300 --> 03:06.450
+Ce am făcut cu structura arborescentă a numelui Bonacci unde folosim recursivitatea și folosirea reutilizării care recuperează
+
+03:06.450 --> 03:14.920
+memoria cu recursivi pentru a obține economii de performanță și a folosi programarea dinamică.
+
+03:15.630 --> 03:23.850
+Iată pașii pe care doriți să urmați pentru a vedea dacă o problemă poate utiliza programarea dinamică pentru
+
+03:23.850 --> 03:24.810
+ao optimiza.
+
+03:24.840 --> 03:32.520
+Întrebăm mai întâi că problema poate fi împărțită în subproblemele care sunt.
+
+03:32.590 --> 03:39.160
+Este o structură arborescentă în care fiecare problemă este împărțită în probleme mai mici în probleme
+
+03:39.160 --> 03:44.600
+mai mici și face mici probleme care, de obicei, indică o soluție recursivă.
+
+03:45.010 --> 03:51.080
+Din nou ceva despre care suntem foarte familiarizați cu videoclipurile anterioare și acum
+
+03:51.080 --> 03:58.190
+a treia întrebare este foarte importantă deoarece puteți avea structuri asemănătoare arborilor care nu au subprobleme repetitive.
+
+03:58.430 --> 04:05.330
+Dar dacă aceste subprobleme se repetă, înseamnă că facem același calcul din nou
+
+04:05.400 --> 04:06.630
+în subprobleme.
+
+04:06.860 --> 04:16.130
+Ei bine, dacă răspunsul este da, atunci putem memora aceste subprobleme și, odată ce facem, vedem beneficii extraordinare și aceste beneficii sunt utilizate
+
+04:16.310 --> 04:23.720
+peste tot în știința calculatoarelor pentru a îmbunătăți performanța, astfel încât al cincilea pas să fie cererea unei
+
+04:23.720 --> 04:26.290
+majorări de la șeful tău.
+
+04:26.300 --> 04:34.090
+Dacă ați implementat acest lucru deoarece tocmai ați salvat atât de multe calcule atât de mult timp de complexitate
+
+04:34.090 --> 04:42.010
+Vreau să vă gândiți astfel, în loc să fiți intimidați de numele confuz care este programarea dinamică trebuie doar
+
+04:42.940 --> 04:47.350
+să știți când o problemă poate folosi această tehnică .
+
+04:47.500 --> 04:53.040
+Și cel puțin câteva probleme pentru dvs. după această secțiune de a practica pe, dar doriți să urmați doar acest
+
+04:53.040 --> 04:53.580
+model.
+
+04:54.560 --> 05:00.950
+Atunci când o problemă are soluții compuse din soluții la aceeași problemă cu intrări mai mici și mai mici, fiecare
+
+05:01.640 --> 05:08.900
+problemă este rezolvată o singură dată și rezultatul fiecărui subproblem este stocat într-o tabelă ca o memorie cache, cum ar fi o tabelă de
+
+05:09.740 --> 05:12.810
+tip hash, așa cum am făcut în precedent video.
+
+05:12.950 --> 05:21.410
+Pentru referințe ulterioare putem folosi acest tabel pentru a obține soluția inițială a unei probleme repetate.
+
+05:21.770 --> 05:22.550
+Vorbiți destul.
+
+05:22.640 --> 05:30.870
+Cred că este timpul ca noi să implementăm memorarea noastră cu numărul Fibonacci dacă doriți să
+
+05:30.870 --> 05:32.040
+vă provocați.
+
+05:32.070 --> 05:35.270
+Dă-i drumul și vezi dacă te-ai codificat altfel.
+
+05:35.280 --> 05:42.530
+Și următorul videoclip vă voi arăta cum să îmbunătățiți funcția noastră teribilă de performanță Fibonacci și să
+
+05:42.560 --> 05:45.710
+mergem și voi vedea în acel.

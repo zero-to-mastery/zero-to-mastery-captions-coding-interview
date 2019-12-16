@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.280 --> 00:02.150
+Selamat datang kembali.
+
+00:02.330 --> 00:09.440
+Mari kita lihat yang pertama dari dua jenis pencarian atau melintasi pohon atau grafik.
+
+00:09.530 --> 00:12.800
+Ini disebut pencarian pertama luasnya.
+
+00:12.800 --> 00:14.770
+Coba katakan itu lima kali sangat cepat.
+
+00:15.840 --> 00:22.950
+Cara pencarian pertama kali bekerja luas adalah bahwa Anda mulai dengan catatan root dan bergerak ke kiri ke
+
+00:23.010 --> 00:28.630
+kanan melintasi tingkat kedua kemudian pindah ke kiri ke kanan melintasi tingkat ketiga.
+
+00:29.520 --> 00:32.640
+Dan seterusnya dan seterusnya.
+
+00:33.320 --> 00:43.430
+Anda terus berjalan dari kiri ke kanan kiri ke kanan level demi level dan Anda terus berjalan sampai Anda
+
+00:43.430 --> 00:52.310
+tahu yang Anda cari atau pohon dan mari kita lihat karya pencarian visual pertama yang luas
+
+00:52.340 --> 00:53.520
+seperti ini.
+
+00:53.570 --> 00:57.000
+Kami pergi ke simpul root.
+
+00:57.190 --> 01:02.370
+Kemudian tingkat kedua tingkat ketiga dan akhirnya tingkat keempat Anda dapat
+
+01:02.380 --> 01:07.280
+melihat di sini bagaimana mereka diberi nomor satu per satu.
+
+01:07.290 --> 01:10.950
+Sekarang kita akan mencari kode pencarian pertama dan memahami cara kerjanya.
+
+01:11.010 --> 01:17.940
+Tapi saya ingin menyebutkan bahwa pencarian pertama menggunakan memori tambahan karena perlu untuk melacak
+
+01:17.970 --> 01:24.340
+catatan anak dari semua node pada tingkat tertentu saat mencari tingkat itu.
+
+01:24.360 --> 01:30.240
+Ini berarti bahwa kita perlu melacak setiap simpul dan anak-anak secara berurutan dan kita akan berbicara
+
+01:30.240 --> 01:35.760
+tentang beberapa implikasi ketika kita membuat kode untuk pencarian dan juga melihat pro dan
+
+01:35.760 --> 01:38.610
+kontra dibandingkan dengan jenis lain yang pertama.
+
+01:38.820 --> 01:41.470
+Tapi mari kita pergi ke kode kita untuk contoh cepat.
+
+01:42.920 --> 01:52.160
+Di sini kita memiliki pohon yang kita buat di bagian struktur data pohon, pohon pencarian biner yang membuat pohon untuk
+
+01:52.160 --> 02:01.050
+kita yang terlihat seperti ini. Ninus, simpul akar memiliki empat dan dua puluh satu enam lima belas dan 170.
+
+02:01.240 --> 02:08.290
+Jika kami melakukan pencarian pertama secara luas, menurut Anda apa urutannya jika kami ingin
+
+02:08.290 --> 02:13.670
+mengubahnya menjadi daftar sementara kami pertama kali mengunjungi sembilan.
+
+02:13.770 --> 02:20.880
+Kemudian kami akan mengunjungi tingkat kedua untuk kemudian 20 dan kemudian kami mengunjungi tingkat ketiga lagi dari kiri ke
+
+02:21.030 --> 02:21.720
+kanan.
+
+02:21.780 --> 02:34.860
+Kami akan mengunjungi satu kemudian 6 kemudian 15 kemudian 170 dan menggunakan pencarian pertama yang luas kami dapat membuat daftar ini.
+
+02:34.870 --> 02:43.550
+Mari kita lihat cara kedua melintasi pohon atau grafik dan itu adalah pencarian mendalam pertama.
+
+02:43.660 --> 02:44.150
+Mari kita lihat.

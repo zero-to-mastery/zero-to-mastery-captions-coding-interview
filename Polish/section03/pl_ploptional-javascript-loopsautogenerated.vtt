@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.550 --> 00:01.330
+Witamy spowrotem.
+
+00:01.450 --> 00:03.750
+Chcę tylko pokazać szybkie wideo.
+
+00:03.970 --> 00:09.610
+Specjalnie dla tych, którzy znają javascript, istnieje wiele sposobów tworzenia pętli w
+
+00:09.610 --> 00:10.290
+JavaScript.
+
+00:10.330 --> 00:12.360
+Podobnie jest z innymi językami.
+
+00:12.370 --> 00:15.520
+Istnieje wiele sposobów na wykonanie tych pętli.
+
+00:15.610 --> 00:19.390
+Więc chcę pokazać wam kilka szybkich, które możecie zobaczyć w trakcie kursu.
+
+00:19.390 --> 00:21.190
+Tak, żebyś ich znał.
+
+00:21.190 --> 00:28.780
+Na przykład funkcja Nemo zawierająca pętlę for może być również napisana z czymś podobnym do
+
+00:28.780 --> 00:29.890
+każdej funkcji.
+
+00:29.890 --> 00:39.610
+Więc mogę powiedzieć, że Konst znaleźć Nimo, aby wziąć w szyku.
+
+00:42.900 --> 00:47.320
+I możemy powiedzieć, że dla każdego verey dla każdego.
+
+00:47.760 --> 00:55.320
+Co jest dokładnie tym samym, co pętla for, ale nie musisz wpisywać całej
+
+00:55.320 --> 01:09.400
+tej rzeczy dla każdego elementu w tablicy, więc powiemy, że zamierzam powiedzieć, czy moje połączenia Nimo, ponieważ w tym przypadku z 4 każdy Nie bierzemy
+
+01:09.400 --> 01:13.050
+indeksu, który bierzemy przedmiot w tablicy.
+
+01:13.090 --> 01:17.460
+Więc może mógłbyś po prostu powiedzieć, że łowisz tutaj, żeby było więcej, albo ma to więcej sensu.
+
+01:17.590 --> 01:28.710
+A jeśli tak, to po prostu anulujemy dziennik znaleziony Nimo ponownie.
+
+01:28.760 --> 01:34.210
+To jest to samo, ponieważ każda z nich pozwala nam trochę uprościć pewne rzeczy.
+
+01:35.520 --> 01:40.590
+Istnieje również inny sposób, który możemy zrobić w JavaScript z formą pętli.
+
+01:40.750 --> 01:52.170
+Jeśli po prostu skopiujemy ten kod i znajdziemy Nimo 3 tym razem, tablica, którą zamierzamy przyjąć,
+
+01:52.170 --> 01:54.990
+powiemy zamiast czterech.
+
+01:55.140 --> 02:03.520
+Tym razem powiemy, że niech wysoki poziom macierzy.
+
+02:03.610 --> 02:11.300
+I znowu daje nam to samo oko lub możemy po prostu powiedzieć rybę tutaj, żeby było bardziej jasne.
+
+02:13.540 --> 02:14.710
+Jest równa nimo.
+
+02:14.780 --> 02:23.130
+Zamierzamy powiedzieć Nimo i jeśli uruchomisz te funkcje, upewnijmy się, że obydwoje działają, więc znajdź Nimo,
+
+02:23.130 --> 02:25.540
+aby znaleźć wszystkie trzy.
+
+02:25.650 --> 02:33.160
+I bierzemy także znaleźć Nemo pięć biegu na czas, a do tego będziesz potrzebował wspornika.
+
+02:33.190 --> 02:37.330
+Jeśli kliknę uruchomię, zauważymy, że znaleźliśmy Nemo wszystkie trzy razy.
+
+02:39.340 --> 02:43.340
+Różne sposoby rozwiązania tego problemu.
+
+02:43.390 --> 02:51.320
+Wszystkie używają pętli, ale niektóre z nich są bardziej czytelne niż inne i to jest coś, co
+
+02:51.320 --> 02:52.580
+napotkaliśmy wcześniej.
+
+02:52.580 --> 03:03.010
+Pamiętaj, że dobry kod oznacza coś, co jest skalowalne, ale także coś, co jest czytelne w zależności od twojej
+
+03:03.100 --> 03:06.710
+sytuacji i tego, co dostaniemy później.
+
+03:06.880 --> 03:10.940
+Jak można konserwować i jak inni w zespole mogą zrozumieć ten kod.
+
+03:11.090 --> 03:16.100
+Istnieją różne sposoby robienia rzeczy, dzięki czemu łatwiej z nimi pracować.
+
+03:16.230 --> 03:20.700
+Mam jednak nadzieję, że jeśli zobaczysz tę składnię podczas tego kursu, to przynajmniej wiesz, że
+
+03:20.700 --> 03:24.120
+pod koniec dnia wszystko, co robimy, to po prostu pętle.
+
+03:24.240 --> 03:25.940
+Zobaczę w następnym.

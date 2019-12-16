@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.180 --> 00:02.450
+Ben tornato.
+
+00:02.560 --> 00:10.140
+È tempo di un'interessante domanda di intervista e questa domanda proviene direttamente da Google dato energia.
+
+00:10.480 --> 00:13.080
+Diciamo che assomiglia a questo.
+
+00:13.150 --> 00:16.110
+Dimmi il primo personaggio ricorrente.
+
+00:16.450 --> 00:17.260
+Cosa significa.
+
+00:17.500 --> 00:23.660
+Bene, se guardiamo questo array qui voglio una funzione che posso inserire in questo array.
+
+00:23.920 --> 00:31.030
+Questo input analizzerà tutti i numeri e dirà quale viene ripetuto per primo.
+
+00:31.480 --> 00:40.980
+Quindi guardiamo 2 5 1 e 2 e diciamo che due sono già stati visti.
+
+00:41.080 --> 00:43.570
+Due è il numero ricorrente.
+
+00:44.550 --> 00:49.360
+Se guardiamo un altro esempio vediamo 2 1 1 e 0.
+
+00:49.410 --> 00:55.360
+Ci fermiamo qui perché 1 abbiamo già visto prima che possiamo dire che il primo personaggio ricorrente è 1.
+
+00:55.800 --> 01:03.560
+Se otteniamo un array che ha tutti gli oggetti unici, ritorneremo undefined.
+
+01:03.560 --> 01:06.980
+Quindi come andresti a risolvere questo.
+
+01:07.040 --> 01:09.590
+Fai un tentativo di vedere cosa ti viene in mente.
+
+01:10.320 --> 01:16.530
+Se hai bisogno di aiuto, puoi dare un punteggio alla discordia e chattare con alcuni membri della community e ti vedrò nel
+
+01:16.680 --> 01:17.630
+video della soluzione.

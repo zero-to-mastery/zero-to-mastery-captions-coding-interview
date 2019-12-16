@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.700 --> 00:02.510
+Bine ai revenit.
+
+00:02.510 --> 00:04.390
+Să vorbim despre regula nr. Trei.
+
+00:04.520 --> 00:11.360
+Acestea sunt termeni diferiți pentru intrările și aceasta este una dintre cele mai dificile părți ale unui interviu pe care o mulțime
+
+00:11.360 --> 00:12.860
+de oameni fac greșeli.
+
+00:13.340 --> 00:16.900
+Dar odată ce o înțelegi, devine foarte ușor de observat.
+
+00:16.910 --> 00:18.220
+Deci, să aruncăm o privire la un exemplu.
+
+00:19.390 --> 00:25.120
+Am aceeasi functie pe care am vazut-o de doua ori in ultimele casete de compresie video.
+
+00:25.150 --> 00:30.800
+Avem matricea de cutii și avem doar două bucle aici.
+
+00:30.820 --> 00:32.020
+Folosesc pentru fiecare.
+
+00:32.020 --> 00:37.970
+Sintaxă în javascript, dar pur și simplu batem de două ori pe aceeași matrice.
+
+00:38.080 --> 00:45.290
+Și așa cum am spus înainte de spectacolul mare, acesta va fi doi, dar pentru
+
+00:45.290 --> 00:54.810
+că am renunțat la constante devine o regulă, dar a treia regulă afirmă că termenii diferiți pentru inputuri și ce înseamnă asta.
+
+00:54.920 --> 00:57.340
+În primul rând, permiteți-mi să vă pun o întrebare.
+
+00:57.500 --> 01:07.840
+Dacă aici am casete ca primul parametru și apoi avem casete ca un al doilea parametru și poate
+
+01:07.840 --> 01:17.860
+că această secundă pentru bucla buclează de fapt peste cele două cutii ceea ce se întâmplă aici.
+
+01:18.030 --> 01:20.110
+Ce este marele O.
+
+01:21.720 --> 01:28.080
+Și în timpul unui interviu o mulțime de oameni se împotmolește și spun că este în timp ce încă de
+
+01:28.080 --> 01:31.870
+o O să fie 0 2 și să renunțe la constante.
+
+01:31.940 --> 01:35.050
+Apoi acum este acest drept.
+
+01:36.720 --> 01:44.760
+Nu, deoarece a treia regulă afirmă că termenii diferiți pentru intrările și casetele de memorie.
+
+01:44.760 --> 01:49.550
+Primul și apoi cel de-al doilea sunt două intrări diferite.
+
+01:49.830 --> 01:52.480
+S-ar putea să fie o sută de articole lungi.
+
+01:52.600 --> 01:55.810
+Altul poate fi doar un singur element.
+
+01:55.830 --> 02:04.910
+Deci, acest lucru pentru prima buclă va depinde de cât de mare este primul element sau prima intrare și apoi a doua pentru bucla
+
+02:04.910 --> 02:07.950
+depinde de cât de mare este aceasta.
+
+02:09.100 --> 02:17.730
+Și este doar o literă arbitrară pe care am decis în acest caz, big-O
+
+02:17.730 --> 02:30.040
+a acestei funcții ar fi ceva de genul unui prim pentru buclă, care este prima intrare plus o mare big-O, această funcție
+
+02:30.370 --> 02:39.230
+este de fapt un plus b sau plus plus M sau cutii 1 plus casete.
+
+02:39.310 --> 02:45.760
+Așadar, păstrați-vă în minte doar pentru că vedeți două patru bucle unul după altul nu înseamnă că
+
+02:45.760 --> 02:48.190
+ele se răsucesc peste aceleași elemente.
+
+02:48.190 --> 02:55.980
+Acum s-ar putea să te întrebi pe Andre. Ce se întâmplă dacă aceste bucle sunt imbricate.
+
+02:56.080 --> 02:59.920
+Până acum am lucrat doar cu bucle care sunt una după alta.
+
+02:59.920 --> 03:09.460
+Ce se întâmplă dacă această bucla era în interiorul acestei buclă Ei bine, să intrăm în următorul videoclip și să vorbim despre un alt tipar comun pe
+
+03:09.460 --> 03:12.450
+care îl vedem cu ducerea care este imbricată.

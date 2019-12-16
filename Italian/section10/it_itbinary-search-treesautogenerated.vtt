@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.030 --> 00:02.460
+Ben tornato.
+
+00:02.470 --> 00:10.120
+Continuiamo la nostra discussione con la struttura di dati dell'albero più comune che è la ricerca binaria Street,
+
+00:10.570 --> 00:18.290
+che è un sottoinsieme di un albero binario di cui abbiamo parlato di ciò che è un albero
+
+00:22.140 --> 00:31.180
+di ricerca binario, un albero di ricerca binario è davvero buono come suggerisce il nome nella ricerca " ottimo per confrontare le
+
+00:31.180 --> 00:32.060
+cose.
+
+00:32.110 --> 00:37.480
+Ora, perché sarebbe meglio di dire una tabella hash in cui possiamo semplicemente dargli una chiave
+
+00:37.480 --> 00:39.100
+e ottenere subito l'oggetto.
+
+00:39.100 --> 00:47.430
+Bene, questa struttura di dati conserva le relazioni proprio come se non volessi che le tue cartelle sul tuo computer si trovino in
+
+00:47.760 --> 00:53.730
+una struttura di dati di una tabella hash perché non esiste alcun tipo di relazione.
+
+00:53.730 --> 01:00.840
+Invece vuoi che le tue cartelle abbiano relazioni che abbiano una cartella principale e una sottocartella e in
+
+01:00.900 --> 01:08.960
+una sottocartella una cosa come l'albero di ricerca binaria ci consente di preservare queste relazioni quando si tratta di alberi
+
+01:08.960 --> 01:10.620
+di ricerca binari.
+
+01:10.640 --> 01:12.120
+Queste sono le regole.
+
+01:12.520 --> 01:23.760
+1 tutti i nodi figlio nella struttura a destra del nodo radice devono essere maggiori del nodo corrente.
+
+01:23.780 --> 01:29.810
+Ciò significa che se continuo a destra, il numero o il valore del nodo aumenta costantemente.
+
+01:29.810 --> 01:33.520
+Vedi qui vado dall'1 al 1 1 2 5 1 44.
+
+01:33.590 --> 01:39.410
+Se continuo ad andare a destra, diciamo qui 33-37 che sta aumentando.
+
+01:39.530 --> 01:45.520
+Se vado a sinistra da 1 a 1 33 9, questo è sempre in diminuzione.
+
+01:45.530 --> 01:49.060
+Lo stesso con qui 1 2 5 a 54.
+
+01:49.160 --> 01:52.190
+Se vado a sinistra diminuisce a destra.
+
+01:52.260 --> 02:00.510
+Aumenta e quindi la seconda regola è che un nodo può avere solo un massimo di due figli perché
+
+02:00.510 --> 02:02.260
+è un albero binario.
+
+02:02.280 --> 02:10.260
+Il vantaggio di un albero di ricerca binario è che ben dovrebbe essere ovvio con il nome giusto ricerca e
+
+02:10.260 --> 02:16.110
+cercare è molto facile trovare quello che stai cercando perché se sto cercando diciamo numero
+
+02:16.180 --> 02:21.130
+trentasette posso iniziare da 1 o 1 e dire è trentasette.
+
+02:21.150 --> 02:22.100
+Meno di 1 a 1.
+
+02:22.200 --> 02:22.560
+Sì.
+
+02:22.590 --> 02:22.820
+Va bene.
+
+02:22.830 --> 02:27.560
+Quindi andare a sinistra è trentatre meno di trentasette.
+
+02:27.630 --> 02:28.040
+No.
+
+02:28.050 --> 02:30.870
+Poi vai a destra e trovo trentasette.
+
+02:30.870 --> 02:39.570
+Non devo iterare in modo lineare attraverso ciascun nodo e questo è ciò che significa cercare, significa semplicemente che
+
+02:39.570 --> 02:47.490
+posso cercare un elemento molto più velocemente di quanto diciamo un array in cui devo iterare e
+
+02:47.550 --> 02:49.650
+scorrere ogni singolo articolo.
+
+02:49.650 --> 02:58.080
+Ma per quanto riguarda l'inserimento e l'eliminazione in una tabella hash posso inserire ed eliminare molto velocemente a 0 1 o Costantino, ma
+
+02:58.440 --> 03:06.360
+con un albero di ricerca binario sembra che riesco a fare solo 0 login e questo dovrebbe essere ovvio, giusto.
+
+03:06.550 --> 03:13.210
+Perché per poter inserire o eliminare qualcosa in un albero di ricerca
+
+03:13.300 --> 03:20.260
+binario dobbiamo capire dove inserire l'elemento o dove si trova l'oggetto prima di eliminarlo.
+
+03:20.360 --> 03:27.140
+Ad esempio con centocinque diciamo che vogliamo eliminarne uno o cinque.
+
+03:27.140 --> 03:34.100
+Bene, dobbiamo prima dalla nota radice arrivare a centocinque e poi dobbiamo decidere quale nodo
+
+03:34.460 --> 03:36.540
+prenderà il suo posto.
+
+03:36.920 --> 03:46.210
+In questo caso, perché 54 è inferiore a 144 144 verrà qui, ma come puoi immaginare questa operazione, anche se sembra
+
+03:46.210 --> 03:48.480
+semplice in questo momento.
+
+03:48.490 --> 03:57.970
+Se avessimo molti bambini e molte note annidate, è necessario che si verifichino molti riordini e spostino i
+
+03:58.000 --> 03:59.420
+nostri nodi.
+
+03:59.650 --> 04:01.390
+E non preoccuparti, stiamo davvero programmando questo.
+
+04:01.390 --> 04:04.860
+Ci capisci come abbiamo fatto nelle precedenti strutture di dati.
+
+04:04.930 --> 04:12.130
+Ma voglio dimostrare invece di usare semplicemente il mio cursore qui un piccolo e grazioso strumento per visualizzare come
+
+04:12.520 --> 04:20.750
+funzionano gli alberi di ricerca binaria e come sono le loro operazioni Oh log of n useremo Visual vai di nuovo e
+
+04:20.990 --> 04:25.910
+collegherò questo consiglio vivamente di giocare tutti con alberi di ricerca binari.
+
+04:26.450 --> 04:33.100
+Ma facciamo un paio di operazioni qui per vedere che ha generato un albero di ricerca binario casuale per me.
+
+04:33.260 --> 04:42.470
+Diciamo che volevo fare una risposta e che voglio inserire diciamo il numero uno 5 clic vai.
+
+04:42.650 --> 04:49.500
+Attraverserà per capire dove vuole inserire e inserirà 1 E se volessi
+
+04:49.500 --> 04:59.520
+inserire forse il numero 44 questa volta se dovessi andare a traverso capisce dove dovrebbe andare 44 e
+
+05:01.320 --> 05:03.100
+lo colloca qui.
+
+05:03.540 --> 05:11.400
+Quindi stiamo sempre attraversando e capendo usando 0 log n dove dovremmo posizionare l'oggetto.
+
+05:11.590 --> 05:13.110
+Che dire di rimuovere.
+
+05:13.330 --> 05:14.370
+Aggiungiamo un altro.
+
+05:14.380 --> 05:17.290
+Questa volta ne inserirò cinquantuno
+
+05:21.280 --> 05:24.520
+in modo da posizionarlo proprio qui.
+
+05:24.520 --> 05:25.470
+Perfezionare.
+
+05:25.480 --> 05:33.150
+Ora diciamo che vogliamo eliminare 50 ora cinque rimuovi 50.
+
+05:33.360 --> 05:34.020
+Odio
+
+05:37.290 --> 05:38.470
+andare, ne trovo 50.
+
+05:38.610 --> 05:44.590
+Rimuoverlo e quindi devo sostituire con 51 e salire.
+
+05:44.670 --> 05:48.650
+Quindi c'è un po 'di una piccola logica difficile che sta accadendo lì.
+
+05:48.660 --> 05:54.770
+Lì dovremo incorporare e ci arriveremo ma per ora, mentre finisco questo video, ti consiglio
+
+05:54.770 --> 06:02.060
+di andare a andare visivamente e giocare con la chirurgia binaria in modo che ti abitui e mentre
+
+06:02.060 --> 06:08.300
+giochi vede se noti un problema che potremmo incontrare con l'albero di ricerca binario perché
+
+06:08.660 --> 06:11.060
+ne discuteremo nel prossimo video.

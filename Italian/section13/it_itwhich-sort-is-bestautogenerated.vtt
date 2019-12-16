@@ -1,0 +1,175 @@
+WEBVTT
+
+00:01.130 --> 00:02.270
+Ben tornato.
+
+00:02.270 --> 00:06.890
+Abbiamo imparato i nostri algoritmi di ordinamento da te stesso che potresti chiederti.
+
+00:06.990 --> 00:14.150
+Andre Sono ancora un po 'confuso su quando usare cosa e se mi viene chiesto in un'intervista una domanda
+
+00:14.150 --> 00:17.470
+su quale algoritmo di ordinamento sarà il migliore.
+
+00:17.480 --> 00:26.810
+Se avessi i dati di un utente di 100 milioni di nomi che devono essere ordinati, andiamo oltre alcune regole.
+
+00:27.300 --> 00:28.070
+1.
+
+00:28.380 --> 00:31.380
+Quando dovresti usare l'ordinamento per inserimento.
+
+00:31.800 --> 00:40.680
+L'ordinamento con inserimento corretto dovrebbe essere utilizzato con pochi elementi se l'input è ridotto o se gli elementi sono per lo più
+
+00:40.680 --> 00:41.480
+ordinati.
+
+00:41.730 --> 00:43.880
+È davvero molto veloce.
+
+00:44.800 --> 00:52.030
+Utilizza pochissimo spazio e, soprattutto, è davvero facile da implementare nel codice.
+
+00:52.350 --> 01:01.860
+Quindi ricorda solo alcuni elementi e soprattutto i dati ordinati devi usare l'ordinamento per inserimento di un ordinamento di bolle.
+
+01:02.100 --> 01:04.690
+Ad essere onesti non userai mai il bubble sort.
+
+01:05.500 --> 01:10.740
+È usato solo a scopo didattico come metodo per insegnare l'ordinamento.
+
+01:10.840 --> 01:17.520
+Ma è molto raro che lo trovi nella vita reale perché non è molto efficiente.
+
+01:18.380 --> 01:21.020
+Che dire della selezione di nuovo.
+
+01:21.050 --> 01:26.070
+La stessa cosa con la selezione sort come si può vedere i numeri non sono molto buoni.
+
+01:26.120 --> 01:28.700
+Quindi molto probabilmente non lo userai.
+
+01:28.790 --> 01:32.200
+Per lo più viene usato come un meccanismo di insegnamento che ho fatto.
+
+01:32.250 --> 01:37.790
+Scusate non intendevo sprecare il vostro tempo con la selezione dell'apprendimento scusate ma è importante costruire
+
+01:37.790 --> 01:38.630
+le basi.
+
+01:39.750 --> 01:41.510
+Che dire di unire l'ordinamento.
+
+01:42.120 --> 01:44.260
+E questo è il mio preferito.
+
+01:44.390 --> 01:50.120
+Perché ben Merced short è davvero molto buono a causa di divide et impera.
+
+01:50.160 --> 01:54.580
+Abbiamo tutto e log ed è veloce.
+
+01:54.660 --> 02:03.320
+E poiché la media migliore nel peggiore dei casi è sempre 0 e si accede sempre dividiamo il posto in modo uniforme.
+
+02:03.330 --> 02:07.580
+Puoi sempre garantire che questo sarà il caso.
+
+02:07.830 --> 02:10.520
+Quale non è il caso per la maggior parte degli altri algoritmi.
+
+02:10.740 --> 02:15.080
+Quindi, se sei preoccupato per gli scenari peggiori, dovresti usare Mirch sort.
+
+02:15.360 --> 02:22.980
+Ma se vuoi ordinare in memoria sulla tua macchina e sei preoccupato per la complessità dello spazio, l'unione di
+
+02:22.980 --> 02:28.540
+specie sarà molto costosa per la complessità dello spazio utente di tutto ciò.
+
+02:28.700 --> 02:36.190
+Tuttavia, se avesse file enormi che possono essere ordinati in memoria in modo da avere un ordinamento esterno
+
+02:36.200 --> 02:45.740
+di cui hai bisogno, magari come un processo esterno alla memoria, è adatto per l'ordinamento esterno, quindi l'unisci sort è buono perché non
+
+02:45.740 --> 02:50.830
+ci interesseremo molto alla complessità dello spazio in per quanto riguarda quicksort.
+
+02:51.740 --> 02:59.390
+Quicksort è in realtà migliore del caso medio di Mirch e della complessità dello spazio.
+
+02:59.390 --> 03:05.120
+Intendo dire che ha la stessa velocità del tempo di Merse, ma meno complessità spaziale.
+
+03:05.120 --> 03:12.740
+Probabilmente è uno degli algoritmi di ordinamento più popolari, ma l'unico svantaggio è che, se non si sceglie
+
+03:12.740 --> 03:18.260
+la carta in modo corretto, si potrebbe avere un ordinamento veramente lento.
+
+03:18.350 --> 03:25.830
+Quindi devi stare attento e se sei davvero preoccupato per il caso peggiore, allora preferisci scegliere
+
+03:25.830 --> 03:26.330
+qualcos'altro.
+
+03:27.410 --> 03:32.250
+Ora ti starai chiedendo Andre Che dire di heapsort.
+
+03:32.420 --> 03:34.130
+Non ne hai davvero parlato.
+
+03:34.960 --> 03:39.550
+Ho intenzione di lasciare le risorse per te in modo da poter imparare anche su heapsort.
+
+03:39.580 --> 03:45.610
+È molto simile a quicksort e merge sort, ma qui vedi che ha una complessità spaziale di
+
+03:45.610 --> 03:46.360
+tutto uno.
+
+03:46.360 --> 03:49.260
+Non è meglio di tutto quanto sopra.
+
+03:49.640 --> 03:56.860
+Beh, può ordinare e non ha il peggiore comportamento quadratico che Quicksort ha o l'utilizzo della
+
+03:56.860 --> 04:04.940
+memoria che Mirch sort ha ma in media è in realtà più lento di quicksort nella maggior parte dei casi.
+
+04:04.990 --> 04:12.340
+È una di quelle cose in cui con heapsort a meno che tu non sia veramente preoccupato per il caso peggiore e
+
+04:12.340 --> 04:18.250
+la memoria, potresti usarlo ma la maggior parte delle volte direi che stai usando quicksort o Murchadh
+
+04:20.020 --> 04:24.200
+OK, ma stai dicendo cosa ne pensi di questi quelli Swansdown qui.
+
+04:24.220 --> 04:26.250
+Ordinamento radix di tipo Bucket.
+
+04:26.250 --> 04:29.180
+O radix sort e counting sort.
+
+04:29.380 --> 04:31.050
+Come mai non stai parlando di questi.
+
+04:31.060 --> 04:32.200
+Perché possiamo semplicemente usarli.
+
+04:32.200 --> 04:37.910
+Sembrano molto meglio di tutti gli altri soprattutto quando si tratta di complessità temporale.
+
+04:37.910 --> 04:38.660
+Buona domanda.
+
+04:38.780 --> 04:40.240
+Ne parliamo nei prossimi.

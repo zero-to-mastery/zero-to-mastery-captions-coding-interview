@@ -1,0 +1,250 @@
+WEBVTT
+
+00:01.260 --> 00:05.750
+Och, nie możemy poczuć końca prawie, że jesteśmy w Zasadzie numer cztery.
+
+00:05.760 --> 00:13.130
+Ostateczna zasada w naszym regulaminie nie powoduje dominacji ani nie traci dominujących terminów.
+
+00:13.410 --> 00:14.300
+Co mamy na myśli.
+
+00:14.400 --> 00:15.360
+Spójrzmy.
+
+00:16.760 --> 00:26.420
+Powiedzmy, że mamy znowu funkcję o naprawdę długiej nazwie, która wypisuje wszystkie liczby, a następnie wszystkie pary
+
+00:26.590 --> 00:27.660
+masek.
+
+00:28.070 --> 00:30.080
+Może nie najlepsza nazwa dla naszej funkcji.
+
+00:30.110 --> 00:34.950
+Możemy prawdopodobnie pracować nad czytelnością tutaj, ale zobaczmy, co ta funkcja robi dobrze.
+
+00:35.030 --> 00:40.670
+Ta funkcja przyjmuje liczby i te liczby są zmienne.
+
+00:40.670 --> 00:44.150
+Przejdziemy do nich pętlą For Each.
+
+00:44.510 --> 00:51.560
+Tak więc po prostu zapętlając się i wylogowując numery, a następnie mamy kolejny krok, który powinien
+
+00:51.560 --> 00:58.460
+wam przypominać, że jest to prawdopodobnie dodatek, który robimy, dodajemy kolejny krok i tutaj podsumowujemy
+
+00:59.150 --> 01:00.410
+parę masek.
+
+01:00.410 --> 01:07.290
+W tym miejscu dodajemy każdy numer jeden po drugim.
+
+01:07.670 --> 01:11.610
+Pokażmy wam tutaj trochę wersji demo.
+
+01:11.840 --> 01:19.160
+Jeśli powiedzmy, że tworzymy w rzeczywistości My po prostu wydrukujemy liczby i zakończymy tutaj
+
+01:19.160 --> 01:26.290
+dla liczb, po prostu dajmy mu tablicę 1 2 3 4 5.
+
+01:26.400 --> 01:34.130
+Jeśli kliknę źle tutaj, zobaczymy, że są to liczby 1 2 3 4 5.
+
+01:34.160 --> 01:37.750
+Ponieważ jest to krok, w którym właśnie się go loguje.
+
+01:37.850 --> 01:39.210
+Nic zbyt trudnego.
+
+01:39.680 --> 01:43.190
+A to są ich zbiorniki.
+
+01:43.190 --> 01:50.060
+Wszystko, co robimy, to dodawanie jednego z jednym, a drugiego dwoma równymi trzem.
+
+01:50.330 --> 01:52.330
+Jeden z trzema, który wynosi cztery.
+
+01:52.460 --> 01:56.080
+Jeden z czterema, który wynosi pięć, a jeden na pięć, co równa się sześciu.
+
+01:56.090 --> 02:03.520
+A potem przechodzimy do następnej pętli, która jest równa dwóm i jednemu, które równa się trzem dwóm i
+
+02:03.520 --> 02:07.710
+dwóm, co równa się czterem, i ciągle trwa i trwa.
+
+02:07.720 --> 02:14.260
+Widzimy więc pętle, które tutaj zrobiliśmy, i takie problemy, które zamierzamy zrobić później,
+
+02:14.260 --> 02:17.500
+teraz obawiamy się o big-O.
+
+02:17.770 --> 02:21.810
+Jak sądzisz, że notacja Big-O tutaj jest dobra.
+
+02:21.850 --> 02:27.690
+Jeszcze raz, jeśli zrobimy 0 z pierwszej części, to pętla for.
+
+02:27.760 --> 02:35.400
+Możemy więc powiedzieć, że istnieje A, a następnie druga część, która znowu jest kolejnym
+
+02:35.400 --> 02:42.530
+krokiem, więc powiemy, że dodać, a ten ma dwie cztery pętle zagnieżdżone.
+
+02:42.670 --> 02:46.650
+Oznacza to 0 do potęgi dwóch.
+
+02:46.650 --> 02:47.020
+W porządku.
+
+02:47.030 --> 02:49.120
+To nasza notacja Big-O.
+
+02:49.310 --> 02:55.200
+Według reguły numer cztery stwierdza, że chcemy upuścić warunki nie dominujące.
+
+02:55.260 --> 02:59.930
+Oznacza to, że zależy nam na najważniejszym z nich w tym przypadku.
+
+02:59.940 --> 03:04.240
+W rzeczywistości upuszczamy n i po prostu mamy.
+
+03:04.270 --> 03:13.240
+I do potęgi dwóch, ponieważ jako wejście zwiększa rozmiar N do potęgi dwóch jest o
+
+03:13.240 --> 03:15.080
+wiele ważniejsze niż.
+
+03:15.140 --> 03:19.880
+Dlatego zawsze utrzymujemy dominujący termin.
+
+03:20.050 --> 03:21.510
+Pozwól, że dam ci inny przykład.
+
+03:22.330 --> 03:32.960
+Co by było, gdybyśmy mieli funkcję, która miałaby wielkie O, powiedzmy X, na potęgę
+
+03:33.380 --> 03:46.070
+2, a potem powiemy, że ma 3 x plus 1000 i może powiemy plus X podzielone przez dwa.
+
+03:46.080 --> 03:46.920
+W porządku.
+
+03:46.920 --> 03:49.470
+To naprawdę mylące, to matematyka.
+
+03:49.470 --> 03:51.960
+Cóż, nie będziemy chcieli zająć się tym zbyt mocno.
+
+03:51.960 --> 03:54.180
+Jak to uprościć?
+
+03:54.180 --> 04:02.980
+Opierając się na kategoriach niedominujących, czwarta zasada stwierdza, że znowu martwimy się o najważniejszy termin
+
+04:03.040 --> 04:08.790
+dominujący, ponieważ X na potęgę dwóch jest najbardziej znaczący.
+
+04:08.890 --> 04:19.340
+Oznacza to, że jeśli X wynosi 5 5 do potęgi dwóch jest dwadzieścia pięć pięć razy trzy jest 15.
+
+04:19.360 --> 04:25.060
+To jest sto pięć podzielone przez dwa to 2. 5.
+
+04:25.060 --> 04:28.180
+W tym przypadku termin dominujący to sto.
+
+04:28.360 --> 04:32.280
+Ale pamiętajmy o big-o, że martwimy się skalą.
+
+04:32.320 --> 04:35.740
+A gdy sprawy stają się coraz większe i większe.
+
+04:35.830 --> 04:48.590
+Więc kiedy to staje się pięć tysięcy Well 5000 do potęgi dwóch lub 500 do potęgi dwóch, które jest 250000.
+
+04:48.610 --> 04:58.220
+Jeśli zrobiłem matematyczne prawo trzy razy 500 to tylko sto tysięcy pięćset sto jest teraz nieistotne, a 500
+
+04:58.430 --> 05:01.310
+podzielone przez dwa to 250.
+
+05:01.310 --> 05:07.830
+Przekonacie się, jak znacznie wzrosło to ponownie, ponieważ martwimy się tylko skalą.
+
+05:08.000 --> 05:11.690
+Zrzucamy wszystko inne i możemy po prostu zignorować to całkowicie.
+
+05:11.810 --> 05:14.830
+I to staje się X na potęgę 2.
+
+05:14.930 --> 05:19.250
+Jak miło, to sprawia, że rzeczy są o wiele prostsze.
+
+05:20.600 --> 05:21.880
+Więc masz to.
+
+05:22.010 --> 05:24.950
+Mamy teraz sposób na uproszczenie wszystkiego.
+
+05:24.950 --> 05:28.870
+Jeśli wrócimy do naszych dawnych przykładów, pamiętajcie o tym.
+
+05:29.030 --> 05:37.560
+Zapamiętajcie ten, który ma teraz sens, dlaczego właśnie powiedzieliśmy "big-o" i ponieważ nie interesują nas
+
+05:37.560 --> 05:41.020
+tylko nieznaczne przedmioty, tylko te najważniejsze.
+
+05:41.040 --> 05:46.520
+I to samo z tą przy okazji zabawną małą nutą tutaj.
+
+05:46.780 --> 05:54.090
+Gdybyśmy mieli pętlę Nother wewnątrz tych dwóch pętli, to stałoby się o.
+
+05:55.130 --> 05:58.760
+Do potęgi x cubed lub cubed.
+
+05:58.770 --> 06:03.450
+Nie ma znaczenia, co mamy, ale będzie to moc Thweatta, ponieważ
+
+06:03.690 --> 06:07.750
+mamy trzy zagnieżdżone warstwy i możesz iść dalej.
+
+06:07.770 --> 06:10.500
+Musisz potęgi czterech do potęgi pięciu.
+
+06:10.590 --> 06:11.810
+Ale o to chodzi.
+
+06:11.910 --> 06:13.750
+Jeśli masz trzy zagnieżdżone pętle.
+
+06:13.800 --> 06:17.020
+Dziewięćdziesiąt dziewięć punktów dziewięćdziesiąt dziewięć procent czasu.
+
+06:17.220 --> 06:18.960
+To zwykle zły pomysł.
+
+06:18.960 --> 06:23.250
+To naprawdę bardzo źle i najprawdopodobniej robisz coś złego.
+
+06:24.690 --> 06:25.520
+I tam to masz.
+
+06:25.530 --> 06:32.460
+Przeszliśmy cztery zasady i mając to na uwadze, przyjrzymy się arkuszowi, który przygotowałem dla
+
+06:32.460 --> 06:33.330
+ciebie.
+
+06:33.330 --> 06:39.600
+Od teraz, zamiast obliczać wszystko i naprawdę patrzeć na każdy szczegół
+
+06:39.600 --> 06:47.000
+funkcji, od razu możesz dowiedzieć się, czym jest duże-O lub jaka jest złożoność czasu funkcji.

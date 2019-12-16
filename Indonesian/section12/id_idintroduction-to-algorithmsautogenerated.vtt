@@ -1,0 +1,118 @@
+WEBVTT
+
+00:01.420 --> 00:10.450
+Selamat datang di bagian algoritme ini adalah kata yang segera terdengar bagus kan.
+
+00:10.490 --> 00:15.800
+Semua perusahaan menggunakannya hari ini terdengar seperti mereka melakukan sesuatu yang sangat sangat penting.
+
+00:16.510 --> 00:24.100
+Setiap orang memiliki algoritma rahasia yang mereka gunakan untuk membuat model pembelajaran mesin menganalisis data pengguna menghasilkan banyak
+
+00:24.160 --> 00:25.780
+uang bagi perusahaan.
+
+00:26.080 --> 00:35.360
+Tetapi di bawah kap algoritma hanya fungsi yang programmer menulis fungsi dua baris secara
+
+00:35.420 --> 00:43.670
+teknis adalah algoritma seribu garis yang memilah-milah gambar juga merupakan algoritma.
+
+00:43.670 --> 00:51.780
+Algoritma hanyalah langkah-langkah dalam proses yang kami ambil untuk melakukan tindakan yang diinginkan dengan komputer.
+
+00:53.450 --> 01:00.310
+Jika kita pergi ke Wikipedia dan mencari daftar algoritma, daftar ini tidak ada habisnya.
+
+01:00.320 --> 01:05.240
+Ada banyak algoritma.
+
+01:05.380 --> 01:07.420
+Tidak mungkin untuk mengetahui semuanya.
+
+01:07.480 --> 01:14.770
+Anda dapat membuat algoritma Anda sendiri, Anda dapat menggunakan algoritma lain yang populer dan mapan.
+
+01:14.970 --> 01:18.740
+Tetapi mari kita kembali ke pertanyaan kita tentang apa itu algoritma.
+
+01:18.900 --> 01:28.220
+Jika kita menggabungkan pengetahuan kita tentang struktur data yang kita kerjakan di bagian sebelumnya, algoritma memungkinkan kita untuk menggunakan bahasa
+
+01:28.310 --> 01:36.200
+yang dibangun dalam struktur data seperti array dan objek atau primitif seperti integer dan boolean dan bahkan
+
+01:36.230 --> 01:43.910
+tipe data khusus seperti yang kita lakukan ketika kita menggunakan kata kunci kelas untuk membuat susunan
+
+01:44.030 --> 01:46.560
+pohon pencarian biner isyarat.
+
+01:46.960 --> 01:54.010
+Algoritma memungkinkan kita untuk menggunakan struktur data ini untuk melakukan tindakan pada data tersebut.
+
+01:54.040 --> 02:00.440
+Ingat ini struktur data yang tepat dan algoritma membuat program dalam kursus ini.
+
+02:00.440 --> 02:07.520
+Kami akan berbicara tentang algoritma wawancara yang paling umum sehingga daftar panjang di Wikipedia tidak akan
+
+02:07.520 --> 02:12.590
+mengintimidasi karena kami hanya akan fokus pada keinginan yang penting terutama
+
+02:12.830 --> 02:19.990
+untuk wawancara tetapi juga yang paling penting dalam karir Anda khusus kita akan membahas topik-topik ini ketika
+
+02:19.990 --> 02:21.460
+datang ke algoritma.
+
+02:21.460 --> 02:28.060
+Sekarang mengapa algoritma ini sangat umum dalam wawancara dan terutama di perusahaan besar.
+
+02:28.620 --> 02:34.230
+Yah Anda bisa lolos dengan tidak mengetahui topik ini untuk waktu yang lama.
+
+02:34.290 --> 02:41.520
+Sebagai seorang programmer tetapi seperti yang telah kita pelajari big-O dan skalabilitas kode adalah penting karena perusahaan menjadi
+
+02:41.520 --> 02:45.290
+semakin besar dengan mempelajari algoritma-algoritma yang terdaftar ini.
+
+02:45.480 --> 02:50.550
+Kami dapat melakukan sebagian besar penskalaan yang kami butuhkan untuk meningkatkan program kami.
+
+02:50.550 --> 03:00.450
+Ingat Chichi besar-O kami dan bagaimana kami belum benar-benar berbicara tentang oh log dan ON log dan mungkin sedikit
+
+03:00.450 --> 03:02.040
+di video sebelumnya.
+
+03:02.910 --> 03:12.780
+Algoritma CERN memungkinkan kita untuk menyederhanakan kompleksitas O besar kita menjadi kompleksitas waktu yang lebih kecil atau lebih baik.
+
+03:13.710 --> 03:19.740
+Sehingga dengan menggunakan algoritma yang tepat saya bisa mengambil fungsi yang memiliki tampilan
+
+03:19.740 --> 03:28.380
+besar dari notasi ini ke sesuatu O dan login atau sesuatu yang memiliki kompleksitas waktu linier untuk o log peristiwa.
+
+03:28.550 --> 03:35.360
+Dan ini digunakan di mana-mana di perusahaan besar karena perusahaan besar menangani banyak input
+
+03:35.450 --> 03:36.540
+banyak data.
+
+03:36.590 --> 03:43.670
+Jadi topik ini sangat penting bagi mereka dan seiring karir Anda tumbuh dan tumbuh
+
+03:43.670 --> 03:46.320
+topik ini akan semakin penting.
+
+03:46.390 --> 03:48.760
+Jadi mari selami topik pertama kita.
+
+03:49.000 --> 03:50.480
+Saya akan melihat yang berikutnya.
+
+03:50.690 --> 03:50.950
+Babai.

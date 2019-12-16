@@ -1,0 +1,139 @@
+WEBVTT
+
+00:01.130 --> 00:02.120
+Selamat datang kembali.
+
+00:02.120 --> 00:09.440
+Mari kita bicara tentang peran pertama ketika datang ke big-O itu adalah kasus terburuk ketika menghitung besar.
+
+00:09.460 --> 00:14.040
+Oh, kami selalu berpikir tentang kasus terburuk.
+
+00:14.150 --> 00:18.120
+Apa yang saya maksudkan dengan baik itu jika kita kembali
+
+00:20.940 --> 00:28.690
+ke Finding Nemo misalnya dan menemukan fungsi Nemo Anda mungkin telah berteriak kepada saya ketika saya sedang melalui fungsi mengatakan
+
+00:28.690 --> 00:31.080
+bahwa Andre Ini tidak efisien.
+
+00:31.090 --> 00:32.190
+Apa yang sedang kamu lakukan.
+
+00:32.590 --> 00:40.230
+Karena jika Anda melihat fungsi ini, kami mengulang-ulang seluruh array untuk menemukan Nemo.
+
+00:41.520 --> 00:49.170
+Ingat bagaimana kami memiliki setiap array dengan sekitar 10 karakter berbeda dari Finding Nemo.
+
+00:50.290 --> 00:56.980
+Well Nemo hanya anggota satu dua tiga keempat dalam array ini.
+
+00:57.400 --> 01:02.600
+Dan ketika kami menjalankan fungsi ini kami menemukan Nemo.
+
+01:03.020 --> 01:11.240
+Tapi lucunya fungsi ini berjalan 10 kali bukan empat kali.
+
+01:11.450 --> 01:24.620
+Jika saya melakukan log konsol di sini dan saya katakan menjalankan dan mari kita klik ini kita melihat bahwa fungsi ini menjalankan satu
+
+01:24.680 --> 01:30.120
+dua tiga empat lima enam tujuh delapan sembilan sepuluh.
+
+01:30.380 --> 01:36.300
+Maksudku, kita sudah menemukan Nemo semua ini berjalan sangat boros.
+
+01:36.430 --> 01:41.390
+Jadi kita dapat membuat fungsi ini sedikit lebih efisien dalam javascript.
+
+01:41.410 --> 01:48.050
+Kami hanya dapat memiliki sesuatu yang disebut istirahat.
+
+01:48.210 --> 01:53.020
+Dan lagi bahasa yang berbeda memiliki cara keluar yang berbeda dari satu lingkaran.
+
+01:53.090 --> 02:02.060
+Jika suatu kondisi terpenuhi dalam kasus kami jika kami menemukan Nimo baru saja keluar dari loop ini jika saya melakukan ini
+
+02:02.060 --> 02:04.330
+dan klik jalankan akan mendapatkannya.
+
+02:04.400 --> 02:09.390
+Setelah kami menemukan Nimo, kami selesai, kami tidak akan mengulang-ulang sisa item.
+
+02:09.410 --> 02:10.450
+Selamat.
+
+02:10.490 --> 02:13.970
+Kami baru saja membuat kode kami sedikit lebih efisien.
+
+02:14.420 --> 02:15.430
+Itu hal yang baik benar.
+
+02:16.420 --> 02:19.050
+Nah ketika sampai pada O besar.
+
+02:19.570 --> 02:21.160
+Meskipun ini penting.
+
+02:21.220 --> 02:27.130
+Dan ketika Anda menulis kode yang baik, ini adalah sesuatu yang ingin kami lakukan dalam skema besar.
+
+02:27.160 --> 02:32.520
+Big-O hanya peduli tentang kasus terburuk apa kasus terburuk di sini.
+
+02:32.680 --> 02:40.480
+Nah kasus terburuk adalah bahwa Nimo ditetapkan menjadi item keempat adalah di akhir.
+
+02:43.480 --> 02:51.730
+Jadi, bahkan jika kita memiliki pernyataan break ini kita masih akan berjalan 10 kali karena Neema pada akhirnya.
+
+02:51.850 --> 02:56.450
+Kasus terbaik adalah jika Nemo di awal dan kita hanya perlu mengulanginya sekali.
+
+02:56.590 --> 03:05.810
+Tetapi kasus terburuk kita masih harus melalui 10 loop masih besar.
+
+03:05.840 --> 03:15.410
+Jadi ini adalah aturan pertama kami. Aturan pertama adalah kami selalu peduli tentang skenario terburuk karena ketika
+
+03:15.410 --> 03:20.990
+kita berbicara tentang skalabilitas, kita tidak bisa hanya menganggap
+
+03:21.140 --> 03:33.630
+semuanya berjalan baik meskipun fungsi Nimo find mungkin satu jika Nimo adalah item pertama dalam array yang tidak penting dalam skema besar
+
+03:33.840 --> 03:39.720
+karena kita tidak bisa memastikan apa yang akan menjadi input.
+
+03:39.750 --> 03:51.940
+Kita akan berasumsi bahwa semua perjalanan adalah waktu linier lagi jika kita menemukan kotak kuning dan kotak kuning di
+
+03:51.940 --> 03:54.160
+bagian paling akhir.
+
+03:54.340 --> 03:58.060
+Kita harus mengulangi semua kotak.
+
+03:58.310 --> 04:05.470
+Jika kotak kuning di awal Anda melihat bahwa kita tidak harus beralih melalui kotak-kotak ini tetapi O
+
+04:05.470 --> 04:07.360
+besar tidak terlalu peduli.
+
+04:07.360 --> 04:13.900
+Meskipun fungsi ini ya memang lebih efisien pada akhir hari ketika kita berbicara tentang besar-O
+
+04:14.290 --> 04:17.070
+kita berbicara tentang kasus terburuk.
+
+04:17.100 --> 04:19.300
+Baiklah, saya harap Anda mengerti maksudnya.
+
+04:19.360 --> 04:24.950
+Saya merasa seperti telah dipukuli sampai jadi bubur sehingga Anda harus merasa nyaman dengan itu sekarang.
+
+04:25.120 --> 04:27.530
+Mari kita bicara tentang peran selanjutnya di video berikutnya.

@@ -1,0 +1,247 @@
+WEBVTT
+
+00:01.230 --> 00:06.800
+Ada dua hal utama yang kita bicarakan ketika kita mengatakan ini adalah kode yang baik.
+
+00:07.050 --> 00:10.890
+Tetapi sebelum saya menunjukkan kepada Anda apa yang menurut Anda adalah kode yang baik.
+
+00:10.950 --> 00:11.870
+Berpikir tentang itu.
+
+00:11.940 --> 00:15.700
+Apa yang akan Anda katakan kepada seseorang jika Anda meminta mereka untuk menulis kode yang baik.
+
+00:16.520 --> 00:24.180
+Baiklah, saya hanya akan memberi Anda jawaban yang Anda lihat kode yang baik dapat dijelaskan dalam dua hal atau dua poin.
+
+00:24.410 --> 00:31.700
+Salah satunya adalah keterbacaan adalah kode Anda umumnya bersih.
+
+00:31.700 --> 00:33.850
+Bisakah orang lain memahami kode Anda.
+
+00:34.160 --> 00:37.580
+Dan kemudian kita memiliki kode yang dapat diukur.
+
+00:37.760 --> 00:38.800
+Apa artinya.
+
+00:39.140 --> 00:49.930
+Notasi Big-O adalah apa yang memungkinkan kita untuk mengukur ide kode yang dapat diskalakan ini yang dapat mengukur sesuatu yang akan kita masuki
+
+00:49.930 --> 00:55.280
+dan Anda akan menjadi lebih akrab dengan kita melalui bagian ini.
+
+00:55.480 --> 01:00.550
+Kita juga akan berbicara tentang kode yang dapat dibaca di seluruh kursus ini tetapi
+
+01:00.550 --> 01:03.090
+menyinggung sedikit lagi di bagian selanjutnya.
+
+01:03.220 --> 01:09.240
+Tetapi untuk sekarang karena ini adalah bagian O besar kami fokus pada gagasan kode yang dapat diskalakan.
+
+01:09.520 --> 01:12.510
+Ok apa artinya ini sebenarnya.
+
+01:12.940 --> 01:17.600
+Yah aku ingin kau membayangkan kita punya tugas di mana kita ingin membuat kue.
+
+01:18.010 --> 01:27.030
+Kami punya resep di sini dan resep ini akan kami gunakan di dapur kami untuk membuat kue.
+
+01:27.250 --> 01:31.040
+Dan ada cara yang baik untuk memanggang kue dan cara yang buruk.
+
+01:31.080 --> 01:32.640
+Kanan.
+
+01:32.700 --> 01:34.450
+Kami memberikan instruksi.
+
+01:34.470 --> 01:35.690
+Itu resep mereka.
+
+01:35.880 --> 01:43.710
+Dan semoga resep dan instruksi ini bekerja dengan baik di dapur kami sehingga kami dapat membuat kue dengan cepat dan
+
+01:44.400 --> 01:46.370
+kue yang bagus untuk itu.
+
+01:46.680 --> 01:49.300
+Komputer adalah mesin.
+
+01:50.020 --> 01:54.180
+Dan mesin-mesin ini perlu bekerja untuk menghasilkan sesuatu untuk kita.
+
+01:54.370 --> 02:01.490
+Dan komputer bekerja dengan cara yang sama kita memiliki instruksi ini yang kita berikan melalui
+
+02:01.510 --> 02:08.020
+kode dan instruksi ini yang kita berikan ke mesin kita komputer kita memberikan instruksi
+
+02:08.170 --> 02:13.660
+ini yang memberikan kita semacam output misalnya untuk menyalakan lampu.
+
+02:13.660 --> 02:18.600
+Kami memberikan instruksi komputer untuk mengatakan hei nyalakan lampu di kamar kami.
+
+02:18.880 --> 02:24.730
+Seorang pembuat kode adalah seseorang yang memberikan instruksi ini seperti ada banyak cara untuk
+
+02:24.730 --> 02:31.930
+membawa kue ke dapur atau seperti ada banyak cara untuk membuat kue di dapur dengan banyak bahan resep
+
+02:31.930 --> 02:33.060
+dan instruksi.
+
+02:33.070 --> 02:36.780
+Ada banyak cara untuk menyelesaikan masalah melalui kode.
+
+02:37.000 --> 02:40.690
+Mereka cara yang efisien dan tidak efisien untuk memberikan instruksi.
+
+02:40.720 --> 02:42.950
+Jadi mari kita pergi ke contoh pengkodean.
+
+02:43.090 --> 02:49.540
+Saya akan menggunakan REPL berdebam dan jika Anda tidak terbiasa dengan ini Pastikan Anda memeriksa video yang saya daftarkan
+
+02:49.540 --> 02:54.930
+di bawah di sini yang menjelaskan bagaimana Anda dapat menjalankan kode Anda dalam kursus ini.
+
+02:54.990 --> 03:02.680
+Anda hanya ingin masuk dan saya sudah mengatur lingkungan javascript saya di sini.
+
+03:03.890 --> 03:07.020
+Dan saya lebih suka memiliki tema gelap.
+
+03:07.030 --> 03:08.840
+Saya pikir itu terlihat lebih baik di mata Anda.
+
+03:09.590 --> 03:16.090
+Untuk Anda setidaknya saya harap Anda tidak keberatan dengan kegelapan tetapi bagaimana saya bisa menunjukkan ide kode ini.
+
+03:16.960 --> 03:18.660
+Mari kita lakukan sesuatu yang menyenangkan di sini.
+
+03:18.910 --> 03:23.520
+Menggunakan javascript saya akan mengatakan Konst nimo.
+
+03:23.760 --> 03:36.890
+Kami memiliki array yang berisi string Nimo dan kami ingin membuat fungsi di sini yang disebut Find Nimo dan
+
+03:36.890 --> 03:46.960
+fungsi ini akan menerima array dan itu akan menjadi fungsi yang sangat sederhana.
+
+03:47.010 --> 03:52.890
+Kami akan membuat loop yang akan Anda lihat di sebagian besar bahasa di javascript.
+
+03:52.890 --> 04:01.290
+Kita bisa melakukannya dengan mudah dengan mengatakan 4 dan akan memberi saya sama dengan nol.
+
+04:01.870 --> 04:11.890
+Dan selama saya lebih kecil dari array dot land yang merupakan panjang array kami dan kemudian
+
+04:11.890 --> 04:15.230
+kita akan bertambah setiap kali.
+
+04:16.810 --> 04:22.750
+Sekali lagi ini bukan kursus javascript jadi mudah-mudahan ini akrab bagi
+
+04:22.750 --> 04:33.360
+Anda segala jenis loop yang Anda inginkan dalam bahasa Anda dan kami hanya akan mengatakan bahwa jika array dengan nimo sama.
+
+04:33.470 --> 04:42.370
+Jadi jika kita menemukan Nemo kita hanya akan menghibur Daut log yang ditemukan Nemo.
+
+04:42.810 --> 04:43.570
+Kami sangat bersemangat.
+
+04:43.620 --> 04:45.850
+Menyenangkan.
+
+04:45.850 --> 04:46.500
+Baiklah.
+
+04:46.690 --> 04:47.560
+Itu dia.
+
+04:47.600 --> 04:56.420
+Dan jika saya hanya menjalankan fungsi sekarang menemukan Nemo dan kami hanya akan memberikan array Nimo di sini dan
+
+04:57.780 --> 05:03.940
+memastikan bahwa saya mengejanya dengan benar dan kami klik jalankan di sini.
+
+05:05.370 --> 05:10.690
+Kami telah menemukan Nimo di jalur kanan membuat ini sedikit lebih besar sehingga Anda dapat melihat.
+
+05:10.730 --> 05:13.150
+Jadi kami menemukan Nemo.
+
+05:13.280 --> 05:15.830
+Ini adalah instruksi yang kami berikan pada komputer.
+
+05:16.130 --> 05:22.190
+Kami mengatakan kepadanya bahwa kami memiliki array dan kami memiliki fungsi tindakan yang ingin kami
+
+05:22.210 --> 05:25.950
+lakukan disebut find Nemo yang mengambil array yang nimo.
+
+05:26.130 --> 05:29.600
+Ini akan menerima array ini.
+
+05:29.800 --> 05:32.030
+Maka itu akan mengulang array.
+
+05:32.560 --> 05:35.420
+Kita akan mengatakan bahwa saya akan sama dengan nol.
+
+05:35.860 --> 05:45.110
+Dan karena saya nol sekarang dan panjang array Nimo adalah satu kita akan melalui loop.
+
+05:45.370 --> 05:51.580
+Kita akan memeriksa apakah indeks array 0 yang Nimo di sini.
+
+05:51.580 --> 05:56.080
+Jadi ini akan berubah menjadi nimo.
+
+05:56.350 --> 06:02.350
+Dan karena ini benar kita akan menipu. log ditemukan nimo.
+
+06:02.380 --> 06:05.110
+Sekarang mengapa saya hanya menunjukkan contoh ini kepada Anda.
+
+06:05.140 --> 06:12.910
+Biarkan saya membawa ini kembali ke cara saya tunjukkan contoh ini karena ini adalah instruksi yang
+
+06:13.510 --> 06:17.120
+kami berikan komputer kami untuk menemukan nimo.
+
+06:17.260 --> 06:20.020
+Anda lihat kami menyebutnya runtime.
+
+06:20.020 --> 06:26.200
+Berapa lama untuk menjalankan masalah tertentu melalui fungsi atau tugas.
+
+06:26.260 --> 06:30.820
+Bagaimana kita bisa mengukur besar O Oh well, seperti ini.
+
+06:30.880 --> 06:33.300
+Atau efisiensi kode ini.
+
+06:34.970 --> 06:37.740
+Dalam video berikutnya kita akan mendapatkan sedikit lebih dalam.
+
+06:37.770 --> 06:43.230
+Kami akan mencoba dan mengukur kinerja kode ini dan melihat apa yang terjadi ketika
+
+06:43.320 --> 06:44.590
+array semakin besar.
+
+06:45.440 --> 06:52.250
+Dan kita akan menyatukan berbagai hal tentang apa yang bisa diukur dan seberapa besar-O memungkinkan
+
+06:52.390 --> 06:56.180
+kita untuk mengukur skalabilitas di video berikutnya.

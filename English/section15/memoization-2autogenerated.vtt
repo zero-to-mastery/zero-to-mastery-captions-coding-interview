@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.240 --> 00:01.420
+We'll welcome back.
+
+00:01.460 --> 00:05.400
+I want to improve this function just a little bit.
+
+00:05.600 --> 00:12.500
+You see ideally we don't want to fill the cache in what we called the global scope.
+
+00:12.710 --> 00:15.620
+That is to be living outside of this function.
+
+00:17.020 --> 00:26.710
+Ideally it's good practice to have memory or in this case the cash to live inside of this function not
+
+00:26.710 --> 00:29.240
+polluting the global scope.
+
+00:29.380 --> 00:34.330
+And there's many ways to do this based on the language in javascript that we can use something called
+
+00:34.540 --> 00:35.430
+closures.
+
+00:35.980 --> 00:40.930
+And this is what it would look like and I'm showing you this because when we get to dynamic programming
+
+00:40.930 --> 00:42.880
+you're going to see this pattern a lot.
+
+00:43.120 --> 00:47.980
+Luckily with dynamic programming the pattern is usually always the same.
+
+00:47.980 --> 00:52.030
+So once you learn this then it becomes easier and easier.
+
+00:52.060 --> 01:01.580
+So the way we bring this inside of the function is to well bring it in like that.
+
+01:01.690 --> 01:10.220
+But the problem is now that every time we run this we're yet long time each time because the cache gets
+
+01:10.370 --> 01:13.410
+reset every time the function gets called.
+
+01:13.430 --> 01:20.970
+So the cache becomes an empty object to get around this we can use closures in javascript and we can
+
+01:21.030 --> 01:23.410
+return another function.
+
+01:23.460 --> 01:31.830
+So a function that returns a nother function and here will pass the parameter and
+
+01:36.180 --> 01:42.890
+and we'll have the logic inside of this function.
+
+01:43.840 --> 01:45.010
+That's it.
+
+01:45.040 --> 01:53.570
+And because of something called closure we're able to access this cache inside of this Charles function.
+
+01:53.590 --> 01:55.720
+Now this isn't a course about javascript.
+
+01:55.720 --> 02:02.670
+So you can read up on closure on your own but this is just a way for us to avoid that global scope so
+
+02:02.680 --> 02:06.620
+that this time around we can do something like this.
+
+02:06.700 --> 02:18.260
+We can't simply say cost minimalized equals memorized to 80 and we'll run this function.
+
+02:19.060 --> 02:25.660
+And we can actually even remove the parameter from here so that we have flexibility.
+
+02:25.690 --> 02:34.490
+Let me show you we have the memoirists year which hopefully I guess Bell memorized so that now this
+
+02:34.490 --> 02:43.030
+function because I ran it is going to return for me this function memorized equals this function.
+
+02:43.310 --> 02:45.180
+That's literally what memorized.
+
+02:45.200 --> 02:54.540
+Add to 80 returns and I have access to this cache variable so that in here I can just say memorized
+
+02:55.440 --> 02:59.910
+5 and memorized six.
+
+03:00.070 --> 03:11.600
+If I had run I still get the same thing but if I do 5 and 5 and I have run like that it's memorized.
+
+03:12.000 --> 03:18.000
+This function remembers that the parameter has not changed.
+
+03:18.060 --> 03:23.880
+It's the same parameter and it's going to check the cache and say I don't need to do all that silly
+
+03:23.880 --> 03:24.590
+calculation.
+
+03:24.600 --> 03:25.540
+I already have it.
+
+03:25.560 --> 03:27.730
+Here you go just using a hash table.
+
+03:27.870 --> 03:29.230
+Here it is.
+
+03:29.340 --> 03:38.430
+And while we just learned here is really powerful because it allows us to be very efficient with our
+
+03:38.430 --> 03:47.400
+code something that we know interviewers love companies love and dynamic programming allows us to use
+
+03:47.400 --> 03:53.160
+what we know now about memoization to optimize our code.
+
+03:53.190 --> 03:55.320
+Let's find out more in the next video.

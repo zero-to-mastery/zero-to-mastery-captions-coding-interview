@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.950 --> 00:11.610
+Benvenuti nella nostra ultima sezione sull'algoritmo è l'ultimo pezzo mancante e che i suoni di programmazione dinamica sono
+
+00:11.970 --> 00:14.190
+molto importanti, no?
+
+00:15.250 --> 00:24.340
+Con questa sezione andremo sull'ultimo pezzo della nostra mappa mentale per completare il nostro intero grafico della
+
+00:24.340 --> 00:25.140
+conoscenza.
+
+00:25.150 --> 00:27.100
+Quindi siamo pronti per le interviste.
+
+00:27.160 --> 00:34.480
+È questo ultimo piccolo pezzo di programmazione dinamica, in particolare la memorizzazione di cui
+
+00:34.480 --> 00:35.410
+parleremo.
+
+00:35.830 --> 00:44.380
+Ma cos'è che la programmazione dinamica è solo una tecnica di ottimizzazione.
+
+00:44.520 --> 00:50.800
+Ed ecco una divertente programmazione dinamica infatti non significa nulla.
+
+00:50.940 --> 00:55.610
+È completamente inutile e non sto scherzando qui.
+
+00:55.730 --> 01:01.530
+Tutto collegato a un articolo divertente su come il nome è diventato, ma la programmazione
+
+01:01.530 --> 01:07.420
+dinamica alla fine della giornata è solo una tecnica di ottimizzazione che utilizza qualcosa chiamato cache.
+
+01:07.460 --> 01:14.120
+Se hai qualcosa che puoi memorizzare nella cache Bene, allora può usare la programmazione dinamica.
+
+01:14.130 --> 01:20.130
+Ora analizzeremo i dettagli di ciò che significa nei prossimi video, ma a un
+
+01:20.130 --> 01:28.260
+livello più alto la programmazione dinamica è un modo per risolvere i problemi suddividendoli in una serie di sottoproblemi che
+
+01:28.740 --> 01:35.040
+risolvono ognuno di questi problemi una volta sola e memorizzano le loro soluzioni nel caso.
+
+01:35.040 --> 01:42.960
+La prossima volta si verificherà lo stesso sottoproblema, ma entriamo in questo e comprendiamo cosa significa come
+
+01:42.960 --> 01:48.450
+possiamo implementarlo per diventare migliori intervistatori migliori ingegneri e programmatori migliori.
+
+01:48.600 --> 01:50.740
+Vedrò nel prossimo video di.

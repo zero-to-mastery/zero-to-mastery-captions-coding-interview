@@ -1,0 +1,211 @@
+WEBVTT
+
+00:03.250 --> 00:09.700
+I want to show you one last example and this is probably the best example of why dynamic programming
+
+00:09.940 --> 00:12.380
+is so important.
+
+00:12.730 --> 00:17.540
+And as you'll remember when I say dynamic programming which sounds kind of confusing.
+
+00:17.650 --> 00:23.900
+Just think of caching of optimizing something using a cache.
+
+00:23.920 --> 00:31.820
+One of the best examples of why dynamic programming is so good is our good old friend Fibonacci sequence.
+
+00:32.320 --> 00:37.990
+We learned about this in our recursion section of the course where the previous two numbers add up to
+
+00:37.990 --> 00:39.150
+the next number.
+
+00:39.640 --> 00:48.160
+So that 13 is five plus Eight thirty four is 13 plus 21 and it keeps going keeps growing keeps growing
+
+00:48.760 --> 00:51.750
+and we learn how to calculate that right.
+
+00:51.820 --> 00:56.170
+We're able to calculate the Fibonacci number quite easily.
+
+00:56.170 --> 00:57.700
+We had function
+
+01:00.010 --> 01:03.310
+Fibonacci which is a really hard name to spell.
+
+01:03.430 --> 01:12.030
+I believe it's this way and all we did was we said using recursion we had a base case of an is less
+
+01:12.030 --> 01:12.770
+than two.
+
+01:12.780 --> 01:18.210
+In that case we'll return an otherwise.
+
+01:18.250 --> 01:31.050
+We did some fun recursion we return Fibonacci and minus one plus Fibonacci and minus two.
+
+01:31.340 --> 01:41.460
+So that if I want to find the Fibonacci number at index of let's say 6 and I run this.
+
+01:41.560 --> 01:44.950
+And the note should be an as a number.
+
+01:44.950 --> 01:45.990
+Let's run that again.
+
+01:46.240 --> 01:53.830
+I get 8 because 0 1 2 3 4 5 6 8 5 2 7.
+
+01:53.830 --> 01:57.640
+I should get 13 awesome.
+
+01:57.650 --> 01:59.830
+This is something that we should be familiar with.
+
+02:00.060 --> 02:01.600
+But let me ask you a question.
+
+02:01.640 --> 02:04.550
+How efficient is this function.
+
+02:05.930 --> 02:07.810
+And we've talked about it before right.
+
+02:07.820 --> 02:09.150
+It's not very efficient.
+
+02:09.260 --> 02:12.920
+If I have a variable here that says let's call it calculations
+
+02:15.460 --> 02:17.200
+which will equal to zero.
+
+02:17.380 --> 02:24.130
+And we're just going to increment this every time this function gets called.
+
+02:24.340 --> 02:27.940
+And because it's recursive we know that it gets called a lot of times.
+
+02:28.210 --> 02:31.900
+If I do Fibonacci 7 how many calculations is that.
+
+02:31.960 --> 02:38.710
+That's 13 calculations so 13 times that we ran through the free Bonacci function.
+
+02:38.710 --> 02:45.840
+What if I increase that to 8 21 Okay what about nine thirty four.
+
+02:45.870 --> 02:48.710
+What about 10 fifty five.
+
+02:48.710 --> 02:50.690
+All right it's increasing pretty fast.
+
+02:50.690 --> 02:52.720
+What if I did 12.
+
+02:52.780 --> 02:57.640
+A hundred and forty four calculations just to get the 12th index.
+
+02:57.640 --> 03:04.710
+Wow what if I do 15 610 calculations.
+
+03:05.010 --> 03:07.530
+What about 20.
+
+03:07.700 --> 03:09.200
+Holy moly.
+
+03:09.200 --> 03:13.180
+Over 6000 calculations and just for fun.
+
+03:13.190 --> 03:16.050
+What if I did 25 Oh boy.
+
+03:16.120 --> 03:18.040
+All right one last time just because we're having fun.
+
+03:18.040 --> 03:19.730
+30.
+
+03:19.810 --> 03:20.200
+All right.
+
+03:20.200 --> 03:21.900
+That's a lot of calculations.
+
+03:22.180 --> 03:28.760
+And by the way if you won your browser to crash just type in 50 or 60 and see what happens there.
+
+03:30.160 --> 03:39.250
+Regardless if we look at this this wall is pretty terrible just to calculate the 30th number or index
+
+03:39.250 --> 03:45.910
+of a Fibonacci sequence takes that many steps that many calculations.
+
+03:45.910 --> 03:47.680
+That is a lot.
+
+03:47.680 --> 03:49.230
+It's not very efficient.
+
+03:49.490 --> 03:57.220
+And we know this right because in our recursions section we talked about how that Fibonacci sequence
+
+03:57.250 --> 04:04.480
+and the way we're running the function is 0 of 2 to the power of and really really bad time complexity
+
+04:05.580 --> 04:10.350
+as we saw just doing 30 calculations takes a lot of steps.
+
+04:10.440 --> 04:18.990
+And remember with recursion we're adding every nested function call adds to the stack which increases
+
+04:18.990 --> 04:26.400
+our memory complexity and we would never want to do an operation that costs this much in real life.
+
+04:26.430 --> 04:28.930
+So how can we make it more efficient.
+
+04:29.100 --> 04:31.530
+Can we make it more efficient.
+
+04:31.530 --> 04:37.950
+I mean if our function if you wrote that function is your boss going to fire you because it's all so
+
+04:37.950 --> 04:38.790
+horribly.
+
+04:38.910 --> 04:45.000
+I mean if your boss is horrible Maybe but if you know dynamic programming you can avoid this because
+
+04:45.540 --> 04:54.300
+what if I told you that we can do of and with this function because with dynamic programming we can.
+
+04:54.600 --> 05:01.320
+That's right we can go from all of two to the park and all the way down to all of them.
+
+05:01.590 --> 05:03.900
+Sounds like magic doesn't it.
+
+05:03.900 --> 05:07.370
+And this is where we get to the next step of our dynamic programming.
+
+05:07.440 --> 05:15.130
+We can reduce the time and space complexity of our algorithm by using memorization and we can do this
+
+05:15.130 --> 05:20.470
+because the solution to each Suppe problem is what we call optimal.
+
+05:20.470 --> 05:26.560
+That means we do a lot of problems repeatedly that are the same in the next video.
+
+05:26.560 --> 05:30.290
+We're going to explain this concept and see how we can use memoization.
+
+05:30.650 --> 05:31.300
+I'll see on that one.

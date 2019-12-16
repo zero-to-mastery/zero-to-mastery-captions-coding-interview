@@ -1,0 +1,286 @@
+WEBVTT
+
+00:01.700 --> 00:08.660
+Patrząc na funkcje haszowania możesz zacząć myśleć o tym, jakie działania wykonują i jak szybko można to
+
+00:08.660 --> 00:09.220
+zrobić.
+
+00:10.880 --> 00:18.080
+Jeśli chodzi o wstawianie czegoś do naszej pamięci Cóż, to będzie przesadzone.
+
+00:18.170 --> 00:26.570
+Zaszyfrujemy klucz, taki jak winogrona, za pomocą funkcji mieszającej i umieszczamy go automatycznie w
+
+00:26.570 --> 00:29.630
+przestrzeni adresowej, z której pochodzi.
+
+00:29.720 --> 00:38.150
+Wyszukaj dokładnie to samo, do którego mamy dostęp do właściwości, którą właściwość ma zostać zahartowana i skierować
+
+00:38.150 --> 00:41.860
+nas dokładnie na adres, aby znaleźć wartości.
+
+00:41.890 --> 00:43.640
+Co powiesz o usunięciu?
+
+00:43.720 --> 00:53.740
+To samo, co my po prostu używamy klucza od razu wiemy, skąd go usunąć i dlatego, że nie jest
+
+00:53.770 --> 00:54.600
+zamówiony.
+
+00:54.820 --> 00:58.630
+Nie musimy zmieniać indeksów, tak jak to robiliśmy z tablicami.
+
+00:58.690 --> 01:01.430
+Wszystko jest po prostu ładne i proste.
+
+01:01.540 --> 01:07.840
+Co powiesz na wyszukiwanie, jeśli chcemy znaleźć coś w naszym koszyku jak jabłka.
+
+01:07.850 --> 01:09.590
+To też jest łatwe.
+
+01:09.690 --> 01:18.910
+Po prostu używamy funkcji skrótu, jeśli pójdziemy na nasz plac zabaw w javascript. Mogę utworzyć
+
+01:18.930 --> 01:26.250
+obiekt, powiedzmy niech użytkownik i ten użytkownik będą mieli własność 54.
+
+01:26.300 --> 01:31.200
+Powiedzmy, że nazwa będzie magią
+
+01:33.820 --> 01:34.940
+Kylie.
+
+01:35.080 --> 01:42.850
+Powiedzmy, że Kylie ma umiejętności magiczne, więc ustaw ją na True i
+
+01:43.480 --> 01:52.390
+dla zabawy powiedzmy, że ten krzyk jest funkcją, która po prostu pocieszy rejestr krzyku.
+
+01:53.440 --> 02:00.800
+To nie był najsilniejszy krzyk, ale nie chcę straszyć ludzi wokół mnie, kiedy to biegłem.
+
+02:00.930 --> 02:08.100
+Stworzyłem obiekt użytkownika i wiek 54 nazwany Kylie magic.
+
+02:08.160 --> 02:16.790
+Prawdziwy krzyk i dysfunkcja będą umieszczane gdzieś w pamięci różnych adresów.
+
+02:16.990 --> 02:19.050
+Ale mogę uzyskać do niego dostęp bardzo szybko.
+
+02:19.060 --> 02:30.320
+Mogę powiedzieć użytkownika Daut age, który da mi 54 na raz, być może dodając nową właściwość.
+
+02:30.340 --> 02:38.790
+Mogę po prostu powiedzieć, że zaklęcie użytkownika dot będzie równe Habra Berra.
+
+02:39.570 --> 02:49.590
+A jeśli to zrobię i po prostu sprawdźmy, co nam daje obiekt użytkownika, widzimy, że mamy
+
+02:49.650 --> 02:52.900
+teraz zaklęcie Habra cadabra.
+
+02:52.920 --> 03:03.460
+To znowu jest dostęp do wszystkich jeden jest 0 z jednego, ponieważ przenosimy go przez funkcje mieszania, a komputer decyduje, gdzie
+
+03:03.460 --> 03:07.660
+umieścić zarówno czar i abrakadabra w pamięci.
+
+03:09.360 --> 03:17.780
+A użytkownik ADOTa z broni palnej krzyczy to samo, ale nie mogę zakrzyczeć.
+
+03:17.800 --> 03:19.500
+To samo dostaję.
+
+03:19.870 --> 03:29.390
+Dostaję dostęp do tej funkcji w pamięci naprawdę bardzo szybko w tym wszystkim, jak niesamowite jest to.
+
+03:29.800 --> 03:33.070
+I wiem, gdzie myślisz, że stoły hash są niesamowite.
+
+03:33.070 --> 03:38.720
+Powinniśmy ich używać cały czas i masz rację, że powinniśmy ich używać w wielu przypadkach.
+
+03:38.980 --> 03:42.190
+Ale jak wiemy, zawsze są plusy i minusy.
+
+03:42.370 --> 03:48.370
+Teraz pozwól mi porozmawiać o jednym z głównych problemów z tabelami mieszającymi.
+
+03:49.270 --> 03:51.920
+I mam fajną grafikę, aby to pokazać.
+
+03:51.960 --> 03:57.290
+Link do tego i tego filmu wideo, abyś mógł później się z nim bawić.
+
+03:57.300 --> 04:02.750
+Mam tu małą animację, w której mamy 12 przestrzeni pamięci.
+
+04:02.880 --> 04:12.420
+Pamiętaj, że nasz komputer ma ograniczoną przestrzeń i kiedy tworzymy obiekt lub tabelę skrótów, komputer decyduje,
+
+04:13.110 --> 04:14.900
+ile miejsca przeznaczać.
+
+04:14.940 --> 04:18.150
+Nie przydzieli całej przestrzeni do tabeli mieszania.
+
+04:18.270 --> 04:24.630
+Przydzielą trochę tego, a później pokażę, kiedy zaimplementujemy własny tabel mieszający.
+
+04:24.990 --> 04:31.150
+Jak możemy dostosować rozmiar, ale widzimy, że istnieje tylko 12 pól, które możesz sobie wyobrazić.
+
+04:31.150 --> 04:37.890
+Jeśli wstawię tutaj, powiedzmy, że widzę, czy mogę zrobić to większe, żebyś mógł to zobaczyć.
+
+04:38.070 --> 04:47.070
+No dalej, zamierzam odpowiedzieć, powiedzmy, że wstawiono tu numer trzy, zróbmy 55.
+
+04:47.330 --> 04:48.060
+Włóż to.
+
+04:48.080 --> 04:49.550
+Och, co się tam stało.
+
+04:50.660 --> 05:03.060
+Czy widzisz, że funkcja mieszająca losowo przypisała spację do pamięci i zapamiętaj ją na trzy.
+
+05:03.240 --> 05:09.010
+Nic nie mówi funkcji skrótu, aby równo rozprowadzać, dopóki wszystko nie będzie pełne.
+
+05:09.570 --> 05:15.640
+Chociaż funkcje skrótu są zoptymalizowane, aby spróbować dystrybuować te dane na całym.
+
+05:15.860 --> 05:17.910
+Ważne jest również to, co do niego wkładamy.
+
+05:17.990 --> 05:27.550
+Więc gdy 55 zostanie spłaszczony, ta funkcja hash generuje lokalizację adresu trzy, aby go umieścić.
+
+05:27.710 --> 05:31.630
+A ponieważ mamy już trzy, robi się tu coś zabawnego.
+
+05:31.820 --> 05:33.910
+Kontynuujmy dodawanie tutaj i zobaczmy, co się stanie.
+
+05:33.950 --> 05:43.810
+Dodam dwa może dodać 12 i wreszcie dodać 14 0.
+
+05:43.860 --> 05:46.130
+Znowu to samo.
+
+05:46.340 --> 05:50.060
+A to, co właśnie zauważyliśmy, to coś, co nazywa
+
+05:53.260 --> 05:56.700
+się Collision, a kolizja wygląda mniej więcej tak.
+
+05:56.740 --> 05:58.350
+Mamy klucze.
+
+05:58.600 --> 06:10.720
+Załóżmy, że wstawiamy nazwę i numer telefonu użytkownika, a my początkowo umieściliśmy Johna Smitha, klucz ten zostanie zaszyfrowany zostanie
+
+06:10.960 --> 06:16.790
+umieszczony w przestrzeni adresowej 1:52 i zostanie zapisany.
+
+06:16.900 --> 06:22.960
+Pamiętasz, jak powiedział, że w rzeczywistości przechowuje zarówno klucze, jak i wartości, które przechowuje w czymś,
+
+06:23.260 --> 06:27.480
+co nazywa się John Smith, a wartość to jego numer telefonu.
+
+06:28.340 --> 06:35.980
+A potem idziemy z Lisą Smith, potem Sam, niż Sandra Oh no.
+
+06:35.990 --> 06:44.610
+Gdy tylko znajdziemy Sandrę Dee, staje się ona tą samą przestrzenią adresową co John Smith i mamy kolizję, a
+
+06:45.600 --> 06:53.700
+z powodu tej kolizji potrzebujemy sposobu, aby jakoś przechowywać obu użytkowników w tej przestrzeni adresowej i dzieje
+
+06:53.700 --> 06:58.730
+się coś ciekawego z tym małym kółkiem a następnie punkt.
+
+06:58.740 --> 07:01.530
+I Sandra Dee.
+
+07:01.530 --> 07:02.890
+I tylko podpowiedź tutaj.
+
+07:03.030 --> 07:09.880
+Jest to w rzeczywistości nowa struktura danych, o której dowiemy się o nazwie listy połączeń.
+
+07:10.230 --> 07:17.630
+Widać w tabelach mieszania, że nie możemy uniknąć tych kolizji z wystarczającą ilością danych z ograniczoną pamięcią.
+
+07:17.640 --> 07:20.470
+Zawsze będziemy mieć tę kolizję.
+
+07:20.610 --> 07:28.920
+Jest więc taka możliwość, jeśli wrócimy do naszego przykładu i odświeżam rok, aby zacząć od zera,
+
+07:30.900 --> 07:37.060
+który ciągle dodajemy, pomimo naszego hashowego stołu, który jest naprawdę szybki.
+
+07:38.100 --> 07:42.340
+Kosztowne, wystarczy dodać do tej samej pamięci.
+
+07:42.930 --> 07:52.350
+Co spowalnia naszą zdolność do uzyskiwania dostępu lub wstawiania informacji, ponieważ teraz, jeśli chcę sprawdzić, co jest w tej przestrzeni adresowej,
+
+07:52.350 --> 07:58.380
+muszę przejść jeden dwa trzy cztery pięć i tak dalej i tak dalej.
+
+07:58.570 --> 08:11.270
+Teoretycznie, gdy masz kolizję, spowalnia ona czytanie i pisanie z tablicą haszującą o wartości 0 i dzielone przez
+
+08:11.750 --> 08:18.350
+k, gdzie k jest rozmiarem twojego stołu mieszającego.
+
+08:18.430 --> 08:26.730
+I pamiętajcie, ponieważ usuwamy stałe i upraszczamy wszystko, staje się ono wszystkim i operacją.
+
+08:26.730 --> 08:31.290
+Teraz koalicja najprawdopodobniej stanie się w każdej implementacji tablicy hash.
+
+08:31.470 --> 08:38.130
+I na szczęście dla ciebie nigdy nie będziesz musiał sam się wdrażać i nie jest to bardzo częste pytanie, ale
+
+08:38.340 --> 08:42.140
+chcesz się o tym dowiedzieć, abyś mógł o tym porozmawiać.
+
+08:43.060 --> 08:47.170
+Istnieją dwa popularne sposoby radzenia sobie z tymi kolizjami.
+
+08:47.170 --> 08:52.430
+Pokazałem ci jedną z nich z czymś, co nazywa się listą linków, o czym później porozmawiamy.
+
+08:52.960 --> 09:01.750
+Ale jeśli przejdziemy do strony hash table Wikipedia i spojrzymy na rozdzielczość kolizji, można
+
+09:01.810 --> 09:07.480
+zauważyć, że istnieje mnóstwo różnych sposobów rozwiązywania kolizji.
+
+09:07.730 --> 09:13.730
+Sposób, w jaki cię pokazywałem nazywa się oddzielnym łańcuchem, ale istnieją różne metody, takie
+
+09:14.120 --> 09:20.240
+jak adresowanie otwarte i hashowanie Robinhood, o których możesz przeczytać, jeśli naprawdę interesujesz się tematem.
+
+09:20.660 --> 09:29.070
+Chodzi mi o to, że jest trochę minusów, kiedy mówimy o szybkich blokadach i tablicach hashowych
+
+09:29.610 --> 09:34.870
+od czasu do czasu w zależności od funkcji skrótu.
+
+09:35.010 --> 09:37.980
+To może zająć o.
+
+09:38.150 --> 09:43.160
+W porządku, idźmy dalej i poszerzaj naszą wiedzę o tabelach mieszających i następnym wideo.

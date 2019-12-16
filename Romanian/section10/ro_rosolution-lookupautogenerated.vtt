@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.890 --> 00:01.750
+Bine ai revenit.
+
+00:02.150 --> 00:06.040
+Să încercăm să implementăm o funcție de căutare sau funcția de căutare.
+
+00:06.110 --> 00:12.440
+Vrem să verificăm dacă un element sau un nod există în arborele nostru.
+
+00:12.490 --> 00:14.920
+Să vedem cum facem asta.
+
+00:14.980 --> 00:19.930
+Primul lucru pe care aș vrea să-l fac este să verific dacă există un astfel de lucru ca un nod rădăcină.
+
+00:19.960 --> 00:22.470
+Dacă este goală.
+
+00:22.610 --> 00:25.280
+Așa că am folosit eu aș fi putut face asta.
+
+00:25.310 --> 00:27.650
+Egal este egal cu egal cu nr.
+
+00:27.980 --> 00:32.220
+Pentru a verifica dacă ruta este goală sau pot folosi semn de exclamare în Javascript.
+
+00:34.070 --> 00:40.600
+Și vom spune doar întoarcere falsă, deoarece dacă rădăcina nu există, atunci nu contează.
+
+00:40.610 --> 00:43.470
+Nu o să găsim acea notă.
+
+00:44.680 --> 00:55.030
+În caz contrar, vom spune din nou ca nota curentă să fie egală cu această rădăcină punct foarte asemănătoare cu ceea ce am
+
+00:55.030 --> 00:56.380
+făcut mai sus.
+
+00:56.380 --> 01:03.780
+Rețineți-ne aici și veți observa unele asemănări cu ceea ce am făcut când am răspuns.
+
+01:03.930 --> 01:12.390
+Trebuie să trecem încă prin copacul nostru, dar în schimb bucla noastră se va opri ori de câte ori nodul
+
+01:12.420 --> 01:21.570
+curent nu mai există sau nu mai avem un nod care să treacă deoarece, după ce am trecut prin arborele nostru binar
+
+01:21.570 --> 01:26.390
+de căutare și este nul nu am găsit ceea ce căutăm.
+
+01:27.180 --> 01:34.670
+Deci, în acest caz, voi spune pur și simplu dacă valoarea pe care o căutăm este mai
+
+01:34.850 --> 01:36.140
+mică decât
+
+01:39.790 --> 01:46.420
+valoarea actuală a nodului, în acest caz nodul curent va fi egal cu cel curent.
+
+01:46.450 --> 01:52.670
+Rețineți punctul stâng, deoarece acum vrem să mergem la stânga dacă valoarea este mai mică decât valoarea curentă a nodului.
+
+01:52.720 --> 01:55.930
+Asta inseamna ca nu este la fel nu este cel pe care il cautam.
+
+01:56.050 --> 02:02.170
+Deci mergi spre stânga pentru că acolo găsesc ceva care ar putea fi mai mic decât nota curentă altfel.
+
+02:02.230 --> 02:07.120
+Și veți folosi o instrucțiune ELSE IF care afirmă o altă condiție.
+
+02:07.150 --> 02:17.560
+Deci, dacă acest lucru nu se potrivește dacă actualul Dacă valoarea este mai mare decât valoarea actuală a nodului Daut, ceea ce credeți că
+
+02:17.560 --> 02:18.660
+facem aici.
+
+02:18.850 --> 02:20.600
+Ei bine mergem în dreapta.
+
+02:20.890 --> 02:26.480
+Așa că vom spune că nodul Curren va fi actualul nod Daut drept.
+
+02:26.620 --> 02:31.520
+Așa că continuăm să ne verificăm în dreapta și apoi în cele din urmă.
+
+02:31.520 --> 02:43.730
+Altfel, dacă aceasta este o altă condiție și nu putem spune dacă nodul curent este o valoare egală cu valoarea reală pe
+
+02:43.730 --> 02:45.500
+care o căutăm.
+
+02:45.500 --> 02:46.730
+Asta înseamnă că avem un meci.
+
+02:46.730 --> 02:48.680
+Asta înseamnă că nodul există.
+
+02:48.770 --> 02:52.300
+Așa că vom reveni la nota actuală.
+
+02:52.610 --> 02:53.690
+Frumos și simplu.
+
+02:54.000 --> 03:00.020
+Și apoi, în cele din urmă, pentru că nu întoarcem nimic pe care îl vom încurca
+
+03:00.020 --> 03:07.150
+prin bucla în timp ce găsim nodul curent în care vom returna nodul curent sau Kerno devine nul, pentru că
+
+03:07.160 --> 03:10.070
+nu găsim nimic dacă nu găsim nimic.
+
+03:10.120 --> 03:12.470
+Doar întoarceți fals.
+
+03:12.520 --> 03:20.190
+Singurul mod în care returnăm altceva decât fals este atunci când găsim nota noastră cu valoarea potrivită.
+
+03:20.290 --> 03:21.240
+Să vedem asta.
+
+03:21.460 --> 03:33.000
+Dacă am rula acum punctul de copac uita în sus 9 și am de gând să comenteze acest lucru pentru că nu avem nevoie pentru a verifica faptul că copacul
+
+03:33.000 --> 03:34.160
+nostru este făcută.
+
+03:34.260 --> 03:36.740
+Dacă alerg acolo, du-te.
+
+03:36.750 --> 03:42.890
+Eu primesc 9 nod care are referință la toate celelalte noduri de sub ea.
+
+03:42.930 --> 03:47.250
+Dacă mă uit în sus pe 90 voi fi fals, pentru că nu există.
+
+03:47.270 --> 03:51.000
+Ce zici de 20 care există, da, am găsit 20.
+
+03:51.000 --> 03:56.250
+Ce zici de 170 Da, am găsit 170.
+
+03:56.250 --> 04:04.230
+Este un nod dar nu are referințe stânga și dreaptă, deoarece este o listă de frunze și în cele din
+
+04:04.380 --> 04:07.850
+urmă 171 este falsă deoarece nu există Walden.
+
+04:07.930 --> 04:08.980
+Ajungeți atât de departe.
+
+04:08.980 --> 04:12.820
+Sper că puteți implementa propriul arbore binar de căutare.
+
+04:12.970 --> 04:16.150
+Odată ce ai atârnat de ea, nu e așa de rău.
+
+04:17.650 --> 04:23.470
+La sfârșitul zilei, fiecare linie trebuie să aibă sens și traversarea unui copac ar trebui să aibă sens
+
+04:23.470 --> 04:24.250
+până acum.
+
+04:24.250 --> 04:33.160
+De asemenea, înțelegem de ce avem big-O de jurnal și deși avem bucle aici ca în timp ce buclele nu suntem de
+
+04:33.190 --> 04:37.870
+fapt, iterând prin fiecare nod pe care îl folosim doar iterând.
+
+04:37.900 --> 04:41.140
+Împărțiți și cuceriți ceva pe care veți auzi o mulțime de.
+
+04:41.200 --> 04:46.910
+Împărțirea și cucerirea pur și simplu înseamnă că ne împărțim astfel încât să nu vizităm toate notele.
+
+04:46.960 --> 04:52.200
+Fiecare nod pe care îl vizităm facem o decizie să mergem spre stânga sau spre dreapta.
+
+04:52.270 --> 04:53.690
+Voi vedea în următorul.
+
+04:53.920 --> 04:54.150
+Bobby.

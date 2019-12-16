@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.720 --> 00:05.370
+Selamat datang kembali apa kelebihan dan kekurangan dari graf.
+
+00:05.780 --> 00:13.010
+Baik ketika datang ke kinerja dan besar-O itu mendapat sedikit rumit karena ada begitu banyak
+
+00:13.010 --> 00:19.330
+jenis grafik yang Anda dapat menganggap grafik sangat berguna ketika datang ke hubungan.
+
+00:19.440 --> 00:26.230
+Mereka sangat diperlukan karena beberapa data hanya perlu dalam bentuk grafik.
+
+00:26.570 --> 00:28.260
+Tidak ada jalan lain.
+
+00:28.550 --> 00:34.580
+Dan ada algoritma di sekitar grafik seperti yang akan kita
+
+00:34.580 --> 00:43.850
+bicarakan di bagian algoritma yang memungkinkan kita untuk melakukan operasi seperti menemukan jalur terpendek atau melintasi grafik.
+
+00:44.010 --> 00:50.980
+Tetapi ketika datang ke grafik karena mereka bisa mendapatkan penskalaan rumit cukup sulit.
+
+00:51.360 --> 00:57.990
+Anda memerlukan perusahaan besar atau setidaknya banyak sumber daya dan tenaga teknik untuk memastikan bahwa Anda
+
+00:58.110 --> 01:01.270
+membangun struktur data grafik yang berskala baik.
+
+01:01.670 --> 01:10.080
+Tapi untungnya bagi kami, Anda biasanya tidak perlu menerapkan grafik Anda sendiri dalam produksi atau setidaknya untuk saat
+
+01:10.080 --> 01:10.920
+ini.
+
+01:10.950 --> 01:19.690
+9 persen dari populasi ada alat-alat seperti Neo for J yang merupakan basis data populer yang memungkinkan Anda untuk membuat
+
+01:19.690 --> 01:28.330
+basis data grafik yang sangat cepat dan sebagian besar waktu Anda akan menggunakan alat-alat seperti ini untuk membangun struktur kompleks
+
+01:28.420 --> 01:30.540
+untuk memuat data kami.
+
+01:32.270 --> 01:33.690
+Selamat.
+
+01:33.890 --> 01:39.780
+Kami sekarang telah membahas bagian lain dari peta pikiran struktur data kami yaitu grafik.
+
+01:40.160 --> 01:46.470
+Kami belajar tentang enam seperti asiklik menunggu menunggu diarahkan atau tidak diarahkan.
+
+01:46.530 --> 01:50.590
+Kami juga dapat membuat grafik sendiri.
+
+01:50.600 --> 01:55.730
+Sekarang masih ada beberapa hal yang tersisa yang saya lihat di sana dan mungkin di sini
+
+01:55.730 --> 01:59.470
+yang akan kita bahas di bagian algoritma tetapi untuk sekarang istirahat.
+
+01:59.690 --> 02:03.670
+Minumlah kopi atau teh dan sampai jumpa di video berikutnya.
+
+02:03.670 --> 02:04.340
+Sampai jumpa.

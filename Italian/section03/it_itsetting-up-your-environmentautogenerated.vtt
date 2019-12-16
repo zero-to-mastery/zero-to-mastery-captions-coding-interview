@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.390 --> 00:08.340
+In questo corso non voglio limitarti a una sola lingua perché codifichiamo tutti in diverse lingue
+
+00:08.430 --> 00:13.490
+e durante la tua carriera molto probabilmente utilizzerai più lingue.
+
+00:13.530 --> 00:20.430
+Ora questo corso in particolare dovrò usare un linguaggio per dimostrare codice e scrivere del codice e
+
+00:20.430 --> 00:27.000
+userò javascript per questo perché è simile con un sacco di linguaggi comuni ed è anche
+
+00:27.000 --> 00:28.650
+il più conosciuto.
+
+00:28.830 --> 00:36.330
+Comunque puoi usare qualsiasi lingua tu voglia in questo corso e seguire anche gli esercizi ti
+
+00:36.330 --> 00:39.300
+daranno soluzioni in diverse lingue.
+
+00:39.300 --> 00:45.570
+Quindi scegli quello che vuoi, ma come gestiremo tutte queste lingue quando
+
+00:45.570 --> 00:46.380
+seguirai.
+
+00:46.500 --> 00:51.810
+Forse sto dimostrando qualcosa in javascript e tu stai programmando in Python quello che useremo
+
+00:51.810 --> 00:54.770
+un paio di piccoli e semplici strumenti online.
+
+00:54.840 --> 00:59.710
+Il primo che sto per mostrarti e quello che useremo in questo corso è quello di avvolgere tutti i
+
+01:00.360 --> 01:02.260
+punti I-T REPL come mi piace chiamarlo.
+
+01:02.550 --> 01:07.200
+E puoi scegliere qualsiasi lingua che desideri qui per codificare.
+
+01:07.590 --> 01:13.710
+E come ho detto che userò javascript per questo corso, ma tutto quello che devi
+
+01:13.770 --> 01:22.110
+fare è registrarti con il tuo account get habbe e avrai un piccolo ID che puoi eseguire il tuo codice e vedrai
+
+01:22.200 --> 01:30.350
+me usando questo durante il corso e ora quello che mi piace davvero è galat IO ed è open source di cui
+
+01:30.350 --> 01:36.680
+sono un grande fan e puoi vedere qui che abbiamo un sacco di lingue diverse che possiamo
+
+01:36.680 --> 01:37.150
+usare.
+
+01:38.550 --> 01:45.730
+Di nuovo, se vado su Javascript, mi dà una piccola area per scrivere codice ed eseguirlo.
+
+01:45.880 --> 01:53.960
+Un'altra opzione, specialmente se stai usando javascript, è quella di visualizzare gli
+
+01:54.430 --> 02:06.880
+strumenti per sviluppatori e sviluppatori e Google Chrome e questo ti consente nella scheda della console di scrivere solo javascript.
+
+02:06.890 --> 02:08.550
+Questa è un'altra grande opzione.
+
+02:08.690 --> 02:15.920
+Oppure, se preferisci, puoi sempre usare il tuo editor di testo preferito per scrivere il tuo codice e poi
+
+02:15.920 --> 02:17.970
+eseguirlo nel modo che preferisci.
+
+02:17.990 --> 02:23.310
+Tenendo ancora presente che questo corso è indipendente dal linguaggio, il che significa che non importa quale lingua
+
+02:23.370 --> 02:23.960
+usi.
+
+02:23.970 --> 02:29.010
+Quello che stiamo imparando i nostri principi fondanti dell'informatica dicono che puoi prendere
+
+02:29.010 --> 02:35.910
+ovunque durante la tua carriera e come vedrai se sai javascript o no terrò il codice molto generale
+
+02:35.940 --> 02:42.600
+e semplice in modo che sia facile replicarlo in altre lingue e anche risorse e fonti con
+
+02:42.900 --> 02:44.000
+altre lingue.
+
+02:44.010 --> 02:46.700
+Quando entriamo in una codifica più nitida e grintosa.
+
+02:46.850 --> 02:48.980
+Va bene, imposta il tuo ambiente.
+
+02:49.050 --> 02:50.500
+Preparati per un po 'di codice.
+
+02:50.790 --> 02:52.770
+Vedrò nel prossimo video.

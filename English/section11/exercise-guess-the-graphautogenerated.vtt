@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.250 --> 00:02.190
+Welcome back.
+
+00:02.300 --> 00:08.600
+We have our best friend visual go and once again they have a great diagram for us to play with.
+
+00:09.600 --> 00:16.950
+Now I'm going to give you four different graphs and you're going to have to tell me what type of graph
+
+00:16.980 --> 00:25.490
+it is based on while we've learned so far whether it's weighted sic click on directed directed.
+
+00:25.500 --> 00:27.030
+So let's start off with this one.
+
+00:27.090 --> 00:29.120
+What do you think this one is.
+
+00:29.370 --> 00:33.820
+Before I show you the answer.
+
+00:33.820 --> 00:38.180
+All right well this is an on directed.
+
+00:38.200 --> 00:41.110
+There's no arrows on a weighted graph.
+
+00:41.380 --> 00:46.800
+And you can see that it's also cyclic because you can go 0 1 2 and back to zero.
+
+00:47.820 --> 00:48.830
+What about the next one.
+
+00:51.210 --> 00:52.970
+What type of graph is this.
+
+00:55.970 --> 01:04.070
+Well this is an undirected weighted graph that's also cyclic.
+
+01:04.240 --> 01:07.190
+So you can see that we have weights on the edges here.
+
+01:07.240 --> 01:08.250
+There's no arrows.
+
+01:08.260 --> 01:09.110
+We can go anywhere.
+
+01:09.110 --> 01:13.630
+We won back and forth and we can also make cycles.
+
+01:13.690 --> 01:17.980
+What about this one.
+
+01:18.000 --> 01:27.090
+This is a directed graph but on weighted and yes even six and seven are a graph.
+
+01:27.290 --> 01:34.100
+But we see here that it's not cyclical a ASAC like because there's no way for me to go back let's say
+
+01:34.100 --> 01:35.320
+0 to 1.
+
+01:35.330 --> 01:37.420
+I can go back to zero.
+
+01:37.430 --> 01:38.590
+All right I lost one.
+
+01:38.660 --> 01:40.350
+What about this one.
+
+01:41.210 --> 01:45.340
+This is a directed weighted graph.
+
+01:45.380 --> 01:51.890
+We have the weights has direction and when it comes to cyclic No there are no cycles.
+
+01:51.890 --> 01:53.680
+So it's a cyclic.
+
+01:53.780 --> 01:54.170
+All right.
+
+01:54.170 --> 01:58.900
+The final challenge what type of graph is this.
+
+02:01.680 --> 02:02.730
+Ready for the answer.
+
+02:03.720 --> 02:07.720
+This is a directed acyclic graph.
+
+02:07.800 --> 02:09.090
+There's no cycles.
+
+02:09.090 --> 02:18.350
+It's directed and it's a graph and this directed acyclic graph is quite common in called Dagh.
+
+02:18.360 --> 02:27.330
+And actually a project like Iowa which is a pretty popular blogging project uses this and uses fancy
+
+02:27.330 --> 02:29.940
+words like directed acyclic graph.
+
+02:30.150 --> 02:33.320
+But at the end of the day that's not impressive anymore right.
+
+02:33.330 --> 02:38.510
+We know what that is just simply a graph that goes in one direction.
+
+02:38.970 --> 02:42.440
+I think it's time for us to learn how to build our own graph.
+
+02:42.780 --> 02:43.980
+I'll see in the next one.
+
+02:44.330 --> 02:44.610
+But by.

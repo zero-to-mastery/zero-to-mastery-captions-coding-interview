@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.600 --> 00:08.390
+Ciao lo so lo so, so che gli ultimi due video sono stati un po 'lunghi, molto Tagen e obiettivo.
+
+00:08.440 --> 00:13.060
+Se non avevi familiarità con javascript forse erano un po 'più difficili.
+
+00:13.060 --> 00:20.590
+Ma il punto era il processo di risoluzione di un problema in un'intervista di codifica e qui ho creato un piccolo
+
+00:20.590 --> 00:22.370
+parco giochi per te.
+
+00:22.390 --> 00:25.560
+Ti ricordi il video dell'intervista di Google che ti ho fatto guardare.
+
+00:25.810 --> 00:32.710
+Bene, ho implementato la soluzione che l'intervistato ha creato e qui abbiamo la soluzione ingenua
+
+00:32.740 --> 00:41.650
+che è il nested for loops e quindi una soluzione migliore che usa solo un ciclo for a scapito della
+
+00:41.650 --> 00:45.730
+creazione di qualcosa in javascript chiamato new set.
+
+00:45.730 --> 00:48.470
+Ho lasciato questo qui per te per te per giocare con.
+
+00:48.640 --> 00:54.250
+E se vuoi essere codificato nella tua lingua ma volevo sfidarti a vedere se è
+
+00:54.250 --> 01:02.200
+in grado di implementarlo da solo, proprio come la persona nell'intervista di Google ha fatto nella tua lingua l'approccio ingenuo e
+
+01:02.500 --> 01:07.640
+quindi l'approccio migliore e provare a seguire i passaggi come si codifica.
+
+01:07.840 --> 01:15.250
+Anche se conosci già la risposta anche se hai guardato il video
+
+01:15.250 --> 01:24.250
+dell'intervista praticando i passaggi e come passi dall'ingenua alla soluzione migliore seguendo questi passaggi, migliorerai
+
+01:24.250 --> 01:26.340
+la tua muscolatura.
+
+01:26.350 --> 01:28.740
+Bene, ci vediamo nel prossimo video.
+
+01:29.070 --> 01:29.630
+Ciao ciao.

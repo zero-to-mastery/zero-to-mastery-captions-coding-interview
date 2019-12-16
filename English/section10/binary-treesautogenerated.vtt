@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.660 --> 00:01.810
+Welcome back.
+
+00:01.920 --> 00:07.860
+We're now into the tree data structure section right over here.
+
+00:08.100 --> 00:15.000
+And as we can see trees or linked lists are a type of a tree that we've already talked about but there's
+
+00:15.000 --> 00:17.980
+a few others over here that we have yet to talk about.
+
+00:18.800 --> 00:25.850
+So we're going to cover that and get familiar with the mean different types by starting off with binary
+
+00:25.910 --> 00:26.680
+tree.
+
+00:27.080 --> 00:27.950
+Let's get into it.
+
+00:29.710 --> 00:37.630
+A binary tree is something you've likely seen before and it's a type a tree with a few rules that are
+
+00:37.630 --> 00:38.540
+applied to it.
+
+00:39.040 --> 00:49.180
+But they're quite straightforward each node can only have either 0 1 or 2 nodes and each child can only
+
+00:49.180 --> 00:50.990
+have one parent.
+
+00:51.010 --> 00:53.010
+This is a binary tree.
+
+00:53.020 --> 01:00.400
+However this is not a binary tree because it has three children or at least one of the NOS has three
+
+01:00.580 --> 01:01.230
+children.
+
+01:02.340 --> 01:06.040
+And each node represents a certain state.
+
+01:06.510 --> 01:12.440
+And this is very similar to what we've done in the past especially with linked lists if we take a look
+
+01:12.440 --> 01:14.360
+at an example here.
+
+01:14.360 --> 01:25.440
+In order for me to create a binary tree Well I can just create a function say binary tree and this binary
+
+01:25.440 --> 01:37.520
+tree perhaps will get a value and the binary tree or in our case do a binary tree node will simply have
+
+01:37.730 --> 01:44.780
+a this value associated with it which is the value that we give it inside of the function.
+
+01:44.780 --> 01:51.800
+And then we have two other properties which is a pointer to the left side of the tree which for now
+
+01:51.800 --> 01:52.570
+will be no.
+
+01:52.730 --> 01:58.550
+And a pointer to the right side of the tree that is this that right equals
+
+02:02.310 --> 02:08.650
+and that's it we can represent a binary tree node simply having a value and then a left and or right
+
+02:08.800 --> 02:11.410
+property very similar to what we did.
+
+02:11.440 --> 02:14.920
+Or a very similar principle to what we did with linked lists.
+
+02:15.840 --> 02:22.380
+Now we're going to actually code a tree and create a tree data structure just like we have for past
+
+02:22.380 --> 02:23.790
+data structures.
+
+02:24.060 --> 02:29.860
+But I want to also point out a few terminology that we might come across and that are important.
+
+02:31.060 --> 02:36.960
+In this case we're looking at something called a tree that is completely full.
+
+02:37.030 --> 02:40.930
+That means there are no gaps in the tree.
+
+02:40.930 --> 02:42.090
+Let me show you what I mean.
+
+02:43.010 --> 02:47.610
+A perfect binary tree has everything filled in.
+
+02:47.660 --> 02:57.560
+That means all the leaf nodes are full and there's no no that only has one child a node either has zero
+
+02:57.800 --> 02:59.740
+children or two children.
+
+02:59.930 --> 03:05.700
+And also the bottom layer of the tree is completely filled.
+
+03:05.750 --> 03:14.840
+Nothing's missing versus a full binary tree which simply says that a node has either 0 or 2 children
+
+03:15.020 --> 03:17.090
+but never one child.
+
+03:17.090 --> 03:19.120
+Now why is this important.
+
+03:19.250 --> 03:28.070
+Because this type of binary tree especially a perfect binary tree is really really efficient and something
+
+03:28.070 --> 03:35.640
+that is desirable when binary trees are perfect like this they have two really interesting properties.
+
+03:35.660 --> 03:43.590
+One is that the number of total nodes on each level doubles as we move down the tree.
+
+03:43.670 --> 03:48.080
+For example here we have one node in the next level we have two.
+
+03:48.170 --> 03:50.840
+So we've just doubled the nodes in the next level.
+
+03:50.840 --> 03:53.490
+We have one two three four.
+
+03:53.570 --> 04:02.170
+So we've doubled to do for if we had a nother level that's a perfect binary tree we'd have 1 2 3 4 5
+
+04:02.170 --> 04:03.530
+6 7 8.
+
+04:03.650 --> 04:06.510
+So we were doubling every time.
+
+04:06.610 --> 04:13.630
+The second important property is that the number of nodes on the last level is equal to the sum of the
+
+04:13.630 --> 04:18.430
+number of nodes on all the other levels plus 1.
+
+04:18.460 --> 04:18.700
+All right.
+
+04:18.700 --> 04:20.380
+That was confusing what I mean.
+
+04:20.440 --> 04:30.220
+Well here if I take the bottom level that is 1 2 3 for the second property states that all the nodes
+
+04:30.250 --> 04:33.990
+above it plus 1 is going to equal the bottom level.
+
+04:34.000 --> 04:37.910
+So one two three plus one equals four.
+
+04:37.930 --> 04:44.890
+That is what we had on the bottom which means in other words that about half of our nodes are on the
+
+04:44.890 --> 04:46.870
+last level.
+
+04:46.960 --> 04:52.920
+And this brings up a really interesting point by organizing our data in this way.
+
+04:53.080 --> 04:56.830
+We have half of this data in the bottom level.
+
+04:56.950 --> 05:03.640
+If somehow we can avoid visiting every node even if the node we're looking for is at the very bottom
+
+05:04.450 --> 05:11.910
+perhaps there is some efficiencies that we can have and you'd be right because of this type of structure
+
+05:12.540 --> 05:20.340
+you're going to see a new notation of big-O something that we've been waiting for a long time old log
+
+05:20.380 --> 05:25.980
+and and when we start talking about something called binary search trees you're going to start seeing
+
+05:26.100 --> 05:27.230
+this notation.
+
+05:27.570 --> 05:30.680
+Yes we finally got to another big O notation.
+
+05:30.840 --> 05:34.090
+But what does it mean in the next video.
+
+05:34.110 --> 05:39.600
+I want to talk about all log in and why trees allow us to have something like this.
+
+05:39.690 --> 05:41.530
+And what the implications are.
+
+05:42.250 --> 05:43.370
+I'll see in the next one.

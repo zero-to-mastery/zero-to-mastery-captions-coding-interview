@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.780 --> 00:08.010
+Big O spune care este cel mai bun algoritm sau cod de funcții.
+
+00:08.220 --> 00:15.000
+Am aflat că atunci când vine vorba de codul bun, suntem preocupați de lizibilitatea și
+
+00:15.000 --> 00:20.010
+scalabilitatea, iar bego-ul ne permite să măsuram ideea de cod scalabil.
+
+00:20.060 --> 00:22.140
+Și de ce ne pasă.
+
+00:22.190 --> 00:27.080
+Este pentru că nu există nici un fel de prânz gratuit.
+
+00:27.110 --> 00:30.030
+Economisiți timp și bani pentru o companie.
+
+00:30.040 --> 00:38.180
+Sunteți un superstar care știe cât timp codul dvs. ia cât de multă memorie pe care o folosește este foarte critică.
+
+00:38.180 --> 00:42.700
+Acestea sunt lucruri scumpe pentru o companie sau un produs.
+
+00:42.770 --> 00:49.010
+Acum, big-O este un concept foarte important pe care nu-l veți găsi în munca dvs. de
+
+00:49.010 --> 00:57.470
+zi cu zi, dar este ceva ce trebuie întotdeauna să fie în spatele minții dvs., iar dezvoltatorii și inginerii buni au întotdeauna această cunoaștere.
+
+00:57.470 --> 01:01.440
+Acesta este motivul pentru care este un subiect atât de popular în timpul interviurilor.
+
+01:01.450 --> 01:06.710
+Eul este folosit pentru a descrie cât de eficient putem rula haina ei.
+
+01:06.710 --> 01:09.070
+Salvează companiile foarte mult.
+
+01:09.290 --> 01:13.190
+Dacă oamenii pe care îi angajează știu cum să conducă un cod eficient.
+
+01:13.400 --> 01:22.310
+Și în această secțiune am învățat despre ideea complexității timpului și a complexității spațiului cum putem folosi Big-O pentru
+
+01:22.610 --> 01:24.790
+a măsura ambele lucruri.
+
+01:24.790 --> 01:32.870
+Dar fiecare dintre ele este un compromis între celălalt și big-O descrie limita superioară a estimărilor noastre.
+
+01:32.870 --> 01:36.530
+Ne uităm mereu la scenariul cel mai rău.
+
+01:36.710 --> 01:43.610
+Vrem să fim pesimiști și să spunem care este cel mai rău scenariu aici cu codul nostru, astfel încât să putem fi pregătiți când
+
+01:43.700 --> 01:44.820
+va veni timpul.
+
+01:44.840 --> 01:54.410
+Acum, complexitatea timpului și timpul de complicitate a spațiului reprezintă timpul cât durează să ruleze algoritmul și spațiul este
+
+01:54.590 --> 01:57.980
+memoria care este cerută de algoritm.
+
+01:57.980 --> 02:05.630
+Lucrul important pe care l-am învățat aici este că big-O este despre cum puteți să scalați
+
+02:05.630 --> 02:15.790
+nu înseamnă neapărat că 0 an este mai bun decât 0 și pătrat, deoarece scalabilitatea nu a fost singura rată de factor.
+
+02:15.830 --> 02:20.300
+Lizibilitatea este ceva la care ne interesează și noi.
+
+02:20.300 --> 02:29.230
+Uneori lizibilitatea Poate contează mai mult decât scalabilitatea poate complexitatea timpului este mai puțin importantă decât
+
+02:29.380 --> 02:31.000
+complexitatea spațială.
+
+02:31.860 --> 02:33.420
+Și asta e ceva la care vrei să fii atent.
+
+02:33.420 --> 02:40.120
+Acum, cu această cunoaștere nouă, optimizarea prematură poate fi rădăcina tuturor răului.
+
+02:40.140 --> 02:47.850
+Este un citat faimos pe care o mulțime de dezvoltatori știu că uneori optimizarea pentru timp sau
+
+02:47.850 --> 02:52.020
+spațiu poate avea un impact negativ asupra lizibilității codului.
+
+02:52.020 --> 02:57.750
+Deci, dacă lucrați la o pornire tânără, de exemplu, ar putea fi mai important să scrieți un
+
+02:58.440 --> 03:02.340
+cod ușor de transmis și probabil ușor de înțeles mai târziu.
+
+03:02.340 --> 03:08.760
+Poate că nu țineți prea mult timp să scrieți codul și să vă gândiți la cod și
+
+03:08.760 --> 03:15.190
+implicațiile acestuia pe termen lung, deoarece poate această pornire are un buget limitat și are nevoie de lucruri rapide.
+
+03:15.270 --> 03:18.920
+Asta nu înseamnă că startup-urile nu-i interesează analiza big-O.
+
+03:18.990 --> 03:26.730
+Un inginer excelent la startup sau la o companie mare știe să găsească echilibrul corect între spațiul
+
+03:26.910 --> 03:29.700
+de rulare și, desigur, lizibilitatea.
+
+03:29.700 --> 03:38.230
+Lucrul pe care trebuie să-l țineți cont este faptul că datele trebuie să fie suficient de mari pentru a vorbi despre DIGO ci despre scalare.
+
+03:38.280 --> 03:47.610
+Dacă funcția dvs. este timpul liniar, dar intrarea este întotdeauna să spunem 7 elemente, atunci algoritmul de timp liniar ar
+
+03:47.910 --> 03:56.230
+putea fi mai bun decât algoritmul de timp constant, așa că într-adevăr depinde într-adevăr de situația dumneavoastră.
+
+03:57.500 --> 04:03.080
+Am introdus aici big-o pentru că o vom folosi pe parcursul acestui curs și pe măsură ce
+
+04:03.080 --> 04:09.230
+vom afla mai multe despre structurile și algoritmii de date, vom afla mai multe despre bego și alte lucruri
+
+04:09.590 --> 04:15.620
+pe care le-am văzut în acest grafic, am vorbit, dar sper ca acum sa te uiti la cod
+
+04:15.620 --> 04:19.470
+diferit si ai avut cateva momente aha pe parcursul acestei sectiuni.
+
+04:19.490 --> 04:26.180
+Este cu siguranță secțiunea mea preferată și un subiect grozav care ma făcut într-adevăr un inginer mai bun odată ce am învățat
+
+04:26.180 --> 04:26.830
+acest subiect.
+
+04:26.900 --> 04:28.790
+Deci, sper că a făcut și pentru tine.
+
+04:28.820 --> 04:34.730
+La sfarsitul acestui lucru, tot aveti o modalitate de a privi codul in mod diferit si cand cineva spune ca e bun
+
+04:34.730 --> 04:35.540
+codul meu.
+
+04:35.750 --> 04:39.880
+Aveți o nouă modalitate de a privi lucrurile și de a măsura lucrurile.
+
+04:40.720 --> 04:41.530
+Ne vedem în următorul.

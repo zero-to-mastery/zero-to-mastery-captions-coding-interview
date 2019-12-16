@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.660 --> 00:09.970
+Un'altra sezione è stata completata e abbiamo trattato l'ordinamento in modo specifico dell'algoritmo di ordinamento in questa sezione, la maggior parte delle
+
+00:09.970 --> 00:15.350
+volte quando parliamo di algoritmi di ordinamento di cui parleremo tutti e log.
+
+00:15.370 --> 00:20.770
+E abbiamo imparato che ci sono un sacco di algoritmi di ordinamento e abbiamo coperto quelli principali.
+
+00:20.770 --> 00:22.240
+Si abituano più spesso.
+
+00:22.450 --> 00:28.120
+Se sei davvero entusiasta dell'argomento e trovi questo interessante, allora va bene per te.
+
+00:28.150 --> 00:29.330
+Sei uno dei pochi.
+
+00:29.410 --> 00:37.060
+Vi incoraggio a cercare diversi algoritmi di ordinamento, ma a rivedere quicksort che si desidera utilizzare quando le
+
+00:37.450 --> 00:43.720
+prestazioni del caso medio sono più importanti delle prestazioni peggiori perché Quicksort ci consente
+
+00:43.720 --> 00:46.280
+di ordinare O e accedere.
+
+00:46.420 --> 00:51.490
+Ma nel peggiore dei casi un ordinamento di fusione di squitti di forno O.
+
+00:51.490 --> 00:59.690
+D'altra parte è grande perché è sempre O di log ed è anche stabile, il che significa
+
+00:59.690 --> 01:07.520
+che dà sempre gli stessi risultati se due elementi sono uguali anche se la complessità dello
+
+01:07.520 --> 01:10.460
+spazio è leggermente superiore a quicksort.
+
+01:10.550 --> 01:12.980
+È sicuramente un tipo utile.
+
+01:13.030 --> 01:19.630
+Abbiamo anche parlato di ordinamento per selezione di inserimenti e ordinamento di bolle.
+
+01:19.630 --> 01:24.250
+Sono divertenti quando fai qualcosa di veloce e sporco e vuoi semplicemente sperimentare con lo
+
+01:24.250 --> 01:24.740
+smistamento.
+
+01:24.790 --> 01:31.690
+Ma nella vita reale non li userai e molto probabilmente nella vita reale stai usando il framework
+
+01:31.690 --> 01:38.470
+o le lingue o le librerie che ordinano l'algoritmo il loro vantaggio è che sono abbastanza
+
+01:38.480 --> 01:44.340
+facili da implementare in Cote e durante l'intervista potresti dire qualcosa come questo.
+
+01:44.410 --> 01:50.740
+In quei rari casi che ti chiedono di implementare un algoritmo di ordinamento dirai bene perché abbiamo un limite
+
+01:50.740 --> 01:57.220
+di tempo mi piace usare qualcosa di ingenuo e non efficiente come bubble sort che è lento nella vita
+
+01:57.220 --> 02:02.170
+reale invece di implementare qualcosa come unire sort se va bene con te perché
+
+02:02.380 --> 02:08.410
+Perché possiamo supporre che questo tipo sia qualcosa che possiamo implementare con una libreria o abbastanza facilmente con
+
+02:08.410 --> 02:14.540
+la documentazione o puoi dire qualcosa come possiamo semplicemente usare l'unisci sort per dividere e conquistare il codice
+
+02:14.630 --> 02:16.200
+per renderlo più efficiente.
+
+02:16.400 --> 02:21.620
+E in questo modo mostri all'intervistatore che sì, puoi implementare l'ordinamento come bubble sort, ma
+
+02:21.620 --> 02:26.690
+conosci anche cose come Merceron per renderlo più efficiente senza doverlo effettivamente implementare.
+
+02:28.330 --> 02:34.870
+Quindi alla fine di tutto questo spero che ora comprendiate i compromessi in cui è possibile esaminare gli
+
+02:34.900 --> 02:42.970
+algoritmi di ordinamento e decidere in base alla loro stabilità di velocità e alla loro leggibilità, sia che l'input sia già ordinato o
+
+02:42.970 --> 02:44.000
+quasi ordinato.
+
+02:44.050 --> 02:50.090
+Quanto è grande l'input è possibile prendere la decisione giusta sull'ordinamento.
+
+02:50.220 --> 02:51.620
+Vedrò nel prossimo.
+
+02:51.950 --> 02:52.190
+Bob.

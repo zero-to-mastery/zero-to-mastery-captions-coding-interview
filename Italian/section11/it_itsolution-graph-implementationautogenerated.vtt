@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.410 --> 00:02.330
+Ben tornato.
+
+00:02.760 --> 00:05.340
+Come hai fatto in questo esercizio.
+
+00:05.340 --> 00:08.060
+Eri successo se non lo fossi.
+
+00:08.520 --> 00:09.460
+Ecco la cosa.
+
+00:09.510 --> 00:19.930
+Questo è in realtà estremamente semplice ma sembra eccessivamente complesso e questa è una tendenza generale con Krass.
+
+00:19.940 --> 00:26.930
+Sembrano davvero molto intimidatori all'inizio e davvero difficili da pensare davvero a loro nella tua mente.
+
+00:26.930 --> 00:31.810
+Ma una volta che hai messo le cose giù, capisci che le cose magari disegnano le cose.
+
+00:31.980 --> 00:37.280
+In realtà sono abbastanza semplici e sono molto simili a ciò che abbiamo appreso fino ad ora
+
+00:37.280 --> 00:45.290
+tutto ciò che abbiamo imparato a proposito di tabelle hash array di alberi gli elenchi collegati sono tutti parte di grafici e grafici che usano semplicemente
+
+00:45.410 --> 00:46.810
+tali strutture di dati.
+
+00:46.910 --> 00:53.060
+Per quelli di voi che non sono stati in grado di risolvere questo problema potrebbe essere perché eri un po 'intimidito
+
+00:53.690 --> 00:55.030
+dal compito in questione.
+
+00:56.020 --> 01:03.570
+Ma lascia che ti mostri quanto questo possa essere semplice per aggiungere un vertice alla nostra lista di adiacenza.
+
+01:03.610 --> 01:14.090
+Tutto ciò che dobbiamo fare è semplicemente dire che questo Dot ha o questa lista di adiacenza avrà un nodo.
+
+01:14.320 --> 01:20.400
+Quindi stiamo aggiungendo la chiave in questo oggetto del sapere che vogliamo aggiungere.
+
+01:20.950 --> 01:27.850
+E questo equivarrà ad un array vuoto perché quando entriamo in un nuovo nodo non avremo
+
+01:27.850 --> 01:29.210
+inizialmente alcuna connessione.
+
+01:30.030 --> 01:32.920
+Vogliamo aggiungere i bordi in seguito.
+
+01:33.910 --> 01:39.840
+E infine vogliamo aumentare il numero di nodi di 1.
+
+01:39.850 --> 01:41.760
+Ora ne abbiamo uno in più.
+
+01:41.760 --> 01:43.240
+Questo è tutto.
+
+01:43.320 --> 01:46.130
+Abbiamo appena creato i nostri appunti.
+
+01:46.260 --> 01:47.040
+Guarda quello.
+
+01:47.130 --> 01:51.550
+Abbiamo zero fino a sei e sono nel nostro grafico.
+
+01:51.570 --> 01:54.260
+Sfortunatamente nessuno di loro si connette a nulla.
+
+01:54.450 --> 01:57.990
+Abbiamo appena creato le note ma non i bordi.
+
+01:57.990 --> 01:59.510
+Quindi andiamo avanti e farlo.
+
+02:00.510 --> 02:04.270
+Con i bordi perché questo è un grafo non orientato.
+
+02:05.180 --> 02:15.920
+Beh, dovremo fare è dire che questo elenco adiacente di punti sta per dire di no a uno che è il
+
+02:16.010 --> 02:22.540
+primo nodo che stiamo dando e il nodo uno sta per spingere.
+
+02:22.550 --> 02:29.330
+Ricorda che questo è un oggetto quindi stiamo ottenendo la chiave in modo tale che diciamo che questo è
+
+02:29.330 --> 02:35.750
+il nodo 0 che sta per spingere alla serie di connessioni che conosce la tua casa e
+
+02:36.020 --> 02:42.780
+dire che sarà connesso al Nodo 2 e perché è acceso diretto significa che dobbiamo farlo anche nel contrario.
+
+02:42.780 --> 02:45.110
+Quindi lo copiamo semplicemente.
+
+02:45.220 --> 02:51.150
+Facciamolo un po 'più grande in modo da poter vedere e semplicemente invertiamo le cose.
+
+02:51.160 --> 02:55.460
+Quindi n. 2 è anche collegato al nodo uno.
+
+02:55.630 --> 03:04.270
+Se clicco su corri, guarda che abbiamo il nostro grafico di quanto sia semplice.
+
+03:04.480 --> 03:05.650
+Non era male, giusto.
+
+03:05.690 --> 03:09.870
+E voglio dire che potremmo creare questo in una lista collegata se lo volessimo.
+
+03:10.090 --> 03:12.890
+Ma il concetto è lo stesso.
+
+03:13.180 --> 03:19.500
+Se guardiamo a 0 che è collegato a 1 e 2, possiamo confermare che 0 è collegato a 1 e 2.
+
+03:19.550 --> 03:30.160
+Se guardiamo 1 3 2 0 1 è raccolto 2 3 2 0 e meno Shekh forse 5 che è collegato a 4 6 5 è
+
+03:30.160 --> 03:32.110
+collegato a 4 6.
+
+03:32.350 --> 03:36.780
+Ed eccoci qui, abbiamo appena creato il nostro primo grafico.
+
+03:37.150 --> 03:43.030
+Quando si tratta di interviste, i grafici non sono così importanti come gli altri dati.
+
+03:43.060 --> 03:49.870
+Strutture dati principalmente perché richiedono un po 'di tempo e le domande relative ai grafici possono essere
+
+03:49.870 --> 03:50.880
+eccessivamente complesse.
+
+03:50.950 --> 03:54.610
+Ciò non significa che non li vedrai ma sono rari.
+
+03:54.910 --> 04:03.040
+Tuttavia, conoscendo i fondamenti di base quali tipi di erba abbiamo e come si potrebbero creare mestieri, come si
+
+04:03.490 --> 04:10.600
+potrebbe desiderare di contenere dati e grafici come adiacenza dell'adiacente adiacenza, elencare una lista di spigoli.
+
+04:10.600 --> 04:17.480
+Hai già dimostrato di avere la capacità di comprendere i grafici che sono un concetto avanzato ora
+
+04:17.480 --> 04:21.690
+perché le domande sul grafo non fanno parte delle interviste.
+
+04:21.830 --> 04:24.480
+Non impiegheremo più tempo di programmazione su di esso.
+
+04:24.620 --> 04:29.690
+Ma tieni anche presente che abbiamo una sezione in arrivo sugli algoritmi in cui ci immergeremo un
+
+04:29.690 --> 04:35.680
+po 'più a fondo in cose come la prima ricerca in ampiezza e la prima ricerca in profondità che può essere
+
+04:35.710 --> 04:37.810
+applicata sia a digrafi che a Treece.
+
+04:37.880 --> 04:43.490
+Quindi, se senti che puoi ancora imparare qualcosa sui grafici, non preoccuparti, ci stiamo ancora arrivando.
+
+04:43.610 --> 04:47.830
+Ma per ora congratulazioni per aver creato il tuo primo grafico.
+
+04:48.020 --> 04:49.440
+Vedrò nel prossimo video.
+
+04:49.790 --> 04:50.120
+Buh-Bye.

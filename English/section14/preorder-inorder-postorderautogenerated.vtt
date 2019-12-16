@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.090 --> 00:02.080
+Welcome back.
+
+00:02.080 --> 00:05.260
+Let's talk about depth first search now.
+
+00:05.320 --> 00:09.230
+We've implemented our breath first search and we feel comfortable for that.
+
+00:09.340 --> 00:17.320
+But what about depth first search going down our tree and exploring the deepest part of that tree before
+
+00:17.350 --> 00:18.980
+we come back up.
+
+00:19.990 --> 00:22.630
+And explore the right side of the tree as well.
+
+00:23.500 --> 00:30.160
+And when it comes to depth first search we have to be aware that there's three ways that we can actually
+
+00:30.550 --> 00:31.410
+implement it.
+
+00:32.330 --> 00:36.710
+It's called In order preorder and post order.
+
+00:36.960 --> 00:42.620
+Remember how we had the list that we got with breath for a search.
+
+00:42.970 --> 00:49.590
+Well there's three different orders that we can return this list with depth first search.
+
+00:49.780 --> 00:54.390
+The first one is called in order and it looks something like this.
+
+00:54.430 --> 00:59.280
+We go with 33 101 105.
+
+00:59.740 --> 01:06.300
+It's called an order because in a binary search tree it gives everything in order.
+
+01:06.450 --> 01:17.990
+If we take a look at this list or this tree Ideally in a in order traversal using depth first search
+
+01:18.680 --> 01:21.200
+we would get something like this.
+
+01:21.260 --> 01:37.300
+We would get one then for then 6 because we go 1 4 6 and then we go 9 and then we go all the way down
+
+01:37.540 --> 01:45.560
+to 15 and then we come back up to 20 and then to 1 70.
+
+01:45.590 --> 01:50.260
+It's in order because well look at that everything is in order.
+
+01:50.260 --> 01:55.580
+So this is really useful if you have a binary search tree like this.
+
+01:55.690 --> 01:57.590
+And now the way that you can return it.
+
+01:58.030 --> 02:08.320
+It's called preop order and preorder starts off from the parent node down to 33 and then down to 105.
+
+02:08.490 --> 02:17.560
+So we start off with the parent and then grab the child nodes left to right in our case it would look
+
+02:17.710 --> 02:28.460
+something like this we would start off with nine because it's the parent 1 and then we grab for because
+
+02:28.460 --> 02:36.560
+it's the next one in the list and then we go one as we're traversing all the way down.
+
+02:36.630 --> 02:42.940
+Remember we're doing depth first search so all the way down and because we got to the very bottom we
+
+02:42.940 --> 02:56.120
+now go back up and down to 6 so we see here we did 4 1 6 and then we go to the right side to 20 and
+
+02:56.120 --> 03:06.260
+then grab 15 then 170 and you're asking yourself this seems kind of useless why would we ever want to
+
+03:06.260 --> 03:07.540
+use preorder.
+
+03:07.550 --> 03:13.760
+I mean in order we had everything in order why would we ever need this and preorder is really useful
+
+03:13.820 --> 03:16.620
+if you want to for example recreate a tree.
+
+03:16.730 --> 03:17.780
+Right.
+
+03:17.780 --> 03:22.230
+Because with preorder I can just go nine is the root node.
+
+03:22.310 --> 03:31.970
+Then we have four as the left hand side one as the left hand side and then from there we have six on
+
+03:31.970 --> 03:38.630
+the right 20 to the right of 9 15 and then 170.
+
+03:38.660 --> 03:47.530
+We can recreate a tree really easily because it's ordered for us versus the in order method that didn't
+
+03:47.540 --> 03:53.570
+have that order that we wanted if we wanted to recreate a tree another way.
+
+03:53.570 --> 04:02.430
+And the last way to do this is called Post order and post order is the last option that is going all
+
+04:02.430 --> 04:03.550
+the way down.
+
+04:03.790 --> 04:09.220
+Grabbing 33 and 1 to 5 then going to the top to the other parent.
+
+04:09.380 --> 04:13.410
+So 33 1 to 5 1 to 1.
+
+04:13.420 --> 04:26.150
+So in our case a post ordered depth first search will look like one then six then four and then going
+
+04:26.150 --> 04:40.070
+back up all the way down to 15 than 170 then 20 and then finally 9 we search the left hand side first.
+
+04:40.070 --> 04:45.710
+The children come before the parent and then we search the right hand side first and the children come
+
+04:45.710 --> 04:47.640
+before the parent.
+
+04:47.640 --> 04:56.680
+Now these three types of ordering are really specific and although it may look confusing right now you'll
+
+04:56.680 --> 05:01.130
+see that when we write it in code it's not that difficult.
+
+05:01.240 --> 05:07.930
+You just need to know that when it comes to depth first search you have these three types of traversals
+
+05:08.110 --> 05:12.940
+that you can do that you may want to implement depending on your needs.
+
+05:13.720 --> 05:19.000
+But the easiest way to show you how this works is what to actually do it in code.
+
+05:19.210 --> 05:20.550
+So let's do that in the next video.

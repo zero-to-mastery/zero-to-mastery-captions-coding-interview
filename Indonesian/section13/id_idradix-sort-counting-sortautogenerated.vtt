@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.310 --> 00:02.160
+Selamat datang kembali.
+
+00:02.270 --> 00:08.540
+Kami telah berbicara tentang lima algoritma penyortiran ini dan sekarang Anda harus tahu bahwa Merse menyortir
+
+00:08.540 --> 00:16.040
+dan menyortir cepat meskipun mereka lebih sulit untuk diterapkan adalah algoritma yang paling sering digunakan dalam kehidupan nyata karena mereka
+
+00:16.040 --> 00:21.710
+menggunakan divide dan conquer untuk mendapatkan kita ini oh dari sebuah Peningkatan kinerja Lagann.
+
+00:21.950 --> 00:26.340
+Tapi tidak bisakah kita mengalahkan Oh dan log dan.
+
+00:26.520 --> 00:27.960
+Dan inilah masalahnya.
+
+00:28.020 --> 00:33.980
+Secara matematis tidak mungkin untuk memperbaiki ini.
+
+00:34.170 --> 00:39.570
+Jika ada yang membuat algoritma yang lebih cepat dari ini, mereka akan baik-baik saja, mereka
+
+00:39.570 --> 00:41.080
+akan menjadi sangat kaya.
+
+00:41.130 --> 00:49.680
+Secara matematis itu tidak mungkin karena semua dan Lagann berarti kita harus mengurutkan dengan membandingkan
+
+00:49.680 --> 00:56.510
+semua algoritma pengurutan ini harus membandingkan setiap angka satu sama lain.
+
+00:56.790 --> 01:00.290
+Tetapi ada satu pengecualian untuk aturan ini.
+
+01:00.510 --> 01:05.920
+Anda dapat meningkatkan ini jika Anda tidak membuat perbandingan.
+
+01:06.780 --> 01:07.160
+Hah.
+
+01:07.350 --> 01:08.760
+Apa artinya.
+
+01:08.850 --> 01:18.330
+Ada bagian kecil dari input yang benar-benar dapat kita hilangkan dan catat dan ini disebut jenis
+
+01:18.750 --> 01:25.930
+non-pembanding dan Anda kemungkinan besar akan melihat penghitungan jenis dan jenis radix.
+
+01:26.010 --> 01:33.130
+Tapi apa artinya penghitungan semacam dalam jenis radix adalah cara yang berbeda untuk berpikir tentang penyortiran.
+
+01:34.200 --> 01:41.550
+Dengan jenis perbandingan kami memutuskan urutan angka berdasarkan mengajukan pertanyaan, hei apakah makanan ini lebih besar
+
+01:41.550 --> 01:44.290
+dari yang ada di sana.
+
+01:44.610 --> 01:46.600
+Bagaimana dengan yang di sana?
+
+01:46.710 --> 01:52.980
+Dan kami terus melakukan itu setiap angka dibandingkan satu sama lain, penyortiran non perbandingan
+
+01:52.980 --> 01:54.400
+melakukannya sedikit berbeda.
+
+01:54.480 --> 02:02.760
+Kita akan menggunakan cara angka dan data disimpan di komputer kita dalam angka nol dan satu dan
+
+02:02.760 --> 02:06.320
+memanfaatkan fakta itu untuk mengurutkan hal-hal.
+
+02:06.490 --> 02:08.960
+Sekarang ini bisa menjadi sangat kompleks.
+
+02:09.130 --> 02:16.960
+Dan seperti yang Anda lihat di sini di makalah ini hanya dengan melihat diagram dan misalnya radix sort
+
+02:16.960 --> 02:25.600
+di sini dalam cara kami menyimpan angka dalam nol dan yang kita dapat menggunakan pengetahuan ini untuk benar-benar mengurutkan beberapa hal.
+
+02:25.600 --> 02:30.980
+Saya akan meninggalkan sumber untuk Anda jika Anda ingin benar-benar teknis dan masuk ke topik ini.
+
+02:31.150 --> 02:38.770
+Saya memperingatkan Anda bahwa Anda bisa mendapatkan sedikit matematika tetapi satu hal yang perlu diperhatikan di
+
+02:38.770 --> 02:47.890
+sini adalah bahwa jenis algoritma penghitungan semacam ini dan jenis radix hanya bekerja dengan angka khusus bilangan bulat dalam
+
+02:47.950 --> 02:48.980
+rentang terbatas.
+
+02:49.060 --> 02:54.730
+Jadi jika Anda hanya memiliki angka yang ingin Anda pecahkan pengurutan dan rentang angka-angka itu mulai
+
+02:54.730 --> 03:02.370
+dari katakanlah nol hingga 100 yang merupakan kisaran kecil maka Anda akan menggunakan sesuatu seperti ini untuk membuat semuanya sangat cepat
+
+03:03.310 --> 03:06.220
+tetapi tidak akan bekerja pada tipe data.
+
+03:06.370 --> 03:12.340
+Ini hanya benar-benar berfungsi pada angka karena cara nomor disimpan dalam memori.
+
+03:12.360 --> 03:17.150
+Anda lihat, saya suka sesuatu seperti penggabungan atau quicksort yang universal.
+
+03:17.250 --> 03:24.850
+Itu mereka dapat mengurutkan semua jenis data hal-hal seperti penghitungan jenis dan jenis radix hanya berguna untuk integer
+
+03:24.850 --> 03:26.090
+panjang tetap.
+
+03:27.140 --> 03:32.080
+Tetapi mereka mampu mengalahkan kecepatan semua saat login.
+
+03:32.270 --> 03:40.640
+Dan seperti yang Anda lihat di sini, bucket, radix, sort, licik, dalam kasus rata-rata mereka memiliki semua dan ditambah
+
+03:40.820 --> 03:48.640
+K dan K dari dan k apa dan k berarti berada di luar cakupan kursus ini.
+
+03:48.830 --> 03:54.570
+Dan beberapa berpendapat bahwa pada akhirnya ini ternyata masih sangat lambat.
+
+03:54.920 --> 03:56.800
+Saya akan meninggalkan sumber daya untuk Anda seperti yang saya katakan.
+
+03:56.900 --> 04:02.570
+Jadi Anda dapat membaca tentang mereka tetapi satu-satunya hal yang perlu Anda ketahui tentang ini
+
+04:02.570 --> 04:09.900
+adalah bahwa kadang-kadang jika Anda memiliki angka yang berada dalam kisaran tertentu itu bisa lebih cepat daripada quicksort atau Murcer.
+
+04:09.980 --> 04:16.940
+Jadi sekarang kita tahu ini, mari kita lakukan beberapa latihan wawancara berdasarkan penyortiran untuk memperkuat apa yang baru saja kita pelajari.

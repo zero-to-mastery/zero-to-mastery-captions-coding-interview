@@ -1,0 +1,517 @@
+WEBVTT
+
+00:00.950 --> 00:02.270
+Selamat datang kembali.
+
+00:02.270 --> 00:03.190
+Bagaimana itu.
+
+00:03.260 --> 00:04.030
+Kau mengerti.
+
+00:04.040 --> 00:07.040
+Apakah itu pertanyaan yang sulit.
+
+00:07.100 --> 00:12.890
+Jangan terlalu kecewa jika Anda tidak bisa mendapatkan jawaban pertanyaan-pertanyaan ini dimaksudkan untuk menjadi sulit untuk
+
+00:12.980 --> 00:14.120
+meregangkan pikiran Anda.
+
+00:14.330 --> 00:17.360
+Jika mereka terlalu sederhana maka Anda tidak akan belajar apa pun.
+
+00:22.930 --> 00:28.900
+Mari kita mulai dengan pendekatan naif yaitu pendekatan yang pertama kali terlintas dalam pikiran.
+
+00:29.750 --> 00:36.280
+Bagi saya yang pertama akan menjadi sarang untuk loop.
+
+00:36.470 --> 00:37.660
+Mari kita fungsi.
+
+00:37.700 --> 00:39.170
+Saya akan menyebutnya dulu.
+
+00:42.530 --> 00:45.850
+Karakter yang berulang.
+
+00:46.060 --> 00:47.940
+Ini akan menerima input.
+
+00:48.670 --> 00:53.140
+Dan karena kita sudah membicarakannya, saya tidak akan melakukan validasi input.
+
+00:53.140 --> 00:59.860
+Kita dapat mengasumsikan bahwa kita akan selalu mendapatkan semacam array bernomor di sini.
+
+00:59.870 --> 01:05.670
+Aku akan mengulangi lagi dan oh nak aku sudah melakukan ini berkali-kali sekarang.
+
+01:05.750 --> 01:09.310
+Saya harap Anda sakit dan lelah karena hanya mengulang-ulang array.
+
+01:10.620 --> 01:19.240
+Tapi hei sekarang setidaknya kita adalah ahli dari loop.
+
+01:19.470 --> 01:20.700
+Plus plus.
+
+01:21.470 --> 01:27.890
+Jadi di sini di loop pertama kita akan ambil item pertama dalam array dan mari kita panggil fungsi
+
+01:27.890 --> 01:28.330
+ini.
+
+01:28.330 --> 01:30.920
+Jadi kita memilikinya di sini.
+
+01:30.920 --> 01:32.080
+Baik dan mudah.
+
+01:33.300 --> 01:35.710
+Dan memberi kita visual yang bagus.
+
+01:35.830 --> 01:41.440
+Jadi saya akan mengulang item pertama, kelima atau kedua, ketiga dan
+
+01:41.440 --> 01:42.600
+terus berjalan.
+
+01:43.000 --> 01:48.490
+Saya ingin mengambil item ini dan kemudian melakukan loop lain dan memeriksa dua lawan lima.
+
+01:48.610 --> 01:53.550
+Dua lawan satu dua lawan dua dan kemudian katakan itu satu-satunya.
+
+01:53.950 --> 02:01.930
+Jika tidak menemukan apa pun, maka akan menuju lima berikutnya dan kemudian membandingkan 5 hingga 1 1 hingga 2 2 2 3 3 dan
+
+02:01.930 --> 02:02.520
+seterusnya.
+
+02:03.370 --> 02:10.040
+Jadi sekali lagi saya hanya akan menyalin dan menempelkan kali ini karena kami telah
+
+02:10.040 --> 02:15.580
+melakukan banyak empat loop dan cukup mengubah variabel menjadi j.
+
+02:15.620 --> 02:19.940
+Kita akan mulai dari 1 karena kita tidak ingin membandingkan dua hingga dua.
+
+02:19.940 --> 02:21.710
+Kami ingin membandingkan dua hingga lima.
+
+02:21.770 --> 02:27.020
+Untuk memulai, kami hanya melewatkan satu lingkaran yang akan membantu kami.
+
+02:27.650 --> 02:39.570
+Saya akan mengatakan Jay di sini dan J plus plus Sekarang beberapa dari Anda mungkin telah tertangkap di sini karena jika kita memilikinya seperti sekarang
+
+02:39.570 --> 02:46.120
+dan Anda konsol log loop ini Anda akan melihat bahwa itu tidak akan
+
+02:46.180 --> 02:55.700
+berfungsi dengan baik karena setiap kali ini menggeser bagian luar untuk loop bergeser dari katakanlah nol ke yang berikutnya indeks
+
+02:56.060 --> 02:59.880
+satu Jay akan diatur ulang ke 1.
+
+03:00.020 --> 03:05.950
+Jadi 5 akan dibandingkan dengan 5 dan fungsi akan menganggap balita.
+
+03:05.960 --> 03:08.850
+Karakter yang berulang.
+
+03:09.030 --> 03:21.030
+Jadi sedikit trik di sini adalah melakukan pi plus satu yaitu kita selalu pergi satu ke kanan di mana HIAS
+
+03:21.030 --> 03:22.260
+indeks pertama.
+
+03:22.590 --> 03:34.260
+Jadi jika kita mengulang looping dan kita di sini sub loop loop bersarang akan melihat I plus 1.
+
+03:34.340 --> 03:42.360
+Jadi ini akan membandingkan dua hingga tiga, dua, hingga lima, karena saya sudah membandingkan 2 2 5 2
+
+03:42.360 --> 03:46.830
+5 5 2 2 1 2 2 dan loop sebelumnya.
+
+03:46.830 --> 03:47.400
+Baiklah.
+
+03:47.610 --> 03:49.700
+Kami sudah melakukannya di sini.
+
+03:49.740 --> 03:54.120
+Kita cukup melakukan pernyataan if mengatakan sebagian.
+
+03:54.510 --> 04:00.970
+Apakah itu sama dengan input yang J lakukan sama dengan 5.
+
+04:01.040 --> 04:04.320
+Apakah dua sama dengan 1 juga sama dengan 2.
+
+04:04.640 --> 04:08.150
+Jika itu sama maka cukup kembali dan masukkan
+
+04:12.290 --> 04:12.860
+sebaliknya.
+
+04:12.880 --> 04:17.590
+Jika kita melakukan semua pekerjaan ini dan tidak ada yang terjadi, kita
+
+04:20.690 --> 04:22.940
+hanya dapat kembali tanpa ditentukan.
+
+04:23.020 --> 04:24.220
+Mari kita lihat apakah itu berhasil.
+
+04:24.340 --> 04:34.310
+Saya akan menjalankannya dan saya mendapatkan dua yang luar biasa. Bagaimana jika saya ubah ini
+
+04:34.680 --> 04:44.030
+menjadi satu jika saya jalankan ini, saya akan mendapatkan satu yang sempurna. .
+
+04:44.060 --> 04:44.990
+Itu bagus.
+
+04:45.230 --> 04:50.230
+Bagaimana jika saya melakukan 1 1 atau 1 1 saya mendapatkan 1.
+
+04:50.230 --> 04:50.760
+Itu keren.
+
+04:50.770 --> 04:55.250
+Jika saya ingin saya menjadi luar biasa.
+
+04:55.290 --> 05:03.410
+Ini terlihat bekerja dengan baik dan sederhana tetapi seperti yang Anda lihat di sini, kami tidak terlalu efisien.
+
+05:03.480 --> 05:13.400
+Kami memiliki loop bersarang yang seharusnya memicu Oh ini semua dan kuadrat.
+
+05:13.480 --> 05:19.870
+Dan meskipun secara teknis kita sebenarnya selalu mengulang sedikit lebih efisien karena saya
+
+05:19.930 --> 05:24.650
+ditambah saya tidak mengulang dua kali di seluruh array.
+
+05:25.590 --> 05:32.510
+Pada akhirnya ketika Anda menghapus konstanta dan menyederhanakan hal-hal itu masih akan menjadi 0 dan kuadrat.
+
+05:32.550 --> 05:36.100
+Jadi bagaimana kita bisa menyelesaikan ini dengan menggunakan tabel hash.
+
+05:37.460 --> 05:41.830
+Baiklah mari kita buat fungsi baru.
+
+05:43.180 --> 05:46.690
+Kami akan memanggil fungsi ini dengan nama yang sama kali ini.
+
+05:46.690 --> 05:54.330
+Nomor dua versi 2 itu akan menerima input.
+
+05:54.540 --> 05:59.340
+Dan mari kita ubah test case kita untuk memiliki hal yang sama seperti yang kita
+
+06:03.420 --> 06:06.800
+lakukan sebelumnya apa yang bisa kita lakukan di sini.
+
+06:07.680 --> 06:15.440
+Baiklah mari kita gunakan tabel hash atau objek untuk melakukan sesuatu yang menarik.
+
+06:15.600 --> 06:23.610
+Itu adalah untuk memiliki semua ini saat kita mengulanginya satu per satu sehingga loop melalui semua item menambahkannya ke
+
+06:23.610 --> 06:24.870
+tabel hash.
+
+06:25.170 --> 06:32.670
+Dan sementara kami melakukan itu, kami dapat memeriksa untuk melihat apakah properti sudah ada atau kuncinya sudah ada.
+
+06:33.520 --> 06:38.650
+Kami menambahkan dua ke tabel hash lalu lima ke tabel hash lalu satu ke tabel hash.
+
+06:38.680 --> 06:47.210
+Dan ketika kita mencoba menambahkan dua, kita dapat memicu peringatan yang mengatakan bahwa kita sudah memiliki dua sebagai kunci, jadi dengan menggunakan logika itu
+
+06:47.210 --> 06:50.010
+mari kita lihat bagaimana kita bisa mengimplementasikannya.
+
+06:50.050 --> 06:52.770
+Saya akan membuat peta.
+
+06:52.840 --> 06:58.980
+Kami hanya akan menyebutnya peta hash untuk saat ini karena kunci akan menjadi unik.
+
+06:58.990 --> 07:13.290
+Itu tidak akan membiarkan kunci duplikat dan kita bisa melakukan loop kami.
+
+07:13.690 --> 07:27.090
+Dan dalam loop ini yang akan kita lakukan adalah mengatakan jika peta dan kita dapat memeriksa di peta ini jika kosong sekarang cek
+
+07:27.090 --> 07:36.630
+pertama di sini saya ingin mengatakan jika properti atau jika kunci sudah ada saya ingin mengembalikan
+
+07:38.160 --> 07:39.500
+saja barang.
+
+07:40.420 --> 07:42.880
+Karena kita tidak perlu melakukan pekerjaan lagi.
+
+07:43.300 --> 07:52.800
+Segera setelah kami menemukan kunci yang sudah ada di tabel hash kami, hentikan semua perulangan dan kembali.
+
+07:52.840 --> 07:55.330
+Dalam hal ini kami ingin kembali ke.
+
+07:55.450 --> 08:08.970
+Jadi pada indeks 0 1 2 3 itu akan kembali dan mengatakan 2 karena kunci ini sudah ada.
+
+08:09.150 --> 08:17.500
+Jadi cara kita melakukan itu di cek IF adalah dengan hanya mengatakan jika dan membiarkan karena ingat ini
+
+08:17.500 --> 08:21.240
+akan sama dengan 2 ketika kita mengulanginya.
+
+08:23.400 --> 08:33.320
+Jika itu ada maka kembalikan kalau tidak kita hanya akan menambahkannya ke peta kita.
+
+08:33.410 --> 08:41.400
+Jadi input oleh akan sama dan nilai bisa apa saja.
+
+08:41.400 --> 08:44.480
+Kami hanya akan membiarkannya di saya yang merupakan indeks.
+
+08:44.820 --> 08:54.930
+Jadi 2 akan sama dengan 0 5 akan sama dengan 1 1 harus kita biarkan konsol login di sini untuk melihat
+
+08:54.930 --> 08:56.620
+apa yang terjadi.
+
+08:56.790 --> 09:07.240
+Tetapi saya ingin juga mengembalikan yang tidak ditentukan pada akhir jika tidak ada yang terjadi jika tidak ada yang cocok.
+
+09:07.250 --> 09:12.220
+Jadi pada akhir for loop kita hanya akan membatalkan dot log.
+
+09:12.310 --> 09:15.850
+Napp dan lihat apa yang kita miliki.
+
+09:15.970 --> 09:20.230
+Saya akan lari dan saya mendapat lima.
+
+09:20.520 --> 09:23.700
+Dan tidak ada log apa yang baru saja terjadi di sini.
+
+09:24.150 --> 09:32.610
+Nah jika kita konsol log Ophir sebagai gantinya dan lihat apa ini memberi
+
+09:36.360 --> 09:43.460
+kita dan menjalankan saya mendapatkan undefined undefined zero undefined one.
+
+09:43.500 --> 09:44.910
+Apa artinya.
+
+09:44.910 --> 09:55.670
+Ingat baik-baik kita sedang berputar-putar di sini dan kita katakan hei juga ada.
+
+09:55.790 --> 09:57.940
+Apakah input nol.
+
+09:57.980 --> 10:01.530
+Yang ada sebagai kunci.
+
+10:02.030 --> 10:08.090
+Jadi itu hanya mengatakan Napp dot untuk apakah itu ada.
+
+10:08.190 --> 10:16.200
+Dan karena itu tidak ada, kita akan mendefinisikan dan akan pergi ke berikutnya. Hei apakah ada lima.
+
+10:16.260 --> 10:17.210
+Tidak, tidak.
+
+10:17.220 --> 10:19.320
+Hei, apakah ada.
+
+10:19.320 --> 10:20.220
+Tidak, tidak.
+
+10:20.340 --> 10:22.320
+Hei juga ada.
+
+10:22.350 --> 10:25.290
+Dan segera setelah memeriksa kembali
+
+10:28.140 --> 10:32.770
+untuk itu akan mengatakan ah saya sudah memilikinya.
+
+10:32.860 --> 10:37.640
+Itu pada indeks 0.
+
+10:37.690 --> 10:40.390
+Jadi ini berhasil.
+
+10:40.630 --> 10:53.190
+Namun karena ketika ini menjadi nol, cara kerja javascript menempatkannya nol di sini, tetapi dalam pernyataan IF, nol adalah apa yang kita sebut falsie
+
+10:53.580 --> 11:00.600
+dan Javascript dan itu ada hubungannya dengan mengetik kasar dan Javascript sesuatu yang
+
+11:00.600 --> 11:03.930
+banyak orang jengkel dengan bahasa. .
+
+11:03.930 --> 11:12.780
+Jadi apa yang perlu kita lakukan adalah memastikan bahwa kita kita tentukan bahwa kita ingin ini tidak sama dengan yang didefinisikan.
+
+11:12.840 --> 11:18.690
+Jadi, segera setelah itu tidak sama dengan undefined, saya ingin Anda mengembalikan item ini.
+
+11:18.710 --> 11:34.900
+Sekarang jika kita menjalankan ini kita mendapatkan dua yang bagus jika kita Konsole dot mencatat peta dan menjalankan ini di bawah sini.
+
+11:34.900 --> 11:43.950
+Jadi kita melihat iterasi aktual yang terjadi, kita melihat bahwa itu menambah indeks 0 kemudian indeks 0
+
+11:43.950 --> 11:46.280
+dan 5 indeks 1.
+
+11:46.590 --> 11:54.870
+Begitu seterusnya sampai berhenti setelah loop ketiga karena bertemu lagi itu akan memeriksa dan mengatakan
+
+11:54.870 --> 11:57.480
+0 2 sudah ada.
+
+11:57.480 --> 11:59.930
+Kembalikan saja.
+
+11:59.950 --> 12:01.320
+Betapa kerennya itu.
+
+12:01.360 --> 12:12.000
+Kami baru saja membuat semua ini hanya dengan satu loop yang jauh lebih cepat daripada versi pertama kami menggunakan tabel
+
+12:12.000 --> 12:13.110
+hash.
+
+12:13.110 --> 12:21.000
+Betapa kerennya bagi saya melakukan hal-hal seperti ini dan melihat kekuatan cara belajar tentang big-O dan tabel hash
+
+12:21.000 --> 12:27.750
+telah meningkatkan kemampuan pengkodean kami hanya membuat saya benar-benar bersemangat dan saya harap ini membuat
+
+12:27.750 --> 12:29.300
+Anda bersemangat juga.
+
+12:29.370 --> 12:33.960
+Kami membuat fungsi ini memiliki kompleksitas waktu di mana-mana.
+
+12:34.050 --> 12:43.530
+Kami telah memperbaikinya dengan satu sisi negatifnya, kami telah meningkatkan kompleksitas ruang memori oleh O kemudian karena kami membuat objek
+
+12:43.530 --> 12:51.180
+baru dalam fungsi ini yang perlu melacak semua item dalam array dan dalam kasus terburuk
+
+12:51.180 --> 12:57.870
+ketika ada tidak cocok itu akan melalui seluruh daftar item array dan menyimpan informasi
+
+12:57.870 --> 12:59.850
+itu di peta.
+
+12:59.850 --> 13:07.140
+Jadi kita juga tidak akan seperti versi ini di mana kita tidak membuat kompleksitas ruang
+
+13:07.140 --> 13:11.640
+yang kita miliki hanya kompleksitas ruang dari semuanya.
+
+13:11.700 --> 13:16.910
+Kami sekarang memiliki sedikit lebih banyak tetapi pada gilirannya kami memiliki fungsi yang lebih cepat.
+
+13:18.200 --> 13:19.730
+Sangat sangat keren.
+
+13:19.880 --> 13:24.440
+Sekarang untuk menyelesaikan, saya ingin memberi Anda satu tantangan terakhir.
+
+13:24.950 --> 13:35.850
+Anda lihat melihat dua implementasi ini apa yang terjadi jika kita memiliki sesuatu seperti ini.
+
+13:35.930 --> 13:41.210
+Menurut Anda apa karakter berulang yang pertama.
+
+13:41.270 --> 13:55.670
+Jika saya menjalankan ini saya mendapatkan lima karena lima terjadi lebih cepat dari dua dua karena cara kami menerapkan fungsi
+
+13:55.670 --> 13:57.170
+kedua.
+
+13:57.170 --> 14:09.290
+Namun jika saya pergi ke versi pertama dari fungsi kita dan menjalankan ini saya sampai ke Hmm mengapa begitu baik jika kita pergi ke bagian pertama dari
+
+14:09.290 --> 14:16.250
+fungsi kita, kita melihat bahwa cara kita melakukan sesuatu adalah kita akan satu per satu
+
+14:16.250 --> 14:18.840
+di dengan cara yang berbeda.
+
+14:19.160 --> 14:25.760
+Kita katakan ambil dua dan kemudian bandingkan dua dengan lima lalu lima lalu dua dan tiga dari lima
+
+14:25.760 --> 14:32.910
+lalu satu dan dua empat dan kemudian pindah ke lima dalam lima dan lima dan dua dan seterusnya dan seterusnya.
+
+14:32.930 --> 14:40.400
+Dan karena cara kita menerapkan itu akan mendeteksi dua dan
+
+14:40.730 --> 14:53.360
+dua karena loop luar memiliki indeks 0 dan memiliki dua mata melewati loop sebelum membandingkan lima dengan lima versus.
+
+14:53.470 --> 15:02.420
+Versi kedua kami dengan tabel hash di mana kami memiliki semua item ini dan kami dapat membandingkannya.
+
+15:02.560 --> 15:10.060
+Setelah kami meraih semuanya dan itu hal yang sangat kuat ketika Anda berpikir tentang array dan tabel
+
+15:10.390 --> 15:18.340
+hash dan bagaimana Anda dapat membandingkan hal-hal dan berdasarkan apa yang diminta pewawancara Anda mungkin memiliki jawaban yang salah.
+
+15:18.340 --> 15:26.050
+Mungkin mereka ingin menggunakan untuk mendeteksi lima dan lima sebelum Anda mendeteksi dua dan dua jadi bonus saya
+
+15:26.050 --> 15:35.110
+pertanyaan kepada Anda jika Anda punya waktu dan sedikit tantangan adalah untuk mengubah fungsi ini jika Anda ingin menjadi sesuatu yang cocok
+
+15:35.110 --> 15:37.090
+dengan jawaban untuk ini.
+
+15:37.090 --> 15:41.050
+Itu untuk mendeteksi lima dan lima.
+
+15:41.240 --> 15:43.930
+Bagaimana Anda melakukannya?
+
+15:44.100 --> 15:47.550
+Anda kemungkinan besar harus melakukan sesuatu yang menarik di sini.
+
+15:48.890 --> 15:50.980
+Semoga beruntung dengan itu.
+
+15:50.990 --> 15:56.360
+Bicaralah dengan orang lain tentang perselisihan di komunitas kami dan lihat apakah Anda dapat mengetahuinya dan saya akan memposting
+
+15:56.360 --> 15:58.440
+beberapa solusi kreatif untuk masalah itu.
+
+15:58.630 --> 16:05.280
+Ketika siswa mengirimkannya untuk melihat bagaimana orang lain telah menerapkan ini.
+
+16:05.310 --> 16:08.300
+Tetapi untuk saat ini saya pikir kita pantas istirahat.
+
+16:08.310 --> 16:09.590
+Saya akan melihat yang berikutnya.
+
+16:09.830 --> 16:10.250
+Sampai jumpa.

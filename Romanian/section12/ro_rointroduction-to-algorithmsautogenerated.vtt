@@ -1,0 +1,118 @@
+WEBVTT
+
+00:01.420 --> 00:10.450
+Bine ați venit în secțiunea algoritmului, acesta este un cuvânt care imediat sună drept frumos.
+
+00:10.490 --> 00:15.800
+Toate companiile o folosesc în aceste zile ca să facă ceva cu adevărat important.
+
+00:16.510 --> 00:24.100
+Toată lumea are un algoritm secret pe care îl utilizează pentru a face modelele de învățare a mașinilor să analizeze datele utilizatorilor pentru a face
+
+00:24.160 --> 00:25.780
+companiile o mulțime de bani.
+
+00:26.080 --> 00:35.360
+Dar, sub algoritmi de hota sunt doar funcții pe care programatorii le scriu o funcție de două linii este un
+
+00:35.420 --> 00:43.670
+algoritm tehnic, un algoritm de mii de linii care sortează prin imagini este, de asemenea, un algoritm.
+
+00:43.670 --> 00:51.780
+Algoritmii sunt pur și simplu pași într-un proces pe care îl luăm pentru a efectua o acțiune dorită cu computerele.
+
+00:53.450 --> 01:00.310
+Dacă mergem la Wikipedia și căutăm liste de algoritmi lista este destul de nesfârșită.
+
+01:00.320 --> 01:05.240
+Există o mulțime de algoritmi.
+
+01:05.380 --> 01:07.420
+Este imposibil să le cunoști pe toți.
+
+01:07.480 --> 01:14.770
+Puteți crea propriile algoritmi pe care le puteți utiliza alți algoritmi care sunt populare și bine stabilite.
+
+01:14.970 --> 01:18.740
+Dar să ne întoarcem la întrebarea noastră despre ce sunt algoritmi.
+
+01:18.900 --> 01:28.220
+Dacă combinăm cunoștințele noastre cu structurile de date, cele pe care le-am lucrat în algoritmii din secțiunile anterioare ne permit să folosim
+
+01:28.310 --> 01:36.200
+limbajul construit în structuri de date cum ar fi matrice și obiecte sau primitive cum ar fi întregi și
+
+01:36.230 --> 01:43.910
+booleani și chiar date tip personalizate cum am făcut atunci când folosim pentru a crea arbori binari de
+
+01:44.030 --> 01:46.560
+căutare pentru stive de bilete.
+
+01:46.960 --> 01:54.010
+Algoritmii ne permit să folosim aceste structuri de date pentru a efectua acțiuni asupra acelor date.
+
+01:54.040 --> 02:00.440
+Rețineți că aceste structuri de date corecte și algoritmi creează programe în acest curs.
+
+02:00.440 --> 02:07.520
+Vom vorbi despre cele mai frecvente algoritmi de interviu, astfel încât lista lungă de pe Wikipedia nu va fi la fel
+
+02:07.520 --> 02:12.590
+de intimidantă pentru că ne vom concentra doar pe dorința care contează mai ales
+
+02:12.830 --> 02:19.990
+pentru interviuri, dar și cele care contează cel mai mult în cariera ta în mod special, vom trece peste aceste subiecte când
+
+02:19.990 --> 02:21.460
+vine vorba de algoritmi.
+
+02:21.460 --> 02:28.060
+De ce sunt acești algoritmi atât de obișnuiți în interviuri și mai ales în companiile mari.
+
+02:28.620 --> 02:34.230
+Ei bine, puteți să scăpați de faptul că nu știți aceste subiecte de mult timp.
+
+02:34.290 --> 02:41.520
+Ca programator, dar după cum am învățat big-O și scalabilitatea codului, este important ca companiile să devină mai
+
+02:41.520 --> 02:45.290
+mari și mai mari prin învățarea acestor algoritmi enumerați.
+
+02:45.480 --> 02:50.550
+Suntem capabili să facem majoritatea scalării de care avem nevoie pentru a ne îmbunătăți programele.
+
+02:50.550 --> 03:00.450
+Amintiți-vă de marele nostru Chichi și de modul în care nu am vorbit cu adevărat despre jurnalul olog și cu jurnalul O N și poate
+
+03:00.450 --> 03:02.040
+puțin în videoclipurile precedente.
+
+03:02.910 --> 03:12.780
+Algoritmii CERN ne permit să simplificăm complexitatea noastră mare O în complexitate de timp mai mică sau mai bună.
+
+03:13.710 --> 03:19.740
+Deci, folosind algoritmul potrivit aș putea să iau o funcție care are un mare spectacol
+
+03:19.740 --> 03:28.380
+al acestei notații până la ceva de O și log in sau ceva care are o complexitate de timp liniară la evenimentul log.
+
+03:28.550 --> 03:35.360
+Iar acestea sunt folosite pretutindeni în companii mari, deoarece marile companii se ocupă de o mulțime de date
+
+03:35.450 --> 03:36.540
+de intrare.
+
+03:36.590 --> 03:43.670
+Deci, acest subiect este extrem de important pentru ei și, pe măsură ce cariera ta crește și crește, aceste subiecte vor
+
+03:43.670 --> 03:46.320
+fi din ce în ce mai importante.
+
+03:46.390 --> 03:48.760
+Deci, hai sa ne aruncam cu capul la primul nostru subiect.
+
+03:49.000 --> 03:50.480
+Voi vedea în următorul.
+
+03:50.690 --> 03:50.950
+Babai.

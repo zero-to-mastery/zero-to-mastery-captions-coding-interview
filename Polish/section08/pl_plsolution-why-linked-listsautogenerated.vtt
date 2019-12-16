@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.070 --> 00:02.140
+Witamy spowrotem.
+
+00:02.450 --> 00:07.260
+Mam nadzieję, że jesteś w stanie pomyśleć o tym, dlaczego listy linków mogą być dobre lub złe.
+
+00:08.360 --> 00:15.860
+W tym filmie omówmy odpowiedź jedną z kluczowych rzeczy, które mogliście zauważyć, jest to,
+
+00:15.860 --> 00:23.230
+że listy linków mają luźną strukturę, która pozwala wstawić wartość na środek listy.
+
+00:24.040 --> 00:32.930
+Po prostu resetując kilka wskaźników, tak jak widzieliśmy w animacji, mogę wstawić wszystko, co chcę,
+
+00:33.500 --> 00:39.670
+a jedyne zmiany, które się wydarzyły, są gdzieś pośrodku.
+
+00:42.000 --> 00:45.720
+To samo dotyczy usunięcia węzła z połączonej listy.
+
+00:46.440 --> 00:49.720
+A my pamiętamy o strukturze danych tablicowych.
+
+00:49.770 --> 00:56.620
+Kiedy chcieliśmy wstawić coś, co nie było na końcu tablicy, musieliśmy dodać element.
+
+00:56.850 --> 01:05.100
+Powiedzmy, że w przestrzeni pamięci jeden tutaj, a następnie przesunąć wszystkie elementy w dół i indeks w dół, co kosztowało nas
+
+01:05.100 --> 01:06.220
+dużo czasu.
+
+01:06.240 --> 01:09.210
+Kosztowało nas 0 z.
+
+01:09.290 --> 01:18.350
+Główną różnicą między tablicami i połączonymi listami jest to, że w tablicy indeksowany jest element lub elementy.
+
+01:18.410 --> 01:25.030
+Więc jeśli chciałem przejść do pozycji w indeksie 5, mogę to łatwo zrobić na połączonej liście.
+
+01:25.100 --> 01:35.900
+Zaczynasz od głowy i przechodzisz przez listę, aż dojdziesz do pozycji 5, która wynosi 0, a ta idea przejścia jest taka sama jak
+
+01:35.900 --> 01:44.920
+iteracja, którą zrobiliśmy z wymazaniem, gdzie idziemy 0 1 2 3 4 5 poza tym, że lubimy to nazywać
+
+01:44.920 --> 01:49.780
+przechodzenie, ponieważ nie wiesz, kiedy zakończy się lista linków.
+
+01:49.780 --> 01:53.400
+Zaczynasz od głowy i idziesz dalej, póki nie trafisz.
+
+01:53.920 --> 01:58.520
+Jak widać w naszym przykładzie kodowania, będziemy musieli użyć czegoś takiego jak pętla WHILE.
+
+01:58.630 --> 02:04.480
+Kiedy implementujemy nasze własne połączone listy, ponieważ zwykle nie wiemy, jak długo ma
+
+02:05.800 --> 02:12.730
+być kolejną zaletą tablicy, większość komputerów ma systemy buforowania, które powodują, że czytanie z pamięci
+
+02:12.730 --> 02:16.210
+sekwencyjnej jest pamięcią zaraz obok siebie .
+
+02:16.270 --> 02:18.290
+Półki tuż obok siebie.
+
+02:18.460 --> 02:21.390
+Szybsza niż czytanie rozproszonych adresów.
+
+02:21.580 --> 02:27.610
+I to jest coś, o czym mówiliśmy, że już elementy tablicy znajdują się zawsze obok siebie
+
+02:27.610 --> 02:29.200
+w pamięci komputera.
+
+02:30.150 --> 02:35.480
+Lista łączy i węzły są w rzeczywistości rozproszone w całej pamięci.
+
+02:35.700 --> 02:44.080
+Podobne tabele mieszające, więc iterowanie przez listę połączoną lub przechodzenie przez listę połączoną jest zwykle nieco wolniejsze
+
+02:44.230 --> 02:50.210
+niż iterowanie przez elementy takie jak tablica, mimo że są one
+
+02:50.210 --> 02:51.340
+technicznie obydwoma.
+
+02:51.570 --> 02:59.670
+Jednak te wstawki, które możemy zrobić na środku połączonej listy, są dużo lepsze niż tablice.
+
+02:59.670 --> 03:01.140
+A co z tabelami mieszającymi.
+
+03:01.140 --> 03:09.410
+Pamiętaj o tym, kiedy rozmawialiśmy o tabelach mieszających, podobnie jak tabele mieszania, kiedy wstawiamy coś do listy połączonej, po prostu
+
+03:09.410 --> 03:15.620
+rozpraszamy ją po całej pamięci i możemy po prostu dodawać ciągłe dodawanie, dodawać je
+
+03:15.620 --> 03:22.590
+i nie musimy robić żadnych z tego na zmianie lub przesunięciu indeksów, które zrobiliśmy z wyścigiem, który
+
+03:23.250 --> 03:25.310
+jest naprawdę bardzo miły.
+
+03:26.320 --> 03:32.300
+Możesz także bardzo łatwo usuwać notatki w porównaniu z tablicą.
+
+03:32.510 --> 03:38.750
+Ale jedyną przewagą jaką ma nad tablicami hash jest to, że istnieje kolejność linków, które każdy węzeł
+
+03:39.290 --> 03:41.170
+wskazuje na następną nutę.
+
+03:41.240 --> 03:46.360
+Możesz więc sortować dane tak, jak tabelę mieszającą.
+
+03:46.390 --> 03:55.120
+Jeśli więc spojrzymy na nasz wielki wiersz połączonych list, zobaczymy, że przedrostek jest wspólnym językiem, który mówimy, aby
+
+03:55.270 --> 03:58.180
+dodać do początku połączonej listy.
+
+03:58.180 --> 04:03.380
+Prebend to 0 1 append, który znajduje się na końcu listy.
+
+04:03.400 --> 04:11.200
+Aby dodać nowy element, wystarczy jedno spojrzenie, które możemy również nazwać traversal, aby wyszukać przedmiot.
+
+04:11.200 --> 04:17.500
+Powiedzmy, że chcemy znaleźć 10, ponieważ musimy przejść od początku do końca, aż znajdziemy to,
+
+04:17.770 --> 04:18.760
+czego szukamy.
+
+04:19.940 --> 04:27.650
+Wstawianie jest również spowodowane tym, że musimy znaleźć jeden po drugim indeks.
+
+04:27.650 --> 04:32.870
+Nie wiemy, jak długo lista jest połączona, znajdujemy indeks, a następnie wstawiamy
+
+04:32.870 --> 04:37.550
+tam, co technicznie mogłoby zabrać i jeszcze raz coś, co
+
+04:37.550 --> 04:45.150
+zamierzamy wprowadzić w kod i lepiej zrozumieć i usunąć, to także wszystko w Vende, ponieważ Muszę znaleźć przedmioty.
+
+04:45.170 --> 04:50.460
+Teraz myślisz, że trzymasz się wstawiania i usuwania, a tablice są również wszystkie z nich.
+
+04:50.480 --> 04:52.960
+Więc jak to jest lepsze.
+
+04:53.020 --> 04:57.340
+I to jest coś, do czego wejdziemy, kiedy przyjrzymy się kodowi.
+
+04:57.340 --> 05:05.110
+Pamiętaj, że jest to najgorszy przypadek, w którym to przypadku wstawiamy lub usuwamy ostatni przedmiot, a większość razy nie
+
+05:05.140 --> 05:07.200
+będzie to lista połączona.
+
+05:07.360 --> 05:13.030
+Znowu coś, o czym będziemy mówić trochę, gdy zakodujemy naszą własną listę linków, ale
+
+05:13.030 --> 05:18.960
+patrząc na taki diagram, naprawdę trudno jest naprawdę zrozumieć, jak działają i jakie są listy długości.
+
+05:19.130 --> 05:20.490
+Więc zamierzamy zakodować nasze własne.
+
+05:21.020 --> 05:25.670
+A następne wideo, o którym będziemy rozmawiać o tym ostatnim fragmencie łamigłówki, jest wskaźnikiem.
+
+05:25.700 --> 05:32.000
+A potem w końcu zakoduj naszą własną listę linków, abyśmy mogli lepiej zrozumieć implikacje big-O.
+
+05:33.330 --> 05:34.670
+Zobaczę to.
+
+05:34.750 --> 05:34.980
+Babai.

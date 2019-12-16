@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.770 --> 00:01.690
+Bine ai revenit.
+
+00:02.120 --> 00:05.230
+Îți voi arăta animația preferată a cursului.
+
+00:05.240 --> 00:06.140
+Sunt foarte mândru de asta.
+
+00:06.170 --> 00:08.630
+Deci, nu râde de mine dacă credeți că este așa.
+
+00:09.020 --> 00:17.660
+Îmi place să mă gândesc la recursiune ca la acest scenariu în care ai această apă de turnare de top într-un pahar
+
+00:17.660 --> 00:22.130
+pentru acest mic om care stă pe canapea uitându-se la televizor.
+
+00:22.250 --> 00:27.650
+Și când mă gândesc la recursivitate, îmi place să cred că au două mari probleme.
+
+00:28.840 --> 00:34.190
+Unul este așa de bine că sunt destul de greu de înțeles la început.
+
+00:34.240 --> 00:40.030
+Al doilea este că putem avea un caz ca acesta, în care vărjesc apă într-un pahar, turnând apă
+
+00:40.030 --> 00:42.360
+într-un pahar și turnând apă într-un pahar.
+
+00:42.430 --> 00:48.150
+Și asta eu numesc funcția de peste și peste și peste.
+
+00:48.550 --> 00:53.140
+Și pe măsură ce continuăm să mergem, vom umple cupa peste limită.
+
+00:53.140 --> 00:54.040
+Continuă să meargă.
+
+00:54.040 --> 00:54.920
+Nu se oprește.
+
+00:54.920 --> 00:59.210
+Continuă să cerceteze funcția continuă să funcționeze până la băiat.
+
+00:59.350 --> 01:01.850
+Omul sa înecat.
+
+01:01.940 --> 01:03.510
+Ce sa întâmplat aici.
+
+01:03.620 --> 01:06.890
+Aceasta se numește Overflow de stive.
+
+01:07.160 --> 01:09.810
+Să ne întoarcem la un cod.
+
+01:09.940 --> 01:13.850
+Amintiți-vă funcția de început pe care am creat-o.
+
+01:13.980 --> 01:15.660
+Dacă execut această funcție
+
+01:18.270 --> 01:19.830
+și spun inițial
+
+01:22.720 --> 01:26.790
+și pur și simplu executați această funcție, voi primi o eroare.
+
+01:27.250 --> 01:30.170
+Să facem asta puțin mai mare pentru a vedea.
+
+01:30.320 --> 01:36.140
+Am o eroare spunând că dimensiunea maximă a stivei de apeluri a depășit browserul meu.
+
+01:36.200 --> 01:42.660
+În acest caz, Google Chrome este suficient de inteligent pentru a spune că trebuie să oprești această nebunie.
+
+01:42.680 --> 01:49.400
+Numesc această funcție inițială de peste și peste și peste și peste, deoarece amintesc că funcția noastră
+
+01:49.400 --> 01:50.960
+se numește singură.
+
+01:50.960 --> 01:55.340
+Și în cele din urmă, dacă Google Chrome nu oprește acest lucru, se va prăbuși.
+
+01:55.340 --> 02:00.470
+Și în trecut, ce s-ar întâmpla dacă execut această funcție, browserul s-ar prăbuși și ar fi
+
+02:00.470 --> 02:01.480
+trebuit să-l repornească.
+
+02:01.760 --> 02:08.120
+Dar au adăugat aici garanții, spunând că ați apelat la mărimea maximă a numărului de apeluri.
+
+02:08.120 --> 02:10.490
+Trebuie să oprești ceea ce faci acum.
+
+02:10.490 --> 02:14.250
+Aceasta se numește stack pentru.
+
+02:14.360 --> 02:16.170
+De ce este asta.
+
+02:16.180 --> 02:23.830
+Să ne aruncăm mai adânc în acest subiect pentru a șterge consola aici și chiar la funcția noastră de început.
+
+02:23.830 --> 02:33.320
+Dar de data aceasta voi adăuga un cuvânt cheie numit debugger pe care browserul Chrome îl va detecta și va
+
+02:33.380 --> 02:37.050
+întrerupe funcția atunci când vede acest cuvânt.
+
+02:37.100 --> 02:46.690
+Așa că am de gând să execut această funcție și veți observa că de îndată ce vor lovi intra, se va opri și dă-mi un
+
+02:47.110 --> 02:51.700
+panou mic aici, unde pot controla funcția care a fost lovită.
+
+02:52.960 --> 02:53.790
+Și tu te duci.
+
+02:53.950 --> 02:58.960
+Vreau să spun acum modul de depanare și veți vedea aici câteva lucruri.
+
+02:58.980 --> 03:06.960
+Unul îmi va arăta unde sunt eu și funcția și, de asemenea, mi-ar arăta o schimbare în jur, așa că este puțin
+
+03:06.960 --> 03:07.830
+mai curată.
+
+03:07.830 --> 03:09.540
+O să fac un pic mai mic.
+
+03:09.540 --> 03:10.420
+Acolo te duci.
+
+03:10.830 --> 03:13.950
+Vedeți aici este ceva numit stiva rece.
+
+03:13.950 --> 03:19.260
+Acum, din numele Overflow Overload, acest lucru vă poate da un pic de indiciu.
+
+03:19.370 --> 03:23.530
+Chiar acum am numit funcția de început chiar aici.
+
+03:23.750 --> 03:27.300
+Avem o denumire a doua oară.
+
+03:27.650 --> 03:33.090
+Dacă dau clic pe pictograma deasupra, se va trece la următoarea linie de cod.
+
+03:33.170 --> 03:34.980
+O să meargă la următoarea.
+
+03:35.210 --> 03:38.340
+Și acum va numi următoarea funcție de interceptare.
+
+03:39.300 --> 03:45.130
+Priviți aici la stackul de apeluri în ceea ce privește ce urmează să se întâmple.
+
+03:47.430 --> 03:55.470
+Vedeți că tocmai am adăugat o funcție notter pe stackul de apeluri și după cum știm despre structura de date
+
+03:55.680 --> 03:58.230
+stivă, adăugăm doar apelul pentru funcții.
+
+03:58.230 --> 04:06.870
+În partea de sus a celei mai vechi și dacă eu pas înapoi aici și du-te din nou, acesta este un apel de a treia funcție și dacă eu
+
+04:06.870 --> 04:08.440
+continuă să meargă continua merge.
+
+04:08.490 --> 04:13.830
+Veți vedea că tocmai am adăugat tot mai multe lucruri în stack.
+
+04:14.310 --> 04:16.010
+Dar există o problemă aici.
+
+04:16.290 --> 04:20.260
+Nimic nu se scoate din stack.
+
+04:20.310 --> 04:26.370
+În schimb, funcția continuă să fie difuzată, continuă să fie difuzată, continuă să fie difuzată, continuă să funcționeze
+
+04:27.090 --> 04:29.870
+până când nu mai avem memorie aici.
+
+04:29.940 --> 04:31.080
+Adu-ți aminte de stiva.
+
+04:31.140 --> 04:38.180
+În acest caz, este prins o bucată de memorie de la computerul nostru și adăugarea inițială la stivă.
+
+04:38.550 --> 04:41.980
+Și după cum știți că memoria este limitată, nu avem o cantitate infinită.
+
+04:42.210 --> 04:49.230
+Deci, pe măsură ce continuăm să mergem, va trece o stivă și o aruncă acolo.
+
+04:49.740 --> 04:55.910
+Și aceasta este una dintre cele mai mari probleme cu recursivitatea pe care o vom face mai târziu.
+
+04:56.430 --> 05:03.300
+După cum vedeți aici, poate fi foarte periculos pentru că putem rula programe care depășesc, care
+
+05:03.300 --> 05:09.840
+nu se opresc niciodată și care au bucle infinite, în esență, care prăbușesc programele noastre.
+
+05:09.840 --> 05:19.170
+De asemenea, veți vedea aici că acest lucru costă o memorie care stochează aceste apeluri de funcții, iar recursul unul din dezavantajele sale
+
+05:19.170 --> 05:26.490
+este că trebuie să ținem aceste apeluri și să le amintim unul câte unul, ceea ce poate deveni
+
+05:26.490 --> 05:27.920
+cu adevărat costisitor.
+
+05:28.260 --> 05:34.470
+Deci, dacă vom fi întrebat vreodată această întrebare într-un interviu despre recurență, poate o
+
+05:34.470 --> 05:42.050
+posibilă problemă cu recursivitatea, puteți spune pur și simplu că calculatorul trebuie să aloce memorie pentru a-și aminti lucrurile.
+
+05:42.300 --> 05:49.620
+Stack Overflow poate apărea atunci când avem recursivitate și nu există nicio modalitate de a opri acest apel recursiv.
+
+05:49.920 --> 05:55.170
+Este pur și simplu computerul care spune că cineva carea whoa OK OK asta devine stupid.
+
+05:55.170 --> 05:57.030
+Nu-mi mai amintesc lucrurile.
+
+05:57.060 --> 05:58.640
+Nu am memorie.
+
+05:58.690 --> 06:03.080
+Mă duc doar în următorul videoclip.
+
+06:03.190 --> 06:07.630
+Vom încerca să rezolvăm această problemă și să învățăm despre ceva numit caz de bază.
+
+06:07.750 --> 06:14.710
+Cred că trebuie să aveți o funcție recursivă pentru ao opri să facă asta.
+
+06:14.710 --> 06:16.600
+Voi vedea în următoarea.

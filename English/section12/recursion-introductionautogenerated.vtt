@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.030 --> 00:08.340
+Ok ok I'm actually starting with a bit of a trick here recursion which we're going to talk about in
+
+00:08.340 --> 00:13.980
+the next couple of videos isn't technically an algorithm.
+
+00:14.050 --> 00:19.870
+It's more of a concept that we are going to use throughout this section of the Course to write some
+
+00:19.870 --> 00:27.350
+really interesting algorithms when we get into sorting and searching through a binary search tree.
+
+00:27.370 --> 00:30.040
+We're going to be using recursion a lot.
+
+00:30.040 --> 00:32.140
+So I want to prepare you.
+
+00:32.390 --> 00:37.040
+And obviously it's also a common topic in interviews.
+
+00:37.040 --> 00:41.950
+Actually this is one of the most popular topics I would say when it comes to interview.
+
+00:42.030 --> 00:49.160
+Now what is recursion really when you're searching for files on a computer.
+
+00:49.200 --> 00:54.450
+For example if you're on your desktop and you want to find all your music files you're MP three files
+
+00:54.690 --> 01:01.470
+on your computer you can do it by just looking at one folder you want to look at folders recursively
+
+01:02.130 --> 01:03.980
+to find all your music.
+
+01:04.020 --> 01:06.600
+Let me show you what I mean.
+
+01:06.750 --> 01:14.120
+I have the projects here that we've used for one of my other courses and it's a back end API in Dakar.
+
+01:14.400 --> 01:19.770
+Now life cloned this repository and I have it right here on my desktop.
+
+01:19.870 --> 01:27.230
+Now if I wanted to search through all the files in this project I can simply type an LS to show me the
+
+01:27.290 --> 01:28.120
+files.
+
+01:28.540 --> 01:35.440
+But as you see in blue here we also have folders that inside of them also have files.
+
+01:35.520 --> 01:38.800
+How can they also see the files in this folder.
+
+01:39.270 --> 01:44.260
+Well I can do something called LS dash R and R.
+
+01:44.280 --> 01:47.170
+Guess what stands for recursively.
+
+01:47.700 --> 01:55.850
+If I do this and I press Enter look at that I get also the files inside of the folders.
+
+01:56.150 --> 02:02.930
+You see that I have a control folder with javascript files I have postgresql folder with some doc files
+
+02:03.020 --> 02:10.520
+some eschewed all files and within those I also have a another folder that has different files but because
+
+02:10.520 --> 02:19.800
+I was able to list items recursively my computer went inside of each folder and printed out the files.
+
+02:19.800 --> 02:29.880
+So what is recursion Well recursion is when you define something in terms of itself simply it's a function
+
+02:29.910 --> 02:34.670
+that refers to itself inside of the function.
+
+02:34.680 --> 02:35.050
+All right.
+
+02:35.090 --> 02:36.960
+There's no way you got that right.
+
+02:37.200 --> 02:40.560
+That's probably the most confusing definition ever again.
+
+02:40.620 --> 02:50.000
+Let me show you an example if I open up the console here a recursive function is a function that refers
+
+02:50.000 --> 02:51.090
+to itself.
+
+02:51.410 --> 02:54.340
+So I can create a function called let's say inception
+
+02:57.750 --> 02:59.680
+and this function is recursive.
+
+02:59.700 --> 03:04.000
+If I refer to itself inside of it.
+
+03:04.200 --> 03:09.870
+Let's try that again if I say inception here.
+
+03:10.880 --> 03:20.200
+This is a recursive function because when this function runs it's going to call itself and run again.
+
+03:20.240 --> 03:26.420
+The problem with recursion and why people find it so difficult is that it's an intimidating topic when
+
+03:26.420 --> 03:30.230
+people start talking about math and theoretical applications.
+
+03:30.350 --> 03:36.240
+Instead let's focus here on how recursion helps us solve problems.
+
+03:36.410 --> 03:43.590
+Recursion is really good for tasks that have repeated subtasks to do that.
+
+03:43.640 --> 03:48.110
+It kind of like when we looked at the folders inside of this project.
+
+03:48.110 --> 03:54.410
+And the reason recursion is so important and the reason that I talk about it first in this section before
+
+03:54.410 --> 04:01.940
+we dive into all the other algorithms is that this concept is going to be used in searching and sorting
+
+04:02.120 --> 04:08.090
+algorithms that we're going to be talking about for example traversing a tree if you think about it
+
+04:08.360 --> 04:12.960
+are simply same tasks that we do over and over again.
+
+04:13.430 --> 04:18.830
+Remember when we build our own tree data structure our binary search tree.
+
+04:19.400 --> 04:22.350
+And I gave you a little function at the end.
+
+04:23.190 --> 04:29.940
+Called traverse that allowed us to print our tree so we can verify our answer.
+
+04:30.940 --> 04:35.240
+If we look at this closer we see that we're using recursion here.
+
+04:35.320 --> 04:44.120
+I have a traverse function that calls itself within you and this is something that we're going to demonstrate
+
+04:44.120 --> 04:48.500
+a lot of when we talk about searching and sorting in the upcoming sections.
+
+04:48.500 --> 04:50.840
+Recursion is everywhere.
+
+04:50.840 --> 04:57.760
+When we do DOM traversal on a Web site if we go to elements here when we do this traversal on and h
+
+04:57.770 --> 05:07.730
+him all document object model we're using recursion in javascript when we have a nested object so an
+
+05:07.730 --> 05:09.610
+object inside of an object.
+
+05:10.040 --> 05:17.930
+Well we use recursion but the key to getting recursion is to understand that it's not that complex.
+
+05:17.930 --> 05:24.900
+As long as you practice it a little bit wants to get it and get over the initial hump then it becomes
+
+05:24.990 --> 05:25.940
+second nature.
+
+05:26.190 --> 05:31.750
+And my goal is by the end of these videos that you're going to get recursions.
+
+05:31.820 --> 05:33.200
+So let's get started.
+
+05:33.710 --> 05:34.620
+I'll see you in the next one.

@@ -1,0 +1,100 @@
+WEBVTT
+
+00:01.470 --> 00:09.720
+Mari kita belajar tentang struktur data yang hilang dalam kursus ini grafik grafik adalah salah satu struktur data yang
+
+00:09.720 --> 00:16.340
+paling berguna dan paling banyak digunakan dalam ilmu komputer ketika datang ke pemodelan kehidupan nyata.
+
+00:16.450 --> 00:25.440
+Singkatnya, grafik hanyalah sekumpulan nilai yang terkait secara berpasangan dan dapat Anda lihat di sini.
+
+00:25.630 --> 00:27.360
+Sepertinya jaringan kecil.
+
+00:27.460 --> 00:33.110
+Ada koneksi ke berbagai node dalam grafik.
+
+00:33.110 --> 00:37.750
+Setiap item disebut simpul atau simpul.
+
+00:37.970 --> 00:39.670
+Jadi ini adalah sebuah simpul.
+
+00:39.830 --> 00:46.630
+Ini adalah simpul yang kemudian dihubungkan dengan pinggiran.
+
+00:46.880 --> 00:54.880
+Jadi itu keunggulan, keunggulan, dan niche, dan seperti yang Anda bayangkan grafik adalah struktur data yang
+
+00:54.880 --> 00:57.910
+hebat untuk memodelkan hubungan dunia nyata.
+
+00:57.970 --> 01:04.120
+Kami menyajikan rumput panjang kesepakatan Maaf untuk kasus-kasus di mana Anda bekerja dengan hal-hal yang terhubung ke hal-hal
+
+01:04.120 --> 01:04.830
+lain.
+
+01:04.930 --> 01:07.510
+Seperti bagaimana Internet bekerja.
+
+01:07.510 --> 01:08.590
+Kanan.
+
+01:08.650 --> 01:18.450
+Kita dapat menggunakan grafik untuk mewakili mungkin persahabatan mungkin pohon keluarga kita dapat menggunakan grafik untuk mewakili jaringan dan web di seluruh dunia
+
+01:18.640 --> 01:25.690
+atau kita dapat menggunakan grafik untuk mewakili jalan satu kota ke kota lain dan jalan yang terhubung
+
+01:25.690 --> 01:27.850
+seperti yang Anda bayangkan.
+
+01:27.850 --> 01:30.630
+Facebook menggunakannya untuk jejaring sosial mereka.
+
+01:30.640 --> 01:38.740
+Amazon menggunakannya untuk mesin rekomendasi mereka dan Google Maps menggunakan grafik untuk menentukan jalur terpendek ke tempat
+
+01:38.740 --> 01:40.750
+Anda ingin pergi.
+
+01:41.080 --> 01:43.380
+Jadi izinkan saya mengajukan pertanyaan kepada Anda.
+
+01:43.570 --> 01:45.640
+Apakah Anda pikir ini adalah grafik?
+
+01:45.640 --> 01:48.020
+Yah ya jelas kami baru saja melewatinya.
+
+01:48.040 --> 01:49.610
+Bagaimana dengan ini.
+
+01:49.690 --> 01:53.040
+Bagaimana dengan ini dan ini dan ini.
+
+01:53.080 --> 01:54.190
+Bagaimana dengan yang ini.
+
+01:54.190 --> 02:02.560
+Baiklah akhirnya ini hanya mendapatkan beberapa lagi ini dan ini dan ini ya mereka semua grafik.
+
+02:02.800 --> 02:06.190
+Bahkan yang semacam ini terlihat seperti daftar tertaut.
+
+02:06.190 --> 02:09.390
+Itu sebuah grafik.
+
+02:09.540 --> 02:15.810
+Dan seperti yang dapat Anda lihat dalam grafik peta saya, mencakup hal-hal yang telah kami pelajari
+
+02:15.810 --> 02:20.730
+sebelumnya seperti pohon dan daftar tertaut daftar tertaut adalah jenis pohon.
+
+02:20.730 --> 02:23.350
+Pohon adalah jenis grafik.
+
+02:23.370 --> 02:26.970
+Jadi dalam beberapa video berikutnya Mari kita pelajari semua tentang grafik.

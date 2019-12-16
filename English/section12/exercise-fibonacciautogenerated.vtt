@@ -1,0 +1,64 @@
+WEBVTT
+
+00:02.800 --> 00:11.200
+You can't talk about recursion without talking about the Fibonacci Sequence What is the field Bonacci
+
+00:11.200 --> 00:12.220
+sequence.
+
+00:12.220 --> 00:16.990
+Well it's this this sequence right here the pattern.
+
+00:16.990 --> 00:22.970
+If you notice is that we're always adding the first two items equals this one.
+
+00:22.990 --> 00:30.920
+So zero plus one equals one one plus one equals to one plus two equals three two plus three.
+
+00:30.940 --> 00:31.710
+He calls five.
+
+00:31.810 --> 00:34.770
+So on and so forth so on and so forth.
+
+00:34.810 --> 00:39.410
+So the previous two numbers always equals the current number.
+
+00:39.820 --> 00:45.590
+So I have another exercise for you this one a little bit tougher than the previous one.
+
+00:46.860 --> 00:57.660
+Given a number N that the function's going to receive return the index value of the Fibonacci sequence.
+
+00:59.290 --> 01:10.710
+So if I say that I want the end to equal to it's going to give me 0 1 2 that is the number one.
+
+01:10.870 --> 01:17.090
+This function is going to return 1 if I say Fibonacci number 8.
+
+01:17.140 --> 01:23.040
+I would get 0 1 2 3 4 5 6 7 8.
+
+01:23.120 --> 01:25.670
+I would get 21.
+
+01:25.750 --> 01:31.550
+The function will tell me what number is associated with the index that I give it.
+
+01:31.620 --> 01:40.990
+Once again I have the iterative approach that is using just simple for loops and also the recursive
+
+01:41.050 --> 01:42.180
+approach.
+
+01:42.250 --> 01:46.330
+I challenge you to try both of these and see if you can do it.
+
+01:46.330 --> 01:54.340
+And a big hint here is that the recursive approach is actually easier than the iterative approach.
+
+01:54.340 --> 01:57.990
+So good luck out there and I'll see you in the solution video.
+
+01:58.240 --> 01:58.540
+Buh-Bye.

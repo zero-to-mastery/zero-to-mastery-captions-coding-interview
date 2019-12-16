@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.410 --> 00:07.580
+Înainte de a ne codifica propriul arbore binar de căutare, mergeți înapoi înainte de a trece peste implicațiile privind performanța și de ce
+
+00:07.730 --> 00:11.310
+am putea să o folosim în raport cu alte structuri de date.
+
+00:11.440 --> 00:16.430
+Punctele forte ale sale sunt că au performanțe foarte bune la bord.
+
+00:16.490 --> 00:22.590
+Ați văzut că cele mai multe operații sau toate operațiile dintr-un arbore binar de căutare sunt mai bune decât 0.
+
+00:22.640 --> 00:27.620
+Eveniment presupunând că arborele binar de căutare este balsed.
+
+00:27.730 --> 00:36.690
+De asemenea, este comandat și deoarece putem plasa nodul oriunde în memorie, putem avea dimensiuni flexibile.
+
+00:36.690 --> 00:40.070
+Putem să ne cultivăm copacul.
+
+00:40.080 --> 00:46.460
+Dezavantajul este că, după cum probabil ați observat, nu are nicio operație 0 1.
+
+00:46.590 --> 00:53.770
+De obicei, trebuie să facem un fel de traversal prin copac pentru orice fel de operație, astfel încât în ​​comparație cu o matrice o privire în sus,
+
+00:53.770 --> 01:02.080
+de exemplu, va fi mult mai rapidă, deoarece avem toate log n pentru căutări vs dacă vom itera printr-o matrice întreagă dacă matricea este
+
+01:02.080 --> 01:09.480
+nesortată inserte și șterge sunt, de asemenea, mai rapidă matrice mai restrânse, cu excepția cazului în
+
+01:09.480 --> 01:12.920
+care matricea se adaugă la sfârșitul.
+
+01:12.970 --> 01:18.790
+În caz contrar, rețelele trebuie să treacă toate indicii în raport cu un arbore binar de căutare.
+
+01:18.790 --> 01:23.350
+Aceasta este doar 0 de log in ceea ce despre comparativ cu tabele hash.
+
+01:23.540 --> 01:32.030
+Ei bine, deși tabelele hash ne permit să inserăm și să căutăm în timp constant cu arbori binari de căutare, avem
+
+01:32.030 --> 01:40.490
+date sortate și avem și această structură a relației părinte-copil, pe care nu o veți putea obține prea mult cu
+
+01:40.490 --> 01:47.300
+tabelele hash, un lucru bun de păstrat în minte este că arborii binari de căutare nu
+
+01:47.300 --> 01:50.240
+sunt cei mai rapizi pentru orice.
+
+01:50.280 --> 01:57.420
+Amintiți-vă că operațiunile lor sunt, de obicei, întotdeauna 0 de log și în medie o matrice sau un obiect va avea
+
+01:57.420 --> 01:59.040
+o funcționare mai rapidă.
+
+01:59.310 --> 02:07.520
+Există însă anumite condiții în care realizează obiecte și tablouri, astfel încât arborii binari de căutare să se
+
+02:07.520 --> 02:08.950
+descurce foarte bine.
+
+02:09.140 --> 02:14.780
+Atâta timp cât vă asigurați că rămâneți departe de cazurile pe care le-am discutat și
+
+02:14.780 --> 02:22.620
+că echilibram arborele binar de căutare, dar suficient de mult vorbim de diapozitive, cred că înțeleg și înțeleg cum funcționează copacii.
+
+02:22.620 --> 02:23.860
+Ar trebui să ne codificăm propriul.
+
+02:24.240 --> 02:25.930
+Voi vedea în următorul.

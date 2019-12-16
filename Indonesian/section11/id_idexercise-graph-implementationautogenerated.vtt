@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.720 --> 00:01.600
+Selamat datang kembali.
+
+00:01.770 --> 00:08.110
+Saatnya untuk membuat grafik kami sendiri dan saya telah membuat template untuk Anda.
+
+00:08.130 --> 00:14.220
+Anda juga dapat membuat sendiri jika ingin, tetapi saya hanya menyertakan hal-hal yang memungkinkan Anda fokus pada bagian
+
+00:14.220 --> 00:14.870
+penting.
+
+00:15.270 --> 00:19.670
+Kami memiliki kelas grafik dan beberapa metode yang harus kami tambahkan.
+
+00:19.740 --> 00:31.230
+Sekarang kita akan membuat kembali sebuah grafik di sini, sebuah grafik tanpa bobot terarah seperti ini menggunakan daftar adjacency
+
+00:31.470 --> 00:37.560
+dan untuk daftar adjacency kita akan menggunakan tabel hash.
+
+00:37.560 --> 00:40.380
+Jadi bagaimana cara kita melakukan ini.
+
+00:40.410 --> 00:44.080
+Yah saya punya beberapa hal yang saya siapkan untuk Anda.
+
+00:44.890 --> 00:50.980
+Salah satunya adalah bahwa dalam konstruktor kita hanya memiliki sejumlah catatan yang harus kita tambahkan hanya untuk melacak
+
+00:50.980 --> 00:56.330
+berapa banyak catatan atau vertex atau Virs melihat yang kita miliki dalam grafik kita.
+
+00:57.440 --> 01:03.260
+Dan juga saya telah membuat daftar yang berdekatan untuk Anda yang merupakan objek.
+
+01:03.440 --> 01:10.220
+Dan saat Anda melakukan latihan ini, Anda akan menyadari mengapa kami ingin menggunakan katakanlah sebuah objek versus
+
+01:10.220 --> 01:17.600
+array karena jika kita mulai menghapus sesuatu dari grafik atau menempatkan sesuatu dalam grafik yang rusak itu akan menghabiskan
+
+01:17.600 --> 01:20.000
+banyak biaya bagi kita .
+
+01:20.000 --> 01:27.140
+Ingat array pada pengalihan dan pengalihan mahal dengan objek kita dapat dengan cepat menemukan
+
+01:27.140 --> 01:35.280
+item dan melihat koneksinya sehingga idealnya dalam kasus ini di mana kita memiliki tiga atau mari kita lihat
+
+01:35.280 --> 01:43.610
+0 dalam hal ini akan memiliki nol akan terhubung ke array-nya koneksi yang akan menjadi 1 dan 2.
+
+01:43.740 --> 01:48.820
+Jadi saya akan memiliki sesuatu seperti ini.
+
+01:48.850 --> 01:55.900
+Tugas Anda adalah menambahkan metode baru yang disebut memiliki Virtex yang menambahkan simpul atau simpul baru.
+
+01:55.960 --> 02:02.920
+Penamaan di sini jenis bolak-balik dan kemudian juga menambahkan tepi yaitu untuk menambahkan koneksi antara node 1
+
+02:02.920 --> 02:04.490
+dan No 2.
+
+02:04.600 --> 02:11.380
+Dan perlu diingat bahwa ini ada pada arahan jika kurasa lonceng itu adalah grafik yang tidak terarah.
+
+02:11.380 --> 02:16.460
+Jadi keduanya tidak. 1 dan Tidak. 2 menunjuk satu sama lain dan jika Anda gulir ke sini.
+
+02:16.570 --> 02:21.260
+Saya sebenarnya telah membuat panggilan fungsi panggilan yang akan kita lakukan.
+
+02:21.380 --> 02:28.240
+Kami telah membuat grafik dan kemudian saya membuat nol sampai 6 seperti yang ada pada grafik
+
+02:28.240 --> 02:29.320
+di sini.
+
+02:29.320 --> 02:32.200
+Dan kemudian kita akan menambahkan tepi.
+
+02:32.200 --> 02:39.280
+Itu adalah koneksi antara segala sesuatu yang terhubung 0 0 terhubung ke enam terhubung ke lima hanya dengan mengatakan ini saya
+
+02:41.340 --> 02:47.520
+tidak pernah mengulangi diri saya sendiri yang berarti saya tidak pernah mengatakan menambahkan tiga dalam satu dan kemudian mengatakan
+
+02:47.520 --> 02:49.540
+menambahkan tepi 1 dan 3.
+
+02:49.620 --> 02:53.570
+Saya hanya mengatakan ini sekali dan itulah kuncinya.
+
+02:53.790 --> 02:59.940
+Dan juga urutannya tidak masalah jika saya mengalihkan urutan panggilan ini di sekitarnya, saya masih
+
+03:00.120 --> 03:02.050
+harus memberikan grafik ini.
+
+03:02.090 --> 03:02.630
+Baiklah.
+
+03:02.630 --> 03:08.630
+Saya tahu Anda bersemangat untuk pergi tetapi yang terakhir dan ini hanya opsional jika Anda ingin melakukan ini sendiri,
+
+03:08.630 --> 03:10.500
+Anda juga dapat Codie sendiri.
+
+03:10.550 --> 03:14.540
+Tapi itu tidak terlalu penting untuk video ini.
+
+03:14.900 --> 03:22.490
+Saya telah membuat fungsi pembantu kecil yang disebut koneksi show dan Anda dapat melihat melalui fungsi ini
+
+03:22.520 --> 03:24.230
+jika Anda mau.
+
+03:24.250 --> 03:29.230
+Ini tidak terlalu penting untuk inti kursus, tetapi saya telah membuat ini sehingga
+
+03:29.500 --> 03:38.860
+Anda dapat memeriksa pekerjaan Anda karena jika saya menjalankan ini menggunakan akhir koneksi grafik saya akan mencetak jawaban seperti ini dan itu akan menunjukkan
+
+03:40.830 --> 03:44.500
+semua koneksi dari grafik yang telah Anda buat.
+
+03:44.730 --> 03:52.740
+Dan dengan cara ini Anda dapat memeriksa bahwa koneksi yang merupakan simpul untuk terhubung ke 3 2 dan 5
+
+03:52.890 --> 03:59.340
+note 4 terhubung ke 3 2 dan 5 seperti yang kita miliki di sini.
+
+03:59.340 --> 04:01.310
+Baiklah itu cukup bagiku.
+
+04:01.350 --> 04:05.010
+Semoga berhasil pada latihan ini dan sampai jumpa di video solusi.
+
+04:05.100 --> 04:05.370
+Malet.

@@ -1,0 +1,157 @@
+WEBVTT
+
+00:01.580 --> 00:07.440
+Selamat datang kembali di bagian ini, kami mempelajari semua tentang daftar tertaut.
+
+00:07.520 --> 00:15.050
+Kami telah mempelajari bagaimana ini tidak dibuat dalam banyak bahasa seperti javascript, tetapi bahasa lainnya.
+
+00:15.170 --> 00:21.030
+Itu karena daftar tertaut adalah struktur data tingkat rendah.
+
+00:21.040 --> 00:25.100
+Ini banyak digunakan sebenarnya dalam struktur data lain seperti tabel hash.
+
+00:25.330 --> 00:31.390
+Dan seperti yang akan kita lihat di beberapa yang akan datang seperti tumpukan dan Qs di
+
+00:32.410 --> 00:40.090
+sana kita akan membicarakannya adalah struktur data mendasar yang sangat berguna dan ilmu komputer dan juga pertanyaan yang sangat populer
+
+00:40.090 --> 00:42.050
+ketika datang untuk wawancara.
+
+00:42.490 --> 00:49.840
+Kami belajar bahwa ketika sampai pada daftar tertaut tidak ada akses acak dalam arti bahwa ketika mencari sesuatu
+
+00:49.840 --> 00:56.380
+yang Anda harus benar-benar melintasi daftar dengan tabel hash kita tidak dapat menemukan hal-hal segera dengan
+
+00:56.740 --> 01:00.200
+array yang kita dapat menemukan sesuatu melalui indeks.
+
+01:00.310 --> 01:05.930
+Kami memiliki pencarian lambat, kami harus menelusuri daftar jika kami mencari sesuatu.
+
+01:06.060 --> 01:13.280
+Namun mereka dipesan pada tabel hash seperti dan daftar tertaut memungkinkan kita untuk memiliki pesanan semacam ini.
+
+01:13.500 --> 01:21.780
+Jika kami memiliki sejumlah besar item dan Ray dan kami terus menambahkan ke array itu kita harus memiliki biaya
+
+01:21.810 --> 01:29.460
+overhead yang berlebihan menyalin array dalam memori dan menggandakan ruang ketika mencapai batas untuk membuat array yang
+
+01:29.730 --> 01:38.370
+lebih besar dibandingkan yang ditautkan daftar di mana kita dapat memiliki penyisipan cepat dan penghapusan cepat terutama setelah kita memiliki
+
+01:38.370 --> 01:43.240
+referensi ke tempat kita ingin menyisipkan atau menghapus catatan itu.
+
+01:44.240 --> 01:52.090
+Ini juga menjadi sangat cepat ketika di awal daftar atau di akhir daftar.
+
+01:52.310 --> 01:56.240
+Dan kita akan melihat itu muncul ketika kita berbicara tentang tumpukan dan Qs.
+
+01:56.240 --> 02:02.450
+Alasan utama untuk memilih daftar tertaut di atas sesuatu seperti array adalah kesederhanaan dan kemampuan untuk tumbuh
+
+02:02.450 --> 02:04.250
+dan menyusut sesuai kebutuhan.
+
+02:04.250 --> 02:10.820
+Sekarang bekerja dengan mereka seperti yang kita lihat bisa sedikit aneh dan sulit untuk hanya
+
+02:10.820 --> 02:18.080
+mengelola semua pointer di kepala Anda tetapi mereka cukup ringan dan mandiri karena mereka bisa sangat fleksibel
+
+02:18.080 --> 02:18.540
+juga.
+
+02:19.940 --> 02:25.490
+Itu saja yang akan Anda lihat daftar tertaut dan banyak tempat seperti menerapkan sistem
+
+02:25.490 --> 02:28.740
+file di komputer Anda atau bahkan riwayat browser.
+
+02:28.820 --> 02:31.830
+Saat Anda bolak-balik di browser.
+
+02:32.690 --> 02:38.000
+Anda dapat menganggapnya sebagai daftar tertaut karena Anda dapat melintasi satu per satu dari satu tempat ke
+
+02:39.220 --> 02:44.120
+tempat lain dan mengingat dengan tabel hash kami bagaimana kami mengalami masalah tabrakan ini.
+
+02:44.410 --> 02:51.670
+Dan ketika kami memiliki tabrakan, kami harus melakukan sesuatu seperti ini di mana kami
+
+02:51.670 --> 02:59.510
+menggabungkan John Smith dan Sander D menjadi dua node dan salju pertama menunjuk ke not kedua.
+
+02:59.690 --> 03:08.150
+Jika kita kembali ke struktur data tabel hash yang kita buat jika kita gulir ke bawah ke metode
+
+03:08.150 --> 03:18.220
+yang ditetapkan di mana kita menetapkan kunci dan nilai dalam tabel hash kita melakukan pemeriksaan di sini untuk memeriksa apakah alamat ini ada
+
+03:18.300 --> 03:28.560
+Dan kemudian setelah itu kami menggunakan array untuk mendorong item kami jika kami memiliki beberapa item ketika kami memiliki tabrakan karena kadang-kadang kami
+
+03:29.250 --> 03:35.470
+dapat mengatur ukuran memori tabel hash kami menjadi jauh lebih kecil seperti dua.
+
+03:35.940 --> 03:44.520
+Dan Anda mungkin dapat melihat mengapa sekarang daripada menggunakan array yang setiap kali kita perlu memasukkan item
+
+03:44.520 --> 03:45.510
+baru.
+
+03:45.510 --> 03:47.680
+Maksud saya ini berhasil karena kami mendorong sampai akhir.
+
+03:47.790 --> 03:57.480
+Tetapi jika kita harus menghapus item pada tabel hash kita harus menggeser array yang seperti yang Anda tahu sangat
+
+03:57.690 --> 03:58.610
+lambat.
+
+03:58.860 --> 04:07.800
+Jadi kita bisa memodifikasi ini sekarang menjadi sesuatu seperti daftar tertaut sehingga penghapusan menjadi jauh lebih mudah daripada jika
+
+04:07.800 --> 04:09.710
+itu adalah array.
+
+04:09.810 --> 04:16.410
+Dan itu adalah sesuatu yang saya akan serahkan kepada Anda tetapi Anda harus memiliki rasa yang baik tentang mengapa struktur data
+
+04:16.470 --> 04:20.990
+ini ada sekarang dan mengapa Anda mungkin ingin menggunakan daftar tertaut melalui array.
+
+04:21.880 --> 04:28.020
+Kami juga menambahkan potongan teka-teki lain di peta pikiran kami.
+
+04:28.110 --> 04:34.770
+Kami telah berbicara tentang array tentang tabel hash dan sekarang kami berbicara tentang jika Anda melihat di sini daftar
+
+04:35.340 --> 04:40.830
+yang ditautkan adalah daftar yang terhubung secara tunggal dan ganda dengan notasi Big-O mereka.
+
+04:42.360 --> 04:47.900
+Dan hanya sebuah petunjuk di sini karena Anda dapat melihat daftar tertaut terkait dengan sesuatu yang akan kita
+
+04:47.910 --> 04:48.570
+bicarakan datang.
+
+04:49.480 --> 04:53.970
+Itu adalah pohon dan rumput.
+
+04:54.180 --> 05:01.650
+Tetapi pada akhirnya kami baru saja berhasil menambahkan struktur data lain ke dalam toolbelt kami sebagai insinyur.
+
+05:01.650 --> 05:06.710
+Selamat dan mari belajar tentang lebih banyak struktur data di video berikutnya
+
+05:06.820 --> 05:07.090
+Buh-Bye.

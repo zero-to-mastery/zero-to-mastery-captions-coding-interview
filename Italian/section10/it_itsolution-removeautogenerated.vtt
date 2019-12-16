@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.860 --> 00:02.110
+Ben tornato.
+
+00:02.120 --> 00:04.550
+Come è stato il metodo di rimozione.
+
+00:04.560 --> 00:06.460
+È stato piuttosto difficile, vero?
+
+00:06.500 --> 00:10.220
+Ora non mi aspetto che tu sia in grado di ottenerlo anche per me.
+
+00:10.220 --> 00:15.670
+Ci è voluto un bel po 'di tempo per farlo funzionare e ho intenzione di darti un'altra possibilità per finirlo.
+
+00:15.680 --> 00:22.310
+Se vuoi, ho il mio codice ridotto a icona qui solo per mostrarti le dichiarazioni if e i passaggi che sto
+
+00:22.310 --> 00:22.890
+prendendo.
+
+00:23.090 --> 00:27.580
+Quindi puoi sempre mettere in pausa questo video ma lasciami andare oltre i passaggi.
+
+00:27.590 --> 00:32.550
+Prenderò e di solito mi piace programmare passo dopo passo.
+
+00:32.720 --> 00:41.210
+Ma quando si tratta di questa funzione è davvero molto difficile fare un passo alla volta quando non si sta codificando se stessi o non
+
+00:41.210 --> 00:44.340
+si dispone di un diagramma da indicare e mostrare.
+
+00:44.330 --> 00:48.350
+Quindi lascerò il codice per te in modo che tu possa implementarlo da solo.
+
+00:48.350 --> 00:55.070
+E in realtà come sempre consiglio sempre di asciugare con un pezzo di carta per capire cosa sta succedendo.
+
+00:55.080 --> 01:01.280
+Altrimenti se avessi appena codificato questo sarebbe un video di 30 minuti di te che ti
+
+01:01.400 --> 01:08.340
+annoi e poi ti divertirai più con quello come strutture e non lo vogliamo, quindi tutto ciò che
+
+01:08.400 --> 01:15.030
+facciamo è bene se lo rimuoviamo controlleremo se c'è qualcosa nella radice se non c'è mentre l'albero è
+
+01:15.060 --> 01:22.100
+vuoto non c'è niente da rimuovere restituiremo falso altrimenti prenderemo il nodo corrente come prima la rotta stellare e
+
+01:22.340 --> 01:29.180
+poi noi fai qualcosa di nuovo qui che non abbiamo visto prima di dichiarare una nuova variabile chiamata
+
+01:29.180 --> 01:35.000
+Nota genitore e questo è qualcosa che potresti aver capito che ti avevo codificato.
+
+01:35.450 --> 01:42.840
+Abbiamo bisogno di un riferimento al genitore perché se rimuoviamo qualcosa da qui come 14.
+
+01:43.430 --> 01:52.130
+Bene, dobbiamo prima di arrivare a un Geb un riferimento a 14 in modo che quando arriviamo a uno abbiamo accesso a
+
+01:52.130 --> 02:00.660
+30 in modo da poter collegare 30 a uno, quindi se torniamo qui ora che ho la variabile del nodo padre e
+
+02:00.660 --> 02:09.800
+lo faccio il mio ciclo per verificare se il valore è inferiore al nodo corrente, nel qual caso andrò a sinistra e questo dovrebbe
+
+02:09.800 --> 02:10.820
+essere familiare.
+
+02:10.820 --> 02:18.230
+Ma questa volta tengo anche traccia del nodo genitore e in caso contrario dobbiamo andare a destra mentre
+
+02:18.360 --> 02:23.540
+poi andiamo a destra ma anche tenere traccia del nodo genitore.
+
+02:23.570 --> 02:31.640
+Ora questa è la parte interessante che stiamo facendo il giro di tutto qui e niente è troppo pazzo fino a quando
+
+02:31.640 --> 02:33.860
+non arriviamo a una partita.
+
+02:33.860 --> 02:41.380
+Quando arriviamo a una corrispondenza e troviamo il nodo corrente che vogliamo eliminare, abbiamo una corrispondenza.
+
+02:41.480 --> 02:45.490
+Dobbiamo metterci al lavoro e qui abbiamo tre opzioni.
+
+02:45.550 --> 02:56.360
+La prima opzione è che il nodo corrente non ha figli giusti se il nodo corrente non ha figli giusti.
+
+02:56.430 --> 03:01.440
+Prendiamo 55 come esempio o 14 come esempio.
+
+03:01.620 --> 03:03.450
+Se rimuovo 14 hai visto
+
+03:10.660 --> 03:19.090
+che tutto ciò che abbiamo fatto è stato rimuovere 14 ma abbiamo mantenuto un riferimento al nodo padre e ne abbiamo spostato uno
+
+03:19.330 --> 03:20.360
+in alto.
+
+03:20.500 --> 03:25.330
+È stato bello e facile e qui con l'opzione 1.
+
+03:25.440 --> 03:32.530
+Questo è davvero tutto ciò che facciamo per prima cosa assicuriamo che il nodo padre non sia uguale a no.
+
+03:32.530 --> 03:38.710
+Ciò significa che stiamo modificando il nodo radice, altrimenti la variabile preziosa radice viene
+
+03:38.710 --> 03:48.430
+aggiornata al nostro nodo corrente, altrimenti se il genitore è maggiore del valore corrente, trasformiamo il figlio sinistro corrente in un figlio o il
+
+03:48.430 --> 03:55.330
+genitore se il genitore è inferiore al valore corrente rendi figlio sinistro o figlio giusto del genitore.
+
+03:55.450 --> 04:01.150
+Ancora una volta so che questo è confuso e come ho detto questo è qualcosa che potresti dover fare da solo.
+
+04:01.150 --> 04:06.280
+Lascerò i commenti qui per te in modo che tu possa davvero giocarci e giocare con Visual Go in
+
+04:06.280 --> 04:08.150
+modo da capire cosa sta succedendo.
+
+04:09.520 --> 04:14.460
+Quindi questa è la prima opzione se è il caso, allora fallo.
+
+04:14.560 --> 04:23.140
+Se il bambino giusto se abbiamo un figlio giusto ma il figlio giusto non ha un figlio sinistro, troviamo un esempio
+
+04:23.160 --> 04:24.070
+che ha.
+
+04:24.100 --> 04:27.810
+Quindi abbiamo un figlio giusto che non ha un figlio sinistro.
+
+04:27.840 --> 04:29.250
+Quindi sono 54.
+
+04:29.320 --> 04:31.810
+Cosa succede quando rimuoviamo 50
+
+04:35.190 --> 04:36.110
+perché
+
+04:39.270 --> 04:51.900
+clicco su questo 54 viene rimosso e posizioniamo solo 55 anziché 54 ora, quindi in quel caso andiamo di nuovo a controllare il nodo
+
+04:51.900 --> 04:53.810
+padre non è nullo.
+
+04:54.330 --> 04:56.240
+In modo che dobbiamo sostituire il nodo principale.
+
+04:56.430 --> 05:05.250
+Altrimenti eseguiamo passaggi simili per riassegnare il nodo.
+
+05:05.260 --> 05:07.720
+Che dire dell'ultima opzione.
+
+05:07.720 --> 05:09.670
+Figlio giusto che ha un figlio sinistro.
+
+05:10.150 --> 05:13.630
+Quindi se andiamo qui abbiamo un figlio giusto.
+
+05:13.630 --> 05:17.400
+Diciamo se vogliamo eliminare 30 che ha un figlio sinistro 38.
+
+05:17.470 --> 05:19.480
+Quindi, se vogliamo eliminare 30
+
+05:23.060 --> 05:23.660
+e
+
+05:27.150 --> 05:37.040
+se ne andasse, attraversiamo ancora finché non arriviamo a sinistra e poi oh ragazzo facciamo un po 'di magia, questo richiederà di leggere il codice e
+
+05:37.040 --> 05:42.890
+ho lasciato alcuni bei commenti per voi in modo che abbia senso, ma essenzialmente stiamo
+
+05:42.890 --> 05:45.440
+trovando la sinistra del bambino giusto.
+
+05:45.440 --> 05:55.310
+La maggior parte dei bambini e la ripetizione di questo cambiamento degli alberi secondari dell'albero, come ho detto, è piuttosto avanzata
+
+05:55.310 --> 05:57.800
+e davvero difficile da spiegare.
+
+05:57.800 --> 06:03.920
+Proprio sullo schermo, quindi lo consiglio se non si è riusciti a ottenere la funzione di rimozione per passare attraverso questo
+
+06:03.920 --> 06:05.140
+passo per passo.
+
+06:05.210 --> 06:10.850
+Collegherò il codice direttamente nelle risorse in modo da poter giocare con questo e vedere che
+
+06:11.240 --> 06:14.770
+funziona ma per verificare che la rimozione funzioni effettivamente.
+
+06:14.900 --> 06:23.240
+Diciamo che rimuoverò zero da questo elenco se faccio clic su Esegui non sono definito perché non
+
+06:23.240 --> 06:34.720
+c'è nulla da rimuovere ma se rimuovo diciamo 170 e faccio clic su Eseguo divento vero e se attraverso il nostro elenco e provo
+
+06:34.720 --> 06:39.300
+ad afferrare il nostro albero ora facciamo apri gli
+
+06:45.480 --> 06:58.140
+strumenti per sviluppatori incolla questo PRESENTER E ora se andiamo a 9 20 e vediamo che il nodo giusto è ora vuoto dove avrebbe dovuto essere
+
+06:58.280 --> 06:59.010
+170.
+
+06:59.060 --> 07:05.280
+Quindi siamo in grado di eliminare con successo il nodo che è abbastanza per ora.
+
+07:05.430 --> 07:08.280
+Puoi giocare con il metodo di rimozione, se vuoi.
+
+07:08.280 --> 07:10.480
+Puoi provare a codificarti.
+
+07:10.530 --> 07:12.590
+Ci vorrà un po 'di tempo.
+
+07:12.690 --> 07:13.700
+So che continuo a dirlo.
+
+07:13.700 --> 07:20.280
+Ti incoraggio a non rimanere deluso se il metodo rimosso fosse davvero difficile.
+
+07:20.400 --> 07:24.870
+Non volevo davvero includerlo nel corso perché è eccessivamente complesso e non qualcosa di cui
+
+07:24.870 --> 07:27.470
+vuoi preoccuparti troppo quando si tratta di un'intervista.
+
+07:27.960 --> 07:32.910
+Ma ho pensato che alcuni di voi potrebbero essere interessati a questo, assicurati solo che non sia qualcosa che
+
+07:32.910 --> 07:36.100
+ti scoraggia fintanto che puoi fare gli inserti e le ricerche.
+
+07:36.240 --> 07:38.380
+Questo è ciò che conta per le interviste.
+
+07:38.490 --> 07:40.080
+Vedrò nel prossimo.
+
+07:40.100 --> 07:40.380
+Bobby.

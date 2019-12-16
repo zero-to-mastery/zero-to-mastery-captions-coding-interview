@@ -1,0 +1,199 @@
+WEBVTT
+
+00:02.180 --> 00:10.500
+Witaj ponownie, pewnie zauważyliście coś, podczas gdy mówienie o ich skalowalności oznacza, że martwimy się dużymi
+
+00:10.590 --> 00:12.110
+danymi wejściowymi.
+
+00:12.420 --> 00:15.680
+Jak wygląda koniec wykresu.
+
+00:16.080 --> 00:24.360
+Jeśli więc nasza funkcja martwi się tylko o naprawdę małe nakłady lub wiemy, że nasze dane wejściowe będą miały na
+
+00:24.360 --> 00:29.610
+myśli tylko tablicę pięciu elementów, duże-O nie będzie miało tak wielkiego znaczenia.
+
+00:29.610 --> 00:34.710
+Ponieważ tutaj, jeśli elementy są małe, wszystkie te linie są ze sobą połączone, wszystkie
+
+00:34.710 --> 00:35.890
+są takie same.
+
+00:35.970 --> 00:38.420
+Ale czy to prawdziwe życie.
+
+00:38.430 --> 00:46.230
+Nie, ponieważ jako ludzie mamy tendencję do myślenia tutaj i teraz mamy tendencję do myślenia, że nasze strony
+
+00:46.230 --> 00:48.420
+będą miały tylko 100 użytkowników.
+
+00:48.480 --> 00:49.760
+to jest to!
+
+00:49.800 --> 00:53.850
+Ale co, jeśli baza użytkowników rośnie? Co się stanie, jeśli zwiększą się nasze nakłady?
+
+00:53.850 --> 00:59.760
+Nigdy nie wiemy, kiedy piszemy kod, chcemy napisać kod, który można przeskalować, abyśmy nie musieli ciągle wracać
+
+00:59.760 --> 01:03.560
+i naprawiać rzeczy lub gdy sprawy wymknęły się spod kontroli.
+
+01:03.720 --> 01:12.110
+Kod się psuje i dlatego big-O jest tak ważny, by pisać skalowalny kod, czyli myśleć tylko poza
+
+01:12.110 --> 01:14.500
+małą małą sekcją tutaj.
+
+01:14.540 --> 01:20.220
+Oznacza to, że myślisz długo myśląc o swoim kodzie i tym, co może się wydarzyć w przyszłości.
+
+01:20.250 --> 01:23.200
+Teraz myślisz o sobie teraz.
+
+01:23.630 --> 01:28.800
+Hej, Andre, czuję, że właśnie nauczyłem się całej teorii i żadnych praktycznych informacji.
+
+01:28.820 --> 01:33.500
+Andre Chcę wiedzieć dokładnie, jak mogę tego używać w moim codziennym życiu jako programista.
+
+01:33.610 --> 01:35.500
+Jestem trochę znudzony tutaj.
+
+01:35.720 --> 01:39.710
+Co z tą nowo odkrytą wiedzą, że inaczej spojrzysz na kod.
+
+01:39.980 --> 01:40.800
+Dobrze.
+
+01:40.850 --> 01:41.620
+Spójrzmy.
+
+01:42.780 --> 01:49.970
+Widzisz teraz, kiedy patrzymy na metody, które otrzymujemy w języku takim jak metody w tablicy.
+
+01:50.160 --> 01:56.670
+Jeśli chodzi o javascript, mamy takie rzeczy jak pop shift shift na zmianę.
+
+01:56.790 --> 02:03.470
+Wszystkie te metody, które są funkcjami, wiążą się z kosztem.
+
+02:03.540 --> 02:08.530
+Duży niski koszt, na przykład jeśli chodzi o tablice.
+
+02:08.540 --> 02:16.710
+Kiedy szukamy elementu nade mną, dostęp do pierwszego elementu to tablica, na przykład to wszystko jedno.
+
+02:16.870 --> 02:18.370
+Ale kiedy używamy czegoś takiego.
+
+02:18.370 --> 02:19.620
+Na zmiany.
+
+02:19.930 --> 02:24.620
+Cóż, w rzeczywistości okazuje się, że tak, i dlaczego tak jest.
+
+02:24.620 --> 02:30.140
+Zajmiemy się, gdy mówimy o macierzy danych w sekcji struktury danych,
+
+02:30.800 --> 02:38.780
+ale zaczniecie widzieć resztę tego kursu, jak używamy big-O do zmierzenia, dlaczego jedna struktura danych może być
+
+02:38.930 --> 02:40.530
+lepsza niż inni.
+
+02:40.550 --> 02:48.020
+Dlaczego powinniśmy używać tablicy zamiast, powiedzmy, obiektu, może obiekt ma lepsze funkcje, których potrzebujemy
+
+02:48.020 --> 02:49.920
+do twardych danych.
+
+02:51.040 --> 02:58.600
+Ten wykres, o którym mówiliśmy do tej pory, jest częścią dużego dotcomu O Chichi i
+
+02:58.600 --> 03:04.290
+wolnego przewijania w dół, zobaczysz, że każda struktura danych jest tablicą.
+
+03:04.350 --> 03:08.180
+I w tym przypadku obiekty na tym stole to tabela mieszająca.
+
+03:08.340 --> 03:14.010
+Znowu coś, co omówimy w sekcji struktury danych, ale widzimy, że mamy różną
+
+03:14.700 --> 03:23.370
+notację Big-O dla różnych struktur danych, a niektóre struktury danych mają naprawdę dobre wyniki wyszukiwania - niektóre mają wstawki,
+
+03:23.370 --> 03:25.520
+które niektóre mają usunięte.
+
+03:25.530 --> 03:32.190
+I widać tutaj, że istnieją różne zalety i wady dla każdej z tych struktur danych.
+
+03:32.970 --> 03:41.130
+Jak dowiesz się w tym kursie, struktury danych są po prostu sposobami przechowywania danych, a algorytmy to po
+
+03:41.280 --> 03:46.800
+prostu funkcje lub sposoby wykorzystywania struktur danych do pisania naszych programów.
+
+03:46.800 --> 03:56.160
+Pamiętaj, że nasze instrukcje dotyczące maszyn dla naszych komputerów i świetnych programistów mają tę wiedzę,
+
+03:56.280 --> 04:03.960
+gdy wybierają odpowiednią strukturę danych, odpowiednie algorytmy do pisania dobrych programów.
+
+04:04.120 --> 04:12.430
+Pamiętaj, że nasze dwie reguły dobrego kodu są czytelne i skalowalne, a to, czego się nauczyliśmy, jest podstawą
+
+04:12.430 --> 04:18.880
+do podjęcia decyzji, która struktura danych będzie najlepsza, gdy przejdziemy do sekcji struktury
+
+04:18.880 --> 04:26.740
+danych, ponieważ będziemy wiedzieć oh array's pozwala nam uzyskać dostęp w ogóle w jednym stałym czasie.
+
+04:26.740 --> 04:34.460
+Ale jeśli chodzi o przeszukiwanie tablicy, da nam to czas linearny, a może być
+
+04:34.460 --> 04:35.590
+może obiekt.
+
+04:35.930 --> 04:42.140
+Więc za kulisami, chociaż ta sekcja może być trochę teoretyczna i nudna.
+
+04:42.380 --> 04:47.840
+To, czego właśnie się nauczyliśmy, stworzy podstawę dla reszty kursu,
+
+04:47.840 --> 04:52.280
+abyśmy mogli napisać dobry kod dla pozostałych sekcji.
+
+04:52.370 --> 04:58.940
+Zamierzamy użyć big-O, aby zobaczyć, co jest dobrym rozwiązaniem problemu, a co jest złym
+
+04:58.940 --> 05:03.700
+rozwiązaniem problemu w większości wywiadów ma tę podstawową koncepcję.
+
+05:04.070 --> 05:05.860
+Jaka jest właściwa struktura danych.
+
+05:05.930 --> 05:09.650
+Jaki jest odpowiedni algorytm do pisania dobrych programów.
+
+05:09.650 --> 05:17.330
+Google zatrudnia inżynierów i programistów, którzy o tym wiedzą, ponieważ mają dużo skali, o której muszą
+
+05:17.330 --> 05:18.140
+myśleć.
+
+05:18.260 --> 05:25.770
+Wiele danych wejściowych i osób, które wiedzą, jak obsługiwać te programy, to te, które będą w
+
+05:25.770 --> 05:27.760
+stanie tworzyć wspaniałe programy.
+
+05:29.360 --> 05:30.790
+Do zobaczenia w następnym.
+
+05:30.990 --> 05:31.290
+Bebai.

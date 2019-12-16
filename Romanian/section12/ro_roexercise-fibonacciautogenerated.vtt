@@ -1,0 +1,64 @@
+WEBVTT
+
+00:02.800 --> 00:11.200
+Nu puteți vorbi despre recursiune fără să vorbiți despre secvența Fibonacci Ce este secvența Bonacci în
+
+00:11.200 --> 00:12.220
+câmp.
+
+00:12.220 --> 00:16.990
+Ei bine, asta e secvența aici.
+
+00:16.990 --> 00:22.970
+Dacă observați că întotdeauna adăugăm primele două elemente egale.
+
+00:22.990 --> 00:30.920
+Deci, zero plus unu este egal cu unul plus unu egal cu unul plus două egale cu trei plus două plus trei.
+
+00:30.940 --> 00:31.710
+El sună cinci.
+
+00:31.810 --> 00:34.770
+Așa mai departe și așa mai departe și așa mai departe.
+
+00:34.810 --> 00:39.410
+Deci, ultimele două numere sunt întotdeauna egale cu numărul curent.
+
+00:39.820 --> 00:45.590
+Deci, am un alt exercițiu pentru tine, un pic mai dur decât cel precedent.
+
+00:46.860 --> 00:57.660
+Având un număr N pe care funcția o va primi, returnează valoarea indexului secvenței Fibonacci.
+
+00:59.290 --> 01:10.710
+Deci, dacă spun că vreau ca sfârșitul să fie egal cu faptul că mă va da 0 1 2 care este numărul unu.
+
+01:10.870 --> 01:17.090
+Această funcție va reveni la 1 dacă spun Fibonacci numărul 8.
+
+01:17.140 --> 01:23.040
+Mi-ar primi 0 1 2 3 4 5 6 7 8.
+
+01:23.120 --> 01:25.670
+Mi-ar lua 21 de ani.
+
+01:25.750 --> 01:31.550
+Funcția îmi va spune ce număr este asociat cu indexul pe care-l dau.
+
+01:31.620 --> 01:40.990
+Încă o dată am abordarea iterativă care se folosește doar pentru buclele și abordarea
+
+01:41.050 --> 01:42.180
+recursivă.
+
+01:42.250 --> 01:46.330
+Te provoc să încerci amândouă și să vezi dacă o poți face.
+
+01:46.330 --> 01:54.340
+Și un indiciu important aici este că abordarea recursivă este de fapt mai ușoară decât abordarea iterativă.
+
+01:54.340 --> 01:57.990
+Atât de mult noroc acolo și te voi vedea în filmul cu soluții.
+
+01:58.240 --> 01:58.540
+Buh-Pa.

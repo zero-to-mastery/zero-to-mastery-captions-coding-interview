@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.000 --> 00:01.820
+Selamat datang kembali.
+
+00:02.110 --> 00:08.420
+Sudah waktunya untuk kode stack kita sendiri dan saya punya sedikit latihan untuk Anda di sini.
+
+00:08.500 --> 00:14.140
+Saya telah membuat templat seperti apa struktur tumpukan data yang kami inginkan.
+
+00:14.280 --> 00:17.570
+Dan kami juga memiliki kelas simpul.
+
+00:17.670 --> 00:23.100
+Jika Anda memutuskan untuk menggunakannya dan Anda harus mengenalnya dari latihan daftar tertaut kami.
+
+00:23.310 --> 00:27.770
+Atau Anda bisa mengabaikannya dan membuat simpul baru sendiri di sini.
+
+00:28.980 --> 00:34.380
+Sekarang tumpukan ini akan memiliki tiga sifat konstruktornya.
+
+00:34.500 --> 00:42.870
+Kami memiliki bagian atas yang mengingat pelat bagian atas kami memiliki bagian bawah yang merupakan pelat bagian bawah
+
+00:42.870 --> 00:50.430
+dan kemudian kami memiliki panjang nol dan kedua bagian atas dan bawah saat ini nol.
+
+00:50.440 --> 00:55.640
+Sekarang kita akan menggunakan daftar tertaut untuk mengisi nilai-nilai ini.
+
+00:56.360 --> 01:01.050
+Tetapi kita tidak perlu menggunakan kelas daftar tertaut yang telah kita gunakan sebelumnya.
+
+01:01.070 --> 01:09.020
+Alih-alih, Anda bisa menggunakan kelas Node untuk hanya menetapkan nilai yang berbeda dan memastikan
+
+01:09.230 --> 01:18.310
+bahwa titik berikutnya menunjuk ke simpul yang berbeda saat kami menambahkan hal-hal sekarang tugas Anda adalah membuat tiga
+
+01:18.580 --> 01:27.030
+metode yang berfungsi untuk puncak struktur data ini yang memungkinkan kami elemen atas atau simpul atas.
+
+01:27.530 --> 01:38.330
+Dorongan yang memungkinkan kita menambahkan simpul ke atas tumpukan dan sembulan yang memungkinkan kita menghapus dari
+
+01:38.330 --> 01:39.720
+atas tumpukan.
+
+01:39.920 --> 01:47.120
+Dan jika Anda ingin opsional Anda juga dapat melakukan metode kosong yang umum
+
+01:47.150 --> 01:51.620
+dengan stack untuk memeriksa apakah stack kami kosong.
+
+01:51.680 --> 01:58.960
+Kami akan memulai dengan tumpukan saya yang akan dipakai dan kode Anda bekerja.
+
+01:58.960 --> 02:07.990
+Jika kita dapat melakukan sesuatu seperti ini di mana Anda mengatakan stack dot push saya katakanlah Google kemudian mendorong Anda
+
+02:08.290 --> 02:16.080
+Dammy push discord seperti riwayat browser dan kemudian Anda dapat pop discord dan pop Anda Demy pop.
+
+02:16.120 --> 02:21.860
+Google Selamat mencoba dan saya akan melihat dalam video bye solusi.

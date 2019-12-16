@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.750 --> 00:01.640
+Welcome back.
+
+00:02.010 --> 00:04.100
+How did it go with the Remove method.
+
+00:05.470 --> 00:09.530
+It should be fairly easy since we got the instrument right.
+
+00:10.450 --> 00:19.720
+All we need to do is first check the parameters and we might want to check whether the index has a positive
+
+00:19.720 --> 00:23.030
+number whether the index is higher than the length.
+
+00:23.080 --> 00:25.130
+But that's something we've already talked about.
+
+00:25.150 --> 00:28.130
+So let's get to the meat and potatoes.
+
+00:28.150 --> 00:35.920
+The main part of all we need to do is once again get the reference to our leader.
+
+00:36.090 --> 00:44.530
+So that is if we want to remove let's say 99 so that is index of 0 1 2.
+
+00:44.660 --> 00:55.860
+In that case we want to make sure that we remove the 10 to 99 pointer and instead point 10 to five and
+
+00:55.860 --> 01:01.710
+because of how memory works and garbage collected languages like javascript as soon as we remove that
+
+01:01.710 --> 01:05.690
+reference 99 is going to get deleted.
+
+01:05.700 --> 01:17.490
+So all we're saying now is remove this pointer and then just update this point to the this list.
+
+01:17.530 --> 01:19.380
+And this gets deleted.
+
+01:19.740 --> 01:22.390
+I hope that my little diagram there makes sense.
+
+01:22.450 --> 01:23.510
+Let's code this out.
+
+01:23.960 --> 01:31.420
+Well we first find the leader just like we did in our insert function by using this dot traverse to
+
+01:31.420 --> 01:32.710
+index.
+
+01:32.710 --> 01:39.090
+So I'm going say this dot traverse to Index index minus one.
+
+01:39.310 --> 01:41.620
+And we have the leader.
+
+01:41.770 --> 01:48.430
+Now we have the leader and we can point 10 to now point to five.
+
+01:48.640 --> 02:00.710
+But we need a reference to this Foth and the way we get that reference is to say Konst on wanted note
+
+02:00.950 --> 02:09.860
+that is the node we want to delete is going to have a leader dot next that is d i want to node is going
+
+02:09.860 --> 02:23.080
+to call leader done X which is 99 and we got that very bold so we can do leader dot next to equal on
+
+02:23.090 --> 02:26.880
+one to node dot next.
+
+02:26.900 --> 02:34.430
+So we grab the leader and then we said this No that I don't want I want to grab it here by using leader
+
+02:34.430 --> 02:42.170
+dot next and then make sure that we get the pointer that is 99 to 5 which is unwanted note done next
+
+02:42.380 --> 02:44.320
+which equals to 5 the five.
+
+02:44.320 --> 02:49.280
+Note to now be pointed from bleater dot next.
+
+02:50.140 --> 02:57.160
+And of course so we don't forget we have to decrease the length because we're removing a node by doing
+
+02:57.160 --> 03:07.580
+minus minus and we can just return this dot Crantz to that was too bad was it.
+
+03:07.580 --> 03:10.940
+Let's go down here and make sure this works.
+
+03:10.940 --> 03:19.450
+I'm going to say that we want to my linked list dot remove at index of two.
+
+03:19.490 --> 03:21.100
+So let's remove the ninety nine.
+
+03:21.230 --> 03:23.340
+I'm going to run this.
+
+03:23.530 --> 03:24.170
+Look at that.
+
+03:24.170 --> 03:25.880
+We've removed ninety nine.
+
+03:26.120 --> 03:29.420
+If I run remove again.
+
+03:29.450 --> 03:41.540
+Index of two that is to remove five but not print list remove and we click Run 5 gets deleted.
+
+03:41.580 --> 03:43.820
+Very very cool.
+
+03:44.220 --> 03:51.150
+And once again we know why delete is an operation of all of and because we have to traverse to index
+
+03:52.780 --> 04:02.060
+and going back here we now have a better understanding of how this diagram works fire move the tail.
+
+04:02.060 --> 04:08.840
+We have to traverse through everything one by one One by one until we hit the tail and then just remove
+
+04:08.840 --> 04:10.600
+it and there we have it.
+
+04:11.530 --> 04:15.480
+And I encourage you to play around with this animation a little bit more.
+
+04:15.580 --> 04:18.950
+Having our linked list implemented.
+
+04:19.190 --> 04:24.950
+There are other methods that we can add to it but these are the main ones of linked list that you can
+
+04:24.950 --> 04:25.480
+see.
+
+04:25.970 --> 04:31.370
+And this should give you a better idea of how we calculate Big O notation with linked lists and where
+
+04:31.370 --> 04:33.750
+some of the drawbacks are.
+
+04:33.760 --> 04:40.060
+I mean you can explain data structures for a long time but without actually coding yourself it's hard
+
+04:40.060 --> 04:49.210
+to see why some operations take longer than others and link lists are very popular and interview questions.
+
+04:49.350 --> 04:55.890
+And now you have the tools to build your own length list in a language that doesn't even have it natively
+
+04:56.130 --> 04:58.500
+like javascript well done.
+
+04:58.520 --> 05:06.120
+Getting this far in the next video we're going to introduce you to the second type of linked list that
+
+05:06.120 --> 05:08.350
+I mentioned at the beginning.
+
+05:08.460 --> 05:11.910
+Up until now we've created singly linked lists.
+
+05:12.390 --> 05:16.050
+But there's also a doubly linked list.
+
+05:16.050 --> 05:18.150
+What does that mean for that.
+
+05:18.240 --> 05:19.130
+I'll see in the next video.

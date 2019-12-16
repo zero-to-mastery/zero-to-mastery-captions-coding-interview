@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00.940 --> 00:10.680
+Bentornato è il momento di ordinare alcune murene, prendiamo questa funzione mettiamola alla fine perché speriamo che funzionerà
+
+00:10.680 --> 00:12.100
+alla fine.
+
+00:12.420 --> 00:13.020
+E
+
+00:15.650 --> 00:19.200
+inizia a scrivere il nostro codice.
+
+00:19.360 --> 00:25.090
+Iniziamo definendo innanzitutto la funzione chiamata interfaccia di tipo merge.
+
+00:25.120 --> 00:31.630
+Prenderà il primo parametro che è il primo array, quindi il secondo parametro,
+
+00:31.630 --> 00:38.490
+che è il secondario, definirò prima alcune variabili che useremo per tutta la funzione.
+
+00:38.560 --> 00:47.760
+Il primo sarà una costante che è un array unito che sarà la nostra risposta.
+
+00:47.790 --> 00:49.910
+Per ora sarà un array vuoto.
+
+00:51.280 --> 00:56.420
+E potremmo anche assicurarci di restituire questo array unito alla fine.
+
+00:56.500 --> 01:03.160
+Speriamo che tutto funzioni e possiamo popolarlo con questi due array.
+
+01:03.240 --> 01:14.330
+Ora qui voglio prendere l'array di un oggetto solo per riferimento e questo sarà il
+
+01:14.750 --> 01:18.700
+nostro primo elemento dell'array.
+
+01:18.750 --> 01:23.090
+Quindi questo ha semplicemente l'elemento zero qui.
+
+01:23.190 --> 01:24.180
+E il nostro
+
+01:27.720 --> 01:29.720
+primo array e poi faremo la stessa cosa.
+
+01:30.300 --> 01:31.410
+Array 2 item
+
+01:36.370 --> 01:39.280
+che sta per prendere il numero quattro da qui.
+
+01:40.580 --> 01:47.240
+Ora, la prima cosa che mi piace fare in una funzione è controllare un qualche tipo
+
+01:47.250 --> 01:47.900
+di
+
+01:50.660 --> 01:57.930
+input, assicurandoti che tutto funzioni, ti risparmierò il tempo di farlo perché dovresti avere un'idea di come controllare
+
+01:57.930 --> 02:02.360
+se si tratta di un array se hai due parametri.
+
+02:03.520 --> 02:10.820
+Ma l'input che penso valga la pena di verificare è se avessimo qualcosa di simile.
+
+02:11.670 --> 02:15.910
+Dove il secondo array è solo un tasso vuoto.
+
+02:16.260 --> 02:19.040
+Nel nostro caso possiamo solo restituire la prima tariffa.
+
+02:19.380 --> 02:23.670
+Perché mentre è già in ordine stiamo ancora unendo i due raggi, ma l'altro array non
+
+02:23.670 --> 02:24.210
+ha nulla.
+
+02:24.570 --> 02:29.700
+E questo è lo stesso se anche questo primo array fosse vuoto.
+
+02:30.660 --> 02:39.180
+Quindi, per evitare qualsiasi X lavoro sicuro, controlliamo tali condizioni in modo che subito possiamo dare la risposta e
+
+02:39.180 --> 02:42.390
+rendere la nostra funzione più efficiente.
+
+02:42.390 --> 02:43.780
+In quei casi.
+
+02:44.010 --> 02:45.650
+Quindi posso solo fare una dichiarazione if.
+
+02:45.810 --> 02:51.800
+Dirò che aere vuole lenth se è uguale a zero.
+
+02:52.910 --> 02:54.790
+Quindi se il primo array è vuoto.
+
+02:54.980 --> 02:57.740
+Semplicemente restituire il secondario e
+
+03:01.300 --> 03:10.970
+possiamo fare lo stesso per l'altro caso se l'array di lenth è vuoto, allora possiamo semplicemente restituire il
+
+03:10.970 --> 03:14.690
+primo array in modo semplice e semplice.
+
+03:14.760 --> 03:20.340
+Per ora entriamo nell'argomento più difficile che è quello che succede se entrambi questi array sono pieni come sono
+
+03:20.340 --> 03:20.920
+adesso.
+
+03:22.410 --> 03:30.250
+Beh, solo per cambiare le cose perché ho usato i loop for per un po ', userò il ciclo while
+
+03:30.550 --> 03:36.940
+in javascript e questo semplicemente dice di scorrere gli item mentre una condizione è soddisfatta.
+
+03:37.030 --> 03:48.520
+Nel nostro caso ho intenzione di dire mentre c'è un array un elemento o c'è un array 2 Item fare qualcosa e ricordare queste variabili
+
+03:51.360 --> 03:59.130
+sono semplicemente per ora il primo elemento in ciascuno degli array e tra l'altro se sei chiedendo
+
+03:59.750 --> 04:04.960
+perché a volte uso il costo a volte uso LET.
+
+04:05.340 --> 04:12.680
+Il costo buono significa che una volta assegnata questa variabile a questo array non posso modificarlo.
+
+04:12.720 --> 04:15.940
+Non posso dire che l'array unito è uguale a due.
+
+04:16.080 --> 04:21.960
+Mi darà un avvertimento perché è una costante Posso aggiungere cose all'array ma non
+
+04:22.380 --> 04:24.480
+posso cambiare questo riferimento all'array.
+
+04:24.630 --> 04:27.770
+D'altro canto, permettimi di farlo.
+
+04:27.870 --> 04:35.890
+Quindi, più avanti, posso dire che un elemento dell'array equivale a qualcosa di nuovo come l'array uno nell'indice di uno.
+
+04:36.330 --> 04:39.300
+Ecco perché stiamo usando questa sintassi.
+
+04:39.300 --> 04:42.680
+È una nuova sintassi ESX e Javascript.
+
+04:42.800 --> 04:43.910
+Tutto ok.
+
+04:43.910 --> 04:57.810
+Quindi, mentre abbiamo le cose e gli array, vogliamo prima fare un po 'di controllo diciamo che se
+
+04:58.710 --> 05:15.630
+un elemento dell'array è inferiore all'elemento Array 2 che è se 0 è inferiore a 4, vogliamo aggiungerlo alla matrice vuota del mistero.
+
+05:15.660 --> 05:20.860
+Vogliamo dire push e inseriremo il primo elemento nell'array.
+
+05:21.060 --> 05:32.570
+Quindi stiamo andando a spingere 0 e poiché ora abbiamo spinto l'elemento zero in questo array, non dobbiamo più
+
+05:32.570 --> 05:34.610
+preoccuparci di zero.
+
+05:34.970 --> 05:49.230
+Quindi possiamo semplicemente dire che array un oggetto sta andando a un array uguale a un indice di.
+
+05:49.350 --> 05:54.710
+Giusto perché ora vogliamo passare all'elemento dell'array.
+
+05:54.710 --> 06:00.040
+Questo è qui a indice 1 che è 3 in modo che possiamo confrontare tre con quattro.
+
+06:00.150 --> 06:02.450
+Ora vogliamo incrementare questo ogni volta.
+
+06:02.610 --> 06:11.160
+E poiché stiamo facendo un ciclo qui, convertiamo questo in un indice che è elevato e incrementato di
+
+06:11.280 --> 06:12.740
+più più.
+
+06:12.970 --> 06:22.910
+E in cima qui possiamo solo dire per prima cosa che sarà uguale a uno.
+
+06:23.000 --> 06:28.610
+In questo modo, mentre passiamo in rassegna questo, ciò aumenterà con I Plus Plus di
+
+06:28.610 --> 06:37.590
+quello incrementato di 1 in modo che possiamo andare a 0 3 4 31 e dal modo in cui ho appena notato che non riesco
+
+06:37.590 --> 06:40.550
+a scrivere l'array shabby qui lei 8.
+
+06:40.550 --> 06:46.430
+Questo è il caso in cui l'array di un elemento è inferiore all'array nell'elenco sull'altro lato.
+
+06:46.580 --> 06:55.310
+Se l'elemento dell'array 2 è inferiore all'array 1, ora ci uniamo all'array.
+
+06:57.970 --> 07:07.370
+Matrice sull'elemento perché se l'array di un elemento non è inferiore all'array dell'oggetto non è nemmeno necessario aggiungere una condizione qui.
+
+07:07.370 --> 07:15.470
+Sappiamo che un elemento dell'array è maggiore di due elementi dell'array, nel qual caso possiamo solo aggiungere il
+
+07:15.470 --> 07:16.400
+secondo elemento.
+
+07:16.400 --> 07:19.470
+Quindi questo è quello che aggiungiamo questo oggetto.
+
+07:20.860 --> 07:25.980
+E ancora vogliamo fare esattamente la stessa cosa che abbiamo fatto con il primo oggetto o il primo array.
+
+07:26.110 --> 07:35.110
+Quella è la matrice all'elemento che ora sta per uguale array e abbiamo bisogno di un indice diverso di questo.
+
+07:35.110 --> 07:43.160
+Possiamo usare la stessa tariffa, quindi possiamo solo dire che sarà J e apparire.
+
+07:43.360 --> 07:45.920
+Facciamo semplicemente la stessa cosa
+
+07:45.940 --> 07:49.000
+J sarà uguale a 1.
+
+07:49.390 --> 07:57.790
+Quindi, una volta individuati gli elementi dell'indice zero, possiamo passare all'indice di uno rispetto all'indice di due indici di
+
+07:57.790 --> 07:58.290
+tre.
+
+07:58.300 --> 08:00.280
+Così via.
+
+08:00.280 --> 08:02.480
+Ora controlliamo questo codice e vediamo se funziona.
+
+08:02.530 --> 08:08.790
+Se eseguo questo, vedrai che il mio browser si è appena bloccato.
+
+08:08.790 --> 08:15.960
+Questo perché ho un'impostazione su REPL su quell'ID che consente che mentre ciò accada molto probabilmente se stai usando
+
+08:15.960 --> 08:19.480
+le impostazioni di default qui ti darà un avvertimento.
+
+08:19.800 --> 08:20.390
+Ma
+
+08:25.430 --> 08:27.130
+torniamo indietro perché è successo.
+
+08:27.800 --> 08:33.780
+Questo è il motivo per cui è sempre una buona idea andare passo dopo passo e assicurarsi che le cose funzionino.
+
+08:33.800 --> 08:39.130
+Abbiamo fatto un sacco di codice qui senza testare veramente se tutto ciò funziona.
+
+08:39.930 --> 08:47.230
+Quindi, una buona nota qui è di fare una pausa ogni tanto e basta testare le tue ipotesi trascinate fuori le risposte.
+
+08:47.390 --> 08:57.070
+In questo caso abbiamo perso un punto critico in questo controllo qui se facciamo il ciclo while fintanto che un
+
+08:57.070 --> 09:04.810
+array o un array due elementi sono popolati e controlliamo qui se l'array 1 è inferiore
+
+09:04.810 --> 09:06.660
+all'elemento Array 2.
+
+09:06.780 --> 09:14.700
+Ma il problema qui è che potremmo avere un caso in cui uno di questi perché stiamo usando o potrebbe
+
+09:14.760 --> 09:19.690
+essere indefinito o abbiamo raggiunto la fine della linea per renderne conto.
+
+09:19.800 --> 09:27.280
+La cosa fondamentale da fare qui è sapere sempre come funziona il tuo codice, quindi facciamo
+
+09:27.300 --> 09:34.160
+un annullamento o il blocco qui diciamo horæ voglio item man array all'oggetto.
+
+09:34.640 --> 09:37.790
+Vediamo cosa otteniamo durante il ciclo.
+
+09:38.640 --> 09:44.600
+Se eseguo questo si bloccherà di nuovo e non saremo in grado di vedere i nostri registri.
+
+09:44.610 --> 09:50.410
+Quindi scriverò qui la versione corretta e poi spiegherò perché abbiamo fatto quello che abbiamo fatto.
+
+09:50.750 --> 09:56.260
+Devo solo dire se ri-elemento se la matrice
+
+09:59.810 --> 10:06.570
+per elemento non esiste quindi se abbiamo indefinito trasformerà questo in vero.
+
+10:06.580 --> 10:08.510
+Quindi ci siamo imbattuti in questo.
+
+10:08.800 --> 10:10.100
+Perché.
+
+10:10.120 --> 10:10.900
+Diamo un'occhiata.
+
+10:13.180 --> 10:15.470
+Notate cosa abbiamo appena bloccato qui.
+
+10:15.520 --> 10:18.780
+Abbiamo registrato ogni elemento e quindi abbiamo allineato due elementi.
+
+10:18.790 --> 10:26.770
+Quindi questo è il motivo per cui stiamo confrontando tutti i nostri cicli con zeri più di 3 e 4, poi
+
+10:26.770 --> 10:37.030
+per lui per poi quattro e sei poi 31 e sei 31 e 30 e poi 31 e su definire vedi qui come il secondo elemento dell'array
+
+10:37.180 --> 10:38.040
+diventa indefinito.
+
+10:38.880 --> 10:51.040
+E per noi per aggirare questo indefinito che diventa uno definito qui e usiamo il punto esclamativo in javascript per trasformare
+
+10:51.040 --> 10:54.610
+questo in una vera affermazione.
+
+10:54.610 --> 11:04.670
+Quindi si trasforma in questo in modo che possiamo aggiungere il Thirty-One nell'array 1 nello slot finale dell'array.
+
+11:06.140 --> 11:08.810
+Ora, se fosse così
+
+11:11.780 --> 11:16.420
+e io corro, diventiamo indefiniti per il primo array.
+
+11:17.490 --> 11:26.480
+Tuttavia, poiché stiamo eseguendo il secondo controllo, ovvero l'array è un elemento in meno rispetto all'elemento Array 2
+
+11:26.480 --> 11:36.670
+e nel nostro caso se lo facciamo su un valore inferiore a 6, è ciò che stiamo facendo in questo confronto.
+
+11:36.750 --> 11:48.760
+Se eseguo questa operazione e consenti a Konsole il registro, vedi quale risposta ottengo.
+
+11:48.770 --> 11:57.200
+Quindi, anche se in questo momento intorno matrice uno è indefinito perché abbiamo attraversato perché questa
+
+11:57.200 --> 11:59.330
+affermazione è falsa.
+
+11:59.420 --> 12:09.290
+Andiamo alla dichiarazione else e riempiamo il resto dell'array con 6 e 13 o
+
+12:09.380 --> 12:19.390
+30 che provengono da array, volevo segnalartelo perché questa potrebbe essere la soluzione più pulita.
+
+12:19.420 --> 12:27.310
+Voglio dire, guardando questo codice, penso solo a quello che dovevo spiegare e che dovevo capire per
+
+12:27.820 --> 12:29.480
+capire come funziona.
+
+12:29.530 --> 12:33.930
+Io e io lo facemmo per una ragione specifica durante l'intervista.
+
+12:33.940 --> 12:40.180
+Se devi spiegare le cose in dettaglio come questo e scrivere bene le cose, forse c'è un modo
+
+12:40.180 --> 12:41.350
+migliore di scriverlo.
+
+12:43.070 --> 12:49.970
+Perché un intervistatore si confonderà su cosa significhi quindi cosa significa e in realtà
+
+12:49.970 --> 12:52.250
+non legge come l'inglese.
+
+12:52.400 --> 12:57.540
+Idealmente queste funzioni sono davvero molto belle da leggere.
+
+12:57.610 --> 13:06.490
+Quindi, forse posso prendere questa parte della funzione e convertirla in una sua funzione e solo il
+
+13:06.550 --> 13:10.640
+nome dovrebbe spingere il primo elemento dell'array.
+
+13:11.110 --> 13:18.790
+E questo dovrebbe essere dovrebbe spingere la matrice all'elemento ed estraendo questi pezzi di codice nella loro
+
+13:19.030 --> 13:20.170
+piccola funzione.
+
+13:21.260 --> 13:28.700
+Puoi pulire questa risposta e renderla più leggibile e agli intervistatori piacerà.
+
+13:28.750 --> 13:34.060
+Ora durante un'intervista potresti non avere il tempo di farlo, ma puoi lasciare che l'intervistatore
+
+13:34.060 --> 13:40.510
+sappia come hai scritto la soluzione e capisci che questa probabilmente non è la soluzione più leggibile e questo
+
+13:40.510 --> 13:42.960
+è ciò che faresti per ripulirlo.
+
+13:42.970 --> 13:47.590
+Non è necessario codificarlo effettivamente finché glielo dici e capisci dove migliorare
+
+13:47.590 --> 13:48.600
+le cose.
+
+13:48.890 --> 13:54.830
+Quello negli occhi di un intervistatore è tanto buono quanto in realtà lo stai codificando in quel modo.
+
+13:54.910 --> 13:57.220
+Va bene, sembra che funzioni.
+
+13:57.220 --> 14:06.340
+Se faccio un array vuoto qui, vedo che funziona ancora, la nostra risposta sembra buona.
+
+14:07.600 --> 14:09.000
+Spero che tu sia arrivato così lontano.
+
+14:09.040 --> 14:11.330
+Ci vediamo nel prossimo video di.

@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.070 --> 00:04.380
+You know yourself and how you learn best.
+
+00:04.580 --> 00:07.400
+This isn't a video of me just telling you how to learn.
+
+00:07.520 --> 00:13.250
+Instead I want to point out some things that may help you get the most out of this course based on how
+
+00:13.340 --> 00:15.290
+this course is structured.
+
+00:15.290 --> 00:19.250
+Think of this course as having two courses into one.
+
+00:19.310 --> 00:25.920
+The first part right over here is the non technical aspects of the interview.
+
+00:25.930 --> 00:31.420
+These are the skills that you will use throughout your career to get a leg up from the competition and
+
+00:31.420 --> 00:36.820
+make sure that you are able to optimize your chances of getting a well-paid job that you love.
+
+00:36.820 --> 00:41.980
+We're going to be talking about how to get more interviews and talk about all these topics right over
+
+00:41.980 --> 00:44.070
+here.
+
+00:44.070 --> 00:47.780
+We will also talk about non technical interview questions.
+
+00:47.790 --> 00:53.700
+The most common questions that we had asked in an interview and how to overcome them.
+
+00:53.870 --> 00:56.940
+And then finally talk about offer and negotiation.
+
+00:57.200 --> 01:04.580
+An often overlooked skill where we talk about how to handle offers and even negotiate a race.
+
+01:04.610 --> 01:08.630
+The second part of the Course is all technical.
+
+01:08.790 --> 01:14.310
+This is the really fun part of the course where we learn fundamental computer science topics that get
+
+01:14.340 --> 01:19.210
+asked at some of the top companies and don't lead this diagram intimidate you.
+
+01:19.260 --> 01:22.550
+By the end of the course you're going to master all these topics.
+
+01:23.920 --> 01:31.360
+We're going to learn about data structures like arrays stacks trees graphs and then specific ones like
+
+01:31.690 --> 01:36.220
+priority queues binary search tree doubly linked list.
+
+01:36.220 --> 01:42.970
+We're going to learn about algorithms how to traverse a tree and a graph how to use recursion properly
+
+01:43.810 --> 01:47.150
+how to improve time complexity and Big-O notation.
+
+01:47.320 --> 01:48.860
+How do we do sorting.
+
+01:48.970 --> 01:55.240
+Perhaps even searching all with the goal to help us write better code and answer interview questions
+
+01:55.980 --> 02:01.840
+what are my favorite sections here is when we're going to take you through a Google interview and demonstrate
+
+02:01.900 --> 02:07.560
+each piece of the puzzle so that by the end of it all you're able to answer really difficult questions
+
+02:07.880 --> 02:10.150
+as if you were part of that interview.
+
+02:10.450 --> 02:15.130
+By the end of it you're going to feel confident in any coding attribute or white board interview.
+
+02:16.890 --> 02:22.140
+At the end we're also going to have a ton of questions for you to do on top of the ones that we're going
+
+02:22.140 --> 02:29.130
+to do together from all these companies plus specific questions whether you want to be a front end engineer
+
+02:29.160 --> 02:31.200
+or a back end engineer.
+
+02:31.200 --> 02:37.150
+So you have three options with this course if you want you can just do each course separately.
+
+02:37.170 --> 02:39.030
+And that is fine.
+
+02:39.050 --> 02:45.270
+However the Course is structured in a way that these two courses are ordered to make you understand
+
+02:45.330 --> 02:46.220
+the topic.
+
+02:46.290 --> 02:50.510
+Bill the fundamentals and really connect the dots on interviewing.
+
+02:50.670 --> 02:56.910
+So to get the most out of this course you should follow the lessons in order since you may gain an insight
+
+02:56.940 --> 02:59.950
+or two even if you've got all leave me alone Andre.
+
+02:59.980 --> 03:01.300
+I already know this stuff.
+
+03:01.620 --> 03:04.130
+So now there you have an idea of the outline.
+
+03:04.140 --> 03:09.190
+Let's talk about what it means to succeed in this course first.
+
+03:09.210 --> 03:14.850
+Make sure you use our online discourse community to communicate with fellow students ask questions and
+
+03:14.850 --> 03:18.380
+talk about anything you may want when it comes to interviews.
+
+03:18.390 --> 03:24.030
+There's nothing better than talking out loud and practicing in front of people or with others.
+
+03:24.030 --> 03:27.540
+I'm also active every day on this community.
+
+03:27.540 --> 03:28.540
+The second part.
+
+03:28.710 --> 03:31.110
+These exercises get harder and harder.
+
+03:31.170 --> 03:36.610
+In each section they will challenge you and make you really extend your abilities as a developer.
+
+03:37.420 --> 03:39.380
+This is done on purpose.
+
+03:39.400 --> 03:43.930
+We're going to be building our foundation throughout the course and do challenging problems so that
+
+03:43.990 --> 03:47.690
+when it comes to real interviews you find things easy.
+
+03:47.980 --> 03:54.550
+Although I walk through the solutions I encourage you to use available resources to solve the answer.
+
+03:54.550 --> 04:00.630
+Think of it this way if someone offered you $10000 bonus to study interview questions for a month.
+
+04:00.910 --> 04:02.540
+Would you do it.
+
+04:02.600 --> 04:08.290
+That is why you're doing practicing for this by working hard and practicing what most people don't do.
+
+04:08.450 --> 04:13.650
+Interviewing you're putting yourself in a higher salary position for the rest of your life.
+
+04:13.730 --> 04:14.540
+A fair point.
+
+04:14.600 --> 04:16.700
+I know it sounds silly but it's important.
+
+04:16.790 --> 04:22.170
+Anytime you feel like you're just watching a video and aren't understanding a topic Stop what you're
+
+04:22.190 --> 04:24.940
+doing and take a break come back to the problem.
+
+04:24.980 --> 04:27.510
+You won't be able to finish this course in one week.
+
+04:27.710 --> 04:33.560
+If you do it properly it will take you about one month to finish everything in here so take your time.
+
+04:33.560 --> 04:35.540
+This isn't a sprint it's a marathon.
+
+04:36.650 --> 04:41.340
+Finally try to complete the full course instead of just parts of it.
+
+04:41.360 --> 04:49.150
+Most lessons are tied into one from another so that they flow and we keep building this pyramid of knowledge.
+
+04:49.170 --> 04:53.130
+We'll start from basic and get into more and more advanced topics.
+
+04:53.950 --> 04:54.550
+All right.
+
+04:54.700 --> 04:59.880
+I think it's time for us to start the course and get prepared to land our dream job.
+
+04:59.920 --> 05:02.980
+Let's get started and see in the next section.
+
+05:03.020 --> 05:03.250
+Buh-Bye.

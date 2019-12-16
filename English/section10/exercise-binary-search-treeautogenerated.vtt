@@ -1,0 +1,112 @@
+WEBVTT
+
+00:01.270 --> 00:07.460
+Welcome back it's time to write our own binary search tree.
+
+00:07.570 --> 00:14.070
+And in this exercise I'm going to challenge you to write your own before you wash my solution.
+
+00:15.290 --> 00:23.030
+Now keep in mind that just like with linked lists it's going to require us to keep track of the nodes
+
+00:23.240 --> 00:27.160
+to the left and to the right of the current node.
+
+00:27.440 --> 00:31.400
+And also we have a value associated with a note.
+
+00:31.820 --> 00:37.370
+I recommend you actually draw this out on a piece of paper to understand because keeping everything
+
+00:37.370 --> 00:41.760
+in your head and the calculations might be a little bit difficult.
+
+00:41.960 --> 00:45.910
+But I have somebody here with all the essentials you need.
+
+00:45.950 --> 00:48.740
+We've created a binary search tree class.
+
+00:48.890 --> 00:51.130
+We have no class that we can use.
+
+00:51.170 --> 00:59.130
+We start our binary search tree with this star root of null because we don't have anything yet.
+
+00:59.250 --> 01:06.500
+But remember we have the root which is our top most node which currently is empty.
+
+01:06.500 --> 01:13.220
+We're going to initialize our binary search tree and hopefully we're able to create two methods.
+
+01:13.280 --> 01:16.470
+One is answered and one is look up.
+
+01:16.820 --> 01:23.370
+And our goal is to create this tree over here 9 as the root node.
+
+01:23.410 --> 01:32.140
+Then four and twenty as it's children and then four has one in six children and 20 has 15 and 170 as
+
+01:32.320 --> 01:33.310
+it's children.
+
+01:34.090 --> 01:51.900
+So ideally if we implement insert correctly we can say tree dot insert 9 then insert 4 then insert 6
+
+01:53.470 --> 01:56.560
+then insert let's say 20.
+
+01:56.860 --> 02:05.930
+Well insert 170 last two will insert 15 and we see we have one left here Syllis to insert
+
+02:09.790 --> 02:18.480
+and ideally after running these commands you're able to create this tree data structure.
+
+02:18.510 --> 02:26.600
+Now at the bottom here I create a small little function for you and for now I want you to just ignore
+
+02:26.600 --> 02:31.770
+it because we're using something called recursion here which we haven't got into yet.
+
+02:32.120 --> 02:38.870
+But I only created this function for you to be able to test out your code to make sure that it actually
+
+02:38.870 --> 02:39.650
+works.
+
+02:41.260 --> 02:52.330
+All you need to do in order for you to verify that this is working is to say Jason dot string phi which
+
+02:52.330 --> 02:57.690
+is a javascript specific way to create a chase on string.
+
+02:58.090 --> 02:59.920
+And we're going to say Traverse
+
+03:03.580 --> 03:13.330
+tree dot root we just give it the root node of our tree and it's going to traverse and print out everything
+
+03:13.360 --> 03:21.690
+into a string so that you can check and the consol that your tree actually is working and in the solution
+
+03:21.690 --> 03:28.230
+video I'm going to demonstrate how this works but I've added this as a little helper for you in case
+
+03:28.590 --> 03:32.060
+you want to double check your work to make sure that it's correct.
+
+03:33.100 --> 03:40.750
+And by the way the look up method should simply be return the node that we're looking for and if it
+
+03:40.750 --> 03:45.570
+doesn't find the node then we can return normal or false whichever you want.
+
+03:46.000 --> 03:50.620
+And I've added the Remove method here which we're going to talk about later because it's a little bit
+
+03:50.620 --> 03:51.180
+difficult.
+
+03:51.220 --> 03:56.650
+So for now just worry about insert and look up and I'll see you in the solution video by.

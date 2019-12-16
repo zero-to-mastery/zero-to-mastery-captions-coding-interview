@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.700 --> 00:02.510
+Witamy spowrotem.
+
+00:02.510 --> 00:04.390
+Porozmawiajmy o Zasadzie numer trzy.
+
+00:04.520 --> 00:11.360
+To jest inny termin na dane wejściowe i jest to jedna z najtrudniejszych części wywiadu, z którym wielu
+
+00:11.360 --> 00:12.860
+ludzi popełnia błędy.
+
+00:13.340 --> 00:16.900
+Ale kiedy już to zrozumiesz, będzie to naprawdę łatwe do zauważenia.
+
+00:16.910 --> 00:18.220
+Spójrzmy więc na przykład.
+
+00:19.390 --> 00:25.120
+Mam dokładnie tę samą funkcję, którą widzieliśmy w ostatnich skrzynkach kompresji wideo dwa razy.
+
+00:25.150 --> 00:30.800
+Mamy macierz pól i mamy tutaj tylko dwie pętle.
+
+00:30.820 --> 00:32.020
+Używam tego dla każdego.
+
+00:32.020 --> 00:37.970
+Składnia w javascript, ale my po prostu zapętlamy dwa razy w tej samej tablicy.
+
+00:38.080 --> 00:45.290
+I jak powiedziałem przed wielkim pokazem, to będzie dwa, ale ponieważ zrzuciliśmy
+
+00:45.290 --> 00:54.810
+stałe, staje się to wszystkim, ale trzecia zasada stwierdza, że różne terminy dla wejść i co to oznacza.
+
+00:54.920 --> 00:57.340
+Przede wszystkim pozwól, że zadam ci pytanie.
+
+00:57.500 --> 01:07.840
+Co jeśli tutaj mam pola jako pierwszy parametr, a następnie mamy pola jako drugi parametr i być
+
+01:07.840 --> 01:17.860
+może ta druga pętla dla pętli faktycznie przechodzi przez drugie pola, co się tutaj dzieje.
+
+01:18.030 --> 01:20.110
+Co to jest wielki O.
+
+01:21.720 --> 01:28.080
+A podczas wywiadu wiele osób potknie się i powie, że to jest jeszcze w trakcie.
+
+01:28.080 --> 01:31.870
+To będzie 0 2 i spadnie ze stałych.
+
+01:31.940 --> 01:35.050
+Teraz jest to prawo.
+
+01:36.720 --> 01:44.760
+Nie, ponieważ trzecia zasada określa różne terminy wprowadzania danych i pola do zapamiętania.
+
+01:44.760 --> 01:49.550
+Pierwszy i drugi to dwa różne wejścia.
+
+01:49.830 --> 01:52.480
+Można mieć sto przedmiotów.
+
+01:52.600 --> 01:55.810
+Kolejny może być tylko jednym elementem.
+
+01:55.830 --> 02:04.910
+Tak więc ta pierwsza pętla for będzie zależeć od tego, jak duża jest pierwsza pozycja lub pierwsze wejście, a druga pętla for
+
+02:04.910 --> 02:07.950
+zależy od tego, jak duża jest ta.
+
+02:09.100 --> 02:17.730
+I jest po prostu dowolną literą, w której zdecydowaliśmy się w tym przypadku,
+
+02:17.730 --> 02:30.040
+że big-O tej funkcji będzie czymś w rodzaju pierwszej pętli for, która jest pierwszą wartością wejściową plus dużą dużą-O, ta
+
+02:30.370 --> 02:39.230
+funkcja jest w rzeczywistości plusa b lub plus M lub też pola 1 plus pola.
+
+02:39.310 --> 02:45.760
+Miej to na uwadze tylko dlatego, że widzisz dwie cztery pętle jedna po drugiej, nie oznacza to, że
+
+02:45.760 --> 02:48.190
+zapętlają się nad tymi samymi przedmiotami.
+
+02:48.190 --> 02:55.980
+Teraz możesz zadawać sobie pytanie Andre Co stanie się, jeśli te pętle zostaną zagnieżdżone.
+
+02:56.080 --> 02:59.920
+Do tej pory pracowaliśmy tylko z pętlami, które są jedna po drugiej.
+
+02:59.920 --> 03:09.460
+Co jeśli ta pętla znajdowała się w tej pętli Cóż, przejdźmy do następnego wideo i porozmawiajmy o innym wspólnym wzorze,
+
+03:09.460 --> 03:12.450
+który widzimy za pomocą pętli zagnieżdżonych.

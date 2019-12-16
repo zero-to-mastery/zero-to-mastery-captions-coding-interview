@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.060 --> 00:02.080
+Witamy spowrotem.
+
+00:02.080 --> 00:04.480
+Chciałem dodać szybkie gotcha.
+
+00:04.540 --> 00:13.030
+Jeśli chodzi o sterty, to kiedy słyszysz stertę pamięci, która nie jest taka sama jak struktura danych o owcach, być może słyszałeś
+
+00:13.660 --> 00:19.090
+o stertach w pamięci i czymś w rodzaju mechanizmu uruchomieniowego javascript, w którym mamy
+
+00:19.090 --> 00:20.300
+stos i stertę.
+
+00:20.340 --> 00:24.190
+Istnieją dwie lokalizacje, w których możemy zachować pamięć.
+
+00:24.190 --> 00:30.730
+Teraz ten statek, który możesz sobie wyobrazić jako wolne miejsce, to region w naszej pamięci, w którym możemy przechowywać
+
+00:30.730 --> 00:31.560
+dowolne dane.
+
+00:31.900 --> 00:35.610
+Języki takie jak C również mają tę kupkę.
+
+00:35.710 --> 00:38.600
+Teraz nazewnictwo jest po prostu przypadkowe.
+
+00:38.660 --> 00:45.060
+I nie ma prawdziwego związku ze strukturą danych, która nazywa się stosem.
+
+00:45.130 --> 00:45.980
+Miej to w pamięci.
+
+00:46.030 --> 00:48.490
+Jest po prostu kupą pamięci.
+
+00:48.490 --> 00:55.780
+Jeśli mówisz o środowisku uruchomieniowym języka, na przykład w porównaniu do struktury danych sterty, o której
+
+00:55.780 --> 01:01.030
+teraz mówimy, chcę to wyjaśnić, ponieważ podczas nauki o stertach.
+
+01:01.030 --> 01:05.730
+Z jakiegoś powodu zawsze myślałem, że to jest to samo, ale nie tylko je wyrzucają.
+
+01:05.770 --> 01:07.230
+Do zobaczenia następnego wideo.
+
+01:07.240 --> 01:07.740
+PA.

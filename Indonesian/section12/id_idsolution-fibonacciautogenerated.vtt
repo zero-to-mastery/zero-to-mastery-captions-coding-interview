@@ -1,0 +1,385 @@
+WEBVTT
+
+00:01.300 --> 00:02.410
+Selamat datang kembali.
+
+00:02.800 --> 00:09.370
+Bagaimana olahraga itu bisa didengar otak Anda dari semua urutan yang membingungkan ini.
+
+00:09.370 --> 00:18.010
+Mari kita mulai dengan fungsi rekursif kali ini karena dalam hal ini fungsi rekursif sebenarnya jauh
+
+00:18.040 --> 00:20.850
+lebih mudah untuk dipikirkan.
+
+00:21.930 --> 00:29.730
+Yang akan kita lakukan dengan fungsi rekursif kita adalah mengatakan dengan baik kasus dasar akan mengatakan nomor empat
+
+00:29.940 --> 00:31.950
+dan akan sama dengan
+
+00:34.660 --> 00:35.270
+dua.
+
+00:35.470 --> 00:38.290
+Jika itu masalahnya, kembalilah sebenarnya
+
+00:42.070 --> 00:49.100
+jika kita melihat urutan kita melihat bahwa jika mereka mengindeks nol jawabannya adalah nol.
+
+00:49.160 --> 00:53.900
+Jika indeksnya 1 Jawabannya adalah 1.
+
+00:54.200 --> 00:58.690
+Dan jika indeksnya 2 maka jawabannya berubah menjadi 1.
+
+00:58.700 --> 01:04.260
+Jadi alih-alih base case kami mungkin hanya cukup jika sebuah kurang dari 2.
+
+01:04.280 --> 01:08.280
+Kami akan selalu mengubah apa pun akhirnya.
+
+01:08.300 --> 01:13.500
+Jadi jika kita mengatakan 0 itu akan mengembalikan 0 jika kita mengatakan seseorang akan mengembalikan 1.
+
+01:13.580 --> 01:22.150
+Jika kita memiliki indeks lebih tinggi dari sumur itu maka kita harus melakukan rekursi dan semua yang akan kita
+
+01:22.150 --> 01:27.730
+lakukan di sini adalah memiliki pernyataan pengembalian sekarang dan mengatakan fungsi ini.
+
+01:27.730 --> 01:30.270
+Saya tahu bahwa fungsi ini sangat panjang.
+
+01:30.280 --> 01:33.630
+Kita mungkin bisa membuatnya lebih singkat dengan hanya mengucapkan Fib.
+
+01:33.730 --> 01:38.140
+Dan saya perhatikan bahwa kita tidak perlu berulang di sini.
+
+01:38.300 --> 01:39.900
+Itu akan membuatnya sedikit lebih pendek.
+
+01:39.900 --> 01:52.340
+Nah, kita tahu yang akan kita katakan adalah Fed akan sama dan minus satu ditambah hal yang sama
+
+01:56.620 --> 02:01.180
+minus dua karena ingat jumlahnya selalu.
+
+02:01.180 --> 02:07.450
+Jawabannya selalu angka 1 dan 2 sebelumnya.
+
+02:07.560 --> 02:17.560
+Jadi kita hanya menambahkan angka 1 dan 2 sebelum urutan kita dan hanya itu.
+
+02:17.560 --> 02:26.230
+Jika kita menjalankan fungsi ini katakanlah jika kita memiliki Bonacci rekursif 3 dan saya klik jalankan saya mendapatkan 2
+
+02:26.470 --> 02:36.180
+karena 0 1 2 3 adalah 2 mari kita lakukan 8 yang seharusnya memberi kita 21 dan saya klik Jalankan atau beri 8.
+
+02:36.290 --> 02:45.930
+Saya mendapatkan 21 bagus dan jika saya lakukan 0 saya mendapatkan 0.
+
+02:46.290 --> 02:49.050
+Jika saya melakukan satu saya mendapatkan satu.
+
+02:49.080 --> 02:53.470
+Jika saya juga melakukannya, saya harus mendapatkannya di sini.
+
+02:53.520 --> 02:58.530
+Bagus dan sederhana juga, saya tidak tahu tentang benar sederhana.
+
+02:58.570 --> 03:04.340
+Anda benar-benar harus merasa nyaman dengan ini sebelum Anda benar-benar memahami apa yang terjadi.
+
+03:04.420 --> 03:06.630
+Tapi saya punya diagram kecil untuk membantu Anda di sini.
+
+03:07.570 --> 03:10.300
+Yang kami lakukan hanyalah ini.
+
+03:10.450 --> 03:19.900
+Jika saya menambahkan 7 di sini adalah fungsi rekursif akan mendapatkan satu kurang dari 7 dan 2 kurang dari 5 dan kemudian dalam
+
+03:19.930 --> 03:26.080
+fungsi-fungsi tersebut melakukan hal yang sama satu kurang dari enam menjadi kurang dari enam.
+
+03:26.170 --> 03:30.090
+Ingin mengirim 5 hingga kurang dari 3 dan ia melakukan semua ini.
+
+03:30.100 --> 03:39.420
+Semua ini semua sampai kita sampai ke FEBE 1 ke tempat kita memiliki case dasar yang mengembalikan angka itu.
+
+03:39.500 --> 03:42.310
+Jadi ini menjadi satu.
+
+03:42.430 --> 03:49.170
+Ini juga menjadi satu dan kemudian terus berjalan terus kembali sampai kita mencapai FEBE 7.
+
+03:49.180 --> 03:53.800
+Sekarang ini adalah diagram yang akan kita bahas kembali tetapi Anda lihat kami melakukan banyak perhitungan di
+
+03:53.800 --> 03:54.340
+sini.
+
+03:55.250 --> 03:57.770
+Tapi sederhananya ini yang kita lakukan.
+
+03:59.820 --> 04:06.360
+Sekarang saya mengatakan bahwa pendekatan rekursif sebenarnya lebih sederhana daripada pendekatan iteratif.
+
+04:06.810 --> 04:10.860
+Mari kita lihat seperti apa pendekatan iteratif nantinya.
+
+04:10.950 --> 04:14.790
+Kami akan membuat array dan ada banyak cara untuk melakukan ini.
+
+04:14.790 --> 04:24.370
+Ini adalah cara yang saya sukai dan survei ini akan memiliki item awal dari urutan 0 dan 1.
+
+04:24.580 --> 04:31.280
+Dan ini akan pertama-tama mengembalikan array item.
+
+04:31.280 --> 04:36.680
+Dan kami membuat array ini dan kemudian mengambil indeks apa pun yang diinginkan pengguna.
+
+04:36.680 --> 04:43.940
+Dalam kasus kami jika pengguna meminta 0 atau 1 kami sudah memiliki array diawali dengan nol dan 1 dan itu akan
+
+04:43.940 --> 04:45.390
+mengembalikan yang sama.
+
+04:45.800 --> 04:49.610
+Tetapi kita masih perlu menghitung untuk semua yang lain.
+
+04:49.610 --> 04:58.760
+Di situlah kita melakukan perulangan dan mengatakan Biarkan saya sama dengan dua karena kita akan mulai menambahkan ketika indeks adalah
+
+04:59.000 --> 05:12.560
+0 1 2 untuk mulai mengisi survei akan mengatakan kurang dari satu plus atau kita bisa melakukan bagian yang sama untuk yang Anda inginkan kami akan berhenti di situ
+
+05:12.560 --> 05:17.660
+untuk saat ini dan kami akan menambah i plus plus.
+
+05:17.960 --> 05:23.480
+Dan dalam loop ini kita akan terus berjalan sampai kita
+
+05:23.810 --> 05:26.390
+menekan jumlah indeks yang
+
+05:28.980 --> 05:38.890
+kita minati dan yang akan kita katakan adalah push array I minus dua plus re PI minus satu.
+
+05:39.110 --> 05:40.640
+Mirip dengan apa yang kami lakukan sebelumnya.
+
+05:40.640 --> 05:45.830
+Kami hanya menjumlahkan dua angka sebelumnya dan mendorongnya ke array.
+
+05:46.820 --> 05:47.320
+Baiklah.
+
+05:47.420 --> 05:49.030
+Sekarang mari kita lihat apakah ini berhasil.
+
+05:49.070 --> 05:53.410
+Saya akan mengomentari yang satu ini dan hanya melakukan pendekatan iteratif.
+
+05:54.630 --> 05:56.760
+Saya mendapat dua untuk tiga.
+
+05:56.760 --> 05:58.900
+Bagaimana dengan indeks delapan.
+
+05:59.070 --> 06:01.740
+Saya mendapatkan 21 sempurna.
+
+06:01.830 --> 06:11.640
+Dan kemudian jika saya melakukan indeks 0 dan X dari 1 dan indeks dua harus satu sempurna.
+
+06:11.670 --> 06:16.980
+Sekarang saya mengatakan bahwa pendekatan rekursif lebih sederhana daripada pendekatan iteratif.
+
+06:16.980 --> 06:18.880
+Nah, itu pendapat pribadi saya.
+
+06:18.930 --> 06:25.440
+Anda mungkin tidak berpikir bahwa Anda mungkin berpikir bahwa ini cukup mudah tetapi bagi saya ini berbunyi jauh lebih baik daripada
+
+06:26.190 --> 06:28.090
+semua hal yang kita lakukan.
+
+06:28.960 --> 06:34.390
+Dan ini adalah sesuatu yang akan kita bahas dalam video berikutnya di mana
+
+06:34.390 --> 06:41.050
+kita berbicara tentang pengorbanan antara pendekatan berulang dan rekursif untuk masalah ini dan mengapa mungkin Anda bertanya-tanya
+
+06:41.260 --> 06:44.210
+sekarang mengapa kita menulis sesuatu yang rekursif.
+
+06:44.380 --> 06:48.720
+Jika Anda merasa ini membingungkan, kami akan membahasnya.
+
+06:48.810 --> 06:54.000
+Tetapi satu hal yang ingin saya tunjukkan kepada Anda adalah sesuatu yang baru kami pelajari di sini yang baru bagi kami.
+
+06:54.540 --> 06:57.370
+Menurut Anda apa yang menjadi O-besar dari kedua fungsi ini.
+
+06:59.030 --> 07:02.770
+Baik dalam solusi berulang kami.
+
+07:02.870 --> 07:06.410
+O besar adalah waktu linier yang benar.
+
+07:06.410 --> 07:07.640
+Itu dari.
+
+07:07.670 --> 07:16.190
+Dan pada dasarnya kita hanya mengulang melalui loop dan minus dua kali karena kita melewatkan
+
+07:16.190 --> 07:20.490
+dua item pertama yang pada gilirannya membuatnya.
+
+07:20.560 --> 07:22.110
+Oven.
+
+07:22.150 --> 07:25.930
+Tapi bagaimana dengan pendekatan rekursif.
+
+07:25.960 --> 07:28.610
+Ingat diagram yang saya tunjukkan pada Anda.
+
+07:28.860 --> 07:34.860
+Itu jauh lebih banyak perhitungan daripada hanya angka tujuh.
+
+07:34.970 --> 07:42.430
+Kami memiliki banyak pemanggilan fungsi yang terjadi dalam kasus ini dalam solusi rekursi.
+
+07:42.430 --> 07:52.060
+Dibutuhkan apa yang kita sebut waktu eksponensial ukuran pohon tumbuh secara eksponensial kapan dan meningkat jika angka
+
+07:52.630 --> 08:02.020
+Fibonacci adalah delapan kita akan memiliki pohon ini serta pohon lain di bawah FEBE 8
+
+08:03.570 --> 08:06.120
+jadi apa tujuan besarnya.
+
+08:08.140 --> 08:13.040
+Ini sangat menarik karena kita sedang belajar tentang notasi Big O baru.
+
+08:13.270 --> 08:17.520
+Kami sedang belajar tentang satu kali eksponensial ini.
+
+08:18.670 --> 08:28.080
+Yang dapat dilihat dengan algoritma rekursif yang memecahkan masalah ukuran dan 2 pangkat dari jika kita pergi ke O
+
+08:28.080 --> 08:33.230
+Chichi besar kita ini adalah 0 2 pangkat semut.
+
+08:33.270 --> 08:37.860
+Dan Anda melihat seberapa banyak itu meningkat.
+
+08:37.860 --> 08:39.520
+Itu sangat buruk.
+
+08:39.780 --> 08:50.300
+Ini lebih besar dari bahkan 0 dan kuadrat dua bersarang untuk loop waktu eksponensial berarti setiap elemen tambahan
+
+08:50.390 --> 08:52.860
+dalam urutan Fibonacci.
+
+08:52.880 --> 08:58.070
+Kami mendapatkan peningkatan dalam panggilan fungsi secara eksponensial.
+
+08:58.150 --> 09:05.410
+Dan inilah trik kecil yang menyenangkan meskipun ini semua merupakan pendekatan berulang.
+
+09:05.410 --> 09:18.660
+Fungsi ini karena semuanya dua untuk kekuatan jika saya menjalankan fungsi ini katakanlah jika kita lakukan 10 saya mendapatkan
+
+09:20.700 --> 09:27.230
+hasil jika saya lakukan 15 saya masih mendapatkan hasil.
+
+09:27.230 --> 09:28.570
+Bagaimana jika saya melakukan 20 di sini.
+
+09:29.940 --> 09:30.300
+Baiklah.
+
+09:30.300 --> 09:33.120
+Itu mulai menjadi lebih besar dan lebih besar.
+
+09:33.230 --> 09:40.530
+Saya melakukan 30 jika saya melakukan 40.
+
+09:40.550 --> 09:43.810
+Apakah Anda melihat berapa lama waktu yang dibutuhkan untuk menghitung.
+
+09:44.030 --> 09:47.960
+Karena kompleksitas waktu kita semakin meningkat.
+
+09:48.070 --> 09:55.340
+Jika saya melakukan empat puluh tiga sekarang Anda akan melihat bahwa kita sedang menunggu dan menunggu dan menunggu perhitungan
+
+09:55.340 --> 09:55.990
+terjadi.
+
+09:56.090 --> 10:01.610
+Dan akhirnya browser muncul dengan perhitungan sebagai pertanyaan bonus dan berpikir
+
+10:01.610 --> 10:05.770
+tentang berapa banyak perhitungan Fibonacci 43 yang diperlukan.
+
+10:07.130 --> 10:16.940
+Meskipun ini mungkin lebih mudah dibaca bukan solusi ideal karena Anda dapat melihat kompleksitas waktu yang besar cukup
+
+10:16.940 --> 10:17.590
+besar.
+
+10:17.750 --> 10:23.310
+Dan ini adalah sesuatu yang mungkin Anda tanyakan dalam sebuah wawancara dan saya tahu apa yang Anda pikirkan.
+
+10:23.620 --> 10:28.210
+Andre, Anda baru saja mengajari kami tentang rekursi dan itu bahkan tidak baik.
+
+10:28.360 --> 10:30.430
+Ini lambat, membingungkan.
+
+10:30.430 --> 10:33.570
+Mengapa saya ingin menggunakan rekursi.
+
+10:34.480 --> 10:38.290
+Dalam video berikutnya saya akan berbicara tentang pengorbanan ini.
+
+10:38.290 --> 10:42.260
+Mengapa Anda pernah menggunakan rekursi pada sesuatu yang bersifat enteritis.
+
+10:43.470 --> 10:46.190
+Mengapa ada orang waras yang melakukannya?
+
+10:46.530 --> 10:54.530
+Dan ketika Anda mengetahui ada beberapa pro dan kontra dan pada kenyataannya fungsi seperti ini seperti
+
+10:54.530 --> 11:02.380
+Urutan Fibonacci dan rekursi dapat dibuat untuk semua ujungnya menggunakan sesuatu seperti pemrograman dinamis dan
+
+11:02.380 --> 11:05.010
+menghafal yang akan kita bicarakan.
+
+11:05.110 --> 11:11.350
+Menjelang akhir kursus ini dan kami akan kembali ke ini tetapi mari kita akhirnya menjawab pertanyaan
+
+11:11.350 --> 11:12.810
+di video berikutnya.
+
+11:13.030 --> 11:18.730
+Mengapa Anda pernah menggunakan rekursi atas sesuatu yang berulang.
+
+11:18.780 --> 11:20.320
+Saya akan melihat yang berikutnya.
+
+11:20.440 --> 11:20.700
+Bebai.

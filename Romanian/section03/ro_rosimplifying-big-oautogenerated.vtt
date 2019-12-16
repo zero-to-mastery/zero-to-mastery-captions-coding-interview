@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.960 --> 00:02.120
+Bine ai revenit.
+
+00:02.320 --> 00:09.440
+Acum, în exercițiul anterior și în exercițiul pe care tocmai am făcut-o, am văzut că a trebuit să facem un pic de calcul,
+
+00:09.450 --> 00:16.800
+a fost cam enervant acolo unde trebuia să adăugăm lucrurile, apoi știi asta, plus câte cinci și plus patru în interviurile pe care nu
+
+00:17.040 --> 00:22.380
+le faci niciodată mergi să faci asta și te întrebi pe Andre De ce mi-ai învățat
+
+00:22.380 --> 00:23.760
+asta și ai dreptate.
+
+00:23.760 --> 00:28.160
+Dar acum, când înțelegeți cât de mare este calculat O.
+
+00:28.590 --> 00:34.650
+Dar, de cele mai multe ori, când intri în interviuri, există setul de reguli pe care urmează să-l urmezi acolo
+
+00:35.220 --> 00:40.680
+unde nu trebuie să faci asta și poți să te uiți la această funcție și să spui imediat
+
+00:40.680 --> 00:42.730
+ce tip de bego este .
+
+00:42.870 --> 00:53.650
+De exemplu, această funcție se transformă într-un rând al unei astfel de funcții din nou transformându-se în doar
+
+00:53.920 --> 00:57.610
+0 și este un truc mic.
+
+00:57.900 --> 01:05.460
+Când vorbim despre big-O în interviuri, de cele mai multe ori vei da doar unul dintre aceste răspunsuri,
+
+01:06.890 --> 01:14.420
+probabil că niciodată nu vei calcula cu exactitate exact 0 3 și sau trei și plus două
+
+01:14.480 --> 01:15.470
+plus unu.
+
+01:15.470 --> 01:20.750
+Deci, cum am putut să ne simplificăm exercițiile și să spunem că sunt înăuntru.
+
+01:21.190 --> 01:27.770
+Și, din fericire pentru tine, există doar câteva reguli pe care le putem urma când vine vorba de drum.
+
+01:28.190 --> 01:29.630
+Și sunt doar patru.
+
+01:30.390 --> 01:36.060
+Urmând aceste patru reguli, în loc să facem acele mici calcule pe care le-am făcut până
+
+01:36.060 --> 01:42.790
+în acest moment, puteți doar să vă simplificați viața, astfel încât vechiul mare să devină foarte ușor de calculat.
+
+01:43.170 --> 01:48.330
+Să abordăm primul care este cel mai rău caz din regula numărul unu.
+
+01:48.420 --> 01:50.050
+Să vorbim despre asta în următorul videoclip.

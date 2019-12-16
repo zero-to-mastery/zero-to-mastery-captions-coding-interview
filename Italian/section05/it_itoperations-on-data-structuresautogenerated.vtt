@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.020 --> 00:08.760
+Quali sono le varie operazioni che possono essere eseguite su diverse strutture di dati perché, come abbiamo
+
+00:08.790 --> 00:17.570
+appreso nelle nostre lezioni precedenti, le strutture dati sono semplicemente modi per organizzare i nostri dati sui nostri computer e
+
+00:17.570 --> 00:25.520
+le strutture di dati che vedremo in questo corso sono semplicemente variazioni di come abbiamo memorizzato questi dati
+
+00:25.820 --> 00:27.350
+sui nostri computer.
+
+00:27.350 --> 00:33.680
+Questa informazione e ogni struttura di dati hanno i loro compromessi.
+
+00:33.730 --> 00:36.070
+Alcuni sono bravi in certe operazioni.
+
+00:36.070 --> 00:38.990
+Altri sono bravi in altre operazioni.
+
+00:40.020 --> 00:47.430
+Un tipo di azione che eseguiremo bene con le strutture dati è l'inserimento aggiungere un
+
+00:47.430 --> 00:56.220
+nuovo elemento di dati in una determinata raccolta di elementi come noi aggiungendo qui l'elemento mela e la memoria.
+
+00:57.270 --> 01:05.300
+E ora l'eliminazione di un file vogliamo a volte cancellare dati come rimuovere mango dal nostro elenco.
+
+01:05.300 --> 01:08.800
+Un altro tipo di azione potrebbe essere trasversale.
+
+01:09.140 --> 01:16.860
+E vedremo che molto traversare significa semplicemente accedere ad ogni elemento di dati esattamente una volta in
+
+01:17.190 --> 01:22.240
+modo che possa essere processato e altri utili possano essere cercati.
+
+01:22.310 --> 01:29.920
+Vogliamo scoprire la posizione dell'elemento di dati se esiste in una determinata raccolta e quindi abbiamo anche
+
+01:29.920 --> 01:34.960
+cose come l'ordinamento che sta avendo dati che è l'ordinamento.
+
+01:34.960 --> 01:41.890
+Un po 'come è sul lato sinistro qui rispetto al lato destro dove non c'è molta selezione
+
+01:41.890 --> 01:45.100
+in corso almeno da dove possiamo vedere.
+
+01:45.300 --> 01:51.390
+E ovviamente quello principale e probabilmente il più importante è l'accesso.
+
+01:51.600 --> 01:56.170
+Come possiamo accedere a questi dati che abbiamo sul nostro computer.
+
+01:56.950 --> 02:02.980
+Ora ogni struttura dati che andremo a seguire in questo corso avrà pro e contro diversi
+
+02:02.980 --> 02:04.950
+per ognuno di questi.
+
+02:05.140 --> 02:12.240
+E se diamo un'occhiata al nostro Big-O Chichi Bene, conosciamo bene questo diagramma qui o questo grafico
+
+02:12.240 --> 02:19.510
+e se scorriamo verso il basso abbiamo tutte queste strutture di dati che elenca e non riescono a sopraffare.
+
+02:19.590 --> 02:25.170
+Analizzeremo la maggior parte di queste strutture di dati e vedrete che metà di esse sono
+
+02:25.200 --> 02:31.300
+principalmente alberi e variazioni di alberi e all'interno di questo aspetto vediamo che ognuno di essi ha accesso.
+
+02:31.310 --> 02:38.510
+Cerca la media di cancellazione inserimento nel peggiore dei casi e perché capiamo big-O possiamo vedere che.
+
+02:38.620 --> 02:41.660
+Va bene, stiamo vedendo quali sono buoni per cosa.
+
+02:41.680 --> 02:44.080
+E cosa è male per cosa.
+
+02:44.910 --> 02:50.590
+E mentre passiamo attraverso le nostre strutture dati, esamineremo questi pro e contro in
+
+02:50.590 --> 02:57.310
+modo da costruire le basi per poter decidere quale struttura dati dovrei usare per il tuo prossimo problema.
+
+02:57.730 --> 03:02.080
+Cominceremo con la nostra primissima struttura dati nella prossima lösen.
+
+03:02.200 --> 03:02.990
+Vedrò in quello.

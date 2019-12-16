@@ -1,0 +1,889 @@
+WEBVTT
+
+00:01.700 --> 00:04.820
+Cum funcționează javascriptul?
+
+00:04.820 --> 00:08.340
+Imaginați-vă că ați primit această întrebare în timpul unei intrări sau cum puteți spune asta.
+
+00:08.360 --> 00:13.160
+Explicați diferența dintre asincron și sincron și Javascript.
+
+00:13.220 --> 00:16.000
+Sau poate vă cer să explicați declarația.
+
+00:16.010 --> 00:19.540
+Javascript ca un singur limbaj de filet care poate fi non-blocant.
+
+00:20.410 --> 00:24.960
+Oh băiat în acest film vă vom ajuta să răspundeți la aceste întrebări.
+
+00:24.960 --> 00:29.550
+Acesta este un videoclip pe care ar trebui să-l vizitați de câteva ori pe măsură ce progresați pentru ao obține.
+
+00:29.640 --> 00:32.850
+Deci, nu te simti descurajat daca nu simti 100 de procente increzatori.
+
+00:32.910 --> 00:35.520
+Continuați să îl urmăriți și veți obține.
+
+00:35.520 --> 00:40.580
+Acum nu trebuie să știm cum funcționează javascript intern pentru a scrie un program.
+
+00:40.950 --> 00:42.590
+Dar este important să învățăm.
+
+00:42.900 --> 00:47.260
+Văd o mulțime de oameni care au fost dezvoltatori de ani de zile și nimeni nu știe acest lucru.
+
+00:47.280 --> 00:51.140
+Este ca și cum ai fi un pilot și că nu știi cum poate zbura un avion.
+
+00:51.510 --> 00:53.480
+OK, asta e puțin cam dramatic acolo.
+
+00:53.500 --> 00:55.230
+Dar înțelegi.
+
+00:55.230 --> 01:00.210
+Deci, să începem mai întâi ceea ce este un program.
+
+01:00.510 --> 01:03.490
+Ei bine, un program trebuie să facă niște lucruri simple.
+
+01:03.540 --> 01:05.550
+Trebuie să aloce memoria.
+
+01:05.580 --> 01:11.120
+În caz contrar, vom putea avea variabile sau chiar vom avea un fișier pe calculatorul nostru.
+
+01:11.130 --> 01:16.850
+De asemenea, trebuie să parseze și să execute scripturi, ceea ce înseamnă că citiți și executați comenzi.
+
+01:17.190 --> 01:17.760
+O.K.
+
+01:17.940 --> 01:26.270
+Acum, de asemenea, știm că din discuția noastră anterioară se găsește motorul javascript pe care fiecare browser implementează în
+
+01:26.280 --> 01:34.500
+Chrome este motorul V8, iar motorul V8 citește javascriptul pe care îl scriem în modificări în instrucțiunile executabile
+
+01:34.500 --> 01:36.900
+ale mașinii pentru browser.
+
+01:37.440 --> 01:43.370
+Acum motorul este alcătuit din două părți dintr-o grămadă de memorie și o stivă de apeluri.
+
+01:43.440 --> 01:45.120
+Acum grămada de memorie.
+
+01:45.270 --> 01:48.680
+Aici se face alocarea memoriei.
+
+01:48.810 --> 01:50.680
+Și nu vă faceți griji că vom vorbi despre asta.
+
+01:51.000 --> 01:52.230
+Apoi, stiva de apel.
+
+01:52.260 --> 01:54.920
+Acesta este locul în care codul dvs. este citit și executat.
+
+01:54.960 --> 01:57.650
+Vă spune unde vă aflați în program.
+
+01:59.070 --> 02:01.900
+Deci, să simplificăm acest lucru și să vă arătăm ce vreau să spun.
+
+02:04.370 --> 02:06.310
+Am sublim text aici.
+
+02:06.710 --> 02:16.650
+Și pentru noi să alocăm memoria și mormântul de memorie Ei bine, este la fel de simplu ca și cum am face Konst a Eco
+
+02:17.060 --> 02:24.110
+cu unul pe care tocmai l-am alocat o memorie acum când îl atribuim, motorul javascript își va
+
+02:24.470 --> 02:28.070
+aminti că OIA A are valoarea de 1.
+
+02:28.190 --> 02:34.540
+Tocmai am folosit jacheta de memorie și pot continua să funcționeze așa cum trebuie.
+
+02:34.610 --> 02:41.570
+Pot să păstrez copierea și lipirea și schimbarea acestor variabile în B și C și pot schimba valorile la o
+
+02:41.570 --> 02:44.480
+sută și poate aici va fi de 10.
+
+02:45.560 --> 02:46.110
+Rece.
+
+02:46.160 --> 02:49.870
+Acum, ce este o problemă pe care o vedem cu asta?
+
+02:50.040 --> 02:55.750
+Acest lucru este numit o scurgere de memorie pe care o veți auzi când deveniți dezvoltator.
+
+02:56.110 --> 03:01.900
+Și ceea ce am făcut aici este că am creat toate aceste variabile aceste variabile globale care
+
+03:01.900 --> 03:05.350
+sunt în memoria heap dar vedeți această casetă corectă.
+
+03:05.530 --> 03:10.940
+Și cu toată memoria avem o cantitate limitată pe care o putem avea de fapt.
+
+03:11.080 --> 03:17.950
+Deci, prin creșterea numărului de variabile pe care le-am imaginat dacă am avut doar această pagină plină de variabile și
+
+03:17.950 --> 03:21.720
+în loc de doar numerele sunt ca array foarte mari.
+
+03:22.030 --> 03:28.450
+Ei bine, scurgeri de memorie se întâmplă atunci când aveți o memorie neutilizată, cum ar fi să spunem că
+
+03:28.450 --> 03:36.310
+acum folosim variabila a, dar este bine să ne simțim bine având memoria neutilizată pur și simplu în jurul ei, umple această grămadă de memorie.
+
+03:36.580 --> 03:40.050
+De aceea ați putea auzi de ce variabilele globale sunt rele.
+
+03:40.150 --> 03:44.440
+Variabilele globale sunt rele pentru că nu uităm să ne curățăm după noi înșine.
+
+03:44.560 --> 03:51.280
+Umplem această grămadă de memorie și în cele din urmă browserul nu va putea să funcționeze.
+
+03:51.300 --> 03:54.040
+În regulă, așa este memoria.
+
+03:54.090 --> 03:56.100
+Să vorbim despre stiva de apeluri.
+
+03:56.220 --> 03:57.040
+Ce este asta.
+
+03:58.210 --> 04:17.460
+Ei bine, din nou, cu un stack de apel putem avea ceva asemănător acestui jurnal de consolă Mogo 1 consola pentru a
+
+04:17.670 --> 04:23.260
+numi, în sfârșit, consola log 3.
+
+04:23.400 --> 04:28.400
+Dacă am rulat acest cod în terminalul meu de browser.
+
+04:28.600 --> 04:39.880
+Ei bine, primesc unul două trei stiva de apel dacă vă amintiți că este ceea ce citește și execută scripturile noastre.
+
+04:40.260 --> 04:45.950
+Deci, ce stiva de apel face citirea dialogului prima consola de linie.
+
+04:46.140 --> 04:48.610
+Se pune în acest stack de apeluri.
+
+04:48.890 --> 04:52.530
+Deci, motorul javascript spune că dialogul consola a fost adăugat.
+
+04:52.680 --> 05:03.170
+Să-l afișăm pe acest sir de convorbiri și apoi să-l execute și să creeze unul apoi să spună OK Îndepărtează prima consola de blocare pe măsură ce
+
+05:03.170 --> 05:09.920
+tocmai am terminat să o rulez Voi plasa cel de-al doilea registru al consolei în stivă de
+
+05:09.920 --> 05:13.860
+apeluri pe care o adaugă aici și spune Yep.
+
+05:13.990 --> 05:15.090
+Executați două.
+
+05:15.680 --> 05:23.410
+Apoi se elimină faptul că se deschide și apoi se blochează Konsole 3 și se înregistrează Konst lock 3.
+
+05:23.420 --> 05:30.930
+Și apoi înlătură în cele din urmă, dar să avem un pic mai mult un exemplu complex aici pentru a demonstra
+
+05:30.930 --> 05:31.960
+acest lucru.
+
+05:32.160 --> 05:34.750
+Imaginați-vă că am ceva de genul asta.
+
+05:37.450 --> 05:39.700
+Am un concept
+
+05:44.430 --> 05:52.390
+funcțional și în interiorul acestei funcții avem o altă funcție conc, și deocamdată nu
+
+05:52.420 --> 06:04.390
+este de gând să se facă prea mult, se va consoliza punct-log și aici vom spune că Rhondda va funcționa.
+
+06:04.410 --> 06:14.990
+Deci, dacă copiați și lipiți acest lucru și puneți-l în consola noastră și executați una, obțin patru și ignorați această eroare aici.
+
+06:15.060 --> 06:17.400
+A fost legat doar de aplicația mea din browser.
+
+06:17.510 --> 06:19.000
+Dar tu vezi că avem patru.
+
+06:19.010 --> 06:21.920
+Deci, ce sa întâmplat aici în funcție de stackul apelurilor.
+
+06:22.310 --> 06:30.050
+Ei bine, dacă avem stiva de apel aici, am pornit mai întâi o singură funcție.
+
+06:30.050 --> 06:34.520
+Deci, în partea de sus a stivei de apel, se execută o singură funcție.
+
+06:34.760 --> 06:40.050
+Și pe măsură ce intrăm în această stivă de apel, vedem că avem o altă funcție.
+
+06:40.190 --> 06:50.410
+Deci, două se află în partea superioară a stivei de apeluri și acum executăm cele două funcții care sunt Konsole jurnalul.
+
+06:50.600 --> 07:00.100
+Deci avem consola Dom log pentru că se rulează în interiorul celor două funcții.
+
+07:00.130 --> 07:03.990
+Deci, acum că am citit acest volum, se va spune OK.
+
+07:04.030 --> 07:06.280
+Nu este nimic altceva înăuntru.
+
+07:06.280 --> 07:11.410
+Voi rula consola de blocare 4, așa că va fi imprimată numărul patru aici.
+
+07:11.410 --> 07:22.280
+O va elimina din stiva de apel și apoi va elimina cele două și apoi o va elimina pe cea pentru că a fost pur și
+
+07:22.310 --> 07:23.440
+simplu apelată
+
+07:26.050 --> 07:28.880
+și stiva de apel este acum goală.
+
+07:29.260 --> 07:30.020
+In regula.
+
+07:30.040 --> 07:30.590
+Minunat.
+
+07:30.700 --> 07:34.690
+Acum, să revizuim declarația de la începutul videoclipului.
+
+07:34.910 --> 07:42.400
+Javascript este un singur limbaj de filet care poate fi blocat cu filet unic înseamnă că are doar o stivă
+
+07:42.520 --> 07:43.690
+de apeluri.
+
+07:44.590 --> 07:48.340
+Și un singur stack de apel nu poți face decât un singur lucru la un moment dat.
+
+07:48.370 --> 07:52.870
+Și după cum am văzut un stack de apel este primul în final.
+
+07:53.110 --> 07:59.650
+Deci, indiferent care este în partea de sus stivă de apel primește alerga mai întâi, apoi sub faptul că sub cea inferioară că stiva
+
+07:59.650 --> 08:01.070
+de apel este goală.
+
+08:02.550 --> 08:05.810
+Acum alte limbi pot avea mai multe apeluri.
+
+08:05.940 --> 08:08.880
+Iar acestea se numesc multi-thread.
+
+08:08.900 --> 08:14.060
+De asemenea, puteți vedea cum ar fi avantajos să aveți stivă de apeluri multiple, astfel încât să nu mai
+
+08:14.060 --> 08:15.290
+așteptăm în continuare chestii.
+
+08:15.410 --> 08:18.230
+De ce a fost conceput javascript ca fiind un filet unic.
+
+08:19.170 --> 08:24.570
+În timp ce rulați codul pe un singur fir poate fi destul de ușor, deoarece nu trebuie să vă ocupați
+
+08:24.570 --> 08:27.920
+de scenarii complicate care apar în mediul cu mai multe fire.
+
+08:27.930 --> 08:29.720
+Trebuie doar să vă faceți griji.
+
+08:29.940 --> 08:39.000
+Și când spun că problemele cu medii cu mai multe filete pot avea acum un blocaj în acest moment.
+
+08:39.150 --> 08:47.500
+Ghici ceea ce tocmai ați învățat ce înseamnă programarea sincronă înseamnă programarea sincronă.
+
+08:47.650 --> 08:53.750
+Linia unu este executată apoi Linia 2 este executată și apoi Linia 3 este executată.
+
+08:55.100 --> 08:59.480
+Acesta din urmă poate începe înainte de prima finisare.
+
+08:59.480 --> 09:06.640
+Deci, această blocare a consolei 2 nu pornește până când nu se termină blocarea Konsole și anulată 3 nu începe până
+
+09:06.670 --> 09:12.380
+când nu se termină, deoarece bine am analizat stiva apelurilor din cauza stiva de apeluri.
+
+09:12.410 --> 09:16.620
+Acum s-ar putea să fi auzit de supraîncărcarea stivei site-ului.
+
+09:16.700 --> 09:20.250
+Dacă sunteți un dezvoltator, îl utilizați zilnic și.
+
+09:20.270 --> 09:24.730
+Te-ai intrebat vreodata ce inseamna Overflow de stive.
+
+09:26.020 --> 09:28.350
+Se va supraîncărca stivele.
+
+09:28.500 --> 09:32.430
+Este aceasta atunci când un stivuitor este plin de ploaie.
+
+09:32.430 --> 09:39.240
+Un fel de cum am vorbit despre scurgeri de memorie și despre cum mormanul de memorie al unui motor
+
+09:40.080 --> 09:43.320
+javascript se poate depăși bine cu depășirea stivei.
+
+09:43.320 --> 09:48.000
+Acest lucru se întâmplă atunci când stiva de apeluri devine tot mai mare și mai mare și mai mare până când
+
+09:48.000 --> 09:49.380
+nu mai are spațiu suficient.
+
+09:49.380 --> 09:52.200
+Cum putem face asta?
+
+09:52.200 --> 09:54.590
+Putem recrea o suprapunere de stive.
+
+09:54.930 --> 09:59.010
+Da, vă pot arăta rapid acest lucru pentru a crea o suprapunere de stive.
+
+09:59.010 --> 10:13.530
+Tot ce trebuie să faceți este să funcționați ca și cum am aici și această funcție va avea doar o mână de foaie.
+
+10:13.540 --> 10:17.940
+Vom merge doar să ne conducem bine funcția de alimentare.
+
+10:17.980 --> 10:21.800
+Arată confuz ce se întâmplă aici.
+
+10:22.120 --> 10:24.610
+Acest lucru numit recursivitate și recursivitate
+
+10:27.290 --> 10:30.300
+înseamnă o funcție care se numește ea însăși.
+
+10:30.700 --> 10:35.990
+Deci, dacă te uiți la ce funcționează această funcție, foo și foo este executat.
+
+10:36.170 --> 10:39.610
+Ce ne facem bine este ca noi alergam din nou.
+
+10:39.680 --> 10:44.900
+Deci, pur și simplu continuă să se repete și să aibă recursivitate.
+
+10:44.960 --> 10:46.960
+Dar nu există nici un scop în vedere dreapta.
+
+10:47.090 --> 10:50.540
+Continuăm să adăugăm foo la stackul de apeluri.
+
+10:50.660 --> 10:58.220
+Continuăm să o adăugăm din nou și din nou și peste și peste și peste și peste și peste și peste și peste și peste și
+
+10:58.220 --> 10:59.720
+avem un overflow stivă.
+
+11:00.080 --> 11:07.280
+Deci, dacă doriți să vă distrați mergeți la browserul dvs. mergeți în consola dvs. și rulați ceva de genul asta și vedeți ce
+
+11:07.280 --> 11:08.000
+se întâmplă.
+
+11:08.000 --> 11:10.170
+Vei primi o suprapunere.
+
+11:11.080 --> 11:11.900
+In regula.
+
+11:11.920 --> 11:14.320
+Deci, sperăm că acest lucru are sens acum.
+
+11:14.320 --> 11:20.470
+Motorul javascript care este motorul V-8 Ancrum are un cip de memorie și un teanc de apeluri.
+
+11:20.530 --> 11:31.200
+Acum, javascript este un singur threaded doar o declarație este executată la un moment dat, dar există o problemă acum nu
+
+11:31.200 --> 11:32.220
+este ea.
+
+11:32.220 --> 11:38.210
+Ce-ar fi dacă Y2 a fost o mare mare sarcină pe care trebuia să o facem.
+
+11:38.380 --> 11:44.420
+Poate o buclă printr-o matrice care avea milioane de Aiete, dar se va întâmpla acolo.
+
+11:44.460 --> 11:52.020
+Ei bine, am avea acest jurnal de consolă să execute apoi a doua linie, atunci este o slujbă masivă masivă pe care
+
+11:52.020 --> 11:54.950
+o vom lucra acolo și vom anula 3.
+
+11:54.950 --> 12:00.690
+Vom lua un timp foarte lung pentru a ne pierde și în exemplul nostru mic, care nu înseamnă prea mult, dar
+
+12:00.690 --> 12:05.550
+dacă ar avea acest lucru pe un site web, utilizatorul nu ar fi capabil să facă nimic.
+
+12:05.610 --> 12:11.330
+Site-ul ar îngheța destul de mult până când acea sarcină se va termina și utilizatorul doar așteaptă acolo.
+
+12:11.370 --> 12:13.330
+Nu e foarte bine.
+
+12:13.500 --> 12:19.680
+Ei bine, cu sarcini sincrone dacă avem o funcție care ocupă mult timp, va
+
+12:19.680 --> 12:20.760
+rezista liniei.
+
+12:20.790 --> 12:23.100
+Imaginați-vă un restaurant tip bufet drept.
+
+12:23.190 --> 12:29.610
+Dacă toți oamenii vor, dar Bobbie spune că cei de la Hold trebuie să mănânce și să pună bacon pe farfuria mea.
+
+12:29.640 --> 12:31.870
+Ei bine, toată lumea trebuie să aștepte în linie.
+
+12:32.290 --> 12:38.520
+Așa că sună că avem nevoie de ceva ce nu se blochează Amintiți-vă prima noastră afirmație pe care am făcut-o
+
+12:38.820 --> 12:43.420
+în acest javascript video ca un singur limbaj de filet care poate fi blocat.
+
+12:43.740 --> 12:47.180
+În mod ideal, nu așteptăm lucruri care necesită timp.
+
+12:47.640 --> 12:52.930
+Deci, cum facem asta cu totul asincron cu salvarea.
+
+12:53.000 --> 12:59.410
+Gândiți-vă la asincron ca o execuție sincrone de comportament este mare, deoarece este previzibilă.
+
+13:00.080 --> 13:02.510
+Știm ce se întâmplă mai întâi atunci ce se întâmplă în continuare.
+
+13:02.510 --> 13:03.730
+Ce se întâmplă acolo.
+
+13:04.070 --> 13:05.530
+Dar se poate încetini.
+
+13:05.750 --> 13:12.020
+Așa că atunci când trebuie să facem lucruri precum procesarea imaginilor sau solicitările prin rețea ca apelurile API și nu vă
+
+13:12.380 --> 13:15.230
+faceți griji vom vorbi despre asta în videoclipurile viitoare.
+
+13:15.230 --> 13:19.010
+Avem nevoie de ceva mai mult decât de sarcinile sincrone.
+
+13:19.100 --> 13:20.520
+Deci te gândești la tine însuți.
+
+13:20.720 --> 13:23.540
+Andre Cum facem programarea asincronă.
+
+13:24.110 --> 13:27.460
+Ei bine, lasă-mă să îndepărtez o parte din această dezordine.
+
+13:28.070 --> 13:35.240
+Putem face programare asincronă, făcând ceva de genul ăsta spus, timpul despre care vom vorbi despre este
+
+13:35.240 --> 13:44.800
+o funcție care intră în browserele noastre și ne permite să creăm un timp și putem da doar primul parametru este funcția
+
+13:44.800 --> 13:47.750
+pe care vrem să o conducem.
+
+13:47.860 --> 13:51.030
+Și apoi al doilea parametru este câte secunde dorim să așteptăm.
+
+13:51.040 --> 13:53.300
+Deci, să spun că vreau să aștept două secunde.
+
+13:53.320 --> 13:55.870
+Deci, 200 de miliarde de secunde.
+
+13:56.290 --> 14:00.750
+Dacă fac asta, hai să intrăm în consola și să vedem ce se întâmplă.
+
+14:07.720 --> 14:10.180
+Ei bine, ce mai au.
+
+14:10.560 --> 14:12.510
+Avem cons ..
+
+14:12.690 --> 14:13.510
+Unu.
+
+14:14.530 --> 14:20.680
+Apoi anulați ca trei și apoi anulați jurnalul la două secunde mai târziu.
+
+14:21.040 --> 14:28.450
+Se pare că am trecut peste acest pas întreg și apoi l-am pus la capăt.
+
+14:29.740 --> 14:36.770
+Ei bine, tu ai programare asincronă doar pentru a înțelege acest lucru și ce sa întâmplat.
+
+14:36.970 --> 14:45.950
+Trebuie să vă duc la următoarea parte și asta pentru ca javascript cum îl știm să ruleze pentru motorul javascript cu morman de
+
+14:45.950 --> 14:49.550
+memorie și stivă de apel pentru a rula.
+
+14:49.700 --> 14:57.920
+Avem nevoie de mai mult decât motorul javascript de care avem nevoie ceea ce noi numim un mediu de execuție javascript și
+
+14:58.160 --> 15:03.480
+mediul de rulare Javascript este din nou parte din browserul inclus în browsere.
+
+15:03.710 --> 15:06.640
+Ei au lucruri suplimentare pe partea de sus a motorului.
+
+15:06.650 --> 15:12.760
+Ei au ceva numit API-ul web. Poți apela Q și o buclă de evenimente.
+
+15:13.130 --> 15:19.030
+Și după cum puteți vedea aici, Time-Out este parte a API-ului web.
+
+15:19.130 --> 15:22.890
+Nu este tehnic parte a javascript-ului.
+
+15:23.030 --> 15:26.250
+Ceea ce, dar browserele ne dau să folosim.
+
+15:26.300 --> 15:28.370
+Așa că putem face un program asincron.
+
+15:28.740 --> 15:29.160
+O.K.
+
+15:29.240 --> 15:31.390
+Privind astfel la această diagramă.
+
+15:31.460 --> 15:34.940
+Vedeți dacă ne dăm seama ce face codul nostru.
+
+15:36.610 --> 15:53.280
+Putem crea aici propriul nostru stack de apel va avea un API web și apoi vom avea o coadă de apel invers și apoi o buclă
+
+15:53.310 --> 15:59.320
+la fel ca în mediul nostru de runtime javascript.
+
+15:59.350 --> 16:00.560
+Deci, ce se întâmplă aici.
+
+16:00.610 --> 16:07.470
+Ei bine, mai întâi avem un jurnal de console care intră în sala de apeluri.
+
+16:08.350 --> 16:10.730
+Și asta se întâmplă.
+
+16:10.960 --> 16:14.720
+Deci, vom înregistra jurnalul consolei în browser.
+
+16:15.100 --> 16:17.680
+Apoi, am setat timeout-ul.
+
+16:18.830 --> 16:23.190
+În stackul nostru de apeluri pentru că am terminat această primă sarcină, mergem la cea de-a doua.
+
+16:23.680 --> 16:29.390
+Și ceea ce sa spus că a depășit ceea ce se va întâmpla este bine în stiva de apel va spune OK
+
+16:29.470 --> 16:30.430
+am stabilit timp.
+
+16:30.890 --> 16:37.940
+Și pentru că timpul dat afară nu face parte din scenariul lui Joe, ci face parte din API-ul web, are această caracteristică specială.
+
+16:37.940 --> 16:42.590
+Ce se va întâmpla este că declanșează API-ul web.
+
+16:43.840 --> 16:55.030
+Și spune că timpul de expirare pe care l-am stabilit a fost numit și pentru că am anunțat un tip mare, putem să-l scoatem din stackul
+
+16:55.180 --> 16:56.450
+de apeluri.
+
+16:56.470 --> 17:02.280
+Acum API-ul web pornește un cronometru aici cu un timp de două secunde.
+
+17:02.350 --> 17:06.440
+O să știe că în două secunde trebuie să faci ceva.
+
+17:07.500 --> 17:18.970
+Și pentru că stiva de apel este goală, motorul javascript merge acum la consola log 3 și execută acest lucru.
+
+17:19.130 --> 17:24.510
+Așa că are sens chiar acum că am făcut unul și trei, dar încă am spus timpul de expirare.
+
+17:24.680 --> 17:27.710
+Două secunde în API-ul web.
+
+17:27.980 --> 17:36.620
+Acum, după două secunde, când limita noastră de timp este de până API-ul web va spune bine setat timpul ar trebui să fie
+
+17:36.620 --> 17:37.240
+executat.
+
+17:37.280 --> 17:38.580
+Să vedem ce este înăuntru.
+
+17:38.690 --> 17:40.760
+Ei bine, avem și o blocare a consolelor.
+
+17:41.000 --> 17:45.270
+Deci, ce se va întâmpla este că va spune că timpul de setare a fost terminat.
+
+17:46.660 --> 17:56.230
+Avem un apel invers și această invitație de repornire am adăugat la apelul înapoi, spunând că hei trebuie să rulez ceva
+
+17:56.230 --> 18:05.180
+ce suntem pregătiți să-l executem în ultima parte evenimentele pe care buclele de evenimente aici verifică și spun că
+
+18:05.300 --> 18:10.730
+este stivă de convorbiri goale și continuă să verifice tot timpul.
+
+18:10.730 --> 18:16.220
+Dacă stiva este goală și dacă stackul de convorbiri este gol și nu se execută
+
+18:16.220 --> 18:20.060
+nimic acum, motorul javascript va spune că avem apeluri.
+
+18:20.060 --> 18:25.280
+Va verifica codul și va spune că este ceva acolo, deoarece stiva de apel este goală.
+
+18:25.280 --> 18:28.170
+Putem să aruncăm ceva acolo și să facem ceva.
+
+18:28.550 --> 18:31.390
+În cazul nostru, noi spunem că da.
+
+18:31.400 --> 18:34.440
+Permiteți-mi să pun acest lucru în concept.
+
+18:34.490 --> 18:43.190
+Deci, acum mutăm codul în stivă de apel și apoi înapoi suntem și executându-l vedem că avem și
+
+18:43.190 --> 18:45.580
+un jurnal de console.
+
+18:45.830 --> 18:55.260
+Deci se spune că anulați sau logați că va funcționa această funcție și, odată ce a terminat, o va scoate din
+
+18:55.290 --> 18:56.840
+stackul de apeluri.
+
+18:56.910 --> 19:02.900
+Și din nou, suntem în jos cu apelul de apel, așa că am elimina și acolo te duci.
+
+19:02.940 --> 19:03.590
+Au fost efectuate.
+
+19:03.600 --> 19:09.170
+Totul este gol și tocmai l-am executat pe celălalt.
+
+19:09.270 --> 19:15.060
+Va trece prin întregul eveniment de coadă de așteptare API web Lou și apoi va
+
+19:15.120 --> 19:17.530
+executa logul consolei la adevărat.
+
+19:17.700 --> 19:19.380
+A fost o mulțime de informații.
+
+19:19.470 --> 19:25.320
+Așadar, este posibil să aveți nevoie să urmăriți acest lucru de câteva ori, dar, sperăm, vă este logic de
+
+19:25.320 --> 19:26.920
+ce am observat acest comportament.
+
+19:27.480 --> 19:31.200
+Și vreau să vă conteste înțelegerea aici.
+
+19:31.440 --> 19:37.110
+Știind ce știi și ce îți spun exact ce se întâmplă dacă mă schimb la zero.
+
+19:37.410 --> 19:39.370
+Asta înseamnă zero secunde.
+
+19:40.270 --> 19:43.470
+Voi da o secundă să vă gândiți la ce se va întâmpla.
+
+19:43.600 --> 19:45.510
+Și apoi vom încerca asta.
+
+19:45.880 --> 19:54.320
+Când am goli copia consolei și o lipiți și o rulați bine una și două.
+
+19:54.400 --> 19:55.570
+Ai ghicit bine.
+
+19:56.440 --> 19:59.160
+Acum gândește-te de ce sa întâmplat asta.
+
+19:59.350 --> 20:04.610
+Chiar dacă acest lucru este de zero secunde, acesta a mai trecut prin acest proces.
+
+20:04.690 --> 20:11.970
+Încă a intrat în API-ul web și apoi în coada de așteptare și apoi s-au terminat.
+
+20:12.070 --> 20:19.870
+Și până în momentul în care s-a întâmplat, stack-ul de apeluri sa mutat deja la consola de mers pe jos trei și numai
+
+20:19.870 --> 20:26.620
+după consola log 3 a fost făcut și stiva de apel a fost gol bucla de eveniment a spus oh
+
+20:26.620 --> 20:31.410
+da putem apela jurnalul de anulare să sperăm că are sens pentru tu.
+
+20:31.440 --> 20:36.580
+Și dacă sunteți în măsură să înțelegeți că veți avea de fapt o mulțime de oameni care
+
+20:36.580 --> 20:41.830
+angajează pentru roluri javascript pune întrebări de genul asta într-un interviu și trebuie să explici de ce este asta.
+
+20:41.830 --> 20:47.890
+Așadar, sper că ați avut sens și vă puteți folosi în avantajul dvs. la următorul interviu.
+
+20:47.920 --> 20:53.770
+Deci, să recapitulăm.
+
+20:53.980 --> 21:00.370
+Dacă doriți să încărcați cele mai recente tweets pe o pagină web și faceți acest lucru sincron, atunci vizitatorii site-ului dvs.
+
+21:00.370 --> 21:04.370
+nu vor putea să facă nimic până când aceste tweets nu sunt încărcate.
+
+21:04.630 --> 21:08.690
+Acest lucru ar putea cauza o întârziere îndelungată înainte de a ajunge chiar la conținutul site-ului său.
+
+21:08.710 --> 21:12.610
+Este posibil ca aceștia să nu poată da clic pe nicăieri și pagina va avea senzația că este înghețată.
+
+21:12.760 --> 21:14.620
+Nu este o experiență foarte bună pentru utilizatori.
+
+21:15.440 --> 21:19.230
+Un alt mod de a vă gândi la acest lucru îl cheamă profesorul cu o întrebare.
+
+21:20.280 --> 21:23.160
+Metodă sincronă sunteți numit profesor.
+
+21:23.160 --> 21:30.450
+Așteptăm telefonul până când profesorul răspunde la telefon și îl întreabă și, sperăm, primește un
+
+21:30.450 --> 21:31.100
+răspuns.
+
+21:31.230 --> 21:33.950
+Așa că lăsați telefonul să sune până se ridică.
+
+21:34.110 --> 21:37.420
+Dar nu mai faceți altceva între timp.
+
+21:37.710 --> 21:41.750
+Asincron înseamnă că trimiteți un text unui profesor cu o întrebare.
+
+21:42.030 --> 21:48.450
+Și atunci când profesorul sau ea are timp sau va răspunde la tine și vă va suna
+
+21:48.450 --> 21:56.640
+cu răspunsul astfel încât să puteți face alte lucruri între javascript este asincronă atunci când puteți lăsa un mesaj și un Colback
+
+21:56.820 --> 22:00.420
+vă spune Hei Dl profesorul are un mesaj pentru tine când nu ești prea ocupat.
+
+22:02.060 --> 22:07.760
+Și de aceea îi numim o funcție de apel invers și un cub de apel callback pe care-i sunăm înapoi pentru
+
+22:07.760 --> 22:11.140
+a le face să știe că există ceva care te așteaptă.
+
+22:11.180 --> 22:16.410
+Acum vedem aici că avem timp de expirare Dohm Ajax și există și alte câteva lucruri.
+
+22:16.580 --> 22:20.430
+Dar, de asemenea, veți vedea în Colback-ul în care ați făcut obiectul incluziunii.
+
+22:20.690 --> 22:25.350
+Vă amintiți bine ascultătorilor evenimentului cu un ascultător al evenimentului.
+
+22:25.370 --> 22:32.630
+Am avut ceva de genul unui element și am adăugat ascultătorul evenimentului.
+
+22:33.290 --> 22:41.140
+Și în acest lucru în nervoase ar putea spune asculta pentru un clic și veți avea o funcție care poate
+
+22:41.340 --> 22:47.780
+doar consola jurnal faceți clic pe va fi similar cu un mod asincron de programare.
+
+22:47.790 --> 22:52.110
+Am creat această funcție de clic și acum o ascultăm.
+
+22:52.170 --> 22:55.410
+Și de fiecare dată când apare un clic pe pagina web.
+
+22:55.440 --> 23:06.210
+Deci, pe Domul Ei bine, rulați funcția de apel invers care consola log-uri faceți clic dreapta.
+
+23:06.510 --> 23:14.060
+Deci, pentru a termina lucrurile atunci când se întâmplă asincron, se întâmplă foarte mult atunci când încercați să vorbiți între mașini, cum ar fi
+
+23:14.060 --> 23:21.170
+vorbirea cu o bază de date, făcând ca rețelele să ceară procesarea imaginilor pentru citirea fișierelor și să nu vă faceți griji că
+
+23:21.170 --> 23:23.410
+vom trece prin aceste videoclipuri impeach.
+
+23:23.690 --> 23:31.700
+Dar pentru a recapita ceea ce tocmai am învățat Javascript este un singur limbaj cu filet care poate fi unblocking are
+
+23:31.700 --> 23:39.410
+un stiva de apel și face un singur lucru la un moment dat pentru a nu bloca firul unic.
+
+23:39.410 --> 23:48.770
+Poate fi asincron cu funcțiile de apel invers și aceste acțiuni Colmar se execută în fundal prin coada de așteptare
+
+23:48.770 --> 23:53.740
+și apoi modificată pentru ao aduce în stivă de apeluri.
+
+23:53.770 --> 24:00.720
+Deci, data viitoare veți fi întrebat care este diferența dintre un burger sincron sau sincron.
+
+24:00.940 --> 24:02.830
+Sau cum funcționează javascriptul.
+
+24:02.860 --> 24:06.290
+Ar trebui să aveți puțină încredere pentru a răspunde la această întrebare.
+
+24:06.690 --> 24:08.340
+Și sper că acest lucru a fost de ajutor.
+
+24:09.130 --> 24:10.260
+Văd în următorul videoclip.

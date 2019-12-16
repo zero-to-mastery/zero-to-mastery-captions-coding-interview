@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.050 --> 00:02.080
+Ben tornato.
+
+00:02.220 --> 00:05.980
+Quanto mi hai odiato dopo aver fatto questa sfida.
+
+00:06.030 --> 00:13.080
+Ora questo doveva essere duro, difficile e frustrante e molto probabilmente non riusciresti a farlo
+
+00:13.080 --> 00:14.990
+bene la prima volta.
+
+00:15.240 --> 00:18.260
+Questo è stato fatto apposta per illustrare un punto.
+
+00:18.300 --> 00:20.340
+Quello che stiamo facendo qui.
+
+00:20.460 --> 00:23.300
+Beh, non ti verrà chiesto di farlo in un'intervista.
+
+00:23.430 --> 00:29.010
+Ma volevo mostrarti come pensare alle cose perché in seguito ti
+
+00:29.010 --> 00:37.070
+mostrerò come è molto più semplice pensare a ogni singolo passo e una funzione per calcolare le cose.
+
+00:37.110 --> 00:42.850
+Non c'è molta matematica coinvolta e questa è la stessa cosa che stiamo per ottenere in questo corso.
+
+00:42.960 --> 00:48.810
+Ma di nuovo voglio solo mostrarti i dettagli nitidi e grintosi in modo che tu possa pensarci e
+
+00:48.810 --> 00:53.800
+avere una buona base in modo che in futuro possiamo semplificare molto le cose.
+
+00:54.920 --> 00:56.930
+Ora diamo un'occhiata a questa funzione.
+
+00:57.040 --> 01:01.780
+È una divertente funzione di sfida che richiede una sorta di input.
+
+01:01.850 --> 01:08.120
+La prima cosa è all'interno di questa funzione quando gestiamo la divertente sfida diciamo
+
+01:08.450 --> 01:15.170
+"Beh, divertiti con una sfida e noi eseguiamo questa funzione e l'input non ha molta importanza.
+
+01:15.200 --> 01:22.580
+Potrebbe essere una matrice potrebbe essere un oggetto per la conoscenza, basta tenere le cose semplici dire che è una serie di cinque.
+
+01:22.820 --> 01:28.440
+Ora, quando eseguiamo questa funzione, la prima cosa che faremo è un compito.
+
+01:28.700 --> 01:36.180
+Assegneremo la variabile A a 10 ora in base alla convenzione.
+
+01:36.470 --> 01:42.770
+E questo è il motivo per cui non lo incontrerai in un'intervista perché molte persone lo interpretano in modo diverso.
+
+01:42.770 --> 01:46.400
+Alcune persone dicono che non si dovrebbe assegnare un incarico a Big-O.
+
+01:46.700 --> 01:48.830
+E alcune persone dicono che dovresti.
+
+01:48.830 --> 01:53.710
+Nel nostro caso, solo per semplificare le cose, contiamo ogni singolo passo e ciò che sta facendo la funzione.
+
+01:54.080 --> 02:02.480
+Lasciare un 10 è solo 0 su 1 perché è in esecuzione una sola volta quando eseguiamo.
+
+02:02.480 --> 02:03.230
+Divertente sfida
+
+02:03.230 --> 02:03.770
+Questo è tutto.
+
+02:03.790 --> 02:06.240
+Non importa quanto grande sia l'input.
+
+02:06.260 --> 02:12.850
+Questo viene eseguito una volta e poi 50 più tre che stiamo riassegnando A.
+
+02:13.130 --> 02:18.900
+Questo ancora una volta è di uno.
+
+02:19.060 --> 02:21.660
+E poi entriamo in un ciclo.
+
+02:21.790 --> 02:29.200
+Sappiamo che con il loop sembra che stiamo osservando la lunghezza dell'ingresso e il looping a seconda
+
+02:29.200 --> 02:31.360
+di qualunque sia l'input.
+
+02:31.360 --> 02:40.860
+Nel nostro caso questo sarà un O di un commento aggiungiamo qui e questo è di nuovo l'input.
+
+02:40.900 --> 02:45.550
+Ricorda che posso cambiare solo due ingressi che posso cambiare solo 2 X non importa.
+
+02:45.550 --> 02:50.020
+Riflette solo quanto è grande l'input, per quanto tempo ciò richiederà i loop.
+
+02:50.200 --> 02:59.490
+E ora sappiamo che i loop sono un tempo lineare e quindi all'interno di qui un'altra funzione non sappiamo quale sia questa funzione,
+
+02:59.490 --> 03:05.790
+ma sta chiamando ad un'altra funzione al di fuori della funzione di sfida divertente.
+
+03:05.790 --> 03:08.630
+Questo viene anche chiamato quante volte.
+
+03:08.880 --> 03:12.320
+Beh, dipende da quanto è grande il nostro input.
+
+03:12.330 --> 03:15.950
+Quindi ancora una volta è di un
+
+03:16.130 --> 03:17.630
+Che dire di questo.
+
+03:17.680 --> 03:24.540
+Lascia che lo straniero variabile uguale a vero abbia iniziato un altro incarico casuale qui.
+
+03:24.930 --> 03:32.430
+Ma questo viene eseguito tutte le volte che questo ciclo si verifica se l'input era 5 questa vecchia esecuzione cinque volte.
+
+03:32.430 --> 03:41.260
+Quindi, ancora una volta questo sarebbe un e poi qui abbiamo un vantaggio più che in javascript
+
+03:41.260 --> 03:43.800
+significa semplicemente uno più.
+
+03:43.870 --> 03:48.090
+Quindi stiamo solo incrementando il numero in questo momento.
+
+03:48.130 --> 03:58.680
+Quindi 53 diventerà 54 e poi, mentre lo attraversiamo, continuerò ad aumentare di 1 54 55 56.
+
+03:59.000 --> 04:01.990
+Questo ancora una volta esegue 0 di fine.
+
+04:02.000 --> 04:08.230
+Dipende dal numero di volte in cui Brunt compra l'input perché di nuovo stiamo scorrendo.
+
+04:08.330 --> 04:10.960
+E poi finalmente un'altra cosa che alcune persone non contano.
+
+04:10.970 --> 04:15.670
+Ma solo per mantenere coerente ogni singolo passaggio che facciamo.
+
+04:15.800 --> 04:21.180
+Funziona solo una volta ogni volta che la sfida divertente diventa sbagliata.
+
+04:21.470 --> 04:25.630
+L'istruzione return viene eseguita una sola volta.
+
+04:25.680 --> 04:26.370
+Tutto ok.
+
+04:26.370 --> 04:29.280
+Quindi abbiamo tutte queste notazioni di Big O.
+
+04:29.280 --> 04:34.160
+E ora stiamo iniziando a pensare a come funziona una funzione ea quanto sia efficiente una funzione.
+
+04:34.410 --> 04:41.750
+Se in realtà calcoliamo tutto questo se sommiamo tutto questo, vediamo che abbiamo 1 2 3.
+
+04:41.820 --> 04:51.040
+Quindi abbiamo tre gradini più uno di un forno.
+
+04:51.110 --> 05:02.710
+Ciò significa che abbiamo un plus e un plus E quindi significa che stiamo eseguendo il calcolo.
+
+05:02.970 --> 05:07.360
+E più e più e più poi che risulta essere quattro.
+
+05:07.430 --> 05:19.300
+E così tre più quattro ed è la nostra notazione Big O là è come ho detto prima quando si tratta di grandi dimensioni.
+
+05:19.330 --> 05:22.740
+Oh non ti agitare troppo.
+
+05:22.900 --> 05:23.970
+Ho capito bene?
+
+05:24.010 --> 05:30.850
+Perché in un'intervista non avrai bisogno di saperlo, ma ora sei in grado di pensare a come una
+
+05:30.850 --> 05:34.890
+funzione funzioni più profondamente rispetto alla semplice scrittura del codice.
+
+05:35.440 --> 05:42.130
+Mentre avanzavamo attraverso i video, scoprirai che questo in realtà alla fine della giornata
+
+05:42.310 --> 05:49.370
+viene semplificato a solo uno di un altro e lo esamineremo e perché lo è.

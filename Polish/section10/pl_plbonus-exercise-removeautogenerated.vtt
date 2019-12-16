@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.700 --> 00:01.570
+Witam ponownie.
+
+00:01.790 --> 00:03.430
+Mamy trochę bonusu.
+
+00:03.470 --> 00:04.920
+Ćwiczenie.
+
+00:05.170 --> 00:12.100
+Teraz możesz pominąć to ćwiczenie, ponieważ jest trochę zaawansowane i najprawdopodobniej nie spotkasz go
+
+00:12.100 --> 00:13.420
+w wywiadzie.
+
+00:13.540 --> 00:20.470
+Ale dla tych, którzy są ciekawi, jak zaimplementować metodę Remove tutaj.
+
+00:21.600 --> 00:28.430
+Jeśli chcemy usunąć przedmiot z drzewa, jak byśmy to zrobili.
+
+00:28.620 --> 00:35.260
+Teraz, jeśli chcesz spróbować zaimplementować to, chciałbym dać ci najlepszy sposób na wizualizację
+
+00:35.260 --> 00:43.140
+i zobaczenie, jakie kroki musimy wykonać, aby powrócić do wizualizacji i upewnić się, że przesuwasz prędkość
+
+00:43.140 --> 00:50.720
+do najwolniejszego. widzisz, co się dzieje i zaczynasz usuwać notatki, żeby zobaczyć, jaka jest logika.
+
+00:50.730 --> 00:55.180
+I usuwanie notatek niektóre kroki są naprawdę łatwe.
+
+00:55.180 --> 01:02.100
+Jeśli chcemy na przykład usunąć jeden z nich, to po prostu przechodzimy i znajdujemy go i po prostu go usuwamy.
+
+01:02.650 --> 01:11.690
+Ale są też inne sprawy, które stają się naprawdę skomplikowane, takie jak: Co robimy, gdy usuwamy 51 dobrze.
+
+01:11.860 --> 01:23.400
+Jeśli klikam tutaj, odtwarzam i mówię "usuń" 51 Zobaczysz, że rozpoczniemy przechodzenie, aby znaleźć 51 i
+
+01:23.400 --> 01:28.450
+zauważyć, co się stanie, gdy znajdziemy 51.
+
+01:28.590 --> 01:37.760
+W rzeczywistości idziemy do 55, a potem idziemy do 54.
+
+01:37.970 --> 01:44.860
+A od kiedy rozdzielamy rzeczy i przenosimy 54 w górę.
+
+01:45.170 --> 01:47.390
+I wiem, że to naprawdę bardzo mylące.
+
+01:47.390 --> 01:50.690
+Możesz to zrobić kilka razy, aby zobaczyć, jaka jest logika.
+
+01:51.020 --> 01:56.690
+Ale w zasadzie to, co robimy, znajdujemy tam, gdzie chcemy zamienić, przechodząc na prawo od niej,
+
+01:57.200 --> 02:01.130
+a następnie na lewo i umieszczając ten lewy przedmiot na górze.
+
+02:01.130 --> 02:03.650
+Tak jak powiedziałem, to będzie
+
+02:06.930 --> 02:14.700
+trochę zaawansowane, ale jeśli chcesz rzucić wyzwanie sobie za pomocą wizualnej animacji idź wymyśl, jak zaimplementować
+
+02:14.940 --> 02:16.720
+własną metodę usuwania.
+
+02:17.920 --> 02:24.200
+A następne wideo pokażę ci moje rozwiązanie i omówię kroki, które podejmujemy, aby to zadziałało.
+
+02:25.360 --> 02:26.330
+Zobaczę w następnym.

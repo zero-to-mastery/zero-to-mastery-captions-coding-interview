@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.990 --> 00:02.070
+In regula.
+
+00:02.210 --> 00:03.960
+O altă secțiune făcută.
+
+00:04.340 --> 00:10.400
+Și în această secțiune am vorbit despre interviurile tehnice și cum să rezolvăm problemele în mod specific.
+
+00:10.550 --> 00:15.470
+O mare conceptie gresita este ca esti fie un bun rezolvator de probleme, fie ca nu esti.
+
+00:15.500 --> 00:21.390
+Dar ca și în orice este un mușchi pe care îl puteți instrui pe care îl puteți practica.
+
+00:21.390 --> 00:27.530
+Deci, cu suficientă practică și cunoașterea sfaturilor și trucurilor pe care le-am acoperit în această secțiune, puteți
+
+00:27.530 --> 00:29.610
+rezolva problemele mult mai bine.
+
+00:29.630 --> 00:33.530
+Asta arată intervievatorului despre care știi despre ce vorbești.
+
+00:33.530 --> 00:40.910
+Cheia din această secțiune a fost această foaie de înșelăciune și trecerea pas cu pas a unei probleme.
+
+00:41.120 --> 00:44.530
+Ne-am uitat la cum poate arata un interviu Google.
+
+00:44.570 --> 00:49.970
+Apoi am mimat unele dintre tehnicile folosite pentru rezolvarea propriei noastre probleme.
+
+00:49.970 --> 00:56.960
+Ideea a fost să arătați cum lucrați gândiți cu voce tare și încercați să comentați pașii pe măsură ce vă deplasați
+
+00:56.960 --> 01:03.770
+pentru a rezolva o problemă care comunică pe tot parcursul procesului cât mai mult posibil și nu vă faceți griji
+
+01:03.770 --> 01:08.660
+pentru a finaliza o problemă rapidă este cheia pentru intervenția în rezolvarea problemelor.
+
+01:08.660 --> 01:16.040
+Într-un interviu acum ar fi trebuit de asemenea să ajungem la ideea că nu vrem să memorăm problemele, pentru că dacă faci o sută
+
+01:16.430 --> 01:23.150
+de probleme și încerci să le memorezi bine, nu te va ajuta cu adevărat pe termen lung, dar mai iei un
+
+01:23.150 --> 01:24.550
+joc de noroc dreapta.
+
+01:24.560 --> 01:29.400
+Sperați că intervievatorul vă va întreba o întrebare pe care ați văzut-o înainte.
+
+01:29.750 --> 01:36.110
+În schimb, dorim să preluăm controlul asupra destinului și practicii noastre și să fim pregătiți
+
+01:36.110 --> 01:38.270
+pentru orice prin construirea fundamentelor.
+
+01:38.420 --> 01:45.110
+Am vorbit despre modul în care prin utilizarea spectacolului mare și a lecțiilor învățate aici putem trece acum la
+
+01:45.110 --> 01:51.010
+structuri și algoritmi de date și le putem folosi în timpul interviurilor noastre de cod.
+
+01:51.020 --> 01:56.660
+Am vorbit, de asemenea, despre unele abilități pe care intervievatorii le caută și au demonstrat cum nu era
+
+01:56.660 --> 01:58.370
+necesar doar abilități de codificare.
+
+01:58.520 --> 02:04.580
+Există multe alte aspecte pe care intervievatorii le caută și acoperim aceste elemente și cum le putem
+
+02:04.580 --> 02:05.300
+arăta.
+
+02:05.480 --> 02:14.020
+În timpul practicii noastre în cererea în cele din urmă suntem acum gata să se scufunde în partea interesantă a structurilor și
+
+02:14.050 --> 02:15.230
+algoritmilor de date.
+
+02:15.250 --> 02:22.630
+Avem o fundație plăcută și știm că tot ce trebuie este să învățăm aceste structuri de date și algoritmi pentru a
+
+02:22.930 --> 02:29.470
+fi într-adevăr pregătit pentru interviu și vom folosi, de asemenea, foaia de înșelătorie pe care ți-am dat-o în această
+
+02:29.470 --> 02:31.790
+secțiune pe tot parcursul cursului .
+
+02:31.960 --> 02:39.040
+Și la baza acestei foi de înșelăciune este ideea de lizibilitate a complexității spațiului de codificare a codului
+
+02:39.490 --> 02:42.370
+și a complexității timpului de cod.
+
+02:42.600 --> 02:48.060
+Și deși nu acoperim totul în foaia de înșelăciune, avem câteva lucruri aici la sfârșit.
+
+02:48.210 --> 02:53.850
+Veți vedea că, pe măsură ce trecem prin structura de date și
+
+02:54.030 --> 03:01.170
+întrebările algoritmului, vor apărea anumite tipuri de modele care, deși întrebările pot fi diferite într-un interviu, de
+
+03:01.410 --> 03:10.480
+obicei modul de optimizare a lucrurilor sau trucurilor pentru a vă face mai bine răspunsurile poate fi redus la pașii specifici .
+
+03:10.650 --> 03:12.030
+Asa ca nu te coplesesti.
+
+03:12.030 --> 03:17.260
+Există o listă de verificare ușoară și euristică pe care o vom trece mai târziu.
+
+03:17.640 --> 03:23.110
+Dar, în acest moment, cred că suntem gata să trecem la structuri și algoritmi de date.
+
+03:23.340 --> 03:30.900
+Cum scriem un cod bun creăm programe bune creând valoare pentru companiile pe care
+
+03:30.900 --> 03:32.480
+le intervievăm.
+
+03:32.480 --> 03:33.720
+Ne vedem în secțiunea următoare.

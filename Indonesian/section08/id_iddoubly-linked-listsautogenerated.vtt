@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.380 --> 00:02.610
+Selamat datang kembali.
+
+00:02.610 --> 00:09.550
+Sampai saat ini kami berbicara tentang daftar yang saling terhubung dan kami harus memiliki ide bagus tentang bagaimana mereka bekerja.
+
+00:09.990 --> 00:13.530
+Tapi apa itu daftar dua kali lipat.
+
+00:14.440 --> 00:19.500
+Daftar tertaut ganda serupa kecuali bahwa tautan ke simpul sebelumnya.
+
+00:19.660 --> 00:21.730
+Mari kita lihat sedikit animasi di sini.
+
+00:22.670 --> 00:25.160
+Kami memiliki simpul kepala.
+
+00:25.220 --> 00:26.860
+Katakanlah kita hanya punya satu simpul.
+
+00:26.900 --> 00:28.730
+Anda lihat kami memiliki blok tambahan di sini.
+
+00:28.730 --> 00:30.670
+Kami belum benar-benar yakin apa ini belum.
+
+00:30.920 --> 00:36.300
+Sekarang jika kami ingin menambahkan blok baru ke daftar ini, daftar yang ditautkan ganda.
+
+00:36.500 --> 00:39.710
+Dan kami ingin menambahkan simpul yang berisi nilai 10.
+
+00:40.100 --> 00:46.210
+Nah sekarang kita akan memiliki pointer ke node berikutnya.
+
+00:46.670 --> 00:48.390
+Kami juga akan memiliki pointer.
+
+00:48.470 --> 00:56.240
+Ini adalah bagian baru ke simpul sebelumnya dan simpul baru akan menunjuk ke no.
+
+00:56.350 --> 01:02.900
+Dan ini sekarang menjadi ekor jika kita menambahkan simpul nother.
+
+01:03.500 --> 01:13.970
+Yah kita akan memiliki 10 titik simpul ke simpul baru kita juga akan memiliki titik simpul baru ke simpul sebelumnya
+
+01:14.810 --> 01:20.150
+dan akhirnya menjadi ekor yang berarti menunjuk ke tidak.
+
+01:20.290 --> 01:22.770
+Dan itulah yang dilakukan oleh daftar tertaut ganda.
+
+01:22.810 --> 01:31.240
+Ini memiliki blok kecil tambahan di sini sepotong data tambahan yang juga menghubungkan ke simpul sebelumnya.
+
+01:31.240 --> 01:34.540
+Sekarang mengapa menurut Anda itu penting.
+
+01:34.540 --> 01:39.640
+Daftar tertaut ganda memungkinkan kami untuk menelusuri daftar kami ke belakang.
+
+01:40.000 --> 01:46.390
+Jadi sampai sekarang kami hanya bisa pergi dari awal sampai akhir dengan daftar yang ditautkan.
+
+01:46.390 --> 01:49.920
+Saya bisa mulai dari akhir dan mundur.
+
+01:50.850 --> 01:58.970
+Dalam daftar yang terhubung sendiri, tidak ada cara bagi saya untuk mengetahui apa yang muncul sebelum 10 apa yang datang sebelum catatan ini.
+
+01:59.010 --> 02:01.800
+Dalam daftar yang ditautkan dua kali lipat, tidak ada masalah.
+
+02:01.800 --> 02:09.150
+Ini persis sama dengan daftar yang ditautkan secara tunggal tetapi berisi pointer tambahan ini ke
+
+02:09.150 --> 02:16.170
+node sebelumnya dan mencari melalui daftar yang ditautkan ganda sebenarnya bisa sedikit lebih efisien.
+
+02:16.980 --> 02:23.730
+Dan mencari bisa secara teknis semuanya dan dibagi dua karena kita bisa mulai dari kedua
+
+02:23.730 --> 02:33.720
+ujung dan jika kita tahu di mana setengah dari daftar apa yang kita cari adalah kita dapat memilih tempat yang optimal untuk memulai.
+
+02:33.720 --> 02:36.210
+Sekarang lihat di sini masih semuanya.
+
+02:36.240 --> 02:44.520
+Dan karena jika Anda ingat dengan buku peraturan kami dengan 0 0 0 12 dan dibagi 2 masih semua
+
+02:44.610 --> 02:47.810
+tetapi secara teknis masih sedikit lebih cepat.
+
+02:47.880 --> 02:53.940
+Sekarang downside ke daftar dua kali lipat seperti yang Anda lihat adalah bahwa kita mungkin harus memegang
+
+02:53.940 --> 03:00.930
+sedikit lebih banyak memori dan tambahan blok memori dan kami memiliki video yang berbicara tentang kapan harus menggunakan daftar penggandaan dan
+
+03:00.930 --> 03:02.460
+daftar yang terhubung sendiri.
+
+03:02.610 --> 03:09.410
+Kemudian, tetapi untuk memahami ini dengan benar, saya pikir kita harus mengonversi daftar yang ditautkan sendiri yang kami
+
+03:09.440 --> 03:13.210
+buat di video sebelumnya ke daftar yang ditautkan ganda.
+
+03:13.280 --> 03:15.440
+Jadi mari kita lihat bagaimana melakukannya.
+
+03:15.680 --> 03:17.060
+Saya akan melihat yang berikutnya.
+
+03:17.180 --> 03:17.430
+Babai.

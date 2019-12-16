@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.390 --> 00:08.340
+In this course I don't want to limit you to just one language because we all code in different languages
+
+00:08.430 --> 00:13.490
+and throughout your career you're most likely going to use multiple languages.
+
+00:13.530 --> 00:20.430
+Now this course specifically I will have to use a language to demonstrate code and write some code and
+
+00:20.430 --> 00:27.000
+I'm going to use javascript for this because it is similar with a lot of common languages and it's also
+
+00:27.000 --> 00:28.650
+the most well known.
+
+00:28.830 --> 00:36.330
+However you can use whatever language you want in this course and follow along even the exercises will
+
+00:36.330 --> 00:39.300
+give you solutions in different languages.
+
+00:39.300 --> 00:45.570
+So pick whichever one you want but how are we going to run all these different languages when you're
+
+00:45.570 --> 00:46.380
+following along.
+
+00:46.500 --> 00:51.810
+Maybe I'm demonstrating something in javascript and you're coding along in Python what we're going to
+
+00:51.810 --> 00:54.770
+use a couple of neat little online tools.
+
+00:54.840 --> 00:59.710
+The first one I'm going to show you and the one we're going to use in this course is wrap all dot I-T
+
+01:00.360 --> 01:02.260
+REPL it as I like to call it.
+
+01:02.550 --> 01:07.200
+And you can pick any language you want here to code along.
+
+01:07.590 --> 01:13.710
+And like I said I'm going to be using javascript for this course but all you need to do is to sign up
+
+01:13.770 --> 01:22.110
+with your get habbe account and you'll have a little ID that you can run your code and you'll see me
+
+01:22.200 --> 01:30.350
+using this throughout the course and now the one that I really like is galat IO and it's open source
+
+01:30.350 --> 01:36.680
+which I'm a big fan of and you can see over here that we have a lot of different languages that we can
+
+01:36.680 --> 01:37.150
+use.
+
+01:38.550 --> 01:45.730
+Again if I go to Javascript it gives me a nice little area for me to write code and run it.
+
+01:45.880 --> 01:53.960
+Another option especially if you're using javascript is to just go to View developer and developer tools
+
+01:54.430 --> 02:06.880
+and Google Chrome and this allows you in the console tab to just write javascript.
+
+02:06.890 --> 02:08.550
+So that's another great option.
+
+02:08.690 --> 02:15.920
+Or if you prefer you can always use your favorite text editor write your code and then run it whichever
+
+02:15.920 --> 02:17.970
+way you want.
+
+02:17.990 --> 02:23.310
+Again keeping in mind that this course is language agnostic that means it doesn't matter what language
+
+02:23.370 --> 02:23.960
+you use.
+
+02:23.970 --> 02:29.010
+What we're learning our foundational computer science principles say you can take anywhere throughout
+
+02:29.010 --> 02:35.910
+your career and as you'll see whether you know javascript or not I'm going to keep the code very general
+
+02:35.940 --> 02:42.600
+and simple so that it's easy to replicate it into other languages and also give you resources and sources
+
+02:42.900 --> 02:44.000
+with other languages.
+
+02:44.010 --> 02:46.700
+When we get into more nitty gritty coding.
+
+02:46.850 --> 02:48.980
+All right set up your environment.
+
+02:49.050 --> 02:50.500
+Get ready for some code.
+
+02:50.790 --> 02:52.770
+I'll see in the next video.

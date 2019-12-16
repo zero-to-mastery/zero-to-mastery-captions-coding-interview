@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.260 --> 00:11.830
+Porozmawiajmy o stosach stosów jest typem struktury danych, które można traktować jako płytę, ponieważ mamy jeden kawałek danych, a następnie
+
+00:11.830 --> 00:19.150
+pojawia się kolejny kawałek danych i zostaje on ułożony na tym kawałku danych
+
+00:19.150 --> 00:24.030
+i ciągle idzie dalej. dzieje się i trwa.
+
+00:24.040 --> 00:31.510
+Możesz myśleć o tym, że te talerze są ułożone jedna na drugiej pionowo i możesz tylko dotknąć
+
+00:31.600 --> 00:32.950
+górnej płyty.
+
+00:33.040 --> 00:39.520
+Możesz naprawdę uzyskać dostęp do czegokolwiek od dołu tutaj, tak, że możesz uzyskać dostęp do danych
+
+00:39.520 --> 00:46.960
+ze stosu, aby złapać pierwszą płytę, a następnie drugą płytę, a następnie trzecią, a ty kontynuujesz, a ty kontynuujesz,
+
+00:46.960 --> 00:50.690
+a ty kontynuujesz, dopóki nie przejdziesz przez cały stos.
+
+00:50.940 --> 00:58.950
+A to nazywa się Life'll lub last in first, ponieważ ostatni element, który pojawia się, jest pierwszym,
+
+00:59.070 --> 01:05.850
+który pojawia się i myślisz sobie, dlaczego jest to przydatne, kiedy będziemy używać czegoś w
+
+01:05.850 --> 01:07.190
+rodzaju stosu.
+
+01:07.200 --> 01:10.280
+Są przydatne na dość zaskakujące sposoby.
+
+01:10.380 --> 01:17.250
+Są oczywiście bardzo dobre, gdy trzeba poznać ostatnią wartość, która została zauważona lub dodana,
+
+01:17.250 --> 01:21.960
+a stosy są bardzo ważne w silnikach językowych.
+
+01:21.960 --> 01:28.770
+Być może słyszałeś o czymś, co nazywa się Stack Overflow, witryną odwiedzaną przez wielu inżynierów, a ja dodam
+
+01:28.770 --> 01:35.040
+film bonusowy po tym, jak porozmawiamy o podpowiedziach dotyczących działania silnika javascript przy użyciu stosów i
+
+01:35.040 --> 01:40.190
+podpowiedzi oraz o tym, jak możesz uzyskać przepełnienie stosu, gdy napisz zły kod.
+
+01:40.970 --> 01:48.440
+Obecnie większość języków programowania jest modelowana z myślą o architekturze stosu, a kiedy funkcje są
+
+01:48.440 --> 01:56.240
+wywoływane w języku programowania, zazwyczaj podążają za tym modelem, w którym ostatnio następuje wywołanie funkcji
+
+01:56.240 --> 01:58.760
+w funkcji w funkcji.
+
+01:58.790 --> 02:05.150
+A potem zaczynamy wywoływać te funkcje, aż dojdziemy do samego początku i nie martwmy
+
+02:05.150 --> 02:09.700
+się, to będzie trochę bardziej zrozumiałe, kiedy zakodujemy własny stos.
+
+02:09.710 --> 02:17.210
+Innym przydatnym sposobem, w jaki możemy wykorzystać stosy, jest historia przeglądarek, gdzie przechodzisz z jednej witryny
+
+02:17.270 --> 02:23.900
+do drugiej, a następnie trafiasz w przycisk wstecz lub przedni, który używa stosów.
+
+02:24.140 --> 02:29.930
+A może piszesz fragment tekstu i chcesz cofnąć coś, abyś mógł kliknąć opcję
+
+02:29.930 --> 02:33.710
+cofnij, aby wrócić lub przekazać, aby ponowić.
+
+02:33.710 --> 02:35.310
+Czy zastanawiałeś się kiedyś, jak to działa.
+
+02:35.390 --> 02:42.110
+Cóż, pomysł pochodzi ze stosów, które przechowują poprzedni stan nad pracą, a pamięć w takiej
+
+02:42.110 --> 02:45.480
+kolejności, że ostatnia pojawia się jako pierwsza.
+
+02:45.710 --> 02:52.070
+To jest coś, co możemy zrobić ze stosami, ponieważ można tu zobaczyć stosy, które
+
+02:52.340 --> 02:55.130
+zwykle pochodzą z trzech rodzajów metod.
+
+02:55.130 --> 02:57.440
+Jest kilka innych, ale te są najważniejsze.
+
+02:57.440 --> 02:58.070
+Muzyka pop.
+
+02:58.160 --> 03:00.850
+Pop Push i peek został usunięty.
+
+03:00.860 --> 03:08.960
+Ostatnim elementem, który został usunięty z płyty, jest sposób, w jaki płyta i peek jest po prostu oglądany jako
+
+03:08.970 --> 03:10.830
+najbardziej gra, jaką dodałem.
+
+03:10.830 --> 03:16.920
+Spójrz tutaj tylko po to, by pokazać, że jest to duża szansa na ADD, ponieważ zazwyczaj
+
+03:17.400 --> 03:24.170
+nie chcesz przechodzić przez cały stos, ale tylko dlatego, że wiesz, jeśli chcemy to zrobić, to będzie ciężka operacja.
+
+03:25.020 --> 03:27.410
+Porozmawiajmy o Q w następnym wideo.
+
+03:27.720 --> 03:27.940
+Buh-Bye.

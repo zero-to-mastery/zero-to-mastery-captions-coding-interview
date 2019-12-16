@@ -1,0 +1,826 @@
+WEBVTT
+
+00:01.220 --> 00:02.450
+Welcome back.
+
+00:02.450 --> 00:06.110
+We're going to talk about some advanced objects concepts.
+
+00:06.440 --> 00:13.790
+Now as I said with both arrays and functions these are advanced concepts you're probably not going to
+
+00:13.790 --> 00:21.440
+just get it 100 percent the first time around but use these videos as a reference to come back as you
+
+00:21.440 --> 00:23.040
+progress through your career.
+
+00:24.200 --> 00:29.970
+Now in this video I'm going to talk about three things that are important with objects.
+
+00:30.060 --> 00:35.210
+We're going to talk about reference type.
+
+00:35.300 --> 00:38.000
+We're going to talk about context.
+
+00:38.570 --> 00:41.300
+And finally we're going to talk about instantiation
+
+00:44.930 --> 00:51.870
+so let's get started with the first one reference to what I mean when I say reference type what I wanted
+
+00:51.870 --> 00:55.410
+to see if you can guess what's going to happen when I do.
+
+00:55.550 --> 00:58.730
+Array equals array.
+
+00:58.770 --> 01:00.510
+What do you think the answer is going to be.
+
+01:00.540 --> 01:01.000
+Let's see.
+
+01:02.660 --> 01:05.880
+Hmm interesting OK.
+
+01:05.880 --> 01:14.110
+What if I do array one he calls it one interesting OK.
+
+01:14.210 --> 01:15.310
+One more question.
+
+01:15.500 --> 01:18.320
+What about something like this.
+
+01:19.380 --> 01:20.660
+How object.
+
+01:21.010 --> 01:25.030
+He calls the value of 10
+
+01:29.180 --> 01:48.530
+and we'll say object 2 equals object 1 and we'll finally a variable object 3 equals value 10.
+
+01:49.400 --> 01:54.650
+So looking at these and I'm actually going to copy it on here so you can see it as well.
+
+01:59.210 --> 02:00.130
+Looking at this.
+
+02:00.260 --> 02:07.370
+What happens if I do object one equals object 2.
+
+02:07.400 --> 02:08.460
+What do you think will happen.
+
+02:09.520 --> 02:10.010
+True.
+
+02:10.220 --> 02:10.690
+OK.
+
+02:10.840 --> 02:11.530
+That makes sense.
+
+02:11.530 --> 02:15.500
+I mean object to is object 1.
+
+02:15.680 --> 02:22.710
+But what if I do object one he calls object three.
+
+02:22.800 --> 02:25.650
+Here I get false.
+
+02:25.840 --> 02:31.040
+But why is that we have value 10 values and they're both the same thing.
+
+02:31.210 --> 02:32.390
+Right.
+
+02:32.410 --> 02:33.160
+Let's pick something else.
+
+02:33.160 --> 02:36.950
+What if I do object one value.
+
+02:38.170 --> 02:42.370
+Equals 15 OK.
+
+02:42.530 --> 02:45.290
+And now I do object to dark valley
+
+02:48.330 --> 02:49.970
+it equals 15.
+
+02:50.100 --> 02:59.880
+But if I do object 3 de-value I get 10 well how was confusing grade.
+
+02:59.940 --> 03:02.090
+Let's look at what's actually going on.
+
+03:02.370 --> 03:06.920
+And this is the first topic we're talking about which is reference type.
+
+03:07.050 --> 03:08.200
+Let's look at a diagram.
+
+03:10.950 --> 03:18.300
+Objects are what's called the reference types and Javascript up at this point.
+
+03:18.300 --> 03:24.950
+All the other javascript types that we've learned including numbers know we have
+
+03:27.480 --> 03:39.500
+undefined booleans strings even symbols they're all defined by the programming language.
+
+03:39.520 --> 03:48.100
+So Javascript the person who wrote javascript and ECMAScript the standard says these are primitive types.
+
+03:48.100 --> 03:57.910
+We tell you what they are now a reference type which is a non primitive type are not defined by the
+
+03:57.910 --> 03:59.850
+programming languages.
+
+03:59.860 --> 04:06.330
+What that means is that they're created by the programmer.
+
+04:06.360 --> 04:08.730
+So let's look over here as an example.
+
+04:09.710 --> 04:10.880
+When I say variable.
+
+04:10.880 --> 04:13.150
+Number one equals one.
+
+04:13.280 --> 04:15.100
+Javascript knows what one is.
+
+04:15.100 --> 04:17.450
+It's a number and it's a primitive type.
+
+04:17.450 --> 04:19.250
+It's always the same thing.
+
+04:19.550 --> 04:22.010
+It's immutable every time it uses a one.
+
+04:22.220 --> 04:25.280
+That's the same one that javascript knows about.
+
+04:25.400 --> 04:33.150
+When I do variable number two it's using the same number one that javascript knows about.
+
+04:33.180 --> 04:40.910
+However when we created object Twan equals value 10 in object to equals object when an object 3 calls
+
+04:40.910 --> 04:45.540
+of value 10 well those were created by the programmer.
+
+04:45.580 --> 04:47.020
+There are reference types.
+
+04:47.140 --> 04:55.240
+So what we said was I want object Twan create a new object will say this box over here this filing cabinet
+
+04:56.510 --> 05:06.530
+and in it put value 10 into this box object to says I want you to just reference and that's where the
+
+05:06.530 --> 05:07.650
+word comes from.
+
+05:07.700 --> 05:15.020
+Reference object 1 saying hey I want whatever's inside this box.
+
+05:16.150 --> 05:26.040
+When object 3 gets created it's a new object because we have the new brackets and it's saying put value
+
+05:26.040 --> 05:27.720
+10 in this box.
+
+05:27.720 --> 05:35.250
+Essentially what we're doing is saying when we create a variable object one we're storing just a reference
+
+05:35.250 --> 05:40.460
+to an address to where we're storing the value 10 which is Box 1.
+
+05:40.470 --> 05:43.730
+So we're saying object 1.
+
+05:43.920 --> 05:49.610
+I'm just letting you know that this is the address of all the content that you want and that's mbox
+
+05:49.680 --> 05:55.650
+1 object to is saying I want whatever is an object 1.
+
+05:55.680 --> 06:01.200
+And we look an object Twan an object Twan just has the information of box 1.
+
+06:01.380 --> 06:08.060
+So it references that an object 3 creates a new object.
+
+06:08.060 --> 06:15.110
+So it's saying I'm going to put my contents in Box 3 and I'm just going to have the address of the box
+
+06:15.410 --> 06:17.860
+saying box 3 that's right over here.
+
+06:19.450 --> 06:21.040
+So going back to our example
+
+06:24.230 --> 06:27.990
+this makes sense when we change object one value to 15.
+
+06:28.040 --> 06:31.100
+We change the contents of box 1.
+
+06:31.100 --> 06:39.290
+So when we do object to Daube value which is referencing the same box as object 1 that's 15 but object
+
+06:39.290 --> 06:45.680
+3 Dog value doesn't change because that's that's interested in a completely different box it's box 3
+
+06:46.670 --> 06:48.700
+and going back to the first example.
+
+06:50.760 --> 06:51.550
+Arrays.
+
+06:51.830 --> 06:59.020
+Well as I mentioned in previous videos arrays are just objects that ended the day.
+
+06:59.030 --> 07:05.130
+So when you create an array it's the same thing creating a box a data structure.
+
+07:05.450 --> 07:09.720
+And this is creating a second data structure right.
+
+07:09.800 --> 07:16.910
+So that is a reference type a very important concept but I think I think you get it right.
+
+07:17.620 --> 07:18.930
+Let's get to the next one.
+
+07:18.940 --> 07:20.980
+This gets a little trickier.
+
+07:21.010 --> 07:30.050
+This one's called context and context gets confused a lot with scope.
+
+07:30.140 --> 07:37.180
+If you remember we said that scope is created when it sees curly brackets right.
+
+07:37.220 --> 07:44.990
+We said that if we create a function as soon as we create that function there is a new scope that's
+
+07:44.990 --> 07:46.050
+created.
+
+07:46.400 --> 07:57.490
+So we can have let a equals a and that lives within this universe.
+
+07:57.500 --> 08:02.120
+It doesn't know anything about the root scope which is over here.
+
+08:02.120 --> 08:06.630
+So if I do console log AA Well it's not going to work.
+
+08:06.850 --> 08:12.190
+Oh and we need to actually assign something and we need to name it's a larger say B.
+
+08:12.260 --> 08:20.760
+So if I do this well console or log they will just return reference error because it doesn't exist.
+
+08:20.760 --> 08:22.290
+So that's scope.
+
+08:22.350 --> 08:31.470
+Now how is context different context tells you where we are within the object.
+
+08:31.470 --> 08:32.560
+Let me explain.
+
+08:32.910 --> 08:38.870
+If we say console doll log this.
+
+08:39.060 --> 08:44.910
+Well you see I get some highlighting and this is the first time we're seeing this and it's a special
+
+08:44.910 --> 08:46.270
+word in javascript.
+
+08:46.290 --> 08:52.140
+Probably the most confusing word that a lot of people have trouble and even people that I've been in
+
+08:52.140 --> 08:57.110
+the industry for years still have a difficult time with this but let's see what it is.
+
+08:57.510 --> 09:03.900
+This is as you can see the window object.
+
+09:03.940 --> 09:14.550
+So just to double check if I do console or log this equals window I get true.
+
+09:14.780 --> 09:23.950
+And I can access this dot alert.
+
+09:23.980 --> 09:35.620
+So what this means is what is the object environment that we're in right now the best way to think about
+
+09:35.620 --> 09:42.450
+it is what is to the left of the dot.
+
+09:42.460 --> 09:49.860
+So right now I'm able to do alert because I'm inside the window object.
+
+09:50.110 --> 09:53.960
+So doing window or doing this is the same thing.
+
+09:54.160 --> 09:57.110
+Now why is that important.
+
+09:57.270 --> 10:04.050
+Well when we get to instantiation I'll show you why it is but it's a very important concept that you'll
+
+10:04.050 --> 10:05.430
+see again and again.
+
+10:05.490 --> 10:15.780
+But remember this just refers to what object it's inside of two more example to demonstrate this one
+
+10:17.200 --> 10:23.410
+is if I do function a Withem function a will say console dog log
+
+10:26.190 --> 10:29.090
+this.
+
+10:29.120 --> 10:39.260
+So if I call it what do you think happens Lucy still the window object this still refers to the function.
+
+10:39.360 --> 10:46.710
+And if you remember that's because I said it has to be what object we're inside of right now.
+
+10:46.790 --> 10:47.910
+Technically.
+
+10:47.970 --> 10:52.190
+I can go window hey and run the function.
+
+10:52.470 --> 11:02.890
+So to the left of the dot Well that's the window in order to create a new value for this.
+
+11:03.020 --> 11:06.530
+You have to do something like this.
+
+11:10.370 --> 11:13.550
+Object a function a.
+
+11:13.550 --> 11:14.900
+Now if I do function
+
+11:19.860 --> 11:22.730
+and within here I do a console log.
+
+11:23.180 --> 11:32.500
+This well in that case if I copy this and run object for a
+
+11:35.540 --> 11:36.270
+while.
+
+11:36.560 --> 11:45.730
+Now this is the object which is object for.
+
+11:45.800 --> 11:49.860
+So why is that important to us.
+
+11:50.030 --> 11:54.460
+Well first of all you'll see it and other codebase is so it's good to know.
+
+11:54.680 --> 12:01.790
+But it's really important when we do instantiation instantiation is when you make a copy of an object
+
+12:02.420 --> 12:05.270
+and reuse the code.
+
+12:05.270 --> 12:09.140
+Imagine you're building a big multiplayer game online.
+
+12:09.590 --> 12:17.120
+And this game's going to have many many players you can have wizards you can have trolls warlocks elves.
+
+12:17.150 --> 12:24.080
+Now if you had to create an object for every single player that's a lot of repeated code that's a lot
+
+12:24.080 --> 12:30.040
+of hassle and that's a lot of your time and it's not very efficient to solve that.
+
+12:30.070 --> 12:32.070
+You can do something called instantiation.
+
+12:32.260 --> 12:37.460
+You're making instances or multiple copies of an object.
+
+12:37.480 --> 12:43.350
+So let me show you how we do instantiation in javascript again.
+
+12:43.410 --> 12:49.590
+This is going to look a little bit weird at first just like for loops did just like functions did at
+
+12:49.590 --> 12:54.320
+the beginning but it's just the syntax and you'll get used to it.
+
+12:54.330 --> 12:59.200
+So let's say we have a player class.
+
+12:59.370 --> 13:05.460
+Now you see the new syntax already and I capitalize a class.
+
+13:05.510 --> 13:09.980
+Now think of a class as something that I want to make a copy of.
+
+13:10.160 --> 13:18.080
+If I ever want to make a copy of an object it's a good idea to do something like this so that well you'll
+
+13:18.080 --> 13:19.990
+see how easy it is to copy this.
+
+13:20.000 --> 13:21.980
+Now so we do.
+
+13:21.980 --> 13:28.610
+Class player and within here will say constructor
+
+13:31.300 --> 13:35.530
+and I know this looks weird but again is just syntax.
+
+13:35.530 --> 13:45.580
+Let's give it to this player can have a name and a type and within the constructor this name he calls
+
+13:45.780 --> 13:51.300
+name and this type he calls
+
+13:55.890 --> 13:58.110
+was just happened here constructor.
+
+13:58.110 --> 14:00.960
+When you create a class A player class says.
+
+14:01.140 --> 14:08.280
+Every time I'm making a copy of a player the first thing that gets run is the constructor function and
+
+14:08.280 --> 14:17.570
+this constructor function is going to create these properties on the player object so name and a type.
+
+14:17.610 --> 14:21.450
+And now I can create anything that I want for the player.
+
+14:21.450 --> 14:30.670
+Let's say we want to create a method such as introduce that console logs
+
+14:33.600 --> 14:39.580
+with tactics Hi I am.
+
+14:39.800 --> 14:54.140
+And again will you remember this Sendak's template rings this done name I'm a this type.
+
+14:54.230 --> 15:02.480
+So now I'm saying this class any player that I create will always be able to introduce himself and they'll
+
+15:02.480 --> 15:07.760
+also have this name and this type.
+
+15:07.850 --> 15:14.880
+And the reason we use this here is that when we create a player we can access the name and type property.
+
+15:14.930 --> 15:17.270
+I'll show you later on how that works.
+
+15:17.270 --> 15:24.530
+But this is just a syntax you're going to get used to in order to access the player and make copies
+
+15:24.530 --> 15:25.070
+of it.
+
+15:25.070 --> 15:29.240
+You'll have to run a constructor which is all the properties and methods that you want the player to
+
+15:29.240 --> 15:29.920
+have.
+
+15:30.200 --> 15:38.630
+You can also create methods that players can have and any time you want to access a property within
+
+15:38.630 --> 15:44.740
+the constructor will use this name for want to use introduce I'll have to do this.
+
+15:44.780 --> 15:47.100
+Introduce.
+
+15:47.130 --> 15:53.970
+OK so we have a player but when we're building our multiplayer game we want to now copy this but add
+
+15:53.970 --> 15:54.580
+onto it.
+
+15:54.690 --> 15:59.060
+Let's say we have what we want to create a wizard player a player that's a wizard.
+
+15:59.460 --> 16:09.450
+In that case when we do class wizard again capital letter extends and again is just the javascript keyboard
+
+16:10.080 --> 16:13.330
+player.
+
+16:13.370 --> 16:19.270
+So what is this saying I'm saying I want wizard to extend whatever a player has.
+
+16:19.280 --> 16:26.480
+So I want to add on top of whatever player has again because it's a class will have to do a constructor.
+
+16:28.370 --> 16:35.630
+And this wizard is going to accept Knabe and type and within here this is the tricky part.
+
+16:35.630 --> 16:45.440
+Any time we extend something we need to also call the constructor function of the player.
+
+16:45.440 --> 16:52.010
+We have to do something called super with the properties that we want to pass to the constructor.
+
+16:52.010 --> 17:00.980
+In this case name and type I know this is confusing is just something you have to do whenever you extend
+
+17:01.280 --> 17:02.350
+a class.
+
+17:02.570 --> 17:09.550
+You want to use Soopers so that you essentially have access to these OK.
+
+17:09.580 --> 17:16.430
+So let's say that with the wizard We also want to have a play function and the play function was just
+
+17:16.430 --> 17:18.350
+a console log.
+
+17:19.000 --> 17:30.590
+We I'm a this type and now that we have our wizard What's the power what's the reason that we just did
+
+17:30.590 --> 17:31.280
+this.
+
+17:31.310 --> 17:37.400
+Now we can do this instead of constantly creating players and then saying that they have their wizards
+
+17:37.400 --> 17:38.700
+and they can play.
+
+17:38.720 --> 17:49.310
+Now I can say wizard 1 equals new wizard and we'll call the first wizard again.
+
+17:49.310 --> 17:58.260
+We get name and type so we'll say Shelly and she'll be a healer.
+
+18:00.160 --> 18:16.030
+And if I want to create a new wizard I'll just say wizard 2 equals new wizard Sean and he is dark magic.
+
+18:16.290 --> 18:23.910
+There was a lot of new syntax so let's go through it and make sure we understand everything as we've
+
+18:23.920 --> 18:28.930
+learn let's use console log to really understand what we're doing.
+
+18:28.960 --> 18:34.280
+I'm going to add a console log right of the top over here.
+
+18:36.210 --> 18:37.560
+I will say this.
+
+18:37.580 --> 18:39.730
+What is this.
+
+18:39.840 --> 18:48.010
+I'm going to save and actually I'm going to copy this into the console let's copy it.
+
+18:49.080 --> 18:51.520
+And see what the console log gives us.
+
+18:51.520 --> 18:54.390
+We see that we get Wizard.
+
+18:54.480 --> 18:54.840
+All right.
+
+18:54.870 --> 18:56.160
+Let's go through everything here.
+
+18:57.530 --> 19:02.410
+I say we have a class player then a class wizard that extends player.
+
+19:02.780 --> 19:07.390
+And then we have two variables that we created wizard 1 and Wizard 2.
+
+19:07.430 --> 19:14.270
+Now the program's going to see the new keyword and any time it sees a new key word it says oh we're
+
+19:14.270 --> 19:23.570
+creating a new wizard and this wizard is going to have two parameters Shelli and healer.
+
+19:23.810 --> 19:30.230
+So it's going to go to the wizard class again because it has this new word.
+
+19:30.260 --> 19:36.150
+He goes to the wizard class and says a wizard.
+
+19:36.210 --> 19:38.690
+I want you to extend player.
+
+19:38.850 --> 19:47.940
+So it's going to go to the constructor and it's going to see this super And what this does is it takes
+
+19:47.940 --> 19:51.520
+us up to the constructor of the player.
+
+19:51.750 --> 19:59.420
+And Iran's this and now it attaches this as the wizard.
+
+19:59.910 --> 20:03.870
+And then it introduces the new function and then adds the play function.
+
+20:03.870 --> 20:16.490
+Now if I go to wizard 1 and I say play I get we I'm a healer because Shelly's a healer.
+
+20:16.710 --> 20:28.880
+But I also have access to wizard 1 dog introduce Hi I am Shelly I'm a healer and we also have access
+
+20:30.230 --> 20:34.530
+to wizard to I have to run this again.
+
+20:34.660 --> 20:35.910
+Let's run this again.
+
+20:38.920 --> 20:42.510
+And I don't think I copied the second wizard last time.
+
+20:42.760 --> 20:47.320
+So now I have wizard to introduce.
+
+20:47.330 --> 20:48.370
+Hi I'm Sean.
+
+20:48.460 --> 20:50.820
+Um I'm a dark magic.
+
+20:50.860 --> 20:54.070
+That sentence doesn't make sense Sean but that's OK for now.
+
+20:54.920 --> 20:57.200
+Let's just try something if I do.
+
+20:57.200 --> 20:58.580
+Console log.
+
+21:01.270 --> 21:05.480
+Here and we'll just say wizard
+
+21:08.130 --> 21:09.420
+and here will say player.
+
+21:09.420 --> 21:11.160
+Just so we can distinguish between them.
+
+21:12.660 --> 21:19.770
+And I'm only going to copy the first wizard so that we don't get two of these running again because
+
+21:19.770 --> 21:25.760
+we're creating two wizards we're going to have this run twice but just for our sanity We'll run.
+
+21:25.770 --> 21:32.030
+Shelly So I'm going to refresh and add here I forgot to add a comma
+
+21:35.270 --> 21:43.270
+and let's refresh and I get our Knerr reference error must call super constructor and derived class
+
+21:43.280 --> 21:44.990
+before accessing this.
+
+21:45.470 --> 21:54.380
+What that's saying is that in order for me to access this and get this type I have to call super which
+
+21:54.830 --> 21:57.620
+runs a constructor function and player.
+
+21:57.680 --> 21:59.210
+So that's what super is doing.
+
+21:59.210 --> 22:05.030
+It sounds kind of weird but it just something that you need just get up at the bottom after we call
+
+22:05.030 --> 22:08.660
+super and now it should work.
+
+22:08.780 --> 22:09.140
+Let's see
+
+22:14.180 --> 22:18.750
+I get the first player wizard.
+
+22:19.160 --> 22:24.600
+So we call super as soon as we say new wizard Shelli healer.
+
+22:24.880 --> 22:32.350
+I go to the wizard accent's player I run the constructor function which says super hey run the constructor
+
+22:32.350 --> 22:35.240
+function and the player and I run that.
+
+22:35.350 --> 22:44.520
+And that's why we log console log player first and then we go to console dialog wizard and then run
+
+22:44.520 --> 22:46.490
+the rest of the class.
+
+22:46.530 --> 22:48.130
+Very cool.
+
+22:48.340 --> 22:50.670
+Now just to show you something.
+
+22:50.710 --> 22:57.470
+This is actually new syntax that you'll see and react and it was part of ESX.
+
+22:57.910 --> 23:07.040
+But back in the day this is how we used to do it the exact same code I have up there
+
+23:11.590 --> 23:12.560
+is right here.
+
+23:14.530 --> 23:21.190
+It's called classical inheritance and it doesn't look too too bad but you see that there's prototype
+
+23:21.190 --> 23:26.440
+which it's another thing that you'll see in javascript and to be honest with you you shouldn't really
+
+23:26.440 --> 23:26.920
+use it.
+
+23:26.920 --> 23:28.430
+It doesn't look very nice.
+
+23:28.780 --> 23:37.090
+And you see that we have to a play to both wizard wand and Wizard 2 and it just doesn't look as nice
+
+23:37.840 --> 23:39.220
+as this.
+
+23:39.310 --> 23:41.890
+And once you get used to everything.
+
+23:42.100 --> 23:43.760
+It's not too bad.
+
+23:43.780 --> 23:49.540
+All we're saying is as soon as we say class who say hey we're probably going to make a copy of this
+
+23:49.540 --> 23:51.000
+object.
+
+23:51.210 --> 23:56.760
+So we want to make copies of player we want to make copies of wizard and that's called instantiation.
+
+23:56.760 --> 24:06.060
+When I do the new keyword I say make an instance of wizard and wizard uses some functionality from the
+
+24:06.060 --> 24:11.190
+player and adds its own little play function as well.
+
+24:11.190 --> 24:18.720
+Holy moly that was a lot like I said this is something that you'll have to come back to and you won't
+
+24:18.720 --> 24:19.890
+get it right away.
+
+24:19.890 --> 24:26.330
+It's really really hard to fully understand the topic without actually having to use it in real life.
+
+24:26.370 --> 24:32.850
+Just keep this in mind every time you hear somebody talk about reference type or contacts or even scope
+
+24:33.240 --> 24:35.790
+or instantiating something.
+
+24:35.790 --> 24:38.740
+Well these are the things that they're talking about.
+
+24:38.970 --> 24:40.930
+Objects are really really complicated.
+
+24:40.950 --> 24:42.490
+They're really hard.
+
+24:42.600 --> 24:45.660
+But with that it gives us a lot of power.
+
+24:46.990 --> 24:51.220
+So with that good luck with the exercises I'll see in the next one but by.

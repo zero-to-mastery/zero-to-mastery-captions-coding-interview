@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.020 --> 00:08.760
+Care sunt diferitele operațiuni care pot fi efectuate pe diferite structuri de date deoarece, după cum am învățat în cursurile
+
+00:08.790 --> 00:17.570
+noastre anterioare, structurile de date sunt pur și simplu modalități de a organiza datele noastre pe computerele noastre, iar structurile de date pe
+
+00:17.570 --> 00:25.520
+care le vom vedea pe parcursul acestui curs sunt pur și simplu variații ale modul în care am stocat aceste date
+
+00:25.820 --> 00:27.350
+pe computerele noastre.
+
+00:27.350 --> 00:33.680
+Aceste informații și fiecare structură de date au compromisuri.
+
+00:33.730 --> 00:36.070
+Unii sunt buni la anumite operații.
+
+00:36.070 --> 00:38.990
+Altele sunt bune la alte operațiuni.
+
+00:40.020 --> 00:47.430
+Un tip de acțiune pe care o vom realiza cu structuri de date bine este introducerea adăuga
+
+00:47.430 --> 00:56.220
+un nou element de date într-o colecție dată de elemente cum ar fi noi adăugând elementul de mar și memoria aici.
+
+00:57.270 --> 01:05.300
+Și acum, singura ștergere de fișier pe care vreți să o ștergem uneori, cum ar fi eliminarea mango-ului din lista noastră.
+
+01:05.300 --> 01:08.800
+Un alt tip de acțiune ar putea fi traversal.
+
+01:09.140 --> 01:16.860
+Și vom vedea că acest traversal înseamnă pur și simplu accesul la fiecare element de date exact o
+
+01:17.190 --> 01:22.240
+dată, astfel încât să poată fi procesat și căutând alte utilități.
+
+01:22.310 --> 01:29.920
+Vrem să aflăm locația elementului de date dacă acesta există într-o colecție dată și apoi avem și
+
+01:29.920 --> 01:34.960
+alte lucruri ca sortarea care are date care sunt sortate.
+
+01:34.960 --> 01:41.890
+Se pare că este pe partea stângă, de aici, față de partea dreaptă, unde nu se întâmplă prea
+
+01:41.890 --> 01:45.100
+multe sortare, cel puțin de unde putem vedea.
+
+01:45.300 --> 01:51.390
+Și, evident, principalul și probabil cel mai important este accesul.
+
+01:51.600 --> 01:56.170
+Cum accesăm aceste date pe calculatorul nostru?
+
+01:56.950 --> 02:02.980
+Acum, fiecare structură de date pe care vom trece prin acest curs va avea argumente pro și contra
+
+02:02.980 --> 02:04.950
+diferite pentru fiecare dintre acestea.
+
+02:05.140 --> 02:12.240
+Și dacă aruncăm o privire la Big-O Chichi Ei bine, suntem foarte familiarizați cu această diagramă aici sau cu
+
+02:12.240 --> 02:19.510
+acest grafic și dacă ne defilează avem toate aceste structuri de date pe care le afișează și nu ajunge să copleșească.
+
+02:19.590 --> 02:25.170
+Vom trece peste majoritatea acestor structuri de date și veți vedea că jumătate dintre ele
+
+02:25.200 --> 02:31.300
+sunt în principal copaci și varietăți de copaci, iar aici vedem că fiecare dintre ei are acces.
+
+02:31.310 --> 02:38.510
+Căutați o medie de ștergere a inserției în cel mai rău caz și pentru că înțelegem big-O, putem vedea asta.
+
+02:38.620 --> 02:41.660
+În regulă, vedem care sunt cele bune pentru ce.
+
+02:41.680 --> 02:44.080
+Și ceea ce este rău pentru ce.
+
+02:44.910 --> 02:50.590
+Și, pe măsură ce trecem prin structurile noastre de date, vom trece peste aceste argumente pro
+
+02:50.590 --> 02:57.310
+și contra, astfel încât să construiți fundația pentru a putea decide care structură de date să folosesc pentru următoarea problemă.
+
+02:57.730 --> 03:02.080
+Vom începe cu prima noastră structură de date în următorul lösen.
+
+03:02.200 --> 03:02.990
+O să văd în acel.

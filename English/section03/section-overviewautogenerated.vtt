@@ -1,0 +1,100 @@
+WEBVTT
+
+00:01.500 --> 00:10.620
+In my opinion this section is one of the most important topics for any software developer or engineer.
+
+00:10.620 --> 00:17.850
+It also happens to be my favorite section of course no matter what company you work in where you live
+
+00:17.940 --> 00:24.360
+or even if you're coding 10 years from now this is a concept that will be around for a long time and
+
+00:24.360 --> 00:27.780
+something that will truly make you a better developer.
+
+00:28.970 --> 00:35.480
+Big-O is something that I learned about two to three years into my career as a developer and it's so
+
+00:35.480 --> 00:36.500
+important.
+
+00:36.500 --> 00:42.560
+It has made me a better developer a better engineer and it will for you as well.
+
+00:42.590 --> 00:52.100
+Big companies like Google Facebook Alibaba Amazon all know this which is why you won't get by any of
+
+00:52.100 --> 00:57.620
+their interviews any of their phone interviews any of their screaming interviews without encountering
+
+00:57.620 --> 00:58.400
+this topic.
+
+00:59.230 --> 01:03.490
+So we're going to learn all about this very important topic and that's why it's at the beginning of
+
+01:03.490 --> 01:04.960
+the course.
+
+01:04.960 --> 01:05.530
+All right.
+
+01:05.620 --> 01:07.110
+Did I grab your attention enough.
+
+01:07.970 --> 01:10.480
+So what are we talking about here.
+
+01:10.490 --> 01:17.480
+It's called Big O and the official term is Big O asymptomatic analysis.
+
+01:17.660 --> 01:22.150
+If you want to sound super smart and impress your friends you see any coater.
+
+01:22.220 --> 01:24.610
+Given enough time can solve a problem.
+
+01:24.980 --> 01:28.910
+What matters is though how well the problem is solved.
+
+01:29.330 --> 01:31.920
+And this is where big-O can help us.
+
+01:31.970 --> 01:34.920
+It can tell us how well a problem is solved.
+
+01:34.970 --> 01:37.130
+We're going to find out about what that means.
+
+01:37.130 --> 01:43.580
+In this section we're going to talk about big-O what it is how we define it and then we're going to
+
+01:43.580 --> 01:52.900
+use big-O and it's different notation to distinguish that code from good code good code from great code.
+
+01:53.110 --> 01:57.950
+We are going to become comfortable with this topic that we are going to not be surprised when this comes
+
+01:57.950 --> 01:59.290
+up in our interviews.
+
+01:59.450 --> 02:05.090
+But we're also going to build this big foundation that is important to be a great developer.
+
+02:05.090 --> 02:10.160
+The reason this topic is at the beginning of this course is that you will see this Big-O notation come
+
+02:10.160 --> 02:16.160
+up again and again as we go into topics such as data structures and algorithms.
+
+02:16.160 --> 02:18.360
+Like I said this is my favorite section.
+
+02:18.380 --> 02:21.170
+So get ready because it's going to be a lot of fun.
+
+02:21.200 --> 02:22.910
+See you in the next video.
+
+02:22.960 --> 02:23.150
+Bob.

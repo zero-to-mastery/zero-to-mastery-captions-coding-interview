@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.660 --> 00:01.810
+Ben tornato.
+
+00:01.920 --> 00:07.860
+Siamo ora nella sezione della struttura dei dati dell'albero proprio qui.
+
+00:08.100 --> 00:15.000
+E come possiamo vedere gli alberi o le liste concatenate sono un tipo di albero di cui abbiamo già parlato, ma
+
+00:15.000 --> 00:17.980
+ci sono alcuni altri qui che dobbiamo ancora parlare.
+
+00:18.800 --> 00:25.850
+Quindi lo esamineremo e acquisiremo familiarità con i diversi tipi medi iniziando con l'albero
+
+00:25.910 --> 00:26.680
+binario.
+
+00:27.080 --> 00:27.950
+Entriamo in esso.
+
+00:29.710 --> 00:37.630
+Un albero binario è qualcosa che probabilmente hai visto prima ed è un albero di tipo con poche regole ad
+
+00:37.630 --> 00:38.540
+esso applicate.
+
+00:39.040 --> 00:49.180
+Ma sono abbastanza semplici che ogni nodo può avere solo 0 1 o 2 nodi e ogni bambino può avere
+
+00:49.180 --> 00:50.990
+solo un genitore.
+
+00:51.010 --> 00:53.010
+Questo è un albero binario.
+
+00:53.020 --> 01:00.400
+Tuttavia questo non è un albero binario perché ha tre figli o almeno uno dei NOS ha tre
+
+01:00.580 --> 01:01.230
+figli.
+
+01:02.340 --> 01:06.040
+E ogni nodo rappresenta un certo stato.
+
+01:06.510 --> 01:12.440
+E questo è molto simile a quello che abbiamo fatto in passato specialmente con le liste collegate se diamo
+
+01:12.440 --> 01:14.360
+un'occhiata a un esempio qui.
+
+01:14.360 --> 01:25.440
+Per poter creare un albero binario, posso solo creare una funzione dire albero binario e questo albero binario forse
+
+01:25.440 --> 01:37.520
+otterrà un valore e l'albero binario o nel nostro caso un nodo ad albero binario avrà semplicemente un valore associato ad
+
+01:37.730 --> 01:44.780
+esso qual è il valore che gli diamo all'interno della funzione.
+
+01:44.780 --> 01:51.800
+E poi abbiamo altre due proprietà che è un puntatore al lato sinistro dell'albero che per ora non sarà
+
+01:51.800 --> 01:52.570
+più.
+
+01:52.730 --> 01:58.550
+E un puntatore sul lato destro dell'albero che equivale a destra equivale a quello che possiamo
+
+02:02.310 --> 02:08.650
+rappresentare un nodo ad albero binario che ha semplicemente un valore e quindi una proprietà sinistra e destra
+
+02:08.800 --> 02:11.410
+molto simile a ciò che abbiamo fatto.
+
+02:11.440 --> 02:14.920
+O un principio molto simile a quello che abbiamo fatto con le liste collegate.
+
+02:15.840 --> 02:22.380
+Ora stiamo per codificare effettivamente un albero e creare una struttura dati dell'albero proprio come abbiamo per le
+
+02:22.380 --> 02:23.790
+strutture dati passate.
+
+02:24.060 --> 02:29.860
+Ma voglio anche sottolineare alcune terminologie che potremmo incontrare e che sono importanti.
+
+02:31.060 --> 02:36.960
+In questo caso stiamo guardando qualcosa chiamato albero completamente pieno.
+
+02:37.030 --> 02:40.930
+Ciò significa che non ci sono lacune nell'albero.
+
+02:40.930 --> 02:42.090
+Lascia che ti mostri cosa intendo.
+
+02:43.010 --> 02:47.610
+Un albero binario perfetto ha riempito tutto.
+
+02:47.660 --> 02:57.560
+Ciò significa che tutti i nodi foglia sono pieni e non c'è nessun no che ha un solo figlio un nodo o ha zero
+
+02:57.800 --> 02:59.740
+figli o due bambini.
+
+02:59.930 --> 03:05.700
+E anche lo strato inferiore dell'albero è completamente riempito.
+
+03:05.750 --> 03:14.840
+Non manca nulla contro un albero binario completo che dice semplicemente che un nodo ha 0 o 2 figli
+
+03:15.020 --> 03:17.090
+ma mai un bambino.
+
+03:17.090 --> 03:19.120
+Ora, perché è così importante.
+
+03:19.250 --> 03:28.070
+Poiché questo tipo di albero binario in particolare un albero binario perfetto è davvero efficiente e qualcosa che
+
+03:28.070 --> 03:35.640
+è desiderabile quando alberi binari sono perfetti come questo hanno due proprietà davvero interessanti.
+
+03:35.660 --> 03:43.590
+Uno è che il numero di nodi totali su ciascun livello raddoppia mentre ci spostiamo giù dall'albero.
+
+03:43.670 --> 03:48.080
+Per esempio qui abbiamo un nodo al livello successivo ne abbiamo due.
+
+03:48.170 --> 03:50.840
+Quindi abbiamo appena raddoppiato i nodi nel prossimo livello.
+
+03:50.840 --> 03:53.490
+Abbiamo uno due tre quattro.
+
+03:53.570 --> 04:02.170
+Quindi ci siamo raddoppiati per farlo se avessimo un livello inferiore che sarebbe un albero binario perfetto avremmo 1 2 3 4 5
+
+04:02.170 --> 04:03.530
+6 7 8.
+
+04:03.650 --> 04:06.510
+Quindi stavamo raddoppiando ogni volta.
+
+04:06.610 --> 04:13.630
+La seconda proprietà importante è che il numero di nodi nell'ultimo livello è uguale alla somma del
+
+04:13.630 --> 04:18.430
+numero di nodi su tutti gli altri livelli più 1.
+
+04:18.460 --> 04:18.700
+Tutto ok.
+
+04:18.700 --> 04:20.380
+Questo era confuso cosa intendo.
+
+04:20.440 --> 04:30.220
+Bene, qui se prendo il livello inferiore che è 1 2 3 per la seconda proprietà afferma che tutti i nodi sopra di
+
+04:30.250 --> 04:33.990
+esso più 1 saranno uguali al livello inferiore.
+
+04:34.000 --> 04:37.910
+Quindi uno due tre più uno è uguale a quattro.
+
+04:37.930 --> 04:44.890
+Questo è quello che avevamo sul fondo, il che significa in altre parole che circa la metà dei nostri
+
+04:44.890 --> 04:46.870
+nodi si trova all'ultimo livello.
+
+04:46.960 --> 04:52.920
+E questo porta a un punto davvero interessante organizzando i nostri dati in questo modo.
+
+04:53.080 --> 04:56.830
+Abbiamo metà di questi dati nel livello inferiore.
+
+04:56.950 --> 05:03.640
+Se in qualche modo possiamo evitare di visitare ogni nodo anche se il nodo che stiamo
+
+05:04.450 --> 05:11.910
+cercando è in fondo forse ci sono alcune efficienze che possiamo avere e tu avresti ragione a causa
+
+05:12.540 --> 05:20.340
+di questo tipo di struttura vedrai un nuova notazione di big-O qualcosa che stavamo aspettando da molto tempo vecchio log
+
+05:20.380 --> 05:25.980
+e quando iniziamo a parlare di qualcosa chiamato binary search tree inizieremo a vedere
+
+05:26.100 --> 05:27.230
+questa notazione.
+
+05:27.570 --> 05:30.680
+Sì, finalmente siamo arrivati a un'altra grande notazione O.
+
+05:30.840 --> 05:34.090
+Ma cosa significa nel prossimo video.
+
+05:34.110 --> 05:39.600
+Voglio parlare di tutti i log in e perché gli alberi ci permettono di avere qualcosa di simile.
+
+05:39.690 --> 05:41.530
+E quali sono le implicazioni.
+
+05:42.250 --> 05:43.370
+Vedrò nel prossimo.

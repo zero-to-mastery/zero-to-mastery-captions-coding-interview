@@ -1,0 +1,175 @@
+WEBVTT
+
+00:01.130 --> 00:02.270
+Bine ai revenit.
+
+00:02.270 --> 00:06.890
+Am învățat algoritmii de sortare dacă ați fi întrebat-vă.
+
+00:06.990 --> 00:14.150
+Andre Sunt încă destul de confuză când să folosesc ce ar fi dacă aș fi întrebat într-un interviu o întrebare despre
+
+00:14.150 --> 00:17.470
+algoritmul de sortare care va fi cel mai bun.
+
+00:17.480 --> 00:26.810
+Dacă aș avea datele unui utilizator de 100 de milioane de nume care trebuie sortate Ei bine, să trecem peste niște reguli.
+
+00:27.300 --> 00:28.070
+1.
+
+00:28.380 --> 00:31.380
+Când trebuie să utilizați tipul de inserție.
+
+00:31.800 --> 00:40.680
+Ei bine, tipul de inserare ar trebui folosit cu doar câteva elemente dacă intrarea dvs. este mică sau elementele sunt în mare parte
+
+00:40.680 --> 00:41.480
+sortate.
+
+00:41.730 --> 00:43.880
+Este foarte rapid.
+
+00:44.800 --> 00:52.030
+Utilizează foarte puțin spațiu și cel mai important este foarte ușor de implementat în cod.
+
+00:52.350 --> 01:01.860
+Așadar, amintiți-vă doar câteva elemente și cele mai multe date sortate ar trebui să utilizați tipul de inserție a unui sortiment de bule.
+
+01:02.100 --> 01:04.690
+Pentru a fi sincer, nu vei folosi niciodată sortarea bulelor.
+
+01:05.500 --> 01:10.740
+Este folosită doar pentru scopuri educaționale ca o modalitate de a preda sortarea.
+
+01:10.840 --> 01:17.520
+Dar este foarte rar că veți găsi acest lucru în viața reală, deoarece nu este foarte eficient.
+
+01:18.380 --> 01:21.020
+Ce se întâmplă cu selecția din nou?
+
+01:21.050 --> 01:26.070
+Același lucru cu alegerea sorții după cum puteți vedea numerele sale nu sunt foarte bune.
+
+01:26.120 --> 01:28.700
+Deci cel mai probabil nu o veți folosi.
+
+01:28.790 --> 01:32.200
+În mare parte este folosit ca un mecanism de predare pe care l-am făcut.
+
+01:32.250 --> 01:37.790
+Ne pare rău nu am vrut să-ți pierdem timpul cu selecția de învățare îmi pare rău, dar este important să
+
+01:37.790 --> 01:38.630
+construiești fundația.
+
+01:39.750 --> 01:41.510
+Ce zici de un fel de îmbinare.
+
+01:42.120 --> 01:44.260
+Și asta e favorita mea.
+
+01:44.390 --> 01:50.120
+De ce bine Merced scurt este într-adevăr foarte bun, din cauza împărți și cuceri.
+
+01:50.160 --> 01:54.580
+Avem toate și log și este rapid.
+
+01:54.660 --> 02:03.320
+Și pentru că cea mai bună medie, în cel mai rău caz, este întotdeauna 0 și intram, întotdeauna împărțim scaunul în mod egal.
+
+02:03.330 --> 02:07.580
+Puteți garanta întotdeauna că acest lucru va fi cazul.
+
+02:07.830 --> 02:10.520
+Ceea ce nu este cazul pentru majoritatea celorlalți algoritmi.
+
+02:10.740 --> 02:15.080
+Deci, dacă sunteți îngrijorat de scenariile cele mai grave, ar trebui să folosiți sortarea Mirch.
+
+02:15.360 --> 02:22.980
+Dar dacă doriți să sortați în memoria mașinii dvs. și sunteți îngrijorați de complexitatea spațiului, îmbinarea sortului va
+
+02:22.980 --> 02:28.540
+fi cu adevărat costisitoare și o complexitate a utilizatorilor din toate acestea.
+
+02:28.700 --> 02:36.190
+Cu toate acestea, dacă a avut fișiere uriașe care pot fi sortate în memorie, deci aveți o sortare
+
+02:36.200 --> 02:45.740
+externă de care aveți nevoie, poate ca un proces în afara memoriei, este potrivit pentru sortare externă, apoi îmbinarea sortimentului este bună, deoarece nu
+
+02:45.740 --> 02:50.830
+ne va pasa prea mult despre complexitatea spațiului ce zici de rapiditate.
+
+02:51.740 --> 02:59.390
+Quicksort este de fapt mai bună decât rata de sortare medie a ratei Mirch și complexitatea spațiului.
+
+02:59.390 --> 03:05.120
+Vreau să spun că are aceeași viteză ca și timpul de complexitate Merse scurt, dar mai puțin spațiu.
+
+03:05.120 --> 03:12.740
+Este probabil unul dintre algoritmii de sortare cele mai populare, dar cel mai dezavantajos este acest caz mai rău
+
+03:12.740 --> 03:18.260
+dacă nu alegeți hârtia corectă încât ați putea avea o sortare foarte lentă.
+
+03:18.350 --> 03:25.830
+Deci, trebuie să fii atent și dacă ești îngrijorat de cel mai rău caz, atunci mai bine alegi
+
+03:25.830 --> 03:26.330
+altceva.
+
+03:27.410 --> 03:32.250
+Acum s-ar putea să te întrebi pe tine. Andre Ce zici de heapsort.
+
+03:32.420 --> 03:34.130
+Nu ați vorbit cu adevărat despre asta.
+
+03:34.960 --> 03:39.550
+Am de gând să las resurse pentru tine, ca să poți învăța și despre heapsort.
+
+03:39.580 --> 03:45.610
+Este foarte asemănător cu quicksort și fuzionează sortarea, dar vedeți aici că are o complexitate spațială a
+
+03:45.610 --> 03:46.360
+tuturor unuia.
+
+03:46.360 --> 03:49.260
+Nu este mai bine decât toate cele de mai sus.
+
+03:49.640 --> 03:56.860
+Ei bine, el poate sorta în loc și nu are cel mai rău caz comportament quadratic pe care îl are rapidul
+
+03:56.860 --> 04:04.940
+sau modul de utilizare a memoriei pe care Mirch îl are, dar în medie este de fapt mai lent decât rapid în majoritatea cazurilor.
+
+04:04.990 --> 04:12.340
+Este unul dintre acele lucruri în care cu heapsort dacă nu sunteți cu adevărat îngrijorat de caz și de cel mai rău de
+
+04:12.340 --> 04:18.250
+memorie, atunci ar putea să-l utilizați, dar de cele mai multe ori aș spune că utilizați rapidsort sau
+
+04:20.020 --> 04:24.200
+sau Murchadh OK, dar tu spui ce despre aceste cele Swansdown aici.
+
+04:24.220 --> 04:26.250
+Tipul tipului de tip radix.
+
+04:26.250 --> 04:29.180
+Sau sortarea și numărarea cu radix.
+
+04:29.380 --> 04:31.050
+De ce nu vorbești despre astea.
+
+04:31.060 --> 04:32.200
+De ce putem să le folosim.
+
+04:32.200 --> 04:37.910
+Arată mult mai bine decât toate celelalte, mai ales când vine vorba de complexitatea timpului.
+
+04:37.910 --> 04:38.660
+Buna intrebare.
+
+04:38.780 --> 04:40.240
+Să vorbim despre asta în următoarele câteva.

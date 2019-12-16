@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.240 --> 00:02.980
+Witam ponownie.
+
+00:03.050 --> 00:05.170
+Jak było to ćwiczenie?
+
+00:05.180 --> 00:07.020
+Mam nadzieję, że nie było to zbyt trudne.
+
+00:08.720 --> 00:14.270
+Jeśli jesteś w stanie odpowiedzieć na te pytania, najprawdopodobniej w wywiadzie udzielimy Ci odpowiedzi,
+
+00:14.270 --> 00:18.310
+jeśli kiedykolwiek zapytasz o pierwsze wyszukiwanie lub wyszukiwanie oddechu.
+
+00:18.380 --> 00:19.790
+Przejrzyjmy więc odpowiedzi.
+
+00:20.800 --> 00:24.710
+Gdyby wiedział, że rozwiązanie nie leży daleko od korzenia drzewa.
+
+00:24.850 --> 00:26.520
+Cóż, rozmawialiśmy o tym.
+
+00:26.620 --> 00:34.660
+Chcemy użyć oddechu dla wyszukiwania, ponieważ rozpoczyna on od wyszukania najpierw najbliższych węzłów
+
+00:34.720 --> 00:36.470
+do rodzica.
+
+00:36.590 --> 00:41.460
+Jeśli drzewo jest bardzo głębokie, a rozwiązania są rzadkie.
+
+00:41.470 --> 00:47.630
+Cóż, jest to trochę trudniejsze pytanie, ale użyjemy oddechu do wyszukiwania.
+
+00:47.820 --> 00:54.660
+Powodem, dla którego robimy to przy pierwszym wyszukiwaniu w głębi, jest to, że pierwsze wyszukiwanie
+
+00:54.660 --> 01:01.710
+będzie wymagało bardzo długiego czasu w przypadku tego typu drzewa, ponieważ drzewo jest naprawdę głębokie, że będzie
+
+01:01.710 --> 01:04.950
+jechało jeden po drugim, przechodząc naprawdę poniżej.
+
+01:04.950 --> 01:10.530
+A ponieważ rozwiązania są rzadkie, najprawdopodobniej powtórzą to w kółko.
+
+01:10.590 --> 01:16.410
+I jak widać przy pierwszym wyszukiwaniu w głębiach używamy funkcji rekursywnych.
+
+01:16.570 --> 01:20.910
+I z tym pierwszym przeszukaniem, które może trwać naprawdę bardzo długo.
+
+01:21.220 --> 01:25.620
+Chociaż z tym mamy również pewne obawy związane z zapamiętywaniem oddechu.
+
+01:25.690 --> 01:32.190
+Więc twoje odpowiedzi mogą być różne, ale to jest to, czego bym użył tak długo, jak długo
+
+01:32.400 --> 01:36.930
+możesz wyjaśnić to ankieterowi, co znajdziesz, jeśli drzewo jest bardzo białe.
+
+01:37.000 --> 01:39.460
+To jest dużo notatek.
+
+01:39.550 --> 01:45.280
+To nie jest drzewo binarne, ma po prostu mnóstwo węzłów pod każdym rodzicem.
+
+01:45.340 --> 01:52.420
+Znowu jest to trochę trudniejsze, ale chcemy użyć śmierci do przeszukania, ponieważ pierwsze poszukiwanie w wannie i zamierzam
+
+01:52.420 --> 01:55.290
+powiedzieć, że to szybkie od teraz.
+
+01:55.430 --> 01:58.390
+Cóż, to będzie wymagało zbyt
+
+02:01.560 --> 02:03.150
+dużo pamięci.
+
+02:03.450 --> 02:10.830
+Sposób, w jaki działa pierwsze wyszukiwanie oddechu, polega na tym, że musi śledzić węzły i bieżący poziom w czymś,
+
+02:10.920 --> 02:12.550
+co nazywa się kolejką.
+
+02:12.640 --> 02:18.290
+Zobaczymy, że z tego powodu może zająć zbyt dużo pamięci.
+
+02:19.130 --> 02:20.070
+A co z następnym.
+
+02:20.090 --> 02:27.350
+Jeśli rozwiązania są częste, ale znajdują się głęboko w drzewie, w tym przypadku używamy głębi do wyszukiwania.
+
+02:27.530 --> 02:31.790
+Miejmy nadzieję, że będziemy w stanie znaleźć odpowiedź szybciej niż oddech dla wyszukiwania.
+
+02:32.760 --> 02:37.340
+A co z następnym, który określa, czy istnieje ścieżka pomiędzy dwoma nutami.
+
+02:37.470 --> 02:42.900
+Tak właśnie zbudowano pierwszy kościół śmierci dla Audubona znajdującego najkrótszą drogę.
+
+02:43.170 --> 02:44.790
+To dla oddechu.
+
+02:44.800 --> 02:47.940
+Pierwsze wyszukiwanie.
+
+02:48.160 --> 02:56.260
+Teraz pamiętaj o tym dokumencie i powróć do niego, gdy będziemy uczyć się coraz więcej o tych dwóch algorytmach,
+
+02:56.410 --> 02:59.410
+ponieważ wszystko zacznie mieć coraz więcej sensu.
+
+02:59.800 --> 03:06.040
+Ale jest to dobry arkusz, o którym warto pamiętać przed wyjazdem na rozmowę kwalifikacyjną, na wypadek, gdyby na razie
+
+03:08.110 --> 03:09.430
+zadawano ci te pytania.
+
+03:09.430 --> 03:12.950
+Myślę, że nadszedł czas, abyśmy zaczęli kodować te algorytmy.
+
+03:13.090 --> 03:14.440
+Zobaczę w następnym.
+
+03:14.830 --> 03:15.060
+Kok.

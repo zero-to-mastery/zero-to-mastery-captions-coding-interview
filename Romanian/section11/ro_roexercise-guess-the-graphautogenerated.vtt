@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.250 --> 00:02.190
+Bine ai revenit.
+
+00:02.300 --> 00:08.600
+Avem cel mai bun prieten al nostru pentru vizionare și încă o dată avem o diagramă minunată pentru a ne juca.
+
+00:09.600 --> 00:16.950
+Acum vă voi da patru grafice diferite și va trebui să-mi spuneți ce tip de
+
+00:16.980 --> 00:25.490
+grafic se bazează în timp ce am învățat până acum dacă este ponderat sic faceți clic pe direcția direcționată.
+
+00:25.500 --> 00:27.030
+Deci, să începem cu asta.
+
+00:27.090 --> 00:29.120
+Ce crezi că este asta?
+
+00:29.370 --> 00:33.820
+Înainte de a vă arăta răspunsul.
+
+00:33.820 --> 00:38.180
+Bine, bine, asta e pe o direcție.
+
+00:38.200 --> 00:41.110
+Nu există săgeți pe un grafic ponderat.
+
+00:41.380 --> 00:46.800
+Și puteți vedea că este, de asemenea, ciclic pentru că puteți merge 0 1 2 și înapoi la zero.
+
+00:47.820 --> 00:48.830
+Ce zici de următorul.
+
+00:51.210 --> 00:52.970
+Ce tip de grafic este acesta.
+
+00:55.970 --> 01:04.070
+Ei bine, acesta este un grafic ponderat nedirecționat, care este, de asemenea, ciclic.
+
+01:04.240 --> 01:07.190
+Deci puteți vedea că avem greutăți pe margini aici.
+
+01:07.240 --> 01:08.250
+Nu există săgeți.
+
+01:08.260 --> 01:09.110
+Putem merge oriunde.
+
+01:09.110 --> 01:13.630
+Am câștigat înainte și înapoi și putem, de asemenea, să facem cicluri.
+
+01:13.690 --> 01:17.980
+Ce zici de asta.
+
+01:18.000 --> 01:27.090
+Acesta este un grafic orientat, dar pe ponderat și da chiar șase și șapte sunt un grafic.
+
+01:27.290 --> 01:34.100
+Dar vedem aici că nu este ciclic un ASAC ca și cum nu am cum să mă întorc să spunem
+
+01:34.100 --> 01:35.320
+0 la 1.
+
+01:35.330 --> 01:37.420
+Mă pot întoarce la zero.
+
+01:37.430 --> 01:38.590
+Bine, am pierdut unul.
+
+01:38.660 --> 01:40.350
+Ce zici de asta.
+
+01:41.210 --> 01:45.340
+Acesta este un grafic ponderat direcționat.
+
+01:45.380 --> 01:51.890
+Avem greutățile are direcție și când vine vorba de ciclică Nu există cicluri.
+
+01:51.890 --> 01:53.680
+Deci este un ciclic.
+
+01:53.780 --> 01:54.170
+In regula.
+
+01:54.170 --> 01:58.900
+Provocarea finală ce tip de grafic este acest lucru.
+
+02:01.680 --> 02:02.730
+Pregătit pentru răspuns.
+
+02:03.720 --> 02:07.720
+Acesta este un grafic aciclic direcționat.
+
+02:07.800 --> 02:09.090
+Nu există cicluri.
+
+02:09.090 --> 02:18.350
+Este direcționat și este un grafic și acest grafic acyclic direcționat este destul de comun în Dagh numit.
+
+02:18.360 --> 02:27.330
+Și de fapt, un proiect precum Iowa, care este un proiect de blogging destul de popular, folosește acest lucru și folosește cuvinte fanteziste
+
+02:27.330 --> 02:29.940
+cum ar fi graficul aciclic direcționat.
+
+02:30.150 --> 02:33.320
+Dar, la sfârșitul zilei, nu mai e chiar impresionantă.
+
+02:33.330 --> 02:38.510
+Știm ce este doar un grafic care merge într-o singură direcție.
+
+02:38.970 --> 02:42.440
+Cred că este timpul să învățăm cum să ne construim propriul grafic.
+
+02:42.780 --> 02:43.980
+Voi vedea în următorul.
+
+02:44.330 --> 02:44.610
+Dar prin.

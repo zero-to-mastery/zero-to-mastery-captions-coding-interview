@@ -1,0 +1,223 @@
+WEBVTT
+
+00:01.910 --> 00:02.990
+Welcome back.
+
+00:02.990 --> 00:07.510
+Let's look at rule number two that is remove constants.
+
+00:07.910 --> 00:08.770
+Let's see what I mean.
+
+00:10.230 --> 00:14.400
+I have written here the most ridiculous function ever.
+
+00:14.400 --> 00:21.520
+The function is print first item then first half then say hi a hundred times.
+
+00:21.630 --> 00:28.920
+Probably not the best named function ever but as the name describes all we're doing is we're going to
+
+00:28.930 --> 00:40.400
+cancel log the first item in the array and then we're going to print the first half of the items.
+
+00:40.430 --> 00:44.340
+So I'm finding the middle index of the items.
+
+00:44.360 --> 00:52.730
+So I'm saying items got length divided by two and I use math floor here in javascript as a way for us
+
+00:52.730 --> 00:58.830
+to make sure that we get a whole number and we're going to say variable indexes 0.
+
+00:58.840 --> 01:08.480
+I'm using a wide loop here instead of a for loop and I'm saying as long as middle index is greater than
+
+01:08.690 --> 01:09.970
+zero.
+
+01:10.130 --> 01:12.920
+I want you to console log the items.
+
+01:12.920 --> 01:19.160
+So that means console log the first half of the item we had 10 items.
+
+01:19.160 --> 01:22.200
+I'm going to console log the first five items.
+
+01:23.610 --> 01:32.790
+And then I'm going to do another for loop and say I'm Konsole logging high a 100 times pretty pretty
+
+01:32.790 --> 01:33.790
+useless I would say.
+
+01:33.840 --> 01:35.300
+Not a very useful function.
+
+01:36.420 --> 01:38.980
+What is the big go of this function.
+
+01:39.270 --> 01:48.680
+Well looking over here it's going to be big-O of one over here.
+
+01:48.970 --> 02:00.430
+So we have one for just logging the first items then we have half of whatever the items is.
+
+02:00.540 --> 02:07.440
+So in that case and divide it by two because even though we have a for loop or a WHILE loop we're only
+
+02:07.500 --> 02:10.230
+logging half the items every time.
+
+02:10.230 --> 02:13.010
+So we could just do and divide by two.
+
+02:13.260 --> 02:16.390
+And then finally we're doing a for loop.
+
+02:16.410 --> 02:18.310
+But again this is a bit of a trick.
+
+02:18.420 --> 02:21.070
+We're not looping over the items array.
+
+02:21.180 --> 02:24.920
+We just have 100 no matter how big the items array is.
+
+02:25.080 --> 02:27.090
+This is going to be always 100.
+
+02:27.180 --> 02:29.200
+So I just say plus a hundred.
+
+02:29.310 --> 02:37.730
+That's another step because again we're just adding each of the steps that we see here.
+
+02:37.740 --> 02:46.720
+So this is our big-O for this function but rule number two states we want to drop the constants.
+
+02:46.720 --> 02:57.630
+We simply are saying that we don't really care that this big O is actually and divide by two plus 101.
+
+02:57.820 --> 03:02.660
+Remember in an interview we only care about the things that we saw on the chart.
+
+03:03.130 --> 03:04.790
+Nothing specific like this.
+
+03:04.810 --> 03:07.250
+So this turns into one.
+
+03:07.630 --> 03:16.030
+And this even though it's divided by half in the grand scheme of things we only care about when it scales
+
+03:16.330 --> 03:19.940
+when the inputs are getting larger and larger.
+
+03:19.960 --> 03:27.490
+So as an gets bigger and bigger we don't care about adding an extra 100 because if n is a million adding
+
+03:27.490 --> 03:31.630
+an extra hundred on there another 100 steps doesn't really matter.
+
+03:31.870 --> 03:40.270
+And same with dividing white to as and gets larger and larger dividing by two has a decreasingly significant
+
+03:40.270 --> 03:41.020
+effect.
+
+03:41.050 --> 03:49.820
+So we drop the constants like this so this becomes all of an plus one OK.
+
+03:49.990 --> 03:56.320
+And because one if and was a million is very insignificant.
+
+03:56.650 --> 03:58.090
+We can just drop this as well.
+
+03:58.150 --> 04:01.150
+This function just becomes oh over.
+
+04:01.570 --> 04:13.010
+What if we had another function that had let's say all of a plus 50 or a 50 with a ton of zeros.
+
+04:13.010 --> 04:14.080
+It doesn't really matter.
+
+04:14.090 --> 04:17.360
+We dropped the constants.
+
+04:17.480 --> 04:21.570
+It's gonna be oh ok what about the other situation.
+
+04:23.150 --> 04:24.940
+What if we have this function here.
+
+04:25.130 --> 04:32.600
+Compress boxes twice where this function actually has two four loops where it does the same thing but
+
+04:32.600 --> 04:34.880
+it's two four loops.
+
+04:34.880 --> 04:38.880
+So we have all been in this for loop.
+
+04:38.930 --> 04:47.480
+And then of an IN THIS FOR loop and because these are two separate steps while we add them together
+
+04:48.410 --> 04:54.130
+so becomes of an plus of an he calls of two.
+
+04:54.140 --> 05:01.790
+And but again in an interview this doesn't really matter because we drop the constants and if we drop
+
+05:01.790 --> 05:05.500
+the constants what does this function equate to.
+
+05:05.600 --> 05:11.050
+Well as just a event to prove that I'm not lying to you.
+
+05:11.080 --> 05:20.020
+If we look at this function on our graph we see that the elements as the elements increase.
+
+05:20.020 --> 05:23.860
+We have two operations because we have two four loops.
+
+05:24.040 --> 05:29.350
+If we have two elements in that case we do four operations.
+
+05:30.230 --> 05:37.390
+If we have three then we do one two three four five six and we see how it increases.
+
+05:37.490 --> 05:43.870
+But at the end of the day even though the line is steeper we have a lot more operations to do.
+
+05:44.150 --> 05:53.120
+The way the line increases is still linear and that's the key here with big-O we don't really care about
+
+05:53.330 --> 05:55.860
+how steep the line is.
+
+05:55.940 --> 06:04.660
+We care about how the line moves as our inputs increase makes our lives a whole lot simpler doesn't
+
+06:04.660 --> 06:05.000
+it.
+
+06:05.820 --> 06:08.100
+So remember drop the constants.
+
+06:08.100 --> 06:12.960
+You're never going to really see numbers in Big O notation.
+
+06:12.960 --> 06:21.560
+Most likely the notations that we've seen in the past before on our graph Usually these and the only
+
+06:21.560 --> 06:32.050
+time you see numbers is when you have of one of and squared or of two to the power of an which we'll
+
+06:32.050 --> 06:32.980
+get to later.
+
+06:32.990 --> 06:35.750
+Don't worry I'll see in the next video.

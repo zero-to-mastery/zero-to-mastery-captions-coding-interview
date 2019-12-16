@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.720 --> 00:05.370
+Bentornati quali sono i pro e i contro dei grafs.
+
+00:05.780 --> 00:13.010
+Bene, quando si tratta di prestazioni e big-O diventa un po 'complicato perché ci sono così tanti diversi tipi
+
+00:13.010 --> 00:19.330
+di grafici che puoi pensare ai grafici come davvero utili quando si tratta di relazioni.
+
+00:19.440 --> 00:26.230
+Sono semplicemente indispensabili perché alcuni dati devono semplicemente essere in forma di grafico.
+
+00:26.570 --> 00:28.260
+Non c'è altro modo per aggirarlo.
+
+00:28.550 --> 00:34.580
+E ci sono algoritmi su grafici come quelli di cui parleremo
+
+00:34.580 --> 00:43.850
+nella sezione dell'algoritmo che ci permette di eseguire operazioni come trovare il percorso più breve o attraversare un grafico.
+
+00:44.010 --> 00:50.980
+Ma quando si tratta di grafici, perché possono ottenere un ridimensionamento complicato è piuttosto difficile.
+
+00:51.360 --> 00:57.990
+Hai bisogno di una grande azienda o almeno di un sacco di risorse e di capacità ingegneristiche per
+
+00:58.110 --> 01:01.270
+assicurarti di costruire strutture di dati graficamente scalabili.
+
+01:01.670 --> 01:10.080
+Ma fortunatamente per noi di solito non dovrai mai implementare il tuo grafico in produzione o almeno per
+
+01:10.080 --> 01:10.920
+ora.
+
+01:10.950 --> 01:19.690
+Il 9 percento della popolazione ci sono strumenti come Neo for J che è un database popolare che ti permette di
+
+01:19.690 --> 01:28.330
+costruire database di grafici veramente veloci e il più delle volte userai strumenti come questo per costruire strutture complesse per
+
+01:28.420 --> 01:30.540
+contenere i nostri dati.
+
+01:32.270 --> 01:33.690
+Congratulazioni.
+
+01:33.890 --> 01:39.780
+Abbiamo ora coperto un'altra parte della nostra mappa mentale della struttura dei dati che è un grafico.
+
+01:40.160 --> 01:46.470
+Abbiamo imparato circa sei come un aciclico atteso in attesa diretto o non diretto.
+
+01:46.530 --> 01:50.590
+Siamo stati anche in grado di costruire il nostro grafico.
+
+01:50.600 --> 01:55.730
+Ora ci sono ancora alcune cose che vedo lassù e forse qui sopra che
+
+01:55.730 --> 01:59.470
+entreremo nella sezione dell'algoritmo, ma per ora facciamo una pausa.
+
+01:59.690 --> 02:03.670
+Bevi un caffè o un tè e ci vediamo nel prossimo video.
+
+02:03.670 --> 02:04.340
+Ciao ciao.

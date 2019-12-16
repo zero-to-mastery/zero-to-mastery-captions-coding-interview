@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.850 --> 00:08.350
+Są chwile, kiedy chcemy zrobić coś, co nazywa się traversal, a nazwa traversal i
+
+00:08.350 --> 00:13.800
+search jest często używana zamiennie, co czasami oznacza to samo.
+
+00:14.080 --> 00:19.320
+Do tej pory rozmawialiśmy o drzewach binarnych i wiedzieliśmy, czego szukamy.
+
+00:19.330 --> 00:27.050
+Zawsze wiedzieliśmy, gdzie iść w lewo lub w prawo, ale czasami chcemy wykonać pewne operacje na tej samej
+
+00:27.050 --> 00:32.410
+nucie, co wcześniej wspomniałem, aby dodać tę właściwość koloru do tej notatki.
+
+00:32.690 --> 00:41.090
+Być może, jeśli mamy węzeł użytkownika, chcemy dodać własność H do wszystkich naszych użytkowników, którzy są w strukturze drzewa.
+
+00:41.210 --> 00:45.700
+Brewhouse Czy chcesz dodać właściwość shape do tych węzłów.
+
+00:45.900 --> 00:51.020
+A może nie mamy posortowanego drzewa.
+
+00:51.120 --> 00:58.290
+Nie jest to binarne drzewo wyszukiwania lub mamy wykres, który nie ma dla niego żadnej kolejności, w którym to przypadku musimy
+
+00:58.380 --> 00:59.650
+odwiedzić każdy węzeł.
+
+00:59.910 --> 01:06.420
+A może pracujemy nad Google'em, a nasz szef poprosił nas, abyśmy mogli sprawdzić, czy nasz strumień
+
+01:06.990 --> 01:13.530
+binarnych wyszukiwań, który wprowadziliśmy do naszej bazy danych, jest poprawny i czy rzeczywiście jest prawidłowy i czy
+
+01:13.560 --> 01:16.410
+lewy przedmiot jest zawsze niższy niż właściwy.
+
+01:17.330 --> 01:24.240
+I abyśmy mogli sprawdzić, czy musimy dotknąć każdej notatki, ale jak byśmy to
+
+01:24.240 --> 01:24.840
+zrobili.
+
+01:24.870 --> 01:32.250
+Możesz przemierzyć każdą wiadomość i jak możesz sobie wyobrazić, ponieważ odwiedzamy każdy
+
+01:32.250 --> 01:36.930
+węzeł, który jest właścicielem liniowego czasu operacji.
+
+01:36.930 --> 01:45.420
+Do tej pory robiliśmy pętle, aby odwiedzać wszystkie nasze inne struktury danych, takie jak tablice połączonych
+
+01:46.110 --> 01:48.310
+list tabele tabel mieszania.
+
+01:48.330 --> 01:57.260
+Więc jak to zrobić w strukturze danych, takich jak drzewo lub nawet wykres.
+
+01:57.290 --> 02:01.510
+Na szczęście dla nas są dwa sposoby na zrobienie tego, czego musimy się nauczyć.
+
+02:01.740 --> 02:05.230
+Jedna jest tutaj.
+
+02:05.390 --> 02:12.050
+Czy musimy przejść drzewo, czy musimy wykonać wykres.
+
+02:12.160 --> 02:18.480
+W takim przypadku nasze dwie opcje są dokładnie takie same.
+
+02:18.590 --> 02:25.700
+Mamy szerokie pierwsze wyszukiwanie i głębokość pierwsze wyszukiwanie, a czasami nazywa się to traversal zamiast
+
+02:25.700 --> 02:29.840
+wyszukiwania, jak widać zarówno z drzew i rzemiosła.
+
+02:29.870 --> 02:31.710
+To jest to samo.
+
+02:31.900 --> 02:39.790
+Wielkie O jest o i dlatego, że musimy odwiedzić każdy węzeł przy użyciu tych dwóch technik.
+
+02:39.790 --> 02:46.570
+Ale spójrzmy, dlaczego to jest ważne i dlaczego nie przechowujemy wszystkiego i tylko listy, które są łatwiejsze
+
+02:46.570 --> 02:47.440
+do zrozumienia.
+
+02:48.250 --> 02:57.060
+Cóż, główną zaletą tego, że nie umieszczamy złożonych danych na zwykłych listach, takich jak uporządkowane
+
+02:57.060 --> 03:02.430
+tablice, jest to, że uzyskujemy wyszukiwanie O log.
+
+03:02.580 --> 03:04.110
+A co z tabelami mieszającymi.
+
+03:04.110 --> 03:05.130
+Te są łatwe.
+
+03:05.370 --> 03:11.730
+Pamiętaj, że tabele mieszania nie są uporządkowane i na koniec dnia, kiedy reprezentujesz dane
+
+03:11.730 --> 03:19.110
+o różnych strukturach danych w oparciu o ich potrzeby, a drzewa i trawa działały naprawdę dobrze w
+
+03:19.200 --> 03:25.440
+wielu przypadkach, o których już mówiliśmy podczas wyszukiwania rzeczy, które mamy, ale także kiedy
+
+03:25.440 --> 03:31.180
+wstawiamy lub usuwamy przedmioty, mamy lepszą wydajność niż coś w rodzaju tablicy.
+
+03:31.410 --> 03:37.230
+Ale utrzymujemy również kolejność, której nie mielibyśmy w innych przypadkach, używając tablic asocjacyjnych,
+
+03:37.290 --> 03:45.540
+których drzewa i wykresy są często używane, gdy chcemy przeszukiwać węzły lub odwiedzać każdy węzeł i reprezentuje on wiele danych
+
+03:45.540 --> 03:46.920
+modelujących rzeczywisty świat.
+
+03:46.920 --> 03:52.160
+Teraz zobaczmy, jak działają te dwie techniki traversal.
+
+03:52.890 --> 03:53.840
+Zobaczę w następnym.

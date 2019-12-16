@@ -1,0 +1,382 @@
+WEBVTT
+
+00:01.480 --> 00:08.260
+Per capire veramente il valore delle strutture di dati dobbiamo andare in profondità nel modo in cui il
+
+00:08.260 --> 00:10.370
+computer funziona a livello fondamentale.
+
+00:11.620 --> 00:18.960
+Affinché un computer esegua il codice ha bisogno di tenere traccia di cose come variabili come
+
+00:19.000 --> 00:28.530
+stringhe di numeri o array queste variabili sono memorizzate in ciò che chiamiamo memoria ad accesso casuale o RAM in breve.
+
+00:28.560 --> 00:30.570
+Ecco come funzionano i programmi.
+
+00:30.690 --> 00:39.000
+Abbiamo ricordato questo dal video sulla complessità dello spazio in alto che abbiamo anche lo storage in cui
+
+00:39.000 --> 00:49.540
+archiviamo cose come i nostri file di file musicali di file video e questa memoria può essere un'unità disco, un'unità flash o un'unità
+
+00:49.780 --> 00:51.470
+a stato solido.
+
+00:52.290 --> 00:56.150
+L'archiviazione dei dati è permanente o verrà definita persistente.
+
+00:56.190 --> 01:02.460
+Quindi, quando spegni il tuo laptop o il tuo computer sarà ancora lì quando lo riaccendi nella
+
+01:02.460 --> 01:06.310
+RAM, perdi la memoria quando il computer si spegne.
+
+01:07.370 --> 01:10.150
+Quindi, perché non dovremmo semplicemente usare lo spazio di archiviazione.
+
+01:10.610 --> 01:12.360
+Quindi non perdiamo alcun dato.
+
+01:12.830 --> 01:21.470
+Bene, il problema è che la memoria persistente è lenta perché vedi che un computer è gestito dalla sua C. P. puoi pensare alla C-p come al
+
+01:22.000 --> 01:26.820
+piccolo lavoratore che fa tutti i calcoli di cui abbiamo bisogno.
+
+01:27.000 --> 01:29.530
+Fa il vero lavoro all'interno del nostro computer.
+
+01:29.880 --> 01:40.020
+E questo ha bisogno di accedere alla RAM e alla memoria ma può accedere alla RAM e alle informazioni e alla
+
+01:40.020 --> 01:42.060
+RAM molto più velocemente.
+
+01:42.610 --> 01:49.930
+Ma lasciatemi fare un esempio come se stessimo utilizzando Google quando eseguiamo Google Chrome, ad esempio il browser, che
+
+01:51.280 --> 01:54.390
+il browser Google Chrome ha un codice.
+
+01:54.400 --> 01:58.830
+Ora qui l'ho semplificato e abbiamo solo una variabile A uguale a uno.
+
+01:58.870 --> 02:06.310
+Assegniamo solo questa variabile, ma possiamo immaginare come abbiamo centinaia o migliaia di linee di codice
+
+02:06.310 --> 02:08.150
+di Google Chrome.
+
+02:08.380 --> 02:16.210
+Ora che il nostro computer esegue Google Chrome, eseguiamo il CPI perché lo faccia.
+
+02:16.260 --> 02:24.320
+Ora, quando una variabile viene dichiarata, diciamo script per eseguire Google Chrome, la terrà in memoria
+
+02:24.320 --> 02:28.470
+e nella nostra memoria ad accesso casuale.
+
+02:28.650 --> 02:35.250
+Ma una volta che abbiamo spento o chiuso Google Chrome, vogliamo poterlo riaprire.
+
+02:35.250 --> 02:36.060
+Destra.
+
+02:36.510 --> 02:40.440
+Bene, questo è quello che facciamo quando salviamo un'applicazione sul nostro computer.
+
+02:40.500 --> 02:51.260
+Lo salviamo nell'archiviazione in modo che la prossima volta che apriremo un Google Chrome, il CPQ preleverà il programma dall'archivio in
+
+02:51.590 --> 02:54.950
+modo che possa utilizzarlo di nuovo.
+
+02:55.160 --> 03:02.240
+E affinché Google Chrome funzioni velocemente e esegua script più piccoli, mantiene le informazioni e la memoria ad
+
+03:02.360 --> 03:06.440
+accesso casuale che possiamo vedere anche sui nostri computer.
+
+03:08.010 --> 03:16.050
+Se vado su questo Mac sul mio computer possiamo vedere qui che abbiamo il processore che è il mio
+
+03:16.050 --> 03:25.020
+CPQ, abbiamo la mia memoria, che è la mia RAM e se vado all'archiviazione Questa è la mia memoria flash, la
+
+03:25.200 --> 03:28.140
+mia memoria persistente sul mio computer.
+
+03:28.390 --> 03:36.430
+Quindi puoi pensare alla RAM nel computer come a una enorme area di archiviazione, ad esempio una velocità
+
+03:37.570 --> 03:43.480
+di struttura dei dati. Bene, questa enorme area di memoria ha scaffali numerati.
+
+03:44.490 --> 03:53.040
+Abbiamo chiamato questi indirizzi o indirizzi ed è uno scaffale davvero molto grande che contiene
+
+03:53.760 --> 04:03.990
+molte informazioni e ci consente di eseguire programmi sul nostro computer. Ognuno di questi scaffali contiene ciò che
+
+04:04.110 --> 04:07.000
+chiamiamo otto bit o numeri.
+
+04:07.170 --> 04:17.230
+Se vedete qui uno due tre quattro cinque sei sette otto ciascuno uno di questi numeri è un po 'e un po' è
+
+04:17.230 --> 04:21.670
+un piccolo interruttore elettrico che può essere acceso o spento.
+
+04:21.940 --> 04:30.330
+Ma invece di chiamarlo on o off, lo chiamiamo 1 o 0 e 8 bit è chiamato byte.
+
+04:30.550 --> 04:41.910
+Ogni scaffale ha un byte di memoria e il CPQ è connesso a qualcosa chiamato controller di memoria e un controller di
+
+04:42.450 --> 04:51.390
+memoria esegue la lettura effettiva di questa memoria e scrive questa memoria perché a volte lo scaffale
+
+04:51.570 --> 04:55.840
+potrebbe essere vuoto e non ha nulla.
+
+04:55.880 --> 05:05.720
+Ora questa connessione diretta alla C-p è importante perché la C-p chiede al REM hey cosa c'è nel numero di scaffale
+
+05:05.720 --> 05:06.700
+zero.
+
+05:07.100 --> 05:15.320
+E il controller di memoria in realtà ha connessioni individuali per tutti questi ripiani che
+
+05:15.320 --> 05:22.460
+è davvero importante perché significa che possiamo accedere allo scaffale zero e
+
+05:22.460 --> 05:30.970
+accedere immediatamente ai sette scaffali o diecimilasettecentoventi uno scaffale senza dover scendere o scendere .
+
+05:32.160 --> 05:35.190
+Questo è il significato del nome di memoria ad accesso casuale.
+
+05:35.190 --> 05:41.160
+Siamo in grado di accedere alla memoria molto velocemente perché abbiamo queste connessioni e ogni scaffale che
+
+05:41.160 --> 05:48.380
+vogliamo abbiamo solo bisogno di sapere quale scaffale stiamo cercando possiamo accedere ai bit in qualsiasi indirizzo casuale in memoria immediatamente.
+
+05:48.690 --> 05:54.950
+Anche se questo controller di memoria può saltare tra gli indirizzi di memoria distanti, i programmi veramente veloci tendono ad
+
+05:54.950 --> 05:57.820
+accedere alla memoria che si trova nelle vicinanze.
+
+05:57.870 --> 06:06.140
+Più l'informazione è vicina alla C. P. tu e meno devi viaggiare più velocemente un programma può essere
+
+06:06.140 --> 06:06.570
+eseguito.
+
+06:07.570 --> 06:13.040
+Quindi i computer sono effettivamente sintonizzati per ottenere aumenti di velocità extra durante la lettura di abiti di memoria.
+
+06:13.950 --> 06:22.140
+Sono vicini l'uno all'altro perché un computer acceda a zero e uno è molto più veloce di un computer.
+
+06:22.140 --> 06:29.650
+Per accedere a 0 e 1000 perché sono molto più vicini.
+
+06:29.650 --> 06:33.400
+E per ottimizzare ulteriormente questo sono anche i computer.
+
+06:33.670 --> 06:43.030
+Chiamiamo ACP contanti dove il CPQ ha una minuscola memoria in cui si trova una copia di cose veramente
+
+06:43.030 --> 06:44.000
+recenti.
+
+06:44.810 --> 06:53.310
+E questo si chiama cache in arrivo un giorno potresti essere qui chiamato Air LRU cache.
+
+06:53.320 --> 07:00.070
+Quindi, di nuovo, se utilizziamo Google Chrome come esempio, attiviamo google chrome con quello che dice che
+
+07:00.070 --> 07:08.590
+l'applicazione lo scarica sul nostro archivio C. P. lo carichi e, poiché abbiamo visitato Hacker
+
+07:08.590 --> 07:16.630
+News dot com, caricherà le informazioni relative a quell'Hacker News e le metterà in memoria o forse memorizzerà
+
+07:16.630 --> 07:19.210
+nella cache se può contenere.
+
+07:19.250 --> 07:22.430
+Quindi, perché è così importante per le strutture dati.
+
+07:25.230 --> 07:30.840
+Le strutture dati sono Ricorda modi per noi per memorizzare le informazioni.
+
+07:30.840 --> 07:38.810
+Ad esempio, se vogliamo memorizzare una variabile A uguale a un pozzetto nei nostri computer moderni, di solito
+
+07:38.870 --> 07:39.830
+rappresentiamo interi.
+
+07:39.980 --> 07:43.530
+Questo è il numero uno a 32 bit.
+
+07:43.670 --> 07:47.250
+Questa è la dimensione del blocco della RAM.
+
+07:47.450 --> 07:53.670
+E dal modo in cui questo è ora può essere 64 bit con aggiornamenti sempre più recenti.
+
+07:54.940 --> 08:06.970
+Ma in questo modo possiamo memorizzare il numero uno all'interno di questi blocchi di 32 bit y 32 bit perché 8 bit che è un
+
+08:06.970 --> 08:13.840
+byte per uno due tre quattro quindi otto volte quattro è trentadue bit.
+
+08:13.930 --> 08:23.090
+Possiamo memorizzare 32 bit di informazioni e questo bit di uno che potete vedere qui è 0 0 0 0 0 0 0 0 0 e 1
+
+08:23.270 --> 08:28.460
+è ora memorizzato nella memoria 0 1 2 3 o l'indirizzo 0 1 2 3.
+
+08:28.580 --> 08:37.480
+Se abbiamo un'altra variabile uguale a 7, la archiviamo nel blocco successivo qui nella nostra ram.
+
+08:37.590 --> 08:50.570
+Nel fare ciò ora puoi pensare a come i sistemi 8 possono contenere 255 bit di informazioni che sono 16 bit
+
+08:50.570 --> 08:54.670
+mentre possono contenere molte più informazioni.
+
+08:54.920 --> 09:01.670
+E ora abbiamo sistemi che sono 32 bit che puoi vedere qui che possiamo contenere
+
+09:01.670 --> 09:11.920
+una tonnellata di informazioni e quindi se avessimo 64 bit che invece di avere quattro piccoli ripiani qui abbiamo otto ripiani shelfs
+
+09:12.970 --> 09:14.880
+volte otto bit.
+
+09:15.040 --> 09:23.730
+Bene, questa è una quantità di informazioni che possiamo immagazzinare e più grande. Questa è la più diversificata informazione che è.
+
+09:23.800 --> 09:25.670
+Se avessimo un sistema a 8 bit.
+
+09:25.880 --> 09:30.040
+Bene, il numero 256 possiamo davvero memorizzarlo.
+
+09:30.070 --> 09:31.680
+È davvero difficile da fare.
+
+09:31.960 --> 09:35.460
+E posso dimostrartelo con javascript.
+
+09:35.570 --> 09:38.350
+Vedete c'è qualcosa chiamato overflow di interi.
+
+09:38.420 --> 09:46.100
+Ora javascript tecnicamente non ha numeri interi ha solo ciò che chiamiamo float a 64 bit, ma l'idea
+
+09:46.100 --> 09:54.940
+è che un computer può solo memorizzare un certo numero di informazioni, quindi usando questa sintassi in javascript abbiamo Mathcad ora
+
+09:54.970 --> 10:00.270
+che è una funzione che restituisce il base per l'ex-porno al potere.
+
+10:00.460 --> 10:06.040
+Questo è il primo parametro è la base alla potenza del secondo parametro.
+
+10:06.130 --> 10:09.160
+Quindi possiamo creare numeri davvero grandi come la matematica.
+
+10:09.220 --> 10:09.690
+Energia.
+
+10:09.700 --> 10:11.680
+Quindi 5 alla potenza di 100.
+
+10:11.830 --> 10:14.360
+Se corro questo, vediamo il numero qui.
+
+10:14.440 --> 10:19.610
+Se lo aumento, diciamo ancora un altro numero di grandi dimensioni.
+
+10:19.660 --> 10:28.470
+Ora, se continuassi e cambiassi in sei alla potenza di mille, otteniamo l'infinito.
+
+10:28.730 --> 10:30.060
+Cos'è quello.
+
+10:30.340 --> 10:38.860
+Dato che il numero diventa troppo grande per essere archiviato nella nostra RAM, dobbiamo rappresentare questo numero che non possiamo
+
+10:39.010 --> 10:44.880
+archiviare in qualcosa che è tangibile e il caso di javascript è infinito.
+
+10:44.920 --> 10:51.850
+Possiamo archiviare solo queste informazioni e non importa quanto sia grande per far sì che ogni
+
+10:51.850 --> 10:55.960
+numero sopra una certa soglia stia per dire infinito.
+
+10:56.000 --> 10:56.930
+Quant'è fico.
+
+10:58.620 --> 10:59.980
+Ora torniamo alle diapositive.
+
+11:00.950 --> 11:07.880
+Ti ho mostrato tutto questo perché altri tipi di dati diversi dai numeri funzionano allo stesso modo
+
+11:07.910 --> 11:16.180
+in cui ogni tipo di dati ha un numero di bit associati e che deve essere memorizzato nel sistema e il
+
+11:16.660 --> 11:22.760
+sistema alloca l'archiviazione dei dati e quindi il CPQ legge da quella memoria .
+
+11:22.760 --> 11:28.110
+Ora lascerò un link per te dopo questo video in modo da poter ottenere maggiori informazioni se vuoi.
+
+11:28.110 --> 11:35.480
+Non vogliamo entrare troppo in profondità in questo, ma una struttura di dati è questa una struttura di dati è un insieme
+
+11:35.480 --> 11:36.470
+di dati.
+
+11:36.620 --> 11:43.820
+Puoi definire il modo in cui interagisci con questi dati e come è disposto nella RAM, così alcune strutture
+
+11:43.820 --> 11:47.060
+dati nella RAM sono organizzate l'una accanto all'altra.
+
+11:47.090 --> 11:52.960
+Alcuni sono organizzati separatamente l'uno dall'altro e hanno diversi vantaggi e svantaggi nell'accesso.
+
+11:53.330 --> 11:55.150
+E giusto
+
+11:55.300 --> 12:02.980
+Il nostro obiettivo è ridurre al minimo l'operazione che dobbiamo fare per la s. p ottieni le informazioni per te
+
+12:02.980 --> 12:05.300
+per scrivere informazioni.
+
+12:05.520 --> 12:08.730
+Ed è per questo che le strutture dati sono così potenti.
+
+12:08.730 --> 12:15.660
+Stiamo pensando al livello basso e non so da voi, ma questo per me quando ho saputo
+
+12:15.660 --> 12:22.860
+di questo è stato davvero molto eccitante perché ora abbiamo un modo per pensare a come le strutture dati
+
+12:22.860 --> 12:30.600
+influenzano effettivamente il processo dei nostri computer e come puoi usare ciò che sappiamo sui computer per scrivere un codice fantastico.
+
+12:30.660 --> 12:31.610
+Vedrò nel prossimo video.

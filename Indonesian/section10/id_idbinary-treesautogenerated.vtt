@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.660 --> 00:01.810
+Selamat datang kembali.
+
+00:01.920 --> 00:07.860
+Kami sekarang ke bagian struktur data pohon tepat di sini.
+
+00:08.100 --> 00:15.000
+Dan seperti yang dapat kita lihat pohon atau daftar yang ditautkan adalah jenis pohon yang telah kita bicarakan tetapi ada beberapa
+
+00:15.000 --> 00:17.980
+pohon lain di sini yang belum kita bicarakan.
+
+00:18.800 --> 00:25.850
+Jadi kita akan membahasnya dan mengenal rata-rata berbagai jenis dengan memulai dengan pohon
+
+00:25.910 --> 00:26.680
+biner.
+
+00:27.080 --> 00:27.950
+Mari kita membahasnya.
+
+00:29.710 --> 00:37.630
+Pohon biner adalah sesuatu yang mungkin pernah Anda lihat sebelumnya dan itu jenis pohon dengan beberapa aturan yang
+
+00:37.630 --> 00:38.540
+diterapkan padanya.
+
+00:39.040 --> 00:49.180
+Tapi mereka cukup mudah setiap node hanya dapat memiliki 0 1 atau 2 node dan setiap anak hanya dapat
+
+00:49.180 --> 00:50.990
+memiliki satu orangtua.
+
+00:51.010 --> 00:53.010
+Ini adalah pohon biner.
+
+00:53.020 --> 01:00.400
+Namun ini bukan pohon biner karena memiliki tiga anak atau setidaknya satu dari NOS memiliki tiga
+
+01:00.580 --> 01:01.230
+anak.
+
+01:02.340 --> 01:06.040
+Dan setiap node mewakili kondisi tertentu.
+
+01:06.510 --> 01:12.440
+Dan ini sangat mirip dengan apa yang telah kami lakukan di masa lalu terutama dengan daftar tertaut jika
+
+01:12.440 --> 01:14.360
+kita melihat contoh di sini.
+
+01:14.360 --> 01:25.440
+Agar saya dapat membuat pohon biner Yah saya hanya bisa membuat fungsi mengatakan pohon biner dan pohon biner ini
+
+01:25.440 --> 01:37.520
+mungkin akan mendapatkan nilai dan pohon biner atau dalam kasus kami melakukan simpul pohon biner hanya akan memiliki nilai ini yang
+
+01:37.730 --> 01:44.780
+terkait dengannya yang merupakan nilai yang kami berikan di dalam fungsi.
+
+01:44.780 --> 01:51.800
+Dan kemudian kita memiliki dua properti lain yang merupakan pointer ke sisi kiri pohon yang untuk saat ini tidak
+
+01:51.800 --> 01:52.570
+akan
+
+01:52.730 --> 01:58.550
+Dan penunjuk ke sisi kanan pohon yang ini sama dengan benar dan hanya itu kita
+
+02:02.310 --> 02:08.650
+dapat mewakili simpul pohon biner hanya memiliki nilai dan kemudian properti kiri dan atau kanan sangat
+
+02:08.800 --> 02:11.410
+mirip dengan apa yang kita lakukan.
+
+02:11.440 --> 02:14.920
+Atau prinsip yang sangat mirip dengan apa yang kami lakukan dengan daftar tertaut.
+
+02:15.840 --> 02:22.380
+Sekarang kita akan benar-benar kode pohon dan membuat struktur data pohon seperti yang kita miliki untuk struktur
+
+02:22.380 --> 02:23.790
+data masa lalu.
+
+02:24.060 --> 02:29.860
+Tetapi saya ingin juga menunjukkan beberapa terminologi yang mungkin kita jumpai dan itu penting.
+
+02:31.060 --> 02:36.960
+Dalam hal ini kita sedang melihat sesuatu yang disebut pohon yang sepenuhnya penuh.
+
+02:37.030 --> 02:40.930
+Itu berarti tidak ada celah di pohon.
+
+02:40.930 --> 02:42.090
+Mari saya tunjukkan apa yang saya maksud.
+
+02:43.010 --> 02:47.610
+Pohon biner yang sempurna memiliki semua yang diisi.
+
+02:47.660 --> 02:57.560
+Itu berarti semua node daun penuh dan tidak ada tidak ada yang hanya memiliki satu anak node baik nol anak
+
+02:57.800 --> 02:59.740
+atau dua anak.
+
+02:59.930 --> 03:05.700
+Dan juga lapisan bawah pohon sudah terisi penuh.
+
+03:05.750 --> 03:14.840
+Tidak ada yang hilang versus pohon biner penuh yang hanya mengatakan bahwa sebuah simpul memiliki 0 atau 2 anak tetapi tidak
+
+03:15.020 --> 03:17.090
+pernah memiliki satu anak.
+
+03:17.090 --> 03:19.120
+Sekarang mengapa ini penting.
+
+03:19.250 --> 03:28.070
+Karena jenis pohon biner ini terutama pohon biner sempurna benar-benar efisien dan sesuatu yang diinginkan ketika
+
+03:28.070 --> 03:35.640
+pohon biner sempurna seperti ini mereka memiliki dua sifat yang sangat menarik.
+
+03:35.660 --> 03:43.590
+Salah satunya adalah bahwa jumlah total node pada setiap level berlipat ganda saat kita bergerak turun pohon.
+
+03:43.670 --> 03:48.080
+Sebagai contoh di sini kita memiliki satu simpul di tingkat selanjutnya kita memiliki dua simpul.
+
+03:48.170 --> 03:50.840
+Jadi kami baru saja menggandakan node di tingkat berikutnya.
+
+03:50.840 --> 03:53.490
+Kami punya satu dua tiga empat.
+
+03:53.570 --> 04:02.170
+Jadi kita harus melakukan dua kali lipat jika kita memiliki level nother yang merupakan pohon biner sempurna kita akan memiliki 1 2 3 4 5
+
+04:02.170 --> 04:03.530
+6 7 8.
+
+04:03.650 --> 04:06.510
+Jadi kami menggandakan setiap waktu.
+
+04:06.610 --> 04:13.630
+Properti penting kedua adalah bahwa jumlah node pada level terakhir sama dengan jumlah
+
+04:13.630 --> 04:18.430
+jumlah node pada semua level lainnya ditambah 1.
+
+04:18.460 --> 04:18.700
+Baiklah.
+
+04:18.700 --> 04:20.380
+Itu membingungkan apa yang saya maksud.
+
+04:20.440 --> 04:30.220
+Nah di sini jika saya mengambil level bawah yaitu 1 2 3 untuk properti kedua menyatakan bahwa semua node di atasnya
+
+04:30.250 --> 04:33.990
+ditambah 1 akan sama dengan level bawah.
+
+04:34.000 --> 04:37.910
+Jadi satu dua tiga tambah satu sama dengan empat.
+
+04:37.930 --> 04:44.890
+Itulah yang kami miliki di bagian bawah yang artinya dengan kata lain bahwa sekitar setengah dari simpul kami
+
+04:44.890 --> 04:46.870
+berada pada level terakhir.
+
+04:46.960 --> 04:52.920
+Dan ini memunculkan poin yang sangat menarik dengan mengatur data kami dengan cara ini.
+
+04:53.080 --> 04:56.830
+Kami memiliki setengah dari data ini di tingkat bawah.
+
+04:56.950 --> 05:03.640
+Jika entah bagaimana kita dapat menghindari mengunjungi setiap node bahkan jika node yang kita cari
+
+05:04.450 --> 05:11.910
+ada di paling bawah mungkin ada beberapa efisiensi yang dapat kita miliki dan Anda akan benar karena jenis
+
+05:12.540 --> 05:20.340
+struktur ini Anda akan melihat notasi baru big-O sesuatu yang telah kita tunggu-tunggu lama log dan dan ketika kita
+
+05:20.380 --> 05:25.980
+mulai berbicara tentang sesuatu yang disebut pohon pencarian biner Anda akan mulai melihat
+
+05:26.100 --> 05:27.230
+notasi ini.
+
+05:27.570 --> 05:30.680
+Ya kami akhirnya mendapatkan notasi O besar lainnya.
+
+05:30.840 --> 05:34.090
+Tapi apa artinya di video selanjutnya.
+
+05:34.110 --> 05:39.600
+Saya ingin berbicara tentang semua login dan mengapa pohon memungkinkan kami memiliki sesuatu seperti ini.
+
+05:39.690 --> 05:41.530
+Dan apa implikasinya.
+
+05:42.250 --> 05:43.370
+Saya akan melihat yang berikutnya.

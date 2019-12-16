@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.310 --> 00:02.160
+Witamy spowrotem.
+
+00:02.270 --> 00:08.540
+Rozmawialiśmy o tych pięciu algorytmach sortowania i już teraz powinniście wiedzieć, że sortowanie Merse
+
+00:08.540 --> 00:16.040
+i szybkie sortowanie, chociaż są trudniejsze do wdrożenia, są najczęściej używanymi algorytmami w prawdziwym życiu, ponieważ używają
+
+00:16.040 --> 00:21.710
+dzielenia się i podbijania, aby uzyskać nam to o Zwiększenie wydajności Laganna.
+
+00:21.950 --> 00:26.340
+Ale czy nie możemy pokonać Oh of i zalogować się i.
+
+00:26.520 --> 00:27.960
+I o to chodzi.
+
+00:28.020 --> 00:33.980
+Matematycznie nie da się tego poprawić.
+
+00:34.170 --> 00:39.570
+Jeśli ktokolwiek wymyśli algorytm, który jest szybszy niż to, to dobrze, że
+
+00:39.570 --> 00:41.080
+będą bardzo bogaci.
+
+00:41.130 --> 00:49.680
+Matematycznie jest to niemożliwe, ponieważ wszystkie i Lagann oznaczają, że musimy sortować przez porównanie,
+
+00:49.680 --> 00:56.510
+wszystkie te algorytmy sortowania muszą porównywać każdą liczbę ze sobą.
+
+00:56.790 --> 01:00.290
+Ale jest jeden wyjątek od tej zasady.
+
+01:00.510 --> 01:05.920
+Możesz to poprawić, jeśli nie dokonujesz porównań.
+
+01:06.780 --> 01:07.160
+Huh.
+
+01:07.350 --> 01:08.760
+Co to znaczy.
+
+01:08.850 --> 01:18.330
+Istnieje niewielka część danych wejściowych, które możemy faktycznie pobić i zalogować, i są one nazywane
+
+01:18.750 --> 01:25.930
+rodzajami nieporównywanymi, a najprawdopodobniej zobaczysz sortowanie sortowania i sortowanie radix.
+
+01:26.010 --> 01:33.130
+Ale co to znaczy sortowanie zliczania w sortowaniu radix to zupełnie inny sposób myślenia o sortowaniu.
+
+01:34.200 --> 01:41.550
+Przy sortowaniu porównawczym zdecydowaliśmy o kolejności liczb w oparciu o pytanie: hej to jest ten pokarm większy
+
+01:41.550 --> 01:44.290
+niż ten, który tam jest.
+
+01:44.610 --> 01:46.600
+A co z tym tam na górze.
+
+01:46.710 --> 01:52.980
+I ciągle robiliśmy to, że każda liczba jest porównywana do innych sortowania nieporównywanego, to
+
+01:52.980 --> 01:54.400
+trochę inaczej.
+
+01:54.480 --> 02:02.760
+Wykorzystamy sposób, w jaki liczby i dane są przechowywane na naszych komputerach w zerach i jedynek i
+
+02:02.760 --> 02:06.320
+wykorzystujemy ten fakt do sortowania rzeczy.
+
+02:06.490 --> 02:08.960
+Teraz może to być dość skomplikowane.
+
+02:09.130 --> 02:16.960
+Jak widać w tym artykule, patrząc tylko na diagramy i na przykład radix, sortujemy tutaj,
+
+02:16.960 --> 02:25.600
+w jaki sposób przechowujemy liczby w zera i w tych, które możemy wykorzystać, aby rzeczywiście uporządkować pewne rzeczy.
+
+02:25.600 --> 02:30.980
+Zamierzam zostawić zasoby dla ciebie, jeśli chcesz uzyskać naprawdę techniczny i do tego tematu.
+
+02:31.150 --> 02:38.770
+Ostrzegam was, że można uzyskać odrobinę mathy, ale jedną rzeczą, na którą należy zwrócić uwagę, jest
+
+02:38.770 --> 02:47.890
+to, że ten rodzaj sortowania algorytmów sortowania sortowania i sortowania radix działa tylko z liczbami konkretnie liczb całkowitych w
+
+02:47.950 --> 02:48.980
+ograniczonym zakresie.
+
+02:49.060 --> 02:54.730
+Więc jeśli masz tylko liczby, które chcesz rozwiązać, a zakres tych liczb wynosi
+
+02:54.730 --> 03:02.370
+od zera do 100, to jest mały zakres, wtedy używałbyś czegoś takiego, aby robić rzeczy naprawdę szybko, ale
+
+03:03.310 --> 03:06.220
+nie działałby na żadnym rodzaj danych.
+
+03:06.370 --> 03:12.340
+Działa tylko na liczbach ze względu na sposób zapisywania numerów w pamięci.
+
+03:12.360 --> 03:17.150
+Widzisz, lubię coś w rodzaju sortowania scalonego lub quicksortu, które są uniwersalne.
+
+03:17.250 --> 03:24.850
+Oznacza to, że mogą sortować dane dowolnego rodzaju, takie jak sortowanie zliczania i sortowanie radix jest przydatne tylko dla liczb całkowitych
+
+03:24.850 --> 03:26.090
+o stałej długości.
+
+03:27.140 --> 03:32.080
+Ale są w stanie pokonać prędkość wszystkich podczas logowania.
+
+03:32.270 --> 03:40.640
+I jak widać tutaj sortowanie sortowania wiadro sortowanie przebiegłkowe w ich przeciętnych przypadkach posiada wszystkie plus
+
+03:40.820 --> 03:48.640
+K i K i k, co i k oznacza wykracza poza zakres tego kursu.
+
+03:48.830 --> 03:54.570
+A niektórzy twierdzą, że w końcu to wciąż okazuje się dość powolne.
+
+03:54.920 --> 03:56.800
+Zostawię dla ciebie zasoby, tak jak powiedziałem.
+
+03:56.900 --> 04:02.570
+Możesz je przeczytać, ale jedyną rzeczą, którą powinieneś o tym wiedzieć, jest to,
+
+04:02.570 --> 04:09.900
+że czasami, gdy masz numery, które znajdują się w pewnym zakresie, może to być szybciej niż quicksort lub Murcer.
+
+04:09.980 --> 04:16.940
+Skoro wiemy, że to zrobimy, zróbmy kilka ćwiczeń na wywiady w oparciu o sortowanie, aby utrwalić to, czego właśnie się nauczyliśmy.

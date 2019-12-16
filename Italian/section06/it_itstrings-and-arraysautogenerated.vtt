@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00.820 --> 00:01.920
+Ben tornato.
+
+00:02.020 --> 00:08.310
+Volevo aggiungere un breve video per farti conoscere un trucco di un'intervista comune che faremo
+
+00:08.310 --> 00:11.200
+alcune domande sulla matrice dopo questo.
+
+00:11.610 --> 00:20.310
+Ma nelle interviste dovresti trattare tutte le domande sulle stringhe come qui sopra come una domanda di matrice che
+
+00:20.410 --> 00:24.730
+vedi le stringhe sono semplicemente una serie di caratteri.
+
+00:24.790 --> 00:31.760
+Il più delle volte in un'intervista quando ottieni una domanda come invertire una stringa che dovresti pensare
+
+00:31.820 --> 00:40.880
+è di convertirla in una matrice, fare una sorta di loop su di essa o un'operazione usando qualcosa come un metodo
+
+00:40.940 --> 00:45.250
+split in javascript e poi restituirla come una stringa.
+
+00:45.470 --> 00:52.980
+Dopo aver terminato le operazioni con loro, questa è una domanda di intervista molto comune in cui stai manipolando
+
+00:52.980 --> 00:54.060
+le stringhe.
+
+00:54.060 --> 00:57.880
+Tienilo a mente e lo dimostrerai nel prossimo video.
+
+00:57.960 --> 01:03.180
+Quando facciamo una domanda di intervista molto comune, ci vediamo in quello.
+
+01:03.480 --> 01:03.780
+Bebai.

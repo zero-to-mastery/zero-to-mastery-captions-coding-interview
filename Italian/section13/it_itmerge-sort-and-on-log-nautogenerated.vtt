@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.580 --> 00:09.100
+Bentornato fino a questo punto abbiamo parlato di ordinamento della bolla di ordinamento per l'inserimento di ordinamenti per
+
+00:09.100 --> 00:12.920
+la selezione di ordinamento che erano chiamati ordinamenti elementari.
+
+00:12.970 --> 00:16.370
+Erano OK ma hanno quelli annidati per loops.
+
+00:16.460 --> 00:23.810
+E la maggior parte delle volte era tutto finito e quadrato che era un po 'lento.
+
+00:23.830 --> 00:25.390
+Possiamo fare meglio
+
+00:25.660 --> 00:27.050
+Ebbene sì, possiamo
+
+00:27.310 --> 00:36.900
+Stiamo andando a incontrare il nostro ultimo grande show sulla nostra lista di e log e ora per capire che tutto il
+
+00:37.020 --> 00:45.010
+log N e significa che dobbiamo parlare del nostro prossimo algoritmo di ordinamento, unire sort e quicksort.
+
+00:45.960 --> 00:50.520
+Si vede diversamente dall'ordinamento a bolle e dall'ordinamento per inserimento e selezione.
+
+00:50.520 --> 00:53.730
+Usano la tecnica che abbiamo sentito prima.
+
+00:53.940 --> 00:55.520
+Dividere e conquistare.
+
+00:55.620 --> 01:01.530
+Abbiamo imparato a conoscere ciò quando impariamo a conoscere gli alberi, quando guardiamo attraverso una rubrica telefonica apriamo quel
+
+01:01.530 --> 01:07.330
+libro non dalla prima pagina della pagina centrale e continuiamo a scomporre le pagine finché non troviamo il
+
+01:07.330 --> 01:08.940
+nome che stiamo cercando.
+
+01:09.770 --> 01:10.750
+E unisci Ordina.
+
+01:10.760 --> 01:15.530
+E quicksort usa questo concetto di divide et impera.
+
+01:15.770 --> 01:23.360
+E l'idea di ricorsione di cui abbiamo parlato per dividere il problema fino a fare il lavoro su ogni
+
+01:23.540 --> 01:26.250
+sottoinsieme e poi combinare le soluzioni.
+
+01:26.310 --> 01:29.140
+Ora vedremo come funziona davvero.
+
+01:30.000 --> 01:35.970
+Ma voglio ricordarti che ogni volta che vediamo qualcosa come dividere e conquistare di solito ti
+
+01:35.970 --> 01:38.330
+dà un registro di un vantaggio.
+
+01:38.460 --> 01:42.450
+E come puoi vedere qui è l'ultimo pezzo del puzzle.
+
+01:42.710 --> 01:43.830
+Oh di e registro.
+
+01:43.830 --> 01:48.900
+E ciò migliora effettivamente è meglio di tutti gli eventi al quadrato.
+
+01:49.230 --> 01:55.620
+Il prossimo paio di algoritmi di ordinamento che vedremo ora avranno nidificati
+
+01:55.890 --> 02:02.760
+per loops e avranno mani e quadrati Invece avranno questa volta complessità che rende
+
+02:03.060 --> 02:10.670
+le cose molto migliori e fa risparmiare molto tempo alle aziende per capire cosa significa.
+
+02:10.800 --> 02:16.980
+Dobbiamo iniziare guardando Mirch sort Diamo un'occhiata a come funziona e poi
+
+02:16.980 --> 02:20.210
+spiegherò quali sono i vantaggi.
+
+02:20.330 --> 02:22.330
+Abbiamo la stessa lista di prima.
+
+02:22.680 --> 02:30.510
+Prenderemo questa lista e in realtà la divideremo a metà e poi suddivideremo nuovamente
+
+02:30.510 --> 02:33.160
+ciascuno di questi sottoinsiemi.
+
+02:34.140 --> 02:43.370
+E poi divideremo nuovamente quelle liste di salbe fino a metà, finché non avremo un oggetto e
+
+02:43.370 --> 02:52.370
+una volta diviso, prenderemo il primo oggetto in seconda e diremo quale sarà il primo da
+
+02:52.370 --> 02:53.490
+mettere.
+
+02:53.660 --> 03:02.700
+Mettiamo cinque prima e poi dopo e notiamo qui come stiamo costruendo un albero inverso in un certo senso,
+
+03:03.510 --> 03:08.610
+quindi guardiamo tre e uno e diamo uno e tre.
+
+03:08.620 --> 03:11.560
+Quindi ci stiamo avvicinando sempre di più a quella nota fondamentale.
+
+03:11.750 --> 03:13.730
+Stiamo confrontando otto e sette.
+
+03:13.930 --> 03:18.330
+Sette arriva prima dell'8 2 e 4 2 prima delle 4.
+
+03:18.520 --> 03:27.460
+E ora combiniamo nuovamente queste liste nell'albero inverso dicendo 5 e 1 quale viene prima viene prima
+
+03:27.550 --> 03:30.760
+e poi confrontiamo cinque e tre.
+
+03:31.000 --> 03:39.270
+Tre vengono prima di cinque e sei poi guardiamo a destra diciamo che sette e due due vengono prima
+
+03:39.270 --> 03:40.300
+delle sette.
+
+03:40.390 --> 03:41.660
+Che ne dici di sette e quattro.
+
+03:41.660 --> 03:43.860
+Quattro diventano prima delle sette.
+
+03:43.870 --> 03:50.440
+E poiché sappiamo che sette e otto sono già stati ordinati, posizioniamo solo sette e otto uno
+
+03:50.440 --> 03:51.440
+accanto all'altro.
+
+03:51.640 --> 03:58.120
+Infine, combiniamo queste ultime due liste nel nostro nodo
+
+03:58.690 --> 04:06.100
+radice per combinare l'elenco e renderlo ordinato in tre e quattro cinque.
+
+04:06.520 --> 04:13.380
+E poi 6 7 e 8 e abbiamo la nostra lista ordinata.
+
+04:14.510 --> 04:21.620
+Ora sembrava estremamente complicato molto più complicato degli altri algoritmi di ordinamento.
+
+04:22.630 --> 04:29.470
+Il surplus di Mersch è uno dei modi più efficienti per ordinare una lista di cose e in genere sta andando a dare
+
+04:29.470 --> 04:32.970
+risultati migliori rispetto alla maggior parte degli altri algoritmi di ordinamento.
+
+04:33.220 --> 04:37.750
+E in termini di complessità Beh, è decisamente più complesso, no?
+
+04:37.780 --> 04:43.900
+Usiamo l'approccio divide et impera che dovrebbe farti capire che utilizzerà una sorta
+
+04:43.900 --> 04:45.100
+di ricorsione.
+
+04:45.160 --> 04:52.630
+La prima parte di un log e ciò deriva dal fatto che stiamo ancora confrontando
+
+04:52.630 --> 04:58.650
+tutto ciò che dobbiamo osservare ciascuno dei numeri e confrontarli per ordinarlo.
+
+04:58.710 --> 05:10.130
+Ora una volta dividere la lista in una che trova l'indice medio di queste cose è in realtà una di esse
+
+05:10.170 --> 05:13.270
+perché è un'operazione matematica facile.
+
+05:13.320 --> 05:17.030
+Ottieni la lunghezza dell'elenco e trova il centro.
+
+05:17.130 --> 05:23.700
+Ma una volta che abbiamo diviso l'array, dobbiamo ordinare gli elementi che stanno per prendere il
+
+05:23.700 --> 05:32.360
+sopravvento e dobbiamo esaminare ogni singolo elemento e in realtà ordinarli ed essere in grado di creare l'elenco ma diversamente dall'ordinamento
+
+05:32.420 --> 05:39.830
+delle bolle, ad esempio, sebbene dobbiamo confrontare tutto almeno una volta che non dobbiamo confrontare tutto con tutto
+
+05:39.830 --> 05:47.270
+quello che abbiamo fatto con le bolle, tutto ciò che dobbiamo fare è confrontare le loro liste locali
+
+05:47.930 --> 05:52.640
+tra loro ricordando qualcosa come bubble sort o insertion sort.
+
+05:52.700 --> 06:01.350
+Una volta che abbiamo esaminato l'elenco una volta che abbiamo confrontato l'elemento successivo con il resto della lista, la
+
+06:01.350 --> 06:08.730
+maglietta è anche utile perché è ciò che chiamiamo stabile, il che significa che se
+
+06:08.730 --> 06:16.720
+avete elementi equivalenti, diciamo 6 e 6 o un nome che è lo stesso manterrà l'ordine originale nell'array.
+
+06:18.310 --> 06:21.710
+E questo a volte può essere importante a seconda del tipo di dati.
+
+06:22.030 --> 06:23.940
+Diamo un'occhiata al suo grande-O.
+
+06:24.430 --> 06:35.180
+Vediamo che la fusione di una spada ha tutto e log e con la complessità spaziale di un ordinamento di selezione di ordinamento a bolle e
+
+06:35.180 --> 06:36.890
+un ordinamento di selezione.
+
+06:37.010 --> 06:44.980
+Abbiamo una complessità dello spazio un po 'più grande perché dobbiamo aggrapparci a quella lista e alla memoria divise.
+
+06:45.050 --> 06:52.480
+Quindi questo è uno svantaggio di Merse sort, ma ora siamo riusciti a rendere il nostro algoritmo di ordinamento molto più veloce.
+
+06:53.530 --> 07:04.350
+Ora, come possiamo implementare l'ordinamento di marzo? Ho qui per voi un esercizio. Voglio avvertirvi che questo è davvero difficile. Unire l'ordinamento
+
+07:04.440 --> 07:10.010
+è davvero difficile da implementare e avvolgere la vostra mente.
+
+07:10.320 --> 07:15.510
+Se non ti senti a tuo agio con la ricorsione, sarà un po 'difficile.
+
+07:15.510 --> 07:21.540
+Tieni presente che ti mostro qui come farlo solo per il tuo interesse ma molto probabilmente in
+
+07:21.540 --> 07:26.820
+un colloquio non ti verrà mai chiesto di implementare il tuo tipo di fusione.
+
+07:26.820 --> 07:31.890
+Ti verrà chiesto forse come è implementato e hai creato un piccolo scheletro per
+
+07:31.890 --> 07:32.690
+aiutarti qui.
+
+07:33.030 --> 07:39.310
+Abbiamo l'ordinamento di fusione che avrà una funzione che accetta un array.
+
+07:39.570 --> 07:46.290
+Abbiamo il caso base perché useremo la ricorsione qui dicendo che la lunghezza dell'array è una.
+
+07:46.380 --> 07:48.840
+Ricorda che c'è un solo elemento nell'elenco.
+
+07:48.840 --> 07:53.370
+Questo è quando ognuno di questi è in cima alla sua lista.
+
+07:54.150 --> 07:58.550
+Stiamo andando a restituire l'array ora qui.
+
+07:58.550 --> 08:08.080
+Torneremo e andremo a unire il lato sinistro e il lato destro e
+
+08:08.080 --> 08:16.500
+useremo questa unione che unirà la mano sinistra e quella destra.
+
+08:16.580 --> 08:24.110
+Quindi il primo passo è dividere l'array nel mezzo nella mano sinistra e nel lato
+
+08:24.320 --> 08:25.830
+destro qui dentro.
+
+08:25.970 --> 08:32.850
+Quindi eseguirlo con l'algoritmo di ordinamento emerso e nella funzione di unione.
+
+08:32.850 --> 08:36.290
+Voglio che tu faccia effettivamente il confronto.
+
+08:36.690 --> 08:40.320
+Non mi aspetto che tu lo capisca subito.
+
+08:41.090 --> 08:42.970
+Ci sono pochissime persone che possono farlo.
+
+08:43.010 --> 08:49.670
+Metà della parte superiore della loro testa, ma vedere se è possibile utilizzare tutte le risorse disponibili sono
+
+08:50.090 --> 08:54.920
+disco o comunità o anche Google per capire come creare il tuo tipo.
+
+08:55.520 --> 08:58.530
+E ti vedrò nel video della soluzione di.

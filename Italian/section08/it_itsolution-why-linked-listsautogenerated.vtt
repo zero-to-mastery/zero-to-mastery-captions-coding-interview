@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.070 --> 00:02.140
+Ben tornato.
+
+00:02.450 --> 00:07.260
+Spero che tu sia in grado di pensare perché le liste di link potrebbero essere buone o cattive.
+
+00:08.360 --> 00:15.860
+In questo video discutiamo la risposta una cosa chiave che potresti aver visto è che le liste di link
+
+00:15.860 --> 00:23.230
+hanno una sorta di struttura allentata che ti permette di inserire un valore nel mezzo della lista.
+
+00:24.040 --> 00:32.930
+Semplicemente reimpostando alcuni indicatori come abbiamo visto nell'animazione, posso inserire tutto ciò che voglio e gli unici
+
+00:33.500 --> 00:39.670
+cambiamenti che si verificano sono da qualche parte nel mezzo qui.
+
+00:42.000 --> 00:45.720
+E questo è lo stesso per l'eliminazione del nodo in un elenco collegato.
+
+00:46.440 --> 00:49.720
+E ricordiamo con una struttura dati array come.
+
+00:49.770 --> 00:56.620
+Quando volevamo inserire qualcosa che non era alla fine dell'array, dovevamo aggiungere l'oggetto.
+
+00:56.850 --> 01:05.100
+Diciamo nello spazio di memoria uno qui dentro e poi spostiamo tutti gli elementi verso il basso e l'indice verso il basso, il che ci è
+
+01:05.100 --> 01:06.220
+costato molto tempo.
+
+01:06.240 --> 01:09.210
+Ci è costato 0 di un.
+
+01:09.290 --> 01:18.350
+La principale differenza tra gli array e le liste concatenate è che in un array un elemento o elementi sono indicizzati.
+
+01:18.410 --> 01:25.030
+Quindi, se volessi andare all'elemento all'indice 5, lo posso fare facilmente in una lista collegata.
+
+01:25.100 --> 01:35.900
+Si inizia in testa e si attraversa la lista fino ad arrivare all'articolo 5 che è 0 di e e questa idea di attraversamento è la
+
+01:35.900 --> 01:44.920
+stessa dell'iterazione che abbiamo fatto con la cancellazione di dove andiamo 0 1 2 3 4 5 eccetto che ci piace chiamare
+
+01:44.920 --> 01:49.780
+questo attraversare perché non sai davvero quando finirà la lista collegata.
+
+01:49.780 --> 01:53.400
+Parti dalla testa e continui finché non raggiungi No.
+
+01:53.920 --> 01:58.520
+E come vedrai nel nostro esempio di codice dovremo usare qualcosa come un ciclo WHILE.
+
+01:58.630 --> 02:04.480
+Quando implementiamo i nostri elenchi concatenati perché di solito non sappiamo per quanto tempo la lista sarà un altro
+
+02:05.800 --> 02:12.730
+vantaggio che un array potrebbe avere è che la maggior parte dei computer ha sistemi di caching che rendono la lettura dalla
+
+02:12.730 --> 02:16.210
+memoria sequenziale che è la memoria l'una accanto all'altra .
+
+02:16.270 --> 02:18.290
+Scaffali uno accanto all'altro.
+
+02:18.460 --> 02:21.390
+Più veloce della lettura di indirizzi sparsi.
+
+02:21.580 --> 02:27.610
+E questo è qualcosa di cui abbiamo già detto che gli elementi dell'array sono sempre posizionati l'uno accanto all'altro
+
+02:27.610 --> 02:29.200
+nella memoria del computer.
+
+02:30.150 --> 02:35.480
+La lista dei collegamenti e i nodi invece sono effettivamente sparsi in tutta la memoria.
+
+02:35.700 --> 02:44.080
+Un po 'come le tabelle hash, quindi iterare attraverso una lista concatenata o attraversare una lista collegata di solito è
+
+02:44.230 --> 02:50.210
+un po' più lento di iterare attraverso elementi come un array anche se tecnicamente
+
+02:50.210 --> 02:51.340
+sono entrambi.
+
+02:51.570 --> 02:59.670
+Tuttavia questi inserti che possiamo fare nel mezzo di un elenco collegato sono molto meglio di un array.
+
+02:59.670 --> 03:01.140
+Che dire delle tabelle hash.
+
+03:01.140 --> 03:09.410
+Ricorda questo quando abbiamo parlato di hash table, proprio come i hash table quando inseriamo qualcosa in una lista collegata, ci limitiamo
+
+03:09.410 --> 03:15.620
+a sparpagliarla tutta in memoria e possiamo semplicemente aggiungere un keep aggiungendo un keep aggiungendolo e
+
+03:15.620 --> 03:22.590
+non dobbiamo fare nulla di quello spostando o spostando gli indici che abbiamo fatto con la gara che
+
+03:23.250 --> 03:25.310
+è davvero molto bello.
+
+03:26.320 --> 03:32.300
+Puoi anche eliminare le note molto facilmente rispetto a un array.
+
+03:32.510 --> 03:38.750
+Ma l'unico vantaggio che ha sulle tabelle hash è che esiste una sorta di ordine per collegare l'elenco di ciascun
+
+03:39.290 --> 03:41.170
+nodo punta alla nota successiva.
+
+03:41.240 --> 03:46.360
+Quindi puoi avere dati ordinati come una tabella hash.
+
+03:46.390 --> 03:55.120
+Quindi, se guardiamo alla nostra grande fila di liste collegate, possiamo vedere che prepend che è una lingua comune che diciamo
+
+03:55.270 --> 03:58.180
+di aggiungere all'inizio di una lista collegata.
+
+03:58.180 --> 04:03.380
+Prebend è 0 1 append che si trova alla fine della lista.
+
+04:03.400 --> 04:11.200
+Per aggiungere un nuovo elemento è sufficiente un look che possiamo anche chiamare traversal per cercare un oggetto.
+
+04:11.200 --> 04:17.500
+Diciamo che vogliamo trovare 10 è anche perché dobbiamo andare dalla testa fino a quando non troviamo quello che
+
+04:17.770 --> 04:18.760
+stiamo cercando.
+
+04:19.940 --> 04:27.650
+L'inserimento è anche di un perché dobbiamo andare uno alla volta a trovare l'indice.
+
+04:27.650 --> 04:32.870
+Non sappiamo quanto sia più lungo l'elenco collegato che troviamo l'indice e quindi inseriamo
+
+04:32.870 --> 04:37.550
+lì che tecnicamente potrebbe prendere di un e ancora qualcosa che implementeremo
+
+04:37.550 --> 04:45.150
+nel codice e che abbiamo una migliore comprensione ed eliminazione è anche tutto Vende perché noi devo trovare gli oggetti.
+
+04:45.170 --> 04:50.460
+Ora stai pensando di tenere premuto su insert e delete e gli array sono anche tutti loro.
+
+04:50.480 --> 04:52.960
+Quindi, come va meglio?
+
+04:53.020 --> 04:57.340
+E questo è qualcosa che entreremo quando osserveremo il codice.
+
+04:57.340 --> 05:05.110
+Ricorda che questo è il caso peggiore nel qual caso inseriamo o cancelliamo l'ultimo oggetto e la maggior parte delle volte che non sarà
+
+05:05.140 --> 05:07.200
+il caso di un elenco collegato.
+
+05:07.360 --> 05:13.030
+Di nuovo qualcosa di cui parleremo un po 'quando codifichiamo la nostra lista concatenata, ma guardando
+
+05:13.030 --> 05:18.960
+un diagramma come questo è veramente difficile capire veramente come funzionano e quali sono gli elenchi di lunghezza.
+
+05:19.130 --> 05:20.490
+Quindi inseriremo il codice proprio.
+
+05:21.020 --> 05:25.670
+E il prossimo video parleremo di questo ultimo pezzo del puzzle che cos'è un puntatore.
+
+05:25.700 --> 05:32.000
+Quindi, finalmente, codifichiamo la nostra lista concatenata in modo da comprendere meglio le implicazioni di big-O.
+
+05:33.330 --> 05:34.670
+Lo vedrò.
+
+05:34.750 --> 05:34.980
+Babai.

@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.650 --> 00:01.640
+Du-te înapoi.
+
+00:02.030 --> 00:09.310
+Am lăsat pentru dvs. soluția pentru sortarea acum nu voi merge unul câte unul la
+
+00:09.430 --> 00:14.070
+fiecare algoritm de sortare, deoarece durează mult timp.
+
+00:14.140 --> 00:19.180
+Nu vreau să te plictisesc și să te pierd, deoarece se petrec atât de multe
+
+00:19.180 --> 00:24.490
+lucruri interesante în următoarele câteva videoclipuri, așa că o să las asta pentru a vedea cum funcționează.
+
+00:24.490 --> 00:27.310
+Nu este atât de diferit de tipul de balon.
+
+00:27.310 --> 00:29.270
+Vedem asta cu un fel de selecție.
+
+00:29.470 --> 00:32.320
+Setăm indicele curent ca minim.
+
+00:32.440 --> 00:37.060
+Deci, primul element din matrice devine minim.
+
+00:37.060 --> 00:43.870
+Dar când vom trece prin restul listei dorim să actualizăm minimul.
+
+00:44.270 --> 00:49.730
+În cazul în care curentul este mai mic decât ceea ce am avut anterior Deci, ceea ce am avut aici în cazul în care
+
+00:49.730 --> 00:52.570
+am stabilit inițial primul element din matricea nouăzeci nouă ca minim.
+
+00:52.850 --> 00:58.940
+De îndată ce ajungem la patru patruzeci și patru, vom spune că 44 este mai puțin de nouăzeci și nouă.
+
+00:59.000 --> 01:05.250
+Să actualizăm minimul, astfel încât indicele unde este 44 este acum minim.
+
+01:05.570 --> 01:15.890
+Și vom schimba numerele așa cum am văzut în animație și este, de asemenea, un lucru foarte
+
+01:16.120 --> 01:18.820
+bine documentat pe Internet.
+
+01:19.070 --> 01:30.370
+De exemplu, dacă sunteți un dezvoltator Python puteți să tastați sortarea Python și veți găsi că da puteți
+
+01:30.370 --> 01:39.290
+găsi cum selecționează sortarea este implementată în Python și puteți rula programul, de asemenea.
+
+01:39.550 --> 01:45.100
+Așadar, în funcție de limba dvs., puteți să faceți clic pe primul sau al doilea link și
+
+01:45.100 --> 01:47.560
+să vă arătați cum este implementat algoritmul.
+
+01:48.520 --> 01:53.950
+După cum puteți vedea aici, avem două imbricate pentru ca buclele să circule prin întreaga matrice.
+
+01:53.980 --> 02:00.070
+Așa că este totul și pătrat pentru restul algoritmilor de sortare.
+
+02:00.070 --> 02:05.030
+Voi avea codul furnizat pentru tine, astfel încât să puteți juca cu el și să interacționați cu el.
+
+02:05.200 --> 02:12.920
+Vedeți că sortarea funcționează așa cum era de așteptat, dar poate căuta și limba proprie.
+
+02:13.880 --> 02:15.650
+Pentru a găsi algoritmul de sortare.
+
+02:15.650 --> 02:18.660
+Deci înțelegeți acest lucru la un nivel mai profund.
+
+02:18.680 --> 02:22.570
+Să vorbim despre următorul algoritm de sortare din videoclip.

@@ -1,0 +1,196 @@
+WEBVTT
+
+00:01.000 --> 00:05.440
+Bine ați venit înapoi este timpul să învățați o structură de date mai mică.
+
+00:05.470 --> 00:12.520
+Acesta este unul mare și unul interesant, pentru că va introduce o mulțime de subiecte noi, mai ales atunci
+
+00:12.520 --> 00:14.990
+când vom ajunge și în algoritmi.
+
+00:15.130 --> 00:19.610
+Ele sunt numite copaci și nu nu nu nu nu copacii astea.
+
+00:19.690 --> 00:30.520
+Mai mult ca aceasta, Copacii sunt o structură de date care au ceea ce noi numim o structură ierarhică, spre deosebire de
+
+00:30.520 --> 00:35.290
+ceva asemănător cu liste sau link-uri care sunt liniare.
+
+00:35.620 --> 00:39.640
+Copacii pot avea zero sau mai multe noduri copil.
+
+00:39.640 --> 00:49.060
+Vedeți că un copac începe de obicei cu un singur nod rădăcină sau cu un nod părinte, iar fiecare copil al copacului coboară
+
+00:49.090 --> 00:50.790
+din acest nod rădăcină.
+
+00:51.100 --> 00:53.890
+Este un fel de copac inversat.
+
+00:54.910 --> 01:02.120
+Și fiecare copil al unui nod coboară dintr-un singur părinte.
+
+01:02.250 --> 01:09.080
+Deci aveți o relație părinte-copil pe care o vedeți că aveți nevoie de direcționare Asta este o cale de
+
+01:10.340 --> 01:16.430
+dispariție și aveți și note de frunze care sunt chiar sfârșitul unei structuri de date arborescent.
+
+01:16.490 --> 01:24.820
+În cele din urmă, într-un copac puteți avea lucruri ca substraturi, cum ar fi zona de aici circulară în roșu trei șase șapte
+
+01:24.830 --> 01:31.530
+formează o structură substrat și arborele de date sunt foarte importante pentru că lucrați cu ei în fiecare
+
+01:31.540 --> 01:32.040
+zi.
+
+01:34.430 --> 01:39.860
+Dacă mergem la Twitter. com sau oricare alt site Web pentru acel
+
+01:44.090 --> 01:52.030
+lucru și deschidem instrumentele pentru dezvoltatori la fel cum am făcut aici dacă merg la fila de elemente pe care o vedeți că paginile noastre web
+
+01:52.030 --> 01:55.220
+sunt create de ceva numit dormitor sau model de obiect document.
+
+01:55.330 --> 01:58.450
+Și aceasta este o structură de date arborescentă.
+
+01:58.450 --> 02:04.390
+Nu arata ca un copac pe care tocmai vi l-am aratat, dar browser-ul este doar sa
+
+02:04.390 --> 02:11.380
+faca sa arate bine, dar sub el am avut pe cineva care sunt copii ai etichetei Schimmel din interiorul corpului.
+
+02:11.380 --> 02:18.820
+Avem toți acești copii, iar în acești copii avem mai mulți copii și mai mulți
+
+02:18.820 --> 02:24.520
+copii și toți sunt conectați ierarhic unii față de alții.
+
+02:24.570 --> 02:28.540
+Sunt sigur că toată lumea a încercat să joace șahul online în comparație cu un computer.
+
+02:28.650 --> 02:35.850
+Ei bine, un computer într-un joc de șah, cel puțin în urmă cu o zi înainte de a avea lucruri cum ar fi învățarea prin mașină, a folosit
+
+02:36.880 --> 02:39.710
+o structură de date arborescentă pentru a lua o decizie.
+
+02:40.000 --> 02:47.230
+Ar trebui să fac această mișcare sau ar trebui să fac această mișcare sau ar trebui să fac această mișcare și ar alege
+
+02:47.620 --> 02:51.550
+mișcările în funcție de care mișcare a avut cel mai bun rezultat.
+
+02:51.550 --> 02:57.970
+Comentariile Facebook, de exemplu, sunt o structură de date arborescentă în care pot să comentez fotografia unui prieten și
+
+02:57.970 --> 03:00.760
+prietenul său poate să comenteze comentariul meu.
+
+03:00.790 --> 03:04.930
+Arborii de familie pot fi reprezentați într-o structură de date arborescentă.
+
+03:04.930 --> 03:14.730
+Și pentru inginerii și programatorii noștri ați auzit despre arborele de sintaxă abstractă dacă am arborele Google de sintaxă abstractă,
+
+03:14.730 --> 03:22.090
+aici este bine modul în care sunt programele și codul este, de obicei, rulat.
+
+03:22.120 --> 03:30.210
+De obicei, scriem coduri și apoi se împarte de mașină în acest arbore de sintaxă abstractă, astfel încât
+
+03:30.210 --> 03:33.450
+să înțeleagă ceea ce am scris.
+
+03:33.600 --> 03:38.630
+Și aceasta, după cum puteți vedea, este o structură de date arborescentă.
+
+03:38.680 --> 03:44.260
+Frumusețea pomilor este că folosim același principiu ca și în listele legate.
+
+03:44.260 --> 03:51.550
+Asta este că avem note și aceste note pot conține orice tip de informație pe care dorim să o putem avea informații despre
+
+03:51.550 --> 03:55.170
+utilizatori, putem avea numere ca și cum avem aici orice dorim.
+
+03:55.180 --> 03:57.720
+Putem conține într-o notă.
+
+03:57.760 --> 04:04.160
+Acum s-ar putea să vă gândiți că acest gen de amintire îmi amintește de o listă legată și veți avea dreptate.
+
+04:04.160 --> 04:14.920
+Lista de legături este, din punct de vedere tehnic, un tip de copac, dar cu o singură cale și este liniară, există o singură cale de a merge de
+
+04:14.920 --> 04:20.610
+sus în jos față de ceea ce am văzut înainte într-un copac normal ca acesta.
+
+04:21.930 --> 04:25.500
+Lucrul pe care trebuie să-l țineți minte aici ar putea fi diferit de o listă legată.
+
+04:25.560 --> 04:31.420
+Este posibil ca un nod să poată indica doar un copil, așa cum puteți vedea toate săgețile în jos.
+
+04:32.590 --> 04:40.060
+Există întotdeauna un punct de intrare care este rădăcina, dar nodurile nu trebuie să se refere la părinți acum, ca
+
+04:41.090 --> 04:47.740
+și în viața reală, există multe tipuri de structuri de date arborice pe care le putem avea.
+
+04:48.040 --> 04:59.300
+Și dacă te duci la Wikipedia și cauți toate structurile de date arboreste, te va intimida bine.
+
+04:59.300 --> 05:00.180
+Asta e sigur.
+
+05:00.350 --> 05:07.580
+Deoarece arata cat de multe tipuri de copaci avem la fel ca in viata reala cum avem toate aceste tipuri
+
+05:07.580 --> 05:08.860
+diferite de copaci.
+
+05:08.900 --> 05:16.050
+Există diferite tipuri de copaci pe care le putem avea pentru un caz de utilizare specifică, dar nu se copleșesc.
+
+05:16.050 --> 05:20.410
+Și în acest curs vom trece peste principalele care se obișnuiesc.
+
+05:20.410 --> 05:25.550
+Aș spune 90 la sută din timp și cele cu care veți întâlni cel mai
+
+05:25.550 --> 05:31.280
+mult în timpul unui interviu, deoarece la sfârșitul zilei, odată ce ați înțeles ce structuri de date
+
+05:31.280 --> 05:38.360
+despre copaci cum ar fi cum să le creați cum să utilizați eventual unele acțiuni atunci toți ceilalți copaci pe care i-ați
+
+05:38.360 --> 05:47.120
+văzut sunt doar mici modificări de ce acum știm acum vreau să vă avertizez înapoi în ziua în care am luat o clasă pe structurile de date
+
+05:48.310 --> 05:56.140
+această parte în special copaci cu adevărat târât pe și ma făcut să nu mă interesează structuri de date deoarece există atât de multe
+
+05:56.200 --> 05:59.690
+lucruri despre care poți vorbi când vine vorba de copaci.
+
+05:59.710 --> 06:06.400
+Voi încerca să vă păstrăm angajat în modul cel mai bun și să încercăm să fim eficienți prin această
+
+06:06.400 --> 06:11.950
+secțiune și să vă arătăm aspectele importante pe care trebuie să le cunoașteți pentru un
+
+06:12.790 --> 06:18.590
+interviu și să puneți fundația să nu vă învățați fiecare arbore că nu există cine va beneficia.
+
+06:18.810 --> 06:22.270
+Având în vedere acest lucru vă voi vedea în următorul videoclip.
+
+06:22.380 --> 06:22.660
+Bob.

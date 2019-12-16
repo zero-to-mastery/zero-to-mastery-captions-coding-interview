@@ -1,0 +1,811 @@
+WEBVTT
+
+00:03.050 --> 00:08.450
+Mari kita kembali ke tempat kita di mana kita ingin mulai benar-benar menulis kode kita dengan mengingat bahwa
+
+00:08.450 --> 00:13.500
+semakin Anda mempersiapkan dan memahami apa yang Anda butuhkan untuk membuat kode, semakin baik papan tulis.
+
+00:13.550 --> 00:18.050
+Jadi, jangan pernah memulai wawancara papan tulis tidak yakin bagaimana hal-hal akan berjalan
+
+00:19.020 --> 00:21.400
+Jadi kami sudah membicarakannya.
+
+00:21.450 --> 00:23.440
+Kami punya rencana dalam pikiran.
+
+00:23.730 --> 00:24.690
+Mari kita mulai kode ini.
+
+00:24.690 --> 00:26.600
+Mari kita lakukan loop pertama di sini.
+
+00:27.650 --> 00:33.910
+Yaitu kita ingin mengulang melalui array pertama dan mari kita hapus kode ini supaya sedikit
+
+00:33.910 --> 00:34.930
+lebih bersih.
+
+00:34.960 --> 00:40.360
+Kami ingin mengulang array pertama membuat objek di mana properti akan cocok dengan item dalam
+
+00:40.450 --> 00:41.120
+array.
+
+00:42.120 --> 00:47.130
+Saya akan membuat objek, mari kita panggil saja peta ini
+
+00:51.750 --> 00:57.620
+dan peta ini telah kita buat tetapi kita ingin mengulang melalui array kita.
+
+00:57.630 --> 00:59.980
+Jadi bisa dikatakan biarkan aku.
+
+01:00.700 --> 01:04.560
+Dia memanggil 0 dan kami sudah melakukan ini sebelumnya.
+
+01:04.860 --> 01:12.100
+Apakah kurang array kata titik atau panjang array satu titik.
+
+01:12.480 --> 01:17.400
+Kita akan bertambah sekarang di sini.
+
+01:17.470 --> 01:29.570
+Kami pertama kali akan mengatakan jika tidak ada properti sehingga kami ingin memeriksa apakah peta titik A ada yang dipetakan Bagian
+
+01:29.570 --> 01:33.110
+B ada peta Peta Dotsie ada.
+
+01:33.190 --> 01:35.020
+X ada.
+
+01:35.020 --> 01:45.220
+Jadi jika itu tidak ada di Javascript Anda bisa menggunakan sintaks ini kita bisa mengatakan jika tidak ada peta yang berlaku.
+
+01:45.220 --> 01:51.470
+Jadi sekali lagi jika peta I yang pertama kali akan menjadi.
+
+01:51.620 --> 01:57.380
+Jadi jika peta titik A adalah kebalikannya.
+
+01:57.380 --> 02:02.760
+Jadi tanda seru javascript ini berarti sebaliknya jika peta a ada.
+
+02:02.930 --> 02:08.770
+Ini akan mengembalikan true jika tidak ada.
+
+02:08.770 --> 02:11.880
+Itu akan mengatakan salah.
+
+02:11.900 --> 02:14.080
+Jadi ini mungkin agak membingungkan.
+
+02:14.090 --> 02:20.880
+Tetapi kami ingin mengatakan jika ini tidak ada dalam hal itu kami ingin melakukan sesuatu.
+
+02:21.000 --> 02:28.200
+Sekarang cara jika pernyataan bekerja dalam Javascript perlu benar untuk mengeksekusi apa pun yang ada di
+
+02:28.200 --> 02:28.840
+sini.
+
+02:28.890 --> 02:36.020
+Jadi kami menambahkan tanda seru di sini untuk mengubah false menjadi true.
+
+02:36.030 --> 02:37.720
+Saya tahu itu bisa sedikit membingungkan.
+
+02:37.830 --> 02:38.990
+Anda dapat membacanya.
+
+02:39.090 --> 02:44.600
+Tetapi pada dasarnya yang kami lakukan adalah kami hanya memeriksa properti apakah ada atau tidak.
+
+02:45.030 --> 02:48.710
+Jika tidak ada maka kita akan menambahkannya.
+
+02:48.780 --> 02:56.320
+Jadi saya akan mengatakan item Konst sama dengan array 1 I.
+
+02:56.550 --> 03:09.540
+Jadi itu a dan item ini akan memiliki item peta yang sama dengan true.
+
+03:09.800 --> 03:11.060
+Apa yang baru saja kita lakukan di sini.
+
+03:11.240 --> 03:23.600
+Apa yang kami katakan jika peta a tidak ada dalam kasus itu mari kita buat array satu I yang sama dengan item sehingga item peta
+
+03:23.690 --> 03:25.880
+akan sama dengan 2.
+
+03:25.880 --> 03:29.340
+Yang kami katakan hanyalah peta a.
+
+03:29.350 --> 03:31.590
+Dalam hal ini sama dengan true.
+
+03:31.690 --> 03:41.700
+Jadi pada akhir ini kita akan memiliki objek yang akan memiliki properti yang benar dan kita akan
+
+03:41.700 --> 03:50.430
+terus mengulanginya sampai kita memiliki objek yang disebut peta yang memiliki semua item ini.
+
+03:50.430 --> 03:58.950
+Memetakan peta b memetakan c peta X sama dengan benar, sepertinya kita bisa mencapai ini dan kita bisa menghibur hukum
+
+03:58.950 --> 04:03.480
+kita di sini hanya untuk memeriksa apa yang kita miliki
+
+04:03.480 --> 04:07.470
+Saya akan mengatakan peta dialog Konsole.
+
+04:07.610 --> 04:22.450
+Jika saya menjalankan fungsi ini mari kita lakukan berisi item umum untuk array satu array dan mari kita meminimalkan ini sedikit.
+
+04:22.460 --> 04:29.230
+Kita bisa melihat dan jika saya menjalankan ini oh saya akan memastikan saya mengeja array yang benar juga.
+
+04:29.460 --> 04:30.950
+Ayo lari.
+
+04:31.170 --> 04:35.430
+Kita melihat bahwa kita memiliki C benar benar benar X benar.
+
+04:35.550 --> 04:36.270
+Luar biasa.
+
+04:36.300 --> 04:38.080
+Jadi sekarang kita punya yang berfungsi.
+
+04:38.220 --> 04:47.960
+Mari kita lanjutkan ke langkah kedua dan sebenarnya saya hanya memperhatikan bahwa ini seperti sekarang ini
+
+04:48.020 --> 04:52.640
+memeriksa saya yang 0 1 2 3.
+
+04:52.640 --> 04:56.260
+Tetapi sebaliknya kami ingin memeriksa b c di X ..
+
+04:56.300 --> 05:05.930
+Jadi alih-alih saya di sini seharusnya array 1 rak dan notasi I.
+
+05:06.410 --> 05:13.490
+Jadi itu adalah b c x memiliki properti peta.
+
+05:13.680 --> 05:16.340
+Banyak kurung di sini tapi saya harap itu masuk akal.
+
+05:16.350 --> 05:18.920
+Jadi jika saya menjalankan ini kita masih harus mendapatkan jawaban yang sama.
+
+05:18.930 --> 05:20.060
+Sempurna.
+
+05:20.070 --> 05:22.270
+Sekarang mari kita lihat bagian kedua di sini.
+
+05:22.290 --> 05:28.440
+Ingin mengulang-ulang array kedua dan memeriksa apakah item pada array kedua ada pada
+
+05:28.620 --> 05:30.140
+objek yang dibuat.
+
+05:30.150 --> 05:31.700
+Ini seharusnya cukup sederhana.
+
+05:31.890 --> 05:35.420
+Yang perlu kita lakukan dan mari kita hapus peta dialog konsol di sini.
+
+05:36.620 --> 05:39.660
+Yang perlu kita lakukan adalah untuk mengulang array kedua.
+
+05:42.790 --> 05:46.710
+Biarkan J sama dengan nol.
+
+05:47.570 --> 05:51.910
+Panjang J harus kurang dari dua titik.
+
+05:53.060 --> 05:55.320
+Dan kemudian kita akan menambah J.
+
+05:56.980 --> 06:02.030
+Dan yang akan kita katakan adalah jika MAP Apa yang ingin kita periksa.
+
+06:02.080 --> 06:11.200
+Apa yang ingin kita periksa apakah itu berisi item pertama dalam array kedua yaitu Z sebagai bagian dari propertinya.
+
+06:11.230 --> 06:16.030
+Ingat objek peta kami mengandung properti ini.
+
+06:16.120 --> 06:22.290
+Jadi semua yang akan kita katakan adalah kita akan memeriksa array.
+
+06:22.780 --> 06:25.240
+Dan kita akan memeriksa indeks J.
+
+06:25.330 --> 06:29.460
+Jadi indeks pertama 0 lebih dari 80 akan mudah.
+
+06:29.470 --> 06:31.330
+Lalu mengapa a.
+
+06:31.450 --> 06:37.930
+Dan jika itu benar jika memang mengandung hal-hal itu karena ingat ketika kita mengevaluasi ini
+
+06:37.930 --> 06:40.450
+akan kembali benar jika ada.
+
+06:40.540 --> 06:43.900
+Jika sekarang kita hanya akan terdefinisi.
+
+06:44.050 --> 06:48.350
+Kita akan mengatakan return true jika tidak.
+
+06:48.550 --> 06:53.530
+Pada akhirnya kita bisa mengatakan return false.
+
+06:53.710 --> 06:57.340
+Mari kita lihat apakah ini benar-benar berfungsi Vonta klik
+
+07:00.820 --> 07:03.480
+saja dan saya lewati OK.
+
+07:03.690 --> 07:13.570
+Jadi saya melihat bahwa dalam pertandingan bagaimana jika saya mengubahnya ke sesuatu yang tidak ada seperti Ron kami danau.
+
+07:13.740 --> 07:15.450
+Saya salah.
+
+07:15.590 --> 07:30.300
+Bagaimana jika saya mengubah ini untuk melihat saya menjadi kenyataan jika saya mendapatkan ini ke X saya menjadi kenyataan jika saya mengubahnya ke W. Saya mendapatkan false awesome.
+
+07:30.330 --> 07:41.200
+Jadi kami baru saja mengode sesuatu yang baru, fungsi baru yang jika kita lihat membuat segalanya menjadi lebih baik.
+
+07:41.220 --> 07:41.820
+Kanan.
+
+07:42.030 --> 07:52.290
+Karena kami memiliki dua empat loop satu demi satu yang selalu merupakan plus b versus sebelumnya di mana kami telah bersarang
+
+07:52.350 --> 07:53.910
+untuk switch tersebut.
+
+07:53.960 --> 08:00.870
+Oh sementara pada saat ini kita bisa memberi tahu pewawancara jika array secara substansial besar dan
+
+08:00.870 --> 08:07.410
+kita bisa mendapatkan array sangat besar maka solusi ini ketika datang ke kompleksitas waktu lebih
+
+08:11.250 --> 08:12.150
+baik.
+
+08:12.600 --> 08:13.510
+Betapa kerennya itu.
+
+08:14.370 --> 08:19.040
+Sekarang mari kita pergi ke langkah selanjutnya karena kita belum benar-benar selesai.
+
+08:20.540 --> 08:22.970
+Mari kita buat ini sedikit lebih besar.
+
+08:22.970 --> 08:26.970
+Nomor 11 adalah pikirkan tentang cek udara dan bagaimana Anda dapat memecahkan kode ini.
+
+08:27.170 --> 08:30.350
+Jangan pernah membuat asumsi tentang input.
+
+08:30.350 --> 08:35.120
+Anggap orang sedang mencoba untuk memecahkan kode Anda dan bahwa Darth Vader menggunakan fungsi Anda.
+
+08:35.120 --> 08:39.260
+Bagaimana Anda akan melindunginya jadi selalu periksa input yang salah.
+
+08:39.270 --> 08:46.570
+Mereka tidak mau tetapi pada dasarnya saya sekarang melihat kode ini dan mengatakan Bagaimana saya bisa memecahkan ini.
+
+08:46.580 --> 08:52.270
+Baiklah mari kita pikirkan ini.
+
+08:52.340 --> 08:58.510
+Jika saya membaca kode ini dan katakan bagaimana jika saya harus ke Asier dan saya jalankan.
+
+08:58.610 --> 09:00.380
+Apakah ini masih berfungsi OK
+
+09:00.500 --> 09:03.070
+Bagaimana jika saya punya.
+
+09:03.120 --> 09:05.270
+Dan inilah yang terjadi.
+
+09:05.480 --> 09:07.730
+Baiklah, saya mengerti bahwa itu benar.
+
+09:08.240 --> 09:14.290
+Tetapi bagaimana jika saya memiliki nomor di sini alih-alih sebuah string.
+
+09:14.300 --> 09:20.040
+Kami hanya berasumsi bahwa array akan berisi string yang saya dapatkan salah.
+
+09:20.040 --> 09:22.360
+Ok bagaimana jika saya melakukannya di sini.
+
+09:24.150 --> 09:26.600
+Saya akan melewati OK sehingga berfungsi.
+
+09:26.600 --> 09:29.060
+Bagaimana jika saya melakukan array kosong
+
+09:31.970 --> 09:36.230
+di sini saya mendapatkan false tetapi jika saya melakukan array lain di
+
+09:41.430 --> 09:47.540
+sini OK saya benar bagaimana jika saya tahu di sini dan javascript yang agak rumit OK saya salah.
+
+09:47.550 --> 09:55.980
+Bagaimana jika saya tahu benar, OK, itu bekerja dengan gratis, kembali ke apa yang kita miliki sebelumnya.
+
+09:56.250 --> 10:01.060
+Kami sekarang ingin memberi tahu pewawancara bagaimana kami dapat memecahkan kode ini.
+
+10:01.200 --> 10:04.660
+Misalnya bagaimana jika kita tidak menerima tarif.
+
+10:04.770 --> 10:08.790
+Bagaimana jika fungsi ini dipanggil hanya dengan satu larik.
+
+10:08.970 --> 10:09.640
+Apa yang terjadi.
+
+10:09.750 --> 10:16.620
+Oh kita sampai di sana kita ingin mulai berpikir tentang bagaimana kesalahan mungkin timbul.
+
+10:16.710 --> 10:19.970
+Kami ingin membuat fungsi-fungsi ini bebas dari kesalahan.
+
+10:20.160 --> 10:25.740
+Dan selama intro, kami biasanya tidak akan punya waktu untuk melakukan semua pemeriksaan yang Anda inginkan
+
+10:25.740 --> 10:31.380
+tetapi Anda mungkin ingin memberi tahu pewawancara bahwa solusi yang mungkin adalah cara yang mungkin untuk mengatasi ini.
+
+10:31.560 --> 10:32.380
+Seperti.
+
+10:32.580 --> 10:45.160
+Bisakah kita menganggap selalu dua parameter dalam fungsi adalah apa yang terjadi jika dalam parameter kedua I-PASS
+
+10:45.320 --> 10:47.620
+0 OK.
+
+10:47.640 --> 10:48.950
+Saya masih salah.
+
+10:48.950 --> 10:50.360
+Bagaimana jika saya lulus.
+
+10:50.850 --> 10:57.180
+Tidak, saya mendapatkan pesan kesalahan yang mengatakan bahwa saya tidak bisa membaca mimbar dari kata tidak.
+
+10:57.580 --> 11:03.850
+Jadi, Anda ingin mulai memikirkan dan mungkin berdiskusi dengan pewawancara bagaimana Anda dapat merusak
+
+11:03.850 --> 11:10.720
+fungsi ini dan bagaimana Anda dapat memperbaikinya seperti melakukan pemeriksaan seperti jika pernyataan untuk memastikan bahwa
+
+11:10.780 --> 11:15.020
+apa yang Anda dapatkan adalah apa yang Anda harapkan.
+
+11:15.030 --> 11:20.020
+Sekarang ini saatnya pengujian masuk dan pengujian kode Anda masuk selama sebagian besar wawancara.
+
+11:20.020 --> 11:25.110
+Itu biasanya di luar cakupan wawancara dan Anda punya waktu terbatas sehingga Anda bisa melakukan ini.
+
+11:25.210 --> 11:28.880
+Tapi bagus untuk memberi tahu pewawancara apa yang akan Anda lakukan.
+
+11:28.930 --> 11:31.360
+Ini adalah salah satu hal yang cukup sederhana.
+
+11:31.360 --> 11:33.290
+Mereka hanya bisa memberi tahu pewawancara.
+
+11:33.400 --> 11:39.020
+Inilah sebabnya mengapa Anda melakukan versus coding itu dan mereka pada dasarnya akan memberi Anda tanda penuh untuk itu.
+
+11:41.140 --> 11:42.210
+Mari kita lihat langkah selanjutnya.
+
+11:43.330 --> 11:46.370
+Jangan gunakan nama membingungkan yang buruk seperti saya dan j.
+
+11:46.430 --> 11:48.880
+Pergi tulis kode yang terbaca dengan baik.
+
+11:48.940 --> 11:53.480
+Sekarang ketika saya melihat fungsi ini tidak apa-apa.
+
+11:53.920 --> 12:01.510
+Sekarang saya katakan tidak menggunakan variabel seperti i dan j dan meskipun tidak menggunakan i dan j.
+
+12:01.510 --> 12:03.070
+Tepat di sini.
+
+12:03.070 --> 12:11.080
+Ini sedang digunakan untuk untuk loop dan untuk loop menggunakan saya dengar tidak apa-apa
+
+12:11.080 --> 12:19.660
+karena ini sedikit standar terutama dalam javascript dan ini hanya indeks tetapi mungkin jika parameter ini
+
+12:19.780 --> 12:29.890
+memiliki makna seperti mungkin ini adalah array pengguna dan ini item array yang menamakan ini sebagai variabel atau
+
+12:29.890 --> 12:34.150
+parameter yang lebih bermanfaat mungkin lebih baik.
+
+12:34.150 --> 12:42.330
+Mungkin variabel peta ini bisa disebut penghitungan atau sesuatu yang lebih bermakna khusus untuk kode.
+
+12:42.330 --> 12:46.630
+Sekali lagi ini adalah salah satu hal yang dapat Anda bicarakan dengan
+
+12:46.630 --> 12:51.240
+pewawancara dan biarkan mereka tahu bahwa Anda memikirkan hal-hal ini dan itu sangat penting.
+
+12:51.250 --> 12:56.380
+Sekali lagi selama Anda memikirkannya dan Anda memberi tahu pewawancara bahwa Anda sedang mempertimbangkan
+
+12:56.380 --> 12:59.090
+wastafel, Anda mendapatkan nilai penuh untuk itu.
+
+12:59.350 --> 13:00.640
+Teruskan.
+
+13:00.640 --> 13:05.850
+Uji kode Anda untuk memeriksa tidak ada Paramo nol yang tidak ditentukan, tidak ada array besar.
+
+13:05.920 --> 13:06.960
+Kode Async.
+
+13:07.390 --> 13:08.640
+Begitu seterusnya dan seterusnya.
+
+13:09.010 --> 13:13.510
+Dan kami membahas hal ini pada langkah sebelumnya, tetapi Anda ingin mengecek dengan pewawancara bahwa
+
+13:13.510 --> 13:17.080
+kami membuat beberapa asumsi di sini, tetapi beri tahu mereka bahwa
+
+13:17.080 --> 13:21.460
+Anda memikirkannya dan Anda memikirkan fakta bahwa fungsi ini mungkin tidak selalu dijalankan dengan lomba.
+
+13:21.460 --> 13:26.650
+Bagaimana kami dapat menguji fungsi ini dan bagaimana Anda menguji fungsi ini untuk memastikan bahwa itu
+
+13:26.650 --> 13:30.430
+memberikan hasil yang diharapkan bahwa kami selalu mengembalikan benar atau salah.
+
+13:30.490 --> 13:35.350
+Dan di sinilah Anda mungkin mengatakan bahwa Anda akan menguji kode Anda dan menjalankan beberapa tes unit.
+
+13:35.410 --> 13:38.630
+Akhirnya meskipun saya katakan akhirnya di sini ada poin lain.
+
+13:38.710 --> 13:42.920
+Tetapi akhirnya berbicara dengan pewawancara di mana Anda akan meningkatkan kode.
+
+13:43.090 --> 13:43.900
+Apakah itu bekerja.
+
+13:43.900 --> 13:45.760
+Apakah ada pendekatan yang berbeda?
+
+13:45.760 --> 13:47.140
+Apakah bisa dibaca?
+
+13:47.140 --> 13:50.560
+Apa yang akan Anda lakukan atau apa yang ingin Anda Google tingkatkan.
+
+13:50.620 --> 13:52.490
+Bagaimana kinerja dapat ditingkatkan.
+
+13:52.870 --> 13:58.030
+Baik melihat kode ini saya bisa mulai mengatakan kepada pewawancara bahwa tidak apa-apa.
+
+13:58.180 --> 14:05.800
+Kelemahan dari solusi ini adalah hanya angka dan string dan boolean yang dapat digunakan
+
+14:05.800 --> 14:12.550
+dengan benar karena kita menggunakan objek terutama dalam javascript dan menambahkan properti.
+
+14:13.790 --> 14:16.420
+A B C di sebelah objek ini.
+
+14:16.580 --> 14:24.320
+Sekarang properti objek terutama cara kita menggunakan objek javascript Saray sekarang mungkin tidak berfungsi jika kita
+
+14:24.320 --> 14:26.520
+menggunakan nilai non literal.
+
+14:26.570 --> 14:33.830
+Mungkin bukan kekuatan, mungkin ekspresi javascript dan Anda mungkin juga berpendapat bahwa kode
+
+14:33.860 --> 14:43.280
+ini bisa sedikit lebih mudah dibaca misalnya meskipun kode ini lebih baik dalam hal kompleksitas waktu ketika datang
+
+14:43.280 --> 14:44.720
+ke javascript.
+
+14:44.720 --> 14:48.560
+Sebenarnya ada cara bersih yang lebih mudah dibaca untuk melakukan ini.
+
+14:48.590 --> 14:52.820
+Mari saya tunjukkan ini adalah sesuatu yang spesifik bahasa.
+
+14:52.820 --> 14:58.580
+Itu berarti tergantung pada seberapa banyak Anda tahu tentang bahasa yang Anda gunakan, Anda mungkin dapat
+
+14:58.580 --> 15:02.930
+menggunakan metode untuk menyederhanakan proses ini sehingga Anda dapat memberi tahu pewawancara.
+
+15:03.030 --> 15:10.250
+Saya akan metode khusus Google pada katakanlah perlombaan untuk melihat apakah saya bisa membersihkan kode dan membuatnya
+
+15:10.250 --> 15:11.140
+dapat dibaca.
+
+15:11.240 --> 15:14.920
+Misalnya saya bisa melakukan fungsi yang sama persis ini.
+
+15:18.340 --> 15:20.650
+Dan kita akan menyebutnya mengandung item umum 3.
+
+15:20.890 --> 15:29.970
+Itu membutuhkan array 1 array ke dan dalam satu baris saya hanya bisa mengembalikan array
+
+15:33.030 --> 15:38.020
+yang punya beberapa yang merupakan fitur baru.
+
+15:38.640 --> 15:45.990
+Saya pikir seks dengan javascript dan saya bisa mengatakan item menggunakan fungsi kesalahan yang
+
+15:45.990 --> 15:56.850
+datang dengan enam dan saya bisa mengatakan loop melalui array ke titik termasuk dan periksa apakah itu termasuk item melihat item itu.
+
+15:59.160 --> 16:00.990
+Sekarang apa yang baru saja kita lakukan di sini.
+
+16:02.450 --> 16:09.080
+Yah kami menggunakan beberapa metode javascript bawaan untuk melakukan dasarnya apa yang telah
+
+16:09.080 --> 16:17.360
+kami lakukan di atas yaitu memeriksa array pertama iterate melalui setiap item dalam array dan jika
+
+16:17.360 --> 16:22.190
+beberapa dari mereka memasukkan item dalam array kami untuk
+
+16:25.660 --> 16:31.960
+mengembalikan benar atau salah jika kami sebenarnya memeriksa ini dengan array kami.
+
+16:32.210 --> 16:37.960
+Dan saya menjalankan ini dan mari kita komentar yang pertama.
+
+16:38.110 --> 16:46.490
+Jika saya menekan tombol play di sini saya harus memastikan bahwa ini termasuk tidak termasuk saya mendapatkan salah karena array kami tidak
+
+16:47.300 --> 16:48.360
+memiliki kecocokan.
+
+16:48.380 --> 16:54.000
+Jika memang memiliki nama yang cocok saya bisa melihatnya.
+
+16:54.030 --> 16:57.910
+Saya hanya membuat fungsi kecil yang bagus menggunakan javascript di sini.
+
+16:57.920 --> 16:58.880
+Betapa kerennya itu.
+
+16:58.880 --> 17:02.760
+Inilah yang kita bicarakan ketika kita mengatakan ada solusi berbeda untuk suatu masalah.
+
+17:03.200 --> 17:08.590
+Kami sekarang memiliki cara untuk mengukur berbagai solusi untuk suatu masalah.
+
+17:09.580 --> 17:14.620
+Kita dapat mengatakan bahwa sebenarnya ada solusi lain menggunakan beberapa metode bawaan yang dilengkapi
+
+17:14.620 --> 17:18.790
+dengan javascript yang beberapa akan mengatakan lebih mudah dibaca lebih ringkas.
+
+17:18.820 --> 17:26.260
+Jika Anda bekerja pada tim yang benar-benar mengetahui javascript mereka, ini jauh lebih mudah dibaca daripada ini.
+
+17:26.260 --> 17:26.890
+Kanan.
+
+17:27.040 --> 17:29.700
+Jadi mungkin keterbacaan lebih penting.
+
+17:31.000 --> 17:33.300
+Anda mungkin mengatakan bahwa ini adalah solusi yang lebih baik.
+
+17:34.190 --> 17:38.660
+Hal lain yang mungkin Anda perhatikan adalah bahwa kita telah membicarakan kompleksitas waktu di sini.
+
+17:40.450 --> 17:45.820
+Dan kita belum benar-benar berbicara tentang kompleksitas ruang dan ini masuk ke poin akhir.
+
+17:45.940 --> 17:50.780
+Jika pewawancara Anda senang dengan solusi Anda, pewawancara biasanya menjawab di sini.
+
+17:50.830 --> 17:56.390
+Namun juga umum bahwa pewawancara menanyakan pertanyaan yang meluas seperti Bagaimana Anda menangani masalah
+
+17:56.390 --> 18:03.420
+jika seluruh input terlalu besar untuk dimasukkan ke dalam memori. Nah jika kita berbicara tentang kompleksitas ruang di sini
+
+18:03.420 --> 18:07.860
+kita dapat melihat bahwa dalam solusi pertama yang kita miliki .
+
+18:07.860 --> 18:10.670
+Biarkan saya berkomentar.
+
+18:10.770 --> 18:17.550
+Kami memiliki kompleksitas ruang satu karena kami tidak membuat
+
+18:21.950 --> 18:24.400
+variabel baru.
+
+18:24.410 --> 18:26.830
+Kami hanya menggunakan array input.
+
+18:28.170 --> 18:32.730
+Kompleksitas ruang tambahan secara teknis untuk fungsi kita adalah satu.
+
+18:32.820 --> 18:34.210
+Itu konstan.
+
+18:34.230 --> 18:43.830
+Tetapi jika kita gulir ke bawah ke sumur ini kita membuat objek baru di sini dan kita menambahkan array pertama
+
+18:45.280 --> 18:48.240
+ke objek yang memakan memori.
+
+18:48.490 --> 18:58.050
+Jadi solusi ini sebenarnya memiliki kompleksitas ruang OK yang merupakan kompleksitas ruang ray pertama.
+
+18:58.240 --> 19:02.990
+Jadi jika pewawancara mengatakan kalau ada keterbatasan memori atau memori itu mahal.
+
+19:03.010 --> 19:04.860
+Anda bisa memberitahunya.
+
+19:04.870 --> 19:13.090
+Walaupun solusi ini walaupun lebih cepat dalam hal kompleksitas waktu lebih bahagia dalam hal kompleksitas kecepatan, titik ini di sini
+
+19:15.810 --> 19:21.630
+yang kami lupa sebutkan adalah sesuatu yang lagi sangat baik untuk disebutkan selama
+
+19:21.630 --> 19:24.810
+wawancara Anda memodulasi kode Anda dari awal.
+
+19:24.810 --> 19:29.930
+Pisahkan kode Anda menjadi potongan-potongan kecil yang indah dan tambahkan komentar saja jika perlu.
+
+19:30.360 --> 19:31.340
+Apa artinya.
+
+19:31.650 --> 19:37.270
+Kami memiliki solusi di sini yang telah kami kerjakan dan kami berkomitmen untuk melakukannya.
+
+19:37.290 --> 19:43.920
+Kami telah memodulasi mengatakan bahwa blok kode pertama ini akan melakukan sesuatu kemudian blok kode ini akan melakukan
+
+19:43.950 --> 19:45.320
+sesuatu yang lain.
+
+19:45.420 --> 19:52.440
+Tetapi ketika kode semakin dan semakin kompleks, menjadi semakin penting untuk menulis dengan cara
+
+19:52.440 --> 20:01.470
+modular yaitu potongan-potongan kecil yang berbunyi seperti bahasa Inggris yang Anda lihat lama sekali sulit untuk membaca kode biaya
+
+20:01.530 --> 20:07.400
+perusahaan banyak uang karena bukan hanya Anda mengerjakan sebuah basis kode.
+
+20:07.470 --> 20:14.950
+Kemungkinan besar puluhan atau ratusan jika tidak ribuan pengembang dan insinyur sehingga perusahaan ingin mempekerjakan
+
+20:14.950 --> 20:22.720
+seseorang yang mampu menulis kode bersih yang mudah dibaca yang mudah bagi siapa saja untuk mengambil dan
+
+20:22.960 --> 20:24.050
+kode bersama.
+
+20:24.190 --> 20:31.750
+Sebagai contoh di sini apa yang mungkin ingin kita lakukan sebenarnya memisahkan
+
+20:31.750 --> 20:44.980
+ini ke dalam fungsi yang berbeda mungkin membuat fungsi di sini yang mungkin mengatakan array peta ke objek yang menerima di Saray ITA
+
+20:46.450 --> 20:56.460
+pertama dan kemudian mungkin di sini fungsi lain ke dunia luar yang mengatakan bandingkan array ke objek.
+
+20:56.470 --> 21:01.870
+Sekarang Anda tidak benar-benar harus melakukan ini selama wawancara tetapi ada baiknya untuk menyebutkannya dan
+
+21:01.870 --> 21:04.640
+berbicara tentang ide modularisasi dalam kode Anda.
+
+21:04.750 --> 21:09.730
+Jika suatu fungsi melakukan terlalu banyak hal, itu tidak ideal.
+
+21:09.730 --> 21:15.010
+Ketika kita mengatakan modular, kita ingin membangun SMALLPEICE kode yang melakukan satu hal dan
+
+21:15.430 --> 21:24.190
+satu hal dengan sangat baik, suatu fungsi mengambil input dan mengembalikan output dan di dalam blok itu hanya melakukan satu hal jika
+
+21:24.570 --> 21:26.580
+harus melakukan tindakan tambahan.
+
+21:26.670 --> 21:35.700
+Yah, mungkin Anda memiliki fungsi yang hidup di dunia luar dan fungsi ini juga melakukan satu hal dengan sangat baik
+
+21:35.700 --> 21:41.140
+dan ini menciptakan kode bersih yang benar-benar dapat diuji yaitu modular.
+
+21:41.310 --> 21:46.550
+Lagi sesuatu yang sangat bagus untuk disebutkan dan dibicarakan dalam wawancara Anda.
+
+21:46.740 --> 21:47.630
+Baiklah.
+
+21:47.820 --> 21:54.840
+Saya tahu ini banyak dan banyak untuk dipikirkan karena Anda mulai berpikir apakah saya harus
+
+21:55.140 --> 21:59.820
+khawatir tentang setiap kode yang benar dan menganalisisnya secara mendalam.
+
+21:59.850 --> 22:00.410
+Tidak.
+
+22:00.450 --> 22:02.660
+Dalam kehidupan sehari-hari Anda, Anda tidak akan melakukan itu.
+
+22:02.790 --> 22:08.130
+Tetapi saya ingin menunjukkan kepada Anda bahwa ini adalah jenis proses pemikiran yang dimiliki oleh
+
+22:08.130 --> 22:11.510
+pengembang yang baik dan untuk apa perusahaan melakukan wawancara.
+
+22:11.730 --> 22:17.910
+Jika Anda dapat berpikir jernih melalui langkah-langkah ini seperti yang telah saya uraikan untuk Anda dan Anda
+
+22:17.910 --> 22:25.080
+dapat memecahkan masalah dengan cara ini Anda melihat betapa jauh lebih mengesankan daripada jika saya hanya menuliskan solusi ini tanpa
+
+22:25.500 --> 22:27.010
+penjelasan apa pun.
+
+22:27.770 --> 22:34.580
+Bahkan jika Anda tidak sampai pada bagian ini dan waktu habis selama wawancara Anda, Anda telah
+
+22:34.580 --> 22:41.460
+menunjukkan kepada pewawancara Anda bahwa Anda dapat berpikir jernih Anda memiliki dasar-dasar untuk berpikir seperti seorang insinyur.
+
+22:41.780 --> 22:49.030
+Dan ini adalah kualitas hebat yang suka dipekerjakan oleh perusahaan dan keterampilan yang sangat jarang.
+
+22:49.040 --> 22:50.790
+Saya harap Anda bersenang-senang dengan latihan ini.
+
+22:50.960 --> 22:54.540
+Anda mungkin harus kembali ke video ini nanti.
+
+22:54.800 --> 22:58.160
+Tetapi untuk sekarang saya akan melihat yang berikutnya Buh-Bye.

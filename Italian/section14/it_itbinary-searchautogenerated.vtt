@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.430 --> 00:09.980
+Walk Sono tornato nell'ultimo video che poniamo la domanda c'è un modo migliore per trovare un numero in una lista ordinata
+
+00:10.340 --> 00:15.340
+e solo per questo esempio aggiungiamo un numero extra alla nostra lista.
+
+00:18.620 --> 00:19.640
+Così va meglio.
+
+00:19.730 --> 00:26.340
+Diciamo che cercavo 34 e sapevo che la mia lista diceva che la matrice era stata ordinata.
+
+00:26.360 --> 00:33.350
+Qual è un modo migliore per andare su di esso, invece di controllare ogni singolo elemento uno a uno da sinistra a destra.
+
+00:34.230 --> 00:41.290
+Bene, possiamo usare qualcosa chiamata ricerca binaria perché sappiamo che l'elenco è ordinato.
+
+00:41.460 --> 00:45.870
+Possiamo scartare metà degli articoli invece di uno alla volta.
+
+00:46.750 --> 00:52.490
+Lascia che ti mostri che possiamo iniziare nel mezzo della lista e dire è 9.
+
+00:52.630 --> 00:59.520
+Più alto o più basso di 34 wall 34 è più alto di 9 quindi scartiamo tutto a sinistra di esso.
+
+01:01.040 --> 01:03.870
+E poi torniamo all'indice medio di nuovo.
+
+01:03.980 --> 01:06.350
+In questo caso non c'è tecnicamente un mezzo.
+
+01:06.350 --> 01:08.030
+Quindi, scegliamo solo 12.
+
+01:08.130 --> 01:13.430
+Vai a sinistra del media è 12 più in alto rispetto a 34.
+
+01:13.530 --> 01:17.960
+Mentre è decisamente inferiore Quindi rimuoviamo tutto a sinistra.
+
+01:19.120 --> 01:27.100
+E poi troviamo l'indice medio e oh abbiamo appena trovato 34 invece di esaminare l'elemento uno per uno.
+
+01:27.190 --> 01:29.900
+Lo abbiamo fatto in tre operazioni.
+
+01:30.220 --> 01:32.020
+E questo sembra familiare.
+
+01:32.050 --> 01:32.560
+Destra.
+
+01:34.180 --> 01:41.700
+Ed è qualcosa che abbiamo imparato quando abbiamo parlato degli alberi in particolare degli alberi binari di
+
+01:42.060 --> 01:51.120
+ricerca perché se i nostri dati sono ordinati possiamo fare meglio di O o tempo lineare perché questa lista ordinata
+
+01:51.120 --> 02:01.560
+potrebbe ricordare qualcosa che stiamo essenzialmente creando un albero binario di ricerca a differenza ricerca lineare possiamo scartare la metà degli articoli invece di
+
+02:01.560 --> 02:08.640
+uno alla volta e potreste pensare bene che sia ridicolo Andre perché, per noi, anche per
+
+02:08.910 --> 02:14.880
+le ricerche, dobbiamo prima ordinare la lista e questo richiede potenza computazionale.
+
+02:14.910 --> 02:15.640
+Destra.
+
+02:15.870 --> 02:25.290
+Ma la memorizzazione dei dati in una struttura dati come un albero invece di una struttura dati lineare come un array è
+
+02:25.290 --> 02:27.450
+in realtà più efficiente.
+
+02:27.540 --> 02:34.010
+E questo è qualcosa che abbiamo già discusso con le strutture dei dati dell'albero mentre inseriamo gli elementi
+
+02:34.010 --> 02:35.150
+se li ordiniamo.
+
+02:35.150 --> 02:41.030
+In realtà ci offre prestazioni migliori, aggiungendole a un elenco ordinato che dobbiamo cercare
+
+02:41.030 --> 02:48.230
+in un giorno e in un albero in cui prendiamo una decisione. Dovremmo andare a destra oa sinistra.
+
+02:48.340 --> 02:54.400
+Dovremmo andare a destra oa sinistra e scartare metà degli articoli ogni passo questo dovrebbe far
+
+02:54.400 --> 03:02.210
+scattare qualcosa nel tuo cervello dicendo oh questo è un approccio di divisione e conquista che ci dà un registro e
+
+03:02.240 --> 03:09.370
+tempo perché log deriva dal fatto che siamo ora visitando tutti i nodi ogni gradino lungo l'albero stiamo eliminando
+
+03:09.370 --> 03:10.260
+i nodi.
+
+03:10.720 --> 03:17.780
+Quindi questo è l'accordo con la ricerca binaria che dividi un elenco su un elemento ordinato e decidi da lì se l'elemento
+
+03:17.800 --> 03:21.580
+che stai cercando si trova a sinistra o a destra dell'elenco.
+
+03:22.440 --> 03:26.180
+E poiché l'elenco è ordinato, puoi prendere questa decisione molto facilmente.
+
+03:26.220 --> 03:27.750
+Ma solo confrontando le cose.
+
+03:27.960 --> 03:32.410
+E continuiamo finché non troviamo quello che vogliamo in questo caso.
+
+03:32.490 --> 03:40.120
+Numero 34 prendiamo decisioni 1 2 3.
+
+03:40.370 --> 03:48.260
+E questo ha senso perché se sei un insegnante che sta guardando una pila di saggi e articoli da parte degli studenti
+
+03:48.950 --> 03:55.070
+se la loro pila di carta non è organizzata, devi esaminarli uno ad uno per trovarli.
+
+03:55.100 --> 03:56.380
+Diciamo Timmy.
+
+03:56.750 --> 04:04.670
+Ma se la risma di carta è ordinata alfabeticamente, allora puoi trovarmi dividendo i fogli mezzo ogni volta fino
+
+04:04.700 --> 04:06.660
+ad arrivare a temi.
+
+04:06.800 --> 04:09.380
+Proprio come una rubrica telefonica.
+
+04:09.540 --> 04:18.320
+Iniziamo con un elemento, poi quando scendiamo abbiamo una divisione per due elementi rimanenti.
+
+04:18.420 --> 04:24.300
+E mentre scendiamo, abbiamo e diviso per quattro elementi rimanenti e continuiamo ad andare
+
+04:24.300 --> 04:27.820
+avanti finché non troviamo il nostro elemento.
+
+04:27.830 --> 04:34.070
+E nella sezione di ordinamento apprendiamo che l'unisci sort e quicksort stanno facendo la stessa cosa.
+
+04:34.290 --> 04:41.160
+E abbiamo anche imparato come cercare effettivamente attraverso questo albero nella nostra sezione percentuale di dati con la
+
+04:41.170 --> 04:42.000
+ricerca lineare.
+
+04:42.000 --> 04:46.710
+Abbiamo avuto quattro loop con un albero di ricerca binario come questo.
+
+04:46.770 --> 04:55.110
+Bene abbiamo avuto il nostro metodo di lockup in cui abbiamo controllato il nodo sinistro e il nodo destro e diviso l'elenco
+
+04:55.470 --> 04:58.720
+usando un ciclo while a metà ogni volta.
+
+04:58.830 --> 05:03.480
+Quindi sappiamo come eseguire la ricerca lineare e la ricerca binaria.
+
+05:03.480 --> 05:11.400
+Sappiamo che la ricerca binaria sarà log e complessità temporale rispetto alla ricerca lineare che è
+
+05:11.490 --> 05:20.780
+0 di e ma quali sono questi due fino a questo punto di cui abbiamo parlato quando stiamo cercando
+
+05:20.780 --> 05:25.100
+un articolo in cui sappiamo che 34 esiste.
+
+05:25.100 --> 05:33.080
+La nostra lista è ordinata in un albero di ricerca binario e sappiamo dove andare a destra oa sinistra, ma
+
+05:33.080 --> 05:38.010
+a volte dobbiamo fare qualcosa chiamato attraversamenti e attraversamenti significa semplicemente.
+
+05:38.330 --> 05:46.040
+Andando dal no al nodo o trovando una cosa specifica o assicurandoti di toccare ogni
+
+05:46.040 --> 05:53.270
+singolo nodo, forse non vogliamo aggiungere qui un attributo color per ogni nota.
+
+05:53.380 --> 05:57.330
+Forse vogliamo aggiornare questi numeri e moltiplicarli per due.
+
+05:57.370 --> 06:01.420
+In tal caso, dobbiamo visitare ogni singola nota.
+
+06:01.420 --> 06:02.980
+Come lo facciamo.
+
+06:03.100 --> 06:04.470
+Scopriamolo nel prossimo video.

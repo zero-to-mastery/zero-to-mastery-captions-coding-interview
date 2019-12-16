@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.700 --> 00:01.530
+Witamy spowrotem.
+
+00:01.720 --> 00:04.890
+Kodujemy nasz własny algorytm sortowania bąbelkowego.
+
+00:04.930 --> 00:13.700
+Zamierzam utworzyć funkcję o nazwie Bubble sort, która zajmie tablicę i mam
+
+00:13.700 --> 00:16.910
+tutaj tablicę z liczbami.
+
+00:17.230 --> 00:23.290
+Idealnie, gdy wprowadzimy tę tablicę do tej funkcji, wypluje ona posortowaną tablicę.
+
+00:24.280 --> 00:31.510
+I w oparciu o animację, którą widzieliśmy, idealnie zaczynamy od początku porównywać pierwszy i
+
+00:31.510 --> 00:34.270
+drugi przedmiot wymieniać elementy.
+
+00:34.300 --> 00:40.690
+Jeśli lewy jest większy niż prawy i idzie dalej, dopóki największy przedmiot nie
+
+00:41.380 --> 00:46.370
+znajdzie się w ostatnim indeksie, a potem znów będziemy pętli.
+
+00:46.630 --> 00:51.850
+Pierwszą rzeczą, którą chcę zrobić, to powiedzieć, że po prostu utworzę zmienną, więc nie
+
+00:51.850 --> 01:00.670
+będę musiał powtarzać się, wszystkie otrzymają większą długość kropki, będzie to długość tego elementu, która powinna wynosić 10 Wierzę, że 1 2 3
+
+01:00.670 --> 01:03.800
+4 5 6 7 8 9 10.
+
+01:03.820 --> 01:04.690
+Pokochasz to.
+
+01:04.720 --> 01:12.430
+Nieważne, aby się uczyć, a tutaj zrobimy pętlę for, a my powiemy "I".
+
+01:12.720 --> 01:16.110
+Koszt to 0, który będzie pierwszym indeksem tablicy.
+
+01:17.910 --> 01:22.070
+Jestem mniejszy niż dwunasty.
+
+01:22.340 --> 01:26.890
+Plus plus i tutaj pobierzemy pierwszy przedmiot.
+
+01:27.010 --> 01:33.220
+Teraz chcemy porównać go z 44 itd. I tak dalej powinniśmy to wiedzieć już teraz.
+
+01:33.610 --> 01:36.530
+Chcemy dodać kolejną pętlę J.
+
+01:36.700 --> 01:39.760
+Będzie się nazywać 0.
+
+01:39.960 --> 01:56.650
+J będzie mniejszy od dna, a my powiemy J plus plus, teraz powiemy, że jeśli nasz indeks RE J wynosi
+
+01:56.720 --> 01:57.720
+0.
+
+01:57.800 --> 02:05.300
+A więc dziewięćdziesiąt dziewięć to więcej niż Auray J plus 1.
+
+02:05.330 --> 02:06.920
+To jest 44.
+
+02:06.920 --> 02:13.140
+Jeśli więc dziewięćdziesiąt dziewięć jest większe niż 44 w pierwszej pętli, powiemy
+
+02:16.600 --> 02:17.720
+zamienione liczby.
+
+02:19.630 --> 02:29.740
+Możemy to zrobić po prostu mówiąc, tworząc tymczasową zmienną, która przechowuje tablicę J, której
+
+02:29.740 --> 02:39.450
+pierwsze przejście będzie dziewięćdziesiąt dziewięć i da pierwszy indeks od 0 do Array.
+
+02:40.570 --> 02:48.920
+J plus 44 lub plus 1, czyli 44 i 99.
+
+02:48.920 --> 02:50.740
+Teraz przechodzi do drugiego indeksu.
+
+02:50.760 --> 02:58.990
+Oznacza to, że Ray J plus 1 będzie równy promieniowi j.
+
+03:00.900 --> 03:03.600
+Być może trzeba będzie wstrzymać wideo, aby to naprawdę zrozumieć.
+
+03:03.720 --> 03:05.580
+Ale wszystko, co robimy, to po prostu zamiana liczb.
+
+03:05.580 --> 03:16.080
+Jeśli lewa strona jest większa niż prawa strona i raz to robimy, zwiększamy J do 1, tak abyśmy porównali indeks 1 i 2, a
+
+03:16.080 --> 03:23.700
+następnie porównujemy indeks 2 i 3 3 i 4 4 lub 5, dopóki nie sfilmujemy rzeczy w
+
+03:23.700 --> 03:24.530
+górę.
+
+03:24.630 --> 03:33.040
+A potem idziemy na górę i porównujemy rzeczy ponownie, a na zewnątrz się sprawdzimy, czy to działa.
+
+03:33.560 --> 03:36.740
+Och i właśnie to sobie uświadomiłem.
+
+03:36.840 --> 03:37.580
+JOT.
+
+03:39.230 --> 03:41.780
+Powinien być Tampere.
+
+03:41.930 --> 03:44.080
+Więc pamiętaj, dziewięćdziesiąt dziewięć.
+
+03:44.150 --> 03:53.250
+Umieściliśmy go w zmiennej tymczasowej i przypisaliśmy do indeksu po prawej stronie, abyśmy zaokrągliły sortowanie bąbelkowe.
+
+03:53.250 --> 04:04.710
+Teraz powiemy liczby, a my zbroimy numery dziennika, aby sprawdzić, czy jest sortowane, gdy uderzę w Rona.
+
+04:05.320 --> 04:07.700
+Numery rejestrów przyczynowych sprawiają, że mogę przeliterować.
+
+04:07.780 --> 04:13.470
+Powiedzmy, że biegnę, patrzę, że nasza lista jest teraz posortowana.
+
+04:14.460 --> 04:18.120
+To był rodzaj bąbelków.
+
+04:18.240 --> 04:26.600
+I jak można usłyszeć, mamy dwie zagnieżdżone pętle, które dają nam cały końcowy kwadrat, ale tak naprawdę nie przechowujemy
+
+04:26.600 --> 04:33.060
+zmiennych do innej struktury danych ani nie przechowujemy liczb w innych strukturach danych.
+
+04:33.110 --> 04:43.280
+Więc złożoność przestrzeni jest wszystkim, co możemy zobaczyć w naszym sortowaniu bąbelków typu big-O-Chichi, prawdopodobnie nie
+
+04:43.280 --> 04:48.640
+jest najlepszym algorytmem, chociaż ma dużą złożoność przestrzeni.
+
+04:48.790 --> 04:53.880
+Możesz użyć kodu, który Alief jest dla ciebie i tej lekcji do zabawy.
+
+04:54.060 --> 04:57.930
+Ale na razie przejdźmy do naszego kolejnego algorytmu sortowania.
+
+04:57.930 --> 05:02.050
+Gratulacje, właśnie ukończyłeś swój pierwszy algorytm sortowania.
+
+05:02.070 --> 05:03.710
+Ale musimy jeszcze iść.
+
+05:03.780 --> 05:05.770
+Przejdźmy do następnego.

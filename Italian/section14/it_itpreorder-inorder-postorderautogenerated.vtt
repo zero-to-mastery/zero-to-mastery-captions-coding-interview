@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.090 --> 00:02.080
+Ben tornato.
+
+00:02.080 --> 00:05.260
+Parliamo della profondità prima cerca ora.
+
+00:05.320 --> 00:09.230
+Abbiamo implementato la nostra prima ricerca del respiro e ci sentiamo a nostro agio.
+
+00:09.340 --> 00:17.320
+Ma per quanto riguarda la profondità, la prima ricerca scenderà dal nostro albero ed esplorerà la parte più profonda di
+
+00:17.350 --> 00:18.980
+quell'albero prima di risalire.
+
+00:19.990 --> 00:22.630
+Ed esplorare anche il lato destro dell'albero.
+
+00:23.500 --> 00:30.160
+E quando si tratta di approfondire la prima ricerca, dobbiamo essere consapevoli che ci sono tre modi in cui possiamo
+
+00:30.550 --> 00:31.410
+effettivamente implementarla.
+
+00:32.330 --> 00:36.710
+Si chiama In ordine preordinare e postare.
+
+00:36.960 --> 00:42.620
+Ricorda come abbiamo avuto la lista che abbiamo ottenuto con il fiato per una ricerca.
+
+00:42.970 --> 00:49.590
+Bene, ci sono tre diversi ordini che possiamo restituire questa lista con la prima ricerca approfondita.
+
+00:49.780 --> 00:54.390
+Il primo è chiamato in ordine e sembra qualcosa del genere.
+
+00:54.430 --> 00:59.280
+Andiamo con 33 101 105.
+
+00:59.740 --> 01:06.300
+Si chiama ordine perché in un albero di ricerca binario dà tutto in ordine.
+
+01:06.450 --> 01:17.990
+Se diamo un'occhiata a questo elenco oa questo albero Idealmente in un traversal in ordine usando la prima ricerca di profondità
+
+01:18.680 --> 01:21.200
+otterremmo qualcosa di simile.
+
+01:21.260 --> 01:37.300
+Ne prenderemmo uno per poi 6 perché andiamo a 1 4 6 e poi andiamo 9 e poi scendiamo fino a 15
+
+01:37.540 --> 01:45.560
+e poi torniamo a 20 e poi a 1 70.
+
+01:45.590 --> 01:50.260
+È in ordine, perché guarda bene che tutto è in ordine.
+
+01:50.260 --> 01:55.580
+Quindi questo è davvero utile se hai un albero di ricerca binario come questo.
+
+01:55.690 --> 01:57.590
+E ora il modo in cui puoi restituirlo.
+
+01:58.030 --> 02:08.320
+Si chiama preop order e il preorder parte dal nodo genitore fino a 33 e poi scende a 105.
+
+02:08.490 --> 02:17.560
+Quindi iniziamo con il genitore e poi prendiamo i nodi figli da sinistra a destra nel
+
+02:17.710 --> 02:28.460
+nostro caso sarebbe simile a questo, iniziamo con nove perché è il genitore 1 e poi lo prendiamo perché è
+
+02:28.460 --> 02:36.560
+il prossimo nell'elenco e poi ne andiamo uno mentre stiamo attraversando tutta la strada.
+
+02:36.630 --> 02:42.940
+Ricorda che stiamo facendo la prima ricerca di profondità fino in fondo e
+
+02:42.940 --> 02:56.120
+perché siamo arrivati fino in fondo torniamo su e giù fino a 6, quindi vediamo qui che abbiamo fatto 4 1 6 e poi andiamo a destra
+
+02:56.120 --> 03:06.260
+a 20 e poi prendi 15 poi 170 e ti stai chiedendo questo sembra un po 'inutile perché dovremmo voler usare
+
+03:06.260 --> 03:07.540
+il preordine.
+
+03:07.550 --> 03:13.760
+Intendo dire che avevamo tutto in ordine perché mai avremmo bisogno di questo e preordinare è davvero utile
+
+03:13.820 --> 03:16.620
+se si vuole ricreare ad esempio un albero.
+
+03:16.730 --> 03:17.780
+Destra.
+
+03:17.780 --> 03:22.230
+Perché con preordine posso solo andare a nove è il nodo principale.
+
+03:22.310 --> 03:31.970
+Poi abbiamo quattro come il lato sinistro uno come il lato sinistro e poi da lì abbiamo sei
+
+03:31.970 --> 03:38.630
+a destra 20 a destra di 9 15 e poi 170.
+
+03:38.660 --> 03:47.530
+Possiamo ricreare un albero molto facilmente perché è ordinato per noi rispetto al metodo in ordine che non aveva
+
+03:47.540 --> 03:53.570
+quell'ordine che volevamo se volessimo ricreare un albero in un altro modo.
+
+03:53.570 --> 04:02.430
+E l'ultimo modo per farlo è chiamato ordine post e l'ordine post è l'ultima opzione che sta andando giù fino
+
+04:02.430 --> 04:03.550
+in fondo.
+
+04:03.790 --> 04:09.220
+Prendendo 33 e 1 a 5, quindi andando in cima all'altro genitore.
+
+04:09.380 --> 04:13.410
+Quindi 33 1 a 5 1 a 1.
+
+04:13.420 --> 04:26.150
+Quindi nel nostro caso una prima ricerca di profondità post-ordinata sembrerà una, quindi sei e poi quattro, e
+
+04:26.150 --> 04:40.070
+poi risalirà fino a 15, quindi a 170, poi a 20, e infine a 9 cercheremo prima il lato sinistro.
+
+04:40.070 --> 04:45.710
+I bambini vengono prima del genitore e poi cerchiamo prima il lato destro e i
+
+04:45.710 --> 04:47.640
+bambini vengono prima del genitore.
+
+04:47.640 --> 04:56.680
+Ora questi tre tipi di ordinamento sono veramente specifici e sebbene possa sembrare confuso al momento, vedremo che quando
+
+04:56.680 --> 05:01.130
+lo scriviamo in codice non è così difficile.
+
+05:01.240 --> 05:07.930
+Hai solo bisogno di sapere che quando si tratta di approfondire la prima ricerca hai questi tre tipi di
+
+05:08.110 --> 05:12.940
+attraversamenti che puoi fare che potresti voler implementare a seconda delle tue esigenze.
+
+05:13.720 --> 05:19.000
+Ma il modo più semplice per mostrarti come funziona è come farlo realmente nel codice.
+
+05:19.210 --> 05:20.550
+Quindi facciamolo nel prossimo video.

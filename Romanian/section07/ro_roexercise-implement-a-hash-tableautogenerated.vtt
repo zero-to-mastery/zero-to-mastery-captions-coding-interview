@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.970 --> 00:05.680
+Bine ați venit înapoi este timpul pentru noi să pună în aplicare propria noastră tabel hash.
+
+00:05.800 --> 00:13.060
+Dar să facem un pic de exercițiu și acest lucru poate fi dificil, așa că nu vă supărați dacă nu îl
+
+00:13.060 --> 00:13.760
+puteți termina.
+
+00:14.610 --> 00:18.040
+După aceasta, voi oferi o soluție video și vom trece prin ea.
+
+00:18.040 --> 00:22.640
+Dar, ca o provocare suplimentară, am creat un șablon pentru tine.
+
+00:23.520 --> 00:26.270
+O nouă tabelă de hash pe care o vom crea.
+
+00:26.280 --> 00:32.810
+Da, știu că javascript are deja obiecte și putem crea pur și simplu unul așa cum am văzut înainte.
+
+00:33.000 --> 00:34.310
+Dar care este distracția în asta.
+
+00:34.350 --> 00:36.360
+Să ne creăm propriul nostru.
+
+00:36.420 --> 00:42.860
+Acum, această tabelă hash are un constructor care va primi o dimensiune.
+
+00:42.950 --> 00:47.890
+Deci, atunci când creăm această tabelă de hash vom oferi o dimensiune a spațiului de memorie de 50.
+
+00:48.110 --> 00:51.540
+Să spunem că dorim doar 50 de rafturi de memorie.
+
+00:51.800 --> 00:57.950
+Vom crea aceste date DOD în care datele noastre vor fi prezente și în interiorul lor se va crea
+
+00:57.980 --> 00:59.060
+o nouă matrice.
+
+00:59.980 --> 01:04.060
+Și această gamă va ține informațiile noastre pentru noi.
+
+01:04.150 --> 01:09.430
+Deci am avea ceva de
+
+01:12.110 --> 01:18.640
+genul strugurii și 10000 ca găleata noastră.
+
+01:18.650 --> 01:29.060
+Deci, primul element din matrice va fi un matrice care este 10000 de struguri. Amintiți-vă dacă ne-am uitat la diagrama în care
+
+01:30.200 --> 01:39.000
+avem aceste găleți în care trăiesc datele noastre și pentru că acum implementăm propriile tabele hash, folosim matricea
+
+01:39.210 --> 01:41.370
+în loc de obiecte.
+
+01:42.170 --> 01:51.290
+Dar ideea este că, folosind o nouă metodă pe care va trebui să o creați, care va fi numită
+
+01:51.290 --> 02:00.320
+set, veți putea seta strugurii ca primul indice în teorie și numărul de struguri ca al doilea indice din
+
+02:00.320 --> 02:01.040
+matrice.
+
+02:01.520 --> 02:10.990
+Și de acolo putem avea o metodă nother care obține strugurii și returnează 10000.
+
+02:11.000 --> 02:14.040
+Acum, probabil că te întrebi.
+
+02:14.480 --> 02:18.080
+Oh, băiete, ce e acel jibber.
+
+02:18.500 --> 02:24.030
+Și am scris acest lucru înainte de timp pentru tine, deoarece nu este cu adevărat important ca parte a cursului.
+
+02:24.410 --> 02:33.590
+Dar amintiți-vă că avem nevoie de o funcție hash pentru a crea o tabelă de hash și am creat aici cea mai mică funcție
+
+02:33.590 --> 02:36.300
+de hash pe care vă puteți gândi.
+
+02:37.520 --> 02:42.620
+Vom vorbi despre ce face de fapt acest lucru în soluția video.
+
+02:42.920 --> 02:49.510
+Pentru moment, tot ce trebuie să știți este că va genera doar un hash pentru noi.
+
+02:49.610 --> 02:56.220
+De exemplu, dacă fac un clic aici, dați-i o cheie.
+
+02:56.360 --> 03:02.620
+Deci, să spunem că vreau să introduc struguri și fac clic pe Run I get 23.
+
+03:02.720 --> 03:05.500
+Dacă dau clic pe rulați din nou, primesc întotdeauna 23.
+
+03:05.630 --> 03:10.790
+Dacă voi schimba strugurii la două s-aș obține un spațiu de memorie diferit.
+
+03:10.970 --> 03:19.780
+Dacă introduc doar în mod aleatoriu aici, din nou, primesc spații de memorie diferite de la 0 la 50.
+
+03:19.790 --> 03:31.500
+Așadar, provocarea dvs. aici este de a crea aceste două metode noi stabilite și obțineți care adaugă la aceste date punct.
+
+03:32.380 --> 03:43.050
+Și recuperează din aceste date din nou, dacă nu sunteți foarte familiarizat cu javascript acest lucru poate fi greu, dar da o
+
+03:43.110 --> 03:43.990
+încercare.
+
+03:44.220 --> 03:47.090
+Și în următorul videoclip vom trece pas cu pas.
+
+03:48.190 --> 03:49.840
+O să văd asta.

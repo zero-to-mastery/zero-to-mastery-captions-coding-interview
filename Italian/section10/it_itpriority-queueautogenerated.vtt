@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.950 --> 00:08.050
+Ora abbiamo imparato a conoscere gli heap binari e abbiamo detto che, a differenza di un albero di ricerca binario, non vi è
+
+00:08.050 --> 00:11.620
+alcun ordine da sinistra a destra in questo 33 e 77.
+
+00:11.620 --> 00:16.920
+Possiamo scambiarli e saranno comunque un binario a buon mercato.
+
+00:16.930 --> 00:22.870
+La bellezza degli heap binari è che occupano il minor spazio possibile perché è sempre l'inserzione da
+
+00:22.870 --> 00:25.770
+sinistra a destra come abbiamo appena visto.
+
+00:26.230 --> 00:29.800
+Quindi non esiste un concetto di heap binario sbilanciato.
+
+00:29.830 --> 00:34.780
+Non dobbiamo riequilibrarlo come un albero di ricerca binario per questo perché lo fanno.
+
+00:34.780 --> 00:38.970
+Inserimento da sinistra a destra come abbiamo visto nel video precedente.
+
+00:39.100 --> 00:44.840
+Conservano questo ordine di inserimento che è davvero fantastico.
+
+00:44.910 --> 00:51.960
+E puoi effettivamente implementare gli heap binari usando una gara contro ciò che facevamo prima con gli alberi di ricerca
+
+00:51.960 --> 00:54.680
+binari in cui abbiamo usato le note.
+
+00:54.750 --> 01:01.380
+Quindi l'unica garanzia che l'heap binario ci dà è quello che ho detto che il genitore è sempre
+
+01:01.380 --> 01:03.580
+più grande dei bambini adesso.
+
+01:03.640 --> 01:12.190
+Oltre ad essere efficiente in termini di memoria e solo compatto perché è sempre un binario completo, gli heap binari sono
+
+01:12.190 --> 01:16.130
+davvero utili per cose come le code di priorità.
+
+01:16.980 --> 01:21.930
+E potresti chiederti una coda di priorità, non abbiamo solo imparato a conoscere le code e non
+
+01:21.930 --> 01:23.760
+è la stessa struttura di dati.
+
+01:23.760 --> 01:30.350
+Beh no perché con le code abbiamo solo pensato che fosse il primo a salire.
+
+01:30.360 --> 01:36.720
+Tu eri la prima persona in fila che dovresti andare prima nelle montagne russe o la coda di priorità del
+
+01:36.720 --> 01:38.370
+film è qualcosa di diverso.
+
+01:38.370 --> 01:42.360
+È un tipo di dati in cui ogni elemento ha una priorità.
+
+01:43.470 --> 01:50.430
+E gli elementi con una priorità più alta vengono serviti prima che gli elementi con priorità più ampie possano essere
+
+01:50.430 --> 01:52.200
+pensati come un club.
+
+01:52.200 --> 02:00.150
+Diciamo che abbiamo una discoteca molto popolare e c'è una lunga scaletta e lasciamo che
+
+02:00.150 --> 02:02.490
+alcune persone siano felici.
+
+02:02.490 --> 02:09.150
+Ma all'improvviso abbiamo un po 'di VIP che ha mostrato quello che pagano molto più denaro degli altri
+
+02:09.150 --> 02:11.410
+clienti, quindi li inseriremo per primi.
+
+02:11.430 --> 02:14.650
+Quindi ora abbiamo una priorità diversa.
+
+02:14.700 --> 02:19.970
+Siamo anche se sono arrivati più tardi, quando hanno una priorità più alta.
+
+02:20.900 --> 02:23.960
+Un altro buon esempio è un pronto soccorso.
+
+02:24.320 --> 02:30.700
+Vuoi trattare i pazienti che presentano i sintomi o le condizioni più gravi.
+
+02:30.710 --> 02:31.750
+Destra.
+
+02:31.800 --> 02:37.500
+Un altro modo per pensarci è dire che ci stiamo allineando per salire su un aereo.
+
+02:38.380 --> 02:46.060
+Abbiamo la prima persona che entra in fila e poi all'improvviso il capitano si presenta e perché il capitano
+
+02:46.150 --> 02:55.340
+dovrebbe salire sull'aereo prima di un normale passeggero che il capitano ottiene ora messo come priorità come la nota fondamentale perché il
+
+02:55.550 --> 03:02.680
+valore è più alto o al almeno in questo caso il valore è superiore al passeggero.
+
+03:02.690 --> 03:07.690
+Quindi diciamo che un passeggero si accende perché stiamo facendo l'inserimento da sinistra a destra.
+
+03:07.820 --> 03:10.340
+Mettiamo il passeggero a destra.
+
+03:10.520 --> 03:15.440
+Quindi ora sappiamo che lasceremo andare il capitano e poi il primo passeggero.
+
+03:15.440 --> 03:21.150
+Poi il secondo passeggero. Poi abbiamo una hostess che è entrata.
+
+03:21.210 --> 03:26.470
+Lui o lei dovrebbe arrivare prima dei passeggeri, ma non prima del capitano.
+
+03:26.930 --> 03:36.350
+Bene, in quel caso ancora una volta mettiamo la hostess sotto il capitano, ma a destra oa sinistra del
+
+03:36.410 --> 03:40.650
+passeggero e poi abbiamo un passeggero che arriva.
+
+03:40.670 --> 03:41.270
+Noi facciamo.
+
+03:41.300 --> 03:42.640
+Inserimento da sinistra a destra.
+
+03:42.680 --> 03:44.690
+Vediamo un posto giusto qui sotto.
+
+03:44.750 --> 03:47.970
+Quindi li abbiamo posizionati qui.
+
+03:48.220 --> 03:55.720
+Vediamo quindi come tutto sia bilanciato, il che è bello, ma è anche molto facile per noi portare le persone nell'aereo
+
+03:56.230 --> 04:02.110
+perché conosciamo l'ordine in cui andiamo dall'alto, poi a sinistra, poi a destra, poi a sinistra
+
+04:02.110 --> 04:04.060
+e poi a sinistra.
+
+04:04.060 --> 04:04.380
+Destra.
+
+04:04.390 --> 04:07.600
+E continuiamo a continuare ad andare avanti.
+
+04:07.600 --> 04:10.510
+Conosciamo la priorità molto facilmente.
+
+04:10.510 --> 04:13.930
+Sono sicuro che vedi dove questo potrebbe essere utile in molte situazioni.
+
+04:14.980 --> 04:18.390
+Per esaminare abbiamo appreso quali sono gli alberi di ricerca binaria.
+
+04:18.460 --> 04:24.780
+Sono fantastici ma a volte gli heap binari o le code di priorità sono ancora meglio.
+
+04:25.090 --> 04:30.730
+Sebbene la ricerca attraverso un heap binario sia molto più lenta di un albero di ricerca binario.
+
+04:30.760 --> 04:39.520
+Hai un'idea di priorità perché l'inserimento è fatto in modo da sapere chi dovrebbe essere il primo che dovrebbe essere il secondo a chi
+
+04:39.520 --> 04:40.630
+dovrebbe essere.
+
+04:40.630 --> 04:47.430
+Terzo, e anche se dovremmo essere costretti a presentare inserti ogni tanto se c'è qualcuno che
+
+04:47.460 --> 04:49.740
+ha una priorità molto alta.
+
+04:49.830 --> 04:56.730
+La maggior parte delle volte si ottengono inserimenti veramente veloci con heap binari e, come menzionato, le ricerche sono lente ma si desidera
+
+04:57.060 --> 05:02.870
+utilizzare gli heap binari quando si è interessati solo a trovare il massimo o a trovare il minimo.
+
+05:02.910 --> 05:09.450
+Se è un heap minimo e molte volte negli heap binari nelle code di priorità, hai un metodo chiamato
+
+05:09.660 --> 05:11.530
+trova Max o trova uomini.
+
+05:11.580 --> 05:19.050
+Questo è tutto perché si sa subito che il nodo radice superiore è il massimo o il minimo.
+
+05:19.080 --> 05:23.120
+Quindi per quelle operazioni è davvero molto veloce e grandioso.
+
+05:23.350 --> 05:24.730
+E il gioco è fatto.
+
+05:24.760 --> 05:26.140
+Ci vediamo nel prossimo video.
+
+05:26.510 --> 05:26.800
+Buh-Bye.

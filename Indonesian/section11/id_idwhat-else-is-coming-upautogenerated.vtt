@@ -1,0 +1,61 @@
+WEBVTT
+
+00:01.490 --> 00:02.590
+Di sana kita memilikinya.
+
+00:02.780 --> 00:06.490
+Kami baru saja menyelesaikan bagian struktur data kami.
+
+00:06.710 --> 00:15.380
+Kami telah melalui semua struktur data ini, bahkan beberapa sub struktur data dan Anda tidak ingin. Kami telah menyelesaikan
+
+00:15.440 --> 00:17.810
+banyak peta pikiran ini.
+
+00:18.020 --> 00:21.400
+Kami sudah bicara tentang array.
+
+00:21.770 --> 00:23.750
+Kami sudah bicara tentang tumpukan dan Qs.
+
+00:23.870 --> 00:31.110
+Kita sudah bicara tentang tabel hash yang ditautkan daftar pohon dan semua jenis pohon yang kita miliki.
+
+00:31.160 --> 00:37.510
+Kami bahkan berbicara tentang grafik semua kotak kecil yang merupakan struktur data.
+
+00:37.730 --> 00:41.600
+Kami sekarang memiliki pemahaman tentang apa itu dan bagaimana mereka digunakan.
+
+00:42.350 --> 00:48.590
+Tapi ada beberapa bagian lain dari peta saya yang harus kita lalui dan itu adalah
+
+00:48.590 --> 00:53.900
+algoritma dan Anda akan melihat algoritma yang digambarkan di sini di rocketship.
+
+00:54.000 --> 01:01.890
+Bagian terakhir dari teka-teki kami tetapi Anda mungkin masih memiliki beberapa pertanyaan yang belum dijawab dan
+
+01:01.890 --> 01:09.430
+ada beberapa hal yang saya tinggalkan karena mereka lebih menerapkan algoritma ketika harus menyortir.
+
+01:09.450 --> 01:14.920
+Kita akan menggunakan array dan Treece ketika datang ke pemrograman dinamis.
+
+01:15.030 --> 01:20.760
+Kita akan berbicara tentang tabel hash ketika kita berbicara tentang pencarian pertama luas
+
+01:20.760 --> 01:28.360
+dan pencarian pertama mendalam yang digunakan dalam grafik dan rekursi pohon. Nah itu banyak muncul di pohon juga.
+
+01:28.380 --> 01:36.600
+Jadi sekarang kita memiliki dasar-dasar kita untuk struktur data, kita sekarang siap untuk berbicara tentang algoritma ini
+
+01:36.810 --> 01:44.400
+yang banyak muncul dalam wawancara karena kita sekarang mengerti bagaimana struktur data bekerja kita dapat
+
+01:44.400 --> 01:49.860
+berbicara tentang algoritma secara cerdas dan memahaminya secara mendasar. tingkat.
+
+01:49.890 --> 01:51.420
+Sampai jumpa di bagian algoritma.

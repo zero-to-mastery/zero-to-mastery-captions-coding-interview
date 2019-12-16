@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.090 --> 00:02.080
+Witamy spowrotem.
+
+00:02.080 --> 00:05.260
+Porozmawiajmy teraz o głębokim pierwszym wyszukiwaniu.
+
+00:05.320 --> 00:09.230
+Wdrożyliśmy nasze pierwsze poszukiwania oddechu i czujemy się z tym dobrze.
+
+00:09.340 --> 00:17.320
+Ale co z głębokim pierwszym przeszukaniem spływającym po drzewie i odkrywaniem najgłębszej części tego drzewa,
+
+00:17.350 --> 00:18.980
+zanim wrócimy.
+
+00:19.990 --> 00:22.630
+I zbadaj także prawą stronę drzewa.
+
+00:23.500 --> 00:30.160
+A kiedy dochodzi do głębokiego pierwszego wyszukiwania, musimy zdawać sobie sprawę, że istnieją trzy sposoby, w jakie możemy
+
+00:30.550 --> 00:31.410
+go wdrożyć.
+
+00:32.330 --> 00:36.710
+Nazywa się to w przedsprzedaży w zamówieniu i porządku pocztowym.
+
+00:36.960 --> 00:42.620
+Zapamiętaj, jak mamy listę, którą mamy z oddechem do wyszukiwania.
+
+00:42.970 --> 00:49.590
+Cóż, istnieją trzy różne zamówienia, które możemy zwrócić z pierwszą głębią wyszukiwania.
+
+00:49.780 --> 00:54.390
+Pierwszy nazywa się w kolejności i wygląda na coś podobnego.
+
+00:54.430 --> 00:59.280
+Idziemy z 33 101 105.
+
+00:59.740 --> 01:06.300
+Nazywa się to zamówieniem, ponieważ w drzewie wyszukiwania binarnego daje wszystko w porządku.
+
+01:06.450 --> 01:17.990
+Jeśli przyjrzymy się tej liście lub temu drzewu Idealnie w kolejności w kolejności przy użyciu pierwszego wyszukiwania w głębi,
+
+01:18.680 --> 01:21.200
+otrzymamy coś takiego.
+
+01:21.260 --> 01:37.300
+Otrzymalibyśmy wtedy 6, bo idziemy 1 4 6, a potem 9, a potem schodzimy do 15, a potem
+
+01:37.540 --> 01:45.560
+wracamy do 20, a potem do 1 70.
+
+01:45.590 --> 01:50.260
+Jest w porządku, ponieważ dobrze się przyjrzeć, że wszystko jest w porządku.
+
+01:50.260 --> 01:55.580
+Jest to bardzo przydatne, jeśli masz drzewo wyszukiwania binarnego w ten sposób.
+
+01:55.690 --> 01:57.590
+A teraz sposób, w jaki możesz go zwrócić.
+
+01:58.030 --> 02:08.320
+Nazywa się to zamówieniem wstępnym, a zamówienie wstępne zaczyna się od węzła nadrzędnego do 33, a następnie do 105.
+
+02:08.490 --> 02:17.560
+Zaczynamy od rodzica, a następnie pobieramy węzły potomne od lewej do prawej, w naszym przypadku
+
+02:17.710 --> 02:28.460
+wyglądałoby to tak, że zaczynamy od dziewiątki, ponieważ jest to rodzic 1, a następnie łapiemy, ponieważ jest to
+
+02:28.460 --> 02:36.560
+następny na liście i potem jedziemy, gdy przechodzimy całą drogę w dół.
+
+02:36.630 --> 02:42.940
+Pamiętaj, że robimy głębokie pierwsze wyszukiwanie, aż do samego dołu, a ponieważ
+
+02:42.940 --> 02:56.120
+dotarliśmy na sam dół, teraz cofamy się do 6, więc widzimy tutaj, że zrobiliśmy 4 1 6, a następnie przechodzimy na prawą stronę do 20 i
+
+02:56.120 --> 03:06.260
+następnie chwyć 15, a następnie 170 i pytasz siebie, że wydaje się to bezużyteczne, dlaczego mielibyśmy kiedykolwiek chcieć skorzystać
+
+03:06.260 --> 03:07.540
+z przedsprzedaży.
+
+03:07.550 --> 03:13.760
+Chodzi mi o to, żeby wszystko było w porządku, dlaczego mielibyśmy kiedykolwiek tego potrzebować, a zamówienie wstępne jest
+
+03:13.820 --> 03:16.620
+naprawdę przydatne, jeśli chcemy na przykład odtworzyć drzewo.
+
+03:16.730 --> 03:17.780
+Dobrze.
+
+03:17.780 --> 03:22.230
+Ponieważ z preorder mogę po prostu iść dziewięć jest węzłem głównym.
+
+03:22.310 --> 03:31.970
+Następnie mamy cztery jako lewą stronę po lewej stronie, a następnie sześć po
+
+03:31.970 --> 03:38.630
+prawej 20 po 9 15, a następnie 170.
+
+03:38.660 --> 03:47.530
+Możemy odtworzyć drzewo naprawdę łatwo, ponieważ jest ono zamówione w stosunku do metody w kolejności, która nie ma
+
+03:47.540 --> 03:53.570
+takiej kolejności, jakiej chcieliśmy, jeśli chcielibyśmy odtworzyć drzewo w inny sposób.
+
+03:53.570 --> 04:02.430
+Ostatnim sposobem na zrobienie tego jest "Kolejność postów", a kolejność postów to ostatnia opcja, która idzie
+
+04:02.430 --> 04:03.550
+w dół.
+
+04:03.790 --> 04:09.220
+Chwytając 33 i 1 do 5 następnie przechodząc na górę do drugiego rodzica.
+
+04:09.380 --> 04:13.410
+Więc 33 1 do 5 1 do 1.
+
+04:13.420 --> 04:26.150
+Tak więc w naszym przypadku post uporządkowana głębia pierwsze wyszukiwanie będzie wyglądało jak jeden, a następnie sześć, a
+
+04:26.150 --> 04:40.070
+następnie cztery, a następnie cofanie aż do wartości 15 niż 170, a następnie 20, a następnie 9, najpierw szukamy lewej strony.
+
+04:40.070 --> 04:45.710
+Dzieci przychodzą przed rodzica, a następnie najpierw przeszukujemy prawą stronę, a dzieci
+
+04:45.710 --> 04:47.640
+przychodzą przed rodzicem.
+
+04:47.640 --> 04:56.680
+Teraz te trzy typy zamówień są naprawdę specyficzne i chociaż może wydawać się kłopotliwe, zobaczysz, że kiedy piszemy
+
+04:56.680 --> 05:01.130
+to w kodzie, nie jest to takie trudne.
+
+05:01.240 --> 05:07.930
+Musisz tylko wiedzieć, że jeśli chodzi o pierwsze wyszukiwanie, masz do dyspozycji trzy
+
+05:08.110 --> 05:12.940
+rodzaje przejazdów, które możesz zastosować w zależności od potrzeb.
+
+05:13.720 --> 05:19.000
+Ale najprostszym sposobem, aby pokazać, jak to działa, jest to, co należy zrobić w kodzie.
+
+05:19.210 --> 05:20.550
+Zróbmy to w następnym filmie.

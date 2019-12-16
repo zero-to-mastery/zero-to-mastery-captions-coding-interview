@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.990 --> 00:02.220
+Bine ai revenit.
+
+00:02.220 --> 00:09.210
+Să vorbim despre al cincilea algoritm de sortare rapid, chiar și doar de la numele pe care îl gândiți nu.
+
+00:09.360 --> 00:11.250
+Acest lucru va fi rapid.
+
+00:11.250 --> 00:15.810
+Tipul rapid de sortare este un algoritm de divizare și cucerire.
+
+00:17.040 --> 00:23.400
+Ceea ce înseamnă și ar trebui să sune un clopot în capul tău, spunând că probabil va fi totul și
+
+00:23.510 --> 00:26.840
+vă logați și dacă vă gândiți că aveți dreptate.
+
+00:27.880 --> 00:33.900
+Vedeți că rapidul utilizează ceva numit tehnică de pivotare pentru a sparge lista principală în liste mai
+
+00:34.620 --> 00:39.690
+mici și aceste liste mai mici utilizează tehnica de pivotare până când sunt sortate.
+
+00:40.120 --> 00:42.290
+Dar permiteți-mi să vă arăt o animație rapidă.
+
+00:43.420 --> 00:47.040
+Quicksort funcționează astfel.
+
+00:47.160 --> 00:51.770
+Și dacă te uiți la această diagramă ca și cum sunt și ești complet confuză cu privire la
+
+00:52.350 --> 00:55.310
+ceea ce se întâmplă acest lucru descrie rapidsort destul de bine.
+
+00:55.320 --> 00:59.040
+E destul de complex să înțelegi.
+
+00:59.080 --> 01:01.400
+Permiteți-mi să vă arăt o demonstrație mai bună.
+
+01:03.910 --> 01:05.630
+Am o mică diagramă aici.
+
+01:05.890 --> 01:09.960
+Să presupunem că avem o listă care arată așa.
+
+01:10.090 --> 01:19.290
+Avem 3 7 8 9 5 2 1 9 5 4 ceea ce facem aici este alegerea unui pivot aleatoriu.
+
+01:19.420 --> 01:23.540
+Să spunem că 4 va fi pivotul nostru.
+
+01:23.600 --> 01:31.610
+Odată ce vom alege acest element pivot, vom spune bine că vreau ca toate numerele care sunt mai mici de 4 să
+
+01:31.610 --> 01:37.540
+vină la stânga și toate numerele care sunt mai mari de 4 să ajungă la dreapta.
+
+01:39.470 --> 01:40.500
+Deci ce facem.
+
+01:40.700 --> 01:45.430
+Ei bine, începem să comparăm numerele pe care le privim la trei și patru.
+
+01:45.580 --> 01:45.990
+In regula.
+
+01:46.010 --> 01:48.020
+Trei este la stânga a patru care este bine.
+
+01:48.020 --> 01:50.370
+Dar pentru 7 m.
+
+01:50.610 --> 01:54.650
+Șapte sunt mai mari decât patru, așa că trebuie să fie corect.
+
+01:54.650 --> 02:04.200
+Vom muta patru în poziția din stânga pentru a face loc șapte șapte șomeri peste dreapta
+
+02:04.710 --> 02:11.990
+și vom schimba cele cinci care au intrat în poziția șapte.
+
+02:12.200 --> 02:14.440
+Și acum verificăm cinci și patru.
+
+02:14.710 --> 02:15.950
+Trebuie să facem același lucru.
+
+02:15.980 --> 02:22.130
+Am pus cinci în dreapta a patru și așa nouă înăuntru nouă din nou nouă este mai mare de patru.
+
+02:22.130 --> 02:24.600
+Deci, 9 vine la dreapta de 4.
+
+02:24.710 --> 02:26.120
+Apoi ne uităm la opt.
+
+02:26.120 --> 02:27.460
+Același lucru cu ură.
+
+02:27.470 --> 02:29.910
+Și apoi în cele din urmă cinci și patru.
+
+02:30.120 --> 02:34.610
+Ei bine, patru și cinci locuri de comutare.
+
+02:34.850 --> 02:39.280
+Și acum avem o listă care are patru ca pivot.
+
+02:39.440 --> 02:46.280
+Și știm că patru vor fi în acea poziție în matrice și orice altceva la stânga și în
+
+02:46.280 --> 02:49.490
+partea dreaptă trebuie încă să fie sortată.
+
+02:49.670 --> 02:55.290
+Dar cel puțin știm unde se află patru de acolo, folosind diviziune și cucerire.
+
+02:55.550 --> 02:59.130
+Acum divizăm lista și facem același lucru.
+
+02:59.150 --> 03:06.950
+Obținem un pivot pe lista stângă, care va fi 2 și spunem că totul la dreapta a 2 ar trebui să fie mai mare.
+
+03:06.950 --> 03:08.970
+Totul la stânga a două ar trebui să fie mai mic.
+
+03:09.170 --> 03:17.010
+Și avem această listă stângă sortată pe dreapta facem același lucru până când împărțim lista cu 7 în mijloc și
+
+03:17.010 --> 03:22.190
+vom continua să rupem lucrurile să păstrăm lucrurile jos ca un copac.
+
+03:22.320 --> 03:24.230
+Și de aici vine și divizarea și cucerirea.
+
+03:24.390 --> 03:30.150
+Până când toate listele individuale vor fi sortate și le vom combina.
+
+03:30.210 --> 03:35.360
+Acum puteți avea două întrebări pentru că mă uit la asta.
+
+03:35.580 --> 03:39.990
+Una este cum vom alege chiar acest punct pivot.
+
+03:40.350 --> 03:42.070
+Și asta e un fel de aleatoriu.
+
+03:42.090 --> 03:44.210
+Chiar depinde de situație.
+
+03:44.220 --> 03:51.150
+Dar, după cum vedeți aici, se va întâmpla să alegeți punctul pivot ca întotdeauna ultimul element din matrice.
+
+03:51.210 --> 03:56.900
+Al doilea este cum voi codifica vreodată acest lucru.
+
+03:57.020 --> 04:00.210
+Și acest lucru este destul de provocator și nu mă aștept să-l obțineți.
+
+04:00.280 --> 04:06.980
+Voi lăsa codul pentru dvs. și îl puteți încerca dacă doriți, dar cel mai bun
+
+04:07.280 --> 04:12.890
+mod de a înțelege rapidul este dansul meu maghiar preferat vreodată.
+
+04:12.920 --> 04:14.470
+Nu voi juca asta pentru tine.
+
+04:14.480 --> 04:18.770
+Puteți juca singur, dar jur că aș putea să mă uit toată ziua.
+
+04:18.770 --> 04:20.240
+Cred că dansul este minunat.
+
+04:20.360 --> 04:21.700
+Muzica este minunată.
+
+04:21.880 --> 04:25.420
+Și dacă accelerați până la două ori, este chiar mai bine.
+
+04:26.760 --> 04:29.640
+Aici, în acest videoclip, permiteți-mi să dezactivez acest lucru.
+
+04:29.640 --> 04:36.780
+Veți vedea că această persoană din Black Hat va fi pivotul și toată lumea compară persoana din Red Hat
+
+04:36.780 --> 04:45.530
+este pointerul pe care îl cred sau elementul care este comparat cu pivotul și veți vedea aici că în curând când ajungem la
+
+04:45.530 --> 04:51.620
+această persoană este numărul trei, ei vor spune bine că ar trebui să fii la
+
+04:51.620 --> 04:53.060
+stânga pentru mine.
+
+04:53.150 --> 04:55.080
+Deci vor dansa.
+
+04:55.130 --> 04:56.900
+Prin modul în care se mișcă dansul grozav.
+
+04:56.930 --> 04:58.150
+Trebuie să învăț pașii ăștia.
+
+04:58.550 --> 05:03.880
+Și două și trei se află acum în locuri diferite.
+
+05:05.880 --> 05:09.050
+Și acum comparăm 0 și trei.
+
+05:09.140 --> 05:15.550
+Acum, această implementare și vizuale pe care tocmai vi le-am arătat sunt puțin diferite.
+
+05:15.920 --> 05:19.630
+Dar ideea este aceeași rapidă poate fi implementată în moduri diferite.
+
+05:19.760 --> 05:22.310
+Dar ideea unui pivot este aceeași.
+
+05:22.310 --> 05:30.290
+Vă încurajez să vizionați acest videoclip pentru a înțelege pe deplin cum funcționează sub capota, dar să trecem peste
+
+05:30.290 --> 05:31.580
+principalele concepte.
+
+05:32.610 --> 05:40.040
+Quicksort este într-adevăr foarte util și între quicksort și Merceron aș spune că aceștia sunt cei
+
+05:40.100 --> 05:42.980
+mai folosiți algoritmi de sortare.
+
+05:43.150 --> 05:45.520
+Veți observa cele două lucruri.
+
+05:45.610 --> 05:51.320
+Una este că complexitatea spațiului de sortare rapidă joacă foarte bine.
+
+05:51.370 --> 05:57.580
+Vreau sa spun ca nu este la fel de bun ca sortarea sau sortarea cu balon sau un
+
+05:57.600 --> 06:06.410
+sortiment de sortare, dar este inca mai bun decat Murchu in cel mai rau caz al lui este 0 si pătrat, deoarece se poate termina când este
+
+06:06.410 --> 06:13.890
+pătrat când pivotul este cel mai mic sau cel mai mare element din lista pentru că atunci nu împărțiți lista în jumătate.
+
+06:14.000 --> 06:19.420
+Și din acest motiv, într-adevăr doriți să vă asigurați că alegeți un pivot bun pentru rapid.
+
+06:19.610 --> 06:25.040
+Vei obține o complexitate mai mare a spațiului, dar cel mai rău caz ar putea fi rău.
+
+06:25.070 --> 06:31.420
+Deci, în acele cazuri, fuziunea ar putea fi mai bună dacă lista dvs. a fost presortată din orice motiv.
+
+06:31.580 --> 06:37.350
+Și în această listă, dacă vom alege pivotul ca fiind primul element sau ultimul element, rutina noastră de sortare
+
+06:37.560 --> 06:43.940
+va dura foarte mult timp pentru că din nou lista nu va fi deloc împărțită la jumătate și în mod ideal
+
+06:43.940 --> 06:48.710
+într-un fel rapid pe care îl alegeți pivotul se bazează inteligent pe lista dvs.
+
+06:48.890 --> 06:55.310
+Acum există o variantă foarte rapidă și există implementări diferite.
+
+06:55.480 --> 06:58.350
+Dar vreau să renunți la acest film.
+
+06:58.370 --> 07:05.970
+Quicksort-ul este, de obicei, cel mai rapid în medie, dar singurul dezavantaj este că are niște comportamente
+
+07:05.980 --> 07:07.660
+destul de urâte.
+
+07:07.660 --> 07:14.800
+Deci, dacă nu trebuie să garantați niciun fel de date proaste sau puteți garanta că pivotul va fi bun, atunci ar
+
+07:14.830 --> 07:16.600
+trebui să evitați rapid.
+
+07:16.630 --> 07:21.940
+Dar, în medie, este de obicei cel mai bun algoritm de sortare.
+
+07:22.000 --> 07:22.590
+In regula.
+
+07:22.670 --> 07:30.420
+Așa că am învățat cinci algoritmi de sortare diferite, dar cea mai importantă parte este când trebuie
+
+07:30.590 --> 07:37.820
+să folosesc ceea ce vom urmări în următorul videoclip, urmat de un exercițiu puțin distractiv.
+
+07:38.090 --> 07:38.930
+O să văd în acel.

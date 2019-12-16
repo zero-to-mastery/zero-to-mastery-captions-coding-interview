@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.630 --> 00:08.240
+Selamat datang kembali yang Anda lihat di peta pikiran kita di sini bahwa kita sekarang berada di bagian penyortiran dan
+
+00:08.300 --> 00:12.950
+pertunjukan besar ini dan lagi sesuatu yang belum kita bicarakan muncul.
+
+00:12.980 --> 00:15.280
+Kita akan membahasnya di bagian ini.
+
+00:16.010 --> 00:17.770
+Tapi saya ingin menambahkan catatan singkat di sini.
+
+00:17.870 --> 00:23.840
+Melihat semua algoritma pengurutan ini dan ada banyak lagi, penting untuk dicatat bahwa
+
+00:23.840 --> 00:32.060
+Anda tidak perlu menulis algoritma pengurutan dari awal yang paling mungkin dalam kerangka kerja karir Anda biasanya melakukannya untuk
+
+00:32.060 --> 00:32.920
+kami.
+
+00:33.810 --> 00:39.660
+Namun Anda perlu tahu bagaimana mereka bekerja karena sementara satu Anda kemungkinan besar akan diminta dalam
+
+00:39.840 --> 00:44.390
+wawancara dan dua karena itu membuat Anda seorang insinyur yang lebih baik.
+
+00:44.580 --> 00:47.670
+Tetapi bagian ini juga tentang menjadi efisien.
+
+00:47.670 --> 00:53.070
+Anda lihat, Anda dapat menghabiskan banyak waktu pada masing-masing bagian ini menerapkan bagian Anda sendiri
+
+00:53.070 --> 01:00.060
+dan membicarakannya secara mendalam karena saya pikir saya tidak pernah mendengar ada orang yang benar-benar harus mengimplementasikan kode apa pun
+
+01:00.290 --> 01:01.280
+secara manual.
+
+01:01.400 --> 01:06.900
+Algoritma pengurutan sebagian besar waktu Anda hanya bisa membicarakannya atau pewawancara memberitahu Anda bahwa array
+
+01:06.900 --> 01:13.350
+diurutkan dan Anda perlu tahu apa yang harus dilakukan dengan itu tetapi menerapkannya dari awal yang tidak benar-benar
+
+01:13.350 --> 01:14.130
+terjadi.
+
+01:14.340 --> 01:19.090
+Tapi saya sudah memasukkannya di bagian ini karena ada baiknya mengetahui cara kerjanya.
+
+01:20.050 --> 01:25.430
+Dan saya tidak akan suka algoritma penyortiran kode bukan favorit saya juga.
+
+01:25.450 --> 01:26.850
+Jangan biarkan itu menghalangi Anda.
+
+01:27.880 --> 01:34.240
+Saya mendorong Anda untuk menonton beberapa video berikutnya dan bahkan berlatih coding algoritma penyortiran Anda sendiri
+
+01:34.690 --> 01:36.860
+karena akan membantu pembelajaran Anda.
+
+01:36.970 --> 01:42.940
+Tetapi hal utama yang akan kita dapatkan dari bagian ini bukanlah bagaimana mengimplementasikan ini, maksud saya kita
+
+01:42.940 --> 01:43.960
+akan melakukannya.
+
+01:44.110 --> 01:51.480
+Tapi kuncinya adalah pengorbanan yang Anda lihat kami memiliki cheat besar di sini di sini yang kami pasti tahu tentang benar.
+
+01:51.490 --> 01:54.720
+Kami berbicara tentang struktur data dan bagaimana ada pengorbanan.
+
+01:55.090 --> 01:59.610
+Nah ketika datang untuk menyortir ada pengorbanan juga.
+
+02:00.300 --> 02:06.180
+Anda melihat bagaimana ada kompleksitas waktu pengorbanan kompleksitas ruang pengorbanan dan penting
+
+02:06.180 --> 02:09.950
+untuk mengetahui kapan harus menggunakan algoritma apa.
+
+02:09.990 --> 02:12.010
+Itulah tujuan kami dari bagian ini.
+
+02:12.120 --> 02:19.110
+Dan sebelum kita masuk ke algoritma sorting pertama kami, saya ingin menunjukkan kepada Anda alat kecil yang bagus yang akan
+
+02:19.110 --> 02:20.150
+saya tautkan.
+
+02:20.190 --> 02:22.710
+Kami memiliki beberapa algoritma penyortiran.
+
+02:22.800 --> 02:29.430
+Kami memiliki jenis pilihan penyisipan semacam gelembung semacam shell menggabungkan tumpukan dan kemudian dua
+
+02:29.430 --> 02:30.460
+variasi quicksort.
+
+02:31.830 --> 02:35.150
+Dan kami juga memiliki set data yang berbeda.
+
+02:35.160 --> 02:37.250
+Ini adalah kumpulan data acak.
+
+02:37.260 --> 02:39.700
+Lihat bagaimana kinerjanya ketika saya mengklik di sini.
+
+02:40.580 --> 02:45.400
+Berdasarkan algoritma pengurutan yang berbeda, lihat bahwa semuanya berfungsi.
+
+02:45.650 --> 02:50.160
+Dan semuanya selesai pada waktu yang berbeda.
+
+02:50.220 --> 02:59.800
+Satu jauh lebih lambat daripada yang lain bagaimana dengan hampir disortir lagi satu seperti jenis penyisipan benar-benar sangat
+
+02:59.800 --> 03:08.170
+cepat sementara yang lain lebih lambat terbalik jika item dibalik dan kita perlu mengurutkannya sepenuhnya
+
+03:08.170 --> 03:11.750
+terbalik daftar lagi algoritma yang berbeda
+
+03:12.810 --> 03:14.400
+Lakukan berbeda.
+
+03:14.530 --> 03:18.750
+Tidak pernah ada yang menang atas yang lain tergantung pada input.
+
+03:18.810 --> 03:28.390
+Sementara kita perlu melakukan kemampuan mereka yang berbeda mari kita mulai belajar tentang berbagai jenis algoritma penyortiran ini sehingga pada akhir video ini
+
+03:28.390 --> 03:35.230
+kita dapat membuat keputusan yang tepat kapan harus menggunakan apa yang akan saya lihat di yang
+
+03:35.230 --> 03:36.120
+berikutnya.

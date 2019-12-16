@@ -1,0 +1,94 @@
+WEBVTT
+
+00:01.060 --> 00:08.390
+Kami akan kembali sampai titik ini kita sudah bicara tentang algoritma pengurutan yang tidak sangat
+
+00:08.780 --> 00:17.710
+efisien dan tidak umum digunakan sekarang jenis penyisipan juga bukan algoritma yang paling efisien tetapi ada kasus di
+
+00:17.720 --> 00:22.600
+mana itu sebenarnya sangat cepat yang kami akan dibicarakan.
+
+00:22.820 --> 00:26.780
+Jadi perhatikan karena yang ini mulai penting.
+
+00:26.930 --> 00:33.620
+Anda melihat penyisipan berguna untuk saat-saat ketika Anda cukup yakin daftar mereka hampir diurutkan.
+
+00:34.580 --> 00:35.970
+Atau sudah diurutkan.
+
+00:36.230 --> 00:43.020
+Kedengarannya konyol tapi kadang-kadang ini penting dalam ilmu komputer dan dalam skenario kasus terbaik.
+
+00:43.220 --> 00:48.100
+Anda bisa mendapatkan semua dan atau waktu linear ketika daftar hampir diurutkan.
+
+00:48.470 --> 00:49.860
+Mari kita lihat cara kerjanya.
+
+00:49.880 --> 00:53.620
+Kami memiliki daftar dan kami melihat enam.
+
+00:53.660 --> 00:56.350
+Kami melihat tanda pertama dan meninggalkannya di tempatnya.
+
+00:56.420 --> 01:06.650
+Kita sekarang melihat item 5 berikutnya dan karena lima kurang dari enam kita beralih dan kemudian kita masuk ke daftar kita
+
+01:06.690 --> 01:13.040
+katakan hei 3 di mana Anda dalam kaitannya dengan lima dan enam bola.
+
+01:13.080 --> 01:15.460
+Itu kurang dari keduanya.
+
+01:15.510 --> 01:20.380
+Jadi kami menggeser mereka dan tiga ditempatkan di depan.
+
+01:20.470 --> 01:23.420
+Jadi sekarang kita memiliki daftar 3 5 6 ini.
+
+01:23.500 --> 01:30.520
+Kami melihat satu dan berkata oh ya itu item pertama yang kami ingin menggeser semuanya ke kiri.
+
+01:30.520 --> 01:31.640
+Kami kemudian melihat delapan.
+
+01:31.870 --> 01:37.270
+Nah delapan lebih besar dari semua item jadi mari kita lampirkan ke akhir daftar kami.
+
+01:37.850 --> 01:40.580
+Tujuh bola berkisar antara enam dan delapan.
+
+01:40.580 --> 01:52.230
+Jadi letakkan di sana antara 1 dan 3 letakkan di sana dan 4 tempat antara 5 atau 3 dan 5 dan
+
+01:55.320 --> 01:56.450
+hanya itu.
+
+01:56.460 --> 02:01.880
+Ini mungkin cara otak Anda bekerja jika Anda secara fisik memiliki Lego blok dengan
+
+02:01.920 --> 02:06.680
+angka-angka ini dan Anda akan memindahkan barang dan jenis penyortiran ini.
+
+02:06.680 --> 02:13.160
+Berkinerja sangat baik ketika datang ke set data kecil yang akan kita bahas nanti dengan ukuran
+
+02:13.170 --> 02:14.020
+keluar kita.
+
+02:14.300 --> 02:21.340
+Tetapi bisakah Anda melakukan jenis penyortiran dalam kode ini untuk melihat apakah ia dapat mengimplementasikan jenis penyisipan Anda sendiri.
+
+02:22.220 --> 02:23.690
+Sama seperti sebelumnya.
+
+02:23.750 --> 02:31.970
+Kali ini kami memiliki algoritme penyisipan berdasarkan video dan penari YouTube tautannya.
+
+02:32.290 --> 02:36.650
+Bisakah Anda menerapkan algoritma penyisipan Anda sendiri di video berikutnya.
+
+02:36.670 --> 02:37.460
+Saya akan menunjukkan jawabannya.

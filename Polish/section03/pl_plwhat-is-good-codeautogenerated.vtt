@@ -1,0 +1,247 @@
+WEBVTT
+
+00:01.230 --> 00:06.800
+Są dwie główne rzeczy, o których mówimy, gdy mówimy, że to dobry kod.
+
+00:07.050 --> 00:10.890
+Ale zanim pokażę ci, co myślisz, dobry kod.
+
+00:10.950 --> 00:11.870
+Pomyśl o tym.
+
+00:11.940 --> 00:15.700
+Co powiesz komuś, jeśli poprosisz ich o napisanie dobrego kodu?
+
+00:16.520 --> 00:24.180
+Dobra, podam ci odpowiedź, którą widzisz, dobry kod można opisać w dwóch rzeczach lub dwóch punktach.
+
+00:24.410 --> 00:31.700
+Jednym z nich jest czytelność, twój kod jest generalnie czysty.
+
+00:31.700 --> 00:33.850
+Czy inni mogą zrozumieć twój kod.
+
+00:34.160 --> 00:37.580
+A potem mamy skalowalny kod.
+
+00:37.760 --> 00:38.800
+Co to znaczy.
+
+00:39.140 --> 00:49.930
+No cóż, notacja Big-O pozwala nam zmierzyć tę ideę skalowalnego kodu, który może skalować coś, do czego mamy zamiar
+
+00:49.930 --> 00:55.280
+wejść, a staniesz się bardziej zaznajomiony z tą sekcją.
+
+00:55.480 --> 01:00.550
+Będziemy także rozmawiać o czytelnym kodzie przez cały ten kurs, ale w następnej
+
+01:00.550 --> 01:03.090
+części zajmiemy się nim trochę więcej.
+
+01:03.220 --> 01:09.240
+Ale na razie, ponieważ jest to duża sekcja O, skupiamy się na idei skalowalnego kodu.
+
+01:09.520 --> 01:12.510
+Ok, co to naprawdę znaczy.
+
+01:12.940 --> 01:17.600
+Chcę, żebyś sobie wyobraził, że mamy zadanie, w którym chcemy upiec ciasto.
+
+01:18.010 --> 01:27.030
+Mamy przepis na ten przepis i ten przepis, który będziemy używać w naszej kuchni, żeby upiec ciasto.
+
+01:27.250 --> 01:31.040
+I jest dobry sposób na pieczenie ciasta i złej drogi.
+
+01:31.080 --> 01:32.640
+Dobrze.
+
+01:32.700 --> 01:34.450
+Przekazujemy instrukcje.
+
+01:34.470 --> 01:35.690
+To jest ich przepis.
+
+01:35.880 --> 01:43.710
+I mam nadzieję, że ten przepis i instrukcje dobrze sprawdzą się w naszej kuchni, abyśmy mogli szybko upiec ciasto
+
+01:44.400 --> 01:46.370
+i zrobić dobre ciasto.
+
+01:46.680 --> 01:49.300
+Cóż, komputery to maszyny.
+
+01:50.020 --> 01:54.180
+A te maszyny muszą działać, aby wyprodukować coś dla nas.
+
+01:54.370 --> 02:01.490
+Komputery pracują w ten sam sposób, w jaki mamy instrukcje, które przekazujemy za pomocą
+
+02:01.510 --> 02:08.020
+kodu i instrukcji, które podajemy naszym maszynom, nasze komputery podają te instrukcje,
+
+02:08.170 --> 02:13.660
+które dostarczają nam jakiegoś wyjścia, na przykład, aby włączyć światło.
+
+02:13.660 --> 02:18.600
+Dajemy komputerowi instrukcję, by powiedzieć, że włącza światło w naszym pokoju.
+
+02:18.880 --> 02:24.730
+Koder jest osobą, która podaje te instrukcje tak, jak jest wiele sposobów, aby wziąć
+
+02:24.730 --> 02:31.930
+ciasto do kuchni lub tak, jak jest wiele sposobów upieczenia ciasta w kuchni z wieloma składnikami składników
+
+02:31.930 --> 02:33.060
+i instrukcjami.
+
+02:33.070 --> 02:36.780
+Istnieje wiele sposobów rozwiązania problemu za pomocą kodu.
+
+02:37.000 --> 02:40.690
+Są skutecznym i nieefektywnym sposobem udzielania instrukcji.
+
+02:40.720 --> 02:42.950
+Przejdźmy więc do przykładu kodującego.
+
+02:43.090 --> 02:49.540
+Zamierzam użyć REPL thudded i jeśli nie jesteś zaznajomiony z tym Upewnij się, że sprawdzisz film, który mam
+
+02:49.540 --> 02:54.930
+wymieniony poniżej poniżej, który wyjaśnia, w jaki sposób możesz uruchomić swój kod w tym kursie.
+
+02:54.990 --> 03:02.680
+Chcesz się zalogować i już mam tutaj skonfigurowane środowisko javascript.
+
+03:03.890 --> 03:07.020
+A ja wolę mroczny motyw.
+
+03:07.030 --> 03:08.840
+Myślę, że wygląda lepiej na twoich oczach.
+
+03:09.590 --> 03:16.090
+Przynajmniej mam nadzieję, że nie przeszkadza ci ciemność, ale jak mogę pokazać tę ideę kodu.
+
+03:16.960 --> 03:18.660
+Zróbmy tutaj coś fajnego.
+
+03:18.910 --> 03:23.520
+Korzystając z javascriptu, powiem "Konst nimo".
+
+03:23.760 --> 03:36.890
+Mamy tablicę zawierającą ciąg Nimo i chcemy utworzyć tutaj funkcję o nazwie Find Nimo,
+
+03:36.890 --> 03:46.960
+która otrzyma tablicę i będzie to bardzo prosta funkcja.
+
+03:47.010 --> 03:52.890
+Zamierzamy stworzyć pętlę, którą zobaczycie w większości języków w javascript.
+
+03:52.890 --> 04:01.290
+Możemy to zrobić łatwo, mówiąc 4 i damy niech I równa się zero.
+
+04:01.870 --> 04:11.890
+I tak długo, jak jestem mniejszy niż tablica dot, czyli długość naszej tablicy, a za
+
+04:11.890 --> 04:15.230
+każdym razem będziemy wzrastać.
+
+04:16.810 --> 04:22.750
+Znowu nie jest to kurs javascript, więc mam nadzieję, że
+
+04:22.750 --> 04:33.360
+jest ci znany jakikolwiek rodzaj pętli w twoim języku, a my po prostu powiemy, że jeśli tablica jest równa nimo.
+
+04:33.470 --> 04:42.370
+Więc jeśli znajdziemy Nemo, po prostu utworzymy konsolę Daut log, która znalazła Nemo.
+
+04:42.810 --> 04:43.570
+Jesteśmy bardzo podekscytowani.
+
+04:43.620 --> 04:45.850
+Zabawa.
+
+04:45.850 --> 04:46.500
+W porządku.
+
+04:46.690 --> 04:47.560
+to jest to!
+
+04:47.600 --> 04:56.420
+I jeśli po prostu uruchomię funkcję, znajdź teraz Nemo, a my po prostu damy mu tablicę
+
+04:57.780 --> 05:03.940
+Nimo i upewnimy się, że poprawnie oznaczam dno i kliknę tutaj.
+
+05:05.370 --> 05:10.690
+Znaleźliśmy Nimo na prawym pasie, aby był trochę większy, żebyś mógł zobaczyć.
+
+05:10.730 --> 05:13.150
+Więc znaleźliśmy Nemo.
+
+05:13.280 --> 05:15.830
+To jest instrukcja, którą daliśmy komputerowi.
+
+05:16.130 --> 05:22.190
+Powiedzieliśmy, że mamy tablicę i mamy funkcję, którą chcemy wykonać, nazywa się
+
+05:22.210 --> 05:25.950
+Nemo, która pobiera tablicę, która jest nimo.
+
+05:26.130 --> 05:29.600
+Otrzyma tę tablicę.
+
+05:29.800 --> 05:32.030
+Potem przejdzie przez pętlę nad tablicą.
+
+05:32.560 --> 05:35.420
+Powiemy, że będę równa zero.
+
+05:35.860 --> 05:45.110
+A ponieważ mam teraz zero, a długość tablicy Nimo to ta, którą przejdziemy przez pętlę.
+
+05:45.370 --> 05:51.580
+Sprawdzimy, czy indeks tablicy z 0, który jest Nimo tutaj.
+
+05:51.580 --> 05:56.080
+To zmieni się w Nano.
+
+05:56.350 --> 06:02.350
+A ponieważ to prawda, zamierzamy oszustwo. zaloguj znaleziony nimo.
+
+06:02.380 --> 06:05.110
+Dlaczego właśnie pokazałem ci ten przykład.
+
+06:05.140 --> 06:12.910
+Pozwól, że zwrócę to tak, jak było, pokazałem ci ten przykład, ponieważ jest to instrukcja, którą
+
+06:13.510 --> 06:17.120
+dajemy naszemu komputerowi, aby znaleźć nimo.
+
+06:17.260 --> 06:20.020
+Widzisz, nazywamy to runtime.
+
+06:20.020 --> 06:26.200
+Ile czasu zajmuje uruchomienie określonego problemu za pomocą funkcji lub zadania.
+
+06:26.260 --> 06:30.820
+Jak możemy zmierzyć duże O O, coś w tym stylu.
+
+06:30.880 --> 06:33.300
+Lub skuteczność tego kodu.
+
+06:34.970 --> 06:37.740
+W następnym filmie będziemy trochę głębiej.
+
+06:37.770 --> 06:43.230
+Spróbujemy zmierzyć wydajność tego kodu i zobaczymy, co się stanie, gdy tablica stanie się
+
+06:43.320 --> 06:44.590
+większa i większa.
+
+06:45.440 --> 06:52.250
+I zamierzamy powiązać wszystko, co oznacza skalowalność i jak duże-O pozwala nam
+
+06:52.390 --> 06:56.180
+zmierzyć skalowalność zobacz w następnym wideo.

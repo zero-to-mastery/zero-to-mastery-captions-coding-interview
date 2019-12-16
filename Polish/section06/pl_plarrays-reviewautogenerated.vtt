@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.530 --> 00:06.630
+Czas świętować, ponieważ właśnie skończyłeś swoją pierwszą strukturę danych, a oni będą coraz
+
+00:06.630 --> 00:07.850
+bardziej się bawić.
+
+00:08.070 --> 00:14.510
+Ale widać tutaj, że nauczyliśmy się uzupełniać nasz mentalny model struktur danych.
+
+00:14.670 --> 00:20.490
+Obiecałem ci, że pod koniec tego kursu cały ten diagram będzie miał sens i ukończyliśmy
+
+00:20.520 --> 00:21.770
+jego małą część.
+
+00:21.870 --> 00:32.710
+Tablice, o których rozmawialiśmy na tablicach statycznych i dynamicznych, mówiliśmy o dużej złożoności O oraz o tym, jak dynamiczne
+
+00:32.710 --> 00:43.840
+tablice mogą mieć O i pióra, ponieważ czasami musimy podwoić lub rozszerzyć naszą pamięć, rozmawialiśmy także o tym, jak łańcuchy
+
+00:44.560 --> 00:51.100
+i pytania dotyczące łańcuchów mogą być traktowane bardzo podobnie do pytań
+
+00:51.100 --> 00:52.120
+tablicowych.
+
+00:52.760 --> 00:58.760
+Gdzie po prostu zamieniasz je na tablicę, a następnie dołączasz do nich i zwracasz ciąg znaków.
+
+00:58.800 --> 01:05.090
+Odpowiedz na tę potrzebę i istnieje kilka innych kwestii dotyczących tablic, o których będziemy mówić, kiedy
+
+01:05.210 --> 01:06.430
+wejdziemy w algorytmy.
+
+01:06.650 --> 01:14.930
+Ale teraz powinieneś rzucić okiem na arkusz oszukańczego bego i zrozumieć, dlaczego struktura danych macierzy
+
+01:15.170 --> 01:17.700
+ma te duże liczby.
+
+01:18.110 --> 01:22.890
+I zrozum, kiedy tablica jest dobra do użycia.
+
+01:22.940 --> 01:28.310
+Jedną rzeczą, którą zauważysz, jeśli chodzi o wyścig, zwłaszcza gdy dojdziemy do
+
+01:28.310 --> 01:37.130
+algorytmów, jest to, że są naprawdę bardzo dobrzy w posortowaniu danych, jeśli chodzi o sortowanie tablic są niesamowite, ponieważ są one
+
+01:37.130 --> 01:40.820
+w pamięci w kolejności zgodnej z ich indeksem.
+
+01:40.820 --> 01:45.740
+Teraz zanim przejdę do slajdu, skomponujesz film.
+
+01:45.740 --> 01:49.940
+Zastanów się, kiedy chcesz użyć tablicy, gdy chcesz.
+
+01:50.180 --> 01:54.410
+Ponieważ za około 5 sekund pokażę ci za i przeciw.
+
+01:54.530 --> 02:00.850
+Zatrzymaj wideo i odpowiedz na pytanie, kiedy powinieneś używać tablicy.
+
+02:01.050 --> 02:02.250
+Oto jest.
+
+02:02.250 --> 02:05.310
+Tablice są świetne do szybkiego wyszukiwania.
+
+02:05.400 --> 02:10.420
+To jest właśnie dostęp do informacji, gdzie wiesz, który indeks chcesz obejrzeć.
+
+02:10.740 --> 02:12.840
+To naprawdę szybko, że push i pop.
+
+02:12.840 --> 02:18.770
+Więc myślę o rzeczach na końcu tablicy lub wyprowadzam rzeczy na końcu tablicy.
+
+02:19.020 --> 02:24.810
+I oczywiście dlatego, że zamówiono posiadanie czegoś, co jest uporządkowane i blisko siebie w
+
+02:25.200 --> 02:27.330
+pamięci, czyni to naprawdę szybko.
+
+02:27.460 --> 02:34.770
+Jednak ma powolne wstawiania i usuwa, ponieważ musimy przejść do wyścigu, gdy nie jest na
+
+02:34.770 --> 02:36.300
+samym końcu tablicy.
+
+02:36.420 --> 02:41.590
+I wreszcie, jeśli używasz tablic statycznych, ma on stały rozmiar.
+
+02:41.610 --> 02:48.630
+Oznacza to, że czasami musisz zadeklarować pamięć z wyprzedzeniem i jak dużą macierz chcesz.
+
+02:48.630 --> 02:55.460
+Ale można tego uniknąć, jeśli używamy bardziej nowoczesnych języków z dynamicznymi tablicami.
+
+02:55.530 --> 03:02.380
+Zauważyłem też, że ta buźka wygląda na szaloną osobę, ale ma być dobra.
+
+03:02.400 --> 03:03.240
+To jest dobre.
+
+03:03.360 --> 03:05.330
+Ta przerażająca mała ikona.
+
+03:05.370 --> 03:06.510
+To źle.
+
+03:07.110 --> 03:07.830
+DOBRZE.
+
+03:08.290 --> 03:10.340
+Myślę, że mamy to teraz.
+
+03:10.360 --> 03:14.590
+Będziemy wracać, aby przebić, ponieważ wiele innych struktur danych, o których
+
+03:14.590 --> 03:19.120
+będziemy rozmawiać później, podobnie jak kolejki i stacki, wiąże się z wyścigiem.
+
+03:19.300 --> 03:25.370
+Ale na razie chcę dostać się do innych struktur danych, ponieważ wciąż musimy przejść przez kilka.
+
+03:25.430 --> 03:26.440
+Zobaczę w następnym.

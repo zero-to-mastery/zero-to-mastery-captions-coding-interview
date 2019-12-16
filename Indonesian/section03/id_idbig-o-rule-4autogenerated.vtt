@@ -1,0 +1,250 @@
+WEBVTT
+
+00:01.260 --> 00:05.750
+Oh kita tidak bisa merasakan akhir dari hampir kita berada di Peraturan nomor empat.
+
+00:05.760 --> 00:13.130
+Aturan terakhir dalam buku aturan kami adalah drop non dominance atau drop non-dominan terms.
+
+00:13.410 --> 00:14.300
+Apa yang kita maksud
+
+00:14.400 --> 00:15.360
+Mari kita lihat.
+
+00:16.760 --> 00:26.420
+Katakanlah kita memiliki fungsi lagi dengan nama yang sangat panjang yang mengatakan cetak semua angka lalu semua pasang
+
+00:26.590 --> 00:27.660
+bah.
+
+00:28.070 --> 00:30.080
+Mungkin bukan nama terbaik untuk fungsi kita.
+
+00:30.110 --> 00:34.950
+Kita mungkin dapat mengerjakan keterbacaan di sini tapi mari kita lihat apa fungsi ini bekerja dengan baik.
+
+00:35.030 --> 00:40.670
+Fungsi ini mengambil angka dan angka-angka ini variabel.
+
+00:40.670 --> 00:44.150
+Kita akan mengulanginya dengan loop Untuk Setiap.
+
+00:44.510 --> 00:51.560
+Jadi sekali lagi hanya mengulang dan mencatat angka-angka dan kemudian kita memiliki langkah lain yang harus mengingatkan
+
+00:51.560 --> 00:58.460
+Anda bahwa itu mungkin tambahan yang kita lakukan kita menambahkan langkah lain dan di sini kita menjumlahkan
+
+00:59.150 --> 01:00.410
+pasangan bah.
+
+01:00.410 --> 01:07.290
+Di situlah menambahkan setiap nomor satu demi satu.
+
+01:07.670 --> 01:11.610
+Mari kita tunjukkan sedikit demo di sini.
+
+01:11.840 --> 01:19.160
+Jika katakanlah kita membuat sebenarnya Kita hanya akan mencetak angka dan mengakhiri di
+
+01:19.160 --> 01:26.290
+sini untuk angka-angka mari kita berikan array 1 2 3 4 5
+
+01:26.400 --> 01:34.130
+Jika saya klik salah di sini kita melihat bahwa ini adalah angka 1 2 3 4 5.
+
+01:34.160 --> 01:37.750
+Karena ini adalah langkah di mana hanya mengeluarkannya.
+
+01:37.850 --> 01:39.210
+Tidak ada yang terlalu sulit.
+
+01:39.680 --> 01:43.190
+Dan ini bah mereka.
+
+01:43.190 --> 01:50.060
+Yang kami lakukan adalah menambahkan satu dengan satu lalu satu dengan dua yang sama dengan tiga.
+
+01:50.330 --> 01:52.330
+Satu dengan tiga yang sama dengan empat.
+
+01:52.460 --> 01:56.080
+Satu dengan empat yang sama dengan lima dan satu dalam lima yang sama dengan enam.
+
+01:56.090 --> 02:03.520
+Dan kemudian kita beralih ke loop berikutnya yang dua dan satu yang sama dengan tiga dua dan dua yang
+
+02:03.520 --> 02:07.710
+sama dengan empat dan terus berjalan dan terus dan terus.
+
+02:07.720 --> 02:14.260
+Jadi kita melihat loop yang telah kita lakukan di sini dan masalah seperti ini adalah sesuatu yang akan kita lakukan nanti
+
+02:14.260 --> 02:17.500
+di kursus saat ini kita hanya khawatir tentang big-O.
+
+02:17.770 --> 02:21.810
+Menurut Anda, apa yang notasi Big-O di sini baik-baik saja.
+
+02:21.850 --> 02:27.690
+Sekali lagi jika kita melakukan 0 bagian pertama adalah for loop.
+
+02:27.760 --> 02:35.400
+Jadi kita dapat mengatakan bahwa ada bagian Dan kemudian bagian kedua yang lagi adalah langkah lain
+
+02:35.400 --> 02:42.530
+sehingga kita akan mengatakan tambah ditambah yang ini memiliki dua empat loop bersarang.
+
+02:42.670 --> 02:46.650
+Jadi itu berarti 0 pangkat dua.
+
+02:46.650 --> 02:47.020
+Baiklah.
+
+02:47.030 --> 02:49.120
+Jadi itu notasi Big-O kami.
+
+02:49.310 --> 02:55.200
+Dengan Peraturan nomor empat menyatakan bahwa kami ingin menjatuhkan istilah yang tidak dominan.
+
+02:55.260 --> 02:59.930
+Itu berarti kami peduli dengan istilah yang paling penting dalam kasus ini.
+
+02:59.940 --> 03:04.240
+Kami benar-benar menjatuhkan n dan hanya.
+
+03:04.270 --> 03:13.240
+Dan untuk kekuatan dua karena ketika input meningkatkan ukuran N ke kekuatan dua jauh lebih
+
+03:13.240 --> 03:15.080
+penting daripada.
+
+03:15.140 --> 03:19.880
+Jadi kami selalu mempertahankan istilah yang dominan.
+
+03:20.050 --> 03:21.510
+Biarkan saya memberi Anda contoh lain.
+
+03:22.330 --> 03:32.960
+Bagaimana jika kita memiliki fungsi yang memiliki O besar katakanlah X pangkat 2 dan kemudian
+
+03:33.380 --> 03:46.070
+kita akan mengatakan bahwa ia memiliki 3 x ditambah 1000 dan mungkin kita akan mengatakan ditambah X dibagi dua.
+
+03:46.080 --> 03:46.920
+Baiklah.
+
+03:46.920 --> 03:49.470
+Itu benar-benar membingungkan itu matematika.
+
+03:49.470 --> 03:51.960
+Yah kita tidak akan mau berurusan dengan itu terlalu banyak.
+
+03:51.960 --> 03:54.180
+Bagaimana kita menyederhanakan ini.
+
+03:54.180 --> 04:02.980
+Berdasarkan drop non-dominan, aturan keempat menyatakan bahwa sekali lagi kita khawatir tentang istilah dominan yang paling
+
+04:03.040 --> 04:08.790
+penting karena X pangkat dua adalah yang paling signifikan.
+
+04:08.890 --> 04:19.340
+Itu jika X adalah 5 5 pangkat dua adalah dua puluh lima lima kali tiga adalah 15.
+
+04:19.360 --> 04:25.060
+Ini seratus lima dibagi dua dua. 5.
+
+04:25.060 --> 04:28.180
+Dalam hal ini istilah yang dominan adalah seratus.
+
+04:28.360 --> 04:32.280
+Tapi ingat dengan big-O kita khawatir tentang skala.
+
+04:32.320 --> 04:35.740
+Dan seiring berjalannya hal-hal yang lebih besar dan lebih besar dan lebih besar.
+
+04:35.830 --> 04:48.590
+Jadi ketika ini menjadi lima ribu Sumur 5.000 pangkat dua atau 500 pangkat dua 2.500.
+
+04:48.610 --> 04:58.220
+Jika saya melakukan matematika dengan benar tiga kali 500 hanya seratus ribu lima ratus seratus sekarang tidak signifikan dan
+
+04:58.430 --> 05:01.310
+500 dibagi dua adalah 250.
+
+05:01.310 --> 05:07.830
+Anda lihat bagaimana ini telah tumbuh secara signifikan lagi karena kami hanya khawatir tentang skala di sini.
+
+05:08.000 --> 05:11.690
+Kami meninggalkan semua yang lain dan kami bisa mengabaikannya sepenuhnya.
+
+05:11.810 --> 05:14.830
+Dan ini menjadi X pangkat 2.
+
+05:14.930 --> 05:19.250
+Betapa baiknya itu hanya membuat segalanya jadi lebih sederhana.
+
+05:20.600 --> 05:21.880
+Jadi begitulah.
+
+05:22.010 --> 05:24.950
+Kami sekarang memiliki cara untuk menyederhanakan semuanya.
+
+05:24.950 --> 05:28.870
+Jika kita kembali ke contoh masa lalu kita ingat yang satu ini.
+
+05:29.030 --> 05:37.560
+Ingat ini sekarang masuk akal mengapa kita baru saja mengatakan besar-O dan karena kita tidak peduli tentang item
+
+05:37.560 --> 05:41.020
+yang tidak penting hanya yang paling penting.
+
+05:41.040 --> 05:46.520
+Dan sama dengan yang satu ini dengan cara sedikit catatan menyenangkan di sini.
+
+05:46.780 --> 05:54.090
+Jika kita memiliki loop nother di dalam dua loop ini Nah ini akan menjadi o.
+
+05:55.130 --> 05:58.760
+Untuk kekuatan x potong dadu atau dan potong dadu.
+
+05:58.770 --> 06:03.450
+Tidak masalah apa yang kita miliki tetapi itu akan menjadi kekuatan Thweatt karena
+
+06:03.690 --> 06:07.750
+kita memiliki tiga lapisan bersarang dan Anda dapat terus berjalan.
+
+06:07.770 --> 06:10.500
+Anda harus memiliki kekuatan empat hingga kekuatan lima.
+
+06:10.590 --> 06:11.810
+Tapi ini masalahnya.
+
+06:11.910 --> 06:13.750
+Jika Anda memiliki tiga loop bersarang.
+
+06:13.800 --> 06:17.020
+Sembilan puluh sembilan koma sembilan puluh sembilan persen dari waktu.
+
+06:17.220 --> 06:18.960
+Itu biasanya ide yang buruk.
+
+06:18.960 --> 06:23.250
+Ini bersisik sangat sangat buruk dan kemungkinan besar Anda melakukan sesuatu yang salah.
+
+06:24.690 --> 06:25.520
+Dan begitulah.
+
+06:25.530 --> 06:32.460
+Kami telah membahas empat aturan dan dengan ini dalam pikiran kami akan melihat pada lembar contekan yang saya siapkan
+
+06:32.460 --> 06:33.330
+untuk Anda.
+
+06:33.330 --> 06:39.600
+Jadi mulai sekarang alih-alih harus menghitung semuanya dan benar-benar melihat setiap detail fungsi
+
+06:39.600 --> 06:47.000
+Anda dapat langsung mencari tahu apa yang besar-O itu atau apa kompleksitas waktu dari suatu fungsi.

@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.960 --> 00:04.100
+Witaj ponownie podczas grania ze wzrokiem.
+
+00:04.100 --> 00:10.870
+Czy zauważyłeś problem z drzewami wyszukiwania binarnego, jeśli nie pozwolisz mi pokazać ci czegoś.
+
+00:10.870 --> 00:15.960
+Powiedzmy, że wstawiam tutaj powiedzmy 86,
+
+00:20.720 --> 00:24.070
+a potem, gdy
+
+00:28.420 --> 00:37.260
+to nastąpi, wstawię również 90, a na koniec wstawię dziewięćdziesiąt dziewięć.
+
+00:37.380 --> 00:38.050
+W porządku.
+
+00:38.250 --> 00:41.160
+Jaki jest z tym problem.
+
+00:41.160 --> 00:49.710
+Cóż, możesz sobie wyobrazić sytuację, w której mamy naprawdę niezrównoważone drzewo wyszukiwania binarnego, w którym wszystkie węzły są ciągle dodawane po prawej stronie,
+
+00:49.710 --> 00:53.250
+po prawej stronie, po prawej stronie, po prawej stronie.
+
+00:54.210 --> 00:59.970
+Jeśli wyobrażamy sobie, że uważamy i mamy tę sekcję, to nagle zmienia się w
+
+00:59.970 --> 01:04.780
+listę linków, gdzie po prostu przechodzimy przez każdą pojedynczą nutę.
+
+01:05.000 --> 01:08.180
+Jest to duży problem związany z drzewami wyszukiwania binarnego.
+
+01:08.240 --> 01:13.600
+To znaczy, że możesz mieć zrównoważone drzewa wyszukiwania, takie jak tutaj.
+
+01:13.610 --> 01:21.920
+Daje nam to ten dziennik i wydajność, ale także ma niezbalansowane, gdzie zmienia się w długą
+
+01:21.920 --> 01:30.470
+linkowaną listę, gdzie zamiast być w stanie wykonać dziennik i operacje, trzeba teraz przechodzić przez każdą pojedynczą
+
+01:30.530 --> 01:39.680
+notatkę i sprawdzać, a wyszukiwania stają się o zdarzenie lub czas liniowy, a nawet widziałeś w naszej wizualnej demonstracji,
+
+01:39.680 --> 01:45.650
+jak wolno było wstawiać elementy, ponieważ musiały przechodzić przez wiele rzeczy.
+
+01:45.680 --> 01:50.750
+Jeden z kluczy, które będziesz musiał zapamiętać, to pytanie, które możesz
+
+01:51.200 --> 01:56.060
+zadać w wywiadach, dlaczego drzewo niezrównoważonego wyszukiwania binarnego jest złe.
+
+01:56.060 --> 01:59.770
+Mam nadzieję, że to pokazuje, dlaczego nie jest to dobry pomysł.
+
+01:59.780 --> 02:08.150
+Najlepiej byłoby, gdybyśmy zrównoważyli nasze drzewa wyszukiwania, abyśmy mogli uzyskać optymalizację wydajności, jeśli udamy się do naszego
+
+02:08.150 --> 02:10.220
+dużego O Chichi.
+
+02:10.340 --> 02:19.670
+Widzimy, że przy drzewach wyszukiwania binarnego mamy wszystkie logi N dla większości rzeczy, które są średnie.
+
+02:19.760 --> 02:26.420
+Ale kiedy przychodzi do najgorszego przypadku, gdy mamy niezbalansowane drzewo, wszystkie operacje są O lub
+
+02:26.420 --> 02:27.160
+liniowe.
+
+02:27.350 --> 02:34.240
+Możesz więc zadać sobie pytanie, jak zrównoważyć drzewo i na szczęście dla nas istnieją algorytmy, które
+
+02:34.240 --> 02:36.170
+pomagają nam to zrobić.
+
+02:36.250 --> 02:42.250
+Jest naprawdę zaawansowany i porozmawiamy o tym po zbudowaniu naszego własnego drzewa i niektórych opcji,
+
+02:42.250 --> 02:43.300
+które mamy.
+
+02:43.480 --> 02:50.110
+Na przykład mamy takie rzeczy jak drzewa VL i czerwone czarne drzewa, które pozwalają nam upewnić
+
+02:50.110 --> 02:56.910
+się, że nasze drzewo wyszukiwania binarnego będzie na szczęście zrównoważone dla nas, są one zbudowane w większości
+
+02:57.330 --> 03:04.620
+języków programowania i pytania wywiadu, których tak naprawdę nie zapytają aby zrównoważyć obwody binarne, ponieważ może to być
+
+03:04.620 --> 03:11.130
+dość skomplikowane i czasochłonne, a wywiady zwykle nie mają wystarczająco dużo czasu, aby to zrobić.
+
+03:11.130 --> 03:17.790
+Chodzi o to, aby móc o tym mówić i wiedzieć, że istnieją sposoby na zrównoważenie operacji i być w
+
+03:17.790 --> 03:20.730
+stanie rozmawiać o kompromisach tak jak my.
+
+03:20.790 --> 03:27.150
+Teraz porozmawiamy o tych dwóch sposobach zrównoważenia tej operacji w nadchodzącym filmie,
+
+03:27.150 --> 03:31.990
+ale na razie skupmy się na podstawach następnego filmu.
+
+03:31.990 --> 03:36.230
+Chcę porozmawiać o zaletach i wadach używania czegoś takiego jak drzewo wyszukiwania binarnego.
+
+03:36.340 --> 03:41.410
+A potem w końcu wdrożymy nasze własne, które zobaczę w następnym.

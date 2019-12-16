@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.110 --> 00:02.280
+Welcome back.
+
+00:02.280 --> 00:09.270
+We have one last tree that I want to talk about and that is a tri or tree pronunciation here varies
+
+00:09.270 --> 00:10.340
+on who you ask.
+
+00:10.500 --> 00:20.460
+But let's have a look at what it is a try is a specialized tree used in searching most often with text.
+
+00:20.590 --> 00:29.480
+As you can see here and in most cases it can outperform binary search trees hash tables and most other
+
+00:29.480 --> 00:33.590
+data structures we've been talking about depending on the type of search you're doing.
+
+00:34.810 --> 00:43.120
+And just by looking at this image you might understand what it does tri's allow you to know if a word
+
+00:43.240 --> 00:47.700
+or part of a word exists in a body of text.
+
+00:48.070 --> 00:55.410
+You see a try has usually an empty root node which is the starting point and from there letters are
+
+00:55.410 --> 00:55.900
+added.
+
+00:55.950 --> 00:59.370
+You see that it's not a binary tree it can have multiple children.
+
+00:59.730 --> 01:06.390
+In this case all most likely have 26 children because there's 26 letters in the alphabet.
+
+01:06.540 --> 01:15.370
+The power of the try is when we search for something such as an if we have this dictionary we know right
+
+01:15.370 --> 01:23.560
+away that there's two words associated with the word and another name for a try is something called
+
+01:23.560 --> 01:25.690
+prefix tree.
+
+01:25.860 --> 01:31.140
+It's a tree like data structure which proved to be quite efficient in solving these problems specific
+
+01:31.140 --> 01:31.970
+to strings.
+
+01:32.070 --> 01:35.170
+You can think of it as auto completion.
+
+01:35.220 --> 01:35.840
+Right.
+
+01:35.880 --> 01:42.300
+When you search something on Google it knows what you might be searching for or it tries and completes
+
+01:42.480 --> 01:44.130
+the word for you.
+
+01:44.220 --> 01:50.850
+And this is what it's used for for searching words in a dictionary providing auto suggestions on search
+
+01:50.850 --> 01:53.200
+engines or even IP routing.
+
+01:53.430 --> 02:01.540
+If I typed in a I know immediately that all the children are related to A and I can print out a tree
+
+02:01.630 --> 02:06.760
+and then A-S the benefit of this type of data structure is speed and space.
+
+02:06.940 --> 02:12.530
+What do you think the big show of finding a word in the data structure is.
+
+02:12.550 --> 02:16.510
+We're not going to go through every single node instead.
+
+02:16.600 --> 02:19.940
+All we need to do is find the length of the word.
+
+02:20.080 --> 02:27.390
+So the big-O of a try is 0 of length that is the length of the word.
+
+02:27.520 --> 02:31.460
+If I'm looking for the word are a sorry.
+
+02:31.510 --> 02:35.800
+All I do is look for a then look for our.
+
+02:35.980 --> 02:38.110
+Then look for the.
+
+02:38.240 --> 02:43.730
+All I'm doing is hitting three notes which are associated with the length of the word.
+
+02:43.730 --> 02:48.300
+When it comes to space complexity tries also have a major advantage.
+
+02:49.640 --> 02:52.970
+Because we use prefixes such as.
+
+02:52.970 --> 02:57.100
+And here is used in different words and same with a.
+
+02:57.200 --> 02:59.830
+We don't have to store it multiple times.
+
+02:59.990 --> 03:06.140
+It's stored in one location and you have children linking to it because of these prefixes.
+
+03:06.140 --> 03:12.140
+You save a lot of space because you don't have to store the word not in use.
+
+03:12.320 --> 03:14.720
+You get to avoid storing that extra and.

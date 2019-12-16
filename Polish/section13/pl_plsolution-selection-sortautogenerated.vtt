@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.650 --> 00:01.640
+Wracaj.
+
+00:02.030 --> 00:09.310
+Zostawiłem dla ciebie rozwiązanie dla sortowania selekcji, teraz nie zamierzam iść jeden po drugim do
+
+00:09.430 --> 00:14.070
+każdego algorytmu sortowania, ponieważ zajmuje to dużo czasu.
+
+00:14.140 --> 00:19.180
+Nie chcę was zanudzać i tracić, ponieważ w następnych kilku filmach
+
+00:19.180 --> 00:24.490
+dzieje się tyle ciekawszych rzeczy, więc zostawię to, aby zobaczyć, jak to działa.
+
+00:24.490 --> 00:27.310
+Nie różni się to zbytnio od sortowania bąbelkowego.
+
+00:27.310 --> 00:29.270
+Widzimy to z sortowaniem selekcji.
+
+00:29.470 --> 00:32.320
+Ustawiamy bieżący indeks jako minimalny.
+
+00:32.440 --> 00:37.060
+Tak więc pierwszy element tablicy staje się minimalny.
+
+00:37.060 --> 00:43.870
+Ale kiedy przeglądamy resztę listy, chcemy zaktualizować minimum.
+
+00:44.270 --> 00:49.730
+Jeśli prąd jest niższy niż to, co mieliśmy wcześniej Więc to, co mieliśmy tutaj, początkowo ustawiliśmy pierwszy
+
+00:49.730 --> 00:52.570
+element w tablicy jako dziewięćdziesiąt dziewięć jako minimum.
+
+00:52.850 --> 00:58.940
+Jak tylko osiągniemy cztery czterdzieści cztery, powiemy, że 44 to mniej niż dziewięćdziesiąt dziewięć.
+
+00:59.000 --> 01:05.250
+Zaktualizujmy minimum, aby indeks, gdzie jest 44, był teraz minimalny.
+
+01:05.570 --> 01:15.890
+Zamienimy te liczby tak, jak widzieliśmy w animacji, a także jest to naprawdę dobrze udokumentowana
+
+01:16.120 --> 01:18.820
+rzecz w Internecie.
+
+01:19.070 --> 01:30.370
+Na przykład, jeśli jesteś programistą w Pythonie, możesz po prostu wpisać sortowanie w Pythonie, a zobaczysz, że tak,
+
+01:30.370 --> 01:39.290
+możesz znaleźć sposób sortowania sortowania zaimplementowany w Pythonie i możesz również uruchomić program.
+
+01:39.550 --> 01:45.100
+W zależności od języka zazwyczaj można kliknąć pierwszy lub drugi link i pokazać, w
+
+01:45.100 --> 01:47.560
+jaki sposób algorytm jest zaimplementowany.
+
+01:48.520 --> 01:53.950
+Jak widzisz, mamy dwie zagnieżdżone pętle dla pętli w całej tablicy.
+
+01:53.980 --> 02:00.070
+A więc do końca algorytmów sortowania wszystko jest w porządku.
+
+02:00.070 --> 02:05.030
+Otrzymam kod podany dla ciebie, abyś mógł się z nim bawić i wchodzić z nim w interakcję.
+
+02:05.200 --> 02:12.920
+Widzisz, że sortowanie działa zgodnie z oczekiwaniami, ale może również wyszukiwać własny język.
+
+02:13.880 --> 02:15.650
+Aby znaleźć algorytm sortowania.
+
+02:15.650 --> 02:18.660
+Więc rozumiesz to na głębszym poziomie.
+
+02:18.680 --> 02:22.570
+Porozmawiajmy o następnym algorytmie sortowania w nadchodzącym filmie.

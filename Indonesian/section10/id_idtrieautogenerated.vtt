@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.110 --> 00:02.280
+Selamat datang kembali.
+
+00:02.280 --> 00:09.270
+Kami memiliki satu pohon terakhir yang ingin saya bicarakan dan itu adalah pengucapan tri atau pohon di sini berbeda pada siapa
+
+00:09.270 --> 00:10.340
+yang Anda tanya.
+
+00:10.500 --> 00:20.460
+Tapi mari kita lihat apa itu coba adalah pohon khusus yang digunakan dalam pencarian paling sering dengan teks.
+
+00:20.590 --> 00:29.480
+Seperti yang Anda lihat di sini dan dalam banyak kasus ini bisa mengungguli tabel pencarian pohon biner dan sebagian besar struktur data lain yang
+
+00:29.480 --> 00:33.590
+telah kita bicarakan tergantung pada jenis pencarian yang Anda lakukan.
+
+00:34.810 --> 00:43.120
+Dan hanya dengan melihat gambar ini Anda mungkin mengerti apa fungsinya, Tri memungkinkan Anda untuk mengetahui apakah ada
+
+00:43.240 --> 00:47.700
+kata atau bagian dari suatu kata dalam tubuh teks.
+
+00:48.070 --> 00:55.410
+Anda melihat percobaan biasanya memiliki simpul akar kosong yang merupakan titik awal dan dari sana huruf
+
+00:55.410 --> 00:55.900
+ditambahkan.
+
+00:55.950 --> 00:59.370
+Anda melihat bahwa itu bukan pohon biner yang dapat memiliki banyak anak.
+
+00:59.730 --> 01:06.390
+Dalam hal ini semua kemungkinan besar memiliki 26 anak karena ada 26 huruf dalam alfabet.
+
+01:06.540 --> 01:15.370
+Kekuatan percobaan adalah ketika kita mencari sesuatu seperti jika kita memiliki kamus ini, kita langsung tahu bahwa
+
+01:15.370 --> 01:23.560
+ada dua kata yang terkait dengan kata tersebut dan nama lain untuk percobaan adalah sesuatu yang
+
+01:23.560 --> 01:25.690
+disebut pohon awalan.
+
+01:25.860 --> 01:31.140
+Ini adalah struktur data seperti pohon yang terbukti cukup efisien dalam menyelesaikan masalah ini khusus
+
+01:31.140 --> 01:31.970
+untuk string.
+
+01:32.070 --> 01:35.170
+Anda dapat menganggapnya sebagai pelengkapan otomatis.
+
+01:35.220 --> 01:35.840
+Kanan.
+
+01:35.880 --> 01:42.300
+Saat Anda mencari sesuatu di Google, ia tahu apa yang Anda cari atau mencoba dan melengkapi
+
+01:42.480 --> 01:44.130
+kata untuk Anda.
+
+01:44.220 --> 01:50.850
+Dan inilah yang digunakan untuk mencari kata-kata dalam kamus yang menyediakan saran otomatis di mesin
+
+01:50.850 --> 01:53.200
+pencari atau bahkan IP routing.
+
+01:53.430 --> 02:01.540
+Jika saya mengetikkan huruf A, saya langsung tahu bahwa semua anak terkait dengan A dan saya dapat mencetak pohon dan
+
+02:01.630 --> 02:06.760
+kemudian A-S manfaat dari struktur data jenis ini adalah kecepatan dan ruang.
+
+02:06.940 --> 02:12.530
+Menurut Anda, acara besar menemukan kata dalam struktur data adalah.
+
+02:12.550 --> 02:16.510
+Kami tidak akan pergi melalui setiap node saja.
+
+02:16.600 --> 02:19.940
+Yang perlu kita lakukan adalah menemukan panjang kata.
+
+02:20.080 --> 02:27.390
+Jadi big-O dari percobaan adalah 0 dengan panjang yaitu panjang kata.
+
+02:27.520 --> 02:31.460
+Jika saya mencari kata maaf.
+
+02:31.510 --> 02:35.800
+Yang saya lakukan adalah mencari lalu mencari.
+
+02:35.980 --> 02:38.110
+Kemudian cari.
+
+02:38.240 --> 02:43.730
+Yang saya lakukan adalah menekan tiga catatan yang terkait dengan panjang kata.
+
+02:43.730 --> 02:48.300
+Ketika datang ke mencoba kompleksitas ruang juga memiliki keuntungan besar.
+
+02:49.640 --> 02:52.970
+Karena kami menggunakan awalan seperti.
+
+02:52.970 --> 02:57.100
+Dan di sini digunakan kata yang berbeda dan sama dengan a.
+
+02:57.200 --> 02:59.830
+Kami tidak harus menyimpannya beberapa kali.
+
+02:59.990 --> 03:06.140
+Ini disimpan di satu lokasi dan Anda memiliki anak-anak yang menautkannya karena awalan ini.
+
+03:06.140 --> 03:12.140
+Anda menghemat banyak ruang karena Anda tidak perlu menyimpan kata yang tidak digunakan.
+
+03:12.320 --> 03:14.720
+Anda bisa menghindari menyimpan ekstra itu dan.

@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.190 --> 00:04.840
+Acum am creat pentru tine o foaie mare de înșelătorie.
+
+00:05.240 --> 00:08.320
+Deși am avut mult timp să trecem prin toate.
+
+00:08.720 --> 00:14.570
+La sfârșitul zilei când vine vorba de pregătirea pentru un interviu, acesta este destul de mult tot ce trebuie să
+
+00:14.570 --> 00:20.150
+știți și puteți folosi acest lucru pentru a revedea unele dintre subiectele pe care le-am acoperit, precum și ceea ce
+
+00:20.510 --> 00:22.560
+vom acoperi pentru secțiunea viitoare .
+
+00:22.760 --> 00:27.150
+Vedem aici că marile spectacole se află aici în special pe cele de aici.
+
+00:27.230 --> 00:30.990
+Acum nu am trecut prin tot ce am trecut.
+
+00:31.000 --> 00:42.390
+Constantin, dar nu am trecut prin ceva de genul "oh log in" sau "oh" când te loghezi sau O la cei doi la
+
+00:42.390 --> 00:47.030
+puterea unui sau chiar a celui cu semnul exclamării.
+
+00:47.030 --> 00:48.110
+Mă întreb ce este asta.
+
+00:48.300 --> 00:50.090
+Ei bine, vom intra în asta.
+
+00:50.280 --> 00:56.370
+Dar motivul pentru care nu am vorbit încă despre ele este că vor veni atunci când vom
+
+00:56.370 --> 01:05.250
+vorbi despre structuri de date și despre algoritmi pe care aceștia au comentat că notațiile mari sunt foarte specifice pentru anumite algoritmi și structuri
+
+01:05.460 --> 01:08.040
+de date pentru a optimiza codul.
+
+01:08.220 --> 01:12.580
+Așa că vom intra în asta atunci când vom vorbi despre aceste subiecte, deoarece ele vor avea mai
+
+01:13.140 --> 01:18.110
+mult sens pentru dvs., cum ar fi logoul Oh din nou, este folosit mult atunci când vine vorba de algoritmi de căutare.
+
+01:18.870 --> 01:26.820
+Sau logarea O-N este folosită de lege când vine vorba de algoritmi de sortare și ceva de genul 0 2 la
+
+01:26.820 --> 01:31.630
+puterea lui N intră în joc atunci când vorbim de algoritmi recursivi.
+
+01:31.650 --> 01:33.540
+Deci, din nou, nu vă coplesiți.
+
+01:33.570 --> 01:40.420
+Am discutat despre aceste trei mari și vom reveni la restul de-a lungul cursului.
+
+01:41.360 --> 01:46.430
+Acum, când vine vorba de spectacole mari vreau să ții minte două lucruri atunci când ești
+
+01:46.430 --> 01:51.590
+iterând printr-o jumătate de colecție este încă 0 la partea de 0 sau până la sfârșitul amintiți-vă.
+
+01:51.920 --> 01:53.750
+Oh și împărțit la doi.
+
+01:53.750 --> 01:55.690
+Este totuși sfârșitul zilei.
+
+01:56.010 --> 02:03.890
+Când ne amintim cartea noastră de reguli și din nou un alt truc care apare adesea în interviuri este că două colecții
+
+02:03.890 --> 02:06.800
+separate ar trebui să fie un plus b.
+
+02:07.040 --> 02:09.770
+Sau dacă sunt imbricate de ori b.
+
+02:09.830 --> 02:15.910
+Deci, două intrări separate ar trebui să aibă două variabile separate și o Notă Big O.
+
+02:17.140 --> 02:22.170
+Și doar pentru a păstra în minte ceea ce provoacă timp într-o funcție, pentru că asta e ceea ce măsuram chiar acum.
+
+02:22.330 --> 02:26.990
+Comparația între operațiunile de compasiune.
+
+02:27.070 --> 02:32.620
+Știm că durează un timp și lucruri precum apelurile de funcții externe atunci când aveți o
+
+02:32.620 --> 02:34.780
+funcție în interiorul unei funcții.
+
+02:34.970 --> 02:41.390
+Apoi, în cele din urmă am vorbit despre cartea noastră de reguli întotdeauna O mare măsoară cel mai rău caz
+
+02:41.390 --> 02:49.490
+pe care vrem să eliminăm constantele dorim să avem diferite intrări care au variabile diferite astfel încât A-plus BA și B sunt rasă dacă sunt imbricate
+
+02:49.820 --> 02:53.750
+sunt un discurs timp împotriva ceva pe care le-am menționat aici.
+
+02:54.050 --> 03:00.390
+Modul simplu de a vă aminti acest lucru este adăugarea a patru pași în ordine și multiplicare pentru pași imbricați.
+
+03:00.710 --> 03:05.630
+Și apoi, în cele din urmă, regula 4 este de a renunța la termenii care nu sunt dominanți.
+
+03:06.410 --> 03:07.700
+Destul de simplu.
+
+03:08.240 --> 03:14.210
+O să aduc înapoi această foaie de înșelătorie când vom începe să vorbim și vom umple lacunele noastre cu
+
+03:14.380 --> 03:15.840
+restul notației Big O.
+
+03:16.130 --> 03:18.160
+Dar, pentru moment, să intrăm în lecția următoare.

@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.930 --> 00:05.770
+Ciao e benvenuto nella parte successiva della sezione dell'algoritmo.
+
+00:05.970 --> 00:11.630
+Sì, sono ancora eccitato nonostante il prossimo argomento che è probabilmente il mio preferito.
+
+00:11.940 --> 00:18.660
+Vedete in passato che quando ho imparato a smistarlo sono stati coinvolti molti algoritmi
+
+00:18.930 --> 00:26.050
+diversi e non mi è mai piaciuto molto perché non capivo perché dovevamo sapere l'ordinamento.
+
+00:26.130 --> 00:31.290
+Voglio dire, hai solo una funzione di ordinamento di solito in un linguaggio di programmazione e basta.
+
+00:31.380 --> 00:32.400
+Destra.
+
+00:32.430 --> 00:34.900
+Non ho mai capito il punto.
+
+00:35.310 --> 00:37.380
+E probabilmente stavi pensando la stessa cosa.
+
+00:37.830 --> 00:38.140
+Tutto ok.
+
+00:38.150 --> 00:39.980
+Andre non c'è niente da imparare qui.
+
+00:39.990 --> 00:43.520
+Salterò la sezione grigia lezione.
+
+00:43.560 --> 00:44.460
+Arrivederci.
+
+00:44.580 --> 00:45.290
+Destra.
+
+00:45.720 --> 00:48.210
+Beh, non proprio.
+
+00:48.210 --> 00:50.790
+Lasciami spiegare in un'intervista.
+
+00:50.820 --> 00:53.760
+L'ordinamento è molto importante.
+
+00:53.790 --> 01:00.510
+Senti domande come prendere una serie di numeri e ordinarli o l'intervistatore vuole che tu faccia
+
+01:00.690 --> 01:08.790
+qualcosa per un input e ti dicono che questo input è ordinato e ti stai chiedendo perché ci hanno appena detto
+
+01:08.790 --> 01:09.340
+questo.
+
+01:09.360 --> 01:11.430
+Perché è importante se è ordinato o meno.
+
+01:11.730 --> 01:19.110
+E perché le aziende si preoccupano così tanto dell'ordinamento se posso usare il metodo di ordinamento integrato nella
+
+01:19.110 --> 01:19.950
+mia lingua.
+
+01:21.100 --> 01:28.710
+Bene, ecco che l'ordinamento delle cose non è un grosso problema quando si tratta di piccoli dati di input.
+
+01:28.750 --> 01:29.530
+Avresti ragione.
+
+01:29.530 --> 01:31.440
+Puoi semplicemente fare qualcosa del genere.
+
+01:31.810 --> 01:40.370
+Avremmo una serie di lettere e questo array ha semplicemente un
+
+01:43.370 --> 01:46.280
+D dice Z.
+
+01:46.370 --> 01:47.520
+Aggiungiamone altri.
+
+01:47.550 --> 01:53.490
+La R e finalmente essere.
+
+01:53.740 --> 02:00.510
+E se qualcuno dice di ordinare bene, possiamo semplicemente usare qualcosa come un metodo di ordinamento che viene fornito con
+
+02:00.600 --> 02:02.450
+la maggior parte delle lingue.
+
+02:02.650 --> 02:08.980
+E se gestisco questo aspetto così bello e facile ho appena iniziato tutto.
+
+02:08.980 --> 02:10.310
+Sono un genio, vero.
+
+02:11.550 --> 02:15.160
+Perché mai le aziende dovrebbero mai porre una domanda così semplice su di noi.
+
+02:15.210 --> 02:23.260
+Il problema è che quando gli input diventano sempre più grandi quando parliamo di big-O non ci
+
+02:23.260 --> 02:25.470
+importa dei piccoli input.
+
+02:26.210 --> 02:30.480
+È facile da fare, specialmente con i nostri moderni computer veloci.
+
+02:30.490 --> 02:37.310
+Inizia a costare alle aziende un sacco di soldi quando dobbiamo eseguire operazioni su set di dati
+
+02:37.310 --> 02:38.620
+sempre più grandi.
+
+02:38.690 --> 02:43.150
+Questo è quando le cose diventano un po 'pazze e costose.
+
+02:43.490 --> 02:50.990
+Ad esempio, Google ha un sacco di siti Web che sono indicizzati e se hanno bisogno di ordinare quei siti Web in
+
+02:51.410 --> 02:57.330
+un modo forse ordinando un articolo di notizie in base al momento in cui è stato rilasciato.
+
+02:57.560 --> 03:01.310
+E poiché stiamo parlando di Google qui non stiamo parlando di 10
+
+03:01.310 --> 03:05.360
+articoli, stiamo parlando di migliaia di altri articoli ordinati in base ai dati.
+
+03:05.720 --> 03:07.360
+Che dire di Amazon.
+
+03:08.430 --> 03:15.620
+Amazon si occupa di ordinare i prodotti in base alla categoria in base al prezzo in base alla valutazione.
+
+03:15.780 --> 03:19.120
+E hanno milioni di prodotti.
+
+03:19.130 --> 03:20.160
+Che mi dici di Apple.
+
+03:20.270 --> 03:28.610
+Bene, Apple ha il negozio Apple e loro elencano tutte le loro app e alcuni per più podcast di ordini
+
+03:28.970 --> 03:31.270
+ordinati in un ordine ordinato.
+
+03:31.280 --> 03:32.400
+Che dire di Microsoft.
+
+03:32.480 --> 03:38.680
+Bene, Microsoft ha bisogno di ordinare tutti i loro registri di diciamo i loro data center in tutto
+
+03:38.870 --> 03:45.980
+il mondo in modo che se accade un incidente, sanno da dove proviene e poi Netflix di cosa hanno bisogno per ordinare
+
+03:45.980 --> 03:49.450
+i loro spettacoli, i loro programmi TV in qualche modo.
+
+03:49.480 --> 03:49.990
+Destra.
+
+03:51.280 --> 03:57.700
+In genere, non possono utilizzare solo un metodo di ordinamento incorporato fornito con la lingua e
+
+03:57.700 --> 04:05.530
+in genere richiedono metodi ordinati personalizzati basati sui dati in modo che possano ridurre i costi e ridurre le operazioni
+
+04:05.530 --> 04:07.570
+che i computer devono eseguire.
+
+04:08.290 --> 04:16.330
+La maggior parte dei luoghi ordina i loro dati o li pre-processa e tutte queste aziende, incluse quelle di piccole dimensioni, di solito ordinano i dati
+
+04:16.330 --> 04:21.030
+per assicurarsi che siano significativi se si tratta di dati casuali che non sono ordinati.
+
+04:21.160 --> 04:23.340
+È davvero difficile da accedere.
+
+04:23.410 --> 04:27.750
+Quindi la maggior parte delle volte ordiniamo i dati o li preprocessiamo.
+
+04:27.780 --> 04:34.280
+Ora gli esempi di cui ho appena parlato sono un po 'sciocchi ma dimostrano il mio punto.
+
+04:34.440 --> 04:40.380
+Per queste aziende se fanno qualcosa di sbagliato o lo fanno in modo inefficiente, significa perdere un sacco
+
+04:40.380 --> 04:41.130
+di soldi.
+
+04:41.280 --> 04:46.080
+Ecco perché si pongono queste domande in un'intervista che vogliono assicurarsi di capire quanto
+
+04:46.080 --> 04:52.500
+sia importante l'argomento e di poter prendere la decisione giusta come dipendente, quale algoritmo di ordinamento dovrebbe essere
+
+04:52.500 --> 04:54.520
+utilizzato in base al problema.
+
+04:55.360 --> 04:56.940
+Questo è l'obiettivo di questa sezione.
+
+04:57.190 --> 05:03.640
+Vi mostrerò come implementare l'ordinamento da soli, se volete, ma soprattutto parleremo dei diversi algoritmi di
+
+05:03.640 --> 05:09.490
+ordinamento a vostra disposizione e di come può prendere le giuste decisioni per la vostra
+
+05:09.490 --> 05:13.120
+azienda e ovviamente di iniziare lesioni di codifica.
+
+05:14.120 --> 05:21.650
+Ora la ragione per cui la maggior parte delle lezioni sugli algoritmi di ordinamento diventa davvero noiosa è che ci
+
+05:21.650 --> 05:24.000
+sono così tanti algoritmi di ordinamento.
+
+05:24.220 --> 05:33.580
+Se cerchiamo algoritmi di ordinamento su Wikipedia, ottieni una lista piuttosto ampia e implementando questi tipi uno alla volta ti prende molto tempo
+
+05:33.640 --> 05:41.380
+ma molto probabilmente non implementerai mai il tuo algoritmo di ordinamento nella tua vita, tranne forse uno semplice in
+
+05:41.440 --> 05:48.100
+un'intervista perché la maggior parte di questi, soprattutto quelli avanzati, che sono molto veloci, sono fatti
+
+05:48.100 --> 05:55.180
+da accademici che impiegano anni a capire qual è il modo migliore di ordinare e gli intervistatori
+
+05:55.180 --> 06:01.610
+non si aspettano di essere in grado di implementare ogni singolo algoritmo di ordinamento.
+
+06:02.720 --> 06:09.470
+Il mio obiettivo in questa sezione è quello di insegnare l'alto livello del perché è necessario conoscere per diventare un ingegnere
+
+06:09.500 --> 06:15.360
+migliore e anche l'intervista di programmazione che ti mostrerò come implementare alcuni dei poveri algoritmi di ordinamento.
+
+06:15.380 --> 06:21.830
+Ma ancora più importante parleremo dei compromessi tra di loro in modo che tu possa
+
+06:21.830 --> 06:26.880
+parlarne in modo intelligente durante un'intervista per i prossimi video.
+
+06:26.910 --> 06:34.200
+Parleremo di questi algoritmi di ordinamento e anche di un paio di bonus verso la fine, ma la cosa
+
+06:34.200 --> 06:41.490
+fondamentale da ricordare è che come sempre più dati vengono gestiti dai nostri computer che è un grande trend
+
+06:41.490 --> 06:47.970
+di ordinamento e ricerca di computazione. i maggiori problemi di informatica nella ricerca del mondo del
+
+06:48.870 --> 06:51.260
+software entreremo nella prossima sezione.
+
+06:51.330 --> 06:57.140
+Ma l'ordinamento è qualcosa che avremo per il master alla fine di questi video.
+
+06:57.240 --> 07:00.820
+Quindi impariamo come prendere le decisioni giuste quando si tratta di ordinare.

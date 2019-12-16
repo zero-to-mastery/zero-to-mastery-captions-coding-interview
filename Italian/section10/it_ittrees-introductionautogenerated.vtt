@@ -1,0 +1,196 @@
+WEBVTT
+
+00:01.000 --> 00:05.440
+Bentornato è ora di imparare una nuova struttura dati.
+
+00:05.470 --> 00:12.520
+Questo è un grande ed entusiasmante perché introdurrà molti nuovi argomenti, specialmente
+
+00:12.520 --> 00:14.990
+quando entriamo negli algoritmi.
+
+00:15.130 --> 00:19.610
+Si chiamano alberi e no no no non questo tipo di alberi.
+
+00:19.690 --> 00:30.520
+Più come questo Alberi sono una struttura di dati che hanno quella che chiamiamo una struttura gerarchica rispetto a qualcosa
+
+00:30.520 --> 00:35.290
+come liste o matrici collegate che sono lineari.
+
+00:35.620 --> 00:39.640
+Gli alberi possono avere zero o più nodi figli.
+
+00:39.640 --> 00:49.060
+Vedete che un albero di solito inizia con un singolo nodo radice o un nodo genitore e ogni figlio dell'albero discende da
+
+00:49.090 --> 00:50.790
+questo nodo radice.
+
+00:51.100 --> 00:53.890
+Quindi è davvero come un albero inverso.
+
+00:54.910 --> 01:02.120
+E ogni bambino di un nodo discende da un solo genitore.
+
+01:02.250 --> 01:09.080
+Quindi hai una relazione genitore-figlio che vedi è necessario direzionale. È andata in un modo e
+
+01:10.340 --> 01:16.430
+hai anche delle note fogliari che sono la fine di una struttura dati dell'albero.
+
+01:16.490 --> 01:24.820
+Finalmente in un albero puoi avere cose come sottoalberi come l'area qui intorno cerchiata in rosso tre sei sette formano
+
+01:24.830 --> 01:31.530
+un sottoalbero e le strutture dei dati dell'albero sono molto importanti perché lavori con loro ogni
+
+01:31.540 --> 01:32.040
+giorno.
+
+01:34.430 --> 01:39.860
+Se andiamo su Twitter. com o qualsiasi sito Web per tale questione
+
+01:44.090 --> 01:52.030
+e apriamo gli strumenti di sviluppo proprio come ho fatto qui se vado alla scheda degli elementi vedi che le nostre pagine web sono create da
+
+01:52.030 --> 01:55.220
+qualcosa chiamato il dormitorio o il modello di oggetto del documento.
+
+01:55.330 --> 01:58.450
+E questa è una struttura dati ad albero.
+
+01:58.450 --> 02:04.390
+Non sembra un albero che ti ho appena mostrato ma il browser lo sta solo
+
+02:04.390 --> 02:11.380
+facendo sembrare carino ma sotto di esso abbiamo avuto qualcuno che è figlio del tag Schimmel all'interno del corpo.
+
+02:11.380 --> 02:18.820
+Abbiamo tutti questi bambini e all'interno di questi bambini abbiamo più figli e
+
+02:18.820 --> 02:24.520
+più bambini e sono tutti collegati gerarchicamente l'uno all'altro.
+
+02:24.570 --> 02:28.540
+Sono sicuro che tutti hanno provato a giocare a scacchi online contro un computer.
+
+02:28.650 --> 02:35.850
+Bene, un computer in una partita a scacchi, almeno nella giornata precedente, prima che avessimo cose come l'apprendimento automatico, ha usato una
+
+02:36.880 --> 02:39.710
+struttura dati ad albero per prendere una decisione.
+
+02:40.000 --> 02:47.230
+Dovrei fare questa mossa o dovrei fare quella mossa o dovrei fare quella mossa e prenderebbe le mosse
+
+02:47.620 --> 02:51.550
+basate su quale mossa ha avuto il risultato migliore.
+
+02:51.550 --> 02:57.970
+I commenti di Facebook, ad esempio, sono una struttura dati ad albero in cui posso commentare la foto di un amico
+
+02:57.970 --> 03:00.760
+e il suo amico può commentare il mio commento.
+
+03:00.790 --> 03:04.930
+Gli alberi genealogici possono essere rappresentati in una struttura dati ad albero.
+
+03:04.930 --> 03:14.730
+E per noi ingegneri e programmatori potresti aver sentito l'albero sintassi astratto se io ho astratto l'albero
+
+03:14.730 --> 03:22.090
+della sintassi qui, ecco come vengono gestiti i programmi e il codice.
+
+03:22.120 --> 03:30.210
+Di solito scriviamo il codice e poi viene scomposto dalla macchina in questo albero sintattico astratto in modo
+
+03:30.210 --> 03:33.450
+che comprenda ciò che abbiamo scritto.
+
+03:33.600 --> 03:38.630
+E questo come puoi vedere l'uso è una struttura dati dell'albero.
+
+03:38.680 --> 03:44.260
+La bellezza degli alberi è che utilizziamo lo stesso principio di quello delle liste concatenate.
+
+03:44.260 --> 03:51.550
+Cioè abbiamo note e queste note possono contenere qualsiasi tipo di informazione che vogliamo che possiamo avere le informazioni dell'utente, possiamo
+
+03:51.550 --> 03:55.170
+solo avere numeri come abbiamo qui tutto ciò che vogliamo.
+
+03:55.180 --> 03:57.720
+Possiamo contenere all'interno di una nota.
+
+03:57.760 --> 04:04.160
+Ora potresti pensare che questo tipo mi ricorda una lista collegata e avresti ragione.
+
+04:04.160 --> 04:14.920
+La lista dei collegamenti è tecnicamente un tipo di albero ma con un solo percorso ed è lineare c'è solo un modo per andare dall'alto verso il
+
+04:14.920 --> 04:20.610
+basso rispetto a quello che abbiamo visto in un albero normale come questo.
+
+04:21.930 --> 04:25.500
+Ora la cosa da tenere presente qui potrebbe essere diversa da una lista collegata.
+
+04:25.560 --> 04:31.420
+È che un nodo può solo indicare un bambino, come puoi vedere tutte le frecce puntate verso il basso.
+
+04:32.590 --> 04:40.060
+C'è sempre un punto di ingresso che è la radice ma i nodi non devono realmente fare riferimento al genitore ora,
+
+04:41.090 --> 04:47.740
+proprio come nella vita reale ci sono molti tipi di strutture di dati ad albero che possiamo avere.
+
+04:48.040 --> 04:59.300
+E se vai su Wikipedia e cerchi tutte le strutture dei dati dell'albero, ti intimidirà molto.
+
+04:59.300 --> 05:00.180
+Certamente.
+
+05:00.350 --> 05:07.580
+Perché guarda quanti diversi tipi di alberi abbiamo nella vita reale come abbiamo tutti questi diversi tipi
+
+05:07.580 --> 05:08.860
+di alberi.
+
+05:08.900 --> 05:16.050
+Ci sono diversi tipi di alberi che possiamo avere per un caso d'uso specifico ma non siamo sopraffatti.
+
+05:16.050 --> 05:20.410
+E questo corso andremo oltre i principali che si abituano.
+
+05:20.410 --> 05:25.550
+Direi il 90 percento delle volte e quelle che probabilmente incontrerai durante un'intervista perché
+
+05:25.550 --> 05:31.280
+alla fine del giorno, una volta capito cosa sono le strutture dati di un albero come
+
+05:31.280 --> 05:38.360
+come crearlo, come forse usare alcune azioni su quindi tutti gli altri alberi che hai visto sono solo lievi
+
+05:38.360 --> 05:47.120
+modifiche al motivo per cui ora sappiamo che voglio avvisarti nel giorno in cui ho preso una lezione sulle strutture dati questa parte in
+
+05:48.310 --> 05:56.140
+particolare gli alberi sono stati davvero trascinati e non mi hanno fatto interessare strutture dati perché ci sono così tante cose di
+
+05:56.200 --> 05:59.690
+cui puoi parlare quando si tratta di alberi.
+
+05:59.710 --> 06:06.400
+Cercherò di tenerti impegnato al meglio delle mie capacità e cercare di essere efficiente attraverso questa sezione e
+
+06:06.400 --> 06:11.950
+mostrarti gli aspetti importanti che devi conoscere per un colloquio e gettare le basi
+
+06:12.790 --> 06:18.590
+per non insegnarti ogni singolo albero che c'è quello che non andrà a beneficio del.
+
+06:18.810 --> 06:22.270
+Con questo in mente ti vedrò nel prossimo video.
+
+06:22.380 --> 06:22.660
+Bob.

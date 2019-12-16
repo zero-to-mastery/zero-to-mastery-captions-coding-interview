@@ -1,0 +1,199 @@
+WEBVTT
+
+00:02.180 --> 00:10.500
+Bine ați venit înapoi, ați fi observat ceva în timp ce vorbiți despre faptul că sunt scalabile înseamnă că ne îngrijorăm
+
+00:10.590 --> 00:12.110
+de intrări mari.
+
+00:12.420 --> 00:15.680
+Ce arata capatul graficului.
+
+00:16.080 --> 00:24.360
+Deci, dacă funcția noastră este doar îngrijorată de intrări foarte mici sau știm că intrările noastre vor fi doar să spunem că
+
+00:24.360 --> 00:29.610
+o serie de cinci elemente big-O nu contează cât de mult o face.
+
+00:29.610 --> 00:34.710
+Pentru că aici, dacă elementele sunt mici toate aceste linii sunt un fel de adunate împreună sunt
+
+00:34.710 --> 00:35.890
+toate la fel.
+
+00:35.970 --> 00:38.420
+Dar este viața reală.
+
+00:38.430 --> 00:46.230
+Nu, deoarece, ca oameni, avem tendința de a gândi aici și acum avem tendința să credem că site-urile noastre Web vor
+
+00:46.230 --> 00:48.420
+avea doar 100 de utilizatori.
+
+00:48.480 --> 00:49.760
+Asta e.
+
+00:49.800 --> 00:53.850
+Dar ce se întâmplă dacă această bază de utilizatori crește? Ce se întâmplă dacă contribuțiile noastre cresc.
+
+00:53.850 --> 00:59.760
+Nu știm niciodată când scriem codul dorim să scriem un cod care să poată fi scalat, astfel încât să nu trebuiască să ne
+
+00:59.760 --> 01:03.560
+întoarcem în mod constant și să reparăm lucrurile sau când lucrurile ies din mână.
+
+01:03.720 --> 01:12.110
+Codul se sparge și de aceea big-O este atât de important pentru a scrie cod scalabil înseamnă a gândi în afara doar
+
+01:12.110 --> 01:14.500
+unei mici secțiuni de aici.
+
+01:14.540 --> 01:20.220
+Înseamnă gândire gândire pe termen lung mare despre codul dvs. și ce s-ar putea întâmpla în viitor.
+
+01:20.250 --> 01:23.200
+Acum te gândești la tine chiar acum.
+
+01:23.630 --> 01:28.800
+Hey Andre, mă simt ca și cum am învățat o grămadă de teorii și nici o informație practică.
+
+01:28.820 --> 01:33.500
+Andre Vreau să știu exact cum pot folosi acest lucru în viața mea de zi cu zi ca un coder.
+
+01:33.610 --> 01:35.500
+Mă simt destul de plictisit aici.
+
+01:35.720 --> 01:39.710
+Ceea ce, cu această cunoaștere nouă, vă veți uita la cod diferit.
+
+01:39.980 --> 01:40.800
+Dreapta.
+
+01:40.850 --> 01:41.620
+Haideți să aruncăm o privire.
+
+01:42.780 --> 01:49.970
+Veți vedea acum când ne uităm la metodele pe care le primim într-o limbă, cum ar fi metode într-un matrice.
+
+01:50.160 --> 01:56.670
+Când vine vorba de javascript avem lucruri cum ar fi împingerea pop-shift pe schimbare.
+
+01:56.790 --> 02:03.470
+Vedeți toate aceste metode care sunt funcții care au un cost asociat cu acestea.
+
+02:03.540 --> 02:08.530
+Un cost redus mare, de exemplu, atunci când vine vorba de matrice.
+
+02:08.540 --> 02:16.710
+Atunci când căutăm un element peste mine, accesați primul element dintr-o matrice, de exemplu, totul este unul.
+
+02:16.870 --> 02:18.370
+Dar când folosim ceva de genul.
+
+02:18.370 --> 02:19.620
+La schimbare.
+
+02:19.930 --> 02:24.620
+Ei bine, se pare că este oh atunci și de ce este.
+
+02:24.620 --> 02:30.140
+Vom intra în momentul în care vorbim despre matricea structurii de date din secțiunea structură a datelor, dar
+
+02:30.800 --> 02:38.780
+veți începe să vedeți pentru restul acestui curs modul în care vom folosi metoda big-O pentru a măsura de ce o structură de date ar putea
+
+02:38.930 --> 02:40.530
+fi mai bună decat altii.
+
+02:40.550 --> 02:48.020
+De ce ar trebui să folosim o matrice în loc să spunem că un obiect poate obiect are funcții mai bune de care
+
+02:48.020 --> 02:49.920
+avem nevoie pentru date grele.
+
+02:51.040 --> 02:58.600
+Acest grafic despre care am vorbit până acum este de fapt o parte a big-O Chichi dotcom și parcurgeți
+
+02:58.600 --> 03:04.290
+gratuit aici jos veți vedea că fiecare structură de date care este o matrice.
+
+03:04.350 --> 03:08.180
+Și în acest caz, obiectele de pe acest tabel sunt o tabelă de tip hash.
+
+03:08.340 --> 03:14.010
+Din nou, ceva pe care vom acoperi în secțiunea structura datelor, dar vedem că
+
+03:14.700 --> 03:23.370
+avem o notație Big-O diferită pentru structura de date diferită și că unele structuri de date au o căutare foarte bună mare-O unele
+
+03:23.370 --> 03:25.520
+au inserții unele au ștergere.
+
+03:25.530 --> 03:32.190
+Și puteți vedea aici că există diferite argumente pro și contra pentru fiecare dintre aceste structuri de date.
+
+03:32.970 --> 03:41.130
+După cum veți afla în acest curs, structurile de date sunt pur și simplu modalități de stocare a datelor și algoritmii sunt pur și
+
+03:41.280 --> 03:46.800
+simplu funcții sau moduri de utilizare a structurilor de date pentru a scrie programele noastre.
+
+03:46.800 --> 03:56.160
+Amintiți-vă instrucțiunile noastre de mașini pentru computerele noastre și marii programatori au aceste cunoștințe în cazul în
+
+03:56.280 --> 04:03.960
+care aleg structura de date potrivită algoritmii potriviți pentru a scrie programe bune.
+
+04:04.120 --> 04:12.430
+Amintiți-vă cele două reguli ale codului nostru, care pot fi citite și scalabile și ceea ce am învățat reprezintă fundamentul pentru care trebuie
+
+04:12.430 --> 04:18.880
+să luăm o decizie cu privire la structura de date care va fi cea mai bună
+
+04:18.880 --> 04:26.740
+atunci când intrăm în secțiunea de structură a datelor deoarece vom ști matricea ne permite să accesăm toate într-un timp constante.
+
+04:26.740 --> 04:34.460
+Dar când vine vorba de căutarea printr-o matrice, el ne va da un timp liniar față de poate
+
+04:34.460 --> 04:35.590
+un obiect.
+
+04:35.930 --> 04:42.140
+Deci, în spatele scenei, chiar dacă această secțiune poate fi puțin teoretică și plictisitoare.
+
+04:42.380 --> 04:47.840
+Ceea ce tocmai am învățat va pune fundamentul pentru restul cursului pentru ca
+
+04:47.840 --> 04:52.280
+noi să putem scrie un cod bun pentru restul secțiunilor.
+
+04:52.370 --> 04:58.940
+Vom folosi Big-O pentru a vedea care este o soluție bună la o problemă și care este o
+
+04:58.940 --> 05:03.700
+soluție proastă la o problemă în majoritatea interviurilor au acest concept de bază.
+
+05:04.070 --> 05:05.860
+Care este structura corectă a datelor.
+
+05:05.930 --> 05:09.650
+Care este algoritmul potrivit pentru a scrie programe bune.
+
+05:09.650 --> 05:17.330
+Google angajează ingineri și dezvoltatori care știu acest lucru, deoarece au o mulțime de scară pe care trebuie să
+
+05:17.330 --> 05:18.140
+le gândească.
+
+05:18.260 --> 05:25.770
+Multe intrări și oameni care știu cum să se ocupe de aceste programe sunt cei care vor putea
+
+05:25.770 --> 05:27.760
+să construiască programe minunate.
+
+05:29.360 --> 05:30.790
+Ne vedem în următorul.
+
+05:30.990 --> 05:31.290
+Bebai.

@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.520 --> 00:02.840
+Welcome back.
+
+00:02.840 --> 00:10.100
+We've just implemented prepared and append and it should be clear to you why that is an 0 1 operation
+
+00:10.160 --> 00:11.620
+for both of these.
+
+00:11.660 --> 00:14.700
+We don't really have to loop through anything.
+
+00:14.790 --> 00:20.000
+We just had a reference to the tail and the head and we reassigned some values.
+
+00:20.370 --> 00:21.600
+Nice and easy.
+
+00:21.930 --> 00:23.700
+But now comes the hard part.
+
+00:23.910 --> 00:25.010
+What about these wants.
+
+00:25.020 --> 00:26.300
+What about lock ups.
+
+00:26.310 --> 00:29.750
+Traversals inserts deletes.
+
+00:29.810 --> 00:37.150
+I think we should code those as well to fully understand how length lists work this exercise is going
+
+00:37.150 --> 00:39.030
+to be a little bit tougher.
+
+00:39.190 --> 00:43.840
+But I'm going to give you a heads up that there's going to be some looping involved.
+
+00:44.050 --> 00:53.830
+We want to create a insert method in this insert method is going to have an index and a value parameter
+
+00:54.730 --> 01:04.260
+because we're going to want to be able to say insert this location this value into the list.
+
+01:04.290 --> 01:13.980
+For example if I wanted to say my linked list dot insert and let's say I wanted to insert an index of
+
+01:14.010 --> 01:19.560
+two the value ninety nine.
+
+01:19.650 --> 01:27.900
+That would mean that if we go back to our example index of 2 we mean 0 1 to right here.
+
+01:27.960 --> 01:36.420
+I want to insert ninety nine and have that point to 5 how we go about doing that.
+
+01:37.290 --> 01:45.840
+I want to warn you this can get a little tricky and the best way to really think about it is to grab
+
+01:45.840 --> 01:50.730
+a piece of paper and a pen and draw out the steps that you should do.
+
+01:52.020 --> 01:59.880
+A good way to practice this and make sure you get it right is to use the visual Go website and practice
+
+01:59.880 --> 02:08.560
+inserting and see what happens when you do index up to let's say ninety nine I hit go see what happens
+
+02:08.560 --> 02:09.160
+here.
+
+02:09.190 --> 02:12.250
+You're going to have to code that action.
+
+02:12.370 --> 02:13.450
+Did you get that.
+
+02:13.810 --> 02:19.910
+Play around with this as you try and code the insert function.
+
+02:20.160 --> 02:25.620
+Like I said a little hint that there's going to be some looping and bolt you saw that in the demonstration
+
+02:25.650 --> 02:29.220
+or in the animation there was some sort of traversal.
+
+02:29.220 --> 02:34.180
+So we're going to have to do some sort of traversal to find the index.
+
+02:34.350 --> 02:44.310
+And I also just want to code a quick print list function so that instead of using this way of printing
+
+02:44.340 --> 02:49.390
+our list which as it gets deeper and deeper it gets harder and harder to understand.
+
+02:49.590 --> 02:55.740
+I'm going to just create a print list function that you should have access to to make sure that your
+
+02:55.740 --> 03:04.650
+insert method is working and this print list is simply going to just list are linked list.
+
+03:04.660 --> 03:10.250
+But instead of having this ugly print out I'm just going to print it out in an array.
+
+03:10.270 --> 03:20.760
+So this is just going to be printed out in an array all we're going to do is say Konst array and this
+
+03:20.760 --> 03:32.090
+is going to be NMT aurorae will have a current note variable that will have this thought had.
+
+03:32.570 --> 03:37.370
+So the first item in the list and all we're going to do is do a while loop.
+
+03:37.430 --> 03:40.210
+Remember this is similar to a for loop.
+
+03:40.220 --> 03:46.220
+We're looping but instead we're saying while this is happening while a condition is happening run the
+
+03:46.220 --> 03:52.450
+below comments so I'm going to say while current node doesn't equal to.
+
+03:52.460 --> 04:02.820
+No as long as there is a current node and we're not pointing to a null terminator in that case just
+
+04:02.820 --> 04:10.390
+simply add to the array array of push the current node value.
+
+04:10.590 --> 04:11.230
+That's it.
+
+04:11.250 --> 04:13.020
+We don't care about the pointers or anything.
+
+04:13.020 --> 04:21.670
+We just want to push to the array the value and we want to then update the current node to equal current
+
+04:22.120 --> 04:24.100
+node dot next.
+
+04:24.100 --> 04:29.410
+So we're going to keep going keep going keep going until the current node is going to be null and which
+
+04:29.410 --> 04:36.200
+case we're going to stop again while loops are really really good if we don't really know the length
+
+04:36.200 --> 04:40.850
+of our linked list or we want to do something while a condition is met.
+
+04:41.960 --> 04:45.890
+So we can just simply return the array here.
+
+04:47.060 --> 04:48.220
+Let's see how that would work.
+
+04:49.230 --> 04:54.360
+If I do and I'm going to comment out the insert here because we're not going to do that yet I'm going
+
+04:54.360 --> 04:58.270
+to just say my linked list not print list.
+
+04:59.640 --> 05:07.470
+If I run this there is our list so using the parentless command to check your work see if you can create
+
+05:08.070 --> 05:08.800
+this method.
+
+05:09.710 --> 05:11.930
+Good luck and I'll see you in the solution video.

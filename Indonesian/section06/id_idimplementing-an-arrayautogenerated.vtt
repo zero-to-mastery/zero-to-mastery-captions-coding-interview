@@ -1,0 +1,547 @@
+WEBVTT
+
+00:01.490 --> 00:08.040
+Sekarang kita tahu bagaimana menggunakan array di mana mereka cepat di mana ada lambat kita
+
+00:08.040 --> 00:15.690
+akan masuk ke bagian yang tidak penting untuk wawancara, tetapi ada baiknya untuk memahami bagaimana mereka bekerja dan bagaimana
+
+00:15.690 --> 00:17.010
+membangun sebuah array.
+
+00:17.010 --> 00:22.070
+Kemungkinan besar dalam sebuah wawancara Anda tidak akan diminta, membangun mereka ray dari awal.
+
+00:22.410 --> 00:30.690
+Tetapi saya ingin membangun fondasi-fondasi itu untuk Anda sehingga kami memahami suatu ras dari tingkat yang mendasar.
+
+00:31.780 --> 00:35.730
+Jadi mari kita membangun array sendiri.
+
+00:35.820 --> 00:41.580
+Sekarang di video ini kita akan menggunakan sintaks kelas dalam javascript sehingga kita
+
+00:41.580 --> 00:48.750
+akan membuat kelas array meskipun dengan javascript dan banyak bahasa lain kita bisa melakukan ini dan kita telah
+
+00:48.930 --> 00:50.270
+membuat sebuah array.
+
+00:50.280 --> 00:53.120
+Mari kita lihat apakah kita dapat membangun salah satu dari kita sendiri.
+
+00:53.490 --> 01:00.210
+Karena ketika Anda akan mengetahui saat kita melalui kursus ini struktur data adalah hal-hal yang dapat kita
+
+01:00.210 --> 01:01.870
+bangun dari awal.
+
+01:01.890 --> 01:04.140
+Kita dapat membuat struktur data apa pun yang kita inginkan.
+
+01:04.140 --> 01:07.260
+Kita dapat membuat struktur data kita sendiri.
+
+01:07.260 --> 01:13.590
+Struktur data yang paling umum dikenal dan sudah diimplementasikan dalam sebagian besar bahasa
+
+01:13.590 --> 01:15.110
+karena sangat berguna.
+
+01:15.540 --> 01:23.520
+Tetapi Anda dapat membangun struktur data apa pun yang Anda inginkan dari awal dan karena Anda akan menemukan sebagian besar
+
+01:23.520 --> 01:27.140
+struktur data dibangun di atas struktur data lainnya.
+
+01:27.890 --> 01:33.950
+Sekarang untuk memulai kita akan membuat array dalam javascript tetapi hanya kepala.
+
+01:34.100 --> 01:41.690
+Javascript adalah sedikit array kasus yang menarik dalam javascript hanya objek dengan kunci berbasis integer yang bertindak
+
+01:41.750 --> 01:45.740
+seperti indeks dan itulah yang akan kita bangun.
+
+01:45.920 --> 01:49.070
+Bahasa yang berbeda akan memiliki implementasi ini secara berbeda.
+
+01:49.070 --> 01:56.980
+Tetapi apa yang akan kita pelajari di sini masih berlaku untuk bagaimana array bekerja dalam bahasa lain.
+
+01:57.050 --> 02:01.310
+Jadi kita akan mulai dengan membuat kelas.
+
+02:01.330 --> 02:11.530
+Mari kita mulai dengan membuat kelas dan kita akan menyebutnya array saya.
+
+02:11.720 --> 02:19.570
+Dan dalam array akan memiliki konstruktor yang merupakan fungsi awal yang akan dijalankan ketika
+
+02:20.110 --> 02:27.130
+kita membuat Mirei ini dan konstruktor ini akan memiliki dua titik data.
+
+02:27.220 --> 02:35.830
+Salah satunya adalah properti panjang karena dengan sebuah array kita dapat menentukan panjang array dan panjang
+
+02:36.100 --> 02:38.370
+awal akan menjadi nol.
+
+02:38.410 --> 02:45.330
+Itu adalah berapa banyak item yang dimiliki array dan kemudian kita akan memiliki data di dalam array.
+
+02:45.470 --> 02:48.710
+Dan ini akan menjadi objek.
+
+02:48.740 --> 02:56.390
+Sekarang apa tindakan paling umum yang kita miliki dalam array adalah akses untuk mengakses data.
+
+02:56.630 --> 03:04.410
+Jadi mari kita buat metode get dan metode get ini akan mengambil indeks untuk mengambil data
+
+03:04.500 --> 03:05.530
+dari memori.
+
+03:05.640 --> 03:16.310
+Jadi saya akan mengatakan mengembalikan data titik ini dan jika kata kunci ini membingungkan Anda, pastikan Anda
+
+03:16.430 --> 03:18.640
+mencuci video sebelumnya.
+
+03:18.650 --> 03:23.630
+Data ini hanya merujuk pada data yang kami buat di konstruktor.
+
+03:23.840 --> 03:32.270
+Dan kami hanya akan mengembalikan data ke indeks yang kami butuhkan.
+
+03:32.290 --> 03:35.090
+Mari kita lihat bagaimana ini akan bekerja dalam tindakan.
+
+03:36.590 --> 03:44.490
+Untuk membuat Mirei baru yang perlu kita lakukan adalah mengatakan Konst array
+
+03:47.520 --> 03:59.770
+baru dan kita menggunakan kata kunci baru dalam javascript untuk instantiate ini atau membuat salinan kelas ini seperti ini.
+
+03:59.770 --> 04:12.240
+Jadi sekarang jika saya melakukan dialog konsol array baru dan saya klik jalankan saya mendapatkan array saya yang memiliki panjang properti
+
+04:12.480 --> 04:15.650
+0 dan data yang kosong.
+
+04:15.770 --> 04:25.010
+Jika saya melakukan array array baru mendapatkan indeks nol dari nol saya tidak terdefinisi.
+
+04:25.370 --> 04:36.110
+Yah karena tidak ada apa pun di objek ini, kami tidak memiliki ide dan Javascript secara otomatis memiliki tipe yang
+
+04:36.180 --> 04:39.490
+ditentukan ketika Sementara tidak ada.
+
+04:39.860 --> 04:46.500
+Mari kita tambahkan metode kita selanjutnya yaitu metode push untuk menambahkan sesuatu di akhir array.
+
+04:46.580 --> 04:54.310
+Jadi saya akan membuat metode push dan metode ini akan mengambil item yang akan kami berikan dan di
+
+04:54.320 --> 04:58.280
+sini kita hanya akan menambahkan ini ke data.
+
+04:59.110 --> 05:05.750
+Lebih dari objek itu akan menambahkannya ke panjang item kami.
+
+05:05.780 --> 05:10.140
+Jadi karena kita memiliki item nol dan panjangnya 0.
+
+05:10.250 --> 05:12.600
+Ini akan menambah data.
+
+05:12.650 --> 05:23.650
+Data nol indeks DOD ini dan indeks nol hanya akan sekarang berisi item dan karena kami
+
+05:23.650 --> 05:37.280
+ingin terus menambahkan item jika kami ingin kami akan mengatakan ini dot lenth plus plus karena sekarang array kami memiliki
+
+05:37.280 --> 05:40.080
+panjang 1 bukan 0.
+
+05:40.310 --> 05:47.570
+Jadi pada saat kita menjalankan metode push, mimbar ini akan menjadi 1 dan item baru akan
+
+05:47.660 --> 05:49.750
+ditambahkan pada indeks 1
+
+05:49.920 --> 05:55.210
+Dan mari kita kembalikan dot lenth ini untuk saat ini.
+
+05:56.540 --> 06:02.830
+Karena metode push pada javascript biasanya akan mengembalikan panjang array.
+
+06:02.840 --> 06:05.220
+Ayo jalankan ini dan lihat apa yang terjadi.
+
+06:05.240 --> 06:09.600
+Saya akan mengatakan itu di sini.
+
+06:09.610 --> 06:10.000
+Baik.
+
+06:10.150 --> 06:16.230
+Kami akan memiliki array dot push baru dan kami akan mendorong.
+
+06:17.400 --> 06:27.420
+Jika saya menjalankan ini saya melihat saya memiliki panjang array saya 1 data akan memiliki properti 0 0.
+
+06:27.460 --> 06:28.790
+Hi bagus.
+
+06:28.990 --> 06:38.440
+Bagaimana jika kita menambahkan hal lain, mari kita lakukan array push dot baru dan kami akan mengatakan kepada Anda jika saya menjalankan ini saya punya dua.
+
+06:38.440 --> 06:46.640
+Sekarang dengan indeks 0 tambahkan tinggi atau indeks 0 memiliki indeks tinggi satu telah Anda.
+
+06:46.660 --> 06:47.630
+Sangat keren.
+
+06:48.400 --> 06:49.200
+Apa lagi yang bisa kita lakukan.
+
+06:49.240 --> 06:54.570
+Baiklah mari kita tambahkan perintah pop untuk menghapus item terakhir dari array.
+
+06:55.500 --> 07:01.100
+Sekali lagi kami memiliki metode pop yang tidak menerima apa pun.
+
+07:01.110 --> 07:02.910
+Kita tidak perlu memberikannya parameter.
+
+07:03.120 --> 07:07.170
+Yang perlu kita lakukan adalah menghapus item terakhir dalam array.
+
+07:07.230 --> 07:10.010
+Kami hanya dapat memiliki variabel.
+
+07:10.140 --> 07:17.680
+Katakanlah item terakhir yang mengambil item terakhir di objek data kami.
+
+07:17.700 --> 07:26.300
+Jadi ini hanya akan menjadi indeks data DOD dari lenth dikurangi satu anggota.
+
+07:26.320 --> 07:32.310
+Kami ingin indeks satu meskipun panjang karena kami menghitung 0 1.
+
+07:32.560 --> 07:42.730
+Kami ingin item terakhir dalam data dan dari sini kami cukup menggunakan kata kunci hapus dalam javascript
+
+07:42.730 --> 07:49.480
+dan katakan data titik ini pada titik ini, minus 1.
+
+07:49.570 --> 07:56.190
+Hapus saja item itu dan jelas kita perlu mengurangi.
+
+07:56.320 --> 08:04.310
+Jadi cukup singkatan di sini dan javascript untuk mengurangi panjang data kami satu per satu.
+
+08:04.460 --> 08:09.990
+Dan akhirnya kita bisa mengembalikan item yang sudah kita hapus.
+
+08:10.000 --> 08:17.510
+Jadi sekarang jika saya menjalankan perintah lain dan omong-omong Anda mungkin melihat di sini bahwa saya telah melewatkan titik koma di
+
+08:17.510 --> 08:18.090
+javascript.
+
+08:18.110 --> 08:20.820
+Sebagian besar waktu Anda bisa lolos dengan tidak menambahkan semi-titik dua.
+
+08:20.840 --> 08:24.740
+Dan beberapa orang tidak menggunakan titik koma sama sekali dalam javascript.
+
+08:24.740 --> 08:26.270
+Jangan terlalu terganggu oleh itu.
+
+08:26.270 --> 08:30.380
+Terkadang saya lupa dan itu tidak terlalu penting setidaknya untuk tujuan kita.
+
+08:30.560 --> 08:40.750
+Mari kita tambahkan item baru ke array yang akan menjadi tanda seru dan saya akan
+
+08:41.170 --> 08:56.120
+mengatakan pop Peridot saya atau baru jika saya menjalankan ini saya mendapatkan pesan kesalahan karena ini harus menjadi item terakhir di sini kalian semua
+
+08:56.130 --> 08:57.360
+Mari kita jalankan lagi.
+
+08:57.550 --> 09:00.580
+Dan kami melihat bahwa Anda tinggi.
+
+09:00.790 --> 09:03.600
+Karena Markus penjumlahan telah dihapus.
+
+09:03.610 --> 09:05.480
+Jika saya menjalankan pop
+
+09:08.380 --> 09:13.620
+lagi, saya melihat bahwa saya memiliki satu dan hanya tersisa sangat dingin.
+
+09:15.360 --> 09:21.900
+Baiklah mari kita tambahkan satu yang terakhir dan untuk menunjukkan kepada Anda mengapa beberapa operasi dalam perlombaan adalah 0.
+
+09:21.990 --> 09:25.750
+Kemudian kita akan menambahkan metode hapus dan metode
+
+09:28.990 --> 09:33.630
+hapus akan mengambil indeks item mana yang ingin kita hapus.
+
+09:35.890 --> 09:39.610
+Dan di sini kita harus melakukan item biaya.
+
+09:39.610 --> 09:46.980
+Jadi kita akan membuat referensi ke indeks data titik ini yang merupakan item yang ingin kita hapus.
+
+09:48.820 --> 09:51.910
+Dan bagaimana kita akan menghapus ini.
+
+09:51.910 --> 10:00.340
+Karena ingat dalam sebuah array kita harus menghapus item kemudian menggeser indeks semua tipe
+
+10:00.340 --> 10:10.110
+data lainnya oleh satu karena kita ingin mengikuti praktik pengkodean yang baik menggunakan gagasan prinsip tanggung jawab
+
+10:10.110 --> 10:11.120
+tunggal.
+
+10:11.130 --> 10:17.820
+Mari kita tambahkan fungsi nother yang melakukan ini untuk kita yang melakukan pergeseran data untuk kita.
+
+10:17.910 --> 10:27.510
+Saya akan membuat metode baru dan kami melakukan ini dalam javascript menggunakan item shift sintaks ini dan metode
+
+10:27.780 --> 10:33.860
+ini akan mengambil indeks yang kami terima di sini dan menghapusnya.
+
+10:33.880 --> 10:42.890
+Sekarang ini item shift yang bisa kita buat di sini dan simpan metode item shift itu.
+
+10:43.050 --> 10:49.050
+Dan omong-omong saya menggunakan fungsi dan metode kata-kata secara bergantian kadang-kadang
+
+10:49.530 --> 10:53.520
+metode hanya berarti fungsi dalam kelas.
+
+10:53.520 --> 10:59.730
+Jadi ini item shift ini akan menjadi metode array saya.
+
+11:00.600 --> 11:01.790
+Tapi itu adalah fungsi.
+
+11:01.830 --> 11:10.920
+Jadi fungsi ini yang merupakan metode Mirei akan memiliki parameter indeks yang dilewatkan ke dalamnya.
+
+11:11.140 --> 11:13.090
+Dan di sinilah kami melakukan beberapa hal yang menyenangkan.
+
+11:13.150 --> 11:15.770
+Kita harus mengulang item.
+
+11:15.940 --> 11:23.350
+Jadi itu untuk loop yang segera harus membunyikan bel dan berkata oh ini adalah O dari
+
+11:23.350 --> 11:30.200
+operasi kita akan memiliki indeks nol atau saya memiliki nol sebenarnya bukan nol.
+
+11:30.200 --> 11:40.130
+Ingat karena kami ingin menggeser item tidak semuanya hanya di mana saja indeks dimulai dari kami katakan indeks.
+
+11:40.470 --> 11:44.720
+Dan sekarang saya harus menjadi lenth Studd ini.
+
+11:45.120 --> 11:50.630
+Jadi saya kurang dari lenth ini minus satu.
+
+11:50.820 --> 11:57.790
+Dan kita akan menambah saya satu per satu setiap kali melalui loop dalam loop
+
+11:57.790 --> 12:08.660
+ini yang akan kita lakukan adalah mengatakan data titik ini data kami di setiap indeks yang kami lewati akan sama dengan data
+
+12:09.630 --> 12:13.420
+titik ini di I plus satu .
+
+12:13.860 --> 12:23.610
+Apa yang baru saja terjadi di sini, kami katakan mulai dari indeks yang kami ingin mulai hapus dan
+
+12:23.790 --> 12:26.520
+lakukan terus sampai akhir.
+
+12:26.820 --> 12:35.970
+Dan dalam loop ini saya ingin Anda mengambil setiap item dalam data yang kami miliki dan alih-alih apa yang ada sebelum
+
+12:36.150 --> 12:41.250
+saya ingin menambahkan data yang tepat di sebelahnya di plus 1.
+
+12:41.610 --> 12:45.920
+Jadi kami memiliki array yang nol dan 2.
+
+12:46.410 --> 12:57.170
+Saya katakan dari indeks 0 di sini saya ingin Anda sekarang membuat 0 sama dengan 2.
+
+12:57.200 --> 12:59.360
+Jadi indeks E-plus akan.
+
+12:59.520 --> 13:07.020
+Jadi kami menggeser item ke kiri sebanyak 1.
+
+13:07.200 --> 13:09.220
+Jadi kita sudah bergeser di sini.
+
+13:09.420 --> 13:19.780
+Semua item satu ke kiri dan karena kami melakukan itu indeks yang kami berikan untuk menghapus
+
+13:19.780 --> 13:25.380
+secara otomatis diganti karena mata itu akan diganti.
+
+13:26.520 --> 13:37.240
+Sekarang ada masalah di sini kan karena sekarang item terakhir dalam array yaitu data titik ini pada titik
+
+13:37.330 --> 13:45.100
+lenth minus 1 yang merupakan item terakhir dalam array masih akan ada.
+
+13:45.460 --> 13:54.430
+Kami telah mengubah semuanya satu per satu, tetapi kami tidak pernah menyentuh malam terakhir karena kami
+
+13:54.760 --> 13:59.280
+berhenti ketika saya kurang dari ini minus satu.
+
+13:59.320 --> 14:03.620
+Jadi ini masih penuh.
+
+14:03.700 --> 14:09.800
+Jadi saya akan berkomentar dan menunjukkan kepada Anda apa yang terjadi jika kita membiarkannya seperti ini.
+
+14:09.910 --> 14:11.470
+Saya akan
+
+14:14.420 --> 14:23.560
+menjalankan array delete dot baru dan saya akan menghapus perintah pop untuk sekarang dan di delete saya
+
+14:23.590 --> 14:27.540
+akan mengatakan saya ingin menghapus item U
+
+14:27.580 --> 14:32.710
+Jadi itulah indeks dari 1.5 menjalankan ini.
+
+14:32.920 --> 14:37.200
+Saya mendapatkan tinggi Anda dihapus.
+
+14:37.480 --> 14:40.760
+Tetapi kemudian saya memiliki tanda seru indeks 1.
+
+14:40.780 --> 14:43.410
+Jadi penggesernya bekerja tetapi indeks 2.
+
+14:43.420 --> 14:50.670
+Saya masih memiliki tanda seru karena meskipun kami tidak pernah menghapusnya, kami telah menggeser semuanya tetapi kami tidak
+
+14:50.670 --> 14:51.750
+pernah menyentuh.
+
+14:51.840 --> 14:52.930
+Indeks dua.
+
+14:53.280 --> 15:03.130
+Jadi yang perlu kita lakukan untuk menghilangkan itu adalah kata kunci hapus untuk menghapus item terakhir dan
+
+15:03.340 --> 15:09.330
+jelas untuk mendokumentasikan panjang kita karena kita hanya menghapus item.
+
+15:09.440 --> 15:13.980
+Kita bisa melakukan ini Dodd lenth minus minus.
+
+15:14.060 --> 15:21.560
+Jika kita menjalankan ini sekarang, hei lihat panjang dua tanda seru itu.
+
+15:21.580 --> 15:25.250
+Mari kita bermain sedikit untuk memastikan semuanya bekerja di sini.
+
+15:25.330 --> 15:31.700
+Jika katakanlah saya menambahkan beberapa perintah push lagi di sini dan kami akan katakan di sini.
+
+15:32.250 --> 15:33.740
+Hai kamu.
+
+15:33.850 --> 15:43.460
+Lalu katakanlah bagus jika saya menjalankan ini saya mendapat tanda seru tinggi baik.
+
+15:43.530 --> 15:44.310
+Itu tidak masuk akal.
+
+15:44.310 --> 15:45.990
+Mari kita ubah ini menjadi nol.
+
+15:45.990 --> 15:49.020
+Untuk menghapus yang tinggi.
+
+15:49.020 --> 15:51.720
+Jika saya menjalankan ini, saya mengerti.
+
+15:51.720 --> 15:54.950
+Tanda seru itu bagus.
+
+15:55.260 --> 15:56.540
+Itu masih tidak masuk akal.
+
+15:56.550 --> 16:00.710
+Mari kita hilangkan tanda seru sehingga kita hanya memiliki beberapa saja yang bagus.
+
+16:00.810 --> 16:03.870
+Saya akan menjalankan array baru.
+
+16:04.720 --> 16:09.760
+Dan kita dapat menghapus indeks 1 yang merupakan tanda seru.
+
+16:10.020 --> 16:11.760
+Dan mari kita lihat apa yang kita dapatkan.
+
+16:11.910 --> 16:20.670
+Lalu saya jalankan ini saya mengerti Anda baik.
+
+16:20.720 --> 16:24.580
+Sekarang Anda mungkin melihat ini dan ingin menambahkan metode Anda sendiri.
+
+16:24.770 --> 16:34.100
+Anda mungkin ingin mengatakan di sini kembalikan item terakhir hanya sebagai referensi yang berfungsi di
+
+16:34.460 --> 16:35.190
+Javascript.
+
+16:36.340 --> 16:43.360
+Tetapi saya pikir untuk saat ini Anda memiliki pemahaman tentang bagaimana array bekerja dan bagaimana mereka diimplementasikan di
+
+16:43.360 --> 16:44.230
+bawah tenda.
+
+16:44.260 --> 16:49.070
+Kami memiliki semua perintah 1 sederhana yang sangat bagus.
+
+16:49.180 --> 16:56.670
+Tetapi begitu kita harus mulai menggeser indeks dan mengubah hal-hal di sekitar kita harus mengulang
+
+16:56.790 --> 17:00.930
+hal-hal yang membuatnya menjadi peristiwa atau waktu linear.
+
+17:00.980 --> 17:06.860
+Saya akan meninggalkan ini untuk Anda sebagai taman bermain setelah pelajaran ini sehingga Anda dapat menambahkan barang-barang Anda
+
+17:06.870 --> 17:12.050
+sendiri mungkin Anda menulisnya dalam bahasa yang berbeda dan mengeksplorasi sedikit lebih dalam perlombaan.
+
+17:12.230 --> 17:14.260
+Tapi video ini sudah lama.
+
+17:14.270 --> 17:17.890
+Saya tidak ingin terlalu bosan sekarang, jadi saya akan melihat di video berikutnya.
+
+17:17.990 --> 17:18.290
+Buh-Bye.

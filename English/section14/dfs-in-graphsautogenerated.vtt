@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.890 --> 00:08.540
+What about depth first search in graphs you might not know it but you just learned how to solve a maze
+
+00:08.840 --> 00:16.970
+using program because death first search is exactly like solving a maze right.
+
+00:17.300 --> 00:23.360
+If you've ever done a real life maze yourself or looked at a program that tries to solve which path
+
+00:23.360 --> 00:30.560
+to take the idea was to go as deep as you can and when you hit a roadblock or a place where you can't
+
+00:30.560 --> 00:37.370
+go anymore you backtrack and find a different route and then you keep backtracking until you find the
+
+00:37.370 --> 00:44.850
+desired node or you accept the maze and that's the beauty of death for search.
+
+00:44.920 --> 00:50.350
+You can now implement an algorithm that solves a maze puzzle.
+
+00:50.410 --> 00:52.980
+Isn't that cool just like in here.
+
+00:53.020 --> 01:02.980
+If we do a def first search let's say we're starting at number one and 10 is the accept or nine is the
+
+01:02.980 --> 01:03.990
+exit.
+
+01:04.360 --> 01:12.250
+And actually one won't work because this Unlike our previous graph which was undirected that is had
+
+01:12.250 --> 01:14.520
+both directions I can go back and forth.
+
+01:14.560 --> 01:19.220
+This one is a directed graph that has specific directions that it can go.
+
+01:19.420 --> 01:21.680
+So let's do a zero to nine.
+
+01:21.880 --> 01:28.230
+If I do death for a search and do 9 or we'll start at zero trying to find nine.
+
+01:28.420 --> 01:32.140
+Just like looking through a maze I go here I go here.
+
+01:32.290 --> 01:39.460
+I keep going through my children and then try and go as deep as I can and I managed to get out of the
+
+01:39.460 --> 01:43.180
+maze before I even search 6 and 5 over here.
+
+01:44.370 --> 01:48.500
+And obviously this algorithm keeps going because I can tell it to stop at nine.
+
+01:48.630 --> 01:52.730
+But you see how it was exactly like solving a maze.
+
+01:53.720 --> 01:57.030
+And that's why we use recursion for death for a search right.
+
+01:58.120 --> 02:06.220
+The idea of backtracking after a dead end and then repeating the walk down another path is just recursion
+
+02:07.260 --> 02:12.470
+each step smaller than the other and then we go back and then keep doing the same thing over and over.
+
+02:13.430 --> 02:20.340
+The idea of death for a search is that it's really good at saying does the path exist.
+
+02:20.420 --> 02:29.960
+It doesn't tell us the shortest path but whether it even exists and uses less memory depth first search.
+
+02:30.000 --> 02:38.280
+The one downside with it is that if you have a really really deep graph then it can get very slow because
+
+02:38.370 --> 02:46.440
+the deeper the graph the more recursive calls the more space complexity you add because we have to keep
+
+02:46.440 --> 02:48.900
+track of those function calls on a stack.

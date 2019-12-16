@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.890 --> 00:13.220
+It's time for our next data structure hash tables hash tables or hash maps maps on ordered maps dictionaries
+
+00:13.610 --> 00:20.750
+objects there are many ways to call this data structure and different languages have different names
+
+00:20.750 --> 00:26.640
+for it and slight variations on the hash tables objects.
+
+00:26.660 --> 00:31.970
+For example in javascript are a type of hash table.
+
+00:32.000 --> 00:38.180
+The reason I'm starting the course with arrays and objects or hash tables is because these two are the
+
+00:38.180 --> 00:44.700
+most common interview questions you're going to use them in any coding question.
+
+00:45.400 --> 00:50.700
+Me personally I have yet to be part of an interview that you didn't have to know these.
+
+00:50.770 --> 00:53.970
+They are an absolute MUST now.
+
+00:53.980 --> 01:01.090
+Luckily for us pretty much every language has a built in hash table just like arrays in Python.
+
+01:01.210 --> 01:06.060
+They're called dictionaries javascript as we said are objects.
+
+01:06.100 --> 01:14.380
+Java has maps and Ruby has hashes and hash tables are very important all across computer science.
+
+01:14.560 --> 01:21.970
+You see them a lot in databases in caches and they're extremely useful.
+
+01:21.990 --> 01:23.550
+So what are they.
+
+01:23.580 --> 01:28.710
+And also you may be wondering what does the name hash table mean.
+
+01:28.740 --> 01:30.100
+Where did this name come from.
+
+01:31.400 --> 01:33.640
+Well let's look at an example.
+
+01:33.660 --> 01:41.700
+Imagine you're going grocery shopping and you have an object here basket and you want to add grapes
+
+01:42.150 --> 01:45.470
+has the property of the basket object.
+
+01:45.480 --> 01:49.250
+Again we're using javascript syntax but this should look familiar to you.
+
+01:49.320 --> 01:55.620
+So we wanted to set that Baskett dog Grace is going to equal 10000.
+
+01:55.650 --> 01:59.540
+We're buying 10000 grapes because you can never have too many grapes.
+
+02:00.600 --> 02:07.100
+Now first off thinking about how we would store this with a race to be a little bit more difficult.
+
+02:07.200 --> 02:08.370
+Right.
+
+02:08.370 --> 02:15.890
+And then re We have a index that's numbered and valley with a hash table or an object.
+
+02:15.960 --> 02:20.760
+We get to set a key which is grapes and a value.
+
+02:20.760 --> 02:23.950
+So we get to set a key value pair.
+
+02:24.090 --> 02:26.520
+So right away we see some benefits in here.
+
+02:27.680 --> 02:39.790
+Now a way hash table works is we have the key which is grapes and this key is used as the index of where
+
+02:39.790 --> 02:42.220
+to find the value in memory.
+
+02:42.800 --> 02:49.160
+Remember with the raise we had the index which was the number but with hash tables we use grapes as
+
+02:49.160 --> 02:53.650
+a way to find it in our memory shelf.
+
+02:53.660 --> 02:57.790
+This is done this way with something called a hash function.
+
+02:57.830 --> 03:00.680
+But for now we'll just assume this is a black box.
+
+03:00.710 --> 03:02.090
+We don't know what's going on here.
+
+03:03.060 --> 03:07.790
+All that's going to happen is we're going to pass grapes into this black box.
+
+03:08.100 --> 03:11.700
+This black box is going to do some magic.
+
+03:12.090 --> 03:19.780
+And out of it comes a key into an index where we want to store this value.
+
+03:20.650 --> 03:31.900
+So now are 1000 grapes can be stored and this memory address 7 1 1 and technically it actually stores
+
+03:31.960 --> 03:36.090
+both grapes the key and the value of 10000.
+
+03:36.130 --> 03:40.510
+Here I've just simplified it to 10000 just so it's a little bit cleaner.
+
+03:40.600 --> 03:45.580
+But keep in mind that it's going to store both key and value and I'll show you a diagram showing this
+
+03:45.580 --> 03:47.050
+later on.
+
+03:47.050 --> 03:57.930
+So this black box over here gets to decide where to put the data on our memory in our computers.
+
+03:58.150 --> 04:06.190
+But you might be wondering what is this thing and why does he get to decide where to put all this information.
+
+04:06.430 --> 04:09.520
+For that I'll see in the next video Babai.

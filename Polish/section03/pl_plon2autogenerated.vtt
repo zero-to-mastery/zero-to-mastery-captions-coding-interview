@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.390 --> 00:11.130
+Jednym z najczęściej zadawanych pytań do wywiadu jest coś na kształt logowania wszystkich par horæ.
+
+00:11.150 --> 00:13.250
+Co to właściwie oznacza?
+
+00:13.520 --> 00:24.690
+Jeśli mamy tablicę, po prostu powiedzmy pola, a ta tablica zawiera tylko pola ponumerowane od 1
+
+00:24.690 --> 00:26.740
+do 5.
+
+00:26.750 --> 00:38.940
+Teraz ta tablica, jeśli chcę zapisać wszystkie pary oznacza, że chcę się zalogować 1 2, następnie 1 3 1 4 1 5, następnie 2 1, a następnie
+
+00:39.180 --> 00:42.800
+2 2 2 3 2 4 2 5.
+
+00:42.990 --> 00:47.560
+Tak dalej i tak dalej, jak byśmy to zrobili.
+
+00:47.780 --> 00:52.030
+A jeśli chcesz, możesz zatrzymać film i spróbować samodzielnie rozwiązać ten problem.
+
+00:54.740 --> 01:06.890
+Teraz w tym przypadku chcemy to zrobić, więc stworzymy funkcję i powiemy, logujemy wszystkie pary tablic,
+
+01:07.820 --> 01:10.340
+które odbierają tablicę.
+
+01:10.610 --> 01:11.740
+Po prostu powiedzmy tablicę.
+
+01:11.750 --> 01:18.960
+Mamy tu opisowy opis i tutaj zrobimy pętlę for.
+
+01:19.420 --> 01:22.190
+Tak więc dla LET.
+
+01:22.360 --> 01:25.300
+Hi jest równe zero.
+
+01:25.320 --> 01:38.440
+I robiliśmy to wcześniej, więc jeśli jestem mniejszy niż długość produktu i zwiększę się już teraz.
+
+01:38.460 --> 01:45.190
+I tutaj chcemy pętli, więc teraz w pierwszej iteracji pętli for pobierze jeden.
+
+01:45.540 --> 01:52.750
+Ale potem chcemy ponownie przejść przez pola i zalogować się 1 1 1 2 1 3 1 4 1 5.
+
+01:53.040 --> 02:04.120
+Mamy więc kolejną pętlę for i tym razem powiemy, że J jest równe zeru, jeśli chcemy zapętlić od początku.
+
+02:04.330 --> 02:12.550
+Mogę nawet powiedzieć 1, jeśli chcemy zacząć od 1 2, ponieważ zaczynamy od indeksu 1
+
+02:12.550 --> 02:13.660
+tutaj.
+
+02:13.660 --> 02:19.040
+Na razie możemy zostawić go na 0, a powiemy tak długo, jak J.
+
+02:19.950 --> 02:23.390
+Ma mniejszą długość niż redcoat.
+
+02:24.330 --> 02:28.390
+I zwiększymy JJ.
+
+02:28.490 --> 02:32.720
+A teraz, w końcu tutaj, mogę powiedzieć anulować
+
+02:35.960 --> 02:38.720
+log przez i J.
+
+02:38.830 --> 02:40.660
+Uruchommy tę funkcję i zobaczmy, co się stanie.
+
+02:43.440 --> 02:50.650
+Tak więc muszę wywołać tę funkcję, więc zróbmy to, rejestrując wszystkie pary tablic, a ja dam
+
+02:50.830 --> 02:52.720
+jej tablicę pól.
+
+02:52.950 --> 03:00.080
+Aha i chcemy się upewnić, że tutaj wylogowujemy rzeczywiste elementy, a nie indeks tablicy.
+
+03:00.430 --> 03:13.990
+Więc powiemy po prostu tutaj bardzo wysoko i macie J tutaj i po prostu nie mylcie się z liczbami.
+
+03:13.980 --> 03:20.650
+Może świat zmienia się w litery, aby było bardziej oczywiste, co robimy.
+
+03:22.330 --> 03:25.860
+Zobacz Dee.
+
+03:26.050 --> 03:29.110
+Paskudne i powiemy e.
+
+03:29.520 --> 03:37.070
+Więc jeśli kliknę tutaj, zobaczymy, że rejestrujemy wszystkie pary a a b c d.
+
+03:37.300 --> 03:39.360
+Keeps going going going going, aż do e.
+
+03:39.700 --> 03:43.000
+Możesz zobaczyć log tutaj.
+
+03:43.030 --> 03:46.530
+Jaki jest tego wielki show.
+
+03:46.660 --> 03:52.770
+I to jest coś, co zobaczysz dużo w wywiadach i dobra
+
+03:52.770 --> 04:02.580
+zasada jest taka, że jeśli zobaczysz zagnieżdżone pętle, oznacza to, że zamiast dwóch dwóch pętli jedna po
+
+04:03.210 --> 04:08.770
+drugiej, dodajemy dodatkowe, gdy zobaczysz pętle zagnieżdżone używamy mnożenia.
+
+04:08.880 --> 04:12.870
+Więc staje się stary z czasów ostatecznych.
+
+04:12.900 --> 04:13.700
+Och z.
+
+04:13.710 --> 04:26.620
+A kiedy je pomnożymy, staje się 0 z, a kwadrat 0 na końcu z potęgą dwóch.
+
+04:26.770 --> 04:29.040
+I to dobra zasada.
+
+04:29.930 --> 04:36.840
+A jeśli wrócimy do naszego wykresu, to funkcja, którą właśnie stworzyliśmy i używam tutaj
+
+04:36.840 --> 04:44.350
+składni S-5 zamiast czterech pętli, które zrobiliśmy to i to jest to, co nazywamy czasem kwadratowym.
+
+04:44.490 --> 04:48.440
+Oznacza to, że za każdym razem, gdy liczba elementów rośnie.
+
+04:48.480 --> 04:50.370
+Powiedzmy, że mamy dwa elementy.
+
+04:50.490 --> 04:55.880
+Mamy cztery operacje, które wykonujemy, jeśli mamy trzy elementy.
+
+04:55.890 --> 04:58.880
+To faktycznie rośnie kwadraturowo.
+
+04:58.980 --> 05:09.370
+Oznacza to, że zamiast czterech operacji mamy teraz 1 2 3 4 5 6 7 8 9, ponieważ mamy
+
+05:09.370 --> 05:12.760
+trzy elementy do potęgi dwóch.
+
+05:12.980 --> 05:19.660
+I widzicie tutaj, jak linia ma teraz oznaczać i rośnie dość szybko.
+
+05:20.290 --> 05:27.990
+Jeśli wrócimy do naszej dużej notacji O lub wykresu big-O, widzimy, że n kwadrat.
+
+05:28.070 --> 05:35.120
+Chociaż jest to straszne, ponieważ jest dość powolne, ponieważ liczba elementów zwiększa
+
+05:35.450 --> 05:38.030
+się znacznie liczba operacji.
+
+05:38.510 --> 05:46.610
+I wiele pytań do wywiadu to pytania, które wymagają rozwiązania problemu, początkowo wszystkie są zawyżone i sprawiają, że jest
+
+05:46.610 --> 05:53.940
+to szybsze, prawdopodobnie poprzez przekształcenie go w coś, co jest nieco niższe w tym, co jest złe.
+
+05:53.940 --> 05:57.310
+Uczciwe dobre, ale na pewno nie straszne.
+
+05:58.420 --> 06:06.900
+Jeśli powrócimy do naszej reguły nr 3, że omawiamy różne terminy wprowadzania danych.
+
+06:07.240 --> 06:16.330
+Cóż, powracając do tego przykładu, który mieliśmy w poprzednim filmie, pamiętamy dobrze, że powiedzieliśmy o a
+
+06:16.330 --> 06:22.210
+plus b, ponieważ mieliśmy dwie różne rasy lub wejścia.
+
+06:22.240 --> 06:31.100
+Teraz, jeśli te pętle zostały faktycznie zagnieżdżone, a teraz jeden po drugim, wielki pokaz
+
+06:31.130 --> 06:34.060
+byłby cały czas b.
+
+06:35.060 --> 06:42.950
+I to jest zasada numer trzy, upewniając się, że mamy różne tablice, co oznacza inną notację dla
+
+06:43.730 --> 06:50.840
+każdej macierzy, ponieważ nie znamy soczewki i łatwą zasadą jest każdy krok, który odbywa się
+
+06:50.840 --> 06:52.800
+w tym samym wcięciu.
+
+06:52.850 --> 07:06.090
+Tak po kolei dodajesz i wszystko, co dzieje się z wcięciem, które jest zagnieżdżone, Mnożysz.
+
+07:06.140 --> 07:10.420
+Więc znowu różne dane wejściowe powinny mieć różne zmienne.
+
+07:10.440 --> 07:12.930
+Przejdźmy do ostatniej reguły w następnym wideo.

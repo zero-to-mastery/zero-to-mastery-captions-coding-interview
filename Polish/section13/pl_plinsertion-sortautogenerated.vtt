@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.060 --> 00:08.390
+Wrócimy do tego punktu, o którym mówiliśmy, że algorytmy sortowania nie były zbyt wydajne i
+
+00:08.780 --> 00:17.710
+nie są powszechnie używane. Sortowanie z wstawkami nie jest najskuteczniejszym algorytmem, ale są przypadki, w których jest to
+
+00:17.720 --> 00:22.600
+naprawdę szybkie, a my ". zamierzam o tym porozmawiać.
+
+00:22.820 --> 00:26.780
+Więc uważaj, bo ten zaczyna być ważny.
+
+00:26.930 --> 00:33.620
+Sortowanie wstawek jest przydatne w sytuacjach, gdy masz pewność, że ich lista jest prawie posortowana.
+
+00:34.580 --> 00:35.970
+Lub jest już posortowane.
+
+00:36.230 --> 00:43.020
+To brzmi głupio, ale czasami jest to ważne w informatyce iw najlepszym przypadku.
+
+00:43.220 --> 00:48.100
+Możesz uzyskać całkowity lub liniowy czas, kiedy lista jest prawie posortowana.
+
+00:48.470 --> 00:49.860
+Zobaczmy, jak to działa.
+
+00:49.880 --> 00:53.620
+Mamy listę i patrzymy na szóstkę.
+
+00:53.660 --> 00:56.350
+Patrzymy na pierwszy znak i po prostu zostawiamy go tam, gdzie jest.
+
+00:56.420 --> 01:06.650
+Patrzymy teraz na następny punkt 5, a ponieważ pięć jest mniej niż sześć, przełączamy go, a następnie idziemy dalej na listę,
+
+01:06.690 --> 01:13.040
+mówimy hej 3, gdzie jesteś w stosunku do pięciu i sześciu piłek.
+
+01:13.080 --> 01:15.460
+To mniej niż te dwa.
+
+01:15.510 --> 01:20.380
+Przesuwamy więc tych, którzy przeszli, a trzy zostaną umieszczone z przodu.
+
+01:20.470 --> 01:23.420
+Mamy teraz listę 3 5 6.
+
+01:23.500 --> 01:30.520
+Patrzymy na jeden i mówimy o tak, to jest pierwszy element, który chcemy przesunąć wszystko jedno w lewo.
+
+01:30.520 --> 01:31.640
+Następnie patrzymy na osiem.
+
+01:31.870 --> 01:37.270
+Cóż, ósma jest większa niż wszystkie te elementy, więc dołączmy ją do końca naszej listy.
+
+01:37.850 --> 01:40.580
+Siedem piłek ma od sześciu do ośmiu.
+
+01:40.580 --> 01:52.230
+Więc umieść go tam od 1 do 3, umieść go tam i 4 miejsce pomiędzy 5 lub 3 i 5 i
+
+01:55.320 --> 01:56.450
+to wszystko.
+
+01:56.460 --> 02:01.880
+Prawdopodobnie jest to sposób, w jaki twój mózg działa, jeśli fizycznie masz klocki Lego
+
+02:01.920 --> 02:06.680
+z tymi liczbami i będziesz poruszał nimi i tego typu sortowaniem.
+
+02:06.680 --> 02:13.160
+Działa bardzo dobrze, jeśli chodzi o małe zestawy danych, które otrzymamy później dzięki naszym rozmiarom
+
+02:13.170 --> 02:14.020
+wyjścia.
+
+02:14.300 --> 02:21.340
+Ale czy możesz zrobić tego rodzaju sortowanie w kodzie, czy może on wdrożyć własny sortowanie wstawiania.
+
+02:22.220 --> 02:23.690
+To samo, co wcześniej.
+
+02:23.750 --> 02:31.340
+Tym razem mamy algorytm wstawiania w oparciu o wideo i tancerzy YouTube link do
+
+02:31.340 --> 02:31.970
+niego.
+
+02:32.290 --> 02:36.650
+Czy możesz zaimplementować własny algorytm wstawiania w następnym wideo.
+
+02:36.670 --> 02:37.460
+Pokażę ci odpowiedź.

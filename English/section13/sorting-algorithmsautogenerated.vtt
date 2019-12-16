@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.630 --> 00:08.240
+Welcome back you see in our mind map here that we're now in the sorting section and this big show of
+
+00:08.300 --> 00:12.950
+and again something we haven't talked about is showing up.
+
+00:12.980 --> 00:15.280
+We'll get to that in this section.
+
+00:16.010 --> 00:17.770
+But I want to add a quick note here.
+
+00:17.870 --> 00:23.840
+Looking at all these sorting algorithms and there's a lot more it's important to note that you don't
+
+00:23.840 --> 00:32.060
+need to write a sorting algorithm from scratch most likely ever in your career frameworks usually do
+
+00:32.060 --> 00:32.920
+that for us.
+
+00:33.810 --> 00:39.660
+But you do however need to know how they work because while one you're most likely going to get asked
+
+00:39.840 --> 00:44.390
+in an interview and two because it makes you a better engineer.
+
+00:44.580 --> 00:47.670
+But this section is also about being efficient.
+
+00:47.670 --> 00:53.070
+You see you can spend a lot of time on each one of these sections implementing your own and talking
+
+00:53.070 --> 01:00.060
+about it deeply because I don't think I've ever heard of anybody actually having to implement any code
+
+01:00.290 --> 01:01.280
+manually.
+
+01:01.400 --> 01:06.900
+The sorting algorithms most of the time you can just talk about it or the interviewer tells you that
+
+01:06.900 --> 01:13.350
+the array is sorted and you need to know what to do with it but implementing it from scratch that doesn't
+
+01:13.350 --> 01:14.130
+really happen.
+
+01:14.340 --> 01:19.090
+But I've included it in this section because it's good to know how they work.
+
+01:20.050 --> 01:25.430
+And I'm not going to like coding sorting algorithms is not my favorite either.
+
+01:25.450 --> 01:26.850
+Don't let that deter you.
+
+01:27.880 --> 01:34.240
+I encourage you to watch the next couple of videos and even practice coding your own sorting algorithms
+
+01:34.690 --> 01:36.860
+because it will help your learning.
+
+01:36.970 --> 01:42.940
+But the main thing that we're going to get from this section is not how to implement these I mean we
+
+01:42.940 --> 01:43.960
+will do that.
+
+01:44.110 --> 01:51.480
+But the key is the tradeoff you see we have the big cheat here here that we definitely know about right.
+
+01:51.490 --> 01:54.720
+We talked about data structures and how there's tradeoffs.
+
+01:55.090 --> 01:59.610
+Well when it comes to sorting there's tradeoffs as well.
+
+02:00.300 --> 02:06.180
+You see how there is some time complexity tradeoffs space complexity tradeoffs and it's important to
+
+02:06.180 --> 02:09.950
+know when to use what algorithm.
+
+02:09.990 --> 02:12.010
+That's our goal of this section.
+
+02:12.120 --> 02:19.110
+And before we get into our first sorting algorithm I want to show you this nifty little tool that I'm
+
+02:19.110 --> 02:20.150
+going to link to.
+
+02:20.190 --> 02:22.710
+We have a few sorting algorithms.
+
+02:22.800 --> 02:29.430
+We have insertion sort selection sort bubble sort shell merge heap and then two different variations
+
+02:29.430 --> 02:30.460
+of quicksort.
+
+02:31.830 --> 02:35.150
+And we also have different data sets.
+
+02:35.160 --> 02:37.250
+This is a random data set.
+
+02:37.260 --> 02:39.700
+See how they perform when I click here.
+
+02:40.580 --> 02:45.400
+Based on different sorting algorithm see that they're all working.
+
+02:45.650 --> 02:50.160
+And all of them finish at different times.
+
+02:50.220 --> 02:59.800
+One is a lot slower than the other what about nearly sorted again one such as insertion sort is really
+
+02:59.800 --> 03:08.170
+really fast while others are slower reversed if the items are reversed and we need to sort it completely
+
+03:08.170 --> 03:11.750
+reversed list again different algorithms.
+
+03:12.810 --> 03:14.400
+Perform differently.
+
+03:14.530 --> 03:18.750
+It's never one that wins out over the other depending on the inputs.
+
+03:18.810 --> 03:28.390
+While we need to do their different abilities let's start to learn about these different types of sorting
+
+03:28.390 --> 03:35.230
+algorithms so that by the end of these videos we can make the right decision when to use what I'll see
+
+03:35.230 --> 03:36.120
+in the next one.

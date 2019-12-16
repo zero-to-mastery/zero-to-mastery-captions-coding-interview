@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.720 --> 00:05.370
+Witaj ponownie, jakie są zalety i wady grafów.
+
+00:05.780 --> 00:13.010
+Cóż, jeśli chodzi o wydajność i big-O, robi się to nieco skomplikowane, ponieważ istnieje wiele
+
+00:13.010 --> 00:19.330
+różnych typów wykresów, które można uznać za graficzne, jako naprawdę przydatne w relacjach.
+
+00:19.440 --> 00:26.230
+Są po prostu niezbędne, ponieważ niektóre dane muszą być w formie wykresu.
+
+00:26.570 --> 00:28.260
+Nie ma na to innego sposobu.
+
+00:28.550 --> 00:34.580
+Istnieją również algorytmy wokół wykresów, takie jak te, o których będziemy
+
+00:34.580 --> 00:43.850
+mówić w sekcji algorytmu, które pozwalają nam wykonywać operacje, takie jak znajdowanie najkrótszej ścieżki lub przechodzenie przez wykres.
+
+00:44.010 --> 00:50.980
+Ale jeśli chodzi o wykresy, ponieważ mogą one uzyskać skomplikowane skalowanie jest dość trudne.
+
+00:51.360 --> 00:57.990
+Potrzebujesz dużej firmy lub co najmniej wielu zasobów i możliwości technicznych, aby mieć pewność, że
+
+00:58.110 --> 01:01.270
+budujesz struktury danych wykresów, które są skalowane.
+
+01:01.670 --> 01:10.080
+Ale na szczęście dla nas zwykle nie trzeba będzie wdrażać własnego wykresu w produkcji lub przynajmniej na
+
+01:10.080 --> 01:10.920
+razie.
+
+01:10.950 --> 01:19.690
+9 procent populacji to narzędzia takie jak Neo for J, która jest popularną bazą danych, która pozwala
+
+01:19.690 --> 01:28.330
+na tworzenie naprawdę szybkich baz graficznych, a większość czasu będziesz używał takich narzędzi do budowania złożonych struktur
+
+01:28.420 --> 01:30.540
+zawierających nasze dane.
+
+01:32.270 --> 01:33.690
+Gratulacje.
+
+01:33.890 --> 01:39.780
+Omówiliśmy teraz inną część naszej mapy umysłu struktury danych, która jest grafem.
+
+01:40.160 --> 01:46.470
+Dowiedzieliśmy się o sześciu jak o acyklicznych czekał na czekał skierowany lub nie skierowany.
+
+01:46.530 --> 01:50.590
+Udało nam się również zbudować własny wykres.
+
+01:50.600 --> 01:55.730
+Pozostało jeszcze kilka rzeczy, które widzę tutaj i być może tutaj, do których zajmiemy
+
+01:55.730 --> 01:59.470
+się w sekcji algorytmu, ale na razie zrobimy sobie przerwę.
+
+01:59.690 --> 02:03.670
+Napij się kawy lub herbaty, a do zobaczenia w następnym wideo.
+
+02:03.670 --> 02:04.340
+PA pa.

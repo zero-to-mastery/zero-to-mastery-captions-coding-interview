@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.890 --> 00:13.220
+È ora che le nostre prossime tabelle della hash delle tabelle di hash delle tabelle di dati o mappe di mappe hash sugli oggetti dei dizionari delle
+
+00:13.610 --> 00:20.750
+mappe ordinate ci sono molti modi per chiamare questa struttura dati e lingue diverse hanno
+
+00:20.750 --> 00:26.640
+nomi diversi per essa e leggere variazioni sugli oggetti delle tabelle hash.
+
+00:26.660 --> 00:31.970
+Ad esempio in javascript sono un tipo di tabella hash.
+
+00:32.000 --> 00:38.180
+La ragione per cui sto iniziando il corso con matrici e oggetti o tabelle hash è
+
+00:38.180 --> 00:44.700
+perché queste due sono le domande più comuni che hai intenzione di usarle in qualsiasi domanda di codifica.
+
+00:45.400 --> 00:50.700
+Io personalmente devo ancora partecipare a un colloquio che non dovevi sapere questi.
+
+00:50.770 --> 00:53.970
+Sono un MUST assoluto ora.
+
+00:53.980 --> 01:01.090
+Fortunatamente per noi praticamente ogni lingua ha una tabella hash incorporata proprio come gli array in Python.
+
+01:01.210 --> 01:06.060
+Si chiamano dizionari javascript come abbiamo detto sono oggetti.
+
+01:06.100 --> 01:14.380
+Java ha mappe e Ruby ha hash e le tabelle hash sono molto importanti in tutta l'informatica.
+
+01:14.560 --> 01:21.970
+Li vedi molto nei database in cache e sono estremamente utili.
+
+01:21.990 --> 01:23.550
+Quindi cosa sono.
+
+01:23.580 --> 01:28.710
+E forse ti starai chiedendo cosa significhi il nome hash table.
+
+01:28.740 --> 01:30.100
+Da dove viene questo nome.
+
+01:31.400 --> 01:33.640
+Bene, diamo un'occhiata a un esempio.
+
+01:33.660 --> 01:41.700
+Immagina di andare a fare la spesa e di avere un oggetto qui nel cestino e vuoi
+
+01:42.150 --> 01:45.470
+aggiungere l'uva ha la proprietà dell'oggetto cestino.
+
+01:45.480 --> 01:49.250
+Ancora una volta stiamo usando la sintassi javascript, ma questo dovrebbe sembrarti familiare.
+
+01:49.320 --> 01:55.620
+Quindi volevamo impostare il cane Baskett che Grace equivalesse a 10000.
+
+01:55.650 --> 01:59.540
+Compriamo 10000 uve perché non puoi mai avere troppe uve.
+
+02:00.600 --> 02:07.100
+Ora, prima di tutto, pensiamo a come archiviamo questo con una gara per essere un po 'più difficile.
+
+02:07.200 --> 02:08.370
+Destra.
+
+02:08.370 --> 02:15.890
+E poi ri Abbiamo un indice che è numerato e valle con una tabella hash o un oggetto.
+
+02:15.960 --> 02:20.760
+Arriviamo a impostare una chiave che è uva e un valore.
+
+02:20.760 --> 02:23.950
+Quindi possiamo impostare una coppia di valori chiave.
+
+02:24.090 --> 02:26.520
+Quindi subito vediamo alcuni benefici qui.
+
+02:27.680 --> 02:39.790
+Ora un modo in cui la tabella hash funziona è che abbiamo la chiave che è uva e questa chiave è usata come indice di dove
+
+02:39.790 --> 02:42.220
+trovare il valore in memoria.
+
+02:42.800 --> 02:49.160
+Ricordate con il rilancio abbiamo avuto l'indice che era il numero ma con le tabelle hash
+
+02:49.160 --> 02:53.650
+usiamo l'uva come un modo per trovarlo nella nostra memoria.
+
+02:53.660 --> 02:57.790
+Questo è fatto in questo modo con qualcosa chiamata funzione hash.
+
+02:57.830 --> 03:00.680
+Ma per ora pensiamo che questa sia una scatola nera.
+
+03:00.710 --> 03:02.090
+Non sappiamo cosa sta succedendo qui.
+
+03:03.060 --> 03:07.790
+Tutto ciò che accadrà è che stiamo per passare l'uva in questa scatola nera.
+
+03:08.100 --> 03:11.700
+Questa scatola nera sta per fare un po 'di magia.
+
+03:12.090 --> 03:19.780
+E ne esce una chiave in un indice in cui vogliamo memorizzare questo valore.
+
+03:20.650 --> 03:31.900
+Così ora sono 1000 le uve che possono essere immagazzinate e questo indirizzo di memoria 7 1 1 e tecnicamente in realtà memorizza entrambe le
+
+03:31.960 --> 03:36.090
+uve la chiave e il valore di 10000.
+
+03:36.130 --> 03:40.510
+Qui l'ho semplicemente semplificato fino a 10000 solo così è un po 'più pulito.
+
+03:40.600 --> 03:45.580
+Ma tieni presente che memorizzerà sia la chiave che il valore e ti mostrerò un diagramma che
+
+03:45.580 --> 03:47.050
+mostra questo in seguito.
+
+03:47.050 --> 03:57.930
+Quindi questa scatola nera qui arriva a decidere dove mettere i dati sulla nostra memoria nei nostri computer.
+
+03:58.150 --> 04:06.190
+Ma ti starai chiedendo cos'è questa cosa e perché deciderà dove mettere tutte queste informazioni.
+
+04:06.430 --> 04:09.520
+Per quello vedrò nel prossimo video Babai.

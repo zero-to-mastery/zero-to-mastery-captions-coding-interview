@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.670 --> 00:05.160
+Welcome back where are you able to figure out insertion sort.
+
+00:06.050 --> 00:10.030
+I have the answer here for you just like it happened in the animation.
+
+00:10.170 --> 00:20.540
+We first loop over the array and if the item we're looping for is less then the first item in the array
+
+00:21.630 --> 00:25.400
+while we just move that item.
+
+00:25.680 --> 00:31.810
+Use the on shift method in array and added to the first index in the array.
+
+00:32.970 --> 00:41.880
+Otherwise if the item we're currently looping over is not less than the first index in that case we
+
+00:41.880 --> 00:44.340
+got to figure out where the number should go.
+
+00:44.340 --> 00:50.430
+So we're going to loop through things do an if statement to see where the numbers should go.
+
+00:50.610 --> 00:57.600
+And then we move that number to the right spot using the splice method so that if we click run here
+
+00:57.930 --> 01:06.350
+we have our list sorted I'll once again leave this function here for you to play around with.
+
+01:06.640 --> 01:11.390
+But I want to quickly talk about the big complexity of insertion sort.
+
+01:11.440 --> 01:16.470
+There are times where insertion sort can work really really well.
+
+01:16.660 --> 01:23.760
+The best case scenario for insertion sort when the list is almost sorted or the data is really small.
+
+01:23.800 --> 01:25.510
+It can be really fast.
+
+01:25.780 --> 01:35.180
+If we go back to our little animations here and we look at insertion sort in a nearly sorted data and
+
+01:35.190 --> 01:40.730
+I click play you'll notice that it's the first one that will finish quite fast actually compared to
+
+01:40.730 --> 01:41.940
+all the other ones.
+
+01:41.990 --> 01:42.920
+Let's see that again.
+
+01:45.860 --> 01:53.600
+You'll see that it's the first one done quite fast and as we'll discuss in the next videos when it comes
+
+01:53.600 --> 02:01.020
+to small data sets or data sets that are nearly sort in you want to use insertion sort over most other
+
+02:01.040 --> 02:02.840
+sorting algorithms.
+
+02:02.960 --> 02:03.600
+Well done.
+
+02:03.710 --> 02:06.020
+Let's move on to the next sorting algorithm.

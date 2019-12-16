@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.330 --> 00:07.600
+È giunto il momento per un altro esercizio che abbiamo imparato a creare una struttura di dati dello stack.
+
+00:07.660 --> 00:11.030
+Ma che dire di una nuova struttura dati.
+
+00:11.050 --> 00:15.250
+Fortunatamente per noi molti dei principali saranno uguali.
+
+00:15.390 --> 00:21.370
+E se sei in grado di capire come funziona la struttura dei dati dello stack, non dovresti avere problemi
+
+00:21.460 --> 00:23.420
+a costruire una nuova struttura dati.
+
+00:24.690 --> 00:27.460
+Ho creato un modello per iniziare da qui.
+
+00:27.810 --> 00:34.470
+E il tuo compito è quello di creare questi tre metodi con cui abbiamo familiarità.
+
+00:34.530 --> 00:42.940
+Vogliamo sbirciare e ottenere il primo oggetto della nostra coda o della nostra linea come mi piace chiamarlo.
+
+00:43.100 --> 00:49.640
+E nel nostro costruttore invece di avere il massimo e il basso come abbiamo fatto con uno stack, abbiamo il primo e l'ultimo chi è
+
+00:50.060 --> 00:52.670
+il primo in fila chi ha perso in linea.
+
+00:52.670 --> 00:56.500
+E ovviamente una lunghezza pari a zero.
+
+00:56.660 --> 01:02.720
+E il tuo compito è creare e completare questi metodi al momento giusto.
+
+01:02.720 --> 01:09.550
+Ricordare è aggiungere alla Q e rimuovere la coda dalla coda.
+
+01:09.630 --> 01:16.560
+Ricorda che la differenza tra uno stack che usa il pop è che il dequeue rimuove dalla
+
+01:16.560 --> 01:19.860
+parte anteriore dell'elenco qualsiasi cosa sia prima.
+
+01:19.990 --> 01:21.100
+E di nuovo se vuoi.
+
+01:21.100 --> 01:24.700
+È possibile creare un altro metodo chiamato è vuoto.
+
+01:24.700 --> 01:31.930
+E il tuo obiettivo è creare questa coda in modo da poter creare una mappa di lista d'attesa in cui Joy si mette in fila.
+
+01:31.970 --> 01:33.870
+Poi Matt si mette in fila.
+
+01:33.970 --> 01:35.920
+Quindi Pavel si mette in fila.
+
+01:36.010 --> 01:43.490
+Quindi il sumir entra in linea e poi li uccidi uno a uno con il primo arrivato, primo servito.
+
+01:44.920 --> 01:47.320
+Buona fortuna e ci vediamo nel video della soluzione.

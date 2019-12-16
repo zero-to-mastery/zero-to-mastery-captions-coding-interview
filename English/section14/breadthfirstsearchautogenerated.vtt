@@ -1,0 +1,286 @@
+WEBVTT
+
+00:01.960 --> 00:02.800
+Welcome back.
+
+00:02.890 --> 00:08.680
+Let's start to code our very first algorithm with breadth first search.
+
+00:08.860 --> 00:15.850
+If you remember with breadth first search we have to go from the top then to the left and then visit
+
+00:15.880 --> 00:18.550
+all the nodes in that level.
+
+00:18.550 --> 00:26.650
+And when I said that it uses a lot of memory is that when it visits 6 and 12 from there it's going to
+
+00:26.650 --> 00:29.820
+go back to 1 4 then 34 then 45.
+
+00:30.100 --> 00:38.380
+So as it goes through this level we need to keep a reference to all the children nodes of every node
+
+00:38.560 --> 00:45.940
+that we visit so that we can go back to them and visit 1 and 4 that's where the memory is coming from
+
+00:46.000 --> 00:52.030
+because we have to keep track of those children of the level that we're on.
+
+00:52.100 --> 00:59.990
+And you'll also notice this path that we're taking from nine to 6 to 12 to one to four to 34 for 45.
+
+01:00.170 --> 01:05.810
+We're going to be using a Q data structure which allows us to keep a reference to the notes that we
+
+01:05.810 --> 01:10.480
+want to come back to because we know 6 is in front of 12.
+
+01:10.550 --> 01:14.970
+We can go back to it and discover its child nodes.
+
+01:15.410 --> 01:22.610
+So let's get coding with our breath first search algorithm we have over here our binary search tree
+
+01:22.670 --> 01:25.620
+from our tree data structure section.
+
+01:25.620 --> 01:32.930
+We've already implemented the insert Look-Up remove methods and we've created this binary search tree
+
+01:32.990 --> 01:36.390
+that gives us this type of tree.
+
+01:36.410 --> 01:46.250
+Let's remove these for now and start coding our own breath first search implementation and ideally by
+
+01:46.250 --> 01:52.720
+calling this function we get a list of all these items in the order of breath.
+
+01:52.760 --> 01:59.760
+First search that is 9:4 20 once x 15 170.
+
+01:59.900 --> 02:00.710
+Let's call this
+
+02:03.820 --> 02:05.080
+first search
+
+02:08.670 --> 02:12.010
+and within here we need three things.
+
+02:12.060 --> 02:19.460
+One is the current node which will start with the root node
+
+02:23.390 --> 02:25.440
+and we need two other things.
+
+02:25.490 --> 02:33.770
+One is the actual list that will be our answer will have an array here where we insert these numbers
+
+02:33.770 --> 02:36.570
+into in the order of breath for search.
+
+02:36.920 --> 02:43.780
+And we also need a Q data structure which will use an array for this example.
+
+02:44.710 --> 02:53.740
+To keep track of the level we're at so that we can access the children once we go through it remember
+
+02:53.750 --> 03:00.020
+we're going to keep track of 9 then we're going to keep track of 6 and 12 and when we get to 6 and 12
+
+03:00.110 --> 03:01.720
+that's going to be in our queue.
+
+03:01.760 --> 03:10.520
+But we have to go back once we're at the end of that level to 6 so that we can discover 1 and 4.
+
+03:10.570 --> 03:12.630
+So that's what the Q will be used for.
+
+03:13.740 --> 03:20.410
+Now the very first thing we're going to do is to add to the queue the very first item the root node.
+
+03:20.700 --> 03:29.040
+So we're gonna say Q Dot push current node.
+
+03:29.100 --> 03:36.000
+Now what we need to do here is go from the current node down to our children node and again go from
+
+03:36.000 --> 03:41.380
+left to right and then go to their children note and go from left to right.
+
+03:41.550 --> 03:48.000
+And the way we're going to do that is to use a while loop and we'll say that as long as Q Dot lenth
+
+03:48.600 --> 03:52.840
+is going to be greater than zero that is we have nothing left in the queue.
+
+03:54.050 --> 04:01.100
+In that case we'll say that the current node will be q dot shift
+
+04:03.880 --> 04:10.300
+and shift simply means that we take the very first item in the queue.
+
+04:10.300 --> 04:15.730
+Remember a queue is just the line up to the roller coaster and the first person that comes in gets to
+
+04:15.730 --> 04:24.400
+go first on the roller coaster and shift simply returns and removes the first item in the queue and
+
+04:24.400 --> 04:29.770
+our case will have 9 as the first item in the queue.
+
+04:29.770 --> 04:40.320
+The 9 node and we're going to shift that and assign it to the current node and because this is the root
+
+04:40.320 --> 04:48.990
+node we want to start off in our answer that the list will have the number nine at the top.
+
+04:49.200 --> 04:51.600
+Let's move this up here just so you can see better.
+
+04:54.470 --> 05:05.490
+So the first thing we're going to do is say list dot push the current node dot Valley which will be
+
+05:05.820 --> 05:06.280
+nine.
+
+05:06.450 --> 05:11.190
+So we have the first answer in our list which is not from there.
+
+05:11.250 --> 05:18.600
+We're going to say hey does the nine node have a left child.
+
+05:19.670 --> 05:27.740
+Because if it does let's add it to the Q saying that we you need to check out that note and we'll push
+
+05:27.740 --> 05:41.440
+it to the Q current node dot left so what we just did here is we've added four to the queue and then
+
+05:41.450 --> 05:44.280
+we also want to add 20 to that.
+
+05:44.510 --> 05:50.870
+So I'm going to say if after you've added 4 to the queue I'm going to say hey does a current note have
+
+05:50.870 --> 05:54.420
+a right node child node.
+
+05:54.560 --> 06:01.490
+In that case Wolf added to the queue again as the second item in the queue and the current no doubt
+
+06:02.180 --> 06:07.160
+rate will be pushed to the queue.
+
+06:07.260 --> 06:09.950
+And this is the amazing thing of all we just did.
+
+06:10.050 --> 06:17.660
+Now that the queue has two items as it passes you will have 4 and 20.
+
+06:17.840 --> 06:28.400
+It's going to loop through this line and say q does shift is going to grab for and say push for to the
+
+06:28.400 --> 06:30.050
+current to the list.
+
+06:30.790 --> 06:36.060
+And then it's going to say hey does four have a left child.
+
+06:36.100 --> 06:37.660
+Yes it does it has one.
+
+06:37.810 --> 06:40.030
+Well then added to the queue.
+
+06:40.450 --> 06:48.350
+So one gets added to the queue that has for 20 and now 1 and then we say hey does 4 have a right child.
+
+06:48.790 --> 06:49.950
+Yes we have six.
+
+06:50.140 --> 06:52.080
+Well we're going to add that to the queue again.
+
+06:52.090 --> 06:58.570
+So we're going to have 4 21:6 and then we go back to the top and say what's next in line.
+
+06:58.720 --> 07:00.030
+Well we have 20.
+
+07:00.070 --> 07:03.010
+So let's shift 20.
+
+07:03.070 --> 07:04.030
+Grab that.
+
+07:04.030 --> 07:08.000
+Remove that from our queue and go through it again again.
+
+07:08.050 --> 07:14.760
+Left child will be 15 and write child who will be 170 if we cancelled all log here.
+
+07:15.890 --> 07:22.370
+Our current node dot Valley and actually just log at
+
+07:26.270 --> 07:30.170
+down here which will be shifted.
+
+07:30.180 --> 07:35.310
+No that is the No that we're going to be operating on and checking out and we'll have to actually call
+
+07:35.310 --> 07:45.890
+that so let's do tree dot breath for a search and I click run we see that I'm checking nine then I'm
+
+07:45.890 --> 07:53.610
+checking for that I'm checking 20 that I'm checking one then six then 15 then 170 very very cool.
+
+07:53.790 --> 07:56.220
+And we're pushing that to the list every time.
+
+07:56.580 --> 08:06.820
+So all we need to do at the end is just save return list so that if I run this look at that I have my
+
+08:06.820 --> 08:07.350
+breath.
+
+08:07.520 --> 08:13.580
+First search that returns nine then for than 20.
+
+08:13.600 --> 08:18.520
+They're 1 6 15 and 170.
+
+08:18.680 --> 08:20.600
+There wasn't too bad was it.
+
+08:20.600 --> 08:28.490
+We see from this code here that it's quite simple and the only issue that we have is that this queue
+
+08:28.520 --> 08:38.060
+can get pretty large because we have to keep reference to our child nodes the memory consumption that
+
+08:38.480 --> 08:39.650
+can really hurt us.
+
+08:39.680 --> 08:48.890
+Is this cue that we keep adding to we keep popping things we also add to the Q So that if we have a
+
+08:48.890 --> 08:55.340
+really wide tree instead of a binary tree where we just have a left and a right and maybe we have 10
+
+08:55.400 --> 09:02.060
+child notes this queue can get pretty big and depending on the data that memory consumption might be
+
+09:02.630 --> 09:03.200
+big.
+
+09:03.200 --> 09:06.230
+And that's one of the main downsides with Brad for search.
+
+09:06.650 --> 09:13.050
+But hopefully you see the simplicity of breath first search wasn't too bad it was all right I'll see
+
+09:13.050 --> 09:14.660
+you in the next video.

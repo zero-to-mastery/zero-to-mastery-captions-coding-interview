@@ -1,0 +1,502 @@
+WEBVTT
+
+00:01.250 --> 00:07.670
+W tym filmie porozmawiamy o tym, jak przyczynić się do open source i faktycznie
+
+00:07.670 --> 00:17.410
+przeprowadzimy cię przez kolejne kroki, ale najpierw dla tych, którzy nie wiedzą, co to jest open source, dużo technologii, która została
+
+00:17.410 --> 00:25.000
+stworzona w Internecie, którą my Wiem, że dziś został zbudowany na bazie projektów open source, a projekty
+
+00:25.000 --> 00:29.140
+open source oznaczają, że każdy może zobaczyć kod.
+
+00:29.140 --> 00:36.860
+Każdy może zobaczyć kod programu, który może zostać poddany inspekcji, może go zmodyfikować, w ten sposób go ulepszyć.
+
+00:36.880 --> 00:43.180
+Chodzi o to, że dzieląc się tymi informacjami ze wszystkimi, uzyskujemy wkład wszystkich i
+
+00:43.180 --> 00:46.570
+używamy zbiorowego umysłu do ulepszania oprogramowania.
+
+00:46.840 --> 00:50.230
+Nie tylko to, ale także przynosi korzyści wszystkim.
+
+00:50.230 --> 00:51.200
+Dobrze.
+
+00:51.400 --> 00:59.320
+Na przykład najbardziej znanym przykładem projektu typu open source jest Linux, system operacyjny
+
+00:59.320 --> 01:11.170
+taki jak Windows lub Mac OS, z wyjątkiem tego, że jest zbudowany przez codziennych programistów i jego kod jest całkowicie otwarty.
+
+01:11.170 --> 01:19.680
+Każdy może sprawdzić dodany do niego kod i jest on tak skuteczny, że
+
+01:19.680 --> 01:28.280
+większość chmur, które znamy z serwerów, zwykle działa pod Linuksem w Google Cloud Microsoft Azure.
+
+01:28.590 --> 01:31.250
+Wszystkie używają Linuksa.
+
+01:31.300 --> 01:38.710
+Niektórzy z was mogą teraz korzystać z Linuksa podczas oglądania tego filmu, więc nie tylko możecie współpracować z
+
+01:38.710 --> 01:44.440
+innymi programistami z całego świata, w których możecie tworzyć świetne projekty, ale także
+
+01:45.040 --> 01:51.970
+pracować w zespołach, ucząc się, jak dobrze działa open source. muszę stworzyć coś tak dużego jak Linux.
+
+01:52.000 --> 01:54.240
+Możesz stworzyć projekt ze znajomym.
+
+01:54.310 --> 01:58.110
+Coś bardzo małego i prostego, to tak naprawdę nie ma znaczenia.
+
+01:58.120 --> 02:07.640
+Chodzi o współpracę w zakresie otwartości i dzielenia się kodem w celu poprawy wiedzy zbiorowej.
+
+02:07.730 --> 02:15.150
+Wreszcie, wielu pracodawców postrzega wkład open source jako plus, więc jeśli jesteś w stanie
+
+02:15.150 --> 02:20.520
+wznowić, że jesteś współpracownikiem open source Cóż, to dobry znak.
+
+02:20.580 --> 02:26.310
+Ponadto uczy cennych umiejętności korzystania z funkcji „get and get hub” do pracy w zespołach.
+
+02:26.310 --> 02:31.890
+Jeśli szukasz doświadczenia zawodowego, ale nie masz pracy przyczyniającej się do open source,
+
+02:31.890 --> 02:37.650
+to idealny sposób na naukę pracy w zespołach i naśladowanie scenariusza takiego jak praca.
+
+02:37.650 --> 02:41.370
+To naprawdę ważne wideo i coś, co mnie bardzo ekscytuje.
+
+02:41.610 --> 02:47.330
+Pokażmy więc, jak sprawić, by Twój pierwszy wkład typu open source poprawił twoje CV.
+
+02:47.430 --> 02:51.340
+Naucz się kilku prawdziwych umiejętności i baw się po drodze.
+
+02:53.060 --> 02:59.520
+Teraz stworzyliśmy dla Ciebie kilka projektów open source dla tego kursu.
+
+02:59.530 --> 03:06.400
+Mamy tutaj repozytorium mistrzostwa 0 2, w którym możemy zobaczyć, że mamy obecnie otwartych około 64
+
+03:06.730 --> 03:09.450
+projektów z około 2000 współpracowników.
+
+03:09.460 --> 03:12.880
+To dużo osób w tej liczbie, które muszą wzrosnąć.
+
+03:12.880 --> 03:18.730
+Teraz to miejsce zostało stworzone jako miejsce do ćwiczeń dla Ciebie.
+
+03:18.940 --> 03:25.600
+Nikt nie będzie na ciebie krzyczał, jeśli zepsujesz rzeczy, które możesz wnieść w głupie rzeczy, co tylko chcesz.
+
+03:25.600 --> 03:27.120
+To poligon doświadczalny.
+
+03:27.130 --> 03:32.410
+Chodzi o to, aby czerpać jak najwięcej radości i ułatwić jak najłatwiejsze korzystanie z otwartego
+
+03:34.690 --> 03:36.520
+oprogramowania w tej organizacji.
+
+03:36.520 --> 03:42.610
+Mamy świetną społeczność administratora lub zespołu zarządzającego, który pomoże ci przy projektach
+
+03:42.880 --> 03:45.070
+typu open source.
+
+03:45.070 --> 03:47.100
+Kim są ci administratorzy.
+
+03:47.160 --> 03:48.340
+Są tutaj.
+
+03:48.440 --> 03:49.160
+Zignoruj moje imię.
+
+03:49.430 --> 03:56.930
+Pomagam również, ale wykonują dużo ciężkiego podnoszenia i są dawnymi studentami, tak jak ty, którzy
+
+03:57.110 --> 03:58.610
+mieli trochę doświadczenia.
+
+03:58.610 --> 04:06.860
+Teraz większość z nich pracuje na pełny etat, ale teraz pomagają społeczności, pomagając naszym projektom open source, co jest
+
+04:06.860 --> 04:11.840
+niezgodą i ogólnie po prostu pomaga naszej społeczności się rozwijać.
+
+04:12.380 --> 04:15.020
+Więc wykrzycz im, jeśli masz szansę.
+
+04:15.050 --> 04:16.840
+Pozdrów ich na tym boisku.
+
+04:16.850 --> 04:21.210
+Z pewnością wiele robią dla tej społeczności.
+
+04:21.230 --> 04:26.330
+Są bardzo aktywni w niezgodach i naprawdę pomagają utrzymać wszystkie nasze projekty open source.
+
+04:27.530 --> 04:32.780
+Nauczmy się więc, jak wnosić nasz pierwszy wkład typu open source.
+
+04:32.780 --> 04:37.560
+Chciałbym tutaj zauważyć, że nie jest to jedyny sposób, aby przyczynić się do open source.
+
+04:37.580 --> 04:40.570
+To tylko plac zabaw, który dla Ciebie stworzyliśmy.
+
+04:40.640 --> 04:46.520
+Ale kiedy włączysz się tutaj, możesz odejść i przyczynić się do wszystkich innych projektów open source w całym
+
+04:46.520 --> 04:47.180
+GitHub.
+
+04:47.180 --> 04:51.820
+Mogą znaleźć, że możesz przyczynić się do realizacji projektów takich jak reagowanie i angażowanie.
+
+04:51.890 --> 04:58.580
+Świat jest twoją ostrygą lub możesz się ich trzymać, ponieważ mamy tu mnóstwo fajnych
+
+04:58.580 --> 04:59.390
+projektów.
+
+04:59.420 --> 05:02.330
+Trwają wydarzenia takie jak październikowy festyn.
+
+05:02.330 --> 05:04.720
+Wkrótce do tego dojdziemy.
+
+05:04.730 --> 05:08.750
+Na pewno mamy wspaniałą społeczność programistów i możemy wspólnie tworzyć niesamowite projekty.
+
+05:10.130 --> 05:14.960
+Teraz sposób, w jaki chcesz zacząć, to najpierw przejść do wskazówek tutaj
+
+05:17.600 --> 05:25.430
+na początek tutaj, wskazówek na początek tutaj, a ja przejdę do tej strony, na której faktycznie masz czteroetapowy przewodnik
+
+05:25.430 --> 05:26.480
+na początek.
+
+05:26.480 --> 05:33.230
+Pierwszą rzeczą, którą chcesz zrobić, jest obejrzenie przewodnika, który został opracowany przez innego ucznia, który stworzył
+
+05:33.230 --> 05:38.600
+ten przewodnik, abyś mógł postępować zgodnie z krokami wymienionymi w tym filmie.
+
+05:38.720 --> 05:41.000
+Więc zawsze masz to jako odniesienie.
+
+05:41.060 --> 05:47.690
+Więc po tym filmie zdecydowanie sprawdź ten dokument jako odniesienie, ale w przeciwnym razie
+
+05:47.810 --> 05:52.210
+po przejrzeniu dokumentu zostanie wykonane pierwsze żądanie ściągnięcia.
+
+05:52.280 --> 05:57.500
+Więc jeśli już obejrzałeś, możesz uzyskać i pobrać filmy z hubu, wszystko powinno być ustawione.
+
+05:57.530 --> 06:00.210
+W przeciwnym razie mam nadzieję, że znasz się na tym, by wyjść i wyjść.
+
+06:00.620 --> 06:08.530
+Teraz pierwszą rzeczą, którą chcemy zrobić, jest dodanie naszych nazwisk do kropki dla autorów i zdefiniowanie ich w
+
+06:08.530 --> 06:09.560
+tym projekcie.
+
+06:09.610 --> 06:15.850
+Więc jeśli pójdziesz w górę, zobaczysz, że mamy 8 autorów kropki M. RE. co oznacza plik przeceny
+
+06:15.850 --> 06:22.150
+i jeśli kliknę tutaj, zobaczysz, że wszyscy nasi współautorzy, których mamy, mamy ponad tysiąc współautorów, a
+
+06:22.450 --> 06:26.140
+jeśli przewiniesz w dół, to wszystkie ich nazwy github.
+
+06:26.290 --> 06:30.690
+Twoim pierwszym zadaniem jest dodanie twojego nazwiska do tej listy.
+
+06:30.760 --> 06:32.950
+Jak więc możemy to zrobić?
+
+06:33.070 --> 06:41.530
+Cóż, możemy po prostu sklonować to repozytorium, ale bardziej zalecanym sposobem zwykle przyczyniania się do open
+
+06:41.830 --> 06:50.140
+source jest rozwidlenie rozwidlenia projektu zasadniczo oznacza skopiowanie całego projektu i umieszczenie go we własnym profilu
+
+06:50.140 --> 06:51.690
+centrum pobierania.
+
+06:51.730 --> 06:57.640
+Więc jeśli kliknę rozwidlenie tutaj i zobaczymy tutaj, że możesz wybrać, gdzie
+
+06:57.700 --> 07:04.580
+chcesz przekazać projekt i chcesz wybrać swój profil, więc kiedy rozwidlimy ten projekt, tworzymy jego kopię.
+
+07:04.600 --> 07:10.960
+To tak, jakbyśmy teraz mieli to repozytorium z naszą własną wersją wytycznych na początek tutaj.
+
+07:10.960 --> 07:18.420
+Kiedy już to uzyskamy, możemy sklonować to repozytorium za pomocą SSA H lub H2 G. P. S. cokolwiek wolisz.
+
+07:18.460 --> 07:27.090
+W moim przypadku użyję SSA, aby nie musiałem używać hasła za każdym razem, gdy mogę teraz powiedzieć „sklonuj
+
+07:27.090 --> 07:29.610
+i sklonuj to repozytorium”.
+
+07:29.640 --> 07:39.570
+Teraz możemy zobaczyć te wskazówki na początek tutaj i nie możemy tego otworzyć w naszym ulubionym edytorze tekstu.
+
+07:39.720 --> 07:43.620
+Teraz raz wyjaśnimy to.
+
+07:43.730 --> 07:49.460
+Mamy plik współpracowników, do którego musimy dodać naszą nazwę.
+
+07:49.470 --> 07:54.800
+Teraz widzę, że plik współtwórców robi się dość długi, ponieważ podczas gdy mieliśmy wielu studentów,
+
+07:54.800 --> 07:58.650
+którzy wnoszą wkład w open source, ale na samym końcu.
+
+07:58.650 --> 08:00.490
+Upewnij się, że jesteś na samym końcu.
+
+08:00.570 --> 08:02.850
+Chcesz dodać własne imię.
+
+08:03.940 --> 08:05.500
+Teraz o to chodzi.
+
+08:05.500 --> 08:11.500
+W tej chwili jesteśmy w gałęzi master, ale pokażę ci, co jest dobrą praktyką.
+
+08:11.560 --> 08:19.300
+Mamy nasz rozwidlony projekt i chcemy stworzyć nowy oddział, aby działał zamiast master, mówiąc: sprawdź
+
+08:19.300 --> 08:28.930
+sprawdź kreskę B, aby utworzyć nowy oddział i chcemy nazwać ten oddział w naszym przypadku, po prostu nazwijmy go
+
+08:28.930 --> 08:29.910
+testem.
+
+08:30.390 --> 08:39.220
+Jeśli naciśniesz Enter, zobaczysz, że teraz jestem w nowej gałęzi o nazwie test i w tej gałęzi mogę dodać swoje nazwisko
+
+08:39.220 --> 08:41.100
+do tej listy współtwórców.
+
+08:41.350 --> 08:44.880
+W twoim przypadku będziesz chciał użyć własnego profilu GitHub.
+
+08:45.100 --> 08:52.330
+Używamy tutaj markdown, który jest sposobem na pisanie składni i ma pewną funkcjonalność.
+
+08:52.330 --> 09:00.880
+Na przykład, jeśli przejdziemy do listy współtwórców, zauważysz, że wszystkie są linkami, które można kliknąć.
+
+09:00.880 --> 09:09.220
+Tak więc zasadniczo używamy tej samej notacji, robimy nawiasy kwadratowe kreski z nazwą użytkownika get hub, a następnie w nawiasach mamy tylko
+
+09:09.220 --> 09:15.080
+rzeczywistą literę U. R. L. do którego chcesz utworzyć link.
+
+09:15.400 --> 09:18.430
+W naszym przypadku uzyskaj nazwę użytkownika hub, którą posiadasz.
+
+09:18.520 --> 09:20.220
+Otrzymasz tutaj nazwę użytkownika centrum.
+
+09:20.290 --> 09:22.120
+Uzyskaj tutaj nazwę użytkownika centrum.
+
+09:22.330 --> 09:25.970
+Gdy to zrobimy, możemy zapisać ten plik.
+
+09:25.990 --> 09:34.950
+Teraz wróć do naszego terminalu i powiedz „pobierz status” i widzimy tutaj, że tak, właśnie zmodyfikowaliśmy kropkę
+
+09:34.960 --> 09:44.040
+DFA dla naszych współpracowników, a jeśli dostanę def, aby zobaczyć zmiany, które wprowadziliśmy, zobaczymy, że dodaliśmy tę nową
+
+09:45.240 --> 09:47.960
+linię, więc wyczyść to.
+
+09:48.130 --> 09:55.330
+Mamy już skonfigurowane nasze imię i możemy teraz dodać to zatwierdzenie, mówiąc
+
+09:55.330 --> 10:04.870
+„pobierz reklamę i kropkę”, dodając wszystko, a następnie pobierzmy i napiszemy wiadomość, która mówi, że dodałem moje
+
+10:05.470 --> 10:08.400
+imię do listy współtwórców.
+
+10:08.430 --> 10:10.270
+No to jedziemy.
+
+10:10.280 --> 10:14.460
+Czas więc, abyśmy wprowadzili te zmiany.
+
+10:14.540 --> 10:25.060
+Teraz, jeśli dostanę mistrza wypychania pochodzenia w tej chwili, to to znaczy, że chcemy pchać do początku,
+
+10:25.360 --> 10:29.900
+a źródłem jest ten początek tutaj.
+
+10:29.900 --> 10:36.690
+Wytyczne, z którymi walczyłem, więc pochodzenie jest w rzeczywistości moją wersją projektu i jeśli chcę naciskać
+
+10:36.690 --> 10:39.380
+na opanowanie, to jest główna gałąź.
+
+10:39.600 --> 10:50.880
+Ale nie chcemy tego robić, ponieważ idealnie chcemy również móc zmienić i dodać naszą nazwę do oryginalnego
+
+10:50.880 --> 10:57.760
+mistrzostwa 0 2, zacznij tutaj wytyczną, ponieważ jest to główna.
+
+10:57.910 --> 11:08.360
+Możemy więc zamiast wypychać master do naszej gałęzi testowej, więc mówimy, że wypróbuj test pochodzenia push.
+
+11:08.590 --> 11:09.070
+No to jedziemy.
+
+11:10.000 --> 11:20.850
+Teraz, jeśli wrócę tutaj i przejdę do mojego projektu i odświeżę się, mam teraz dwie gałęzie gałąź
+
+11:20.880 --> 11:26.080
+główną i gałąź testową, którą właśnie zaktualizowałem.
+
+11:26.100 --> 11:30.780
+Jednym ze sposobów jest kliknięcie nowej prośby
+
+11:35.130 --> 11:46.740
+o ankietę. Możesz tutaj dodać komentarze, tak jak dodałem moje nazwisko do listy i możesz oznaczyć tagami niektórych naszych opiekunów.
+
+11:46.740 --> 11:50.280
+W moim przypadku po prostu otaguję się,
+
+11:54.220 --> 12:03.700
+jeśli utworzę żądanie ściągnięcia. Mam teraz kiepską prośbę i zauważę tutaj, jak teraz moja kiepska prośba znajduje się w wytycznej
+
+12:04.630 --> 12:14.390
+dla gwiazdy mistrzowskiej 0 2, więc jeśli wrócę do naszej wytycznej tutaj, ja. widzę, że jestem teraz częścią żądania ściągnięcia, ponieważ
+
+12:15.600 --> 12:21.150
+oznaczyłem tagiem jeden z zespołów zarządzających, więc w tym przypadku to ja.
+
+12:21.160 --> 12:25.000
+Lub możemy oznaczyć dowolny zespół zarządzający, który mamy teraz.
+
+12:25.100 --> 12:32.840
+W tym przypadku oszukuję, ponieważ pomagam sobie z tym poradzić, więc mogę po prostu scalić słabą prośbę, najprawdopodobniej w twoim
+
+12:32.900 --> 12:36.200
+przypadku nie będziesz w stanie scalić jej sam.
+
+12:36.650 --> 12:42.350
+Ale jeśli kliknę przycisk Scal i potwierdź.
+
+12:42.590 --> 12:43.220
+No to jedziemy.
+
+12:43.230 --> 12:45.340
+Połączyłem mój projekt.
+
+12:45.530 --> 12:50.420
+Usunąłem gałąź i żądanie ściągnięcia jest zamknięte.
+
+12:50.480 --> 12:53.870
+Jeśli chcę, mogę nawet usunąć własny widelec.
+
+12:53.900 --> 12:56.340
+Ale na razie zachowajmy taki, jaki jest.
+
+12:56.390 --> 13:02.200
+Sprawdźmy wskazówki na początek tutaj i zobaczmy, czy moje nazwisko zostało dodane do listy.
+
+13:02.290 --> 13:04.940
+Przewijam do końca.
+
+13:05.000 --> 13:06.450
+Hej, sprawdź to.
+
+13:06.560 --> 13:08.830
+Na mojej liście jest moje imię.
+
+13:08.870 --> 13:11.860
+Zostałem więc dodany do listy współtwórców.
+
+13:11.870 --> 13:13.240
+To było dość łatwe, prawda.
+
+13:13.490 --> 13:23.040
+I fajne jest to, że teraz, gdy przejdę do mojego profilu, mam zero do opanowania jako jedna z moich organizacji.
+
+13:23.050 --> 13:30.670
+Więc jeśli jesteś w stanie dodać się do listy współtwórców, możesz faktycznie dołączyć do organizacji specjalizującej się w programie 0 2
+
+13:30.850 --> 13:34.600
+i wyświetlać tę małą ikonę w profilu get hub.
+
+13:34.990 --> 13:37.780
+I wiele trudnych profili ma organizację.
+
+13:37.780 --> 13:41.810
+Dlatego ludzie zwykle mają tutaj swoją ikonę miejsca pracy.
+
+13:41.890 --> 13:46.870
+Więc po prostu fajna drobna rzecz, którą trzeba mieć w swoim profilu, aby pokazać, że
+
+13:46.870 --> 13:47.410
+jesteś
+
+13:50.370 --> 13:54.810
+zaangażowany w społeczność programistyczną, więc właśnie wysłaliśmy słabą prośbę, która jest drugim krokiem.
+
+13:54.810 --> 13:57.380
+I to było dość szybkie, prawda.
+
+13:57.420 --> 14:04.110
+Wreszcie, następnym krokiem jest dołączenie do rzeczywistego projektu i rozpoczęcie pracy nad tym, czego się
+
+14:04.770 --> 14:07.990
+nauczyliśmy w naszej organizacji mistrzowskiej 0 2.
+
+14:08.010 --> 14:14.580
+Teraz jest facet, którego zapewniamy, aby dowiedzieć się, który projekt wybierzesz, co będzie
+
+14:14.580 --> 14:16.190
+dla Ciebie dobre.
+
+14:16.200 --> 14:18.160
+Mamy też godzinę niezgody.
+
+14:18.210 --> 14:26.130
+Sekcja projektów grupowych, w której możemy przyjrzeć się niektórym z bieżących projektów, lub możesz po
+
+14:26.130 --> 14:34.400
+prostu przejść do organizacji mistrzowskiej 0 2 i wybrać dowolne z repozytoriów, do których należy się przyłączyć.
+
+14:34.470 --> 14:40.800
+Teraz w następnym filmie przyczyniamy się do jednego z tych projektów i pokażemy Ci scenariusz z prawdziwego życia,
+
+14:42.000 --> 14:43.430
+który zobaczę w tym.

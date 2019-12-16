@@ -1,0 +1,517 @@
+WEBVTT
+
+00:00.950 --> 00:02.270
+Ben tornato.
+
+00:02.270 --> 00:03.190
+Come è stato.
+
+00:03.260 --> 00:04.030
+L'hai capito.
+
+00:04.040 --> 00:07.040
+È stata una domanda difficile
+
+00:07.100 --> 00:12.890
+Non essere troppo deluso se non sei in grado di ottenere la risposta che queste domande sono destinate a essere difficili
+
+00:12.980 --> 00:14.120
+da allungare la mente.
+
+00:14.330 --> 00:17.360
+Se fossero troppo semplici, non impareresti nulla.
+
+00:22.930 --> 00:28.900
+Iniziamo con l'approccio ingenuo che è l'approccio che viene in mente per la prima volta.
+
+00:29.750 --> 00:36.280
+Per me il primo sarà un ciclo annidato.
+
+00:36.470 --> 00:37.660
+Diamo una funzione.
+
+00:37.700 --> 00:39.170
+Lo chiamerò prima.
+
+00:42.530 --> 00:45.850
+Personaggio ricorrente
+
+00:46.060 --> 00:47.940
+Sta per ricevere un input.
+
+00:48.670 --> 00:53.140
+E poiché ne abbiamo già parlato, non avrò alcuna validazione di input.
+
+00:53.140 --> 00:59.860
+Possiamo solo supporre che avremo sempre una sorta di array numerato qui.
+
+00:59.870 --> 01:05.670
+Ho intenzione di ricominciare da capo e oh ragazzo, l'ho fatto così tante volte ormai.
+
+01:05.750 --> 01:09.310
+Spero che tu ti stia stancando di passare da un array all'altro.
+
+01:10.620 --> 01:19.240
+Ma almeno adesso siamo padroni dei loop.
+
+01:19.470 --> 01:20.700
+Inoltre.
+
+01:21.470 --> 01:27.890
+Quindi qui nel primo ciclo andremo ad afferrare il primo elemento dell'array e chiameremo semplicemente questa
+
+01:27.890 --> 01:28.330
+funzione.
+
+01:28.330 --> 01:30.920
+Quindi ce l'abbiamo qui.
+
+01:30.920 --> 01:32.080
+Bello e facile.
+
+01:33.300 --> 01:35.710
+E ci dà una bella visuale.
+
+01:35.830 --> 01:41.440
+Quindi passerò in rassegna il primo oggetto, poi il quinto o il secondo, il terzo il quarto, e continua
+
+01:41.440 --> 01:42.600
+ad andare avanti.
+
+01:43.000 --> 01:48.490
+Voglio prendere questo oggetto e poi fare un altro ciclo e controllare due contro cinque.
+
+01:48.610 --> 01:53.550
+Due contro uno due contro due e poi dicono che è quello.
+
+01:53.950 --> 02:01.930
+Se non trova nulla, passerà ai successivi cinque e poi confronterà 5 a 1 1 a 2 2 2 3 e così
+
+02:01.930 --> 02:02.520
+via.
+
+02:03.370 --> 02:10.040
+Quindi, ancora una volta sto solo andando a copiare e incollare questa volta perché abbiamo fatto
+
+02:10.040 --> 02:15.580
+un sacco di quattro cicli e semplicemente cambiato la variabile per essere j.
+
+02:15.620 --> 02:19.940
+Cominceremo dall'1 perché non vogliamo confrontare due a due.
+
+02:19.940 --> 02:21.710
+Vogliamo confrontare da due a cinque.
+
+02:21.770 --> 02:27.020
+Per iniziare, stiamo saltando un loop che ci aiuterà.
+
+02:27.650 --> 02:39.570
+Ho intenzione di dire Jay qui e J plus plus Ora alcuni di voi potrebbero essere stati catturati qui perché se lo avessimo nel
+
+02:39.570 --> 02:46.120
+modo in cui è ora e voi registrate questo loop, vedrete che non
+
+02:46.180 --> 02:55.700
+funzionerà correttamente perché ogni volta che questo sposta il ciclo esterno per cicli da diciamo zero a quello successivo,
+
+02:56.060 --> 02:59.880
+l'indice Jay verrà resettato su 1.
+
+03:00.020 --> 03:05.950
+Quindi 5 sarà comparato a 5 e la funzione assumerà un cinque.
+
+03:05.960 --> 03:08.850
+Il personaggio ricorrente.
+
+03:09.030 --> 03:21.030
+Quindi un piccolo trucco qui è quello di fare più uno che è sempre uno a destra di dove HIAS i
+
+03:21.030 --> 03:22.260
+primi indici.
+
+03:22.590 --> 03:34.260
+Quindi, se eseguiamo il ciclo continuo e siamo qui nel sottociclo, il ciclo annidato guarderà a I più 1.
+
+03:34.340 --> 03:42.360
+Quindi confronteremo da due a tre da due a cinque a-I perché abbiamo già confrontato 2 2 5
+
+03:42.360 --> 03:46.830
+2 5 5 2 2 1 2 2 e precedenti.
+
+03:46.830 --> 03:47.400
+Tutto ok.
+
+03:47.610 --> 03:49.700
+L'abbiamo fatto qui.
+
+03:49.740 --> 03:54.120
+Possiamo semplicemente fare una dichiarazione if in parte.
+
+03:54.510 --> 04:00.970
+Questo equivale all'ingresso J uguale a 5.
+
+04:01.040 --> 04:04.320
+Il due uguale a 1 fa troppo uguale a 2.
+
+04:04.640 --> 04:08.150
+Se quello è uguale allora basta semplicemente tornare e mettere
+
+04:12.290 --> 04:12.860
+altrimenti.
+
+04:12.880 --> 04:17.590
+Se facciamo tutto questo lavoro e non succede niente,
+
+04:20.690 --> 04:22.940
+possiamo solo tornare indefiniti.
+
+04:23.020 --> 04:24.220
+Vediamo se funziona.
+
+04:24.340 --> 04:34.310
+Ho intenzione di eseguirlo e ottengo due fantastici Cosa succede se lo cambio a uno se eseguo questo ottengo uno perfetto Cosa
+
+04:34.680 --> 04:44.030
+succede se faccio solo un singolo elemento in un array ottengo indefinito se faccio un array vuoto ottengo undefined .
+
+04:44.060 --> 04:44.990
+Quello è buono.
+
+04:45.230 --> 04:50.230
+Cosa succede se faccio 1 1 o 1 1 ottengo 1.
+
+04:50.230 --> 04:50.760
+È fantastico.
+
+04:50.770 --> 04:55.250
+Se voglio voglio diventare indefinito fantastico.
+
+04:55.290 --> 05:03.410
+Questo sembra funzionare in modo semplice e semplice, ma come puoi vedere qui non siamo molto efficienti.
+
+05:03.480 --> 05:13.400
+Abbiamo cicli annidati che dovrebbero innescare Oh questo è tutto e al quadrato.
+
+05:13.480 --> 05:19.870
+E anche se tecnicamente siamo sempre in loop un po 'più efficienti perché I
+
+05:19.930 --> 05:24.650
+plus I non eseguono il ciclo due volte sull'intero array.
+
+05:25.590 --> 05:32.510
+Alla fine quando rimuovi le costanti e semplifica le cose sarà ancora 0 e quadrato.
+
+05:32.550 --> 05:36.100
+Quindi, come possiamo risolvere questo utilizzando le tabelle hash.
+
+05:37.460 --> 05:41.830
+Bene, creiamo una nuova funzione.
+
+05:43.180 --> 05:46.690
+Questa volta chiameremo questa funzione con lo stesso nome.
+
+05:46.690 --> 05:54.330
+La seconda versione numero 2 riceverà un input.
+
+05:54.540 --> 05:59.340
+E cambiamo il nostro test case per avere la stessa cosa che
+
+06:03.420 --> 06:06.800
+abbiamo fatto in precedenza, cosa possiamo fare qui.
+
+06:07.680 --> 06:15.440
+Bene, usiamo una tabella hash o un oggetto per fare qualcosa di interessante.
+
+06:15.600 --> 06:23.610
+Vale a dire avere tutto questo mentre iteriamo uno per uno, quindi passiamo in rassegna tutti gli elementi aggiungendoli a
+
+06:23.610 --> 06:24.870
+una tabella hash.
+
+06:25.170 --> 06:32.670
+E mentre lo stiamo facendo, possiamo controllare se la proprietà esiste già o la chiave esiste già.
+
+06:33.520 --> 06:38.650
+Aggiungiamo due alla tabella hash quindi cinque alla tabella hash e una alla tabella hash.
+
+06:38.680 --> 06:47.210
+E quando proviamo ad aggiungerne due, possiamo attivare un avviso dicendo che ne abbiamo già due come chiave, quindi usando
+
+06:47.210 --> 06:50.010
+questa logica vediamo come possiamo implementarla.
+
+06:50.050 --> 06:52.770
+Ho intenzione di creare una mappa.
+
+06:52.840 --> 06:58.980
+Per ora chiameremo una mappa hash perché le chiavi saranno uniche.
+
+06:58.990 --> 07:13.290
+Non lascerà duplicare le chiavi e possiamo semplicemente fare i nostri loop.
+
+07:13.690 --> 07:27.090
+E in questo ciclo tutto quello che faremo è dire se la mappa e possiamo controllare in questa mappa se è vuota ora il primo
+
+07:27.090 --> 07:36.630
+check in qui voglio dire se la proprietà o se la chiave esiste già voglio solo restituire
+
+07:38.160 --> 07:39.500
+il articolo.
+
+07:40.420 --> 07:42.880
+Perché non abbiamo bisogno di fare altro lavoro.
+
+07:43.300 --> 07:52.800
+Non appena troviamo una chiave che già esiste nella nostra tabella hash, interrompi tutto il ciclo e torni indietro.
+
+07:52.840 --> 07:55.330
+In questo caso vogliamo tornare a.
+
+07:55.450 --> 08:08.970
+Quindi all'indice 0 1 2 3 ritornerà e dirà 2 perché questa chiave esiste già.
+
+08:09.150 --> 08:17.500
+Quindi il modo in cui lo facciamo nel controllo IF è semplicemente quello di dire se e mettere perché si ricorda che
+
+08:17.500 --> 08:21.240
+questo sarà uguale a 2 quando lo passeremo attraverso.
+
+08:23.400 --> 08:33.320
+Se questo esiste, allora torna altrimenti lo aggiungeremo alla nostra mappa.
+
+08:33.410 --> 08:41.400
+Quindi, l'input è uguale e il valore può essere qualsiasi cosa.
+
+08:41.400 --> 08:44.480
+Lo lasceremo a me quale è l'indice.
+
+08:44.820 --> 08:54.930
+Quindi 2 equivarrà a 0 5 equivale a 1 1 dovrà essere solo il log di console qui per vedere
+
+08:54.930 --> 08:56.620
+cosa sta succedendo.
+
+08:56.790 --> 09:07.240
+Ma voglio anche tornare indefinito alla fine nel caso in cui nulla di ciò accada nel caso in cui non ci sia alcuna corrispondenza.
+
+09:07.250 --> 09:12.220
+Quindi alla fine del ciclo for cancelleremo semplicemente il punto log.
+
+09:12.310 --> 09:15.850
+Napp e guarda cosa abbiamo.
+
+09:15.970 --> 09:20.230
+Ho intenzione di correre e ne ho cinque.
+
+09:20.520 --> 09:23.700
+E non c'è registro quello che è appena successo qui.
+
+09:24.150 --> 09:32.610
+Bene, se invece gestiamo il log Ophir e diamo un'occhiata a ciò che questo ci
+
+09:36.360 --> 09:43.460
+sta dando ed eseguo, mi viene indefinito indefinito indefinito zero indefinito.
+
+09:43.500 --> 09:44.910
+Cosa significa.
+
+09:44.910 --> 09:55.670
+Be ', ricordati che stiamo passando di qui e stiamo dicendo che anche lui esiste.
+
+09:55.790 --> 09:57.940
+Input zero.
+
+09:57.980 --> 10:01.530
+Che deve esistere come chiave.
+
+10:02.030 --> 10:08.090
+Quindi sta semplicemente dicendo che il punto Napp è esistito.
+
+10:08.190 --> 10:16.200
+E poiché questo non esiste, andiamo avanti definiti e andremo al prossimo. Ehi cinque esiste.
+
+10:16.260 --> 10:17.210
+No, non lo è.
+
+10:17.220 --> 10:19.320
+Ehi, uno esiste.
+
+10:19.320 --> 10:20.220
+No, non lo è.
+
+10:20.340 --> 10:22.320
+Ehi anche esiste.
+
+10:22.350 --> 10:25.290
+E non appena controlla
+
+10:28.140 --> 10:32.770
+di nuovo, dirà ah, ce l'ho già.
+
+10:32.860 --> 10:37.640
+È a un indice di 0.
+
+10:37.690 --> 10:40.390
+Quindi sta funzionando.
+
+10:40.630 --> 10:53.190
+Tuttavia, quando questo azzera il modo in cui javascript funziona, mette zero qui, ma in una dichiarazione IF zero è ciò che chiamiamo falsie e Javascript e
+
+10:53.580 --> 11:00.600
+che ha a che fare con il tipo "coarsen" e "javascript" qualcosa che molte persone
+
+11:00.600 --> 11:03.930
+si infastidiscono con la lingua .
+
+11:03.930 --> 11:12.780
+Quindi quello che dovremmo fare è assicurarci di specificare che vogliamo che questo non sia uguale su definito.
+
+11:12.840 --> 11:18.690
+Quindi, non appena non è uguale indefinito, voglio che tu restituisca questo oggetto.
+
+11:18.710 --> 11:34.900
+Ora, se lo eseguiamo, ne otteniamo due, il che è ottimo se Konsole dot registra la mappa e la esegue qui in basso.
+
+11:34.900 --> 11:43.950
+Quindi vediamo l'iterazione effettiva che sta accadendo vediamo che aggiunge ad un indice di 0 quindi ad un indice di 0
+
+11:43.950 --> 11:46.280
+e 5 indice di 1.
+
+11:46.590 --> 11:54.870
+Così avanti e così via fino a quando non si ferma dopo il terzo ciclo perché incontra ancora una volta controlla e
+
+11:54.870 --> 11:57.480
+dice che 0 2 esiste già.
+
+11:57.480 --> 11:59.930
+Basta restituirlo.
+
+11:59.950 --> 12:01.320
+Quant'è fico.
+
+12:01.360 --> 12:12.000
+Abbiamo appena realizzato tutto questo con un solo ciclo che è molto più veloce della nostra prima versione che usa le
+
+12:12.000 --> 12:13.110
+tabelle hash.
+
+12:13.110 --> 12:21.000
+È bello sapere che per me fare cose del genere e vedere il potere di come l'apprendimento delle tabelle di hash
+
+12:21.000 --> 12:27.750
+e big ha migliorato la nostra capacità di codifica mi rende davvero molto eccitato e spero che anche
+
+12:27.750 --> 12:29.300
+questo ti entusiasmerà.
+
+12:29.370 --> 12:33.960
+Abbiamo fatto in modo che questa funzione abbia una complessità temporale completa.
+
+12:34.050 --> 12:43.530
+Lo abbiamo migliorato con uno svantaggio abbiamo aumentato la complessità dello spazio di memoria di O, quindi perché stiamo creando un nuovo
+
+12:43.530 --> 12:51.180
+oggetto in questa funzione che deve tenere traccia di tutti gli elementi nella matrice e nel caso
+
+12:51.180 --> 12:57.870
+peggiore quando c'è nessuna corrispondenza passerà attraverso l'intero elenco di elementi della matrice e manterrà
+
+12:57.870 --> 12:59.850
+quelle informazioni nella mappa.
+
+12:59.850 --> 13:07.140
+Quindi, a differenza di questa versione, non avremmo creato alcuna
+
+13:07.140 --> 13:11.640
+complessità spaziale, ma solo complessità spaziale.
+
+13:11.700 --> 13:16.910
+Ora abbiamo un po 'di più, ma a sua volta abbiamo una funzione più veloce.
+
+13:18.200 --> 13:19.730
+Molto molto bello.
+
+13:19.880 --> 13:24.440
+Ora per finire voglio darti un'ultima sfida.
+
+13:24.950 --> 13:35.850
+Vedi queste due implementazioni cosa succede se abbiamo qualcosa di simile.
+
+13:35.930 --> 13:41.210
+Quale pensi che sia il primo personaggio ricorrente?
+
+13:41.270 --> 13:55.670
+Se eseguo questo ottengo cinque perché cinque si verifica prima di due due a causa del modo in cui abbiamo implementato la
+
+13:55.670 --> 13:57.170
+seconda funzione.
+
+13:57.170 --> 14:09.290
+Comunque, se vado alla prima versione della nostra funzione e faccio ciò, arrivo a Hmm perché è così che se andiamo alla primissima parte della nostra funzione vediamo
+
+14:09.290 --> 14:16.250
+che il modo in cui stiamo facendo le cose è che stiamo andando uno ad uno
+
+14:16.250 --> 14:18.840
+in in un modo diverso.
+
+14:19.160 --> 14:25.760
+Diciamo che ne prendiamo due e ne confrontiamo due con cinque poi cinque poi due e tre e poi cinque
+
+14:25.760 --> 14:32.910
+e uno e due quattro e poi passiamo a cinque in cinque e cinque e due e così via e così via.
+
+14:32.930 --> 14:40.400
+E a causa del modo in cui abbiamo implementato, scopriremo due e due perché
+
+14:40.730 --> 14:53.360
+il ciclo esterno ha un indice di 0 e ha due occhi che sta attraversando il ciclo prima che ne confronti cinque con cinque contro.
+
+14:53.470 --> 15:02.420
+La nostra seconda versione con un hash table in cui avevamo tutti questi elementi e siamo stati in grado di confrontarli.
+
+15:02.560 --> 15:10.060
+Una volta che li abbiamo afferrati tutti e questa è un'altra cosa potente quando pensate a matrici e tabelle hash
+
+15:10.390 --> 15:18.340
+e come siete in grado di confrontare le cose e in base a ciò che l'intervistatore ha chiesto, potreste avere una risposta sbagliata.
+
+15:18.340 --> 15:26.050
+Forse vogliono utilizzarli per rilevare cinque e cinque prima di rilevarne due e due, quindi la mia domanda
+
+15:26.050 --> 15:35.110
+bonus per te se hai tempo e un po 'di sfida è convertire questa funzione se vuoi in qualcosa che corrisponde
+
+15:35.110 --> 15:37.090
+alla risposta a questo.
+
+15:37.090 --> 15:41.050
+Questo è quello di rilevare cinque e cinque.
+
+15:41.240 --> 15:43.930
+Come faresti a farlo.
+
+15:44.100 --> 15:47.550
+Probabilmente dovrai fare qualcosa di interessante qui.
+
+15:48.890 --> 15:50.980
+Quindi buona fortuna con quello.
+
+15:50.990 --> 15:56.360
+Parla con altre persone sulla discordia nella nostra comunità e vedi se riesci a capirlo e inserirò
+
+15:56.360 --> 15:58.440
+alcune soluzioni creative a questo problema.
+
+15:58.630 --> 16:05.280
+Mentre gli studenti li sottopongono per vedere come altre persone hanno implementato questo.
+
+16:05.310 --> 16:08.300
+Ma per ora penso che meritiamo una pausa.
+
+16:08.310 --> 16:09.590
+Vedrò nel prossimo.
+
+16:09.830 --> 16:10.250
+Ciao ciao.

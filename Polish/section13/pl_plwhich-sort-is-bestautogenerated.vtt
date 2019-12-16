@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.130 --> 00:02.270
+Witamy spowrotem.
+
+00:02.270 --> 00:06.890
+Nauczyliśmy się naszych algorytmów sortowania, ponieważ możesz zadać sobie pytanie.
+
+00:06.990 --> 00:14.150
+Andre Wciąż jestem trochę zdezorientowany, kiedy użyć tego, co z tym, jeśli w pytaniu dostanę
+
+00:14.150 --> 00:17.470
+pytanie, który algorytm sortowania będzie najlepszy.
+
+00:17.480 --> 00:26.810
+Gdybym miał dane użytkownika o 100 milionach nazw, które muszą być posortowane Cóż, przejrzyjmy niektóre zasady.
+
+00:27.300 --> 00:28.070
+1.
+
+00:28.380 --> 00:31.380
+Kiedy należy użyć sortowania wstawiania?
+
+00:31.800 --> 00:40.680
+Dobrze sortowanie wstawiania powinno być używane tylko z kilkoma pozycjami, jeśli twoje dane wejściowe są małe lub przedmioty są w większości
+
+00:40.680 --> 00:41.480
+sortowane.
+
+00:41.730 --> 00:43.880
+Jest naprawdę szybki.
+
+00:44.800 --> 00:52.030
+Wykorzystuje bardzo mało miejsca i co najważniejsze jest bardzo łatwe do wdrożenia w kodzie.
+
+00:52.350 --> 01:01.860
+Więc pamiętaj, że tylko kilka pozycji i najczęściej posortowane dane należy użyć typu sortowania bąbelkowego.
+
+01:02.100 --> 01:04.690
+Szczerze mówiąc, nigdy nie użyjesz sortowania bąbelkowego.
+
+01:05.500 --> 01:10.740
+Jest używany tylko do celów edukacyjnych jako sposób nauczania sortowania.
+
+01:10.840 --> 01:17.520
+Ale bardzo rzadko zdarza się, że znajdziesz to w prawdziwym życiu, ponieważ nie jest to zbyt skuteczne.
+
+01:18.380 --> 01:21.020
+Co powiesz na sortowanie ponownie.
+
+01:21.050 --> 01:26.070
+To samo z wyborem sortowania, ponieważ widać, że liczby nie są zbyt dobre.
+
+01:26.120 --> 01:28.700
+Najprawdopodobniej nie będziesz z niego korzystać.
+
+01:28.790 --> 01:32.200
+Przeważnie jest używany jako mechanizm nauczania, który zrobiłem.
+
+01:32.250 --> 01:37.790
+Przykro mi, ale nie musisz tracić czasu na naukę wyboru, ale ważne jest, aby
+
+01:37.790 --> 01:38.630
+zbudować fundament.
+
+01:39.750 --> 01:41.510
+A co z sortowaniem scalonym.
+
+01:42.120 --> 01:44.260
+A ten jest moim ulubionym.
+
+01:44.390 --> 01:50.120
+Dlaczego dobrze Merced Short jest naprawdę dobry ze względu na dzielenie i podbijanie.
+
+01:50.160 --> 01:54.580
+Mamy wszystko i logujemy się i jest szybki.
+
+01:54.660 --> 02:03.320
+A ponieważ najlepszą średnią w najgorszym przypadku jest zawsze 0 i logujemy, zawsze dzielimy równo siedzisko.
+
+02:03.330 --> 02:07.580
+Zawsze możesz zagwarantować, że tak się stanie.
+
+02:07.830 --> 02:10.520
+Tak nie jest w przypadku większości innych algorytmów.
+
+02:10.740 --> 02:15.080
+Więc jeśli martwisz się o najgorsze scenariusze, powinieneś użyć sortowania Mircha.
+
+02:15.360 --> 02:22.980
+Ale jeśli chcesz sortować w pamięci na komputerze i martwisz się o złożoność
+
+02:22.980 --> 02:28.540
+przestrzeni, scalanie sortowania będzie naprawdę kosztowną złożonością przestrzeni użytkownika.
+
+02:28.700 --> 02:36.190
+Jednak gdyby miał duże pliki, które można sortować w pamięci, więc masz zewnętrzne sortowanie, które
+
+02:36.200 --> 02:45.740
+potrzebujesz może być procesem poza pamięcią, to nadaje się do sortowania zewnętrznego, a sortowanie scalone jest dobre, ponieważ nie będziemy
+
+02:45.740 --> 02:50.830
+dbają zbytnio o złożoność przestrzeni w a co z quicksort.
+
+02:51.740 --> 02:59.390
+Quicksort jest w rzeczywistości lepszy od średniej sortowania przypadków i przestrzeni w programie sortowania Mircha.
+
+02:59.390 --> 03:05.120
+Mam na myśli to, że ma taką samą prędkość jak Merse, ale mniejszą złożoność przestrzeni.
+
+03:05.120 --> 03:12.740
+Jest to prawdopodobnie jeden z najpopularniejszych algorytmów sortowania, ale jedną z wad jest to, że gorzej,
+
+03:12.740 --> 03:18.260
+jeśli nie wybierzesz papieru poprawnie, możesz naprawdę bardzo powolne sortowanie.
+
+03:18.350 --> 03:26.330
+Musisz więc być ostrożny i jeśli naprawdę martwisz się najgorszym przypadkiem, wybierz coś innego.
+
+03:27.410 --> 03:32.250
+Teraz możesz zadać sobie pytanie Andre: Co powiesz na heapsort?
+
+03:32.420 --> 03:34.130
+Tak naprawdę nie rozmawiałeś o tym.
+
+03:34.960 --> 03:39.550
+Zamierzam zostawić zasoby dla ciebie, żebyś mógł się także dowiedzieć o heapsorcie.
+
+03:39.580 --> 03:45.610
+Jest bardzo podobny do sortowania quicksort i scalania, ale widzisz tutaj, że ma on złożoność przestrzeni
+
+03:45.610 --> 03:46.360
+jednego.
+
+03:46.360 --> 03:49.260
+Czy nie jest to lepsze niż wszystkie powyższe.
+
+03:49.640 --> 03:56.860
+Cóż, może on uporządkować i nie ma najgorszego przypadku zachowania kwadratowego, które ma quicksort
+
+03:56.860 --> 04:04.940
+lub użycie pamięci, które ma sortowanie Mircha, ale średnio jest wolniejsze niż quicksort w większości przypadków.
+
+04:04.990 --> 04:12.340
+To jedna z tych rzeczy, gdzie z heapsortem, chyba że naprawdę martwisz się najgorszym przypadkiem i
+
+04:12.340 --> 04:18.250
+pamięcią, możesz go użyć, ale przez większość czasu mówię, że używasz quicksort lub
+
+04:20.020 --> 04:24.200
+Murchadh OK, ale mówisz o tym Tu Swansdown.
+
+04:24.220 --> 04:26.250
+Sortowanie radix sortowania.
+
+04:26.250 --> 04:29.180
+Lub sortowanie radix i sortowanie zliczania.
+
+04:29.380 --> 04:31.050
+Dlaczego nie mówisz o tych?
+
+04:31.060 --> 04:32.200
+Dlaczego możemy po prostu z nich korzystać.
+
+04:32.200 --> 04:37.910
+Wyglądają o wiele lepiej niż wszystkie pozostałe, szczególnie jeśli chodzi o złożoność czasu.
+
+04:37.910 --> 04:38.660
+Dobre pytanie.
+
+04:38.780 --> 04:40.240
+Porozmawiajmy o tym w ciągu kilku następnych.

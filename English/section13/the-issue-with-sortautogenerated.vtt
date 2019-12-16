@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.370 --> 00:02.560
+Welcome back.
+
+00:02.600 --> 00:10.120
+Let's talk about sorting when it comes to specific languages and I'm going to use javascript here.
+
+00:10.130 --> 00:15.750
+I'm going to be showing you different sorting algorithms that it can be used with any type of data.
+
+00:15.770 --> 00:21.100
+It doesn't just have to be strings doesn't just have to be numbers it can be any type of data.
+
+00:21.440 --> 00:26.300
+But I also want to show you why sometimes you want to be careful when it comes to sorting and just don't
+
+00:26.300 --> 00:32.060
+trust that your built in method and your own language sort's data correctly.
+
+00:32.090 --> 00:33.960
+Let me demonstrate this with javascript.
+
+00:34.220 --> 00:41.840
+Let's say we have another array here and this array will call it basket and this basket will have a
+
+00:41.950 --> 00:43.910
+set of letters will have some numbers.
+
+00:43.920 --> 00:49.940
+I'll have to 65 34 to 1.
+
+00:50.040 --> 00:54.130
+And let's say 7 and 1 more 8.
+
+00:54.150 --> 00:58.590
+Now we saw that when we sorted the letters everything looked good.
+
+00:58.650 --> 01:02.340
+What happens if I sort the basket here of numbers.
+
+01:02.340 --> 01:03.870
+What do you think will happen.
+
+01:04.080 --> 01:10.560
+And I encourage you to try this with your own language as well and see what kind of results you get.
+
+01:11.630 --> 01:15.540
+Let me click on here.
+
+01:15.710 --> 01:18.770
+That's the result.
+
+01:18.880 --> 01:21.280
+Is that what you expected.
+
+01:21.280 --> 01:23.280
+That doesn't look sorted does it.
+
+01:23.320 --> 01:29.530
+Now this is a silly example but it's important to demonstrate that when it comes to sorting you want
+
+01:29.530 --> 01:33.420
+to make sure if you're not implementing it you know how it works.
+
+01:33.730 --> 01:41.080
+For example when it comes to Javascript the way it sorts numbers is that it actually converts them to
+
+01:41.080 --> 01:41.810
+strength.
+
+01:41.950 --> 01:44.050
+At least that's how the SOR method works.
+
+01:44.050 --> 01:49.150
+So what happens underneath the hood is instead of just comparing numbers it does something along the
+
+01:49.150 --> 01:56.680
+lines of if he gets to 65 65 and then it's going to grab the character code in the first index so we
+
+01:56.680 --> 01:57.700
+can use the method.
+
+01:57.700 --> 02:04.320
+Care char code at and give it to zero.
+
+02:04.450 --> 02:08.600
+So it's going to measure the character code at 65.
+
+02:08.710 --> 02:11.780
+If I run this I get 54.
+
+02:12.400 --> 02:21.070
+Now 54 is Unicode and if I go to Unicode table this whole characters are encoded in our computers.
+
+02:21.070 --> 02:24.490
+Now if I go to six I see that.
+
+02:24.560 --> 02:33.460
+Yeah we see when we hover over that it says the ASTM are code for it is 50 for the character representation
+
+02:33.460 --> 02:35.610
+is 54.
+
+02:35.730 --> 02:37.510
+So that's what's happening here.
+
+02:37.570 --> 02:49.030
+If I do let's say two here and we'll do one more Thirty four and let's just console log these so we
+
+02:49.030 --> 02:49.960
+know what's happening
+
+02:53.380 --> 03:05.710
+and I click run we see that too is 50 65 or six is 54 and 34 is 51.
+
+03:05.870 --> 03:14.710
+But if I do something like seven it's going to grab the number and it's going to be 55.
+
+03:14.880 --> 03:20.120
+So a lot of people get confused when they use a sword method like this and they don't get the response
+
+03:20.130 --> 03:21.280
+that they wanted.
+
+03:21.540 --> 03:27.160
+And that's why it's good to read the documentation of whatever you're using such as a sort method Enderton
+
+03:27.300 --> 03:29.620
+how it works in a language.
+
+03:30.030 --> 03:36.780
+And to add even more confusion you see here that the time and space complexity of sort cannot be guaranteed
+
+03:37.080 --> 03:39.420
+as it is implementation dependent.
+
+03:39.420 --> 03:47.220
+Remember Javascript has a standard called ECMAScript a governing body suggests what it should look like.
+
+03:47.220 --> 03:52.440
+However how you implement it is really dependent on different engines.
+
+03:52.470 --> 04:00.060
+So the Chrome browser would use a different javascript implementation than let's say Firefox or Safari.
+
+04:00.060 --> 04:06.020
+And what kind of sort algorithm they use underneath the hood is dependent on the browser.
+
+04:06.180 --> 04:09.810
+And that's something we're actually going to talk about later on in the videos.
+
+04:09.930 --> 04:15.910
+But to finish off this section about the weirdness of sorting Let me show you one more example.
+
+04:16.170 --> 04:20.060
+Let's say I have an array of Spanish words here.
+
+04:20.400 --> 04:25.460
+When he go out of course US football and we want to sort these.
+
+04:25.790 --> 04:27.040
+What do you think will happen.
+
+04:28.310 --> 04:32.700
+Let me remove this and do this here.
+
+04:33.140 --> 04:41.890
+If I click Ron I guess cause us football our goal when we go again because of the Unicode characters
+
+04:42.250 --> 04:51.070
+the A with the accent on it is not the actual aid that would come before something like.
+
+04:51.130 --> 04:53.900
+See as you can see here.
+
+04:53.950 --> 05:00.340
+So in this case to solve this problem we would have to do something along the lines of creating a function
+
+05:00.730 --> 05:08.860
+inside of sort that takes a and b which is the first and second item and it's going to return a plus
+
+05:10.140 --> 05:10.820
+locale.
+
+05:10.830 --> 05:19.120
+Compare B which allows us to compare these even if there were different languages.
+
+05:19.120 --> 05:23.870
+So if I have run this you see that it's now fixed and everything is working.
+
+05:24.070 --> 05:30.570
+And again locale compare is something that you can check out and I will link to overhear.
+
+05:30.590 --> 05:37.820
+Now the reason I'm showing you this is not because we want to become javascript experts Well everybody
+
+05:37.820 --> 05:43.450
+has their own language but to show you that there's many ways that we can sort things.
+
+05:43.520 --> 05:49.310
+And even with small little differences like this one there's a lot of considerations that need to be
+
+05:49.310 --> 05:50.010
+had.
+
+05:50.450 --> 05:57.440
+And underneath this sort method is actually one of the algorithms that we're going to learn about in
+
+05:57.440 --> 06:04.400
+this course and I also recommend you checking out the MGM page which I'll link to that shows you how
+
+06:04.400 --> 06:12.410
+you can compare different things such as numbers such as objects and items in an object using the sort
+
+06:12.410 --> 06:21.300
+method you see in order to sort this properly we'd have to do something like this where we have a function
+
+06:21.360 --> 06:28.600
+inside of the sort method that will take a and b which is the first and second item.
+
+06:29.300 --> 06:41.160
+And we'll simply say return a minus B and if we run this we see that our numbers are now sorted.
+
+06:41.420 --> 06:42.510
+But that's enough for now.
+
+06:42.710 --> 06:46.960
+Let's talk about the sorting algorithms that are being used in computer science.
+
+06:47.010 --> 06:50.320
+Next video I'll see in that one Babai.

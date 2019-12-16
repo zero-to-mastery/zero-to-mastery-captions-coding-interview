@@ -1,0 +1,64 @@
+WEBVTT
+
+00:01.640 --> 00:08.600
+Selamat datang kembali. Saya mendorong Anda untuk bermain dengan visual. Saya akan pergi dan membuat grafik Anda sendiri ketika saya berbicara di seluruh
+
+00:08.600 --> 00:13.980
+video ini tentang pencarian pertama yang mendalam dan pencarian pertama yang luas ketika datang ke grafik traversal.
+
+00:14.210 --> 00:20.540
+Cara Anda dapat membuat grafik adalah dengan hanya mengatakan menggambar grafik dan Anda akan dapat membuat sesuatu seperti
+
+00:20.540 --> 00:25.570
+ini sendiri dan kemudian Anda dapat menjelajahi kedalaman terlebih dahulu dan nafas untuk pencarian.
+
+00:26.630 --> 00:32.630
+Sekarang saya akan menjalankan animasi ini sementara saya berbicara tetapi kami akan mulai dengan
+
+00:32.630 --> 00:37.580
+nol dan melakukan pencarian mencari hal yang unik tentang napas.
+
+00:37.580 --> 00:44.510
+Pencarian pertama adalah bahwa ia cocok dengan sangat baik untuk menentukan jalur terpendek antara setiap simpul
+
+00:47.010 --> 00:52.550
+terutama ketika datang untuk mengatakan hei apa simpul terdekat ke nol.
+
+00:52.590 --> 00:54.840
+Itu pertanyaan yang sangat mudah untuk diajukan.
+
+00:54.840 --> 01:00.810
+Ketika datang untuk mencari napas pertama dan kami sudah bicara tentang bagaimana yang digunakan dalam mesin
+
+01:00.810 --> 01:01.410
+rekomendasi
+
+01:01.410 --> 01:05.290
+Jaringan peer to peer bahkan Google Maps benar.
+
+01:05.490 --> 01:11.970
+Permintaan pertemanan Facebook dan rekomendasi Instagram untuk pencarian pertama atau DFS memungkinkan kita
+
+01:12.000 --> 01:21.120
+untuk mengubah grafik pada dasarnya menjadi pohon karena kita tahu siapa anak-anak dari simpul orangtua dan kemudian cucu
+
+01:21.120 --> 01:24.130
+dan kemudian seterusnya dan seterusnya.
+
+01:24.150 --> 01:30.540
+Jadi jika Anda ingat diagram ini di sini, kami sekarang mengerti bahwa nafas pertama mencari Ya.
+
+01:30.560 --> 01:38.860
+Ia menggunakan lebih banyak memori untuk melacak orang tua tahu dan catatan anak-anak dari tingkat itu tetapi juga membantu kita menentukan
+
+01:38.860 --> 01:45.640
+jalur terpendek dan lebih baik jika kita tahu bahwa simpul yang kita cari dekat dengan kita karena
+
+01:45.640 --> 01:52.210
+akan terlihat di node yang lebih dekat terlebih dahulu sehingga ketika Anda ditanyai dalam sebuah wawancara Anda
+
+01:52.720 --> 01:57.450
+tahu algoritma ini akan bekerja dengan baik untuk jenis pertanyaan ini.
+
+01:58.160 --> 02:05.920
+Karena napas untuk pencarian dibuat untuk membantu kami menentukan jalur terpendek antara dua catatan dalam grafik.

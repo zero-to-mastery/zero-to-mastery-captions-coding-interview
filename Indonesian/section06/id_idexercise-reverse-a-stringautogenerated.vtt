@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.710 --> 00:01.750
+Selamat datang kembali.
+
+00:01.780 --> 00:04.690
+Mari kita masuk ke beberapa pertanyaan wawancara yang menyenangkan.
+
+00:04.690 --> 00:10.570
+Kita akan memulai dengan yang sangat umum dan seharusnya tidak terlalu rumit untuk
+
+00:10.570 --> 00:11.860
+memulai kita.
+
+00:11.890 --> 00:18.780
+Pewawancara meminta Anda dapat membuat fungsi yang membalikkan string.
+
+00:19.200 --> 00:23.040
+Jadi jika Anda masuk ke fungsi ini di sini.
+
+00:23.280 --> 00:25.560
+Hai nama saya Andre.
+
+00:25.830 --> 00:30.030
+Seharusnya mengembalikan ini omong kosong.
+
+00:30.260 --> 00:36.670
+Oh dan aku lupa dan ini omong kosong.
+
+00:36.700 --> 00:39.520
+Itu semua mundur.
+
+00:39.700 --> 00:43.000
+Itu hanya membalikkan string.
+
+00:43.000 --> 00:51.280
+Sekarang saya ingin melanjutkan dan mencoba ini di id REPL Anda sendiri atau editor teks mana pun yang Anda gunakan dan lihat
+
+00:51.280 --> 00:53.620
+apakah dia dapat memikirkan masalahnya.
+
+00:54.420 --> 00:59.750
+Gunakan apa yang Anda ketahui tentang array untuk menyelesaikan ini.
+
+00:59.760 --> 01:05.570
+Sekarang perlu diingat ketika datang ke pertanyaan seperti ini ada banyak cara untuk melakukan sesuatu.
+
+01:05.730 --> 01:12.630
+Sebagai programmer kita tahu tingkat ini ada begitu banyak cara untuk menyelesaikan masalah dan tergantung pada gaya kita
+
+01:12.720 --> 01:17.030
+pengetahuan kita dan waktu kita akan datang dengan solusi yang berbeda.
+
+01:17.040 --> 01:22.660
+Jadi, jika jawaban Anda berbeda dari jawaban saya dengan baik, itu bukan yang terburuk.
+
+01:22.990 --> 01:28.150
+Yang ingin Anda lakukan adalah memikirkan masalah dan memahami mengapa Anda membuat keputusan itu.
+
+01:28.170 --> 01:33.180
+Jadi silakan balikkan string dan saya akan melihat Anda di video solusi.

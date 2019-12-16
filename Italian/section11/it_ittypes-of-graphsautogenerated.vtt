@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.640 --> 00:07.330
+Come abbiamo visto ci sono molti tipi di grafici ma ci sono alcune caratteristiche che ci permettono di descrivere i
+
+00:07.330 --> 00:07.990
+grafici.
+
+00:08.200 --> 00:09.790
+Andiamo su di loro.
+
+00:09.790 --> 00:15.880
+Una cosa con cui vuoi veramente familiarizzare è l'idea di dirigere un grafo
+
+00:15.880 --> 00:16.840
+diretto.
+
+00:16.930 --> 00:23.440
+Questi tipi di grafici sono utili per descrivere il flusso del traffico, ad esempio di un tipo
+
+00:23.440 --> 00:27.140
+di sistema in cui il movimento non è bidirezionale.
+
+00:27.220 --> 00:34.180
+Ciò significa che qui, dove posso andare avanti e indietro tra le note, posso andare solo in una direzione.
+
+00:35.770 --> 00:43.210
+Un buon modo di pensare su un grafico diretto è pensare a come un'autostrada tra due città dove si può andare avanti
+
+00:43.210 --> 00:49.480
+e indietro, d'altra parte, la direzione sarà una strada a senso unico dove si può andare solo in un
+
+00:49.480 --> 00:50.100
+modo.
+
+00:50.470 --> 00:57.150
+Un altro modo per pensarci è Facebook, che tipo di grafico pensi che Facebook abbia.
+
+00:58.080 --> 01:06.120
+Beh, ha un grafo orientato perché quando sono connesso ad un amico che l'amico è anche collegato a
+
+01:06.120 --> 01:08.530
+me non è un modo.
+
+01:08.580 --> 01:09.570
+Che dire di Twitter.
+
+01:10.570 --> 01:20.120
+Twitter è più diretto perché se ho il mio profilo le persone possono seguirmi e posso seguire le persone.
+
+01:20.230 --> 01:23.770
+Ma se qualcuno mi segue non li seguo automaticamente.
+
+01:23.770 --> 01:32.460
+Quindi Twitter è più diretto Un altro modo per descrivere i grafici è l'idea di grafici ponderati su grafici attesi
+
+01:32.550 --> 01:41.110
+e attesi e, come puoi vedere dalle immagini, i valori possono essere applicati a vari aspetti di un grafico.
+
+01:41.220 --> 01:47.670
+Non solo le note ricordano che le note possono portare qualsiasi tipo di informazione, ma con i grafici puoi
+
+01:47.670 --> 01:53.490
+anche avere informazioni sui bordi e le connessioni, forse stai andando in un viaggio e cercare di
+
+01:53.490 --> 01:58.490
+capire il modo più efficace per visitare i siti che ti interessano .
+
+01:58.650 --> 02:05.370
+Bene, in quel caso Google Maps userebbe un grafico ponderato per decidere qual è il percorso
+
+02:05.370 --> 02:13.060
+più breve per arrivarci e questi tipi di grafici sono usati molto nel calcolo dei percorsi ottimali nel modo
+
+02:13.060 --> 02:16.790
+più veloce per dire da 1 a 6.
+
+02:16.800 --> 02:27.430
+Infine, un altro modo per descrivere il grafico è ciclico o aciclico quando i vertici sono collegati in modo
+
+02:27.610 --> 02:28.630
+circolare.
+
+02:28.780 --> 02:33.970
+Si chiama ciclo quando puoi passare da un nodo a un altro e tornare
+
+02:33.970 --> 02:40.550
+a quel nodo originale rispetto a quello aciclico dove puoi farlo e i grafici del codice C sono molto comuni.
+
+02:40.590 --> 02:49.150
+Un grafico particolarmente ponderato come Google maps perché la maggior parte delle volte c'è un modo per tornare indietro.
+
+02:49.180 --> 02:57.480
+Quindi ora capiamo alcuni modi per descrivere i grafici. Lascia che ti mostri il mio grafico preferito di sempre.
+
+02:57.570 --> 02:59.820
+Questo è il mio grafico preferito.
+
+03:00.900 --> 03:05.990
+È parte del progetto Opti ed è una mappa parziale di Internet.
+
+03:06.300 --> 03:12.680
+Se guardi qui vedi che abbiamo degli indirizzi IP che si collegano agli indirizzi IP.
+
+03:12.810 --> 03:17.580
+E questi sono tutti i nodi connessi per creare Internet.
+
+03:17.730 --> 03:19.210
+Proprio spettacolare.
+
+03:19.230 --> 03:24.290
+Questo è il miglior esempio di un grafico.
+
+03:24.310 --> 03:31.600
+Quindi ora che capiamo o almeno abbiamo una conoscenza di base dei grafici, facciamo un bel esercizio divertente.

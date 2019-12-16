@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.180 --> 00:02.450
+Selamat datang kembali.
+
+00:02.560 --> 00:10.140
+Sudah waktunya untuk pertanyaan wawancara yang menarik dan pertanyaan ini datang langsung dari energi yang diberikan Google.
+
+00:10.480 --> 00:13.080
+Katakanlah seperti ini.
+
+00:13.150 --> 00:16.110
+Katakan padaku karakter berulang yang pertama.
+
+00:16.450 --> 00:17.260
+Apa artinya.
+
+00:17.500 --> 00:23.660
+Nah jika kita melihat array ini di sini saya ingin fungsi yang saya bisa masukkan array ini
+
+00:23.920 --> 00:31.030
+Input ini akan melihat semua angka dan memberi tahu saya mana yang akan diulang lebih dulu.
+
+00:31.480 --> 00:40.980
+Jadi kita melihat 2 5 1 dan 2 dan kita mengatakan dua sudah terlihat.
+
+00:41.080 --> 00:43.570
+Dua adalah angka berulang.
+
+00:44.550 --> 00:49.360
+Jika kita melihat contoh lain kita melihat 2 1 1 dan 0.
+
+00:49.410 --> 00:55.360
+Kita berhenti di sini karena 1 kita sudah melihat sebelum kita dapat mengatakan karakter berulang pertama adalah 1.
+
+00:55.800 --> 01:03.560
+Jika kami mendapatkan array yang memiliki semua item unik, kami hanya mengembalikan yang tidak ditentukan.
+
+01:03.560 --> 01:06.980
+Jadi bagaimana Anda menyelesaikannya?
+
+01:07.040 --> 01:09.590
+Coba lihat apa yang Anda hasilkan.
+
+01:10.320 --> 01:16.530
+Jika Anda membutuhkan bantuan, mungkin skor pada perselisihan dan mengobrol dengan beberapa anggota komunitas dan saya akan melihat Anda dalam
+
+01:16.680 --> 01:17.630
+video solusi.

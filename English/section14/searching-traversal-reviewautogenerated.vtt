@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.210 --> 00:02.510
+Holy moly.
+
+00:02.520 --> 00:04.340
+Another section done.
+
+00:04.390 --> 00:11.410
+And we're getting so close to the end in this section we learned about searching and traversal some
+
+00:11.410 --> 00:19.690
+of the most popular and important algorithms we learned about linear search and how it can be good for
+
+00:19.690 --> 00:25.490
+some cases but not the most efficient because it has linear time.
+
+00:25.650 --> 00:34.350
+And we also talked about binary search where we're able to search through things at log of an essentially
+
+00:34.350 --> 00:41.270
+skipping a lot of the nodes that we would need to search by dividing the tree in half.
+
+00:41.280 --> 00:47.890
+We then talked about how to traverse a tree and a graph that is to visit every single note.
+
+00:48.540 --> 00:55.020
+And the most efficient way possible we talked about depth first search that goes in as deep as possible
+
+00:55.020 --> 01:04.440
+into a tree or graph and breath for a search that goes level by level searching or traversing a tree
+
+01:04.440 --> 01:04.900
+or a graph
+
+01:08.000 --> 01:14.780
+and whether you realize it or not we've completed a lot of this mind map that looked so intimidating
+
+01:15.290 --> 01:18.950
+at the beginning of this course you see.
+
+01:18.980 --> 01:29.100
+Now when we look at a race for example we understand that well when array we need to search through
+
+01:29.100 --> 01:35.900
+an array we can ask the question hey is it sorted because if it is then yes.
+
+01:36.000 --> 01:42.990
+In that case we should divide and conquer and arrange that array in a tree like data structure so that
+
+01:42.990 --> 01:51.040
+we can do binary search and get a speed boost of all log and is the array not sorted.
+
+01:51.150 --> 02:00.420
+Well no then it's actually more efficient to sort the array even though it takes all of and log in as
+
+02:00.420 --> 02:09.310
+we know over here and then do a binary search after we sorted and there are lot of programs do that.
+
+02:10.170 --> 02:17.250
+Although it may seem time consuming to do sorting and then searching it is actually faster than perhaps
+
+02:17.250 --> 02:20.600
+doing a linear search over and over.
+
+02:20.690 --> 02:27.870
+We can also complete this part of the graph where we come to graphs and trees.
+
+02:27.870 --> 02:34.500
+When we do traversals that is try and visit a node in a tree or a graph or all nodes in a tree over
+
+02:34.500 --> 02:35.850
+graph.
+
+02:35.930 --> 02:40.640
+We know that it's going to take over and that is we have to visit every node.
+
+02:40.660 --> 02:49.970
+It's going to be linear time but there are ways to traverse these trees using breath first search and
+
+02:49.970 --> 02:57.490
+depth first search and we learned that breath first search is great for the shortest path.
+
+02:57.900 --> 03:05.350
+Algorithms while depth first search is really great at Maiz solving problems or perhaps finding if a
+
+03:05.350 --> 03:06.850
+node even exists.
+
+03:07.890 --> 03:15.050
+And death for a search allows us to do in order Post order and preorder sorting.
+
+03:15.190 --> 03:23.400
+And we even coded this up all ourselves and we learn how the code works using recursion with depth first
+
+03:23.430 --> 03:24.040
+search.
+
+03:24.190 --> 03:33.720
+And also with Brett first search using both iterative and recursive using a key data structure.
+
+03:33.740 --> 03:40.760
+Finally we also learned a little bit about shortest path problems such as the one that Google Maps would
+
+03:40.760 --> 03:47.630
+use when there is waits between nodes in a graph where we can use something like Belman Ford or diasters
+
+03:47.660 --> 03:50.000
+algorithm to solve a problem.
+
+03:51.230 --> 03:52.380
+Congratulations.
+
+03:52.530 --> 04:03.340
+This is your mind map and you've covered every single thing on this map with the exception of one and
+
+04:03.340 --> 04:05.420
+that is this one right over here.
+
+04:05.470 --> 04:07.080
+Dynamic Programming.
+
+04:07.570 --> 04:14.610
+It's a short section to complete our overall mind map and get you interview ready.
+
+04:14.690 --> 04:16.490
+So I'll see you in the next section.
+
+04:16.490 --> 04:17.270
+Congratulations.
+
+04:17.270 --> 04:18.300
+Getting this far.
+
+04:18.380 --> 04:19.460
+You're almost there.

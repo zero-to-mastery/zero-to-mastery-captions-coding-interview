@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.900 --> 00:03.110
+Selamat datang kembali.
+
+00:03.280 --> 00:10.370
+Kami memiliki daftar kami di sini dan kami ingin dapat menjalankan daftar tertaut saya.
+
+00:10.570 --> 00:15.900
+Membalikkan yang akan membalikkan daftar ini untuk kita.
+
+00:15.900 --> 00:17.580
+Mari kita cari tahu kodenya di sini.
+
+00:19.300 --> 00:24.220
+Hal pertama yang ingin kita lakukan adalah melakukan sedikit cek.
+
+00:24.220 --> 00:29.040
+Bayangkan jika kita hanya memiliki satu item dalam daftar.
+
+00:29.290 --> 00:34.590
+Jika ada satu simpul atau item dalam daftar maka kita tidak perlu membalikkannya.
+
+00:34.600 --> 00:35.610
+Sudah ada di sana.
+
+00:35.620 --> 00:40.830
+Jadi, jika daftar ini hanya berisi satu, kembalikan apa pun yang kita miliki untuk saat ini.
+
+00:40.930 --> 00:49.450
+Jadi mari kita periksa di sini dan kita bisa mengatakan apakah ayah ini memiliki titik berikutnya dan tanda seru
+
+00:49.840 --> 00:51.520
+ini tidak ada.
+
+00:51.600 --> 00:59.350
+Maksud saya jika ini dilakukan selanjutnya jika hanya satu dan tidak semua tanda seru ini akan mengubah ini
+
+00:59.350 --> 01:04.300
+menjadi kebalikan dari cara kerja javascript akan mengubahnya menjadi true.
+
+01:04.480 --> 01:07.120
+Dan ini sedikit membingungkan tetapi semoga Anda bersama saya dalam hal itu.
+
+01:07.120 --> 01:11.760
+Yang kami katakan adalah jika ini adalah satu-satunya simpul dan hanya ada catatan di sini.
+
+01:12.630 --> 01:16.890
+Saya juga bisa melakukan ini dengan memeriksa panjang dan kami memiliki properti panjang.
+
+01:17.090 --> 01:24.860
+Jadi saya bisa melakukan sesuatu seperti ini panjang titik sama dengan satu agama tetap seperti sekarang jika
+
+01:25.340 --> 01:27.720
+hanya ada satu elemen.
+
+01:27.890 --> 01:35.500
+Cukup kembalikan Dot ini ke node atau kita bisa kembalikan ini juga.
+
+01:35.570 --> 01:38.420
+Kalau tidak, mari masuk ke bagian pengkodean yang menyenangkan.
+
+01:38.420 --> 01:47.420
+Hal pertama yang ingin kita lakukan adalah mengatakan kita ingin memiliki item pertama sama dengan dot head ini dan kita
+
+01:47.420 --> 01:49.370
+hanya melacaknya di sini.
+
+01:49.460 --> 01:56.460
+Jadi kita akan mengatakan bahwa kita sekarang memiliki referensi ke penjahat ini Dan kita juga memiliki
+
+01:56.490 --> 01:59.960
+referensi sekarang ke item kedua dalam daftar.
+
+02:00.360 --> 02:04.190
+Jadi ini akan menjadi titik pertama berikutnya.
+
+02:04.250 --> 02:08.620
+Jadi sekarang kita memiliki yang pertama dan kedua kita dapat melakukan perulangan.
+
+02:08.770 --> 02:21.800
+Kita dapat mengatakan sementara simpul kedua ada selama kedua bukan nol.
+
+02:21.960 --> 02:29.520
+Jadi selama itu terjadi kita akan membuat variabel sementara yang memegang titik kedua berikutnya sehingga kita benar-benar dapat
+
+02:30.210 --> 02:36.880
+memanggil ketiga ini jika kita mau, tetapi saya memilih temp karena ini akan berubah.
+
+02:36.970 --> 02:39.910
+Jadi kami memiliki referensi ke detik pertama dan ketiga.
+
+02:39.910 --> 02:54.150
+Jadi satu 10 dan 16 dari sini kita sekarang bisa mengatakan titik kedua berikutnya akan sama dengan elemen pertama.
+
+02:56.050 --> 03:10.430
+Pertama akan sama dengan elemen kedua dan kedua ini akan sama dengan elemen teratas. Oh, apa yang baru saja terjadi di
+
+03:10.430 --> 03:11.860
+sini.
+
+03:11.950 --> 03:16.980
+Saya tahu ada banyak kode tanpa banyak penjelasan tetapi mari kita lalui baris demi baris.
+
+03:17.180 --> 03:26.680
+Kami mengulang di sini setelah kami mengambil satu dan kami mengambil 10 dan sekarang saya akan mengatakan selama
+
+03:26.770 --> 03:37.230
+variabel kedua ini memiliki nilai dan itu bukan nol itu tidak ada maka saya ingin Anda membuat variabel temp yang menampung
+
+03:37.440 --> 03:47.180
+16 dari sana saya akan mengambil yang kedua dilakukan selanjutnya yang merupakan properti dalam 10 dan saya akan mengatakan
+
+03:48.030 --> 03:51.600
+bahwa ke 10 sekarang menjadi dewpoint.
+
+03:51.630 --> 03:54.270
+Jadi yang kedua pada X akan menunjuk ke yang pertama.
+
+03:54.270 --> 04:04.200
+Jadi 10 memiliki panah yang menunjuk ke satu dan variabel pertama yang menjadi kepala sekarang menjadi 10
+
+04:04.290 --> 04:07.310
+dan item kedua menjadi 16.
+
+04:08.150 --> 04:16.460
+Kami telah mengganti pointer satu ke 10 sekarang menjadi 10 ke 1 dan kami mengganti variabel pertama dan kedua
+
+04:16.550 --> 04:25.650
+menjadi sekarang memiliki 10 dan 16 dan kami mengulanginya dan melakukan hal yang sama ketika pointer 10 hingga 16 terbalik sehingga
+
+04:25.660 --> 04:31.400
+16 poin ke 10 dan kami mengubah variabel sehingga 16 dan 18.
+
+04:31.870 --> 04:37.420
+Jadi kita lewati ini, kita lewati ini, kita lewati ini dan kemudian
+
+04:37.420 --> 04:46.230
+hal terakhir yang perlu kita lakukan adalah mengatakan bahwa ayah ini punya karena pikiran ini masih memiliki nilai 1 di dalamnya.
+
+04:46.340 --> 04:50.390
+Kita akan mengatakan bahwa titik berikutnya sama dengan dua.
+
+04:50.480 --> 05:06.370
+Tidak, kita akan memiliki satu poin untuk diketahui dan titik kepala ini sekarang malah akan menjadi yang pertama dan ingat pada
+
+05:06.370 --> 05:15.480
+saat kita melewati semuanya menjadi 88 dan yang kedua menjadi Tidak.
+
+05:15.820 --> 05:20.920
+Jadi kita sekarang berubah di akhir 88 untuk menjadi sama dengan kepala.
+
+05:21.370 --> 05:28.510
+Dan kami juga ingin memastikan bahwa ekor itu sekarang adalah satu dan cara kami melakukan itu kami
+
+05:28.510 --> 05:36.210
+harus pergi sebelum loop sementara dan melihat di sini bahwa anjing ini memiliki item pertama ini harus ekor ke atas.
+
+05:36.280 --> 05:47.610
+Jadi pada awalnya sebelum kita melakukan loop, ekornya akan menjadi benar.
+
+05:47.680 --> 05:51.850
+Saya tahu itu membingungkan tetapi mari kita lihat apakah itu berhasil.
+
+05:51.850 --> 05:57.700
+Ini adalah salah satu masalah yang Anda benar-benar harus mengeringkannya dan hanya dengan melihat kode ini sangat
+
+05:57.700 --> 06:00.500
+sulit bagi Anda untuk memahami apa yang terjadi.
+
+06:00.700 --> 06:06.400
+Saya sarankan Anda memberi kode ini bersama dan langkah demi langkah mungkin hukum konsol untuk memahami apa yang
+
+06:06.400 --> 06:06.840
+terjadi.
+
+06:07.640 --> 06:14.820
+Jika saya membalikkan daftar ini dan klik jalankan, saya tidak terdefinisi karena kita harus mengembalikan sesuatu jadi mari
+
+06:16.020 --> 06:16.880
+kita kembali
+
+06:16.890 --> 06:21.930
+Ini membuat daftar cetak ingin menjalankan ini.
+
+06:22.150 --> 06:22.710
+Baiklah.
+
+06:22.750 --> 06:26.200
+Biarkan saya memastikan bahwa kita membalikkan, saya akan berkomentar.
+
+06:26.290 --> 06:31.740
+Jadi kita memiliki daftar asli 1 10 16 88 jika kita balikkan.
+
+06:31.780 --> 06:40.170
+Kami memiliki 88 16 10 dan 1 dan hanya untuk ukuran yang baik daripada mencetak daftar, mari kita kembali tahun ini sehingga
+
+06:41.600 --> 06:46.370
+kami mendapatkan seluruh daftar yang terhubung untuk memastikan semuanya bekerja dengan baik.
+
+06:47.890 --> 06:55.710
+Saya memiliki daftar tertaut yang memiliki nilai kepala 88 dan nilai ekor 1.
+
+06:55.810 --> 06:58.660
+Sepertinya itu berfungsi.
+
+06:58.660 --> 06:59.610
+Luar biasa.
+
+06:59.860 --> 07:01.350
+Kerja bagus sejauh ini.
+
+07:01.420 --> 07:08.710
+Dan jika Anda dapat memahami ini, saya pikir ini mungkin konsep yang paling sulit untuk
+
+07:09.220 --> 07:11.800
+dipahami dalam keseluruhan kursus ini.
+
+07:11.860 --> 07:17.150
+Jadi, jika Anda bisa mendapatkan pekerjaan yang baik ini jika tidak, Anda mungkin harus menonton video ini beberapa kali.
+
+07:17.200 --> 07:23.830
+Pada akhirnya dan ini adalah keindahan pemrograman yang kami lakukan adalah langkah-langkah logis dan tidak peduli apa
+
+07:23.830 --> 07:29.080
+bahasa yang Anda gunakan apakah itu javascript seperti yang kami lakukan dalam hal
+
+07:29.110 --> 07:35.710
+ini langkah-langkah untuk membuat daftar yang ditautkan adalah sintaks yang sama persis mungkin berbeda tetapi Logikanya sama.
+
+07:35.790 --> 07:36.720
+Saya akan melihat yang berikutnya.

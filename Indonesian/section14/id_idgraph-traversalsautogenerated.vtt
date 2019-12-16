@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.670 --> 00:07.990
+Selamat datang kembali keindahan dari apa yang baru saja kita pelajari dalam pembalikan Treach yang
+
+00:08.080 --> 00:16.490
+merupakan dari Dan kita mengunjungi setiap node adalah bahwa itu sama seperti dalam grafik traversal karena pohon hanya tipe
+
+00:17.700 --> 00:25.060
+grafik sehingga menggunakan teknik yang sama daripada menggunakan kiri dan properti yang tepat mungkin ada 10 anak.
+
+00:25.410 --> 00:32.870
+Apa yang dapat kita lakukan hal yang sama menggunakan kematian untuk pencarian dan pencarian
+
+00:32.870 --> 00:42.480
+pertama yang luas dan ini benar-benar kuat karena grafik digunakan untuk memodelkan model kehidupan nyata seperti mesin rekomendasi Amazon.
+
+00:42.720 --> 00:53.220
+Kita sekarang dapat melihat jenis barang apa yang mungkin terkait atau hubungan terdekat dengan buku terakhir yang kami
+
+00:53.220 --> 00:54.110
+beli.
+
+00:54.420 --> 01:01.740
+Dan dalam hal itu mereka akan menggunakan sesuatu seperti nafas untuk pencarian atau di Facebook untuk melihat jenis
+
+01:01.980 --> 01:04.690
+permintaan pertemanan yang harus saya rekomendasikan.
+
+01:05.070 --> 01:12.240
+Jika saya memiliki koneksi di Linked-In, mungkin saya bisa menggunakan kematian untuk pencarian untuk melihat sejauh mana
+
+01:12.330 --> 01:14.140
+koneksi saya dengan itu.
+
+01:14.190 --> 01:15.830
+SEO sangat penting.
+
+01:15.990 --> 01:26.520
+Kami menggunakan pencarian tuli dan ini adalah dasar dari bagaimana jaringan peer to peer bekerja bagaimana Google Maps bekerja.
+
+01:26.520 --> 01:27.370
+Kanan.
+
+01:27.480 --> 01:33.060
+Yang benar-benar sangat kuat dan saya punya visual yang bagus di sini.
+
+01:33.060 --> 01:34.670
+Saya memiliki visual kami.
+
+01:34.670 --> 01:35.790
+Saya akan pergi ke sini.
+
+01:35.840 --> 01:41.550
+Teman baik kami dan mereka memiliki kematian untuk pencarian dan saya membuat grafik kecil ini dan kita dapat melintasi
+
+01:41.550 --> 01:46.830
+sekarang menggunakan Louis yang sebenarnya untuk bernafas untuk pencarian pertama dan kami akan mulai dengan nol.
+
+01:46.950 --> 01:52.380
+Jadi saya akan memasukkan nol di sini dan melihat bagaimana penelitian kematian akan bekerja.
+
+01:52.440 --> 01:58.950
+Kami memeriksa semua Node terdekat 1 3 4 5 6 dan kemudian kita mulai dengan 1.
+
+01:58.950 --> 02:00.010
+Apakah ada anak?
+
+02:00.080 --> 02:02.360
+Yap 2 7 dan 8.
+
+02:02.580 --> 02:04.240
+Lalu kita lanjutkan di baris 3.
+
+02:04.280 --> 02:05.310
+Bagaimana dengan 4.
+
+02:05.370 --> 02:06.220
+Bagaimana dengan 5.
+
+02:06.330 --> 02:07.050
+Bagaimana dengan 6.
+
+02:07.050 --> 02:08.420
+Mereka tidak punya anak.
+
+02:09.330 --> 02:10.790
+OK mari kita pergi.
+
+02:10.890 --> 02:19.100
+Terus turun ke tempat berikutnya yang memiliki Shulgin dan kami melintasi grafik seperti yang Anda lihat
+
+02:19.100 --> 02:27.230
+dimulai dengan tetangga terdekat kami dan kemudian pergi semakin jauh dengan pencarian pertama yang mendalam.
+
+02:27.530 --> 02:30.030
+Katakanlah kita mulai dari nol.
+
+02:31.260 --> 02:43.980
+Dan saya tekan pergi, kita pergi ke satu lalu ke 7 dan kemudian kita akan terus lebih dalam 8.
+
+02:44.180 --> 02:47.350
+Kami akan pergi ke sembilan kemudian 10.
+
+02:47.360 --> 02:48.970
+Tidak ada lagi node.
+
+02:49.040 --> 02:58.590
+Jadi kita akan kembali dan pergi ke yang berikutnya dan daftar yang 3 dan 4 lalu 5 dan 6.
+
+02:58.640 --> 03:07.010
+Jadi hanya dengan melihat ini, Anda mungkin melihat apa yang saya maksud ketika saya memberi Anda informasi di
+
+03:07.070 --> 03:13.430
+awal bagian ini yaitu pencarian pertama yang luas biasanya baik untuk jalur terpendek.
+
+03:13.580 --> 03:16.880
+Itulah yang paling dekat dengan simpul kami.
+
+03:16.910 --> 03:19.890
+Apa item paling terkait di Amazon?
+
+03:20.890 --> 03:28.600
+Siapa teman terdekat kami di Facebook atau koneksi terdekat di Linked-In versus pencarian pertama yang sangat
+
+03:29.200 --> 03:32.620
+bagus untuk melihat apakah ada sesuatu.
+
+03:34.800 --> 03:42.430
+Dengan pencarian tuli kita dapat masuk sangat jauh ke dalam grafik dengan cukup cepat daripada napas.
+
+03:42.450 --> 03:47.040
+Pencarian pertama yang mungkin membutuhkan sedikit memori ekstra.
+
+03:47.060 --> 03:52.150
+Mari kita bicara tentang dua algoritma ini secara lebih rinci ketika datang ke grafik.

@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.950 --> 00:07.540
+Ce ai spune dacă te-am întrebat care este marea acțiune a funcției Găsirea lui Nemo.
+
+00:07.970 --> 00:13.760
+Ei bine, pentru a face acest lucru puțin mai curat, să eliminăm performanța efectuată acum pentru
+
+00:13.760 --> 00:18.940
+că am aflat că nu este foarte important și putem elimina și jurnalul consolei.
+
+00:20.440 --> 00:27.500
+Și uitându-mă la asta și la această bucla, ce ai spune că e big-O și că acest videoclip vom
+
+00:27.560 --> 00:30.260
+învăța despre prima noastră notație Big-O.
+
+00:30.620 --> 00:34.540
+Așa cum am spus un runtime este pur și simplu cât durează ceva pentru a rula.
+
+00:34.700 --> 00:43.860
+Cum funcționează această funcție și timpul de rulare pe măsură ce intrarea noastră crește deoarece intrarea noastră merge de la un singur
+
+00:44.190 --> 00:49.130
+element dintr-un tablou Nimo la 10 elemente în matrice la 100000.
+
+00:49.320 --> 00:53.780
+Cum crește eficiența acestei funcții.
+
+00:53.950 --> 01:01.180
+Dacă ne uităm la acest grafic și spunem că avem 4 elemente în matrice, în timp ce
+
+01:01.180 --> 01:10.500
+numărul de operațiuni va fi 4 corect, deoarece vom merge prin fiecare element și vom spune că acest Nimo este acest nimo.
+
+01:10.500 --> 01:11.550
+Este acest nimo.
+
+01:11.850 --> 01:14.000
+Este acest Nimo de patru ori.
+
+01:14.130 --> 01:19.650
+Indiferent de ceea ce facem de patru ori cel puțin cu modul în care
+
+01:19.980 --> 01:28.860
+avem acest cod setat dacă avem cinci elemente în matrice, vor fi cinci operații cinci bucle șase este același șase elemente sunt
+
+01:28.860 --> 01:30.030
+șase operații.
+
+01:30.030 --> 01:34.070
+Șapte sunt șapte operațiuni, iar opt este opt.
+
+01:34.090 --> 01:38.230
+Funcționează aici un pic de model.
+
+01:38.570 --> 01:40.410
+Ei bine, putem trage o linie prin ea.
+
+01:42.090 --> 01:51.640
+Aceasta este o rată liniară pe măsură ce numărul de intrări crește și numărul de operațiuni.
+
+01:51.840 --> 01:57.680
+Și aici, doamnelor și domnilor, am învățat prima noastră notație Big-O.
+
+01:58.020 --> 02:11.480
+Spunem că funcția nemo de constatare are o O notație mare de 0 și asta e puțin ciudat.
+
+02:11.490 --> 02:21.750
+Aceasta este doar o notație la care trebuie să vă obișnuiți, dar spunem Big O of N sau ceea ce numim timp liniar
+
+02:21.750 --> 02:27.280
+liniar este nevoie de timp liniar pentru a găsi un nimo.
+
+02:27.300 --> 02:29.980
+Acum, de unde vine acest sfârșit.
+
+02:30.790 --> 02:33.100
+Aceasta poate fi ceva cu adevărat.
+
+02:33.130 --> 02:34.680
+Am putut pune x.
+
+02:34.900 --> 02:40.540
+Aș putea pune pestele aici, dacă vreau, este doar o scrisoare arbitrară.
+
+02:40.840 --> 02:42.680
+Și de obicei dăm.
+
+02:42.690 --> 02:50.100
+Iar când vine vorba de Big-O, acesta este doar un standard pe care îl veți vedea peste bord și
+
+02:50.790 --> 02:56.790
+pur și simplu înseamnă că O mare depinde de numărul de intrări numărul de pește.
+
+02:56.790 --> 03:06.130
+Deci, dacă am avea doar matricea Nimo, acest lucru ar fi unul dacă am avea fiecare o matrice care ar fi
+
+03:06.340 --> 03:06.840
+10.
+
+03:07.090 --> 03:12.270
+Și am avut o gamă largă de Elby 100000.
+
+03:12.390 --> 03:23.090
+Dar, pe măsură ce creșteți intrările, vedeți că numărul de operații crește liniar cu 0 când este probabil cea mai obișnuită notație Big
+
+03:23.090 --> 03:30.830
+O pe care o veți găsi dacă revenim la grafic puteți vedea că ON este chiar
+
+03:30.920 --> 03:38.000
+aici în regiunea galbenă care este în măsura în care crește numărul de elemente.
+
+03:38.000 --> 03:40.250
+Vedeți că este doar o linie dreaptă.
+
+03:40.370 --> 03:47.910
+Numărul de operațiuni crește cu aceeași sumă, deoarece păstrați acest lucru în minte big-O nu măsoară lucrurile în
+
+03:47.910 --> 03:49.170
+câteva secunde.
+
+03:49.260 --> 03:53.980
+În schimb, ne concentrăm asupra cât de repede crește timpul de execuție.
+
+03:54.150 --> 04:00.680
+Noi pur și simplu facem acest lucru folosind mărimea intrării pe care o numim un sau orice altceva dorim într-adevăr.
+
+04:00.930 --> 04:06.820
+Și în comparație cu numărul de operațiuni care cresc, asta înseamnă scalabilitatea.
+
+04:06.870 --> 04:11.270
+Pe măsură ce lucrurile cresc și mai mari, scade.
+
+04:11.390 --> 04:16.330
+Deci, funcția de găsire a funcției Nimo este o și de timp liniar.
+
+04:16.500 --> 04:19.190
+Și acum modul în care trebuie să ne gândim este acesta.
+
+04:19.620 --> 04:26.160
+Dacă am avea un algoritm de compresie, să presupunem că această funcție este această mică comprimare și
+
+04:26.250 --> 04:31.640
+că intrarea este această cutie mică, care este notarea mare a acestei funcții.
+
+04:31.860 --> 04:35.580
+Ei bine, dacă am avea un element, acesta va comprima
+
+04:38.620 --> 04:39.960
+doar un element.
+
+04:40.090 --> 04:47.430
+Dacă am avea din nou mai multe elemente, trebuie să executăm fiecare casetă prin algoritmul
+
+04:47.430 --> 04:50.400
+de compresie pentru a comprima caseta.
+
+04:50.450 --> 04:58.610
+Dacă ne uităm la funcția pentru cutiile de compresie în timp ce folosim E. S. și sintaxa ESX aici, dar în mod
+
+04:58.610 --> 05:04.130
+esențial suntem în buclă prin fiecare cutie, iar în celălalt caz suntem doar anulați logarea.
+
+05:04.280 --> 05:11.960
+Dar puteți vedea aici că toate aceste lucruri se fac numai pe măsură ce intrarea crește cutiile,
+
+05:11.960 --> 05:18.100
+numărul de casete mărește numărul de operații crescând și anume timpul liniar O-N.
+
+05:19.460 --> 05:26.270
+Felicitări tocmai ați învățat prima dvs. notație O mare și acest lucru probabil cel mai des întâlnit, dar
+
+05:26.270 --> 05:28.090
+există și alte câteva.
+
+05:28.220 --> 05:35.610
+Deci ce altă notație Big-O avem altceva decât un timp liniar pentru care trebuie să continuați să
+
+05:35.610 --> 05:36.460
+urmăriți.
+
+05:36.510 --> 05:38.360
+Voi vedea în următorul videoclip Bebai.

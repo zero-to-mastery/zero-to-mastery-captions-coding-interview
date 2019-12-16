@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.940 --> 00:10.680
+Witaj, nadszedł czas, aby posortować morfy, chwyćmy tę funkcję, umieśćmy ją na samym końcu, ponieważ mam nadzieję, że zadziała na
+
+00:10.680 --> 00:12.100
+samym końcu.
+
+00:12.420 --> 00:19.200
+I zacznij pisać nasz kod.
+
+00:19.360 --> 00:25.090
+Zaczniemy od zdefiniowania najpierw funkcji nazwanej interfejsem sortowania korespondencji seryjnej.
+
+00:25.120 --> 00:31.630
+Będzie to pierwszy parametr, który jest pierwszą tablicą, a następnie drugi parametr,
+
+00:31.630 --> 00:38.490
+który jest drugorzędny. Zamierzam najpierw zdefiniować pewne zmienne, których będziemy używać w całej funkcji.
+
+00:38.560 --> 00:47.760
+Pierwszym będzie stała, która jest połączoną tablicą, która będzie naszą odpowiedzią.
+
+00:47.790 --> 00:49.910
+Na razie będzie to pusta tablica.
+
+00:51.280 --> 00:56.420
+Równie dobrze możemy po prostu upewnić się, że zwrócimy tę scaloną tablicę na końcu.
+
+00:56.500 --> 01:03.160
+Mam nadzieję, że wszystko działa i możemy zapełnić to tymi dwiema tablicami.
+
+01:03.240 --> 01:14.330
+Teraz tutaj chcę pobrać tablicę dla jednego elementu tylko w celach informacyjnych i będzie to
+
+01:14.750 --> 01:18.700
+nasz pierwszy element tablicy.
+
+01:18.750 --> 01:23.090
+To po prostu ma tutaj zero pozycji.
+
+01:23.190 --> 01:24.180
+I nasza
+
+01:27.720 --> 01:29.720
+pierwsza tablica, a potem zrobimy to samo.
+
+01:30.300 --> 01:31.410
+Array 2
+
+01:36.370 --> 01:39.280
+item, który z tego miejsca pobierze numer cztery.
+
+01:40.580 --> 01:47.240
+Teraz pierwszą rzeczą, którą lubię robić w funkcji, jest sprawdzenie jakiegoś wejścia upewniając
+
+01:47.250 --> 01:47.900
+się,
+
+01:50.660 --> 01:57.930
+że wszystko działa, oszczędzę czasu, kiedy to robię, ponieważ powinieneś mieć pomysł, jak sprawdzić,
+
+01:57.930 --> 02:02.360
+czy jest to tablica czy masz dwa parametry.
+
+02:03.520 --> 02:10.820
+Ale jednym zdaniem, które uważam za warte sprawdzenia, jest to, że jeśli mamy coś takiego.
+
+02:11.670 --> 02:15.910
+Gdzie druga tablica jest po prostu pustą stawką.
+
+02:16.260 --> 02:19.040
+W naszym przypadku możemy po prostu zwrócić pierwszą stawkę.
+
+02:19.380 --> 02:23.670
+Ponieważ jest już posortowana, wciąż łączymy dwa promienie, ale druga tablica nie ma
+
+02:23.670 --> 02:24.210
+nic.
+
+02:24.570 --> 02:29.700
+I to samo, jeśli ta pierwsza tablica była po prostu pusta.
+
+02:30.660 --> 02:39.180
+Aby uniknąć X pewnej pracy, sprawdźmy te warunki, aby od razu dać odpowiedź i sprawić,
+
+02:39.180 --> 02:42.390
+by nasza funkcja była wydajniejsza.
+
+02:42.390 --> 02:43.780
+W takich przypadkach.
+
+02:44.010 --> 02:45.650
+Więc mogę po prostu zrobić instrukcję if.
+
+02:45.810 --> 02:51.800
+Powiem, że jeśli nie, to jest równe zeru.
+
+02:52.910 --> 02:54.790
+Więc jeśli pierwsza tablica jest pusta.
+
+02:54.980 --> 02:57.740
+Po prostu zwróć pomocniczy
+
+03:01.300 --> 03:10.970
+i możemy zrobić to samo dla drugiego przypadku, jeśli tablica do dna jest pusta, wtedy możemy po
+
+03:10.970 --> 03:14.690
+prostu zwrócić pierwszą tablicę ładnie i prosto.
+
+03:14.760 --> 03:20.340
+Na razie przejdźmy do trudniejszego tematu, który się dzieje, gdy obie te tablice są pełne, tak jak są
+
+03:20.340 --> 03:20.920
+teraz.
+
+03:22.410 --> 03:30.250
+Żeby to zmienić, ponieważ używam pętli for przez pewien czas, użyję pętli while w
+
+03:30.550 --> 03:36.940
+javascript, a to po prostu zapętli elementy, gdy spełniony zostanie warunek.
+
+03:37.030 --> 03:48.520
+W naszym przypadku powiem, że podczas gdy istnieje tablica, jeden element lub jest tam tablica 2 Pozycja zrób coś i pamiętaj, że te zmienne
+
+03:51.360 --> 03:59.130
+są po prostu na razie pierwszym elementem w każdej z tablic, a przy okazji, jeśli
+
+03:59.750 --> 04:04.960
+jesteś zastanawiasz się, dlaczego czasami używam kosztów czasami używam LET.
+
+04:05.340 --> 04:12.680
+Dobry koszt oznacza, że po przypisaniu tej zmiennej do tej tablicy nie mogę jej zmodyfikować.
+
+04:12.720 --> 04:15.940
+Nie mogę powiedzieć, że scalona tablica równa się dwóm.
+
+04:16.080 --> 04:21.960
+To da mi ostrzeżenie, ponieważ jest to stała, mogę dodawać rzeczy do tablicy, ale nie mogę
+
+04:22.380 --> 04:24.480
+zmienić tego odniesienia do tablicy.
+
+04:24.630 --> 04:27.770
+Z drugiej strony pozwól mi to zrobić.
+
+04:27.870 --> 04:35.890
+Później mogę powiedzieć, że jeden element jest równy nowemu, jak tablica jeden w indeksie jednego.
+
+04:36.330 --> 04:39.300
+Właśnie dlatego używamy tej składni.
+
+04:39.300 --> 04:42.680
+Jest to nowa składnia ESX i JavaScript.
+
+04:42.800 --> 04:43.910
+W porządku.
+
+04:43.910 --> 04:57.810
+Tak więc, skoro mamy rzeczy i tablice, które chcemy najpierw wykonać trochę sprawdzenia, powiedzmy, że jeśli
+
+04:58.710 --> 05:15.630
+jeden element jest mniejszy niż element Array 2, to jeśli 0 jest mniejsze niż 4, chcemy dodać do tajemniczej pustej tablicy.
+
+05:15.660 --> 05:20.860
+Chcemy powiedzieć push, a my popchniemy pierwszy element w tablicy.
+
+05:21.060 --> 05:32.570
+Więc będziemy naciskać 0, a ponieważ wprowadziliśmy teraz element zerowy do tej tablicy, nie musimy już martwić
+
+05:32.570 --> 05:34.610
+się o zero.
+
+05:34.970 --> 05:49.230
+Możemy więc po prostu powiedzieć, że jeden element jest teraz równy tablicy jeden na indeksie.
+
+05:49.350 --> 05:54.710
+Właśnie dlatego, że teraz chcemy przejść do elementu tablicy.
+
+05:54.710 --> 06:00.040
+To jest tutaj na indeksie 1, który wynosi 3, więc możemy porównać trzy z czterema.
+
+06:00.150 --> 06:02.450
+Teraz chcemy to zwiększać za każdym razem.
+
+06:02.610 --> 06:11.160
+A ponieważ robimy tutaj pętlę, skonwertujmy to do indeksu, który jest wysoki i zwiększany o
+
+06:11.280 --> 06:12.740
+plus plus.
+
+06:12.970 --> 06:22.910
+A na samym górze możemy powiedzieć na początek, że będzie to jeden.
+
+06:23.000 --> 06:28.610
+W ten sposób, gdy będziemy przechodzić przez to, to będzie się zwiększać wraz z
+
+06:28.610 --> 06:37.590
+I plus plus to jest wzrost o 1, tak że możemy przejść 0 3 4 31, a przy okazji zauważyłem, że nie mogę
+
+06:37.590 --> 06:40.550
+przeliterować tu tablicy shabby jej 8.
+
+06:40.550 --> 06:46.430
+Tak jest w przypadku, gdy jeden element tablicy jest mniej niż tablica na liście na drugą stronę.
+
+06:46.580 --> 06:55.310
+Jeśli element tablicy 2 jest mniejszy niż Array 1, teraz łączymy się w tablicy.
+
+06:57.970 --> 07:07.370
+Tablica do elementu, ponieważ jeśli tablica jeden element jest nie mniejsza niż tablica do elementu, nie musimy nawet dodawać warunku tutaj.
+
+07:07.370 --> 07:15.470
+Wiemy, że jeden element tablicy jest większy niż tablica dwa elementy, w którym to przypadku możemy po prostu dodać
+
+07:15.470 --> 07:16.400
+drugi element.
+
+07:16.400 --> 07:19.470
+Dlatego dodajemy ten element.
+
+07:20.860 --> 07:25.980
+I znowu chcemy zrobić dokładnie to samo, co zrobiliśmy z pierwszym elementem lub pierwszą tablicą.
+
+07:26.110 --> 07:35.110
+Jest to tablica, do której element będzie teraz mieć taką samą tablicę i potrzebujemy innego indeksu tego.
+
+07:35.110 --> 07:43.160
+Możemy użyć tej samej stawki, więc możemy po prostu powiedzieć, że to J i pojawi się.
+
+07:43.360 --> 07:45.920
+Po prostu robimy to samo.
+
+07:45.940 --> 07:49.000
+J ma równać się 1.
+
+07:49.390 --> 07:57.790
+Tak więc, kiedy już ustaliliśmy pozycje zerowego indeksu, możemy przejść do indeksu jednego niż indeks dwóch indeksów z
+
+07:57.790 --> 07:58.290
+trzech.
+
+07:58.300 --> 08:00.280
+Itd. itp.
+
+08:00.280 --> 08:02.480
+Teraz sprawdźmy ten kod i zobaczmy, czy to działa.
+
+08:02.530 --> 08:08.790
+Jeśli uruchomię to, zobaczycie, że moja przeglądarka właśnie się zawiesiła.
+
+08:08.790 --> 08:15.960
+A to dlatego, że mam ustawienie na REPL, że ID, który pozwala na chwilę, aby stało się to najprawdopodobniej,
+
+08:15.960 --> 08:19.480
+jeśli używasz domyślnych ustawień tutaj, da ci ostrzeżenie.
+
+08:19.800 --> 08:20.390
+Ale
+
+08:25.430 --> 08:27.130
+wróćmy, dlaczego tak się stało.
+
+08:27.800 --> 08:33.780
+Dlatego zawsze dobrze jest pójść krok po kroku i upewnić się, że wszystko działa.
+
+08:33.800 --> 08:39.130
+Zrobiliśmy tu wiele kodowania bez sprawdzania, czy coś z tego działa.
+
+08:39.930 --> 08:47.230
+Tak więc dobra uwaga tutaj jest zatrzymanie się co jakiś czas i po prostu przetestuj swoje założenia wymyślone odpowiedzi.
+
+08:47.390 --> 08:57.070
+W tym przypadku przegapiliśmy punkt krytyczny, który znajduje się tutaj w tym teście, jeśli wykonamy pętlę while, dopóki tablica
+
+08:57.070 --> 09:04.810
+zawiera jeden element lub tablicę, a następnie sprawdzamy, czy tablica jeden element jest mniejszy niż
+
+09:04.810 --> 09:06.660
+element Array 2.
+
+09:06.780 --> 09:14.700
+Ale problem polega na tym, że możemy mieć przypadek, w którym jeden z nich, ponieważ używamy lub może
+
+09:14.760 --> 09:19.690
+być nieokreślony lub dotarliśmy do końca linii, aby to wyjaśnić.
+
+09:19.800 --> 09:27.280
+Najważniejszą rzeczą do zrobienia jest to, aby zawsze wiedzieć, w jaki sposób działa Twój kod, więc
+
+09:27.300 --> 09:34.160
+zróbmy anulowane lub zablokujmy tutaj powiedzmy, że chcesz tablicy elementów przedmiotu do pozycji.
+
+09:34.640 --> 09:37.790
+Zobaczmy, co otrzymamy w pętli.
+
+09:38.640 --> 09:44.600
+Jeśli to zrobię, znowu się zawiesi i nie będziemy mogli zobaczyć naszych dzienników.
+
+09:44.610 --> 09:50.410
+Zamierzam tylko zapisać poprawną wersję tutaj, a następnie wyjaśnić, dlaczego zrobiliśmy to, co zrobiliśmy.
+
+09:50.750 --> 09:56.260
+Zamierzam po prostu powiedzieć, czy do pozycji, jeśli tablica
+
+09:59.810 --> 10:06.570
+do elementu nie istnieje, więc jeśli mamy niezdefiniowane, zamieni to w prawdę.
+
+10:06.580 --> 10:08.510
+Więc przeszliśmy przez to.
+
+10:08.800 --> 10:10.100
+Dlaczego.
+
+10:10.120 --> 10:10.900
+Spójrzmy.
+
+10:13.180 --> 10:15.470
+Zwróć uwagę na to, co właśnie tutaj zablokowaliśmy.
+
+10:15.520 --> 10:18.780
+Zalogowaliśmy każdy przedmiot, a następnie dwa elementy w tablicy.
+
+10:18.790 --> 10:26.770
+Dlatego właśnie porównujemy w naszych pętlach zera więcej niż 3 i 4, a następnie dla niego dla czterech,
+
+10:26.770 --> 10:37.030
+sześciu, a następnie 31 i sześciu 31 i 30, a następnie 31 i dla zdefiniowania widzisz tutaj, jak drugi element tablicy staje się
+
+10:37.180 --> 10:38.040
+niezdefiniowany.
+
+10:38.880 --> 10:51.040
+I aby ominąć tę niezdefiniowaną definicję, która staje się tutaj zdefiniowana i używamy wykrzyknika w javascriptu, aby uczynić
+
+10:51.040 --> 10:54.610
+z tego prawdziwe stwierdzenie.
+
+10:54.610 --> 11:04.670
+Więc zamienia się w to, abyśmy mogli dodać trzydziestu jeden w tablicy jeden do ostatniego slotu tablicy.
+
+11:06.140 --> 11:08.810
+Teraz, jeśli tak było
+
+11:11.780 --> 11:16.420
+i uruchomię, otrzymamy niezdefiniowaną dla pierwszej tablicy.
+
+11:17.490 --> 11:26.480
+Ponieważ jednak robimy drugą kontrolę, która jest tablicą o jeden element mniej niż element
+
+11:26.480 --> 11:36.670
+Array 2, a w naszym przypadku, jeśli mamy zdefiniowane mniej niż 6, co robimy tutaj w tym porównaniu.
+
+11:36.750 --> 11:48.760
+Jeśli uruchomię to i uruchomimy Konsole log to zobaczymy, jaka jest odpowiedź, otrzymam fałsz.
+
+11:48.770 --> 11:57.200
+Chociaż w tym czasie tablica jest niezdefiniowana, ponieważ przeszliśmy przez to, ponieważ to
+
+11:57.200 --> 11:59.330
+stwierdzenie jest fałszywe.
+
+11:59.420 --> 12:09.290
+Przechodzimy do instrukcji else i wypełniamy resztę tablicy 6 i 13 lub 30,
+
+12:09.380 --> 12:19.390
+które pochodzą z tablicy, chciałem wskazać ci to, ponieważ może to być teraz najczystsze rozwiązanie.
+
+12:19.420 --> 12:27.310
+Chodzi mi o to, że patrząc na ten kod, pomyśl tylko o tym, co musiałem wytłumaczyć i wyciągnij, aby w pełni
+
+12:27.820 --> 12:29.480
+zrozumieć, jak to działa.
+
+12:29.530 --> 12:33.930
+Ja i ja zrobiliśmy to z konkretnego powodu podczas wywiadu.
+
+12:33.940 --> 12:40.180
+Jeśli musisz tak szczegółowo wyjaśniać rzeczy i pisać dobrze, być może jest lepszy sposób na
+
+12:40.180 --> 12:41.350
+napisanie tego.
+
+12:43.070 --> 12:49.970
+Ponieważ ankieter będzie się mylić co do tego, co to znaczy, to co to oznacza i nie tak naprawdę czyta
+
+12:49.970 --> 12:52.250
+się tak, jak robi to angielski.
+
+12:52.400 --> 12:57.540
+Idealnie te funkcje są naprawdę fajnie po prostu przeczytać.
+
+12:57.610 --> 13:06.490
+Być może więc mogę wziąć tę część funkcji i przekonwertować ją na swoją własną funkcję i tylko
+
+13:06.550 --> 13:10.640
+ta nazwa powinna wypchnąć pierwszy element tablicy.
+
+13:11.110 --> 13:18.790
+I powinno to być popchnięcie tablicy do elementu i wyodrębnienie tych fragmentów kodu do ich
+
+13:19.030 --> 13:20.170
+własnej funkcji.
+
+13:21.260 --> 13:28.700
+Możesz wyczyścić tę odpowiedź i uczynić ją bardziej czytelną, a ankieterzy to polubią.
+
+13:28.750 --> 13:34.060
+W czasie wywiadu możesz nie mieć czasu, aby to zrobić, ale możesz pozwolić rozmówcy
+
+13:34.060 --> 13:40.510
+dowiedzieć się, jak napisałeś rozwiązanie, i rozumiesz, że to prawdopodobnie nie jest najbardziej czytelne rozwiązanie i to
+
+13:40.510 --> 13:42.960
+właśnie zrobiłbyś, żeby to wyczyścić.
+
+13:42.970 --> 13:47.590
+Nie musisz go kodować tak długo, jak im to mówisz, i rozumiesz, w jaki sposób
+
+13:47.590 --> 13:48.600
+możesz poprawić sytuację.
+
+13:48.890 --> 13:54.830
+To, że w oczach ankietera jest tak samo dobre, jak kodowanie w ten sposób.
+
+13:54.910 --> 13:57.220
+Wygląda na to, że wszystko działa.
+
+13:57.220 --> 14:06.340
+Jeśli zrobię pustą tablicę, zobaczę, że wciąż działa, nasza odpowiedź wygląda dobrze.
+
+14:07.600 --> 14:09.000
+Mam nadzieję, że dotarłeś tak daleko.
+
+14:09.040 --> 14:11.330
+Do zobaczenia w następnym wideo.

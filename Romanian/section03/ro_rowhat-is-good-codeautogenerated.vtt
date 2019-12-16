@@ -1,0 +1,247 @@
+WEBVTT
+
+00:01.230 --> 00:06.800
+Există două lucruri principale despre care vorbim atunci când spunem că este un cod bun.
+
+00:07.050 --> 00:10.890
+Dar înainte de a vă arăta ce credeți că este un cod bun.
+
+00:10.950 --> 00:11.870
+Gandeste-te la asta.
+
+00:11.940 --> 00:15.700
+Ce-ai spune cineva dacă îi rogi să scrie un cod bun.
+
+00:16.520 --> 00:24.180
+În regulă, vă voi da răspunsul pe care îl vedeți că un cod bun poate fi descris în două lucruri sau două puncte.
+
+00:24.410 --> 00:31.700
+Una este citirea este codul dvs., în general, curat.
+
+00:31.700 --> 00:33.850
+Poate alții să vă înțeleagă codul.
+
+00:34.160 --> 00:37.580
+Și apoi avem cod scalabil.
+
+00:37.760 --> 00:38.800
+Ce inseamna asta.
+
+00:39.140 --> 00:49.930
+Ei bine, notația Big-O este ceea ce ne permite să măsuram această idee de cod scalabil care poate scala ceva la care vom intra și
+
+00:49.930 --> 00:55.280
+veți deveni mai familiarizați cu ceea ce trece prin această secțiune.
+
+00:55.480 --> 01:00.550
+Vom vorbi, de asemenea, despre codul lizibil pe parcursul întregului curs, dar îl vom
+
+01:00.550 --> 01:03.090
+atinge puțin mai mult în secțiunea următoare.
+
+01:03.220 --> 01:09.240
+Dar pentru moment, deoarece aceasta este secțiunea O mare, ne concentrăm asupra acestei idei de cod scalabil.
+
+01:09.520 --> 01:12.510
+Ok ce înseamnă asta cu adevărat.
+
+01:12.940 --> 01:17.600
+Ei bine, vreau să vă imaginați că avem o sarcină în care vrem să coacem un tort.
+
+01:18.010 --> 01:27.030
+Avem o rețetă aici și această rețetă pe care o vom folosi în bucătăria noastră pentru a coace un tort.
+
+01:27.250 --> 01:31.040
+Și există o modalitate bună de a coace un tort și o cale rea.
+
+01:31.080 --> 01:32.640
+Dreapta.
+
+01:32.700 --> 01:34.450
+Îi oferim instrucțiunile.
+
+01:34.470 --> 01:35.690
+Aceasta este reteta lor.
+
+01:35.880 --> 01:43.710
+Și sperăm că această rețetă și instrucțiuni funcționează bine cu bucătăria noastră, astfel încât să putem coace rapid un tort și
+
+01:44.400 --> 01:46.370
+un tort bun la asta.
+
+01:46.680 --> 01:49.300
+Calculatoarele de bine sunt mașini.
+
+01:50.020 --> 01:54.180
+Și aceste mașini trebuie să funcționeze pentru a produce ceva pentru noi.
+
+01:54.370 --> 02:01.490
+Și computerele funcționează în același mod în care avem instrucțiunile pe care le oferim prin cod
+
+02:01.510 --> 02:08.020
+și aceste instrucțiuni pe care le oferim mașinilor noastre computerele noastre dau aceste instrucțiuni
+
+02:08.170 --> 02:13.660
+care ne oferă o ieșire, de exemplu, pentru a activa lumina.
+
+02:13.660 --> 02:18.600
+Instrucționăm calculatorul să spună că pornește lumina în camera noastră.
+
+02:18.880 --> 02:24.730
+Un coder este cineva care oferă aceste instrucțiuni la fel cum există multe modalități de a lua
+
+02:24.730 --> 02:31.930
+un tort într-o bucătărie sau la fel ca multe metode de a coace un tort în bucătărie cu multe ingrediente și
+
+02:31.930 --> 02:33.060
+instrucțiuni de rețete.
+
+02:33.070 --> 02:36.780
+Există multe modalități de a rezolva o problemă prin cod.
+
+02:37.000 --> 02:40.690
+Sunt modalități eficiente și ineficiente de a da instrucțiuni.
+
+02:40.720 --> 02:42.950
+Deci, hai să mergem la un exemplu de codificare.
+
+02:43.090 --> 02:49.540
+Am de gând să folosesc REPL thudded și dacă nu sunteți familiarizați cu acest Asigurați-vă că ați verificat video pe care
+
+02:49.540 --> 02:54.930
+l-am enumerate mai jos aici, care explică modul în care puteți rula codul dvs. în acest curs.
+
+02:54.990 --> 03:02.680
+Vrei să te autentifici și deja am instalat mediul javascript aici.
+
+03:03.890 --> 03:07.020
+Și prefer să am tema întunecată.
+
+03:07.030 --> 03:08.840
+Cred că arată mai bine în ochii tăi.
+
+03:09.590 --> 03:16.090
+Pentru voi cel puțin sper că nu vă deranjează întunericul, dar cum pot demonstra această idee de cod.
+
+03:16.960 --> 03:18.660
+Să facem ceva distractiv aici.
+
+03:18.910 --> 03:23.520
+Folosind javascript o să spun Konst nimo.
+
+03:23.760 --> 03:36.890
+Avem o matrice care conține șirul Nimo și vrem să creăm o funcție care se numește Find Nimo și
+
+03:36.890 --> 03:46.960
+această funcție va primi o matrice și va fi o funcție foarte simplă.
+
+03:47.010 --> 03:52.890
+Vom crea o buclă pe care o veți vedea în majoritatea limbilor în javascript.
+
+03:52.890 --> 04:01.290
+Putem face acest lucru cu ușurință prin a spune 4 și va da să fie egal cu zero.
+
+04:01.870 --> 04:11.890
+Și atâta timp cât eu sunt mai mici decât terenul de tip matrice care este lungimea matricei noastre și
+
+04:11.890 --> 04:15.230
+apoi vom crește cu fiecare dată.
+
+04:16.810 --> 04:22.750
+Din nou, acest lucru nu este un curs de javascript, așa că, sperăm că acest
+
+04:22.750 --> 04:33.360
+lucru vă este familiar cu orice fel de buclă pe care doriți în limba dvs. și pur și simplu vom spune că dacă array este egal cu nimo.
+
+04:33.470 --> 04:42.370
+Deci, dacă găsim Nemo, o să consolezi logoul Daut găsit Nemo.
+
+04:42.810 --> 04:43.570
+Suntem foarte entuziasmați.
+
+04:43.620 --> 04:45.850
+Distracţie.
+
+04:45.850 --> 04:46.500
+In regula.
+
+04:46.690 --> 04:47.560
+Asta e.
+
+04:47.600 --> 04:56.420
+Și dacă eu pur și simplu rula funcția acum găsiți Nemo și vom da doar NIMA de aici și asigurați-vă
+
+04:57.780 --> 05:03.940
+că le speth lenth în mod corespunzător și faceți clic pe alerga aici.
+
+05:05.370 --> 05:10.690
+Am descoperit că Nimo pe banda dreaptă face acest lucru un pic mai mare pentru a putea vedea.
+
+05:10.730 --> 05:13.150
+Așa că l-am găsit pe Nemo.
+
+05:13.280 --> 05:15.830
+Aceasta este instrucțiunea pe care am dat-o calculatorului.
+
+05:16.130 --> 05:22.190
+I-am spus că avem o matrice și avem o funcție pe care o dorim să o realizăm
+
+05:22.210 --> 05:25.950
+numită Nemo care are o matrice care este nimo.
+
+05:26.130 --> 05:29.600
+Va primi această matrice.
+
+05:29.800 --> 05:32.030
+Apoi va trece peste matrice.
+
+05:32.560 --> 05:35.420
+Vom spune că mă voi egaliza cu zero.
+
+05:35.860 --> 05:45.110
+Și pentru că eu sunt zero acum și lungimea matricei Nimo este cea pe care o vom trece prin bucla.
+
+05:45.370 --> 05:51.580
+Vom verifica dacă indicele matricei de 0 care este Nimo aici.
+
+05:51.580 --> 05:56.080
+Deci, asta se va transforma în nimo.
+
+05:56.350 --> 06:02.350
+Și pentru că este adevărat, vom merge la con. jurnal găsit nimo.
+
+06:02.380 --> 06:05.110
+De ce ți-am arătat exemplul ăsta.
+
+06:05.140 --> 06:12.910
+Permiteți-mi să-l aduc înapoi așa cum am fost eu v-am arătat acest exemplu, deoarece aceasta este o instrucțiune pe care
+
+06:13.510 --> 06:17.120
+o oferim calculatorului nostru de a găsi nimo.
+
+06:17.260 --> 06:20.020
+Vedeți că numim acest timp de execuție.
+
+06:20.020 --> 06:26.200
+Cât timp durează să executați o anumită problemă printr-o funcție sau o sarcină.
+
+06:26.260 --> 06:30.820
+Cum putem măsura mare O Oh bine ceva de genul asta.
+
+06:30.880 --> 06:33.300
+Sau eficiența acestui cod.
+
+06:34.970 --> 06:37.740
+În următoarea înregistrare vom ajunge puțin mai adânc.
+
+06:37.770 --> 06:43.230
+Vom încerca să măsuram performanța acestui cod și să vedem ce se întâmplă atunci când matricea devine
+
+06:43.320 --> 06:44.590
+tot mai mare.
+
+06:45.440 --> 06:52.250
+Și vom lega lucrurile împreună cu privire la ceea ce înseamnă scalabil și cât de mare O
+
+06:52.390 --> 06:56.180
+ne permite să măsuram scalabilitatea, vezi în următorul videoclip.

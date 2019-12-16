@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.210 --> 00:02.510
+Moly suci.
+
+00:02.520 --> 00:04.340
+Bagian lain selesai.
+
+00:04.390 --> 00:11.410
+Dan kami semakin mendekati akhir di bagian ini sehingga kami mempelajari tentang penelusuran dan penelusuran
+
+00:11.410 --> 00:19.690
+beberapa algoritme paling populer dan penting yang kami pelajari tentang pencarian linier dan bagaimana itu bisa baik untuk
+
+00:19.690 --> 00:25.490
+beberapa kasus tetapi tidak yang paling efisien karena memiliki linier waktu.
+
+00:25.650 --> 00:34.350
+Dan kami juga berbicara tentang pencarian biner di mana kami dapat mencari hal-hal di log dari dasarnya
+
+00:34.350 --> 00:41.270
+melompati banyak node yang kita perlu mencari dengan membagi pohon menjadi dua.
+
+00:41.280 --> 00:47.890
+Kami kemudian berbicara tentang cara melintasi pohon dan grafik untuk mengunjungi setiap not.
+
+00:48.540 --> 00:55.020
+Dan cara yang paling efisien mungkin kita berbicara tentang pencarian pertama mendalam yang masuk
+
+00:55.020 --> 01:04.900
+sedalam mungkin ke dalam pohon atau grafik dan napas untuk pencarian yang berjalan tingkat demi tingkat pencarian atau melintasi pohon atau grafik
+
+01:08.000 --> 01:14.780
+dan apakah Anda menyadarinya atau tidak kita Anda telah menyelesaikan banyak peta pikiran ini yang
+
+01:15.290 --> 01:18.950
+tampak sangat menakutkan di awal kursus ini.
+
+01:18.980 --> 01:29.100
+Sekarang ketika kita melihat perlombaan misalnya kita mengerti bahwa ketika array kita perlu mencari melalui array kita
+
+01:29.100 --> 01:35.900
+dapat mengajukan pertanyaan hei apakah itu diurutkan karena jika ya maka
+
+01:36.000 --> 01:42.990
+Dalam hal ini kita harus membagi dan menaklukkan dan mengatur array itu dalam struktur data
+
+01:42.990 --> 01:51.040
+seperti pohon sehingga kita bisa melakukan pencarian biner dan mendapatkan peningkatan kecepatan semua log dan array tidak diurutkan.
+
+01:51.150 --> 02:00.420
+Ya tidak maka sebenarnya lebih efisien untuk mengurutkan array meskipun dibutuhkan semua dan masuk seperti yang kita tahu
+
+02:00.420 --> 02:09.310
+di sini dan kemudian melakukan pencarian biner setelah kita diurutkan dan ada banyak program melakukan itu.
+
+02:10.170 --> 02:17.250
+Meskipun sepertinya memakan waktu untuk melakukan penyortiran dan kemudian mencari itu sebenarnya lebih cepat daripada
+
+02:17.250 --> 02:20.600
+mungkin melakukan pencarian linier berulang kali.
+
+02:20.690 --> 02:27.870
+Kita juga dapat menyelesaikan bagian grafik ini di mana kita sampai pada grafik dan pohon.
+
+02:27.870 --> 02:34.500
+Ketika kita melakukan traversal, cobalah dan kunjungi sebuah simpul di pohon atau grafik atau semua simpul di pohon
+
+02:34.500 --> 02:35.850
+di atas grafik.
+
+02:35.930 --> 02:40.640
+Kita tahu bahwa itu akan mengambil alih dan kita harus mengunjungi setiap simpul.
+
+02:40.660 --> 02:49.970
+Ini akan menjadi waktu linear tetapi ada cara untuk melintasi pohon-pohon ini menggunakan pencarian pertama napas dan pencarian
+
+02:49.970 --> 02:57.490
+pertama mendalam dan kami belajar bahwa pencarian pertama napas sangat bagus untuk jalur terpendek.
+
+02:57.900 --> 03:05.350
+Algoritma sementara pencarian pertama mendalam benar-benar hebat dalam memecahkan masalah Maiz atau mungkin menemukan jika sebuah
+
+03:05.350 --> 03:06.850
+simpul bahkan ada.
+
+03:07.890 --> 03:15.050
+Dan kematian untuk pencarian memungkinkan kita untuk melakukan pengurutan pos dan preorder.
+
+03:15.190 --> 03:23.400
+Dan kami bahkan membuat kodenya sendiri dan kami belajar bagaimana kodenya bekerja menggunakan rekursi dengan pencarian pertama yang
+
+03:23.430 --> 03:24.040
+mendalam.
+
+03:24.190 --> 03:33.720
+Dan juga dengan pencarian pertama Brett menggunakan iteratif dan rekursif menggunakan struktur data utama.
+
+03:33.740 --> 03:40.760
+Akhirnya kami juga belajar sedikit tentang masalah jalur terpendek seperti Google Maps yang akan digunakan ketika ada
+
+03:40.760 --> 03:47.630
+menunggu antara node dalam grafik di mana kita dapat menggunakan sesuatu seperti Belman Ford atau
+
+03:47.660 --> 03:50.000
+algoritma diaster untuk menyelesaikan masalah.
+
+03:51.230 --> 03:52.380
+Selamat.
+
+03:52.530 --> 04:03.340
+Ini adalah peta pikiran Anda dan Anda telah membahas setiap hal di peta ini dengan pengecualian satu dan ini
+
+04:03.340 --> 04:05.420
+tepat di sini.
+
+04:05.470 --> 04:07.080
+Pemrograman Dinamis.
+
+04:07.570 --> 04:14.610
+Ini adalah bagian singkat untuk melengkapi peta pikiran keseluruhan kami dan membuat Anda siap untuk wawancara.
+
+04:14.690 --> 04:16.490
+Jadi, sampai jumpa di bagian selanjutnya.
+
+04:16.490 --> 04:17.270
+Selamat.
+
+04:17.270 --> 04:18.300
+Sampai sejauh ini.
+
+04:18.380 --> 04:19.460
+Kamu hampir sampai.

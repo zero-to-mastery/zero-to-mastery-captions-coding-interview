@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.560 --> 00:05.780
+Bentornato, sei riuscito a implementare Prebend.
+
+00:06.080 --> 00:08.500
+Diamo un'occhiata a come dovrebbe apparire il codice.
+
+00:09.270 --> 00:17.620
+La prima cosa che facciamo come abbiamo fatto con una penna è creare la nota che aggiungeremo.
+
+00:17.910 --> 00:23.460
+Quindi dirò il nuovo valore del nodo e il prossimo.
+
+00:23.490 --> 00:30.690
+Ora l'anno prossimo me ne andrò come no e ti mostrerò il motivo per cui nel prossimo video è il caso
+
+00:30.690 --> 00:33.930
+e non ci limiteremo ad avere un uguale futuro.
+
+00:33.930 --> 00:44.400
+Dodd ha dovuto fare riferimento al primo elemento della nostra lista che è 10, ma per ora fidati di me che questo non vogliamo lasciarci,
+
+00:45.060 --> 00:47.490
+perché possiamo farlo in seguito.
+
+00:47.490 --> 00:52.000
+In questo momento stiamo solo creando un nodo vuoto con il valore.
+
+00:52.270 --> 01:04.750
+Quindi vogliamo dire che il nostro nuovo nodo punto successivo, che è questo valore qui sopra, equivarrà
+
+01:04.960 --> 01:07.590
+a questo Dot.
+
+01:07.910 --> 01:14.040
+Quindi abbiamo appena creato un puntatore che dice che il nuovo no che abbiamo appena
+
+01:14.310 --> 01:19.360
+creato indicherà a questo dio capo il primo elemento della nostra lista.
+
+01:19.360 --> 01:19.640
+OK.
+
+01:19.660 --> 01:20.950
+Questo non dovrebbe avere senso.
+
+01:21.310 --> 01:25.780
+E poi ovviamente, proprio come abbiamo fatto con append, vogliamo aggiornare il riferimento.
+
+01:25.780 --> 01:31.300
+Ora per dire che questa testa di Dodd non è più uguale a questo valore.
+
+01:31.300 --> 01:35.900
+Ora è il nuovo nodo.
+
+01:35.970 --> 01:43.890
+E poi finalmente vogliamo aggiungere questo lenth e assicurarci di aumentare la lunghezza della nostra lista.
+
+01:43.920 --> 01:57.150
+Infine, se restituiamo questa nostra lista collegata, possiamo dire che corri e guarda che abbiamo anteposto uno al
+
+01:57.150 --> 01:59.050
+primo elemento.
+
+01:59.970 --> 02:10.080
+Sulla lista la testa e che ora fa riferimento a 10 e la coda della nostra lista è ora 16.
+
+02:11.150 --> 02:13.900
+Non è stato tanto male è stato nel prossimo video.
+
+02:13.910 --> 02:18.220
+Voglio parlare rapidamente di questo nuovo codice Noad.
+
+02:18.320 --> 02:24.820
+Stiamo ripetendo sia in append e pre-pick e che cosa potremmo voler fare con esso.
+
+02:24.860 --> 02:25.540
+Lo vedrò.

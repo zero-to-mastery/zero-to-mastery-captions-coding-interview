@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.680 --> 00:04.970
+Odprowadź ich z powrotem Mam dla ciebie zabawne małe ćwiczenie.
+
+00:04.970 --> 00:06.390
+A teraz zadajesz sobie pytanie.
+
+00:06.480 --> 00:08.660
+Andrea mówisz, że wszystkie ćwiczenia są zabawne.
+
+00:08.660 --> 00:10.750
+Jesteś wielkim kłamcą.
+
+00:10.750 --> 00:11.300
+W porządku.
+
+00:11.300 --> 00:14.000
+Uczciwy punkt, ale myślę, że ten będzie zabawny.
+
+00:14.000 --> 00:15.100
+Więc trzymaj się mnie.
+
+00:16.020 --> 00:24.390
+Chcę, abyś napisał funkcję faktycznie dwie funkcje, która znajdzie silnię dowolnej liczby.
+
+00:24.470 --> 00:26.030
+Teraz dlaczego dwie funkcje.
+
+00:26.240 --> 00:34.820
+Cóż, jedna funkcja będzie rekursywna, wykorzystując to, czego właśnie dowiedzieliśmy się, gdy musimy stworzyć podstawowy przypadek,
+
+00:34.820 --> 00:37.030
+musimy postępować właściwie.
+
+00:37.100 --> 00:44.030
+Jeśli wrócimy, musimy zidentyfikować przypadek bazowy i przypadek rekursywny, a następnie upewnić się,
+
+00:44.030 --> 00:46.970
+że mamy obrócić oba przypadki.
+
+00:47.110 --> 00:57.670
+Funkcja rekurencyjna zwróci odpowiedź, ale to, co jest silnikiem, jest dobrym sposobem myślenia
+
+00:57.670 --> 00:59.510
+o silni.
+
+00:59.620 --> 01:10.030
+Czy ta notacja to pięciokrotne silniki wykrzykników oznacza po prostu pomnożenie pięć razy cztery razy trzy razy
+
+01:10.150 --> 01:12.280
+dwa razy jeden.
+
+01:12.490 --> 01:18.540
+Powoli zejdziesz jeden po drugim, mnożąc każdą liczbę, aż dojdziesz do 1.
+
+01:18.790 --> 01:27.260
+Zatem sześć silni będzie sześć razy pięć razy cztery razy trzykrotnie dla 10 Amazon i
+
+01:27.260 --> 01:36.770
+zauważysz tutaj, że jest to wzór rekursji, który robimy nazywamy funkcją i mamy dwa przypadki, które mogą się
+
+01:36.770 --> 01:37.630
+zdarzyć.
+
+01:37.670 --> 01:45.440
+Mamy podstawową sprawę do zatrzymania lub rekurencyjnego przypadku, i tak dalej i tak dalej, i
+
+01:45.440 --> 01:48.840
+kontynuujemy działania, dopóki nie osiągniemy 1.
+
+01:48.860 --> 01:52.620
+Dlatego chcę zbudować funkcję, która zrobi to za nas.
+
+01:52.760 --> 01:56.840
+Zamierzam napisać silnię funkcji.
+
+01:56.840 --> 02:01.050
+Włożysz pięć, a to przez to przejdzie.
+
+02:01.490 --> 02:09.190
+Ale pamiętaj, że nasza definicja rekursji rekursji ma miejsce, gdy definiujesz coś w kategoriach samego siebie.
+
+02:09.210 --> 02:19.490
+Dobrym sposobem myślenia o silni jest to, że ta pięcioma silnia jest po prostu pięciokrotnością silni.
+
+02:19.670 --> 02:24.260
+Widzisz tutaj pięć razy cztery silnia to pięciokrotne pięciokrotne
+
+02:27.040 --> 02:34.510
+pięciokrotne czterokrotne trzy silni cztery razy trzy to pięć silni, ponieważ cztery razy silnia
+
+02:34.510 --> 02:42.500
+trzy są równe silni i widzisz tutaj, jak możemy mieć funkcję rekursji, którą możemy napisać przy
+
+02:43.010 --> 02:45.290
+użyciu tej wiedzy.
+
+02:45.290 --> 02:50.110
+Sprawdź, czy możesz utworzyć funkcję, która pozwala to zrobić.
+
+02:50.210 --> 02:54.500
+Teraz, jeśli chodzi o to pytanie, można na to dwa sposoby.
+
+02:54.560 --> 03:00.950
+Możesz wykonać podejście rekursywne, w którym funkcja wywołuje samą siebie lub możesz wykonać
+
+03:01.010 --> 03:09.470
+iteracyjne podejście, które oznacza pętlę, a większość z was prawdopodobnie będzie łatwiej rozwiązać to w ten sposób za
+
+03:09.470 --> 03:11.200
+pomocą pętli for.
+
+03:11.270 --> 03:15.840
+Na przykład zostawię to tobie, aby dowiedzieć się.
+
+03:15.870 --> 03:19.540
+Sprawdź, czy możesz wykonać obie funkcje i sprawdzić, czy podają właściwy numer.
+
+03:20.010 --> 03:23.000
+A w następnym filmie pokażę ci odpowiedź.
+
+03:23.100 --> 03:24.230
+Zobaczę to.
+
+03:24.240 --> 03:24.580
+Powodzenia.

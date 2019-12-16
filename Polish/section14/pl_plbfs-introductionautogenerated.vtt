@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.280 --> 00:02.150
+Witamy spowrotem.
+
+00:02.330 --> 00:09.440
+Spójrzmy na pierwszy z dwóch typów wyszukiwania lub przechodzenia przez drzewo lub wykres.
+
+00:09.530 --> 00:12.800
+To się nazywa pierwsze wyszukiwanie.
+
+00:12.800 --> 00:14.770
+Spróbuj powiedzieć, że pięć razy naprawdę szybko.
+
+00:15.840 --> 00:22.950
+Sposób, w jaki działa pierwsze wyszukiwanie, polega na tym, że zaczynasz od nuty głównej i przechodzisz od lewej do
+
+00:23.010 --> 00:28.630
+prawej na drugim poziomie, a następnie przesuwasz się od lewej do prawej na trzecim poziomie.
+
+00:29.520 --> 00:32.640
+I tak dalej i tak dalej.
+
+00:33.320 --> 00:43.430
+Po prostu kontynuuj przechodzenie od lewej do prawej strony, od prawej do prawej, i kontynuuj, aż znajdziesz
+
+00:43.430 --> 00:52.310
+znanego, którego szukasz, lub drzewo, a przyjrzyjmy się kolejnej wizji pierwszego wyszukiwania działającego w ten
+
+00:52.340 --> 00:53.520
+sposób.
+
+00:53.570 --> 00:57.000
+Idziemy do węzła głównego.
+
+00:57.190 --> 01:02.370
+Następnie drugi poziom - trzeci poziom, a na końcu czwarty - można zobaczyć
+
+01:02.380 --> 01:07.280
+tutaj, jak są numerowane, idąc jeden po drugim Jeden po drugim.
+
+01:07.290 --> 01:10.950
+Teraz zakodujemy pierwsze poszukiwania oddechu i zrozumiemy, jak to działa.
+
+01:11.010 --> 01:17.940
+Ale chcę wspomnieć, że pierwsze wyszukiwanie oddechu wykorzystuje dodatkową pamięć, ponieważ konieczne jest śledzenie
+
+01:17.970 --> 01:24.340
+uwag potomnych wszystkich węzłów na danym poziomie podczas wyszukiwania tego poziomu.
+
+01:24.360 --> 01:30.240
+Oznacza to, że musimy śledzić każdy węzeł i jego dzieci, a my porozmawiamy o niektórych z
+
+01:30.240 --> 01:35.760
+tych implikacji, kiedy zakodowujemy oddech dla wyszukiwania, a także spojrzymy na plusy i minusy
+
+01:35.760 --> 01:38.610
+w porównaniu do innego rodzaju, który najpierw.
+
+01:38.820 --> 01:41.470
+Ale przejdźmy do naszego kodu, aby uzyskać szybki przykład.
+
+01:42.920 --> 01:52.160
+Mamy tutaj drzewo, które utworzyliśmy w naszej sekcji struktury danych drzewa binarne drzewo wyszukiwania, które tworzy dla nas drzewo,
+
+01:52.160 --> 02:01.050
+które wygląda jak ten Ninus, a węzeł główny ma cztery i dwadzieścia jeden sześć piętnaście i 170.
+
+02:01.240 --> 02:08.290
+Gdybyśmy zrobili pierwszy krok, to co byś sądził, że zamówienie byłoby, gdybyśmy chcieli
+
+02:08.290 --> 02:13.670
+zamienić to na listę, podczas gdy my odwiedzimy dziewięć.
+
+02:13.770 --> 02:20.880
+Następnie odwiedziliśmy drugi poziom na 20, a następnie odwiedziliśmy trzeci poziom, znowu od lewej do
+
+02:21.030 --> 02:21.720
+prawej.
+
+02:21.780 --> 02:34.860
+Odwiedziliśmy jeden, a następnie 6, a potem 15, a następnie 170, a korzystając z pierwszego wyszukiwania, jesteśmy w stanie stworzyć tę listę.
+
+02:34.870 --> 02:43.550
+Rzućmy okiem na drugi sposób przechodzenia przez drzewo lub wykres i to jest pierwsze wyszukiwanie w głębi.
+
+02:43.660 --> 02:44.150
+Spójrzmy.

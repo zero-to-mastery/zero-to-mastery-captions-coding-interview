@@ -1,0 +1,544 @@
+WEBVTT
+
+00:01.490 --> 00:08.040
+Teraz, gdy wiemy, jak korzystać z tablic, gdzie są szybkie, tam, gdzie jest powolność, dostaniemy
+
+00:08.040 --> 00:15.690
+się do części, która nie jest kluczowa dla wywiadów, ale dobrze jest zrozumieć, jak działają i jak
+
+00:15.690 --> 00:17.010
+zbudować tablicę.
+
+00:17.010 --> 00:22.070
+Najprawdopodobniej w wywiadzie nie zostaniesz poproszony o zbudowanie go od początku.
+
+00:22.410 --> 00:30.690
+Ale chcę zbudować dla was te fundamenty, abyśmy zrozumieli rasę na podstawowym poziomie.
+
+00:31.780 --> 00:35.730
+Więc sami zbudujmy tablicę.
+
+00:35.820 --> 00:41.580
+Teraz w tym filmie użyjemy składni klas w javascript, więc
+
+00:41.580 --> 00:48.750
+stworzymy klasę tablicową, chociaż z javascript i wieloma innymi językami możemy to zrobić i
+
+00:48.930 --> 00:50.270
+stworzyliśmy tablicę.
+
+00:50.280 --> 00:53.120
+Zobaczmy, czy możemy zbudować jeden z naszych.
+
+00:53.490 --> 01:00.210
+Ponieważ, jak dowiesz się, kiedy przechodzimy przez ten kurs, struktury danych są po prostu rzeczami, które możemy
+
+01:00.210 --> 01:01.870
+zbudować od zera.
+
+01:01.890 --> 01:04.140
+Możemy stworzyć dowolną strukturę danych, którą chcemy.
+
+01:04.140 --> 01:07.260
+Możemy stworzyć naszą własną strukturę danych.
+
+01:07.260 --> 01:13.590
+Najbardziej popularne struktury danych są dobrze znane i są już wdrożone w większości języków, ponieważ
+
+01:13.590 --> 01:15.110
+są tak przydatne.
+
+01:15.540 --> 01:23.520
+Ale jesteś w stanie zbudować dowolną strukturę danych od zera i jak się przekonasz, większość struktur
+
+01:23.520 --> 01:27.140
+danych opiera się na innych strukturach danych.
+
+01:27.890 --> 01:33.950
+Teraz, aby rozpocząć, stworzymy tablicę w javascript, ale tylko heads-up.
+
+01:34.100 --> 01:41.690
+JavaScript to trochę interesująca tablica przypadków w javascriptu to tylko obiekty z kluczami opartymi na liczbach całkowitych, które
+
+01:41.750 --> 01:45.740
+działają jak indeksy i właśnie to będziemy budować.
+
+01:45.920 --> 01:49.070
+Różne języki będą miały tę implementację inaczej.
+
+01:49.070 --> 01:56.980
+Ale to, czego się tutaj dowiemy, nadal będzie miało zastosowanie do działania tablic w innych językach.
+
+01:57.050 --> 02:01.310
+Więc zaczniemy od stworzenia klasy.
+
+02:01.330 --> 02:11.530
+Zacznijmy od stworzenia klasy, a my nazwiemy to moją tablicą.
+
+02:11.720 --> 02:19.570
+Wewnątrz tablicy będzie znajdować się konstruktor, który jest początkową funkcją, która zostanie uruchomiona podczas
+
+02:20.110 --> 02:27.130
+tworzenia tego Mirei, a ten konstruktor będzie miał dwa punkty danych.
+
+02:27.220 --> 02:35.830
+Jedną z nich jest własność length, ponieważ dzięki macierzy możemy określić długość tablicy, a początkowa długość
+
+02:36.100 --> 02:38.370
+będzie wynosić zero.
+
+02:38.410 --> 02:45.330
+Tak wiele elementów ma tablica, a wtedy oczywiście będziemy mieć dane w tablicy.
+
+02:45.470 --> 02:48.710
+I to będzie przedmiotem.
+
+02:48.740 --> 02:56.390
+Teraz najbardziej powszechnym działaniem, jakie mamy w tablicy, był dostęp do danych.
+
+02:56.630 --> 03:04.410
+Stwórzmy więc metodę get, a ta metoda pobierania pobierze indeks, aby faktycznie pobrać dane z
+
+03:04.500 --> 03:05.530
+pamięci.
+
+03:05.640 --> 03:16.310
+Powiem tylko, że zwróć te dane z kropek i jeśli to słowo kluczowe jest mylące, upewnij się, że
+
+03:16.430 --> 03:18.640
+umyłeś poprzednie wideo.
+
+03:18.650 --> 03:23.630
+Te dane odnoszą się tylko do tych danych, które utworzyliśmy w konstruktorze.
+
+03:23.840 --> 03:32.270
+A my po prostu zwrócę dane do indeksu, którego wymagamy.
+
+03:32.290 --> 03:35.090
+Zobaczmy, jak to zadziała w działaniu.
+
+03:36.590 --> 03:44.490
+Aby utworzyć nowy Mirei, wystarczy napisać nową tablicę Konst i
+
+03:47.520 --> 03:59.770
+użyjemy nowego słowa kluczowego w javascriptu, aby utworzyć instancję lub utworzyć kopię tej klasy w ten sposób.
+
+03:59.770 --> 04:12.240
+Więc jeśli teraz zrobię okno dialogowe konsoli nowej tablicy i kliknę uruchom, otrzymam tablicę, która ma długość właściwości 0 i
+
+04:12.480 --> 04:15.650
+dane, które są puste.
+
+04:15.770 --> 04:25.010
+Jeśli zrobię nową tablicę dot otrzymam zerowy indeks o wartości zero, otrzymam undefined.
+
+04:25.370 --> 04:36.110
+No cóż, ponieważ w tym obiekcie nie ma niczego, nie mamy pomysłów, a JavaScript automatycznie ma typ
+
+04:36.180 --> 04:39.490
+zdefiniowany, kiedy nic nie ma.
+
+04:39.860 --> 04:46.500
+Dodajmy naszą następną metodę, która jest metodą push, aby dodać coś na końcu tablicy.
+
+04:46.580 --> 04:54.310
+Tak więc zamierzam stworzyć metodę push, a ta metoda przyjmie przedmiot, który mu damy, a
+
+04:54.320 --> 04:58.280
+tutaj po prostu dodamy to do danych.
+
+04:59.110 --> 05:05.750
+Przez obiekt doda go do długości naszego przedmiotu.
+
+05:05.780 --> 05:10.140
+Ponieważ mamy zero pozycji, a długość wynosi 0.
+
+05:10.250 --> 05:12.600
+To doda dane.
+
+05:12.650 --> 05:23.650
+Ten indeks DOD dla danych zerowych i indeks zerowy po prostu teraz będą zawierały przedmiot,
+
+05:23.650 --> 05:37.280
+a ponieważ chcemy dodawać kolejne elementy, jeśli chcemy, powiemy tę kropkę na plusie, ponieważ teraz nasza tablica ma długość
+
+05:37.280 --> 05:40.080
+1 zamiast 0.
+
+05:40.310 --> 05:47.570
+Tak więc następnym razem, gdy uruchomimy metodę push, ten dobdon dłount będzie wynosił 1, a nowy element zostanie
+
+05:47.660 --> 05:49.750
+dodany z indeksem 1.
+
+05:49.920 --> 05:55.210
+A teraz po prostu zwróćmy tę kropkę.
+
+05:56.540 --> 06:02.830
+Ponieważ typowa metoda push w javascript zazwyczaj zwróci długość tablicy.
+
+06:02.840 --> 06:05.220
+Zacznijmy to i zobaczmy, co się stanie.
+
+06:05.240 --> 06:09.600
+Powiem to tutaj.
+
+06:09.610 --> 06:10.000
+Dobrze.
+
+06:10.150 --> 06:16.230
+Będziemy mieli nową tablicę dot push i będziemy naciskać.
+
+06:17.400 --> 06:27.420
+Jeśli uruchomię to, widzę, że mam dane o mojej tablicy 1 dane będą miały właściwość 0 0.
+
+06:27.460 --> 06:28.790
+Cześć miło.
+
+06:28.990 --> 06:38.440
+Co jeśli dodamy inną rzecz, zróbmy nową tablicę dot push, a powiemy, że jeśli to zrobię, to ja mam dwoje z nich.
+
+06:38.440 --> 06:46.640
+Teraz z indeksem 0 dodać wysoki lub indeks 0 ma wysoki indeks jeden masz ciebie.
+
+06:46.660 --> 06:47.630
+Bardzo fajny.
+
+06:48.400 --> 06:49.200
+Co jeszcze możemy zrobić.
+
+06:49.240 --> 06:54.570
+Cóż, dodajmy polecenie pop, aby usunąć ostatni element tablicy.
+
+06:55.500 --> 07:01.100
+Po raz kolejny mamy metodę pop, która niczego nie otrzymuje.
+
+07:01.110 --> 07:02.910
+Nie musimy podawać tego parametru.
+
+07:03.120 --> 07:07.170
+Wszystko, co musimy zrobić, to usunąć ostatni element z tablicy.
+
+07:07.230 --> 07:10.010
+Możemy po prostu mieć zmienną.
+
+07:10.140 --> 07:17.680
+Powiedzmy ostatni element, który chwyta ostatni element w naszym obiekcie danych.
+
+07:17.700 --> 07:26.300
+Tak więc będzie to po prostu ten indeks danych DOD wynoszący jeden po drugim minus jeden element.
+
+07:26.320 --> 07:32.310
+Chcemy indeks jednego, nawet jeśli długość, ponieważ liczymy 0 1.
+
+07:32.560 --> 07:42.730
+Chcemy ostatniego elementu w danych i stąd możemy po prostu użyć słowa kluczowego delete w javascript i
+
+07:42.730 --> 07:49.480
+powiedzieć, że dane kropki w tej kropce dł. -1 minus 1.
+
+07:49.570 --> 07:56.190
+Po prostu usuń ten przedmiot i oczywiście musimy go zmniejszyć.
+
+07:56.320 --> 08:04.310
+Więc po prostu stenografia tutaj i javascript, aby zmniejszyć długość naszych danych o jeden.
+
+08:04.460 --> 08:09.990
+I wreszcie możemy zwrócić przedmiot, który usunęliśmy.
+
+08:10.000 --> 08:17.510
+Więc teraz, jeśli uruchomię inne polecenie, a przy okazji możesz tu zobaczyć, że przegapiłem półkolumn w
+
+08:17.510 --> 08:18.090
+javascript.
+
+08:18.110 --> 08:20.820
+Przez większość czasu możesz uciec, nie dodając średników.
+
+08:20.840 --> 08:24.740
+A niektórzy ludzie w ogóle nie używają średników w javascript.
+
+08:24.740 --> 08:26.270
+Nie przejmuj się tym zbytnio.
+
+08:26.270 --> 08:30.380
+Czasami zapominam i nie jest to naprawdę ważne przynajmniej dla naszych celów.
+
+08:30.560 --> 08:40.750
+Dodajmy nowy element do tablicy, która będzie wykrzyknikiem i zamierzam powiedzieć mój
+
+08:41.170 --> 08:56.120
+lub nowy pop Peridot, jeśli uruchomię to, otrzymuję komunikat o błędzie, ponieważ to powinien być ostatni element tutaj.
+
+08:56.130 --> 08:57.360
+Zróbmy to jeszcze raz.
+
+08:57.550 --> 09:00.580
+I widzimy, że to jesteś wysoki.
+
+09:00.790 --> 09:03.600
+Ponieważ znacznik sumy został usunięty.
+
+09:03.610 --> 09:05.480
+Jeśli znowu będę grał
+
+09:08.380 --> 09:13.620
+pop, to widzę, że mam ducha jednego i tylko wysokiego poziomu pozostającego bardzo fajnym.
+
+09:15.360 --> 09:21.900
+W porządku, dodajmy ostatnią i pokażemy, dlaczego niektóre operacje w wyścigu wynoszą 0.
+
+09:21.990 --> 09:25.750
+Następnie dodamy metodę usuwania, a
+
+09:28.990 --> 09:33.630
+metoda usuwania zajmie indeks, który chcemy usunąć.
+
+09:35.890 --> 09:39.610
+I tutaj będziemy musieli wykonać pozycję kosztową.
+
+09:39.610 --> 09:46.980
+Dlatego zamierzamy utworzyć odniesienie do tego indeksu danych dot, który chcemy usunąć.
+
+09:48.820 --> 09:51.910
+I jak zamierzamy to usunąć.
+
+09:51.910 --> 10:00.340
+Ponieważ pamiętaj w tablicy, będziemy musieli usunąć element, a następnie przesunąć indeks wszystkich
+
+10:00.340 --> 10:10.110
+pozostałych typów danych o jeden, ponieważ chcemy przestrzegać dobrych praktyk kodowania, stosując ideę zasady jednej
+
+10:10.110 --> 10:11.120
+odpowiedzialności.
+
+10:11.130 --> 10:17.820
+Dodajmy do tego funkcję, która wykonuje dla nas przesuwanie danych.
+
+10:17.910 --> 10:27.510
+Mam zamiar stworzyć nową metodę i robimy to w javascript używając tych elementów przesunięcia składni, a
+
+10:27.780 --> 10:33.860
+ta metoda pobierze indeks, który otrzymaliśmy tutaj i usuniemy.
+
+10:33.880 --> 10:42.890
+Teraz te elementy przesunięcia możemy stworzyć tutaj i zapisać tę metodę elementów przesunięcia.
+
+10:43.050 --> 10:49.050
+A tak na marginesie używam słów funkcja i metody zamiennie czasami
+
+10:49.530 --> 10:53.520
+metoda oznacza po prostu funkcję w klasie.
+
+10:53.520 --> 10:59.730
+Tak więc to przesunięcie elementów będzie metodą mojej tablicy.
+
+11:00.600 --> 11:01.790
+Ale jest to funkcja.
+
+11:01.830 --> 11:10.920
+Zatem ta funkcja, która jest metodą Mirei, będzie zawierała parametr indeksu.
+
+11:11.140 --> 11:13.090
+I tu robimy fajne rzeczy.
+
+11:13.150 --> 11:15.770
+Będziemy musieli przeglądać pozycje.
+
+11:15.940 --> 11:23.350
+To jest pętla for, która od razu powinna zadzwonić i powiedzieć, że jest to operacja,
+
+11:23.350 --> 11:30.200
+w której będziemy mieli indeks zerowy, albo ja mam zero zamiast zera.
+
+11:30.200 --> 11:40.130
+Pamiętaj, że chcemy przesuwać elementy nie wszystkie z nich, gdziekolwiek indeks zaczyna się od indeksu.
+
+11:40.470 --> 11:44.720
+A teraz będę musiał być tym Dniem Studenta.
+
+11:45.120 --> 11:50.630
+Więc jestem mniejszy niż ten dwadzieścia minus jeden.
+
+11:50.820 --> 11:57.790
+I będziemy się zwiększać o jeden za każdym razem, gdy przez pętlę w
+
+11:57.790 --> 12:08.660
+tej pętli wszystko, co zamierzamy zrobić, to powiedzieć, że dane kropek nasze dane w każdym indeksie, który przechodzimy, będą równe tym
+
+12:09.630 --> 12:13.420
+kropkom przy I plus jeden .
+
+12:13.860 --> 12:23.610
+To, co akurat się tutaj wydarzyło, dobrze mówimy, że zaczynamy od indeksu, z którego chcemy zacząć usuwać i powtarzać go przez
+
+12:23.790 --> 12:26.520
+całą drogę aż do końca.
+
+12:26.820 --> 12:35.970
+I w ramach tej pętli chcę, abyś wziął każdy przedmiot w danych, które mamy, a zamiast tego, co miałem, zanim
+
+12:36.150 --> 12:41.250
+chciałem dodać dane, które są tuż obok niego na plus 1.
+
+12:41.610 --> 12:45.920
+Więc mieliśmy tablicę, która wynosi zero i 2.
+
+12:46.410 --> 12:57.170
+Mówię z indeksu 0 tutaj, chcę, abyś teraz zamiast tego uczynił 0 równym 2.
+
+12:57.200 --> 12:59.360
+Więc indeks E-plus będzie.
+
+12:59.520 --> 13:07.020
+Przesuwamy rzeczy po lewej o 1.
+
+13:07.200 --> 13:09.220
+Więc przesunęliśmy się tutaj.
+
+13:09.420 --> 13:19.780
+Wszystkie pozycje po lewej stronie i ponieważ zrobiliśmy, że indeks, który daliśmy dla usunięcia, automatycznie
+
+13:19.780 --> 13:25.380
+zostaje zastąpiony, ponieważ oko to zostanie zastąpione.
+
+13:26.520 --> 13:37.240
+Teraz jest problem, ponieważ teraz ostatni element w tablicy, który jest tymi danymi kropkowymi w tej kropce
+
+13:37.330 --> 13:45.100
+dł. -1 minus 1, która jest ostatnim elementem w tablicy, nadal istnieje.
+
+13:45.460 --> 13:54.430
+Przesunęliśmy wszystko o jedną, ale nigdy nie tknęliśmy ostatniej nocy, ponieważ zatrzymaliśmy się, gdy
+
+13:54.760 --> 13:59.280
+jestem mniejszy niż ta długość minus jeden.
+
+13:59.320 --> 14:03.620
+Więc to wciąż jest pełne.
+
+14:03.700 --> 14:09.800
+Zamierzam to skomentować i po prostu pokazać, co się stanie, jeśli po prostu zostawimy to w ten sposób.
+
+14:09.910 --> 14:11.470
+Mam zamiar
+
+14:14.420 --> 14:23.560
+uruchomić nową tablicę kropkową delete i zamierzam usunąć polecenia popu na teraz iw kasie
+
+14:23.590 --> 14:27.540
+powiem, że chcę usunąć element U.
+
+14:27.580 --> 14:32.710
+Więc to jest indeks 1 5 tego.
+
+14:32.920 --> 14:37.200
+Dostaję wysoką, że jesteś usunięty.
+
+14:37.480 --> 14:40.760
+Ale potem mam wykrzyknik o indeksie 1.
+
+14:40.780 --> 14:43.410
+Przesunięcie działa, ale wskaźnik 2.
+
+14:43.420 --> 14:50.670
+Nadal miałem wykrzyknik, ponieważ podczas gdy nigdy go nie usuwaliśmy, wszystko zmienialiśmy, ale nigdy się
+
+14:50.670 --> 14:51.750
+nie dotknęliśmy.
+
+14:51.840 --> 14:52.930
+Indeks dwóch.
+
+14:53.280 --> 15:03.130
+Więc wszystko, co musimy zrobić, aby się go pozbyć, to słowo kluczowe do usunięcia ostatniego przedmiotu i
+
+15:03.340 --> 15:09.330
+oczywiście do udokumentowania naszej długości, ponieważ właśnie usuwamy przedmiot.
+
+15:09.440 --> 15:13.980
+Możemy zrobić to Dodd dł. Minus minus.
+
+15:14.060 --> 15:21.560
+Jeśli teraz to uruchomimy, spójrz na długość dwóch wysokich wykrzykników.
+
+15:21.580 --> 15:25.250
+Zagrajmy w małą rundę, aby upewnić się, że wszystko działa tutaj.
+
+15:25.330 --> 15:31.700
+Jeśli, powiedzmy, dodaję tutaj kilka dodatkowych poleceń wypychania, a my powiemy, że są tutaj.
+
+15:32.250 --> 15:33.740
+Cześć, jesteś.
+
+15:33.850 --> 15:43.460
+A potem powiedzmy, że ładnie, jeśli to zrobię, otrzymam wysoki wykrzyknik.
+
+15:43.530 --> 15:44.310
+To nie ma sensu.
+
+15:44.310 --> 15:45.990
+Zmieńmy to na zero.
+
+15:45.990 --> 15:49.020
+Aby usunąć wysokie.
+
+15:49.020 --> 15:51.720
+Jeśli to zrobię, dopadnę cię.
+
+15:51.720 --> 15:54.950
+Znak wykrzyknika jest miły.
+
+15:55.260 --> 15:56.540
+To nadal nie ma sensu.
+
+15:56.550 --> 16:00.710
+Usuńmy wykrzyknik, abyśmy tylko mieli kilka miłych.
+
+16:00.810 --> 16:03.870
+Mam zamiar uruchomić nową tablicę.
+
+16:04.720 --> 16:09.760
+I możemy usunąć indeks 1, który jest wykrzyknikiem.
+
+16:10.020 --> 16:11.760
+Zobaczmy, co otrzymamy.
+
+16:11.910 --> 16:20.670
+Potem to uruchomię. Rozumiem, że jesteś miły.
+
+16:20.720 --> 16:24.580
+Teraz możesz na to spojrzeć i chcesz dodać własne metody.
+
+16:24.770 --> 16:35.190
+Możesz chcieć powiedzieć tutaj, zwróć ostatni element jako referencję, która działa w JavaScript.
+
+16:36.340 --> 16:43.360
+Ale myślę, że na razie rozumiesz, jak działają tablice i jak są one wdrażane pod
+
+16:43.360 --> 16:44.230
+maską.
+
+16:44.260 --> 16:49.070
+Mamy proste wszystkie 1 polecenia, które są naprawdę fajne.
+
+16:49.180 --> 16:56.670
+Ale skoro tylko musimy zacząć zmieniać indeksy i zmieniać rzeczy, musimy zapętlać rzeczy, które sprawiają,
+
+16:56.790 --> 17:00.930
+że jest to wydarzenie lub czas liniowy.
+
+17:00.980 --> 17:06.860
+Zostawię to dla was jako plac zabaw po tej lekcji, abyście mogli dodawać własne rzeczy,
+
+17:06.870 --> 17:12.050
+może piszecie to w różnych językach i odkrywacie trochę więcej w wyścigu.
+
+17:12.230 --> 17:14.260
+Ale ten film już się wydłuża.
+
+17:14.270 --> 17:17.890
+Nie chcę się teraz zbyt nudzić, więc zobaczę w następnym filmie.
+
+17:17.990 --> 17:18.290
+Buh-Bye.

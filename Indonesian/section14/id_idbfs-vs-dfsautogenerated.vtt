@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.820 --> 00:06.040
+Saya suka memikirkan pencarian nafas pertama sebagai air yang membanjir dari atas.
+
+00:06.160 --> 00:10.120
+Jenis seperti ini di mana kami memeriksa dari atas sampai ke bawah.
+
+00:10.360 --> 00:17.110
+Dan saya suka memikirkan pencarian untuk mencari sebagai garis-garis kecil yang pergi
+
+00:17.110 --> 00:22.200
+satu sedalam mungkin dan kemudian mereka terus ke kanan.
+
+00:22.260 --> 00:26.010
+Tapi apa kelebihannya dibanding yang lain.
+
+00:26.160 --> 00:28.650
+Mereka berdua melakukan hal yang sama traversal.
+
+00:28.650 --> 00:32.120
+Tetapi masing-masing digunakan untuk alasan yang berbeda.
+
+00:32.280 --> 00:38.070
+Dan dalam wawancara Anda akan mendapatkan pertanyaan tentang jenis traversal apa yang harus dilakukan.
+
+00:38.070 --> 00:42.290
+Dan biasanya Anda akan memiliki salah satu dari dua jawaban ini yang harus Anda katakan.
+
+00:42.360 --> 00:46.890
+Jadi kapan Anda harus menggunakan salah satunya dan kami akan menjelajahinya di beberapa video
+
+00:46.890 --> 00:47.550
+berikutnya.
+
+00:47.640 --> 00:53.480
+Tetapi saya ingin memulai dengan pro dan kontra kompleksitas waktu untuk bernafas.
+
+00:53.490 --> 00:56.980
+Pencarian pertama dan pencarian pertama DEP adalah hak yang sama.
+
+00:57.000 --> 00:59.820
+Mereka semua mengunjungi node setidaknya sekali.
+
+00:59.820 --> 01:03.840
+Jadi semuanya ada di atas altar, itu saja.
+
+01:04.050 --> 01:09.750
+Jadi ketika kita mencoba untuk melintasi pohon atau grafik yang kita benar-benar coba lakukan
+
+01:09.750 --> 01:17.110
+adalah berjalan menembus pohon tanpa pernah mengulangi diri kita sendiri dan urutannya adalah hal yang penting ketika datang untuk
+
+01:17.110 --> 01:20.120
+bernafas untuk pencarian dan pencarian mendalam pertama.
+
+01:20.130 --> 01:25.360
+Sekarang mari kita bicara tentang pencarian pertama luasnya dengan pencarian pertama luasnya.
+
+01:25.360 --> 01:33.700
+Ini sangat baik untuk menemukan jalur terpendek antara titik awal dan simpul lain yang dapat dijangkau karena kita selalu memulai dengan
+
+01:33.790 --> 01:41.170
+simpul akar dan kemudian mencari simpul terdekat terlebih dahulu dan kemudian simpul lebih jauh dan kemudian lebih
+
+01:41.290 --> 01:43.060
+jauh dan lebih jauh.
+
+01:43.180 --> 01:48.550
+Dan ini akan menjadi lebih jelas ketika kita berbicara tentang grafik traversal dan kita
+
+01:48.640 --> 01:55.570
+memiliki beberapa video khusus untuk diskusi ini, tetapi satu kelemahan dengan pencarian pertama yang luas adalah membutuhkan
+
+01:55.690 --> 01:59.380
+lebih banyak memori daripada pencarian pertama yang mendalam.
+
+01:59.500 --> 02:03.600
+Sekali lagi sesuatu yang akan kita diskusikan lebih lanjut ketika kita mulai mengkodekannya.
+
+02:04.120 --> 02:11.890
+Tetapi aturan praktis yang baik adalah bahwa jika Anda memiliki informasi tambahan tentang lokasi simpul target dan Anda
+
+02:12.700 --> 02:20.860
+tahu bahwa simpul tersebut kemungkinan berada di tingkat atas pohon, maka pencarian pertama yang lebih luas lebih baik karena
+
+02:20.860 --> 02:24.930
+akan mencari melalui simpul terdekat terlebih dahulu .
+
+02:25.860 --> 02:30.290
+Di sisi lain, pencarian pertama adalah sebaliknya.
+
+02:30.300 --> 02:36.630
+Jika Anda tahu bahwa simpul tersebut kemungkinan berada di tingkat bawah pohon, mungkin kematian per pencarian lebih baik dalam
+
+02:36.810 --> 02:37.700
+kasus itu.
+
+02:39.110 --> 02:42.620
+Dan pencarian kematian pertama benar-benar bagus dalam mengajukan pertanyaan.
+
+02:42.620 --> 02:48.680
+Apakah jalur ada pada kita atau tidak dari sumber, tahu ke catatan target lagi sesuatu yang akan kita bahas
+
+02:48.680 --> 02:50.980
+lebih banyak ketika kita berbicara tentang grafik.
+
+02:51.080 --> 02:58.350
+Keuntungan besar dengan pencarian pertama yang dalam adalah bahwa ia menggunakan lebih sedikit memori daripada pencarian pertama yang luas.
+
+02:58.550 --> 03:04.580
+Kelemahan dengan pencarian pertama yang dalam adalah bahwa itu bisa lambat terutama jika pohon atau grafik benar-benar sangat
+
+03:04.580 --> 03:08.340
+dalam dan itu tidak selalu baik dalam menemukan jalur terpendek.
+
+03:08.540 --> 03:11.430
+Seperti nafas untuk pencarian.
+
+03:11.510 --> 03:17.990
+Sekarang kita punya ide kapan harus menggunakan apa yang saya tahu itu belum 100 persen kita sudah sampai di sana.
+
+03:17.990 --> 03:19.980
+Tapi pertama-tama saya ingin melakukan sedikit latihan.

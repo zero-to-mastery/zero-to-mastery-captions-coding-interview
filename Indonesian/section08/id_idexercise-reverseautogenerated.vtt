@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.480 --> 00:01.270
+Selamat datang kembali.
+
+00:01.590 --> 00:06.420
+Saya memiliki sedikit latihan yang menyenangkan untuk Anda dan saya tahu saya menyebut setiap latihan baik-baik saja.
+
+00:06.570 --> 00:09.810
+Tapi saya pikir ini sangat menyenangkan.
+
+00:10.960 --> 00:20.020
+Sekarang salah satu pertanyaan wawancara paling populer ketika datang ke daftar tertaut adalah membalik
+
+00:20.350 --> 00:22.170
+daftar tertaut.
+
+00:22.190 --> 00:23.290
+Yang saya maksud dengan itu.
+
+00:23.570 --> 00:28.190
+Nah seorang pewawancara akan mengatakan kami memiliki daftar panjang di sini.
+
+00:28.190 --> 00:36.620
+Bagaimana Anda membalikkan daftar ini jika saya memiliki daftar di sini yaitu 10 10 18 18.
+
+00:36.620 --> 00:39.500
+Bagaimana Anda bisa membuat daftar daftar tautan.
+
+00:40.340 --> 00:44.310
+Mulai dari 88 hingga 16 menjadi 10 hingga 1.
+
+00:44.330 --> 00:48.130
+Bagaimana Anda membalikkannya dan balik.
+
+00:48.370 --> 00:55.120
+Dan kita akan menggunakan daftar yang terhubung sendiri untuk latihan ini dan semua yang ingin kita lakukan adalah membuat metode
+
+00:55.120 --> 00:55.700
+baru.
+
+00:56.620 --> 00:58.540
+Itu akan mengatakan terbalik
+
+01:01.330 --> 01:08.060
+dan metode ini di sini harus melakukan beberapa sihir yang akan membalikkan ini untuk kita.
+
+01:08.820 --> 01:15.720
+Ingat kami tidak hanya mencetak array, kami ingin daftar tertaut terbalik yang sekarang memiliki 88 referensi
+
+01:15.720 --> 01:23.870
+16 yang memiliki referensi mengatakan atau menunjuk ke 10 dan 10 menunjuk ke satu dan satu menunjuk ke tidak,
+
+01:23.870 --> 01:26.030
+bagaimana Anda akan melakukan ini.
+
+01:26.030 --> 01:29.830
+Semoga berhasil dengan latihan ini dan sampai jumpa di video solusi.
+
+01:29.830 --> 01:30.300
+Sampai jumpa.

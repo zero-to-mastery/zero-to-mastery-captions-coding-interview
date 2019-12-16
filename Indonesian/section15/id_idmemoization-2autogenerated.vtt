@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.240 --> 00:01.420
+Kami akan menyambut kembali.
+
+00:01.460 --> 00:05.400
+Saya ingin meningkatkan fungsi ini sedikit saja.
+
+00:05.600 --> 00:12.500
+Anda melihat idealnya, kami tidak ingin mengisi cache dalam apa yang kami sebut ruang lingkup global.
+
+00:12.710 --> 00:15.620
+Yaitu hidup di luar fungsi ini.
+
+00:17.020 --> 00:26.710
+Idealnya adalah praktik yang baik untuk memiliki ingatan atau dalam hal ini uang tunai untuk hidup di dalam fungsi ini
+
+00:26.710 --> 00:29.240
+tidak mencemari ruang lingkup global.
+
+00:29.380 --> 00:34.330
+Dan ada banyak cara untuk melakukan ini berdasarkan bahasa dalam javascript yang bisa kita gunakan sesuatu yang
+
+00:34.540 --> 00:35.430
+disebut closure.
+
+00:35.980 --> 00:40.930
+Dan inilah yang akan terlihat dan saya tunjukkan ini kepada Anda karena ketika kita sampai pada pemrograman dinamis
+
+00:40.930 --> 00:42.880
+Anda akan melihat banyak pola ini.
+
+00:43.120 --> 00:47.980
+Untungnya dengan pemrograman dinamis, polanya biasanya selalu sama.
+
+00:47.980 --> 00:52.030
+Jadi, sekali Anda mempelajari ini, itu menjadi lebih mudah dan lebih mudah.
+
+00:52.060 --> 01:01.580
+Jadi cara kita membawa fungsi ini ke dalam adalah membawanya seperti itu.
+
+01:01.690 --> 01:10.220
+Tapi masalahnya sekarang adalah setiap kali kita menjalankan ini, kita belum lama setiap kali karena cache disetel
+
+01:10.370 --> 01:13.410
+ulang setiap kali fungsi dipanggil
+
+01:13.430 --> 01:20.970
+Jadi cache menjadi objek kosong untuk menyiasatinya, kita bisa menggunakan closure di javascript dan kita
+
+01:21.030 --> 01:23.410
+bisa mengembalikan fungsi lain.
+
+01:23.460 --> 01:31.830
+Jadi fungsi yang mengembalikan fungsi nother dan di sini akan melewati parameter dan
+
+01:36.180 --> 01:42.890
+dan kita akan memiliki logika di dalam fungsi ini.
+
+01:43.840 --> 01:45.010
+Itu dia.
+
+01:45.040 --> 01:53.570
+Dan karena sesuatu yang disebut closure, kami dapat mengakses cache ini di dalam fungsi Charles ini.
+
+01:53.590 --> 01:55.720
+Sekarang ini bukan kursus tentang javascript.
+
+01:55.720 --> 02:02.670
+Jadi Anda bisa membaca sendiri pada penutupan sendiri tetapi ini hanya cara bagi kami untuk menghindari ruang lingkup
+
+02:02.680 --> 02:06.620
+global sehingga kali ini kami dapat melakukan sesuatu seperti ini.
+
+02:06.700 --> 02:18.260
+Kami tidak bisa hanya mengatakan biaya minimal sama dengan hafal 80 dan kami akan menjalankan fungsi ini.
+
+02:19.060 --> 02:25.660
+Dan kita bahkan dapat menghapus parameter dari sini sehingga kita memiliki fleksibilitas.
+
+02:25.690 --> 02:34.490
+Mari saya tunjukkan bahwa kita memiliki tahun memoirists yang mudah-mudahan saya kira Bell hafal sehingga sekarang fungsi
+
+02:34.490 --> 02:43.030
+ini karena saya berlari itu akan mengembalikan untuk saya fungsi ini dihafal sama dengan fungsi ini.
+
+02:43.310 --> 02:45.180
+Itulah yang hafal.
+
+02:45.200 --> 02:54.540
+Tambahkan ke 80 pengembalian dan saya memiliki akses ke variabel cache ini sehingga di sini saya hanya
+
+02:55.440 --> 02:59.910
+bisa mengatakan 5 menghafal dan enam hafal.
+
+03:00.070 --> 03:11.600
+Jika saya berlari saya masih mendapatkan hal yang sama tetapi jika saya lakukan 5 dan 5 dan saya telah berlari seperti itu hafal.
+
+03:12.000 --> 03:18.000
+Fungsi ini mengingat bahwa parameter tidak berubah.
+
+03:18.060 --> 03:23.880
+Ini parameter yang sama dan akan memeriksa cache dan mengatakan saya tidak perlu melakukan semua perhitungan konyol
+
+03:23.880 --> 03:24.590
+itu.
+
+03:24.600 --> 03:25.540
+Saya sudah memilikinya.
+
+03:25.560 --> 03:27.730
+Di sini Anda pergi hanya menggunakan tabel hash.
+
+03:27.870 --> 03:29.230
+Ini dia.
+
+03:29.340 --> 03:38.430
+Dan sementara kami baru belajar di sini sangat kuat karena memungkinkan kami untuk menjadi sangat efisien dengan
+
+03:38.430 --> 03:47.400
+kode kami sesuatu yang kami tahu pewawancara mencintai perusahaan dan pemrograman dinamis memungkinkan kami untuk menggunakan apa
+
+03:47.400 --> 03:53.160
+yang kami ketahui sekarang tentang memoisasi untuk mengoptimalkan kode kami.
+
+03:53.190 --> 03:55.320
+Mari cari tahu lebih lanjut di video berikutnya.

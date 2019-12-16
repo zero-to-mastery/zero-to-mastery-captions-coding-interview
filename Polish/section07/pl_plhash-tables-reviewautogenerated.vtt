@@ -1,0 +1,190 @@
+WEBVTT
+
+00:01.800 --> 00:10.500
+Kolejne tabele mieszania danych w dół powinny być absolutnie miłe, ponieważ są bardzo przydatne,
+
+00:10.500 --> 00:13.510
+ponieważ są używane wszędzie.
+
+00:13.680 --> 00:21.940
+Zabawne jest to, że jest to prawdopodobnie najczęstsze pytanie do wywiadu, w którym
+
+00:22.180 --> 00:30.790
+używasz tabeli mieszania, aby zoptymalizować coś, co zobaczyliśmy w naszym wywiadzie, używając tablic skrótów,
+
+00:30.790 --> 00:39.420
+które optymalizujemy te zagnieżdżone pętle, które są wszystkie, gdy podniesione do kwadratu w liniowej czas.
+
+00:39.420 --> 00:45.420
+Jest to pytanie, które pojawia się na nowo, że obiecuję ci, jeśli zauważymy ten wzorzec,
+
+00:45.540 --> 00:52.050
+który będzie bardzo przydatny dla ciebie w wywiadzie i Bez wątpienia będziesz miał instancję, w której
+
+00:52.050 --> 00:57.190
+musisz go użyć i wykonać ten sam krok w w tej sekcji.
+
+00:57.210 --> 01:04.830
+Dowiedzieliśmy się, że tabele hash mają naprawdę szybkie blokady, ale pamiętajmy, że potrzebujemy dobrej rozdzielczości
+
+01:04.830 --> 01:11.640
+kolizji. Zwykle nie musimy się tym martwić, ponieważ nasz język w komputerze pod
+
+01:11.670 --> 01:13.830
+maską zadba o to.
+
+01:13.830 --> 01:22.020
+Pozwala nam to wykonywać szybkie odpowiedzi iw zależności od typu tablic asocjacyjnych, takich jak
+
+01:22.290 --> 01:31.840
+mapy w javascriptu, możemy mieć elastyczne klucze zamiast tablicy zawierającej 0 1 2 3 tylko ponumerowanych indeksów.
+
+01:31.850 --> 01:35.950
+Wadą tabel mieszających jest to, że jest to zamówienie.
+
+01:35.990 --> 01:39.440
+Trudno naprawdę przejść przez wszystko w porządku.
+
+01:39.440 --> 01:42.560
+A także ma powolną iterację klucza.
+
+01:42.590 --> 01:49.550
+To znaczy, jeśli chcę pobrać wszystkie klucze z tabeli mieszającej, będę musiał przejść przez
+
+01:49.880 --> 01:58.300
+całą pamięć, jak widzieliśmy, kiedy zbudowaliśmy własny stół mieszający, patrząc na duży OTTF, który możemy zobaczyć, że tabele
+
+01:58.300 --> 02:05.420
+hash mają wstawienie wyszukiwania usunięcie jednego, ale w najgorszym przypadku z powodu kolizji jest kilka.
+
+02:05.470 --> 02:09.200
+Wszystkie operacje, które mogą się zdarzyć.
+
+02:09.420 --> 02:16.550
+A jeśli przejdziemy do naszej mapy myśli, możemy teraz wykreślić tabele mieszania z naszej listy.
+
+02:16.700 --> 02:19.920
+Rozumiemy złożoność big-O.
+
+02:20.010 --> 02:26.550
+Rozumiemy także, że w przypadku kolizji możemy chcieć użyć czegoś takiego jak listy połączone, o których będziemy
+
+02:26.550 --> 02:29.390
+mówić bardzo krótko w naszym ćwiczeniu.
+
+02:29.400 --> 02:32.190
+Po prostu użyliśmy tablic.
+
+02:32.230 --> 02:40.480
+Dowiedzieliśmy się również, że tabele mieszania w wywiadach są zwykle przydatne do poprawy złożoności
+
+02:40.840 --> 02:43.620
+czasowej, zwłaszcza pętli zagnieżdżonych.
+
+02:43.650 --> 02:54.780
+Kompromitacja polega na tym, że możemy mieć szybki dostęp, ale więcej pamięci powraca do naszego pytania, które mieliśmy kilka lekcji temu, gdzie
+
+02:55.530 --> 03:03.440
+musieliśmy znaleźć wspólny element dwóch tablic, które mieliśmy tablicę pierwszą i tablicę drugą i musieliśmy
+
+03:04.050 --> 03:08.930
+sprawdzić, czy któryś z te tablice zawierają podobne elementy.
+
+03:09.000 --> 03:10.360
+Mieliśmy taki, który nie.
+
+03:10.650 --> 03:17.570
+Druga wersja, w której x i x zawierają X, zwróci true.
+
+03:17.760 --> 03:25.320
+W pierwszej iteracji tego ćwiczenia musieliśmy użyć 2 dla pętli, które zostały zagnieżdżone.
+
+03:25.470 --> 03:38.210
+W ten sposób stworzyliśmy czasy złożoności, jednak używając map skrótów, byliśmy w stanie zrobić tylko jedną pętlę i
+
+03:38.840 --> 03:41.780
+zoptymalizować tę funkcję.
+
+03:41.880 --> 03:49.590
+Tak jak powiedziałem wcześniej, jest to tak powszechny wzorzec, że będziemy o tym rozmawiać także później.
+
+03:49.590 --> 03:57.200
+Kiedy mówimy o programowaniu dynamicznym, jeśli wrócimy do naszego arkusza oszukiwania, który udostępniłem wam na początku tego
+
+03:57.200 --> 04:02.510
+kursu, możemy teraz wykreślić kilka rzeczy z listy, o których nie mówiliśmy
+
+04:03.440 --> 04:05.950
+na liście kontrolnej dobrego kodu.
+
+04:06.440 --> 04:15.040
+Rozmawialiśmy o dobrym wykorzystaniu struktur danych, gdy używamy tablic hashowych na temat wyścigu - idea ponownego użycia
+
+04:15.040 --> 04:21.430
+kodu i nie powtarzania się jest czymś, co obserwowaliśmy i powinno być nam
+
+04:21.430 --> 04:22.210
+znane.
+
+04:23.350 --> 04:29.530
+Rozmawialiśmy również o kodzie modułowym i nadawaniu kodu w bardziej czytelny sposób, dzięki czemu kod jest łatwiejszy w
+
+04:29.530 --> 04:30.770
+utrzymaniu i testowalny.
+
+04:30.790 --> 04:39.730
+Rozmawialiśmy o tym, jak zwykle w wywiadzie chcemy uniknąć pokazu i kwadratu operacji i widzieliśmy, że jesteśmy w
+
+04:39.730 --> 04:41.810
+stanie to zrobić
+
+04:44.610 --> 04:53.250
+z tabelami mieszającymi, ale widzieliśmy, że przy stole mieszającym musieliśmy zwiększyć naszą złożoność przestrzeni dla wszystkich .
+
+04:53.250 --> 04:59.850
+A ponieważ stworzyliśmy tę nową zmienną, która śledzi wszystkie elementy w tablicy.
+
+05:00.090 --> 05:01.480
+To jest kompromis.
+
+05:03.210 --> 05:09.030
+A następnie możemy wykreślić kilka heurystyk dla tych, którzy nie wiedzą Z pewnością
+
+05:09.420 --> 05:17.430
+błędy są jak zasady lub proste sztuczki, które będą pojawiać się w kółko, że możesz użyć w wywiadu
+
+05:17.430 --> 05:23.180
+tablicy hash lub tabel hash zwykle odpowiedź na poprawę złożoności czasu.
+
+05:23.470 --> 05:28.080
+Znów tabele mieszające to jedne z najlepszych sposobów na zoptymalizowanie kodu.
+
+05:28.990 --> 05:35.230
+Patrzenie na kompromis czasowy i przestrzenny czasami przechowywanie dodatkowego stanu i pamięci, podobnie jak w tabelach mieszających,
+
+05:35.230 --> 05:38.440
+może pomóc w czasie lub w czasie wykonywania.
+
+05:39.260 --> 05:41.750
+I wreszcie kompromisy między czasoprzestrzenią.
+
+05:41.750 --> 05:43.770
+Tabele skrótu zazwyczaj rozwiązują to.
+
+05:43.820 --> 05:52.290
+Dużo czasu zajmuje więcej miejsca, ale możesz uzyskać optymalizację czasu procesu.
+
+05:52.300 --> 05:58.930
+Wiem, że rozmawialiśmy tylko o dwóch strukturach danych, ale uważam, że te dwa są najważniejszym
+
+05:58.930 --> 06:02.400
+krokiem naprzód, używamy ich do poznawania innych.
+
+06:02.440 --> 06:03.790
+Dobra robota do tej pory.
+
+06:03.790 --> 06:08.300
+Zrób miłą przerwę na kawę i zobaczę cię w następnym wideo.
+
+06:08.450 --> 06:08.690
+Buh-Bye.

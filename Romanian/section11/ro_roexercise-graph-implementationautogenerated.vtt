@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.720 --> 00:01.600
+Bine ai revenit.
+
+00:01.770 --> 00:08.110
+Este timpul să creați propriul grafic și am creat șablonul aici pentru dvs.
+
+00:08.130 --> 00:14.220
+De asemenea, puteți crea propriul dvs. dacă doriți, dar am inclus numai lucruri care vă permit să vă concentrați asupra
+
+00:14.220 --> 00:14.870
+părții critice.
+
+00:15.270 --> 00:19.670
+Avem o clasă de grafice și câteva metode pe care trebuie să le adăugăm.
+
+00:19.740 --> 00:31.230
+Acum vom recrea un grafic chiar aici, pe un graf neimandat direcționat ca acesta utilizând lista de adjacitate, iar
+
+00:31.470 --> 00:37.560
+pentru lista de adjacitate vom folosi o tabelă hash.
+
+00:37.560 --> 00:40.380
+Deci, cum vom face asta?
+
+00:40.410 --> 00:44.080
+Am câteva lucruri pe care le-am pregătit pentru tine.
+
+00:44.890 --> 00:50.980
+Unul este că în constructor avem pur și simplu un număr de note că va trebui să creștem doar pentru a
+
+00:50.980 --> 00:56.330
+urmări cât de multe note sau vârfuri sau Virts vede pe care le avem în graficul nostru.
+
+00:57.440 --> 01:03.260
+Și, de asemenea, am creat lista adiacentă pentru dvs., care este un obiect.
+
+01:03.440 --> 01:10.220
+Și, pe măsură ce faceți acest exercițiu, veți realiza de ce vrem să folosim să spunem un
+
+01:10.220 --> 01:17.600
+obiect versus un tablou, deoarece dacă începem să scoatem lucrurile din grafic sau să plasăm lucrurile în graficul care nu
+
+01:17.600 --> 01:20.000
+funcționează, ne va costa mult .
+
+01:20.000 --> 01:27.140
+Amintiți-vă că tablourile cu privire la deplasarea și deplasarea este costisitoare cu obiectele pe care le putem
+
+01:27.140 --> 01:35.280
+găsi rapid și pentru a vedea conexiunile lor, astfel încât, în mod ideal, în cazul în care avem trei sau să
+
+01:35.280 --> 01:43.610
+ne uităm la 0 în acest caz, zero va fi conectat la o serie de conexiuni care vor fi 1 și 2.
+
+01:43.740 --> 01:48.820
+Deci, eu am ceva de genul asta.
+
+01:48.850 --> 01:55.900
+Sarcina ta este să adaugi o nouă metodă numită had Virtex care adaugă un nou nod sau un vârf.
+
+01:55.960 --> 02:02.920
+Denumirea aici se face înainte și înapoi și apoi se adaugă și marginea care va adăuga o conexiune între nodul
+
+02:02.920 --> 02:04.490
+1 și nr. 2.
+
+02:04.600 --> 02:11.380
+Și rețineți că este vorba despre directivă dacă cred că este un grafic nedirecționat.
+
+02:11.380 --> 02:16.460
+Deci ambele. 1 și nr. 2 puncte unul față de celălalt și dacă defilați aici.
+
+02:16.570 --> 02:21.260
+De fapt, am creat apelurile pe care le face funcția pe care o vom face.
+
+02:21.380 --> 02:28.240
+Am creat graficul și apoi am creat zero până la 6, așa cum am arătat în
+
+02:28.240 --> 02:29.320
+grafic aici.
+
+02:29.320 --> 02:32.200
+Și apoi vom adăuga marginile.
+
+02:32.200 --> 02:39.280
+Aceasta este legătura dintre tot ce este conectat 0 0 conectat la șase este conectat la cinci pur și simplu
+
+02:41.340 --> 02:47.520
+spunând că nu mă repet niciodată, asta înseamnă că nu spun niciodată adăugați trei într-unu și apoi spuneți
+
+02:47.520 --> 02:49.540
+adaugă marginea 1 și 3.
+
+02:49.620 --> 02:53.570
+Spun doar o dată și asta-i cheia.
+
+02:53.790 --> 02:59.940
+Și, de asemenea, ordinea nu contează dacă schimba ordinea acestor apeluri în jurul ei ar trebui
+
+03:00.120 --> 03:02.050
+să-mi dea încă acest grafic.
+
+03:02.090 --> 03:02.630
+In regula.
+
+03:02.630 --> 03:08.630
+Știu că sunteți încântat să mergeți, dar ultimul lucru și acest lucru este opțional doar dacă doriți să faceți acest lucru singur,
+
+03:08.630 --> 03:10.500
+puteți, de asemenea, să vă Codie.
+
+03:10.550 --> 03:14.540
+Dar nu este chiar atât de important pentru acest videoclip.
+
+03:14.900 --> 03:22.490
+Am creat o funcție mică de ajutor, numită conexiuni de afișare, și puteți căuta această
+
+03:22.520 --> 03:24.230
+funcție dacă doriți.
+
+03:24.250 --> 03:29.230
+Nu este foarte important pentru miezul cursului, dar am facut acest lucru pentru ca
+
+03:29.500 --> 03:38.860
+tu sa poti verifica munca ta pentru ca daca folosesc acest lucru folosind un sfarsit graficul meu arata conexiunile va incepe sa tipareasca raspunsul ca acesta si
+
+03:40.830 --> 03:44.500
+va arata toate conexiuni ale graficelor pe care le-ați creat.
+
+03:44.730 --> 03:52.740
+Și astfel puteți verifica dacă aceste conexiuni care sunt noduri pentru este conectat la 3 2 și 5
+
+03:52.890 --> 03:59.340
+nota 4 este conectată la 3 2 și 5 la fel ca aici.
+
+03:59.340 --> 04:01.310
+Bine, asta e suficient pentru mine.
+
+04:01.350 --> 04:05.010
+Mult noroc în acest exercițiu și vă voi vedea în soluția video.
+
+04:05.100 --> 04:05.370
+Malet.

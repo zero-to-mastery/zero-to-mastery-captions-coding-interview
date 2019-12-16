@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.890 --> 00:13.220
+Este timpul pentru următoarea noastră structură de date, tabele hash, tabele hash sau hărți hărți hărți, pe hărți ordonate obiecte dictionare există multe
+
+00:13.610 --> 00:20.750
+modalități de a apela această structură de date și diferite limbi au nume
+
+00:20.750 --> 00:26.640
+diferite pentru aceasta și variații ușoare pe obiectele tabelei hash.
+
+00:26.660 --> 00:31.970
+De exemplu, în javascript există un tip de tabelă hash.
+
+00:32.000 --> 00:38.180
+Motivul pentru care încep cursul cu mese și obiecte sau tabele hash este pentru că aceste
+
+00:38.180 --> 00:44.700
+două sunt cele mai frecvente întrebări de interviu pe care le vei folosi în orice întrebare de codificare.
+
+00:45.400 --> 00:50.700
+Eu personal nu am participat încă la un interviu că nu trebuie să știi asta.
+
+00:50.770 --> 00:53.970
+Ele sunt absolut TREBUIE acum.
+
+00:53.980 --> 01:01.090
+Din fericire pentru noi, aproape fiecare limbă are o masă de hash construită la fel ca arrays în Python.
+
+01:01.210 --> 01:06.060
+Ele sunt numite dictionare javascript asa cum am spus ca sunt obiecte.
+
+01:06.100 --> 01:14.380
+Java are hărți și Ruby are hashes și tabelele hash sunt foarte importante în întreaga știință a informaticii.
+
+01:14.560 --> 01:21.970
+Le vedeți foarte mult în bazele de date din cache-uri și sunt extrem de utile.
+
+01:21.990 --> 01:23.550
+Deci ce sunt ei?
+
+01:23.580 --> 01:28.710
+Și, de asemenea, s-ar putea să vă întrebați ce semnifică numele tabelului hash.
+
+01:28.740 --> 01:30.100
+De unde a venit acest nume.
+
+01:31.400 --> 01:33.640
+Să aruncăm o privire la un exemplu.
+
+01:33.660 --> 01:41.700
+Imaginați-vă că veți merge la cumpărături și că aveți un obiect aici și doriți să adăugați struguri
+
+01:42.150 --> 01:45.470
+care au proprietatea obiectului de coș.
+
+01:45.480 --> 01:49.250
+Din nou, folosim sintaxa javascript, dar acest lucru ar trebui să vă pară familiar.
+
+01:49.320 --> 01:55.620
+Așadar, am vrut să stabilim că câinele Baskett, Grace, va fi egal cu 10000.
+
+01:55.650 --> 01:59.540
+Cumparam 10000 de struguri pentru ca nu poti avea prea mult struguri.
+
+02:00.600 --> 02:07.100
+Acum, înainte de a ne gândi cum vom stoca acest lucru cu o cursă pentru a fi un pic mai dificil.
+
+02:07.200 --> 02:08.370
+Dreapta.
+
+02:08.370 --> 02:15.890
+Și apoi avem un index care este numerotat și vale cu o masă hash sau un obiect.
+
+02:15.960 --> 02:20.760
+Putem seta o cheie care este struguri și o valoare.
+
+02:20.760 --> 02:23.950
+Așa că vom stabili o pereche de valori cheie.
+
+02:24.090 --> 02:26.520
+Deci, acum vedem câteva beneficii aici.
+
+02:27.680 --> 02:39.790
+Acum, o metodă de tabelă de tip hash este că avem cheia care este struguri și această cheie este folosită ca indice pentru unde să
+
+02:39.790 --> 02:42.220
+găsim valoarea din memorie.
+
+02:42.800 --> 02:49.160
+Amintiți-vă cu creșterea pe care am avut indicele care a fost numărul, dar cu tabelele de hash folosim
+
+02:49.160 --> 02:53.650
+strugurii ca o modalitate de ao găsi în raftul nostru de memorie.
+
+02:53.660 --> 02:57.790
+Acest lucru se face în acest fel cu ceva numit funcție hash.
+
+02:57.830 --> 03:00.680
+Dar pentru moment, presupunem că este o cutie neagră.
+
+03:00.710 --> 03:02.090
+Nu știm ce se întâmplă aici.
+
+03:03.060 --> 03:07.790
+Tot ce se va întâmpla este că vom trece strugurii în această cutie neagră.
+
+03:08.100 --> 03:11.700
+Această cutie neagră va face ceva magie.
+
+03:12.090 --> 03:19.780
+Și din ea vine o cheie într-un index în care vrem să stocăm această valoare.
+
+03:20.650 --> 03:31.900
+Deci acum sunt 1000 de struguri pot fi stocate și această adresă de memorie 7 1 1 și tehnic de fapt, ea
+
+03:31.960 --> 03:36.090
+stochează atât struguri cheie și valoarea de 10000.
+
+03:36.130 --> 03:40.510
+Aici l-am simplificat doar la 10000, așa că este puțin mai curat.
+
+03:40.600 --> 03:45.580
+Dar țineți minte că va stoca atât cheia cât și valoarea și vă voi arăta o diagramă care va
+
+03:45.580 --> 03:47.050
+arăta acest lucru mai târziu.
+
+03:47.050 --> 03:57.930
+Deci, această cutie neagră de aici se decide unde să punem datele în memoria noastră în computerele noastre.
+
+03:58.150 --> 04:06.190
+Dar s-ar putea să vă întrebați ce este acest lucru și de ce se poate decide unde să pună toate aceste informații.
+
+04:06.430 --> 04:09.520
+Pentru asta voi vedea în următorul videoclip Babai.

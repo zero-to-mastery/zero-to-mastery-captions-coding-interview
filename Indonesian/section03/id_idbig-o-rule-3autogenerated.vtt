@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.700 --> 00:02.510
+Selamat datang kembali.
+
+00:02.510 --> 00:04.390
+Mari kita bicara tentang Peraturan nomor tiga.
+
+00:04.520 --> 00:11.360
+Itu adalah istilah yang berbeda untuk input dan ini adalah salah satu bagian tersulit dari sebuah wawancara yang
+
+00:11.360 --> 00:12.860
+banyak dilakukan orang.
+
+00:13.340 --> 00:16.900
+Tetapi begitu Anda memahaminya, menjadi sangat mudah dikenali.
+
+00:16.910 --> 00:18.220
+Jadi mari kita lihat sebuah contoh.
+
+00:19.390 --> 00:25.120
+Saya memiliki fungsi yang sama persis seperti yang kita lihat di kotak kompres video terakhir dua kali.
+
+00:25.150 --> 00:30.800
+Kami memiliki array kotak dan kami hanya memiliki dua loop di sini.
+
+00:30.820 --> 00:32.020
+Saya menggunakan untuk masing-masing.
+
+00:32.020 --> 00:37.970
+Sintaks dalam javascript tapi kami hanya mengulang dua kali pada array yang sama.
+
+00:38.080 --> 00:45.290
+Dan seperti yang saya katakan sebelum pertunjukan besar, ini akan menjadi dua dan tetapi
+
+00:45.290 --> 00:54.810
+karena kami menghilangkan konstanta, ia menjadi semua tetapi aturan ketiga menyatakan bahwa istilah berbeda untuk input dan apa artinya itu.
+
+00:54.920 --> 00:57.340
+Baiklah pertama-tama izinkan saya mengajukan pertanyaan kepada Anda.
+
+00:57.500 --> 01:07.840
+Bagaimana jika di sini saya memiliki kotak sebagai parameter pertama dan kemudian kita memiliki kotak sebagai parameter kedua
+
+01:07.840 --> 01:17.860
+dan mungkin kedua ini untuk loop sebenarnya loop atas kotak kedua apa yang terjadi di sini.
+
+01:18.030 --> 01:20.110
+Apa O besar
+
+01:21.720 --> 01:28.080
+Dan selama wawancara, banyak orang yang tersandung dan mengatakan bahwa ini masih sementara. Ini
+
+01:28.080 --> 01:31.870
+akan menjadi 0 2 dan menghilangkan konstanta.
+
+01:31.940 --> 01:35.050
+Maka sekarang adalah ini benar.
+
+01:36.720 --> 01:44.760
+Tidak karena aturan ketiga menyatakan istilah berbeda untuk input dan kotak ingat.
+
+01:44.760 --> 01:49.550
+Yang pertama dan yang kedua adalah dua input yang berbeda.
+
+01:49.830 --> 01:52.480
+Satu bisa jadi seratus item.
+
+01:52.600 --> 01:55.810
+Satu lagi bisa hanya satu item.
+
+01:55.830 --> 02:04.910
+Jadi ini untuk loop pertama akan tergantung pada seberapa besar item pertama atau input pertama dan kemudian yang kedua untuk
+
+02:04.910 --> 02:07.950
+loop tergantung pada seberapa besar ini.
+
+02:09.100 --> 02:17.730
+Dan dan hanya merupakan surat arbitrer yang kami putuskan dalam kasus ini, O-besar
+
+02:17.730 --> 02:30.040
+dari fungsi ini akan menjadi sesuatu seperti untuk yang pertama untuk loop yang merupakan input pertama ditambah besar-O besar fungsi
+
+02:30.370 --> 02:39.230
+ini sebenarnya merupakan plus atau dan ditambah M atau kotak 1 kotak ditambah juga.
+
+02:39.310 --> 02:45.760
+Jadi ingatlah itu hanya karena Anda melihat dua empat loop satu demi satu tidak berarti
+
+02:45.760 --> 02:48.190
+mereka mengulangi item yang sama.
+
+02:48.190 --> 02:55.980
+Sekarang Anda mungkin bertanya pada diri sendiri Andre. Apa yang terjadi jika loop ini bersarang.
+
+02:56.080 --> 02:59.920
+Sejauh ini kami hanya bekerja dengan loop yang satu demi satu.
+
+02:59.920 --> 03:09.460
+Bagaimana jika loop ini berada di dalam loop ini. Nah, mari kita masuk ke video berikutnya dan berbicara tentang pola umum yang kita
+
+03:09.460 --> 03:12.450
+lihat dengan go yang merupakan loop bersarang.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.380 --> 00:02.610
+Witamy spowrotem.
+
+00:02.610 --> 00:09.550
+Do tej pory rozmawialiśmy o pojedynczo połączonej liście i powinniśmy mieć dobre pojęcie o tym, jak działają.
+
+00:09.990 --> 00:13.530
+Ale co to jest podwójnie związana lista.
+
+00:14.440 --> 00:19.500
+Lista podwójnie połączona jest podobna, z tym że łączy się z węzłem przed nią.
+
+00:19.660 --> 00:21.730
+Rzućmy okiem na małą animację tutaj.
+
+00:22.670 --> 00:25.160
+Mamy węzeł główny.
+
+00:25.220 --> 00:26.860
+Powiedzmy, że mamy tylko jeden węzeł.
+
+00:26.900 --> 00:28.730
+Widzisz, że mamy tutaj dodatkowy blok.
+
+00:28.730 --> 00:30.670
+Nie jesteśmy do końca pewni, co to jeszcze oznacza.
+
+00:30.920 --> 00:36.300
+Teraz, jeśli chcemy dodać nowy blok do tej listy, podwójnie połączona lista.
+
+00:36.500 --> 00:39.710
+I chcieliśmy dodać węzeł, który zawiera wartość 10.
+
+00:40.100 --> 00:46.210
+Cóż, mamy teraz wskaźnik do następnego węzła.
+
+00:46.670 --> 00:48.390
+Mielibyśmy również wskaźnik.
+
+00:48.470 --> 00:56.240
+Jest to nowa część poprzedniego węzła, a nowy węzeł ma wskazywać nie.
+
+00:56.350 --> 01:02.900
+I to staje się teraz ogonem, jeśli dodaliśmy dodatkowy węzeł.
+
+01:03.500 --> 01:13.970
+Cóż, mamy 10 punktów węzłowych do nowego węzła, w którym mamy również nowy punkt węzła do poprzedniego węzła, a na końcu
+
+01:14.810 --> 01:20.150
+to staje się ogonem, co oznacza, że wskazuje na nie.
+
+01:20.290 --> 01:22.770
+I to właśnie robi podwójnie związana lista.
+
+01:22.810 --> 01:31.240
+Ma dodatkowy mały blok w tym miejscu dodatkowy kawałek danych, który również łączy się z poprzednim węzłem.
+
+01:31.240 --> 01:34.540
+Dlaczego uważasz, że to jest ważne.
+
+01:34.540 --> 01:39.640
+Podwójnie połączone listy pozwalają nam przejść przez naszą listę wstecz.
+
+01:40.000 --> 01:46.390
+Do tej pory mogliśmy tylko od początku do końca iść z podwójnie połączoną listą.
+
+01:46.390 --> 01:49.920
+Mogę zacząć od końca i iść do tyłu.
+
+01:50.850 --> 01:58.970
+Na pojedynczo połączonej liście nie ma możliwości, bym wiedział, co jest przed 10, co jest przed tą notatką.
+
+01:59.010 --> 02:01.800
+Na podwójnie połączonej liście nie ma problemu.
+
+02:01.800 --> 02:09.150
+Jest dokładnie taki sam jak pojedynczo połączona lista, ale zawiera dodatkowy wskaźnik do
+
+02:09.150 --> 02:16.170
+poprzedniego węzła, a przeszukiwanie listy podwójnie połączonej może być trochę bardziej wydajne.
+
+02:16.980 --> 02:23.730
+Podsumowując, technicznie może być wszystko i podzielić przez dwa, ponieważ możemy
+
+02:23.730 --> 02:33.720
+zacząć na obu końcach i jeśli wiemy, na której połowie listy szukamy, możemy wybrać optymalne miejsce do rozpoczęcia.
+
+02:33.720 --> 02:36.210
+Teraz spójrz tutaj, wciąż jest cały.
+
+02:36.240 --> 02:44.520
+A ponieważ jeśli pamiętasz z naszym regulaminem z 0 0 0 12 i podzielonym przez 2 to cały czas cały
+
+02:44.610 --> 02:47.810
+czas, ale wciąż jest technicznie trochę szybszy.
+
+02:47.880 --> 02:53.940
+Teraz, jak widać, wadą podwójnie połączonej listy jest to, że możemy potrzebować nieco więcej
+
+02:53.940 --> 03:00.930
+pamięci i dodatkowego bloku pamięci, a mamy film mówiący o tym, kiedy należy użyć podwojenia listy i
+
+03:00.930 --> 03:02.460
+pojedynczo połączonej listy.
+
+03:02.610 --> 03:09.410
+Później, ale żeby to zrozumieć właściwie, myślę, że powinniśmy zamienić nasze pojedynczo połączone listy, które
+
+03:09.440 --> 03:13.210
+stworzyliśmy w poprzednich filmach, na podwójnie połączoną listę.
+
+03:13.280 --> 03:15.440
+Zobaczmy, jak to zrobić.
+
+03:15.680 --> 03:17.060
+Zobaczę w następnym.
+
+03:17.180 --> 03:17.430
+Babai.

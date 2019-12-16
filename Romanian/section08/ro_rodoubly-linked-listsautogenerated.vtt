@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.380 --> 00:02.610
+Bine ai revenit.
+
+00:02.610 --> 00:09.550
+Până în acest moment am vorbit despre o singură listă legată și ar trebui să avem o idee bună despre cum funcționează.
+
+00:09.990 --> 00:13.530
+Dar ceea ce este o listă dublu legată.
+
+00:14.440 --> 00:19.500
+Două listă legată este similară, cu excepția faptului că se leagă de nodul anterior.
+
+00:19.660 --> 00:21.730
+Să aruncăm o privire la o mică animație aici.
+
+00:22.670 --> 00:25.160
+Avem un nod cap.
+
+00:25.220 --> 00:26.860
+Să presupunem că avem doar un nod.
+
+00:26.900 --> 00:28.730
+Vezi că avem un bloc suplimentar aici.
+
+00:28.730 --> 00:30.670
+Nu suntem foarte siguri ce inseamna asta.
+
+00:30.920 --> 00:36.300
+Acum, dacă vrem să adăugăm un nou bloc la această listă, o listă dublată.
+
+00:36.500 --> 00:39.710
+Și am vrut să adăugăm un nod care conține valoarea 10.
+
+00:40.100 --> 00:46.210
+Ei bine, acum am avea un pointer la următorul nod.
+
+00:46.670 --> 00:48.390
+Avem de asemenea un indicator.
+
+00:48.470 --> 00:56.240
+Aceasta este noua parte a nodului anterior iar nodul nou va indica punctul nr.
+
+00:56.350 --> 01:02.900
+Și acest lucru devine acum coada dacă am adăugat un nod nod.
+
+01:03.500 --> 01:13.970
+Ei bine, am avea punctul 10 nod la noul nod pe care l-am avea de asemenea noul punct de nod la nodul anterior si
+
+01:14.810 --> 01:20.150
+apoi in sfarsit ca devine o coada care inseamna ca indica puncte.
+
+01:20.290 --> 01:22.770
+Și asta face o listă dublu legată.
+
+01:22.810 --> 01:31.240
+Are un bloc mic suplimentar aici, o piesă suplimentară de date care, de asemenea, se leagă de nodul anterior.
+
+01:31.240 --> 01:34.540
+De ce crezi că e important.
+
+01:34.540 --> 01:39.640
+Listele duble legate ne permit să ne traversăm lista înapoi.
+
+01:40.000 --> 01:46.390
+Deci până acum am reușit să mergem de la început până la capăt cu o listă dublă.
+
+01:46.390 --> 01:49.920
+Pot să încep de la sfârșit și să merg înapoi.
+
+01:50.850 --> 01:58.970
+Într-o listă singulară nu există nici o cale să știu ce se întâmplă înainte de 10 ce se întâmplă înainte de această notă.
+
+01:59.010 --> 02:01.800
+Într-o listă dublu legată, care nu este o problemă.
+
+02:01.800 --> 02:09.150
+Este exact la fel ca lista singurele legate, dar conține acest indicator suplimentar la nodul
+
+02:09.150 --> 02:16.170
+anterior și căutarea printr-o listă dublată poate fi de fapt mai puțin eficientă.
+
+02:16.980 --> 02:23.730
+Și căutarea poate fi din punct de vedere tehnic și împărțită în două, deoarece putem
+
+02:23.730 --> 02:33.720
+începe la ambele capete și dacă știm în ce jumătate din listă ceea ce căutăm este că putem alege locul optim pentru a începe.
+
+02:33.720 --> 02:36.210
+Acum, uita-te aici e tot.
+
+02:36.240 --> 02:44.520
+Și pentru că dacă vă amintiți cu cartea noastră de reguli cu 0 0 0 12 și împărțit la 2 este încă tot atunci, dar
+
+02:44.610 --> 02:47.810
+este încă punct de vedere tehnic puțin mai rapid.
+
+02:47.880 --> 02:53.940
+Acum, dezavantajul unei liste dublu legate, după cum puteți vedea, este că ar putea fi necesar să avem
+
+02:53.940 --> 03:00.930
+puțină memorie și un bloc suplimentar de memorie și avem un videoclip care să vorbească când să folosească o listă de dublare
+
+03:00.930 --> 03:02.460
+și o listă singulară.
+
+03:02.610 --> 03:09.410
+Mai târziu, dar pentru a înțelege acest lucru în mod corespunzător, cred că ar trebui să convertim listele noastre singure
+
+03:09.440 --> 03:13.210
+legate pe care le-am creat în videoclipurile anterioare într-o listă dublată.
+
+03:13.280 --> 03:15.440
+Deci, hai să aruncăm o privire la cum să facem asta.
+
+03:15.680 --> 03:17.060
+Voi vedea în următorul.
+
+03:17.180 --> 03:17.430
+Babai.

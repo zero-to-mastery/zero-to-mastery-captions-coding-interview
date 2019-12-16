@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.550 --> 00:05.010
+How does Merse are pretty difficult right.
+
+00:05.360 --> 00:13.070
+I have the answer for you here and I'm not going to kowtow along because well this is one of those pieces
+
+00:13.070 --> 00:20.150
+of code that me just writing in and typing it in a 30 minute video isn't really going to help your understanding.
+
+00:20.150 --> 00:25.000
+I recommend you go through this code line by line to fully understand.
+
+00:25.180 --> 00:33.580
+But if we take a look here all we're doing in the first pass in the merge sort function is we're going
+
+00:33.580 --> 00:40.690
+to get the length of the array find the middle of the array and then we're going to slice the array
+
+00:41.110 --> 00:51.970
+into the left hand side and the right hand side so that if I Konsole log here and I click run we see
+
+00:51.970 --> 00:59.850
+that the first time around we're just splitting the item right down the middle where we have ninety
+
+00:59.850 --> 01:04.420
+nine all the way up to 1 in the left hand side and 5 to zero.
+
+01:04.570 --> 01:13.060
+And the right hand side in the next pass because remember we're doing recursion and this is being called
+
+01:13.060 --> 01:15.930
+again when we get to here.
+
+01:16.130 --> 01:25.400
+We're now dividing up ninety nine and 44 and six to one into its own pass and then ninety nine and 44
+
+01:25.520 --> 01:33.860
+into individual items six and one into left and right until we have everything into one item.
+
+01:35.410 --> 01:38.460
+And then we start splitting off this and side as well.
+
+01:39.220 --> 01:41.230
+Now what about the merge function.
+
+01:44.070 --> 01:50.360
+The merge function is going to be a little bit hard to read but if we take a look here all we're saying
+
+01:50.480 --> 01:57.590
+is we have a results array that we're going to fill everything with and we're going to have a left index
+
+01:57.620 --> 01:58.830
+and a right index.
+
+01:59.120 --> 01:59.960
+And we're going to compare.
+
+01:59.960 --> 02:12.130
+Here is the left index less than the length of the left to right and the right index less than there
+
+02:12.130 --> 02:18.750
+right array length which is make sure that we have items in our array.
+
+02:18.840 --> 02:24.440
+If that's the case then let's compare our left item to the right item.
+
+02:25.570 --> 02:31.450
+And push into a new array into our results re the item that is less.
+
+02:31.450 --> 02:36.840
+In this case it will be the left hand item and then we increment.
+
+02:37.000 --> 02:44.050
+Otherwise if the left item is higher than the right item we do the opposite and the right at him goes
+
+02:44.050 --> 02:45.060
+into our result.
+
+02:47.540 --> 02:56.890
+Remember this merge function is doing what we saw in the animation where splitting the function down
+
+02:57.550 --> 03:04.620
+in the first part of the function and then in the merge we're going to take the left and right compare
+
+03:04.620 --> 03:07.700
+it and place it into the results array.
+
+03:08.600 --> 03:16.240
+And then go to the next and keep doing this over and over and creating our results array.
+
+03:17.590 --> 03:25.250
+If I Konsole lot here left and right and I click run we see exactly what we're doing.
+
+03:25.250 --> 03:31.390
+We have ninety nine and 44 and then two and one.
+
+03:31.400 --> 03:39.670
+So on the left hand side and right hand side ninety nine and 44 get compared becomes 44 and ninety nine
+
+03:41.240 --> 03:51.440
+and then we compare two and one which becomes 1 and 2 then 6 and 1 and 2 which becomes 1 2 6 and we
+
+03:51.440 --> 03:59.030
+keep going keep going keep going until the very last step where we have two lists here and we compare
+
+03:59.030 --> 04:07.520
+them 0 and 1 we place 0 and the results are a and then we place 1 2 and just keeps going and keeps going
+
+04:07.820 --> 04:10.670
+exactly like our animation.
+
+04:10.670 --> 04:16.250
+Now I encourage you to play around with this and perhaps go step by step.
+
+04:16.420 --> 04:23.610
+It is a really hard algorithm to get the bad news is that the next algorithm is even more complicated.
+
+04:24.280 --> 04:29.990
+But luckily for you as I said you don't have to ever do this in an interview.
+
+04:30.050 --> 04:40.740
+You just need to know that merge sort is a great algorithm to use because we get all of an log and bingo.
+
+04:40.990 --> 04:43.280
+Let's take a look at another sorting algorithm.

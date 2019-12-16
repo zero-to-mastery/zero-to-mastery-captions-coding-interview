@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.950 --> 00:11.610
+Bine ați venit în ultima noastră secțiune privind algoritmul este ultima piesă lipsă și asta este o programare dinamică
+
+00:11.970 --> 00:14.190
+foarte importantă, nu-i așa?
+
+00:15.250 --> 00:24.340
+Cu această secțiune vom trece peste ultima parte a hărții minții noastre pentru a completa întregul nostru grafic de
+
+00:24.340 --> 00:25.140
+cunoștințe.
+
+00:25.150 --> 00:27.100
+Așa că suntem pregătiți pentru interviuri.
+
+00:27.160 --> 00:34.480
+Este ultima mică piesă de programare dinamică despre memorarea în mod special despre care vom
+
+00:34.480 --> 00:35.410
+vorbi.
+
+00:35.830 --> 00:44.380
+Dar ce este programarea dinamică este doar o tehnică de optimizare.
+
+00:44.520 --> 00:50.800
+Și aici este o distracție faptul că programarea dinamică nu înseamnă nimic.
+
+00:50.940 --> 00:55.610
+E un buzzword cu gunoi și nu glumesc aici.
+
+00:55.730 --> 01:01.530
+Toate legate de un articol amuzant despre modul în care numele a ajuns să fie,
+
+01:01.530 --> 01:07.420
+dar programarea dinamică la sfârșitul zilei este doar o tehnică de optimizare folosind ceva numit caching.
+
+01:07.460 --> 01:14.120
+Dacă aveți ceva ce puteți cache Ei bine, el poate folosi programarea dinamică.
+
+01:14.130 --> 01:20.130
+Acum vom intra în detaliile a ceea ce înseamnă asta pe parcursul următoarelor videoclipuri,
+
+01:20.130 --> 01:28.260
+dar la un nivel superior programarea dinamică este o modalitate de a rezolva problemele prin ruperea acesteia într-o colecție de subprobleme
+
+01:28.740 --> 01:35.040
+care rezolvă fiecare dintre aceste probleme rezolvă o singură dată și stocarea soluțiile lor în caz.
+
+01:35.040 --> 01:42.960
+Data viitoare când se întâmplă același subproblem, trebuie să intrăm în acest sens și să înțelegem ce înseamnă modul în care îl
+
+01:42.960 --> 01:48.450
+putem implementa pentru a deveni mai buni intervievatori mai bine ingineri și programatori mai buni.
+
+01:48.600 --> 01:50.740
+Voi vedea în următorul videoclip.

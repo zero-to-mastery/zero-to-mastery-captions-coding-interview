@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.550 --> 00:05.010
+In che modo Merse è piuttosto difficile, vero?
+
+00:05.360 --> 00:13.070
+Ho la risposta per te qui e non ho intenzione di andare avanti così perché questo è uno di quei pezzi di
+
+00:13.070 --> 00:20.150
+codice che io sto solo scrivendo e digitandolo in un video di 30 minuti non aiuterà davvero la tua comprensione.
+
+00:20.150 --> 00:25.000
+Vi raccomando di leggere questo codice riga per riga per comprendere appieno.
+
+00:25.180 --> 00:33.580
+Ma se diamo un'occhiata qui tutto quello che stiamo facendo nella prima passata nella funzione di merge
+
+00:33.580 --> 00:40.690
+sort è che otterremo la lunghezza dell'array nel centro dell'array e poi lo suddivideremo in
+
+00:41.110 --> 00:51.970
+il lato sinistro e il lato destro in modo tale che se Konsole si collegasse qui e clicco su run, vediamo che la
+
+00:51.970 --> 00:59.850
+prima volta stiamo dividendo l'oggetto proprio nel punto in cui abbiamo novantanove fino a 1 in
+
+00:59.850 --> 01:04.420
+il lato sinistro e il 5 a zero.
+
+01:04.570 --> 01:13.060
+E il lato destro nel prossimo passaggio perché ricorda che stiamo facendo la ricorsione e questo viene chiamato
+
+01:13.060 --> 01:15.930
+di nuovo quando arriviamo qui.
+
+01:16.130 --> 01:25.400
+Ora dividiamo il novantanove e il 44 e il sei a uno nel suo stesso passaggio e poi novantanove e 44
+
+01:25.520 --> 01:33.860
+in singoli elementi sei e uno in sinistra e destra finché non avremo tutto in un unico oggetto.
+
+01:35.410 --> 01:38.460
+E poi iniziamo a dividere anche questo e il lato.
+
+01:39.220 --> 01:41.230
+Ora, per quanto riguarda la funzione di fusione.
+
+01:44.070 --> 01:50.360
+La funzione di fusione sarà un po 'difficile da leggere, ma se diamo un'occhiata qui stiamo dicendo
+
+01:50.480 --> 01:57.590
+che abbiamo una matrice di risultati con cui andremo a riempire tutto e avremo un indice a sinistra e
+
+01:57.620 --> 01:58.830
+un indice giusto.
+
+01:59.120 --> 01:59.960
+E stiamo andando a confrontare.
+
+01:59.960 --> 02:12.130
+Qui è l'indice di sinistra meno della lunghezza della sinistra a destra e l'indice a destra meno della lunghezza dell'array
+
+02:12.130 --> 02:18.750
+giusto che è assicurarsi che abbiamo elementi nel nostro array.
+
+02:18.840 --> 02:24.440
+Se questo è il caso, confrontiamo il nostro articolo di sinistra con l'elemento giusto.
+
+02:25.570 --> 02:31.450
+E spingere in una nuova matrice nei nostri risultati l'articolo che è meno.
+
+02:31.450 --> 02:36.840
+In questo caso sarà l'elemento della mano sinistra e quindi incrementeremo.
+
+02:37.000 --> 02:44.050
+Altrimenti se l'oggetto di sinistra è più alto dell'elemento giusto facciamo l'opposto e il destro a lui entra nel
+
+02:44.050 --> 02:45.060
+nostro risultato.
+
+02:47.540 --> 02:56.890
+Ricorda che questa funzione di unione sta facendo ciò che abbiamo visto nell'animazione, dove suddividere la funzione nella
+
+02:57.550 --> 03:04.620
+prima parte della funzione e quindi nell'unione prendiamo la sinistra e la destra confrontandola
+
+03:04.620 --> 03:07.700
+e posizionandola nell'array dei risultati.
+
+03:08.600 --> 03:16.240
+E poi vai al prossimo e continua a farlo più e più volte e creando la nostra matrice di risultati.
+
+03:17.590 --> 03:25.250
+Se io lotto Konsole qui a destra e a sinistra e faccio clic su Esegui vediamo esattamente quello che stiamo facendo.
+
+03:25.250 --> 03:31.390
+Abbiamo novantanove e 44 e poi due e uno.
+
+03:31.400 --> 03:39.670
+Quindi sul lato sinistro e sul lato destro novantanove e 44 confrontati diventano 44 e novantanove e poi
+
+03:41.240 --> 03:51.440
+ne confrontiamo due e uno che diventa 1 e 2 poi 6 e 1 e 2 che diventa 1 2 6 e continuiamo
+
+03:51.440 --> 03:59.030
+ad andare avanti continua fino all'ultima fase in cui abbiamo due elenchi qui e li confrontiamo
+
+03:59.030 --> 04:07.520
+con 0 e 1 posizioniamo 0 e i risultati sono a e quindi posizioniamo 1 2 e continuiamo ad
+
+04:07.820 --> 04:10.670
+andare esattamente come la nostra animazione.
+
+04:10.670 --> 04:16.250
+Ora ti incoraggio a giocare con questo e forse andare passo dopo passo.
+
+04:16.420 --> 04:23.610
+È un algoritmo davvero difficile per ottenere la cattiva notizia è che il prossimo algoritmo è ancora più complicato.
+
+04:24.280 --> 04:29.990
+Ma fortunatamente per te, come ho detto, non devi farlo mai in un'intervista.
+
+04:30.050 --> 04:40.740
+Hai solo bisogno di sapere che l'unire sort è un ottimo algoritmo da usare perché otteniamo tutti un log e un bingo.
+
+04:40.990 --> 04:43.280
+Diamo un'occhiata a un altro algoritmo di ordinamento.

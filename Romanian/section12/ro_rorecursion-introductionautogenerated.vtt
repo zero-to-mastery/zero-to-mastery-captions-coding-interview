@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.030 --> 00:08.340
+Ok ok De fapt, încep cu un pic de reculegere pe care vom vorbi despre
+
+00:08.340 --> 00:13.980
+următorul videoclip nu este din punct de vedere tehnic un algoritm.
+
+00:14.050 --> 00:19.870
+Este vorba mai mult de un concept pe care îl vom folosi pe parcursul acestei secțiuni
+
+00:19.870 --> 00:27.350
+a cursului pentru a scrie alți algoritmi foarte interesanți atunci când ajungem în sortarea și căutarea unui arbore binar de căutare.
+
+00:27.370 --> 00:30.040
+Vom folosi recursiv foarte mult.
+
+00:30.040 --> 00:32.140
+Vreau să te pregătesc.
+
+00:32.390 --> 00:37.040
+Și, evident, este și un subiect comun în interviuri.
+
+00:37.040 --> 00:41.950
+De fapt, acesta este unul dintre cele mai populare subiecte pe care le-aș spune când vine vorba de interviu.
+
+00:42.030 --> 00:49.160
+Acum, ceea ce este recursiunea într-adevăr atunci când căutați fișiere pe un computer.
+
+00:49.200 --> 00:54.450
+De exemplu, dacă sunteți pe desktopul dvs. și doriți să găsiți toate fișierele muzicale, aveți trei fișiere MP
+
+00:54.690 --> 01:01.470
+pe computerul dvs. puteți să o faceți doar dacă vă uitați la un dosar pe care doriți să îl consultați în foldere recursiv
+
+01:02.130 --> 01:03.980
+pentru a găsi toată muzica.
+
+01:04.020 --> 01:06.600
+Lasă-mă să-ți arăt ce vreau să spun.
+
+01:06.750 --> 01:14.120
+Am proiectele de aici pe care le-am folosit pentru unul dintre celelalte cursuri ale mele și este un API de back end în Dakar.
+
+01:14.400 --> 01:19.770
+Acum viața a clonat acest depozit și o am aici chiar pe desktopul meu.
+
+01:19.870 --> 01:27.230
+Acum, dacă aș vrea să caut toate fișierele din acest proiect, pot să introduc un LS pentru a-mi
+
+01:27.290 --> 01:28.120
+arăta fișierele.
+
+01:28.540 --> 01:35.440
+Dar, după cum vedeți în albastru, avem și dosare care, în interiorul lor, au și dosare.
+
+01:35.520 --> 01:38.800
+Cum pot, de asemenea, să vadă fișierele din acest dosar.
+
+01:39.270 --> 01:44.260
+Ei bine, pot face ceva numit LS dash R și R.
+
+01:44.280 --> 01:47.170
+Ghici ce înseamnă recursiv.
+
+01:47.700 --> 01:55.850
+Dacă fac acest lucru și apăs pe Enter, uite că primesc și fișierele din dosare.
+
+01:56.150 --> 02:02.930
+Vedeți că am un dosar de control cu ​​fișiere javascript am folderul postgresql cu unele
+
+02:03.020 --> 02:10.520
+fișiere doc unele evitat toate fișierele și în cadrul acestora am, de asemenea, un alt folder care
+
+02:10.520 --> 02:19.800
+are fișiere diferite, dar pentru că am putut să listați articole recursiv computerul meu a intrat în fiecare dosar și tipăriți fișierele.
+
+02:19.800 --> 02:29.880
+Deci, ceea ce este recursivă Recurgerea este atunci când definiți ceva în sine, pur și simplu este o funcție care
+
+02:29.910 --> 02:34.670
+se referă la ea însăși în interiorul funcției.
+
+02:34.680 --> 02:35.050
+In regula.
+
+02:35.090 --> 02:36.960
+Nu ai nici un drept.
+
+02:37.200 --> 02:40.560
+Aceasta este probabil cea mai confuză definiție din nou.
+
+02:40.620 --> 02:50.000
+Permiteți-mi să vă arăt un exemplu dacă deschid consola, aici o funcție recursivă este o funcție care se referă la
+
+02:50.000 --> 02:51.090
+ea însăși.
+
+02:51.410 --> 02:54.340
+Deci, pot crea o funcție numită să spunem începutul
+
+02:57.750 --> 02:59.680
+și această funcție este recursivă.
+
+02:59.700 --> 03:04.000
+Dacă mă refer la ea însăși în interiorul ei.
+
+03:04.200 --> 03:09.870
+Să încercăm din nou, dacă spun aici.
+
+03:10.880 --> 03:20.200
+Aceasta este o funcție recursivă, deoarece atunci când această funcție rulează, se va suna și va rula din nou.
+
+03:20.240 --> 03:26.420
+Problema cu recursiunea și motivul pentru care oamenii o consideră atât de dificilă este că este un subiect intimidant
+
+03:26.420 --> 03:30.230
+atunci când oamenii încep să vorbească despre aplicații matematice și teoretice.
+
+03:30.350 --> 03:36.240
+În schimb, să ne concentrăm aici asupra modului în care recursiunea ne ajută să rezolvăm problemele.
+
+03:36.410 --> 03:43.590
+Recurgerea este foarte bună pentru sarcini care au subtascuri repetate pentru a face acest lucru.
+
+03:43.640 --> 03:48.110
+E cam ca atunci când ne-am uitat la dosarele din interiorul acestui proiect.
+
+03:48.110 --> 03:54.410
+Iar recursiunea motivului este atât de importantă, iar motivul pentru care vorbesc despre el mai întâi în această secțiune
+
+03:54.410 --> 04:01.940
+înainte de a ne arunca cu capul în toți ceilalți algoritmi este că acest concept va fi folosit în căutarea și sortarea algoritmilor
+
+04:02.120 --> 04:08.090
+despre care vom vorbi despre de exemplu traversând un copac dacă vă gândiți la ele sunt pur
+
+04:08.360 --> 04:12.960
+și simplu aceleași sarcini pe care le facem din nou și din nou.
+
+04:13.430 --> 04:18.830
+Amintiți-vă când construim propria noastră structură de date arborescentă arborele nostru de căutare binar.
+
+04:19.400 --> 04:22.350
+Și ți-am dat o funcție mică la sfârșit.
+
+04:23.190 --> 04:29.940
+Numită traversare care ne-a permis să tipărim copacul nostru pentru a putea verifica răspunsul nostru.
+
+04:30.940 --> 04:35.240
+Dacă ne uităm mai aproape, vedem că folosim recursivitatea aici.
+
+04:35.320 --> 04:44.120
+Am o funcție traversală care se cheamă în interiorul tău și asta este ceva pe care o vom demonstra foarte mult
+
+04:44.120 --> 04:48.500
+când vorbim despre căutarea și sortarea în secțiunile viitoare.
+
+04:48.500 --> 04:50.840
+Recurgerea este peste tot.
+
+04:50.840 --> 04:57.760
+Atunci când facem traversal DOM pe un site Web dacă mergem la elemente aici când facem acest
+
+04:57.770 --> 05:07.730
+traversal pe și h el tot modelul de obiect de document folosim recursul în javascript atunci când avem un obiect imbricat, deci un obiect
+
+05:07.730 --> 05:09.610
+în interiorul unui obiect.
+
+05:10.040 --> 05:17.930
+Ei bine, folosim recursivitatea, dar cheia pentru a obține recursivitatea este să înțelegem că nu este așa de complexă.
+
+05:17.930 --> 05:24.900
+Atâta timp cât îl practicați, un pic dorește să-l primească și să treacă peste cocoșul inițial, atunci devine a
+
+05:24.990 --> 05:25.940
+doua natură.
+
+05:26.190 --> 05:31.750
+Iar obiectivul meu este până la sfârșitul videoclipurilor pe care urmează să le primiți recurențe.
+
+05:31.820 --> 05:33.200
+Deci sa începem.
+
+05:33.710 --> 05:34.620
+Ne vedem în următorul.

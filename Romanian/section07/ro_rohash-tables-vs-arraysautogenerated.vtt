@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.060 --> 00:09.560
+Bine ați venit înapoi de ce tabele hash tabele hash sunt mari atunci când doriți acces rapid la anumite valori.
+
+00:09.580 --> 00:14.930
+Amintiți-vă că căutarea printr-o matrice pentru un element necesită un timp foarte lung.
+
+00:14.930 --> 00:21.380
+Trebuie să citim fiecare element și să vedem dacă un anumit șir sau un anumit număr se află într-o matrice cu tabele
+
+00:21.380 --> 00:22.300
+de tip hash.
+
+00:22.310 --> 00:24.950
+E foarte rapid.
+
+00:25.100 --> 00:29.410
+Și de aceea vedeți tabele de tip hash în locuri cum ar fi bazele de date corecte.
+
+00:29.450 --> 00:33.500
+Vrem să căutăm ceva într-o bază de date și ne-o dă înapoi imediat.
+
+00:34.360 --> 00:44.620
+În mod similar, inserarea elementelor într-o tabelă hash și spre deosebire de un tablou care ar putea să transforme indexurile este de
+
+00:45.020 --> 00:46.020
+obicei unul.
+
+00:46.450 --> 00:50.260
+Pur și simplu trebuie să spargeți și să creați cheia.
+
+00:50.260 --> 00:55.450
+Deși avem acele cazuri de coliziune de cele mai multe ori, este ceva ce nu trebuie să ne îngrijorăm
+
+00:55.450 --> 00:56.170
+prea mult.
+
+00:56.170 --> 00:59.940
+Și putem să-i asumăm și să răspundem la toate.
+
+01:00.120 --> 01:05.430
+Apoi, există alte aspecte care sunt destul de asemănătoare între cele două matrice, vă
+
+01:05.430 --> 01:12.870
+permit să căutați rapid valoarea pentru o chei chei date, numite indexuri într-o matrice și nu reușim să le
+
+01:12.870 --> 01:21.170
+alegem, este întotdeauna 0 1 2 3 în tabelele hash putem alegeți-le astfel încât mesele hash să fie un fel de hack
+
+01:21.170 --> 01:31.860
+pe o matrice pentru a ne permite să folosim cheile flexibile în loc să fim blocați cu 0 1 2 3 o problemă a tabelelor hash pe care am
+
+01:32.010 --> 01:36.120
+discutat a fost ideea unui concept de ordin în mese.
+
+01:36.120 --> 01:40.810
+Fiecare articol a fost plasat unul lângă celălalt pe un raft în memorie.
+
+01:40.930 --> 01:43.800
+Tabelele de hash sunt destul de bine plasate peste tot.
+
+01:45.560 --> 01:51.590
+Acum, că avem o idee despre diferențele dintre cele două, cred că este timpul ca noi
+
+01:51.590 --> 01:58.490
+să lucrăm efectiv la unele exerciții și întrebări pentru interviuri pe care le vom folosi tabelele hash și răspunsurile lor.
+
+01:58.520 --> 01:59.350
+O să văd pe asta.

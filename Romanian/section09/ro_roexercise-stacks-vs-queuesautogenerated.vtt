@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.170 --> 00:02.490
+Bine ai revenit.
+
+00:02.490 --> 00:09.270
+Să facem un exercițiu rapid înainte de a ne crea propriile stive și Q-uri deoarece javascript
+
+00:09.270 --> 00:13.810
+nu are propria sa structură de stoc sau de date.
+
+00:13.830 --> 00:18.950
+Acum am menționat că există două moduri în care putem construi stive și Q-uri.
+
+00:19.150 --> 00:24.040
+Dacă vorbim despre stive putem să ne gândim la asta ca la istoria browserului nostru.
+
+00:24.040 --> 00:33.430
+Să presupunem că vom vizita Google mai întâi atunci când vă vom vizita Dammy dot com și apoi vom vizita să spunem
+
+00:34.770 --> 00:39.130
+YouTube într-un stack, deoarece Google a fost primul element.
+
+00:39.280 --> 00:43.240
+De fapt, ar fi pus pe stivă așa.
+
+00:43.240 --> 00:52.170
+Apoi, mergem la voi Dammy, pentru ca noi să fim plasați pe stivă și apoi să mergem pe YouTube.
+
+00:52.240 --> 00:59.770
+Acum, dacă vrem să mergem la un nou site, să spunem că mergem pe Twitter, dar apoi am decis că nu nu, nu asta vreau
+
+00:59.770 --> 01:00.700
+să fac.
+
+01:00.700 --> 01:07.750
+Vreau să mă întorc bine și am eliminat Twitter apăsați backburn pe browserul nostru și ajungem la YouTube dacă apăsăm
+
+01:08.110 --> 01:09.050
+din nou.
+
+01:09.250 --> 01:19.940
+Ajungem la Dammy și apoi înapoi ne întoarcem la Google, astfel încât Stax are un top și un fund și îl
+
+01:19.940 --> 01:25.190
+putem construi fie cu liste de matrice, fie cu liste.
+
+01:26.370 --> 01:35.940
+Întrebarea mea către dvs. este motivul pentru care am vrea să construim stive cu matrice care va crea o clasă
+
+01:35.940 --> 01:43.120
+de stive care au datele deținute în tablouri comparativ cu utilizarea listelor legate și invers.
+
+01:43.910 --> 01:45.560
+Gandeste-te la asta.
+
+01:45.560 --> 01:46.840
+Ce ziceti.
+
+01:48.840 --> 01:56.970
+Să presupunem că avem un Q Cream o aplicație de așteptare și aici avem câțiva oameni care vor să apară în lista
+
+01:56.970 --> 01:58.020
+de așteptare.
+
+01:58.080 --> 02:01.680
+Prima persoană care apare este Tim.
+
+02:01.950 --> 02:04.690
+Și apoi după Tim sau știi ce.
+
+02:04.770 --> 02:10.530
+Să ne folosim numele, să-l folosim pe Matt și apoi Matt să apară.
+
+02:10.630 --> 02:20.550
+Dar o bucurie bruscă vine și se ridică și apoi poate avem ceva care vine și
+
+02:20.550 --> 02:25.240
+așteaptă în linie și apoi avem Pavol.
+
+02:25.460 --> 02:33.560
+În acest caz vrem ca Matt să fie primul, apoi Joy și Sumir apoi Powell și cu indiciile putem
+
+02:33.650 --> 02:40.160
+folosi din nou rasele noastre și liste de lungime pentru ao pune în aplicare.
+
+02:41.690 --> 02:44.900
+Care credeți că va fi mai bine pentru noi.
+
+02:44.930 --> 02:47.480
+Există unul mai bun sau sunt ambele egale.
+
+02:47.480 --> 02:50.210
+Vreau să te gândești la asta în următorul videoclip.
+
+02:50.240 --> 02:56.180
+Am de gând să răspund la această întrebare, dar vă recomand să faceți timp să vă gândiți la ceea ce
+
+02:56.180 --> 03:01.430
+știți despre arhitecturi și liste legate și cum ar putea beneficia sau nu ar putea beneficia.
+
+03:01.490 --> 03:03.360
+Stive și Qs.
+
+03:03.500 --> 03:04.360
+Voi vedea în următorul videoclip.

@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.900 --> 00:08.530
+Berjalan mundur jika kita melihat fungsi Fibonacci kami yang kami buat ini adalah apa yang kami lakukan.
+
+00:09.000 --> 00:17.670
+Jika saya mencari angka Fibonacci 7 menggunakan rekursi Yah kita harus menjalankan semua perhitungan ini secara
+
+00:17.670 --> 00:21.030
+rekursif dan semua ini juga.
+
+00:21.360 --> 00:25.010
+Dan Anda dapat melihat di sini apa yang terjadi dengan benar.
+
+00:25.020 --> 00:28.430
+Lihat di mana kami menghitung Fibonacci satu.
+
+00:28.710 --> 00:34.970
+Kami memiliki fungsi ini menjalankan satu dua tiga empat lima kali menghitung hal yang sama.
+
+00:35.060 --> 00:37.300
+Bagaimana dengan Fibonacci dua.
+
+00:37.460 --> 00:45.630
+Sekali lagi perhatikan semua perhitungan ini yang sedang diulangi bagaimana dengan 3 dan Anda lihat di sini
+
+00:45.630 --> 00:53.700
+di mana segitiga bertumpuk di mana kami menghitung 3 di mana kami menghitung cocok 2 dan Fibonacci
+
+00:53.700 --> 00:54.870
+1 juga.
+
+00:54.870 --> 01:04.660
+Dan kemudian jika kita terus ke Bonacci murni nomor empat di sana lagi mengulangi tugas segitiga hingga segitiga dan
+
+01:04.750 --> 01:07.910
+akhirnya Fibonacci enam atau lima.
+
+01:08.080 --> 01:14.320
+Kami melihat bahwa sekali lagi kami hanya memiliki perhitungan berulang.
+
+01:14.320 --> 01:16.640
+Ini tidak terlihat efisien bukan.
+
+01:16.780 --> 01:18.720
+Dan itulah yang kami lihat di video sebelumnya.
+
+01:18.730 --> 01:21.340
+Inilah yang kami lakukan dengan perhitungan kami.
+
+01:21.910 --> 01:30.220
+Tetapi jika Anda perhatikan di sini dengan pemrograman dinamis kita dapat mengoptimalkan ini dan menggunakan memoisasi untuk
+
+01:31.570 --> 01:42.260
+mengatakan hei hitung Fibonacci tujuh pergi secara rekursif ke 6 2 5 2 4 2 3 2 2 dan juga 2 1.
+
+01:42.390 --> 01:51.030
+Dan sekarang ketika kita kembali mengingat ketika kita mulai mengembalikan pernyataan dan kita pergi
+
+01:51.030 --> 01:59.790
+ke lima dari dua atau lima atau tiga atau empat sebelumnya karena kita sudah menghitung
+
+01:59.910 --> 02:09.200
+angka-angka ini kita benar-benar dapat mengembalikan versi hafal sehingga semua perhitungan ini tidak ada lebih lama dibutuhkan.
+
+02:09.310 --> 02:10.200
+Mengapa.
+
+02:10.240 --> 02:19.050
+Karena dua tiga empat dan lima setiap kali kita memintanya dalam hal ini kita sudah menghitung di sisi kiri
+
+02:19.050 --> 02:27.510
+sehingga kita dapat menggunakan versi cache atau dihafal sehingga ini kita bisa meminta fungsi yang dihafal untuk hanya
+
+02:27.510 --> 02:29.230
+memberi untuk kita.
+
+02:29.250 --> 02:36.660
+Kami menghindari semua perhitungan ini terlihat begitu sederhana sehingga terlihat dan saya akan menunjukkan kepada Anda di video
+
+02:36.660 --> 02:40.500
+berikutnya bagaimana kami benar-benar menerapkannya dengan urutan Fibonacci.
+
+02:40.860 --> 02:46.860
+Tetapi untuk menunjukkan kepada Anda bahwa ini bukan hanya masalah ini, kami dapat menggunakan pemrograman
+
+02:46.860 --> 02:47.520
+dinamis.
+
+02:47.640 --> 02:50.270
+Saya punya seperangkat aturan.
+
+02:50.430 --> 02:57.280
+Salah satunya adalah Anda tidak bisa menganggap pemrograman dinamis sebagai menggabungkan divide dan conquer.
+
+02:57.300 --> 03:06.450
+Apa yang kami lakukan dengan struktur pohon seperti angka Bonacci di mana kami menggunakan rekursi dan menggunakan kembali
+
+03:06.450 --> 03:14.920
+yang menguangkan dalam memoisasi dengan rekursi untuk mendapatkan penghematan dalam kinerja dan menggunakan pemrograman dinamis.
+
+03:15.630 --> 03:23.850
+Dan ini adalah langkah-langkah yang ingin diikuti untuk melihat apakah masalah dapat menggunakan pemrograman dinamis untuk
+
+03:23.850 --> 03:24.810
+mengoptimalkannya.
+
+03:24.840 --> 03:32.520
+Kami pertama-tama bertanya apakah masalahnya dapat dibagi menjadi beberapa sub-masalah.
+
+03:32.590 --> 03:39.160
+Apakah itu struktur seperti pohon di mana setiap masalah dipecah menjadi masalah kecil menjadi
+
+03:39.160 --> 03:44.600
+masalah kecil dan melakukan masalah kecil yang biasanya menunjukkan solusi rekursif.
+
+03:45.010 --> 03:51.080
+Sekali lagi sesuatu yang sangat kita kenal dari video kami sebelumnya dan sekarang
+
+03:51.080 --> 03:58.190
+pertanyaan ketiga sangat penting karena Anda dapat memiliki struktur mirip pohon yang tidak memiliki subproblem berulang.
+
+03:58.430 --> 04:05.330
+Tetapi jika subproblem ini berulang, kita melakukan perhitungan yang sama berulang kali
+
+04:05.400 --> 04:06.630
+dalam subproblem.
+
+04:06.860 --> 04:16.130
+Nah jika jawabannya adalah ya maka kita dapat menghafal sub-masalah ini dan begitu kita melakukannya kita melihat manfaat luar biasa
+
+04:16.310 --> 04:23.720
+dan manfaat ini digunakan di seluruh ilmu komputer untuk meningkatkan kinerja sehingga langkah kelima seharusnya menuntut
+
+04:23.720 --> 04:26.290
+kenaikan gaji dari bos Anda.
+
+04:26.300 --> 04:34.090
+Jika Anda menerapkan ini karena Anda baru saja menyimpan begitu banyak perhitungan begitu
+
+04:34.090 --> 04:42.010
+banyak kompleksitas waktu, saya ingin Anda berpikir seperti ini daripada diintimidasi oleh nama
+
+04:42.940 --> 04:47.350
+membingungkan yang merupakan pemrograman dinamis. .
+
+04:47.500 --> 04:53.040
+Dan setidaknya beberapa masalah untuk Anda setelah bagian ini untuk berlatih tetapi Anda hanya ingin mengikuti pola
+
+04:53.040 --> 04:53.580
+ini.
+
+04:54.560 --> 05:00.950
+Ketika suatu masalah memiliki solusi yang terdiri dari solusi untuk masalah yang sama dengan input yang lebih kecil dan
+
+05:01.640 --> 05:08.900
+lebih kecil, setiap masalah diselesaikan hanya satu kali dan hasil dari setiap subproblem disimpan dalam tabel seperti cache seperti tabel hash
+
+05:09.740 --> 05:12.810
+seperti yang telah kita lakukan di sebelumnya video.
+
+05:12.950 --> 05:21.410
+Untuk referensi di masa mendatang, kita dapat menggunakan tabel ini untuk mendapatkan solusi asli dari masalah yang berulang.
+
+05:21.770 --> 05:22.550
+Cukup bicara.
+
+05:22.640 --> 05:30.870
+Saya pikir ini saatnya bagi kita untuk menerapkan penghafalan kita sendiri dengan angka Fibonacci jika Anda ingin menantang
+
+05:30.870 --> 05:32.040
+diri sendiri.
+
+05:32.070 --> 05:35.270
+Silakan melihat apakah kode Anda sendiri sebaliknya.
+
+05:35.280 --> 05:42.530
+Dan video berikutnya saya akan menunjukkan kepada Anda bagaimana meningkatkan fungsi Fibonacci berkinerja buruk kami dan untuk pergi
+
+05:42.560 --> 05:45.710
+dan saya akan melihat di yang itu.

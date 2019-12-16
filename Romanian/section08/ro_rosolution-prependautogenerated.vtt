@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.560 --> 00:05.780
+Bine ați revenit ați fost în măsură să pună în aplicare Prebend.
+
+00:06.080 --> 00:08.500
+Să aruncăm o privire la ceea ce ar trebui să arate codul.
+
+00:09.270 --> 00:17.620
+Primul lucru pe care îl facem ca și cum am făcut-o cu un pix este de a crea nota pe care o vom adăuga.
+
+00:17.910 --> 00:23.460
+Așa că am să spun valoarea nodului nou și următorul.
+
+00:23.490 --> 00:30.690
+Acum anul viitor voi pleca ca nu și vă voi arăta de ce în următoarea înregistrare video este cazul și
+
+00:30.690 --> 00:33.930
+nu avem doar următorul egal cu acest lucru.
+
+00:33.930 --> 00:44.400
+Dodd a trebuit să facă referire la primul articol din lista noastră, care este de 10, dar pentru moment doar credeți-mă că acest lucru ne-ar dori să ne lase nu pentru
+
+00:45.060 --> 00:47.490
+că putem face acest lucru mai târziu.
+
+00:47.490 --> 00:52.000
+Chiar acum creăm un nod gol cu ​​valoarea.
+
+00:52.270 --> 01:04.750
+În continuare vrem să spunem că noul punct al nodului nostru, care este această valoare, va fi egal
+
+01:04.960 --> 01:07.590
+cu acest Dot.
+
+01:07.910 --> 01:14.040
+Așa că tocmai am creat un pointer spunând că noul lucru pe care tocmai l-am creat
+
+01:14.310 --> 01:19.360
+nu va îndrepta către acest zeu divin primul element din lista noastră.
+
+01:19.360 --> 01:19.640
+O.K.
+
+01:19.660 --> 01:20.950
+Asta nu are sens.
+
+01:21.310 --> 01:25.780
+Și apoi, evident, așa cum am făcut cu adăugarea, vrem să actualizăm referința.
+
+01:25.780 --> 01:31.300
+Acum, să spun că acest cap Dodd nu mai este egal cu această valoare.
+
+01:31.300 --> 01:35.900
+Acum e noul nod.
+
+01:35.970 --> 01:43.890
+Și apoi, în final, vrem să adăugăm această sumă și să ne asigurăm că vom mări lungimea listei noastre.
+
+01:43.920 --> 01:57.150
+În cele din urmă, dacă vom returna această listă legată, putem spune că rulați și că uitați că am prefixat unul
+
+01:57.150 --> 01:59.050
+la primul element.
+
+01:59.970 --> 02:10.080
+Pe listă, capul și care face referire la 10 și coada listei noastre este acum 16.
+
+02:11.150 --> 02:13.900
+Asta nu a fost prea rău în următorul videoclip.
+
+02:13.910 --> 02:18.220
+Vreau să vorbesc rapid despre acest nou cod Noad.
+
+02:18.320 --> 02:24.820
+Repetăm ​​atât în ​​anexă, cât și în cele pre-selectate și ce am putea să facem cu ea.
+
+02:24.860 --> 02:25.540
+O să văd asta.

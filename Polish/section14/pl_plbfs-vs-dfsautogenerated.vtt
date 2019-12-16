@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.820 --> 00:06.040
+Lubię myśleć o pierwszych poszukiwaniach oddechu jako wodzie zalewającej od góry.
+
+00:06.160 --> 00:10.120
+Coś w tym rodzaju, w którym sprawdzamy od początku do końca.
+
+00:10.360 --> 00:17.110
+I lubię myśleć o oddechu dla poszukiwań, jako tych małych linijek, które biegną tak
+
+00:17.110 --> 00:22.200
+głęboko, jak tylko mogą, a potem idą w prawo.
+
+00:22.260 --> 00:26.010
+Ale jaka jest przewaga nad drugą.
+
+00:26.160 --> 00:28.650
+Obaj robią to samo.
+
+00:28.650 --> 00:32.120
+Ale każdy jest używany z różnych powodów.
+
+00:32.280 --> 00:38.070
+W wywiadach otrzymasz pytania o to, jaki rodzaj przejścia chcesz wykonać.
+
+00:38.070 --> 00:42.290
+Zwykle masz jedną z tych dwóch odpowiedzi, które masz do powiedzenia.
+
+00:42.360 --> 00:46.890
+Kiedy więc powinieneś używać jednego z drugim i zamierzamy to zbadać przez następne kilka
+
+00:46.890 --> 00:47.550
+filmów.
+
+00:47.640 --> 00:53.480
+Ale chcę zacząć od głównych plusów i minusów złożoności czasu oddechu.
+
+00:53.490 --> 00:56.980
+Pierwsze wyszukiwanie i pierwsze wyszukiwanie DEP to to samo prawo.
+
+00:57.000 --> 00:59.820
+Wszyscy odwiedzają węzły przynajmniej raz.
+
+00:59.820 --> 01:03.840
+Więc cały czas jest to wszechstronny ołtarz.
+
+01:04.050 --> 01:09.750
+Więc kiedy próbujemy przejść przez drzewo lub wykres, naprawdę próbujemy zrobić to
+
+01:09.750 --> 01:17.110
+przejść przez drzewo, nigdy się nie powtarzając, a kolejność jest najważniejsza, jeśli chodzi o oddech w
+
+01:17.110 --> 01:20.120
+poszukiwaniu pierwszych i głębokich poszukiwaniach.
+
+01:20.130 --> 01:25.360
+Porozmawiajmy teraz o szerokości pierwszego wyszukiwania z szerokim zakresem pierwszego wyszukiwania.
+
+01:25.360 --> 01:33.700
+Jest bardzo dobry do znalezienia najkrótszej ścieżki między punktem początkowym a dowolnym innym osiągalnym węzłem, ponieważ zawsze zaczynamy
+
+01:33.790 --> 01:41.170
+od węzła głównego, a następnie najpierw przeszukujemy najbliższe węzły, a następnie węzły dalej, a następnie
+
+01:41.290 --> 01:43.060
+dalej i dalej.
+
+01:43.180 --> 01:48.550
+I stanie się to bardziej oczywiste, gdy mówimy o przechodzeniu przez wykres i mamy
+
+01:48.640 --> 01:55.570
+kilka filmów przeznaczonych specjalnie do tej dyskusji, ale jedną z wad w zakresie pierwszego wyszukiwania jest to, że
+
+01:55.690 --> 01:59.380
+wymaga więcej pamięci niż pierwszego wyszukiwania w głębi.
+
+01:59.500 --> 02:03.600
+Znowu coś, co omówimy więcej, kiedy zaczniemy ją kodować.
+
+02:04.120 --> 02:11.890
+Ale dobra zasada jest taka, że jeśli masz dodatkowe informacje na temat lokalizacji węzła
+
+02:12.700 --> 02:20.860
+docelowego i wiesz, że węzeł jest prawdopodobnie na wyższym poziomie drzewa, to pierwsze wyszukiwanie jest
+
+02:20.860 --> 02:24.930
+lepsze, ponieważ najpierw przeszuka najbliższe węzły .
+
+02:25.860 --> 02:30.290
+Z drugiej strony, pierwsze wyszukiwanie jest odwrotne.
+
+02:30.300 --> 02:36.630
+Jeśli wiesz, że węzeł prawdopodobnie znajduje się na niższym poziomie drzewa, być może śmierć w wyszukiwaniu jest w tym
+
+02:36.810 --> 02:37.700
+przypadku lepsza.
+
+02:39.110 --> 02:42.620
+I pierwsze wyszukiwanie śmierci jest naprawdę dobre w zadawaniu pytania.
+
+02:42.620 --> 02:48.680
+Czy ścieżka istnieje dla nas, czy nie, ze źródła znanego z docelowej nuty, jeszcze raz, coś, do
+
+02:48.680 --> 02:50.980
+czego wnikniemy, gdy mówimy o wykresach.
+
+02:51.080 --> 02:58.350
+Dużą zaletą przy pierwszym wyszukiwaniu jest to, że wykorzystuje mniej pamięci, niż pierwsze wyszukiwanie.
+
+02:58.550 --> 03:04.580
+Minusem pierwszego wyszukiwania w głębi jest to, że może zwolnić, szczególnie jeśli drzewo lub wykres jest naprawdę
+
+03:04.580 --> 03:08.340
+bardzo głęboki i niekoniecznie dobrze jest znaleźć najkrótszą ścieżkę.
+
+03:08.540 --> 03:11.430
+Jak oddech do poszukiwań.
+
+03:11.510 --> 03:17.990
+Teraz, gdy mamy pojęcie, kiedy użyć tego, co wiem, nie jest to 100 procent, ale my się tam dostaniemy.
+
+03:17.990 --> 03:19.980
+Ale najpierw chcę zrobić trochę ćwiczenia.

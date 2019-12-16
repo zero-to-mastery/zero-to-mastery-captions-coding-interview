@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.640 --> 00:08.600
+Bine ați venit înapoi Vă încurajez să jucați cu vizuale Voi merge și creați propriul dvs. grafic în timp ce vorbesc în toate aceste
+
+00:08.600 --> 00:13.980
+filme despre căutarea în profunzime și prima lățime a primei căutări când vine vorba de traversarea graficului.
+
+00:14.210 --> 00:20.540
+Modul în care puteți să creați un grafic este doar să spuneți să desenați un grafic și veți putea să creați
+
+00:20.540 --> 00:25.570
+ceva de genul acesta și apoi să explorați atât adâncimea întâi cât și respirația pentru căutări.
+
+00:26.630 --> 00:32.630
+Acum voi avea această animație în timp ce vorbesc, dar vom începe cu zero și
+
+00:32.630 --> 00:37.580
+vom face o respirație în căutarea unui lucru unic despre respirație.
+
+00:37.580 --> 00:44.510
+Prima căutare este că se dorește foarte bine să se determine calea cea mai scurtă dintre orice nod, mai ales
+
+00:47.010 --> 00:52.550
+atunci când vine vorba să spui hei care este cel mai apropiat nod la zero.
+
+00:52.590 --> 00:54.840
+Aceasta este o întrebare cu adevărat ușor de întrebat.
+
+00:54.840 --> 01:00.810
+Când vine vorba de respirație prima căutare și am vorbit deja despre modul în care este folosit în motoare de
+
+01:00.810 --> 01:01.410
+recomandare.
+
+01:01.410 --> 01:05.290
+Peer-to-peer rețele chiar și Google Maps dreapta.
+
+01:05.490 --> 01:11.970
+Solicitările prietenilor Facebook și recomandările Instagram lărgesc prima căutare sau DFS ne permite
+
+01:12.000 --> 01:21.120
+să convertim un grafic în esență într-un copac deoarece știm cine sunt copiii nodului părinte și apoi nepoții și
+
+01:21.120 --> 01:24.130
+apoi așa și așa mai departe.
+
+01:24.150 --> 01:30.540
+Deci, dacă vă amintiți această diagrama de aici, acum înțelegem că respirația caută mai întâi Da.
+
+01:30.560 --> 01:38.860
+Utilizează mai multă memorie pentru a ține evidența cunoștințelor părintești și a notelor copiilor de la acel nivel, dar ne ajută să determinăm cea mai
+
+01:38.860 --> 01:45.640
+scurtă cale și este mai bine dacă știm că un nod pe care îl căutăm este aproape de noi pentru
+
+01:45.640 --> 01:52.210
+că se va uita la nodurile mai apropiate mai întâi, astfel încât atunci când veți fi întrebat acest lucru într-un
+
+01:52.720 --> 01:57.450
+interviu știi că acest algoritm va funcționa bine pentru aceste tipuri de întrebări.
+
+01:58.160 --> 02:05.450
+Deoarece respirația pentru o căutare este creată pentru a ne ajuta să determinăm cea mai scurtă cale dintre două note dintr-un
+
+02:05.450 --> 02:05.920
+grafic.

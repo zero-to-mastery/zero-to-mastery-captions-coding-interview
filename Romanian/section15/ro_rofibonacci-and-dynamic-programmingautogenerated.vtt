@@ -1,0 +1,211 @@
+WEBVTT
+
+00:03.250 --> 00:09.700
+Vreau să vă arăt un ultim exemplu și acesta este probabil cel mai bun exemplu pentru motivul pentru care
+
+00:09.940 --> 00:12.380
+programarea dinamică este atât de importantă.
+
+00:12.730 --> 00:17.540
+Și cum îți vei aminti când spun programe dinamice care sună cam confuz.
+
+00:17.650 --> 00:23.900
+Gândește-te doar la caching-ul optimizând ceva folosind o memorie cache.
+
+00:23.920 --> 00:31.820
+Unul dintre cele mai bune exemple de motiv pentru care programarea dinamică este atât de bună este vechea noastră veche prietenă Fibonacci.
+
+00:32.320 --> 00:37.990
+Am aflat despre acest lucru în secțiunea noastră de recursiune a cursului, în care ultimele două numere se adaugă
+
+00:37.990 --> 00:39.150
+la numărul următor.
+
+00:39.640 --> 00:48.160
+Așa că 13 este de cinci plus opt treizeci și patru este de 13 plus 21 și continuă să crească tot mai în creștere
+
+00:48.760 --> 00:51.750
+și noi învățăm cum să calculăm acest drept.
+
+00:51.820 --> 00:56.170
+Putem calcula cu ușurință numărul Fibonacci.
+
+00:56.170 --> 00:57.700
+Am avut funcția
+
+01:00.010 --> 01:03.310
+Fibonacci, care este un nume foarte greu de vrăjit.
+
+01:03.430 --> 01:12.030
+Cred ca asa este si tot ce am facut a fost ca am spus ca folosim recursivi ca am avut un caz de baza cu un caz mai mic
+
+01:12.030 --> 01:12.770
+decat doi.
+
+01:12.780 --> 01:18.210
+În acest caz vom reveni altfel.
+
+01:18.250 --> 01:31.050
+Am făcut o recursiune amuzantă pe care o vom întoarce la Fibonacci și minus un plus Fibonacci și minus doi.
+
+01:31.340 --> 01:41.460
+Așa că, dacă vreau să găsesc numărul Fibonacci la index, să zicem 6 și să conduc asta.
+
+01:41.560 --> 01:44.950
+Și nota ar trebui să fie un număr.
+
+01:44.950 --> 01:45.990
+Să o facem din nou.
+
+01:46.240 --> 01:53.830
+Am 8 deoarece 0 1 2 3 4 5 6 8 5 2 7.
+
+01:53.830 --> 01:57.640
+Trebuia să trec 13 minunate.
+
+01:57.650 --> 01:59.830
+Este ceva cu care ar trebui să ne cunoaștem.
+
+02:00.060 --> 02:01.600
+Dar permiteți-mi să vă pun o întrebare.
+
+02:01.640 --> 02:04.550
+Cât de eficientă este această funcție.
+
+02:05.930 --> 02:07.810
+Și am vorbit despre asta înainte de bine.
+
+02:07.820 --> 02:09.150
+Nu e foarte eficient.
+
+02:09.260 --> 02:12.920
+Dacă am o variabilă aici care spune că să numim calcule care
+
+02:15.460 --> 02:17.200
+vor fi egale cu zero.
+
+02:17.380 --> 02:24.130
+Și vom merge să creștem acest lucru de fiecare dată când această funcție este chemată.
+
+02:24.340 --> 02:27.940
+Și pentru că este recursiv, știm că se numește de multe ori.
+
+02:28.210 --> 02:31.900
+Dacă fac Fibonacci 7 câte calcule sunt.
+
+02:31.960 --> 02:38.710
+Asta înseamnă 13 calcule, de 13 ori că am trecut prin funcția gratuită Bonacci.
+
+02:38.710 --> 02:45.840
+Ce-ar fi daca cresc asta la 8? 21 Bine ce inseamna noua treizeci si patru.
+
+02:45.870 --> 02:48.710
+Ce zici de 10 cincizeci și cinci.
+
+02:48.710 --> 02:50.690
+În regulă, crește destul de repede.
+
+02:50.690 --> 02:52.720
+Și dacă am făcut 12.
+
+02:52.780 --> 02:57.640
+O sută patruzeci și patru de calcule doar pentru a obține indicele 12.
+
+02:57.640 --> 03:04.710
+Wow, dacă fac 15 610 de calcule.
+
+03:05.010 --> 03:07.530
+Ce zici de 20 de ani.
+
+03:07.700 --> 03:09.200
+Sfânt moly.
+
+03:09.200 --> 03:13.180
+Peste 6000 de calcule și doar pentru distracție.
+
+03:13.190 --> 03:16.050
+Dacă am făcut 25 de băieți.
+
+03:16.120 --> 03:18.040
+În ultimul timp, doar pentru că ne distrăm.
+
+03:18.040 --> 03:19.730
+30.
+
+03:19.810 --> 03:20.200
+In regula.
+
+03:20.200 --> 03:21.900
+Sunt multe calcule.
+
+03:22.180 --> 03:28.760
+Și apropo, dacă ai câștigat browserul să se prăbușească, tastați doar 50 sau 60 și vedeți ce se întâmplă acolo.
+
+03:30.160 --> 03:39.250
+Indiferent dacă ne uităm la acest zid este destul de teribil, doar pentru a calcula numărul
+
+03:39.250 --> 03:45.910
+30 sau indexul unei secvențe Fibonacci ia acei pași mulți calcule.
+
+03:45.910 --> 03:47.680
+Asta, e mult.
+
+03:47.680 --> 03:49.230
+Nu e foarte eficient.
+
+03:49.490 --> 03:57.220
+Și știm acest lucru pentru că în secțiunea noastră de recursuri am vorbit despre modul în care secvența Fibonacci și
+
+03:57.250 --> 04:04.480
+modul în care executăm funcția este 0 din 2 la puterea și foarte complexitatea timpului de rău așa cum
+
+04:05.580 --> 04:10.350
+am văzut făcând doar 30 de calcule durează mult de pași.
+
+04:10.440 --> 04:18.990
+Și amintiți-vă cu recursivitatea adăugăm fiecare apel de funcții imbricate care se adaugă la stivă, ceea ce mărește complexitatea memoriei
+
+04:18.990 --> 04:26.400
+și nu vrem să facem niciodată o operațiune care costă atât de mult în viața reală.
+
+04:26.430 --> 04:28.930
+Deci, cum putem face mai eficient.
+
+04:29.100 --> 04:31.530
+Putem să o facem mai eficientă.
+
+04:31.530 --> 04:37.950
+Adică dacă funcția noastră, dacă ați scris această funcție, este că șeful tău te va concedia pentru că e tot atît
+
+04:37.950 --> 04:38.790
+de oribil.
+
+04:38.910 --> 04:45.000
+Vreau să spun dacă șeful tău este oribil Poate, dar dacă știi programarea dinamică,
+
+04:45.540 --> 04:54.300
+poți evita acest lucru pentru că dacă ți-aș spune că putem face și cu această funcție, deoarece cu programare dinamică putem.
+
+04:54.600 --> 05:01.320
+Așa că putem merge de la cei doi la parc și până la toți.
+
+05:01.590 --> 05:03.900
+Sună ca magia nu-i așa.
+
+05:03.900 --> 05:07.370
+Și aici ajungem la următoarea etapă a programării noastre dinamice.
+
+05:07.440 --> 05:15.130
+Putem reduce complexitatea de timp și spațiu a algoritmului nostru utilizând memorarea și putem face acest lucru deoarece
+
+05:15.130 --> 05:20.470
+soluția pentru fiecare problemă Suppe este ceea ce noi numim optim.
+
+05:20.470 --> 05:26.560
+Asta înseamnă că facem multe probleme în mod repetat, care sunt la fel în următorul videoclip.
+
+05:26.560 --> 05:30.290
+Vom explica acest concept și vom vedea cum putem folosi memoizarea.
+
+05:30.650 --> 05:31.300
+O să văd pe asta.

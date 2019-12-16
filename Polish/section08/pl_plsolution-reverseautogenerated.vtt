@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.900 --> 00:03.110
+Witamy spowrotem.
+
+00:03.280 --> 00:10.370
+Mamy tu naszą listę i chcemy mieć możliwość uruchamiania mojej połączonej listy.
+
+00:10.570 --> 00:15.900
+Reverse, który odwróci tę listę dla nas.
+
+00:15.900 --> 00:17.580
+Wymyślmy kod tutaj.
+
+00:19.300 --> 00:24.220
+Pierwszą rzeczą, którą chcemy zrobić, to zrobić czek.
+
+00:24.220 --> 00:29.040
+Wyobraź sobie, że mamy tylko jedną pozycję na liście.
+
+00:29.290 --> 00:34.590
+Jeśli na liście znajduje się jeden węzeł lub element, to nie musimy go odwracać.
+
+00:34.600 --> 00:35.610
+Już tam jest.
+
+00:35.620 --> 00:40.830
+Więc jeśli ta lista zawiera tylko jeden, zwróć wszystko, co mamy na razie.
+
+00:40.930 --> 00:49.450
+Zróbmy więc to zaznaczenie tutaj i możemy powiedzieć, czy ten tata miał następną kropkę, a ten znak
+
+00:49.840 --> 00:51.520
+wykrzyknika nie istnieje.
+
+00:51.600 --> 00:59.350
+Chodzi mi o to, że gdyby to zrobiło dalej, gdyby jeden był tylko jeden i to nie wszystko, ten wykrzyknik zamieni to
+
+00:59.350 --> 01:04.300
+w coś przeciwnego, co sposób, w jaki działa javascript, zmieni to w prawdę.
+
+01:04.480 --> 01:07.120
+I to trochę zagmatwane, ale mam nadzieję, że jesteś ze mną na tym.
+
+01:07.120 --> 01:11.760
+Mówimy tylko, że jest to jedyny węzeł, a tutaj jest tylko nagłówek.
+
+01:12.630 --> 01:16.890
+Mogę to również zrobić, sprawdzając długość i mamy właściwość length.
+
+01:17.090 --> 01:24.860
+Mogę więc zrobić coś takiego, jak ta długość kropki równa się jednej religii, zachowaj ją tak, jak na razie,
+
+01:25.340 --> 01:27.720
+jeśli jest tylko jeden element.
+
+01:27.890 --> 01:35.500
+Po prostu zwróć tę kropkę ma węzeł lub możemy po prostu zwrócić to również.
+
+01:35.570 --> 01:38.420
+W przeciwnym razie przejdźmy do zabawnej części kodującej.
+
+01:38.420 --> 01:47.420
+Pierwszą rzeczą, którą chcemy zrobić, to powiedzieć, że chcemy, aby pierwszy element był równy tej kropce, a my po
+
+01:47.420 --> 01:49.370
+prostu śledzimy to tutaj.
+
+01:49.460 --> 01:56.460
+Powiemy więc, że mamy teraz odniesienie do tego knotheada I mamy także odniesienie
+
+01:56.490 --> 01:59.960
+do drugiego elementu na liście.
+
+02:00.360 --> 02:04.190
+To będzie pierwsza kropka.
+
+02:04.250 --> 02:08.620
+Teraz, gdy mamy pierwszy i drugi, możemy zrobić pętlę.
+
+02:08.770 --> 02:21.800
+Możemy powiedzieć, że drugi węzeł istnieje tak długo, jak długo drugi nie jest pusty.
+
+02:21.960 --> 02:29.520
+Tak długo, jak to się dzieje, tworzymy tymczasową zmienną, która zawiera drugą kropkę, więc
+
+02:30.210 --> 02:36.880
+możemy ją wywołać, jeśli chcemy, ale wybieram tymczasowo, ponieważ to się zmieni.
+
+02:36.970 --> 02:39.910
+Mamy więc odniesienie do pierwszej sekundy i trzeciej.
+
+02:39.910 --> 02:54.150
+Tak więc jeden 10 i 16 stąd możemy teraz powiedzieć, że druga kropka będzie równa pierwszemu elementowi.
+
+02:56.050 --> 03:10.430
+Pierwszy będzie równy temu drugiemu elementowi, a drugi będzie równy pierwszemu pierwiastkowi. Och, co tu się właśnie
+
+03:10.430 --> 03:11.860
+stało.
+
+03:11.950 --> 03:16.980
+Wiem, że było dużo kodu bez wielu wyjaśnień, ale przejdźmy do niego wiersz po wierszu.
+
+03:17.180 --> 03:26.680
+Pętlimy tutaj, po tym, jak złapaliśmy jeden, i złapaliśmy 10, a teraz powiem, że dopóki ta
+
+03:26.770 --> 03:37.230
+druga zmienna ma wartość i nie ma wartości NULL, która nie istnieje, chcę, żebyś utworzył zmienną temp. który ma
+
+03:37.440 --> 03:47.180
+16 stamtąd, mam zamiar chwycić tę sekundę zrobioną dalej, co jest właściwością wewnątrz 10 i powiem, że
+
+03:48.030 --> 03:51.600
+do 10 przechodzi teraz punkt rosy.
+
+03:51.630 --> 03:54.270
+Więc drugi na X wskaże pierwszy.
+
+03:54.270 --> 04:04.200
+Zatem 10 ma strzałkę wskazującą na jedną, a pierwsza zmienna, która była głową, teraz staje się 10,
+
+04:04.290 --> 04:07.310
+a druga pozycja 16.
+
+04:08.150 --> 04:16.460
+Zamieniliśmy wskaźniki od jeden do 10, teraz idzie od 10 do 1 i zmieniliśmy zmienne na pierwsze i drugie, teraz
+
+04:16.550 --> 04:25.650
+mamy 10 i 16, a my przechodzimy przez to samo i robimy to samo, gdy mamy wskaźnik 10 do 16 odwrócony, tak aby
+
+04:25.660 --> 04:31.400
+16 punktów do 10 i zmieniliśmy zmienną tak, aby miała 16 i 18.
+
+04:31.870 --> 04:37.420
+Więc przechodzimy przez tę pętlę przez to, przez co przechodzimy przez to i
+
+04:37.420 --> 04:46.230
+wtedy ostatnią rzeczą, którą musimy zrobić, to powiedzieć, że ten tata miał, ponieważ ta myśl wciąż miała wartość 1 w tym.
+
+04:46.340 --> 04:50.390
+Zamierzamy powiedzieć, że następna kropka będzie równa dwóm.
+
+04:50.480 --> 05:06.370
+Nie, będziemy mieli jeden punkt, by wiedzieć, a ta kropka głowy będzie zamiast tego pierwsza i pamiętaj, że do czasu, gdy
+
+05:06.370 --> 05:15.480
+przejdziemy przez wszystko, najpierw stanie się 88, a druga stanie się Nie.
+
+05:15.820 --> 05:20.920
+Więc teraz zmieniamy się na samym końcu 88, aby być równym głowie.
+
+05:21.370 --> 05:28.510
+Chcemy również upewnić się, że ten ogon jest teraz jeden i sposób, w jaki robimy, że musimy
+
+05:28.510 --> 05:36.210
+iść przed pętlą while i zobacz tutaj, że ten pies miał ten pierwszy element powinien być ogon w górze.
+
+05:36.280 --> 05:47.610
+Tak więc na początku, zanim zrobimy pętlę, ogon stanie się tym psem, który miał rację.
+
+05:47.680 --> 05:51.850
+Wiem, że to było mylące, ale zobaczmy, czy to działa.
+
+05:51.850 --> 05:57.700
+Jest to jeden z tych problemów, które naprawdę trzeba wysuszyć i po prostu patrząc na ten kod,
+
+05:57.700 --> 06:00.500
+naprawdę trudno jest zrozumieć, co się dzieje.
+
+06:00.700 --> 06:06.400
+Zalecam, abyś zakodował to i krok po kroku, być może, prawo konsoli, aby zrozumieć, co się
+
+06:06.400 --> 06:06.840
+dzieje.
+
+06:07.640 --> 06:14.820
+Jeśli odwrócę tę listę i kliknę uruchomię, otrzymam niezdefiniowane, ponieważ musimy zwrócić coś, więc
+
+06:16.020 --> 06:16.880
+wróćmy.
+
+06:16.890 --> 06:21.930
+To dostało listę drukowania, która chce to uruchomić.
+
+06:22.150 --> 06:22.710
+W porządku.
+
+06:22.750 --> 06:26.200
+Pozwolę sobie tylko upewnić się, że cofamy, że zamierzam to skomentować.
+
+06:26.290 --> 06:31.740
+Mamy zatem oryginalną listę 1 10 16 88, jeśli ją odwrócimy.
+
+06:31.780 --> 06:40.170
+Mamy 88 16 10 i 1 i tylko na miarę zamiast drukować listy, wróćmy w tym roku, więc otrzymujemy
+
+06:41.600 --> 06:46.370
+całą listę linków, aby upewnić się, że wszystko działa poprawnie.
+
+06:47.890 --> 06:55.710
+Mam listę połączoną, która ma wartość head wynoszącą 88 i wartość ogona równą 1.
+
+06:55.810 --> 06:58.660
+Wygląda na to, że działa.
+
+06:58.660 --> 06:59.610
+Niesamowite.
+
+06:59.860 --> 07:01.350
+Dobra robota do tej pory.
+
+07:01.420 --> 07:08.710
+I jeśli jesteś w stanie to zrozumieć, myślę, że jest to prawdopodobnie najtrudniejsza koncepcja do
+
+07:09.220 --> 07:11.800
+zrozumienia w całym tym kursie.
+
+07:11.860 --> 07:17.150
+Więc jeśli jesteś w stanie zdobyć tę dobrą robotę, jeśli nie, być może będziesz musiał obejrzeć to wideo kilka razy.
+
+07:17.200 --> 07:23.830
+W końcu i to jest piękno programowania wszystko, co robimy, to logiczne kroki i bez względu na
+
+07:23.830 --> 07:29.080
+to, jakiego języka używasz, czy to javascript jak my w tym przypadku,
+
+07:29.110 --> 07:35.710
+kroki tworzenia listy połączonej są dokładnie takie same składni mogą się różnić, ale logika jest taka sama.
+
+07:35.790 --> 07:36.720
+Zobaczę w następnym.

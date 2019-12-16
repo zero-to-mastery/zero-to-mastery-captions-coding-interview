@@ -1,0 +1,190 @@
+WEBVTT
+
+00:01.540 --> 00:02.710
+Bine ai revenit.
+
+00:02.710 --> 00:06.500
+Tocmai am învățat prima noastră notație Oh.
+
+00:06.580 --> 00:13.850
+Și ori liniar și vedem aici că avem încă câteva rămase.
+
+00:14.240 --> 00:16.690
+Să vorbim despre următorul.
+
+00:16.730 --> 00:22.640
+O alta nota foarte obisnuita, Big-O, ca veti vedea ce se intampla daca avem o astfel de
+
+00:22.640 --> 00:23.230
+functie.
+
+00:24.690 --> 00:35.950
+O funcție care spune prima casetă comprimată care primește o serie de casete și această funcție are pur și simplu console de
+
+00:35.950 --> 00:39.160
+dialog de la zero la zero.
+
+00:39.220 --> 00:45.520
+Deci, asta e doar logarea doar primul element din cutie.
+
+00:45.520 --> 00:54.750
+Ce ai spune Big O din această funcție este cât de mulți pași sau operațiuni are această funcție.
+
+00:54.750 --> 01:04.400
+În cazul în care cutiile cresc de la 0 la 10 sau poate de la 100 la 100000, ce s-ar întâmpla aici.
+
+01:04.710 --> 01:11.890
+Gata pentru răspunsul acesta este ceea ce numim timp constant.
+
+01:11.950 --> 01:20.050
+Este un O de unul care nu contează cât de multe ori cutiile cresc an sau cu toate că multe
+
+01:20.410 --> 01:25.440
+cutii pe care le avem întotdeauna doar grabbing primul element în matrice.
+
+01:25.480 --> 01:33.050
+Dacă ne uităm la acest lucru cu un exemplu dacă avem un ansamblu de an Buxus și îl executăm
+
+01:33.200 --> 01:36.830
+prin funcția care ia doar primul element din matrice.
+
+01:37.750 --> 01:43.510
+Numărul de operațiuni este unul indiferent cât de mare este numărul de cutii.
+
+01:43.510 --> 01:46.400
+Facem doar un singur lucru.
+
+01:46.520 --> 01:49.660
+Deci este un timp constant.
+
+01:49.930 --> 01:59.580
+Dacă privim acest lucru pe un grafic dacă avem un element sau o cutie, facem o operație.
+
+01:59.780 --> 02:05.260
+Dacă avem trei din nou, încă mai facem doar una pentru că noi luăm doar primul element din matrice.
+
+02:05.360 --> 02:08.220
+Dacă trebuie să spunem cinci.
+
+02:08.240 --> 02:11.600
+Același lucru Șapte lucruri același.
+
+02:11.600 --> 02:16.460
+Și ce zici de nouă, același număr de operații.
+
+02:16.460 --> 02:21.030
+Și asta este că nu știu dacă puteți vedea linia, dar acest lucru este doar timpul constante.
+
+02:21.050 --> 02:26.720
+Nu este un timp liniar, ca în cazul în care crește și crește cu numărul
+
+02:26.720 --> 02:29.900
+de operațiuni, numărul de operațiuni rămâne doar plat.
+
+02:32.840 --> 02:36.230
+Dar am o întrebare aici, dacă facem ceva diferit.
+
+02:36.350 --> 02:38.020
+Dacă facem ceva de genul asta.
+
+02:39.400 --> 02:47.070
+Ce se întâmplă dacă avem o funcție care spune funcția log GRABBE.
+
+02:47.070 --> 02:47.760
+Primele
+
+02:51.110 --> 03:04.710
+două casete și aceasta necesită o serie de casete și consolează sau înregistrează primul element din matrice și se va
+
+03:06.110 --> 03:08.180
+consolă în dialog.
+
+03:08.300 --> 03:15.200
+De asemenea, al doilea element din matrice.
+
+03:15.350 --> 03:17.740
+Cum vom măsura big-O a acestei funcții.
+
+03:18.870 --> 03:25.770
+Ei bine, lasă-mă să fiu comună această rezolvare pentru o secundă, deoarece nu avem nevoie de
+
+03:25.880 --> 03:36.050
+acest lucru chiar acum și trebuie doar să creăm o matrice numită cutii și aceste cutii trebuie să spună 0 1 2 3 4 și 5.
+
+03:36.120 --> 03:47.090
+Deci, 5 elemente sau 6 în acest caz, deoarece vom include 0 și dacă vom rula această funcție log primul două cutii și le
+
+03:47.090 --> 03:51.220
+vom da caseta matrice și facem clic pe Run.
+
+03:51.220 --> 03:54.890
+Aici avem 0 și 1.
+
+03:54.890 --> 04:00.470
+Așa că am înregistrat-o pe aceasta și apoi pe cea care-i numărul de operațiuni aici.
+
+04:01.520 --> 04:09.030
+Ei bine, avem una care este o operație aici.
+
+04:09.030 --> 04:20.890
+Și apoi avem aici o dată din nou de fiecare dată când această funcție rulează două operații.
+
+04:20.930 --> 04:31.730
+Deci, această funcție în total este de fapt executată de câte două operațiuni de fiecare dată.
+
+04:31.730 --> 04:39.470
+Deci, indiferent cât de mari sunt cutiile, numărul de operațiuni aici va fi prea mult dacă privim acest lucru pe
+
+04:39.470 --> 04:49.260
+un grafic în loc de a avea pe toate ca avem înainte de a avea o o de două și apoi dacă am avea trei
+
+04:49.260 --> 04:52.210
+operațiuni se va doar 0 sau 3.
+
+04:52.290 --> 04:56.340
+Dar, în general, este încă o linie plată.
+
+04:56.530 --> 04:59.650
+Și acesta este ceva la care vom ajunge mai târziu.
+
+04:59.650 --> 05:08.920
+Dar când vine vorba de costuri și de timp, nu ne pasă de zgomotul de unu din doi sau trei chiar de
+
+05:08.940 --> 05:10.020
+o sută.
+
+05:10.240 --> 05:17.060
+Ajungem la asta doar pentru a spune pur și simplu despre unul care este.
+
+05:17.170 --> 05:18.860
+Avem timp constant.
+
+05:18.880 --> 05:22.050
+Este o linie plată în ceea ce privește scalabilitatea.
+
+05:22.120 --> 05:28.520
+Nu contează cât de mari sunt intrările noastre că vom face mereu timpul constant pe o funcție
+
+05:30.840 --> 05:37.740
+și dacă ne uităm la acest lucru pe un grafic vedem că unul de aici este zona verde închis.
+
+05:37.780 --> 05:39.070
+Este excelent.
+
+05:39.070 --> 05:42.480
+Ne iubim pe toti, pentru ca este foarte scalabil.
+
+05:42.520 --> 05:44.630
+Nu contează cât de multe elemente avem.
+
+05:44.640 --> 05:50.750
+Este întotdeauna să ruleze aceeași previzibilitate atunci când vine vorba de calcul este
+
+05:50.790 --> 05:56.120
+foarte foarte frumos și toate unul este cu siguranta excelent OK.
+
+05:56.220 --> 06:04.810
+Așadar, am învățat despre timpul liniar toate și apoi costurile și timpul oh de unul.
+
+06:04.970 --> 06:09.120
+Să facem un exercițiu distractiv pentru a ne solidifica cunoștințele aici.

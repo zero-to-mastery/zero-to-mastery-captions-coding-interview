@@ -1,0 +1,211 @@
+WEBVTT
+
+00:03.250 --> 00:09.700
+Saya ingin menunjukkan satu contoh terakhir dan ini mungkin contoh terbaik mengapa
+
+00:09.940 --> 00:12.380
+pemrograman dinamis sangat penting
+
+00:12.730 --> 00:17.540
+Dan seperti yang akan Anda ingat ketika saya mengatakan pemrograman dinamis yang terdengar agak membingungkan.
+
+00:17.650 --> 00:23.900
+Bayangkan saja caching mengoptimalkan sesuatu menggunakan cache.
+
+00:23.920 --> 00:31.820
+Salah satu contoh terbaik mengapa pemrograman dinamis begitu baik adalah urutan teman baik Fibonacci kita.
+
+00:32.320 --> 00:37.990
+Kami belajar tentang ini di bagian rekursi kami dari kursus di mana dua angka sebelumnya ditambahkan
+
+00:37.990 --> 00:39.150
+ke nomor berikutnya.
+
+00:39.640 --> 00:48.160
+Jadi 13 adalah lima ditambah Delapan tiga puluh empat adalah 13 ditambah 21 dan terus berkembang terus bertambah dan
+
+00:48.760 --> 00:51.750
+kita belajar bagaimana menghitungnya dengan benar.
+
+00:51.820 --> 00:56.170
+Kami dapat menghitung angka Fibonacci dengan mudah.
+
+00:56.170 --> 00:57.700
+Kami memiliki fungsi
+
+01:00.010 --> 01:03.310
+Fibonacci yang merupakan nama yang sangat sulit untuk dieja.
+
+01:03.430 --> 01:12.030
+Saya percaya ini seperti ini dan semua yang kami lakukan adalah kami katakan menggunakan rekursi kami memiliki kasus dasar kurang dari
+
+01:12.030 --> 01:12.770
+dua.
+
+01:12.780 --> 01:18.210
+Dalam hal ini kami akan mengembalikan yang sebaliknya.
+
+01:18.250 --> 01:31.050
+Kami melakukan rekursi yang menyenangkan, kami mengembalikan Fibonacci dan minus satu plus Fibonacci dan minus dua.
+
+01:31.340 --> 01:41.460
+Sehingga jika saya ingin mencari angka Fibonacci di indeks katakanlah 6 dan saya menjalankan ini.
+
+01:41.560 --> 01:44.950
+Dan catatan itu harus berupa angka.
+
+01:44.950 --> 01:45.990
+Mari kita jalankan lagi.
+
+01:46.240 --> 01:53.830
+Saya mendapatkan 8 karena 0 1 2 3 4 5 6 8 5 2 7.
+
+01:53.830 --> 01:57.640
+Saya harus mendapatkan 13 yang luar biasa.
+
+01:57.650 --> 01:59.830
+Ini adalah sesuatu yang harus kita ketahui.
+
+02:00.060 --> 02:01.600
+Tapi izinkan saya mengajukan pertanyaan kepada Anda.
+
+02:01.640 --> 02:04.550
+Seberapa efisien fungsi ini.
+
+02:05.930 --> 02:07.810
+Dan kita sudah membicarakannya sebelumnya.
+
+02:07.820 --> 02:09.150
+Ini tidak terlalu efisien.
+
+02:09.260 --> 02:12.920
+Jika saya memiliki variabel di sini yang mengatakan mari kita sebut itu perhitungan
+
+02:15.460 --> 02:17.200
+yang akan sama dengan nol.
+
+02:17.380 --> 02:24.130
+Dan kita hanya akan menambah ini setiap kali fungsi ini dipanggil.
+
+02:24.340 --> 02:27.940
+Dan karena ini bersifat rekursif, kita tahu bahwa itu sering dipanggil.
+
+02:28.210 --> 02:31.900
+Jika saya melakukan Fibonacci 7 berapa banyak perhitungannya.
+
+02:31.960 --> 02:38.710
+Itu 13 perhitungan sehingga 13 kali kita menjalankan fungsi Bonacci gratis.
+
+02:38.710 --> 02:45.840
+Bagaimana jika saya meningkatkannya menjadi 8 21 Oke bagaimana dengan sembilan tiga puluh empat.
+
+02:45.870 --> 02:48.710
+Bagaimana dengan 10 lima puluh lima.
+
+02:48.710 --> 02:50.690
+Baiklah itu meningkat cukup cepat.
+
+02:50.690 --> 02:52.720
+Bagaimana jika saya melakukannya 12.
+
+02:52.780 --> 02:57.640
+Seratus empat puluh empat perhitungan hanya untuk mendapatkan indeks ke-12.
+
+02:57.640 --> 03:04.710
+Wow bagaimana jika saya melakukan 15.610 perhitungan.
+
+03:05.010 --> 03:07.530
+Bagaimana dengan 20.
+
+03:07.700 --> 03:09.200
+Moly suci.
+
+03:09.200 --> 03:13.180
+Lebih dari 6000 perhitungan dan hanya untuk bersenang-senang.
+
+03:13.190 --> 03:16.050
+Bagaimana jika saya lakukan 25 Oh boy.
+
+03:16.120 --> 03:18.040
+Baiklah untuk terakhir kalinya hanya karena kita bersenang-senang.
+
+03:18.040 --> 03:19.730
+30.
+
+03:19.810 --> 03:20.200
+Baiklah.
+
+03:20.200 --> 03:21.900
+Itu banyak perhitungan.
+
+03:22.180 --> 03:28.760
+Dan omong-omong jika Anda memenangkan browser Anda untuk crash cukup ketik 50 atau 60 dan lihat apa yang terjadi di sana.
+
+03:30.160 --> 03:39.250
+Terlepas jika kita melihat ini, tembok ini cukup mengerikan hanya untuk menghitung angka 30 atau
+
+03:39.250 --> 03:45.910
+indeks dari urutan Fibonacci mengambil banyak langkah yang banyak perhitungan.
+
+03:45.910 --> 03:47.680
+Itu banyak.
+
+03:47.680 --> 03:49.230
+Ini tidak terlalu efisien.
+
+03:49.490 --> 03:57.220
+Dan kita tahu ini benar karena di bagian rekursi kita berbicara tentang bagaimana deret Fibonacci dan cara
+
+03:57.250 --> 04:04.480
+kita menjalankan fungsinya adalah 0 dari 2 dengan kekuatan dan kompleksitas waktu yang benar-benar buruk seperti
+
+04:05.580 --> 04:10.350
+yang kita lihat hanya melakukan 30 kalkulasi membutuhkan banyak langkah-langkah.
+
+04:10.440 --> 04:18.990
+Dan ingat dengan rekursi kami menambahkan setiap panggilan fungsi bersarang menambah tumpukan yang meningkatkan kompleksitas memori kami dan
+
+04:18.990 --> 04:26.400
+kami tidak akan pernah mau melakukan operasi yang menghabiskan biaya sebanyak ini dalam kehidupan nyata.
+
+04:26.430 --> 04:28.930
+Jadi bagaimana kita membuatnya lebih efisien.
+
+04:29.100 --> 04:31.530
+Bisakah kita membuatnya lebih efisien.
+
+04:31.530 --> 04:37.950
+Maksud saya jika fungsi kita jika Anda menulis fungsi itu adalah bos Anda akan memecat Anda karena itu semua
+
+04:37.950 --> 04:38.790
+sangat mengerikan.
+
+04:38.910 --> 04:45.000
+Maksud saya jika bos Anda mengerikan Mungkin tetapi jika Anda tahu pemrograman dinamis, Anda
+
+04:45.540 --> 04:54.300
+dapat menghindari ini karena bagaimana jika saya katakan bahwa kami dapat melakukan dan dengan fungsi ini karena dengan pemrograman dinamis kami dapat.
+
+04:54.600 --> 05:01.320
+Itu benar kita bisa pergi dari keduanya ke taman dan sampai ke mereka semua.
+
+05:01.590 --> 05:03.900
+Kedengarannya seperti sulap bukan.
+
+05:03.900 --> 05:07.370
+Dan di sinilah kita sampai ke langkah berikutnya dari pemrograman dinamis kita.
+
+05:07.440 --> 05:15.130
+Kami dapat mengurangi kompleksitas ruang dan waktu dari algoritma kami dengan menggunakan menghafal dan kami dapat melakukan ini
+
+05:15.130 --> 05:20.470
+karena solusi untuk setiap masalah Suppe adalah apa yang kami sebut optimal.
+
+05:20.470 --> 05:26.560
+Itu berarti kami melakukan banyak masalah berulang kali yang sama di video berikutnya.
+
+05:26.560 --> 05:30.290
+Kami akan menjelaskan konsep ini dan melihat bagaimana kami dapat menggunakan memoisasi.
+
+05:30.650 --> 05:31.300
+Saya akan lihat yang itu.

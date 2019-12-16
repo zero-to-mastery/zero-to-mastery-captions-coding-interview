@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.520 --> 00:01.870
+Witamy spowrotem.
+
+00:01.870 --> 00:07.720
+Rozmawialiśmy o drzewach binarnych w poszukiwaniu drzew binarnych, a następnie dowiedzieliśmy się,
+
+00:08.020 --> 00:16.750
+jak zrównoważyć te drzewa i niektóre komplikacje związane z BSD i chciałbym z tobą porozmawiać o dwóch innych
+
+00:16.750 --> 00:18.540
+popularnych typach Treece.
+
+00:18.610 --> 00:24.560
+Jedna to kupa, a druga to tri lub drzewo w tym filmie.
+
+00:24.640 --> 00:27.600
+Porozmawiajmy o owcach.
+
+00:27.760 --> 00:34.060
+Teraz, gdy chodzi o stertę, najprawdopodobniej będziemy rozmawiać o stertach binarnych, tak jak mieliśmy z
+
+00:34.240 --> 00:35.390
+drzewami binarnymi.
+
+00:35.410 --> 00:41.070
+Oznacza to, że do dwójki będzie tylko dwoje dzieci.
+
+00:41.130 --> 00:46.230
+Dlaczego są one przydatne i jak różnią się od drzew binarnych?
+
+00:46.230 --> 00:47.130
+Chodźmy popatrzeć.
+
+00:48.570 --> 00:49.810
+Binarne drzewo.
+
+00:50.220 --> 00:52.430
+Każde dziecko należy do rodzica.
+
+00:52.440 --> 00:56.790
+Zwróć uwagę, że ma większy priorytet lub wartość.
+
+00:56.790 --> 01:05.240
+Jeśli spojrzysz tutaj, każde dziecko, które ma siedemdziesiąt dwa i trzydzieści trzy, jest niższe niż jeden na siedemdziesiąt
+
+01:05.280 --> 01:13.590
+dwa, to jest wyższe niż dwa, a czterdzieści pięć i trzydzieści trzy jest wyższe niż pięć, a
+
+01:13.590 --> 01:16.420
+drugie jest tak zwane maksimum.
+
+01:16.440 --> 01:23.630
+Jest też coś, co nazywa się minową stertą, która jest dokładnym przeciwieństwem, gdzie węzeł główny jest najmniejszy.
+
+01:23.640 --> 01:25.680
+Teraz ta wartość może być dowolna.
+
+01:25.680 --> 01:27.720
+Może to być imię osoby.
+
+01:27.720 --> 01:29.270
+Może to być liczba.
+
+01:29.340 --> 01:31.960
+To naprawdę może być cokolwiek, ponieważ jest notatką.
+
+01:32.240 --> 01:40.980
+Ale jak widać, wszystko, z czym mamy do czynienia, polega na tym, że w binarnej kupie każdy węzeł na najwyższym
+
+01:40.980 --> 01:49.920
+poziomie ma większą wartość niż każdy węzeł na niższym poziomie, a stertę można wykorzystać w dowolnym algorytmie, w którym ważne
+
+01:49.920 --> 01:51.180
+jest zamawianie.
+
+01:51.180 --> 01:57.630
+I jak będziemy dyskutować, jest to powszechnie używane, jeśli chodzi o kolejki priorytetowe.
+
+01:57.780 --> 02:04.770
+Teraz z wyścigiem mieliśmy losowy dostęp, który pozwolił nam na losowy dostęp do dowolnego elementu w nich
+
+02:04.770 --> 02:07.770
+za pomocą indeksu na połączonej liście.
+
+02:07.770 --> 02:15.360
+Możemy zmieniać rzeczy dynamicznie w odróżnieniu od tablicy, ale znalezienie czegoś w nich jest czasem
+
+02:15.360 --> 02:20.930
+liniowym, ponieważ musieliśmy przejść przez listę linków tutaj trochę inaczej.
+
+02:20.970 --> 02:28.590
+Nie możesz zrobić całego losowego dostępu, tak jak to zrobiliśmy z tablicami, są to tablice hashowe, ponieważ
+
+02:28.600 --> 02:34.930
+wiemy o drzewach, które musimy teraz wykonać, w porównaniu z drzewem binarnym, które widzimy.
+
+02:35.370 --> 02:38.420
+Dobrze spojrzeć w górę, to O.
+
+02:38.580 --> 02:45.720
+I to nie wszystko z logu i dlatego, że jest mniej uporządkowane niż binarne drzewo wyszukiwania.
+
+02:45.930 --> 02:51.330
+Drzewo wyszukiwania binarnego miało znaczenie między lewym a prawym z lewej strony, zawsze było mniejsze
+
+02:51.330 --> 02:53.300
+niż prawo w binarnej kupce.
+
+02:53.370 --> 02:54.590
+To nie ma znaczenia.
+
+02:54.600 --> 02:59.230
+Lewo i prawo może być dowolną wartością, o ile jest mniejsza niż najwyższa wartość.
+
+02:59.700 --> 03:06.150
+Jeśli więc szukamy, powiedzmy, że musimy sprawdzić węzeł nadrzędny, musimy to sprawdzić, ponieważ jeden na jednego lub dlatego,
+
+03:06.260 --> 03:09.580
+że jeden jest mniejszy niż 1 do 1.
+
+03:09.630 --> 03:12.450
+Musimy sprawdzić oba węzły pod nim.
+
+03:12.450 --> 03:19.050
+A ponieważ jeden jest mniejszy niż 72 i 33, musimy jeszcze raz sprawdzić każdą
+
+03:19.050 --> 03:28.560
+pojedynczą nutę, a szukanie 1 staje się 0 logiem, a więc prawie zmieniło się w przeszukiwanie połączonej listy lub iterowanie
+
+03:28.590 --> 03:30.100
+przez tablicę.
+
+03:30.110 --> 03:37.870
+Dlaczego więc mielibyśmy chcieć użyć binarnej kupki? Cóż, okazuje się, że binarne hałdy są
+
+03:37.870 --> 03:40.890
+naprawdę świetne w przeprowadzaniu porównań.
+
+03:41.140 --> 03:49.810
+Tak jak mówię, chcę mieć ludzi, którzy mają wartość powyżej 33, ponieważ w takim przypadku możemy po prostu chwytać te
+
+03:49.810 --> 03:53.970
+przedmioty z łatwością, zamiast przechodzić całą drogę do nut.
+
+03:57.520 --> 04:03.590
+Właściwie wiele użył w algorytmach sortowania kolejek priorytetów przechowywania danych.
+
+04:03.690 --> 04:10.090
+Spójrzmy więc, w jaki sposób wizualnie zaimplementowana jest binarna sterty.
+
+04:10.150 --> 04:13.150
+Mamy tutaj binarną stertę wykorzystującą wizualne przejście.
+
+04:13.360 --> 04:20.250
+A jeśli chcemy dodać, powiedzmy, że wstawiliśmy 26, to dobrze.
+
+04:20.250 --> 04:21.890
+To było naprawdę szybkie.
+
+04:22.290 --> 04:27.320
+Ale co by było, gdybyśmy chcieli
+
+04:30.230 --> 04:34.600
+wstawić, powiedzmy 51 finansistów 51.
+
+04:34.830 --> 04:43.170
+Musiałem zrobić trochę zmiany, aby zobaczyć, że stosy dodają wartość na drzewie w kolejności od lewej do prawej, a
+
+04:43.230 --> 04:44.740
+następnie w górę.
+
+04:45.030 --> 04:50.780
+Jeśli nie jest w tej samej kolejności lub kolejności pierwszeństwa, to jest tak jak my tutaj.
+
+04:50.820 --> 04:56.780
+Więc jeśli dodam powiedzmy 70 lub wiesz co.
+
+04:56.850 --> 04:58.910
+Dodajmy sto.
+
+04:58.920 --> 05:00.130
+Jak myślisz, co się stanie.
+
+05:01.280 --> 05:07.540
+Cóż, jeśli uderzę, zobaczysz, że dodaję sto, a potem się pęcznieje.
+
+05:07.560 --> 05:13.170
+Tak więc, jak widać, wstawki, mimo że wyglądają szybko, mogą nadal robić logi
+
+05:16.680 --> 05:19.460
+i tak samo jest z usuwaniem.
+
+05:19.500 --> 05:20.690
+To wszystko z logu.
+
+05:20.780 --> 05:27.900
+A teraz, aby naprawdę zrozumieć, dlaczego potrzebujemy czegoś w rodzaju binarnej kupy, dlaczego są tak użyteczne.
+
+05:27.900 --> 05:30.320
+Czym różnią się od binarnego drzewa wyszukiwania.
+
+05:30.570 --> 05:33.140
+Musimy porozmawiać o kolejkach priorytetowych.
+
+05:33.360 --> 05:35.220
+Pomówmy więc o kolejkach priorytetowych.

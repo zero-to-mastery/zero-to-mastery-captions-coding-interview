@@ -1,0 +1,64 @@
+WEBVTT
+
+00:02.800 --> 00:11.200
+Nie możesz mówić o rekursji bez mówienia o sekwencji Fibonacciego Co to jest sekwencja Bonacci
+
+00:11.200 --> 00:12.220
+pola.
+
+00:12.220 --> 00:16.990
+Cóż, to jest ta sekwencja tutaj.
+
+00:16.990 --> 00:22.970
+Jeśli zauważysz, to zawsze dodajemy, że pierwsze dwa elementy są równe temu.
+
+00:22.990 --> 00:30.920
+Tak więc zero plus jeden równa się jeden plus jeden równa się jeden plus dwa równe trzy dwa plus trzy.
+
+00:30.940 --> 00:31.710
+Zadzwonił pięć.
+
+00:31.810 --> 00:34.770
+Tak dalej i tak dalej, tak i tak dalej.
+
+00:34.810 --> 00:39.410
+Zatem poprzednie dwie liczby są zawsze równe bieżącej liczbie.
+
+00:39.820 --> 00:45.590
+Więc mam dla ciebie jeszcze jedno ćwiczenie nieco trudniejsze niż poprzednie.
+
+00:46.860 --> 00:57.660
+Biorąc pod uwagę liczbę N, którą funkcja będzie odbierała, zwracana jest wartość indeksu sekwencji Fibonacciego.
+
+00:59.290 --> 01:10.710
+Więc jeśli powiem, że chcę, żeby koniec był równy, to da mi 0 1 2, który jest numerem jeden.
+
+01:10.870 --> 01:17.090
+Ta funkcja zwróci 1, jeśli powiem Fibonacciego numer 8.
+
+01:17.140 --> 01:23.040
+Dostałbym 0 1 2 3 4 5 6 7 8.
+
+01:23.120 --> 01:25.670
+Zdobyłbym 21.
+
+01:25.750 --> 01:31.550
+Funkcja pokaże mi, jaki numer jest powiązany z indeksem, który mu podaję.
+
+01:31.620 --> 01:40.990
+Ponownie mam iteracyjne podejście, które wykorzystuje proste dla pętli, a także podejście
+
+01:41.050 --> 01:42.180
+rekursywne.
+
+01:42.250 --> 01:46.330
+Rzucam Ci wyzwanie, aby wypróbować oba te rozwiązania i sprawdzić, czy możesz to zrobić.
+
+01:46.330 --> 01:54.340
+I dużą wskazówką jest to, że podejście rekurencyjne jest łatwiejsze niż podejście iteracyjne.
+
+01:54.340 --> 01:57.990
+Więc powodzenia i do zobaczenia w filmie z rozwiązaniem.
+
+01:58.240 --> 01:58.540
+Buh-Bye.

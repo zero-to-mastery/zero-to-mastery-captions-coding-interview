@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.020 --> 00:10.930
+Co to jest funkcja skrótu to coś, co jest używane w całej informatyce, funkcja hash jest po
+
+00:11.080 --> 00:18.920
+prostu funkcją, która generuje wartość stałej długości dla każdego wejścia, które dostaje.
+
+00:19.130 --> 00:20.850
+W porządku, co to znaczy.
+
+00:21.260 --> 00:29.240
+Cóż, mam tutaj M. D pięć hash generowane i pięć jest typem funkcji mieszania i istnieje wiele
+
+00:29.240 --> 00:30.020
+wielu typów.
+
+00:30.200 --> 00:37.570
+Być może słyszeliście o Schwann Shaw 2:56 i wielu innych używających tej funkcji skrótu.
+
+00:37.570 --> 00:39.980
+Zobaczmy, co się stanie, jeśli to zrobię.
+
+00:40.420 --> 00:42.590
+Dzień dobry.
+
+00:42.630 --> 00:53.250
+Widzisz to od razu, a pięć spina ten ciąg i zamienia go w jibberish.
+
+00:53.390 --> 00:55.540
+Tak właśnie działa funkcja skrótu.
+
+00:55.580 --> 01:03.470
+Dajemy mu dane wejściowe, a funkcja generuje losowy wzór.
+
+01:03.470 --> 01:07.540
+Teraz są pewne kluczowe aspekty funkcji skrótu.
+
+01:07.550 --> 01:16.670
+Po pierwsze jest to jeden sposób w tym sensie, że jeśli dam komuś to, nie ma pojęcia, co to było
+
+01:16.670 --> 01:17.410
+wejście.
+
+01:17.990 --> 01:24.820
+I praktycznie niemożliwe jest, aby mieć jakąkolwiek wskazówkę co do tego, co to jest wejście.
+
+01:24.830 --> 01:31.560
+Po drugie, bez względu na to, ile razy wrzucę Hello, to będzie takie samo.
+
+01:31.790 --> 01:38.470
+Ale wkrótce, gdy zmienię jedną rzecz, całkowicie zmieniłem wynik.
+
+01:38.840 --> 01:46.280
+Jeśli wrócę do cześć i obmyj mnie, po prostu zamień na kapitał H, nawet wielką literę.
+
+01:46.320 --> 01:53.680
+Zaczyna się więc od 5 d, jeśli zrobię kapitał H, to znowu jest zupełnie inaczej.
+
+01:54.610 --> 02:00.840
+Patrząc na to, możemy przynajmniej powiedzieć, że nie wiem, do czego jest to przydatne.
+
+02:00.880 --> 02:06.550
+Ale jedyną rzeczą, którą znam jest to, że bez względu na to, czy dam to
+
+02:06.550 --> 02:13.530
+samo wejście, które da mi taki sam wynik, ale nie mam pojęcia, jak przekonwertować to z powrotem na cześć.
+
+02:13.690 --> 02:20.110
+To właśnie nazywamy dogłębną treścią lub w Dempo i mamy różne wymowy.
+
+02:20.110 --> 02:26.350
+Nie jestem pewien, który z nich jest który, ale jest to fantazyjny sposób powiedzenia, że funkcja
+
+02:26.440 --> 02:29.800
+podana na wejściu zawsze wyprowadza to samo wyjście.
+
+02:29.810 --> 02:37.700
+Teraz jedyną korzyścią i dlaczego chcielibyśmy użyć tej i struktury danych jest to, że uzyskujemy naprawdę
+
+02:37.880 --> 02:51.230
+szybki dostęp do danych, ponieważ wszystko, co musimy zrobić, aby znaleźć winogrona lub kroplowe winogrona Basketta, to przekazać winogrona do czegoś w rodzaju pustego, pięciokrotnego hashu, które
+
+02:51.230 --> 02:58.500
+generuje ten numer dla mnie i od razu wiem, gdzie jest w mojej pamięci na
+
+02:58.890 --> 03:00.410
+naszym komputerze.
+
+03:00.600 --> 03:03.160
+Ale nie wygląda na to, że robi to adres.
+
+03:04.580 --> 03:09.050
+Z technicznego punktu widzenia zajmie to funkcja skrótu, której używamy do tabel mieszania.
+
+03:09.050 --> 03:18.650
+Winogrona generują pewnego rodzaju jibberish, a następnie konwertowane do przestrzeni indeksu lub przestrzeni adresowej, która
+
+03:18.650 --> 03:22.310
+została oparta na tym numerze.
+
+03:22.410 --> 03:32.210
+W przeciwieństwie do tablic, w których właśnie zamówiliśmy indeksy z tablicami haszującymi, wystarczy podać klucz i dokładnie wiemy,
+
+03:32.210 --> 03:36.740
+gdzie ten element znajduje się w naszej pamięci.
+
+03:37.260 --> 03:44.340
+Ale możesz się zastanawiać, czy funkcja mieszania czarnej skrzynki nie tylko spowalnia działanie, ponieważ za
+
+03:44.340 --> 03:54.050
+każdym razem, gdy chcemy dodać właściwość i wartość winogron i 10000 do tabeli mieszania, musimy uruchomić ją przez funkcję mieszania, abyśmy
+
+03:54.050 --> 03:58.220
+mogli zdecydować, gdzie aby umieścić go w pamięci.
+
+03:58.640 --> 04:05.240
+A jeśli zauważyłeś, że dobra robota to duży czynnik, nie chcesz, aby
+
+04:05.240 --> 04:14.150
+zajęło to dużo czasu, ponieważ za każdym razem, gdy dodajesz właściwość do pamięci lub odzyskujesz właściwość do pamięci, ponieważ
+
+04:14.210 --> 04:21.430
+znowu obie razy wysyłaliśmy kluczowe winogrona do funkcji skrótu, aby dowiedzieć się, skąd ją pobrać.
+
+04:21.470 --> 04:25.840
+Musimy to naprawdę bardzo szybko i pod maską.
+
+04:25.880 --> 04:33.970
+Pamiętaj, że tabele mieszania istnieją we wszystkich językach, w których są one implementowane z optymalną funkcją mieszającą.
+
+04:34.040 --> 04:41.720
+To naprawdę bardzo szybkie jako funkcja hashowania strony dodatkowej, jak Shah 2:56.
+
+04:41.830 --> 04:50.760
+Daj naprawdę dużo czasu na wygenerowanie hasza i jest to zbyt skomplikowana funkcja mieszania, która jest często
+
+04:50.760 --> 04:59.970
+używana i miejsca takie jak kryptografia, gdzie chcesz, żeby to trwało dłużej, ale to jest poza zakresem dyskursu,
+
+04:59.970 --> 05:02.090
+jeśli jesteś zainteresowany.
+
+05:02.100 --> 05:08.880
+Polecam sprawdzić różnice między tymi dwoma, aby przejrzeć.
+
+05:08.910 --> 05:11.760
+Mamy klucz, którym są winogrona.
+
+05:11.760 --> 05:18.240
+Wysyłamy go za pomocą funkcji mieszającej, która ma zamiar sprowadzić coś naprawdę
+
+05:18.240 --> 05:29.300
+bardzo szybko, a następnie mapuje to, co hasz wyszedł na adres pamięci, w którym chcemy przechowywać nasze dane nasze winogrona 10000.
+
+05:29.440 --> 05:34.950
+A jeśli chodzi o funkcje mieszania, zazwyczaj pozostawiasz to przy dowolnej strukturze lub języku, z
+
+05:34.960 --> 05:35.900
+którego korzystasz.
+
+05:36.100 --> 05:44.670
+I zwykle zakładamy złożoność czasu lub notację Big-O 0 1, ponieważ dzieje się to naprawdę szybko.
+
+05:44.740 --> 05:45.270
+W porządku.
+
+05:45.340 --> 05:51.580
+Teraz, gdy rozumiemy, co to czarna skrzynka, porozmawiajmy trochę więcej o tabelach mieszania, dlaczego są one
+
+05:51.580 --> 05:55.580
+przydatne i dlaczego w niektórych przypadkach są lepsze niż wyścig.

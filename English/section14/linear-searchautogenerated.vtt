@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.890 --> 00:01.740
+Welcome back.
+
+00:02.030 --> 00:10.870
+Let's talk about the very first type of search in your search in computer science linear search or sequential
+
+00:10.960 --> 00:16.760
+search is a method of finding a target value within the list.
+
+00:16.960 --> 00:22.480
+And we should be familiar with this before because to run the course we've loop through arrays to find
+
+00:22.480 --> 00:30.310
+items it sequentially checks each element of the list for the target value until a match is found or
+
+00:30.340 --> 00:32.990
+until all the elements have been searched.
+
+00:33.460 --> 00:38.650
+Let's take a look at a visual linear search is simply this.
+
+00:38.770 --> 00:47.450
+We have items that can be nodes that can be numbers that can be anything and we go one by one looking
+
+00:47.450 --> 00:49.420
+through the list.
+
+00:49.650 --> 00:57.540
+We check the first item then the second item the third the fourth the fifth and the sixth in the best
+
+00:57.540 --> 01:05.250
+case scenario we find what we're looking for in all of one time because it's at the very beginning of
+
+01:05.250 --> 01:05.860
+the list.
+
+01:05.940 --> 01:08.850
+Such as if we're looking for six over here.
+
+01:08.850 --> 01:12.620
+However in worst case we have to go through the entire list.
+
+01:12.720 --> 01:17.460
+If we're looking for nine and check every single note or if we're looking for something that doesn't
+
+01:17.460 --> 01:23.690
+exist we still have to check every single item and this type of sorting is very familiar to us.
+
+01:24.850 --> 01:32.220
+For example if we take a look at javascript I have a list over here of beasts and let's say we're looking
+
+01:32.220 --> 01:33.220
+for a good Zilah.
+
+01:33.600 --> 01:37.200
+There's many ways that I could search for this item.
+
+01:37.270 --> 01:39.420
+Good Godzilla in this list.
+
+01:39.510 --> 01:47.480
+One way of doing it in javascript is using index of which gives me the index where I can find Godzilla.
+
+01:47.670 --> 01:57.900
+And this uses linear search to try and find the item Another way is to use find index that takes a function
+
+01:58.260 --> 02:04.530
+with a condition that the item must equal Godzilla and it's going to return true when it find something
+
+02:04.980 --> 02:05.640
+again.
+
+02:05.670 --> 02:16.100
+If I run this I get one another way is to use the Find function giving it the same function as we did
+
+02:16.100 --> 02:16.580
+above.
+
+02:16.730 --> 02:21.420
+But this time it's going to return the actual item instead of the index.
+
+02:21.510 --> 02:22.760
+Goodwill.
+
+02:22.980 --> 02:31.700
+And then also finally we also have this way of searching that includes method that simply says does
+
+02:31.730 --> 02:36.590
+beasts include Godzilla and it's going to give me true or false.
+
+02:36.710 --> 02:43.470
+In this case it's true and your language will have different ways to implement this type of search.
+
+02:44.060 --> 02:49.480
+But all of these searches are linear searches that is worst case.
+
+02:49.490 --> 02:56.150
+We're going through the entire list and as you know our inputs are our lists can get really really large
+
+02:56.570 --> 03:05.570
+and linear time of an is OK but it's not the fastest we can't use linear search to index web sites like
+
+03:05.570 --> 03:11.760
+Google or search for friends like Facebook because it's going to cost us a lot of time.
+
+03:14.360 --> 03:16.260
+Is there a better way.
+
+03:17.520 --> 03:27.670
+Well what if the list of our data here was perhaps sorted would that help us in any way would we be
+
+03:27.670 --> 03:28.820
+able to improve.
+
+03:28.990 --> 03:31.620
+Let's say we're looking for 9 now.
+
+03:31.900 --> 03:34.190
+And we knew that the list was sorted.
+
+03:34.420 --> 03:36.550
+Let's answer that question in the next video.

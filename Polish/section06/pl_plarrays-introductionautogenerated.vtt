@@ -1,0 +1,430 @@
+WEBVTT
+
+00:01.050 --> 00:09.210
+Woohoo nadszedł czas, aby nauczyć się naszej pierwszej struktury danych
+
+00:09.210 --> 00:20.070
+i takiej, która najprawdopodobniej dobrze zna tablice tablic, które są czasami nazywane elementami organizacyjnymi Liszta.
+
+00:20.070 --> 00:23.280
+Oznacza to, że jeden po drugim w pamięci.
+
+00:23.280 --> 00:33.030
+Jakbyśmy mieli tutaj mamy jakieś dane w indeksie 0 powiedzmy sok, a zaraz po indeksie 1
+
+00:33.390 --> 00:35.670
+mamy coś innego.
+
+00:35.670 --> 00:43.290
+Może Apple może to jest lista zakupów w naszej pamięci komputerów będzie jedna po drugiej, ponieważ pamiętaj, że
+
+00:43.290 --> 00:47.520
+nasza pamięć RAM jest dużo większa niż siedem gniazd.
+
+00:48.360 --> 00:53.710
+A tablice są prawdopodobnie najprostszymi i najczęściej używanymi strukturami danych.
+
+00:53.800 --> 00:59.440
+I na szczęście dla nas zaczynamy od tego, ponieważ tablice mają najmniej reguł
+
+00:59.560 --> 01:04.240
+i są przechowywane w ciągłej pamięci, która jest w porządku.
+
+01:04.240 --> 01:07.720
+Mają także najmniejszy ślad w strukturze danych.
+
+01:08.710 --> 01:15.560
+Więc jeśli wszystko, czego potrzebujesz, to przechowywanie pewnych danych i iterowanie po nim, to jest krok po kroku.
+
+01:15.790 --> 01:23.630
+Tablice są najlepszym wyborem, zwłaszcza jeśli znasz indeksy znajdujące się po lewej stronie przechowywanych przedmiotów
+
+01:23.630 --> 01:30.110
+i są to szybkie skróty, które omówimy bardziej szczegółowo w kolejnych filmach.
+
+01:30.990 --> 01:37.190
+Ale spójrz w górę lub uzyskaj dostęp, usuwając naszego Konstantyna z jednego.
+
+01:37.200 --> 01:39.420
+Jest super super szybki.
+
+01:39.420 --> 01:44.090
+Inne akcje lub metody, które zamierzamy przejść, po prostu popchnij, są również szybkie.
+
+01:44.100 --> 01:49.830
+Ale potem wstawianie i usuwanie jest zerowe lub liniowe.
+
+01:49.950 --> 01:56.510
+Ale w celu zademonstrowania tablic Użyliśmy kodu, żeby pokazać ci przykład.
+
+01:56.770 --> 01:58.900
+Mamy tu mały plac zabaw.
+
+01:59.230 --> 02:01.710
+I znów możesz użyć dowolnego preferowanego języka.
+
+02:01.750 --> 02:05.540
+Po prostu zamierzam to zademonstrować w javascript.
+
+02:05.590 --> 02:10.140
+Możemy stworzyć prostą tablicę.
+
+02:10.230 --> 02:13.560
+Nazwijmy ją ciągami i tą tablicą.
+
+02:13.560 --> 02:24.220
+Ponownie za pomocą nawiasów kwadratowych notacja będzie miała wtedy literę B, a następnie C i D.
+
+02:25.100 --> 02:29.860
+Właśnie stworzyliśmy tablicę w javascript.
+
+02:29.900 --> 02:36.080
+Patrząc na to i na podstawie tego, czego się nauczyliśmy do tej pory, możemy przyjąć kilka założeń.
+
+02:36.760 --> 02:42.900
+Na przykład do przechowywania litery litera B litera C litera D.
+
+02:42.910 --> 02:47.230
+To jeden dwa trzy cztery cztery przedmioty.
+
+02:47.230 --> 03:00.030
+Jeśli w systemie 32-bitowym mamy 1 2 3 4 półki do przechowywania litery A w zerach i jedynek.
+
+03:00.050 --> 03:09.850
+Cóż, jeśli tak było, po prostu przenieśliśmy się cztery razy na cztery przedmioty i każdy przedmiot zajmujący cztery półki w
+
+03:10.030 --> 03:11.010
+naszej pamięci.
+
+03:11.050 --> 03:24.000
+Oznacza to, że zużywamy 20 lub 16 bajtów pamięci masowej, jeśli pamiętamy w naszym małym przykładzie, że w przypadku
+
+03:24.480 --> 03:34.490
+systemu 32-bitowego mamy 1 2 3 4 półki do przechowywania tego numeru ponownie.
+
+03:34.670 --> 03:40.670
+To jest trochę uproszczona wersja tego spojrzenia, ale mam nadzieję,
+
+03:40.670 --> 03:48.550
+że widzisz, co tu robimy, po prostu przechowujemy sekwencję b cd w naszej pamięci RAM.
+
+03:48.770 --> 03:53.260
+Dzięki temu komputer wie, gdzie można znaleźć te przedmioty.
+
+03:53.280 --> 04:04.800
+Dlatego kiedy robię łańcuchy, mówię komputerowi hej, idź do tablicy o nazwie siła, powinieneś wiedzieć, gdzie to
+
+04:04.820 --> 04:05.570
+jest.
+
+04:05.570 --> 04:12.400
+Ponieważ pod maską przechowujesz ją dla mnie i chwytasz trzeci przedmiot.
+
+04:12.400 --> 04:16.570
+Pamiętaj, że indeksy to 0 1 2.
+
+04:16.670 --> 04:23.580
+Więc weź trzeci element, z którego tablica jest przechowywana w Twojej pamięci.
+
+04:23.690 --> 04:32.360
+A jeśli to zrobię, zobaczę, że komputer pobierze dla mnie te informacje, ponieważ tutaj jest to dla mnie
+
+04:32.360 --> 04:33.360
+przechowywane.
+
+04:33.400 --> 04:36.170
+I tutaj chwyta to za mnie.
+
+04:36.190 --> 04:41.520
+W porządku, więc zróbmy jeszcze kilka operacji z tablicami i zobaczmy, jakie są plusy i minusy.
+
+04:42.830 --> 04:47.180
+W javascript mamy kilka metod, z których możemy korzystać w wyścigu.
+
+04:48.150 --> 04:54.510
+Jednym z nich jest język polski, który pozwala nam po prostu dodać coś na końcu tablicy.
+
+04:54.810 --> 05:01.580
+Więc struny dot push.
+
+05:01.830 --> 05:09.830
+A jeśli po prostu usuniemy to i będziemy mieć konsolę Daut log o sile.
+
+05:09.950 --> 05:21.100
+Jeśli to uruchomię, otrzymuję operację wypychania ciągów, ponieważ po prostu dodaje ją na końcu tablicy.
+
+05:22.860 --> 05:25.780
+Jest operacją 0 1.
+
+05:28.000 --> 05:31.310
+Wszystko, co robimy, to dodawanie tego, co chcemy na końcu.
+
+05:31.330 --> 05:33.310
+Nie przechodzimy przez nic.
+
+05:33.310 --> 05:37.860
+Miejmy nadzieję, że ma to sens, dlaczego jest to bardzo wygodne.
+
+05:38.260 --> 05:39.870
+Jaka jest inna metoda, którą otrzymujemy.
+
+05:40.270 --> 05:53.930
+Możemy również użyć popu i popu jest przeciwieństwem push popu po prostu usunie ostatni element z łańcuchów
+
+05:53.930 --> 05:55.550
+z tablicy.
+
+05:55.550 --> 05:58.820
+Jeśli kliknę tutaj, zobaczysz, że wiadomość e-mail została przeniesiona.
+
+05:59.030 --> 06:12.410
+Jeśli zrobię łańcuchy ponownie pop i uderzę w Rona, zobaczymy, że tym razem dodaliśmy go, a następnie usunęliśmy.
+
+06:12.640 --> 06:16.930
+A potem w końcu pozostało z B i C.
+
+06:17.080 --> 06:22.190
+Jak myślisz, jaka jest złożoność czasowa tej operacji.
+
+06:22.390 --> 06:26.770
+Ponownie jest 0 0 1, ponieważ nic nie przejmujemy.
+
+06:26.770 --> 06:29.440
+Właśnie usuwamy ostatni element, który pamiętam.
+
+06:29.440 --> 06:34.110
+Nasz komputer wie, gdzie przechowywany jest ostatni przedmiot.
+
+06:35.140 --> 06:40.130
+Mówimy po prostu, idź do indeksu powiedzmy 7.
+
+06:40.130 --> 06:42.810
+Ostatni przedmiot i wyjmij chleb.
+
+06:44.920 --> 06:46.920
+Zróbmy teraz coś interesującego.
+
+06:48.020 --> 06:52.200
+Co jeśli chcemy dodać element na początku tablicy.
+
+06:52.340 --> 07:03.990
+Może tutaj chcemy dodać literę x Cóż, mamy coś nazywane zmianą w javascript iw zależności od twojego języka
+
+07:03.990 --> 07:07.040
+będziesz mieć coś innego.
+
+07:07.170 --> 07:12.540
+Ale idea polega na tym, że po prostu robimy ciąg na kropce na zmianę.
+
+07:12.760 --> 07:20.820
+A przy okazji, widzisz tutaj, jak REPL, że I-T faktycznie daje ci parametry, które możesz wprowadzić.
+
+07:20.950 --> 07:23.310
+W tym przypadku po prostu mówi jakie przedmioty.
+
+07:23.350 --> 07:24.140
+Który jest ciągiem.
+
+07:24.140 --> 07:25.420
+Czy powinienem wejść?
+
+07:25.420 --> 07:31.690
+W naszym przypadku powiem, że chcę przesunąć x, co oznacza po prostu dodać X na początku tablicy.
+
+07:32.110 --> 07:38.500
+Jeśli kliknę tutaj, widzimy, że x zostało dodane na początku naszej rary.
+
+07:38.500 --> 07:41.970
+Jak myślisz, jaka jest złożoność czasowa tej operacji.
+
+07:42.190 --> 07:49.780
+A tak przy okazji, kiedy przechodzimy przez struktury danych i ponieważ wiemy, że notacja Big-O jest w tym całkiem fajna, że jesteśmy
+
+07:49.780 --> 07:56.020
+w stanie myśleć o kodzie wykraczającym poza oh, po prostu robię to, możemy głęboko myśleć o tym, co
+
+07:56.020 --> 07:57.800
+dzieje się pod kaptur.
+
+07:58.150 --> 08:02.090
+Dlaczego ta operacja może być dłuższa niż ta operacja.
+
+08:02.110 --> 08:08.210
+Uważam to za fascynujące i kiedy po raz pierwszy zrozumiałem tę kwestię, to naprawdę sprawiłem, że jestem lepszym inżynierem i
+
+08:08.220 --> 08:12.790
+mam nadzieję, że zaczynasz otrzymywać ten moment również dla ciebie, szczególnie jeśli jest to twój
+
+08:12.790 --> 08:14.490
+pierwszy raz ze strukturami danych.
+
+08:14.650 --> 08:18.070
+Teraz na zmianie, co tu robimy.
+
+08:18.070 --> 08:27.840
+Dobrze zapamiętać ciągi są zasadniczo przechowywane, jeśli przeniosłem to do nowej linii komputer wie, że
+
+08:27.840 --> 08:30.500
+jest to zero.
+
+08:30.550 --> 08:35.790
+To jest ten indeks 1.
+
+08:35.790 --> 08:46.910
+Jest to indeks dwóch i jest to indeks z trzech, kiedy dodaję X z przesunięciem I
+
+08:47.000 --> 08:51.400
+nagle dodam X do naszej tablicy.
+
+08:51.600 --> 09:00.810
+Ale teraz musimy przesunąć te liczby, ponieważ indeksy są nadal takie.
+
+09:01.050 --> 09:15.990
+Ale tym razem musimy powiedzieć, że OK 0 to teraz 8 x A to teraz 1 B to teraz 2, a C to ten indeks 3,
+
+09:16.000 --> 09:19.850
+a D to ten indeks dla.
+
+09:20.090 --> 09:27.380
+I po prostu robiąc to mogłeś zobaczyć coś, co właśnie przetestowaliśmy w pętli przez wszystko i
+
+09:27.470 --> 09:37.860
+ponownie przypisaliśmy indeksy i zrobiłem jeden dwa trzy cztery pięć ruchów lub pięć operacji, aby wyrównać indeksy i to powinno dać ci
+
+09:38.520 --> 09:45.150
+wskazówkę, że ta operacja jest 0 i w zależności od rozmiaru tablicy, ile czasu
+
+09:46.230 --> 09:50.890
+zajmie nam wykonanie tej operacji, którą wykonujemy w pętli.
+
+09:50.970 --> 09:59.670
+Od razu wiemy, że z podwyżką może nie jest to najlepsza struktura danych do dodawania elementów
+
+09:59.670 --> 10:01.630
+na początku tablicy.
+
+10:01.650 --> 10:08.530
+Co by było, gdybyśmy chcieli dodać coś w środku tablicy, abyśmy mogli skorzystać z metody splice tutaj.
+
+10:08.580 --> 10:18.610
+Pozwól mi przewinąć nieco w dół i dzięki splice mogę powiedzieć, że struny są splice i znowu dostaję podpowiedź,
+
+10:18.610 --> 10:20.260
+co mogę zrobić.
+
+10:20.270 --> 10:22.330
+Pierwszy to numer początkowy.
+
+10:22.340 --> 10:25.130
+Dlatego chcę rozpocząć indeks 2.
+
+10:25.540 --> 10:28.050
+Pamiętam, że mamy tutaj tę tablicę.
+
+10:28.100 --> 10:29.690
+X A B C.
+
+10:29.690 --> 10:37.890
+Więc zaczynamy od B, a drugim parametrem jest liczba usunięć.
+
+10:38.070 --> 10:42.810
+Co chcemy usunąć lub ile rzeczy z tego indeksu chcemy usunąć.
+
+10:42.930 --> 10:45.560
+W naszym przypadku nie chcemy usuwać niczego, co chcemy dodać.
+
+10:45.690 --> 10:46.930
+Więc powiem zero.
+
+10:47.070 --> 10:49.200
+A następnie elementy, które chcemy dodać.
+
+10:49.200 --> 10:57.990
+Dodajmy więc ciąg, który mówi obcego i usuńmy ten X z naszej oryginalnej tablicy.
+
+10:59.770 --> 11:00.340
+Tak jest lepiej.
+
+11:00.370 --> 11:03.040
+Uderzmy w Briana i zaczynamy.
+
+11:03.070 --> 11:17.020
+Mamy X, ponieważ zmieniliśmy obce b c, więc splice powiedziały nam, abyśmy przeszli do indeksu 2 0 1 2, gdzie początkowo był B
+
+11:17.020 --> 11:23.490
+i dodawaliśmy kosmity zamiast B i po prostu przesuwaliśmy rzeczy.
+
+11:23.890 --> 11:35.300
+Więc to, co tutaj zrobiliśmy, to jeśli wrócimy do naszego przykładu, mamy X w naszej tablicy.
+
+11:36.860 --> 11:48.940
+Przestawiliśmy te indeksy X i nadal są one takie same, ale przesunęliśmy B i powiedzieliśmy i tutaj chcę dodać
+
+11:49.030 --> 11:51.400
+Iliana, a teraz
+
+11:54.230 --> 11:59.060
+musieliśmy przejrzeć wszystko i powiedzieć 3:58 obcy.
+
+11:59.190 --> 12:05.610
+Chcemy trzech forby cztery dla C i pięć dla D.
+
+12:05.640 --> 12:07.310
+Więc o co tu chodzi.
+
+12:07.410 --> 12:13.310
+I nie potrzebujemy tego, dobrze się sprawdziło nasze wielkie O w tym przypadku.
+
+12:13.320 --> 12:19.960
+Połowa operacji, ponieważ zmieniliśmy połowę macierzy, którą przechodzimy przez połowę tablicy.
+
+12:20.040 --> 12:24.890
+Więc będzie to 0 i podzielone przez dwa.
+
+12:25.020 --> 12:33.250
+Ale pamiętaj o naszych zasadach, jeśli chodzi o big-o, usuwamy stałe i upraszczamy, aby po prostu zadzwonić.
+
+12:33.390 --> 12:36.870
+Najgorszy przypadek to operacja.
+
+12:37.730 --> 12:39.960
+Dobra, zostawię to dla ciebie.
+
+12:39.960 --> 12:48.910
+Może grać i wypróbowywać różne metody na wyścigu, ale mam nadzieję, że rozumiesz, jak działają i
+
+12:49.140 --> 12:57.830
+jakie są dobre rzeczy, które możemy zrobić, takie jak dostęp do tablicy, która jest jedna.
+
+12:57.950 --> 13:05.960
+Ponieważ jest dobrze shrimpy szybko wiemy dokładnie, gdzie jest w pamięci i możemy popchnąć i pop.
+
+13:06.050 --> 13:12.860
+Ale jeśli chodzi o przesuwanie lub łączenie, a nawet usuwanie, ponieważ dzięki splice możemy nawet usuwać.
+
+13:12.860 --> 13:14.620
+To będzie nasze wydarzenie.
+
+13:15.050 --> 13:23.310
+A jeśli wrócimy do naszego wykresu, który mamy teraz lepiej zrozumieć, dlaczego tablice wyszukiwania są bardzo
+
+13:23.310 --> 13:23.880
+szybkie.
+
+13:23.880 --> 13:25.070
+Wiemy, gdzie oni są.
+
+13:25.140 --> 13:32.610
+Wiemy, dlaczego wyściółka na końcu tablicy jest niezwykle szybka, ale dlaczego wstawianie i usuwanie nie
+
+13:32.610 --> 13:36.850
+jest najlepsze lub najszybsze, jeśli chodzi o wyścig.
+
+13:37.760 --> 13:40.250
+Ale o to chodzi.
+
+13:40.300 --> 13:46.690
+W rzeczywistości są dwa rodzaje tablic, aw następnym filmie będziemy mówić o tych dwóch typach, które zobaczę
+
+13:48.210 --> 13:50.080
+w tym jednym Bebai.

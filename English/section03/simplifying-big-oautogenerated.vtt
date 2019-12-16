@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.960 --> 00:02.120
+Welcome back.
+
+00:02.320 --> 00:09.440
+Now in the previous exercise and the exercise we just did we see that we had to do a bit of calculation
+
+00:09.450 --> 00:16.800
+it was kind of annoying where we had to add things up then have this you know plus five and plus four
+
+00:17.040 --> 00:22.380
+in interviews you're never going to do this and you're asking yourself Andre Why did you just teach
+
+00:22.380 --> 00:23.760
+me this and you're right.
+
+00:23.760 --> 00:28.160
+But now when you least understand how big O gets calculated.
+
+00:28.590 --> 00:34.650
+But most of the time when you go into interviews there's the set of rules that you're going to follow
+
+00:35.220 --> 00:40.680
+where you don't need to do this and you can just take a look at this function and immediately say what
+
+00:40.680 --> 00:42.730
+type of bego it is.
+
+00:42.870 --> 00:53.650
+For example this function actually just turns into a row of an this function again turns into just 0
+
+00:53.920 --> 00:57.610
+of an and this is a nifty little trick.
+
+00:57.900 --> 01:05.460
+When we talk about big-O in interviews most of the time you're only going to give one of these answers
+
+01:06.890 --> 01:14.420
+you're most likely never going to actually calculate precisely 0 3 and or of three and plus two plus
+
+01:14.480 --> 01:15.470
+one.
+
+01:15.470 --> 01:20.750
+So how was I able to simplify our exercises and just say that they're in.
+
+01:21.190 --> 01:27.770
+And luckily for you there are just several rules that we can follow when it comes to the go.
+
+01:28.190 --> 01:29.630
+And there's only four of them.
+
+01:30.390 --> 01:36.060
+By following these four rules instead of doing those small little calculations we've been doing up until
+
+01:36.060 --> 01:42.790
+this moment you can just simplify your life so that big old becomes really really easy to calculate.
+
+01:43.170 --> 01:48.330
+Let's tackle the first one that is rule number one worst case.
+
+01:48.420 --> 01:50.050
+Let's talk about that in the next video.

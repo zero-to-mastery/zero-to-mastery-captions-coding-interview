@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.330 --> 00:07.600
+It's time for another exercise we've learned how to create a stack data structure.
+
+00:07.660 --> 00:11.030
+But what about a new data structure.
+
+00:11.050 --> 00:15.250
+Luckily for us a lot of the principals are going to be the same.
+
+00:15.390 --> 00:21.370
+And if you are able to understand how the stack data structure works then you should have no problem
+
+00:21.460 --> 00:23.420
+building a new data structure.
+
+00:24.690 --> 00:27.460
+I've created a template to start us off here.
+
+00:27.810 --> 00:34.470
+And your job is to create these three methods pick which we're familiar with.
+
+00:34.530 --> 00:42.940
+We want to peek and get the very first item in our queue or our line as I like to call it.
+
+00:43.100 --> 00:49.640
+And in our constructor instead of having top and bottom like we did with a stack we have first and last
+
+00:50.060 --> 00:52.670
+who's first in line who's lost in line.
+
+00:52.670 --> 00:56.500
+And obviously a length of zero.
+
+00:56.660 --> 01:02.720
+And your job is to create and fill out these methods on cue.
+
+01:02.720 --> 01:09.550
+Remember is to add to the Q and dequeue is to remove from the queue.
+
+01:09.630 --> 01:16.560
+Remember that the difference between a stack that uses pop is that dequeue removes from the front of
+
+01:16.560 --> 01:19.860
+the list whatever is first.
+
+01:19.990 --> 01:21.100
+And again if you want.
+
+01:21.100 --> 01:24.700
+You can create another method called is empty.
+
+01:24.700 --> 01:31.930
+And your goal is to create this queue so that you can create a waitlist map where Joy gets in line.
+
+01:31.970 --> 01:33.870
+Then Matt gets in line.
+
+01:33.970 --> 01:35.920
+Then Pavel gets in line.
+
+01:36.010 --> 01:43.490
+Then sumir gets in line and then you're killing them one by one with first come first serve basis.
+
+01:44.920 --> 01:47.320
+Good luck and I'll see you in the solution video.

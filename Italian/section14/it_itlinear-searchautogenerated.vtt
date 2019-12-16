@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.890 --> 00:01.740
+Ben tornato.
+
+00:02.030 --> 00:10.870
+Parliamo del primo tipo di ricerca nella ricerca nella ricerca lineare di informatica o la ricerca sequenziale
+
+00:10.960 --> 00:16.760
+è un metodo per trovare un valore obiettivo all'interno dell'elenco.
+
+00:16.960 --> 00:22.480
+E dovremmo avere familiarità con questo prima perché per eseguire il corso abbiamo fatto un ciclo attraverso gli array
+
+00:22.480 --> 00:30.310
+per trovare gli oggetti che controlla in sequenza ogni elemento della lista per il valore di destinazione fino a quando non viene trovata una corrispondenza o fino
+
+00:30.340 --> 00:32.990
+a quando tutti gli elementi sono stati cercati.
+
+00:33.460 --> 00:38.650
+Diamo un'occhiata a una ricerca lineare visiva è semplicemente questo.
+
+00:38.770 --> 00:47.450
+Abbiamo elementi che possono essere nodi che possono essere numeri che possono essere qualsiasi cosa e andiamo uno per
+
+00:47.450 --> 00:49.420
+uno guardando attraverso l'elenco.
+
+00:49.650 --> 00:57.540
+Controlliamo il primo oggetto poi il secondo elemento il terzo il quarto il quinto e il sesto nel
+
+00:57.540 --> 01:05.250
+migliore dei casi troviamo quello che stiamo cercando in una sola volta perché è proprio all'inizio della
+
+01:05.250 --> 01:05.860
+lista.
+
+01:05.940 --> 01:08.850
+Ad esempio se stiamo cercando sei qui.
+
+01:08.850 --> 01:12.620
+Tuttavia nel peggiore dei casi dobbiamo passare attraverso l'intera lista.
+
+01:12.720 --> 01:17.460
+Se stiamo cercando nove e controlliamo ogni singola nota o se stiamo cercando
+
+01:17.460 --> 01:23.690
+qualcosa che non esiste dobbiamo ancora controllare ogni singolo elemento e questo tipo di ordinamento ci è molto familiare.
+
+01:24.850 --> 01:32.220
+Per esempio se diamo un'occhiata a javascript ho una lista qui di bestie e diciamo che stiamo cercando una
+
+01:32.220 --> 01:33.220
+buona Zilah.
+
+01:33.600 --> 01:37.200
+Ci sono molti modi in cui posso cercare questo oggetto.
+
+01:37.270 --> 01:39.420
+Buon Godzilla in questa lista.
+
+01:39.510 --> 01:47.480
+Un modo per farlo in javascript è usare l'indice di cui mi fornisce l'indice dove posso trovare Godzilla.
+
+01:47.670 --> 01:57.900
+E questo usa la ricerca lineare per cercare e trovare l'oggetto Un altro modo è usare l'indice di ricerca che accetta una funzione con
+
+01:58.260 --> 02:04.530
+una condizione che l'oggetto deve eguagliare Godzilla e restituirà true quando troverà qualcosa di
+
+02:04.980 --> 02:05.640
+nuovo.
+
+02:05.670 --> 02:16.580
+Se corro questo, ho un altro modo è quello di utilizzare la funzione Trova dando la stessa funzione come abbiamo fatto sopra.
+
+02:16.730 --> 02:21.420
+Ma questa volta restituirà l'oggetto reale anziché l'indice.
+
+02:21.510 --> 02:22.760
+L'avviamento.
+
+02:22.980 --> 02:31.700
+E poi finalmente abbiamo anche questo modo di cercare che include il metodo che dice semplicemente che le bestie
+
+02:31.730 --> 02:36.590
+includono Godzilla e mi darà il vero o il falso.
+
+02:36.710 --> 02:43.470
+In questo caso è vero e la tua lingua avrà diversi modi per implementare questo tipo di ricerca.
+
+02:44.060 --> 02:49.480
+Ma tutte queste ricerche sono ricerche lineari che è il caso peggiore.
+
+02:49.490 --> 02:56.150
+Stiamo esaminando l'intera lista e, come sapete, i nostri input sono le nostre liste possono ottenere tempi
+
+02:56.570 --> 03:05.570
+veramente grandi e lineari di un OK, ma non è il più veloce non possiamo usare la ricerca lineare per indicizzare siti web
+
+03:05.570 --> 03:11.760
+come Google o cercare amici come Facebook perché ci costerà un sacco di tempo.
+
+03:14.360 --> 03:16.260
+Esiste un modo migliore.
+
+03:17.520 --> 03:27.670
+Bene, e se l'elenco dei nostri dati qui fosse forse risolto, questo ci aiuterebbe in qualsiasi modo saremmo in grado
+
+03:27.670 --> 03:28.820
+di migliorare.
+
+03:28.990 --> 03:31.620
+Diciamo che stiamo cercando 9 ora.
+
+03:31.900 --> 03:34.190
+E sapevamo che l'elenco era ordinato.
+
+03:34.420 --> 03:36.550
+Rispondiamo a questa domanda nel prossimo video.

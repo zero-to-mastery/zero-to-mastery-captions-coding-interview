@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.060 --> 00:08.390
+We'll come back up until this point we've talked about sorting algorithms that weren't very efficient
+
+00:08.780 --> 00:17.710
+and aren't that commonly used now insertion sort is not the most efficient algorithm either but there's
+
+00:17.720 --> 00:22.600
+cases where it's actually extremely fast which we're going to talk about.
+
+00:22.820 --> 00:26.780
+So pay attention because this one starts to get important.
+
+00:26.930 --> 00:33.620
+You see insertion sort is useful for times when you're pretty sure their list is almost sorted.
+
+00:34.580 --> 00:35.970
+Or it's already sorted.
+
+00:36.230 --> 00:43.020
+Which sounds silly but sometimes this is important in computer science and in a best case scenario.
+
+00:43.220 --> 00:48.100
+You can get all of and or linear time when the list is almost sorted.
+
+00:48.470 --> 00:49.860
+Let's see how it works.
+
+00:49.880 --> 00:53.620
+We have a list and we look at six.
+
+00:53.660 --> 00:56.350
+We look at the first sign and just leave it where it is.
+
+00:56.420 --> 01:06.650
+We now look at the next item 5 and because five is less than six we switch it over and then we go next
+
+01:06.690 --> 01:13.040
+into the list we say hey 3 where are you in relation to five and six ball.
+
+01:13.080 --> 01:15.460
+It's less than those two.
+
+01:15.510 --> 01:20.380
+So we shift those over and three gets placed in the front.
+
+01:20.470 --> 01:23.420
+So we now have this list of 3 5 6.
+
+01:23.500 --> 01:30.520
+We look at one and say oh yeah that's the first item we want to shift everything one to the left.
+
+01:30.520 --> 01:31.640
+We then look at eight.
+
+01:31.870 --> 01:37.270
+Well eight is larger than all those items so let's just attach it to the end of our list.
+
+01:37.850 --> 01:40.580
+Seven ball goes between six and eight.
+
+01:40.580 --> 01:52.230
+So place it in there to between 1 and 3 place it in there and 4 place between 5 or 3 and 5
+
+01:55.320 --> 01:56.450
+and that's it.
+
+01:56.460 --> 02:01.880
+This is probably the way that your brain works if you physically had Lego blocks with these numbers
+
+02:01.920 --> 02:06.680
+and you would move things around and this type of sorting.
+
+02:06.680 --> 02:13.160
+Performs really really well when it comes to small data sets which we'll get into later on with our
+
+02:13.170 --> 02:14.020
+exit sizes.
+
+02:14.300 --> 02:21.340
+But can you do this type of sorting in code see if he can implement your own insertion sort.
+
+02:22.220 --> 02:23.690
+Same thing as before.
+
+02:23.750 --> 02:31.340
+This time we have the insertion sort algorithm based on the video and the YouTube dancers the link to
+
+02:31.340 --> 02:31.970
+it.
+
+02:32.290 --> 02:36.650
+Can you implement your own insertion algorithm in the next video.
+
+02:36.670 --> 02:37.460
+I'll show you the answer.

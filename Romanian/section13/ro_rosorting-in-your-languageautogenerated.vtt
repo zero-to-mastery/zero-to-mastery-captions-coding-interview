@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.130 --> 00:02.230
+Bine ai revenit.
+
+00:02.360 --> 00:07.950
+M-am întrebat cum, dar doar un scurt videoclip pentru a vă spune ceva interesant.
+
+00:08.800 --> 00:10.400
+Și asta depinde de limba ta.
+
+00:10.480 --> 00:17.990
+Dar amintiți-vă metoda de sortare pe care am avut-o în javascript sau poate limba dvs.
+
+00:18.150 --> 00:23.820
+Te provoc să-ți dai seama ce tip de algoritm de sortare folosești sub capotă.
+
+00:24.680 --> 00:32.130
+Acum, în cele mai multe cazuri, fie vor fi rapidsort sau sort de inserție și îmbinare sortare combinate împreună.
+
+00:32.360 --> 00:38.650
+Deci, mergeți afară și căutați algoritmul de sortare pe care îl folosește limba dvs. atunci când vine vorba de javascript.
+
+00:38.660 --> 00:45.500
+De fapt, nu există cerințe pentru javascript cu privire la algoritmul de sortare pe care să îl folosiți.
+
+00:45.500 --> 00:51.350
+Avem ECMAScript în javascript, care este standard, dar deoarece standardul nu menționează modul în care
+
+00:51.440 --> 00:53.660
+ar trebui implementat acest lucru.
+
+00:53.660 --> 00:57.260
+Diferite browsere care au diferite motoare javascript.
+
+00:57.290 --> 01:02.490
+Chrome are V8 Mozilla are propria sa motor Safari proprie motor.
+
+01:02.600 --> 01:04.800
+Toți le implementează diferit.
+
+01:05.580 --> 01:10.880
+Ei bine, ultima dată când am verificat în Mozilla, ei folosesc sortarea pentru sortare.
+
+01:11.070 --> 01:19.950
+Și în Chrome și motorul V-8 de sortare este implementat cu rapidsort și, de asemenea, sort de inserție
+
+01:19.950 --> 01:22.220
+pentru ștergerea mai mică.
+
+01:22.300 --> 01:24.510
+Am crezut că este interesant oricum.
+
+01:24.560 --> 01:26.250
+Văd în următoarea secvență video.

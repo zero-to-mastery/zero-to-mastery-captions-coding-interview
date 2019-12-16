@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.130 --> 00:06.960
+Głębokość pierwszego wyszukiwania jak pierwszego wyszukiwania oddechu jest nieco inna.
+
+00:08.010 --> 00:16.440
+Wyszukiwanie następuje po jednym odgałęzieniu drzewa tak długo, jak to możliwe, aż do znalezienia celu
+
+00:16.770 --> 00:18.620
+lub do końca.
+
+00:19.580 --> 00:21.970
+Gdy wyszukiwanie może pójść dalej.
+
+00:21.970 --> 00:27.700
+Kontynuuje się u najbliższego przodka z niezbadanym dzieckiem.
+
+00:27.950 --> 00:29.040
+Pokażę ci.
+
+00:29.150 --> 00:30.900
+Zaczynamy od dziewięciu.
+
+00:31.010 --> 00:32.900
+Potem idziemy do szóstki.
+
+00:33.200 --> 00:36.560
+Następnie idziemy do jednego i osiągnęliśmy węzeł liścia.
+
+00:36.600 --> 00:37.900
+Nie ma już dzieci.
+
+00:38.030 --> 00:44.870
+Więc wracamy do 6 do naszego przodka, a następnie sprawdzamy, czy w tym przypadku są jeszcze nieodkryte dzieci, ale nie
+
+00:44.870 --> 00:46.100
+poszliśmy do czwartej.
+
+00:46.160 --> 00:48.120
+Wróćmy więc do czterech.
+
+00:48.530 --> 00:53.840
+A teraz idziemy w górę, ponieważ nie ma więcej dzieci aż do 9
+
+00:53.840 --> 01:01.500
+i mówimy "Dobrze, chodźmy tam, teraz idziemy do 12, a następnie 34, a potem wracamy i następnie szukamy 45".
+
+01:03.500 --> 01:11.180
+Głębokie pierwsze wyszukiwanie ma mniejsze zapotrzebowanie na pamięć, a następnie pierwsze wyszukiwanie, ponieważ nie ma potrzeby przechowywania
+
+01:11.180 --> 01:14.280
+wszystkich wskaźników dziecięcych na każdym poziomie.
+
+01:14.510 --> 01:20.980
+Coś, co zobaczymy, kiedy zakodowaliśmy pomysł w tym pierwszym wyszukiwaniu, to to, że chcemy zagłębić się tak głęboko,
+
+01:20.980 --> 01:23.020
+jak to możliwe w wykres.
+
+01:23.440 --> 01:30.250
+Zwykle zaczynamy od lewej strony, a następnie zaczynamy iść w prawo, aż do
+
+01:30.250 --> 01:33.410
+przejścia drzewa, tak jak sugeruje nazwa.
+
+01:33.420 --> 01:35.410
+Głębokość najpierw jest głęboka.
+
+01:35.410 --> 01:41.070
+Pierwszy werset mówi, że poszukiwanie głuchych oddechów wygląda tak.
+
+01:41.080 --> 01:46.960
+Znowu schodzimy w dół, wracamy do samego końca, wracamy na dół.
+
+01:46.990 --> 01:51.480
+Wracaj na dół, jak widać, idąc głęboko.
+
+01:51.520 --> 01:57.080
+Następnie idź w prawo i lubię myśleć o śmierci.
+
+01:57.150 --> 02:04.200
+Pierwsze szukanie było jak chodzenie po labiryncie, a my idziemy tak daleko, jak to możliwe, a kiedy trafiamy w
+
+02:04.200 --> 02:10.170
+ślepy zaułek, odwracamy się z powrotem i przechodzimy do następnego punktu, w którym można zostawić go
+
+02:10.500 --> 02:14.750
+pisarzowi, aż dojdziemy do koniec labiryntu lub labirynt się kończy.
+
+02:14.820 --> 02:23.470
+Więc jeśli wrócimy do naszego kodu i patrzymy na pierwsze poszukiwania oddechu, zrobiliśmy tutaj pierwsze wyszukiwanie BRAF.
+
+02:23.520 --> 02:25.620
+Co z głębokością pierwszego wyszukiwania.
+
+02:25.620 --> 02:26.610
+Jak by to wyglądało.
+
+02:28.380 --> 02:34.920
+Z tego, co wiemy, i podpowiedź podpowiedź, będą różne odmiany poszukiwań
+
+02:34.920 --> 02:35.610
+głuchych.
+
+02:35.610 --> 02:44.840
+Ale z tego, co wiemy, zaczynaliśmy od dziewięciu, a następnie czterech, następnie wracamy do czterech, a
+
+02:44.900 --> 02:53.760
+następnie szukamy sześciu, aby znaleźć 20, idź w lewo 15 i przejdź do prawego 70.
+
+02:54.230 --> 02:59.620
+Więc nasza lista jest trochę inna niż oddech dla wyszukiwania.
+
+02:59.840 --> 03:06.850
+Mamy różne zamówienia, ale dlaczego mamy te dwa sposoby odkrywania drzewa lub wykresu.
+
+03:06.920 --> 03:08.660
+Jakie są plusy i minusy.
+
+03:08.810 --> 03:15.270
+A do tej pory właśnie rozmawiałem, ale możesz nie zrozumieć, dlaczego jeden jest lepszy od drugiego.
+
+03:16.070 --> 03:20.500
+I zanim zaimplementujemy to w kodzie, chcę przejrzeć wszystkie plusy i minusy każdego z nich.
+
+03:20.510 --> 03:21.990
+Zróbmy to w następnym filmie.

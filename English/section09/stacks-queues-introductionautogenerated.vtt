@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.080 --> 00:02.250
+Welcome back.
+
+00:02.580 --> 00:11.160
+Let's talk about some new data structures over here we have stacks and Qs Qs with probably the most
+
+00:11.220 --> 00:13.500
+confusing spelling of all time.
+
+00:13.500 --> 00:18.860
+Don't worry even I who am fluent in English have a really difficult time spelling this.
+
+00:18.900 --> 00:20.380
+But it's cues.
+
+00:20.430 --> 00:27.120
+Anyway don't worry the data structure itself is not as confusing as the spelling of this data structure.
+
+00:27.810 --> 00:34.820
+We're going to learn to at the same time stacks in queues because they're very similar.
+
+00:34.860 --> 00:42.450
+They are both what we call linear data structures and linear data structures allow us to traverse that
+
+00:42.450 --> 00:51.750
+is go through data elements sequentially one by one in which only one data element can be directly reached.
+
+00:51.750 --> 00:57.420
+And this will become more clear to you as we talk more about stacks and queues throughout the next couple
+
+00:57.420 --> 00:58.410
+of videos.
+
+00:59.150 --> 01:06.860
+Now the reason that these are very similar is that they can be implemented in similar ways and the main
+
+01:06.920 --> 01:12.690
+difference is only how items get removed from this data structure.
+
+01:12.740 --> 01:18.830
+You see unlike an array in stacks in queues there's no random access operation.
+
+01:18.830 --> 01:24.500
+You mainly use stacks and queues to run commands like push peak pop.
+
+01:24.980 --> 01:31.480
+All of which deal exclusively with the element at the beginning or the end of the data structure.
+
+01:31.490 --> 01:35.500
+Now after I said that what was your first thought.
+
+01:35.690 --> 01:39.200
+Does it kind of sound limiting that with stacks and queues.
+
+01:39.350 --> 01:45.590
+We usually only can access the first or the last element and the data structure.
+
+01:45.620 --> 01:48.170
+Why would we ever want to use something like this.
+
+01:48.920 --> 01:51.560
+And this is an important topic in computer science.
+
+01:51.680 --> 01:59.390
+You will see that we can build things like stacks and Qs which are using arrays or linked lists except
+
+01:59.840 --> 02:07.820
+unlike arrays and linked lists we have less methods or less actions that we can perform on stacks and
+
+02:07.820 --> 02:14.950
+Qs and sometimes it's good to have these higher level data structures that are built on top of lower
+
+02:14.950 --> 02:20.470
+level ones like linked lists and arrays to limit the operations you can do on them.
+
+02:20.470 --> 02:23.580
+That's actually a benefit in computer science.
+
+02:23.620 --> 02:30.370
+Having this limited ability on a data structure is an advantage because you can control that.
+
+02:30.370 --> 02:36.790
+Whoever uses this data structure performs only their write operations that are efficient.
+
+02:36.790 --> 02:43.420
+If you give somebody all the tools in the world it's a lot harder for them to operate than if you just
+
+02:43.420 --> 02:48.320
+give them two or three so that they know exactly what they need to do.
+
+02:48.340 --> 02:53.230
+Now let's talk about stacks and queues throughout the next couple of videos to really understand how
+
+02:53.230 --> 02:53.740
+they work.
+
+02:53.770 --> 02:55.810
+And then finally code our own.
+
+02:56.110 --> 02:57.540
+I'll see in the next one.
+
+02:57.780 --> 02:58.030
+Babai.

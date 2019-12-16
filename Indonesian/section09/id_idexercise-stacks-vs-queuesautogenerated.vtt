@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.170 --> 00:02.490
+Selamat datang kembali.
+
+00:02.490 --> 00:09.270
+Mari kita lakukan latihan cepat sebelum kita benar-benar membuat tumpukan dan Q kita sendiri karena
+
+00:09.270 --> 00:13.810
+javascript tidak memiliki stok sendiri atau struktur data isyarat.
+
+00:13.830 --> 00:18.950
+Sekarang saya menyebutkan bahwa ada dua cara untuk membangun tumpukan dan Qs.
+
+00:19.150 --> 00:24.040
+Jika kita berbicara tentang tumpukan, kita dapat menganggapnya sebagai riwayat browser kita.
+
+00:24.040 --> 00:33.430
+Katakanlah kita mengunjungi Google terlebih dahulu kemudian kita mengunjungi Anda Dammy dot com dan kemudian kita mengunjungi katakanlah
+
+00:34.770 --> 00:39.130
+YouTube dalam tumpukan karena Google adalah item pertama.
+
+00:39.280 --> 00:43.240
+Ini sebenarnya akan ditempatkan di tumpukan seperti ini.
+
+00:43.240 --> 00:52.170
+Lalu kami mendatangi Anda Dammy sehingga kami akan ditempatkan di tumpukan di atas dan kemudian kami pergi ke YouTube.
+
+00:52.240 --> 00:59.770
+Sekarang jika kita ingin pergi ke situs web baru katakanlah kita pergi ke Twitter tetapi kemudian kita memutuskan tidak, tidak, tidak, itu yang ingin
+
+00:59.770 --> 01:00.700
+saya lakukan.
+
+01:00.700 --> 01:07.750
+Saya ingin kembali dengan baik, kami menghapus backburn pers Twitter pada browser kami dan kami sampai ke YouTube jika kami
+
+01:08.110 --> 01:09.050
+menekan kembali.
+
+01:09.250 --> 01:19.940
+Kita sampai ke Dammy dan kemudian kembali lagi kita kembali ke Google sehingga Stax memiliki bagian atas dan bawah dan
+
+01:19.940 --> 01:25.190
+kita dapat membangunnya dengan array atau daftar yang ditautkan.
+
+01:26.370 --> 01:35.940
+Pertanyaan saya kepada Anda adalah mengapa kami ingin membangun tumpukan dengan array yang akan membuat kelas tumpukan yang
+
+01:35.940 --> 01:43.120
+memiliki data yang disimpan dalam array dibandingkan menggunakan daftar terkait dan sebaliknya.
+
+01:43.910 --> 01:45.560
+Berpikir tentang itu.
+
+01:45.560 --> 01:46.840
+Bagaimana dengan.
+
+01:48.840 --> 01:56.970
+Katakanlah kita memiliki Q Saya sedang membuat aplikasi daftar tunggu dan di sini kita memiliki beberapa orang yang ingin masuk ke
+
+01:56.970 --> 01:58.020
+daftar tunggu.
+
+01:58.080 --> 02:01.680
+Orang pertama yang muncul adalah Tim.
+
+02:01.950 --> 02:04.690
+Dan kemudian setelah Tim atau Anda tahu apa.
+
+02:04.770 --> 02:10.530
+Mari kita gunakan nama kita, mari kita gunakan Matt dan kemudian Matt muncul.
+
+02:10.630 --> 02:20.550
+Tapi tiba-tiba kegembiraan datang dan berbaris dan kemudian mungkin kita memiliki sesuatu yang datang dan menunggu
+
+02:20.550 --> 02:25.240
+dalam antrean dan kemudian kita memiliki Pavol.
+
+02:25.460 --> 02:33.560
+Dalam hal ini kami ingin Matt menjadi yang pertama kemudian Joy dan sumir kemudian Powell dan dengan
+
+02:33.650 --> 02:40.160
+isyarat kami dapat sekali lagi menggunakan daftar ras dan panjang kami untuk mengimplementasikannya.
+
+02:41.690 --> 02:44.900
+Menurut Anda, mana yang lebih baik bagi kita.
+
+02:44.930 --> 02:47.480
+Apakah ada yang lebih baik atau keduanya sama.
+
+02:47.480 --> 02:50.210
+Saya ingin Anda memikirkan hal ini di video berikutnya.
+
+02:50.240 --> 02:56.180
+Saya akan menjawab ini untuk Anda, tetapi saya sarankan meluangkan waktu untuk memikirkan apa yang
+
+02:56.180 --> 03:01.430
+Anda ketahui tentang array dan daftar tertaut dan bagaimana manfaatnya atau tidak menguntungkan.
+
+03:01.490 --> 03:03.360
+Tumpukan dan Qs.
+
+03:03.500 --> 03:04.360
+Saya akan lihat di video berikutnya.

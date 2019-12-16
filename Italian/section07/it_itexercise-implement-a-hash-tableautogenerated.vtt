@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.970 --> 00:05.680
+Bentornato, è tempo per noi di implementare la nostra tabella hash.
+
+00:05.800 --> 00:13.060
+Ma facciamo un po 'di esercizio e questo può essere difficile, quindi non ti arrabbiare se non sei in grado di
+
+00:13.060 --> 00:13.760
+finirlo.
+
+00:14.610 --> 00:18.040
+Dopodiché fornirò un video di soluzione e lo attraverseremo.
+
+00:18.040 --> 00:22.640
+Ma come sfida extra ho creato un modello per te.
+
+00:23.520 --> 00:26.270
+Un nuovo hash table che stiamo per creare.
+
+00:26.280 --> 00:32.810
+Sì, so che JavaScript ha già degli oggetti e possiamo semplicemente crearne uno come quello che abbiamo visto prima.
+
+00:33.000 --> 00:34.310
+Ma qual è il divertimento in questo.
+
+00:34.350 --> 00:36.360
+Creiamo il nostro.
+
+00:36.420 --> 00:42.860
+Ora questa tabella hash ha un costruttore che riceverà una dimensione.
+
+00:42.950 --> 00:47.890
+Quindi, quando creiamo questa tabella hash, le daremo una dimensione di spazio di memoria pari a 50.
+
+00:48.110 --> 00:51.540
+Diciamo che vogliamo solo 50 shelfs di memoria.
+
+00:51.800 --> 00:57.950
+Creeremo questi dati DOD in cui saranno presenti i nostri dati e al suo interno creerà un
+
+00:57.980 --> 00:59.060
+nuovo array.
+
+00:59.980 --> 01:04.060
+E questo array terrà le nostre informazioni per noi.
+
+01:04.150 --> 01:09.430
+Quindi avremmo qualcosa come
+
+01:12.110 --> 01:18.640
+l'uva e 10000 come il nostro secchio.
+
+01:18.650 --> 01:29.060
+Quindi il primo elemento nell'array sarà un array che è 10000 di uva, ricorda se abbiamo guardato al diagramma che abbiamo questi bucket
+
+01:30.200 --> 01:39.000
+in cui vivono i nostri dati e perché al momento stiamo implementando le nostre tabelle di hash che stiamo usando
+
+01:39.210 --> 01:41.370
+array invece di oggetti.
+
+01:42.170 --> 01:51.290
+Ma l'idea è che usando un nuovo metodo che dovrai creare, che sarà chiamato set, sarai in grado
+
+01:51.290 --> 02:00.320
+di impostare l'uva come il primo indice in teoria e il numero di acini come secondo indice
+
+02:00.320 --> 02:01.040
+dell'array.
+
+02:01.520 --> 02:10.990
+E da lì possiamo ottenere un metodo che recupera l'uva e restituisce 10000.
+
+02:11.000 --> 02:14.040
+Ora probabilmente ti starai chiedendo.
+
+02:14.480 --> 02:18.080
+Oh ragazzo, cos'è questo discorso?
+
+02:18.500 --> 02:24.030
+E l'ho scritto in anticipo per te perché non è molto importante come parte del corso.
+
+02:24.410 --> 02:33.590
+Ma ricorda che abbiamo bisogno di una funzione di hash per creare una tabella hash e ho creato qui la più piccola funzione di
+
+02:33.590 --> 02:36.300
+hash più piccola che puoi immaginare.
+
+02:37.520 --> 02:42.620
+Parleremo di ciò che effettivamente fa nel video della soluzione.
+
+02:42.920 --> 02:49.510
+Per ora tutto quello che devi sapere è che genererà solo un hash per noi.
+
+02:49.610 --> 02:56.220
+Ad esempio, se faccio l'hash di sottolineatura qui e gli do una chiave.
+
+02:56.360 --> 03:02.620
+Quindi diciamo che voglio inserire l'uva e faccio clic su run ottengo 23.
+
+03:02.720 --> 03:05.500
+Se faccio clic su Esegui di nuovo, ottengo sempre 23.
+
+03:05.630 --> 03:10.790
+Se cambio uva a due s ottengo uno spazio di memoria diverso.
+
+03:10.970 --> 03:19.780
+Se scrivo casualmente qui ancora una volta ottengo diversi spazi di memoria tutti da 0 a 50.
+
+03:19.790 --> 03:31.500
+Quindi la tua sfida qui è quella di creare questi due nuovi metodi impostati e ottenere quello che aggiunge a questi dati di punti.
+
+03:32.380 --> 03:43.050
+E recupera da questi dati di nuovo se non sei super familiare con javascript questo potrebbe essere difficile ma
+
+03:43.110 --> 03:43.990
+provalo.
+
+03:44.220 --> 03:47.090
+E nel prossimo video vedremo passo per passo.
+
+03:48.190 --> 03:49.840
+Lo vedrò.

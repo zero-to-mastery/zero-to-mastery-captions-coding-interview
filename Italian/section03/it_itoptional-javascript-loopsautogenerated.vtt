@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.550 --> 00:01.330
+Ben tornato.
+
+00:01.450 --> 00:03.750
+Voglio solo mostrarti un video veloce.
+
+00:03.970 --> 00:09.610
+Soprattutto per quelli che hanno familiarità con javascript che ci sono molti modi per fare loop in
+
+00:09.610 --> 00:10.290
+Javascript.
+
+00:10.330 --> 00:12.360
+E lo stesso con altre lingue pure.
+
+00:12.370 --> 00:15.520
+Ci sono molti modi per fare questi loop.
+
+00:15.610 --> 00:19.390
+Quindi voglio solo mostrarti alcuni veloci che potresti vedere durante il corso.
+
+00:19.390 --> 00:21.190
+Solo così ti sono familiari.
+
+00:21.190 --> 00:28.780
+Ad esempio, la funzione di ricerca di Nemo che ha un ciclo for può anche essere scritta con qualcosa di simile a
+
+00:28.780 --> 00:29.890
+per ogni funzione.
+
+00:29.890 --> 00:39.610
+Quindi posso dire che Konst trova Nimo in una matrice.
+
+00:42.900 --> 00:47.320
+E possiamo dire che per ogni verey per ciascuno.
+
+00:47.760 --> 00:55.320
+Che è praticamente la stessa cosa di un ciclo for, ma richiede di non dover
+
+00:55.320 --> 01:09.400
+digitare l'intera cosa per ogni elemento dell'array, quindi diremo che stavo per dire se il mio chiama il Nimo perché in questo caso con 4 ciascuno Non stiamo prendendo
+
+01:09.400 --> 01:13.050
+l'indice che stiamo prendendo l'elemento nella matrice.
+
+01:13.090 --> 01:17.460
+Quindi potresti solo dire di pescare qui, quindi è più o ha più senso.
+
+01:17.590 --> 01:28.710
+E se questo è il caso, annulliamo di nuovo il registro.
+
+01:28.760 --> 01:34.210
+Questa è la stessa cosa per ognuno, ci consente solo di semplificare un po 'le cose.
+
+01:35.520 --> 01:40.590
+C'è anche un altro modo in cui possiamo farlo in Javascript con il modulo di loop.
+
+01:40.750 --> 01:52.170
+Se solo copiamo questo codice e trovi Nimo 3 questa volta la matrice che andremo a prendere, diremo
+
+01:52.170 --> 01:54.990
+invece dei quattro ciascuno.
+
+01:55.140 --> 02:03.520
+Questa volta diremo per il massimo dell'array.
+
+02:03.610 --> 02:11.300
+E poi di nuovo questo ci dà la stessa cosa dell'occhio o possiamo solo dire pesce qui solo così è più chiaro.
+
+02:13.540 --> 02:14.710
+È uguale a nimo.
+
+02:14.780 --> 02:23.130
+Stiamo per dire di trovare Nimo e se esegui queste funzioni assicurati che funzionino entrambi, quindi trova Nimo
+
+02:23.130 --> 02:25.540
+per trovarli tutti e tre.
+
+02:25.650 --> 02:33.160
+Inoltre, eseguiamo la ricerca del clock Nemo a cinque e avrete bisogno del supporto per questo.
+
+02:33.190 --> 02:37.330
+Se clicco su run, vediamo che abbiamo trovato Nemo tutte e tre le volte.
+
+02:39.340 --> 02:43.340
+Diversi modi per risolvere questo problema.
+
+02:43.390 --> 02:51.320
+Tutti usano i loop ma puoi vedere che alcuni sono più leggibili di altri e questo è qualcosa che abbiamo
+
+02:51.320 --> 02:52.580
+già incontrato prima.
+
+02:52.580 --> 03:03.010
+Ricorda che un buon codice significa qualcosa che è scalabile ma anche qualcosa che è leggibile a seconda della tua situazione e
+
+03:03.100 --> 03:06.710
+qualcosa a cui ci occuperemo più avanti.
+
+03:06.880 --> 03:10.940
+Quanto è gestibile e in che modo gli altri membri del tuo team possono comprendere questo codice.
+
+03:11.090 --> 03:16.100
+Ci sono diversi modi di fare le cose in modo che sia più facile lavorare con.
+
+03:16.230 --> 03:20.700
+Ma spero che se vedrai questa sintassi durante questo corso, sarai meno familiare che alla fine
+
+03:20.700 --> 03:24.120
+della giornata tutto ciò che stiamo facendo è solo un loop.
+
+03:24.240 --> 03:25.940
+Vedrò nel prossimo.

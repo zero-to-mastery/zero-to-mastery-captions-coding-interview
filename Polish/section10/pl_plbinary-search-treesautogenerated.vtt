@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.030 --> 00:02.460
+Witamy spowrotem.
+
+00:02.470 --> 00:10.120
+Kontynuujmy naszą dyskusję z najczęściej spotykaną strukturą danych drzewa, jaką jest binarna wyszukiwarka Street, która
+
+00:10.570 --> 00:18.290
+jest podzbiorem drzewa binarnego, o którym mówiliśmy o tym, czym jest drzewo wyszukiwania binarnego, a
+
+00:22.140 --> 00:31.180
+drzewo wyszukiwania binarnego jest naprawdę dobre, jak sugeruje nazwa podczas wyszukiwania ”. re świetnie nadaje się do porównywania
+
+00:31.180 --> 00:32.060
+rzeczy.
+
+00:32.110 --> 00:37.480
+Dlaczego miałoby to być lepsze niż powiedzmy tablicę mieszania, w której możemy po prostu dać jej klucz
+
+00:37.480 --> 00:39.100
+i natychmiast pobrać przedmiot.
+
+00:39.100 --> 00:47.430
+Cóż, ta struktura danych zachowuje relacje tak, jak gdybyś nie chciał, aby twoje foldery na komputerze
+
+00:47.760 --> 00:53.730
+były w strukturze danych tabeli mieszania, ponieważ nie ma żadnego związku.
+
+00:53.730 --> 01:00.840
+Zamiast tego chcesz, aby twoje foldery miały relacje, aby mieć folder nadrzędny i podfolder,
+
+01:00.900 --> 01:08.960
+aw podfolderze coś takiego jak drzewo wyszukiwania binarnego pozwala nam zachować te relacje, jeśli chodzi o
+
+01:08.960 --> 01:10.620
+drzewa wyszukiwania binarnego.
+
+01:10.640 --> 01:12.120
+To są zasady.
+
+01:12.520 --> 01:23.760
+1 wszystkie węzły potomne w drzewie po prawej stronie węzła głównego muszą być większe niż bieżący węzeł.
+
+01:23.780 --> 01:29.810
+Oznacza to, że jeśli będę szedł w prawo, liczba lub wartość węzła będzie stale wzrastać.
+
+01:29.810 --> 01:33.520
+Widzisz tutaj idę od 1 do 1 1 2 5 1 44.
+
+01:33.590 --> 01:39.410
+Jeśli nadal będę szedł w prawo, powiedzmy, że wzrasta od 33 do 37.
+
+01:39.530 --> 01:45.520
+Jeśli przejdę w lewo 1 do 1 33 9, to zawsze maleje.
+
+01:45.530 --> 01:49.060
+Tak samo jak tutaj 1 2 5 do 54.
+
+01:49.160 --> 01:52.190
+Jeśli idę w lewo, zmniejsza się w prawo.
+
+01:52.260 --> 02:00.510
+Zwiększa się, a następnie drugą zasadą jest, że węzeł może mieć maksymalnie dwoje dzieci, ponieważ jest
+
+02:00.510 --> 02:02.260
+to drzewo binarne.
+
+02:02.280 --> 02:10.260
+Zaletą drzewa wyszukiwania binarnego jest to, że dobrze jest, gdy nazwa jest odpowiednia, a wyszukiwanie i wyszukiwanie
+
+02:10.260 --> 02:16.110
+jest bardzo łatwe do znalezienia, ponieważ jeśli szukam powiedzmy numer trzydzieści siedem,
+
+02:16.180 --> 02:21.130
+mogę zacząć od 1 albo 1 i powiedzmy trzydzieści siedem.
+
+02:21.150 --> 02:22.100
+Mniej niż 1 do 1.
+
+02:22.200 --> 02:22.560
+Tak.
+
+02:22.590 --> 02:22.820
+W porządku.
+
+02:22.830 --> 02:27.560
+Potem idź w lewo, trzydzieści trzy mniej niż trzydzieści siedem.
+
+02:27.630 --> 02:28.040
+Nie.
+
+02:28.050 --> 02:30.870
+Potem idź w prawo i znajdę trzydzieści siedem.
+
+02:30.870 --> 02:39.570
+Nie muszę iterować w sposób liniowy w każdym węźle, a to jest to, co oznacza, że szukanie oznacza po
+
+02:39.570 --> 02:47.490
+prostu, że mogę wyszukać element dużo szybciej niż powiedzmy tablicę, w której muszę iterować i przechodzić
+
+02:47.550 --> 02:49.650
+przez każdy pojedynczy pozycja.
+
+02:49.650 --> 02:58.080
+Ale co z wstawianiem i usuwaniem w tabeli mieszania mogę wstawiać i usuwać naprawdę szybko w 0 1 lub Constantine, ale
+
+02:58.440 --> 03:06.360
+z drzewem wyszukiwania binarnego wygląda na to, że mogę zrobić tylko 0 logowania i to powinno być oczywiste.
+
+03:06.550 --> 03:13.210
+Ponieważ abyśmy mogli wstawić lub usunąć coś w drzewie wyszukiwania binarnego, musimy
+
+03:13.300 --> 03:20.260
+dowiedzieć się, gdzie wstawić przedmiot lub gdzie znajduje się element, zanim go usuniemy.
+
+03:20.360 --> 03:27.140
+Na przykład sto pięć osób powiedzmy, że chcemy usunąć jedną lub pięć.
+
+03:27.140 --> 03:34.100
+Cóż, musimy najpierw przejść od podstawy do stu pięciu, a następnie musimy zdecydować, który
+
+03:34.460 --> 03:36.540
+węzeł zajmie jego miejsce.
+
+03:36.920 --> 03:46.210
+W tym przypadku, ponieważ 54 to mniej niż 144 144, pojawi się tutaj, ale jak można sobie wyobrazić tę operację, choć
+
+03:46.210 --> 03:48.480
+wydaje się prosta teraz.
+
+03:48.490 --> 03:57.970
+Gdybyśmy mieli dużo dzieci i wiele zagnieżdżonych notatek, musiało się zdarzyć wiele zmian w kolejności i przesunąć nasze
+
+03:58.000 --> 03:59.420
+węzły dookoła.
+
+03:59.650 --> 04:01.390
+I nie martw się, faktycznie będziemy to kodować.
+
+04:01.390 --> 04:04.860
+Rozumiesz nas tak jak w poprzednich strukturach danych.
+
+04:04.930 --> 04:12.130
+Ale chcę zademonstrować zamiast mnie po prostu użycie kursora tutaj, fajnego małego
+
+04:12.520 --> 04:20.750
+narzędzia do wizualizacji, jak działają binarne drzewa wyszukiwania i jak działają ich układy. stanowczo zalecamy,
+
+04:20.990 --> 04:25.910
+aby wszyscy bawili się z drzewami wyszukiwania binarnego.
+
+04:26.450 --> 04:33.100
+Zróbmy jednak kilka operacji tutaj, aby wygenerować dla mnie losowe drzewo wyszukiwania binarnego.
+
+04:33.260 --> 04:42.470
+Powiedzmy, że chciałem odpowiedzieć i chcę wstawić powiedzmy, że numer jeden 5 kliknij idź.
+
+04:42.650 --> 04:49.500
+Będzie przemierzać miejsce, w którym chce się wstawić, i wstawi 1 Co
+
+04:49.500 --> 04:59.520
+zrobić, jeśli tym razem chcę wstawić liczbę 44, gdybym poszedł na dane przemierzania, gdzie 44 powinien iść i
+
+05:01.320 --> 05:03.100
+umieszcza go tutaj.
+
+05:03.540 --> 05:11.400
+Dlatego zawsze przemierzamy i sprawdzamy, czy 0 log n, gdzie powinniśmy umieścić przedmiot.
+
+05:11.590 --> 05:13.110
+Co z usunięciem.
+
+05:13.330 --> 05:14.370
+Dodajmy jeszcze jednego.
+
+05:14.380 --> 05:17.290
+Tym razem mam zamiar wstawić
+
+05:21.280 --> 05:24.520
+pięćdziesiąt jeden, aby umieścić go tutaj.
+
+05:24.520 --> 05:25.470
+Idealny.
+
+05:25.480 --> 05:33.150
+Teraz powiedzmy, że chcemy usunąć 50 teraz pięć usunąć 50.
+
+05:33.360 --> 05:34.020
+Nienawidzę
+
+05:37.290 --> 05:38.470
+go znaleźć 50.
+
+05:38.610 --> 05:44.590
+Usuń go, a potem muszę zastąpić 51 i idź w górę.
+
+05:44.670 --> 05:48.650
+Jest więc trochę trudnej logiki.
+
+05:48.660 --> 05:54.770
+Będziemy musieli to włączyć i do tego dojdziemy, ale teraz, kiedy kończę ten
+
+05:54.770 --> 06:02.060
+film, zalecam, abyś poszedł do gry i bawił się chirurgią binarną, aby przyzwyczaić się do niego i
+
+06:02.060 --> 06:08.300
+bawić się widzi, czy zauważysz problem, który możemy napotkać w drzewie wyszukiwania binarnego, ponieważ
+
+06:08.660 --> 06:11.060
+omówimy to w następnym filmie.

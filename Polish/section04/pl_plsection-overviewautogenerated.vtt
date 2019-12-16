@@ -1,0 +1,184 @@
+WEBVTT
+
+00:01.320 --> 00:02.350
+W porządku.
+
+00:02.370 --> 00:09.140
+Mamy więc pomysł, jak zwiększyć nasz procent szans na uzyskanie wywiadu.
+
+00:09.150 --> 00:16.020
+Dowiedzieliśmy się również o notacji Big-O i jak możemy jej użyć, aby przyjrzeć się naszemu kodowi i przeanalizować, czy
+
+00:16.020 --> 00:17.710
+jest skuteczny czy nie.
+
+00:18.540 --> 00:23.740
+Korzystając z naszej wiedzy do tej pory przejdźmy do innego ważnego tematu.
+
+00:23.910 --> 00:29.250
+Pod koniec dnia wywiad jest sposobem, aby firma się dowiedziała.
+
+00:29.430 --> 00:33.710
+Czy możesz rozwiązać problem, który ma firma lub pracodawca?
+
+00:33.780 --> 00:40.680
+Ponieważ jeśli jesteś w stanie rozwiązać swoje problemy, to jesteś wartościowy i wytworzysz dla
+
+00:40.680 --> 00:44.920
+nich większą wartość niż wynagrodzenie, które ci płacą.
+
+00:44.940 --> 00:49.760
+Na to odpowiada wywiad techniczny.
+
+00:49.780 --> 00:55.050
+Teraz możemy być inteligentni i strategiczni w kwestii tego, gdzie aplikujemy i w jaki sposób stosujemy się do firmy.
+
+00:55.120 --> 00:57.630
+I dowiedzieliśmy się o tym w poprzednich rozdziałach.
+
+00:57.880 --> 01:00.140
+Ale nadchodzi duże wyzwanie.
+
+01:00.190 --> 01:01.990
+Masz wywiad.
+
+01:02.180 --> 01:06.330
+Co robisz w ciągu następnych kilku sekcji.
+
+01:06.330 --> 01:11.750
+Porozmawiamy o tym pytaniu i przygotujemy cię jak najlepiej przygotowanego na rozmowę kwalifikacyjną.
+
+01:12.000 --> 01:13.860
+I otrzymamy bardzo techniczny.
+
+01:13.860 --> 01:18.290
+Wiem, że do tej pory nie widzieliśmy tak dużo kodu, ale w następnych kilku
+
+01:18.300 --> 01:20.120
+sekcjach zajmiemy się drobnymi szczegółami.
+
+01:20.280 --> 01:27.090
+Zanim jednak zajmiemy się problemami z kodowaniem, strukturami danych i algorytmami oraz wszystkimi tymi
+
+01:27.300 --> 01:37.570
+szczegółami kodowania FAAN, musimy najpierw zrozumieć tę jedną zasadę rozwiązywania problemów, które widzimy, jeśli znamy każdy pojedynczy algorytm na świecie
+
+01:37.630 --> 01:44.300
+wewnątrz i na zewnątrz, znasz wszystkie struktury danych jest najlepszym koderem na
+
+01:44.300 --> 01:44.960
+świecie.
+
+01:45.170 --> 01:49.740
+Cóż, to nie gwarantuje, że uda ci się przeprowadzić wywiad techniczny.
+
+01:50.680 --> 01:56.860
+Ta sekcja ma na celu przygotowanie ciebie, tak abyś miał założone podstawy, po tym wszystkim,
+
+01:56.860 --> 02:02.920
+czego potrzebujesz, aby odnieść sukces w wywiadzie technicznym, jest faktyczne kodowanie aspektów pytań.
+
+02:02.920 --> 02:08.470
+Widzisz, że to nie najmądrzejszy analityk, który najczęściej jest zatrudniany,
+
+02:08.470 --> 02:14.300
+to osoba, która potrafi odpowiedzieć na to podstawowe pytanie, rozwiąże problem firmy.
+
+02:15.300 --> 02:21.960
+Jeśli jesteś geniuszem, ale nie możesz rozmawiać z ludźmi, z którymi nie współpracujesz dobrze lub
+
+02:21.960 --> 02:29.000
+piszesz brzydki kod, którego ludzie nie rozumieją lub nie potrafisz przekazać rozwiązania problemu, nie dostaniesz Praca.
+
+02:29.520 --> 02:35.880
+Widzisz, niekoniecznie chodzi o rozwiązanie problemu w wywiadzie kodowania, chodzi o
+
+02:35.880 --> 02:42.990
+proces myślowy i znajomość kompromisów między strukturami danych a algorytmami złożoności przestrzeni i czasu.
+
+02:42.990 --> 02:46.520
+Tak jak w prawdziwym życiu, nie zapamiętywasz rzeczy.
+
+02:46.680 --> 02:52.050
+Musisz głęboko ich zrozumieć, zrozumieć kompromisy.
+
+02:52.050 --> 02:53.660
+Więc to właśnie tutaj robimy.
+
+02:53.670 --> 02:59.040
+Wiem, że poświęcam dużo czasu, aby zdobyć punkty, ale staramy się zbudować fundamenty, zanim zanurkujemy
+
+02:59.040 --> 03:03.050
+w naprawdę głębokich granicach, abyśmy mogli zrozumieć, dlaczego każda rzecz.
+
+03:03.330 --> 03:10.110
+Budujemy tę podstawę, najpierw rozumiejąc big-O, które zrobiliśmy w poprzedniej sekcji, a następnie
+
+03:10.560 --> 03:14.000
+ucząc się, jak rozwiązać te problemy.
+
+03:14.400 --> 03:21.510
+W tej sekcji pokażę ci krok po kroku, co musimy zrobić, aby rozwiązać problemy w sposób, który
+
+03:21.510 --> 03:25.940
+firmy naprawdę lubią, abyś odniósł sukces w tym wywiadzie.
+
+03:26.010 --> 03:33.210
+Przyjrzymy się kilku próbnym wywiadom z Google dotyczącym kodowania i sprawdzimy, co zrobili i jaki jest
+
+03:33.210 --> 03:36.120
+idealny proces, by ukończyć ten wywiad.
+
+03:36.740 --> 03:43.550
+Tak więc, kiedy już dysponujemy tymi podstawami, możemy wykorzystać struktury danych i algorytmy do rozwiązania
+
+03:44.300 --> 03:50.440
+naszych problemów, ponieważ wywiad nie dotyczy zdolności zapamiętywania struktur danych i algorytmów.
+
+03:50.570 --> 03:57.830
+Większość ludzi popełnia tę pomyłkę, a ankieterzy mogą natychmiast wykryć, kto tak naprawdę zna te rzeczy,
+
+03:57.890 --> 04:01.670
+a jedynie zapamiętać je na tydzień przed rozmową.
+
+04:01.760 --> 04:08.720
+Więc jak możesz wygrać wywiad z kodowaniem w tej sekcji, porozmawiamy o wywiadzie technicznym io tym,
+
+04:08.990 --> 04:11.300
+jak odnieść sukces w nich.
+
+04:11.360 --> 04:17.060
+Pokażę ci, jak wygląda udany wywiad w Google, a potem wszystko załatwiasz.
+
+04:17.060 --> 04:19.790
+Krok po kroku, dlaczego musisz to zrobić.
+
+04:19.820 --> 04:25.340
+Przekażę ci również mały arkusz do ściągnięcia, aby podsumować wszystko w tej sekcji, abyś zawsze
+
+04:25.400 --> 04:27.480
+mógł go zobaczyć przed rozmową.
+
+04:28.300 --> 04:34.690
+Na koniec zamierzamy rozwiązać problem kodowania, tak jak w wywiadzie i przeanalizować różne
+
+04:34.750 --> 04:36.520
+rozwiązania tego problemu.
+
+04:36.610 --> 04:42.210
+Bazując na tym, czego się nauczyliśmy do tej pory, odkryjemy najlepszy sposób
+
+04:42.520 --> 04:48.640
+rozwiązania problemu, ale także analizujemy różne rozwiązania big-O, jeśli chodzi o przestrzeń i czas.
+
+04:48.850 --> 04:52.440
+Pod koniec tej sekcji będziesz mieć wielki moment aha.
+
+04:52.600 --> 04:55.780
+Gwarantuję to, gdzie zamierzamy wziąć wszystko, czego się nauczyliśmy.
+
+04:55.780 --> 05:03.010
+Do tej pory w naszych strukturach danych i sekcjach algorytmów, aby naprawdę zrozumieć kompromisy. Zacznijmy.
+
+05:03.010 --> 05:03.370
+Shelly.

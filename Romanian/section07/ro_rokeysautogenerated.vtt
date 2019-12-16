@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.100 --> 00:02.000
+Bine ai revenit.
+
+00:02.120 --> 00:05.920
+Să implementăm o ultimă caracteristică în tabelul nostru de hash aici.
+
+00:06.050 --> 00:18.290
+Vreau să creez ceva numit KIIS și cheile ne permit să repetăm ​​sau să trecem prin toate cheile tabelului
+
+00:18.290 --> 00:19.350
+hash.
+
+00:19.430 --> 00:23.990
+În acest caz strugurii și merele și să adăugăm câteva altele doar pentru distracție.
+
+00:23.990 --> 00:27.130
+Așa că vedem ce se întâmplă.
+
+00:27.330 --> 00:31.160
+Acele portocale și nu le place prea mult, așa că vom adăuga doar două dintre ele.
+
+00:32.450 --> 00:45.030
+Acum, dacă conducem KIIS În mod ideal, vom itera și vom scuipa struguri mere și portocale pentru ca noi să vedem la ce trebuie
+
+00:45.030 --> 00:47.460
+să mergem la cumpărături.
+
+00:47.650 --> 00:50.090
+Cum să construim acest lucru.
+
+00:50.260 --> 00:53.250
+Ei bine, pentru că vom face un fel de buclă.
+
+00:53.350 --> 00:59.300
+Am de gând să încep prin a crea o constantă să o numim matrice teaser.
+
+01:00.010 --> 01:04.030
+Și asta va fi o matrice goală aici.
+
+01:04.050 --> 01:10.850
+Vom bate astfel pentru LeT Am sunat 0 și atâta timp cât voi fi
+
+01:13.780 --> 01:18.040
+mai puțin și această lungime de date vom crește
+
+01:20.990 --> 01:30.170
+până la sfârșitul aici spunem că vrem să buclele prin toate cele 50 de spații de elemente toate rafturile unul
+
+01:30.170 --> 01:31.340
+câte unul.
+
+01:31.340 --> 01:32.550
+Vom trece prin ele.
+
+01:32.690 --> 01:34.700
+Asta este o mulțime de iterații.
+
+01:35.120 --> 01:42.450
+Și dacă pe raft există un fel de date.
+
+01:42.450 --> 01:48.600
+Dacă nu este nedefinit complet gol și este ceva valoros pentru noi pe care vrem să îl privim.
+
+01:48.600 --> 01:56.730
+Deoarece ne amintim că alocăm 50 de spații pe raft, dar am plasat doar 3 elemente sau trei puncte
+
+01:56.730 --> 01:58.040
+de date.
+
+01:58.050 --> 02:07.560
+Deci, dacă există ceva în acel spațiu de memorie, în acest caz, putem spune că Kuzari
+
+02:07.560 --> 02:13.350
+dot împinge acest punct de date și apucăm indexul.
+
+02:13.350 --> 02:17.200
+Deci prima IRA sau matricea pe care suntem aici.
+
+02:17.670 --> 02:20.350
+Și apoi vrem să luăm mereul drept.
+
+02:20.820 --> 02:28.670
+Ei bine, dacă fac zero aici și acum am lovit ce trebuie să întoarcem ceva.
+
+02:28.910 --> 02:30.620
+Să ne întoarcem aici.
+
+02:30.770 --> 02:33.360
+Cheia îmi pare rău la sfârșitul tuturor astea.
+
+02:33.380 --> 02:44.460
+Deci, după toate buclele vom spune pur și simplu cheile de întoarcere array fi rulați asta primesc struguri mere și
+
+02:44.460 --> 02:45.440
+portocale.
+
+02:45.810 --> 02:46.770
+Este fantastic.
+
+02:46.780 --> 02:53.360
+Dar am vrut doar struguri mere și portocale pentru a vedea ce se întâmplă aici.
+
+02:53.460 --> 03:06.810
+Să consolezem să înregistrăm aceste date de la nivel înalt, ceea ce facem aici în timp ce împingem și dacă execut
+
+03:06.810 --> 03:19.020
+acest lucru vedem că vom obține o majorare în cadrul matricei, deoarece amintiți-vă că avem o matrice masivă.
+
+03:19.060 --> 03:26.440
+Și de fiecare dată când creăm un nou spațiu de stocare, trebuie să avem o nouă matrice pe care o creăm și o
+
+03:26.440 --> 03:27.410
+împingeți în asta.
+
+03:27.490 --> 03:30.300
+Deci, un pic de aici.
+
+03:30.340 --> 03:31.480
+Trebuie
+
+03:34.890 --> 03:39.050
+să spunem zero care elimină ciudatul sau re.
+
+03:39.300 --> 03:46.220
+Și acum un zero pentru a apuca primul index al acestei matrice.
+
+03:50.210 --> 03:59.110
+Deci, dacă adăugăm un acum, acolo nu există zero pentru a accesa primul index al matricei la care facem clic pe Run.
+
+03:59.190 --> 03:59.770
+Uită-te la asta.
+
+03:59.910 --> 04:02.560
+Avem struguri mere și portocale.
+
+04:02.970 --> 04:03.600
+Foarte bine.
+
+04:03.600 --> 04:06.930
+Tocmai am implementat o tabelă de tip hash.
+
+04:07.160 --> 04:11.790
+Și poate ați observat ceva un dezavantaj al meselor de hash.
+
+04:11.960 --> 04:14.770
+A trebuit să ne bifăm aici.
+
+04:14.810 --> 04:21.540
+Am avut o buclă de buclă prin întregul spațiu de memorie pentru a găsi cheile noastre.
+
+04:21.680 --> 04:26.840
+A fost mult mai usor cu cursa cu cresterea pe care am fi avut doar trei elemente
+
+04:26.840 --> 04:29.850
+si ne-am fi bifat de trei ori in loc.
+
+04:29.900 --> 04:32.570
+Aici am buclele de peste 50 de ori.
+
+04:32.570 --> 04:35.100
+Imaginați-vă dacă am avut 500.
+
+04:35.120 --> 04:36.830
+Asta e chiar mai mult.
+
+04:36.830 --> 04:38.190
+Cât de interesant este acest lucru.
+
+04:38.210 --> 04:46.370
+Începem să învățăm cum funcționează lucrurile sub capota, astfel că acum avem o idee despre hmm, poate că dacă folosim
+
+04:46.640 --> 04:53.210
+acest tip de metode, este posibil ca obiectele să nu fie cea mai bună idee.
+
+04:53.210 --> 04:57.450
+Și acesta este un dezavantaj de obiecte sau tabele hash în javascript.
+
+04:57.520 --> 05:08.450
+Putem folosi ceva asemănător în bucle pentru a trece peste obiectele dintr-un obiect care din nou este foarte lent.
+
+05:09.250 --> 05:21.060
+Și după cum ați putea da seama că nu există nici o ordine garantată de fiecare dată când adăugăm ceva la adresa noastră.
+
+05:21.210 --> 05:29.310
+Dar când apucam elemente de la adresa mergem doar de la 0 la 50, chiar dacă elementele sunt doar plasate la
+
+05:29.310 --> 05:30.930
+întâmplare în diferite rafturi.
+
+05:30.990 --> 05:34.460
+Dar sper că acum veți vedea cum funcționează.
+
+05:34.500 --> 05:39.240
+Punem articole la întâmplare într-un raft, dar când le regăsim, sunt toate la comandă.
+
+05:41.290 --> 05:48.520
+Și de aceea codificați lucrurile, chiar dacă cel mai probabil nu veți obține acest lucru într-un interviu.
+
+05:48.610 --> 05:55.660
+Știind cum funcționează lucrurile îți permite să vorbești inteligent despre ele și sper că acest exercițiu a făcut
+
+05:55.660 --> 05:56.920
+asta pentru tine.
+
+05:56.950 --> 06:03.640
+Voi lăsa acest lucru pentru a vă juca cu și poate adăuga metode diferite, cum ar fi valori
+
+06:03.910 --> 06:06.550
+care ia valori în loc de chei.
+
+06:06.550 --> 06:10.990
+Dar, pentru moment, să finalizăm discuțiile noastre despre tabelele de hash, comparându-le cu rasa.

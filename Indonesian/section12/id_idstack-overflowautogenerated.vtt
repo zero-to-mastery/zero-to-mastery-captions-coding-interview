@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.770 --> 00:01.690
+Selamat datang kembali.
+
+00:02.120 --> 00:05.230
+Saya akan menunjukkan kepada Anda animasi favorit saya saja.
+
+00:05.240 --> 00:06.140
+Saya sangat bangga akan hal itu.
+
+00:06.170 --> 00:08.630
+Jadi jangan menertawakan saya jika Anda pikir itu benar.
+
+00:09.020 --> 00:17.660
+Saya suka memikirkan rekursi sebagai skenario di mana Anda memiliki bagian atas ini menuangkan air ke dalam gelas untuk
+
+00:17.660 --> 00:22.130
+pria kecil ini yang duduk di sofa menonton TV.
+
+00:22.250 --> 00:27.650
+Dan ketika saya memikirkan rekursi, saya suka berpikir bahwa mereka memiliki dua masalah besar.
+
+00:28.840 --> 00:34.190
+Pertama, mereka agak sulit dipahami pada awalnya.
+
+00:34.240 --> 00:40.030
+Yang kedua adalah bahwa kita dapat memiliki kasus seperti ini di mana saya menuangkan air ke dalam gelas dan menuangkan air ke
+
+00:40.030 --> 00:42.360
+dalam gelas dan menuangkan air ke dalam gelas.
+
+00:42.430 --> 00:48.150
+Dan itu saya memanggil fungsi berulang-ulang.
+
+00:48.550 --> 00:53.140
+Dan saat kita terus berjalan sambil terus mengisi cangkir melewati batasnya.
+
+00:53.140 --> 00:54.040
+Terus berjalan.
+
+00:54.040 --> 00:54.920
+Itu tidak berhenti.
+
+00:54.920 --> 00:59.210
+Itu terus memarahi fungsi terus berfungsi sampai oh nak.
+
+00:59.350 --> 01:01.850
+Pria itu telah tenggelam.
+
+01:01.940 --> 01:03.510
+Apa yang baru saja terjadi di sini.
+
+01:03.620 --> 01:06.890
+Ini disebut Stack Overflow.
+
+01:07.160 --> 01:09.810
+Mari kita kembali ke beberapa kode.
+
+01:09.940 --> 01:13.850
+Ingat fungsi awal yang kami buat.
+
+01:13.980 --> 01:15.660
+Jika saya menjalankan fungsi
+
+01:18.270 --> 01:19.830
+ini dan saya
+
+01:22.720 --> 01:26.790
+katakan awal dan hanya menjalankan fungsi ini saya akan mendapatkan kesalahan.
+
+01:27.250 --> 01:30.170
+Mari kita buat ini sedikit lebih besar untuk dilihat.
+
+01:30.320 --> 01:36.140
+Saya mendapatkan pesan kesalahan mengatakan ukuran tumpukan panggilan maksimum melebihi browser saya.
+
+01:36.200 --> 01:42.660
+Dalam hal ini Google Chrome cukup pintar untuk mengatakan bahwa Anda harus menghentikan kegilaan ini.
+
+01:42.680 --> 01:49.400
+Saya hanya memanggil fungsi awal ini berulang-ulang karena mengingat fungsi kami hanya memanggil
+
+01:49.400 --> 01:50.960
+dirinya sendiri.
+
+01:50.960 --> 01:55.340
+Dan akhirnya jika Google Chrome tidak menghentikan ini, ia akan mogok.
+
+01:55.340 --> 02:00.470
+Dan di masa lalu itulah yang akan terjadi jika saya menjalankan fungsi ini browser akan macet dan saya
+
+02:00.470 --> 02:01.480
+harus me-restart itu.
+
+02:01.760 --> 02:08.120
+Tetapi mereka telah menambahkan perlindungan di sini dengan mengatakan hei Anda telah memanggil ukuran panggilan maksimum.
+
+02:08.120 --> 02:10.490
+Anda harus menghentikan apa yang Anda lakukan sekarang.
+
+02:10.490 --> 02:14.250
+Ini disebut stack over for.
+
+02:14.360 --> 02:16.170
+Mengapa demikian.
+
+02:16.180 --> 02:23.830
+Mari selami lebih dalam topik ini untuk menghapus konsol di sini dan memperbaiki fungsi awal kami.
+
+02:23.830 --> 02:33.320
+Tapi kali ini saya akan menambahkan kata kunci yang disebut debugger bahwa browser Chrome akan mendeteksi dan
+
+02:33.380 --> 02:37.050
+menghentikan fungsi ketika melihat kata ini.
+
+02:37.100 --> 02:46.690
+Jadi saya akan menjalankan fungsi ini dan Anda akan melihat bahwa begitu mereka menekan enter, ia akan berhenti dan memberi saya panel kecil
+
+02:47.110 --> 02:51.700
+di sini di mana saya dapat mengontrol fungsi yang menekan enter.
+
+02:52.960 --> 02:53.790
+Dan begitulah.
+
+02:53.950 --> 02:58.960
+Maksud saya sekarang mode debugger dan Anda akan melihat di sini beberapa hal.
+
+02:58.980 --> 03:06.960
+Satu akan menunjukkan kepada saya di mana saya berada dan fungsinya dan juga menunjukkan kepada saya perubahan mengelilingi hanya jadi itu sedikit
+
+03:06.960 --> 03:07.830
+lebih bersih.
+
+03:07.830 --> 03:09.540
+Saya akan membuat ini sedikit lebih kecil.
+
+03:09.540 --> 03:10.420
+Ini dia.
+
+03:10.830 --> 03:13.950
+Anda lihat di sini adalah sesuatu yang disebut tumpukan dingin.
+
+03:13.950 --> 03:19.260
+Sekarang dari nama Stack Overflow ini mungkin memberi Anda sedikit petunjuk.
+
+03:19.370 --> 03:23.530
+Saat ini kami telah memanggil fungsi awal di sini.
+
+03:23.750 --> 03:27.300
+Kami telah menyebutnya sebagai yang kedua kalinya.
+
+03:27.650 --> 03:33.090
+Jika saya mengklik ikon step over di sini, ia akan menuju ke baris kode berikutnya.
+
+03:33.170 --> 03:34.980
+Ini akan pergi ke yang berikutnya.
+
+03:35.210 --> 03:38.340
+Dan sekarang akan memanggil fungsi intersepsi berikutnya.
+
+03:39.300 --> 03:45.130
+Lihat di sini di tumpukan panggilan untuk apa yang akan terjadi selanjutnya.
+
+03:47.430 --> 03:55.470
+Apakah Anda melihat bahwa saya baru saja menambahkan fungsi nother pada tumpukan panggilan dan seperti yang kita ketahui tentang struktur data
+
+03:55.680 --> 03:58.230
+tumpukan kami hanya menambahkan panggilan fungsi.
+
+03:58.230 --> 04:06.870
+Di atas yang lebih tua dan jika saya melangkah ke sini dan pergi lagi itu adalah panggilan fungsi ketiga dan jika saya terus
+
+04:06.870 --> 04:08.440
+berjalan terus berjalan.
+
+04:08.490 --> 04:13.830
+Anda akan melihat bahwa saya hanya menambahkan semakin banyak hal ke stack.
+
+04:14.310 --> 04:16.010
+Tapi ada masalah di sini.
+
+04:16.290 --> 04:20.260
+Tidak ada yang muncul dari tumpukan.
+
+04:20.310 --> 04:26.370
+Sebaliknya fungsi hanya terus berjalan terus berjalan terus berjalan terus berjalan sampai
+
+04:27.090 --> 04:29.870
+kita kehabisan memori di sini.
+
+04:29.940 --> 04:31.080
+Ingat tumpukan.
+
+04:31.140 --> 04:38.180
+Dalam hal ini mengambil sepotong memori dari komputer kita dan menambahkan awal ke stack.
+
+04:38.550 --> 04:41.980
+Dan seperti yang Anda tahu, memori terbatas, kami tidak memiliki jumlah tak terbatas.
+
+04:42.210 --> 04:49.230
+Jadi saat kita terus berjalan, kita akan menumpuk overflow dan melempar ke sana.
+
+04:49.740 --> 04:55.910
+Dan ini adalah salah satu masalah terbesar dengan rekursi yang akan kita bahas nanti.
+
+04:56.430 --> 05:03.300
+Seperti yang Anda lihat di sini, ini bisa sangat berbahaya karena kita dapat menjalankan program yang meluap
+
+05:03.300 --> 05:09.840
+yang tidak pernah berhenti yang memiliki loop tak terbatas yang pada dasarnya membuat crash program kita.
+
+05:09.840 --> 05:19.170
+Anda juga akan melihat di sini bahwa ini menghabiskan memori stack memegang panggilan fungsi ini dan salah satu kekurangannya
+
+05:19.170 --> 05:26.490
+adalah bahwa kita harus menahan panggilan ini dan mengingatnya satu per satu yang bisa menjadi
+
+05:26.490 --> 05:27.920
+sangat mahal.
+
+05:28.260 --> 05:34.470
+Jadi jika kita pernah ditanya pertanyaan ini dalam sebuah wawancara tentang rekursi mungkin merupakan
+
+05:34.470 --> 05:42.050
+masalah yang mungkin terjadi dengan rekursi, Anda dapat mengatakan bahwa komputer perlu mengalokasikan memori untuk mengingat berbagai hal.
+
+05:42.300 --> 05:49.620
+Stack Overflow dapat terjadi ketika kita memiliki rekursi dan tidak ada cara untuk menghentikan panggilan rekursif ini.
+
+05:49.920 --> 05:55.170
+Ini hanya komputer yang mengatakan whoa whoa whoa whoa OK ini semakin konyol.
+
+05:55.170 --> 05:57.030
+Saya tidak mengingat hal lagi.
+
+05:57.060 --> 05:58.640
+Saya kehabisan memori.
+
+05:58.690 --> 06:03.080
+Saya akan keluar di video berikutnya.
+
+06:03.190 --> 06:07.630
+Kami akan mencoba dan menyelesaikan masalah ini dan belajar tentang sesuatu yang disebut kasus dasar.
+
+06:07.750 --> 06:14.710
+Saya pikir Anda harus memiliki fungsi rekursif untuk menghentikannya melakukan ini.
+
+06:14.710 --> 06:16.600
+Saya akan melihat yang berikutnya.

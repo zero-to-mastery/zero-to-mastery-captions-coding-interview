@@ -1,0 +1,139 @@
+WEBVTT
+
+00:01.130 --> 00:02.120
+Ben tornato.
+
+00:02.120 --> 00:09.440
+Parliamo del primissimo ruolo quando si parla di big-O che è il caso peggiore quando si calcola un grande.
+
+00:09.460 --> 00:14.040
+Oh pensiamo sempre al caso peggiore.
+
+00:14.150 --> 00:18.120
+Cosa intendo per bene se torniamo a cercare Nemo per
+
+00:20.940 --> 00:28.690
+esempio e troviamo la funzione di Nemo che potresti aver urlato contro di me mentre stavo passando per la funzione
+
+00:28.690 --> 00:31.080
+dicendo che Andre non è efficiente.
+
+00:31.090 --> 00:32.190
+Cosa stai facendo.
+
+00:32.590 --> 00:40.230
+Perché se guardi questa funzione, passiamo attraverso l'intero array per trovare Nemo.
+
+00:41.520 --> 00:49.170
+Ricorda come abbiamo avuto tutti gli array con circa 10 personaggi diversi da Alla ricerca di Nemo.
+
+00:50.290 --> 00:56.980
+Bene, Nemo era l'unico membro dei due tre quarti su questo array.
+
+00:57.400 --> 01:02.600
+E quando eseguiamo questa funzione abbiamo trovato Nemo.
+
+01:03.020 --> 01:11.240
+Ma la cosa divertente è che questa funzione è stata eseguita 10 volte non quattro volte.
+
+01:11.450 --> 01:24.620
+Se faccio un log della console qui e dico "running" e facciamo clic su questo, vediamo che questa funzione ha funzionato uno
+
+01:24.680 --> 01:30.120
+due tre quattro cinque sei sette otto nove dieci.
+
+01:30.380 --> 01:36.300
+Voglio dire, abbiamo già trovato Nemo, tutte queste piste sono piuttosto dispendiose.
+
+01:36.430 --> 01:41.390
+Quindi possiamo rendere questa funzione un po 'più efficiente in javascript.
+
+01:41.410 --> 01:48.050
+Possiamo semplicemente avere qualcosa chiamato break.
+
+01:48.210 --> 01:53.020
+E ancora diverse lingue hanno diversi modi di uscire da un ciclo.
+
+01:53.090 --> 02:02.060
+Se nel nostro caso è soddisfatta una condizione, se scopriamo che Nimo si rompe da questo ciclo se faccio questo
+
+02:02.060 --> 02:04.330
+e clicco su eseguirà.
+
+02:04.400 --> 02:09.390
+Una volta che abbiamo trovato Nimo, non abbiamo intenzione di scorrere il resto degli articoli.
+
+02:09.410 --> 02:10.450
+Congratulazioni.
+
+02:10.490 --> 02:13.970
+Abbiamo solo reso il nostro codice un po 'più efficiente.
+
+02:14.420 --> 02:15.430
+Questa è una buona cosa giusta
+
+02:16.420 --> 02:19.050
+Bene quando si tratta di grandi O.
+
+02:19.570 --> 02:21.160
+Anche se questo è importante.
+
+02:21.220 --> 02:27.130
+E quando scrivi un buon codice questo è qualcosa che vogliamo fare nel grande schema delle cose.
+
+02:27.160 --> 02:32.520
+Big-O si preoccupa solo del caso peggiore, qui è il caso peggiore.
+
+02:32.680 --> 02:40.480
+Beh, il caso peggiore è che Nimo è il set del quarto elemento alla fine.
+
+02:43.480 --> 02:51.730
+Quindi, anche se abbiamo questa frase break, continueremo a correre 10 volte perché Neema alla fine.
+
+02:51.850 --> 02:56.450
+Il caso migliore è se Nemos all'inizio e dobbiamo solo passarci sopra una volta.
+
+02:56.590 --> 03:05.810
+Ma nel peggiore dei casi dovremo ancora superare 10 loop ancora grandi.
+
+03:05.840 --> 03:15.410
+E quindi questa è la nostra prima regola, la prima regola è che ci preoccupiamo sempre di quello che è il
+
+03:15.410 --> 03:20.990
+caso peggiore perché quando parliamo di scalabilità non possiamo semplicemente supporre che
+
+03:21.140 --> 03:33.630
+le cose stiano andando bene anche se la funzione Trova Nimo potrebbe essere una di quelle Nimo è il primo elemento della serie che non ha importanza nel
+
+03:33.840 --> 03:39.720
+grande schema delle cose perché non possiamo essere certi di quale sarà l'input.
+
+03:39.750 --> 03:51.940
+Daremo per scontato che tutto il viaggio sia di nuovo lineare se troviamo una scatola gialla e la scatola gialla è
+
+03:51.940 --> 03:54.160
+proprio alla fine.
+
+03:54.340 --> 03:58.060
+Dobbiamo scorrere tutte le caselle.
+
+03:58.310 --> 04:05.470
+Se la scatola gialla all'inizio si vede che non dobbiamo iterare attraverso queste caselle ma big-O
+
+04:05.470 --> 04:07.360
+non gli interessa davvero.
+
+04:07.360 --> 04:13.900
+Anche se questa funzione sì è effettivamente più efficiente alla fine della giornata, quando parliamo di
+
+04:14.290 --> 04:17.070
+big-O stiamo parlando del caso peggiore.
+
+04:17.100 --> 04:19.300
+Bene, spero che tu abbia capito bene.
+
+04:19.360 --> 04:24.950
+Mi sento come se avessi perso in poltiglia, quindi dovresti sentirti a tuo agio ora.
+
+04:25.120 --> 04:27.530
+Parliamo del prossimo ruolo nel prossimo video.

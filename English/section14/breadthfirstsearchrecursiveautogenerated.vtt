@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.860 --> 00:06.780
+All right we're going to do this just for fun usually breath first search is implemented the way we
+
+00:06.780 --> 00:16.020
+saw it just using a iterative approach but for fun I want to see if we can do a recursive breath for
+
+00:16.050 --> 00:23.590
+search and in order for us to do a recursive breadth first search we can create a new function will
+
+00:23.620 --> 00:33.310
+have our here for recursive and in here we need to create a base case went to start and we will stop
+
+00:33.850 --> 00:49.210
+if Q Dot lenth is zero or we can just say when Q Dot length is 0 like this if that's the case we want
+
+00:49.210 --> 00:57.670
+to have our base case and we turn the list but you'll notice here that I haven't defined what Q And
+
+00:57.670 --> 01:06.670
+list is like I did with our iterative approach and that's because if I go to the top here and declare
+
+01:06.730 --> 01:13.810
+these variables like I did because in every recursive function this function will be called over and
+
+01:13.810 --> 01:14.520
+over.
+
+01:14.620 --> 01:20.420
+We're going to be resetting these variables and lists over and over to an empty array.
+
+01:20.440 --> 01:30.410
+So the way we would do this in a recursive function is that we need to actually pass Q and list as a
+
+01:30.410 --> 01:40.600
+parameter so that what we'd call it down here instead of doing it this way we'd have to say that the
+
+01:40.610 --> 01:45.050
+q will have the this dot root node.
+
+01:45.590 --> 01:50.990
+But remember the Q has to be an array so we just wrap this in curly brackets and in javascript this
+
+01:50.990 --> 01:57.710
+shows that we have an array with item of this dot root kind of like we did with breadth first search
+
+01:57.770 --> 01:59.290
+the first time around right.
+
+01:59.360 --> 02:07.640
+The initial Q How the current node which was this dot root root don't.
+
+02:07.780 --> 02:14.220
+And then the second parameter would be the list R and Sarah which will start off with an empty array.
+
+02:15.270 --> 02:23.630
+So now that we have this and that's a bit of a gotcha when it comes to recursive functions we can now
+
+02:23.630 --> 02:30.040
+do something similar to how we did the first time around with our iterative approach will say that our
+
+02:30.040 --> 02:39.520
+current node use LET here let Kurn node equal to this dot Q Dot shift.
+
+02:40.510 --> 02:44.650
+Again same thing as we did up above over here.
+
+02:48.560 --> 02:55.300
+To grab the current node and then we can actually just copy what we did over here.
+
+02:55.300 --> 03:02.440
+If current no left to push the left node if current node has a right child then push it to the queue
+
+03:02.440 --> 03:02.860
+as well.
+
+03:02.950 --> 03:08.550
+So I'm just going to copy this and add it over here.
+
+03:08.870 --> 03:15.960
+Make sure the indentation is working now it's better.
+
+03:16.000 --> 03:25.180
+And finally because this is a recursive function we want to turn the function so that it goes through
+
+03:25.180 --> 03:35.440
+again and this time giving it the cue and the list and I know this can get a little bit confusing.
+
+03:35.450 --> 03:40.940
+You might have to look at it but going through it step by step in your head you might want to grab this
+
+03:40.940 --> 03:43.640
+code after this video to see how it works.
+
+03:44.720 --> 03:51.710
+It's not that much different from the iterative approach and because this is referring to a method inside
+
+03:51.710 --> 03:58.640
+of a class the way it works in javascript is we have to say this dot breath for search which refers
+
+03:58.640 --> 04:01.850
+to the class use the method within this class.
+
+04:01.850 --> 04:08.810
+And I notice that we don't need this for the queue because queue is just a parameter.
+
+04:08.840 --> 04:14.750
+Now we also want to make sure that we push to the list when we're in here.
+
+04:14.750 --> 04:24.770
+So just like we did above we're going to say a list don't push the current node Daut value again exactly
+
+04:24.770 --> 04:26.320
+like we've done above here.
+
+04:26.390 --> 04:35.450
+We want to push the last value to the list because the list is our answer.
+
+04:35.490 --> 04:39.030
+Now if I click run here I'm going to get an error.
+
+04:39.180 --> 04:42.510
+And this is a bit of a gotcha a little bit javascript's specific.
+
+04:42.510 --> 04:50.370
+And one of the reasons I can get frustrating with javascript is that this this keyword only works when
+
+04:50.370 --> 04:56.820
+we're inside of the class the binary search string class outside of this.
+
+04:56.940 --> 05:01.570
+Remember that we have the tree class that we instantiated.
+
+05:01.590 --> 05:15.390
+So this is tree dot root and if we run this we now have our list this time done recursively.
+
+05:15.450 --> 05:17.690
+I'll leave this for you to play around with.
+
+05:18.620 --> 05:20.620
+And see which one you like better.
+
+05:20.810 --> 05:24.290
+But both of these now give us the same results.
+
+05:24.350 --> 05:30.490
+Nine for Nine for 20 1:06 15 170.
+
+05:30.660 --> 05:31.540
+I'll see in the next video.

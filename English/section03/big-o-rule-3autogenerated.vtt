@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.700 --> 00:02.510
+Welcome back.
+
+00:02.510 --> 00:04.390
+Let's talk about Rule number three.
+
+00:04.520 --> 00:11.360
+That is different terms for inputs and this is one of the trickiest parts of an interview that a lot
+
+00:11.360 --> 00:12.860
+of people make mistakes on.
+
+00:13.340 --> 00:16.900
+But once you understand it it becomes really easy to spot.
+
+00:16.910 --> 00:18.220
+So let's look at an example.
+
+00:19.390 --> 00:25.120
+I have the exact same function we saw in the last video compress boxes twice.
+
+00:25.150 --> 00:30.800
+We have the boxes array and we just have two loops here.
+
+00:30.820 --> 00:32.020
+I'm using the for each.
+
+00:32.020 --> 00:37.970
+Syntax in javascript but we're just looping twice over the same array.
+
+00:38.080 --> 00:45.290
+And as I said before the big show this is going to be two and but because we dropped the constants it
+
+00:45.290 --> 00:54.810
+becomes all of an but the third rule states that different terms for inputs and what that means is.
+
+00:54.920 --> 00:57.340
+Well first of all let me ask you a question.
+
+00:57.500 --> 01:07.840
+What if here I have boxes as the first parameter and then we have boxes to as a second parameter and
+
+01:07.840 --> 01:17.860
+maybe this second for loop actually loops over the second boxes what happens here.
+
+01:18.030 --> 01:20.110
+What is the big O.
+
+01:21.720 --> 01:28.080
+And during an interview a lot of people trip up and say that this is while still of an It's going to
+
+01:28.080 --> 01:31.870
+be 0 2 and drop the constants.
+
+01:31.940 --> 01:35.050
+Then now is this right.
+
+01:36.720 --> 01:44.760
+No because the third rule states that different terms for inputs and remember boxes.
+
+01:44.760 --> 01:49.550
+The first one and then the second one are two different inputs.
+
+01:49.830 --> 01:52.480
+One could be a hundred items long.
+
+01:52.600 --> 01:55.810
+Another one can be just one item.
+
+01:55.830 --> 02:04.910
+So this first for loop is going to depend on how big the first item or first input is and then the second
+
+02:04.910 --> 02:07.950
+for loop depends on how big this one is.
+
+02:09.100 --> 02:17.730
+And and is just an arbitrary letter that we decided on in this case the big-O of this function would
+
+02:17.730 --> 02:30.040
+be something like a for the first for loop which is the first input plus the the big big-O this function
+
+02:30.370 --> 02:39.230
+is actually a plus b or and plus M or boxes 1 plus boxes too.
+
+02:39.310 --> 02:45.760
+So keep that in mind just because you see two four loops one after another doesn't mean that they're
+
+02:45.760 --> 02:48.190
+looping over the same items.
+
+02:48.190 --> 02:55.980
+Now you might be asking yourself Andre What happens if these loops are nested.
+
+02:56.080 --> 02:59.920
+So far we've only worked with loops that are one after another.
+
+02:59.920 --> 03:09.460
+What if this loop was inside of this loop Well let's get into the next video and talk about another
+
+03:09.460 --> 03:12.450
+common pattern we see with the go that is nested loops.

@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.450 --> 00:02.500
+Witamy spowrotem.
+
+00:02.800 --> 00:06.930
+Dowiedzieliśmy się o listach pojedynczo i podwójnie powiązanych.
+
+00:06.990 --> 00:10.620
+Porozmawiajmy więc o tym, kiedy powinieneś użyć jednego z nich.
+
+00:10.620 --> 00:13.620
+Zacznijmy od pojedynczo połączonej listy.
+
+00:14.260 --> 00:21.070
+Pro pojedynczo połączonej listy jest to, że jest to dość prosta implementacja, szczególnie w
+
+00:21.070 --> 00:22.590
+porównaniu z podwójną.
+
+00:22.840 --> 00:26.350
+Wymaga mniej pamięci, jak możemy zobaczyć tutaj mniej Zablokuj.
+
+00:26.860 --> 00:34.030
+A ponieważ jest mniej pamięci, gdy robimy takie rzeczy jak usuwanie i wstawianie, ponieważ jest to technicznie mniej
+
+00:34.030 --> 00:37.300
+operacji, nie musimy poruszać się po poprzedniej właściwości.
+
+00:37.300 --> 00:39.420
+Jest trochę szybszy.
+
+00:39.610 --> 00:47.950
+Teraz wadą pojedynczo połączonej listy jest to, że nie można jej powtarzać w odwrotnej kolejności ani przechodzić od tyłu
+
+00:48.190 --> 00:54.610
+do przodu, jeśli kiedykolwiek stracimy odniesienie do tej kropki, która miała węzeł na liście.
+
+00:54.610 --> 01:02.080
+Lista może faktycznie zostać utracona w pamięci na zawsze, więc pojedyncza lista jest odpowiednia do użycia, gdy masz mniej pamięci
+
+01:02.080 --> 01:04.030
+lub pamięć jest naprawdę droga.
+
+01:04.030 --> 01:10.780
+Chcesz zachować ostrożność przy używaniu, a głównym celem jest szybkie wstawianie
+
+01:10.810 --> 01:12.070
+i usuwanie.
+
+01:12.280 --> 01:19.060
+I tak naprawdę nie masz zbyt wielu poszukiwań, szczególnie gdy masz wstawienie na początku
+
+01:19.060 --> 01:19.560
+listy.
+
+01:20.550 --> 01:21.710
+Podwójnie połączona lista.
+
+01:21.760 --> 01:29.490
+Dobra stroną jest to, że może być iterowane lub przemierzane zarówno z przodu, jak iz tyłu.
+
+01:29.490 --> 01:35.910
+Kolejną pięknością jest to, że jeśli chcesz usunąć poprzedni węzeł, nie musisz przechodzić z węzła głównego
+
+01:35.910 --> 01:41.650
+i znaleźć to, co poprzednie ogłoszenie, którego lista pojedynczo połączonych list nie ma pojęcia.
+
+01:42.060 --> 01:45.620
+Możesz to zrobić dość łatwo z podwójnie połączoną listą.
+
+01:46.530 --> 01:54.270
+Teraz wadą jest to, że jest dość skomplikowany, jak widzieliśmy, aby zaimplementować i wymaga więcej pamięci i pamięci
+
+01:54.630 --> 02:01.050
+ze względu na tę dodatkową właściwość i jest kilka rzeczywistych operacji, które musimy wykonać, aby
+
+02:01.050 --> 02:06.640
+upewnić się, że kiedy wstawimy i usuniemy poprzednie Właściwość jest również aktualizowana.
+
+02:06.900 --> 02:12.130
+Listy podwójnie połączone są naprawdę dobre, jeśli nie masz tak dużego ograniczenia pamięci.
+
+02:12.850 --> 02:19.510
+A jeśli chcesz mieć dobrą operację szukania elementów, takich jak wyszukiwanie wstecz,
+
+02:19.540 --> 02:25.760
+zamiast tylko fortu w sytuacjach rozmów kwalifikacyjnych, zobaczysz listę pojedynczo połączoną.
+
+02:25.830 --> 02:32.870
+Możesz zostać poproszony o teoretyczne lub szerokie pytanie o różnicę między listą pojedynczo i podwójnie połączoną.
+
+02:33.120 --> 02:36.390
+Ale przez większość czasu to właśnie zobaczysz.
+
+02:36.490 --> 02:37.030
+W porządku.
+
+02:37.510 --> 02:39.200
+Do zobaczenia w następnym wideo.
+
+02:39.220 --> 02:39.490
+Buh-Bye.

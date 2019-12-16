@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.130 --> 00:02.230
+Witamy spowrotem.
+
+00:02.360 --> 00:07.950
+Zastanawiałem się, jak to jest tylko szybkie wideo, które opowie ci o czymś interesującym.
+
+00:08.800 --> 00:10.400
+A to zależy od twojego języka.
+
+00:10.480 --> 00:17.990
+Ale pamiętaj o tej metodzie sortowania, którą mieliśmy w javascript lub twoim języku.
+
+00:18.150 --> 00:23.820
+Rzucam Ci wyzwanie, aby dowiedzieć się, jakiego rodzaju algorytmu sortowania używa pod maską.
+
+00:24.680 --> 00:32.130
+W większości przypadków będzie to sortowanie szybkie lub sortowanie z sortowaniem i scalanie połączone razem.
+
+00:32.360 --> 00:38.650
+Więc idź i sprawdź, jakiego algorytmu sortowania używa Twój język, jeśli chodzi o javascript.
+
+00:38.660 --> 00:45.500
+W rzeczywistości nie ma żadnych wymagań co do tego, który algorytm sortowania ma być używany.
+
+00:45.500 --> 00:51.350
+Mamy ECMAScript w javascriptu, który jest standardem, ale ponieważ standard nie wspomina o tym,
+
+00:51.440 --> 00:53.660
+jak to powinno być zaimplementowane.
+
+00:53.660 --> 00:57.260
+Różne przeglądarki, które mają różne silniki javascript.
+
+00:57.290 --> 01:02.490
+Chrome ma Mozilla V8 posiada własny silnik Safari własny silnik.
+
+01:02.600 --> 01:04.800
+Wszystkie one wdrażają je inaczej.
+
+01:05.580 --> 01:10.880
+Kiedy ostatnio sprawdzałem w Mozilli, używają sortowania scalonego do sortowania.
+
+01:11.070 --> 01:19.950
+W Chrome i sortowaniu silników V-8 zaimplementowano także quicksort, a także sortowanie z wstawkami
+
+01:19.950 --> 01:22.220
+dla mniejszego kasowania.
+
+01:22.300 --> 01:24.510
+Myślałem, że to i tak jest interesujące.
+
+01:24.560 --> 01:26.250
+Widzę w następnym wideo przez.

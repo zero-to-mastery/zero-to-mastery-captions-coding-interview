@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.930 --> 00:07.470
+Bentornati ci sono alcune strutture di dati che potrebbero essere richieste in un'intervista e abbiamo visto quanti di loro
+
+00:07.470 --> 00:10.150
+ci sono in quella pagina di Wikipedia.
+
+00:10.320 --> 00:14.760
+Ma fortunatamente per te la lista non è in realtà così intimidatoria.
+
+00:14.760 --> 00:18.420
+Tutto quello che devi imparare sono questi cigni qui.
+
+00:18.420 --> 00:21.380
+Questi sono usati direi il 90% delle volte.
+
+00:21.540 --> 00:25.310
+E questo è ciò di cui parleremo nel nostro corso.
+
+00:25.350 --> 00:30.800
+Ora ci possono essere quelli specifici all'interno di questi gruppi e ognuno di loro ha dei compromessi.
+
+00:30.990 --> 00:36.780
+Ma se impari queste cose e impari quando e perché dovresti usarle, allora sarai molto più avanti rispetto
+
+00:36.780 --> 00:38.570
+alla maggior parte delle persone.
+
+00:38.790 --> 00:41.160
+Sarà molto divertente.
+
+00:42.490 --> 00:44.400
+Ora prima di andare avanti.
+
+00:44.410 --> 00:46.870
+Voglio notare un'ultima cosa.
+
+00:47.020 --> 00:56.530
+Vedete ogni lingua ha i propri tipi di dati o i tipi di dati incorporati javascript,
+
+00:57.190 --> 01:09.570
+ad esempio, le stringhe di numeri hanno booleani che sono vere false e poi alcuni strani come indefiniti e ogni lingua
+
+01:09.570 --> 01:15.150
+ha strutture dati per organizzare questi tipi di dati.
+
+01:15.150 --> 01:23.960
+Quindi, per esempio in javascript abbiamo array e oggetti che usiamo e sono tipi di dati.
+
+01:23.970 --> 01:32.250
+Ci consente di strutturare e organizzare informazioni come i nostri tipi di dati primitivi o anche di gestire quelli
+
+01:32.250 --> 01:38.760
+più complessi come avere una matrice che contiene più oggetti e ne parleremo più in
+
+01:38.760 --> 01:39.660
+dettaglio.
+
+01:39.750 --> 01:47.730
+Ma voglio mostrarti che abbiamo lingue diverse che hanno un accesso diverso ad alcune strutture di dati.
+
+01:47.790 --> 01:55.080
+Puoi vedere qui alcune delle altre lingue che possiamo usare in questo corso e se
+
+01:55.080 --> 01:56.230
+sono disponibili.
+
+01:56.310 --> 02:07.010
+Vediamo che Java ha array ha stack di liste collegate, abbiamo code di priorità e molti altri tipi.
+
+02:07.090 --> 02:14.540
+Questo significa che se stiamo usando javascript possiamo usare solo matrici e oggetti.
+
+02:15.270 --> 02:22.050
+Beh, no, non proprio, anche se questi linguaggi sono dotati di strutture dati integrate.
+
+02:22.050 --> 02:30.690
+Possiamo anche costruire la nostra e la maggior parte delle lingue ha abbastanza strutture dati e tipi di dati sufficienti per costruire e
+
+02:31.740 --> 02:33.770
+creare le nostre strutture dati.
+
+02:34.690 --> 02:44.580
+Quindi se javascript non ha stack Bene possiamo costruirne uno ora per finire questa sezione e infine tuffarci nella
+
+02:44.580 --> 02:47.280
+nostra prima struttura dati.
+
+02:47.300 --> 02:53.480
+Volevo solo ricordarti che qui abbiamo una piccola mappa di ciò che dobbiamo sapere per l'intervista
+
+02:53.480 --> 02:54.470
+sul codice.
+
+02:54.470 --> 03:02.090
+Ora in questa mappa ho un piccolo emoji presente accanto a ciascuna delle strutture dati di cui
+
+03:02.090 --> 03:02.930
+parleremo.
+
+03:03.930 --> 03:10.260
+Come puoi vedere, non ce ne sono molti e molti di loro sono abbastanza imparentati o figli
+
+03:10.260 --> 03:17.600
+dell'altra, ma usa questo come riferimento per disegnare semplicemente una mappa di come sono connesse le cose e quali sono le
+
+03:17.600 --> 03:19.650
+strutture di dati parleremo di
+
+03:20.570 --> 03:24.870
+Ma sporcarci le mani con la nostra prima struttura dati.
+
+03:24.950 --> 03:26.280
+Vedrò nel prossimo.
+
+03:26.600 --> 03:26.820
+Babai.

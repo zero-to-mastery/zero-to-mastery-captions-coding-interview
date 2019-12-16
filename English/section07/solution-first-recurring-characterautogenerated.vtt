@@ -1,0 +1,526 @@
+WEBVTT
+
+00:00.950 --> 00:02.270
+Welcome back.
+
+00:02.270 --> 00:03.190
+How was it.
+
+00:03.260 --> 00:04.030
+You get it.
+
+00:04.040 --> 00:07.040
+Was it a tough question.
+
+00:07.100 --> 00:12.890
+Don't get too disappointed if you weren't able to get the answer these questions are meant to be tough
+
+00:12.980 --> 00:14.120
+to stretch your mind.
+
+00:14.330 --> 00:17.360
+If they were too simple then you wouldn't be learning anything.
+
+00:22.930 --> 00:28.900
+Let's start off with the naive approach that is the approach that first comes to mind.
+
+00:29.750 --> 00:36.280
+For me the very first one is going to be a nested for loop.
+
+00:36.470 --> 00:37.660
+Let's have a function.
+
+00:37.700 --> 00:39.170
+I'm going to call it first.
+
+00:42.530 --> 00:45.850
+Recurring character.
+
+00:46.060 --> 00:47.940
+It's going to receive an input.
+
+00:48.670 --> 00:53.140
+And because we've already talked about it I'm not going to do any input validation.
+
+00:53.140 --> 00:59.860
+We can just assume that we're always going to get some sort of numbered array in here.
+
+00:59.870 --> 01:05.670
+I'm going to loop again and oh boy I've done this so many times by now.
+
+01:05.750 --> 01:09.310
+I hope you're getting sick and tired of just looping through arrays.
+
+01:10.620 --> 01:19.240
+But hey now at least we are masters of loops.
+
+01:19.470 --> 01:20.700
+Plus plus.
+
+01:21.470 --> 01:27.890
+So in here in the first loop we're going to grab the first item in the array and let's just call this
+
+01:27.890 --> 01:28.330
+function.
+
+01:28.330 --> 01:30.920
+So we have it here.
+
+01:30.920 --> 01:32.080
+Nice and easy.
+
+01:33.300 --> 01:35.710
+And gives us a nice visual.
+
+01:35.830 --> 01:41.440
+So I'm going to loop through the first item then the fifth or the second the third the fourth and keeps
+
+01:41.440 --> 01:42.600
+going keeps going.
+
+01:43.000 --> 01:48.490
+I want to grab this item and then do another loop and check two versus five.
+
+01:48.610 --> 01:53.550
+Two versus one two versus two and then say that's the one.
+
+01:53.950 --> 02:01.930
+If it doesn't find anything it's going to go to the next five and then compare 5 to 1 1 to 2 2 2 3 and
+
+02:01.930 --> 02:02.520
+so on.
+
+02:03.370 --> 02:10.040
+So once again I'm just going to copy and paste this time because we have done a lot of four loops and
+
+02:10.040 --> 02:15.580
+simply change the variable to be j.
+
+02:15.620 --> 02:19.940
+We're going to start at 1 because we don't want to compare two to two.
+
+02:19.940 --> 02:21.710
+We want to compare two to five.
+
+02:21.770 --> 02:27.020
+To start off so we're just skipping a loop which will help us.
+
+02:27.650 --> 02:39.570
+I'm going to say Jay here and J plus plus Now some of you may have been caught here because if we have
+
+02:39.570 --> 02:46.120
+it the way it is right now and you console log this loop you'll see that it won't work properly because
+
+02:46.180 --> 02:55.700
+every time this shifts the outer for loop shifts from let's say zero to the next one the one index Jay
+
+02:56.060 --> 02:59.880
+is going to be reset to 1.
+
+03:00.020 --> 03:05.950
+So 5 is going to get compared to 5 and the function's going to assume a fives.
+
+03:05.960 --> 03:08.850
+The reoccurring character.
+
+03:09.030 --> 03:21.030
+So a little trick here is to do pi plus one that is we always go one to the right of where HIAS the
+
+03:21.030 --> 03:22.260
+first indexes.
+
+03:22.590 --> 03:33.720
+So if we're looping looping and we're at here the sub loop the nested loop is going to look at I plus
+
+03:33.870 --> 03:34.260
+1.
+
+03:34.340 --> 03:42.360
+So it's going to compare two to three two to five to to-I because well we've already compared to 2 2
+
+03:42.360 --> 03:46.830
+5 2 5 5 2 2 1 2 2 and previous loops.
+
+03:46.830 --> 03:47.400
+All right.
+
+03:47.610 --> 03:49.700
+We've done that in here.
+
+03:49.740 --> 03:54.120
+We can simply do an if statement saying in part.
+
+03:54.510 --> 04:00.970
+Does that equal the input J does to equal to 5.
+
+04:01.040 --> 04:04.320
+Does two equal to 1 does too equal to 2.
+
+04:04.640 --> 04:08.150
+If that equals then just simply return and put
+
+04:12.290 --> 04:12.860
+otherwise.
+
+04:12.880 --> 04:17.590
+If we do all this work and nothing happens we can just return
+
+04:20.690 --> 04:22.940
+undefined.
+
+04:23.020 --> 04:24.220
+Let's see if that works.
+
+04:24.340 --> 04:34.310
+I'm going to run it and I get two awesome What if I change this to one if I run this I get one perfect
+
+04:34.680 --> 04:44.030
+What if I do just a single item in an array I get undefined if I do an empty array I get undefined.
+
+04:44.060 --> 04:44.990
+That's good.
+
+04:45.230 --> 04:50.230
+What if I do 1 1 or 1 1 I get 1.
+
+04:50.230 --> 04:50.760
+That's great.
+
+04:50.770 --> 04:55.250
+If I do want to I get undefined awesome.
+
+04:55.290 --> 05:03.410
+This looks to be working nice and simple but as you can see here we're not being very efficient.
+
+05:03.480 --> 05:13.400
+We have nested loops which should trigger Oh this is all of and squared.
+
+05:13.480 --> 05:19.870
+And although technically we're actually always looping a little bit more efficient because of I plus
+
+05:19.930 --> 05:24.650
+I were not looping twice over the entire array.
+
+05:25.590 --> 05:32.510
+In the end when you remove the constants and simplify things it's still going to be 0 and square.
+
+05:32.550 --> 05:36.100
+So how can we solve this using hash tables.
+
+05:37.460 --> 05:41.830
+Well let's create a new function.
+
+05:43.180 --> 05:46.690
+We'll call this function by the same name this time.
+
+05:46.690 --> 05:54.330
+Number two version 2 it's going to receive an input.
+
+05:54.540 --> 05:59.340
+And let's change our test case to have the same thing
+
+06:03.420 --> 06:06.800
+like we did previously what can we do here.
+
+06:07.680 --> 06:15.440
+Well let's use a hash table or an object to do something interesting.
+
+06:15.600 --> 06:23.610
+That is to have these all these as we iterate one by one so loop through all the items add them to a
+
+06:23.610 --> 06:24.870
+hash table.
+
+06:25.170 --> 06:32.670
+And while we're doing that we can check to see if the property already exists or the key already exists.
+
+06:33.520 --> 06:38.650
+We add two to the hash table then five to the hash table then one to the hash table.
+
+06:38.680 --> 06:47.210
+And when we try to add two we can trigger a warning saying we already have two as the key so using that
+
+06:47.210 --> 06:50.010
+logic let's see how we can implement it.
+
+06:50.050 --> 06:52.770
+I'm going to create a map.
+
+06:52.840 --> 06:58.980
+We'll just call it a hash map for now because the keys are going to be unique.
+
+06:58.990 --> 07:13.290
+It's not going to let any duplicate keys and we can simply do our loops.
+
+07:13.690 --> 07:27.090
+And in this loop all we're going to do is say if map and we can check in this map if it's empty now
+
+07:27.090 --> 07:36.630
+the first check in here I want to say if the property or if the key already exists I want to just return
+
+07:38.160 --> 07:39.500
+the item.
+
+07:40.420 --> 07:42.880
+Because we don't need to do any more work.
+
+07:43.300 --> 07:52.800
+As soon as we find a key that already exists in our hash table stop all the looping and just return.
+
+07:52.840 --> 07:55.330
+In this case we want to return to.
+
+07:55.450 --> 08:08.970
+So at index 0 1 2 3 it's going to return and say 2 because well this key already exists.
+
+08:09.150 --> 08:17.500
+So the way we do that in the IF check is to simply say if and put by because remember this is going
+
+08:17.500 --> 08:21.240
+to equal to 2 when we loop through it.
+
+08:23.400 --> 08:33.320
+If that exists then return otherwise we will just add it to our map.
+
+08:33.410 --> 08:41.400
+So input by is going to equal and value can be anything.
+
+08:41.400 --> 08:44.480
+We'll just leave it at I which is the index.
+
+08:44.820 --> 08:54.930
+So 2 is going to equal 0 5 is going to equal 1 1 is going to have to let's just console log here to
+
+08:54.930 --> 08:56.620
+see what is happening.
+
+08:56.790 --> 09:07.240
+But I want to also return undefined at the end in case none of this happens in case there is no match.
+
+09:07.250 --> 09:12.220
+So at the end of the for loop we'll just cancel the dot log.
+
+09:12.310 --> 09:15.850
+Napp and see what we have.
+
+09:15.970 --> 09:20.230
+I'm going to run and I get five.
+
+09:20.520 --> 09:23.700
+And there's no log what just happened here.
+
+09:24.150 --> 09:32.610
+Well if we console log Ophir instead and take a look at what this is giving us
+
+09:36.360 --> 09:43.460
+and run I get undefined undefined undefined zero undefined one.
+
+09:43.500 --> 09:44.910
+What does that mean.
+
+09:44.910 --> 09:55.670
+Well remember we're looping through here and we're saying hey does too exist.
+
+09:55.790 --> 09:57.940
+Does input zero.
+
+09:57.980 --> 10:01.530
+Which is to exist as a key.
+
+10:02.030 --> 10:08.090
+So it's simply saying Napp dot to does it exist.
+
+10:08.190 --> 10:16.200
+And because that doesn't exist we get on defined and it's going to go to next Hey does five exist.
+
+10:16.260 --> 10:17.210
+No it doesn't.
+
+10:17.220 --> 10:19.320
+Hey does one exist.
+
+10:19.320 --> 10:20.220
+No it doesn't.
+
+10:20.340 --> 10:22.320
+Hey does too exist.
+
+10:22.350 --> 10:25.290
+And as soon as it checks to again
+
+10:28.140 --> 10:32.770
+to it's going to say ah I already have it.
+
+10:32.860 --> 10:37.640
+It's at index of 0.
+
+10:37.690 --> 10:40.390
+So this is working.
+
+10:40.630 --> 10:53.190
+However because when this gets to zero the way javascript works it put zero here but in an IF statement
+
+10:53.580 --> 11:00.600
+zero is what we call falsie and Javascript and that has to do with type coarsen and Javascript something
+
+11:00.600 --> 11:03.930
+that a lot of people get annoyed about with the language.
+
+11:03.930 --> 11:12.780
+So what we would need to do is to make sure that we we specify that we want this to not equal on defined.
+
+11:12.840 --> 11:18.690
+So as soon as it doesn't equal undefined I want you to returned this item.
+
+11:18.710 --> 11:34.600
+Now if we run this we get two which is great if we Konsole dot log the map and run this at the bottom
+
+11:34.600 --> 11:34.900
+here.
+
+11:34.900 --> 11:43.950
+So we see the actual iteration that's happening we see that it adds to an index of 0 then to an index
+
+11:43.950 --> 11:46.280
+of 0 and 5 index of 1.
+
+11:46.590 --> 11:54.870
+So on and so forth until it stops after the third loop because it encounters to again it's going to
+
+11:54.870 --> 11:57.480
+check and say 0 2 already exists.
+
+11:57.480 --> 11:59.930
+Just return it.
+
+11:59.950 --> 12:01.320
+How cool is that.
+
+12:01.360 --> 12:12.000
+We just made this entire thing with just one loop that is way faster than our first version using hash
+
+12:12.000 --> 12:13.110
+tables.
+
+12:13.110 --> 12:21.000
+How cool is that for me doing things like this and seeing the power of how learning about big-O and
+
+12:21.000 --> 12:27.750
+hash tables has improved our coding ability just gets me really really excited and I hope this gets
+
+12:27.750 --> 12:29.300
+you excited as well.
+
+12:29.370 --> 12:33.960
+We made this function have a time complexity of all over.
+
+12:34.050 --> 12:43.530
+We've improved it with one downside we've increased the memory space complexity by O then because we're
+
+12:43.530 --> 12:51.180
+creating a new object in this function that needs to keep track of all the items in the array and in
+
+12:51.180 --> 12:57.870
+the worst case when there is no match it's going to go through the entire item list of the array and
+
+12:57.870 --> 12:59.850
+hold that information in the map.
+
+12:59.850 --> 13:07.140
+So we're also going to have unlike this version where we didn't create any space complexity we just
+
+13:07.140 --> 13:11.640
+had space complexity of all of one.
+
+13:11.700 --> 13:16.910
+We now have a little bit more but in turn we have a faster function.
+
+13:18.200 --> 13:19.730
+Very very cool.
+
+13:19.880 --> 13:24.440
+Now to finish off I want to give you one last challenge.
+
+13:24.950 --> 13:35.850
+You see looking at these two implementations what happens if we have something like this.
+
+13:35.930 --> 13:41.210
+What do you think the first recurring character is.
+
+13:41.270 --> 13:55.670
+If I run this I get five because five occurs sooner than two two because of the way we implemented the
+
+13:55.670 --> 13:57.170
+second function.
+
+13:57.170 --> 14:09.290
+However if I go to the first version of our function and run this I get to Hmm why is that well if we
+
+14:09.290 --> 14:16.250
+go to the very first part of our function we see that the way we are doing things is we are going one
+
+14:16.250 --> 14:18.840
+by one in a different way.
+
+14:19.160 --> 14:25.760
+We're saying grab two and then compare two with five then five then two and three than five then one
+
+14:25.760 --> 14:32.910
+and two four and then move over to five in five and five and two and so on and so forth.
+
+14:32.930 --> 14:40.400
+And because of the way we have that implemented it's going to detect two and two because the outer loop
+
+14:40.730 --> 14:53.360
+has an index of 0 and has two eyes it's going through the loop before it compares five with five versus.
+
+14:53.470 --> 15:02.420
+Our second version with a hash table where we had all these items and we were able to compare them.
+
+15:02.560 --> 15:10.060
+Once we grabbed all of them and that's another powerful thing when you think about arrays and hash tables
+
+15:10.390 --> 15:18.010
+and how you're able to compare things and based on what the interviewer asked you might have a wrong
+
+15:18.010 --> 15:18.340
+answer.
+
+15:18.340 --> 15:26.050
+Maybe they want to use to detect five and five before you detect two and two so my bonus question to
+
+15:26.050 --> 15:35.110
+you if you have time and a bit of a challenge is to convert this function if you want into something
+
+15:35.110 --> 15:37.090
+that matches the answer to this.
+
+15:37.090 --> 15:41.050
+That is to detect five and five.
+
+15:41.240 --> 15:43.930
+How would you go about doing that.
+
+15:44.100 --> 15:47.550
+You're most likely going to have to do something interesting here.
+
+15:48.890 --> 15:50.980
+So good luck with that.
+
+15:50.990 --> 15:56.360
+Talk to other people on discord in our community and see if you can figure it out and I'll post some
+
+15:56.360 --> 15:58.440
+creative solutions to that problem.
+
+15:58.630 --> 16:05.280
+As students submit them to see how other people have implemented this.
+
+16:05.310 --> 16:08.300
+But for now I think we deserve a break.
+
+16:08.310 --> 16:09.590
+I'll see in the next one.
+
+16:09.830 --> 16:10.250
+Bye bye.

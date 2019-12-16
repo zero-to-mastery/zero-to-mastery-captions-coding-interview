@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.330 --> 00:07.600
+Saatnya untuk latihan lain, kami telah belajar cara membuat struktur data tumpukan.
+
+00:07.660 --> 00:11.030
+Tetapi bagaimana dengan struktur data baru.
+
+00:11.050 --> 00:15.250
+Untungnya bagi kami banyak kepala sekolah akan sama.
+
+00:15.390 --> 00:21.370
+Dan jika Anda dapat memahami bagaimana struktur data stack bekerja maka Anda seharusnya tidak memiliki masalah
+
+00:21.460 --> 00:23.420
+membangun struktur data baru.
+
+00:24.690 --> 00:27.460
+Saya telah membuat templat untuk memulai kami di sini.
+
+00:27.810 --> 00:34.470
+Dan tugas Anda adalah menciptakan tiga metode ini yang kita kenal.
+
+00:34.530 --> 00:42.940
+Kami ingin mengintip dan mendapatkan item pertama dalam antrian kami atau baris kami karena saya suka menyebutnya.
+
+00:43.100 --> 00:49.640
+Dan di konstruktor kami alih-alih memiliki atas dan bawah seperti yang kami lakukan dengan tumpukan, kami memiliki yang pertama dan terakhir
+
+00:50.060 --> 00:52.670
+yang ada di baris yang hilang dalam barisan.
+
+00:52.670 --> 00:56.500
+Dan jelas panjangnya nol.
+
+00:56.660 --> 01:02.720
+Dan tugas Anda adalah menciptakan dan mengisi metode ini berdasarkan petunjuk.
+
+01:02.720 --> 01:09.550
+Ingat adalah menambahkan ke Q dan dequeue adalah untuk menghapus dari antrian.
+
+01:09.630 --> 01:16.560
+Ingatlah bahwa perbedaan antara tumpukan yang menggunakan pop adalah bahwa dequeue menghapus dari
+
+01:16.560 --> 01:19.860
+depan daftar apa pun yang pertama.
+
+01:19.990 --> 01:21.100
+Dan lagi jika Anda mau.
+
+01:21.100 --> 01:24.700
+Anda dapat membuat metode lain yang disebut kosong.
+
+01:24.700 --> 01:31.930
+Dan tujuan Anda adalah membuat antrian ini sehingga Anda dapat membuat peta daftar tunggu tempat Joy berada.
+
+01:31.970 --> 01:33.870
+Lalu Matt berbaris.
+
+01:33.970 --> 01:35.920
+Lalu Pavel berbaris.
+
+01:36.010 --> 01:43.490
+Kemudian sumir masuk dalam barisan dan kemudian Anda membunuh mereka satu per satu dengan basis first come first serve
+
+01:44.920 --> 01:47.320
+Semoga sukses dan sampai jumpa di video solusi.

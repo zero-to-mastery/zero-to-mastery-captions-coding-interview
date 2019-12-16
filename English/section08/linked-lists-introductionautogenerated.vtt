@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.740 --> 00:09.210
+It's time to talk about our third data structure and we're going to be talking about two types of linked
+
+00:09.210 --> 00:19.360
+lists in the next coming videos singly and doubly linked lists what problem do we encounter with a race
+
+00:20.580 --> 00:22.980
+well with static arrays.
+
+00:23.010 --> 00:30.220
+We only had a certain amount of data or memory that can be allocated next to each other in memory but
+
+00:30.220 --> 00:36.490
+then both dynamic arrays and static arrays can increase their memory.
+
+00:36.490 --> 00:43.080
+Once it hits a certain limit and double up that memory in another location but that operation every
+
+00:43.080 --> 00:50.940
+once in a while of doubling up the array in order to create more memory had a performance implication
+
+00:51.390 --> 01:00.060
+and it cost us all of an Additionally arrays also had bad performance for any sort of operations like
+
+01:00.360 --> 01:07.560
+insert and delete that had to shift indexes over especially when you inserted or deleted any word that
+
+01:07.560 --> 01:09.390
+wasn't the end of the array.
+
+01:10.670 --> 01:12.640
+And then came hash tables.
+
+01:12.650 --> 01:13.580
+They were great.
+
+01:13.700 --> 01:19.160
+We were pretty much store things wherever we wanted and memory and hash tables would just take care
+
+01:19.160 --> 01:21.430
+of it for us and know where to place it in memory.
+
+01:22.440 --> 01:25.680
+We didn't have to worry about some problems that came with the race.
+
+01:25.680 --> 01:30.710
+Life was good but unfortunately they weren't really ordered.
+
+01:30.810 --> 01:33.260
+So how can we solve this problem.
+
+01:33.480 --> 01:35.480
+Linked Lists to the rescue.
+
+01:35.850 --> 01:41.910
+So does this mean we all should just be using linked lists all the time in disregard arrays and hash
+
+01:41.910 --> 01:45.750
+tables because linked lists are the best data structures.
+
+01:45.840 --> 01:46.370
+No.
+
+01:46.710 --> 01:50.490
+As always there are tradeoffs when it comes to data structures.
+
+01:50.520 --> 01:56.430
+So in the next coming videos Let's learn more about them so we can get a clearer picture.
+
+01:57.810 --> 02:05.060
+By the way remember this diagram that I showed you in the hash tables videos and I said that when we
+
+02:05.060 --> 02:06.440
+had a collision.
+
+02:06.440 --> 02:10.210
+One way to solve it was using something like this.
+
+02:11.710 --> 02:14.590
+And we had no idea what this data structure was.
+
+02:14.740 --> 02:22.230
+Well this John Smith to Sandra Dee and this little arrow pointing that's a linked list.
+
+02:22.300 --> 02:25.240
+So let's get started and learn what link lists are.

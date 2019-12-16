@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.700 --> 00:01.530
+Bine ai revenit.
+
+00:01.720 --> 00:04.890
+Să codificăm propriul algoritm de sortare a bulelor.
+
+00:04.930 --> 00:13.700
+Am de gând să creez o funcție numită Bubble sort, care va lua într-o matrice și am o matrice
+
+00:13.700 --> 00:16.910
+aici pentru noi de aceste numere.
+
+00:17.230 --> 00:23.290
+Și în mod ideal, atunci când intrăm în această matrice în această funcție, ea scutură o matrice sortată.
+
+00:24.280 --> 00:31.510
+Și bazându-ne pe animația pe care am văzut-o, vom începe, de la început, de la început, să comparăm primul și
+
+00:31.510 --> 00:34.270
+al doilea element pentru a schimba elementele.
+
+00:34.300 --> 00:40.690
+Dacă cea din stânga este mai mare decât cea dreaptă și continuați să continuați să continuați până când cel mai
+
+00:41.380 --> 00:46.370
+mare element se termină în ultimul indice și apoi vom relua lucrurile din nou.
+
+00:46.630 --> 00:51.850
+Primul lucru pe care vreau să-l fac este să spun că voi crea doar o variabilă,
+
+00:51.850 --> 01:00.670
+așa că nu trebuie să păstrez repetându-mă pe toți, să fiu matrice mai lungă va fi lungimea acestui element care ar trebui să fie 10 Cred că 1
+
+01:00.670 --> 01:03.800
+2 3 4 5 6 7 8 9 10.
+
+01:03.820 --> 01:04.690
+Vă place.
+
+01:04.720 --> 01:12.430
+Nu contează să înveți și aici vom face o buclă și o să spunem să lăsați.
+
+01:12.720 --> 01:16.110
+Costul este 0, care va fi primul indice al matricei.
+
+01:17.910 --> 01:22.070
+Eu sunt mai puțin decât lent.
+
+01:22.340 --> 01:26.890
+Plus plus și în interiorul nostru luăm primul element.
+
+01:27.010 --> 01:33.220
+Acum vrem să îl comparăm cu 44 și așa mai departe și așa mai departe ar trebui să știm acest lucru până acum.
+
+01:33.610 --> 01:36.530
+Vrem să adăugăm o altă buclă J.
+
+01:36.700 --> 01:39.760
+Va fi numit 0.
+
+01:39.960 --> 01:56.650
+J va fi mai puțin decât lenth și vom spune J plus plus acum aici vom spune că dacă indicatorul nostru RE J ar fi de
+
+01:56.720 --> 01:57.720
+0.
+
+01:57.800 --> 02:05.300
+Deci, este nouăzeci și nouă este mai mare decât Auray J plus 1.
+
+02:05.330 --> 02:06.920
+Asta este 44.
+
+02:06.920 --> 02:13.140
+Deci, dacă nouăzeci și nouă este mai mare de 44 în prima buclă, vom spune
+
+02:16.600 --> 02:17.720
+numerele schimbate.
+
+02:19.630 --> 02:29.740
+Deci putem face asta pur și simplu spunând că vom crea o variabilă temporară care să dețină o matrice
+
+02:29.740 --> 02:39.450
+J care prima trecere va fi nouăzeci și nouă și va da primul indice de 0 la Array.
+
+02:40.570 --> 02:48.920
+J plus 44 sau plus 1 care este de 44 și 99.
+
+02:48.920 --> 02:50.740
+Acum intră în cel de-al doilea index.
+
+02:50.760 --> 02:58.990
+Asta înseamnă că Ray J plus 1 va egala o rază j.
+
+03:00.900 --> 03:03.600
+Este posibil să trebuiască să întrerupeți videoclipul pentru a înțelege cu adevărat acest lucru.
+
+03:03.720 --> 03:05.580
+Dar tot ce facem este doar schimbarea numerelor.
+
+03:05.580 --> 03:16.080
+Dacă partea stângă este mai mare decât partea dreaptă și odată ce se face acest lucru, creștem J la 1 astfel încât să comparăm indicele de 1 și
+
+03:16.080 --> 03:23.700
+2 și apoi să comparăm indicele de 2 și 3 3 și 4 4 sau 5 până când vom bate
+
+03:23.700 --> 03:24.530
+lucrurile sus.
+
+03:24.630 --> 03:33.040
+Apoi, mergem în partea de sus și comparăm elementele din nou, iar out sunt pentru a vedea dacă funcționează.
+
+03:33.560 --> 03:36.740
+Și am realizat asta.
+
+03:36.840 --> 03:37.580
+J.
+
+03:39.230 --> 03:41.780
+Ar trebui să fie Tampere.
+
+03:41.930 --> 03:44.080
+Amintiți-vă nouăzeci și nouă.
+
+03:44.150 --> 03:52.710
+Am plasat-o într-o variabilă temporară și l-am alocat indicelui spre dreapta, astfel încât să rotunjim sortarea
+
+03:52.710 --> 03:53.250
+bulei.
+
+03:53.250 --> 04:04.710
+Acum vom spune numere și vom consola numerele de jurnal pentru a vedea dacă sunt sortate dacă l-am lovit pe Ron.
+
+04:05.320 --> 04:07.700
+Numerele de jurnale de cauzalitate asigură că pot scrie.
+
+04:07.780 --> 04:13.470
+Să spun că alerg, mă uit la lista noastră este acum sortată.
+
+04:14.460 --> 04:18.120
+Asta a fost un balon.
+
+04:18.240 --> 04:26.600
+Și, după cum puteți auzi, avem două imbricate pentru bucle care ne dau toate pătratul final, dar nu ținem cu
+
+04:26.600 --> 04:33.060
+adevărat variabile unei alte structuri de date sau ținând numerele în alte structuri de date.
+
+04:33.110 --> 04:43.280
+Așadar, complexitatea spațială este una dintre ele, așa cum se poate observa în Big-O, tipul de balon Chichi nu este probabil
+
+04:43.280 --> 04:48.640
+cel mai bun algoritm, deși are o complexitate spațială bună.
+
+04:48.790 --> 04:53.880
+Puteți folosi codul pe care Alief pentru dvs. și această lecție îl puteți juca.
+
+04:54.060 --> 04:57.930
+Dar, pentru moment, să mergem la următorul nostru algoritm de sortare.
+
+04:57.930 --> 05:02.050
+Felicitări că tocmai ați terminat primul dvs. algoritm de sortare.
+
+05:02.070 --> 05:03.710
+Dar mai avem de parcurs.
+
+05:03.780 --> 05:05.770
+Deci, să mergem la următorul.

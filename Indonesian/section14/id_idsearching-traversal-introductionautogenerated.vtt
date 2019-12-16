@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.560 --> 00:07.400
+Kami telah berbicara tentang rekursi dan menyortir kami memiliki beberapa lagi.
+
+00:07.560 --> 00:14.970
+Dan di bagian ini kita akan berbicara tentang pencarian dan traversal termasuk pencarian pertama yang luas dan
+
+00:15.180 --> 00:21.380
+pencarian pencarian pertama yang mendalam adalah sesuatu yang kita lakukan banyak di komputer kita.
+
+00:21.380 --> 00:27.320
+Ketika kami berbicara tentang menyortir beberapa dari Anda mungkin seperti pria, itu tidak benar-benar terdengar
+
+00:28.040 --> 00:29.320
+berguna tetapi mencari.
+
+00:29.540 --> 00:32.210
+Kami menggunakannya setiap hari bukan.
+
+00:32.210 --> 00:34.590
+Kami mencari file di komputer kami.
+
+00:34.970 --> 00:44.030
+KAMI MENJALANKAN perintah dan mencari hal-hal mencari kata-kata dan dokumen yang kami cari Google kami mencari youtube kami
+
+00:44.630 --> 00:51.220
+mencari tagar di Twitter dan pencarian Instagram adalah bagian besar dari kehidupan kami.
+
+00:51.350 --> 00:56.660
+Tetapi bagaimana semua komputer dan program ini dapat mencari dengan sangat cepat.
+
+00:57.660 --> 01:03.060
+Semakin banyak data di dunia ini yang semakin banyak dicari situs Web.
+
+01:03.060 --> 01:06.180
+Bagaimana kita dapat melakukan hal-hal ini begitu cepat.
+
+01:06.180 --> 01:09.310
+Bagaimana Google dapat melakukan hal-hal ini begitu cepat.
+
+01:09.600 --> 01:14.130
+Nah di bagian ini kita akan membangun fondasi ini tentang cara kerjanya.
+
+01:15.470 --> 01:21.110
+Dan kita akan berbicara tentang beberapa jenis pencarian dan traversal dan mudah-mudahan
+
+01:21.110 --> 01:27.670
+pada akhirnya semua yang Anda akan mengerti bagaimana tempat-tempat seperti Facebook Google dan Google Maps bekerja.
+
+01:28.010 --> 01:33.000
+Ketika datang untuk mencari di tingkat dasar, mari kita mulai.

@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.750 --> 00:01.640
+Witamy spowrotem.
+
+00:02.010 --> 00:04.100
+Jak poszło z metodą Remove.
+
+00:05.470 --> 00:09.530
+Powinno być dość łatwe, ponieważ mamy właściwy instrument.
+
+00:10.450 --> 00:19.720
+Wszystko, co musimy zrobić, to najpierw sprawdzić parametry i możemy chcieć sprawdzić, czy indeks ma dodatnią liczbę,
+
+00:19.720 --> 00:23.030
+czy indeks jest wyższy od długości.
+
+00:23.080 --> 00:25.130
+Ale o tym już rozmawialiśmy.
+
+00:25.150 --> 00:28.130
+A więc przejdźmy do mięsa i ziemniaków.
+
+00:28.150 --> 00:35.920
+Główną częścią wszystkiego, co musimy zrobić, to ponownie uzyskać odniesienie do naszego lidera.
+
+00:36.090 --> 00:44.530
+Tak więc, jeśli chcemy usunąć, powiedzmy 99, tak, że jest to indeks 0 1 2.
+
+00:44.660 --> 00:55.860
+W takim przypadku chcemy się upewnić, że usunęliśmy wskaźnik od 10 do 99, a zamiast tego, punkt 10 do piątego i ze względu
+
+00:55.860 --> 01:01.710
+na sposób działania pamięci i śmieci zebranych języków, takich jak javascript, jak
+
+01:01.710 --> 01:05.690
+tylko usuniemy to odniesienie 99 zostanie usunięte.
+
+01:05.700 --> 01:17.490
+Więc wszystko, co teraz mówimy, to usunąć ten wskaźnik, a następnie po prostu zaktualizować ten punkt do tej listy.
+
+01:17.530 --> 01:19.380
+I to zostanie usunięte.
+
+01:19.740 --> 01:22.390
+Mam nadzieję, że mój mały diagram ma sens.
+
+01:22.450 --> 01:23.510
+Wykreślmy to.
+
+01:23.960 --> 01:31.420
+Cóż, najpierw znajdujemy lidera, tak jak robiliśmy to w funkcji wstawiania, używając tej kropki
+
+01:31.420 --> 01:32.710
+do indeksu.
+
+01:32.710 --> 01:39.090
+Więc mówię, że ta kropka przemieści się do indeksu Index minus jeden.
+
+01:39.310 --> 01:41.620
+I mamy lidera.
+
+01:41.770 --> 01:48.430
+Teraz mamy lidera i możemy wskazać 10, aby teraz wskazywać na pięć.
+
+01:48.640 --> 02:00.710
+Ale potrzebujemy odniesienia do tego Fotha i sposób, w jaki uzyskujemy to odniesienie, to znaczy, że Konst na pożądanej nucie
+
+02:00.950 --> 02:09.860
+jest to, że węzeł, który chcemy usunąć, będzie miał kropkę lidera, która będzie dioda węzła
+
+02:09.860 --> 02:23.080
+będzie wywoływać lidera zrobione X, który ma 99 i mamy to bardzo odważne, dzięki czemu możemy zrobić lider kropkę obok równy na
+
+02:23.090 --> 02:26.880
+jednym do węzła kropka następny.
+
+02:26.900 --> 02:34.430
+Więc złapiemy lidera, a potem powiedzieliśmy, że nie, nie chcę, żebym chciał go pobrać tutaj, używając lidera kropka dalej, a
+
+02:34.430 --> 02:42.170
+potem upewnimy się, że otrzymamy wskaźnik o wartości 99 na 5, co jest niechcianą notatką wykonaną w następnej kolejności, co jest
+
+02:42.380 --> 02:44.320
+równe do 5 na pięć.
+
+02:44.320 --> 02:49.280
+Uwaga, aby być teraz wskazanym z kropki po blistrze.
+
+02:50.140 --> 02:57.160
+I oczywiście nie zapominamy, że musimy zmniejszyć długość, ponieważ usuwamy węzeł,
+
+02:57.160 --> 03:07.580
+robiąc minus minus, a możemy po prostu zwrócić tę kropkę Crantza do tego, co było zbyt złe.
+
+03:07.580 --> 03:10.940
+Chodźmy tutaj i upewnijmy się, że to działa.
+
+03:10.940 --> 03:19.450
+Zamierzam powiedzieć, że chcemy, aby moja lista linków została usunięta z indeksu dwóch.
+
+03:19.490 --> 03:21.100
+Usuńmy dziewięćdziesiąt dziewięć.
+
+03:21.230 --> 03:23.340
+Mam zamiar to uruchomić.
+
+03:23.530 --> 03:24.170
+Spójrz na to.
+
+03:24.170 --> 03:25.880
+Usunęliśmy dziewięćdziesiąt dziewięć.
+
+03:26.120 --> 03:29.420
+Jeśli uruchomię, usuń ponownie.
+
+03:29.450 --> 03:41.540
+Indeks dwóch, które ma usunąć pięć, ale nie listy drukowania usunąć, a my klikamy Run 5 zostaje usunięty.
+
+03:41.580 --> 03:43.820
+Bardzo bardzo fajne.
+
+03:44.220 --> 03:51.150
+I znowu wiemy, dlaczego usuwanie jest operacją wszystkich i ponieważ musimy przejść
+
+03:52.780 --> 04:02.060
+do indeksu i wracać tutaj, teraz mamy lepsze zrozumienie tego, jak działa ten diagram, ogień przesuwa ogon.
+
+04:02.060 --> 04:08.840
+Musimy przemierzać wszystko, jeden po drugim, jeden po drugim, aż uderzymy w ogon, a potem po prostu go usuniemy
+
+04:08.840 --> 04:10.600
+i tam go mamy.
+
+04:11.530 --> 04:15.480
+I zachęcam cię do zabawy z tą animacją.
+
+04:15.580 --> 04:18.950
+Po wdrożeniu naszej połączonej listy.
+
+04:19.190 --> 04:24.950
+Są inne metody, które możemy do niego dodać, ale są to główne listy linków, które możesz
+
+04:24.950 --> 04:25.480
+zobaczyć.
+
+04:25.970 --> 04:31.370
+A to powinno dać ci lepsze wyobrażenie o tym, jak obliczamy notację Big O z połączonymi
+
+04:31.370 --> 04:33.750
+listami i gdzie są niektóre wady.
+
+04:33.760 --> 04:40.060
+Chodzi mi o to, że możesz wyjaśniać struktury danych przez długi czas, ale bez samego
+
+04:40.060 --> 04:49.210
+kodowania trudno jest zrozumieć, dlaczego niektóre operacje trwają dłużej niż inne, a listy linków są bardzo popularne i są to pytania do wywiadu.
+
+04:49.350 --> 04:55.890
+A teraz masz narzędzia do budowania własnej listy długości w języku, który nie ma nawet
+
+04:56.130 --> 04:58.500
+natywnie jak dobrze zrobione javascript.
+
+04:58.520 --> 05:06.120
+Osiągając tak daleko w następnym filmie przedstawimy wam drugi typ połączonej listy, o której
+
+05:06.120 --> 05:08.350
+wspomniałem na początku.
+
+05:08.460 --> 05:11.910
+Do tej pory tworzyliśmy pojedynczo połączone listy.
+
+05:12.390 --> 05:16.050
+Ale istnieje również podwójnie związana lista.
+
+05:16.050 --> 05:18.150
+Co to oznacza.
+
+05:18.240 --> 05:19.130
+Zobaczę w następnym filmie.

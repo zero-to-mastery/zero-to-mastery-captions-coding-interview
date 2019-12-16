@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.420 --> 00:01.220
+Ben tornato.
+
+00:01.470 --> 00:04.250
+Parliamo della complessità dello spazio.
+
+00:04.260 --> 00:14.260
+Cosa succede se ho una funzione che ha il nome di boo e tutto ciò che fa è che ci vuole un input.
+
+00:14.600 --> 00:23.880
+E all'interno di questo input avrà semplicemente un ciclo che abbiamo visto prima.
+
+00:25.600 --> 00:38.630
+E questo ciclo fa in modo che lo facciamo correttamente e lo dicessimo e quello vuoto e diremo che
+
+00:38.630 --> 00:49.950
+più plus e questa funzione è una funzione davvero inutile che semplicemente registra Konsole il log alla
+
+00:50.100 --> 00:51.900
+sua funzione.
+
+00:51.910 --> 00:55.120
+Quindi ora qui se eseguiamo semplicemente
+
+00:57.770 --> 01:12.700
+la funzione e diamo un input di diciamo 1 2 3 4 5 e lo eseguiamo bene, abbiamo BHU in esecuzione cinque volte e sappiamo che la complessità dello spazio
+
+01:12.700 --> 01:19.100
+di questa funzione o complessità temporale di questa funzione è un quando
+
+01:19.330 --> 01:24.700
+Ma quando si tratta di complessità spaziale pensiamo a questo.
+
+01:24.870 --> 01:27.360
+Qual è la complessità dello spazio di questo.
+
+01:27.420 --> 01:30.330
+Ora prova a indovinare prima di entrare nell'argomento.
+
+01:35.410 --> 01:43.480
+Quello che si capisce quando si parla di complessità spaziale è che quando parliamo di complessità spaziale stiamo
+
+01:43.480 --> 01:49.590
+parlando di spazio aggiuntivo, quindi non includiamo lo spazio occupato dagli input.
+
+01:49.720 --> 01:54.930
+Quindi non ci interessa davvero quanto sia grande l'input.
+
+01:54.970 --> 01:56.340
+Voglio dire, ci importa.
+
+01:56.350 --> 02:02.980
+Ma quando si tratta di questa funzione, non abbiamo un controllo sul tipo di input che riceve.
+
+02:02.980 --> 02:06.700
+Abbiamo solo il controllo di ciò che accade all'interno di questa funzione.
+
+02:06.730 --> 02:16.060
+Quindi all'interno di questa funzione stiamo aggiungendo uno spazio. Beh, non proprio l'unica cosa che stiamo facendo
+
+02:16.120 --> 02:24.030
+è che stiamo creando questo, io sono uguale a zero e questo è tutto.
+
+02:24.080 --> 02:27.180
+A parte questo, non aggiungiamo più memoria.
+
+02:27.470 --> 02:37.540
+Quindi questa funzione ha una complessità spaziale di 0 1 piacevole e semplice, ma cosa succede se abbiamo una funzione diversa e
+
+02:38.030 --> 02:40.510
+se abbiamo qualcosa di simile.
+
+02:42.280 --> 02:49.360
+Questa volta avrà una funzione che dice matrice di andare a dargli un altro nome terribile.
+
+02:49.480 --> 02:52.170
+Tempi di fascia alta.
+
+02:52.690 --> 02:53.640
+È un nome terribile.
+
+02:53.650 --> 03:01.150
+Ma diciamo che questa funzione prende di nuovo un input e all'interno di qui creeremo una nuova variabile.
+
+03:01.180 --> 03:06.850
+Diremo che l'array Hi sarà uguale a un array vuoto.
+
+03:07.890 --> 03:10.700
+E pensiamo che avremo un ciclo.
+
+03:10.740 --> 03:19.510
+Sto solo per copiare questo per ora Devo annoiarvi con la mia digitazione
+
+03:19.900 --> 03:25.710
+e qui dirò semplicemente hi array nell'indice.
+
+03:25.740 --> 03:33.290
+Quindi, mentre procediamo in loop, lo riempiremo di alti e restituiremo questo array.
+
+03:33.300 --> 03:39.170
+Ciao Ira.
+
+03:39.890 --> 03:42.630
+Tutto ciò che stiamo facendo è creare un nuovo array.
+
+03:43.160 --> 03:52.320
+E per il numero di elementi nel nostro input, riempiremo semplicemente l'alto numero di volte.
+
+03:52.340 --> 03:52.670
+Ciao.
+
+03:52.680 --> 03:53.320
+Ciao ciao
+
+03:53.320 --> 03:54.840
+Ciao corda.
+
+03:54.950 --> 04:04.640
+Quindi se lo faccio di nuovo e dico array di tempi di fascia alta e lo dico diciamo che lo daremo e tu sai cosa.
+
+04:04.670 --> 04:07.800
+Invece di lenth, lasciamolo come numero.
+
+04:07.800 --> 04:14.290
+Quindi ho intenzione di dire e dirò sei volte.
+
+04:14.370 --> 04:21.760
+Quindi, se eseguo questo codice, vediamo che anche se abbiamo il boo boo boo
+
+04:22.390 --> 04:32.830
+qui dall'inizio, l'altra serie di funzioni di fascia alta ci restituisce un nuovo array con sei elementi e ogni elemento
+
+04:32.830 --> 04:39.100
+dice semplicemente Ciao, qual è la complessità dello spazio di questo.
+
+04:39.170 --> 04:40.240
+Questo dovrebbe darti un suggerimento.
+
+04:40.250 --> 04:47.540
+Ricorda che l'allocazione delle chiamate di funzione delle strutture dati della variabile Chichi.
+
+04:47.600 --> 04:57.560
+Quelle cose prendono spazio e nel nostro caso abbiamo creato variabili nella nostra variabile di loop i. e. uguale a zero.
+
+04:57.560 --> 05:00.190
+Ma abbiamo anche creato strutture dati corrette.
+
+05:00.200 --> 05:02.250
+Abbiamo creato un nuovo array.
+
+05:02.270 --> 05:12.920
+Quindi ora se torniamo vediamo che qui abbiamo creato un nuovo array e riempiamo questo array con un loop.
+
+05:13.110 --> 05:18.670
+E ancora, a causa delle nostre regole quando si tratta di begob, ignoriamo il tempo costante.
+
+05:18.670 --> 05:21.120
+Lascia uguale a zero spazio.
+
+05:21.120 --> 05:31.350
+E invece diventa così un evento perché stiamo creando una nuova struttura dati e aggiungendo memoria, quindi ogni
+
+05:31.350 --> 05:38.490
+elemento è uno spazio di memoria aggiuntivo sui nostri computer e tempi.
+
+05:38.690 --> 05:39.950
+E tu sai cosa.
+
+05:40.160 --> 05:43.910
+Questo è più o meno quando si tratta di complessità spaziale.
+
+05:43.910 --> 05:49.190
+Penso che tu stia ottenendo l'idea e ne parleremo un po 'di più quando parliamo
+
+05:49.580 --> 05:56.180
+di ricorsione, ma quando si tratta di complessità spaziale stai aggiungendo ulteriore memoria che devi usare e questo a
+
+05:56.360 --> 05:58.380
+volte è una grande preoccupazione.
+
+05:58.670 --> 06:04.700
+E a volte non c'è e qualcosa che emerge molto nelle interviste e qualcosa di
+
+06:04.700 --> 06:11.510
+cui parleremo nella prossima sezione che a volte c'è un compromesso tra risparmiare tempo e risparmiare spazio.
+
+06:11.780 --> 06:15.990
+Quindi devi decidere per cosa stai ottimizzando.
+
+06:16.340 --> 06:20.560
+Entriamo in alcuni divertenti esempi basati su ciò che abbiamo appena appreso nel prossimo video.
+
+06:21.590 --> 06:23.500
+Vedi su quello.

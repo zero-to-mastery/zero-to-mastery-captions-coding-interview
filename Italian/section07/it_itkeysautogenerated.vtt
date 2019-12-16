@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.100 --> 00:02.000
+Ben tornato.
+
+00:02.120 --> 00:05.920
+Implementiamo un'ultima funzione nella nostra tabella hash qui.
+
+00:06.050 --> 00:18.290
+Voglio creare qualcosa chiamato KIIS e le chiavi ci permettono di scorrere o scorrere tutte le chiavi della nostra tabella
+
+00:18.290 --> 00:19.350
+hash.
+
+00:19.430 --> 00:23.990
+In questo caso uva e mele e aggiungiamone qualcuna solo per divertimento.
+
+00:23.990 --> 00:27.130
+Quindi vediamo cosa sta succedendo.
+
+00:27.330 --> 00:31.160
+Quelle arance e non ci piacciono troppo, quindi ne aggiungeremo solo due.
+
+00:32.450 --> 00:45.030
+Ora, se eseguiamo KIIS, idealmente, itererà e sputerà mele e arance per farci vedere ciò di cui abbiamo bisogno
+
+00:45.030 --> 00:47.460
+per fare shopping.
+
+00:47.650 --> 00:50.090
+Come andremmo a costruire questo.
+
+00:50.260 --> 00:53.250
+Bene perché faremo una specie di looping.
+
+00:53.350 --> 00:59.300
+Inizierò creando una costante, chiamiamola teaser array.
+
+01:00.010 --> 01:04.030
+E questo sarà un array vuoto qui dentro.
+
+01:04.050 --> 01:10.850
+Andremo in loop così per LeT chiamo 0 e finchè starò di meno
+
+01:13.780 --> 01:18.040
+e questa lunghezza di dati aumenteremo per fine
+
+01:20.990 --> 01:30.170
+qui stiamo dicendo che vogliamo passare in rassegna tutti e 50 gli spazi tutti gli scaffali uno per
+
+01:30.170 --> 01:31.340
+uno.
+
+01:31.340 --> 01:32.550
+Li analizzeremo.
+
+01:32.690 --> 01:34.700
+Sì, ci sono molte iterazioni.
+
+01:35.120 --> 01:42.450
+E se nello scaffale ci sono dei dati.
+
+01:42.450 --> 01:48.600
+Se non è indefinito completamente vuoto e c'è qualcosa di prezioso per noi che vogliamo guardare.
+
+01:48.600 --> 01:56.730
+Perché ricorda di allocare 50 spazi sullo scaffale, ma abbiamo inserito solo 3 elementi o tre
+
+01:56.730 --> 01:58.040
+punti dati.
+
+01:58.050 --> 02:07.560
+Quindi se c'è qualcosa in quello spazio di memoria in quel caso possiamo solo dire che i
+
+02:07.560 --> 02:13.350
+puntini di Kuzari spingono questi dati puntuali e prendiamo l'indice.
+
+02:13.350 --> 02:17.200
+Quindi il primo IRA o l'array in cui siamo qui.
+
+02:17.670 --> 02:20.350
+E poi vogliamo prendere le mele a destra.
+
+02:20.820 --> 02:28.670
+Bene, se faccio zero qui e ora colpisco esegui ciò che dobbiamo restituire qualcosa.
+
+02:28.910 --> 02:30.620
+Torniamo qui.
+
+02:30.770 --> 02:33.360
+La chiave scusa alla fine di tutto questo.
+
+02:33.380 --> 02:44.460
+Quindi, dopo tutti i loop, stiamo per dire semplicemente "return keys", "array array", quindi eseguo le mele e le
+
+02:44.460 --> 02:45.440
+arance.
+
+02:45.810 --> 02:46.770
+È fantastico.
+
+02:46.780 --> 02:53.360
+Ma volevo solo mele e arance per vedere cosa succedeva qui.
+
+02:53.460 --> 03:06.810
+Consentiamo di registrare questo livello di dati alto che è quello che stiamo facendo qui mentre stiamo spingendo e se
+
+03:06.810 --> 03:19.020
+lo faccio vediamo che otteniamo un aumento all'interno della matrice, perché ricordiamo che abbiamo un enorme array.
+
+03:19.060 --> 03:26.440
+E ogni volta che creiamo un nuovo spazio sugli scaffali, dobbiamo creare un nuovo array che creiamo e ci
+
+03:26.440 --> 03:27.410
+spingiamo dentro.
+
+03:27.490 --> 03:30.300
+Quindi un po 'di trambusto qui.
+
+03:30.340 --> 03:31.480
+Dobbiamo dire
+
+03:34.890 --> 03:39.050
+zero che rimuove lo strano o il re.
+
+03:39.300 --> 03:46.220
+E ora uno zero per afferrare il primo indice di questo array.
+
+03:50.210 --> 03:59.110
+Quindi se aggiungiamo un ora ci zero in là per accedere al primo indice dell'array che facciamo clic su run.
+
+03:59.190 --> 03:59.770
+Guarda quello.
+
+03:59.910 --> 04:02.560
+Otteniamo uva e mele e arance.
+
+04:02.970 --> 04:03.600
+Molto bene.
+
+04:03.600 --> 04:06.930
+Abbiamo appena implementato una tabella hash.
+
+04:07.160 --> 04:11.790
+E potresti aver notato qualcosa di negativo per i tavoli hash.
+
+04:11.960 --> 04:14.770
+Abbiamo dovuto fare un giro qui giusto.
+
+04:14.810 --> 04:21.540
+Avevamo un ciclo for che passava attraverso l'intero spazio di memoria per trovare le nostre chiavi.
+
+04:21.680 --> 04:26.840
+E 'stato molto più facile con la gara con il rilancio avremmo avuto solo tre elementi
+
+04:26.840 --> 04:29.850
+e avremmo fatto un loop di tre volte invece.
+
+04:29.900 --> 04:32.570
+Qui abbiamo fatto un loop di oltre 50 volte.
+
+04:32.570 --> 04:35.100
+Immagina se avessimo 500.
+
+04:35.120 --> 04:36.830
+Questo è ancora di più.
+
+04:36.830 --> 04:38.190
+Quanto è eccitante questo.
+
+04:38.210 --> 04:46.370
+Stiamo iniziando a imparare come funzionano le cose sotto il cofano in modo che ora abbiamo un'idea di hmm, forse
+
+04:46.640 --> 04:53.210
+se stiamo usando questo tipo di metodo, gli oggetti potrebbero non essere la migliore idea.
+
+04:53.210 --> 04:57.450
+E questo è uno svantaggio di oggetti o tabelle hash in javascript.
+
+04:57.520 --> 05:08.450
+Possiamo usare qualcosa come for in loop per eseguire il loop degli oggetti in un oggetto che è molto molto lento.
+
+05:09.250 --> 05:21.060
+E come potresti realizzare non c'è un ordine garantito ogni volta che aggiungiamo qualcosa al nostro indirizzo.
+
+05:21.210 --> 05:29.310
+Ma quando prendiamo gli oggetti dall'indirizzo, passiamo da 0 a 50 anche se gli oggetti sono posizionati in modo casuale
+
+05:29.310 --> 05:30.930
+in diversi scaffali.
+
+05:30.990 --> 05:34.460
+Ma spero che ora tu possa vedere come funziona.
+
+05:34.500 --> 05:39.240
+Stiamo inserendo gli oggetti casualmente in uno scaffale, ma quando li recuperiamo sono tutti in ordine.
+
+05:41.290 --> 05:48.520
+Ed è per questo che codifica le cose anche se molto probabilmente non ti verrà chiesto in un'intervista.
+
+05:48.610 --> 05:55.660
+Sapere come funzionano le cose ti permette di parlarne in modo intelligente e spero che questo esercizio lo abbia
+
+05:55.660 --> 05:56.920
+fatto per te.
+
+05:56.950 --> 06:03.640
+Lascerò questo per te per giocare con e forse aggiungere diversi metodi come valori che afferra
+
+06:03.910 --> 06:06.550
+i valori anziché i tasti.
+
+06:06.550 --> 06:10.990
+Ma per ora concludiamo i nostri discorsi sui tavoli hash confrontandoli con la razza.

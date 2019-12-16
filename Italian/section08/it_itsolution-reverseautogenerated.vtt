@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.900 --> 00:03.110
+Ben tornato.
+
+00:03.280 --> 00:10.370
+Abbiamo la nostra lista qui e vogliamo essere in grado di eseguire la mia lista collegata.
+
+00:10.570 --> 00:15.900
+Reverse che invertirà questo elenco per noi.
+
+00:15.900 --> 00:17.580
+Vediamo il codice qui.
+
+00:19.300 --> 00:24.220
+La prima cosa che vogliamo fare è fare un po 'di controllo.
+
+00:24.220 --> 00:29.040
+Immagina di avere solo un elemento nell'elenco.
+
+00:29.290 --> 00:34.590
+Se c'è un nodo o un elemento nell'elenco, allora non è necessario invertirlo.
+
+00:34.600 --> 00:35.610
+È già lì.
+
+00:35.620 --> 00:40.830
+Quindi se questa lista ne contiene solo una restituisci tutto quello che abbiamo per ora.
+
+00:40.930 --> 00:49.450
+Quindi facciamo un controllo qui e possiamo solo dire se questo papà ha un punto dopo e questo punto esclamativo significa
+
+00:49.840 --> 00:51.520
+che non esiste.
+
+00:51.600 --> 00:59.350
+Voglio dire se questo ha fatto dopo se uno è solo uno e non è tutto questo punto esclamativo trasformerà questo
+
+00:59.350 --> 01:04.300
+nel contrario che il modo in cui funziona JavaScript renderà tutto ciò vero.
+
+01:04.480 --> 01:07.120
+Ed è un po 'confuso, ma spero che tu sia con me su quello.
+
+01:07.120 --> 01:11.760
+Tutto quello che stiamo dicendo è se questo è l'unico nodo e qui c'è solo una nota di testa.
+
+01:12.630 --> 01:16.890
+Potrei anche farlo controllando la lunghezza e abbiamo la proprietà length.
+
+01:17.090 --> 01:24.860
+Quindi potrei fare qualcosa di simile a questa lunghezza del punto uguale a un religioso, mantienilo com'è ora
+
+01:25.340 --> 01:27.720
+se c'è un solo elemento.
+
+01:27.890 --> 01:35.500
+Basta semplicemente restituire a questo punto il nodo o possiamo solo restituirlo.
+
+01:35.570 --> 01:38.420
+Altrimenti entriamo nella parte divertente del codice.
+
+01:38.420 --> 01:47.420
+La prima cosa che vogliamo fare è dire che vogliamo avere il primo oggetto uguale a questo punto e di cui
+
+01:47.420 --> 01:49.370
+stiamo solo tenendo traccia.
+
+01:49.460 --> 01:56.460
+Quindi diremo che ora abbiamo un riferimento a questa testa di cavallo e ora abbiamo
+
+01:56.490 --> 01:59.960
+anche un riferimento al secondo elemento nell'elenco.
+
+02:00.360 --> 02:04.190
+Quindi questo sarà il primo punto dopo.
+
+02:04.250 --> 02:08.620
+Quindi ora che abbiamo il primo e il secondo possiamo fare un po 'di loop.
+
+02:08.770 --> 02:21.800
+Possiamo dire mentre il secondo nodo esiste che è finché il secondo non è nullo.
+
+02:21.960 --> 02:29.520
+Quindi, a condizione che ciò accada, creeremo una variabile temporanea che contiene il secondo punto successivo,
+
+02:30.210 --> 02:36.880
+quindi possiamo chiamare questo terzo se vogliamo, ma sto scegliendo temp perché questo cambierà.
+
+02:36.970 --> 02:39.910
+Quindi abbiamo un riferimento al primo secondo e terzo.
+
+02:39.910 --> 02:54.150
+Quindi un 10 e 16 da qui ora possiamo dire che il secondo punto successivo equivale al primo elemento.
+
+02:56.050 --> 03:10.430
+Il primo equivarrà a quel secondo elemento e il secondo a ciò equivarrà all'elemento superiore Oh mio, quello che è appena
+
+03:10.430 --> 03:11.860
+successo qui.
+
+03:11.950 --> 03:16.980
+So che c'era un sacco di codice senza molte spiegazioni, ma affrontiamolo riga per riga.
+
+03:17.180 --> 03:26.680
+Stiamo andando in loop qui dopo che ne abbiamo afferrato uno e abbiamo preso 10 e ora dirò fino
+
+03:26.770 --> 03:37.230
+a quando questa seconda variabile ha un valore e non è nullo che non esiste, quindi voglio che tu crei una variabile temporanea
+
+03:37.440 --> 03:47.180
+da lì ho 16 anni che prenderò quel secondo fatto successivo che è la proprietà entro il 10 e dirò che
+
+03:48.030 --> 03:51.600
+a 10 sta andando a punto morto.
+
+03:51.630 --> 03:54.270
+Quindi il secondo su X sta per indicare il primo.
+
+03:54.270 --> 04:04.200
+Quindi 10 ha una freccia che punta a uno e la prima variabile che era la testa ora diventa 10
+
+04:04.290 --> 04:07.310
+e il secondo elemento diventa 16.
+
+04:08.150 --> 04:16.460
+Abbiamo cambiato i puntatori da 1 a 10 ora va da 10 a 1 e abbiamo cambiato le variabili prima e seconda ora hanno
+
+04:16.550 --> 04:25.650
+10 e 16 e passiamo in loop e facciamo la stessa cosa in cui abbiamo il puntatore da 10 a 16 invertito in modo che 16
+
+04:25.660 --> 04:31.400
+punti a 10 e abbiamo cambiato una variabile in modo che sia 16 e 18.
+
+04:31.870 --> 04:37.420
+Così passiamo attraverso questo ciclo, passiamo attraverso questo e poi l'ultima cosa
+
+04:37.420 --> 04:46.230
+che dobbiamo fare è dire che questo papà ha avuto perché questo pensiero aveva ancora il valore di 1 in esso.
+
+04:46.340 --> 04:50.390
+Diremo che il punto successivo sarà uguale a due.
+
+04:50.480 --> 05:06.370
+No, avremo un punto da sapere e questa testa punto ora sarà invece la prima e ricorderemo quando passiamo
+
+05:06.370 --> 05:15.480
+attraverso tutto, prima diventa 88 e la seconda diventa No.
+
+05:15.820 --> 05:20.920
+Quindi stiamo cambiando alla fine 88 per essere uguali alla testa.
+
+05:21.370 --> 05:28.510
+E vogliamo anche assicurarci che quella coda sia ora una e il modo in cui facciamo che dobbiamo
+
+05:28.510 --> 05:36.210
+andare prima del ciclo temporale e vedere qui che questo cane ha avuto questo primo oggetto dovrebbe essere la coda.
+
+05:36.280 --> 05:47.610
+Quindi, all'inizio, prima di fare il giro, la coda diventerebbe questo cane aveva ragione.
+
+05:47.680 --> 05:51.850
+So che era confuso ma vediamo se funziona.
+
+05:51.850 --> 05:57.700
+Questo è uno di quei problemi che devi davvero asciugare e guardando questo codice è davvero
+
+05:57.700 --> 06:00.500
+difficile per te capire cosa sta succedendo.
+
+06:00.700 --> 06:06.400
+Vi raccomando di codificarlo insieme e passo dopo passo forse la legge della console per capire cosa sta
+
+06:06.400 --> 06:06.840
+succedendo.
+
+06:07.640 --> 06:14.820
+Se inverto questo elenco e faccio clic su esegui, ottengo undefined perché dobbiamo restituire qualcosa, quindi restituiamo
+
+06:16.020 --> 06:16.880
+il rendimento.
+
+06:16.890 --> 06:21.930
+Questo ha ottenuto la lista di stampa che volesse eseguirlo.
+
+06:22.150 --> 06:22.710
+Tutto ok.
+
+06:22.750 --> 06:26.200
+Permettimi solo di assicurarmi che stiamo invertendo. Ho intenzione di commentarlo.
+
+06:26.290 --> 06:31.740
+Quindi abbiamo la lista originale 1 10 16 88 se la invertiamo.
+
+06:31.780 --> 06:40.170
+Abbiamo 88 16 10 e 1 e, per sicurezza, invece di stampare elenchi, torniamo quest'anno, in modo da
+
+06:41.600 --> 06:46.370
+ottenere l'intera lista collegata per assicurarci che tutto funzioni correttamente.
+
+06:47.890 --> 06:55.710
+Ho una lista collegata che ha un valore di testa di 88 e un valore di coda di 1.
+
+06:55.810 --> 06:58.660
+Sembra che funzioni.
+
+06:58.660 --> 06:59.610
+Eccezionale.
+
+06:59.860 --> 07:01.350
+Buon lavoro arrivare così lontano.
+
+07:01.420 --> 07:08.710
+E se riesci a capirlo, penso che questo sia probabilmente il concetto più difficile da
+
+07:09.220 --> 07:11.800
+comprendere in questo intero corso.
+
+07:11.860 --> 07:17.150
+Quindi se sei in grado di ottenere questo buon lavoro se non dovresti vedere questo video un paio di volte.
+
+07:17.200 --> 07:23.830
+Alla fine, e questa è la bellezza della programmazione, tutto quello che stiamo facendo sono i passaggi logici e non
+
+07:23.830 --> 07:29.080
+importa quale lingua utilizzi sia che sia javascript come in questo caso i passaggi per
+
+07:29.110 --> 07:35.710
+creare una lista collegata sono la stessa sintassi che può essere diversa ma la la logica è la stessa.
+
+07:35.790 --> 07:36.720
+Vedrò nel prossimo.

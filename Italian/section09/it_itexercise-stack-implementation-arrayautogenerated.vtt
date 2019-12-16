@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.020 --> 00:02.310
+Ben tornato.
+
+00:02.310 --> 00:10.440
+Abbiamo appena implementato il nostro stack e speriamo che tu possa programmare anche nella tua lingua.
+
+00:10.440 --> 00:19.480
+Ora ecco la mia prossima sfida per voi e se avessimo usato una gara per questo stack fino a questo punto o quello
+
+00:19.480 --> 00:24.580
+che abbiamo codificato è stato con una lista collegata che abbiamo creato.
+
+00:24.580 --> 00:28.330
+Come cambieresti il codice se vuoi implementarlo in un array.
+
+00:29.270 --> 00:35.360
+E il suggerimento qui è che sarà super-super semplice che comporterà l'eliminazione di un sacco
+
+00:35.360 --> 00:40.560
+di questo codice perché mentre gli array hanno già PUSH e POP.
+
+00:40.720 --> 00:48.260
+Quindi la mia sfida è di convertire questa struttura di dati dello stack in modo da utilizzare array anziché elenchi collegati.
+
+00:49.040 --> 00:52.190
+Buona fortuna e vedrò nel prossimo video.
+
+00:52.280 --> 00:52.550
+Buh-Bye.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.890 --> 00:01.740
+Witamy spowrotem.
+
+00:02.030 --> 00:10.870
+Porozmawiajmy o pierwszym rodzaju wyszukiwania w wyszukiwaniu w wyszukiwaniu liniowym lub wyszukiwanie sekwencyjne
+
+00:10.960 --> 00:16.760
+jest metodą znajdowania wartości docelowej na liście.
+
+00:16.960 --> 00:22.480
+Powinniśmy to wcześniej znać, ponieważ aby uruchomić kurs, przechodzimy przez tablice,
+
+00:22.480 --> 00:30.310
+aby znaleźć elementy, które sekwencyjnie sprawdzają każdy element listy pod kątem wartości docelowej, aż do znalezienia dopasowania
+
+00:30.340 --> 00:32.990
+lub do przeszukania wszystkich elementów.
+
+00:33.460 --> 00:38.650
+Rzućmy okiem na wizualne wyszukiwanie liniowe.
+
+00:38.770 --> 00:47.450
+Mamy przedmioty, które mogą być węzłami, które mogą być liczbami, które mogą być dowolne, a my przeglądamy listę
+
+00:47.450 --> 00:49.420
+jeden po drugim.
+
+00:49.650 --> 00:57.540
+Sprawdzamy pierwszy element, następnie drugi element, trzeci, czwarty, piąty i szósty, w najlepszym przypadku
+
+00:57.540 --> 01:05.250
+znajdujemy to, czego szukamy w całości, ponieważ znajduje się on na samym początku
+
+01:05.250 --> 01:05.860
+listy.
+
+01:05.940 --> 01:08.850
+Na przykład, jeśli szukamy tutaj sześciu.
+
+01:08.850 --> 01:12.620
+Jednak w najgorszym przypadku musimy przejść przez całą listę.
+
+01:12.720 --> 01:17.460
+Jeśli szukamy dziewięciu i sprawdzimy każdą pojedynczą nutę lub jeśli szukamy czegoś,
+
+01:17.460 --> 01:23.690
+co nie istnieje, musimy sprawdzić każdy pojedynczy przedmiot i ten typ sortowania jest nam bardzo bliski.
+
+01:24.850 --> 01:32.220
+Na przykład, jeśli przyjrzymy się javascript, mam tutaj listę bestii i powiedzmy, że szukamy dobrej
+
+01:32.220 --> 01:33.220
+Zilah.
+
+01:33.600 --> 01:37.200
+Jest wiele sposobów na wyszukanie tego przedmiotu.
+
+01:37.270 --> 01:39.420
+Dobry Godzilla na tej liście.
+
+01:39.510 --> 01:47.480
+Jednym ze sposobów robienia tego w javascript jest użycie indeksu, który daje mi indeks, gdzie mogę znaleźć Godzillę.
+
+01:47.670 --> 01:57.900
+A to wykorzystuje wyszukiwanie liniowe, aby spróbować znaleźć inny element. Innym sposobem jest użycie indeksu wyszukiwania, który przyjmuje funkcję z warunkiem,
+
+01:58.260 --> 02:04.530
+że element musi być równy Godzilli i zwróci true, gdy znajdzie coś
+
+02:04.980 --> 02:05.640
+ponownie.
+
+02:05.670 --> 02:16.580
+Jeśli uruchomię to otrzymam jeden inny sposób to użyć funkcji wyszukiwania, nadającej jej tę samą funkcję, co powyżej.
+
+02:16.730 --> 02:21.420
+Ale tym razem zwróci rzeczywisty przedmiot zamiast indeksu.
+
+02:21.510 --> 02:22.760
+Życzliwość.
+
+02:22.980 --> 02:31.700
+I wreszcie mamy również ten sposób poszukiwania, który obejmuje metodę, która mówi, że bestie zawierają
+
+02:31.730 --> 02:36.590
+Godzillę i to da mi prawdziwą lub fałszywą.
+
+02:36.710 --> 02:43.470
+W tym przypadku jest to prawdą, a twój język będzie miał inne sposoby realizacji tego typu wyszukiwania.
+
+02:44.060 --> 02:49.480
+Ale wszystkie te wyszukiwania są liniowymi wyszukiwaniami, które są najgorszym przypadkiem.
+
+02:49.490 --> 02:56.150
+Przechodzimy przez całą listę i jak wiesz, nasze dane wejściowe sprawiają, że nasze listy mogą być naprawdę bardzo
+
+02:56.570 --> 03:05.570
+duże, a czas liniowy jest w porządku, ale nie jest to najszybszy sposób, w jaki nie możemy używać wyszukiwania liniowego do indeksowania witryn internetowych,
+
+03:05.570 --> 03:11.760
+takich jak Google, ani wyszukiwania przyjaciele tacy jak Facebook, ponieważ będzie to kosztować nas dużo czasu.
+
+03:14.360 --> 03:16.260
+Czy jest lepszy sposób?
+
+03:17.520 --> 03:27.670
+No cóż, gdyby lista naszych danych tutaj została prawdopodobnie posortowana, pomogłaby nam w jakikolwiek sposób, abyśmy mogli ją
+
+03:27.670 --> 03:28.820
+poprawić.
+
+03:28.990 --> 03:31.620
+Powiedzmy, że szukamy teraz 9.
+
+03:31.900 --> 03:34.190
+I wiedzieliśmy, że lista została posortowana.
+
+03:34.420 --> 03:36.550
+Odpowiedzmy to pytanie w następnym wideo.

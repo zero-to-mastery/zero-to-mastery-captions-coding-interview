@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.860 --> 00:05.440
+Kiedy będziemy używać rekurencji.
+
+00:05.660 --> 00:07.600
+To jest rola, którą lubię używać.
+
+00:08.530 --> 00:14.800
+Kiedy dochodzi do skomplikowanych problemów, takich jak przechodzenie lub przeszukiwanie drzew lub wykresów,
+
+00:14.800 --> 00:21.070
+coś, o czym będziemy rozmawiać za pomocą wykresu dla wyszukiwania i głębi dla
+
+00:21.070 --> 00:27.400
+rekursji wyszukiwania, jest naprawdę przydatne i lepsze niż iteracyjne podejścia, a my sortujemy przedmioty.
+
+00:27.430 --> 00:35.890
+Zdarzają się również przypadki, w których preferowana jest rekurencja, a jeśli chodzi o rekursję, to zasady, które
+
+00:35.890 --> 00:43.190
+lubię stosować za każdym razem, gdy używamy drzewa lub konwertujemy coś do drzewa.
+
+00:43.190 --> 00:51.350
+Zastanów się nad rekurencją, aw pytaniu do wywiadu są trzy kluczowe kwestie, które mogą
+
+00:51.920 --> 01:02.550
+wywołać rekurencyjne rozwiązanie. Jednym z nich jest to, że problem można podzielić na kilka podtroblemów, które są mniejszymi instancjami
+
+01:02.790 --> 01:09.430
+tego samego problemu, takimi jak ćwiczenia z liczbami Fibonacciego lub Factorial.
+
+01:09.450 --> 01:14.640
+Możemy je rozbić na małe drzewa, które rozpadają się na mniejsze i mniejsze kawałki.
+
+01:14.670 --> 01:19.030
+Są to z natury problemy rekurencyjne.
+
+01:19.030 --> 01:25.420
+Innym czynnikiem jest to, że każde z tych przypadków problemu ma identyczny charakter.
+
+01:25.570 --> 01:30.160
+To są obliczenia, które musimy zrobić, są prawie takie same.
+
+01:30.190 --> 01:35.550
+Mogą to być mniejsze wartości, ale rzeczywiste obliczenia pod nimi są takie same.
+
+01:35.550 --> 01:38.040
+Raz po raz po raz.
+
+01:38.220 --> 01:45.660
+I wreszcie trzecia kwestia jest taka, że te rozwiązania, jeśli rozwiążesz mniejsze problemy, te węzły
+
+01:45.690 --> 01:49.190
+liści tego drzewa i je połączysz.
+
+01:49.290 --> 01:54.800
+To rozwiązuje problem, który jest w zasięgu ręki, to rozwiązanie rekursywne, z którego możesz skorzystać.
+
+01:55.170 --> 01:59.930
+Zobaczysz wiele podziałów i podboju za pomocą rekursji.
+
+02:00.060 --> 02:06.280
+Pamiętaj, dziel i rządź, o których wspominaliśmy, kiedy doszliśmy do lekcji struktury danych drzewa,
+
+02:06.280 --> 02:12.030
+to trochę jak przeglądanie książki telefonicznej, gdy szukasz Bell w książce telefonicznej.
+
+02:12.370 --> 02:19.290
+Nie zaczniesz od a i po prostu przejdziesz po jednej stronie od lewej do prawej strony.
+
+02:19.330 --> 02:25.630
+Nie, zwykle dzielisz książkę telefoniczną pośrodku lub próbujesz przejść do sekcji B
+
+02:25.630 --> 02:33.780
+książki telefonicznej i zaczynasz dzielić problem na stronę, dopóki nie zbliżasz się coraz bardziej do tego
+
+02:33.780 --> 02:37.420
+typu pytań, które zwykle zawierają rekursję.
+
+02:37.800 --> 02:46.110
+A ponieważ wiemy, że jedną rzeczą, którą mogą rekurencje, nie jest to, że mogą sprawić, że zadania
+
+02:46.200 --> 02:50.540
+będą bardzo łatwe, takie jak te typy problemów.
+
+02:50.700 --> 02:59.450
+Właściwie to zachęcam do napisania własnej funkcji trawersu, której używamy w naszej strukturze danych
+
+02:59.450 --> 03:00.080
+drzewa.
+
+03:00.080 --> 03:05.600
+Jest to coś, do czego dojdziemy, gdy dojdziemy do wyszukiwania i sekcji algorytmu, ale jeśli
+
+03:05.600 --> 03:06.890
+chcemy się zmierzyć.
+
+03:06.890 --> 03:14.470
+Zobacz, czy potrafi napisać funkcję policzenia, tak jak to zrobiłem tutaj, używając rekursji, a następnie spróbował
+
+03:14.650 --> 03:16.590
+napisać kod z pętlami.
+
+03:16.690 --> 03:21.310
+Zobaczysz, że z pętlami takie rzeczy jak przemykanie drzew to ból głowy.
+
+03:21.310 --> 03:24.720
+Mogę to nawet zrobić na czubku głowy z rekurencją.
+
+03:24.730 --> 03:33.290
+Z pętlami zwykle trzeba utrzymywać stos, aby śledzić różne rzeczy.
+
+03:33.550 --> 03:35.660
+I to naprawdę dodaje wiele złożoności.
+
+03:37.300 --> 03:44.470
+Tak więc użyj poniższych zasad, aby zauważyć, kiedy problem rekurencyjny pojawia się podczas wywiadu.
+
+03:44.920 --> 03:51.130
+Zostawię dla ciebie jeszcze kilka ćwiczeń po tym filmie, ale jak zobaczymy, powrócimy do tego
+
+03:51.160 --> 03:57.320
+tematu, kiedy przejdziemy do sekcji innych algorytmów, a sprawy zaczną być coraz wyraźniejsze.
+
+03:57.610 --> 03:58.990
+Zobaczę w następnym.
+
+03:59.290 --> 03:59.480
+Kok.

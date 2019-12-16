@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.530 --> 00:06.630
+È tempo di festeggiare perché hai appena finito la tua prima struttura dati e diventeranno
+
+00:06.630 --> 00:07.850
+sempre più divertenti.
+
+00:08.070 --> 00:14.510
+Ma vedi qui che abbiamo imparato a completare il nostro modello mentale di strutture dati.
+
+00:14.670 --> 00:20.490
+Ti ho promesso che alla fine di questo corso l'intero diagramma avrà un senso e ne abbiamo finito
+
+00:20.520 --> 00:21.770
+una piccola parte.
+
+00:21.870 --> 00:32.710
+Abbiamo parlato di array statici e dinamici abbiamo parlato della grande complessità O e di quanto gli array dinamici possano talvolta
+
+00:32.710 --> 00:43.840
+avere O e penne perché mentre a volte dobbiamo raddoppiare o espandere la nostra memoria abbiamo anche parlato di come le stringhe
+
+00:44.560 --> 00:51.100
+e le domande relative alle stringhe possono essere trattato molto simile alle domande
+
+00:51.100 --> 00:52.120
+dell'array.
+
+00:52.760 --> 00:58.760
+In cui basta convertirli in un array e quindi unirli a backup e restituire una stringa.
+
+00:58.800 --> 01:05.090
+Rispondi a questa esigenza e ci sono alcuni altri punti per gli array di cui parleremo quando
+
+01:05.210 --> 01:06.430
+entreremo negli algoritmi.
+
+01:06.650 --> 01:14.930
+Ma a questo punto dovresti dare un'occhiata al bego cheat di bego e capire perché la struttura dei dati
+
+01:15.170 --> 01:17.700
+dell'array ha questi grandi numeri.
+
+01:18.110 --> 01:22.890
+E capire quando un array è una buona cosa da usare.
+
+01:22.940 --> 01:28.310
+Una cosa che noterete quando si tratta di gareggiare, specialmente quando arriviamo agli
+
+01:28.310 --> 01:37.130
+algoritmi, è che sono davvero molto bravi nell'ordinare i dati quando si tratta di ordinare gli array sono fantastici perché sono in
+
+01:37.130 --> 01:40.820
+memoria in ordine sequenziale secondo il loro indice.
+
+01:40.820 --> 01:45.740
+Ora prima di andare sulla diapositiva hai composto il video.
+
+01:45.740 --> 01:49.940
+Pensa a quando vorresti usare un array quando lo faresti.
+
+01:50.180 --> 01:54.410
+Perché in circa cinque secondi ti mostrerò i pro e i contro.
+
+01:54.530 --> 02:00.850
+Quindi metti in pausa il video e la risposta a quando dovresti usare bene un array.
+
+02:01.050 --> 02:02.250
+Ecco qui.
+
+02:02.250 --> 02:05.310
+Gli array sono ideali per ricerche veloci.
+
+02:05.400 --> 02:10.420
+Questo è solo l'accesso alle informazioni dove sai quale indice si vuole guardare.
+
+02:10.740 --> 02:12.840
+È davvero veloce che spinga e schiocchi.
+
+02:12.840 --> 02:18.770
+Quindi penso alle cose alla fine di un array o alle cose alla fine dell'array.
+
+02:19.020 --> 02:24.810
+E naturalmente perché è ordinato avere qualcosa che è ordinato e vicino l'uno all'altro
+
+02:25.200 --> 02:27.330
+nella memoria rende molto veloce.
+
+02:27.460 --> 02:34.770
+Tuttavia ha inserimenti e cancellazioni lente perché dobbiamo passare alla gara ogni volta che non si trova
+
+02:34.770 --> 02:36.300
+alla fine dell'array.
+
+02:36.420 --> 02:41.590
+E infine, se si utilizzano array statici, la dimensione è fissa.
+
+02:41.610 --> 02:48.630
+Ciò significa che a volte devi dichiarare la memoria prima del tempo e la grandezza di un array che desideri.
+
+02:48.630 --> 02:55.460
+Ma ciò può essere evitato se utilizziamo alcuni dei linguaggi più moderni dotati di array dinamici.
+
+02:55.530 --> 03:01.980
+Inoltre mi sono appena reso conto che questa faccina sembra una persona pazza ma è destinata a essere
+
+03:01.980 --> 03:02.380
+buona.
+
+03:02.400 --> 03:03.240
+Questo è buono.
+
+03:03.360 --> 03:05.330
+Questa spaventosa piccola icona.
+
+03:05.370 --> 03:06.510
+Questo è male.
+
+03:07.110 --> 03:07.830
+OK.
+
+03:08.290 --> 03:10.340
+Penso che lo capiamo adesso.
+
+03:10.360 --> 03:14.590
+Torneremo a raccogliere perché molte altre strutture di dati di cui
+
+03:14.590 --> 03:19.120
+parleremo in seguito come le code e gli stack sono legati alla gara.
+
+03:19.300 --> 03:25.370
+Ma per ora voglio entrare in altre strutture dati perché ne abbiamo ancora alcune da esaminare.
+
+03:25.430 --> 03:26.440
+Vedrò nel prossimo.

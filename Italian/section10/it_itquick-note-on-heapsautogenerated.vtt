@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.060 --> 00:02.080
+Ben tornato.
+
+00:02.080 --> 00:04.480
+Volevo aggiungere un trucco rapido.
+
+00:04.540 --> 00:13.030
+Quando si tratta di heap, quando si ascoltano heap di memoria che non sono la stessa struttura dei dati sheep, si potrebbe aver sentito parlare di
+
+00:13.660 --> 00:19.090
+heap di memoria e qualcosa come un motore di runtime javascript in cui abbiamo uno stack
+
+00:19.090 --> 00:20.300
+e un heap.
+
+00:20.340 --> 00:24.190
+Ci sono due posizioni in cui siamo in grado di conservare la memoria.
+
+00:24.190 --> 00:30.730
+Ora questa nave che puoi immaginare come spazio di archiviazione gratuito è una regione nella nostra memoria in cui possiamo archiviare
+
+00:30.730 --> 00:31.560
+dati arbitrari.
+
+00:31.900 --> 00:35.610
+Anche le lingue come C hanno questo heap.
+
+00:35.710 --> 00:38.600
+Ora la denominazione è solo una coincidenza.
+
+00:38.660 --> 00:45.060
+E non ha una vera relazione con la struttura dati che si chiama heap.
+
+00:45.130 --> 00:45.980
+Tienilo a mente.
+
+00:46.030 --> 00:48.490
+Lui è semplicemente un mucchio di memoria.
+
+00:48.490 --> 00:55.780
+Se parli di un runtime linguistico, ad esempio rispetto a una struttura dati dell'heap, di cui stiamo
+
+00:55.780 --> 01:01.030
+parlando ora voglio chiarirlo per te, perché quando stavo imparando sugli heap.
+
+01:01.030 --> 01:05.730
+Per qualche motivo ho sempre pensato che fossero la stessa cosa, ma non lo stanno lanciando solo là fuori.
+
+01:05.770 --> 01:07.230
+Lo vedrò il prossimo video.
+
+01:07.240 --> 01:07.740
+Ciao.

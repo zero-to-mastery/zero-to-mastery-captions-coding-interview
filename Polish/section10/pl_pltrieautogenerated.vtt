@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.110 --> 00:02.280
+Witamy spowrotem.
+
+00:02.280 --> 00:09.270
+Mamy jedno ostatnie drzewo, o którym chcę porozmawiać, a to jest tri lub drzewo, tutaj różni się w zależności od
+
+00:09.270 --> 00:10.340
+tego, kogo zapytasz.
+
+00:10.500 --> 00:20.460
+Ale spójrzmy, co to jest próba, to wyspecjalizowane drzewo używane w wyszukiwaniu najczęściej za pomocą tekstu.
+
+00:20.590 --> 00:29.480
+Jak widać, w większości przypadków może on przewyższyć tabelami mieszającymi drzewek wyszukiwania binarnego i większość innych struktur danych, o których
+
+00:29.480 --> 00:33.590
+mówiliśmy, w zależności od rodzaju wyszukiwania, które robisz.
+
+00:34.810 --> 00:43.120
+I patrząc na ten obraz, możesz zrozumieć, co robi tri, abyś wiedział, czy słowo
+
+00:43.240 --> 00:47.700
+lub część słowa istnieje w tekście.
+
+00:48.070 --> 00:55.410
+Widzisz, spróbuj ma zwykle pusty węzeł główny, który jest punktem wyjścia, a stamtąd dodawane są
+
+00:55.410 --> 00:55.900
+litery.
+
+00:55.950 --> 00:59.370
+Widzisz, że nie jest to drzewo binarne, może mieć wiele dzieci.
+
+00:59.730 --> 01:06.390
+W tym przypadku wszystkie najprawdopodobniej mają 26 dzieci, ponieważ w alfabecie jest 26 liter.
+
+01:06.540 --> 01:15.370
+Moc try jest wtedy, gdy szukamy czegoś takiego, jak gdybyśmy posiadali ten słownik, od
+
+01:15.370 --> 01:23.560
+razu wiemy, że są dwa słowa powiązane ze słowem, a inne to próba
+
+01:23.560 --> 01:25.690
+nazywana drzewem prefiksowym.
+
+01:25.860 --> 01:31.140
+Jest to struktura danych typu drzewa, która okazała się dość skuteczna w rozwiązywaniu tych problemów specyficznych
+
+01:31.140 --> 01:31.970
+dla łańcuchów.
+
+01:32.070 --> 01:35.170
+Możesz myśleć o tym jako o automatycznym uzupełnianiu.
+
+01:35.220 --> 01:35.840
+Dobrze.
+
+01:35.880 --> 01:42.300
+Gdy szukasz czegoś w Google, wie, czego szukasz, lub próbuje i
+
+01:42.480 --> 01:44.130
+uzupełnia słowo.
+
+01:44.220 --> 01:50.850
+I to jest to, czego używa się do wyszukiwania słów w słowniku, dostarczając automatyczne sugestie w
+
+01:50.850 --> 01:53.200
+wyszukiwarkach, a nawet routing IP.
+
+01:53.430 --> 02:01.540
+Jeśli wpisałem, od razu wiem, że wszystkie dzieci są powiązane z A i mogę wydrukować drzewo, a następnie
+
+02:01.630 --> 02:06.760
+A-S korzyścią dla tego typu struktury danych jest szybkość i przestrzeń.
+
+02:06.940 --> 02:12.530
+Jak myślisz, co to jest wielki pokaz znalezienia słowa w strukturze danych.
+
+02:12.550 --> 02:16.510
+Nie będziemy zamiast tego przechodzić przez każdy węzeł.
+
+02:16.600 --> 02:19.940
+Wszystko, co musimy zrobić, to znaleźć długość słowa.
+
+02:20.080 --> 02:27.390
+Tak więc big-O próby wynosi 0 długości, która jest długością słowa.
+
+02:27.520 --> 02:31.460
+Jeśli szukam tego słowa, to przykro mi.
+
+02:31.510 --> 02:35.800
+Wszystko, co robię, to szukanie, a potem szukanie naszego.
+
+02:35.980 --> 02:38.110
+Następnie poszukaj.
+
+02:38.240 --> 02:43.730
+Wszystko, co robię, trafia w trzy nuty, które są powiązane z długością słowa.
+
+02:43.730 --> 02:48.300
+Jeśli chodzi o złożoność kosmiczną próby mają również dużą zaletę.
+
+02:49.640 --> 02:52.970
+Ponieważ używamy prefiksów takich jak.
+
+02:52.970 --> 02:57.100
+I tutaj jest używany w różnych słowach i to samo z.
+
+02:57.200 --> 02:59.830
+Nie musimy przechowywać go wiele razy.
+
+02:59.990 --> 03:06.140
+Jest przechowywany w jednym miejscu i masz dzieci łączące się z nim z powodu tych prefiksów.
+
+03:06.140 --> 03:12.140
+Zaoszczędzasz dużo miejsca, ponieważ nie musisz przechowywać słowa nieużywanego.
+
+03:12.320 --> 03:14.720
+Unikasz przechowywania tego dodatkowego i.

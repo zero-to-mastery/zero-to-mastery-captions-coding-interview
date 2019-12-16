@@ -1,0 +1,889 @@
+WEBVTT
+
+00:01.700 --> 00:04.820
+Jak działa javascript?
+
+00:04.820 --> 00:08.340
+Wyobraź sobie, że dostajesz to pytanie podczas wpisu lub o tym.
+
+00:08.360 --> 00:13.160
+Wyjaśnij różnicę między wersją asynchroniczną i synchroniczną a Javascriptem.
+
+00:13.220 --> 00:16.000
+A może proszą cię o wyjaśnienie tego stwierdzenia.
+
+00:16.010 --> 00:19.540
+JavaScript jako jeden język z gwintem, który nie może być blokowany.
+
+00:20.410 --> 00:24.960
+Och, chłopcze z tego filmu, pomożemy ci odpowiedzieć na te pytania.
+
+00:24.960 --> 00:29.550
+To jest film wideo, który możesz odwiedzić kilka razy w miarę postępu, aby naprawdę go zdobyć.
+
+00:29.640 --> 00:32.850
+Więc nie czuj się zniechęcony, jeśli nie czujesz się w 100% pewny siebie.
+
+00:32.910 --> 00:35.520
+Po prostu obserwuj to, a dostaniesz.
+
+00:35.520 --> 00:40.580
+Teraz nie musimy wiedzieć, w jaki sposób javascript działa wewnętrznie, aby napisać program.
+
+00:40.950 --> 00:42.590
+Ale ważne jest, aby się uczyć.
+
+00:42.900 --> 00:47.260
+Widzę wielu ludzi, którzy byli programistami od lat i nikt o tym nie wie.
+
+00:47.280 --> 00:51.140
+To tak, jakby być pilotem i nie wiedzieć, jak samolot może latać.
+
+00:51.510 --> 00:53.480
+OK, to jest trochę dramatyczne.
+
+00:53.500 --> 00:55.230
+Ale rozumiesz.
+
+00:55.230 --> 01:00.210
+Zacznijmy więc od początku, czym jest program.
+
+01:00.510 --> 01:03.490
+Cóż, program musi wykonywać proste czynności.
+
+01:03.540 --> 01:05.550
+Musi przydzielić pamięć.
+
+01:05.580 --> 01:11.120
+W przeciwnym razie moglibyśmy mieć zmienne lub nawet mieć plik na naszym komputerze.
+
+01:11.130 --> 01:16.850
+Musi także analizować i wykonywać skrypty, co oznacza, że czyta i uruchamia polecenia.
+
+01:17.190 --> 01:17.760
+DOBRZE.
+
+01:17.940 --> 01:26.270
+Teraz wiemy również, że z naszej poprzedniej dyskusji jest mechanizm javascript, który każda przeglądarka implementuje
+
+01:26.280 --> 01:34.500
+w Chrome to V8, a silnik V8 czyta javascript, który piszemy w zmianach do instrukcji
+
+01:34.500 --> 01:36.900
+wykonywalnej komputera dla przeglądarki.
+
+01:37.440 --> 01:43.370
+Teraz silnik składa się z dwóch części: sterty pamięci i stosu wywołań.
+
+01:43.440 --> 01:45.120
+Teraz stos pamięci.
+
+01:45.270 --> 01:48.680
+Tutaj odbywa się przydzielanie pamięci.
+
+01:48.810 --> 01:50.680
+I nie martw się, porozmawiamy o tym.
+
+01:51.000 --> 01:52.230
+A potem stos wywołań.
+
+01:52.260 --> 01:54.920
+Tutaj odczytujesz i wykonujesz swój kod.
+
+01:54.960 --> 01:57.650
+Mówi ci, gdzie jesteś w programie.
+
+01:59.070 --> 02:01.900
+Uprośmy to i pokażmy, co mam na myśli.
+
+02:04.370 --> 02:06.310
+Mam tutaj Sublime Text.
+
+02:06.710 --> 02:16.650
+I dla nas, aby przydzielić pamięć i stertę pamięci Cóż, to tak proste, jak robienie Konst a Eco
+
+02:17.060 --> 02:24.110
+do tego, któremu przydzieliliśmy pamięć teraz, kiedy przypiszemy, że silnik javascript będzie pamiętał,
+
+02:24.470 --> 02:28.070
+że OIA A ma wartość 1.
+
+02:28.190 --> 02:34.540
+Właśnie zużyliśmy stertę pamięci i mogę ciągle tak postępować.
+
+02:34.610 --> 02:41.570
+Mogę nadal kopiować i wklejać i zmieniać te zmienne na B i C, a ja mogę zmienić wartości na
+
+02:41.570 --> 02:44.480
+sto, a może tutaj będzie ich 10.
+
+02:45.560 --> 02:46.110
+Fajne.
+
+02:46.160 --> 02:49.870
+Teraz jest problem, który widzimy z tym.
+
+02:50.040 --> 02:55.750
+Jest to tzw. Wyciek pamięci, który usłyszysz, gdy zostaniesz programistą.
+
+02:56.110 --> 03:01.900
+I to, co tutaj zrobiliśmy, to stworzyliśmy wszystkie te zmienne, te zmienne globalne, które
+
+03:01.900 --> 03:05.350
+są w stosie pamięci, ale widać to poprawnie.
+
+03:05.530 --> 03:10.940
+I przy całej pamięci mamy ograniczoną ilość, którą możemy faktycznie mieć.
+
+03:11.080 --> 03:17.950
+Więc zwiększając liczbę zmiennych, które mamy Wyobraźmy sobie, że mam tylko tę stronę pełną zmiennych i
+
+03:17.950 --> 03:21.720
+zamiast samych liczb są one bardzo dużymi tablicami.
+
+03:22.030 --> 03:28.450
+No przecieki pamięci zdarzają się, gdy masz niewykorzystaną pamięć, na przykład powiedzmy, że teraz
+
+03:28.450 --> 03:36.310
+używamy zmiennej a, ale dobrze sobie poradzi, mając niewykorzystaną pamięć po prostu ją układając wypełnia tę stertę pamięci.
+
+03:36.580 --> 03:40.050
+I dlatego możesz usłyszeć, dlaczego zmienne globalne są złe.
+
+03:40.150 --> 03:44.440
+Globalne zmienne są złe, ponieważ nie zapomnimy posprzątać po sobie.
+
+03:44.560 --> 03:51.280
+Wypełniamy tę stertę pamięci i ostatecznie przeglądarka nie będzie mogła działać.
+
+03:51.300 --> 03:54.040
+W porządku, więc to jest pamięć.
+
+03:54.090 --> 03:56.100
+Porozmawiajmy o stosie wywołań.
+
+03:56.220 --> 03:57.040
+Co to jest.
+
+03:58.210 --> 04:17.460
+Znowu za pomocą stosu wywołań możemy mieć coś takiego, jak log konsoli konsoli Mogo 1 do
+
+04:17.670 --> 04:23.260
+nazwy logu 3 konsoli.
+
+04:23.400 --> 04:28.400
+Jeśli uruchomiłem ten kod w terminalu przeglądarki.
+
+04:28.600 --> 04:39.880
+No cóż, dostaję jeden dwa trzy stos wywoławczy, jeśli pamiętasz, że to czyta i wykonuje nasze skrypty.
+
+04:40.260 --> 04:45.950
+Tak więc, stos wywołań odczytuje okno dialogowe konsoli pierwszego wiersza.
+
+04:46.140 --> 04:48.610
+Zostaje umieszczony w tym stosie wywołań.
+
+04:48.890 --> 04:52.530
+Tak więc silnik javascript mówi, że dodano okno dialogowe konsoli.
+
+04:52.680 --> 05:03.170
+Wrzućmy go na ten stos wywoławczy, a następnie uruchom go i stwórz, po czym mówi OK Usuwam pierwszą blokadę konsoli, ponieważ
+
+05:03.170 --> 05:09.920
+właśnie skończyłem jej działanie Zamierzam umieścić drugi dziennik konsoli w moim stosie wywołań i
+
+05:09.920 --> 05:13.860
+dodać go na tutaj i mówi Yep.
+
+05:13.990 --> 05:15.090
+Wykonaj dwa.
+
+05:15.680 --> 05:23.410
+A następnie usuwa, że go wyskakuje, a następnie pobiera blokadę Konsole 3 i loguje blokadę Konst 3.
+
+05:23.420 --> 05:30.930
+A potem w końcu go usuwa, ale przyjrzyjmy się nieco bardziej złożonemu przykładowi, aby zademonstrować
+
+05:30.930 --> 05:31.960
+ten punkt.
+
+05:32.160 --> 05:34.750
+Wyobraź sobie, że mam coś takiego.
+
+05:37.450 --> 05:39.700
+Mam pojęcie funkcji
+
+05:44.430 --> 05:52.390
+jeden i wewnątrz tej funkcji mamy inną funkcję, a na razie tak
+
+05:52.420 --> 06:04.390
+naprawdę nie zrobimy zbyt wiele, to konsola do logowania kropek, a tutaj po prostu powiemy, że Rhondda będzie działać.
+
+06:04.410 --> 06:14.990
+Jeśli więc je skopiuję i wkleję do konsoli, a uruchomię jedną, otrzymam cztery i zignoruję ten błąd tutaj.
+
+06:15.060 --> 06:17.400
+Jest to po prostu związane z moją aplikacją w przeglądarce.
+
+06:17.510 --> 06:19.000
+Ale widzisz, że mamy cztery.
+
+06:19.010 --> 06:21.920
+Co się stało tutaj, zgodnie ze stosem wywołań.
+
+06:22.310 --> 06:30.050
+Jeśli mamy tutaj stos wywoławczy, najpierw uruchomiliśmy jedną funkcję.
+
+06:30.050 --> 06:34.520
+Tak więc na wierzchu stosu wywołań uruchamiana jest jedna funkcja.
+
+06:34.760 --> 06:40.050
+Kiedy wchodzimy do tego stosu wywołań, widzimy, że uruchamiamy inną funkcję.
+
+06:40.190 --> 06:50.410
+Zatem dwa są na wierzchu stosu wywołań, a teraz uruchamiamy dwie funkcje, którymi jest dziennik Konsole.
+
+06:50.600 --> 07:00.100
+Mamy więc log Dom konsoli, który jest uruchamiany wewnątrz dwóch funkcji.
+
+07:00.130 --> 07:03.990
+Więc teraz, kiedy przeczytaliśmy to, stos wywoławczy powie "OK".
+
+07:04.030 --> 07:06.280
+Nie ma w tym nic więcej.
+
+07:06.280 --> 07:11.410
+Mam zamiar uruchomić Konsole Lock 4, żeby wydrukować tutaj numer cztery.
+
+07:11.410 --> 07:22.280
+Usunie to ze stosu wywołań, a następnie usunie je, a następnie usunie, ponieważ zostało po prostu wywołane,
+
+07:22.310 --> 07:23.440
+a
+
+07:26.050 --> 07:28.880
+stos wywołań jest pusty.
+
+07:29.260 --> 07:30.020
+W porządku.
+
+07:30.040 --> 07:30.590
+Niesamowite.
+
+07:30.700 --> 07:34.690
+Wróćmy teraz do stwierdzenia z początku filmu.
+
+07:34.910 --> 07:42.400
+JavaScript to język z jednym wątkiem, który może blokować pojedynczy wątek, co oznacza, że ma tylko jeden
+
+07:42.520 --> 07:43.690
+stos wywołań.
+
+07:44.590 --> 07:48.340
+I tylko jeden stos wywołań może zrobić tylko jedną rzecz na raz.
+
+07:48.370 --> 07:52.870
+I jak widzieliśmy, stos wywoławczy jest pierwszy na końcu.
+
+07:53.110 --> 07:59.650
+Więc wszystko, co jest na górze, stos wywołań jest uruchamiany najpierw, a następnie poniżej tego poniżej, że stos
+
+07:59.650 --> 08:01.070
+wywołań jest pusty.
+
+08:02.550 --> 08:05.810
+Teraz inne języki mogą mieć wiele połączeń.
+
+08:05.940 --> 08:08.880
+A te nazywane są wielowątkowymi.
+
+08:08.900 --> 08:14.060
+Możesz również zobaczyć, jak korzystne może być posiadanie wielu stosów wywołań, abyśmy nie
+
+08:14.060 --> 08:15.290
+czekali na rzeczy.
+
+08:15.410 --> 08:18.230
+Dlaczego javascript został zaprojektowany jako pojedynczy wątek.
+
+08:19.170 --> 08:24.570
+Uruchomienie kodu w jednym wątku może być dość łatwe, ponieważ nie musisz radzić sobie ze
+
+08:24.570 --> 08:27.920
+skomplikowanymi scenariuszami, które pojawiają się w środowisku wielowątkowym.
+
+08:27.930 --> 08:29.720
+Po prostu masz jedno, o co musisz się martwić.
+
+08:29.940 --> 08:39.000
+A kiedy mówię, że problemy ze środowiskiem wielowątkowym mogą mieć teraz coś takiego jak zakleszczenia.
+
+08:39.150 --> 08:47.500
+Zgadnij, czego właśnie się nauczyłeś, co oznacza synchroniczne programowanie synchroniczne oznacza po prostu.
+
+08:47.650 --> 08:53.750
+Linia 1 zostaje wykonana, a linia 2 zostaje wykonana, a następnie linia 3 zostaje wykonana.
+
+08:55.100 --> 08:59.480
+Ten ostatni może rozpocząć się przed pierwszym zakończeniem.
+
+08:59.480 --> 09:06.640
+Tak więc ta blokada konsoli 2 nie rozpocznie się, dopóki nie skończy się blokada Konsoli, a anulowanie 3 nie
+
+09:06.670 --> 09:12.380
+rozpocznie się przed zakończeniem, ponieważ dobrze przyjrzeliśmy się stosowi wywołań z powodu stosu wywołań.
+
+09:12.410 --> 09:16.620
+Być może słyszałeś o przepełnieniu stosu witryny.
+
+09:16.700 --> 09:20.250
+Jeśli jesteś programistą, używaj go codziennie i.
+
+09:20.270 --> 09:24.730
+Czy kiedykolwiek zastanawiałeś się, co oznacza Stack Overflow.
+
+09:26.020 --> 09:28.350
+Przepełnienie stosu.
+
+09:28.500 --> 09:32.430
+Jest tak, gdy stos jest przepełniony.
+
+09:32.430 --> 09:39.240
+Tak jakbyśmy rozmawiali o wyciekach pamięci io tym, jak stertę pamięci silnika
+
+09:40.080 --> 09:43.320
+javascript można przepełnić, przepełnieniem stosu.
+
+09:43.320 --> 09:48.000
+Dzieje się tak, gdy stos wywołań staje się coraz większy i większy, dopóki nie ma
+
+09:48.000 --> 09:49.380
+już wystarczająco dużo miejsca.
+
+09:49.380 --> 09:52.200
+Jak możemy to zrobić.
+
+09:52.200 --> 09:54.590
+Czy możemy odtworzyć przepełnienie stosu?
+
+09:54.930 --> 09:59.010
+Tak, mogę szybko pokazać, że utworzyłeś przepełnienie stosu.
+
+09:59.010 --> 10:13.530
+Wszystko, co musisz zrobić, to funkcja foo, tak jak tutaj mamy, a ta funkcja będzie tylko mieć rękę do ręki.
+
+10:13.540 --> 10:17.940
+Po prostu uruchomimy naszą funkcję żywnościową.
+
+10:17.980 --> 10:21.800
+To wygląda zagmatwująco, co się tutaj dzieje.
+
+10:22.120 --> 10:24.610
+To coś zwane rekurencją i
+
+10:27.290 --> 10:30.300
+rekurencją oznacza funkcję, która sama się nazywa.
+
+10:30.700 --> 10:35.990
+Jeśli więc spojrzysz na to, co robimy, uruchomimy foo i foo zostanie wykonany.
+
+10:36.170 --> 10:39.610
+Co robi foo, to znowu uruchamiamy foo.
+
+10:39.680 --> 10:44.900
+Więc po prostu ciągle się zapętla i ma rekursję.
+
+10:44.960 --> 10:46.960
+Ale nie ma końca w prawo.
+
+10:47.090 --> 10:50.540
+Dodajemy foo do stosu wywołań.
+
+10:50.660 --> 10:58.220
+Ciągle ją dodajemy w kółko i w kółko, i mamy przepełnienie
+
+10:58.220 --> 10:59.720
+stosu.
+
+11:00.080 --> 11:07.280
+Więc jeśli chcesz się dobrze bawić, idź do przeglądarki, wejdź do konsoli i uruchom coś podobnego i zobacz, co się
+
+11:07.280 --> 11:08.000
+stanie.
+
+11:08.000 --> 11:10.170
+Dostaniesz przepełnienie stosu.
+
+11:11.080 --> 11:11.900
+W porządku.
+
+11:11.920 --> 11:14.320
+Mam więc nadzieję, że teraz ma to sens.
+
+11:14.320 --> 11:20.470
+Silnik javascript będący silnikiem V-8 Ancrum ma układ pamięci i stos wywołań.
+
+11:20.530 --> 11:31.200
+Teraz javascript jest pojedynczym wątkiem, ale tylko jedna instrukcja jest wykonywana w tym samym czasie, ale teraz jest
+
+11:31.200 --> 11:32.220
+problem.
+
+11:32.220 --> 11:38.210
+Co jeśli y2 było dużym zadaniem, które musieliśmy zrobić.
+
+11:38.380 --> 11:44.420
+Może przejdzie przez tablicę, która miała miliony Aietes, ale może się tam zdarzyć.
+
+11:44.460 --> 11:52.020
+Cóż, będziemy musieli wykonać ten protokół konsoli, a następnie drugi wiersz, to jest ogromna, masywna praca, którą tam
+
+11:52.020 --> 11:54.950
+popracujemy i anulujemy ją jak 3.
+
+11:54.950 --> 12:00.690
+Zajmie nam to naprawdę dużo czasu, aby się zgubić i na naszym małym przykładzie, który nie znaczy wiele,
+
+12:00.690 --> 12:05.550
+ale gdyby miał to na stronie internetowej, to użytkownik nie byłby w stanie nic zrobić.
+
+12:05.610 --> 12:11.330
+Strona internetowa byłaby prawie niezamarznięta, dopóki zadanie to nie zostanie wykonane, a użytkownik po prostu czeka tam.
+
+12:11.370 --> 12:13.330
+To nie jest zbyt dobre.
+
+12:13.500 --> 12:19.680
+Dobrze z zadaniem synchronicznym, jeśli mamy jedną funkcję, która zajmuje dużo czasu, to będzie
+
+12:19.680 --> 12:20.760
+utrzymywać linię.
+
+12:20.790 --> 12:23.100
+Wyobraź sobie restaurację z bufetem.
+
+12:23.190 --> 12:29.610
+Jeśli wszyscy chcą, ale Bobbie mówi: "Trzymajcie się facetów, musicie jeść i wkładać boczek na talerz.
+
+12:29.640 --> 12:31.870
+Cóż, wszyscy muszą czekać w kolejce.
+
+12:32.290 --> 12:38.520
+Więc brzmi jak potrzebujemy czegoś bez blokady pamiętajmy o naszym pierwszym stwierdzeniu, że zrobiliśmy w tym
+
+12:38.820 --> 12:43.420
+wideo javascript jako pojedynczy język z gwintem, który może być niezablokowany.
+
+12:43.740 --> 12:47.180
+Idealnie nie czekamy na rzeczy, które wymagają czasu.
+
+12:47.640 --> 12:52.930
+Jak więc to zrobić wszystko asynchronicznie na ratunek.
+
+12:53.000 --> 12:59.410
+Wydaje się, że asynchroniczne, podobnie jak synchroniczne wykonywanie zachowania, jest świetne, ponieważ jest przewidywalne.
+
+13:00.080 --> 13:02.510
+Wiemy, co dzieje się najpierw, a potem co dalej.
+
+13:02.510 --> 13:03.730
+Co tu się dzieje.
+
+13:04.070 --> 13:05.530
+Ale może się spowalniać.
+
+13:05.750 --> 13:12.020
+Kiedy więc musimy robić takie rzeczy jak przetwarzanie obrazu lub wysyłanie żądań przez sieć, takich jak wywołania API i nie
+
+13:12.380 --> 13:15.230
+martw się, będziemy o tym rozmawiać w przyszłych filmach.
+
+13:15.230 --> 13:19.010
+Potrzebujemy czegoś więcej niż tylko synchronicznych zadań.
+
+13:19.100 --> 13:20.520
+Więc myślisz sobie.
+
+13:20.720 --> 13:23.540
+Andre Jak wykonujemy programowanie asynchroniczne.
+
+13:24.110 --> 13:27.460
+Pozwól mi usunąć trochę tego bałaganu.
+
+13:28.070 --> 13:35.240
+Możemy zrobić programowanie asynchroniczne, robiąc coś takiego, a wspomniany czas, o którym będziemy rozmawiać, jest
+
+13:35.240 --> 13:44.800
+funkcją, która jest dostępna w naszych przeglądarkach i pozwala nam stworzyć czas, a my możemy po prostu dać mu pierwszy
+
+13:44.800 --> 13:47.750
+parametr to funkcja że chcemy uciekać.
+
+13:47.860 --> 13:51.030
+A drugi parametr to ile sekund chcemy poczekać.
+
+13:51.040 --> 13:53.300
+Powiedzmy, że chcę poczekać dwie sekundy.
+
+13:53.320 --> 13:55.870
+Tak więc 200 2000 milli sekund.
+
+13:56.290 --> 14:00.750
+Jeśli zrobię to teraz, przejdźmy do konsoli i zobaczmy, co się stanie.
+
+14:07.720 --> 14:10.180
+Cóż, po prostu to.
+
+14:10.560 --> 14:12.510
+Mamy minusy.
+
+14:12.690 --> 14:13.510
+Jeden.
+
+14:14.530 --> 14:20.680
+Następnie anuluj jak trzy, a następnie anuluj rejestrowanie do dwóch sekund później.
+
+14:21.040 --> 14:28.450
+Wygląda na to, że po prostu opuściliśmy ten krok i umieściliśmy to na samym końcu.
+
+14:29.740 --> 14:36.770
+Cóż, po prostu masz drewniane asynchroniczne programowanie, żeby to zrozumieć i co się właśnie wydarzyło.
+
+14:36.970 --> 14:45.950
+Muszę zabrać cię do następnej części, a to jest w kolejności dla javascript, jak wiemy, aby uruchomić dla silnika javascript
+
+14:45.950 --> 14:49.550
+z stertą pamięci i stosem wywołań do uruchomienia.
+
+14:49.700 --> 14:57.920
+Potrzebujemy czegoś więcej niż tylko silnika javascript, którego potrzebujemy, jak to nazywamy, środowiska wykonawczego javascript, a środowisko
+
+14:58.160 --> 15:03.480
+wykonawcze JavaScript jest ponownie częścią przeglądarki, którą zawiera w przeglądarkach.
+
+15:03.710 --> 15:06.640
+Mają dodatkowe elementy na silniku.
+
+15:06.650 --> 15:12.760
+Mają coś, co nazywa się Web API Lets call back Q I pętlę zdarzeń.
+
+15:13.130 --> 15:19.030
+I jak widać tutaj, Time-Out jest częścią web API.
+
+15:19.130 --> 15:22.890
+Nie jest to technicznie częścią javascriptu.
+
+15:23.030 --> 15:26.250
+To co, ale przeglądarki pozwalają nam korzystać.
+
+15:26.300 --> 15:28.370
+Możemy więc wykonać program asynchroniczny.
+
+15:28.740 --> 15:29.160
+DOBRZE.
+
+15:29.240 --> 15:31.390
+Patrząc na ten diagram.
+
+15:31.460 --> 15:34.940
+Sprawdź, czy możemy dowiedzieć się, co robi nasz kod.
+
+15:36.610 --> 15:53.280
+Możemy stworzyć tutaj własny stos wywołań, który będzie posiadał interfejs API, a następnie będziemy mieć kolejkę wywołania zwrotnego, a następnie pętlę, tak
+
+15:53.310 --> 15:59.320
+jak mamy w naszym środowisku wykonawczym javascript.
+
+15:59.350 --> 16:00.560
+Więc co się tutaj dzieje.
+
+16:00.610 --> 16:07.470
+Najpierw mamy log konsoli, który trafia do stosu wywołań.
+
+16:08.350 --> 16:10.730
+A to się zaczyna.
+
+16:10.960 --> 16:14.720
+Dlatego logujemy log konsoli do przeglądarki.
+
+16:15.100 --> 16:17.680
+Następnie ustalamy limit czasu.
+
+16:18.830 --> 16:23.190
+Do naszego stosu połączeń, ponieważ zakończyliśmy to pierwsze zadanie, przechodzimy do drugiego.
+
+16:23.680 --> 16:29.390
+A co jest powiedziane, że to, co się wydarzyło, jest dobrze w stosie wywołań, to znaczy, że OK,
+
+16:29.470 --> 16:30.430
+mam ustalony czas.
+
+16:30.890 --> 16:37.940
+A ponieważ wspomniany czas nie jest częścią skryptu Joe, ale częścią web API, ma tę szczególną cechę.
+
+16:37.940 --> 16:42.590
+To, co się stanie, uruchamia web API.
+
+16:43.840 --> 16:55.030
+I mówi, że właśnie ustawiono limit czasu, a ponieważ odesłaliśmy dużego gościa, możemy go wyskoczyć ze stosu
+
+16:55.180 --> 16:56.450
+wywołań.
+
+16:56.470 --> 17:02.280
+Teraz web API uruchamia tu zegar o czasie dwóch sekund.
+
+17:02.350 --> 17:06.440
+Będzie wiedział, że za dwie sekundy musisz coś zrobić.
+
+17:07.500 --> 17:18.970
+A ponieważ stos wywołań jest pusty, silnik javascript przechodzi teraz do logu konsoli 3 i wykonuje to.
+
+17:19.130 --> 17:24.510
+To ma sens w tej chwili, że zrobiliśmy jeden i trzy, ale nadal mówimy o przekroczeniu limitu czasu.
+
+17:24.680 --> 17:27.710
+Dwie sekundy w webowym interfejsie API.
+
+17:27.980 --> 17:36.620
+Teraz po dwóch sekundach, gdy nasz limit czasu minął, web API powie, że powinien upłynąć ustawiony
+
+17:36.620 --> 17:37.240
+czas.
+
+17:37.280 --> 17:38.580
+Zobaczmy, co jest w środku.
+
+17:38.690 --> 17:40.760
+Mamy też blokadę konsoli.
+
+17:41.000 --> 17:45.270
+Więc to, co się wydarzy, to powie, że ustalony czas się skończył.
+
+17:46.660 --> 17:56.230
+Mamy wywołanie zwrotne i to wywołanie zwrotne wspomnianego czasu dodaliśmy do połączenia z powrotem do stwierdzenia, że musimy uruchomić
+
+17:56.230 --> 18:05.180
+coś, co jest gotowe do uruchomienia go w ostatniej części zdarzenia, które zdarzenie zapętla się tutaj sprawdza i
+
+18:05.300 --> 18:10.730
+mówi, że jest pusty stos wywołań i cały czas sprawdza.
+
+18:10.730 --> 18:16.220
+Jeśli stos jest pusty, a stos wywołań jest pusty i nie ma już nic w
+
+18:16.220 --> 18:20.060
+tym silniku javascript, to powie, że mamy jakieś wywołania zwrotne.
+
+18:20.060 --> 18:25.280
+Sprawdza kod i mówi, że jest tam wszystko, ponieważ stos wywołań jest pusty.
+
+18:25.280 --> 18:28.170
+Możemy coś tam wrzucić i sprawić, że wykona jakąś pracę.
+
+18:28.550 --> 18:31.390
+W naszym przypadku mówimy "tak".
+
+18:31.400 --> 18:34.440
+Pozwól, że wprowadzę to w koncepcję.
+
+18:34.490 --> 18:43.190
+Teraz przestawiamy kod z powrotem do stosu wywołań, a potem z powrotem jesteśmy nim i uruchamiając go widzimy, że
+
+18:43.190 --> 18:45.580
+mamy także dziennik konsoli.
+
+18:45.830 --> 18:55.260
+Mówi się, anuluj lub zaloguj się, aby uruchomić tę funkcję, a kiedy to zrobi, wyskoczy ze
+
+18:55.290 --> 18:56.840
+stosu wywołań.
+
+18:56.910 --> 19:02.900
+I znowu jesteśmy w dół z wywołania zwrotnego, więc usuwamy go i gotowe.
+
+19:02.940 --> 19:03.590
+Skończyliśmy.
+
+19:03.600 --> 19:09.170
+Wszystko jest puste i właśnie uruchomiliśmy ten trzy.
+
+19:09.270 --> 19:15.060
+Przejdzie przez całe zdarzenie kolejki wywołań interfejsu API sieci Web Lou, a następnie uruchomi
+
+19:15.120 --> 19:17.530
+logowanie konsoli do wartości true.
+
+19:17.700 --> 19:19.380
+To było dużo informacji.
+
+19:19.470 --> 19:25.320
+Być może będziesz musiał to obejrzeć kilka razy, ale mam nadzieję, że ma to sens dla ciebie,
+
+19:25.320 --> 19:26.920
+dlaczego zauważyliśmy to zachowanie.
+
+19:27.480 --> 19:31.200
+I chcę rzucić wyzwanie twojemu zrozumieniu tutaj.
+
+19:31.440 --> 19:37.110
+Wiedząc, co wiesz i co ci mówię, co się stanie, jeśli zmienię się na zero.
+
+19:37.410 --> 19:39.370
+To oznacza zero sekund.
+
+19:40.270 --> 19:43.470
+Zamierzam dać ci chwilę, by pomyśleć o tym, co się stanie.
+
+19:43.600 --> 19:45.510
+A potem spróbujemy tego.
+
+19:45.880 --> 19:54.320
+Kiedy wyczyściłem konsolę, skopiuj i wklej to i uruchom dobrze jeden trzy i dwa.
+
+19:54.400 --> 19:55.570
+Czy zgadłeś, prawda.
+
+19:56.440 --> 19:59.160
+Teraz pomyśl, dlaczego tak się stało.
+
+19:59.350 --> 20:04.610
+Mimo że jest to zero sekund, proces ten nadal trwa.
+
+20:04.690 --> 20:11.970
+Nadal było wprowadzane do web API, a następnie do kolejki wywołania zwrotnego, a następnie zostały zakończone.
+
+20:12.070 --> 20:19.870
+A zanim to się stało, stos wywoławczy przesunął się już na konsolę 3 i dopiero po wykonaniu
+
+20:19.870 --> 20:26.620
+logu konsoli 3 i stosie wywołań był pusty, pętla zdarzeń powiedziała, że tak, możemy wywołać
+
+20:26.620 --> 20:31.410
+dziennik anulowania, miejmy nadzieję, że to ma sens ty.
+
+20:31.440 --> 20:36.580
+A jeśli jesteś w stanie zrozumieć, że faktycznie masz wielu ludzi, którzy wynajmują
+
+20:36.580 --> 20:41.830
+dla ról javascript, zadajcie takie pytania w wywiadzie i musicie wyjaśnić, dlaczego tak jest.
+
+20:41.830 --> 20:47.890
+Mam więc nadzieję, że ma to sens i możesz wykorzystać to na swoją korzyść podczas następnej rozmowy kwalifikacyjnej.
+
+20:47.920 --> 20:53.770
+Więc podsumujmy.
+
+20:53.980 --> 21:00.370
+Jeśli chcesz załadować najnowsze tweety na stronę internetową i robisz to synchronicznie, to użytkownicy Twojej witryny nie
+
+21:00.370 --> 21:04.370
+będą mogli nic zrobić, dopóki te tweety nie zostaną załadowane.
+
+21:04.630 --> 21:08.690
+Może to spowodować duże opóźnienie, zanim nawet zobaczą zawartość jego witryny.
+
+21:08.710 --> 21:12.610
+Mogą nie być w stanie nigdzie kliknąć, a strona będzie wyglądać, jakby została zamrożona.
+
+21:12.760 --> 21:14.620
+Niezbyt dobre wrażenia użytkownika.
+
+21:15.440 --> 21:19.230
+Innym sposobem myślenia o tym jest wywoływanie swojego nauczyciela z pytaniem.
+
+21:20.280 --> 21:23.160
+Synchroniczny sposób jest nazywany nauczycielem.
+
+21:23.160 --> 21:30.450
+Zaczekasz na telefon, aż nauczyciel odbierze telefon i zadadzą mu to pytanie, i mam nadzieję, że dostaną
+
+21:30.450 --> 21:31.100
+odpowiedź.
+
+21:31.230 --> 21:33.950
+Więc pozwolisz, żeby telefon zadzwonił, dopóki nie podniesie słuchawki.
+
+21:34.110 --> 21:37.420
+Ale w międzyczasie nic nie robisz.
+
+21:37.710 --> 21:41.750
+Asynchroniczne oznacza wysyłanie tekstu do nauczyciela z pytaniem.
+
+21:42.030 --> 21:48.450
+A wtedy, gdy nauczyciel lub ona będzie miał czas lub odpowie na twoje pytanie i
+
+21:48.450 --> 21:56.640
+zadzwoni do ciebie z odpowiedzią, abyś mógł zrobić inne rzeczy pomiędzy javascript, jest asynchronicznie, kiedy możesz zostawić wiadomość, a Colback
+
+21:56.820 --> 22:00.420
+powie Ci, Hej Panie. nauczyciel ma dla ciebie wiadomość, gdy nie jesteś zbyt zajęta.
+
+22:02.060 --> 22:07.760
+I dlatego nazywamy to funkcją oddzwaniania i sześcianem oddzwaniania, do którego dzwonimy, aby dać im
+
+22:07.760 --> 22:11.140
+znać, że są rzeczy, które czekają na ciebie.
+
+22:11.180 --> 22:16.410
+Teraz widzimy, że mamy limit czasu Dohm Ajax i jest jeszcze kilka innych rzeczy.
+
+22:16.580 --> 22:20.430
+Ale widzisz też, w Colback masz enklawę, gdy ładunek jest gotowy.
+
+22:20.690 --> 22:25.350
+Czy dobrze pamiętasz słuchaczy zdarzeń z odbiornikiem zdarzeń?
+
+22:25.370 --> 22:32.630
+Mieliśmy coś takiego jak element i dodaliśmy detektor zdarzeń.
+
+22:33.290 --> 22:41.140
+I w tym w nerwie można powiedzieć, że słyszę kliknięcie, a będziesz miał funkcję, która
+
+22:41.340 --> 22:47.780
+może po prostu kliknięcie konsoli będzie podobne do asynchronicznego sposobu programowania.
+
+22:47.790 --> 22:52.110
+Stworzyliśmy tę funkcję kliknięcia, a teraz po prostu jej słuchamy.
+
+22:52.170 --> 22:55.410
+I za każdym razem, gdy kliknięcie dzieje się na stronie internetowej.
+
+22:55.440 --> 23:06.210
+Tak więc w Dom Well uruchamiamy funkcję zwrotną, którą logi konsoli klikają w prawo.
+
+23:06.510 --> 23:14.060
+Tak więc, aby skończyć rzeczy, gdy jest to asynchroniczne wydarzenie, zdarza się bardzo często, gdy próbujesz porozmawiać między maszynami, na
+
+23:14.060 --> 23:21.170
+przykład rozmawiając z bazą danych, która wysyła żądania odczytu plików do sieci, i nie martw się, że przejdziemy
+
+23:21.170 --> 23:23.410
+przez te filmy z impeach.
+
+23:23.690 --> 23:31.700
+Ale, aby podsumować to, czego właśnie się nauczyliśmy, Javascript jest językiem z pojedynczym gwintem, który może być
+
+23:31.700 --> 23:39.410
+niezablokowany, ma jeden stos wywołań i robi jedną rzecz na raz, aby nie blokować pojedynczego wątku.
+
+23:39.410 --> 23:48.770
+Może on być asynchroniczny z funkcjami wywołania zwrotnego, a te działania Colmara są uruchamiane w tle przez kolejkę wywołania zwrotnego,
+
+23:48.770 --> 23:53.740
+a następnie zmienione w celu przywrócenia go do stosu wywołań.
+
+23:53.770 --> 24:00.720
+Następnym razem zapytamy, jaka jest różnica między synchronicznym lub synchronicznym hamburgerem.
+
+24:00.940 --> 24:02.830
+Albo jak działa javascript.
+
+24:02.860 --> 24:06.290
+Powinieneś mieć trochę więcej pewności siebie, aby odpowiedzieć na to pytanie.
+
+24:06.690 --> 24:08.340
+I mam nadzieję, że to było pomocne.
+
+24:09.130 --> 24:10.260
+Widzę w następnym wideo.

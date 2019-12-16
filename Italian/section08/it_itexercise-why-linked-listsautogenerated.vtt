@@ -1,0 +1,82 @@
+WEBVTT
+
+00:01.060 --> 00:02.280
+Ben tornato.
+
+00:02.280 --> 00:04.020
+È tempo per un po 'di esercizio.
+
+00:04.970 --> 00:13.990
+Perché pensi che le liste collegate possano essere migliori delle tabelle hash o cancellare solo da ciò che sappiamo in questo momento.
+
+00:14.360 --> 00:20.570
+Voglio che tu risponda a questa domanda nella tua testa o scriverlo prima di andare al prossimo video.
+
+00:21.370 --> 00:29.170
+Voglio anche mostrarti un piccolo e ingegnoso strumento a cui collegherò in questo video e questo piccolo elemento
+
+00:29.170 --> 00:36.630
+visivo mostra come funziona una lista collegata in modo da poterla giocare e vedere dove potrebbero risplendere.
+
+00:36.630 --> 00:44.500
+Sopra le matrici oi tavoli hash che vedete qui abbiamo una testa con un valore di 22 e una coda con un valore
+
+00:44.500 --> 00:45.420
+di ottantanove.
+
+00:45.580 --> 00:53.560
+E poi altri nodi che li collegano tutti e puoi usare questo sito Web per fare qualsiasi cosa a un elenco
+
+00:53.560 --> 00:54.220
+collegato.
+
+00:54.220 --> 00:55.130
+Puoi creare.
+
+00:55.180 --> 00:57.990
+Puoi cercare puoi inserire puoi rimuovere.
+
+00:58.300 --> 01:00.050
+Facciamo un inserto qui.
+
+01:00.880 --> 01:11.600
+Posso inserirmi in testa se clicco qui e se clicco, inserisco il valore a 5 che posso inserire alla
+
+01:11.630 --> 01:13.470
+coda alla fine.
+
+01:13.490 --> 01:19.210
+Se dovessi andare tutto bene, sembra abbastanza semplice niente di troppo pazzo.
+
+01:19.210 --> 01:22.210
+Cosa succede se inseriamo da qualche parte nel mezzo.
+
+01:22.210 --> 01:28.090
+Se clicco qui e diciamo un indice di due voglio inserire il valore di 90 o meno aumentare che
+
+01:28.090 --> 01:33.140
+a 93 ho colpito vai a tenere d'occhio quello che sta per succedere oh ragazzo
+
+01:38.490 --> 01:40.230
+quello che è appena successo.
+
+01:41.030 --> 01:41.750
+Non ti preoccupare
+
+01:41.930 --> 01:47.750
+Sembra un po 'complicato e in realtà stiamo andando a codificare tutto da soli e costruirlo.
+
+01:47.960 --> 01:54.500
+Ma voglio che tu giochi con questa struttura dati e nella tua testa venga fuori perché dovremmo voler
+
+01:54.500 --> 01:56.210
+usare qualcosa di simile.
+
+01:56.270 --> 01:58.660
+E poi il prossimo video ti dirò tutto a riguardo.
+
+01:58.760 --> 02:02.200
+Quindi puoi verificare se le tue supposizioni sono corrette.
+
+02:02.270 --> 02:03.050
+Vedrò nel prossimo.

@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.710 --> 00:08.280
+Întoarceți-i înapoi una dintre cele mai frecvente întrebări de interviu atunci când vine vorba de repere și stive este acesta.
+
+00:08.530 --> 00:12.360
+Implementați un tac cu ajutorul stivelor.
+
+00:12.590 --> 00:19.080
+Da, puteți implementa indicii folosind stive.
+
+00:19.260 --> 00:25.380
+Și este deosebit de ușor dacă creați un stack utilizând o cursă.
+
+00:25.410 --> 00:34.170
+Acum, această întrebare este legată de codul Leatt, care este într-adevăr foarte plăcut, deoarece putem vedea
+
+00:35.720 --> 00:40.360
+soluțiile explicate, precum și soluțiile în diferite limbi.
+
+00:40.400 --> 00:50.850
+Dacă mergeți să discutați și să scrieți în javascript, primim soluții pe care oamenii le-au transmis voturilor DNC și
+
+00:50.940 --> 00:54.750
+răspunsul cum să faceți acest lucru.
+
+00:54.900 --> 00:59.140
+Dacă doriți să verificați Python deoarece să spunem că scrieți în Python.
+
+00:59.160 --> 01:00.780
+Ei bine, au și asta.
+
+01:02.000 --> 01:05.360
+Orice limbă doriți să găsiți aici.
+
+01:06.320 --> 01:09.900
+Acum am răspuns și pentru tine.
+
+01:09.980 --> 01:17.330
+Și în acest videoclip chiar aici și resursele disponibile veți vedea un REPL cu răspunsul meu
+
+01:17.330 --> 01:18.350
+pe el.
+
+01:18.350 --> 01:23.380
+Dar vreau să vă provoc și să vă prefaceți că sunteți într-un interviu pe care să-l implementați.
+
+01:23.390 --> 01:24.860
+Q Utilizarea stivelor.
+
+01:24.950 --> 01:26.440
+Cum ai face asta?
+
+01:27.800 --> 01:34.560
+Puteți chiar să codificați pe site-ul codului de plumb dacă doriți să utilizați oricare dintre limbile dorite.
+
+01:34.560 --> 01:41.810
+Și doar un heads up aici dacă utilizați javascript că ei folosesc prototipul modului de a adăuga metode,
+
+01:42.510 --> 01:48.180
+dar sintaxa de clasă pe care ți-am arătat-o ​​este cea mai recentă versiune.
+
+01:48.210 --> 01:49.310
+E sub capotă.
+
+01:49.320 --> 01:52.280
+Este exact același lucru ca și făcând prototipul punctului.
+
+01:52.320 --> 01:55.820
+Cu toate acestea, el arată mai curat folosind sintaxa de clasă.
+
+01:55.860 --> 01:59.300
+De aceea am făcut mult noroc cu asta.
+
+01:59.310 --> 02:03.180
+Distrează-te și vă voi lega de codul de soluții pentru dvs.
+
+02:03.910 --> 02:04.500
+Chiar aici.

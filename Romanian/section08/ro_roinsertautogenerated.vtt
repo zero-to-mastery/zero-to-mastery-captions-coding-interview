@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.520 --> 00:02.840
+Bine ai revenit.
+
+00:02.840 --> 00:10.100
+Tocmai am implementat pregătit și anexat și ar trebui să vă fie clar de ce este o operație 0
+
+00:10.160 --> 00:11.620
+1 pentru ambele.
+
+00:11.660 --> 00:14.700
+Nu trebuie să trecem prin nimic.
+
+00:14.790 --> 00:20.000
+Am avut doar o referire la coadă și la cap și am reatribuit niște valori.
+
+00:20.370 --> 00:21.600
+Simplu și ușor.
+
+00:21.930 --> 00:23.700
+Dar acum vine partea dificilă.
+
+00:23.910 --> 00:25.010
+Ce zici de acestea?
+
+00:25.020 --> 00:26.300
+Cum rămâne cu blocarea blocurilor.
+
+00:26.310 --> 00:29.750
+Testele de inserții stersează.
+
+00:29.810 --> 00:37.150
+Cred că ar trebui să le codificăm și pe aceștia pentru a înțelege pe deplin cum funcționează acest exercițiu va
+
+00:37.150 --> 00:39.030
+fi un pic mai dur.
+
+00:39.190 --> 00:43.840
+Dar am să vă dau un cap în sus că vor fi implicate niște buclă.
+
+00:44.050 --> 00:53.830
+Vrem să creăm o metodă de inserare în această metodă de inserare va avea un parametru index și
+
+00:54.730 --> 01:04.260
+un parametru pentru că vom dori să putem spune că inserați această locație această valoare în listă.
+
+01:04.290 --> 01:13.980
+De exemplu, dacă am vrut să spun lista mea de link-uri inserați și să spunem că vreau să
+
+01:14.010 --> 01:19.560
+introduc un indice de două, valoarea nouăzeci și nouă.
+
+01:19.650 --> 01:27.900
+Asta ar însemna că, dacă ne întoarcem la exemplul nostru de exemplu 2, înseamnă 0 1 aici.
+
+01:27.960 --> 01:36.420
+Vreau să introduc nouăsprezece nouă și să am punctul ă de 5 cum facem asta.
+
+01:37.290 --> 01:45.840
+Vreau să vă avertizez că acest lucru poate deveni puțin complicat și că cel mai bun mod de a gândi cu adevărat este să prindeți o bucată
+
+01:45.840 --> 01:50.730
+de hârtie și un stilou și să trageți pașii pe care ar trebui să-i faceți.
+
+01:52.020 --> 01:59.880
+O modalitate bună de a exersa acest lucru și de a vă asigura că reușiți este să folosiți site-ul Visual Go și să inserați
+
+01:59.880 --> 02:08.560
+practica și să vedeți ce se întâmplă atunci când faceți indexarea până când să spunem nouăzeci și nouă de ori Am lovit să vedem ce se întâmplă
+
+02:08.560 --> 02:09.160
+aici.
+
+02:09.190 --> 02:12.250
+Va trebui să codificați acea acțiune.
+
+02:12.370 --> 02:13.450
+Ai inteles.
+
+02:13.810 --> 02:19.910
+Realizați acest lucru în timp ce încercați să codificați funcția de inserare.
+
+02:20.160 --> 02:25.620
+Asa cum am spus un pic de indiciu ca va fi ceva buclat si bolt ca ai vazut
+
+02:25.650 --> 02:29.220
+ca in demonstratie sau in animatie exista un fel de traversal.
+
+02:29.220 --> 02:34.180
+Deci va trebui să facem un fel de traversal pentru a găsi indicele.
+
+02:34.350 --> 02:44.310
+Și, de asemenea, vreau doar să codifică o listă de listare rapidă, astfel încât, în loc să folosească acest mod de imprimare a listei noastre care, pe măsură ce devine
+
+02:44.340 --> 02:49.390
+din ce în ce mai profundă, devine din ce în ce mai greu de înțeles.
+
+02:49.590 --> 02:55.740
+Am de gând să creez doar o listă de listă funcția pe care ar trebui să aibă acces
+
+02:55.740 --> 03:04.650
+la pentru a vă asigura că metoda dvs. de inserare este de lucru și această listă de imprimare este pur și simplu doar lista sunt legate de lista.
+
+03:04.660 --> 03:10.250
+Dar, în loc să-l tipăresc pe urât, o să-l tipăresc într-o matrice.
+
+03:10.270 --> 03:20.760
+Deci, acest lucru este doar de gând să fie imprimate într-o matrice tot ce vom face este să spun Konst matrice
+
+03:20.760 --> 03:32.090
+și acest lucru este de gând să fie NMT aurorae va avea o variabilă curent notă, care va avea acest gând a avut.
+
+03:32.570 --> 03:37.370
+Deci primul element din listă și tot ce vom face este să faceți o bucla în timp.
+
+03:37.430 --> 03:40.210
+Amintiți-vă că acest lucru este similar cu o buclă pentru.
+
+03:40.220 --> 03:46.220
+Suntem în buclă, dar în schimb spunem că în timp ce se întâmplă în timp ce se întâmplă o
+
+03:46.220 --> 03:52.450
+condiție, rulați comentariile de mai jos, așa că am de gând să spun că nodul curent nu este egal cu.
+
+03:52.460 --> 04:02.820
+Nu, atâta timp cât există un nod curent și nu indicăm un terminator nul în acest caz, pur
+
+04:02.820 --> 04:10.390
+și simplu adăugați la matricea matricei de împingere a valorii nodului curent.
+
+04:10.590 --> 04:11.230
+Asta e.
+
+04:11.250 --> 04:13.020
+Nu ne pasă de indicii sau de orice altceva.
+
+04:13.020 --> 04:21.670
+Vrem doar să împingem la matrice valoarea și vrem să actualizăm apoi nodul curent la nodul curent egal
+
+04:22.120 --> 04:24.100
+cu punct următor.
+
+04:24.100 --> 04:29.410
+Deci vom continua să continuăm să continuăm până când actualul nod va fi nul și în
+
+04:29.410 --> 04:36.200
+care caz vom opri din nou în timp ce buclele sunt într-adevăr foarte bune dacă nu cunoaștem cu adevărat lungimea listei
+
+04:36.200 --> 04:40.850
+noastre legate sau dorim să facem ceva în timp ce o condiție este îndeplinită.
+
+04:41.960 --> 04:45.890
+Așa că putem să întoarcem pur și simplu matricea aici.
+
+04:47.060 --> 04:48.220
+Să vedem cum ar funcționa.
+
+04:49.230 --> 04:54.360
+Dacă fac asta și am de gând să comentez insertul aici pentru că nu vom face acest lucru încă
+
+04:54.360 --> 04:58.270
+am de gând să spun doar lista mea de link-uri nu lista de imprimare.
+
+04:59.640 --> 05:07.470
+Dacă execut acest lucru există lista noastră, astfel încât folosind comanda fără părinți pentru a verifica munca ta a se vedea dacă puteți crea
+
+05:08.070 --> 05:08.800
+această metodă.
+
+05:09.710 --> 05:11.930
+Mult noroc și vă voi vedea în filmul soluție.

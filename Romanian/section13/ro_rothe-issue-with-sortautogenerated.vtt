@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.370 --> 00:02.560
+Bine ai revenit.
+
+00:02.600 --> 00:10.120
+Să vorbim despre sortare atunci când vine vorba de limbi specifice și voi folosi javascript aici.
+
+00:10.130 --> 00:15.750
+Vă voi arăta algoritmi diferiți de sortare care pot fi utilizați cu orice tip de date.
+
+00:15.770 --> 00:21.100
+Nu trebuie doar să fie șiruri de caractere nu trebuie doar să fie numere poate fi orice tip de date.
+
+00:21.440 --> 00:26.300
+Dar, de asemenea, vreau să vă arăt de ce uneori doriți să fiți atenți atunci când este vorba
+
+00:26.300 --> 00:32.060
+de sortare și pur și simplu nu aveți încredere că metoda dvs. construită și datele de sortare a limbii proprii sunt corecte.
+
+00:32.090 --> 00:33.960
+Permiteți-mi să demonstrez acest lucru cu javascript.
+
+00:34.220 --> 00:41.840
+Să presupunem că avem o altă matrice aici și această matrice o va numi coș și acest coș va avea un set de litere
+
+00:41.950 --> 00:43.910
+care vor avea niște numere.
+
+00:43.920 --> 00:49.940
+Voi avea de la 65 la 34.
+
+00:50.040 --> 00:54.130
+Și să spunem 7 și încă 1 8.
+
+00:54.150 --> 00:58.590
+Acum am văzut că atunci când am sortat scrisorile, totul părea bine.
+
+00:58.650 --> 01:02.340
+Ce se întâmplă dacă trimit coșul aici de numere.
+
+01:02.340 --> 01:03.870
+Ce crezi ca se va intampla.
+
+01:04.080 --> 01:10.560
+Și vă încurajez să încercați acest lucru și cu propria voastră limbă și să vedeți ce fel de rezultate obțineți.
+
+01:11.630 --> 01:15.540
+Lasă-mă să fac clic pe aici.
+
+01:15.710 --> 01:18.770
+Acesta este rezultatul.
+
+01:18.880 --> 01:21.280
+Așa v-ați așteptat.
+
+01:21.280 --> 01:23.280
+Asta nu pare a fi sortat.
+
+01:23.320 --> 01:29.530
+Acum este un exemplu prost, dar este important să demonstrați că atunci când vine vorba de sortare doriți
+
+01:29.530 --> 01:33.420
+să vă asigurați că dacă nu îl implementați știți cum funcționează.
+
+01:33.730 --> 01:41.080
+De exemplu, atunci când este vorba despre Javascript, felul în care sortează numerele este că le transformă efectiv în
+
+01:41.080 --> 01:41.810
+forță.
+
+01:41.950 --> 01:44.050
+Cel puțin așa funcționează metoda SOR.
+
+01:44.050 --> 01:49.150
+Deci, ceea ce se întâmplă sub capotă este în loc să comparăm doar cifrele, dacă
+
+01:49.150 --> 01:56.680
+face ceva de-a lungul liniilor dacă ajunge la 65 65 și apoi va apuca codul de caractere din primul indice, astfel încât să
+
+01:56.680 --> 01:57.700
+putem folosi metoda.
+
+01:57.700 --> 02:04.320
+Îngrijiți codul char și dați-i la zero.
+
+02:04.450 --> 02:08.600
+Deci, va măsura codul de caractere la 65 de ani.
+
+02:08.710 --> 02:11.780
+Dacă conduc asta, am 54 de ani.
+
+02:12.400 --> 02:21.070
+Acum, 54 este Unicode și dacă mă duc la tabela Unicode, toate caracterele sunt codate în computerele noastre.
+
+02:21.070 --> 02:24.490
+Acum, dacă mă duc la șase, văd asta.
+
+02:24.560 --> 02:33.460
+Da, vom vedea când vom trece peste faptul că se spune că ASTM sunt cod pentru că este de 50 pentru reprezentarea
+
+02:33.460 --> 02:35.610
+de caractere este de 54.
+
+02:35.730 --> 02:37.510
+Deci asta se întâmplă aici.
+
+02:37.570 --> 02:49.030
+Dacă o fac, să spunem două aici și vom face încă încă treizeci și patru și să consolezem doar să le înregistrăm
+
+02:49.030 --> 02:49.960
+astfel
+
+02:53.380 --> 03:05.710
+încât să știm ce se întâmplă și fac clic pe alertă vedem că și el este 50 65 sau șase 54 și 34 51.
+
+03:05.870 --> 03:14.710
+Dar dacă fac ceva ca șapte, va lua numărul și va fi 55 de ani.
+
+03:14.880 --> 03:20.120
+Deci o mulțime de oameni se confundă atunci când folosesc o metodă de sabie ca asta și nu primesc răspunsul
+
+03:20.130 --> 03:21.280
+pe care l-au dorit.
+
+03:21.540 --> 03:27.160
+De aceea este bine să citiți documentația despre ceea ce utilizați, cum ar fi o metodă de
+
+03:27.300 --> 03:29.620
+sortare Enderton, cum funcționează într-o limbă.
+
+03:30.030 --> 03:36.780
+Și pentru a adăuga și mai multă confuzie, vedeți aici că complexitatea timpului și a spațiului nu poate fi
+
+03:37.080 --> 03:39.420
+garantată, deoarece este dependentă de implementare.
+
+03:39.420 --> 03:47.220
+Amintiți-vă că Javascript are un standard numit ECMAScript, un organism de conducere sugerează cum ar trebui să arate.
+
+03:47.220 --> 03:52.440
+Cu toate acestea, modul în care îl implementați este într-adevăr dependent de diferitele motoare.
+
+03:52.470 --> 04:00.060
+Deci, browserul Chrome ar folosi o implementare javascript diferită decât să spunem Firefox sau Safari.
+
+04:00.060 --> 04:06.020
+Și ce fel de algoritm de sortare pe care îl folosesc sub capotă depinde de browser.
+
+04:06.180 --> 04:09.810
+Și despre asta vom vorbi mai târziu în videoclipuri.
+
+04:09.930 --> 04:15.910
+Dar pentru a termina această secțiune despre ciudățenia sortimentului, să vă arăt un exemplu.
+
+04:16.170 --> 04:20.060
+Să spunem că am o serie de cuvinte spaniole aici.
+
+04:20.400 --> 04:25.460
+Când el va ieși din fotbalul american, și vrem să le sortăm.
+
+04:25.790 --> 04:27.040
+Ce crezi ca se va intampla.
+
+04:28.310 --> 04:32.700
+Lasă-mă să elimin acest lucru și să fac asta aici.
+
+04:33.140 --> 04:41.890
+Dacă fac clic pe Ron Cred că ne-ar face fotbalul țelul nostru când vom merge din nou din
+
+04:42.250 --> 04:51.070
+cauza caracterelor Unicode A cu accent pe acesta nu este ajutorul real care ar veni înainte de ceva asemănător.
+
+04:51.130 --> 04:53.900
+Vezi cum puteți vedea aici.
+
+04:53.950 --> 05:00.340
+Deci, în acest caz, pentru a rezolva această problemă, ar trebui să facem ceva în sensul creării unei funcții
+
+05:00.730 --> 05:08.860
+în interiorul unui fel care să ia a și b care este primul și al doilea element și va reveni la un plus de
+
+05:10.140 --> 05:10.820
+localizare.
+
+05:10.830 --> 05:19.120
+Comparați B care ne permite să le comparați chiar dacă există limbi diferite.
+
+05:19.120 --> 05:23.870
+Deci, dacă am executat acest lucru, veți vedea că acesta este acum fix și totul funcționează.
+
+05:24.070 --> 05:30.570
+Și compararea locului din nou este ceva pe care îl puteți verifica și voi lega la audiție.
+
+05:30.590 --> 05:37.820
+Acum, motivul pentru care vă arăt acest lucru nu este pentru că vrem să devenim experți în javascript. Ei bine, toată lumea
+
+05:37.820 --> 05:43.450
+are propria lor limbă, dar vă arată că există multe modalități prin care putem sorta lucrurile.
+
+05:43.520 --> 05:49.310
+Și chiar și cu diferențe mici, cum ar fi aceasta, există multe considerații care trebuie
+
+05:49.310 --> 05:50.010
+luate.
+
+05:50.450 --> 05:57.440
+Și sub această metodă de sortare este, de fapt, unul dintre algoritmii despre care vom învăța despre acest
+
+05:57.440 --> 06:04.400
+curs și vă recomand să verificați și pagina MGM pe care o voi lega, care vă
+
+06:04.400 --> 06:12.410
+arată cum puteți compara diferite lucruri, cum ar fi numerele cum ar fi obiectele și obiectele dintr-un obiect folosind metoda de
+
+06:12.410 --> 06:21.300
+sortare pe care o vedeți pentru a sorta acest lucru corect, ar trebui să facem ceva de genul acesta, unde avem o funcție
+
+06:21.360 --> 06:28.600
+în interiorul metodei de sortare care va lua a și b care este primul și al doilea element.
+
+06:29.300 --> 06:41.160
+Și vom spune pur și simplu să returnați un minus B și dacă vom rula acest lucru vom vedea că numerele noastre sunt acum sortate.
+
+06:41.420 --> 06:42.510
+Dar asta e destul pentru acum.
+
+06:42.710 --> 06:46.960
+Să vorbim despre algoritmii de sortare care se folosesc în domeniul informaticii.
+
+06:47.010 --> 06:50.320
+Următorul videoclip pe care îl voi vedea în acel Babai.

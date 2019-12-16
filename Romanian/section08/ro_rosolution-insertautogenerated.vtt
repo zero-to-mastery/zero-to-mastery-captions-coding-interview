@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.840 --> 00:01.820
+Bine ai revenit.
+
+00:02.220 --> 00:05.380
+Să vedem cum putem implementa metoda răspunsului.
+
+00:06.380 --> 00:08.730
+Și asta a fost unul dur, așa că, sperăm, ai reușit.
+
+00:08.780 --> 00:14.070
+Dacă nu cel puțin ați încercat astfel încât să vedem cum vrem să implementăm corect metoda inserării.
+
+00:15.280 --> 00:23.120
+Primul lucru pe care vreau sa-l fac este sa verificati in primul rand parametrii mei si asta este ceva ce de obicei
+
+00:23.140 --> 00:25.340
+vreau sa fac cu toate metodele.
+
+00:25.360 --> 00:31.120
+Știu că am simplificat lucrurile și când ne-am uitat în prezent și am adăugat Nu am verificat niciodată
+
+00:31.120 --> 00:37.410
+dacă valoarea a fost ceva ce am vrut, dar când vine vorba de introducerea ceva ce vrem să ne asigurăm
+
+00:37.410 --> 00:43.630
+mai ales că indexul este o valoare pe care o înțelegem astfel încât programul nostru nu Nu dați vreo eroare.
+
+00:44.280 --> 00:51.130
+Și există multe lucruri pe care le putem face pentru o verificare și vă voi lăsa la îndemână pentru a pune în aplicare cu adevărat o verificare
+
+00:51.130 --> 00:51.790
+foarte bună.
+
+00:51.880 --> 01:00.220
+Dar un control important pe care cred că ar trebui să-l avem este dacă indicele este mai mare sau egal cu
+
+01:00.930 --> 01:02.080
+această lungime.
+
+01:02.140 --> 01:09.820
+Deci dacă dau o notă a indicelui de la 200 și lista noastră are doar trei elemente, vreau să mă
+
+01:09.820 --> 01:11.680
+descurc în mod corespunzător.
+
+01:11.890 --> 01:19.590
+În acest caz, spun atât timp cât indicele este mai mare sau egal cu cel dominant.
+
+01:19.900 --> 01:24.490
+În acest caz, trebuie doar să îl adăugați la sfârșitul listei.
+
+01:24.520 --> 01:31.870
+Deci, dacă spun că inserați valoarea 200 din nouăsprezece nouă, voi adăuga cele nouăzeci și nouă de la sfârșitul
+
+01:31.870 --> 01:35.020
+listei și puteți implementa diferite variații ale acestora.
+
+01:35.020 --> 01:41.450
+Poate că puteți să vă întoarceți o eroare dacă doriți, ci să simplificați lucrurile pe care cred că este suficient
+
+01:41.450 --> 01:46.280
+de bună și putem spune să returnați acest punct atașat pe care îl aveți deja.
+
+01:46.280 --> 01:52.490
+Trebuie să spunem că începeți un stilou, deoarece facem referire la o metodă din această clasă, deci
+
+01:54.340 --> 01:57.320
+spuneți acest lucru adăugați și vom adăuga valoarea.
+
+01:57.370 --> 01:58.190
+Vom merge acolo.
+
+01:58.570 --> 02:05.470
+Deci, dacă fac două sute nouăzeci și nouă aici, hai să adăugăm lista Prynne în partea
+
+02:06.330 --> 02:12.380
+de jos aici și dacă dau clic pe Run, ajung 99 la sfârșitul listei.
+
+02:12.450 --> 02:20.830
+Dar ce se întâmplă dacă indicele a fost în timp ce acesta este acum partea inimii.
+
+02:20.860 --> 02:28.200
+Vrem să creați mai întâi noul nod și să ne amintim că putem crea o nouă instanță de clasă dacă vrem, dar
+
+02:28.250 --> 02:33.680
+în cazul nostru vom crea doar un obiect nou care are o valoare de valoare.
+
+02:34.820 --> 02:40.790
+Și nu mai e nimic nou aici, am mai văzut asta înainte.
+
+02:42.840 --> 02:48.360
+Vine partea dificilă și îmi place să comentez acest lucru sau cel puțin să îl vizualizez astfel încât să
+
+02:48.360 --> 02:49.350
+înțelegem ce facem.
+
+02:49.350 --> 02:58.160
+Avem două note care sunt legate și apoi avem un NOU știu care vine și spune că
+
+02:58.160 --> 03:00.950
+vreau să-mi răspundeți chiar aici.
+
+03:00.950 --> 03:02.630
+Ce ar trebui să fie pașii.
+
+03:03.990 --> 03:11.220
+Primul lucru pe care trebuie să-l facem este să ne dăm seama care nod este primul, pentru că nu uitați să
+
+03:11.340 --> 03:15.020
+introduceți ceva ce putem alege indicele pe care îl dorim.
+
+03:15.030 --> 03:21.780
+Deci, dacă vrem să introducem un index de două, vrem să luăm indicele de doi.
+
+03:21.900 --> 03:22.940
+Așa că trebuie.
+
+03:23.040 --> 03:30.990
+Așadar, trebuie să traversăm lista noastră și să spunem 0 1 pentru a găsi acest nod și pentru a primi o referință la el.
+
+03:31.080 --> 03:33.450
+În caz contrar, nu avem o referință la ea.
+
+03:33.480 --> 03:40.590
+Amintiți-vă că o listă de link-uri are doar referință la acest cap și la această coadă.
+
+03:40.620 --> 03:47.790
+Deci, primul lucru pe care vrem să-l facem este să ajungem la acea notă și vom
+
+03:47.790 --> 03:55.250
+numi acest prim nod lider, pentru că aceasta va fi prima primă notă că vom conecta acest
+
+03:55.250 --> 04:04.100
+nou nod 2 și acest nod nou va indica acum lângă vechiul nod sau cel care a fost inițial conectat
+
+04:04.100 --> 04:05.520
+la prima notă.
+
+04:05.930 --> 04:15.530
+Așa că am să spun că acest nod de lider va fi bine cum putem obține că trebuie să traversăm cumva unul
+
+04:15.530 --> 04:22.730
+câte unul până când vom găsi indicele pe care îl căutăm și vom păstra codul curat.
+
+04:22.730 --> 04:24.280
+Voi crea o nouă metodă.
+
+04:24.370 --> 04:32.330
+Am de gând să spun că acest punct traversează indexul va fi o nouă metodă.
+
+04:32.660 --> 04:41.290
+Aceasta este pur și simplu pentru a obține indexul care este 0 1 2 și vreau să apuca liderul.
+
+04:41.300 --> 04:51.350
+Deci, dacă vreau să introduc numărul 99 aici, trebuie să mă asigur că 10 puncte la nouăzeci și nouă și
+
+04:51.350 --> 04:53.170
+nouăzeci la cinci.
+
+04:53.600 --> 05:01.580
+Asta inseamna ca trebuie sa apuc indexul nu aici si sa il indrept pe liderul care este liderul pe care
+
+05:01.580 --> 05:03.510
+il dorim din lista.
+
+05:03.620 --> 05:10.980
+Așa că am de gând să fac este minus un astfel de punct la lider și această traversă să indice.
+
+05:11.000 --> 05:12.570
+În timp ce va trebui să-l creăm.
+
+05:13.780 --> 05:21.010
+Și am acest cuvânt cheie aici, pentru că din nou este o metodă pe această clasă, am să spun că am
+
+05:21.040 --> 05:23.830
+două indicii Traverse care vor obține un indice.
+
+05:24.040 --> 05:28.040
+Și acesta este locul unde ne facem traversarea sau buclele.
+
+05:28.060 --> 05:33.460
+S-ar putea să doriți să verificați parametrii aici și să vă asigurați că este un index valid și că
+
+05:33.460 --> 05:34.710
+puteți face ceva singur.
+
+05:34.720 --> 05:37.010
+Nu este foarte important pentru acest exemplu.
+
+05:38.300 --> 05:43.790
+Putem presupune că indexul va fi un număr valid un indice valabil.
+
+05:43.790 --> 05:50.040
+Și apoi vom face mai întâi ceva de genul unui contor care va egala cu zero.
+
+05:51.620 --> 05:57.830
+Și vom spune că nodul curent este ceva ce am făcut similar cu
+
+05:57.830 --> 06:04.330
+lista de tipărire pe care o vom păstra actualul nod așa cum a avut-o.
+
+06:04.470 --> 06:17.710
+Și în timp ce curentul sau contorul nu echivalează cu indexul, deoarece spunem că păstrați traversarea mergeți de la
+
+06:17.740 --> 06:25.950
+început de la cap până la contor este egal cu indexul.
+
+06:25.960 --> 06:30.870
+Așa că continuați să treceți prin buclele atâta timp cât contorul nu este egal cu indicele.
+
+06:30.910 --> 06:36.260
+Dar de îndată ce contorul devine indicele, astfel încât în ​​timp ce ajungem la punctul pe care îl dorim
+
+06:36.260 --> 06:41.440
+în cazul nostru traversați la indexul minus unul care înseamnă imediat ce ajungem la 10, apoi opriți.
+
+06:41.440 --> 06:48.370
+Dar până atunci vreau să treci prin acest nod atât de actual va ajunge
+
+06:51.280 --> 06:53.990
+la nodul curent următor punct.
+
+06:54.010 --> 07:00.680
+Așa că vom continua să ne mișcăm nodul curent spre dreapta și vom crește numărul de contoare
+
+07:00.740 --> 07:01.920
+unul câte unul.
+
+07:02.090 --> 07:03.110
+Asta e.
+
+07:03.110 --> 07:05.510
+Asta e trecerea noastră.
+
+07:05.550 --> 07:11.610
+Tot ce trebuie sa facem la sfarsit pentru ca vrem sa intoarcem ceva
+
+07:12.270 --> 07:18.670
+de la aceasta metoda este sa intoarcem nodul curent si apoi sa-l spunem traversand indexul.
+
+07:18.820 --> 07:23.060
+În cazul nostru, dacă vom introduce două nouăzeci și nouă.
+
+07:23.350 --> 07:27.120
+Va primi două nouăzeci și nouă de aici.
+
+07:27.290 --> 07:34.100
+Se va crea noul nod și va trece la indicele la minus unul este 1,
+
+07:34.100 --> 07:40.240
+deci va spune 0 și 1, iar contorul va fi egal cu indexul.
+
+07:40.250 --> 07:47.520
+Deci va ieși din bucla și va reveni la nodul curent, care este de 10.
+
+07:47.630 --> 07:50.510
+Luăm referința la lider.
+
+07:50.540 --> 07:52.330
+Felicitări, dar nu am terminat încă.
+
+07:52.340 --> 07:53.460
+Dreapta.
+
+07:53.600 --> 07:57.040
+Odată ce luăm referința la lider, ce vom face în continuare.
+
+07:58.250 --> 08:05.660
+Ei bine, următorul lucru este că vrem să ne asigurăm că vom lua următorul articol din această listă originală,
+
+08:05.660 --> 08:10.290
+care este că dorim să păstrăm un pointer la numărul cinci.
+
+08:10.610 --> 08:12.200
+Din nou, nu vrem să încălcăm această listă.
+
+08:12.200 --> 08:19.130
+Vrem să ne asigurăm că conexiunile funcționează corect și că Nine-Nine vine după 10 și după
+
+08:19.130 --> 08:21.080
+ce 99 are cinci.
+
+08:21.500 --> 08:32.500
+Deci, pasul următor pe care doriți să îl faceți în metoda noastră de inserare este acela de a apela ceea ce numesc "hold" sau să îl numim pur și simplu ținând
+
+08:32.500 --> 08:33.050
+indicatorul.
+
+08:33.100 --> 08:38.930
+Probabil aș putea spune că mai bine, dar ținând mintea lui Poitier este drăguț și vom spune următorul punct de lider.
+
+08:39.910 --> 08:46.260
+Liderul Don următor este de cinci și cinci.
+
+08:46.470 --> 08:56.690
+Acum avem referindu-se la această variabilă care va avea temporar următoarea dată deoarece avem cinci salvate la această variabilă
+
+08:56.750 --> 08:59.300
+menționată în această variabilă.
+
+08:59.420 --> 09:06.240
+Putem actualiza acum liderul de lângă punctul la noul nostru nod.
+
+09:06.430 --> 09:17.610
+Așa că pot spune că liderul Dodd urmează acum să îndrepte spre un nou nod și să ne amintim din cauza modului în care lucrează
+
+09:17.610 --> 09:26.310
+referințele am șters referința a cinci aici, astfel încât 10 nu mai indică la cinci, dar am salvat
+
+09:26.310 --> 09:28.280
+referința la acesta aici.
+
+09:28.320 --> 09:30.420
+Și această variabilă.
+
+09:30.480 --> 09:40.670
+Așa că acum, dacă ne întoarcem la exemplul nostru aici, am eliminat referința la acest lucru și acum 10 puncte până acum este un
+
+09:40.670 --> 09:41.120
+spațiu
+
+09:46.520 --> 09:47.410
+mai bun.
+
+09:47.410 --> 09:48.590
+Acolo te duci.
+
+09:48.800 --> 09:50.440
+OK ce facem în continuare.
+
+09:51.670 --> 09:59.240
+Ei bine, acum avem nevoie de acest nod pe care îl știi 2. 2 acest lucru ca asta și asta e destul de simplu drept.
+
+09:59.350 --> 10:09.530
+Pur și simplu spunem o notă nouă Doar următoarea va fi egală cu menținerea indicatorul celor cinci pe care îi
+
+10:09.620 --> 10:11.250
+păstrăm în memorie.
+
+10:11.450 --> 10:21.530
+Și apoi, în final, spunem acest teren plus plus pentru că l-am adăugat la listă și putem returna acest lucru sau doar așa că știm că am făcut-o
+
+10:21.530 --> 10:22.990
+în mod corespunzător.
+
+10:22.990 --> 10:30.380
+O să spun această listă de gânduri după ce am insinuat ceva ce a introdus ceva ce
+
+10:30.380 --> 10:31.820
+vom imprima lista.
+
+10:31.970 --> 10:33.850
+Să vedem dacă funcționează.
+
+10:33.860 --> 10:39.590
+Vreau să elimin acest lucru, astfel încât codul funcționează și nu avem nevoie să tipărim acest lucru.
+
+10:39.650 --> 10:43.000
+Să executăm această comandă.
+
+10:43.030 --> 10:44.220
+Hei uita la asta.
+
+10:44.230 --> 10:56.060
+Deci, înainte de a avea această listă și să imprimați de fapt Vestiaire, astfel încât să îl putem vedea în printul meu sau în
+
+10:56.060 --> 11:00.020
+lista mea cu litere legate de litere CList.
+
+11:00.080 --> 11:04.380
+Asta am avut înainte și am adăugat 99 aici.
+
+11:06.100 --> 11:07.310
+Pur si simplu.
+
+11:07.530 --> 11:13.240
+Și doar să-l testez încă o dată dacă fac lista mea legată punct inserați din nou și de această
+
+11:13.240 --> 11:19.760
+dată îi va da 20 care nu există index de 20 și la 88 care ar trebui să fie adăugat la sfârșitul listei.
+
+11:22.200 --> 11:29.860
+Și pentru că, cu această inserție unde când facem cecul, adăugăm doar acest punct atașat care
+
+11:30.130 --> 11:31.780
+nu imprimă lista.
+
+11:31.780 --> 11:37.350
+Să adăugăm o listă de imprimare în partea de jos aici pentru a vă asigura că funcționează.
+
+11:37.360 --> 11:43.510
+Acolo mergi la sfârșitul anului foarte frumos.
+
+11:43.570 --> 11:50.530
+Știu că a fost o provocare, iar inserarea este probabil cea mai dificilă funcție de implementare sau o metodă de implementare
+
+11:50.560 --> 11:54.190
+într-o listă legată, dar practică acest lucru de câteva ori.
+
+11:54.250 --> 11:56.690
+Înțelegeți cu adevărat ceea ce face fiecare pas.
+
+11:56.710 --> 11:58.900
+Trageți-o dacă aveți nevoie.
+
+11:59.170 --> 12:00.490
+Dar felicitări.
+
+12:00.550 --> 12:04.580
+Tocmai am implementat o funcție de răspuns în lista noastră de lungimi.
+
+12:05.050 --> 12:10.450
+Și ați putea observa un an în care trebuia să trecem de unde eram sălbatic.
+
+12:10.640 --> 12:12.440
+Și acest lucru ar putea avea sens acum rata.
+
+12:13.690 --> 12:23.640
+De ce am avut insertul ca toate astea Pentru ca a trebuit sa ne bifam prin lista noastra si cautam in sus, care poate fi numit si traversal,
+
+12:23.640 --> 12:27.990
+a fost tot evenimentul care a fost traversarea noastra pentru indexare.
+
+12:27.990 --> 12:28.500
+Dreapta.
+
+12:28.530 --> 12:35.100
+Dacă căutăm un element la indexul de 10, de exemplu, ar trebui să căutăm în cel mai rău caz este
+
+12:35.130 --> 12:37.480
+că trebuie să trecem prin întreaga listă.
+
+12:37.500 --> 12:39.200
+Același lucru cu tensorul.
+
+12:39.240 --> 12:40.060
+In regula.
+
+12:40.090 --> 12:47.530
+Acum că am făcut inserarea, ar trebui să reușești să faci următoarea pe cont propriu, care este ștergerea folosind ceva foarte asemănător
+
+12:47.530 --> 12:50.240
+cu modul în care am făcut-o cu insertul.
+
+12:50.710 --> 12:56.740
+Să adăugăm o ștergere sau doriți să sunați la această eliminare.
+
+12:56.830 --> 13:03.560
+Să avem o eliminare care are parametrul și X pentru ceea ce doriți să eliminați.
+
+13:03.560 --> 13:06.360
+Mult noroc codarea acestui lucru și te voi vedea în soluția video.

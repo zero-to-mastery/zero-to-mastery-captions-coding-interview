@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.990 --> 00:02.070
+All right.
+
+00:02.210 --> 00:03.960
+Another section done.
+
+00:04.340 --> 00:10.400
+And in this section we talked about the technical interviews and how to solve problems specifically.
+
+00:10.550 --> 00:15.470
+One big misconception is that you're either a good problem solver or you aren't.
+
+00:15.500 --> 00:21.390
+But as with anything it's a muscle that you can train that you can practice.
+
+00:21.390 --> 00:27.530
+So with enough practice and knowing the tips and tricks that we covered in this section you can solve
+
+00:27.530 --> 00:29.610
+problems a lot better.
+
+00:29.630 --> 00:33.530
+That shows the interviewer you know what you're talking about.
+
+00:33.530 --> 00:40.910
+The key in this section was this cheat sheet and the step by step walk through of a problem.
+
+00:41.120 --> 00:44.530
+We looked at how a Google interview might look like.
+
+00:44.570 --> 00:49.970
+And then we mimicked some of the techniques used there to solve our own problem.
+
+00:49.970 --> 00:56.960
+The idea was to show how you work think out loud and try to comment the steps as you go along to solve
+
+00:56.960 --> 01:03.770
+a problem communicating throughout the process as much as possible and not worrying about finishing
+
+01:03.770 --> 01:08.660
+a problem fast is the key to intervening in solving problems.
+
+01:08.660 --> 01:16.040
+In an interview now we should have also gotten the idea that we don't want to memorize problems because
+
+01:16.430 --> 01:23.150
+if you do a hundred problems and try to memorize them well it won't really help you long term but you're
+
+01:23.150 --> 01:24.550
+also taking a gamble right.
+
+01:24.560 --> 01:29.400
+You're hoping the interviewer asks you a question that you've seen before.
+
+01:29.750 --> 01:36.110
+Instead we want to take control of our destiny and practice and be ready for anything by building the
+
+01:36.110 --> 01:38.270
+fundamentals.
+
+01:38.420 --> 01:45.110
+We talked about how by using the big show and the lessons we learned here we can now move on to data
+
+01:45.110 --> 01:51.010
+structures and algorithms and use them during our code interviews.
+
+01:51.020 --> 01:56.660
+We also talked about some of the skills that interviewers are looking for and demonstrated how it wasn't
+
+01:56.660 --> 01:58.370
+necessarily just coding skills.
+
+01:58.520 --> 02:04.580
+There's a lot of other aspects that interviewers are looking for and we cover these items and how to
+
+02:04.580 --> 02:05.300
+show them.
+
+02:05.480 --> 02:14.020
+During our practice into requestion finally we're now ready to dive into the exciting part of data structures
+
+02:14.050 --> 02:15.230
+and algorithms.
+
+02:15.250 --> 02:22.630
+We have a nice foundation and we know that all we need is to learn these data structures and algorithms
+
+02:22.930 --> 02:29.470
+to really be interview ready and we're also going to be using the cheat sheet that I gave you in this
+
+02:29.470 --> 02:31.790
+section throughout the rest of the course.
+
+02:31.960 --> 02:39.040
+And at the foundation of this cheat sheet is the idea of readability of code space complexity of code
+
+02:39.490 --> 02:42.370
+and time complexity of code.
+
+02:42.600 --> 02:48.060
+And although we don't cover everything in the cheat sheet we have a few items here at the end.
+
+02:48.210 --> 02:53.850
+You'll see that as we go through the data structure and algorithm questions certain type of patterns
+
+02:54.030 --> 03:01.170
+will emerge that although questions may be different in an interview usually the way to optimize things
+
+03:01.410 --> 03:10.480
+or tricks to make your answers better can be narrowed down to specific steps.
+
+03:10.650 --> 03:12.030
+So don't get overwhelmed.
+
+03:12.030 --> 03:17.260
+There's an easy clear checklist and heuristics that we're going to go over later on.
+
+03:17.640 --> 03:23.110
+But by this point I think we're ready to move on to data structures and algorithms.
+
+03:23.340 --> 03:30.900
+How do we write good code create good programs create value for the companies that we're interviewing
+
+03:30.900 --> 03:32.480
+for.
+
+03:32.480 --> 03:33.720
+See you in the next section.

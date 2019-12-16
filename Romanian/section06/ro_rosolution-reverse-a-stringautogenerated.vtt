@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.730 --> 00:08.450
+Bine ați venit înapoi acum Nu voi trece peste toți pașii noștri pe care i-am folosit în secțiunea în care
+
+00:08.450 --> 00:15.540
+am vorbit despre cum să rezolvăm problemele și cum să discutăm problemele dvs. în fața unui intervievator.
+
+00:15.950 --> 00:21.620
+Și chiar am urmărit videoclipul Die google despre toate lucrurile pe care trebuie să le faceți pentru că asta va
+
+00:21.620 --> 00:22.870
+dura prea mult timp.
+
+00:22.880 --> 00:28.500
+Voi accelera lucrurile și vorbi doar despre punctele-cheie ale modului în care ați rezolva această problemă.
+
+00:28.760 --> 00:37.540
+Ei bine, pentru a inversa un șir, primul lucru pe care vrem să-l facem este un fel de verificare a implantului nostru.
+
+00:37.730 --> 00:43.340
+Nu putem doar să presupunem că vom primi întotdeauna un șir. Ce se întâmplă
+
+00:43.340 --> 00:48.950
+dacă cineva numește funcția inversă cu un număr nedefinit sau cu un număr.
+
+00:48.950 --> 00:50.050
+Ce se întâmplă apoi.
+
+00:50.480 --> 00:53.750
+Și un lucru bun pentru a începe întotdeauna cu este de a verifica de intrare.
+
+00:53.750 --> 00:56.360
+În cazul meu, o să fac o verificare simplă.
+
+00:56.390 --> 01:01.610
+Să spunem că dacă nu există șir.
+
+01:01.850 --> 01:11.950
+Deci, aceasta este nedefinită sau poate că lungimea punctului șirului este mai mică de 2.
+
+01:11.990 --> 01:22.160
+Asta înseamnă că dacă lungimea șirului este mai mică de 2 înseamnă că primesc doar o scrisoare sau nici o scrisoare, caz în care nu
+
+01:22.250 --> 01:25.010
+avem nevoie de nici o operație.
+
+01:25.010 --> 01:26.600
+E deja destul de inversat.
+
+01:27.860 --> 01:34.610
+Și putem adăuga validarea de intrare diferită aici, cum ar fi utilizarea tipului de cuvânt cheie din javascript pentru a verifica dacă este
+
+01:34.610 --> 01:36.110
+un tip de șir.
+
+01:36.440 --> 01:38.950
+Dar asta e ceva ce poți face singur.
+
+01:39.080 --> 01:42.000
+De fapt, să o implementăm de când suntem aici, oricum, doar pentru a vă arăta.
+
+01:42.170 --> 01:53.790
+Deci, pot spune tipul de șir dacă nu este egal cu tipul de șir de SDR care este parametrul pe care îl primim ca fiind
+
+01:53.820 --> 01:56.280
+egal cu tipul de șir.
+
+01:56.280 --> 02:03.590
+Ei bine, în acest caz ne putem întoarce.
+
+02:04.200 --> 02:04.970
+Nu
+
+02:10.070 --> 02:14.810
+este bine altfel să facem o operație pentru a inversa șirul.
+
+02:15.290 --> 02:17.420
+Să ne gândim la asta.
+
+02:17.450 --> 02:20.780
+Vrem să o convertim într-o matrice.
+
+02:20.840 --> 02:29.260
+Așa că am să creez o matrice înapoi și asta este ceea ce vom reveni din funcție.
+
+02:29.400 --> 02:38.000
+Voi reveni la matricea care este inversată, dar vrem să întoarcem un șir corect.
+
+02:38.000 --> 02:39.390
+Se inversează un șir.
+
+02:39.410 --> 02:40.980
+Aceasta ar trebui să returneze un șir.
+
+02:42.060 --> 02:48.120
+Chiar dacă vom transforma ceea ce primim într-o matrice la sfârșit, vrem să o transformăm
+
+02:48.120 --> 02:49.160
+într-un șir.
+
+02:49.500 --> 03:02.900
+Deci, în javascript putem face metoda celor două șiruri sau metoda comună și doar spunem să aderăm la toate elementele din
+
+03:03.020 --> 03:04.020
+matrice.
+
+03:04.100 --> 03:15.790
+Acum, aici vom lua lenth de matrice sau șir, deoarece vom folosi foarte mult și nu vrem să
+
+03:15.790 --> 03:18.180
+avem cod repetat.
+
+03:18.330 --> 03:25.060
+Deci am de gând să spun lenth minus unul este câte elemente avem în șir.
+
+03:25.270 --> 03:26.980
+Sau poate ar trebui
+
+03:30.830 --> 03:33.330
+să denumim aceste articole sau chiar articolele totale.
+
+03:33.400 --> 03:34.820
+Un nume mai bun.
+
+03:34.950 --> 03:36.800
+Acum aceste elemente totale.
+
+03:36.930 --> 03:44.310
+Așa că o să ne batem prin șirul nostru va spune să lăsați.
+
+03:44.460 --> 03:47.520
+El cheamă la elementele totale.
+
+03:50.100 --> 03:56.560
+Așa că am de gând să egalez oricât de multe personaje avem în șirul nostru și vom continua să
+
+03:56.560 --> 03:59.850
+mergem până când nu mă voi egaliza la zero.
+
+04:03.520 --> 04:10.030
+Și tot ce vom face pentru că vrem să mergem din nou în față.
+
+04:10.370 --> 04:13.620
+Vom documenta asta.
+
+04:13.640 --> 04:18.950
+Deci vom merge de la lungimea șirului până la capăt, așa
+
+04:18.980 --> 04:29.780
+că vom începe cu I C R D și A și le vom introduce într-o matrice pe care am creat matricea inversă unul câte unul.
+
+04:29.790 --> 04:40.760
+Deci, în această buclă, tot ce vom face este să spunem înapoi să nu împingem fiecare element pe care îl vom crea.
+
+04:40.770 --> 04:41.930
+Deci, SDR și
+
+04:44.770 --> 04:46.380
+eu știm la ce te gândești.
+
+04:46.620 --> 04:50.860
+Ei bine, de ce nu transformăm șirul într-o matrice.
+
+04:50.890 --> 04:56.710
+Mi-ai spus totul despre transformarea șirurilor într-o matrice și nu am făcut asta.
+
+04:56.770 --> 05:06.860
+Și javascript are de fapt împărțirea punctului SDR sau putem rula comanda split pentru a împărți lucrurile într-un tablou, dar
+
+05:06.860 --> 05:16.430
+cu javascript putem de fapt să folosim șiruri de caractere ca matrice și să accesăm fiecare proprietate ca
+
+05:16.430 --> 05:21.480
+Braque și notație astfel încât matricea noastră în esență.
+
+05:21.800 --> 05:24.260
+Deci nu trebuie să executați comenzi divizate.
+
+05:24.260 --> 05:33.440
+Acest lucru funcționează și tot ceea ce facem este să mergem înapoi unul câte unul și să împingem
+
+05:33.440 --> 05:37.570
+fiecare element al șirului dat în matricea noastră.
+
+05:38.060 --> 05:48.570
+Deci, dacă consolidez jurnalul aici înainte să conducem comanda comună, matricea din spate și Iranul invers
+
+05:51.580 --> 05:54.680
+și să inversăm șirul
+
+05:58.960 --> 06:01.440
+să o conducem.
+
+06:01.680 --> 06:09.450
+Și poate ați observat că această lent nu a venit de la nicăieri și ar fi trebuit să fie elemente totale.
+
+06:09.450 --> 06:15.580
+Deci, aceasta este suma totală a obiectelor totale.
+
+06:15.580 --> 06:17.450
+Aceasta este problema cu codificarea vieții.
+
+06:17.470 --> 06:23.290
+Am încercat să arăt că toată lumea face greșeli chiar pe mine și
+
+06:23.290 --> 06:33.730
+este bună pentru că astfel gândiți prin problemă și aceste elemente totale amintesc că dorim să continuăm atât timp cât sunt mai mari sau
+
+06:33.820 --> 06:35.330
+egale cu zero.
+
+06:35.350 --> 06:43.450
+Deci, dacă acum alerg acest hei, uitați-vă la faptul că avem o gamă largă de elemente înapoi, chiar aici.
+
+06:44.250 --> 06:54.470
+Și vedeți aici că valoarea de retur pe care o primim este șirul înapoi pe care îl primim pentru că
+
+06:54.740 --> 06:56.790
+ne-am alăturat la sfârșit.
+
+06:56.950 --> 06:57.740
+Foarte tare.
+
+06:57.940 --> 06:59.830
+Sper că ați primit răspunsul.
+
+07:00.590 --> 07:09.590
+Sau poate aveți un răspuns mai bun decât mine pentru că ceea ce am auzit nu este neapărat cea mai curată cale și
+
+07:09.590 --> 07:15.710
+în funcție de limbajul de programare pe care îl utilizați s-ar fi putut construi metode
+
+07:15.710 --> 07:17.740
+care să simplifice pasul.
+
+07:17.810 --> 07:18.890
+Lasă-mă să-ți arăt ce vreau să spun.
+
+07:19.840 --> 07:26.470
+În javascript, de exemplu, putem folosi unele metode construite în cursa pentru a simplifica acest lucru și a
+
+07:26.470 --> 07:29.900
+face codul nostru mult mai ușor de citit.
+
+07:29.920 --> 07:32.680
+Să creăm o nouă funcție
+
+07:36.170 --> 07:44.540
+și o să chem și această inversă și această tocană inversă va primi din nou un fel de intrare.
+
+07:44.660 --> 07:48.220
+Nu voi face nici o validare de intrare pentru aceasta.
+
+07:48.260 --> 07:51.250
+Puteți să presupunem că putem să îl copiem și să-l lipim aici.
+
+07:52.050 --> 07:55.940
+Dar aici putem face o simplă declarație de returnare.
+
+07:55.950 --> 08:05.550
+Prindeți șirul executați comanda split, pentru că de data aceasta nu vom accesa ochiul așa cum am făcut-o
+
+08:05.550 --> 08:06.620
+aici.
+
+08:06.660 --> 08:14.730
+O vom transforma într-o matrice, astfel încât să putem folosi o metodă construită care vine
+
+08:14.730 --> 08:19.310
+în matrici javascript denumită inversă și această inversă.
+
+08:19.410 --> 08:20.100
+În timp ce noi am făcut-o.
+
+08:20.100 --> 08:24.740
+Aici pentru noi și acum ne-am alăturat la sfârșit.
+
+08:25.810 --> 08:34.300
+Deci, folosind o metodă construită numită inversă am evitat toate aceste lucruri.
+
+08:34.300 --> 08:35.450
+Cât de frumos este asta.
+
+08:35.470 --> 08:36.370
+Să vedem dacă funcționează.
+
+08:36.370 --> 08:41.350
+Am de gând să spun invers pentru a alerga și să mă uit la asta.
+
+08:41.350 --> 08:42.280
+Încă mai funcționează.
+
+08:43.180 --> 08:45.220
+Ce zici de o altă soluție.
+
+08:45.390 --> 08:47.300
+Din nou, multe moduri diferite.
+
+08:47.350 --> 08:55.200
+Și să spunem că intervievatorul spune că există o modalitate mai curată și mai curată pe care o puteți
+
+08:56.430 --> 09:01.640
+face și pentru că în javascript există noua sintaxă iOS 6.
+
+09:01.990 --> 09:11.910
+Puteți chiar să creați o funcție cu o singură linie, numiți-o inversă trei, care va lua un șir și
+
+09:11.910 --> 09:16.170
+va face o împărțire a șirului de puncte.
+
+09:19.760 --> 09:25.130
+Și din nou face exact același lucru folosind fiecare funcție din acest moment.
+
+09:25.240 --> 09:30.840
+Și asta ar trebui să funcționeze exact la fel.
+
+09:30.920 --> 09:38.540
+Și dacă doriți să obțineți fantezie puteți utiliza din nou o caracteristică nouă a javascript care este destructuring sau nu destructuring
+
+09:38.630 --> 09:41.290
+acest lucru este operatorul de răspândire.
+
+09:41.360 --> 09:46.570
+Dacă execut acest lucru nu mai avem nevoie de împărțire.
+
+09:46.580 --> 09:49.880
+Pot rula asta și am același lucru.
+
+09:51.100 --> 09:57.190
+Din nou, vreau doar să vă demonstrez că există multe modalități diferite de a rezolva
+
+09:57.190 --> 10:06.130
+o problemă și că un intervievator nu vă va respinge pentru un loc de muncă doar pentru că ați implementat-o ​​în acest mod în
+
+10:06.130 --> 10:07.030
+acest sens.
+
+10:07.090 --> 10:10.450
+Depinde de modul în care vă furnizați soluția.
+
+10:10.450 --> 10:16.140
+Și acesta este ceva despre care am vorbit în secțiunea noastră de rezolvare a problemelor cum vreți
+
+10:16.140 --> 10:19.760
+să discutați prin problemă explicați intervievatorului de ce ați făcut-o.
+
+10:19.970 --> 10:26.900
+Și atâta timp cât înțelegeți avantajele și dezavantajele fiecărei soluții care este ceea ce face un mare inginer.
+
+10:27.960 --> 10:28.970
+Voi vedea în următorul.

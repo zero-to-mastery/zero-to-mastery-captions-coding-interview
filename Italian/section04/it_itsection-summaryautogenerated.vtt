@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.990 --> 00:02.070
+Tutto ok.
+
+00:02.210 --> 00:03.960
+Un'altra sezione fatta.
+
+00:04.340 --> 00:10.400
+E in questa sezione abbiamo parlato delle interviste tecniche e di come risolvere i problemi in modo specifico.
+
+00:10.550 --> 00:15.470
+Un grosso malinteso è che tu sia un buon risolutore di problemi o non lo sei.
+
+00:15.500 --> 00:21.390
+Ma come con qualsiasi cosa è un muscolo che puoi allenare che puoi praticare.
+
+00:21.390 --> 00:27.530
+Quindi con abbastanza pratica e conoscendo i trucchi e le punte che abbiamo trattato in questa sezione, puoi
+
+00:27.530 --> 00:29.610
+risolvere i problemi molto meglio.
+
+00:29.630 --> 00:33.530
+Ciò mostra all'intervistatore che sai di cosa stai parlando.
+
+00:33.530 --> 00:40.910
+La chiave in questa sezione era questo cheat sheet e la procedura dettagliata di un problema.
+
+00:41.120 --> 00:44.530
+Abbiamo esaminato l'aspetto di un'intervista di Google.
+
+00:44.570 --> 00:49.970
+E poi abbiamo imitato alcune delle tecniche utilizzate lì per risolvere il nostro problema.
+
+00:49.970 --> 00:56.960
+L'idea era di mostrare come si lavora a pensare ad alta voce e provare a commentare i passaggi
+
+00:56.960 --> 01:03.770
+mentre si procede per risolvere un problema comunicando il più possibile il processo e senza preoccuparsi di finire
+
+01:03.770 --> 01:08.660
+un problema velocemente è la chiave per intervenire nella risoluzione dei problemi.
+
+01:08.660 --> 01:16.040
+In un'intervista ora avremmo dovuto anche avere l'idea che non vogliamo memorizzare problemi perché se fai cento
+
+01:16.430 --> 01:23.150
+problemi e cerchi di memorizzarli bene non ti aiuterà molto a lungo termine ma stai
+
+01:23.150 --> 01:24.550
+anche scommettendo destra.
+
+01:24.560 --> 01:29.400
+Speri che l'intervistatore ti faccia una domanda che hai già visto.
+
+01:29.750 --> 01:36.110
+Invece, vogliamo prendere il controllo del nostro destino e della nostra pratica ed essere pronti
+
+01:36.110 --> 01:38.270
+a tutto, costruendo le basi.
+
+01:38.420 --> 01:45.110
+Abbiamo parlato di come, utilizzando il grande spettacolo e le lezioni che abbiamo imparato qui, possiamo ora passare
+
+01:45.110 --> 01:51.010
+a strutture e algoritmi di dati e utilizzarli durante le nostre interviste sul codice.
+
+01:51.020 --> 01:56.660
+Abbiamo anche parlato di alcune delle competenze che gli intervistatori stanno cercando e hanno dimostrato come non si trattasse necessariamente
+
+01:56.660 --> 01:58.370
+solo di capacità di codifica.
+
+01:58.520 --> 02:04.580
+Ci sono molti altri aspetti che gli intervistatori stanno cercando e copriamo questi articoli e come
+
+02:04.580 --> 02:05.300
+mostrarli.
+
+02:05.480 --> 02:14.020
+Durante la nostra pratica sulla richiesta, finalmente siamo pronti per tuffarci nella parte eccitante delle strutture dati e
+
+02:14.050 --> 02:15.230
+degli algoritmi.
+
+02:15.250 --> 02:22.630
+Abbiamo una buona base e sappiamo che tutto ciò di cui abbiamo bisogno è imparare queste strutture dati e algoritmi per
+
+02:22.930 --> 02:29.470
+essere davvero pronti per l'intervista e useremo anche il cheat sheet che ti ho dato in questa sezione
+
+02:29.470 --> 02:31.790
+per il resto del corso .
+
+02:31.960 --> 02:39.040
+E alla base di questo cheat sheet c'è l'idea della leggibilità della complessità dello spazio di codice del
+
+02:39.490 --> 02:42.370
+codice e della complessità temporale del codice.
+
+02:42.600 --> 02:48.060
+E anche se non copriamo tutto nel foglio dei trucchi, abbiamo alcuni articoli qui alla fine.
+
+02:48.210 --> 02:53.850
+Vedrai che mentre passiamo attraverso la struttura dei dati e le domande
+
+02:54.030 --> 03:01.170
+sull'algoritmo, emergeranno certi tipi di schemi che, sebbene le domande possano essere diverse in un colloquio, solitamente
+
+03:01.410 --> 03:10.480
+il modo di ottimizzare le cose o i trucchi per migliorare le tue risposte può essere ridotto a passaggi specifici .
+
+03:10.650 --> 03:12.030
+Quindi non essere sopraffatto.
+
+03:12.030 --> 03:17.260
+C'è una semplice checklist chiara e un'euristica che esamineremo in seguito.
+
+03:17.640 --> 03:23.110
+Ma a questo punto penso che siamo pronti per passare a strutture e algoritmi di dati.
+
+03:23.340 --> 03:30.900
+Come scriviamo un buon codice per creare buoni programmi creare valore per le aziende per le
+
+03:30.900 --> 03:32.480
+quali stiamo intervistando.
+
+03:32.480 --> 03:33.720
+Ci vediamo nella prossima sezione.

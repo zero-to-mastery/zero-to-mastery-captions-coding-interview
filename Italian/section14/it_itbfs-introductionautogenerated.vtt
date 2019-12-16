@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.280 --> 00:02.150
+Ben tornato.
+
+00:02.330 --> 00:09.440
+Diamo un'occhiata al primo dei due tipi di ricerca o attraversamento di un albero o di un grafico.
+
+00:09.530 --> 00:12.800
+Si chiama ampiezza prima ricerca.
+
+00:12.800 --> 00:14.770
+Prova a dirlo cinque volte molto velocemente.
+
+00:15.840 --> 00:22.950
+Il modo in cui la prima ricerca della larghezza funziona è che si inizia con la nota fondamentale e si sposta da sinistra
+
+00:23.010 --> 00:28.630
+a destra attraverso il secondo livello, quindi si sposta da sinistra a destra attraverso il terzo livello.
+
+00:29.520 --> 00:32.640
+E così via e così via.
+
+00:33.320 --> 00:43.430
+Continui a passare da sinistra a destra da sinistra a destra livello per livello e vai avanti finché non trovi
+
+00:43.430 --> 00:52.310
+il sapere che stai cercando o l'albero e diamo un'occhiata a un'altra ricerca visiva che funziona
+
+00:52.340 --> 00:53.520
+per prima.
+
+00:53.570 --> 00:57.000
+Andiamo al nodo radice.
+
+00:57.190 --> 01:02.370
+Quindi il secondo livello il terzo livello e infine il quarto livello puoi
+
+01:02.380 --> 01:07.280
+vedere qui come sono numerati andando uno per uno Uno per uno.
+
+01:07.290 --> 01:10.950
+Ora inseriremo il codice della prima ricerca e capiremo come funziona.
+
+01:11.010 --> 01:17.940
+Ma voglio menzionare che la prima ricerca del respiro utilizza memoria aggiuntiva perché è necessario tracciare le note
+
+01:17.970 --> 01:24.340
+del bambino di tutti i nodi su un dato livello durante la ricerca di quel livello.
+
+01:24.360 --> 01:30.240
+Ciò significa che dobbiamo tenere traccia di ogni nodo e dei suoi figli in ordine e parleremo di alcune
+
+01:30.240 --> 01:35.760
+di quelle implicazioni quando codifichiamo il respiro per la ricerca e guardiamo anche i pro e i
+
+01:35.760 --> 01:38.610
+contro rispetto agli altri tipi che per primi.
+
+01:38.820 --> 01:41.470
+Ma andiamo al nostro codice per un rapido esempio.
+
+01:42.920 --> 01:52.160
+Abbiamo qui l'albero che abbiamo creato nella nostra struttura della struttura dati dell'albero un albero di ricerca binario che crea un
+
+01:52.160 --> 02:01.050
+albero per noi che assomiglia a questo Ninus un nodo radice ha quattro e ventuno sei quindici e 170.
+
+02:01.240 --> 02:08.290
+Se prima facessimo una ricerca, cosa penseresti che sarebbe l'ordine se volessimo convertirlo in
+
+02:08.290 --> 02:13.670
+una lista mentre visiteremmo per la prima volta nove.
+
+02:13.770 --> 02:20.880
+Poi visiteremmo il secondo livello per le 20 e poi visiteremo di nuovo il terzo livello andando da sinistra a
+
+02:21.030 --> 02:21.720
+destra.
+
+02:21.780 --> 02:34.860
+Visiteremmo uno poi 6 poi 15 poi 170 e utilizzando la ricerca per ampiezza siamo in grado di creare questo elenco.
+
+02:34.870 --> 02:43.550
+Diamo un'occhiata al secondo modo di attraversare un albero o un grafico e questa è la prima ricerca di profondità.
+
+02:43.660 --> 02:44.150
+Diamo un'occhiata.

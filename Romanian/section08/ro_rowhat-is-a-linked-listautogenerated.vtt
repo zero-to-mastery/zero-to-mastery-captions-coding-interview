@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.660 --> 00:10.580
+Ce este o listă asociată așa cum sugerează numele că este o listă care este legată de Andre.
+
+00:10.630 --> 00:11.770
+Nu este de mare ajutor.
+
+00:11.770 --> 00:13.910
+Puteți să ne explicați de fapt.
+
+00:13.930 --> 00:14.310
+In regula.
+
+00:14.410 --> 00:17.130
+Ei bine, am o diagramă mică aici pentru tine.
+
+00:18.020 --> 00:28.050
+O listă sau în acest caz după cum vom afla în curând o singură listă legată conține un set de note și gândiți-vă
+
+00:28.050 --> 00:30.470
+la noduri ca aceste blocuri.
+
+00:31.300 --> 00:40.130
+Atât pâinea cât și blocul verde împreună reprezintă o notă, aceste note au două elemente valoarea datelor pe care doriți să
+
+00:40.370 --> 00:41.260
+le stocați.
+
+00:41.270 --> 00:47.210
+În acest caz, numărul cinci și un pointer la următorul nod în linie.
+
+00:47.570 --> 00:56.560
+Deci, puteți vedea blocul verde de aici indicând la nodul următor primul nod numit cap.
+
+00:56.780 --> 01:04.880
+Și ultimul nod este numit coada acum în funcție de unii oameni care îi place să
+
+01:05.180 --> 01:09.600
+cheme coada după cap, incluzând acest bloc aici.
+
+01:09.720 --> 01:20.250
+Dar eu prefer termenul de coadă referitor la ultima notă în cele din urmă listele legate sunt ceea ce noi
+
+01:20.460 --> 01:26.220
+numim null terminat ceea ce înseamnă că este sfârșitul listei.
+
+01:26.400 --> 01:31.080
+Așadar, știm că acesta este nodul coadă, pentru că indică.
+
+01:31.150 --> 01:33.350
+Nu vine nimic după ea.
+
+01:34.270 --> 01:40.460
+Acum pointerul este un termen pe care îl auziți foarte mult în programare și știința calculatoarelor.
+
+01:40.600 --> 01:44.870
+Și avem un videoclip care vine să discute despre ce este un pointer.
+
+01:45.220 --> 01:52.200
+Dar defocalizați doar pe listele legate, pentru moment, puteți vedea că este o structură de date foarte simplă.
+
+01:53.010 --> 01:59.220
+Este pur și simplu un element care face legătura cu elementul următor care face legătura cu
+
+01:59.220 --> 02:06.430
+următorul element și continuă să continue continuând până când ultimul element care indică faptul că nu puteți fi sortat.
+
+02:06.430 --> 02:09.070
+Poți să le poți sorta și poți avea.
+
+02:09.220 --> 02:13.130
+Nu prea conține un tip de date.
+
+02:13.190 --> 02:17.460
+Dar să aruncăm o privire la un cod pseudo.
+
+02:17.500 --> 02:22.040
+Până acum am învățat cum funcționează rețelele și aici pot crea doar o matrice simplă.
+
+02:22.120 --> 02:31.090
+Să spunem că un coș care conține lista noastră de produse alimentare conține mere, avem struguri cele mai
+
+02:31.090 --> 02:35.120
+delicioase fructe de sifon și avem pere.
+
+02:35.160 --> 02:41.520
+Acum cum putem avea un coș care nu este o matrice ci o listă legată.
+
+02:42.800 --> 02:48.970
+Ei bine, putem spune că lista noastră legată și asta nu este codul real doar pseudo-cod.
+
+02:49.100 --> 02:58.430
+Pot spune că lista noastră legată va conține mere care apoi indică struguri care apoi indică spre pere și aceste mici
+
+03:00.730 --> 03:06.660
+săgeți sunt în esență pointeri spunând mere pentru struguri pentru a străpunge.
+
+03:06.740 --> 03:10.410
+Țineți minte că acest lucru nu este codul de fapt, ci doar creez o diagramă frumoasă pentru dvs.
+
+03:12.080 --> 03:20.240
+O diagrama mai exacta ar putea fi ceva de genul asta in cazul in care avem mere in memoria spatiului de memorie,
+
+03:20.240 --> 03:28.580
+sa zicem un 9 4 7 si acest nod isi indreapta urmatorul nod care este strugura care se afla in aceasta locatie in
+
+03:28.580 --> 03:34.650
+memorie si apoi acel nod arata spre Paris care este în această locație în memorie.
+
+03:34.700 --> 03:39.510
+Și pentru că acesta este sfârșitul listei, povestea pe care o indică nu.
+
+03:39.550 --> 03:44.230
+Acum te gandesti la tine Andre Cum de nu faci doar sa codzi
+
+03:44.230 --> 03:52.170
+asta in javascript sa ne aratati cum functioneaza listele de link-uri si Javascript si sa incetezi cu acest pseudo-cod jibberish Ei bine,
+
+03:52.170 --> 03:55.590
+javascript nu vine cu Linked Lists construit in.
+
+03:55.590 --> 04:00.880
+Amintiți-vă ce am spus că limbile diferite au la dispoziție diferite instrumente.
+
+04:01.330 --> 04:10.060
+Limbi ca Java au legat liste în timp ce javascript nu vine pre-construit cu liste legate.
+
+04:10.900 --> 04:13.470
+Din fericire pentru noi putem construi unul.
+
+04:13.730 --> 04:18.850
+Și de aceea, de obicei, faci în programare când nu ai ceva ce-l construiești.
+
+04:18.890 --> 04:24.290
+Și avem blocurile necesare pentru a putea să construim o listă legată și asta vom face
+
+04:24.650 --> 04:32.170
+ca parte a unui exercițiu care vine, dar înainte de a ne codifica propria listă legată și de a crea propria noastră structură de
+
+04:32.500 --> 04:35.590
+date a listei, să facem o distracție puțină exercițiu.

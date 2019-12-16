@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.470 --> 00:09.720
+Să învățăm despre structura de date pierdute în acest grafic Graficele grafice sunt una dintre cele mai utile și mai
+
+00:09.720 --> 00:16.340
+utilizate structuri de date din domeniul informaticii atunci când vine vorba de modelarea vieții reale.
+
+00:16.450 --> 00:24.880
+Pe scurt, un grafic este pur și simplu un set de valori care sunt legate într-o manieră pereche înțeleaptă și puteți vedea
+
+00:24.880 --> 00:25.440
+aici.
+
+00:25.630 --> 00:27.360
+Arată ca o mică rețea.
+
+00:27.460 --> 00:33.110
+Există conexiuni la diferite noduri dintr-un grafic.
+
+00:33.110 --> 00:37.750
+Fiecare element se numește nod sau vârf.
+
+00:37.970 --> 00:39.670
+Deci acesta este un nod.
+
+00:39.830 --> 00:46.630
+Acesta este un nod de noduri care sunt apoi conectate cu marginile.
+
+00:46.880 --> 00:54.880
+Deci, aceasta este o margine care este o margine și este o nișă și cum vă puteți imagina graficele sunt structuri de date de
+
+00:54.880 --> 00:57.910
+mare pentru a modela relațiile din lumea reală.
+
+00:57.970 --> 01:04.120
+Vă prezentăm iarba de lungime Ne pare rău pentru cazurile în care lucrați cu lucruri care se conectează la
+
+01:04.120 --> 01:04.830
+alte lucruri.
+
+01:04.930 --> 01:07.510
+Cumva cum funcționează Internetul.
+
+01:07.510 --> 01:08.590
+Dreapta.
+
+01:08.650 --> 01:18.450
+Putem folosi grafice pentru a reprezenta, probabil, prietenii, poate arbori de familie, putem folosi grafice pentru a reprezenta retelele si web-ul din intreaga lume
+
+01:18.640 --> 01:25.690
+sau putem folosi grafice pentru a reprezenta drumurile dintr-un oras in altul si drumurile care sunt conectate
+
+01:25.690 --> 01:27.850
+asa cum va puteti imagina.
+
+01:27.850 --> 01:30.630
+Facebook o folosește pentru rețeaua lor socială.
+
+01:30.640 --> 01:38.740
+Amazon o folosește pentru motoarele de recomandare și Google Maps utilizează grafice pentru a determina calea cea mai scurtă spre locul
+
+01:38.740 --> 01:40.750
+în care doriți să mergeți.
+
+01:41.080 --> 01:43.380
+Permiteți-mi să vă pun o întrebare.
+
+01:43.570 --> 01:45.640
+Crezi că acesta este un grafic.
+
+01:45.640 --> 01:48.020
+Ei bine, da, evident că am trecut prin ea.
+
+01:48.040 --> 01:49.610
+Ce zici de asta.
+
+01:49.690 --> 01:53.040
+Ce zici de asta și de asta și de asta?
+
+01:53.080 --> 01:54.190
+Ce zici de asta.
+
+01:54.190 --> 02:02.560
+În fine, acest lucru doar a obține câteva mai mult acest lucru acest lucru și acest lucru și acest lucru sunt toate grafice.
+
+02:02.800 --> 02:06.190
+Chiar și acest aspect pare a fi o listă legată.
+
+02:06.190 --> 02:09.390
+Acesta este un grafic.
+
+02:09.540 --> 02:15.810
+Și după cum puteți vedea în graficele noastre de hărți, cuprindeți lucruri pe care le-am învățat înainte, cum
+
+02:15.810 --> 02:20.730
+ar fi arborii și listele legate de listele legate sunt un tip de copac.
+
+02:20.730 --> 02:23.350
+Copacii sunt un tip de grafic.
+
+02:23.370 --> 02:26.970
+Deci, în următoarele câteva filme Să învățăm totul despre grafice.

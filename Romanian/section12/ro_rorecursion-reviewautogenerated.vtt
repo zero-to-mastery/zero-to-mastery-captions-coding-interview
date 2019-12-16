@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.570 --> 00:10.240
+Când vorbim despre recursiune și știința calculatoarelor vorbim despre o funcție care se numește acest tip de tehnică
+
+00:10.540 --> 00:18.670
+este foarte bună la unele probleme din cauza capacității sale de a menține starea unui nivel
+
+00:18.850 --> 00:25.190
+diferit de recurențe la fel ca autocamioanele noastre care urmăresc televiziunea aici.
+
+00:25.190 --> 00:32.430
+Recurgerea poate fi considerată ca un pic de sticlă care se umple cu apeluri recursive de funcții
+
+00:33.380 --> 00:41.070
+și apoi începem să ieșim din partea de sus până când ultima funcție devine descoperită și returnează o valoare.
+
+00:42.440 --> 00:48.310
+Un lucru pe care vrem să îl aducem atenție cu recursivitatea a fost această idee de depășire a stivei.
+
+00:48.350 --> 00:56.750
+Acest spațiu a adăugat mai multă memorie, deoarece vom continua să numim aceeași funcție până când vom putea ajunge la
+
+00:56.750 --> 01:00.900
+o limită și vom primi o suprapunere de stivă.
+
+01:00.950 --> 01:07.130
+Regula principală pe care am învățat-o este că ar trebui să folosim recursivitatea atunci când face codul mai ușor de citit.
+
+01:08.290 --> 01:13.130
+Dar uneori poate fi mai puțin eficientă decât soluțiile iterative sau looping.
+
+01:13.150 --> 01:14.440
+Deci trebuie să fim atenți.
+
+01:15.370 --> 01:23.310
+De asemenea, am învățat regula că orice veți face cu recursiunea se poate face intuitiv și în interviuri veți primi
+
+01:23.670 --> 01:31.290
+întrebarea de argumente pro și contra de ce am putea dori să folosim recursiv pe iterativ și știu că
+
+01:32.100 --> 01:35.810
+am adus acest lucru înainte dar merită repetat.
+
+01:36.210 --> 01:41.660
+Recurgerea este interesantă și inteligentă, dar poate fi costisitoare.
+
+01:41.760 --> 01:48.650
+Deci, trebuie să fii atent cu asta, deoarece recursiunea și complexitatea spațială nu sunt prieteni.
+
+01:49.530 --> 01:56.760
+Dar când vine vorba de unele probleme cum ar fi sortarea și traversarea arborilor, veți vedea că vom fi nevoiți
+
+01:56.760 --> 02:00.500
+să folosim soluții recursive pentru a face lucrurile mai simple.
+
+02:00.690 --> 02:06.970
+Mai exact, atunci când vorbim despre aceste subiecte viitoare, vom folosi recursivitatea.
+
+02:07.380 --> 02:15.200
+Așa că pregătește-te pentru acel tip de fuziune care traversează traversalul de copaci.
+
+02:15.230 --> 02:20.980
+Acum suntem mult mai bine să rezolvăm situațiile care vor apărea.
+
+02:21.030 --> 02:30.300
+Începem să ne construim harta minții încet și încet și veți vedea aici că atunci când vine vorba de structura
+
+02:30.300 --> 02:35.160
+datelor arborelui întrebați-vă dacă ar trebui să folosim recursivitatea.
+
+02:35.220 --> 02:42.330
+De cele mai multe ori doriți să utilizați recursul, dar trebuie să aveți grijă ca complexitatea spațiului sau depășirea stivei să se
+
+02:42.660 --> 02:43.360
+poată întâmpla.
+
+02:44.240 --> 02:45.040
+Voi vedea în următorul.

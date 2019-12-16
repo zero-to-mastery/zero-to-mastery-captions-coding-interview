@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.670 --> 00:05.160
+Bentornato dove sei in grado di capire l'ordinamento di inserimento.
+
+00:06.050 --> 00:10.030
+Ho la risposta qui per te proprio come è successo nell'animazione.
+
+00:10.170 --> 00:20.540
+Per prima cosa eseguiamo un loop sull'array e se l'elemento per cui eseguiamo il ciclo è inferiore al primo
+
+00:21.630 --> 00:25.400
+elemento dell'array mentre spostiamo solo quell'elemento.
+
+00:25.680 --> 00:31.810
+Utilizzare il metodo on shift in array e aggiunto al primo indice dell'array.
+
+00:32.970 --> 00:41.880
+Altrimenti, se l'articolo che stiamo attualmente analizzando non è inferiore al primo indice in quel caso, dobbiamo capire dove
+
+00:41.880 --> 00:44.340
+dovrebbe andare il numero.
+
+00:44.340 --> 00:50.430
+Quindi analizzeremo le cose facendo un'istruzione if per vedere dove dovrebbero andare i numeri.
+
+00:50.610 --> 00:57.600
+E poi spostiamo quel numero nel punto giusto usando il metodo di splice in modo che
+
+00:57.930 --> 01:06.350
+se facciamo clic su run here abbiamo la nostra lista ordinata, lascerò ancora una volta questa funzione qui con cui giocare.
+
+01:06.640 --> 01:11.390
+Ma voglio parlare rapidamente della grande complessità dell'ordinamento degli inserimenti.
+
+01:11.440 --> 01:16.470
+Ci sono momenti in cui l'ordinamento degli inserimenti può funzionare davvero molto bene.
+
+01:16.660 --> 01:23.760
+Lo scenario migliore per l'ordinamento degli inserimenti quando l'elenco è quasi ordinato o i dati sono veramente piccoli.
+
+01:23.800 --> 01:25.510
+Può essere veramente veloce.
+
+01:25.780 --> 01:35.180
+Se torniamo alle nostre animazioni qui e guardiamo all'inserimento sort in dati quasi ordinati e faccio clic su Play noteremo che
+
+01:35.190 --> 01:40.730
+è il primo che terminerà abbastanza velocemente in realtà rispetto a tutti
+
+01:40.730 --> 01:41.940
+gli altri.
+
+01:41.990 --> 01:42.920
+Vediamolo di nuovo.
+
+01:45.860 --> 01:53.600
+Vedrai che è il primo ad essere eseguito abbastanza velocemente e, come vedremo nei prossimi video, quando si tratta di piccoli
+
+01:53.600 --> 02:01.020
+set di dati o set di dati quasi in ordine, si desidera utilizzare l'ordinamento per inserzione sulla maggior parte degli
+
+02:01.040 --> 02:02.840
+altri algoritmi di ordinamento.
+
+02:02.960 --> 02:03.600
+Molto bene.
+
+02:03.710 --> 02:06.020
+Passiamo al prossimo algoritmo di ordinamento.

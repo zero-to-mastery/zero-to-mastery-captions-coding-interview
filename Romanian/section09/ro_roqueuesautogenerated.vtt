@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.050 --> 00:02.160
+Bine ai revenit.
+
+00:02.220 --> 00:10.970
+CU-urile sunt următoarea noastră structură de date și cea mai bună modalitate de a le gândi este ca o intrare într-un rollercoaster.
+
+00:11.030 --> 00:16.460
+Prima persoană care sosește pe linie ajunge să meargă mai întâi pe roller coaster și apoi a doua persoană să
+
+00:16.460 --> 00:19.100
+meargă și apoi să treacă cea de-a treia persoană.
+
+00:19.250 --> 00:23.950
+Și al patrulea, cel de-al cincilea și cei șase, în sfârșit, merg.
+
+00:24.260 --> 00:34.730
+Deci, este opusul stivei în care accesăm mai întâi prima dată, primul element din coada primește primul acces
+
+00:34.940 --> 00:37.290
+care este primul.
+
+00:37.370 --> 00:45.690
+Noi numim că FIFO și cozile sunt folosite din nou foarte mult în probleme de programare și interviuri.
+
+00:45.740 --> 00:53.660
+De exemplu, dacă ați avea vreun fel de aplicație de așteptare pentru a cumpăra, probabil, bilete pentru un concert care folosește
+
+00:54.110 --> 01:01.690
+indicii despre o aplicație restaurant unde verificați în restaurant pentru a vedea dacă puteți obține o masă care folosește
+
+01:01.690 --> 01:02.420
+Skewes.
+
+01:02.720 --> 01:08.380
+Ce zici de Oubre sau ridică-te când vrei să te apuci de o călătorie.
+
+01:08.750 --> 01:14.400
+Ei bine, persoana care a cerut prima plimbare va avea prioritate și apoi veți obține al doilea.
+
+01:14.630 --> 01:18.980
+Și apoi, în cele din urmă, cel mai frecvent exemplu de cozi este un drept de imprimare.
+
+01:19.010 --> 01:24.060
+Dacă ați avut o imprimantă acasă și aveți trei persoane pe trei computere diferite sau casa dvs.
+
+01:24.110 --> 01:29.880
+Să spunem că membrii familiei dvs. și dvs. apăsați pe imprimare și fiecare persoană imprimă diferite articole.
+
+01:29.990 --> 01:34.920
+Persoana care face clic pe prima imprimare trebuie să aibă prima imprimare.
+
+01:35.210 --> 01:37.610
+Și la fel pentru a doua persoană care urmează.
+
+01:37.610 --> 01:44.750
+Și apoi cea de-a treia persoană pe dreapta aici am câteva cuvinte care sunt diferite, apoi împingeți și pop
+
+01:44.810 --> 01:47.930
+și folosesc un pic de standard aici.
+
+01:47.960 --> 01:55.640
+Puteți folosi împinge și tac, ceea ce înseamnă adăuga la cue care este la o persoană în linie, care este 0
+
+01:55.650 --> 02:02.080
+1 și dequeue pe care vă puteți gândi ca pop, care este eliminarea persoană de la linie.
+
+02:02.240 --> 02:09.110
+Cu toate acestea, dequeue spre deosebire de pop nu ia ca ultima persoană în linie ia prima persoană.
+
+02:09.110 --> 02:11.970
+Deci, acolo se disting stivele și indiciile.
+
+02:12.020 --> 02:18.290
+Și avem aceste nume pentru a ne asigura că înțelegem diferențele, dar avem un vârf care ne
+
+02:18.290 --> 02:24.980
+spune încă o dată care este primul element care va apărea, care este prima persoană din listă, față
+
+02:24.980 --> 02:30.520
+de un cue care este ultima jucată care a fost ultima în primul out.
+
+02:31.040 --> 02:37.490
+Și, din nou, căutați într-un Q De obicei, nu faceți, deoarece sunteți interesat și înțeles
+
+02:37.490 --> 02:38.840
+și Dijk face.
+
+02:39.090 --> 02:42.850
+Puteți vedea aici că sunt mari O notație este destul de rapidă.
+
+02:42.990 --> 02:49.140
+De fapt, vom demonstra acest lucru în cod, dar vreau să încercați să răspundeți la această întrebare de
+
+02:49.620 --> 02:56.840
+ce nu doriți să utilizați o matrice pentru a construi o pauză pentru a opri videoclipul dacă doriți să vă gândiți la asta.
+
+02:57.800 --> 03:05.630
+Răspunsul este că este foarte ineficient deoarece eliminăm primul element din listă.
+
+03:05.690 --> 03:13.010
+Dacă vă amintiți tablourile dacă schimbați ceva pe care îl eliminați, primul element va trebui să schimbeți
+
+03:13.070 --> 03:14.290
+acești indici.
+
+03:14.450 --> 03:21.140
+Deci, creând o coadă de la matrice, deși o puteți face, este cu adevărat rău.
+
+03:21.330 --> 03:24.580
+Și asta e ceva ce vom vorbi mai mult despre momentul când îl codificăm.
+
+03:25.330 --> 03:25.920
+O.K.
+
+03:26.270 --> 03:28.070
+Asta e suficient pentru CU.
+
+03:28.070 --> 03:29.660
+Să mergem la primul nostru exercițiu.

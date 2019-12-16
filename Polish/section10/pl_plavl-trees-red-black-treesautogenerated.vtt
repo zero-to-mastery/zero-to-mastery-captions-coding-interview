@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.330 --> 00:02.270
+Witamy spowrotem.
+
+00:02.620 --> 00:07.840
+Teraz, gdy zaimplementowaliśmy nasze binarne drzewo wyszukiwania, chcę trochę opowiedzieć o równoważeniu
+
+00:07.840 --> 00:10.300
+naszego drzewa zwykle w produkcji.
+
+00:10.300 --> 00:13.570
+Chcesz mieć zbalansowane drzewo wyszukiwania.
+
+00:13.630 --> 00:17.000
+Istnieją dwa rodzaje drzew, które są bardzo popularne, jeśli chodzi o to.
+
+00:17.110 --> 00:23.640
+Mimo że zbudowaliśmy własne drzewo wyszukiwania binarnego, najprawdopodobniej w produkcji użyjesz czegoś podobnego do prawdziwego drzewa
+
+00:23.650 --> 00:31.360
+lub czerwonego czarnego drzewa, które automatycznie ponownie się równoważy, tak, że nie mamy tych skrajnych przypadków, w których
+
+00:31.690 --> 00:36.400
+nasze zrównoważone drzewo zamienia się w liniowo niezrównoważone drzewo .
+
+00:36.400 --> 00:42.730
+Teraz te tematy nie wymagają kodu, ponieważ są trochę skomplikowane i przez większość
+
+00:42.730 --> 00:46.580
+czasu używasz jakiejś biblioteki, która je implementuje.
+
+00:46.840 --> 00:49.280
+Ale chcę, żebyś zrozumiał, jak to działa.
+
+00:49.300 --> 00:56.560
+Zostawię więc zasoby zarówno dla czerwonego drzewa czarnego, jak i dla drzew Avi. Jeśli klikniesz tutaj, zobaczysz,
+
+00:56.620 --> 01:01.320
+że wizualne przejście musi również pokazać ci, jak to działa.
+
+01:01.330 --> 01:11.020
+Jeśli chcę wstawić, powiedzmy siedemdziesiąt siedem w moim avi Peltry, nic nie jest inne.
+
+01:11.020 --> 01:13.910
+Dodajemy 77 do drzewa.
+
+01:15.160 --> 01:23.810
+Ale jeśli teraz dodam, powiedzmy 80, które sprawią, że nasze drzewo będzie nieco niezrównoważone, gdy
+
+01:28.300 --> 01:36.520
+uderzę, zobaczysz, że poruszam się w dół, dodając 80, a potem nagle, to brzmi
+
+01:36.790 --> 01:46.750
+zbalansowane, że to pójdzie wróć i zrób trochę przełącznika lub rotacji, aby zrównoważyć drzewo, aby upewnić się, że
+
+01:46.750 --> 01:57.030
+poziomy, które mamy w drzewie, są zawsze odbijane, a następnie mamy czarne drzewa REPP, które również robią to
+
+01:57.420 --> 01:59.110
+trochę inaczej.
+
+01:59.250 --> 02:05.820
+Jeśli powiedzmy, że wstawiliśmy tutaj 9, powiedzmy, że
+
+02:08.570 --> 02:15.060
+wstawiamy 10, a na końcu wstawmy 11.
+
+02:15.150 --> 02:16.000
+Zauważysz to.
+
+02:16.030 --> 02:17.810
+Och, to nie jest zrównoważone.
+
+02:17.850 --> 02:26.730
+Musimy to zrównoważyć i po raz kolejny automatycznie upewnić się, że nasze drzewo jest zrównoważone czymś, co nazywa
+
+02:26.730 --> 02:28.880
+się czerwonym, czarnym drzewem.
+
+02:28.950 --> 02:33.780
+Jak widać, nos ma kolor czerwony i czarny, a to jest coś, czego
+
+02:33.780 --> 02:35.910
+używamy do śledzenia, kiedy potrzebujemy.
+
+02:36.000 --> 02:39.220
+Zostawię zasoby dla ciebie, jeśli chcesz dowiedzieć się więcej na ich temat.
+
+02:39.240 --> 02:45.090
+Należy pamiętać, że te dwa są zwykle najbardziej popularne w przypadku równoważenia drzewek wyszukiwania binarnego,
+
+02:45.090 --> 02:47.590
+aw wywiadach nie trzeba ich wdrażać.
+
+02:47.640 --> 02:51.380
+Trzeba tylko umieć o nich mówić i dlaczego są one przydatne.
+
+02:51.420 --> 02:53.770
+Coś, co powinniśmy wiedzieć już teraz.
+
+02:53.850 --> 02:55.340
+Zobaczę w następnym.
+
+02:55.500 --> 02:55.740
+Kok.

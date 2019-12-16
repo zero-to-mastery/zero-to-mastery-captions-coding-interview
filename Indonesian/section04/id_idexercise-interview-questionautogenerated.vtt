@@ -1,0 +1,682 @@
+WEBVTT
+
+00:01.440 --> 00:08.670
+Selamat datang kembali pada titik ini Anda harus terbiasa dengan bagaimana wawancara pengkodean sukses yang
+
+00:08.670 --> 00:14.500
+khas akan terlihat seperti terutama bagaimana menyelesaikan masalah di depan pewawancara.
+
+00:14.500 --> 00:17.010
+Dan kita akan melakukan sedikit latihan yang menyenangkan di sini.
+
+00:17.190 --> 00:25.860
+Pewawancara baru saja mengajukan pertanyaan kepada kami dan ini adalah pertanyaan di sini yang diberikan kepada array yang
+
+00:26.080 --> 00:34.160
+membuat fungsi yang memungkinkan pengguna mengetahui benar atau salah apakah kedua array ini berisi item umum.
+
+00:34.250 --> 00:42.860
+Sebagai contoh jika kita harus menghapus tahun yang berisi b c x dan yang lainnya Z Y dan saya akan
+
+00:42.860 --> 00:48.600
+mengembalikan false karena tidak ada yang umum di antara kedua penghapusan ini.
+
+00:48.620 --> 00:58.960
+Namun dalam contoh ini array satu dalam array yang keduanya berisi X dan karena mereka memiliki item yang
+
+00:58.960 --> 01:02.220
+sama, itu harus mengembalikan true.
+
+01:02.260 --> 01:05.160
+Jadi pewawancara baru saja menanyakan pertanyaan ini kepada Anda.
+
+01:05.980 --> 01:07.840
+Bagaimana kita akan menyelesaikannya.
+
+01:07.840 --> 01:13.550
+Baiklah, mari kita selangkah demi selangkah melewati pria kecil kita.
+
+01:13.630 --> 01:19.390
+Ketika pewawancara mengatakan pertanyaan, tuliskan poin-poin penting di bagian atas.
+
+01:19.630 --> 01:21.700
+Pastikan Anda memiliki semua detailnya.
+
+01:21.700 --> 01:23.980
+Tunjukkan seberapa terorganisir Anda.
+
+01:24.410 --> 01:28.450
+Nah dalam hal ini saya semacam melakukan ini untuk Anda di sini.
+
+01:28.450 --> 01:36.940
+Idealnya Anda akan menuliskan ini saat Anda membuat kode dan memastikan bahwa Anda menunjukkan pewawancara.
+
+01:36.940 --> 01:37.510
+BAIK.
+
+01:37.840 --> 01:41.530
+Jika saya memiliki contoh ini, ia harus mengembalikan false.
+
+01:41.590 --> 01:46.350
+Jika saya memiliki contoh ini, itu harus mengembalikan true.
+
+01:46.390 --> 01:52.990
+Sekarang katakanlah pewawancara hanya memberi Anda poin-poin ini dan tidak ada informasi lain setidaknya sekarang
+
+01:52.990 --> 01:59.930
+Anda memiliki gagasan tentang apa masalah yang akan dilihat dan apakah kami ingin kembali salah atau benar.
+
+02:00.030 --> 02:03.480
+Tetapi kami memiliki dua hal yang ingin kami lakukan dengan fungsi kami.
+
+02:03.480 --> 02:07.070
+Pertama adalah kita memiliki
+
+02:10.710 --> 02:17.250
+dua parameter dan fungsi ini akan mengembalikan true atau false.
+
+02:17.270 --> 02:18.600
+Sekarang di poin kedua.
+
+02:18.800 --> 02:24.500
+Pastikan Anda mengecek input apa yang merupakan output apa yang telah kami lakukan dan kami
+
+02:24.500 --> 02:31.730
+sudah mengkonfirmasi dengan pewawancara kami bahwa kami memiliki dua input yang merupakan balapan yang bahkan dapat kami tanyakan pada
+
+02:31.730 --> 02:32.810
+pewawancara itu.
+
+02:32.930 --> 02:34.540
+Apakah mereka akan selalu menjadi kenaikan gaji.
+
+02:34.550 --> 02:40.760
+Apakah mungkin bahwa input mungkin bukan perlombaan mungkin objek mungkin string dan kami dapat mengonfirmasi dengan cedera
+
+02:40.760 --> 02:42.670
+atau apa kasus tersebut
+
+02:42.860 --> 02:47.780
+Dalam kasus kami, katakanlah tahun ini mengatakan bahwa dua parameter ini akan selalu menjadi sebuah balapan
+
+02:48.830 --> 02:51.520
+dan kami selalu ingin mengembalikan benar atau salah.
+
+02:51.990 --> 02:56.690
+Dan nomor dua sangat penting di sini karena kita tidak pernah ingin langsung masuk ke pengkodean.
+
+02:57.050 --> 03:01.310
+Bahkan jika Anda pikir Anda tahu jawabannya atau Anda telah melihat masalah ini
+
+03:02.000 --> 03:08.540
+sebelum Anda tahu persis apa yang harus dilakukan jangan langsung mengkode, jelaskan pendekatan Anda seperti yang saya lakukan di
+
+03:08.720 --> 03:15.020
+sini membicarakannya karena jika ada masalah dengan Anda pendekatan atau dengan pemahaman Anda tentang pertanyaan pewawancara Anda akan sering
+
+03:15.020 --> 03:20.990
+menunjukkannya kepada Anda di sini sebelum langsung masuk dan melihat ke dalam kode Anda dan mengatakan bahwa
+
+03:20.990 --> 03:22.740
+tidak ada ini salah.
+
+03:23.150 --> 03:26.700
+Dengan cara ini Anda dan pewawancara tahu persis apa langkah-langkahnya.
+
+03:26.760 --> 03:28.250
+Anda harus mengikuti.
+
+03:28.250 --> 03:30.320
+Sekarang mari kita lihat Poin nomor tiga di sini.
+
+03:30.320 --> 03:32.910
+Apa nilai paling penting atau masalahnya.
+
+03:33.020 --> 03:37.030
+Apakah Anda memiliki ruang waktu dan memori untuk menjalankan fungsi ini.
+
+03:37.070 --> 03:39.330
+Apa tujuan utama sekarang?
+
+03:39.380 --> 03:45.620
+Karena ini adalah pertanyaan sederhana, kami mungkin ingin bertanya kepada pewawancara berapa besar
+
+03:45.620 --> 03:47.230
+jumlah array ini.
+
+03:47.340 --> 03:54.830
+Karena jika pewawancara mengatakan array tidak akan pernah menjadi lebih dari 5 item dengan baik maka mungkin kita
+
+03:54.830 --> 04:01.820
+tidak perlu terlalu khawatir tentang big-O atau kompleksitas waktu atau kompleksitas ruang dan Anda dapat bertanya
+
+04:01.820 --> 04:07.970
+pewawancara adalah tujuan kami di sini untuk menjadi seefisien mungkin dengan fungsi kita.
+
+04:07.970 --> 04:12.040
+Yang lebih penting bagi kita adalah kompleksitas waktu yang lebih penting.
+
+04:12.050 --> 04:14.790
+Atau apakah kompleksitas ruang lebih penting.
+
+04:14.900 --> 04:20.210
+Mungkin pewawancara mungkin memberi tahu Anda bahwa kami hanya ingin fungsi paling efisien yang
+
+04:20.210 --> 04:24.940
+dapat mereka buat dengan asumsi bahwa array bisa menjadi sangat sangat besar.
+
+04:24.950 --> 04:30.830
+Jadi katakanlah di sini kita memiliki dua array parameter yang tidak memiliki batas ukuran.
+
+04:30.830 --> 04:34.270
+Jadi array ini bisa menjadi sangat besar.
+
+04:34.420 --> 04:38.860
+Dan dalam hal mengembalikan benar atau salah itu yang kami inginkan, kami hanya ingin pengembalian boolean.
+
+04:39.280 --> 04:45.820
+Sekarang, nomor empat. Jangan menyebalkan ketika mengajukan terlalu banyak pertanyaan dan kami agak masuk ke wilayah itu di
+
+04:45.820 --> 04:51.820
+mana kami telah mengajukan banyak pertanyaan kepada pewawancara dan kami memiliki semacam ide tentang apa yang ingin
+
+04:51.820 --> 04:52.740
+kami lakukan.
+
+04:52.870 --> 04:56.520
+Kami dapat terus bertanya kepada mereka tetapi ingatlah bahwa Anda biasanya memiliki batas waktu.
+
+04:56.530 --> 05:03.940
+Anda tidak ingin terus mengganggu mereka dan mengenal mereka dan hanya menanyakan semua pertanyaan kecil ini sebelum kita mulai
+
+05:04.510 --> 05:05.700
+membuat kode.
+
+05:05.740 --> 05:06.890
+Ingat waktu.
+
+05:07.000 --> 05:12.790
+Dan saya pikir pada titik ini kita memiliki informasi yang dapat kita lanjutkan dengan asumsi untuk mulai menyelesaikan
+
+05:12.790 --> 05:13.430
+masalah.
+
+05:14.230 --> 05:22.440
+Jadi nomor lima mulai dengan pendekatan brute force naif hal pertama yang muncul dalam pikiran.
+
+05:22.540 --> 05:28.160
+Ini menunjukkan bahwa Anda dapat berpikir dengan baik dan kritis dan Anda bahkan tidak perlu menulis kode ini.
+
+05:28.210 --> 05:30.040
+Bicara saja tentang itu.
+
+05:30.550 --> 05:34.630
+Ini selalu menjadi kasus ketika pewawancara mengajukan pertanyaan Anda.
+
+05:34.630 --> 05:41.410
+Mereka biasanya memiliki solusi mudah yang kita sebut brute force yang bukan yang paling efisien tetapi
+
+05:41.410 --> 05:45.080
+biasanya yang paling mudah atau yang pertama muncul.
+
+05:46.080 --> 05:54.750
+Jadi dalam kasus kami jika kami melihat ini selama wawancara dengan batas waktu Anda mungkin mengatakan ini terlihat seperti
+
+05:54.780 --> 06:04.980
+lingkaran bersarang di mana kita membandingkan a dengan Z dan kemudian dengan Y lalu a dengan I dan kemudian kita pergi bersama ZB
+
+06:04.980 --> 06:09.360
+dengan YB dengan I dan kemudian seterusnya dan seterusnya.
+
+06:09.510 --> 06:17.130
+Jadi segera ini sepertinya kita membandingkan dua area yang berbeda dan kita akan memiliki dua untuk loop
+
+06:17.340 --> 06:25.230
+satu bersarang di atas satu sama lain dan segera kita tahu bahwa itu adalah O besar yang
+
+06:25.620 --> 06:29.330
+telah kita bicarakan tentang O dan persegi.
+
+06:29.850 --> 06:35.850
+Kemungkinan besar selama wawancara bersarang untuk loop adalah sesuatu yang kami ingin hindari hanya mengatakan
+
+06:35.850 --> 06:41.700
+pewawancara solusi ini meskipun itu bukan solusi terbaik sudah menunjukkan bahwa Anda berpikir jernih
+
+06:41.700 --> 06:43.370
+tentang masalah tersebut.
+
+06:43.680 --> 06:47.140
+Dan itu juga memberi Anda poin dari tempat untuk meningkatkan dari sekarang.
+
+06:47.250 --> 06:52.280
+Anda tidak perlu harus kode bagian ini dan biasanya cukup hanya untuk menggambarkan cara kerjanya.
+
+06:52.290 --> 06:58.760
+Agak seperti yang baru saja saya lakukan sekarang tetapi tergantung pada waktu Anda, Anda mungkin atau mungkin tidak ingin kode ini juga.
+
+06:58.860 --> 07:04.920
+Yang penting adalah Anda memberi tahu pewawancara bahwa ini adalah kekuatan kasar atau solusi naif mudah
+
+07:04.920 --> 07:11.520
+yang mungkin bukan yang paling efisien setidaknya dengan cara ini Anda memiliki jawaban yang benar kemudian kehabisan waktu
+
+07:11.520 --> 07:13.540
+dan bahkan tidak memiliki jawaban.
+
+07:15.560 --> 07:20.270
+Nomor enam di sini adalah KATAKAN KATAKAN pada mereka mengapa pendekatan ini bukan yang terbaik.
+
+07:20.330 --> 07:28.760
+Jadi dalam kasus kami, kami mengatakan bahwa kode itu mungkin tidak efisien atau kami mungkin belum membaca kode
+
+07:29.240 --> 07:34.070
+yang akan sangat rumit dan sulit dibaca untuk pengembang lain.
+
+07:35.070 --> 07:41.590
+Dengan demonstrasi saya karena saya hanya ingin memikirkan hal ini dan jadi saya bisa lebih jelas mengapa ini terjadi.
+
+07:41.610 --> 07:42.780
+Oh dan kuadrat.
+
+07:42.780 --> 07:46.490
+Saya hanya akan kode dan kemungkinan besar Anda tidak akan melakukan ini dalam wawancara.
+
+07:46.500 --> 07:50.640
+Saya hanya akan mengkode solusi brute force sehingga Anda dapat melihat apa yang saya maksud.
+
+07:50.790 --> 08:02.170
+Saya akan memiliki fungsi dan fungsi ini akan mengatakan berisi item umum dan itu akan
+
+08:02.170 --> 08:09.140
+menerima untuk menghapus array 1 dan array 2.
+
+08:09.160 --> 08:14.030
+Sekarang kita akan mengambil array pertama dan melakukan loop for.
+
+08:14.090 --> 08:20.310
+Jadi saya akan mengatakan untuk membiarkan saya whoops membiarkan pi sama dengan nol.
+
+08:21.650 --> 08:27.120
+Dan kita akan mengatakan bahwa selama saya kurang dari array ingin panjang.
+
+08:27.140 --> 08:32.070
+Jadi itulah landfill array pertama yang akan kita tambahkan.
+
+08:32.540 --> 08:36.080
+Dan dalam loop ini kita akan memiliki for loop.
+
+08:36.080 --> 08:43.430
+Jadi pada saat pertama kita akan mengambil dari array pertama dan kita akan membandingkannya
+
+08:43.430 --> 08:46.740
+dengan array kedua ZY dan X.
+
+08:46.790 --> 08:51.860
+Jadi kita akan memiliki for for loop di sini dan kita akan mengatakan bahwa kita akan memiliki hal yang sama.
+
+08:51.920 --> 08:54.530
+Pada saat ini alih-alih saya akan mengatakan J.
+
+08:55.390 --> 08:57.360
+Sama dengan nol.
+
+08:58.030 --> 09:03.580
+Dan J ini asalkan lebih kecil dari panjang Array dua titik.
+
+09:05.210 --> 09:09.900
+Itu akan bertambah setiap kali kita melihatnya.
+
+09:09.980 --> 09:14.020
+Dan akhirnya di sini kita akan melakukan sedikit perbandingan.
+
+09:14.030 --> 09:20.930
+Kita akan membandingkan a ke z lalu dua Y lalu 2 x.
+
+09:21.080 --> 09:31.960
+Jadi jika saya pergi ke sini dan mengatakan jika array satu indeks saya maka array satu pada indeks I.
+
+09:31.980 --> 09:35.240
+Jadi pertama kali di sekitar saya akan menjadi nol.
+
+09:35.280 --> 09:39.670
+Jadi itu berarti array 1 akan mengandung a.
+
+09:39.840 --> 09:46.500
+Mari kita ambil ini supaya kita bisa melihatnya lebih baik di atas sini.
+
+09:46.500 --> 09:55.130
+Saya harus balapan di sini dan kita akan mengatakan bahwa array 0.
+
+09:55.130 --> 09:57.100
+Pertama kali sekitar akan meraih delapan.
+
+09:57.470 --> 10:09.650
+Dan jika itu sama dengan array dua ke apa pun J adalah J adalah indeks array 2.
+
+10:09.680 --> 10:12.270
+Jadi pertama kali sekitar akan dibandingkan dengan Z.
+
+10:12.360 --> 10:18.680
+Jadi dan Z dan kemudian karena kenaikan ini akan dibandingkan dengan a dan y dan kemudian ini
+
+10:18.710 --> 10:24.830
+akan meningkat dibandingkan dengan X dan kemudian kita pergi ke lingkaran atas lagi saya bertambah.
+
+10:24.830 --> 10:27.010
+Jadi menjadi 1 sekarang.
+
+10:27.080 --> 10:34.220
+Jadi kita akan mulai membandingkan B ke Z B Y dengan X dan kemudian C ke Z C ke C tinggi X dan seterusnya.
+
+10:34.550 --> 10:44.130
+Jika itu masalahnya dan jika ini benar kami ingin mengembalikan true sebaliknya jika kami mengulanginya dan ini tidak pernah
+
+10:44.520 --> 10:51.210
+cocok dengan baik dalam hal ini kami hanya dapat mengembalikan false di sini.
+
+10:53.030 --> 10:56.340
+Sekarang mari kita lihat apakah ini berhasil.
+
+10:56.540 --> 11:10.100
+Saya akan mengatakan hanya berisi item umum dan kita akan memberikannya ke sebuah ras 1 dan array dua.
+
+11:10.350 --> 11:14.550
+Jika Anda menjalankan ini dan mari kita buat ini sedikit
+
+11:17.500 --> 11:28.240
+lebih kecil sehingga Anda dapat melihat apakah saya menjalankan ini, saya menjadi kenyataan karena ada item umum X jika saya mengubahnya sekarang memiliki R dan saya klik
+
+11:28.240 --> 11:29.710
+jalankan saya salah.
+
+11:29.850 --> 11:38.640
+Sekali lagi jika kita mengubahnya menjadi a dan klik run kita menjadi kenyataan karena a dan cocok melihat ini dan
+
+11:38.640 --> 11:46.050
+kita melihat nomor 6 di sini yaitu mari kita membuat layar ini sedikit lebih terorganisir sehingga kita
+
+11:46.050 --> 11:47.450
+dapat membaca ini.
+
+11:47.640 --> 11:51.550
+Nomor enam hanya memberi tahu mereka mengapa pendekatan ini bukan yang terbaik.
+
+11:51.570 --> 12:00.210
+Sekarang lagi Anda mungkin tidak punya waktu untuk menyamakan kode ini, tetapi kita dapat menjembatani melihat bahwa kita memiliki dua untuk loop bersarang satu demi satu dan karena kita sudah
+
+12:00.810 --> 12:07.650
+membicarakan hal ini di Big O O. S. kita tahu bahwa kita
+
+12:07.860 --> 12:09.820
+memiliki deretan besar.
+
+12:09.870 --> 12:19.050
+Ketika datang ke kompleksitas waktu di sini juga kita memiliki array dan array lain.
+
+12:19.110 --> 12:21.500
+Jadi itu berarti kalikan dengan B.
+
+12:21.720 --> 12:26.810
+Sekali lagi ini adalah sedikit trik karena kedua array ini dapat memiliki ukuran yang berbeda.
+
+12:26.940 --> 12:36.430
+Kita tidak bisa hanya mengatakan oh persegi karena kedua array ini dapat memiliki lagi seperti saya katakan ukuran yang berbeda.
+
+12:36.570 --> 12:42.480
+Jadi ini adalah sedikit trik dan itu adalah hal yang baik bahwa kami menulisnya karena sekarang kami melihat bahwa alih-alih
+
+12:42.480 --> 12:43.460
+0 dan persegi.
+
+12:43.470 --> 12:52.440
+Ini lebih seperti oh a kali b jika ukuran array sama akan sama dengan 0 dan kuadrat sehingga
+
+12:52.440 --> 12:53.590
+cukup lambat.
+
+12:55.220 --> 13:01.590
+Jadi nomor 7 berjalan melalui pendekatan Anda hal-hal umum dan melihat di mana
+
+13:01.600 --> 13:08.490
+Anda mungkin dapat memecahkan hal-hal dan Anda mengulangi kemacetan seperti pekerjaan kuadrat atau tidak perlu.
+
+13:08.490 --> 13:11.300
+Apakah Anda menggunakan semua informasi yang diberikan pewawancara kepada Anda.
+
+13:11.630 --> 13:13.350
+Dan seterusnya dan seterusnya.
+
+13:13.400 --> 13:21.020
+Sekarang melihat ini saya dapat mengatakan bahwa kita mungkin bisa melakukan yang lebih baik Anda mungkin tidak melihat solusi segera dan
+
+13:21.410 --> 13:25.820
+itu karena Anda perlu berlatih beberapa masalah ini untuk memahami pola umum.
+
+13:26.030 --> 13:32.180
+Tetapi salah satu pola yang paling umum dalam hal bersarang untuk loop adalah bahwa Anda mungkin
+
+13:32.180 --> 13:38.630
+dapat menggunakan sesuatu yang disebut tabel hash yang akan membuat Anda dalam javascript mereka disebut objek untuk
+
+13:38.630 --> 13:39.780
+mempercepat segalanya.
+
+13:39.800 --> 13:47.140
+Apakah ada cara untuk mengubahnya oh kali kompleksitas waktu menjadi sesuatu yang lebih cepat.
+
+13:48.270 --> 13:58.560
+Kami melakukan sedikit pekerjaan yang tidak perlu di mana kami terus mengulang Z A Y A dan kemudian kami pergi Sibuk B Y B.
+
+13:58.830 --> 14:05.080
+Dan kami melakukan perbandingan ini dalam pekerjaan yang sama berulang kali bagaimana jika kami memiliki solusi yang lebih baik.
+
+14:05.180 --> 14:07.230
+Saya akan berkomentar untuk saat ini.
+
+14:08.960 --> 14:13.340
+Dan gulir sampai ke bawah dan kita tidak membutuhkan ini lagi.
+
+14:14.030 --> 14:15.370
+Dan coba solusi yang berbeda.
+
+14:15.560 --> 14:18.310
+Dan saya membawa array ke sini supaya kita bisa melihatnya.
+
+14:23.170 --> 14:30.770
+Sekarang sebelum kita mulai melakukan pengkodean mari kita pikirkan langkah-langkah apa yang ingin kita ambil dengan baik bagaimana jika
+
+14:30.770 --> 14:33.760
+kita memiliki fungsi yang mengambil array pertama.
+
+14:33.800 --> 14:43.880
+Jadi katakanlah array satu akan dikonversi ke objek dan objek ini akan mengandung sesuatu seperti
+
+14:43.880 --> 14:46.580
+ini semua mengandung.
+
+14:46.680 --> 14:50.770
+Dan mari kita pastikan kita menggabungkan ini.
+
+14:50.870 --> 15:02.480
+Ini akan berisi sama dengan benar maka itu dekat dengan C benar dekat dengan benar.
+
+15:02.730 --> 15:10.130
+Dan akhirnya itu akan memiliki X sama dengan benar.
+
+15:10.150 --> 15:21.080
+Sekarang jika kita membuat objek seperti ini kita sekarang dapat menggunakan objek ini tanpa nilai untuk hanya mengatakan array 2.
+
+15:21.100 --> 15:27.050
+Bisakah kita memeriksa setiap item dalam array 2 ke objek ini dan melihat apakah ada properti.
+
+15:27.220 --> 15:38.410
+Idealnya kita dapat melakukan sesuatu seperti array untuk mengindeks dan melihat apakah ini sama dengan salah satu properti dot objek.
+
+15:38.860 --> 15:41.530
+OK, ayo kita jalani sekali lagi.
+
+15:41.550 --> 15:43.220
+Ini adalah pola umum.
+
+15:43.240 --> 15:48.810
+Anda akan melihat banyak dalam hal meningkatkan kompleksitas waktu jadi jika Anda
+
+15:48.810 --> 15:51.600
+tidak segera mendapatkan ini jangan stres.
+
+15:51.660 --> 15:56.430
+Ini adalah sesuatu yang akan menjadi lebih dan lebih akrab bagi Anda karena kami melakukan lebih banyak masalah.
+
+15:56.430 --> 16:03.500
+Tetapi jika saya dapat mengkonversi ke array pertama menjadi objek yang terlihat seperti ini.
+
+16:03.860 --> 16:12.050
+Sekarang alih-alih harus mengulang kedua array saya hanya bisa loop melalui array kedua dan hanya memeriksa apakah
+
+16:12.050 --> 16:17.150
+properti Z ada pada objek ini yang kita buat.
+
+16:17.330 --> 16:18.830
+Tidak, tidak.
+
+16:18.830 --> 16:21.630
+Apakah properti Y ada di Saray.
+
+16:21.680 --> 16:22.380
+Tidak, tidak.
+
+16:22.400 --> 16:26.940
+Apakah ada properti di objek ini.
+
+16:27.110 --> 16:28.400
+Ya itu.
+
+16:28.400 --> 16:34.700
+Itu berarti kami memiliki item umum sekarang untuk menunjukkan kepada Anda bagaimana ini sebenarnya bekerja dan mengapa solusi
+
+16:34.700 --> 16:37.170
+ini akan lebih baik daripada yang pertama.
+
+16:37.310 --> 16:42.870
+Saya harus benar-benar mulai mengkodekannya tetapi ketika kita masuk ke Nomor delapan kita melihat itu sebelum Anda memulai pengkodean.
+
+16:42.890 --> 16:51.550
+Kami ingin memeriksa kode Anda dan menuliskan langkah-langkah yang akan Anda lakukan, jadi mari kita mulai melakukannya.
+
+16:51.550 --> 16:57.510
+Saya akan mengatakan bahwa kita akan membuat fungsi baru yang berisi item umum.
+
+16:57.510 --> 17:03.640
+Yang ini akan saya tambahkan karena ini adalah fungsi kedua yang akan kita ambil
+
+17:03.670 --> 17:06.320
+dalam array satu dan array.
+
+17:06.470 --> 17:12.130
+Dan sekarang fungsi ini Mari kita buat ini sedikit lebih kecil sehingga terlihat lebih bagus.
+
+17:12.130 --> 17:13.290
+Ini dia.
+
+17:13.360 --> 17:30.160
+Fungsi ini akan mengatakan pertama, saya ingin Anda mengulang melalui array pertama dan membuat objek di mana properti
+
+17:30.910 --> 17:36.800
+item yang sama dalam array.
+
+17:39.470 --> 17:47.120
+Dan kemudian hal kedua adalah untuk mengulang
+
+17:49.580 --> 18:02.600
+melalui sekunder dan memeriksa apakah item dan array kedua ada pada objek yang dibuat.
+
+18:02.600 --> 18:10.490
+Sekarang bahkan sebelum kita mulai mengkode ini saya dapat menulis dengan cara bahwa kita akan memiliki kinerja yang
+
+18:10.610 --> 18:19.330
+lebih baik daripada Saray pertama yang 0 kecepatan waktu karena apa yang akan kita lakukan adalah memiliki dua loop tetapi
+
+18:19.330 --> 18:21.990
+dua loop ini adalah akan bersarang.
+
+18:22.030 --> 18:30.030
+Ingat dalam solusi pertama yang telah kami buat untuk loop dalam solusi ini.
+
+18:30.290 --> 18:35.040
+Dan solusi kedua kami, kami harus memisahkan untuk loop.
+
+18:35.460 --> 18:46.180
+Dan jika Anda ingat analisis O besar kami ketika kami memiliki langkah satu demi satu alih-alih
+
+18:46.180 --> 19:00.140
+bersarang, O besar menjadi nilai tambah b kami memiliki solusi potensial di sini memiliki kompleksitas waktu nilai tambah b alih-alih kecepatan
+
+19:00.260 --> 19:01.420
+waktu.
+
+19:01.610 --> 19:03.170
+Itu adalah penghematan besar.
+
+19:03.290 --> 19:07.790
+Kita harus benar-benar mulai menulis kode untuk melihat apakah kita dapat menyelesaikan masalah ini.
+
+19:08.060 --> 19:09.530
+Dan karena video ini semakin panjang.
+
+19:09.560 --> 19:11.430
+Kami akan melakukan ini di video berikutnya.
+
+19:11.810 --> 19:18.080
+Tetapi saya ingin menunjukkan kepada Anda di sini apa yang baru saja kami lakukan dan itu meskipun kami belum
+
+19:18.080 --> 19:22.310
+memberikan solusi yang jelas, kami telah berbicara tentang bagaimana kami memecahkan masalah.
+
+19:22.310 --> 19:25.190
+Pewawancara melihat bagaimana kita berpikir.
+
+19:25.220 --> 19:34.130
+CS langkah apa yang kita ambil dalam CS yang membuat keputusan kritis cerdas untuk beralih dari memahami
+
+19:34.130 --> 19:38.390
+masalah menjadi memecahkan masalah dengan cara yang naif.
+
+19:38.390 --> 19:45.410
+Memahami mengapa ini mungkin bukan cara terbaik dan kemudian mulai memikirkan solusi yang mungkin.
+
+19:45.410 --> 19:52.340
+Dan keindahan dari pendekatan ini adalah bahwa tidak masalah apakah kita mendapatkan bagian ini dengan benar, mungkin asumsi kita salah
+
+19:52.340 --> 19:54.560
+dan kita tidak bisa melakukan ini.
+
+19:54.560 --> 20:01.770
+Kami menunjukkan kepada pewawancara bahwa kami sedang memikirkan masalah dan kami membuat langkah-langkah logis kecil
+
+20:01.860 --> 20:03.110
+menuju solusi.
+
+20:04.370 --> 20:09.360
+Dan ini jauh lebih baik daripada hanya coding langsung mencoba solusi.
+
+20:09.380 --> 20:15.200
+Dan lihat apakah Anda melakukannya dengan benar atau salah, pewawancara akan memiliki pemahaman yang baik tentang kemampuan Anda dan proses
+
+20:15.290 --> 20:16.800
+pemikiran Anda dengan cara ini.
+
+20:16.820 --> 20:20.100
+Dan ini adalah tipe orang yang ingin mereka pekerjakan.
+
+20:20.390 --> 20:26.150
+Jadi dalam video berikutnya mari kita selesaikan masalah ini mari kita kodekan dan lihat apakah kita bisa membuat
+
+20:26.300 --> 20:30.350
+solusi ini lebih efisien dengan mengubahnya menjadi 0 A plus B.
+
+20:30.350 --> 20:31.730
+Saya akan melihat yang berikutnya.
+
+20:31.920 --> 20:32.210
+Buh-Bye.

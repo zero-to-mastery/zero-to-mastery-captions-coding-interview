@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.970 --> 00:05.680
+Welcome back it's time for us to implement our own hash table.
+
+00:05.800 --> 00:13.060
+But let's do a bit of an exercise and this may be difficult so don't get upset if you are not able to
+
+00:13.060 --> 00:13.760
+finish it.
+
+00:14.610 --> 00:18.040
+After this I'll provide a solution video and we'll walk through it.
+
+00:18.040 --> 00:22.640
+But as an extra challenge I have created a template for you.
+
+00:23.520 --> 00:26.270
+A new hash table that we're going to create.
+
+00:26.280 --> 00:32.810
+Yes I know javascript already has objects and we can just simply create one like we've seen before.
+
+00:33.000 --> 00:34.310
+But what's the fun in that.
+
+00:34.350 --> 00:36.360
+Let's create our own.
+
+00:36.420 --> 00:42.860
+Now this hash table has a constructor that will receive a size.
+
+00:42.950 --> 00:47.890
+So when we create this hash table we're going to give it a memory space size of 50.
+
+00:48.110 --> 00:51.540
+Let's say that we only want 50 shelfs of memory.
+
+00:51.800 --> 00:57.950
+We're going to create this DOD data where our data are will live and within it it's going to create
+
+00:57.980 --> 00:59.060
+a new array.
+
+00:59.980 --> 01:04.060
+And this array is going to hold our information for us.
+
+01:04.150 --> 01:09.430
+So we would have something like grapes
+
+01:12.110 --> 01:18.640
+and 10000 as our bucket.
+
+01:18.650 --> 01:29.060
+So the first item in the array will be an array that is grapes 10000 remember if we looked at the diagram
+
+01:30.200 --> 01:39.000
+we have these buckets that our data lives in and because right now we're implementing our own hash tables
+
+01:39.210 --> 01:41.370
+we're using array instead of objects.
+
+01:42.170 --> 01:51.290
+But the idea is that using a new method that you'll have to create which will be called set you're going
+
+01:51.290 --> 02:00.320
+to be able to set grapes as the first index in theory and the number of grapes as the second index in
+
+02:00.320 --> 02:01.040
+the array.
+
+02:01.520 --> 02:10.990
+And from there we can have a nother method get which retrieves the grapes and returns 10000.
+
+02:11.000 --> 02:14.040
+Now you're probably wondering.
+
+02:14.480 --> 02:18.080
+Oh boy what is this jibberish.
+
+02:18.500 --> 02:24.030
+And I wrote this ahead of time for you because it's not really important as part of the course.
+
+02:24.410 --> 02:33.590
+But remember we need a hash function in order to create a hash table and I've created here the smallest
+
+02:33.590 --> 02:36.300
+tiniest hash function you can think of.
+
+02:37.520 --> 02:42.620
+We're going to talk about what this actually does in the solution video.
+
+02:42.920 --> 02:49.510
+For now all you have to know is that it's going to just generate a hash for us.
+
+02:49.610 --> 02:56.220
+For example if I do underscore hash here and give it a key.
+
+02:56.360 --> 03:02.620
+So let's say that I want to insert grapes and I click run I get 23.
+
+03:02.720 --> 03:05.500
+If I click run again I always get 23.
+
+03:05.630 --> 03:10.790
+If I change grapes to two s's I get a different memory space.
+
+03:10.970 --> 03:19.780
+If I just type in randomly Here again I get different memory spaces all from 0 to 50.
+
+03:19.790 --> 03:31.500
+So your challenge here is to create these two new methods set and get that adds to this dot data.
+
+03:32.380 --> 03:43.050
+And retrieves from this data again if you're not super familiar with javascript this may be hard but
+
+03:43.110 --> 03:43.990
+give it a try.
+
+03:44.220 --> 03:47.090
+And in the next video we'll walk through step by step.
+
+03:48.190 --> 03:49.840
+I'll see that one.

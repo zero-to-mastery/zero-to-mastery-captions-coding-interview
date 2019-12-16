@@ -1,0 +1,385 @@
+WEBVTT
+
+00:01.300 --> 00:02.410
+Welcome back.
+
+00:02.800 --> 00:09.370
+How is that exercise does your brain heard from all this confusing sequence.
+
+00:09.370 --> 00:18.010
+Let's actually start off with the recursive function this time because in this case the recursive function
+
+00:18.040 --> 00:20.850
+is actually a lot simpler to think about.
+
+00:21.930 --> 00:29.730
+All we would do with our recursive function is to say well the base case is going to say number four
+
+00:29.940 --> 00:31.950
+and is going to equal
+
+00:34.660 --> 00:35.270
+two.
+
+00:35.470 --> 00:38.290
+If that's the case simply return
+
+00:42.070 --> 00:49.100
+actually if we look at the sequence we see that if they indexes zero the answer is zero.
+
+00:49.160 --> 00:53.900
+If the index is 1 The answer is 1.
+
+00:54.200 --> 00:58.690
+And if the index is 2 then the answer changes to 1.
+
+00:58.700 --> 01:04.260
+So instead our base case can maybe just simply be if an is less than 2.
+
+01:04.280 --> 01:08.280
+We're always going to just turn whatever the end is.
+
+01:08.300 --> 01:13.500
+So if we say 0 it's going to return 0 if we say one is going to return 1.
+
+01:13.580 --> 01:22.150
+If we have an index higher than that well then we have to do some recursion and all we're going to do
+
+01:22.150 --> 01:27.730
+here is have a now the return statement and say this function.
+
+01:27.730 --> 01:30.270
+I know that this function is really really long.
+
+01:30.280 --> 01:33.630
+We can probably make it shorter to just say fib.
+
+01:33.730 --> 01:38.140
+And I notice that we don't need the iterative here.
+
+01:38.300 --> 01:39.900
+That will make it a little shorter.
+
+01:39.900 --> 01:52.340
+There ya know we're going to say is Fed is going to equal and minus one plus the same thing
+
+01:56.620 --> 02:01.180
+minus two because remember the sum is always.
+
+02:01.180 --> 02:07.450
+The answer is always the numbers 1 and 2 before it.
+
+02:07.560 --> 02:17.560
+So we're just adding the numbers 1 and 2 before our sequence and that's it.
+
+02:17.560 --> 02:26.230
+If we run this function let's say if we've Bonacci recursive 3 and I click run I get 2 because 0 1 2
+
+02:26.470 --> 02:36.180
+3 is 2 let's do 8 which should give us 21 and I click Run or give 8.
+
+02:36.290 --> 02:45.930
+I get 21 nice and if I do 0 I get 0.
+
+02:46.290 --> 02:49.050
+If I do one I get one.
+
+02:49.080 --> 02:53.470
+If I do too I should get one right here.
+
+02:53.520 --> 02:58.530
+Nice and simple well I don't know about simple right.
+
+02:58.570 --> 03:04.340
+You really have to get comfortable with this before you truly understand what's happening.
+
+03:04.420 --> 03:06.630
+But I have a little diagram to help you here.
+
+03:07.570 --> 03:10.300
+All we've done is simply this.
+
+03:10.450 --> 03:19.900
+If I added 7 here are recursive function is going to get one less than 7 and 2 less than 5 and then
+
+03:19.930 --> 03:26.080
+within those functions do the same thing one less than six to less than six.
+
+03:26.170 --> 03:30.090
+Wanna send 5 to less than 3 and it's doing all of these.
+
+03:30.100 --> 03:39.420
+All of these all these until we get to FEBE of 1 to where we have our base case that returns that number.
+
+03:39.500 --> 03:42.310
+So this becomes one.
+
+03:42.430 --> 03:49.170
+This also becomes one and then it keeps going keeps going keeps returning until we get to FEBE of 7.
+
+03:49.180 --> 03:53.800
+Now this is a diagram that we're going to get back to but you see we're doing a lot of calculations
+
+03:53.800 --> 03:54.340
+here.
+
+03:55.250 --> 03:57.770
+But simply put this is all we're doing.
+
+03:59.820 --> 04:06.360
+Now I said that the recursive approach is actually simple simpler than the iterative approach.
+
+04:06.810 --> 04:10.860
+Let's have a look at what the iterative approach would look like.
+
+04:10.950 --> 04:14.790
+We'll create an array and there's many ways of doing this.
+
+04:14.790 --> 04:24.370
+This is my preferred way and this survey is going to have the initial items of the sequence 0 and 1.
+
+04:24.580 --> 04:31.280
+And this is going to first of all return the array an item of.
+
+04:31.280 --> 04:36.680
+And we're creating this array and then grabbing whatever index the user wants.
+
+04:36.680 --> 04:43.940
+In our case if the user requests 0 or 1 we already have the array prefilled with zero and 1 and it's
+
+04:43.940 --> 04:45.390
+going to return the same.
+
+04:45.800 --> 04:49.610
+But we still need to calculate for all the other ones.
+
+04:49.610 --> 04:58.760
+That's where we do a for loop and say Let I equal two because we're going to start adding when the index
+
+04:59.000 --> 05:12.560
+is 0 1 2 to start filling the survey will say is less than an plus one or we can do equal share for
+
+05:12.560 --> 05:17.660
+you want we'll leave it at that for now and we'll increment i plus plus.
+
+05:17.960 --> 05:23.480
+And in this loop we're going to keep going until we hit the number of index that we're interested in
+
+05:23.810 --> 05:26.390
+and all we're going to say is push
+
+05:28.980 --> 05:38.890
+array I minus two plus re PI minus one.
+
+05:39.110 --> 05:40.640
+Similar to what we did before.
+
+05:40.640 --> 05:45.830
+We're just summing the previous two numbers and pushing it to the array.
+
+05:46.820 --> 05:47.320
+All right.
+
+05:47.420 --> 05:49.030
+Now let's see if this works.
+
+05:49.070 --> 05:53.410
+I'm going to comment out this one and just do the iterative approach.
+
+05:54.630 --> 05:56.760
+I get two for three.
+
+05:56.760 --> 05:58.900
+What about index of eight.
+
+05:59.070 --> 06:01.740
+I get 21 perfect.
+
+06:01.830 --> 06:11.640
+And then if I do index of 0 and X of 1 and index of two should be one perfect.
+
+06:11.670 --> 06:16.980
+Now I said that the recursive approach is simpler than the iterative approach.
+
+06:16.980 --> 06:18.880
+Now that's my personal opinion.
+
+06:18.930 --> 06:25.440
+You might not think that you might think that this was quite easy but to me this reads a lot nicer than
+
+06:26.190 --> 06:28.090
+all this thing that we're doing.
+
+06:28.960 --> 06:34.390
+And this is something we're going to get into in the next video where we talk about the tradeoffs between
+
+06:34.390 --> 06:41.050
+the iterative and the recursive approaches to these problems and why maybe you're wondering right now
+
+06:41.260 --> 06:44.210
+why would we ever write anything recursive.
+
+06:44.380 --> 06:48.720
+If you find this confusing We'll get to that.
+
+06:48.810 --> 06:54.000
+But the one thing I want to show you is something that we just learn here that is new to us.
+
+06:54.540 --> 06:57.370
+What do you think the big-O of these two functions are.
+
+06:59.030 --> 07:02.770
+Well in our iterative solution.
+
+07:02.870 --> 07:06.410
+The big O is linear time right.
+
+07:06.410 --> 07:07.640
+It's o of.
+
+07:07.670 --> 07:16.190
+And basically we're just iterating through the loop and minus two times because we're skipping the first
+
+07:16.190 --> 07:20.490
+two items which in turn makes it.
+
+07:20.560 --> 07:22.110
+Oven.
+
+07:22.150 --> 07:25.930
+But what about the recursive approach.
+
+07:25.960 --> 07:28.610
+Remember the diagram I showed you.
+
+07:28.860 --> 07:34.860
+That's a lot more calculations than just the seven rate.
+
+07:34.970 --> 07:42.430
+We have a lot of function calls that happen in this case in the recursion solution.
+
+07:42.430 --> 07:52.060
+It takes what we call exponential time the size of the tree exponentially grows when and increases if
+
+07:52.630 --> 08:02.020
+Fibonacci number was eight we would have this tree as well as an other tree underneath the FEBE of 8
+
+08:03.570 --> 08:06.120
+so what is the big go of that.
+
+08:08.140 --> 08:13.040
+This is very exciting because we're learning about a new Big O notation.
+
+08:13.270 --> 08:17.520
+We're learning about this one exponential time.
+
+08:18.670 --> 08:28.080
+Which can be seen with recursive algorithms that solve a problem of size and 2 to the power of an if
+
+08:28.080 --> 08:33.230
+we go to our big O Chichi this is 0 2 to the power of an ant.
+
+08:33.270 --> 08:37.860
+And you see how much it increases.
+
+08:37.860 --> 08:39.520
+That's pretty bad.
+
+08:39.780 --> 08:50.300
+It's bigger than even 0 of and square the two nested for loops exponential time means every additional
+
+08:50.390 --> 08:52.860
+element in the Fibonacci sequence.
+
+08:52.880 --> 08:58.070
+We get an increase in function calls exponentially.
+
+08:58.150 --> 09:05.410
+And here's a fun little trick although this is all of an the iterative approach.
+
+09:05.410 --> 09:18.660
+This function because it's all of two to the power of an if I run this function let's say if we do 10
+
+09:20.700 --> 09:27.230
+I get a result if I do 15 I still get a result.
+
+09:27.230 --> 09:28.570
+What if I do 20 here.
+
+09:29.940 --> 09:30.300
+All right.
+
+09:30.300 --> 09:33.120
+It's starting to get bigger and bigger.
+
+09:33.230 --> 09:40.530
+I do 30 if I do 40.
+
+09:40.550 --> 09:43.810
+Do you see how much longer that took to calculate.
+
+09:44.030 --> 09:47.960
+Because our time complexity is increasing more and more.
+
+09:48.070 --> 09:55.340
+If I do forty three now you'll see that we're waiting and waiting and waiting for the calculation to
+
+09:55.340 --> 09:55.990
+happen.
+
+09:56.090 --> 10:01.610
+And eventually the browser comes up with the calculation as a bonus question and think about how many
+
+10:01.610 --> 10:05.770
+calculations Fibonacci 43 required.
+
+10:07.130 --> 10:16.940
+This Although might be more readable is not an ideal solution as you can see big time complexity is
+
+10:16.940 --> 10:17.590
+pretty big.
+
+10:17.750 --> 10:23.310
+And this is something that you might get asked in an interview and I know what you're thinking.
+
+10:23.620 --> 10:28.210
+Andre you just taught us about recursion and it's not even good.
+
+10:28.360 --> 10:30.430
+It's slow it's confusing.
+
+10:30.430 --> 10:33.570
+Why would I ever want to use recursion.
+
+10:34.480 --> 10:38.290
+In the next video I'm going to talk about this tradeoff.
+
+10:38.290 --> 10:42.260
+Why would you ever use recursion over something that is enteritis.
+
+10:43.470 --> 10:46.190
+Why would any sane person do that.
+
+10:46.530 --> 10:54.530
+And as you find out there are some pros and cons and as a matter of fact a function like this such as
+
+10:54.530 --> 11:02.380
+a Fibonacci Sequence and recursion can be made to all end using something like dynamic programming and
+
+11:02.380 --> 11:05.010
+memorization which we're going to talk about.
+
+11:05.110 --> 11:11.350
+Towards the end of this course and we're going to get back to this but let's finally answer the question
+
+11:11.350 --> 11:12.810
+in the next video.
+
+11:13.030 --> 11:18.730
+Why would you ever use recursion over something iterative.
+
+11:18.780 --> 11:20.320
+I'll see in the next one.
+
+11:20.440 --> 11:20.700
+Bebai.

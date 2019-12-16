@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.660 --> 00:01.810
+Bine ai revenit.
+
+00:01.920 --> 00:07.860
+Suntem acum în secțiunea structura de date copac chiar aici.
+
+00:08.100 --> 00:15.000
+Și cum putem vedea copacii sau listele legate sunt un tip de copac despre care am vorbit deja, dar mai sunt și
+
+00:15.000 --> 00:17.980
+alți câțiva alții pe care trebuie să discutăm încă.
+
+00:18.800 --> 00:25.850
+Așa că vom acoperi acest lucru și vom cunoaște mediile diferite, pornind de la un copac
+
+00:25.910 --> 00:26.680
+binar.
+
+00:27.080 --> 00:27.950
+Să intrăm în asta.
+
+00:29.710 --> 00:37.630
+Un copac binar este ceva ce ați văzut probabil înainte și este un tip un copac cu câteva
+
+00:37.630 --> 00:38.540
+reguli aplicate.
+
+00:39.040 --> 00:49.180
+Dar ele sunt destul de simple fiecare nod poate avea doar 0 1 sau 2 noduri și fiecare copil poate avea
+
+00:49.180 --> 00:50.990
+doar un părinte.
+
+00:51.010 --> 00:53.010
+Acesta este un copac binar.
+
+00:53.020 --> 01:00.400
+Cu toate acestea, acesta nu este un copac binar, deoarece are trei copii sau cel puțin unul din NOS are trei
+
+01:00.580 --> 01:01.230
+copii.
+
+01:02.340 --> 01:06.040
+Și fiecare nod reprezintă o anumită stare.
+
+01:06.510 --> 01:12.440
+Și aceasta este foarte asemănătoare cu ceea ce am făcut în trecut, mai ales cu liste legate, dacă aruncăm
+
+01:12.440 --> 01:14.360
+o privire la un exemplu aici.
+
+01:14.360 --> 01:25.440
+În scopul de a crea un copac binar Pot să creez doar o funcție spun copac binar și acest copac binar
+
+01:25.440 --> 01:37.520
+poate obține o valoare și arborele binar sau în cazul nostru un nod binar arborează pur și simplu va avea această valoare asociată
+
+01:37.730 --> 01:44.780
+cu ea care este valoarea pe care o dăm în interiorul funcției.
+
+01:44.780 --> 01:51.800
+Și apoi avem două alte proprietăți care este un pointer în partea stângă a copacului, care pentru moment nu
+
+01:51.800 --> 01:52.570
+va fi.
+
+01:52.730 --> 01:58.550
+Și un pointer în partea dreaptă a copacului este acest drept care este egal și acesta este reprezentat
+
+02:02.310 --> 02:08.650
+de un nod binar de copaci având pur și simplu o valoare și apoi o proprietate stângă și / sau
+
+02:08.800 --> 02:11.410
+dreapta foarte asemănătoare cu ceea ce am făcut.
+
+02:11.440 --> 02:14.920
+Sau un principiu foarte asemănător cu ceea ce am făcut cu listele legate.
+
+02:15.840 --> 02:22.380
+Acum vom codifica un copac și vom crea o structură de date arborescentă exact așa cum avem pentru structurile
+
+02:22.380 --> 02:23.790
+de date anterioare.
+
+02:24.060 --> 02:29.860
+Dar vreau să subliniez și câteva terminologii pe care le-am putea întâlni și care sunt importante.
+
+02:31.060 --> 02:36.960
+În acest caz, ne uităm la ceva numit un copac care este complet plin.
+
+02:37.030 --> 02:40.930
+Asta înseamnă că nu există lacune în copac.
+
+02:40.930 --> 02:42.090
+Lasă-mă să-ți arăt ce vreau să spun.
+
+02:43.010 --> 02:47.610
+Un copac binar perfect are totul completat.
+
+02:47.660 --> 02:57.560
+Asta inseamna ca toate nodurile frunzelor sunt pline si nu exista nici un fel de nod care are doar un copil nod sau are copii
+
+02:57.800 --> 02:59.740
+zero sau doi copii.
+
+02:59.930 --> 03:05.700
+Și, de asemenea, stratul inferior al arborelui este complet umplut.
+
+03:05.750 --> 03:14.840
+Nimic nu lipsește față de un arbore binar complet, care spune pur și simplu că un nod are 0 sau 2 copii,
+
+03:15.020 --> 03:17.090
+dar niciodată un copil.
+
+03:17.090 --> 03:19.120
+De ce este important acest lucru.
+
+03:19.250 --> 03:28.070
+Deoarece acest tip de copac binar, în special un arbore binar perfect, este cu adevărat eficient și ceva care
+
+03:28.070 --> 03:35.640
+este de dorit atunci când copacii binari sunt perfecți ca acesta, au două proprietăți interesante.
+
+03:35.660 --> 03:43.590
+Una este că numărul de noduri totale de pe fiecare nivel se dublează pe măsură ce ne mișcăm în jos pe copac.
+
+03:43.670 --> 03:48.080
+De exemplu, aici avem un nod în nivelul următor avem două.
+
+03:48.170 --> 03:50.840
+Așa că am dublat nodurile în următorul nivel.
+
+03:50.840 --> 03:53.490
+Avem una câte două patru.
+
+03:53.570 --> 04:02.170
+Deci ne-am dublat pentru a face dacă am avea un nivel nother care este un arbore binar perfect pe care l-am avea 1 2 3 4
+
+04:02.170 --> 04:03.530
+5 6 7 8.
+
+04:03.650 --> 04:06.510
+Deci am dublat de fiecare dată.
+
+04:06.610 --> 04:13.630
+A doua proprietate importantă este că numărul de noduri din ultimul nivel este egal cu
+
+04:13.630 --> 04:18.430
+suma numărului de noduri din toate celelalte niveluri plus 1.
+
+04:18.460 --> 04:18.700
+In regula.
+
+04:18.700 --> 04:20.380
+A fost confuză ce vreau să spun.
+
+04:20.440 --> 04:30.220
+Ei bine, dacă iau nivelul inferior, care este 1 2 3 pentru cea de-a doua stare de proprietate, toate nodurile de deasupra
+
+04:30.250 --> 04:33.990
+ei plus 1 vor ajunge la nivelul inferior.
+
+04:34.000 --> 04:37.910
+Deci, unu doi trei plus unu este egal cu patru.
+
+04:37.930 --> 04:44.890
+Asta am avut în partea de jos ceea ce înseamnă, cu alte cuvinte, că aproximativ jumătate din nodurile noastre
+
+04:44.890 --> 04:46.870
+se află la ultimul nivel.
+
+04:46.960 --> 04:52.920
+Și acest lucru aduce un aspect interesant prin organizarea datelor noastre în acest fel.
+
+04:53.080 --> 04:56.830
+Avem jumătate din aceste date la nivelul inferior.
+
+04:56.950 --> 05:03.640
+Dacă într-un fel putem evita vizitarea fiecărui nod chiar dacă nodul pe care îl căutăm este chiar în
+
+05:04.450 --> 05:11.910
+partea de jos, poate că există unele eficiențe pe care le putem avea și veți avea dreptate datorită acestui tip
+
+05:12.540 --> 05:20.340
+de structură pe care o veți vedea noua notație a big-O ceva ce am așteptat pentru un vechi jurnal vechi și
+
+05:20.380 --> 05:25.980
+când începem să vorbim despre ceva numit arbori de căutare binar, veți începe să vedeți
+
+05:26.100 --> 05:27.230
+această notație.
+
+05:27.570 --> 05:30.680
+Da, am ajuns în final la o altă notație mare O.
+
+05:30.840 --> 05:34.090
+Dar ce înseamnă în următorul videoclip.
+
+05:34.110 --> 05:39.600
+Vreau să vorbesc despre tot ceea ce faceți și de ce copacii ne permit să avem ceva de genul asta.
+
+05:39.690 --> 05:41.530
+Și ce implicații sunt.
+
+05:42.250 --> 05:43.370
+Voi vedea în următorul.

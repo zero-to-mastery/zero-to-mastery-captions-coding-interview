@@ -1,0 +1,277 @@
+WEBVTT
+
+00:01.020 --> 00:07.650
+Bentornato, usiamo la programmazione dinamica e la memorizzazione per migliorare questa funzione.
+
+00:08.420 --> 00:16.540
+Proprio come abbiamo fatto quando abbiamo imparato a memoria questo è abbastanza semplice rimuoviamolo per ora.
+
+00:16.540 --> 00:27.050
+Terrò questo in cima e poi qui creerò una nuova funzione che chiameremo Fibonacci master Questa
+
+00:27.080 --> 00:37.320
+funzione avrà una tabella hash cache o un oggetto per memorizzare le nostre risposte precalcolate.
+
+00:37.480 --> 00:43.780
+E se ti ricordi perché vogliamo essere sicuri di non resettarlo ogni volta che eseguiamo
+
+00:44.110 --> 00:51.130
+questa funzione, restituiremo un'altra funzione qui dentro usando chiusure e Javascript e in altre lingue potresti
+
+00:51.160 --> 00:53.360
+dover usare tecniche diverse.
+
+00:54.010 --> 01:01.320
+E qui dentro possiamo solo avere una funzione che possiamo nominare in qualunque cosa chiamiamola fib che prende.
+
+01:01.440 --> 01:03.820
+E questo è il numero che gli diamo.
+
+01:04.210 --> 01:11.840
+E qui dentro faremo qualcosa di molto simile al precedente, eccetto che controlleremo noi.
+
+01:12.070 --> 01:15.540
+Diremo se una cache è nella cache
+
+01:19.680 --> 01:27.330
+come abbiamo fatto nei video di memo zation e controlleremo se la cache esiste e se
+
+01:27.420 --> 01:29.510
+lo farà restituiremo denaro.
+
+01:30.340 --> 01:35.940
+E la prima volta in cui tutto questo sarà vuoto, quindi non funzionerà,
+
+01:35.940 --> 01:37.990
+entrerà nella condizione else.
+
+01:40.040 --> 01:44.270
+E poi qui abbiamo due condizioni, proprio come facciamo qui.
+
+01:46.360 --> 01:51.800
+E sono meno di due, dobbiamo tornare.
+
+01:51.930 --> 02:00.850
+E proprio come abbiamo fatto qui sopra altrimenti avremmo eseguito la nostra sequenza.
+
+02:01.040 --> 02:10.010
+Quindi facciamo fib di e meno uno più fib di e meno 2.
+
+02:10.260 --> 02:13.290
+Ma vogliamo conservare questo valore nel nostro denaro.
+
+02:13.500 --> 02:24.030
+Quindi diremo soldi e equivarremo al risultato di questo.
+
+02:24.090 --> 02:33.910
+Infine, vogliamo restituire questo valore perché stiamo utilizzando la ricorsione qui e restituiamo il denaro contante e che
+
+02:34.110 --> 02:39.170
+abbiamo appena impostato e il gioco è fatto.
+
+02:39.250 --> 02:41.310
+Non era così difficile.
+
+02:41.570 --> 02:51.590
+Voglio dire, abbiamo qualche passo in più, ma tutto ciò che abbiamo fatto è stato semplicemente aggiungere il risultato alla nostra tabella
+
+02:51.680 --> 02:59.580
+hash in modo che ora se faccio Konst diciamo che fib più veloce equivale a Fibonacci.
+
+02:59.630 --> 03:08.210
+M. ricorda la prima volta quando eseguiremo questa funzione e creeremo la variabile di cassa.
+
+03:09.110 --> 03:16.680
+Ancora una volta e creare la variabile di cassa e sarà solo restituire questa funzione.
+
+03:17.030 --> 03:26.240
+Quindi è simile a dire semplicemente che fib più veloce equivale a questa funzione ora.
+
+03:26.370 --> 03:36.460
+Solo che ora abbiamo accesso alla variabile di cassa in modo che ora posso console tutto
+
+03:36.460 --> 03:49.580
+il registro e chiamiamo questo DP per la programmazione dinamica e diremo più veloce e diciamo diciamo 10 se eseguo questo
+
+03:49.670 --> 03:58.700
+ottengo 55 0 1 2 3 4 5 6 7 8 9 10 55.
+
+03:58.830 --> 04:00.030
+È piuttosto buono.
+
+04:00.960 --> 04:07.920
+Ma facciamo qualcosa di divertente qui per vedere se funziona con questo calcolo
+
+04:07.920 --> 04:20.750
+che abbiamo usato nel numero di Fibonacci spostiamolo sul Fibonacci M. o invece di qui giù in questa funzione perché questa è quella
+
+04:20.750 --> 04:30.010
+che ricorremo indietro e vediamo quante volte questo calcolo accade se eseguo questo e dobbiamo cancellare il
+
+04:30.010 --> 04:32.500
+registro di questi calcoli.
+
+04:32.500 --> 04:35.780
+Quindi in fondo qui abbiamo un
+
+04:38.940 --> 04:40.710
+log di console
+
+04:44.790 --> 04:49.820
+e diremo che abbiamo fatto i calcoli proprio così.
+
+04:50.040 --> 05:02.790
+In modo che se corro questo vediamo che abbiamo fatto 19 calcoli con il Fibonacci M. Quando abbiamo inserito 10 contro se abbiamo spostato
+
+05:03.060 --> 05:09.480
+indietro i calcoli fino a qui alla nostra vecchia versione.
+
+05:09.780 --> 05:12.100
+E in realtà dobbiamo eseguire questa funzione.
+
+05:12.240 --> 05:20.760
+Quindi e qui abbiamo solo blocchi della console, quindi inizia come tutto pulito diciamo annullato o registro.
+
+05:20.760 --> 05:28.060
+Questo sarà chiamato così lento e sarà chiamato Fibonacci.
+
+05:28.260 --> 05:34.100
+Quindi faremo la nostra funzione originale Fibonacci con 10.
+
+05:34.140 --> 05:34.820
+Quindi vediamo.
+
+05:34.830 --> 05:45.070
+E Ron abbiamo avuto le stesse risposte 55 ma ci sono voluti centosettantasette calcoli per arrivare
+
+05:45.070 --> 05:47.080
+a 10.
+
+05:47.160 --> 05:48.000
+Santo Moly.
+
+05:48.000 --> 05:51.930
+Quindi 19 contro centosettantasette calcoli.
+
+05:52.230 --> 05:53.880
+E se facciamo
+
+05:56.880 --> 06:01.900
+20 qui bene abbiamo tanti calcoli e in realtà ne facciamo solo 35.
+
+06:01.920 --> 06:06.490
+Vedi se è possibile vedremo 35.
+
+06:06.490 --> 06:07.270
+Ecco qua.
+
+06:07.270 --> 06:17.140
+Guarda quanti calcoli abbiamo dovuto fare contro se faccio 35 con la nostra funzione minimalizzata sposta qui i
+
+06:17.730 --> 06:18.490
+calcoli.
+
+06:23.830 --> 06:28.320
+E abbiamo corso questo sessantanove.
+
+06:28.340 --> 06:29.490
+Calcoli.
+
+06:29.610 --> 06:36.110
+Invece di prima, se avessi inserito Fibonacci 50 qui, si sarebbe in realtà fatto un crash
+
+06:36.410 --> 06:41.090
+di un browser perché faremmo così tanti calcoli con questo.
+
+06:41.150 --> 06:45.940
+Posso fare anche Achi un centinaio e non ho problemi.
+
+06:45.950 --> 06:48.020
+Guarda quanto velocemente lo hanno calcolato.
+
+06:48.020 --> 06:49.030
+È abbastanza sorprendente.
+
+06:49.040 --> 06:52.110
+Ha fatto solo 199 calcoli.
+
+06:52.460 --> 06:56.760
+Spero che tu veda il potere della programmazione dinamica e non è così difficile.
+
+06:56.840 --> 06:57.440
+Destra.
+
+06:57.770 --> 07:00.130
+Tutto ciò che serve è ricordare questo schema.
+
+07:00.230 --> 07:08.630
+E se c'è un calcolo ripetuto per memorizzare solo il risultato di una funzione in modo che se il
+
+07:08.630 --> 07:13.800
+parametro è lo stesso, prima controlliamo la cache per il risultato.
+
+07:13.880 --> 07:21.830
+Ma parliamo di spazio e complessità temporale qui bene perché stiamo facendo solo
+
+07:21.830 --> 07:24.190
+il calcolo necessario.
+
+07:24.420 --> 07:36.020
+In questo caso tutti i nostri calcoli saranno e giusto facciamo uno due tre quattro cinque sei sette calcoli rispetto a tutti quelli
+
+07:36.260 --> 07:38.430
+che abbiamo fatto prima.
+
+07:39.320 --> 07:46.330
+In modo che la nostra complessità temporale per questo sia piena di e e contro.
+
+07:46.340 --> 07:53.790
+Con questo che era di due alla potenza di 10, abbiamo fatto enormi risparmi.
+
+07:55.440 --> 08:01.970
+L'unico inconveniente è che abbiamo aumentato la complessità dello spazio.
+
+08:01.980 --> 08:02.600
+Destra.
+
+08:02.970 --> 08:12.140
+Intendo con il primo numero di Fibonacci abbiamo dovuto aggiungere funzioni allo stack e queste funzioni.
+
+08:12.180 --> 08:14.330
+Più profondo è aggiunto allo stack.
+
+08:14.400 --> 08:21.870
+Ma una volta arrivati in fondo, siamo usciti dalla pila in modo che la catasta fosse profonda quanto l'albero.
+
+08:22.470 --> 08:29.130
+Ma con la versione memorizzata avevamo anche questa nuova variabile questa tabella di hash della cache che dobbiamo memorizzare la
+
+08:29.130 --> 08:30.020
+nostra memoria.
+
+08:30.020 --> 08:37.290
+E, come sappiamo, a volte abbiamo bisogno di scambiare la complessità dello spazio per una migliore complessità temporale.
+
+08:37.380 --> 08:39.100
+E questo è quello che stiamo facendo in questo caso.
+
+08:39.330 --> 08:44.520
+E in questo caso che i risparmi di tempo complessivi sono molto grandi.
+
+08:44.520 --> 08:47.880
+Bene, spero di averti entusiasmato per la programmazione dinamica.
+
+08:47.910 --> 08:52.020
+È molto interessante e non così travolgente come pensi.
+
+08:52.130 --> 08:53.450
+Destra.
+
+08:53.460 --> 09:00.030
+Lascerò un paio di problemi da fare per abituarmi alla programmazione dinamica, ma ti
+
+09:00.090 --> 09:07.760
+raccomando di prendere il codice della foglia qui per te e puoi semplicemente prenderlo dalle risorse e giocarci.
+
+09:08.570 --> 09:11.620
+Altrimenti vedrò nel prossimo video di.

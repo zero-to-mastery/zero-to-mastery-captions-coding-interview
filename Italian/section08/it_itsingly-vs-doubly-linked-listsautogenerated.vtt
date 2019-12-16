@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.450 --> 00:02.500
+Ben tornato.
+
+00:02.800 --> 00:06.930
+Abbiamo appreso delle liste collegate singolarmente e doppiamente.
+
+00:06.990 --> 00:10.620
+Quindi parliamo di quando dovresti usarne uno sull'altro.
+
+00:10.620 --> 00:13.620
+Iniziamo con la lista collegata singolarmente.
+
+00:14.260 --> 00:21.070
+Il pro di una lista concatenata è che è un'implementazione abbastanza semplice, soprattutto rispetto
+
+00:21.070 --> 00:22.590
+a quella doppia.
+
+00:22.840 --> 00:26.350
+Richiede meno memoria in quanto possiamo vedere qui meno blocchi.
+
+00:26.860 --> 00:34.030
+E poiché c'è meno memoria quando facciamo cose come cancellare e inserire perché c'è tecnicamente meno operazione
+
+00:34.030 --> 00:37.300
+non dobbiamo spostarci attorno alla proprietà precedente.
+
+00:37.300 --> 00:39.420
+È un po 'più veloce.
+
+00:39.610 --> 00:47.950
+Ora il rovescio della medaglia con una lista concatenata è che non può essere iterato in senso inverso o in traverso
+
+00:48.190 --> 00:54.610
+dal davanti al fronte se perdiamo il riferimento a questo Punto ha il nodo della lista.
+
+00:54.610 --> 01:02.080
+L'elenco può effettivamente essere perso per sempre nella memoria in modo che la lista singola sia appropriata da usare quando si ha meno memoria
+
+01:02.080 --> 01:04.030
+o la memoria è molto costosa.
+
+01:04.030 --> 01:10.780
+Vuoi stare attento a quanto usi e il tuo obiettivo principale è quello di fare un veloce
+
+01:10.810 --> 01:12.070
+inserimento e cancellazione.
+
+01:12.280 --> 01:19.560
+E non hai molta ricerca, specialmente quando hai inserito una lista all'inizio.
+
+01:20.550 --> 01:21.710
+Una lista doppiamente collegata.
+
+01:21.760 --> 01:29.490
+Bene, il lato positivo è che può essere iterato o attraversato sia dalla parte anteriore che da quella posteriore.
+
+01:29.490 --> 01:35.910
+Un'altra bellezza è che se è necessario eliminare un nodo precedente non è necessario attraversare il nodo principale
+
+01:35.910 --> 01:41.650
+e trovare ciò che la nota precedente che un elenco collegato singolarmente non ha idea di.
+
+01:42.060 --> 01:45.620
+Puoi farlo abbastanza facilmente con una lista doppiamente collegata.
+
+01:46.530 --> 01:54.270
+Ora il lato negativo è che è abbastanza complesso come abbiamo visto per implementare e richiede più memoria e storage
+
+01:54.630 --> 02:01.050
+a causa di questa proprietà extra e ci sono alcune operazioni effettive che dobbiamo eseguire per
+
+02:01.050 --> 02:06.640
+assicurarci che quando inseriamo ed eliminiamo quella precedente la proprietà viene aggiornata pure.
+
+02:06.900 --> 02:12.130
+Quindi le doppie liste concatenate sono davvero buone quando non si hanno molte limitazioni sulla memoria.
+
+02:12.850 --> 02:19.510
+E quando si desidera una buona operazione per la ricerca di elementi come la ricerca all'indietro anziché
+
+02:19.540 --> 02:25.760
+solo la maggior parte delle volte in situazioni di intervista, vedrete solo una lista concatenata.
+
+02:25.830 --> 02:32.490
+È possibile che venga posta una domanda teorica o generale sulla differenza tra la lista collegata singolarmente e
+
+02:32.490 --> 02:32.870
+doppiamente.
+
+02:33.120 --> 02:36.390
+Ma la maggior parte delle volte questo è il posto dove vedrai.
+
+02:36.490 --> 02:37.030
+Tutto ok.
+
+02:37.510 --> 02:39.200
+Ci vediamo nel prossimo video.
+
+02:39.220 --> 02:39.490
+Buh-Bye.

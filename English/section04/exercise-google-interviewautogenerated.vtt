@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00.450 --> 00:07.520
+We'll welcome back we're going to do a fun little exercise here now instead of me just reading off what
+
+00:07.520 --> 00:08.570
+I wrote.
+
+00:08.870 --> 00:10.430
+I have a little ASP for you.
+
+00:10.580 --> 00:16.160
+You're going to use this cheat sheet and look at the step by step through a problem which is a 15 step
+
+00:16.160 --> 00:21.380
+guide of what you should do when you're in a coding interview to solve a problem.
+
+00:21.740 --> 00:25.380
+And I want you to use this as you watch a little video.
+
+00:25.700 --> 00:33.150
+Now this video is actually produced by Google and it demonstrates it's 24 men and so it's a little bit
+
+00:33.150 --> 00:37.310
+long but it demonstrates how you should answer a coding interview.
+
+00:37.350 --> 00:42.660
+And in my opinion this is the best coding interview that I've ever seen.
+
+00:42.660 --> 00:49.590
+Now I want you to watch this and keep in mind that because we have learned data structures and algorithms
+
+00:49.590 --> 00:54.280
+yet this is going to be quite difficult for you to understand.
+
+00:54.630 --> 00:55.910
+And that's the goal here.
+
+00:55.980 --> 01:02.640
+When you watch this it's going to be really really hard to follow the actual coding maybe some of the
+
+01:02.640 --> 01:04.140
+language that they use.
+
+01:04.140 --> 01:09.180
+I believe they're writing the code in C++ So if you don't know C++ it might be difficult but that's
+
+01:09.180 --> 01:09.960
+not the point.
+
+01:09.960 --> 01:19.650
+The point for you here is to watch this video but also read the step by step through a problem and see
+
+01:19.650 --> 01:26.210
+how the interview he in this case in this video follows these steps.
+
+01:27.250 --> 01:34.580
+And these steps are what you're going to do when you solve a problem in a coding interview.
+
+01:34.600 --> 01:42.840
+The fun thing is that at the end of this course we're going to revisit the video this video and you're
+
+01:42.840 --> 01:47.130
+going to notice a difference from this very first time you that you're going to watch this video to
+
+01:47.130 --> 01:51.600
+the very end where what the interviewee does become second nature.
+
+01:51.600 --> 01:56.020
+You understand what they're coding in what they're doing to solve the problem.
+
+01:56.220 --> 02:03.450
+And all these little steps so that I succeed if you completely get this video and you understand how
+
+02:03.450 --> 02:11.370
+to run a successful interview at a company like Google or any large company or maybe even start up depending
+
+02:11.370 --> 02:12.280
+on what you like.
+
+02:12.300 --> 02:15.110
+So to get started I'll be right back.
+
+02:15.150 --> 02:16.740
+You go watch this video.
+
+02:16.740 --> 02:18.430
+You follow the 15 steps.
+
+02:18.750 --> 02:26.010
+And after this we're going to do a little problem of our own and follow the guide the 15 step guide
+
+02:26.220 --> 02:28.410
+to solve our own little problem.
+
+02:28.860 --> 02:30.430
+I'll see in that one.
+
+02:30.430 --> 02:30.690
+Babai.

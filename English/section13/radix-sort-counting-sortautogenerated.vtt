@@ -1,0 +1,145 @@
+WEBVTT
+
+00:01.310 --> 00:02.160
+Welcome back.
+
+00:02.270 --> 00:08.540
+We've talked about these five sorting algorithms and by now you should know that Merse sort and quick
+
+00:08.540 --> 00:16.040
+sort although they're harder to implement are the most often used algorithms in real life because they
+
+00:16.040 --> 00:21.710
+use divide and conquer to get us this oh of an Lagann performance boost.
+
+00:21.950 --> 00:26.340
+But can't we beat Oh of and log and.
+
+00:26.520 --> 00:27.960
+And here's the thing.
+
+00:28.020 --> 00:33.980
+Mathematically it is impossible to improve on this.
+
+00:34.170 --> 00:39.570
+If anybody comes up with an algorithm that is faster than this they're going to well they're going to
+
+00:39.570 --> 00:41.080
+be very very rich.
+
+00:41.130 --> 00:49.680
+Mathematically it's impossible because all of and Lagann means that we have to sort by comparison all
+
+00:49.680 --> 00:56.510
+of these sorting algorithms have to compare every number to each other.
+
+00:56.790 --> 01:00.290
+But there is one exception to this rule.
+
+01:00.510 --> 01:05.920
+You can improve this if you don't make comparisons.
+
+01:06.780 --> 01:07.160
+Huh.
+
+01:07.350 --> 01:08.760
+What does that mean.
+
+01:08.850 --> 01:18.330
+There's a small section of inputs that we can actually beat off of and log and and these are called
+
+01:18.750 --> 01:25.930
+non comparison sorts and you'll most likely see counting sort and radix sort.
+
+01:26.010 --> 01:33.130
+But what does that mean counting sort in radix sort is an entire different way to think about sorting.
+
+01:34.200 --> 01:41.550
+With comparison sort we decided the order of the numbers based on asking the question hey is this aliment
+
+01:41.550 --> 01:44.290
+bigger than the one over there.
+
+01:44.610 --> 01:46.600
+What about the one over there over there.
+
+01:46.710 --> 01:52.980
+And we just kept doing that every number got compared to each other non comparison sorting does it a
+
+01:52.980 --> 01:54.400
+little bit differently.
+
+01:54.480 --> 02:02.760
+We're going to use the way that numbers and data is stored on our computers in zeros and ones and take
+
+02:02.760 --> 02:06.320
+advantage of that fact to sort things.
+
+02:06.490 --> 02:08.960
+Now this can get pretty complex.
+
+02:09.130 --> 02:16.960
+And as you can see here in this paper just looking at the diagrams and for example radix sort here in
+
+02:16.960 --> 02:25.600
+how we store numbers in zeros and ones we can use this knowledge to actually sort some things.
+
+02:25.600 --> 02:30.980
+I'm going to leave resources for you if you want to get really technical and into this topic.
+
+02:31.150 --> 02:38.770
+I do warn you you can get a little bit mathy but the one thing to note here is that these type of sorting
+
+02:38.770 --> 02:47.890
+algorithm counting sort and radix sort only work with numbers specifically integers in a restricted
+
+02:47.950 --> 02:48.980
+range.
+
+02:49.060 --> 02:54.730
+So if you have only numbers that you want to solve sort and the range of those numbers go from let's
+
+02:54.730 --> 03:02.370
+say zero to 100 that is a small range then you would use something like this to make things really fast
+
+03:03.310 --> 03:06.220
+but it wouldn't work on any type of data.
+
+03:06.370 --> 03:12.340
+It only really works on numbers because of the way numbers are stored in memory.
+
+03:12.360 --> 03:17.150
+You see I like something like merge sort or quicksort that are universal.
+
+03:17.250 --> 03:24.850
+That is they can sort any type of data things like counting sort and radix sort is only useful for fixed
+
+03:24.850 --> 03:26.090
+length integers.
+
+03:27.140 --> 03:32.080
+But they are able to beat the speed of all when log in.
+
+03:32.270 --> 03:40.640
+And as you can see here bucket's sort radix sort cunning sort in their average cases have all of and
+
+03:40.820 --> 03:48.640
+plus K of and K of and k what and k means is beyond the scope of this course.
+
+03:48.830 --> 03:54.570
+And some argue that in the end this actually still turns out to be pretty slow.
+
+03:54.920 --> 03:56.800
+I'll leave resources for you like I said.
+
+03:56.900 --> 04:02.570
+So you can read up on them but the only thing you need to know about this is that sometimes if you have
+
+04:02.570 --> 04:09.900
+numbers that are within a certain range it could be faster than quicksort or Murcer.
+
+04:09.980 --> 04:16.640
+So now that we know this let's do some interview exercises based on sorting to solidify what we just
+
+04:16.640 --> 04:16.940
+learned.

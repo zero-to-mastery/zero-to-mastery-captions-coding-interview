@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.030 --> 00:09.740
+Ceea ce este bun cocs în acest punct ar trebui să poți vorbi puțin mai ales despre dreptul la scară.
+
+00:09.980 --> 00:16.570
+Vreau să spun lizibil despre care vom vorbi în următoarea secțiune, dar scalabil pe care am înțeles-o a fost
+
+00:17.170 --> 00:17.890
+mare-O drept.
+
+00:18.320 --> 00:27.290
+Ei bine, iată ce nu mă urăște, dar poate că am mințit ușor sau am simplificat lucrurile, dar nu atât de mult încât să
+
+00:27.290 --> 00:33.920
+nu-ți faci griji Bouldon că atunci când spun scalabil există de fapt două lucruri pe care noi
+
+00:33.950 --> 00:36.260
+vrem să le considerăm ingineri.
+
+00:36.260 --> 00:38.430
+Una este viteza.
+
+00:38.480 --> 00:41.090
+Despre asta am vorbit până acum.
+
+00:41.180 --> 00:45.210
+Cât de repede este timpul de executare al codului.
+
+00:45.290 --> 00:49.730
+Cât timp durează o funcționare a unei funcții.
+
+00:49.730 --> 00:52.820
+Câte operațiuni costă.
+
+00:53.270 --> 00:58.850
+Există un alt aspect atunci când vine vorba de mașini la resurse valoroase.
+
+00:58.850 --> 01:06.860
+Una este timpul și viteza codului nostru, iar cealaltă este memoria.
+
+01:06.860 --> 01:11.800
+Vedeți că calculatoarele au o memorie limitată.
+
+01:11.860 --> 01:17.860
+Înapoi în ziua în care computerele pur și simplu s-au născut, memoria era foarte scumpă.
+
+01:17.860 --> 01:19.560
+Am avut doar puțin.
+
+01:19.870 --> 01:25.280
+Și odată cu timpul, avem mai multă memorie, dar nu este infinită.
+
+01:26.070 --> 01:36.090
+Computerele noastre rulează pe baza vitezei care este de obicei dictată de CPQ și memorie bazată pe cât de multă memorie, cum ar fi memoria RAM și
+
+01:36.330 --> 01:40.000
+memorie aleatorie de acces pe care o are calculatorul.
+
+01:40.260 --> 01:43.810
+Și acestea sunt două resurse valoroase.
+
+01:43.860 --> 01:46.110
+Deci, cum putem vorbi despre memorie.
+
+01:46.110 --> 01:47.770
+Am vorbit despre viteză.
+
+01:47.820 --> 01:53.010
+Dar memoria și vestea bună este că memoria este destul de simplă, nu este atât de complicată ca
+
+01:53.190 --> 02:00.240
+viteza și nu ne va lua mult timp să învățăm cât de mult avem despre viteză chiar acum, care cod este cel mai bun poate
+
+02:00.240 --> 02:05.820
+fi răspuns cu cei trei piloni ai codului ceva ce vreau sa iei cu tine pentru restul carierei tale si
+
+02:05.870 --> 02:10.440
+ceva ce te va creste ca inginer, pentru ca de acum incolo, cand vei scrie codul,
+
+02:10.440 --> 02:12.810
+vei avea in vedere aceste trei lucruri.
+
+02:12.810 --> 02:20.890
+Unul este că veți scrie un cod curat citit, pe care alții îl pot citi, care poate fi întreținut.
+
+02:20.910 --> 02:30.270
+Celălalt este viteza tipului de cod pe care îl numim complexitatea timpului, care are o complexitate de timp mare, care
+
+02:30.270 --> 02:31.440
+este eficientă.
+
+02:31.440 --> 02:33.020
+Se scade bine.
+
+02:33.230 --> 02:39.910
+Dar vom vorbi repede despre acest al treilea pilon și asta este memorie.
+
+02:40.010 --> 02:44.700
+Care este memoria de utilizare a codului dacă utilizează o mulțime de memorie.
+
+02:44.780 --> 02:45.560
+Asta nu e bine.
+
+02:45.590 --> 02:49.430
+S-ar putea să avem o memorie limitată pe mașina noastră cu asta.
+
+02:49.520 --> 02:54.830
+Folosim încă o dată big-O pentru a vorbi despre complexitatea spațială.
+
+02:54.830 --> 02:58.910
+Aceeași notație, dar subiect diferit.
+
+02:58.910 --> 03:00.080
+Unul este spațiu.
+
+03:00.080 --> 03:02.220
+Cealaltă este TIME Una este viteza.
+
+03:02.300 --> 03:04.670
+Celălalt este memoria.
+
+03:04.670 --> 03:11.610
+O să vă dau o scurtă prezentare a codului de programare.
+
+03:11.610 --> 03:14.830
+Există de obicei un compromis între viteză și memorie.
+
+03:14.830 --> 03:22.220
+Vrei ca lucrurile să meargă mai repede, atunci ar trebui să sacrificați mai multă memorie pe care o doriți mai puțină memorie.
+
+03:22.330 --> 03:27.120
+Atunci ar trebui să sacrificați cu o viteză mai mare.
+
+03:27.290 --> 03:31.040
+Hai să intrăm într-un zgărțit de modul în care măsurăm complexitatea spațială.

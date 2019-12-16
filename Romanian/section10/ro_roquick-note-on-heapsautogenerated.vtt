@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.060 --> 00:02.080
+Bine ai revenit.
+
+00:02.080 --> 00:04.480
+Am vrut să adaug o grămadă rapidă.
+
+00:04.540 --> 00:13.030
+Când vine vorba de grămezi, atunci când auzi grămezi de memorie care nu sunt la fel ca structura de date de oaie, s-ar fi putut auzi despre
+
+00:13.660 --> 00:19.090
+grămezi de memorie și ceva de genul unui motor de run-time javascript în care avem un teanc
+
+00:19.090 --> 00:20.300
+și o grămadă.
+
+00:20.340 --> 00:24.190
+Există două locații în care putem să păstrăm memoria.
+
+00:24.190 --> 00:30.730
+Acum, această navă se poate gândi că depozitarea gratuită este o regiune în memoria noastră unde putem stoca
+
+00:30.730 --> 00:31.560
+date arbitrare.
+
+00:31.900 --> 00:35.610
+Limbi ca C au de asemenea această grămadă.
+
+00:35.710 --> 00:38.600
+Acum, denumirea este doar coincidență.
+
+00:38.660 --> 00:45.060
+Și nu are o relație reală cu structura de date numită heap.
+
+00:45.130 --> 00:45.980
+Ține minte asta.
+
+00:46.030 --> 00:48.490
+El este pur și simplu o grămadă de memorie.
+
+00:48.490 --> 00:55.780
+Dacă vorbim despre un termen de execuție a limbajului, de exemplu, față de o structură de date despre heap despre care
+
+00:55.780 --> 01:01.030
+vorbim acum, vreau să clarific acest lucru pentru dvs. deoarece atunci când învățam despre grămezi.
+
+01:01.030 --> 01:05.730
+Din anumite motive, am crezut întotdeauna că sunt același lucru, dar nu doar o aruncă acolo.
+
+01:05.770 --> 01:07.230
+Îl voi vedea următorul videoclip.
+
+01:07.240 --> 01:07.740
+Pa.

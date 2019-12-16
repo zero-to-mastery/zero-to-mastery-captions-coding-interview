@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.650 --> 00:01.640
+Walk back.
+
+00:02.030 --> 00:09.310
+I've left for you the solution for the selection sort now I'm not going to be going one by one to each
+
+00:09.430 --> 00:14.070
+sorting algorithm because it does take a lot of time.
+
+00:14.140 --> 00:19.180
+I don't want to bore you and lose you because there's so many more exciting things happening throughout
+
+00:19.180 --> 00:24.490
+the next couple of videos so I'll leave this for you to see how it works.
+
+00:24.490 --> 00:27.310
+It's not that much different from bubble sort.
+
+00:27.310 --> 00:29.270
+We see that with selection sort.
+
+00:29.470 --> 00:32.320
+We're setting the current index as the minimum.
+
+00:32.440 --> 00:37.060
+So the very first item in the array becomes the minimum.
+
+00:37.060 --> 00:43.870
+But when we loop through the rest of the list we want to update the minimum.
+
+00:44.270 --> 00:49.730
+If the current is lower than what we had previously So what we had here where we initially set the first
+
+00:49.730 --> 00:52.570
+item in the array ninety nine as the minimum.
+
+00:52.850 --> 00:58.940
+As soon as we get to four forty four we're going to say oh 44 is less than ninety nine.
+
+00:59.000 --> 01:05.250
+Let's update the minimum so that index where 44 is is now the minimum.
+
+01:05.570 --> 01:15.890
+And we're going to swap out those numbers just like we saw in the animation and it also is a really
+
+01:16.120 --> 01:18.820
+well-documented thing on the Internet.
+
+01:19.070 --> 01:30.370
+For example if you are a Python developer you can just type in Python selection sort and you'll find
+
+01:30.370 --> 01:38.740
+that yeah you can find how selection sorts it's implemented in Python and you can run the program as
+
+01:38.740 --> 01:39.290
+well.
+
+01:39.550 --> 01:45.100
+So depending on your language you can usually click on the first or second link and show you how the
+
+01:45.100 --> 01:47.560
+algorithm is implemented.
+
+01:48.520 --> 01:53.950
+As you can see here we have two nested for loops looping through the entire array.
+
+01:53.980 --> 02:00.070
+So it's all over and square for the rest of the sorting algorithms.
+
+02:00.070 --> 02:05.030
+I will have the code provided for you so you can play with it and interact with it.
+
+02:05.200 --> 02:12.920
+You see that the sorting works as expected but it can also search for your own language.
+
+02:13.880 --> 02:15.650
+To find the sorting algorithm.
+
+02:15.650 --> 02:18.660
+So you understand it on a deeper level.
+
+02:18.680 --> 02:22.570
+Let's talk about the next sorting algorithm in the video coming up.

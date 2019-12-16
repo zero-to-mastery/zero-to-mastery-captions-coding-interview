@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.680 --> 00:04.970
+Camminali indietro Ho un piccolo esercizio divertente per te.
+
+00:04.970 --> 00:06.390
+E ora ti stai chiedendo.
+
+00:06.480 --> 00:08.660
+Andrea dici che tutti gli esercizi sono divertenti.
+
+00:08.660 --> 00:10.750
+Sei un grande bugiardo.
+
+00:10.750 --> 00:11.300
+Tutto ok.
+
+00:11.300 --> 00:14.000
+Punto giusto ma penso che questo sarà divertente.
+
+00:14.000 --> 00:15.100
+Quindi resta con me.
+
+00:16.020 --> 00:24.390
+Voglio che tu scriva una funzione in realtà due funzioni che trova il fattoriale di qualsiasi numero.
+
+00:24.470 --> 00:26.030
+Ora perché due funzioni.
+
+00:26.240 --> 00:34.820
+Beh, una funzione sarà ricorsiva usando ciò che abbiamo appena imparato dove dobbiamo creare un caso base, dobbiamo
+
+00:34.820 --> 00:37.030
+seguire i passi giusti.
+
+00:37.100 --> 00:44.030
+Se torniamo, dobbiamo identificare un caso base e un caso ricorsivo e infine assicurarci
+
+00:44.030 --> 00:46.970
+di girare entrambi i casi.
+
+00:47.110 --> 00:57.670
+Quindi questa funzione ricorsiva restituirà una risposta, ma quello che è un fattoriale è un buon modo di
+
+00:57.670 --> 00:59.510
+pensare fattoriale.
+
+00:59.620 --> 01:10.030
+Questa notazione cinque fattogrammi esclamativi significa semplicemente moltiplicare cinque volte quattro volte tre volte due
+
+01:10.150 --> 01:12.280
+volte uno.
+
+01:12.490 --> 01:18.540
+Continui a scendere uno per uno moltiplicando ogni numero finché non arrivi a 1.
+
+01:18.790 --> 01:27.260
+Quindi sei fattoriale sarà sei volte cinque volte quattro volte tre volte a 10 Amazon e noterete
+
+01:27.260 --> 01:36.770
+qui che è un modello di ricorsione che stiamo facendo chiamiamo la funzione e abbiamo due casi che possono
+
+01:36.770 --> 01:37.630
+accadere.
+
+01:37.670 --> 01:45.440
+Abbiamo il caso base di fermarsi o caso ricorsivo e così via e così via e continuiamo ad andare
+
+01:45.440 --> 01:48.840
+avanti fino a quando non colpiamo 1.
+
+01:48.860 --> 01:52.620
+Quindi voglio costruire una funzione che faccia questo per noi.
+
+01:52.760 --> 01:56.840
+Ho intenzione di scrivere la funzione fattoriale.
+
+01:56.840 --> 02:01.050
+Ne inserirai in cinque e questo si verificherà.
+
+02:01.490 --> 02:09.190
+Ma ricorda che la nostra definizione di ricorsione ricorsiva è quando definisci qualcosa in termini di se stesso.
+
+02:09.210 --> 02:19.490
+Ora un buon modo di pensare a factorial è che questo cinque fattoriale è semplicemente cinque volte quattro fattoriale.
+
+02:19.670 --> 02:24.260
+Vedete qui cinque volte quattro fattoriale è fattoriale cinque
+
+02:27.040 --> 02:34.510
+cinque volte quattro volte tre fattoriale quattro volte tre è cinque fattoriale perché quattro volte
+
+02:34.510 --> 02:42.500
+fattoriale tre equivale a fattoriale e vedete qui come potremmo avere una funzione di ricorsione che possiamo
+
+02:43.010 --> 02:45.290
+scrivere usando questa conoscenza.
+
+02:45.290 --> 02:50.110
+Vedi se riesci a creare una funzione che ti consenta di farlo.
+
+02:50.210 --> 02:54.500
+Ora, quando si tratta di questa domanda, ci sono due modi in cui puoi farcela.
+
+02:54.560 --> 03:00.950
+Puoi fare l'approccio ricorsivo in cui la funzione si chiama o puoi fare l'approccio
+
+03:01.010 --> 03:09.470
+iterativo che significa looping e la maggior parte di voi probabilmente troverà più facile risolverlo in questo modo con
+
+03:09.470 --> 03:11.200
+un ciclo for.
+
+03:11.270 --> 03:15.840
+Per esempio, lascerò questo a te per capirlo.
+
+03:15.870 --> 03:19.540
+Vedi se riesci a fare entrambe le funzioni e vedere se ti danno il numero giusto.
+
+03:20.010 --> 03:23.000
+E nel prossimo video ti mostrerò la risposta.
+
+03:23.100 --> 03:24.230
+Lo vedrò.
+
+03:24.240 --> 03:24.580
+In bocca al lupo.

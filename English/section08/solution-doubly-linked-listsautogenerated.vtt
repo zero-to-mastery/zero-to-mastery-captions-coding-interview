@@ -1,0 +1,292 @@
+WEBVTT
+
+00:01.270 --> 00:02.190
+We'll come back.
+
+00:02.390 --> 00:12.290
+We have our original length list and we just found out that our linked list is actually a singly linked
+
+00:12.290 --> 00:18.320
+list but we want to convert this now into a doubly linked list.
+
+00:19.090 --> 00:25.300
+So that we add that X sure feature of an extra pointer.
+
+00:25.510 --> 00:27.670
+How will we go about doing that.
+
+00:28.120 --> 00:33.210
+Well let's go line by line and luckily for us it's not that difficult.
+
+00:34.810 --> 00:41.970
+As you can imagine if we go line by line and go into the constructor the one extra piece of information
+
+00:41.970 --> 00:49.140
+that we need to add now is that we also have a previous pointer now and this previous pointer will be
+
+00:49.260 --> 00:50.630
+no to begin with.
+
+00:50.640 --> 00:52.910
+So the head is going to point to no.
+
+00:53.460 --> 00:55.960
+And everything else stays the same.
+
+00:56.930 --> 01:00.730
+But what happens when we append something well.
+
+01:00.770 --> 01:08.240
+Once again we're going to add a new note that also has previous property a new property that points
+
+01:08.240 --> 01:14.440
+to nil and we're still going to have the tail dot next equal to the new node.
+
+01:14.590 --> 01:23.980
+And this doesn't change but the only line that changes is that we need to add a previous property because
+
+01:23.980 --> 01:28.060
+remember append is adding at the end of the list.
+
+01:28.060 --> 01:35.380
+We want to add the previous property to equal whatever was at the end of the original list before we
+
+01:35.380 --> 01:36.640
+did the update.
+
+01:36.700 --> 01:46.240
+So all we need to do is say new node that previous is going to equal this dot till the very last item
+
+01:46.930 --> 01:51.700
+before it gets updated over here to the new node.
+
+01:51.720 --> 01:54.260
+Let's see if append works the way we have it.
+
+01:54.780 --> 02:04.550
+I'm going to scroll down here and just comment out all of this code except for the first two lines.
+
+02:05.350 --> 02:07.320
+Append five and append 16.
+
+02:07.390 --> 02:15.020
+If I click right here I get a doubly linked list that has a head of value 10.
+
+02:15.050 --> 02:23.590
+OK that points to next which is the next node we see value 5 that points to an object that we don't
+
+02:23.590 --> 02:30.220
+really know yet and also points to a previous object.
+
+02:30.430 --> 02:39.050
+And within this 10 node we see that previous points to know because there's nothing before the head.
+
+02:39.190 --> 02:48.730
+If we look at that tail we see that the tail now has a value of 16 next is not because it is the tail
+
+02:48.730 --> 02:59.710
+it's the end but the previous node is also pointing to this node 5 and the doubly linked list has a
+
+02:59.710 --> 03:02.660
+length of three.
+
+03:02.700 --> 03:03.240
+Very cool.
+
+03:03.240 --> 03:07.260
+So all we've added is this previous reference.
+
+03:07.410 --> 03:09.490
+Let's do the same for Prebend.
+
+03:09.570 --> 03:12.090
+That is to add at the beginning of the list.
+
+03:12.090 --> 03:22.560
+We scroll up to prebend we once again want to add a new property which will be the previous that will
+
+03:22.590 --> 03:24.080
+equal to know for now.
+
+03:24.480 --> 03:32.850
+And we want to keep everything the same way we want to make sure that the new node dot next is going
+
+03:32.850 --> 03:36.340
+to point to whatever the head is currently.
+
+03:36.450 --> 03:43.950
+But we also want to say that this Dot had dot previous the previous should now point to our new node
+
+03:44.250 --> 03:46.410
+because it's no longer the head.
+
+03:46.860 --> 03:53.730
+And then we can update the had to be our node and this dot lenth is going to increase and we're going
+
+03:53.730 --> 03:54.880
+to return this.
+
+03:55.410 --> 04:00.210
+If I click run here remember where prepending 1.
+
+04:00.220 --> 04:03.140
+So we're adding 1 to the beginning of the list.
+
+04:03.320 --> 04:10.400
+We see that are doubly linked list now has a head with the one value that's pointing to the next value
+
+04:10.400 --> 04:16.950
+which is the 10 and our tail is still the same tale is 16.
+
+04:16.970 --> 04:20.310
+That points to the value of five.
+
+04:20.780 --> 04:29.150
+So if we print last year again one 10 5:16 as we expected.
+
+04:29.160 --> 04:31.620
+What about the insert.
+
+04:31.770 --> 04:32.720
+How would that work.
+
+04:33.650 --> 04:41.960
+If we go to insert method here and go line by line this first part everything's OK.
+
+04:42.080 --> 04:43.000
+We have a new node.
+
+04:43.010 --> 04:50.800
+So again we'll add a previous property that will be know for now we're still grabbing the leader and
+
+04:50.800 --> 04:52.190
+traversing the index.
+
+04:53.100 --> 04:56.260
+But now we have to do things a bit differently.
+
+04:56.800 --> 05:02.310
+We need to grab the leader as well as the follower.
+
+05:02.320 --> 05:11.550
+So if you wanted to add ninety nine here we need to grab a reference to 10 the leader and also the follower
+
+05:11.830 --> 05:12.590
+5.
+
+05:13.140 --> 05:16.100
+So I'm going to change the name of leader Don next.
+
+05:16.110 --> 05:22.390
+That is 5 over here to say follower.
+
+05:22.840 --> 05:30.430
+So the leader of our new node and the follower of our you know now follower is now going to be the five
+
+05:31.480 --> 05:33.970
+we're going to update leader done next.
+
+05:33.970 --> 05:41.860
+So that is five or leader done next which is what comes after 10 to be the new node are ninety nine
+
+05:42.960 --> 05:47.970
+and then new NO done next is going to equal the follower.
+
+05:48.240 --> 05:50.480
+That is five.
+
+05:50.630 --> 05:59.920
+But we also want to make sure that our new node got previous is going to equal the leader.
+
+06:00.290 --> 06:10.960
+That is the 10 and also make sure that the follower that is the five has a previous value that points
+
+06:10.960 --> 06:15.070
+to our new node.
+
+06:15.080 --> 06:22.800
+So if I print list here with our insert I've inserted the value would just to check that everything
+
+06:22.800 --> 06:23.680
+is working.
+
+06:23.730 --> 06:35.460
+I'm going to console Daut log this which is our link list if I click run I see that our linked list
+
+06:36.030 --> 06:42.420
+has a lenth of 5 and I'm going to change just to index of one so we can see it in our output here.
+
+06:42.450 --> 06:49.470
+And when I say index of one by click run I see that head is now value of one the next and the item is
+
+06:49.470 --> 06:50.820
+value of 99.
+
+06:51.240 --> 06:59.730
+As we expected and it has both next and previous properties and that's not too bad right as long as
+
+07:00.030 --> 07:04.200
+you visualize the steps and draw your diagrams.
+
+07:04.200 --> 07:11.220
+All we're doing is saying add the new node or get the leader to point to then you note then you know
+
+07:11.230 --> 07:19.470
+to now point to the leader and the new node should point after it next to the follower and the follower
+
+07:19.650 --> 07:24.430
+is now going to point back to the new node.
+
+07:24.530 --> 07:30.560
+You might have to go through this in your hat or dried out on a paper but it should make sense now and
+
+07:30.560 --> 07:37.010
+at the end of the day singly linked lists and doubly linked lists aren't that different as you see.
+
+07:37.010 --> 07:41.700
+All we're doing is just managing another pointer that points to the previous note.
+
+07:42.520 --> 07:50.110
+I'm going to leave the remove linked list up to you to implement your own.
+
+07:50.110 --> 07:56.590
+And the doubly linked list as you've learned up until now it should be very different from what we did
+
+07:56.730 --> 07:59.600
+in the insert.
+
+08:00.040 --> 08:03.870
+But I hope you have an understanding of how link lists work.
+
+08:03.870 --> 08:11.230
+Now interviewers love asking questions of all linked lists because it requires a lot of information
+
+08:11.230 --> 08:16.420
+to be held in your head and as you can see they can be really complicated if you're not the type of
+
+08:16.420 --> 08:21.740
+person that thinks clearly through their steps and understand what they're doing.
+
+08:21.760 --> 08:25.640
+One by one and the steps are really important.
+
+08:25.660 --> 08:29.940
+That's why interviewers love this question because they really get to see how you think.
+
+08:31.220 --> 08:37.400
+And with link lists as longus do you draw out why you're doing step by step it becomes really really
+
+08:37.400 --> 08:37.810
+easy.
+
+08:37.820 --> 08:42.200
+As long as you don't just start coding it out from memory.
+
+08:42.200 --> 08:43.730
+Just draw the steps.
+
+08:43.730 --> 08:47.010
+Think about your steps and the interviewer will be impressed.
+
+08:47.800 --> 08:48.760
+I'll see in the next one.

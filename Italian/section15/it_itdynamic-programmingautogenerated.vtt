@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.900 --> 00:08.530
+Tornate indietro se diamo un'occhiata alla nostra funzione di Fibonacci che abbiamo creato questo è ciò che stiamo facendo.
+
+00:09.000 --> 00:17.670
+Se stavo cercando un numero di Fibonacci di 7 usando la ricorsione, dovremmo eseguire tutti questi calcoli in
+
+00:17.670 --> 00:21.030
+modo ricorsivo e anche tutto questo.
+
+00:21.360 --> 00:25.010
+E puoi vedere qui cosa sta succedendo.
+
+00:25.020 --> 00:28.430
+Guarda dove stiamo calcolando Fibonacci di uno.
+
+00:28.710 --> 00:34.970
+Abbiamo questa funzione che esegue uno due tre quattro cinque volte calcolando la stessa cosa.
+
+00:35.060 --> 00:37.300
+Che ne dici di Fibonacci di due.
+
+00:37.460 --> 00:45.630
+Di nuovo, guarda tutti questi calcoli che si ripetono su 3 e vedi qui dove i
+
+00:45.630 --> 00:53.700
+triangoli si sovrappongono dove stiamo calcolando 3 su dove abbiamo calcolato 2 e anche Fibonacci
+
+00:53.700 --> 00:54.870
+di 1.
+
+00:54.870 --> 01:04.660
+E poi, se continuiamo a passare al puro numero quattro di Bonacci, ripetiamo ancora i triangoli con i compiti sui triangoli e
+
+01:04.750 --> 01:07.910
+infine con Fibonacci di sei o cinque.
+
+01:08.080 --> 01:14.320
+Vediamo che ancora una volta abbiamo solo calcoli più ripetuti.
+
+01:14.320 --> 01:16.640
+Questo non sembra efficiente lo fa.
+
+01:16.780 --> 01:18.720
+Ed è quello che abbiamo visto nel video precedente.
+
+01:18.730 --> 01:21.340
+Questo è quello che stiamo facendo con i nostri calcoli.
+
+01:21.910 --> 01:30.220
+Ma se notate qui con la programmazione dinamica, possiamo ottimizzarlo e usare la memoizzazione per dire hey
+
+01:31.570 --> 01:42.260
+calcolare che Fibonacci di sette va in modo ricorsivo fino a 6 2 5 2 4 2 3 2 2 e anche 2 1.
+
+01:42.390 --> 01:51.030
+E ora, mentre torniamo, ricordiamo che quando iniziamo a restituire le affermazioni e andiamo
+
+01:51.030 --> 01:59.790
+a cinque di due o cinque o tre o quattro prima, perché abbiamo già calcolato questi
+
+01:59.910 --> 02:09.200
+numeri possiamo effettivamente restituire una versione memorizzata in modo che tutti questi calcoli non siano più necessario.
+
+02:09.310 --> 02:10.200
+Perché.
+
+02:10.240 --> 02:19.050
+Perché due tre quattro e cinque ogni volta che lo chiediamo in questo caso, abbiamo già calcolato sul lato sinistro in
+
+02:19.050 --> 02:27.510
+modo da poter utilizzare la versione memorizzata o memorizzata in cache in modo che possiamo semplicemente chiedere alla funzione memorizzata
+
+02:27.510 --> 02:29.230
+di darci per noi.
+
+02:29.250 --> 02:36.660
+Evitiamo che tutti questi calcoli siano così semplici da sembrare e ti mostrerò nel prossimo video
+
+02:36.660 --> 02:40.500
+come implementiamo questo con la sequenza di Fibonacci.
+
+02:40.860 --> 02:46.860
+Ma per dimostrarti che questo non è solo questo problema su cui possiamo usare la programmazione
+
+02:46.860 --> 02:47.520
+dinamica.
+
+02:47.640 --> 02:50.270
+Ho un set di regole.
+
+02:50.430 --> 02:57.280
+Uno è che non si può pensare alla programmazione dinamica come combinando divide e conquista.
+
+02:57.300 --> 03:06.450
+Quello che abbiamo fatto con la struttura ad albero del numero di Bonacci dove usiamo la ricorsione e l'uso del riutilizzo
+
+03:06.450 --> 03:14.920
+che è incassare nella memoizzazione con la ricorsione per ottenere risparmi nelle prestazioni e utilizzare la programmazione dinamica.
+
+03:15.630 --> 03:23.850
+E questi sono i passi da seguire per vedere se un problema può utilizzare la programmazione dinamica per
+
+03:23.850 --> 03:24.810
+ottimizzarlo.
+
+03:24.840 --> 03:32.520
+Innanzitutto chiediamo il problema può essere diviso in sottoproblemi che è.
+
+03:32.590 --> 03:39.160
+È una struttura ad albero in cui ogni problema è suddiviso in problemi più piccoli in problemi
+
+03:39.160 --> 03:44.600
+più piccoli e fa piccoli problemi che di solito indicano una soluzione ricorsiva.
+
+03:45.010 --> 03:51.080
+Di nuovo qualcosa di cui siamo molto familiari dai nostri video precedenti e ora
+
+03:51.080 --> 03:58.190
+la terza domanda è davvero importante perché puoi avere strutture ad albero che non hanno sottoproblemi ripetitivi.
+
+03:58.430 --> 04:05.330
+Ma se questi sottoprobleble sono ripetitivi è che stiamo facendo lo stesso calcolo più e più volte
+
+04:05.400 --> 04:06.630
+nei sottoproblemi.
+
+04:06.860 --> 04:16.130
+Bene, se la risposta è sì, possiamo memorizzare questi sottoproblemi e, una volta che lo facciamo, vediamo enormi benefici e questi benefici sono
+
+04:16.310 --> 04:23.720
+usati in tutto l'informatica per migliorare le prestazioni in modo che il quinto passo dovrebbe essere quello di
+
+04:23.720 --> 04:26.290
+chiedere un aumento dal tuo capo.
+
+04:26.300 --> 04:34.090
+Se hai implementato questo perché hai appena salvato così tanti calcoli per la complessità del tempo, voglio che
+
+04:34.090 --> 04:42.010
+tu pensi in questo modo invece di essere intimidito dal nome confuso che è la programmazione dinamica, devi solo
+
+04:42.940 --> 04:47.350
+sapere quando un problema può usare questa tecnica .
+
+04:47.500 --> 04:53.040
+E almeno alcuni problemi per te dopo questa sezione per esercitarti, ma vuoi semplicemente seguire questo
+
+04:53.040 --> 04:53.580
+schema.
+
+04:54.560 --> 05:00.950
+Quando un problema ha soluzioni composte da soluzioni allo stesso problema con input sempre più piccoli ogni problema
+
+05:01.640 --> 05:08.900
+viene risolto una sola volta e il risultato di ogni sottoproblema viene memorizzato in una tabella come una cache come una
+
+05:09.740 --> 05:12.810
+tabella hash come abbiamo fatto nella precedente video.
+
+05:12.950 --> 05:21.410
+Per riferimento futuro possiamo usare questa tabella per ottenere la soluzione originale di un problema ripetuto.
+
+05:21.770 --> 05:22.550
+Basta parlare.
+
+05:22.640 --> 05:30.870
+Penso che sia tempo per noi di implementare la nostra memorizzazione con il numero di Fibonacci se vuoi sfidare
+
+05:30.870 --> 05:32.040
+te stesso.
+
+05:32.070 --> 05:35.270
+Vai avanti e vedi se ti ha programmato diversamente.
+
+05:35.280 --> 05:42.530
+E il prossimo video ti mostrerò come migliorare la nostra terribile funzione Fibonacci e
+
+05:42.560 --> 05:45.710
+andare oltre e vedrò in quello.

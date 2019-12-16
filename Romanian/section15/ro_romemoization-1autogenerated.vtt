@@ -1,0 +1,241 @@
+WEBVTT
+
+00:01.170 --> 00:08.630
+Pentru a înțelege cum funcționează dinamica programare, trebuie să înțelegem ce înseamnă caching-ul.
+
+00:09.000 --> 00:13.970
+Caching-ul este o modalitate de a stoca valori, astfel încât să le poți folosi mai târziu.
+
+00:14.310 --> 00:23.240
+În mod ideal vă puteți gândi la caching-ul ca un rucsac pe care îl iau la școală, în loc să meargă acasă când aveți nevoie
+
+00:23.360 --> 00:25.520
+de ceva asemănător unui creion.
+
+00:25.640 --> 00:34.940
+Aveți o cutie mică pe spate, care deține obiectele de care aveți nevoie, astfel încât atunci când mergeți la
+
+00:34.940 --> 00:38.340
+școală, puteți să le refolosiți repede.
+
+00:38.350 --> 00:40.720
+Acum e un exemplu prost.
+
+00:40.750 --> 00:48.700
+Caching-ul este doar o modalitate de a accelera programele și de a ține o bucată de date într-o cutie ușor accesibilă,
+
+00:48.700 --> 00:55.690
+iar memoizarea este o formă specifică de caching pe care o vom vorbi, pentru că o folosim foarte
+
+00:55.690 --> 00:57.640
+mult în programarea dinamică.
+
+00:58.090 --> 01:06.270
+Dar, în loc de a vorbi doar despre asta, să demonstrăm cu adevărat în cod modul în care putem cache lucrurile.
+
+01:06.550 --> 01:14.940
+Să presupunem că avem o funcție care spune că vrem să adăugăm la 80 și această funcție ia
+
+01:16.040 --> 01:21.310
+un număr și tot ce face este să returneze valoarea.
+
+01:21.330 --> 01:22.960
+Și acesta este un parametru.
+
+01:22.960 --> 01:25.940
+Dă-o și adaugă la ea optzeci.
+
+01:26.870 --> 01:37.450
+Așa că atunci când rulam funcția de adăugat la 80 și să spunem că am pus în cinci primim 85 rata frumos și simplu, dar dacă am
+
+01:38.030 --> 01:46.920
+rula această funcție din nou, va trebui să treacă prin acest pas din nou și să adăugați 80 la acest răspuns.
+
+01:46.970 --> 01:54.950
+Și dacă fac din nou din nou același lucru, am executat calculul de trei ori, dar
+
+01:54.950 --> 01:59.160
+dacă această operație a durat foarte mult timp.
+
+01:59.600 --> 02:06.540
+Dacă aș avea o consolă ca aici și ne putem imagina că această operație durează mai multe secunde.
+
+02:06.710 --> 02:07.990
+E nevoie de mult timp.
+
+02:08.800 --> 02:15.700
+De fiecare dată când executați această funcție, va trebui să alergăm de trei ori și să trecem pasul unul
+
+02:16.390 --> 02:17.440
+câte unul.
+
+02:17.620 --> 02:25.100
+Chiar dacă am făcut exact același calcul de trei ori Există o modalitate prin care putem optimiza acest lucru.
+
+02:25.260 --> 02:34.140
+Și aici putem folosi caching-ul și memoizarea, să îmbunătățim funcția de mai sus, făcând ceva
+
+02:34.140 --> 02:35.230
+diferit.
+
+02:35.280 --> 02:42.480
+Voi crea un nou obiect numit Cache care va ține un obiect gol.
+
+02:42.480 --> 02:50.570
+Vom avea, de asemenea, o funcție care va fi acum numită memorată memorată nu memorată adăugați
+
+02:52.120 --> 03:00.970
+la DD care ia un număr și în interiorul aici vom face ceva diferit de cele de mai
+
+03:00.970 --> 03:01.590
+sus.
+
+03:01.600 --> 03:06.990
+Vom adăuga încă 280, dar o vom face într-un mod special.
+
+03:07.120 --> 03:18.460
+Voi spune că dacă n este în numerar și aceasta este o modalitate de a verifica dacă o proprietate există într-un obiect în
+
+03:18.460 --> 03:19.220
+Javascript.
+
+03:19.270 --> 03:25.630
+Deci, este similar cu mine facand punct de numerar si pentru a verifica proprietatea.
+
+03:25.630 --> 03:27.730
+Acesta citește doar despre un cântec și o păstrează așa.
+
+03:27.730 --> 03:30.170
+Deci, dacă există în numerar.
+
+03:30.250 --> 03:43.610
+Deci, dacă l-am încasat mai devreme, atunci întoarceți pur și simplu punctul de numerar și / sau numerar și astfel întoarceți valoarea cache.
+
+03:44.020 --> 03:45.820
+Dar, evident, este gol.
+
+03:45.820 --> 03:52.440
+Prima dată în jur, acest lucru nu va funcționa dacă nu există nimic în memoria cache, care este cazul prima oară
+
+03:52.440 --> 03:53.410
+în jur.
+
+03:53.490 --> 04:07.170
+Ei bine, avem o altă declarație și aici vom avea banii noștri care încă nu există și îi încredințează un plus de
+
+04:07.170 --> 04:21.120
+80, pentru ca după aceea, dacă facem ceva de genul Moammar, cel mai tare ar fi de optzeci și cinci, se va
+
+04:21.130 --> 04:24.260
+spune cinci plus 80.
+
+04:24.340 --> 04:33.860
+Deci, aici vom plăti proprietatea cinci pentru a avea o valoare de optzeci și cinci, ceea ce
+
+04:33.860 --> 04:40.870
+facem aici, pentru ca următoarea dată să facem ceva de genul acesta.
+
+04:41.150 --> 04:47.870
+Trecem prin declarația if găsim faptul că deja am calculat cinci și pur și simplu facem accesul
+
+04:47.930 --> 04:55.960
+la proprietăți simple care, după cum știm e de o dată este super rapid, cu o tabelă de tip hash ca acesta.
+
+04:56.090 --> 04:59.220
+Să terminăm acest exemplu pentru a vă arăta cum funcționează.
+
+04:59.360 --> 05:03.360
+Pur și simplu o să mă întorc de când
+
+05:10.100 --> 05:12.140
+ne ocupăm de aici.
+
+05:12.140 --> 05:19.160
+Și să avem doar un jurnal de console aici, care are mult timp să vedem că facem calculul
+
+05:19.160 --> 05:20.450
+care durează mult.
+
+05:21.380 --> 05:28.940
+Prima dată când conduc această funcție, primesc optzeci și cinci și am prefinanțat banii.
+
+05:29.020 --> 05:30.940
+Deci a făcut și a calcula mult timp.
+
+05:30.940 --> 05:32.020
+Să încercăm din nou asta.
+
+05:32.290 --> 05:40.500
+Dați click pe termen lung Prima trecere prin aceasta a trecut aici și a făcut acest calcul care ipotetic va dura
+
+05:40.500 --> 05:42.450
+un timp foarte lung.
+
+05:42.450 --> 05:47.490
+Din nou, folosim un exemplu frumos aici, dar vă puteți imagina că acest lucru este
+
+05:47.490 --> 05:54.470
+un calcul care durează mult timp multe secunde, dacă dacă facem acest lucru din nou, putem consoliza câinele ca aici
+
+05:58.020 --> 06:01.440
+pentru a ne asigura că noi captăm aceste valori.
+
+06:04.580 --> 06:12.700
+Și le vom eticheta cu unul și două, astfel încât să le putem distinge.
+
+06:12.700 --> 06:20.150
+Deci, primul gol și cel de-al doilea apel, dacă l-am lovit, se uită la prima dată în jur.
+
+06:20.180 --> 06:23.440
+Noi numim mult timp și noi calculam la 85.
+
+06:23.630 --> 06:31.400
+Dar a doua oară, pentru că această valoare era în numerar, trebuia să facem acest calcul
+
+06:31.430 --> 06:33.870
+lung și l-am întors imediat.
+
+06:35.300 --> 06:43.880
+Deci, ceea ce este memorarea exactă memoizarea este o formă specifică de caching care implică încasarea
+
+06:43.880 --> 06:45.220
+valorii returnate.
+
+06:46.260 --> 06:53.510
+Toate funcțiile care reprezintă valoarea returnată a acestei funcții pe baza parametrilor acesteia.
+
+06:53.960 --> 07:03.260
+Și dacă parametrul acestei funcții nu se schimbă așa cum este aici, atunci este memorat.
+
+07:03.260 --> 07:09.800
+Aceasta este utilizarea cache-ului pentru că este calculat același lucru înainte cu același parametru
+
+07:09.800 --> 07:14.410
+și va reveni la o versiune cache a funcției.
+
+07:14.630 --> 07:18.960
+Este memorat dacă parametrul se schimbă.
+
+07:19.340 --> 07:26.220
+Ei bine, este un alt parametru care nu a mai fost văzut până acum, așa că va calcula ambele vremuri.
+
+07:27.060 --> 07:28.040
+Lucruri diferite.
+
+07:28.230 --> 07:30.930
+Și tocmai am observat că nu ar trebui să existe cinci probleme.
+
+07:31.190 --> 07:33.150
+Și aici, deci este dinamic.
+
+07:33.150 --> 07:33.770
+Acolo te duci.
+
+07:33.840 --> 07:35.670
+Asa e mai bine.
+
+07:35.670 --> 07:42.810
+Deci, amintiți-vă că această memorare este pur și simplu o modalitate de a vă aminti o soluție la o problemă rezolvată.
+
+07:42.990 --> 07:45.600
+Deci nu trebuie să calculați din nou.

@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.320 --> 00:02.350
+All right.
+
+00:02.370 --> 00:09.140
+So we have an idea of how to increase our percentage of odds of getting an interview.
+
+00:09.150 --> 00:16.020
+We also learned about Big-O notation and how we can use it to look at our code and analyze whether it
+
+00:16.020 --> 00:17.710
+is efficient or not.
+
+00:18.540 --> 00:23.740
+Using our knowledge up until now let's move to another important topic.
+
+00:23.910 --> 00:29.250
+At the end of the day an interview is a way for the company to find out.
+
+00:29.430 --> 00:33.710
+Can you solve a problem that the company or employer has.
+
+00:33.780 --> 00:40.680
+Because if you're able to solve their problems then you're valuable and you will produce more value
+
+00:40.680 --> 00:44.920
+to them than the salary that they're paying you.
+
+00:44.940 --> 00:49.760
+That is what a technical interview tries to answer.
+
+00:49.780 --> 00:55.050
+Now we can be smart and strategic about where we apply and how we apply to a company.
+
+00:55.120 --> 00:57.630
+And we learned about that in the previous sections.
+
+00:57.880 --> 01:00.140
+But here comes the big challenge.
+
+01:00.190 --> 01:01.990
+You've got an interview.
+
+01:02.180 --> 01:06.330
+What do you do over the next couple of sections.
+
+01:06.330 --> 01:11.750
+We're going to tackle this question and get you as prepared as possible for the coding interview.
+
+01:12.000 --> 01:13.860
+And we're going to get very technical.
+
+01:13.860 --> 01:18.290
+I know up until now we haven't seen that much code but we're going to get into the nitty gritty details
+
+01:18.300 --> 01:20.120
+over the next couple of sections.
+
+01:20.280 --> 01:27.090
+But before we dive into coding problems data structures and algorithms and all of these FAAN coding
+
+01:27.300 --> 01:37.570
+details we must first understand this one principle how to solve problems you see if we know every single
+
+01:37.630 --> 01:44.300
+algorithm in the world inside and out you know all the data structures you're the best coder in the
+
+01:44.300 --> 01:44.960
+world.
+
+01:45.170 --> 01:49.740
+Well it doesn't guarantee that you will succeed in a technical interview.
+
+01:50.680 --> 01:56.860
+This section is meant to prepare you so that you have the foundation laid out so that after this all
+
+01:56.860 --> 02:02.920
+you need to succeed in the technical interview is the actual coding aspects of the questions.
+
+02:02.920 --> 02:08.470
+You see it's not the smartest interviewer that gets hired most of the time it's the interviewer that
+
+02:08.470 --> 02:14.300
+is able to answer this fundamental question will you solve the company's problem.
+
+02:15.300 --> 02:21.960
+If you're a genius but you can't talk to people you don't work well with others or you write ugly code
+
+02:21.960 --> 02:29.000
+that people don't understand or you can't communicate a solution to a problem then you won't get a job.
+
+02:29.520 --> 02:35.880
+You see it's not necessarily about the solution to a problem in a coding interview it's about the thought
+
+02:35.880 --> 02:42.990
+process and knowing the tradeoffs between data structures and algorithms space and time complexity.
+
+02:42.990 --> 02:46.520
+Just like in real life coding you don't memorize things.
+
+02:46.680 --> 02:52.050
+You have to deeply understand them understand the tradeoffs.
+
+02:52.050 --> 02:53.660
+So that's what we're doing here.
+
+02:53.670 --> 02:59.040
+I know I'm taking a long time to get to my points but we're trying to build the fundamentals before
+
+02:59.040 --> 03:03.050
+we dive in really deep so we understand the why of each thing.
+
+03:03.330 --> 03:10.110
+We're building this foundation by first understanding the big-O which we did in the previous section
+
+03:10.560 --> 03:14.000
+and then learning how to solve these problems.
+
+03:14.400 --> 03:21.510
+In this section I'm going to show you step by step what we need to do to solve problems in a way that
+
+03:21.510 --> 03:25.940
+companies really like so that you succeed in this coding interview.
+
+03:26.010 --> 03:33.210
+We're going to look at some sample coding interviews from Google and see what they did and what is the
+
+03:33.210 --> 03:36.120
+ideal process to ace this interview.
+
+03:36.740 --> 03:43.550
+So that once we have these foundations we can use data structures and algorithms to solve our problems
+
+03:44.300 --> 03:50.440
+because the interview isn't about your ability to memorize data structures and algorithms.
+
+03:50.570 --> 03:57.830
+Most people make that mistake and interviewers can detect right away who actually knows these things
+
+03:57.890 --> 04:01.670
+versus just memorizing them the week before the interview.
+
+04:01.760 --> 04:08.720
+So how can you ace the coding interview in this section we're going to talk about the technical interviews
+
+04:08.990 --> 04:11.300
+and how to succeed in them.
+
+04:11.360 --> 04:17.060
+I'm going to show you what a successful interview at Google looks like and then break everything down.
+
+04:17.060 --> 04:19.790
+Step by step as to why you need to do.
+
+04:19.820 --> 04:25.340
+I will also give you a nice little cheat sheet to summarize everything in this section so that you can
+
+04:25.400 --> 04:27.480
+always view it before an interview.
+
+04:28.300 --> 04:34.690
+At the end we're going to solve a coding problem ourselves just like you would in an interview and analyze
+
+04:34.750 --> 04:36.520
+different solutions to that problem.
+
+04:36.610 --> 04:42.210
+Based on what we have learned up until now we're going to figure out the best way to solve the problem
+
+04:42.520 --> 04:48.640
+but also analyzing different big-O solutions when it comes to space and time.
+
+04:48.850 --> 04:52.440
+By the end of this section you're going to have a big aha moment.
+
+04:52.600 --> 04:55.780
+I guarantee it where we're going to take everything we've learned.
+
+04:55.780 --> 05:02.540
+Up until now into our data structures and algorithm sections to really understand the tradeoffs Let's
+
+05:02.550 --> 05:03.010
+get started.
+
+05:03.010 --> 05:03.370
+Shelly.

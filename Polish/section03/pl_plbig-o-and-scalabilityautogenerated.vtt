@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.500 --> 00:02.360
+Witamy spowrotem.
+
+00:02.700 --> 00:07.990
+Kontynuujmy dyskusję na temat tego, co oznacza ta skalowalna idea.
+
+00:08.050 --> 00:13.710
+Pamiętasz, że rozmawialiśmy o kuchni i jak w kuchni musimy wydawać instrukcje
+
+00:13.980 --> 00:17.010
+naszym maszynom, aby uzyskać wynik.
+
+00:17.190 --> 00:20.450
+W poprzednim wideo mówiliśmy o dysfunkcji Znajdowanie Nemo.
+
+00:20.610 --> 00:24.220
+Zmierzmy wydajność tej funkcji.
+
+00:25.210 --> 00:33.920
+Dobrze javascript daje nam sprytne narzędzie, które jest wbudowane w przeglądarkę, na której uruchamiamy ten
+
+00:33.920 --> 00:34.980
+kod.
+
+00:35.060 --> 00:39.980
+Tak więc w zależności od języka możesz nie mieć tej opcji, ale będziesz miał różne sposoby
+
+00:39.980 --> 00:40.930
+jej pomiaru.
+
+00:40.940 --> 00:42.210
+Nie przejmuj się tym zbytnio.
+
+00:42.230 --> 00:47.460
+Chcemy użyć tego jako przykładu do pomiaru czasu działania tej funkcji.
+
+00:47.540 --> 00:57.360
+Możemy to zrobić w javascriptu, mówiąc, powiedzmy, Czas 0 ma równać się wydajności, która jest wbudowana
+
+00:57.360 --> 00:58.940
+w przeglądarkę.
+
+00:59.340 --> 01:09.590
+I mówimy, że teraz dodaj to do zera, zacznie ten zegar, zanim nastąpi pętla.
+
+01:09.790 --> 01:18.040
+A potem, gdy pętla się skończy, będę miał kolejny timer zwany T-1 i teraz będzie to teraz równe
+
+01:18.600 --> 01:19.810
+kropki wydajności.
+
+01:20.350 --> 01:25.600
+Mamy więc dwa timery jeden na początku jeden
+
+01:25.600 --> 01:34.330
+na końcu, po tym, jak funkcja przejdzie przez pętlę, by znaleźć Nimo, a na końcu
+
+01:34.360 --> 01:49.790
+zrobimy zabawne małe okno dialogowe konsoli, a my powiemy, że wezwanie do znalezienia Nemo miało i może po prostu zrobić prosty Tiran minus zero, a następnie powiemy
+
+01:50.480 --> 01:56.800
+milisekundy, ponieważ da nam wyniki i milisekundy. Zobaczymy, czy to działa.
+
+01:56.900 --> 02:06.170
+Chcę uruchomić ten kod i wypuścić tutaj przestrzeń i widzimy, że uruchomienie tego kodu trwało zero milli
+
+02:06.170 --> 02:07.080
+sekund.
+
+02:07.190 --> 02:12.770
+Pozwól mi uruchomić to znowu zero sekund ponownie zero sekund sekund zero sekund.
+
+02:12.770 --> 02:17.280
+A jeśli ciągle go klikaję, widzę, że oh teraz trwa to trochę dłużej.
+
+02:17.480 --> 02:20.200
+A to dlatego, że jest to naprawdę szybkie prawo.
+
+02:20.210 --> 02:25.910
+Czy w dzisiejszych czasach komputery komputerów są ekstremalnie szybkie i dlatego,
+
+02:25.910 --> 02:33.990
+że tylko raz to przechodzimy, zajmuje to prawie zero milisekund, a cały system wyświetla się na ekranie.
+
+02:34.040 --> 02:41.470
+Ale jeśli mielibyśmy większą tablicę, powiedzmy, że mamy tutaj tablicę, która kosztuje każdego i ma wszystkie postacie
+
+02:41.630 --> 02:46.790
+lub co najmniej wiele postaci z filmu Finding Nemo, jeśli go
+
+02:47.030 --> 02:48.100
+nie obejrzeliśmy.
+
+02:48.150 --> 02:48.850
+Niesamowity film.
+
+02:48.860 --> 02:50.510
+Gorąco go polecam.
+
+02:50.520 --> 02:54.640
+W każdym razie widzimy, że mamy teraz o wiele więcej postaci.
+
+02:54.710 --> 03:04.620
+Więc zamiast mieć tylko jedną tablicę, mamy tablicę, wszyscy tutaj i ta tablica ma teraz o wiele więcej przedmiotów ma
+
+03:04.710 --> 03:11.520
+jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć to tutaj jest dziesięć
+
+03:11.520 --> 03:15.760
+pętli, które zamierzamy zrobić, jeśli będziemy biegać to.
+
+03:16.040 --> 03:19.200
+Widzimy, że czas jest wciąż taki sam.
+
+03:19.370 --> 03:21.290
+Prawie zero milli sekund.
+
+03:21.410 --> 03:25.210
+Czasem trochę więcej, a czas zmienia się cały czas.
+
+03:26.260 --> 03:29.590
+Ale my nie widzimy tak wielkiej różnicy.
+
+03:29.590 --> 03:35.970
+Mam na myśli, że przebiegłeś od jednej pętli do teraz 10 pętli, ale wciąż jest super super szybki.
+
+03:36.040 --> 03:40.150
+I znowu dlatego, że nasze komputery w dzisiejszych czasach są dość szybkie.
+
+03:40.150 --> 03:44.590
+Różnica między jedną pętlą a 10 pętlami nie jest tak duża.
+
+03:45.560 --> 03:51.720
+Ale zróbmy tutaj małą zabawną sztuczkę w javascript, możemy stworzyć dużą tablicę.
+
+03:51.760 --> 03:59.520
+Powiedzmy, że jest duża i możemy stworzyć ogromną tablicę, mówiąc po prostu nową tablicą.
+
+04:00.520 --> 04:08.800
+Damy mu sto przedmiotów, a sto przedmiotów w tablicy możemy wypełnić, powiedzmy Nimo, a to
+
+04:08.800 --> 04:15.540
+po prostu stworzy tablicę, która ma Nimo sto razy, więc zamiast każdego
+
+04:19.190 --> 04:30.200
+bezróżdżkowego zrobić duży i uderzający kamień w prawo widzimy tutaj, że Nimo stoi sto razy, ponieważ dobrze wypełniamy Nimo, a
+
+04:30.200 --> 04:36.830
+na dole widzimy, że zajęło to pięć sekund Moli, które zajęły dużo
+
+04:36.920 --> 04:38.720
+więcej czasu.
+
+04:38.730 --> 04:41.640
+Dinant, zróbmy jeszcze więcej.
+
+04:41.670 --> 04:47.150
+Zróbmy tysiąc trafień Ron zajął 7 milisekund.
+
+04:47.150 --> 04:49.740
+A co, jeśli zrobisz je większe?
+
+04:49.740 --> 04:52.110
+Co jeśli mieliśmy masywną tablicę 10000.
+
+04:52.410 --> 04:55.990
+Zrobiliśmy 46 Meli sekund.
+
+04:56.010 --> 04:57.480
+Nadal jest dość szybki.
+
+04:57.480 --> 04:59.340
+A potem dla zabawy jeszcze jeden.
+
+04:59.340 --> 05:07.890
+Gdybym uciekł, zobaczyłbyś, że to opóźnienie i jak długo trwało to trzydzieści trzy milisekundy
+
+05:07.890 --> 05:14.230
+lub trzy czwarte sekundy teraz, co właśnie widzimy tutaj.
+
+05:14.230 --> 05:24.220
+Widzimy, że gdy nasz wkład wzrósł, nasza funkcja stała się wolniejsza, wolniejsza i wolniejsza.
+
+05:24.280 --> 05:30.430
+Nasz czas działania, jak długo trwa uruchomienie określonego problemu poprzez zwiększenie funkcji.
+
+05:30.490 --> 05:32.830
+Ale tutaj jest problem.
+
+05:32.830 --> 05:40.030
+Jeśli weźmiesz ten kod i uruchomisz go na swoim komputerze, podczas gdy twój czas będzie inny niż mój.
+
+05:40.570 --> 05:44.140
+Zostawię ten kod na końcu tego filmu, żebyś mógł się nim bawić.
+
+05:44.290 --> 05:49.630
+Będziesz sfrustrowany, ponieważ za każdym razem, gdy używasz tego kodu, będzie inny niż
+
+05:49.840 --> 05:50.860
+mój numer.
+
+05:51.190 --> 05:53.910
+To może być dużo szybciej dużo wolniej.
+
+05:53.950 --> 06:00.040
+Wszystko to zależy od tego, jak potężny jest C. P. jesteś w komputerze i
+
+06:00.370 --> 06:06.660
+jakie inne programy działają na twoich komputerowych językach programowania, których używasz i wiele innych czynników.
+
+06:06.670 --> 06:11.370
+W naszym środowisku wykonawczym są tu wszystkie te czynniki.
+
+06:11.410 --> 06:17.110
+Dlatego jeśli przyśpieszę mojego przyjaciela na całym świecie, nazwijmy go Johnny, a ja mu powiem: Hej, Johnny, mój kod
+
+06:17.110 --> 06:25.830
+jest tak niesamowity. Stworzyłem tę świetną funkcję Nimo i działa w trzy sekundy 3. 2 sekundy ze sto tysięcy
+
+06:25.930 --> 06:27.820
+wejść.
+
+06:27.820 --> 06:29.750
+Jak dobrze o jedną czwartą jestem.
+
+06:29.800 --> 06:32.460
+A potem Johnny mówi, że Ha jest naprawdę niesamowita.
+
+06:32.470 --> 06:33.610
+Ale wiesz co.
+
+06:33.670 --> 06:36.670
+Moja działa o wiele szybciej działa w 1. 5 sekund.
+
+06:36.730 --> 06:37.990
+Więc poszedłem.
+
+06:38.290 --> 06:40.610
+Jak myślisz, co myślisz, że Johnny wygrywa.
+
+06:41.450 --> 06:44.510
+Czy Johnny ma lepszy kod niż ja.
+
+06:45.590 --> 06:47.450
+Cóż, o to chodzi.
+
+06:47.630 --> 06:49.230
+Niekoniecznie.
+
+06:49.420 --> 06:51.340
+To naprawdę niewiele znaczy.
+
+06:52.190 --> 06:56.330
+Ponieważ ma znaczenie, jakiego rodzaju komputer Johnny ma inne czynniki.
+
+06:56.360 --> 07:00.410
+Jak wspomniałem wcześniej, kod jest uruchomiony.
+
+07:00.490 --> 07:02.470
+Jak zatem określić, kto wygrywa.
+
+07:02.530 --> 07:04.280
+Czy wygrywam, czy też Johnny wygrywa.
+
+07:04.330 --> 07:06.230
+Kto ma lepszego trenera.
+
+07:06.290 --> 07:09.500
+Jest to bardzo powszechne w świecie komputerów.
+
+07:09.670 --> 07:16.030
+Kodujemy na naszych laptopach nasze komputery, ale kod ten niekoniecznie musi działać na tych urządzeniach.
+
+07:16.300 --> 07:22.690
+Jeśli mamy coś takiego jak serwer, możemy uruchomić ten kod gdzieś indziej na innym komputerze
+
+07:22.750 --> 07:24.160
+na całym świecie.
+
+07:24.160 --> 07:32.710
+Jak więc możemy upewnić się, że istnieje sposób, abyśmy mogli zmierzyć pod względem wydajności to, co jest dobrym kodem, a
+
+07:33.460 --> 07:41.260
+co złym kodem, a co jest kodem, który można skalować w miarę wzrostu liczby tablic lub danych wejściowych.
+
+07:41.260 --> 07:48.790
+Nie stale zwalnia, coraz więcej notacji Big-O jest językiem, którego używamy do mówienia o tym,
+
+07:48.790 --> 07:51.590
+jak długo algorytm ma działać.
+
+07:51.940 --> 08:00.190
+Możemy porównać dwa różne algorytmy lub, w tym przypadku, funkcje wykorzystujące big-O i powiedzieć, który z nich jest lepszy
+
+08:00.190 --> 08:05.060
+od drugiego, jeśli chodzi o skalę, niezależnie od różnic w komputerze.
+
+08:05.410 --> 08:09.650
+Możemy zmierzyć tak duże widowisko.
+
+08:09.760 --> 08:13.780
+Ostrzegam cię, że na początku będzie to wyglądało na naprawdę zagmatwane.
+
+08:13.870 --> 08:16.400
+I po raz pierwszy widzimy ten schemat.
+
+08:16.720 --> 08:21.760
+I nie przejmuj się pod koniec tej sekcji, to ma sens, i będziesz całkowicie płynny
+
+08:21.820 --> 08:22.710
+w tym.
+
+08:22.720 --> 08:24.280
+Więc zaufaj mi i to.
+
+08:24.310 --> 08:25.540
+Kontynuuj obserwowanie tych filmów.
+
+08:25.540 --> 08:31.630
+Wiem, że krążyłem wokół tematu i nie byłem skierowany na to, co to oznacza, ale obiecuję ci, że
+
+08:31.630 --> 08:36.040
+do końca tego wszystko będzie miało sens, a ty będziesz wielkim ninja.
+
+08:37.460 --> 08:44.480
+Kiedy mówimy o big-O i skalowalności kodu, mamy na myśli po prostu, gdy
+
+08:44.480 --> 08:49.470
+rośniemy z naszym wejściem. Ile spowalnia algorytm lub funkcja.
+
+08:50.430 --> 08:57.720
+Jeśli na liście znaków powiedzmy elementy tutaj, to Nimo, więc
+
+08:57.720 --> 09:05.870
+postacie w znajdowaniu nemo w naszej tablicy zwiększają liczbę operacji, które musimy wykonać.
+
+09:05.930 --> 09:07.960
+To wszystko.
+
+09:08.020 --> 09:15.400
+To właśnie nazywamy efektywnością algorytmiczną big-O, która pozwala nam wyjaśnić tę koncepcję.
+
+09:15.420 --> 09:21.690
+Pamiętaj, że w naszej funkcji początkowo mieliśmy tablicę, która była nimo.
+
+09:21.750 --> 09:23.550
+Taka jest liczba elementów.
+
+09:23.550 --> 09:26.190
+Liczba wejść w funkcji.
+
+09:26.460 --> 09:27.320
+To było właśnie tutaj.
+
+09:27.420 --> 09:33.420
+Ale wtedy, gdy zwiększamy tę tablicę, aby mieć więcej postaci, stworzyliśmy ogromną
+
+09:33.690 --> 09:34.780
+tablicę 100000.
+
+09:34.830 --> 09:41.490
+Kiedy to się zwiększy, zauważyłeś, że liczba operacji lub liczba rzeczy, które
+
+09:41.970 --> 09:49.020
+robimy w pętli, rosły w kółko, a różne funkcje mają różne skomplikowane złożoności.
+
+09:49.020 --> 09:55.810
+Oznacza to, że liczba operacji może wzrosnąć naprawdę bardzo szybko, jak ta, która nie jest dobra.
+
+09:55.810 --> 10:02.770
+Widać tutaj, że to jest okropne i rzeczy, które faktycznie są całkiem dobre i nie rosną tak bardzo.
+
+10:02.880 --> 10:07.170
+Przyjrzymy się przykładom różnych i jak właściwie zmierzyć
+
+10:07.440 --> 10:15.950
+to i co oznacza ta cała notacja, ale zakończyć ten film, abyśmy mogli głębiej zagłębić się w temat.
+
+10:16.020 --> 10:23.190
+Pamiętajmy tylko, że w tym miejscu, kiedy mówimy o Big O i skalowalności
+
+10:23.190 --> 10:31.620
+kodu, mamy na myśli, kiedy rośniemy z naszym wprowadzeniem Ile spowalnia algorytm, im mniej spowalnia
+
+10:31.770 --> 10:35.880
+lub im wolniej, tym wolniej, tym lepiej.
+
+10:36.760 --> 10:45.550
+Dlatego zamiast używać teraz wykonanej wydajności i czasu, aby zmierzyć efektywność naszej funkcji, możemy po prostu
+
+10:45.550 --> 10:52.600
+obliczyć, ile operacji komputer musi wykonać, ponieważ każda operacja wymaga czasu na
+
+10:52.600 --> 10:53.600
+komputerze.
+
+10:53.950 --> 11:02.020
+Tak duże show pozwala nam i dotyczy nas, ile kroków zajmuje funkcja.
+
+11:02.020 --> 11:05.680
+W porządku, zagłębiajmy się coraz głębiej w ten temat.
+
+11:05.770 --> 11:07.450
+Zobaczę w następnym filmie Bebai.

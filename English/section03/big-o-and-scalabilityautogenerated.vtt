@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.500 --> 00:02.360
+Welcome back.
+
+00:02.700 --> 00:07.990
+Let's continue our discussion of what this scaleable idea means.
+
+00:08.050 --> 00:13.710
+You remember that we talked about the kitchen and how similar to a kitchen we have to give instructions
+
+00:13.980 --> 00:17.010
+to our machines to produce a result.
+
+00:17.190 --> 00:20.450
+And in the previous video we talked about dysfunction Finding Nemo.
+
+00:20.610 --> 00:24.220
+Let's measure the performance of this function.
+
+00:25.210 --> 00:33.920
+Well javascript gives us a nifty little tool that comes built in to the browser which is where we're
+
+00:33.920 --> 00:34.980
+running this code.
+
+00:35.060 --> 00:39.980
+So depending on your language you might not have this option but you will have different ways of measuring
+
+00:39.980 --> 00:40.930
+this.
+
+00:40.940 --> 00:42.210
+Don't get too hung up on this.
+
+00:42.230 --> 00:47.460
+We want to use this as an example to measure how long it takes for this function to run.
+
+00:47.540 --> 00:57.360
+We can do this in javascript by saying let's say Time 0 is going to equal performance that comes built
+
+00:57.360 --> 00:58.940
+in to the browser.
+
+00:59.340 --> 01:09.590
+And we just say now add this to zero is going to start this timer before the loop happens.
+
+01:09.790 --> 01:18.040
+And then when the loop ends I'm going to have another timer called T-1 and this is going to equal performance
+
+01:18.600 --> 01:19.810
+dots now.
+
+01:20.350 --> 01:25.600
+So we have two timers one at the beginning one at the end after the function goes through the loop to
+
+01:25.600 --> 01:34.330
+find Nimo and then at the end we'll just do a fun little console dialog and we'll say that the call
+
+01:34.360 --> 01:49.790
+to find Nemo took and can just do a simple Tiran minus zero and then we'll say milliseconds because
+
+01:50.480 --> 01:56.800
+it's going to give us the results and milliseconds We'll see if this works.
+
+01:56.900 --> 02:06.170
+I want to run this code and let me out a space in here and we see that it took zero milli seconds for
+
+02:06.170 --> 02:07.080
+this code to run.
+
+02:07.190 --> 02:12.770
+Let me run that again zero seconds again zero seconds zero seconds.
+
+02:12.770 --> 02:17.280
+And if I keep clicking it I see that oh now it takes a little bit longer.
+
+02:17.480 --> 02:20.200
+And that's because this is really fast right.
+
+02:20.210 --> 02:25.910
+Are computers machines are extremely fast in this day and age and because we're only looping through
+
+02:25.910 --> 02:33.990
+this once well it takes almost zero milliseconds and the display just round system.
+
+02:34.040 --> 02:41.470
+But what if we had a bigger array let's say that we have an array over here that has cost every one
+
+02:41.630 --> 02:46.790
+and it has all the characters or at least a lot of the characters from the movie Finding Nemo which
+
+02:47.030 --> 02:48.100
+if you haven't watched it.
+
+02:48.150 --> 02:48.850
+Amazing movie.
+
+02:48.860 --> 02:50.510
+Highly recommend it.
+
+02:50.520 --> 02:54.640
+Anyway we see that we have a lot more characters now.
+
+02:54.710 --> 03:04.620
+So instead of just having a single array let's have the array everyone in here and this array now has
+
+03:04.710 --> 03:11.520
+a lot more items has one two three four five six seven eight nine ten that's ten loops in here that
+
+03:11.520 --> 03:15.760
+we're going to do if we run this.
+
+03:16.040 --> 03:19.200
+We see that the time is still the same.
+
+03:19.370 --> 03:21.290
+Pretty much zero milli seconds.
+
+03:21.410 --> 03:25.210
+Sometimes a little bit more and the time changes all the time.
+
+03:26.260 --> 03:29.590
+But we don't see that much of a difference do we.
+
+03:29.590 --> 03:35.970
+I mean we ran from one loop to now 10 loops but it's still super super fast.
+
+03:36.040 --> 03:40.150
+And again that's because our computers in this day and age are quite fast.
+
+03:40.150 --> 03:44.590
+The difference between one loop and 10 loops is not that big.
+
+03:45.560 --> 03:51.720
+But let's do a little fun trick here in javascript we can create a large array.
+
+03:51.760 --> 03:59.520
+Let's just call it large and we can create a massive array by just saying new array.
+
+04:00.520 --> 04:08.800
+And we'll give it a hundred items and this hundred items in the array we can fill it with let's say
+
+04:08.800 --> 04:15.540
+Nimo and this is just going to create an array that has Nimo a hundred times
+
+04:19.190 --> 04:30.200
+so instead of every wandless do large and hit rock right we see here that it's found Nimo a hundred
+
+04:30.200 --> 04:36.830
+times because well we just fill there with the Nimo and at the bottom we see that it took point five
+
+04:36.920 --> 04:38.720
+Moli seconds that took a lot longer.
+
+04:38.730 --> 04:41.640
+Dinant let's do even bigger.
+
+04:41.670 --> 04:47.150
+Let's do a thousand hit Ron took 7 milliseconds.
+
+04:47.150 --> 04:49.740
+Now what if you do them bigger.
+
+04:49.740 --> 04:52.110
+What if we had a massive array of 10000.
+
+04:52.410 --> 04:55.990
+We had run 46 Meli seconds.
+
+04:56.010 --> 04:57.480
+It's still pretty fast.
+
+04:57.480 --> 04:59.340
+And then just for fun one more.
+
+04:59.340 --> 05:07.890
+If I had run you saw that delay and how long that took that took three forty three milliseconds or three
+
+05:07.890 --> 05:14.230
+point four seconds now what do we just see here.
+
+05:14.230 --> 05:24.220
+Well we see that as our input grew our function find Nemo became slower and slower and slower.
+
+05:24.280 --> 05:30.430
+Our run time how long it takes to run a certain problem through a function increased.
+
+05:30.490 --> 05:32.830
+But here's the problem here.
+
+05:32.830 --> 05:40.030
+If you take this code and run it on your computer while your time is going to be different than mine.
+
+05:40.570 --> 05:44.140
+And I'll leave this code at the end of this video so you can play around with it.
+
+05:44.290 --> 05:49.630
+You're going to get frustrated because every time you're on this code is going to be different than
+
+05:49.840 --> 05:50.860
+my number.
+
+05:51.190 --> 05:53.910
+It might be a lot faster a lot slower.
+
+05:53.950 --> 06:00.040
+You see this all depends on how powerful the C.P. you in the computer is and what other programs are
+
+06:00.370 --> 06:06.660
+running on your computer programming languages you're using and many other factors.
+
+06:06.670 --> 06:11.370
+So there's all these factors at play here in our runtime.
+
+06:11.410 --> 06:17.110
+Therefore if I speed my friend across the world let's call them Johnny and I tell him Hey Johnny my
+
+06:17.110 --> 06:25.830
+code is so amazing I've created this fine Nimo function and it runs in three seconds 3.2 seconds with
+
+06:25.930 --> 06:27.820
+hundred thousand inputs.
+
+06:27.820 --> 06:29.750
+How good of a quarter am I.
+
+06:29.800 --> 06:32.460
+And then Johnny says Ha that's really awesome.
+
+06:32.470 --> 06:33.610
+But you know what.
+
+06:33.670 --> 06:36.670
+Mine runs a lot faster runs in 1.5 seconds.
+
+06:36.730 --> 06:37.990
+So I went.
+
+06:38.290 --> 06:40.610
+What do you think do you think Johnny wins.
+
+06:41.450 --> 06:44.510
+Does Johnny have better code than I do.
+
+06:45.590 --> 06:47.450
+Well here's the thing.
+
+06:47.630 --> 06:49.230
+Not necessarily.
+
+06:49.420 --> 06:51.340
+This doesn't really mean much.
+
+06:52.190 --> 06:56.330
+Because it matters what type of computer Johnny has what other factors.
+
+06:56.360 --> 07:00.410
+As I mentioned before the code is running in.
+
+07:00.490 --> 07:02.470
+So how can we determine who wins.
+
+07:02.530 --> 07:04.280
+Do I win or does Johnny win.
+
+07:04.330 --> 07:06.230
+Who has better coach.
+
+07:06.290 --> 07:09.500
+And this is very common in the computing world.
+
+07:09.670 --> 07:16.030
+We code on our laptops our computers but that code doesn't necessarily run on those devices.
+
+07:16.300 --> 07:22.690
+If we have something like a server we may have that code run somewhere else on a different computer
+
+07:22.750 --> 07:24.160
+around the world.
+
+07:24.160 --> 07:32.710
+So how can we make sure that there is a way for us to measure in terms of efficiency what is good code
+
+07:33.460 --> 07:41.260
+and what is bad code and what is code that can scale that as the number of arrays or inputs increases.
+
+07:41.260 --> 07:48.790
+It doesn't constantly slow down more and more Big-O notation is the language we use for talking about
+
+07:48.790 --> 07:51.590
+how long an algorithm takes to run.
+
+07:51.940 --> 08:00.190
+We can compare two different algorithms or in this case functions using big-O and say which one is better
+
+08:00.190 --> 08:05.060
+than the other when it comes to scale regardless of our computer differences.
+
+08:05.410 --> 08:09.650
+And we can measure a big show like this.
+
+08:09.760 --> 08:13.780
+I'm going to warn you that this will look really confusing at first.
+
+08:13.870 --> 08:16.400
+And this is the first time we're seeing this diagram.
+
+08:16.720 --> 08:21.760
+And don't worry by the end of this section this is going to make sense and you're going to be completely
+
+08:21.820 --> 08:22.710
+fluent in this.
+
+08:22.720 --> 08:24.280
+So just trust me and this.
+
+08:24.310 --> 08:25.540
+Keep following these videos.
+
+08:25.540 --> 08:31.630
+I know I'm kind of circling around the topic and not being directed as to what it means but I promise
+
+08:31.630 --> 08:36.040
+you by the end of this this is all going to make sense and you're going to be a big ninja.
+
+08:37.460 --> 08:44.480
+When we talk about big-O and scalability of code we simply mean when we grow bigger and bigger with
+
+08:44.480 --> 08:49.470
+our input How much does the algorithm or function slow down.
+
+08:50.430 --> 08:57.720
+If the list of characters let's say elements here so that is Nimo so characters in finding nemo in our
+
+08:57.720 --> 09:05.870
+array as that increases how many more operations do we have to do.
+
+09:05.930 --> 09:07.960
+That's all it is.
+
+09:08.020 --> 09:15.400
+This is what we call algorithmic efficiency big-O allows us to explain this concept.
+
+09:15.420 --> 09:21.690
+Remember how in our function we initially had an array of just one which was nimo.
+
+09:21.750 --> 09:23.550
+So that is the number of elements.
+
+09:23.550 --> 09:26.190
+Number of inputs in a function.
+
+09:26.460 --> 09:27.320
+It was right here.
+
+09:27.420 --> 09:33.420
+But then as we increase that array to have more characters and then we created that massive array of
+
+09:33.690 --> 09:34.780
+100000.
+
+09:34.830 --> 09:41.490
+So as that increases you saw that the number of operations or the number of things we do in the loop
+
+09:41.970 --> 09:49.020
+increased over and over and different functions have different big-O complexities.
+
+09:49.020 --> 09:55.810
+That is these number of operations can increase really really fast like this one which is not good.
+
+09:55.810 --> 10:02.770
+You can see here that it's horrible and things that are quite good actually and don't increase as much.
+
+10:02.880 --> 10:07.170
+And we're going to look at examples of different ones and how to actually measure this and what this
+
+10:07.440 --> 10:15.950
+entire notation means but to end this video so we can dive deeper into the topic.
+
+10:16.020 --> 10:23.190
+Just remember at this point when we talk about Big O and scalability of code we simply mean when we
+
+10:23.190 --> 10:31.620
+grow bigger and bigger with our input How much does the algorithm slow down the less it slows down or
+
+10:31.770 --> 10:35.880
+the slower it slows down the better it is.
+
+10:36.760 --> 10:45.550
+So instead of using performance done now and using time to measure the efficiency of our function we
+
+10:45.550 --> 10:52.600
+can just calculate how many operations a computer has to perform because each operation takes time on
+
+10:52.600 --> 10:53.600
+a computer.
+
+10:53.950 --> 11:02.020
+So big show allows us and concerns us with how many steps it takes in a function.
+
+11:02.020 --> 11:05.680
+All right let's dig in deeper and deeper into this topic.
+
+11:05.770 --> 11:07.450
+I'll see in the next video Bebai.

@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.020 --> 00:10.930
+Apa fungsi hash itu adalah sesuatu yang digunakan di seluruh ilmu komputer fungsi hash hanyalah
+
+00:11.080 --> 00:18.920
+fungsi yang menghasilkan nilai panjang tetap untuk setiap input yang didapat
+
+00:19.130 --> 00:20.850
+Baiklah apa artinya itu.
+
+00:21.260 --> 00:29.240
+Yah saya miliki di sini M. D lima hash yang dihasilkan dan lima adalah jenis fungsi hash dan ada
+
+00:29.240 --> 00:30.020
+banyak jenis.
+
+00:30.200 --> 00:37.570
+Anda mungkin pernah mendengar tentang Schwann Shaw 2:56 dan banyak lainnya menggunakan fungsi hash ini.
+
+00:37.570 --> 00:39.980
+Mari kita lihat apa yang terjadi jika saya melakukannya.
+
+00:40.420 --> 00:42.590
+Halo.
+
+00:42.630 --> 00:53.250
+Anda melihat itu segera dan lima hash string ini dan mengubahnya menjadi omong kosong ini.
+
+00:53.390 --> 00:55.540
+Itulah fungsi hash.
+
+00:55.580 --> 01:03.470
+Kami memberikan input dan fungsi menghasilkan beberapa pola acak.
+
+01:03.470 --> 01:07.540
+Sekarang ada beberapa aspek kunci dari fungsi hash.
+
+01:07.550 --> 01:16.670
+Pertama adalah bahwa itu adalah satu cara dalam arti bahwa jika saya memberi seseorang ini, mereka tidak tahu apa
+
+01:16.670 --> 01:17.410
+inputnya.
+
+01:17.990 --> 01:24.820
+Dan hampir tidak mungkin bagi saya untuk memiliki petunjuk tentang apa input.
+
+01:24.830 --> 01:31.560
+Yang kedua adalah tidak peduli berapa kali saya memasukkan Halo ke sana, itu akan tetap sama.
+
+01:31.790 --> 01:38.470
+Tapi saya segera setelah saya mengubah satu hal akan sepenuhnya mengubah output.
+
+01:38.840 --> 01:46.280
+Jika saya kembali ke hello dan mencuci saya ganti saja ke huruf kapital H bahkan huruf kapital.
+
+01:46.320 --> 01:53.680
+Jadi itu dimulai dengan 5 d karena jika saya melakukan modal H itu sama sekali berbeda lagi.
+
+01:54.610 --> 02:00.840
+Dan melihat ini setidaknya kita bisa mengatakan bahwa saya tidak tahu apa gunanya ini.
+
+02:00.880 --> 02:06.550
+Tapi satu hal yang saya tahu adalah tidak masalah bagaimana jika saya memberikan input
+
+02:06.550 --> 02:13.530
+yang sama, itu akan memberi saya hasil yang sama tetapi saya tidak tahu bagaimana mengubahnya kembali menjadi halo.
+
+02:13.690 --> 02:20.110
+Inilah yang kami sebut konten mendalam atau dalam Dempo dan ada pengucapan yang berbeda.
+
+02:20.110 --> 02:26.350
+Saya tidak benar-benar yakin yang mana tetapi itu adalah cara mewah untuk mengatakan bahwa fungsi
+
+02:26.440 --> 02:29.800
+yang diberikan input selalu menampilkan output yang sama.
+
+02:29.810 --> 02:37.700
+Sekarang satu-satunya manfaat dan mengapa kita ingin menggunakan ini dan struktur data adalah bahwa kita mendapatkan akses
+
+02:37.880 --> 02:51.230
+data yang sangat cepat karena yang harus kita lakukan untuk menemukan anggur atau Baskett dot anggur adalah meneruskan anggur menjadi sesuatu seperti lima hash kosong yang dihasilkannya nomor
+
+02:51.230 --> 02:58.500
+ini untuk saya dan saya segera tahu di mana itu ada di memori saya di
+
+02:58.890 --> 03:00.410
+komputer kita.
+
+03:00.600 --> 03:03.160
+Tetapi ini tidak terlihat seperti alamat yang melakukannya.
+
+03:04.580 --> 03:09.050
+Secara teknis fungsi hash yang kita gunakan untuk tabel hash akan diambil.
+
+03:09.050 --> 03:18.650
+Anggur menghasilkan semacam jibberish dan kemudian dikonversi ke ruang indeks atau ruang alamat yang
+
+03:18.650 --> 03:22.310
+didasarkan pada nomor ini.
+
+03:22.410 --> 03:32.210
+Anda tidak seperti array di mana kita baru saja memesan indeks dengan tabel hash yang perlu kita lakukan adalah memberikan kunci dan kita
+
+03:32.210 --> 03:36.740
+tahu persis di mana item itu ada di memori kita.
+
+03:37.260 --> 03:44.340
+Tapi Anda mungkin bertanya-tanya fungsi kotak hitam ini tidak hanya memperlambat segalanya karena setiap kali
+
+03:44.340 --> 03:54.050
+kita ingin menambahkan properti dan nilai anggur dan 10.000 ke tabel hash kita harus menjalankannya melalui fungsi hash sehingga kita dapat
+
+03:54.050 --> 03:58.220
+memutuskan di mana untuk memasukkannya ke dalam memori.
+
+03:58.640 --> 04:05.240
+Dan jika Anda memperhatikan bahwa pekerjaan bagus itu adalah faktor besar Anda tidak
+
+04:05.240 --> 04:14.150
+ingin ini memakan waktu yang sangat lama karena setiap kali Anda menambahkan properti ke memori atau mengambil properti ke memori
+
+04:14.210 --> 04:21.430
+karena sekali lagi kami berdua mengirim kunci anggur ke fungsi hash untuk menemukan di mana mendapatkannya.
+
+04:21.470 --> 04:25.840
+Kami membutuhkan ini untuk benar-benar sangat cepat dan di bawah kap.
+
+04:25.880 --> 04:33.970
+Ingat karena tabel hash ada di semua bahasa mereka diimplementasikan dengan fungsi hashing yang optimal.
+
+04:34.040 --> 04:41.720
+Itu benar-benar sangat cepat sebagai fungsi hash samping catatan seperti Shah 2:56.
+
+04:41.830 --> 04:50.760
+Butuh waktu yang sangat lama untuk menghasilkan hash dan itu adalah fungsi hashing yang terlalu kompleks yang banyak
+
+04:50.760 --> 04:59.970
+digunakan dan tempat-tempat seperti kriptografi di mana Anda ingin ini memakan waktu lebih lama tetapi itu di luar ruang lingkup
+
+04:59.970 --> 05:02.090
+wacana jika Anda tertarik.
+
+05:02.100 --> 05:08.880
+Saya sarankan Anda memeriksa perbedaan antara keduanya untuk ditinjau.
+
+05:08.910 --> 05:11.760
+Kami memiliki kunci yaitu anggur.
+
+05:11.760 --> 05:18.240
+Kami mengirimkannya melalui fungsi hash yang akan hash sesuatu yang sangat sangat
+
+05:18.240 --> 05:29.300
+cepat dan kemudian memetakan apa pun hash keluar menjadi alamat memori di mana kami ingin menyimpan data kami anggur kami 10.000.
+
+05:29.440 --> 05:34.950
+Dan ketika datang ke fungsi hashing Anda biasanya meninggalkan ini untuk kerangka kerja apa pun atau bahasa yang
+
+05:34.960 --> 05:35.900
+Anda gunakan.
+
+05:36.100 --> 05:44.670
+Dan kami biasanya menganggap kompleksitas waktu atau notasi Big-O dari 0 1 karena ini terjadi sangat cepat.
+
+05:44.740 --> 05:45.270
+Baiklah.
+
+05:45.340 --> 05:51.580
+Sekarang kita mengerti apa yang kotak hitam ini lakukan, mari kita bicara sedikit lebih banyak tentang tabel hash mengapa
+
+05:51.580 --> 05:55.580
+mereka berguna dan mengapa dalam beberapa kasus lebih baik daripada perlombaan.

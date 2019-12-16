@@ -1,0 +1,283 @@
+WEBVTT
+
+00:01.960 --> 00:02.800
+Selamat datang kembali.
+
+00:02.890 --> 00:08.680
+Mari kita mulai kode algoritma pertama kami dengan pencarian pertama yang luas.
+
+00:08.860 --> 00:15.850
+Jika Anda ingat dengan pencarian pertama yang luas kita harus pergi dari atas kemudian ke kiri dan kemudian
+
+00:15.880 --> 00:18.550
+mengunjungi semua node di tingkat itu.
+
+00:18.550 --> 00:26.650
+Dan ketika saya mengatakan bahwa ia menggunakan banyak memori adalah bahwa ketika ia mengunjungi 6 dan 12 dari sana itu akan
+
+00:26.650 --> 00:29.820
+kembali ke 1 4 kemudian 34 kemudian 45.
+
+00:30.100 --> 00:38.380
+Jadi saat melewati level ini kita perlu menyimpan referensi ke semua node anak-anak dari setiap node yang kita
+
+00:38.560 --> 00:45.940
+kunjungi sehingga kita dapat kembali ke mereka dan mengunjungi 1 dan 4 di mana memori
+
+00:46.000 --> 00:52.030
+berasal karena kita harus melacak anak-anak dari tingkat yang kita berada di.
+
+00:52.100 --> 00:59.990
+Dan Anda juga akan melihat jalur yang kami ambil dari sembilan hingga 6 hingga 12 menjadi satu hingga empat hingga 34 untuk 45.
+
+01:00.170 --> 01:05.810
+Kita akan menggunakan struktur data Q yang memungkinkan kita menyimpan referensi pada catatan yang
+
+01:05.810 --> 01:10.480
+ingin kita kembalikan karena kita tahu 6 ada di depan 12
+
+01:10.550 --> 01:14.970
+Kita dapat kembali ke sana dan menemukan simpul anaknya.
+
+01:15.410 --> 01:22.610
+Jadi mari kita koding dengan algoritma pencarian nafas pertama yang kita miliki di sini pohon pencarian biner kita
+
+01:22.670 --> 01:25.620
+dari bagian struktur data pohon kita.
+
+01:25.620 --> 01:32.930
+Kami telah menerapkan metode hapus insert Look-Up dan kami telah membuat pohon pencarian biner ini
+
+01:32.990 --> 01:36.390
+yang memberi kami jenis pohon ini.
+
+01:36.410 --> 01:46.250
+Mari kita hapus ini untuk saat ini dan mulai mengkode implementasi pencarian nafas pertama kita sendiri dan idealnya dengan
+
+01:46.250 --> 01:52.720
+memanggil fungsi ini kita mendapatkan daftar semua item ini dalam urutan nafas.
+
+01:52.760 --> 01:59.760
+Pencarian pertama yaitu 9: 4 20 sekali x 15 170.
+
+01:59.900 --> 02:00.710
+Sebut
+
+02:03.820 --> 02:05.080
+pencarian pertama ini
+
+02:08.670 --> 02:12.010
+dan di sini kita membutuhkan tiga hal.
+
+02:12.060 --> 02:19.460
+Salah satunya adalah simpul saat ini yang akan mulai dengan simpul akar dan kita perlu
+
+02:23.390 --> 02:25.440
+dua hal lainnya.
+
+02:25.490 --> 02:33.770
+Salah satunya adalah daftar aktual yang akan menjadi jawaban kita akan memiliki array di sini tempat kita memasukkan angka-angka ini
+
+02:33.770 --> 02:36.570
+ke dalam urutan nafas untuk pencarian.
+
+02:36.920 --> 02:43.780
+Dan kita juga membutuhkan struktur data Q yang akan menggunakan array untuk contoh ini.
+
+02:44.710 --> 02:53.740
+Untuk melacak tingkat kita berada sehingga kita dapat mengakses anak-anak begitu kita melewatinya ingat kita akan melacak 9 maka kita akan
+
+02:53.750 --> 03:00.020
+melacak 6 dan 12 dan ketika kita mencapai 6 dan 12 yang akan berada
+
+03:00.110 --> 03:01.720
+dalam antrian kami.
+
+03:01.760 --> 03:10.520
+Tetapi kita harus kembali begitu kita berada di akhir level itu menjadi 6 sehingga kita dapat menemukan 1 dan 4.
+
+03:10.570 --> 03:12.630
+Jadi, untuk itulah Q akan digunakan.
+
+03:13.740 --> 03:20.410
+Sekarang hal pertama yang akan kita lakukan adalah menambahkan ke antrian item pertama simpul root.
+
+03:20.700 --> 03:29.040
+Jadi kita akan mengatakan Q Dot push node saat ini.
+
+03:29.100 --> 03:36.000
+Sekarang yang perlu kita lakukan di sini adalah pergi dari simpul saat ini ke simpul anak-anak kita dan lagi pergi dari
+
+03:36.000 --> 03:41.380
+kiri ke kanan dan kemudian pergi ke catatan anak-anak mereka dan pergi dari kiri ke kanan.
+
+03:41.550 --> 03:48.000
+Dan cara kita akan melakukan itu adalah dengan menggunakan loop sementara dan kita akan mengatakan bahwa selama Q Dot lenth
+
+03:48.600 --> 03:52.840
+akan lebih besar dari nol maka kita tidak memiliki apa pun dalam antrian.
+
+03:54.050 --> 04:01.100
+Dalam hal ini kita akan mengatakan bahwa node saat ini adalah q dot
+
+04:03.880 --> 04:10.300
+shift dan shift berarti kita mengambil item pertama dalam antrian.
+
+04:10.300 --> 04:15.730
+Ingatlah bahwa antrean hanyalah antrean menuju roller coaster dan orang pertama yang
+
+04:15.730 --> 04:24.400
+masuk akan pergi pertama kali pada roller coaster dan bergeser hanya mengembalikan dan menghapus item pertama dalam antrian dan
+
+04:24.400 --> 04:29.770
+kasing kami akan memiliki 9 sebagai item pertama dalam antrian.
+
+04:29.770 --> 04:40.320
+9 simpul dan kita akan menggesernya dan menetapkannya ke simpul saat ini dan karena ini adalah simpul akar yang
+
+04:40.320 --> 04:48.990
+ingin kita mulai dalam jawaban kita bahwa daftar akan memiliki nomor sembilan di atas.
+
+04:49.200 --> 04:51.600
+Mari kita pindahkan ini ke sini supaya Anda bisa melihat dengan lebih baik.
+
+04:54.470 --> 05:06.280
+Jadi, hal pertama yang akan kita lakukan adalah mengatakan list dot push the node dot Valley yang akan menjadi sembilan.
+
+05:06.450 --> 05:11.190
+Jadi kami memiliki jawaban pertama dalam daftar kami yang bukan dari sana.
+
+05:11.250 --> 05:18.600
+Kita akan mengatakan hei apakah sembilan simpul memiliki anak kiri.
+
+05:19.670 --> 05:27.740
+Karena jika tidak, mari kita tambahkan ke Q yang mengatakan bahwa Anda Anda perlu memeriksa catatan itu dan
+
+05:27.740 --> 05:41.440
+kami akan mendorongnya ke Q saat ini simpul kiri sehingga apa yang baru saja kami lakukan di sini adalah kami telah menambahkan empat ke antrian dan kemudian kami juga
+
+05:41.450 --> 05:44.280
+ingin menambahkan 20 untuk itu.
+
+05:44.510 --> 05:50.870
+Jadi saya akan mengatakan jika setelah Anda menambahkan 4 ke antrian saya akan mengatakan hei apakah
+
+05:50.870 --> 05:54.420
+catatan saat ini memiliki simpul anak simpul kanan.
+
+05:54.560 --> 06:01.490
+Dalam hal itu Wolf ditambahkan ke antrian lagi sebagai item kedua dalam antrian dan
+
+06:02.180 --> 06:07.160
+tingkat saat ini tidak diragukan lagi akan didorong ke antrian.
+
+06:07.260 --> 06:09.950
+Dan ini adalah hal luar biasa dari semua yang baru saja kita lakukan.
+
+06:10.050 --> 06:17.660
+Sekarang antrian memiliki dua item saat melewati Anda akan memiliki 4 dan 20.
+
+06:17.840 --> 06:28.400
+Ini akan loop melalui baris ini dan mengatakan q tidak akan mengambil untuk mengambil dan mengatakan mendorong untuk saat ini
+
+06:28.400 --> 06:30.050
+ke daftar.
+
+06:30.790 --> 06:36.060
+Dan kemudian ia akan mengatakan, hei empat memiliki anak kiri.
+
+06:36.100 --> 06:37.660
+Ya itu ada satu.
+
+06:37.810 --> 06:40.030
+Kalau begitu ditambahkan ke antrian.
+
+06:40.450 --> 06:48.350
+Jadi seseorang akan ditambahkan ke antrian yang memiliki 20 dan sekarang 1 dan kemudian kita katakan hei 4 memiliki anak yang tepat.
+
+06:48.790 --> 06:49.950
+Ya, kami punya enam.
+
+06:50.140 --> 06:52.080
+Kita akan menambahkan itu ke antrian lagi.
+
+06:52.090 --> 06:58.570
+Jadi kita akan memiliki 4 21: 6 dan kemudian kita kembali ke atas dan mengatakan apa yang akan terjadi selanjutnya.
+
+06:58.720 --> 07:00.030
+Yah kita punya 20.
+
+07:00.070 --> 07:03.010
+Jadi mari kita beralih 20.
+
+07:03.070 --> 07:04.030
+Raih itu.
+
+07:04.030 --> 07:08.000
+Hapus itu dari antrian kami dan ulangi lagi.
+
+07:08.050 --> 07:14.760
+Anak kiri akan berusia 15 dan menulis anak yang akan berusia 170 jika kami membatalkan semua log di sini.
+
+07:15.890 --> 07:22.370
+Node kami saat ini Valley dan sebenarnya hanya login
+
+07:26.270 --> 07:30.170
+di sini yang akan digeser.
+
+07:30.180 --> 07:35.310
+Tidak itu adalah TIDAK yang akan kita operasikan dan periksa dan kita
+
+07:35.310 --> 07:45.890
+harus benar-benar memanggilnya jadi mari kita lakukan pohon dot napas untuk pencarian dan saya klik run kita melihat bahwa saya memeriksa sembilan maka saya ' m
+
+07:45.890 --> 07:53.610
+memeriksa untuk itu saya memeriksa 20 bahwa saya memeriksa satu kemudian enam kemudian 15 kemudian 170 sangat sangat keren.
+
+07:53.790 --> 07:56.220
+Dan kami mendorong itu ke daftar setiap waktu.
+
+07:56.580 --> 08:06.820
+Jadi yang perlu kita lakukan pada akhirnya hanyalah menyimpan daftar kembali sehingga jika saya menjalankan tampilan ini maka saya memiliki
+
+08:06.820 --> 08:07.350
+napas.
+
+08:07.520 --> 08:13.580
+Pencarian pertama yang mengembalikan sembilan lalu selama dari 20.
+
+08:13.600 --> 08:18.520
+Mereka 1 6 15 dan 170.
+
+08:18.680 --> 08:20.600
+Tidak terlalu buruk kan.
+
+08:20.600 --> 08:28.490
+Kita melihat dari kode ini di sini bahwa itu cukup sederhana dan satu-satunya masalah yang kita miliki
+
+08:28.520 --> 08:38.060
+adalah bahwa antrian ini bisa menjadi sangat besar karena kita harus tetap mengacu pada node anak kita, konsumsi memori yang benar-benar dapat
+
+08:38.480 --> 08:39.650
+melukai kita.
+
+08:39.680 --> 08:48.890
+Apakah ini isyarat yang terus kami tambahkan untuk terus bermunculan, kami juga menambahkan ke Q Jadi jika kita memiliki pohon yang sangat lebar
+
+08:48.890 --> 08:55.340
+dan bukan pohon biner di mana kita hanya memiliki kiri dan kanan, dan mungkin kita memiliki
+
+08:55.400 --> 09:02.060
+10 anak catatan antrian ini bisa menjadi sangat besar dan tergantung pada data bahwa konsumsi memori mungkin
+
+09:02.630 --> 09:03.200
+besar.
+
+09:03.200 --> 09:06.230
+Dan itulah salah satu kelemahan utama Brad untuk mencari.
+
+09:06.650 --> 09:13.050
+Tapi semoga Anda melihat kesederhanaan napas pencarian pertama tidak terlalu buruk itu tidak apa-apa saya akan melihat
+
+09:13.050 --> 09:14.660
+Anda di video berikutnya.

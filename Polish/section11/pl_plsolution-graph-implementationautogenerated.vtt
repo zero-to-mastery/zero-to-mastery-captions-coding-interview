@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.410 --> 00:02.330
+Witamy spowrotem.
+
+00:02.760 --> 00:05.340
+Jak to zrobiliście w tym ćwiczeniu.
+
+00:05.340 --> 00:08.060
+Czy odniosłeś sukces, gdybyś nie był.
+
+00:08.520 --> 00:09.460
+To jest ta rzecz.
+
+00:09.510 --> 00:19.930
+Jest to wyjątkowo proste, ale wygląda na zbyt skomplikowane i jest to ogólny trend w Krassie.
+
+00:19.940 --> 00:26.930
+Na pierwszy rzut oka wyglądają naprawdę naprawdę onieśmielająco i naprawdę trudno myśleć o nich w swoim umyśle.
+
+00:26.930 --> 00:31.810
+Ale kiedy porzucisz rzeczy, zrozumiesz, co może się z nich wydobyć.
+
+00:31.980 --> 00:37.280
+W rzeczywistości są one bardzo proste i są bardzo podobne do tego, czego się nauczyliśmy, a
+
+00:37.280 --> 00:45.290
+do tej pory wszystko, czego dowiedzieliśmy się o tabelach mieszania tablice drzewa Połączone listy są częścią wykresów i wykresów po prostu korzystają z
+
+00:45.410 --> 00:46.810
+tych struktur danych.
+
+00:46.910 --> 00:53.060
+Dla tych z was, którzy nie byli w stanie rozwiązać tego problemu, mogło to być spowodowane tym, że byliście trochę
+
+00:53.690 --> 00:55.030
+zastraszani do danego zadania.
+
+00:56.020 --> 01:03.570
+Ale pokażę ci, jakie to proste, aby dodać wierzchołek do naszej listy sąsiedztwa.
+
+01:03.610 --> 01:14.090
+Wszystko, co musimy zrobić, to po prostu powiedzieć, że kropka miała lub ta lista sąsiednich węzłów.
+
+01:14.320 --> 01:20.400
+Dodajemy klucz do tego obiektu, wiemy, że chcemy go dodać.
+
+01:20.950 --> 01:27.850
+I to będzie równa pustej tablicy, ponieważ kiedy wchodzimy do nowego węzła, początkowo nie będzie
+
+01:27.850 --> 01:29.210
+żadnych połączeń.
+
+01:30.030 --> 01:32.920
+Chcemy dodać krawędzie później.
+
+01:33.910 --> 01:39.840
+I wreszcie chcemy zwiększyć liczbę węzłów o 1.
+
+01:39.850 --> 01:41.760
+Teraz mamy jeszcze jeden.
+
+01:41.760 --> 01:43.240
+to jest to!
+
+01:43.320 --> 01:46.130
+Właśnie stworzyliśmy nasze notatki.
+
+01:46.260 --> 01:47.040
+Spójrz na to.
+
+01:47.130 --> 01:51.550
+Mamy zero przez wszystkie sześć i są na naszym wykresie.
+
+01:51.570 --> 01:54.260
+Niestety żaden z nich nie łączy się z niczym.
+
+01:54.450 --> 01:57.990
+Właśnie stworzyliśmy notatki, ale nie krawędzie.
+
+01:57.990 --> 01:59.510
+Więc chodźmy dalej i róbmy to.
+
+02:00.510 --> 02:04.270
+Z krawędziami, ponieważ jest to nieukierunkowany wykres.
+
+02:05.180 --> 02:15.920
+Cóż, będziemy musieli zrobić, to powiedzieć, że ta lista sąsiednich kropek powie "nie" jednemu, który jest
+
+02:16.010 --> 02:22.540
+pierwszym węzłem, który dajemy, a węzłowi, który ma naciskać.
+
+02:22.550 --> 02:29.330
+Pamiętaj, że to jest obiekt, więc dostajemy klucz, więc powiedzmy, że jest to węzeł 0, który
+
+02:29.330 --> 02:35.750
+popchnie do tablicy połączeń, która zna twój dom i powie, że będzie on podłączony do
+
+02:36.020 --> 02:42.780
+Węzła 2 i ponieważ jest włączony w reżyserii oznacza to, że musimy to zrobić na odwrót.
+
+02:42.780 --> 02:45.110
+Więc po prostu to skopiujmy.
+
+02:45.220 --> 02:51.150
+Zróbmy to trochę większym, żebyście mogli zobaczyć i po prostu odwracamy rzeczy.
+
+02:51.160 --> 02:55.460
+Więc żaden 2 nie jest również połączony z węzłem pierwszym.
+
+02:55.630 --> 03:04.270
+Jeśli nacisnę biegnij, popatrz na to, że mamy nasz wykres, jak prosty.
+
+03:04.480 --> 03:05.650
+To nie było złe.
+
+03:05.690 --> 03:09.870
+I myślę, że moglibyśmy stworzyć to na połączonej liście, gdybyśmy chcieli.
+
+03:10.090 --> 03:12.890
+Ale koncepcja jest taka sama.
+
+03:13.180 --> 03:19.500
+Jeśli spojrzymy na 0, które jest podłączone do 1 i 2, możemy potwierdzić, że 0 jest połączone z 1 i 2.
+
+03:19.550 --> 03:30.160
+Jeśli spojrzymy na 1 3 2 0 1 zostanie zebrany 2 3 2 0 i mniej Shekh może 5, który jest podłączony do 4 6 5 jest
+
+03:30.160 --> 03:32.110
+podłączony do 4 6.
+
+03:32.350 --> 03:36.780
+I oto właśnie stworzyliśmy nasz pierwszy wykres.
+
+03:37.150 --> 03:43.030
+Jeśli chodzi o wywiady, wykresy nie są tak duże jak w przypadku innych danych.
+
+03:43.060 --> 03:49.870
+Struktury danych głównie dlatego, że wymagają trochę czasu, a pytania dotyczące wykresów mogą być
+
+03:49.870 --> 03:50.880
+zbyt skomplikowane.
+
+03:50.950 --> 03:54.610
+To nie znaczy, że ich nie zobaczysz, ale są rzadkie.
+
+03:54.910 --> 04:03.040
+Jednak znając podstawowe zasady, jakie typy trawy mamy i jak możesz tworzyć rękodzieło, możesz chcieć
+
+04:03.490 --> 04:10.600
+przechowywać dane i wykresy, takie jak lista sąsiedztwa przylegania do listy krawędzi.
+
+04:10.600 --> 04:17.480
+Już pokazujesz, że masz zdolność rozumienia wykresów, które są obecnie zaawansowanym pojęciem, ponieważ pytania
+
+04:17.480 --> 04:21.690
+na wykresie nie są tak dużą częścią wywiadów.
+
+04:21.830 --> 04:24.480
+Nie będziemy już więcej poświęcać czasu na kodowanie.
+
+04:24.620 --> 04:29.690
+Pamiętajmy jednak, że mamy do czynienia z sekcją dotyczącą algorytmów, w której zamierzamy nieco głębiej
+
+04:29.690 --> 04:35.680
+zagłębić się w takie rzeczy jak pierwsze wyszukiwanie i głębokie pierwsze wyszukiwanie, które można zastosować zarówno do
+
+04:35.710 --> 04:37.810
+dwuznaków, jak i do Treece.
+
+04:37.880 --> 04:43.490
+Więc jeśli masz wrażenie, że możesz się jeszcze trochę nauczyć o wykresach, nie martw się, nadal się tam dostaniemy.
+
+04:43.610 --> 04:47.830
+Ale teraz gratuluję stworzenia pierwszego wykresu.
+
+04:48.020 --> 04:49.440
+Zobaczę w następnym filmie.
+
+04:49.790 --> 04:50.120
+Buh-Bye.

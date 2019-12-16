@@ -1,0 +1,112 @@
+WEBVTT
+
+00:01.270 --> 00:07.460
+Bine ați venit înapoi este momentul să scrieți propriul nostru arbore binar de căutare.
+
+00:07.570 --> 00:14.070
+Și în acest exercițiu vă voi provoca să vă scrieți înainte de a vă spăla soluția.
+
+00:15.290 --> 00:23.030
+Acum, rețineți că, la fel ca în cazul listelor legate, va fi necesar să ținem evidența
+
+00:23.240 --> 00:27.160
+nodurilor la stânga și la dreapta nodului curent.
+
+00:27.440 --> 00:31.400
+Și, de asemenea, avem o valoare asociată cu o notă.
+
+00:31.820 --> 00:37.370
+Vă recomandăm să trageți de fapt acest lucru pe o bucată de hârtie pentru a înțelege, deoarece
+
+00:37.370 --> 00:41.760
+păstrarea totul în cap și calculele ar putea fi un pic dificil.
+
+00:41.960 --> 00:45.910
+Dar am aici pe cineva cu toate lucrurile de care ai nevoie.
+
+00:45.950 --> 00:48.740
+Am creat o clasă binară de arbori de căutare.
+
+00:48.890 --> 00:51.130
+Nu avem nici o clasă pe care să o putem folosi.
+
+00:51.170 --> 00:59.130
+Începem arborele nostru binar de căutare cu această rădăcină de stele a null pentru că nu avem încă nimic.
+
+00:59.250 --> 01:06.500
+Dar amintiți-vă că avem rădăcina care este nodul nostru de vârf, care este în prezent gol.
+
+01:06.500 --> 01:13.220
+Vom iniția arborele binar de căutare și sperăm că vom putea crea două metode.
+
+01:13.280 --> 01:16.470
+Una este răspunzătoare și una este privită.
+
+01:16.820 --> 01:23.370
+Scopul nostru este să creăm acest copac aici ca nod rădăcină.
+
+01:23.410 --> 01:32.140
+Apoi, patru și douăzeci de copii, iar apoi patru au unul din șase copii și 20 au 15 și 170
+
+01:32.320 --> 01:33.310
+de copii.
+
+01:34.090 --> 01:51.900
+Deci, în mod ideal, dacă implementăm corect inserția, putem spune insertul arborelui 9, apoi inserați 4, apoi inserați 6, apoi introduceți,
+
+01:53.470 --> 01:56.560
+să zicem 20.
+
+01:56.860 --> 02:05.930
+Ei bine, inserați 170, ultimii doi vor introduce 15 și vom vedea că am lăsat o Syllis aici pentru a
+
+02:09.790 --> 02:18.480
+insera și în mod ideal, după ce ați executat aceste comenzi puteți crea această structură de date copac.
+
+02:18.510 --> 02:26.600
+Acum, în partea de jos aici creez o mică funcție pentru tine și deocamdată vreau să o ignorăm pentru că
+
+02:26.600 --> 02:31.770
+folosim aici ceva numit recursiune aici la care nu am ajuns încă.
+
+02:32.120 --> 02:38.870
+Dar am creat doar această funcție pentru ca dvs. să puteți testa codul pentru a vă asigura că
+
+02:38.870 --> 02:39.650
+funcționează.
+
+02:41.260 --> 02:52.330
+Tot ce trebuie să faceți pentru a verifica dacă funcționează este să spuneți Jason dot string phi care este o modalitate
+
+02:52.330 --> 02:57.690
+specifică de javascript de a crea o urmărire pe șir.
+
+02:58.090 --> 02:59.920
+Și vom spune că
+
+03:03.580 --> 03:13.330
+rădăcina de arbori Traverse îi dăm doar nodul rădăcină al copacului nostru și va traversa și va imprima totul într-un șir, astfel încât să puteți verifica
+
+03:13.360 --> 03:21.690
+și consolă că arborele dvs. de fapt, este de lucru și în soluția video Voi demonstra cum funcționează acest lucru, dar l-am
+
+03:21.690 --> 03:28.230
+adăugat ca pe un ajutor pentru dvs. în cazul în care doriți să vă verificați din nou
+
+03:28.590 --> 03:32.060
+lucrarea pentru a vă asigura că este corect.
+
+03:33.100 --> 03:40.750
+Și prin modul în care metoda de căutare ar trebui pur și simplu să returnați nodul pe care îl căutăm și dacă nu
+
+03:40.750 --> 03:45.570
+găsim nodul, atunci putem reveni la normal sau fals, indiferent de ce doriți.
+
+03:46.000 --> 03:50.620
+Și am adăugat metoda Remove, despre care vom vorbi mai târziu, pentru că este puțin cam
+
+03:50.620 --> 03:51.180
+dificilă.
+
+03:51.220 --> 03:56.650
+Deci, acum doar vă faceți griji despre introduceți și căutați în sus și vă voi vedea în soluția video de către.

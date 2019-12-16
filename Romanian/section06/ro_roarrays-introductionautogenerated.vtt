@@ -1,0 +1,430 @@
+WEBVTT
+
+00:01.050 --> 00:09.210
+Woohoo este în cele din urmă timpul să învățăm prima noastră structură de date
+
+00:09.210 --> 00:20.070
+și una care, probabil, sunteți foarte familiarizați cu matrice de matrice, care sunt uneori numite Liszt, care organizează secvențe.
+
+00:20.070 --> 00:23.280
+Asta înseamnă unul după altul în memorie.
+
+00:23.280 --> 00:33.030
+Ca și cum am aici avem niște date la indexul 0 să spunem suc și apoi imediat după
+
+00:33.390 --> 00:35.670
+indexul 1 avem altceva.
+
+00:35.670 --> 00:43.290
+Poate că Apple poate este o listă de produse alimentare în memoria calculatoarelor noastre va fi unul după altul, deoarece amintesc
+
+00:43.290 --> 00:47.520
+că RAM-ul nostru este mult mai mare decât doar șapte sloturi.
+
+00:48.360 --> 00:53.710
+Și matricele sunt probabil cele mai simple și mai utilizate structuri de date.
+
+00:53.800 --> 00:59.440
+Și din fericire pentru noi pornim de aici, deoarece matricele au cel mai puține reguli
+
+00:59.560 --> 01:04.240
+și pentru că sunt stocate în memorie contiguă, care este în ordine.
+
+01:04.240 --> 01:07.720
+Ele au, de asemenea, cea mai mică amprentă a oricărei structuri de date.
+
+01:08.710 --> 01:15.560
+Deci, dacă tot ce ai nevoie este să stochezi niște date și să repeți peste ea, care merge unul câte unul pas cu pas.
+
+01:15.790 --> 01:23.630
+Arrays sunt cea mai bună alegere, mai ales dacă știți indicii care sunt aici în partea stângă a articolelor pe care le
+
+01:23.630 --> 01:30.110
+stocați și la fel de ușor și vom trece peste acest lucru în detaliu în videoclipurile ulterioare.
+
+01:30.990 --> 01:37.190
+Dar căutați-vă sau accesați-vă cu ștergeți-vă Constantinul de unul.
+
+01:37.200 --> 01:39.420
+Este super super rapid.
+
+01:39.420 --> 01:44.090
+Alte acțiuni sau metode pe care le vom trece vor fi, de asemenea, rapide.
+
+01:44.100 --> 01:49.830
+Dar inserțiile și ștergerile sunt O de N sau timp liniar.
+
+01:49.950 --> 01:56.510
+Dar pentru a arăta matricele Să folosim de fapt codul pentru a vă arăta un exemplu.
+
+01:56.770 --> 01:58.900
+Avem locurile noastre de joacă aici.
+
+01:59.230 --> 02:01.710
+Și din nou puteți folosi oricare dintre limbile preferați.
+
+02:01.750 --> 02:05.540
+Voi demonstra doar asta in javascript.
+
+02:05.590 --> 02:10.140
+Putem crea o matrice simplă.
+
+02:10.230 --> 02:13.560
+Să numim șiruri de caractere și această matrice.
+
+02:13.560 --> 02:24.220
+Din nou, prin notarea cu paranteze pătrate va avea apoi un B apoi C și D.
+
+02:25.100 --> 02:29.860
+Și tocmai tocmai am creat o matrice în javascript.
+
+02:29.900 --> 02:36.080
+Privind acum la acest lucru și pe baza a ceea ce am învățat până acum, putem face câteva presupuneri.
+
+02:36.760 --> 02:42.900
+De exemplu, pentru a stoca litera litera B litera C litera D.
+
+02:42.910 --> 02:47.230
+Sunt două, trei, patru, patru.
+
+02:47.230 --> 03:00.030
+Dacă în cazul în care pe un sistem de 32 de biți avem 1 2 3 4 rafturi pentru a stoca litera A în zerouri și altele.
+
+03:00.050 --> 03:09.850
+Ei bine, dacă acesta este cazul, tocmai am mutat de patru ori, pentru ca patru articole și fiecare articol să preia patru rafturi în
+
+03:10.030 --> 03:11.010
+memoria noastră.
+
+03:11.050 --> 03:24.000
+Asta înseamnă că folosim până la 20 sau 16 octeți de stocare dacă ne amintim în exemplul nostru mic că, cu un sistem
+
+03:24.480 --> 03:34.490
+de 32 de biți, avem 1 2 3 4 rafturi pentru a reține acest număr din nou.
+
+03:34.670 --> 03:40.670
+Acesta este un pic o versiune simplificată de a privi la el, dar sper că
+
+03:40.670 --> 03:48.550
+vedeți ce facem aici, pur și simplu, stocăm un b c d în ordine secvențială în brumul nostru Random Access Memory.
+
+03:48.770 --> 03:53.260
+Deci, computerul știe acum unde să găsească aceste articole.
+
+03:53.280 --> 04:04.800
+Prin urmare, când fac șiruri de caractere le spun computerului, mergeți la matricea numită putere, trebuie să știți unde
+
+04:04.820 --> 04:05.570
+este.
+
+04:05.570 --> 04:12.400
+Pentru că sub capotă l-ai păstrat pentru mine și ai luat al treilea element.
+
+04:12.400 --> 04:16.570
+Amintiți-vă că indicii sunt 0 1 2.
+
+04:16.670 --> 04:23.580
+Atrageți astfel cel de-al treilea element de unde este memorat matricea în memoria dvs.
+
+04:23.690 --> 04:32.360
+Și dacă voi rula asta, voi vedea că computerul va lua această informație pentru mine, pentru că aici
+
+04:32.360 --> 04:33.360
+mi-a păstrat-o.
+
+04:33.400 --> 04:36.170
+Și aici o apucă de mine.
+
+04:36.190 --> 04:41.520
+Bine, deci hai sa facem cateva operatii cu arrays si sa vedem ce sunt argumentele pro si contra.
+
+04:42.830 --> 04:47.180
+Ei bine, în javascript avem câteva metode pe care le putem folosi cu rasa.
+
+04:48.150 --> 04:54.510
+Unul este polonez, care ne permite pur și simplu să adăugăm ceva la sfârșitul matricei.
+
+04:54.810 --> 05:01.580
+Deci, șiruri de caractere.
+
+05:01.830 --> 05:09.830
+Și dacă tocmai eliminăm asta și să avem un jurnal al consolei Daut al puterii.
+
+05:09.950 --> 05:21.100
+Dacă rulați acest lucru, obțin un B C D E această operație de împingere a șirului, pentru că doar o adaugă la sfârșitul matricei.
+
+05:22.860 --> 05:25.780
+Este o operație 0 1.
+
+05:28.000 --> 05:31.310
+Tot ce facem este să adăugăm orice element dorim la sfârșit.
+
+05:31.330 --> 05:33.310
+Nu ne confruntăm cu nimic.
+
+05:33.310 --> 05:37.860
+Deci, sperăm că acest lucru are sens de ce ar fi unul foarte convenabil.
+
+05:38.260 --> 05:39.870
+Ce altă metodă obținem.
+
+05:40.270 --> 05:53.930
+Putem folosi, de asemenea, pop și pop este opusul push pop va însemna pur și simplu să eliminați ultimul element din șiruri de
+
+05:53.930 --> 05:55.550
+pe matrice.
+
+05:55.550 --> 05:58.820
+Dacă fac clic pe rulați aici, veți vedea că e-mailul a fost mutat.
+
+05:59.030 --> 06:12.410
+Dacă fac șiruri de caractere din nou să apară și să lovească Ron, vedem că de data asta am adăugat că atunci am eliminat.
+
+06:12.640 --> 06:16.930
+Și apoi, în final, a rămas cu un B și C.
+
+06:17.080 --> 06:22.190
+Ce credeți că este complexitatea timpului acestei operațiuni?
+
+06:22.390 --> 06:26.770
+Încă o dată este 0 0 1 pentru că nu ne confruntăm cu nimic.
+
+06:26.770 --> 06:29.440
+Pur și simplu eliminăm ultimul element pe care-l amintesc.
+
+06:29.440 --> 06:34.110
+Calculatorul nostru știe unde este stocat ultimul element.
+
+06:35.140 --> 06:40.130
+Pur și simplu spunem du-te la indicele de a spune 7.
+
+06:40.130 --> 06:42.810
+Ultimul element și scoateți pâinea.
+
+06:44.920 --> 06:46.920
+Să facem ceva interesant aici acum.
+
+06:48.020 --> 06:52.200
+Ce se întâmplă dacă vrem să adăugăm un element la începutul matricei.
+
+06:52.340 --> 07:03.990
+Poate că aici vrem să adăugăm litera x Ei bine, avem ceva chemat la schimbare în javascript și, în funcție de limba dvs.,
+
+07:03.990 --> 07:07.040
+veți avea poate ceva diferit.
+
+07:07.170 --> 07:12.540
+Dar ideea aici este că pur și simplu facem șir de puncte în schimb.
+
+07:12.760 --> 07:20.820
+Și după cum vedeți aici cum REPL că I-T vă oferă de fapt parametrii pe care îi puteți introduce.
+
+07:20.950 --> 07:23.310
+În acest caz, doar spune ce articole.
+
+07:23.350 --> 07:24.140
+Care este un șir.
+
+07:24.140 --> 07:25.420
+Ar trebui să intru.
+
+07:25.420 --> 07:31.690
+În cazul nostru, voi spune că vreau să schimb x care spune că adăugați X la începutul matricei.
+
+07:32.110 --> 07:38.500
+Dacă fac clic pe rulați aici, vedem că x a fost adăugat la începutul rariului nostru.
+
+07:38.500 --> 07:41.970
+Ce credeți că este complexitatea timpului acestei operațiuni?
+
+07:42.190 --> 07:49.780
+Și de-a lungul drumului în care trecem prin structurile de date și pentru că știm că notația Big-O este destul de misto că
+
+07:49.780 --> 07:56.020
+suntem capabili să ne gândim la codul dincolo de asta, doar fac asta, ne putem gândi profund la ceea
+
+07:56.020 --> 07:57.800
+ce se întâmplă sub capota.
+
+07:58.150 --> 08:02.090
+De ce s-ar putea ca această operație să fie mai lungă decât această operație.
+
+08:02.110 --> 08:08.210
+Mi se pare fascinant si cand am inteles prima data acest lucru ma facut cu adevarat un inginer mai bun si
+
+08:08.220 --> 08:12.790
+sper ca incepeti sa obtineti acest moment aha pentru dumneavoastra, mai ales daca aceasta este prima
+
+08:12.790 --> 08:14.490
+data cu structurile de date.
+
+08:14.650 --> 08:18.070
+Acum, în schimb, ce facem aici.
+
+08:18.070 --> 08:27.840
+Amintiți-vă bine că șirurile sunt stocate în esență dacă m-am mutat la o linie nouă, calculatorul știe
+
+08:27.840 --> 08:30.500
+că acesta este zero.
+
+08:30.550 --> 08:35.790
+Acesta este indicele de 1.
+
+08:35.790 --> 08:46.910
+Acesta este un indice de două și acest lucru este la indexul de trei atunci când am adăuga X cu schimbarea Sunt dintr-o
+
+08:47.000 --> 08:51.400
+dată dintr-o dată adăugând X în matrice noastre.
+
+08:51.600 --> 09:00.810
+Dar acum trebuie să schimbăm aceste numere deoarece indiciile sunt încă așa.
+
+09:01.050 --> 09:15.990
+Dar de data asta trebuie să spunem OK 0 este acum 8 x A este acum 1 B este acum 2 și C este acel index 3
+
+09:16.000 --> 09:19.850
+și D este acel index pentru.
+
+09:20.090 --> 09:27.380
+Și doar făcând asta ați fi văzut ceva pe care tocmai l-am repetat prin orice și am
+
+09:27.470 --> 09:37.860
+redistribuit indicii și am făcut două treizeci și patru de cinci mișcări sau cinci operații pentru a realinia indicii și asta ar trebui să
+
+09:38.520 --> 09:45.150
+vă dau un indiciu că această operațiune este 0 și în funcție de mărimea matricei
+
+09:46.230 --> 09:50.890
+pe care o luăm pentru a face această operațiune.
+
+09:50.970 --> 09:59.670
+Deci, imediat, știm că, odată cu creșterea, poate nu este cea mai bună structură de date pentru adăugarea de
+
+09:59.670 --> 10:01.630
+elemente la începutul matricei.
+
+10:01.650 --> 10:08.530
+Dacă am fi vrut să adăugăm ceva în mijlocul matricei, putem folosi metoda splice aici.
+
+10:08.580 --> 10:18.610
+Permiteți-mi să derulăm un pic și cu splice pot spune șiruri de puncte și încă o dată am un indiciu despre
+
+10:18.610 --> 10:20.260
+ce pot face.
+
+10:20.270 --> 10:22.330
+Primul este numărul de pornire.
+
+10:22.340 --> 10:25.130
+Aș vrea să încep un index de 2.
+
+10:25.540 --> 10:28.050
+Îmi aduc aminte că avem această matrice aici.
+
+10:28.100 --> 10:29.690
+X A B C.
+
+10:29.690 --> 10:37.890
+Deci, pornim de la B, iar al doilea parametru este numărul de ștergere.
+
+10:38.070 --> 10:42.810
+Ce dorim să ștergem sau câte lucruri din acest index vrem să ștergem.
+
+10:42.930 --> 10:45.560
+În cazul nostru, nu dorim să ștergem nimic pe care să-l adăugăm.
+
+10:45.690 --> 10:46.930
+Deci voi spune zero.
+
+10:47.070 --> 10:49.200
+Și apoi elementele pe care dorim să le adăugăm.
+
+10:49.200 --> 10:57.990
+Deci, să adăugăm doar un șir care spune extraterestră și să eliminăm acest X din matricea noastră originală.
+
+10:59.770 --> 11:00.340
+Asa e mai bine.
+
+11:00.370 --> 11:03.040
+Să loviți pe Brian și să mergem acolo.
+
+11:03.070 --> 11:17.020
+Avem X pentru că am schimbat un străin b c astfel încât splice ne-a spus să mergem la indexul de 2 0 1 2 unde B a fost inițial și
+
+11:17.020 --> 11:23.490
+să adăugați extratereștri în loc de B și doar să trecem lucrurile peste.
+
+11:23.890 --> 11:35.300
+Deci, ceea ce am făcut aici este dacă ne întoarcem la exemplul nostru și avem X în gama noastră.
+
+11:36.860 --> 11:48.940
+Și am schimbat acești indici de X și ei sunt la fel, dar am trecut B și am spus că aici vreau să adaug
+
+11:49.030 --> 11:51.400
+Ilian și acum trebuia
+
+11:54.230 --> 11:59.060
+să trecem peste tot și să spunem 3:58 extratereștrii.
+
+11:59.190 --> 12:05.610
+Vrem trei de patru pentru C și cinci pentru D.
+
+12:05.640 --> 12:07.310
+Deci, ce e marele nostru aici.
+
+12:07.410 --> 12:13.310
+Și nu avem nevoie de acest lucru să vină bine, marele nostru O, în acest caz, am făcut-o.
+
+12:13.320 --> 12:19.960
+Jumătate din operațiuni, pentru că am schimbat jumătate din matricele pe care le bifăm prin jumătate din matrice.
+
+12:20.040 --> 12:24.890
+Deci ar fi 0 și împărțit la doi.
+
+12:25.020 --> 12:33.250
+Dar țineți minte regulile noastre când vine vorba de big-O, eliminăm constantele și simplificăm doar să sunăm atunci.
+
+12:33.390 --> 12:36.870
+Cel mai grav caz va fi o operațiune.
+
+12:37.730 --> 12:39.960
+Bine, o să las asta pentru tine.
+
+12:39.960 --> 12:48.910
+Se poate juca în jur și poate încerca diferite metode pe o rasă, dar sper că înțelegeți cum funcționează și
+
+12:49.140 --> 12:57.830
+cum există unele lucruri bune pe care le putem face, cum ar fi accesarea matricei care este una.
+
+12:57.950 --> 13:05.960
+Pentru că e bine rapid, știm exact unde se află în memorie și putem să împingem și să apară.
+
+13:06.050 --> 13:12.860
+Dar când vine vorba de schimbare sau splicing sau chiar ștergere, deoarece cu îmbinare putem face chiar șterge.
+
+13:12.860 --> 13:14.620
+Acesta va fi evenimentul nostru.
+
+13:15.050 --> 13:23.310
+Și dacă ne întoarcem la diagrama noastră, avem acum o mai bună înțelegere a motivelor pentru care arrays look up sunt extrem de
+
+13:23.310 --> 13:23.880
+rapide.
+
+13:23.880 --> 13:25.070
+Știm unde sunt.
+
+13:25.140 --> 13:32.610
+Știm de ce împingerea la sfârșitul matricei este extrem de rapidă, dar de ce inserarea și ștergerea nu pot fi cele
+
+13:32.610 --> 13:36.850
+mai bune sau cele mai rapide când vine vorba de rasă.
+
+13:37.760 --> 13:40.250
+Dar iată ce e.
+
+13:40.300 --> 13:46.690
+Există de fapt două tipuri de matrice și în următorul videoclip vom vorbi despre aceste două tipuri pe care le
+
+13:48.210 --> 13:50.080
+voi vedea în acel Bebai.

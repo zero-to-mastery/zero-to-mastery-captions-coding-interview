@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.860 --> 00:05.440
+Quando useremo la ricorsione.
+
+00:05.660 --> 00:07.600
+Questo è il ruolo che mi piace usare.
+
+00:08.530 --> 00:14.800
+Quando si arriva a problemi complicati come attraversare o cercare tra alberi o grafici, qualcosa
+
+00:14.800 --> 00:21.070
+di cui parleremo con il grafico per la ricerca e la profondità della ricorsione
+
+00:21.070 --> 00:27.400
+di ricerca è davvero molto utile e migliore degli approcci iterativi e stiamo ordinando gli oggetti.
+
+00:27.430 --> 00:35.890
+Ci sono anche casi che vedranno che la ricorsione è preferita e quando si tratta di ricorsione queste sono le
+
+00:35.890 --> 00:43.190
+regole che mi piace seguire ogni volta che usiamo un albero o convertiamo qualcosa in un albero.
+
+00:43.190 --> 00:51.350
+Considera la ricorsione e ci sono tre cose fondamentali in una domanda di intervista che potrebbe innescare una
+
+00:51.920 --> 01:02.550
+soluzione ricorsiva, una è che un problema può essere diviso in un numero di sottoproblemi che sono istanze più piccole dello stesso problema,
+
+01:02.790 --> 01:09.430
+come gli esercizi che abbiamo fatto con i numeri di Fibonacci o fattoriale.
+
+01:09.450 --> 01:14.640
+Possiamo spezzarli in piccoli alberi che si dividono in pezzi sempre più piccoli.
+
+01:14.670 --> 01:19.030
+Quelli sono problemi intrinsecamente ricorsivi.
+
+01:19.030 --> 01:25.420
+Un altro fattore è che ognuna di queste istanze di problema è di natura identica.
+
+01:25.570 --> 01:30.160
+Questo è il calcolo che dobbiamo fare più o meno lo stesso.
+
+01:30.190 --> 01:35.550
+Possono essere valori più piccoli ma i calcoli effettivi al di sotto di esso sono tutti uguali.
+
+01:35.550 --> 01:38.040
+Ancora e ancora e ancora.
+
+01:38.220 --> 01:45.660
+E poi finalmente il terzo punto è che quelle soluzioni se risolvono i problemi minori quei
+
+01:45.690 --> 01:49.190
+nodi foglia di quell'albero e li unisci.
+
+01:49.290 --> 01:54.800
+Questo risolve il problema, quindi è una soluzione ricorsiva che puoi usare.
+
+01:55.170 --> 01:59.930
+E vedrai molto dividere e conquistare usando la ricorsione.
+
+02:00.060 --> 02:06.280
+Ricorda divide et impera che abbiamo menzionato quando siamo arrivati alla lezione sulla struttura dei dati
+
+02:06.280 --> 02:12.030
+dell'albero è come guardare attraverso una rubrica quando stai cercando Bell nella rubrica.
+
+02:12.370 --> 02:19.290
+Non inizierai da una pagina e andrai semplicemente da una pagina alla volta da sinistra a destra.
+
+02:19.330 --> 02:25.630
+No, di solito dividi la rubrica al centro o cerchi di andare alla sezione B della rubrica telefonica
+
+02:25.630 --> 02:33.780
+e inizia a dividere il problema pagina per pagina finché non ti avvicini sempre di più a questo tipo di domande di divisione
+
+02:33.780 --> 02:37.420
+e conquista che di solito hanno ricorsione in esse.
+
+02:37.800 --> 02:46.110
+E poiché sappiamo che l'unica cosa che possono fare le ricorsioni è che il looping non è che possono
+
+02:46.200 --> 02:50.540
+rendere le attività super-super-facili come questi tipi di problemi.
+
+02:50.700 --> 02:59.450
+In effetti, ti incoraggio a scrivere la tua funzione trasversale che utilizziamo nella nostra struttura dati
+
+02:59.450 --> 03:00.080
+dell'albero.
+
+03:00.080 --> 03:05.600
+Questo è qualcosa a cui arriveremo quando arriveremo alla ricerca e alla sezione dell'algoritmo, ma se vuoi
+
+03:05.600 --> 03:06.890
+metterti alla prova.
+
+03:06.890 --> 03:14.470
+Vedi se riesce a scrivere una funzione trasversale come ho fatto qui usando la ricorsione e poi ho anche provato a
+
+03:14.650 --> 03:16.590
+scrivere codice con i loop.
+
+03:16.690 --> 03:21.310
+Vedrai che con loops cose come l'attraversamento dell'albero sono un mal di testa.
+
+03:21.310 --> 03:24.720
+Posso persino farlo in cima alla mia testa con la ricorsione.
+
+03:24.730 --> 03:32.650
+È piuttosto semplice con i loop che di solito devi mantenere una sorta di stack per tenere traccia delle
+
+03:32.650 --> 03:33.290
+cose.
+
+03:33.550 --> 03:35.660
+E aggiunge davvero molta complessità.
+
+03:37.300 --> 03:44.470
+Quindi usa le regole seguenti per notare quando un problema ricorsivo si presenta durante un'intervista.
+
+03:44.920 --> 03:51.130
+Lascerò alcuni altri esercizi per te dopo questo video, ma come vedremo torneremo su questo argomento quando
+
+03:51.160 --> 03:57.320
+entreremo in altre sezioni degli algoritmi e le cose cominceranno a diventare più chiare e chiare.
+
+03:57.610 --> 03:58.990
+Vedrò nel prossimo.
+
+03:59.290 --> 03:59.480
+Bob.

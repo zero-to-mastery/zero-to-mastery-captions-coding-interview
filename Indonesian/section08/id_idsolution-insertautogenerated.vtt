@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00.840 --> 00:01.820
+Selamat datang kembali.
+
+00:02.220 --> 00:05.380
+Mari kita lihat bagaimana kita dapat menerapkan metode jawaban.
+
+00:06.380 --> 00:08.730
+Dan ini yang sulit jadi mudah-mudahan Anda mendapatkannya.
+
+00:08.780 --> 00:14.070
+Jika tidak setidaknya Anda mencoba sehingga kami dapat melihat bagaimana kami ingin menerapkan metode penyisipan dengan benar.
+
+00:15.280 --> 00:23.120
+Hal pertama yang ingin saya lakukan adalah pertama-tama memeriksa parameter saya dan ini adalah sesuatu yang biasanya ingin
+
+00:23.140 --> 00:25.340
+saya lakukan dengan semua metode.
+
+00:25.360 --> 00:31.120
+Saya tahu kami menyederhanakan hal-hal dan ketika kami melihat saat ini dan menambahkan. Kami
+
+00:31.120 --> 00:37.410
+tidak pernah memeriksa apakah nilainya adalah sesuatu yang kami inginkan, tetapi ketika memasukkan sesuatu kami ingin
+
+00:37.410 --> 00:43.630
+memastikan terutama bahwa indeks adalah nilai yang kami pahami sehingga program kami tidak dapat memberikan kesalahan.
+
+00:44.280 --> 00:51.130
+Dan ada banyak hal yang dapat kita lakukan untuk cek dan saya akan menyerahkannya kepada Anda untuk benar-benar menerapkan pemeriksaan yang
+
+00:51.130 --> 00:51.790
+sangat baik.
+
+00:51.880 --> 01:00.220
+Tetapi satu pemeriksaan penting yang saya pikir harus kita miliki adalah jika indeks lebih besar dari atau sama dengan
+
+01:00.930 --> 01:02.080
+panjang ini.
+
+01:02.140 --> 01:09.820
+Jadi jika saya memberikan sisipan katakanlah indeks pada 200 dan daftar kami hanya tiga item, saya ingin
+
+01:09.820 --> 01:11.680
+dapat mengatasinya dengan benar.
+
+01:11.890 --> 01:19.590
+Dalam hal ini saya katakan selama indeks lebih besar atau sama dengan dominan ini.
+
+01:19.900 --> 01:24.490
+Dalam hal itu tambahkan saja ke akhir daftar.
+
+01:24.520 --> 01:31.870
+Jadi jika saya katakan masukkan nilai 200 sembilan puluh saya hanya akan menambahkan sembilan sembilan ke akhir daftar
+
+01:31.870 --> 01:35.020
+dan Anda dapat menerapkan berbagai variasi ini.
+
+01:35.020 --> 01:41.450
+Mungkin Anda dapat mengembalikan kesalahan jika Anda ingin tetapi untuk menyederhanakan hal-hal yang saya pikir ini cukup baik
+
+01:41.450 --> 01:46.280
+dan kita bisa mengatakan mengembalikan titik ini menambahkan yang sudah Anda miliki.
+
+01:46.280 --> 01:52.490
+Kami harus mengatakan ini memulai pena karena kami mereferensikan metode di kelas ini jadi katakan ini
+
+01:54.340 --> 01:57.320
+tambahkan dan kami hanya akan menambahkan nilai.
+
+01:57.370 --> 01:58.190
+Itu dia.
+
+01:58.570 --> 02:05.470
+Jadi, jika saya lakukan dua ratus sembilan puluh sembilan di sini mari kita Dan mari kita tambahkan daftar Prynne di
+
+02:06.330 --> 02:12.380
+bagian bawah di sini dan jika saya klik jalankan saya mendapatkan 99 ditambahkan ke akhir daftar.
+
+02:12.450 --> 02:20.830
+Tetapi bagaimana jika indeks ingin sementara ini sekarang adalah bagian hati.
+
+02:20.860 --> 02:28.200
+Kami ingin terlebih dahulu membuat simpul baru dan ingat kami dapat membuat contoh kelas baru jika kami ingin, tetapi
+
+02:28.250 --> 02:33.680
+dalam kasus kami kami hanya akan membuat objek baru yang memiliki nilai nilai.
+
+02:34.820 --> 02:40.790
+Dan tidak ada yang baru di sini, kita pernah melihat ini sebelumnya.
+
+02:42.840 --> 02:48.360
+Ini bagian yang sulit dan saya suka berkomentar atau setidaknya memvisualisasikannya sehingga kami mengerti apa yang
+
+02:48.360 --> 02:49.350
+kami lakukan.
+
+02:49.350 --> 02:58.160
+Kami memiliki dua catatan yang terhubung dan kemudian kami memiliki pengetahuan BARU yang datang dan mengatakan hei, saya ingin
+
+02:58.160 --> 03:00.950
+Anda menjawab saya di antara sini.
+
+03:00.950 --> 03:02.630
+Apa langkah-langkahnya?
+
+03:03.990 --> 03:11.220
+Nah hal pertama yang perlu kita lakukan adalah benar-benar mencari tahu simpul mana yang pertama adalah karena ingatlah untuk memasukkan sesuatu
+
+03:11.340 --> 03:15.020
+yang bisa kita pilih indeks apa pun yang kita inginkan.
+
+03:15.030 --> 03:21.780
+Jadi jika kita ingin memasukkan indeks dua, kita ingin mengambil apa pun yang indeks dua.
+
+03:21.900 --> 03:22.940
+Jadi kita harus melakukannya.
+
+03:23.040 --> 03:30.990
+Jadi kita perlu menelusuri daftar kita dan mengatakan 0 1 untuk menemukan simpul ini dan mendapatkan referensi untuk itu.
+
+03:31.080 --> 03:33.450
+Kalau tidak, kita tidak benar-benar memiliki referensi untuk itu.
+
+03:33.480 --> 03:40.590
+Ingat daftar tautan hanya memiliki referensi ke kepala ini dan ekor ini.
+
+03:40.620 --> 03:47.790
+Jadi hal pertama yang ingin kita lakukan adalah untuk benar-benar mendapatkan catatan itu dan kita akan
+
+03:47.790 --> 03:55.250
+memanggil simpul pertama ini sebagai pemimpin karena itu akan menjadi yang pertama catatan pertama bahwa kita akan
+
+03:55.250 --> 04:04.100
+menghubungkan simpul 2 baru ini dan simpul baru ini sekarang akan menunjuk ke sebelah simpul lama atau tidak yang awalnya terhubung
+
+04:04.100 --> 04:05.520
+ke catatan pertama.
+
+04:05.930 --> 04:15.530
+Jadi saya akan mengatakan bahwa simpul pemimpin ini akan menjadi baik bagaimana kita bisa mendapatkan bahwa kita perlu melintasi satu
+
+04:15.530 --> 04:22.730
+per satu sampai kita menemukan indeks yang kita cari dan menjaga kode tetap bersih.
+
+04:22.730 --> 04:24.280
+Saya akan membuat metode baru.
+
+04:24.370 --> 04:32.330
+Saya akan mengatakan titik ini melintasi indeks akan menjadi metode baru.
+
+04:32.660 --> 04:41.290
+Itu hanya akan mendapatkan indeks yaitu 0 1 2 dan saya ingin meraih pemimpin.
+
+04:41.300 --> 04:51.350
+Jadi jika saya ingin memasukkan angka 99 di sini saya harus memastikan bahwa 10 poin menjadi sembilan puluh sembilan dan sembilan puluh sembilan
+
+04:51.350 --> 04:53.170
+poin menjadi lima.
+
+04:53.600 --> 05:01.580
+Jadi itu berarti saya harus mengambil indeks tidak di sini dan arahkan ke pemimpin yang merupakan 10 pemimpin yang
+
+05:01.580 --> 05:03.510
+kita inginkan dari daftar.
+
+05:03.620 --> 05:10.980
+Jadi yang akan saya lakukan adalah minus satu jadi arahkan ke pemimpin dan lintasi indeks ini.
+
+05:11.000 --> 05:12.570
+Sementara kita harus membuatnya.
+
+05:13.780 --> 05:21.010
+Dan saya memiliki kata kunci ini di sini karena sekali lagi ini adalah metode untuk kelas ini saya akan mengatakan
+
+05:21.040 --> 05:23.830
+Traverse dua indeks yang akan mendapatkan indeks.
+
+05:24.040 --> 05:28.040
+Dan di sinilah kita melakukan traversal atau looping kita.
+
+05:28.060 --> 05:33.460
+Anda mungkin ingin memeriksa parameter di sini dan memastikan itu adalah indeks yang valid dan itu sesuatu yang
+
+05:33.460 --> 05:34.710
+dapat Anda lakukan sendiri.
+
+05:34.720 --> 05:37.010
+Ini tidak terlalu penting untuk contoh ini.
+
+05:38.300 --> 05:43.790
+Kita dapat mengasumsikan bahwa indeks akan menjadi angka yang valid sebagai indeks yang valid.
+
+05:43.790 --> 05:50.040
+Dan kemudian di sini kita akan melakukan sesuatu seperti penghitung pertama yang akan sama dengan nol.
+
+05:51.620 --> 05:57.830
+Dan kita akan mengatakan bahwa simpul saat ini adalah sesuatu yang kita
+
+05:57.830 --> 06:04.330
+lakukan mirip dengan daftar cetak kita akan menjaga simpul saat ini seperti ini.
+
+06:04.470 --> 06:17.710
+Dan sementara arus atau konter tidak sama dengan indeks karena kita katakan terus melintasi terus
+
+06:17.740 --> 06:25.950
+dari awal dari awal sampai konter sama dengan indeks.
+
+06:25.960 --> 06:30.870
+Jadi terus melalui loop sementara selama penghitung tidak sama dengan indeks.
+
+06:30.910 --> 06:36.260
+Tetapi segera setelah penghitung menjadi indeks, maka saat kami mencapai titik yang kami inginkan dalam kasus
+
+06:36.260 --> 06:41.440
+kami lintasi indeks minus satu yang berarti segera setelah kami sampai ke 10 lalu berhenti.
+
+06:41.440 --> 06:48.370
+Tetapi sampai saat itu saya ingin Anda melewati ini sehingga simpul saat ini akan sama
+
+06:51.280 --> 06:53.990
+dengan simpul saat dot berikutnya.
+
+06:54.010 --> 07:00.680
+Jadi kita akan terus memindahkan simpul saat ini ke kanan dan kita akan menambah penghitung satu
+
+07:00.740 --> 07:01.920
+per satu.
+
+07:02.090 --> 07:03.110
+Itu dia.
+
+07:03.110 --> 07:05.510
+Itu traversal kita.
+
+07:05.550 --> 07:11.610
+Yang perlu kita lakukan di akhir karena kita ingin mengembalikan sesuatu dari metode
+
+07:12.270 --> 07:18.670
+ini adalah mengembalikan simpul saat ini dan kemudian kita memilikinya kita katakan melintasi ke indeks.
+
+07:18.820 --> 07:23.060
+Dalam kasus kami jika kami memasukkan dua sembilan sembilan.
+
+07:23.350 --> 07:27.120
+Ini akan menerima dua sembilan puluh sembilan di sini.
+
+07:27.290 --> 07:34.100
+Ini akan membuat simpul baru dan akan melintasi untuk mengindeks ke minus satu adalah
+
+07:34.100 --> 07:40.240
+1 sehingga akan mengatakan 0 dan 1 dan penghitung akan indeks sama.
+
+07:40.250 --> 07:47.520
+Jadi itu akan keluar dari loop dan itu akan mengembalikan simpul saat ini yaitu 10.
+
+07:47.630 --> 07:50.510
+Kami mengambil referensi ke pemimpin.
+
+07:50.540 --> 07:52.330
+Selamat tapi kita belum selesai.
+
+07:52.340 --> 07:53.460
+Kanan.
+
+07:53.600 --> 07:57.040
+Setelah kami ambil referensi ke pemimpin apa yang akan kita lakukan selanjutnya
+
+07:58.250 --> 08:05.660
+Nah hal berikutnya adalah kami ingin memastikan bahwa kami mengambil item berikutnya dalam daftar asli
+
+08:05.660 --> 08:10.290
+ini yaitu kami ingin memegang pointer ke nomor lima.
+
+08:10.610 --> 08:12.200
+Sekali lagi kami tidak ingin merusak daftar ini.
+
+08:12.200 --> 08:19.130
+Kami ingin memastikan bahwa koneksi berfungsi dengan baik dan Sembilan-Sembilan datang setelah 10 dan setelah
+
+08:19.130 --> 08:21.080
+99 datang lima.
+
+08:21.500 --> 08:32.500
+Jadi langkah selanjutnya yang ingin Anda lakukan dalam metode insert kami adalah dengan apa yang saya sebut tahan atau sebut saja memegang
+
+08:32.500 --> 08:33.050
+pointer.
+
+08:33.100 --> 08:38.930
+Saya mungkin bisa menyebutkan nama yang lebih baik tetapi memegang Poitier itu bagus dan kami akan mengatakan pemimpin dot berikutnya.
+
+08:39.910 --> 08:46.260
+Pemimpin Don berikutnya adalah lima dan lima ini.
+
+08:46.470 --> 08:56.690
+Kami sekarang telah direferensikan dalam variabel ini yang akan sementara waktu berikutnya karena kami memiliki lima disimpan ke variabel ini
+
+08:56.750 --> 08:59.300
+dirujuk dalam variabel ini.
+
+08:59.420 --> 09:06.240
+Kami sekarang dapat memperbarui pemimpin di sebelah yang menunjuk ke simpul baru kami.
+
+09:06.430 --> 09:17.610
+Jadi saya bisa mengatakan pemimpin Dodd selanjutnya akan menunjuk ke simpul baru dan ingat karena cara kerja referensi, kami telah menghapus
+
+09:17.610 --> 09:26.310
+referensi lima di sini jadi 10 tidak lagi menunjuk ke lima tetapi kami telah menyimpan referensi ke
+
+09:26.310 --> 09:28.280
+sana di sini.
+
+09:28.320 --> 09:30.420
+Dan variabel ini.
+
+09:30.480 --> 09:40.670
+Jadi sekarang jika kita kembali ke contoh kita di sini kita telah menghapus referensi untuk ini
+
+09:40.670 --> 09:47.410
+dan sekarang 10 poin untuk sekarang lebih baik jarak
+
+09:47.410 --> 09:48.590
+Ini dia.
+
+09:48.800 --> 09:50.440
+OK apa yang akan kita lakukan selanjutnya.
+
+09:51.670 --> 09:59.240
+Nah sekarang kita perlu simpul ini lho 2. 2 yang ini suka ini dan itu benar-benar sederhana.
+
+09:59.350 --> 10:09.530
+Kami hanya mengatakan catatan baru Don selanjutnya akan sama dengan menahan pointer lima yang kita simpan
+
+10:09.620 --> 10:11.250
+dalam memori.
+
+10:11.450 --> 10:21.530
+Dan akhirnya kami mengatakan tanah ini plus plus karena kami telah menambahkan daftar dan kami dapat mengembalikan ini atau hanya supaya kami tahu kami
+
+10:21.530 --> 10:22.990
+melakukannya dengan benar.
+
+10:22.990 --> 10:30.380
+Saya akan mengatakan daftar cetak pemikiran ini setelah kita memasukkan sesuatu, kita akan mencetak
+
+10:30.380 --> 10:31.820
+daftar itu.
+
+10:31.970 --> 10:33.850
+Mari kita lihat apakah itu berhasil.
+
+10:33.860 --> 10:39.590
+Saya ingin menghapus ini sehingga kodenya berfungsi dan kita tidak perlu mencetak ini.
+
+10:39.650 --> 10:43.000
+Mari kita jalankan perintah ini.
+
+10:43.030 --> 10:44.220
+Hei lihat itu.
+
+10:44.230 --> 10:56.060
+Jadi sebelum kita memiliki daftar ini dan mari kita benar-benar mencetak Vestiaire sehingga kita dapat melihatnya di cetak saya atau
+
+10:56.060 --> 11:00.020
+daftar tertaut saya dot print CList
+
+11:00.080 --> 11:04.380
+Ini adalah apa yang kami miliki sebelumnya dan kami menambahkan 99 di sini.
+
+11:06.100 --> 11:07.310
+Seperti itu.
+
+11:07.530 --> 11:13.240
+Dan hanya untuk mengujinya sekali lagi jika saya melakukan dot linked list saya lagi dan
+
+11:13.240 --> 11:19.760
+kali ini akan memberikan 20 yang tidak ada indeks 20 dan pada 88 yang harus ditambahkan ke akhir daftar.
+
+11:22.200 --> 11:29.860
+Dan karena dengan sisipan ini di mana ketika kita melakukan pemeriksaan kita hanya menambahkan titik ini menambahkan yang
+
+11:30.130 --> 11:31.780
+tidak mencetak daftar.
+
+11:31.780 --> 11:37.350
+Mari kita tambahkan daftar cetak di bagian bawah di sini untuk memastikan bahwa itu berfungsi.
+
+11:37.360 --> 11:43.510
+Di sana Anda pergi 88 pada akhirnya sangat sangat bagus.
+
+11:43.570 --> 11:50.530
+Saya tahu itu menantang dan menyisipkan mungkin merupakan fungsi terberat untuk diterapkan atau metode untuk diterapkan
+
+11:50.560 --> 11:54.190
+dalam daftar tertaut tetapi praktikkan ini beberapa kali.
+
+11:54.250 --> 11:56.690
+Sangat mengerti apa yang dilakukan setiap langkah.
+
+11:56.710 --> 11:58.900
+Tarik keluar jika perlu.
+
+11:59.170 --> 12:00.490
+Tapi selamat.
+
+12:00.550 --> 12:04.580
+Kami baru saja mengimplementasikan fungsi jawaban ke dalam daftar panjang daftar kami.
+
+12:05.050 --> 12:10.450
+Dan Anda mungkin memperhatikan tahun bahwa kami harus melintasi di mana kami memiliki liar.
+
+12:10.640 --> 12:12.440
+Dan ini mungkin masuk akal sekarang tingkat.
+
+12:13.690 --> 12:23.640
+Mengapa kami memasukkan semua karena kami harus mengulang daftar kami dan mencari yang juga bisa disebut traversal juga
+
+12:23.640 --> 12:27.990
+semua peristiwa yang kami lewati untuk indeks.
+
+12:27.990 --> 12:28.500
+Kanan.
+
+12:28.530 --> 12:35.100
+Jika kita mencari item pada indeks 10 misalnya kita harus mencari dalam kasus terburuk adalah bahwa
+
+12:35.130 --> 12:37.480
+kita harus melalui seluruh daftar.
+
+12:37.500 --> 12:39.200
+Sama dengan tensor.
+
+12:39.240 --> 12:40.060
+Baiklah.
+
+12:40.090 --> 12:47.530
+Sekarang kita telah melakukan penyisipan, Anda harus dapat melakukan yang berikutnya sendiri yaitu menghapus menggunakan sesuatu yang sangat mirip
+
+12:47.530 --> 12:50.240
+dengan yang kami lakukan dengan memasukkan.
+
+12:50.710 --> 12:56.740
+Mari kita tambahkan delete atau suka menyebut penghapusan ini.
+
+12:56.830 --> 13:03.560
+Mari kita hapus yang memiliki parameter dan X dari apa yang ingin Anda hapus.
+
+13:03.560 --> 13:06.360
+Selamat mencoba kode ini dan sampai jumpa di video solusi.

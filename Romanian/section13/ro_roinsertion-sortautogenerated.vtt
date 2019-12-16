@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.060 --> 00:08.390
+Vom reveni până în acest moment am vorbit despre algoritmii de sortare care nu au fost foarte
+
+00:08.780 --> 00:17.710
+eficienți și nu sunt acel obișnuit utilizat acum, tipul de inserție nu este cel mai eficient algoritm, dar există cazuri în
+
+00:17.720 --> 00:22.600
+care este de fapt extrem de rapidă, despre care vorbești.
+
+00:22.820 --> 00:26.780
+Acordați astfel atenție pentru că aceasta începe să devină importantă.
+
+00:26.930 --> 00:33.620
+Vedeți că sortarea inserției este utilă pentru momentele în care sunteți destul de sigur că lista lor este aproape sortită.
+
+00:34.580 --> 00:35.970
+Sau este deja sortit.
+
+00:36.230 --> 00:43.020
+Ceea ce sună prost, dar uneori acest lucru este important în domeniul informaticii și într-un scenariu optimist.
+
+00:43.220 --> 00:48.100
+Puteți obține tot timpul și liniar când lista este aproape sortită.
+
+00:48.470 --> 00:49.860
+Să vedem cum funcționează.
+
+00:49.880 --> 00:53.620
+Avem o listă și ne uităm la șase.
+
+00:53.660 --> 00:56.350
+Ne uităm la primul semn și lasă-o acolo unde este.
+
+00:56.420 --> 01:06.650
+Acum ne uităm la următorul articol 5 și pentru că cinci sunt mai puțin de șase îl schimbăm și apoi mergem pe lista pe
+
+01:06.690 --> 01:13.040
+care o spunem hei 3 unde ești în legătură cu cinci și șase minge.
+
+01:13.080 --> 01:15.460
+E mai puțin decât cele două.
+
+01:15.510 --> 01:20.380
+Așadar, le schimbăm pe cele deasupra și trei sunt plasate în față.
+
+01:20.470 --> 01:23.420
+Așadar, acum avem această listă de 3 5 6.
+
+01:23.500 --> 01:30.520
+Ne uităm la unul și spunem oh da, acesta este primul element pe care vrem să îl schimbăm pe unul la stânga.
+
+01:30.520 --> 01:31.640
+Apoi ne uităm la opt.
+
+01:31.870 --> 01:37.270
+Ei bine, opt este mai mare decât toate aceste elemente, așa că haideți să-l atașăm la sfârșitul listei noastre.
+
+01:37.850 --> 01:40.580
+Șapte minge merg între șase și opt.
+
+01:40.580 --> 01:52.230
+Așezați-l acolo, între 1 și 3, plasați-l acolo și 4 locul între 5 sau 3 și 5 și asta
+
+01:55.320 --> 01:56.450
+este.
+
+01:56.460 --> 02:01.880
+Acesta este probabil modul în care creierul funcționează dacă ați fi avut fizic Lego blocuri cu
+
+02:01.920 --> 02:06.680
+aceste numere și ați muta lucrurile în jurul și acest tip de sortare.
+
+02:06.680 --> 02:13.160
+Efectuează cu adevărat foarte bine atunci când vine vorba de seturi de date mici pe care le vom lua mai târziu cu dimensiunile
+
+02:13.170 --> 02:14.020
+noastre de ieșire.
+
+02:14.300 --> 02:21.340
+Dar poți să faci acest tip de sortare în cod, vezi dacă poate să-ți implementeze propriul sortare de inserție.
+
+02:22.220 --> 02:23.690
+Același lucru ca înainte.
+
+02:23.750 --> 02:31.340
+De data aceasta avem algoritmul de sortare a inserției, bazat pe videoclip și pe dansatorii YouTube, legătura cu
+
+02:31.340 --> 02:31.970
+acesta.
+
+02:32.290 --> 02:36.650
+Puteți implementa propriul algoritm de introducere în următorul videoclip.
+
+02:36.670 --> 02:37.460
+Îți voi arăta răspunsul.

@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.930 --> 00:05.770
+Hello and welcome to the next part of the algorithm section.
+
+00:05.970 --> 00:11.630
+Yes I'm still excited despite the next topic which is probably my least favorite.
+
+00:11.940 --> 00:18.660
+You see in the past when I learned about sorting it involved a lot of math a lot of different algorithms
+
+00:18.930 --> 00:26.050
+and I just never really enjoyed it because I didn't understand why we needed to know sorting.
+
+00:26.130 --> 00:31.290
+I mean you just have a sort function usually in a programming language and that's it.
+
+00:31.380 --> 00:32.400
+Right.
+
+00:32.430 --> 00:34.900
+I just never understood the point of it.
+
+00:35.310 --> 00:37.380
+And you were probably thinking the same thing.
+
+00:37.830 --> 00:38.140
+All right.
+
+00:38.150 --> 00:39.980
+Andre there's nothing to learn here.
+
+00:39.990 --> 00:43.520
+I'm going to skip over the sections gray lesson.
+
+00:43.560 --> 00:44.460
+See you later.
+
+00:44.580 --> 00:45.290
+Right.
+
+00:45.720 --> 00:48.210
+Well not really.
+
+00:48.210 --> 00:50.790
+Let me explain in an interview.
+
+00:50.820 --> 00:53.760
+Sorting is really important.
+
+00:53.790 --> 01:00.510
+You hear questions like take an array of numbers and sort them or the interviewer wants you to do something
+
+01:00.690 --> 01:08.790
+to some input and they tell you that this input is sorted and you're wondering why did they just tell
+
+01:08.790 --> 01:09.340
+us that.
+
+01:09.360 --> 01:11.430
+Why does it matter if it's sorted or not.
+
+01:11.730 --> 01:19.110
+And why do companies care so much about sorting if I can just use the builtin sort method in my own
+
+01:19.110 --> 01:19.950
+language.
+
+01:21.100 --> 01:28.710
+Well here's the thing sorting is not a big deal when it comes to small input data.
+
+01:28.750 --> 01:29.530
+You'd be right.
+
+01:29.530 --> 01:31.440
+You can just do something like this.
+
+01:31.810 --> 01:40.370
+We'd have an array of letters and this array simply has a
+
+01:43.370 --> 01:46.280
+D say Z.
+
+01:46.370 --> 01:47.520
+Let's add a few more.
+
+01:47.550 --> 01:53.490
+The R and finally be.
+
+01:53.740 --> 02:00.510
+And if somebody says to sort this well we can just use something like a sort method that comes with
+
+02:00.600 --> 02:02.450
+most languages.
+
+02:02.650 --> 02:08.980
+And if I run this look that nice and easy just started everything.
+
+02:08.980 --> 02:10.310
+I'm a genius right.
+
+02:11.550 --> 02:15.160
+Why would companies ever ask such a simple question of us.
+
+02:15.210 --> 02:23.260
+You see the problem is when inputs get larger and larger kind of like when me talked about big-O we
+
+02:23.260 --> 02:25.470
+don't care about small inputs.
+
+02:26.210 --> 02:30.480
+That's easy to do especially with our modern fast computers.
+
+02:30.490 --> 02:37.310
+It starts costing companies a lot of money when we have to perform operations on larger and larger data
+
+02:37.310 --> 02:38.620
+sets.
+
+02:38.690 --> 02:43.150
+That's when things become a little bit crazy and expensive.
+
+02:43.490 --> 02:50.990
+For example Google has a ton of Web sites that are indexed What if they need to sort those Web sites
+
+02:51.410 --> 02:57.330
+in a way perhaps sorting a news article based on the time that it was released.
+
+02:57.560 --> 03:01.310
+And because we're talking about Google here we're not talking about 10 articles we're talking about
+
+03:01.310 --> 03:05.360
+thousands millions more articles sorted based on data.
+
+03:05.720 --> 03:07.360
+What about Amazon.
+
+03:08.430 --> 03:15.620
+Amazon is all about sorting they sort their products based on category based on price based on rating.
+
+03:15.780 --> 03:19.120
+And they have millions of products.
+
+03:19.130 --> 03:20.160
+What about Apple.
+
+03:20.270 --> 03:28.610
+Well Apple has the Apple store and they list all their apps and some for more of a sorted order podcasts
+
+03:28.970 --> 03:31.270
+in a sorted order.
+
+03:31.280 --> 03:32.400
+What about Microsoft.
+
+03:32.480 --> 03:38.680
+Well Microsoft they need to sort all their logs of let's say their their data centers around the world
+
+03:38.870 --> 03:45.980
+so that if an incident happens they know where it's coming from and then Netflix what they need to sort
+
+03:45.980 --> 03:49.450
+their shows their movies their TV shows somehow.
+
+03:49.480 --> 03:49.990
+Right.
+
+03:51.280 --> 03:57.700
+And they can't usually just use a built in sort method that comes with the language and they usually
+
+03:57.700 --> 04:05.530
+need custom sorted methods based on the data so that they can lower their costs and lower the operations
+
+04:05.530 --> 04:07.570
+that their computers need to do.
+
+04:08.290 --> 04:16.330
+Most places sort their data or preprocess it and all these companies including small ones usually sort
+
+04:16.330 --> 04:21.030
+data to make sure that it's meaningful if it's random data that is not sorted.
+
+04:21.160 --> 04:23.340
+It's really really hard to access.
+
+04:23.410 --> 04:27.750
+So most of the time we sort data or preprocess it.
+
+04:27.780 --> 04:34.280
+Now the examples that I just talked about they are a little bit silly but it does prove my point.
+
+04:34.440 --> 04:40.380
+For these companies if they do something wrong or they do it in an inefficient way it means losing a
+
+04:40.380 --> 04:41.130
+lot of money.
+
+04:41.280 --> 04:46.080
+That's why they ask these questions in an interview they want to make sure you understand how important
+
+04:46.080 --> 04:52.500
+the topic is and they you can make the right decision as your employee what sorting algorithm should
+
+04:52.500 --> 04:54.520
+be used based on the problem.
+
+04:55.360 --> 04:56.940
+So that's the goal of this section.
+
+04:57.190 --> 05:03.640
+I'm going to show you how to implement sorting on your own if you want but most importantly we're going
+
+05:03.640 --> 05:09.490
+to talk about the different sorting algorithms available to you and how he can make the right decisions
+
+05:09.490 --> 05:13.120
+for your company and obviously to a start coding injury.
+
+05:14.120 --> 05:21.650
+Now the reason that most sorting algorithm lessons get really boring is that there's so many sorting
+
+05:21.650 --> 05:24.000
+algorithms.
+
+05:24.220 --> 05:33.580
+If we search sorting algorithms on Wikipedia you get a pretty large list and implementing these sorts
+
+05:33.640 --> 05:41.380
+one by one yourself takes a lot of time but most likely you will never implement your own sorting algorithm
+
+05:41.440 --> 05:48.100
+in your life except for maybe a simple one in an interview because most of these especially the advanced
+
+05:48.100 --> 05:55.180
+ones that are really fast are done by academics that spend years figuring out what the best most optimal
+
+05:55.180 --> 06:01.610
+way of sorting is and interviewers don't expect to be able to implement every single sorting algorithm.
+
+06:02.720 --> 06:09.470
+My goal in this section is to teach the high level why you need to know to become a better engineer
+
+06:09.500 --> 06:15.360
+and also the coding interview I'll show you how to implement some of the poor and sorting algorithms.
+
+06:15.380 --> 06:21.830
+But more importantly we're going to talk about the tradeoffs between them so that you're able to talk
+
+06:21.830 --> 06:26.880
+about them intelligently during an interview for the next few videos.
+
+06:26.910 --> 06:34.200
+We're going to talk about these sorting algorithms and also a couple of bonus ones towards the end but
+
+06:34.200 --> 06:41.490
+the key thing to remember is that as more and more data is handled by our computers which is a big trending
+
+06:41.490 --> 06:47.970
+computing sorting and searching are two of the biggest computer science problems in the software world
+
+06:48.870 --> 06:51.260
+searching we're going to get into the next section.
+
+06:51.330 --> 06:57.140
+But sorting is something we'll have for the master at the end of these videos.
+
+06:57.240 --> 07:00.820
+So let's go learn how to make good decisions when it comes to sorting.

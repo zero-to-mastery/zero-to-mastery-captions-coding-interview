@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.980 --> 00:01.820
+Selamat datang kembali.
+
+00:02.190 --> 00:09.540
+Mari kita mulai dengan pendekatan iteratif yang bukan rekursi jika kita ingin menjalankan fungsinya
+
+00:09.540 --> 00:20.940
+katakanlah menemukan faktorial iteratif lima sementara kita dapat membuat variabel katakanlah kanker dan untuk saat ini jawaban ini akan menjadi satu dan
+
+00:20.940 --> 00:31.980
+semua yang akan kita lakukan adalah lakukan for for loop akan mengatakan Biarkan saya memiliki biaya nol atau dalam kasus kami untuk
+
+00:31.980 --> 00:33.510
+menyederhanakan hal-hal.
+
+00:33.570 --> 00:43.040
+Mari kita mulai dari dua dan saya akan menjelaskan dalam satu detik mengapa kita ingin memulai dua
+
+00:43.040 --> 00:50.580
+untuk mengatakan saya kurang dari jumlah dan kemudian kita akan bertambah satu.
+
+00:50.640 --> 00:55.480
+Sekarang mengapa kita mulai menambahkan.
+
+00:55.600 --> 00:57.510
+Anda mungkin melihat jalan pintas di sini.
+
+00:58.250 --> 01:08.520
+1 faktorial hanya satu dua faktorial adalah dua kali 1 yang hanya dua.
+
+01:08.560 --> 01:11.210
+Jadi dua bit terakhir ini.
+
+01:11.290 --> 01:18.790
+Jika seseorang mengatakan satu faktorial atau dua faktorial yang hanya mengembalikan nomor yang telah mereka masukkan karena
+
+01:18.790 --> 01:22.890
+tidak ada perhitungan nyata yang perlu kita lakukan.
+
+01:22.960 --> 01:33.440
+Jadi ini adalah jalan pintas kecil sehingga kami menghindari loop tambahan tetapi hanya mengatakan bahwa jika nomor yang dimasukkan
+
+01:33.440 --> 01:36.200
+pengguna adalah katakanlah 2.
+
+01:36.200 --> 01:39.750
+Jadi itu dua tidak lebih besar dari nomor dua.
+
+01:41.080 --> 01:49.960
+Cara kita memilikinya sekarang jika seseorang masuk menemukan iteratif 2 faktorial kita akan mengembalikan 1 tetapi
+
+01:49.990 --> 02:00.520
+sebaliknya kita dapat mengatakan mungkin saja pemeriksaan bersyarat sederhana yang mengatakan bahwa jika angka sama dengan dua kita hanya
+
+02:00.520 --> 02:04.530
+akan mengatakan bahwa jawaban sama dengan 2.
+
+02:04.630 --> 02:14.210
+Sehingga jika saya menjalankan fungsi ini dan hanya mengatakan kepada saya mendapatkan dua jika saya mengatakan satu saya mendapatkan satu dan ada pemeriksaan lain
+
+02:14.210 --> 02:16.740
+yang bisa kita lakukan dengan jelas.
+
+02:17.180 --> 02:19.490
+Tetapi untuk kasus kami ini cukup baik.
+
+02:19.490 --> 02:22.270
+Mari kita lihat apa yang bisa kita lakukan di dalam sini.
+
+02:23.270 --> 02:33.740
+Nah cara kerja faktorial adalah dengan hanya mengatakan jawaban akan sama dengan waktu jawaban.
+
+02:33.960 --> 02:41.950
+Jadi jika saya klik Quraan di sini dan mari kita lakukan lima saya mendapatkan 24 yang
+
+02:42.190 --> 02:50.970
+sebenarnya bukan jawaban yang tepat karena lima kali empat adalah 20 kali tiga juga jelas lebih tinggi dari 24.
+
+02:51.370 --> 02:56.800
+Dan itu karena sedikit kesalahan di sini kami ingin memastikan bahwa ini sama karena
+
+02:56.800 --> 02:58.900
+kami ingin memasukkan nomor lima.
+
+02:59.260 --> 03:09.800
+Jadi jika saya menjalankan ini lagi saya mendapatkan seratus dua puluh yang merupakan jawaban yang benar lima kali empat adalah 20 kali.
+
+03:09.940 --> 03:20.940
+Kali tiga adalah 60 kali dua adalah 120 kali satu hanya 120 sempurna.
+
+03:21.280 --> 03:24.650
+Jadi semoga jawaban Anda benar.
+
+03:25.570 --> 03:27.540
+Bagaimana dengan pendekatan rekursif.
+
+03:29.750 --> 03:41.910
+Dalam versi rekursif kami hanya akan melakukan pemeriksaan sederhana yang mengatakan jika jumlahnya sama dengan 2 dan kami juga dapat melakukan
+
+03:41.910 --> 03:42.550
+pemeriksaan.
+
+03:42.570 --> 03:46.590
+Tapi itu seharusnya cukup untuk saat ini bagi kita untuk membuat kasus dasar.
+
+03:46.590 --> 03:55.570
+Jadi, jika angkanya menjadi 2, kita akan kembali ke kasing kami.
+
+03:55.600 --> 03:57.120
+Begitulah cara kita berhenti.
+
+03:57.190 --> 04:09.360
+Selanjutnya kita akan mengembalikan versi rekursif kita yang hanya akan menjadi nomor kali fungsinya.
+
+04:09.470 --> 04:16.050
+Dan dalam fungsi ini kita hanya akan mengatakan angka minus satu.
+
+04:16.460 --> 04:17.830
+Dan itulah kuncinya di sini.
+
+04:18.020 --> 04:25.500
+Kami ingin selalu semakin rendah hingga mencapai base case.
+
+04:25.520 --> 04:29.870
+Jadi jika saya tekan run di sini mari kita
+
+04:33.010 --> 04:41.570
+lakukan rekursif kali ini saya akan memindahkan ini ke sini dan jika saya berlari saya juga mendapat 120.
+
+04:41.750 --> 04:44.380
+Dan ini agak sulit untuk membungkus pikiran Anda.
+
+04:44.450 --> 04:50.540
+Jadi, Anda mungkin ingin menyalin kode ini dan membuka alat pengembang Google Chrome seperti yang saya tunjukkan dan
+
+04:50.540 --> 04:52.190
+lakukan langkah demi langkah.
+
+04:52.280 --> 04:57.680
+Tetapi jika kita mulai dengan angka lima di sini juga ada lima yang sama.
+
+04:57.750 --> 04:58.280
+Tidak.
+
+04:58.400 --> 05:11.330
+Lalu kita akan mengatakan lima kali faktorial baik untuk menjadi jawaban kita seperti diagram yang saya tunjukkan kepada Anda.
+
+05:11.740 --> 05:22.810
+Dan kita terus berjalan dan terus sampai kita mencapai kasus dasar apakah jumlahnya sama dengan.
+
+05:22.930 --> 05:29.430
+Sekarang satu bit terakhir menurut Anda kompleksitas waktu dari kedua fungsi ini.
+
+05:30.590 --> 05:38.740
+Yah satu menggunakan for loop dengan loop menjadi nomor yang terkait dengannya.
+
+05:39.020 --> 05:44.970
+Dan kami melakukan sedikit jalan pintas di sini sehingga secara teknis kurang dari dan tetapi
+
+05:45.140 --> 05:48.530
+karena aturan besar kami, ini masih akan mengalahkan
+
+05:51.350 --> 05:52.730
+semua fungsi rekursif.
+
+05:52.750 --> 05:55.280
+Jika kita melihat ini, kita mengulang.
+
+05:55.330 --> 05:56.540
+Berapa kali.
+
+05:57.130 --> 06:03.640
+Yah kita memanggil fungsi fungsi menemukan rekursif rekursif faktorial jumlah yang sama kali
+
+06:03.700 --> 06:05.760
+dengan angka itu sendiri.
+
+06:05.770 --> 06:12.350
+Jadi ini juga menjadi masalah jika Anda memiliki pertanyaan ini.
+
+06:12.370 --> 06:13.080
+Kerja bagus.
+
+06:13.090 --> 06:14.010
+Itu yang sulit.
+
+06:14.020 --> 06:17.430
+Jika Anda tidak khawatir, kami punya satu lagi.
+
+06:17.500 --> 06:18.830
+Saya akan melihat yang berikutnya.
+
+06:18.960 --> 06:19.190
+Babai.

@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.700 --> 00:01.530
+Ben tornato.
+
+00:01.720 --> 00:04.890
+Cerchiamo di codificare il nostro algoritmo di ordinamento delle bolle.
+
+00:04.930 --> 00:13.700
+Creerò una funzione chiamata Bubble sort che prenderà un array e ho una matrice qui
+
+00:13.700 --> 00:16.910
+per noi di questi numeri.
+
+00:17.230 --> 00:23.290
+E idealmente quando entriamo in questa matrice in questa funzione sputa un array ordinato.
+
+00:24.280 --> 00:31.510
+E in base all'animazione che abbiamo visto iniziamo idealmente dall'inizio confrontare il primo e il
+
+00:31.510 --> 00:34.270
+secondo oggetto scambiando gli elementi.
+
+00:34.300 --> 00:40.690
+Se quello di sinistra è più grande di quello di destra e continua ad andare avanti, continua fino a quando
+
+00:41.380 --> 00:46.370
+l'elemento più grande finisce nell'ultimo indice e poi eseguiamo nuovamente il loop delle cose.
+
+00:46.630 --> 00:51.850
+La prima cosa che voglio fare è dire che creerò una variabile in modo da
+
+00:51.850 --> 01:00.670
+non dover continuare a ripetermi tutto ottenere il punto dell'array più lungo deve essere la lunghezza di questo elemento che dovrebbe essere 10 Credo 1 2
+
+01:00.670 --> 01:03.800
+3 4 5 6 7 8 9 10.
+
+01:03.820 --> 01:04.690
+Lo ami.
+
+01:04.720 --> 01:12.430
+Non importa di imparare e qui faremo un ciclo for e diremo di farcelo.
+
+01:12.720 --> 01:16.110
+Il costo è 0, che sarà il primo indice dell'array.
+
+01:17.910 --> 01:22.070
+Io sono meno di lenth.
+
+01:22.340 --> 01:26.890
+Plus plus e qui dentro prendiamo il primo oggetto.
+
+01:27.010 --> 01:33.220
+Ora vogliamo confrontarlo con 44 e così via e così via, dovremmo saperlo ora.
+
+01:33.610 --> 01:36.530
+Vogliamo aggiungere un altro per il ciclo J.
+
+01:36.700 --> 01:39.760
+Si chiamerà 0.
+
+01:39.960 --> 01:56.650
+J sarà inferiore a lenth e diremo J plus plus ora in qui diremo che se il nostro indice di carta RE J di
+
+01:56.720 --> 01:57.720
+0.
+
+01:57.800 --> 02:05.300
+Quindi questo è novantanove è maggiore di Auray J più 1.
+
+02:05.330 --> 02:06.920
+Questo è 44.
+
+02:06.920 --> 02:13.140
+Quindi se novantanove è maggiore di 44 nel primo ciclo diremo numeri
+
+02:16.600 --> 02:17.720
+scambiati.
+
+02:19.630 --> 02:29.740
+Quindi possiamo semplicemente farlo dicendo di creare una variabile temporanea che contiene un array J che
+
+02:29.740 --> 02:39.450
+il primo passaggio sarà novantanove e darà il primo indice di 0 a Array.
+
+02:40.570 --> 02:48.920
+J più 44 o più 1, che è 44 e 99.
+
+02:48.920 --> 02:50.740
+Ora entra nel secondo indice.
+
+02:50.760 --> 02:58.990
+Ciò significa che Ray J plus 1 equivale a un raggio j.
+
+03:00.900 --> 03:03.600
+Potrebbe essere necessario mettere in pausa il video per capire davvero questo.
+
+03:03.720 --> 03:05.580
+Ma tutto ciò che stiamo facendo è solo lo scambio di numeri.
+
+03:05.580 --> 03:16.080
+Se il lato sinistro è più grande del lato destro e una volta fatto, incrementiamo J a 1 in modo da confrontare l'indice di 1 e
+
+03:16.080 --> 03:23.700
+2 e quindi confrontiamo l'indice di 2 e 3 3 e 4 4 o 5 finché non facciamo bolle
+
+03:23.700 --> 03:24.530
+su.
+
+03:24.630 --> 03:33.040
+E poi andiamo in cima e confrontiamo gli articoli di nuovo e l'out è per vedere se questo funziona.
+
+03:33.560 --> 03:36.740
+Oh e l'ho appena capito.
+
+03:36.840 --> 03:37.580
+J.
+
+03:39.230 --> 03:41.780
+Dovrebbe essere Tampere.
+
+03:41.930 --> 03:44.080
+Quindi ricorda novantanove.
+
+03:44.150 --> 03:52.710
+Lo abbiamo inserito in una variabile temporanea e assegnandolo all'indice a destra, in modo da arrotondare l'ordinamento delle
+
+03:52.710 --> 03:53.250
+bolle.
+
+03:53.250 --> 04:04.710
+Ora diremo i numeri e consoleremo i numeri di registro per vedere se è ordinato se colpisco Ron.
+
+04:05.320 --> 04:07.700
+I numeri di registro causale assicurano che io possa scrivere.
+
+04:07.780 --> 04:13.470
+Diciamo che corro guardo il nostro elenco è ora ordinato.
+
+04:14.460 --> 04:18.120
+Quello era bubble sort.
+
+04:18.240 --> 04:26.600
+E come puoi sentire, abbiamo due loop nidificati che ci danno tutto il quadrato finale, ma non stiamo davvero tenendo
+
+04:26.600 --> 04:33.060
+le variabili in un'altra struttura dati o tenendo i numeri in altre strutture dati.
+
+04:33.110 --> 04:43.280
+Quindi la complessità dello spazio è tutto ciò che possiamo vedere nel nostro big-O Chichi, che probabilmente non è
+
+04:43.280 --> 04:48.640
+il miglior algoritmo, sebbene abbia una buona complessità spaziale.
+
+04:48.790 --> 04:53.880
+Puoi usare il codice che Alief per te e questa lezione con cui giocare.
+
+04:54.060 --> 04:57.930
+Ma per ora passiamo al nostro prossimo algoritmo di ordinamento.
+
+04:57.930 --> 05:02.050
+Congratulazioni, hai appena completato il tuo primo algoritmo di ordinamento.
+
+05:02.070 --> 05:03.710
+Ma abbiamo ancora molto da fare.
+
+05:03.780 --> 05:05.770
+Quindi andiamo al prossimo.

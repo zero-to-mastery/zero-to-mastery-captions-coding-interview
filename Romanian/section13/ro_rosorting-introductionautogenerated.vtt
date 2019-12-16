@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.930 --> 00:05.770
+Bună ziua și bun venit la următoarea parte a secțiunii algoritmului.
+
+00:05.970 --> 00:11.630
+Da, sunt încă încântat în ciuda subiectului următor, probabil cel mai puțin favorit.
+
+00:11.940 --> 00:18.660
+Veți vedea în trecut, când am învățat despre sortare, a implicat o mulțime de matematică o mulțime de
+
+00:18.930 --> 00:26.050
+algoritmi diferiți și niciodată nu m-am bucurat de ea pentru că nu am înțeles de ce trebuia să cunoaștem sortarea.
+
+00:26.130 --> 00:31.290
+Vreau să spun că ai doar o funcție de sortare, de regulă, într-un limbaj de programare și asta-i tot.
+
+00:31.380 --> 00:32.400
+Dreapta.
+
+00:32.430 --> 00:34.900
+N-am înțeles nimic.
+
+00:35.310 --> 00:37.380
+Și probabil că te gândeai la același lucru.
+
+00:37.830 --> 00:38.140
+In regula.
+
+00:38.150 --> 00:39.980
+Andre nu are nimic de învățat aici.
+
+00:39.990 --> 00:43.520
+Voi trece peste secțiunea de secțiuni gri.
+
+00:43.560 --> 00:44.460
+Ne vedem mai tarziu.
+
+00:44.580 --> 00:45.290
+Dreapta.
+
+00:45.720 --> 00:48.210
+Nu chiar.
+
+00:48.210 --> 00:50.790
+Permiteți-mi să vă explic într-un interviu.
+
+00:50.820 --> 00:53.760
+Sortarea este foarte importantă.
+
+00:53.790 --> 01:00.510
+Ați auzit întrebări cum ar fi să luați o mulțime de numere și să le sortați sau intervievatorul vă
+
+01:00.690 --> 01:08.790
+dorește să faceți ceva la unele intrări și vă spun că această intrare este sortată și vă întrebați de ce ne-au spus doar
+
+01:08.790 --> 01:09.340
+asta.
+
+01:09.360 --> 01:11.430
+De ce contează dacă este sortată sau nu?
+
+01:11.730 --> 01:19.110
+Și de ce companiile se ocupă atât de mult de sortare dacă pot folosi metoda de sortare încorporată în
+
+01:19.110 --> 01:19.950
+limba mea.
+
+01:21.100 --> 01:28.710
+Ei bine, iată că sortarea nu este o problemă mare atunci când vine vorba de date de intrare mici.
+
+01:28.750 --> 01:29.530
+Ai avea dreptate.
+
+01:29.530 --> 01:31.440
+Poți să faci ceva de genul asta.
+
+01:31.810 --> 01:40.370
+Am avea o serie de litere și această matrice pur și simplu are
+
+01:43.370 --> 01:46.280
+un D spun Z.
+
+01:46.370 --> 01:47.520
+Să mai adăugăm și câteva.
+
+01:47.550 --> 01:53.490
+R și în cele din urmă să fie.
+
+01:53.740 --> 02:00.510
+Și dacă cineva spune să ordoneze acest lucru, putem folosi doar ceva ca o metodă de sortare care
+
+02:00.600 --> 02:02.450
+vine cu majoritatea limbilor.
+
+02:02.650 --> 02:08.980
+Și dacă arăt acest aspect frumos și ușor doar a început totul.
+
+02:08.980 --> 02:10.310
+Sunt un geniu drept.
+
+02:11.550 --> 02:15.160
+De ce companiile ar întreba vreodată o întrebare atât de simplă despre noi.
+
+02:15.210 --> 02:23.260
+Vedeți problema este atunci când intrările devin mai mari și mai mari ca atunci când am vorbit despre big-O nu
+
+02:23.260 --> 02:25.470
+ne pasă de intrări mici.
+
+02:26.210 --> 02:30.480
+Acest lucru este ușor de făcut în special cu calculatoarele noastre moderne rapide.
+
+02:30.490 --> 02:37.310
+Începe costurile companiilor o mulțime de bani atunci când trebuie să efectuăm operațiuni pe seturi de date mai mari
+
+02:37.310 --> 02:38.620
+și mai mari.
+
+02:38.690 --> 02:43.150
+Atunci lucrurile devin cam nebune și costisitoare.
+
+02:43.490 --> 02:50.990
+De exemplu, Google are o tona de site-uri care sunt indexate Ce se întâmplă dacă trebuie să sorteze aceste site-uri web
+
+02:51.410 --> 02:57.330
+într-un mod, probabil, sortarea unui articol de știri bazat pe momentul în care a fost lansat.
+
+02:57.560 --> 03:01.310
+Și pentru că vorbim despre Google aici nu vorbim despre 10 articole
+
+03:01.310 --> 03:05.360
+despre care vorbim despre alte mii de milioane de articole sortate pe baza datelor.
+
+03:05.720 --> 03:07.360
+Dar Amazon.
+
+03:08.430 --> 03:15.620
+Amazon se ocupă de sortarea pe care le sortează produsele pe baza unei categorii bazate pe prețul bazat pe rating.
+
+03:15.780 --> 03:19.120
+Și au milioane de produse.
+
+03:19.130 --> 03:20.160
+Dar Apple.
+
+03:20.270 --> 03:28.610
+Ei bine, Apple are magazinul Apple și ele afișează toate aplicațiile lor, iar altele pentru mai mult de un sort de
+
+03:28.970 --> 03:31.270
+podcasturi sortate într-o ordine sortată.
+
+03:31.280 --> 03:32.400
+Ce zici de Microsoft?
+
+03:32.480 --> 03:38.680
+Ei bine, Microsoft trebuie să sorteze toate jurnalele lor de a spune că centrele lor de date din
+
+03:38.870 --> 03:45.980
+întreaga lume, astfel încât, dacă se întâmplă un incident, ei știu de unde provin, iar apoi Netflix ceea ce au nevoie
+
+03:45.980 --> 03:49.450
+pentru a sorta emisiunile lor, filmele lor arată cumva.
+
+03:49.480 --> 03:49.990
+Dreapta.
+
+03:51.280 --> 03:57.700
+De obicei, aceștia nu pot utiliza doar o metodă de sortare construită în limba respectivă și de
+
+03:57.700 --> 04:05.530
+obicei au nevoie de metode personalizate sortate pe baza datelor, astfel încât să își reducă costurile și să reducă operațiunile pe care
+
+04:05.530 --> 04:07.570
+computerele trebuie să le facă.
+
+04:08.290 --> 04:16.330
+Cele mai multe locuri își sortează datele sau o preprocesează, iar toate aceste companii, inclusiv cele mici, sortează, de obicei, datele, pentru a
+
+04:16.330 --> 04:21.030
+se asigura că este semnificativ dacă sunt date aleatorii care nu sunt sortate.
+
+04:21.160 --> 04:23.340
+Este într-adevăr foarte greu de accesat.
+
+04:23.410 --> 04:27.750
+Deci, de cele mai multe ori ordonăm datele sau le preprocesăm.
+
+04:27.780 --> 04:34.280
+Acum exemplele pe care tocmai le-am vorbit sunt puțin prostești, dar se dovedește a fi punctul meu de vedere.
+
+04:34.440 --> 04:40.380
+Pentru acele companii, dacă fac ceva rău sau o fac într-un mod ineficient, înseamnă că pierde o mulțime
+
+04:40.380 --> 04:41.130
+de bani.
+
+04:41.280 --> 04:46.080
+De aceea pun aceste întrebări într-un interviu pe care doresc să vă facă să le
+
+04:46.080 --> 04:52.500
+înțelegeți cât de important este subiectul și puteți lua decizia corectă în calitate de angajat, ce algoritm de sortare ar trebui
+
+04:52.500 --> 04:54.520
+să fie utilizat pe baza problemei.
+
+04:55.360 --> 04:56.940
+Deci, acesta este scopul acestei secțiuni.
+
+04:57.190 --> 05:03.640
+Vă voi arăta cum să implementați sortarea pe cont propriu, dacă vreți, dar cel mai important, vom vorbi
+
+05:03.640 --> 05:09.490
+despre algoritmii de sortare diferiți disponibili și despre modul în care poate lua deciziile corecte
+
+05:09.490 --> 05:13.120
+pentru compania dvs. și, evident, la început codificarea prejudiciului.
+
+05:14.120 --> 05:21.650
+Acum, motivul pentru care cele mai multe lecții de algoritm de sortare este foarte plictisitor este că există atât
+
+05:21.650 --> 05:24.000
+de mulți algoritmi de sortare.
+
+05:24.220 --> 05:33.580
+Dacă căutăm algoritmi de sortare pe Wikipedia, veți obține o listă destul de mare și implementarea acestor tipuri unul câte unul va dura mult
+
+05:33.640 --> 05:41.380
+timp, dar cel mai probabil nu veți implementa niciodată propriul algoritm de sortare în viața voastră, cu excepția celui simplu
+
+05:41.440 --> 05:48.100
+într-un interviu cele mai multe dintre acestea, în special cele avansate, care sunt într-adevăr rapide, sunt
+
+05:48.100 --> 05:55.180
+realizate de cadre universitare care petrec ani după ce găsesc ce este cel mai bun mod optim de
+
+05:55.180 --> 06:01.610
+sortare și intervievatorii nu se așteaptă să fie capabili să implementeze fiecare algoritm de sortare.
+
+06:02.720 --> 06:09.470
+Scopul meu în această secțiune este de a preda nivelul înalt de ce trebuie să știți pentru a deveni un inginer mai bun și,
+
+06:09.500 --> 06:15.360
+de asemenea, interviul de codificare vă voi arăta cum să implementați unii dintre cei mai săraci și algoritmi de sortare.
+
+06:15.380 --> 06:21.830
+Dar, mai important, vom vorbi despre compromisurile dintre ele, astfel încât să puteți vorbi despre ele
+
+06:21.830 --> 06:26.880
+în mod inteligent în timpul unui interviu pentru următoarele câteva videoclipuri.
+
+06:26.910 --> 06:34.200
+Vom vorbi despre acești algoritmi de sortare și despre câteva bonusuri spre final, dar cheia care trebuie amintită este
+
+06:34.200 --> 06:41.490
+că, pe măsură ce tot mai multe date sunt tratate de computerele noastre, care este o sortare și căutări
+
+06:41.490 --> 06:47.970
+de calcul obișnuite, sunt două dintre cele mai mari probleme de informatică din lumea software-ului căutând că
+
+06:48.870 --> 06:51.260
+vom intra în secțiunea următoare.
+
+06:51.330 --> 06:57.140
+Dar sortarea este ceva ce vom avea pentru maestru la sfârșitul acestor videoclipuri.
+
+06:57.240 --> 07:00.820
+Deci, să mergem să învățăm cum să luăm decizii bune atunci când vine vorba de sortare.

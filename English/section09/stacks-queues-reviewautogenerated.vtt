@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.370 --> 00:08.960
+And there we have it we've learned stacks and Qs and an easy way to remember them is just simply plates
+
+00:09.380 --> 00:11.060
+and our waiting line.
+
+00:11.060 --> 00:16.390
+We learned why they're built on top of other data structures like linked lists and arrays.
+
+00:16.520 --> 00:22.970
+And we also talked about how to build stacks with the Rays and length lists and also why we might not
+
+00:22.970 --> 00:31.280
+want to use an array to build queues and also built a new data structure with a linked list.
+
+00:31.300 --> 00:37.840
+We learned that stacks and queues are great for some fast operations that they have such as removing
+
+00:37.840 --> 00:42.280
+or inserting such as at the end of the data structure.
+
+00:42.920 --> 00:50.550
+We can also access the very first item in a queue or the very top item in a stack.
+
+00:50.780 --> 00:58.490
+And we also have all our data order which is really really nice but we don't usually use our stacks
+
+00:58.490 --> 01:03.400
+or cues to really do any sort of lock up or search through the data structure.
+
+01:03.440 --> 01:07.670
+All we're interested in is the end bits of the data structure.
+
+01:07.670 --> 01:14.770
+So they make it really useful by restricting our use of what we can do when it comes to stacks and queues.
+
+01:14.900 --> 01:20.090
+But making sure that what we're allowed to do with these data structures are going to be really really
+
+01:20.090 --> 01:22.600
+fast.
+
+01:22.830 --> 01:24.060
+And there we have it.
+
+01:24.180 --> 01:28.520
+We've continued to expand our mind map of data structures.
+
+01:28.860 --> 01:31.290
+So we completed our stacks.
+
+01:31.290 --> 01:38.730
+We learned how to create stacks with arrays and length lists we've learned about their Big O notation
+
+01:39.180 --> 01:45.190
+and we also talked about cues and how we would really want to use an array for a cue.
+
+01:45.270 --> 01:47.840
+A very common interview question.
+
+01:48.150 --> 01:54.630
+We learn how to use a linked list to create a queue and also we learned about the bego implications
+
+01:55.140 --> 01:59.570
+which is very similar to stacks.
+
+01:59.670 --> 02:03.720
+We're getting closer and closer to filling out this mind map.
+
+02:03.930 --> 02:10.520
+But before we do that we still have a few more data structures to go but the end is almost near.
+
+02:10.530 --> 02:13.570
+We only have trees and graphs to talk about.
+
+02:14.650 --> 02:17.480
+For that I'll see you in the next part.

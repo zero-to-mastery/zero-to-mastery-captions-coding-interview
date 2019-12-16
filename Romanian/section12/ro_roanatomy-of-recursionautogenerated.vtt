@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.110 --> 00:09.220
+Fiecare funcție recursivă trebuie să aibă ceva numit un caz de bază sau un punct de oprire.
+
+00:09.390 --> 00:16.380
+Amintiți-vă exemplul de la început, unde v-am arătat cum să verificați în mod
+
+00:17.010 --> 00:26.490
+recursiv toate folderele dintr-unul dintre proiectele noastre, trebuie să spuneți programului dacă acest subfolder nu mai are alte foldere
+
+00:26.490 --> 00:33.770
+oprite dacă această oprire nu ar fi fost " acolo funcția ar continua să funcționeze.
+
+00:33.940 --> 00:36.790
+Funcțiile recursive au două căi.
+
+00:37.570 --> 00:43.730
+Unul este cazul recursiv care se numește din nou funcția și o execută.
+
+00:44.080 --> 00:47.370
+Și apoi cazul de bază care nu mai apela funcția.
+
+00:47.530 --> 00:49.950
+Nu mai este nevoie să căutați.
+
+00:50.000 --> 00:56.180
+Deci, cum putem adăuga această caracteristică de a spune funcția Hei renunță că ești ridicol chiar acum trebuie
+
+00:56.180 --> 00:57.350
+să te oprești.
+
+00:57.830 --> 01:00.920
+Putem face ceva de genul asta.
+
+01:01.040 --> 01:04.610
+Putem crea un contor și vom spune că acest contor este zero.
+
+01:06.960 --> 01:19.280
+Și putem adăuga o afirmație condiționată va spune că dacă contorul este mai mare de 3 în acest caz
+
+01:19.280 --> 01:21.390
+întoarceți doar Done.
+
+01:24.480 --> 01:27.100
+În caz contrar, vom apela la început.
+
+01:27.110 --> 01:31.360
+Dar dorim, de asemenea, să creștem contorul cu 1.
+
+01:31.390 --> 01:41.190
+Deci, dacă dau clic pe rulați aici bine, trebuie să sun mai întâi funcția să spunem inițial dacă numesc această funcție chiar acum
+
+01:41.350 --> 01:44.340
+ce credeți că se va întâmpla.
+
+01:45.210 --> 01:46.360
+Întrerupeți un videoclip.
+
+01:46.360 --> 01:51.070
+Gândește-te la asta pentru că sunt pe cale să fac clic pe rulați în
+
+01:54.560 --> 01:56.700
+trei la un prim nedefinit.
+
+01:56.870 --> 02:00.220
+Așa v-ați așteptat.
+
+02:00.350 --> 02:07.670
+Doar pentru a vă arăta ceva dacă am comenta acest cod și facem doar această inițiere unde
+
+02:07.670 --> 02:20.630
+pur și simplu continuăm să inițiem o inițiere inițială și poate să facem un jurnal de consolă aici spunând salut și făcând clic pe Run I se obține o
+
+02:20.630 --> 02:24.610
+mărime maximă a stivei de apel depășită OK.
+
+02:24.800 --> 02:30.660
+Știm că, uitând la această funcție, această versiune a funcției pe care nu o va ajunge niciodată la consolă, pentru că
+
+02:30.850 --> 02:37.160
+de îndată ce a lovit prima linie a funcției, ea se va întoarce și va spune că o sun pe asta și pe
+
+02:37.160 --> 02:42.350
+urmă du-te aici este doar de gând să săriți înainte și înapoi înainte și înapoi niciodată ajunge
+
+02:42.350 --> 02:43.280
+la consola jurnal.
+
+02:43.580 --> 02:46.000
+Dar dacă ne întoarcem la ceea ce am avut înainte.
+
+02:46.400 --> 02:50.040
+Ei bine, funcția noastră sa încheiat în mod clar.
+
+02:50.060 --> 02:58.860
+Nu s-a făcut prea mult și, la un moment dat, sa terminat, pentru că noi creștem contorul.
+
+02:58.900 --> 03:05.960
+Așa că lasă-mă să consolez toate jurnalele aici sunt contra și asigurați-vă că acest lucru funcționează.
+
+03:06.100 --> 03:12.670
+Dacă fac clic pe Run, obțin 0 1 2 3 4 când ajunge la 4.
+
+03:12.670 --> 03:15.160
+Contorul este mai mare de 3.
+
+03:15.430 --> 03:17.510
+Deci, ne întoarcem.
+
+03:17.650 --> 03:20.860
+Dar de ce nu se face aici.
+
+03:22.200 --> 03:26.610
+Și aceasta este o ilustrare excelentă a modului în care funcționează recursiunea.
+
+03:26.670 --> 03:28.140
+Am de gând să
+
+03:31.270 --> 03:34.600
+copiez codul și să mă întorc la browserul nostru aici.
+
+03:34.750 --> 03:42.860
+Permiteți-mi să reîmprospătez această pagină pentru a vă asigura că aveți o variabilă globală clară și voi încerca să copiați și
+
+03:42.860 --> 03:52.100
+să lipiți inițiere de această dată. Voi adăuga cuvântul cheie de depanare, astfel încât să putem depista codul nostru și să mergem pas
+
+03:52.130 --> 03:53.690
+cu pas aceasta.
+
+03:55.340 --> 04:00.750
+Să începem și să vedem ce se întâmplă.
+
+04:00.750 --> 04:04.680
+În regulă, ne-am întors la depanatorul nostru.
+
+04:04.730 --> 04:06.860
+Vedem că avem stack-ul de apel aici.
+
+04:06.860 --> 04:14.720
+Inceputul tocmai a fost chemat de mine și deschid, de asemenea, această filă mică numită domeniu pentru cazul nostru.
+
+04:14.740 --> 04:19.740
+Vrem să deschidem doar domeniul de scenariu.
+
+04:19.940 --> 04:28.500
+Aceasta ne arată ce variabile avem la dispoziție în acest caz avem un contor care este dvs.
+
+04:28.640 --> 04:29.610
+Așa că voi da clic.
+
+04:29.630 --> 04:36.460
+Treceți peste și va spune că avem un contor este egal cu zero.
+
+04:36.470 --> 04:38.130
+Este mai mare de trei.
+
+04:38.160 --> 04:45.140
+Nu am de gând să sărind peste contorul Inkerman și să alerg și separat vedem că sa întâmplat.
+
+04:46.050 --> 04:51.770
+Counter-ul a crescut acum pentru că am trecut prin această linie și acum mergem la Inception.
+
+04:51.810 --> 04:56.010
+Vom reda funcția din nou și veți observa că stivuirea apelurilor când fac clic pe
+
+04:56.010 --> 04:56.510
+acesta
+
+04:59.390 --> 05:05.670
+va crește și vom merge încă o dată pentru țările în care o singură dată nu mai întoarce nicio măsură în plus.
+
+05:05.750 --> 05:09.460
+Veți vedea că contul se duce la doi și vom începe să începem din nou.
+
+05:10.590 --> 05:18.620
+Și continuăm să mergem încă o dată prin Connard devine trei care adaugă începutul la stivă și apoi
+
+05:18.620 --> 05:23.230
+încă o dată trei nu este mai mare de trei.
+
+05:23.230 --> 05:27.420
+Deci mergem încă o dată chemând inițiativa adăugând în stivă.
+
+05:27.580 --> 05:36.700
+Acum avem numeroasele contoare de stive la patru și apoi trecem peste aici, contra patru este acum mai mare
+
+05:36.700 --> 05:37.760
+de trei.
+
+05:37.780 --> 05:43.210
+În cele din urmă vom intra în condiția dacă se va întoarce pentru noi.
+
+05:43.270 --> 05:44.690
+Să vedem ce se întâmplă aici.
+
+05:44.710 --> 05:46.590
+Voi faceți clic pe următorul.
+
+05:48.650 --> 05:52.280
+Apoi, dau din nou clic pe Următorul.
+
+05:52.310 --> 05:53.330
+Uită-te la asta.
+
+05:53.480 --> 06:00.520
+Avem acum o variabilă locală care are valoarea returnată.
+
+06:00.540 --> 06:10.090
+Ne-am intors acum si nu mai suntem de gand sa sunam, stiva de apel va incepe acum sa
+
+06:10.150 --> 06:17.070
+desfasoare aceste functii deoarece va spune ca avem un cuvânt cheie de retur.
+
+06:17.170 --> 06:22.020
+Voi opri tot ceea ce fac în partea de jos și voi reveni din această funcție.
+
+06:22.060 --> 06:28.020
+Deci, această funcție inițială va reveni, dar veți observa ce se întâmplă în continuare.
+
+06:31.070 --> 06:38.390
+Deși am primit o valoare de returnare nedefinită, Azari a ieșit din elementul de sus de la început din
+
+06:38.770 --> 06:46.010
+stackul de apeluri și dacă continui să scot lucrurile din stiva de apel, valoarea returnată este nedefinită.
+
+06:46.170 --> 06:48.590
+Și de asta ajungem.
+
+06:48.800 --> 06:50.870
+De ce este asta?
+
+06:51.230 --> 06:59.990
+Ei bine, dacă ne întoarcem la funcția noastră bine, tocmai ați văzut că noi în esență
+
+07:00.590 --> 07:11.500
+facem acest lucru pe care l-am chemat la început de două ori de trei ori și apoi de patru ori.
+
+07:11.720 --> 07:15.910
+Și aici, când am ajuns aici, am spus că întoarcerea sa făcut.
+
+07:16.130 --> 07:27.420
+Deci, această funcție de început se transformă în dună și apoi mergem la această funcție.
+
+07:27.430 --> 07:34.680
+Acum, problema cu acest lucru și știu că tsking este confuz este faptul că odată ne-am întors o dată am dat
+
+07:34.680 --> 07:41.530
+jos de stiva și suntem acum la această parte de la început, dar această inițiativă nu întoarce niciodată nimic.
+
+07:41.850 --> 07:46.270
+Când o funcție nu returnează nimic, ea se întoarce pe loc.
+
+07:46.290 --> 07:49.570
+Așa că trebuie să continuăm să-i spunem să returneze acest lucru.
+
+07:50.070 --> 07:53.400
+Și bulați-l până la capăt.
+
+07:53.820 --> 07:58.320
+Și acesta este ceva pe care trebuie să-l țineți cont de recursivitate.
+
+07:58.410 --> 08:05.990
+Există, de obicei, un caz de bază și întotdeauna doriți să vă asigurați că vă întoarceți astfel încât valoarea pe
+
+08:05.990 --> 08:09.860
+care doriți să o primească tot drumul de vorbit.
+
+08:09.890 --> 08:19.490
+În cazul nostru, tot ce trebuie să facem este să spunem reîntoarcerea în acest fel, această inițiere știe să returneze orice rezultat a
+
+08:19.490 --> 08:25.820
+fost făcut, iar această inițiere știe să ducă la revenirea oricăror rezultate care s-au făcut
+
+08:26.000 --> 08:27.200
+din nou.
+
+08:27.500 --> 08:31.580
+Și așa mai departe până când ne-am întors.
+
+08:31.580 --> 08:33.160
+Hai să reluăm asta.
+
+08:34.850 --> 08:35.030
+In regula.
+
+08:35.180 --> 08:45.980
+Și trebuie să spun că funcția a fost din nou începută și a alerga și am terminat foarte bine.
+
+08:45.980 --> 08:53.730
+Dacă mă întorc aici și mă întorc la contra. Vă încurajez să încercați acest lucru de data aceasta adăugând cuvântul cheie
+
+08:53.730 --> 08:58.780
+de revenire la Inception și alergând prin programul de depanare pentru a vedea ce se întâmplă.
+
+08:59.970 --> 09:05.130
+Dar ceea ce tocmai v-am arătat este tot ce aveți nevoie pentru a construi funcții recursive.
+
+09:05.130 --> 09:07.140
+Aveți trei reguli.
+
+09:07.170 --> 09:21.460
+Unul este de a identifica cazul de bază două este de a identifica cazul recursiv.
+
+09:21.500 --> 09:26.520
+Așa că am identificat cazul de bază pentru a opri cazul recursiv.
+
+09:26.540 --> 09:30.080
+Atunci când Konner este mai puțin de trei.
+
+09:30.180 --> 09:41.510
+Și apoi, al treilea pas este să ne apropiem și să ne întoarcem atunci când este nevoie.
+
+09:42.210 --> 09:48.750
+Și de obicei, aveți două returnări pentru cazul de bază și cazul
+
+09:52.640 --> 09:58.330
+recursiv, deoarece doriți să întoarceți ceva la sfârșitul funcției.
+
+09:58.430 --> 10:01.000
+Deci, să comentăm acest lucru.
+
+10:01.010 --> 10:08.690
+Avem o idee despre cum funcționează recursiunea, funcția devine din ce în ce mai aproape și mai aproape de cazul
+
+10:08.690 --> 10:09.580
+de bază.
+
+10:09.740 --> 10:17.210
+Și odată ce ajunge la cazul de bază, în cele din urmă se întoarce și scoate funcțiile de pe stack, dar destul de
+
+10:17.210 --> 10:18.350
+vorbește pentru mine.
+
+10:18.350 --> 10:24.500
+Cred că este timpul să facem niște exerciții de codificare pentru a ne cunoaște cu adevărat acest subiect.
+
+10:24.530 --> 10:25.830
+Voi vedea în următorul.
+
+10:26.180 --> 10:26.420
+Babai.

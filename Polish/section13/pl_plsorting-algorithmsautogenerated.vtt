@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.630 --> 00:08.240
+Witaj ponownie, widzisz na naszej mapie myśli, że jesteśmy teraz w dziale sortowania i tym wielkim pokazie
+
+00:08.300 --> 00:12.950
+i znowu pojawia się coś, o czym nie rozmawialiśmy.
+
+00:12.980 --> 00:15.280
+Przejdziemy do tego w tej sekcji.
+
+00:16.010 --> 00:17.770
+Ale chcę dodać tutaj krótką notatkę.
+
+00:17.870 --> 00:23.840
+Patrząc na wszystkie te algorytmy sortowania i jest o wiele więcej, ważne jest,
+
+00:23.840 --> 00:32.060
+aby pamiętać, że nie trzeba pisać algorytmu sortowania od początku, najprawdopodobniej w waszych ramach kariery, zwykle robimy to dla
+
+00:32.060 --> 00:32.920
+nas.
+
+00:33.810 --> 00:39.660
+Ale musisz wiedzieć, jak one działają, ponieważ jeden z nich zostanie najprawdopodobniej zgłoszony
+
+00:39.840 --> 00:44.390
+w wywiadzie i dwóch, ponieważ dzięki temu jesteś lepszym inżynierem.
+
+00:44.580 --> 00:47.670
+Ale w tej sekcji chodzi również o to, by być skutecznym.
+
+00:47.670 --> 00:53.070
+Widzisz, że możesz poświęcić dużo czasu na każdą z tych sekcji, która implementuje twoją
+
+00:53.070 --> 01:00.060
+własną i mówisz o niej głęboko, ponieważ nie sądzę, żebym kiedykolwiek słyszał o tym, że ktokolwiek musi ręcznie zaimplementować
+
+01:00.290 --> 01:01.280
+dowolny kod.
+
+01:01.400 --> 01:06.900
+Algorytmy sortowania przez większość czasu możesz o tym porozmawiać lub osoba przeprowadzająca wywiad mówi ci, że
+
+01:06.900 --> 01:13.350
+tablica jest posortowana i musisz wiedzieć, co z nią zrobić, ale wdraża ją od początku, co tak naprawdę się
+
+01:13.350 --> 01:14.130
+nie dzieje.
+
+01:14.340 --> 01:19.090
+Ale umieściłem to w tej sekcji, ponieważ dobrze jest wiedzieć, jak działają.
+
+01:20.050 --> 01:25.430
+I nie spodobałoby mi się, że algorytmy sortowania kodu nie należą do moich ulubionych.
+
+01:25.450 --> 01:26.850
+Nie pozwól, aby cię to zniechęciło.
+
+01:27.880 --> 01:34.240
+Zachęcam do obejrzenia następnych kilku filmów, a nawet ćwiczenia kodowania własnych algorytmów sortowania, ponieważ
+
+01:34.690 --> 01:36.860
+pomoże to w nauce.
+
+01:36.970 --> 01:42.940
+Ale najważniejszą rzeczą, jaką otrzymamy z tej sekcji, nie jest to, jak je wdrożyć, mam na myśli, że
+
+01:42.940 --> 01:43.960
+to zrobimy.
+
+01:44.110 --> 01:51.480
+Ale kluczem do sukcesu jest to, że widzimy tutaj duży oszust, który zdecydowanie wiemy o słuszności.
+
+01:51.490 --> 01:54.720
+Rozmawialiśmy o strukturach danych i o tym, że istnieją kompromisy.
+
+01:55.090 --> 01:59.610
+Cóż, jeśli chodzi o sortowanie, są również kompromisy.
+
+02:00.300 --> 02:06.180
+Widzimy, jak niekiedy kompromisy kompromisują komplikacje w zakresie komplikacji przestrzennych i
+
+02:06.180 --> 02:09.950
+ważne jest wiedzieć, kiedy zastosować algorytm.
+
+02:09.990 --> 02:12.010
+To jest nasz cel tej sekcji.
+
+02:12.120 --> 02:19.110
+Zanim przejdziemy do naszego pierwszego algorytmu sortowania, chcę ci pokazać to sprytne narzędzie, do którego mam
+
+02:19.110 --> 02:20.150
+zamiar dołączyć.
+
+02:20.190 --> 02:22.710
+Mamy kilka algorytmów sortowania.
+
+02:22.800 --> 02:29.430
+Mamy stertę sortowania sortowania sortowania bąbelków sortowania sortowania, a następnie dwie różne odmiany
+
+02:29.430 --> 02:30.460
+quicksort.
+
+02:31.830 --> 02:35.150
+Mamy też różne zestawy danych.
+
+02:35.160 --> 02:37.250
+To jest losowy zestaw danych.
+
+02:37.260 --> 02:39.700
+Zobacz, jak działają, gdy kliknę tutaj.
+
+02:40.580 --> 02:45.400
+Opierając się na innym algorytmie sortowania, sprawdź, czy wszystkie działają.
+
+02:45.650 --> 02:50.160
+I wszystkie kończą się w różnym czasie.
+
+02:50.220 --> 02:59.800
+Jeden z nich jest wolniejszy od drugiego, co jest prawie ponownie posortowany, taki jak sortowanie z wstawkami jest
+
+02:59.800 --> 03:08.170
+naprawdę szybki, podczas gdy inne są wolniej odwracane, jeśli elementy są odwrócone i musimy całkowicie je
+
+03:08.170 --> 03:11.750
+odwrócić, aby ponownie wyświetlić różne algorytmy.
+
+03:12.810 --> 03:14.400
+Wykonuj inaczej.
+
+03:14.530 --> 03:18.750
+To nigdy nie wygrywa z innymi w zależności od danych wejściowych.
+
+03:18.810 --> 03:28.390
+Chociaż musimy wykonywać ich różne umiejętności, zacznijmy uczyć się o tych różnych typach algorytmów sortowania, aby pod
+
+03:28.390 --> 03:35.230
+koniec tych filmów podjąć właściwą decyzję, kiedy użyć tego, co zobaczę w
+
+03:35.230 --> 03:36.120
+następnym.

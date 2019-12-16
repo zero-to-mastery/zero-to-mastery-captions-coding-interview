@@ -1,0 +1,238 @@
+WEBVTT
+
+00:01.170 --> 00:08.630
+Per capire come funziona la programmazione dinamica, dobbiamo capire cosa significa caching.
+
+00:09.000 --> 00:13.970
+Il caching è un modo per memorizzare i valori in modo da poterli utilizzare in seguito.
+
+00:14.310 --> 00:23.240
+Idealmente puoi pensare al caching come a uno zaino che portano a scuola invece di tornare a casa quando hai bisogno
+
+00:23.360 --> 00:25.520
+di qualcosa come una matita.
+
+00:25.640 --> 00:34.940
+Hai una piccola scatola sulla schiena che contiene gli oggetti di cui hai bisogno in modo che quando vai a scuola
+
+00:34.940 --> 00:38.340
+puoi semplicemente riutilizzarli più e più volte.
+
+00:38.350 --> 00:40.720
+Questo è un esempio un po 'sciocco.
+
+00:40.750 --> 00:48.700
+Il caching è solo un modo per accelerare i programmi e contenere alcuni dati in una scatola facilmente
+
+00:48.700 --> 00:55.690
+accessibile e la memoizzazione è una forma specifica di caching di cui parleremo perché la usiamo
+
+00:55.690 --> 00:57.640
+molto nella programmazione dinamica.
+
+00:58.090 --> 01:06.270
+Ma invece di parlarne basta dimostrarlo in codice nel modo in cui possiamo mettere in cache le cose.
+
+01:06.550 --> 01:14.940
+Bene immaginiamo di avere una funzione che dice che vogliamo aggiungere a 80 e questa funzione prende un
+
+01:16.040 --> 01:21.310
+numero e tutto ciò che fa è restituire il valore di.
+
+01:21.330 --> 01:22.960
+E questo è un parametro.
+
+01:22.960 --> 01:25.940
+Lo diamo e ne aggiungiamo ottanta.
+
+01:26.870 --> 01:37.450
+In questo modo, quando eseguiamo la funzione aggiungi a 80 e diciamo che inseriamo cinque, otteniamo 85 tassi semplici e semplici,
+
+01:38.030 --> 01:46.920
+ma se eseguo nuovamente questa funzione dovrò ripetere questo passaggio e aggiungere 80 a quella risposta.
+
+01:46.970 --> 01:54.950
+E se lo faccio di nuovo, faccio la stessa cosa che ho eseguito il calcolo tre volte, ma
+
+01:54.950 --> 01:59.160
+se questa operazione ha richiesto davvero molto tempo.
+
+01:59.600 --> 02:06.540
+Che cosa succede se ho avuto una console come qui e possiamo immaginare che questa operazione richiede più secondi.
+
+02:06.710 --> 02:07.990
+Ci vuole molto tempo.
+
+02:08.800 --> 02:15.700
+Ogni volta che si esegue questa funzione, è necessario eseguire molto tempo tre volte e passare attraverso il passaggio uno
+
+02:16.390 --> 02:17.440
+per uno.
+
+02:17.620 --> 02:25.100
+Anche se abbiamo fatto lo stesso identico calcolo tre volte C'è un modo per ottimizzarlo.
+
+02:25.260 --> 02:34.140
+Ed è qui che possiamo usare il caching e la memoizzazione per migliorare la funzione sopra facendo qualcosa
+
+02:34.140 --> 02:35.230
+di diverso.
+
+02:35.280 --> 02:42.480
+Creerò un nuovo oggetto chiamato Cache che manterrà un oggetto vuoto.
+
+02:42.480 --> 02:50.570
+Avremo anche una funzione che verrà chiamata memorizzata, non memorizzata, memorizzata, aggiunta alla
+
+02:52.120 --> 03:01.590
+DD che prende un numero e qui dentro faremo qualcosa di leggermente diverso da quanto sopra.
+
+03:01.600 --> 03:06.990
+Aggiungeremo ancora 280, ma lo faremo in un modo speciale.
+
+03:07.120 --> 03:18.460
+Devo dire che se n è in contanti e questo è un modo per verificare se esiste una proprietà in un oggetto in
+
+03:18.460 --> 03:19.220
+Javascript.
+
+03:19.270 --> 03:25.630
+Quindi è simile a me che fa punti in contanti e per verificare la proprietà.
+
+03:25.630 --> 03:27.730
+Questo suona solo una canzone e la tiene così.
+
+03:27.730 --> 03:30.170
+Quindi se esiste in contanti.
+
+03:30.250 --> 03:43.610
+Quindi, se lo abbiamo incassato prima, è sufficiente restituire il punto in contanti o in contanti, quindi restituire il valore memorizzato nella cache.
+
+03:44.020 --> 03:45.820
+Ma ovviamente è vuoto.
+
+03:45.820 --> 03:52.440
+La prima volta, quindi, non funzionerà se non ci sarà nulla nella cache, come nel caso della
+
+03:52.440 --> 03:53.410
+prima volta.
+
+03:53.490 --> 04:07.170
+Bene, abbiamo un'altra dichiarazione e qui avremo i nostri soldi e non li abbiamo ancora assegnati e gli
+
+04:07.170 --> 04:21.120
+assegneremo un plus 80, così dopo questo se faremo qualcosa come Moammar Nighest ha dovuto ottantacinque ne sta per
+
+04:21.130 --> 04:24.260
+dire cinque più 80.
+
+04:24.340 --> 04:33.860
+Quindi qui andremo a incassare la proprietà cinque per avere un valore di ottantacinque, che è quello che
+
+04:33.860 --> 04:40.870
+stiamo facendo qui in modo che la prossima volta facciamo qualcosa di simile.
+
+04:41.150 --> 04:47.870
+Passiamo attraverso la dichiarazione if se troviamo il fatto che abbiamo già calcolato cinque e facciamo semplicemente
+
+04:47.930 --> 04:55.960
+un semplice accesso alla proprietà che, come sappiamo, è di una volta è super veloce con una tabella hash come questa.
+
+04:56.090 --> 04:59.220
+Completiamo questo esempio per mostrarti come funziona.
+
+04:59.360 --> 05:03.360
+Sto semplicemente tornando da quando lo
+
+05:10.100 --> 05:12.140
+riempiamo qui.
+
+05:12.140 --> 05:19.160
+E 'sufficiente avere un log della console qui da molto tempo per vedere che stiamo facendo il calcolo che
+
+05:19.160 --> 05:20.450
+richiede molto tempo.
+
+05:21.380 --> 05:28.940
+La prima volta che eseguo questa funzione ottengo ottantacinque e ho il denaro pre-riempito.
+
+05:29.020 --> 05:30.940
+Così ha fatto e calcola il lungo periodo.
+
+05:30.940 --> 05:32.020
+Proviamoci di nuovo.
+
+05:32.290 --> 05:40.500
+Fai clic su run longtime Il primo passaggio è passato qui e ha fatto questo calcolo che
+
+05:40.500 --> 05:42.450
+ipoteticamente impiegherà molto tempo.
+
+05:42.450 --> 05:47.490
+Ancora una volta stiamo usando un semplice esempio qui, ma si può immaginare
+
+05:47.490 --> 05:54.470
+che si tratti di un calcolo che richiede molto tempo e che se lo ripetessimo potremo console doglike
+
+05:58.020 --> 06:01.440
+come qui per assicurarci di acquisire questi valori.
+
+06:04.580 --> 06:12.700
+E li etichettiamo uno e due solo così possiamo distinguerli.
+
+06:12.700 --> 06:20.150
+Quindi il primo obiettivo e la seconda chiamata se premo correre guardano la prima volta.
+
+06:20.180 --> 06:23.440
+Chiamiamo da molto tempo e calcoliamo a 85.
+
+06:23.630 --> 06:31.400
+Ma la seconda volta perché questo valore era in contanti, dovevamo fare questo lungo calcolo e
+
+06:31.430 --> 06:33.870
+lo abbiamo appena restituito immediatamente.
+
+06:35.300 --> 06:43.880
+Quindi, qual è la memorizzazione esatta, la memoizzazione è una forma specifica di memorizzazione nella cache che implica l'incassare il
+
+06:43.880 --> 06:45.220
+valore di ritorno.
+
+06:46.260 --> 06:53.510
+Tutta la funzione che è il valore di ritorno di questa funzione in base ai suoi parametri.
+
+06:53.960 --> 07:03.260
+E se il parametro di questa funzione non cambia come è qui, allora è memorizzato.
+
+07:03.260 --> 07:09.800
+Vale a dire che usa la cache perché è stata calcolata la stessa cosa prima con lo
+
+07:09.800 --> 07:14.410
+stesso parametro e restituirà una versione memorizzata nella cache della funzione.
+
+07:14.630 --> 07:18.960
+È memorizzato se il parametro cambia.
+
+07:19.340 --> 07:26.220
+Beh, è un parametro diverso che non ha mai visto prima, quindi calcolerà entrambe le volte.
+
+07:27.060 --> 07:28.040
+Cose differenti.
+
+07:28.230 --> 07:30.930
+E ho appena notato che non dovrebbero esserci cinque problemi.
+
+07:31.190 --> 07:33.150
+E qui è così dinamico.
+
+07:33.150 --> 07:33.770
+Ecco qua.
+
+07:33.840 --> 07:35.670
+Così va meglio.
+
+07:35.670 --> 07:42.810
+Quindi ricorda che questa memoizzazione è semplicemente un modo per ricordare una soluzione a un problema risolto.
+
+07:42.990 --> 07:45.600
+Quindi non devi calcolarlo di nuovo.

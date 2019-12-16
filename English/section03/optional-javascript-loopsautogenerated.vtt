@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.550 --> 00:01.330
+Welcome back.
+
+00:01.450 --> 00:03.750
+I just want to show you a quick video.
+
+00:03.970 --> 00:09.610
+Especially for those that are familiar with javascript that there are many many ways to do loops in
+
+00:09.610 --> 00:10.290
+Javascript.
+
+00:10.330 --> 00:12.360
+And same with other languages as well.
+
+00:12.370 --> 00:15.520
+There's many ways to do these loops.
+
+00:15.610 --> 00:19.390
+So I just want to show you some quick ones that you might see throughout the course.
+
+00:19.390 --> 00:21.190
+Just so you're familiar with them.
+
+00:21.190 --> 00:28.780
+For example the find Nemo function that has a for loop can also be written with something like a for
+
+00:28.780 --> 00:29.890
+each function.
+
+00:29.890 --> 00:39.610
+So I can say Konst find Nimo to takes in an array.
+
+00:42.900 --> 00:47.320
+And we can say that for each verey for each.
+
+00:47.760 --> 00:55.320
+Which is pretty much the exact same thing as a for loop but requires you to not have to type this entire
+
+00:55.320 --> 01:09.400
+thing for each item in the array so we'll say I were going to say if my calls the Nimo because in this
+
+01:09.400 --> 01:13.050
+case with 4 each We're not taking the index we're taking the item in the array.
+
+01:13.090 --> 01:17.460
+So maybe you could just say fishing here just so it's more or it makes more sense.
+
+01:17.590 --> 01:23.910
+And if that is the case we'll just cancel the log found Nimo
+
+01:28.120 --> 01:28.710
+again.
+
+01:28.760 --> 01:34.210
+That is the same thing as this for each just allows us to simplify things a little bit.
+
+01:35.520 --> 01:40.590
+There is also another way that we can do this in Javascript with the form of loop.
+
+01:40.750 --> 01:52.170
+If we just copy this code and you find Nimo 3 this time the array that we're going to take we're going
+
+01:52.170 --> 01:54.990
+to say instead of the four each.
+
+01:55.140 --> 02:03.520
+This time we're going to say for let high of array.
+
+02:03.610 --> 02:11.300
+And then again this gives us the same thing the eye or we can just say fish here just so it's more clear.
+
+02:13.540 --> 02:14.710
+Is equal to nimo.
+
+02:14.780 --> 02:23.130
+We're going to say find Nimo and if you run these functions let's make sure that they both work so find
+
+02:23.130 --> 02:25.540
+Nimo to find all three.
+
+02:25.650 --> 02:33.160
+And we also run find Nemo five clock run and you'll need the bracket for this one.
+
+02:33.190 --> 02:37.330
+If I click run we see that we found Nemo all three times.
+
+02:39.340 --> 02:43.340
+Different ways of solving this problem.
+
+02:43.390 --> 02:51.320
+All of them are using loops but you can see some are more readable than others and that's something
+
+02:51.320 --> 02:52.580
+that we've encountered before right.
+
+02:52.580 --> 03:03.010
+Remember a good code means something that is scalable but also something that is readable depending
+
+03:03.100 --> 03:06.710
+on your situation and something we'll get into later on.
+
+03:06.880 --> 03:10.940
+How maintainable and how others on your team can understand this code.
+
+03:11.090 --> 03:16.100
+There's different ways of doing things so that it's easier to work with.
+
+03:16.230 --> 03:20.700
+But I hope that if you see this syntax throughout this course you're least they're familiar that at
+
+03:20.700 --> 03:24.120
+the end of the day all we're doing is just loops.
+
+03:24.240 --> 03:25.940
+I'll see in the next one.

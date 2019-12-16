@@ -1,0 +1,193 @@
+WEBVTT
+
+00:01.800 --> 00:10.500
+O altă structură de date în jos tabele hash ar trebui să le iubesc absolut, deoarece ei bine sunt
+
+00:10.500 --> 00:13.510
+foarte utile sunt utilizate peste tot.
+
+00:13.680 --> 00:21.940
+Și chestia amuzantă este că este probabil cea mai comună întrebare de interviu în care folosiți o tabelă
+
+00:22.180 --> 00:30.790
+de tip hash pentru a optimiza ceva de fel cum am văzut în întrebarea noastră de interviu prin utilizarea
+
+00:30.790 --> 00:39.420
+tabelelor hash optimizăm acele bucle imbricate care sunt toate atunci când sunt pătrat la o peste în liniar timp.
+
+00:39.420 --> 00:45.420
+Aceasta este o întrebare care vine din nou și din nou că vă promit că dacă observăm acest
+
+00:45.540 --> 00:52.050
+tipar, va fi extrem de util pentru dvs. într-un interviu și fără îndoială veți avea un exemplu în care
+
+00:52.050 --> 00:57.190
+trebuie să îl utilizați și să urmați acest exact același pas în aceasta sectiune.
+
+00:57.210 --> 01:04.830
+Am aflat că tabelele hash au blocări foarte rapide, dar amintiți-ne că avem nevoie de o rezoluție bună de
+
+01:04.830 --> 01:11.640
+coliziune. De obicei, nu trebuie să ne îngrijorăm, deoarece limba noastră în computerul de sub capot are
+
+01:11.670 --> 01:13.830
+grijă de asta pentru noi.
+
+01:13.830 --> 01:22.020
+Aceasta ne permite să facem răspunsuri rapide și, în funcție de tipul de tabele hash, cum ar
+
+01:22.290 --> 01:31.840
+fi hărțile din javascript, putem avea chei flexibile în locul unui tablou care are 0 1 2 3 indici doar numerotați.
+
+01:31.850 --> 01:35.950
+Dezavantajul cu tabelele hash este că este o comandă.
+
+01:35.990 --> 01:39.440
+Este greu să treci cu adevărat totul în ordine.
+
+01:39.440 --> 01:42.560
+Și, de asemenea, are iterație cheie lentă.
+
+01:42.590 --> 01:49.550
+Aceasta este dacă vreau să apuc toate cheile de la o tabelă de hash Trebuie să trec prin întregul
+
+01:49.880 --> 01:58.300
+spațiu de memorie așa cum am văzut atunci când am construit masa noastră de hash privită la marele OTTF și putem vedea că tabelele
+
+01:58.300 --> 02:05.420
+hash au o inserție de căutare ștergerea a unuia, dar în cel mai rău caz, din cauza coliziunii, există unele.
+
+02:05.470 --> 02:09.200
+Toate operațiunile care s-ar putea întâmpla.
+
+02:09.420 --> 02:16.550
+Și dacă ne ducem la harta minții noastre, acum putem elimina mesele de hash de pe lista noastră.
+
+02:16.700 --> 02:19.920
+Înțelegem complexitatea big-O.
+
+02:20.010 --> 02:26.550
+De asemenea, înțelegem că, în caz de coliziune, am putea dori să folosim o listă legată, despre care
+
+02:26.550 --> 02:29.390
+vom vorbi foarte curând în exercițiul nostru.
+
+02:29.400 --> 02:32.190
+Pur și simplu am folosit arrays.
+
+02:32.230 --> 02:40.480
+De asemenea, am învățat ideea că tabelele hash în interviuri sunt de obicei utile pentru îmbunătățirea complexității timpului,
+
+02:40.840 --> 02:43.620
+în special a buclelor imbricate.
+
+02:43.650 --> 02:54.780
+Compromisul este acela că putem avea acces rapid, dar mai multă memorie ne întoarce la întrebarea noastră că am avut câteva lecții în urmă în care trebuia
+
+02:55.530 --> 03:03.440
+să găsim elementul comun de două matrice pe care aveam una din matrice și o matrice doi și
+
+03:04.050 --> 03:08.930
+trebuia să vedem dacă vreuna dintre aceste matrice conțin elemente similare.
+
+03:09.000 --> 03:10.360
+Am avut una care nu a făcut-o.
+
+03:10.650 --> 03:17.570
+Iar cea de-a doua versiune în care x și x ambele array-uri conțin X s-ar întoarce la adevărat.
+
+03:17.760 --> 03:25.320
+Prima noastră repetare a exercițiului a trebuit să folosim 2 pentru buclele care au fost imbricate.
+
+03:25.470 --> 03:38.210
+Așadar, acest lucru a creat de multe ori complexitatea cu ajutorul hărților hash, am reușit să facem una pentru buclă și
+
+03:38.840 --> 03:41.780
+să optimizăm această funcție.
+
+03:41.880 --> 03:49.170
+După cum am spus mai devreme, este vorba despre un model comun, despre care vom vorbi mai târziu în
+
+03:49.170 --> 03:49.590
+curs.
+
+03:49.590 --> 03:57.200
+Când vorbim despre programarea dinamică, dacă ne întoarcem la foaia de înșelătorie pe care am împărțit-o cu dvs. la începutul acestui
+
+03:57.200 --> 04:02.510
+curs, putem acum trasa câteva lucruri de pe listă despre care nu am vorbit în
+
+04:03.440 --> 04:05.950
+lista de verificare a codului bun.
+
+04:06.440 --> 04:15.040
+Am vorbit despre buna folosire a structurilor de date când să folosim tabelele de tip hash peste o cursă, ideea de reutilizare
+
+04:15.040 --> 04:21.430
+a codului și nu repetarea dvs. este ceva ce am urmărit și ar trebui să fie familiar
+
+04:21.430 --> 04:22.210
+tuturor.
+
+04:23.350 --> 04:29.530
+De asemenea, am vorbit despre codul modular și care face codul mai ușor de citit, ceea ce permite ca codul să fie mai ușor de întreținut
+
+04:29.530 --> 04:30.770
+și mai ușor de testat.
+
+04:30.790 --> 04:39.730
+Am vorbit despre cum, de obicei, într-un interviu dorim să evităm spectacolele și operațiunile în formă de pătrat și am văzut că
+
+04:39.730 --> 04:41.810
+suntem capabili să facem
+
+04:44.610 --> 04:53.250
+acest lucru cu tabelele hash, dar am văzut că, printr-o tabelă hash, a trebuit să creștem complexitatea spațială a tuturor .
+
+04:53.250 --> 04:59.850
+Și pentru că am creat această nouă variabilă care urmărește toate elementele din matrice.
+
+05:00.090 --> 05:01.480
+Deci asta este compromisul.
+
+05:03.210 --> 05:09.030
+Si apoi putem traversa cateva euristici pentru cei care nu stiu Sigur ca greselile sunt cam
+
+05:09.420 --> 05:17.430
+ca reguli sau simple trucuri care vor veni mereu in sus si peste si pe care le poti folosi intr-o harta
+
+05:17.430 --> 05:23.180
+de hash interviu sau tabele hash sunt de obicei, răspunsul pentru îmbunătățirea complexității timpului.
+
+05:23.470 --> 05:28.080
+Tabelele hash sunt din nou cele mai bune moduri de optimizare a codului.
+
+05:28.990 --> 05:35.230
+Și privirea la timp față de compromisul spațiului, stocând uneori starea suplimentară și memoria ca și în cazul
+
+05:35.230 --> 05:38.440
+tabelelor hash poate ajuta timpul sau timpul de execuție.
+
+05:39.260 --> 05:41.750
+Și apoi compromisurile Space-Time.
+
+05:41.750 --> 05:43.770
+Tabelele de hash rezolvă de obicei acest lucru.
+
+05:43.820 --> 05:52.290
+O mulțime de timp folosesc mai mult spațiu, dar puteți obține o optimizare a timpului pentru proces.
+
+05:52.300 --> 05:58.930
+Știu că am vorbit doar despre două structuri de date, dar cred că aceste două sunt cele mai importante mișcări înainte
+
+05:58.930 --> 06:02.400
+pe care le vom folosi pentru a învăța despre ceilalți.
+
+06:02.440 --> 06:03.790
+Bună treabă să ajungi atât de departe.
+
+06:03.790 --> 06:08.300
+Luați o pauză drăguță că aveți o cafea și vă voi vedea în următorul videoclip.
+
+06:08.450 --> 06:08.690
+Buh-Pa.

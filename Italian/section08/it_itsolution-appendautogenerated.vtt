@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.780 --> 00:05.100
+Bentornato come è stato l'esercizio.
+
+00:05.170 --> 00:09.580
+Sei riuscito a capire il metodo append.
+
+00:09.670 --> 00:13.070
+Lascia che ti mostri cosa avrei fatto.
+
+00:13.160 --> 00:21.530
+La prima cosa che vorremmo fare è creare un nuovo nodo con il valore e possiamo farlo
+
+00:21.530 --> 00:22.550
+abbastanza facilmente.
+
+00:22.550 --> 00:30.620
+Dicendo al nuovo nodo di Konst che equivale a un oggetto con le proprietà che non
+
+00:30.620 --> 00:38.240
+dovremmo avere familiarità, ora abbiamo un valore che equivale al valore che otteniamo come parametro
+
+00:39.140 --> 00:43.330
+e quindi al prossimo che sarà no.
+
+00:43.350 --> 00:51.250
+Quindi abbiamo il nostro nuovo nodo qui e vogliamo collegarlo ora dopo il nodo 10,
+
+00:51.250 --> 01:05.070
+che è la nostra primissima nota, e possiamo semplicemente farlo dicendo questo punto punto dopo il quale è il ricordare che questo punto qui accanto è
+
+01:05.080 --> 01:06.860
+uguale a Gnoll.
+
+01:06.880 --> 01:14.140
+Ecco cos'è la coda che è l'ultimo elemento nella nostra lista perché questo metodo non sa che abbiamo un
+
+01:14.410 --> 01:17.110
+solo oggetto che potremmo avere 100 elementi.
+
+01:17.110 --> 01:18.570
+Vogliamo solo aggiungere alla fine.
+
+01:18.790 --> 01:23.080
+Quindi afferra la coda e poi afferra il prossimo valore della coda.
+
+01:23.080 --> 01:28.930
+Quindi afferrerà il puntatore della coda e dirà hey invece di puntare a
+
+01:28.930 --> 01:34.030
+Noal puntato su questo nuovo nodo che abbiamo appena creato.
+
+01:34.080 --> 01:43.180
+Va bene, abbiamo puntato la coda per puntare ora al nuovo nodo che ha già il prossimo nodo già impostato e quindi vogliamo anche
+
+01:43.180 --> 01:50.560
+dire che questo ciò che avevamo US coda prima del quale era il valore di 10 non è più la
+
+01:50.560 --> 01:51.150
+coda.
+
+01:51.190 --> 02:04.420
+Abbiamo un nuovo ultimo oggetto che è ora che questa coda equivale al nuovo nodo e poiché stiamo eseguendo
+
+02:04.420 --> 02:14.920
+questa operazione dopo questa quando eseguiamo questo punto, il punto successivo è ancora questo nodo.
+
+02:15.010 --> 02:25.420
+E non appena aggiorniamo questo nodo per avere il prossimo del nuovo nodo che possiamo rimuovere.
+
+02:25.840 --> 02:33.530
+Ora possiamo aggiornare la coda per essere il nuovo nodo, perché da quel momento, quando questa linea viene eseguita, la successiva è
+
+02:33.530 --> 02:37.440
+stata aggiornata correttamente per questo valore di coda più vecchio.
+
+02:38.630 --> 02:45.110
+E infine vogliamo assicurarci di aggiungere la decima sintonia Tikal.
+
+02:45.200 --> 02:50.380
+Quindi faremo plus plus E solo per divertimento, perché vogliamo essere sicuri di farlo nel modo giusto.
+
+02:50.390 --> 02:54.730
+Stiamo andando a restituire ciò che è l'elenco collegato.
+
+02:54.800 --> 02:59.540
+Ricorda questo fa solo riferimento a ciò che questa classe è che viene istanziata.
+
+02:59.570 --> 03:04.880
+Quindi stiamo per dire che lo abbiamo restituito in modo tale che torniamo alla nostra lista collegata.
+
+03:04.950 --> 03:10.450
+Per ora rimuoverò il blocco della console e vediamo cosa succede quando eseguiamo solo un punto cinque.
+
+03:10.640 --> 03:13.310
+Ho intenzione di fare clic su Esegui.
+
+03:13.320 --> 03:13.860
+Tutto ok.
+
+03:13.950 --> 03:18.830
+Ho restituito la nostra lista collegata che ha un valore di 10.
+
+03:18.840 --> 03:20.760
+Il prossimo è il nuovo.
+
+03:20.760 --> 03:23.440
+Sappi che abbiamo creato il valore di 5.
+
+03:23.930 --> 03:24.730
+E poi.
+
+03:24.730 --> 03:25.380
+No.
+
+03:25.740 --> 03:28.680
+E poi la coda è un valore cinque.
+
+03:28.800 --> 03:32.750
+Il prossimo non è perfetto con una lunghezza di due.
+
+03:33.030 --> 03:33.730
+Eccezionale.
+
+03:33.780 --> 03:34.940
+Sembra che funzioni.
+
+03:35.010 --> 03:37.400
+Facciamo anche questo.
+
+03:37.530 --> 03:41.030
+Append e ci andiamo.
+
+03:41.150 --> 03:44.010
+Abbiamo un valore di cinque.
+
+03:44.120 --> 03:50.930
+Quindi la testa fa riferimento al valore di 10 che punta alla nota successiva che ha valore 5 che
+
+03:50.930 --> 03:57.960
+punta al prossimo che è un oggetto che è la coda a causa del modo in cui funziona la registrazione.
+
+03:57.980 --> 04:05.060
+Non mostrerò questo nidificato. Dirò solo che questo è un oggetto ma questo punta alla coda che
+
+04:05.060 --> 04:09.860
+ha un valore di 16 non più lungo di tre.
+
+04:09.860 --> 04:10.980
+Quant'è fico.
+
+04:11.030 --> 04:18.710
+Abbiamo appena creato la nostra lista collegata come lista collegata 10 5 16 proprio così.
+
+04:19.130 --> 04:20.360
+Spero che tu abbia capito bene.
+
+04:20.420 --> 04:26.180
+Ma se non ti sei scoraggiato, ci vuole del tempo per abituarti.
+
+04:26.210 --> 04:32.000
+Fortunatamente per te, una volta che lo scrivi un paio di volte, diventa come ho detto una seconda natura.
+
+04:32.000 --> 04:36.010
+Quindi non stressarti perché ho un'altra sfida per te ora.
+
+04:36.050 --> 04:37.960
+Sai come fare append.
+
+04:38.060 --> 04:41.760
+Dovresti essere in grado di fare il prebend giusto.
+
+04:42.000 --> 04:45.570
+Prepend si aggiunge all'inizio della lista.
+
+04:46.070 --> 04:54.230
+Quindi diciamo che nella nostra lista di noi qui vogliamo aggiungere uno come nostro capo ora invece di 10.
+
+04:54.320 --> 05:00.920
+Come faremmo con un metodo chiamato prebend, questo prebend assumerà un valore.
+
+05:02.340 --> 05:13.050
+E saremo in grado di eseguire un comando come il mio elenco di punti collegati prebending uno per aggiungere quello all'inizio
+
+05:13.050 --> 05:14.750
+di questo elenco.
+
+05:15.870 --> 05:17.380
+Quindi codice qui.
+
+05:17.580 --> 05:18.380
+In bocca al lupo.
+
+05:18.400 --> 05:19.720
+Vediamo se possiamo risolvere questo.
+
+05:19.770 --> 05:23.610
+E ti vedrò nel prossimo video dove ti do la soluzione.

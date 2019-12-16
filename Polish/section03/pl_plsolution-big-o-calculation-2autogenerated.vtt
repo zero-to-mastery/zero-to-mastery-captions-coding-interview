@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.860 --> 00:06.740
+Teraz, gdy mamy lepsze zrozumienie tego, jak obliczyć bego, spójrzmy na inne ćwiczenie, które powinno
+
+00:06.740 --> 00:09.850
+być nieco łatwiejsze niż pierwsze, które zrobiliśmy.
+
+00:10.310 --> 00:21.170
+Co byś powiedział, że wielki pokaz tego jest dobry, jeśli idziemy jeden po drugim, widzimy tutaj, że
+
+00:21.170 --> 00:25.680
+mamy jednego ponownie jednego z nich.
+
+00:25.950 --> 00:30.420
+I wiesz, co jeśli dalej będę pisać, to będzie męczące, więc po prostu skopiuję
+
+00:30.420 --> 00:32.150
+i wkleję to wszystko tutaj.
+
+00:32.190 --> 00:43.930
+Po prostu przypisujemy zmienne, a następnie widzimy, że mamy pętlę for, która działa na podstawie danych
+
+00:43.930 --> 00:45.030
+wejściowych.
+
+00:45.160 --> 00:50.770
+Nie wiemy, co to jest wejście, ale możemy po prostu założyć, że bazujemy na tym, jak długo
+
+00:50.770 --> 00:54.370
+to wejście jest w tym przypadku, w którym to przypadku
+
+00:58.900 --> 01:02.820
+uruchamiamy każdy z tych czasów końcowych lub przez jakikolwiek dłuższy czas wejścia.
+
+01:02.830 --> 01:09.410
+Znowu te będą biegać w czasach ostatecznych.
+
+01:09.700 --> 01:15.840
+I jeśli znowu tutaj zejdziemy to samo, nie wiemy, co to jest wejście, ale są
+
+01:15.870 --> 01:21.530
+one uruchamiane i czasy, a potem ta ostatnia linia jest uruchamiana tylko raz.
+
+01:21.790 --> 01:25.660
+Więc to będzie wszystko jedno.
+
+01:25.660 --> 01:38.580
+Patrząc na tę funkcję, kolejna zabawna funkcja wyzwania, którą widzimy, to wszystko w naszym Big O jest 1 2 3
+
+01:38.880 --> 01:39.560
+4.
+
+01:39.640 --> 01:50.360
+Mamy więc cztery plusy, ponieważ po prostu sumujemy kroki, które mamy rok i to się dzieje 1
+
+01:50.420 --> 01:54.760
+2 3 4 5, więc 5 o
+
+01:57.610 --> 02:08.190
+to, że mamy tu cztery koszty i czasy, a potem pięć rzeczy, które robimy anti-CPS lub jak
+
+02:08.190 --> 02:11.700
+długo wejście jest w porządku.
+
+02:11.700 --> 02:14.360
+Nie było tak źle, jak w porównaniu z pierwszym razem.
+
+02:14.520 --> 02:16.750
+Myślę, że zaczynasz rozumieć to.
+
+02:16.800 --> 02:18.540
+Przejdźmy więc do następnego filmu.
+
+02:18.600 --> 02:25.260
+Zastanówmy się, jak możemy uprościć rzeczy, abyśmy nie wykonywali tej matematycznej operacji
+
+02:25.260 --> 02:27.020
+krok po kroku.
+
+02:27.150 --> 02:28.990
+Zobaczę w następnym wideo Bob.

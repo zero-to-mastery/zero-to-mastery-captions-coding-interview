@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.610 --> 00:01.460
+Selamat datang kembali.
+
+00:01.690 --> 00:09.220
+Mari kita belajar bagaimana membuat grafik grafik kita sendiri ketika kita melihatnya sangat mengintimidasi.
+
+00:09.940 --> 00:19.540
+Namun, inilah hal yang sebenarnya telah kita pelajari dari alat yang diperlukan untuk membuat grafik karena grafik
+
+00:19.540 --> 00:23.000
+dibangun di atas struktur data lainnya.
+
+00:23.010 --> 00:29.880
+Ingat diagram diagram asiklik terarah ini. Nah banyak dari struktur data yang
+
+00:29.880 --> 00:37.740
+telah kami mainkan sampai sekarang dapat membuat sesuatu seperti ini menggunakan pohon dan daftar tautan.
+
+00:37.740 --> 00:39.850
+Maksud saya itu terlihat sangat mirip benar.
+
+00:39.870 --> 00:44.460
+Anda memiliki simpul dengan anak-anak dan petunjuk yang berbeda menggunakan
+
+00:47.300 --> 00:48.330
+pengetahuan itu.
+
+00:48.380 --> 00:55.350
+Mari kita bicara tentang bagaimana mulai berpikir tentang grafik atau setidaknya bagaimana memikirkan membangunnya.
+
+00:56.540 --> 00:58.470
+Ada tiga cara mereka bisa memikirkannya.
+
+00:58.490 --> 01:05.930
+Yang pertama disebut daftar tepi dan saya punya contoh untuk Anda yang dapat kita gunakan untuk membangun sesuatu
+
+01:05.930 --> 01:07.170
+seperti ini.
+
+01:07.180 --> 01:12.640
+Katakanlah kita ingin membuat grafik ini bagaimana kita melakukan ini.
+
+01:14.600 --> 01:24.850
+Dengan daftar tepi kita dapat mengatakan grafik Konst sama dengan sesuatu seperti ini.
+
+01:24.850 --> 01:27.610
+Sekarang mari kita lihat apa yang saya lakukan di sini.
+
+01:27.690 --> 01:36.240
+Saya memiliki sebuah array dan dalam array ini saya memiliki satu dua tiga empat item itu sendiri.
+
+01:36.310 --> 01:38.070
+Mereka adalah ras.
+
+01:38.220 --> 01:43.630
+Tetapi jika kita melihat grafik array hanya menyatakan koneksi.
+
+01:43.860 --> 01:49.330
+Artinya kita memiliki nol dan dua sebagai item pertama dalam array.
+
+01:49.450 --> 01:58.000
+Kami memiliki dua dan tiga sebagai array kedua di dalam array dan kemudian dua dan satu dan satu dan tiga
+
+01:58.310 --> 02:04.930
+daftar tepi hanya menunjukkan koneksi bahwa nol terhubung ke 2 dan 2 terhubung ke nol.
+
+02:06.950 --> 02:10.930
+Dua terhubung ke tiga bertiga terhubung ke 2 ke 1 1 ke 3.
+
+02:10.930 --> 02:14.620
+Begitu seterusnya dan sebagainya cukup sederhana.
+
+02:14.880 --> 02:27.060
+Ada cara lain yang disebut adjacency atau daftar yang berdekatan dan dalam hal ini kita dapat membuat grafik di mana indeks
+
+02:27.120 --> 02:35.060
+adalah catatan dan nilainya adalah simpul tetangga apa yang saya maksud dengan itu.
+
+02:35.390 --> 02:41.600
+Nah di sini kita bisa menggunakan array kita bisa menggunakan objek kita bisa menggunakan Linked Linked.
+
+02:41.630 --> 02:47.570
+Tetapi katakanlah bahwa dalam indeks 0 item pertama 0 terhubung
+
+02:50.610 --> 03:04.410
+ke 2 indeks satu yaitu simpul satu terhubung ke 2 dan tiga indeks dua terhubung ke 0 1 dan 3 dan akhirnya indeks
+
+03:04.410 --> 03:10.130
+3 atau No3 terhubung ke 1 dan 2.
+
+03:10.290 --> 03:15.450
+Dan Anda juga dapat melakukan hal di atas dengan objek yang bahkan mungkin lebih jelas.
+
+03:15.460 --> 03:21.730
+Dan jika nilai simpul adalah sesuatu selain angka, Anda benar-benar dapat memberikan nilai.
+
+03:21.780 --> 03:23.250
+Jadi kunci dan nilai.
+
+03:23.520 --> 03:26.910
+Dan ini sangat berguna dengan objek jika Anda punya.
+
+03:27.120 --> 03:30.970
+Seperti saya katakan bukan nomor urut seperti yang kita lakukan dalam contoh ini.
+
+03:31.050 --> 03:35.850
+Dan ketika kita mengimplementasikan grafik kita sendiri, kita akan menggunakan daftar yang berdekatan menggunakan objek.
+
+03:35.850 --> 03:36.930
+Dan Anda akan melihat apa yang saya maksud.
+
+03:37.700 --> 03:42.910
+Akhirnya saya ingin menunjukkan kepada Anda metode terakhir untuk mewakili grafik.
+
+03:42.990 --> 03:53.980
+Ini disebut matriks yang berdekatan dan matriks yang berdekatan akan terlihat seperti ini. Matriks ini hanya akan memiliki nol
+
+03:54.010 --> 04:01.330
+dan yang menunjukkan apakah simpul X memiliki koneksi ke simpul y.
+
+04:01.360 --> 04:04.570
+Nol berarti tidak ada yang berarti ya.
+
+04:04.690 --> 04:09.910
+Dan jika Anda memiliki cara untuk membuat grafik, Anda benar-benar dapat menambahkan bobot di sini, bukan 1 dan 0.
+
+04:09.910 --> 04:12.120
+Jadi mereka sebenarnya bisa menjadi angka.
+
+04:12.250 --> 04:17.620
+Saya tidak akan mengetik ini karena saya akan membuat Anda bosan sampai mati tetapi di sini adalah
+
+04:17.620 --> 04:23.140
+representasi yang sama yang telah kami lakukan dengan setidaknya daftar yang berdekatan kali ini dengan matriks yang berdekatan.
+
+04:23.200 --> 04:24.670
+Apa artinya.
+
+04:24.700 --> 04:33.500
+Indeks baik 0 memiliki koneksi dengan 0 1 2 0 0 terhubung ke dua.
+
+04:33.760 --> 04:47.550
+Maka tidak ada yang terhubung ke dua dan tiga simpul 2 terhubung ke 0 1 dan 3.
+
+04:47.550 --> 04:56.550
+Dan Anda dapat melihat betapa sangat mirip di sini dan simpul 4 terhubung ke satu dan dua seperti di
+
+04:56.550 --> 04:57.540
+sini.
+
+04:57.540 --> 05:05.270
+Dan sekali lagi alih-alih balapan, Anda dapat menggunakan objek di sini dan benar-benar memberinya kunci dan nilai.
+
+05:06.160 --> 05:17.610
+Sehingga ini jika itu adalah objek akan menjadi nol satu ke tiga.
+
+05:17.690 --> 05:25.640
+Dan jika kita pergi ke visual go Anda akan benar-benar melihat bahwa mereka memiliki tiga cara untuk menggambarkan grafik.
+
+05:25.690 --> 05:27.220
+Matriks adjacency.
+
+05:27.220 --> 05:28.200
+Dan karena tertimbang.
+
+05:28.200 --> 05:31.900
+Anda melihat bahwa ada angka di sini, bukan 1.
+
+05:32.050 --> 05:39.250
+Kami memiliki daftar adjacency di mana sepertinya di sini mereka memiliki tabel hash dengan
+
+05:39.250 --> 05:44.080
+nilai-nilai dan juga daftar tepi dengan properti tambahan bobot
+
+05:44.110 --> 05:48.730
+Karena ini adalah cara untuk membuat grafik dan Anda dapat melihat bobot juga di daftar adjacency.
+
+05:48.940 --> 05:51.180
+Tapi kami baru saja melihat banyak angka.
+
+05:51.190 --> 05:56.230
+Saya pikir sudah waktunya bagi kita untuk membangun grafik kita sendiri untuk menyelesaikan pemahaman kita.
+
+05:56.290 --> 05:57.540
+Saya akan melihat yang berikutnya.
+
+05:57.930 --> 05:58.160
+Polisi.

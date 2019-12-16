@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.240 --> 00:01.910
+Welcome back.
+
+00:02.080 --> 00:06.990
+Let's talk about our second sorting algorithm and it's called selection.
+
+00:07.080 --> 00:17.000
+Sort now selection sort is again one of the simpler possible ways to sort the list and the algorithm
+
+00:17.000 --> 00:23.510
+works by scanning a list of items for the smallest element and then swapping that element for the one
+
+00:23.510 --> 00:25.300
+in the first position.
+
+00:26.160 --> 00:28.790
+Let me show you with this animation here.
+
+00:29.160 --> 00:32.430
+We started with the first item and then the second item.
+
+00:32.430 --> 00:40.740
+The red here signifies that it's the smallest item that it's seen and the blue is scanning ahead to
+
+00:40.740 --> 00:41.960
+find the smallest item.
+
+00:42.000 --> 00:47.700
+So right now eight is the smallest item but we encounter five so five switches to the smallest item
+
+00:48.090 --> 00:49.100
+we encountered too.
+
+00:49.170 --> 00:52.650
+So two becomes a small item.
+
+00:52.810 --> 00:59.650
+We keep going six is not smaller than two nine isn't three isn't we encounter one.
+
+00:59.680 --> 01:01.400
+One becomes the smallest item.
+
+01:01.540 --> 01:02.350
+We keep going.
+
+01:02.380 --> 01:03.300
+We find zero.
+
+01:03.310 --> 01:08.670
+So 0 becomes the smallest item and we've just finished the list.
+
+01:08.730 --> 01:14.660
+So now we move 0 to the first index in our list.
+
+01:14.790 --> 01:23.980
+So we swap it out and then we keep going back to the beginning finding the smallest item.
+
+01:24.730 --> 01:32.340
+Through the list which is one and then placing that in the second index and we keep going like this
+
+01:33.960 --> 01:37.810
+until we find the smallest item place it next in the list.
+
+01:37.890 --> 01:47.420
+Next in the list next in the list until we have our list completely sorted as you can see selection
+
+01:47.430 --> 01:48.160
+sort.
+
+01:48.310 --> 01:55.510
+We're still going to see a time complexity of all of and square if we look at the time complexity chart
+
+01:56.350 --> 02:00.340
+we see then selection sort is not very fast.
+
+02:00.580 --> 02:02.830
+Similar to bubble sort.
+
+02:03.100 --> 02:09.940
+We have those nested for loops but use is a space complexity of of one.
+
+02:09.940 --> 02:14.250
+It doesn't really add any additional data besides the input.
+
+02:14.290 --> 02:22.660
+Now using the animation that you just saw can you implement your own selections or I'm going to leave
+
+02:22.660 --> 02:28.750
+this for you as an exercise using Why you know from the bubble sort and why you just saw selection sort
+
+02:29.010 --> 02:36.370
+how you can use that information to sort the list using this algorithm and I'll show you the solution
+
+02:36.460 --> 02:37.430
+in the next video.

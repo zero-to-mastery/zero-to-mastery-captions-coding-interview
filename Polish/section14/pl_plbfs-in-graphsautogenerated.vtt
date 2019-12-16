@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.640 --> 00:08.600
+Witaj ponownie Zachęcam Cię do zabawy wizualnej Pójdę i utworzę własny wykres, gdy będę rozmawiać przez te
+
+00:08.600 --> 00:13.980
+filmy o pierwszym wyszukiwaniu i szerokim wyszukiwaniu, jeśli chodzi o przechodzenie przez wykres.
+
+00:14.210 --> 00:20.540
+Sposób, w jaki możesz stworzyć wykres, to po prostu narysować wykres, a będziesz mógł stworzyć coś takiego samemu,
+
+00:20.540 --> 00:25.570
+a następnie możesz zbadać zarówno głębokość jako pierwszy, jak i oddech dla wyszukiwań.
+
+00:26.630 --> 00:32.630
+Teraz mam zamiar uruchomić tę animację, gdy mówię, ale zaczynamy od zera
+
+00:32.630 --> 00:37.580
+i robimy oddech, aby przeszukać wyjątkową rzecz o oddechu.
+
+00:37.580 --> 00:44.510
+Pierwsze wyszukiwanie polega na tym, że bardzo dobrze nadaje się do określenia najkrótszej ścieżki między dowolnym węzłem,
+
+00:47.010 --> 00:52.550
+szczególnie jeśli chodzi o powiedzenie hej, co jest najbliższym węzłem do zera.
+
+00:52.590 --> 00:54.840
+To naprawdę łatwe pytanie.
+
+00:54.840 --> 01:00.810
+Jeśli chodzi o pierwsze wyszukiwanie, a już rozmawialiśmy o tym, jak to jest używane w silnikach
+
+01:00.810 --> 01:01.410
+rekomendacyjnych.
+
+01:01.410 --> 01:05.290
+Sieci peer-to-peer, nawet Mapy Google.
+
+01:05.490 --> 01:11.970
+Żądania znajomych z Facebooka i zalecenia Instagrama dotyczące pierwszego wyszukiwania lub DFS
+
+01:12.000 --> 01:21.120
+pozwalają nam konwertować wykres zasadniczo na drzewo, ponieważ wiemy, kim są dzieci węzła macierzystego, a następnie wnuki i
+
+01:21.120 --> 01:24.130
+tak dalej, i tak dalej.
+
+01:24.150 --> 01:30.540
+Więc jeśli pamiętasz ten schemat tutaj, teraz rozumiemy, że pierwsze wyszukiwanie oddechu Tak.
+
+01:30.560 --> 01:38.860
+Wykorzystuje więcej pamięci do śledzenia rodzica wie i uwagi dla dzieci na tym poziomie, ale pomaga nam także określić
+
+01:38.860 --> 01:45.640
+najkrótszą ścieżkę i lepiej, jeśli wiemy, że szukany przez nas węzeł jest blisko nas, ponieważ będzie
+
+01:45.640 --> 01:52.210
+wyglądał w bliżej położonych węzłach, tak, że kiedy zostaniesz zapytany o to w wywiadzie, wiesz,
+
+01:52.720 --> 01:57.450
+że ten algorytm będzie działał dobrze dla tego typu pytań.
+
+01:58.160 --> 02:05.450
+Ponieważ oddech dla wyszukiwania jest stworzony, aby pomóc nam określić najkrótszą ścieżkę między dwoma nutami na
+
+02:05.450 --> 02:05.920
+wykresie.

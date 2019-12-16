@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.580 --> 00:09.100
+Witaj ponownie, aż do tego punktu mówiliśmy o sortowaniu algorytmów sortowania sortowania sortowania bąbelkowego
+
+00:09.100 --> 00:12.920
+sortowania sortowania, które zostały nazwane sortowaniem elementarnym.
+
+00:12.970 --> 00:16.370
+Były w porządku, ale mają te zagnieżdżone na pętle.
+
+00:16.460 --> 00:23.810
+A przez większość czasu było po wszystkim i kwadrat, który był trochę powolny.
+
+00:23.830 --> 00:25.390
+Czy możemy zrobić lepiej.
+
+00:25.660 --> 00:27.050
+Cóż, tak, możemy.
+
+00:27.310 --> 00:36.900
+Spotkamy się z naszym ostatnim wielkim show na naszej liście i logu, a teraz, aby zrozumieć, co cały dziennik
+
+00:37.020 --> 00:45.010
+N i środki, które musimy porozmawiać o naszym następnym algorytmie sortowania, połącz sortowanie i quicksort.
+
+00:45.960 --> 00:50.520
+W odróżnieniu od sortowania bąbelkowego i sortowania z wstawianiem sortowania.
+
+00:50.520 --> 00:53.730
+Używają techniki, o której słyszeliśmy wcześniej.
+
+00:53.940 --> 00:55.520
+Dziel i rządź.
+
+00:55.620 --> 01:01.530
+Dowiedzieliśmy się o tym, gdy dowiadując się o drzewach, pamiętając, przeglądając książkę telefoniczną, otwieramy tę książkę
+
+01:01.530 --> 01:07.330
+nie od pierwszej strony ze środkowej strony i wciąż dzielimy strony, dopóki nie znajdziemy szukanej
+
+01:07.330 --> 01:08.940
+przez nas nazwy.
+
+01:09.770 --> 01:10.750
+I scalaj sortuj.
+
+01:10.760 --> 01:15.530
+Quicksort wykorzystuje tę koncepcję dziel i rządź.
+
+01:15.770 --> 01:23.360
+I idea rekurencji, o której mówiliśmy, aby podzielić problem, aby wykonać pracę nad każdym podzbiorem,
+
+01:23.540 --> 01:26.250
+a następnie połączyć rozwiązania.
+
+01:26.310 --> 01:29.140
+Teraz zobaczymy, jak to działa.
+
+01:30.000 --> 01:35.970
+Chcę jednak przypomnieć, że za każdym razem, gdy widzimy coś takiego, jak dzielenie i podbijanie,
+
+01:35.970 --> 01:38.330
+zwykle daje to logarytm korzyści.
+
+01:38.460 --> 01:42.450
+Jak widać, jest to ostatni element układanki.
+
+01:42.710 --> 01:43.830
+Och i zaloguj.
+
+01:43.830 --> 01:48.900
+A to, co faktycznie poprawia, jest lepsze niż wszystkie wydarzenia do kwadratu.
+
+01:49.230 --> 01:55.620
+Następna para algorytmów sortowania, które będziemy analizować, będzie teraz zagnieżdżać dla
+
+01:55.890 --> 02:02.760
+pętli i mieć ręce i kwadraturę Zamiast tego będą mieć złożoność tego
+
+02:03.060 --> 02:10.670
+czasu, co znacznie poprawia sytuację i oszczędza wiele firm aby zrozumieć, co to oznacza.
+
+02:10.800 --> 02:16.980
+Musimy zacząć od spojrzenia na rodzaj Mircha. Przyjrzyjmy się, jak to działa,
+
+02:16.980 --> 02:20.210
+a następnie wyjaśnię, jakie są korzyści.
+
+02:20.330 --> 02:22.330
+Mamy tę samą listę, co poprzednio.
+
+02:22.680 --> 02:30.510
+Przejrzymy tę listę i podzielimy ją na pół, a potem podzielimy każdy z
+
+02:30.510 --> 02:33.160
+tych podzbiorów na połowę.
+
+02:34.140 --> 02:43.370
+A potem podzielimy te listy z salami na połowę, dopóki nie znajdziemy jednego przedmiotu i kiedy już
+
+02:43.370 --> 02:52.370
+to podzielimy, weźmiemy pierwszy przedmiot w drugim elemencie i powiemy hej, który z nich powinienem umieścić jako
+
+02:52.370 --> 02:53.490
+pierwszy.
+
+02:53.660 --> 03:02.700
+Najpierw umieśćmy pięć pierwszych, a potem 6, i zauważmy tutaj, w jaki sposób budujemy odwrócone drzewo w pewnym sensie, a
+
+03:03.510 --> 03:08.610
+następnie patrzymy na trzy i jeden i mówimy jeden i trzy.
+
+03:08.620 --> 03:11.560
+A więc zbliżamy się coraz bardziej do tego pierwiastka.
+
+03:11.750 --> 03:13.730
+Porównujemy osiem i siedem.
+
+03:13.930 --> 03:18.330
+Seven występuje przed 8 2 i 4 2 przed 4.
+
+03:18.520 --> 03:27.460
+A teraz ponownie łączymy te listy w odwrotnym drzewie, mówiąc, że 5 i 1, który pierwszy pojawia się pierwszy,
+
+03:27.550 --> 03:30.760
+a następnie porównajmy pięć i trzy.
+
+03:31.000 --> 03:39.270
+Najpierw trzy, potem pięć i szóstka, potem patrzymy na prawą stronę, siódmy, a dwie dwa przed
+
+03:39.270 --> 03:40.300
+siódmą.
+
+03:40.390 --> 03:41.660
+A co z siódmą i czwartą.
+
+03:41.660 --> 03:43.860
+Cztery staje się przed siódmą.
+
+03:43.870 --> 03:50.440
+A ponieważ wiemy, że siedem i osiem zostało już posortowanych, po prostu umieszczamy siedem i osiem
+
+03:50.440 --> 03:51.440
+obok siebie.
+
+03:51.640 --> 03:58.120
+A potem w końcu łączymy te dwie ostatnie listy w nasz węzeł
+
+03:58.690 --> 04:06.100
+główny, aby połączyć listę i sprawić, że zostanie posortowana na trzy i cztery pięć.
+
+04:06.520 --> 04:13.380
+A następnie 6 7 i 8 i mamy naszą posortowaną listę.
+
+04:14.510 --> 04:21.620
+Teraz wyglądało to niezwykle skomplikowanie, znacznie bardziej skomplikowane niż inne algorytmy sortowania.
+
+04:22.630 --> 04:29.470
+Mersch surd jest jednym z najskuteczniejszych sposobów sortowania listy rzeczy i zazwyczaj ma lepsze
+
+04:29.470 --> 04:32.970
+wyniki niż większość innych algorytmów sortowania.
+
+04:33.220 --> 04:37.750
+I pod względem złożoności Cóż, to zdecydowanie bardziej złożone, prawda.
+
+04:37.780 --> 04:43.900
+Używamy podejścia dziel i podbijaj, które powinno Cię pochwalić, że użyje jakiegoś
+
+04:43.900 --> 04:45.100
+rodzaju rekursji.
+
+04:45.160 --> 04:52.630
+Pierwsza część dziennika i wynika z faktu, że wciąż porównujemy wszystko, co musimy, aby
+
+04:52.630 --> 04:58.650
+spojrzeć na każdą z liczb i porównać je, aby je posortować.
+
+04:58.710 --> 05:10.130
+Teraz podzielmy listę na taką, w której znalezienie środkowego indeksu tych rzeczy jest faktycznie jednym, ponieważ jest
+
+05:10.170 --> 05:13.270
+to łatwa operacja matematyczna.
+
+05:13.320 --> 05:17.030
+Pobierz długość listy i znajdź środek.
+
+05:17.130 --> 05:23.700
+Ale kiedy już podzielimy tablicę, musimy posortować elementy, które przejmiemy i musimy
+
+05:23.700 --> 05:32.360
+przyjrzeć się każdemu pojedynczemu elementowi, a właściwie posortować je i móc utworzyć listę, ale w przeciwieństwie
+
+05:32.420 --> 05:39.830
+do sortowania bąbelkowego, chociaż musimy porównać wszystko przynajmniej raz nie musimy porównywać wszystkiego
+
+05:39.830 --> 05:47.270
+ze wszystkim, co zrobiliśmy z sortowaniem bąbelkowym, wystarczy porównać ich listy lokalne ze sobą,
+
+05:47.930 --> 05:52.640
+pamiętając, używając sortowania bąbelkowego lub sortowania wstawek.
+
+05:52.700 --> 06:01.350
+Gdy przejrzeliśmy listę, a następnie porównaliśmy następny element z resztą listy, przydatna jest również koszula,
+
+06:01.350 --> 06:08.730
+ponieważ nazywamy ją stabilną, co oznacza, że jeśli masz równoważne elementy, powiedzmy
+
+06:08.730 --> 06:16.720
+6 i 6 lub nazwę, która jest to samo zachowa oryginalną kolejność w tablicy.
+
+06:18.310 --> 06:21.710
+Czasami może to być ważne w zależności od rodzaju danych.
+
+06:22.030 --> 06:23.940
+Rzućmy okiem na jego big-O.
+
+06:24.430 --> 06:35.180
+Widzimy, że miecz łączący ma wszystko i loguje się oraz ze złożonością przestrzenną sortowania sortowania i selekcji w odróżnieniu
+
+06:35.180 --> 06:36.890
+od sortowania bąbelkowego.
+
+06:37.010 --> 06:44.980
+Mamy nieco większą złożoność przestrzeni, ponieważ musimy trzymać się tej podzielonej listy i pamięci.
+
+06:45.050 --> 06:52.480
+Jest to jedna z minusów sortowania Merse, ale teraz udało nam się znacznie przyspieszyć nasz algorytm sortowania.
+
+06:53.530 --> 07:04.350
+Teraz, jak wdrożyć sortowanie w marcu Mam dla ciebie ćwiczenie Chciałbym Cię ostrzec, że to naprawdę trudne połączenie sortowania
+
+07:04.440 --> 07:10.010
+jest naprawdę trudne do zrealizowania i otoczy twój umysł.
+
+07:10.320 --> 07:15.510
+Jeśli nie czujesz się komfortowo z rekurencją, będzie to trochę trudne.
+
+07:15.510 --> 07:21.540
+Pamiętaj, że pokazuję tutaj, jak to zrobić tylko dla własnego zainteresowania, ale najprawdopodobniej
+
+07:21.540 --> 07:26.820
+w wywiadzie nigdy nie zostaniesz poproszony o zaimplementowanie własnego sortowania scalonego.
+
+07:26.820 --> 07:31.890
+Zostaniesz zapytany, jak to jest zaimplementowane i stworzyłeś szkielet, by ci
+
+07:31.890 --> 07:32.690
+pomóc.
+
+07:33.030 --> 07:39.310
+Mamy sortowanie scalające, które będzie miało funkcję, która pobiera tablicę.
+
+07:39.570 --> 07:46.290
+Mamy podstawowy przypadek, ponieważ użyjemy tutaj rekurencji, mówiąc, że długość tablicy poszła to jeden.
+
+07:46.380 --> 07:48.840
+Pamiętaj, że na liście znajduje się tylko jedna pozycja.
+
+07:48.840 --> 07:53.370
+Wtedy każdy z nich znajduje się na samej górze listy.
+
+07:54.150 --> 07:58.550
+Zamierzamy teraz zwrócić tablicę tutaj.
+
+07:58.550 --> 08:08.080
+Wrócimy i zamierzamy scalić sortowanie lewej i prawej strony, a zamierzamy użyć
+
+08:08.080 --> 08:16.500
+tej funkcji scalania, która ma połączyć lewą i prawą stronę.
+
+08:16.580 --> 08:24.110
+Pierwszym krokiem jest podzielenie tablicy na lewą i prawą stronę
+
+08:24.320 --> 08:25.830
+tutaj.
+
+08:25.970 --> 08:32.850
+Następnie uruchom go za pomocą algorytmu sortowania emersed i funkcji scalania.
+
+08:32.850 --> 08:36.290
+Chcę, żebyś faktycznie porównał.
+
+08:36.690 --> 08:40.320
+Nie oczekuję, że od razu to dostaniesz.
+
+08:41.090 --> 08:42.970
+Jest niewielu ludzi, którzy mogą to zrobić.
+
+08:43.010 --> 08:49.670
+Połowa czubka głowy, ale sprawdź, czy możesz wykorzystać wszystkie dostępne zasoby to dysk lub społeczność,
+
+08:50.090 --> 08:54.920
+a nawet Google, aby dowiedzieć się, jak utworzyć własny sort.
+
+08:55.520 --> 08:58.530
+Do zobaczenia w filmie rozwiązania.

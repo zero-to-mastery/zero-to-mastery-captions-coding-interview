@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.520 --> 00:02.840
+Ben tornato.
+
+00:02.840 --> 00:10.100
+Abbiamo appena implementato la preparazione e l'aggiunta e dovrebbe essere chiaro perché è un'operazione 0
+
+00:10.160 --> 00:11.620
+1 per entrambi.
+
+00:11.660 --> 00:14.700
+Non dobbiamo davvero passare attraverso nulla.
+
+00:14.790 --> 00:20.000
+Abbiamo appena avuto un riferimento alla coda e alla testa e abbiamo riassegnato alcuni valori.
+
+00:20.370 --> 00:21.600
+Bello e facile.
+
+00:21.930 --> 00:23.700
+Ma ora arriva la parte difficile.
+
+00:23.910 --> 00:25.010
+Che dire di questi desideri.
+
+00:25.020 --> 00:26.300
+Che dire di lock up.
+
+00:26.310 --> 00:29.750
+Gli attraversamenti inseriscono le eliminazioni.
+
+00:29.810 --> 00:37.150
+Penso che dovremmo codificare anche quelli per capire appieno come funzionano le liste di lunghezza questo esercizio sarà
+
+00:37.150 --> 00:39.030
+un po 'più duro.
+
+00:39.190 --> 00:43.840
+Ma ho intenzione di dirti che ci sarà un loop coinvolgente.
+
+00:44.050 --> 00:53.830
+Vogliamo creare un metodo di inserimento in questo metodo di inserimento che avrà un indice e un parametro
+
+00:54.730 --> 01:04.260
+di valore perché vorremmo essere in grado di dire di inserire questa posizione in questo valore nell'elenco.
+
+01:04.290 --> 01:13.980
+Ad esempio, se volessi dire che il mio elenco collegato è stato inserito e diciamo che
+
+01:14.010 --> 01:19.560
+volevo inserire un indice di due il valore novantanove.
+
+01:19.650 --> 01:27.900
+Ciò significherebbe che se torniamo al nostro indice di esempio di 2 intendiamo 0 1 a destra qui.
+
+01:27.960 --> 01:36.420
+Voglio inserire novantanove e avere quel punto a 5 come andiamo a farlo.
+
+01:37.290 --> 01:45.840
+Voglio avvertirti che questo può essere un po 'complicato e il modo migliore per pensarci è prendere un foglio di
+
+01:45.840 --> 01:50.730
+carta e una penna e tracciare i passi che dovresti fare.
+
+01:52.020 --> 01:59.880
+Un buon modo per esercitarti e assicurarti di farlo bene è usare il sito web visivo di
+
+01:59.880 --> 02:08.560
+Go e esercitarti nell'inserimento e vedere cosa succede quando fai l'indicizzazione, diciamo novantanove che colpisco vai a vedere cosa succede
+
+02:08.560 --> 02:09.160
+qui.
+
+02:09.190 --> 02:12.250
+Dovrai codificare quell'azione.
+
+02:12.370 --> 02:13.450
+Hai capito.
+
+02:13.810 --> 02:19.910
+Giocare con questo come si tenta e il codice della funzione di inserimento.
+
+02:20.160 --> 02:25.620
+Come ho detto un piccolo accenno che ci sarà un looping e un bullone che hai visto
+
+02:25.650 --> 02:29.220
+che nella dimostrazione o nell'animazione c'era una sorta di traversata.
+
+02:29.220 --> 02:34.180
+Quindi dovremo fare una sorta di attraversamento per trovare l'indice.
+
+02:34.350 --> 02:44.310
+E voglio anche solo codificare una funzione di lista di stampa veloce in modo che invece di usare questo modo di stampare la nostra lista che
+
+02:44.340 --> 02:49.390
+man mano che diventi sempre più profonda diventa sempre più difficile da capire.
+
+02:49.590 --> 02:55.740
+Creerò semplicemente una funzione di lista di stampa a cui dovresti avere accesso
+
+02:55.740 --> 03:04.650
+per assicurarti che il tuo metodo di inserimento funzioni e questa lista di stampa si limiterà a elencare solo l'elenco collegato.
+
+03:04.660 --> 03:10.250
+Ma invece di avere questa brutta stampa, lo stamperò solo in un array.
+
+03:10.270 --> 03:20.760
+Quindi questo verrà solo stampato in un array tutto quello che faremo è dire
+
+03:20.760 --> 03:32.090
+array Konst e questa sarà l'aurora NMT avrà una variabile di nota corrente che avrà questo pensiero.
+
+03:32.570 --> 03:37.370
+Quindi il primo elemento della lista e tutto quello che faremo è fare un ciclo while.
+
+03:37.430 --> 03:40.210
+Ricorda che è simile a un ciclo for.
+
+03:40.220 --> 03:46.220
+Stiamo procedendo in loop, ma invece stiamo dicendo che mentre questo sta accadendo mentre sta accadendo
+
+03:46.220 --> 03:52.450
+una condizione, esegui i commenti qui sotto, quindi dirò mentre il nodo corrente non è uguale a.
+
+03:52.460 --> 04:02.820
+No fino a quando esiste un nodo corrente e non stiamo puntando a un terminatore null in quel
+
+04:02.820 --> 04:10.390
+caso, semplicemente aggiungendo all'array array di push il valore del nodo corrente.
+
+04:10.590 --> 04:11.230
+Questo è tutto.
+
+04:11.250 --> 04:13.020
+Non ci importa dei punti o di qualcosa.
+
+04:13.020 --> 04:21.670
+Vogliamo solo inviare all'array il valore e vogliamo quindi aggiornare il nodo corrente con il punto del nodo
+
+04:22.120 --> 04:24.100
+corrente uguale successivo.
+
+04:24.100 --> 04:29.410
+Quindi continueremo ad andare avanti fino a quando il nodo corrente sarà nullo e
+
+04:29.410 --> 04:36.200
+in tal caso ci fermeremo di nuovo mentre i loop sono veramente buoni se non conosciamo la lunghezza della
+
+04:36.200 --> 04:40.850
+nostra lista collegata o vogliamo fare qualcosa mentre una condizione è soddisfatta.
+
+04:41.960 --> 04:45.890
+Quindi possiamo semplicemente restituire l'array qui.
+
+04:47.060 --> 04:48.220
+Vediamo come funzionerebbe.
+
+04:49.230 --> 04:54.360
+Se lo faccio e ho intenzione di commentare l'inserto qui perché non lo faremo ancora, sto
+
+04:54.360 --> 04:58.270
+solo per dire che la mia lista collegata non stampa la lista.
+
+04:59.640 --> 05:07.470
+Se eseguo questo, c'è la nostra lista, quindi usando il comando parentless per verificare il tuo lavoro, vedi se riesci a creare
+
+05:08.070 --> 05:08.800
+questo metodo.
+
+05:09.710 --> 05:11.930
+Buona fortuna e ci vediamo nel video della soluzione.

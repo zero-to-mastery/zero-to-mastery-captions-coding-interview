@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.010 --> 00:08.240
+Torna nel video precedente abbiamo parlato di una caratteristica speciale o proprietà di alberi binari.
+
+00:09.040 --> 00:15.190
+E a causa del modo in cui gli alberi binari sono strutturati, c'è un certo modo per noi di
+
+00:15.190 --> 00:20.540
+calcolare il numero di note che hanno ad esempio sul Livello 0 di un albero binario.
+
+00:20.620 --> 00:26.530
+Questo è il livello più alto in cui abbiamo solo un nodo radice che possiamo calcolare quante
+
+00:26.530 --> 00:30.940
+note ci sono facendo due alla potenza del livello che è zero.
+
+00:30.940 --> 00:34.350
+Quindi se io ne faccio due alla potenza di zero sarà uguale a uno.
+
+00:34.390 --> 00:37.070
+Questo è abbiamo una nota.
+
+00:37.220 --> 00:41.880
+Se abbassiamo il nostro livello e diciamo per quanto riguarda il Livello 1 quanti livelli abbiamo.
+
+00:42.050 --> 00:48.700
+Bene abbiamo due al potere di uno che è uguale a due.
+
+00:49.490 --> 00:50.330
+Va bene, andiamo avanti.
+
+00:50.330 --> 00:51.920
+Che dire del livello 2.
+
+00:51.950 --> 00:54.670
+Quanti nodi in totale abbiamo a quel livello.
+
+00:54.800 --> 00:59.910
+Bene abbiamo due al potere di due che è uguale a quattro.
+
+01:00.380 --> 01:03.350
+E poi un ultimo livello di dire il terzo livello.
+
+01:03.410 --> 01:09.840
+Quanti nodi avremo nel livello tre in un albero binario perfettamente bilanciato.
+
+01:10.070 --> 01:15.990
+Bene due alla potenza di tre equivale a otto Oh ragazzo.
+
+01:16.360 --> 01:20.120
+Facciamo solo un po 'di matematica qui e ho promesso che questo corso sarà la mamma.
+
+01:20.140 --> 01:22.110
+Ma portami con me qui.
+
+01:22.180 --> 01:25.660
+Voglio spiegarti che vecchio registro e significa.
+
+01:26.910 --> 01:33.180
+Sapendo cosa abbiamo appena fatto ora e sapendo che questi sono
+
+01:33.480 --> 01:39.960
+il numero totale di nodi se immaginiamo che questi dati fossero in
+
+01:40.530 --> 01:48.380
+un array significa che abbiamo otto posizioni che dobbiamo ripetere attraverso otto nodi che dobbiamo controllare
+
+01:48.380 --> 02:00.630
+forse per cercare qualcosa ben basato su questa formula qui significa che non possiamo scoprire il numero di nodi in un albero facendo due alla
+
+02:00.630 --> 02:09.000
+potenza di H o l'altezza che è il livello se sappiamo quanti livelli sono binari possiamo scopri
+
+02:09.000 --> 02:15.550
+quanti nodi totali ci sono due per la potenza di H meno uno.
+
+02:15.560 --> 02:18.160
+Ora perché questo meno uno.
+
+02:18.170 --> 02:26.660
+Bene, se torniamo al nostro diagramma questo albero binario ne abbiamo uno due tre quattro cinque sei sette.
+
+02:26.900 --> 02:33.440
+Abbiamo sette nodi totali e l'albero è uno a tre.
+
+02:33.740 --> 02:38.080
+L'altezza dell'albero mentre è profonda tre livelli.
+
+02:38.200 --> 02:43.780
+Quindi due alla potenza di tre meno uno sono sette nodi.
+
+02:43.780 --> 02:51.940
+Ora, se effettivamente lo semplificiamo, possiamo semplicemente dire che il log dei nodi equivale
+
+02:52.240 --> 02:54.840
+all'altezza o ai passi.
+
+02:55.120 --> 03:04.490
+E io uso il registro qui, basti pensare che il registro errante significa semplicemente che il registro 100 è uguale a due perché
+
+03:05.210 --> 03:09.150
+10 alla potenza di due è uguale a 100.
+
+03:11.380 --> 03:22.000
+Quindi tutto ciò che ho fatto è stato usando questo semplificato e ho detto che le note del registro sono uguali all'altezza e
+
+03:22.330 --> 03:31.110
+ne abbiamo lasciato uno negativo perché è significativo ma i nodi log sono il numero di passi o altezza.
+
+03:31.140 --> 03:35.910
+E cambiamo solo due passi che useremmo in una sorpresa.
+
+03:35.920 --> 03:45.250
+Lascia che ti mostri di nuovo nel nostro diario del diagramma e significa semplicemente che in base all'altezza il numero
+
+03:45.250 --> 03:46.780
+massimo di decisioni.
+
+03:46.870 --> 03:52.600
+Diciamo che stiamo cercando un nodo specifico che stiamo per prendere sarà log.
+
+03:52.600 --> 03:55.890
+E questo significa che è il nodo che stiamo cercando.
+
+03:55.900 --> 03:56.390
+No.
+
+03:56.410 --> 04:02.520
+Poi andiamo a sinistra oa destra a meno che non andiamo a sinistra e diciamo È questo il no che stiamo cercando.
+
+04:02.740 --> 04:05.400
+E questo è il nostro secondo passo.
+
+04:05.470 --> 04:06.590
+Se la risposta è No.
+
+04:06.590 --> 04:10.910
+Loro o vanno a sinistra oa destra e noi diciamo che questo è un no che stiamo cercando.
+
+04:11.050 --> 04:11.540
+Sì.
+
+04:11.830 --> 04:20.020
+Quindi abbiamo un massimo di tre passaggi all'anno anziché se si desidera uno due tre quattro cinque sei sei passaggi.
+
+04:20.140 --> 04:23.590
+Vedi che c'è una sorta di efficienza qui.
+
+04:23.740 --> 04:29.470
+E in arrivo impareremo a conoscere gli alberi binari di ricerca in cui siamo in grado di
+
+04:29.480 --> 04:32.860
+minimizzare questi passaggi invece di visitare ogni singola nota.
+
+04:33.250 --> 04:42.780
+Quindi quando vedi la notazione di oh Lague e non inizi a dire tutto ciò che dice è che la scelta
+
+04:42.780 --> 04:50.400
+dell'elemento successivo su cui eseguire una sorta di azione è una delle varie possibilità e solo una
+
+04:50.520 --> 04:52.110
+deve essere scelta.
+
+04:52.140 --> 05:00.020
+Non dobbiamo controllare entrambi in un buon modo per pensare al registro ed è quando guardi attraverso una rubrica
+
+05:00.020 --> 05:00.680
+telefonica.
+
+05:01.080 --> 05:05.490
+In realtà non controlli personalmente ogni singola persona in una rubrica.
+
+05:05.490 --> 05:13.080
+Invece puoi semplicemente fare ciò che viene chiamato divide e conquista guardando in base a dove iniziano i loro nomi
+
+05:13.490 --> 05:14.140
+alfabeticamente.
+
+05:14.400 --> 05:20.550
+Apriresti il libro a dove pensi che la lettera inizierà con il nome che inizierà e
+
+05:20.550 --> 05:25.170
+poi continuerai a dividere e conquistare fino ad arrivare a quella persona.
+
+05:25.280 --> 05:32.030
+Devi solo esplorare un sottoinsieme di ogni sezione prima di trovare il numero di telefono di qualcuno.
+
+05:33.170 --> 05:34.560
+Quindi pensaci.
+
+05:34.850 --> 05:38.350
+Oh Lagann è come guardare un elenco telefonico.
+
+05:39.680 --> 05:45.880
+E la ragione per cui ho appena parlato di tutti i Lagann in dettaglio è perché è un concetto importante.
+
+05:45.890 --> 05:53.420
+È davvero molto veloce come puoi vedere di nuovo qui è come una buona area verde.
+
+05:53.420 --> 06:00.780
+Questo è ancora meglio di oh quindi il tempo lineare perché non abbiamo bisogno di controllare ogni singolo elemento.
+
+06:01.070 --> 06:05.780
+E nel prossimo video parleremo dell'albero più comune che vedrete
+
+06:05.780 --> 06:09.830
+in molti luoghi chiamati albero di ricerca binario.
+
+06:09.890 --> 06:16.520
+E come suggerisce il nome, ci permette di effettuare ricerche in modo veramente efficiente e solo guardando questo
+
+06:16.910 --> 06:24.290
+grafico potresti essere in grado di pensare a come un posto come Google e la ricerca di Google possa trovare
+
+06:24.380 --> 06:25.130
+estremamente utile.
+
+06:25.130 --> 06:25.800
+Destra.
+
+06:25.910 --> 06:33.000
+Quando eseguiamo una ricerca su Google, ci sono un sacco di siti Web con una tonnellata di nodi da cercare.
+
+06:33.110 --> 06:42.200
+Come sono in grado di darci una risposta alle nostre ricerche così in fretta, se hanno usato tutta la complessità del Van time,
+
+06:42.620 --> 06:46.890
+ci vorrà molto tempo e sarà molto costoso per loro.
+
+06:46.940 --> 06:54.170
+Quindi, invece, usano una struttura ad albero o una struttura dati ad albero in modo che le nostre ricerche possano essere molto più
+
+06:54.350 --> 06:58.420
+veloci con qualcosa come oh log in I'll see nel prossimo video.

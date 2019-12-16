@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.780 --> 00:08.010
+Big O mengatakan algoritma fungsi atau kode mana yang terbaik.
+
+00:08.220 --> 00:15.000
+Kami belajar bahwa ketika datang ke kode yang baik kami khawatir tentang keterbacaan dan skalabilitas
+
+00:15.000 --> 00:20.010
+dan juga memungkinkan kami untuk mengukur ide kode yang skalabel.
+
+00:20.060 --> 00:22.140
+Dan mengapa kita peduli?
+
+00:22.190 --> 00:27.080
+Itu karena tidak ada makan siang gratis.
+
+00:27.110 --> 00:30.030
+Anda menghemat waktu dan uang untuk sebuah perusahaan.
+
+00:30.040 --> 00:38.180
+Anda seorang superstar mengetahui berapa banyak waktu kode Anda mengambil berapa banyak memori yang digunakannya sangat sangat penting.
+
+00:38.180 --> 00:42.700
+Itu adalah hal-hal mahal untuk perusahaan atau produk.
+
+00:42.770 --> 00:49.010
+Sekarang big-O adalah konsep yang sangat penting yang tidak akan Anda temukan dalam pekerjaan Anda
+
+00:49.010 --> 00:57.470
+sehari-hari tetapi itu adalah sesuatu yang harus selalu ada di benak Anda dan pengembang dan insinyur yang baik selalu memiliki pengetahuan ini.
+
+00:57.470 --> 01:01.440
+Itulah sebabnya ini menjadi topik yang populer selama wawancara.
+
+01:01.450 --> 01:06.710
+Ego digunakan untuk menggambarkan seberapa efisien kita dapat menjalankan mantelnya.
+
+01:06.710 --> 01:09.070
+Ini menghemat banyak uang perusahaan.
+
+01:09.290 --> 01:13.190
+Jika orang yang mereka sewa tahu cara mengendarai kode yang efisien.
+
+01:13.400 --> 01:22.310
+Dan di bagian ini kita belajar tentang gagasan kompleksitas waktu dan kompleksitas ruang bagaimana kita dapat menggunakan big-O untuk
+
+01:22.610 --> 01:24.790
+mengukur kedua hal tersebut.
+
+01:24.790 --> 01:32.870
+Tetapi masing-masing merupakan tradeoff antara yang lain dan big-O menggambarkan batas atas estimasi kami.
+
+01:32.870 --> 01:36.530
+Kami selalu melihat skenario terburuk.
+
+01:36.710 --> 01:43.610
+Kami ingin menjadi pesimis dan mengatakan skenario terburuk apa yang ada di sini dengan kode kami sehingga kami dapat siap
+
+01:43.700 --> 01:44.820
+ketika saatnya tiba.
+
+01:44.840 --> 01:54.410
+Sekarang kompleksitas waktu dan waktu keterlibatan ruang adalah berapa lama waktu yang dibutuhkan algoritma untuk menjalankan dan ruang
+
+01:54.590 --> 01:57.980
+adalah memori yang diperlukan oleh algoritma.
+
+01:57.980 --> 02:05.630
+Hal penting yang kami pelajari di sini adalah bahwa O-besar adalah tentang bagaimana
+
+02:05.630 --> 02:15.790
+Anda dapat menskalakannya, tidak berarti 0a lebih baik dari 0 dan kuadrat karena skalabilitas bukan satu-satunya tingkat faktor.
+
+02:15.830 --> 02:20.300
+Keterbacaan adalah sesuatu yang kita perhatikan juga.
+
+02:20.300 --> 02:29.230
+Terkadang keterbacaan Mungkin lebih penting daripada skalabilitas, mungkin kompleksitas waktu kurang penting daripada
+
+02:29.380 --> 02:31.000
+kompleksitas ruang.
+
+02:31.860 --> 02:33.420
+Dan itu adalah sesuatu yang Anda ingin berhati-hati.
+
+02:33.420 --> 02:40.120
+Sekarang dengan pengetahuan yang baru ditemukan ini, pengoptimalan prematur dapat menjadi akar dari semua kejahatan.
+
+02:40.140 --> 02:47.850
+Ini adalah kutipan terkenal yang banyak pengembang tahu kadang-kadang mengoptimalkan waktu atau ruang
+
+02:47.850 --> 02:52.020
+dapat berdampak negatif terhadap keterbacaan kode.
+
+02:52.020 --> 02:57.750
+Jadi jika Anda bekerja di startup muda misalnya, mungkin lebih penting bagi Anda untuk menulis
+
+02:58.440 --> 03:02.340
+kode yang mudah dikirim dan mungkin mudah dipahami nanti.
+
+03:02.340 --> 03:08.760
+Mungkin tidak memerlukan banyak waktu untuk menulis kode dan memikirkan kode dan implikasinya
+
+03:08.760 --> 03:15.190
+untuk jangka panjang karena mungkin startup ini memiliki anggaran terbatas dan perlu segera dikerjakan.
+
+03:15.270 --> 03:18.920
+Itu tidak berarti startup tidak peduli dengan analisis big-O.
+
+03:18.990 --> 03:26.730
+Seorang insinyur hebat di startup atau di sebuah perusahaan besar tahu bagaimana menemukan keseimbangan yang tepat antara
+
+03:26.910 --> 03:29.700
+ruang runtime dan tentu saja keterbacaan.
+
+03:29.700 --> 03:38.230
+Yang perlu diingat adalah bahwa data harus cukup besar untuk berbicara tentang DIGO itu tentang penskalaan.
+
+03:38.280 --> 03:47.610
+Jika fungsi Anda adalah waktu linier tetapi input selalu katakanlah 7 item maka algoritma waktu linier
+
+03:47.910 --> 03:56.230
+mungkin lebih baik daripada algoritma waktu konstan sehingga sangat tergantung pada situasi Anda.
+
+03:57.500 --> 04:03.080
+Saya memperkenalkan big-O di sini karena kita akan menggunakannya sepanjang kursus ini dan saat kita belajar lebih
+
+04:03.080 --> 04:09.230
+banyak tentang struktur data dan algoritma kita akan belajar lebih banyak tentang bego dan beberapa hal lain yang kita
+
+04:09.590 --> 04:15.620
+lihat dalam grafik ini yang kita singgahi Saya tidak membicarakannya tetapi saya harap Anda sekarang melihat kode secara
+
+04:15.620 --> 04:19.470
+berbeda dan Anda memiliki beberapa momen aha di seluruh bagian ini.
+
+04:19.490 --> 04:26.180
+Ini tentu saja bagian favorit saya dan topik hebat yang benar-benar membuat saya menjadi insinyur yang lebih baik setelah saya mempelajari
+
+04:26.180 --> 04:26.830
+topik ini.
+
+04:26.900 --> 04:28.790
+Jadi saya harap itu juga untuk Anda.
+
+04:28.820 --> 04:34.730
+Pada akhirnya ini semua Anda memiliki cara untuk melihat kode berbeda dan ketika seseorang berkata hei seberapa baik
+
+04:34.730 --> 04:35.540
+kode saya.
+
+04:35.750 --> 04:39.880
+Anda memiliki cara baru yang bagus untuk melihat sesuatu dan mengukur berbagai hal.
+
+04:40.720 --> 04:41.530
+Sampai jumpa di yang berikutnya.

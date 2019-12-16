@@ -1,0 +1,61 @@
+WEBVTT
+
+00:01.490 --> 00:02.590
+Mamy to.
+
+00:02.780 --> 00:06.490
+Właśnie zakończyliśmy naszą sekcję struktury danych.
+
+00:06.710 --> 00:15.380
+Przeszliśmy przez wszystkie te struktury danych, nawet niektóre struktury subdanych, a ty nie chcesz. Wypełniliśmy
+
+00:15.440 --> 00:17.810
+dużo tej mapy myśli.
+
+00:18.020 --> 00:21.400
+Rozmawialiśmy o tablicach.
+
+00:21.770 --> 00:23.750
+Rozmawialiśmy o stosach i Qs.
+
+00:23.870 --> 00:31.110
+Rozmawialiśmy o tabelach mieszających, które łączyły listy drzew i wszystkie typy drzew, które mamy.
+
+00:31.160 --> 00:37.510
+Rozmawialiśmy nawet o wykresach wszystkich tych małych pudełek, które są strukturami danych.
+
+00:37.730 --> 00:41.600
+Teraz rozumiemy, czym one są i jak są używane.
+
+00:42.350 --> 00:48.590
+Ale jest jeszcze kilka innych elementów mapy, które musimy przejść i to
+
+00:48.590 --> 00:53.900
+jest algorytm, a zobaczysz algorytmy przedstawione tutaj w statystykach rakietowych.
+
+00:54.000 --> 01:01.890
+Nasz ostatni element układanki, ale możesz nadal mieć kilka pytań, na które nie ma odpowiedzi,
+
+01:01.890 --> 01:09.430
+a niektóre rzeczy zostały pominięte, ponieważ dotyczą one algorytmów, jeśli chodzi o sortowanie.
+
+01:09.450 --> 01:14.920
+Zamierzamy użyć tablic i Treece, jeśli chodzi o programowanie dynamiczne.
+
+01:15.030 --> 01:20.760
+Będziemy rozmawiać o tabelach mieszających, kiedy mówimy o szerokości pierwszego wyszukiwania i
+
+01:20.760 --> 01:28.360
+głębokości pierwszego wyszukiwania, które jest używane w grafach i rekursji drzew. Dobrze, że pojawia się również w drzewach.
+
+01:28.380 --> 01:36.600
+Teraz, gdy mamy już podstawy do tworzenia struktur danych, jesteśmy gotowi mówić o tych algorytmach, które często
+
+01:36.810 --> 01:44.400
+pojawiają się w wywiadach, ponieważ teraz rozumiemy, jak działają struktury danych, jesteśmy w stanie inteligentnie
+
+01:44.400 --> 01:49.860
+mówić o algorytmach i rozumieć je w sposób fundamentalny. poziom.
+
+01:49.890 --> 01:51.420
+Do zobaczenia w sekcji algorytmu.

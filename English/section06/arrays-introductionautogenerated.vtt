@@ -1,0 +1,433 @@
+WEBVTT
+
+00:01.050 --> 00:09.210
+Woohoo it's finally time to learn our very first data structure and one that most likely you're very
+
+00:09.210 --> 00:20.070
+familiar with arrays arrays which are sometimes called Liszt's organizes items sequentially.
+
+00:20.070 --> 00:23.280
+That means one after another in memory.
+
+00:23.280 --> 00:33.030
+Kind of like we have here we have some sort of data at index 0 let's say juice and then right after
+
+00:33.390 --> 00:35.670
+index 1 we have something else.
+
+00:35.670 --> 00:43.290
+Maybe Apple maybe this is a grocery list in our computers memory it will be one after another because
+
+00:43.290 --> 00:47.520
+remember our RAM is a lot bigger than just seven slots.
+
+00:48.360 --> 00:53.710
+And the arrays are probably the simplest and most widely used data structures.
+
+00:53.800 --> 00:59.440
+And luckily for us we're starting with this because arrays have the least amount of rules and because
+
+00:59.560 --> 01:04.240
+they're stored in contiguous memory that is in order.
+
+01:04.240 --> 01:07.720
+They also have the smallest footprint of any data structure.
+
+01:08.710 --> 01:15.560
+So if all you need is to store some data and iterate over it that is go one by one step by step.
+
+01:15.790 --> 01:23.630
+Arrays are the best choice especially if you know the indices that is here on the left of the items
+
+01:23.630 --> 01:30.110
+you are storing and just as a quick glance and we'll go over this in more detail in later videos.
+
+01:30.990 --> 01:37.190
+But look up or access with erase our Constantine of one.
+
+01:37.200 --> 01:39.420
+It's super super fast.
+
+01:39.420 --> 01:44.090
+Other actions or methods that we're going to go over so just push are also fast.
+
+01:44.100 --> 01:49.830
+But then inserts and deletes are O of N or linear time.
+
+01:49.950 --> 01:56.510
+But in order to demonstrate arrays Let's actually use code to show you an example.
+
+01:56.770 --> 01:58.900
+We have our little playground over here.
+
+01:59.230 --> 02:01.710
+And again you can use whichever language you prefer.
+
+02:01.750 --> 02:05.540
+I'm just going to demonstrate this in javascript.
+
+02:05.590 --> 02:10.140
+We can create a simple array.
+
+02:10.230 --> 02:13.560
+Let's call it strings and this array.
+
+02:13.560 --> 02:24.220
+Again using the square brackets notation will have a then B then C and D.
+
+02:25.100 --> 02:29.860
+And we just we've just created an array in javascript.
+
+02:29.900 --> 02:36.080
+Now looking at this and based on what we've learned so far we can make a couple of assumptions.
+
+02:36.760 --> 02:42.900
+For example to store the letter a letter B letter C letter D.
+
+02:42.910 --> 02:47.230
+That's one two three four four items.
+
+02:47.230 --> 03:00.030
+If we where on a 32 bit system that is we have 1 2 3 4 shelfs to store the letter A in zeros and ones.
+
+03:00.050 --> 03:09.850
+Well if that's the case we just moved by four times for so four items and each item taking up four shelfs
+
+03:10.030 --> 03:11.010
+in our memory.
+
+03:11.050 --> 03:24.000
+That means that we're using up 20 or 16 bytes of storage if we remember in our little example here that
+
+03:24.480 --> 03:34.490
+with a 32 bit system we have 1 2 3 4 shelfs to store this this number again.
+
+03:34.670 --> 03:40.670
+This is a bit of a simplified version of looking at it but I hope you see what we're doing here we're
+
+03:40.670 --> 03:48.550
+simply storing a b c d in sequential order in our ram our Random Access Memory.
+
+03:48.770 --> 03:53.260
+So the computer now knows where to find these items.
+
+03:53.280 --> 04:04.800
+Therefore when I do strings to I'm telling the computer hey go to the array called strength's you should
+
+04:04.820 --> 04:05.570
+know where that is.
+
+04:05.570 --> 04:12.400
+Because underneath the hood you stored it for me and grab the third item.
+
+04:12.400 --> 04:16.570
+Remember the indexes are 0 1 2.
+
+04:16.670 --> 04:23.580
+So grab the third item from where the array is stored on your memory.
+
+04:23.690 --> 04:32.360
+And if I run this I'll get see the computer is going to grab that information for me because here it's
+
+04:32.360 --> 04:33.360
+stored it for me.
+
+04:33.400 --> 04:36.170
+And here it's grabbing it for me.
+
+04:36.190 --> 04:41.520
+All right so let's do a few more operations with arrays and see what the pros and cons are.
+
+04:42.830 --> 04:47.180
+Well in javascript we have a few methods that we can use with the race.
+
+04:48.150 --> 04:54.510
+One is Polish which simply allows us to add something at the end of the array.
+
+04:54.810 --> 05:01.580
+So strings dot push the.
+
+05:01.830 --> 05:09.830
+And if we just remove this and let's have a console Daut log of strength's.
+
+05:09.950 --> 05:21.100
+If I run this I get a B C D E this string push operation because it just adds it at the end of the array.
+
+05:22.860 --> 05:25.780
+Is an 0 1 operation.
+
+05:28.000 --> 05:31.310
+All we're doing is adding whatever item we want at the end.
+
+05:31.330 --> 05:33.310
+We're not looping through anything.
+
+05:33.310 --> 05:37.860
+So hopefully that makes sense why that would be one that's very convenient.
+
+05:38.260 --> 05:39.870
+What's another method that we get.
+
+05:40.270 --> 05:53.930
+We can also use pop and pop is the opposite of push pop will simply mean to remove the last item from
+
+05:53.930 --> 05:55.550
+the strings from the array.
+
+05:55.550 --> 05:58.820
+If I click run here you see that the e-mail was moved.
+
+05:59.030 --> 06:11.800
+If I do strings doth pop again and hit Ron we see that this time around we've added He then we removed
+
+06:11.930 --> 06:12.410
+the.
+
+06:12.640 --> 06:16.930
+And then finally did to be left with a B and C.
+
+06:17.080 --> 06:22.190
+What do you think the time complexity of this operation is.
+
+06:22.390 --> 06:26.770
+Once again it's 0 0 1 because we're not looping through anything.
+
+06:26.770 --> 06:29.440
+We're just removing the last item I remember.
+
+06:29.440 --> 06:34.110
+Our computer knows where last item is stored.
+
+06:35.140 --> 06:40.130
+We're simply saying go to index of let's say 7.
+
+06:40.130 --> 06:42.810
+The very last item and remove the bread.
+
+06:44.920 --> 06:46.920
+Let's do something interesting here now.
+
+06:48.020 --> 06:52.200
+What if we want to add an item at the beginning of the array.
+
+06:52.340 --> 07:03.990
+Maybe in here we want to add the letter x Well we have something called on shift in javascript and depending
+
+07:03.990 --> 07:07.040
+on your language you will have perhaps something different.
+
+07:07.170 --> 07:12.540
+But the idea here is we simply do strings dot on shift.
+
+07:12.760 --> 07:20.820
+And by the way you see here how REPL that I-T actually gives you the parameters that you can enter.
+
+07:20.950 --> 07:23.310
+In this case it just says what items.
+
+07:23.350 --> 07:24.140
+Which is a string.
+
+07:24.140 --> 07:25.420
+Should I enter.
+
+07:25.420 --> 07:31.690
+In our case I'll say I want to shift x which is saying just add X at the beginning of the array.
+
+07:32.110 --> 07:38.500
+If I click run here we see that x has been added at the beginning of our rary.
+
+07:38.500 --> 07:41.970
+What do you think the time complexity of this operation is.
+
+07:42.190 --> 07:49.780
+And by the way as we go through data structures and because we know Big-O notation is in it pretty cool
+
+07:49.780 --> 07:56.020
+that we're able to think about code beyond just oh I'm just doing this we can think deeply about what's
+
+07:56.020 --> 07:57.800
+happening underneath the hood.
+
+07:58.150 --> 08:02.090
+Why might this operation be longer than this operation.
+
+08:02.110 --> 08:08.210
+I find that fascinating and when I first understood this point it really made me a better engineer and
+
+08:08.220 --> 08:12.790
+I hope you're starting to get this aha moment for you as well especially if this is your first time
+
+08:12.790 --> 08:14.490
+with data structures.
+
+08:14.650 --> 08:18.070
+Now on shift what are we doing here.
+
+08:18.070 --> 08:27.840
+Well remember strings are essentially stored if I moved this to a new line the computer knows that this
+
+08:27.840 --> 08:30.500
+is a zero.
+
+08:30.550 --> 08:35.790
+This is that index of 1.
+
+08:35.790 --> 08:46.910
+This is an index of two and this is at index of three when I add X with the shift I'm all of a sudden
+
+08:47.000 --> 08:51.400
+adding X into our array.
+
+08:51.600 --> 09:00.810
+But we now have to shift these numbers because the indexes are still like this.
+
+09:01.050 --> 09:15.990
+But this time around we have to say OK 0 is now 8 x A is now 1 B is now 2 and C is that index 3 and
+
+09:16.000 --> 09:19.850
+D is that index for.
+
+09:20.090 --> 09:27.380
+And just by me doing this you might have seen something we just iterated loop through everything and
+
+09:27.470 --> 09:37.860
+reassigned the indexes and I did one two three four five moves or five operations to realign the indexes
+
+09:38.520 --> 09:45.150
+and this should give you a hint that is this operation is 0 of and depending on the size of the array
+
+09:46.230 --> 09:50.890
+that's how long it's going to take to do that operation we're looping.
+
+09:50.970 --> 09:59.670
+So right away we know that with the raise maybe it's not the best data structure for adding items at
+
+09:59.670 --> 10:01.630
+the beginning of the array.
+
+10:01.650 --> 10:08.530
+What if we wanted to add something in the middle of the array so we can use the method splice here.
+
+10:08.580 --> 10:18.610
+Let me scroll down a bit and with splice I can say strings dot splice and again I get a hint of what
+
+10:18.610 --> 10:20.260
+I can do.
+
+10:20.270 --> 10:22.330
+The first is the start number.
+
+10:22.340 --> 10:25.130
+So I want to start an index of 2.
+
+10:25.540 --> 10:28.050
+I remember we have this array here.
+
+10:28.100 --> 10:29.690
+X A B C.
+
+10:29.690 --> 10:37.890
+So we're starting at B and the second parameter is the delete count.
+
+10:38.070 --> 10:42.810
+What do we want to delete or how many things from this index do we want to delete.
+
+10:42.930 --> 10:45.560
+In our case we don't want to delete anything we want to add.
+
+10:45.690 --> 10:46.930
+So I'll say zero.
+
+10:47.070 --> 10:49.200
+And then the items that we want to add.
+
+10:49.200 --> 10:57.990
+So let's just add a string that says alien and let's remove this X from our original array.
+
+10:59.770 --> 11:00.340
+That's better.
+
+11:00.370 --> 11:03.040
+Let's hit Brian and there we go.
+
+11:03.070 --> 11:17.020
+We have X because we've shifted a then alien b c so splice told us go to index of 2 0 1 2 where B was
+
+11:17.020 --> 11:23.490
+initially and add alien instead of B and just shift things over.
+
+11:23.890 --> 11:35.300
+So what we've done here is if we go back to our example we have the X in our array.
+
+11:36.860 --> 11:48.940
+And we shifted these indexes of X and they are still the same but we shifted B over and said and here
+
+11:49.030 --> 11:51.400
+I want to add Ilian
+
+11:54.230 --> 11:59.060
+and we now had to go over everything and say 3:58 alien.
+
+11:59.190 --> 12:05.610
+We want three forby four for C and five for D.
+
+12:05.640 --> 12:07.310
+So what's our big o here.
+
+12:07.410 --> 12:13.310
+And we don't need this come well our big O in this case we did.
+
+12:13.320 --> 12:19.960
+Half of the operations because we changed half the array we loop through half the array.
+
+12:20.040 --> 12:24.890
+So it would be 0 of and divided by two.
+
+12:25.020 --> 12:33.250
+But remember our rules when it comes to big-O we remove constants and simplify to just call then.
+
+12:33.390 --> 12:36.870
+Worst case it's going to be of an operation.
+
+12:37.730 --> 12:39.960
+All right I'm going to leave this for you.
+
+12:39.960 --> 12:48.910
+It can play around and try different methods on a race but I hope you understand how they work and how
+
+12:49.140 --> 12:57.830
+there are some good things that we can do such as accessing the array that is of one.
+
+12:57.950 --> 13:05.960
+Because it's well shrimpy fast we know exactly where it is in memory and we can push and pop.
+
+13:06.050 --> 13:12.860
+But when it comes to shifting or splicing or even deleting because with splice we can even do deletes.
+
+13:12.860 --> 13:14.620
+That's going to be our event.
+
+13:15.050 --> 13:23.310
+And if we go back to our chart which we now have a better understanding of why arrays look ups are extremely
+
+13:23.310 --> 13:23.880
+fast.
+
+13:23.880 --> 13:25.070
+We know where they are.
+
+13:25.140 --> 13:32.610
+We know why push padding at the end of the array is extremely fast but why inserting and deleting might
+
+13:32.610 --> 13:36.850
+not be the best or the fastest when it comes to race.
+
+13:37.760 --> 13:40.250
+But here's the thing.
+
+13:40.300 --> 13:46.690
+There's actually two types of arrays and in the next video we're going to talk about these two types
+
+13:48.210 --> 13:50.080
+I'll see in that one Bebai.

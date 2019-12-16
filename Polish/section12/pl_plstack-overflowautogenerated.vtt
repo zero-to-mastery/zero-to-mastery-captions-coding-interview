@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.770 --> 00:01.690
+Witamy spowrotem.
+
+00:02.120 --> 00:05.230
+Zaraz pokażę wam moją ulubioną animację tego kursu.
+
+00:05.240 --> 00:06.140
+Jestem z tego bardzo dumny.
+
+00:06.170 --> 00:08.630
+Więc nie śmiej się ze mnie, jeśli myślisz, że tak jest.
+
+00:09.020 --> 00:17.660
+Lubię myśleć o rekursji jako o tym scenariuszu, w którym masz tę górę wlewając wodę do szklanki dla
+
+00:17.660 --> 00:22.130
+tego małego człowieka, który siedzi na kanapie przed telewizorem.
+
+00:22.250 --> 00:27.650
+Kiedy myślę o rekursji, lubię myśleć, że mają dwa duże problemy.
+
+00:28.840 --> 00:34.190
+Jednym z nich jest to, że są one początkowo trudne do zrozumienia.
+
+00:34.240 --> 00:40.030
+Po drugie, możemy mieć taki przypadek, w którym nalewam wodę do szklanki i nalewa wodę do
+
+00:40.030 --> 00:42.360
+szklanki i nalewa wodę do szklanki.
+
+00:42.430 --> 00:48.150
+I to ja wzywam tę funkcję w kółko.
+
+00:48.550 --> 00:53.140
+A gdy idziemy dalej, gdy idziemy, napełnia się filiżankę po jej limicie.
+
+00:53.140 --> 00:54.040
+Ciągnie dalej.
+
+00:54.040 --> 00:54.920
+To się nie kończy.
+
+00:54.920 --> 00:59.210
+Ciągle beszta, że funkcja będzie działała, dopóki nie chłopiec.
+
+00:59.350 --> 01:01.850
+Mężczyzna utonął.
+
+01:01.940 --> 01:03.510
+Co się tutaj stało.
+
+01:03.620 --> 01:06.890
+Nazywa się to przepełnieniem stosu.
+
+01:07.160 --> 01:09.810
+Wróćmy do jakiegoś kodu.
+
+01:09.940 --> 01:13.850
+Zapamiętaj powstanie funkcji, które stworzyliśmy.
+
+01:13.980 --> 01:15.660
+Jeśli uruchomię tę funkcję,
+
+01:18.270 --> 01:19.830
+a ja powiem
+
+01:22.720 --> 01:26.790
+od razu i po prostu uruchomię tę funkcję, dostanę błąd.
+
+01:27.250 --> 01:30.170
+Zróbmy to trochę większym, aby zobaczyć.
+
+01:30.320 --> 01:36.140
+Wystąpił błąd informujący, że maksymalny rozmiar stosu połączeń przekroczył moją przeglądarkę.
+
+01:36.200 --> 01:42.660
+W tym przypadku Google Chrome jest wystarczająco inteligentny, by powiedzieć, że musisz powstrzymać to szaleństwo.
+
+01:42.680 --> 01:49.400
+Po prostu wzywam tę funkcję początkową w kółko, ponieważ pamiętam, że nasza funkcja po prostu
+
+01:49.400 --> 01:50.960
+sama się nazywa.
+
+01:50.960 --> 01:55.340
+I ostatecznie, jeśli Google Chrome tego nie powstrzyma, to się zawiesi.
+
+01:55.340 --> 02:00.470
+A w przeszłości tak się stanie, jeśli uruchomię tę funkcję, przeglądarka zawiesi się i będę musiał
+
+02:00.470 --> 02:01.480
+ją zrestartować.
+
+02:01.760 --> 02:08.120
+Ale dodali zabezpieczenia, mówiąc, że nazywasz maksymalny rozmiar stosu wywołań.
+
+02:08.120 --> 02:10.490
+Musisz przestać robić to, co teraz robisz.
+
+02:10.490 --> 02:14.250
+Nazywa się to stosem dla.
+
+02:14.360 --> 02:16.170
+Dlaczego.
+
+02:16.180 --> 02:23.830
+Zanurzmy się głębiej w ten temat, aby wyczyścić konsolę tutaj i poprawić naszą funkcję początkową.
+
+02:23.830 --> 02:33.320
+Ale tym razem zamierzam dodać słowo kluczowe o nazwie debugger, które przeglądarka Chrome wykryje i wstrzyma
+
+02:33.380 --> 02:37.050
+działanie, gdy zobaczy to słowo.
+
+02:37.100 --> 02:46.690
+Tak więc mam zamiar uruchomić tę funkcję, a zauważysz, że jak tylko wejdą, to się zatrzyma i poda mi mały panel,
+
+02:47.110 --> 02:51.700
+w którym będę mógł kontrolować funkcję, która została trafiona.
+
+02:52.960 --> 02:53.790
+I proszę.
+
+02:53.950 --> 02:58.960
+Mam na myśli teraz tryb debuggera, a zobaczysz tutaj kilka rzeczy.
+
+02:58.980 --> 03:06.960
+Jeden pokaże mi, gdzie jestem i funkcję, a także pokaż mi zmianę otoczenia, aby było trochę
+
+03:06.960 --> 03:07.830
+czystsze.
+
+03:07.830 --> 03:09.540
+Zamierzam zrobić to trochę mniejszym.
+
+03:09.540 --> 03:10.420
+Proszę bardzo.
+
+03:10.830 --> 03:13.950
+Widzisz tutaj coś, co nazywa się zimnym stosem.
+
+03:13.950 --> 03:19.260
+Teraz z nazwy Stack Overflow może ci to dać trochę wskazówek.
+
+03:19.370 --> 03:23.530
+W tej chwili nazwaliśmy funkcję początkową właśnie tutaj.
+
+03:23.750 --> 03:27.300
+Zadzwoniliśmy po raz drugi.
+
+03:27.650 --> 03:33.090
+Jeśli kliknę na powyższą ikonę, przejdzie ona do następnej linii kodu.
+
+03:33.170 --> 03:34.980
+Przejdzie do następnego.
+
+03:35.210 --> 03:38.340
+A teraz zadzwoni do następnej funkcji przechwytywania.
+
+03:39.300 --> 03:45.130
+Zajrzyj tutaj na stosie wywołań, aby dowiedzieć się, co będzie dalej.
+
+03:47.430 --> 03:55.470
+Czy widzisz, że właśnie dodałem funkcję noher na stosie wywołań i jak wiemy o strukturze danych
+
+03:55.680 --> 03:58.230
+stosu, właśnie dodajemy wywołanie funkcji.
+
+03:58.230 --> 04:06.870
+Poza starszym i jeśli przejdę dalej i znów pójdę, to trzecia funkcja i jeśli będę kontynuował,
+
+04:06.870 --> 04:08.440
+będę kontynuował.
+
+04:08.490 --> 04:13.830
+Zobaczysz, że dodaję do stosu coraz więcej rzeczy.
+
+04:14.310 --> 04:16.010
+Ale tutaj jest problem.
+
+04:16.290 --> 04:20.260
+Nic nie wyskakuje ze stosu.
+
+04:20.310 --> 04:26.370
+Zamiast tego funkcja po prostu działa, a jej działanie jest utrzymywane i działa,
+
+04:27.090 --> 04:29.870
+dopóki nie zabraknie nam pamięci.
+
+04:29.940 --> 04:31.080
+Zapamiętaj stos.
+
+04:31.140 --> 04:38.180
+W tym przypadku jest pobieranie części pamięci z naszego komputera i dodawanie początków do stosu.
+
+04:38.550 --> 04:41.980
+A jak wiadomo pamięć jest ograniczona, nie mamy nieskończonej ilości.
+
+04:42.210 --> 04:49.230
+Tak więc, gdy będziemy szli dalej, będziemy się przepełniać i rzucać.
+
+04:49.740 --> 04:55.910
+I jest to jeden z największych problemów z rekurencją, do której wejdziemy później.
+
+04:56.430 --> 05:03.300
+Jak widzisz, może to być bardzo niebezpieczne, ponieważ możemy uruchamiać programy, które nigdy
+
+05:03.300 --> 05:09.840
+się nie zatrzymują i mają nieskończone pętle, które powodują awarię naszych programów.
+
+05:09.840 --> 05:19.170
+Zobaczysz też, że to kosztuje pamięć, w której stos wywołuje te wywołania funkcji, a rekursja, jedną z jego wad jest to,
+
+05:19.170 --> 05:26.490
+że musimy trzymać się tych połączeń i pamiętać je jeden po drugim, które mogą stać się
+
+05:26.490 --> 05:27.920
+naprawdę drogie.
+
+05:28.260 --> 05:34.470
+Jeśli więc kiedykolwiek zapytamy o to pytanie w wywiadzie o rekursji, być może
+
+05:34.470 --> 05:42.050
+o możliwym problemie z rekurencją, możesz po prostu powiedzieć, że komputer musi przydzielić pamięć do zapamiętania rzeczy.
+
+05:42.300 --> 05:49.620
+Przekroczenie stosu może wystąpić, gdy mamy rekurencję i nie ma możliwości zatrzymania tego wywołania rekursywnego.
+
+05:49.920 --> 05:55.170
+To jest po prostu komputer, który mówi, whoa whoa whoa OK, to robi się głupio.
+
+05:55.170 --> 05:57.030
+Nie pamiętam więcej rzeczy.
+
+05:57.060 --> 05:58.640
+Brak mi pamięci.
+
+05:58.690 --> 06:03.080
+Zamierzam się wyłapać w następnym filmie.
+
+06:03.190 --> 06:07.630
+Spróbujemy rozwiązać ten problem i dowiedzieć się czegoś, co nazywa się przypadkiem podstawowym.
+
+06:07.750 --> 06:14.710
+Myślę, że musisz mieć funkcję rekurencyjną, aby temu zapobiec.
+
+06:14.710 --> 06:16.600
+Zobaczę w następnym.

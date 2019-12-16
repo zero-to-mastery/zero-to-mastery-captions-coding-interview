@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.020 --> 00:08.760
+What're the various operations that can be performed on different data structures because as we learned
+
+00:08.790 --> 00:17.570
+in our previous lectures data structures are simply ways to organize our data on our computers and the
+
+00:17.570 --> 00:25.520
+data structures that we'll see throughout this course are simply variations of how we stored this data
+
+00:25.820 --> 00:27.350
+on our computers.
+
+00:27.350 --> 00:33.680
+This information and each data structure has their tradeoffs.
+
+00:33.730 --> 00:36.070
+Some are good at certain operations.
+
+00:36.070 --> 00:38.990
+Others are good at other operations.
+
+00:40.020 --> 00:47.430
+One type of action that we're going to performed with data structures well is insertion add a new data
+
+00:47.430 --> 00:56.220
+item in a given collection of items such as us adding the apple item and memory here.
+
+00:57.270 --> 01:05.300
+And now the one file deletion we want to sometimes delete data such as remove mango from our list.
+
+01:05.300 --> 01:08.800
+Another type of action might be traversal.
+
+01:09.140 --> 01:16.860
+And we're going to see this a lot traversal simply means access each data item exactly once so that
+
+01:17.190 --> 01:22.240
+it can be processed and other useful one is searching.
+
+01:22.310 --> 01:29.920
+We want to find out the location of the data item if it exists in a given collection and then we also
+
+01:29.920 --> 01:34.960
+have things like sorting that is having data that is sorting.
+
+01:34.960 --> 01:41.890
+Kind of like it is on the left hand side over here versus the right hand side where there's not much
+
+01:41.890 --> 01:45.100
+sorting going on at least from where we can see.
+
+01:45.300 --> 01:51.390
+And obviously the main one and probably the most important is access.
+
+01:51.600 --> 01:56.170
+How do we access this data that we have on our computer.
+
+01:56.950 --> 02:02.980
+Now each data structure that we're going to go through in this course will have different pros and cons
+
+02:02.980 --> 02:04.950
+for each one of these.
+
+02:05.140 --> 02:12.240
+And if we take a look at our big-O Chichi Well we're very familiar with this diagram over here or this
+
+02:12.240 --> 02:19.510
+graph and if we scroll down we have all these data structures that it lists and don't get to overwhelm.
+
+02:19.590 --> 02:25.170
+We're going to go over most of these data structures and you see that half of them are mainly trees
+
+02:25.200 --> 02:31.300
+and variation of trees and within here we see that each one of them has access.
+
+02:31.310 --> 02:38.510
+Search insertion deletion average in worst case and because we understand big-O we can see that.
+
+02:38.620 --> 02:41.660
+All right we're seeing which ones good for what.
+
+02:41.680 --> 02:44.080
+And what is bad for what.
+
+02:44.910 --> 02:50.590
+And as we go through our data structures we're going to go over these pros and cons so that you build
+
+02:50.590 --> 02:57.310
+the foundation to be able to decide which data structure should I use on your next problem.
+
+02:57.730 --> 03:02.080
+We're going to get started with our very first data structure in the next lösen.
+
+03:02.200 --> 03:02.990
+I'll see in that one.

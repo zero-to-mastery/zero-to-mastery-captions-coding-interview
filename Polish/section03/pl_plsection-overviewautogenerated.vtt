@@ -1,0 +1,100 @@
+WEBVTT
+
+00:01.500 --> 00:10.620
+Moim zdaniem ta sekcja jest jednym z najważniejszych tematów dla każdego programisty lub inżyniera oprogramowania.
+
+00:10.620 --> 00:17.850
+Zdarza się też, że jest to moja ulubiona sekcja, bez względu na to, w której firmie pracujesz, a
+
+00:17.940 --> 00:24.360
+nawet jeśli kodujesz za 10 lat, jest to koncepcja, która będzie istnieć przez długi czas i
+
+00:24.360 --> 00:27.780
+coś, co naprawdę cię uczyni. lepszy programista.
+
+00:28.970 --> 00:35.480
+Big-O to coś, czego nauczyłem się od dwóch do trzech lat mojej kariery programisty i jest to
+
+00:35.480 --> 00:36.500
+tak ważne.
+
+00:36.500 --> 00:42.560
+Dzięki temu stałem się lepszym programistą, lepszym inżynierem i będzie dla ciebie również.
+
+00:42.590 --> 00:52.100
+Wielkie firmy, takie jak Google Facebook Alibaba Amazon, wiedzą o tym, dlatego w żadnym z wywiadów nie uzyskasz żadnego z
+
+00:52.100 --> 00:57.620
+ich wywiadów telefonicznych ani jednego z ich wywiadów, nie napotykając na ten
+
+00:57.620 --> 00:58.400
+temat.
+
+00:59.230 --> 01:03.490
+Tak więc dowiemy się wszystkiego o tym bardzo ważnym temacie i dlatego
+
+01:03.490 --> 01:04.960
+jest na początku kursu.
+
+01:04.960 --> 01:05.530
+W porządku.
+
+01:05.620 --> 01:07.110
+Czy wystarczająco przyciągnąłem twoją uwagę?
+
+01:07.970 --> 01:10.480
+Więc o czym tu mówimy.
+
+01:10.490 --> 01:17.480
+Nazywa się Big O, a oficjalnym terminem jest bezobjawowa analiza Big O.
+
+01:17.660 --> 01:22.150
+Jeśli chcesz brzmieć super sprytnie i zaimponować znajomym, zobaczysz jakąś powijarkę.
+
+01:22.220 --> 01:24.610
+Biorąc pod uwagę wystarczająco dużo czasu, można rozwiązać problem.
+
+01:24.980 --> 01:28.910
+Liczy się tylko to, jak dobrze problem został rozwiązany.
+
+01:29.330 --> 01:31.920
+I tu właśnie może nam pomóc big-O.
+
+01:31.970 --> 01:34.920
+Może nam powiedzieć, jak dobrze problem został rozwiązany.
+
+01:34.970 --> 01:37.130
+Dowiemy się, co to znaczy.
+
+01:37.130 --> 01:43.580
+W tej sekcji będziemy mówić o big-O, jak to zdefiniujemy, a
+
+01:43.580 --> 01:52.900
+następnie użyjemy big-O i innej notacji, aby odróżnić ten kod od dobrego kodu dobrego kodu od świetnego kodu.
+
+01:53.110 --> 01:57.950
+Będziemy czuć się komfortowo z tym tematem, że nie będziemy zaskoczeni, gdy pojawi się to
+
+01:57.950 --> 01:59.290
+w naszych wywiadach.
+
+01:59.450 --> 02:05.090
+Ale zamierzamy również zbudować tę wielką podstawę, która jest ważna, aby być świetnym deweloperem.
+
+02:05.090 --> 02:10.160
+Powodem, dla którego ten temat jest na początku tego kursu, jest to, że
+
+02:10.160 --> 02:16.160
+ta wielkoformatowa notacja pojawia się na nowo, gdy wchodzimy w tematy takie jak struktury danych i algorytmy.
+
+02:16.160 --> 02:18.360
+Tak jak powiedziałem, to moja ulubiona sekcja.
+
+02:18.380 --> 02:21.170
+Przygotuj się, bo będzie dużo zabawy.
+
+02:21.200 --> 02:22.910
+Do zobaczenia w następnym wideo.
+
+02:22.960 --> 02:23.150
+Kok.

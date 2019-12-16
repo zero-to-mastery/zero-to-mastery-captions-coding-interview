@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.910 --> 00:07.810
+Welcome back as I mentioned in the previous video there are actually two types of a race.
+
+00:07.830 --> 00:13.820
+One is called static and the other dynamic a race.
+
+00:13.830 --> 00:16.940
+Now what is the difference between the two.
+
+00:16.940 --> 00:26.950
+Well the one limitation of static or race is that they're fixed in size meaning you need to specify
+
+00:26.950 --> 00:30.940
+the number of elements your array will hold ahead of time.
+
+00:31.810 --> 00:39.490
+So in this case if this was a static array I would say create an array of seven items knowing beforehand
+
+00:39.760 --> 00:50.740
+that in my grocery list I'm only going to have Max seven items because arrays are allocated in adjacent
+
+00:50.740 --> 00:53.390
+blocks of memory when they're created.
+
+00:53.720 --> 01:01.810
+There's no guarantee that after we've allocated 7 shelfs of memory that you can keep adding things on
+
+01:02.680 --> 01:10.830
+especially in order we solve this problem with static arrays that require us to say ahead of time.
+
+01:10.910 --> 01:21.500
+Hey I only want 7 shelfs of memory with dynamic race and dynamic arrays allow us to copy and rebuild
+
+01:21.560 --> 01:26.690
+an array at a new location which with more memory.
+
+01:26.690 --> 01:34.590
+If we wanted more memory so for example with our static array if we realize that we forgot another item
+
+01:34.590 --> 01:36.820
+on our list and we need 8 items.
+
+01:37.050 --> 01:42.080
+What happens is we copy this entire array.
+
+01:42.180 --> 01:53.380
+We allocate 14 blocks of memory and paste this list plus the eighth item into that new location.
+
+01:53.460 --> 02:00.130
+Let me show you how this works with code you see in languages like C++.
+
+02:00.180 --> 02:08.130
+Let me scroll down over here in C++ which has static arrays to create an array.
+
+02:08.130 --> 02:09.770
+You do something like this.
+
+02:11.360 --> 02:18.460
+You would say int a.
+
+02:18.560 --> 02:24.900
+And this says I want a new array that has a space of 20 items.
+
+02:26.690 --> 02:28.180
+Or we can do something like.
+
+02:28.240 --> 02:33.140
+Int b.
+
+02:33.290 --> 02:40.750
+And then fill up the array of five items with 1 2 3 4 5 integers.
+
+02:40.850 --> 02:42.830
+That's what it stands for numbers.
+
+02:43.770 --> 02:51.420
+And because of this and because this is a static array in order for us to add a six item on here well
+
+02:51.510 --> 03:00.560
+we would need to copy this entire array and move it over to completely different area of memory.
+
+03:01.220 --> 03:03.680
+In order to create the space for it.
+
+03:03.830 --> 03:11.460
+Now luckily for us when I showed you with javascript how to do this well we never have to worry about
+
+03:11.460 --> 03:18.640
+it did we in our javascript example we never really allocated memory and that's because in javascript
+
+03:18.700 --> 03:27.850
+and other languages like Python where you have lists and array list in Java they work like dynamic arrays.
+
+03:28.060 --> 03:35.070
+They automatically allocate memory according to the increase in size of the array.
+
+03:35.500 --> 03:40.470
+So right off the bat you're thinking dynamic arrays are way better easier.
+
+03:40.480 --> 03:46.800
+I don't have to think about memory because of automatic resizing and that gets into a discussion of
+
+03:46.800 --> 03:51.570
+managing memory which low level languages like C++ allow.
+
+03:51.750 --> 03:57.780
+While higher level languages like javascript allow us to not think about memory and let the machine
+
+03:57.780 --> 03:59.790
+take care of it for you.
+
+03:59.790 --> 04:06.750
+There's times where maybe you do want to manage your memory and times where you don't need to based
+
+04:06.750 --> 04:07.970
+on your needs.
+
+04:08.280 --> 04:13.950
+Obviously having more control over memory allows you to really tweak things and make things faster and
+
+04:13.950 --> 04:18.420
+that's why languages like C++ can be much faster than higher languages.
+
+04:18.420 --> 04:23.820
+Higher level languages like javascript but we don't need to get into that.
+
+04:24.170 --> 04:29.230
+What we want to get out of this lesson is that dynamic array expands as you add more elements.
+
+04:29.330 --> 04:35.660
+So you don't need to determine the size ahead of time but you may have noticed something with dynamic
+
+04:35.660 --> 04:36.270
+arrays.
+
+04:37.810 --> 04:45.130
+You see over here how I have a point at all of one that is the same as the push command that we did
+
+04:45.130 --> 04:46.660
+in the previous lesson.
+
+04:46.930 --> 04:52.670
+But I have a star here that says it can be 0 of an why is that.
+
+04:53.030 --> 05:01.560
+Well if we remember our array and let's remove the extra items here that we don't need so just say a
+
+05:01.560 --> 05:15.460
+b c d if underneath the hood javascript and our machine only created four blocks of memory for this
+
+05:15.460 --> 05:23.170
+array and we add another letter underneath the hood because this is a dynamic array.
+
+05:23.270 --> 05:26.140
+It's going to loop over these items.
+
+05:26.330 --> 05:31.360
+Copy them and move it to a different location with.
+
+05:31.390 --> 05:34.310
+Now eight blocks of space.
+
+05:35.200 --> 05:37.660
+So that we can keep adding on to here.
+
+05:39.450 --> 05:47.850
+And you see here because we did this looping the operation becomes over and so that's something to keep
+
+05:47.850 --> 05:50.750
+in mind although it's a minor detail.
+
+05:51.030 --> 05:56.070
+It's good to know how things work underneath the hood and most of the time with the languages that you're
+
+05:56.070 --> 06:03.330
+working and during interviews you will be talking about dynamic arrays and you won't have to worry about
+
+06:03.660 --> 06:10.020
+allocating memory and thinking about the possibility that you might have to copy the array.
+
+06:10.110 --> 06:16.830
+That's really low level but I wanted to show you how they work so that you have those fundamentals going
+
+06:16.850 --> 06:17.400
+forth.
+
+06:17.670 --> 06:24.180
+And I understand that when it comes to a raise just because you're adding at the end using the push
+
+06:24.180 --> 06:31.770
+command you can assume that it's 0 of 1 most of the times or constant time but every once in a while
+
+06:31.830 --> 06:37.190
+you might encounter a situation where it's all then linear time.
+
+06:37.300 --> 06:38.290
+I'll see in the next video.

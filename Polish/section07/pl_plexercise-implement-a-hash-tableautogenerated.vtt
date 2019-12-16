@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.970 --> 00:05.680
+Witamy ponownie nadszedł czas, abyśmy zaimplementowali nasz własny stół mieszający.
+
+00:05.800 --> 00:13.060
+Ale zróbmy trochę ćwiczenia i może to być trudne, więc nie denerwuj się, jeśli nie jesteś w stanie go
+
+00:13.060 --> 00:13.760
+ukończyć.
+
+00:14.610 --> 00:18.040
+Potem dostarczę wideo z rozwiązaniem, a my przejdziemy przez to.
+
+00:18.040 --> 00:22.640
+Ale jako dodatkowe wyzwanie stworzyłem dla ciebie szablon.
+
+00:23.520 --> 00:26.270
+Nowa tablica asocjacyjna, którą zamierzamy utworzyć.
+
+00:26.280 --> 00:32.810
+Tak, wiem, że javascript ma już obiekty i możemy po prostu stworzyć taki, jaki widzieliśmy wcześniej.
+
+00:33.000 --> 00:34.310
+Ale co to za zabawa.
+
+00:34.350 --> 00:36.360
+Stwórzmy własne.
+
+00:36.420 --> 00:42.860
+Teraz ta tablica hash ma konstruktora, który otrzyma rozmiar.
+
+00:42.950 --> 00:47.890
+Więc kiedy tworzymy ten mieszający tabel, zamierzamy nadać mu wielkość pamięci 50.
+
+00:48.110 --> 00:51.540
+Powiedzmy, że chcemy tylko 50 półek pamięci.
+
+00:51.800 --> 00:57.950
+Zamierzamy stworzyć dane DOD, w których nasze dane będą żyć, a w jego ramach zostanie utworzona
+
+00:57.980 --> 00:59.060
+nowa tablica.
+
+00:59.980 --> 01:04.060
+A ta tablica będzie przechowywać dla nas nasze informacje.
+
+01:04.150 --> 01:09.430
+Więc mamy coś w
+
+01:12.110 --> 01:18.640
+rodzaju winogron i 10000 jako nasze wiadro.
+
+01:18.650 --> 01:29.060
+Tak więc pierwszym elementem w tablicy będzie tablica, która jest 100000 winogronami. Pamiętajmy, że jeśli przyjrzymy się diagramowi, mamy
+
+01:30.200 --> 01:39.000
+te wiadra, w których znajdują się nasze dane, a ponieważ teraz wdrażamy własne tabele mieszania, używamy
+
+01:39.210 --> 01:41.370
+tablicy zamiast obiekty.
+
+01:42.170 --> 01:51.290
+Ale pomysł polega na tym, że używając nowej metody, którą będziesz musiał stworzyć, która będzie się nazywać setem,
+
+01:51.290 --> 02:00.320
+będziesz w stanie ustawić winogrona jako pierwszy indeks w teorii i liczbę winogron jako drugi wskaźnik w
+
+02:00.320 --> 02:01.040
+tablicy.
+
+02:01.520 --> 02:10.990
+A stamtąd możemy uzyskać dodatkową metodę, która pobiera winogrona i zwraca 10000.
+
+02:11.000 --> 02:14.040
+Teraz prawdopodobnie się zastanawiasz.
+
+02:14.480 --> 02:18.080
+Och, chłopcze, co to za jibbry.
+
+02:18.500 --> 02:24.030
+Napisałem to z wyprzedzeniem, ponieważ nie jest to ważne w ramach kursu.
+
+02:24.410 --> 02:33.590
+Ale pamiętaj, że potrzebujemy funkcji mieszania, aby utworzyć tabelę skrótów i stworzyłem tutaj najmniejszą najmniejszą funkcję
+
+02:33.590 --> 02:36.300
+skrótu, jaką możesz wymyślić.
+
+02:37.520 --> 02:42.620
+Porozmawiamy o tym, co tak naprawdę dzieje się w filmie z rozwiązaniem.
+
+02:42.920 --> 02:49.510
+Na razie wszystko, co musisz wiedzieć, to wygenerowanie dla nas skrótu.
+
+02:49.610 --> 02:56.220
+Na przykład jeśli robię tutaj znak podkreślenia podkreślenia i nadaję mu klucz.
+
+02:56.360 --> 03:02.620
+Powiedzmy więc, że chcę wstawić winogrona i kliknę uruchom 23.
+
+03:02.720 --> 03:05.500
+Jeśli kliknę ponownie, zawsze otrzymuję 23.
+
+03:05.630 --> 03:10.790
+Jeśli zmienię winogrona na dwie, otrzymam inną przestrzeń pamięci.
+
+03:10.970 --> 03:19.780
+Jeśli po prostu wpisuję losowo Tutaj znowu otrzymuję różne spacje pamięci od 0 do 50.
+
+03:19.790 --> 03:31.500
+Zatem twoim wyzwaniem jest stworzenie tych dwóch nowych metod, które zostaną dodane i dodane do danych kropkowych.
+
+03:32.380 --> 03:43.050
+I ponownie pobiera z tych danych, jeśli nie jesteś bardzo zaznajomiony z javascript, może to być trudne, ale
+
+03:43.110 --> 03:43.990
+spróbuj.
+
+03:44.220 --> 03:47.090
+A w kolejnym filmie przejdziemy krok po kroku.
+
+03:48.190 --> 03:49.840
+Zobaczę to.

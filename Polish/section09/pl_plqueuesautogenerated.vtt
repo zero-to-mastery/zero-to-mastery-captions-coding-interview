@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.050 --> 00:02.160
+Witamy spowrotem.
+
+00:02.220 --> 00:10.970
+CU są naszą kolejną strukturą danych, a najlepszy sposób, aby o nich myśleć, jest jak wejście do kolejki górskiej.
+
+00:11.030 --> 00:16.460
+Pierwsza osoba, która pojawi się w kolejce, najpierw pojedzie na rollercoasterze, a następnie druga osoba
+
+00:16.460 --> 00:19.100
+odejdzie, a potem trzecia osoba odejdzie.
+
+00:19.250 --> 00:23.950
+A czwarty piąty i szósty wreszcie ucieka.
+
+00:24.260 --> 00:34.730
+Tak więc jest to przeciwieństwo stosów, w których mamy dostęp pierwszy na pierwszym miejscu, pierwszy element w kolejce
+
+00:34.940 --> 00:37.290
+uzyskuje dostęp jako pierwszy.
+
+00:37.370 --> 00:45.690
+Nazywamy, że FIFO i kolejki są często używane w problemach programistycznych i pytaniach wywiadowych.
+
+00:45.740 --> 00:53.660
+Na przykład, jeśli masz jakąś aplikację do listy oczekujących, być może kupisz bilety na koncert, który korzysta z
+
+00:54.110 --> 01:01.690
+podpowiedzi, co z aplikacją restauracji, w której możesz sprawdzić w restauracji, czy możesz dostać stolik, który używa
+
+01:01.690 --> 01:02.420
+Skewes.
+
+01:02.720 --> 01:08.380
+A co z Oubre lub windą, kiedy chcesz przejechać.
+
+01:08.750 --> 01:14.400
+Cóż, osoba, która poprosiła o przejażdżkę jako pierwsza, otrzyma pierwszeństwo, a następnie otrzymasz drugie miejsce.
+
+01:14.630 --> 01:18.980
+I wreszcie najpowszechniejszym przykładem kolejek jest prawo drukarki.
+
+01:19.010 --> 01:24.060
+Jeśli masz drukarkę w domu i masz trzy osoby na trzech różnych komputerach lub w domu.
+
+01:24.110 --> 01:29.880
+Powiedzmy, że członkowie Twojej rodziny i naciśnij przycisk drukowania, a każda osoba drukuje różne przedmioty.
+
+01:29.990 --> 01:34.920
+Osoba, która kliknie najpierw wydruk, powinna mieć swój pierwszy wydruk.
+
+01:35.210 --> 01:37.610
+I to samo dla drugiej osoby, która idzie dalej.
+
+01:37.610 --> 01:44.750
+A teraz trzecia osoba, teraz po prawej, mam kilka słów, które różnią się od push i
+
+01:44.810 --> 01:47.930
+pop i używam tu nieco standardu.
+
+01:47.960 --> 01:55.640
+Możesz użyć funkcji "push for" i "cue", co oznacza dodanie do cue, które znajduje się u osoby w linii, która
+
+01:55.650 --> 02:02.080
+wynosi 0 1 i usunięcie, które można uznać za pop, czyli usuń osobę z linii.
+
+02:02.240 --> 02:09.110
+Jednak kolejka w przeciwieństwie do popu nie przyjmuje, że ostatnia osoba w linii bierze pierwszą osobę.
+
+02:09.110 --> 02:11.970
+A więc tam są inne stosy i podpowiedzi.
+
+02:12.020 --> 02:18.290
+I mamy te nazwy, aby upewnić się, że rozumiemy różnice, ale mamy szczyt, który po raz
+
+02:18.290 --> 02:24.980
+kolejny mówi nam, co jest pierwszym elementem, który pojawi się, że jest pierwszą osobą na liście, w
+
+02:24.980 --> 02:30.520
+porównaniu z cue, która jest ostatnią grą, która była ostatnio na pierwszym miejscu.
+
+02:31.040 --> 02:37.490
+I po raz kolejny spojrzeć w Q Zazwyczaj nie robisz, ponieważ interesujesz się tylko i sygnalizuje,
+
+02:37.490 --> 02:38.840
+a Dijk robi.
+
+02:39.090 --> 02:42.850
+Widzisz tutaj, że duża notacja O jest dość szybka.
+
+02:42.990 --> 02:49.140
+W rzeczywistości zamierzamy to zademonstrować w kodzie, ale chcę, abyście spróbowali odpowiedzieć na
+
+02:49.620 --> 02:56.840
+to pytanie, dlaczego nie chcielibyście użyć tablicy do zbudowania pamięci wstrzymującej wideo, jeśli chcecie o tym pomyśleć.
+
+02:57.800 --> 03:05.630
+Cóż, odpowiedź jest bardzo nieskuteczna, ponieważ usuwamy pierwszy element z listy.
+
+03:05.690 --> 03:13.010
+Jeśli pamiętasz tablice, jeśli zmienisz coś, usuniesz pierwszy element, który będziesz musiał przesunąć wszystkie
+
+03:13.070 --> 03:14.290
+te indeksy.
+
+03:14.450 --> 03:21.140
+Stworzenie kolejki z tablic, choć możesz to zrobić, jest naprawdę bardzo złe.
+
+03:21.330 --> 03:24.580
+I to jest coś, o czym będziemy mówić trochę więcej, kiedy będziemy je kodować.
+
+03:25.330 --> 03:25.920
+DOBRZE.
+
+03:26.270 --> 03:28.070
+To wystarczy dla CU.
+
+03:28.070 --> 03:29.660
+Przejdźmy do naszego pierwszego ćwiczenia.

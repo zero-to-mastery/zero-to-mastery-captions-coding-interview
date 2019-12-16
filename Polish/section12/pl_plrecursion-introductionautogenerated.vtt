@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.030 --> 00:08.340
+Ok ok, zaczynam od odrobiny sztuczki, o której rekurencja, o której będziemy
+
+00:08.340 --> 00:13.980
+mówić w następnych kilku filmach, nie jest technicznie algorytmem.
+
+00:14.050 --> 00:19.870
+Jest to bardziej koncepcja, którą zamierzamy użyć w tej części Kursu,
+
+00:19.870 --> 00:27.350
+aby napisać kilka naprawdę interesujących algorytmów, kiedy zajmiemy się sortowaniem i przeszukiwaniem drzewa binarnego wyszukiwania.
+
+00:27.370 --> 00:30.040
+Będziemy często używać rekursji.
+
+00:30.040 --> 00:32.140
+Więc chcę cię przygotować.
+
+00:32.390 --> 00:37.040
+I oczywiście jest to również wspólny temat w wywiadach.
+
+00:37.040 --> 00:41.950
+W rzeczywistości jest to jeden z najbardziej popularnych tematów, które powiem, jeśli chodzi o wywiad.
+
+00:42.030 --> 00:49.160
+Teraz naprawdę rekurencja, gdy szukasz plików na komputerze.
+
+00:49.200 --> 00:54.450
+Na przykład, jeśli jesteś na swoim pulpicie i chcesz znaleźć wszystkie swoje pliki muzyczne, MP
+
+00:54.690 --> 01:01.470
+to trzy pliki na komputerze, możesz to zrobić, po prostu patrząc na jeden folder, który chcesz przeglądać foldery, aby
+
+01:02.130 --> 01:03.980
+znaleźć całą swoją muzykę.
+
+01:04.020 --> 01:06.600
+Pozwól, że ci pokażę, co mam na myśli.
+
+01:06.750 --> 01:14.120
+Mam tutaj projekty, które wykorzystaliśmy na jednym z moich innych kursów, a to jest back-end API w Dakarze.
+
+01:14.400 --> 01:19.770
+Teraz życie sklonowało to repozytorium i mam je tutaj na moim pulpicie.
+
+01:19.870 --> 01:27.230
+Teraz, gdybym chciał przeszukać wszystkie pliki w tym projekcie, mogę po prostu wpisać LS, aby pokazać mi
+
+01:27.290 --> 01:28.120
+pliki.
+
+01:28.540 --> 01:35.440
+Ale jak widzisz na niebiesko, mamy również foldery, które zawierają również pliki.
+
+01:35.520 --> 01:38.800
+Jak mogą również zobaczyć pliki w tym folderze.
+
+01:39.270 --> 01:44.260
+Mogę zrobić coś o nazwie LS dash R i R.
+
+01:44.280 --> 01:47.170
+Zgadnij, co oznacza rekurencyjnie.
+
+01:47.700 --> 01:55.850
+Jeśli to zrobię i kliknę przycisk Enter, otrzymam również pliki wewnątrz folderów.
+
+01:56.150 --> 02:02.930
+Widzisz, że mam folder kontrolny z plikami javascript Mam folder postgresql z
+
+02:03.020 --> 02:10.520
+niektórymi plikami do dokumentów, niektóre z pominiętych plików, a wewnątrz mam też inny folder, który
+
+02:10.520 --> 02:19.800
+ma różne pliki, ale ponieważ mogłem wystawiać pozycje rekursywnie, mój komputer wszedł do każdy folder i wydrukowane pliki.
+
+02:19.800 --> 02:29.880
+Więc czym jest rekursja Dobrze rekurencja jest wtedy, gdy definiujesz coś w kategoriach samego siebie, po prostu jest to funkcja,
+
+02:29.910 --> 02:34.670
+która odnosi się do samej siebie w funkcji.
+
+02:34.680 --> 02:35.050
+W porządku.
+
+02:35.090 --> 02:36.960
+Nie ma sposobu, żeby to naprawić.
+
+02:37.200 --> 02:40.560
+To chyba najbardziej myląca definicja.
+
+02:40.620 --> 02:50.000
+Pozwól mi pokazać przykład, jeśli otworzę konsolę tutaj funkcja rekursywna jest funkcją, która odnosi się do samej
+
+02:50.000 --> 02:51.090
+siebie.
+
+02:51.410 --> 02:54.340
+Mogę więc utworzyć funkcję o nazwie "inception", a
+
+02:57.750 --> 02:59.680
+ta funkcja jest rekursywna.
+
+02:59.700 --> 03:04.000
+Jeśli odwołam się do samej siebie w nim.
+
+03:04.200 --> 03:09.870
+Spróbujmy to jeszcze raz, jeśli powiem tutaj o tym od początku.
+
+03:10.880 --> 03:20.200
+Jest to funkcja rekursywna, ponieważ po uruchomieniu tej funkcji wywołuje się i uruchamia ponownie.
+
+03:20.240 --> 03:26.420
+Problem z rekurencją i tym, dlaczego ludzie uważają ją za tak trudną, to to, że jest to przerażający
+
+03:26.420 --> 03:30.230
+temat, kiedy ludzie zaczynają mówić o matematyce i teoretycznych zastosowaniach.
+
+03:30.350 --> 03:36.240
+Zamiast tego skupmy się tutaj na tym, w jaki sposób rekursja pomaga nam rozwiązywać problemy.
+
+03:36.410 --> 03:43.590
+Rekursja jest naprawdę dobra w przypadku zadań, które mają powtarzające się podzadania.
+
+03:43.640 --> 03:48.110
+To trochę tak, kiedy patrzyliśmy na foldery wewnątrz tego projektu.
+
+03:48.110 --> 03:54.410
+Powód, dla którego rekurencja jest tak ważna, i powód, dla którego mówię o tym w
+
+03:54.410 --> 04:01.940
+tej sekcji najpierw zanim zanurkujemy na wszystkie inne algorytmy, jest taki, że ta koncepcja będzie używana w wyszukiwaniu i
+
+04:02.120 --> 04:08.090
+sortowaniu algorytmów, o których będziemy mówić. na przykład przemierzając drzewo, jeśli myślisz o tym, są
+
+04:08.360 --> 04:12.960
+to po prostu te same zadania, które robimy w kółko.
+
+04:13.430 --> 04:18.830
+Pamiętaj, kiedy tworzymy naszą własną strukturę danych drzewnych jako drzewo binarne.
+
+04:19.400 --> 04:22.350
+I na koniec dałem ci trochę funkcji.
+
+04:23.190 --> 04:29.940
+Wywołany trawers, który pozwolił nam wydrukować nasze drzewo, abyśmy mogli zweryfikować naszą odpowiedź.
+
+04:30.940 --> 04:35.240
+Jeśli przyjrzymy się temu bliżej, zauważymy, że używamy tu rekursji.
+
+04:35.320 --> 04:44.120
+Mam funkcję trawersu, która wywołuje w tobie siebie i to jest coś, co zamierzamy zademonstrować, gdy mówimy
+
+04:44.120 --> 04:48.500
+o wyszukiwaniu i sortowaniu w nadchodzących sekcjach.
+
+04:48.500 --> 04:50.840
+Rekursja jest wszędzie.
+
+04:50.840 --> 04:57.760
+Kiedy wykonujemy przewijanie DOM w witrynie sieci Web, jeśli przejdziemy do elementów tutaj, gdy
+
+04:57.770 --> 05:07.730
+wykonujemy tę traversal on i h go wszystkie model obiektu dokumentu używamy rekursji w javascript, gdy mamy obiekt zagnieżdżony, więc
+
+05:07.730 --> 05:09.610
+obiekt wewnątrz obiektu.
+
+05:10.040 --> 05:17.930
+Używamy rekursji, ale kluczem do uzyskania rekursji jest zrozumienie, że nie jest ona tak złożona.
+
+05:17.930 --> 05:24.900
+Dopóki będziesz go ćwiczyć, trochę go pragnie zdobyć i przejść przez początkowy garb, wtedy stanie się on
+
+05:24.990 --> 05:25.940
+drugą naturą.
+
+05:26.190 --> 05:31.750
+Moim celem jest, aby pod koniec tych filmów pojawiły się rekurencje.
+
+05:31.820 --> 05:33.200
+Więc zacznijmy.
+
+05:33.710 --> 05:34.620
+Do zobaczenia w następnym.

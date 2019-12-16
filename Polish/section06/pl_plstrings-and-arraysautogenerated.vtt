@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00.820 --> 00:01.920
+Witamy spowrotem.
+
+00:02.020 --> 00:08.310
+Chciałem dodać szybkie wideo, aby poinformować cię o wspólnej sztuczce z wywiadu, po
+
+00:08.310 --> 00:11.200
+której będziemy wykonywać pewne pytania.
+
+00:11.610 --> 00:20.310
+Ale w wywiadach powinieneś traktować jakikolwiek ciąg znaków jak tutaj, jako pytanie tablicowe, które widzisz,
+
+00:20.410 --> 00:24.730
+łańcuchy to po prostu tablica znaków.
+
+00:24.790 --> 00:31.760
+W większości przypadków w wywiadzie, gdy pojawia się pytanie typu "odwróć ciąg",
+
+00:31.820 --> 00:40.880
+powinieneś pomyśleć: przekształcić to w tablicę, zrobić jakąś pętlę lub operację używając czegoś w stylu javascript,
+
+00:40.940 --> 00:45.250
+a następnie zwracając go jako ciąg znaków.
+
+00:45.470 --> 00:52.980
+Po zakończeniu operacji z nimi jest to bardzo częste pytanie wywiadowe, w którym manipulujesz
+
+00:52.980 --> 00:54.060
+napisami.
+
+00:54.060 --> 00:57.880
+Pamiętaj o tym i zademonstruj to w następnym filmie.
+
+00:57.960 --> 01:03.180
+Kiedy zrobimy bardzo częste pytanie z wywiadu, zobaczę cię w tym.
+
+01:03.480 --> 01:03.780
+Bebai.

@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.860 --> 00:09.250
+Bentornato, implementiamo la prima ricerca approfondita usando in ordine preordinato e post ordine
+
+00:09.250 --> 00:12.700
+e inizieremo con l'ordine.
+
+00:12.700 --> 00:21.560
+Per prima cosa, chiamiamolo prima profondità.
+
+00:22.740 --> 00:28.490
+Attraversa o cerca in questo caso e diremo in ordine.
+
+00:28.760 --> 00:35.570
+Ora qui dentro useremo la ricorsione perché mentre la maggior parte delle volte la prima ricerca viene implementata
+
+00:35.600 --> 00:39.190
+usando la ricorsione perché è abbastanza semplice farlo.
+
+00:39.230 --> 00:45.900
+Come vedrai, ma se ricordi di implementare la prima ricerca in ampiezza con la ricorsione perché chiameremo questa
+
+00:45.900 --> 00:48.030
+funzione più e più volte.
+
+00:48.030 --> 00:52.690
+Non possiamo semplicemente dichiarare le variabili al suo interno perché verranno ripristinate.
+
+00:52.800 --> 00:59.870
+Quindi faremo la stessa cosa che abbiamo fatto qui, ma per mantenere le cose pulite e per
+
+00:59.990 --> 01:06.300
+mostrarti anche come funzionano diverse difese ordinate per le ricerche, perché ne avremo tre.
+
+01:06.560 --> 01:17.370
+Avremo in ordine Post ordine e preordine Creerò tre funzioni separate
+
+01:17.370 --> 01:20.500
+qui sotto descrivendole.
+
+01:20.520 --> 01:29.240
+Quindi tutto quello che ho intenzione di dire qui è che avremo il ritorno alla funzione di ordine inverso.
+
+01:29.340 --> 01:40.220
+Questa sarà la nostra funzione ricorsiva e il metodo DFS in ordine restituisce semplicemente qualunque cosa ci dia questo risultato.
+
+01:40.530 --> 01:44.130
+Quindi nel nostro caso aggiungeremo questa rotta Daut.
+
+01:44.130 --> 01:52.780
+Inizia con il nostro nodo radice e forniremo una lista o le nostre risposte saranno
+
+01:52.780 --> 02:00.420
+inserite e faremo la stessa cosa per l'ordine postale e preordineremo solo nominandoli.
+
+02:00.700 --> 02:05.530
+Ci sono modi appropriati.
+
+02:05.640 --> 02:08.910
+Quindi scriviamo la prima funzione Cerveris.
+
+02:09.060 --> 02:14.350
+Se riesco a scrivere l'ordine dei traversi e a preordinarti.
+
+02:14.640 --> 02:16.280
+Iniziamo con il primo.
+
+02:16.500 --> 02:21.920
+Sarà una funzione chiamata traversata in modo che abbiamo creato sopra.
+
+02:21.960 --> 02:30.810
+Questo sta per ottenere un nodo e una sorta di dati o possiamo chiamarlo lista.
+
+02:30.830 --> 02:40.410
+In questo caso ora ricordatevi che per darci la lista dei nodi in ordine in ordine se
+
+02:41.100 --> 02:49.390
+osserviamo il nostro albero vogliamo idealmente 1 4 6 9 15 20 170.
+
+02:49.830 --> 02:57.510
+E il modo in cui andiamo a farlo è bene, prima di tutto, controlleremo che il nodo abbia un taglio
+
+02:57.540 --> 02:58.690
+di sinistra.
+
+02:58.950 --> 03:09.340
+Se funziona bene, andremo in chiesa verso la fine, usando la ricorsione sul nodo, risuonò
+
+03:10.560 --> 03:14.890
+e passeremo di nuovo i dati.
+
+03:14.950 --> 03:22.340
+So che la ricorsione può essere difficile da afferrare all'inizio, ma tutto quello che stiamo dicendo qui è
+
+03:22.340 --> 03:31.380
+che se il nodo in particolare il nodo radice quando iniziamo prima se ha un figlio sinistro che 9 attraversa fino in
+
+03:31.380 --> 03:38.790
+fondo continua a sinistra chiamerà questa funzione e continuerà a girare a sinistra fino a quando il nodo
+
+03:38.820 --> 03:44.170
+non avrà più figli e finiremo a uno quando finiremo a 1.
+
+03:44.190 --> 03:52.840
+Voglio all'ultimo punto spingere il nostro valore punto del nodo di risposta.
+
+03:52.980 --> 04:00.930
+Quindi, una volta che non c'è più un nodo sinistro, è dove una cosa va al passo successivo che è quello
+
+04:00.930 --> 04:04.090
+di spingere questo valore uno alla lista.
+
+04:04.110 --> 04:08.910
+Dopo avremo fatto la stessa cosa che abbiamo fatto qui a destra.
+
+04:09.270 --> 04:15.450
+Questo è quello che vogliamo andare a controllare adesso e dire che andiamo fino a destra finché non ci
+
+04:15.450 --> 04:16.600
+saranno più bambini.
+
+04:17.690 --> 04:26.450
+E ora ne abbiamo sei e passiamo nuovamente a questa funzione quando ne abbiamo sei.
+
+04:26.600 --> 04:37.490
+Non c'è un figlio sinistro e sta andando a spingere il valore corrente del nodo che è 6 a destra, quindi in realtà
+
+04:37.550 --> 04:39.250
+controlliamo questo registro.
+
+04:39.530 --> 04:41.440
+E dal modo in cui vogliamo tornare.
+
+04:41.480 --> 04:45.920
+Ricorda che vogliamo restituire l'elenco alla fine.
+
+04:46.160 --> 04:56.010
+Quindi andrò a consolare il nodo del nodo di collegamento thali e se clicco su Esegui qui o
+
+04:56.060 --> 04:57.840
+assicurati che
+
+05:01.110 --> 05:13.030
+funzioni, dirò Traverse per commentare questi due e pronunciare il punto D dell'albero velocemente ordine e stiamo solo andando a eseguire
+
+05:15.590 --> 05:21.670
+questo file intorno a questo che ho dati non è definito.
+
+05:21.670 --> 05:27.130
+Perché quello che deve essere elencato qui oltre la LISTA.
+
+05:27.340 --> 05:29.880
+Ehi, corri e guardalo.
+
+05:29.890 --> 05:39.040
+Abbiamo 1 4 6 9 15 20 170 e vediamo qui il percorso che abbiamo preso perché mi consola guardare alla tua destra.
+
+05:39.130 --> 05:43.990
+Abbiamo 9 4 1 poi 6.
+
+05:44.160 --> 05:54.970
+Poi torniamo indietro al 20 15 e poi a 170, ma poiché stiamo spingendo le nostre risposte alla lista dopo aver verificato le note a
+
+05:54.970 --> 06:01.560
+sinistra e aver attraversato fino in fondo i numeri più bassi vengono inseriti nell'elenco.
+
+06:01.570 --> 06:10.520
+Ora la bellezza di questo è che implementare gli altri due diventa estremamente facile perché sono
+
+06:10.530 --> 06:12.040
+molto simili.
+
+06:12.040 --> 06:13.860
+Proprio l'ordine cambia.
+
+06:14.260 --> 06:17.800
+Quindi il prossimo che è
+
+06:20.400 --> 06:22.660
+trasversale diciamo preordine.
+
+06:22.820 --> 06:29.720
+L'unica differenza ora è che devi assicurarti di chiamare ricorsivamente il nome giusto.
+
+06:30.950 --> 06:41.950
+L'unica differenza è che con preordine vogliamo spingere all'inizio prima di arrivare alla nota di
+
+06:41.950 --> 06:43.360
+sinistra.
+
+06:43.930 --> 06:54.330
+Perché ricorda in un traversal preordinato andiamo 9 4 1 6 poi 20 15 170.
+
+06:54.340 --> 06:57.200
+Iniziamo prima con i genitori e questo è l'ordine.
+
+06:57.640 --> 07:01.820
+Quindi spingiamo prima il genitore, che è 9.
+
+07:01.960 --> 07:07.740
+Poi ne abbiamo presi quattro poi uno, otteniamo sei e 20 e 50 di 170.
+
+07:08.630 --> 07:10.040
+Vediamo se funziona.
+
+07:10.160 --> 07:16.240
+Lo cambierò in preordine assicurandoti di scrivere correttamente.
+
+07:17.170 --> 07:22.420
+Preordinate il purrfect e poi dirigetevi e guardate quello.
+
+07:22.560 --> 07:32.830
+Siamo andati in 9 4 1 6 20:15 170 in quell'ordine nella lista.
+
+07:32.840 --> 07:37.360
+Ora qui puoi mettere in pausa il video e vedere se possiamo implementare l'ultimo da solo.
+
+07:37.370 --> 07:39.060
+Dovrebbe essere abbastanza semplice.
+
+07:39.170 --> 07:40.160
+Destra.
+
+07:40.250 --> 07:40.510
+Tutto ok.
+
+07:40.520 --> 07:41.630
+Ho intenzione di andare avanti.
+
+07:42.330 --> 07:45.700
+L'ordine postale sarà molto simile.
+
+07:46.940 --> 07:57.360
+Diremo Traverse post order avremo l'ultima spinta alla fine.
+
+07:59.330 --> 08:01.000
+E perché è così.
+
+08:01.190 --> 08:14.260
+Perché controlliamo 1 6 a sinistra ea destra, quindi i primi quattro poi a 15 170 20 quindi a 9.
+
+08:14.320 --> 08:18.410
+Quindi l'ordine come suggerisce il nome è post è alla fine.
+
+08:18.940 --> 08:22.140
+Quindi, se ho cambiato solo per inviare l'ordine ora.
+
+08:24.370 --> 08:25.850
+E ho colpito Ron.
+
+08:26.200 --> 08:31.950
+Abbiamo un suo ordine sbagliato perché devo assicurarmi di cambiare i nomi, quindi è il suo corsivo.
+
+08:32.020 --> 08:37.970
+Quindi diciamo Traverse postazioni di bordo porose per posta non ordinate.
+
+08:38.080 --> 08:40.860
+E se avessi corso è molto meglio.
+
+08:40.930 --> 08:44.650
+Ne facciamo nove per uno.
+
+08:45.420 --> 08:47.220
+E iniziamo ad aggiungere questo alla lista.
+
+08:47.330 --> 09:03.630
+Vado 1 6 4 poi 15 170 20 e poi 9 e se stampiamo tutto questo e faccio clic su Esegui bene, rimuovere i registri della
+
+09:03.630 --> 09:06.090
+console da qui.
+
+09:09.930 --> 09:12.240
+E solo la console registra ognuno
+
+09:17.400 --> 09:19.610
+di questi per la corsa.
+
+09:19.770 --> 09:20.710
+Ci sono i nostri registri
+
+09:20.740 --> 09:30.220
+Abbiamo l'ordine postale che abbiamo il preordine e ora abbiamo l'ordine.
+
+09:30.430 --> 09:36.370
+Tutti loro sono la prima ricerca della profondità è fatta solo in diversi ordini.
+
+09:36.530 --> 09:41.750
+Ora lascerò il codice per te da esplorare qui perché è una ricorsione.
+
+09:42.020 --> 09:48.050
+Potrebbe volerci un po 'di tempo per avvolgere la mente, ma vedi qui che non
+
+09:48.380 --> 09:50.060
+è stato così difficile.
+
+09:50.130 --> 09:56.850
+Abbiamo implementato la prima ricerca di ampiezza sia atre Tivoli che ricorsivamente e usiamo anche la profondità
+
+09:57.090 --> 10:00.830
+per una ricerca in ordine di ordine e preordine.
+
+10:01.100 --> 10:04.440
+E se ci pensi, inizia a diventare sempre più chiaro.
+
+10:04.740 --> 10:06.830
+Soprattutto quando si tratta di morte per la ricerca.
+
+10:06.990 --> 10:13.150
+Tutto quello che stiamo facendo è controllare l'elemento di sinistra e l'elemento giusto o la nota giusta.
+
+10:13.200 --> 10:16.780
+Questo è il riferimento sinistro e il riferimento destro di ogni nota.
+
+10:17.340 --> 10:23.610
+E sicuramente stiamo facendo queste azioni in un ordine diverso a volte a seconda della strategia
+
+10:23.610 --> 10:25.410
+di ordinazione che scegliamo.
+
+10:25.500 --> 10:28.310
+Ma stiamo ancora facendo le stesse tre cose.
+
+10:28.410 --> 10:35.470
+Stiamo controllando il check-in a sinistra o stiamo semplicemente spingendo un nodo nella nostra lista alla nostra risposta.
+
+10:35.790 --> 10:42.300
+E per quelli di voi che potrebbero aver capito che stiamo usando una struttura di dati stack proprio qui con la ricorsione.
+
+10:42.300 --> 10:50.620
+Ognuna di queste funzioni viene aggiunta al nostro stack di chiamate e inizieremo a tornare non appena raggiungeranno la fine.
+
+10:51.930 --> 10:55.990
+Cioè non ci sono più bambini di destra e di sinistra.
+
+10:56.610 --> 11:02.860
+E questo è importante da capire perché mostra la complessità spaziale della morte per la ricerca.
+
+11:03.030 --> 11:11.260
+La quantità di spazio di cui abbiamo bisogno in termini di memoria, a differenza della prima ampiezza di ricerca che ha utilizzato
+
+11:11.260 --> 11:17.650
+il Q L'altezza dell'albero ci dirà di quanta memoria avremo bisogno perché l'altezza dell'albero corrisponderà alla funzione
+
+11:17.710 --> 11:23.770
+ricorsiva più profonda e questo è ciò che sta succedendo da aggiungere allo stack come memoria.
+
+11:23.770 --> 11:30.910
+Quindi il nostro consumo di memoria è tutto all'altezza dell'albero che ci darà lo scenario peggiore
+
+11:30.940 --> 11:34.570
+quando utilizziamo la ricerca di profondità prima.
+
+11:34.650 --> 11:44.710
+Quindi ora che capisci meglio come queste ricerche o il lavoro trasversale ti incoraggio a seguire passo
+
+11:44.710 --> 11:47.080
+passo il tuo codice.
+
+11:47.080 --> 11:50.800
+Verifica se è possibile aggiungerlo anche alla struttura dei dati dell'albero.
+
+11:50.800 --> 11:59.470
+Poiché la bellezza è una volta che sai come funziona, imparerai anche come attraversare un grafico.
+
+11:59.580 --> 12:02.000
+Congratulazioni e ci vediamo nel prossimo video.

@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.020 --> 00:10.930
+Che cos'è una funzione hash è qualcosa che viene utilizzato in tutta l'informatica una funzione hash è semplicemente
+
+00:11.080 --> 00:18.920
+una funzione che genera un valore di lunghezza fissa per ogni input che ottiene.
+
+00:19.130 --> 00:20.850
+Va bene, cosa significa?
+
+00:21.260 --> 00:29.240
+Bene, ho qui un M. D cinque hash generati e cinque è il tipo di funzione hash e ce ne sono
+
+00:29.240 --> 00:30.020
+molti molti tipi.
+
+00:30.200 --> 00:37.570
+Potresti aver sentito parlare di Schwann Shaw 2:56 e di molti altri che usano questa funzione di hash.
+
+00:37.570 --> 00:39.980
+Vediamo cosa succede se lo faccio.
+
+00:40.420 --> 00:42.590
+Ciao.
+
+00:42.630 --> 00:53.250
+Lo capisci subito e il cinque blocca questa stringa e la trasforma in questo jibberish.
+
+00:53.390 --> 00:55.540
+Questo è ciò che fa una funzione di hash.
+
+00:55.580 --> 01:03.470
+Diamo un input e la funzione genera un pattern casuale.
+
+01:03.470 --> 01:07.540
+Ora ci sono alcuni aspetti chiave delle funzioni di hash.
+
+01:07.550 --> 01:16.670
+Il primo è che è un modo nel senso che se io do a qualcuno questo non ha idea di quale sia
+
+01:16.670 --> 01:17.410
+l'input.
+
+01:17.990 --> 01:24.820
+Ed è praticamente impossibile per me avere qualche indizio su quale sia l'input.
+
+01:24.830 --> 01:31.560
+La seconda è che non importa quante volte metto Hello lì, sarà lo stesso.
+
+01:31.790 --> 01:38.470
+Ma appena cambierò una cosa cambierà completamente l'output.
+
+01:38.840 --> 01:46.280
+Se torno a salutare e mi lavo, basta cambiare a maiuscola H anche una lettera maiuscola.
+
+01:46.320 --> 01:53.680
+Quindi inizia con 5 giorni perché se faccio la H maiuscola è completamente diversa.
+
+01:54.610 --> 02:00.840
+E guardando questo possiamo almeno dire che non so per cosa sia utile.
+
+02:00.880 --> 02:06.550
+Ma l'unica cosa che so è che non importa se gli dessi
+
+02:06.550 --> 02:13.530
+lo stesso input mi darà lo stesso risultato ma non ho idea di come riconvertirlo in ciao.
+
+02:13.690 --> 02:20.110
+Questo è ciò che chiamiamo contenuto approfondito o in Dempo e ci sono diverse pronunce.
+
+02:20.110 --> 02:26.350
+Non sono davvero sicuro di quale sia, ma è un modo elegante per dire che una funzione
+
+02:26.440 --> 02:29.800
+data un input emette sempre la stessa uscita.
+
+02:29.810 --> 02:37.700
+Ora l'unico vantaggio e il motivo per cui vorremmo utilizzare questa e una struttura dati è che otteniamo
+
+02:37.880 --> 02:51.230
+un accesso ai dati veramente veloce perché tutto ciò che dobbiamo fare per trovare uve o uva Baskett dot è quello di passare l'uva in qualcosa come un vuoto
+
+02:51.230 --> 02:58.500
+cinque che genera questo numero per me e immediatamente so dove è nella mia memoria
+
+02:58.890 --> 03:00.410
+sul nostro computer.
+
+03:00.600 --> 03:03.160
+Ma questo non sembra un indirizzo lo fa.
+
+03:04.580 --> 03:09.050
+Tecnicamente una funzione di hash che usiamo per le tabelle hash sta per prendere.
+
+03:09.050 --> 03:18.650
+Le forme d'uva generano una sorta di jibberish e poi convertite in uno spazio indice o in uno spazio
+
+03:18.650 --> 03:22.310
+indirizzo su cui si basa questo numero.
+
+03:22.410 --> 03:32.210
+A differenza degli array in cui abbiamo appena ordinato indici con tabelle hash, tutto ciò che dobbiamo fare è dargli una chiave
+
+03:32.210 --> 03:36.740
+e sappiamo esattamente dove quell'elemento è nella nostra memoria.
+
+03:37.260 --> 03:44.340
+Ma ti starai chiedendo che questa funzione di hash della scatola nera non rallenti solo perché ogni
+
+03:44.340 --> 03:54.050
+volta che vogliamo aggiungere una proprietà e un valore di uve e 10000 a una tabella hash dobbiamo eseguirla attraverso la funzione di hash
+
+03:54.050 --> 03:58.220
+in modo da poter decidere dove per metterlo in memoria
+
+03:58.640 --> 04:05.240
+E se hai notato che un buon lavoro è un fattore importante, non vuoi
+
+04:05.240 --> 04:14.150
+che ciò richieda molto tempo, perché ogni volta aggiungi una proprietà alla memoria o recuperi una proprietà in memoria perché ancora
+
+04:14.210 --> 04:21.430
+una volta abbiamo inviato entrambe le uve chiave nella funzione di hash per trovare da dove ottenere.
+
+04:21.470 --> 04:25.840
+Abbiamo bisogno che questo sia veramente molto veloce e al di sotto del cofano.
+
+04:25.880 --> 04:33.970
+Ricorda perché le tabelle di hash esistono in tutte le lingue sono implementate con una funzione di hash ottimale.
+
+04:34.040 --> 04:41.720
+Questo è davvero molto veloce come un hash nota laterale funziona come Shah 2:56.
+
+04:41.830 --> 04:50.760
+Prenditi un tempo molto lungo per generare un hash ed è una funzione di hashing eccessivamente complessa che viene
+
+04:50.760 --> 04:59.970
+utilizzata molto e luoghi come la crittografia in cui vuoi impiegare più tempo ma che è al di fuori dell'ambito del
+
+04:59.970 --> 05:02.090
+discorso se sei interessato.
+
+05:02.100 --> 05:08.880
+Ti consiglio di verificare le differenze tra questi due per la revisione.
+
+05:08.910 --> 05:11.760
+Abbiamo una chiave che è uva.
+
+05:11.760 --> 05:18.240
+Lo inviamo tramite una funzione di hash che sta per hash qualcosa di davvero molto
+
+05:18.240 --> 05:29.300
+veloce e quindi mappare qualsiasi cosa l'hash è uscito in un indirizzo di memoria in cui vogliamo archiviare i nostri dati con le nostre uve 10000.
+
+05:29.440 --> 05:34.950
+E quando si tratta di funzioni di hashing, in genere lo si lascia in qualsiasi framework o linguaggio che
+
+05:34.960 --> 05:35.900
+si sta utilizzando.
+
+05:36.100 --> 05:44.670
+E di solito assumiamo una complessità temporale o una notazione Big-O pari a 0 1 perché ciò avviene molto velocemente.
+
+05:44.740 --> 05:45.270
+Tutto ok.
+
+05:45.340 --> 05:51.580
+Ora che capiamo cosa fa questa scatola nera, parliamo un po 'di più delle tabelle hash perché sono
+
+05:51.580 --> 05:55.580
+utili e perché in alcuni casi sono meglio di una gara.

@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.890 --> 00:01.750
+Witamy spowrotem.
+
+00:02.150 --> 00:06.040
+Spróbujmy zaimplementować funkcję wyszukiwania lub funkcję wyszukiwania.
+
+00:06.110 --> 00:12.440
+Chcemy sprawdzić, czy element lub węzeł istnieje w naszym drzewie.
+
+00:12.490 --> 00:14.920
+Zobaczmy, jak sobie z tym poradzimy.
+
+00:14.980 --> 00:19.930
+Pierwszą rzeczą, którą chciałbym zrobić, jest sprawdzenie, czy istnieje coś takiego jak węzeł główny.
+
+00:19.960 --> 00:22.470
+Jeśli jest pusty.
+
+00:22.610 --> 00:25.280
+Więc używam, mogłem to zrobić.
+
+00:25.310 --> 00:27.650
+Liczba równa się równe nie.
+
+00:27.980 --> 00:32.220
+Aby sprawdzić, czy trasa jest pusta lub mogę użyć wykrzyknika w JavaScript.
+
+00:34.070 --> 00:40.600
+Po prostu powiemy return false, ponieważ jeśli root nie istnieje, to nie ma to znaczenia.
+
+00:40.610 --> 00:43.470
+Nie znajdziemy tej notatki.
+
+00:44.680 --> 00:55.030
+W przeciwnym razie powiemy po raz kolejny, aby obecna nuta była równa temu pierwiastkowi, bardzo podobna do tego, co
+
+00:55.030 --> 00:56.380
+zrobiliśmy powyżej.
+
+00:56.380 --> 01:03.780
+Pamiętaj, że my tutaj, a zauważysz pewne podobieństwa z tym, co zrobiliśmy, kiedy uczyniliśmy odpowiedź.
+
+01:03.930 --> 01:12.390
+Nadal musimy przechodzić przez nasze drzewo, ale zamiast tego nasza pętla while zostanie zatrzymana za każdym razem, gdy
+
+01:12.420 --> 01:21.570
+obecny węzeł już nie istnieje lub nie będziemy już mieć węzła, przez który przeszliśmy, ponieważ po przejściu przez nasze binarne
+
+01:21.570 --> 01:26.390
+drzewo wyszukiwania jest to zerowe nie znaleźliśmy tego, czego szukamy.
+
+01:27.180 --> 01:34.670
+Tak więc w tym przypadku po prostu powiem, czy wartość, której szukamy, jest
+
+01:34.850 --> 01:36.140
+mniejsza niż
+
+01:39.790 --> 01:46.420
+aktualna wartość węzła, w takim przypadku bieżący węzeł będzie równy bieżącemu.
+
+01:46.450 --> 01:52.670
+Zwróć uwagę na kropkę, ponieważ chcemy teraz przejść w lewo, jeśli wartość jest mniejsza niż aktualna wartość węzła.
+
+01:52.720 --> 01:55.930
+To znaczy, że to nie to samo, nie to, czego szukamy.
+
+01:56.050 --> 02:02.170
+Więc idź w lewo, ponieważ tam mogę znaleźć coś, co może być mniej niż aktualna notatka w przeciwnym razie.
+
+02:02.230 --> 02:07.120
+I będziesz używać instrukcji ELSE IF tutaj, która mówi inny warunek.
+
+02:07.150 --> 02:17.560
+Więc jeśli to nie pasuje, jeśli aktualny Jeśli wartość jest większa niż obecna wartość Daut węzła, co według Ciebie
+
+02:17.560 --> 02:18.660
+robimy tutaj.
+
+02:18.850 --> 02:20.600
+Cóż, idziemy w prawo.
+
+02:20.890 --> 02:26.480
+Powiemy teraz, że węzeł Curren ma teraz być bieżącym węzłem Daut w prawo.
+
+02:26.620 --> 02:31.520
+Więc po prostu sprawdzamy na prawo od nas, a potem w końcu.
+
+02:31.520 --> 02:43.730
+Inaczej, jeśli jest to inny warunek i nie możemy powiedzieć, czy aktualny węzeł jest wartością równą rzeczywistej wartości,
+
+02:43.730 --> 02:45.500
+której szukamy.
+
+02:45.500 --> 02:46.730
+Oznacza to, że mamy mecz.
+
+02:46.730 --> 02:48.680
+Oznacza to, że węzeł istnieje.
+
+02:48.770 --> 02:52.300
+Po prostu zwrócę bieżącą notatkę.
+
+02:52.610 --> 02:53.690
+Ładne i proste.
+
+02:54.000 --> 03:00.020
+A w końcu, ponieważ nic nie zwracamy, przechodzimy przez pętlę while, dopóki nie
+
+03:00.020 --> 03:07.150
+znajdziemy bieżącego węzła, w którym zwracamy bieżący węzeł, lub Kerno staje się pusty, ponieważ nie możemy
+
+03:07.160 --> 03:10.070
+znaleźć niczego, jeśli nic nie znajdziemy.
+
+03:10.120 --> 03:12.470
+Po prostu zwróć false.
+
+03:12.520 --> 03:20.190
+Jedyny sposób, w jaki zwracamy coś innego niż fałsz, jest wtedy, gdy znajdujemy naszą notatkę z pasującą wartością.
+
+03:20.290 --> 03:21.240
+Zobaczmy to.
+
+03:21.460 --> 03:33.000
+Jeśli teraz uruchomię drzewo, zobacz 9, a ja to skomentuję, ponieważ nie musimy sprawdzać, czy nasze drzewo jest
+
+03:33.000 --> 03:34.160
+tworzone.
+
+03:34.260 --> 03:36.740
+Jeśli tam biegnę, idziesz.
+
+03:36.750 --> 03:42.890
+Dostaję 9 węzeł, który ma odniesienie do wszystkich innych węzłów pod nim.
+
+03:42.930 --> 03:47.250
+Jeśli spojrzę w górę 90, otrzymam fałsz, ponieważ nie istnieje.
+
+03:47.270 --> 03:51.000
+A co z 20, które istnieje Tak znaleźliśmy 20.
+
+03:51.000 --> 03:56.250
+Co z 170 Tak, znaleźliśmy 170.
+
+03:56.250 --> 04:04.230
+Jest to węzeł, ale nie ma żadnych lewych i prawych odniesień, ponieważ jest to węzeł typu leafnode, a następnie
+
+04:04.380 --> 04:07.850
+171 jest fałszywe, ponieważ nie istnieje Walden.
+
+04:07.930 --> 04:08.980
+Osiągnięcie tak daleko.
+
+04:08.980 --> 04:12.820
+Mam nadzieję, że jesteś w stanie zaimplementować własne drzewo wyszukiwania binarnego.
+
+04:12.970 --> 04:16.150
+Kiedy już to zrozumiesz, nie jest tak źle.
+
+04:17.650 --> 04:23.470
+Pod koniec dnia każda linia powinna mieć sens, a przemierzanie drzewa powinno mieć dla ciebie
+
+04:23.470 --> 04:24.250
+sens.
+
+04:24.250 --> 04:33.160
+Rozumiemy także, dlaczego mamy duże O-log i chociaż mamy pętle tutaj, podobnie jak pętle, w rzeczywistości nie robimy
+
+04:33.190 --> 04:37.870
+iteracji przez każdy węzeł, którego używamy tylko iteracyjnie.
+
+04:37.900 --> 04:41.140
+Podzielić i zdobyć coś, co wiele usłyszysz.
+
+04:41.200 --> 04:46.910
+Dziel i rządź po prostu oznacza, że dzielimy się, abyśmy nie odwiedzali wszystkich notatek.
+
+04:46.960 --> 04:52.200
+Każdy węzeł, który odwiedzamy, podejmuje decyzję o przejściu w lewo lub w prawo.
+
+04:52.270 --> 04:53.690
+Zobaczę w następnym.
+
+04:53.920 --> 04:54.150
+Konstabl.

@@ -1,0 +1,76 @@
+WEBVTT
+
+00:01.000 --> 00:09.460
+Welcome back in the previous video we talked about how new Noad over here gets repeated both times in
+
+00:09.480 --> 00:11.340
+append and prepared.
+
+00:11.560 --> 00:18.960
+And as we create more methods on our linked list we're going to have to constantly say new node value
+
+00:18.960 --> 00:20.110
+calls value next.
+
+00:20.130 --> 00:24.920
+No and usually we want to keep things dry.
+
+00:25.280 --> 00:27.530
+That is do not repeat yourself in code.
+
+00:28.530 --> 00:36.780
+And many implementations of linked list you'll see something like this where new node is actually a
+
+00:36.780 --> 00:38.170
+nother class.
+
+00:38.370 --> 00:45.100
+For example I can create a new class here and this is how object oriented programming usually works.
+
+00:45.880 --> 00:51.610
+We have classes that interact with other classes to create our programs.
+
+00:51.610 --> 00:57.150
+So you'll see a lot of implementations of linked lists that have class of Node.
+
+00:57.430 --> 01:05.800
+And this note is going to have a constructor that takes a value and this value will have this darte
+
+01:06.850 --> 01:16.670
+value equals to value it's going to have this dot next equal to no
+
+01:19.990 --> 01:20.750
+just like that.
+
+01:22.370 --> 01:32.380
+So that way instead of us saying constant new node and creating this new node every time I can just
+
+01:32.380 --> 01:45.760
+say every time that I want to create a new node we can say lat or Konst new node equals to new node
+
+01:46.150 --> 01:49.360
+and then the value.
+
+01:49.430 --> 02:02.040
+So every time we have a new node we just instantiate what we call create and run this new node class
+
+02:02.670 --> 02:09.520
+that creates a node for us with a value property and a next property.
+
+02:09.550 --> 02:17.650
+So you might prefer using this syntax but because I find this can get a little bit confusing especially
+
+02:17.650 --> 02:24.010
+if you're now used to classes and want to just keep things the way they are because.
+
+02:24.220 --> 02:32.000
+Well I think it's easier to read and as you saw it's fairly easy to implement if you want to do that
+
+02:32.030 --> 02:34.200
+on your own OK.
+
+02:34.460 --> 02:36.010
+Just a quick segue.
+
+02:36.260 --> 02:39.750
+Let's get back to finishing our linked list in the next video.

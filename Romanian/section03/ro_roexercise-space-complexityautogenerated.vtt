@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.420 --> 00:01.220
+Bine ai revenit.
+
+00:01.470 --> 00:04.250
+Să vorbim despre complexitatea spațiului.
+
+00:04.260 --> 00:14.260
+Ce se întâmplă dacă am o funcție care are numele boo și tot ceea ce face are nevoie de o intrare.
+
+00:14.600 --> 00:23.880
+Și în cadrul acestei intrări va fi pur și simplu o bucla pe care am văzut-o înainte.
+
+00:25.600 --> 00:38.630
+Și această buclă trebuie să ne asigurăm că facem acest lucru în mod corespunzător și să spunem că și necompletat și vom spune
+
+00:38.630 --> 00:49.950
+că plus plus și această funcție este o funcție cu adevărat inutilă, care pur și simplu log-uri Konsole jurnal
+
+00:50.100 --> 00:51.900
+la funcția sa.
+
+00:51.910 --> 00:55.120
+Deci, acum, dacă am rula doar
+
+00:57.770 --> 01:12.700
+funcția și i-am dat o intrare de exemplu să spunem 1 2 3 4 5 și să o executăm bine, avem BHU executată de cinci ori și știm că complexitatea spațială
+
+01:12.700 --> 01:19.100
+a acestei funcții sau complexitatea de timp a acestei funcții este atunci când.
+
+01:19.330 --> 01:24.700
+Dar când vine vorba de complexitatea spațiului, să ne gândim la asta.
+
+01:24.870 --> 01:27.360
+Care este complexitatea spațială a acestui lucru.
+
+01:27.420 --> 01:30.330
+Acum încearcă să ghicesc înainte de a intra în subiect.
+
+01:35.410 --> 01:43.480
+Cea pe care am primit-o atunci când vine vorba de complexitatea spațială este că, atunci când vorbim despre complexitatea
+
+01:43.480 --> 01:49.590
+spațială, vorbim despre spațiu suplimentar, astfel încât să nu includem spațiul ocupat de inputuri.
+
+01:49.720 --> 01:54.930
+Deci nu ne pasă cât de mare este intrarea.
+
+01:54.970 --> 01:56.340
+Adică ne pasă.
+
+01:56.350 --> 02:02.980
+Dar când vine vorba de această funcție, nu avem controlul asupra tipului de intrare pe care îl primește.
+
+02:02.980 --> 02:06.700
+Avem doar controlul asupra a ceea ce se întâmplă în interiorul acestei funcții.
+
+02:06.730 --> 02:16.060
+Deci, în cadrul acestei funcții adăugăm orice spațiu Ei bine, nu chiar singurul lucru pe care îl facem cu
+
+02:16.120 --> 02:24.030
+adevărat este că noi creăm acest lucru să fie egal cu variabila zero și asta este.
+
+02:24.080 --> 02:27.180
+În afară de asta, nu mai adăugăm memorie.
+
+02:27.470 --> 02:37.540
+Deci, această funcție are o complexitate a spațiului de 0 1 frumos și simplu dar ce face dacă avem o funcție diferită dacă
+
+02:38.030 --> 02:40.510
+avem ceva de genul asta.
+
+02:42.280 --> 02:49.360
+De data aceasta va avea o funcție care spune o serie de de gând să-i dea un alt nume teribil.
+
+02:49.480 --> 02:52.170
+Vremuri de sfârșit mare.
+
+02:52.690 --> 02:53.640
+E un nume groaznic.
+
+02:53.650 --> 03:01.150
+Dar să presupunem că această funcție ia din nou o intrare, iar aici vom crea o nouă variabilă.
+
+03:01.180 --> 03:06.850
+Vom spune că modelul Hi va egala o matrice goală.
+
+03:07.890 --> 03:10.700
+Și credem că o să avem o bucla.
+
+03:10.740 --> 03:19.510
+Am de gând să copiez acest lucru pentru că acum trebuie să te plictisesc cu tastarea mea și
+
+03:19.900 --> 03:25.710
+aici o să spun pur și simplu foarte bine în index.
+
+03:25.740 --> 03:33.290
+Deci, pe măsură ce ne întoarcem, o să o umplem în sus și vom reveni la această matrice.
+
+03:33.300 --> 03:39.170
+Bună Ira.
+
+03:39.890 --> 03:42.630
+Tot ceea ce facem este că noi creăm o nouă matrice.
+
+03:43.160 --> 03:52.320
+Iar pentru numărul de elemente de la intrarea noastră, vom ocupa în mod repetat o gamă largă.
+
+03:52.340 --> 03:52.670
+Bună.
+
+03:52.680 --> 03:53.320
+Salut salut.
+
+03:53.320 --> 03:54.840
+Hi string.
+
+03:54.950 --> 04:04.640
+Deci, dacă fac din nou acest lucru și spun o serie de vremuri de sfârșit și o dau, să spunem că o vom da și tu știi ce.
+
+04:04.670 --> 04:07.800
+În loc de lenth să-l lăsăm doar ca număr.
+
+04:07.800 --> 04:14.290
+Deci o să spun și o să spun de șase ori.
+
+04:14.370 --> 04:21.760
+Deci, dacă execut acest cod vom vedea că, deși avem boo boo boo de aici de
+
+04:22.390 --> 04:32.830
+la început, celălalt set de funcții de vremuri de sfârșit de vârf ne întoarce o nouă matrice cu șase elemente și fiecare
+
+04:32.830 --> 04:39.100
+articol pur și simplu spune Salut care este complexitatea spațiului din asta.
+
+04:39.170 --> 04:40.240
+Acest lucru ar trebui să vă dea un indiciu.
+
+04:40.250 --> 04:47.540
+Amintiți-vă structurile de date ale variabilei Chichi care funcționează cu alocarea apelurilor.
+
+04:47.600 --> 04:57.560
+Aceste lucruri iau spațiu și în cazul nostru am creat variabile în variabila noastră de buclă i. e. este egal cu zero.
+
+04:57.560 --> 05:00.190
+Dar, de asemenea, am creat corect structurile de date.
+
+05:00.200 --> 05:02.250
+Am creat o nouă matrice.
+
+05:02.270 --> 05:12.920
+Deci, acum, dacă ne întoarcem, vedem că aici am creat o nouă matrice și umplem această matrice cu o buclă.
+
+05:13.110 --> 05:18.670
+Și din nou, din cauza regulilor noastre, atunci când vine vorba de begob, ignorăm timpul constante.
+
+05:18.670 --> 05:21.120
+Fie egal cu zero spațiu.
+
+05:21.120 --> 05:31.350
+În schimb, acest lucru devine eveniment, deoarece creăm o nouă structură de date și adăugăm memorie, astfel încât fiecare
+
+05:31.350 --> 05:38.490
+element este un spațiu de memorie suplimentar pe calculatoarele și momentele noastre.
+
+05:38.690 --> 05:39.950
+Și știi ce.
+
+05:40.160 --> 05:43.910
+Acest lucru este destul de mult atunci când vine vorba de complexitatea spațiului.
+
+05:43.910 --> 05:49.190
+Cred că aveți această idee și vom ajunge puțin mai mult atunci când vorbim despre
+
+05:49.580 --> 05:56.180
+recursivitate, dar când vine vorba de complexitatea spațiului, ori adăugați memorie suplimentară pe care trebuie să o utilizați și
+
+05:56.360 --> 05:58.380
+uneori este o mare îngrijorare.
+
+05:58.670 --> 06:04.700
+Și uneori nu există și ceva care apare foarte mult în interviuri și ceva
+
+06:04.700 --> 06:11.510
+despre care vom vorbi în următoarea secțiune, uneori există un compromis între economisirea timpului și economisirea spațiului.
+
+06:11.780 --> 06:15.990
+Deci, trebuie să decideți la ce optimizați.
+
+06:16.340 --> 06:20.560
+Să intrăm în câteva exemple amuzante bazate pe ceea ce tocmai am învățat în următorul videoclip.
+
+06:21.590 --> 06:23.500
+Vezi asta.

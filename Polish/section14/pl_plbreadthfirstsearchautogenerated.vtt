@@ -1,0 +1,280 @@
+WEBVTT
+
+00:01.960 --> 00:02.800
+Witamy spowrotem.
+
+00:02.890 --> 00:08.680
+Zacznijmy kodować nasz pierwszy algorytm z szerokim pierwszym wyszukiwaniem.
+
+00:08.860 --> 00:15.850
+Jeśli pamiętasz z szerokim pierwsze wyszukiwanie, musimy przejść od góry, a następnie w lewo, a następnie
+
+00:15.880 --> 00:18.550
+odwiedzić wszystkie węzły na tym poziomie.
+
+00:18.550 --> 00:26.650
+A kiedy powiedziałem, że wykorzystuje dużo pamięci, to kiedy odwiedzi 6 i 12 stamtąd, wróci do 1
+
+00:26.650 --> 00:29.820
+4, a następnie 34 do 45.
+
+00:30.100 --> 00:38.380
+Tak więc, przechodząc przez ten poziom, musimy zachować odniesienie do wszystkich węzłów podrzędnych każdego odwiedzanego węzła,
+
+00:38.560 --> 00:45.940
+abyśmy mogli do nich wrócić i odwiedzać 1 i 4, z których pochodzi pamięć,
+
+00:46.000 --> 00:52.030
+ponieważ musimy śledzić tych dzieci z poziomu, na którym jesteśmy.
+
+00:52.100 --> 00:59.990
+Zauważycie również tę ścieżkę, którą używamy od 9 do 6 do 12 na 1 do 4 do 34 na 45.
+
+01:00.170 --> 01:05.810
+Będziemy używać struktury danych Q, która pozwoli nam zachować odniesienie do notatek, do których
+
+01:05.810 --> 01:10.480
+chcemy wrócić, ponieważ wiemy, że 6 znajduje się przed 12.
+
+01:10.550 --> 01:14.970
+Możemy wrócić do niego i odkryć jego węzły podrzędne.
+
+01:15.410 --> 01:22.610
+Zróbmy więc kodowanie przy pomocy naszego pierwszego algorytmu wyszukiwania oddechu, w którym mamy tutaj nasze binarne drzewo
+
+01:22.670 --> 01:25.620
+wyszukiwania z sekcji struktury danych drzewa.
+
+01:25.620 --> 01:32.930
+Wcześniej zaimplementowaliśmy metody usuwania Look-Up insertów i stworzyliśmy binarne drzewo wyszukiwania, które
+
+01:32.990 --> 01:36.390
+udostępnia nam ten typ drzewa.
+
+01:36.410 --> 01:46.250
+Usuńmy je teraz i zacznijmy kodować naszą implementację pierwszego wyszukiwania oddechu, a najlepiej, wywołując tę
+
+01:46.250 --> 01:52.720
+funkcję, otrzymujemy listę wszystkich tych elementów w kolejności oddechu.
+
+01:52.760 --> 01:59.760
+Pierwsze wyszukiwanie, które wynosi 9: 4 20 raz x 15 170.
+
+01:59.900 --> 02:00.710
+Nazwijmy
+
+02:03.820 --> 02:05.080
+to pierwsze
+
+02:08.670 --> 02:12.010
+wyszukiwanie i tutaj potrzebujemy trzech rzeczy.
+
+02:12.060 --> 02:19.460
+Jeden to bieżący węzeł, który rozpocznie się od węzła głównego i potrzebujemy
+
+02:23.390 --> 02:25.440
+dwóch innych rzeczy.
+
+02:25.490 --> 02:33.770
+Jedna to rzeczywista lista, która będzie naszą odpowiedzią, będzie zawierała tablicę, w której wstawiamy te liczby
+
+02:33.770 --> 02:36.570
+w kolejności oddechu dla wyszukiwania.
+
+02:36.920 --> 02:43.780
+I potrzebujemy również struktury danych Q, która użyje tablicy dla tego przykładu.
+
+02:44.710 --> 02:53.740
+Aby śledzić poziom, na którym się znajdujemy, abyśmy mogli uzyskać dostęp do dzieci po przejściu przez nie, pamiętajmy, że będziemy śledzić 9,
+
+02:53.750 --> 03:00.020
+wtedy będziemy śledzić 6 i 12, a kiedy dojdziemy do 6 i 12, które będą
+
+03:00.110 --> 03:01.720
+w naszej kolejce.
+
+03:01.760 --> 03:10.520
+Ale musimy cofnąć się, gdy jesteśmy na końcu tego poziomu do 6, abyśmy mogli odkryć 1 i 4.
+
+03:10.570 --> 03:12.630
+Więc do tego będzie używane Q.
+
+03:13.740 --> 03:20.410
+Teraz pierwszą rzeczą, jaką zrobimy, jest dodanie do kolejki pierwszego elementu węzła głównego.
+
+03:20.700 --> 03:29.040
+Powiemy teraz węzeł prądowy Q Dot push.
+
+03:29.100 --> 03:36.000
+Teraz musimy to zrobić od aktualnego węzła do naszego węzła podrzędnego i ponownie przejść od lewej do prawej,
+
+03:36.000 --> 03:41.380
+a następnie przejść do notatki ich dzieci i przejść od lewej do prawej.
+
+03:41.550 --> 03:48.000
+A sposób, w jaki zamierzamy to zrobić, to użycie pętli while, a powiemy, że dopóki wartość Q Dot będzie
+
+03:48.600 --> 03:52.840
+większa od zera, to znaczy, że nic nie pozostało w kolejce.
+
+03:54.050 --> 04:01.100
+W takim przypadku powiemy, że bieżącym węzłem będzie q dot shift, a
+
+04:03.880 --> 04:10.300
+shift oznacza po prostu, że bierzemy pierwszy element w kolejce.
+
+04:10.300 --> 04:15.730
+Pamiętaj, że kolejka to tylko kolejka do kolejki górskiej, a pierwsza osoba,
+
+04:15.730 --> 04:24.400
+która wchodzi, najpierw jedzie na rollercoasterze, a shift po prostu zwraca i usuwa pierwszy element w kolejce, a nasz
+
+04:24.400 --> 04:29.770
+przypadek będzie miał 9 jako pierwszy element w kolejce. kolejka.
+
+04:29.770 --> 04:40.320
+Węzeł 9 i zamierzamy to przesunąć i przypisać go do bieżącego węzła, a ponieważ jest to węzeł główny,
+
+04:40.320 --> 04:48.990
+który chcemy rozpocząć w naszej odpowiedzi, lista będzie miała numer dziewiąty na górze.
+
+04:49.200 --> 04:51.600
+Przenieśmy to tutaj, abyś mógł lepiej widzieć.
+
+04:54.470 --> 05:06.280
+Tak więc pierwszą rzeczą, jaką zrobimy, jest wypisanie listy punktów w bieżącej kropce węzła, która będzie miała dziewięć.
+
+05:06.450 --> 05:11.190
+Mamy więc pierwszą odpowiedź na naszej liście, która nie pochodzi stąd.
+
+05:11.250 --> 05:18.600
+Powiemy hej, czy dziewiąty węzeł ma lewe dziecko.
+
+05:19.670 --> 05:27.740
+Bo jeśli to zrobimy, dodajmy to do Q, mówiąc, że powinniśmy sprawdzić tę notatkę,
+
+05:27.740 --> 05:41.440
+a my popchniemy ją do punktu bieżącego węzła Q, więc to, co właśnie zrobiliśmy, to dodaliśmy cztery do kolejki, a potem także chcemy
+
+05:41.450 --> 05:44.280
+dodać 20 do tego.
+
+05:44.510 --> 05:50.870
+Powiem więc, że jeśli dodasz 4 do kolejki, powiem, hej, czy aktualna
+
+05:50.870 --> 05:54.420
+notatka ma węzeł potomny prawego węzła.
+
+05:54.560 --> 06:01.490
+W takim przypadku Wolf dodał do kolejki ponownie jako drugi element w kolejce,
+
+06:02.180 --> 06:07.160
+a obecny bez wątpienia wskaźnik zostanie przesunięty do kolejki.
+
+06:07.260 --> 06:09.950
+I to jest niesamowite, ze wszystkiego, co właśnie zrobiliśmy.
+
+06:10.050 --> 06:17.660
+Teraz, gdy kolejka ma dwa elementy, przechodzi przez kolejne 4 i 20.
+
+06:17.840 --> 06:28.400
+Przejdzie przez tę linię i powie, że q zrobi shift i powie push dla
+
+06:28.400 --> 06:30.050
+aktualnej listy.
+
+06:30.790 --> 06:36.060
+A potem powie, że czwórki mają lewe dziecko.
+
+06:36.100 --> 06:37.660
+Tak, ma to.
+
+06:37.810 --> 06:40.030
+Cóż, następnie dodano do kolejki.
+
+06:40.450 --> 06:48.350
+Tak więc jeden dodaje się do kolejki, która ma 20, a teraz 1, a następnie mówimy, że hej ma 4 właściwe dziecko.
+
+06:48.790 --> 06:49.950
+Tak, mamy sześć.
+
+06:50.140 --> 06:52.080
+Cóż, jeszcze raz dodamy to do kolejki.
+
+06:52.090 --> 06:58.570
+Będziemy mieli 4 21: 6, a następnie wrócimy na szczyt i powiemy, co będzie dalej w kolejce.
+
+06:58.720 --> 07:00.030
+Mamy 20.
+
+07:00.070 --> 07:03.010
+Więc przesuńmy 20.
+
+07:03.070 --> 07:04.030
+Złap to.
+
+07:04.030 --> 07:08.000
+Usuń to z naszej kolejki i powtórz to jeszcze raz.
+
+07:08.050 --> 07:14.760
+Lewe dziecko będzie miało 15 lat i napisze dziecko, które będzie 170, jeśli anulujemy wszystkie zapisy tutaj.
+
+07:15.890 --> 07:22.370
+Nasza obecna węzłowa kropka Valley i właściwie po prostu logujemy
+
+07:26.270 --> 07:30.170
+się tutaj, co zostanie przesunięte.
+
+07:30.180 --> 07:35.310
+Nie, to jest No, na którym będziemy operować i sprawdzać,
+
+07:35.310 --> 07:45.890
+i będziemy musieli to nazwać, więc zróbmy "Drzewko z kropkami" dla wyszukiwania i klikam biegiem, widzimy, że sprawdzam dziewięć, a potem ". m
+
+07:45.890 --> 07:53.610
+sprawdzam, czy sprawdzam 20, czy sprawdzam jeden, potem sześć, a potem piętnaście, a potem 170, bardzo fajnie.
+
+07:53.790 --> 07:56.220
+I zawsze przesuniemy to na listę.
+
+07:56.580 --> 08:07.350
+Wszystko, co musimy zrobić na końcu, to po prostu zapisać listę zwrotów, więc jeśli popatrzę na to, to mam oddech.
+
+08:07.520 --> 08:13.580
+Pierwsze wyszukiwanie, które zwraca dziewięć niż 20.
+
+08:13.600 --> 08:18.520
+Są to 1 6 15 i 170.
+
+08:18.680 --> 08:20.600
+Nie było tak źle.
+
+08:20.600 --> 08:28.490
+Z tego kodu widzimy, że jest to bardzo proste i jedyny problem, jaki mamy, polega na
+
+08:28.520 --> 08:38.060
+tym, że kolejka ta może stać się dość duża, ponieważ musimy utrzymywać odniesienia do naszych węzłów potomnych, które mogą
+
+08:38.480 --> 08:39.650
+nas zranić.
+
+08:39.680 --> 08:48.890
+Czy ta wskazówka, którą ciągle dodajemy, ciągle pojawiają się rzeczy, które dodajemy do Q Więc jeśli mamy naprawdę szerokie drzewo zamiast
+
+08:48.890 --> 08:55.340
+binarnego drzewa, w którym mamy tylko lewe i prawe i może mamy 10 potomnych
+
+08:55.400 --> 09:02.060
+notatek w tej kolejce może stać się całkiem duży i zależny od danych, które mogą być
+
+09:02.630 --> 09:03.200
+duże.
+
+09:03.200 --> 09:06.230
+I to jeden z głównych problemów z Bradem w poszukiwaniu.
+
+09:06.650 --> 09:13.050
+Ale mam nadzieję, że widzisz prostotę pierwszego wyszukiwania oddechu nie było tak źle, wszystko było w porządku. Do
+
+09:13.050 --> 09:14.660
+zobaczenia w następnym wideo.

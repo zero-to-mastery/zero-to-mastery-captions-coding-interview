@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.990 --> 00:02.070
+Baiklah.
+
+00:02.210 --> 00:03.960
+Bagian lain selesai.
+
+00:04.340 --> 00:10.400
+Dan di bagian ini kami berbicara tentang wawancara teknis dan bagaimana menyelesaikan masalah secara khusus.
+
+00:10.550 --> 00:15.470
+Satu kesalahpahaman besar adalah bahwa Anda adalah pemecah masalah yang baik atau tidak.
+
+00:15.500 --> 00:21.390
+Tetapi seperti apa pun itu adalah otot yang dapat Anda latih yang dapat Anda praktikkan.
+
+00:21.390 --> 00:27.530
+Jadi dengan latihan yang cukup dan mengetahui tips dan trik yang kami bahas di bagian ini Anda dapat
+
+00:27.530 --> 00:29.610
+memecahkan masalah jauh lebih baik.
+
+00:29.630 --> 00:33.530
+Itu menunjukkan pewawancara Anda tahu apa yang Anda bicarakan.
+
+00:33.530 --> 00:40.910
+Kunci di bagian ini adalah lembar contekan ini dan langkah demi langkah mengatasi masalah.
+
+00:41.120 --> 00:44.530
+Kami melihat bagaimana wawancara Google mungkin terlihat.
+
+00:44.570 --> 00:49.970
+Dan kemudian kita meniru beberapa teknik yang digunakan di sana untuk menyelesaikan masalah kita sendiri.
+
+00:49.970 --> 00:56.960
+Idenya adalah untuk menunjukkan bagaimana Anda bekerja berpikir keras dan mencoba mengomentari langkah-langkah saat Anda
+
+00:56.960 --> 01:03.770
+pergi untuk menyelesaikan masalah berkomunikasi sepanjang proses sebanyak mungkin dan tidak khawatir menyelesaikan masalah
+
+01:03.770 --> 01:08.660
+dengan cepat adalah kunci untuk campur tangan dalam memecahkan masalah.
+
+01:08.660 --> 01:16.040
+Dalam sebuah wawancara sekarang, kita seharusnya juga mendapat ide bahwa kita tidak ingin menghafal masalah karena jika Anda melakukan seratus
+
+01:16.430 --> 01:23.150
+masalah dan mencoba menghafalnya dengan baik, itu tidak akan benar-benar membantu Anda untuk jangka panjang tetapi Anda juga
+
+01:23.150 --> 01:24.550
+mengambil taruhan kanan.
+
+01:24.560 --> 01:29.400
+Anda berharap pewawancara mengajukan pertanyaan yang pernah Anda lihat sebelumnya.
+
+01:29.750 --> 01:36.110
+Alih-alih, kami ingin mengendalikan nasib dan praktik kami dan siap untuk apa
+
+01:36.110 --> 01:38.270
+pun dengan membangun dasar-dasar.
+
+01:38.420 --> 01:45.110
+Kami berbicara tentang bagaimana menggunakan pertunjukan besar dan pelajaran yang kami pelajari di sini sekarang kami
+
+01:45.110 --> 01:51.010
+dapat beralih ke struktur data dan algoritma dan menggunakannya selama wawancara kode kami.
+
+01:51.020 --> 01:56.660
+Kami juga berbicara tentang beberapa ketrampilan yang dicari oleh pewawancara dan menunjukkan bagaimana itu
+
+01:56.660 --> 01:58.370
+bukan hanya ketrampilan menyandi.
+
+01:58.520 --> 02:04.580
+Ada banyak aspek lain yang dicari pewawancara dan kami membahas hal-hal ini dan bagaimana
+
+02:04.580 --> 02:05.300
+menunjukkannya.
+
+02:05.480 --> 02:14.020
+Selama latihan kami menjadi permintaan akhirnya kami sekarang siap untuk menyelam ke bagian menarik dari struktur data
+
+02:14.050 --> 02:15.230
+dan algoritma.
+
+02:15.250 --> 02:22.630
+Kami memiliki fondasi yang bagus dan kami tahu bahwa yang kami butuhkan adalah mempelajari struktur data dan algoritme ini
+
+02:22.930 --> 02:29.470
+agar benar-benar siap untuk wawancara dan kami juga akan menggunakan lembar contekan yang saya berikan di bagian
+
+02:29.470 --> 02:31.790
+ini sepanjang sisa kursus. .
+
+02:31.960 --> 02:39.040
+Dan pada dasar lembar contekan ini adalah gagasan keterbacaan ruang kode kompleksitas kode
+
+02:39.490 --> 02:42.370
+dan kompleksitas waktu kode.
+
+02:42.600 --> 02:48.060
+Dan meskipun kami tidak mencakup semua yang ada di lembar contekan kami memiliki beberapa item di sini pada akhirnya.
+
+02:48.210 --> 02:53.850
+Anda akan melihat bahwa ketika kita mempelajari struktur data dan pertanyaan
+
+02:54.030 --> 03:01.170
+algoritma, beberapa pola tertentu akan muncul, meskipun pertanyaan mungkin berbeda dalam wawancara, biasanya cara
+
+03:01.410 --> 03:10.480
+untuk mengoptimalkan berbagai hal atau trik untuk membuat jawaban Anda lebih baik dapat dipersempit menjadi langkah-langkah spesifik. .
+
+03:10.650 --> 03:12.030
+Jadi jangan sampai kewalahan.
+
+03:12.030 --> 03:17.260
+Ada daftar periksa yang mudah dan heuristik yang akan kita bahas nanti.
+
+03:17.640 --> 03:23.110
+Tetapi pada titik ini saya pikir kami siap untuk beralih ke struktur data dan algoritma.
+
+03:23.340 --> 03:30.900
+Bagaimana kami menulis kode yang baik membuat program yang baik menciptakan nilai bagi perusahaan yang
+
+03:30.900 --> 03:32.480
+kami wawancarai.
+
+03:32.480 --> 03:33.720
+Sampai jumpa di bagian selanjutnya.

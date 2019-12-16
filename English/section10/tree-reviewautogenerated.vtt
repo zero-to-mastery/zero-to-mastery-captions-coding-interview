@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.620 --> 00:08.130
+Although there are a ton of trees as you saw and we even talked about a lot of trees the way they worked
+
+00:08.130 --> 00:15.450
+though beyond some small logic such as the differences you saw in binary search trees in binary heaps
+
+00:15.450 --> 00:16.720
+and priority queues.
+
+00:16.980 --> 00:24.360
+As long as you understand how to build one from scratch like we did the small variations are fairly
+
+00:24.360 --> 00:32.020
+easy to pick up so that now you have the ability to construct other trees as needed.
+
+00:32.030 --> 00:37.820
+Remember that Wikipedia page with a ton of tree data structures they shouldn't look as intimidating
+
+00:37.820 --> 00:39.370
+to you anymore.
+
+00:39.770 --> 00:45.950
+At the end of the day they're just tree structures with a few different rules apply to them.
+
+00:46.220 --> 00:50.760
+Something that you should easily be able to do with a bit of research.
+
+00:50.750 --> 00:50.810
+Now.

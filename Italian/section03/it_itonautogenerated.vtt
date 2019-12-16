@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.950 --> 00:07.540
+Cosa diresti se ti chiedessi qual è il grande vantaggio della funzione Alla ricerca di Nemo.
+
+00:07.970 --> 00:13.760
+Beh, per rendere questo un po 'più pulito, basta rimuovere le prestazioni fatte ora perché abbiamo
+
+00:13.760 --> 00:18.940
+imparato che non è molto importante e possiamo anche rimuovere il registro della console.
+
+00:20.440 --> 00:27.500
+E guardando questo e questo ciclo, cosa diresti il grande-O e questo video impareremo
+
+00:27.560 --> 00:30.260
+sulla nostra primissima notazione Big-O.
+
+00:30.620 --> 00:34.540
+Come abbiamo detto un runtime è semplicemente quanto tempo impiega qualcosa per funzionare.
+
+00:34.700 --> 00:43.860
+Come cresce questa funzione e il suo tempo di esecuzione mentre il nostro input aumenta man mano che il nostro input passa da un singolo
+
+00:44.190 --> 00:49.130
+elemento in un array Nimo a 10 elementi in array a 100000.
+
+00:49.320 --> 00:53.780
+Come aumenta l'efficienza di questa funzione.
+
+00:53.950 --> 01:01.180
+Se guardiamo a questo grafico e diciamo che abbiamo 4 elementi nell'array mentre il
+
+01:01.180 --> 01:10.500
+numero di operazioni sarà 4 giusto perché passeremo in rassegna ogni elemento e diremo che questo Nimo è questo nimo.
+
+01:10.500 --> 01:11.550
+È questo nimo
+
+01:11.850 --> 01:14.000
+È questo Nimo quattro volte.
+
+01:14.130 --> 01:19.650
+Indipendentemente da ciò che stiamo facendo quattro volte, almeno con il modo in cui
+
+01:19.980 --> 01:28.860
+abbiamo impostato questo codice se abbiamo cinque elementi nell'array saranno cinque operazioni, cinque loop sei è lo stesso di sei elementi è
+
+01:28.860 --> 01:30.030
+sei operazioni.
+
+01:30.030 --> 01:34.070
+Sette sono sette operazioni e otto otto.
+
+01:34.090 --> 01:38.230
+Operazione vediamo un po 'di schema qui.
+
+01:38.570 --> 01:40.410
+Bene, possiamo tracciare una linea attraverso di essa.
+
+01:42.090 --> 01:51.640
+Questo è il tasso lineare dato che il nostro numero di input aumenta anche il numero di operazioni.
+
+01:51.840 --> 01:57.680
+E qui signore e signori abbiamo imparato la nostra primissima notazione Big-O.
+
+01:58.020 --> 02:11.480
+Diciamo che la funzione di ricerca di nemo ha una notazione O grande di 0 e questo è un po 'strano.
+
+02:11.490 --> 02:21.750
+Questa è solo una notazione a cui devi abituarti, ma diciamo Big O of N o quello che chiamiamo tempo
+
+02:21.750 --> 02:27.280
+lineare lineare ci vuole tempo lineare per trovare un nimo.
+
+02:27.300 --> 02:29.980
+Da dove viene questa fine.
+
+02:30.790 --> 02:33.100
+Questo può essere qualsiasi cosa veramente.
+
+02:33.130 --> 02:34.680
+Potrei mettere x.
+
+02:34.900 --> 02:40.540
+Potrei mettere il pesce qui se voglio è solo una lettera arbitraria.
+
+02:40.840 --> 02:42.680
+E di solito lo diamo.
+
+02:42.690 --> 02:50.100
+E quando si tratta di big-O, questo è solo uno standard che vedrai su tutta la linea e significa
+
+02:50.790 --> 02:56.790
+semplicemente che il grande O dipende dal numero di ingressi il numero di pesci.
+
+02:56.790 --> 03:06.840
+Quindi, se avessimo appena creato l'array Nimo, questo sarebbe solo uno se avessimo un array ogni 10.
+
+03:07.090 --> 03:12.270
+E abbiamo avuto il grande array Elby 100000.
+
+03:12.390 --> 03:23.090
+Ma man mano che aumentano gli input, vedi che il numero di operazioni aumenta linearmente con esso 0 quando è probabilmente la
+
+03:23.090 --> 03:30.830
+notazione Big O più comune che troverai se torniamo al grafico puoi vedere che ON è
+
+03:30.920 --> 03:38.000
+proprio qui nella regione gialla che è per quanto aumenta il numero di elementi.
+
+03:38.000 --> 03:40.250
+Vedi che è solo una linea retta.
+
+03:40.370 --> 03:47.910
+Il numero di operazioni aumenta dello stesso importo perché tieni questo in mente big-O non misura le cose
+
+03:47.910 --> 03:49.170
+in secondi.
+
+03:49.260 --> 03:53.980
+Invece ci stiamo concentrando su quanto velocemente cresce il nostro runtime.
+
+03:54.150 --> 04:00.680
+Lo facciamo semplicemente usando la dimensione dell'input che chiamiamo o qualsiasi altra cosa vogliamo veramente.
+
+04:00.930 --> 04:06.820
+E rispetto al numero di operazioni che aumentano è ciò che significa scalabilità.
+
+04:06.870 --> 04:11.270
+Man mano che le cose diventano sempre più grandi, scala.
+
+04:11.390 --> 04:16.330
+Quindi la funzione di trovare Nimo è o di e tempo lineare.
+
+04:16.500 --> 04:19.190
+E ora il modo di pensarci è questo.
+
+04:19.620 --> 04:26.160
+Se avessimo un algoritmo di compressione, diciamo che questa funzione è questa piccola compressione e l'input
+
+04:26.250 --> 04:31.640
+è questa piccola scatola qual è la grande notazione di questa funzione.
+
+04:31.860 --> 04:35.580
+Bene, se avessimo un elemento, comprimeremo solo
+
+04:38.620 --> 04:39.960
+un elemento.
+
+04:40.090 --> 04:47.430
+Se avessimo di nuovo più elementi, dobbiamo comunque eseguire ogni scatola attraverso l'algoritmo di
+
+04:47.430 --> 04:50.400
+compressione per comprimere la scatola.
+
+04:50.450 --> 04:58.610
+Se guardiamo la funzione per le caselle di compressione mentre usiamo la E. S. e la sintassi ESX qui, ma stiamo
+
+04:58.610 --> 05:04.130
+essenzialmente eseguendo il looping di ciascuna casella e nell'altro caso stiamo semplicemente cancellando la registrazione.
+
+05:04.280 --> 05:11.960
+Ma qui puoi vedere che tutto ciò che stiamo facendo mentre l'input aumenta le caselle il numero di caselle
+
+05:11.960 --> 05:18.100
+aumenta il numero di operazioni che aumentano e questo è il tempo lineare O-N.
+
+05:19.460 --> 05:26.270
+Congratulazioni, hai appena appreso la tua prima notazione O grande e probabilmente questa è la più comune, ma ce
+
+05:26.270 --> 05:28.090
+ne sono alcune altre.
+
+05:28.220 --> 05:35.610
+Quindi quale altra notazione di Big-O abbiamo altro rispetto al tempo lineare per cui dovrete continuare a
+
+05:35.610 --> 05:36.460
+guardare.
+
+05:36.510 --> 05:38.360
+Vedrò nel prossimo video Bebai.

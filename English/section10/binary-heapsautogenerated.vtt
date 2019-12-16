@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.520 --> 00:01.870
+Welcome back.
+
+00:01.870 --> 00:07.720
+We've talked about binary trees binary search trees and then we learned about how to balance those trees
+
+00:08.020 --> 00:16.750
+and some of the time complexities involved with a BSD and I want to talk to you about two other common
+
+00:16.750 --> 00:18.540
+type of Treece.
+
+00:18.610 --> 00:24.560
+One is a heap and the other one is a tri or tree in this video.
+
+00:24.640 --> 00:27.600
+Let's get talking about sheep.
+
+00:27.760 --> 00:34.060
+Now when it comes to a heap we're most likely going to talk about binary heaps just like we had with
+
+00:34.240 --> 00:35.390
+binary trees.
+
+00:35.410 --> 00:41.070
+That means there's only going to be two children to a note.
+
+00:41.130 --> 00:46.230
+Now why are these useful and how are they different from binary trees.
+
+00:46.230 --> 00:47.130
+Let's go have a look.
+
+00:48.570 --> 00:49.810
+A binary tree.
+
+00:50.220 --> 00:52.430
+Every child belongs to a parent.
+
+00:52.440 --> 00:56.790
+Note that has a greater priority or value.
+
+00:56.790 --> 01:05.240
+If you look over here every child that is seventy two and thirty three is lower than one in one seventy
+
+01:05.280 --> 01:13.590
+two is higher than two and forty five and thirty three is higher than five and one this is actually
+
+01:13.590 --> 01:16.420
+called a max heap.
+
+01:16.440 --> 01:23.630
+There's also something called a min heap which is the exact opposite where the root node is the smallest.
+
+01:23.640 --> 01:25.680
+Now this value can be anything you want.
+
+01:25.680 --> 01:27.720
+It can be a person's name.
+
+01:27.720 --> 01:29.270
+It can be a number.
+
+01:29.340 --> 01:31.960
+It can really be anything because it's a note.
+
+01:32.240 --> 01:40.980
+But as you can see all we're dealing with is that in a binary heap every node on the top level has a
+
+01:40.980 --> 01:49.920
+greater value than every node on the next level down and a heap can be used in any algorithm where ordering
+
+01:49.920 --> 01:51.180
+is important.
+
+01:51.180 --> 01:57.630
+And as we're going to discuss it's commonly used to when it comes to priority queues.
+
+01:57.780 --> 02:04.770
+Now with the race we had random access it allowed us to randomly access any element within them using
+
+02:04.770 --> 02:07.770
+an index in a linked list.
+
+02:07.770 --> 02:15.360
+We can change things dynamically unlike an array but finding something within them is all of and linear
+
+02:15.360 --> 02:20.930
+time because we had to go through the link list here a little bit different.
+
+02:20.970 --> 02:28.590
+You can't do all of one random access like we did with arrays are hash tables as we know about trees
+
+02:28.600 --> 02:34.930
+we have to do some sort of traversals now compared to a binary search tree we see that.
+
+02:35.370 --> 02:38.420
+Well look up is O.
+
+02:38.580 --> 02:45.720
+And it's not all of log and because it's less ordered than a binary search tree right.
+
+02:45.930 --> 02:51.330
+A binary search tree actually had meaning between left and right at the left was always less than the
+
+02:51.330 --> 02:53.300
+right in a binary heap.
+
+02:53.370 --> 02:54.590
+That doesn't matter.
+
+02:54.600 --> 02:59.230
+Left and right can be any value as long as it's less than the top value.
+
+02:59.700 --> 03:06.150
+So if we're looking for let's say one we have to check the parent node then we have to check because
+
+03:06.260 --> 03:09.580
+one on one or because one is less than 1 to 1.
+
+03:09.630 --> 03:12.450
+We have to check both nodes underneath it.
+
+03:12.450 --> 03:19.050
+And then because one is less than 72 and 33 we have to once again check every single note and looking
+
+03:19.050 --> 03:28.560
+for 1 becomes 0 of log and so pretty much turned into searching through a linked list or iterating through
+
+03:28.590 --> 03:30.100
+an array.
+
+03:30.110 --> 03:37.870
+So why would we ever want to use a binary heap Well it turns out that binary heaps are really really
+
+03:37.870 --> 03:40.890
+great at doing comparative operations.
+
+03:41.140 --> 03:49.810
+Just like saying I want people that have a value over 33 because in that case we can just grab these
+
+03:49.810 --> 03:53.970
+items quite easily instead of going all the way down to the notes.
+
+03:57.520 --> 04:03.590
+He actually used a lot in data storage priority queues sorting algorithms.
+
+04:03.690 --> 04:10.090
+So let's have a look at how a binary heap is implemented visually.
+
+04:10.150 --> 04:13.150
+We have a binary heap here using visual go.
+
+04:13.360 --> 04:20.250
+And if we wanted to add let's say insert 26 we hit go all right.
+
+04:20.250 --> 04:21.890
+That was really fast.
+
+04:22.290 --> 04:27.320
+But what if we wanted to insert let's say 51
+
+04:30.230 --> 04:34.600
+financer 51.
+
+04:34.830 --> 04:43.170
+I had to do a bit of a switch to see heaps add value on the tree in order from left to right and then
+
+04:43.230 --> 04:44.740
+bubbles up.
+
+04:45.030 --> 04:50.780
+If it's not in the same order or the priority order that is once kind of like we did here.
+
+04:50.820 --> 04:56.780
+So if I add let's say 70 or you know what.
+
+04:56.850 --> 04:58.910
+Let's add a hundred.
+
+04:58.920 --> 05:00.130
+What do you think will happen.
+
+05:01.280 --> 05:07.540
+Well if I hit go you'll see I add a hundred and then it bubbles up.
+
+05:07.560 --> 05:13.170
+So as you can see inserts although it looks fast can still take log and
+
+05:16.680 --> 05:19.460
+and this is the same case with deletes as well.
+
+05:19.500 --> 05:20.690
+It's all of log.
+
+05:20.780 --> 05:27.900
+And now in order to truly understand why we need something like a binary heap why they're so useful.
+
+05:27.900 --> 05:30.320
+How they're different from binary search tree.
+
+05:30.570 --> 05:33.140
+We need to talk about priority queues.
+
+05:33.360 --> 05:35.220
+So let's talk about priority queues.

@@ -1,0 +1,76 @@
+WEBVTT
+
+00:01.000 --> 00:09.460
+Selamat datang kembali di video sebelumnya kami berbicara tentang bagaimana Noad baru di sini akan diulangi dua kali di
+
+00:09.480 --> 00:11.340
+tambahkan dan disiapkan.
+
+00:11.560 --> 00:18.960
+Dan saat kita membuat lebih banyak metode pada daftar tertaut kita, kita harus terus mengatakan nilai panggilan nilai simpul
+
+00:18.960 --> 00:20.110
+baru selanjutnya.
+
+00:20.130 --> 00:24.920
+Tidak dan biasanya kami ingin menjaga semuanya tetap kering.
+
+00:25.280 --> 00:27.530
+Itu jangan ulangi diri Anda dalam kode.
+
+00:28.530 --> 00:36.780
+Dan banyak implementasi dari daftar tertaut Anda akan melihat sesuatu seperti ini di mana simpul baru sebenarnya adalah
+
+00:36.780 --> 00:38.170
+kelas nother.
+
+00:38.370 --> 00:45.100
+Sebagai contoh saya dapat membuat kelas baru di sini dan ini adalah cara pemrograman berorientasi objek biasanya bekerja.
+
+00:45.880 --> 00:51.610
+Kami memiliki kelas yang berinteraksi dengan kelas lain untuk membuat program kami.
+
+00:51.610 --> 00:57.150
+Jadi, Anda akan melihat banyak implementasi daftar tertaut yang memiliki kelas Node.
+
+00:57.430 --> 01:05.800
+Dan catatan ini akan memiliki konstruktor yang mengambil nilai dan nilai ini akan memiliki
+
+01:06.850 --> 01:16.670
+nilai darte ini sama dengan nilai itu akan memiliki titik ini selanjutnya sama dengan tidak hanya begitu
+
+01:19.990 --> 01:20.750
+saja.
+
+01:22.370 --> 01:32.380
+Jadi seperti itu alih-alih kita mengatakan node baru yang konstan dan membuat node baru ini setiap
+
+01:32.380 --> 01:45.760
+kali saya bisa mengatakan setiap kali saya ingin membuat node baru kita bisa mengatakan lat atau Konst node baru sama dengan node
+
+01:46.150 --> 01:49.360
+baru dan kemudian nilai.
+
+01:49.430 --> 02:02.040
+Jadi setiap kali kita memiliki simpul baru, kita hanya instantiate apa yang kita sebut buat dan jalankan kelas simpul baru ini
+
+02:02.670 --> 02:09.520
+yang membuat simpul untuk kita dengan properti nilai dan properti berikutnya.
+
+02:09.550 --> 02:17.650
+Jadi, Anda mungkin lebih suka menggunakan sintaks ini tetapi karena saya menemukan ini bisa sedikit membingungkan terutama
+
+02:17.650 --> 02:24.010
+jika Anda sekarang terbiasa dengan kelas dan ingin menjaga semuanya tetap seperti semula.
+
+02:24.220 --> 02:32.000
+Yah saya pikir itu lebih mudah dibaca dan seperti yang Anda lihat itu cukup mudah diimplementasikan jika Anda
+
+02:32.030 --> 02:34.200
+ingin melakukannya sendiri OK
+
+02:34.460 --> 02:36.010
+Segue cepat.
+
+02:36.260 --> 02:39.750
+Mari kita kembali menyelesaikan daftar tertaut kami di video berikutnya.

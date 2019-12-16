@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.010 --> 00:08.240
+Come back in the previous video we talked about a special characteristic or properties of binary trees.
+
+00:09.040 --> 00:15.190
+And because of the way binary trees are structured there is a certain way for us to calculate the number
+
+00:15.190 --> 00:20.540
+of notes that they have for example on Level 0 of a binary tree.
+
+00:20.620 --> 00:26.530
+That is the very top level where we only have one root node we can calculate how many note there are
+
+00:26.530 --> 00:30.940
+by doing two to the power of the level which is zero.
+
+00:30.940 --> 00:34.350
+So if I do two to the power of zero it's going to equal one.
+
+00:34.390 --> 00:37.070
+That is we have one note.
+
+00:37.220 --> 00:41.880
+If we go our level down and say what about Level 1 how many levels do we have.
+
+00:42.050 --> 00:48.700
+Well we have two to the power of one which equals two.
+
+00:49.490 --> 00:50.330
+All right let's keep going.
+
+00:50.330 --> 00:51.920
+What about level 2.
+
+00:51.950 --> 00:54.670
+How many nodes in total do we have on that level.
+
+00:54.800 --> 00:59.910
+Well we have two to the power of two which is equal to four.
+
+01:00.380 --> 01:03.350
+And then one last level of say Level Three.
+
+01:03.410 --> 01:09.840
+How many nodes are we going to have in level three in a perfectly balanced binary tree.
+
+01:10.070 --> 01:15.990
+Well two to the power of three is going to equal eight Oh boy.
+
+01:16.360 --> 01:20.120
+We just do some math here and I promised that this course is going to be the mathy.
+
+01:20.140 --> 01:22.110
+But bear with me here.
+
+01:22.180 --> 01:25.660
+I want to explain to you what old log and means.
+
+01:26.910 --> 01:33.180
+Knowing what we just did now and knowing that these are the total number of nodes if we imagine that
+
+01:33.480 --> 01:39.960
+this data was in an array that means that we have eight places that we need to iterate through eight
+
+01:40.530 --> 01:48.380
+nodes that we need to check perhaps to search for something well based on this formula here that means
+
+01:48.380 --> 02:00.630
+that we can't find out the number of nodes in a tree by doing two to the power of H or the height that
+
+02:00.630 --> 02:09.000
+is the level if we know how many levels are binary tree is we can find out how many total nodes there
+
+02:09.000 --> 02:15.550
+are two to the power of H minus one.
+
+02:15.560 --> 02:18.160
+Now why this minus one.
+
+02:18.170 --> 02:26.660
+Well if we go back to our diagram this binary tree we have one two three four five six seven.
+
+02:26.900 --> 02:33.440
+We have seven total nodes and the tree is one to three.
+
+02:33.740 --> 02:38.080
+The height of the tree while it's three levels deep.
+
+02:38.200 --> 02:43.780
+So two to the power of three minus one is seven nodes.
+
+02:43.780 --> 02:51.940
+Now if we actually simplify this we can just simply say that the log of nodes is going to equal the
+
+02:52.240 --> 02:54.840
+height or the steps.
+
+02:55.120 --> 03:04.490
+And I use log here just think your wandering log simply means that log 100 is equal to two because 10
+
+03:05.210 --> 03:09.150
+to the power of two equals 100.
+
+03:11.380 --> 03:22.000
+So all I did was using this I simplified and said that log notes is equal to the height and we've dropped
+
+03:22.330 --> 03:31.110
+negative one here because it's in significant but log nodes is the number of steps or height.
+
+03:31.140 --> 03:35.910
+And let's change just two steps that we would use in a treat.
+
+03:35.920 --> 03:45.250
+Let me show you again in our diagram log and simply means that based on the height the maximum number
+
+03:45.250 --> 03:46.780
+of decisions.
+
+03:46.870 --> 03:52.600
+Let's say we're looking for a specific node that we're going to take is going to be log.
+
+03:52.600 --> 03:55.890
+And that means is this the node we're looking for.
+
+03:55.900 --> 03:56.390
+No.
+
+03:56.410 --> 04:02.520
+Then we either go left or right unless we go left and say Is this the no that we're looking for.
+
+04:02.740 --> 04:05.400
+And that's our second step.
+
+04:05.470 --> 04:06.590
+If the answer is No.
+
+04:06.590 --> 04:10.910
+Them either go left or right and we say is this a no we're looking for.
+
+04:11.050 --> 04:11.540
+Yes.
+
+04:11.830 --> 04:20.020
+So we have maximum three steps year instead of if you want one two three four five six seven steps.
+
+04:20.140 --> 04:23.590
+You see that there's some sort of efficiency here.
+
+04:23.740 --> 04:29.470
+And coming up we're going to learn about binary search trees where we're able to minimize those steps
+
+04:29.480 --> 04:32.860
+instead of visiting every single note.
+
+04:33.250 --> 04:42.780
+So when you see the notation of oh Lague and don't get started all that saying is that the choice of
+
+04:42.780 --> 04:50.400
+the next element on which to perform some sort of action is one of several possibilities and only one
+
+04:50.520 --> 04:52.110
+needs to be chosen.
+
+04:52.140 --> 05:00.020
+We don't have to check both in a good way to think about log and is when you're looking through a phone
+
+05:00.020 --> 05:00.680
+book.
+
+05:01.080 --> 05:05.490
+You don't actually check every single person in a phonebook do you.
+
+05:05.490 --> 05:13.080
+Instead you can simply do what's called divide and conquer by looking based on where their names alphabetically
+
+05:13.490 --> 05:14.140
+begin.
+
+05:14.400 --> 05:20.550
+You would open up the book to where you think the letter will start with the name will start with and
+
+05:20.550 --> 05:25.170
+then keep dividing and conquering until you get to that person.
+
+05:25.280 --> 05:32.030
+You only need to explore a subset of each section before you eventually find someone's phone number.
+
+05:33.170 --> 05:34.560
+So just think of that.
+
+05:34.850 --> 05:38.350
+Oh Lagann is just like looking through a phone book.
+
+05:39.680 --> 05:45.880
+And the reason that I just talked about all Lagann in such detail is because it's an important concept.
+
+05:45.890 --> 05:53.420
+It's really really fast as you can see here again is this like green good area.
+
+05:53.420 --> 06:00.780
+That's even better than oh then linear time because we don't need to check every single element.
+
+06:01.070 --> 06:05.780
+And in the next video we're going to talk about the most common tree that you're going to see in a lot
+
+06:05.780 --> 06:09.830
+of places called binary search tree.
+
+06:09.890 --> 06:16.520
+And as the name suggests it allows us to search really efficiently and just by looking at this graph
+
+06:16.910 --> 06:24.290
+you might be able to think about how a place like Google and Google search might find this extremely
+
+06:24.380 --> 06:25.130
+useful.
+
+06:25.130 --> 06:25.800
+Right.
+
+06:25.910 --> 06:33.000
+When we search through Google they have a ton of Web sites a ton of nodes to search through.
+
+06:33.110 --> 06:42.200
+How are they able to give us an answer to our searches so fast if they used all of Van time complexity
+
+06:42.620 --> 06:46.890
+it's going to take a lot of time and it's going to be really expensive for them.
+
+06:46.940 --> 06:54.170
+So instead they use a tree structure or tree data structure so that our searches can be a lot faster
+
+06:54.350 --> 06:58.420
+with something like oh log in I'll see in the next video.

@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.180 --> 00:07.600
+Quando un programma viene eseguito ha due modi per ricordare le cose.
+
+00:07.600 --> 00:18.020
+L'heap e lo stack dell'heap sono di solito in cui vengono archiviate le variabili a cui assegniamo i valori e lo
+
+00:18.020 --> 00:24.790
+stack di solito è dove teniamo traccia delle nostre chiamate di funzione.
+
+00:24.840 --> 00:32.600
+A volte vogliamo ottimizzare per utilizzare meno memoria invece di usare meno tempo a parlare di memoria o
+
+00:32.630 --> 00:34.220
+complessità dello spazio.
+
+00:34.340 --> 00:37.540
+È molto simile a parlare del costo del tempo.
+
+00:37.610 --> 00:44.570
+Osserviamo semplicemente la dimensione totale relativa alla dimensione dell'input e vediamo quante nuove variabili
+
+00:44.570 --> 00:47.150
+o nuova memoria stiamo allocando.
+
+00:47.360 --> 00:49.740
+Quanta memoria viene utilizzata.
+
+00:49.790 --> 00:51.850
+Diamo un'occhiata a un esempio.
+
+00:52.190 --> 00:58.640
+Fino a questo punto abbiamo parlato della complessità del tempo e di come se vogliamo comprimere diciamo alcune
+
+00:59.210 --> 01:03.640
+scatole abbiamo appena parlato di quanto velocemente e quante operazioni ci vorrebbe.
+
+01:03.950 --> 01:12.800
+Ma nella vita reale c'è questo altro fattore di memoria e abbiamo questa piccola scatola rosa di quanto questa funzione
+
+01:12.980 --> 01:17.410
+possa richiedere quanto input è in grado di fare.
+
+01:17.510 --> 01:25.790
+Ad esempio, se avessimo ottocento scatole che dobbiamo creare per eseguire correttamente questa funzione, abbiamo
+
+01:25.790 --> 01:29.320
+una capacità limitata e potrebbe traboccare.
+
+01:29.480 --> 01:35.660
+Tra l'altro, cose come Stack Overflow sono qualcosa di cui parleremo e come è un problema
+
+01:35.660 --> 01:40.300
+quando si tratta di memoria, qualcosa che copriremo quando entreremo nella ricorsione.
+
+01:41.310 --> 01:45.300
+Cosa causa questa complessità spaziale.
+
+01:45.300 --> 01:50.060
+Fortunatamente per te l'ho aggiunto al nostro chichi.
+
+01:50.250 --> 01:59.250
+Ciò che causa complessità nello spazio aggiungendo variabili che aggiungono strutture di dati come le tabelle hash
+
+01:59.250 --> 02:06.290
+degli array, di nuovo le cose parleranno di chiamate di funzione e allocazioni.
+
+02:06.460 --> 02:08.280
+Non hai bisogno di questo PIERI.
+
+02:08.500 --> 02:14.290
+Ma in realtà codifichiamo qualcosa e ti mostriamo un esempio nel prossimo video.
+
+02:14.320 --> 02:21.010
+Esamineremo alcuni esercizi di complessità spaziale e scopriremo come possiamo dare la notazione go
+
+02:21.010 --> 02:21.520
+all'argomento.

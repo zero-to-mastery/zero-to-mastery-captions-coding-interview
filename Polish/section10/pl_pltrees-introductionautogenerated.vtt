@@ -1,0 +1,196 @@
+WEBVTT
+
+00:01.000 --> 00:05.440
+Witamy ponownie nadszedł czas na poznanie struktury danych.
+
+00:05.470 --> 00:12.520
+Jest to bardzo ważne i ekscytujące, ponieważ wprowadzi wiele nowych tematów, szczególnie wtedy,
+
+00:12.520 --> 00:14.990
+gdy przejdziemy do algorytmów.
+
+00:15.130 --> 00:19.610
+Nazywane są drzewami i nie nie nie, nie tymi drzewami.
+
+00:19.690 --> 00:30.520
+Bardziej podobnie Drzewa są strukturą danych, które mają coś, co nazywamy strukturą hierarchiczną, w przeciwieństwie do
+
+00:30.520 --> 00:35.290
+podobnych list lub tablic połączonych liniowo.
+
+00:35.620 --> 00:39.640
+Drzewa mogą mieć zero lub więcej węzłów potomnych.
+
+00:39.640 --> 00:49.060
+Widzisz drzewo zwykle zaczyna się od pojedynczego węzła głównego lub węzła nadrzędnego, a każde potomstwo drzewa zstępuje z
+
+00:49.090 --> 00:50.790
+tego węzła głównego.
+
+00:51.100 --> 00:53.890
+To naprawdę jest jak odwrócone drzewo.
+
+00:54.910 --> 01:02.120
+I każde dziecko węzła pochodzi od tylko jednego rodzica.
+
+01:02.250 --> 01:09.080
+Masz więc relację rodzic-dziecko, która jest potrzebna kierunkowa. To znaczy, że zniknęła w jedną
+
+01:10.340 --> 01:16.430
+stronę i masz również nuty liści, które są końcem struktury danych drzewa.
+
+01:16.490 --> 01:24.820
+W końcu w drzewie możesz mieć takie elementy jak podrasy, takie jak obszar tutaj zakreślony na czerwono trzy szóstki
+
+01:24.830 --> 01:31.530
+siedem, tworzą podtree i struktury danych drzewa są bardzo ważne, ponieważ pracujesz z nimi każdego
+
+01:31.540 --> 01:32.040
+dnia.
+
+01:34.430 --> 01:39.860
+Jeśli pójdziemy na Twitter. com lub jakąkolwiek inną stronę internetową, a
+
+01:44.090 --> 01:52.030
+my otwieramy narzędzia programistyczne, tak jak to zrobiłem tutaj, jeśli przejdę do zakładki elementów, które widzisz, że nasze strony internetowe są tworzone przez
+
+01:52.030 --> 01:55.220
+coś, co nazywa się akademem lub modelem obiektu dokumentu.
+
+01:55.330 --> 01:58.450
+A to jest struktura danych drzewa.
+
+01:58.450 --> 02:04.390
+Nie wygląda jak drzewo, które właśnie wam pokazałem, ale przeglądarka po prostu
+
+02:04.390 --> 02:11.380
+sprawia, że wygląda ładnie, ale pod nim mieliśmy kogoś, kto jest dzieckiem znaczka Schimmela wewnątrz ciała.
+
+02:11.380 --> 02:18.820
+Mamy wszystkie te dzieci i wewnątrz tych dzieci mamy więcej dzieci i więcej
+
+02:18.820 --> 02:24.520
+dzieci i wszystkie one są ze sobą powiązane hierarchicznie.
+
+02:24.570 --> 02:28.540
+Jestem pewien, że wszyscy próbowali grać w szachy online, a nie komputer.
+
+02:28.650 --> 02:35.850
+Cóż, komputer w grze w szachy przynajmniej w dzień poprzedzający naukę maszynową wykorzystał strukturę
+
+02:36.880 --> 02:39.710
+danych drzewa do podjęcia decyzji.
+
+02:40.000 --> 02:47.230
+Czy powinienem wykonać ten ruch, czy powinienem wykonać ten ruch, czy też powinienem wykonać ten ruch i
+
+02:47.620 --> 02:51.550
+wybrać ruchy, na podstawie których ruch miałby lepszy wynik.
+
+02:51.550 --> 02:57.970
+Komentarze na Facebooku to na przykład struktura danych drzewa, w której mogę komentować zdjęcie znajomego, a
+
+02:57.970 --> 03:00.760
+ich znajomy może komentować mój komentarz.
+
+03:00.790 --> 03:04.930
+Drzewa genealogiczne mogą być reprezentowane w strukturze danych drzewa.
+
+03:04.930 --> 03:14.730
+A dla nas, inżynierów i programistów, być może słyszeliście o abstrakcyjnym drzewie składni, jeśli w drzewie Google jest
+
+03:14.730 --> 03:22.090
+abstrakcyjne drzewo składniowe, to tak wygląda program i zazwyczaj uruchamiany jest kod.
+
+03:22.120 --> 03:30.210
+Zwykle piszemy kod, a następnie jest on dzielony przez komputer na to abstrakcyjne drzewo składniowe,
+
+03:30.210 --> 03:33.450
+aby mógł zrozumieć, co zapisaliśmy.
+
+03:33.600 --> 03:38.630
+A to, jak widać, to wykorzystanie struktury danych drzewa.
+
+03:38.680 --> 03:44.260
+Piękno drzew polega na tym, że używamy tej samej zasady, co na listach połączonych.
+
+03:44.260 --> 03:51.550
+To znaczy, że mamy notatki i te notatki mogą zawierać wszelkiego rodzaju informacje, które chcemy, abyśmy mogli mieć informacje o użytkowniku, które możemy
+
+03:51.550 --> 03:55.170
+mieć po prostu numery, jak mamy tutaj wszystko, co chcemy.
+
+03:55.180 --> 03:57.720
+Możemy zawrzeć w notatce.
+
+03:57.760 --> 04:04.160
+Teraz możesz myśleć, że ten rodzaj przypomina mi listę połączoną i masz rację.
+
+04:04.160 --> 04:14.920
+Lista linków jest technicznie typem drzewa, ale z jedną tylko ścieżką i liniową jest tylko jeden sposób przejścia od góry do dołu w
+
+04:14.920 --> 04:20.610
+porównaniu do tego, co widzieliśmy wcześniej w normalnym drzewie, takim jak ten.
+
+04:21.930 --> 04:25.500
+To, o czym należy pamiętać, może być inne niż połączona lista.
+
+04:25.560 --> 04:31.420
+Czy węzeł może wskazywać tylko na dziecko, ponieważ widać wszystkie strzałki wskazujące w dół.
+
+04:32.590 --> 04:40.060
+Zawsze jest jeden punkt wejściowy, który jest korzeniem, ale węzły naprawdę nie muszą odnosić się do swojego
+
+04:41.090 --> 04:47.740
+rodzica, tak jak w rzeczywistości istnieje wiele typów struktur danych drzew, które możemy mieć.
+
+04:48.040 --> 04:59.300
+A jeśli przejdziesz do Wikipedii i będziesz szukał wszystkich struktur danych drzewa, będzie cię onieśmielał.
+
+04:59.300 --> 05:00.180
+Na pewno.
+
+05:00.350 --> 05:07.580
+Bo spójrz, ile różnych rodzajów drzew mamy tak jak w prawdziwym życiu, jak mamy te wszystkie
+
+05:07.580 --> 05:08.860
+rodzaje drzew.
+
+05:08.900 --> 05:16.050
+Są różne rodzaje drzew, które możemy mieć dla konkretnego przypadku użycia, ale nie daj się przytłoczyć.
+
+05:16.050 --> 05:20.410
+I ten kurs omówimy główne, które się przyzwyczają.
+
+05:20.410 --> 05:25.550
+Powiedziałbym, że 90 procent czasu i te, które najprawdopodobniej napotkasz podczas wywiadu,
+
+05:25.550 --> 05:31.280
+ponieważ na koniec dnia, gdy zrozumiesz, jakie struktury danych drzewa, takie jak, jak
+
+05:31.280 --> 05:38.360
+to zrobić, być może wykorzystają pewne działania na to wtedy wszystkie inne drzewa, które widziałeś, są tylko
+
+05:38.360 --> 05:47.120
+drobnymi zmianami, dlaczego teraz wiemy, że chcę cię ostrzec w dniu, w którym wziąłem klasę na struktury danych w tej części,
+
+05:48.310 --> 05:56.140
+szczególnie drzewa, które naprawdę zaciągnęły się i nie zainteresowały mnie struktury danych, ponieważ jest tak wiele rzeczy, o
+
+05:56.200 --> 05:59.690
+których można mówić, gdy chodzi o drzewa.
+
+05:59.710 --> 06:06.400
+Zamierzam starać się, abyś był zaangażowany na miarę moich możliwości i starał się być efektywny poprzez tę
+
+06:06.400 --> 06:11.950
+sekcję i pokazać ważne aspekty, które musisz znać na rozmowę kwalifikacyjną i położyć
+
+06:12.790 --> 06:18.590
+fundament, by nie nauczyć cię każdego drzewa że jest to, co nie przyniesie korzyści.
+
+06:18.810 --> 06:22.270
+Mając to na uwadze, do zobaczenia w następnym wideo.
+
+06:22.380 --> 06:22.660
+Kok.

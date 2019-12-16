@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.330 --> 00:02.270
+Welcome back.
+
+00:02.620 --> 00:07.840
+Now that we have implemented our binary search tree I want to talk a little bit about balancing our
+
+00:07.840 --> 00:10.300
+tree usually in production.
+
+00:10.300 --> 00:13.570
+You want to have a balanced search tree.
+
+00:13.630 --> 00:17.000
+There are two types of trees that are very popular when it comes to this.
+
+00:17.110 --> 00:23.640
+Although we built our own binary search tree you'd most likely in production use something like a real
+
+00:23.650 --> 00:31.360
+tree or a red black tree that automatically rebalances itself so that we don't have those edge cases
+
+00:31.690 --> 00:36.400
+where our balanced tree turns into a linear unbalanced tree.
+
+00:36.400 --> 00:42.730
+Now these topics we don't need to code ourselves because they are a little bit complex and most of the
+
+00:42.730 --> 00:46.580
+time you're using some sort of a library that implements it.
+
+00:46.840 --> 00:49.280
+But I do want you to understand how it works.
+
+00:49.300 --> 00:56.560
+So I'll leave resources for you for both red black tree as well as Avi trees where if you click here
+
+00:56.620 --> 01:01.320
+you'll see that visual go also has to demonstrate for you how it works.
+
+01:01.330 --> 01:11.020
+If I want to insert let's say seventy seven into my avi Peltry nothing's different.
+
+01:11.020 --> 01:13.910
+We're adding 77 to the tree.
+
+01:15.160 --> 01:23.810
+But if I now add let's say 80 which will make our tree a little bit unbalanced if I hit go
+
+01:28.300 --> 01:36.520
+you'll see that I'm traversing down traversing down I add 80 and then all of a sudden oh it sound balanced
+
+01:36.790 --> 01:46.750
+it's going to go back and do a little bit of a switch or rotation to balance out the tree to make sure
+
+01:46.750 --> 01:57.030
+that the levels that we have in a tree are always bounce and then we have REPP black trees as well which
+
+01:57.420 --> 01:59.110
+does things a little bit differently.
+
+01:59.250 --> 02:05.820
+If let's say we inserted 9 here then let's say we insert 10
+
+02:08.570 --> 02:15.060
+and then finally let's insert 11.
+
+02:15.150 --> 02:16.000
+You'll notice that.
+
+02:16.030 --> 02:17.810
+Oh it's not balanced.
+
+02:17.850 --> 02:26.730
+We need to balance it out and once again automatically make sure that our tree does get balanced with
+
+02:26.730 --> 02:28.880
+something called red black tree.
+
+02:28.950 --> 02:33.780
+As you can see the nose are red and black here and that's something that we use to keep track of when
+
+02:33.780 --> 02:35.910
+we need to we.
+
+02:36.000 --> 02:39.220
+I'll leave resources for you if you want to learn more about them.
+
+02:39.240 --> 02:45.090
+Just keep in mind that these two are usually the most popular for balancing binary search trees and
+
+02:45.090 --> 02:47.590
+in interviews you won't have to implement them.
+
+02:47.640 --> 02:51.380
+You just need to be able to talk about them and why they're useful.
+
+02:51.420 --> 02:53.770
+Something that we should know by now.
+
+02:53.850 --> 02:55.340
+I'll see in the next one.
+
+02:55.500 --> 02:55.740
+Bob.

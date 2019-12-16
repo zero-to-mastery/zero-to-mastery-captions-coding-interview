@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.250 --> 00:02.190
+Selamat datang kembali.
+
+00:02.300 --> 00:08.600
+Kami memiliki visual go teman terbaik kami dan sekali lagi mereka memiliki diagram yang bagus untuk kami mainkan.
+
+00:09.600 --> 00:16.950
+Sekarang saya akan memberi Anda empat grafik yang berbeda dan Anda harus memberi tahu saya
+
+00:16.980 --> 00:25.490
+apa jenis grafik itu berdasarkan sementara kami telah belajar sejauh ini apakah itu klik sic berbobot pada diarahkan diarahkan.
+
+00:25.500 --> 00:27.030
+Jadi mari kita mulai dengan yang ini.
+
+00:27.090 --> 00:29.120
+Menurut Anda apa yang ini.
+
+00:29.370 --> 00:33.820
+Sebelum saya tunjukkan jawabannya.
+
+00:33.820 --> 00:38.180
+Baiklah ini adalah diarahkan.
+
+00:38.200 --> 00:41.110
+Tidak ada panah pada grafik berbobot.
+
+00:41.380 --> 00:46.800
+Dan Anda dapat melihat bahwa itu juga siklik karena Anda dapat memilih 0 1 2 dan kembali ke nol.
+
+00:47.820 --> 00:48.830
+Bagaimana dengan yang berikutnya.
+
+00:51.210 --> 00:52.970
+Jenis grafik apa ini.
+
+00:55.970 --> 01:04.070
+Nah ini adalah grafik tertimbang yang tidak diarahkan yang juga siklik.
+
+01:04.240 --> 01:07.190
+Jadi Anda dapat melihat bahwa kami memiliki bobot di tepinya di sini.
+
+01:07.240 --> 01:08.250
+Tidak ada panah.
+
+01:08.260 --> 01:09.110
+Kita bisa pergi ke mana saja.
+
+01:09.110 --> 01:13.630
+Kami menang bolak-balik dan kami juga bisa membuat siklus.
+
+01:13.690 --> 01:17.980
+Bagaimana dengan yang ini.
+
+01:18.000 --> 01:27.090
+Ini adalah grafik terarah tetapi berbobot dan ya bahkan enam dan tujuh adalah grafik.
+
+01:27.290 --> 01:34.100
+Tapi kita lihat di sini bahwa itu bukan siklus ASAC seperti karena tidak ada cara bagi saya untuk kembali katakanlah
+
+01:34.100 --> 01:35.320
+0 to 1.
+
+01:35.330 --> 01:37.420
+Saya bisa kembali ke nol.
+
+01:37.430 --> 01:38.590
+Baiklah saya kehilangan satu.
+
+01:38.660 --> 01:40.350
+Bagaimana dengan yang ini.
+
+01:41.210 --> 01:45.340
+Ini adalah grafik tertimbang yang diarahkan.
+
+01:45.380 --> 01:51.890
+Kami memiliki bobot yang memiliki arah dan ketika datang ke siklus Tidak ada siklus.
+
+01:51.890 --> 01:53.680
+Jadi ini adalah siklus.
+
+01:53.780 --> 01:54.170
+Baiklah.
+
+01:54.170 --> 01:58.900
+Tantangan terakhir apa jenis grafik ini.
+
+02:01.680 --> 02:02.730
+Siap untuk jawabannya.
+
+02:03.720 --> 02:07.720
+Ini adalah grafik asiklik langsung.
+
+02:07.800 --> 02:09.090
+Tidak ada siklus.
+
+02:09.090 --> 02:18.350
+Ini diarahkan dan ini adalah grafik dan grafik asiklik yang diarahkan ini cukup umum disebut Dagh.
+
+02:18.360 --> 02:27.330
+Dan sebenarnya proyek seperti Iowa yang merupakan proyek blogging yang cukup populer menggunakan ini dan menggunakan kata-kata mewah
+
+02:27.330 --> 02:29.940
+seperti grafik asiklik yang diarahkan.
+
+02:30.150 --> 02:33.320
+Tetapi pada akhirnya itu tidak mengesankan lagi benar.
+
+02:33.330 --> 02:38.510
+Kita tahu apa itu hanya grafik yang berjalan dalam satu arah.
+
+02:38.970 --> 02:42.440
+Saya pikir sudah waktunya bagi kita untuk belajar bagaimana membangun grafik kita sendiri.
+
+02:42.780 --> 02:43.980
+Saya akan melihat yang berikutnya.
+
+02:44.330 --> 02:44.610
+Namun oleh.

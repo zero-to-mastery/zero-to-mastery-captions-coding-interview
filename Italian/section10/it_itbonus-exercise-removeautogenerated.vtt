@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.700 --> 00:01.570
+Torneremo.
+
+00:01.790 --> 00:03.430
+Abbiamo un po 'di bonus.
+
+00:03.470 --> 00:04.920
+Esercizio.
+
+00:05.170 --> 00:12.100
+Ora puoi saltare questo esercizio perché è un po 'avanzato e molto probabilmente non lo incontrerai
+
+00:12.100 --> 00:13.420
+in un'intervista.
+
+00:13.540 --> 00:20.470
+Ma per coloro che sono curiosi è come implementare il metodo Remove qui.
+
+00:21.600 --> 00:28.430
+Se vogliamo rimuovere un oggetto da un albero, come lo faremo?
+
+00:28.620 --> 00:35.260
+Ora, se vuoi provare a implementarlo, voglio darti un'idea su come visualizzarli e
+
+00:35.260 --> 00:43.140
+vedere quali passi dobbiamo fare per tornare alla visuale, assicurati di spostare la velocità sul più lento.
+
+00:43.140 --> 00:50.720
+vedi cosa sta succedendo e inizi a rimuovere alcune note per vedere qual è la logica.
+
+00:50.730 --> 00:55.180
+E rimuovere le note è molto semplice.
+
+00:55.180 --> 01:02.100
+Se volessimo rimuoverne uno, ad esempio, è ciò che semplicemente attraversiamo e ne troviamo uno e lo rimuoviamo.
+
+01:02.650 --> 01:11.690
+Ma poi ci sono altri casi che diventano davvero complicati come quello che facciamo quando rimuoviamo 51 bene.
+
+01:11.860 --> 01:23.400
+Se clicco su Play qui e dico rimuovi 51 Bene vedrai che inizieremo il percorso per trovare 51
+
+01:23.400 --> 01:28.450
+e noteremo cosa succede quando troviamo 51.
+
+01:28.590 --> 01:37.760
+In realtà continuiamo a 55 e poi continuiamo a 54.
+
+01:37.970 --> 01:44.860
+E una volta da quando abbiamo diviso le cose e spostato 54 verso l'alto.
+
+01:45.170 --> 01:47.390
+E so che è davvero molto confuso.
+
+01:47.390 --> 01:50.690
+Potresti volerlo fare un paio di volte per vedere qual è la logica.
+
+01:51.020 --> 01:56.690
+Ma in sostanza quello che stiamo facendo è trovare dove vogliamo sostituire andando a destra e
+
+01:57.200 --> 02:01.130
+poi a sinistra e posizionando l'elemento a sinistra in alto.
+
+02:01.130 --> 02:03.650
+Come ho detto, questo sarà un
+
+02:06.930 --> 02:14.700
+po 'avanzato ma se vuoi sfidare te stesso usando l'animazione visiva, prova a capire come implementare il tuo
+
+02:14.940 --> 02:16.720
+metodo di rimozione.
+
+02:17.920 --> 02:24.200
+E poi il prossimo video ti mostrerò la mia soluzione e ripercorreremo i passi che prendiamo affinché funzioni.
+
+02:25.360 --> 02:26.330
+Vedrò nel prossimo.

@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.710 --> 00:08.280
+Walk them back one of the most common interview questions when it comes to cues and stacks is this one.
+
+00:08.530 --> 00:12.360
+Implement a cue using stacks.
+
+00:12.590 --> 00:19.080
+The Yep you can implement cues using stacks.
+
+00:19.260 --> 00:25.380
+And it's especially easy if you create a stack using a race.
+
+00:25.410 --> 00:34.170
+Now this question is on Leatt code which is really really nice because we're able to see the solutions
+
+00:35.720 --> 00:40.360
+explained as well as solutions in different languages.
+
+00:40.400 --> 00:50.850
+If you go to discuss and type in let's say javascript we get solutions that people have submitted DNC
+
+00:50.940 --> 00:54.750
+votes as well of the answer of how to do this.
+
+00:54.900 --> 00:59.140
+If you want to check Python because let's say you are writing in Python.
+
+00:59.160 --> 01:00.780
+Well they have that too.
+
+01:02.000 --> 01:05.360
+Any language you want you can find here.
+
+01:06.320 --> 01:09.900
+Now I have the answer for you as well.
+
+01:09.980 --> 01:17.330
+And in this video right around here and the available resources you'll see a REPL with my answer on
+
+01:17.330 --> 01:18.350
+it.
+
+01:18.350 --> 01:23.380
+But I want to challenge you and pretend you are in an interview to implement.
+
+01:23.390 --> 01:24.860
+Q Using stacks.
+
+01:24.950 --> 01:26.440
+How would you go about doing it.
+
+01:27.800 --> 01:34.560
+You can actually even coded on the lead code website if you want using whichever language you want.
+
+01:34.560 --> 01:41.810
+And just a heads up here if you are using javascript that they use the prototype way of adding methods
+
+01:42.510 --> 01:48.180
+but the class syntax that I showed you is the newer version.
+
+01:48.210 --> 01:49.310
+It's underneath the hood.
+
+01:49.320 --> 01:52.280
+It's the exact same thing as doing dot prototype.
+
+01:52.320 --> 01:55.820
+However it just looks cleaner using the class syntax.
+
+01:55.860 --> 01:59.300
+So that's why we did so good luck with that.
+
+01:59.310 --> 02:03.180
+Have fun and I'll link to the solution code for you.
+
+02:03.910 --> 02:04.500
+Right over here.

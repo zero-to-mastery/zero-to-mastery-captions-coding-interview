@@ -1,0 +1,64 @@
+WEBVTT
+
+00:02.800 --> 00:11.200
+Non si può parlare di ricorsione senza parlare della sequenza di Fibonacci. Qual è la sequenza del campo
+
+00:11.200 --> 00:12.220
+di Bonacci.
+
+00:12.220 --> 00:16.990
+Bene, questa è questa sequenza proprio qui il modello.
+
+00:16.990 --> 00:22.970
+Se noti che aggiungiamo sempre i primi due articoli è uguale a questo.
+
+00:22.990 --> 00:30.920
+Quindi zero più uno equivale a uno più uno uguale a uno più due equivale a tre due più tre.
+
+00:30.940 --> 00:31.710
+Chiama cinque.
+
+00:31.810 --> 00:34.770
+Così avanti e così avanti, ecc. E così via.
+
+00:34.810 --> 00:39.410
+Quindi i due numeri precedenti sono sempre uguali al numero corrente.
+
+00:39.820 --> 00:45.590
+Quindi ho un altro esercizio per te questo un po 'più duro del precedente.
+
+00:46.860 --> 00:57.660
+Dato un numero N che la funzione sta per ricevere restituisce il valore dell'indice della sequenza di Fibonacci.
+
+00:59.290 --> 01:10.710
+Quindi se dico che voglio che la fine sia uguale a me mi darà 0 1 2 che è il numero uno.
+
+01:10.870 --> 01:17.090
+Questa funzione restituirà 1 se dico Fibonacci numero 8.
+
+01:17.140 --> 01:23.040
+Otterrei 0 1 2 3 4 5 6 7 8.
+
+01:23.120 --> 01:25.670
+Avrei 21 anni.
+
+01:25.750 --> 01:31.550
+La funzione mi dirà quale numero è associato all'indice che gli ho dato.
+
+01:31.620 --> 01:40.990
+Ancora una volta ho l'approccio iterativo che usa solo semplici cicli e anche l'approccio
+
+01:41.050 --> 01:42.180
+ricorsivo.
+
+01:42.250 --> 01:46.330
+Ti sfido a provare entrambi e vedere se riesci a farlo.
+
+01:46.330 --> 01:54.340
+E un grande indizio qui è che l'approccio ricorsivo è in realtà più semplice dell'approccio iterativo.
+
+01:54.340 --> 01:57.990
+Quindi buona fortuna là fuori e ci vediamo nel video della soluzione.
+
+01:58.240 --> 01:58.540
+Buh-Bye.

@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.530 --> 00:06.630
+Este timpul să sărbătoriți pentru că tocmai ați terminat prima dvs. structură de date și ei vor deveni din ce
+
+00:06.630 --> 00:07.850
+în ce mai distractive.
+
+00:08.070 --> 00:14.510
+Dar vedeți aici că am învățat să finalizăm modelul nostru mental de structuri de date.
+
+00:14.670 --> 00:20.490
+Ți-am promis că până la sfârșitul acestui curs toată diagrama are sens și am terminat o mică
+
+00:20.520 --> 00:21.770
+parte din ea.
+
+00:21.870 --> 00:32.710
+Matricea a vorbit despre seturi statice și dinamice despre care am vorbit despre complexitatea mare O și despre modul în care arhiteurile dinamice
+
+00:32.710 --> 00:43.840
+pot avea uneori O și stilouri deoarece, uneori, trebuie să ne ducem sau să ne extindem memoria, am vorbit de asemenea despre modul în care
+
+00:44.560 --> 00:51.100
+șirurile și întrebările cu privire la șiruri pot fi tratate foarte asemănătoare cu întrebările
+
+00:51.100 --> 00:52.120
+din matrice.
+
+00:52.760 --> 00:58.760
+Unde tocmai le convertiți într-o matrice și apoi le alăturați înapoi și returnați un șir.
+
+00:58.800 --> 01:05.090
+Răspundeți la nevoie și există câteva alte puncte pentru matricele pe care le vom vorbi când
+
+01:05.210 --> 01:06.430
+intrăm în algoritmi.
+
+01:06.650 --> 01:14.930
+Dar, până acum, ar trebui să aruncați o privire la foaia de înșelătorie pentru bego și să înțelegeți de ce structura de date
+
+01:15.170 --> 01:17.700
+a matricei are aceste numere mari.
+
+01:18.110 --> 01:22.890
+Și înțelegeți când o matrice este un lucru bun de folosit.
+
+01:22.940 --> 01:28.310
+Un lucru pe care il vei observa atunci cand vine vorba de cursa mai ales atunci cand
+
+01:28.310 --> 01:37.130
+ajungem la algoritmi este ca ele sunt intr-adevar foarte bune pentru a avea date sortate atunci cand vine vorba de sortare arrays sunt minunate pentru ca sunt
+
+01:37.130 --> 01:40.820
+in memorie in ordine succesiva in functie de indicele lor.
+
+01:40.820 --> 01:45.740
+Acum, înainte de a merge pe diapozitiv, ați compus videoclipul.
+
+01:45.740 --> 01:49.940
+Gândiți-vă când doriți să utilizați o matrice atunci când o veți face.
+
+01:50.180 --> 01:54.410
+Pentru că în aproximativ cinci secunde vă voi arăta argumentele pro și contra.
+
+01:54.530 --> 02:00.850
+Așadar, opriți videoclipul și răspunsul când trebuie să utilizați o matrice bine.
+
+02:01.050 --> 02:02.250
+Aici este.
+
+02:02.250 --> 02:05.310
+Arrays sunt excelente pentru căutări rapide.
+
+02:05.400 --> 02:10.420
+Aceasta este doar accesarea informațiilor de unde știți la ce index doriți să vă uitați.
+
+02:10.740 --> 02:12.840
+Este foarte rapid ca împinge și pop.
+
+02:12.840 --> 02:18.770
+Deci, cred că lucrurile de la sfârșitul unei serii sau să iau lucrurile la sfârșitul tabloului.
+
+02:19.020 --> 02:24.810
+Și, bineînțeles, pentru că este ordonat să aibă ceva care este comandat și aproape unul de celălalt
+
+02:25.200 --> 02:27.330
+în memorie, este foarte rapid.
+
+02:27.460 --> 02:34.770
+Cu toate acestea, are inserții lentă și șterge deoarece trebuie să trecem la cursa ori de câte ori nu este
+
+02:34.770 --> 02:36.300
+la capătul matricei.
+
+02:36.420 --> 02:41.590
+Și apoi, în sfîrșit, dacă folosim matrice statice, e dimensiune fixă.
+
+02:41.610 --> 02:48.630
+Aceasta înseamnă că uneori trebuie să declarați memoria înainte de timp și cât de mare este o matrice pe care o doriți.
+
+02:48.630 --> 02:55.460
+Dar acest lucru poate fi evitat dacă folosim unele dintre limbile mai moderne care au matrice dinamice.
+
+02:55.530 --> 03:01.980
+De asemenea, tocmai mi-am dat seama că această față zâmbitoare seamănă cu o persoană nebună, dar aceasta trebuie să fie
+
+03:01.980 --> 03:02.380
+bună.
+
+03:02.400 --> 03:03.240
+Asta e bine.
+
+03:03.360 --> 03:05.330
+Această mică pictogramă înfricoșătoare.
+
+03:05.370 --> 03:06.510
+Asta e rău.
+
+03:07.110 --> 03:07.830
+O.K.
+
+03:08.290 --> 03:10.340
+Cred că am reușit acum.
+
+03:10.360 --> 03:14.590
+Vom reveni pentru a ne ridica, pentru că multe alte structuri de date
+
+03:14.590 --> 03:19.120
+pe care le vom vorbi mai târziu, precum cozile și stivele, sunt legate de rasă.
+
+03:19.300 --> 03:25.370
+Dar, pentru moment, vreau să intru în alte structuri de date, pentru că avem încă câteva care să treacă.
+
+03:25.430 --> 03:26.440
+Voi vedea în următorul.

@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.520 --> 00:01.870
+Selamat datang kembali.
+
+00:01.870 --> 00:07.720
+Kami telah berbicara tentang pohon biner pohon pencarian biner dan kemudian kami belajar tentang
+
+00:08.020 --> 00:16.750
+bagaimana menyeimbangkan pohon-pohon itu dan beberapa kompleksitas waktu yang terlibat dengan BSD dan saya ingin berbicara dengan Anda tentang dua jenis
+
+00:16.750 --> 00:18.540
+Treece umum lainnya.
+
+00:18.610 --> 00:24.560
+Satu adalah tumpukan dan yang lainnya adalah tri atau pohon di video ini.
+
+00:24.640 --> 00:27.600
+Mari kita bicara tentang domba.
+
+00:27.760 --> 00:34.060
+Sekarang ketika datang ke tumpukan kita kemungkinan besar akan berbicara tentang tumpukan biner seperti yang kita miliki
+
+00:34.240 --> 00:35.390
+dengan pohon biner.
+
+00:35.410 --> 00:41.070
+Itu berarti hanya akan ada dua anak untuk diperhatikan.
+
+00:41.130 --> 00:46.230
+Sekarang mengapa ini berguna dan bagaimana mereka berbeda dari pohon biner.
+
+00:46.230 --> 00:47.130
+Mari kita lihat.
+
+00:48.570 --> 00:49.810
+Pohon biner.
+
+00:50.220 --> 00:52.430
+Setiap anak milik orang tua.
+
+00:52.440 --> 00:56.790
+Catatan yang memiliki prioritas atau nilai lebih besar.
+
+00:56.790 --> 01:05.240
+Jika Anda melihat ke sini setiap anak yang tujuh puluh dua dan tiga puluh tiga lebih rendah dari satu dalam satu
+
+01:05.280 --> 01:13.590
+tujuh puluh dua lebih tinggi dari dua dan empat puluh lima dan tiga puluh tiga lebih tinggi dari lima dan
+
+01:13.590 --> 01:16.420
+satu ini sebenarnya disebut tumpukan maksimum.
+
+01:16.440 --> 01:23.630
+Ada juga sesuatu yang disebut min heap yang merupakan kebalikan dari simpul akar yang terkecil.
+
+01:23.640 --> 01:25.680
+Sekarang nilai ini bisa menjadi apa pun yang Anda inginkan.
+
+01:25.680 --> 01:27.720
+Itu bisa menjadi nama seseorang.
+
+01:27.720 --> 01:29.270
+Itu bisa berupa angka.
+
+01:29.340 --> 01:31.960
+Itu bisa benar-benar apa saja karena itu catatan.
+
+01:32.240 --> 01:40.980
+Tetapi seperti yang Anda lihat, yang kita hadapi adalah bahwa dalam tumpukan biner, setiap simpul di tingkat atas memiliki nilai yang
+
+01:40.980 --> 01:49.920
+lebih besar daripada setiap simpul di tingkat berikutnya ke bawah dan tumpukan dapat digunakan dalam algoritma apa pun di mana pemesanan
+
+01:49.920 --> 01:51.180
+menjadi penting.
+
+01:51.180 --> 01:57.630
+Dan seperti yang akan kita diskusikan, biasanya digunakan untuk soal antrian prioritas.
+
+01:57.780 --> 02:04.770
+Sekarang dengan perlombaan kami memiliki akses acak itu memungkinkan kami untuk mengakses secara acak elemen di
+
+02:04.770 --> 02:07.770
+dalamnya menggunakan indeks dalam daftar tertaut.
+
+02:07.770 --> 02:15.360
+Kita dapat mengubah hal-hal secara dinamis tidak seperti sebuah array tetapi menemukan sesuatu di dalamnya adalah semua dan
+
+02:15.360 --> 02:20.930
+waktu linear karena kita harus melalui daftar tautan di sini sedikit berbeda.
+
+02:20.970 --> 02:28.590
+Anda tidak dapat melakukan semua akses acak seperti yang kami lakukan dengan array adalah tabel hash seperti yang kita tahu tentang
+
+02:28.600 --> 02:34.930
+pohon yang harus kita lakukan semacam traversal sekarang dibandingkan dengan pohon pencarian biner yang kita lihat itu.
+
+02:35.370 --> 02:38.420
+Yah lihat ke atas adalah O.
+
+02:38.580 --> 02:45.720
+Dan tidak semua log dan karena kurang teratur daripada pohon pencarian biner yang tepat.
+
+02:45.930 --> 02:51.330
+Pohon pencarian biner sebenarnya memiliki makna antara kiri dan kanan di sebelah kiri selalu kurang
+
+02:51.330 --> 02:53.300
+dari kanan di tumpukan biner.
+
+02:53.370 --> 02:54.590
+Itu tidak masalah.
+
+02:54.600 --> 02:59.230
+Kiri dan kanan dapat berupa nilai apa pun asalkan kurang dari nilai teratas.
+
+02:59.700 --> 03:06.150
+Jadi jika kita mencari katakanlah kita harus memeriksa simpul induk maka kita harus memeriksa karena satu lawan satu
+
+03:06.260 --> 03:09.580
+atau karena satu kurang dari 1 banding 1.
+
+03:09.630 --> 03:12.450
+Kami harus memeriksa kedua node di bawahnya.
+
+03:12.450 --> 03:19.050
+Dan karena satu kurang dari 72 dan 33 kita harus sekali lagi memeriksa setiap
+
+03:19.050 --> 03:28.560
+not dan mencari 1 menjadi 0 log dan jadi cukup banyak berubah menjadi pencarian melalui daftar tertaut atau beralih
+
+03:28.590 --> 03:30.100
+melalui array.
+
+03:30.110 --> 03:37.870
+Jadi mengapa kita ingin menggunakan tumpukan biner? Ternyata tumpukan biner benar-benar hebat
+
+03:37.870 --> 03:40.890
+dalam melakukan operasi perbandingan.
+
+03:41.140 --> 03:49.810
+Sama seperti mengatakan saya ingin orang-orang yang memiliki nilai di atas 33 karena dalam hal itu kita bisa mengambil
+
+03:49.810 --> 03:53.970
+barang-barang ini dengan mudah alih-alih pergi ke catatan.
+
+03:57.520 --> 04:03.590
+Dia sebenarnya banyak menggunakan algoritma penyortiran prioritas penyortiran data penyimpanan.
+
+04:03.690 --> 04:10.090
+Jadi mari kita lihat bagaimana tumpukan biner diimplementasikan secara visual.
+
+04:10.150 --> 04:13.150
+Kami memiliki tumpukan biner di sini menggunakan go visual.
+
+04:13.360 --> 04:20.250
+Dan jika kita ingin menambahkan katakanlah masukkan 26 kita tekan baik-baik saja.
+
+04:20.250 --> 04:21.890
+Itu sangat cepat.
+
+04:22.290 --> 04:27.320
+Tetapi bagaimana jika kita ingin memasukkan
+
+04:30.230 --> 04:34.600
+katakanlah 51 financer 51.
+
+04:34.830 --> 04:43.170
+Saya harus melakukan sedikit pergantian untuk melihat tumpukan menambah nilai pada pohon secara berurutan dari kiri ke kanan
+
+04:43.230 --> 04:44.740
+dan kemudian muncul.
+
+04:45.030 --> 04:50.780
+Jika tidak dalam urutan yang sama atau urutan prioritas yang pernah seperti yang kami lakukan di sini.
+
+04:50.820 --> 04:56.780
+Jadi jika saya tambahkan katakanlah 70 atau Anda tahu apa.
+
+04:56.850 --> 04:58.910
+Mari kita tambahkan seratus.
+
+04:58.920 --> 05:00.130
+Apa yang kamu pikir akan terjadi.
+
+05:01.280 --> 05:07.540
+Nah jika saya tekan go, Anda akan melihat saya menambahkan seratus dan kemudian itu muncul.
+
+05:07.560 --> 05:13.170
+Jadi seperti yang Anda lihat sisipan meskipun terlihat cepat masih dapat mengambil log dan dan ini
+
+05:16.680 --> 05:19.460
+adalah kasus yang sama dengan menghapus juga.
+
+05:19.500 --> 05:20.690
+Ini semua log.
+
+05:20.780 --> 05:27.900
+Dan sekarang untuk benar-benar memahami mengapa kita membutuhkan sesuatu seperti tumpukan biner mengapa mereka sangat berguna.
+
+05:27.900 --> 05:30.320
+Bagaimana mereka berbeda dari pohon pencarian biner.
+
+05:30.570 --> 05:33.140
+Kita perlu berbicara tentang antrian prioritas.
+
+05:33.360 --> 05:35.220
+Jadi mari kita bicara tentang antrian prioritas.

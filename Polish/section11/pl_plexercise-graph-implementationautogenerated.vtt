@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.720 --> 00:01.600
+Witamy spowrotem.
+
+00:01.770 --> 00:08.110
+Czas stworzyć własny wykres i tutaj utworzyłem dla ciebie szablon.
+
+00:08.130 --> 00:14.220
+Możesz także tworzyć własne, jeśli chcesz, ale uwzględniłem tylko rzeczy, które pozwalają skupić się na najważniejszej
+
+00:14.220 --> 00:14.870
+części.
+
+00:15.270 --> 00:19.670
+Mamy klasę wykresów i kilka metod, które będziemy musieli dodać.
+
+00:19.740 --> 00:31.230
+Teraz zamierzamy odtworzyć wykres bezpośrednio na tym ukierunkowanym nieważonym wykresie, na przykład przy użyciu listy przyległości i
+
+00:31.470 --> 00:37.560
+dla listy przyległości, którą zamierzamy użyć tabeli mieszania.
+
+00:37.560 --> 00:40.380
+Więc jak zamierzamy to zrobić.
+
+00:40.410 --> 00:44.080
+Cóż, mam kilka rzeczy, które dla ciebie przygotowałem.
+
+00:44.890 --> 00:50.980
+Jednym z nich jest to, że w konstruktorze mamy po prostu liczbę nut, które będziemy
+
+00:50.980 --> 00:56.330
+musieli zwiększać, aby śledzić ile nut lub vertexów widzi Virts na wykresie.
+
+00:57.440 --> 01:03.260
+Ponadto utworzyłem dla ciebie sąsiednią listę, która jest obiektem.
+
+01:03.440 --> 01:10.220
+Kiedy będziesz wykonywać to ćwiczenie, zdasz sobie sprawę, dlaczego chcemy go użyć, powiedzmy, obiekt w porównaniu
+
+01:10.220 --> 01:17.600
+do tablicy, ponieważ jeśli zaczniemy usuwać elementy z wykresu lub umieszczać elementy na wykresie, który jest nieczynny,
+
+01:17.600 --> 01:20.000
+będzie nas wiele kosztował .
+
+01:20.000 --> 01:27.140
+Pamiętajcie, że tablice na przesuwaniu i przesuwaniu są drogie z obiektami, które możemy szybko
+
+01:27.140 --> 01:35.280
+znaleźć i zobaczyć ich połączenia, tak aby idealnie w tym przypadku, w którym mamy trzy lub popatrzmy
+
+01:35.280 --> 01:43.610
+na 0 w tym przypadku będzie zero, zostanie połączone z tablicą jego połączenia, które będą 1 i 2.
+
+01:43.740 --> 01:48.820
+Więc mam coś takiego.
+
+01:48.850 --> 01:55.900
+Twoim zadaniem jest dodać nową metodę o nazwie Virtex, która dodaje nowy węzeł lub wierzchołek.
+
+01:55.960 --> 02:02.920
+Nazewnictwo w tym miejscu się powtarza, a następnie dodaje krawędź, która dodaje połączenie między węzłem 1
+
+02:02.920 --> 02:04.490
+i nr 2.
+
+02:04.600 --> 02:11.380
+I pamiętaj, że jest to zgodne z dyrektywą, jeśli domyślam się, że jest to nieukierunkowany wykres.
+
+02:11.380 --> 02:16.460
+Więc oba nie. 1 i No. 2 punkty względem siebie i jeśli przewiniesz tutaj.
+
+02:16.570 --> 02:21.260
+Właściwie to utworzyłem wywołania funkcji, które zamierzamy wykonać.
+
+02:21.380 --> 02:28.240
+Stworzyliśmy wykres, a następnie tworzę zero przez całą drogę 6, tak jak to mamy tutaj
+
+02:28.240 --> 02:29.320
+na wykresie.
+
+02:29.320 --> 02:32.200
+A potem dodamy krawędzie.
+
+02:32.200 --> 02:39.280
+To jest połączenie między wszystkim, co jest połączone. 0 0 połączone z sześcioma jest połączone z pięcioma po prostu mówiąc,
+
+02:41.340 --> 02:47.520
+że nigdy się nie powtarzam, co oznacza, że nigdy nie mówię "dodaj trzy" w jednym, a następnie powiedz
+
+02:47.520 --> 02:49.540
+"dodaj krawędź 1" i "3".
+
+02:49.620 --> 02:53.570
+Mówię to tylko raz i to jest klucz.
+
+02:53.790 --> 02:59.940
+I kolejność nie ma znaczenia, czy zmieniam kolejność tych połączeń wokół mnie powinna
+
+03:00.120 --> 03:02.050
+dać mi ten wykres.
+
+03:02.090 --> 03:02.630
+W porządku.
+
+03:02.630 --> 03:08.630
+Wiem, że jesteś podekscytowany tym, że chcesz iść, ale ostatnia rzecz, a to jest opcjonalne, jeśli chcesz to zrobić samemu,
+
+03:08.630 --> 03:10.500
+możesz też zrobić sobie Codie.
+
+03:10.550 --> 03:14.540
+Ale to nie jest tak ważne dla tego filmu.
+
+03:14.900 --> 03:22.490
+Stworzyłem małą funkcję helpera o nazwie show connections i możesz przejrzeć tę funkcję,
+
+03:22.520 --> 03:24.230
+jeśli chcesz.
+
+03:24.250 --> 03:29.230
+To nie jest ważne dla rdzenia kursu, ale zrobiłem to, abyś
+
+03:29.500 --> 03:38.860
+mógł sprawdzić swoją pracę, ponieważ jeśli uruchomię to przy końcu mojego wykresu, pokażę połączenia, to wydrukuje odpowiedź w ten sposób
+
+03:40.830 --> 03:44.500
+i to pokaże wszystkie połączenia twoich wykresów.
+
+03:44.730 --> 03:52.740
+W ten sposób można sprawdzić, czy te połączenia, które są węzłem dla połączenia z 3 2 i 5
+
+03:52.890 --> 03:59.340
+notatką 4, są połączone z 3 2 i 5, tak jak tutaj mamy.
+
+03:59.340 --> 04:01.310
+W porządku, wystarczy mi.
+
+04:01.350 --> 04:05.010
+Powodzenia w tym ćwiczeniu, a do zobaczenia w wideo z rozwiązaniem.
+
+04:05.100 --> 04:05.370
+Malet.

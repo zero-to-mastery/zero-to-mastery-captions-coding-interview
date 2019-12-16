@@ -1,0 +1,100 @@
+WEBVTT
+
+00:01.500 --> 00:10.620
+Menurut pendapat saya, bagian ini adalah salah satu topik paling penting bagi pengembang atau insinyur perangkat lunak.
+
+00:10.620 --> 00:17.850
+Itu juga kebetulan menjadi bagian favorit saya, tidak peduli apa pun perusahaan tempat Anda bekerja atau bahkan jika Anda mengkode
+
+00:17.940 --> 00:24.360
+10 tahun dari sekarang, ini adalah konsep yang akan ada untuk waktu yang lama dan sesuatu yang
+
+00:24.360 --> 00:27.780
+benar-benar akan membuat Anda pengembang yang lebih baik.
+
+00:28.970 --> 00:35.480
+Big-O adalah sesuatu yang saya pelajari sekitar dua hingga tiga tahun dalam karier saya sebagai pengembang dan itu
+
+00:35.480 --> 00:36.500
+sangat penting.
+
+00:36.500 --> 00:42.560
+Itu telah membuat saya menjadi pengembang yang lebih baik, seorang insinyur yang lebih baik dan itu juga akan cocok untuk Anda.
+
+00:42.590 --> 00:52.100
+Perusahaan besar seperti Google Facebook, Alibaba Amazon, semua mengetahui hal ini, itulah sebabnya Anda tidak akan mendapatkan wawancara apa pun
+
+00:52.100 --> 00:57.620
+dari wawancara telepon apa pun dari wawancara teriakan mereka tanpa menemukan topik
+
+00:57.620 --> 00:58.400
+ini.
+
+00:59.230 --> 01:03.490
+Jadi kita akan belajar semua tentang topik yang sangat penting ini dan itulah sebabnya ini
+
+01:03.490 --> 01:04.960
+ada di awal kursus.
+
+01:04.960 --> 01:05.530
+Baiklah.
+
+01:05.620 --> 01:07.110
+Apakah saya cukup menarik perhatian Anda.
+
+01:07.970 --> 01:10.480
+Jadi apa yang kita bicarakan di sini.
+
+01:10.490 --> 01:17.480
+Ini disebut Big O dan istilah resmi adalah Big O analisis tanpa gejala.
+
+01:17.660 --> 01:22.150
+Jika Anda ingin terdengar sangat pintar dan mengesankan teman-teman Anda, Anda melihat pelapis apapun
+
+01:22.220 --> 01:24.610
+Waktu yang cukup diberikan dapat memecahkan masalah.
+
+01:24.980 --> 01:28.910
+Yang penting adalah seberapa baik masalah ini diselesaikan.
+
+01:29.330 --> 01:31.920
+Dan di sinilah big-O dapat membantu kita.
+
+01:31.970 --> 01:34.920
+Ini bisa memberi tahu kita seberapa baik masalah diselesaikan.
+
+01:34.970 --> 01:37.130
+Kita akan mencari tahu apa artinya itu.
+
+01:37.130 --> 01:43.580
+Pada bagian ini kita akan berbicara tentang big-O apa yang kita mendefinisikannya dan kemudian kita
+
+01:43.580 --> 01:52.900
+akan menggunakan big-O dan notasi yang berbeda untuk membedakan kode itu dari kode yang baik kode yang baik dari kode yang baik.
+
+01:53.110 --> 01:57.950
+Kita akan merasa nyaman dengan topik ini sehingga kita tidak akan terkejut ketika ini muncul
+
+01:57.950 --> 01:59.290
+dalam wawancara kita.
+
+01:59.450 --> 02:05.090
+Tetapi kami juga akan membangun fondasi besar ini yang penting untuk menjadi pengembang yang hebat.
+
+02:05.090 --> 02:10.160
+Alasan topik ini ada di awal kursus ini adalah Anda akan melihat
+
+02:10.160 --> 02:16.160
+notasi O-Besar ini muncul berulang kali saat kita membahas topik-topik seperti struktur data dan algoritma.
+
+02:16.160 --> 02:18.360
+Seperti yang saya katakan ini adalah bagian favorit saya.
+
+02:18.380 --> 02:21.170
+Jadi bersiaplah karena itu akan sangat menyenangkan.
+
+02:21.200 --> 02:22.910
+Sampai jumpa di video berikutnya.
+
+02:22.960 --> 02:23.150
+Bob

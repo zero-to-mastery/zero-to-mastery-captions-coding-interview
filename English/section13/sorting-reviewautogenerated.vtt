@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.660 --> 00:09.970
+Another section done and we covered sorting specifically sorting algorithm in this section most of the
+
+00:09.970 --> 00:15.350
+time when talking about sorting algorithms we're going to be talking about all of and log.
+
+00:15.370 --> 00:20.770
+And we learned that there is a ton of sorting algorithms and we covered the main ones.
+
+00:20.770 --> 00:22.240
+They get used more often.
+
+00:22.450 --> 00:28.120
+If you're really excited about the topic and you find this interesting then well good for you.
+
+00:28.150 --> 00:29.330
+You're one of few.
+
+00:29.410 --> 00:37.060
+I encourage you to search different sorting algorithms but to review quicksort you want to use when
+
+00:37.450 --> 00:43.720
+your average case performance matters more than the worst case performance because quicksort allows
+
+00:43.720 --> 00:46.280
+us to sort in O and log in.
+
+00:46.420 --> 00:51.490
+But in worst case an O oven squit merge sort.
+
+00:51.490 --> 00:59.690
+On the other hand is great because it's always O of and log and it's also stable which means that it
+
+00:59.690 --> 01:07.520
+always gives the same results in order if two items are the same although the space complexity is a
+
+01:07.520 --> 01:10.460
+little bit higher than quicksort.
+
+01:10.550 --> 01:12.980
+It's definitely a useful sort.
+
+01:13.030 --> 01:19.630
+We also talked about insertion sort selection sort and bubble sort.
+
+01:19.630 --> 01:24.250
+Those are fun when you're doing something quick and dirty and you want to just experiment around with
+
+01:24.250 --> 01:24.740
+sorting.
+
+01:24.790 --> 01:31.690
+But in real life you're not going to use them and most likely in real life you are using the framework
+
+01:31.690 --> 01:38.470
+or languages or libraries sorting algorithm their advantage is that they're fairly easy to implement
+
+01:38.480 --> 01:44.340
+in Cote and during the interview you might say something like this.
+
+01:44.410 --> 01:50.740
+In those rare cases that they ask you to implement a sorting algorithm you'll say well because we have
+
+01:50.740 --> 01:57.220
+a time constraint I like to use something naive and not efficient like bubble sort which is slow in
+
+01:57.220 --> 02:02.170
+real life instead of implementing something like merge sort if it's OK with you because.
+
+02:02.380 --> 02:08.410
+Because we can assume that sort is something that we can implement with a library or fairly easily with
+
+02:08.410 --> 02:14.540
+documentation or you can say something like we can just use merge sort to divide and conquer the code
+
+02:14.630 --> 02:16.200
+to make it more efficient.
+
+02:16.400 --> 02:21.620
+And this way you show the interviewer that yes you can implement sorting like bubble sort but you also
+
+02:21.620 --> 02:26.690
+know about things like Merceron to make it more efficient without having to actually implement it.
+
+02:28.330 --> 02:34.870
+So by the end of this all I hope you now understand the tradeoffs where you can look at sorting algorithms
+
+02:34.900 --> 02:42.970
+and decide based on their speed stability and their readability whether the input is already sorted
+
+02:42.970 --> 02:44.000
+or nearly sorted.
+
+02:44.050 --> 02:50.090
+How large is the input you can make the right decision on sorting.
+
+02:50.220 --> 02:51.620
+I'll see in the next one.
+
+02:51.950 --> 02:52.190
+Bob.

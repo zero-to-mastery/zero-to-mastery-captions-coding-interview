@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.130 --> 00:02.230
+Ben tornato.
+
+00:02.360 --> 00:07.950
+Mi chiedevo come, ma solo un breve video per raccontarti qualcosa di interessante.
+
+00:08.800 --> 00:10.400
+E questo dipende dalla tua lingua.
+
+00:10.480 --> 00:17.990
+Ma ricorda il metodo di ordinamento che avevamo in javascript o forse nella tua lingua.
+
+00:18.150 --> 00:23.820
+Ti sfido a capire che tipo di algoritmo di ordinamento sta usando sotto il cofano.
+
+00:24.680 --> 00:32.130
+Ora nella maggior parte dei casi si tratta di quicksort o insertion sort e si uniscono gli ordinamenti combinati insieme.
+
+00:32.360 --> 00:38.650
+Quindi esci e cerca quale algoritmo di ordinamento utilizza la tua lingua quando si tratta di javascript.
+
+00:38.660 --> 00:45.500
+In realtà non ci sono requisiti per javascript su quale algoritmo di ordinamento da utilizzare.
+
+00:45.500 --> 00:51.350
+Abbiamo ECMAScript in javascript che è lo standard ma poiché lo standard non menziona
+
+00:51.440 --> 00:53.660
+come dovrebbe essere implementato.
+
+00:53.660 --> 00:57.260
+Browser diversi con motori javascript diversi.
+
+00:57.290 --> 01:02.490
+Chrome ha V8 Mozilla ha il proprio motore Safari proprio motore.
+
+01:02.600 --> 01:04.800
+Li implementano tutti in modo diverso.
+
+01:05.580 --> 01:10.880
+Bene l'ultima volta che ho controllato Mozilla usano l'ordinamento di tipo merge per l'ordinamento.
+
+01:11.070 --> 01:19.950
+E in Chrome e il motore V-8 sort è implementato con quicksort e anche insertion sort per
+
+01:19.950 --> 01:22.220
+la cancellazione più piccola.
+
+01:22.300 --> 01:24.510
+Pensavo che fosse interessante comunque.
+
+01:24.560 --> 01:26.250
+Vedo nel prossimo video di.

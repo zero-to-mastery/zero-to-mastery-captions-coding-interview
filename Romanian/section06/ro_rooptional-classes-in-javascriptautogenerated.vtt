@@ -1,0 +1,823 @@
+WEBVTT
+
+00:01.220 --> 00:02.450
+Bine ai revenit.
+
+00:02.450 --> 00:06.110
+Vom vorbi despre câteva concepte de obiecte avansate.
+
+00:06.440 --> 00:13.790
+Acum, după cum am spus cu ambele tablouri și funcții, acestea sunt concepte avansate, probabil că nu veți obține
+
+00:13.790 --> 00:21.440
+doar 100% pentru prima oară în jur, dar folosiți aceste videoclipuri ca referință pentru a vă întoarce în timp ce
+
+00:21.440 --> 00:23.040
+progresați în cariera dvs.
+
+00:24.200 --> 00:29.970
+Acum, în acest videoclip, voi vorbi despre trei lucruri importante cu obiectele.
+
+00:30.060 --> 00:35.210
+Vom vorbi despre tipul de referință.
+
+00:35.300 --> 00:38.000
+Vom vorbi despre context.
+
+00:38.570 --> 00:41.300
+Și în sfârșit vom vorbi despre instanțiere, așa
+
+00:44.930 --> 00:51.870
+că să începem cu prima referire la ceea ce vreau să spun când spun tipul de referință ceea ce am vrut să
+
+00:51.870 --> 00:55.410
+văd dacă puteți ghici ce se va întâmpla atunci când fac.
+
+00:55.550 --> 00:58.730
+Arrația este egală cu matricea.
+
+00:58.770 --> 01:00.510
+Ce credeți că va fi răspunsul.
+
+01:00.540 --> 01:01.000
+Sa vedem.
+
+01:02.660 --> 01:05.880
+Hmm interesant OK.
+
+01:05.880 --> 01:14.110
+Ce-ar fi dacă o fac una din ele îl numește unul interesant OK.
+
+01:14.210 --> 01:15.310
+Inca o intrebare.
+
+01:15.500 --> 01:18.320
+Ce zici de ceva de genul asta?
+
+01:19.380 --> 01:20.660
+Cum obiect.
+
+01:21.010 --> 01:25.030
+El numește valoarea de 10
+
+01:29.180 --> 01:48.530
+și vom spune că obiectul 2 este egal cu obiectul 1 și vom ajunge în final la un obiect variabil 3 egal cu valoarea 10.
+
+01:49.400 --> 01:54.650
+Deci, uita-te la acestea și de fapt o voi copia aici pentru a putea vedea și ea.
+
+01:59.210 --> 02:00.130
+Privind la asta.
+
+02:00.260 --> 02:07.370
+Ce se întâmplă dacă fac obiect un obiect egal 2.
+
+02:07.400 --> 02:08.460
+Ce crezi ca se va intampla.
+
+02:09.520 --> 02:10.010
+Adevărat.
+
+02:10.220 --> 02:10.690
+O.K.
+
+02:10.840 --> 02:11.530
+Are sens.
+
+02:11.530 --> 02:15.500
+Adică obiect este obiect 1.
+
+02:15.680 --> 02:22.710
+Dar dacă fac obiect unul, el numește obiectul trei.
+
+02:22.800 --> 02:25.650
+Aici mă înșel.
+
+02:25.840 --> 02:31.040
+Dar de ce este faptul că avem valori de valoare 10 și ambele sunt același lucru.
+
+02:31.210 --> 02:32.390
+Dreapta.
+
+02:32.410 --> 02:33.160
+Să alegem altceva.
+
+02:33.160 --> 02:36.950
+Ce se întâmplă dacă fac obiect o valoare.
+
+02:38.170 --> 02:42.370
+Este egal cu 15 OK.
+
+02:42.530 --> 02:45.290
+Și acum fac obiectul valei întunecate, este
+
+02:48.330 --> 02:49.970
+egal cu 15.
+
+02:50.100 --> 02:59.880
+Dar dacă fac obiect 3 de-valoare am 10 bine cum a fost gradul de confuz.
+
+02:59.940 --> 03:02.090
+Să ne uităm la ceea ce se întâmplă de fapt.
+
+03:02.370 --> 03:06.920
+Și acesta este primul subiect despre care vorbim despre tipul de referință.
+
+03:07.050 --> 03:08.200
+Să ne uităm la o diagramă.
+
+03:10.950 --> 03:18.300
+Obiectele sunt numite tipuri de referință și Javascript în acest moment.
+
+03:18.300 --> 03:24.950
+Toate celelalte tipuri de javascript pe care le-am învățat, inclusiv
+
+03:27.480 --> 03:39.500
+numerele, știu că avem șiruri de boolene nedefinite, chiar și simboluri, toate acestea fiind definite de limbajul de programare.
+
+03:39.520 --> 03:48.100
+Deci Javascript persoana care a scris javascript și ECMAScript standard spune că acestea sunt tipuri primitive.
+
+03:48.100 --> 03:57.910
+Vă spunem ce sunt acum un tip de referință, care este un tip non primitiv, nu sunt definite de
+
+03:57.910 --> 03:59.850
+limbile de programare.
+
+03:59.860 --> 04:06.330
+Ceea ce înseamnă asta este că sunt create de programator.
+
+04:06.360 --> 04:08.730
+Asa ca sa privim aici ca un exemplu.
+
+04:09.710 --> 04:10.880
+Când spun varianta.
+
+04:10.880 --> 04:13.150
+Numărul unu este egal cu unul.
+
+04:13.280 --> 04:15.100
+Javascript știe ce este.
+
+04:15.100 --> 04:17.450
+Este un număr și este un tip primitiv.
+
+04:17.450 --> 04:19.250
+Este întotdeauna același lucru.
+
+04:19.550 --> 04:22.010
+Este imutabil de fiecare dată când folosește unul.
+
+04:22.220 --> 04:25.280
+Același lucru este cunoscut de javascript.
+
+04:25.400 --> 04:33.150
+Când fac numărul variabil două, utilizează același număr pe care javascript îl știe.
+
+04:33.180 --> 04:40.910
+Cu toate acestea, atunci când am creat obiect Twan este egal cu valoarea 10 în obiect pentru a egala obiect atunci când un obiect
+
+04:40.910 --> 04:45.540
+3 apeluri de valoare 10 bine acelea au fost create de către programator.
+
+04:45.580 --> 04:47.020
+Există tipuri de referință.
+
+04:47.140 --> 04:55.240
+Așa că ce am spus a fost că vreau obiect Twan crea un obiect nou va spune această casetă de aici
+
+04:56.510 --> 05:06.530
+acest cabinet de depozit și în ea a pus valoarea 10 în această casetă obiect pentru a spune vreau să vă referiți doar și de acolo
+
+05:06.530 --> 05:07.650
+vine cuvântul.
+
+05:07.700 --> 05:15.020
+Obiect de referință 1 spunând hei vreau ce este în interiorul acestei casete.
+
+05:16.150 --> 05:26.040
+Când obiectul 3 este creat, este un obiect nou pentru că avem noile paranteze și spune că puneți valoarea 10
+
+05:26.040 --> 05:27.720
+în această căsuță.
+
+05:27.720 --> 05:35.250
+În esență, ceea ce facem este să spunem că atunci când creăm un obiect variabil, noi stocăm doar o referință la
+
+05:35.250 --> 05:40.460
+o adresă la locul în care stocăm valoarea 10 care este Box 1.
+
+05:40.470 --> 05:43.730
+Deci, spunem obiect 1.
+
+05:43.920 --> 05:49.610
+Vă anunț doar că aceasta este adresa întregului conținut pe care îl doriți
+
+05:49.680 --> 05:55.650
+și că este obiectul mbox 1 care spune că vreau orice este un obiect 1.
+
+05:55.680 --> 06:01.200
+Și arătăm un obiect Twan un obiect Twan are doar informația de la caseta 1.
+
+06:01.380 --> 06:08.060
+Deci, se referă la faptul că un obiect 3 creează un obiect nou.
+
+06:08.060 --> 06:15.110
+Așa că spune că am să-mi pun conținutul în Cutia 3 și voi avea adresa casetei spunând cutia
+
+06:15.410 --> 06:17.860
+3 care este chiar aici.
+
+06:19.450 --> 06:21.040
+Deci, revenind la exemplul
+
+06:24.230 --> 06:27.990
+nostru, acest lucru are sens când schimbăm valoarea obiectului la 15.
+
+06:28.040 --> 06:31.100
+Modificăm conținutul casetei 1.
+
+06:31.100 --> 06:39.290
+Deci, atunci când facem obiect la valoarea lui Daube care face referire la aceeași cutie ca și obiectul 1, care este 15, dar obiectul
+
+06:39.290 --> 06:45.680
+3 Valoarea câinelui nu se schimbă deoarece este interesată de o cutie complet diferită, este caseta 3 și
+
+06:46.670 --> 06:48.700
+se întoarce la primul exemplu.
+
+06:50.760 --> 06:51.550
+Arrays.
+
+06:51.830 --> 06:59.020
+După cum am menționat în videoclipurile anterioare, tablourile sunt doar obiecte care au încheiat ziua.
+
+06:59.030 --> 07:05.130
+Deci, atunci când creați o matrice este același lucru creând o casetă cu o structură de date.
+
+07:05.450 --> 07:09.720
+Și asta creează o a doua structură de date corectă.
+
+07:09.800 --> 07:16.910
+Deci, este un tip de referință un concept foarte important, dar cred că cred că ai dreptate.
+
+07:17.620 --> 07:18.930
+Să trecem la următoarea.
+
+07:18.940 --> 07:20.980
+Acest lucru devine puțin mai complicat.
+
+07:21.010 --> 07:30.050
+Contextul și contextul pe care acesta îl numește se confundă foarte mult cu scopul.
+
+07:30.140 --> 07:37.180
+Dacă vă amintiți că am spus că domeniul de aplicare este creat atunci când vede paranteze curry dreapta.
+
+07:37.220 --> 07:44.990
+Am spus că dacă creăm o funcție de îndată ce creăm această funcție, există un domeniu
+
+07:44.990 --> 07:46.050
+nou creat.
+
+07:46.400 --> 07:57.490
+Așa că am putut să lăsăm un egal cu a și care să trăiască în acest univers.
+
+07:57.500 --> 08:02.120
+Nu știe nimic despre scopul rădăcinii care este aici.
+
+08:02.120 --> 08:06.630
+Deci, dacă fac consolă log AA Ei bine, nu va merge.
+
+08:06.850 --> 08:12.190
+Oh, și trebuie să atribuim ceva și trebuie să-i spunem că este un cuvânt mai mare B.
+
+08:12.260 --> 08:20.760
+Deci, dacă fac o consolă bine sau un jurnal, acestea vor reveni la eroarea de referință deoarece nu există.
+
+08:20.760 --> 08:22.290
+Deci asta e scopul.
+
+08:22.350 --> 08:31.470
+Acum, cum este contextul context diferit vă spune unde suntem în interiorul obiectului.
+
+08:31.470 --> 08:32.560
+Lasă-mă să explic.
+
+08:32.910 --> 08:38.870
+Dacă spunem păpușă de consolă, înregistrați-o.
+
+08:39.060 --> 08:44.910
+Ei bine, vedeți că am o evidențiere și aceasta este prima dată când vedem acest lucru și este un
+
+08:44.910 --> 08:46.270
+cuvânt special în javascript.
+
+08:46.290 --> 08:52.140
+Probabil cel mai confuz cuvânt pe care o mulțime de oameni au probleme și chiar oameni care am fost în industria de
+
+08:52.140 --> 08:57.110
+ani de zile încă mai au un moment dificil cu acest lucru, dar să vedem ce este.
+
+08:57.510 --> 09:03.900
+Așa se poate vedea obiectul ferestrei.
+
+09:03.940 --> 09:14.550
+Deci, doar pentru a verifica dublu dacă mă consolează sau înregistrez această fereastră egală devin adevărat.
+
+09:14.780 --> 09:23.950
+Și pot accesa această alertă punct.
+
+09:23.980 --> 09:35.620
+Deci, ce înseamnă acest lucru este mediul de obiecte pe care suntem acum cel mai bun mod de a
+
+09:35.620 --> 09:42.450
+gândi despre asta este ceea ce este la stânga punctului.
+
+09:42.460 --> 09:49.860
+Așa că acum sunt capabil să fac alertă pentru că sunt în interiorul obiectului ferestrei.
+
+09:50.110 --> 09:53.960
+Așa că faceți fereastra sau faceți acest lucru este același lucru.
+
+09:54.160 --> 09:57.110
+De ce este important acest lucru.
+
+09:57.270 --> 10:04.050
+Atunci când ajungem la instanțiere vă voi arăta de ce este, dar este un concept foarte important pe care îl veți vedea din
+
+10:04.050 --> 10:05.430
+nou și din nou.
+
+10:05.490 --> 10:15.780
+Dar amintiți-vă acest lucru se referă doar la ceea ce obiect este în interiorul a două mai multe exemplu pentru
+
+10:17.200 --> 10:23.410
+a demonstra acest lucru este dacă eu fac funcția Withem o funcție
+
+10:26.190 --> 10:29.090
+va spune consola câine log-o.
+
+10:29.120 --> 10:39.260
+Deci, dacă o numesc ceea ce credeți că se întâmplă Lucy încă fereastra obiect acest lucru se referă încă la funcția.
+
+10:39.360 --> 10:46.710
+Și dacă îți aduci aminte că e pentru că am spus că trebuie să fie obiectul în care suntem înăuntru de acum.
+
+10:46.790 --> 10:47.910
+Tehnic.
+
+10:47.970 --> 10:52.190
+Eu pot merge fereastra hei și să executați funcția.
+
+10:52.470 --> 11:02.890
+Deci, la stânga punctului Ei bine aceasta este fereastra pentru a crea o nouă valoare pentru acest lucru.
+
+11:03.020 --> 11:06.530
+Trebuie să faci așa ceva.
+
+11:10.370 --> 11:13.550
+Obiect o funcție a.
+
+11:13.550 --> 11:14.900
+Acum, dacă funcționez
+
+11:19.860 --> 11:22.730
+și aici, fac un jurnal de console.
+
+11:23.180 --> 11:32.500
+Acest lucru bine, în cazul în care am copia acest lucru și a alerga obiect pentru un
+
+11:35.540 --> 11:36.270
+timp.
+
+11:36.560 --> 11:45.730
+Acum acesta este obiectul pentru care este obiect.
+
+11:45.800 --> 11:49.860
+Deci, de ce este important pentru noi.
+
+11:50.030 --> 11:54.460
+Ei bine, mai întâi de toate veți vedea și alte coduri de bază este atât de bine să știți.
+
+11:54.680 --> 12:01.790
+Dar este foarte important atunci când facem instantiation instantiation este atunci când faceți o copie
+
+12:02.420 --> 12:05.270
+a unui obiect și reutilizați codul.
+
+12:05.270 --> 12:09.140
+Imaginați-vă că construiți un joc online multiplayer mare.
+
+12:09.590 --> 12:17.120
+Și acest joc va avea mulți jucători pe care îi poți avea pe vrăjitorii pe care îi poți avea pe elfii de trolls.
+
+12:17.150 --> 12:24.080
+Acum, dacă a trebuit să creați un obiect pentru fiecare jucător care are o mulțime de cod repetate, care este o mulțime
+
+12:24.080 --> 12:30.040
+de hassle și că este o mulțime de timp și nu este foarte eficient pentru a rezolva asta.
+
+12:30.070 --> 12:32.070
+Puteți face ceva numit instanțiere.
+
+12:32.260 --> 12:37.460
+Faceți instanțe sau copii multiple ale unui obiect.
+
+12:37.480 --> 12:43.350
+Așadar, permiteți-mi să vă arăt cum facem din nou instanța în javascript.
+
+12:43.410 --> 12:49.590
+Acest lucru va părea puțin ciudat la început, la fel ca și în cazul buclelor, la fel ca
+
+12:49.590 --> 12:54.320
+și funcțiile făcute la început, dar este doar sintaxa și vă veți obișnui.
+
+12:54.330 --> 12:59.200
+Deci, să spunem că avem o clasă de jucători.
+
+12:59.370 --> 13:05.460
+Acum vedeți deja noua sintaxă și capitalizez o clasă.
+
+13:05.510 --> 13:09.980
+Acum gândiți-vă la o clasă ca la ceva pe care vreau să fac o copie.
+
+13:10.160 --> 13:18.080
+Dacă vreau vreodată să fac o copie a unui obiect, este o idee bună să faceți ceva de genul acesta, astfel încât să vedeți cât de
+
+13:18.080 --> 13:19.990
+ușor este să copiați acest lucru.
+
+13:20.000 --> 13:21.980
+Acum, așa vom face.
+
+13:21.980 --> 13:28.610
+Jucător de clasă și în interiorul aici va spune constructor și știu că acest lucru
+
+13:31.300 --> 13:35.530
+pare ciudat, dar din nou este doar o sintaxă.
+
+13:35.530 --> 13:45.580
+Să-l dăm acestui jucător poate avea un nume și un tip și în cadrul constructorului acest nume el numește numele
+
+13:45.780 --> 13:51.300
+și acest tip pe care îl cheamă a fost pur și
+
+13:55.890 --> 13:58.110
+simplu întâmplat aici constructor.
+
+13:58.110 --> 14:00.960
+Când creați o clasă de clasă A, spuneți un jucător.
+
+14:01.140 --> 14:08.280
+De fiecare dată când fac o copie a unui jucător, primul lucru care se execută
+
+14:08.280 --> 14:17.570
+este funcția constructor și această funcție de constructor va crea aceste proprietăți pe obiectul player-ului, astfel încât numele și tipul.
+
+14:17.610 --> 14:21.450
+Și acum pot crea orice vreau pentru jucător.
+
+14:21.450 --> 14:30.670
+Să presupunem că vrem să creăm o metodă cum ar fi
+
+14:33.600 --> 14:39.580
+introducerea logurilor consolei cu tactici. Bună, sunt.
+
+14:39.800 --> 14:54.140
+Și din nou îți vei aminti că șablonul lui Sendak sună pe numele ăsta terminat. Sunt un tip de acest gen.
+
+14:54.230 --> 15:02.480
+Deci acum spun că această clasă orice jucător pe care îl creez va fi întotdeauna capabil să se
+
+15:02.480 --> 15:07.760
+prezinte și vor avea și acest nume și acest tip.
+
+15:07.850 --> 15:14.880
+Iar motivul pentru care folosim acest lucru este că atunci când creăm un jucător putem accesa numele și tipul proprietății.
+
+15:14.930 --> 15:17.270
+Îți voi arăta mai târziu cum funcționează.
+
+15:17.270 --> 15:24.530
+Dar aceasta este doar o sintaxă pe care o veți obișnui să accesați jucătorul și să faceți copii ale
+
+15:24.530 --> 15:25.070
+acestuia.
+
+15:25.070 --> 15:29.240
+Va trebui să rulați un constructor care reprezintă toate proprietățile și metodele pe care doriți să le
+
+15:29.240 --> 15:29.920
+aibă jucătorul.
+
+15:30.200 --> 15:38.630
+De asemenea, puteți crea metode pe care jucătorii le pot avea și oricând doriți să accesați o proprietate din cadrul constructorului va folosi
+
+15:38.630 --> 15:44.740
+acest nume pentru a vă dori să folosiți introduceți va trebui să fac acest lucru.
+
+15:44.780 --> 15:47.100
+Introduce.
+
+15:47.130 --> 15:53.970
+OK, așa că avem un jucător, dar când construim jocul nostru multiplayer vrem să copiem acum acest lucru, dar să îl
+
+15:53.970 --> 15:54.580
+adaugăm.
+
+15:54.690 --> 15:59.060
+Să spunem că avem ceea ce vrem să creăm un jucător vrăjitor un jucător care este un vrăjitor.
+
+15:59.460 --> 16:09.450
+În acest caz, atunci când facem vrăjitorul de clasă din nou scrisoarea de capital se extinde și din nou
+
+16:10.080 --> 16:13.330
+este doar javascript keyboard player.
+
+16:13.370 --> 16:19.270
+Deci, ce spune această zicală că vreau ca vrăjitorul să extindă tot ce are un jucător.
+
+16:19.280 --> 16:26.480
+Deci, vreau să adaug pe partea de sus a oricui jucător are din nou, pentru că este o clasă va trebui să facă un constructor.
+
+16:28.370 --> 16:35.630
+Și acest vrăjitor va accepta Knabe și va tipi, iar aici e partea complicată.
+
+16:35.630 --> 16:45.440
+De fiecare dată când extindem ceva, trebuie să sunăm și funcția de constructor a jucătorului.
+
+16:45.440 --> 16:52.010
+Trebuie să facem ceva numit super cu proprietățile pe care vrem să le trecem la constructor.
+
+16:52.010 --> 17:00.980
+În acest caz, numele și tipul pe care știu că acest lucru este confuz este doar ceva ce trebuie să faceți ori de câte ori prelungiți
+
+17:01.280 --> 17:02.350
+o clasă.
+
+17:02.570 --> 17:09.550
+Vreți să utilizați Soopers astfel încât în ​​esență să aveți acces la aceste OK.
+
+17:09.580 --> 17:16.430
+Deci, să spunem că cu vrăjitorul Vrem să avem și o funcție de redare, iar funcția de redare a fost
+
+17:16.430 --> 17:18.350
+doar un jurnal de console.
+
+17:19.000 --> 17:30.590
+Noi suntem de acest tip și acum că avem vrăjitorul nostru. Care este puterea care este motivul pentru care am făcut
+
+17:30.590 --> 17:31.280
+asta.
+
+17:31.310 --> 17:37.400
+Acum putem face acest lucru în loc să creăm jucători și apoi să spunem că au vrăjitorii lor
+
+17:37.400 --> 17:38.700
+și pot juca.
+
+17:38.720 --> 17:49.310
+Acum pot să spun că vrăjitorul 1 este egal cu un nou asistent și vom apela din nou primul vrăjitor.
+
+17:49.310 --> 17:58.260
+Obținem nume și tip, așa că o să spunem Shelly și va fi un vindecător.
+
+18:00.160 --> 18:16.030
+Și dacă vreau să creez un nou vrăjitor, voi spune că vrăjitorul 2 este egal cu noul vrăjitor Sean și el este magia întunecată.
+
+18:16.290 --> 18:23.910
+A fost o sintaxă nouă, așa că hai să trecem prin ea și să ne asigurăm că înțelegem totul așa cum
+
+18:23.920 --> 18:28.930
+am învățat să folosim jurnalul consolei pentru a înțelege cu adevărat ce facem.
+
+18:28.960 --> 18:34.280
+Voi adăuga un jurnal de consolă chiar deasupra.
+
+18:36.210 --> 18:37.560
+Voi spune asta.
+
+18:37.580 --> 18:39.730
+Ce este asta.
+
+18:39.840 --> 18:48.010
+Am de gând să salvez și de fapt o să copiez în consolă să o copiem.
+
+18:49.080 --> 18:51.520
+Și vezi ce ne dă jurnalul de consolă.
+
+18:51.520 --> 18:54.390
+Vedem că avem Wizard.
+
+18:54.480 --> 18:54.840
+In regula.
+
+18:54.870 --> 18:56.160
+Hai să trecem prin tot.
+
+18:57.530 --> 19:02.410
+Spun că avem un jucător de clasă, apoi un vrăjitor de clasă care extinde jucătorul.
+
+19:02.780 --> 19:07.390
+Și apoi avem două variabile pe care le-am creat asistentul 1 și Expertul 2.
+
+19:07.430 --> 19:14.270
+Acum, programul va vedea noul cuvânt cheie și oricând va vedea un nou
+
+19:14.270 --> 19:23.570
+cuvânt cheie, spune că suntem creați un nou expert și acest vrăjitor va avea doi parametri Shelli și vindecător.
+
+19:23.810 --> 19:30.230
+Deci, va merge din nou la clasa de experți pentru că are acest nou cuvânt.
+
+19:30.260 --> 19:36.150
+Se duce la clasa de experți și spune un vrăjitor.
+
+19:36.210 --> 19:38.690
+Vreau să prelungești jucătorul.
+
+19:38.850 --> 19:47.940
+Deci, va merge la constructor și va vedea acest super. Și ceea ce face acest lucru este
+
+19:47.940 --> 19:51.520
+că ne duce la constructorul jucătorului.
+
+19:51.750 --> 19:59.420
+Și Iranul asta și acum îl atașează ca pe vrăjitor.
+
+19:59.910 --> 20:03.870
+Apoi introduce noua funcție și apoi adaugă funcția de redare.
+
+20:03.870 --> 20:16.490
+Acum, dacă mă duc la vrăjitorul 1 și spun că joacă noi suntem un vindecător deoarece Shelly este un vindecator.
+
+20:16.710 --> 20:28.880
+Dar, de asemenea, am acces la vrăjitor 1 câine introduceți Bună Sunt Shelly Sunt un vindecator și avem, de asemenea, acces la expertul de
+
+20:30.230 --> 20:34.530
+a avea de a rula acest din nou.
+
+20:34.660 --> 20:35.910
+Hai să reluăm asta.
+
+20:38.920 --> 20:42.510
+Și nu cred că am copiat al doilea vrăjitor ultima oară.
+
+20:42.760 --> 20:47.320
+Deci, acum am vrăjitor să-l prezint.
+
+20:47.330 --> 20:48.370
+Bună Sunt Sean.
+
+20:48.460 --> 20:50.820
+Sunt o magie întunecată.
+
+20:50.860 --> 20:54.070
+Această teză nu are sens Sean, dar asta e OK pentru moment.
+
+20:54.920 --> 20:57.200
+Să încercăm ceva dacă o fac.
+
+20:57.200 --> 20:58.580
+Consola jurnal.
+
+21:01.270 --> 21:05.480
+Aici și vom spune doar vrăjitor și aici va
+
+21:08.130 --> 21:09.420
+spune jucător.
+
+21:09.420 --> 21:11.160
+Doar ca să putem distinge între ele.
+
+21:12.660 --> 21:19.770
+Și am să copiez doar primul vrăjitor, astfel încât să nu reușim să ducem două dintre ele, deoarece creăm
+
+21:19.770 --> 21:25.760
+doi vrăjitori că o să fugim de două ori, dar numai pentru sănătatea noastră. Vom alerga.
+
+21:25.770 --> 21:32.030
+Shelly Deci am de gând să reîmprospătați și să adăugați aici am uitat să adăugați o
+
+21:35.270 --> 21:43.270
+virgulă și să reîmprospătăm și am obține eroarea noastră de referință Knerr trebuie să sun super constructor și clasa derivate înainte de
+
+21:43.280 --> 21:44.990
+a accesa acest lucru.
+
+21:45.470 --> 21:54.380
+Ceea ce spune asta este că pentru a avea acces la acest lucru și pentru a obține acest tip trebuie să sun super, care rulează
+
+21:54.830 --> 21:57.620
+o funcție de constructor și un jucător.
+
+21:57.680 --> 21:59.210
+Deci asta este ceea ce face super.
+
+21:59.210 --> 22:05.030
+Suna cam ciudat, dar este ceva ce trebuie să te ridici la fund după ce
+
+22:05.030 --> 22:08.660
+sunăm super și acum ar trebui să funcționeze.
+
+22:08.780 --> 22:18.750
+Să vedem că am primul vrajitor de jucător.
+
+22:19.160 --> 22:24.600
+Deci, suntem super, imediat ce spunem vindecătorul Shelli.
+
+22:24.880 --> 22:32.350
+Mă duc la playerul accentului de asistent care execută funcția de constructor, care spune că super hei rula funcția
+
+22:32.350 --> 22:35.240
+constructorului și jucătorul și o conduc.
+
+22:35.350 --> 22:44.520
+Iată de ce logăm primul consola jucătorului de jurnal și apoi mergem la consola dialog wizard și apoi
+
+22:44.520 --> 22:46.490
+rula restul clasei.
+
+22:46.530 --> 22:48.130
+Foarte tare.
+
+22:48.340 --> 22:50.670
+Acum, doar pentru a vă arăta ceva.
+
+22:50.710 --> 22:57.470
+Aceasta este de fapt o sintaxă nouă pe care o veți vedea și o veți reacționa și va face parte din ESX.
+
+22:57.910 --> 23:07.040
+Dar înapoi în această zi așa am făcut-o pentru a face exact același cod pe care îl am aici
+
+23:11.590 --> 23:12.560
+chiar aici.
+
+23:14.530 --> 23:21.190
+Se numește moștenire clasică și nu arată prea rău, dar vedeți că există un prototip care este un alt lucru pe care îl
+
+23:21.190 --> 23:26.440
+veți vedea în javascript și pentru a fi sincer cu dvs. nu ar trebui să-l utilizați cu
+
+23:26.440 --> 23:26.920
+adevărat.
+
+23:26.920 --> 23:28.430
+Nu arata foarte bine.
+
+23:28.780 --> 23:37.090
+Și vedeți că trebuie să jucăm atât pentru wizard wand și Wizard 2 și nu prea arăta așa de
+
+23:37.840 --> 23:39.220
+frumos ca asta.
+
+23:39.310 --> 23:41.890
+Și odată ce te obișnuiești cu totul.
+
+23:42.100 --> 23:43.760
+Nu e prea rău.
+
+23:43.780 --> 23:49.540
+Tot ce spunem este de îndată ce spunem o clasă care spune că probabil vom face o
+
+23:49.540 --> 23:51.000
+copie a acestui obiect.
+
+23:51.210 --> 23:56.760
+Deci vrem să facem copii ale jucătorului pe care vrem să facem copii ale vrăjitorului și care se numește instanțiere.
+
+23:56.760 --> 24:06.060
+Când fac noul cuvânt cheie pe care îl spun, face o instanță de asistent și asistent utilizează unele funcționalități
+
+24:06.060 --> 24:11.190
+ale playerului și adaugă și propria sa funcție de redare.
+
+24:11.190 --> 24:18.720
+Sfânt moly, care a fost mult ca am spus acest lucru este ceva de care va trebui să vă întoarceți și nu
+
+24:18.720 --> 24:19.890
+veți obține imediat.
+
+24:19.890 --> 24:26.330
+Este cu adevărat greu să înțelegi pe deplin acest subiect fără a trebui să îl folosiți în viața reală.
+
+24:26.370 --> 24:32.850
+Țineți minte acest lucru de fiecare dată când auziți că cineva vorbește despre tipul de referință sau despre contacte sau chiar
+
+24:33.240 --> 24:35.790
+despre domeniul de aplicare sau instanțierea ceva.
+
+24:35.790 --> 24:38.740
+Ei bine, acestea sunt lucrurile despre care vorbeau.
+
+24:38.970 --> 24:40.930
+Obiectele sunt cu adevărat complicate.
+
+24:40.950 --> 24:42.490
+Sunt foarte greu.
+
+24:42.600 --> 24:45.660
+Dar cu asta ne dă o mulțime de putere.
+
+24:46.990 --> 24:51.220
+Deci, cu norocul ăla cu exercițiile pe care le voi vedea în următoarea, ci prin.

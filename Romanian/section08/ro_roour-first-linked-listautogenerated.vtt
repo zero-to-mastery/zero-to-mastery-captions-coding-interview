@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.360 --> 00:02.240
+Bine ai revenit.
+
+00:02.470 --> 00:08.800
+Este momentul să creați prima noastră structură de date listată în legătură și să spunem că am vrut să
+
+00:08.800 --> 00:13.190
+creez o listă legată care are 10 indicând la cinci puncte la 16.
+
+00:13.320 --> 00:15.460
+O mică și simplă.
+
+00:15.460 --> 00:22.330
+În primul rând, cum vom proceda pentru a vizualiza acest lucru într-o limbă ca javascript care nu are liste
+
+00:22.380 --> 00:23.120
+legate.
+
+00:24.320 --> 00:31.110
+Ei bine, putem spune pur și simplu că avem o listă nouă legată, să folosim doar plumbul aici.
+
+00:31.280 --> 00:41.570
+Lista mea legată și aceasta va fi egală cu un obiect care are proprietatea capului amintit deoarece
+
+00:41.570 --> 00:46.400
+primul element dintr-o listă legată este capul.
+
+00:46.590 --> 00:49.290
+Și vom avea o notă.
+
+00:49.410 --> 00:53.990
+Punctul nodului este acela de a spune că orice poate fi în zăpadă.
+
+00:53.990 --> 01:00.230
+Doar puneți tot ce doriți și este un container în jurul acestor date.
+
+01:00.320 --> 01:04.180
+Așa că gândiți-vă la o notă de date.
+
+01:04.340 --> 01:11.030
+Și în acest caz, putem folosi doar un obiect pentru a pune datele noastre în
+
+01:11.030 --> 01:20.270
+toate aceste noduri trebuie să aibă într-o listă legată este o proprietate valută a valorii notei este Plus o proprietate următoare
+
+01:20.570 --> 01:23.250
+care este pointerul la nodul următor.
+
+01:23.270 --> 01:33.860
+Acum, această valoare poate fi orice ne dorim și următoarea proprietate trebuie să fie un pointer sau o referință la nodul următor atunci când în acest
+
+01:33.860 --> 01:41.340
+caz va fi un obiect, astfel încât acesta va fi un obiect nother pe care îl vom referi
+
+01:41.350 --> 01:42.630
+în memorie.
+
+01:42.700 --> 01:48.130
+În acest fel, valoarea notei se poate schimba întotdeauna, dar indicatorii vor întotdeauna să indice acest lucru.
+
+01:48.160 --> 01:51.860
+Așa că putem schimba elementele și nimic altceva nu se va schimba.
+
+01:51.880 --> 01:55.650
+Aceasta va indica totodată acea valoare modificată și actualizată.
+
+01:55.660 --> 01:57.130
+Lasă-mă să-ți arăt ce vreau să spun.
+
+01:57.130 --> 02:06.430
+Avem capul aici, caz în care este de 10, așa că vrem să setăm valoarea 10 Azara și acest lucru înainte merge la
+
+02:06.430 --> 02:11.370
+punctul de referință la următorul nod care va avea o valoare.
+
+02:12.130 --> 02:13.410
+Din 5.
+
+02:13.580 --> 02:20.250
+Asigurați-vă că adăugăm virgulele aici și următoarea valoare a ceea ce credeți.
+
+02:20.540 --> 02:29.750
+Ei bine, următoarea notă din listă, care este valoarea de 16 și următorul referindu-se la ce.
+
+02:29.930 --> 02:34.540
+Ei bine, 16 este coada listei noastre legate.
+
+02:34.580 --> 02:39.680
+Asta inseamna ca trebuie sa indice nul sau ceea ce noi numim null terminat.
+
+02:39.710 --> 02:43.210
+Asta înseamnă că sfârșitul listei este perfect.
+
+02:43.230 --> 02:51.870
+Deci, aceasta este ceea ce vrem să creăm o listă legată folosind această structură ca structură.
+
+02:51.870 --> 03:02.840
+Vom crea o clasă numită Clasă de legături listă și această clasă și ar trebui să cunoaștem deja
+
+03:02.840 --> 03:04.120
+sintaxa.
+
+03:04.370 --> 03:10.310
+Vom avea un constructor care este funcția care se execută la început, când creăm
+
+03:10.310 --> 03:11.270
+lista legată.
+
+03:11.270 --> 03:14.350
+Asta va avea o valoare.
+
+03:14.560 --> 03:15.390
+Ce inseamna asta.
+
+03:15.460 --> 03:27.770
+Ei bine, atunci când spunem în sfârșit că creăm o listă pe care am conectat-o, rețineți că dorim să creăm acest lucru atunci când creez
+
+03:27.770 --> 03:29.570
+lista mea legată.
+
+03:29.570 --> 03:37.190
+Mă duc să instanțiez clasa care rulează funcția de clasă, aici executați constructorul și creați
+
+03:37.340 --> 03:38.940
+lista legată.
+
+03:38.990 --> 03:44.870
+Voi spune o listă legată și apoi îi dau o valoare pentru a începe lista, deoarece în timp ce lista poate
+
+03:44.870 --> 03:48.620
+fi goală ca să aibă ceva ce trebuie să înceapă cu capul.
+
+03:48.980 --> 03:56.460
+Deci, în cazul nostru vrem să începem cu 10 și, în mod ideal, executând această comandă.
+
+03:56.460 --> 04:02.280
+Am creat prima parte a listei noastre legate doar de 10.
+
+04:02.540 --> 04:05.320
+Permiteți-mi să comentez acest lucru, deoarece nu vom avea nevoie de el pentru moment.
+
+04:07.760 --> 04:10.340
+Acum, în cadrul acestui constructor, avem.
+
+04:10.490 --> 04:18.710
+Ei bine, acest doc a avut referință deoarece, deși avem nevoie să vedem capul și acest cap va
+
+04:18.710 --> 04:24.870
+avea pur și simplu o valoare egală cu valoarea pe care am trecut.
+
+04:24.900 --> 04:29.810
+Asta este 10 aici și apoi în cele din urmă următoarea.
+
+04:30.000 --> 04:31.350
+Și ce ar trebui să fie următoarea.
+
+04:31.380 --> 04:34.110
+Când creați prima dată această listă.
+
+04:34.110 --> 04:41.380
+Ei bine, deoarece 10 este singurul lucru care va avea sau un nod următor va fi egal cu nr.
+
+04:41.490 --> 04:47.640
+Pentru a începe cu amintiți constructorul este vorba despre crearea primei prime linkuri.
+
+04:47.650 --> 04:55.280
+Rețineți ce se întâmplă atunci când instanțiăm o clasă pentru a începe lista mea conectată.
+
+04:55.710 --> 05:00.430
+Și apoi avem în cele din urmă două alte informații pe care trebuie să le urmărim.
+
+05:00.480 --> 05:09.270
+Una este această poveste punct și amintiți-vă cuvântul acest lucru se referă doar la lista de link-uri astfel încât este doar referindu-se la lista de
+
+05:09.270 --> 05:11.440
+legături pe care le creăm.
+
+05:11.550 --> 05:13.470
+Care va fi coada.
+
+05:14.130 --> 05:19.560
+Ei bine, pentru că avem doar un singur element, capul este și coada.
+
+05:19.590 --> 05:22.490
+Deci pur și simplu spunem acest cap al lui Dumnezeu.
+
+05:22.890 --> 05:29.580
+Și de modul în care îl cunosc, el devine puțin confuz și, pe măsură ce trecem prin această serie video pe listele asociate,
+
+05:29.580 --> 05:33.000
+este un pic cam greu să îți împaci mintea în jur.
+
+05:33.000 --> 05:39.450
+Deci, într-adevăr, recomand că Yokota leac lung și face exerciții, deoarece doar ma uitam vorbesc despre listele legate
+
+05:39.450 --> 05:42.730
+nu este de gând să solidificați informațiile dumneavoastră.
+
+05:42.840 --> 05:45.510
+Este greu să vizualizați cu adevărat lucrurile.
+
+05:45.780 --> 05:51.870
+Așadar, poate fi necesar să construiți o listă legată de câteva ori pentru a obține o adevărată atracție, dar
+
+05:51.870 --> 05:59.550
+aceasta va deveni a doua natură odată ce vă veți obișnui cu sintaxa și de asemenea ideea de a avea acest cap și coadă și
+
+05:59.550 --> 06:01.310
+de a le referi oricum.
+
+06:01.470 --> 06:09.030
+Ultima piesă a puzzle-ului este dacă vrei să vedem lungimea listei legate.
+
+06:09.030 --> 06:14.280
+Acest lucru este opțional, dar cred că este bine să urmăriți și pentru că avem un singur element
+
+06:14.760 --> 06:20.190
+când creăm această listă de link-uri, deoarece îi dăm o valoare pe care o vom da o lungime de 1.
+
+06:20.200 --> 06:20.810
+Vom merge acolo.
+
+06:20.980 --> 06:30.290
+Dacă execut acest lucru veți primi o eroare deoarece bine am acest cod care nu este într-adevăr javascript așa că să ne comenteze acest lucru și
+
+06:30.290 --> 06:32.720
+faceți clic pe Run din nou.
+
+06:33.760 --> 06:36.730
+Sunt nedefinit în timp ce nu am înregistrat nimic.
+
+06:36.920 --> 06:49.910
+Dar dacă consola mea conectează lista mea legată și eu execut acest aspect că am o listă legată cu un cap care este
+
+06:49.910 --> 06:51.150
+de 10.
+
+06:51.350 --> 06:58.460
+Următorul este nul, deoarece în timp ce există doar un nod și o coadă care este exact același
+
+06:58.460 --> 07:00.860
+lucru indicând M. și o lungime de unu.
+
+07:01.040 --> 07:02.290
+Felicitări.
+
+07:02.330 --> 07:06.530
+Tocmai am construit prima noastră listă legată.
+
+07:06.530 --> 07:09.900
+Cu toate acestea, este timpul pentru un pic de exercițiu.
+
+07:09.920 --> 07:12.030
+Lista noastră nu este completă corectă.
+
+07:12.080 --> 07:18.920
+Trebuie să creați această listă asociată, astfel încât trebuie să putem adăuga 5 și apoi 16.
+
+07:18.920 --> 07:21.630
+Deci provocarea mea față de tine este asta.
+
+07:22.520 --> 07:31.860
+Vrem să creăm o metodă de adăugare și această metodă de adăugare va avea o valoare și aici.
+
+07:34.140 --> 07:48.820
+Vrem sa scriem o bucata de cod care sa ne permita sa spunem Konst pentru lista mea legata Daut adauga si da-i o
+
+07:48.820 --> 07:49.850
+valoare.
+
+07:49.870 --> 07:56.290
+Dacă ne uităm la lista noastră de 5 pentru a adăuga la lista noastră actuală.
+
+07:56.290 --> 08:10.390
+Deci, vreau să spun că adăugați 5 și apoi adăugați 16 pentru a crea lista completă de 10 5 și 16.
+
+08:10.420 --> 08:13.200
+Cum ai face asta?
+
+08:14.000 --> 08:19.980
+Și o să las asta pentru a încerca.
+
+08:20.050 --> 08:24.730
+Amintiți-vă că acest lucru poate fi un pic cam greu și vă voi oferi soluția video și vom codifica împreună.
+
+08:24.730 --> 08:29.980
+Dar vă încurajez să vă provocați și să vă gândiți la ceea ce se întâmplă și la
+
+08:29.980 --> 08:34.450
+ceea ce am făcut în constructor pentru a crea această metodă de adăugare.
+
+08:34.460 --> 08:37.560
+Mult noroc și vă voi vedea în filmul soluție.
+
+08:37.570 --> 08:38.170
+Pa! Pa.

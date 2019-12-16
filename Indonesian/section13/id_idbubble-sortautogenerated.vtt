@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.370 --> 00:02.330
+Selamat datang kembali.
+
+00:02.750 --> 00:06.620
+Mari kita mulai dengan item pertama dalam daftar kami.
+
+00:06.620 --> 00:07.540
+Semacam gelembung.
+
+00:07.850 --> 00:09.790
+Kedengarannya menyenangkan dan menyenangkan.
+
+00:09.800 --> 00:10.220
+Besar.
+
+00:11.180 --> 00:18.920
+Bubble sort adalah bagian dari tiga algoritma sorting pertama di sini yang disebut sort element.
+
+00:18.920 --> 00:25.880
+Mereka adalah algoritma pengurutan dasar yang sangat sederhana yang biasanya Anda pikirkan jika seseorang meminta Anda untuk mengurutkan
+
+00:25.880 --> 00:28.620
+sesuatu di bagian atas kepala Anda.
+
+00:28.640 --> 00:34.790
+Item kedua di sini yang akan kita bahas nanti Merse pendek dan cepat adalah algoritma yang lebih
+
+00:35.330 --> 00:39.390
+kompleks yang sebagian besar waktu bisa lebih efisien daripada yang pertama.
+
+00:40.000 --> 00:44.060
+Tetapi untuk membangun blok Lego itu mari kita mulai dengan semacam gelembung.
+
+00:44.110 --> 00:46.270
+Bagaimana cara kerja bubble sort.
+
+00:47.650 --> 00:55.390
+Baiklah, izinkan saya mengajukan pertanyaan kepada Anda jika saya memberi Anda daftar dan saya meminta Anda untuk mengurutkannya di kepala Anda
+
+00:55.390 --> 00:58.110
+membayangkan bahwa Anda memiliki blok surat-surat ini.
+
+00:58.210 --> 01:05.870
+Bagaimana Anda memindahkan mereka atau bagaimana Anda memberitahu komputer untuk memindahkan mereka untuk mengurutkannya dan bubble sir mungkin
+
+01:05.870 --> 01:12.370
+menjadi salah satu hal pertama yang muncul dalam pikiran adalah bubble sort berasal dari
+
+01:12.460 --> 01:19.550
+ide menggelembungkan nilai terbesar menggunakan beberapa Pastur. Mari kita lihat apa yang saya maksud dengan itu.
+
+01:19.810 --> 01:25.930
+Kami melihat enam dalam lima dan mengatakan enam lebih besar dari lima.
+
+01:26.360 --> 01:31.350
+Dan kemudian kita melihat enam dan tiga dan mengatakan enam lebih besar dari tiga mari kita menukar mereka.
+
+01:31.400 --> 01:36.440
+Lalu kita melihat enam dan satu dan sekali lagi enam lebih besar dari satu mari kita urutkan.
+
+01:36.470 --> 01:39.790
+Kami melihat enam dan delapan delapan lebih besar dari enam.
+
+01:39.800 --> 01:43.020
+Jadi tetap seperti itu dan mari kita beralih ke yang berikutnya.
+
+01:43.130 --> 01:43.930
+Delapan dan tujuh.
+
+01:44.030 --> 01:44.830
+Mari kita memilahnya.
+
+01:44.840 --> 01:47.370
+Delapan lebih besar dari tujuh delapan dalam dua.
+
+01:47.540 --> 01:49.870
+Tukar mereka delapan dalam empat.
+
+01:49.940 --> 01:50.990
+Tukar mereka.
+
+01:51.000 --> 02:00.020
+Kita menggembungkan angka tertinggi dan kemudian kita mulai dari awal lima dan tiga lima dalam satu kita menggembungkan jumlah
+
+02:00.020 --> 02:02.820
+terbesar sehingga 7 datang berikutnya.
+
+02:04.400 --> 02:08.160
+Kemudian kita terus berjalan sampai 6 datang berikutnya.
+
+02:08.270 --> 02:16.670
+Kemudian kami terus mengulang sampai kami menggembungkan angka tertinggi satu per satu Satu demi satu sampai kami memiliki daftar
+
+02:17.030 --> 02:19.630
+yang diurutkan yaitu bubble sort.
+
+02:19.640 --> 02:22.740
+Sekarang bahkan sebelum kita mengkode ini apa yang Anda pikirkan tentang semacam gelembung.
+
+02:23.680 --> 02:28.020
+Seperti yang mungkin sudah Anda duga bukan yang paling efisien kan.
+
+02:28.090 --> 02:33.640
+Lihatlah berapa banyak perbandingan yang kami lakukan dan semuanya dimenangkan oleh satu perulangan dan perulangan dan perulangan dan
+
+02:33.640 --> 02:34.300
+semacam gelembung.
+
+02:34.300 --> 02:41.710
+Adalah salah satu algoritma penyortiran yang paling sederhana tetapi juga salah satu yang paling efisien jadi jangan membenci saya karena menunjukkan kepada
+
+02:41.710 --> 02:43.090
+Anda bagaimana ini bekerja.
+
+02:43.090 --> 02:48.990
+Ini biasanya digunakan sebagai alat belajar sebagai langkah pertama dalam mempelajari algoritma tertentu.
+
+02:49.030 --> 02:55.320
+Menurut Anda apa kompleksitas waktu dan kompleksitas ruang dari algoritma ini adalah jawabannya.
+
+02:55.750 --> 03:00.920
+Yah kita bisa menggunakan Chichi besar jika kita melihat semacam gelembung.
+
+03:01.120 --> 03:08.410
+Kami melihat bahwa case yang paling kami minati adalah case rata-rata dan terburuk yang kami lihat adalah case of
+
+03:08.440 --> 03:09.580
+a square.
+
+03:10.550 --> 03:17.540
+Dengan kompleksitas ruang satu, kami tidak benar-benar membuat struktur data baru, kami hanya membandingkan
+
+03:17.540 --> 03:21.670
+item dalam loop bersarang satu per satu.
+
+03:22.020 --> 03:28.950
+Tapi mari kita lihat dalam kode untuk melihat mengapa ini semua berakhir dan saya ingin menantang Anda di
+
+03:28.950 --> 03:33.900
+sini di video berikutnya kita akan kode di sepanjang algoritma semacam gelembung.
+
+03:34.440 --> 03:41.370
+Tetapi jika Anda ingin maju dan coba menerapkan ini sendiri dan lihat bagaimana kode Anda cocok dengan milik
+
+03:41.370 --> 03:43.250
+saya di video berikutnya.
+
+03:43.320 --> 03:43.710
+HUTCHEON.

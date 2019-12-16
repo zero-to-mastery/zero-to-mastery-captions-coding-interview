@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.330 --> 00:07.600
+Este timpul pentru un alt exercițiu pe care l-am învățat cum să creăm o structură de date stack.
+
+00:07.660 --> 00:11.030
+Dar cum rămâne cu o nouă structură de date.
+
+00:11.050 --> 00:15.250
+Din fericire pentru noi mulți directori vor fi la fel.
+
+00:15.390 --> 00:21.370
+Și dacă sunteți în măsură să înțelegeți cum funcționează structura de date stack, atunci nu ar trebui să aveți nicio problemă în
+
+00:21.460 --> 00:23.420
+construirea unei noi structuri de date.
+
+00:24.690 --> 00:27.460
+Am creat un șablon pentru a ne începe aici.
+
+00:27.810 --> 00:34.470
+Și sarcina dvs. este de a crea aceste trei metode de alegere cu care suntem familiarizați.
+
+00:34.530 --> 00:42.940
+Vrem să aruncăm o privire și să obținem primul element din coada noastră sau din linia noastră, așa cum îmi place să o numesc.
+
+00:43.100 --> 00:49.640
+Și în constructorul nostru, în loc să avem top și jos, așa cum am făcut cu un teanc, avem primul și ultimul care
+
+00:50.060 --> 00:52.670
+e primul în linie care a pierdut în linie.
+
+00:52.670 --> 00:56.500
+Și, evident, o lungime de zero.
+
+00:56.660 --> 01:02.720
+Și treaba voastră este să creați și să completați aceste metode pe tac.
+
+01:02.720 --> 01:09.550
+Amintiți-vă este să adăugați la Q și dequeue este de a elimina din coadă.
+
+01:09.630 --> 01:16.560
+Amintiți-vă că diferența dintre un teanc care folosește pop este că dequeue elimină din partea din
+
+01:16.560 --> 01:19.860
+față a listei ceea ce este primul.
+
+01:19.990 --> 01:21.100
+Și din nou, dacă vrei.
+
+01:21.100 --> 01:24.700
+Puteți crea o altă metodă numită gol.
+
+01:24.700 --> 01:31.930
+Scopul tău este să creezi această coadă astfel încât să poți crea o listă de așteptare unde Joy devine în linie.
+
+01:31.970 --> 01:33.870
+Apoi, Matt se apropie.
+
+01:33.970 --> 01:35.920
+Apoi, Pavel se apropie.
+
+01:36.010 --> 01:43.490
+Apoi, Sumir devine în linie și apoi le ucizi unul câte unul cu primul venit primul servi.
+
+01:44.920 --> 01:47.320
+Mult noroc și vă voi vedea în filmul soluție.

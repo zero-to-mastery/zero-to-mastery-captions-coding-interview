@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00.840 --> 00:01.820
+Ben tornato.
+
+00:02.220 --> 00:05.380
+Vediamo come possiamo implementare il metodo di risposta.
+
+00:06.380 --> 00:08.730
+E questo è stato difficile, quindi spero che ce l'abbia.
+
+00:08.780 --> 00:14.070
+Se non almeno ci hai provato in modo che possiamo vedere come vogliamo implementare correttamente il metodo di inserimento.
+
+00:15.280 --> 00:23.120
+La prima cosa che voglio fare è prima di tutto controllare i miei parametri e questo è qualcosa che di solito voglio
+
+00:23.140 --> 00:25.340
+fare con tutti i metodi.
+
+00:25.360 --> 00:31.120
+So che abbiamo semplificato le cose e quando abbiamo guardato il presente e append abbiamo
+
+00:31.120 --> 00:37.410
+mai controllato se il valore fosse qualcosa che volevamo, ma quando si tratta di inserire qualcosa vogliamo essere
+
+00:37.410 --> 00:43.630
+sicuri che l'indice sia un valore che capiamo così il nostro programma non lo fa non dare errori
+
+00:44.280 --> 00:51.130
+E ci sono molte cose che possiamo fare per un controllo e lascerò a te il compito di implementare davvero un
+
+00:51.130 --> 00:51.790
+buon controllo.
+
+00:51.880 --> 01:00.220
+Ma l'importante controllo che penso che dovremmo avere è se l'indice è maggiore o uguale a
+
+01:00.930 --> 01:02.080
+questa lunghezza.
+
+01:02.140 --> 01:09.820
+Quindi se fornisco un inserto di diciamo indice a 200 e la nostra lista è lunga solo tre elementi voglio essere
+
+01:09.820 --> 01:11.680
+in grado di gestirlo correttamente.
+
+01:11.890 --> 01:19.590
+In questo caso sto dicendo che l'indice è maggiore o uguale a questo dominante.
+
+01:19.900 --> 01:24.490
+In tal caso, aggiungilo alla fine della lista.
+
+01:24.520 --> 01:31.870
+Quindi se dico inserire il valore 200 di novantanove aggiungo solo i novantanove alla fine della lista
+
+01:31.870 --> 01:35.020
+e puoi implementare diverse varianti di questo.
+
+01:35.020 --> 01:41.450
+Forse puoi restituire un errore se vuoi, ma per semplificare le cose penso che sia abbastanza buono
+
+01:41.450 --> 01:46.280
+e possiamo solo dire di restituire questo punto append che hai già.
+
+01:46.280 --> 01:52.490
+Dobbiamo dire che questo avvia una penna perché stiamo facendo riferimento a un metodo in questa classe, quindi
+
+01:54.340 --> 01:57.320
+dì questa append e aggiungeremo semplicemente il valore.
+
+01:57.370 --> 01:58.190
+Eccoci.
+
+01:58.570 --> 02:05.470
+Quindi se faccio duecentonovantanove qui andiamo E aggiungiamo la lista di Prynne in fondo
+
+02:06.330 --> 02:12.380
+qui e se clicco eseguo ottengo 99 aggiunti alla fine della lista.
+
+02:12.450 --> 02:20.830
+Ma se l'indice fosse mentre questa ora è la parte del cuore.
+
+02:20.860 --> 02:28.200
+Vogliamo prima creare il nuovo nodo e ricordare che possiamo creare una nuova istanza di classe, se vogliamo,
+
+02:28.250 --> 02:33.680
+ma nel nostro caso creeremo solo un nuovo oggetto con valore di valore.
+
+02:34.820 --> 02:40.790
+E in seguito niente di nuovo qui abbiamo visto prima.
+
+02:42.840 --> 02:48.360
+Arriva la parte difficile e mi piace commentare questo o almeno visualizzarlo in modo da capire cosa
+
+02:48.360 --> 02:49.350
+stiamo facendo.
+
+02:49.350 --> 02:58.160
+Abbiamo due note che sono collegate e quindi abbiamo una NOVITÀ, so che arriva e dice hey voglio
+
+02:58.160 --> 03:00.950
+che tu risponda proprio qui.
+
+03:00.950 --> 03:02.630
+Quali dovrebbero essere i passaggi.
+
+03:03.990 --> 03:11.220
+Bene, la prima cosa che dobbiamo fare è capire in realtà quale nodo è il primo perché ricordati
+
+03:11.340 --> 03:15.020
+di inserire qualcosa per scegliere l'indice che vogliamo.
+
+03:15.030 --> 03:21.780
+Quindi se vogliamo inserire un indice di due vogliamo afferrare qualunque sia l'indice di due.
+
+03:21.900 --> 03:22.940
+Quindi abbiamo bisogno di
+
+03:23.040 --> 03:30.990
+Quindi dobbiamo attraversare la nostra lista e dire 0 1 per trovare questo nodo e ottenere un riferimento ad esso.
+
+03:31.080 --> 03:33.450
+Altrimenti non abbiamo alcun riferimento ad esso.
+
+03:33.480 --> 03:40.590
+Ricorda che una lista di link ha solo riferimento a questa testa e questa coda.
+
+03:40.620 --> 03:47.790
+Quindi la prima cosa che vogliamo fare è arrivare a quella nota e chiameremo
+
+03:47.790 --> 03:55.250
+questo primo nodo come leader, perché sarà la prima prima nota che collegheremo questo
+
+03:55.250 --> 04:04.100
+nuovo nodo 2 e questo nuovo nodo ora punta al prossimo nodo o al no inizialmente collegato alla
+
+04:04.100 --> 04:05.520
+prima nota.
+
+04:05.930 --> 04:15.530
+Quindi dirò che questo nodo leader sta andando bene, come possiamo ottenere che dobbiamo in qualche modo attraversare uno per
+
+04:15.530 --> 04:22.730
+uno finché non troviamo l'indice che stiamo cercando e per mantenere il codice pulito.
+
+04:22.730 --> 04:24.280
+Ho intenzione di creare un nuovo metodo.
+
+04:24.370 --> 04:32.330
+Sto per dire che questo punto traverso per indicizzare sarà un nuovo metodo.
+
+04:32.660 --> 04:41.290
+Questo è semplicemente andando a ottenere l'indice che è 0 1 2 e voglio afferrare il leader.
+
+04:41.300 --> 04:51.350
+Quindi se voglio inserire il numero 99 qui devo assicurarmi che 10 punti a novantanove e novantanove
+
+04:51.350 --> 04:53.170
+punti a cinque.
+
+04:53.600 --> 05:01.580
+Ciò significa che ho bisogno di prendere l'indice non qui e puntarlo al leader che è il 10 il leader
+
+05:01.580 --> 05:03.510
+che vogliamo della lista.
+
+05:03.620 --> 05:10.980
+Quindi ho intenzione di fare è meno uno in modo da indicare il leader e questo attraversare per indicizzare.
+
+05:11.000 --> 05:12.570
+Mentre dovremo creare.
+
+05:13.780 --> 05:21.010
+E ho questa parola chiave qui perché di nuovo è un metodo su questa classe che sto per dire
+
+05:21.040 --> 05:23.830
+Traverse due indici che otterrà un indice.
+
+05:24.040 --> 05:28.040
+E qui è dove facciamo il nostro attraversamento o looping.
+
+05:28.060 --> 05:33.460
+Potresti voler controllare i parametri qui e assicurarti che sia un indice valido e questo è qualcosa che
+
+05:33.460 --> 05:34.710
+puoi fare da solo.
+
+05:34.720 --> 05:37.010
+Non è molto importante per questo esempio.
+
+05:38.300 --> 05:43.790
+Possiamo presumere che l'indice sarà un numero valido un indice valido.
+
+05:43.790 --> 05:50.040
+E poi qui faremo prima qualcosa come un contatore che sarà uguale a zero.
+
+05:51.620 --> 05:57.830
+E stiamo per dire che il nodo corrente è qualcosa che abbiamo
+
+05:57.830 --> 06:04.330
+fatto in modo simile alla lista di stampa, manterremo il nodo corrente come questo.
+
+06:04.470 --> 06:17.710
+E mentre la corrente o il contatore non è uguale all'indice perché stiamo dicendo che il movimento continua
+
+06:17.740 --> 06:25.950
+dall'inizio alla fine finché il contatore non è uguale all'indice.
+
+06:25.960 --> 06:30.870
+Quindi continua il ciclo while finché il contatore non è uguale all'indice.
+
+06:30.910 --> 06:36.260
+Ma non appena il contatore diventa l'indice così mentre raggiungiamo il punto che vogliamo nel nostro caso
+
+06:36.260 --> 06:41.440
+attraversiamo per indice meno uno che significa non appena arriviamo a 10 e poi fermiamo.
+
+06:41.440 --> 06:48.370
+Ma fino ad allora voglio che tu attraversi questo nodo così corrente che equivale al
+
+06:51.280 --> 06:53.990
+prossimo punto del nodo corrente.
+
+06:54.010 --> 07:00.680
+Quindi continueremo a spostare il nodo corrente verso destra e incrementeremo il contatore uno
+
+07:00.740 --> 07:01.920
+per uno.
+
+07:02.090 --> 07:03.110
+Questo è tutto.
+
+07:03.110 --> 07:05.510
+Questa è la nostra traversata.
+
+07:05.550 --> 07:11.610
+Tutto quello che dobbiamo fare alla fine, perché vogliamo restituire qualcosa da
+
+07:12.270 --> 07:18.670
+questo metodo, è di restituire il nodo corrente e quindi lo diciamo attraversiamo all'indice.
+
+07:18.820 --> 07:23.060
+Nel nostro caso inseriremo due novantanove.
+
+07:23.350 --> 07:27.120
+Ne riceveranno due novantanove qui.
+
+07:27.290 --> 07:34.100
+Creerà il nuovo nodo e attraverserà per indicizzare fino a meno uno è 1,
+
+07:34.100 --> 07:40.240
+quindi dirà 0 e 1 e il contatore avrà un indice uguale.
+
+07:40.250 --> 07:47.520
+Quindi uscirà dal ciclo e restituirà il nodo corrente che è 10.
+
+07:47.630 --> 07:50.510
+Afferriamo il riferimento al leader.
+
+07:50.540 --> 07:52.330
+Congratulazioni ma non abbiamo ancora finito.
+
+07:52.340 --> 07:53.460
+Destra.
+
+07:53.600 --> 07:57.040
+Una volta che prendiamo il riferimento al leader, cosa facciamo dopo.
+
+07:58.250 --> 08:05.660
+Bene, la prossima cosa è che vogliamo essere sicuri di afferrare l'elemento successivo in questo elenco
+
+08:05.660 --> 08:10.290
+originale che vogliamo tenere un puntatore al numero cinque.
+
+08:10.610 --> 08:12.200
+Ancora una volta non vogliamo rompere questa lista.
+
+08:12.200 --> 08:19.130
+Vogliamo assicurarci che le connessioni funzionino correttamente e che Nine-Nine arrivi dopo le 10 e le
+
+08:19.130 --> 08:21.080
+99 arrivino alle cinque.
+
+08:21.500 --> 08:32.500
+Quindi il prossimo passo che vuoi fare nel nostro metodo di inserimento è quello che chiamo hold o chiamiamolo semplicemente tenendo il
+
+08:32.500 --> 08:33.050
+puntatore.
+
+08:33.100 --> 08:38.930
+Probabilmente potrei chiamarlo meglio ma tenere Poitier è bello e diremo capo punto dopo.
+
+08:39.910 --> 08:46.260
+Il prossimo Don è il cinque e questo cinque.
+
+08:46.470 --> 08:56.690
+Ora abbiamo fatto riferimento a questa variabile che sarà temporaneamente successiva perché abbiamo cinque salvati in questa variabile
+
+08:56.750 --> 08:59.300
+referenziata in questa variabile.
+
+08:59.420 --> 09:06.240
+Ora possiamo aggiornare il leader accanto al nostro nuovo nodo.
+
+09:06.430 --> 09:17.610
+Quindi posso dire che il leader Dodd next ora punta al nuovo nodo e ricorda a causa di come funzionano i riferimenti abbiamo eliminato
+
+09:17.610 --> 09:26.310
+il riferimento di cinque qui in modo che 10 non punti più a cinque ma abbiamo salvato il
+
+09:26.310 --> 09:28.280
+riferimento ad esso qui.
+
+09:28.320 --> 09:30.420
+E questa variabile.
+
+09:30.480 --> 09:40.670
+Quindi adesso se torniamo al nostro esempio qui abbiamo rimosso il riferimento a questo
+
+09:40.670 --> 09:47.410
+e ora 10 punti per ora è meglio spaziatura.
+
+09:47.410 --> 09:48.590
+Ecco qua.
+
+09:48.800 --> 09:50.440
+OK, cosa facciamo dopo.
+
+09:51.670 --> 09:59.240
+Bene, ora abbiamo bisogno di questo nodo che conosci 2. 2 questo come questo ed è abbastanza semplice.
+
+09:59.350 --> 10:09.530
+Ditichiamo semplicemente una nuova nota a quella di Don che equivale a mantenere il puntatore il cinque che stiamo
+
+10:09.620 --> 10:11.250
+tenendo in memoria.
+
+10:11.450 --> 10:21.530
+E poi finalmente diciamo questa terra più perché abbiamo aggiunto alla lista e possiamo restituirlo o solo così sappiamo di averlo
+
+10:21.530 --> 10:22.990
+fatto correttamente.
+
+10:22.990 --> 10:30.380
+Dirò questa lista di stampa di pensieri una volta che insensiamo qualcosa inseriamo qualcosa che stamperemo
+
+10:30.380 --> 10:31.820
+la lista.
+
+10:31.970 --> 10:33.850
+Vediamo se funziona.
+
+10:33.860 --> 10:39.590
+Voglio rimuovere questo in modo che il codice funzioni e non abbiamo bisogno di stamparlo.
+
+10:39.650 --> 10:43.000
+Eseguiamo questo comando.
+
+10:43.030 --> 10:44.220
+Ehi guarda.
+
+10:44.230 --> 10:56.060
+Quindi, prima che avessimo questa lista, stamperemo effettivamente Vestiaire in modo che possiamo vederlo nella mia stampa o nella
+
+10:56.060 --> 11:00.020
+mia lista collegata dot print CList.
+
+11:00.080 --> 11:04.380
+Questo è quello che avevamo prima e abbiamo aggiunto 99 qui.
+
+11:06.100 --> 11:07.310
+Proprio così.
+
+11:07.530 --> 11:13.240
+E solo per testarlo ancora una volta se inserisco di nuovo il mio elenco di punti collegati e
+
+11:13.240 --> 11:19.760
+questa volta ne fornirà 20 che non esiste indice di 20 e a 88 che dovrebbe essere aggiunto alla fine della lista.
+
+11:22.200 --> 11:29.860
+E perché con questo inserto dove quando facciamo il check aggiungiamo semplicemente questo punto append che non sta
+
+11:30.130 --> 11:31.780
+stampando la lista.
+
+11:31.780 --> 11:37.350
+Aggiungiamo semplicemente una lista di stampa in basso qui per assicurarci che funzioni.
+
+11:37.360 --> 11:43.510
+Eccoti alla fine 88 molto belli.
+
+11:43.570 --> 11:50.530
+So che era una sfida e l'inserimento è probabilmente la funzione più difficile da implementare o un metodo da implementare
+
+11:50.560 --> 11:54.190
+in una lista concatenata, ma praticarla un paio di volte.
+
+11:54.250 --> 11:56.690
+Capisco davvero cosa sta facendo ogni passo.
+
+11:56.710 --> 11:58.900
+Disegnalo se ne hai bisogno.
+
+11:59.170 --> 12:00.490
+Ma congratulazioni
+
+12:00.550 --> 12:04.580
+Abbiamo appena implementato una funzione di risposta nella nostra lista di lunghezza della lista.
+
+12:05.050 --> 12:10.450
+E potresti notare l'anno in cui dovevamo attraversare il luogo in cui eravamo selvaggiamente.
+
+12:10.640 --> 12:12.440
+E questo potrebbe aver senso ora.
+
+12:13.690 --> 12:23.640
+Perché abbiamo avuto l'inserto come un tutto perché abbiamo dovuto scorrere il nostro elenco e cercare che può anche essere chiamato attraversamento era
+
+12:23.640 --> 12:27.990
+anche l'evento che era la nostra traversata per indicizzare.
+
+12:27.990 --> 12:28.500
+Destra.
+
+12:28.530 --> 12:35.100
+Ad esempio, se cerchiamo un articolo a un indice di 10, dovremmo cercare nel caso peggiore
+
+12:35.130 --> 12:37.480
+di dover esaminare l'intera lista.
+
+12:37.500 --> 12:39.200
+Lo stesso vale per il tensore.
+
+12:39.240 --> 12:40.060
+Tutto ok.
+
+12:40.090 --> 12:47.530
+Ora che abbiamo fatto l'inserto dovresti essere in grado di fare il prossimo da solo che è eliminare usando qualcosa di molto
+
+12:47.530 --> 12:50.240
+simile a come abbiamo fatto con l'insert.
+
+12:50.710 --> 12:56.740
+Aggiungiamo una cancellazione o mi piace per chiamare questa rimozione.
+
+12:56.830 --> 13:03.560
+Abbiamo una rimozione che ha il parametro e X di ciò che vuoi rimuovere.
+
+13:03.560 --> 13:06.360
+Buona fortuna a scrivere questo codice e ci vediamo nel video della soluzione.

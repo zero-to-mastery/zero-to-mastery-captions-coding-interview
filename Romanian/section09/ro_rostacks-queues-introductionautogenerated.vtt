@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.080 --> 00:02.250
+Bine ai revenit.
+
+00:02.580 --> 00:11.160
+Să vorbim despre niște noi structuri de date de aici, avem stive și Qs Q cu probabil cea mai
+
+00:11.220 --> 00:13.500
+confuză ortografie a tuturor timpurilor.
+
+00:13.500 --> 00:18.860
+Nu vă faceți griji chiar și eu, care am fluent în limba engleză, au un timp foarte dificil de a scrie acest lucru.
+
+00:18.900 --> 00:20.380
+Dar este vorba de indicii.
+
+00:20.430 --> 00:27.120
+Oricum nu vă faceți griji că structura de date nu este la fel de confuză ca ortografia acestei structuri de date.
+
+00:27.810 --> 00:34.820
+Vom învăța, în același timp, stive în coadă, pentru că sunt foarte asemănătoare.
+
+00:34.860 --> 00:42.450
+Acestea sunt ambele așa numite structuri de date liniare și structuri liniare de date ne permit să
+
+00:42.450 --> 00:51.750
+traversăm care trece prin elementele de date secvențial unul câte unul în care se poate ajunge direct la un singur element de date.
+
+00:51.750 --> 00:57.420
+Și acest lucru va deveni mai clar pentru dvs., deoarece vorbim mai mult despre stive și cozi în
+
+00:57.420 --> 00:58.410
+timpul următoarelor videoclipuri.
+
+00:59.150 --> 01:06.860
+Acum, motivul pentru care acestea sunt foarte asemănătoare este că pot fi implementate în moduri similare, iar diferența principală
+
+01:06.920 --> 01:12.690
+este doar modul în care elementele sunt eliminate din această structură de date.
+
+01:12.740 --> 01:18.830
+Vezi, spre deosebire de o matrice în stive în cozi, nu există nicio operație de acces aleatoriu.
+
+01:18.830 --> 01:24.500
+Utilizați în principal stive și cozi pentru a rula comenzi cum ar fi pop peak pop.
+
+01:24.980 --> 01:31.480
+Toate acestea privesc exclusiv elementul de la începutul sau sfârșitul structurii de date.
+
+01:31.490 --> 01:35.500
+Acum, după ce am spus că a fost primul tău gând.
+
+01:35.690 --> 01:39.200
+Are un sunet care limitează acest lucru cu stive și cozi.
+
+01:39.350 --> 01:45.590
+De obicei, putem accesa numai primul sau ultimul element și structura de date.
+
+01:45.620 --> 01:48.170
+De ce am vrea vreodată să folosim așa ceva.
+
+01:48.920 --> 01:51.560
+Și acesta este un subiect important în domeniul informaticii.
+
+01:51.680 --> 01:59.390
+Veți vedea că putem construi lucruri cum ar fi stive și Q-uri care folosesc arhitecturi sau liste legate, exceptând spre deosebire de
+
+01:59.840 --> 02:07.820
+arrays și listele legate, avem mai puține metode sau mai puține acțiuni pe care le putem efectua pe stive și Q și uneori este
+
+02:07.820 --> 02:14.950
+bine să avem aceste date de nivel superior structuri care sunt construite pe lângă cele de nivel inferior, cum ar fi
+
+02:14.950 --> 02:20.470
+listele și arraile legate, pentru a limita operațiunile pe care le puteți face asupra lor.
+
+02:20.470 --> 02:23.580
+Acesta este de fapt un avantaj în domeniul informaticii.
+
+02:23.620 --> 02:30.370
+Având această capacitate limitată pe o structură de date este un avantaj deoarece puteți controla acest lucru.
+
+02:30.370 --> 02:36.790
+Oricine utilizează această structură de date efectuează numai operațiile de scriere care sunt eficiente.
+
+02:36.790 --> 02:43.420
+Dacă dai cuiva toate instrumentele din lume, este mult mai greu pentru ei să funcționeze decât dacă le dai
+
+02:43.420 --> 02:48.320
+doar două sau trei, astfel încât să știe exact ce trebuie să facă.
+
+02:48.340 --> 02:53.230
+Acum hai să vorbim despre stive și cozi în următoarele două videoclipuri pentru a înțelege cu adevărat cum
+
+02:53.230 --> 02:53.740
+funcționează.
+
+02:53.770 --> 02:55.810
+Și apoi codul nostru în cele din urmă.
+
+02:56.110 --> 02:57.540
+Voi vedea în următorul.
+
+02:57.780 --> 02:58.030
+Babai.

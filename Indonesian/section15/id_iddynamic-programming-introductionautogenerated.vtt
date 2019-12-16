@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.950 --> 00:11.610
+Selamat datang di bagian terakhir kami tentang algoritme yang merupakan bagian terakhir yang hilang dan itu adalah pemrograman yang dinamis
+
+00:11.970 --> 00:14.190
+terdengar sangat penting bukan.
+
+00:15.250 --> 00:24.340
+Dengan bagian ini kita akan membahas bagian terakhir dari peta pikiran kita untuk melengkapi seluruh grafik pengetahuan
+
+00:24.340 --> 00:25.140
+kita.
+
+00:25.150 --> 00:27.100
+Jadi kami siap untuk wawancara.
+
+00:27.160 --> 00:34.480
+Ini bagian kecil terakhir dari pemrograman dinamis yang secara khusus menghafal yang akan kita
+
+00:34.480 --> 00:35.410
+bicarakan.
+
+00:35.830 --> 00:44.380
+Tapi apa itu Pemrograman Dinamis hanyalah teknik optimasi.
+
+00:44.520 --> 00:50.800
+Dan inilah fakta yang menyenangkan bahwa pemrograman dinamis sebenarnya tidak berarti apa-apa.
+
+00:50.940 --> 00:55.610
+Ini benar-benar kata kunci sampah dan saya tidak bercanda di sini.
+
+00:55.730 --> 01:01.530
+Semua terkait dengan artikel lucu tentang bagaimana nama itu muncul tetapi
+
+01:01.530 --> 01:07.420
+pemrograman dinamis pada akhir hari hanyalah teknik optimasi menggunakan sesuatu yang disebut caching.
+
+01:07.460 --> 01:14.120
+Jika Anda memiliki sesuatu yang dapat di-cache dengan baik maka ia dapat menggunakan pemrograman dinamis.
+
+01:14.130 --> 01:20.130
+Sekarang kita akan masuk ke rincian apa artinya di seluruh video
+
+01:20.130 --> 01:28.260
+berikutnya tetapi pada pemrograman dinamis tingkat tinggi adalah cara untuk memecahkan masalah dengan memecahnya menjadi kumpulan submasalah
+
+01:28.740 --> 01:35.040
+yang memecahkan masing-masing memecahkan masalah hanya sekali dan menyimpan solusi mereka untuk berjaga-jaga.
+
+01:35.040 --> 01:42.960
+Lain kali subproblem yang sama terjadi tetapi mari kita masuk ke dalamnya dan memahami apa artinya bagaimana kita bisa menerapkannya untuk
+
+01:42.960 --> 01:48.450
+menjadi pewawancara yang lebih baik, insinyur yang lebih baik, dan programmer yang lebih baik.
+
+01:48.600 --> 01:50.740
+Saya akan melihat di video berikutnya oleh.

@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.110 --> 00:09.220
+Ogni funzione ricorsiva deve avere qualcosa chiamato caso base o punto di arresto.
+
+00:09.390 --> 00:16.380
+Ricorda il mio esempio all'inizio dove ti ho mostrato come controllare in modo
+
+00:17.010 --> 00:26.490
+ricorsivo tutte le cartelle in uno dei nostri progetti, dobbiamo dire al programma hey se questa sottocartella non avrà
+
+00:26.490 --> 00:33.770
+più altre cartelle fermarsi se questa fermata non fosse laggiù la funzione continuerebbe a funzionare.
+
+00:33.940 --> 00:36.790
+Quindi le funzioni ricorsive hanno due percorsi.
+
+00:37.570 --> 00:43.730
+Uno è il caso ricorsivo che chiama di nuovo la funzione ed eseguirlo.
+
+00:44.080 --> 00:47.370
+E poi il caso base che sta smettendo di chiamare la funzione.
+
+00:47.530 --> 00:49.950
+Non c'è altro da cercare
+
+00:50.000 --> 00:56.180
+Quindi, come possiamo aggiungere questa funzione di dire la funzione? Ehi, smettila, sei ridicolo adesso hai
+
+00:56.180 --> 00:57.350
+bisogno di fermarti.
+
+00:57.830 --> 01:00.920
+Bene, possiamo fare qualcosa di simile.
+
+01:01.040 --> 01:04.610
+Possiamo creare un contatore e diremo che questo contatore è zero.
+
+01:06.960 --> 01:19.280
+E possiamo aggiungere una dichiarazione condizionale che dirà che se il contatore è maggiore di 3, in quel caso
+
+01:19.280 --> 01:21.390
+basta tornare Fatto.
+
+01:24.480 --> 01:27.100
+Altrimenti chiameremo la nascita.
+
+01:27.110 --> 01:31.360
+Ma vogliamo anche incrementare il contatore di 1.
+
+01:31.390 --> 01:41.190
+Quindi, se clicco eseguito qui bene, devo chiamare la funzione prima diciamo all'inizio se chiamo questa funzione in questo
+
+01:41.350 --> 01:44.340
+momento, cosa pensi che accadrà.
+
+01:45.210 --> 01:46.360
+Metti in pausa un video.
+
+01:46.360 --> 01:51.070
+Pensaci perché sto per fare clic su Esegui in tre a
+
+01:54.560 --> 01:56.700
+uno, non sono definito.
+
+01:56.870 --> 02:00.220
+È quello che ti aspettavi.
+
+02:00.350 --> 02:07.670
+Solo per mostrarti qualcosa se commento questo codice e facciamo solo questo Inception
+
+02:07.670 --> 02:20.630
+dove continuiamo a chiamare inception e forse facciamo un log della console qui dicendo ciao e faccio clic su run ottengo che le dimensioni
+
+02:20.630 --> 02:24.610
+massime dello stack delle chiamate superano OK.
+
+02:24.800 --> 02:30.660
+Sappiamo guardando questa funzione della funzione che non arriverà mai al log della console perché non appena
+
+02:30.850 --> 02:37.160
+raggiunge la prima riga della funzione tornerà indietro e dirà oh lo chiamo e poi tipo vai qui è
+
+02:37.160 --> 02:42.350
+solo andando a rimbalzare avanti e indietro avanti e indietro senza mai arrivare al log
+
+02:42.350 --> 02:43.280
+della console.
+
+02:43.580 --> 02:46.000
+Ma se torniamo a quello che abbiamo prima.
+
+02:46.400 --> 02:50.040
+Bene, la nostra funzione è chiaramente finita.
+
+02:50.060 --> 02:58.860
+Non ha fatto overflow dello stack e ad un certo punto è terminato perché incrementiamo il contatore.
+
+02:58.900 --> 03:05.960
+Quindi permettimi di gestire tutti i log qui sono counter e assicurati che funzioni.
+
+03:06.100 --> 03:12.670
+Se faccio clic su run ottengo 0 1 2 3 4 quando arriva a 4.
+
+03:12.670 --> 03:15.160
+Il contatore è maggiore di 3.
+
+03:15.430 --> 03:17.510
+Quindi stiamo tornando fatto.
+
+03:17.650 --> 03:20.860
+Ma perché non c'è finito qui.
+
+03:22.200 --> 03:26.610
+E questa è un'ottima illustrazione di come funziona la ricorsione.
+
+03:26.670 --> 03:28.140
+Ho intenzione di
+
+03:31.270 --> 03:34.600
+copiare questo codice e tornare al nostro browser qui.
+
+03:34.750 --> 03:42.860
+Consentitemi di aggiornare questa pagina per assicurarvi di avere una variabile globale chiara e ho intenzione di copiare e
+
+03:42.860 --> 03:52.100
+incollare l'idea questa volta aggiungerò la parola chiave debugger in modo che possiamo eseguire il debug del nostro codice e procedere passo
+
+03:52.130 --> 03:53.690
+dopo passo esso.
+
+03:55.340 --> 04:00.750
+Cerchiamo di iniziare e vedere cosa succede.
+
+04:00.750 --> 04:04.680
+Bene, siamo di nuovo al nostro debugger.
+
+04:04.730 --> 04:06.860
+Vediamo che abbiamo lo stack delle chiamate qui.
+
+04:06.860 --> 04:14.720
+Il lancio è stato appena chiamato da me e ho anche aperto questa piccola scheda chiamata scope per il nostro caso.
+
+04:14.740 --> 04:19.740
+Vogliamo solo aprire l'ambito dello script.
+
+04:19.940 --> 04:28.500
+Ci mostra quali variabili abbiamo a nostra disposizione in questo caso abbiamo un contatore che è il tuo.
+
+04:28.640 --> 04:29.610
+Quindi clicco.
+
+04:29.630 --> 04:36.460
+Passa e diciamo che abbiamo contatore è uguale a zero.
+
+04:36.470 --> 04:38.130
+È più grande di tre.
+
+04:38.160 --> 04:45.140
+No, ho intenzione di saltare il contatore di Inkerman e correre e separare vediamo che è successo.
+
+04:46.050 --> 04:51.770
+Il contatore ora è stato incrementato perché abbiamo attraversato questa linea e ora andiamo a Inception.
+
+04:51.810 --> 04:56.010
+Eseguiremo di nuovo la funzione e noteremo che lo stack di chiamate quando clicco
+
+04:56.010 --> 04:56.510
+su
+
+04:59.390 --> 05:05.670
+questa voce aumenterà e andremo a passare ancora una volta in Paesi ora uno Nope non restituisce nulla ma incrementa il contatore.
+
+05:05.750 --> 05:09.460
+Vedrai che il contatore va a due e avremo di nuovo inizio.
+
+05:10.590 --> 05:18.620
+E continuiamo ancora una volta passando per Connard che diventa tre aggiungendo inizio allo stack e poi
+
+05:18.620 --> 05:23.230
+ancora una volta tre non è maggiore di tre.
+
+05:23.230 --> 05:27.420
+Quindi passiamo ancora una volta chiamando l'inizio aggiungendo nello stack.
+
+05:27.580 --> 05:36.700
+Ora abbiamo questi molti segnalini stack a quattro e poi calpestiamo qui il contatore è ora quattro che è maggiore
+
+05:36.700 --> 05:37.760
+di tre.
+
+05:37.780 --> 05:43.210
+Alla fine entreremo nella condizione if che verrà restituita per noi.
+
+05:43.270 --> 05:44.690
+Vediamo cosa succede qui.
+
+05:44.710 --> 05:46.590
+Ho intenzione di fare clic su Avanti.
+
+05:48.650 --> 05:52.280
+E faccio nuovamente clic su Avanti.
+
+05:52.310 --> 05:53.330
+Guarda quello.
+
+05:53.480 --> 06:00.520
+Abbiamo una variabile locale ora che ha restituito il valore.
+
+06:00.540 --> 06:10.090
+Ora siamo tornati a fare e non chiameremo più lo stack di chiamate che ora inizierà a
+
+06:10.150 --> 06:17.070
+spuntare queste funzioni perché dirà oh abbiamo una parola chiave return.
+
+06:17.170 --> 06:22.020
+Interromperò tutto ciò che sto facendo qui in basso e tornerò da questa funzione.
+
+06:22.060 --> 06:28.020
+Quindi questa funzione di avvio sta per avere il ritorno fatto, ma si noti cosa succede dopo.
+
+06:31.070 --> 06:38.390
+Anche se ottengo un valore di ritorno indefinito, Azari ha cancellato l'elemento principale dall'inizio dello stack di chiamate
+
+06:38.770 --> 06:46.010
+e se continuo a prelevare elementi dallo stack delle chiamate, il valore restituito non è definito.
+
+06:46.170 --> 06:48.590
+Ed è per questo che otteniamo.
+
+06:48.800 --> 06:50.870
+Ora, perché è così.
+
+06:51.230 --> 06:59.990
+Bene, se torniamo alla nostra funzione bene, hai appena visto che in
+
+07:00.590 --> 07:11.500
+sostanza facevamo ciò che chiamavamo la nascita una volta due volte tre volte e poi quattro volte.
+
+07:11.720 --> 07:15.910
+E qui dentro, quando finalmente siamo arrivati, abbiamo detto oh, rientro fatto.
+
+07:16.130 --> 07:27.420
+Quindi questa funzione d'inizio si trasforma in dun e quindi andiamo a questa funzione.
+
+07:27.430 --> 07:34.680
+Ora il problema con questo e so che confonderlo è che una volta che siamo tornati una volta siamo usciti
+
+07:34.680 --> 07:41.530
+dallo stack e ora siamo in questa parte di inizio, ma questo inizio non restituisce mai nulla.
+
+07:41.850 --> 07:46.270
+Quando una funzione non restituisce nulla, torna indietro per trovare.
+
+07:46.290 --> 07:49.570
+Quindi dobbiamo continuare a dirlo per restituirlo.
+
+07:50.070 --> 07:53.400
+E bolla fino alla fine.
+
+07:53.820 --> 07:58.320
+E questo è qualcosa che devi tenere a mente con la ricorsione.
+
+07:58.410 --> 08:05.990
+Di solito c'è un caso base e vuoi sempre assicurarti di tornare in modo che il valore
+
+08:05.990 --> 08:09.860
+che vuoi venga fatto esplodere fino a parlare.
+
+08:09.890 --> 08:19.490
+Nel nostro caso, tutto ciò che dobbiamo fare è dire ritorno in questo modo, in questo modo, in questo modo, è in grado di restituire
+
+08:19.490 --> 08:25.820
+qualsiasi risultato che è stato fatto e questo risultato è noto per restituire qualunque risultato sia
+
+08:26.000 --> 08:27.200
+stato eseguito nuovamente.
+
+08:27.500 --> 08:31.580
+E così via e così via fino a quando non siamo tornati indietro.
+
+08:31.580 --> 08:33.160
+Facciamo di nuovo questo.
+
+08:34.850 --> 08:35.030
+Tutto ok.
+
+08:35.180 --> 08:45.980
+E devo chiamare la funzione era di nuovo inizio e correre e siamo fatti molto molto bene.
+
+08:45.980 --> 08:53.730
+Se torno qui e torno ai cons. Ti invito a provare questa volta aggiungendo la parola
+
+08:53.730 --> 08:58.780
+chiave return a Inception e eseguendo il debugger per vedere cosa succede.
+
+08:59.970 --> 09:05.130
+Ma quello che ti ho appena mostrato è tutto ciò di cui hai bisogno per costruire funzioni ricorsive.
+
+09:05.130 --> 09:07.140
+Hai tre regole.
+
+09:07.170 --> 09:21.460
+Uno è identificare il caso base due è identificare il caso ricorsivo.
+
+09:21.500 --> 09:26.520
+Quindi abbiamo identificato il caso base per fermare il caso ricorsivo.
+
+09:26.540 --> 09:30.080
+Questo è quando Konner è meno di tre.
+
+09:30.180 --> 09:41.510
+E poi finalmente il nostro terzo passo è quello di avvicinarci sempre di più e tornare quando necessario.
+
+09:42.210 --> 09:48.750
+E di solito hai due ritorni per il caso base e il
+
+09:52.640 --> 09:58.330
+caso ricorsivo perché vuoi restituire qualcosa alla fine della funzione.
+
+09:58.430 --> 10:01.000
+Quindi commentiamo.
+
+10:01.010 --> 10:08.690
+Abbiamo un'idea di come la ricorsione funziona, la funzione si avvicina sempre di più al caso
+
+10:08.690 --> 10:09.580
+base.
+
+10:09.740 --> 10:17.210
+E una volta arrivato al caso base, alla fine ritorna e fa uscire le funzioni dallo stack, ma è sufficiente
+
+10:17.210 --> 10:18.350
+parlare per me.
+
+10:18.350 --> 10:24.500
+Penso che sia tempo per noi di fare alcuni esercizi di programmazione per familiarizzare con questo argomento.
+
+10:24.530 --> 10:25.830
+Vedrò nel prossimo.
+
+10:26.180 --> 10:26.420
+Babai.

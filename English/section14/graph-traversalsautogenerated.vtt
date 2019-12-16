@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.670 --> 00:07.990
+Welcome back the beauty of what we just learned in Treach reversal which was of an And we're visiting
+
+00:08.080 --> 00:16.490
+every node is that it's the same as in graph traversal because trees are just simply a type of graph
+
+00:17.700 --> 00:25.060
+so using the same technique instead of using left and right properties perhaps there's 10 children.
+
+00:25.410 --> 00:32.870
+What we can do the same thing using death for search and breadth first search and this is really powerful
+
+00:32.870 --> 00:42.480
+right because graphs are used to model real life models such as a recommendation engine an Amazon.
+
+00:42.720 --> 00:53.220
+We can now see what type of items are perhaps related or are the closest relation to the last book that
+
+00:53.220 --> 00:54.110
+we bought.
+
+00:54.420 --> 01:01.740
+And in that case they would use something like breath for a search or on Facebook to see what type of
+
+01:01.980 --> 01:04.690
+friend requests I should be recommended.
+
+01:05.070 --> 01:12.240
+If I have a connection on Linked-In perhaps I might use death for a search to see what degree of connection
+
+01:12.330 --> 01:14.140
+I have with that.
+
+01:14.190 --> 01:15.830
+Really important SEO.
+
+01:15.990 --> 01:26.520
+We use deafer search and these are the bases of how peer to peer networks work how Google Maps works.
+
+01:26.520 --> 01:27.370
+Right.
+
+01:27.480 --> 01:33.060
+Which is really really powerful and I have a nice visual here.
+
+01:33.060 --> 01:34.670
+I have our visual.
+
+01:34.670 --> 01:35.790
+I'll go here.
+
+01:35.840 --> 01:41.550
+Our good friend and they have a death for a search and I made this little graph and we can traverse
+
+01:41.550 --> 01:46.830
+now using actual Louis to breath for a search first and we'll start off with zero.
+
+01:46.950 --> 01:52.380
+So I'm going to enter zero in here and see how death research would work.
+
+01:52.440 --> 01:58.950
+We check all the closest Nodes 1 3 4 5 6 and then we start with 1.
+
+01:58.950 --> 02:00.010
+Does it have any children.
+
+02:00.080 --> 02:02.360
+Yep 2 7 and 8.
+
+02:02.580 --> 02:04.240
+And then we go next in line 3.
+
+02:04.280 --> 02:05.310
+What about 4.
+
+02:05.370 --> 02:06.220
+What about 5.
+
+02:06.330 --> 02:07.050
+What about 6.
+
+02:07.050 --> 02:08.420
+They don't have any children.
+
+02:09.330 --> 02:10.790
+OK let's go.
+
+02:10.890 --> 02:19.100
+Keep going down to the next place that has Shulgin and we traverse the graph as you can see starting
+
+02:19.100 --> 02:27.230
+with our closest neighbors and then going further and further out with a depth first search.
+
+02:27.530 --> 02:30.030
+Let's say we're starting at zero.
+
+02:31.260 --> 02:43.980
+And I hit go we go to one then to then 7 and then we're going to keep going deeper 8.
+
+02:44.180 --> 02:47.350
+We're going to go to nine then 10.
+
+02:47.360 --> 02:48.970
+There's no more nodes.
+
+02:49.040 --> 02:58.590
+So we're going to go all the way back and go to the next and the list that is 3 and 4 then 5 and 6.
+
+02:58.640 --> 03:07.010
+So just by looking at this you might see what I meant when I gave you the information at the beginning
+
+03:07.070 --> 03:13.430
+of this section that is breadth first search is usually good for shortest path.
+
+03:13.580 --> 03:16.880
+That is what's the closest to our node.
+
+03:16.910 --> 03:19.890
+What are the most related items on Amazon.
+
+03:20.890 --> 03:28.600
+Who are our closest friends on Facebook or closest connections on Linked-In versus depth first search
+
+03:29.200 --> 03:32.620
+which is really good to see if something exists.
+
+03:34.800 --> 03:42.430
+With deafer search we're able to go really deep into a graph fairly fast then breath.
+
+03:42.450 --> 03:47.040
+First search that might cost a bit of extra memory.
+
+03:47.060 --> 03:52.150
+Let's talk about these two algorithms in more detail when it comes to graphs.

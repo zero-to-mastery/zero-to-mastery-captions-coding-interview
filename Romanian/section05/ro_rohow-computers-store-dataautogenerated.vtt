@@ -1,0 +1,382 @@
+WEBVTT
+
+00:01.480 --> 00:08.260
+Pentru a înțelege cu adevărat valoarea structurilor de date trebuie să mergem adânc în modul în care
+
+00:08.260 --> 00:10.370
+calculatorul funcționează la nivel fundamental.
+
+00:11.620 --> 00:18.960
+Pentru ca un computer să ruleze codul, trebuie să țină evidența unor lucruri precum variabile precum
+
+00:19.000 --> 00:28.530
+numere de șiruri sau matrice, aceste variabile sunt stocate în ceea ce numim memorie cu acces aleatoriu sau memorie RAM pe scurt.
+
+00:28.560 --> 00:30.570
+Așa se desfășoară programele.
+
+00:30.690 --> 00:39.000
+Ne-am amintit acest lucru din complexitatea spațiului video chiar pe partea de sus că avem, de asemenea, de stocare în cazul în care
+
+00:39.000 --> 00:49.540
+vom stoca lucruri, cum ar fi fișierele noastre de fișiere de fișiere de muzică de documente și acest spațiu de stocare poate fi o unitate de disc o unitate flash
+
+00:49.780 --> 00:51.470
+sau o unitate SSD.
+
+00:52.290 --> 00:56.150
+Stocarea datelor este permanentă sau va fi numită persistentă.
+
+00:56.190 --> 01:02.460
+Deci, atunci când opriți laptopul sau computerul dvs. va fi încă acolo când îl reporniți în memoria
+
+01:02.460 --> 01:06.310
+RAM, veți pierde memoria atunci când computerul se oprește.
+
+01:07.370 --> 01:10.150
+Deci, de ce nu am folosi întotdeauna depozit.
+
+01:10.610 --> 01:12.360
+Deci nu pierdem niciun fel de date.
+
+01:12.830 --> 01:21.470
+Ei bine, problema este că stocarea persistentă este lentă deoarece vedeți că un computer este rulat de către C. P. te poți gândi la C-p
+
+01:22.000 --> 01:26.820
+ca micul muncitor care face toate calculele de care avem nevoie.
+
+01:27.000 --> 01:29.530
+Lucrează în interiorul calculatorului nostru.
+
+01:29.880 --> 01:40.020
+Și asta aveți nevoie de acces la memoria RAM și la memoria de stocare, dar poate accesa RAM-ul și informațiile și
+
+01:40.020 --> 01:42.060
+berbecul mult mai rapid.
+
+01:42.610 --> 01:49.930
+Dar permiteți-mi să vă dau un exemplu ca și cum vom folosi Google când vom rula Google Chrome, de exemplu un browser în
+
+01:51.280 --> 01:54.390
+care browserul Google Chrome are o bucată de cod.
+
+01:54.400 --> 01:58.830
+Acum am simplificat-o și avem doar o variabilă A egală cu una.
+
+01:58.870 --> 02:06.310
+Doar atribuim această variabilă, dar ne putem imagina cum avem sute sau mii de linii de cod
+
+02:06.310 --> 02:08.150
+de Google Chrome.
+
+02:08.380 --> 02:16.210
+Acum, pentru ca computerul nostru să ruleze Google Chrome, rulați IPC pentru ca acesta să facă acest lucru.
+
+02:16.260 --> 02:24.320
+Acum, atunci când o variabilă este declarată în scriptul de spus pentru a rula Google Chrome, se va
+
+02:24.320 --> 02:28.470
+ține în memorie și memoria noastră de acces aleatoriu.
+
+02:28.650 --> 02:35.250
+Dar odată ce închidem sau închidem Google Chrome, vrem să reușim să o deschidem.
+
+02:35.250 --> 02:36.060
+Dreapta.
+
+02:36.510 --> 02:40.440
+Ei bine, asta facem când salvăm o aplicație pe calculatorul nostru.
+
+02:40.500 --> 02:51.260
+Salvăm-o în spațiul de stocare, astfel încât data viitoare când vom deschide un Google Chrome, CPQ-ul va prelua programul din spațiul de stocare, astfel
+
+02:51.590 --> 02:54.950
+încât să îl poată utiliza din nou.
+
+02:55.160 --> 03:02.240
+Și pentru ca Google Chrome să ruleze rapid și să ruleze scripturi mai mici, va păstra acea informație și memorie de
+
+03:02.360 --> 03:06.440
+acces aleatoriu pe care o putem vedea și pe computerele noastre.
+
+03:08.010 --> 03:16.050
+Dacă mă duc la acest Mac pe computerul meu putem vedea aici că avem procesorul care este CPQ-ul
+
+03:16.050 --> 03:25.020
+meu avem memoria mea care este memoria RAM și dacă mă duc la spațiul de stocare Acesta este depozitul meu flash
+
+03:25.200 --> 03:28.140
+stocarea mea persistentă pe computerul meu.
+
+03:28.390 --> 03:36.430
+Deci, vă puteți gândi la RAM în calculator ca pe o zonă de stocare masivă, cum ar fi o rată
+
+03:37.570 --> 03:43.480
+a structurii datelor Ei bine, această zonă de stocare masivă are rafturi numerotate.
+
+03:44.490 --> 03:53.040
+Am numit aceste adrese sau adrese și este un raft cu adevărat mare care deține o
+
+03:53.760 --> 04:03.990
+mulțime de informații și ne permite să rulam programe pe computerul nostru. Acum, fiecare dintre aceste rafturi deține ceea ce
+
+04:04.110 --> 04:07.000
+numim opt biți sau numere.
+
+04:07.170 --> 04:17.230
+Dacă vedeți aici două, trei patru cinci șase șapte opt fiecare dintre aceste numere este un pic și un pic este un
+
+04:17.230 --> 04:21.670
+mic întrerupător electric care poate fi pornit sau oprit.
+
+04:21.940 --> 04:30.330
+Dar, în loc să îl sunăm sau să îl sunăm, numim 1 sau 0 și 8 biți se numește octet.
+
+04:30.550 --> 04:41.910
+Fiecare raft are un octet de stocare, iar CPQ-ul este conectat la ceva numit controller de memorie, iar un controler
+
+04:42.450 --> 04:51.390
+de memorie face citirea reală a acestei memorii, precum și scrierea acestei memorii, deoarece uneori raftul
+
+04:51.570 --> 04:55.840
+poate fi gol și nu are nimic.
+
+04:55.880 --> 05:05.720
+Acum această legătură directă cu C-p este importantă deoarece C-p cere REM hei ce e în raft numărul
+
+05:05.720 --> 05:06.700
+zero.
+
+05:07.100 --> 05:15.320
+Și controlerul de memorie are de fapt conexiuni individuale la toate aceste rafturi din nou, este foarte important
+
+05:15.320 --> 05:22.460
+pentru că înseamnă că putem accesa raftul zero și putem accesa imediat cele șapte raft
+
+05:22.460 --> 05:30.970
+sau zece mii șapte sute optzeci de raft fără a fi nevoie să urcăm sau să ne retragem .
+
+05:32.160 --> 05:35.190
+Asta înseamnă numele de memorie cu acces aleatoriu.
+
+05:35.190 --> 05:41.160
+Putem accesa memoria într-adevăr repede pentru că avem aceste conexiuni și fiecare raft pe care-l
+
+05:41.160 --> 05:48.380
+dorim trebuie doar să știm la ce raft căutăm să putem accesa biții la orice adresă aleatorie din memorie imediat.
+
+05:48.690 --> 05:54.950
+Chiar dacă acest controler de memorie poate sări între adrese de memorie îndepărtate, programele foarte rapide tind
+
+05:54.950 --> 05:57.820
+să acceseze memoria care este în apropiere.
+
+05:57.870 --> 06:06.140
+Cu cât informația este mai apropiată de C. P. tu și cu atât mai puțin trebuie să călătorești mai rapid un program
+
+06:06.140 --> 06:06.570
+poate rula.
+
+06:07.570 --> 06:13.040
+Deci, computerele sunt de fapt reglate pentru a crește viteza suplimentară atunci când citesc rochii de memorie.
+
+06:13.950 --> 06:22.140
+Acestea sunt aproape una de cealaltă pentru ca un computer să acceseze zero și unul este mult mai rapid decât un computer.
+
+06:22.140 --> 06:29.650
+Pentru aceasta, accesați 0 și 1000 deoarece acestea sunt mult mai apropiate.
+
+06:29.650 --> 06:33.400
+Și pentru a optimiza în continuare acest lucru sunt și computerele.
+
+06:33.670 --> 06:43.030
+Noi numim ACP tu cash în cazul în care CPQ are o mică amintire minuscul în cazul în care este de stocare o copie de lucruri care este cu
+
+06:43.030 --> 06:44.000
+adevărat foarte recent.
+
+06:44.810 --> 06:53.310
+Iar aceasta se numește o memorie cache care vine într-o zi când ar putea fi aici ceva numit cache Air LRU.
+
+06:53.320 --> 07:00.070
+Deci, din nou, dacă folosim Google Chrome ca exemplu, pornim Google Chrome cu ceea ce spune că avem aplicația
+
+07:00.070 --> 07:08.590
+descărcați-o pe spațiul nostru de stocare C. P. îl încărcați și pentru că l-am vizitat
+
+07:08.590 --> 07:16.630
+pe Hacker News dot com va încărca informațiile pentru acea Știri Hacker și va pune în memorie sau poate chiar
+
+07:16.630 --> 07:19.210
+cache-ul dacă se poate menține.
+
+07:19.250 --> 07:22.430
+Deci, de ce este important acest lucru pentru structurile de date.
+
+07:25.230 --> 07:30.840
+Structurile de date sunt Amintiți-vă căi pentru a stoca informații.
+
+07:30.840 --> 07:38.810
+De exemplu, dacă vrem să stocăm o variabilă A egală cu un bine în computerele noastre moderne, de obicei reprezentăm
+
+07:38.870 --> 07:39.830
+numere întregi.
+
+07:39.980 --> 07:43.530
+Aceasta este numărul unu în 32 de biți.
+
+07:43.670 --> 07:47.250
+Aceasta este dimensiunea RAM a blocului.
+
+07:47.450 --> 07:53.670
+Și de modul în care acest lucru este acum pot fi 64 de biți cu upgrade-uri mai multe și mai recente.
+
+07:54.940 --> 08:06.970
+Dar în acest fel putem stoca numărul unu în acest bloc de 32 de biți și 32 de biți, deoarece 8 biți, care este un octet ori
+
+08:06.970 --> 08:13.840
+câte două, trei patru, astfel opt ori patru sunt treizeci și doi de biți.
+
+08:13.930 --> 08:23.090
+Putem stoca 32 de biți de informație și acest bit al unuia pe care îl puteți vedea aici este 0 0 0 0 0 0 0 0 0 și
+
+08:23.270 --> 08:28.460
+1 este stocat acum în memorie 0 1 2 3 sau adresa 0 1 2 3.
+
+08:28.580 --> 08:37.480
+Dacă avem o altă variabilă egală cu 7, am fi păstrat-o în blocul următor aici în berbecul nostru.
+
+08:37.590 --> 08:50.570
+În acest sens, puteți acum să vă gândiți la modul în care sistemele 8 pot deține 255 de biți de informație lucruri care sunt 16 biți, în timp
+
+08:50.570 --> 08:54.670
+ce pot să dețină mult mai multe informații.
+
+08:54.920 --> 09:01.670
+Și acum avem sisteme de 32 de biți pe care le puteți vedea aici încât să putem
+
+09:01.670 --> 09:11.920
+ține o cantitate de informații și apoi dacă am avea 64 de biți, în loc să avem patru rafturi mici, avem opt rafturi de 8
+
+09:12.970 --> 09:14.880
+rafturi de 8 ori.
+
+09:15.040 --> 09:23.730
+Ei bine, sunt o mulțime de informații pe care le putem stoca și cu atât mai mare este cu atât mai diversificată este informația.
+
+09:23.800 --> 09:25.670
+Dacă am avea un sistem de 8 biți.
+
+09:25.880 --> 09:30.040
+Ei bine, numărul 256 putem stoca cu adevărat asta.
+
+09:30.070 --> 09:31.680
+E foarte greu de făcut.
+
+09:31.960 --> 09:35.460
+Și vă pot demonstra acest lucru cu javascript.
+
+09:35.570 --> 09:38.350
+Vedeți că există ceva numit overflow întreg.
+
+09:38.420 --> 09:46.100
+Acum, javascript tehnic nu are numere întregi are doar ceea ce noi numim un flotor de 64 de biți,
+
+09:46.100 --> 09:54.940
+dar ideea este că un calculator poate stoca doar un anumit număr de informații, folosind această sintaxă în javascript avem Mathcad acum
+
+09:54.970 --> 10:00.270
+care este o funcție care returnează de bază pentru ex-porno la putere.
+
+10:00.460 --> 10:06.040
+Acesta este primul parametru care se bazează pe puterea celui de-al doilea parametru.
+
+10:06.130 --> 10:09.160
+Așa că putem crea numere foarte mari ca matematica.
+
+10:09.220 --> 10:09.690
+Putere.
+
+10:09.700 --> 10:11.680
+Deci 5 la puterea de 100.
+
+10:11.830 --> 10:14.360
+Dacă execut asta, vedem numărul de aici.
+
+10:14.440 --> 10:19.610
+Dacă măresc acest lucru pentru a spune 6 din nou un număr mare.
+
+10:19.660 --> 10:28.470
+Acum, dacă mă duc și voi schimba acest lucru la șase la puterea unei mii, ajungem la infinit.
+
+10:28.730 --> 10:30.060
+Ce este asta.
+
+10:30.340 --> 10:38.860
+Deoarece numărul devine prea mare pentru a fi stocat în memoria RAM, atunci trebuie să reprezentăm acest număr pe
+
+10:39.010 --> 10:44.880
+care nu-l putem stoca în ceva tangibil și în cazul javascriptului este infinit.
+
+10:44.920 --> 10:51.850
+Putem stoca doar atât de multe informații și indiferent cât de mare fac acest lucru, orice
+
+10:51.850 --> 10:55.960
+număr deasupra unui anumit prag va spune doar infinit.
+
+10:56.000 --> 10:56.930
+Cat de tare e asta.
+
+10:58.620 --> 10:59.980
+Acum, permiteți-vă să reveniți la diapozitive.
+
+11:00.950 --> 11:07.880
+V-am arătat toate aceste lucruri, deoarece alte tipuri de date, altele decât numerele, funcționează la fel ca fiecare
+
+11:07.910 --> 11:16.180
+tip de date să aibă un număr de biți asociate cu acesta și care trebuie să fie stocate în sistem, iar
+
+11:16.660 --> 11:22.760
+sistemul alocă stocarea de date și apoi CPQ-ul citește din acel spațiu de stocare .
+
+11:22.760 --> 11:28.110
+Acum, vă voi lăsa un link după acest videoclip, pentru a obține mai multe informații dacă doriți.
+
+11:28.110 --> 11:35.480
+Nu vrem să ajungem prea adânc în această structură, ci o structură a datelor este o structură de date care este un aranjament
+
+11:35.480 --> 11:36.470
+de date.
+
+11:36.620 --> 11:43.820
+Puteți defini modul în care interacționați cu aceste date și modul în care acestea sunt aranjate în memoria RAM, astfel încât unele structuri de
+
+11:43.820 --> 11:47.060
+date din memoria RAM să fie organizate una lângă cealaltă.
+
+11:47.090 --> 11:52.960
+Unele sunt organizate separat unul de celălalt și au argumente pro și contra diferite în ceea ce privește accesul.
+
+11:53.330 --> 11:55.150
+Și corect.
+
+11:55.300 --> 12:02.980
+Scopul nostru este de a minimiza operațiunea pe care trebuie să o facem pentru s. p obțineți informațiile pentru a
+
+12:02.980 --> 12:05.300
+vă scrie informații.
+
+12:05.520 --> 12:08.730
+De aceea, structurile de date sunt atât de puternice.
+
+12:08.730 --> 12:15.660
+Ne gândim la nivelul scăzut și nu știu de tine, dar asta pentru mine când am aflat despre
+
+12:15.660 --> 12:22.860
+asta a fost într-adevăr interesant pentru că avem acum o cale să gândim cum structurile de date afectează de fapt
+
+12:22.860 --> 12:30.600
+procesul proceselor computerelor noastre și cum am poate folosi ceea ce știm despre computere acum pentru a scrie un cod grozav.
+
+12:30.660 --> 12:31.610
+Voi vedea în următorul videoclip.

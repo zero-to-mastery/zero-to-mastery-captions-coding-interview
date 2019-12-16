@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.240 --> 00:02.980
+Bine ai revenit.
+
+00:03.050 --> 00:05.170
+Cum a fost acest exercițiu.
+
+00:05.180 --> 00:07.020
+Sperăm că nu a fost prea dificil.
+
+00:08.720 --> 00:14.270
+Dacă reușești să răspunzi la aceste întrebări, probabil că vei fi în regulă într-un interviu dacă
+
+00:14.270 --> 00:18.310
+vei fi întrebat vreodată despre prima căutare sau de respirație.
+
+00:18.380 --> 00:19.790
+Deci, să trecem peste răspunsurile.
+
+00:20.800 --> 00:24.710
+Dacă ar ști că o soluție nu este departe de rădăcina copacului.
+
+00:24.850 --> 00:26.520
+Am vorbit despre asta.
+
+00:26.620 --> 00:34.660
+Vrem să folosim respirația pentru căutare, deoarece începe să înceapă să caute mai întâi cele mai apropiate
+
+00:34.720 --> 00:36.470
+noduri la părinte.
+
+00:36.590 --> 00:41.460
+Dacă copacul este foarte adânc și soluțiile sunt rare.
+
+00:41.470 --> 00:47.630
+Ei bine, aceasta este o întrebare mai dură, dar vom folosi o respirație pentru o căutare.
+
+00:47.820 --> 00:54.660
+Iar motivul pentru care facem asta peste ceva ca prima căutare de adâncime este că prima căutare
+
+00:54.660 --> 01:01.710
+de adâncime va dura un timp foarte lung cu acest tip de copac, deoarece copacul este într-adevăr adânc, va
+
+01:01.710 --> 01:04.950
+merge unul câte unul într-adevăr cu adevărat jos.
+
+01:04.950 --> 01:10.530
+Și pentru că soluțiile sunt rare, este cel mai probabil să repeți doar asta peste și peste și peste.
+
+01:10.590 --> 01:16.410
+Și după cum veți vedea cu prima căutare în profunzime vom folosi funcții recursive.
+
+01:16.570 --> 01:20.910
+Și cu acea primă căutare care poate dura foarte mult timp.
+
+01:21.220 --> 01:25.620
+Cu toate acestea, cu aceasta avem și unele preocupări legate de memorie cu căutarea respirației.
+
+01:25.690 --> 01:32.190
+Deci, răspunsurile dvs. pot varia, dar asta este ceea ce aș folosi, atâta timp cât puteți explica
+
+01:32.400 --> 01:36.930
+că intervievatorului găsiți ce se întâmplă dacă arborele este foarte alb.
+
+01:37.000 --> 01:39.460
+Asta este o mulțime de note.
+
+01:39.550 --> 01:45.280
+Nu este un copac binar, ci doar o tona de noduri sub fiecare părinte.
+
+01:45.340 --> 01:52.420
+Din nou, acest lucru este un pic mai dur, dar vrem sa folosim moartea pentru o cautare, pentru ca o baie intai cauta si
+
+01:52.420 --> 01:55.290
+o sa spun sa fiu rapid de acum este.
+
+01:55.430 --> 01:58.390
+Ei bine, va avea nevoie de
+
+02:01.560 --> 02:03.150
+prea multă memorie.
+
+02:03.450 --> 02:10.830
+Modul în care funcționează respirația în primul rând funcționează este că trebuie să țină evidența nodurilor și a nivelului actual
+
+02:10.920 --> 02:12.550
+în ceva numit coadă.
+
+02:12.640 --> 02:18.290
+O să vedem așa, pentru că ar putea dura prea multă memorie.
+
+02:19.130 --> 02:20.070
+Ce zici de următorul.
+
+02:20.090 --> 02:27.350
+Dacă soluțiile sunt frecvente, dar sunt situate adânc în arborele copac, în acest caz folosim adâncimea de căutare.
+
+02:27.530 --> 02:31.790
+Deci, sperăm că vom putea găsi un răspuns mai rapid decât respirația pentru o căutare.
+
+02:32.760 --> 02:37.340
+Ce se întâmplă cu următoarea care determină dacă există o cale între două note.
+
+02:37.470 --> 02:42.900
+Aceasta este ceea ce prima biserică a morții este construită pentru ca Audubon să găsească calea cea mai scurtă.
+
+02:43.170 --> 02:44.790
+Asta e pentru respirație.
+
+02:44.800 --> 02:47.940
+Prima căutare.
+
+02:48.160 --> 02:56.260
+Acum păstrați acest document în minte și revedeți-l pe măsură ce învățăm din ce în ce mai mult despre acești doi algoritmi, deoarece lucrurile vor începe
+
+02:56.410 --> 02:59.410
+să facă din ce în ce mai mult sens.
+
+02:59.800 --> 03:06.040
+Dar aceasta este o foaie bună pe care trebuie să o rețineți înainte de a vă duce la un interviu, în cazul în care vi se pun destul de
+
+03:08.110 --> 03:09.430
+multe întrebări de acum înainte.
+
+03:09.430 --> 03:12.950
+Cred că este timpul să începem să codificăm acești algoritmi.
+
+03:13.090 --> 03:14.440
+Voi vedea în următorul.
+
+03:14.830 --> 03:15.060
+Bob.

@@ -1,0 +1,220 @@
+WEBVTT
+
+00:01.910 --> 00:02.990
+Selamat datang kembali.
+
+00:02.990 --> 00:07.510
+Mari kita lihat aturan nomor dua yang menghapus konstanta.
+
+00:07.910 --> 00:08.770
+Mari kita lihat apa yang saya maksud.
+
+00:10.230 --> 00:14.400
+Saya telah menulis di sini fungsi paling konyol yang pernah ada.
+
+00:14.400 --> 00:21.520
+Fungsinya adalah mencetak item pertama kemudian setengah pertama kemudian menyapa seratus kali.
+
+00:21.630 --> 00:28.920
+Mungkin bukan fungsi dengan nama terbaik, tetapi seperti namanya menggambarkan semua yang
+
+00:28.930 --> 00:40.400
+kita lakukan adalah kita akan membatalkan log item pertama dalam array dan kemudian kita akan mencetak bagian pertama dari item.
+
+00:40.430 --> 00:44.340
+Jadi saya menemukan indeks tengah item.
+
+00:44.360 --> 00:52.730
+Jadi saya katakan item mendapat panjang dibagi dua dan saya menggunakan matematika di sini di javascript sebagai cara bagi kita
+
+00:52.730 --> 00:58.830
+untuk memastikan bahwa kita mendapatkan seluruh angka dan kita akan mengatakan indeks variabel 0
+
+00:58.840 --> 01:08.480
+Saya menggunakan loop lebar di sini, bukan untuk loop dan saya katakan selama indeks tengah lebih besar
+
+01:08.690 --> 01:09.970
+dari nol.
+
+01:10.130 --> 01:12.920
+Saya ingin Anda menghibur log item.
+
+01:12.920 --> 01:19.160
+Jadi itu berarti konsol mencatat paruh pertama dari item yang kami miliki 10 item.
+
+01:19.160 --> 01:22.200
+Saya akan konsol mencatat lima item pertama.
+
+01:23.610 --> 01:32.790
+Dan kemudian saya akan melakukan yang lain untuk loop dan mengatakan saya Konsole logging tinggi 100 kali cukup tidak berguna saya
+
+01:32.790 --> 01:33.790
+akan mengatakan.
+
+01:33.840 --> 01:35.300
+Bukan fungsi yang sangat berguna.
+
+01:36.420 --> 01:38.980
+Apa tujuan besar dari fungsi ini.
+
+01:39.270 --> 01:48.680
+Terlihat baik di sini, itu akan menjadi besar dari yang di sini.
+
+01:48.970 --> 02:00.430
+Jadi kami memiliki satu untuk hanya mencatat item pertama, kemudian kami memiliki setengah dari item apa pun itu.
+
+02:00.540 --> 02:07.440
+Jadi dalam kasus itu dan membaginya dengan dua karena meskipun kami memiliki loop untuk atau loop WHILE kami
+
+02:07.500 --> 02:10.230
+hanya mencatat setengah item setiap kali.
+
+02:10.230 --> 02:13.010
+Jadi kita bisa melakukan dan membagi dua.
+
+02:13.260 --> 02:16.390
+Dan akhirnya kami melakukan for for loop.
+
+02:16.410 --> 02:18.310
+Tapi sekali lagi ini sedikit trik.
+
+02:18.420 --> 02:21.070
+Kami tidak mengulangi susunan item.
+
+02:21.180 --> 02:24.920
+Kami hanya memiliki 100 tidak peduli seberapa besar array item.
+
+02:25.080 --> 02:27.090
+Ini akan selalu 100.
+
+02:27.180 --> 02:29.200
+Jadi saya katakan saja plus seratus.
+
+02:29.310 --> 02:37.730
+Itu langkah lain karena sekali lagi kami hanya menambahkan setiap langkah yang kami lihat di sini.
+
+02:37.740 --> 02:46.720
+Jadi ini adalah O besar kita untuk fungsi ini tetapi aturan nomor dua menyatakan kita ingin menjatuhkan konstanta.
+
+02:46.720 --> 02:57.630
+Kami hanya mengatakan bahwa kami tidak terlalu peduli bahwa O besar ini sebenarnya dan dibagi dua ditambah 101.
+
+02:57.820 --> 03:02.660
+Ingat dalam sebuah wawancara, kami hanya peduli tentang hal-hal yang kami lihat di grafik.
+
+03:03.130 --> 03:04.790
+Tidak ada yang spesifik seperti ini.
+
+03:04.810 --> 03:07.250
+Jadi ini berubah menjadi satu.
+
+03:07.630 --> 03:16.030
+Dan ini meskipun terbagi setengah dalam skema besar dari hal-hal yang hanya kita pedulikan
+
+03:16.330 --> 03:19.940
+ketika berskala ketika input semakin besar.
+
+03:19.960 --> 03:27.490
+Jadi sebagai semakin besar dan lebih besar kita tidak peduli tentang menambahkan 100 tambahan karena jika n adalah satu juta
+
+03:27.490 --> 03:31.630
+menambahkan seratus tambahan di sana 100 langkah lain tidak masalah.
+
+03:31.870 --> 03:40.270
+Dan sama dengan membagi putih menjadi dan semakin besar dan membaginya dengan dua memiliki efek yang semakin
+
+03:40.270 --> 03:41.020
+menurun.
+
+03:41.050 --> 03:49.820
+Jadi kita jatuhkan konstanta seperti ini jadi ini semua menjadi plus satu OK.
+
+03:49.990 --> 03:56.320
+Dan karena satu jika dan satu juta sangat tidak signifikan.
+
+03:56.650 --> 03:58.090
+Kita bisa menjatuhkan ini juga.
+
+03:58.150 --> 04:01.150
+Fungsi ini hanya menjadi oh over.
+
+04:01.570 --> 04:13.010
+Bagaimana jika kita memiliki fungsi lain yang katakanlah semua ditambah 50 atau 50 dengan satu ton nol.
+
+04:13.010 --> 04:14.080
+Itu tidak masalah.
+
+04:14.090 --> 04:17.360
+Kami menjatuhkan konstanta.
+
+04:17.480 --> 04:21.570
+Akan baik-baik saja, bagaimana dengan situasi lainnya.
+
+04:23.150 --> 04:24.940
+Bagaimana jika kita memiliki fungsi ini di sini.
+
+04:25.130 --> 04:32.600
+Kompres kotak dua kali di mana fungsi ini sebenarnya memiliki dua empat loop di mana ia melakukan hal yang
+
+04:32.600 --> 04:34.880
+sama tetapi dua loop empat.
+
+04:34.880 --> 04:38.880
+Jadi kita semua berada dalam lingkaran ini.
+
+04:38.930 --> 04:47.480
+Dan kemudian dari DALAM INI UNTUK loop dan karena ini adalah dua langkah terpisah sementara
+
+04:48.410 --> 04:54.130
+kami menambahkannya bersama-sama sehingga menjadi nilai tambah dari panggilan dua.
+
+04:54.140 --> 05:01.790
+Dan sekali lagi dalam sebuah wawancara, ini tidak terlalu penting karena kita menjatuhkan konstanta dan jika kita
+
+05:01.790 --> 05:05.500
+menjatuhkan konstanta apa fungsi dari fungsi ini.
+
+05:05.600 --> 05:11.050
+Sekaligus acara untuk membuktikan bahwa aku tidak membohongimu.
+
+05:11.080 --> 05:20.020
+Jika kita melihat fungsi ini pada grafik kita, kita melihat bahwa elemen sebagai elemen meningkat.
+
+05:20.020 --> 05:23.860
+Kami memiliki dua operasi karena kami memiliki dua empat loop.
+
+05:24.040 --> 05:29.350
+Jika kita memiliki dua elemen dalam hal ini kita melakukan empat operasi.
+
+05:30.230 --> 05:37.390
+Jika kita memiliki tiga maka kita melakukan satu dua tiga empat lima enam dan kita melihat bagaimana itu meningkat.
+
+05:37.490 --> 05:43.870
+Tetapi pada akhirnya meskipun garisnya lebih curam, kami memiliki banyak operasi yang harus dilakukan.
+
+05:44.150 --> 05:53.120
+Cara peningkatan garis masih linier dan itulah kuncinya di sini dengan big-O kita tidak terlalu peduli
+
+05:53.330 --> 05:55.860
+seberapa curamnya garis itu.
+
+05:55.940 --> 06:05.000
+Kami peduli tentang bagaimana garis bergerak ketika input kami meningkat membuat hidup kami jauh lebih mudah bukan
+
+06:05.820 --> 06:08.100
+Jadi ingat jatuhkan konstanta.
+
+06:08.100 --> 06:12.960
+Anda tidak akan pernah benar-benar melihat angka dalam notasi O Besar.
+
+06:12.960 --> 06:21.560
+Kemungkinan besar notasi yang pernah kita lihat sebelumnya pada grafik kita Biasanya ini dan satu-satunya
+
+06:21.560 --> 06:32.050
+saat Anda melihat angka adalah ketika Anda memiliki satu dan kuadrat atau dua dengan kekuatan yang akan kita bahas
+
+06:32.050 --> 06:32.980
+nanti.
+
+06:32.990 --> 06:35.750
+Jangan khawatir, saya akan melihat di video berikutnya.

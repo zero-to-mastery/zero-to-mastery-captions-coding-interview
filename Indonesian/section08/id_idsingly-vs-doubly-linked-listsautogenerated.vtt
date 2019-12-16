@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.450 --> 00:02.500
+Selamat datang kembali.
+
+00:02.800 --> 00:06.930
+Kami telah belajar tentang daftar yang terhubung secara tunggal dan ganda.
+
+00:06.990 --> 00:10.620
+Jadi mari kita bicara tentang kapan Anda harus menggunakan satu di atas yang lain
+
+00:10.620 --> 00:13.620
+Mari kita mulai dengan daftar yang terhubung sendiri.
+
+00:14.260 --> 00:21.070
+Pro dari daftar yang terhubung sendiri adalah bahwa ini adalah implementasi yang cukup sederhana terutama dibandingkan dengan yang
+
+00:21.070 --> 00:22.590
+dua kali lipat.
+
+00:22.840 --> 00:26.350
+Membutuhkan lebih sedikit memori seperti yang bisa kita lihat di sini. Block.
+
+00:26.860 --> 00:34.030
+Dan karena ada lebih sedikit memori ketika kita melakukan hal-hal seperti hapus dan masukkan karena secara teknis ada lebih sedikit
+
+00:34.030 --> 00:37.300
+operasi kita tidak harus bergerak di sekitar properti sebelumnya.
+
+00:37.300 --> 00:39.420
+Ini sedikit lebih cepat.
+
+00:39.610 --> 00:47.950
+Sekarang sisi negatifnya dengan daftar yang terhubung secara tunggal adalah tidak dapat diulang secara terbalik atau dilintasi dari belakang ke
+
+00:48.190 --> 00:54.610
+depan jika kita pernah kehilangan referensi ke titik ini yang memiliki simpul dalam daftar.
+
+00:54.610 --> 01:02.080
+Daftar ini sebenarnya dapat hilang dalam memori selamanya sehingga daftar tunggal sesuai untuk digunakan ketika Anda memiliki memori lebih sedikit
+
+01:02.080 --> 01:04.030
+atau memori benar-benar mahal.
+
+01:04.030 --> 01:10.780
+Anda ingin berhati-hati dengan berapa banyak yang Anda gunakan dan tujuan utama Anda adalah Anda ingin melakukan penyisipan
+
+01:10.810 --> 01:12.070
+dan penghapusan cepat.
+
+01:12.280 --> 01:19.060
+Dan Anda tidak benar-benar memiliki banyak pencarian terutama ketika Anda memiliki penyisipan di awal
+
+01:19.060 --> 01:19.560
+daftar.
+
+01:20.550 --> 01:21.710
+Daftar tertaut ganda.
+
+01:21.760 --> 01:29.490
+Nah sisi baiknya adalah bisa diulang atau dilalui baik dari depan maupun dari belakang.
+
+01:29.490 --> 01:35.910
+Keindahan lain adalah bahwa jika Anda perlu menghapus simpul sebelumnya, Anda tidak perlu menelusuri dari simpul
+
+01:35.910 --> 01:41.650
+kepala dan menemukan pemberitahuan sebelumnya yang tidak memiliki konsep daftar ditautkan oleh daftar tunggal.
+
+01:42.060 --> 01:45.620
+Anda dapat melakukannya dengan cukup mudah dengan daftar tertaut ganda.
+
+01:46.530 --> 01:54.270
+Sekarang downside adalah bahwa itu cukup kompleks seperti yang kita lihat untuk mengimplementasikan dan membutuhkan lebih banyak memori dan
+
+01:54.630 --> 02:01.050
+penyimpanan karena properti tambahan ini dan ada beberapa operasi aktual yang perlu kita lakukan untuk
+
+02:01.050 --> 02:06.640
+memastikan bahwa kita ketika kita memasukkan dan menghapus yang sebelumnya properti diperbarui juga.
+
+02:06.900 --> 02:12.130
+Jadi daftar dobel benar-benar baik ketika Anda tidak memiliki banyak keterbatasan pada memori.
+
+02:12.850 --> 02:19.510
+Dan ketika Anda ingin operasi yang baik untuk mencari elemen seperti mencari mundur bukan hanya
+
+02:19.540 --> 02:25.760
+sebagian besar waktu dalam situasi wawancara Anda akan melihat daftar yang terhubung sendiri.
+
+02:25.830 --> 02:32.870
+Anda mungkin ditanya pertanyaan teoretis atau luas tentang perbedaan antara daftar yang terhubung secara tunggal dan ganda.
+
+02:33.120 --> 02:36.390
+Tetapi sebagian besar waktu ini adalah di mana Anda akan melihat.
+
+02:36.490 --> 02:37.030
+Baiklah.
+
+02:37.510 --> 02:39.200
+Sampai jumpa di video berikutnya.
+
+02:39.220 --> 02:39.490
+Buh-Bye.

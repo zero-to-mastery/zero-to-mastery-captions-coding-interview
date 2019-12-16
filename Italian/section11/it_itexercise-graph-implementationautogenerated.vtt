@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.720 --> 00:01.600
+Ben tornato.
+
+00:01.770 --> 00:08.110
+È tempo di creare il nostro grafico e ho creato il modello qui per te.
+
+00:08.130 --> 00:14.220
+Puoi anche creare il tuo se vuoi, ma ho incluso solo cose che ti consentono di concentrarti sulla parte
+
+00:14.220 --> 00:14.870
+critica.
+
+00:15.270 --> 00:19.670
+Abbiamo una classe di grafici e alcuni metodi che dovremo aggiungere.
+
+00:19.740 --> 00:31.230
+Ora ricostruiremo un grafico proprio qui su un grafico non ponderato diretto come questo usando l'elenco di adiacenza e
+
+00:31.470 --> 00:37.560
+per la lista di adiacenza useremo una tabella hash.
+
+00:37.560 --> 00:40.380
+Quindi, come andremo a fare questo.
+
+00:40.410 --> 00:44.080
+Bene, ho alcune cose che ho preparato per te.
+
+00:44.890 --> 00:50.980
+Uno è che nel costruttore abbiamo semplicemente un numero di note che dovremo incrementare solo per
+
+00:50.980 --> 00:56.330
+tenere traccia di quante note o vertici o Virts vedono nel nostro grafico.
+
+00:57.440 --> 01:03.260
+E inoltre ho creato per te l'elenco adiacente che è un oggetto.
+
+01:03.440 --> 01:10.220
+E mentre fai questo esercizio capirai perché vogliamo usare diciamo un oggetto contro un array perché
+
+01:10.220 --> 01:17.600
+se iniziamo a rimuovere cose dal grafico o a mettere le cose nel grafico che è fuori
+
+01:17.600 --> 01:20.000
+uso ci costerà parecchio .
+
+01:20.000 --> 01:27.140
+Ricorda che gli array su spostamento e spostamento sono costosi con oggetti che possiamo trovare rapidamente
+
+01:27.140 --> 01:35.280
+elementi e vedere le loro connessioni in modo che idealmente in questo caso in cui abbiamo tre o guardiamo
+
+01:35.280 --> 01:43.610
+a 0 in questo caso avremo zero sarà connesso a un array dei suoi connessioni che saranno 1 e 2.
+
+01:43.740 --> 01:48.820
+Quindi ho qualcosa di simile.
+
+01:48.850 --> 01:55.900
+Il tuo compito è aggiungere un nuovo metodo chiamato Virtex che aggiunge un nuovo nodo o un vertice.
+
+01:55.960 --> 02:02.920
+La denominazione qui va avanti e indietro e quindi aggiunge anche il bordo che è quello di aggiungere una connessione tra il nodo
+
+02:02.920 --> 02:04.490
+1 e il n. 2.
+
+02:04.600 --> 02:11.380
+E tieni presente che questo è sulla direttiva se indovino che è un grafo non orientato.
+
+02:11.380 --> 02:16.460
+Quindi entrambi 1 e n. 2 punti a vicenda e se si scorre verso il basso qui.
+
+02:16.570 --> 02:21.260
+In realtà ho creato le chiamate che chiamiamo la funzione che stiamo per fare.
+
+02:21.380 --> 02:28.240
+Abbiamo creato il grafico e quindi sto creando zero fino a 6, proprio come abbiamo sul
+
+02:28.240 --> 02:29.320
+grafico qui.
+
+02:29.320 --> 02:32.200
+E poi aggiungeremo i bordi.
+
+02:32.200 --> 02:39.280
+Questa è la connessione tra tutto ciò che è connesso, 0 0 connesso a sei è collegato a cinque semplicemente dicendo questo non
+
+02:41.340 --> 02:47.520
+mi sto mai ripetendo, il che significa che non sto mai dicendo di aggiungere tre in uno e poi di
+
+02:47.520 --> 02:49.540
+aggiungere i margini 1 e 3.
+
+02:49.620 --> 02:53.570
+Lo dico solo una volta e questa è la chiave.
+
+02:53.790 --> 02:59.940
+E anche l'ordine non importa se cambio l'ordine di queste chiamate intorno dovrebbe
+
+03:00.120 --> 03:02.050
+comunque darmi questo grafico.
+
+03:02.090 --> 03:02.630
+Tutto ok.
+
+03:02.630 --> 03:08.630
+So che sei entusiasta di andare avanti, ma l'ultima cosa e questa è solo facoltativa se vuoi farlo tu stesso,
+
+03:08.630 --> 03:10.500
+puoi anche codificarti da solo.
+
+03:10.550 --> 03:14.540
+Ma non è così importante per questo video.
+
+03:14.900 --> 03:22.490
+Ho creato una piccola funzione di aiuto chiamata mostra connessioni e puoi guardare attraverso questa
+
+03:22.520 --> 03:24.230
+funzione se vuoi.
+
+03:24.250 --> 03:29.230
+Non è molto importante per il core del corso, ma l'ho fatto in modo
+
+03:29.500 --> 03:38.860
+da poter controllare il tuo lavoro perché se lo eseguo usando alla fine il mio grafico mostra le connessioni, stamperà la risposta in questo modo
+
+03:40.830 --> 03:44.500
+e mostrerà tutto connessioni dei grafici che hai creato.
+
+03:44.730 --> 03:52.740
+E in questo modo è possibile verificare che queste connessioni che è il nodo per è collegato a 3 2
+
+03:52.890 --> 03:59.340
+e 5 nota 4 è collegato a 3 2 e 5 proprio come abbiamo qui.
+
+03:59.340 --> 04:01.310
+Va bene questo è abbastanza per me.
+
+04:01.350 --> 04:05.010
+Buona fortuna per questo esercizio e ci vediamo nel video della soluzione.
+
+04:05.100 --> 04:05.370
+Malet.

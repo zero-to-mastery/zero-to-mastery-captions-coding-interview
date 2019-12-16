@@ -1,0 +1,193 @@
+WEBVTT
+
+00:01.800 --> 00:10.500
+Another data structure down hash tables by now you should absolutely love them because well they're
+
+00:10.500 --> 00:13.510
+very useful they're used everywhere.
+
+00:13.680 --> 00:21.940
+And the funny thing is that it's probably the most common interview question where you use a hash table
+
+00:22.180 --> 00:30.790
+to optimize something kind of like we saw in our interview question by using hash tables we optimize
+
+00:30.790 --> 00:39.420
+those nested loops that are all when squared to o over in linear time.
+
+00:39.420 --> 00:45.420
+This is a question that comes up again and again that I promise you if we notice this pattern it will
+
+00:45.540 --> 00:52.050
+be extremely useful for you in an interview and Undoubtedly you'll have an instance where you have to
+
+00:52.050 --> 00:57.190
+use it and follow this exact same step in this section.
+
+00:57.210 --> 01:04.830
+We learned that hash tables have really fast lock ups but remember we need a good collision resolution
+
+01:04.830 --> 01:11.640
+need it usually we don't need to worry about this because our language in computer underneath the hood
+
+01:11.670 --> 01:13.830
+take care of that for us.
+
+01:13.830 --> 01:22.020
+It allows us to do fast answers and depending on the type of hash tables such as maps in javascript
+
+01:22.290 --> 01:31.840
+we can have flexible keys instead of an array that has 0 1 2 3 just numbered indexes.
+
+01:31.850 --> 01:35.950
+The downside with hash tables is that it is an order.
+
+01:35.990 --> 01:39.440
+It's hard to really go through everything in order.
+
+01:39.440 --> 01:42.560
+And also it has slow key iteration.
+
+01:42.590 --> 01:49.550
+That is if I want to grab all the keys from a hash table I'll have to go through the entire memory space
+
+01:49.880 --> 01:58.300
+as we saw when we built our own hash table looking at the big OTTF we can see that hash tables has a
+
+01:58.300 --> 02:05.420
+search insertion deletion of of one but in worst case due to collision there are some.
+
+02:05.470 --> 02:09.200
+All of an operations that could happen.
+
+02:09.420 --> 02:16.550
+And if we go to our mind map we can now cross off hash tables off our list.
+
+02:16.700 --> 02:19.920
+We understand the big-O complexity.
+
+02:20.010 --> 02:26.550
+We also understand that with collisions we might want to use something like linked lists which we'll
+
+02:26.550 --> 02:29.390
+talk about very shortly in our exercise.
+
+02:29.400 --> 02:32.190
+We just simply used arrays.
+
+02:32.230 --> 02:40.480
+We also learned the idea that hash tables in interviews are usually useful for improving time complexity
+
+02:40.840 --> 02:43.620
+especially of nested loops.
+
+02:43.650 --> 02:54.780
+The tradeoff being that we can have fast access but more memory going back to our question that we had
+
+02:55.530 --> 03:03.440
+a few lessons ago where we had to find the common item of two arrays we had array one and array two
+
+03:04.050 --> 03:08.930
+and we had to see if any of these arrays contain similar items.
+
+03:09.000 --> 03:10.360
+We had one that didn't.
+
+03:10.650 --> 03:17.570
+And the second version where x and x both arrays contain X it would return true.
+
+03:17.760 --> 03:25.320
+Our first iteration of that exercise we had to use 2 for loops that were nested.
+
+03:25.470 --> 03:38.210
+So that created a times the complexity however using hash maps we were able to just do one for loop
+
+03:38.840 --> 03:41.780
+and optimize this function.
+
+03:41.880 --> 03:49.170
+Like I said before this is such a common pattern that we'll be talking about it later on in the course
+
+03:49.170 --> 03:49.590
+as well.
+
+03:49.590 --> 03:57.200
+When we talk about dynamic programming if we go back to our cheat sheet that I shared with you at the
+
+03:57.200 --> 04:02.510
+beginning of this course we can now cross off a few things off the list that we haven't talked about
+
+04:03.440 --> 04:05.950
+in the good code checklist.
+
+04:06.440 --> 04:15.040
+We talked about the good use of data structures when to use hash tables over perhaps a race the idea
+
+04:15.040 --> 04:21.430
+of code reuse and not repeating yourself is something we've been following and should be familiar to
+
+04:21.430 --> 04:22.210
+all of us.
+
+04:23.350 --> 04:29.530
+We also talked about modular code and making code more readable which allows code to be more maintainable
+
+04:29.530 --> 04:30.770
+and testable.
+
+04:30.790 --> 04:39.730
+We talked about how usually in an interview we want to avoid the show and squared operations and we
+
+04:39.730 --> 04:41.810
+saw that we're able to do that with hash tables
+
+04:44.610 --> 04:53.250
+but we did see that with a hash table we had to increase our space complexity to all of.
+
+04:53.250 --> 04:59.850
+And because we created this new variable that keeps track of all the items in the array.
+
+05:00.090 --> 05:01.480
+So that is the tradeoff.
+
+05:03.210 --> 05:09.030
+And then we can cross off a few heuristics for those who don't know Sure mistakes are kind of like rules
+
+05:09.420 --> 05:17.430
+or simple tricks that are going to come up over and over and over that you can use in an interview hash
+
+05:17.430 --> 05:23.180
+map or hash tables are usually the answer to improve time complexity.
+
+05:23.470 --> 05:28.080
+Again hash tables are some of the best way to optimize your code.
+
+05:28.990 --> 05:35.230
+And looking at time versus space tradeoff sometimes storing extra state and memory like we did with
+
+05:35.230 --> 05:38.440
+hash tables can help the time or the runtime.
+
+05:39.260 --> 05:41.750
+And then finally Space-Time tradeoffs.
+
+05:41.750 --> 05:43.770
+Hash tables usually solve this.
+
+05:43.820 --> 05:52.290
+A lot of the time use more space but you can get a time optimization to the process.
+
+05:52.300 --> 05:58.930
+I know we've only talked about two data structures but I think these two are the most important moving
+
+05:58.930 --> 06:02.400
+forward we're going to use them to learn about others.
+
+06:02.440 --> 06:03.790
+Good job getting this far.
+
+06:03.790 --> 06:08.300
+Take a nice little break have some coffee and I'll see you in the next video.
+
+06:08.450 --> 06:08.690
+Buh-Bye.

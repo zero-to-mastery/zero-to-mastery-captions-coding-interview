@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.970 --> 00:05.680
+Selamat datang kembali saatnya bagi kita untuk mengimplementasikan tabel hash kita sendiri.
+
+00:05.800 --> 00:13.060
+Tapi mari kita lakukan sedikit latihan dan ini mungkin sulit jadi jangan kesal jika Anda tidak bisa
+
+00:13.060 --> 00:13.760
+menyelesaikannya.
+
+00:14.610 --> 00:18.040
+Setelah ini saya akan memberikan video solusi dan kami akan berjalan melewatinya.
+
+00:18.040 --> 00:22.640
+Tetapi sebagai tantangan tambahan saya telah membuat template untuk Anda.
+
+00:23.520 --> 00:26.270
+Tabel hash baru yang akan kita buat.
+
+00:26.280 --> 00:32.810
+Ya saya tahu javascript sudah memiliki objek dan kita cukup membuatnya seperti yang pernah kita lihat sebelumnya.
+
+00:33.000 --> 00:34.310
+Tapi apa yang menyenangkan dari itu.
+
+00:34.350 --> 00:36.360
+Mari kita buat sendiri.
+
+00:36.420 --> 00:42.860
+Sekarang tabel hash ini memiliki konstruktor yang akan menerima ukuran.
+
+00:42.950 --> 00:47.890
+Jadi ketika kita membuat tabel hash ini kita akan memberikan ukuran ruang memori 50.
+
+00:48.110 --> 00:51.540
+Katakanlah kita hanya menginginkan 50 rak memori.
+
+00:51.800 --> 00:57.950
+Kita akan membuat data DOD ini di mana data kita akan hidup dan di dalamnya itu akan membuat
+
+00:57.980 --> 00:59.060
+array baru.
+
+00:59.980 --> 01:04.060
+Dan array ini akan menyimpan informasi kami untuk kami.
+
+01:04.150 --> 01:09.430
+Jadi kita akan memiliki sesuatu
+
+01:12.110 --> 01:18.640
+seperti anggur dan 10.000 sebagai ember kita.
+
+01:18.650 --> 01:29.060
+Jadi item pertama dalam array akan menjadi array yang anggur 10.000 ingat jika kita melihat diagram kita memiliki ember
+
+01:30.200 --> 01:39.000
+ini dimana data kita hidup dan karena sekarang kita menerapkan tabel hash kita sendiri kita menggunakan
+
+01:39.210 --> 01:41.370
+array bukan benda.
+
+01:42.170 --> 01:51.290
+Tapi idenya adalah menggunakan metode baru yang harus Anda buat yang akan disebut set Anda akan
+
+01:51.290 --> 02:00.320
+dapat mengatur anggur sebagai indeks pertama dalam teori dan jumlah anggur sebagai indeks kedua dalam
+
+02:00.320 --> 02:01.040
+array.
+
+02:01.520 --> 02:10.990
+Dan dari sana kita bisa mendapatkan metode nother yang mengambil anggur dan mengembalikan 10.000.
+
+02:11.000 --> 02:14.040
+Sekarang Anda mungkin bertanya-tanya.
+
+02:14.480 --> 02:18.080
+Astaga, omong kosong apa ini?
+
+02:18.500 --> 02:24.030
+Dan saya menulis ini sebelumnya untuk Anda karena itu tidak terlalu penting sebagai bagian dari kursus.
+
+02:24.410 --> 02:33.590
+Tapi ingat kita membutuhkan fungsi hash untuk membuat tabel hash dan saya telah membuat di sini fungsi hash terkecil
+
+02:33.590 --> 02:36.300
+terkecil yang dapat Anda pikirkan.
+
+02:37.520 --> 02:42.620
+Kita akan berbicara tentang apa yang sebenarnya dilakukan di video solusi.
+
+02:42.920 --> 02:49.510
+Untuk saat ini yang harus Anda ketahui adalah bahwa itu hanya akan menghasilkan hash bagi kami.
+
+02:49.610 --> 02:56.220
+Sebagai contoh jika saya menggarisbawahi hash di sini dan memberikan kunci.
+
+02:56.360 --> 03:02.620
+Jadi katakanlah saya ingin memasukkan anggur dan saya klik jalankan, saya mendapatkan 23.
+
+03:02.720 --> 03:05.500
+Jika saya klik jalankan lagi saya selalu mendapatkan 23.
+
+03:05.630 --> 03:10.790
+Jika saya mengubah anggur menjadi dua, saya mendapatkan ruang memori yang berbeda.
+
+03:10.970 --> 03:19.780
+Jika saya cukup mengetik secara acak Di Sini lagi saya mendapatkan ruang memori yang berbeda dari 0 hingga 50.
+
+03:19.790 --> 03:31.500
+Jadi tantangan Anda di sini adalah membuat dua metode baru ini diatur dan dapatkan yang menambah data titik ini.
+
+03:32.380 --> 03:43.050
+Dan mengambil dari data ini lagi jika Anda tidak terbiasa dengan javascript ini mungkin sulit tetapi
+
+03:43.110 --> 03:43.990
+cobalah.
+
+03:44.220 --> 03:47.090
+Dan di video berikutnya kita akan membahas langkah demi langkah.
+
+03:48.190 --> 03:49.840
+Saya akan melihat yang itu.

@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.370 --> 00:02.330
+Bine ai revenit.
+
+00:02.750 --> 00:06.620
+Să începem cu primul element de pe lista noastră.
+
+00:06.620 --> 00:07.540
+Bubble sort.
+
+00:07.850 --> 00:09.790
+Sună cam jucăuș și frumos.
+
+00:09.800 --> 00:10.220
+Grozav.
+
+00:11.180 --> 00:18.920
+Tipul de tip "bubble" face parte din acești primii trei algoritmi de sortare, care se numesc sortimente elementare.
+
+00:18.920 --> 00:25.880
+Sunt foarte simpli algoritmi de sortare de bază pe care l-ați gândi de obicei dacă cineva v-ar cere să sortați
+
+00:25.880 --> 00:28.620
+ceva în partea de sus a capului.
+
+00:28.640 --> 00:34.790
+Cel de-al doilea element pe care îl vom introduce mai târziu într-un scurt și rapid model Merse sunt algoritmi mai complexi
+
+00:35.330 --> 00:39.390
+încât, de cele mai multe ori, pot fi mai eficienți decât cei dintâi.
+
+00:40.000 --> 00:44.060
+Dar pentru a construi acel bloc Lego, să începem cu un balon.
+
+00:44.110 --> 00:46.270
+Cum funcționează sortarea bulelor.
+
+00:47.650 --> 00:55.390
+Ei bine, lasă-mă să vă pun o întrebare dacă ți-am dat o listă și te rog să-l sortezi în capul tău
+
+00:55.390 --> 00:58.110
+imagindu-ți că ai blocuri din aceste scrisori.
+
+00:58.210 --> 01:05.870
+Cum le-ai muta în jurul lor sau cum ai spune unui computer să le miște în jurul pentru a le sorta și bubble-ul
+
+01:05.870 --> 01:12.370
+sir ar putea fi unul dintre primele lucruri care vine în minte este că tipul de bule vine
+
+01:12.460 --> 01:19.550
+de la ideea de a bloca cea mai mare valoare folosind multiple pastur Să vedem ce vreau să spun prin asta.
+
+01:19.810 --> 01:25.930
+Ne uităm la șase la cinci și spunem că șase este mai mare de cinci.
+
+01:26.360 --> 01:31.350
+Și apoi ne uităm la șase și trei și spunem că șase este mai mare de trei ani să le schimbăm.
+
+01:31.400 --> 01:36.440
+Apoi ne uităm la șase și unu și încă o dată șase este mai mare decât unu să le sortez.
+
+01:36.470 --> 01:39.790
+Ne uităm la șase și opt opt ​​este mai mare de șase.
+
+01:39.800 --> 01:43.020
+Așa că păstrați-o așa și treceți la următoarea.
+
+01:43.130 --> 01:43.930
+Opt și șapte.
+
+01:44.030 --> 01:44.830
+Să le rezolvăm.
+
+01:44.840 --> 01:47.370
+Opt este mai mare de șapte opt în două.
+
+01:47.540 --> 01:49.870
+Schimbă-i opt din patru.
+
+01:49.940 --> 01:50.990
+Schimbă-le.
+
+01:51.000 --> 02:00.020
+Ne batem la cel mai mare număr și apoi mergem de la început cinci și trei cinci într-unul vom balon până cel mai mare
+
+02:00.020 --> 02:02.820
+număr, astfel că 7 vine în continuare.
+
+02:04.400 --> 02:08.160
+Apoi vom continua să continuăm până vom veni în 6.
+
+02:08.270 --> 02:16.670
+Apoi păstrăm buclă până când vom bula cel mai mare număr unul câte unul unul câte unul până când vom avea o
+
+02:17.030 --> 02:19.630
+listă sortată, care este sortare bule.
+
+02:19.640 --> 02:22.740
+Acum, înainte de a ne codifica chiar asta, ce părere aveți despre sortarea bulei.
+
+02:23.680 --> 02:28.020
+După cum probabil ați ghicit nu este cel mai eficient este.
+
+02:28.090 --> 02:33.640
+Uitați-vă la numărul de comparații pe care le-am făcut și totul a fost câștigat de un singur buclă și cu buclă și cu bule și
+
+02:33.640 --> 02:34.300
+cu bule.
+
+02:34.300 --> 02:41.710
+Este unul dintre cele mai simple algoritmi de sortare, dar și una dintre cele mai puțin eficiente, așa că nu mă urăști pentru că vă arăt
+
+02:41.710 --> 02:43.090
+cum funcționează acest lucru.
+
+02:43.090 --> 02:48.990
+Este folosit de obicei ca instrument de învățare ca prim pas în învățarea unui anumit algoritm.
+
+02:49.030 --> 02:55.320
+Ce credeți că complexitatea timpului și complexitatea spațială a acestui algoritm este răspunsul.
+
+02:55.750 --> 03:00.920
+Ei bine, putem să folosim Chichi-ul mare dacă privim la tipul de balon.
+
+03:01.120 --> 03:08.410
+Vedem că cazurile în care ne interesează cel mai mult este cel mediu și cel mai rău caz pe care îl vedem că
+
+03:08.440 --> 03:09.580
+este un pătrat.
+
+03:10.550 --> 03:17.540
+Cu o complexitate a spațiului dintr-una nu creăm cu adevărat noi structuri de date, ci doar
+
+03:17.540 --> 03:21.670
+comparăm elementele din bucle imbricate unul câte unul.
+
+03:22.020 --> 03:28.950
+Dar să vedem asta în cod pentru a vedea de ce acest lucru este peste tot și pătrat și vreau să vă provocăm
+
+03:28.950 --> 03:33.900
+aici în următoarea înregistrare pe care o vom codifica de-a lungul algoritmului de sortare a bulelor.
+
+03:34.440 --> 03:41.370
+Dar dacă doriți să continuați și să încercați să implementați acest lucru pe cont propriu și să vedeți cum codul dvs. se potrivește
+
+03:41.370 --> 03:43.250
+cu al meu în următorul videoclip.
+
+03:43.320 --> 03:43.710
+Hutcheon.

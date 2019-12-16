@@ -1,0 +1,64 @@
+WEBVTT
+
+00:02.800 --> 00:11.200
+Anda tidak dapat berbicara tentang rekursi tanpa membicarakan Urutan Fibonacci Apa urutan bidang
+
+00:11.200 --> 00:12.220
+Bonacci.
+
+00:12.220 --> 00:16.990
+Nah inilah urutan ini di sini polanya.
+
+00:16.990 --> 00:22.970
+Jika Anda perhatikan bahwa kami selalu menambahkan dua item pertama sama dengan yang ini.
+
+00:22.990 --> 00:30.920
+Jadi nol ditambah satu sama dengan satu satu ditambah satu sama dengan satu ditambah dua sama dengan tiga dua ditambah tiga.
+
+00:30.940 --> 00:31.710
+Dia memanggil lima.
+
+00:31.810 --> 00:34.770
+Demikian seterusnya dan seterusnya dan seterusnya.
+
+00:34.810 --> 00:39.410
+Jadi dua angka sebelumnya selalu sama dengan angka saat ini.
+
+00:39.820 --> 00:45.590
+Jadi saya punya latihan lain untuk Anda yang ini sedikit lebih keras dari yang sebelumnya.
+
+00:46.860 --> 00:57.660
+Diberikan angka N yang akan menerima fungsi mengembalikan nilai indeks dari urutan Fibonacci.
+
+00:59.290 --> 01:10.710
+Jadi jika saya mengatakan bahwa saya ingin hasil akhirnya sama dengan itu akan memberi saya 0 1 2 itu adalah nomor satu.
+
+01:10.870 --> 01:17.090
+Fungsi ini akan mengembalikan 1 jika saya katakan Fibonacci angka 8.
+
+01:17.140 --> 01:23.040
+Saya akan mendapatkan 0 1 2 3 4 5 6 7 8.
+
+01:23.120 --> 01:25.670
+Saya akan mendapatkan 21.
+
+01:25.750 --> 01:31.550
+Fungsi akan memberi tahu saya nomor apa yang dikaitkan dengan indeks yang saya berikan.
+
+01:31.620 --> 01:40.990
+Sekali lagi saya memiliki pendekatan berulang yang hanya menggunakan sederhana untuk loop dan juga pendekatan
+
+01:41.050 --> 01:42.180
+rekursif.
+
+01:42.250 --> 01:46.330
+Saya menantang Anda untuk mencoba keduanya dan melihat apakah Anda dapat melakukannya.
+
+01:46.330 --> 01:54.340
+Dan petunjuk besar di sini adalah bahwa pendekatan rekursif sebenarnya lebih mudah daripada pendekatan berulang.
+
+01:54.340 --> 01:57.990
+Jadi semoga sukses di luar sana dan sampai jumpa di video solusi.
+
+01:58.240 --> 01:58.540
+Buh-Bye.

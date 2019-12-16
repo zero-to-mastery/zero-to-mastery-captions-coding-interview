@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.850 --> 00:08.350
+Ci sono momenti in cui vogliamo fare qualcosa chiamato traversal e il nome traversal e la ricerca è spesso usata
+
+00:08.350 --> 00:13.800
+in modo intercambiabile a volte a volte la stessa cosa a volte no.
+
+00:14.080 --> 00:19.320
+Fino ad ora abbiamo parlato di alberi di ricerca binaria e sapevamo cosa cercavamo.
+
+00:19.330 --> 00:27.050
+E abbiamo sempre saputo dove andare a destra oa sinistra, ma altre volte vogliamo fare alcune operazioni sulla stessa nota che
+
+00:27.050 --> 00:32.410
+ho menzionato prima di voler aggiungere una proprietà di colore a questa nota.
+
+00:32.690 --> 00:41.090
+Forse se avessimo un nodo utente, vogliamo aggiungere una proprietà H a tutti i nostri utenti che si trovano in una struttura ad albero.
+
+00:41.210 --> 00:45.700
+Brewhouse vuoi aggiungere una proprietà shape a questi nodi.
+
+00:45.900 --> 00:51.020
+O forse non abbiamo un albero ordinato.
+
+00:51.120 --> 00:58.290
+Non è un albero di ricerca binario o abbiamo un grafico che non ha alcun ordine, nel qual caso dobbiamo
+
+00:58.380 --> 00:59.650
+visitare ogni nodo.
+
+00:59.910 --> 01:06.420
+O forse stiamo lavorando su google e il nostro capo ci ha chiesto di poter controllare se il nostro
+
+01:06.990 --> 01:13.530
+flusso di ricerca binario che abbiamo inserito nel nostro database è corretto e che è effettivamente valido e assicurandoti che
+
+01:13.560 --> 01:16.410
+l'elemento a sinistra sia sempre inferiore all'elemento giusto.
+
+01:17.330 --> 01:24.240
+E per noi per controllare che dobbiamo toccare ogni singola nota, ma come faremmo a
+
+01:24.240 --> 01:24.840
+farlo.
+
+01:24.870 --> 01:32.250
+Puoi pensare agli attraversamenti come ad ogni nota e come puoi immaginare perché visitiamo
+
+01:32.250 --> 01:36.930
+ogni nodo che è proprietario di un'operazione lineare.
+
+01:36.930 --> 01:45.420
+Fino ad ora abbiamo fatto dei loop per visitare tutte le nostre altre strutture di dati come gli array collegati a liste
+
+01:46.110 --> 01:48.310
+di hash e code stack.
+
+01:48.330 --> 01:57.260
+Quindi, come facciamo a farlo in una struttura dati come un albero o anche un grafico.
+
+01:57.290 --> 02:01.510
+Fortunatamente per noi ci sono due modi per farlo che dobbiamo imparare.
+
+02:01.740 --> 02:05.230
+Uno è proprio qui.
+
+02:05.390 --> 02:12.050
+Dobbiamo fare un attraversamento dell'albero o dobbiamo fare un attraversamento grafico.
+
+02:12.160 --> 02:18.480
+In questo caso le nostre due opzioni sono esattamente le stesse.
+
+02:18.590 --> 02:25.700
+Abbiamo una prima ricerca per ampiezza e una prima ricerca per profondità e talvolta questa è chiamata traversal invece di ricerca,
+
+02:25.700 --> 02:29.840
+come puoi vedere sia con gli alberi che con i mestieri.
+
+02:29.870 --> 02:31.710
+È la stessa cosa.
+
+02:31.900 --> 02:39.790
+Il grande O è o di e perché dobbiamo visitare ogni singolo nodo usando queste due tecniche.
+
+02:39.790 --> 02:46.570
+Ma esaminiamo perché questo è importante e perché non archiviamo tutto e solo liste che sono più semplici
+
+02:46.570 --> 02:47.440
+da capire.
+
+02:48.250 --> 02:57.060
+Bene, il vantaggio principale del perché non mettiamo dati complessi in liste come gli array che sono
+
+02:57.060 --> 03:02.430
+ordinati è che otteniamo la ricerca O di log n.
+
+03:02.580 --> 03:04.110
+Che dire delle tabelle hash.
+
+03:04.110 --> 03:05.130
+Quelli sono facili
+
+03:05.370 --> 03:11.730
+Ricorda che le tabelle hash non sono ordinate e alla fine della giornata quando rappresenti dati
+
+03:11.730 --> 03:19.110
+con strutture di dati diverse in base alle loro esigenze e gli alberi e l'erba hanno funzionato molto bene
+
+03:19.200 --> 03:25.440
+per molti casi che abbiamo già discusso quando cerchiamo cose che abbiamo il vantaggio ma anche
+
+03:25.440 --> 03:31.180
+quando inseriamo o eliminiamo elementi abbiamo prestazioni migliori di qualcosa come un array.
+
+03:31.410 --> 03:37.230
+Ma manteniamo anche l'ordine che altrimenti non avremmo con le tabelle hash alberi
+
+03:37.290 --> 03:45.540
+e grafici usati molto quando vogliamo cercare i nodi o visitare ogni nodo e rappresentano molti dati che modellano
+
+03:45.540 --> 03:46.920
+il mondo reale.
+
+03:46.920 --> 03:52.160
+Ora esploriamo come funzionano queste due tecniche di attraversamento.
+
+03:52.890 --> 03:53.840
+Vedrò nel prossimo.

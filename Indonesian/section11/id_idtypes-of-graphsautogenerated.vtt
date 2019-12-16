@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.640 --> 00:07.330
+Seperti yang kita lihat ada banyak jenis grafik tetapi ada karakteristik tertentu yang memungkinkan kita untuk menggambarkan
+
+00:07.330 --> 00:07.990
+grafik.
+
+00:08.200 --> 00:09.790
+Mari kita bahas mereka.
+
+00:09.790 --> 00:15.880
+Satu hal yang Anda benar-benar ingin kenal adalah gagasan diarahkan pada grafik yang
+
+00:15.880 --> 00:16.840
+diarahkan.
+
+00:16.930 --> 00:23.440
+Jenis grafik ini berguna untuk menggambarkan arus lalu lintas misalnya dari beberapa jenis
+
+00:23.440 --> 00:27.140
+sistem di mana pergerakan tidak bi directional.
+
+00:27.220 --> 00:34.180
+Itu berarti seperti di sini di mana saya bisa bolak-balik antara catatan saya hanya bisa pergi dalam satu arah.
+
+00:35.770 --> 00:43.210
+Cara yang baik untuk berpikir tentang grafik yang diarahkan adalah dengan menganggap sebagai jalan raya antara dua kota di mana Anda
+
+00:43.210 --> 00:49.480
+dapat bolak-balik di sisi lain diarahkan akan menjadi jalan satu arah di mana Anda hanya bisa pergi satu
+
+00:49.480 --> 00:50.100
+arah.
+
+00:50.470 --> 00:57.150
+Cara lain untuk memikirkannya adalah Facebook seperti apa grafik menurut Anda yang dimiliki Facebook.
+
+00:58.080 --> 01:06.120
+Yah itu memiliki grafik yang diarahkan karena ketika saya terhubung ke teman, teman itu juga terhubung dengan
+
+01:06.120 --> 01:08.530
+saya, itu tidak satu arah.
+
+01:08.580 --> 01:09.570
+Bagaimana dengan Twitter.
+
+01:10.570 --> 01:20.120
+Twitter lebih terarah karena jika saya memiliki profil saya orang-orang dapat mengikuti saya dan saya dapat mengikuti orang-orang.
+
+01:20.230 --> 01:23.770
+Tetapi jika seseorang mengikuti saya, saya tidak secara otomatis mengikuti mereka.
+
+01:23.770 --> 01:32.460
+Jadi Twitter lebih mengarahkan cara lain untuk menggambarkan grafik adalah gagasan grafik berbobot pada grafik tunggu dan
+
+01:32.550 --> 01:41.110
+tunggu dan seperti yang Anda lihat dari gambar, nilai dapat diterapkan ke berbagai aspek grafik.
+
+01:41.220 --> 01:47.670
+Tidak hanya catatan, catatan dapat membawa semua jenis informasi tetapi dengan grafik Anda juga dapat
+
+01:47.670 --> 01:53.490
+memiliki informasi di tepinya dan koneksi mungkin Anda akan melakukan perjalanan dan mencoba mencari
+
+01:53.490 --> 01:58.490
+cara paling efisien untuk mengunjungi situs yang menarik bagi Anda. .
+
+01:58.650 --> 02:05.370
+Jika demikian, Google Maps akan menggunakan grafik berbobot untuk memutuskan jalur mana yang terpendek bagi
+
+02:05.370 --> 02:13.060
+Anda untuk sampai ke sana dan grafik semacam ini banyak digunakan dalam menghitung jalur optimal, cara tercepat
+
+02:13.060 --> 02:16.790
+untuk sampai ke katakanlah 1 hingga 6.
+
+02:16.800 --> 02:27.430
+Terakhir cara lain untuk menggambarkan grafik adalah siklik atau asiklik ketika Anda memiliki simpul yang terhubung secara
+
+02:27.610 --> 02:28.630
+melingkar.
+
+02:28.780 --> 02:33.970
+Ini disebut siklus ketika Anda dapat pergi dari satu node ke yang lain dan
+
+02:33.970 --> 02:40.550
+kemudian kembali ke node asli versus asiklik di mana Anda dapat melakukan itu dan grafik C-code sangat umum.
+
+02:40.590 --> 02:49.150
+Grafik yang sangat tertimbang seperti Google maps karena sebagian besar waktu ada cara untuk kembali.
+
+02:49.180 --> 02:57.480
+Jadi sekarang kita mengerti beberapa cara untuk menggambarkan grafik. Mari saya tunjukkan grafik favorit saya sepanjang masa.
+
+02:57.570 --> 02:59.820
+Ini adalah grafik favorit saya.
+
+03:00.900 --> 03:05.990
+Ini oleh proyek opti dan itu adalah sebagian peta Internet.
+
+03:06.300 --> 03:12.680
+Jika Anda melihat di sini, Anda melihat bahwa kami memiliki alamat IP yang terhubung ke alamat IP.
+
+03:12.810 --> 03:17.580
+Dan ini semua node yang terhubung untuk membuat internet.
+
+03:17.730 --> 03:19.210
+Benar-benar spektakuler.
+
+03:19.230 --> 03:24.290
+Itu adalah contoh terbaik dari grafik.
+
+03:24.310 --> 03:31.600
+Jadi sekarang kita mengerti atau setidaknya memiliki pemahaman dasar tentang grafik mari kita lakukan latihan yang menyenangkan.

@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.860 --> 00:06.740
+Now that we have a better understanding of how to calculate bego let's look at another exercise that
+
+00:06.740 --> 00:09.850
+should be a little bit easier than the first one that we did.
+
+00:10.310 --> 00:21.170
+What would you say that the big show of this is well if we go one by one we see here that we have of
+
+00:21.170 --> 00:25.680
+one again of one.
+
+00:25.950 --> 00:30.420
+And you know what if I keep typing this is going to get tiresome so I'm just going to copy and paste
+
+00:30.420 --> 00:32.150
+so all of one here.
+
+00:32.190 --> 00:43.930
+We're just assigning variables and then we also see here that we have a for loop that is running based
+
+00:43.930 --> 00:45.030
+on the input.
+
+00:45.160 --> 00:50.770
+We don't know what that input is but we can just assume that we're looping based on however long this
+
+00:50.770 --> 00:54.370
+input is in which case we're running each one of these
+
+00:58.900 --> 01:02.820
+of end times or whatever long the input is.
+
+01:02.830 --> 01:09.410
+So again these are going to be run of in and of end times.
+
+01:09.700 --> 01:15.840
+And if we go down here again same thing we don't know what the input is but these are being run off
+
+01:15.870 --> 01:21.530
+and times and then finally this last line is just run once.
+
+01:21.790 --> 01:25.660
+So it'll be all of one.
+
+01:25.660 --> 01:38.580
+So looking at this function another fun challenge function we see that are all in our Big O is 1 2 3
+
+01:38.880 --> 01:39.560
+4.
+
+01:39.640 --> 01:50.360
+So we have four plus because we're just adding up the steps year we have of and that's happening 1 2
+
+01:50.420 --> 01:54.760
+3 4 5 so 5 and
+
+01:57.610 --> 02:08.190
+so the big O here is we have four costs and times and then five things that we're doing anti-CPS or
+
+02:08.190 --> 02:11.700
+however long the input is all right.
+
+02:11.700 --> 02:14.360
+That wasn't so bad was it compared to the first time around.
+
+02:14.520 --> 02:16.750
+I think you're starting to get the hang of this.
+
+02:16.800 --> 02:18.540
+So let's dive into the next video.
+
+02:18.600 --> 02:25.260
+Let's start to figure out how we can simplify things for us so that we're not doing this mathematical
+
+02:25.260 --> 02:27.020
+step by step count.
+
+02:27.150 --> 02:28.990
+I'll see in the next video Bob.

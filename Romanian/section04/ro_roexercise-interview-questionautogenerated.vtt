@@ -1,0 +1,682 @@
+WEBVTT
+
+00:01.440 --> 00:08.670
+Bine ați venit înapoi în acest moment ar trebui să fiți familiarizați cu modul în care un interviu de codificare de succes
+
+00:08.670 --> 00:14.500
+tipic ar trebui să arate mai ales cum să rezolve o problemă în fața unui intervievator.
+
+00:14.500 --> 00:17.010
+Și vom face un exercițiu puțin distractiv aici.
+
+00:17.190 --> 00:25.860
+Un intervievator tocmai ne-a pus o întrebare și aceasta este întrebarea chiar aici dată matricei de a crea o funcție
+
+00:26.080 --> 00:34.160
+care permite unui utilizator să știe adevărat sau fals dacă aceste două matrice conțin orice elemente comune.
+
+00:34.250 --> 00:42.860
+De exemplu, dacă ar fi trebuit să ștergem un an care conține un b c x iar celălalt Z Y și eu
+
+00:42.860 --> 00:48.600
+ne vom întoarce la fals deoarece nu există nimic comun între aceste două ștergeri.
+
+00:48.620 --> 00:58.960
+Cu toate acestea, în acest exemplu, una din matrice pentru ambele conține X și pentru că ele au un obiect comun ar
+
+00:58.960 --> 01:02.220
+trebui să se întoarcă la adevărat.
+
+01:02.260 --> 01:05.160
+Deci, un intervievator tocmai v-a întrebat această întrebare.
+
+01:05.980 --> 01:07.840
+Cum vom rezolva problema.
+
+01:07.840 --> 01:13.550
+Să mergem pas cu pas prin micul nostru tip.
+
+01:13.630 --> 01:19.390
+Când intervievatorul spune că întrebarea notează punctele-cheie din partea de sus.
+
+01:19.630 --> 01:21.700
+Asigurați-vă că aveți toate detaliile.
+
+01:21.700 --> 01:23.980
+Arătați cum sunteți organizați.
+
+01:24.410 --> 01:28.450
+Ei bine, în acest caz, am făcut ceva pentru tine aici.
+
+01:28.450 --> 01:36.940
+În mod ideal, ați scrie acest lucru în timp ce codificați și asigurați-vă că îi arătați intervievatorului.
+
+01:36.940 --> 01:37.510
+O.K.
+
+01:37.840 --> 01:41.530
+Dacă aș avea acest exemplu, ar trebui să revină false.
+
+01:41.590 --> 01:46.350
+Dacă aș avea acest exemplu, ar trebui să revin adevărat.
+
+01:46.390 --> 01:52.990
+Acum, să spunem că intervievatorul v-a dat doar aceste puncte și nici o altă informație, cel puțin
+
+01:52.990 --> 01:59.930
+acum aveți o idee despre ce probleme se vor uita și dacă vrem să ne întoarcem false sau adevărate.
+
+02:00.030 --> 02:03.480
+Dar avem două lucruri pe care vrem să le facem cu funcția noastră.
+
+02:03.480 --> 02:07.070
+Unul este că avem doi parametri
+
+02:10.710 --> 02:17.250
+și această funcție se va întoarce la adevărat sau la fals.
+
+02:17.270 --> 02:18.600
+Acum, în al doilea punct.
+
+02:18.800 --> 02:24.500
+Asigurați-vă că verificați dublu ce sunt intrările care sunt rezultatele pe care le-am făcut deja
+
+02:24.500 --> 02:31.730
+și că am confirmat cu intervievatorul că avem două intrări care sunt o cursă pe care chiar putem să le
+
+02:31.730 --> 02:32.810
+cerem intervievatorului.
+
+02:32.930 --> 02:34.540
+Vor fi întotdeauna o creștere.
+
+02:34.550 --> 02:40.760
+Este posibil ca intrarea să nu fie o cursă, poate un obiect, poate un șir și putem confirma cu prejudiciul
+
+02:40.760 --> 02:42.670
+sau care sunt acele cazuri.
+
+02:42.860 --> 02:47.780
+În cazul nostru, să spunem că anul spune că acești doi parametri vor fi întotdeauna o rasă și întotdeauna
+
+02:48.830 --> 02:51.520
+vom dori să revenim la adevărat sau la fals.
+
+02:51.990 --> 02:56.690
+Și numărul doi este foarte important aici, pentru că nu vrem să mergem direct în codificare.
+
+02:57.050 --> 03:01.310
+Chiar dacă credeți că știți răspunsul sau ați văzut această problemă înainte să
+
+03:02.000 --> 03:08.540
+știți exact ce să faceți, nu săriți direct în codificare explicați-vă mai întâi abordarea dvs., așa cum fac aici,
+
+03:08.720 --> 03:15.020
+vorbind, pentru că dacă există probleme cu dvs. sau cu intelegerea ta a intrebarii pe care intervievatoarea voastra
+
+03:15.020 --> 03:20.990
+o va indica deseori inainte de a sari direct si cautand codul vostru si spunand ca nu
+
+03:20.990 --> 03:22.740
+este greșit acest lucru.
+
+03:23.150 --> 03:26.700
+În acest fel, atât dvs., cât și intervievatorul știți exact care sunt pașii.
+
+03:26.760 --> 03:28.250
+Trebuie să urmați.
+
+03:28.250 --> 03:30.320
+Acum, să ne uităm la punctul nr. 3 aici.
+
+03:30.320 --> 03:32.910
+Care este cea mai importantă valoare sau problema.
+
+03:33.020 --> 03:37.030
+Aveți spațiu de timp și memorie pentru a rula această funcție.
+
+03:37.070 --> 03:39.330
+Care este obiectivul principal acum?
+
+03:39.380 --> 03:45.620
+Pentru că aceasta este o întrebare simplă, am putea să-l întrebăm pe intervievator cât de mare
+
+03:45.620 --> 03:47.230
+ar fi această matrice.
+
+03:47.340 --> 03:54.830
+Pentru ca daca intervievatorul spune ca matricea nu va fi niciodata mai mult de 5 articole bine atunci poate ca
+
+03:54.830 --> 04:01.820
+nu trebuie sa ne facem griji despre complexitatea timpului mare sau complexitatea spatiului cat mai mult si apoi poti
+
+04:01.820 --> 04:07.970
+cere intervievatorului ca scopul nostru este sa să fie cât mai eficient posibil cu funcția noastră.
+
+04:07.970 --> 04:12.040
+Ceea ce este mai important pentru noi este complexitatea timpului mai importantă.
+
+04:12.050 --> 04:14.790
+Sau complexitatea spațiului este mai importantă.
+
+04:14.900 --> 04:20.210
+Poate că intervievatorul vă poate spune că vrem doar cea mai eficientă funcție pe
+
+04:20.210 --> 04:24.940
+care o pot obține presupunând că matricea poate deveni foarte mare.
+
+04:24.950 --> 04:30.830
+Deci, să presupunem că aici avem doi parametrii care nu au o limită de dimensiune.
+
+04:30.830 --> 04:34.270
+Deci, aceste matrice pot deveni foarte mari.
+
+04:34.420 --> 04:38.860
+Și în ceea ce privește returnarea adevărului sau a falsului, tot ce vrem, vrem doar să ne întoarcem boolean.
+
+04:39.280 --> 04:45.820
+Acum, numărul patru Nu fi enervant atunci când puneți prea multe întrebări și suntem un fel de a ajunge pe teritoriul
+
+04:45.820 --> 04:51.820
+în care am pus o mulțime de întrebări intervievatorului și avem un fel de o idee despre ce vrem
+
+04:51.820 --> 04:52.740
+să facem.
+
+04:52.870 --> 04:56.520
+Noi putem continua să le punem întrebări, dar amintim că de obicei aveți o limită de timp.
+
+04:56.530 --> 05:03.940
+Nu doriți să le deranjați și să le cunoașteți și să le întrebați toate aceste mici întrebări înainte de
+
+05:04.510 --> 05:05.700
+a începe codarea.
+
+05:05.740 --> 05:06.890
+Țineți minte timpul.
+
+05:07.000 --> 05:12.790
+Și cred că în acest moment avem o informație pe care o putem trece mai departe cu presupunerea noastră de a începe
+
+05:12.790 --> 05:13.430
+rezolvarea problemei.
+
+05:14.230 --> 05:22.440
+Așadar, numărul cinci începe cu abordarea forței brute naive, primul lucru care vine în minte.
+
+05:22.540 --> 05:28.160
+Arată că sunteți capabili să gândiți bine și critic și nici măcar nu trebuie să scrieți acest cod.
+
+05:28.210 --> 05:30.040
+Doar vorbiți despre asta.
+
+05:30.550 --> 05:34.630
+Acesta este întotdeauna un caz în care un intervievator vă pune întrebarea.
+
+05:34.630 --> 05:41.410
+Ei au de obicei o soluție ușoară pe care o numim forța bruta care nu este cea mai eficientă, dar
+
+05:41.410 --> 05:45.080
+de obicei este cea mai ușoară sau prima care vine.
+
+05:46.080 --> 05:54.750
+Deci, în cazul nostru, dacă ne uităm la acest lucru în timpul unui interviu cu o limită de timp, s-ar putea să spunem că
+
+05:54.780 --> 06:04.980
+aceasta arată ca o buclă imbricată în care comparăm a cu Z și apoi o cu Y, apoi o cu I și apoi vom merge cu ZB cu
+
+06:04.980 --> 06:09.360
+YB cu mine și apoi cu el și așa mai departe.
+
+06:09.510 --> 06:17.130
+Deci, imediat, se pare că comparăm două zone diferite și vom avea două bucle
+
+06:17.340 --> 06:25.230
+pe una dintre ele, iar imediat, știm că este un O mare despre care
+
+06:25.620 --> 06:29.330
+am vorbit despre O și pătrat.
+
+06:29.850 --> 06:35.850
+Cel mai probabil, în timpul unui interviu imbricat pentru bucle este ceva ce vrem să evităm
+
+06:35.850 --> 06:41.700
+să-i spunem intervievatorului această soluție, chiar dacă nu este cea mai bună soluție, deja arată
+
+06:41.700 --> 06:43.370
+că gândești clar problema.
+
+06:43.680 --> 06:47.140
+De asemenea, vă oferă un punct de unde să vă îmbunătățiți de acum.
+
+06:47.250 --> 06:52.280
+Nu trebuie neapărat să codificați această parte și de obicei este suficient doar să descrieți cum funcționează.
+
+06:52.290 --> 06:58.760
+Ca și cum tocmai am făcut acum, dar în funcție de timpul dvs., ați putea sau nu să doriți să codificați și acest lucru.
+
+06:58.860 --> 07:04.920
+Cel mai important este să lăsați intervievatorul să știe că aceasta este forța brute sau soluția ușor naivă
+
+07:04.920 --> 07:11.520
+care poate nu este cea mai eficientă, cel puțin în acest fel aveți răspunsul corect, apoi nu mai aveți timp și
+
+07:11.520 --> 07:13.540
+nici măcar nu aveți un răspuns.
+
+07:15.560 --> 07:20.270
+Numărul șase aici este TELL ME TELL de ce această abordare nu este cea mai bună.
+
+07:20.330 --> 07:28.760
+Deci, în cazul nostru am spus că este posibil ca codul să nu fie eficient sau să nu fi citit un cod care
+
+07:29.240 --> 07:34.070
+va fi cu adevărat complicat și dificil de citit pentru alți dezvoltatori.
+
+07:35.070 --> 07:41.590
+Cu demonstrația mea, pentru că vreau doar să mă gândesc la asta, așa că pot fi mai clar de ce este asta.
+
+07:41.610 --> 07:42.780
+Oh și pătrat.
+
+07:42.780 --> 07:46.490
+Am de gând să cod doar și, cel mai probabil, nu ați face acest lucru într-un interviu.
+
+07:46.500 --> 07:50.640
+Voi codifica soluția forței brute, ca să vezi ce vreau să spun.
+
+07:50.790 --> 08:02.170
+Voi avea o funcție și această funcție va spune că conține un element comun și va
+
+08:02.170 --> 08:09.140
+primi pentru a șterge matricea 1 și matricea 2.
+
+08:09.160 --> 08:14.030
+Acum vom lua prima matrice și vom face o buclă.
+
+08:14.090 --> 08:20.310
+Așa că am să spun că pentru că l-am lăsat să o lase pe pi să fie egală cu zero.
+
+08:21.650 --> 08:27.120
+Și vom spune că atâta timp cât eu sunt mai puțin decât matricea vrea lungime.
+
+08:27.140 --> 08:32.070
+Deci, este primul depozit de deșeuri pe care o vom crește.
+
+08:32.540 --> 08:36.080
+Și în această buclă vom avea o buclă.
+
+08:36.080 --> 08:43.430
+Așa că, în prima oară, o să luăm una din prima matrice și o vom compara cu cea
+
+08:43.430 --> 08:46.740
+de-a doua matrice Z Y și X.
+
+08:46.790 --> 08:51.860
+Așa că vom avea o buclă aici și vom spune că vom avea același lucru.
+
+08:51.920 --> 08:54.530
+În acest moment în loc de I se va spune J.
+
+08:55.390 --> 08:57.360
+Este egal cu zero.
+
+08:58.030 --> 09:03.580
+Și acest J, atâta timp cât este mai mic decât lungimea lui Array cu două puncte.
+
+09:05.210 --> 09:09.900
+O să crească de fiecare dată când o privim.
+
+09:09.980 --> 09:14.020
+Și în sfârșit aici vom face o comparație.
+
+09:14.030 --> 09:20.930
+Vom compara a la z, apoi la doi Y, apoi la 2 x.
+
+09:21.080 --> 09:31.960
+Deci, dacă mă duc aici și spun dacă un tabel cu un indice al lui eu mă încadrez unul la indexul I.
+
+09:31.980 --> 09:35.240
+Deci, prima oară în jurul meu va fi zero.
+
+09:35.280 --> 09:39.670
+Asta înseamnă că matricea 1 va conține o.
+
+09:39.840 --> 09:46.500
+Să luăm de fapt acest lucru, ca să putem vedea mai bine în partea de sus aici.
+
+09:46.500 --> 09:55.130
+Va trebui să concurez aici și vom spune acea matrice de 0.
+
+09:55.130 --> 09:57.100
+Prima dată în jur va lua opt.
+
+09:57.470 --> 10:09.650
+Și dacă aceasta este egală cu matricea 2 la ceea ce J este J este indicele matricei 2.
+
+10:09.680 --> 10:12.270
+Deci, prima dată în jur se va compara cu Z.
+
+10:12.360 --> 10:18.680
+Deci, și Z și apoi ca aceste incremente se va compara cu a și y și apoi acest lucru este
+
+10:18.710 --> 10:24.830
+de gând să incrementare compara cu X și apoi mergem la bucla de sus din nou mă crește.
+
+10:24.830 --> 10:27.010
+Așa devine 1 acum.
+
+10:27.080 --> 10:34.220
+Deci vom începe să comparăm B la Z B Y să fie X și apoi C la Z C până la C înalt X și așa mai departe.
+
+10:34.550 --> 10:44.130
+Dacă acesta este cazul și dacă acest lucru este adevărat, vrem să ne întoarcem la adevărat altfel, dacă reușim să facem acest lucru și
+
+10:44.520 --> 10:51.210
+acest lucru nu se potrivește niciodată bine în acest caz, putem reveni aici doar la fals.
+
+10:53.030 --> 10:56.340
+Acum să vedem dacă funcționează.
+
+10:56.540 --> 11:10.100
+Am de gând să spun că conține un obiect obișnuit și o vom da la o serie de curse 1 și două.
+
+11:10.350 --> 11:14.550
+Dacă rulați acest lucru și să facem acest lucru un pic mai mic, astfel
+
+11:17.500 --> 11:28.240
+încât să puteți vedea dacă am rula acest lucru eu devin adevărat, deoarece există un element comun de X dacă am schimba acest lucru pentru a avea acum R și am faceți clic pe Run
+
+11:28.240 --> 11:29.710
+I a lua fals.
+
+11:29.850 --> 11:38.640
+Din nou, dacă schimbăm acest lucru la un clic și facem clic pe rulați, vom deveni adevărați pentru că un meci și un meci privesc la
+
+11:38.640 --> 11:46.050
+acest lucru și ne uităm la numărul 6 aici, care este să facem acest ecran un pic mai organizat, astfel încât să
+
+11:46.050 --> 11:47.450
+putem citi acest lucru.
+
+11:47.640 --> 11:51.550
+Numărul șase le spuneți de ce această abordare nu este cea mai bună.
+
+11:51.570 --> 12:00.210
+Acum, din nou, s-ar putea să nu aveți timp să codificăm chiar acest lucru, dar putem să vedem că avem două bucle pe care le-am imbricat după altul și pentru că am
+
+12:00.810 --> 12:07.650
+vorbit deja despre asta în Big O O. S. știm că avem un
+
+12:07.860 --> 12:09.820
+rând mare.
+
+12:09.870 --> 12:19.050
+Când vine vorba de complexitatea timpului de aici bine, avem o matrice a și o altă matrice.
+
+12:19.110 --> 12:21.500
+Asta inseamna multiplicarea de catre B.
+
+12:21.720 --> 12:26.810
+Din nou, acest lucru este un pic de truc, deoarece aceste două tablouri pot avea dimensiuni diferite.
+
+12:26.940 --> 12:36.430
+Nu putem spune doar un pătrat, deoarece aceste două matrice pot avea din nou, așa cum am spus diferite dimensiuni.
+
+12:36.570 --> 12:42.480
+Deci, aceasta este un pic de truc și este un lucru bun că am scris-o pentru că acum vedem că în loc de
+
+12:42.480 --> 12:43.460
+0 și pătrat.
+
+12:43.470 --> 12:52.440
+Acest lucru este mai mult ca oh a ori b, dacă dimensiunile matrice sunt aceleași va fi la fel ca 0 și pătrate, deci este
+
+12:52.440 --> 12:53.590
+destul de lent.
+
+12:55.220 --> 13:01.590
+Așadar, numărul 7 trece prin abordarea lucrurilor comune și vedeți unde puteți
+
+13:01.600 --> 13:08.490
+să distrugeți lucrurile și să repetați blocajele, cum ar fi o muncă pătrată sau inutilă.
+
+13:08.490 --> 13:11.300
+Ați folosit toate informațiile pe care intervievatorul vi le-a dat.
+
+13:11.630 --> 13:13.350
+Și așa mai departe și așa mai departe.
+
+13:13.400 --> 13:21.020
+Privind la acest lucru, pot spune că probabil că ar fi mai bine să nu găsiți o soluție imediat și asta pentru că
+
+13:21.410 --> 13:25.820
+trebuie să exersați câteva dintre aceste probleme pentru a înțelege un model comun.
+
+13:26.030 --> 13:32.180
+Dar unul dintre cele mai comune modele atunci când vine vorba de buclele imbricate este că ați
+
+13:32.180 --> 13:38.630
+putea folosi ceva numit tabele hash care vă va face în javascript că ele sunt numite obiecte pentru
+
+13:38.630 --> 13:39.780
+a grăbi lucrurile.
+
+13:39.800 --> 13:47.140
+Există o modalitate de a transforma acest lucru oh ori de complexitatea timpului în ceva mai rapid.
+
+13:48.270 --> 13:58.560
+Facem un pic de muncă inutilă în care purtăm doar buclele Z A Y A și apoi mergem ocupat B Y B.
+
+13:58.830 --> 14:05.080
+Și facem această comparație în aceeași lucrare din nou și peste ce dacă avem o soluție mai bună.
+
+14:05.180 --> 14:07.230
+Voi comenta acest lucru deocamdată.
+
+14:08.960 --> 14:13.340
+Și defilați până la capăt și nu mai avem nevoie de asta.
+
+14:14.030 --> 14:15.370
+Și încercați o soluție diferită.
+
+14:15.560 --> 14:18.310
+Și eu aduc matricea aici doar ca să vedem asta.
+
+14:23.170 --> 14:30.770
+Acum, înainte de a începe să codificăm efectiv, să ne gândim la pașii pe care vrem să le luăm bine dacă ar fi
+
+14:30.770 --> 14:33.760
+avut o funcție care să ia prima matrice.
+
+14:33.800 --> 14:43.880
+Deci, să spunem că matricea 1 va fi convertită la un obiect și acest obiect va conține
+
+14:43.880 --> 14:46.580
+ceva de genul acesta.
+
+14:46.680 --> 14:50.770
+Și să ne asigurăm că vom combina asta.
+
+14:50.870 --> 15:02.480
+Ea va conține un egal cu adevărat atunci va fi aproape de adevărat C aproape de adevărat.
+
+15:02.730 --> 15:10.130
+Și apoi, în cele din urmă, va avea X egal cu adevărat.
+
+15:10.150 --> 15:21.080
+Acum, dacă creăm un obiect ca acesta, putem folosi acum acest obiect fără o rată pentru a spune doar tabloul 2.
+
+15:21.100 --> 15:27.050
+Putem verifica fiecare element din matrice 2 la acest obiect și să vedem dacă există o proprietate.
+
+15:27.220 --> 15:38.410
+În mod ideal, putem face ceva ca array pentru a indexa și a vedea dacă aceasta este egală cu oricare dintre proprietățile punctului obiect.
+
+15:38.860 --> 15:41.530
+OK, hai să mergem mai departe.
+
+15:41.550 --> 15:43.220
+Acesta este un model comun.
+
+15:43.240 --> 15:48.810
+Veți vedea multe atunci când vine vorba de îmbunătățirea complexității timpului, astfel încât, dacă
+
+15:48.810 --> 15:51.600
+nu obțineți acest lucru imediat nu stresați.
+
+15:51.660 --> 15:56.430
+Acesta este ceva ce va deveni din ce în ce mai familiar, deoarece facem mai multe probleme.
+
+15:56.430 --> 16:03.500
+Dar dacă reușesc să convertesc la primul matrice într-un obiect care arată astfel.
+
+16:03.860 --> 16:12.050
+Acum, în loc să trebuiască să ocupem peste ambele tablouri, pot să introduc doar a doua matrice și pur și simplu
+
+16:12.050 --> 16:17.150
+verificați dacă proprietatea Z există pe acest obiect pe care l-am creat.
+
+16:17.330 --> 16:18.830
+Nu, nu.
+
+16:18.830 --> 16:21.630
+Proprietatea Y există pe Saray.
+
+16:21.680 --> 16:22.380
+Nu, nu.
+
+16:22.400 --> 16:26.940
+Există o proprietate pe acest obiect.
+
+16:27.110 --> 16:28.400
+Da, da.
+
+16:28.400 --> 16:34.700
+Asta înseamnă că avem acum un element comun pentru a vă arăta cum funcționează de fapt și de ce această
+
+16:34.700 --> 16:37.170
+soluție ar fi mai bună decât prima.
+
+16:37.310 --> 16:42.870
+Trebuie să încep codarea, dar pe măsură ce trecem prin numărul 8 vedem asta înainte de a începe codarea.
+
+16:42.890 --> 16:51.550
+Vrem să mergem prin codul dvs. și să notăm pașii pe care urmează să faceți, să începem să facem asta.
+
+16:51.550 --> 16:57.510
+Voi spune că vom crea o nouă funcție care conține un element comun.
+
+16:57.510 --> 17:03.640
+Aceasta o voi adăuga pentru că este a doua funcție pe care o va lua
+
+17:03.670 --> 17:06.320
+într-o gamă de una și matricea.
+
+17:06.470 --> 17:12.130
+Și acum această funcție Să facem un pic mai mic astfel încât să fie mai frumos.
+
+17:12.130 --> 17:13.290
+Acolo te duci.
+
+17:13.360 --> 17:30.160
+Această funcție va spune mai întâi că vreau să faceți buclă prin prima matrice și să creați obiect în cazul
+
+17:30.910 --> 17:36.800
+în care proprietățile elemente egale în matrice.
+
+17:39.470 --> 17:47.120
+Apoi, cel de-al doilea lucru va fi să
+
+17:49.580 --> 18:02.600
+faceți buclă secundară și să verificați dacă elementul și a doua matrice există pe obiectul creat.
+
+18:02.600 --> 18:10.490
+Acum, înainte de a începe chiar să codificăm acest lucru, pot scrie un sens în sensul că vom avea o performanță
+
+18:10.610 --> 18:19.330
+mai bună decât primul Saray care a fost o viteză de timp, deoarece ceea ce vom face este să avem două bucle, dar aceste
+
+18:19.330 --> 18:21.990
+două bucle sunt vor fi imbricate.
+
+18:22.030 --> 18:30.030
+Amintiți-vă în prima soluție pe care am avut-o pentru bucle în această soluție.
+
+18:30.290 --> 18:35.040
+Și a doua noastră soluție va trebui să ne separăm pentru bucle.
+
+18:35.460 --> 18:46.180
+Și dacă vă amintiți analiza noastră O mare atunci când avem pași unul după altul în loc de imbricate
+
+18:46.180 --> 19:00.140
+O mare devine un plus b avem o soluție potențială aici avem o complexitate de timp a unui plus b în loc de o viteză
+
+19:00.260 --> 19:01.420
+de timp.
+
+19:01.610 --> 19:03.170
+Acestea sunt economii mari.
+
+19:03.290 --> 19:07.790
+Trebuie să începem să scriem codul pentru a vedea dacă putem rezolva această problemă.
+
+19:08.060 --> 19:09.530
+Și pentru că acest videoclip devine mult timp.
+
+19:09.560 --> 19:11.430
+Vom face acest lucru în următorul videoclip.
+
+19:11.810 --> 19:18.080
+Dar vreau să vă arăt chiar aici ceea ce am făcut și asta este că, deși nu am
+
+19:18.080 --> 19:22.310
+dat o soluție clară, am vorbit despre modul în care rezolvăm problema.
+
+19:22.310 --> 19:25.190
+Intervievatorul vede cum gândim.
+
+19:25.220 --> 19:34.130
+CS ce măsuri luăm în CS că luăm decizii critice inteligente pentru a trece de la înțelegerea
+
+19:34.130 --> 19:38.390
+problemei la rezolvarea problemei în mod naiv.
+
+19:38.390 --> 19:45.410
+Înțelegerea motivului pentru care acest lucru ar putea să nu fie cel mai bun mod și apoi să începeți să vă gândiți la posibilele soluții.
+
+19:45.410 --> 19:52.340
+Și frumusețea acestei abordări este că, indiferent dacă avem această parte corectă, ipotezele noastre sunt greșite și
+
+19:52.340 --> 19:54.560
+nu putem face acest lucru.
+
+19:54.560 --> 20:01.770
+Prezentăm intervievatorului că ne gândim printr-o problemă și facem mici pași logici spre
+
+20:01.860 --> 20:03.110
+o soluție.
+
+20:04.370 --> 20:09.360
+Și este mult mai bine decât să codificăm imediat încercarea unei soluții.
+
+20:09.380 --> 20:15.200
+Și vezi dacă o faci bine sau nu, un intervievator va avea o bună înțelegere a abilităților tale și a procesului tău
+
+20:15.290 --> 20:16.800
+de gândire în acest fel.
+
+20:16.820 --> 20:20.100
+Și acestea sunt tipurile de persoane pe care doresc să le angajeze.
+
+20:20.390 --> 20:26.150
+În următorul film, să terminăm această problemă să codificăm și să vedem dacă putem face
+
+20:26.300 --> 20:30.350
+această soluție mai eficientă, convertindu-l la 0 A plus B.
+
+20:30.350 --> 20:31.730
+Voi vedea în următorul.
+
+20:31.920 --> 20:32.210
+Buh-Pa.

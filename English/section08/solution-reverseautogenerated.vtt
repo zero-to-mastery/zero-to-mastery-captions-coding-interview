@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.900 --> 00:03.110
+Welcome back.
+
+00:03.280 --> 00:10.370
+We have our list over here and we want to be able to run my linked list.
+
+00:10.570 --> 00:15.900
+Reverse that will reverse this list for us.
+
+00:15.900 --> 00:17.580
+Let's figure out the code here.
+
+00:19.300 --> 00:24.220
+The first thing we want to do is to do a bit of a check.
+
+00:24.220 --> 00:29.040
+Imagine if we only had one item in the list.
+
+00:29.290 --> 00:34.590
+If there's one node or item in the list then well we don't need to really reverse it.
+
+00:34.600 --> 00:35.610
+It's already there.
+
+00:35.620 --> 00:40.830
+So if this list only contained one just return whatever we have for now.
+
+00:40.930 --> 00:49.450
+So let's do that check here and we can just say if this dad had dot next and this exclamation mark means
+
+00:49.840 --> 00:51.520
+doesn't exist.
+
+00:51.600 --> 00:59.350
+I mean if this had done next if one is only one and it's not all this exclamation mark is going to turn
+
+00:59.350 --> 01:04.300
+this into the opposite which the way javascript works will turn this into true.
+
+01:04.480 --> 01:07.120
+And it's a little bit confusing but hopefully you're with me on that one.
+
+01:07.120 --> 01:11.760
+All we're saying is if this is the only node and there's only a head note here.
+
+01:12.630 --> 01:16.890
+I could also do this by checking the length and we have the length property.
+
+01:17.090 --> 01:24.860
+So I could do something like this dot length is equal to one religious keep it the way it is for now
+
+01:25.340 --> 01:27.720
+if there is only one element.
+
+01:27.890 --> 01:35.500
+Just simply return this Dot had the node or we can just return this as well.
+
+01:35.570 --> 01:38.420
+Otherwise let's get into the fun coding part.
+
+01:38.420 --> 01:47.420
+The first thing we want to do is say we want to have the first item equals to this dot head and we're
+
+01:47.420 --> 01:49.370
+just keeping track of it here.
+
+01:49.460 --> 01:56.460
+So we're going to say that we now have a reference to this knothead And we also have a reference now
+
+01:56.490 --> 01:59.960
+to the second item in the list.
+
+02:00.360 --> 02:04.190
+So this is going to be first dot next.
+
+02:04.250 --> 02:08.620
+So now that we have first and second we can do some looping.
+
+02:08.770 --> 02:21.800
+We can say while the second node exists that is as long as second is not null.
+
+02:21.960 --> 02:29.520
+So as long as that's happening we're going to create a temporary variable that holds second dot next
+
+02:30.210 --> 02:36.880
+so we can actually call this third if we want but I'm choosing temp because this is going to change.
+
+02:36.970 --> 02:39.910
+So we have a reference to first second and third.
+
+02:39.910 --> 02:54.150
+So one 10 and 16 from here we can now say second dot next is going to equal the first element.
+
+02:56.050 --> 03:10.430
+First is going to equal that second element and second this is going to equal the top element Oh my
+
+03:10.430 --> 03:11.860
+what just happened here.
+
+03:11.950 --> 03:16.980
+I know there was a lot of code without a lot of explanation but let's go through it line by line.
+
+03:17.180 --> 03:26.680
+We're looping here after we've grabbed one and we grabbed 10 and now I'm going to say as long as this
+
+03:26.770 --> 03:37.230
+second variable has a value and it's non-null it that not exist then I want you to create a temp variable
+
+03:37.440 --> 03:47.180
+that holds 16 from there I'm going to grab that second done next which is the property inside of 10
+
+03:48.030 --> 03:51.600
+and I'm going to say that to 10 is now going dewpoint.
+
+03:51.630 --> 03:54.270
+So second on X is going to point to the first.
+
+03:54.270 --> 04:04.200
+So 10 has an arrow pointing to one and the first variable which was the head now becomes 10 and the
+
+04:04.290 --> 04:07.310
+second item becomes 16.
+
+04:08.150 --> 04:16.460
+We've switched the pointers one to 10 now goes 10 to 1 and we switched the variables first and second
+
+04:16.550 --> 04:25.650
+to now have 10 and 16 and we loop through and do the same thing where we have the pointer 10 to 16 reversed
+
+04:25.660 --> 04:31.400
+so that 16 points to 10 and we changed a variable so that it's 16 and 18.
+
+04:31.870 --> 04:37.420
+So we loop through this we loop through this we loop through this and then the final thing we need to
+
+04:37.420 --> 04:46.230
+do is to say that this dad had because this thought had still has the value of 1 in it.
+
+04:46.340 --> 04:50.390
+We're going to say that dot next is going to equal two.
+
+04:50.480 --> 05:06.370
+No we're going to have one point to knowl and this dot head now is instead going to be the first and
+
+05:06.370 --> 05:15.480
+remember by the time we loop through everything first becomes 88 and second becomes No.
+
+05:15.820 --> 05:20.920
+So we are now changing at the very end 88 to be equal to the head.
+
+05:21.370 --> 05:28.510
+And we also want to make sure that that tail is now one and the way we do that we have to go before
+
+05:28.510 --> 05:36.210
+the while loop and see here that this dog had this first item should be the tail up.
+
+05:36.280 --> 05:47.610
+So at the beginning before we do the loop the tail would become this dog had right.
+
+05:47.680 --> 05:51.850
+I know that was confusing but let's see if that works.
+
+05:51.850 --> 05:57.700
+This is one of those problems that you really have to dry it out and just by looking at this code it's
+
+05:57.700 --> 06:00.500
+really hard for you to understand what's going on.
+
+06:00.700 --> 06:06.400
+I recommend that you code this along and step by step perhaps console law to understand what's going
+
+06:06.400 --> 06:06.840
+on.
+
+06:07.640 --> 06:14.820
+If I reverse this list and click run I get undefined because we have to return something so let's return
+
+06:16.020 --> 06:16.880
+return.
+
+06:16.890 --> 06:21.930
+This got the print list wanting to run this.
+
+06:22.150 --> 06:22.710
+All right.
+
+06:22.750 --> 06:26.200
+Let me just make sure that we're reversing I'm going to comment it out.
+
+06:26.290 --> 06:31.740
+So we have the original list 1 10 16 88 if we reverse it.
+
+06:31.780 --> 06:40.170
+We have 88 16 10 and 1 and just for good measure instead of printing lists let's just return this year
+
+06:41.600 --> 06:46.370
+so we get the entire linked list to make sure everything is working properly.
+
+06:47.890 --> 06:55.710
+I have a linked list that has a head value of 88 and a tail value of 1.
+
+06:55.810 --> 06:58.660
+Looks like it's working.
+
+06:58.660 --> 06:59.610
+Awesome.
+
+06:59.860 --> 07:01.350
+Good job getting this far.
+
+07:01.420 --> 07:08.710
+And if you're able to understand this I think this is probably the most difficult concept to understand
+
+07:09.220 --> 07:11.800
+in this entire course.
+
+07:11.860 --> 07:17.150
+So if you're able to get this good job if not you might have to watch this video a couple times.
+
+07:17.200 --> 07:23.830
+In the end and this is the beauty of programming all we're doing is logical steps and no matter what
+
+07:23.830 --> 07:29.080
+language you use whether it's javascript like we did in this case the steps to create a linked list
+
+07:29.110 --> 07:35.710
+are the exact same syntax may differ but the logic is the same.
+
+07:35.790 --> 07:36.720
+I'll see in the next one.

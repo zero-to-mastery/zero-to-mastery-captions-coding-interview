@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.100 --> 00:02.000
+Welcome back.
+
+00:02.120 --> 00:05.920
+Let's implement one last feature in our hash table here.
+
+00:06.050 --> 00:18.290
+I want to create something called KIIS and keys allows us to iterate or loop through all the keys of
+
+00:18.290 --> 00:19.350
+our hash table.
+
+00:19.430 --> 00:23.990
+In this case grapes and apples and let's add a few more just for fun.
+
+00:23.990 --> 00:27.130
+So we see what's going on.
+
+00:27.330 --> 00:31.160
+That oranges and we don't like them too much so we're only going to add two of them.
+
+00:32.450 --> 00:45.030
+Now if we run KIIS Ideally it's going to iterate and spit out grapes apples and oranges for us to see
+
+00:45.030 --> 00:47.460
+what we need to go shopping for.
+
+00:47.650 --> 00:50.090
+How would we go about building this.
+
+00:50.260 --> 00:53.250
+Well because we're going to do some sort of looping.
+
+00:53.350 --> 00:59.300
+I'm going to start off by creating a constant let's call it teaser array.
+
+01:00.010 --> 01:04.030
+And this is going to be an empty array within here.
+
+01:04.050 --> 01:10.850
+We're going to loop so for LeT I call 0
+
+01:13.780 --> 01:18.040
+and as long as I is going to be less and this data length
+
+01:20.990 --> 01:30.170
+we're going to increment by end here we're saying we want to loop through all 50 items spaces all the
+
+01:30.170 --> 01:31.340
+shelfs one by one.
+
+01:31.340 --> 01:32.550
+We're going to loop through them.
+
+01:32.690 --> 01:34.700
+Yep that's a lot of iterations.
+
+01:35.120 --> 01:42.450
+And if in the shelf there is some sort of data.
+
+01:42.450 --> 01:48.600
+If it's not undefined completely empty and there is something valuable for us that we want to look.
+
+01:48.600 --> 01:56.730
+Because remember we allocate 50 spaces on the shelf but we've only placed 3 items or three data points
+
+01:56.730 --> 01:58.040
+on that.
+
+01:58.050 --> 02:07.560
+So if there is something in that memory space in that case we can just say Kuzari dot push this dot
+
+02:07.560 --> 02:13.350
+data and we grab the index.
+
+02:13.350 --> 02:17.200
+So the first IRA or the array that we're at right here.
+
+02:17.670 --> 02:20.350
+And then we want to grab apples right.
+
+02:20.820 --> 02:28.670
+Well if I do zero here and now hit run what we have to return something.
+
+02:28.910 --> 02:30.620
+Let's return here.
+
+02:30.770 --> 02:33.360
+The key sorry at the end of all this.
+
+02:33.380 --> 02:44.460
+So after all the loops we're going to simply say return keys array fi run this I get grapes apples and
+
+02:44.460 --> 02:45.440
+oranges.
+
+02:45.810 --> 02:46.770
+That's fantastic.
+
+02:46.780 --> 02:53.360
+But I just wanted grapes apples and oranges to see what's going on here.
+
+02:53.460 --> 03:06.810
+Let's console log this dot data high which is what we're doing here while we're pushing and if I run
+
+03:06.810 --> 03:19.020
+this we see that we get a raise within the array because remember we have one massive array.
+
+03:19.060 --> 03:26.440
+And each time we create a new shelf space we have to have a new array that we create and we push into
+
+03:26.440 --> 03:27.410
+that.
+
+03:27.490 --> 03:30.300
+So a little bit of a gotcha here.
+
+03:30.340 --> 03:31.480
+We have to say
+
+03:34.890 --> 03:39.050
+zero which removes the odd or re.
+
+03:39.300 --> 03:46.220
+And now a zero to grab the first index of this array.
+
+03:50.210 --> 03:59.110
+So if we add a now there zero in there to access the first index of the array we click run.
+
+03:59.190 --> 03:59.770
+Look at that.
+
+03:59.910 --> 04:02.560
+We get grapes apples and oranges.
+
+04:02.970 --> 04:03.600
+Well done.
+
+04:03.600 --> 04:06.930
+We've just implemented a hash table.
+
+04:07.160 --> 04:11.790
+And you may have noticed something a downside of hash tables.
+
+04:11.960 --> 04:14.770
+We had to loop here right.
+
+04:14.810 --> 04:21.540
+We had a for loop looping through the entire memory space in order to find our keys.
+
+04:21.680 --> 04:26.840
+That was so much easier with the race with the raise we would have had just three items and we would
+
+04:26.840 --> 04:29.850
+have looped over three times instead.
+
+04:29.900 --> 04:32.570
+Here we looped over 50 times.
+
+04:32.570 --> 04:35.100
+Imagine if we had 500.
+
+04:35.120 --> 04:36.830
+That's even more.
+
+04:36.830 --> 04:38.190
+How exciting is this.
+
+04:38.210 --> 04:46.370
+We're starting to learn how things work underneath the hood so that now we have an idea of hmm maybe
+
+04:46.640 --> 04:53.210
+if we're using this type of method objects might not be the best idea.
+
+04:53.210 --> 04:57.450
+And that's one drawback of objects or hash tables in javascript.
+
+04:57.520 --> 05:08.450
+We can use something like for in loops to loop over items in an object which again is very very slow.
+
+05:09.250 --> 05:21.060
+And as you might realize there's no guaranteed order every time we're just adding something to our address.
+
+05:21.210 --> 05:29.310
+But when we grab items from the address we just go from 0 to 50 even though the items are just randomly
+
+05:29.310 --> 05:30.930
+placed in different shelves.
+
+05:30.990 --> 05:34.460
+But I hope now you actually get to see how it works.
+
+05:34.500 --> 05:39.240
+We're putting items randomly in a shelf but when we retrieve them they are all on order.
+
+05:41.290 --> 05:48.520
+And that's why coding things out even though you most likely won't get this asked in an interview.
+
+05:48.610 --> 05:55.660
+Knowing how things work allows you to talk about them intelligently and I hope this exercise has done
+
+05:55.660 --> 05:56.920
+that for you.
+
+05:56.950 --> 06:03.640
+I'll leave this for you to play around with and perhaps add different methods like values that grabs
+
+06:03.910 --> 06:06.550
+the values instead of the keys.
+
+06:06.550 --> 06:10.990
+But for now let's finalize our talk of hash tables by comparing them to race.

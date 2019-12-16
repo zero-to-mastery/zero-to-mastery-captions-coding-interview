@@ -1,0 +1,292 @@
+WEBVTT
+
+00:01.270 --> 00:02.190
+Witam ponownie.
+
+00:02.390 --> 00:12.290
+Mamy naszą oryginalną listę długości i właśnie dowiedzieliśmy się, że nasza połączona lista jest właściwie połączoną listą,
+
+00:12.290 --> 00:18.320
+ale chcemy ją teraz przekształcić w podwójnie połączoną listę.
+
+00:19.090 --> 00:25.300
+Abyśmy dodali X pewną funkcję dodatkowego wskaźnika.
+
+00:25.510 --> 00:27.670
+Jak to zrobimy?
+
+00:28.120 --> 00:33.210
+Cóż, chodźmy po linii i na szczęście dla nas to nie jest takie trudne.
+
+00:34.810 --> 00:41.970
+Jak możesz sobie wyobrazić, jeśli przejdziemy linijka po linii i przejdziemy do konstruktora, dodatkową informacją, którą
+
+00:41.970 --> 00:49.140
+musimy teraz dodać, jest to, że mamy również poprzedni wskaźnik, a ten poprzedni wskaźnik nie będzie zaczynać
+
+00:49.260 --> 00:50.630
+się od początku.
+
+00:50.640 --> 00:52.910
+Więc głowa wskaże nie.
+
+00:53.460 --> 00:55.960
+I wszystko inne pozostaje takie samo.
+
+00:56.930 --> 01:00.730
+Ale co się dzieje, gdy dodamy coś dobrze.
+
+01:00.770 --> 01:08.240
+Jeszcze raz dodamy nową notatkę, która również ma poprzednią właściwość nową właściwość, która wskazuje
+
+01:08.240 --> 01:14.440
+zero, a my nadal będziemy mieli kropkę ogonową równą nowemu węzłowi.
+
+01:14.590 --> 01:23.980
+I to się nie zmienia, ale jedyną zmianą linii jest to, że musimy dodać poprzednią właściwość, ponieważ pamiętaj,
+
+01:23.980 --> 01:28.060
+że dopisek dodaje się na końcu listy.
+
+01:28.060 --> 01:35.380
+Chcemy dodać poprzednią właściwość do równego tego, co było na końcu oryginalnej listy, zanim
+
+01:35.380 --> 01:36.640
+zrobiliśmy aktualizację.
+
+01:36.700 --> 01:46.240
+Więc wszystko, co musimy zrobić, to powiedzieć, że nowy węzeł będzie równy tej kropce, aż do ostatniego
+
+01:46.930 --> 01:51.700
+elementu, zanim zostanie zaktualizowany tutaj do nowego węzła.
+
+01:51.720 --> 01:54.260
+Zobaczmy, czy append działa tak, jak go mamy.
+
+01:54.780 --> 02:04.550
+Zamierzam przewinąć tutaj i po prostu skomentować cały ten kod, z wyjątkiem pierwszych dwóch linii.
+
+02:05.350 --> 02:07.320
+Dołącz pięć i dołącz 16.
+
+02:07.390 --> 02:15.020
+Jeśli kliknę tutaj, otrzymam listę podwójnie połączoną, która ma wartość 10.
+
+02:15.050 --> 02:23.590
+OK, który wskazuje na następny, który jest następnym węzłem, widzimy wartość 5, która wskazuje na obiekt,
+
+02:23.590 --> 02:30.220
+którego tak naprawdę jeszcze nie znamy, a także wskazuje na poprzedni obiekt.
+
+02:30.430 --> 02:39.050
+I w tym 10 węźle widzimy, że poprzednie punkty wiedzieć, bo nie ma nic przed głową.
+
+02:39.190 --> 02:48.730
+Jeśli spojrzymy na ten ogon, widzimy, że ogon ma teraz wartość 16 obok, nie dlatego,
+
+02:48.730 --> 02:59.710
+że jest ogonem, to koniec, ale poprzedni węzeł również wskazuje na ten węzeł 5, a lista podwójnie
+
+02:59.710 --> 03:02.660
+połączona ma długość trzech.
+
+03:02.700 --> 03:03.240
+Bardzo fajny.
+
+03:03.240 --> 03:07.260
+Więc wszystko, co dodaliśmy, to poprzednie odniesienie.
+
+03:07.410 --> 03:09.490
+Zróbmy to samo dla Prebend.
+
+03:09.570 --> 03:12.090
+To jest dodać na początku listy.
+
+03:12.090 --> 03:22.560
+Przewińmy do góry, aby ponownie zacząć dodawać nową właściwość, która będzie poprzednią, która będzie na
+
+03:22.590 --> 03:24.080
+razie równa.
+
+03:24.480 --> 03:32.850
+Chcemy zachować wszystko w ten sam sposób, w jaki chcemy, aby nowy węzeł kropka dalej
+
+03:32.850 --> 03:36.340
+wskazywał, czym jest teraz głowa.
+
+03:36.450 --> 03:43.950
+Ale chcemy również powiedzieć, że ta kropka miała kropkę poprzednią poprzednią powinna teraz wskazywać na nasz nowy węzeł,
+
+03:44.250 --> 03:46.410
+ponieważ nie jest już głową.
+
+03:46.860 --> 03:53.730
+A potem możemy zaktualizować, że musiał to być nasz węzeł, a ta kropka będzie się zwiększać, a my
+
+03:53.730 --> 03:54.880
+zwrócimy to.
+
+03:55.410 --> 04:00.210
+Jeśli kliknę tutaj, zapamiętaj, gdzie poprzednia 1.
+
+04:00.220 --> 04:03.140
+Więc dodajemy 1 na początku listy.
+
+04:03.320 --> 04:10.400
+Widzimy, że lista podwójnie połączona ma teraz głowę z jedną wartością, która wskazuje na następną
+
+04:10.400 --> 04:16.950
+wartość, która jest 10, a nasz ogon wciąż jest tą samą opowieścią 16.
+
+04:16.970 --> 04:20.310
+To wskazuje na wartość pięciu.
+
+04:20.780 --> 04:29.150
+Więc jeśli wydrukujemy w zeszłym roku ponownie jeden 10 5:16 zgodnie z oczekiwaniami.
+
+04:29.160 --> 04:31.620
+A co z wkładką.
+
+04:31.770 --> 04:32.720
+Jak by to działało.
+
+04:33.650 --> 04:41.960
+Jeśli przejdziemy do wstawienia tutaj metody i przejścia wiersz po wierszu tej pierwszej części, wszystko jest w porządku.
+
+04:42.080 --> 04:43.000
+Mamy nowy węzeł.
+
+04:43.010 --> 04:50.800
+Tak więc dodamy poprzednią właściwość, na którą będziemy wiedzieć, że wciąż łapiemy lidera i przechodzimy
+
+04:50.800 --> 04:52.190
+przez indeks.
+
+04:53.100 --> 04:56.260
+Ale teraz musimy robić to trochę inaczej.
+
+04:56.800 --> 05:02.310
+Musimy złapać zarówno lidera, jak i naśladowcę.
+
+05:02.320 --> 05:11.550
+Więc jeśli chcesz dodać dziewięćdziesiąt dziewięć tutaj, musisz pobrać odniesienie do 10 przywódcy, a także naśladowcy
+
+05:11.830 --> 05:12.590
+5.
+
+05:13.140 --> 05:16.100
+Zamierzam zatem zmienić nazwisko lidera Don.
+
+05:16.110 --> 05:22.390
+To jest 5 tutaj, aby powiedzieć naśladowcę.
+
+05:22.840 --> 05:30.430
+Tak więc liderem naszego nowego węzła i wyznawcą naszej wiedzy, którą teraz obserwujesz, będzie teraz ta
+
+05:31.480 --> 05:33.970
+piątka, którą zamierzamy teraz zaktualizować.
+
+05:33.970 --> 05:41.860
+A więc to jest pięć, albo lider zrobiony dalej, co jest po tym, jak 10 zostanie nowym węzłem to dziewięćdziesiąt
+
+05:42.960 --> 05:47.970
+dziewięć, a następnie nowe NIE zrobione dalej będzie równe temu, co naśladowca.
+
+05:48.240 --> 05:50.480
+To jest pięć.
+
+05:50.630 --> 05:59.920
+Ale chcemy również upewnić się, że nasz nowy węzeł poprzedni będzie równy liderowi.
+
+06:00.290 --> 06:10.960
+To jest 10, a także upewnij się, że naśladowca będący piątą ma poprzednią wartość, która
+
+06:10.960 --> 06:15.070
+wskazuje na nasz nowy węzeł.
+
+06:15.080 --> 06:22.800
+Więc jeśli wydrukuję listę tutaj z wkładką, którą wstawiłem, wartość będzie po prostu sprawdzić, czy wszystko
+
+06:22.800 --> 06:23.680
+działa.
+
+06:23.730 --> 06:35.460
+Mam zamiar pocieszyć Daut'a loguję to, co jest naszą listą linków, jeśli kliknę uruchomię Widzę, że nasza połączona lista ma dno 5 i zamierzam zmienić
+
+06:36.030 --> 06:42.420
+tylko na indeks jednego, abyśmy mogli zobaczyć to w naszym wyniku tutaj .
+
+06:42.450 --> 06:49.470
+A kiedy mówię o indeksie jednego kliknięcia, widzę, że głowa jest teraz wartością jednej następnej, a pozycja
+
+06:49.470 --> 06:50.820
+ma wartość 99.
+
+06:51.240 --> 06:59.730
+Tak jak się spodziewaliśmy, ma on zarówno poprzednie, jak i poprzednie właściwości i nie jest tak źle,
+
+07:00.030 --> 07:04.200
+o ile wizualizujesz kroki i rysujesz swoje diagramy.
+
+07:04.200 --> 07:11.220
+Wszystko, co robimy, to powiedzenie: dodaj nowy węzeł lub poprowadź lidera, a następnie zwróć
+
+07:11.230 --> 07:19.470
+uwagę, że wiesz teraz, aby wskazać lidera, a nowy węzeł powinien wskazywać za nim obok obserwatora, a
+
+07:19.650 --> 07:24.430
+obserwujący będzie teraz wskazywał z powrotem do nowego węzła.
+
+07:24.530 --> 07:30.560
+Być może będziesz musiał przejść przez to w swoim kapeluszu lub wyschnąć na papierze, ale to
+
+07:30.560 --> 07:37.010
+ma sens i na koniec dnia pojedynczo połączone listy i podwójnie powiązane listy nie są tak różne, jak widzisz.
+
+07:37.010 --> 07:41.700
+Wszystko, co robimy, to po prostu zarządzanie innym wskaźnikiem wskazującym na poprzednią notatkę.
+
+07:42.520 --> 07:50.110
+Zamierzam opuścić listę połączonych linków, aby zaimplementować własną.
+
+07:50.110 --> 07:56.590
+A lista podwójnie powiązana, o której już się dowiedziałeś, powinna być zupełnie inna od
+
+07:56.730 --> 07:59.600
+tej, którą zrobiliśmy we wkładce.
+
+08:00.040 --> 08:03.870
+Mam jednak nadzieję, że wiesz, jak działają listy linków.
+
+08:03.870 --> 08:11.230
+Teraz ankieterzy uwielbiają zadawać pytania na wszystkich powiązanych listach, ponieważ wymaga to przechowywania dużej ilości informacji w
+
+08:11.230 --> 08:16.420
+twojej głowie, a jak widzisz, mogą być naprawdę skomplikowane, jeśli nie
+
+08:16.420 --> 08:21.740
+jesteś typem osoby, która jasno myśli swoimi krokami i rozumie, oni robią.
+
+08:21.760 --> 08:25.640
+Jeden po drugim i kroki są naprawdę ważne.
+
+08:25.660 --> 08:29.940
+Właśnie dlatego ankieterzy uwielbiają to pytanie, ponieważ naprawdę widzą, jak myślisz.
+
+08:31.220 --> 08:37.400
+A z listami odsyłaczy, jak długo robisz, dlaczego robisz krok po kroku, staje się naprawdę bardzo
+
+08:37.400 --> 08:37.810
+łatwy.
+
+08:37.820 --> 08:42.200
+Dopóki nie zaczniesz kodować go z pamięci.
+
+08:42.200 --> 08:43.730
+Po prostu narysuj kroki.
+
+08:43.730 --> 08:47.010
+Pomyśl o swoich krokach, a rozmówca będzie pod wrażeniem.
+
+08:47.800 --> 08:48.760
+Zobaczę w następnym.

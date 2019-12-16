@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.280 --> 00:02.150
+Bine ai revenit.
+
+00:02.330 --> 00:09.440
+Să ne uităm la primul din cele două tipuri de căutări sau traversând un copac sau un grafic.
+
+00:09.530 --> 00:12.800
+Se numește prima căutare în lățime.
+
+00:12.800 --> 00:14.770
+Încercați să spuneți că de cinci ori foarte repede.
+
+00:15.840 --> 00:22.950
+Modul în care funcționează prima căutare este că începeți cu nota de rădăcină și mutați-l de la stânga la dreapta în
+
+00:23.010 --> 00:28.630
+cel de-al doilea nivel, apoi vă deplasați spre stânga spre dreapta în cel de-al treilea nivel.
+
+00:29.520 --> 00:32.640
+Și așa mai departe și așa mai departe.
+
+00:33.320 --> 00:43.430
+Continuați să mergeți de la stânga la dreapta la stânga la dreapta de nivel și continuați să continuați până veți găsi cunoștințele
+
+00:43.430 --> 00:52.310
+pe care le căutați sau copacul și să aruncăm o privire la o altă lățime vizuală prima căutare
+
+00:52.340 --> 00:53.520
+funcționează astfel.
+
+00:53.570 --> 00:57.000
+Mergem la nodul rădăcină.
+
+00:57.190 --> 01:02.370
+Apoi, al doilea nivel al treilea nivel și, în final, cel de-al patrulea nivel,
+
+01:02.380 --> 01:07.280
+puteți vedea aici cum se numerotează unul câte unul unul câte unul.
+
+01:07.290 --> 01:10.950
+Acum vom codifica respirația în primul rând și vom înțelege cum funcționează.
+
+01:11.010 --> 01:17.940
+Dar vreau să menționez că prima căutare a respirației folosește memorie suplimentară deoarece este necesar să urmăriți
+
+01:17.970 --> 01:24.340
+notele copil ale tuturor nodurilor la un anumit nivel în timp ce căutați acel nivel.
+
+01:24.360 --> 01:30.240
+Acest lucru înseamnă că trebuie să urmărim fiecare nod și copiii săi în ordine și vom vorbi despre unele dintre
+
+01:30.240 --> 01:35.760
+aceste implicații atunci când vom codifica respirația pentru căutare și, de asemenea, aruncăm o privire asupra avantajelor și dezavantajelor,
+
+01:35.760 --> 01:38.610
+comparativ cu cel de altă natură care este prima.
+
+01:38.820 --> 01:41.470
+Dar să mergem la codul nostru pentru un exemplu rapid.
+
+01:42.920 --> 01:52.160
+Avem aici arborele pe care l-am creat în secțiunea noastră structură de date copac un arbore binar de căutare care creează un
+
+01:52.160 --> 02:01.050
+copac pentru noi care arată ca acest Ninus un nod rădăcină are patru și douăzeci și unu șase cincisprezece și 170.
+
+02:01.240 --> 02:08.290
+Dacă am făcut prima căutare, ce credeți că ar fi ordinea dacă am fi vrut să
+
+02:08.290 --> 02:13.670
+o convertim într-o listă în timp ce vom vizita mai întâi nouă.
+
+02:13.770 --> 02:20.880
+Apoi am vizitat cel de-al doilea nivel pentru 20 de ani și apoi vom vizita din nou la al treilea nivel de la stânga
+
+02:21.030 --> 02:21.720
+la dreapta.
+
+02:21.780 --> 02:34.860
+Am vizita unul apoi 6, apoi 15 apoi 170 și folosind prima căutare amănunțită putem crea această listă.
+
+02:34.870 --> 02:43.550
+Să aruncăm o privire la cel de-al doilea mod de traversare a unui copac sau a unui grafic și care este prima căutare în profunzime.
+
+02:43.660 --> 02:44.150
+Haideți să aruncăm o privire.

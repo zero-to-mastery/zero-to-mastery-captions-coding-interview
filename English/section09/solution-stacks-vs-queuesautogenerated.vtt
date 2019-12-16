@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.490 --> 00:01.900
+Will come back.
+
+00:02.020 --> 00:03.730
+How did you do in that exercise.
+
+00:04.530 --> 00:06.180
+Let's have a look at the solution.
+
+00:06.880 --> 00:09.700
+Let's start off with stacks.
+
+00:09.760 --> 00:14.770
+I said that with stacks they can be implemented using arrays or linked lists.
+
+00:14.770 --> 00:20.560
+In this case both arrays and length lists are going to work fairly well in the end.
+
+00:20.560 --> 00:24.670
+It depends on why you prefer and why your priorities are.
+
+00:24.670 --> 00:30.820
+And by this point you should understand the pros and cons of arrays and pros and cons of linked lists.
+
+00:31.000 --> 00:35.420
+So we don't need to go into much detail since we've talked about it before.
+
+00:35.560 --> 00:42.970
+But one major thing is that arrays allow something called cache locality which makes them technically
+
+00:42.970 --> 00:50.050
+faster when accessing its items in memory because they're right next to each other versus a linked list
+
+00:50.470 --> 00:58.450
+that has them scattered all over memory and also linked lists have extra memory associated with them
+
+00:58.450 --> 01:01.990
+because we have to hold on to those pointers.
+
+01:01.990 --> 01:06.360
+But on the other hand they have more dynamic memory.
+
+01:06.370 --> 01:07.180
+Right.
+
+01:07.420 --> 01:14.890
+And we can keep adding things to the list versus an array where you have either a static array or a
+
+01:14.890 --> 01:17.050
+dynamic array that has certain amount of memory.
+
+01:17.050 --> 01:22.900
+And as soon as it's about to reach its limit it's going to have to double up their memory and create
+
+01:23.010 --> 01:25.590
+new space for it somewhere in memory.
+
+01:25.630 --> 01:31.960
+So you have to think about what sort of operations you're going to do and why your priorities are to
+
+01:31.960 --> 01:33.340
+decide which one you want.
+
+01:33.370 --> 01:40.130
+But they could both work and we're going to build a stack data structure with both of these coming up.
+
+01:41.310 --> 01:45.190
+Cues on the other hand is a very simple answer.
+
+01:45.300 --> 01:49.650
+You would never want to build it with an array or if you do.
+
+01:49.810 --> 01:55.710
+While that's not necessarily a good idea and ideally you want to implement them with linked lists.
+
+01:55.710 --> 02:02.300
+Why is that well if you remember arrays have indexes associated with them.
+
+02:02.310 --> 02:05.190
+So if we had mad here then we have joy.
+
+02:05.490 --> 02:06.980
+Then we have sumir.
+
+02:07.200 --> 02:10.750
+Then we have Pavel that are in.
+
+02:10.750 --> 02:19.020
+Q If this was in an array data structure and Matt was the first in line and we need to remove Matt from
+
+02:19.020 --> 02:29.370
+the queue Well once we remove Matt we now need to shift the indexes over so we have to go one by one
+
+02:29.490 --> 02:34.950
+and say All right Joy is now here.
+
+02:37.300 --> 02:42.610
+An index of zero sumir is that index of 1 and Pavel is an index of 2.
+
+02:42.720 --> 02:45.060
+And there's nothing index of 3.
+
+02:45.120 --> 02:47.120
+We just shifted those to race.
+
+02:47.130 --> 02:57.270
+It's an O of an operation linear time versus something like a linked list where all we have is a pointer
+
+02:57.330 --> 03:06.550
+to the head and then perhaps we have a pointer to the tail and all we need to do is say head.
+
+03:06.780 --> 03:15.980
+Well Matt we want to remove Matt and joy is going to be the head and nothing else changes.
+
+03:16.730 --> 03:19.860
+And that's an all of one operation or constant Constantine.
+
+03:20.330 --> 03:24.450
+I hope you are able to get the answer otherwise at least now you know.
+
+03:24.470 --> 03:29.660
+And this is a very common interview question that you might get asked that hopefully you have an answer
+
+03:29.660 --> 03:32.090
+to now but enough talking.
+
+03:32.160 --> 03:35.590
+I think it's time for us to build these data structures from the ground up.
+
+03:36.410 --> 03:38.390
+I'll see in the next video Buh-Bye.

@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.750 --> 00:01.640
+Ben tornato.
+
+00:02.010 --> 00:04.100
+Come è andato con il metodo Remove.
+
+00:05.470 --> 00:09.530
+Dovrebbe essere abbastanza facile dato che abbiamo lo strumento giusto.
+
+00:10.450 --> 00:19.720
+Tutto ciò che dobbiamo fare è prima controllare i parametri e potremmo voler verificare se l'indice ha un numero positivo
+
+00:19.720 --> 00:23.030
+se l'indice è superiore alla lunghezza.
+
+00:23.080 --> 00:25.130
+Ma questo è qualcosa di cui abbiamo già parlato.
+
+00:25.150 --> 00:28.130
+Quindi andiamo alla carne e alle patate.
+
+00:28.150 --> 00:35.920
+La parte principale di tutto ciò che dobbiamo fare è ancora una volta ottenere il riferimento al nostro leader.
+
+00:36.090 --> 00:44.530
+Quindi, se vogliamo rimuovere diciamo 99 in modo che sia l'indice di 0 1 2.
+
+00:44.660 --> 00:55.860
+In tal caso, vogliamo essere sicuri di rimuovere il puntatore da 10 a 99 e, invece, i punti da 10 a 5 e per il modo
+
+00:55.860 --> 01:01.710
+in cui la memoria funziona e i linguaggi raccolti come spazzatura come javascript
+
+01:01.710 --> 01:05.690
+non appena rimuoviamo quel riferimento 99 verrà cancellato.
+
+01:05.700 --> 01:17.490
+Quindi tutto ciò che stiamo dicendo ora è rimuovere questo puntatore e quindi basta aggiornare questo punto alla lista.
+
+01:17.530 --> 01:19.380
+E questo viene eliminato.
+
+01:19.740 --> 01:22.390
+Spero che il mio piccolo diagramma abbia un senso.
+
+01:22.450 --> 01:23.510
+Scopriamolo.
+
+01:23.960 --> 01:31.420
+Beh, per prima cosa troviamo il leader proprio come abbiamo fatto nella nostra funzione di inserimento usando questo punto
+
+01:31.420 --> 01:32.710
+traverse per indicizzare.
+
+01:32.710 --> 01:39.090
+Quindi vado a dire che questo punto attraversa l'indice Indice meno uno.
+
+01:39.310 --> 01:41.620
+E abbiamo il capo.
+
+01:41.770 --> 01:48.430
+Ora abbiamo il leader e possiamo puntare il punto 10 ora su cinque.
+
+01:48.640 --> 02:00.710
+Ma abbiamo bisogno di un riferimento a questo Foth e il modo in cui otteniamo tale riferimento è di dire Konst sulla nota desiderata che
+
+02:00.950 --> 02:09.860
+è il nodo che vogliamo eliminare avrà un punto leader successivo che è di volere che il nodo
+
+02:09.860 --> 02:23.080
+stia per chiamare il leader X che è 99 e lo abbiamo ottenuto molto in grassetto in modo da poter fare il punto del leader accanto al punto
+
+02:23.090 --> 02:26.880
+uguale su un punto del nodo successivo.
+
+02:26.900 --> 02:34.430
+Quindi abbiamo afferrato il leader e poi abbiamo detto questo no che non voglio voglio afferrarlo qui usando il punto
+
+02:34.430 --> 02:42.170
+punto successivo e poi assicurati di ottenere il puntatore da 99 a 5 che è la nota indesiderata fatta dopo che è
+
+02:42.380 --> 02:44.320
+uguale alle 5 il cinque.
+
+02:44.320 --> 02:49.280
+Nota per ora essere indicato dal punto del blogger successivo.
+
+02:50.140 --> 02:57.160
+E ovviamente non dimentichiamo che dobbiamo ridurre la lunghezza perché stiamo
+
+02:57.160 --> 03:07.580
+rimuovendo un nodo facendo meno-meno e possiamo semplicemente restituire questo punto a Crantz che era troppo brutto.
+
+03:07.580 --> 03:10.940
+Andiamo qui e assicurati che funzioni.
+
+03:10.940 --> 03:19.450
+Devo dire che vogliamo che il mio elenco collegato rimuova con l'indice di due.
+
+03:19.490 --> 03:21.100
+Quindi rimuoviamo il novantanove.
+
+03:21.230 --> 03:23.340
+Ho intenzione di eseguire questo.
+
+03:23.530 --> 03:24.170
+Guarda quello.
+
+03:24.170 --> 03:25.880
+Abbiamo rimosso novantanove.
+
+03:26.120 --> 03:29.420
+Se eseguo rimuovere di nuovo.
+
+03:29.450 --> 03:41.540
+Indice di due che è quello di rimuovere cinque ma non stampare la lista rimuovere e facciamo clic su Esegui 5 viene eliminato.
+
+03:41.580 --> 03:43.820
+Molto molto bello.
+
+03:44.220 --> 03:51.150
+E ancora una volta sappiamo perché cancellare è un'operazione di tutti e perché dobbiamo
+
+03:52.780 --> 04:02.060
+attraversare per indicizzare e tornare qui ora abbiamo una migliore comprensione di come funziona il diagramma che muove la coda.
+
+04:02.060 --> 04:08.840
+Dobbiamo attraversare tutto uno per uno uno per uno fino a quando non colpiamo la coda e poi basta rimuoverla
+
+04:08.840 --> 04:10.600
+e lì ce l'abbiamo.
+
+04:11.530 --> 04:15.480
+E ti incoraggio a giocare un po 'di più con questa animazione.
+
+04:15.580 --> 04:18.950
+Avere implementato il nostro elenco collegato.
+
+04:19.190 --> 04:24.950
+Ci sono altri metodi che possiamo aggiungere ad esso, ma questi sono i principali della lista collegata che puoi
+
+04:24.950 --> 04:25.480
+vedere.
+
+04:25.970 --> 04:31.370
+E questo dovrebbe darvi un'idea migliore di come calcoliamo la notazione di Big O con le liste
+
+04:31.370 --> 04:33.750
+collegate e dove alcuni degli svantaggi sono.
+
+04:33.760 --> 04:40.060
+Voglio dire che puoi spiegare le strutture dei dati per un lungo periodo di tempo, ma senza
+
+04:40.060 --> 04:49.210
+codificarti davvero è difficile capire perché alcune operazioni richiedono più tempo di altre e le liste di link sono molto popolari e domande di interviste.
+
+04:49.350 --> 04:55.890
+E ora hai gli strumenti per costruire la tua lista di lunghezza in una lingua che non ha nemmeno il
+
+04:56.130 --> 04:58.500
+suo nativo come javascript ben fatto.
+
+04:58.520 --> 05:06.120
+Arrivando così lontano nel prossimo video, ti presenteremo il secondo tipo di elenco collegato
+
+05:06.120 --> 05:08.350
+che ho menzionato all'inizio.
+
+05:08.460 --> 05:11.910
+Fino ad ora abbiamo creato elenchi concatenati.
+
+05:12.390 --> 05:16.050
+Ma c'è anche una lista doppiamente collegata.
+
+05:16.050 --> 05:18.150
+Cosa significa questo per quello.
+
+05:18.240 --> 05:19.130
+Vedrò nel prossimo video.

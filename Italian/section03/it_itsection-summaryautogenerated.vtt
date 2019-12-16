@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.780 --> 00:08.010
+Big O dice quale algoritmo o codice di funzione è il migliore.
+
+00:08.220 --> 00:15.000
+Abbiamo imparato che quando si parla di buon codice ci preoccupiamo della leggibilità e della
+
+00:15.000 --> 00:20.010
+scalabilità e bego ci consente di misurare l'idea del codice scalabile.
+
+00:20.060 --> 00:22.140
+E perché ci importa
+
+00:22.190 --> 00:27.080
+È perché non esiste un pranzo gratis.
+
+00:27.110 --> 00:30.030
+Risparmia tempo e denaro per un'azienda.
+
+00:30.040 --> 00:38.180
+Sei una superstar sapendo quanto tempo il tuo codice prende la quantità di memoria che utilizza è molto molto critico.
+
+00:38.180 --> 00:42.700
+Quelle sono cose costose per un'azienda o un prodotto.
+
+00:42.770 --> 00:49.010
+Ora big-O è un concetto molto importante che non troverai nel tuo lavoro quotidiano
+
+00:49.010 --> 00:57.470
+ma è qualcosa che dovrebbe sempre essere nella tua mente e bravi sviluppatori e ingegneri hanno sempre questa conoscenza.
+
+00:57.470 --> 01:01.440
+Questo è il motivo per cui è un argomento così popolare durante le interviste.
+
+01:01.450 --> 01:06.710
+L'ego è usato per descrivere quanto possiamo eseguire il suo cappotto in modo efficiente.
+
+01:06.710 --> 01:09.070
+Fa risparmiare alle aziende un sacco di soldi.
+
+01:09.290 --> 01:13.190
+Se le persone che assumono sanno come usare un codice efficiente.
+
+01:13.400 --> 01:22.310
+E in questa sezione abbiamo imparato l'idea della complessità temporale e della complessità spaziale come possiamo usare big-O per
+
+01:22.610 --> 01:24.790
+misurare entrambe le cose.
+
+01:24.790 --> 01:32.870
+Ma ognuno è un compromesso tra l'altro e O grande descrive il limite superiore delle nostre stime.
+
+01:32.870 --> 01:36.530
+Stiamo sempre guardando allo scenario peggiore.
+
+01:36.710 --> 01:43.610
+Vogliamo essere pessimisti e dire qual è lo scenario peggiore qui con il nostro codice, così possiamo essere preparati quando
+
+01:43.700 --> 01:44.820
+sarà il momento.
+
+01:44.840 --> 01:54.410
+La complessità temporale e il tempo di complicità dello spazio sono il tempo necessario per l'esecuzione dell'algoritmo e lo
+
+01:54.590 --> 01:57.980
+spazio è la memoria richiesta dall'algoritmo.
+
+01:57.980 --> 02:05.630
+La cosa importante che abbiamo imparato qui è che big-O riguarda il modo in cui
+
+02:05.630 --> 02:15.790
+è possibile ridimensionarlo, non significa necessariamente che 0 an sia migliore di 0 e quadrato perché la scalabilità non era l'unico fattore.
+
+02:15.830 --> 02:20.300
+Anche la leggibilità è qualcosa di cui ci stiamo occupando.
+
+02:20.300 --> 02:29.230
+A volte la leggibilità Forse è più importante della scalabilità, forse la complessità del tempo è meno importante della
+
+02:29.380 --> 02:31.000
+complessità dello spazio.
+
+02:31.860 --> 02:33.420
+E questo è qualcosa su cui vuoi stare attento.
+
+02:33.420 --> 02:40.120
+Ora, con questa nuova conoscenza, l'ottimizzazione prematura può essere la radice di tutto il male.
+
+02:40.140 --> 02:47.850
+È una famosa citazione che molti sviluppatori sanno a volte ottimizzare per il tempo o lo spazio
+
+02:47.850 --> 02:52.020
+può avere un impatto negativo sulla leggibilità del codice.
+
+02:52.020 --> 02:57.750
+Quindi, se stai lavorando ad una giovane startup per esempio potrebbe essere più importante per te scrivere un codice che
+
+02:58.440 --> 03:02.340
+sia facile da spedire e che sia facile da capire in seguito.
+
+03:02.340 --> 03:08.760
+Forse non ci vorrà più tempo per scrivere il codice e pensare al codice e alle sue
+
+03:08.760 --> 03:15.190
+implicazioni a lungo termine, perché forse questa startup ha un budget limitato e ha bisogno di cose fatte velocemente.
+
+03:15.270 --> 03:18.920
+Ciò non significa che le startup non si preoccupino dell'analisi big-O.
+
+03:18.990 --> 03:26.730
+Un grande ingegnere in una startup o in una grande azienda sa come trovare il giusto equilibrio tra
+
+03:26.910 --> 03:29.700
+spazio di runtime e ovviamente leggibilità.
+
+03:29.700 --> 03:38.230
+La cosa da tenere a mente è che i dati devono essere sufficientemente grandi per parlare di DIGO, si tratta di ridimensionamento.
+
+03:38.280 --> 03:47.610
+Se la tua funzione è lineare ma l'input è sempre diciamo 7 elementi, allora l'algoritmo lineare
+
+03:47.910 --> 03:56.230
+potrebbe essere migliore dell'algoritmo a tempo costante, quindi dipende davvero dalla tua situazione.
+
+03:57.500 --> 04:03.080
+Ho introdotto Big-O qui perché lo utilizzeremo durante questo corso e man mano che impareremo di più sulle
+
+04:03.080 --> 04:09.230
+strutture e sugli algoritmi di dati, impareremo di più su bego e su alcune altre cose che abbiamo visto in
+
+04:09.590 --> 04:15.620
+questo grafico che non abbiamo Ho parlato di questo, ma spero che ora tu guardi il codice in modo
+
+04:15.620 --> 04:19.470
+diverso e tu abbia avuto alcuni momenti aha in questa sezione.
+
+04:19.490 --> 04:26.180
+È certamente la mia sezione preferita e un argomento eccezionale che mi ha reso davvero un ingegnere migliore una volta imparato
+
+04:26.180 --> 04:26.830
+questo argomento.
+
+04:26.900 --> 04:28.790
+Quindi spero lo sia stato anche per te.
+
+04:28.820 --> 04:34.730
+Alla fine di tutto questo hai un modo di guardare il codice in modo diverso e quando qualcuno dice hey quanto è buono
+
+04:34.730 --> 04:35.540
+il mio codice.
+
+04:35.750 --> 04:39.880
+Hai un nuovo modo di guardare le cose e misurare le cose.
+
+04:40.720 --> 04:41.530
+Ci vediamo nel prossimo.

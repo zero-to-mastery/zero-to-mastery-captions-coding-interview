@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00.820 --> 00:01.920
+Selamat datang kembali.
+
+00:02.020 --> 00:08.310
+Saya ingin menambahkan video cepat untuk memberi tahu Anda tentang trik wawancara umum yang akan kami
+
+00:08.310 --> 00:11.200
+lakukan beberapa pertanyaan susunan setelah ini.
+
+00:11.610 --> 00:20.310
+Tetapi dalam wawancara Anda harus memperlakukan pertanyaan string seperti di sini sebagai pertanyaan array yang
+
+00:20.410 --> 00:24.730
+Anda lihat string hanya array karakter
+
+00:24.790 --> 00:31.760
+Sebagian besar waktu dalam sebuah wawancara ketika Anda mendapatkan pertanyaan seperti membalikkan string yang harus
+
+00:31.820 --> 00:40.880
+Anda pikirkan adalah untuk mengubah ini menjadi array melakukan semacam loop di atasnya atau operasi menggunakan sesuatu seperti metode split
+
+00:40.940 --> 00:45.250
+dalam javascript dan kemudian mengembalikannya sebagai Sebuah benang.
+
+00:45.470 --> 00:52.980
+Setelah Anda selesai operasi dengan mereka sehingga itu adalah pertanyaan wawancara yang sangat umum di mana Anda
+
+00:52.980 --> 00:54.060
+memanipulasi string.
+
+00:54.060 --> 00:57.880
+Ingatlah itu dan benar-benar akan menunjukkan ini di video berikutnya.
+
+00:57.960 --> 01:03.180
+Ketika kami melakukan pertanyaan wawancara yang sangat umum, saya akan melihat Anda dalam pertanyaan itu.
+
+01:03.480 --> 01:03.780
+Bebai.

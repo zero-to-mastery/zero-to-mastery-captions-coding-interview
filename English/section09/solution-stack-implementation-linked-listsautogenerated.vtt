@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.960 --> 00:01.790
+Welcome back.
+
+00:02.010 --> 00:06.810
+Let's have a look at how we would want to solve this question.
+
+00:06.840 --> 00:14.610
+That is how do we create a stack data structure that has peak PUSH and POP.
+
+00:14.810 --> 00:17.960
+Now peak should be fairly easy right.
+
+00:18.020 --> 00:28.600
+We just want to see the very top item on the stack so I can just say Peake is going to return this dot
+
+00:29.290 --> 00:30.020
+top.
+
+00:30.470 --> 00:30.960
+That's it.
+
+00:30.980 --> 00:40.080
+Nice and simple so that if we run my stack dot peak it's going to return.
+
+00:40.100 --> 00:44.870
+No because well there's nothing in our stack This top is.
+
+00:44.880 --> 00:46.770
+No that is empty.
+
+00:46.790 --> 00:49.600
+Let's go to the interesting one that is push.
+
+00:49.640 --> 00:51.690
+How do we add things to the stack.
+
+00:52.660 --> 00:59.720
+Well the very first thing we want to do is to create a new node and like I said we can create a new
+
+00:59.720 --> 01:05.390
+object here if we want or we can just use the Node class that I provided for you here.
+
+01:06.560 --> 01:13.640
+We can use the class by saying new node which instantiates a class and gives it the value that we're
+
+01:13.640 --> 01:15.770
+going to push with.
+
+01:15.920 --> 01:24.080
+Next we want to check if this is the very first item because if the stack is empty and this is the very
+
+01:24.080 --> 01:31.050
+first item while top and bottom are both going to point to the same note.
+
+01:31.120 --> 01:38.890
+So in that case we can check for if this dot length is equal to zero.
+
+01:39.880 --> 01:44.220
+In that case we can just say this top is going to equal the new node.
+
+01:45.690 --> 01:57.570
+And also this top bottom is going to equal the new node Otherwise we have to do something a little bit
+
+01:57.570 --> 02:04.530
+different but not that different because we've seen it in the linked list example we just have to change
+
+02:04.530 --> 02:06.480
+some pointers around.
+
+02:06.570 --> 02:14.380
+In our case we want to say Konst holding pointer to the very top node.
+
+02:16.820 --> 02:21.970
+Because what's ever on top now is going to get replaced by whatever we're going to add to it.
+
+02:22.160 --> 02:29.790
+So we're going to hold the reference to what was top originally and then we're going to say that this
+
+02:29.800 --> 02:40.110
+startup is now going to equal the new node and this dot top dot next which is now the new node is going
+
+02:40.110 --> 02:45.360
+to point to what was top beforehand but now is below it.
+
+02:45.780 --> 02:48.240
+So we just say holding pointer.
+
+02:48.240 --> 02:56.920
+So that is the Alltop is now going to be right after our new node and then finally we do that this dot
+
+02:57.370 --> 03:03.960
+Blant plus plus to increment the length by 1 and then finally we want to return.
+
+03:04.190 --> 03:08.000
+Let's just return this which will return us the link list.
+
+03:08.680 --> 03:09.700
+Let's see if that worked.
+
+03:11.280 --> 03:12.700
+I'm going to say Peke first.
+
+03:12.720 --> 03:21.150
+Well there's nothing here but if I want to push to my stack I'm going to say push and we'll push Google
+
+03:21.150 --> 03:23.820
+first because we're visiting Google first.
+
+03:24.970 --> 03:33.220
+And if I run this I get it data structure that has top that has the node value of Google.
+
+03:33.450 --> 03:40.970
+Next is not because we only have one item and the bottom is also the same Google with next note.
+
+03:41.460 --> 03:44.000
+And our stack has a lenth of one.
+
+03:44.150 --> 03:45.340
+What if we keep adding here.
+
+03:45.360 --> 03:49.230
+Let's go to you Demy next.
+
+03:49.440 --> 03:58.220
+If I click run I now have a length of two stack that has top node as you Dammy and bottom node as Google
+
+03:58.700 --> 04:03.850
+because remember with a stack we stack plates on top.
+
+04:04.040 --> 04:06.780
+That is you Demy came in last.
+
+04:06.890 --> 04:10.140
+So you Dammy is on top.
+
+04:10.160 --> 04:12.890
+Remember Life'll last and first step.
+
+04:13.070 --> 04:17.990
+Let's add one more let's say that we next visit our desk or community.
+
+04:17.990 --> 04:26.580
+So all I say push this gourd and I click run and there you go.
+
+04:26.650 --> 04:32.010
+We have our Dischord community at the top at the bottom is node.
+
+04:32.080 --> 04:34.290
+And just to make sure that our Peke is working.
+
+04:34.450 --> 04:44.570
+If I do peek we should get discord because it was the last stand and the very top of our stack.
+
+04:44.610 --> 04:45.370
+Very nice.
+
+04:45.450 --> 04:46.710
+I hope you got that.
+
+04:47.160 --> 04:52.450
+Let's continue with pop that is to remove whatever's on the top of the stack.
+
+04:52.860 --> 05:00.630
+Well let's first check to make sure that there is an item because if there isn't and we just have no.
+
+05:00.780 --> 05:02.520
+Well we just return no.
+
+05:03.920 --> 05:13.180
+So in this case we can just say if this startup if it doesn't exist in that case we'll just return.
+
+05:15.490 --> 05:22.660
+The next we can just do our Konst holding pointer to this dot top.
+
+05:22.990 --> 05:30.880
+So what is currently at the top which is discord I will say that this Daut top is no longer what it
+
+05:30.880 --> 05:33.130
+currently is because we want to remove it.
+
+05:33.250 --> 05:38.990
+It's going to equal this dot top dot next which is underneath discord.
+
+05:39.520 --> 05:45.950
+And then finally we say this at length minus minus because we want to decrease the lent by one.
+
+05:46.030 --> 05:49.920
+And then finally we can say return this now.
+
+05:49.960 --> 05:54.070
+Remember because Javascript is a garbage collected language.
+
+05:54.070 --> 06:05.880
+If I didn't do this and said holding pointer to this dot top Well discord this note that contains discord
+
+06:06.180 --> 06:08.320
+wouldn't be referenced by anything.
+
+06:09.150 --> 06:15.720
+And not used by anything which means in a garbage collected language like javascript that it will get
+
+06:15.780 --> 06:19.860
+automatically removed from memory during garbage collection.
+
+06:20.560 --> 06:25.780
+So if I run this while I haven't done anything yet.
+
+06:25.950 --> 06:31.640
+But right now for pop let's just return the holding pointer.
+
+06:31.860 --> 06:40.280
+If I click Run or Let's first do my stack dot pop to remove discord from the list.
+
+06:40.330 --> 06:51.990
+If I click run I get back the or node which is the holding pointer in case we still want to have access
+
+06:51.990 --> 06:52.600
+to it.
+
+06:53.130 --> 07:00.180
+Otherwise if we just wanted to disappear and we don't need it anymore we can just return this.
+
+07:00.210 --> 07:02.710
+We can even comment out the holding pointer.
+
+07:02.820 --> 07:12.030
+And if I click run we now have just you Demy at the top and Google at the bottom and discord is disappeared
+
+07:12.030 --> 07:13.380
+from memory.
+
+07:13.500 --> 07:14.460
+So let's keep going here.
+
+07:14.460 --> 07:18.030
+Let's say I want to pop one more
+
+07:21.000 --> 07:30.860
+and if I run this I now only have one thing the Google which was original item on the stack.
+
+07:30.870 --> 07:35.160
+So while we just did was we went to Google then we went to you Dammy.
+
+07:35.260 --> 07:42.600
+Then we went to discord and then we popped whatever's on the top and then we popped you Dammy and now
+
+07:42.600 --> 07:44.990
+we're just left with Google.
+
+07:45.180 --> 07:55.790
+If I do one last pop here and I click on we have top which is not all but oh we have a bottom node still
+
+07:56.390 --> 08:02.480
+having Google because we never removed in the pop our bottom node.
+
+08:02.480 --> 08:06.400
+All we did was replace the top.
+
+08:06.530 --> 08:17.640
+So we just need to add one conditional here which is if this dot top equals this dot bottom.
+
+08:17.780 --> 08:20.750
+That means there's only one item on the list.
+
+08:20.780 --> 08:29.380
+I could have also done this Lent equals zero if both of them are equal which means there is just one
+
+08:29.620 --> 08:30.930
+note left.
+
+08:31.120 --> 08:36.760
+In that case we want to say that this dot bottom is going to equal no.
+
+08:37.060 --> 08:41.950
+Because after we remove the only node left you want bottom to equal no.
+
+08:42.280 --> 08:45.410
+So if I do this and click run there you go.
+
+08:45.440 --> 08:48.450
+We're back to our original empty stack.
+
+08:49.560 --> 08:52.740
+I hope you got that and were able to make sense of it.
+
+08:52.770 --> 08:55.610
+We have another exciting exercise in the next video.
+
+08:55.750 --> 08:56.780
+I'll see that one.
+
+08:57.190 --> 08:57.400
+Bobby.

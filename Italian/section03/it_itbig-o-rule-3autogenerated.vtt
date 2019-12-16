@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.700 --> 00:02.510
+Ben tornato.
+
+00:02.510 --> 00:04.390
+Parliamo della regola numero tre.
+
+00:04.520 --> 00:11.360
+Questo è un termine diverso per gli input e questa è una delle parti più complicate di un'intervista a
+
+00:11.360 --> 00:12.860
+cui molte persone sbagliano.
+
+00:13.340 --> 00:16.900
+Ma una volta capito, diventa davvero facile da individuare.
+
+00:16.910 --> 00:18.220
+Diamo un'occhiata a un esempio.
+
+00:19.390 --> 00:25.120
+Ho esattamente la stessa funzione che abbiamo visto negli ultimi box di compressione video due volte.
+
+00:25.150 --> 00:30.800
+Abbiamo la matrice di scatole e abbiamo solo due loop qui.
+
+00:30.820 --> 00:32.020
+Sto usando il per ciascuno.
+
+00:32.020 --> 00:37.970
+Sintassi in javascript, ma stiamo eseguendo solo il doppio loop sullo stesso array.
+
+00:38.080 --> 00:45.290
+E come ho detto prima del grande spettacolo questo sarà due e, ma poiché abbiamo
+
+00:45.290 --> 00:54.810
+abbandonato le costanti, tutto diventa un ma la terza regola afferma che termini diversi per input e cosa significhi è.
+
+00:54.920 --> 00:57.340
+Beh, prima di tutto lascia che ti faccia una domanda.
+
+00:57.500 --> 01:07.840
+Che cosa succede se qui ho le scatole come primo parametro e quindi abbiamo le caselle come
+
+01:07.840 --> 01:17.860
+secondo parametro e forse questo secondo per ciclo effettivamente scorre sulle seconde caselle cosa succede qui.
+
+01:18.030 --> 01:20.110
+Qual è il grande O.
+
+01:21.720 --> 01:28.080
+E durante un colloquio un sacco di persone si scontrano e dicono che questo è mentre ancora
+
+01:28.080 --> 01:31.870
+di un sarà 0 2 e farà cadere le costanti.
+
+01:31.940 --> 01:35.050
+Allora ora è giusto.
+
+01:36.720 --> 01:44.760
+No, perché la terza regola afferma che termini diversi per gli input e ricordano le caselle.
+
+01:44.760 --> 01:49.550
+Il primo e poi il secondo sono due input diversi.
+
+01:49.830 --> 01:52.480
+Uno potrebbe essere un centinaio di articoli lunghi.
+
+01:52.600 --> 01:55.810
+Un altro può essere solo un oggetto.
+
+01:55.830 --> 02:04.910
+Quindi questo primo ciclo dipenderà da quanto è grande il primo elemento o primo input e quindi il secondo ciclo for
+
+02:04.910 --> 02:07.950
+dipende da quanto è grande questo.
+
+02:09.100 --> 02:17.730
+Ed è solo una lettera arbitraria che abbiamo deciso in questo caso il big-O di
+
+02:17.730 --> 02:30.040
+questa funzione sarebbe qualcosa di simile a per il primo ciclo for che è il primo input più il grande big-O questa
+
+02:30.370 --> 02:39.230
+funzione è in realtà un plus b o e più M o caselle anche più caselle.
+
+02:39.310 --> 02:45.760
+Quindi tieni questo in mente solo perché vedi due quattro anelli uno dopo l'altro non significa che stiano
+
+02:45.760 --> 02:48.190
+facendo il giro degli stessi oggetti.
+
+02:48.190 --> 02:55.980
+Ora ti starai chiedendo Andre Cosa succede se questi loop sono annidati.
+
+02:56.080 --> 02:59.920
+Finora abbiamo lavorato solo con cicli uno dopo l'altro.
+
+02:59.920 --> 03:09.460
+Che cosa succede se questo ciclo si trova all'interno di questo ciclo. Entriamo nel prossimo video e parliamo di un altro modello comune che
+
+03:09.460 --> 03:12.450
+vediamo con il passare dei loop annidati.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.260 --> 00:11.830
+Mari kita bicara tentang tumpukan tumpukan adalah jenis struktur data yang dapat Anda anggap sebagai tumpukan, yaitu kita memiliki satu
+
+00:11.830 --> 00:19.150
+data dan kemudian sepotong data lainnya muncul dan ditumpuk di atas potongan data itu
+
+00:19.150 --> 00:24.030
+dan terus disimpan akan terus berjalan dan terus berjalan.
+
+00:24.040 --> 00:31.510
+Anda dapat menganggapnya sebagai pelat-pelat ini ditumpuk satu sama lain secara vertikal dan Anda hanya dapat menyentuh
+
+00:31.600 --> 00:32.950
+pelat atas.
+
+00:33.040 --> 00:39.520
+Anda benar-benar dapat mengakses apa pun dari bawah di sini cara Anda dapat mengakses data dari
+
+00:39.520 --> 00:46.960
+tumpukan adalah untuk mengambil piring pertama kemudian piring kedua dan ketiga dan Anda terus berjalan dan terus berjalan dan
+
+00:46.960 --> 00:50.690
+terus berjalan sampai Anda telah melewati semua tumpukan.
+
+00:50.940 --> 00:58.950
+Dan ini disebut Life'll atau last in first out karena item terakhir yang masuk adalah item pertama
+
+00:59.070 --> 01:05.850
+yang muncul dan Anda berpikir sendiri mengapa ini berguna ketika kita benar-benar menggunakan sesuatu
+
+01:05.850 --> 01:07.190
+seperti tumpukan.
+
+01:07.200 --> 01:10.280
+Mereka sebenarnya berguna dalam beberapa cara yang cukup mengejutkan.
+
+01:10.380 --> 01:17.250
+Mereka sangat baik jelas ketika Anda perlu tahu nilai terakhir yang dilihat atau ditambahkan
+
+01:17.250 --> 01:21.960
+dan tumpukan sangat penting dalam mesin khusus bahasa.
+
+01:21.960 --> 01:28.770
+Anda mungkin pernah mendengar tentang sesuatu yang disebut Stack Overflow sebuah situs web yang dikunjungi banyak insinyur dan saya
+
+01:28.770 --> 01:35.040
+akan benar-benar memasukkan video bonus setelah kita berbicara tentang isyarat tentang bagaimana mesin javascript bekerja menggunakan tumpukan dan
+
+01:35.040 --> 01:40.190
+isyarat dan bagaimana Anda mungkin mendapatkan stack overflow saat tulis kode yang salah.
+
+01:40.970 --> 01:48.440
+Sekarang sebagian besar bahasa pemrograman dimodelkan dengan arsitektur stack dalam pikiran dan ketika
+
+01:48.440 --> 01:56.240
+fungsi dipanggil dalam bahasa pemrograman biasanya mereka mengikuti model ini pertama-tama keluar fungsi dalam
+
+01:56.240 --> 01:58.760
+fungsi dalam fungsi dipanggil.
+
+01:58.790 --> 02:05.150
+Dan kemudian kita mulai memunculkan fungsi-fungsi itu sampai kita mulai dari awal dan jangan khawatir ini akan
+
+02:05.150 --> 02:09.700
+menjadi sedikit lebih jelas ketika kita benar-benar kode stack kita sendiri.
+
+02:09.710 --> 02:17.210
+Cara bermanfaat lain yang mungkin kita gunakan tumpukan adalah seperti riwayat browser tepat di mana Anda bolak-balik dari satu situs
+
+02:17.270 --> 02:23.900
+web ke yang lain dan kemudian Anda menekan tombol kembali atau tombol depan yang menggunakan tumpukan.
+
+02:24.140 --> 02:29.930
+Atau mungkin Anda sedang menulis selembar teks dan Anda ingin membatalkan sesuatu sehingga Anda dapat
+
+02:29.930 --> 02:33.710
+mengklik opsi undo untuk kembali atau meneruskan untuk mengulang.
+
+02:33.710 --> 02:35.310
+Pernah bertanya-tanya bagaimana cara kerjanya.
+
+02:35.390 --> 02:42.110
+Nah idenya datang dari tumpukan yaitu Anda menyimpan keadaan sebelumnya atas pekerjaan Anda dan memori sedemikian
+
+02:42.110 --> 02:45.480
+rupa sehingga yang terakhir muncul terlebih dahulu.
+
+02:45.710 --> 02:52.070
+Ini adalah sesuatu yang bisa kita lakukan dengan tumpukan seperti yang Anda lihat di sini tumpukan
+
+02:52.340 --> 02:55.130
+yang biasanya datang dengan tiga jenis metode.
+
+02:55.130 --> 02:57.440
+Ada beberapa yang lain tetapi ini adalah yang utama.
+
+02:57.440 --> 02:58.070
+Pop.
+
+02:58.160 --> 03:00.850
+Push dan mengintip pop dihapus.
+
+03:00.860 --> 03:08.960
+Item terakhir yang dihapus push plate adalah bagaimana cara plate dan mengintip hanya dilihat dari permainan paling top
+
+03:08.970 --> 03:10.830
+yang saya tambahkan.
+
+03:10.830 --> 03:16.920
+Lihat di sini hanya untuk menunjukkan kepada Anda bahwa ini adalah ADD yang besar karena Anda biasanya
+
+03:17.400 --> 03:24.170
+tidak ingin melintasi seluruh tumpukan tetapi hanya agar Anda tahu jika kami ingin melakukan itu akan menjadi operasi yang berat.
+
+03:25.020 --> 03:27.410
+Mari kita bicara tentang Q di video berikutnya.
+
+03:27.720 --> 03:27.940
+Buh-Bye.

@@ -1,0 +1,277 @@
+WEBVTT
+
+00:01.020 --> 00:07.650
+Selamat datang kembali, mari kita gunakan pemrograman dinamis dan menghafal untuk meningkatkan fungsi ini.
+
+00:08.420 --> 00:16.540
+Sama seperti yang kita lakukan ketika kita belajar tentang menghafal ini cukup sederhana mari kita hapus ini untuk saat ini.
+
+00:16.540 --> 00:27.050
+Saya akan menjaga ini di atas dan kemudian di sini membuat fungsi baru kita akan menyebutnya Fibonacci master
+
+00:27.080 --> 00:37.320
+fungsi ini akan memiliki tabel hash cache atau objek untuk menyimpan jawaban yang telah dihitung sebelumnya.
+
+00:37.480 --> 00:43.780
+Dan jika Anda ingat karena kami ingin memastikan bahwa kami tidak mengatur ulang ini setiap kali kami menjalankan
+
+00:44.110 --> 00:51.130
+fungsi ini, kami akan mengembalikan fungsi nother di dalam sini lagi menggunakan penutupan dan Javascript dan dalam bahasa lain Anda
+
+00:51.160 --> 00:53.360
+mungkin harus menggunakan teknik yang berbeda.
+
+00:54.010 --> 01:01.320
+Dan di sini kita hanya dapat memiliki fungsi, kita dapat menamai apa pun yang kita sebut saja fib yang diperlukan.
+
+01:01.440 --> 01:03.820
+Dan itu adalah angka yang kami berikan.
+
+01:04.210 --> 01:11.840
+Dan di dalam sini kita akan melakukan sesuatu yang sangat mirip dengan di atas kecuali kita akan memeriksa untuk kita.
+
+01:12.070 --> 01:15.540
+Kami akan mengatakan jika ada dalam cache seperti yang
+
+01:19.680 --> 01:27.330
+kami lakukan di video memo memo dan kami akan memeriksa apakah ada cache dan apakah itu benar kami
+
+01:27.420 --> 01:29.510
+akan mengembalikan uang tunai.
+
+01:30.340 --> 01:35.940
+Dan pertama kali ini akan menjadi kosong sehingga tidak akan berhasil itu akan
+
+01:35.940 --> 01:37.990
+masuk ke kondisi lain.
+
+01:40.040 --> 01:44.270
+Dan kemudian di sini kita memiliki dua kondisi seperti yang kita lakukan di sini.
+
+01:46.360 --> 01:51.800
+Dan kurang dari dua mereka kita harus kembali.
+
+01:51.930 --> 02:00.850
+Dan seperti yang kami lakukan di atas sini, jika tidak, kami akan menjalankan urutan kami.
+
+02:01.040 --> 02:10.010
+Jadi kami melakukan fib dan minus satu plus fib dan minus 2.
+
+02:10.260 --> 02:13.290
+Tetapi kami ingin menyimpan nilai ini dalam uang tunai kami.
+
+02:13.500 --> 02:24.030
+Jadi kita akan mengatakan uang tunai dan akan menyamai hasil ini.
+
+02:24.090 --> 02:33.910
+Dan akhirnya kami ingin mengembalikan nilai ini karena kami menggunakan rekursi di sini dan mengembalikan uang sebesar
+
+02:34.110 --> 02:39.170
+yang baru saja kami tetapkan dan hanya itu.
+
+02:39.250 --> 02:41.310
+Itu tidak sulit kan.
+
+02:41.570 --> 02:51.590
+Maksud saya, kami memiliki beberapa langkah ekstra, tetapi yang kami lakukan hanyalah menambahkan hasilnya ke tabel hash kami
+
+02:51.680 --> 02:59.580
+sehingga sekarang jika saya melakukannya Konst katakanlah lebih cepat fib akan sama dengan Fibonacci.
+
+02:59.630 --> 03:08.210
+M. ingat saat pertama kali ketika kita akan menjalankan fungsi ini dan membuat variabel tunai.
+
+03:09.110 --> 03:16.680
+Itu lagi dan membuat variabel tunai dan itu hanya akan mengembalikan fungsi ini.
+
+03:17.030 --> 03:26.240
+Jadi ini mirip dengan hanya mengatakan seperti itu lebih cepat sama dengan fungsi ini sekarang.
+
+03:26.370 --> 03:36.460
+Kecuali bahwa sekarang kita memiliki akses ke variabel kas sehingga sekarang saya dapat menghibur semua log dan
+
+03:36.460 --> 03:49.580
+mari kita panggil DP ini untuk pemrograman dinamis dan kita akan mengatakan lebih cepat dan katakan saja 10 jika saya menjalankan ini
+
+03:49.670 --> 03:58.700
+saya mendapatkan 55 0 1 2 3 4 5 6 7 8 9 10 55.
+
+03:58.830 --> 04:00.030
+Cukup bagus.
+
+04:00.960 --> 04:07.920
+Tapi mari kita lakukan sesuatu yang menyenangkan di sini untuk melihat apakah ini menghitung perhitungan
+
+04:07.920 --> 04:20.750
+yang kita gunakan dalam angka Fibonacci mari kita pindahkan ke Fibonacci M. atau alih-alih turun ke sini dalam fungsi ini karena ini adalah salah satu
+
+04:20.750 --> 04:30.010
+yang sering kita ulangi dan mari kita lihat berapa kali perhitungan ini terjadi jika saya menjalankan ini dan kita
+
+04:30.010 --> 04:32.500
+perlu membatalkan log perhitungan ini.
+
+04:32.500 --> 04:35.780
+Jadi di bagian bawah sini mari
+
+04:38.940 --> 04:40.710
+kita log konsol
+
+04:44.790 --> 04:49.820
+dan kita akan mengatakan kita melakukan perhitungan begitu saja.
+
+04:50.040 --> 05:02.790
+Sehingga jika saya menjalankan ini kita melihat bahwa kita melakukan 19 perhitungan dengan Fibonacci M. Ketika kami memasukkan 10 versus jika kami
+
+05:03.060 --> 05:09.480
+memindahkan kembali perhitungan ke sini ke versi lama kami.
+
+05:09.780 --> 05:12.100
+Dan kita sebenarnya harus menjalankan fungsi ini.
+
+05:12.240 --> 05:20.760
+Jadi dan di sini mari kita hanya memiliki kunci konsol jadi mulailah bagaimana semuanya bersih kita akan katakan dibatalkan atau masuk.
+
+05:20.760 --> 05:28.060
+Ini akan menjadi ini akan disebut lambat dan itu akan disebut apakah itu Fibonacci.
+
+05:28.260 --> 05:34.100
+Jadi kita hanya akan melakukan fungsi Fibonacci asli kita dengan 10.
+
+05:34.140 --> 05:34.820
+Jadi mari kita lihat.
+
+05:34.830 --> 05:45.070
+Dan Ron kami mendapat jawaban yang sama 55 tetapi kami butuh seratus tujuh puluh tujuh perhitungan
+
+05:45.070 --> 05:47.080
+untuk mencapai 10.
+
+05:47.160 --> 05:48.000
+Moly suci.
+
+05:48.000 --> 05:51.930
+Jadi 19 berbanding seratus tujuh puluh tujuh perhitungan.
+
+05:52.230 --> 05:53.880
+Dan jika kita melakukan
+
+05:56.880 --> 06:01.900
+20 di sini dengan baik kita memiliki banyak perhitungan dan sebenarnya hanya melakukan 35.
+
+06:01.920 --> 06:06.490
+Lihat apakah itu mungkin, kita akan melihat 35.
+
+06:06.490 --> 06:07.270
+Ini dia.
+
+06:07.270 --> 06:17.140
+Lihat berapa banyak perhitungan yang harus kami lakukan versus jika saya lakukan dengan fungsi minimalisasi kami, memindahkan perhitungan di
+
+06:17.730 --> 06:18.490
+sini.
+
+06:23.830 --> 06:28.320
+Dan kami menjalankan ini enam puluh sembilan.
+
+06:28.340 --> 06:29.490
+Perhitungan.
+
+06:29.610 --> 06:36.110
+Alih-alih sebelumnya di mana jika saya memasukkan Fibonacci 50 di sini ia sebenarnya akan menghancurkan browser
+
+06:36.410 --> 06:41.090
+karena kita akan melakukan begitu banyak perhitungan dengan yang satu ini.
+
+06:41.150 --> 06:45.940
+Aku bahkan bisa melakukan Achi seratus dan aku tidak punya masalah.
+
+06:45.950 --> 06:48.020
+Lihat seberapa cepat mereka menghitungnya.
+
+06:48.020 --> 06:49.030
+Itu luar biasa.
+
+06:49.040 --> 06:52.110
+Itu hanya 199 perhitungan.
+
+06:52.460 --> 06:56.760
+Saya harap Anda melihat kekuatan pemrograman dinamis dan tidak terlalu sulit.
+
+06:56.840 --> 06:57.440
+Kanan.
+
+06:57.770 --> 07:00.130
+Yang Anda butuhkan hanyalah mengingat pola ini.
+
+07:00.230 --> 07:08.630
+Dan jika ada perhitungan berulang untuk hanya menghafal hasil fungsi sehingga jika parameternya sama
+
+07:08.630 --> 07:13.800
+kita periksa di cache terlebih dahulu untuk hasilnya.
+
+07:13.880 --> 07:21.830
+Tapi mari kita bicarakan kompleksitas ruang dan waktu di sini dengan baik karena kita hanya
+
+07:21.830 --> 07:24.190
+melakukan perhitungan yang diperlukan.
+
+07:24.420 --> 07:36.020
+Dalam hal ini semua perhitungan kita akan dan benar kita melakukan satu dua tiga empat lima enam tujuh perhitungan versus semua yang
+
+07:36.260 --> 07:38.430
+kita lakukan sebelumnya.
+
+07:39.320 --> 07:46.330
+Sehingga kompleksitas waktu kita untuk yang satu ini penuh dan dan berlawanan.
+
+07:46.340 --> 07:53.790
+Dengan yang satu ini yang dua ke kekuatan 10 saja kami membuat penghematan besar.
+
+07:55.440 --> 08:01.970
+Satu kekurangannya adalah kita meningkatkan kompleksitas ruang.
+
+08:01.980 --> 08:02.600
+Kanan.
+
+08:02.970 --> 08:12.140
+Maksud saya dengan angka Fibonacci pertama kami harus menambahkan fungsi ke stack dan fungsi-fungsi ini.
+
+08:12.180 --> 08:14.330
+Semakin dalam kita tambahkan ke stack.
+
+08:14.400 --> 08:21.870
+Tapi begitu kami sampai di dasar, kami membuka tumpukan itu sehingga tumpukan itu sedalam pohon.
+
+08:22.470 --> 08:29.130
+Tetapi dengan versi yang dihafal kami juga memiliki variabel baru ini tabel hash cache ini yang kami harus menyimpan
+
+08:29.130 --> 08:30.020
+memori kami.
+
+08:30.020 --> 08:37.290
+Dan seperti yang kita ketahui, terkadang kita perlu menukar kompleksitas ruang untuk kompleksitas waktu yang lebih baik.
+
+08:37.380 --> 08:39.100
+Dan inilah yang kami lakukan dalam kasus ini.
+
+08:39.330 --> 08:44.520
+Dan dalam hal ini penghematan waktu kompleksitasnya sangat besar.
+
+08:44.520 --> 08:47.880
+Baiklah saya harap saya membuat Anda bersemangat tentang pemrograman dinamis.
+
+08:47.910 --> 08:52.020
+Ini sangat menarik dan tidak berlebihan seperti yang Anda pikirkan.
+
+08:52.130 --> 08:53.450
+Kanan.
+
+08:53.460 --> 09:00.030
+Saya akan meninggalkan beberapa masalah untuk Anda lakukan untuk membiasakan diri dengan pemrograman dinamis tetapi saya
+
+09:00.090 --> 09:07.760
+sarankan Anda mengambil kode daun di sini untuk Anda dan Anda bisa mengambilnya dari sumber daya dan bermain-main dengannya.
+
+09:08.570 --> 09:11.620
+Kalau tidak, saya akan melihat di video berikutnya oleh.

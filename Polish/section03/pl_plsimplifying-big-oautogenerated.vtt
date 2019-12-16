@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.960 --> 00:02.120
+Witamy spowrotem.
+
+00:02.320 --> 00:09.440
+Teraz w poprzednim ćwiczeniu i ćwiczeniu po prostu zauważyliśmy, że musieliśmy wykonać trochę obliczeń, to było trochę
+
+00:09.450 --> 00:16.800
+irytujące, gdzie musieliśmy dodać rzeczy, a potem to mieć, plus pięć i więcej w wywiadach, że nigdy nie
+
+00:17.040 --> 00:22.380
+jesteś zamierzam to zrobić i pytasz się Andre Dlaczego właśnie mnie tego nauczyłeś
+
+00:22.380 --> 00:23.760
+i masz rację.
+
+00:23.760 --> 00:28.160
+Ale teraz, kiedy najmniej rozumiesz, jak duże O jest obliczane.
+
+00:28.590 --> 00:34.650
+Ale większość czasu, kiedy wchodzisz w wywiady, to zestaw zasad, które będziesz podążał tam, gdzie nie musisz
+
+00:35.220 --> 00:40.680
+tego robić i możesz po prostu rzucić okiem na tę funkcję i od razu powiedzieć, jaki
+
+00:40.680 --> 00:42.730
+rodzaj bego to jest .
+
+00:42.870 --> 00:53.650
+Na przykład funkcja ta po prostu zamienia się w rząd tej funkcji, która ponownie zmienia się w 0,
+
+00:53.920 --> 00:57.610
+a jest to sprytna sztuczka.
+
+00:57.900 --> 01:05.460
+Kiedy rozmawiamy o big-O w wywiadach, w większości przypadków masz zamiar podać tylko jedną z tych
+
+01:06.890 --> 01:14.420
+odpowiedzi, najprawdopodobniej nie będziesz w stanie dokładnie obliczyć 0 3 i / lub trzech plus dwa
+
+01:14.480 --> 01:15.470
+plus jeden.
+
+01:15.470 --> 01:20.750
+W jaki sposób mogłem uprościć nasze ćwiczenia i po prostu powiedzieć, że one są.
+
+01:21.190 --> 01:27.770
+I na szczęście dla was istnieje tylko kilka zasad, które możemy zastosować, gdy dojdziemy do celu.
+
+01:28.190 --> 01:29.630
+A jest ich tylko czterech.
+
+01:30.390 --> 01:36.060
+Stosując się do tych czterech zasad, zamiast wykonywać te małe, małe kalkulacje,
+
+01:36.060 --> 01:42.790
+które robimy do tej pory, możesz uprościć swoje życie, aby duże stare obliczenia były naprawdę łatwe.
+
+01:43.170 --> 01:48.330
+Porozmawiajmy o pierwszym, który jest najgorszym przykładem.
+
+01:48.420 --> 01:50.050
+Porozmawiajmy o tym w następnym wideo.

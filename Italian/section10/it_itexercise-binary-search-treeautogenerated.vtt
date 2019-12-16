@@ -1,0 +1,112 @@
+WEBVTT
+
+00:01.270 --> 00:07.460
+Bentornato è ora di scrivere il nostro albero di ricerca binario.
+
+00:07.570 --> 00:14.070
+E in questo esercizio ho intenzione di sfidarti a scrivere il tuo prima di lavare la mia soluzione.
+
+00:15.290 --> 00:23.030
+Ora tieni presente che proprio come con le liste collegate ci richiederà di tenere traccia dei
+
+00:23.240 --> 00:27.160
+nodi a sinistra ea destra del nodo corrente.
+
+00:27.440 --> 00:31.400
+E inoltre abbiamo un valore associato a una nota.
+
+00:31.820 --> 00:37.370
+Vi raccomando di disegnarlo su un pezzo di carta per capire perché tenere tutto
+
+00:37.370 --> 00:41.760
+in testa e i calcoli potrebbe essere un po 'difficile.
+
+00:41.960 --> 00:45.910
+Ma ho qualcuno qui con tutti gli elementi essenziali di cui hai bisogno.
+
+00:45.950 --> 00:48.740
+Abbiamo creato una classe di albero di ricerca binaria.
+
+00:48.890 --> 00:51.130
+Non abbiamo una classe che possiamo usare.
+
+00:51.170 --> 00:59.130
+Iniziamo il nostro albero di ricerca binario con questa radice radice di null perché non abbiamo ancora niente.
+
+00:59.250 --> 01:06.500
+Ma ricorda che abbiamo la radice che è il nostro nodo più in alto che al momento è vuoto.
+
+01:06.500 --> 01:13.220
+Inizializzeremo il nostro albero di ricerca binaria e speriamo di poter creare due metodi.
+
+01:13.280 --> 01:16.470
+Uno ha una risposta e uno cerca.
+
+01:16.820 --> 01:23.370
+E il nostro obiettivo è creare questo albero qui 9 come nodo radice.
+
+01:23.410 --> 01:32.140
+Poi quattro e venti come bambini e poi quattro ha uno su sei bambini e 20 ne ha 15 e 170
+
+01:32.320 --> 01:33.310
+come bambini.
+
+01:34.090 --> 01:51.900
+Quindi idealmente se implementiamo correttamente l'inserto possiamo dire albero punto inserire 9 quindi inserire 4 quindi inserire 6 quindi
+
+01:53.470 --> 01:56.560
+inserire diciamo 20.
+
+01:56.860 --> 02:05.930
+Bene inseriamo 170 gli ultimi due inseriremo 15 e vediamo che ne abbiamo uno lasciato qui da Syllis da
+
+02:09.790 --> 02:18.480
+inserire e idealmente dopo aver eseguito questi comandi sei in grado di creare questa struttura dati ad albero.
+
+02:18.510 --> 02:26.600
+Ora in basso qui creo una piccola piccola funzione per te e per ora voglio che tu la ignori semplicemente
+
+02:26.600 --> 02:31.770
+perché stiamo usando qualcosa chiamato ricorsione qui, che non abbiamo ancora preso.
+
+02:32.120 --> 02:38.870
+Ma ho solo creato questa funzione affinché tu possa testare il tuo codice per assicurarti che funzioni
+
+02:38.870 --> 02:39.650
+effettivamente.
+
+02:41.260 --> 02:52.330
+Tutto quello che devi fare per verificare che funzioni è dire Jason dot string phi che è un modo specifico
+
+02:52.330 --> 02:57.690
+per javascript per creare una sequenza su una stringa.
+
+02:58.090 --> 02:59.920
+E diremo che attraversiamo
+
+03:03.580 --> 03:13.330
+la radice di punti dell'albero che gli diamo solo il nodo radice del nostro albero e che attraverserà e stamperà tutto in una stringa in
+
+03:13.360 --> 03:21.690
+modo da poter controllare e controllare che il vostro albero funzioni effettivamente e nel video di soluzione Vado a dimostrare come
+
+03:21.690 --> 03:28.230
+funziona, ma ho aggiunto questo come un piccolo aiuto per te nel caso in cui desideri ricontrollare
+
+03:28.590 --> 03:32.060
+il tuo lavoro per assicurarti che sia corretto.
+
+03:33.100 --> 03:40.750
+E dal modo in cui il metodo di ricerca dovrebbe semplicemente restituire il nodo che stiamo cercando e se non
+
+03:40.750 --> 03:45.570
+trova il nodo, allora possiamo tornare normale o falso quale vuoi.
+
+03:46.000 --> 03:50.620
+E ho aggiunto il metodo Remove qui di cui parleremo in seguito perché è un po
+
+03:50.620 --> 03:51.180
+'difficile.
+
+03:51.220 --> 03:56.650
+Quindi per ora preoccupati di inserire e cercare e ti vedrò nel video della soluzione.

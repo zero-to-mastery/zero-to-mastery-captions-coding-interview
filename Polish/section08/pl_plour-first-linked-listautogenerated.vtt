@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.360 --> 00:02.240
+Witamy spowrotem.
+
+00:02.470 --> 00:08.800
+Nadszedł czas, aby stworzyć naszą pierwszą powiązaną strukturę danych list i powiedzmy, że chciałem stworzyć listę
+
+00:08.800 --> 00:13.190
+połączoną, która ma 10 wskazujących na pięć punktów do 16.
+
+00:13.320 --> 00:15.460
+Miły, mały, prosty.
+
+00:15.460 --> 00:22.330
+Po pierwsze, w jaki sposób obejmiemy wizualizację tego w języku takim jak javascript, który nie ma powiązanych
+
+00:22.380 --> 00:23.120
+list.
+
+00:24.320 --> 00:31.110
+Cóż, możemy po prostu powiedzieć, że mamy nową, połączoną listę, użyjmy tylko ołowiu tutaj.
+
+00:31.280 --> 00:41.570
+Moja połączona lista i to będzie równa obiektowi, który ma własność head, pamiętajcie, ponieważ pierwszym
+
+00:41.570 --> 00:46.400
+elementem na połączonej liście jest głowa.
+
+00:46.590 --> 00:49.290
+I będziemy mieli notatkę.
+
+00:49.410 --> 00:53.990
+Celem węzła jest stwierdzenie, że wszystko może znajdować się na śniegu.
+
+00:53.990 --> 01:00.230
+Po prostu umieść to, co chcesz, a jest to pojemnik wokół tych danych.
+
+01:00.320 --> 01:04.180
+Więc pomyśl o tym jak o zbiorach danych.
+
+01:04.340 --> 01:11.030
+I w tym przypadku możemy po prostu użyć obiektu, aby nasze dane we
+
+01:11.030 --> 01:20.270
+wszystkich węzłach musiały mieć na liście połączonej wartość właściwości, jaką jest wartość notatki, oraz następną właściwość, która jest
+
+01:20.570 --> 01:23.250
+wskaźnikiem do następnego węzła.
+
+01:23.270 --> 01:33.860
+Teraz tą wartością może być wszystko, czego chcemy, a następna właściwość musi być wskaźnikiem lub odniesieniem do następnego węzła, w
+
+01:33.860 --> 01:41.340
+którym to przypadku będzie obiektem, więc będzie to obiekt dodatkowy, który będziemy odwoływać się
+
+01:41.350 --> 01:42.630
+w pamięci.
+
+01:42.700 --> 01:48.130
+W ten sposób wartość notatki może się zawsze zmienić, ale wskaźniki będą zawsze wskazywały na to.
+
+01:48.160 --> 01:51.860
+Możemy więc zmieniać przedmioty i nic więcej się nie zmieni.
+
+01:51.880 --> 01:55.650
+Nadal będzie wskazywać na tę zmienioną i zaktualizowaną wartość.
+
+01:55.660 --> 01:57.130
+Pozwól, że ci pokażę, co mam na myśli.
+
+01:57.130 --> 02:06.430
+Mamy tutaj głowicę, w którym to przypadku jest to 10, więc chcemy ustawić 10 wartości Azara, a to z
+
+02:06.430 --> 02:11.370
+wyprzedzeniem odniesie punkt do następnego węzła, który będzie miał wartość.
+
+02:12.130 --> 02:13.410
+Z 5.
+
+02:13.580 --> 02:20.250
+Upewnij się, że dodaję tutaj przecinki i kolejną wartość tego, co myślisz.
+
+02:20.540 --> 02:29.750
+Cóż, następna notatka na liście, która ma wartość 16 i co dalej.
+
+02:29.930 --> 02:34.540
+Cóż 16 to ogon naszej połączonej listy.
+
+02:34.580 --> 02:39.680
+Oznacza to, że musi wskazywać zero lub to, co nazywamy zerem zakończone.
+
+02:39.710 --> 02:43.210
+Oznacza to, że jest to koniec listy idealny.
+
+02:43.230 --> 02:51.870
+Dlatego właśnie chcemy stworzyć połączoną listę wykorzystującą to jako naszą strukturę.
+
+02:51.870 --> 03:02.840
+Zamierzamy stworzyć klasę o nazwie Lista powiązana z klasami i tą klasą. Powinniśmy już teraz znać
+
+03:02.840 --> 03:04.120
+składnię.
+
+03:04.370 --> 03:10.310
+Będziemy mieli konstruktor, który jest funkcją uruchamianą na samym początku, kiedy tworzymy listę
+
+03:10.310 --> 03:11.270
+połączoną.
+
+03:11.270 --> 03:14.350
+To przyniesie jakąś wartość.
+
+03:14.560 --> 03:15.390
+Co to znaczy.
+
+03:15.460 --> 03:27.770
+Cóż, kiedy w końcu powiemy, że tworzymy listę połączoną, pamiętajmy, że chcemy ją utworzyć, gdy utworzę listę
+
+03:27.770 --> 03:29.570
+z linkami.
+
+03:29.570 --> 03:37.190
+Zamierzam utworzyć instancję klasy, która uruchamia funkcję klasy, a następnie uruchomić konstruktor i utworzyć
+
+03:37.340 --> 03:38.940
+połączoną listę.
+
+03:38.990 --> 03:44.870
+Zamierzam powiedzieć listę linków, a następnie nadać jej wartość, aby rozpocząć od listy, ponieważ podczas gdy lista może
+
+03:44.870 --> 03:48.620
+być pusta, aby mieć coś, co musi zacząć od głowy.
+
+03:48.980 --> 03:56.460
+Tak więc w naszym przypadku chcemy zacząć od 10, a najlepiej, uruchamiając to polecenie.
+
+03:56.460 --> 04:02.280
+Pierwszą część naszej połączonej listy stworzyliśmy właśnie po 10.
+
+04:02.540 --> 04:05.320
+Pozwolę sobie to skomentować, ponieważ na razie nie będziemy jej potrzebować.
+
+04:07.760 --> 04:10.340
+Teraz w tym konstruktorze mamy.
+
+04:10.490 --> 04:18.710
+Cóż, ten dokument miał odniesienie, ponieważ podczas gdy musimy śledzić głowę, a ta głowa
+
+04:18.710 --> 04:24.870
+ma po prostu wartość, która jest równa wartości, którą przekazaliśmy.
+
+04:24.900 --> 04:29.810
+To jest 10 tutaj, a potem w końcu następne.
+
+04:30.000 --> 04:31.350
+A co powinno być następnym.
+
+04:31.380 --> 04:34.110
+Kiedy po raz pierwszy tworzymy tę listę.
+
+04:34.110 --> 04:41.380
+Cóż, ponieważ 10 jest jedyną rzeczą, która będzie miała lub jeden węzeł następny będzie równy nie.
+
+04:41.490 --> 04:47.640
+Na początek pamiętaj, że konstruktor polega na utworzeniu pierwszej połączonej listy.
+
+04:47.650 --> 04:55.280
+Zwróć uwagę na to, co dzieje się, gdy tworzymy instancję, aby rozpocząć moją połączoną listę.
+
+04:55.710 --> 05:00.430
+I wreszcie mamy dwie inne informacje, które musimy śledzić.
+
+05:00.480 --> 05:09.270
+Jedną z nich jest ta kropka i pamiętaj, że słowo to odnosi się tylko do połączonej listy, więc odnosi się tylko
+
+05:09.270 --> 05:11.440
+do połączonej listy, którą tworzymy.
+
+05:11.550 --> 05:13.470
+Jaki będzie ogon.
+
+05:14.130 --> 05:19.560
+Ponieważ mamy tylko jeden przedmiot, głowa jest także ogonem.
+
+05:19.590 --> 05:22.490
+Po prostu mówimy o tym boskim ciele.
+
+05:22.890 --> 05:29.580
+A tak przy okazji, wiem, że robi się trochę zagmatwany, a kiedy przechodzimy przez ten serial wideo na
+
+05:29.580 --> 05:33.000
+Linked Lists, trochę trudno jest się nim zająć.
+
+05:33.000 --> 05:39.450
+Naprawdę polecam Yokocie, żeby wyzdrowiał i wykonał ćwiczenia, ponieważ samo patrzenie na moje listy
+
+05:39.450 --> 05:42.730
+o połączeniach nie wzmocni twoich informacji.
+
+05:42.840 --> 05:45.510
+Trudno naprawdę wizualizować rzeczy.
+
+05:45.780 --> 05:51.870
+Być może będziesz musiał parę razy zbudować listę połączoną, aby naprawdę się nią zająć, ale
+
+05:51.870 --> 05:59.550
+stanie się to drugą naturą, gdy już przyzwyczaisz się do składni, a także idei posiadania tej głowy i ogona i
+
+05:59.550 --> 06:01.310
+odwoływania się do nich.
+
+06:01.470 --> 06:09.030
+Ostatnim elementem układanki jest, jeśli chcesz, możemy śledzić długość połączonej listy.
+
+06:09.030 --> 06:14.280
+Jest to opcjonalne, ale uważam, że dobrze jest śledzić i ponieważ mamy jedną
+
+06:14.760 --> 06:20.190
+pozycję podczas tworzenia tej listy linków, ponieważ nadajemy jej wartość, którą damy mu na 1.
+
+06:20.200 --> 06:20.810
+No to jedziemy.
+
+06:20.980 --> 06:30.290
+Jeśli uruchomię to, otrzymasz błąd, ponieważ dobrze mam ten kod, który nie jest tak naprawdę javascript, więc skomentujmy
+
+06:30.290 --> 06:32.720
+to i kliknij ponownie.
+
+06:33.760 --> 06:36.730
+Zostaję niezdefiniowany, ponieważ nie zarejestrowaliśmy niczego.
+
+06:36.920 --> 06:49.910
+Ale jeśli moja konsola zarejestruje moją połączoną listę, a ja mam taki wygląd, mam listę połączoną z nagłówkiem o wartości
+
+06:49.910 --> 06:51.150
+10.
+
+06:51.350 --> 06:58.460
+Następny jest pusty, ponieważ podczas gdy istnieje tylko jeden węzeł i ogon, który jest dokładnie tym samym, co
+
+06:58.460 --> 07:00.860
+wskazuje na M. i długość jednego.
+
+07:01.040 --> 07:02.290
+Gratulacje.
+
+07:02.330 --> 07:06.530
+Właśnie zbudowaliśmy naszą pierwszą połączoną listę.
+
+07:06.530 --> 07:09.900
+Jednak czas na odrobinę ćwiczeń.
+
+07:09.920 --> 07:12.030
+Nasza lista nie jest pełna.
+
+07:12.080 --> 07:18.920
+Musimy utworzyć tę połączoną listę, więc musimy mieć możliwość dodania 5, a następnie 16.
+
+07:18.920 --> 07:21.630
+Więc moje wyzwanie dla ciebie jest takie.
+
+07:22.520 --> 07:31.860
+Chcemy stworzyć metodę append, a ta metoda append będzie miała wartość i tutaj.
+
+07:34.140 --> 07:48.820
+Chcemy napisać fragment kodu, który pozwala nam powiedzieć, że Konst dla mojej połączonej listy Daut dopisać i nadać mu
+
+07:48.820 --> 07:49.850
+wartość.
+
+07:49.870 --> 07:56.290
+Jeśli spojrzymy na naszą listę 5 do dołączenia do naszej aktualnej listy.
+
+07:56.290 --> 08:10.390
+Chcę więc móc dodać 5, a następnie dodać 16, aby utworzyć naszą kompletną listę 10 5 i 16.
+
+08:10.420 --> 08:13.200
+Jak byś to zrobił.
+
+08:14.000 --> 08:19.980
+I zamierzam to zostawić, abyś mógł to wypróbować.
+
+08:20.050 --> 08:24.730
+Pamiętaj, że może to być trochę trudne, a ja dostarczę film z rozwiązaniem, a my będziemy kodować razem.
+
+08:24.730 --> 08:29.980
+Zachęcam jednak do rzucenia wyzwania i pomyślenia o tym, co się dzieje
+
+08:29.980 --> 08:34.450
+i co zrobiliśmy w konstruktorze, aby stworzyć tę metodę dołączania.
+
+08:34.460 --> 08:37.560
+Powodzenia, a do zobaczenia w wideo z rozwiązaniem.
+
+08:37.570 --> 08:38.170
+PA pa.

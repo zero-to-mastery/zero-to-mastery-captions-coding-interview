@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.640 --> 00:09.130
+Bentornato, convertiamo la nostra struttura di dati dello stack per utilizzare gli array e questo sarà abbastanza semplice.
+
+00:09.370 --> 00:17.770
+Tutto quello che faremo è rimuovere tutto questo nel costruttore e avere questo array memorizzato uguale a un
+
+00:17.770 --> 00:19.170
+array vuoto.
+
+00:19.240 --> 00:25.700
+Non abbiamo bisogno della proprietà length perché viene fornita con array e Javascript.
+
+00:25.780 --> 00:31.180
+Ovviamente questo potrebbe essere diverso per i diversi linguaggi di programmazione, ma per ora lo abbiamo a
+
+00:31.180 --> 00:34.440
+disposizione nella nostra lingua che stiamo usando in questo momento.
+
+00:34.450 --> 00:35.890
+Quindi ce l'abbiamo.
+
+00:35.950 --> 00:37.960
+Questo è il nostro costruttore.
+
+00:38.010 --> 00:40.340
+Che dire del picco del petrolio.
+
+00:40.410 --> 00:43.800
+Peak significa semplicemente che vogliamo vedere la fine della matrice.
+
+00:43.980 --> 00:47.890
+Ricorda con lo stack è l'ultimo al primo tentativo.
+
+00:47.910 --> 00:50.580
+Quindi quando facciamo un picco vogliamo vedere la cosa più importante.
+
+00:50.580 --> 00:59.100
+L'ultima cosa che abbiamo aggiunto nel nostro caso, possiamo semplicemente dire questo dot array e stiamo andando ad
+
+00:59.100 --> 01:06.750
+accedere a quell'array con BRAC e notation e diremo questo punto dot decimo che è la
+
+01:06.750 --> 01:14.550
+lunghezza del noleggio dell'array meno uno perché facciamo meno uno perché il nostro indice inizia da
+
+01:14.700 --> 01:20.820
+zero a 1 contro la lunghezza che inizia da 1 a 2.
+
+01:20.840 --> 01:21.440
+Questo è tutto.
+
+01:21.440 --> 01:23.420
+Abbiamo raggiunto il picco.
+
+01:23.570 --> 01:33.820
+Diciamo solo questo e assicuriamoci che il picco funzioni da questo non viene definito.
+
+01:34.230 --> 01:40.000
+Bene perché non c'è nulla nell'array e probabilmente possiamo dare errori migliori se volessimo ascoltare.
+
+01:40.040 --> 01:41.990
+Ma per ora penso che questo va bene.
+
+01:43.390 --> 01:47.340
+Che dire di spingere vale la pena spingere.
+
+01:47.450 --> 01:59.400
+Cancelliamo tutto questo codice e diciamo semplicemente questo valore punto dot dot array push.
+
+01:59.520 --> 02:00.670
+Che bello.
+
+02:00.680 --> 02:03.510
+Ora è bello e pulito viene pre-costruito con la gara.
+
+02:03.540 --> 02:05.660
+Possiamo semplicemente usare push.
+
+02:05.690 --> 02:16.070
+Quindi, se faccio il mio stack push e faccio clic su run mentre peek qui mi sta dando Google ma legist eseguo push solo ottengo
+
+02:16.460 --> 02:20.670
+uno stack che ha un array con Google in esso.
+
+02:20.720 --> 02:30.620
+Se ti spingo Dammy, ti ho aggiunto Dammy se spingo questo cavo, ho aggiunto questo quarto e
+
+02:30.620 --> 02:36.450
+se sbircio qui dovrei riprendere Dischord perché è l'ultima entrata.
+
+02:36.450 --> 02:37.510
+Ecco qua.
+
+02:37.560 --> 02:39.610
+Quanto è semplice.
+
+02:39.620 --> 02:43.520
+Ciò significa che anche il pop sarà molto semplice.
+
+02:44.400 --> 02:47.730
+Assolutamente si sente bene cancellando il codice, non è vero?
+
+02:47.910 --> 02:55.620
+Quello che facciamo è questo dot array dot pop che viene già in javascript.
+
+02:55.620 --> 03:00.090
+Non possiamo semplicemente restituirlo se vogliamo.
+
+03:00.130 --> 03:04.190
+Se faccio clic su Esegui ma dovrò eseguire il pop qui eseguiamo.
+
+03:04.360 --> 03:09.740
+Pop che rimuove la discordia dalla lista.
+
+03:09.860 --> 03:20.920
+Se eseguo nuovamente il pop, ottengo Google e se faccio un pop e faccio clic su run abbiamo una matrice vuota del genere.
+
+03:20.970 --> 03:22.460
+Bello e semplice
+
+03:22.480 --> 03:26.910
+Dobbiamo usare la classe del nodo e va bene.
+
+03:27.860 --> 03:32.270
+Quindi puoi semplicemente usare gli array come stack abbastanza facilmente.
+
+03:32.270 --> 03:39.080
+E abbiamo già discusso dei pro e contro nell'uso di liste collegate rispetto a cancellare una delle cose
+
+03:39.080 --> 03:45.770
+belle dell'utilizzo di un array è mentre gli array almeno in javascript agiscono già come stack e rende
+
+03:45.770 --> 03:50.060
+le cose molto semplici per noi, ma abbastanza per gli stack.
+
+03:50.230 --> 03:51.790
+Implementiamo il nostro.
+
+03:51.860 --> 03:55.380
+Q Questa volta vedrò nel prossimo.

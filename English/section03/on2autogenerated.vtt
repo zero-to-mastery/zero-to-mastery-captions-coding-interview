@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.390 --> 00:11.130
+One common interview question that you might get is something along the lines of log all pairs of horæ.
+
+00:11.150 --> 00:13.250
+Now what does that actually mean.
+
+00:13.520 --> 00:24.690
+Well if we had an array let's just say boxes and this array is just contains boxes numbered 1 through
+
+00:24.690 --> 00:26.740
+5.
+
+00:26.750 --> 00:38.940
+Now this array if I want to log all pairs it means that I want to log 1 2 then 1 3 1 4 1 5 then 2 1
+
+00:39.180 --> 00:42.800
+then 2 2 2 3 2 4 2 5.
+
+00:42.990 --> 00:47.560
+So on and so forth how would we go about doing that.
+
+00:47.780 --> 00:52.030
+And if you want you can pause the video and try to attempt this problem yourself.
+
+00:54.740 --> 01:06.890
+Now in this case what we want to do is well we create a function and will say log all pairs of array
+
+01:07.820 --> 01:10.340
+that receives an array.
+
+01:10.610 --> 01:11.740
+Let's just say array.
+
+01:11.750 --> 01:18.960
+So we're descriptive here and in here we will do a for loop.
+
+01:19.420 --> 01:22.190
+So for LET.
+
+01:22.360 --> 01:25.300
+Hi equals zero.
+
+01:25.320 --> 01:34.160
+And we've done this before so if I is less then the product length and will increment by
+
+01:38.100 --> 01:38.440
+now.
+
+01:38.460 --> 01:45.190
+And here we want to loop so now in the first iteration of the for loop will grab one.
+
+01:45.540 --> 01:52.750
+But then we want to loop through the boxes again and log 1 1 1 2 1 3 1 4 1 5.
+
+01:53.040 --> 02:04.120
+So we have another for loop and this time will say that J equals zero if we want to loop from the beginning.
+
+02:04.330 --> 02:12.550
+Or I could even say 1 if we want to start off with 1 2 because we're starting off at index of 1 right
+
+02:12.550 --> 02:13.660
+here.
+
+02:13.660 --> 02:19.040
+For now we can just leave it at 0 and we'll say that as long as J.
+
+02:19.950 --> 02:23.390
+Is less than redcoat length.
+
+02:24.330 --> 02:28.390
+And we'll increment JJ.
+
+02:28.490 --> 02:32.720
+And now finally in here I can just say cancel the log
+
+02:35.960 --> 02:38.720
+by and J.
+
+02:38.830 --> 02:40.660
+Let's run this function and see what happens.
+
+02:43.440 --> 02:50.650
+So I have to actually call this function so let's do that log all pairs of array and I'll give it the
+
+02:50.830 --> 02:52.720
+boxes array.
+
+02:52.950 --> 03:00.080
+Oh and we want to make sure here that we're logging out the actual items and not the index of the array.
+
+03:00.430 --> 03:13.990
+So we'll just say re high here and the array J here and just so you don't get confused with the numbers.
+
+03:13.980 --> 03:20.650
+Maybe world changes into letters so that it's more obvious what we're doing.
+
+03:22.330 --> 03:25.860
+See Dee.
+
+03:26.050 --> 03:29.110
+Nasty and we'll say e.
+
+03:29.520 --> 03:37.070
+So if I click around here we see that we're logging all pairs a a b a c d.
+
+03:37.300 --> 03:39.360
+Keeps going keeps going until e.
+
+03:39.700 --> 03:43.000
+You can see the log over here.
+
+03:43.030 --> 03:46.530
+What is the big show of this.
+
+03:46.660 --> 03:52.770
+And this is something that you're going to see a lot of in interviews and a good rule of thumb is if
+
+03:52.770 --> 04:02.580
+you see nested loops that means instead of having two four loops one after another where we use addition
+
+04:03.210 --> 04:08.770
+when you see loops that are nested we use multiplication.
+
+04:08.880 --> 04:12.870
+So this becomes old of end times.
+
+04:12.900 --> 04:13.700
+Oh of.
+
+04:13.710 --> 04:26.620
+And which when we multiply them becomes 0 of and square 0 to the end to the power of two.
+
+04:26.770 --> 04:29.040
+And that's a good rule of thumb.
+
+04:29.930 --> 04:36.840
+And if we go back to our graph this function that we just created and I'm using the S-5 syntax here
+
+04:36.840 --> 04:44.350
+instead of the four loops we did this over and squared is what we call quadratic time.
+
+04:44.490 --> 04:48.440
+That means every time the number of elements increase.
+
+04:48.480 --> 04:50.370
+So let's say we have two elements.
+
+04:50.490 --> 04:55.880
+We have four operations that we do if we have three elements.
+
+04:55.890 --> 04:58.880
+This actually increases quadratically.
+
+04:58.980 --> 05:09.370
+That means instead of four operations we now have 1 2 3 4 5 6 7 8 9 because we have three elements to
+
+05:09.370 --> 05:12.760
+the power of two.
+
+05:12.980 --> 05:19.660
+And you see here how the line is now meant and it increases well quite fast.
+
+05:20.290 --> 05:27.990
+If we go back to our big O notation or big-O graph we see that o n squared.
+
+05:28.070 --> 05:35.120
+While it's horrible as in it's pretty slow as the number of elements increases the number of operations
+
+05:35.450 --> 05:38.030
+increases significantly.
+
+05:38.510 --> 05:46.610
+And a lot of interview questions are questions that ask you to solve a problem initially is all vente
+
+05:46.610 --> 05:53.940
+squared and make it faster by perhaps making it into something that is a bit lower here that is is bad.
+
+05:53.940 --> 05:57.310
+Fair good excellent but definitely not horrible.
+
+05:58.420 --> 06:06.900
+If we go back to our rule number three that we were discussing different terms for inputs.
+
+06:07.240 --> 06:16.330
+Well going back to that example we had in the previous video remember this well we said oh of a plus
+
+06:16.330 --> 06:22.210
+b because we had two different race or inputs.
+
+06:22.240 --> 06:31.100
+Now if these loops were actually nested and there now one after another the big show would have been
+
+06:31.130 --> 06:34.060
+all of a times b.
+
+06:35.060 --> 06:42.950
+And that is rule number three making sure to know that we have different arrays that means different
+
+06:43.730 --> 06:50.840
+notation for each array because we don't know the lens and an easy rule of thumb is any step that happens
+
+06:50.840 --> 06:52.800
+in the same indentation.
+
+06:52.850 --> 07:06.090
+So one after another you add and anything that happens with indentation that is nested You multiply.
+
+07:06.140 --> 07:10.420
+So again different inputs should have different variables.
+
+07:10.440 --> 07:12.930
+Let's move on to the last rule in the next video.

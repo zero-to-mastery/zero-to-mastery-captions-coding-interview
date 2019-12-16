@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.020 --> 00:02.310
+Welcome back.
+
+00:02.310 --> 00:10.440
+We just implemented our own stack and hopefully you're able to code along as well in your own language.
+
+00:10.440 --> 00:19.480
+Now here's my next challenge to you what if we used a race for this stack up until this point or what
+
+00:19.480 --> 00:24.580
+we've coded in has been with a linked list that we've created.
+
+00:24.580 --> 00:28.330
+How would you change the code if you want to implement this in an array.
+
+00:29.270 --> 00:35.360
+And the hint here is that it's going to be super super simple it's going to involve deleting a lot of
+
+00:35.360 --> 00:40.560
+this code because while arrays already have PUSH and POP.
+
+00:40.720 --> 00:48.260
+So my challenge to you is to convert this stack data structure to use arrays instead of linked lists.
+
+00:49.040 --> 00:52.190
+Good luck and I'll see in the next video.
+
+00:52.280 --> 00:52.550
+Buh-Bye.

@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.540 --> 00:02.710
+Witamy spowrotem.
+
+00:02.710 --> 00:06.500
+Właśnie nauczyliśmy się naszej pierwszej notacji. Och.
+
+00:06.580 --> 00:13.850
+I lub liniowy czas i widzimy tutaj, że mamy jeszcze kilka innych.
+
+00:14.240 --> 00:16.690
+Pomówmy o następnym.
+
+00:16.730 --> 00:22.640
+Kolejna bardzo popularna notacja Big-O, że zobaczysz, co się stanie, jeśli będziemy mieli taką
+
+00:22.640 --> 00:23.230
+funkcję.
+
+00:24.690 --> 00:35.950
+Funkcja, która mówi skompresowane pierwsze pole, które otrzymuje tablicę pól, a ta funkcja ma po prostu
+
+00:35.950 --> 00:39.160
+okno dialogowe konsoli zero.
+
+00:39.220 --> 00:45.520
+To znaczy, że wylogowuje się tylko pierwszy element w pudełku.
+
+00:45.520 --> 00:54.750
+Co powiesz na Big O tej funkcji, to ile kroków lub operacji wykonuje ta funkcja.
+
+00:54.750 --> 01:04.400
+Jeśli pola wzrosną od 0 do może 10 do może 100 do 100000, co by się stało tutaj.
+
+01:04.710 --> 01:11.890
+Gotowi na odpowiedź i to nazywamy stałym czasem.
+
+01:11.950 --> 01:20.050
+Nie ma znaczenia, ile razy pola rosną rok lub ile jest pól, które mamy
+
+01:20.410 --> 01:25.440
+zawsze po prostu chwytamy pierwszy element w tablicy.
+
+01:25.480 --> 01:33.050
+Jeśli spojrzymy na to na przykładzie, jeśli mamy tablicę z rokiem Buxus i przeprowadzimy ją przez
+
+01:33.200 --> 01:36.830
+funkcję, która zajmuje pierwszy element w tablicy.
+
+01:37.750 --> 01:43.510
+Cóż, liczba operacji jest jedna, bez względu na to, jak duża jest liczba skrzynek.
+
+01:43.510 --> 01:46.400
+Robimy tylko jedno.
+
+01:46.520 --> 01:49.660
+Więc jest to stały czas.
+
+01:49.930 --> 01:59.580
+Jeśli spojrzymy na to na wykresie, jeśli mamy jeden element lub jedno pole, wykonujemy jedną operację.
+
+01:59.780 --> 02:05.260
+Jeśli znów mamy trzy, nadal robimy tylko jeden, ponieważ właśnie chwytamy pierwszy element w tablicy.
+
+02:05.360 --> 02:08.220
+Jeśli powiemy, powiedzmy pięć.
+
+02:08.240 --> 02:11.600
+To samo: Siedem identycznych rzeczy.
+
+02:11.600 --> 02:16.460
+A co z dziewiątym ponownie taką samą liczbą operacji.
+
+02:16.460 --> 02:21.030
+I nie wiem, czy widzisz linię, ale to tylko stały czas.
+
+02:21.050 --> 02:26.720
+Nie jest to czas liniowy, jak gdyby tam, gdzie rośnie i rośnie wraz
+
+02:26.720 --> 02:29.900
+z liczbą operacji, liczba operacji pozostaje płaska.
+
+02:32.840 --> 02:36.230
+Ale mam tutaj pytanie, co zrobić, jeśli zrobimy coś innego.
+
+02:36.350 --> 02:38.020
+Co jeśli zrobimy coś takiego.
+
+02:39.400 --> 02:47.070
+Co jeśli mamy funkcję, która mówi o funkcji GRABBE bar log.
+
+02:47.070 --> 03:04.710
+Pierwsze dwa pola, a to zajmie cały szereg pól i będzie konsola lub log pierwszego elementu w tablicy i będzie okno
+
+03:06.110 --> 03:08.180
+dialogowe konsoli.
+
+03:08.300 --> 03:15.200
+Również drugi element w tablicy.
+
+03:15.350 --> 03:17.740
+Jak mierzymy dużą-O tej funkcji.
+
+03:18.870 --> 03:25.770
+Cóż, pozwolę sobie po prostu rozwiązać ten problem przez chwilę, ponieważ nie potrzebujemy
+
+03:25.880 --> 03:36.050
+tego teraz i po prostu tworzymy tablicę nazywaną skrzynkami, a te pola muszą zawierać 0 1 2 3 4 i 5.
+
+03:36.120 --> 03:47.090
+Tak więc 5 pozycji lub 6 w tym przypadku, ponieważ uwzględniamy 0 i jeśli uruchomimy tę funkcję, zaloguj się najpierw dwa pola, a
+
+03:47.090 --> 03:51.220
+my damy mu tablicę pól i klikamy Run.
+
+03:51.220 --> 03:54.890
+Tutaj mamy 0 i 1.
+
+03:54.890 --> 04:00.470
+Więc zarejestrowaliśmy ten jeden, a następnie ten, jaki jest liczba operacji tutaj.
+
+04:01.520 --> 04:09.030
+Cóż, mamy wszystko jedno, to jest jedna operacja tutaj.
+
+04:09.030 --> 04:20.890
+A potem mamy tutaj, więc jeszcze raz za każdym razem, gdy ta funkcja uruchamia dwie operacje.
+
+04:20.930 --> 04:31.730
+Tak więc ta funkcja w sumie działa za każdym razem 0 z dwóch operacji.
+
+04:31.730 --> 04:39.470
+Tak więc bez względu na to, jak duże pudła otrzymają liczbę operacji tutaj, będzie również, jeśli
+
+04:39.470 --> 04:49.260
+spojrzymy na to na wykresie, zamiast mieć wszystko, co mamy, zanim będziemy mieć o dwóch, a następnie, jeśli będziemy mieli trzy operacje,
+
+04:49.260 --> 04:52.210
+to po prostu 0 lub 3.
+
+04:52.290 --> 04:56.340
+Ale ogólnie to wciąż płaska linia.
+
+04:56.530 --> 04:59.650
+I to jest coś, co zamierzamy osiągnąć później.
+
+04:59.650 --> 05:08.920
+Ale jeśli chodzi o koszty i czas, nie dbamy o czystość jednego z dwóch lub trzech nawet
+
+05:08.940 --> 05:10.020
+stu.
+
+05:10.240 --> 05:17.060
+Robimy to, aby po prostu powiedzieć "oh" tego, który jest.
+
+05:17.170 --> 05:18.860
+Mamy stały czas.
+
+05:18.880 --> 05:22.050
+Jest to linia płaska pod względem skalowalności.
+
+05:22.120 --> 05:28.520
+Nie ma znaczenia, jak duże są nasze nakłady, zawsze będziemy wykonywać stałą ilość czasu
+
+05:30.840 --> 05:37.740
+na funkcji i jeśli spojrzymy na to na wykresie, zobaczymy, że jeden z nich jest ciemnozielonym obszarem.
+
+05:37.780 --> 05:39.070
+To jest świetne.
+
+05:39.070 --> 05:42.480
+Kochamy wszystko, ponieważ jest bardzo skalowalna.
+
+05:42.520 --> 05:44.630
+Nie ma znaczenia, ile mamy elementów.
+
+05:44.640 --> 05:50.750
+Zawsze ma taką samą przewidywalność, jeśli chodzi o komputer, jest
+
+05:50.790 --> 05:56.120
+bardzo ładny i wszystko jedno jest zdecydowanie doskonałe.
+
+05:56.220 --> 06:04.810
+Tak więc dowiedzieliśmy się o czasie liniowym wszystkich, a następnie kosztach i czasie jednego z nich.
+
+06:04.970 --> 06:09.120
+Zróbmy trochę zabawy, aby naprawdę wzmocnić naszą wiedzę tutaj.

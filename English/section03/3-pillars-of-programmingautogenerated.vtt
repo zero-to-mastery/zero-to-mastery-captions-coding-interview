@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.030 --> 00:09.740
+What is good coke by this point you should be able to talk a little bit especially about scaleable right.
+
+00:09.980 --> 00:16.570
+I mean readable we're going to talk about in the next section but scaleable we understood was big-O
+
+00:17.170 --> 00:17.890
+right.
+
+00:18.320 --> 00:27.290
+Well here's the thing don't hate me but I may have slightly lied or simplified things but not that much
+
+00:27.290 --> 00:33.920
+so don't worry Bouldon that when I say scaleable there's actually two things that we want to consider
+
+00:33.950 --> 00:36.260
+as engineers.
+
+00:36.260 --> 00:38.430
+One is speed.
+
+00:38.480 --> 00:41.090
+That's what we've been talking about up until now.
+
+00:41.180 --> 00:45.210
+How fast is our runtime on the code.
+
+00:45.290 --> 00:49.730
+How much time does it take for a function to run.
+
+00:49.730 --> 00:52.820
+How many operations does it cost.
+
+00:53.270 --> 00:58.850
+Well there's another aspect when it comes to machines to valuable resources.
+
+00:58.850 --> 01:06.860
+One is the time and speed of our code and the other one is memory.
+
+01:06.860 --> 01:11.800
+You see computers have limited memory.
+
+01:11.860 --> 01:17.860
+Back in the day when computers were just being born memory was very very expensive.
+
+01:17.860 --> 01:19.560
+We only had a little bit of it.
+
+01:19.870 --> 01:25.280
+And as time has gone on we have more and more memory but it's not infinite.
+
+01:26.070 --> 01:36.090
+Our computers run based on speed which is usually dictated by the CPQ and memory based on how much memory
+
+01:36.330 --> 01:40.000
+such as RAM and random access memory the computer has.
+
+01:40.260 --> 01:43.810
+And those are two valuable resources.
+
+01:43.860 --> 01:46.110
+So how can we talk about memory.
+
+01:46.110 --> 01:47.770
+We've talked about speed.
+
+01:47.820 --> 01:53.010
+What about memory and the good news is that memory is fairly simple not as complicated as speed and
+
+01:53.190 --> 02:00.240
+it won't take us long to learn as much as we have about speed right now which code is best can be answered
+
+02:00.240 --> 02:05.820
+with the three pillars of code something that I want you to take with you for the rest of your career
+
+02:05.870 --> 02:10.440
+and something that's going to grow you as an engineer because from now on when you write code you're
+
+02:10.440 --> 02:12.810
+going to have these three things in mind.
+
+02:12.810 --> 02:20.890
+One is you're going to write readable clean code that others can read that is maintainable.
+
+02:20.910 --> 02:30.270
+The other one is speed the type of code that we call time complexity has a big time complexity that
+
+02:30.270 --> 02:31.440
+is efficient.
+
+02:31.440 --> 02:33.020
+It scales well.
+
+02:33.230 --> 02:39.910
+But we're going to talk about quickly about this third pillar and that is memory.
+
+02:40.010 --> 02:44.700
+What's the memory usage of code if it uses a lot of memory.
+
+02:44.780 --> 02:45.560
+That's not good.
+
+02:45.590 --> 02:49.430
+We might have limited memory on our machine with this one.
+
+02:49.520 --> 02:54.830
+We use big-O once again to talk about space complexity.
+
+02:54.830 --> 02:58.910
+The same notation but different topic.
+
+02:58.910 --> 03:00.080
+One is space.
+
+03:00.080 --> 03:02.220
+The other one is TIME One is speed.
+
+03:02.300 --> 03:04.670
+The other one is memory.
+
+03:04.670 --> 03:11.610
+I'm going to give you a quick little preview most programming code solution.
+
+03:11.610 --> 03:14.830
+There's usually a tradeoff between speed and memory.
+
+03:14.830 --> 03:22.220
+You want things to go faster well then you might have to sacrifice more memory you want less memory.
+
+03:22.330 --> 03:27.120
+Well then you might have to sacrifice with increased speed.
+
+03:27.290 --> 03:31.040
+Let's get into the nitty gritty of how we measure space complexity.

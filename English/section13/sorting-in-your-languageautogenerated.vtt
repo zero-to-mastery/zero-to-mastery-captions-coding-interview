@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.130 --> 00:02.230
+Welcome back.
+
+00:02.360 --> 00:07.950
+I wondered how but just a quick video to tell you about something interesting.
+
+00:08.800 --> 00:10.400
+And this depends on your language.
+
+00:10.480 --> 00:17.990
+But remember the sort method that we had in javascript or perhaps your language.
+
+00:18.150 --> 00:23.820
+I challenge you to figure out what sort of sorting algorithm it's using underneath the hood.
+
+00:24.680 --> 00:32.130
+Now in most cases it's either going to be quicksort or insertion sort and merge sort combined together.
+
+00:32.360 --> 00:38.650
+So go out and search what sorting algorithm your language uses when it comes to javascript.
+
+00:38.660 --> 00:45.500
+There's actually no requirements to javascript as to which sorting algorithm to use.
+
+00:45.500 --> 00:51.350
+We have ECMAScript in javascript which is the standard but because the standard doesn't mention how
+
+00:51.440 --> 00:53.660
+this should be implemented.
+
+00:53.660 --> 00:57.260
+Different browsers that have different javascript engines.
+
+00:57.290 --> 01:02.490
+Chrome has V8 Mozilla has its own engine Safari its own engine.
+
+01:02.600 --> 01:04.800
+They all implement them differently.
+
+01:05.580 --> 01:10.880
+Well last time I checked in Mozilla they use merge sort for sorting.
+
+01:11.070 --> 01:19.950
+And in Chrome and the V-8 engine sort is implemented with quicksort and also insertion sort for the
+
+01:19.950 --> 01:22.220
+smaller erase.
+
+01:22.300 --> 01:24.510
+I thought that was interesting anyway.
+
+01:24.560 --> 01:26.250
+I see in the next video by.

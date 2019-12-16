@@ -1,0 +1,61 @@
+WEBVTT
+
+00:01.490 --> 00:02.590
+There we have it.
+
+00:02.780 --> 00:06.490
+We've just completed our data structure section.
+
+00:06.710 --> 00:15.380
+We went through all these data structures even some sub data structures and you don't want We've completed
+
+00:15.440 --> 00:17.810
+a lot of this mind map.
+
+00:18.020 --> 00:21.400
+We've talked about arrays.
+
+00:21.770 --> 00:23.750
+We've talked about stacks and Qs.
+
+00:23.870 --> 00:31.110
+We've talked about hash tables linked lists trees and all the types of trees that we have.
+
+00:31.160 --> 00:37.510
+We even talked about graphs all these little boxes that are data structures.
+
+00:37.730 --> 00:41.600
+We now have an understanding of what they are and how they're used.
+
+00:42.350 --> 00:48.590
+But there's a few other pieces of my map that we need to go through and that is algorithms and you'll
+
+00:48.590 --> 00:53.900
+see algorithms depicted here in rocketships.
+
+00:54.000 --> 01:01.890
+Our last piece of the puzzle but you might still have a few questions that haven't been answered and
+
+01:01.890 --> 01:09.430
+there are some things that I left out because they apply more to algorithms when it comes to sorting.
+
+01:09.450 --> 01:14.920
+We're going to use arrays and Treece when it comes to dynamic programming.
+
+01:15.030 --> 01:20.760
+We're going to be talking about hash tables when we talk about breadth first search and depth first
+
+01:20.760 --> 01:28.360
+search that's used in graphs and trees recursion Well that comes up a lot in trees as well.
+
+01:28.380 --> 01:36.600
+So now that we have our fundamentals for data structures we're now ready to talk about these algorithms
+
+01:36.810 --> 01:44.400
+that come up a lot in interviews because we now understand how data structures work we're able to talk
+
+01:44.400 --> 01:49.860
+about algorithms intelligently and understand them at a fundamental level.
+
+01:49.890 --> 01:51.420
+I'll see you in the algorithm section.

@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.020 --> 00:02.310
+Bine ai revenit.
+
+00:02.310 --> 00:10.440
+Tocmai am implementat propriul nostru stack și, sperăm, ați reușit să codificați și în propria dvs. limbă.
+
+00:10.440 --> 00:19.480
+Acum, următoarea provocare pentru dvs. este dacă am folosit o cursă pentru acest stack până când acest punct sau ceea ce am
+
+00:19.480 --> 00:24.580
+codificat a fost cu o listă legată pe care am creat-o.
+
+00:24.580 --> 00:28.330
+Cum ați schimba codul dacă doriți să implementați acest lucru într-un matrice.
+
+00:29.270 --> 00:35.360
+Și sugestia aici este că va fi super super simplu, va implica ștergerea multor
+
+00:35.360 --> 00:40.560
+coduri, deoarece în timp ce array-urile au deja PUSH și POP.
+
+00:40.720 --> 00:48.260
+Prin urmare, provocarea mea față de dvs. este de a converti această structură de date stack pentru a utiliza arhitecturi în locul listelor legate.
+
+00:49.040 --> 00:52.190
+Mult noroc și voi vedea în următorul videoclip.
+
+00:52.280 --> 00:52.550
+Buh-Pa.

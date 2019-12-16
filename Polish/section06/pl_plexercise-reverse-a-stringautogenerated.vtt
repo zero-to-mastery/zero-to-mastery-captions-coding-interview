@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.710 --> 00:01.750
+Witam ponownie.
+
+00:01.780 --> 00:04.690
+Porozmawiajmy o zabawnych pytaniach.
+
+00:04.690 --> 00:10.570
+Zaczynamy od bardzo bardzo popularnego i nie powinno to być zbyt skomplikowane, aby
+
+00:10.570 --> 00:11.860
+nas rozpoczynać.
+
+00:11.890 --> 00:18.780
+Osoba przeprowadzająca wywiad prosi o utworzenie funkcji odwracającej ciąg znaków.
+
+00:19.200 --> 00:23.040
+Więc jeśli przeszedłeś tę funkcję właśnie tutaj.
+
+00:23.280 --> 00:25.560
+Cześć, nazywam się Andre.
+
+00:25.830 --> 00:30.030
+Powinien przywrócić ten jibberish.
+
+00:30.260 --> 00:36.670
+Och i zapomniałem, a tu jest jibbry.
+
+00:36.700 --> 00:39.520
+To wszystko do tyłu.
+
+00:39.700 --> 00:43.000
+Po prostu odwraca ciąg znaków.
+
+00:43.000 --> 00:51.280
+Teraz chcę iść dalej i wypróbować to we własnym identyfikatorze REPL lub w dowolnym edytorze tekstu, którego używasz i
+
+00:51.280 --> 00:53.620
+sprawdzić, czy potrafi przemyśleć problem.
+
+00:54.420 --> 00:59.750
+Użyj tego, co wiesz o tablicach, aby rozwiązać ten problem.
+
+00:59.760 --> 01:05.570
+Pamiętajmy, że jeśli chodzi o takie pytania, istnieje wiele sposobów na robienie rzeczy.
+
+01:05.730 --> 01:12.630
+Jako programiści znamy tę szybkość, istnieje wiele sposobów rozwiązania problemu i w zależności od naszego
+
+01:12.720 --> 01:17.030
+stylu, naszej wiedzy i czasu będziemy wymyślać różne rozwiązania.
+
+01:17.040 --> 01:22.660
+Więc jeśli twoja odpowiedź jest inna niż moja, to nie jest najgorsza rzecz.
+
+01:22.990 --> 01:28.150
+Chcesz być w stanie poradzić sobie z problemem i zrozumieć, dlaczego podjąłeś te decyzje.
+
+01:28.170 --> 01:33.180
+Więc cofnij ciąg znaków, a do zobaczenia w wideo rozwiązania.

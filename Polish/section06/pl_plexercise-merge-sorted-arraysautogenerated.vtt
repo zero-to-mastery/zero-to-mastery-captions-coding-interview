@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00.820 --> 00:01.870
+Witamy spowrotem.
+
+00:01.870 --> 00:12.960
+Nadszedł czas, by zrobić kolejne zabawne lub ponowne pytanie, które ankieter prosi o przekazane rasy, które można
+
+00:12.960 --> 00:21.520
+posortować. Możesz połączyć te dwie tablice w jedną dużą, która jest nadal sortowana.
+
+00:21.620 --> 00:30.170
+Więc jeśli mam funkcję o nazwie merge posortowaną lub wyścigową i dam jej dwa parametry z dwoma posortowanymi tablicami, możesz zrobić to
+
+00:31.010 --> 00:33.000
+tak, aby każdy zwojów.
+
+00:33.080 --> 00:39.910
+0 3 4 4 6 30 31 jak widać całkowicie posortowane.
+
+00:40.000 --> 00:43.850
+Zobaczmy, co możesz wymyślić, a do zobaczenia w wideo rozwiązania.

@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.090 --> 00:02.080
+Bine ai revenit.
+
+00:02.080 --> 00:05.260
+Să vorbim despre prima căutare în profunzime acum.
+
+00:05.320 --> 00:09.230
+Ne-am implementat prima căutare de respirație și ne simțim confortabil pentru asta.
+
+00:09.340 --> 00:17.320
+Dar cum rămâne cu prima căutare în adâncime, care merge în josul copacului nostru și explorăm partea cea mai adâncă a copacului înainte
+
+00:17.350 --> 00:18.980
+de a ne întoarce.
+
+00:19.990 --> 00:22.630
+Și explorați și partea dreaptă a copacului.
+
+00:23.500 --> 00:30.160
+Iar când vine vorba de prima căutare în profunzime, trebuie să fim conștienți de faptul că există trei modalități pe care le
+
+00:30.550 --> 00:31.410
+putem implementa.
+
+00:32.330 --> 00:36.710
+Se numește În ordinea ordonării și postului.
+
+00:36.960 --> 00:42.620
+Amintiți-vă cum am avut lista pe care o avem cu respirația pentru o căutare.
+
+00:42.970 --> 00:49.590
+Ei bine, există trei ordine diferite pe care le putem returna această listă cu căutare în profunzime.
+
+00:49.780 --> 00:54.390
+Primul este chemat în ordine și arată așa.
+
+00:54.430 --> 00:59.280
+Mergem cu 33 101 105.
+
+00:59.740 --> 01:06.300
+Se numește o comandă deoarece într-un arbore binar de căutare îi dă totul în ordine.
+
+01:06.450 --> 01:17.990
+Dacă aruncăm o privire la această listă sau pe acest arbore În mod ideal, într-un traversal cu ajutorul căutării în profunzime, vom obține
+
+01:18.680 --> 01:21.200
+ceva de genul acesta.
+
+01:21.260 --> 01:37.300
+Am obține unul apoi pentru 6, deoarece mergem 1 4 6 și apoi mergem 9 și apoi mergem până la 15
+
+01:37.540 --> 01:45.560
+și apoi revenim la 20 și apoi la 1 70.
+
+01:45.590 --> 01:50.260
+Este în ordine, pentru că uitați că totul este în ordine.
+
+01:50.260 --> 01:55.580
+Deci, acest lucru este foarte util dacă aveți un arbore binar de căutare ca acesta.
+
+01:55.690 --> 01:57.590
+Și acum modul în care poți să-l întorci.
+
+01:58.030 --> 02:08.320
+Se numește ordine preop și preorder începe de la nodul părinte până la 33 și apoi până la 105.
+
+02:08.490 --> 02:17.560
+Așa că începem cu părintele și apoi apucăm nodurile copilului la stânga în dreapta, în cazul nostru
+
+02:17.710 --> 02:28.460
+ar arăta ceva de genul acesta, vom începe cu nouă, pentru că este părintele 1 și apoi îl luăm pentru că
+
+02:28.460 --> 02:36.560
+este următorul în listă și atunci mergem unul pe măsură ce traversăm tot drumul jos.
+
+02:36.630 --> 02:42.940
+Amintiți-vă că facem prima căutare în adâncime atât de jos și pentru că
+
+02:42.940 --> 02:56.120
+am ajuns până la fund, acum mergem înapoi până la 6, așa că vedem aici că am făcut 4 1 6 și apoi mergem spre dreapta la 20
+
+02:56.120 --> 03:06.260
+și apoi apuca 15 apoi 170 și vă întrebați că acest lucru pare cam inutil de ce am vrea vreodată să
+
+03:06.260 --> 03:07.540
+folosim preordonarea.
+
+03:07.550 --> 03:13.760
+Vreau sa spun ca am avut totul pentru ca noi sa avem nevoie de asta si pregatirea este foarte folositoare
+
+03:13.820 --> 03:16.620
+daca vrei sa recreezi, de exemplu, un copac.
+
+03:16.730 --> 03:17.780
+Dreapta.
+
+03:17.780 --> 03:22.230
+Deoarece cu preordonare pot merge doar nouă este nodul rădăcină.
+
+03:22.310 --> 03:31.970
+Apoi avem patru ca partea stângă, una ca partea stângă și apoi, de acolo, avem
+
+03:31.970 --> 03:38.630
+șase în dreapta 20 în dreapta 915 și apoi 170.
+
+03:38.660 --> 03:47.530
+Putem recrea un copac cu ușurință pentru că este comandat pentru noi față de metoda în ordine care nu a
+
+03:47.540 --> 03:53.570
+avut ordinul pe care l-am dorit dacă vrem să recreăm un copac altfel.
+
+03:53.570 --> 04:02.430
+Și ultimul mod de a face acest lucru este numit Post și comanda post este ultima opțiune care merge tot drumul
+
+04:02.430 --> 04:03.550
+în jos.
+
+04:03.790 --> 04:09.220
+Prindeți 33 și 1 până la 5, apoi mergeți în partea de sus către celălalt părinte.
+
+04:09.380 --> 04:13.410
+Deci, 33 1 la 5 1 la 1.
+
+04:13.420 --> 04:26.150
+Deci, în cazul nostru, o listă de căutare ordonată după prima căutare va arăta ca una după aceea șase apoi patru
+
+04:26.150 --> 04:40.070
+și apoi revenind până la 15, decât 170 și apoi 20 și apoi în cele din urmă 9 căutăm mai întâi partea stângă.
+
+04:40.070 --> 04:45.710
+Copiii vin în fața părintelui și apoi căutăm mai întâi partea dreaptă, iar copiii
+
+04:45.710 --> 04:47.640
+vin în fața părintelui.
+
+04:47.640 --> 04:56.680
+Acum, aceste trei tipuri de comenzi sunt într-adevăr specifice și, deși ar putea părea confuză, veți vedea că atunci când
+
+04:56.680 --> 05:01.130
+o scriem în cod nu este așa de dificil.
+
+05:01.240 --> 05:07.930
+Trebuie doar să știți că atunci când vine vorba de căutare în profunzime în primul rând aveți aceste trei tipuri de traversări pe
+
+05:08.110 --> 05:12.940
+care le puteți face pe care poate doriți să le implementați în funcție de nevoile dvs.
+
+05:13.720 --> 05:19.000
+Dar cea mai ușoară modalitate de a vă arăta cum funcționează aceasta este ceea ce să faceți în mod real în cod.
+
+05:19.210 --> 05:20.550
+Deci, să facem asta în următorul videoclip.

@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.190 --> 00:04.840
+Sekarang saya telah membuatkan untuk Anda lembar contekan besar yang bagus.
+
+00:05.240 --> 00:08.320
+Meskipun kami telah mengambil banyak waktu untuk menjalani semuanya.
+
+00:08.720 --> 00:14.570
+Pada akhir hari ketika mempersiapkan wawancara, ini adalah semua yang perlu Anda ketahui dan Anda dapat
+
+00:14.570 --> 00:20.150
+menggunakannya untuk meninjau beberapa topik yang telah kita bahas seperti apa yang akan kita
+
+00:20.510 --> 00:22.560
+bahas untuk bagian selanjutnya .
+
+00:22.760 --> 00:27.150
+Kita lihat di sini bahwa pertunjukan besar di sana terutama yang ini di sini.
+
+00:27.230 --> 00:30.990
+Sekarang kita belum melalui semua yang telah kita lalui.
+
+00:31.000 --> 00:42.390
+Constantine tetapi kita belum melalui sesuatu seperti oh login atau oh ketika login atau O ke keduanya untuk kekuatan dari
+
+00:42.390 --> 00:47.030
+atau bahkan yang ini dengan tanda seru.
+
+00:47.030 --> 00:48.110
+Saya ingin tahu apa itu.
+
+00:48.300 --> 00:50.090
+Kita akan membahasnya.
+
+00:50.280 --> 00:56.370
+Tetapi alasan saya belum membicarakannya adalah karena mereka akan muncul ketika kita
+
+00:56.370 --> 01:05.250
+berbicara tentang struktur data dan algoritma. Notasi-notasi besar yang dikomentari ini sangat spesifik untuk algoritma dan struktur data
+
+01:05.460 --> 01:08.040
+tertentu untuk mengoptimalkan kode.
+
+01:08.220 --> 01:12.580
+Jadi kita akan membahas bahwa ketika kita berbicara tentang topik ini karena mereka akan
+
+01:13.140 --> 01:18.110
+lebih masuk akal bagi Anda seperti Oh log lagi banyak digunakan ketika datang untuk mencari algoritma.
+
+01:18.870 --> 01:26.820
+Atau O-N login digunakan hukum ketika datang untuk menyortir algoritma dan sesuatu seperti 0 2 untuk kekuatan
+
+01:26.820 --> 01:31.630
+N ikut bermain ketika kita berbicara tentang algoritma rekursif.
+
+01:31.650 --> 01:33.540
+Jadi sekali lagi jangan sampai kewalahan.
+
+01:33.570 --> 01:40.420
+Kami sudah membicarakan tiga hal utama ini dan kami akan kembali ke yang lain sepanjang kursus.
+
+01:41.360 --> 01:46.430
+Sekarang ketika datang ke pertunjukan besar saya ingin Anda ingat dua hal ketika
+
+01:46.430 --> 01:51.590
+Anda mengulangi setengah koleksi itu masih 0 sampai bagian atau 0 sampai akhir ingat.
+
+01:51.920 --> 01:53.750
+Oh dan dibagi dua.
+
+01:53.750 --> 01:55.690
+Ini masih akhir hari.
+
+01:56.010 --> 02:03.890
+Ketika mengingat buku peraturan kami dan sekali lagi trik lain yang sering muncul dalam wawancara adalah bahwa dua koleksi
+
+02:03.890 --> 02:06.800
+terpisah harus menjadi nilai tambah b.
+
+02:07.040 --> 02:09.770
+Atau jika mereka bersarang beberapa kali b.
+
+02:09.830 --> 02:15.910
+Jadi dua input terpisah harus memiliki dua variabel terpisah dan notasi O Besar.
+
+02:17.140 --> 02:22.170
+Dan hanya untuk mengingat apa yang menyebabkan waktu dalam suatu fungsi karena itulah yang kami ukur saat ini.
+
+02:22.330 --> 02:26.990
+Pengulangan operasi perbandingan baik.
+
+02:27.070 --> 02:32.620
+Kita tahu bahwa perlu beberapa saat dan hal-hal seperti panggilan fungsi luar ketika Anda memiliki
+
+02:32.620 --> 02:34.780
+fungsi di dalam suatu fungsi.
+
+02:34.970 --> 02:41.390
+Dan akhirnya kami berbicara tentang buku peraturan kami selalu besar O mengukur kasus terburuk kami ingin menghapus
+
+02:41.390 --> 02:49.490
+konstanta kami ingin memiliki input yang berbeda yang memiliki variabel yang berbeda sehingga A-plus BA dan B berlomba jika mereka bersarang adalah
+
+02:49.820 --> 02:53.750
+pidato waktu melawan sesuatu yang telah kami sebutkan di sini.
+
+02:54.050 --> 03:00.390
+Cara mudah untuk mengingat ini adalah menambahkan empat langkah dalam urutan dan perkalian untuk langkah-langkah bersarang.
+
+03:00.710 --> 03:05.630
+Dan akhirnya aturan empat adalah menjatuhkan istilah yang tidak dominan.
+
+03:06.410 --> 03:07.700
+Cukup sederhana, benar.
+
+03:08.240 --> 03:14.210
+Saya akan membawa lembar cheat-O besar ini kembali ketika kita mulai berbicara dan mengisi celah kita dengan
+
+03:14.380 --> 03:15.840
+sisa notasi O Besar.
+
+03:16.130 --> 03:18.160
+Tetapi untuk sekarang mari kita masuk ke pelajaran selanjutnya.

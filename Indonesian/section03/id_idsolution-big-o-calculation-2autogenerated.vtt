@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.860 --> 00:06.740
+Sekarang kita memiliki pemahaman yang lebih baik tentang cara menghitung bego, mari kita lihat latihan lain yang seharusnya
+
+00:06.740 --> 00:09.850
+sedikit lebih mudah daripada yang pertama yang kita lakukan.
+
+00:10.310 --> 00:21.170
+Apa yang akan Anda katakan bahwa pertunjukan besar ini adalah baik jika kita pergi satu per satu kita lihat di
+
+00:21.170 --> 00:25.680
+sini bahwa kita memiliki satu lagi satu.
+
+00:25.950 --> 00:30.420
+Dan Anda tahu bagaimana jika saya terus mengetik ini akan melelahkan jadi saya hanya akan menyalin
+
+00:30.420 --> 00:32.150
+dan menempel semuanya di sini.
+
+00:32.190 --> 00:43.930
+Kami hanya menetapkan variabel dan kemudian kami juga melihat di sini bahwa kami memiliki loop untuk yang berjalan berdasarkan
+
+00:43.930 --> 00:45.030
+input.
+
+00:45.160 --> 00:50.770
+Kita tidak tahu apa inputnya, tetapi kita bisa berasumsi bahwa kita mengulang berdasarkan berapa
+
+00:50.770 --> 00:54.370
+lama input ini dalam hal ini kita menjalankan
+
+00:58.900 --> 01:02.820
+masing-masing dari waktu akhir ini atau berapa lama inputnya.
+
+01:02.830 --> 01:09.410
+Jadi sekali lagi ini akan dijalankan di dalam dan di akhir zaman.
+
+01:09.700 --> 01:15.840
+Dan jika kita turun ke sini lagi hal yang sama kita tidak tahu apa inputnya
+
+01:15.870 --> 01:21.530
+tetapi ini sedang dijalankan berkali-kali dan akhirnya baris terakhir ini hanya dijalankan sekali.
+
+01:21.790 --> 01:25.660
+Jadi semuanya akan menjadi satu.
+
+01:25.660 --> 01:38.580
+Jadi melihat fungsi ini fungsi tantangan lain yang menyenangkan yang kita lihat semua ada di Big O kita adalah 1 2 3
+
+01:38.880 --> 01:39.560
+4.
+
+01:39.640 --> 01:50.360
+Jadi kita memiliki empat plus karena kita hanya menambahkan langkah-langkah tahun yang kita miliki dan itu terjadi 1 2
+
+01:50.420 --> 01:54.760
+3 4 5 jadi 5 dan O besar
+
+01:57.610 --> 02:08.190
+di sini adalah kita memiliki empat biaya dan waktu dan kemudian lima hal yang kita lakukan anti-CPS atau
+
+02:08.190 --> 02:11.700
+berapa lama inputnya baik-baik saja.
+
+02:11.700 --> 02:14.360
+Itu tidak terlalu buruk dibandingkan dengan saat pertama kali.
+
+02:14.520 --> 02:16.750
+Saya pikir Anda mulai memahami ini.
+
+02:16.800 --> 02:18.540
+Jadi mari selami video berikutnya.
+
+02:18.600 --> 02:25.260
+Mari kita mulai mencari tahu bagaimana kita dapat menyederhanakan hal-hal untuk kita sehingga kita tidak melakukan perhitungan matematika
+
+02:25.260 --> 02:27.020
+ini langkah demi langkah.
+
+02:27.150 --> 02:28.990
+Saya akan melihat di video berikutnya Bob.

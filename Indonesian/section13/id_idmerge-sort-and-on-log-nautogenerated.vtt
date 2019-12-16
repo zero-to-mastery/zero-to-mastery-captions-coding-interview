@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.580 --> 00:09.100
+Selamat datang kembali sampai titik ini kita berbicara tentang menyortir algoritma penyortiran pemilihan jenis
+
+00:09.100 --> 00:12.920
+penyortiran jenis gelembung yang disebut jenis elementer.
+
+00:12.970 --> 00:16.370
+Mereka baik-baik saja tetapi mereka memiliki simpul untuk loop.
+
+00:16.460 --> 00:23.810
+Dan sebagian besar waktu itu sudah selesai dan persegi yang agak lambat.
+
+00:23.830 --> 00:25.390
+Bisakah kita berbuat lebih baik.
+
+00:25.660 --> 00:27.050
+Ya kita bisa.
+
+00:27.310 --> 00:36.900
+Kita akan menemukan acara besar terakhir kita di daftar dan log kita dan sekarang untuk memahami apa semua
+
+00:37.020 --> 00:45.010
+N log dan berarti kita harus berbicara tentang algoritma penyortiran penggabungan berikutnya dan quicksort.
+
+00:45.960 --> 00:50.520
+Anda melihat tidak seperti pengurutan gelembung dan pengurutan dan pemilihan jenis.
+
+00:50.520 --> 00:53.730
+Mereka menggunakan teknik yang pernah kita dengar sebelumnya.
+
+00:53.940 --> 00:55.520
+Membagi dan menaklukkan.
+
+00:55.620 --> 01:01.530
+Kami belajar tentang ini ketika belajar tentang pohon-pohon mengingat ketika melihat-lihat buku telepon, kami membuka buku
+
+01:01.530 --> 01:07.330
+itu bukan dari halaman pertama dari halaman tengah dan kami terus memecah halaman sampai kami menemukan
+
+01:07.330 --> 01:08.940
+nama yang kami cari.
+
+01:09.770 --> 01:10.750
+Dan menggabungkan semacam.
+
+01:10.760 --> 01:15.530
+Dan quicksort menggunakan konsep divide and conquer.
+
+01:15.770 --> 01:23.360
+Dan gagasan rekursi yang telah kita bicarakan untuk membagi masalah ke bawah untuk melakukan pekerjaan pada setiap
+
+01:23.540 --> 01:26.250
+subset dan kemudian menggabungkan solusi.
+
+01:26.310 --> 01:29.140
+Sekarang kita akan melihat bagaimana ini sebenarnya bekerja.
+
+01:30.000 --> 01:35.970
+Tetapi saya ingin mengingatkan Anda bahwa setiap kali kita melihat sesuatu seperti memecah dan menaklukkannya
+
+01:35.970 --> 01:38.330
+biasanya memberi Anda log keuntungan.
+
+01:38.460 --> 01:42.450
+Dan seperti yang Anda lihat di sini, itu adalah bagian terakhir dari teka-teki.
+
+01:42.710 --> 01:43.830
+Oh dan masuk.
+
+01:43.830 --> 01:48.900
+Dan itu benar-benar membaik lebih baik daripada semua peristiwa kuadrat.
+
+01:49.230 --> 01:55.620
+Pasangan berikutnya dari algoritma penyortiran yang akan kita lihat sekarang adalah bersarang
+
+01:55.890 --> 02:02.760
+untuk loop dan memiliki tangan dan kuadrat. Sebaliknya mereka akan memiliki kompleksitas waktu ini
+
+02:03.060 --> 02:10.670
+yang membuat segalanya jauh lebih baik dan menghemat banyak waktu perusahaan untuk memahami apa artinya ini.
+
+02:10.800 --> 02:16.980
+Kita harus mulai dengan melihat pada Mirch sort. Mari kita lihat bagaimana cara kerjanya
+
+02:16.980 --> 02:20.210
+dan kemudian saya akan menjelaskan apa manfaatnya.
+
+02:20.330 --> 02:22.330
+Kami memiliki daftar yang sama seperti sebelumnya.
+
+02:22.680 --> 02:30.510
+Kita akan mengambil daftar ini dan benar-benar membaginya menjadi dua dan kemudian kita akan membagi masing-masing himpunan
+
+02:30.510 --> 02:33.160
+bagian ini menjadi setengah lagi.
+
+02:34.140 --> 02:43.370
+Dan kemudian kita akan membagi daftar-daftar salbe menjadi setengah lagi sampai kita memiliki satu item dan setelah kita memiliki
+
+02:43.370 --> 02:52.370
+itu dibagi kita akan mengambil item pertama di item kedua dan berkata hei mana yang harus saya
+
+02:52.370 --> 02:53.490
+letakkan dulu.
+
+02:53.660 --> 03:02.700
+Mari kita menempatkan lima dulu dan kemudian 6 tepat dan perhatikan di sini bagaimana kita membangun pohon terbalik dalam arti
+
+03:03.510 --> 03:08.610
+kemudian kita melihat tiga dan satu dan mengatakan satu dan tiga.
+
+03:08.620 --> 03:11.560
+Jadi kita semakin dekat dengan catatan root itu.
+
+03:11.750 --> 03:13.730
+Kami membandingkan delapan dan tujuh.
+
+03:13.930 --> 03:18.330
+Tujuh datang sebelum 8 2 dan 4 2 sebelum 4.
+
+03:18.520 --> 03:27.460
+Dan sekarang kita lagi menggabungkan daftar-daftar itu dalam pohon terbalik yang mengatakan 5 dan 1 mana yang lebih dulu yang lebih dulu dan
+
+03:27.550 --> 03:30.760
+kemudian mari kita bandingkan lima dan tiga.
+
+03:31.000 --> 03:39.270
+Tiga muncul lebih dulu dari lima dan enam kemudian kita melihat di sisi kanan kita mengatakan tujuh dan dua datang
+
+03:39.270 --> 03:40.300
+sebelum tujuh.
+
+03:40.390 --> 03:41.660
+Bagaimana dengan tujuh dan empat.
+
+03:41.660 --> 03:43.860
+Empat menjadi sebelum tujuh.
+
+03:43.870 --> 03:50.440
+Dan karena kita tahu bahwa tujuh dan delapan sudah diurutkan kita hanya menempatkan tujuh dan delapan tepat di sebelah satu
+
+03:50.440 --> 03:51.440
+sama lain.
+
+03:51.640 --> 03:58.120
+Dan akhirnya kami menggabungkan dua daftar terakhir ini ke simpul akar
+
+03:58.690 --> 04:06.100
+kami untuk menggabungkan daftar dan membuatnya diurutkan satu menjadi tiga dan empat lima.
+
+04:06.520 --> 04:13.380
+Dan kemudian 6 7 dan 8 dan kami memiliki daftar diurutkan kami.
+
+04:14.510 --> 04:21.620
+Sekarang yang tampak sangat rumit jauh lebih rumit daripada algoritma pengurutan lainnya yang benar.
+
+04:22.630 --> 04:29.470
+Mersch surd adalah salah satu cara paling efisien untuk mengurutkan daftar hal-hal dan biasanya akan bekerja
+
+04:29.470 --> 04:32.970
+lebih baik daripada kebanyakan algoritma pengurutan lainnya.
+
+04:33.220 --> 04:37.750
+Dan dari segi kompleksitas Yah itu pasti lebih kompleks bukan.
+
+04:37.780 --> 04:43.900
+Kami menggunakan pendekatan membagi dan menaklukkan yang seharusnya memberi tahu Anda bahwa itu akan menggunakan
+
+04:43.900 --> 04:45.100
+semacam rekursi.
+
+04:45.160 --> 04:52.630
+Bagian pertama dari log dan itu adalah berasal dari fakta bahwa kita masih membandingkan
+
+04:52.630 --> 04:58.650
+semua yang kita harus melihat masing-masing angka dan membandingkannya untuk mengurutkannya.
+
+04:58.710 --> 05:10.130
+Sekarang setelah kita membagi daftar menjadi satu yang menemukan indeks tengah dari hal-hal ini sebenarnya satu karena merupakan
+
+05:10.170 --> 05:13.270
+operasi matematika yang mudah.
+
+05:13.320 --> 05:17.030
+Dapatkan panjang daftar dan temukan tengah.
+
+05:17.130 --> 05:23.700
+Tapi begitu kita membagi array kita perlu mengurutkan item yang akan mengambil alih dan
+
+05:23.700 --> 05:32.360
+kita harus melihat setiap item dan benar-benar mengurutkannya dan mampu membuat daftar tetapi tidak seperti bubble sort misalnya meskipun
+
+05:32.420 --> 05:39.830
+kita harus membandingkan semuanya setidaknya sekali kita tidak perlu membandingkan semuanya dengan segala sesuatu seperti yang
+
+05:39.830 --> 05:47.270
+kita lakukan dengan semacam gelembung yang harus kita lakukan adalah membandingkan daftar lokal mereka satu sama
+
+05:47.930 --> 05:52.640
+lain mengingat dengan sesuatu seperti jenis gelembung atau jenis penyisipan.
+
+05:52.700 --> 06:01.350
+Setelah kami memeriksa daftar sekali kami kemudian membandingkan item berikutnya dengan sisa kemeja daftar juga membantu karena itu
+
+06:01.350 --> 06:08.730
+yang kita sebut stabil yang hanya berarti bahwa jika Anda memiliki elemen yang setara
+
+06:08.730 --> 06:16.720
+yaitu katakanlah 6 dan 6 atau nama yang sama itu akan menjaga orde asli dalam array.
+
+06:18.310 --> 06:21.710
+Dan ini kadang-kadang bisa penting tergantung pada jenis data.
+
+06:22.030 --> 06:23.940
+Mari kita lihat big-O-nya.
+
+06:24.430 --> 06:35.180
+Kita melihat bahwa pedang gabungan memiliki semua dan masuk dan dengan kompleksitas ruang dari jenis penyisipan semacam gelembung dan
+
+06:35.180 --> 06:36.890
+jenis seleksi.
+
+06:37.010 --> 06:44.980
+Kami memiliki sedikit kompleksitas ruang yang lebih besar karena kami harus menyimpan daftar dan memori yang terbagi tersebut.
+
+06:45.050 --> 06:52.480
+Jadi itu adalah satu kelemahan dari Merse sort tetapi kami sekarang telah berhasil membuat algoritma sorting kami jauh lebih cepat.
+
+06:53.530 --> 07:04.350
+Sekarang bagaimana kita menerapkan jenis Maret yang saya miliki di sini untuk Anda latihan Saya ingin memperingatkan Anda ini benar-benar sulit
+
+07:04.440 --> 07:10.010
+menggabungkan jenis sangat sulit untuk diterapkan dan membungkus pikiran Anda.
+
+07:10.320 --> 07:15.510
+Jika Anda tidak merasa nyaman dengan rekursi, itu akan sedikit sulit.
+
+07:15.510 --> 07:21.540
+Ingatlah bahwa saya menunjukkan kepada Anda di sini cara melakukannya hanya untuk kepentingan Anda sendiri tetapi kemungkinan besar
+
+07:21.540 --> 07:26.820
+dalam sebuah wawancara Anda tidak akan pernah diminta untuk menerapkan jenis penggabungan Anda sendiri.
+
+07:26.820 --> 07:31.890
+Anda hanya akan ditanya, mungkin bagaimana penerapannya dan telah membuat kerangka kecil untuk membantu Anda
+
+07:31.890 --> 07:32.690
+di sini.
+
+07:33.030 --> 07:39.310
+Kami memiliki semacam gabungan yang akan memiliki fungsi yang mengambil array.
+
+07:39.570 --> 07:46.290
+Kami memiliki casing dasar karena kami akan menggunakan rekursi di sini dengan mengatakan bahwa panjang array adalah satu.
+
+07:46.380 --> 07:48.840
+Ingat hanya ada satu item dalam daftar.
+
+07:48.840 --> 07:53.370
+Saat itulah masing-masing dari ini berada di bagian atas dalam daftar sendiri.
+
+07:54.150 --> 07:58.550
+Kami akan mengembalikan array sekarang di sini.
+
+07:58.550 --> 08:08.080
+Kita akan kembali dan kita akan menggabungkan semacam sisi kiri dan sisi kanan dan kita
+
+08:08.080 --> 08:16.500
+akan menggunakan fungsi ini menggabungkan yang akan menggabungkan sisi kiri dan sisi kanan.
+
+08:16.580 --> 08:24.110
+Jadi langkah pertama adalah bagi Anda untuk membagi array ke tengah di sisi kiri dan
+
+08:24.320 --> 08:25.830
+kanan di sini.
+
+08:25.970 --> 08:32.850
+Kemudian jalankan dengan algoritma semacam emersed dan dalam fungsi gabungan.
+
+08:32.850 --> 08:36.290
+Saya ingin Anda benar-benar melakukan perbandingan.
+
+08:36.690 --> 08:40.320
+Saya tidak berharap Anda segera mendapatkan ini.
+
+08:41.090 --> 08:42.970
+Ada sangat sedikit orang yang dapat melakukan ini.
+
+08:43.010 --> 08:49.670
+Setengah dari bagian atas kepala mereka tetapi melihat apakah Anda dapat menggunakan semua sumber daya yang tersedia adalah
+
+08:50.090 --> 08:54.920
+disk atau komunitas atau bahkan Google untuk mengetahui cara membuat jenis Anda sendiri.
+
+08:55.520 --> 08:58.530
+Dan sampai jumpa di video solusi oleh.

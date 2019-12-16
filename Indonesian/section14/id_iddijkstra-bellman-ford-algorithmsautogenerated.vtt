@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.110 --> 00:01.910
+Selamat datang kembali.
+
+00:02.170 --> 00:09.610
+Saya ingin berbicara tentang satu bagian terakhir dari teka-teki terutama ketika datang ke grafik walaupun kita
+
+00:09.610 --> 00:13.250
+telah berbicara tentang grafik traversal sampai sekarang.
+
+00:13.390 --> 00:18.340
+Dan juga Treach reversal mereka menggunakan DFS dan DFS.
+
+00:18.370 --> 00:25.480
+Ada juga hal lain yang harus Anda pertimbangkan sekarang dalam sebuah wawancara Anda kemungkinan besar sekarang
+
+00:25.480 --> 00:31.100
+akan menerapkan algoritma ini karena mereka sangat rumit dan membutuhkan waktu lama.
+
+00:31.150 --> 00:39.040
+Namun pewawancara mungkin berharap Anda tahu tentang mereka dan tahu bahwa Anda akan menggunakan Belman Ford
+
+00:39.190 --> 00:44.120
+atau algoritma diaster untuk mencari tahu masalah jalur terpendek.
+
+00:44.290 --> 00:45.810
+Tapi Anda mungkin bertanya pada diri sendiri.
+
+00:46.010 --> 00:52.940
+Nah Andre, Anda baru saja memberi tahu saya bahwa pencarian pertama luasnya digunakan untuk masalah jalur terpendek.
+
+00:52.990 --> 00:53.980
+Mengapa kita membutuhkan ini?
+
+00:54.010 --> 00:56.790
+Algoritma X pasti saya sudah tahu bagaimana melakukan itu.
+
+00:56.980 --> 01:00.090
+Dan ini sebenarnya adalah kasus khusus.
+
+01:00.220 --> 01:06.540
+Anda melihat luasnya pencarian pertama sangat bagus untuk masalah jalur terpendek tetapi ada satu
+
+01:06.540 --> 01:11.960
+hal yang dapat diasumsikan bahwa setiap lompatan ke node lain dalam grafik.
+
+01:11.960 --> 01:22.240
+Jika kita kembali ke sini diasumsikan bahwa setiap jalur memiliki bobot yang sama dengan pencarian pertama kedalaman dalam napas.
+
+01:22.340 --> 01:29.590
+Pencarian pertama, kami benar-benar tidak peduli berat jenis apa yang dimiliki sebuah tepi.
+
+01:29.730 --> 01:37.670
+Misalnya dalam kehidupan nyata seperti Google Maps beberapa jalan lebih cepat daripada yang lain.
+
+01:37.770 --> 01:38.790
+Kanan.
+
+01:38.890 --> 01:44.730
+Kami mungkin memiliki lebih banyak lalu lintas di satu jalan, mungkin jarak dari satu not ke yang lain.
+
+01:44.740 --> 01:51.730
+Ini lebih pendek dari yang lain dan grafik berbobot ini yang telah kita bicarakan memiliki angka yang
+
+01:51.970 --> 01:53.420
+terkait dengan tepinya.
+
+01:53.440 --> 02:01.210
+Ingat sebuah simpul disebut simpul dalam grafik dan koneksi antara dua simpul adalah sisi
+
+02:01.240 --> 02:07.990
+dan kedalaman pencarian pertama tidak benar-benar memungkinkan kita memperhitungkan bobot ini.
+
+02:08.020 --> 02:09.870
+Kami membutuhkan sesuatu yang lain.
+
+02:10.150 --> 02:16.150
+Dan dalam sebuah wawancara jika seseorang bertanya kepada Anda, jawaban Anda harus
+
+02:16.180 --> 02:27.180
+berupa Belman Ford atau algoritma diaster yang memungkinkan kami menemukan jalur terpendek antara dua catatan grafik tertimbang sekarang. Belman dan pemain dadu adalah dua
+
+02:27.180 --> 02:35.640
+orang sungguhan yang merupakan akademisi akademisi yang sangat sangat cerdas. datang dengan algoritme mereka sendiri untuk memecahkan masalah
+
+02:35.850 --> 02:41.910
+jalur terpendek dari cara digraf seperti Google Maps mencoba mencari tahu apa cara
+
+02:41.940 --> 02:46.140
+terdekat bagi Anda untuk mendapatkan burrito Anda misalnya.
+
+02:46.140 --> 02:48.660
+Dan hanya fakta yang menyenangkan.
+
+02:48.720 --> 02:51.060
+Ini Richard Belman.
+
+02:51.360 --> 02:58.880
+Dan itu adalah orang yang sama yang menulis tentang pemrograman dinamis yang merupakan bagian yang akan datang dalam kursus kami.
+
+02:58.890 --> 03:02.060
+Anggap saja kedua orang ini sangat cerdas.
+
+03:03.370 --> 03:11.110
+Sekarang kedua algoritma ini cukup kompleks dan butuh banyak waktu untuk benar-benar membuatnya disandikan.
+
+03:11.290 --> 03:17.170
+Jadi saya akan meninggalkan sumber daya untuk Anda jika Anda ingin mempelajari lebih lanjut tentang algoritma
+
+03:17.470 --> 03:22.380
+ini karena dalam sebuah wawancara sangat jarang bahwa Anda harus kode algoritma ini.
+
+03:22.390 --> 03:26.520
+Sebagian besar waktu Anda hanya perlu tahu bahwa mereka ada dan kapan menggunakannya.
+
+03:26.530 --> 03:36.330
+Jadi mari kita bahas bahwa algoritma Belman Ford sangat efektif dalam menyelesaikan jalur terpendek atas algoritma
+
+03:36.360 --> 03:40.070
+diaster karena dapat mengakomodasi bobot negatif.
+
+03:40.290 --> 03:49.110
+Jadi jika grafik berbobot memiliki bobot negatif atau angka negatif algoritma Belman Ford akan dapat menyelesaikan
+
+03:49.110 --> 03:51.210
+masalah jalur terpendek.
+
+03:51.360 --> 03:54.090
+Sementara Daxter tidak akan bisa.
+
+03:54.170 --> 04:01.900
+Sekarang mengapa Anda pernah menggunakan diaster maka jika algoritma Belman Ford dapat melakukan lebih baik kita tidak akan masuk ke dalam matematika
+
+04:01.900 --> 04:02.980
+itu semua
+
+04:03.370 --> 04:10.870
+Tetapi algoritma Belman Ford dapat membutuhkan waktu lama untuk berjalan dalam hal kompleksitas dan itu bukan algoritma yang
+
+04:10.900 --> 04:12.150
+paling efisien.
+
+04:12.250 --> 04:19.460
+Kasus terburuk untuk algoritma maju Belman biasanya kompleksitas waktu semua dan kuadrat.
+
+04:19.810 --> 04:21.720
+Jadi itu tidak terlalu efisien.
+
+04:21.730 --> 04:29.020
+Algoritma Diaster di sisi lain sedikit lebih cepat dari itu dan sedikit lebih
+
+04:29.320 --> 04:35.470
+efisien dengan downside yang dapat mengakomodasi menunggu negatif antara node.
+
+04:35.560 --> 04:43.540
+Jika pewawancara menunjukkan diagram ini dan memberi tahu Anda bahwa saya ingin menemukan jalur terpendek dari 0 hingga 4 dalam cara ini
+
+04:43.960 --> 04:48.320
+untuk membuat grafik, Anda sekarang tahu mengapa Anda harus mengatakannya dengan benar.
+
+04:48.730 --> 04:50.830
+Algoritma apa yang akan Anda gunakan.
+
+04:50.830 --> 04:52.030
+Apakah Anda akan menggunakan nafas.
+
+04:52.150 --> 04:58.130
+Pencarian pertama algoritma Belman Ford atau algoritma diaster.
+
+04:58.330 --> 05:03.010
+Jawabannya juga harus algoritma diaster.
+
+05:03.040 --> 05:05.580
+Tidak ada bobot negatif pada grafik ini.
+
+05:05.590 --> 05:06.610
+Ini adalah grafik.
+
+05:06.760 --> 05:09.710
+Jadi pemain adalah algoritma yang akan menyelesaikan masalah itu.

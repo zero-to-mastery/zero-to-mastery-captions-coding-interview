@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.890 --> 00:01.740
+Selamat datang kembali.
+
+00:02.030 --> 00:10.870
+Mari kita bicara tentang jenis pencarian pertama dalam pencarian Anda dalam pencarian linear ilmu komputer atau
+
+00:10.960 --> 00:16.760
+pencarian berurutan adalah metode untuk menemukan nilai target dalam daftar.
+
+00:16.960 --> 00:22.480
+Dan kita harus terbiasa dengan ini sebelumnya karena untuk menjalankan kursus kita telah
+
+00:22.480 --> 00:30.310
+melewati array untuk menemukan item itu secara berurutan memeriksa setiap elemen daftar untuk nilai target sampai kecocokan ditemukan atau
+
+00:30.340 --> 00:32.990
+sampai semua elemen telah dicari.
+
+00:33.460 --> 00:38.650
+Mari kita lihat pada pencarian linear visual sederhana ini.
+
+00:38.770 --> 00:47.450
+Kami memiliki item yang bisa menjadi simpul yang bisa menjadi angka yang bisa apa saja dan kami pergi satu
+
+00:47.450 --> 00:49.420
+per satu melihat daftar.
+
+00:49.650 --> 00:57.540
+Kami memeriksa item pertama, kemudian item kedua, ketiga, keempat, kelima, dan keenam dalam skenario kasus terbaik, kami
+
+00:57.540 --> 01:05.250
+menemukan apa yang kami cari dalam semua waktu karena itu berada di bagian paling awal
+
+01:05.250 --> 01:05.860
+daftar.
+
+01:05.940 --> 01:08.850
+Seperti jika kita sedang mencari enam di sini.
+
+01:08.850 --> 01:12.620
+Namun dalam kasus terburuk kita harus melewati seluruh daftar.
+
+01:12.720 --> 01:17.460
+Jika kita mencari sembilan dan memeriksa setiap not tunggal atau jika kita mencari
+
+01:17.460 --> 01:23.690
+sesuatu yang tidak ada kita masih harus memeriksa setiap item dan jenis penyortiran ini sangat akrab bagi kita.
+
+01:24.850 --> 01:32.220
+Sebagai contoh jika kita melihat javascript saya punya daftar di sini tentang binatang buas dan katakanlah kita sedang mencari Zilah
+
+01:32.220 --> 01:33.220
+yang baik.
+
+01:33.600 --> 01:37.200
+Ada banyak cara saya bisa mencari item ini.
+
+01:37.270 --> 01:39.420
+Godzilla yang baik dalam daftar ini.
+
+01:39.510 --> 01:47.480
+Salah satu cara melakukannya dalam javascript adalah menggunakan indeks yang memberi saya indeks di mana saya dapat menemukan Godzilla.
+
+01:47.670 --> 01:57.900
+Dan ini menggunakan pencarian linier untuk mencoba dan menemukan item. Cara lain adalah menggunakan find index yang mengambil fungsi dengan syarat bahwa
+
+01:58.260 --> 02:04.530
+item tersebut harus sama dengan Godzilla dan akan mengembalikan true ketika menemukan sesuatu
+
+02:04.980 --> 02:05.640
+lagi.
+
+02:05.670 --> 02:16.100
+Jika saya menjalankan ini, saya mendapatkan satu sama lain cara adalah dengan menggunakan fungsi Temukan memberikan fungsi yang sama seperti yang kami lakukan di
+
+02:16.100 --> 02:16.580
+atas.
+
+02:16.730 --> 02:21.420
+Tapi kali ini akan mengembalikan item yang sebenarnya, bukan indeks.
+
+02:21.510 --> 02:22.760
+Niat Baik.
+
+02:22.980 --> 02:31.700
+Dan akhirnya kami juga memiliki cara pencarian ini yang mencakup metode yang hanya mengatakan apakah binatang buas termasuk
+
+02:31.730 --> 02:36.590
+Godzilla dan itu akan memberi saya benar atau salah.
+
+02:36.710 --> 02:43.470
+Dalam hal ini benar dan bahasa Anda akan memiliki cara berbeda untuk menerapkan jenis pencarian ini.
+
+02:44.060 --> 02:49.480
+Tetapi semua pencarian ini adalah pencarian linier yang merupakan kasus terburuk.
+
+02:49.490 --> 02:56.150
+Kita akan melalui seluruh daftar dan seperti yang Anda tahu input kami adalah daftar kami dapat benar-benar
+
+02:56.570 --> 03:05.570
+sangat besar dan waktu linier adalah OK tapi itu bukan yang tercepat kami tidak dapat menggunakan pencarian linear untuk mengindeks situs web
+
+03:05.570 --> 03:11.760
+seperti Google atau mencari teman-teman seperti Facebook karena akan menghabiskan banyak waktu bagi kita.
+
+03:14.360 --> 03:16.260
+Apakah ada cara yang lebih baik?
+
+03:17.520 --> 03:27.670
+Nah bagaimana jika daftar data kami di sini mungkin disortir apakah itu akan membantu kami dengan cara apa pun yang dapat
+
+03:27.670 --> 03:28.820
+kami perbaiki.
+
+03:28.990 --> 03:31.620
+Katakanlah kita sedang mencari 9 sekarang.
+
+03:31.900 --> 03:34.190
+Dan kami tahu bahwa daftar itu disortir.
+
+03:34.420 --> 03:36.550
+Mari jawab pertanyaan itu di video berikutnya.

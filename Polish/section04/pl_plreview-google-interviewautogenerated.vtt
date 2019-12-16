@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.600 --> 00:08.390
+Cześć Wiem, wiem Wiem, że ostatnie dwa filmy były bardzo długie, bardzo Tagen i gol.
+
+00:08.440 --> 00:13.060
+Jeśli nie byłeś zaznajomiony z javascript, być może były one nieco trudniejsze.
+
+00:13.060 --> 00:20.590
+Ale chodziło o proces rozwiązywania problemu w wywiadzie kodowania i tutaj stworzyłem dla ciebie
+
+00:20.590 --> 00:22.370
+mały plac zabaw.
+
+00:22.390 --> 00:25.560
+Pamiętasz film z wywiadu z Google, który kazałem Ci obejrzeć.
+
+00:25.810 --> 00:32.710
+Cóż, zaimplementowałem rozwiązanie, które stworzył rozmówca, a tutaj mamy naiwne rozwiązanie, które
+
+00:32.740 --> 00:41.650
+jest zagnieżdżone dla pętli, a następnie lepsze rozwiązanie, które wykorzystuje jedną pętlę forów kosztem tworzenia
+
+00:41.650 --> 00:45.730
+czegoś w javascript zwanego nowym zestawem.
+
+00:45.730 --> 00:48.470
+Zostawiłem to tutaj dla ciebie, żebyś mógł się bawić.
+
+00:48.640 --> 00:54.250
+A jeśli chcesz kodować w swoim własnym języku, ale chciałem rzucić Ci wyzwanie, aby
+
+00:54.250 --> 01:02.200
+sprawdzić, czy potrafi to wdrożyć na własną rękę, tak jak osoba w wywiadzie Google zrobiła w twoim własnym języku naiwne
+
+01:02.500 --> 01:07.640
+podejście, a następnie lepsze podejście i spróbować kroki podczas pisania kodu.
+
+01:07.840 --> 01:15.250
+Nawet jeśli znasz już odpowiedź, mimo że obejrzałeś film z wywiadu,
+
+01:15.250 --> 01:24.250
+wykonując kroki i przechodząc od naiwnego do lepszego rozwiązania, wykonując następujące czynności, poprawisz to
+
+01:24.250 --> 01:26.340
+jako bodziec.
+
+01:26.350 --> 01:28.740
+Dobra, do zobaczenia w następnym wideo.
+
+01:29.070 --> 01:29.630
+PA pa.

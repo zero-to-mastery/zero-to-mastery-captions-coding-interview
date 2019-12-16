@@ -1,0 +1,547 @@
+WEBVTT
+
+00:00.900 --> 00:02.010
+Selamat datang kembali.
+
+00:02.010 --> 00:06.370
+Sudah waktunya untuk berjalan melalui implementasi kita sendiri dari tabel hash.
+
+00:06.570 --> 00:12.030
+Sekarang sebelum kita mulai, saya ingin menyebutkan sesuatu yang Anda mungkin bertanya-tanya tentang apakah ini
+
+00:12.120 --> 00:13.890
+garis bawah di sini.
+
+00:13.890 --> 00:18.880
+Apa artinya itu di sebagian besar bahasa lain seperti Java.
+
+00:19.780 --> 00:27.340
+Saat Anda membuat kelas, Anda bisa memiliki properti pribadi yang merupakan properti yang tidak bisa saya akses di luar
+
+00:27.340 --> 00:28.150
+kelas ini.
+
+00:28.270 --> 00:38.800
+Jadi saya tidak akan bisa melakukan hash table saya menggarisbawahi Passhe dan mengakses properti atau metode ini.
+
+00:39.010 --> 00:43.800
+Sekarang dengan javascript E6 itu tidak benar-benar mungkin.
+
+00:44.040 --> 00:52.680
+Dan ada standar umum yang menempatkan garis bawah di sini dan dunia javascript yang mengatakan ini
+
+00:52.680 --> 00:54.770
+adalah milik pribadi.
+
+00:54.900 --> 00:58.410
+Sekarang ini benar-benar tidak ada artinya.
+
+00:58.410 --> 01:07.350
+Saya masih dapat mengakses metode hash tetapi ini adalah standar pengembang dan komunitas javascript untuk memberi tahu pengembang lain
+
+01:07.470 --> 01:14.760
+bahwa Anda seharusnya tidak mengatakan ini meskipun secara teknis Anda tidak bisa dan ada cara untuk
+
+01:14.760 --> 01:16.190
+membuatnya bekerja.
+
+01:16.380 --> 01:23.070
+Dan setengah dari properti pribadi tetapi membutuhkan hal-hal seperti simbol penutupan atau peta yang lemah yang lagi berada di
+
+01:23.070 --> 01:26.240
+luar cakupan kursus ini dan kita tidak perlu khawatir.
+
+01:26.580 --> 01:28.850
+Jadi dari situlah garis bawah berasal.
+
+01:28.950 --> 01:32.630
+Kami biasanya tidak akan mengakses fungsi hash seperti ini.
+
+01:32.650 --> 01:37.080
+Saat ini kita sudah berhasil, mari kita bicara sedikit tentang apa yang dilakukannya.
+
+01:37.350 --> 01:45.430
+Jika saya masuk dan di sini anggur pertama-tama kita membuat variabel baru yang hash yang sama dengan nol.
+
+01:45.790 --> 01:50.530
+Dan kemudian kunci ini. Kita akan mengambil mangkok atau anggur.
+
+01:50.530 --> 02:02.370
+Jadi itu satu dua tiga empat lima enam dan kita akan menambahkan nol yang berasal dari kode karakter kunci hash
+
+02:02.640 --> 02:04.160
+Plus di.
+
+02:04.450 --> 02:13.470
+Dan kode karakter di dalam javascript hanya memberi kita bilangan bulat antara 0 dan angka ini mewakili
+
+02:13.470 --> 02:15.120
+kode UTF 16.
+
+02:15.120 --> 02:23.420
+Jadi itu hanya sebuah pengkodean yang cukup banyak mengatakan beri saya kode karakter karena ingat
+
+02:23.720 --> 02:28.920
+dalam memori string atau huruf direpresentasikan sebagai angka.
+
+02:28.940 --> 02:35.890
+Jadi metode ini memungkinkan kita untuk mengatakan pada indeks apa pun yang kita masukkan ke dalam parameter.
+
+02:35.950 --> 02:41.330
+Jadi katakanlah kita sedang melihat indeks I yang pertama adalah g.
+
+02:41.620 --> 02:45.070
+Kita akan mendapatkan kode karakter untuk G.
+
+02:45.100 --> 02:50.790
+Itu adalah angka di mana kita mengalikannya dengan indeks.
+
+02:50.810 --> 02:59.900
+Sekali lagi hanya untuk memastikan s membuat yang unik dan kemudian kami menggunakan apa yang
+
+02:59.900 --> 03:08.770
+disebut operator modulo untuk memastikan bahwa ini tetap dalam panjang 50 ukuran data kami.
+
+03:09.120 --> 03:10.650
+Dan kemudian kita mengembalikan hash.
+
+03:10.770 --> 03:20.380
+Cara mudah untuk melihat apa yang terjadi di sini adalah dengan cukup menghibur dialog Passhe.
+
+03:20.380 --> 03:31.350
+Jika saya menjalankan ini kita melihat bahwa itu akan loop melalui karakter anggur kami dengan karakter.
+
+03:31.520 --> 03:41.500
+Ini akan menghasilkan semacam hash dan karena hash ini terus-menerus dilingkarkan, kami menyertakan apa pun yang
+
+03:42.100 --> 03:43.310
+dihasilkan.
+
+03:43.310 --> 03:45.050
+Mari kita lihat yang pertama adalah nol.
+
+03:45.280 --> 03:49.190
+Ini akan mengatakan 0 plus apa pun ini.
+
+03:49.330 --> 03:55.210
+Kemudian hash iterasi berikutnya akan sama dengan 14 dan menghasilkan sesuatu yang lain yaitu 8
+
+03:55.210 --> 03:59.080
+dan terus berjalan terus terus sampai kita mendapatkan 23.
+
+03:59.130 --> 04:02.360
+Anda dapat meluangkan waktu dan membaca kode ini jika Anda mau.
+
+04:02.370 --> 04:05.350
+Sekali lagi ini bukan fokus dari video ini jadi mari kita lanjutkan.
+
+04:07.600 --> 04:09.000
+Menggunakan fungsi hash kami.
+
+04:09.070 --> 04:12.180
+Mari kita lakukan metode pertama kami.
+
+04:13.290 --> 04:17.750
+Mari kita buat metode yang ditetapkan.
+
+04:17.940 --> 04:25.720
+Metode ini akan menerima kunci dan nilai.
+
+04:25.870 --> 04:33.650
+Dan supaya kita dapat melihat ini dan apa yang akan terjadi kita akan menjalankan metode ini di sini dengan mengatakan kita ingin
+
+04:33.800 --> 04:35.650
+anggur sama dengan 10.000.
+
+04:35.890 --> 04:38.420
+Banyak anggur karena enak.
+
+04:38.450 --> 04:45.620
+Jika saya menjalankan ini saya tidak terdefinisi karena sementara ini tidak benar-benar melakukan apa-apa hal pertama yang
+
+04:45.620 --> 04:53.520
+ingin kita lakukan adalah membuat variabel bernama Biarkan alamat yang akan mewakili di mana kita ingin menyimpan informasi ini.
+
+04:55.390 --> 04:57.070
+Dan kami akan
+
+05:02.610 --> 05:14.590
+mengatakan titik ini sehingga semua yang kami katakan adalah menyimpan data ini sehingga kami akan memasukkan nilai kunci dalam ruang alamat ini
+
+05:15.130 --> 05:21.130
+yang dibuat oleh fungsi hash kami dan kami memberikannya kunci anggur.
+
+05:21.190 --> 05:23.050
+Ingat animasi kecil kami.
+
+05:23.080 --> 05:28.900
+Kami mengirim anggur ke kotak kecil ajaib yang memiliki fungsi hash.
+
+05:29.380 --> 05:34.940
+Dari sana kita hanya mengatakan jika alamat data titik ini
+
+05:37.670 --> 05:49.060
+jika tidak ada dan tidak ada di sana karena ingat dalam tabel hash kita dapat memiliki tabrakan dan karena kita hanya memiliki 50
+
+05:49.390 --> 05:56.040
+spasi 50 rak di sini kita mungkin memiliki tabrakan ini dengan data yang cukup.
+
+05:56.440 --> 06:00.140
+Jadi kita akan memeriksa apakah tidak ada apa-apa di sana.
+
+06:01.170 --> 06:04.060
+Dalam hal ini saya hanya akan menambahkan data itu.
+
+06:04.110 --> 06:06.130
+Kami akan
+
+06:08.950 --> 06:15.080
+menyimpan alamat data ini akan menjadi array.
+
+06:15.170 --> 06:21.960
+Dan di ruang baru ini ruang alamat baru kita
+
+06:30.190 --> 06:36.490
+hanya akan dengan melakukan nilai push key.
+
+06:36.530 --> 06:38.420
+Jadi mari kita jalankan ini dan lihat apa yang terjadi.
+
+06:39.500 --> 06:41.810
+Dan saya punya alamat yang salah eja di sini.
+
+06:41.840 --> 06:43.360
+Mari kita jalankan lagi.
+
+06:43.430 --> 06:52.290
+Saya mendapatkan definisi tetapi mari kita lihat apa yang terjadi jika saya hanya Konsole dot mencatat data titik ini di sini.
+
+06:55.750 --> 06:57.000
+Lihat itu.
+
+06:57.610 --> 07:04.140
+Kami memiliki 23 item kosong pada item ke-24.
+
+07:04.180 --> 07:11.530
+Kami memiliki anggur 10.000 array di sini dan kemudian 26 item kosong setelah itu.
+
+07:11.570 --> 07:20.220
+Ingat kami memiliki 50 cangkang di memori kami dan kami memiliki 23 24 ditambah 26 itu 50.
+
+07:20.480 --> 07:23.330
+Kecuali anggur kami disisipkan di suatu tempat dan 50.
+
+07:23.330 --> 07:25.960
+Sepertinya 24 tempat.
+
+07:26.000 --> 07:26.730
+Sangat keren.
+
+07:27.920 --> 07:34.070
+Tetapi apa yang terjadi jika ini sudah ada.
+
+07:34.130 --> 07:42.860
+Jika saya mengubah tabel hash menjadi hanya memiliki katakanlah dua ruang memori dan saya klik jalankan di sini saya mendapatkan
+
+07:42.860 --> 07:52.790
+satu kosong dan anggur dan jika saya mengubahnya sekitar oh apakah Anda melihat bahwa jika saya mengklik lagi dan katakanlah kembali ke
+
+07:53.060 --> 07:54.380
+hanya anggur.
+
+07:54.380 --> 07:57.920
+Lihat apa yang terjadi pada tabel hash saya.
+
+07:57.920 --> 08:04.790
+Saya klik jalankan dan itu hanya menghapus entri saya sebelumnya.
+
+08:04.920 --> 08:08.150
+Kami memiliki tabrakan tetapi kami tidak melakukan apa-apa.
+
+08:08.160 --> 08:13.970
+Dan kami baru saja menghapus data kami yang mungkin sangat penting bagi data pengguna.
+
+08:13.980 --> 08:15.650
+Kami jelas tidak menginginkan itu.
+
+08:15.660 --> 08:25.900
+Jadi untuk menyelesaikannya kami hanya mengatakan jika karena kami memeriksa di sini jika tidak ada dalam ruang alamat
+
+08:25.900 --> 08:27.650
+yang melakukan ini.
+
+08:27.910 --> 08:28.570
+Kalau
+
+08:31.660 --> 08:35.250
+tidak cukup tambahkan ke array itu.
+
+08:35.590 --> 08:37.090
+Jadi kita sebenarnya
+
+08:39.910 --> 08:47.690
+bisa menjalankan perintah yang sama di sini dan cara yang lebih baik dan lebih bersih untuk melakukan ini adalah dengan benar-benar mengambil
+
+08:48.740 --> 08:54.620
+yang lain karena terlepas dari kita selalu akan mendorong kunci dan nilai kita selalu akan menambahkan
+
+08:54.830 --> 08:58.500
+kunci dan nilai yang kita atur kita tambahkan ke data.
+
+08:58.940 --> 09:05.760
+Jadi yang kita lakukan hanyalah menghapus ini sehingga ketika saya menjalankan ini.
+
+09:05.970 --> 09:08.180
+Dan supaya kita tahu apa yang terjadi.
+
+09:08.400 --> 09:14.040
+Mari kita kembalikan pemikiran bahwa saya disini saya akan lari.
+
+09:14.550 --> 09:24.140
+Dan jika kita tambahkan di sini katakanlah item lain kali ini kita akan mengatakan apel dan hanya 54 apel.
+
+09:24.140 --> 09:27.290
+Jika saya menjalankan ini, Anda melihat apa yang terjadi di sini.
+
+09:28.870 --> 09:38.410
+Jika Anda melihat lebih dekat, kami memiliki satu item kosong dan kemudian array yang berisi di dalamnya.
+
+09:38.410 --> 09:48.090
+Indeks pertama yang merupakan array dan indeks kedua yang merupakan tingkat lain karena kami baru saja mendorong ke array
+
+09:48.370 --> 09:52.950
+yang ada karena ruang memori kami hanya 2.
+
+09:53.190 --> 09:54.360
+Sangat keren.
+
+09:54.360 --> 09:56.070
+Itu tidak terlalu buruk.
+
+09:56.070 --> 09:57.060
+Ayo terus berjalan.
+
+09:57.060 --> 10:04.920
+Yang berikutnya adalah baik saya ingin ambil dapat mengambil anggur dan apel kita bisa menggunakan metode get di
+
+10:05.280 --> 10:11.030
+sini yang akan menerima kunci dan metode ini akan bekerja dengan sangat baik
+
+10:13.920 --> 10:16.230
+dengan hanya mengatakan get.
+
+10:16.270 --> 10:24.090
+Dan sementara kita ingin mengambil yang akan menjadi anggur kita akan melakukan hal yang sama persis di mana kita menjalankannya
+
+10:24.090 --> 10:30.280
+melalui kotak hitam di mana kita akan membuat atau kita akan menggunakan fungsi hash untuk
+
+10:30.280 --> 10:33.320
+mendapatkan alamat tujuan yang ingin kami tuju.
+
+10:34.150 --> 10:41.290
+Dan sekarang kami memiliki alamat tempat kami ingin mengambil informasi kami.
+
+10:41.300 --> 10:45.200
+Namun ingat bahwa kami menyimpan informasi ini dalam sebuah ember.
+
+10:45.240 --> 10:48.400
+Jadi kita punya anggur dan 10.000.
+
+10:48.600 --> 10:49.570
+Bagaimana kita meraihnya.
+
+10:49.620 --> 10:51.100
+Kami tahu di mana mendapatkannya dari sekarang.
+
+10:51.120 --> 11:00.380
+Kami memiliki alamat tetapi kami sekarang perlu untuk mengulang dan mengambil anggur dan kemudian 10.000 atau apel dan 954.
+
+11:00.660 --> 11:01.780
+Mari saya tunjukkan apa yang saya maksud.
+
+11:02.040 --> 11:07.590
+Nah pertama buat variabel mengatakan mengatakan ember saat ini.
+
+11:08.010 --> 11:13.280
+Itu hanya akan menjadi saluran data keras atau alamat hanya supaya kita tidak mengulangi diri kita sendiri.
+
+11:13.410 --> 11:20.760
+Dan kami memiliki referensi ke alamat ini atau alamat dan nilai data.
+
+11:20.760 --> 11:31.920
+Jadi ini berarti jika kita membatalkan ember saat ini dan saya menjalankan ini, Anda melihat bahwa saya memiliki ember saat ini.
+
+11:32.010 --> 11:34.140
+Meskipun ini memiliki dua item.
+
+11:34.140 --> 11:40.070
+Ingat bahwa secara teknis hanya di dalam embernya sendiri dalam satu larik.
+
+11:40.200 --> 11:47.750
+Jika kita menambah ruang memori ini menjadi katakanlah 50 kita melihat bahwa ember ini berisi anggur.
+
+11:48.150 --> 11:53.250
+Jadi kami mengambil informasi ini tetapi yang ingin kami lakukan hanyalah mengembalikan 10.000.
+
+11:53.250 --> 12:03.090
+Begitulah cara tabel hash bekerja atau fungsi hash masuk berfungsi dengan baik yang perlu kita lakukan adalah mengatakan apakah bucket
+
+12:03.090 --> 12:07.630
+saat ini dan kita akan mengatakan Dot Glenn.
+
+12:07.770 --> 12:12.090
+Itu jika ember saat ini memiliki sesuatu di dalamnya.
+
+12:12.090 --> 12:20.240
+Dalam hal ini kita akan melakukan sesuatu kalau tidak kita hanya akan kembali tidak terdefinisi karena
+
+12:20.260 --> 12:25.510
+tidak ada dalam ember Kami memeriksa apakah ini benar-benar ada.
+
+12:25.520 --> 12:32.140
+Jadi jika tidak ada dalam array jika panjangnya 0 dan arraynya kosong
+
+12:32.140 --> 12:39.160
+maka kita tidak tertarik karena sebenarnya kita bahkan tidak perlu panjang tahun karena ingat
+
+12:39.160 --> 12:50.650
+pada awalnya itu hanya akan menjadi array kosong dengan undefined dan kami menambahkan array ke setiap slot setiap kali kami mengatur sesuatu.
+
+12:50.650 --> 12:57.490
+Dan itu adalah alamat yang kosong sehingga kita bisa membiarkannya seperti itu karena jika
+
+12:57.520 --> 13:01.150
+itu tidak jelas, lewati dan kembalikan sekarang.
+
+13:01.170 --> 13:10.920
+Dan di sini kita akan melakukan for for loop karena ingat kita mungkin memiliki beberapa item dalam ember ini seperti
+
+13:10.920 --> 13:22.930
+yang kita lihat ketika kita harus ruang memori dalam hal ini izinkan saya benar-benar menunjukkan itu sehingga kita dapat melihat di jalankan dan ember saat
+
+13:24.040 --> 13:27.250
+ini terhadap kebijakan berjalan lagi .
+
+13:27.250 --> 13:36.680
+Baiklah jika kita membatalkan kotak dialog saat ini dan menjalankan ini kita melihat bahwa kita memiliki dua item dalam kotak itu.
+
+13:36.820 --> 13:46.380
+Jadi kita perlu mengulang menggunakan favorit untuk loop yang telah kita lakukan satu ton sekarang
+
+13:46.450 --> 13:50.760
+Kita akan mengatakan selama saya kurang dari ember crane.
+
+13:50.780 --> 13:58.950
+Lenth hanya selisih oleh dan di dalam sini.
+
+13:59.140 --> 14:01.480
+Ini sedikit rumit jadi semoga Anda mengikuti.
+
+14:01.480 --> 14:11.310
+Saya akan mengatakan jika ember saat ini dengan yang indeks jadi ingat akan
+
+14:11.310 --> 14:21.450
+mengatakan nol yang akan ambil ini maka yang akan ambil ini jika Khurram kembali anggur.
+
+14:21.460 --> 14:30.620
+Jadi jika saya melakukan nol di sini yang berarti ambil yang pertama dalam kasus kami es jadi itu akan
+
+14:30.620 --> 14:39.450
+menjadi nol pertama ambil array pertama ini kemudian ambil indeks nol dalam array ini yang akan menjadi anggur.
+
+14:39.630 --> 14:45.000
+Dan kemudian setelah loop di sekitar mata berikutnya adalah satu itu akan menjadi apel.
+
+14:45.330 --> 14:49.790
+Periksa itu terhadap kunci.
+
+14:49.810 --> 14:54.130
+Ingat kunci yang kami terima di sini yang kami cari.
+
+14:54.160 --> 15:05.620
+Jadi jika anggur yang merupakan kunci cocok dengan item ini dalam kasus itu baru saja mengembalikan saku dasi dan
+
+15:06.100 --> 15:11.180
+satu karena kami ingin mengembalikan sepuluh ribu.
+
+15:11.410 --> 15:20.090
+Semoga Anda jatuh di sini karena jika saya menjalankan ini saya mendapat sepuluh ribu anggur mendapat 10.000.
+
+15:20.260 --> 15:24.970
+Jika saya terjadi di sini, itu adalah 54.
+
+15:24.980 --> 15:26.670
+Betapa kerennya itu.
+
+15:26.780 --> 15:34.040
+Dan melihat ini saya harap Anda mengerti pada tingkat yang lebih dalam implikasi kompleksitas waktu dari
+
+15:34.040 --> 15:40.090
+tabel hash meskipun kita sedang melakukan loop di sini dalam fungsi hash.
+
+15:40.190 --> 15:43.330
+Ingat bahwa fungsi hash sangat cepat.
+
+15:43.520 --> 15:48.210
+Kami hanya memutar kunci sehingga kami tidak menganggap ini sebagai acara semua.
+
+15:48.410 --> 15:49.870
+Ini sangat cepat.
+
+15:49.880 --> 15:55.560
+Itu salah satunya ketika kita mengatur sesuatu tidak ada loop di sini.
+
+15:55.560 --> 15:57.960
+Kami hanya menambahkannya ke data kami.
+
+15:58.170 --> 16:00.090
+Kami hanya mendorongnya.
+
+16:00.190 --> 16:02.890
+Jadi itu satu.
+
+16:03.120 --> 16:17.310
+Dan jika kita pergi untuk mendapatkan sebagian besar waktu jika tidak ada tabrakan itu akan menjadi 0 0 1 dan dalam kehidupan nyata sebagian besar waktu Anda dapat
+
+16:17.370 --> 16:20.160
+mempertimbangkan bahwa itu adalah satu.
+
+16:20.400 --> 16:27.840
+Tetapi dalam contoh kita yang benar-benar buruk dengan hanya dua ruang memori dan bukan fungsi hash yang sangat
+
+16:27.840 --> 16:29.720
+baik, ini bisa berakhir.
+
+16:31.580 --> 16:36.650
+Tetapi untuk sekarang karena kita adalah programmer yang baik yang tidak akan terjadi dengan benar.
+
+16:36.770 --> 16:38.180
+Semuanya akan baik-baik saja.
+
+16:38.210 --> 16:42.180
+Kami punya 0 dari 1 get.
+
+16:42.380 --> 16:52.050
+Kami memiliki for loop di sini yang mungkin membuat daftar yang kami lihat dalam contoh kami melihat daftar ini yang kami miliki di
+
+16:52.050 --> 16:52.580
+sini.
+
+16:52.620 --> 16:55.230
+Inilah sebabnya kami menciptakan dan itu semua.
+
+16:55.230 --> 17:01.260
+Dan jika daftar ini terus berjalan dan terus tumbuh dan terus bertambah.
+
+17:01.330 --> 17:07.360
+Tetapi ada satu metode lain yang saya ingin kami bangun dan tunjukkan kepada Anda.
+
+17:07.360 --> 17:17.940
+Satu kelemahan lain dari tabel hash Bagaimana jika kita ingin melihat semua kunci dari tabel hash bagaimana kita
+
+17:17.940 --> 17:18.760
+melakukannya.
+
+17:19.680 --> 17:21.660
+Kami akan mencoba dan menerapkannya di video berikutnya.

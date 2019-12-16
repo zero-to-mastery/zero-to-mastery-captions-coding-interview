@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.490 --> 00:01.900
+Akan kembali.
+
+00:02.020 --> 00:03.730
+Bagaimana yang Anda lakukan dalam latihan itu.
+
+00:04.530 --> 00:06.180
+Mari kita lihat solusinya.
+
+00:06.880 --> 00:09.700
+Mari kita mulai dengan tumpukan.
+
+00:09.760 --> 00:14.770
+Saya mengatakan bahwa dengan tumpukan mereka dapat diimplementasikan menggunakan array atau daftar tertaut.
+
+00:14.770 --> 00:20.560
+Dalam hal ini, baik array dan daftar panjang akan bekerja dengan cukup baik pada akhirnya.
+
+00:20.560 --> 00:24.670
+Itu tergantung pada mengapa Anda lebih suka dan mengapa prioritas Anda.
+
+00:24.670 --> 00:30.820
+Dan pada titik ini Anda harus memahami pro dan kontra dari array dan pro dan kontra dari daftar terkait.
+
+00:31.000 --> 00:35.420
+Jadi kita tidak perlu membahas banyak detail karena kita sudah membicarakannya sebelumnya.
+
+00:35.560 --> 00:42.970
+Tetapi satu hal utama adalah bahwa array memungkinkan sesuatu yang disebut cache locality yang membuat mereka secara
+
+00:42.970 --> 00:50.050
+teknis lebih cepat ketika mengakses item-itemnya dalam memori karena mereka berada tepat di sebelah satu sama
+
+00:50.470 --> 00:58.450
+lain versus daftar tertaut yang tersebar di seluruh memori dan juga daftar yang terhubung memiliki memori tambahan terkait dengan
+
+00:58.450 --> 01:01.990
+mereka karena kita harus berpegang pada petunjuk itu.
+
+01:01.990 --> 01:06.360
+Tetapi di sisi lain mereka memiliki memori yang lebih dinamis.
+
+01:06.370 --> 01:07.180
+Kanan.
+
+01:07.420 --> 01:14.890
+Dan kita dapat terus menambahkan hal-hal ke daftar versus array di mana Anda memiliki array statis atau array dinamis
+
+01:14.890 --> 01:17.050
+yang memiliki jumlah memori tertentu.
+
+01:17.050 --> 01:22.900
+Dan segera setelah mencapai batasnya, ia harus menggandakan memori mereka dan menciptakan ruang baru untuk
+
+01:23.010 --> 01:25.590
+itu di suatu tempat di memori.
+
+01:25.630 --> 01:31.960
+Jadi, Anda harus memikirkan operasi seperti apa yang akan Anda lakukan dan mengapa prioritas Anda adalah memutuskan mana
+
+01:31.960 --> 01:33.340
+yang Anda inginkan.
+
+01:33.370 --> 01:40.130
+Tapi keduanya bisa bekerja dan kita akan membangun struktur data tumpukan dengan keduanya akan muncul.
+
+01:41.310 --> 01:45.190
+Isyarat di sisi lain adalah jawaban yang sangat sederhana.
+
+01:45.300 --> 01:49.650
+Anda tidak akan pernah ingin membangunnya dengan array atau jika Anda melakukannya.
+
+01:49.810 --> 01:55.710
+Meskipun itu belum tentu ide yang baik dan idealnya Anda ingin menerapkannya dengan daftar tertaut.
+
+01:55.710 --> 02:02.300
+Mengapa begitu baik jika Anda ingat array memiliki indeks yang terkait dengannya.
+
+02:02.310 --> 02:05.190
+Jadi jika kita marah di sini maka kita memiliki sukacita.
+
+02:05.490 --> 02:06.980
+Lalu kita memiliki sumir.
+
+02:07.200 --> 02:10.750
+Lalu kita memiliki Pavel yang ada di.
+
+02:10.750 --> 02:19.020
+T Jika ini dalam struktur data array dan Matt adalah yang pertama dalam baris dan kita
+
+02:19.020 --> 02:29.370
+perlu menghapus Matt dari antrian Nah setelah kita menghapus Matt kita sekarang perlu menggeser indeks sehingga kita harus pergi satu
+
+02:29.490 --> 02:34.950
+per satu dan berkata Baiklah Sukacita sekarang ada di sini.
+
+02:37.300 --> 02:42.610
+Indeks zero sumir adalah indeks 1 dan Pavel adalah indeks 2.
+
+02:42.720 --> 02:45.060
+Dan tidak ada indeks 3.
+
+02:45.120 --> 02:47.120
+Kami hanya menggeser mereka untuk balapan.
+
+02:47.130 --> 02:57.270
+Ini adalah O dari waktu linier operasi versus sesuatu seperti daftar tertaut di mana semua yang kita miliki adalah pointer
+
+02:57.330 --> 03:06.550
+ke kepala dan kemudian mungkin kita memiliki pointer ke ekor dan yang perlu kita lakukan hanyalah mengatakan head.
+
+03:06.780 --> 03:15.980
+Yah Matt kami ingin menghapus Matt dan sukacita akan menjadi kepala dan tidak ada yang berubah.
+
+03:16.730 --> 03:19.860
+Dan itu semua adalah satu operasi atau Constantine yang konstan.
+
+03:20.330 --> 03:24.450
+Saya harap Anda bisa mendapatkan jawabannya kalau tidak setidaknya sekarang Anda tahu.
+
+03:24.470 --> 03:29.660
+Dan ini adalah pertanyaan wawancara yang sangat umum yang mungkin Anda tanyakan, semoga Anda punya
+
+03:29.660 --> 03:32.090
+jawaban untuk saat ini tetapi cukup berbicara.
+
+03:32.160 --> 03:35.590
+Saya pikir ini saatnya bagi kita untuk membangun struktur data ini dari bawah ke atas.
+
+03:36.410 --> 03:38.390
+Saya akan melihat di video berikutnya Buh-Bye.

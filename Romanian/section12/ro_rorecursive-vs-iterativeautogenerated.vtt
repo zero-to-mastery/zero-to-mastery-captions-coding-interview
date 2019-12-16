@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.510 --> 00:11.110
+Bine ați venit înapoi există o teoremă care afirmă că orice poate fi implementat recursiv poate fi pus în aplicare
+
+00:11.630 --> 00:20.370
+interactiv, adică puteți să vă duceți întreaga viață fără a implementa funcții recursive și pur și simplu utilizați
+
+00:20.610 --> 00:21.450
+bucle.
+
+00:21.880 --> 00:22.420
+O.K.
+
+00:22.620 --> 00:29.650
+Deci, de ce am vrea vreodată să vă confundăm cu un subiect ca recursiunea care poate fi puțin confuză.
+
+00:30.870 --> 00:37.550
+Ei bine, pentru unele probleme este de fapt mai ușor de scris, dar într-adevăr depinde de situație.
+
+00:37.560 --> 00:40.990
+Rețineți că există întotdeauna două opțiuni.
+
+00:41.100 --> 00:48.300
+Și până acum știți că prin programare există mereu argumente pro și contra și un bun inginer este cineva
+
+00:48.300 --> 00:52.770
+care poate lua deciziile corecte pe baza argumentelor pro și contra.
+
+00:52.940 --> 01:00.680
+Dar am vrut să păstrez acest lucru în minte pentru interviuri, deoarece intervievatorii vă vor cere să rezolvați o problemă și
+
+01:00.740 --> 01:06.730
+o problemă care poate fi rezolvată cu recursivitate poate fi, de obicei, rezolvată și intuitiv.
+
+01:09.770 --> 01:20.160
+Și dacă ne uităm la funcția noastră Fibonacci, acesta este un exemplu mai simplu de recursiune, dar există momente în
+
+01:20.370 --> 01:24.330
+care recursiunea vă poate menține codul uscat.
+
+01:24.330 --> 01:26.360
+Asta nu repeta-te.
+
+01:26.430 --> 01:34.340
+O regulă mare atunci când vine vorba de programare și există multe probleme când vine vorba de recursivitate, deoarece devine
+
+01:34.340 --> 01:42.200
+mai greu și mai greu atunci când se utilizează funcții recursive permit codul dvs. să fie mai ușor de citit
+
+01:42.210 --> 01:48.050
+și, de asemenea, uscat mai simplu au mai puține bucle întâmplate cu codul confuz.
+
+01:48.540 --> 01:55.800
+Și eu sunt puțin părtinitoare pentru că, deși recursiunea este o tehnică puternică în opinia mea, nu este întotdeauna
+
+01:55.860 --> 01:57.670
+cea mai bună abordare.
+
+01:57.780 --> 02:07.560
+Deci, trebuie să vă asigurați că din cauza sau principalul său dezavantaj, care este deși recursul poate păstra codul uscat și pentru a
+
+02:07.650 --> 02:14.750
+face codul dvs. mai ușor de citit, de asemenea, creează această amprentă de memorie suplimentară.
+
+02:16.020 --> 02:23.190
+Deoarece de fiecare dată când adăugăm o funcție în stiva de apel, se adaugă o memorie suplimentară.
+
+02:23.430 --> 02:31.020
+Deci, aveți cazuri în care puteți obține o suprapunere de stive sau dacă sistemul dvs. are o memorie costisitoare pe
+
+02:31.020 --> 02:38.060
+care doriți să evitați să faceți prea multe apeluri recursive, iar pentru unele persoane recursiunea este, de asemenea, ceva
+
+02:38.060 --> 02:39.460
+greu de împrăștiat.
+
+02:39.500 --> 02:45.470
+Și dacă avem o echipă de tineri ingineri de dezvoltatori care sunt familiarizați cu recursiunea, care nu ar fi
+
+02:45.470 --> 02:46.870
+cea mai bună opțiune.
+
+02:47.880 --> 02:52.770
+Dar principalul dezavantaj este faptul că abordările iterative tind să fie mai eficiente
+
+02:52.770 --> 03:00.510
+deoarece nu fac aceste apeluri suplimentare de funcții care să ia spațiul stivă cu dezavantajul fiind că soluțiile iterative ar putea
+
+03:00.510 --> 03:08.790
+să nu fie la fel de citibile și regula pe care îmi place să o urmez este că îmi place să folosesc recursivitatea
+
+03:09.250 --> 03:14.410
+atunci când lucrați cu structuri de date că nu sunteți siguri cât de adânc
+
+03:14.410 --> 03:17.520
+sunt unde nu știți câte bucle să treacă.
+
+03:17.650 --> 03:24.370
+Și, după cum veți vedea, recursul este cu adevărat util pentru lucruri precum structurile de date ale copacilor și traversarea,
+
+03:24.370 --> 03:26.670
+deoarece acest lucru este adesea cazul.
+
+03:27.770 --> 03:34.520
+Acum, în următorul videoclip, vreau să vorbesc despre acest subiect puțin mai adânc și când să folosesc recursivitatea.
+
+03:34.640 --> 03:37.500
+Dar vreau să arăt un lucru rapid.
+
+03:38.380 --> 03:43.210
+Există ceva numit optimizarea apelului coadă în multe limbi.
+
+03:43.220 --> 03:51.510
+Și, de exemplu, în Javascript cu 6, permite recurgerii să fie apelată fără a mări stiva de apeluri.
+
+03:51.560 --> 03:57.940
+Puteți citi mai multe despre aceasta în resursele care vă sunt oferite în acest videoclip, dar și în alte
+
+03:57.940 --> 03:58.500
+limbi.
+
+03:58.510 --> 04:03.770
+Există anumite moduri de a scrie recursivitatea. Deci, există mai multă memorie eficientă.
+
+04:03.940 --> 04:12.600
+Deci, această problemă cu stack mare poate fi rezolvată în timpul producției, dar să vorbim despre un ghid definitiv când să
+
+04:12.600 --> 04:15.070
+folosiți recursul în următorul videoclip.

@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.280 --> 00:02.150
+Welcome back.
+
+00:02.330 --> 00:09.440
+Let's look at the first of the two types of searching or traversing a tree or a graph.
+
+00:09.530 --> 00:12.800
+It's called breadth first search.
+
+00:12.800 --> 00:14.770
+Try saying that five times really fast.
+
+00:15.840 --> 00:22.950
+The way breadth first search works is that you start with the root note and move left to right across
+
+00:23.010 --> 00:28.630
+the second level then move left to right across the third level.
+
+00:29.520 --> 00:32.640
+And so on and so forth.
+
+00:33.320 --> 00:43.430
+You just keep going from left to right left to right level by level and you keep going until you find
+
+00:43.430 --> 00:52.310
+the know you're looking for or the tree and let's have a look at another visual breadth first search
+
+00:52.340 --> 00:53.520
+works like this.
+
+00:53.570 --> 00:57.000
+We go to the root node.
+
+00:57.190 --> 01:02.370
+Then the second level the third level and then finally the fourth level you can see here how they're
+
+01:02.380 --> 01:07.280
+numbered going one by one One by one.
+
+01:07.290 --> 01:10.950
+Now we're going to code breath first search and understand how it works.
+
+01:11.010 --> 01:17.940
+But I want to mention that breath first search uses additional memory because it is necessary to track
+
+01:17.970 --> 01:24.340
+the child notes of all the nodes on a given level while searching that level.
+
+01:24.360 --> 01:30.240
+This means that we need to track every node and its children in order and we're going to talk about
+
+01:30.240 --> 01:35.760
+some of those implications when we code breath for search and also look at the pros and cons compared
+
+01:35.760 --> 01:38.610
+to the other kind that first.
+
+01:38.820 --> 01:41.470
+But let's go to our code for a quick example.
+
+01:42.920 --> 01:52.160
+We have here the tree that we created in our tree data structure section a binary search tree that creates
+
+01:52.160 --> 02:01.050
+a tree for us that looks like this Ninus a root node have four and twenty one six fifteen and 170.
+
+02:01.240 --> 02:08.290
+If we did breadth first search what would you think the order would be if we wanted to convert that
+
+02:08.290 --> 02:13.670
+into a list while we'd first visit nine.
+
+02:13.770 --> 02:20.880
+Then we'd visit the second level for then 20 and then we visit the third level again going from left
+
+02:21.030 --> 02:21.720
+to right.
+
+02:21.780 --> 02:34.860
+We'd visit one then 6 then 15 then 170 and using breadth first search we're able to create this list.
+
+02:34.870 --> 02:43.550
+Let's have a look at the second way of traversing a tree or a graph and that is depth first search.
+
+02:43.660 --> 02:44.150
+Let's have a look.

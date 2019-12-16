@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.050 --> 00:02.080
+Welcome back.
+
+00:02.220 --> 00:05.980
+How much did you hate me after doing this challenge.
+
+00:06.030 --> 00:13.080
+Now this was specifically supposed to be hard and difficult and frustrating and most likely you're not
+
+00:13.080 --> 00:14.990
+going to get it right the first time around.
+
+00:15.240 --> 00:18.260
+This was done on purpose to illustrate a point.
+
+00:18.300 --> 00:20.340
+What we're actually doing here.
+
+00:20.460 --> 00:23.300
+Well you won't be asked to do in an interview.
+
+00:23.430 --> 00:29.010
+But I wanted to show you how to think about things because later on I'll show you how it's actually
+
+00:29.010 --> 00:37.070
+a lot simpler than thinking about each individual step and a function to calculate things.
+
+00:37.110 --> 00:42.850
+There's not much math involved and this is as mathy as we're going to get in this course.
+
+00:42.960 --> 00:48.810
+But again I just want to show you the nitty gritty details so that you can think about it and have a
+
+00:48.810 --> 00:53.800
+nice foundation so that moving forward we can simplify things a lot better.
+
+00:54.920 --> 00:56.930
+Now let's look at this function.
+
+00:57.040 --> 01:01.780
+It's a fun challenge function that takes some sort of an input.
+
+01:01.850 --> 01:08.120
+The very first thing is within this function when we run the fun challenge let's just say Well have
+
+01:08.450 --> 01:15.170
+fun challenge and we run this function and the input doesn't really matter.
+
+01:15.200 --> 01:22.580
+It could be an array could be an object for knowledge just keep things simple say it's an array of five.
+
+01:22.820 --> 01:28.440
+Now where we run this function the first thing we're going to do is an assignment.
+
+01:28.700 --> 01:36.180
+We're going to assign variable A as 10 now based on convention.
+
+01:36.470 --> 01:42.770
+And this is why you won't encounter this in an interview because a lot of people interpret this differently.
+
+01:42.770 --> 01:46.400
+Some people say that assignment you shouldn't count towards big-O.
+
+01:46.700 --> 01:48.830
+And some people say that you should.
+
+01:48.830 --> 01:53.710
+In our case just to simplify things let's count every single step and what the function is doing.
+
+01:54.080 --> 02:02.480
+Let a 10 is just 0 of 1 because this is only running once when we run.
+
+02:02.480 --> 02:03.230
+Fun challenge.
+
+02:03.230 --> 02:03.770
+That's it.
+
+02:03.790 --> 02:06.240
+It doesn't matter how big the input is.
+
+02:06.260 --> 02:12.850
+This just runs once and then 50 plus three we're re-assigning A.
+
+02:13.130 --> 02:18.900
+This once again is of one.
+
+02:19.060 --> 02:21.660
+And then we get into a loop.
+
+02:21.790 --> 02:29.200
+We know that with the loop it looks like we're looking at the length of the input and looping over depending
+
+02:29.200 --> 02:31.360
+on whatever the input is.
+
+02:31.360 --> 02:40.860
+In our case this is going to be an O of an Let's add that comment over here and this again is the input.
+
+02:40.900 --> 02:45.550
+Remember that I can change just two inputs I can change just 2 X it doesn't really matter.
+
+02:45.550 --> 02:50.020
+It just reflects how big the input is that's how long this for loops going to take.
+
+02:50.200 --> 02:59.490
+And we know this by now that loops are linear time and then within here another function we don't know
+
+02:59.490 --> 03:05.790
+what this function is but it's calling to another function outside of the fun challenge function.
+
+03:05.790 --> 03:08.630
+This is also being called how many times.
+
+03:08.880 --> 03:12.320
+Well it depends on how big our input is.
+
+03:12.330 --> 03:15.950
+So once again it's of an.
+
+03:16.130 --> 03:17.630
+What about this.
+
+03:17.680 --> 03:24.540
+Let variable stranger equal to true began another random assignment here.
+
+03:24.930 --> 03:32.430
+But this runs as many times as this loop happens if input was 5 this old run five times.
+
+03:32.430 --> 03:41.260
+So again this would be an and then over here we have a plus plus which in javascript's simply means
+
+03:41.260 --> 03:43.800
+a plus one.
+
+03:43.870 --> 03:48.090
+So we're just incrementing the whatever the number is at this time.
+
+03:48.130 --> 03:58.680
+So 53 will become 54 and then as we loop through it Ill keep increasing by 1 54 55 56.
+
+03:59.000 --> 04:01.990
+This once again runs 0 of end times.
+
+04:02.000 --> 04:08.230
+It depends how many times there Brunt's buy the input because again we're looping through.
+
+04:08.330 --> 04:10.960
+And then finally another thing that some people don't count.
+
+04:10.970 --> 04:15.670
+But just to keep it consistent every single step that we do return.
+
+04:15.800 --> 04:21.180
+This runs just once every time fun challenge gets wrong.
+
+04:21.470 --> 04:25.630
+The return statement only runs once.
+
+04:25.680 --> 04:26.370
+All right.
+
+04:26.370 --> 04:29.280
+So we have all these Big O notation.
+
+04:29.280 --> 04:34.160
+And now we're starting to think about how a function runs and how efficient a function is.
+
+04:34.410 --> 04:41.750
+If we actually calculate all of this if we total all this up we see that we have 1 2 3.
+
+04:41.820 --> 04:51.040
+So we have three steps plus of one of an oven oven.
+
+04:51.110 --> 05:02.710
+So that means we have an plus and plus And so that means that we are running the calculation.
+
+05:02.970 --> 05:07.360
+And plus and plus and plus then which turns out to be four.
+
+05:07.430 --> 05:19.300
+And so three plus four and is our Big O notation there it is like I said before when it comes to big.
+
+05:19.330 --> 05:22.740
+Oh don't get too hung up on.
+
+05:22.900 --> 05:23.970
+Did I get this right.
+
+05:24.010 --> 05:30.850
+Because in an interview you're not going to need to know this but you are able to now think about how
+
+05:30.850 --> 05:34.890
+a function runs more deeply than just simply writing the code.
+
+05:35.440 --> 05:42.130
+As we progressed through the videos you're going to find out that this actually at the end of the day
+
+05:42.310 --> 05:49.370
+gets simplified to just o of an and we're going to go through that and why that is.

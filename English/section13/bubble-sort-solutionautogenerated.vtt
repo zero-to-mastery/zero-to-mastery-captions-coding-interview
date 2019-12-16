@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.700 --> 00:01.530
+Welcome back.
+
+00:01.720 --> 00:04.890
+Let's code our own bubble sort algorithm.
+
+00:04.930 --> 00:13.700
+I'm going to create a function called Bubble sort that's going to take in an array and I have an array
+
+00:13.700 --> 00:16.910
+up here for us of these numbers.
+
+00:17.230 --> 00:23.290
+And ideally when we enter this array into this function it spits out a sorted array.
+
+00:24.280 --> 00:31.510
+And based on the animation that we saw we ideally start from the beginning compare first and second
+
+00:31.510 --> 00:34.270
+item swap out the items.
+
+00:34.300 --> 00:40.690
+If the left one is larger than the right and keep going keep going keep going until the largest item
+
+00:41.380 --> 00:46.370
+ends up in the last index and then we loop over things again.
+
+00:46.630 --> 00:51.850
+The first thing I want to do is say that I'll just create a variable so I don't have to keep repeating
+
+00:51.850 --> 01:00.670
+myself all get array dot lengthier shall be the length of this item which should be 10 I believe 1 2
+
+01:00.670 --> 01:03.800
+3 4 5 6 7 8 9 10.
+
+01:03.820 --> 01:04.690
+You love it.
+
+01:04.720 --> 01:12.430
+Never mind to learn and in here we'll do a for loop and we'll say let I.
+
+01:12.720 --> 01:16.110
+The cost is 0 which will be the first index of the array.
+
+01:17.910 --> 01:22.070
+I is less than lenth.
+
+01:22.340 --> 01:26.890
+Plus plus and within here we grab the first item.
+
+01:27.010 --> 01:33.220
+We now want to compare it to 44 and so on and so forth we should know this by now.
+
+01:33.610 --> 01:36.530
+We want to add another for loop J.
+
+01:36.700 --> 01:39.760
+It's going to be called 0.
+
+01:39.960 --> 01:56.650
+J is going to be less than lenth and we'll say J plus plus now in here we'll say that if our RE J card
+
+01:56.720 --> 01:57.720
+index of 0.
+
+01:57.800 --> 02:05.300
+So that is ninety nine is greater than Auray J plus 1.
+
+02:05.330 --> 02:06.920
+That is 44.
+
+02:06.920 --> 02:13.140
+So if ninety nine is greater than 44 in the first loop we'll say
+
+02:16.600 --> 02:17.720
+swapped numbers.
+
+02:19.630 --> 02:29.740
+So we can simply do that by saying creating a temporary variable that holds array a J which the first
+
+02:29.740 --> 02:39.450
+pass will be ninety nine and give the first index of 0 to Array.
+
+02:40.570 --> 02:48.920
+J plus 44 or plus 1 which is 44 and 99.
+
+02:48.920 --> 02:50.740
+Now goes into the second index.
+
+02:50.760 --> 02:58.990
+So that means Ray J plus 1 is going to equal a ray j.
+
+03:00.900 --> 03:03.600
+You might need to pause the video to really understand this.
+
+03:03.720 --> 03:05.580
+But all we're doing is just swapping numbers.
+
+03:05.580 --> 03:16.080
+If the left hand side is bigger than the right hand side and once that is done we increment J to 1 so
+
+03:16.080 --> 03:23.700
+that we compare index of 1 and 2 and then we compare index of 2 and 3 3 and 4 4 or 5 until we bubble
+
+03:23.700 --> 03:24.530
+things up.
+
+03:24.630 --> 03:33.040
+And then we go to the top and compared the items again and the out are for the let's see if this works.
+
+03:33.560 --> 03:36.740
+Oh and I just realized this.
+
+03:36.840 --> 03:37.580
+J.
+
+03:39.230 --> 03:41.780
+Should be Tampere.
+
+03:41.930 --> 03:44.080
+So remember ninety nine.
+
+03:44.150 --> 03:52.710
+We placed it into a temporary variable and assigning it to the index to the right so we round bubble
+
+03:52.710 --> 03:53.250
+sort.
+
+03:53.250 --> 04:04.710
+Now we'll say numbers and we'll console log numbers to see if it's sorted if I hit Ron.
+
+04:05.320 --> 04:07.700
+Causal log numbers make sure I can spell.
+
+04:07.780 --> 04:13.470
+Let's say I run I look at the our list is now sorted.
+
+04:14.460 --> 04:18.120
+That was bubble sort.
+
+04:18.240 --> 04:26.600
+And as you can hear we have two nested for loops giving us all of the end square but we're not really
+
+04:26.600 --> 04:33.060
+holding variables to another data structure or holding the numbers into other data structures.
+
+04:33.110 --> 04:43.280
+So the space complexity is all of one as we can see in our big-O Chichi bubble sort is probably not
+
+04:43.280 --> 04:48.640
+the best algorithm although it has good space complexity.
+
+04:48.790 --> 04:53.880
+You can use the code that Alief for you and this lesson to play around with.
+
+04:54.060 --> 04:57.930
+But for now let's go on to our next sorting algorithm.
+
+04:57.930 --> 05:02.050
+Congratulations you've just completed your first sorting algorithm.
+
+05:02.070 --> 05:03.710
+But we have more to go.
+
+05:03.780 --> 05:05.770
+So let's go to the next one.

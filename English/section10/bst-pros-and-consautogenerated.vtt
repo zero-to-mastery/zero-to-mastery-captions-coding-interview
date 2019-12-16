@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.410 --> 00:07.580
+Walk them back before we code our own binary search tree let's just go over the performance implications
+
+00:07.730 --> 00:11.310
+and why we might want to use it over other data structures.
+
+00:11.440 --> 00:16.430
+Its strengths are that it has really good performance across the board.
+
+00:16.490 --> 00:22.590
+You saw that most operations or all operations in a binary search tree are better than 0.
+
+00:22.640 --> 00:27.620
+Event assuming that the binary search tree is ballsed.
+
+00:27.730 --> 00:36.690
+It is also ordered and because we can place the node anywhere in memory we can just have flexible size.
+
+00:36.690 --> 00:40.070
+We can keep growing our tree.
+
+00:40.080 --> 00:46.460
+The downside is that as you may have noticed it has no 0 1 operation.
+
+00:46.590 --> 00:53.770
+We usually have to do some sort of traversal through the tree for any sort of operation so compared
+
+00:53.770 --> 01:02.080
+to an array a look up for example will be a lot faster because we have all log n for searches vs. if
+
+01:02.080 --> 01:09.480
+we iterate through an entire array if the array is unsorted inserts and deletes are also faster the
+
+01:09.480 --> 01:12.920
+narrower array unless the array is adding to the end.
+
+01:12.970 --> 01:18.790
+Otherwise arrays have to shift all the indexes vs a binary search tree.
+
+01:18.790 --> 01:23.350
+That is just 0 of log in what about compared to hash tables.
+
+01:23.540 --> 01:32.030
+Well although hash tables allow us to insert and search at constant time with binary search trees we
+
+01:32.030 --> 01:40.490
+have sorted data and we also have this structure of parent child relationship that you won't be able
+
+01:40.490 --> 01:47.300
+to get to much with hash tables a good thing to keep in mind is that binary search trees aren't the
+
+01:47.300 --> 01:50.240
+fastest for anything.
+
+01:50.280 --> 01:57.420
+Remember their operations are usually always 0 of log and on average an array or an object will have
+
+01:57.420 --> 01:59.040
+faster operation.
+
+01:59.310 --> 02:07.520
+But there are certain conditions where they do perform objects and arrays so binary search trees do
+
+02:07.520 --> 02:08.950
+perform really well.
+
+02:09.140 --> 02:14.780
+As long as you make sure that you stay away from the cases that we discussed and we balance our binary
+
+02:14.780 --> 02:22.620
+search tree but enough talk enough slides I think to fully grasp and understand how trees work.
+
+02:22.620 --> 02:23.860
+We should code our own.
+
+02:24.240 --> 02:25.930
+I'll see in the next one.

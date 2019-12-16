@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.860 --> 00:09.250
+Witamy ponownie, zaimplementujmy głębokie pierwsze wyszukiwanie, używając do zamówienia w przedsprzedaży i porządku pocztowego,
+
+00:09.250 --> 00:12.700
+a my zaczniemy od zamówienia.
+
+00:12.700 --> 00:21.560
+Najpierw, nazwijmy to, nazwijmy to najpierw głębią.
+
+00:22.740 --> 00:28.490
+Przejrzyj lub wyszukaj w tym przypadku, a powiemy w odpowiedniej kolejności.
+
+00:28.760 --> 00:35.570
+Teraz tutaj użyjemy rekursji, ponieważ przez większość czasu def pierwsze wyszukiwanie jest realizowane za
+
+00:35.600 --> 00:39.190
+pomocą rekursji, ponieważ jest to całkiem proste.
+
+00:39.230 --> 00:45.900
+Jak zobaczysz, ale pamiętaj, że od wdrożenia pierwszego wyszukiwania z rekurencją, ponieważ będziemy wywoływać
+
+00:45.900 --> 00:48.030
+tę funkcję w kółko.
+
+00:48.030 --> 00:52.690
+Nie możemy po prostu zadeklarować w nim zmiennych, ponieważ zostaną one zresetowane.
+
+00:52.800 --> 00:59.870
+Więc zrobimy to samo, co my tutaj, ale po to, aby zachować porządek i pokazujemy,
+
+00:59.990 --> 01:06.300
+jak różne uporządkowane def wyszukiwania działają, ponieważ będziemy mieć trzy z nich.
+
+01:06.560 --> 01:17.370
+Będziemy mieć porządek posprzedażowy i zamówienie wstępne. Zamierzam tutaj utworzyć trzy osobne
+
+01:17.370 --> 01:20.500
+funkcje, opisując je.
+
+01:20.520 --> 01:29.240
+Więc wszystko, co powiem tutaj, to powrót do funkcji kolejności wstecz.
+
+01:29.340 --> 01:40.220
+Będzie to nasza funkcja rekurencyjna, a DFS w metodzie porządkowej po prostu zwraca to, co daje nam ten wynik.
+
+01:40.530 --> 01:44.130
+W naszym przypadku dodamy tę trasę Daut.
+
+01:44.130 --> 01:52.780
+Zacznij od naszego głównego węzła, a my mamy zamiar nadać mu listę lub nasze odpowiedzi zostaną wprowadzone,
+
+01:52.780 --> 02:00.420
+a my zrobimy to samo dla porządku po zamówieniu i przedsprzedaż po prostu nazywanie ich.
+
+02:00.700 --> 02:05.530
+Istnieją odpowiednie sposoby.
+
+02:05.640 --> 02:08.910
+Napiszmy więc pierwszą funkcję Cerveris.
+
+02:09.060 --> 02:14.350
+Jeśli potrafię przeliterować kolejność po zamówieniu i zamówić wcześniej.
+
+02:14.640 --> 02:16.280
+Zacznijmy od pierwszego.
+
+02:16.500 --> 02:21.920
+Będzie to funkcja o nazwie trawers, którą stworzyliśmy powyżej.
+
+02:21.960 --> 02:30.810
+To dostanie węzeł i jakieś dane lub możemy je nazwać listą.
+
+02:30.830 --> 02:40.410
+W tym przypadku pamiętajmy, że jeśli chcemy spojrzeć na nasze drzewo, najlepiej będzie mieć 1 4
+
+02:41.100 --> 02:49.390
+6 9 15 20 170, abyśmy uporządkowali listę węzłów w porządku posortowanym.
+
+02:49.830 --> 02:57.510
+I sposób, w jaki to robimy, to przede wszystkim sprawdzanie, czy węzeł ma lewy
+
+02:57.540 --> 02:58.690
+rąbek.
+
+02:58.950 --> 03:09.340
+Jeśli ma się dobrze, idziemy do wersetu kościelnego całą drogę w dół, używając rekursji do węzła kropka
+
+03:10.560 --> 03:14.890
+roześmiał się i ponownie przekazał dane.
+
+03:14.950 --> 03:22.340
+Wiem, że rekurencja może być trudna do uchwycenia na początku, ale wszystko, co mówimy tutaj, to to, że
+
+03:22.340 --> 03:31.380
+jeśli węzeł, szczególnie węzeł główny, kiedy po raz pierwszy zaczynamy od niego, jeśli ma lewe dziecko, które 9, następnie przemierza całą drogę
+
+03:31.380 --> 03:38.790
+w dół, idzie dalej w lewo zadzwoni do tej funkcji i będzie jechać dalej, aż węzeł nie będzie miał
+
+03:38.820 --> 03:44.170
+więcej dzieci, a skończy się na jednym, kiedy skończy się na 1.
+
+03:44.190 --> 03:52.840
+Chcę dobrze ostatnią kropkę popchnąć wartość naszego węzła odpowiedzi.
+
+03:52.980 --> 04:00.930
+Tak więc, gdy nie ma już węzła, to gdzie w jednej rzeczy przechodzimy do następnego kroku, którym
+
+04:00.930 --> 04:04.090
+jest przesunięcie tej wartości do listy.
+
+04:04.110 --> 04:08.910
+Potem zrobimy to samo, co zrobiliśmy tutaj po prawej stronie.
+
+04:09.270 --> 04:15.450
+Chcemy sprawdzić to teraz i powiedzieć, że idziemy całą drogę w prawo, dopóki nie będzie
+
+04:15.450 --> 04:16.600
+już dzieci.
+
+04:17.690 --> 04:26.450
+A teraz mamy sześć i ponownie wykonujemy tę funkcję, gdy mamy sześć.
+
+04:26.600 --> 04:37.490
+Nie ma lewego dziecka, a ono popchnie bieżącą wartość węzła, która wynosi 6 po prawej, więc naprawdę
+
+04:37.550 --> 04:39.250
+spiszmy to.
+
+04:39.530 --> 04:41.440
+A tak przy okazji, chcemy wrócić.
+
+04:41.480 --> 04:45.920
+Pamiętaj, że chcemy zwrócić listę na końcu.
+
+04:46.160 --> 04:56.010
+Tak więc zamierzam pocieszyć węzeł log dot thali, a jeśli kliknę tutaj, albo upewnijmy się, że to
+
+04:56.060 --> 04:57.840
+działa, zamierzam
+
+05:01.110 --> 05:13.030
+powiedzieć Traverse, że zamierzam skomentować te dwa i powiedzieć, że D kropka D jest szybka w zamów i po prostu
+
+05:15.590 --> 05:21.670
+uruchomimy ten plik wokół tego, którego dane nie są zdefiniowane.
+
+05:21.670 --> 05:27.130
+Bo to musi być tutaj lista obok LISTY.
+
+05:27.340 --> 05:29.880
+Hej, uciekajmy i popatrzmy na to.
+
+05:29.890 --> 05:39.040
+Mamy 1 4 6 9 15 20 170 i widzimy tutaj ścieżkę, którą przeszliśmy, ponieważ konsola patrzy w prawo.
+
+05:39.130 --> 05:43.990
+Mamy 9 4 1, a następnie 6.
+
+05:44.160 --> 05:54.970
+Następnie wracamy do 20 15, a następnie 170, ale dlatego, że przesuwając nasze odpowiedzi na listę po zweryfikowaniu lewych
+
+05:54.970 --> 06:01.560
+banknotów i przemierzonych w dół, najniższe numery zostaną umieszczone na liście.
+
+06:01.570 --> 06:10.520
+Teraz piękność polega na tym, że implementacja pozostałych dwóch staje się teraz niezwykle łatwa, ponieważ są
+
+06:10.530 --> 06:12.040
+bardzo podobne.
+
+06:12.040 --> 06:13.860
+Po prostu kolejność zmian.
+
+06:14.260 --> 06:17.800
+Tak więc następny, który jest
+
+06:20.400 --> 06:22.660
+trawersem, powiedzmy preorder.
+
+06:22.820 --> 06:29.720
+Teraz jedyną różnicą jest to, że musisz upewnić się, że rekurencyjnie nazwiemy właściwe imię.
+
+06:30.950 --> 06:41.950
+Jedyna różnica polega na tym, że przy zamówieniu wstępnym chcemy naciskać na samym początku, zanim dojdziemy do
+
+06:41.950 --> 06:43.360
+uwagi lewej.
+
+06:43.930 --> 06:54.330
+Ponieważ pamiętaj, że podczas przemierzania przed zamówieniem idziemy 9 4 1 6, a następnie 20 15 170.
+
+06:54.340 --> 06:57.200
+Zaczynamy najpierw od rodziców i to jest kolejność.
+
+06:57.640 --> 07:01.820
+Najpierw popychamy rodzica, czyli 9.
+
+07:01.960 --> 07:07.740
+Potem mamy cztery, potem jeden, potem sześć i 20 i 50 niż 170.
+
+07:08.630 --> 07:10.040
+Zobaczmy, czy to działa.
+
+07:10.160 --> 07:16.240
+Zamierzam to zmienić na wcześniejsze zamówienie, upewnij się, że to poprawnie.
+
+07:17.170 --> 07:22.420
+Preorder oczyszcza się, a następnie biegnie i patrzy na to.
+
+07:22.560 --> 07:32.830
+Wybraliśmy 9 4 1 6 20:15 170 w tej kolejności na liście.
+
+07:32.840 --> 07:37.360
+Teraz możesz zatrzymać film i sprawdzić, czy możemy go sami zrealizować.
+
+07:37.370 --> 07:39.060
+Powinno być dość proste.
+
+07:39.170 --> 07:40.160
+Dobrze.
+
+07:40.250 --> 07:40.510
+W porządku.
+
+07:40.520 --> 07:41.630
+Mam zamiar iść.
+
+07:42.330 --> 07:45.700
+Zamówienie pocztowe będzie bardzo podobne.
+
+07:46.940 --> 07:57.360
+Powiemy, że po wysłaniu postu będziemy mieć ostatni nacisk na samym końcu.
+
+07:59.330 --> 08:01.000
+A czemu to.
+
+08:01.190 --> 08:14.260
+Ponieważ sprawdzamy 1 6 po lewej i po prawej, a następnie o 4, następnie 15 170 20, a potem 9.
+
+08:14.320 --> 08:18.410
+Tak więc kolejność, jak sugeruje nazwa, jest na końcu.
+
+08:18.940 --> 08:22.140
+Więc jeśli zmienię tylko teraz, aby opublikować zamówienie.
+
+08:24.370 --> 08:25.850
+I uderzyłem Rona.
+
+08:26.200 --> 08:31.950
+Mamy jej zły porządek, ponieważ muszę się upewnić, że zmienię nazwiska, więc to jest jej kursywą.
+
+08:32.020 --> 08:37.970
+Tak więc mówimy, że poprzeczne porowate słupki graniczne nie są zamówione w przedsprzedaży.
+
+08:38.080 --> 08:40.860
+A gdybym biec, to o wiele lepiej.
+
+08:40.930 --> 08:44.650
+Idziemy na dziewiątkę.
+
+08:45.420 --> 08:47.220
+I zaczynamy dodawać to do listy.
+
+08:47.330 --> 09:03.630
+Idę 1 6 4, potem 15 170 20, a potem 9 i jeśli wydrukujemy to wszystko, a kliknę dobrze, usuńmy
+
+09:03.630 --> 09:06.090
+stąd dzienniki konsoli.
+
+09:09.930 --> 09:12.240
+I po prostu zapisz w konsoli każdą
+
+09:17.400 --> 09:19.610
+z tych opcji, aby uruchomić grę.
+
+09:19.770 --> 09:20.710
+Mamy nasze dzienniki.
+
+09:20.740 --> 09:30.220
+Mamy kolejność wysyłkową, mamy wstępne zamówienie i teraz mamy kolejność.
+
+09:30.430 --> 09:36.370
+Wszystkie są głębokie Pierwsze wyszukiwanie odbywa się po prostu w różnych zamówieniach.
+
+09:36.530 --> 09:41.750
+Teraz zostawię kod do zbadania, ponieważ jest to rekursja.
+
+09:42.020 --> 09:48.050
+To może zająć trochę czasu, aby opanować umysł, ale widzisz, że nie było
+
+09:48.380 --> 09:50.060
+to takie trudne.
+
+09:50.130 --> 09:56.850
+Wprowadziliśmy szerokie pierwsze wyszukiwanie zarówno w Tivoli, jak i rekursywnie, a także używamy głębi do wyszukiwania
+
+09:57.090 --> 10:00.830
+w porządku Kolejność po zamówieniu i zamówienie przedpremierowe.
+
+10:01.100 --> 10:04.440
+A jeśli się nad tym zastanowisz, to staje się coraz bardziej jasne.
+
+10:04.740 --> 10:06.830
+Zwłaszcza jeśli chodzi o śmierć w poszukiwaniu.
+
+10:06.990 --> 10:13.150
+Wszystko, co robimy, to sprawdzanie lewego elementu i prawego elementu lub właściwej notatki.
+
+10:13.200 --> 10:16.780
+To jest lewe odniesienie i właściwe odniesienie każdej nuty.
+
+10:17.340 --> 10:23.610
+Na pewno wykonujemy te czynności w różnej kolejności, czasami w zależności od wybranej przez
+
+10:23.610 --> 10:25.410
+nas strategii zamawiania.
+
+10:25.500 --> 10:28.310
+Ale wciąż robimy te same trzy rzeczy.
+
+10:28.410 --> 10:35.470
+Sprawdzamy lewe zaznaczenie z prawej strony lub po prostu przesuniemy węzeł na naszą listę, aby znaleźć odpowiedź.
+
+10:35.790 --> 10:42.300
+A dla tych z was, którzy mogli zrozumieć, że używamy struktury danych stosów tutaj z rekursją.
+
+10:42.300 --> 10:50.620
+Każda z tych funkcji jest dodawana do naszego stosu wywołań, a my zaczniemy powracać, gdy dotrą do końca.
+
+10:51.930 --> 10:55.990
+To znaczy, że nie ma już dzieci w lewo i w prawo.
+
+10:56.610 --> 11:02.860
+I to jest ważne, aby zrozumieć, ponieważ pokazuje złożoność przestrzeni śmierci dla wyszukiwania.
+
+11:03.030 --> 11:11.260
+Ilość miejsca, której potrzebujemy pod względem pamięci, w przeciwieństwie do szerokości pierwszego wyszukiwania, w którym użyto Q Wysokość
+
+11:11.260 --> 11:17.650
+drzewa powie nam, ile pamięci będziemy potrzebować, ponieważ wysokość drzewa będzie pasować do najgłębszej
+
+11:17.710 --> 11:23.770
+funkcji rekursywnej i to się dzieje do dodania do stosu jako pamięć.
+
+11:23.770 --> 11:30.910
+Tak więc zużycie pamięci to cała wysokość drzewa, która da nam najgorszy
+
+11:30.940 --> 11:34.570
+scenariusz przy pierwszym użyciu głębokiego wyszukiwania.
+
+11:34.650 --> 11:44.710
+Teraz, gdy lepiej rozumiesz, w jaki sposób te wyszukiwania lub działania związane z traversal, zachęcam cię do tego, by krok po
+
+11:44.710 --> 11:47.080
+kroku kodować swoje własne.
+
+11:47.080 --> 11:50.800
+Sprawdź, czy możesz dodać to również do struktury danych drzewa.
+
+11:50.800 --> 11:59.470
+Ponieważ piękno jest, gdy już wiesz, jak to działa, po prostu naucz się przechodzić przez wykres.
+
+11:59.580 --> 12:02.000
+Gratulacje, do zobaczenia w następnym wideo.

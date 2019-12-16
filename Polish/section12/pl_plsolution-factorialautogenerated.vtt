@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.980 --> 00:01.820
+Witamy spowrotem.
+
+00:02.190 --> 00:09.540
+Zacznijmy od iteracyjnego podejścia, które nie jest rekurencją, jeśli chcemy uruchomić funkcję,
+
+00:09.540 --> 00:20.940
+powiedzmy znaleźć iteracyjną iteracyjną piątkę, podczas gdy możemy stworzyć zmienną, powiedzmy rak, i na razie ta odpowiedź będzie jedyna
+
+00:20.940 --> 00:31.980
+i wszystko, co zamierzamy zrobić, to Zrób pętlę for z napisem "Pozwól, że kosztuję zero lub w naszym przypadku
+
+00:31.980 --> 00:33.510
+uprość rzeczy".
+
+00:33.570 --> 00:43.040
+Zacznijmy od drugiej i wyjaśnię w sekundę, dlaczego chcemy rozpocząć dwójkę, aby powiedzieć,
+
+00:43.040 --> 00:50.580
+że jest mniej niż liczba, a następnie zwiększamy o 1.
+
+00:50.640 --> 00:55.480
+Dlaczego teraz zaczynamy dodawać.
+
+00:55.600 --> 00:57.510
+Możesz tu zauważyć skrót.
+
+00:58.250 --> 01:08.520
+1 silnia to tylko jedna silnia to dwa razy 1, czyli tylko dwa.
+
+01:08.560 --> 01:11.210
+Te ostatnie dwa bity.
+
+01:11.290 --> 01:18.790
+Jeśli ktoś mówi o jednej silni lub dwóch silni po prostu zwraca liczbę, którą wprowadzili,
+
+01:18.790 --> 01:22.890
+ponieważ nie ma prawdziwych obliczeń, które musimy zrobić.
+
+01:22.960 --> 01:33.440
+Jest to więc skrót, więc unikamy dodatkowych pętli, ale mówimy tylko, że jeśli liczba wprowadzona przez
+
+01:33.440 --> 01:36.200
+użytkownika wynosi 2.
+
+01:36.200 --> 01:39.750
+To znaczy, że dwie nie są większe niż liczba druga.
+
+01:41.080 --> 01:49.960
+Tak jak mamy to teraz, jeśli ktoś wejdzie w fazę iteracyjną 2, zwrócimy 1, ale zamiast
+
+01:49.990 --> 02:00.520
+tego możemy po prostu powiedzieć, że jest to prosta kontrola warunkowa, że jeśli liczba równa się dwóm, po prostu
+
+02:00.520 --> 02:04.530
+odpowiemy, że odpowiedź równa się 2.
+
+02:04.630 --> 02:14.210
+Tak więc, jeśli uruchomię tę funkcję i po prostu powiem, że dostaję dwa, jeśli powiem jedno, dostaję jeden i są inne
+
+02:14.210 --> 02:16.740
+kontrole, które możemy zrobić oczywiście.
+
+02:17.180 --> 02:19.490
+Ale w naszym przypadku jest to wystarczająco dobre.
+
+02:19.490 --> 02:22.270
+Spójrzmy, co możemy tutaj zrobić.
+
+02:23.270 --> 02:33.740
+Cóż, sposób działania czynnikowego polega na tym, że po prostu odpowiedź będzie równa czasowi odpowiedzi.
+
+02:33.960 --> 02:41.950
+Więc jeśli kliknę tutaj Quraan i zrobimy pięć, otrzymam 24, co właściwie nie
+
+02:42.190 --> 02:50.970
+jest właściwą odpowiedzią, ponieważ pięć razy cztery jest 20 razy trzy jest wyraźnie wyższe niż 24.
+
+02:51.370 --> 02:56.800
+A to z powodu drobnego błędu, chcemy się upewnić, że jest to równe,
+
+02:56.800 --> 02:58.900
+ponieważ chcemy uwzględnić numer pięć.
+
+02:59.260 --> 03:09.800
+Więc jeśli znowu to zrobię, dostaję sto dwadzieścia, co jest właściwą odpowiedzią pięć razy cztery to 20 razy.
+
+03:09.940 --> 03:20.940
+Czasy trzy to 60 razy dwa to 120 razy jedno to tylko 120 idealne.
+
+03:21.280 --> 03:24.650
+Mam nadzieję, że masz poprawną odpowiedź.
+
+03:25.570 --> 03:27.540
+A co z podejściem rekursywnym.
+
+03:29.750 --> 03:42.550
+W wersji rekursywnej po prostu sprawdzimy, czy numer jest równy 2, i możemy wykonać także inne kontrole.
+
+03:42.570 --> 03:46.590
+Ale to powinno wystarczyć, abyśmy stworzyli podstawowy przypadek.
+
+03:46.590 --> 03:55.570
+Więc jeśli liczba osiągnie 2, po prostu wrócimy do naszego podstawowego przypadku.
+
+03:55.600 --> 03:57.120
+Tak się zatrzymujemy.
+
+03:57.190 --> 04:09.360
+Następnie powrócimy do naszej wersji rekursywnej, która będzie po prostu liczbą razy większą od funkcji.
+
+04:09.470 --> 04:16.050
+I w tej funkcji po prostu powiemy numer minus jeden.
+
+04:16.460 --> 04:17.830
+I to jest tutaj klucz.
+
+04:18.020 --> 04:25.500
+Chcemy zawsze stawać się coraz niżej, aż trafimy w podstawowy przypadek.
+
+04:25.520 --> 04:29.870
+Więc jeśli uderzę, uciekajmy tutaj, tym
+
+04:33.010 --> 04:41.570
+razem zamierzam przenieść to tutaj i jeśli bym uciekł, dostałem również 120.
+
+04:41.750 --> 04:44.380
+A to trochę trudne, aby otoczyć twój umysł.
+
+04:44.450 --> 04:50.540
+Więc możesz skopiować ten kod i otworzyć narzędzia programistyczne Google Chrome, tak jak to pokazałem i
+
+04:50.540 --> 04:52.190
+przejść krok po kroku.
+
+04:52.280 --> 04:57.680
+Ale jeśli zaczniemy od liczby pięć tutaj dobrze, jest pięć równych.
+
+04:57.750 --> 04:58.280
+Nie.
+
+04:58.400 --> 05:11.330
+Następnie powiemy pięciokrotnie silną silnię, by była naszą odpowiedzią, podobnie jak schemat, który ci pokazałem.
+
+05:11.740 --> 05:22.810
+I idziemy dalej i idziemy dalej, dopóki nie trafimy w podstawowy przypadek, w którym liczba jest równa.
+
+05:22.930 --> 05:29.430
+Teraz, na koniec, jak myślisz, jaka jest złożoność czasowa tych dwóch funkcji.
+
+05:30.590 --> 05:38.740
+Cóż, jeden używa pętli for z pętlą będącą liczbą z nią powiązaną.
+
+05:39.020 --> 05:44.970
+I robimy tu skrót, więc jest to technicznie mniej niż i, ale ze względu
+
+05:45.140 --> 05:48.530
+na nasze wielkie zasady, to nadal będzie bić
+
+05:51.350 --> 05:52.730
+całą rekursywną funkcję.
+
+05:52.750 --> 05:55.280
+Jeśli spojrzymy na to, zapętlamy.
+
+05:55.330 --> 05:56.540
+Ile razy.
+
+05:57.130 --> 06:03.640
+Cóż, nazywamy funkcję funkcji Znajdź rekurencyjną rekursywną rekurencyjną taką samą liczbę razy,
+
+06:03.700 --> 06:05.760
+jak sama liczba.
+
+06:05.770 --> 06:12.350
+Tak też się stanie, jeśli masz to pytanie.
+
+06:12.370 --> 06:13.080
+Dobra robota.
+
+06:13.090 --> 06:14.010
+To trudne.
+
+06:14.020 --> 06:17.430
+Jeśli nie martwisz się, czeka nas kolejna.
+
+06:17.500 --> 06:18.830
+Zobaczę w następnym.
+
+06:18.960 --> 06:19.190
+Babai.

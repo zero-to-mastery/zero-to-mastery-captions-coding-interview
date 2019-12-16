@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.370 --> 00:08.960
+Ed ecco che abbiamo imparato stack e Qs e un modo semplice per ricordarli è semplicemente le lastre e la
+
+00:09.380 --> 00:11.060
+nostra linea di attesa.
+
+00:11.060 --> 00:16.390
+Abbiamo imparato perché sono costruiti su altre strutture di dati come liste e array collegati.
+
+00:16.520 --> 00:22.970
+E abbiamo anche parlato di come costruire stack con le liste Rays e length e anche
+
+00:22.970 --> 00:31.280
+perché potremmo non voler usare un array per costruire code e anche costruire una nuova struttura dati con un elenco collegato.
+
+00:31.300 --> 00:37.840
+Abbiamo appreso che stack e code sono ottimi per alcune operazioni veloci che hanno come la
+
+00:37.840 --> 00:42.280
+rimozione o l'inserimento come alla fine della struttura dei dati.
+
+00:42.920 --> 00:50.550
+Possiamo anche accedere al primo elemento in una coda o all'elemento più in alto in una pila.
+
+00:50.780 --> 00:58.490
+E abbiamo anche tutto il nostro ordine dati che è davvero molto bello, ma di solito non usiamo i nostri stack o spunti
+
+00:58.490 --> 01:03.400
+per fare davvero qualsiasi tipo di lock up o ricerca attraverso la struttura dati.
+
+01:03.440 --> 01:07.670
+Tutto ciò a cui siamo interessati sono i bit finali della struttura dati.
+
+01:07.670 --> 01:14.770
+Quindi lo rendono davvero utile limitando il nostro uso di ciò che possiamo fare quando si tratta di stack e code.
+
+01:14.900 --> 01:20.090
+Ma assicurandoci che ciò che ci è concesso di fare con queste strutture
+
+01:20.090 --> 01:22.600
+di dati sarà davvero molto veloce.
+
+01:22.830 --> 01:24.060
+E lì ce l'abbiamo.
+
+01:24.180 --> 01:28.520
+Abbiamo continuato ad espandere la nostra mappa mentale delle strutture dati.
+
+01:28.860 --> 01:31.290
+Quindi abbiamo completato i nostri stack.
+
+01:31.290 --> 01:38.730
+Abbiamo imparato come creare stack con array e liste di lunghezza che abbiamo imparato sulla loro notazione Big O e
+
+01:39.180 --> 01:45.190
+abbiamo anche parlato di spunti e di come vorremmo davvero utilizzare un array per una stecca.
+
+01:45.270 --> 01:47.840
+Una domanda di intervista molto comune.
+
+01:48.150 --> 01:54.630
+Impariamo come utilizzare una lista collegata per creare una coda e abbiamo anche imparato a conoscere
+
+01:55.140 --> 01:59.570
+le implicazioni di bego che è molto simile agli stack.
+
+01:59.670 --> 02:03.720
+Ci stiamo avvicinando sempre di più alla compilazione di questa mappa mentale.
+
+02:03.930 --> 02:10.520
+Ma prima di farlo, abbiamo ancora qualche altra struttura dati da percorrere, ma la fine è quasi vicina.
+
+02:10.530 --> 02:13.570
+Abbiamo solo alberi e grafici di cui parlare.
+
+02:14.650 --> 02:17.480
+Per quello ti vedrò nella prossima parte.

@@ -1,0 +1,157 @@
+WEBVTT
+
+00:01.580 --> 00:07.440
+Bentornato in questa sezione abbiamo imparato tutto sulle liste collegate.
+
+00:07.520 --> 00:15.050
+Abbiamo imparato come non viene pre-costruito in molti linguaggi come javascript ma lo fa in altri.
+
+00:15.170 --> 00:21.030
+Questo perché le liste collegate sono strutture di dati di basso livello.
+
+00:21.040 --> 00:25.100
+È usato molto in realtà in altre strutture di dati come le tabelle hash.
+
+00:25.330 --> 00:31.390
+E come vedremo in alcuni di quelli imminenti come stack e Qs, di cui parleremo
+
+00:32.410 --> 00:40.090
+è una struttura di dati fondamentale che è molto utile e informatica e anche una questione molto popolare quando
+
+00:40.090 --> 00:42.050
+si tratta di intervistare.
+
+00:42.490 --> 00:49.840
+Abbiamo imparato che quando si tratta di una lista concatenata non c'è accesso casuale nel senso che quando si cerca
+
+00:49.840 --> 00:56.380
+qualcosa che attraversi effettivamente la lista con le tabelle hash non possiamo trovare subito le cose con gli
+
+00:56.740 --> 01:00.200
+array che possiamo trovare le cose attraverso gli indici.
+
+01:00.310 --> 01:05.930
+Abbiamo lenti controlli che dobbiamo percorrere attraverso la lista se stiamo cercando qualcosa.
+
+01:06.060 --> 01:13.280
+Tuttavia sono ordinati come tabelle hash e liste collegate ci permettono di avere questo tipo di ordine.
+
+01:13.500 --> 01:21.780
+Se avessimo un numero elevato di elementi in e Ray e continuassimo ad aggiungere a quell'array dovremmo avere costi generali
+
+01:21.810 --> 01:29.460
+eccessivi per copiare l'array in memoria e raddoppiare lo spazio quando raggiunge il limite per creare un array
+
+01:29.730 --> 01:38.370
+più grande rispetto a un link elenca dove possiamo avere un inserimento veloce e una cancellazione veloce soprattutto quando abbiamo
+
+01:38.370 --> 01:43.240
+un riferimento a dove vogliamo inserire o eliminare quella nota.
+
+01:44.240 --> 01:52.090
+Questo diventa anche molto veloce quando si trova all'inizio di una lista o alla fine della lista.
+
+01:52.310 --> 01:56.240
+E lo vedremo quando parliamo di stack e Qs.
+
+01:56.240 --> 02:02.450
+La ragione principale per scegliere una lista collegata su qualcosa come un array è la semplicità e la capacità di
+
+02:02.450 --> 02:04.250
+crescere e rimpicciolirsi secondo necessità.
+
+02:04.250 --> 02:10.820
+Ora lavorare con loro come abbiamo visto può essere un po 'strano e difficile da gestire
+
+02:10.820 --> 02:18.080
+tutti i suggerimenti nella tua testa, ma sono piuttosto leggeri e autonomi in quanto possono essere anche abbastanza
+
+02:18.080 --> 02:18.540
+flessibili.
+
+02:19.940 --> 02:25.490
+Questo è tutto ciò che vedrai nelle liste collegate e in molti posti come implementare i file system
+
+02:25.490 --> 02:28.740
+sul tuo computer o persino la cronologia del browser.
+
+02:28.820 --> 02:31.830
+Quando vai avanti e indietro su un browser.
+
+02:32.690 --> 02:38.000
+Puoi considerarlo come una lista concatenata perché puoi attraversare uno ad uno da un posto all'altro
+
+02:39.220 --> 02:44.120
+e ricordare con le nostre tabelle hash come abbiamo avuto questo problema di collisione.
+
+02:44.410 --> 02:51.670
+E quando abbiamo avuto una collisione abbiamo dovuto fare qualcosa di simile in cui abbiamo
+
+02:51.670 --> 02:59.510
+unito John Smith e Sander D in due nodi e la prima neve che puntava alla seconda nota.
+
+02:59.690 --> 03:08.150
+Se torniamo alla nostra struttura di dati della tabella hash che abbiamo creato se scorriamo fino al metodo
+
+03:08.150 --> 03:18.220
+set in cui impostiamo una chiave e un valore nella tabella hash, abbiamo fatto un controllo qui per verificare se questo indirizzo esiste.
+
+03:18.300 --> 03:28.560
+E poi in seguito abbiamo usato un array per spingere i nostri articoli nel caso in cui avessimo più oggetti quando abbiamo avuto una collisione perché a volte possiamo
+
+03:29.250 --> 03:35.470
+impostare la nostra dimensione della memoria della tabella hash per essere molto più piccola come due.
+
+03:35.940 --> 03:44.520
+E potresti essere in grado di capire perché ora invece di utilizzare un array che ogni volta che è necessario inserire un
+
+03:44.520 --> 03:45.510
+nuovo elemento.
+
+03:45.510 --> 03:47.680
+Voglio dire, funziona perché stiamo spingendo fino alla fine.
+
+03:47.790 --> 03:57.480
+Ma se dovessimo cancellare un oggetto sulla tabella hash dovremmo spostare l'array che, come sapete, è molto
+
+03:57.690 --> 03:58.610
+lento.
+
+03:58.860 --> 04:07.800
+Quindi possiamo modificarlo ora in qualcosa di simile a un elenco collegato in modo che un'eliminazione diventi molto più semplice
+
+04:07.800 --> 04:09.710
+rispetto a un array.
+
+04:09.810 --> 04:16.410
+E questo è qualcosa che lascerò a te ma dovresti avere una buona idea del perché queste strutture di dati
+
+04:16.470 --> 04:20.990
+esistono ora e perché potresti voler usare un elenco collegato su un array.
+
+04:21.880 --> 04:28.020
+Abbiamo anche aggiunto un altro pezzo del puzzle nella nostra mappa mentale.
+
+04:28.110 --> 04:34.770
+Abbiamo parlato di array sui tavoli hash e ora abbiamo discusso se vedi qui le
+
+04:35.340 --> 04:40.830
+liste collegate sono elenchi singoli e doppiamente collegati con la notazione Big-O.
+
+04:42.360 --> 04:47.900
+E solo un suggerimento qui come puoi vedere le liste collegate sono legate a qualcosa di cui parleremo
+
+04:47.910 --> 04:48.570
+in arrivo.
+
+04:49.480 --> 04:53.970
+Sono alberi ed erba.
+
+04:54.180 --> 05:01.650
+Ma alla fine della giornata siamo appena riusciti ad aggiungere un'altra struttura dati al nostro cinturone come ingegneri.
+
+05:01.650 --> 05:06.710
+Congratulazioni e impariamo altre strutture dati nel prossimo video.
+
+05:06.820 --> 05:07.090
+Buh-Bye.

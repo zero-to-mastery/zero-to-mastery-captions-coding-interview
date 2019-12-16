@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.130 --> 00:06.960
+Depth first search on like a breath first search is a little bit different.
+
+00:08.010 --> 00:16.440
+The search follows one branch of the tree down as many levels as possible until the target notice found
+
+00:16.770 --> 00:18.620
+or the end is reached.
+
+00:19.580 --> 00:21.970
+When the search can go on any further.
+
+00:21.970 --> 00:27.700
+It continues at the nearest ancestor with an unexplored child.
+
+00:27.950 --> 00:29.040
+Let me show you.
+
+00:29.150 --> 00:30.900
+We start off with nine.
+
+00:31.010 --> 00:32.900
+Then we go to six.
+
+00:33.200 --> 00:36.560
+Then we go to one and we've reached a leaf node.
+
+00:36.600 --> 00:37.900
+There's no more children.
+
+00:38.030 --> 00:44.870
+So we go back up to 6 to our ancestor and then see if there's any more unexplored children in this case
+
+00:44.870 --> 00:46.100
+we haven't gone to four.
+
+00:46.160 --> 00:48.120
+So let's go back up to four.
+
+00:48.530 --> 00:53.840
+And now we go up because there's no more children all the way up to 9 and say All right let's go to
+
+00:53.840 --> 01:01.500
+there right now we go to 12 then 34 and then come back up and then search 45 as well.
+
+01:03.500 --> 01:11.180
+Now depth first search has a lower memory requirement then breadth first search because it's not necessary
+
+01:11.180 --> 01:14.280
+to store all the child pointers at each level.
+
+01:14.510 --> 01:20.980
+Something that we'll see when we actually coded the idea with that first search is that we want to go
+
+01:20.980 --> 01:23.020
+as deep as possible into a graph.
+
+01:23.440 --> 01:30.250
+Usually starting from the left side and then start going to the right until the traversal of the tree
+
+01:30.250 --> 01:33.410
+is done as the name suggests we go.
+
+01:33.420 --> 01:35.410
+Depth first that is deep.
+
+01:35.410 --> 01:41.070
+First verse says breath deafer search looks something like this.
+
+01:41.080 --> 01:46.960
+Once again we go all the way down come back up all the way down come back up all the way down.
+
+01:46.990 --> 01:51.480
+Come back up all the way down as you can see going deep first.
+
+01:51.520 --> 01:57.080
+Then keep going to the right and I like to think of death.
+
+01:57.150 --> 02:04.200
+First search was like walking through a maze right we're going as far as we can and when we hit a dead
+
+02:04.200 --> 02:10.170
+end well you turn back around and go to the next point where you can make perhaps a left to a writer
+
+02:10.500 --> 02:14.750
+until you get to the end of the maze or the maze ends.
+
+02:14.820 --> 02:23.470
+So if we go back to our code and we look at breath first search we did here BRAF first search.
+
+02:23.520 --> 02:25.620
+What about depth first search.
+
+02:25.620 --> 02:26.610
+How would that look.
+
+02:28.380 --> 02:34.920
+Well from what we know and Hint hint there's going to be different variations of deafer search coming
+
+02:34.920 --> 02:35.610
+up.
+
+02:35.610 --> 02:44.840
+But from what we know we would start off with nine then four then one then go back up to four and then
+
+02:44.900 --> 02:53.760
+find six go back up find 20 go to the left 15 and go to the right one 70.
+
+02:54.230 --> 02:59.620
+So our list is a little bit different than breath for search.
+
+02:59.840 --> 03:06.850
+We have different orders but why do we have these two ways of exploring a tree or a graph.
+
+03:06.920 --> 03:08.660
+What's the pros and cons.
+
+03:08.810 --> 03:15.270
+And up until now I've just been talking but you might not understand why one is better than the other.
+
+03:16.070 --> 03:20.500
+And before we implement this into code I want to go over the pros and cons of each.
+
+03:20.510 --> 03:21.990
+So let's do that in the next video.

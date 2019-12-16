@@ -1,0 +1,385 @@
+WEBVTT
+
+00:01.300 --> 00:02.410
+Ben tornato.
+
+00:02.800 --> 00:09.370
+Com'è che il tuo cervello ha ascoltato tutta questa sequenza confusa?
+
+00:09.370 --> 00:18.010
+Iniziamo questa volta con la funzione ricorsiva perché in questo caso la funzione ricorsiva è in realtà
+
+00:18.040 --> 00:20.850
+molto più semplice da pensare.
+
+00:21.930 --> 00:29.730
+Tutto ciò che faremmo con la nostra funzione ricorsiva è dire che il caso base sta per dire il numero
+
+00:29.940 --> 00:31.950
+quattro e sarà uguale a
+
+00:34.660 --> 00:35.270
+due.
+
+00:35.470 --> 00:38.290
+Se questo è il caso, semplicemente
+
+00:42.070 --> 00:49.100
+restituisci effettivamente se osserviamo la sequenza vediamo che se indicizzano zero la risposta è zero.
+
+00:49.160 --> 00:53.900
+Se l'indice è 1 La risposta è 1.
+
+00:54.200 --> 00:58.690
+E se l'indice è 2, la risposta diventa 1.
+
+00:58.700 --> 01:04.260
+Quindi, il nostro caso base può forse essere semplicemente se un è inferiore a 2.
+
+01:04.280 --> 01:08.280
+Gireremo sempre qualunque sia la fine.
+
+01:08.300 --> 01:13.500
+Quindi se diciamo 0 restituirà 0 se diciamo che uno ritornerà 1.
+
+01:13.580 --> 01:22.150
+Se abbiamo un indice più alto di quello, allora dobbiamo fare qualche ricorsione e tutto ciò che
+
+01:22.150 --> 01:27.730
+faremo qui è avere ora l'istruzione return e dire questa funzione.
+
+01:27.730 --> 01:30.270
+So che questa funzione è davvero lunga.
+
+01:30.280 --> 01:33.630
+Probabilmente potremmo renderlo più breve per dire semplicemente fib.
+
+01:33.730 --> 01:38.140
+E noto che non abbiamo bisogno di iterativo qui.
+
+01:38.300 --> 01:39.900
+Questo lo renderà un po 'più breve.
+
+01:39.900 --> 01:52.340
+Sai che stiamo per dire che la Fed sta per essere uguale e meno uno più la stessa cosa meno due
+
+01:56.620 --> 02:01.180
+perché ricorda che la somma è sempre.
+
+02:01.180 --> 02:07.450
+La risposta è sempre i numeri 1 e 2 prima di esso.
+
+02:07.560 --> 02:17.560
+Quindi stiamo solo aggiungendo i numeri 1 e 2 prima della nostra sequenza e il gioco è fatto.
+
+02:17.560 --> 02:26.230
+Se eseguiamo questa funzione, diciamo se abbiamo ricorsivo 3 ricorsivo e faccio clic su run ottengo 2
+
+02:26.470 --> 02:36.180
+perché 0 1 2 3 è 2 facciamo 8 che dovrebbe darci 21 e faccio clic su Esegui o esegui 8.
+
+02:36.290 --> 02:45.930
+Ottengo 21 belle e se faccio 0 ottengo 0.
+
+02:46.290 --> 02:49.050
+Se ne faccio uno ne ottengo uno.
+
+02:49.080 --> 02:53.470
+Se lo faccio anch'io dovrei averne uno qui.
+
+02:53.520 --> 02:58.530
+Bello e semplice, non ne so nulla di semplice.
+
+02:58.570 --> 03:04.340
+Devi davvero sentirti a tuo agio prima di capire veramente cosa sta succedendo.
+
+03:04.420 --> 03:06.630
+Ma ho un piccolo diagramma per aiutarti qui.
+
+03:07.570 --> 03:10.300
+Tutto ciò che abbiamo fatto è semplicemente questo.
+
+03:10.450 --> 03:19.900
+Se ho aggiunto 7 qui, la funzione ricorsiva ne otterrà una in meno di 7 e 2 in meno di 5 e quindi all'interno
+
+03:19.930 --> 03:26.080
+di quelle funzioni fare la stessa cosa da meno di sei a meno di sei.
+
+03:26.170 --> 03:30.090
+Voglio mandare 5 a meno di 3 e sta facendo tutto questo.
+
+03:30.100 --> 03:39.420
+Tutto questo fino a quando non arriviamo a 1 FEBE dove abbiamo il nostro caso base che restituisce quel numero.
+
+03:39.500 --> 03:42.310
+Quindi questo diventa uno.
+
+03:42.430 --> 03:49.170
+Anche questo diventa uno e poi continua andando continua a tornare fino a quando non arriviamo a FEBE di 7.
+
+03:49.180 --> 03:53.800
+Ora questo è un diagramma sul quale torneremo, ma vedete che stiamo facendo molti calcoli
+
+03:53.800 --> 03:54.340
+qui.
+
+03:55.250 --> 03:57.770
+Ma in poche parole, questo è tutto ciò che stiamo facendo.
+
+03:59.820 --> 04:06.360
+Ora ho detto che l'approccio ricorsivo è in realtà più semplice dell'approccio iterativo.
+
+04:06.810 --> 04:10.860
+Diamo un'occhiata a come sarebbe l'approccio iterativo.
+
+04:10.950 --> 04:14.790
+Creeremo un array e ci sono molti modi per farlo.
+
+04:14.790 --> 04:24.370
+Questo è il mio modo preferito e questo sondaggio avrà gli elementi iniziali della sequenza 0 e 1.
+
+04:24.580 --> 04:31.280
+E questo prima di tutto restituirà alla matrice un elemento di.
+
+04:31.280 --> 04:36.680
+E stiamo creando questo array e quindi afferrando qualunque indice l'utente desideri.
+
+04:36.680 --> 04:43.940
+Nel nostro caso se l'utente richiede 0 o 1 abbiamo già la matrice precompilata con zero e 1 e
+
+04:43.940 --> 04:45.390
+restituirà lo stesso.
+
+04:45.800 --> 04:49.610
+Ma dobbiamo ancora calcolare per tutti gli altri.
+
+04:49.610 --> 04:58.760
+Ecco dove facciamo un ciclo for e diciamo Let I uguale a due perché inizieremo ad aggiungere
+
+04:59.000 --> 05:12.560
+quando l'indice è 0 1 2 per iniziare a riempire il sondaggio diremo è inferiore a uno più o possiamo fare la stessa quota per te
+
+05:12.560 --> 05:17.660
+lo lasceremo per ora e incrementeremo i plus più.
+
+05:17.960 --> 05:23.480
+E in questo ciclo continueremo fino a quando non raggiungiamo il
+
+05:23.810 --> 05:26.390
+numero di indice a
+
+05:28.980 --> 05:38.890
+cui siamo interessati e tutto ciò che diremo è il push array I meno due più il PI meno uno.
+
+05:39.110 --> 05:40.640
+Simile a quello che abbiamo fatto prima.
+
+05:40.640 --> 05:45.830
+Stiamo solo sommando i due numeri precedenti e spingendoli all'array.
+
+05:46.820 --> 05:47.320
+Tutto ok.
+
+05:47.420 --> 05:49.030
+Ora vediamo se questo funziona.
+
+05:49.070 --> 05:53.410
+Ho intenzione di commentare questo e basta fare l'approccio iterativo.
+
+05:54.630 --> 05:56.760
+Ne ho due per tre.
+
+05:56.760 --> 05:58.900
+Che ne dici di otto.
+
+05:59.070 --> 06:01.740
+Ottengo 21 perfetto.
+
+06:01.830 --> 06:11.640
+E poi se faccio indice di 0 e X di 1 e l'indice di due dovrebbe essere perfetto.
+
+06:11.670 --> 06:16.980
+Ora ho detto che l'approccio ricorsivo è più semplice dell'approccio iterativo.
+
+06:16.980 --> 06:18.880
+Questa è la mia opinione personale.
+
+06:18.930 --> 06:25.440
+Potresti non pensare che potresti pensare che fosse abbastanza facile, ma per me questo è molto più bello di
+
+06:26.190 --> 06:28.090
+tutto ciò che stiamo facendo.
+
+06:28.960 --> 06:34.390
+E questo è qualcosa che entreremo nel prossimo video in cui parliamo dei compromessi
+
+06:34.390 --> 06:41.050
+tra gli approcci iterativi e ricorsivi a questi problemi e perché forse ti stai chiedendo in questo
+
+06:41.260 --> 06:44.210
+momento perché mai scriveremo qualcosa di ricorsivo.
+
+06:44.380 --> 06:48.720
+Se trovi questo confuso ci arriveremo.
+
+06:48.810 --> 06:54.000
+Ma l'unica cosa che voglio mostrarti è qualcosa che impariamo qui, che è nuovo per noi.
+
+06:54.540 --> 06:57.370
+Cosa pensi che sia il grande O di queste due funzioni.
+
+06:59.030 --> 07:02.770
+Bene nella nostra soluzione iterativa.
+
+07:02.870 --> 07:06.410
+Il grande O è il tempo lineare giusto.
+
+07:06.410 --> 07:07.640
+È o di.
+
+07:07.670 --> 07:16.190
+In pratica stiamo semplicemente iterando attraverso il ciclo e meno due volte perché stiamo saltando i primi
+
+07:16.190 --> 07:20.490
+due elementi che a sua volta lo fanno.
+
+07:20.560 --> 07:22.110
+Forno.
+
+07:22.150 --> 07:25.930
+Ma per quanto riguarda l'approccio ricorsivo.
+
+07:25.960 --> 07:28.610
+Ricorda lo schema che ti ho mostrato.
+
+07:28.860 --> 07:34.860
+Si tratta di calcoli molto più che solo il tasso sette.
+
+07:34.970 --> 07:42.430
+Abbiamo molte chiamate di funzione che si verificano in questo caso nella soluzione di ricorsione.
+
+07:42.430 --> 07:52.060
+Prende quello che chiamiamo tempo esponenziale in cui la dimensione dell'albero cresce esponenzialmente quando aumenta e se il numero di
+
+07:52.630 --> 08:02.020
+Fibonacci era otto avremmo questo albero e un altro albero sotto il FEBE di 8, quindi qual è il
+
+08:03.570 --> 08:06.120
+grande vantaggio di questo.
+
+08:08.140 --> 08:13.040
+Questo è molto eccitante perché stiamo imparando una nuova notazione Big O.
+
+08:13.270 --> 08:17.520
+Stiamo imparando questo tempo esponenziale.
+
+08:18.670 --> 08:28.080
+Che può essere visto con algoritmi ricorsivi che risolvono un problema di dimensioni e 2 alla potenza di un se andiamo al nostro
+
+08:28.080 --> 08:33.230
+grande O Chichi questo è 0 2 alla potenza di una formica.
+
+08:33.270 --> 08:37.860
+E vedi quanto aumenta.
+
+08:37.860 --> 08:39.520
+È piuttosto brutto.
+
+08:39.780 --> 08:50.300
+È più grande di anche 0 e quadrato i due cicli nidificati per cicli di tempo esponenziale significa ogni elemento aggiuntivo
+
+08:50.390 --> 08:52.860
+nella sequenza di Fibonacci.
+
+08:52.880 --> 08:58.070
+Otteniamo un aumento delle chiamate di funzione in modo esponenziale.
+
+08:58.150 --> 09:05.410
+Ed ecco un piccolo trucco divertente anche se questo è tutto un approccio iterativo.
+
+09:05.410 --> 09:18.660
+Questa funzione perché è tutto di due per la potenza di un se eseguo questa funzione diciamo che se lo facciamo 10
+
+09:20.700 --> 09:27.230
+ottengo un risultato se faccio 15 ho ancora un risultato.
+
+09:27.230 --> 09:28.570
+Cosa succede se faccio 20 qui.
+
+09:29.940 --> 09:30.300
+Tutto ok.
+
+09:30.300 --> 09:33.120
+Sta iniziando a diventare sempre più grande.
+
+09:33.230 --> 09:40.530
+Ne faccio 30 se ne faccio 40.
+
+09:40.550 --> 09:43.810
+Vedi quanto tempo ci è voluto per calcolare.
+
+09:44.030 --> 09:47.960
+Perché la nostra complessità temporale sta aumentando sempre di più.
+
+09:48.070 --> 09:55.340
+Se faccio quarantatre ora vedrai che stiamo aspettando e aspettando che il calcolo abbia
+
+09:55.340 --> 09:55.990
+luogo.
+
+09:56.090 --> 10:01.610
+E alla fine il browser arriva con il calcolo come una domanda
+
+10:01.610 --> 10:05.770
+bonus e pensa a quanti calcoli richiede Fibonacci 43.
+
+10:07.130 --> 10:16.940
+Anche se potrebbe essere più leggibile, non è una soluzione ideale in quanto è possibile notare che la complessità temporale è piuttosto
+
+10:16.940 --> 10:17.590
+grande.
+
+10:17.750 --> 10:23.310
+E questo è qualcosa che potresti essere chiesto in un'intervista e so cosa stai pensando.
+
+10:23.620 --> 10:28.210
+Andre, ci hai appena insegnato la ricorsione e non è nemmeno bello.
+
+10:28.360 --> 10:30.430
+È lento e confuso.
+
+10:30.430 --> 10:33.570
+Perché mai vorrei usare la ricorsione.
+
+10:34.480 --> 10:38.290
+Nel prossimo video parlerò di questo compromesso.
+
+10:38.290 --> 10:42.260
+Perché mai useresti la ricorsione per qualcosa che è l'enterite.
+
+10:43.470 --> 10:46.190
+Perché qualsiasi persona sana di mente dovrebbe farlo.
+
+10:46.530 --> 10:54.530
+E come scopri ci sono alcuni pro e contro e in effetti una funzione come questa come una
+
+10:54.530 --> 11:02.380
+Sequenza di Fibonacci e la ricorsione possono essere fatte a tutti usando qualcosa come la programmazione dinamica e
+
+11:02.380 --> 11:05.010
+la memorizzazione di cui parleremo.
+
+11:05.110 --> 11:11.350
+Verso la fine di questo corso e torneremo a questo, ma alla fine rispondiamo alla domanda
+
+11:11.350 --> 11:12.810
+nel prossimo video.
+
+11:13.030 --> 11:18.730
+Perché dovresti mai usare la ricorsione per qualcosa di iterativo.
+
+11:18.780 --> 11:20.320
+Vedrò nel prossimo.
+
+11:20.440 --> 11:20.700
+Bebai.

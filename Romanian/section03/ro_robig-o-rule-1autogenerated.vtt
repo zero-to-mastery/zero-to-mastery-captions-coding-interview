@@ -1,0 +1,139 @@
+WEBVTT
+
+00:01.130 --> 00:02.120
+Bine ai revenit.
+
+00:02.120 --> 00:09.440
+Să vorbim despre primul rol în ceea ce privește big-O, care este cel mai rău caz atunci când se calculează mare.
+
+00:09.460 --> 00:14.040
+Întotdeauna ne gândim la cel mai rău caz.
+
+00:14.150 --> 00:18.120
+Ce vreau să spun prin acest lucru dacă ne întoarcem la
+
+00:20.940 --> 00:28.690
+Găsirea Nemo, de exemplu, pentru a găsi funcția Nemo, probabil că ați strigat la mine în timp ce trecusem prin funcția
+
+00:28.690 --> 00:31.080
+spunând că Andre nu este eficient.
+
+00:31.090 --> 00:32.190
+Ce faci.
+
+00:32.590 --> 00:40.230
+Pentru că, dacă te uiți la această funcție, intrăm în întreaga matrice pentru a găsi Nemo.
+
+00:41.520 --> 00:49.170
+Amintiți-vă cum am avut fiecare array cu aproximativ 10 personaje diferite de la Finding Nemo.
+
+00:50.290 --> 00:56.980
+Ei bine, Nemo a fost doar celălalt membru al acestui stat.
+
+00:57.400 --> 01:02.600
+Iar când conducem această funcție, am găsit-o pe Nemo.
+
+01:03.020 --> 01:11.240
+Dar chestia amuzantă este că această funcție a fost executată de 10 ori, nu de patru ori.
+
+01:11.450 --> 01:24.620
+Dacă fac un jurnal de console aici și spun că rulează și să faceți clic pe acest lucru vedem că această funcție a fugit una
+
+01:24.680 --> 01:30.120
+câte două patru patru cinci șase șapte opt nouă zece.
+
+01:30.380 --> 01:36.300
+Vreau să spun că deja am găsit-o pe Nemo, toate aceste runde sunt destul de risipitoare.
+
+01:36.430 --> 01:41.390
+Deci, putem face această funcție un pic mai eficientă în javascript.
+
+01:41.410 --> 01:48.050
+Putem avea ceva numit pauză.
+
+01:48.210 --> 01:53.020
+Din nou, diferite limbi au diferite moduri de ieșire dintr-o buclă.
+
+01:53.090 --> 02:02.060
+Dacă o condiție este îndeplinită în cazul nostru, dacă găsim Nimo doar să ieșim din această buclă dacă fac acest lucru și faceți clic
+
+02:02.060 --> 02:04.330
+pe Run va primi asta.
+
+02:04.400 --> 02:09.390
+Odată ce am găsit-o pe Nimo, am terminat, nu vom trece prin restul articolelor.
+
+02:09.410 --> 02:10.450
+Felicitări.
+
+02:10.490 --> 02:13.970
+Tocmai am făcut codul nostru mai eficient.
+
+02:14.420 --> 02:15.430
+E un lucru bun.
+
+02:16.420 --> 02:19.050
+Ei bine, atunci când vine vorba de mare O.
+
+02:19.570 --> 02:21.160
+Deși acest lucru este important.
+
+02:21.220 --> 02:27.130
+Iar când scrieți un cod bun, acest lucru este ceva ce vrem să facem în schema mare a lucrurilor.
+
+02:27.160 --> 02:32.520
+Big-O îi pasă doar de cel mai rău caz, care este cel mai grav caz aici.
+
+02:32.680 --> 02:40.480
+Ei bine, cel mai rău caz este că Nimo este setat a fi cel de-al patrulea element este la sfârșitul.
+
+02:43.480 --> 02:51.730
+Deci, chiar dacă avem această declarație de pauză, vom continua să fugim de 10 ori pentru că Neema la sfârșit.
+
+02:51.850 --> 02:56.450
+Cel mai bun caz este dacă Nemos chiar de la început și trebuie să o luăm doar o dată.
+
+02:56.590 --> 03:05.810
+Dar, cel mai rău caz, va trebui să trecem prin 10 bucle încă mai mari.
+
+03:05.840 --> 03:15.410
+Și deci aceasta este prima noastră regulă, prima regulă este că ne pasă întotdeauna de scenariul cel mai rău caz, pentru
+
+03:15.410 --> 03:20.990
+că atunci când vorbim despre scalabilitate, nu putem doar să presupunem
+
+03:21.140 --> 03:33.630
+că lucrurile merg bine, chiar dacă găsirea funcției Nimo ar putea fi una dacă Nimo este primul element din matricea în care nu contează în marea schemă
+
+03:33.840 --> 03:39.720
+a lucrurilor, deoarece nu putem fi siguri de ce va fi intrarea.
+
+03:39.750 --> 03:51.940
+Vom presupune că tot drumul este din nou liniar dacă găsim o cutie galbenă, iar cutia galbenă se
+
+03:51.940 --> 03:54.160
+află la sfârșit.
+
+03:54.340 --> 03:58.060
+Trebuie să repetăm ​​toate casetele.
+
+03:58.310 --> 04:05.470
+În cazul în care caseta galbenă de la început începeți să vedeți că nu trebuie să repetați prin aceste cutii, dar
+
+04:05.470 --> 04:07.360
+big-O nu are mare grijă.
+
+04:07.360 --> 04:13.900
+Chiar dacă această funcție da este într-adevăr mai eficientă la sfârșitul zilei când vorbim despre big-O,
+
+04:14.290 --> 04:17.070
+vorbim despre cel mai rău caz.
+
+04:17.100 --> 04:19.300
+În regulă, sper că ai ajuns la punctul ăsta.
+
+04:19.360 --> 04:24.950
+Mă simt de parcă aș fi bătut într-o pulpă, așa că ar trebui să fiți confortabil până acum.
+
+04:25.120 --> 04:27.530
+Să vorbim despre următorul rol pe următorul videoclip.

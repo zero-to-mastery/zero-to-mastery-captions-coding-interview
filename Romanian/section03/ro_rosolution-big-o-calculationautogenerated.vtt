@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.050 --> 00:02.080
+Bine ai revenit.
+
+00:02.220 --> 00:05.980
+Cât de mult m-ai urât după ce am făcut această provocare.
+
+00:06.030 --> 00:13.080
+Acum trebuia să fie greu, dificil și frustrant și, cel mai probabil, nu veți reuși să o
+
+00:13.080 --> 00:14.990
+faceți pentru prima dată.
+
+00:15.240 --> 00:18.260
+Acest lucru a fost făcut cu scopul de a ilustra un punct.
+
+00:18.300 --> 00:20.340
+Ce facem de fapt aici.
+
+00:20.460 --> 00:23.300
+Ei bine, nu vi se va cere să faceți într-un interviu.
+
+00:23.430 --> 00:29.010
+Dar am vrut să vă arăt cum să vă gândiți la lucruri, pentru că mai târziu vă
+
+00:29.010 --> 00:37.070
+voi arăta cum este de fapt mult mai simplu decât să vă gândiți la fiecare pas individual și la o funcție de a calcula lucrurile.
+
+00:37.110 --> 00:42.850
+Nu sunt implicate prea multe matematici și aceasta este la fel de mathă pe măsură ce vom ajunge în acest curs.
+
+00:42.960 --> 00:48.810
+Dar din nou, vreau doar să vă arăt detaliile zgomotoase pentru a vă putea gândi și a avea o
+
+00:48.810 --> 00:53.800
+fundație frumoasă, astfel încât, înainte de a merge, să putem simplifica lucrurile mult mai bine.
+
+00:54.920 --> 00:56.930
+Acum, să ne uităm la această funcție.
+
+00:57.040 --> 01:01.780
+Este o funcție de provocare distractivă care are un fel de intrare.
+
+01:01.850 --> 01:08.120
+Primul lucru este în cadrul acestei funcții când conducem provocarea distractivă Să spunem doar
+
+01:08.450 --> 01:15.170
+să avem o provocare distractivă și să executăm această funcție, iar intrarea nu contează cu adevărat.
+
+01:15.200 --> 01:22.580
+Ar putea fi o matrice ar putea fi un obiect al cunoașterii doar să păstreze lucrurile simple spunând că este o serie de cinci.
+
+01:22.820 --> 01:28.440
+Acum, unde conducem această funcție, primul lucru pe care îl vom face este o sarcină.
+
+01:28.700 --> 01:36.180
+Vom desemna variabila A ca 10, bazată acum pe convenție.
+
+01:36.470 --> 01:42.770
+Și de aceea nu veți întâlni acest lucru într-un interviu, deoarece o mulțime de oameni interpretează acest lucru în mod diferit.
+
+01:42.770 --> 01:46.400
+Unii oameni spun că această misiune nu ar trebui să numărați pentru big-O.
+
+01:46.700 --> 01:48.830
+Și unii oameni spun că ar trebui.
+
+01:48.830 --> 01:53.710
+În cazul nostru, doar pentru a simplifica lucrurile, să numărăm fiecare pas și ce face funcția.
+
+01:54.080 --> 02:02.480
+Permiteți unui 10 să fie doar 0 din 1 deoarece acesta rulează doar o singură dată când executăm.
+
+02:02.480 --> 02:03.230
+Distracție provocatoare.
+
+02:03.230 --> 02:03.770
+Asta e.
+
+02:03.790 --> 02:06.240
+Nu contează cât de mare este intrarea.
+
+02:06.260 --> 02:12.850
+Acest lucru rulează doar o singură dată și apoi 50 plus trei suntem re-atribuirea A.
+
+02:13.130 --> 02:18.900
+Acest lucru este din nou unul.
+
+02:19.060 --> 02:21.660
+Și apoi intrăm într-o buclă.
+
+02:21.790 --> 02:29.200
+Știm că, cu bucla, se pare că ne uităm la lungimea intrării și în buclă, în funcție
+
+02:29.200 --> 02:31.360
+de orice este intrarea.
+
+02:31.360 --> 02:40.860
+În cazul nostru, acesta va fi un O al unui Hai să adăugăm acel comentariu aici și asta este din nou intrarea.
+
+02:40.900 --> 02:45.550
+Amintiți-vă că pot schimba doar două intrări pe care le pot schimba doar 2 X nu contează.
+
+02:45.550 --> 02:50.020
+Ea reflectă doar cât de mare este intrarea, așa va dura cât va dura această bucle.
+
+02:50.200 --> 02:59.490
+Și știm acest lucru până acum că buclele sunt timp liniar și apoi înăuntru aici o altă funcție pe care nu o știm despre
+
+02:59.490 --> 03:05.790
+ce este această funcție, ci sunând la o altă funcție în afara funcției de provocare distractivă.
+
+03:05.790 --> 03:08.630
+Aceasta este de asemenea numită de câte ori.
+
+03:08.880 --> 03:12.320
+Ei bine depinde de cât de mare este intrarea noastră.
+
+03:12.330 --> 03:15.950
+Deci, încă o dată, e un an.
+
+03:16.130 --> 03:17.630
+Ce zici de asta.
+
+03:17.680 --> 03:24.540
+Fie ca un străin variabil egal cu adevărat a început o altă misiune aleatorie aici.
+
+03:24.930 --> 03:32.430
+Dar aceasta rulează de câte ori se întâmplă această buclă dacă intrarea a fost de 5 ori mai veche de cinci ori.
+
+03:32.430 --> 03:41.260
+Deci, din nou, acest lucru ar fi un an și apoi aici, avem un plus plus care în javascript înseamnă
+
+03:41.260 --> 03:43.800
+pur și simplu un plus.
+
+03:43.870 --> 03:48.090
+Deci, noi doar creștem numărul indiferent de număr.
+
+03:48.130 --> 03:58.680
+Astfel, 53 vor deveni 54, iar atunci când vom trece prin ea vom continua să creștem cu 1 54 55 56.
+
+03:59.000 --> 04:01.990
+Aceasta din nou rulează 0 de timpi de terminare.
+
+04:02.000 --> 04:08.230
+Depinde de câte ori Brunt cumpără intrarea, pentru că din nou ne străduim.
+
+04:08.330 --> 04:10.960
+Și apoi, în cele din urmă, un alt lucru pe care unii oameni nu îl numără.
+
+04:10.970 --> 04:15.670
+Dar doar pentru a păstra consecvent fiecare pas pe care îl vom întoarce.
+
+04:15.800 --> 04:21.180
+Acest lucru rulează doar o dată, de fiecare dată când provocarea distractivă se înșeală.
+
+04:21.470 --> 04:25.630
+Instrucțiunea de returnare rulează numai o singură dată.
+
+04:25.680 --> 04:26.370
+In regula.
+
+04:26.370 --> 04:29.280
+Deci avem toate aceste notații Big O.
+
+04:29.280 --> 04:34.160
+Și acum începem să ne gândim cum funcționează o funcție și cât de eficientă este o funcție.
+
+04:34.410 --> 04:41.750
+Dacă într-adevăr vom calcula toate aceste lucruri dacă vom completa totul, vom vedea că avem 1 2 3.
+
+04:41.820 --> 04:51.040
+Așa că avem trei pași plus unul de cuptor.
+
+04:51.110 --> 05:02.710
+Asta înseamnă că avem un plus și plus Și asta înseamnă că executăm calculul.
+
+05:02.970 --> 05:07.360
+Și plus și plus și plus, care se dovedește a fi patru.
+
+05:07.430 --> 05:19.300
+Și așa trei plus patru și este notația noastră O mare acolo este cum am spus mai devreme atunci când vine vorba de mare.
+
+05:19.330 --> 05:22.740
+Oh, nu fi prea închisă.
+
+05:22.900 --> 05:23.970
+Am făcut așa bine.
+
+05:24.010 --> 05:30.850
+Întrucât într-un interviu nu vei avea nevoie să știi asta, dar acum poți să te gândești la modul în
+
+05:30.850 --> 05:34.890
+care o funcție rulează mai profund decât să scrie doar codul.
+
+05:35.440 --> 05:42.130
+Pe măsură ce am progresat prin videoclipurile pe care le veți afla, acest lucru
+
+05:42.310 --> 05:49.370
+se va simplifica până la sfârșitul zilei și vom trece prin asta și de ce este.

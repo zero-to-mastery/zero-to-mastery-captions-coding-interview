@@ -1,0 +1,382 @@
+WEBVTT
+
+00:01.300 --> 00:02.410
+Witamy spowrotem.
+
+00:02.800 --> 00:09.370
+Jak to ćwiczenie sprawia, że twój mózg słyszy od wszystkich tych mylących sekwencji.
+
+00:09.370 --> 00:18.010
+Zacznijmy teraz od funkcji rekursywnej, ponieważ w tym przypadku funkcja rekursywna jest o
+
+00:18.040 --> 00:20.850
+wiele łatwiejsza do przemyślenia.
+
+00:21.930 --> 00:29.730
+Jedyne, co moglibyśmy zrobić z naszą funkcją rekursywną, to powiedzieć, że podstawowa sprawa powie numer cztery
+
+00:29.940 --> 00:31.950
+i będzie równała się
+
+00:34.660 --> 00:35.270
+dwóm.
+
+00:35.470 --> 00:38.290
+Jeśli tak jest, po prostu
+
+00:42.070 --> 00:49.100
+wróć, jeśli spojrzymy na sekwencję, którą widzimy, jeśli indeksy są zerowe, odpowiedź wynosi zero.
+
+00:49.160 --> 00:53.900
+Jeśli indeks wynosi 1 Odpowiedź jest równa 1.
+
+00:54.200 --> 00:58.690
+A jeśli indeks wynosi 2, odpowiedź zmienia się na 1.
+
+00:58.700 --> 01:04.260
+Zamiast tego nasz podstawowy przypadek może być po prostu tym, który jest mniejszy niż 2.
+
+01:04.280 --> 01:08.280
+Zawsze zamierzamy po prostu zmienić to, co jest koniec.
+
+01:08.300 --> 01:13.500
+Więc jeśli powiemy 0, to zwróci 0, jeśli powiemy, że jeden powróci 1.
+
+01:13.580 --> 01:22.150
+Jeśli mamy indeks wyższy od tego dobrze, to musimy wykonać rekursję i wszystko, co zamierzamy tutaj
+
+01:22.150 --> 01:27.730
+zrobić, to mieć teraz instrukcję return i powiedzieć tę funkcję.
+
+01:27.730 --> 01:30.270
+Wiem, że ta funkcja jest naprawdę długa.
+
+01:30.280 --> 01:33.630
+Prawdopodobnie możemy sprawić, by było krótsze, by po prostu powiedzieć "kłamstwo".
+
+01:33.730 --> 01:38.140
+I zauważam, że nie potrzebujemy tutaj iteracji.
+
+01:38.300 --> 01:39.900
+To sprawi, że będzie trochę krótszy.
+
+01:39.900 --> 01:52.340
+Wiem, że powiemy, że Fed będzie równy minus jeden plus to samo minus dwa, ponieważ
+
+01:56.620 --> 02:01.180
+pamiętaj, że suma jest zawsze.
+
+02:01.180 --> 02:07.450
+Odpowiedź jest zawsze przed numerami 1 i 2.
+
+02:07.560 --> 02:17.560
+Więc dodajemy numery 1 i 2 przed naszą sekwencją i to wszystko.
+
+02:17.560 --> 02:26.230
+Jeśli uruchomimy tę funkcję, powiedzmy, że mamy rekurencję Bonacci 3 i klikam uruchom, otrzymuję 2, ponieważ
+
+02:26.470 --> 02:36.180
+0 1 2 3 to 2 zróbmy 8, co powinno dać nam 21, a ja kliknę Uruchom lub podaj 8.
+
+02:36.290 --> 02:45.930
+Dostaję 21 miłych i jeśli zrobię 0, otrzymam 0.
+
+02:46.290 --> 02:49.050
+Jeśli to zrobię, otrzymam jeden.
+
+02:49.080 --> 02:53.470
+Jeśli ja też to zrobię, powinienem to zrobić tutaj.
+
+02:53.520 --> 02:58.530
+Ładne i proste, nie wiem, czy to proste.
+
+02:58.570 --> 03:04.340
+Naprawdę musisz się z tym pogodzić, zanim naprawdę zrozumiesz, co się dzieje.
+
+03:04.420 --> 03:06.630
+Ale mam mały diagram, który ci w tym pomoże.
+
+03:07.570 --> 03:10.300
+Wszystko, co zrobiliśmy, to po prostu to.
+
+03:10.450 --> 03:19.900
+Jeśli dodałem 7 tutaj, funkcja rekurencyjna otrzyma jeden mniej niż 7 i 2 mniej niż 5, a następnie w ramach
+
+03:19.930 --> 03:26.080
+tych funkcji zrobi się to samo mniej niż sześć do mniej niż sześć.
+
+03:26.170 --> 03:30.090
+Chcesz wysłać 5 do mniej niż 3 i to wszystko.
+
+03:30.100 --> 03:39.420
+Wszystkie te wszystkie rzeczy, aż dojdziemy do FEBE 1, gdzie mamy naszą bazę, która zwraca tę liczbę.
+
+03:39.500 --> 03:42.310
+Więc to staje się jednym.
+
+03:42.430 --> 03:49.170
+To także staje się jednym, a następnie kontynuuje to, co powraca, powraca, aż dojdziemy do FEBE równej 7.
+
+03:49.180 --> 03:53.800
+Teraz jest to schemat, do którego mamy wrócić, ale widzimy, że robimy tutaj wiele
+
+03:53.800 --> 03:54.340
+obliczeń.
+
+03:55.250 --> 03:57.770
+Ale po prostu to wszystko, co robimy.
+
+03:59.820 --> 04:06.360
+Teraz powiedziałem, że podejście rekurencyjne jest prostsze niż podejście iteracyjne.
+
+04:06.810 --> 04:10.860
+Rzućmy okiem na to, jak będzie wyglądać iteracyjne podejście.
+
+04:10.950 --> 04:14.790
+Stworzymy tablicę i istnieje wiele sposobów na zrobienie tego.
+
+04:14.790 --> 04:24.370
+To jest mój ulubiony sposób i ta ankieta będzie zawierała początkowe elementy sekwencji 0 i 1.
+
+04:24.580 --> 04:31.280
+A to przede wszystkim zwróci tablicę element.
+
+04:31.280 --> 04:36.680
+Tworzymy tę tablicę, a następnie przechwytujemy dowolny indeks, jakiego chce użytkownik.
+
+04:36.680 --> 04:43.940
+W naszym przypadku, jeśli użytkownik zażąda 0 lub 1, mamy już tablicę wstępnie wypełnioną zerami i 1, a ona będzie
+
+04:43.940 --> 04:45.390
+zwracać to samo.
+
+04:45.800 --> 04:49.610
+Ale nadal musimy obliczyć dla wszystkich pozostałych.
+
+04:49.610 --> 04:58.760
+Tam robimy pętlę for i mówmy "Pozwól mi równać dwa", ponieważ zaczniemy dodawać, gdy indeks
+
+04:59.000 --> 05:12.560
+ma wartość "0 1 2", aby rozpocząć wypełnianie ankiety, "oznacza mniej niż" plus "lub" możemy zrobić równy udział ". na razie to
+
+05:12.560 --> 05:17.660
+zostawimy, a my zwiększymy plus i plus.
+
+05:17.960 --> 05:23.480
+W tej pętli będziemy kontynuować, dopóki nie osiągniemy liczby
+
+05:23.810 --> 05:26.390
+indeksu, który nas interesuje,
+
+05:28.980 --> 05:38.890
+a wszystko, co zamierzamy powiedzieć, to push array I minus dwa plus re PI minus jeden.
+
+05:39.110 --> 05:40.640
+Podobne do tego, co zrobiliśmy wcześniej.
+
+05:40.640 --> 05:45.830
+Właśnie podsumowujemy poprzednie dwie liczby i wciskamy je do tablicy.
+
+05:46.820 --> 05:47.320
+W porządku.
+
+05:47.420 --> 05:49.030
+Zobaczmy teraz, czy to działa.
+
+05:49.070 --> 05:53.410
+Zamierzam to skomentować i po prostu zrobić iteracyjne podejście.
+
+05:54.630 --> 05:56.760
+Dostaję dwa za trzy.
+
+05:56.760 --> 05:58.900
+A co z indeksem ośmiu?
+
+05:59.070 --> 06:01.740
+Dostaję 21 idealnych.
+
+06:01.830 --> 06:11.640
+A potem, jeśli zrobię indeks 0 i X 1 i indeks dwóch, powinien być jeden doskonały.
+
+06:11.670 --> 06:16.980
+Teraz powiedziałem, że podejście rekurencyjne jest prostsze niż podejście iteracyjne.
+
+06:16.980 --> 06:18.880
+Teraz to moja osobista opinia.
+
+06:18.930 --> 06:25.440
+Możesz nie myśleć, że możesz myśleć, że to było dość łatwe, ale dla mnie jest to o wiele lepsze niż
+
+06:26.190 --> 06:28.090
+cała ta rzecz, którą robimy.
+
+06:28.960 --> 06:34.390
+I to jest coś, co zamierzamy zrobić w następnym filmie, w którym
+
+06:34.390 --> 06:41.050
+mówimy o kompromisach między iteracyjnym i rekurencyjnym podejściem do tych problemów i dlaczego może zastanawiacie się,
+
+06:41.260 --> 06:44.210
+dlaczego mielibyśmy kiedykolwiek pisać coś rekursywnego.
+
+06:44.380 --> 06:48.720
+Jeśli uznasz to za mylące, do tego dojdziemy.
+
+06:48.810 --> 06:54.000
+Ale jedną rzeczą, którą chcę ci pokazać, jest coś, czego właśnie się tutaj uczymy, co jest dla nas nowe.
+
+06:54.540 --> 06:57.370
+Jak myślisz, jaka jest wielka z tych dwóch funkcji.
+
+06:59.030 --> 07:02.770
+Cóż w naszym iteracyjnym rozwiązaniu.
+
+07:02.870 --> 07:06.410
+Wielka O jest liniowym czasem w prawo.
+
+07:06.410 --> 07:07.640
+Jest o.
+
+07:07.670 --> 07:16.190
+Zasadniczo po prostu przechodzimy przez pętlę i minus dwa razy, ponieważ pomijamy pierwsze dwa
+
+07:16.190 --> 07:20.490
+elementy, co z kolei sprawia, że jest.
+
+07:20.560 --> 07:22.110
+Piekarnik.
+
+07:22.150 --> 07:25.930
+Ale co z podejściem rekursywnym.
+
+07:25.960 --> 07:28.610
+Zapamiętaj diagram, który ci pokazałem.
+
+07:28.860 --> 07:34.860
+To o wiele więcej obliczeń niż tylko siedem.
+
+07:34.970 --> 07:42.430
+Mamy wiele wywołań funkcji, które występują w tym przypadku w rozwiązaniu rekursji.
+
+07:42.430 --> 07:52.060
+Potrzeba tego, co nazywamy czasem wykładniczym, gdy wielkość drzewa rośnie wykładniczo, kiedy rośnie i jeśli liczba
+
+07:52.630 --> 08:02.020
+Fibonacciego wynosiłaby osiem, mielibyśmy to drzewo, a także inne drzewo poniżej FEBE 8, więc o
+
+08:03.570 --> 08:06.120
+co w tym chodzi.
+
+08:08.140 --> 08:13.040
+Jest to bardzo ekscytujące, ponieważ uczymy się nowego zapisu Big O.
+
+08:13.270 --> 08:17.520
+Dowiadujemy się o tym jednym wykładniczym czasie.
+
+08:18.670 --> 08:28.080
+Co widać z algorytmami rekurencyjnymi, które rozwiązują problem wielkości i 2 do potęgi, jeśli pójdziemy do naszego wielkiego
+
+08:28.080 --> 08:33.230
+O Chichi to jest 0 2 do potęgi mrówki.
+
+08:33.270 --> 08:37.860
+I widzisz, jak bardzo się zwiększa.
+
+08:37.860 --> 08:39.520
+To bardzo źle.
+
+08:39.780 --> 08:50.300
+Jest większy niż 0 i kwadratowy dwa zagnieżdżone dla pętli czas wykładniczy oznacza każdy dodatkowy element
+
+08:50.390 --> 08:52.860
+w sekwencji Fibonacciego.
+
+08:52.880 --> 08:58.070
+Otrzymujemy wykładniczo wzrost wywołań funkcji.
+
+08:58.150 --> 09:05.410
+A oto zabawna sztuczka, chociaż jest to podejście wielokrotne.
+
+09:05.410 --> 09:18.660
+Ta funkcja, ponieważ to wszystko dwa do potęgi, jeśli uruchomię tę funkcję, powiedzmy, jeśli zrobimy 10, otrzymam
+
+09:20.700 --> 09:27.230
+wynik, jeśli zrobię 15, nadal otrzymuję wynik.
+
+09:27.230 --> 09:28.570
+Co jeśli zrobię 20 tutaj?
+
+09:29.940 --> 09:30.300
+W porządku.
+
+09:30.300 --> 09:33.120
+Zaczyna być coraz większy.
+
+09:33.230 --> 09:40.530
+Robię 30, jeśli mam 40.
+
+09:40.550 --> 09:43.810
+Czy widzisz, ile czasu zajęło obliczenie.
+
+09:44.030 --> 09:47.960
+Ponieważ nasza złożoność czasu rośnie coraz bardziej.
+
+09:48.070 --> 09:55.340
+Jeśli zrobię czterdzieści trzy teraz, zobaczysz, że czekamy i czekamy i czekamy na
+
+09:55.340 --> 09:55.990
+obliczenia.
+
+09:56.090 --> 10:01.610
+I w końcu przeglądarka podaje obliczenia jako pytanie dodatkowe i
+
+10:01.610 --> 10:05.770
+zastanawia się, ile obliczeń Fibonacci 43 wymaga.
+
+10:07.130 --> 10:17.590
+Chociaż może być bardziej czytelny, nie jest idealnym rozwiązaniem, ponieważ duża złożoność czasu jest dość duża.
+
+10:17.750 --> 10:23.310
+A to jest coś, o co możesz zapytać w wywiadzie i wiem, co myślisz.
+
+10:23.620 --> 10:28.210
+Andre właśnie nauczyłeś nas o rekursji i nie jest nawet dobra.
+
+10:28.360 --> 10:30.430
+Jest powolny, jest mylący.
+
+10:30.430 --> 10:33.570
+Dlaczego miałbym kiedykolwiek używać rekurencji?
+
+10:34.480 --> 10:38.290
+W następnym filmie porozmawiam o tym kompromisie.
+
+10:38.290 --> 10:42.260
+Dlaczego kiedykolwiek używałbyś rekursji nad czymś, co jest zapaleniem jelit.
+
+10:43.470 --> 10:46.190
+Dlaczego miałby to zrobić ktoś przy zdrowych zmysłach?
+
+10:46.530 --> 10:54.530
+A jak się okaże, są pewne zalety i wady, a właściwie taka funkcja jak sekwencja Fibonacciego i
+
+10:54.530 --> 11:02.380
+rekurencja mogą być wykonane na wszystkich końcach przy użyciu czegoś takiego jak dynamiczne programowanie i
+
+11:02.380 --> 11:05.010
+zapamiętywanie, o których będziemy mówić.
+
+11:05.110 --> 11:11.350
+Pod koniec kursu i wrócimy do tego, ale nareszcie odpowiedzmy na pytanie w
+
+11:11.350 --> 11:12.810
+następnym wideo.
+
+11:13.030 --> 11:18.730
+Dlaczego kiedykolwiek używałeś rekursji przez coś iteracyjnego?
+
+11:18.780 --> 11:20.320
+Zobaczę w następnym.
+
+11:20.440 --> 11:20.700
+Bebai.

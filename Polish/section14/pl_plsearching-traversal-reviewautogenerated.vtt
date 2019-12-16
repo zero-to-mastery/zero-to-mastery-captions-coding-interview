@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.210 --> 00:02.510
+Święty Moly.
+
+00:02.520 --> 00:04.340
+Kolejna sekcja wykonana.
+
+00:04.390 --> 00:11.410
+Zbliżamy się do końca w tym dziale, w którym dowiedzieliśmy się o wyszukiwaniu i przechodzeniu na
+
+00:11.410 --> 00:19.690
+jedne z najpopularniejszych i najważniejszych algorytmów, których nauczyliśmy się o wyszukiwaniu liniowym i o tym, jak może być dobry
+
+00:19.690 --> 00:25.490
+w niektórych przypadkach, ale nie jest najbardziej wydajny, ponieważ ma liniowy charakter. czas.
+
+00:25.650 --> 00:34.350
+Rozmawialiśmy również o wyszukiwaniu binarnym, w którym możemy przeszukiwać logi w istocie pomijając
+
+00:34.350 --> 00:41.270
+wiele węzłów, które musielibyśmy przeszukać, dzieląc drzewo na pół.
+
+00:41.280 --> 00:47.890
+Następnie rozmawialiśmy o tym, jak przejść drzewo i wykres, który odwiedza każdą notatkę.
+
+00:48.540 --> 00:55.020
+A najefektywniej, jak to możliwe, rozmawialiśmy o pierwszym wyszukiwaniu głębo- kim, które wchodzi tak głęboko,
+
+00:55.020 --> 01:04.440
+jak to możliwe do drzewa lub wykresu i oddechu dla wyszukiwania, które idzie poziom po wyszukaniu poziomu lub przechodzeniu przez drzewo lub wykres
+
+01:04.440 --> 01:04.900
+i
+
+01:08.000 --> 01:14.780
+czy zdajesz sobie z tego sprawę, czy nie my. "Ukończyłem wiele map myśli, które wydawały się
+
+01:15.290 --> 01:18.950
+tak przerażające na początku tego kursu, jaki widzisz.
+
+01:18.980 --> 01:29.100
+Teraz, gdy patrzymy na przykład na wyścig, rozumiemy, że gdy mamy tablicę potrzebną do przeszukiwania tablicy, możemy
+
+01:29.100 --> 01:35.900
+zadać pytanie, które hej jest posortowane, ponieważ jeśli tak, to tak.
+
+01:36.000 --> 01:42.990
+W takim przypadku powinniśmy podzielić i podbić i ułożyć tę tablicę w strukturze danych
+
+01:42.990 --> 01:51.040
+drzewiastych, abyśmy mogli wykonać wyszukiwanie binarne i uzyskać zwiększenie prędkości wszystkich dzienników, a tablica nie jest posortowana.
+
+01:51.150 --> 02:00.420
+No cóż, tak naprawdę jest to bardziej wydajne w sortowaniu tablicy, mimo że wymaga ona wszystkich i
+
+02:00.420 --> 02:09.310
+zalogowania się, jak wiemy tutaj, a następnie przeszukiwania binarnego po posortowaniu i wiele programów to robi.
+
+02:10.170 --> 02:17.250
+Chociaż sortowanie może wydawać się czasochłonne, a następnie przeszukiwanie to jest w rzeczywistości szybsze
+
+02:17.250 --> 02:20.600
+niż wykonywanie linearnego wyszukiwania w kółko.
+
+02:20.690 --> 02:27.870
+Możemy również uzupełnić tę część wykresu, gdzie dochodzimy do wykresów i drzew.
+
+02:27.870 --> 02:34.500
+Gdy wykonujemy ruchy poprzeczne, spróbujmy odwiedzić węzeł w drzewie lub wykresie lub wszystkie węzły w
+
+02:34.500 --> 02:35.850
+drzewie nad wykresem.
+
+02:35.930 --> 02:40.640
+Wiemy, że to przejmie i że musimy odwiedzić każdy węzeł.
+
+02:40.660 --> 02:49.970
+Będzie to czas liniowy, ale są sposoby na przemierzanie tych drzew za pomocą pierwszego wyszukiwania i głębokiego pierwszego
+
+02:49.970 --> 02:57.490
+wyszukiwania oddechu. Dowiedzieliśmy się, że pierwsze wyszukiwanie oddechu jest świetne na najkrótszą ścieżkę.
+
+02:57.900 --> 03:05.350
+Algorytmy podczas pierwszego wyszukiwania w głąb są naprawdę świetne w rozwiązywaniu problemów Maiz, a może
+
+03:05.350 --> 03:06.850
+w odnajdywaniu węzła.
+
+03:07.890 --> 03:15.050
+A śmierć w przypadku wyszukiwania pozwala nam na wykonanie w porządku zamówienia pocztowego i sortowania w przedsprzedaży.
+
+03:15.190 --> 03:23.400
+I sami to wszystko kodowaliśmy i dowiadujemy się, jak działa kod przy użyciu rekurencji z pierwszym wyszukiwaniem
+
+03:23.430 --> 03:24.040
+głębi.
+
+03:24.190 --> 03:33.720
+A także przy pierwszym wyszukiwaniu Bretta z wykorzystaniem iteracji i rekurencji przy użyciu kluczowej struktury danych.
+
+03:33.740 --> 03:40.760
+W końcu dowiedzieliśmy się też trochę o najkrótszych problemach z ścieżkami, takich jak ten, który Google Maps
+
+03:40.760 --> 03:47.630
+użyłby, gdy czekają między węzłami na wykresie, gdzie możemy użyć czegoś takiego jak Belman Ford lub
+
+03:47.660 --> 03:50.000
+algorytmu diasters do rozwiązania problemu.
+
+03:51.230 --> 03:52.380
+Gratulacje.
+
+03:52.530 --> 04:03.340
+To jest twoja mapa myśli i objąłeś każdą rzecz na tej mapie z wyjątkiem jednej i to
+
+04:03.340 --> 04:05.420
+jest właśnie tutaj.
+
+04:05.470 --> 04:07.080
+Programowanie dynamiczne.
+
+04:07.570 --> 04:14.610
+To krótka sekcja, aby ukończyć naszą ogólną mapę myśli i przygotować wywiad.
+
+04:14.690 --> 04:16.490
+Więc zobaczę cię w następnej sekcji.
+
+04:16.490 --> 04:17.270
+Gratulacje.
+
+04:17.270 --> 04:18.300
+Osiągnięcie tak daleko.
+
+04:18.380 --> 04:19.460
+Jesteś prawie na miejscu.

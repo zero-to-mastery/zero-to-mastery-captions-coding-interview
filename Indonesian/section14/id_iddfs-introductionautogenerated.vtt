@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.130 --> 00:06.960
+Kedalaman pencarian pertama layaknya pencarian pertama agak berbeda.
+
+00:08.010 --> 00:16.440
+Pencarian mengikuti satu cabang pohon ke bawah sebanyak mungkin tingkat sampai pemberitahuan target ditemukan
+
+00:16.770 --> 00:18.620
+atau akhir tercapai.
+
+00:19.580 --> 00:21.970
+Kapan pencarian bisa berjalan lebih jauh.
+
+00:21.970 --> 00:27.700
+Itu berlanjut pada leluhur terdekat dengan anak yang belum dijelajahi.
+
+00:27.950 --> 00:29.040
+Mari ku tunjukkan.
+
+00:29.150 --> 00:30.900
+Kami mulai dengan sembilan.
+
+00:31.010 --> 00:32.900
+Lalu kita pergi ke enam.
+
+00:33.200 --> 00:36.560
+Lalu kita pergi ke satu dan kita telah mencapai simpul daun.
+
+00:36.600 --> 00:37.900
+Tidak ada lagi anak-anak.
+
+00:38.030 --> 00:44.870
+Jadi kita kembali ke 6 kepada leluhur kita dan kemudian melihat apakah ada lagi anak-anak yang belum dijelajahi dalam kasus ini kita
+
+00:44.870 --> 00:46.100
+belum mencapai empat.
+
+00:46.160 --> 00:48.120
+Jadi mari kita kembali ke empat.
+
+00:48.530 --> 00:53.840
+Dan sekarang kita naik karena tidak ada lagi anak-anak sampai dengan 9 dan katakan
+
+00:53.840 --> 01:01.500
+Baiklah mari kita pergi ke sana sekarang kita pergi ke 12 kemudian 34 dan kemudian naik kembali dan kemudian mencari 45 juga.
+
+01:03.500 --> 01:11.180
+Sekarang pencarian mendalam pertama memiliki persyaratan memori lebih rendah dari pencarian pertama karena tidak perlu untuk menyimpan
+
+01:11.180 --> 01:14.280
+semua pointer anak di setiap tingkat.
+
+01:14.510 --> 01:20.980
+Sesuatu yang akan kita lihat ketika kita benar-benar mengkodekan ide dengan pencarian pertama adalah kita ingin masuk
+
+01:20.980 --> 01:23.020
+sedalam mungkin ke dalam grafik.
+
+01:23.440 --> 01:30.250
+Biasanya mulai dari sisi kiri dan kemudian mulai pergi ke kanan hingga traversal pohon
+
+01:30.250 --> 01:33.410
+dilakukan seperti namanya menyarankan kita pergi.
+
+01:33.420 --> 01:35.410
+Kedalaman pertama itu dalam.
+
+01:35.410 --> 01:41.070
+Ayat pertama mengatakan pencarian napas tuli terlihat seperti ini.
+
+01:41.080 --> 01:46.960
+Sekali lagi kita turun semua naik kembali turun kembali naik turun.
+
+01:46.990 --> 01:51.480
+Kembalilah sampai sejauh yang Anda bisa lihat lebih dalam.
+
+01:51.520 --> 01:57.080
+Lalu terus ke kanan dan saya suka memikirkan kematian.
+
+01:57.150 --> 02:04.200
+Pencarian pertama adalah seperti berjalan melalui labirin kanan kita akan sejauh yang kita bisa dan ketika kita menemui jalan
+
+02:04.200 --> 02:10.170
+buntu baik Anda berbalik dan pergi ke titik berikutnya di mana Anda dapat membuat mungkin kiri
+
+02:10.500 --> 02:14.750
+ke penulis sampai Anda bisa ujung labirin atau labirin berakhir.
+
+02:14.820 --> 02:23.470
+Jadi, jika kita kembali ke kode kita dan melihat pencarian pertama, kita lakukan di sini pencarian pertama BRAF.
+
+02:23.520 --> 02:25.620
+Bagaimana dengan pencarian mendalam pertama.
+
+02:25.620 --> 02:26.610
+Bagaimana itu terlihat.
+
+02:28.380 --> 02:34.920
+Nah dari apa yang kita ketahui dan Petunjuk, akan ada variasi pencarian tuli yang
+
+02:34.920 --> 02:35.610
+berbeda.
+
+02:35.610 --> 02:44.840
+Tetapi dari apa yang kita ketahui kita akan mulai dengan sembilan kemudian empat lalu satu lalu kembali ke empat
+
+02:44.900 --> 02:53.760
+dan kemudian menemukan enam naik kembali menemukan 20 pergi ke kiri 15 dan pergi ke yang benar 70.
+
+02:54.230 --> 02:59.620
+Jadi daftar kami sedikit berbeda dari nafas untuk pencarian.
+
+02:59.840 --> 03:06.850
+Kami memiliki pesanan yang berbeda tetapi mengapa kami memiliki dua cara menjelajahi pohon atau grafik ini.
+
+03:06.920 --> 03:08.660
+Apa pro dan kontra.
+
+03:08.810 --> 03:15.270
+Dan sampai sekarang saya baru saja berbicara tetapi Anda mungkin tidak mengerti mengapa yang satu lebih baik dari yang lain.
+
+03:16.070 --> 03:20.500
+Dan sebelum kita menerapkan ini ke dalam kode saya ingin membahas pro dan kontra dari masing-masing.
+
+03:20.510 --> 03:21.990
+Jadi mari kita lakukan di video berikutnya.

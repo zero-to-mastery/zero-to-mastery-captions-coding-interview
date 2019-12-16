@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.890 --> 00:08.540
+Per quanto riguarda la prima ricerca di profondità nei grafici potresti non saperlo, ma hai appena imparato
+
+00:08.840 --> 00:16.970
+a risolvere un labirinto usando il programma perché la prima ricerca della morte è esattamente come risolvere un labirinto giusto.
+
+00:17.300 --> 00:23.360
+Se hai mai fatto un vero labirinto di vita o hai guardato un programma che cerca
+
+00:23.360 --> 00:30.560
+di risolvere quale percorso prendere l'idea era di andare più in profondità che puoi e quando colpisci un posto di
+
+00:30.560 --> 00:37.370
+blocco o un posto dove non puoi più andare ritorni indietro e trovi un percorso diverso e poi torni
+
+00:37.370 --> 00:44.850
+indietro fino a trovare il nodo desiderato o accetti il labirinto e questa è la bellezza della morte per la ricerca.
+
+00:44.920 --> 00:50.350
+Ora puoi implementare un algoritmo che risolve un puzzle labirinto.
+
+00:50.410 --> 00:52.980
+Non è bello come qui.
+
+00:53.020 --> 01:02.980
+Se facciamo una prima ricerca di def, diciamo che stiamo iniziando dal numero uno e 10 è l'accettazione o nove
+
+01:02.980 --> 01:03.990
+è l'uscita.
+
+01:04.360 --> 01:12.250
+E in realtà non funzionerà perché questo a differenza del nostro grafico precedente, che era indirizzato, ha entrambe le direzioni che
+
+01:12.250 --> 01:14.520
+posso andare avanti e indietro.
+
+01:14.560 --> 01:19.220
+Questo è un grafico diretto che ha specifiche direzioni che può andare.
+
+01:19.420 --> 01:21.680
+Quindi facciamo uno zero a nove.
+
+01:21.880 --> 01:28.230
+Se faccio la morte per una ricerca e faccio 9 o inizieremo a zero cercando di trovare nove.
+
+01:28.420 --> 01:32.140
+Proprio come guardare attraverso un labirinto, vado qui vado qui.
+
+01:32.290 --> 01:39.460
+Continuo ad attraversare i miei figli e poi cerco di andare più profondamente che posso e sono riuscito a uscire dal labirinto
+
+01:39.460 --> 01:43.180
+prima di cercare anche il 6 e il 5 qui.
+
+01:44.370 --> 01:48.500
+E ovviamente questo algoritmo continua perché posso dire che finirà alle nove.
+
+01:48.630 --> 01:52.730
+Ma vedi come è stato esattamente come risolvere un labirinto.
+
+01:53.720 --> 01:57.030
+Ed è per questo che usiamo la ricorsione per la morte per una ricerca giusta.
+
+01:58.120 --> 02:06.220
+L'idea di tornare indietro dopo un vicolo cieco e poi di ripetere il cammino su un altro sentiero è solo ricorsione ogni passo più
+
+02:07.260 --> 02:12.470
+piccolo dell'altro e poi torniamo indietro e continuiamo a fare sempre la stessa cosa.
+
+02:13.430 --> 02:20.340
+L'idea della morte per una ricerca è che è davvero bravo a dire che il percorso esiste.
+
+02:20.420 --> 02:29.960
+Non ci dice il percorso più breve ma se esiste addirittura e utilizza meno profondità di memoria per prima ricerca.
+
+02:30.000 --> 02:38.280
+L'unico lato negativo è che, se si dispone di un grafico veramente molto profondo, può diventare molto lento perché più profondo
+
+02:38.370 --> 02:46.440
+è il grafico, più chiamate ricorsive maggiore è la complessità dello spazio che si aggiunge perché dobbiamo tenere traccia di
+
+02:46.440 --> 02:48.900
+quelle chiamate di funzione in pila.

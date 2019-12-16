@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.860 --> 00:09.250
+Bine ați venit înapoi să implementăm prima căutare în profunzime, utilizând pentru a ordona ordinea și postarea și
+
+00:09.250 --> 00:12.700
+vom începe să pornim în ordine.
+
+00:12.700 --> 00:21.560
+Mai întâi să numim acest lucru să spunem mai întâi adâncimea.
+
+00:22.740 --> 00:28.490
+Traversal sau căutați în acest caz și vom spune în ordine.
+
+00:28.760 --> 00:35.570
+Acum, în interiorul nostru vom folosi recursivitatea, deoarece în majoritatea timpului def prima căutare este implementată folosind recursivitate,
+
+00:35.600 --> 00:39.190
+deoarece este destul de simplu să faceți acest lucru.
+
+00:39.230 --> 00:45.900
+După cum veți vedea, dar dacă vă amintiți de la implementarea listei de căutare în primul rând cu recursivitate, deoarece vom numi
+
+00:45.900 --> 00:48.030
+această funcție de peste și peste.
+
+00:48.030 --> 00:52.690
+Nu putem declasa doar variabilele din interiorul acesteia, deoarece ele vor fi resetate.
+
+00:52.800 --> 00:59.870
+Deci, vom face același lucru ca și noi, dar vom păstra lucrurile curate și de asemenea să vă
+
+00:59.990 --> 01:06.300
+arătăm cât de diferit ordonată def pentru căutări funcționează, pentru că vom avea trei dintre ele.
+
+01:06.560 --> 01:17.370
+Vom avea în ordine Ordine de postare și comandă prealabilă, voi crea trei funcții
+
+01:17.370 --> 01:20.500
+separate aici descriind acestea.
+
+01:20.520 --> 01:29.240
+Deci tot ce voi spune aici este că vom reveni la funcția de inversare.
+
+01:29.340 --> 01:40.220
+Aceasta va fi funcția noastră recursivă și metoda DFS în ordine întoarce pur și simplu ceea ce ne dă acest rezultat.
+
+01:40.530 --> 01:44.130
+Deci, în cazul nostru vom adăuga această cale Daut.
+
+01:44.130 --> 01:52.780
+Începeți cu nodul rădăcină și o vom da o listă sau dacă răspunsurile noastre vor fi introduse
+
+01:52.780 --> 02:00.420
+și vom face același lucru pentru ordinea postului și precomandăm doar să le numim.
+
+02:00.700 --> 02:05.530
+Există modalități adecvate.
+
+02:05.640 --> 02:08.910
+Deci, să scriem prima funcție Cerveris.
+
+02:09.060 --> 02:14.350
+Dacă pot să scriu o ordine de traversare a postărilor și să vă ordonez.
+
+02:14.640 --> 02:16.280
+Să începem cu prima.
+
+02:16.500 --> 02:21.920
+Va fi o funcție numită traverse pentru a ne crea mai sus.
+
+02:21.960 --> 02:30.810
+Asta va avea un nod și un fel de date sau îl putem numi.
+
+02:30.830 --> 02:40.410
+În acest caz, amintiți-vă acum că pentru a ne da lista nodurilor ordonate în ordine dacă ne
+
+02:41.100 --> 02:49.390
+uităm la copacul nostru dorim să avem 1 4 6 9 15 20 170.
+
+02:49.830 --> 02:57.510
+Și modul în care facem acest lucru este bine, mai întâi de toate, vom verifica dacă nodul are o
+
+02:57.540 --> 02:58.690
+cotletă stângă.
+
+02:58.950 --> 03:09.340
+Dacă se întâmplă bine, atunci vom merge la versetul bisericii până la capăt, folosind recursiunea la punctul
+
+03:10.560 --> 03:14.890
+nodului, râzând și trecând din nou datele.
+
+03:14.950 --> 03:22.340
+Știu că recursivitatea poate fi dificil de înțeles la început, dar tot ceea ce spunem aici este că dacă
+
+03:22.340 --> 03:31.380
+nodul în special nodul rădăcină atunci când îl pornim pentru prima dată dacă are un copil stâng, pe care 9 îl traversează apoi până
+
+03:31.380 --> 03:38.790
+la capăt, continuați să mergeți la stânga va numi această funcție și va continua să meargă la stânga până când
+
+03:38.820 --> 03:44.170
+nodul nu mai are copii și ajungem la unul când ajungem la 1.
+
+03:44.190 --> 03:52.840
+Vreau să dau un punct final pentru a împinge valoarea nodului nostru de răspuns.
+
+03:52.980 --> 04:00.930
+Deci, odată ce nu mai rămâne niciun nod, în cazul în care la un singur lucru mergem la pasul următor, care este
+
+04:00.930 --> 04:04.090
+de a împinge această valoare una în listă.
+
+04:04.110 --> 04:08.910
+După aceea, vom face același lucru pe care l-am făcut și aici.
+
+04:09.270 --> 04:15.450
+Asta este că vrem să mergem să verificăm asta acum și să spunem că merge tot drumul spre dreapta până când nu
+
+04:15.450 --> 04:16.600
+mai sunt copii.
+
+04:17.690 --> 04:26.450
+Și acum avem șase și vom trece prin această funcție din nou când avem șase.
+
+04:26.600 --> 04:37.490
+Nu există niciun copil stâng și va apăsa valoarea nodului curent care este 6 în dreapta, așa că, de fapt, să consolezem
+
+04:37.550 --> 04:39.250
+înregistrați acest lucru.
+
+04:39.530 --> 04:41.440
+Și de modul în care vrem să ne întoarcem.
+
+04:41.480 --> 04:45.920
+Amintiți-vă că vrem să întoarcem lista la sfârșit.
+
+04:46.160 --> 04:56.010
+Așa că am de gând să consolez nodul log dot thali și dacă dau clic pe alerga aici sau să ne
+
+04:56.060 --> 04:57.840
+asigurăm că lucrează
+
+05:01.110 --> 05:13.030
+o să spun Traversă pentru că voi comenta aceste două și spun copacul D punct la rapid în comanda și vom rula doar acest fișier
+
+05:15.590 --> 05:21.670
+în jurul valorii de faptul că am obține date nu este definită.
+
+05:21.670 --> 05:27.130
+Pentru că ce trebuie să fie listat aici de-a lungul LIST.
+
+05:27.340 --> 05:29.880
+Hai să fugim și să ne uităm la asta.
+
+05:29.890 --> 05:39.040
+Avem 1 4 6 9 15 20 170 și vedem aici calea pe care am luat-o pentru că eu mă gândesc la dreapta ta.
+
+05:39.130 --> 05:43.990
+Avem 9 4 1 apoi 6.
+
+05:44.160 --> 05:54.970
+Apoi ne întoarcem la 20 15 apoi la 170, dar pentru că ne împingem răspunsurile la listă după ce am verificat notele din stânga și
+
+05:54.970 --> 06:01.560
+am traversat tot drumul în jos, cele mai mici numere se pun în listă.
+
+06:01.570 --> 06:10.520
+Acum, frumusețea acestui lucru este că punerea în aplicare a celorlalte două acum devine extrem de ușoară deoarece
+
+06:10.530 --> 06:12.040
+sunt foarte asemănătoare.
+
+06:12.040 --> 06:13.860
+Doar comanda se schimbă.
+
+06:14.260 --> 06:17.800
+Așadar, următorul, care este traversat, să
+
+06:20.400 --> 06:22.660
+spunem că ordonăm.
+
+06:22.820 --> 06:29.720
+Singura diferență acum este că trebuie să vă asigurați că vom numi în mod recursiv numele potrivit.
+
+06:30.950 --> 06:41.950
+Singura diferență este că, cu preorder, vrem să împingem chiar la început, înainte să ajungem la nota
+
+06:41.950 --> 06:43.360
+foarte stângă.
+
+06:43.930 --> 06:54.330
+Deoarece ne amintim într-un traversal pre-comandă mergem 9 4 1 6 apoi 20 15 170.
+
+06:54.340 --> 06:57.200
+Începem cu părinții în primul rând și asta e ordinul.
+
+06:57.640 --> 07:01.820
+Așa că împingem mai întâi parintele, care este de 9 ani.
+
+07:01.960 --> 07:07.740
+Apoi, avem patru, apoi unul, apoi avem șase și 20 și 50 decât 170.
+
+07:08.630 --> 07:10.040
+Să vedem dacă funcționează.
+
+07:10.160 --> 07:16.240
+Voi schimba acest lucru la o comandă prealabilă, asigurați-vă că scriu acest drept.
+
+07:17.170 --> 07:22.420
+Preordonați purrfect și apoi capul alerga și uita-te la asta.
+
+07:22.560 --> 07:32.830
+Am mers 9 4 1 6 20:15 170 în această ordine în listă.
+
+07:32.840 --> 07:37.360
+Acum, puteți opri videoclipul și puteți vedea dacă putem implementa ultima oară.
+
+07:37.370 --> 07:39.060
+Ar trebui să fie destul de simplu.
+
+07:39.170 --> 07:40.160
+Dreapta.
+
+07:40.250 --> 07:40.510
+In regula.
+
+07:40.520 --> 07:41.630
+O să plec.
+
+07:42.330 --> 07:45.700
+Ordinea Post va fi foarte asemănătoare.
+
+07:46.940 --> 07:57.360
+Vom spune ca ordinea postului Traverse va avea ultimul impuls la sfarsit.
+
+07:59.330 --> 08:01.000
+De ce, mă rog.
+
+08:01.190 --> 08:14.260
+Pentru că verificăm 1 6 stânga și dreapta și apoi topul patru apoi 15 170 20 apoi 9.
+
+08:14.320 --> 08:18.410
+Deci, ordinea după cum sugerează numele este post este la sfârșitul.
+
+08:18.940 --> 08:22.140
+Deci, dacă am schimbat doar pentru a posta ordine acum.
+
+08:24.370 --> 08:25.850
+Și l-am lovit pe Ron.
+
+08:26.200 --> 08:31.950
+Avem o ordine greșită, pentru că trebuie să mă asigur că schimbe numele, așa că e cursivă.
+
+08:32.020 --> 08:37.970
+Deci, spunem ca posturile de frontieră portabile de trecere nu trebuie ordonate.
+
+08:38.080 --> 08:40.860
+Și dacă aș fi rulat mult mai bine.
+
+08:40.930 --> 08:44.650
+Mergem nouă la unu.
+
+08:45.420 --> 08:47.220
+Și începem să adăugăm acest lucru la listă.
+
+08:47.330 --> 09:03.630
+Eu merg 1 6 4 apoi 15 170 20 și apoi 9 și dacă vom imprima toate aceste afară și am faceți clic pe alerga bine să eliminăm
+
+09:03.630 --> 09:06.090
+consola busteni de aici.
+
+09:09.930 --> 09:12.240
+Și consola doar log fiecare dintre
+
+09:17.400 --> 09:19.610
+acestea pentru capul de alergat.
+
+09:19.770 --> 09:20.710
+Sunt jurnalele noastre.
+
+09:20.740 --> 09:30.220
+Avem ordinea postului pe care o avem la dispoziție și acum avem ordinea.
+
+09:30.430 --> 09:36.370
+Toate acestea sunt de prima căutare în profunzime se face doar în ordine diferite.
+
+09:36.530 --> 09:41.750
+Acum voi lăsa codul pentru tine să exploreze aici pentru că este recursiv.
+
+09:42.020 --> 09:48.050
+S-ar putea să dureze ceva timp pentru a-ți împrăștia mintea în jurul ei, dar tu vezi că nu
+
+09:48.380 --> 09:50.060
+era așa de dificil.
+
+09:50.130 --> 09:56.850
+Am implementat prima căutare la nivel atre Tivoli și recursiv și folosim, de asemenea, adâncime
+
+09:57.090 --> 10:00.830
+pentru o căutare în ordine Post și ordonare.
+
+10:01.100 --> 10:04.440
+Și dacă te gândești la asta, începe să devii din ce în ce mai clar.
+
+10:04.740 --> 10:06.830
+Mai ales când vine vorba de moarte pentru căutare.
+
+10:06.990 --> 10:13.150
+Tot ceea ce facem este că verificăm elementul stâng și elementul drept sau nota corectă.
+
+10:13.200 --> 10:16.780
+Aceasta este referința stângă și referința corectă a fiecărei note.
+
+10:17.340 --> 10:23.610
+Și sigur că facem aceste acțiuni în ordine diferită, uneori în funcție de ce
+
+10:23.610 --> 10:25.410
+strategie de comandă alegem.
+
+10:25.500 --> 10:28.310
+Dar încă facem aceleași trei lucruri.
+
+10:28.410 --> 10:35.470
+Verificăm stânga verificând dreapta sau doar împingem un nod în lista noastră la răspunsul nostru.
+
+10:35.790 --> 10:42.300
+Și pentru cei dintre voi care ați realizat că folosim o structură de date stack chiar aici cu recursiunea.
+
+10:42.300 --> 10:50.620
+Fiecare dintre aceste funcții se adaugă la stackul nostru de apeluri și vom începe să ne întoarcem la sfârșit.
+
+10:51.930 --> 10:55.990
+Asta nu mai există copiii rămași și drepți.
+
+10:56.610 --> 11:02.860
+Și acest lucru este important de înțeles, deoarece arată complexitatea spațială a morții pentru căutare.
+
+11:03.030 --> 11:11.260
+Cantitatea de spațiu de care avem nevoie în ceea ce privește memoria, spre deosebire de prima căutare de lățime, care a folosit Q. Înălțimea copacului
+
+11:11.260 --> 11:17.650
+ne va spune cât de multă memorie avem nevoie pentru că înălțimea copacului se va potrivi cu cea mai
+
+11:17.710 --> 11:23.770
+profundă funcție recursivă și asta este ceea ce se întâmplă pentru a fi adăugat la stivă ca memorie.
+
+11:23.770 --> 11:30.910
+Deci, consumul de memorie este de toate înălțimea copacului care ne va da scenariul celui mai rău caz
+
+11:30.940 --> 11:34.570
+atunci când vom folosi prima căutare în profunzime.
+
+11:34.650 --> 11:44.710
+Deci, acum că ați înțeles mai bine modul în care aceste căutări sau traversale de muncă vă încurajez să mergeți pas
+
+11:44.710 --> 11:47.080
+cu pas codul propriu.
+
+11:47.080 --> 11:50.800
+Vedeți dacă puteți adăuga acest lucru și în structura de date arborescentă.
+
+11:50.800 --> 11:59.470
+Deoarece frumusețea este odată ce știi cum funcționează, de asemenea, înveți cum să treci printr-un grafic.
+
+11:59.580 --> 12:02.000
+Felicitări și vă vom vedea în următorul videoclip.

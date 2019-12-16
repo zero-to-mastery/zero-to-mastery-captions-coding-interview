@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.950 --> 00:11.880
+Benvenuti in una struttura di dati una struttura di dati è una raccolta di valori i cui valori possono avere relazioni tra loro
+
+00:11.880 --> 00:15.690
+e possono avere funzioni ad essi applicate.
+
+00:15.710 --> 00:21.970
+Ognuno è diverso in ciò che può fare e per cosa è meglio utilizzato.
+
+00:23.000 --> 00:30.260
+La cosa più importante da togliere è che ogni struttura dati è buona ed è specializzata per
+
+00:30.260 --> 00:31.750
+le proprie cose.
+
+00:32.120 --> 00:36.470
+Va bene Andre hai appena detto un sacco di parole e non capisco davvero.
+
+00:36.800 --> 00:40.480
+Bene, mostriamo un paio di immagini per semplificare questo.
+
+00:41.650 --> 00:50.570
+Vedete, le strutture dati possono essere pensate come qualsiasi tipo di compartimento o contenitore. Una struttura dati è semplicemente un
+
+00:50.570 --> 00:53.180
+file cabinet di tipi diversi.
+
+00:53.330 --> 01:00.320
+Hai uno zaino un posto dove metti forse i tuoi libri di scuola che hai dei cassetti dove tiri il
+
+01:00.320 --> 01:08.230
+frigo dei vestiti dove metti il cibo una cartella per i tuoi file e una scatola di imballaggio forse per i tuoi giocattoli.
+
+01:09.880 --> 01:17.410
+Ognuno di questi contenitori è utile per la sua stessa cosa, per esempio non ho intenzione di mettere il mio
+
+01:17.440 --> 01:22.170
+cibo in un cassetto qui perché quello yogurt andrà male qui.
+
+01:23.170 --> 01:32.710
+Allo stesso modo non ho intenzione di mettere tutti i miei documenti e file nel mio zaino o forse in una scatola dei giocattoli
+
+01:32.710 --> 01:34.360
+perché si accartoccia.
+
+01:34.390 --> 01:40.870
+Ognuno di questi contenitori è specifico per la sua stessa cosa e questo è ciò che realmente è la struttura dei dati.
+
+01:40.960 --> 01:48.370
+È un modo per noi di organizzare i dati in modo che possiamo andare nello zaino e recuperare i dati con estrema
+
+01:48.370 --> 01:48.930
+facilità.
+
+01:48.940 --> 01:54.940
+Possiamo andare nel frigo e afferrare quel ghiacciolo o gelato molto velocemente.
+
+01:55.060 --> 02:00.670
+Possiamo mettere le cose nelle strutture dati e possiamo prendere le cose dalle strutture dati e questo è tutto ciò che
+
+02:00.670 --> 02:01.420
+è veramente.
+
+02:02.420 --> 02:08.990
+E ci sono una tonnellata di strutture di dati proprio come nella nostra vita reale, come abbiamo tutti questi contenitori in questi
+
+02:08.990 --> 02:11.000
+luoghi per mettere le cose dentro.
+
+02:11.110 --> 02:14.900
+Nella programmazione ne abbiamo una tonnellata.
+
+02:14.980 --> 02:21.500
+Se andiamo a Wikipedia per esempio mentre se scorriamo qui vediamo una tonnellata di strutture dati.
+
+02:21.610 --> 02:28.060
+E questo sembrerà travolgente ma non ti preoccupare più di questi mentre non ho mai incontrato me stesso
+
+02:28.090 --> 02:30.240
+e sono molto molto specifici.
+
+02:30.400 --> 02:36.190
+Probabilmente hai solo circa cinque o sei strutture di dati che sono
+
+02:36.190 --> 02:39.900
+davvero molto importanti che andremo a vedere.
+
+02:39.980 --> 02:45.810
+Potresti aver persino sentito parlare di Bitcoin e come usare la tecnologia a catena di blocchi.
+
+02:45.830 --> 02:54.400
+Questa parola magica bloccherà Shane alla fine della giornata è semplicemente una struttura di dati un modo per contenere informazioni
+
+02:57.290 --> 03:06.290
+così nelle nostre strutture di dati del mondo di programmazione possiamo memorizzare cose come numeri stringhe di tipi booleani come
+
+03:06.290 --> 03:13.950
+abbiamo visto quando abbiamo codificato in Javascript con array e oggetti matrici e oggetti in javascript.
+
+03:13.950 --> 03:19.350
+Come sono ciascuna una forma di una struttura dati che ci consente di memorizzare le informazioni.
+
+03:19.510 --> 03:22.910
+Vedete come umani questo è ciò che facciamo sulla Terra.
+
+03:22.960 --> 03:23.770
+Destra.
+
+03:23.950 --> 03:29.150
+Prendiamo il caos e il disordine e facciamo ordine da esso.
+
+03:29.350 --> 03:33.690
+Almeno proviamo a organizzare le nostre fattorie per produrre cibo.
+
+03:33.850 --> 03:40.030
+Imballiamo il cibo e li consegniamo ai negozi di alimentari e li organizziamo nel negozio di alimentari in
+
+03:40.030 --> 03:48.280
+modo che gli umani possano afferrarli e possano quindi acquistare questi generi alimentari e dare i soldi per mettere in un compartimento e una
+
+03:48.370 --> 03:51.930
+banca che è tutti i programmi che stiamo modellando .
+
+03:51.940 --> 03:53.500
+Scenari di vita reale.
+
+03:54.530 --> 04:01.280
+E più uno sviluppatore è avanzato, più tempo inizierai a pensare e trascorrerai del tempo
+
+04:01.880 --> 04:04.130
+a parlare di strutture dati.
+
+04:04.130 --> 04:08.590
+Questo è il motivo per cui gli intervistatori amano parlare di strutture di dati.
+
+04:08.670 --> 04:13.790
+Ora, come mi piace sempre menzionare, ci sono sempre dei compromessi.
+
+04:13.910 --> 04:16.790
+Ogni domanda di programmazione ha un compromesso.
+
+04:16.790 --> 04:24.490
+Ricordare sono tre pilastri di memoria e velocità di lettura.
+
+04:24.490 --> 04:26.910
+Quando abbiamo parlato di quale codice è il migliore.
+
+04:26.950 --> 04:29.680
+Bene, abbiamo la stessa cosa con le strutture dati.
+
+04:29.770 --> 04:34.210
+Uno è migliore dell'altro in alcuni aspetti e l'altro migliore dell'altro.
+
+04:34.210 --> 04:35.240
+Ecco perché esistono.
+
+04:35.320 --> 04:42.780
+Ognuno ha vinto per il suo caso specifico e ci sono due parti per comprendere le strutture di dati.
+
+04:43.730 --> 04:46.150
+Uno è come effettivamente costruirne uno.
+
+04:46.160 --> 04:48.710
+Come possiamo costruire con il codice.
+
+04:48.710 --> 04:56.270
+Alcune di queste strutture dati e due è come usarle come utilizzare queste strutture di dati.
+
+04:56.300 --> 05:02.490
+Faremo entrambi in questo corso, ma il secondo punto è il diritto più importante.
+
+05:02.600 --> 05:12.280
+Poiché le strutture dati sono di solito solo strumenti e per la maggior parte del tempo sono già pre-costruite per noi, la parte più importante
+
+05:13.030 --> 05:18.310
+è come usarle quando si usa l'una sull'altra e abbiamo visto un po
+
+05:18.310 --> 05:24.850
+'di quella nella precedente sezione quando abbiamo parlato di come risolvere problemi in cui abbiamo usato un
+
+05:25.060 --> 05:29.570
+oggetto contro un array per rendere il nostro codice più efficiente.
+
+05:30.840 --> 05:35.880
+L'obiettivo di questo corso è comprendere la struttura dei dati in modo da poter scegliere la giusta struttura dati per
+
+05:35.880 --> 05:36.750
+il tuo problema.
+
+05:37.750 --> 05:42.790
+In base a diversi scenari, i dati devono essere archiviati in un formato specifico.
+
+05:42.790 --> 05:49.030
+Disponiamo di una manciata di strutture dati che coprono la nostra necessità di archiviare dati in diversi formati.
+
+05:49.170 --> 05:52.320
+Quindi approfondiamo questo argomento.

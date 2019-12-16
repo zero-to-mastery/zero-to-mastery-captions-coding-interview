@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.500 --> 00:02.360
+Selamat datang kembali.
+
+00:02.700 --> 00:07.990
+Mari kita lanjutkan diskusi kita tentang apa arti gagasan yang dapat diukur ini.
+
+00:08.050 --> 00:13.710
+Anda ingat bahwa kita berbicara tentang dapur dan betapa miripnya dengan dapur kita harus memberikan
+
+00:13.980 --> 00:17.010
+instruksi kepada mesin kami untuk menghasilkan hasil.
+
+00:17.190 --> 00:20.450
+Dan di video sebelumnya kita berbicara tentang disfungsi Finding Nemo.
+
+00:20.610 --> 00:24.220
+Mari kita mengukur kinerja fungsi ini.
+
+00:25.210 --> 00:33.920
+Yah javascript memberi kita alat kecil yang bagus yang dibangun di browser yang merupakan tempat kita menjalankan
+
+00:33.920 --> 00:34.980
+kode ini.
+
+00:35.060 --> 00:39.980
+Jadi tergantung pada bahasa Anda, Anda mungkin tidak memiliki opsi ini tetapi Anda akan memiliki berbagai cara
+
+00:39.980 --> 00:40.930
+untuk mengukur ini.
+
+00:40.940 --> 00:42.210
+Jangan terlalu terpaku pada hal ini.
+
+00:42.230 --> 00:47.460
+Kami ingin menggunakan ini sebagai contoh untuk mengukur berapa lama untuk menjalankan fungsi ini.
+
+00:47.540 --> 00:57.360
+Kita dapat melakukan ini dalam javascript dengan mengatakan katakanlah Time 0 akan menyamai kinerja yang ada
+
+00:57.360 --> 00:58.940
+pada browser.
+
+00:59.340 --> 01:09.590
+Dan kita katakan sekarang tambahkan ini ke nol akan memulai timer ini sebelum loop terjadi
+
+01:09.790 --> 01:18.040
+Dan ketika loop berakhir saya akan memiliki timer lain yang disebut T-1 dan ini akan menyamai titik-titik
+
+01:18.600 --> 01:19.810
+kinerja sekarang.
+
+01:20.350 --> 01:25.600
+Jadi kita punya dua timer satu di awal satu
+
+01:25.600 --> 01:34.330
+di akhir setelah fungsi melewati loop untuk menemukan Nimo dan kemudian pada akhirnya kita hanya akan melakukan
+
+01:34.360 --> 01:49.790
+dialog konsol kecil yang menyenangkan dan kita akan mengatakan bahwa panggilan untuk menemukan Nemo mengambil dan hanya dapat melakukan Tiran sederhana minus nol dan kemudian kita akan mengatakan milidetik karena
+
+01:50.480 --> 01:56.800
+itu akan memberi kita hasil dan milidetik Kita akan melihat apakah ini berhasil.
+
+01:56.900 --> 02:06.170
+Saya ingin menjalankan kode ini dan mengeluarkan ruang di sini dan kami melihat bahwa butuh nol mili detik untuk menjalankan kode
+
+02:06.170 --> 02:07.080
+ini.
+
+02:07.190 --> 02:12.770
+Biarkan saya menjalankan itu lagi nol detik lagi nol detik nol detik.
+
+02:12.770 --> 02:17.280
+Dan jika saya terus mengkliknya saya melihat bahwa oh sekarang butuh sedikit lebih lama.
+
+02:17.480 --> 02:20.200
+Dan itu karena ini sangat cepat, benar.
+
+02:20.210 --> 02:25.910
+Apakah mesin komputer sangat cepat di zaman sekarang ini dan
+
+02:25.910 --> 02:33.990
+karena kita hanya mengulanginya sekali saja, dibutuhkan hampir nol milidetik dan tampilan hanya bulat sistem.
+
+02:34.040 --> 02:41.470
+Tetapi bagaimana jika kita memiliki array yang lebih besar katakanlah kita memiliki array di sini yang memiliki biaya setiap karakter dan
+
+02:41.630 --> 02:46.790
+memiliki semua karakter atau setidaknya banyak karakter dari film Finding Nemo yang jika Anda
+
+02:47.030 --> 02:48.100
+belum menontonnya.
+
+02:48.150 --> 02:48.850
+Film luar biasa.
+
+02:48.860 --> 02:50.510
+Sangat merekomendasikannya.
+
+02:50.520 --> 02:54.640
+Lagi pula kita melihat bahwa kita memiliki lebih banyak karakter sekarang.
+
+02:54.710 --> 03:04.620
+Jadi, alih-alih hanya memiliki satu array, mari kita semua array di sini dan array ini sekarang memiliki lebih banyak item memiliki
+
+03:04.710 --> 03:11.520
+satu dua tiga empat lima enam tujuh delapan sembilan sepuluh sepuluh loop di sini
+
+03:11.520 --> 03:15.760
+yang akan kita lakukan jika kita menjalankan ini.
+
+03:16.040 --> 03:19.200
+Kami melihat bahwa waktunya masih sama.
+
+03:19.370 --> 03:21.290
+Hampir nol mili detik.
+
+03:21.410 --> 03:25.210
+Terkadang sedikit lebih banyak dan waktu berubah sepanjang waktu.
+
+03:26.260 --> 03:29.590
+Tetapi kita tidak melihat banyak perbedaan dari kita.
+
+03:29.590 --> 03:35.970
+Maksud saya, kita berlari dari satu loop ke sekarang 10 loop tetapi masih super super cepat.
+
+03:36.040 --> 03:40.150
+Dan lagi itu karena komputer kita di zaman sekarang ini cukup cepat.
+
+03:40.150 --> 03:44.590
+Perbedaan antara satu loop dan 10 loop tidak terlalu besar.
+
+03:45.560 --> 03:51.720
+Tapi mari kita lakukan sedikit trik menyenangkan di sini dalam javascript kita bisa membuat array besar.
+
+03:51.760 --> 03:59.520
+Anggap saja besar dan kita bisa membuat array besar dengan hanya mengatakan array baru.
+
+04:00.520 --> 04:08.800
+Dan kami akan memberikannya seratus item dan ini seratus item dalam array kita dapat mengisinya dengan katakanlah Nimo dan
+
+04:08.800 --> 04:15.540
+ini hanya akan membuat sebuah array yang memiliki Nimo seratus kali jadi alih-alih setiap pengembara
+
+04:19.190 --> 04:30.200
+melakukan yang besar dan menekan batu ke kanan kita lihat di sini bahwa ia menemukan Nimo seratus kali karena kita hanya mengisi di sana dengan
+
+04:30.200 --> 04:36.830
+Nimo dan di bagian bawah kita melihat bahwa perlu lima koma Moli detik yang membutuhkan
+
+04:36.920 --> 04:38.720
+waktu lebih lama.
+
+04:38.730 --> 04:41.640
+Dinant mari kita lakukan lebih besar lagi.
+
+04:41.670 --> 04:47.150
+Mari kita lakukan seribu pukulan, Ron mengambil 7 milidetik.
+
+04:47.150 --> 04:49.740
+Sekarang bagaimana jika Anda melakukannya lebih besar.
+
+04:49.740 --> 04:52.110
+Bagaimana jika kita memiliki sejumlah besar 10.000.
+
+04:52.410 --> 04:55.990
+Kami telah menjalankan 46 Meli detik.
+
+04:56.010 --> 04:57.480
+Masih cukup cepat.
+
+04:57.480 --> 04:59.340
+Dan hanya untuk bersenang-senang satu lagi.
+
+04:59.340 --> 05:07.890
+Jika saya berlari Anda melihat penundaan itu dan berapa lama waktu yang dibutuhkan tiga puluh tiga milidetik atau
+
+05:07.890 --> 05:14.230
+tiga koma empat detik sekarang apa yang baru saja kita lihat di sini.
+
+05:14.230 --> 05:24.220
+Yah kita melihat bahwa seiring masukan kita tumbuh, fungsi kita menemukan Nemo menjadi semakin lambat.
+
+05:24.280 --> 05:30.430
+Waktu lari kami berapa lama untuk menjalankan masalah tertentu melalui suatu fungsi meningkat.
+
+05:30.490 --> 05:32.830
+Tapi ini masalahnya di sini.
+
+05:32.830 --> 05:40.030
+Jika Anda mengambil kode ini dan menjalankannya di komputer Anda saat waktu Anda akan berbeda dari saya.
+
+05:40.570 --> 05:44.140
+Dan saya akan meninggalkan kode ini di akhir video ini sehingga Anda dapat bermain-main dengannya.
+
+05:44.290 --> 05:49.630
+Anda akan frustrasi karena setiap kali Anda menggunakan kode ini akan berbeda dari
+
+05:49.840 --> 05:50.860
+nomor saya.
+
+05:51.190 --> 05:53.910
+Mungkin jauh lebih cepat, jauh lebih lambat.
+
+05:53.950 --> 06:00.040
+Anda melihat ini semua tergantung pada seberapa kuat C. P. Anda di komputer dan
+
+06:00.370 --> 06:06.660
+apa program lain yang berjalan pada bahasa pemrograman komputer yang Anda gunakan dan banyak faktor lainnya.
+
+06:06.670 --> 06:11.370
+Jadi ada semua faktor yang berperan di sini di runtime kami.
+
+06:11.410 --> 06:17.110
+Karena itu, jika saya mempercepat teman saya di seluruh dunia, sebut saja mereka Johnny dan saya katakan padanya Hei Johnny, kode saya sangat
+
+06:17.110 --> 06:25.830
+luar biasa. Saya telah membuat fungsi Nimo yang bagus ini dan beroperasi dalam tiga detik 3. 2 detik dengan seratus ribu
+
+06:25.930 --> 06:27.820
+input.
+
+06:27.820 --> 06:29.750
+Seberapa baik seperempat pagi saya.
+
+06:29.800 --> 06:32.460
+Dan kemudian Johnny berkata Ha itu benar-benar hebat.
+
+06:32.470 --> 06:33.610
+Tapi tahukah Anda.
+
+06:33.670 --> 06:36.670
+Tambang berjalan jauh lebih cepat berjalan dalam 1. 5 detik.
+
+06:36.730 --> 06:37.990
+Jadi aku pergi.
+
+06:38.290 --> 06:40.610
+Menurut Anda, menurut Anda, apakah Johnny yang menang.
+
+06:41.450 --> 06:44.510
+Apakah Johnny memiliki kode yang lebih baik daripada saya.
+
+06:45.590 --> 06:47.450
+Nah, ini masalahnya.
+
+06:47.630 --> 06:49.230
+Belum tentu.
+
+06:49.420 --> 06:51.340
+Ini tidak terlalu berarti.
+
+06:52.190 --> 06:56.330
+Karena itu penting apa jenis komputer Johnny memiliki faktor lain apa.
+
+06:56.360 --> 07:00.410
+Seperti yang saya sebutkan sebelumnya kode berjalan
+
+07:00.490 --> 07:02.470
+Jadi bagaimana kita bisa menentukan siapa yang menang.
+
+07:02.530 --> 07:04.280
+Apakah saya menang atau apakah Johnny menang.
+
+07:04.330 --> 07:06.230
+Siapa yang memiliki pelatih yang lebih baik.
+
+07:06.290 --> 07:09.500
+Dan ini sangat umum di dunia komputasi.
+
+07:09.670 --> 07:16.030
+Kami memberi kode pada laptop kami komputer kami, tetapi kode itu tidak harus berjalan di perangkat itu.
+
+07:16.300 --> 07:22.690
+Jika kita memiliki sesuatu seperti server, kita dapat menjalankan kode itu di tempat lain di komputer lain
+
+07:22.750 --> 07:24.160
+di seluruh dunia.
+
+07:24.160 --> 07:32.710
+Jadi bagaimana kita dapat memastikan bahwa ada cara bagi kita untuk mengukur dalam hal efisiensi apa kode yang baik dan
+
+07:33.460 --> 07:41.260
+apa kode yang buruk dan apa kode yang dapat mengukur bahwa dengan meningkatnya jumlah array atau input.
+
+07:41.260 --> 07:48.790
+Itu tidak terus-menerus memperlambat semakin banyak Notasi O-besar adalah bahasa yang kita gunakan untuk berbicara tentang berapa
+
+07:48.790 --> 07:51.590
+lama suatu algoritma perlu dijalankan.
+
+07:51.940 --> 08:00.190
+Kita dapat membandingkan dua algoritma yang berbeda atau dalam hal ini berfungsi menggunakan big-O dan mengatakan yang mana yang lebih baik
+
+08:00.190 --> 08:05.060
+dari yang lain ketika menyangkut skala terlepas dari perbedaan komputer kita.
+
+08:05.410 --> 08:09.650
+Dan kita bisa mengukur pertunjukan besar seperti ini.
+
+08:09.760 --> 08:13.780
+Saya akan memperingatkan Anda bahwa ini akan terlihat sangat membingungkan pada awalnya.
+
+08:13.870 --> 08:16.400
+Dan ini adalah pertama kalinya kita melihat diagram ini.
+
+08:16.720 --> 08:21.760
+Dan jangan khawatir pada akhir bagian ini ini akan masuk akal dan Anda akan benar-benar fasih dalam
+
+08:21.820 --> 08:22.710
+hal ini.
+
+08:22.720 --> 08:24.280
+Jadi percayalah padaku dan ini.
+
+08:24.310 --> 08:25.540
+Terus ikuti video ini.
+
+08:25.540 --> 08:31.630
+Saya tahu saya agak berputar-putar di sekitar topik dan tidak diarahkan apa artinya tapi saya berjanji pada akhir
+
+08:31.630 --> 08:36.040
+ini semua ini akan masuk akal dan Anda akan menjadi ninja besar.
+
+08:37.460 --> 08:44.480
+Ketika kita berbicara tentang big-O dan skalabilitas kode yang kita maksudkan adalah ketika kita tumbuh lebih besar
+
+08:44.480 --> 08:49.470
+dan lebih besar dengan input kita. Berapa banyak algoritma atau fungsi melambat.
+
+08:50.430 --> 08:57.720
+Jika daftar karakter katakanlah elemen di sini sehingga itu adalah Nimo, jadi karakter
+
+08:57.720 --> 09:05.870
+dalam menemukan nemo di array kami seperti yang meningkatkan berapa banyak operasi yang harus kita lakukan.
+
+09:05.930 --> 09:07.960
+Hanya itu saja.
+
+09:08.020 --> 09:15.400
+Inilah yang kami sebut efisiensi algoritmik big-O memungkinkan kami untuk menjelaskan konsep ini.
+
+09:15.420 --> 09:21.690
+Ingat bagaimana dalam fungsi kita, pada awalnya kita memiliki array hanya satu yang nimo.
+
+09:21.750 --> 09:23.550
+Jadi itu adalah jumlah elemen.
+
+09:23.550 --> 09:26.190
+Jumlah input dalam suatu fungsi.
+
+09:26.460 --> 09:27.320
+Itu ada di sini.
+
+09:27.420 --> 09:33.420
+Tapi saat kita meningkatkan array itu untuk memiliki lebih banyak karakter dan kemudian kita menciptakan array
+
+09:33.690 --> 09:34.780
+besar 100000.
+
+09:34.830 --> 09:41.490
+Jadi ketika itu meningkat Anda melihat bahwa jumlah operasi atau jumlah hal yang kami
+
+09:41.970 --> 09:49.020
+lakukan dalam loop meningkat berulang dan fungsi yang berbeda memiliki kompleksitas O besar yang berbeda.
+
+09:49.020 --> 09:55.810
+Artinya jumlah operasi ini dapat meningkat sangat sangat cepat seperti ini yang tidak baik.
+
+09:55.810 --> 10:02.770
+Anda dapat melihat di sini bahwa itu mengerikan dan hal-hal yang sebenarnya cukup baik dan tidak bertambah banyak.
+
+10:02.880 --> 10:07.170
+Dan kita akan melihat contoh dari yang berbeda dan bagaimana
+
+10:07.440 --> 10:15.950
+mengukur ini dan apa arti seluruh notasi ini selain mengakhiri video ini sehingga kita dapat menyelami topik ini lebih dalam lagi.
+
+10:16.020 --> 10:23.190
+Ingat saja pada titik ini ketika kita berbicara tentang Big O dan skalabilitas kode yang kita
+
+10:23.190 --> 10:31.620
+maksudkan adalah ketika kita tumbuh lebih besar dan lebih besar dengan input kita. Berapa banyak algoritma memperlambat semakin sedikit semakin
+
+10:31.770 --> 10:35.880
+lambat atau semakin lambat semakin lambat semakin baik itu.
+
+10:36.760 --> 10:45.550
+Jadi alih-alih menggunakan kinerja yang dilakukan sekarang dan menggunakan waktu untuk mengukur efisiensi fungsi kita, kita dapat menghitung
+
+10:45.550 --> 10:52.600
+berapa banyak operasi yang harus dilakukan oleh komputer karena setiap operasi membutuhkan waktu di
+
+10:52.600 --> 10:53.600
+komputer.
+
+10:53.950 --> 11:02.020
+Jadi pertunjukan besar memungkinkan kita dan memperhatikan kita dengan berapa langkah yang diperlukan dalam suatu fungsi.
+
+11:02.020 --> 11:05.680
+Baiklah mari kita menggali lebih dalam dan lebih dalam topik ini.
+
+11:05.770 --> 11:07.450
+Saya akan melihat di video Bebai berikutnya.

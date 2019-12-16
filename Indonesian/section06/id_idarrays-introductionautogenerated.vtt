@@ -1,0 +1,430 @@
+WEBVTT
+
+00:01.050 --> 00:09.210
+Woohoo akhirnya saatnya untuk mempelajari struktur data pertama kami dan yang
+
+00:09.210 --> 00:20.070
+kemungkinan besar Anda sangat terbiasa dengan array array yang kadang-kadang disebut Liszt's mengatur item secara berurutan.
+
+00:20.070 --> 00:23.280
+Itu berarti satu demi satu dalam memori.
+
+00:23.280 --> 00:33.030
+Jenis seperti yang kita miliki di sini kita memiliki semacam data pada indeks 0 katakanlah jus dan kemudian setelah indeks 1 kita
+
+00:33.390 --> 00:35.670
+memiliki sesuatu yang lain.
+
+00:35.670 --> 00:43.290
+Mungkin Apple mungkin ini adalah daftar belanjaan di memori komputer kita itu akan menjadi satu demi satu karena ingat
+
+00:43.290 --> 00:47.520
+RAM kita jauh lebih besar dari hanya tujuh slot.
+
+00:48.360 --> 00:53.710
+Dan array mungkin adalah struktur data yang paling sederhana dan paling banyak digunakan.
+
+00:53.800 --> 00:59.440
+Dan untungnya bagi kita, kita mulai dengan ini karena array memiliki jumlah aturan
+
+00:59.560 --> 01:04.240
+paling sedikit dan karena mereka disimpan dalam memori yang bersebelahan.
+
+01:04.240 --> 01:07.720
+Mereka juga memiliki tapak terkecil dari setiap struktur data.
+
+01:08.710 --> 01:15.560
+Jadi, jika yang Anda butuhkan adalah menyimpan beberapa data dan mengulanginya, lakukan satu demi satu langkah demi langkah.
+
+01:15.790 --> 01:23.630
+Array adalah pilihan terbaik terutama jika Anda tahu indeks yang ada di sebelah kiri item yang Anda
+
+01:23.630 --> 01:30.110
+simpan dan hanya sekilas dan kami akan membahas ini lebih detail dalam video selanjutnya.
+
+01:30.990 --> 01:37.190
+Tetapi lihat atau akses dengan menghapus Constantine of one kita.
+
+01:37.200 --> 01:39.420
+Sangat super cepat.
+
+01:39.420 --> 01:44.090
+Tindakan atau metode lain yang akan kita bahas jadi cukup dorong juga cepat.
+
+01:44.100 --> 01:49.830
+Tetapi kemudian memasukkan dan menghapus adalah O dari N atau waktu linier.
+
+01:49.950 --> 01:56.510
+Tetapi untuk mendemonstrasikan array, mari kita gunakan kode untuk menunjukkan contoh.
+
+01:56.770 --> 01:58.900
+Kami memiliki taman bermain kecil kami di sini.
+
+01:59.230 --> 02:01.710
+Dan lagi Anda dapat menggunakan bahasa apa pun yang Anda inginkan.
+
+02:01.750 --> 02:05.540
+Saya hanya akan menunjukkan ini dalam javascript.
+
+02:05.590 --> 02:10.140
+Kita bisa membuat array sederhana.
+
+02:10.230 --> 02:13.560
+Sebut saja string dan array ini.
+
+02:13.560 --> 02:24.220
+Sekali lagi menggunakan notasi kurung kuadrat akan memiliki kemudian B kemudian C dan D.
+
+02:25.100 --> 02:29.860
+Dan kami baru saja membuat array dalam javascript.
+
+02:29.900 --> 02:36.080
+Sekarang melihat ini dan berdasarkan apa yang telah kita pelajari sejauh ini kita dapat membuat beberapa asumsi.
+
+02:36.760 --> 02:42.900
+Misalnya untuk menyimpan huruf a huruf B huruf C huruf D.
+
+02:42.910 --> 02:47.230
+Itu satu dua tiga empat empat item.
+
+02:47.230 --> 03:00.030
+Jika kita menggunakan sistem 32 bit maka kita memiliki 1 2 3 4 rak untuk menyimpan huruf A dalam angka nol dan satu.
+
+03:00.050 --> 03:09.850
+Nah, kalau begitu kita baru saja pindah empat kali untuk jadi empat item dan setiap item mengambil empat rak dalam
+
+03:10.030 --> 03:11.010
+ingatan kita.
+
+03:11.050 --> 03:24.000
+Itu berarti bahwa kita menggunakan hingga 20 atau 16 byte penyimpanan jika kita ingat dalam contoh kecil kita di sini bahwa
+
+03:24.480 --> 03:34.490
+dengan sistem 32 bit kita memiliki 1 2 3 4 rak untuk menyimpan nomor ini lagi.
+
+03:34.670 --> 03:40.670
+Ini sedikit versi yang disederhanakan untuk melihatnya, tetapi saya harap Anda melihat apa
+
+03:40.670 --> 03:48.550
+yang kami lakukan di sini, kami hanya menyimpan bc d secara berurutan di ram kami, Random Access Memory kami.
+
+03:48.770 --> 03:53.260
+Jadi komputer sekarang tahu di mana menemukan barang-barang ini.
+
+03:53.280 --> 04:04.800
+Oleh karena itu ketika saya melakukan string ke saya memberitahu komputer hei pergi ke array yang disebut kekuatan, Anda harus tahu di mana
+
+04:04.820 --> 04:05.570
+itu.
+
+04:05.570 --> 04:12.400
+Karena di balik tudung Anda menyimpannya untuk saya dan ambil item ketiga.
+
+04:12.400 --> 04:16.570
+Ingat indeksnya adalah 0 1 2.
+
+04:16.670 --> 04:23.580
+Jadi ambil item ketiga dari tempat array disimpan di memori Anda.
+
+04:23.690 --> 04:32.360
+Dan jika saya menjalankan ini saya akan melihat komputer akan mengambil informasi itu untuk saya karena di sini disimpan
+
+04:32.360 --> 04:33.360
+untuk saya.
+
+04:33.400 --> 04:36.170
+Dan ini dia untuk saya.
+
+04:36.190 --> 04:41.520
+Baiklah jadi mari kita lakukan beberapa operasi lagi dengan array dan lihat apa pro dan kontra.
+
+04:42.830 --> 04:47.180
+Nah di javascript kita punya beberapa metode yang bisa kita gunakan dengan balapan.
+
+04:48.150 --> 04:54.510
+Salah satunya adalah bahasa Polandia yang memungkinkan kita untuk menambahkan sesuatu di akhir array.
+
+04:54.810 --> 05:01.580
+Jadi string dot mendorong.
+
+05:01.830 --> 05:09.830
+Dan jika kita hanya menghapus ini dan mari kita memiliki konsol Daut kekuatan.
+
+05:09.950 --> 05:21.100
+Jika saya menjalankan ini saya mendapatkan B C D E operasi push string ini karena itu hanya menambahkannya di akhir array.
+
+05:22.860 --> 05:25.780
+Adalah operasi 0 1.
+
+05:28.000 --> 05:31.310
+Yang kami lakukan adalah menambahkan item apa pun yang kami inginkan di akhir.
+
+05:31.330 --> 05:33.310
+Kami tidak mengulangi apa pun.
+
+05:33.310 --> 05:37.860
+Jadi mudah-mudahan itu masuk akal mengapa itu akan menjadi sesuatu yang sangat nyaman.
+
+05:38.260 --> 05:39.870
+Apa metode lain yang kami dapatkan.
+
+05:40.270 --> 05:53.930
+Kami juga dapat menggunakan pop dan pop adalah kebalikan dari push pop hanya berarti menghapus item terakhir dari string
+
+05:53.930 --> 05:55.550
+dari array.
+
+05:55.550 --> 05:58.820
+Jika saya klik jalankan di sini Anda melihat bahwa email telah dipindahkan.
+
+05:59.030 --> 06:12.410
+Jika saya melakukan string pop lagi dan memukul Ron kita melihat bahwa kali ini kami telah menambahkan Dia kemudian kami menghapus.
+
+06:12.640 --> 06:16.930
+Dan akhirnya harus dibiarkan dengan B dan C.
+
+06:17.080 --> 06:22.190
+Menurut Anda, kompleksitas waktu dari operasi ini.
+
+06:22.390 --> 06:26.770
+Sekali lagi ini 0 0 1 karena kita tidak mengulang apa pun.
+
+06:26.770 --> 06:29.440
+Kami hanya menghapus item terakhir yang saya ingat.
+
+06:29.440 --> 06:34.110
+Komputer kami tahu di mana item terakhir disimpan.
+
+06:35.140 --> 06:40.130
+Kami hanya mengatakan pergi ke indeks katakanlah 7.
+
+06:40.130 --> 06:42.810
+Item terakhir dan keluarkan roti.
+
+06:44.920 --> 06:46.920
+Mari kita lakukan sesuatu yang menarik di sini sekarang.
+
+06:48.020 --> 06:52.200
+Bagaimana jika kita ingin menambahkan item di awal array.
+
+06:52.340 --> 07:03.990
+Mungkin di sini kami ingin menambahkan huruf x Ya kami memiliki sesuatu yang disebut pergeseran javascript dan tergantung pada bahasa Anda, Anda
+
+07:03.990 --> 07:07.040
+mungkin memiliki sesuatu yang berbeda.
+
+07:07.170 --> 07:12.540
+Tapi idenya di sini adalah kita hanya melakukan string dot saat shift.
+
+07:12.760 --> 07:20.820
+Dan seperti yang Anda lihat di sini bagaimana REPL yang I-T benar-benar memberi Anda parameter yang dapat Anda masukkan.
+
+07:20.950 --> 07:23.310
+Dalam hal ini hanya mengatakan item apa.
+
+07:23.350 --> 07:24.140
+Yang merupakan string.
+
+07:24.140 --> 07:25.420
+Haruskah saya masuk.
+
+07:25.420 --> 07:31.690
+Dalam kasus kami, saya akan mengatakan saya ingin menggeser x yang mengatakan cukup tambahkan X di awal array.
+
+07:32.110 --> 07:38.500
+Jika saya klik jalankan di sini kita melihat bahwa x telah ditambahkan pada awal rary kita.
+
+07:38.500 --> 07:41.970
+Menurut Anda, kompleksitas waktu dari operasi ini.
+
+07:42.190 --> 07:49.780
+Ngomong-ngomong ketika kita melalui struktur data dan karena kita tahu notasi Big-O di dalamnya cukup keren sehingga kita dapat berpikir tentang
+
+07:49.780 --> 07:56.020
+kode di luar hanya oh saya hanya melakukan ini kita dapat berpikir secara mendalam tentang apa yang
+
+07:56.020 --> 07:57.800
+terjadi di bawah kap.
+
+07:58.150 --> 08:02.090
+Mengapa operasi ini bisa lebih lama dari operasi ini.
+
+08:02.110 --> 08:08.210
+Saya menemukan itu menarik dan ketika saya pertama kali memahami hal ini benar-benar membuat saya seorang insinyur yang lebih baik dan
+
+08:08.220 --> 08:12.790
+saya harap Anda mulai mendapatkan momen aha untuk Anda juga terutama jika ini adalah pertama
+
+08:12.790 --> 08:14.490
+kalinya Anda dengan struktur data.
+
+08:14.650 --> 08:18.070
+Sekarang bergeser apa yang kita lakukan di sini.
+
+08:18.070 --> 08:27.840
+Yah ingat string pada dasarnya disimpan jika saya memindahkan ini ke baris baru komputer tahu
+
+08:27.840 --> 08:30.500
+bahwa ini adalah nol.
+
+08:30.550 --> 08:35.790
+Ini adalah indeks 1.
+
+08:35.790 --> 08:46.910
+Ini adalah indeks dua dan ini adalah indeks tiga ketika saya menambahkan X dengan perubahan. Saya
+
+08:47.000 --> 08:51.400
+tiba-tiba menambahkan X ke array kami
+
+08:51.600 --> 09:00.810
+Tetapi kita sekarang harus menggeser angka-angka ini karena indeks masih seperti ini.
+
+09:01.050 --> 09:15.990
+Tetapi kali ini kita harus mengatakan OK 0 sekarang 8 x A sekarang 1 B sekarang 2 dan C adalah indeks 3
+
+09:16.000 --> 09:19.850
+dan D adalah indeks untuk.
+
+09:20.090 --> 09:27.380
+Dan hanya dengan saya melakukan ini, Anda mungkin telah melihat sesuatu yang kita hanya mengulangi loop melalui
+
+09:27.470 --> 09:37.860
+semuanya dan menugaskan kembali indeks dan saya melakukan satu dua tiga empat lima langkah atau lima operasi untuk meluruskan kembali indeks dan ini akan
+
+09:38.520 --> 09:45.150
+memberi Anda petunjuk bahwa operasi ini adalah 0 dan tergantung pada ukuran array itu berapa
+
+09:46.230 --> 09:50.890
+lama waktu yang diperlukan untuk melakukan operasi yang kita lakukan.
+
+09:50.970 --> 09:59.670
+Jadi segera kita tahu bahwa dengan kenaikan gaji mungkin itu bukan struktur data terbaik untuk menambahkan item
+
+09:59.670 --> 10:01.630
+di awal array.
+
+10:01.650 --> 10:08.530
+Bagaimana jika kita ingin menambahkan sesuatu di tengah array sehingga kita dapat menggunakan metode sambatan di sini.
+
+10:08.580 --> 10:18.610
+Biarkan saya gulir ke bawah sedikit dan dengan sambatan saya bisa mengatakan string sambatan dot dan lagi saya mendapatkan petunjuk tentang apa yang
+
+10:18.610 --> 10:20.260
+bisa saya lakukan.
+
+10:20.270 --> 10:22.330
+Yang pertama adalah nomor awal.
+
+10:22.340 --> 10:25.130
+Jadi saya ingin memulai indeks 2.
+
+10:25.540 --> 10:28.050
+Saya ingat kita memiliki array ini di sini.
+
+10:28.100 --> 10:29.690
+X A B C.
+
+10:29.690 --> 10:37.890
+Jadi kita mulai dari B dan parameter kedua adalah jumlah hapus.
+
+10:38.070 --> 10:42.810
+Apa yang ingin kita hapus atau berapa banyak hal dari indeks ini yang ingin kita hapus.
+
+10:42.930 --> 10:45.560
+Dalam kasus kami, kami tidak ingin menghapus apa pun yang ingin kami tambahkan.
+
+10:45.690 --> 10:46.930
+Jadi saya akan mengatakan nol.
+
+10:47.070 --> 10:49.200
+Dan kemudian barang yang ingin kita tambahkan.
+
+10:49.200 --> 10:57.990
+Jadi mari kita tambahkan string yang mengatakan alien dan mari kita hapus X ini dari array asli kita.
+
+10:59.770 --> 11:00.340
+Itu lebih baik.
+
+11:00.370 --> 11:03.040
+Ayo pukul Brian dan kita mulai.
+
+11:03.070 --> 11:17.020
+Kami memiliki X karena kami telah menggeser alien b c sehingga sambatan memberitahu kami pergi ke indeks 2 0 1 2 di mana B
+
+11:17.020 --> 11:23.490
+awalnya dan menambahkan alien bukan B dan hanya menggeser semuanya.
+
+11:23.890 --> 11:35.300
+Jadi apa yang kami lakukan di sini adalah jika kita kembali ke contoh kita memiliki X di array kita.
+
+11:36.860 --> 11:48.940
+Dan kami menggeser indeks X ini dan mereka masih sama tetapi kami menggeser B ke atas dan berkata dan di sini saya
+
+11:49.030 --> 11:51.400
+ingin menambahkan Ilian dan
+
+11:54.230 --> 11:59.060
+kami sekarang harus membahas semuanya dan mengatakan 3:58 alien.
+
+11:59.190 --> 12:05.610
+Kami ingin tiga forby empat untuk C dan lima untuk D.
+
+12:05.640 --> 12:07.310
+Jadi, apa besar kita di sini.
+
+12:07.410 --> 12:13.310
+Dan kita tidak perlu ini datang dengan baik O besar kita dalam hal ini yang kita lakukan.
+
+12:13.320 --> 12:19.960
+Setengah dari operasi karena kita mengubah setengah array kita loop melalui setengah array.
+
+12:20.040 --> 12:24.890
+Jadi akan menjadi 0 dari dan dibagi dua.
+
+12:25.020 --> 12:33.250
+Tapi ingat aturan kita ketika datang ke big-O kita menghapus konstanta dan menyederhanakan untuk memanggil saja.
+
+12:33.390 --> 12:36.870
+Kasus terburuk itu akan menjadi operasi.
+
+12:37.730 --> 12:39.960
+Baiklah, aku akan meninggalkan ini untukmu.
+
+12:39.960 --> 12:48.910
+Itu bisa bermain-main dan mencoba metode yang berbeda pada balapan tetapi saya harap Anda mengerti bagaimana mereka
+
+12:49.140 --> 12:57.830
+bekerja dan bagaimana ada beberapa hal baik yang bisa kita lakukan seperti mengakses array yang satu.
+
+12:57.950 --> 13:05.960
+Karena cepat sekali udang kita tahu persis di mana itu dalam memori dan kita dapat mendorong dan pop.
+
+13:06.050 --> 13:12.860
+Tetapi ketika datang untuk menggeser atau menyambung atau bahkan menghapus karena dengan sambungan kita bahkan dapat menghapus.
+
+13:12.860 --> 13:14.620
+Itu akan menjadi acara kami.
+
+13:15.050 --> 13:23.310
+Dan jika kita kembali ke chart kita yang sekarang kita memiliki pemahaman yang lebih baik tentang mengapa array mencari sangat
+
+13:23.310 --> 13:23.880
+cepat
+
+13:23.880 --> 13:25.070
+Kami tahu di mana mereka.
+
+13:25.140 --> 13:32.610
+Kita tahu mengapa push padding di akhir array sangat cepat, tetapi mengapa memasukkan dan menghapus
+
+13:32.610 --> 13:36.850
+mungkin bukan yang terbaik atau tercepat saat balapan.
+
+13:37.760 --> 13:40.250
+Tapi ini masalahnya.
+
+13:40.300 --> 13:46.690
+Sebenarnya ada dua jenis array dan di video berikutnya kita akan berbicara tentang dua jenis ini yang akan saya lihat
+
+13:48.210 --> 13:50.080
+di Bebai yang satu itu.

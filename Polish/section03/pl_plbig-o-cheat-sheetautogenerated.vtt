@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.190 --> 00:04.840
+Teraz stworzyłem dla Ciebie niezły, duży arkusz oszuków.
+
+00:05.240 --> 00:08.320
+Chociaż zajęło nam dużo czasu, aby przejść przez wszystko.
+
+00:08.720 --> 00:14.570
+Pod koniec dnia, gdy chodzi o przygotowanie się do rozmowy, jest to wszystko, co musisz
+
+00:14.570 --> 00:20.150
+wiedzieć, i możesz użyć tego do przejrzenia niektórych tematów, które omówiliśmy, a które omówimy
+
+00:20.510 --> 00:22.560
+w przyszłym dziale .
+
+00:22.760 --> 00:27.150
+Widzimy tutaj, że duże pokazy tam głównie te tutaj.
+
+00:27.230 --> 00:30.990
+Teraz nie przeszliśmy przez wszystko, przez co przeszliśmy.
+
+00:31.000 --> 00:42.390
+Konstantyn, ale nie przeszliśmy przez coś takiego jak "zaloguj się" lub "oh", gdy się zalogujesz, lub "O" do dwóch,
+
+00:42.390 --> 00:47.030
+do potęgi lub nawet tej z wykrzyknikiem.
+
+00:47.030 --> 00:48.110
+Zastanawiam się, co to jest.
+
+00:48.300 --> 00:50.090
+Cóż, weźmiemy w to udział.
+
+00:50.280 --> 00:56.370
+Ale powód, dla którego jeszcze o nich nie rozmawiałem, polega na tym, że pojawią
+
+00:56.370 --> 01:05.250
+się, gdy mówimy o strukturach danych i algorytmach, które skomentowały duże zapisy, które są bardzo specyficzne dla pewnych algorytmów i struktur
+
+01:05.460 --> 01:08.040
+danych w celu optymalizacji kodu.
+
+01:08.220 --> 01:12.580
+Tak więc omówimy te tematy, ponieważ będą one dla ciebie bardziej
+
+01:13.140 --> 01:18.110
+sensowne, jak na przykład dziennik Oh, który jest często używany podczas wyszukiwania algorytmów.
+
+01:18.870 --> 01:26.820
+Lub logowanie O-N jest stosowane w prawie, jeśli chodzi o algorytmy sortowania i coś w rodzaju 0 2 do
+
+01:26.820 --> 01:31.630
+potęgi N wchodzi w grę, gdy mówimy o algorytmach rekursywnych.
+
+01:31.650 --> 01:33.540
+Więc znowu nie daj się przytłoczony.
+
+01:33.570 --> 01:40.420
+Rozmawialiśmy o tych trzech głównych, a my wrócimy do reszty przez cały czas trwania kursu.
+
+01:41.360 --> 01:46.430
+Teraz, gdy chodzi o duże pokazy, chciałbym, abyś pamiętał o dwóch rzeczach,
+
+01:46.430 --> 01:51.590
+kiedy przechodzisz przez połowę kolekcji, wciąż pamiętasz 0 do końca lub 0 do końca.
+
+01:51.920 --> 01:53.750
+Och i podzielone przez dwa.
+
+01:53.750 --> 01:55.690
+To wciąż koniec dnia.
+
+01:56.010 --> 02:03.890
+Kiedy zapamiętasz naszą książkę zasad i jeszcze raz inną sztuczkę, która często pojawia się w wywiadach, jest to, że dwie
+
+02:03.890 --> 02:06.800
+oddzielne kolekcje powinny być a plus b.
+
+02:07.040 --> 02:09.770
+Lub jeśli są zagnieżdżone razy b.
+
+02:09.830 --> 02:15.910
+Zatem dwa oddzielne wejścia powinny mieć dwie oddzielne zmienne i notację Big O.
+
+02:17.140 --> 02:22.170
+I pamiętajmy, co powoduje czas w funkcji, ponieważ właśnie to mierzymy teraz.
+
+02:22.330 --> 02:26.990
+Pętla porównania operacji Well.
+
+02:27.070 --> 02:32.620
+Wiemy, że trwa to chwilę i takie rzeczy jak wywołania funkcji zewnętrznych, gdy
+
+02:32.620 --> 02:34.780
+masz funkcję wewnątrz funkcji.
+
+02:34.970 --> 02:41.390
+I wreszcie rozmawialiśmy o naszej instrukcji zawsze duże O mierzy najgorszy przypadek chcemy usunąć stałe
+
+02:41.390 --> 02:49.490
+chcemy mieć różne dane wejściowe, które mają różne zmienne, więc A-plus BA i B są ścigane, jeśli są zagnieżdżone,
+
+02:49.820 --> 02:53.750
+to przemówienie czasowe przeciwko czemuś o którym tutaj wspominaliśmy.
+
+02:54.050 --> 03:00.390
+Łatwym sposobem na zapamiętanie tego jest dodanie czterech kroków w porządku i mnożenie dla kroków zagnieżdżonych.
+
+03:00.710 --> 03:05.630
+I wreszcie, zasada czwarta to porzucenie nie dominujących terminów.
+
+03:06.410 --> 03:07.700
+Całkiem proste, prawda.
+
+03:08.240 --> 03:14.210
+Mam zamiar przynieść ten duży arkusz oszukiwać, kiedy zaczynamy mówić i wypełniać luki resztą
+
+03:14.380 --> 03:15.840
+notacji Big O.
+
+03:16.130 --> 03:18.160
+Ale na razie przejdźmy do następnej lekcji.

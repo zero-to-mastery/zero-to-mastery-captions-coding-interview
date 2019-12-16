@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.240 --> 00:01.910
+Witamy spowrotem.
+
+00:02.080 --> 00:06.990
+Porozmawiajmy o naszym drugim algorytmie sortowania i nazywa się to wyborem.
+
+00:07.080 --> 00:17.000
+Sortowanie sortowania teraz jest znowu jednym z prostszych sposobów sortowania listy, a algorytm działa poprzez skanowanie listy
+
+00:17.000 --> 00:23.510
+elementów dla najmniejszego elementu, a następnie zamianę tego elementu na ten
+
+00:23.510 --> 00:25.300
+w pierwszej pozycji.
+
+00:26.160 --> 00:28.790
+Pozwól, że pokażę ci tę animację tutaj.
+
+00:29.160 --> 00:32.430
+Zaczęliśmy od pierwszego elementu, a następnie drugiego elementu.
+
+00:32.430 --> 00:40.740
+Kolor czerwony oznacza, że jest to najmniejszy element, który widzi, a niebieski skanuje z wyprzedzeniem, aby znaleźć
+
+00:40.740 --> 00:41.960
+najmniejszy element.
+
+00:42.000 --> 00:47.700
+W tej chwili ośmiu jest najmniejszym przedmiotem, ale mamy pięć tak pięciu przełączników do najmniejszego przedmiotu, który
+
+00:48.090 --> 00:49.100
+również napotkaliśmy.
+
+00:49.170 --> 00:52.650
+Więc dwa stają się małym przedmiotem.
+
+00:52.810 --> 00:59.650
+Ciągle idziemy sześć nie jest mniejsza niż dwa dziewięć nie jest trzy, nie spotykamy jeden.
+
+00:59.680 --> 01:01.400
+Jeden staje się najmniejszym przedmiotem.
+
+01:01.540 --> 01:02.350
+Idziemy dalej.
+
+01:02.380 --> 01:03.300
+Znajdujemy zero.
+
+01:03.310 --> 01:08.670
+Tak więc 0 staje się najmniejszym elementem i właśnie skończyliśmy listę.
+
+01:08.730 --> 01:14.660
+Teraz przesuwamy 0 do pierwszego indeksu na naszej liście.
+
+01:14.790 --> 01:23.980
+Wymieniamy to, a następnie wracamy do początku znajdując najmniejszy przedmiot.
+
+01:24.730 --> 01:32.340
+Poprzez listę, która jest jedna, a następnie umieszczając ją w drugim indeksie i tak dalej, aż
+
+01:33.960 --> 01:37.810
+znajdziemy najmniejszy przedmiot, umieść go na liście.
+
+01:37.890 --> 01:47.420
+Następnie na liście następnej na liście, aż lista zostanie całkowicie posortowana, jak widać sortowanie
+
+01:47.430 --> 01:48.160
+sortowania.
+
+01:48.310 --> 01:55.510
+Nadal będziemy widzieć złożoność czasową wszystkich i kwadratowych, jeśli spojrzymy na wykres złożoności czasu, który widzimy,
+
+01:56.350 --> 02:00.340
+a następnie sortowanie selekcji nie jest bardzo szybkie.
+
+02:00.580 --> 02:02.830
+Podobne do sortowania bąbelkowego.
+
+02:03.100 --> 02:09.940
+Mamy zagnieżdżone pętle, ale użycie jest złożonością jednego z nich.
+
+02:09.940 --> 02:14.250
+Nie dodaje żadnych dodatkowych danych poza danymi wejściowymi.
+
+02:14.290 --> 02:22.660
+Teraz za pomocą animacji, którą właśnie zobaczyłeś, możesz zaimplementować własne selekcje lub zostawię to dla ciebie jako ćwiczenie z
+
+02:22.660 --> 02:28.750
+wykorzystaniem Dlaczego wiesz od rodzaju bąbelków i dlaczego właśnie zobaczyłeś sortowanie sortowanie, w
+
+02:29.010 --> 02:36.370
+jaki sposób możesz użyć tych informacji do sortowania listę używając tego algorytmu, a pokażę ci rozwiązanie w
+
+02:36.460 --> 02:37.430
+następnym wideo.

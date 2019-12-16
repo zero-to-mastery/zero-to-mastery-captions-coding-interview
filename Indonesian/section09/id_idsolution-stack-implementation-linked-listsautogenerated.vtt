@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.960 --> 00:01.790
+Selamat datang kembali.
+
+00:02.010 --> 00:06.810
+Mari kita lihat bagaimana kita ingin menyelesaikan pertanyaan ini.
+
+00:06.840 --> 00:14.610
+Itu adalah bagaimana kita membuat struktur data tumpukan yang memiliki PUSH puncak dan POP.
+
+00:14.810 --> 00:17.960
+Sekarang puncaknya harus cukup mudah bukan.
+
+00:18.020 --> 00:28.600
+Kami hanya ingin melihat item paling atas di tumpukan sehingga saya bisa mengatakan Peake akan mengembalikan dot top
+
+00:29.290 --> 00:30.020
+ini.
+
+00:30.470 --> 00:30.960
+Itu dia.
+
+00:30.980 --> 00:40.080
+Bagus dan sederhana sehingga jika kita menjalankan stack dot peak saya itu akan kembali.
+
+00:40.100 --> 00:44.870
+Tidak, karena tidak ada apa pun di tumpukan kami. Bagian atas ini.
+
+00:44.880 --> 00:46.770
+Tidak ada yang kosong.
+
+00:46.790 --> 00:49.600
+Mari kita pergi ke yang menarik yaitu push.
+
+00:49.640 --> 00:51.690
+Bagaimana kita menambahkan sesuatu ke stack.
+
+00:52.660 --> 00:59.720
+Nah hal pertama yang ingin kita lakukan adalah membuat simpul baru dan seperti saya katakan kita dapat membuat objek baru di sini
+
+00:59.720 --> 01:05.390
+jika kita mau atau kita bisa menggunakan kelas Node yang saya berikan untuk Anda di sini.
+
+01:06.560 --> 01:13.640
+Kita bisa menggunakan kelas dengan mengatakan simpul baru yang instantiate kelas dan memberinya nilai
+
+01:13.640 --> 01:15.770
+yang akan kita dorong.
+
+01:15.920 --> 01:24.080
+Selanjutnya kita ingin memeriksa apakah ini item pertama karena jika stack kosong dan ini adalah item
+
+01:24.080 --> 01:31.050
+pertama sementara top dan bottom keduanya akan menunjuk ke note yang sama
+
+01:31.120 --> 01:38.890
+Jadi dalam hal ini kita dapat memeriksa apakah panjang titik ini sama dengan nol.
+
+01:39.880 --> 01:44.220
+Dalam hal ini kita bisa mengatakan puncak ini akan sama dengan simpul baru.
+
+01:45.690 --> 01:57.570
+Dan juga bagian bawah atas ini akan sama dengan simpul baru. Kalau tidak, kita harus melakukan sesuatu yang sedikit berbeda tetapi tidak terlalu
+
+01:57.570 --> 02:04.530
+berbeda karena kita telah melihatnya dalam contoh daftar tertaut, kita hanya perlu mengubah beberapa
+
+02:04.530 --> 02:06.480
+pointer di sekitar.
+
+02:06.570 --> 02:14.380
+Dalam kasus kami, kami ingin mengatakan Konst memegang pointer ke simpul paling atas.
+
+02:16.820 --> 02:21.970
+Karena apa yang ada di atas sekarang akan digantikan oleh apa pun yang akan kita tambahkan padanya.
+
+02:22.160 --> 02:29.790
+Jadi kita akan memegang referensi ke apa yang awalnya atas dan kemudian kita akan mengatakan
+
+02:29.800 --> 02:40.110
+bahwa startup ini sekarang akan sama dengan simpul baru dan ini dot titik berikutnya berikutnya yang sekarang simpul baru akan menunjuk
+
+02:40.110 --> 02:45.360
+ke apa yang sebelumnya atas tetapi sekarang di bawahnya.
+
+02:45.780 --> 02:48.240
+Jadi kita hanya mengatakan memegang pointer.
+
+02:48.240 --> 02:56.920
+Jadi itu adalah Alltop sekarang akan tepat setelah simpul baru kami dan akhirnya kami melakukan itu dot Blant
+
+02:57.370 --> 03:03.960
+plus plus untuk menambah panjang dengan 1 dan akhirnya kami ingin kembali.
+
+03:04.190 --> 03:08.000
+Mari kita kembalikan ini yang akan mengembalikan kita daftar tautan.
+
+03:08.680 --> 03:09.700
+Mari kita lihat apakah itu berhasil.
+
+03:11.280 --> 03:12.700
+Saya akan mengatakan Peke dulu.
+
+03:12.720 --> 03:21.150
+Ya tidak ada apa-apa di sini, tetapi jika saya ingin mendorong ke stack, saya akan mengatakan push dan kami akan mendorong Google terlebih
+
+03:21.150 --> 03:23.820
+dahulu karena kami mengunjungi Google terlebih dahulu.
+
+03:24.970 --> 03:33.220
+Dan jika saya menjalankan ini saya mendapatkannya struktur data yang memiliki puncak yang memiliki nilai simpul Google.
+
+03:33.450 --> 03:40.970
+Selanjutnya bukan karena kita hanya punya satu item dan bagian bawahnya juga Google yang sama dengan note berikutnya.
+
+03:41.460 --> 03:44.000
+Dan tumpukan kami memiliki satu lenth of one.
+
+03:44.150 --> 03:45.340
+Bagaimana jika kita terus menambahkan di sini.
+
+03:45.360 --> 03:49.230
+Mari kita pergi kepada Anda Demy selanjutnya.
+
+03:49.440 --> 03:58.220
+Jika saya klik jalankan, saya sekarang memiliki dua tumpukan yang memiliki simpul atas seperti Anda Dammy dan simpul bawah
+
+03:58.700 --> 04:03.850
+sebagai Google karena ingat dengan tumpukan kami menumpuk piring di atas.
+
+04:04.040 --> 04:06.780
+Itu kamu, Demy datang terakhir.
+
+04:06.890 --> 04:10.140
+Jadi kamu Dammy ada di atas.
+
+04:10.160 --> 04:12.890
+Ingat Life akan bertahan dan langkah pertama.
+
+04:13.070 --> 04:17.990
+Mari tambahkan satu lagi misalkan kita mengunjungi meja atau komunitas kita selanjutnya.
+
+04:17.990 --> 04:26.580
+Jadi semua yang saya katakan dorong labu ini dan saya klik jalankan dan begitulah.
+
+04:26.650 --> 04:32.010
+Kami memiliki komunitas Dischord kami di atas di bagian bawah adalah simpul.
+
+04:32.080 --> 04:34.290
+Dan hanya untuk memastikan bahwa Peke kita berfungsi.
+
+04:34.450 --> 04:44.570
+Jika saya mengintip kita harus mendapatkan perselisihan karena itu adalah berdiri terakhir dan paling atas tumpukan kami.
+
+04:44.610 --> 04:45.370
+Sangat bagus.
+
+04:45.450 --> 04:46.710
+Saya harap Anda mengerti.
+
+04:47.160 --> 04:52.450
+Mari kita lanjutkan dengan pop yang menghapus apa pun yang ada di atas tumpukan.
+
+04:52.860 --> 05:00.630
+Baiklah pertama-tama kita periksa untuk memastikan bahwa ada item karena jika tidak ada dan kita tidak punya.
+
+05:00.780 --> 05:02.520
+Yah kita hanya mengembalikan tidak.
+
+05:03.920 --> 05:13.180
+Jadi dalam hal ini kita bisa mengatakan jika startup ini jika tidak ada dalam kasus itu kita hanya akan kembali.
+
+05:15.490 --> 05:22.660
+Selanjutnya kita bisa melakukan pointer memegang Konst kami ke dot top ini.
+
+05:22.990 --> 05:30.880
+Jadi apa yang saat ini di bagian atas yang berselisih, saya akan mengatakan bahwa bagian atas Daut ini tidak lagi seperti
+
+05:30.880 --> 05:33.130
+sekarang karena kami ingin menghapusnya.
+
+05:33.250 --> 05:38.990
+Ini akan sama dengan ini dot top dot berikutnya yang di bawah perselisihan.
+
+05:39.520 --> 05:45.950
+Dan akhirnya kami mengatakan panjang lebar minus minus karena kami ingin mengurangi pinjaman satu per satu.
+
+05:46.030 --> 05:49.920
+Dan akhirnya kita bisa mengatakan kembalikan ini sekarang.
+
+05:49.960 --> 05:54.070
+Ingat karena Javascript adalah bahasa yang dikumpulkan sampah.
+
+05:54.070 --> 06:05.880
+Jika saya tidak melakukan ini dan berkata memegang pointer ke atas ini dot Nah perselisihan catatan ini yang berisi perselisihan tidak akan dirujuk
+
+06:06.180 --> 06:08.320
+oleh apa pun.
+
+06:09.150 --> 06:15.720
+Dan tidak digunakan oleh apa pun yang berarti dalam bahasa sampah yang dikumpulkan seperti javascript yang
+
+06:15.780 --> 06:19.860
+akan dihapus secara otomatis dari memori selama pengumpulan sampah.
+
+06:20.560 --> 06:25.780
+Jadi jika saya menjalankan ini sementara saya belum melakukan apa pun
+
+06:25.950 --> 06:31.640
+Tapi sekarang untuk pop, mari kita kembalikan pointer holding.
+
+06:31.860 --> 06:40.280
+Jika saya klik Jalankan atau Mari kita lakukan stack dot pop pertama saya untuk menghapus perselisihan dari daftar.
+
+06:40.330 --> 06:51.990
+Jika saya klik jalankan saya mendapatkan kembali node atau yang merupakan penunjuk penahan jika kita masih ingin memiliki akses ke
+
+06:51.990 --> 06:52.600
+sana.
+
+06:53.130 --> 07:00.180
+Kalau tidak, jika kita hanya ingin menghilang dan kita tidak membutuhkannya lagi kita bisa mengembalikan ini.
+
+07:00.210 --> 07:02.710
+Kami bahkan dapat mengomentari penunjuk penunjuk.
+
+07:02.820 --> 07:12.030
+Dan jika saya klik jalankan kami sekarang memiliki Anda Demy di bagian atas dan Google di bagian bawah dan perselisihan menghilang
+
+07:12.030 --> 07:13.380
+dari memori.
+
+07:13.500 --> 07:14.460
+Jadi mari kita lanjutkan ke sini.
+
+07:14.460 --> 07:18.030
+Katakanlah saya ingin melontarkan satu lagi
+
+07:21.000 --> 07:30.860
+dan jika saya menjalankan ini saya sekarang hanya memiliki satu hal yaitu Google yang merupakan barang asli di tumpukan.
+
+07:30.870 --> 07:35.160
+Jadi sementara yang baru saja kita lakukan adalah kita pergi ke Google kemudian kita pergi ke Anda Dammy.
+
+07:35.260 --> 07:42.600
+Lalu kami pergi ke perselisihan dan kemudian kami muncul apa pun di atas dan kemudian kami muncul Dammy dan
+
+07:42.600 --> 07:44.990
+sekarang kami hanya pergi dengan Google.
+
+07:45.180 --> 07:55.790
+Jika saya melakukan satu pop terakhir di sini dan saya klik pada kami memiliki atas yang tidak semua tetapi oh kami memiliki simpul bawah
+
+07:56.390 --> 08:02.480
+masih memiliki Google karena kami tidak pernah menghapus dalam pop simpul bawah kami.
+
+08:02.480 --> 08:06.400
+Yang kami lakukan hanyalah mengganti bagian atas.
+
+08:06.530 --> 08:17.640
+Jadi kita hanya perlu menambahkan satu syarat di sini yaitu jika titik atas ini sama dengan titik bawah ini.
+
+08:17.780 --> 08:20.750
+Itu berarti hanya ada satu item dalam daftar.
+
+08:20.780 --> 08:29.380
+Saya bisa juga melakukan Prapaskah ini sama dengan nol jika keduanya sama yang berarti hanya ada satu
+
+08:29.620 --> 08:30.930
+catatan tersisa.
+
+08:31.120 --> 08:36.760
+Dalam hal ini kami ingin mengatakan bahwa titik bawah ini akan sama dengan tidak.
+
+08:37.060 --> 08:41.950
+Karena setelah kami menghapus satu-satunya simpul yang tersisa Anda ingin bawah sama dengan no.
+
+08:42.280 --> 08:45.410
+Jadi jika saya melakukan ini dan klik jalankan di sana Anda pergi.
+
+08:45.440 --> 08:48.450
+Kami kembali ke tumpukan kosong asli kami.
+
+08:49.560 --> 08:52.740
+Saya harap Anda mengerti dan bisa memahaminya.
+
+08:52.770 --> 08:55.610
+Kami memiliki latihan menarik lainnya di video berikutnya.
+
+08:55.750 --> 08:56.780
+Saya akan melihat yang itu.
+
+08:57.190 --> 08:57.400
+Polisi.

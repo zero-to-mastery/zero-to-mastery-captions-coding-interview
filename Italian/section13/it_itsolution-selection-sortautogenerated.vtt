@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.650 --> 00:01.640
+Tornare indietro
+
+00:02.030 --> 00:09.310
+Ho lasciato per te la soluzione per la selezione ora non ho intenzione di andare uno per uno
+
+00:09.430 --> 00:14.070
+ad ogni algoritmo di ordinamento perché ci vuole molto tempo.
+
+00:14.140 --> 00:19.180
+Non voglio annoiarvi e perderti perché ci sono così tante cose eccitanti che
+
+00:19.180 --> 00:24.490
+accadono nel prossimo paio di video, quindi lascerò a te questo per vedere come funziona.
+
+00:24.490 --> 00:27.310
+Non è molto diverso dall'ordinamento delle bolle.
+
+00:27.310 --> 00:29.270
+Lo vediamo con la selezione.
+
+00:29.470 --> 00:32.320
+Stiamo impostando l'indice corrente come minimo.
+
+00:32.440 --> 00:37.060
+Quindi il primo elemento dell'array diventa il minimo.
+
+00:37.060 --> 00:43.870
+Ma quando passiamo in rassegna il resto della lista, vogliamo aggiornare il minimo.
+
+00:44.270 --> 00:49.730
+Se la corrente è inferiore a quella che avevamo in precedenza Quindi cosa avevamo qui dove inizialmente
+
+00:49.730 --> 00:52.570
+impostavamo il primo elemento nell'array novantanove come minimo.
+
+00:52.850 --> 00:58.940
+Non appena arriveremo alle quattro e quaranta quattro, diremo che oh 44 ha meno di novantanove.
+
+00:59.000 --> 01:05.250
+Aggiorniamo il minimo in modo che l'indice in cui è 44 sia ora il minimo.
+
+01:05.570 --> 01:15.890
+E abbiamo intenzione di scambiare quei numeri proprio come abbiamo visto nell'animazione ed è anche una cosa
+
+01:16.120 --> 01:18.820
+ben documentata su Internet.
+
+01:19.070 --> 01:30.370
+Ad esempio, se sei uno sviluppatore Python puoi semplicemente digitare l'ordinamento di selezione Python e scoprirai che sì puoi trovare il
+
+01:30.370 --> 01:39.290
+modo in cui la selezione lo ordina in Python e puoi anche eseguire il programma.
+
+01:39.550 --> 01:45.100
+Quindi, in base alla tua lingua, puoi solitamente fare clic sul primo o sul secondo link
+
+01:45.100 --> 01:47.560
+e mostrarti come viene implementato l'algoritmo.
+
+01:48.520 --> 01:53.950
+Come puoi vedere qui abbiamo due loop nidificati che passano attraverso l'intero array.
+
+01:53.980 --> 02:00.070
+Quindi è tutto finito e quadrato per il resto degli algoritmi di ordinamento.
+
+02:00.070 --> 02:05.030
+Avrò il codice fornito per te in modo che tu possa giocare con esso e interagire con esso.
+
+02:05.200 --> 02:12.920
+Vedete che l'ordinamento funziona come previsto ma può anche cercare la vostra lingua.
+
+02:13.880 --> 02:15.650
+Per trovare l'algoritmo di ordinamento.
+
+02:15.650 --> 02:18.660
+Quindi lo capisci a un livello più profondo.
+
+02:18.680 --> 02:22.570
+Parliamo del prossimo algoritmo di ordinamento nel video in arrivo.

@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.520 --> 00:02.840
+Witamy spowrotem.
+
+00:02.840 --> 00:10.100
+Właśnie zaimplementowaliśmy przygotowany i dołączony i powinno być jasne, dlaczego jest to operacja 0 1
+
+00:10.160 --> 00:11.620
+dla obu tych.
+
+00:11.660 --> 00:14.700
+Tak naprawdę nie musimy niczego przeglądać.
+
+00:14.790 --> 00:20.000
+Mieliśmy tylko odniesienie do ogona i głowy, a my ponownie wyznaczyliśmy pewne wartości.
+
+00:20.370 --> 00:21.600
+Ładne i łatwe.
+
+00:21.930 --> 00:23.700
+Ale teraz przychodzi trudna część.
+
+00:23.910 --> 00:25.010
+A co z tymi potrzebami.
+
+00:25.020 --> 00:26.300
+A co z blokadami.
+
+00:26.310 --> 00:29.750
+Usunięcie wstawek Traversals.
+
+00:29.810 --> 00:37.150
+Myślę, że powinniśmy również je zakodować, żeby w pełni zrozumieć, jak działają listy długości, to ćwiczenie
+
+00:37.150 --> 00:39.030
+będzie nieco trudniejsze.
+
+00:39.190 --> 00:43.840
+Ale zamierzam wam powiedzieć, że w grę wchodzi pętla.
+
+00:44.050 --> 00:53.830
+Chcemy stworzyć metodę wstawiania w tej metodzie wstawiania, która będzie miała indeks i parametr
+
+00:54.730 --> 01:04.260
+wartości, ponieważ będziemy chcieli chcieć powiedzieć wstawić tę lokalizację do tej wartości.
+
+01:04.290 --> 01:13.980
+Na przykład, jeśli chciałbym powiedzieć, że wstawiłem wstawioną kropkę do kropki i powiedzmy, że
+
+01:14.010 --> 01:19.560
+chcę wstawić indeks dwóch wartości dziewięćdziesiąt dziewięć.
+
+01:19.650 --> 01:27.900
+Oznaczałoby to, że jeśli powrócimy do naszego przykładowego indeksu 2, mamy na myśli 0 1 tutaj.
+
+01:27.960 --> 01:36.420
+Chcę wstawić dziewięćdziesiąt dziewięć i wskazać 5, jak to robimy.
+
+01:37.290 --> 01:45.840
+Chcę Cię ostrzec, że to może trochę skomplikować, a najlepszym sposobem, aby naprawdę o tym pomyśleć, to chwycić
+
+01:45.840 --> 01:50.730
+kartkę papieru i długopis i wyciągnąć kroki, które powinieneś zrobić.
+
+01:52.020 --> 01:59.880
+Dobrym sposobem na przećwiczenie tego i upewnienie się, że jest to właściwe, jest skorzystanie z wizualnej strony
+
+01:59.880 --> 02:08.560
+internetowej i ćwiczenie wkładania i zobaczenia, co się dzieje, gdy indeksujesz, powiedzmy, dziewięćdziesiąt dziewięć. Uderzam, zobacz, co się tutaj
+
+02:08.560 --> 02:09.160
+stanie.
+
+02:09.190 --> 02:12.250
+Będziesz musiał zakodować to działanie.
+
+02:12.370 --> 02:13.450
+Dostałeś to.
+
+02:13.810 --> 02:19.910
+Pobaw się z tym podczas próby i zakoduj funkcję wstawiania.
+
+02:20.160 --> 02:25.620
+Tak jak powiedziałem, że będzie coś w rodzaju pętli i pętli, widziałeś, że w
+
+02:25.650 --> 02:29.220
+demonstracji lub w animacji było coś w rodzaju przejścia.
+
+02:29.220 --> 02:34.180
+Będziemy więc musieli przeprowadzić jakiś ruch, aby znaleźć indeks.
+
+02:34.350 --> 02:44.310
+Chcę również zakodować funkcję szybkiego drukowania list, aby zamiast korzystać z tego sposobu drukowania listy, która w miarę
+
+02:44.340 --> 02:49.390
+jej pogłębiania staje się coraz trudniejsza do zrozumienia.
+
+02:49.590 --> 02:55.740
+Zamierzam po prostu stworzyć funkcję listy drukowania, do której powinieneś mieć dostęp,
+
+02:55.740 --> 03:04.650
+aby upewnić się, że twoja metoda wstawiania działa, a ta lista drukowania jest po prostu lista jest połączona lista.
+
+03:04.660 --> 03:10.250
+Ale zamiast tego brzydkiego wydruku, wydrukuję go tylko w tablicy.
+
+03:10.270 --> 03:20.760
+Zostanie to wydrukowane w tablicy i wszystko, co mamy zamiar zrobić, to powiedzieć, że tablica
+
+03:20.760 --> 03:32.090
+Konst i to będzie NMT, aurora będzie miała zmienną z bieżącą nutą, która będzie miała tę myśl.
+
+03:32.570 --> 03:37.370
+Pierwszy element na liście i wszystko, co zamierzamy zrobić, to zrobić pętlę.
+
+03:37.430 --> 03:40.210
+Pamiętaj, że jest to podobne do pętli for.
+
+03:40.220 --> 03:46.220
+Pętlajemy się, ale zamiast tego mówimy, że kiedy to się dzieje, gdy
+
+03:46.220 --> 03:52.450
+warunek się dzieje, uruchom poniższe komentarze, więc powiem, że obecny węzeł nie jest równy.
+
+03:52.460 --> 04:02.820
+Nie, dopóki istnieje aktualny węzeł i nie wskazujemy na terminator o wartości NULL,
+
+04:02.820 --> 04:10.390
+wystarczy dodać do tablicy tablicowej wartość bieżącego węzła.
+
+04:10.590 --> 04:11.230
+to jest to!
+
+04:11.250 --> 04:13.020
+Nie dbamy o wskaźniki ani nic.
+
+04:13.020 --> 04:21.670
+Chcemy tylko przekazać do tablicy wartość, a następnie zaktualizować bieżący węzeł do równego obecnego
+
+04:22.120 --> 04:24.100
+punktu węzłowego następnego.
+
+04:24.100 --> 04:29.410
+Będziemy więc nadal podążać, dopóki bieżący węzeł nie będzie miał wartości null i
+
+04:29.410 --> 04:36.200
+w którym przypadku zatrzymamy się ponownie, podczas gdy pętle są naprawdę dobre, jeśli tak naprawdę nie znamy długości
+
+04:36.200 --> 04:40.850
+naszej połączonej listy lub chcemy coś zrobić, gdy spełniony jest warunek.
+
+04:41.960 --> 04:45.890
+Możemy po prostu zwrócić tutaj tablicę.
+
+04:47.060 --> 04:48.220
+Zobaczmy, jak to zadziała.
+
+04:49.230 --> 04:54.360
+Jeśli to zrobię i zamierzam skomentować wstawkę tutaj, ponieważ nie zamierzamy tego zrobić, zamierzam
+
+04:54.360 --> 04:58.270
+po prostu powiedzieć, że moja lista linków nie jest drukowana.
+
+04:59.640 --> 05:07.470
+Jeśli uruchomię to, to jest nasza lista, więc używając polecenia parentless, aby sprawdzić twoją pracę, zobacz czy możesz stworzyć tę
+
+05:08.070 --> 05:08.800
+metodę.
+
+05:09.710 --> 05:11.930
+Powodzenia, a do zobaczenia w wideo z rozwiązaniem.

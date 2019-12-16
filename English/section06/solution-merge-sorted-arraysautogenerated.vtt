@@ -1,0 +1,445 @@
+WEBVTT
+
+00:00.940 --> 00:10.680
+Welcome back it's time to sort some morays let's grab this function put it at the very end because hopefully
+
+00:10.680 --> 00:12.100
+it'll work at the very end.
+
+00:12.420 --> 00:13.020
+And
+
+00:15.650 --> 00:19.200
+start writing our code.
+
+00:19.360 --> 00:25.090
+We'll start off by first defining the function called merge sort interface.
+
+00:25.120 --> 00:31.630
+It's going to take the first parameter which is the first array then the second parameter which is the
+
+00:31.630 --> 00:38.490
+secondary I'm going to first define some variables that we're going to use throughout the function.
+
+00:38.560 --> 00:47.760
+The first one will be a constant which is merged array which will be our answer.
+
+00:47.790 --> 00:49.910
+For now it's going to be an empty array.
+
+00:51.280 --> 00:56.420
+And we might as well just make sure that we return this merged array at the end.
+
+00:56.500 --> 01:03.160
+Hopefully it all works and we can populate this with these two arrays.
+
+01:03.240 --> 01:14.330
+Now in here I want to grab the array one item just for reference and this is going to be our very first
+
+01:14.750 --> 01:18.700
+array item.
+
+01:18.750 --> 01:23.090
+So this simply has the zero item here.
+
+01:23.190 --> 01:24.180
+And our first array
+
+01:27.720 --> 01:29.720
+and then we'll do the same thing.
+
+01:30.300 --> 01:31.410
+Array 2 item
+
+01:36.370 --> 01:39.280
+which is going to grab the number four from here.
+
+01:40.580 --> 01:47.240
+Now the very first thing I like doing in a function is checking for some sort of input making sure that
+
+01:47.250 --> 01:47.900
+everything
+
+01:50.660 --> 01:57.930
+works I'm going to spare you the time of me doing this because you should have an idea of how to check
+
+01:57.930 --> 02:02.360
+whether it's an array whether you have two parameters.
+
+02:03.520 --> 02:10.820
+But the one input that I think is worth checking is what if we have something like this.
+
+02:11.670 --> 02:15.910
+Where the second array is just an empty rate.
+
+02:16.260 --> 02:19.040
+In our case we can just return the first rate.
+
+02:19.380 --> 02:23.670
+Because while it's already sorted we're still merging the two rays but the other array doesn't have
+
+02:23.670 --> 02:24.210
+anything.
+
+02:24.570 --> 02:29.700
+And that's the same if this first array was just empty as well.
+
+02:30.660 --> 02:39.180
+So to avoid any X sure work let's check for those conditions so that right away we can give out the
+
+02:39.180 --> 02:42.390
+answer and make our function more efficient.
+
+02:42.390 --> 02:43.780
+In those cases.
+
+02:44.010 --> 02:45.650
+So I can just do an if statement.
+
+02:45.810 --> 02:51.800
+I'll say aere want lenth if that is equal to zero.
+
+02:52.910 --> 02:54.790
+So if first array is empty.
+
+02:54.980 --> 02:57.740
+Just simply return the secondary
+
+03:01.300 --> 03:10.970
+and we can do the same for the other case if array to lenth is empty then we can just return the first
+
+03:10.970 --> 03:14.690
+array nice and simple.
+
+03:14.760 --> 03:20.340
+For now let's get into the harder topic which is what happens if both of these arrays are full like
+
+03:20.340 --> 03:20.920
+they are now.
+
+03:22.410 --> 03:30.250
+Well just to change things up because I've been using the for loops for a while I'll use the while loop
+
+03:30.550 --> 03:36.940
+in javascript and this simply says loop through the items while a condition is met.
+
+03:37.030 --> 03:48.520
+In our case I'm going to say while there is an array one item or there is an array 2 Item
+
+03:51.360 --> 03:59.130
+do something and remember these variables are simply for now the first item in each one of the arrays
+
+03:59.750 --> 04:04.960
+and by the way if you're wondering why sometimes I use cost sometimes I use LET.
+
+04:05.340 --> 04:12.680
+Well cost means that once I assign this variable to this array I can't modify it.
+
+04:12.720 --> 04:15.940
+I can't say merged array equals to two.
+
+04:16.080 --> 04:21.960
+It's going to give me a warning because it's a constant I can add things to the array but I can't change
+
+04:22.380 --> 04:24.480
+this reference to the array.
+
+04:24.630 --> 04:27.770
+On the other hand let allows me to do that.
+
+04:27.870 --> 04:35.890
+So later on I can say array one item equals to something new like array one in the index of one.
+
+04:36.330 --> 04:39.300
+So that is why we're using this syntax.
+
+04:39.300 --> 04:42.680
+It's a new ESX syntax and Javascript.
+
+04:42.800 --> 04:43.910
+All right.
+
+04:43.910 --> 04:57.810
+So while we have things and the arrays we want to first do a bit of a check let's say if array one item
+
+04:58.710 --> 05:15.630
+is less than Array 2 item that is if 0 is less than 4 we want to add to the mystery empty array.
+
+05:15.660 --> 05:20.860
+We want to say push and we'll push the first item in the array.
+
+05:21.060 --> 05:32.570
+So we're going to push 0 and because we've now pushed the zero item into this array we don't really
+
+05:32.570 --> 05:34.610
+need to worry about zero anymore.
+
+05:34.970 --> 05:49.230
+So we can just simply say array one item is now going to equal array one at index of.
+
+05:49.350 --> 05:54.710
+Right because now we want to move to array item.
+
+05:54.710 --> 06:00.040
+That's over here at index 1 which is 3 so that we can compare three with four.
+
+06:00.150 --> 06:02.450
+Now we want to increment this every time.
+
+06:02.610 --> 06:11.160
+And because we are doing a loop here let's convert this into an index that is high and incremented by
+
+06:11.280 --> 06:12.740
+plus plus.
+
+06:12.970 --> 06:22.910
+And at the top over here we can just say for the beginning that by is going to equal one.
+
+06:23.000 --> 06:28.610
+So that way as we loop through this this is going to increment with I plus plus of that is increment
+
+06:28.610 --> 06:37.590
+by 1 so that we can go 0 3 4 31 and by the way I just noticed that I can't spell the shabby array over
+
+06:37.590 --> 06:40.550
+here her 8.
+
+06:40.550 --> 06:46.430
+Now that's the case when array one item is less than array to the list to the other side.
+
+06:46.580 --> 06:55.310
+If array 2 item is less than Array 1 we now merge into the array.
+
+06:57.970 --> 07:07.080
+Array to item because if array one item is not less than array to item we don't even need to add a condition
+
+07:07.080 --> 07:07.370
+here.
+
+07:07.370 --> 07:15.470
+We know that array one item is greater than the array two items in which case we can just add the second
+
+07:15.470 --> 07:16.400
+item.
+
+07:16.400 --> 07:19.470
+So that is we add this item instead.
+
+07:20.860 --> 07:25.980
+And again we want to do the exact same thing that we did with the first item or the first array.
+
+07:26.110 --> 07:35.110
+That is the array to item is now going to equal array to and we need a different index of this.
+
+07:35.110 --> 07:43.160
+We can use the same one rate so we can just say this is going to be J and appear.
+
+07:43.360 --> 07:45.920
+We simply do the same thing.
+
+07:45.940 --> 07:49.000
+J is going to equal to 1.
+
+07:49.390 --> 07:57.790
+So once we figured out the zero index items we can then move on to index of one than index of two index
+
+07:57.790 --> 07:58.290
+of three.
+
+07:58.300 --> 08:00.280
+So on and so forth.
+
+08:00.280 --> 08:02.480
+Now let's check this code and see if it works.
+
+08:02.530 --> 08:08.790
+If I run this oh you'll see that my browser just crashed.
+
+08:08.790 --> 08:15.960
+And that's because I have a setting on REPL that ID which allows for while for this to happen most likely
+
+08:15.960 --> 08:19.480
+if you're using the default settings here it will give you a warning.
+
+08:19.800 --> 08:20.390
+But let's go back
+
+08:25.430 --> 08:27.130
+why did that happen.
+
+08:27.800 --> 08:33.780
+This is why it's always a good idea to go step by step and make sure things work.
+
+08:33.800 --> 08:39.130
+We did a lot of coding here without actually testing if any of this works.
+
+08:39.930 --> 08:47.230
+So good note here is to pause every once in a while and just test your assumptions lugged out the answers.
+
+08:47.390 --> 08:57.070
+In this case we missed a critical point that is in this check over here if we do the while loop as long
+
+08:57.070 --> 09:04.810
+as array one item or array two items are populated and we check here if array one item is less than
+
+09:04.810 --> 09:06.660
+Array 2 item.
+
+09:06.780 --> 09:14.700
+But the problem here is that we could have a case where one of these because we're using or could be
+
+09:14.760 --> 09:19.690
+undefined or we reached the end of the line in order to account for that.
+
+09:19.800 --> 09:27.280
+The critical thing to do here is to always know how your code is running so let's do a canceled or lock
+
+09:27.300 --> 09:34.160
+here say horæ want item man array to item.
+
+09:34.640 --> 09:37.790
+Let's see what we get throughout the loop.
+
+09:38.640 --> 09:44.600
+If I run this it's going to crash again and we won't be able to see our logs.
+
+09:44.610 --> 09:50.410
+So I'm just going to write down the correct version here and then explain why we did what we did.
+
+09:50.750 --> 09:56.260
+I'm going to just say if re to item
+
+09:59.810 --> 10:06.570
+if the array to item doesn't exist so if we have undefined it's going to turn this into true.
+
+10:06.580 --> 10:08.510
+So we ran through this.
+
+10:08.800 --> 10:10.100
+Why is that.
+
+10:10.120 --> 10:10.900
+Let's have a look.
+
+10:13.180 --> 10:15.470
+Notice what we just locked here.
+
+10:15.520 --> 10:18.780
+We've logged every one item then array two item.
+
+10:18.790 --> 10:26.770
+So this is why we're comparing throughout our loops zeros more then 3 and 4 then for him for then four
+
+10:26.770 --> 10:37.030
+and six then 31 and six 31 and 30 and then 31 and on define you see here how the second array item becomes
+
+10:37.180 --> 10:38.040
+undefined.
+
+10:38.880 --> 10:51.040
+And in order for us to bypass this undefined which becomes one defined here and we use the exclamation
+
+10:51.040 --> 10:54.610
+mark in javascript to turn this into a true statement.
+
+10:54.610 --> 11:04.670
+So it turns into this so that we can add the Thirty-One in array one into the final slot of the array.
+
+11:06.140 --> 11:08.810
+Now if this was like this and I run
+
+11:11.780 --> 11:16.420
+we get undefined for the first array.
+
+11:17.490 --> 11:26.480
+However because we're doing the second check which is is array one item less than Array 2 item and in
+
+11:26.480 --> 11:36.670
+our case if we do on defined less than 6 which is what we're doing here in this comparison.
+
+11:36.750 --> 11:48.760
+If I run this and let's Konsole the log this see what the answer is I get false.
+
+11:48.770 --> 11:57.200
+So even though in this time around array one is undefined because we've gone through it because this
+
+11:57.200 --> 11:59.330
+statement is false.
+
+11:59.420 --> 12:09.290
+We go to the else statement and filled the rest of the array with 6 and 13 or 30 which come from array
+
+12:09.380 --> 12:09.620
+to
+
+12:12.850 --> 12:19.390
+I wanted to point this out to you because this may now be the cleanest solution right.
+
+12:19.420 --> 12:27.310
+I mean looking at this code just think about what I had to explain and draw out for you to fully understand
+
+12:27.820 --> 12:29.480
+how this works.
+
+12:29.530 --> 12:33.930
+I and I did this for a specific reason during the interview.
+
+12:33.940 --> 12:40.180
+If you have to explain things in detail like this and write things out well perhaps there's a better
+
+12:40.180 --> 12:41.350
+way of writing it.
+
+12:43.070 --> 12:49.970
+Because an interviewer is going to get confused as to what this means then what this means and it doesn't
+
+12:49.970 --> 12:52.250
+really read like English does it.
+
+12:52.400 --> 12:57.540
+Ideally these functions are really really nice to just read.
+
+12:57.610 --> 13:06.490
+So perhaps I can take this part of the function and convert it into its own function and just name this
+
+13:06.550 --> 13:10.640
+has should push first array item.
+
+13:11.110 --> 13:18.790
+And this should be should push array to item and by extracting out these pieces of code into their own
+
+13:19.030 --> 13:20.170
+little function.
+
+13:21.260 --> 13:28.700
+You can clean out this answer and make it more readable and interviewers are going to like that.
+
+13:28.750 --> 13:34.060
+Now during an interview you may not have time to do so but you can let the interviewer know how you
+
+13:34.060 --> 13:40.510
+wrote the solution and you understand that this is probably not the most readable solution and this
+
+13:40.510 --> 13:42.960
+is what you would do to clean it up.
+
+13:42.970 --> 13:47.590
+You don't have to actually code it as long as you tell them and you understand where you would improve
+
+13:47.590 --> 13:48.600
+things.
+
+13:48.890 --> 13:54.830
+That in an interviewer's eyes is just as good as you actually coding it that way.
+
+13:54.910 --> 13:57.220
+All right looks like this is working.
+
+13:57.220 --> 14:06.340
+If I do an empty array here I see that it's still working our answer is looking good.
+
+14:07.600 --> 14:09.000
+Hope you got this far.
+
+14:09.040 --> 14:11.330
+I'll see you in the next video by.

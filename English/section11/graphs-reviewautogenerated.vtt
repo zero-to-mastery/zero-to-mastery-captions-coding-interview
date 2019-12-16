@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.720 --> 00:05.370
+Welcome back what are the pros and cons of grafs.
+
+00:05.780 --> 00:13.010
+Well when it comes to performance and big-O it gets a little bit complicated because there are so many
+
+00:13.010 --> 00:19.330
+different types of graphs you can think of graphs as really useful when it comes to relationships.
+
+00:19.440 --> 00:26.230
+They're simply indispensable because some data just needs to be in a graph form.
+
+00:26.570 --> 00:28.260
+There's no other way around it.
+
+00:28.550 --> 00:34.580
+And there are algorithms around graphs such as the ones we're going to be talking about in the algorithm
+
+00:34.580 --> 00:43.850
+section that allows us to perform operations such as finding the shortest path or traversing a graph.
+
+00:44.010 --> 00:50.980
+But when it comes to graphs because they can get complicated scaling is pretty hard.
+
+00:51.360 --> 00:57.990
+You need a big company or at least a lot of resources and engineering power to make sure that you build
+
+00:58.110 --> 01:01.270
+graph data structures that scale well.
+
+01:01.670 --> 01:10.080
+But luckily for us you usually will never have to implement your own graph in production or at least
+
+01:10.080 --> 01:10.920
+for now.
+
+01:10.950 --> 01:19.690
+9 percent of the population there are tools like Neo for J which is a popular database that allows you
+
+01:19.690 --> 01:28.330
+to build really fast graph databases and most of the time you'll use tools like this to build complex
+
+01:28.420 --> 01:30.540
+structures to contain our data.
+
+01:32.270 --> 01:33.690
+Congratulations.
+
+01:33.890 --> 01:39.780
+We've now covered another part of our data structure mind map that is graphs.
+
+01:40.160 --> 01:46.470
+We learned about six like a acyclic waited on waited directed or undirected.
+
+01:46.530 --> 01:50.590
+We were also able to build our own graph.
+
+01:50.600 --> 01:55.730
+Now there's still a few things left that I see up there and perhaps over here which we're going to get
+
+01:55.730 --> 01:59.470
+into in the algorithm section but for now take a break.
+
+01:59.690 --> 02:03.670
+Drink some coffee or tea and I'll see you in the next video.
+
+02:03.670 --> 02:04.340
+Bye bye.

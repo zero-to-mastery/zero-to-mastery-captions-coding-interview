@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.420 --> 00:01.220
+Witamy spowrotem.
+
+00:01.470 --> 00:04.250
+Porozmawiajmy o złożoności przestrzeni.
+
+00:04.260 --> 00:14.260
+Co jeśli mam funkcję, która ma nazwę boo i wszystko, co robi, to pobiera dane wejściowe.
+
+00:14.600 --> 00:23.880
+Wewnątrz tego wejścia będzie po prostu pętla, którą widzieliśmy wcześniej.
+
+00:25.600 --> 00:38.630
+I ta pętla sprawimy, że zrobimy to poprawnie i powiemy to i to puste i powiemy plus
+
+00:38.630 --> 00:49.950
+plus, a ta funkcja jest naprawdę bezużyteczną funkcją, która po prostu wylogowuje Konsole log do
+
+00:50.100 --> 00:51.900
+swojej funkcji.
+
+00:51.910 --> 00:55.120
+Więc teraz tutaj, jeśli po
+
+00:57.770 --> 01:12.700
+prostu uruchomimy tę funkcję i po prostu damy jej dane wejściowe powiedzmy 1 2 3 4 5 i uruchommy to dobrze, mamy BHU działającego pięć razy i wiemy,
+
+01:12.700 --> 01:19.100
+że złożoność przestrzeni tej funkcji lub czasu złożoności tej funkcji jest kiedy.
+
+01:19.330 --> 01:24.700
+Ale jeśli chodzi o złożoność przestrzeni, pomyślmy o tym.
+
+01:24.870 --> 01:27.360
+Jaka jest złożoność tego miejsca.
+
+01:27.420 --> 01:30.330
+Teraz spróbuj zgadnąć, zanim przejdę do tematu.
+
+01:35.410 --> 01:43.480
+Jeśli chodzi o złożoność kosmiczną, chodzi o to, że kiedy mówimy o złożoności przestrzeni, mówimy
+
+01:43.480 --> 01:49.590
+o dodatkowej przestrzeni, więc nie uwzględniamy przestrzeni zajmowanej przez dane wejściowe.
+
+01:49.720 --> 01:54.930
+Więc nie obchodzi nas, jak duże są dane wejściowe.
+
+01:54.970 --> 01:56.340
+Mam na myśli, że się przejmujemy.
+
+01:56.350 --> 02:02.980
+Ale jeśli chodzi o tę funkcję, tak naprawdę nie mamy kontroli nad tym, jaki rodzaj wejścia otrzymuje.
+
+02:02.980 --> 02:06.700
+Mamy tylko kontrolę nad tym, co dzieje się wewnątrz tej funkcji.
+
+02:06.730 --> 02:16.060
+Tak więc w ramach tej funkcji dodajemy dowolną przestrzeń. Naprawdę nie jedyną rzeczą, którą naprawdę robimy,
+
+02:16.120 --> 02:24.030
+jest to, że tworzymy zmienną "pozwól mi" na zero i to wszystko.
+
+02:24.080 --> 02:27.180
+Poza tym nie dodajemy więcej pamięci.
+
+02:27.470 --> 02:37.540
+Zatem ta funkcja ma złożoność przestrzeni 0 1 ładną i prostą, ale co zrobić, jeśli mamy inną funkcję,
+
+02:38.030 --> 02:40.510
+jeśli mamy coś takiego.
+
+02:42.280 --> 02:49.360
+Tym razem będzie mieć funkcję, która mówi, że macie zamiar nadać mu kolejną straszną nazwę.
+
+02:49.480 --> 02:52.170
+Najwyższe czasy.
+
+02:52.690 --> 02:53.640
+To okropne imię.
+
+02:53.650 --> 03:01.150
+Ale załóżmy, że ta funkcja ma ponownie dane wejściowe i tutaj stworzymy nową zmienną.
+
+03:01.180 --> 03:06.850
+Powiemy, że tablica Hi będzie równa pustej tablicy.
+
+03:07.890 --> 03:10.700
+I myślimy, że tutaj będziemy mieli pętlę.
+
+03:10.740 --> 03:19.510
+Zamierzam skopiować to na teraz, muszę nudzić cię pisaniem, a tutaj
+
+03:19.900 --> 03:25.710
+powiem po prostu tablicę hi w indeksie.
+
+03:25.740 --> 03:33.290
+Podczas gdy będziemy zapętlać, wypełnimy go wysoko, a my zwrócimy tę tablicę.
+
+03:33.300 --> 03:39.170
+Cześć Ira.
+
+03:39.890 --> 03:42.630
+Wszystko, co robimy, to tworzenie nowej tablicy.
+
+03:43.160 --> 03:52.320
+A w przypadku liczby elementów w naszym wpisie będziemy po prostu wielokrotnie uzupełniać wysoką tablicę.
+
+03:52.340 --> 03:52.670
+Cześć.
+
+03:52.680 --> 03:53.320
+Cześć cześć.
+
+03:53.320 --> 03:54.840
+Hi string.
+
+03:54.950 --> 04:04.640
+Więc jeśli zrobię to jeszcze raz, a ja powiem tablicę najwyższych czasów i daję to, powiedzmy, że damy i wiesz co.
+
+04:04.670 --> 04:07.800
+Zamiast ducha zostawmy go jako liczbę.
+
+04:07.800 --> 04:14.290
+Więc powiem i powiem ci sześć razy.
+
+04:14.370 --> 04:21.760
+Więc jeśli uruchomię ten kod, zobaczymy, że pomimo tego, że mamy tu boo
+
+04:22.390 --> 04:32.830
+boo boo od początku, druga tablica funkcyjna najwyższych czasów zwraca nam nową tablicę z sześcioma pozycjami, a każdy
+
+04:32.830 --> 04:39.100
+element po prostu mówi: Cześć, co jest złożonością przestrzeni tego.
+
+04:39.170 --> 04:40.240
+To powinno dać ci wskazówkę.
+
+04:40.250 --> 04:47.540
+Pamiętaj o przydzieleniu wywołań funkcji struktury danych zmiennej Chichi.
+
+04:47.600 --> 04:57.560
+Te rzeczy zajmują miejsce iw naszym przypadku stworzyliśmy zmienne w naszej zmiennej pętli i. mi. jest równa zero.
+
+04:57.560 --> 05:00.190
+Ale stworzyliśmy także odpowiednie struktury danych.
+
+05:00.200 --> 05:02.250
+Stworzyliśmy nową tablicę.
+
+05:02.270 --> 05:12.920
+Jeśli teraz wrócimy, widzimy, że tutaj stworzyliśmy nową tablicę i wypełniamy tę tablicę pętlą.
+
+05:13.110 --> 05:18.670
+I znowu z powodu naszych zasad, jeśli chodzi o begob, ignorujemy stały czas.
+
+05:18.670 --> 05:21.120
+Niech równa się zero miejsca.
+
+05:21.120 --> 05:31.350
+Zamiast tego staje się to wydarzeniem, ponieważ tworzymy nową strukturę danych i dodajemy pamięć, aby każdy
+
+05:31.350 --> 05:38.490
+element był dodatkową przestrzenią pamięci na naszych komputerach i czasach.
+
+05:38.690 --> 05:39.950
+I wiesz co.
+
+05:40.160 --> 05:43.910
+To prawie wszystko, jeśli chodzi o złożoność przestrzeni.
+
+05:43.910 --> 05:49.190
+Myślę, że wpadasz na ten pomysł, a my nieco bardziej się zaangażujemy, gdy
+
+05:49.580 --> 05:56.180
+mówimy o rekurencji, ale jeśli chodzi o złożoność przestrzeni, dodajesz dodatkową pamięć, której potrzebujesz i czasami
+
+05:56.360 --> 05:58.380
+to jest poważnym problemem.
+
+05:58.670 --> 06:04.700
+Czasami nie ma i coś, co często pojawia się w wywiadach i czymś,
+
+06:04.700 --> 06:11.510
+o czym porozmawiamy w następnej sekcji, jest czasami kompromis między oszczędzaniem czasu i oszczędnością miejsca.
+
+06:11.780 --> 06:15.990
+Musisz zdecydować, dla którego optymalizujesz.
+
+06:16.340 --> 06:20.560
+Przejdźmy do zabawnych przykładów na podstawie tego, czego właśnie dowiedzieliśmy się w następnym wideo.
+
+06:21.590 --> 06:23.500
+Zobacz na tym.

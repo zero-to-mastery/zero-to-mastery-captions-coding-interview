@@ -1,0 +1,517 @@
+WEBVTT
+
+00:00.950 --> 00:02.270
+Witamy spowrotem.
+
+00:02.270 --> 00:03.190
+Jak było.
+
+00:03.260 --> 00:04.030
+Czaisz.
+
+00:04.040 --> 00:07.040
+Czy było to trudne pytanie.
+
+00:07.100 --> 00:12.890
+Nie rozczaruj się zbytnio, jeśli nie jesteś w stanie uzyskać odpowiedzi na
+
+00:12.980 --> 00:14.120
+te pytania.
+
+00:14.330 --> 00:17.360
+Gdyby były zbyt proste, nie nauczyłbyś się niczego.
+
+00:22.930 --> 00:28.900
+Zacznijmy od podejścia naiwnego, które jest podejściem, które przychodzi na myśl.
+
+00:29.750 --> 00:36.280
+Dla mnie pierwszym będzie zagnieżdżona pętla for.
+
+00:36.470 --> 00:37.660
+Miejmy funkcję.
+
+00:37.700 --> 00:39.170
+Najpierw zadzwonię.
+
+00:42.530 --> 00:45.850
+Powtarzająca się postać.
+
+00:46.060 --> 00:47.940
+Otrzyma dane wejściowe.
+
+00:48.670 --> 00:53.140
+A ponieważ już o tym rozmawialiśmy, nie będę przeprowadzać walidacji danych wejściowych.
+
+00:53.140 --> 00:59.860
+Możemy po prostu założyć, że zawsze będziemy mieć tutaj pewną numerowaną tablicę.
+
+00:59.870 --> 01:05.670
+Mam zamiar znów zapętlić i oh, chłopcze, robiłem to już tyle razy.
+
+01:05.750 --> 01:09.310
+Mam nadzieję, że zaczynasz chorować i masz dość po prostu przechodzenia przez tablice.
+
+01:10.620 --> 01:19.240
+Ale hej teraz przynajmniej jesteśmy mistrzami pętli.
+
+01:19.470 --> 01:20.700
+Plus plus.
+
+01:21.470 --> 01:27.890
+Tak więc tutaj, w pierwszej pętli, pobieramy pierwszy element w tablicy i po prostu wywołajmy tę
+
+01:27.890 --> 01:28.330
+funkcję.
+
+01:28.330 --> 01:30.920
+Więc mamy to tutaj.
+
+01:30.920 --> 01:32.080
+Ładne i łatwe.
+
+01:33.300 --> 01:35.710
+I daje nam fajny obraz.
+
+01:35.830 --> 01:41.440
+Więc przejdę przez pierwszą pozycję, potem piątą lub drugą trzecią czwartą i
+
+01:41.440 --> 01:42.600
+będę kontynuował.
+
+01:43.000 --> 01:48.490
+Chcę chwycić ten przedmiot, a następnie zrobić kolejną pętlę i sprawdzić dwa w porównaniu do pięciu.
+
+01:48.610 --> 01:53.550
+Dwa kontra jeden dwa kontra dwa, a potem powiedz, że to jedyny.
+
+01:53.950 --> 02:01.930
+Jeśli nic nie znajdzie, przejdzie do następnej piątki, a następnie porównaj 5 do 1 1 do 2 2 2 3 i tak
+
+02:01.930 --> 02:02.520
+dalej.
+
+02:03.370 --> 02:10.040
+Więc jeszcze raz po prostu skopiuję i wkleję ten czas, ponieważ zrobiliśmy wiele
+
+02:10.040 --> 02:15.580
+czterech pętli i po prostu zmienimy zmienną na j.
+
+02:15.620 --> 02:19.940
+Zaczniemy od 1, ponieważ nie chcemy porównywać dwóch do dwóch.
+
+02:19.940 --> 02:21.710
+Chcemy porównać dwa do pięciu.
+
+02:21.770 --> 02:27.020
+Aby rozpocząć, po prostu pomijamy pętlę, która nam pomoże.
+
+02:27.650 --> 02:39.570
+Zamierzam powiedzieć, że Jay tu i J plus plus Teraz niektórzy z was mogli zostać tutaj złapani, ponieważ jeśli mamy to
+
+02:39.570 --> 02:46.120
+teraz tak, i konsola loguje tę pętlę, zobaczycie, że nie będzie działać
+
+02:46.180 --> 02:55.700
+poprawnie, ponieważ za każdym razem, gdy przesuwa się zewnętrzne przesunięcie pętli z, powiedzmy zero do następnego, jeden
+
+02:56.060 --> 02:59.880
+indeks Jaya zostanie zresetowany do 1.
+
+03:00.020 --> 03:05.950
+Tak więc 5 zostanie porównanych do 5, a funkcja zajmie piątki.
+
+03:05.960 --> 03:08.850
+Powracająca postać.
+
+03:09.030 --> 03:21.030
+Tak więc mała sztuczka polega na zrobieniu pi plus jeden, który zawsze idzie jeden na prawo od miejsca, gdzie HIAS
+
+03:21.030 --> 03:22.260
+pierwszy indeksuje.
+
+03:22.590 --> 03:34.260
+Więc jeśli mamy pętlę loopowania i jesteśmy tutaj, pętla podrzędna pętli zagnieżdżonej obejrzy I plus 1.
+
+03:34.340 --> 03:42.360
+Więc porównamy dwa do trzech od dwóch do pięciu do do-I, ponieważ dobrze już poradziliśmy sobie z 2 2 5
+
+03:42.360 --> 03:46.830
+2 5 5 2 2 1 2 2 i poprzednimi pętlami.
+
+03:46.830 --> 03:47.400
+W porządku.
+
+03:47.610 --> 03:49.700
+Zrobiliśmy to tutaj.
+
+03:49.740 --> 03:54.120
+Możemy po prostu wykonać instrukcję if mówiącą po części.
+
+03:54.510 --> 04:00.970
+Czy to równa wejście J ma równe 5.
+
+04:01.040 --> 04:04.320
+Czy dwa równe 1 to zbyt równe 2.
+
+04:04.640 --> 04:08.150
+Jeśli to równa, to po prostu wróć i postaw
+
+04:12.290 --> 04:12.860
+inaczej.
+
+04:12.880 --> 04:17.590
+Jeśli wykonamy całą tę pracę i nic się nie wydarzy, możemy
+
+04:20.690 --> 04:22.940
+po prostu wrócić niezdefiniowani.
+
+04:23.020 --> 04:24.220
+Zobaczmy, czy to działa.
+
+04:24.340 --> 04:34.310
+Mam zamiar go uruchomić i dostaję dwa niesamowite. Co, jeśli zmienię to na jeden, jeśli uruchomię to, otrzymam jedno doskonałe
+
+04:34.680 --> 04:44.030
+Co zrobić, jeśli zrobię tylko jeden element w tablicy, otrzymam niezdefiniowane, jeśli zrobię pustą tablicę, otrzymam niezdefiniowaną .
+
+04:44.060 --> 04:44.990
+Dobre.
+
+04:45.230 --> 04:50.230
+Co jeśli zrobię 1 1 lub 1 1, otrzymam 1.
+
+04:50.230 --> 04:50.760
+To wspaniale.
+
+04:50.770 --> 04:55.250
+Jeśli chcę, to niezdefiniuję się niesamowicie.
+
+04:55.290 --> 05:03.410
+Wygląda na to, że działa dobrze i prosto, ale jak widać, nie jesteśmy zbyt wydajni.
+
+05:03.480 --> 05:13.400
+Mamy zagnieżdżone pętle, które powinny wywołać Oh, to wszystko i kwadrat.
+
+05:13.480 --> 05:19.870
+I chociaż technicznie rzecz biorąc, zawsze jesteśmy w pętli trochę bardziej wydajni, ponieważ
+
+05:19.930 --> 05:24.650
+ja plus nie pętlę dwa razy w całej tablicy.
+
+05:25.590 --> 05:32.510
+W końcu, gdy usuniesz stałe i uprościsz rzeczy, nadal będzie to 0 i kwadrat.
+
+05:32.550 --> 05:36.100
+Więc jak możemy rozwiązać ten problem używając tabel mieszających.
+
+05:37.460 --> 05:41.830
+Stwórzmy nową funkcję.
+
+05:43.180 --> 05:46.690
+Tym razem nazwiemy tę funkcję tym samym tytułem.
+
+05:46.690 --> 05:54.330
+Numer dwa wersja 2 otrzyma dane wejściowe.
+
+05:54.540 --> 05:59.340
+I zmieńmy nasze przypadki testowe, aby mieć to samo,
+
+06:03.420 --> 06:06.800
+co wcześniej, co możemy tutaj zrobić.
+
+06:07.680 --> 06:15.440
+Cóż, użyjmy tablicy hash lub obiektu, aby zrobić coś interesującego.
+
+06:15.600 --> 06:23.610
+To znaczy mieć te wszystkie elementy, gdy robimy iterację jeden po drugim, tak że przechodzimy przez wszystkie elementy, dodając je
+
+06:23.610 --> 06:24.870
+do tablicy mieszającej.
+
+06:25.170 --> 06:32.670
+I podczas gdy to robimy, możemy sprawdzić, czy właściwość już istnieje, czy klucz już istnieje.
+
+06:33.520 --> 06:38.650
+Dodajemy dwa do tabeli mieszania, a następnie pięć do tabeli mieszania, a następnie jeden do tabeli mieszania.
+
+06:38.680 --> 06:47.210
+A kiedy spróbujemy dodać dwa, możemy wyzwolić ostrzeżenie, że mamy już dwa jako klucz, więc używając tej logiki
+
+06:47.210 --> 06:50.010
+zobaczmy, jak możemy to zaimplementować.
+
+06:50.050 --> 06:52.770
+Zamierzam stworzyć mapę.
+
+06:52.840 --> 06:58.980
+Na razie nazwiemy to mapą skrótu, ponieważ klucze będą niepowtarzalne.
+
+06:58.990 --> 07:13.290
+To nie pozwoli na duplikowanie kluczy i możemy po prostu zrobić nasze pętle.
+
+07:13.690 --> 07:27.090
+I w tej pętli wszystko, co zrobimy, to powiedzieć, czy mapa i możemy sprawdzić na tej mapie, czy jest ona pusta,
+
+07:27.090 --> 07:36.630
+to teraz pierwsze odprawienie chcę powiedzieć, czy właściwość, czy klucz już istnieje, chcę po prostu
+
+07:38.160 --> 07:39.500
+zwrócić pozycja.
+
+07:40.420 --> 07:42.880
+Ponieważ nie musimy już wykonywać żadnej pracy.
+
+07:43.300 --> 07:52.800
+Gdy tylko znajdziemy klucz, który już istnieje w naszej tabeli mieszania, zatrzymaj wszystkie pętle i po prostu wróć.
+
+07:52.840 --> 07:55.330
+W tym przypadku chcemy wrócić do.
+
+07:55.450 --> 08:08.970
+Tak więc przy indeksie 0 1 2 3 powróci i powie 2, ponieważ dobrze ten klucz już istnieje.
+
+08:09.150 --> 08:17.500
+Tak więc sposób, w jaki robimy to w sprawdzaniu IF, polega po prostu na powiedzeniu i wysłaniu, ponieważ pamiętajcie,
+
+08:17.500 --> 08:21.240
+że będzie to 2, kiedy będziemy je przeglądać.
+
+08:23.400 --> 08:33.320
+Jeśli to istnieje, to wróć, inaczej dodamy go do naszej mapy.
+
+08:33.410 --> 08:41.400
+Zatem dane wejściowe będą równe, a wartość może być dowolna.
+
+08:41.400 --> 08:44.480
+Zostawimy go po I, który jest indeksem.
+
+08:44.820 --> 08:54.930
+Tak więc 2 będzie równe 0, 5 będzie równe 1 1 będzie musiało pozwolić, żeby konsola zalogowała się tutaj, aby zobaczyć,
+
+08:54.930 --> 08:56.620
+co się dzieje.
+
+08:56.790 --> 09:07.240
+Ale na koniec chcę też wrócić niezdefiniowany, na wypadek, gdyby nic się nie stało, na wypadek, gdyby nie było żadnego dopasowania.
+
+09:07.250 --> 09:12.220
+Tak więc na końcu pętli for będziemy właśnie usuwać dziennik dot.
+
+09:12.310 --> 09:15.850
+Napp i zobacz, co mamy.
+
+09:15.970 --> 09:20.230
+Mam zamiar uciekać, a dostaję pięć.
+
+09:20.520 --> 09:23.700
+I nie ma dziennika, co się tutaj właśnie wydarzyło.
+
+09:24.150 --> 09:32.610
+Cóż, jeśli zamiast tego zbieramy log Ophir i sprawdzamy, co nam to
+
+09:36.360 --> 09:43.460
+daje i uruchamiam, uzyskuję niezdefiniowane niezdefiniowane niezdefiniowane zero niezdefiniowane.
+
+09:43.500 --> 09:44.910
+Co to znaczy.
+
+09:44.910 --> 09:55.670
+Cóż, pamiętajmy, że tutaj mamy pętlę i mówimy, że hej też istnieje.
+
+09:55.790 --> 09:57.940
+Czy wejście zero.
+
+09:57.980 --> 10:01.530
+Który ma istnieć jako klucz.
+
+10:02.030 --> 10:08.090
+Więc po prostu mówi, że Napp dot to istnieje.
+
+10:08.190 --> 10:16.200
+A ponieważ to nie istnieje, mamy zdefiniowane i pójdzie do następnego Hey ma pięć.
+
+10:16.260 --> 10:17.210
+Nie, nie.
+
+10:17.220 --> 10:19.320
+Hej, czy istnieje.
+
+10:19.320 --> 10:20.220
+Nie, nie.
+
+10:20.340 --> 10:22.320
+Hej też istnieje.
+
+10:22.350 --> 10:25.290
+I jak tylko znowu
+
+10:28.140 --> 10:32.770
+to sprawdzi, powie, że już to mam.
+
+10:32.860 --> 10:37.640
+Jest na indeksie 0.
+
+10:37.690 --> 10:40.390
+Więc to działa.
+
+10:40.630 --> 10:53.190
+Jednak, ponieważ kiedy zeruje się tak, jak działa javascript, umieszcza się tutaj zero, ale w poleceniu IF zero to to, co nazywamy falsie i
+
+10:53.580 --> 11:00.600
+Javascript, a to ma związek z typem coarsen i Javascript, z którym wiele
+
+11:00.600 --> 11:03.930
+osób denerwuje się językiem .
+
+11:03.930 --> 11:12.780
+Musimy więc upewnić się, że określimy, że chcemy, aby to nie było równe zdefiniowanym.
+
+11:12.840 --> 11:18.690
+Tak więc, gdy nie jest równy niezdefiniowanemu, chcę, abyś zwrócił ten przedmiot.
+
+11:18.710 --> 11:34.900
+Teraz jeśli uruchomimy to otrzymamy dwa, co jest świetne, jeśli konsole dot wyśledzimy mapę i uruchomimy ją na dole tutaj.
+
+11:34.900 --> 11:43.950
+Widzimy więc rzeczywistą iterację, która się dzieje, widzimy, że dodaje ona do indeksu 0, a następnie do indeksu 0
+
+11:43.950 --> 11:46.280
+i 5 indeksu 1.
+
+11:46.590 --> 11:54.870
+Tak dalej i tak dalej, aż zatrzyma się po trzeciej pętli, ponieważ napotyka ponownie, to sprawdza i
+
+11:54.870 --> 11:57.480
+mówi 0 2 już istnieje.
+
+11:57.480 --> 11:59.930
+Po prostu go zwróć.
+
+11:59.950 --> 12:01.320
+Jakie to jest świetne.
+
+12:01.360 --> 12:12.000
+Zrobiliśmy to wszystko za pomocą tylko jednej pętli, która jest o wiele szybsza niż nasza pierwsza wersja przy użyciu tabel
+
+12:12.000 --> 12:13.110
+mieszania.
+
+12:13.110 --> 12:21.000
+Dla mnie fajne jest to, że robię takie rzeczy i widzę, jak uczenie się o tabelach big-O i hash
+
+12:21.000 --> 12:27.750
+poprawiło naszą zdolność kodowania, co sprawia, że jestem naprawdę podekscytowany i mam nadzieję, że to
+
+12:27.750 --> 12:29.300
+też cię ekscytuje.
+
+12:29.370 --> 12:33.960
+Sprawiliśmy, że ta funkcja ma złożoność czasową całego.
+
+12:34.050 --> 12:43.530
+Poprawiliśmy go z jedną wadą, ponieważ zwiększyliśmy złożoność pamięci przez O, ponieważ tworzymy nowy obiekt w tej
+
+12:43.530 --> 12:51.180
+funkcji, który musi śledzić wszystkie elementy w tablicy, aw najgorszym przypadku, gdy istnieje
+
+12:51.180 --> 12:57.870
+Bez dopasowania przejdzie przez całą listę elementów tablicy i przytrzyma tę
+
+12:57.870 --> 12:59.850
+informację na mapie.
+
+12:59.850 --> 13:07.140
+W związku z tym, w odróżnieniu od tej wersji, w której nie stworzyliśmy
+
+13:07.140 --> 13:11.640
+żadnej złożoności przestrzeni, mieliśmy złożoność przestrzeni jednego.
+
+13:11.700 --> 13:16.910
+Teraz mamy trochę więcej, ale z kolei mamy szybszą funkcję.
+
+13:18.200 --> 13:19.730
+Bardzo bardzo fajne.
+
+13:19.880 --> 13:24.440
+Teraz, aby zakończyć, chcę dać ci ostatnie wyzwanie.
+
+13:24.950 --> 13:35.850
+Widzisz, patrząc na te dwie implementacje, co się dzieje, jeśli mamy coś takiego.
+
+13:35.930 --> 13:41.210
+Jak myślisz, co jest pierwszą powracającą postacią.
+
+13:41.270 --> 13:55.670
+Jeśli to zrobię, otrzymam pięć, ponieważ pięć pojawia się wcześniej niż dwa dwa ze względu na sposób, w jaki wdrożyliśmy
+
+13:55.670 --> 13:57.170
+drugą funkcję.
+
+13:57.170 --> 14:09.290
+Jeśli jednak przejdę do pierwszej wersji naszej funkcji i uruchomię to, doszedłem do Hmm, dlaczego tak jest dobrze, jeśli przejdziemy do pierwszej
+
+14:09.290 --> 14:16.250
+części naszej funkcji, widzimy, że sposób, w jaki robimy rzeczy, idzie jeden po
+
+14:16.250 --> 14:18.840
+drugim w inny sposób.
+
+14:19.160 --> 14:25.760
+Chcemy pobrać dwa, a następnie porównać dwa z pięciu, potem pięć, potem dwa i trzy, potem pięć,
+
+14:25.760 --> 14:32.910
+potem jeden i dwa cztery, a następnie przejść do pięciu na pięć, pięć i dwa itd. I tak dalej.
+
+14:32.930 --> 14:40.400
+I ze względu na sposób, w jaki mamy to zaimplementowane, wykryje dwa
+
+14:40.730 --> 14:53.360
+i dwa, ponieważ zewnętrzna pętla ma indeks 0 i ma dwoje oczu, przez które przechodzi, zanim porówna pięć z pięcioma przeciwnikami.
+
+14:53.470 --> 15:02.420
+Nasza druga wersja z tabelą mieszania, w której mieliśmy wszystkie te elementy i mogliśmy je porównać.
+
+15:02.560 --> 15:10.060
+Gdy już złapiemy ich wszystkich i to jest kolejna potężna rzecz, gdy myślimy o tablicach i tablicach
+
+15:10.390 --> 15:18.340
+hashowych oraz o tym, jak można porównywać rzeczy i na podstawie tego, o co pytał ankieter, może być zła odpowiedź.
+
+15:18.340 --> 15:26.050
+Być może chcą wykryć pięć i pięć, zanim wykryjecie dwa i dwa, więc moim dodatkowym
+
+15:26.050 --> 15:35.110
+pytaniem, jeśli macie czas i wyzwanie, jest zamiana tej funkcji, jeśli chcecie czegoś, co pasuje do odpowiedzi
+
+15:35.110 --> 15:37.090
+na to pytanie.
+
+15:37.090 --> 15:41.050
+To oznacza wykrycie piątej i piątej.
+
+15:41.240 --> 15:43.930
+Jak byś to zrobił.
+
+15:44.100 --> 15:47.550
+Najprawdopodobniej będziesz musiał zrobić coś interesującego tutaj.
+
+15:48.890 --> 15:50.980
+Powodzenia z tym.
+
+15:50.990 --> 15:56.360
+Porozmawiaj z innymi ludźmi na temat niezgody w naszej społeczności i sprawdź, czy możesz to rozwiązać, a ja
+
+15:56.360 --> 15:58.440
+opublikuję kilka kreatywnych rozwiązań tego problemu.
+
+15:58.630 --> 16:05.280
+Gdy uczniowie przesyłają je, aby zobaczyć, jak inni ludzie to wdrożyli.
+
+16:05.310 --> 16:08.300
+Ale na razie myślę, że zasługujemy na przerwę.
+
+16:08.310 --> 16:09.590
+Zobaczę w następnym.
+
+16:09.830 --> 16:10.250
+PA pa.

@@ -1,0 +1,277 @@
+WEBVTT
+
+00:01.020 --> 00:07.650
+Bine ați venit înapoi să folosim programarea dinamică și memorarea pentru a îmbunătăți această funcție.
+
+00:08.420 --> 00:16.540
+La fel ca atunci când am învățat despre memorare, este destul de simplu să eliminăm acest lucru deocamdată.
+
+00:16.540 --> 00:27.050
+Voi păstra asta în partea de sus și apoi vom crea o nouă funcție pe care o vom numi Fibonacci
+
+00:27.080 --> 00:37.320
+master, această funcție va avea o tabelă hash cache sau un obiect pentru a stoca răspunsurile noastre pre-calculate.
+
+00:37.480 --> 00:43.780
+Și dacă vă amintiți pentru că vrem să ne asigurăm că nu reinițializăm acest lucru de fiecare dată
+
+00:44.110 --> 00:51.130
+când executăm această funcție, vom reintroduce o funcție notter înăuntru, din nou, utilizând închideri și Javascript, iar în alte limbi
+
+00:51.160 --> 00:53.360
+ar trebui să folosiți diferite tehnici.
+
+00:54.010 --> 01:01.320
+Și aici putem avea doar o funcție pe care o putem numi în ceea ce-i numim fibul care o ia.
+
+01:01.440 --> 01:03.820
+Și acesta este numărul pe care-l dăm.
+
+01:04.210 --> 01:11.840
+Și înăuntru, vom face ceva foarte asemănător cu cele de mai sus, cu excepția faptului că vom verifica pentru noi.
+
+01:12.070 --> 01:15.540
+Vom spune dacă este în cache, așa cum
+
+01:19.680 --> 01:27.330
+am făcut-o în videoclipurile de memorie și vom verifica dacă există memoria cache și dacă o să revenim,
+
+01:27.420 --> 01:29.510
+vom reveni în numerar.
+
+01:30.340 --> 01:35.940
+Și prima dată în jurul valorii de acest lucru va fi gol, astfel încât nu va merge la
+
+01:35.940 --> 01:37.990
+lucru va merge în altă condiție.
+
+01:40.040 --> 01:44.270
+Și apoi avem două condiții, așa cum facem aici.
+
+01:46.360 --> 01:51.800
+Și mai puțin de doi dintre ei trebuie să ne întoarcem.
+
+01:51.930 --> 02:00.850
+Și așa cum am făcut mai sus aici altfel ne-am rula secvența.
+
+02:01.040 --> 02:10.010
+Așa că facem fibru de minus plus un fibru plus și minus 2.
+
+02:10.260 --> 02:13.290
+Dar vrem să stocăm această valoare în numerar.
+
+02:13.500 --> 02:24.030
+Deci vom spune bani și vom echivala cu rezultatul.
+
+02:24.090 --> 02:33.910
+Și, în final, vrem să ne întoarcem această valoare deoarece folosim recursivitatea aici și ne întoarcem în numerar
+
+02:34.110 --> 02:39.170
+și pe care tocmai am stabilit-o și asta-i tot.
+
+02:39.250 --> 02:41.310
+Nu a fost așa de greu.
+
+02:41.570 --> 02:51.590
+Vreau să spun că avem câțiva pași suplimentari, dar tot ce am făcut a fost doar să adăugăm rezultatul la masa noastră de
+
+02:51.680 --> 02:59.580
+hash, astfel încât acum dacă fac Konst să spunem că fibul mai rapid va fi egal cu Fibonacci.
+
+02:59.630 --> 03:08.210
+M. amintiți-vă de prima dată când vom începe să executați această funcție și vom crea variabila de numerar.
+
+03:09.110 --> 03:16.680
+Asta din nou și de a crea variabila de numerar și aceasta va reveni doar această funcție.
+
+03:17.030 --> 03:26.240
+Deci, este similar cu a spune doar că fibul mai rapid este egal cu această funcție acum.
+
+03:26.370 --> 03:36.460
+Cu excepția faptului că acum avem acces la variabila de numerar, astfel că acum pot consoliza toate
+
+03:36.460 --> 03:49.580
+jurnalul și să numim acest DP pentru programare dinamică și vom spune mai repede fib și dați-i să zicem 10 dacă execut acest
+
+03:49.670 --> 03:58.700
+lucru primesc 55 0 1 2 3 4 5 6 7 8 9 10 55.
+
+03:58.830 --> 04:00.030
+Asta e destul de bine.
+
+04:00.960 --> 04:07.920
+Dar să facem ceva distractiv aici pentru a vedea dacă funcționează calculele pe
+
+04:07.920 --> 04:20.750
+care le-am folosit în numărul Fibonacci să-l mutăm în Fibonacci M. sau în loc de aici în jos în această funcție, deoarece aceasta este cea pe
+
+04:20.750 --> 04:30.010
+care am recurs și să vedem de câte ori acest calcul se întâmplă dacă am rula acest lucru și avem nevoie pentru
+
+04:30.010 --> 04:32.500
+a anula log aceste calcule.
+
+04:32.500 --> 04:35.780
+Deci, în partea de jos aici, să
+
+04:38.940 --> 04:40.710
+avem un jurnal
+
+04:44.790 --> 04:49.820
+de consola și vom spune că am făcut calcule la fel.
+
+04:50.040 --> 05:02.790
+Așa că, dacă conduc asta, vedem că am făcut 19 calcule cu Fibonacci M. Când am intrat 10 versus dacă ne-am
+
+05:03.060 --> 05:09.480
+mutat înapoi calcule până aici la versiunea noastră veche.
+
+05:09.780 --> 05:12.100
+Și de fapt, trebuie să executăm această funcție.
+
+05:12.240 --> 05:20.760
+Deci, și aici, să avem doar încuietori de consolă, astfel încât să începem să spunem totul curat spunând anulat sau log.
+
+05:20.760 --> 05:28.060
+Acest lucru va fi acest lucru va fi numit lent și se va numi Fibonacci.
+
+05:28.260 --> 05:34.100
+Deci, vom face doar funcția noastră inițială Fibonacci cu 10.
+
+05:34.140 --> 05:34.820
+Deci, să vedem.
+
+05:34.830 --> 05:45.070
+Iar Ron primim aceleași răspunsuri, dar ne-a luat o sută șaptezeci și șapte de calcule pentru a
+
+05:45.070 --> 05:47.080
+ajunge la 10.
+
+05:47.160 --> 05:48.000
+Sfânt moly.
+
+05:48.000 --> 05:51.930
+Deci, 19 față de o sută șaptezeci și șapte de calcule.
+
+05:52.230 --> 05:53.880
+Și dacă facem
+
+05:56.880 --> 06:01.900
+20 aici bine, avem multe calcule și de fapt doar 35.
+
+06:01.920 --> 06:06.490
+Vezi dacă este posibil să vedem 35.
+
+06:06.490 --> 06:07.270
+Acolo te duci.
+
+06:07.270 --> 06:17.140
+Uită-te cât de multe calcule aveam de făcut în comparație cu dacă aș face 35 cu funcția noastră minimalizată să mute calculele
+
+06:17.730 --> 06:18.490
+aici.
+
+06:23.830 --> 06:28.320
+Și am alergat la șaizeci și nouă.
+
+06:28.340 --> 06:29.490
+Calcule.
+
+06:29.610 --> 06:36.110
+În schimb, înainte de unde, dacă am intrat în Fibonacci 50 aici, ar fi de fapt un accident
+
+06:36.410 --> 06:41.090
+de browser, pentru că am face atât de multe calcule cu acesta.
+
+06:41.150 --> 06:45.940
+Pot să fac chiar și Achi o sută și nu am nici o problemă.
+
+06:45.950 --> 06:48.020
+Uite cât de repede au calculat asta.
+
+06:48.020 --> 06:49.030
+E uimitor.
+
+06:49.040 --> 06:52.110
+A făcut doar 199 de calcul.
+
+06:52.460 --> 06:56.760
+Sper că veți vedea puterea programării dinamice și nu este atât de greu.
+
+06:56.840 --> 06:57.440
+Dreapta.
+
+06:57.770 --> 07:00.130
+Tot ce ai nevoie este să-ți amintești de acest model.
+
+07:00.230 --> 07:08.630
+Și dacă există un calcul repetat pentru memorarea rezultatului unei funcții, astfel încât, dacă parametrul
+
+07:08.630 --> 07:13.800
+este același, verificăm mai întâi memoria cache pentru rezultat.
+
+07:13.880 --> 07:21.830
+Dar hai să vorbim despre complexitatea spațiului și a timpului aici, pentru că facem
+
+07:21.830 --> 07:24.190
+doar calculul necesar.
+
+07:24.420 --> 07:36.020
+În acest caz, toate calculele noastre vor fi și chiar vom face două, trei, patru, șase, șapte calcule, comparativ cu toate cele pe
+
+07:36.260 --> 07:38.430
+care le-am făcut înainte.
+
+07:39.320 --> 07:46.330
+Așa că complexitatea noastră de timp pentru acest lucru este plină de și și versus.
+
+07:46.340 --> 07:53.790
+Cu aceasta, care era de două până la puterea a 10-a, am făcut economii uriașe.
+
+07:55.440 --> 08:01.970
+Unul dezavantaj este că bine am crescut complexitatea spațială.
+
+08:01.980 --> 08:02.600
+Dreapta.
+
+08:02.970 --> 08:12.140
+Adică cu primul număr Fibonacci a trebuit să adăugăm funcții în stivă și în aceste funcții.
+
+08:12.180 --> 08:14.330
+Cu cât mai adânc noi am adăugat la stack.
+
+08:14.400 --> 08:21.870
+Dar odată ce am ajuns la fund, am scos teancul astfel încât stiva să fie la fel de adâncă ca și copacul.
+
+08:22.470 --> 08:29.130
+Dar cu versiunea memorată am avut de asemenea această variabilă nouă această tabelă hash cache care trebuie să stocăm
+
+08:29.130 --> 08:30.020
+memoria noastră.
+
+08:30.020 --> 08:37.290
+Și, după cum știm, uneori trebuie să facem schimburi de complexitate a spațiului pentru o mai mare complexitate a timpului.
+
+08:37.380 --> 08:39.100
+Și asta facem în acest caz.
+
+08:39.330 --> 08:44.520
+Și în acest caz că economiile de timp complexitatea timpului sunt foarte mari.
+
+08:44.520 --> 08:47.880
+Sper că te-am încântat de programarea dinamică.
+
+08:47.910 --> 08:52.020
+Este foarte interesant și nu atât de copleșitor cum credeți.
+
+08:52.130 --> 08:53.450
+Dreapta.
+
+08:53.460 --> 09:00.030
+Voi lăsa câteva probleme pe care să le faceți pentru a vă obișnuiți cu programarea dinamică, dar
+
+09:00.090 --> 09:07.760
+vă recomand să luați codul de frunze aici pentru dvs. și puteți să-l luați din resurse și să jucați cu el.
+
+09:08.570 --> 09:11.620
+În caz contrar, voi vedea în următorul videoclip.

@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.390 --> 00:08.340
+W tym kursie nie chcę ograniczać cię do jednego języka, ponieważ wszyscy kodujemy w
+
+00:08.430 --> 00:13.490
+różnych językach i podczas twojej kariery najprawdopodobniej użyjesz wielu języków.
+
+00:13.530 --> 00:20.430
+Teraz na tym kursie będę musiał użyć języka, aby zademonstrować kod i napisać jakiś kod i
+
+00:20.430 --> 00:27.000
+zamierzam użyć do tego javascriptu, ponieważ jest on podobny w wielu popularnych językach i jest
+
+00:27.000 --> 00:28.650
+również najbardziej znany.
+
+00:28.830 --> 00:36.330
+Jednak możesz użyć dowolnego języka, który chcesz w tym kursie, a następnie wykonaj ćwiczenia, które dadzą
+
+00:36.330 --> 00:39.300
+Ci rozwiązania w różnych językach.
+
+00:39.300 --> 00:45.570
+Wybierz więc, który z nich chcesz, ale w jaki sposób zamierzamy uruchomić wszystkie te języki, gdy podążacie
+
+00:45.570 --> 00:46.380
+za nim.
+
+00:46.500 --> 00:51.810
+Być może demonstruję coś w javascript i kodujesz w Pythonie to, co zamierzamy
+
+00:51.810 --> 00:54.770
+użyć z kilku zgrabnych małych narzędzi online.
+
+00:54.840 --> 00:59.710
+Pierwszym, który zamierzam ci pokazać i tym, którego użyjemy w tym kursie, jest wrap all dot I-T
+
+01:00.360 --> 01:02.260
+REPL, tak jak lubię to nazywać.
+
+01:02.550 --> 01:07.200
+I możesz wybrać dowolny język, który chcesz tutaj kodować.
+
+01:07.590 --> 01:13.710
+I tak jak powiedziałem, zamierzam używać javascript na ten kurs, ale wszystko, co musisz zrobić,
+
+01:13.770 --> 01:22.110
+to zarejestrować się na swoim koncie get habbe, a będziesz miał mały identyfikator, dzięki któremu możesz uruchomić swój kod, a zobaczysz mnie
+
+01:22.200 --> 01:30.350
+używając tego podczas całego kursu, a teraz ten, który bardzo mi się podoba to galato IO i to jest open source,
+
+01:30.350 --> 01:36.680
+którego jestem wielkim fanem i możesz zobaczyć tutaj, że mamy wiele różnych języków, z których możemy
+
+01:36.680 --> 01:37.150
+korzystać.
+
+01:38.550 --> 01:45.730
+Ponownie, jeśli przejdę do Javascriptu, daje mi to mały obszar do napisania kodu i uruchomienia go.
+
+01:45.880 --> 01:53.960
+Inną opcją, szczególnie jeśli korzystasz z javascriptu, jest po prostu
+
+01:54.430 --> 02:06.880
+Przejście do narzędzi deweloperskich i programistycznych oraz Google Chrome, dzięki czemu możesz na karcie konsoli napisać javascript.
+
+02:06.890 --> 02:08.550
+To kolejna świetna opcja.
+
+02:08.690 --> 02:15.920
+Lub jeśli wolisz, zawsze możesz użyć swojego ulubionego edytora tekstu, napisać swój kod, a następnie uruchomić
+
+02:15.920 --> 02:17.970
+go w dowolny sposób.
+
+02:17.990 --> 02:23.310
+Ponownie należy pamiętać, że ten kurs jest agnostyczny dla języka, co oznacza, że nie ma znaczenia, jakiego języka
+
+02:23.370 --> 02:23.960
+używasz.
+
+02:23.970 --> 02:29.010
+To, czego się uczymy, nasze podstawowe zasady informatyki mówią, że możesz zabrać
+
+02:29.010 --> 02:35.910
+ze sobą w ciągu całej kariery, a gdy zobaczysz, czy znasz javascript, czy nie, zamierzam zachować kod bardzo
+
+02:35.940 --> 02:42.600
+ogólny i prosty, aby łatwo było go replikować inne języki, a także udostępnia zasoby i źródła w
+
+02:42.900 --> 02:44.000
+innych językach.
+
+02:44.010 --> 02:46.700
+Kiedy wejdziemy w bardziej donośne kodowanie.
+
+02:46.850 --> 02:48.980
+W porządku, skonfiguruj swoje środowisko.
+
+02:49.050 --> 02:50.500
+Przygotuj się na jakiś kod.
+
+02:50.790 --> 02:52.770
+Zobaczę w następnym filmie.

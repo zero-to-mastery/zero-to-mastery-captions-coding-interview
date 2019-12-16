@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.740 --> 00:09.210
+È giunto il momento di parlare della nostra terza struttura dati e parleremo di due
+
+00:09.210 --> 00:19.360
+tipi di liste concatenate nei prossimi video in arrivo, con elenchi singoli e doppiamente collegati, che problema incontriamo con una
+
+00:20.580 --> 00:22.980
+gara con array statici.
+
+00:23.010 --> 00:30.220
+Abbiamo solo una certa quantità di dati o memoria che possono essere allocati l'uno accanto all'altro in memoria,
+
+00:30.220 --> 00:36.490
+ma poi sia gli array dinamici che gli array statici possono aumentare la loro memoria.
+
+00:36.490 --> 00:43.080
+Una volta che raggiunge un certo limite e raddoppia quella memoria in un'altra posizione, ma
+
+00:43.080 --> 00:50.940
+quell'operazione ogni tanto raddoppia l'array per creare più memoria ha avuto un impatto sulle prestazioni e ci è
+
+00:51.390 --> 01:00.060
+costato che tutti gli array aggiuntivi presentavano anche prestazioni non buone per qualsiasi tipo di operazioni come insert ed delete
+
+01:00.360 --> 01:07.560
+che hanno dovuto spostare gli indici soprattutto quando hai inserito o cancellato qualsiasi parola che non era
+
+01:07.560 --> 01:09.390
+la fine dell'array.
+
+01:10.670 --> 01:12.640
+E poi arrivarono i tavoli hash.
+
+01:12.650 --> 01:13.580
+Sono stati fantastici.
+
+01:13.700 --> 01:19.160
+Eravamo quasi tutti i negozi dove volevamo e la memoria e le tabelle di hash si sarebbero semplicemente occupate di
+
+01:19.160 --> 01:21.430
+noi e sapevamo dove metterle in memoria.
+
+01:22.440 --> 01:25.680
+Non dovevamo preoccuparci di alcuni problemi legati alla gara.
+
+01:25.680 --> 01:30.710
+La vita era buona ma sfortunatamente non erano davvero ordinati.
+
+01:30.810 --> 01:33.260
+Quindi, come possiamo risolvere questo problema.
+
+01:33.480 --> 01:35.480
+Elenchi collegati al salvataggio.
+
+01:35.850 --> 01:41.910
+Questo significa che tutti noi dovremmo semplicemente utilizzare gli elenchi collegati per tutto il tempo negli array di disaccordo e nelle
+
+01:41.910 --> 01:45.750
+tabelle hash perché le liste collegate sono le migliori strutture di dati.
+
+01:45.840 --> 01:46.370
+No.
+
+01:46.710 --> 01:50.490
+Come sempre ci sono dei compromessi quando si tratta di strutture di dati.
+
+01:50.520 --> 01:56.430
+Quindi nei prossimi video in arrivo impariamo di più su di loro in modo che possiamo ottenere un'immagine più chiara.
+
+01:57.810 --> 02:05.060
+A proposito, ricorda questo diagramma che ti ho mostrato nei video delle tabelle hash e l'ho detto quando abbiamo
+
+02:05.060 --> 02:06.440
+avuto una collisione.
+
+02:06.440 --> 02:10.210
+Un modo per risolverlo era usare qualcosa come questo.
+
+02:11.710 --> 02:14.590
+E non avevamo idea di cosa fosse questa struttura dati.
+
+02:14.740 --> 02:22.230
+Bene, questo John Smith a Sandra Dee e questa piccola freccia che indica che è una lista collegata.
+
+02:22.300 --> 02:25.240
+Quindi iniziamo e impariamo quali sono gli elenchi di collegamenti.

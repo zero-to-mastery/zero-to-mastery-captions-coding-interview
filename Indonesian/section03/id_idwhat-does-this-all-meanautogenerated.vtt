@@ -1,0 +1,199 @@
+WEBVTT
+
+00:02.180 --> 00:10.500
+Selamat datang kembali, Anda mungkin telah memperhatikan sesuatu saat berbicara tentang mereka yang dapat diukur berarti kami khawatir
+
+00:10.590 --> 00:12.110
+tentang input besar.
+
+00:12.420 --> 00:15.680
+Seperti apakah akhir grafik itu.
+
+00:16.080 --> 00:24.360
+Jadi, jika fungsi kita hanya mengkhawatirkan input yang sangat kecil atau kita tahu bahwa input kita hanya akan menjadi
+
+00:24.360 --> 00:29.610
+katakanlah array lima item besar-O tidak akan menjadi masalah sebanyak itu.
+
+00:29.610 --> 00:34.710
+Karena di sini jika elemen-elemennya kecil, semua garis ini dikelompokkan bersama,
+
+00:34.710 --> 00:35.890
+semuanya sama.
+
+00:35.970 --> 00:38.420
+Tapi apakah itu kehidupan nyata.
+
+00:38.430 --> 00:46.230
+Tidak, karena sebagai manusia kita cenderung berpikir di sini dan sekarang kita cenderung berpikir bahwa oh situs Web kita
+
+00:46.230 --> 00:48.420
+hanya akan memiliki 100 pengguna.
+
+00:48.480 --> 00:49.760
+Itu dia.
+
+00:49.800 --> 00:53.850
+Tetapi bagaimana jika basis pengguna itu tumbuh?
+
+00:53.850 --> 00:59.760
+Kita tidak pernah tahu kapan kita menulis kode, kita ingin menulis kode yang dapat menskala sehingga kita tidak harus
+
+00:59.760 --> 01:03.560
+terus-menerus kembali dan memperbaiki sesuatu atau ketika segala sesuatunya tidak terkendali.
+
+01:03.720 --> 01:12.110
+Kode pecah dan itulah sebabnya big-O sangat penting untuk menulis kode yang dapat diukur artinya berpikir di luar
+
+01:12.110 --> 01:14.500
+hanya bagian kecil di sini.
+
+01:14.540 --> 01:20.220
+Itu berarti berpikir jangka panjang untuk berpikir besar tentang kode Anda dan apa yang bisa terjadi di masa depan.
+
+01:20.250 --> 01:23.200
+Sekarang Anda sedang berpikir sendiri.
+
+01:23.630 --> 01:28.800
+Hei Andre, saya merasa seperti baru belajar banyak teori dan tidak ada informasi praktis.
+
+01:28.820 --> 01:33.500
+Andre Saya ingin tahu persis bagaimana saya bisa menggunakan ini dalam kehidupan saya sehari-hari sebagai seorang pembuat kode.
+
+01:33.610 --> 01:35.500
+Aku agak bosan di sini.
+
+01:35.720 --> 01:39.710
+Apa dengan pengetahuan yang baru ditemukan ini Anda akan melihat kode secara berbeda.
+
+01:39.980 --> 01:40.800
+Kanan.
+
+01:40.850 --> 01:41.620
+Mari kita lihat.
+
+01:42.780 --> 01:49.970
+Anda lihat sekarang ketika kita melihat metode yang kita dapatkan dalam bahasa seperti metode dalam array.
+
+01:50.160 --> 01:56.670
+Ketika datang ke javascript kita memiliki hal-hal seperti push pop shift on shift.
+
+01:56.790 --> 02:03.470
+Anda melihat semua metode ini yang fungsinya memiliki biaya yang terkait dengannya.
+
+02:03.540 --> 02:08.530
+Biaya rendah besar misalnya ketika datang ke array.
+
+02:08.540 --> 02:16.710
+Ketika kami mencari item lebih dari saya, akses item pertama array misalnya semuanya adalah satu.
+
+02:16.870 --> 02:18.370
+Tetapi ketika kita menggunakan sesuatu seperti.
+
+02:18.370 --> 02:19.620
+Sedang bergeser.
+
+02:19.930 --> 02:24.620
+Sebenarnya itu ternyata oh dulu dan kenapa begitu.
+
+02:24.620 --> 02:30.140
+Kita akan membahas ketika kita berbicara tentang array struktur data di bagian struktur data
+
+02:30.800 --> 02:38.780
+tetapi Anda akan mulai melihat untuk sisa kursus ini bagaimana kita menggunakan big-O untuk mengukur mengapa satu struktur data mungkin lebih
+
+02:38.930 --> 02:40.530
+baik dari yang lain.
+
+02:40.550 --> 02:48.020
+Mengapa kita harus menggunakan array daripada mengatakan sebuah objek mungkin objek memiliki fungsi yang lebih baik yang kita butuhkan
+
+02:48.020 --> 02:49.920
+untuk data yang keras.
+
+02:51.040 --> 02:58.600
+Grafik ini yang telah kita bicarakan sampai sekarang sebenarnya adalah bagian dari big-O Chichi dotcom dan gulir gratis
+
+02:58.600 --> 03:04.290
+di sini Anda akan melihat bahwa setiap struktur data yang merupakan array.
+
+03:04.350 --> 03:08.180
+Dan dalam hal ini objek pada tabel ini adalah tabel hash.
+
+03:08.340 --> 03:14.010
+Sekali lagi sesuatu yang akan kita bahas di bagian struktur data tetapi kita melihat
+
+03:14.700 --> 03:23.370
+bahwa kita memiliki notasi Big-O yang berbeda untuk struktur data yang berbeda dan beberapa struktur data memiliki pencarian yang sangat baik, besar-O beberapa
+
+03:23.370 --> 03:25.520
+memiliki penyisipan beberapa memiliki penghapusan.
+
+03:25.530 --> 03:32.190
+Dan Anda dapat melihat di sini bahwa ada pro dan kontra yang berbeda untuk masing-masing struktur data ini.
+
+03:32.970 --> 03:41.130
+Seperti yang akan Anda temukan dalam kursus ini struktur data hanyalah cara untuk menyimpan data dan algoritma hanyalah
+
+03:41.280 --> 03:46.800
+fungsi atau cara untuk menggunakan struktur data untuk menulis program kami.
+
+03:46.800 --> 03:56.160
+Ingat instruksi kami untuk mesin untuk komputer kami dan programmer hebat memiliki pengetahuan ini di mana mereka
+
+03:56.280 --> 04:03.960
+memilih struktur data yang tepat algoritma yang tepat untuk menulis program yang baik.
+
+04:04.120 --> 04:12.430
+Ingat dua aturan kami tentang kode yang baik dapat dibaca dan diskalakan dan apa yang telah kami pelajari adalah dasar bagi
+
+04:12.430 --> 04:18.880
+kami untuk membuat keputusan tentang struktur data mana yang akan menjadi yang terbaik ketika kami
+
+04:18.880 --> 04:26.740
+masuk ke bagian struktur data karena kami akan tahu array memungkinkan kita mengakses sama sekali dalam satu waktu konstan.
+
+04:26.740 --> 04:34.460
+Tetapi ketika datang untuk mencari melalui array itu akan memberi kita waktu linear versus
+
+04:34.460 --> 04:35.590
+mungkin objek.
+
+04:35.930 --> 04:42.140
+Jadi di balik layar meskipun bagian ini mungkin sedikit teoretis dan membosankan.
+
+04:42.380 --> 04:47.840
+Apa yang baru saja kita pelajari akan meletakkan dasar untuk sisa kursus bagi
+
+04:47.840 --> 04:52.280
+kita untuk dapat menulis kode yang baik untuk sisa bagian.
+
+04:52.370 --> 04:58.940
+Kita akan menggunakan big-O untuk melihat apa solusi yang baik untuk masalah dan apa solusi yang
+
+04:58.940 --> 05:03.700
+buruk untuk masalah di sebagian besar wawancara memiliki konsep inti ini.
+
+05:04.070 --> 05:05.860
+Apa struktur data yang tepat.
+
+05:05.930 --> 05:09.650
+Algoritma apa yang tepat untuk menulis program yang bagus.
+
+05:09.650 --> 05:17.330
+Google merekrut insinyur dan pengembang yang tahu ini karena mereka memiliki banyak skala yang harus mereka
+
+05:17.330 --> 05:18.140
+pikirkan.
+
+05:18.260 --> 05:25.770
+Banyak masukan dan orang-orang yang tahu bagaimana menangani program-program ini adalah orang-orang yang akan dapat
+
+05:25.770 --> 05:27.760
+membangun program-program hebat.
+
+05:29.360 --> 05:30.790
+Sampai jumpa di yang berikutnya.
+
+05:30.990 --> 05:31.290
+Bebai.

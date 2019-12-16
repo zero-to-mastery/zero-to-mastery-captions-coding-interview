@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.550 --> 00:05.010
+Jak Merse są dość trudne, prawda.
+
+00:05.360 --> 00:13.070
+Mam dla ciebie odpowiedź i nie zamierzam się kłaniać, ponieważ jest to jeden z tych
+
+00:13.070 --> 00:20.150
+fragmentów kodu, że napisanie go w 30-minutowym filmie naprawdę nie pomoże ci zrozumieć.
+
+00:20.150 --> 00:25.000
+Polecam przejść przez ten kod linii po linii, aby w pełni zrozumieć.
+
+00:25.180 --> 00:33.580
+Ale jeśli przyjrzymy się wszystkim, co robimy w pierwszym przebiegu funkcji sortowania, to otrzymamy długość
+
+00:33.580 --> 00:40.690
+tablicy znajdującą środkową część tablicy, a następnie podzielimy ją na po lewej
+
+00:41.110 --> 00:51.970
+stronie i po prawej stronie, tak, że jeśli I loguję Konsole tutaj i kliknę, uruchamiamy, widzimy, że za pierwszym razem
+
+00:51.970 --> 00:59.850
+dzielimy przedmiot dokładnie na środek, gdzie mamy dziewięćdziesiąt dziewięć aż do 1 w po
+
+00:59.850 --> 01:04.420
+lewej stronie i od 5 do zera.
+
+01:04.570 --> 01:13.060
+I prawa strona w następnym przejściu, ponieważ pamiętajmy, że robimy rekursję i to jest wywoływane
+
+01:13.060 --> 01:15.930
+ponownie, kiedy dotrzemy tutaj.
+
+01:16.130 --> 01:25.400
+Teraz dzielimy dziewięćdziesiąt dziewięć i 44 i sześć na jeden na swój własny przełom, a następnie dziewięćdziesiąt dziewięć i 44
+
+01:25.520 --> 01:33.860
+na pojedyncze elementy sześć i jeden na lewo i na prawo, aż wszystko znajdziemy w jednym elemencie.
+
+01:35.410 --> 01:38.460
+A potem zaczynamy dzielić to i na bok.
+
+01:39.220 --> 01:41.230
+A co z funkcją łączenia?
+
+01:44.070 --> 01:50.360
+Funkcja scalania będzie trochę trudna do odczytania, ale jeśli przyjrzymy się tutaj,
+
+01:50.480 --> 01:57.590
+mówimy tylko, że mamy tablicę wyników, którą wypełnimy i będziemy mieć lewy indeks i
+
+01:57.620 --> 01:58.830
+prawy indeks.
+
+01:59.120 --> 01:59.960
+I będziemy się porównywać.
+
+01:59.960 --> 02:12.130
+Oto lewy indeks mniejszy niż długość lewej do prawej i prawy indeks mniejszy niż prawidłowa długość tablicy,
+
+02:12.130 --> 02:18.750
+która upewnia nas, że mamy przedmioty w naszej tablicy.
+
+02:18.840 --> 02:24.440
+Jeśli tak jest, porównajmy lewy przedmiot z właściwym elementem.
+
+02:25.570 --> 02:31.450
+I wepchnij nową tablicę do naszych wyników, aby przedmiot był mniejszy.
+
+02:31.450 --> 02:36.840
+W takim przypadku będzie to przedmiot lewostronny, a następnie zwiększamy.
+
+02:37.000 --> 02:44.050
+W przeciwnym razie, jeśli lewy przedmiot jest wyższy niż właściwy przedmiot, robimy coś przeciwnego, a prawo na niego trafia do
+
+02:44.050 --> 02:45.060
+naszego wyniku.
+
+02:47.540 --> 02:56.890
+Pamiętajcie, że ta funkcja scalania wykonuje to, co widzieliśmy w animacji, gdzie podział funkcji w dół w pierwszej części
+
+02:57.550 --> 03:04.620
+funkcji, a następnie w scaleniu, które zamierzamy wziąć w lewo i prawo, porównać go
+
+03:04.620 --> 03:07.700
+i umieścić w tablicy wyników.
+
+03:08.600 --> 03:16.240
+A potem przejdź do następnego i rób to wciąż i wciąż i tworząc naszą tablicę wyników.
+
+03:17.590 --> 03:25.250
+Jeśli mam konsolę tutaj w lewo i w prawo, a klikam uruchomimy, widzimy dokładnie to, co robimy.
+
+03:25.250 --> 03:31.390
+Mamy dziewięćdziesiąt dziewięć i 44, a potem dwa i jeden.
+
+03:31.400 --> 03:39.670
+Tak więc po lewej stronie i prawej stronie dziewięćdziesiąt dziewięć i 44 w porównaniu staje się 44 i dziewięćdziesiąt dziewięć,
+
+03:41.240 --> 03:51.440
+a następnie porównujemy dwa i jeden, który staje się 1 i 2, a następnie 6 i 1 i 2, który staje się 1 2 6
+
+03:51.440 --> 03:59.030
+i idziemy nadal iść idź dalej, aż do ostatniego kroku, w którym mamy dwie listy tutaj i porównujemy
+
+03:59.030 --> 04:07.520
+je 0 i 1, gdzie umieszczamy 0, a wyniki są a, a następnie umieszczamy 1 2 i po prostu idziemy dalej
+
+04:07.820 --> 04:10.670
+i idziemy dalej jak nasza animacja.
+
+04:10.670 --> 04:16.250
+Teraz zachęcam cię do zabawy i może pójść krok po kroku.
+
+04:16.420 --> 04:23.610
+Bardzo trudnym algorytmem jest uzyskanie złej wiadomości, że następny algorytm jest jeszcze bardziej skomplikowany.
+
+04:24.280 --> 04:29.990
+Ale na szczęście dla ciebie, jak powiedziałem, nie musisz tego robić w wywiadzie.
+
+04:30.050 --> 04:40.740
+Trzeba tylko wiedzieć, że sortowanie scalone jest świetnym algorytmem do wykorzystania, ponieważ otrzymujemy cały dziennik i bingo.
+
+04:40.990 --> 04:43.280
+Rzućmy okiem na inny algorytm sortowania.

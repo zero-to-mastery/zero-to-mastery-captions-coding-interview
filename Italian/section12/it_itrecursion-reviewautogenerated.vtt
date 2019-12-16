@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.570 --> 00:10.240
+Quando parliamo di ricorsione e informatica parliamo di una funzione che si chiama questo tipo di tecnica è
+
+00:10.540 --> 00:18.670
+davvero buona per alcuni problemi a causa della sua capacità di mantenere lo stato di un diverso
+
+00:18.850 --> 00:25.190
+livello di ricorsività proprio come i nostri cocchieri che guardano la TV qui.
+
+00:25.190 --> 00:32.430
+La ricorsione può essere pensata come un po 'di vetro che si riempie di chiamate ricorsive di
+
+00:33.380 --> 00:41.070
+funzioni e quindi iniziamo a scoppiare dall'alto fino a quando l'ultima funzione non viene visualizzata e restituisce un valore.
+
+00:42.440 --> 00:48.310
+Una cosa che vogliamo fare attenzione con la ricorsione è stata questa idea di overflow dello stack.
+
+00:48.350 --> 00:56.750
+Questo spazio di memoria è aumentato man mano che continuiamo a chiamare la stessa funzione più e più volte fino a che non siamo in
+
+00:56.750 --> 01:00.900
+grado di raggiungere un limite e ottenere un overflow dello stack.
+
+01:00.950 --> 01:07.130
+La regola empirica che abbiamo imparato è che dovremmo usare la ricorsione quando rende il codice più leggibile.
+
+01:08.290 --> 01:13.130
+Ma a volte può essere meno efficiente rispetto a soluzioni iterative o cicliche.
+
+01:13.150 --> 01:14.440
+Quindi dobbiamo stare attenti.
+
+01:15.370 --> 01:23.310
+Abbiamo anche imparato la regola che qualsiasi cosa tu faccia con la ricorsione può essere fatta in modo intuitivo e nelle
+
+01:23.670 --> 01:31.290
+interviste ti verrà posta la domanda dei pro e contro del perché potremmo voler usare ricorsivo su iterativo e so
+
+01:32.100 --> 01:35.810
+che l'ho portato prima ma vale la pena ripeterlo.
+
+01:36.210 --> 01:41.660
+La ricorsione è interessante e intelligente ma può essere costosa.
+
+01:41.760 --> 01:48.650
+Quindi devi stare molto attento perché la ricorsione e la complessità dello spazio non sono amici.
+
+01:49.530 --> 01:56.760
+Ma quando si tratta di problemi come l'ordinamento e l'attraversamento dell'albero, vedremo che dovremo
+
+01:56.760 --> 02:00.500
+usare soluzioni ricorsive per semplificare le cose.
+
+02:00.690 --> 02:06.970
+Nello specifico, quando parliamo di questi argomenti imminenti, useremo la ricorsione.
+
+02:07.380 --> 02:15.200
+Quindi preparatevi per quell'unione sorta di attraversamento grafico ad albero quicksort traversal tutti utilizzano la ricorsione.
+
+02:15.230 --> 02:20.980
+Ora siamo attrezzati molto meglio per gestire quelle situazioni che stanno per venire.
+
+02:21.030 --> 02:30.300
+Stiamo iniziando a costruire la nostra mappa mentale lentamente e lentamente e vedete qui che quando si tratta di
+
+02:30.300 --> 02:35.160
+strutture dati ad albero chiedetevi Dovremmo usare la ricorsione.
+
+02:35.220 --> 02:42.330
+La maggior parte delle volte si desidera ricorrere alla ricorsione, ma sii consapevole che può verificarsi la complessità dello spazio o l'overflow
+
+02:42.660 --> 02:43.360
+dello stack.
+
+02:44.240 --> 02:45.040
+Vedrò nel prossimo.

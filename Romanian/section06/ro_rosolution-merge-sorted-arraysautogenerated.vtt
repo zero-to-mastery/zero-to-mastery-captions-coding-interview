@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.940 --> 00:10.680
+Bine ați venit înapoi este timpul pentru a sorta unele morays să luăm această funcție pune-l la sfârșitul, pentru că, sperăm că va
+
+00:10.680 --> 00:12.100
+lucra la sfârșitul.
+
+00:12.420 --> 00:19.200
+Și începe să ne scriem codul.
+
+00:19.360 --> 00:25.090
+Vom începe prin definirea mai întâi a funcției numită interfață de sortare a îmbinării.
+
+00:25.120 --> 00:31.630
+Se va lua primul parametru, care este prima matrice, apoi al doilea parametru, care
+
+00:31.630 --> 00:38.490
+este secundar, voi defini mai întâi câteva variabile pe care le vom folosi în întreaga funcție.
+
+00:38.560 --> 00:47.760
+Prima dintre ele va fi o constantă care este o matrice îmbinată, care va fi răspunsul nostru.
+
+00:47.790 --> 00:49.910
+Pentru moment, va fi o matrice goală.
+
+00:51.280 --> 00:56.420
+Și am putea să ne asigurăm că vom reveni la matricea fuzionată la sfârșit.
+
+00:56.500 --> 01:03.160
+Sperăm că toate lucrurile funcționează și putem popula acest lucru cu aceste două matrice.
+
+01:03.240 --> 01:14.330
+Acum, aici vreau să apuc butonul un singur element doar pentru referință și acesta va fi
+
+01:14.750 --> 01:18.700
+primul nostru element de matrice.
+
+01:18.750 --> 01:23.090
+Deci, acest lucru are pur și simplu elementul zero aici.
+
+01:23.190 --> 01:24.180
+Și prima noastră
+
+01:27.720 --> 01:29.720
+matrice și apoi vom face același lucru.
+
+01:30.300 --> 01:31.410
+Array 2
+
+01:36.370 --> 01:39.280
+element care va lua numărul patru de aici.
+
+01:40.580 --> 01:47.240
+Acum, primul lucru pe care îmi place să-l fac într-o funcție este verificarea unui anumit tip de intrare,
+
+01:47.250 --> 01:47.900
+asigurându-vă
+
+01:50.660 --> 01:57.930
+că totul funcționează, vă voi pierde timpul să fac acest lucru pentru că ar trebui să aveți o idee despre
+
+01:57.930 --> 02:02.360
+cum să verificați dacă este o matrice dacă aveți doi parametri.
+
+02:03.520 --> 02:10.820
+Dar intrarea pe care cred că merită să o verificați este ceea ce avem dacă avem ceva de genul asta.
+
+02:11.670 --> 02:15.910
+În cazul în care a doua matrice este doar o rată goală.
+
+02:16.260 --> 02:19.040
+În cazul nostru putem reveni la prima rată.
+
+02:19.380 --> 02:23.670
+Pentru că, deși este deja sortat, încă fuzionăm cele două raze, dar cealaltă matrice nu are
+
+02:23.670 --> 02:24.210
+nimic.
+
+02:24.570 --> 02:29.700
+Și acelasi lucru ar fi și în cazul în care prima matrice ar fi și ea goală.
+
+02:30.660 --> 02:39.180
+Deci, pentru a evita orice lucrare sigură, hai să verificăm acele condiții pentru ca, imediat, să putem da răspunsul
+
+02:39.180 --> 02:42.390
+și să facem funcția mai eficientă.
+
+02:42.390 --> 02:43.780
+În aceste cazuri.
+
+02:44.010 --> 02:45.650
+Așa că pot să fac o declarație dacă.
+
+02:45.810 --> 02:51.800
+Vreau să spun că dacă vrei ca lent să fie egală cu zero.
+
+02:52.910 --> 02:54.790
+Deci, dacă prima matrice este goală.
+
+02:54.980 --> 02:57.740
+Pur și simplu returnați
+
+03:01.300 --> 03:10.970
+secundar și putem face același lucru pentru celălalt caz dacă matricea la lenth este goală, atunci putem
+
+03:10.970 --> 03:14.690
+întoarce prima matrice frumos și simplu.
+
+03:14.760 --> 03:20.340
+Pentru moment, să intrăm în subiectul mai greu, ceea ce se întâmplă dacă ambele matrice sunt pline ca și
+
+03:20.340 --> 03:20.920
+acum.
+
+03:22.410 --> 03:30.250
+Ei bine, doar pentru a schimba lucrurile pentru că am fost folosind buclele pentru un timp voi folosi buclă în timp ce în
+
+03:30.550 --> 03:36.940
+javascript și acest lucru pur și simplu spune buclă prin elementele în timp ce o condiție este îndeplinită.
+
+03:37.030 --> 03:48.520
+În cazul nostru vom spune că în timp ce există un element dintr-un tabel sau există o matrice 2 Faceți ceva și amintiți-vă că
+
+03:51.360 --> 03:59.130
+aceste variabile sunt pur și simplu pentru prima dată în fiecare dintre ele și, dacă
+
+03:59.750 --> 04:04.960
+sunteți intrebandu-mi de ce folosesc uneori costuri, uneori folosesc LET.
+
+04:05.340 --> 04:12.680
+Ei bine, costul înseamnă că, odată ce am atribuit această variabilă la această matrice, nu o pot modifica.
+
+04:12.720 --> 04:15.940
+Nu pot spune că matricea fuzionată este egală cu două.
+
+04:16.080 --> 04:21.960
+Va da un avertisment pentru că este o constantă pe care o pot adăuga lucrurilor la matrice, dar nu
+
+04:22.380 --> 04:24.480
+pot modifica această referință la matrice.
+
+04:24.630 --> 04:27.770
+Pe de altă parte, permiteți-mi să fac asta.
+
+04:27.870 --> 04:35.890
+Așadar, mai târziu, pot spune că un element dintr-un tabel este egal cu ceva nou, cum ar fi unul dintr-unul din indexul unuia.
+
+04:36.330 --> 04:39.300
+De aceea folosim această sintaxă.
+
+04:39.300 --> 04:42.680
+Este o sintaxă nouă ESX și Javascript.
+
+04:42.800 --> 04:43.910
+In regula.
+
+04:43.910 --> 04:57.810
+Așadar, în timp ce avem lucruri și matricele pe care vrem să le facem mai întâi un cec, să spunem că dacă
+
+04:58.710 --> 05:15.630
+un element dintr-un array este mai mic decât elementul Array 2 care este dacă 0 este mai mic decât 4, vrem să adăugăm la matricea goală a misterului.
+
+05:15.660 --> 05:20.860
+Vrem să spunem împingeți și vom împinge primul element în matrice.
+
+05:21.060 --> 05:32.570
+Deci vom apăsa 0 și pentru că acum am împins elementul zero în acest tabel, nu mai trebuie să ne mai facem
+
+05:32.570 --> 05:34.610
+griji cu zero.
+
+05:34.970 --> 05:49.230
+Deci, putem pur și simplu să spunem că un element dintr-un tabel va trece acum la un tabel egal cu unul la indexul lui.
+
+05:49.350 --> 05:54.710
+Pentru că acum vrem să ne mutăm la elementul de matrice.
+
+05:54.710 --> 06:00.040
+Asta este aici la indexul 1, care este de 3 astfel încât să putem compara trei cu patru.
+
+06:00.150 --> 06:02.450
+Acum vrem să creștem acest lucru de fiecare dată.
+
+06:02.610 --> 06:11.160
+Și pentru că facem o buclă aici, să convertim acest lucru într-un indice care este mare și incrementat
+
+06:11.280 --> 06:12.740
+de plus plus.
+
+06:12.970 --> 06:22.910
+Și în partea de sus aici putem spune doar pentru început că prin aceea va fi egală cu una.
+
+06:23.000 --> 06:28.610
+Așa că, în timp ce ne batem prin acest lucru, se va crește cu plus plus,
+
+06:28.610 --> 06:37.590
+care este o creștere cu 1, astfel încât să putem merge 0 3 4 31 și de modul în care tocmai am observat că nu
+
+06:37.590 --> 06:40.550
+pot scrie virgulă zdrobitoare aici ei 8.
+
+06:40.550 --> 06:46.430
+Acum este cazul atunci când un element dintr-un tabel este mai mic decât matricea din listă în cealaltă parte.
+
+06:46.580 --> 06:55.310
+Dacă elementul array 2 este mai mic decât Array 1, acum fuzionăm în matrice.
+
+06:57.970 --> 07:07.370
+Array la element deoarece, dacă array un element nu este mai mic decât matricea la element, nu trebuie nici măcar să adăugăm o condiție aici.
+
+07:07.370 --> 07:15.470
+Știm că un element dintr-un tablou este mai mare decât două elemente de matrice, caz în care putem adăuga al
+
+07:15.470 --> 07:16.400
+doilea element.
+
+07:16.400 --> 07:19.470
+Deci, adăugăm în schimb acest element.
+
+07:20.860 --> 07:25.980
+Și din nou, dorim să facem exact același lucru pe care l-am făcut cu primul element sau cu prima matrice.
+
+07:26.110 --> 07:35.110
+Aceasta este matricea la element este acum de la egal la matrice și avem nevoie de un alt indice de acest lucru.
+
+07:35.110 --> 07:43.160
+Putem folosi aceeași rată, astfel încât să putem spune că acesta va fi J și va apărea.
+
+07:43.360 --> 07:45.920
+Pur și simplu facem același lucru.
+
+07:45.940 --> 07:49.000
+J va fi egal cu 1.
+
+07:49.390 --> 07:57.790
+Deci, odată ce am dat seama de elementele indexului zero, putem trece apoi la indicele unuia decât cel al unui indice de doi indici de
+
+07:57.790 --> 07:58.290
+trei.
+
+07:58.300 --> 08:00.280
+Si asa mai departe.
+
+08:00.280 --> 08:02.480
+Acum, să verificăm acest cod și să vedem dacă funcționează.
+
+08:02.530 --> 08:08.790
+Dacă execut asta, o să vezi că browser-ul meu sa prăbușit.
+
+08:08.790 --> 08:15.960
+Și asta pentru că am un set pe REPL ID-ul care permite, în timp ce pentru ca acest lucru să se întâmple cel mai
+
+08:15.960 --> 08:19.480
+probabil dacă utilizați setările implicite aici, vă va da un avertisment.
+
+08:19.800 --> 08:20.390
+Dar să
+
+08:25.430 --> 08:27.130
+ne întoarcem de ce sa întâmplat asta.
+
+08:27.800 --> 08:33.780
+De aceea este întotdeauna o idee bună să mergeți pas cu pas și să vă asigurați că lucrurile funcționează.
+
+08:33.800 --> 08:39.130
+Am făcut o mulțime de codificare aici, fără a testa dacă toate acestea funcționează.
+
+08:39.930 --> 08:47.230
+O notă atât de bună aici este să vă întrerupeți din când în când și să vă testați ipotezele lăsând răspunsurile.
+
+08:47.390 --> 08:57.070
+În acest caz, am pierdut un punct critic care este în această verificare aici, dacă facem buclă în timp atâta timp cât array un
+
+08:57.070 --> 09:04.810
+element sau matrice două elemente sunt populate și vom verifica aici dacă array un element este mai mic
+
+09:04.810 --> 09:06.660
+decât Array 2 element.
+
+09:06.780 --> 09:14.700
+Dar problema aici este că am putea avea un caz în care unul dintre aceștia deoarece folosim sau ne-ar putea fi
+
+09:14.760 --> 09:19.690
+nedefinit sau am ajuns la capătul liniei pentru a ține cont de asta.
+
+09:19.800 --> 09:27.280
+Lucrul critic pe care trebuie să-l faceți este să știți întotdeauna cum funcționează codul dvs., așa că hai să
+
+09:27.300 --> 09:34.160
+facem o anulare sau o blocare aici spunem că horæ doriți ca elementul array om la element.
+
+09:34.640 --> 09:37.790
+Să vedem ce ajungem în buclă.
+
+09:38.640 --> 09:44.600
+Dacă execut acest lucru, se va prăbuși din nou și nu vom putea vedea jurnalele noastre.
+
+09:44.610 --> 09:50.410
+Așa că am să scriu aici versiunea corectă și apoi să explic de ce am făcut ceea ce am făcut.
+
+09:50.750 --> 09:56.260
+Voi spune doar daca re-ati pus in ordine daca matricea la
+
+09:59.810 --> 10:06.570
+element nu exista, asa ca daca nu am definit, va transforma acest lucru in adevarat.
+
+10:06.580 --> 10:08.510
+Așa că am trecut prin asta.
+
+10:08.800 --> 10:10.100
+De ce este asta.
+
+10:10.120 --> 10:10.900
+Haideți să aruncăm o privire.
+
+10:13.180 --> 10:15.470
+Observați ce am blocat aici.
+
+10:15.520 --> 10:18.780
+Am înregistrat fiecare element, apoi două elemente.
+
+10:18.790 --> 10:26.770
+De aceea comparăm prin buclele noastre cu zero, mai mult de 3 și 4, apoi pentru el, apoi pentru patru
+
+10:26.770 --> 10:37.030
+și șase, apoi 31 și șase 31 și 30 și apoi 31 și pentru definiți, vedeți aici modul în care cel de-al doilea element de matrice
+
+10:37.180 --> 10:38.040
+devine nedefinit.
+
+10:38.880 --> 10:51.040
+Și pentru ca noi să ocolim acest lucru nedefinit care devine unul definit aici și folosim semnul exclamării în javascript pentru a
+
+10:51.040 --> 10:54.610
+transforma acest lucru într-o afirmație adevărată.
+
+10:54.610 --> 11:04.670
+Deci, se transformă în acest lucru, astfel încât să putem adăuga Thirty-One în matricea unu în slotul final al matricei.
+
+11:06.140 --> 11:08.810
+Acum, dacă acest lucru a
+
+11:11.780 --> 11:16.420
+fost așa și am alergat, vom fi nedefiniți pentru prima serie.
+
+11:17.490 --> 11:26.480
+Totuși, pentru că facem al doilea control care este un element de tabel mai mic decât
+
+11:26.480 --> 11:36.670
+elementul Array 2 și în cazul nostru, dacă facem mai puțin de 6, ceea ce facem aici în această comparație.
+
+11:36.750 --> 11:48.760
+Dacă rulați acest lucru și lăsați Konsole jurnal acest lucru a vedea ce este răspunsul devin fals.
+
+11:48.770 --> 11:57.200
+Deci, chiar dacă în acest timp în jurul valorii de matrice unu este nedefinit pentru că am trecut prin ea,
+
+11:57.200 --> 11:59.330
+deoarece această afirmație este falsă.
+
+11:59.420 --> 12:09.290
+Mergem la declarația altceva și am umplut restul matricei cu 6 și 13 sau 30 care provin de la
+
+12:09.380 --> 12:19.390
+matrice, până când am vrut să vă arăt acest lucru, deoarece aceasta ar putea fi cea mai curată soluție corectă.
+
+12:19.420 --> 12:27.310
+Vreau să mă uit la acest cod doar să mă gândesc la ceea ce trebuia să explic și să trag pentru a înțelege pe
+
+12:27.820 --> 12:29.480
+deplin cum funcționează acest lucru.
+
+12:29.530 --> 12:33.930
+Eu și cu mine am făcut acest lucru pentru un anumit motiv în timpul interviului.
+
+12:33.940 --> 12:40.180
+Dacă trebuie să explici lucrurile în detaliu și să scrii lucrurile bine, poate că există o modalitate mai bună
+
+12:40.180 --> 12:41.350
+de a scrie.
+
+12:43.070 --> 12:49.970
+Deoarece un intervievator se va confunda cu ceea ce inseamna atunci ce inseamna acest lucru si nu
+
+12:49.970 --> 12:52.250
+citeste cu adevarat ca engleza.
+
+12:52.400 --> 12:57.540
+În mod ideal, aceste funcții sunt într-adevăr foarte drăguțe.
+
+12:57.610 --> 13:06.490
+Deci, poate că pot să iau această parte a funcției și să o convertesc în propria ei funcție și doar să numească
+
+13:06.550 --> 13:10.640
+acest lucru ar trebui să împingă primul element de matrice.
+
+13:11.110 --> 13:18.790
+Și acest lucru ar trebui să fie ar trebui să împinge matrice la element și prin extragerea acestor bucăți de cod în propria
+
+13:19.030 --> 13:20.170
+lor funcție mică.
+
+13:21.260 --> 13:28.700
+Puteți să eliminați acest răspuns și să îl faceți mai ușor de citit, iar intervievatorii vor dori acest lucru.
+
+13:28.750 --> 13:34.060
+Acum, în timpul unui interviu, este posibil să nu aveți timp să faceți acest lucru, dar puteți lăsa
+
+13:34.060 --> 13:40.510
+intervievatorul să știe cum ați scris soluția și înțelegeți că aceasta probabil nu este soluția cea mai lizibilă și aceasta este
+
+13:40.510 --> 13:42.960
+ceea ce ați face pentru ao curăța.
+
+13:42.970 --> 13:47.590
+Nu trebuie să codificați acest lucru atâta timp cât îi spuneți și înțelegeți unde
+
+13:47.590 --> 13:48.600
+veți îmbunătăți lucrurile.
+
+13:48.890 --> 13:54.830
+Asta în ochii intervievatorului este la fel de bun ca și cum ați codificat-o în acest fel.
+
+13:54.910 --> 13:57.220
+Bine, arată că funcționează.
+
+13:57.220 --> 14:06.340
+Dacă fac o matrice goală aici, văd că funcționează încă răspunsul nostru arată bine.
+
+14:07.600 --> 14:09.000
+Sper că ai ajuns atât de departe.
+
+14:09.040 --> 14:11.330
+Ne vedem în următorul videoclip.

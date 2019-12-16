@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.750 --> 00:01.640
+Bine ai revenit.
+
+00:02.010 --> 00:04.100
+Cum a mers cu metoda Remove.
+
+00:05.470 --> 00:09.530
+Ar trebui să fie destul de ușor, deoarece avem dreptul de instrument.
+
+00:10.450 --> 00:19.720
+Tot ceea ce trebuie să facem este să verificăm mai întâi parametrii și să verificăm dacă indexul are un număr pozitiv
+
+00:19.720 --> 00:23.030
+dacă indicele este mai mare decât lungimea.
+
+00:23.080 --> 00:25.130
+Dar despre asta am vorbit deja.
+
+00:25.150 --> 00:28.130
+Așa că hai să ajungem la carne și cartofi.
+
+00:28.150 --> 00:35.920
+Partea principală a tuturor lucrurilor pe care trebuie să le facem este din nou să ne referim la liderul nostru.
+
+00:36.090 --> 00:44.530
+Deci, dacă vrem să eliminăm să spunem 99, deci este indexul lui 0 1 2.
+
+00:44.660 --> 00:55.860
+În acest caz, dorim să ne asigurăm că eliminăm pointerul de la 10 la 99 și în loc de la punctul 10 la cinci și din cauza
+
+00:55.860 --> 01:01.710
+modului în care memoria funcționează și a colectării de gunoi a limbilor ca javascript
+
+01:01.710 --> 01:05.690
+imediat ce eliminăm acea referință 99 se va șterge.
+
+01:05.700 --> 01:17.490
+Deci, tot ceea ce spunem acum este să eliminăți acest indicator și apoi să actualizați acest punct în această listă.
+
+01:17.530 --> 01:19.380
+Și aceasta se șterge.
+
+01:19.740 --> 01:22.390
+Sper că schema mea mică are sens.
+
+01:22.450 --> 01:23.510
+Să știm asta.
+
+01:23.960 --> 01:31.420
+Ei bine, mai întâi găsim liderul exact așa cum am făcut în funcția de inserare, folosind acest punct de
+
+01:31.420 --> 01:32.710
+traversare pentru indexare.
+
+01:32.710 --> 01:39.090
+Așa că am să spun că acest punct traversează indexul Index minus unul.
+
+01:39.310 --> 01:41.620
+Și avem liderul.
+
+01:41.770 --> 01:48.430
+Acum, avem liderul și putem indica punctul de 10 pentru a indica acum cinci.
+
+01:48.640 --> 02:00.710
+Dar avem nevoie de o referință la acest Foth și modul în care obținem acea referință este să spunem că Konst pe nota căutată că
+
+02:00.950 --> 02:09.860
+este nodul pe care dorim să îl ștergem va avea un punct de lider pe lângă care este
+
+02:09.860 --> 02:23.080
+di doriți să nodul va suna la lider făcut X, care este 99 și avem acea foarte îndrăzneață, astfel încât să putem face punct de conducere de lângă
+
+02:23.090 --> 02:26.880
+egal pe un punct la nodul următor.
+
+02:26.900 --> 02:34.430
+Așa că am apucat de lider și apoi am spus acest Nu că nu vreau vreau să-l prindeți aici, folosind punctul de lider
+
+02:34.430 --> 02:42.170
+punct și apoi asigurați-vă că vom obține indicatorul care este de 99 la 5, care este o notă de făcut nedorite următoare care este
+
+02:42.380 --> 02:44.320
+egal la 5 cele cinci.
+
+02:44.320 --> 02:49.280
+Notați pentru acum să fie arătat de la punctul mai bleare.
+
+02:50.140 --> 02:57.160
+Și, desigur, să nu uităm că trebuie să micșorăm lungimea, pentru că eliminăm
+
+02:57.160 --> 03:07.580
+un nod făcând minus minus și putem doar să întoarcem acest punct Crantz la asta era prea rău dacă era.
+
+03:07.580 --> 03:10.940
+Să mergem aici și să ne asigurăm că funcționează.
+
+03:10.940 --> 03:19.450
+Voi spune că vrem să eliminăm punctul meu de legătură alăturat la indexul de două.
+
+03:19.490 --> 03:21.100
+Deci, să eliminăm nouăzeci și nouă.
+
+03:21.230 --> 03:23.340
+O să conduc asta.
+
+03:23.530 --> 03:24.170
+Uită-te la asta.
+
+03:24.170 --> 03:25.880
+Am eliminat nouăzeci și nouă.
+
+03:26.120 --> 03:29.420
+Dacă execut din nou eliminarea.
+
+03:29.450 --> 03:41.540
+Indexul de două care este de a elimina cinci, dar nu lista de imprimare eliminați și vom face clic pe Run 5 se șterge.
+
+03:41.580 --> 03:43.820
+Foarte foarte rece.
+
+03:44.220 --> 03:51.150
+Și încă o dată știm de ce ștergerea este o operațiune a tuturor și pentru că trebuie
+
+03:52.780 --> 04:02.060
+să trecem la indexare și să ne întoarcem aici, acum avem o mai bună înțelegere a modului în care această diagramă funcționează focul mișcă coada.
+
+04:02.060 --> 04:08.840
+Trebuie să traversăm totul unul câte unul unul câte unul, până când ajungem în coadă și apoi îl scoatem
+
+04:08.840 --> 04:10.600
+și acolo îl avem.
+
+04:11.530 --> 04:15.480
+Și vă încurajez să jucați mai mult cu această animație.
+
+04:15.580 --> 04:18.950
+Folosind lista noastră conectată.
+
+04:19.190 --> 04:24.950
+Există și alte metode pe care le putem adăuga la acestea, dar acestea sunt cele principale ale unei linkuri pe care le
+
+04:24.950 --> 04:25.480
+puteți vedea.
+
+04:25.970 --> 04:31.370
+Și aceasta ar trebui să vă ofere o idee mai bună despre modul în care se calculează notația Big O
+
+04:31.370 --> 04:33.750
+cu listele legate și unde sunt unele dezavantaje.
+
+04:33.760 --> 04:40.060
+Vreau să spun că puteți explica structurile de date pentru o lungă perioadă de timp, dar fără a
+
+04:40.060 --> 04:49.210
+vă codifica de fapt este greu de văzut de ce unele operațiuni durează mai mult decât altele și listele de link-uri sunt foarte populare și întrebări de interviu.
+
+04:49.350 --> 04:55.890
+Și acum aveți instrumentele necesare pentru a vă construi propria listă de lungimi într-o limbă care nici măcar nu o
+
+04:56.130 --> 04:58.500
+are ca nativ javascript bine făcut.
+
+04:58.520 --> 05:06.120
+Ajungem la această distanță în următorul videoclip, vă vom prezenta tipul de al doilea tip de link-uri pe
+
+05:06.120 --> 05:08.350
+care l-am menționat la început.
+
+05:08.460 --> 05:11.910
+Până acum am creat liste individuale legate.
+
+05:12.390 --> 05:16.050
+Dar există și o listă dublată.
+
+05:16.050 --> 05:18.150
+Ce înseamnă asta pentru asta.
+
+05:18.240 --> 05:19.130
+Voi vedea în următorul videoclip.

@@ -1,0 +1,118 @@
+WEBVTT
+
+00:01.420 --> 00:10.450
+Witaj w sekcji algorytmu, to słowo, które brzmi po prostu dobrze.
+
+00:10.490 --> 00:15.800
+Wszystkie firmy używają go w tych dniach, żeby zabrzmiało, jakby robili coś naprawdę ważnego.
+
+00:16.510 --> 00:24.100
+Każdy ma tajny algorytm, którego używa do tego, aby modele uczenia maszynowego analizowały dane użytkowników, co sprawia, że firmy
+
+00:24.160 --> 00:25.780
+mają dużo pieniędzy.
+
+00:26.080 --> 00:35.360
+Ale pod maską algorytmy są po prostu funkcjami, które programistom piszą, że funkcja
+
+00:35.420 --> 00:43.670
+dwuwierszowa jest technicznie algorytmem, algorytmem jest tysiąc liniowy algorytm sortujący obrazy.
+
+00:43.670 --> 00:51.780
+Algorytmy są po prostu krokami w procesie, który podejmujemy, aby wykonać pożądaną akcję z komputerami.
+
+00:53.450 --> 01:00.310
+Jeśli przejdziemy do Wikipedii i przeszukujemy listy algorytmów, lista nie ma końca.
+
+01:00.320 --> 01:05.240
+Istnieje wiele algorytmów.
+
+01:05.380 --> 01:07.420
+Nie da się ich wszystkich poznać.
+
+01:07.480 --> 01:14.770
+Możesz tworzyć własne algorytmy, możesz użyć innych algorytmów, które są popularne i dobrze ugruntowane.
+
+01:14.970 --> 01:18.740
+Ale wróćmy do naszego pytania o to, czym są algorytmy.
+
+01:18.900 --> 01:28.220
+Jeśli połączymy naszą wiedzę o strukturach danych, to te, nad którymi pracowaliśmy w poprzednich rozdziałach algorytmy, pozwalają nam używać języka
+
+01:28.310 --> 01:36.200
+wbudowanego w struktury danych, takie jak tablice i obiekty lub prymitywy, takie jak liczby całkowite i
+
+01:36.230 --> 01:43.910
+booleans, a nawet niestandardowe typy danych, jak robiliśmy, gdy używamy słowo kluczowe class do tworzenia stosów
+
+01:44.030 --> 01:46.560
+drzew binarnych wyszukiwania cue.
+
+01:46.960 --> 01:54.010
+Algorytmy pozwalają nam wykorzystywać te struktury danych do wykonywania działań na tych danych.
+
+01:54.040 --> 02:00.440
+Pamiętaj, że odpowiednie struktury danych i algorytmy tworzą programy w tym kursie.
+
+02:00.440 --> 02:07.520
+Porozmawiamy o najczęstszych algorytmach wywiadów, aby długa lista na Wikipedii nie była tak przerażająca, ponieważ skupimy
+
+02:07.520 --> 02:12.590
+się tylko na chęci, która ma znaczenie zwłaszcza w przypadku wywiadów,
+
+02:12.830 --> 02:19.990
+ale także tych, które są najważniejsze w twojej karierze w szczególności omówimy te tematy, jeśli chodzi
+
+02:19.990 --> 02:21.460
+o algorytmy.
+
+02:21.460 --> 02:28.060
+Dlaczego takie algorytmy są tak powszechne w wywiadach, a zwłaszcza w dużych firmach?
+
+02:28.620 --> 02:34.230
+Cóż, możesz uciec, nie znając tych tematów przez długi czas.
+
+02:34.290 --> 02:41.520
+Jako programista, ale jak dowiedzieliśmy się, big-O i skalowalność kodu jest ważna, ponieważ firmy stają
+
+02:41.520 --> 02:45.290
+się coraz większe, ucząc się wymienionych algorytmów.
+
+02:45.480 --> 02:50.550
+Jesteśmy w stanie wykonać większość skalowania potrzebną do ulepszenia naszych programów.
+
+02:50.550 --> 03:00.450
+Zapamiętajcie nasze wielkie O Chichi i jak naprawdę nie rozmawialiśmy o dzienniku i dzienniku O N, a może trochę
+
+03:00.450 --> 03:02.040
+w poprzednich filmach.
+
+03:02.910 --> 03:12.780
+Algorytmy CERN pozwalają nam uprościć naszą złożoność O w mniejszej lub lepszej złożoności czasowej.
+
+03:13.710 --> 03:19.740
+Tak więc, używając właściwego algorytmu, mógłbym wziąć funkcję, która ma duży pokaz tej
+
+03:19.740 --> 03:28.380
+notacji do czegoś z O i zalogować się lub coś, co ma liniową złożoność czasu dla zdarzenia o log.
+
+03:28.550 --> 03:35.360
+A te są używane wszędzie w dużych firmach, ponieważ duże firmy obsługują wiele
+
+03:35.450 --> 03:36.540
+danych wejściowych.
+
+03:36.590 --> 03:43.670
+Ten temat jest dla nich niezwykle ważny, a wraz z rozwojem i rozwojem twojej kariery
+
+03:43.670 --> 03:46.320
+te tematy będą coraz ważniejsze.
+
+03:46.390 --> 03:48.760
+Przejdźmy więc do naszego pierwszego tematu.
+
+03:49.000 --> 03:50.480
+Zobaczę w następnym.
+
+03:50.690 --> 03:50.950
+Babai.

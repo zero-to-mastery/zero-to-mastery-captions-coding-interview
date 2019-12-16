@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.570 --> 00:10.240
+Ketika kita berbicara tentang rekursi dan ilmu komputer kita berbicara tentang fungsi yang menyebut dirinya jenis
+
+00:10.540 --> 00:18.670
+teknik ini sangat bagus untuk beberapa masalah karena kemampuannya untuk mempertahankan keadaan tingkat rekursi yang
+
+00:18.850 --> 00:25.190
+berbeda seperti halnya pelatih kita yang menonton TV di sini.
+
+00:25.190 --> 00:32.430
+Rekursi dapat dianggap sebagai sedikit kaca yang terisi dengan panggilan fungsi rekursif
+
+00:33.380 --> 00:41.070
+dan kemudian kita mulai muncul dari atas sampai fungsi terakhir muncul dan mengembalikan nilai.
+
+00:42.440 --> 00:48.310
+Satu hal yang kami ingin berhati-hati dengan rekursi adalah gagasan stack overflow.
+
+00:48.350 --> 00:56.750
+Ini menambah ruang memori saat kami terus memanggil fungsi yang sama berulang-ulang sampai kami bisa
+
+00:56.750 --> 01:00.900
+mencapai batas dan mendapatkan stack overflow.
+
+01:00.950 --> 01:07.130
+Aturan praktis yang kami pelajari adalah bahwa kami harus menggunakan rekursi ketika membuat kode lebih mudah dibaca.
+
+01:08.290 --> 01:13.130
+Tetapi kadang-kadang itu bisa kurang efisien daripada solusi berulang atau berulang.
+
+01:13.150 --> 01:14.440
+Jadi kita harus hati-hati.
+
+01:15.370 --> 01:23.310
+Kami juga mempelajari aturan bahwa apa pun yang Anda lakukan dengan rekursi dapat dilakukan secara intuitif dan dalam wawancara Anda akan
+
+01:23.670 --> 01:31.290
+ditanyai pertanyaan tentang pro dan kontra tentang mengapa kita mungkin ingin menggunakan rekursif lebih dari iteratif dan saya tahu
+
+01:32.100 --> 01:35.810
+saya telah membahas ini sebelumnya tapi itu layak diulang.
+
+01:36.210 --> 01:41.660
+Rekursi menarik dan pintar tetapi bisa mahal.
+
+01:41.760 --> 01:48.650
+Jadi, Anda harus benar-benar berhati-hati karena rekursi dan kompleksitas ruang bukan teman.
+
+01:49.530 --> 01:56.760
+Tetapi ketika datang ke beberapa masalah seperti pengurutan dan traversal pohon Anda akan melihat bahwa kita harus
+
+01:56.760 --> 02:00.500
+menggunakan solusi rekursif untuk membuat semuanya lebih sederhana.
+
+02:00.690 --> 02:06.970
+Khususnya ketika kita berbicara tentang topik yang akan datang ini kita akan menggunakan rekursi.
+
+02:07.380 --> 02:15.200
+Jadi bersiap-siaplah untuk menggabungkan semacam grafik traversal pohon quicksort traversal yang semuanya menggunakan rekursi.
+
+02:15.230 --> 02:20.980
+Sekarang kita melengkapi jauh lebih baik untuk menangani situasi-situasi yang akan muncul.
+
+02:21.030 --> 02:30.300
+Kami mulai membangun peta pikiran kami secara perlahan dan lambat dan Anda lihat di sini bahwa ketika sampai pada struktur data
+
+02:30.300 --> 02:35.160
+pohon, tanyakan pada diri Anda apakah kami harus menggunakan rekursi.
+
+02:35.220 --> 02:42.330
+Sebagian besar waktu Anda memang ingin menggunakan rekursi tetapi perlu diingat bahwa kompleksitas ruang atau stack overflow dapat
+
+02:42.660 --> 02:43.360
+terjadi.
+
+02:44.240 --> 02:45.040
+Saya akan melihat yang berikutnya.

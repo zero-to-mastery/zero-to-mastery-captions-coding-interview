@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.640 --> 00:09.130
+Bine ați venit înapoi să transformăm structura de date stack pentru a folosi arrays și acest lucru va fi destul de simplu.
+
+00:09.370 --> 00:17.770
+Tot ce vom face este să eliminăm toate astea în constructor și să avem această matrice stocată egală cu
+
+00:17.770 --> 00:19.170
+o matrice goală.
+
+00:19.240 --> 00:25.700
+Nu avem nevoie de lungimea proprietății pentru că vine în construcție cu matrice și Javascript.
+
+00:25.780 --> 00:31.180
+Evident, acest lucru poate fi diferit pentru diferite limbi de programare, dar pentru moment avem acest lucru la dispoziția
+
+00:31.180 --> 00:34.440
+noastră în limba noastră pe care o folosim chiar acum.
+
+00:34.450 --> 00:35.890
+Așa că o avem.
+
+00:35.950 --> 00:37.960
+Acesta este constructorul nostru.
+
+00:38.010 --> 00:40.340
+Ce zici de ulei de vârf.
+
+00:40.410 --> 00:43.800
+Viteza înseamnă pur și simplu că vrem să vedem chiar sfârșitul matricei.
+
+00:43.980 --> 00:47.890
+Amintiți-vă cu stivă este ultimul în primul out.
+
+00:47.910 --> 00:50.580
+Deci, atunci când facem un vârf, vrem să vedem lucrul foarte important.
+
+00:50.580 --> 00:59.100
+Cel mai recent lucru pe care l-am adăugat în cazul nostru, putem pur și simplu să spunem acest punct și
+
+00:59.100 --> 01:06.750
+vom accesa acea matrice cu BRAC și notație și se va spune că acest punct dot arment lenth
+
+01:06.750 --> 01:14.550
+care este lungimea chiriei matricei minus unul pentru că facem minus unul deoarece indexul nostru începe de la
+
+01:14.700 --> 01:20.820
+zero la 1 față de lungimea care începe de la 1 la 2.
+
+01:20.840 --> 01:21.440
+Asta e.
+
+01:21.440 --> 01:23.420
+Am implementat vârf.
+
+01:23.570 --> 01:33.820
+Hai să comentăm acest lucru și să ne asigurăm că lucrările de vârf de la acest lucru devin nedefinite.
+
+01:34.230 --> 01:40.000
+Ei bine, pentru că nu există nimic în matrice și probabil putem da mai multe erori dacă vrem să auzim.
+
+01:40.040 --> 01:41.990
+Dar pentru moment cred că este bine.
+
+01:43.390 --> 01:47.340
+Ce zici de împinge bine merită împins.
+
+01:47.450 --> 01:59.400
+Obținem ștergerea întregului cod și spunem pur și simplu această valoare a punctului de tip dot dot array.
+
+01:59.520 --> 02:00.670
+Cât de frumos este asta.
+
+02:00.680 --> 02:03.510
+Acum este frumos și curat vine pre-construit cu cursa.
+
+02:03.540 --> 02:05.660
+Putem folosi doar împinge.
+
+02:05.690 --> 02:16.070
+Deci, dacă fac stack-ul meu și dau clic pe Run, în timp ce peek aici îmi dă Google, dar legistul rulează push doar primesc un
+
+02:16.460 --> 02:20.670
+teanc care are o matrice cu Google în el.
+
+02:20.720 --> 02:30.620
+Dacă te împing pe tine, Dammy, te-am adăugat Dammy dacă aș împinge acest cablu am adăugat acest sfert și dacă fac o privire
+
+02:30.620 --> 02:36.450
+aici ar trebui să-l iau pe Dischord înapoi, pentru că este ultima intrare.
+
+02:36.450 --> 02:37.510
+Acolo te duci.
+
+02:37.560 --> 02:39.610
+Cât de simplu este asta.
+
+02:39.620 --> 02:43.520
+Asta înseamnă că popul va fi, de asemenea, foarte simplu.
+
+02:44.400 --> 02:47.730
+Absolut se simte bine ștergerea codul nu-l.
+
+02:47.910 --> 02:55.620
+Ceea ce facem este acest punct dot dot pop care vine deja în javascript.
+
+02:55.620 --> 03:00.090
+Nu putem reveni doar dacă vrem.
+
+03:00.130 --> 03:04.190
+Dacă fac clic pe rulați, dar va trebui să rulez popul aici să fugim.
+
+03:04.360 --> 03:09.740
+Pop care elimină dezacordul din listă.
+
+03:09.860 --> 03:20.920
+Dacă rulez pop din nou, primesc Google și dacă fac acest pop și execut un clic, avem o matrice goală ca asta.
+
+03:20.970 --> 03:22.460
+Frumos și simplu.
+
+03:22.480 --> 03:26.910
+Trebuie să folosim clasa de noduri și asta e destul de bine.
+
+03:27.860 --> 03:32.270
+Deci, puteți folosi pur și simplu matricele ca stive destul de ușor.
+
+03:32.270 --> 03:39.080
+Și am discutat deja avantajele și dezavantajele utilizării listelor de linkuri versus ștergerea unuia dintre lucrurile drăguțe
+
+03:39.080 --> 03:45.770
+despre folosirea unei matrice, în timp ce măduvele cel puțin în javascript acționează deja ca stive și
+
+03:45.770 --> 03:50.060
+face lucrurile foarte simple pentru noi, dar suficient pentru stive.
+
+03:50.230 --> 03:51.790
+Să implementăm propriile noastre.
+
+03:51.860 --> 03:55.380
+Q De data aceasta voi vedea în următoarea.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.250 --> 00:02.190
+Witamy spowrotem.
+
+00:02.300 --> 00:08.600
+Nasz najlepszy przyjaciel wizualnie idzie i po raz kolejny ma świetny schemat, z którym możemy się bawić.
+
+00:09.600 --> 00:16.950
+Teraz przedstawię cztery różne wykresy i będziesz musiał mi powiedzieć, na jakim typie wykresu
+
+00:16.980 --> 00:25.490
+jest oparty, dopóki nie dowiedzieliśmy się do tej pory, czy jest to ważone kliknięcie sic skierowane do reżysera.
+
+00:25.500 --> 00:27.030
+Zacznijmy od tego.
+
+00:27.090 --> 00:29.120
+Jak myślisz, kim on jest.
+
+00:29.370 --> 00:33.820
+Zanim pokażę ci odpowiedź.
+
+00:33.820 --> 00:38.180
+Dobra, to jest skierowane.
+
+00:38.200 --> 00:41.110
+Na ważonym wykresie nie ma strzał.
+
+00:41.380 --> 00:46.800
+Widać też, że jest cykliczny, ponieważ można przejść 0 1 2 i wrócić do zera.
+
+00:47.820 --> 00:48.830
+A co z następnym.
+
+00:51.210 --> 00:52.970
+Jakiego rodzaju jest to wykres.
+
+00:55.970 --> 01:04.070
+To jest nieukierunkowany, ważony wykres, który również jest cykliczny.
+
+01:04.240 --> 01:07.190
+Widać więc, że mamy tutaj masy na krawędziach.
+
+01:07.240 --> 01:08.250
+Nie ma strzał.
+
+01:08.260 --> 01:09.110
+Możemy iść gdziekolwiek.
+
+01:09.110 --> 01:13.630
+Wygrywaliśmy tam iz powrotem, a także możemy robić cykle.
+
+01:13.690 --> 01:17.980
+A co z tym.
+
+01:18.000 --> 01:27.090
+To jest skierowany wykres, ale na ważonej i tak, nawet sześć i siedem to wykres.
+
+01:27.290 --> 01:34.100
+Ale widzimy tutaj, że nie jest to cykliczny ASAC, ponieważ nie ma możliwości powrotu, powiedzmy 0
+
+01:34.100 --> 01:35.320
+do 1.
+
+01:35.330 --> 01:37.420
+Mogę wrócić do zera.
+
+01:37.430 --> 01:38.590
+W porządku, zgubiłem jedną.
+
+01:38.660 --> 01:40.350
+A co z tym.
+
+01:41.210 --> 01:45.340
+Jest to ukierunkowany wykres ważony.
+
+01:45.380 --> 01:51.890
+Mamy ciężary mają kierunek, a jeśli chodzi o cykliczne, to nie ma cykli.
+
+01:51.890 --> 01:53.680
+Więc jest cykliczny.
+
+01:53.780 --> 01:54.170
+W porządku.
+
+01:54.170 --> 01:58.900
+Ostateczne wyzwanie, jaki rodzaj wykresu jest taki.
+
+02:01.680 --> 02:02.730
+Gotowy na odpowiedź.
+
+02:03.720 --> 02:07.720
+To jest skierowany wykres acykliczny.
+
+02:07.800 --> 02:09.090
+Nie ma cykli.
+
+02:09.090 --> 02:18.350
+Jest skierowany i jest to wykres, a ten skierowany acykliczny wykres jest dość powszechny w nazwie Dagh.
+
+02:18.360 --> 02:27.330
+I rzeczywiście projekt taki jak Iowa, który jest dość popularnym blogosłupem, wykorzystuje to i używa wymyślnych słów, takich
+
+02:27.330 --> 02:29.940
+jak skierowany acykliczny wykres.
+
+02:30.150 --> 02:33.320
+Ale pod koniec dnia to już nie jest imponujące.
+
+02:33.330 --> 02:38.510
+Wiemy, co to jest po prostu wykres, który idzie w jednym kierunku.
+
+02:38.970 --> 02:42.440
+Myślę, że nadszedł czas, abyśmy nauczyli się budować własny wykres.
+
+02:42.780 --> 02:43.980
+Zobaczę w następnym.
+
+02:44.330 --> 02:44.610
+Lecz przez.

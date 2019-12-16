@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.320 --> 00:02.350
+Tutto ok.
+
+00:02.370 --> 00:09.140
+Quindi abbiamo un'idea di come aumentare la nostra percentuale di probabilità di ottenere un colloquio.
+
+00:09.150 --> 00:16.020
+Abbiamo anche imparato a conoscere la notazione di Big-O e come possiamo usarla per esaminare il nostro codice e analizzare se
+
+00:16.020 --> 00:17.710
+è efficiente o meno.
+
+00:18.540 --> 00:23.740
+Usando le nostre conoscenze fino ad ora passiamo ad un altro argomento importante.
+
+00:23.910 --> 00:29.250
+Alla fine della giornata un'intervista è un modo per la società di scoprirlo.
+
+00:29.430 --> 00:33.710
+Riesci a risolvere un problema che la compagnia o il datore di lavoro ha.
+
+00:33.780 --> 00:40.680
+Perché se sei in grado di risolvere i loro problemi, allora sei prezioso e otterrai più valore
+
+00:40.680 --> 00:44.920
+per loro rispetto al salario che ti stanno pagando.
+
+00:44.940 --> 00:49.760
+Questo è ciò a cui un colloquio tecnico cerca di rispondere.
+
+00:49.780 --> 00:55.050
+Ora possiamo essere intelligenti e strategici su dove applichiamo e come applichiamo a un'azienda.
+
+00:55.120 --> 00:57.630
+E l'abbiamo saputo nelle sezioni precedenti.
+
+00:57.880 --> 01:00.140
+Ma ecco che arriva la grande sfida.
+
+01:00.190 --> 01:01.990
+Hai un colloquio.
+
+01:02.180 --> 01:06.330
+Cosa fai nel prossimo paio di sezioni.
+
+01:06.330 --> 01:11.750
+Affronteremo questa domanda e ti prepareremo il più preparato possibile per l'intervista di codifica.
+
+01:12.000 --> 01:13.860
+E diventeremo molto tecnici.
+
+01:13.860 --> 01:18.290
+So che fino ad ora non abbiamo visto così tanto codice, ma avremo intenzione di entrare nei dettagli
+
+01:18.300 --> 01:20.120
+nitidi e grintosi nelle prossime due sezioni.
+
+01:20.280 --> 01:27.090
+Ma prima di immergerci nei problemi di codifica delle strutture di dati e degli algoritmi e di
+
+01:27.300 --> 01:37.570
+tutti questi dettagli di codifica FAAN dobbiamo prima capire questo principio su come risolvere i problemi che vedete se conosciamo ogni singolo algoritmo nel mondo dentro
+
+01:37.630 --> 01:44.300
+e fuori voi conoscete tutte le strutture di dati che voi sei il miglior programmatore del
+
+01:44.300 --> 01:44.960
+mondo.
+
+01:45.170 --> 01:49.740
+Beh, non garantisce che avrai successo in un colloquio tecnico.
+
+01:50.680 --> 01:56.860
+Questa sezione ha lo scopo di prepararti in modo da avere le basi tracciate in modo che dopo tutto
+
+01:56.860 --> 02:02.920
+ciò che è necessario per avere successo nel colloquio tecnico è l'effettivo aspetto della codifica delle domande.
+
+02:02.920 --> 02:08.470
+Vedi che non è l'intervistatore più intelligente che viene assunto per la maggior parte del
+
+02:08.470 --> 02:14.300
+tempo in cui l'intervistatore è in grado di rispondere a questa domanda fondamentale risolverà il problema dell'azienda.
+
+02:15.300 --> 02:21.960
+Se sei un genio ma non puoi parlare con le persone non lavori bene con gli altri o scrivi
+
+02:21.960 --> 02:29.000
+brutti codici che la gente non capisce o non puoi comunicare una soluzione a un problema, allora non otterrai un lavoro.
+
+02:29.520 --> 02:35.880
+Vedete che non è necessariamente la soluzione di un problema in un'intervista di codifica riguarda
+
+02:35.880 --> 02:42.990
+il processo di pensiero e la conoscenza dei compromessi tra strutture dati e algoritmi spazio e complessità temporale.
+
+02:42.990 --> 02:46.520
+Proprio come nella codifica della vita reale non si memorizzano le cose.
+
+02:46.680 --> 02:52.050
+Devi capire profondamente loro capiscono i compromessi.
+
+02:52.050 --> 02:53.660
+Quindi questo è quello che stiamo facendo qui.
+
+02:53.670 --> 02:59.040
+So che sto impiegando molto tempo per arrivare ai miei punti ma stiamo cercando di costruire le basi
+
+02:59.040 --> 03:03.050
+prima di immergerci in profondità così da capire il perché di ogni cosa.
+
+03:03.330 --> 03:10.110
+Stiamo costruendo queste fondamenta per prima cosa comprendendo il big-O che abbiamo fatto nella sezione precedente
+
+03:10.560 --> 03:14.000
+e poi imparando come risolvere questi problemi.
+
+03:14.400 --> 03:21.510
+In questa sezione ho intenzione di mostrarti passo dopo passo cosa dobbiamo fare per risolvere i problemi in un modo che
+
+03:21.510 --> 03:25.940
+le aziende apprezzano davvero così da riuscire in questa intervista di codifica.
+
+03:26.010 --> 03:33.210
+Vedremo alcune interviste di codice di esempio da Google per vedere cosa hanno fatto e qual è il
+
+03:33.210 --> 03:36.120
+processo ideale per fare questa intervista.
+
+03:36.740 --> 03:43.550
+In modo tale che una volta che abbiamo queste basi possiamo usare strutture dati e algoritmi per risolvere
+
+03:44.300 --> 03:50.440
+i nostri problemi, perché l'intervista non riguarda la tua capacità di memorizzare strutture dati e algoritmi.
+
+03:50.570 --> 03:57.830
+La maggior parte delle persone commette questo errore e gli intervistatori possono rilevare subito chi effettivamente conosce queste
+
+03:57.890 --> 04:01.670
+cose e le memorizza semplicemente la settimana prima dell'intervista.
+
+04:01.760 --> 04:08.720
+Quindi, come puoi fare il colloquio di codifica in questa sezione, parleremo delle interviste tecniche
+
+04:08.990 --> 04:11.300
+e di come riuscirci.
+
+04:11.360 --> 04:17.060
+Ti mostrerò come appare un'intervista di successo a Google e poi rompi tutto.
+
+04:17.060 --> 04:19.790
+Passo dopo passo sul motivo per cui è necessario.
+
+04:19.820 --> 04:25.340
+Ti fornirò anche un piccolo e semplice foglio per riassumere tutto in questa sezione in modo che tu
+
+04:25.400 --> 04:27.480
+possa sempre vederlo prima di un'intervista.
+
+04:28.300 --> 04:34.690
+Alla fine risolveremo noi stessi un problema di codifica proprio come faresti in un'intervista e analizzeremo diverse
+
+04:34.750 --> 04:36.520
+soluzioni a questo problema.
+
+04:36.610 --> 04:42.210
+Sulla base di ciò che abbiamo imparato fino ad ora, scopriremo il modo migliore
+
+04:42.520 --> 04:48.640
+per risolvere il problema, ma analizzeremo anche diverse soluzioni big-O in termini di spazio e tempo.
+
+04:48.850 --> 04:52.440
+Alla fine di questa sezione avrai un grande momento aha.
+
+04:52.600 --> 04:55.780
+Lo garantisco dove prenderemo tutto ciò che abbiamo imparato.
+
+04:55.780 --> 05:02.540
+Fino ad ora nelle nostre strutture dati e nelle sezioni degli algoritmi per capire veramente i compromessi.
+
+05:02.550 --> 05:03.010
+Iniziamo.
+
+05:03.010 --> 05:03.370
+Shelly.

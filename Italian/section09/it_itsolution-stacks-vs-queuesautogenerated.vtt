@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.490 --> 00:01.900
+Ritornerà.
+
+00:02.020 --> 00:03.730
+Come hai fatto in quell'esercizio.
+
+00:04.530 --> 00:06.180
+Diamo un'occhiata alla soluzione.
+
+00:06.880 --> 00:09.700
+Iniziamo con pile.
+
+00:09.760 --> 00:14.770
+Ho detto che con stack possono essere implementati usando matrici o liste collegate.
+
+00:14.770 --> 00:20.560
+In questo caso entrambi gli array e le liste di lunghezza funzioneranno abbastanza bene alla fine.
+
+00:20.560 --> 00:24.670
+Dipende dal motivo per cui preferisci e perché le tue priorità sono.
+
+00:24.670 --> 00:30.820
+E a questo punto dovresti capire i pro e i contro degli array e dei pro e contro delle liste collegate.
+
+00:31.000 --> 00:35.420
+Quindi non abbiamo bisogno di entrare nei dettagli poiché ne abbiamo già parlato prima.
+
+00:35.560 --> 00:42.970
+Ma una cosa importante è che gli array consentono qualcosa chiamato localizzazione cache che li rende tecnicamente più
+
+00:42.970 --> 00:50.050
+veloci quando accedono ai suoi elementi in memoria perché sono proprio uno accanto all'altro rispetto a
+
+00:50.470 --> 00:58.450
+un elenco collegato che li ha sparsi in tutta la memoria e anche gli elenchi collegati hanno memoria extra associati
+
+00:58.450 --> 01:01.990
+a loro perché dobbiamo aggrapparci a quei suggerimenti.
+
+01:01.990 --> 01:06.360
+Ma d'altra parte hanno una memoria più dinamica.
+
+01:06.370 --> 01:07.180
+Destra.
+
+01:07.420 --> 01:14.890
+E possiamo continuare ad aggiungere cose all'elenco contro un array in cui si dispone di un array statico o di un array dinamico
+
+01:14.890 --> 01:17.050
+con una certa quantità di memoria.
+
+01:17.050 --> 01:22.900
+E non appena sta per raggiungere il suo limite, dovrà raddoppiare la memoria e creare un nuovo spazio
+
+01:23.010 --> 01:25.590
+per essa da qualche parte nella memoria.
+
+01:25.630 --> 01:31.960
+Quindi devi pensare a che tipo di operazioni hai intenzione di fare e perché le tue priorità sono quelle
+
+01:31.960 --> 01:33.340
+di decidere quale vuoi.
+
+01:33.370 --> 01:40.130
+Ma potrebbero entrambi funzionare e costruiremo una struttura di dati stack con entrambi questi elementi.
+
+01:41.310 --> 01:45.190
+D'altra parte, Cues è una risposta molto semplice.
+
+01:45.300 --> 01:49.650
+Non vorresti mai costruirlo con un array o se lo fai.
+
+01:49.810 --> 01:55.710
+Anche se non è necessariamente una buona idea e idealmente vuoi implementarli con liste collegate.
+
+01:55.710 --> 02:02.300
+Perché va bene se ti ricordi che gli array hanno indici associati a loro.
+
+02:02.310 --> 02:05.190
+Quindi se siamo arrabbiati qui allora abbiamo la gioia.
+
+02:05.490 --> 02:06.980
+Poi abbiamo il sumir.
+
+02:07.200 --> 02:10.750
+Poi abbiamo Pavel che ci sta.
+
+02:10.750 --> 02:19.020
+Q Se questo era in una struttura dati dell'array e Matt era il primo in linea e
+
+02:19.020 --> 02:29.370
+abbiamo bisogno di rimuovere Matt dalla coda Bene una volta rimosso Matt, ora dobbiamo spostare gli indici in modo da andare uno
+
+02:29.490 --> 02:34.950
+per uno e dire Tutto bene La gioia è ora qui.
+
+02:37.300 --> 02:42.610
+Un indice di zero sumir è quell'indice di 1 e Pavel è un indice di 2.
+
+02:42.720 --> 02:45.060
+E non c'è indice di 3.
+
+02:45.120 --> 02:47.120
+Abbiamo solo spostato quelli per correre.
+
+02:47.130 --> 02:57.270
+È un O di un'operazione lineare rispetto a qualcosa di simile a una lista concatenata in cui tutto ciò che abbiamo è un
+
+02:57.330 --> 03:06.550
+puntatore alla testa e quindi forse abbiamo un puntatore alla coda e tutto quello che dobbiamo fare è dire testa.
+
+03:06.780 --> 03:15.980
+Bene, Matt, vogliamo rimuovere Matt e la gioia sarà la testa e non cambierà nulla.
+
+03:16.730 --> 03:19.860
+E questa è tutta una sola operazione o Costantino costante.
+
+03:20.330 --> 03:24.450
+Spero che tu sia in grado di ottenere la risposta altrimenti almeno ora sai.
+
+03:24.470 --> 03:29.660
+E questa è una domanda di intervista molto comune a cui potresti essere chiesto che spero tu abbia
+
+03:29.660 --> 03:32.090
+una risposta al momento ma abbastanza parlando.
+
+03:32.160 --> 03:35.590
+Penso che sia tempo per noi di costruire queste strutture dati da zero.
+
+03:36.410 --> 03:38.390
+Vedrò nel prossimo video Buh-Bye.

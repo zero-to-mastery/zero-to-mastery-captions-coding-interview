@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.610 --> 00:01.460
+Bine ai revenit.
+
+00:01.690 --> 00:09.220
+Să învățăm cum să construim grafice grafice proprii când privim la ele, arată foarte intimidant.
+
+00:09.940 --> 00:19.540
+Dar aici este lucrul pe care l-am învățat de fapt instrumentele necesare pentru a construi grafice deoarece graficele sunt construite
+
+00:19.540 --> 00:23.000
+pe lângă alte structuri de date.
+
+00:23.010 --> 00:29.880
+Amintiți-vă această diagramă a graficului aciclic direcționat Ei bine, multe dintre structurile de date
+
+00:29.880 --> 00:37.740
+pe care le-am jucat până acum pot crea ceva de genul acesta folosind arbori și liste de linkuri.
+
+00:37.740 --> 00:39.850
+Adică pare destul de similară.
+
+00:39.870 --> 00:44.460
+Aveți un nod cu copii și indicatori diferiți folosind
+
+00:47.300 --> 00:48.330
+aceste cunoștințe.
+
+00:48.380 --> 00:55.350
+Să vorbim despre cum să începeți să vă gândiți la grafice sau cel puțin cum să vă gândiți să le construiți.
+
+00:56.540 --> 00:58.470
+Există trei moduri în care pot să se gândească la asta.
+
+00:58.490 --> 01:05.930
+Primul este numit o listă de margini și am un exemplu pentru dvs. pe care îl putem folosi pentru a construi ceva
+
+01:05.930 --> 01:07.170
+de genul acesta.
+
+01:07.180 --> 01:12.640
+Să presupunem că vrem să construim acest grafic cum să facem acest lucru.
+
+01:14.600 --> 01:24.850
+Cu o listă de margini putem spune că graficul Konst este egal cu ceva asemănător.
+
+01:24.850 --> 01:27.610
+Acum să vedem ce am făcut aici.
+
+01:27.690 --> 01:36.240
+Am o matrice și în interiorul acestei matrice am una și două patru patru elemente ca atare.
+
+01:36.310 --> 01:38.070
+Sunt o rasă.
+
+01:38.220 --> 01:43.630
+Dar dacă ne uităm la grafic, matricele declară pur și simplu conexiunile.
+
+01:43.860 --> 01:49.330
+Asta înseamnă că avem zero și doi ca primul element din matrice.
+
+01:49.450 --> 01:58.000
+Avem două și trei ca a doua matrice în interiorul matricei și apoi două și una și una și trei o listă de margine
+
+01:58.310 --> 02:04.930
+arată pur și simplu conexiunea la care zero este conectat la 2 și 2 este conectat la zero.
+
+02:06.950 --> 02:10.930
+Două este conectată la trei fire conectate la 2 la 1 1 la 3.
+
+02:10.930 --> 02:14.620
+Asa si asa mai departe.
+
+02:14.880 --> 02:27.060
+Există un alt mod numit adjacency sau listă adiacentă și în acest caz putem crea un grafic în care indexul este
+
+02:27.120 --> 02:35.060
+nota și valoarea este nodurile vecine ceea ce vreau să spun prin asta.
+
+02:35.390 --> 02:41.600
+Ei bine, atunci putem folosi arrays pe care le putem folosi obiectele pe care le putem folosi Linked Lists.
+
+02:41.630 --> 02:47.570
+Dar să presupunem că în indexul 0 primul element 0 este conectat la
+
+02:50.610 --> 03:04.410
+indexul 2 al unuia care este nodul unul este conectat la 2 și trei indicele a două este conectat la 0 1 și 3 și apoi în cele din urmă
+
+03:04.410 --> 03:10.130
+indicele de 3 sau No3 este conectat la 1 și 2.
+
+03:10.290 --> 03:15.450
+Și puteți face și cele de mai sus cu un obiect unde ar putea fi chiar mai clar.
+
+03:15.460 --> 03:21.730
+Și dacă o valoare a unui nod este altceva decât un număr, îi puteți da o valoare.
+
+03:21.780 --> 03:23.250
+Deci, o cheie și o valoare.
+
+03:23.520 --> 03:26.910
+Și acest lucru este extrem de util cu obiectul dacă aveți.
+
+03:27.120 --> 03:30.970
+Cum am spus nu un număr secvențial așa cum facem în acest exemplu.
+
+03:31.050 --> 03:35.850
+Și când implementăm propriul grafic, vom folosi o listă adiacentă folosind un obiect.
+
+03:35.850 --> 03:36.930
+Și veți vedea ce vreau să spun.
+
+03:37.700 --> 03:42.910
+În final, vreau să vă arăt ultima metodă de reprezentare a graficelor.
+
+03:42.990 --> 03:53.980
+Se numește matricea adiacentă și o matrice adiacentă va arăta așa, această matrice pur și simplu va avea zero și
+
+03:54.010 --> 04:01.330
+una care indică dacă nodul X are o conexiune la nodul y.
+
+04:01.360 --> 04:04.570
+Zero înseamnă că nimeni nu înseamnă da.
+
+04:04.690 --> 04:09.910
+Și dacă aveți o modalitate de a scrie, puteți adăuga greutăți aici în loc de 1 și 0.
+
+04:09.910 --> 04:12.120
+Deci, ele pot fi numere.
+
+04:12.250 --> 04:17.620
+Nu voi scrie asta pentru că te duc să mor, dar aici este aceeași reprezentare
+
+04:17.620 --> 04:23.140
+pe care am făcut-o cu cel puțin o listă adiacentă de data aceasta cu matricea adiacentă.
+
+04:23.200 --> 04:24.670
+Ce înseamnă.
+
+04:24.700 --> 04:33.500
+Indicele indiciu de 0 are legătură cu 0 1 2 0 0 este conectat la două.
+
+04:33.760 --> 04:47.550
+Apoi nimeni nu este conectat la două și trei nodul 2 este conectat la 0 1 și 3.
+
+04:47.550 --> 04:56.550
+Și puteți vedea cum este foarte asemănător cu aici, iar nodul 4 este conectat la unul și la două ca
+
+04:56.550 --> 04:57.540
+și aici.
+
+04:57.540 --> 05:05.270
+Și din nou, în loc de o cursă, puteți folosi obiectele aici și, de fapt, le oferiți o cheie și o valoare.
+
+05:06.160 --> 05:17.610
+Deci, dacă ar fi un obiect, ar fi zero la unu și trei.
+
+05:17.690 --> 05:25.640
+Și dacă mergem la vizionarea vizuală, veți vedea de fapt că au aceste trei moduri de a descrie grafice.
+
+05:25.690 --> 05:27.220
+Matricea de adjunct.
+
+05:27.220 --> 05:28.200
+Și pentru că este ponderat.
+
+05:28.200 --> 05:31.900
+Vedeți că aici există numere în loc de 1.
+
+05:32.050 --> 05:39.250
+Avem lista de adiacentă în cazul în care se pare că au un tabel hash cu valorile
+
+05:39.250 --> 05:44.080
+și o listă de margini cu o proprietate suplimentară a greutăților.
+
+05:44.110 --> 05:48.730
+Deoarece aceasta este o modalitate de a grafice și puteți vedea și greutățile în lista de conexiuni.
+
+05:48.940 --> 05:51.180
+Dar tocmai am aruncat o privire la numeroase numere.
+
+05:51.190 --> 05:56.230
+Cred că este timpul să construim propriul nostru grafic pentru a finaliza înțelegerea noastră.
+
+05:56.290 --> 05:57.540
+Voi vedea în următorul.
+
+05:57.930 --> 05:58.160
+Bobby.

@@ -1,0 +1,283 @@
+WEBVTT
+
+00:01.960 --> 00:02.800
+Ben tornato.
+
+00:02.890 --> 00:08.680
+Iniziamo a codificare il nostro primo algoritmo con la prima ricerca di ampiezza.
+
+00:08.860 --> 00:15.850
+Se ricordi con largo prima ricerca dobbiamo andare dall'alto in alto a sinistra e poi visitare
+
+00:15.880 --> 00:18.550
+tutti i nodi in quel livello.
+
+00:18.550 --> 00:26.650
+E quando ho detto che usa molta memoria è che quando visita il 6 e il 12 da lì tornerà all'1
+
+00:26.650 --> 00:29.820
+4, quindi al 34 e al 45.
+
+00:30.100 --> 00:38.380
+Quindi, mentre passa attraverso questo livello, dobbiamo mantenere un riferimento a tutti i nodi figli di ogni nodo che visitiamo
+
+00:38.560 --> 00:45.940
+in modo che possiamo tornare da loro e visitare 1 e 4 da dove viene la memoria,
+
+00:46.000 --> 00:52.030
+perché dobbiamo tenere traccia di quei bambini del livello in cui ci troviamo.
+
+00:52.100 --> 00:59.990
+E noterai anche questo percorso che stiamo prendendo dalle 9 alle 6-12 da 1 a 4 a 34 per 45.
+
+01:00.170 --> 01:05.810
+Useremo una struttura di dati Q che ci consente di mantenere un riferimento alle note
+
+01:05.810 --> 01:10.480
+a cui vogliamo tornare perché sappiamo che 6 è davanti a 12.
+
+01:10.550 --> 01:14.970
+Possiamo tornare indietro e scoprire i suoi nodi figli.
+
+01:15.410 --> 01:22.610
+Quindi prendiamo il codice con il nostro primo algoritmo di ricerca del respiro che abbiamo qui sopra il nostro albero di ricerca
+
+01:22.670 --> 01:25.620
+binario dalla nostra sezione della struttura dei dati dell'albero.
+
+01:25.620 --> 01:32.930
+Abbiamo già implementato i metodi di rimozione di Look-Up e abbiamo creato questo albero di ricerca binario
+
+01:32.990 --> 01:36.390
+che ci offre questo tipo di albero.
+
+01:36.410 --> 01:46.250
+Rimuoviamo questi per ora e cominciamo a programmare il nostro respiro per la prima implementazione della ricerca e, idealmente, chiamando
+
+01:46.250 --> 01:52.720
+questa funzione otterremo un elenco di tutti questi elementi nell'ordine del respiro.
+
+01:52.760 --> 01:59.760
+La prima ricerca è 9: 4 20 una volta x 15 170.
+
+01:59.900 --> 02:00.710
+Chiamiamo
+
+02:03.820 --> 02:05.080
+questa prima ricerca
+
+02:08.670 --> 02:12.010
+e qui abbiamo bisogno di tre cose.
+
+02:12.060 --> 02:19.460
+Uno è il nodo corrente che inizierà con il nodo radice e abbiamo bisogno di
+
+02:23.390 --> 02:25.440
+altre due cose.
+
+02:25.490 --> 02:33.770
+Uno è la lista reale che sarà la nostra risposta avrà un array qui dove inseriamo questi numeri
+
+02:33.770 --> 02:36.570
+nell'ordine del respiro per la ricerca.
+
+02:36.920 --> 02:43.780
+E abbiamo anche bisogno di una struttura dati Q che utilizzi un array per questo esempio.
+
+02:44.710 --> 02:53.740
+Per tenere traccia del livello in cui ci troviamo in modo da poter accedere ai bambini una volta passati, ricorda che terremo traccia
+
+02:53.750 --> 03:00.020
+delle 9, quindi terremo traccia delle 6 e 12 e quando arriveremo a 6 e 12
+
+03:00.110 --> 03:01.720
+sarà nella nostra coda.
+
+03:01.760 --> 03:10.520
+Ma dobbiamo tornare indietro quando saremo alla fine di quel livello fino a 6, in modo che possiamo scoprire 1 e 4.
+
+03:10.570 --> 03:12.630
+Quindi è per questo che sarà usato il Q.
+
+03:13.740 --> 03:20.410
+Ora la prima cosa che faremo è aggiungere alla coda il primo elemento del nodo radice.
+
+03:20.700 --> 03:29.040
+Quindi diremo Q Dot push current node.
+
+03:29.100 --> 03:36.000
+Ora quello che dobbiamo fare qui è passare dal nodo corrente al nodo figli e di nuovo andare da sinistra
+
+03:36.000 --> 03:41.380
+a destra e poi andare alle note dei bambini e andare da sinistra a destra.
+
+03:41.550 --> 03:48.000
+E il modo in cui lo faremo è usare un ciclo while e diremo che finchè Q Dot
+
+03:48.600 --> 03:52.840
+lenth sarà maggiore di zero non avremo più nulla in coda.
+
+03:54.050 --> 04:01.100
+In questo caso diremo che il nodo corrente sarà q punto maiuscolo e
+
+04:03.880 --> 04:10.300
+lo spostamento semplicemente significa che prendiamo il primo elemento in coda.
+
+04:10.300 --> 04:15.730
+Ricorda che una coda è solo la fila per le montagne russe e la
+
+04:15.730 --> 04:24.400
+prima persona che arriva arriva per prima sulle montagne russe e cambia semplicemente ritorna e rimuove il primo oggetto in coda e
+
+04:24.400 --> 04:29.770
+il nostro caso ne avrà 9 come primo elemento in la fila.
+
+04:29.770 --> 04:40.320
+Il nodo 9 e lo sposteremo e lo assegneremo al nodo corrente e poiché questo è il nodo radice
+
+04:40.320 --> 04:48.990
+che vogliamo iniziare nella nostra risposta, l'elenco avrà il numero nove nella parte superiore.
+
+04:49.200 --> 04:51.600
+Spostiamolo qui solo così puoi vedere meglio.
+
+04:54.470 --> 05:06.280
+Quindi, la prima cosa che faremo è pronunciare l'elenco punto e spingere il nodo corrente punto Valley che sarà nove.
+
+05:06.450 --> 05:11.190
+Quindi abbiamo la prima risposta nella nostra lista che non proviene da lì.
+
+05:11.250 --> 05:18.600
+Diremo che i nove nodi hanno un figlio sinistro.
+
+05:19.670 --> 05:27.740
+Perché se lo fa aggiungiamo alla Q dicendo che dobbiamo controllare quella nota e la
+
+05:27.740 --> 05:41.440
+inseriremo nel punto del nodo corrente Q rimasto, quindi quello che abbiamo appena fatto è che abbiamo aggiunto quattro alla coda e poi anche
+
+05:41.450 --> 05:44.280
+noi vogliamo aggiungerne 20.
+
+05:44.510 --> 05:50.870
+Quindi ho intenzione di dire se dopo aver aggiunto 4 alla coda ho intenzione di dire che fa
+
+05:50.870 --> 05:54.420
+una nota corrente ha un nodo figlio nodo destro.
+
+05:54.560 --> 06:01.490
+In tal caso, Wolf ha aggiunto nuovamente la coda come seconda voce in coda
+
+06:02.180 --> 06:07.160
+e l'attuale frequenza senza dubbio verrà inviata alla coda.
+
+06:07.260 --> 06:09.950
+E questa è la cosa incredibile di tutto ciò che abbiamo appena fatto.
+
+06:10.050 --> 06:17.660
+Ora che la coda ha due elementi che passano avrai 4 e 20.
+
+06:17.840 --> 06:28.400
+Passerà in rassegna questa linea e dirà che q lo spostamento sta per afferrare e dire spingere per la corrente
+
+06:28.400 --> 06:30.050
+alla lista.
+
+06:30.790 --> 06:36.060
+E poi dirà hey fa quattro ha un figlio sinistro.
+
+06:36.100 --> 06:37.660
+Sì, ce l'ha.
+
+06:37.810 --> 06:40.030
+Bene, quindi aggiunto alla coda.
+
+06:40.450 --> 06:48.350
+Quindi si viene aggiunti alla coda che ha 20 e ora 1 e poi diciamo che ha 4 figli giusti.
+
+06:48.790 --> 06:49.950
+Sì, ne abbiamo sei.
+
+06:50.140 --> 06:52.080
+Bene, lo aggiungeremo di nuovo alla coda.
+
+06:52.090 --> 06:58.570
+Quindi avremo 4: 21: 6 e poi torneremo in cima e diremo quale sarà il prossimo in linea.
+
+06:58.720 --> 07:00.030
+Bene, abbiamo 20.
+
+07:00.070 --> 07:03.010
+Quindi spostiamo 20.
+
+07:03.070 --> 07:04.030
+Afferralo.
+
+07:04.030 --> 07:08.000
+Rimuovilo dalla nostra coda e riprovaci.
+
+07:08.050 --> 07:14.760
+Il figlio di sinistra avrà 15 anni e scriverà un bambino che avrà 170 anni se cancelleremo tutti i log qui.
+
+07:15.890 --> 07:22.370
+Il nostro attuale nodo dot Valley e in realtà solo
+
+07:26.270 --> 07:30.170
+accedere qui che sarà spostato.
+
+07:30.180 --> 07:35.310
+No, questo è il No su cui stiamo operando e il check-out
+
+07:35.310 --> 07:45.890
+e dovremo chiamarlo in realtà, quindi facciamo una respirazione ad albero per una ricerca e faccio clic su Esegui vediamo che sto controllando nove poi I '
+
+07:45.890 --> 07:53.610
+Sto verificando che sto controllando 20 che sto controllando uno poi sei poi 15 poi 170 molto molto cool.
+
+07:53.790 --> 07:56.220
+E lo stiamo spingendo alla lista ogni volta.
+
+07:56.580 --> 08:06.820
+Quindi tutto ciò che dobbiamo fare alla fine è solo salvare la lista di ritorno in modo che se faccio scorrere questo sguardo ho il mio
+
+08:06.820 --> 08:07.350
+respiro.
+
+08:07.520 --> 08:13.580
+Prima ricerca che restituisce nove poi per meno di 20.
+
+08:13.600 --> 08:18.520
+Sono 1 6 15 e 170.
+
+08:18.680 --> 08:20.600
+Non c'era niente di male.
+
+08:20.600 --> 08:28.490
+Vediamo da questo codice che è abbastanza semplice e l'unico problema che abbiamo è che questa coda
+
+08:28.520 --> 08:38.060
+può diventare piuttosto grande perché dobbiamo mantenere il riferimento ai nostri nodi figli del consumo di memoria che può davvero farci
+
+08:38.480 --> 08:39.650
+del male.
+
+08:39.680 --> 08:48.890
+È questo spunto che continuiamo ad aggiungere continuiamo a scoppiare cose che aggiungiamo anche alla Q In modo che se abbiamo un albero molto largo
+
+08:48.890 --> 08:55.340
+invece di un albero binario dove abbiamo solo una sinistra e una destra e forse abbiamo 10
+
+08:55.400 --> 09:02.060
+note figlio questa coda può diventare abbastanza grande e dipende dai dati che il consumo di memoria potrebbe essere
+
+09:02.630 --> 09:03.200
+grande.
+
+09:03.200 --> 09:06.230
+E questo è uno dei principali aspetti negativi di Brad per la ricerca.
+
+09:06.650 --> 09:13.050
+Ma spero che tu veda la semplicità della respirazione, la prima ricerca non è stata poi così male, è stato tutto ok
+
+09:13.050 --> 09:14.660
+ci vedremo nel prossimo video.

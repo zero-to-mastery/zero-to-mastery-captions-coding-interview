@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.600 --> 00:08.390
+Hello to I know I know I know the last two videos were kind of long very Tagen and goal.
+
+00:08.440 --> 00:13.060
+If you weren't familiar with javascript maybe they were a little bit tougher.
+
+00:13.060 --> 00:20.590
+But the point was the process of solving a problem in a coding interview and over here I've created
+
+00:20.590 --> 00:22.370
+a little playground for you.
+
+00:22.390 --> 00:25.560
+You remember the Google interview video that I made you watch.
+
+00:25.810 --> 00:32.710
+Well I've implemented the solution that the interviewee created and here we have the naive solution
+
+00:32.740 --> 00:41.650
+which is the nested for loops and then a better solution that uses just one for loop at the expense
+
+00:41.650 --> 00:45.730
+of creating something in javascript called new set.
+
+00:45.730 --> 00:48.470
+I left this here for you for you to play around with.
+
+00:48.640 --> 00:54.250
+And if you want coded in your own language but I wanted to challenge you to see if he can implement
+
+00:54.250 --> 01:02.200
+this on your own just like the person in the Google interview did in your own language the naive approach
+
+01:02.500 --> 01:07.640
+and then the better approach and try to follow the steps as you code along.
+
+01:07.840 --> 01:15.250
+Even though you already know the answer even though you have watched the interview video by practicing
+
+01:15.250 --> 01:24.250
+the steps and how you go from the naive to the better solution by following these steps you're going
+
+01:24.250 --> 01:26.340
+to improve that being muscle.
+
+01:26.350 --> 01:28.740
+All right I'll see you in the next video.
+
+01:29.070 --> 01:29.630
+Bye bye.

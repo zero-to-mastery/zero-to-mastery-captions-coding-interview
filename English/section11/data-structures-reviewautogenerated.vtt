@@ -1,0 +1,64 @@
+WEBVTT
+
+00:01.390 --> 00:09.940
+There we have it our and to the data structures section was it as scary as you initially thought.
+
+00:09.940 --> 00:15.280
+Hopefully by the end of this section if you've watched all the videos and done all the exercises you
+
+00:15.280 --> 00:22.650
+feel a lot more comfortable you can use the tools that you've learned to be a better engineer and make
+
+00:22.650 --> 00:24.250
+better decisions.
+
+00:24.420 --> 00:30.050
+Hopefully you don't look as scared as this emoji dead at the beginning of this section.
+
+00:31.350 --> 00:36.350
+And we've learned that these data structures at the end of the day are our friends.
+
+00:36.450 --> 00:38.450
+And by the way I'm really proud of this slide.
+
+00:38.460 --> 00:45.120
+I spent way too long creating this little thing that I have I have Mr. hash table here.
+
+00:45.270 --> 00:49.070
+That's Mrs. Gray that's little linked list.
+
+00:49.250 --> 00:53.960
+That's Mr. Q Mrs. Stack's scary looking graph.
+
+00:53.960 --> 00:56.700
+And of course Professor tree.
+
+00:56.930 --> 01:05.330
+Anyway I hope you're no longer intimidated by the subject because all around us when we look at technology
+
+01:06.050 --> 01:09.140
+they're all built by data structures.
+
+01:09.140 --> 01:14.750
+We hold information and data structures no matter how many data structures there are and there will
+
+01:14.750 --> 01:15.860
+be in the future.
+
+01:16.860 --> 01:19.920
+Most of the building blocks are right here.
+
+01:20.660 --> 01:28.640
+You see something like block chain that has become really popular in recent years are just data structures
+
+01:28.640 --> 01:36.530
+that we've learned about it has some aspects of linked lists it has some hashing that it does which
+
+01:36.530 --> 01:45.120
+we know about and it also uses some try data structure and trees having the fundamentals you have now.
+
+01:45.360 --> 01:49.170
+One day maybe you'll build your own data structure.
+
+01:49.220 --> 01:50.010
+I'll see you in the next one.

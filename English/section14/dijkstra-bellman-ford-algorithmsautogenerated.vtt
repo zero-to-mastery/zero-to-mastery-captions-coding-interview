@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.110 --> 00:01.910
+Welcome back.
+
+00:02.170 --> 00:09.610
+I wanted to talk about one last piece of the puzzle especially when it comes to graphs although we've
+
+00:09.610 --> 00:13.250
+talked about graph traversal up until now.
+
+00:13.390 --> 00:18.340
+And also Treach reversal they use DFS and DFS.
+
+00:18.370 --> 00:25.480
+There's also another thing that you should consider now in an interview you're most likely now going
+
+00:25.480 --> 00:31.100
+to implement these algorithms because they're extremely complicated and they take a long time.
+
+00:31.150 --> 00:39.040
+However an interviewer might expect you to know about them and know that you'd use Belman Ford or diasters
+
+00:39.190 --> 00:44.120
+algorithm to figure out a shortest path problem.
+
+00:44.290 --> 00:45.810
+But you might be asking yourself.
+
+00:46.010 --> 00:52.940
+Well Andre you just told me that breadth first search is used for the shortest path problem.
+
+00:52.990 --> 00:53.980
+Why do we need these.
+
+00:54.010 --> 00:56.790
+X sure algorithms I already know how to do that.
+
+00:56.980 --> 01:00.090
+And this is actually a special case.
+
+01:00.220 --> 01:06.540
+You see breadth first search is great for the shortest path problem but there's one thing that a can
+
+01:06.540 --> 01:11.960
+to it assumes that each jump to another node in a graph.
+
+01:11.960 --> 01:22.240
+If we go back here it is assumed that each path has the same weight with a depth first search in a breath.
+
+01:22.340 --> 01:29.590
+First search we don't really care what kind of weight an edge has.
+
+01:29.730 --> 01:37.670
+For example in real life such as Google Maps some roads are faster than the others.
+
+01:37.770 --> 01:38.790
+Right.
+
+01:38.890 --> 01:44.730
+We have perhaps more traffic on one road maybe the distance from one note to another.
+
+01:44.740 --> 01:51.730
+It's shorter than the other and these weighted graphs which we've talked about have a number associated
+
+01:51.970 --> 01:53.420
+to their edges.
+
+01:53.440 --> 02:01.210
+Remember a node is called a vertex in a graph and the connection between two nodes is an edge and depth
+
+02:01.240 --> 02:07.990
+first search doesn't really allow us to take into account these weights.
+
+02:08.020 --> 02:09.870
+We need something else.
+
+02:10.150 --> 02:16.150
+And in an interview if somebody asked you this your answer should either be Belman Ford or diasters
+
+02:16.180 --> 02:27.180
+algorithm that allow us to find the shortest path between two notes of a weighted graph now Belman and
+
+02:27.180 --> 02:35.640
+dicer are two real people that are academics very very smart academics that came up with their own algorithm
+
+02:35.850 --> 02:41.910
+to solve the shortest path problem of a way to digraph such as Google Maps trying to figure out what
+
+02:41.940 --> 02:46.140
+the closest way for you to get your burrito for example.
+
+02:46.140 --> 02:48.660
+And just a side note fun fact.
+
+02:48.720 --> 02:51.060
+This is Richard Belman.
+
+02:51.360 --> 02:58.880
+And it's the same person that wrote about dynamic programming which is an upcoming section in our course.
+
+02:58.890 --> 03:02.060
+Let's just say that both of these people are very very smart.
+
+03:03.370 --> 03:11.110
+Now both of these algorithms are quite complex and it takes a lot of time to really get it encoded.
+
+03:11.290 --> 03:17.170
+So I will leave resources for you if you want to learn more about these algorithms because in an interview
+
+03:17.470 --> 03:22.380
+it's very very rare that you'd ever have to code these algorithms.
+
+03:22.390 --> 03:26.520
+Most of the time you just have to know that they exist and when to use them.
+
+03:26.530 --> 03:36.330
+So let's go over that Belman Ford algorithm is very effective at solving the shortest path over diasters
+
+03:36.360 --> 03:40.070
+algorithm because it can accommodate negative weights.
+
+03:40.290 --> 03:49.110
+So if a weighted graph has negative weights or a negative number Belman Ford algorithm is going to be
+
+03:49.110 --> 03:51.210
+able to solve the shortest path problem.
+
+03:51.360 --> 03:54.090
+While Daxter won't be able to.
+
+03:54.170 --> 04:01.900
+Now why would you ever use diasters then if Belman Ford algorithm can do better well we won't get into
+
+04:01.900 --> 04:02.980
+the math of it all.
+
+04:03.370 --> 04:10.870
+But Belman Ford algorithm can take a long time to run in terms of complexity and it's not the most efficient
+
+04:10.900 --> 04:12.150
+algorithm.
+
+04:12.250 --> 04:19.460
+The worst case for Belman forward algorithm is usually time complexity of all of and squit.
+
+04:19.810 --> 04:21.720
+So it's not very efficient.
+
+04:21.730 --> 04:29.020
+Diasters algorithm on the other hand is a little bit faster than that and a little bit more efficient
+
+04:29.320 --> 04:35.470
+with the downside that it can accommodate for negative waits between nodes.
+
+04:35.560 --> 04:43.540
+If an interviewer shows you this diagram and tells you I want to find the shortest path from 0 to 4
+
+04:43.960 --> 04:48.320
+on this way to graph you now know why you should say right.
+
+04:48.730 --> 04:50.830
+What algorithm are you going to use.
+
+04:50.830 --> 04:52.030
+Are you going to use a breath.
+
+04:52.150 --> 04:58.130
+First search Belman Ford algorithm or diasters algorithm.
+
+04:58.330 --> 05:03.010
+The answer well it should be diasters algorithm.
+
+05:03.040 --> 05:05.580
+There is no negative weights on this graph.
+
+05:05.590 --> 05:06.610
+It's a weight a graph.
+
+05:06.760 --> 05:09.710
+So dicer is algorithm is going to solve that problem.

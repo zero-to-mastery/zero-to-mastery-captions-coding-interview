@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.170 --> 00:02.490
+Ben tornato.
+
+00:02.490 --> 00:09.270
+Facciamo un rapido esercizio prima che effettivamente creiamo i nostri stack e Qs perché javascript
+
+00:09.270 --> 00:13.810
+non ha una propria struttura di dati stock o spunti.
+
+00:13.830 --> 00:18.950
+Ora ho detto che ci sono due modi in cui possiamo costruire stack e Qs.
+
+00:19.150 --> 00:24.040
+Se parliamo di stack possiamo pensarlo come la nostra cronologia del browser.
+
+00:24.040 --> 00:33.430
+Diciamo che prima visitiamo Google, quindi visitiamo Dammy dot com e poi visitiamo YouTube in pila
+
+00:34.770 --> 00:39.130
+perché Google è stato il primo elemento.
+
+00:39.280 --> 00:43.240
+Verrebbe effettivamente messo in pila in questo modo.
+
+00:43.240 --> 00:52.170
+Poi andiamo da te, Dammy, quindi verremmo messi in pila in cima e poi andremo su YouTube.
+
+00:52.240 --> 00:59.770
+Ora se vogliamo andare su un nuovo sito web diciamo che andiamo su Twitter ma poi abbiamo deciso no no no non è quello che
+
+00:59.770 --> 01:00.700
+voglio fare.
+
+01:00.700 --> 01:07.750
+Voglio tornare indietro, rimuovere Twitter, premere backburn sul nostro browser e raggiungere YouTube se torniamo
+
+01:08.110 --> 01:09.050
+indietro.
+
+01:09.250 --> 01:19.940
+Arriviamo a Dammy e poi torniamo di nuovo su Google, quindi Stax ha una cima e un fondo e
+
+01:19.940 --> 01:25.190
+possiamo costruirlo con gli array o gli elenchi collegati.
+
+01:26.370 --> 01:35.940
+La mia domanda è perché dovremmo voler costruire pile con array che creeranno una classe di stack
+
+01:35.940 --> 01:43.120
+con i dati contenuti negli array rispetto alle liste collegate e viceversa.
+
+01:43.910 --> 01:45.560
+Pensaci.
+
+01:45.560 --> 01:46.840
+Che dire.
+
+01:48.840 --> 01:56.970
+Diciamo che abbiamo una Q Sto creando un'app di waitlist e qui abbiamo un paio di persone che vogliono entrare nella
+
+01:56.970 --> 01:58.020
+lista d'attesa.
+
+01:58.080 --> 02:01.680
+La prima persona che si presenta è Tim.
+
+02:01.950 --> 02:04.690
+E poi dopo Tim o sai cosa.
+
+02:04.770 --> 02:10.530
+Usiamo i nostri nomi, usiamo Matt e poi Matt si presenta.
+
+02:10.630 --> 02:20.550
+Ma all'improvviso arriva la gioia e si allinea e quindi forse abbiamo qualcosa che arriva e
+
+02:20.550 --> 02:25.240
+aspetta in fila e poi abbiamo Pavol.
+
+02:25.460 --> 02:33.560
+In questo caso vogliamo che Matt prima sia Joy e poi Sumir poi Powell e con gli spunti
+
+02:33.650 --> 02:40.160
+possiamo ancora una volta utilizzare le nostre liste di razza e lunghezza per implementarla.
+
+02:41.690 --> 02:44.900
+Quale pensi che sarà meglio per noi.
+
+02:44.930 --> 02:47.480
+C'è uno migliore o entrambi sono uguali.
+
+02:47.480 --> 02:50.210
+Voglio che tu ci pensi nel prossimo video.
+
+02:50.240 --> 02:56.180
+Risponderò a questo per te, ma ti consiglio di dedicare del tempo a pensare a ciò che
+
+02:56.180 --> 03:01.430
+sai sugli array e sulle liste concatenate e su come potrebbero trarne beneficio o meno.
+
+03:01.490 --> 03:03.360
+Stack e Qs.
+
+03:03.500 --> 03:04.360
+Vedrò nel prossimo video.

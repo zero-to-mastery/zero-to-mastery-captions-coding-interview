@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.780 --> 00:08.010
+Big O says which function algorithm or code is best.
+
+00:08.220 --> 00:15.000
+We learned that when it comes to good code we're concerned about readability and scalability and bego
+
+00:15.000 --> 00:20.010
+allows us to measure the idea of scalable code.
+
+00:20.060 --> 00:22.140
+And why do we care.
+
+00:22.190 --> 00:27.080
+It's because there is no such thing as a free lunch.
+
+00:27.110 --> 00:30.030
+You save time and money for a company.
+
+00:30.040 --> 00:38.180
+You're a superstar knowing how much time your code takes how much memory it uses is very very critical.
+
+00:38.180 --> 00:42.700
+Those are expensive things for a company or a product.
+
+00:42.770 --> 00:49.010
+Now big-O is a very important concept that you won't find in your day to day job but it's something
+
+00:49.010 --> 00:57.470
+that should always be in the back of your mind and good developers and engineers always have this knowledge.
+
+00:57.470 --> 01:01.440
+That is why it is such a popular topic during interviews.
+
+01:01.450 --> 01:06.710
+The ego is used to describe how efficient we can run her coat.
+
+01:06.710 --> 01:09.070
+It saves companies a lot of money.
+
+01:09.290 --> 01:13.190
+If people they hire know how to ride efficient code.
+
+01:13.400 --> 01:22.310
+And in this section we learned about the idea of time complexity and space complexity how we can use
+
+01:22.610 --> 01:24.790
+big-O to measure both things.
+
+01:24.790 --> 01:32.870
+But each one is a tradeoff between the other and big-O describes the upper bound of our estimates.
+
+01:32.870 --> 01:36.530
+We're always looking at the worst case scenario.
+
+01:36.710 --> 01:43.610
+We want to be pessimistic and say what is the worst case scenario here with our code so we can be prepared
+
+01:43.700 --> 01:44.820
+when the time comes.
+
+01:44.840 --> 01:54.410
+Now time complexity and space complicity time is how long it takes the algorithm to run and space is
+
+01:54.590 --> 01:57.980
+the memory that is required by the algorithm.
+
+01:57.980 --> 02:05.630
+The important thing that we learned here is that big-O is about how you can scale it doesn't necessarily
+
+02:05.630 --> 02:15.790
+mean that 0 an is better than 0 and square because scalability wasn't the only factor rate.
+
+02:15.830 --> 02:20.300
+Readability is something that we are concerned with as well.
+
+02:20.300 --> 02:29.230
+Sometimes readability Maybe matters more than scalability maybe time complexity is less important than
+
+02:29.380 --> 02:31.000
+space complexity.
+
+02:31.860 --> 02:33.420
+And that's something that you want to be careful of.
+
+02:33.420 --> 02:40.120
+Now with this newfound knowledge premature optimization can be the root of all evil.
+
+02:40.140 --> 02:47.850
+It's a famous quote that a lot of developers know sometimes optimizing for time or space can negatively
+
+02:47.850 --> 02:52.020
+impact the readability of code.
+
+02:52.020 --> 02:57.750
+So if you're working at a young startup for example might be more important for you to write code that's
+
+02:58.440 --> 03:02.340
+easy to ship and perhaps easy to understand later.
+
+03:02.340 --> 03:08.760
+Perhaps not take as much time to write the code and think about the code and its implications for long
+
+03:08.760 --> 03:15.190
+term because maybe this startup has limited budget and needs things done fast.
+
+03:15.270 --> 03:18.920
+That doesn't mean startups don't care about big-O analysis.
+
+03:18.990 --> 03:26.730
+A great engineer at a startup or at a big company knows how to strike the right balance between runtime
+
+03:26.910 --> 03:29.700
+space and of course readability.
+
+03:29.700 --> 03:38.230
+The thing to keep in mind is that data needs to be sufficiently big to talk about DIGO it's about scaling.
+
+03:38.280 --> 03:47.610
+If your function is linear time but the input is always let's say 7 items then the linear time algorithm
+
+03:47.910 --> 03:56.230
+might be better than the constant time algorithm so it really really depends on your situation.
+
+03:57.500 --> 04:03.080
+I introduced big-O here because we're going to be using it throughout this course and as we learn more
+
+04:03.080 --> 04:09.230
+about data structures and algorithms we're going to learn more about bego and some other things we saw
+
+04:09.590 --> 04:15.620
+in this graph that we haven't talked about but I hope you now look at the code differently and you had
+
+04:15.620 --> 04:19.470
+a few aha moments throughout this section.
+
+04:19.490 --> 04:26.180
+It's certainly my favorite section and a great topic that really made me a better engineer once I learned
+
+04:26.180 --> 04:26.830
+this topic.
+
+04:26.900 --> 04:28.790
+So I hope it did for you as well.
+
+04:28.820 --> 04:34.730
+At the end of this all you have a way to look at code differently and when someone says hey how good
+
+04:34.730 --> 04:35.540
+is my code.
+
+04:35.750 --> 04:39.880
+You have a nice new way of looking at things and measuring things.
+
+04:40.720 --> 04:41.530
+I'll see you in the next one.

@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.780 --> 00:01.950
+Witamy spowrotem.
+
+00:01.950 --> 00:04.370
+Mam nadzieję, że nie było tak źle.
+
+00:04.590 --> 00:09.720
+Pamiętaj, że jeśli chodzi o rozmowę z ankieterami, musisz wiedzieć, że
+
+00:09.720 --> 00:10.750
+rozumiesz pojęcia.
+
+00:10.950 --> 00:14.890
+Niekoniecznie będziesz musiał kodować plik binarny od podstaw.
+
+00:14.970 --> 00:21.930
+Przez większość czasu, przynajmniej dlatego, że w rzeczywistości masz takie rzeczy jak ta biblioteka, którą
+
+00:21.930 --> 00:29.220
+ktoś inny stworzył, co pozwala ci używać technik odwracania i manipulacji Treach, ponieważ zostało to już zrobione
+
+00:29.220 --> 00:36.720
+wcześniej i możesz to zobaczyć, używając biblioteki takiej jak ta, którą możesz po prostu użyj go i utwórz
+
+00:36.720 --> 00:38.240
+drzewo, które chcesz.
+
+00:38.250 --> 00:44.790
+Najprawdopodobniej nie zaimplementujesz go od zera samodzielnie, ale chcemy zrozumieć podstawy
+
+00:44.790 --> 00:47.310
+i jak to działa.
+
+00:47.310 --> 00:49.420
+Więc jeśli to było dla ciebie wyzwaniem.
+
+00:49.650 --> 00:50.570
+Nie denerwuj się.
+
+00:50.580 --> 00:54.350
+To nie czyni cię złym inżynierem ani złym koderem.
+
+00:54.570 --> 01:00.630
+Po prostu pracujesz nad budowaniem tych podstaw, abyś mógł korzystać z takich narzędzi w przyszłości
+
+01:00.960 --> 01:03.140
+i nadal rozumiesz, jak działają.
+
+01:04.760 --> 01:05.660
+Ale wystarczy rozmowa.
+
+01:05.840 --> 01:07.180
+Przejdźmy do odpowiedzi.
+
+01:07.580 --> 01:11.420
+Chcę stworzyć drzewo, które wygląda mniej więcej tak.
+
+01:12.720 --> 01:17.850
+Pierwszą rzeczą, którą zrobię, jest praca z funkcją wstawiania.
+
+01:17.960 --> 01:24.110
+Teraz w ramach tej funkcji pierwszą rzeczą, którą chcę zrobić, to powiedzieć, że
+
+01:24.110 --> 01:24.620
+chcemy
+
+01:27.930 --> 01:32.960
+stworzyć nowy węzeł, a powiemy, że będzie to nowy węzeł.
+
+01:33.030 --> 01:37.650
+Dlatego właśnie tworzymy nową, niską klasę, tworząc ją z wartością.
+
+01:37.710 --> 01:39.290
+I to jest nasz nowy nie teraz.
+
+01:39.600 --> 01:41.360
+Mamy więc odniesienie do tego.
+
+01:41.400 --> 01:42.910
+Pierwszą rzeczą, którą chcemy sprawdzić.
+
+01:43.230 --> 01:49.830
+Cóż, jeśli drzewo jest puste i nie ma węzła Rudina. Powinniśmy dodać to jako nasz węzeł główny.
+
+01:49.860 --> 01:53.250
+Więc powiem, że ten korzeń kropki równa się nie.
+
+01:53.430 --> 02:01.790
+Jeśli tak jest, po prostu ustaw węzeł główny jako bieżący węzeł, który wstawiliśmy.
+
+02:01.860 --> 02:05.940
+Ładnie i łatwo i po prostu sprawdzić, czy to działa.
+
+02:06.040 --> 02:11.100
+Jeśli skomentuję to wszystko, kliknij przycisk Uruchom.
+
+02:11.300 --> 02:12.510
+Proszę bardzo.
+
+02:12.590 --> 02:20.930
+Nasz węzeł główny ma wartość 9 pozostawione jako zero, nie ma prawa, ponieważ jest to jedyna notatka, a tak
+
+02:20.930 --> 02:28.970
+przy okazji, aby pokazać, jak działa ten ciąg, jest naprawdę bardzo przydatny, ponieważ jeśli to skopiuję i wskazuję tutaj,
+
+02:28.970 --> 02:33.270
+że nie kopiuję znaki cudzysłowu, które tworzą ciąg znaków.
+
+02:33.680 --> 02:35.750
+A jeśli otworzę
+
+02:39.630 --> 02:47.450
+narzędzia programistyczne i Google Chrome i przejdę na zakładkę konsoli, mogę je skopiować i wkleić.
+
+02:47.650 --> 02:55.060
+Naciśnij Enter, a teraz mam dostęp do tego drzewa i jest to znacznie łatwiejsze do wyświetlenia.
+
+02:55.180 --> 03:01.450
+A kiedy wstawimy inne węzły, zobaczysz, że bardzo łatwo jest przemierzać to drzewo w ten sposób i
+
+03:01.450 --> 03:02.750
+sprawdzać swoją pracę.
+
+03:02.850 --> 03:06.750
+Dlatego dodałem tę funkcję, więc wrócimy do tego.
+
+03:06.750 --> 03:14.180
+Na razie widzimy, że nasza wstawka działa na Olly's, jeśli węzeł główny nie jest, ale kontynuujmy.
+
+03:14.190 --> 03:18.450
+Jeśli tak nie jest, powiemy.
+
+03:18.450 --> 03:30.360
+Inaczej, jeśli węzeł główny jest już wypełniony, powie, że bieżący węzeł będzie trasą gwiazdową, ponieważ będziemy musieli przejść
+
+03:30.360 --> 03:38.440
+tę notatkę i nie będziemy wiedzieć, jak długo będziemy przemierzać opady śniegu.
+
+03:38.770 --> 03:43.470
+Chcemy jechać dalej, dopóki nie znajdziemy miejsca do wstawienia tego.
+
+03:43.780 --> 03:48.620
+I to jest trochę trudne, ale coś, do czego przywykniesz, kiedy budujesz drzewa.
+
+03:48.730 --> 03:54.430
+Chcemy użyć pętli while, a warunek, który zamierzamy użyć, jest prawdziwy.
+
+03:54.760 --> 03:59.790
+Oznacza to, że po prostu utrzymuj pętlę za każdym razem, ponieważ prawda zawsze będzie równa.
+
+03:59.800 --> 04:06.130
+To prawda i musimy być ostrożni, jeśli to zrobimy, chcemy się upewnić, że istnieje sposób na wyjście
+
+04:06.400 --> 04:07.840
+z tej pętli.
+
+04:07.840 --> 04:13.290
+W przeciwnym razie będziemy mieli nieskończoną pętlę i rozbijemy naszą małą stronę tutaj.
+
+04:13.330 --> 04:15.580
+Jakie są warunki, przez które przechodzimy.
+
+04:15.580 --> 04:23.940
+Chcemy przejść przez drzewo Cóż, pierwsze sprawdzenie, które zrobimy, to powiedzenie, że jeśli wartość jest zapamiętywaną wartością
+
+04:23.940 --> 04:25.860
+jest, kiedy wstawiamy.
+
+04:25.860 --> 04:30.540
+Jeśli jest to mniej niż aktualna wartość bez kropki.
+
+04:30.660 --> 04:35.610
+Zaczniemy od nuty głównej i powiedzmy, że hej to wartość, którą wpisujemy mniej niż aktualna
+
+04:35.610 --> 04:36.470
+wartość węzła.
+
+04:36.810 --> 04:39.250
+Jeśli tak jest, to znamy zasady.
+
+04:39.390 --> 04:45.160
+Więc pójdziemy w lewo, jeśli dewaluujemy mniej niż aktualna notatka.
+
+04:45.240 --> 04:59.920
+W tym miejscu chcemy najpierw sprawdzić, czy nie ma bieżącego węzła, czy jest element już po lewej stronie węzła głównego, ponieważ jeśli nie ma w
+
+05:00.130 --> 05:08.620
+tym przypadku, możemy po prostu przypisać bieżącą kropkę węzła do naszego wiesz, że chcemy
+
+05:08.860 --> 05:17.900
+wejść, ponieważ nic tam nie ma i możemy po prostu wrócić z tej pętli i
+
+05:17.900 --> 05:23.450
+po prostu zwrócić to, co jest binarnym drzewem wyszukiwania.
+
+05:23.470 --> 05:29.730
+Jeśli jednak jest coś na lewo od naszej notatki, powiedzmy w tym przypadku 9.
+
+05:29.870 --> 05:37.190
+W takim przypadku powiemy, że obecna nuta będzie równa aktualnej kropce węzła po lewej stronie.
+
+05:37.280 --> 05:43.640
+Tak więc będziemy aktualizować i przesuwać się tak, aby obecny węzeł nie był już 9, to jest
+
+05:43.640 --> 05:49.430
+wszystko, co jest na lewo od 9, i to będzie utrzymywać nas w pętli.
+
+05:49.690 --> 05:56.170
+Tak więc będziemy utrzymywać pętlę loopowania, dopóki nie trafimy do węzła, który
+
+05:56.260 --> 06:04.140
+nie ma lewej strony, abyśmy mogli umieścić bieżący węzeł dla naszego węzła na swoim miejscu.
+
+06:04.290 --> 06:05.470
+Ale to po lewej stronie.
+
+06:05.490 --> 06:14.420
+Jeśli wartość jest mniejsza niż bieżący węzeł, jeśli wartość jest większa lub w tym przypadku równa naszemu bieżącemu węzłowi i możemy
+
+06:14.420 --> 06:18.820
+zdecydować tutaj, gdzie chcemy umieścić wartości, które są równe.
+
+06:18.860 --> 06:26.860
+To zależy od nas i jak chcemy to zaimplementować, powie, że pójdziemy w prawo, jeśli wartość jest większa
+
+06:26.860 --> 06:28.980
+lub równa aktualnemu węzłowi.
+
+06:29.070 --> 06:34.540
+W takim przypadku chcemy najpierw wykonać pierwsze sprawdzenie, jeśli obecne NIE.
+
+06:35.040 --> 06:35.540
+Dobrze.
+
+06:35.550 --> 06:41.700
+Nic nie ma, w tym przypadku nic nie stoi obok niej, jak bar na tle
+
+06:41.700 --> 06:42.380
+prądu.
+
+06:42.420 --> 06:45.480
+Żadna kropka w prawo nie jest
+
+06:49.030 --> 06:54.430
+równa nowemu węzłowi, a my również zwrócimy to, ponieważ chcemy zaprzestać
+
+06:57.740 --> 07:01.800
+zapętlenia, gdy tylko będziemy mieć punkt lub dwa.
+
+07:01.820 --> 07:09.590
+Nie, to jest, kiedy chcemy wyjść z tej szalonej pętli, która będzie trwać wiecznie. W przeciwnym razie
+
+07:09.650 --> 07:13.870
+po prostu powiemy, że bieżący węzeł będzie równy bieżącemu.
+
+07:14.100 --> 07:19.610
+Bez kropki świetnie.
+
+07:19.830 --> 07:20.960
+I proszę.
+
+07:21.420 --> 07:23.570
+Mam nadzieję, że to działa.
+
+07:24.540 --> 07:28.400
+Ale zanim to przetestujemy i zobaczymy, czy popełnimy jakieś drobne błędy.
+
+07:28.620 --> 07:36.180
+Chcę cię ostrzec, jeśli po prostu kodujesz, zachęcam cię do zatrzymania filmu i przemyślenia linii po linijce,
+
+07:36.450 --> 07:43.770
+może nawet rysowanie rzeczy może za pomocą wizualnego widoku, aby zobaczyć, co robimy, ponieważ ciężko jest utrzymać
+
+07:43.770 --> 07:45.940
+to w swoim głowa.
+
+07:45.990 --> 07:48.660
+Nawet ja mogę to zakodować od zera.
+
+07:48.720 --> 07:55.830
+Zajmuje mi to trochę czasu, aby przemyśleć wszystko i zobaczyć, jak chcemy zbudować kod, więc nie czujmy się
+
+07:55.830 --> 08:02.130
+sfrustrowani, jeśli jest to trochę przytłaczające. Zachęcam do przerwania filmu i spróbowania kodu i zrozumienia,
+
+08:02.130 --> 08:04.810
+co się dzieje krok po kroku.
+
+08:04.810 --> 08:05.620
+W porządku.
+
+08:05.620 --> 08:06.860
+Przetestujmy to.
+
+08:07.880 --> 08:11.420
+Mam tutaj 9 wstawek, jeśli kliknę ten bieg, który działa.
+
+08:11.420 --> 08:14.470
+Jeśli na to odpowiem.
+
+08:14.640 --> 08:14.960
+W porządku.
+
+08:14.970 --> 08:16.630
+Wygląda na to, że cztery zostały wstawione.
+
+08:16.650 --> 08:18.830
+A co z sześcioma?
+
+08:18.830 --> 08:19.120
+W porządku.
+
+08:19.130 --> 08:23.650
+Zamierzam to wszystko skomentować i sprawdzić, czy to działa.
+
+08:23.660 --> 08:26.250
+Kliknij, aby uruchomić.
+
+08:26.260 --> 08:26.890
+W porządku.
+
+08:26.950 --> 08:28.890
+Wygląda na to, że wylogowaliśmy się z wszystkiego.
+
+08:29.050 --> 08:34.930
+Ale chcę przetestować, aby upewnić się, że wszystko działa zgodnie z oczekiwaniami.
+
+08:34.930 --> 08:40.630
+Więc zamierzam to skopiować i wkleić to pamiętać bez cytatów na końcu, ponieważ nie
+
+08:40.630 --> 08:41.980
+chcę skopiować ciąg.
+
+08:42.200 --> 08:52.530
+Chcę skopiować obiekt i mam zamiar ponownie otworzyć moje narzędzia programistyczne przejdź do przeciw. wyczyść mój kod, a następnie po prostu skopiuj
+
+08:52.530 --> 08:54.330
+i wklej.
+
+08:54.480 --> 08:55.530
+Wciśnij Enter.
+
+08:55.740 --> 09:00.500
+A teraz możemy przetestować nasze drzewo i przewiniesz tutaj.
+
+09:00.540 --> 09:02.430
+To drzewo, które chcemy.
+
+09:02.430 --> 09:06.130
+Mamy dziewięć z góry po lewej i po prawej stronie.
+
+09:06.130 --> 09:07.830
+Mamy cztery i 20 tego.
+
+09:07.840 --> 09:08.920
+Dobre.
+
+09:09.040 --> 09:18.310
+A dwaj, gdy idziemy do czterech, które nam pozostało, jedno jest prawe, a 6 powinno być normalne, a prawe
+
+09:18.310 --> 09:19.810
+i lewe idealne.
+
+09:19.810 --> 09:21.390
+To samo z sześcioma.
+
+09:21.460 --> 09:22.310
+Idealny.
+
+09:22.660 --> 09:24.820
+A jeśli przewińemy w dół, spójrzmy na 20.
+
+09:24.850 --> 09:32.790
+Powinien mieć nie tylko 15 i 170 lat, że mamy Shulgin, który mamy 59 170.
+
+09:32.790 --> 09:36.900
+I obaj wskazują na nie.
+
+09:37.010 --> 09:39.960
+Nieźle nieźle.
+
+09:40.020 --> 09:44.720
+Nie było tak źle, gdy już to zrozumiesz i sam to zakodowałeś.
+
+09:44.870 --> 09:46.860
+Przekonasz się, że ma to sens.
+
+09:46.880 --> 09:54.410
+To wszystko jest tylko logiką i czymś, czego nauczyliśmy się podczas pracy z połączonymi listami w następnym filmie,
+
+09:54.410 --> 09:55.950
+który spróbujemy rozwiązać.
+
+09:55.980 --> 10:03.160
+Sprawdź, czy nie byłeś w stanie zaimplementować wkładki, spróbuj to zrobić teraz, zanim przejdziemy do sprawdzenia.
+
+10:03.260 --> 10:05.660
+W przeciwnym razie spróbuj wdrożyć.
+
+10:05.690 --> 10:09.770
+Sam sprawdź, a do zobaczenia w filmie z rozwiązaniem.
+
+10:09.850 --> 10:10.010
+Konstabl.

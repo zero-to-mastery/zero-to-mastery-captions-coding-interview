@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.820 --> 00:06.040
+I like to think of breath first search as a water flooding from the top.
+
+00:06.160 --> 00:10.120
+Kind of like this where we check from the top all the way down.
+
+00:10.360 --> 00:17.110
+And I like to think of breath for a search as these little lines that go one as deep as they can and
+
+00:17.110 --> 00:22.200
+then they keep going to the right.
+
+00:22.260 --> 00:26.010
+But what is the advantage over the other.
+
+00:26.160 --> 00:28.650
+They both do the same thing traversal.
+
+00:28.650 --> 00:32.120
+But each one is used for different reasons.
+
+00:32.280 --> 00:38.070
+And in the interviews you'll get questions about what type of traversal to do.
+
+00:38.070 --> 00:42.290
+And usually you'll have one of these two answers that you have to say.
+
+00:42.360 --> 00:46.890
+So when should you use one over the other and we're going to explore that throughout the next couple
+
+00:46.890 --> 00:47.550
+of videos.
+
+00:47.640 --> 00:53.480
+But I want to start off with the main pros and cons the time complexity for breath.
+
+00:53.490 --> 00:56.980
+First search and DEP first search is the same right.
+
+00:57.000 --> 00:59.820
+They all visit the nodes at least once.
+
+00:59.820 --> 01:03.840
+So it's all over an altar versal is all then.
+
+01:04.050 --> 01:09.750
+So when we're trying to traverse through a tree or a graph we're really trying to do is walk through
+
+01:09.750 --> 01:17.110
+the tree without ever repeating ourselves and the order is the thing that matters when it comes to breath
+
+01:17.110 --> 01:20.120
+for search and depth first search.
+
+01:20.130 --> 01:25.360
+Now let's talk about breadth first search with breadth first search.
+
+01:25.360 --> 01:33.700
+It's very good for finding the shortest path between a starting point and any other reachable node because
+
+01:33.790 --> 01:41.170
+we always start off with the root node and then search the closest nodes first and then the nodes further
+
+01:41.290 --> 01:43.060
+and then further and then further.
+
+01:43.180 --> 01:48.550
+And this is going to become more apparent when we talk about graph traversal and we have some videos
+
+01:48.640 --> 01:55.570
+specifically for this discussion but the one downside with breadth first search is that it requires
+
+01:55.690 --> 01:59.380
+more memory than depth first search.
+
+01:59.500 --> 02:03.600
+Again something we'll discuss more of when we start coding it.
+
+02:04.120 --> 02:11.890
+But a good rule of thumb is that if you have additional information on the location of the target node
+
+02:12.700 --> 02:20.860
+and you know that the node is likely in the upper level of a tree then breadth first search is better
+
+02:20.860 --> 02:24.930
+because it will search through the closest nodes first.
+
+02:25.860 --> 02:30.290
+On the other hand depth first search is the opposite.
+
+02:30.300 --> 02:36.630
+If you know that the node is likely at the lower level of a tree perhaps death per search is better
+
+02:36.810 --> 02:37.700
+in that case.
+
+02:39.110 --> 02:42.620
+And death first search is really good at asking the question.
+
+02:42.620 --> 02:48.680
+Does the path exist to us or not from a source know to a target note again something we'll get more
+
+02:48.680 --> 02:50.980
+into when we talk about graphs.
+
+02:51.080 --> 02:58.350
+The big advantage with depth first search is that it uses less memory then breadth first search.
+
+02:58.550 --> 03:04.580
+The downside with depth first search is that it can get slow especially if the tree or graph is really
+
+03:04.580 --> 03:08.340
+really deep and it's not necessarily good at finding the shortest path.
+
+03:08.540 --> 03:11.430
+Like breath for search.
+
+03:11.510 --> 03:17.990
+Now that we have an idea of when to use what I know it's not 100 percent yet we're getting there.
+
+03:17.990 --> 03:19.980
+But first I want to do a bit of an exercise.

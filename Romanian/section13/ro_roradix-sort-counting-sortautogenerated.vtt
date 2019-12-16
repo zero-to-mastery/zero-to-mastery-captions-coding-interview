@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.310 --> 00:02.160
+Bine ai revenit.
+
+00:02.270 --> 00:08.540
+Am vorbit despre acești cinci algoritmi de sortare și de acum ar trebui să știți că
+
+00:08.540 --> 00:16.040
+sortarea și sortarea rapidă a lui Merse, deși sunt mai greu de implementat, sunt algoritmii cei mai des folosiți în
+
+00:16.040 --> 00:21.710
+viața reală deoarece folosesc divizați și cuceresc pentru a ne obține Creșterea performanțelor Lagann.
+
+00:21.950 --> 00:26.340
+Dar nu putem bate Oh și log și.
+
+00:26.520 --> 00:27.960
+Și iată ce e.
+
+00:28.020 --> 00:33.980
+Din punct de vedere matematic, este imposibil să se îmbunătățească acest lucru.
+
+00:34.170 --> 00:39.570
+Dacă cineva vine cu un algoritm care este mai rapid decât acesta, ei vor merge bine,
+
+00:39.570 --> 00:41.080
+vor fi foarte bogați.
+
+00:41.130 --> 00:49.680
+Din punct de vedere matematic, este imposibil deoarece toate și Lagann înseamnă că trebuie să sortăm prin comparație
+
+00:49.680 --> 00:56.510
+toți acești algoritmi de sortare trebuie să compare fiecare număr unul cu celălalt.
+
+00:56.790 --> 01:00.290
+Dar există o excepție de la această regulă.
+
+01:00.510 --> 01:05.920
+Puteți îmbunătăți acest lucru dacă nu faceți comparații.
+
+01:06.780 --> 01:07.160
+Huh.
+
+01:07.350 --> 01:08.760
+Ce inseamna asta.
+
+01:08.850 --> 01:18.330
+Există o mică parte a intrărilor pe care putem să le batem de fapt și să le înregistrăm și acestea sunt numite
+
+01:18.750 --> 01:25.930
+tipuri de comparație și cel mai probabil veți vedea numărul de sortare și sortarea radix.
+
+01:26.010 --> 01:33.130
+Dar ceea ce înseamnă a număra sortarea în felul radix este o altă modalitate diferită de a gândi despre sortare.
+
+01:34.200 --> 01:41.550
+Cu un fel de comparație am decis ordinea numerelor bazându-ne pe întrebarea că hei este mai
+
+01:41.550 --> 01:44.290
+mare decât cel de acolo.
+
+01:44.610 --> 01:46.600
+Cum rămâne cu cel de acolo.
+
+01:46.710 --> 01:52.980
+Și tocmai am continuat să facem că fiecare număr luat în comparație cu celălalt, fără comparație,
+
+01:52.980 --> 01:54.400
+este puțin diferit.
+
+01:54.480 --> 02:02.760
+Vom folosi modul în care numerele și datele sunt stocate pe computerele noastre în zerouri și pe cele și vom
+
+02:02.760 --> 02:06.320
+profita de acest lucru pentru a sorta lucrurile.
+
+02:06.490 --> 02:08.960
+Acum, acest lucru poate deveni destul de complex.
+
+02:09.130 --> 02:16.960
+Și după cum puteți vedea aici în această lucrare doar uita-te la diagrame și, de exemplu, radix sortare aici în
+
+02:16.960 --> 02:25.600
+modul în care stocăm numere în zerouri și pe cele pe care le putem folosi aceste cunoștințe pentru a sorta cu adevărat unele lucruri.
+
+02:25.600 --> 02:30.980
+Am de gând să las resurse pentru tine dacă vrei să devii cu adevărat tehnic și în acest subiect.
+
+02:31.150 --> 02:38.770
+Eu vă avertizez că puteți obține un pic mathy dar singurul lucru de observat aici este
+
+02:38.770 --> 02:47.890
+că aceste tipuri de sortare algoritm de sortare și sortare radix lucra numai cu numere în mod specific întregi într-un
+
+02:47.950 --> 02:48.980
+interval restrâns.
+
+02:49.060 --> 02:54.730
+Deci, dacă aveți doar numere pe care doriți să le rezolvați și gama acelor numere merge de la
+
+02:54.730 --> 03:02.370
+să spunem zero la 100, care este un interval mic, atunci ați folosi ceva de genul asta pentru a face lucrurile foarte repede, dar nu
+
+03:03.310 --> 03:06.220
+ar funcționa pe nici un tipul de date.
+
+03:06.370 --> 03:12.340
+Funcționează cu adevărat numai pe numere datorită modului în care numerele sunt stocate în memorie.
+
+03:12.360 --> 03:17.150
+Vedeți că îmi place ceva de genul îmbinare sort sau rapidsort, care sunt universal.
+
+03:17.250 --> 03:24.850
+Asta este că pot sorta orice tip de date lucruri cum ar fi numărarea de sortare și sortarea radix este utilă numai
+
+03:24.850 --> 03:26.090
+pentru lungimea fixă.
+
+03:27.140 --> 03:32.080
+Dar ei sunt în stare să bată viteza tuturor atunci când vă conectați.
+
+03:32.270 --> 03:40.640
+Și după cum puteți vedea aici galeria tipului radix sort sortată în cazurile lor medii având toate și plus
+
+03:40.820 --> 03:48.640
+K și K și k și ceea ce și k înseamnă este dincolo de scopul acestui curs.
+
+03:48.830 --> 03:54.570
+Unii susțin că, în final, acest lucru se dovedește a fi destul de încet.
+
+03:54.920 --> 03:56.800
+Voi părăsi resursele pentru tine, așa cum am spus.
+
+03:56.900 --> 04:02.570
+Deci, puteți citi pe ele, dar singurul lucru pe care trebuie să știți despre acest lucru
+
+04:02.570 --> 04:09.900
+este că, uneori, dacă aveți numere care se află într-un anumit interval, ar putea fi mai rapid decât Quicksort sau Murcer.
+
+04:09.980 --> 04:16.940
+Deci, acum că știm acest lucru, să facem niște exerciții de interviu bazate pe sortare pentru a consolida ceea ce tocmai am învățat.

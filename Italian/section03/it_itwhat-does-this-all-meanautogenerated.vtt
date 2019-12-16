@@ -1,0 +1,199 @@
+WEBVTT
+
+00:02.180 --> 00:10.500
+Bentornato potreste aver notato qualcosa mentre stanno parlando di scalabilità significa che ci preoccupiamo per i
+
+00:10.590 --> 00:12.110
+grandi input.
+
+00:12.420 --> 00:15.680
+Come si presenta la fine del grafico.
+
+00:16.080 --> 00:24.360
+Quindi, se la nostra funzione è solo preoccupata per input davvero piccoli o sappiamo che i nostri input saranno solo
+
+00:24.360 --> 00:29.610
+diciamo che una serie di cinque elementi big-O non avrà importanza tanto.
+
+00:29.610 --> 00:34.710
+Perché qui se gli elementi sono piccoli tutte queste linee sono raggruppate insieme
+
+00:34.710 --> 00:35.890
+sono tutte uguali.
+
+00:35.970 --> 00:38.420
+Ma è quella vita vera.
+
+00:38.430 --> 00:46.230
+No perché come esseri umani tendiamo a pensare qui e ora tendiamo a pensare che i nostri siti
+
+00:46.230 --> 00:48.420
+Web avranno solo 100 utenti.
+
+00:48.480 --> 00:49.760
+Questo è tutto.
+
+00:49.800 --> 00:53.850
+Ma cosa succederebbe se la base di utenti crescesse e se i nostri input aumentassero.
+
+00:53.850 --> 00:59.760
+Non sappiamo mai quando scriviamo il codice che vogliamo scrivere codice che può essere scalato in modo tale da non dover costantemente
+
+00:59.760 --> 01:03.560
+tornare indietro e sistemare le cose o quando le cose sfuggono di mano.
+
+01:03.720 --> 01:12.110
+Il codice si rompe ed ecco perché big-O è così importante scrivere codice scalabile significa pensare al di fuori della
+
+01:12.110 --> 01:14.500
+piccola piccola sezione qui sopra.
+
+01:14.540 --> 01:20.220
+Significa pensare a lungo termine pensando in grande al tuo codice e cosa potrebbe accadere in futuro.
+
+01:20.250 --> 01:23.200
+Ora stai pensando a te stesso adesso.
+
+01:23.630 --> 01:28.800
+Ehi Andre, mi sembra di aver appena imparato un sacco di teoria e nessuna informazione pratica.
+
+01:28.820 --> 01:33.500
+Andre Voglio sapere esattamente come posso usarlo nella mia vita di tutti i giorni come programmatore.
+
+01:33.610 --> 01:35.500
+Sono quasi annoiato qui.
+
+01:35.720 --> 01:39.710
+Con questa nuova conoscenza vedrai il codice in modo diverso.
+
+01:39.980 --> 01:40.800
+Destra.
+
+01:40.850 --> 01:41.620
+Diamo un'occhiata.
+
+01:42.780 --> 01:49.970
+Vedete ora quando guardiamo ai metodi che otteniamo in un linguaggio come i metodi in un array.
+
+01:50.160 --> 01:56.670
+Quando si tratta di javascript, abbiamo cose come push pop shift on shift.
+
+01:56.790 --> 02:03.470
+Vedi tutti questi metodi che sono funzioni hanno un costo associato a loro.
+
+02:03.540 --> 02:08.530
+Un grande costo basso per esempio quando si tratta di array.
+
+02:08.540 --> 02:16.710
+Quando cerchiamo un oggetto su di me, accedi al primo elemento di un array, per esempio è tutto di uno.
+
+02:16.870 --> 02:18.370
+Ma quando usiamo qualcosa del genere.
+
+02:18.370 --> 02:19.620
+Sul turno.
+
+02:19.930 --> 02:24.620
+Beh, in realtà risulta essere oh allora e perché lo è.
+
+02:24.620 --> 02:30.140
+Ci accingiamo a parlare della matrice della struttura dei dati nella sezione della struttura dei dati,
+
+02:30.800 --> 02:38.780
+ma inizieremo a vedere per il resto del corso come usiamo il big-O per misurare il motivo per cui una struttura dati potrebbe
+
+02:38.930 --> 02:40.530
+essere migliore di altri.
+
+02:40.550 --> 02:48.020
+Perché dovremmo usare una matrice invece di dire un oggetto, forse l'oggetto ha funzioni migliori di cui abbiamo bisogno
+
+02:48.020 --> 02:49.920
+per i dati rigidi.
+
+02:51.040 --> 02:58.600
+Questo grafico di cui abbiamo parlato fino ad ora fa parte della grande dotcom di O-Chichi e lo
+
+02:58.600 --> 03:04.290
+scroll gratuito qui sotto, vedrai che ogni struttura di dati è una matrice.
+
+03:04.350 --> 03:08.180
+E in questo caso gli oggetti su questa tabella sono una tabella hash.
+
+03:08.340 --> 03:14.010
+Di nuovo qualcosa che andremo a coprire nella sezione della struttura dei dati, ma vediamo
+
+03:14.700 --> 03:23.370
+che abbiamo una diversa notazione Big-O per una diversa struttura dei dati e alcune strutture dati hanno una ricerca veramente buona. O alcuni hanno
+
+03:23.370 --> 03:25.520
+inserimenti che alcuni hanno cancellato.
+
+03:25.530 --> 03:32.190
+E puoi vedere qui che ci sono diversi pro e contro in ciascuna di queste strutture di dati.
+
+03:32.970 --> 03:41.130
+Come scoprirai in questo corso, le strutture di dati sono semplicemente dei modi per memorizzare i dati e gli algoritmi sono semplicemente
+
+03:41.280 --> 03:46.800
+funzioni o modi per utilizzare le strutture di dati per scrivere i nostri programmi.
+
+03:46.800 --> 03:56.160
+Ricorda le nostre istruzioni per le macchine per i nostri computer e grandi programmatori hanno questa conoscenza in
+
+03:56.280 --> 04:03.960
+cui scelgono la giusta struttura dati i giusti algoritmi per scrivere buoni programmi.
+
+04:04.120 --> 04:12.430
+Ricorda che le nostre due regole di buon codice sono leggibili e scalabili e ciò che abbiamo appreso è la
+
+04:12.430 --> 04:18.880
+base per prendere una decisione su quale struttura dati sarà migliore quando entreremo nella
+
+04:18.880 --> 04:26.740
+sezione della struttura dei dati perché sapremo oh array ci consente di accedere a tutti in un tempo costante.
+
+04:26.740 --> 04:34.460
+Ma quando si tratta di cercare attraverso un array ci darà un tempo lineare contro forse forse
+
+04:34.460 --> 04:35.590
+un oggetto.
+
+04:35.930 --> 04:42.140
+Quindi dietro le quinte anche se questa sezione potrebbe essere un po 'teorica e noiosa.
+
+04:42.380 --> 04:47.840
+Quello che abbiamo appena appreso sta per gettare le basi per il resto del corso,
+
+04:47.840 --> 04:52.280
+affinché noi possiamo scrivere un buon codice per il resto delle sezioni.
+
+04:52.370 --> 04:58.940
+Useremo il big-O per vedere quale è una buona soluzione per un problema e ciò che è una cattiva
+
+04:58.940 --> 05:03.700
+soluzione a un problema nella maggior parte delle interviste ha questo concetto fondamentale.
+
+05:04.070 --> 05:05.860
+Qual è la struttura dati corretta.
+
+05:05.930 --> 05:09.650
+Qual è l'algoritmo giusto per scrivere buoni programmi.
+
+05:09.650 --> 05:17.330
+Google assume ingegneri e sviluppatori che lo sanno perché hanno un sacco di scale su cui devono
+
+05:17.330 --> 05:18.140
+pensare.
+
+05:18.260 --> 05:25.770
+Molti input e persone che sanno come gestire questi programmi sono quelli che saranno in grado
+
+05:25.770 --> 05:27.760
+di creare grandi programmi.
+
+05:29.360 --> 05:30.790
+Ci vediamo nel prossimo.
+
+05:30.990 --> 05:31.290
+Bebai.

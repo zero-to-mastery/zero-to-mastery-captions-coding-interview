@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.050 --> 00:02.080
+Selamat datang kembali.
+
+00:02.220 --> 00:05.980
+Betapa kamu membenciku setelah melakukan tantangan ini.
+
+00:06.030 --> 00:13.080
+Sekarang ini secara khusus seharusnya sulit dan sulit dan membuat frustrasi dan kemungkinan besar Anda tidak
+
+00:13.080 --> 00:14.990
+akan memperbaikinya pertama kali.
+
+00:15.240 --> 00:18.260
+Ini dilakukan dengan sengaja untuk menggambarkan suatu hal.
+
+00:18.300 --> 00:20.340
+Apa yang sebenarnya kami lakukan di sini.
+
+00:20.460 --> 00:23.300
+Anda tidak akan diminta untuk melakukan wawancara.
+
+00:23.430 --> 00:29.010
+Tetapi saya ingin menunjukkan kepada Anda bagaimana memikirkan sesuatu karena nanti saya
+
+00:29.010 --> 00:37.070
+akan menunjukkan kepada Anda bagaimana sebenarnya jauh lebih sederhana daripada memikirkan setiap langkah individu dan fungsi untuk menghitung sesuatu.
+
+00:37.110 --> 00:42.850
+Tidak banyak matematika yang terlibat dan ini matematika seperti yang akan kita dapatkan dalam kursus ini.
+
+00:42.960 --> 00:48.810
+Tetapi sekali lagi saya hanya ingin menunjukkan kepada Anda rincian seluk beluk sehingga Anda dapat memikirkannya dan memiliki
+
+00:48.810 --> 00:53.800
+fondasi yang bagus sehingga untuk maju, kita dapat menyederhanakan banyak hal dengan lebih baik.
+
+00:54.920 --> 00:56.930
+Sekarang mari kita lihat fungsi ini.
+
+00:57.040 --> 01:01.780
+Ini adalah fungsi tantangan yang menyenangkan yang membutuhkan semacam input.
+
+01:01.850 --> 01:08.120
+Hal yang paling pertama adalah dalam fungsi ini ketika kita menjalankan tantangan yang
+
+01:08.450 --> 01:15.170
+menyenangkan katakan saja Yah bersenang-senanglah tantangan dan kita menjalankan fungsi ini dan input tidak terlalu penting.
+
+01:15.200 --> 01:22.580
+Bisa jadi array bisa menjadi objek untuk pengetahuan, hanya membuat hal-hal sederhana mengatakan itu adalah array dari lima.
+
+01:22.820 --> 01:28.440
+Sekarang di mana kita menjalankan fungsi ini, hal pertama yang akan kita lakukan adalah tugas.
+
+01:28.700 --> 01:36.180
+Kita akan menetapkan variabel A sebagai 10 sekarang berdasarkan pada konvensi.
+
+01:36.470 --> 01:42.770
+Dan inilah mengapa Anda tidak akan menemukan ini dalam sebuah wawancara karena banyak orang menafsirkan ini secara berbeda.
+
+01:42.770 --> 01:46.400
+Beberapa orang mengatakan bahwa penugasan Anda tidak harus diperhitungkan sebagai big-O.
+
+01:46.700 --> 01:48.830
+Dan beberapa orang mengatakan bahwa Anda harus melakukannya.
+
+01:48.830 --> 01:53.710
+Dalam kasus kami hanya untuk menyederhanakan berbagai hal, mari kita hitung setiap langkah dan apa fungsinya.
+
+01:54.080 --> 02:02.480
+Biarkan 10 hanya 0 dari 1 karena ini hanya berjalan sekali ketika kita menjalankan.
+
+02:02.480 --> 02:03.230
+Tantangan yang menyenangkan.
+
+02:03.230 --> 02:03.770
+Itu dia.
+
+02:03.790 --> 02:06.240
+Tidak masalah seberapa besar inputnya.
+
+02:06.260 --> 02:12.850
+Ini hanya berjalan sekali dan kemudian 50 ditambah tiga kita menugaskan kembali A.
+
+02:13.130 --> 02:18.900
+Sekali lagi ini adalah satu.
+
+02:19.060 --> 02:21.660
+Dan kemudian kita masuk ke satu lingkaran.
+
+02:21.790 --> 02:29.200
+Kita tahu bahwa dengan loop sepertinya kita melihat panjang input dan mengulang tergantung pada
+
+02:29.200 --> 02:31.360
+input apa pun.
+
+02:31.360 --> 02:40.860
+Dalam kasus kami, ini akan menjadi O dari sebuah Mari tambahkan komentar itu di sini dan ini lagi adalah input.
+
+02:40.900 --> 02:45.550
+Ingat bahwa saya dapat mengubah hanya dua input, saya dapat mengubah hanya 2 X itu tidak masalah.
+
+02:45.550 --> 02:50.020
+Ini hanya mencerminkan seberapa besar inputnya, berapa lama waktu yang dibutuhkan untuk loop.
+
+02:50.200 --> 02:59.490
+Dan kita tahu ini sekarang bahwa loop adalah waktu linier dan kemudian di sini fungsi lain kita tidak tahu apa
+
+02:59.490 --> 03:05.790
+fungsi ini tetapi itu memanggil fungsi lain di luar fungsi tantangan menyenangkan.
+
+03:05.790 --> 03:08.630
+Ini juga disebut berapa kali.
+
+03:08.880 --> 03:12.320
+Yah itu tergantung pada seberapa besar input kita.
+
+03:12.330 --> 03:15.950
+Jadi sekali lagi ini dari.
+
+03:16.130 --> 03:17.630
+Bagaimana dengan ini.
+
+03:17.680 --> 03:24.540
+Biarkan variabel asing yang sama dengan benar memulai tugas acak lain di sini.
+
+03:24.930 --> 03:32.430
+Tapi ini berjalan sebanyak kali loop ini terjadi jika input 5 ini berjalan lama lima kali.
+
+03:32.430 --> 03:41.260
+Jadi sekali lagi ini akan menjadi dan kemudian di sini kita memiliki plus plus yang dalam
+
+03:41.260 --> 03:43.800
+javascript berarti plus satu.
+
+03:43.870 --> 03:48.090
+Jadi kami hanya menambah berapa pun jumlahnya saat ini.
+
+03:48.130 --> 03:58.680
+Jadi 53 akan menjadi 54 dan kemudian saat kita mengulanginya aku akan terus meningkat sebesar 1 54 55 56.
+
+03:59.000 --> 04:01.990
+Ini sekali lagi menjalankan 0 kali akhir.
+
+04:02.000 --> 04:08.230
+Itu tergantung berapa kali ada Brunt membeli input karena sekali lagi kita mengulang.
+
+04:08.330 --> 04:10.960
+Dan akhirnya hal lain yang tidak dihitung sebagian orang.
+
+04:10.970 --> 04:15.670
+Tetapi hanya agar tetap konsisten setiap langkah yang kita lakukan kembali.
+
+04:15.800 --> 04:21.180
+Ini berjalan hanya sekali setiap kali tantangan yang menyenangkan salah.
+
+04:21.470 --> 04:25.630
+Pernyataan pengembalian hanya berjalan sekali.
+
+04:25.680 --> 04:26.370
+Baiklah.
+
+04:26.370 --> 04:29.280
+Jadi kita memiliki semua notasi O Besar ini.
+
+04:29.280 --> 04:34.160
+Dan sekarang kita mulai berpikir tentang bagaimana suatu fungsi berjalan dan seberapa efisien suatu fungsi.
+
+04:34.410 --> 04:41.750
+Jika kita benar-benar menghitung semua ini jika kita totalkan semua ini, kita melihat bahwa kita memiliki 1 2 3.
+
+04:41.820 --> 04:51.040
+Jadi kami memiliki tiga langkah plus satu oven oven.
+
+04:51.110 --> 05:02.710
+Jadi itu berarti kita memiliki plus dan plus Dan itu berarti kita menjalankan perhitungan.
+
+05:02.970 --> 05:07.360
+Dan plus dan plus dan plus yang ternyata empat.
+
+05:07.430 --> 05:19.300
+Jadi tiga tambah empat dan notasi Big O kita di sana seperti yang saya katakan sebelumnya ketika datang ke besar.
+
+05:19.330 --> 05:22.740
+Oh, jangan terlalu terpaku.
+
+05:22.900 --> 05:23.970
+Apakah saya benar?
+
+05:24.010 --> 05:30.850
+Karena dalam sebuah wawancara Anda tidak perlu mengetahui hal ini tetapi Anda sekarang dapat berpikir tentang bagaimana
+
+05:30.850 --> 05:34.890
+suatu fungsi berjalan lebih dalam daripada hanya menulis kode.
+
+05:35.440 --> 05:42.130
+Seiring kami berkembang melalui video Anda akan menemukan bahwa ini sebenarnya pada akhir
+
+05:42.310 --> 05:49.370
+hari akan disederhanakan menjadi hanya satu dan kita akan pergi melalui itu dan mengapa itu.

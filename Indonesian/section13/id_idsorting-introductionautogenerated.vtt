@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.930 --> 00:05.770
+Halo dan selamat datang di bagian selanjutnya dari bagian algoritma.
+
+00:05.970 --> 00:11.630
+Ya saya masih bersemangat meskipun topik berikutnya yang mungkin paling favorit saya.
+
+00:11.940 --> 00:18.660
+Anda lihat di masa lalu ketika saya belajar tentang menyortirnya melibatkan banyak matematika banyak algoritma
+
+00:18.930 --> 00:26.050
+yang berbeda dan saya tidak pernah benar-benar menikmatinya karena saya tidak mengerti mengapa kami perlu tahu penyortiran.
+
+00:26.130 --> 00:31.290
+Maksud saya Anda hanya memiliki fungsi semacam biasanya dalam bahasa pemrograman dan hanya itu.
+
+00:31.380 --> 00:32.400
+Kanan.
+
+00:32.430 --> 00:34.900
+Saya tidak pernah mengerti maksudnya.
+
+00:35.310 --> 00:37.380
+Dan Anda mungkin memikirkan hal yang sama.
+
+00:37.830 --> 00:38.140
+Baiklah.
+
+00:38.150 --> 00:39.980
+Andre tidak ada yang bisa dipelajari di sini.
+
+00:39.990 --> 00:43.520
+Saya akan melewatkan bagian pelajaran abu-abu.
+
+00:43.560 --> 00:44.460
+Sampai jumpa lagi.
+
+00:44.580 --> 00:45.290
+Kanan.
+
+00:45.720 --> 00:48.210
+Yah tidak juga.
+
+00:48.210 --> 00:50.790
+Biarkan saya jelaskan dalam sebuah wawancara.
+
+00:50.820 --> 00:53.760
+Penyortiran sangat penting.
+
+00:53.790 --> 01:00.510
+Anda mendengar pertanyaan seperti mengambil array angka dan mengurutkannya atau pewawancara ingin Anda melakukan sesuatu untuk
+
+01:00.690 --> 01:08.790
+beberapa input dan mereka memberi tahu Anda bahwa input ini diurutkan dan Anda bertanya-tanya mengapa mereka hanya memberi tahu
+
+01:08.790 --> 01:09.340
+kami.
+
+01:09.360 --> 01:11.430
+Mengapa itu penting jika disortir atau tidak.
+
+01:11.730 --> 01:19.110
+Dan mengapa perusahaan sangat peduli tentang penyortiran jika saya bisa menggunakan metode penyortiran bawaan dalam bahasa saya
+
+01:19.110 --> 01:19.950
+sendiri.
+
+01:21.100 --> 01:28.710
+Nah, ini hal yang menyortir bukan masalah besar ketika datang ke data input kecil.
+
+01:28.750 --> 01:29.530
+Anda benar.
+
+01:29.530 --> 01:31.440
+Anda bisa melakukan sesuatu seperti ini.
+
+01:31.810 --> 01:40.370
+Kami akan memiliki array surat dan array ini hanya memiliki
+
+01:43.370 --> 01:46.280
+D katakan Z.
+
+01:46.370 --> 01:47.520
+Mari kita tambahkan beberapa.
+
+01:47.550 --> 01:53.490
+R dan akhirnya menjadi.
+
+01:53.740 --> 02:00.510
+Dan jika seseorang mengatakan untuk mengurutkan ini dengan baik, kita bisa menggunakan sesuatu seperti metode pengurutan yang datang
+
+02:00.600 --> 02:02.450
+dengan sebagian besar bahasa.
+
+02:02.650 --> 02:08.980
+Dan jika saya menjalankan tampilan ini yang bagus dan mudah baru saja memulai semuanya.
+
+02:08.980 --> 02:10.310
+Saya seorang jenius benar.
+
+02:11.550 --> 02:15.160
+Mengapa perusahaan pernah mengajukan pertanyaan sederhana kepada kami.
+
+02:15.210 --> 02:23.260
+Anda lihat masalahnya adalah ketika input menjadi lebih besar dan lebih besar seperti ketika saya berbicara tentang besar-O kita
+
+02:23.260 --> 02:25.470
+tidak peduli tentang input kecil.
+
+02:26.210 --> 02:30.480
+Itu mudah dilakukan terutama dengan komputer cepat modern kita.
+
+02:30.490 --> 02:37.310
+Ini mulai membebani perusahaan banyak uang ketika kita harus melakukan operasi pada set data yang lebih besar
+
+02:37.310 --> 02:38.620
+dan lebih besar.
+
+02:38.690 --> 02:43.150
+Saat itulah segalanya menjadi sedikit gila dan mahal.
+
+02:43.490 --> 02:50.990
+Sebagai contoh Google memiliki banyak situs Web yang diindeks. Bagaimana jika mereka perlu mengurutkan situs-situs
+
+02:51.410 --> 02:57.330
+Web dengan cara mungkin menyortir artikel berita berdasarkan waktu itu dirilis.
+
+02:57.560 --> 03:01.310
+Dan karena kita berbicara tentang Google di sini kita tidak berbicara tentang
+
+03:01.310 --> 03:05.360
+10 artikel, kita berbicara tentang ribuan jutaan lebih banyak artikel yang diurutkan berdasarkan data.
+
+03:05.720 --> 03:07.360
+Bagaimana dengan Amazon.
+
+03:08.430 --> 03:15.620
+Amazon adalah tentang penyortiran, mereka mengurutkan produk mereka berdasarkan kategori berdasarkan harga berdasarkan peringkat.
+
+03:15.780 --> 03:19.120
+Dan mereka memiliki jutaan produk.
+
+03:19.130 --> 03:20.160
+Bagaimana dengan Apple.
+
+03:20.270 --> 03:28.610
+Yah Apple memiliki toko Apple dan mereka mendaftar semua aplikasi mereka dan beberapa untuk podcast pesanan lebih
+
+03:28.970 --> 03:31.270
+banyak dalam urutan diurutkan.
+
+03:31.280 --> 03:32.400
+Bagaimana dengan Microsoft.
+
+03:32.480 --> 03:38.680
+Yah, Microsoft mereka perlu menyortir semua log mereka, katakanlah pusat data mereka di seluruh dunia sehingga
+
+03:38.870 --> 03:45.980
+jika sebuah insiden terjadi, mereka tahu dari mana datangnya dan kemudian Netflix apa yang mereka butuhkan untuk menyortir acara
+
+03:45.980 --> 03:49.450
+mereka di film mereka di acara TV mereka.
+
+03:49.480 --> 03:49.990
+Kanan.
+
+03:51.280 --> 03:57.700
+Dan mereka biasanya tidak bisa hanya menggunakan metode sortir bawaan yang dilengkapi dengan bahasa
+
+03:57.700 --> 04:05.530
+dan mereka biasanya membutuhkan metode diurutkan khusus berdasarkan data sehingga mereka dapat menurunkan biaya dan menurunkan operasi yang
+
+04:05.530 --> 04:07.570
+perlu dilakukan komputer mereka.
+
+04:08.290 --> 04:16.330
+Sebagian besar tempat mengurutkan data atau memprosesnya dan semua perusahaan termasuk yang kecil biasanya mengurutkan data untuk memastikan
+
+04:16.330 --> 04:21.030
+bahwa itu bermakna jika data acak yang tidak diurutkan.
+
+04:21.160 --> 04:23.340
+Sangat sulit diakses.
+
+04:23.410 --> 04:27.750
+Jadi sebagian besar waktu kita mengurutkan data atau memprosesnya.
+
+04:27.780 --> 04:34.280
+Sekarang contoh-contoh yang baru saja saya bicarakan adalah sedikit konyol tetapi itu membuktikan maksud saya.
+
+04:34.440 --> 04:40.380
+Untuk perusahaan-perusahaan ini jika mereka melakukan sesuatu yang salah atau mereka melakukannya dengan cara yang tidak efisien itu berarti kehilangan
+
+04:40.380 --> 04:41.130
+banyak uang.
+
+04:41.280 --> 04:46.080
+Itulah sebabnya mereka mengajukan pertanyaan-pertanyaan ini dalam sebuah wawancara yang ingin mereka pastikan Anda
+
+04:46.080 --> 04:52.500
+memahami betapa pentingnya topik itu dan mereka dapat membuat keputusan yang tepat sebagai karyawan Anda algoritma penyortiran apa
+
+04:52.500 --> 04:54.520
+yang harus digunakan berdasarkan masalah.
+
+04:55.360 --> 04:56.940
+Jadi itulah tujuan dari bagian ini.
+
+04:57.190 --> 05:03.640
+Saya akan menunjukkan kepada Anda bagaimana menerapkan penyortiran sendiri jika Anda mau, tetapi yang paling penting kita akan
+
+05:03.640 --> 05:09.490
+berbicara tentang berbagai algoritma penyortiran yang tersedia untuk Anda dan bagaimana ia dapat membuat keputusan yang tepat
+
+05:09.490 --> 05:13.120
+untuk perusahaan Anda dan jelas untuk memulai cedera coding.
+
+05:14.120 --> 05:21.650
+Sekarang alasan bahwa sebagian besar pelajaran algoritma pemilahan menjadi sangat membosankan adalah bahwa ada
+
+05:21.650 --> 05:24.000
+begitu banyak algoritma pengurutan.
+
+05:24.220 --> 05:33.580
+Jika kami mencari algoritma pengurutan di Wikipedia Anda mendapatkan daftar yang cukup besar dan menerapkannya sendiri satu per satu membutuhkan
+
+05:33.640 --> 05:41.380
+banyak waktu, tetapi kemungkinan besar Anda tidak akan pernah menerapkan algoritma pengurutan Anda sendiri dalam hidup
+
+05:41.440 --> 05:48.100
+Anda, kecuali mungkin yang sederhana dalam wawancara karena sebagian besar ini terutama yang canggih
+
+05:48.100 --> 05:55.180
+yang sangat cepat dilakukan oleh akademisi yang menghabiskan waktu bertahun-tahun mencari tahu cara penyortiran yang
+
+05:55.180 --> 06:01.610
+paling optimal dan pewawancara tidak berharap dapat menerapkan setiap algoritma penyortiran tunggal.
+
+06:02.720 --> 06:09.470
+Tujuan saya di bagian ini adalah untuk mengajarkan tingkat tinggi mengapa Anda perlu
+
+06:09.500 --> 06:15.360
+tahu untuk menjadi insinyur yang lebih baik dan juga wawancara pengkodean.
+
+06:15.380 --> 06:21.830
+Tetapi yang lebih penting adalah kita akan membicarakan pengorbanan di antara mereka sehingga Anda
+
+06:21.830 --> 06:26.880
+dapat membicarakannya secara cerdas selama wawancara untuk beberapa video berikutnya.
+
+06:26.910 --> 06:34.200
+Kita akan berbicara tentang algoritma penyortiran ini dan juga beberapa bonus yang menjelang akhir, tetapi hal utama yang
+
+06:34.200 --> 06:41.490
+perlu diingat adalah bahwa semakin banyak data yang ditangani oleh komputer kita yang merupakan penyortiran dan penelusuran
+
+06:41.490 --> 06:47.970
+komputasi berarah besar adalah dua masalah ilmu komputer terbesar di dunia perangkat lunak mencari kita
+
+06:48.870 --> 06:51.260
+akan masuk ke bagian berikutnya.
+
+06:51.330 --> 06:57.140
+Tetapi menyortir adalah sesuatu yang harus kami miliki untuk master di akhir video ini.
+
+06:57.240 --> 07:00.820
+Jadi mari kita belajar bagaimana membuat keputusan yang baik ketika datang untuk menyortir.

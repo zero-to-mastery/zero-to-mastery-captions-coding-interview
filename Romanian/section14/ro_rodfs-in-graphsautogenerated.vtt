@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.890 --> 00:08.540
+Ce inseamna prima cautare in adancime in grafice care s-ar putea sa nu-l cunoasteti, dar tocmai ati
+
+00:08.840 --> 00:16.970
+invatat cum sa rezolvati un labirint folosind programul deoarece prima cautare a mortii este exact ca rezolvarea unui labirint drept.
+
+00:17.300 --> 00:23.360
+Dacă ați făcut vreodată un labirint în viața reală sau ați văzut un program care încearcă
+
+00:23.360 --> 00:30.560
+să rezolve ce cale să faceți ideea a fost să mergeți atât de adânc cum puteți și când ați lovit un
+
+00:30.560 --> 00:37.370
+blocaj rutier sau un loc în care nu mai puteți pleca te backtrack și de a găsi un alt
+
+00:37.370 --> 00:44.850
+traseu și apoi păstrați backtracking până când veți găsi nodul dorit sau acceptați labirint și că este frumusețea de moarte pentru căutare.
+
+00:44.920 --> 00:50.350
+Acum puteți implementa un algoritm care rezolvă un puzzle de labirint.
+
+00:50.410 --> 00:52.980
+Nu e așa de cool ca aici.
+
+00:53.020 --> 01:02.980
+Dacă facem o primă căutare def, să spunem că începem de la numărul unu și 10 este acceptarea sau nouă
+
+01:02.980 --> 01:03.990
+este ieșirea.
+
+01:04.360 --> 01:12.250
+Și, de fapt, nu se va lucra pentru că acest lucru Spre deosebire de graficul nostru anterior care a fost nedirecționat, care are ambele
+
+01:12.250 --> 01:14.520
+direcții, pot merge înainte și înapoi.
+
+01:14.560 --> 01:19.220
+Acesta este un grafic orientat care are direcții specifice pe care le poate merge.
+
+01:19.420 --> 01:21.680
+Deci, să facem un zero la nouă.
+
+01:21.880 --> 01:28.230
+Dacă fac moartea pentru o căutare și fac 9 sau vom începe la zero încercând să găsim nouă.
+
+01:28.420 --> 01:32.140
+La fel ca și cum arăt printr-un labirint, mă duc aici, mă duc aici.
+
+01:32.290 --> 01:39.460
+Continuam sa trec prin copiii mei si apoi sa incerc sa merg cat de mult am putut si am reusit sa
+
+01:39.460 --> 01:43.180
+ies din labirint inainte sa caut 6 si 5 aici.
+
+01:44.370 --> 01:48.500
+Și, evident, acest algoritm continuă, deoarece îl pot spune să se oprească la nouă.
+
+01:48.630 --> 01:52.730
+Dar vedeți cum a fost exact ca și cum ați rezolva un labirint.
+
+01:53.720 --> 01:57.030
+Și de aceea folosim recursul pentru moarte pentru o căutare corectă.
+
+01:58.120 --> 02:06.220
+Ideea de a se retrage după un sfârșit mort și apoi de a repeta călătoria pe altă cale este doar recursivă la fiecare pas mai
+
+02:07.260 --> 02:12.470
+mic decât celălalt și apoi ne întoarcem și apoi continuăm să facem același lucru mereu.
+
+02:13.430 --> 02:20.340
+Ideea morții pentru o căutare este că este foarte bine să spui că există calea.
+
+02:20.420 --> 02:29.960
+Nu ne spune calea cea mai scurtă, dar dacă există și utilizează mai puțin adâncimea de memorie pentru prima căutare.
+
+02:30.000 --> 02:38.280
+Singurul dezavantaj este că, dacă aveți un grafic cu adevărat profund, atunci acesta poate deveni foarte lent, deoarece cu cât graful
+
+02:38.370 --> 02:46.440
+este mai adânc, cu atât recursivul mai apelă complexitatea spațiului pe care îl adăugați, deoarece trebuie să urmărim acele apeluri
+
+02:46.440 --> 02:48.900
+de funcții pe o stivă.

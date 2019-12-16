@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.370 --> 00:02.560
+Selamat datang kembali.
+
+00:02.600 --> 00:10.120
+Mari kita bicara tentang pengurutan ketika datang ke bahasa tertentu dan saya akan menggunakan javascript di sini.
+
+00:10.130 --> 00:15.750
+Saya akan menunjukkan kepada Anda berbagai algoritma penyortiran yang dapat digunakan dengan semua jenis data.
+
+00:15.770 --> 00:21.100
+Tidak hanya harus berupa string, tidak hanya harus berupa angka, tetapi juga semua jenis data.
+
+00:21.440 --> 00:26.300
+Tetapi saya juga ingin menunjukkan kepada Anda mengapa kadang-kadang Anda ingin berhati-hati dalam
+
+00:26.300 --> 00:32.060
+menyortir dan hanya tidak percaya bahwa metode bawaan Anda dan data pengurutan bahasa Anda dengan benar.
+
+00:32.090 --> 00:33.960
+Biarkan saya menunjukkan ini dengan javascript.
+
+00:34.220 --> 00:41.840
+Katakanlah kita memiliki array lain di sini dan array ini akan menyebutnya keranjang dan keranjang ini akan memiliki serangkaian huruf
+
+00:41.950 --> 00:43.910
+akan memiliki beberapa nomor.
+
+00:43.920 --> 00:49.940
+Saya harus 65 hingga 1.
+
+00:50.040 --> 00:54.130
+Dan katakanlah 7 dan 1 lagi 8.
+
+00:54.150 --> 00:58.590
+Sekarang kita melihat bahwa ketika kita mengurutkan surat-surat semuanya tampak baik.
+
+00:58.650 --> 01:02.340
+Apa yang terjadi jika saya mengurutkan keranjang di sini angka.
+
+01:02.340 --> 01:03.870
+Apa yang kamu pikir akan terjadi.
+
+01:04.080 --> 01:10.560
+Dan saya mendorong Anda untuk mencoba ini dengan bahasa Anda sendiri dan melihat hasil apa yang Anda dapatkan.
+
+01:11.630 --> 01:15.540
+Biarkan saya klik di sini.
+
+01:15.710 --> 01:18.770
+Itulah hasilnya.
+
+01:18.880 --> 01:21.280
+Itukah yang Anda harapkan.
+
+01:21.280 --> 01:23.280
+Itu tidak terlihat diurutkan melakukannya.
+
+01:23.320 --> 01:29.530
+Sekarang ini adalah contoh konyol tetapi penting untuk menunjukkan bahwa ketika datang ke penyortiran Anda ingin
+
+01:29.530 --> 01:33.420
+memastikan jika Anda tidak menerapkannya Anda tahu cara kerjanya.
+
+01:33.730 --> 01:41.080
+Sebagai contoh ketika datang ke Javascript cara mengurutkan angka adalah bahwa itu benar-benar mengubahnya menjadi
+
+01:41.080 --> 01:41.810
+kuat.
+
+01:41.950 --> 01:44.050
+Setidaknya begitulah cara kerja metode SOR.
+
+01:44.050 --> 01:49.150
+Jadi apa yang terjadi di balik tudung bukan hanya membandingkan angka tetapi melakukan sesuatu
+
+01:49.150 --> 01:56.680
+di sepanjang garis jika ia mencapai 65 65 dan kemudian akan mengambil kode karakter dalam indeks pertama sehingga kita dapat menggunakan
+
+01:56.680 --> 01:57.700
+metode ini.
+
+01:57.700 --> 02:04.320
+Peduli kode char di dan berikan ke nol.
+
+02:04.450 --> 02:08.600
+Jadi itu akan mengukur kode karakter di 65.
+
+02:08.710 --> 02:11.780
+Jika saya menjalankan ini saya mendapatkan 54.
+
+02:12.400 --> 02:21.070
+Sekarang 54 adalah Unicode dan jika saya pergi ke tabel Unicode seluruh karakter ini dikodekan di komputer kita.
+
+02:21.070 --> 02:24.490
+Sekarang jika saya pergi ke enam saya melihat itu.
+
+02:24.560 --> 02:33.460
+Ya kita melihat ketika kita mengarahkan kursor ke atas bahwa dikatakan ASTM adalah kode untuk itu adalah 50 untuk
+
+02:33.460 --> 02:35.610
+representasi karakter adalah 54.
+
+02:35.730 --> 02:37.510
+Jadi itulah yang terjadi di sini.
+
+02:37.570 --> 02:49.030
+Jika saya katakan saja dua di sini dan kami akan melakukan satu lagi Tiga puluh empat dan mari kita konsol log ini
+
+02:49.030 --> 02:49.960
+sehingga
+
+02:53.380 --> 03:05.710
+kita tahu apa yang terjadi dan saya klik menjalankan kita melihat bahwa juga adalah 50 65 atau enam adalah 54 dan 34 adalah 51.
+
+03:05.870 --> 03:14.710
+Tetapi jika saya melakukan sesuatu seperti tujuh itu akan mengambil nomor dan itu akan menjadi 55.
+
+03:14.880 --> 03:20.120
+Jadi banyak orang bingung ketika mereka menggunakan metode pedang seperti ini dan mereka tidak mendapatkan respon
+
+03:20.130 --> 03:21.280
+yang mereka inginkan.
+
+03:21.540 --> 03:27.160
+Dan itulah mengapa ada baiknya membaca dokumentasi apa pun yang Anda gunakan seperti metode pengurutan
+
+03:27.300 --> 03:29.620
+cara Enderton bekerja dalam bahasa.
+
+03:30.030 --> 03:36.780
+Dan untuk menambahkan lebih banyak kebingungan Anda lihat di sini bahwa kompleksitas ruang dan waktu tidak
+
+03:37.080 --> 03:39.420
+dapat dijamin karena tergantung implementasi.
+
+03:39.420 --> 03:47.220
+Ingat Javascript memiliki standar yang disebut ECMAScript sebagai badan pengelola menyarankan seperti apa bentuknya.
+
+03:47.220 --> 03:52.440
+Namun bagaimana Anda menerapkannya sangat tergantung pada mesin yang berbeda.
+
+03:52.470 --> 04:00.060
+Jadi browser Chrome akan menggunakan implementasi javascript yang berbeda dari katakanlah Firefox atau Safari.
+
+04:00.060 --> 04:06.020
+Dan jenis algoritma apa yang mereka gunakan di bawah tenda tergantung pada browser.
+
+04:06.180 --> 04:09.810
+Dan itu adalah sesuatu yang akan kita bicarakan nanti di video.
+
+04:09.930 --> 04:15.910
+Tetapi untuk mengakhiri bagian ini tentang keanehan penyortiran, saya tunjukkan satu contoh lagi.
+
+04:16.170 --> 04:20.060
+Katakanlah saya memiliki serangkaian kata-kata Spanyol di sini.
+
+04:20.400 --> 04:25.460
+Ketika dia keluar tentu saja sepakbola AS dan kami ingin menyortirnya.
+
+04:25.790 --> 04:27.040
+Apa yang kamu pikir akan terjadi.
+
+04:28.310 --> 04:32.700
+Biarkan saya menghapus ini dan lakukan ini di sini.
+
+04:33.140 --> 04:41.890
+Jika saya mengklik Ron, saya kira menyebabkan kami mengincar tujuan kami ketika kami pergi lagi
+
+04:42.250 --> 04:51.070
+karena karakter Unicode A dengan aksen di atasnya bukan bantuan sebenarnya yang akan datang sebelum sesuatu seperti.
+
+04:51.130 --> 04:53.900
+Lihat seperti yang Anda lihat di sini.
+
+04:53.950 --> 05:00.340
+Jadi dalam hal ini untuk menyelesaikan masalah ini kita harus melakukan sesuatu di sepanjang baris menciptakan
+
+05:00.730 --> 05:08.860
+fungsi di dalam semacam yang mengambil a dan b yang merupakan item pertama dan kedua dan itu akan mengembalikan lokal
+
+05:10.140 --> 05:10.820
+plus.
+
+05:10.830 --> 05:19.120
+Bandingkan B yang memungkinkan kami untuk membandingkan ini meskipun ada bahasa yang berbeda.
+
+05:19.120 --> 05:23.870
+Jadi jika saya telah menjalankan ini, Anda melihat bahwa sekarang sudah diperbaiki dan semuanya berfungsi.
+
+05:24.070 --> 05:30.570
+Dan lagi membandingkan lokal adalah sesuatu yang dapat Anda periksa dan saya akan menautkan ke dengar.
+
+05:30.590 --> 05:37.820
+Sekarang alasan saya menunjukkan kepada Anda ini bukan karena kami ingin menjadi ahli javascript. Nah, setiap orang memiliki bahasa mereka
+
+05:37.820 --> 05:43.450
+sendiri, tetapi untuk menunjukkan kepada Anda bahwa ada banyak cara kami dapat menyortir sesuatu.
+
+05:43.520 --> 05:49.310
+Dan bahkan dengan sedikit perbedaan kecil seperti ini, ada banyak pertimbangan yang harus
+
+05:49.310 --> 05:50.010
+dimiliki.
+
+05:50.450 --> 05:57.440
+Dan di bawah metode semacam ini sebenarnya adalah salah satu algoritma yang akan kita pelajari dalam kursus
+
+05:57.440 --> 06:04.400
+ini dan saya juga merekomendasikan Anda memeriksa halaman MGM yang akan saya tautkan kepada Anda
+
+06:04.400 --> 06:12.410
+yang menunjukkan kepada Anda bagaimana Anda dapat membandingkan berbagai hal seperti angka seperti objek dan item dalam objek menggunakan
+
+06:12.410 --> 06:21.300
+metode sortir yang Anda lihat untuk mengurutkan ini dengan benar kita harus melakukan sesuatu seperti ini di mana kita memiliki fungsi
+
+06:21.360 --> 06:28.600
+di dalam metode sortir yang akan mengambil a dan b yang merupakan yang pertama dan item kedua.
+
+06:29.300 --> 06:41.160
+Dan kita hanya akan mengatakan mengembalikan minus B dan jika kita menjalankan ini kita melihat bahwa angka kita sekarang diurutkan.
+
+06:41.420 --> 06:42.510
+Tapi itu sudah cukup untuk saat ini.
+
+06:42.710 --> 06:46.960
+Mari kita bicara tentang algoritma pengurutan yang digunakan dalam ilmu komputer.
+
+06:47.010 --> 06:50.320
+Video berikutnya saya akan melihat dalam Babai yang satu itu.

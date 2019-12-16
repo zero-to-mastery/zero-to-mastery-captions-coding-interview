@@ -1,0 +1,178 @@
+WEBVTT
+
+00:01.310 --> 00:02.560
+Ben tornato.
+
+00:02.570 --> 00:09.190
+Parliamo rapidamente di qualcosa di un puntatore che sentirai molto in argomenti di informatica, un
+
+00:09.190 --> 00:11.180
+puntatore è semplicemente questo.
+
+00:11.340 --> 00:20.200
+È un riferimento a un altro posto in memoria o un altro oggetto o un altro nodo e
+
+00:20.200 --> 00:24.520
+in javascript possiamo dimostrarlo con qualcosa di simile.
+
+00:24.710 --> 00:36.640
+Se ho un oggetto chiamiamolo oggetto uno che è un oggetto semplice che ha come vero.
+
+00:36.900 --> 00:38.270
+E ho
+
+00:41.020 --> 00:48.800
+intenzione di commentare questo e ora facciamo qualcosa come Konst oggetto 2 è uguale a oggetto 1.
+
+00:48.910 --> 00:57.040
+Abbiamo appena creato un puntatore un riferimento a un oggetto e questo è ciò che è un puntatore.
+
+00:57.040 --> 01:00.150
+È semplicemente un riferimento qui.
+
+01:00.190 --> 01:02.920
+Non sto copiando l'oggetto.
+
+01:02.980 --> 01:05.470
+Non sto dicendo che l'oggetto 1 è uguale a Akos.
+
+01:05.470 --> 01:06.100
+Vero.
+
+01:06.100 --> 01:16.170
+E anche creando un'altra posizione nella memoria che dice che A è uguale alla memoria quando guardiamo la nostra ram.
+
+01:16.340 --> 01:18.170
+C'è solo una voce.
+
+01:18.280 --> 01:29.260
+A è uguale a true e entrambi gli oggetti vogliono che un oggetto punti alla stessa posizione in memoria per mostrarti che è il
+
+01:29.260 --> 01:30.090
+caso.
+
+01:30.100 --> 01:32.110
+Diamo solo console all'oggetto
+
+01:35.610 --> 01:39.590
+registro 1 e quindi alla finestra di dialogo della console.
+
+01:41.060 --> 01:43.090
+Oggetto a.
+
+01:43.370 --> 01:45.800
+E solo così siamo chiari su questo.
+
+01:45.800 --> 01:55.690
+Ne dirò uno qui e questo sarà due in modo che se gestisco questo ho sia un ECO che il vero.
+
+01:55.940 --> 02:07.380
+Ma se cambio l'oggetto A o accedendo alla proprietà nell'oggetto uno e dico che equivale a Booya e io eseguo questo aspetto di
+
+02:07.800 --> 02:16.860
+entrambi gli oggetti Twan un oggetto da modificare perché ho creato un puntatore qui dicendo che l'oggetto sta
+
+02:17.100 --> 02:21.530
+andando a l'oggetto di riferimento 1 piace così.
+
+02:22.730 --> 02:26.490
+E entrambi puntano alla stessa posizione nella memoria.
+
+02:27.600 --> 02:29.680
+Ed è quello che è un puntatore.
+
+02:29.730 --> 02:38.540
+Sta semplicemente dicendo Ehi, questo è dove si trova in memoria e quando guardiamo il nostro
+
+02:38.540 --> 02:51.090
+esempio di link list quando rimuoviamo diciamo un nodo all'indice di due e I Hago uno due lo rimuoviamo e quello scompare
+
+02:51.240 --> 02:54.120
+dalla memoria come funziona.
+
+02:54.500 --> 03:04.930
+Bene, se torniamo al nostro esempio, posso semplicemente eliminare l'oggetto 1 e ho intenzione di cambiarlo in comando perché
+
+03:04.950 --> 03:09.330
+stiamo andando a cambiare qui i valori.
+
+03:09.630 --> 03:11.100
+Esegui clic su Phi.
+
+03:12.000 --> 03:17.060
+Ottengo l'oggetto di errore di riferimento Twan non è definito alla riga 14.
+
+03:17.250 --> 03:19.220
+È proprio qui.
+
+03:19.500 --> 03:19.820
+OK.
+
+03:19.830 --> 03:23.750
+Quindi commentiamo questo perché l'oggetto 1 non esiste più.
+
+03:23.930 --> 03:26.290
+Corre Reichlich.
+
+03:26.490 --> 03:34.900
+Ho ancora obiezioni a Booya anche se abbiamo cancellato l'oggetto 1.
+
+03:35.060 --> 03:43.940
+Quello che sta accadendo qui bene il modo in cui funziona nella maggior parte dei linguaggi di programmazione è
+
+03:43.940 --> 03:53.720
+che i nostri computer cancelleranno la memoria che è in uso e poiché vedono che l'oggetto sta ancora riferendosi a questa
+
+03:53.720 --> 03:58.950
+posizione in memoria questo valore in memoria non lo cancellerà .
+
+03:59.810 --> 04:05.650
+Perché c'è ancora un puntatore a questa posizione e memoria.
+
+04:05.960 --> 04:08.410
+E questo è il modo in cui le cose vengono cancellate.
+
+04:08.420 --> 04:16.390
+In linguaggi come javascript questo è ciò che potreste chiamare garbage collection dove non appena
+
+04:17.560 --> 04:30.150
+diciamo oggetto a punto o oggetto due uguali ciao ora e faccio clic su Esegui ora oggetto a cui avete fatto riferimento lo spazio di
+
+04:30.450 --> 04:36.870
+memoria che aveva un uguale a vero ora è semplicemente una stringa.
+
+04:36.900 --> 04:43.910
+Quindi, poiché javascript è garbage collection, la memoria viene gestita automaticamente.
+
+04:44.130 --> 04:50.040
+Ciò viene automaticamente eliminato dalla garbage collection e eliminato perché nulla lo sta indicando.
+
+04:51.590 --> 04:59.090
+Tuttavia c'è un linguaggio di basso livello in cui devi gestire la tua memoria e devi
+
+04:59.090 --> 05:03.220
+cancellarlo manualmente sulla voce di riferimento in memoria.
+
+05:03.830 --> 05:12.170
+E questo può causare un sacco di problemi in cui si lascia memoria che non viene utilizzata in memoria, che è
+
+05:12.230 --> 05:13.770
+una risorsa preziosa.
+
+05:13.970 --> 05:20.030
+Ma poi ci sono anche dei vantaggi con i linguaggi non garbage collection in cui puoi gestire la tua
+
+05:20.030 --> 05:23.960
+memoria in modo da rendere le cose davvero molto veloci ed efficienti.
+
+05:23.970 --> 05:24.730
+Tutto ok.
+
+05:24.870 --> 05:34.340
+Penso che sia sufficiente per puntatore un puntatore è semplicemente un riferimento a qualcos'altro in memoria.
+
+05:34.690 --> 05:42.070
+E useremo questa conoscenza nel nostro prossimo video per creare la nostra prima struttura di dati dell'elenco collegato.
+
+05:42.290 --> 05:43.040
+Vedrò nel prossimo.

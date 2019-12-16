@@ -1,0 +1,82 @@
+WEBVTT
+
+00:01.060 --> 00:02.280
+Selamat datang kembali.
+
+00:02.280 --> 00:04.020
+Sudah waktunya untuk sedikit berolahraga.
+
+00:04.970 --> 00:13.990
+Menurut Anda mengapa daftar tertaut mungkin lebih baik daripada tabel hash atau hapus hanya dari apa yang kita ketahui sekarang.
+
+00:14.360 --> 00:20.570
+Saya ingin Anda menjawab pertanyaan ini di kepala Anda atau menuliskannya sebelum Anda masuk ke video berikutnya.
+
+00:21.370 --> 00:29.170
+Saya juga ingin menunjukkan kepada Anda alat kecil yang bagus yang akan saya tautkan dalam video ini dan visual kecil
+
+00:29.170 --> 00:36.630
+ini menunjukkan kepada Anda bagaimana daftar tautan berfungsi sehingga Anda dapat bermain-main dengannya dan melihat di mana mereka bersinar.
+
+00:36.630 --> 00:44.500
+Over array atau hash tables yang Anda lihat di sini kami memiliki kepala dengan nilai 22 dan ekor dengan nilai delapan
+
+00:44.500 --> 00:45.420
+puluh sembilan
+
+00:45.580 --> 00:53.560
+Dan kemudian node lain menghubungkan mereka semua dan Anda dapat menggunakan situs Web ini untuk melakukan apa saja ke daftar
+
+00:53.560 --> 00:54.220
+tertaut.
+
+00:54.220 --> 00:55.130
+Anda bisa membuat.
+
+00:55.180 --> 00:57.990
+Anda dapat mencari, Anda dapat memasukkan, Anda dapat menghapus.
+
+00:58.300 --> 01:00.050
+Mari kita lakukan insert di sini.
+
+01:00.880 --> 01:11.600
+Saya bisa memasukkan ke kepala jika saya klik di sini dan jika saya klik pergi saya masukkan nilai 5 saya bisa memasukkan ke ekor
+
+01:11.630 --> 01:13.470
+di bagian paling akhir.
+
+01:13.490 --> 01:19.210
+Jika saya baik-baik saja, itu tampaknya cukup sederhana, tidak ada yang terlalu gila.
+
+01:19.210 --> 01:22.210
+Bagaimana jika kita memasukkan suatu tempat di tengah.
+
+01:22.210 --> 01:28.090
+Jika saya klik di sini dan katakanlah indeks dua saya ingin memasukkan nilai 90 atau kurang kenaikan
+
+01:28.090 --> 01:33.140
+itu ke 93 saya tekan terus mengawasi apa yang akan terjadi oh boy apa
+
+01:38.490 --> 01:40.230
+yang baru saja terjadi.
+
+01:41.030 --> 01:41.750
+Jangan khawatir.
+
+01:41.930 --> 01:47.750
+Itu terlihat sedikit rumit dan kita sebenarnya akan mengkodekan semua ini sendiri dan membangun ini.
+
+01:47.960 --> 01:54.500
+Tapi saya ingin Anda bermain-main dengan struktur data ini dan memikirkan mengapa kami ingin menggunakan
+
+01:54.500 --> 01:56.210
+sesuatu seperti ini.
+
+01:56.270 --> 01:58.660
+Dan video berikutnya saya akan menceritakan semua tentang hal itu.
+
+01:58.760 --> 02:02.200
+Jadi Anda bisa menguji apakah asumsi Anda benar.
+
+02:02.270 --> 02:03.050
+Saya akan melihat yang berikutnya.

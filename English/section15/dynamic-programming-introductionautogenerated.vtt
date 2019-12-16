@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.950 --> 00:11.610
+Welcome to our last section on algorithm's the last missing piece and that is dynamic programming sounds
+
+00:11.970 --> 00:14.190
+very important doesn't it.
+
+00:15.250 --> 00:24.340
+With this section we're going to go over the very last piece of our mind map to complete our entire
+
+00:24.340 --> 00:25.140
+knowledge graph.
+
+00:25.150 --> 00:27.100
+So we're ready for interviews.
+
+00:27.160 --> 00:34.480
+It's this last little piece of dynamic programming specifically memorization that we're going to be
+
+00:34.480 --> 00:35.410
+talking about.
+
+00:35.830 --> 00:44.380
+But what is it Dynamic Programming is just an optimization technique.
+
+00:44.520 --> 00:50.800
+And here's a fun fact dynamic programming actually means nothing.
+
+00:50.940 --> 00:55.610
+It's completely garbage buzzword and I'm not kidding here.
+
+00:55.730 --> 01:01.530
+All linked to a funny article on how the name came to be but dynamic programming at the end of the day
+
+01:01.530 --> 01:07.420
+is just an optimization technique using something called caching.
+
+01:07.460 --> 01:14.120
+If you have something that you can cache Well then he can use dynamic programming.
+
+01:14.130 --> 01:20.130
+Now we're going to get into the details of what that means throughout the next videos but at a higher
+
+01:20.130 --> 01:28.260
+level dynamic programming is a way to solve problems by breaking it down into a collection of subproblems
+
+01:28.740 --> 01:35.040
+solving each of those solve problems just once and storing their solutions in case.
+
+01:35.040 --> 01:42.960
+Next time the same subproblem occurs but let's get into that and understand what it means how we can
+
+01:42.960 --> 01:48.450
+implement it to become better interviewers better engineers and better programmers.
+
+01:48.600 --> 01:50.740
+I'll see in the next video by.

@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.860 --> 00:09.250
+Selamat datang kembali, mari kita terapkan pencarian kedalaman pertama menggunakan preorder dan post order dan
+
+00:09.250 --> 00:12.700
+kita akan mulai dengan urutan.
+
+00:12.700 --> 00:21.560
+Pertama, sekarang beri nama ini, mari kita sebut kedalaman.
+
+00:22.740 --> 00:28.490
+Lintasi atau cari dalam hal ini dan kami akan mengatakannya secara berurutan.
+
+00:28.760 --> 00:35.570
+Sekarang di sini kita akan menggunakan rekursi karena sementara sebagian besar waktu pencarian pertama diimplementasikan
+
+00:35.600 --> 00:39.190
+menggunakan rekursi karena cukup sederhana untuk melakukannya.
+
+00:39.230 --> 00:45.900
+Seperti yang akan Anda lihat, tetapi jika Anda ingat dari mengimplementasikan pencarian pertama yang luas dengan rekursi karena kita
+
+00:45.900 --> 00:48.030
+akan memanggil fungsi ini berulang kali.
+
+00:48.030 --> 00:52.690
+Kami tidak bisa hanya mendeklarasikan variabel di dalamnya karena mereka akan diatur ulang.
+
+00:52.800 --> 00:59.870
+Jadi kita akan melakukan hal yang sama seperti yang kita lakukan di sini tetapi untuk menjaga semuanya tetap bersih dan
+
+00:59.990 --> 01:06.300
+juga menunjukkan kepada Anda betapa berbedanya def untuk pencarian bekerja karena kita akan memiliki tiga dari mereka.
+
+01:06.560 --> 01:17.370
+Kita akan memiliki dalam urutan Post order dan pre order, saya akan membuat tiga fungsi terpisah
+
+01:17.370 --> 01:20.500
+di sini menggambarkan ini.
+
+01:20.520 --> 01:29.240
+Jadi yang akan saya katakan di sini adalah kita harus kembali untuk mengembalikan fungsi urutan.
+
+01:29.340 --> 01:40.220
+Ini akan menjadi fungsi rekursif kami dan DFS dalam metode pesanan hanya mengembalikan apa pun yang memberi kami hasil ini.
+
+01:40.530 --> 01:44.130
+Jadi dalam kasus kami, kami akan menambahkan rute Daut ini.
+
+01:44.130 --> 01:52.780
+Mulailah dengan simpul akar kami dan kami akan memberikan daftar atau jawaban kami akan dimasukkan dan kami akan
+
+01:52.780 --> 02:00.420
+melakukan hal yang sama untuk pesanan pos dan memesan di muka hanya dengan menamai mereka.
+
+02:00.700 --> 02:05.530
+Ada cara yang tepat.
+
+02:05.640 --> 02:08.910
+Jadi mari kita tulis fungsi pertama Cerveris.
+
+02:09.060 --> 02:14.350
+Jika saya bisa mengeja melintasi pesanan pos dan memesan di muka Anda.
+
+02:14.640 --> 02:16.280
+Mari kita mulai dengan yang pertama.
+
+02:16.500 --> 02:21.920
+Ini akan menjadi fungsi yang disebut traverse agar kami buat di atas.
+
+02:21.960 --> 02:30.810
+Itu akan mendapatkan node dan semacam data atau kita bisa menyebutnya daftar.
+
+02:30.830 --> 02:40.410
+Dalam hal ini sekarang ingatlah bahwa dalam rangka akan memberi kita daftar node dalam urutan diurutkan jika kita
+
+02:41.100 --> 02:49.390
+melihat pohon kita, kita ingin idealnya memiliki 1 4 6 9 15 20 170.
+
+02:49.830 --> 02:57.510
+Dan cara kita melakukan itu adalah baik pertama-tama kita akan memeriksa hei apakah simpul memiliki
+
+02:57.540 --> 02:58.690
+potongan kiri.
+
+02:58.950 --> 03:09.340
+Jika itu berhasil maka kita akan menuju ke ayat gereja sepenuhnya menggunakan rekursi ke simpul
+
+03:10.560 --> 03:14.890
+titik tertawa dan meneruskan data lagi.
+
+03:14.950 --> 03:22.340
+Saya tahu rekursi bisa jadi sulit untuk dipahami pada awalnya, tetapi yang kami katakan di sini adalah
+
+03:22.340 --> 03:31.380
+bahwa jika simpul terutama simpul akar ketika kita pertama memulainya jika memiliki anak kiri yang 9 lalu melintasi semua jalan turun
+
+03:31.380 --> 03:38.790
+terus ke kiri itu akan memanggil fungsi ini dan akan terus ke kiri sampai simpul tidak memiliki
+
+03:38.820 --> 03:44.170
+anak lagi dan kita berakhir pada satu ketika kita berakhir pada 1.
+
+03:44.190 --> 03:52.840
+Saya ingin titik terakhir mendorong nilai simpul titik jawaban kami.
+
+03:52.980 --> 04:00.930
+Jadi sekali tidak ada lagi simpul yang tersisa di mana pada satu hal pergi ke langkah berikutnya
+
+04:00.930 --> 04:04.090
+yang mendorong nilai ini ke daftar.
+
+04:04.110 --> 04:08.910
+Setelah itu kita akan melakukan hal yang sama yang kita lakukan di sini ke kanan.
+
+04:09.270 --> 04:15.450
+Kita ingin pergi untuk memeriksanya sekarang dan berkata, hei teruskan sampai ke kanan sampai tidak ada
+
+04:15.450 --> 04:16.600
+lagi anak-anak.
+
+04:17.690 --> 04:26.450
+Dan sekarang kita memiliki enam dan kita melalui fungsi ini sekali lagi ketika kita memiliki enam.
+
+04:26.600 --> 04:37.490
+Tidak ada anak kiri dan itu akan mendorong nilai simpul saat ini yang 6 ke kanan jadi mari kita benar-benar
+
+04:37.550 --> 04:39.250
+konsol mencatat ini.
+
+04:39.530 --> 04:41.440
+Dan omong-omong kami ingin kembali.
+
+04:41.480 --> 04:45.920
+Ingat kami ingin mengembalikan daftar di akhir.
+
+04:46.160 --> 04:56.010
+Jadi saya akan menghibur log node dot thali dan jika saya klik jalankan di sini atau mari kita pastikan
+
+04:56.060 --> 04:57.840
+ini bekerja saya
+
+05:01.110 --> 05:13.030
+akan mengatakan Traverse agar saya akan berkomentar dua ini dan mengatakan pohon dot D dengan cepat di memesan dan kami hanya akan menjalankan
+
+05:15.590 --> 05:21.670
+file ini di sekitar ini yang saya dapatkan data tidak didefinisikan.
+
+05:21.670 --> 05:27.130
+Karena apa yang harus dicantumkan di sini setelah DAFTAR.
+
+05:27.340 --> 05:29.880
+Hei, mari kita lari dan lihat itu.
+
+05:29.890 --> 05:39.040
+Kami memiliki 1 4 6 9 15 20 170 dan kami melihat di sini jalan yang kami ambil karena saya menghibur melihat ke kanan.
+
+05:39.130 --> 05:43.990
+Kami memiliki 9 4 1 lalu 6.
+
+05:44.160 --> 05:54.970
+Kemudian kita kembali ke 20 15 lalu 170 tetapi karena kita mendorong jawaban kita ke daftar setelah kita memverifikasi catatan kiri
+
+05:54.970 --> 06:01.560
+dan melintasi semua jalan ke bawah angka terendah dimasukkan ke dalam daftar.
+
+06:01.570 --> 06:10.520
+Sekarang keindahan dari ini adalah bahwa menerapkan dua lainnya sekarang menjadi sangat mudah karena mereka
+
+06:10.530 --> 06:12.040
+sangat mirip.
+
+06:12.040 --> 06:13.860
+Hanya perubahan urutannya.
+
+06:14.260 --> 06:17.800
+Jadi yang berikutnya yang dilalui
+
+06:20.400 --> 06:22.660
+katakanlah preorder.
+
+06:22.820 --> 06:29.720
+Satu-satunya perbedaan sekarang adalah bahwa Anda harus memastikan bahwa kami secara rekursif memanggil nama yang tepat.
+
+06:30.950 --> 06:41.950
+Satu-satunya perbedaan adalah bahwa dengan preorder kami ingin mendorong di awal sebelum kami sampai ke not
+
+06:41.950 --> 06:43.360
+paling kiri.
+
+06:43.930 --> 06:54.330
+Karena ingat dalam pre order traversal kita menuju 9 4 1 6 lalu 20 15 170.
+
+06:54.340 --> 06:57.200
+Kita mulai dengan orang tua dulu dan itu perintahnya.
+
+06:57.640 --> 07:01.820
+Jadi kita dorong orang tua dulu yaitu 9.
+
+07:01.960 --> 07:07.740
+Lalu kami mendapat empat lalu satu lalu kami mendapat enam dan 20 dan 50 dari 170.
+
+07:08.630 --> 07:10.040
+Mari kita lihat apakah itu berhasil.
+
+07:10.160 --> 07:16.240
+Saya akan mengubahnya untuk memesan terlebih dahulu, pastikan saya mengeja dengan benar.
+
+07:17.170 --> 07:22.420
+Preorder purrfect dan kemudian jalankan dan lihat itu.
+
+07:22.560 --> 07:32.830
+Kami pergi 9 4 1 6 20:15 170 dalam urutan itu dalam daftar.
+
+07:32.840 --> 07:37.360
+Sekarang di sini Anda dapat menjeda video dan melihat apakah kami dapat mengimplementasikan sendiri yang terakhir.
+
+07:37.370 --> 07:39.060
+Itu harus cukup sederhana.
+
+07:39.170 --> 07:40.160
+Kanan.
+
+07:40.250 --> 07:40.510
+Baiklah.
+
+07:40.520 --> 07:41.630
+Aku akan pergi.
+
+07:42.330 --> 07:45.700
+Urutan Post akan sangat mirip.
+
+07:46.940 --> 07:57.360
+Kami akan mengatakan pesanan pos Traverse kami akan memiliki dorongan terakhir di akhir.
+
+07:59.330 --> 08:01.000
+Dan mengapa begitu.
+
+08:01.190 --> 08:14.260
+Karena kita memeriksa 1 6 kiri dan kanan dan kemudian empat teratas kemudian 15 170 20 lalu 9
+
+08:14.320 --> 08:18.410
+Jadi urutan seperti namanya adalah posting ada di akhir.
+
+08:18.940 --> 08:22.140
+Jadi jika saya mengubah hanya untuk memposting pesanan sekarang.
+
+08:24.370 --> 08:25.850
+Dan saya memukul Ron.
+
+08:26.200 --> 08:31.950
+Kami salah memesan karena saya perlu memastikan saya mengganti nama sehingga itu kursif.
+
+08:32.020 --> 08:37.970
+Jadi kita katakan Traverse berpasir posting perbatasan posting perbatasan agar tidak memesan di muka.
+
+08:38.080 --> 08:40.860
+Dan jika saya berlari itu jauh lebih baik.
+
+08:40.930 --> 08:44.650
+Kami pergi sembilan untuk satu.
+
+08:45.420 --> 08:47.220
+Dan kami mulai menambahkan ini ke daftar.
+
+08:47.330 --> 09:03.630
+Aku pergi 1 6 4 lalu 15 170 20 dan kemudian 9 dan jika kita mencetak semua ini dan saya klik jalankan dengan baik mari kita hapus
+
+09:03.630 --> 09:06.090
+log konsol dari sini.
+
+09:09.930 --> 09:12.240
+Dan hanya konsol login
+
+09:17.400 --> 09:19.610
+masing-masing untuk menjalankan.
+
+09:19.770 --> 09:20.710
+Ada log kami.
+
+09:20.740 --> 09:30.220
+Kami memiliki pesanan pos, kami memiliki pesanan awal dan sekarang kami memiliki pesanan.
+
+09:30.430 --> 09:36.370
+Semuanya pencarian mendalam pertama hanya dilakukan dalam urutan yang berbeda.
+
+09:36.530 --> 09:41.750
+Sekarang saya akan meninggalkan kode untuk Anda jelajahi di sini karena ini adalah rekursi.
+
+09:42.020 --> 09:48.050
+Mungkin butuh sedikit waktu untuk melilit pikiran Anda, tetapi Anda lihat di sini bahwa
+
+09:48.380 --> 09:50.060
+itu tidak sulit.
+
+09:50.130 --> 09:56.850
+Kami menerapkan pencarian pertama yang luas baik di Tivoli dan secara rekursif dan kami juga
+
+09:57.090 --> 10:00.830
+menggunakan kedalaman untuk pencarian dalam urutan dan preorder.
+
+10:01.100 --> 10:04.440
+Dan jika Anda memikirkannya mulai menjadi semakin jelas.
+
+10:04.740 --> 10:06.830
+Terutama ketika sampai mati untuk pencarian.
+
+10:06.990 --> 10:13.150
+Yang kami lakukan hanyalah memeriksa elemen kiri dan elemen kanan atau catatan kanan.
+
+10:13.200 --> 10:16.780
+Jadi itu adalah rujukan kiri dan rujukan kanan setiap not.
+
+10:17.340 --> 10:23.610
+Dan tentu saja kami melakukan tindakan ini dalam urutan yang berbeda kadang-kadang tergantung pada strategi
+
+10:23.610 --> 10:25.410
+pemesanan yang kami pilih.
+
+10:25.500 --> 10:28.310
+Tapi kami masih melakukan tiga hal yang sama.
+
+10:28.410 --> 10:35.470
+Kami memeriksa kiri memeriksa kanan atau kami hanya mendorong node ke daftar kami untuk jawaban kami.
+
+10:35.790 --> 10:42.300
+Dan bagi Anda yang mungkin menyadari kami menggunakan struktur data tumpukan di sini dengan rekursi.
+
+10:42.300 --> 10:50.620
+Masing-masing fungsi ini ditambahkan ke tumpukan panggilan kami dan kami akan mulai kembali ketika mereka mencapai akhir.
+
+10:51.930 --> 10:55.990
+Artinya tidak ada lagi anak kiri dan kanan.
+
+10:56.610 --> 11:02.860
+Dan ini penting untuk dipahami karena menunjukkan kompleksitas ruang kematian untuk pencarian.
+
+11:03.030 --> 11:11.260
+Jumlah ruang yang kita butuhkan dari segi memori tidak seperti luasnya pencarian pertama yang menggunakan Q Ketinggian pohon akan
+
+11:11.260 --> 11:17.650
+memberi tahu kita berapa banyak memori yang kita butuhkan karena ketinggian pohon akan cocok dengan
+
+11:17.710 --> 11:23.770
+fungsi rekursif terdalam dan itulah yang terjadi untuk ditambahkan ke tumpukan sebagai memori.
+
+11:23.770 --> 11:30.910
+Jadi konsumsi memori kita adalah semua ketinggian pohon yang akan memberi kita skenario kasus
+
+11:30.940 --> 11:34.570
+terburuk saat menggunakan pencarian kedalaman pertama.
+
+11:34.650 --> 11:44.710
+Jadi sekarang setelah Anda memahami dengan lebih baik bagaimana pencarian atau penelusuran traversal ini, saya anjurkan Anda untuk mengambil sendiri
+
+11:44.710 --> 11:47.080
+kode langkah demi langkah.
+
+11:47.080 --> 11:50.800
+Lihat apakah Anda dapat menambahkan ini ke struktur data pohon Anda juga.
+
+11:50.800 --> 11:59.470
+Karena keindahannya begitu Anda tahu cara kerjanya, Anda juga baru belajar cara menelusuri grafik.
+
+11:59.580 --> 12:02.000
+Selamat dan sampai jumpa di video berikutnya.

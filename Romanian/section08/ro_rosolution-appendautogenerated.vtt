@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.780 --> 00:05.100
+Bine ați revenit cum a fost exercițiul.
+
+00:05.170 --> 00:09.580
+Ați reușit să dați seama de metoda de adăugare.
+
+00:09.670 --> 00:13.070
+Lasă-mă să-ți arăt ce aș fi făcut.
+
+00:13.160 --> 00:21.530
+Primul lucru pe care ar trebui să-l facem este să creăm un nou nod cu valoare și putem face acest lucru destul
+
+00:21.530 --> 00:22.550
+de ușor.
+
+00:22.550 --> 00:30.620
+Spunând nodul Konst nou care va egala un obiect cu proprietățile pe care nu ar trebui să le
+
+00:30.620 --> 00:38.240
+cunoaștem prin faptul că avem o valoare care va egala valoarea pe care o obținem ca
+
+00:39.140 --> 00:43.330
+parametru și apoi următoarea care va fi nu.
+
+00:43.350 --> 00:51.250
+Așa că avem noul nostru nod aici și vrem să îl atașăm acum după cel de-al
+
+00:51.250 --> 01:05.070
+10-lea nod care este prima noastră notă și putem face asta pur și simplu spunând acest punct punct punct următor care este amintiți-vă că acest loc de aici este
+
+01:05.080 --> 01:06.860
+egal cu Gnoll.
+
+01:06.880 --> 01:14.140
+Așa că este ceea ce este coada care este ultimul element din lista noastră deoarece această metodă nu știe că avem doar un singur
+
+01:14.410 --> 01:17.110
+element care ar putea avea 100 de elemente.
+
+01:17.110 --> 01:18.570
+Vrem doar să adăugăm la sfârșit.
+
+01:18.790 --> 01:23.080
+Așa că va lua coada și apoi va apuca următoarea valoare a coada.
+
+01:23.080 --> 01:28.930
+Deci va apuca pointerul coastei si va spune ca in loc sa indice catre
+
+01:28.930 --> 01:34.030
+Noal a indicat acest nou nod pe care tocmai l-am creat.
+
+01:34.080 --> 01:43.180
+Bine, am îndreptat coada spre punctul nodului nou cu nodul următor și apoi vrem să spunem că acest lucru
+
+01:43.180 --> 01:50.560
+cu care am avut coada SUA, înaintea căruia era valoarea de 10, nu mai este
+
+01:50.560 --> 01:51.150
+coada.
+
+01:51.190 --> 02:04.420
+Avem un nou ultim element, care este că această coadă este acum egală cu noul nod și pentru că executăm această
+
+02:04.420 --> 02:14.920
+operație după aceasta atunci când executăm acest punct de coada următor este în continuare acest nod.
+
+02:15.010 --> 02:25.420
+Și de îndată ce actualizăm acest nod pentru a avea un nou nod nou, putem elimina acum.
+
+02:25.840 --> 02:33.530
+Acum putem actualiza coada ca fiind noul nod, deoarece până în acel moment, în momentul în care această linie rulează, următorul
+
+02:33.530 --> 02:37.440
+lucru a fost actualizat corespunzător pentru această valoare coadă veche.
+
+02:38.630 --> 02:45.110
+Și apoi, în cele din urmă, vrem să ne asigurăm că vom adăuga tunela lenth Tikal.
+
+02:45.200 --> 02:50.380
+Așa că vom face plus plus și doar pentru distracție pentru că vrem să ne asigurăm că facem acest lucru drept.
+
+02:50.390 --> 02:54.730
+Vom reveni la această listă.
+
+02:54.800 --> 02:59.540
+Amintiți-vă că acest lucru se referă doar la ceea ce este această clasă care devine instanțiată.
+
+02:59.570 --> 03:04.880
+Deci, vom spune că a returnat acest lucru pentru a ne întoarce lista noastră legată.
+
+03:04.950 --> 03:10.450
+Voi elimina acum blocarea consolei și voi vedea ce se întâmplă atunci când vom rula doar un punct cinci.
+
+03:10.640 --> 03:13.310
+Voi faceți clic pe rulați.
+
+03:13.320 --> 03:13.860
+In regula.
+
+03:13.950 --> 03:18.830
+Am returnat lista noastră legată, care are o valoare de 10.
+
+03:18.840 --> 03:20.760
+Următorul este noul.
+
+03:20.760 --> 03:23.440
+Știți că am creat valoarea de 5.
+
+03:23.930 --> 03:24.730
+Si urmatorul.
+
+03:24.730 --> 03:25.380
+Nu.
+
+03:25.740 --> 03:28.680
+Și apoi coada este o valoare de cinci.
+
+03:28.800 --> 03:32.750
+Următorul nu este perfect cu o lungime de două.
+
+03:33.030 --> 03:33.730
+Minunat.
+
+03:33.780 --> 03:34.940
+Se pare că funcționează.
+
+03:35.010 --> 03:37.400
+Să facem și asta.
+
+03:37.530 --> 03:41.030
+Adăugați și mergeți acolo.
+
+03:41.150 --> 03:44.010
+Avem valoare de cinci.
+
+03:44.120 --> 03:50.930
+Deci, capul face referire la valoarea de 10 care indică următoarea notă care are
+
+03:50.930 --> 03:57.960
+valoarea 5 care indică la următoarea, care este un obiect care este coada datorită funcționării logării.
+
+03:57.980 --> 04:05.060
+Nu va arăta acest lucru imbricat. Voi spune doar că acesta este un obiect, dar acesta indică o coadă
+
+04:05.060 --> 04:09.860
+care are o valoare de 16 ani, fără o lungime de trei.
+
+04:09.860 --> 04:10.980
+Cat de tare e asta.
+
+04:11.030 --> 04:18.710
+Tocmai am creat lista noastră de link-uri sunt 10 5 16 lista de legături la fel ca asta.
+
+04:19.130 --> 04:20.360
+Sper că ai dreptate.
+
+04:20.420 --> 04:26.180
+Dar dacă nu te-ai descurajat. E nevoie de ceva timp ca să te obișnuiești.
+
+04:26.210 --> 04:32.000
+Din fericire pentru tine când o scrii de câteva ori, atunci devine așa cum am spus a doua natură.
+
+04:32.000 --> 04:36.010
+Deci, nu vă faceți griji pentru că acum am o altă provocare.
+
+04:36.050 --> 04:37.960
+Știți cum să adăugați.
+
+04:38.060 --> 04:41.760
+Ar trebui să aveți posibilitatea să faceți prebend dreapta.
+
+04:42.000 --> 04:45.570
+Prepend este adăugarea la începutul listei.
+
+04:46.070 --> 04:54.230
+Deci, să spunem că în lista noastră de noi, aici vrem să adăugăm unul ca capul nostru acum în loc de 10.
+
+04:54.320 --> 05:00.920
+Cum am face acest lucru cu o metodă numită prebend acest prebend va avea o valoare.
+
+05:02.340 --> 05:13.050
+Și vom putea să executați o comandă ca lista mea de linkuri prebend una pentru ao adăuga la începutul
+
+05:13.050 --> 05:14.750
+acestei liste.
+
+05:15.870 --> 05:17.380
+Codifică aici.
+
+05:17.580 --> 05:18.380
+Mult noroc.
+
+05:18.400 --> 05:19.720
+Să vedem dacă putem rezolva asta.
+
+05:19.770 --> 05:23.610
+Și te voi vedea în următorul videoclip unde îți dau soluția.

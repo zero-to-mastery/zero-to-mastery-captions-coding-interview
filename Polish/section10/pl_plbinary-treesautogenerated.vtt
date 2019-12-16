@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.660 --> 00:01.810
+Witamy spowrotem.
+
+00:01.920 --> 00:07.860
+Przechodzimy teraz do sekcji struktury danych drzewa.
+
+00:08.100 --> 00:15.000
+Jak widać drzewa lub powiązane listy są drzewem, o którym już rozmawialiśmy, ale jest jeszcze kilka
+
+00:15.000 --> 00:17.980
+innych, o których jeszcze nie rozmawialiśmy.
+
+00:18.800 --> 00:25.850
+Więc omówimy to i zapoznamy się ze średnimi różnymi typami, zaczynając od drzewa
+
+00:25.910 --> 00:26.680
+binarnego.
+
+00:27.080 --> 00:27.950
+Przejdźmy do tego.
+
+00:29.710 --> 00:37.630
+Drzewo binarne jest czymś, co prawdopodobnie widzieliśmy wcześniej i jest to drzewo typu z kilkoma regułami, które są do
+
+00:37.630 --> 00:38.540
+niego stosowane.
+
+00:39.040 --> 00:49.180
+Ale są one dość proste, każdy węzeł może mieć tylko 0 1 lub 2 węzły, a każde dziecko może mieć
+
+00:49.180 --> 00:50.990
+tylko jednego rodzica.
+
+00:51.010 --> 00:53.010
+To jest drzewo binarne.
+
+00:53.020 --> 01:00.400
+Jednak nie jest to drzewo binarne, ponieważ ma troje dzieci lub przynajmniej jeden z NOS ma troje
+
+01:00.580 --> 01:01.230
+dzieci.
+
+01:02.340 --> 01:06.040
+A każdy węzeł reprezentuje pewien stan.
+
+01:06.510 --> 01:12.440
+Jest to bardzo podobne do tego, co zrobiliśmy w przeszłości, szczególnie w przypadku list powiązanych, jeśli
+
+01:12.440 --> 01:14.360
+przyjrzymy się tutaj przykładowi.
+
+01:14.360 --> 01:25.440
+Aby utworzyć binarne drzewo Cóż, mogę po prostu utworzyć funkcję, powiedzmy, drzewo binarne i to drzewo binarne może
+
+01:25.440 --> 01:37.520
+uzyskać wartość, a drzewo binarne lub w naszym przypadku węzeł drzewa binarnego będzie po prostu miał tę wartość powiązaną
+
+01:37.730 --> 01:44.780
+z tym drzewem która jest wartością, którą dajemy wewnątrz funkcji.
+
+01:44.780 --> 01:51.800
+A potem mamy dwie inne właściwości, które są wskazówką po lewej stronie drzewa, która na razie nie
+
+01:51.800 --> 01:52.570
+będzie.
+
+01:52.730 --> 01:58.550
+I wskaźnik po prawej stronie drzewa, to znaczy, że prawo jest równe i to jest
+
+02:02.310 --> 02:08.650
+to, że możemy reprezentować binarny węzeł drzewa po prostu mający wartość, a następnie lewą i prawą właściwość
+
+02:08.800 --> 02:11.410
+bardzo podobną do tej, którą zrobiliśmy.
+
+02:11.440 --> 02:14.920
+Lub bardzo podobną zasadę do tego, co zrobiliśmy z połączonymi listami.
+
+02:15.840 --> 02:22.380
+Teraz zakodujemy drzewo i utworzymy strukturę danych drzewa, podobnie jak w poprzednich
+
+02:22.380 --> 02:23.790
+strukturach danych.
+
+02:24.060 --> 02:29.860
+Ale chcę również wskazać kilka terminów, które możemy napotkać i które są ważne.
+
+02:31.060 --> 02:36.960
+W tym przypadku patrzymy na coś, co nazywa się drzewem, które jest całkowicie pełne.
+
+02:37.030 --> 02:40.930
+Oznacza to, że nie ma żadnych luk w drzewie.
+
+02:40.930 --> 02:42.090
+Pozwól, że ci pokażę, co mam na myśli.
+
+02:43.010 --> 02:47.610
+Idealne drzewo binarne ma wszystko wypełnione.
+
+02:47.660 --> 02:57.560
+Oznacza to, że wszystkie węzły liści są pełne i nie ma nie, że tylko jedno dziecko w węźle ma zero dzieci
+
+02:57.800 --> 02:59.740
+lub dwoje dzieci.
+
+02:59.930 --> 03:05.700
+A także dolna warstwa drzewa jest całkowicie wypełniona.
+
+03:05.750 --> 03:14.840
+Nic nie brakuje w porównaniu do pełnego drzewa binarnego, które po prostu mówi, że węzeł ma 0 lub 2 dzieci,
+
+03:15.020 --> 03:17.090
+ale nigdy jedno dziecko.
+
+03:17.090 --> 03:19.120
+Dlaczego tak jest ważne.
+
+03:19.250 --> 03:28.070
+Ponieważ ten typ drzewa binarnego, zwłaszcza doskonałe drzewo binarne, jest naprawdę bardzo wydajny i jest
+
+03:28.070 --> 03:35.640
+czymś pożądanym, gdy drzewa binarne są idealne, mają dwie naprawdę interesujące właściwości.
+
+03:35.660 --> 03:43.590
+Jednym z nich jest to, że liczba wszystkich węzłów na każdym poziomie podwaja się, gdy przesuwamy się w dół drzewa.
+
+03:43.670 --> 03:48.080
+Na przykład tutaj mamy jeden węzeł na kolejnym poziomie mamy dwa.
+
+03:48.170 --> 03:50.840
+Więc właśnie podwoiliśmy węzły na kolejnym poziomie.
+
+03:50.840 --> 03:53.490
+Mamy jeden dwa trzy cztery.
+
+03:53.570 --> 04:02.170
+Tak więc podwoiliśmy się, by zrobić, gdybyśmy mieli niższy poziom, który jest idealnym drzewem binarnym, który mielibyśmy 1 2 3 4 5
+
+04:02.170 --> 04:03.530
+6 7 8.
+
+04:03.650 --> 04:06.510
+Więc podwajałyśmy się za każdym razem.
+
+04:06.610 --> 04:13.630
+Drugą ważną cechą jest to, że liczba węzłów na ostatnim poziomie jest równa sumie
+
+04:13.630 --> 04:18.430
+liczby węzłów na wszystkich pozostałych poziomach plus 1.
+
+04:18.460 --> 04:18.700
+W porządku.
+
+04:18.700 --> 04:20.380
+To było mylące, o co mi chodzi.
+
+04:20.440 --> 04:30.220
+No cóż, jeśli wezmę dolny poziom, który jest 1 2 3 dla drugiej właściwości, stwierdza, że wszystkie węzły nad
+
+04:30.250 --> 04:33.990
+nim plus 1 będą równe dolnemu poziomowi.
+
+04:34.000 --> 04:37.910
+Tak więc jeden dwa trzy plus jeden równa się cztery.
+
+04:37.930 --> 04:44.890
+To właśnie mieliśmy na dole, co oznacza, że około połowa naszych węzłów znajduje się
+
+04:44.890 --> 04:46.870
+na ostatnim poziomie.
+
+04:46.960 --> 04:52.920
+I to jest bardzo interesujący punkt, organizując nasze dane w ten sposób.
+
+04:53.080 --> 04:56.830
+Mamy połowę tych danych na najniższym poziomie.
+
+04:56.950 --> 05:03.640
+Jeśli w jakiś sposób uda nam się uniknąć odwiedzania każdego węzła, nawet jeśli poszukiwany
+
+05:04.450 --> 05:11.910
+węzeł znajduje się na samym dole, być może istnieją pewne korzyści, które moglibyśmy uzyskać, a Ty masz
+
+05:12.540 --> 05:20.340
+rację, ponieważ tego typu struktura będzie widoczna nowa notacja big-o czegoś, na co czekaliśmy od dawna starego
+
+05:20.380 --> 05:25.980
+loga i kiedy zaczynamy mówić o czymś zwanym drzewkami binarnymi, zaczniecie widzieć
+
+05:26.100 --> 05:27.230
+ten zapis.
+
+05:27.570 --> 05:30.680
+Tak, w końcu dotarliśmy do kolejnej wielkiej notacji O.
+
+05:30.840 --> 05:34.090
+Ale co to oznacza w następnym wideo.
+
+05:34.110 --> 05:39.600
+Chcę porozmawiać o wszystkim logowaniu i dlaczego drzewa pozwalają nam mieć coś takiego.
+
+05:39.690 --> 05:41.530
+I jakie są tego konsekwencje.
+
+05:42.250 --> 05:43.370
+Zobaczę w następnym.

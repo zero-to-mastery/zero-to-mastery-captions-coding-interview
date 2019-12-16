@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.370 --> 00:08.960
+Dan begitulah kami, kami telah mempelajari tumpukan dan Qs dan cara mudah untuk mengingatnya hanyalah dengan pelat
+
+00:09.380 --> 00:11.060
+dan garis tunggu.
+
+00:11.060 --> 00:16.390
+Kami belajar mengapa mereka dibangun di atas struktur data lain seperti daftar dan array yang ditautkan.
+
+00:16.520 --> 00:22.970
+Dan kami juga berbicara tentang bagaimana membangun tumpukan dengan daftar Sinar dan panjang dan
+
+00:22.970 --> 00:31.280
+juga mengapa kita mungkin tidak ingin menggunakan array untuk membangun antrian dan juga membangun struktur data baru dengan daftar tertaut.
+
+00:31.300 --> 00:37.840
+Kami belajar bahwa tumpukan dan antrian sangat bagus untuk beberapa operasi cepat yang mereka miliki
+
+00:37.840 --> 00:42.280
+seperti menghapus atau memasukkan seperti pada akhir struktur data.
+
+00:42.920 --> 00:50.550
+Kami juga dapat mengakses item pertama dalam antrian atau item paling atas dalam tumpukan.
+
+00:50.780 --> 00:58.490
+Dan kami juga memiliki semua pesanan data kami yang benar-benar bagus tetapi kami biasanya tidak menggunakan tumpukan atau isyarat
+
+00:58.490 --> 01:03.400
+untuk benar-benar melakukan segala jenis penguncian atau pencarian melalui struktur data.
+
+01:03.440 --> 01:07.670
+Yang kami tertarik adalah bit akhir dari struktur data.
+
+01:07.670 --> 01:14.770
+Jadi mereka membuatnya sangat berguna dengan membatasi penggunaan kita atas apa yang bisa kita lakukan ketika datang ke tumpukan dan antrian.
+
+01:14.900 --> 01:20.090
+Tetapi memastikan apa yang diizinkan untuk dilakukan dengan struktur data
+
+01:20.090 --> 01:22.600
+ini akan sangat cepat.
+
+01:22.830 --> 01:24.060
+Dan di sana kita memilikinya.
+
+01:24.180 --> 01:28.520
+Kami terus memperluas peta pikiran kami tentang struktur data.
+
+01:28.860 --> 01:31.290
+Jadi kami menyelesaikan tumpukan kami.
+
+01:31.290 --> 01:38.730
+Kami belajar cara membuat tumpukan dengan array dan daftar panjang yang telah kami pelajari tentang notasi Big O mereka
+
+01:39.180 --> 01:45.190
+dan kami juga berbicara tentang isyarat dan bagaimana kami benar-benar ingin menggunakan array untuk isyarat.
+
+01:45.270 --> 01:47.840
+Pertanyaan wawancara yang sangat umum.
+
+01:48.150 --> 01:54.630
+Kami belajar bagaimana menggunakan daftar tertaut untuk membuat antrian dan juga kami belajar
+
+01:55.140 --> 01:59.570
+tentang implikasi bego yang sangat mirip dengan tumpukan.
+
+01:59.670 --> 02:03.720
+Kami semakin dekat dan lebih dekat untuk mengisi peta pikiran ini.
+
+02:03.930 --> 02:10.520
+Tetapi sebelum kita melakukan itu kita masih memiliki beberapa struktur data lagi tetapi akhirnya hampir tiba.
+
+02:10.530 --> 02:13.570
+Kami hanya memiliki pohon dan grafik untuk dibicarakan.
+
+02:14.650 --> 02:17.480
+Untuk itu saya akan melihat Anda di bagian selanjutnya.

@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.480 --> 00:01.270
+Welcome back.
+
+00:01.590 --> 00:06.420
+I have a fun little exercise for you and I know I call every single exercise fine.
+
+00:06.570 --> 00:09.810
+But I think this one is especially fun.
+
+00:10.960 --> 00:20.020
+Now one of the most popular interview questions when it comes to linked lists is to reverse a linked
+
+00:20.350 --> 00:22.170
+list.
+
+00:22.190 --> 00:23.290
+What I mean by that.
+
+00:23.570 --> 00:28.190
+Well an interviewer is going to say we have a length list here.
+
+00:28.190 --> 00:36.620
+How would you go about reversing this list if I have a list over here that is one 10 16 18.
+
+00:36.620 --> 00:39.500
+How can you make the list the link list.
+
+00:40.340 --> 00:44.310
+Go from 88 to 16 to 10 to 1.
+
+00:44.330 --> 00:48.130
+How would you reverse it and flip.
+
+00:48.370 --> 00:55.120
+And we're going to use a singly linked list for this exercise and all we want to do is create a new
+
+00:55.120 --> 00:55.700
+method.
+
+00:56.620 --> 00:58.540
+That is going to say reverse
+
+01:01.330 --> 01:08.060
+and this method in here will have to do some magic that will reverse this for us.
+
+01:08.820 --> 01:15.720
+Remember we're not just printing out an array we want a reversed linked list that now has 88 referencing
+
+01:15.720 --> 01:23.870
+16 that has a reference saying or pointing to 10 and 10 pointing to one and one pointing to no how would
+
+01:23.870 --> 01:26.030
+you go about doing this.
+
+01:26.030 --> 01:29.830
+Good luck with this exercise and I'll see you in the solution video.
+
+01:29.830 --> 01:30.300
+Bye bye.

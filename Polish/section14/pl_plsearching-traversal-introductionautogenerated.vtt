@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.560 --> 00:07.400
+Rozmawialiśmy o rekursji i sortowaniu, musimy jeszcze kilka.
+
+00:07.560 --> 00:14.970
+W tej sekcji będziemy rozmawiać o wyszukiwaniu i traversal, w tym o szerokości pierwszego wyszukiwania i
+
+00:15.180 --> 00:21.380
+głębokości wyszukiwania pierwszego wyszukiwania jest coś, co robimy dużo na naszych komputerach.
+
+00:21.380 --> 00:27.320
+Kiedy rozmawialiśmy o sortowaniu, niektórzy z was mogli być jak ludzie, tak naprawdę nie brzmią tak
+
+00:28.040 --> 00:29.320
+użytecznie, ale szukają.
+
+00:29.540 --> 00:32.210
+Używamy tego każdego dnia, nie my.
+
+00:32.210 --> 00:34.590
+Szukamy plików na naszym komputerze.
+
+00:34.970 --> 00:44.030
+Rozkazujemy RUN i szukamy rzeczy szukających słów i dokumentów, które wyszukujemy w wyszukiwarce Google, a my szukamy
+
+00:44.630 --> 00:51.220
+hashtagów na Twitterze, a wyszukiwanie na Instagramie to znaczna część naszego życia.
+
+00:51.350 --> 00:56.660
+Ale w jaki sposób wszystkie te komputery i programy mogą wyszukiwać rzeczy tak szybko.
+
+00:57.660 --> 01:03.060
+Na tym świecie jest coraz więcej danych, do wyszukiwania coraz więcej stron internetowych.
+
+01:03.060 --> 01:06.180
+Jak możemy zrobić to tak szybko.
+
+01:06.180 --> 01:09.310
+Jak Google może robić takie rzeczy tak szybko.
+
+01:09.600 --> 01:14.130
+Cóż, w tym dziale zbudujemy fundamenty tego, jak to wszystko działa.
+
+01:15.470 --> 01:21.110
+I będziemy rozmawiać o kilku rodzajach poszukiwań i przemierzaniu, i miejmy nadzieję,
+
+01:21.110 --> 01:27.670
+że pod koniec tego wszystkiego zrozumiecie, jak działają takie miejsca jak Facebook Google i Mapy Google.
+
+01:28.010 --> 01:33.000
+Jeśli chodzi o wyszukiwanie na podstawowym poziomie, zacznijmy.

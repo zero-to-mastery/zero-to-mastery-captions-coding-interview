@@ -1,0 +1,61 @@
+WEBVTT
+
+00:01.490 --> 00:02.590
+Acolo o avem.
+
+00:02.780 --> 00:06.490
+Tocmai am terminat secțiunea de structură a datelor.
+
+00:06.710 --> 00:15.380
+Am trecut prin toate aceste structuri de date chiar și unele structuri de date sub care nu doriți să fi terminat o
+
+00:15.440 --> 00:17.810
+mulțime de această hartă a minții.
+
+00:18.020 --> 00:21.400
+Am vorbit despre matrice.
+
+00:21.770 --> 00:23.750
+Am vorbit despre stive și Qs.
+
+00:23.870 --> 00:31.110
+Am vorbit despre tabelele de tip hash legate de liste de copaci și toate tipurile de copaci pe care le avem.
+
+00:31.160 --> 00:37.510
+Am vorbit chiar despre grafice toate aceste cutii mici care sunt structuri de date.
+
+00:37.730 --> 00:41.600
+Acum avem o înțelegere a ceea ce sunt și modul în care sunt utilizate.
+
+00:42.350 --> 00:48.590
+Dar sunt câteva alte piese ale hărții mele pe care trebuie să le parcurgem și
+
+00:48.590 --> 00:53.900
+care sunt algoritmi și veți vedea algoritmi descris aici în rachete.
+
+00:54.000 --> 01:01.890
+Ultima noastră piesă de puzzle, dar ați putea avea în continuare câteva întrebări care nu au fost răspuns și există unele
+
+01:01.890 --> 01:09.430
+lucruri pe care le-am lăsat afară, deoarece se aplică mai mult la algoritmi atunci când vine vorba de sortare.
+
+01:09.450 --> 01:14.920
+Vom folosi arrays și Treece când vine vorba de programarea dinamică.
+
+01:15.030 --> 01:20.760
+Vom vorbi despre tabelele de tip hash când vorbim despre prima căutare de căutare
+
+01:20.760 --> 01:28.360
+și profunzime de primă căutare care este folosită în replicarea grafurilor și a copacilor Ei bine, vine și în copaci.
+
+01:28.380 --> 01:36.600
+Deci, acum că avem fundamentele noastre pentru structurile de date, suntem gata să vorbim despre acești
+
+01:36.810 --> 01:44.400
+algoritmi care apar foarte mult în interviuri, deoarece acum înțelegem cum funcționează structurile de date,
+
+01:44.400 --> 01:49.860
+putem vorbi inteligent despre algoritmi și le înțelegem într-o nivel.
+
+01:49.890 --> 01:51.420
+Ne vedem în secțiunea algoritm.

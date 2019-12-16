@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.640 --> 00:08.600
+Bentornato, ti incoraggio a giocare con la grafica. Vado e creo il tuo grafico mentre parlo in questi video
+
+00:08.600 --> 00:13.980
+sulla ricerca approfondita e sulla prima ricerca per quanto riguarda il traversal grafico.
+
+00:14.210 --> 00:20.540
+Il modo in cui puoi creare un grafico è semplicemente dire di disegnare un grafico e sarai tu stesso in grado di creare
+
+00:20.540 --> 00:25.570
+qualcosa del genere e quindi potrai esplorare sia la profondità prima che il respiro per le ricerche.
+
+00:26.630 --> 00:32.630
+Ora avrò l'animazione in esecuzione mentre parlo, ma partiremo da zero e faremo
+
+00:32.630 --> 00:37.580
+una ricerca per respirare l'unica cosa che riguarda il respiro.
+
+00:37.580 --> 00:44.510
+La prima ricerca è che si presta molto bene a determinare il percorso più breve tra qualsiasi nodo, soprattutto
+
+00:47.010 --> 00:52.550
+quando si tratta di dire hey qual è il nodo più vicino a zero.
+
+00:52.590 --> 00:54.840
+Questa è una domanda facile da porre.
+
+00:54.840 --> 01:00.810
+Quando si parla di breath first search e abbiamo già parlato di come viene usato nei motori di
+
+01:00.810 --> 01:01.410
+raccomandazione.
+
+01:01.410 --> 01:05.290
+Reti peer-to-peer anche di Google Maps.
+
+01:05.490 --> 01:11.970
+Le richieste di amicizia di Facebook e le raccomandazioni di Instagram estendono la prima ricerca o
+
+01:12.000 --> 01:21.120
+DFS ci consente di convertire un grafico essenzialmente in un albero perché sappiamo chi sono i figli del nodo genitore e poi i
+
+01:21.120 --> 01:24.130
+nipoti e così via e così via.
+
+01:24.150 --> 01:30.540
+Quindi se ricordi questo diagramma qui ora capiamo che il respiro prima cerca Sì.
+
+01:30.560 --> 01:38.860
+Usa più memoria per tenere traccia delle note dei genitori e dei bambini di quel livello, ma ci aiuta anche a determinare il
+
+01:38.860 --> 01:45.640
+percorso più breve ed è meglio se sappiamo che un nodo che stiamo cercando è vicino a noi
+
+01:45.640 --> 01:52.210
+perché sta per apparire dai nodi più vicini prima in modo che quando viene chiesto questo in
+
+01:52.720 --> 01:57.450
+un'intervista, sai che questo algoritmo funzionerà bene per questo tipo di domande.
+
+01:58.160 --> 02:05.450
+Poiché il respiro per una ricerca è creato per aiutarci a determinare il percorso più breve tra due note in un
+
+02:05.450 --> 02:05.920
+grafico.

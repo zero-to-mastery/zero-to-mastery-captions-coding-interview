@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.240 --> 00:02.980
+We'll come back.
+
+00:03.050 --> 00:05.170
+How was this exercise.
+
+00:05.180 --> 00:07.020
+Hopefully it wasn't too difficult.
+
+00:08.720 --> 00:14.270
+If you're able to answer these questions you're most likely you're going to be OK in an interview if
+
+00:14.270 --> 00:18.310
+you ever get asked about that first search or breath search.
+
+00:18.380 --> 00:19.790
+So let's go over the answers.
+
+00:20.800 --> 00:24.710
+If he'd know a solution is not far from the root of the tree.
+
+00:24.850 --> 00:26.520
+Well we talked about this.
+
+00:26.620 --> 00:34.660
+We want to use breath for search because it starts it starts searching the closest nodes to the parent
+
+00:34.720 --> 00:36.470
+first.
+
+00:36.590 --> 00:41.460
+If the tree is very deep and solutions are rare.
+
+00:41.470 --> 00:47.630
+Well this is a bit of a tougher question but we would use a breath for a search.
+
+00:47.820 --> 00:54.660
+And the reason we do that over something like depth first search is that depth first search will take
+
+00:54.660 --> 01:01.710
+a really long time with this type of a tree because the tree is really deep it's going to go one by
+
+01:01.710 --> 01:04.950
+one going really really down below.
+
+01:04.950 --> 01:10.530
+And because solutions are rare it's most likely going to just repeat that over and over and over.
+
+01:10.590 --> 01:16.410
+And as you'll see with depth first search we use recursive functions.
+
+01:16.570 --> 01:20.910
+And with that first search that can take a really really long time.
+
+01:21.220 --> 01:25.620
+Although with this one we also have some memory concerns with breath search.
+
+01:25.690 --> 01:32.190
+So your answers may vary but this is what I would use as long as you can explain that to the interviewer
+
+01:32.400 --> 01:36.930
+you're find the what if the tree is very white.
+
+01:37.000 --> 01:39.460
+That is there's a lot of notes.
+
+01:39.550 --> 01:45.280
+It's not a binary tree it just has a ton of nodes underneath each parent.
+
+01:45.340 --> 01:52.420
+Again this is a bit of a tougher one but we want to use death for a search because a bath first search
+
+01:52.420 --> 01:55.290
+and I'm going to say be fast from now is.
+
+01:55.430 --> 01:58.390
+Well it's going to need too much
+
+02:01.560 --> 02:03.150
+too much memory.
+
+02:03.450 --> 02:10.830
+The way breath first search works is that it has to keep track of the nodes and the current level in
+
+02:10.920 --> 02:12.550
+something called a queue.
+
+02:12.640 --> 02:18.290
+We'll see so because of that it might take up too much memory.
+
+02:19.130 --> 02:20.070
+What about the next one.
+
+02:20.090 --> 02:27.350
+If the solutions are frequent but located deep in the tree well in that case we do use depth for search.
+
+02:27.530 --> 02:31.790
+So hopefully we'll be able to find an answer quicker than breath for a search.
+
+02:32.760 --> 02:37.340
+What about the next one determining whether a path exists between two notes.
+
+02:37.470 --> 02:42.900
+That is what death first church is built for Audubon finding the shortest path.
+
+02:43.170 --> 02:44.790
+That is for breath.
+
+02:44.800 --> 02:47.940
+First search.
+
+02:48.160 --> 02:56.260
+Now keep this document in mind and revisit it as we learn more and more about these two algorithms because
+
+02:56.410 --> 02:59.410
+things are going to start making sense more and more.
+
+02:59.800 --> 03:06.040
+But this is a good sheet to keep in mind before you go to an interview in case you get asked these questions
+
+03:08.110 --> 03:09.430
+enough talking for now.
+
+03:09.430 --> 03:12.950
+I think it's time for us to start coding these algorithms.
+
+03:13.090 --> 03:14.440
+I'll see in the next one.
+
+03:14.830 --> 03:15.060
+Bob.

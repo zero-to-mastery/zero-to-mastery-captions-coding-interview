@@ -1,0 +1,226 @@
+WEBVTT
+
+00:01.220 --> 00:07.480
+Bene, facciamo un esercizio divertente per dimostrarti che in realtà sei appena diventato un ingegnere migliore.
+
+00:07.550 --> 00:09.270
+Facciamo una situazione
+
+00:09.290 --> 00:16.740
+Diciamo che stai lavorando su Twitter e spero che tutti sappiano Twitter qui.
+
+00:16.980 --> 00:26.910
+Se stai lavorando su Twitter e il tuo capo ti ha chiesto di creare una funzione, forse una funzione che consente a chiunque di
+
+00:27.300 --> 00:35.430
+fare clic su un pulsante accanto al suo nome e recuperare i tweet più recenti e sono tutti solo
+
+00:35.610 --> 00:36.120
+tweet.
+
+00:36.210 --> 00:44.310
+Questo è il loro primo tweet e il loro tweet più recente basato sulla notazione Big-O e su ciò che sappiamo
+
+00:44.310 --> 00:45.840
+sulla notazione Big-O.
+
+00:46.110 --> 00:48.460
+Cosa possiamo assumere riguardo a questo problema.
+
+00:50.000 --> 01:02.690
+Bene, senza codificare nulla, sappiamo che dobbiamo prima trovare e poi trovare Anth o qualunque sia l'ultimo
+
+01:02.690 --> 01:03.630
+oggetto.
+
+01:03.710 --> 01:11.960
+Ora non sappiamo come vengono memorizzati i tweet nel nostro database o qualsiasi altro modo in cui Twitter organizza
+
+01:11.960 --> 01:20.500
+queste cose, ma in base a come vengono memorizzati potremmo essere in grado di afferrare i tweet in un array.
+
+01:20.510 --> 01:25.580
+Quindi diciamo un array costante e avremo una serie di tweet.
+
+01:25.820 --> 01:30.030
+E diciamo che abbiamo tre tweet qui.
+
+01:31.280 --> 01:39.940
+Ci sono solo tre semplici tweet che dicono che questo è il più vecchio e questo è il più recente.
+
+01:40.190 --> 01:46.960
+Se abbiamo un array qui sappiamo che ci prenderà se i tweet sono memorizzati in un array.
+
+01:47.210 --> 01:52.340
+Ci porteranno mentre andiamo a zero.
+
+01:52.400 --> 02:06.770
+Otteniamo il tweet più vecchio e se andiamo array array punto lenth meno uno otteniamo i tre meno 1 in modo che sia 2
+
+02:06.770 --> 02:10.100
+che è 0 1 2.
+
+02:10.100 --> 02:13.220
+Questo sarà 2.
+
+02:13.550 --> 02:15.060
+Ne avremo 20.
+
+02:15.170 --> 02:22.130
+Il tweet più recente e il modo in cui gli array funzionano,
+
+02:22.130 --> 02:27.670
+sappiamo che entrambe queste operazioni saranno così una volta.
+
+02:28.000 --> 02:33.430
+E questo sarà anche 0 1 o tempo costante.
+
+02:33.460 --> 02:36.420
+Quindi un totale di 0 2 operazioni.
+
+02:36.430 --> 02:42.910
+Ma usiamo ancora il nostro regolamento e lo semplificiamo a Costantino.
+
+02:42.980 --> 02:43.610
+Quindi è grandioso.
+
+02:43.610 --> 02:50.430
+Costruiamo una piccola e semplice applicazione Twitter e possiamo ottenere queste informazioni molto facilmente.
+
+02:50.720 --> 02:58.100
+Ma ora il nostro capo torna da noi e dice hey voglio che tu confronti le date dei tweet.
+
+02:58.250 --> 03:05.140
+Quindi voglio che tu guardi ogni tweet ora all'interno di ogni array.
+
+03:05.320 --> 03:21.240
+C'è un oggetto con ogni tweet.
+
+03:21.280 --> 03:25.560
+Ora abbiamo e questa persona non tweet molto.
+
+03:25.570 --> 03:28.320
+Tre tweet in sei anni.
+
+03:28.330 --> 03:37.790
+Ma ora dobbiamo confrontare ogni tweet con tutti gli altri tweet e confrontare le loro date.
+
+03:38.040 --> 03:40.710
+Qual è il grande obiettivo di questa operazione.
+
+03:43.100 --> 03:49.690
+Beh, perché stiamo confrontando ogni elemento dell'array con l'altro.
+
+03:49.700 --> 03:51.140
+Questo dovrebbe sembrare familiare.
+
+03:51.140 --> 03:52.560
+Stiamo facendo cicli annidati.
+
+03:52.640 --> 04:00.870
+Quindi ci vorrà del tempo e schizzeremo almeno il tempo mentre lo sappiamo ora.
+
+04:01.060 --> 04:07.990
+Quindi sappiamo che questo richiederà molto e si adatta a una persona che ha molti tweet un sacco di
+
+04:08.020 --> 04:09.000
+input nell'array.
+
+04:09.280 --> 04:12.420
+Questa operazione potrebbe costarci un sacco di soldi su Twitter.
+
+04:12.580 --> 04:16.100
+Quindi potresti voler dire al tuo capo chi potremmo avere un problema qui.
+
+04:16.120 --> 04:23.470
+Potremmo aver bisogno di fare qualcos'altro, magari memorizzare le informazioni in un formato migliore o fare qualcosa
+
+04:23.470 --> 04:31.420
+di diverso con il nostro programma, al fine di evitare qualcosa che potrebbe essere inefficiente e potrebbe essere costoso
+
+04:31.600 --> 04:32.630
+per l'azienda.
+
+04:33.290 --> 04:41.240
+E solo pensando in questo modo ora hai questa capacità di pensare a lungo termine che consideri Cote
+
+04:41.240 --> 04:42.870
+scalabile come divertente.
+
+04:43.190 --> 04:51.860
+Cosa succede se ti chiedo qual è l'operazione e cosa ci costerà.
+
+04:51.890 --> 04:59.850
+Se ho una stringa e faccio punti abbondante e javascript che significa solo qual è la lunghezza della nostra stringa.
+
+05:00.690 --> 05:05.590
+Questo significa che abbiamo 20 articoli nella stringa.
+
+05:05.610 --> 05:13.260
+Secondo te, la grande notazione di questo è O e questa è una domanda complicata
+
+05:13.260 --> 05:20.390
+e qualcosa che potresti chiedere in un'intervista perché la risposta dipende dal linguaggio con
+
+05:20.390 --> 05:22.430
+cui stai lavorando.
+
+05:22.460 --> 05:31.470
+Abbiamo bisogno di sapere come funziona il metodo sulle stringhe qui e che è incorporato in javascript e avrai un metodo
+
+05:31.490 --> 05:37.100
+diverso per la tua lingua basato su come viene costruito il linguaggio.
+
+05:37.160 --> 05:47.510
+Questo DOD lenth potrebbe andare uno alla volta e scorrere su ogni lettera e contare fino a 20 1 2 3 4
+
+05:47.510 --> 05:57.680
+5 6 7 8 9 10 fino a 20 ma javascript ha effettivamente la proprietà di lunghezza incorporata in ogni stringa.
+
+05:58.030 --> 06:05.370
+Quindi per javascript questa proprietà di Daleth è solo una semplice ricerca.
+
+06:05.430 --> 06:07.970
+Non è una funzione.
+
+06:08.130 --> 06:10.830
+Non stiamo eseguendo questa funzione per calcolare le cose.
+
+06:10.830 --> 06:15.230
+Invece è semplicemente una proprietà di un oggetto.
+
+06:15.450 --> 06:16.490
+E a causa di ciò.
+
+06:16.590 --> 06:21.600
+E ancora, se non hai molta familiarità con javascript, questo potrebbe essere un po 'confuso ma
+
+06:21.600 --> 06:22.340
+non stressarti.
+
+06:22.410 --> 06:27.660
+L'idea è che questa operazione in javascript sia 0.
+
+06:27.840 --> 06:38.240
+Costantino, ma senza sapere come funziona la tua lingua, non sai come funziona questa proprietà.
+
+06:38.280 --> 06:47.070
+Forse se tu avessi un metodo su come potrebbe funzionare, ora hai una base potente per pilastro per iniziare a pensare
+
+06:47.370 --> 06:50.240
+al codice in un modo diverso.
+
+06:50.310 --> 06:57.030
+Iniziare a guardare lo spazio e il tempo sono qualcosa che è prezioso per noi come ingegneri e risorse
+
+06:57.030 --> 06:58.620
+che dobbiamo stare attenti.
+
+06:58.620 --> 07:06.320
+Non abbiamo una quantità infinita di risorse che dobbiamo fare attenzione quando codifichiamo come usiamo queste risorse.
+
+07:06.450 --> 07:10.800
+E questo da solo ti rende un ingegnere migliore.
+
+07:10.820 --> 07:11.660
+Vedrò nei prossimi.

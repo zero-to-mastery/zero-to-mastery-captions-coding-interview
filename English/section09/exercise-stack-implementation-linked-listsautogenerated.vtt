@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.000 --> 00:01.820
+Welcome back.
+
+00:02.110 --> 00:08.420
+It's time to code our own stack and I have a little exercise for you here.
+
+00:08.500 --> 00:14.140
+I've created the template of what we want our stack data structure to look like.
+
+00:14.280 --> 00:17.570
+And we also have a class of node.
+
+00:17.670 --> 00:23.100
+If you decide to use that and you should be familiar with it from our linked lists exercise.
+
+00:23.310 --> 00:27.770
+Or you can just ignore it and create a new node yourself in here.
+
+00:28.980 --> 00:34.380
+Now this stack is going to have in its constructor three properties.
+
+00:34.500 --> 00:42.870
+We have the top which is remember the top plate we have the bottom which is the bottom plate and then
+
+00:42.870 --> 00:50.430
+we have a length of zero and both top and bottom are currently null.
+
+00:50.440 --> 00:55.640
+Now we're going to be using linked lists to fill these values.
+
+00:56.360 --> 01:01.050
+But we don't need to use the linked list class that we've used before.
+
+01:01.070 --> 01:09.020
+Instead you can just use the Node class to simply assign different values and make sure that the dot
+
+01:09.230 --> 01:18.310
+next points to a different node as we add things now your task is to create three methods that work
+
+01:18.580 --> 01:27.030
+for this data structure peak which lets us see the very top element or top node.
+
+01:27.530 --> 01:38.330
+The push which lets us add a node to the top of the stack and a pop which lets us remove from the top
+
+01:38.330 --> 01:39.720
+of the stack.
+
+01:39.920 --> 01:47.120
+And if you want to Optionally you can also do an is empty method which is common with the stack to check
+
+01:47.150 --> 01:51.620
+that our stack is empty.
+
+01:51.680 --> 01:58.960
+We'll start off with a my stack that gets instantiated and your code works.
+
+01:58.960 --> 02:07.990
+If we can do something like this where you say my stack dot push let's say Google then push you Dammy
+
+02:08.290 --> 02:16.080
+push discord just like a browser history and then you can pop discord and pop you Demy pop.
+
+02:16.120 --> 02:21.860
+Google Good luck and I'll see in the solution video bye.

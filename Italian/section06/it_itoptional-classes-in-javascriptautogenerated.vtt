@@ -1,0 +1,823 @@
+WEBVTT
+
+00:01.220 --> 00:02.450
+Ben tornato.
+
+00:02.450 --> 00:06.110
+Parleremo di alcuni concetti di oggetti avanzati.
+
+00:06.440 --> 00:13.790
+Ora, come ho detto sia con le matrici che con le funzioni, questi sono concetti avanzati che probabilmente
+
+00:13.790 --> 00:21.440
+non lo otterrete al 100% la prima volta, ma userò questi video come riferimento per tornare mentre progredisci
+
+00:21.440 --> 00:23.040
+nella tua carriera.
+
+00:24.200 --> 00:29.970
+Ora in questo video parlerò di tre cose importanti per gli oggetti.
+
+00:30.060 --> 00:35.210
+Parleremo del tipo di riferimento.
+
+00:35.300 --> 00:38.000
+Parleremo del contesto.
+
+00:38.570 --> 00:41.300
+E infine parleremo di istanziazione, quindi
+
+00:44.930 --> 00:51.870
+iniziamo con il primo riferimento a ciò che intendo quando dico tipo di riferimento cosa volevo vedere
+
+00:51.870 --> 00:55.410
+se riesci a indovinare cosa succederà quando lo farò.
+
+00:55.550 --> 00:58.730
+La matrice è uguale alla matrice.
+
+00:58.770 --> 01:00.510
+Cosa pensi che la risposta sarà.
+
+01:00.540 --> 01:01.000
+Vediamo.
+
+01:02.660 --> 01:05.880
+Hmm interessante OK.
+
+01:05.880 --> 01:14.110
+Cosa succede se faccio array uno che lo chiama un OK interessante.
+
+01:14.210 --> 01:15.310
+Un'altra domanda.
+
+01:15.500 --> 01:18.320
+Che dire di qualcosa del genere.
+
+01:19.380 --> 01:20.660
+Come oggetto
+
+01:21.010 --> 01:25.030
+Chiama il valore 10
+
+01:29.180 --> 01:48.530
+e diremo che l'oggetto 2 è uguale all'oggetto 1 e alla fine un oggetto variabile 3 è uguale al valore 10.
+
+01:49.400 --> 01:54.650
+Quindi guardandoli e in effetti sto per copiarlo qui così puoi vederlo anche tu.
+
+01:59.210 --> 02:00.130
+Guardando questo.
+
+02:00.260 --> 02:07.370
+Cosa succede se faccio oggetto uno uguale a oggetto 2.
+
+02:07.400 --> 02:08.460
+Cosa pensi che succederà.
+
+02:09.520 --> 02:10.010
+Vero.
+
+02:10.220 --> 02:10.690
+OK.
+
+02:10.840 --> 02:11.530
+Ciò ha senso.
+
+02:11.530 --> 02:15.500
+Intendo oggetto per oggetto 1.
+
+02:15.680 --> 02:22.710
+Ma se faccio obiezioni a uno chiama l'oggetto tre.
+
+02:22.800 --> 02:25.650
+Qui ottengo il falso.
+
+02:25.840 --> 02:31.040
+Ma perché abbiamo valori di valore 10 e sono entrambi la stessa cosa.
+
+02:31.210 --> 02:32.390
+Destra.
+
+02:32.410 --> 02:33.160
+Prendiamo qualcos'altro.
+
+02:33.160 --> 02:36.950
+Cosa succede se obietto un valore.
+
+02:38.170 --> 02:42.370
+Uguale a 15 OK.
+
+02:42.530 --> 02:45.290
+E ora obietto alla valle oscura che
+
+02:48.330 --> 02:49.970
+è uguale a 15.
+
+02:50.100 --> 02:59.880
+Ma se faccio obiezione del valore di 3, ottengo 10 bene come è stato il grado di confusione.
+
+02:59.940 --> 03:02.090
+Diamo un'occhiata a ciò che sta realmente accadendo.
+
+03:02.370 --> 03:06.920
+E questo è il primo argomento di cui stiamo parlando, che è il tipo di riferimento.
+
+03:07.050 --> 03:08.200
+Diamo un'occhiata a un diagramma.
+
+03:10.950 --> 03:18.300
+Gli oggetti sono quelli che vengono chiamati i tipi di riferimento e Javascript fino a questo punto.
+
+03:18.300 --> 03:24.950
+Tutti gli altri tipi di javascript che abbiamo imparato, compresi
+
+03:27.480 --> 03:39.500
+i numeri, sanno che le stringhe booleane non sono definite, anche i simboli sono tutti definiti dal linguaggio di programmazione.
+
+03:39.520 --> 03:48.100
+Quindi Javascript la persona che ha scritto javascript e ECMAScript lo standard dice che questi sono tipi primitivi.
+
+03:48.100 --> 03:57.910
+Vi diciamo cosa sono ora un tipo di riferimento che è un tipo non primitivo non sono definiti dai
+
+03:57.910 --> 03:59.850
+linguaggi di programmazione.
+
+03:59.860 --> 04:06.330
+Ciò significa che sono creati dal programmatore.
+
+04:06.360 --> 04:08.730
+Quindi diamo un'occhiata qui come esempio.
+
+04:09.710 --> 04:10.880
+Quando dico variabile.
+
+04:10.880 --> 04:13.150
+Il numero uno è uguale a uno.
+
+04:13.280 --> 04:15.100
+Javascript sa cosa si è.
+
+04:15.100 --> 04:17.450
+È un numero ed è un tipo primitivo.
+
+04:17.450 --> 04:19.250
+È sempre la stessa cosa
+
+04:19.550 --> 04:22.010
+È immutabile ogni volta che ne usa uno.
+
+04:22.220 --> 04:25.280
+Questo è lo stesso che javascript conosce.
+
+04:25.400 --> 04:33.150
+Quando eseguo il numero due variabile, viene utilizzato lo stesso numero di cui javascript è a conoscenza.
+
+04:33.180 --> 04:40.910
+Tuttavia, quando abbiamo creato l'oggetto Twan è uguale al valore 10 dell'oggetto a uguale all'oggetto quando un oggetto 3
+
+04:40.910 --> 04:45.540
+richiama il valore 10, benché siano stati creati dal programmatore.
+
+04:45.580 --> 04:47.020
+Ci sono tipi di riferimento.
+
+04:47.140 --> 04:55.240
+Quindi quello che abbiamo detto è che voglio che l'oggetto Twan crei un nuovo oggetto, dirà questa scatola qui, questo
+
+04:56.510 --> 05:06.530
+archivio e in esso inserirà il valore 10 in questo oggetto box per dire che voglio che tu faccia riferimento e da dove viene
+
+05:06.530 --> 05:07.650
+la parola.
+
+05:07.700 --> 05:15.020
+Oggetto di riferimento 1 che dice hey Voglio tutto ciò che è dentro questa scatola.
+
+05:16.150 --> 05:26.040
+Quando viene creato l'oggetto 3, è un nuovo oggetto perché abbiamo le nuove parentesi e sta dicendo il valore put 10
+
+05:26.040 --> 05:27.720
+in questa casella.
+
+05:27.720 --> 05:35.250
+In sostanza quello che stiamo facendo è dire quando creiamo un oggetto variabile uno stiamo memorizzando solo un riferimento a un
+
+05:35.250 --> 05:40.460
+indirizzo a cui stiamo memorizzando il valore 10 che è il Box 1.
+
+05:40.470 --> 05:43.730
+Quindi stiamo dicendo l'oggetto 1.
+
+05:43.920 --> 05:49.610
+Ti sto solo dicendo che questo è l'indirizzo di tutti i contenuti che vuoi
+
+05:49.680 --> 05:55.650
+e che l'oggetto mbox 1 sta dicendo che voglio qualunque cosa sia un oggetto 1.
+
+05:55.680 --> 06:01.200
+E osserviamo un oggetto Twan un oggetto Twan ha solo le informazioni della casella 1.
+
+06:01.380 --> 06:08.060
+Quindi fa riferimento al fatto che un oggetto 3 crea un nuovo oggetto.
+
+06:08.060 --> 06:15.110
+Quindi sta dicendo che inserirò i miei contenuti nella casella 3 e avrò solo l'indirizzo della casella che
+
+06:15.410 --> 06:17.860
+dice la casella 3 proprio qui.
+
+06:19.450 --> 06:21.040
+Quindi tornando al nostro esempio
+
+06:24.230 --> 06:27.990
+questo ha senso quando cambiamo il valore di un oggetto in 15.
+
+06:28.040 --> 06:31.100
+Cambiamo il contenuto della scatola 1.
+
+06:31.100 --> 06:39.290
+Quindi, quando facciamo obiezioni al valore di Daube che fa riferimento alla stessa casella dell'oggetto 1 che è 15 ma l'oggetto 3, il
+
+06:39.290 --> 06:45.680
+valore del cane non cambia perché quello è interessato a una scatola completamente diversa è la casella 3
+
+06:46.670 --> 06:48.700
+e torna al primo esempio.
+
+06:50.760 --> 06:51.550
+Array.
+
+06:51.830 --> 06:59.020
+Bene, come ho detto nei video precedenti, gli array sono solo oggetti che hanno concluso la giornata.
+
+06:59.030 --> 07:05.130
+Quindi quando crei un array è la stessa cosa che crea una scatola una struttura dati.
+
+07:05.450 --> 07:09.720
+E questo sta creando una seconda struttura dati giusta.
+
+07:09.800 --> 07:16.910
+Questo è un tipo di riferimento, un concetto molto importante, ma penso che tu abbia ragione.
+
+07:17.620 --> 07:18.930
+Andiamo al prossimo.
+
+07:18.940 --> 07:20.980
+Questo diventa un po 'più complicato.
+
+07:21.010 --> 07:30.050
+Il contesto e il contesto chiamati questo si confondono molto con lo scopo.
+
+07:30.140 --> 07:37.180
+Se ricordi, abbiamo detto che lo scope viene creato quando vede giuste parentesi graffe.
+
+07:37.220 --> 07:44.990
+Abbiamo detto che se creiamo una funzione non appena creiamo quella funzione, c'è un nuovo ambito che è
+
+07:44.990 --> 07:46.050
+stato creato.
+
+07:46.400 --> 07:57.490
+Quindi possiamo avere un uguale a e che vive all'interno di questo universo.
+
+07:57.500 --> 08:02.120
+Non sa nulla dello scope di base che è qui.
+
+08:02.120 --> 08:06.630
+Quindi, se eseguo il log della console AA, non funzionerà.
+
+08:06.850 --> 08:12.190
+Oh e abbiamo bisogno di assegnare effettivamente qualcosa e abbiamo bisogno di nominarlo è più grande dire B.
+
+08:12.260 --> 08:20.760
+Quindi, se faccio bene questa console o log, restituiranno solo un errore di riferimento perché non esiste.
+
+08:20.760 --> 08:22.290
+Quindi questo è lo scopo.
+
+08:22.350 --> 08:31.470
+Ora, come è il contesto diverso contesto ti dice dove siamo all'interno dell'oggetto.
+
+08:31.470 --> 08:32.560
+Lasciatemi spiegare.
+
+08:32.910 --> 08:38.870
+Se diciamo console doll, registra questo.
+
+08:39.060 --> 08:44.910
+Bene, vedi che ottengo qualche risalto e questa è la prima volta che vediamo questo ed è una
+
+08:44.910 --> 08:46.270
+parola speciale in javascript.
+
+08:46.290 --> 08:52.140
+Probabilmente la parola più confusa che molte persone hanno problemi e anche le persone che sono nel settore
+
+08:52.140 --> 08:57.110
+da anni hanno ancora un momento difficile con questo, ma vediamo di cosa si tratta.
+
+08:57.510 --> 09:03.900
+Questo è come puoi vedere l'oggetto finestra.
+
+09:03.940 --> 09:14.550
+Quindi, per ricontrollare se faccio console o registro questa finestra equivale, ottengo vero.
+
+09:14.780 --> 09:23.950
+E posso accedere a questo avviso punto.
+
+09:23.980 --> 09:35.620
+Quindi, questo significa che cos'è l'ambiente oggetto in cui ci troviamo adesso, il modo migliore per
+
+09:35.620 --> 09:42.450
+pensarci è quello che è a sinistra del punto.
+
+09:42.460 --> 09:49.860
+Quindi adesso sono in grado di fare alert perché sono dentro l'oggetto window.
+
+09:50.110 --> 09:53.960
+Quindi, fare una finestra o farlo è la stessa cosa.
+
+09:54.160 --> 09:57.110
+Ora, perché è così importante.
+
+09:57.270 --> 10:04.050
+Bene, quando arriveremo all'istanziazione ti mostrerò perché è, ma è un concetto molto importante che vedrai
+
+10:04.050 --> 10:05.430
+ancora e ancora.
+
+10:05.490 --> 10:15.780
+Ma ricordate che questo si riferisce solo a quale oggetto si trova all'interno di altri due esempi per dimostrare che
+
+10:17.200 --> 10:23.410
+questo è se io faccio funzionare una funzione di Withem e
+
+10:26.190 --> 10:29.090
+dirò questo a console dog.
+
+10:29.120 --> 10:39.260
+Quindi se lo chiamo cosa pensi succeda, Lucy è ancora l'oggetto finestra che si riferisce ancora alla funzione.
+
+10:39.360 --> 10:46.710
+E se ricordi che è perché ho detto che deve essere l'oggetto in cui ci troviamo adesso.
+
+10:46.790 --> 10:47.910
+Tecnicamente.
+
+10:47.970 --> 10:52.190
+Posso andare a finestra ehi ed eseguire la funzione.
+
+10:52.470 --> 11:02.890
+Quindi a sinistra del punto Bene, questa è la finestra per creare un nuovo valore per questo.
+
+11:03.020 --> 11:06.530
+Devi fare qualcosa di simile.
+
+11:10.370 --> 11:13.550
+Oggetto a funzione a.
+
+11:13.550 --> 11:14.900
+Ora se lavoro
+
+11:19.860 --> 11:22.730
+e entro qui faccio un log della console.
+
+11:23.180 --> 11:32.500
+Bene, in questo caso se copio questo ed eseguo l'oggetto per un po
+
+11:35.540 --> 11:36.270
+'.
+
+11:36.560 --> 11:45.730
+Questo è l'oggetto per cui è oggetto.
+
+11:45.800 --> 11:49.860
+Quindi, perché è così importante per noi.
+
+11:50.030 --> 11:54.460
+Beh, prima di tutto lo vedrai e altri codebase è quindi è bello sapere.
+
+11:54.680 --> 12:01.790
+Ma è davvero importante quando facciamo l'istanza di istanziazione quando realizzi una copia di un
+
+12:02.420 --> 12:05.270
+oggetto e riutilizzi il codice.
+
+12:05.270 --> 12:09.140
+Immagina di costruire un grande gioco multiplayer online.
+
+12:09.590 --> 12:17.120
+E questo gioco avrà molti giocatori che puoi avere maghi che puoi avere troll degli elfi warlock.
+
+12:17.150 --> 12:24.080
+Ora se dovessi creare un oggetto per ogni singolo giocatore che è un sacco di codice ripetuto è un
+
+12:24.080 --> 12:30.040
+sacco di problemi e questo è un sacco di tempo e non è molto efficiente risolverlo.
+
+12:30.070 --> 12:32.070
+Puoi fare qualcosa chiamato istanziazione.
+
+12:32.260 --> 12:37.460
+Stai creando istanze o più copie di un oggetto.
+
+12:37.480 --> 12:43.350
+Quindi lascia che ti mostri come facciamo di nuovo l'istanza in javascript.
+
+12:43.410 --> 12:49.590
+All'inizio sembrerà un po 'strano, proprio come nei loop, proprio come le funzioni all'inizio,
+
+12:49.590 --> 12:54.320
+ma è solo la sintassi e ci si abituerà.
+
+12:54.330 --> 12:59.200
+Quindi diciamo che abbiamo una classe di giocatori.
+
+12:59.370 --> 13:05.460
+Ora vedi già la nuova sintassi e capitalizzo una classe.
+
+13:05.510 --> 13:09.980
+Ora pensa a una classe come qualcosa di cui voglio fare una copia.
+
+13:10.160 --> 13:18.080
+Se mai voglio fare una copia di un oggetto è una buona idea fare qualcosa del genere così che vedrai
+
+13:18.080 --> 13:19.990
+quanto è facile copiarlo.
+
+13:20.000 --> 13:21.980
+Ora così facciamo.
+
+13:21.980 --> 13:28.610
+Il giocatore di classe e qui dentro dirà il costruttore e so che questo
+
+13:31.300 --> 13:35.530
+sembra strano ma di nuovo è solo sintassi.
+
+13:35.530 --> 13:45.580
+Diamo a questo giocatore può avere un nome e un tipo e all'interno del costruttore questo nome
+
+13:45.780 --> 13:51.300
+che chiama nome e questo tipo che chiama è appena
+
+13:55.890 --> 13:58.110
+successo qui costruttore.
+
+13:58.110 --> 14:00.960
+Quando crei una classe, una classe di giocatori dice.
+
+14:01.140 --> 14:08.280
+Ogni volta che faccio una copia di un giocatore, la prima cosa che viene
+
+14:08.280 --> 14:17.570
+eseguita è la funzione di costruzione e questa funzione di costruzione creerà queste proprietà sull'oggetto giocatore, quindi nome e tipo.
+
+14:17.610 --> 14:21.450
+E ora posso creare tutto ciò che voglio per il giocatore.
+
+14:21.450 --> 14:30.670
+Diciamo che vogliamo creare un metodo come introdurre i registri della
+
+14:33.600 --> 14:39.580
+console con le tattiche Ciao io sono.
+
+14:39.800 --> 14:54.140
+E di nuovo ricorderai che questo modello di Sendak suona questo nome fatto. Sono un tipo così.
+
+14:54.230 --> 15:02.480
+Quindi ora sto dicendo questa classe qualsiasi giocatore che creo sarà sempre in grado di
+
+15:02.480 --> 15:07.760
+presentarsi e avranno anche questo nome e questo tipo.
+
+15:07.850 --> 15:14.880
+E il motivo per cui lo usiamo qui è che quando creiamo un giocatore possiamo accedere al nome e digitare proprietà.
+
+15:14.930 --> 15:17.270
+Ti mostrerò in seguito come funziona.
+
+15:17.270 --> 15:24.530
+Ma questa è solo una sintassi a cui ci si abituerà per accedere al lettore e fare copie di
+
+15:24.530 --> 15:25.070
+esso.
+
+15:25.070 --> 15:29.240
+Dovrai eseguire un costruttore che è tutte le proprietà e i metodi che vuoi che il
+
+15:29.240 --> 15:29.920
+giocatore abbia.
+
+15:30.200 --> 15:38.630
+Puoi anche creare metodi che i giocatori possono avere e ogni volta che vuoi accedere a una proprietà
+
+15:38.630 --> 15:44.740
+all'interno del costruttore userò questo nome per voler usare introdurre Dovrò farlo.
+
+15:44.780 --> 15:47.100
+Introdurre.
+
+15:47.130 --> 15:53.970
+OK, quindi abbiamo un giocatore, ma quando stiamo costruendo il nostro gioco multiplayer vogliamo ora copiarlo ma aggiungerci
+
+15:53.970 --> 15:54.580
+sopra.
+
+15:54.690 --> 15:59.060
+Diciamo che abbiamo quello che vogliamo creare un mago giocatore un giocatore che è un mago.
+
+15:59.460 --> 16:09.450
+In tal caso, quando eseguiamo la procedura guidata di classe, la lettera maiuscola si estende e di nuovo
+
+16:10.080 --> 16:13.330
+è solo il tastierista javascript.
+
+16:13.370 --> 16:19.270
+Quindi, cosa sta dicendo questo, voglio che il mago estenda qualunque cosa abbia un giocatore.
+
+16:19.280 --> 16:26.480
+Quindi voglio aggiungere in cima a qualsiasi giocatore abbia di nuovo perché è una classe che dovrà fare un costruttore.
+
+16:28.370 --> 16:35.630
+E questo mago accetterà Knabe e digiterà e dentro questa è la parte difficile.
+
+16:35.630 --> 16:45.440
+Ogni volta che estendiamo qualcosa, dobbiamo anche chiamare la funzione di costruzione del giocatore.
+
+16:45.440 --> 16:52.010
+Dobbiamo fare qualcosa chiamato super con le proprietà che vogliamo passare al costruttore.
+
+16:52.010 --> 17:00.980
+In questo caso, nome e tipo so che questo è confuso, è solo qualcosa che devi fare quando estendi
+
+17:01.280 --> 17:02.350
+una classe.
+
+17:02.570 --> 17:09.550
+Vuoi usare Soopers in modo che tu abbia essenzialmente accesso a questi OK.
+
+17:09.580 --> 17:16.430
+Quindi diciamo che con il wizard Vogliamo anche avere una funzione di riproduzione e la funzione di riproduzione era
+
+17:16.430 --> 17:18.350
+solo un log di console.
+
+17:19.000 --> 17:30.590
+Siamo di questo tipo e ora che abbiamo il nostro mago Qual è il potere qual è la ragione per cui l'abbiamo appena
+
+17:30.590 --> 17:31.280
+fatto.
+
+17:31.310 --> 17:37.400
+Ora possiamo farlo invece di creare costantemente giocatori e poi dire che hanno i loro maghi
+
+17:37.400 --> 17:38.700
+e possono giocare.
+
+17:38.720 --> 17:49.310
+Ora posso dire che il wizard 1 è uguale al nuovo wizard e chiameremo di nuovo il primo wizard.
+
+17:49.310 --> 17:58.260
+Riceviamo nome e tipo, quindi diremo Shelly e lei sarà una guaritrice.
+
+18:00.160 --> 18:16.030
+E se voglio creare un nuovo mago, dirò semplicemente che il mago 2 è uguale al nuovo mago Sean e lui è una magia oscura.
+
+18:16.290 --> 18:23.910
+C'era un sacco di nuove sintassi, quindi passiamo oltre e assicuriamoci di capire tutto come abbiamo imparato
+
+18:23.920 --> 18:28.930
+usiamo il log della console per capire davvero cosa stiamo facendo.
+
+18:28.960 --> 18:34.280
+Ho intenzione di aggiungere un log della console proprio qui sopra.
+
+18:36.210 --> 18:37.560
+Lo dirò
+
+18:37.580 --> 18:39.730
+Cos'è questo.
+
+18:39.840 --> 18:48.010
+Sto andando a salvare e in realtà ho intenzione di copiare questo nella console, copiarlo.
+
+18:49.080 --> 18:51.520
+E guarda cosa ci dà il log della console.
+
+18:51.520 --> 18:54.390
+Vediamo che otteniamo Wizard.
+
+18:54.480 --> 18:54.840
+Tutto ok.
+
+18:54.870 --> 18:56.160
+Esaminiamo tutto qui.
+
+18:57.530 --> 19:02.410
+Dico che abbiamo un giocatore di classe e poi un mago di classe che estende il giocatore.
+
+19:02.780 --> 19:07.390
+E poi abbiamo due variabili che abbiamo creato Wizard 1 e Wizard 2.
+
+19:07.430 --> 19:14.270
+Ora il programma vedrà la nuova parola chiave e ogni volta che vedrà
+
+19:14.270 --> 19:23.570
+una nuova parola chiave dice che stiamo creando un nuovo wizard e questo wizard avrà due parametri Shelli e healer.
+
+19:23.810 --> 19:30.230
+Quindi andrà di nuovo nella classe guidata perché ha questa nuova parola.
+
+19:30.260 --> 19:36.150
+Va alla classe dei maghi e dice un mago.
+
+19:36.210 --> 19:38.690
+Voglio che tu estenda il giocatore.
+
+19:38.850 --> 19:47.940
+Quindi andrà al costruttore e vedrà questo super E quello che fa è
+
+19:47.940 --> 19:51.520
+portarci al costruttore del giocatore.
+
+19:51.750 --> 19:59.420
+E l'Iran è questo e ora lo attacca come il mago.
+
+19:59.910 --> 20:03.870
+E poi introduce la nuova funzione e quindi aggiunge la funzione di riproduzione.
+
+20:03.870 --> 20:16.490
+Ora, se vado al mago 1 e dico play, capisco che sono un guaritore perché Shelly è una guaritrice.
+
+20:16.710 --> 20:28.880
+Ma ho anche accesso al wizard 1 cane introduttivo Ciao io sono Shelly Sono un guaritore e abbiamo anche accesso
+
+20:30.230 --> 20:34.530
+al wizard per eseguire nuovamente questo.
+
+20:34.660 --> 20:35.910
+Facciamo di nuovo questo.
+
+20:38.920 --> 20:42.510
+E non penso di aver copiato il secondo mago l'ultima volta.
+
+20:42.760 --> 20:47.320
+Quindi ora ho un mago da presentare.
+
+20:47.330 --> 20:48.370
+Ciao, sono Sean.
+
+20:48.460 --> 20:50.820
+Um Sono una magia oscura.
+
+20:50.860 --> 20:54.070
+Quella frase non ha senso Sean, ma per ora va bene.
+
+20:54.920 --> 20:57.200
+Proviamo a fare qualcosa se lo faccio.
+
+20:57.200 --> 20:58.580
+Log della console.
+
+21:01.270 --> 21:05.480
+Qui e diremo semplicemente il mago e qui diremo
+
+21:08.130 --> 21:09.420
+il giocatore.
+
+21:09.420 --> 21:11.160
+Solo così possiamo distinguere tra loro.
+
+21:12.660 --> 21:19.770
+E sto solo andando a copiare il primo mago in modo che non torniamo a correre due di questi
+
+21:19.770 --> 21:25.760
+perché stiamo creando due maghi, due volte, ma solo per la nostra sanità mentale. Correremo.
+
+21:25.770 --> 21:32.030
+Shelly Così ho intenzione di aggiornare e aggiungere qui ho dimenticato di aggiungere una virgola
+
+21:35.270 --> 21:43.270
+e facciamo l'aggiornamento e ottengo il nostro errore di riferimento Knerr deve chiamare super costruttore e classe derivata prima di
+
+21:43.280 --> 21:44.990
+accedere a questo.
+
+21:45.470 --> 21:54.380
+Quello che sta dicendo è che per poter accedere a questo e ottenere questo tipo devo chiamare super che esegue
+
+21:54.830 --> 21:57.620
+una funzione costruttore e un giocatore.
+
+21:57.680 --> 21:59.210
+Ecco cosa sta facendo super.
+
+21:59.210 --> 22:05.030
+Sembra strano ma è solo qualcosa che ti serve alzarti in fondo dopo
+
+22:05.030 --> 22:08.660
+aver chiamato super e ora dovrebbe funzionare.
+
+22:08.780 --> 22:18.750
+Vediamo che ottengo il primo mago del giocatore.
+
+22:19.160 --> 22:24.600
+Quindi chiamiamo super non appena diciamo il nuovo mago guaritore di Shelli.
+
+22:24.880 --> 22:32.350
+Vado dal giocatore dell'accento del mago. Eseguo la funzione di costruzione che dice super hey che esegue la funzione di costruzione
+
+22:32.350 --> 22:35.240
+e il giocatore ed io lo eseguiamo.
+
+22:35.350 --> 22:44.520
+Ed è per questo che prima registriamo console log player e poi andiamo alla finestra di dialogo della console e poi eseguiamo
+
+22:44.520 --> 22:46.490
+il resto della classe.
+
+22:46.530 --> 22:48.130
+Molto bello
+
+22:48.340 --> 22:50.670
+Ora solo per mostrarti qualcosa.
+
+22:50.710 --> 22:57.470
+Questa è in realtà una nuova sintassi che vedrai e reagire e che faceva parte di ESX.
+
+22:57.910 --> 23:07.040
+Ma nel passato questo è il modo in cui lo facevamo esattamente nello stesso identico codice che ho qui
+
+23:11.590 --> 23:12.560
+sopra.
+
+23:14.530 --> 23:21.190
+Si chiama ereditarietà classica e non sembra troppo male ma vedi che c'è un prototipo che è un'altra
+
+23:21.190 --> 23:26.440
+cosa che vedrai in javascript e per essere onesto con te non dovresti davvero
+
+23:26.440 --> 23:26.920
+usarlo.
+
+23:26.920 --> 23:28.430
+Non sembra molto carino.
+
+23:28.780 --> 23:37.090
+E vedi che dobbiamo giocare sia per la bacchetta magica che per la procedura guidata 2 e non sembra così
+
+23:37.840 --> 23:39.220
+bella come questa.
+
+23:39.310 --> 23:41.890
+E una volta che ti abitui a tutto.
+
+23:42.100 --> 23:43.760
+Non è male.
+
+23:43.780 --> 23:49.540
+Tutto quello che stiamo dicendo è non appena diciamo che classe che dice che probabilmente faremo una
+
+23:49.540 --> 23:51.000
+copia di questo oggetto.
+
+23:51.210 --> 23:56.760
+Quindi vogliamo fare copie del giocatore che vogliamo fare copie del wizard e questo è chiamato istanziazione.
+
+23:56.760 --> 24:06.060
+Quando eseguo la nuova parola chiave, dico di creare un'istanza di procedura guidata e la procedura guidata utilizza alcune funzionalità
+
+24:06.060 --> 24:11.190
+del lettore e aggiunge anche la sua funzione di riproduzione.
+
+24:11.190 --> 24:18.720
+Santo Moly è stato come dire che è qualcosa a cui dovrai tornare e non lo
+
+24:18.720 --> 24:19.890
+capirai subito.
+
+24:19.890 --> 24:26.330
+È davvero molto difficile comprendere appieno l'argomento senza doverlo effettivamente utilizzare nella vita reale.
+
+24:26.370 --> 24:32.850
+Tieni questo a mente ogni volta che senti parlare qualcuno del tipo di riferimento o dei contatti o
+
+24:33.240 --> 24:35.790
+persino dell'ambito o dell'istanziazione di qualcosa.
+
+24:35.790 --> 24:38.740
+Bene, queste sono le cose di cui stanno parlando.
+
+24:38.970 --> 24:40.930
+Gli oggetti sono davvero molto complicati.
+
+24:40.950 --> 24:42.490
+Sono davvero difficili.
+
+24:42.600 --> 24:45.660
+Ma con ciò ci dà un sacco di potere.
+
+24:46.990 --> 24:51.220
+Quindi con quella buona fortuna con gli esercizi che vedrò nel prossimo ma da.

@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.960 --> 00:01.790
+Witamy spowrotem.
+
+00:02.010 --> 00:06.810
+Zobaczmy, jak chcielibyśmy rozwiązać to pytanie.
+
+00:06.840 --> 00:14.610
+W ten sposób tworzymy strukturę danych stosu, która ma najwyższy PUSH i POP.
+
+00:14.810 --> 00:17.960
+Teraz szczyt powinien być dość prosty.
+
+00:18.020 --> 00:30.020
+Chcemy tylko zobaczyć najwyższy przedmiot na stosie, więc mogę powiedzieć, że Peake zwróci tę kropkę.
+
+00:30.470 --> 00:30.960
+to jest to!
+
+00:30.980 --> 00:40.080
+Ładne i proste, więc jeśli uruchomimy mój szczyt punktów, to nastąpi powrót.
+
+00:40.100 --> 00:44.870
+Nie, ponieważ nie ma nic w naszym stosie.
+
+00:44.880 --> 00:46.770
+Nie, to jest puste.
+
+00:46.790 --> 00:49.600
+Przejdźmy do interesującego, który jest push.
+
+00:49.640 --> 00:51.690
+Jak dodawać rzeczy do stosu.
+
+00:52.660 --> 00:59.720
+Cóż, pierwszą rzeczą, którą chcemy zrobić, to stworzyć nowy węzeł i, jak już powiedziałem, możemy stworzyć tutaj nowy obiekt,
+
+00:59.720 --> 01:05.390
+jeśli chcemy, lub możemy po prostu użyć klasy węzła, którą tu dla was dostarczyłem.
+
+01:06.560 --> 01:13.640
+Możemy użyć tej klasy, mówiąc nowy węzeł, który tworzy instancję klasy i nadaje jej
+
+01:13.640 --> 01:15.770
+wartość, którą będziemy naciskać.
+
+01:15.920 --> 01:24.080
+Następnie chcemy sprawdzić, czy jest to pierwszy element, ponieważ jeśli stos jest pusty i jest
+
+01:24.080 --> 01:31.050
+to pierwszy element, górny i dolny wskazują na tę samą nutę.
+
+01:31.120 --> 01:38.890
+W takim przypadku możemy sprawdzić, czy ta długość kropki jest równa zeru.
+
+01:39.880 --> 01:44.220
+W takim przypadku możemy po prostu powiedzieć, że szczyt będzie równy nowemu węzłowi.
+
+01:45.690 --> 01:57.570
+A także to górne dno będzie równe nowemu węzłowi. W przeciwnym razie musimy zrobić coś trochę innego, ale nie to
+
+01:57.570 --> 02:04.530
+innego, ponieważ widzieliśmy to w połączonym przykładzie listy, musimy po prostu zmienić
+
+02:04.530 --> 02:06.480
+niektóre wskaźniki wokół.
+
+02:06.570 --> 02:14.380
+W naszym przypadku chcemy powiedzieć, że Konst posiada wskaźnik do najwyższego węzła.
+
+02:16.820 --> 02:21.970
+Ponieważ to, co jest teraz na topie, zostanie zastąpione tym, co dodamy do tego.
+
+02:22.160 --> 02:29.790
+Będziemy więc odwoływać się do tego, co pierwotnie było szczytem, a następnie powiemy,
+
+02:29.800 --> 02:40.110
+że to uruchomienie będzie teraz równe nowemu węzłowi, a kropka kropka obok, która jest teraz nowym węzłem, wskaże
+
+02:40.110 --> 02:45.360
+co było wcześniej najlepsze, ale teraz jest poniżej.
+
+02:45.780 --> 02:48.240
+Więc mówimy po prostu wskaźnik trzymania.
+
+02:48.240 --> 02:56.920
+Więc to jest Alltop teraz będzie tuż po naszym nowym węźle, a następnie w końcu robimy to kropka Blant
+
+02:57.370 --> 03:03.960
+plus plus, aby zwiększyć długość o 1, a następnie w końcu chcemy wrócić.
+
+03:04.190 --> 03:08.000
+Zwróćmy teraz to, co zwróci nam listę linków.
+
+03:08.680 --> 03:09.700
+Zobaczmy, czy to zadziałało.
+
+03:11.280 --> 03:12.700
+Zamierzam powiedzieć najpierw Peke.
+
+03:12.720 --> 03:21.150
+Cóż, nic tu nie ma, ale jeśli chcę przejść do mojego stosu, zamierzam powiedzieć, że pchamy, a my najpierw będziemy
+
+03:21.150 --> 03:23.820
+naciskać Google'a, ponieważ najpierw odwiedzamy Google.
+
+03:24.970 --> 03:33.220
+I jeśli uruchomię to otrzymam strukturę danych, która ma górę, która ma wartość węzła Google.
+
+03:33.450 --> 03:40.970
+Dalej nie jest, ponieważ mamy tylko jeden przedmiot, a na dole jest to samo Google z kolejną notatką.
+
+03:41.460 --> 03:44.000
+A nasz stack ma jedenastą.
+
+03:44.150 --> 03:45.340
+Co jeśli dalej będziemy dodawać tutaj.
+
+03:45.360 --> 03:49.230
+Chodźmy do ciebie Demy dalej.
+
+03:49.440 --> 03:58.220
+Jeśli kliknę, uruchom, mam teraz długość dwóch stosów, które mają górny węzeł, jako Dammy, a dolny węzeł jako Google,
+
+03:58.700 --> 04:03.850
+ponieważ pamiętaj o stosie, na którym kładziemy talerze na wierzchu.
+
+04:04.040 --> 04:06.780
+To ty, Demy, przyszedł na końcu.
+
+04:06.890 --> 04:10.140
+Więc Dammy jest na szczycie.
+
+04:10.160 --> 04:12.890
+Pamiętaj, że Życie będzie ostatnim i pierwszym krokiem.
+
+04:13.070 --> 04:17.990
+Dodajmy jeszcze jeden, powiedzmy, że następnym razem odwiedzimy nasze biurko lub społeczność.
+
+04:17.990 --> 04:26.580
+Więc wszystko, co mówię, pchnij tę tykwę i klikam, biegnij i idź.
+
+04:26.650 --> 04:32.010
+Nasza społeczność Dischord jest u góry, na dole jest węzeł.
+
+04:32.080 --> 04:34.290
+I po to, aby upewnić się, że nasz Peke działa.
+
+04:34.450 --> 04:44.570
+Jeśli spojrzę, powinniśmy się rozzłościć, ponieważ to była ostatnia podstawa i wierzchołek pakietu.
+
+04:44.610 --> 04:45.370
+Bardzo dobrze.
+
+04:45.450 --> 04:46.710
+Mam nadzieję, że to dostałeś.
+
+04:47.160 --> 04:52.450
+Kontynuujmy pop, który usunie wszystko, co znajduje się na szczycie stosu.
+
+04:52.860 --> 05:00.630
+Najpierw sprawdźmy, czy jest jakiś przedmiot, bo jeśli nie ma i po prostu nie mamy.
+
+05:00.780 --> 05:02.520
+Cóż, po prostu nie wrócimy.
+
+05:03.920 --> 05:13.180
+Tak więc w tym przypadku możemy po prostu powiedzieć, że jeśli ten startup, jeśli nie istnieje, wrócimy.
+
+05:15.490 --> 05:22.660
+Dalej możemy po prostu zrobić nasz wskaźnik gospodarstwa Konst do tej kropki.
+
+05:22.990 --> 05:30.880
+Więc to, co aktualnie jest na szczycie, co jest niezgodą, powiem, że ten top Daut nie jest już tym, czym jest
+
+05:30.880 --> 05:33.130
+obecnie, ponieważ chcemy go usunąć.
+
+05:33.250 --> 05:38.990
+To będzie równa tej kropce, która jest poniżej niezgody.
+
+05:39.520 --> 05:45.950
+I w końcu mówimy to długo, minus minus, ponieważ chcemy zmniejszyć pożyczony o jeden.
+
+05:46.030 --> 05:49.920
+I wreszcie możemy powiedzieć, że teraz to zwróć.
+
+05:49.960 --> 05:54.070
+Pamiętaj, ponieważ JavaScript jest językiem gromadzącym śmieci.
+
+05:54.070 --> 06:05.880
+Gdybym tego nie zrobił i powiedziałbym, że trzymam wskaźnik na tej kropce. No cóż, ta notatka, która zawiera niezgodę, nie miałaby
+
+06:06.180 --> 06:08.320
+nic do odniesienia.
+
+06:09.150 --> 06:15.720
+I nieużywane przez cokolwiek, co oznacza, że w zbuforowanym języku takim jak javascript
+
+06:15.780 --> 06:19.860
+zostanie automatycznie usunięty z pamięci podczas odśmiecania.
+
+06:20.560 --> 06:25.780
+Więc jeśli to zrobię, póki jeszcze nic nie zrobiłem.
+
+06:25.950 --> 06:31.640
+Ale teraz dla popu po prostu zwróć wskaźnik trzymania.
+
+06:31.860 --> 06:40.280
+Jeśli kliknę przycisk Uruchom lub Zróbmy najpierw mój stos kropka pop, aby usunąć niezgodę z listy.
+
+06:40.330 --> 06:52.600
+Jeśli kliknę, uruchomię ponownie lub węzeł, który jest wskaźnikiem trzymania na wypadek, gdybyśmy nadal chcieli mieć do niego dostęp.
+
+06:53.130 --> 07:00.180
+W przeciwnym razie, gdybyśmy chcieli zniknąć, a my już tego nie potrzebujemy, możemy to po prostu zwrócić.
+
+07:00.210 --> 07:02.710
+Możemy nawet skomentować wskaźnik trzymania.
+
+07:02.820 --> 07:12.030
+A jeśli kliknę, uruchomimy teraz tylko ciebie Demy na górze, a Google na dole, a niezgoda zniknie
+
+07:12.030 --> 07:13.380
+z pamięci.
+
+07:13.500 --> 07:14.460
+Więc chodźmy tutaj.
+
+07:14.460 --> 07:18.030
+Powiedzmy, że chcę dodać jeszcze
+
+07:21.000 --> 07:30.860
+jednego, a jeśli to zrobię, mam teraz tylko jedno, co było oryginalnym przedmiotem na stosie.
+
+07:30.870 --> 07:35.160
+Kiedy więc po prostu poszliśmy do Google, poszliśmy do ciebie, Dammy.
+
+07:35.260 --> 07:42.600
+Potem poszliśmy na niezgoda, a potem wyskoczyliśmy z tego, co jest na górze, a potem wyskoczyliśmy z Dammy'ego,
+
+07:42.600 --> 07:44.990
+a teraz zostajemy z Google.
+
+07:45.180 --> 07:55.790
+Jeśli zrobię ostatnie pop tutaj i kliknę, mamy top, który nie jest wszystkim, ale och mamy dolny węzeł nadal posiadający
+
+07:56.390 --> 08:02.480
+Google, ponieważ nigdy nie usunięto go w pop nasz dolny węzeł.
+
+08:02.480 --> 08:06.400
+Wszystko, co zrobiliśmy, to wymienić szczyt.
+
+08:06.530 --> 08:17.640
+Musimy więc dodać tutaj jeden warunkowy, który jest, jeśli ten kropka jest równy tej dolnej kropce.
+
+08:17.780 --> 08:20.750
+Oznacza to, że na liście znajduje się tylko jedna pozycja.
+
+08:20.780 --> 08:29.380
+Mogłem również zrobić ten Post równy zero, jeśli oba są równe, co oznacza, że pozostała tylko
+
+08:29.620 --> 08:30.930
+jedna nuta.
+
+08:31.120 --> 08:36.760
+W tym przypadku chcemy powiedzieć, że ta kropka będzie równa zero.
+
+08:37.060 --> 08:41.950
+Ponieważ po usunięciu jedynego węzła pozostało nam dno, aby było równe nie.
+
+08:42.280 --> 08:45.410
+Więc jeśli to zrobię i kliknę, uruchom.
+
+08:45.440 --> 08:48.450
+Wróciliśmy do naszego oryginalnego pustego stosu.
+
+08:49.560 --> 08:52.740
+Mam nadzieję, że to dostałeś i udało ci się to zrozumieć.
+
+08:52.770 --> 08:55.610
+Mamy kolejne ekscytujące ćwiczenie w następnym filmie.
+
+08:55.750 --> 08:56.780
+Zobaczę to.
+
+08:57.190 --> 08:57.400
+Konstabl.

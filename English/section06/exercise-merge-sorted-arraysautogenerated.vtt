@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00.820 --> 00:01.870
+Welcome back.
+
+00:01.870 --> 00:12.960
+It's time to do another fun or re interview question an interviewer asks you given to a race that are
+
+00:12.960 --> 00:21.520
+sorted can you merge these two arrays into one big one that's still sorted.
+
+00:21.620 --> 00:30.170
+So if I have a function called merge sorted or race and I give it two parameters with two sorted arrays
+
+00:31.010 --> 00:33.000
+can you make it so that every turns.
+
+00:33.080 --> 00:39.910
+0 3 4 4 6 30 31 as you can see completely sorted.
+
+00:40.000 --> 00:43.850
+Let's see what you can come up with and I'll see you in the solution video by.

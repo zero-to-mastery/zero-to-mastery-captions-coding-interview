@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.950 --> 00:08.050
+Acum am învățat despre grămezi binare și am menționat că, spre deosebire de un arbore binar de căutare, nu există nici
+
+00:08.050 --> 00:11.620
+o ordine de la stânga la dreapta, 33 și 77.
+
+00:11.620 --> 00:16.920
+Le putem schimba și vor fi în continuare binare ieftine.
+
+00:16.930 --> 00:22.870
+Frumusețea grămezilor binare este că ei iau cel mai puțin spațiu posibil, deoarece este întotdeauna lasată la
+
+00:22.870 --> 00:25.770
+introducerea corectă așa cum tocmai am văzut.
+
+00:26.230 --> 00:29.800
+Deci nu există niciun concept al unui heap binar dezechilibrat.
+
+00:29.830 --> 00:34.780
+Nu trebuie să ne reechilibrăm ca un copac binar de căutare din cauza asta pentru că o fac.
+
+00:34.780 --> 00:38.970
+Din stânga la dreapta, așa cum am văzut în videoclipul precedent.
+
+00:39.100 --> 00:44.840
+Ei păstrează acest ordin de inserție, care este destul de uimitor.
+
+00:44.910 --> 00:51.960
+Și de fapt, puteți implementa grămezi binare utilizând o cursă față de ceea ce am făcut înainte cu arbori binari
+
+00:51.960 --> 00:54.680
+de căutare în care am folosit note.
+
+00:54.750 --> 01:01.380
+Deci, singura garanție pe care ni-l oferă binarul binar este aceea pe care am menționat-o că părintele este întotdeauna
+
+01:01.380 --> 01:03.580
+mai mare decât copiii acum.
+
+01:03.640 --> 01:12.190
+Pe lângă faptul că este memorie eficientă și compactă deoarece este întotdeauna o grămadă completă de arbori binar binari
+
+01:12.190 --> 01:16.130
+sunt foarte utile pentru lucruri precum cozile prioritare.
+
+01:16.980 --> 01:21.930
+Și s-ar putea să vă întrebați cozile prioritare nu am învățat doar despre cozi și nu
+
+01:21.930 --> 01:23.760
+este aceeași structură de date.
+
+01:23.760 --> 01:30.350
+Ei bine, nu pentru că, cu cozi, am presupus că a fost primul la început.
+
+01:30.360 --> 01:36.720
+Ați fost prima persoană în linie pe care ar trebui să o luați pentru a merge mai întâi în rollercoaster sau coada de priorități
+
+01:36.720 --> 01:38.370
+a filmului este ceva diferit.
+
+01:38.370 --> 01:42.360
+Este un tip de date în care fiecare element are prioritate.
+
+01:43.470 --> 01:50.430
+Și elemente cu o prioritate mai mare sunt servite în fața elementelor cu priorități mai mari pe care le puteți
+
+01:50.430 --> 01:52.200
+considera ca fiind un club.
+
+01:52.200 --> 02:00.150
+Să presupunem că avem un club de noapte extrem de popular și că există o linie lungă și
+
+02:00.150 --> 02:02.490
+am lăsat unii oameni fericiți.
+
+02:02.490 --> 02:09.150
+Dar apoi, dintr-o dată, avem niște VIP care au arătat ce plătesc mult mai mulți bani decât ceilalți clienți, așa
+
+02:09.150 --> 02:11.410
+că le vom pune mai întâi.
+
+02:11.430 --> 02:14.650
+Deci acum avem o altă prioritate.
+
+02:14.700 --> 02:19.970
+Chiar dacă au sosit mai târziu, ei ajung să meargă când au prioritate mai mare.
+
+02:20.900 --> 02:23.960
+Un alt exemplu bun este o cameră de urgență.
+
+02:24.320 --> 02:30.700
+Doriți să tratați pacienții care prezintă cele mai severe simptome sau condiții.
+
+02:30.710 --> 02:31.750
+Dreapta.
+
+02:31.800 --> 02:37.500
+Un alt mod de a gândi este să spunem că ne pregătim să ajungem într-un avion.
+
+02:38.380 --> 02:46.060
+Avem prima persoană care vine în căptușeală și apoi dintr-o dată căpitanul apare și pentru că căpitanul ar
+
+02:46.150 --> 02:55.340
+trebui să ajungă în avion înainte de un pasager normal căpitanul devine acum pus ca prioritate ca nota rădăcină, deoarece valoarea este
+
+02:55.550 --> 03:02.680
+mai mare sau la cel puțin în acest caz valoarea este mai mare decât pasagerul.
+
+03:02.690 --> 03:07.690
+Deci, să zicem că un pasager apare pentru că facem o inserție de la stânga la dreapta.
+
+03:07.820 --> 03:10.340
+Am pus pasagerul la dreapta.
+
+03:10.520 --> 03:15.440
+Acum știm că o să lăsăm pe căpitan să plece și apoi pe primul pasager.
+
+03:15.440 --> 03:21.150
+Apoi, cel de-al doilea pasager următor avem o stewardesă care a intrat.
+
+03:21.210 --> 03:26.470
+El sau ea ar trebui să meargă în fața pasagerilor, dar nu în fața căpitanului.
+
+03:26.930 --> 03:36.350
+Ei bine, în acest caz, din nou plasăm stewardesa sub căpitan, dar la dreapta sau la stânga pasagerului
+
+03:36.410 --> 03:40.650
+și apoi avem un pasager care vine acum.
+
+03:40.670 --> 03:41.270
+Noi facem.
+
+03:41.300 --> 03:42.640
+Înlăturarea din stânga la dreapta.
+
+03:42.680 --> 03:44.690
+Vedem un loc potrivit aici.
+
+03:44.750 --> 03:47.970
+Așa că i-am pus jos aici.
+
+03:48.220 --> 03:55.720
+Așa că vedem cum totul devine echilibrat, care este frumos, dar este chiar foarte ușor pentru noi să conducem acum oamenii
+
+03:56.230 --> 04:02.110
+în avion, deoarece știm ordinea în care mergem de sus, apoi stânga apoi dreapta, apoi stânga,
+
+04:02.110 --> 04:04.060
+apoi dreapta spre stânga.
+
+04:04.060 --> 04:04.380
+Dreapta.
+
+04:04.390 --> 04:07.600
+Și vom continua să continuăm să continuăm.
+
+04:07.600 --> 04:10.510
+Știm prioritatea foarte ușor.
+
+04:10.510 --> 04:13.930
+Sunt sigur că vedeți unde ar putea fi util într-o mulțime de situații.
+
+04:14.980 --> 04:18.390
+Pentru a revedea, am aflat ce arbori de căutare binare sunt.
+
+04:18.460 --> 04:24.780
+Sunt minunate, dar uneori grămezile binare sau cozile prioritare sunt chiar mai bune.
+
+04:25.090 --> 04:30.730
+Deși căutarea printr-un heap binar este mult mai lent decât un arbore binar de căutare.
+
+04:30.760 --> 04:39.520
+Aveți o idee de prioritate, deoarece inserția se face în așa fel încât să știți cine ar trebui să fie primul care ar trebui să fie al doilea care ar
+
+04:39.520 --> 04:40.630
+trebui să fie.
+
+04:40.630 --> 04:47.430
+În al treilea rând și deși s-ar putea să trebuiască să buteli inserții din când în când, dacă există
+
+04:47.460 --> 04:49.740
+cineva care este cu adevărat prioritate.
+
+04:49.830 --> 04:56.730
+De cele mai multe ori aveți inserții foarte rapide cu grămezi binare și după cum am menționat că căutările sunt lente, dar doriți
+
+04:57.060 --> 05:02.870
+să utilizați grămezi binare atunci când sunteți interesat doar să găsiți valoarea maximă sau să găsiți un minim.
+
+05:02.910 --> 05:09.450
+Dacă este vorba despre o grămadă de minute și de multe ori în grămezi binare în cozi prioritare, aveți o metodă
+
+05:09.660 --> 05:11.530
+numită Find Max sau găsiți oameni.
+
+05:11.580 --> 05:19.050
+Aceasta este una dintre toate deoarece știți imediat că nodul rădăcină de vârf este cel maxim sau minim.
+
+05:19.080 --> 05:23.120
+Deci, pentru acele operațiuni este foarte rapid și minunat.
+
+05:23.350 --> 05:24.730
+Și acolo aveți.
+
+05:24.760 --> 05:26.140
+Ne vedem în următorul videoclip.
+
+05:26.510 --> 05:26.800
+Buh-Pa.

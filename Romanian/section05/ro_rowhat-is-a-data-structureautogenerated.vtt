@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.950 --> 00:11.880
+Bun venit la ceea ce este o structură de date o structură de date este o colecție de valori, valorile pot avea relații între
+
+00:11.880 --> 00:15.690
+ele și pot avea funcții aplicate pentru ele.
+
+00:15.710 --> 00:21.970
+Fiecare dintre ele este diferit în ceea ce poate face și pentru ce este cel mai bine folosit.
+
+00:23.000 --> 00:30.260
+Cel mai important lucru de luat este că fiecare structură de date este bună și este specializată
+
+00:30.260 --> 00:31.750
+pentru propriul lucru.
+
+00:32.120 --> 00:36.470
+În regulă, Andre tocmai ai spus o grămadă de cuvinte și nu prea înțeleg.
+
+00:36.800 --> 00:40.480
+Ei bine, să vă arătăm câteva imagini pentru a simplifica acest lucru.
+
+00:41.650 --> 00:50.570
+Puteți vedea că se poate gândi la structurile de date ca orice tip de compartiment sau container, o structură de date este pur și simplu
+
+00:50.570 --> 00:53.180
+un cabinet de fișiere de diferite tipuri.
+
+00:53.330 --> 01:00.320
+Aveți un rucsac un loc în care puteți pune cărțile de școală, de exemplu, în care aveți sertare
+
+01:00.320 --> 01:08.230
+unde vă trageți frigiderul, unde vă puneți hrana într-un dosar pentru fișiere și o cutie de ambalare, poate pentru jucăriile dvs.
+
+01:09.880 --> 01:17.410
+Fiecare dintre aceste recipiente este util pentru lucrurile proprii, de exemplu, nu voi pune mâncarea mea într-un sertar
+
+01:17.440 --> 01:22.170
+aici pentru că iaurtul ăsta se va întâmpla rău aici.
+
+01:23.170 --> 01:32.710
+De asemenea, nu-mi voi pune toate hârtiile și dosarele în rucsac sau poate o cutie de jucărie, pentru că doar o
+
+01:32.710 --> 01:34.360
+să se rătăcească.
+
+01:34.390 --> 01:40.870
+Fiecare dintre aceste containere este specific pentru lucrurile proprii și asta este structura de date.
+
+01:40.960 --> 01:48.370
+Este o modalitate pentru noi de a organiza date, astfel încât să putem merge în rucsac și de a recupera aceste date cu
+
+01:48.370 --> 01:48.930
+ușurință.
+
+01:48.940 --> 01:54.940
+Putem să mergem în frigider și să luăm acel copt sau înghețată foarte repede.
+
+01:55.060 --> 02:00.670
+Putem pune lucrurile în structurile de date și putem lua lucrurile din structurile de date și asta este tot
+
+02:00.670 --> 02:01.420
+ce este.
+
+02:02.420 --> 02:08.990
+Și există o grămadă de structuri de date, la fel ca și în viața noastră reală, cum avem toate aceste containere să păstreze
+
+02:08.990 --> 02:11.000
+aceste locuri pentru a pune lucrurile înăuntru.
+
+02:11.110 --> 02:14.900
+În programare avem o tona din ele.
+
+02:14.980 --> 02:21.500
+Dacă mergem spre Wikipedia, de exemplu, în timp ce dacă navigăm aici, vedem o tona de structuri de date.
+
+02:21.610 --> 02:28.060
+Și asta va arăta copleșitor, dar nu vă faceți griji pe cele mai multe dintre acestea în timp ce nu m-am
+
+02:28.090 --> 02:30.240
+întâlnit niciodată și sunt foarte specifice.
+
+02:30.400 --> 02:36.190
+Probabil că aveți doar aproximativ cinci sau șase structuri de date care sunt cu
+
+02:36.190 --> 02:39.900
+adevărat importante pentru că vom trece peste ele.
+
+02:39.980 --> 02:45.810
+S-ar putea să fi auzit de Bitcoin și cum să folosiți tehnologia de blocare a lanțurilor.
+
+02:45.830 --> 02:54.400
+Acest cuvânt magic va bloca Shane la sfârșitul zilei este pur și simplu o structură de date o modalitate de a
+
+02:57.290 --> 03:06.290
+deține informații, astfel încât în ​​structurile noastre de date lume de programare putem stoca lucruri precum numerele șiruri de tip boolean la
+
+03:06.290 --> 03:13.950
+fel cum am văzut când am codificat în Javascript cu matrice și obiecte și obiecte în javascript.
+
+03:13.950 --> 03:19.350
+Cum fiecare este o formă a unei structuri de date care ne permite să stocăm informații.
+
+03:19.510 --> 03:22.910
+Vedeți ca oameni acest lucru facem pe Pământ.
+
+03:22.960 --> 03:23.770
+Dreapta.
+
+03:23.950 --> 03:29.150
+Luăm haosul și tulburarea și facem ordine din ea.
+
+03:29.350 --> 03:33.690
+Cel puțin încercăm să ne organizăm fermele pentru a produce alimente.
+
+03:33.850 --> 03:40.030
+Am ambalat mâncarea și le livrăm la magazinele de bacanie și le organizăm în magazin alimentar, astfel încât
+
+03:40.030 --> 03:48.280
+oamenii să le poată apuca și apoi să cumpere aceste produse alimentare și să dea bani pentru a pune un compartiment și o bancă
+
+03:48.370 --> 03:51.930
+care sunt toate programele pe care le modelam .
+
+03:51.940 --> 03:53.500
+Scenarii de viață reală.
+
+03:54.530 --> 04:01.280
+Și cu cât un dezvoltator mai avansat devii cu atât mai mult timp vei începe să te gândești și vei petrece
+
+04:01.880 --> 04:04.130
+timpul vorbind despre structurile de date.
+
+04:04.130 --> 04:08.590
+Acesta este motivul pentru care intervievatorii place să vorbească despre structurile de date.
+
+04:08.670 --> 04:13.790
+Acum, cum îmi place mereu să menționez, există întotdeauna compromisuri.
+
+04:13.910 --> 04:16.790
+Fiecare întrebare de programare are un compromis.
+
+04:16.790 --> 04:24.490
+Amintiți-vă sunt trei piloni de memorie de citire și de viteză.
+
+04:24.490 --> 04:26.910
+Când am vorbit despre codul cel mai bun.
+
+04:26.950 --> 04:29.680
+Ei bine, avem același lucru cu structurile de date.
+
+04:29.770 --> 04:34.210
+Una este mai bună decât cealaltă în unele aspecte, iar cealaltă este mai bună decât cealaltă.
+
+04:34.210 --> 04:35.240
+De aceea există.
+
+04:35.320 --> 04:42.780
+Fiecare a câștigat pentru propriul său caz specific și există două părți pentru înțelegerea structurilor de date.
+
+04:43.730 --> 04:46.150
+Una este cum să construim unul.
+
+04:46.160 --> 04:48.710
+Cum putem construi cu cod.
+
+04:48.710 --> 04:56.270
+Unele dintre aceste structuri de date și două sunt cum să le folosiți cum să utilizați aceste structuri de date.
+
+04:56.300 --> 05:02.490
+O să facem amândouă în acest curs, dar cel de-al doilea punct este cel mai important drept.
+
+05:02.600 --> 05:12.280
+Deoarece structurile de date sunt de obicei doar unelte și de cele mai multe ori ele sunt deja pre-construite pentru noi, cea mai importantă parte este cum
+
+05:13.030 --> 05:18.310
+să le folosim când să le folosim unul pe celălalt și am văzut ceva puțin
+
+05:18.310 --> 05:24.850
+din faptul că în trecut atunci când am vorbit despre cum să rezolvăm problemele în care am folosit un
+
+05:25.060 --> 05:29.570
+obiect și o matrice pentru a face codul nostru mai eficient.
+
+05:30.840 --> 05:35.880
+Scopul acestui curs este de a înțelege structura datelor astfel încât să puteți alege structura corectă a datelor
+
+05:35.880 --> 05:36.750
+pentru problema dvs.
+
+05:37.750 --> 05:42.790
+Pe baza diferitelor scenarii, datele trebuie stocate într-un anumit format.
+
+05:42.790 --> 05:49.030
+Avem o mână de structuri de date care acoperă nevoia noastră de a stoca date în diferite formate.
+
+05:49.170 --> 05:52.320
+Deci, hai să trecem puțin mai adânc în acest subiect.

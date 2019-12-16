@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.030 --> 00:08.340
+Ok ok saya sebenarnya mulai dengan sedikit trik di sini rekursi yang akan
+
+00:08.340 --> 00:13.980
+kita bicarakan dalam beberapa video berikutnya secara teknis bukan algoritma.
+
+00:14.050 --> 00:19.870
+Ini lebih merupakan konsep yang akan kita gunakan di seluruh bagian Kursus untuk
+
+00:19.870 --> 00:27.350
+menulis beberapa algoritma yang sangat menarik ketika kita masuk ke pengurutan dan pencarian melalui pohon pencarian biner.
+
+00:27.370 --> 00:30.040
+Kita akan sering menggunakan rekursi.
+
+00:30.040 --> 00:32.140
+Jadi saya ingin mempersiapkan Anda.
+
+00:32.390 --> 00:37.040
+Dan jelas itu juga merupakan topik umum dalam wawancara.
+
+00:37.040 --> 00:41.950
+Sebenarnya ini adalah salah satu topik paling populer yang akan saya katakan ketika datang untuk wawancara.
+
+00:42.030 --> 00:49.160
+Sekarang apa sebenarnya rekursi ketika Anda mencari file di komputer.
+
+00:49.200 --> 00:54.450
+Misalnya jika Anda berada di desktop dan ingin menemukan semua file musik, Anda MP
+
+00:54.690 --> 01:01.470
+tiga file di komputer, Anda dapat melakukannya dengan hanya melihat satu folder yang ingin dilihat folder secara rekursif untuk
+
+01:02.130 --> 01:03.980
+menemukan semua musik Anda.
+
+01:04.020 --> 01:06.600
+Mari saya tunjukkan apa yang saya maksud.
+
+01:06.750 --> 01:14.120
+Saya memiliki proyek di sini yang telah kami gunakan untuk salah satu kursus saya yang lain dan ini adalah API back end di Dakar.
+
+01:14.400 --> 01:19.770
+Sekarang kehidupan dikloning repositori ini dan saya memilikinya di sini di desktop saya.
+
+01:19.870 --> 01:27.230
+Sekarang jika saya ingin mencari melalui semua file dalam proyek ini, saya cukup mengetikkan LS untuk menunjukkan kepada
+
+01:27.290 --> 01:28.120
+saya file.
+
+01:28.540 --> 01:35.440
+Tetapi seperti yang Anda lihat dengan warna biru di sini kami juga memiliki folder yang di dalamnya juga memiliki file.
+
+01:35.520 --> 01:38.800
+Bagaimana mereka bisa juga melihat file di folder ini.
+
+01:39.270 --> 01:44.260
+Yah saya bisa melakukan sesuatu yang disebut LS dash R dan R.
+
+01:44.280 --> 01:47.170
+Tebak apa yang dimaksud dengan rekursif.
+
+01:47.700 --> 01:55.850
+Jika saya melakukan ini dan saya menekan Enter lihat bahwa saya mendapatkan juga file di dalam folder.
+
+01:56.150 --> 02:02.930
+Anda melihat bahwa saya memiliki folder kontrol dengan file javascript saya memiliki folder postgresql dengan beberapa
+
+02:03.020 --> 02:10.520
+file doc, beberapa di antaranya menjauhkan semua file dan di dalamnya saya juga memiliki folder lain yang memiliki
+
+02:10.520 --> 02:19.800
+file yang berbeda tetapi karena saya dapat membuat daftar item secara rekursif komputer saya masuk ke dalam dari setiap folder dan mencetak file.
+
+02:19.800 --> 02:29.880
+Jadi, apa itu rekursi? Rekursi baik adalah ketika Anda mendefinisikan sesuatu dengan sendirinya hanya itu fungsi yang
+
+02:29.910 --> 02:34.670
+mengacu pada dirinya sendiri di dalam fungsi.
+
+02:34.680 --> 02:35.050
+Baiklah.
+
+02:35.090 --> 02:36.960
+Tidak mungkin Anda benar.
+
+02:37.200 --> 02:40.560
+Itu mungkin definisi yang paling membingungkan lagi.
+
+02:40.620 --> 02:50.000
+Izinkan saya menunjukkan kepada Anda sebuah contoh jika saya membuka konsol di sini fungsi rekursif adalah fungsi yang merujuk pada
+
+02:50.000 --> 02:51.090
+dirinya sendiri.
+
+02:51.410 --> 02:54.340
+Jadi saya dapat membuat fungsi yang disebut katakanlah awal
+
+02:57.750 --> 02:59.680
+dan fungsi ini bersifat rekursif.
+
+02:59.700 --> 03:04.000
+Jika saya menyebut dirinya di dalamnya.
+
+03:04.200 --> 03:09.870
+Mari kita coba lagi jika saya katakan awal di sini.
+
+03:10.880 --> 03:20.200
+Ini adalah fungsi rekursif karena ketika fungsi ini berjalan itu akan memanggil dirinya sendiri dan berjalan lagi.
+
+03:20.240 --> 03:26.420
+Masalah dengan rekursi dan mengapa orang merasa begitu sulit adalah bahwa itu adalah topik yang menakutkan
+
+03:26.420 --> 03:30.230
+ketika orang mulai berbicara tentang matematika dan aplikasi teoritis.
+
+03:30.350 --> 03:36.240
+Alih-alih, mari kita fokus di sini tentang bagaimana rekursi membantu kita memecahkan masalah.
+
+03:36.410 --> 03:43.590
+Rekursi sangat bagus untuk tugas-tugas yang telah mengulang subtugas untuk melakukan itu.
+
+03:43.640 --> 03:48.110
+Ini seperti ketika kita melihat folder di dalam proyek ini.
+
+03:48.110 --> 03:54.410
+Dan alasan rekursi sangat penting dan alasan saya membicarakannya terlebih dahulu di bagian ini
+
+03:54.410 --> 04:01.940
+sebelum kita membahas semua algoritma lainnya adalah bahwa konsep ini akan digunakan dalam mencari dan menyortir
+
+04:02.120 --> 04:08.090
+algoritma yang akan kita bicarakan misalnya melintasi pohon jika Anda memikirkannya adalah
+
+04:08.360 --> 04:12.960
+tugas yang sama seperti yang kami lakukan berulang kali.
+
+04:13.430 --> 04:18.830
+Ingat ketika kita membangun struktur data pohon kita sendiri pohon pencarian biner kita.
+
+04:19.400 --> 04:22.350
+Dan saya memberi Anda sedikit fungsi di bagian akhir.
+
+04:23.190 --> 04:29.940
+Disebut traverse yang memungkinkan kami mencetak pohon kami sehingga kami dapat memverifikasi jawaban kami.
+
+04:30.940 --> 04:35.240
+Jika kita melihat lebih dekat ini kita melihat bahwa kita menggunakan rekursi di sini.
+
+04:35.320 --> 04:44.120
+Saya memiliki fungsi lintasan yang menyebut dirinya di dalam diri Anda dan ini adalah sesuatu yang akan kami tunjukkan banyak ketika kami
+
+04:44.120 --> 04:48.500
+berbicara tentang pencarian dan pengurutan di bagian yang akan datang.
+
+04:48.500 --> 04:50.840
+Rekursi ada di mana-mana.
+
+04:50.840 --> 04:57.760
+Ketika kita melakukan DOM traversal di situs Web jika kita pergi ke elemen di sini
+
+04:57.770 --> 05:07.730
+ketika kita melakukan traversal ini dan memberinya semua model objek dokumen kita menggunakan rekursi dalam javascript ketika kita memiliki objek bersarang sehingga
+
+05:07.730 --> 05:09.610
+objek di dalam objek.
+
+05:10.040 --> 05:17.930
+Kita menggunakan rekursi tetapi kunci untuk mendapatkan rekursi adalah memahami bahwa itu tidak serumit itu.
+
+05:17.930 --> 05:24.900
+Selama Anda berlatih sedikit ingin mendapatkannya dan mengatasi punuk awal maka itu menjadi
+
+05:24.990 --> 05:25.940
+kebiasaan.
+
+05:26.190 --> 05:31.750
+Dan tujuan saya adalah di akhir video ini Anda akan mendapatkan rekursi.
+
+05:31.820 --> 05:33.200
+Jadi mari kita mulai.
+
+05:33.710 --> 05:34.620
+Sampai jumpa di yang berikutnya.

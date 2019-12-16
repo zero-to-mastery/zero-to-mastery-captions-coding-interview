@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.510 --> 00:11.110
+Bentornato c'è un teorema che afferma che tutto ciò che può essere implementato in maniera ricorsiva può essere implementato
+
+00:11.630 --> 00:20.370
+in modo interattivo, cioè puoi andare per tutta la vita senza implementare funzioni ricorsive e semplicemente usare
+
+00:20.610 --> 00:21.450
+loop.
+
+00:21.880 --> 00:22.420
+OK.
+
+00:22.620 --> 00:29.650
+Quindi, perché mai dovremmo voler confonderci con un argomento come la ricorsione che può essere un po 'di confusione.
+
+00:30.870 --> 00:37.550
+Beh, per alcuni problemi è in realtà più facile da scrivere, ma in realtà dipende dalla situazione.
+
+00:37.560 --> 00:40.990
+Tieni presente che ci sono sempre due opzioni.
+
+00:41.100 --> 00:48.300
+E ormai sai che con la programmazione ci sono sempre pro e contro e un buon ingegnere è qualcuno che
+
+00:48.300 --> 00:52.770
+può prendere le decisioni giuste basandosi su quei pro e contro.
+
+00:52.940 --> 01:00.680
+Ma volevo tenere questo in mente per le interviste perché gli intervistatori ti chiederanno di risolvere un problema e un problema
+
+01:00.740 --> 01:06.730
+che può essere risolto con la ricorsione può di solito essere risolto in modo intuitivo.
+
+01:09.770 --> 01:20.160
+E guardando la nostra funzione Fibonacci questo è un esempio più semplice di ricorsione, ma ci sono momenti in cui la
+
+01:20.370 --> 01:24.330
+ricorsione può mantenere il tuo codice asciutto.
+
+01:24.330 --> 01:26.360
+Quello è non ripetersi.
+
+01:26.430 --> 01:34.340
+Una grande regola quando si parla di programmazione e ci sono molti problemi quando si tratta di ricorsione,
+
+01:34.340 --> 01:42.200
+dato che diventa sempre più difficile quando si usano le funzioni ricorsive per consentire al codice di essere
+
+01:42.210 --> 01:48.050
+più leggibile e anche più semplice avere meno cicli con codice confuso.
+
+01:48.540 --> 01:55.800
+E sono un po 'prevenuto perché sebbene la ricorsione sia una tecnica potente secondo me non è
+
+01:55.860 --> 01:57.670
+sempre l'approccio migliore.
+
+01:57.780 --> 02:07.560
+Quindi è necessario assicurarsi a causa o il suo svantaggio principale che è anche se la ricorsione può mantenere il codice
+
+02:07.650 --> 02:14.750
+a secco e rendere il codice più leggibile crea anche questo ingombro di memoria extra.
+
+02:16.020 --> 02:23.190
+Perché ogni volta che aggiungiamo una funzione allo stack delle chiamate, aggiunge ulteriore memoria.
+
+02:23.430 --> 02:31.020
+Ci sono casi in cui è possibile ottenere overflow dello stack o se il tuo sistema ha una memoria costosa
+
+02:31.020 --> 02:38.060
+che vuoi evitare di fare troppe chiamate ricorsive e per alcune persone la ricorsione è anche qualcosa che è
+
+02:38.060 --> 02:39.460
+difficile da racimolare.
+
+02:39.500 --> 02:45.470
+E se abbiamo una squadra di giovani ingegneri di sviluppatori che hanno familiarità con la ricorsione, questa potrebbe
+
+02:45.470 --> 02:46.870
+non essere l'opzione migliore.
+
+02:47.880 --> 02:52.770
+Ma il principale svantaggio è che gli approcci iterativi tendono ad essere più
+
+02:52.770 --> 03:00.510
+efficienti perché non fanno queste chiamate di funzioni aggiuntive che occupano lo spazio stack con il lato negativo essendo che
+
+03:00.510 --> 03:08.790
+le soluzioni iterative potrebbero non essere leggibili e la regola che mi piace seguire è che mi piace ricorrere alla ricorsione quando
+
+03:09.250 --> 03:14.410
+lavori con strutture dati che non sei veramente sicuro di quanto siano profonde
+
+03:14.410 --> 03:17.520
+in cui non sai quanti loop andare.
+
+03:17.650 --> 03:24.370
+E come vedrai la ricorsione è davvero utile per cose come le strutture dei dati dell'albero e fare
+
+03:24.370 --> 03:26.670
+attraversamenti perché è spesso così.
+
+03:27.770 --> 03:34.520
+Ora nel prossimo video voglio parlare di questo argomento un po 'più a fondo e quando usare la ricorsione.
+
+03:34.640 --> 03:37.500
+Ma voglio indicare una cosa velocemente.
+
+03:38.380 --> 03:43.210
+C'è qualcosa chiamato ottimizzazione delle chiamate tail in molte lingue.
+
+03:43.220 --> 03:51.510
+Ad esempio in Javascript con 6 consente di chiamare le ricorsioni senza aumentare lo stack di chiamate.
+
+03:51.560 --> 03:57.940
+Puoi leggere ulteriori informazioni su di esso nelle risorse che ti vengono fornite in questo video, ma anche in altre
+
+03:57.940 --> 03:58.500
+lingue.
+
+03:58.510 --> 04:03.770
+Esistono alcuni modi per scrivere la ricorsione. Quindi c'è più memoria efficiente.
+
+04:03.940 --> 04:12.600
+Quindi questo grande problema di stack può essere risolto durante la produzione, ma parliamo di una guida definitiva su quando utilizzare
+
+04:12.600 --> 04:15.070
+la ricorsione nel prossimo video.

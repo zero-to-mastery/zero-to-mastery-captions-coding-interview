@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.670 --> 00:07.990
+Witamy z powrotem piękno tego, czego właśnie nauczyliśmy się w odwróceniu Treach, które było z
+
+00:08.080 --> 00:16.490
+I odwiedzamy każdy węzeł jest to, że jest taki sam jak w przypadku wykresu, ponieważ drzewa są po prostu
+
+00:17.700 --> 00:25.060
+rodzajem wykresu, więc używając tej samej techniki zamiast używać lewej a odpowiednie właściwości może być 10 dzieci.
+
+00:25.410 --> 00:32.870
+Co możemy zrobić, robiąc to samo, wykorzystując śmierć do wyszukiwania i pierwsze wyszukiwanie, a
+
+00:32.870 --> 00:42.480
+to jest naprawdę potężne, ponieważ wykresy są używane do modelowania modeli z życia wziętych, takich jak silnik rekomendacji Amazon.
+
+00:42.720 --> 00:53.220
+Teraz możemy zobaczyć, jaki typ przedmiotów jest być może powiązany lub który jest najbliższy ostatniej kupionej przez nas
+
+00:53.220 --> 00:54.110
+książce.
+
+00:54.420 --> 01:01.740
+I w takim przypadku użyliby czegoś w rodzaju oddechu do wyszukiwania lub na Facebooku, aby zobaczyć, jakiego
+
+01:01.980 --> 01:04.690
+rodzaju prośby przyjaciółki powinienem zalecić.
+
+01:05.070 --> 01:12.240
+Jeśli mam połączenie na Linked-In, być może wykorzystam śmierć do przeszukania, aby sprawdzić, jaki stopień połączenia
+
+01:12.330 --> 01:14.140
+mam z tym.
+
+01:14.190 --> 01:15.830
+Naprawdę ważne SEO.
+
+01:15.990 --> 01:26.520
+Używamy wyszukiwania bezwzględnego i są one podstawą tego, jak sieci peer-to-peer działają tak, jak działa Google Maps.
+
+01:26.520 --> 01:27.370
+Dobrze.
+
+01:27.480 --> 01:33.060
+Co jest naprawdę bardzo mocne i mam tutaj ładny wygląd.
+
+01:33.060 --> 01:34.670
+Mam swój wizualny.
+
+01:34.670 --> 01:35.790
+Pójdę tutaj.
+
+01:35.840 --> 01:41.550
+Nasz dobry przyjaciel i mają śmierć do przeszukania, a ja zrobiłem ten mały wykres i możemy
+
+01:41.550 --> 01:46.830
+przemierzać teraz, używając rzeczywistego Louisa, by oddychać najpierw dla wyszukiwania, a zaczynamy od zera.
+
+01:46.950 --> 01:52.380
+Więc zamierzam tutaj wpisać zero i zobaczyć, jak będą działać badania nad śmiercią.
+
+01:52.440 --> 01:58.950
+Sprawdzamy wszystkie najbliższe węzły 1 3 4 5 6, a następnie zaczynamy od 1.
+
+01:58.950 --> 02:00.010
+Czy ma dzieci?
+
+02:00.080 --> 02:02.360
+Tak 2 7 i 8.
+
+02:02.580 --> 02:04.240
+A potem idziemy dalej w linii 3.
+
+02:04.280 --> 02:05.310
+Co powiesz na 4.
+
+02:05.370 --> 02:06.220
+Co powiesz na 5.
+
+02:06.330 --> 02:07.050
+A co z 6.
+
+02:07.050 --> 02:08.420
+Nie mają dzieci.
+
+02:09.330 --> 02:10.790
+Dobra chodźmy.
+
+02:10.890 --> 02:19.100
+Przechodzimy dalej do następnego miejsca, które ma Shulgina i przechodzimy przez wykres, jak widać, zaczynając
+
+02:19.100 --> 02:27.230
+od naszych najbliższych sąsiadów, a następnie idziemy dalej i dalej z głębokim pierwszym przeszukaniem.
+
+02:27.530 --> 02:30.030
+Powiedzmy, że zaczynamy od zera.
+
+02:31.260 --> 02:43.980
+I uderzam, idziemy do jednego, a następnie do 7, a potem będziemy iść dalej 8.
+
+02:44.180 --> 02:47.350
+Pójdziemy do dziewięciu, a potem dziesięciu.
+
+02:47.360 --> 02:48.970
+Nie ma więcej węzłów.
+
+02:49.040 --> 02:58.590
+Więc cofniemy się do końca i przejdziemy do następnej oraz listy 3 i 4, a następnie 5 i 6.
+
+02:58.640 --> 03:07.010
+Tak więc patrząc na to, możesz zobaczyć, co miałem na myśli, gdy dałem ci informacje na początku tej
+
+03:07.070 --> 03:13.430
+sekcji, która jest szersza, pierwsze wyszukiwanie jest zwykle dobre dla najkrótszej ścieżki.
+
+03:13.580 --> 03:16.880
+To jest najbliżej naszego węzła.
+
+03:16.910 --> 03:19.890
+Jakie są najbardziej powiązane pozycje na Amazon?
+
+03:20.890 --> 03:28.600
+Kim są nasi najbliżsi przyjaciele na Facebooku lub najbliższe połączenia w Połączonym In-versus z głębokim pierwszym wyszukiwaniem,
+
+03:29.200 --> 03:32.620
+które naprawdę dobrze sprawdzi, czy coś istnieje.
+
+03:34.800 --> 03:42.430
+Poszukując bezwartościowych poszukiwań jesteśmy w stanie zagłębić się w wykres dość szybko, a potem z oddechem.
+
+03:42.450 --> 03:47.040
+Pierwsze wyszukiwanie, które może kosztować trochę dodatkowej pamięci.
+
+03:47.060 --> 03:52.150
+Porozmawiajmy o tych dwóch algorytmów bardziej szczegółowo, jeśli chodzi o wykresy.

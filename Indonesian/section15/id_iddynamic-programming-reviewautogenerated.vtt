@@ -1,0 +1,148 @@
+WEBVTT
+
+00:01.150 --> 00:10.390
+Selamat datang kembali di bagian ini kami menyelesaikan pemahaman kami tentang algoritma dengan pemrograman dinamis dan kami
+
+00:10.480 --> 00:12.950
+telah menyelesaikan semua ini.
+
+00:13.150 --> 00:20.950
+Dan sekarang bagian terakhir dari teka-teki adalah pemrograman dinamis lengkap dan secara khusus menggunakan memoisasi
+
+00:21.160 --> 00:23.260
+untuk mengoptimalkan masalah kita.
+
+00:23.970 --> 00:30.240
+Menyelesaikan seluruh diagram kami adalah peta saya tentang cara menguasai wawancara.
+
+00:30.340 --> 00:32.610
+Jadi apa yang kita pelajari.
+
+00:32.680 --> 00:38.860
+Kami belajar bahwa dengan pemrograman dinamis, kami dapat mengidentifikasi jenis-jenis masalah ini dengan
+
+00:39.340 --> 00:47.800
+pertama-tama melihat apakah ada masalah yang dapat dibagi menjadi sub-masalah dari bagian-bagian kecil di mana kemungkinan besar Anda
+
+00:47.800 --> 00:49.090
+menggunakan rekursi.
+
+00:49.090 --> 00:56.350
+Jika Anda menggunakan rekursi maka tanyakan pada diri sendiri Apakah ada subproblem atau tugas berulang yang saya
+
+00:56.740 --> 00:57.900
+lakukan berulang-ulang.
+
+00:58.120 --> 01:05.470
+Dalam hal ini kita dapat menghafal subproblem sehingga kita tidak terus-menerus menghitung ulang hal-hal dan menggunakan ide pemrograman dinamis
+
+01:05.470 --> 01:11.920
+ini sehingga kita mendapat kenaikan gaji yang bagus dari bos kita karena kita baru saja membuat
+
+01:12.010 --> 01:13.390
+kodenya begitu efisien.
+
+01:13.480 --> 01:19.750
+Sekarang menghafal adalah strategi umum untuk masalah pemrograman dinamis yang merupakan masalah yang baru
+
+01:19.750 --> 01:23.450
+saja saya jelaskan di sini seperti masalah Fibonacci.
+
+01:23.620 --> 01:31.180
+Ada satu cara lain untuk menggabungkan pemrograman dinamis dan itu disebut pendekatan bottom-up dan kami tidak akan terlalu fokus pada itu
+
+01:31.180 --> 01:35.470
+tetapi saya ingin menunjukkan kepada Anda dengan cepat bagaimana itu terlihat.
+
+01:36.780 --> 01:43.620
+Dalam kasus kami sebenarnya ada cara ketiga untuk menyelesaikan masalah ini dan cara melakukannya dengan baik sebenarnya
+
+01:43.620 --> 01:44.500
+cukup sederhana.
+
+01:44.550 --> 01:46.530
+Kita dapat melakukan
+
+01:49.590 --> 02:00.430
+Fibonacci yang dikuasainya dan dalam fungsi ini kita akan memiliki jawaban yang akan menjadi daftar urutan Fibonacci kita yang ada di sini dan
+
+02:00.520 --> 02:08.920
+kita akan mengisinya dengan nol dan satu dan kemudian dari sana yang kita lakukan hanyalah a for
+
+02:08.920 --> 02:16.110
+loop dan katakan Biarkan saya sama dengan dua karena kita sekarang mulai pada indeks kedua.
+
+02:16.140 --> 02:22.650
+Mengapa kurang dari atau sama dengan jumlah dan kenaikan tahunan.
+
+02:23.310 --> 02:33.920
+Dan akhirnya kita akan mengatakan menjawab dorongan itu dan kita akan mendorong ke item berikutnya di tumpukan ini.
+
+02:34.200 --> 02:37.540
+Hasil yang pertama dan yang kedua.
+
+02:37.770 --> 02:49.620
+Jadi saya minus dua plus jawaban Tinggi minus satu dan kemudian kita bisa mengembalikan jawaban dot pop yang akan memberi kita item
+
+02:49.620 --> 02:55.560
+terakhir dalam daftar sesuai dengan indeks apa yang kita cari.
+
+02:56.750 --> 02:59.090
+Jadi jika saya menjalankan
+
+03:04.970 --> 03:06.440
+ini saya
+
+03:12.670 --> 03:24.070
+akan menyebutnya DP untuk saya masih harus bangun dan saya harus memastikan bahwa saya lulus katakanlah 100 jika saya menjalankan ini.
+
+03:24.080 --> 03:24.800
+Ini dia.
+
+03:24.800 --> 03:27.100
+Kami mendapatkan hasil yang sama.
+
+03:27.970 --> 03:31.680
+Dan jenis pendekatan ini menghindari rekursi.
+
+03:31.780 --> 03:38.170
+Beberapa akan mengatakan tidak sebersih tidak mudah dimengerti sementara yang lain akan mengatakan tidak ini lebih masuk
+
+03:38.170 --> 03:38.770
+akal.
+
+03:38.770 --> 03:46.060
+Itu benar-benar tergantung pada preferensi Anda dan jenis solusi ini disebut dari bawah ke atas karena Anda
+
+03:46.120 --> 03:53.170
+mulai dari solusi paling sederhana dari bawah dan perlahan-lahan naik ke atas semakin tinggi menuju masalah
+
+03:53.170 --> 03:54.620
+yang lebih kompleks.
+
+03:54.730 --> 04:00.280
+Tetapi jenis masalah ini meskipun lebih mudah dilihat lebih sulit untuk mengetahui kapan harus digunakan.
+
+04:00.430 --> 04:10.070
+Jadi saya lebih suka pendekatan memoisasi top down menggunakan ini, tetapi saya hanya ingin menunjukkan kepada Anda bahwa ada cara
+
+04:10.070 --> 04:12.240
+lain dalam melakukan sesuatu.
+
+04:13.240 --> 04:19.870
+Dan dalam sebuah wawancara sangat jarang bahwa Anda akan diminta untuk mengimplementasikan kedua metode
+
+04:19.870 --> 04:25.120
+tetapi pada akhirnya semuanya saya harap Anda melihat kekuatan pemrograman dinamis.
+
+04:25.130 --> 04:32.030
+Konsep sederhana menyelamatkan diri kita sendiri banyak kesulitan memikirkan bagaimana program kita berjalan dan bagaimana
+
+04:32.030 --> 04:37.380
+kita dapat mengoptimalkannya sehingga kita tidak melakukan tugas yang berulang.
+
+04:37.440 --> 04:43.100
+Jika Anda dapat memperhatikan hal-hal ini maka Anda adalah insinyur yang hebat.
+
+04:43.160 --> 04:44.090
+Sampai jumpa di yang berikutnya.

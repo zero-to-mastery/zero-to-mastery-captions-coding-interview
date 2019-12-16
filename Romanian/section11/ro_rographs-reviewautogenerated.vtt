@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.720 --> 00:05.370
+Bine ați venit înapoi care sunt avantajele și dezavantajele grafurilor.
+
+00:05.780 --> 00:13.010
+Ei bine, atunci când este vorba de performanță și big-O, devine un pic mai complicat, deoarece există atât de multe tipuri diferite
+
+00:13.010 --> 00:19.330
+de grafice pe care le puteți gândi la grafice ca fiind foarte utile atunci când vine vorba de relații.
+
+00:19.440 --> 00:26.230
+Ele sunt pur și simplu indispensabile deoarece unele date trebuie doar să fie într-o formă grafică.
+
+00:26.570 --> 00:28.260
+Nu există altă cale în jurul lui.
+
+00:28.550 --> 00:34.580
+Și există algoritmi în jurul grafurilor, cum ar fi cei despre care vom
+
+00:34.580 --> 00:43.850
+vorbi în secțiunea algoritm care ne permite să efectuăm operații cum ar fi găsirea celei mai scurte căi sau traversarea unui grafic.
+
+00:44.010 --> 00:50.980
+Dar când vine vorba de grafice pentru că pot obține complicații, scalarea este destul de greu.
+
+00:51.360 --> 00:57.990
+Aveți nevoie de o companie mare sau cel puțin o mulțime de resurse și puterea de inginerie pentru a vă asigura
+
+00:58.110 --> 01:01.270
+că construiți structuri de date grafice care scară bine.
+
+01:01.670 --> 01:10.080
+Din fericire pentru noi, de obicei, nu va trebui niciodată să îți puneți în aplicare propriul grafic în producție sau cel puțin
+
+01:10.080 --> 01:10.920
+pentru moment.
+
+01:10.950 --> 01:19.690
+9% din populație are instrumente cum ar fi Neo for J, care este o bază de date populară care vă permite să construiți
+
+01:19.690 --> 01:28.330
+baze de date grafice foarte rapide și de cele mai multe ori veți folosi instrumente ca aceasta pentru a construi structuri complexe
+
+01:28.420 --> 01:30.540
+care să conțină datele noastre.
+
+01:32.270 --> 01:33.690
+Felicitări.
+
+01:33.890 --> 01:39.780
+Acum am acoperit o altă parte a hărții minții noastre structură de date, care este grafice.
+
+01:40.160 --> 01:46.470
+Am învățat despre șase ca un aciclic așteptat așteptat îndreptat sau nedirecționat.
+
+01:46.530 --> 01:50.590
+De asemenea, am reușit să construim propriul grafic.
+
+01:50.600 --> 01:55.730
+Acum mai rămân câteva lucruri pe care le văd acolo și poate aici, despre care
+
+01:55.730 --> 01:59.470
+vom intra în secțiunea algoritmică, dar acum luăm o pauză.
+
+01:59.690 --> 02:03.670
+Beți niște cafea sau ceai și vă vom vedea în următorul videoclip.
+
+02:03.670 --> 02:04.340
+Pa! Pa.

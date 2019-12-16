@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.900 --> 00:08.530
+Wróć, jeśli spojrzymy na naszą funkcję Fibonacci, którą stworzyliśmy, to właśnie robimy.
+
+00:09.000 --> 00:17.670
+Gdybym szukał liczby Fibonacciego 7 używając rekursji Cóż, musielibyśmy uruchomić wszystkie te obliczenia
+
+00:17.670 --> 00:21.030
+rekurencyjnie i wszystko to również.
+
+00:21.360 --> 00:25.010
+I możesz zobaczyć tutaj, co się dzieje dobrze.
+
+00:25.020 --> 00:28.430
+Zobacz, gdzie obliczamy Fibonacciego.
+
+00:28.710 --> 00:34.970
+Ta funkcja działa jeden dwa trzy cztery pięć razy, obliczając to samo.
+
+00:35.060 --> 00:37.300
+A co z Fibonacciego dwojga.
+
+00:37.460 --> 00:45.630
+Ponownie spójrz na wszystkie te obliczenia, które są powtarzane, co około 3 i widzisz tutaj,
+
+00:45.630 --> 00:53.700
+gdzie trójkąty nakładają się, gdzie obliczamy 3, gdzie obliczamy dopasowanie 2, a Fibonacci równe
+
+00:53.700 --> 00:54.870
+1.
+
+00:54.870 --> 01:04.660
+A potem, jeśli idziemy dalej do czystego Bonacci numer cztery, znowu powtarzamy zadania trójkątami nad trójkątami, a potem w
+
+01:04.750 --> 01:07.910
+końcu Fibonacciego sześć lub pięć.
+
+01:08.080 --> 01:14.320
+Widzimy, że po raz kolejny mamy więcej powtarzających się obliczeń.
+
+01:14.320 --> 01:16.640
+To nie wygląda na efektywne.
+
+01:16.780 --> 01:18.720
+I to właśnie widzieliśmy w poprzednim wideo.
+
+01:18.730 --> 01:21.340
+Właśnie to robimy z naszymi obliczeniami.
+
+01:21.910 --> 01:30.220
+Ale jeśli zauważysz tutaj z dynamicznym programowaniem, możemy to zoptymalizować i użyć zapamiętania, by powiedzieć, że
+
+01:31.570 --> 01:42.260
+hej oblicza Fibonacciego siedmiu, rekursywnie zmniejszając się do 6 2 5 2 4 2 3 2 2, a także 2 1.
+
+01:42.390 --> 01:51.030
+A teraz, kiedy wracamy pamiętajmy, że zaczynamy zwracać te stwierdzenia, a my idziemy
+
+01:51.030 --> 01:59.790
+do pięciu z dwóch lub pięciu, trzech lub czterech wcześniej, ponieważ już obliczyliśmy te
+
+01:59.910 --> 02:09.200
+liczby, możemy zwrócić zwróconą do nich wersję, aby wszystkie te obliczenia nie były dłużej potrzebne.
+
+02:09.310 --> 02:10.200
+Czemu.
+
+02:10.240 --> 02:19.050
+Ponieważ dwa trzy cztery i pięć za każdym razem, gdy prosimy o to w tym przypadku, obliczyliśmy już po
+
+02:19.050 --> 02:27.510
+lewej stronie, więc możemy użyć buforowanej lub zapamiętywanej wersji, abyśmy mogli po prostu poprosić zapamiętaną funkcję, aby
+
+02:27.510 --> 02:29.230
+nam ją dała.
+
+02:29.250 --> 02:36.660
+Unikamy tych wszystkich obliczeń, które wyglądają tak prosto, że wyglądają i zamierzam pokazać wam w kolejnym filmie, w
+
+02:36.660 --> 02:40.500
+jaki sposób faktycznie to zaimplementujemy w sekwencji Fibonacciego.
+
+02:40.860 --> 02:46.860
+Ale żeby pokazać wam, że to nie jest tylko ten problem, który możemy wykorzystać do programowania
+
+02:46.860 --> 02:47.520
+dynamicznego.
+
+02:47.640 --> 02:50.270
+Mam zestaw zasad.
+
+02:50.430 --> 02:57.280
+Po pierwsze, nie można myśleć o programowaniu dynamicznym jako łączeniu dzielenia i podboju.
+
+02:57.300 --> 03:06.450
+To, co zrobiliśmy z drzewiastą strukturą liczby Bonacci, w której używamy rekursji i ponownego użycia, czyli
+
+03:06.450 --> 03:14.920
+zarabiamy na zapamiętywaniu z rekurencją, aby uzyskać oszczędności w wydajności i używać dynamicznego programowania.
+
+03:15.630 --> 03:23.850
+A oto kroki, które należy wykonać, aby sprawdzić, czy problem można wykorzystać do programowania dynamicznego w celu jego
+
+03:23.850 --> 03:24.810
+optymalizacji.
+
+03:24.840 --> 03:32.520
+Najpierw pytamy, czy problem może być podzielony na podproblemy.
+
+03:32.590 --> 03:39.160
+Czy jest to struktura podobna do drzewa, w której każdy problem dzieli się na mniejsze
+
+03:39.160 --> 03:44.600
+problemy na mniejsze i wykonuje małe problemy, co zwykle oznacza rozwiązanie rekursywne.
+
+03:45.010 --> 03:51.080
+Znowu coś, co dobrze znamy z naszych poprzednich filmów, a teraz trzecie pytanie
+
+03:51.080 --> 03:58.190
+jest naprawdę ważne, ponieważ możesz mieć struktury podobne do drzewa, które nie mają powtarzających się podproblemów.
+
+03:58.430 --> 04:05.330
+Ale jeśli te podproblemy są powtarzalne, to znaczy, że powtarzamy te same obliczenia
+
+04:05.400 --> 04:06.630
+w podproblemach.
+
+04:06.860 --> 04:16.130
+Cóż, jeśli odpowiedź brzmi "tak", możemy zapamiętać te podproblemy, a gdy to zrobimy, widzimy ogromne korzyści, a
+
+04:16.310 --> 04:23.720
+te korzyści są wykorzystywane w całej informatyce, aby poprawić wydajność, tak aby piąty krok
+
+04:23.720 --> 04:26.290
+wymagał podwyżki od szefa.
+
+04:26.300 --> 04:34.090
+Jeśli zaimplementowałeś to, ponieważ właśnie zapisałeś tak wiele obliczeń, tyle złożoności czasu chciałbym, abyś tak
+
+04:34.090 --> 04:42.010
+myślał, zamiast być zastraszonym przez mylącą nazwę, która jest dynamicznym programowaniem, musisz tylko wiedzieć, kiedy
+
+04:42.940 --> 04:47.350
+problem może skorzystać z tej techniki .
+
+04:47.500 --> 04:53.040
+Przynajmniej niektóre problemy dla ciebie po tej sekcji do ćwiczenia, ale chcesz po prostu postępować zgodnie z tym
+
+04:53.040 --> 04:53.580
+wzorem.
+
+04:54.560 --> 05:00.950
+Kiedy problem ma rozwiązania złożone z rozwiązań tego samego problemu z mniejszymi i mniejszymi wejściami, każdy problem
+
+05:01.640 --> 05:08.900
+jest rozwiązywany tylko raz, a wynik każdego podproblemu jest przechowywany w tabeli jak w pamięci podręcznej, takiej jak tablica hashowa,
+
+05:09.740 --> 05:12.810
+tak jak robiliśmy to w poprzednim wideo.
+
+05:12.950 --> 05:21.410
+W celu późniejszego wykorzystania możemy skorzystać z tej tabeli, aby uzyskać oryginalne rozwiązanie powtarzającego się problemu.
+
+05:21.770 --> 05:22.550
+Dosyć gadać.
+
+05:22.640 --> 05:30.870
+Myślę, że nadszedł czas, abyśmy zaimplementowali własne zapamiętywanie z numerem Fibonacciego, jeśli chcesz rzucić wyzwanie
+
+05:30.870 --> 05:32.040
+sobie.
+
+05:32.070 --> 05:35.270
+Idź przed siebie i sprawdź, czy inaczej zakodowałeś.
+
+05:35.280 --> 05:42.530
+A następne wideo pokażę ci, jak poprawić naszą straszliwą funkcję Fibonacciego i przejść
+
+05:42.560 --> 05:45.710
+dalej, a ja to zobaczę.

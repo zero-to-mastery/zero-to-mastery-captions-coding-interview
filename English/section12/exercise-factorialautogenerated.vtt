@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.680 --> 00:04.970
+Walk them back I have a fun little exercise for you.
+
+00:04.970 --> 00:06.390
+And now you're asking yourself.
+
+00:06.480 --> 00:08.660
+Andrea you say all the exercises are fun.
+
+00:08.660 --> 00:10.750
+You are a big liar.
+
+00:10.750 --> 00:11.300
+All right.
+
+00:11.300 --> 00:14.000
+Fair point but I think this one's going to be fun.
+
+00:14.000 --> 00:15.100
+So stick with me.
+
+00:16.020 --> 00:24.390
+I want you to write a function actually two functions that finds the factorial of any number.
+
+00:24.470 --> 00:26.030
+Now why two functions.
+
+00:26.240 --> 00:34.820
+Well one function is going to be recursive using what we just learned where we have to create a base
+
+00:34.820 --> 00:37.030
+case we have to follow the steps right.
+
+00:37.100 --> 00:44.030
+If we go back we have to identify a base case and a recursive case and then finally make sure that we
+
+00:44.030 --> 00:46.970
+were to turn both cases.
+
+00:47.110 --> 00:57.670
+So this recursive function is going to return an answer but what is a factorial a good way to think
+
+00:57.670 --> 00:59.510
+about factorial.
+
+00:59.620 --> 01:10.030
+Is this notation five exclamation mark factorials simply means multiply five times four times three
+
+01:10.150 --> 01:12.280
+times two times one.
+
+01:12.490 --> 01:18.540
+You keep going down one by one multiplying each number until you get to 1.
+
+01:18.790 --> 01:27.260
+So six factorial will be six times five times four times three times to 10 Amazon and you'll notice
+
+01:27.260 --> 01:36.770
+here that it's a recursion pattern that we're doing we call the function and we have two cases that
+
+01:36.770 --> 01:37.630
+can happen.
+
+01:37.670 --> 01:45.440
+We have the base case to stop or recursive case and so on and so forth and we keep going keep going
+
+01:45.440 --> 01:48.840
+keep going until we hit 1.
+
+01:48.860 --> 01:52.620
+So I want to build a function that does this for us.
+
+01:52.760 --> 01:56.840
+I'm going to write the function factorial.
+
+01:56.840 --> 02:01.050
+You're going to put in five and it's going to run through this.
+
+02:01.490 --> 02:09.190
+But remember our definition of recursion recursion is when you define something in terms of itself.
+
+02:09.210 --> 02:19.490
+Now a good way to think about factorial is this five factorial is simply five times four factorial.
+
+02:19.670 --> 02:24.260
+You see over here five times four factorial is factorial five
+
+02:27.040 --> 02:34.510
+five times four times three factorial four times three is five factorial because four times factorial
+
+02:34.510 --> 02:42.500
+three equals factorial for and you see here how we might have a recursion function that we can write
+
+02:43.010 --> 02:45.290
+using this knowledge.
+
+02:45.290 --> 02:50.110
+See if you can create a function that allows you to do this.
+
+02:50.210 --> 02:54.500
+Now when it comes to this question there's two ways that you can go about it.
+
+02:54.560 --> 03:00.950
+You can do the recursive approach where the function calls itself or you can do the iterative approach
+
+03:01.010 --> 03:09.470
+which means looping and most of you are probably going to find it easier to solve it with this way with
+
+03:09.470 --> 03:11.200
+just a for loop.
+
+03:11.270 --> 03:15.840
+For example I'm going to leave this up to you to figure out.
+
+03:15.870 --> 03:19.540
+See if you can do both functions and see if they give you the right number.
+
+03:20.010 --> 03:23.000
+And in the next video I'll show you the answer.
+
+03:23.100 --> 03:24.230
+I'll see that one.
+
+03:24.240 --> 03:24.580
+Good luck.

@@ -1,0 +1,298 @@
+WEBVTT
+
+00:01.360 --> 00:02.240
+Ben tornato.
+
+00:02.470 --> 00:08.800
+È tempo di creare la nostra prima struttura di dati dell'elenco collegato e diciamo che volevo creare un
+
+00:08.800 --> 00:13.190
+elenco collegato che contenga 10 punti a cinque punti a 16.
+
+00:13.320 --> 00:15.460
+Un bel po 'semplice.
+
+00:15.460 --> 00:22.330
+Prima di tutto come andremo a visualizzarlo in un linguaggio come javascript che non ha liste
+
+00:22.380 --> 00:23.120
+collegate.
+
+00:24.320 --> 00:31.110
+Bene, possiamo semplicemente dire che abbiamo una nuova lista collegata, usiamo solo piombo qui.
+
+00:31.280 --> 00:41.570
+La mia lista concatenata e questo è uguale a un oggetto che ha una proprietà principale ricorda perché il primo
+
+00:41.570 --> 00:46.400
+elemento in una lista collegata è la testa.
+
+00:46.590 --> 00:49.290
+E avremo un appunto.
+
+00:49.410 --> 00:53.990
+Il punto del nodo è dire hey tutto può essere nella neve.
+
+00:53.990 --> 01:00.230
+Basta mettere tutto ciò che vuoi ed è un contenitore attorno a questi dati.
+
+01:00.320 --> 01:04.180
+Quindi pensa alla nota come un secchio di dati.
+
+01:04.340 --> 01:11.030
+E in questo caso possiamo semplicemente usare un oggetto per mettere i nostri dati in tutto questo nodo
+
+01:11.030 --> 01:20.270
+ha bisogno di avere in una lista collegata è una proprietà valore di ciò che il valore della nota è Plus una proprietà successiva che
+
+01:20.570 --> 01:23.250
+è il puntatore al nodo successivo.
+
+01:23.270 --> 01:33.860
+Ora questo valore può essere qualsiasi cosa desideriamo e la proprietà successiva deve essere un puntatore o un riferimento al nodo successivo
+
+01:33.860 --> 01:41.340
+quando in tal caso sarà un oggetto, quindi sarà un oggetto nother che faremo riferimento
+
+01:41.350 --> 01:42.630
+in memoria.
+
+01:42.700 --> 01:48.130
+In questo modo il valore della nota può sempre cambiare, ma i puntatori faranno sempre riferimento a quello.
+
+01:48.160 --> 01:51.860
+Quindi possiamo cambiare gli articoli e nient'altro cambierà.
+
+01:51.880 --> 01:55.650
+Continuerà a puntare a quel valore modificato e aggiornato.
+
+01:55.660 --> 01:57.130
+Lascia che ti mostri cosa intendo.
+
+01:57.130 --> 02:06.430
+Abbiamo la testa qui, nel qual caso è 10 quindi vogliamo settare il valore di 10 Azara e questo avanti andrà
+
+02:06.430 --> 02:11.370
+al punto di riferimento al prossimo nodo che avrà un valore.
+
+02:12.130 --> 02:13.410
+Di 5.
+
+02:13.580 --> 02:20.250
+Assicurati di aggiungere le virgole qui e il valore successivo di ciò che pensi.
+
+02:20.540 --> 02:29.750
+Bene la prossima nota nella lista che è il valore di 16 e il prossimo riferimento a cosa.
+
+02:29.930 --> 02:34.540
+Bene 16 è la coda della nostra lista collegata.
+
+02:34.580 --> 02:39.680
+Ciò significa che deve indicare nil o ciò che chiamiamo null terminato.
+
+02:39.710 --> 02:43.210
+Ciò significa che è la fine della lista perfetta.
+
+02:43.230 --> 02:51.870
+Quindi questo è ciò che vogliamo creare una lista collegata usando questa come nostra struttura.
+
+02:51.870 --> 03:02.840
+Stiamo andando a creare una classe chiamata elenco collegato Class e questa classe e dovremmo avere familiarità con la
+
+03:02.840 --> 03:04.120
+sintassi ormai.
+
+03:04.370 --> 03:10.310
+Avremo un costruttore che è la funzione che viene eseguita all'inizio quando creiamo la
+
+03:10.310 --> 03:11.270
+lista collegata.
+
+03:11.270 --> 03:14.350
+Questo prenderà un valore.
+
+03:14.560 --> 03:15.390
+Cosa significa.
+
+03:15.460 --> 03:27.770
+Bene, quando finalmente diciamo che stiamo creando una mia lista collegata Ricorda che vogliamo creare questo quando creo il mio
+
+03:27.770 --> 03:29.570
+elenco collegato.
+
+03:29.570 --> 03:37.190
+Ho intenzione di istanziare la classe che esegue la funzione di classe qui eseguire il costruttore e
+
+03:37.340 --> 03:38.940
+creare l'elenco collegato.
+
+03:38.990 --> 03:44.870
+Vado a dire la lista collegata e poi gli diamo un valore per iniziare la lista perché mentre la lista
+
+03:44.870 --> 03:48.620
+può essere vuota per avere qualcosa che deve iniziare con la testa.
+
+03:48.980 --> 03:56.460
+Quindi nel nostro caso vogliamo iniziare con 10 e idealmente eseguendo questo comando.
+
+03:56.460 --> 04:02.280
+Abbiamo creato la prima parte della nostra lista collegata solo il 10.
+
+04:02.540 --> 04:05.320
+Lasciatemi commentare questo dato che per ora non ne avremo bisogno.
+
+04:07.760 --> 04:10.340
+Ora all'interno di questo costruttore abbiamo.
+
+04:10.490 --> 04:18.710
+Bene, questo documento ha avuto un riferimento perché mentre abbiamo bisogno di tenere traccia della testa e questa
+
+04:18.710 --> 04:24.870
+testa avrà semplicemente un valore che è uguale al valore che abbiamo passato.
+
+04:24.900 --> 04:29.810
+Questo è il 10 qui e poi finalmente il prossimo.
+
+04:30.000 --> 04:31.350
+E quale dovrebbe essere il prossimo.
+
+04:31.380 --> 04:34.110
+Quando creiamo questa lista per la prima volta.
+
+04:34.110 --> 04:41.380
+Bene visto che 10 è l'unica cosa che avrà o un nodo successivo sarà uguale a no.
+
+04:41.490 --> 04:47.640
+Per cominciare ricorda che la funzione di costruzione riguarda la creazione della prima lista collegata.
+
+04:47.650 --> 04:55.280
+Nota cosa succede quando istanziamo una classe per iniziare la mia lista collegata.
+
+04:55.710 --> 05:00.430
+E poi finalmente abbiamo altre due informazioni che dobbiamo monitorare.
+
+05:00.480 --> 05:09.270
+Uno è questo punto racconto e ricorda la parola questo si riferisce solo alla lista collegata quindi si riferisce solo alla
+
+05:09.270 --> 05:11.440
+lista collegata che creiamo.
+
+05:11.550 --> 05:13.470
+Qual è la coda sarà.
+
+05:14.130 --> 05:19.560
+Bene perché abbiamo solo un oggetto, la testa è anche la coda.
+
+05:19.590 --> 05:22.490
+Quindi diciamo semplicemente questa testa a Dio.
+
+05:22.890 --> 05:29.580
+E dal modo in cui lo conosco si confondono un po 'e mentre passiamo attraverso questa serie di video su
+
+05:29.580 --> 05:33.000
+Linked Lists è un po' difficile avvolgere la tua mente.
+
+05:33.000 --> 05:39.450
+Quindi consiglio davvero a Yokota di curare a lungo e di fare gli esercizi, perché solo guardarmi parlare
+
+05:39.450 --> 05:42.730
+di liste collegate non significa solidificare le tue informazioni.
+
+05:42.840 --> 05:45.510
+È difficile davvero visualizzare le cose.
+
+05:45.780 --> 05:51.870
+Quindi potrebbe essere necessario creare un elenco collegato un paio di volte per ottenere il massimo da esso, ma
+
+05:51.870 --> 05:59.550
+questo diventerà una seconda natura una volta che ci si abituerà alla sintassi e anche l'idea di avere questa testa e coda e di
+
+05:59.550 --> 06:01.310
+farvi riferimento in ogni caso.
+
+06:01.470 --> 06:09.030
+L'ultimo pezzo del puzzle è se vuoi che possiamo tenere traccia della lunghezza dell'elenco collegato.
+
+06:09.030 --> 06:14.280
+Questo è opzionale, ma penso che sia bene tenere traccia e perché abbiamo un elemento quando
+
+06:14.760 --> 06:20.190
+creiamo questo elenco di link perché gli diamo un valore che gli daremo una lunghezza di 1.
+
+06:20.200 --> 06:20.810
+Eccoci.
+
+06:20.980 --> 06:30.290
+Se eseguo questo si ottiene un errore, perché ho questo codice che in realtà non è javascript, quindi commentalo e
+
+06:30.290 --> 06:32.720
+fai nuovamente clic su Esegui.
+
+06:33.760 --> 06:36.730
+Divento indefinito mentre non abbiamo registrato nulla.
+
+06:36.920 --> 06:49.910
+Ma se la mia console registra la mia lista collegata e io eseguo questo aspetto ho una lista collegata con una testa che
+
+06:49.910 --> 06:51.150
+vale 10.
+
+06:51.350 --> 06:58.460
+Il prossimo è nullo perché mentre c'è solo un nodo e una coda che è esattamente la stessa cosa che
+
+06:58.460 --> 07:00.860
+punta a M. e una lunghezza di uno.
+
+07:01.040 --> 07:02.290
+Congratulazioni.
+
+07:02.330 --> 07:06.530
+Abbiamo appena creato la nostra prima lista collegata.
+
+07:06.530 --> 07:09.900
+Comunque è tempo per un po 'di esercizio.
+
+07:09.920 --> 07:12.030
+La nostra lista non è completa.
+
+07:12.080 --> 07:18.920
+Dobbiamo creare questo elenco collegato, quindi dobbiamo essere in grado di aggiungere 5 e poi 16.
+
+07:18.920 --> 07:21.630
+Quindi la mia sfida per te è questa.
+
+07:22.520 --> 07:31.860
+Vogliamo creare un metodo append e questo metodo accetterà un valore e qui.
+
+07:34.140 --> 07:48.820
+Vogliamo scrivere un pezzo di codice che ci permetta di dire a Konst per la mia lista collegata Daut append e dargli un
+
+07:48.820 --> 07:49.850
+valore.
+
+07:49.870 --> 07:56.290
+Se guardiamo la nostra lista di 5 da aggiungere alla nostra lista corrente.
+
+07:56.290 --> 08:10.390
+Quindi voglio essere in grado di dire append 5 e poi append 16 per creare la nostra lista completa di 10 5 e 16.
+
+08:10.420 --> 08:13.200
+Come faresti a farlo.
+
+08:14.000 --> 08:19.980
+E lascerò questo per te per provarlo.
+
+08:20.050 --> 08:24.730
+Ricorda che potrebbe essere un po 'difficile e fornirò il video della soluzione e provvederemo a codificarci.
+
+08:24.730 --> 08:29.980
+Ma io ti incoraggio a metterti alla prova e pensare a cosa sta succedendo
+
+08:29.980 --> 08:34.450
+e cosa abbiamo fatto nel costruttore per creare questo metodo append.
+
+08:34.460 --> 08:37.560
+Buona fortuna e ci vediamo nel video della soluzione.
+
+08:37.570 --> 08:38.170
+Ciao ciao.

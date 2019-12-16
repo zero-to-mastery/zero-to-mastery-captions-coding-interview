@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.240 --> 00:01.910
+Selamat datang kembali.
+
+00:02.080 --> 00:06.990
+Mari kita bicara tentang algoritma penyortiran kedua kami dan ini disebut seleksi.
+
+00:07.080 --> 00:17.000
+Sortir sekarang sortir lagi adalah salah satu cara sederhana yang mungkin untuk menyortir daftar dan algoritma bekerja dengan memindai daftar
+
+00:17.000 --> 00:23.510
+item untuk elemen terkecil dan kemudian menukar elemen itu dengan yang ada
+
+00:23.510 --> 00:25.300
+di posisi pertama.
+
+00:26.160 --> 00:28.790
+Saya tunjukkan dengan animasi ini di sini.
+
+00:29.160 --> 00:32.430
+Kami mulai dengan item pertama dan kemudian item kedua.
+
+00:32.430 --> 00:40.740
+Merah di sini menandakan bahwa itu adalah item terkecil yang terlihat dan biru memindai ke depan untuk menemukan
+
+00:40.740 --> 00:41.960
+item terkecil.
+
+00:42.000 --> 00:47.700
+Jadi saat ini delapan adalah item terkecil tetapi kami menemukan lima sehingga lima beralih ke item terkecil yang
+
+00:48.090 --> 00:49.100
+kami temui juga.
+
+00:49.170 --> 00:52.650
+Jadi dua menjadi barang kecil.
+
+00:52.810 --> 00:59.650
+Kami terus enam tidak lebih kecil dari dua sembilan bukan tiga tidak kita temui satu.
+
+00:59.680 --> 01:01.400
+Seseorang menjadi barang terkecil.
+
+01:01.540 --> 01:02.350
+Kami terus berjalan.
+
+01:02.380 --> 01:03.300
+Kami menemukan nol.
+
+01:03.310 --> 01:08.670
+Jadi 0 menjadi item terkecil dan kami baru saja menyelesaikan daftar.
+
+01:08.730 --> 01:14.660
+Jadi sekarang kita memindahkan 0 ke indeks pertama dalam daftar kita.
+
+01:14.790 --> 01:23.980
+Jadi kami menukar dan kemudian kami kembali ke awal menemukan barang terkecil.
+
+01:24.730 --> 01:32.340
+Melalui daftar yang merupakan satu dan kemudian menempatkan itu di indeks kedua dan kami terus seperti ini sampai
+
+01:33.960 --> 01:37.810
+kami menemukan item terkecil tempat berikutnya dalam daftar.
+
+01:37.890 --> 01:47.420
+Selanjutnya dalam daftar berikutnya dalam daftar sampai kita memiliki daftar kami sepenuhnya diurutkan karena Anda dapat melihat jenis
+
+01:47.430 --> 01:48.160
+seleksi.
+
+01:48.310 --> 01:55.510
+Kita masih akan melihat kompleksitas waktu semua dan kuadrat jika kita melihat grafik kompleksitas waktu yang kita
+
+01:56.350 --> 02:00.340
+lihat maka pemilihan semacam itu tidak terlalu cepat.
+
+02:00.580 --> 02:02.830
+Mirip dengan semacam gelembung.
+
+02:03.100 --> 02:09.940
+Kami memiliki mereka yang bersarang untuk loop tetapi penggunaan adalah kompleksitas ruang satu.
+
+02:09.940 --> 02:14.250
+Itu tidak benar-benar menambahkan data tambahan selain input.
+
+02:14.290 --> 02:22.660
+Sekarang menggunakan animasi yang baru saja Anda lihat dapatkah Anda menerapkan pilihan Anda sendiri atau saya akan meninggalkan ini untuk Anda sebagai
+
+02:22.660 --> 02:28.750
+latihan menggunakan Mengapa Anda tahu dari semacam gelembung dan mengapa Anda baru saja melihat jenis
+
+02:29.010 --> 02:36.370
+seleksi bagaimana Anda dapat menggunakan informasi itu untuk mengurutkan daftar menggunakan algoritma ini dan saya akan menunjukkan solusinya dalam
+
+02:36.460 --> 02:37.430
+video berikutnya.

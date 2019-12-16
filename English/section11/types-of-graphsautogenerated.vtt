@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.640 --> 00:07.330
+As we saw there are many types of graphs but there are certain characteristics that allow us to describe
+
+00:07.330 --> 00:07.990
+graphs.
+
+00:08.200 --> 00:09.790
+Let's go over them.
+
+00:09.790 --> 00:15.880
+One thing that you really want to get yourself familiar with is the idea of directed an on directed
+
+00:15.880 --> 00:16.840
+graph.
+
+00:16.930 --> 00:23.440
+These types of graphs are useful for describing traffic flow for example of some kind of a system in
+
+00:23.440 --> 00:27.140
+which movement is not bi directional.
+
+00:27.220 --> 00:34.180
+That means like here where I can go back and forth between notes I can only go in one direction.
+
+00:35.770 --> 00:43.210
+A good way to think about on a directed graph is to think of as a highway between two cities where you
+
+00:43.210 --> 00:49.480
+can go back and forth on the other hand directed will be a one way street where you can only go one
+
+00:49.480 --> 00:50.100
+way.
+
+00:50.470 --> 00:57.150
+Another way to think about it is Facebook what kind of graph do you think Facebook has.
+
+00:58.080 --> 01:06.120
+Well it has an on directed graph because when I'm connected to a friend that friend is also connected
+
+01:06.120 --> 01:08.530
+to me it's not one way.
+
+01:08.580 --> 01:09.570
+What about Twitter.
+
+01:10.570 --> 01:20.120
+Twitter is more directed because if I have my profile people can follow me and I can follow people.
+
+01:20.230 --> 01:23.770
+But if somebody follows me I don't automatically follow them.
+
+01:23.770 --> 01:32.460
+So Twitter is more directed another way to describe graphs is the idea of weighted graphs on waited
+
+01:32.550 --> 01:41.110
+and waited graphs and as you can see from the images values can be applied to various aspects of a graph.
+
+01:41.220 --> 01:47.670
+Not just the notes remember the notes can carry any type of information but with graphs you can also
+
+01:47.670 --> 01:53.490
+have information in the edges and the connections maybe you're going on a trip and trying to figure
+
+01:53.490 --> 01:58.490
+out the most efficient way to visit sites that interest you.
+
+01:58.650 --> 02:05.370
+Well in that case Google Maps would use a weighted graph to decide what is the shortest path for you
+
+02:05.370 --> 02:13.060
+to get there and these sort of graphs are used a lot in calculating optimal paths the fastest way to
+
+02:13.060 --> 02:16.790
+get to let's say 1 to 6.
+
+02:16.800 --> 02:27.430
+Lastly another way to describe graph is cyclic or acyclic when you have vertices connected in a circular
+
+02:27.610 --> 02:28.630
+fashion.
+
+02:28.780 --> 02:33.970
+It's called a cycle when you can go from one node to another to another and then back to that original
+
+02:33.970 --> 02:40.550
+node versus acyclic where you can do that and C-code graphs are really common.
+
+02:40.590 --> 02:49.150
+An especially weighted graphs such as Google maps because most of the time there is a way to get back.
+
+02:49.180 --> 02:57.480
+So now that we understand a few ways to describe graphs Let me show you my favorite graph of all time.
+
+02:57.570 --> 02:59.820
+This is my favorite graph.
+
+03:00.900 --> 03:05.990
+It's by the opti project and it is a partial map of the Internet.
+
+03:06.300 --> 03:12.680
+If you look here you see that we have IP addresses connecting to IP addresses.
+
+03:12.810 --> 03:17.580
+And these are all nodes connected to create the internet.
+
+03:17.730 --> 03:19.210
+Pretty spectacular right.
+
+03:19.230 --> 03:24.290
+That is the best example of a graph.
+
+03:24.310 --> 03:31.600
+So now that we understand or at least have a basic understanding of graphs let's do a nice fun exercise.

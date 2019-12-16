@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.950 --> 00:07.540
+Co byś powiedział, gdybym zapytał cię, co się dzieje z funkcją Finding Nemo?
+
+00:07.970 --> 00:13.760
+Cóż, aby było to trochę czystsze, po prostu usuń teraz wykonaną wydajność, ponieważ dowiedzieliśmy się,
+
+00:13.760 --> 00:18.940
+że nie jest to bardzo ważne i możemy usunąć także dziennik konsoli.
+
+00:20.440 --> 00:27.500
+Patrząc na tę i tę pętlę, co byś powiedział, że to wielkie "O" i ten film, dowiemy
+
+00:27.560 --> 00:30.260
+się o naszej pierwszej notacji Big-O.
+
+00:30.620 --> 00:34.540
+Jak już mówiliśmy, środowisko uruchomieniowe jest po prostu tym, jak długo trwa uruchomienie.
+
+00:34.700 --> 00:43.860
+W jaki sposób ta funkcja i jej środowisko wykonawcze rosną, gdy zwiększa się nasze wejście, ponieważ nasze dane wejściowe są od
+
+00:44.190 --> 00:49.130
+pojedynczego elementu tablicy Nimo do 10 elementów w tablicy do 100000.
+
+00:49.320 --> 00:53.780
+Jak wzrasta efektywność tej funkcji.
+
+00:53.950 --> 01:01.180
+Jeśli spojrzymy na ten wykres i powiemy, że mamy 4 elementy w tablicy, podczas
+
+01:01.180 --> 01:10.500
+gdy liczba operacji będzie równa 4, ponieważ będziemy przechodzić przez każdy element i mówimy, że to Nimo to ten Nano.
+
+01:10.500 --> 01:11.550
+Czy to jest nimo?
+
+01:11.850 --> 01:14.000
+Czy to Nimo cztery razy.
+
+01:14.130 --> 01:19.650
+Niezależnie od tego, co robimy pętlą czterokrotnie, ze sposobem, w jaki mamy ustawiony
+
+01:19.980 --> 01:28.860
+ten kod, jeśli mamy pięć elementów w tablicy, to będzie pięć operacji, pięć pętli sześć to te same sześć pozycji to
+
+01:28.860 --> 01:30.030
+sześć operacji.
+
+01:30.030 --> 01:34.070
+Siedem to siedem operacji, a osiem to osiem.
+
+01:34.090 --> 01:38.230
+Operacja widać tu trochę wzoru.
+
+01:38.570 --> 01:40.410
+Cóż, możemy przez to narysować linię.
+
+01:42.090 --> 01:51.640
+Jest to stawka liniowa, ponieważ zwiększa się również liczba wejść zwiększających liczbę operacji.
+
+01:51.840 --> 01:57.680
+A tutaj, panie i panowie, nauczyliśmy się naszej pierwszej notacji Big-O.
+
+01:58.020 --> 02:11.480
+Mówimy, że funkcja nemo znajdowania ma dużą notację O 0 i jest to trochę dziwne.
+
+02:11.490 --> 02:21.750
+To tylko zapis, do którego musisz się przyzwyczaić, ale mówimy Big O of N lub co nazywamy liniowym
+
+02:21.750 --> 02:27.280
+czasem liniowym, potrzebny jest czas liniowy do znalezienia Nano.
+
+02:27.300 --> 02:29.980
+Skąd się bierze ten koniec.
+
+02:30.790 --> 02:33.100
+To może być cokolwiek naprawdę.
+
+02:33.130 --> 02:34.680
+Mógłbym postawić x.
+
+02:34.900 --> 02:40.540
+Mogę tu umieścić ryby, jeśli chcę, to tylko dowolny list.
+
+02:40.840 --> 02:42.680
+I zwykle dajemy.
+
+02:42.690 --> 02:50.100
+A jeśli chodzi o big-O, jest to tylko standard, który można zobaczyć na całej planszy i po
+
+02:50.790 --> 02:56.790
+prostu oznacza, że duże O zależy od liczby wejść i liczby ryb.
+
+02:56.790 --> 03:06.840
+Gdybyśmy mieli tablicę Nimo, byłby to jeden, gdybyśmy mieli jedną tablicę, to byłoby 10.
+
+03:07.090 --> 03:12.270
+I mieliśmy dużą tablicę Elby 100000.
+
+03:12.390 --> 03:23.090
+Ale gdy zwiększają się nakłady widzimy, że liczba operacji rośnie liniowo wraz z nim 0, gdy jest to najprawdopodobniej
+
+03:23.090 --> 03:30.830
+najczęstsza notacja Big O, którą znajdziecie, jeśli wrócimy do wykresu, widać, że ON jest
+
+03:30.920 --> 03:38.000
+tutaj w żółtym obszarze, który jest o ile liczba elementów rośnie.
+
+03:38.000 --> 03:40.250
+Widzisz, to jest po prostu prosta.
+
+03:40.370 --> 03:47.910
+Liczba operacji wzrasta o tę samą wartość, ale pamiętaj, że big-O nie mierzy rzeczy w
+
+03:47.910 --> 03:49.170
+kilka sekund.
+
+03:49.260 --> 03:53.980
+Zamiast tego skupiamy się na tym, jak szybko rośnie nasze środowisko uruchomieniowe.
+
+03:54.150 --> 04:00.680
+Robimy to po prostu używając rozmiaru wejścia, które nazywamy lub czegokolwiek, co naprawdę chcemy.
+
+04:00.930 --> 04:06.820
+W porównaniu do liczby operacji, które zwiększają, oznacza to, co oznacza skalowalność.
+
+04:06.870 --> 04:11.270
+W miarę, jak rzeczy stają się coraz większe. Czy to skaluje.
+
+04:11.390 --> 04:16.330
+Zatem funkcja Nimo znajduje się w funkcji czasu zerowego i liniowego.
+
+04:16.500 --> 04:19.190
+A teraz sposób myślenia o tym jest taki.
+
+04:19.620 --> 04:26.160
+Gdybyśmy mieli algorytm kompresji, powiedzmy, że ta funkcja to ta niewielka kompresja, a
+
+04:26.250 --> 04:31.640
+wejście to małe okienko, co jest wielką notacją tej funkcji.
+
+04:31.860 --> 04:35.580
+Cóż, jeśli mamy jeden element, po prostu skompresujemy
+
+04:38.620 --> 04:39.960
+jeden przedmiot.
+
+04:40.090 --> 04:47.430
+Gdybyśmy mieli wiele elementów ponownie, nadal musimy uruchomić każde pole za pomocą algorytmu
+
+04:47.430 --> 04:50.400
+kompresji, aby skompresować skrzynkę.
+
+04:50.450 --> 04:58.610
+Jeśli spojrzymy na funkcję dla skrzynek kompresujących, podczas gdy używamy E. S. i składnia ESX tutaj, ale w
+
+04:58.610 --> 05:04.130
+gruncie rzeczy przechodzimy przez wszystkie pola, w drugim przypadku po prostu anulujemy logowanie.
+
+05:04.280 --> 05:11.960
+Ale widać tutaj, że wszystkie te czynności, które robimy jako dane wejściowe, zwiększają liczbę skrzynek,
+
+05:11.960 --> 05:18.100
+liczba pól zwiększa liczbę operacji, a jest to czas liniowy O-N.
+
+05:19.460 --> 05:26.270
+Gratulacje, właśnie nauczyłeś się pierwszej dużej notacji O, która prawdopodobnie jest najpowszechniejsza, ale jest
+
+05:26.270 --> 05:28.090
+jeszcze kilka innych.
+
+05:28.220 --> 05:35.610
+Więc co innego notowania Big-O mamy poza czasem liniowym, który będziesz musiał oglądać
+
+05:35.610 --> 05:36.460
+dalej.
+
+05:36.510 --> 05:38.360
+Zobaczę w następnym filmie Bebai.

@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.670 --> 00:05.160
+Selamat datang kembali di mana Anda bisa mengetahui jenis penyisipan.
+
+00:06.050 --> 00:10.030
+Saya punya jawaban di sini untuk Anda seperti yang terjadi di animasi.
+
+00:10.170 --> 00:20.540
+Kami pertama-tama mengulangi array dan jika item yang kami looping kurang dari item pertama dalam array sementara
+
+00:21.630 --> 00:25.400
+kami hanya memindahkan item itu.
+
+00:25.680 --> 00:31.810
+Gunakan metode shift di dalam array dan ditambahkan ke indeks pertama dalam array.
+
+00:32.970 --> 00:41.880
+Kalau tidak, jika item yang sedang kita looping tidak kurang dari indeks pertama dalam kasus itu kita harus mencari
+
+00:41.880 --> 00:44.340
+tahu kemana nomor harus pergi.
+
+00:44.340 --> 00:50.430
+Jadi kita akan mengulangi hal-hal melakukan pernyataan if untuk melihat ke mana angka-angka harus pergi.
+
+00:50.610 --> 00:57.600
+Dan kemudian kita memindahkan angka itu ke tempat yang tepat menggunakan metode sambatan sehingga jika kita
+
+00:57.930 --> 01:06.350
+klik jalankan di sini kita memiliki daftar kita diurutkan saya akan sekali lagi meninggalkan fungsi ini di sini untuk kamu mainkan.
+
+01:06.640 --> 01:11.390
+Tetapi saya ingin segera berbicara tentang kompleksitas besar jenis penyisipan.
+
+01:11.440 --> 01:16.470
+Ada saat di mana penyisipan dapat bekerja dengan sangat baik.
+
+01:16.660 --> 01:23.760
+Skenario kasus terbaik untuk penyisipan sortir ketika daftar hampir diurutkan atau datanya sangat kecil.
+
+01:23.800 --> 01:25.510
+Ini bisa sangat cepat.
+
+01:25.780 --> 01:35.180
+Jika kita kembali ke animasi kecil kita di sini dan kita melihat jenis penyisipan dalam data yang hampir disortir dan saya klik bermain Anda
+
+01:35.190 --> 01:40.730
+akan melihat bahwa itu adalah yang pertama yang akan menyelesaikan cukup cepat sebenarnya dibandingkan
+
+01:40.730 --> 01:41.940
+dengan yang lain.
+
+01:41.990 --> 01:42.920
+Mari kita lihat lagi.
+
+01:45.860 --> 01:53.600
+Anda akan melihat bahwa itu yang pertama dilakukan dengan cukup cepat dan seperti yang akan kita diskusikan di video berikutnya
+
+01:53.600 --> 02:01.020
+ketika datang ke set data kecil atau set data yang hampir mengurutkan Anda ingin menggunakan penyisipan atas sebagian
+
+02:01.040 --> 02:02.840
+besar algoritma penyortiran lainnya.
+
+02:02.960 --> 02:03.600
+Sudah selesai dilakukan dengan baik.
+
+02:03.710 --> 02:06.020
+Mari kita beralih ke algoritma pengurutan berikutnya.

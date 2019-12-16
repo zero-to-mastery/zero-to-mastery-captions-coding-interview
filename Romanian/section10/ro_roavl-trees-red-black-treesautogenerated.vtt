@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.330 --> 00:02.270
+Bine ai revenit.
+
+00:02.620 --> 00:07.840
+Acum, când am implementat arborele nostru binar de căutare, vreau să vorbesc puțin despre echilibrarea
+
+00:07.840 --> 00:10.300
+copacului nostru de obicei în producție.
+
+00:10.300 --> 00:13.570
+Doriți să aveți un arbore de căutare echilibrat.
+
+00:13.630 --> 00:17.000
+Există două tipuri de copaci care sunt foarte populare atunci când vine vorba de acest lucru.
+
+00:17.110 --> 00:23.640
+Deși am construit propriul arbore binar de căutare, probabil că în producție folosiți ceva asemănător unui copac
+
+00:23.650 --> 00:31.360
+adevărat sau unui copac negru roșu care se reechilibrează automat astfel încât să nu avem acele cazuri de margine în
+
+00:31.690 --> 00:36.400
+care copacul nostru echilibrat se transformă într-un copac liniar dezechilibrat .
+
+00:36.400 --> 00:42.730
+Acum, aceste subiecte nu trebuie să ne codificăm pentru că sunt puțin complexe și de cele mai
+
+00:42.730 --> 00:46.580
+multe ori folosiți un fel de bibliotecă care o implementează.
+
+00:46.840 --> 00:49.280
+Dar vreau să înțelegi cum funcționează.
+
+00:49.300 --> 00:56.560
+Așa că voi lăsa resurse pentru tine atât pentru copacul negru roșu, cât și pentru copacii Avi unde, dacă faceți clic aici,
+
+00:56.620 --> 01:01.320
+veți vedea că du-te vizuale, de asemenea, trebuie să demonstreze pentru tine cum funcționează.
+
+01:01.330 --> 01:11.020
+Dacă vreau să introduc să spun șaptezeci și șapte în avi Peltry, nimic nu e diferit.
+
+01:11.020 --> 01:13.910
+Adăugăm 77 la copac.
+
+01:15.160 --> 01:23.810
+Dar dacă adaug acum să zicem 80 care ne va face un copac un pic dezechilibrat dacă am lovit
+
+01:28.300 --> 01:36.520
+du-te, vei vedea că mă duc să trec pe jos, adaug 80 și apoi dintr-o dată oh sună
+
+01:36.790 --> 01:46.750
+echilibrat, o să meargă înapoi și face un pic de un comutator sau de rotație pentru a echilibra copac pentru a vă
+
+01:46.750 --> 01:57.030
+asigura că nivelurile pe care le avem într-un copac sunt mereu sări și apoi avem copaci negri REPP, de asemenea, care face lucrurile
+
+01:57.420 --> 01:59.110
+un pic diferit.
+
+01:59.250 --> 02:05.820
+Dacă să spunem că am introdus 9 aici, să spunem că
+
+02:08.570 --> 02:15.060
+introducem 10 și apoi, în final, să introducem 11.
+
+02:15.150 --> 02:16.000
+Veți observa asta.
+
+02:16.030 --> 02:17.810
+Nu e echilibrat.
+
+02:17.850 --> 02:26.730
+Trebuie să o echilibrăm și, din nou, să ne asigurăm în mod automat că copacul nostru se echilibrează cu ceva
+
+02:26.730 --> 02:28.880
+numit copac negru roșu.
+
+02:28.950 --> 02:33.780
+După cum puteți vedea nasul sunt roșii și negri aici și asta este ceva pe care îl folosim pentru
+
+02:33.780 --> 02:35.910
+a urmări când avem nevoie de noi.
+
+02:36.000 --> 02:39.220
+Voi lăsa resurse pentru dvs. dacă doriți să aflați mai multe despre ele.
+
+02:39.240 --> 02:45.090
+Rețineți că aceste două sunt de obicei cele mai populare pentru echilibrarea arborilor binari de căutare și în
+
+02:45.090 --> 02:47.590
+interviuri nu va trebui să le implementați.
+
+02:47.640 --> 02:51.380
+Trebuie doar să puteți vorbi despre ele și de ce sunt utile.
+
+02:51.420 --> 02:53.770
+Ceva pe care ar trebui să-l cunoaștem până acum.
+
+02:53.850 --> 02:55.340
+Voi vedea în următorul.
+
+02:55.500 --> 02:55.740
+Bob.

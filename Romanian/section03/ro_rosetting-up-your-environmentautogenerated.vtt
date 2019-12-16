@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.390 --> 00:08.340
+În acest curs nu vreau să vă limitez la o singură limbă, deoarece toți codificăm în diferite
+
+00:08.430 --> 00:13.490
+limbi și pe tot parcursul carierei dvs. veți folosi mai multe limbi.
+
+00:13.530 --> 00:20.430
+Acum, acest curs va trebui să utilizez o limbă pentru a demonstra codul și pentru a scrie un
+
+00:20.430 --> 00:27.000
+cod și o să folosesc javascript pentru că este similar cu multe limbi comune și este, de
+
+00:27.000 --> 00:28.650
+asemenea, cel mai cunoscut.
+
+00:28.830 --> 00:36.330
+Cu toate acestea, puteți utiliza orice limbă doriți în acest curs și urmați chiar și exercițiile vă
+
+00:36.330 --> 00:39.300
+vor oferi soluții în diferite limbi.
+
+00:39.300 --> 00:45.570
+Deci, alegeți oricare doriți, dar cum vom rula toate aceste limbi diferite atunci când vă
+
+00:45.570 --> 00:46.380
+urmați.
+
+00:46.500 --> 00:51.810
+Poate demonstrez ceva în javascript și codificați de-a lungul Python ceea ce
+
+00:51.810 --> 00:54.770
+vom folosi câteva instrumente online minuțioase.
+
+00:54.840 --> 00:59.710
+Primul pe care vi-l voi arăta și cel pe care îl vom folosi în acest curs este înfășurarea întregului punct I-T
+
+01:00.360 --> 01:02.260
+REPL, așa cum îmi place să-l spun.
+
+01:02.550 --> 01:07.200
+Și puteți alege orice limbă pe care doriți să o codificați aici.
+
+01:07.590 --> 01:13.710
+Și cum am spus că voi folosi javascript pentru acest curs, dar tot ce trebuie să faceți
+
+01:13.770 --> 01:22.110
+este să vă înscrieți cu contul dvs. de obținere a habbe și veți avea un mic cod de identificare a codului și veți vedea folosind
+
+01:22.200 --> 01:30.350
+acest lucru pe tot parcursul cursului și acum cel care îmi place foarte mult este galat IO și este o sursă deschisă pe care
+
+01:30.350 --> 01:36.680
+eu sunt un mare fan și puteți vedea aici că avem multe limbi diferite pe care le putem
+
+01:36.680 --> 01:37.150
+folosi.
+
+01:38.550 --> 01:45.730
+Din nou, dacă mă duc la Javascript, îmi dă o zonă minunată pentru mine să scriu cod și să o rulez.
+
+01:45.880 --> 01:53.960
+O altă opțiune, mai ales dacă utilizați javascript, este doar să mergeți la
+
+01:54.430 --> 02:06.880
+Vizualizați instrumentele pentru dezvoltatori și dezvoltatori și Google Chrome, iar acest lucru vă permite în fila consolei să scrieți doar javascript.
+
+02:06.890 --> 02:08.550
+Deci, asta eo altă opțiune grozavă.
+
+02:08.690 --> 02:15.920
+Sau, dacă preferați, puteți utiliza întotdeauna editorul dvs. de text preferat să vă scrieți codul și apoi să-l
+
+02:15.920 --> 02:17.970
+rulați în orice fel doriți.
+
+02:17.990 --> 02:23.310
+Ținând seama din nou de faptul că acest curs este agnostic, înseamnă că nu contează ce limbă
+
+02:23.370 --> 02:23.960
+folosiți.
+
+02:23.970 --> 02:29.010
+Ceea ce învățăm principiile fundamentale ale științelor informatice spun că poți să te duci oriunde
+
+02:29.010 --> 02:35.910
+pe tot parcursul carierei și după ce vei vedea dacă știi sau nu javascript, am de gând să păstrez codul foarte general
+
+02:35.940 --> 02:42.600
+și simplu, astfel încât să fie ușor de reprodus în alte limbi și, de asemenea, vă oferă resurse și surse
+
+02:42.900 --> 02:44.000
+cu alte limbi.
+
+02:44.010 --> 02:46.700
+Când intrăm într-o codificare mai dură.
+
+02:46.850 --> 02:48.980
+Înființați mediul înconjurător.
+
+02:49.050 --> 02:50.500
+Pregătește-te pentru un cod.
+
+02:50.790 --> 02:52.770
+Voi vedea în următorul videoclip.

@@ -1,0 +1,292 @@
+WEBVTT
+
+00:01.270 --> 00:02.190
+Torneremo.
+
+00:02.390 --> 00:12.290
+Abbiamo la nostra lista di lunghezza originale e abbiamo appena scoperto che la nostra lista collegata è in realtà una
+
+00:12.290 --> 00:18.320
+lista concatenata, ma vogliamo convertirla ora in una lista doppiamente collegata.
+
+00:19.090 --> 00:25.300
+In modo che aggiungiamo quella caratteristica X sicuro di un puntatore in più.
+
+00:25.510 --> 00:27.670
+Come faremo a farlo.
+
+00:28.120 --> 00:33.210
+Bene, andiamo linea per linea e fortunatamente per noi non è così difficile.
+
+00:34.810 --> 00:41.970
+Come potete immaginare, se andiamo linea per riga e andiamo nel costruttore, l'unica informazione in più
+
+00:41.970 --> 00:49.140
+che dobbiamo aggiungere ora è che ora abbiamo anche un puntatore precedente e questo puntatore precedente
+
+00:49.260 --> 00:50.630
+non sarà iniziato.
+
+00:50.640 --> 00:52.910
+Quindi la testa indicherà no.
+
+00:53.460 --> 00:55.960
+E tutto il resto rimane lo stesso.
+
+00:56.930 --> 01:00.730
+Ma cosa succede quando aggiungiamo qualcosa di buono.
+
+01:00.770 --> 01:08.240
+Ancora una volta aggiungeremo una nuova nota che ha anche una proprietà precedente una nuova proprietà che punta
+
+01:08.240 --> 01:14.440
+a zero e avremo ancora il punto di coda successivo uguale al nuovo nodo.
+
+01:14.590 --> 01:23.980
+E questo non cambia, ma l'unica linea che cambia è che abbiamo bisogno di aggiungere una proprietà precedente perché
+
+01:23.980 --> 01:28.060
+ricorda che append si aggiunge alla fine dell'elenco.
+
+01:28.060 --> 01:35.380
+Vogliamo aggiungere la proprietà precedente per uguagliare qualsiasi cosa fosse alla fine della lista originale prima di
+
+01:35.380 --> 01:36.640
+fare l'aggiornamento.
+
+01:36.700 --> 01:46.240
+Quindi tutto ciò che dobbiamo fare è dire nuovo nodo che prima equivarrebbe a questo punto fino all'ultimo elemento
+
+01:46.930 --> 01:51.700
+prima che venga aggiornato da qui al nuovo nodo.
+
+01:51.720 --> 01:54.260
+Vediamo se append funziona come ce l'abbiamo.
+
+01:54.780 --> 02:04.550
+Ho intenzione di scorrere qui e commentare tutto questo codice tranne le prime due righe.
+
+02:05.350 --> 02:07.320
+Append cinque e append 16.
+
+02:07.390 --> 02:15.020
+Se clicco qui, ottengo una lista doppiamente collegata che ha un valore di 10.
+
+02:15.050 --> 02:23.590
+OK che punta al prossimo che è il prossimo nodo vediamo il valore 5 che punta a
+
+02:23.590 --> 02:30.220
+un oggetto che non conosciamo ancora e punta anche a un oggetto precedente.
+
+02:30.430 --> 02:39.050
+E all'interno di questo 10 nodo vediamo che i punti precedenti sono noti perché non c'è niente prima della testa.
+
+02:39.190 --> 02:48.730
+Se guardiamo a quella coda vediamo che la coda ora ha un valore di 16 non è perché
+
+02:48.730 --> 02:59.710
+è la coda è la fine, ma il nodo precedente punta anche a questo nodo 5 e la lista doppiamente collegata
+
+02:59.710 --> 03:02.660
+ha una lunghezza di tre.
+
+03:02.700 --> 03:03.240
+Molto bello
+
+03:03.240 --> 03:07.260
+Quindi tutto ciò che abbiamo aggiunto è questo riferimento precedente.
+
+03:07.410 --> 03:09.490
+Facciamo lo stesso per Prebend.
+
+03:09.570 --> 03:12.090
+Questo è da aggiungere all'inizio della lista.
+
+03:12.090 --> 03:22.560
+Scorriamo fino a prebendere che vogliamo ancora una volta aggiungere una nuova proprietà che sarà la precedente che sarà uguale
+
+03:22.590 --> 03:24.080
+per ora.
+
+03:24.480 --> 03:32.850
+E vogliamo mantenere tutto nello stesso modo in cui vogliamo fare in modo che il nuovo nodo punto successivo punti
+
+03:32.850 --> 03:36.340
+a qualunque sia la testa al momento.
+
+03:36.450 --> 03:43.950
+Ma vogliamo anche dire che questo punto aveva il punto precedente il precedente dovrebbe puntare ora al nostro nuovo nodo perché
+
+03:44.250 --> 03:46.410
+non è più la testa.
+
+03:46.860 --> 03:53.730
+E poi possiamo aggiornare il nostro nodo e questa cifra aumenterà e
+
+03:53.730 --> 03:54.880
+lo restituiremo.
+
+03:55.410 --> 04:00.210
+Se faccio clic su Run here remember where prepending 1.
+
+04:00.220 --> 04:03.140
+Quindi aggiungiamo 1 all'inizio della lista.
+
+04:03.320 --> 04:10.400
+Vediamo che la lista doppiamente collegata ora ha una testa con il valore uno che punta al valore
+
+04:10.400 --> 04:16.950
+successivo che è il 10 e la nostra coda è sempre la stessa storia è 16.
+
+04:16.970 --> 04:20.310
+Ciò indica il valore di cinque.
+
+04:20.780 --> 04:29.150
+Quindi se stampiamo di nuovo l'anno scorso un 10 5:16 come ci aspettavamo.
+
+04:29.160 --> 04:31.620
+Che dire dell'inserto.
+
+04:31.770 --> 04:32.720
+Come funzionerebbe?
+
+04:33.650 --> 04:41.960
+Se andiamo a inserire il metodo qui e andiamo riga per riga questa prima parte va tutto bene.
+
+04:42.080 --> 04:43.000
+Abbiamo un nuovo nodo.
+
+04:43.010 --> 04:50.800
+Quindi di nuovo aggiungeremo una proprietà precedente che sarà nota per ora stiamo ancora afferrando il leader
+
+04:50.800 --> 04:52.190
+e attraversando l'indice.
+
+04:53.100 --> 04:56.260
+Ma ora dobbiamo fare le cose in modo un po 'diverso.
+
+04:56.800 --> 05:02.310
+Abbiamo bisogno di afferrare il leader e il seguace.
+
+05:02.320 --> 05:11.550
+Quindi se vuoi aggiungere novantanove qui dobbiamo prendere un riferimento a 10 il leader e anche il follower
+
+05:11.830 --> 05:12.590
+5.
+
+05:13.140 --> 05:16.100
+Quindi cambierò il nome del leader Don dopo.
+
+05:16.110 --> 05:22.390
+Questo è 5 qui per dire follower.
+
+05:22.840 --> 05:30.430
+Quindi il leader del nostro nuovo nodo e il seguace di quello che ora conosci come follower ora saranno i
+
+05:31.480 --> 05:33.970
+cinque che aggiorneremo il leader dopo.
+
+05:33.970 --> 05:41.860
+Quindi questo è il cinque o il leader fatto dopo, che è quello che viene dopo che 10 sarà il nuovo nodo
+
+05:42.960 --> 05:47.970
+sono novantanove e quindi il nuovo NO fatto dopo sarà uguale al follower.
+
+05:48.240 --> 05:50.480
+Questo è cinque.
+
+05:50.630 --> 05:59.920
+Ma vogliamo anche assicurarci che il nostro nuovo nodo abbia ottenuto risultati equivalenti al leader.
+
+06:00.290 --> 06:10.960
+Questo è il 10 e assicuratevi anche che il follower che ha i cinque abbia un valore precedente
+
+06:10.960 --> 06:15.070
+che punta al nostro nuovo nodo.
+
+06:15.080 --> 06:22.800
+Quindi se stampo la lista qui con il nostro inserto che ho inserito il valore vorrei solo verificare che
+
+06:22.800 --> 06:23.680
+tutto funzioni.
+
+06:23.730 --> 06:35.460
+Vado a consolare Daut log questo che è il nostro elenco di link se faccio clic su run vedo che la nostra lista collegata ha un lenth of 5 e ho intenzione
+
+06:36.030 --> 06:42.420
+di cambiare solo all'indice di uno in modo che possiamo vederlo nel nostro output qui .
+
+06:42.450 --> 06:49.470
+E quando dico indice di uno alla volta, corro vedo che la testa ora ha il valore di uno il prossimo e l'oggetto è
+
+06:49.470 --> 06:50.820
+il valore di 99.
+
+06:51.240 --> 06:59.730
+Come ci aspettavamo e ha proprietà sia precedenti che precedenti e non è poi così male finché
+
+07:00.030 --> 07:04.200
+visualizzi i passaggi e disegni i tuoi diagrammi.
+
+07:04.200 --> 07:11.220
+Tutto quello che stiamo facendo è dire di aggiungere il nuovo nodo o fare in modo che il
+
+07:11.230 --> 07:19.470
+leader indichi la nota, quindi sappiate che ora puntare al leader e il nuovo nodo dovrebbe puntare dopo di esso accanto al
+
+07:19.650 --> 07:24.430
+follower e il follower ora punta al punto torna al nuovo nodo.
+
+07:24.530 --> 07:30.560
+Potrebbe essere necessario copiarlo nel cappello o asciugarlo su un foglio, ma dovrebbe avere senso ora
+
+07:30.560 --> 07:37.010
+e alla fine della giornata, le liste concatenate e gli elenchi doppiamente collegati non sono poi così diversi.
+
+07:37.010 --> 07:41.700
+Tutto quello che stiamo facendo è solo la gestione di un altro puntatore che punta alla nota precedente.
+
+07:42.520 --> 07:50.110
+Lascio l'elenco rimuoverlo a te per implementare il tuo.
+
+07:50.110 --> 07:56.590
+E l'elenco doppiamente collegato come hai imparato fino ad ora dovrebbe essere molto diverso
+
+07:56.730 --> 07:59.600
+da quello che abbiamo fatto nell'inserto.
+
+08:00.040 --> 08:03.870
+Ma spero tu abbia una comprensione di come funzionano le liste di link.
+
+08:03.870 --> 08:11.230
+Ora gli intervistatori adorano fare domande su tutte le liste collegate perché richiede molte informazioni nella tua testa e
+
+08:11.230 --> 08:16.420
+come puoi vedere possono essere davvero complicate se non sei il tipo
+
+08:16.420 --> 08:21.740
+di persona che pensa chiaramente attraverso i loro passi e capisci cosa stanno facendo.
+
+08:21.760 --> 08:25.640
+Uno per uno e i passaggi sono davvero importanti.
+
+08:25.660 --> 08:29.940
+Ecco perché gli intervistatori adorano questa domanda perché riescono davvero a vedere come la pensi.
+
+08:31.220 --> 08:37.400
+E con gli elenchi di collegamenti che si allungano per capire perché stai facendo passo dopo passo diventa davvero molto
+
+08:37.400 --> 08:37.810
+facile.
+
+08:37.820 --> 08:42.200
+Finché non si inizia semplicemente a codificarlo dalla memoria.
+
+08:42.200 --> 08:43.730
+Basta disegnare i passaggi.
+
+08:43.730 --> 08:47.010
+Pensa ai tuoi passaggi e l'intervistatore resterà colpito.
+
+08:47.800 --> 08:48.760
+Vedrò nel prossimo.

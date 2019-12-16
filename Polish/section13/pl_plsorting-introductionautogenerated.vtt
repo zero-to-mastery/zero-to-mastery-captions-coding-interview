@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.930 --> 00:05.770
+Witam i zapraszam do następnej części sekcji algorytmu.
+
+00:05.970 --> 00:11.630
+Tak, nadal jestem podekscytowany pomimo następnego tematu, który prawdopodobnie jest moim najmniej ulubionym.
+
+00:11.940 --> 00:18.660
+W przeszłości, kiedy dowiedziałem się o sortowaniu, wymagało to wielu matematyki i wielu różnych algorytmów, a
+
+00:18.930 --> 00:26.050
+ja nigdy tak naprawdę nie sprawiało mi to przyjemności, ponieważ nie rozumiałem, dlaczego musieliśmy wiedzieć, jak sortować.
+
+00:26.130 --> 00:31.290
+Mam na myśli, że po prostu masz funkcję sortowania zwykle w języku programowania i to wszystko.
+
+00:31.380 --> 00:32.400
+Dobrze.
+
+00:32.430 --> 00:34.900
+Po prostu nigdy nie rozumiałem, o co chodzi.
+
+00:35.310 --> 00:37.380
+I prawdopodobnie myślałeś o tym samym.
+
+00:37.830 --> 00:38.140
+W porządku.
+
+00:38.150 --> 00:39.980
+Andre nie ma tu czego się uczyć.
+
+00:39.990 --> 00:43.520
+Zamierzam pominąć sekcje szarej lekcji.
+
+00:43.560 --> 00:44.460
+Do zobaczenia później.
+
+00:44.580 --> 00:45.290
+Dobrze.
+
+00:45.720 --> 00:48.210
+No nie bardzo.
+
+00:48.210 --> 00:50.790
+Pozwól mi wyjaśnić w wywiadzie.
+
+00:50.820 --> 00:53.760
+Sortowanie jest naprawdę ważne.
+
+00:53.790 --> 01:00.510
+Słyszysz pytania, takie jak zbieranie liczb i sortowanie ich, albo osoba przeprowadzająca wywiad chce, abyś zrobił
+
+01:00.690 --> 01:08.790
+coś, aby przekazać jakieś dane, i powie Ci, że dane wejściowe zostały posortowane i zastanawiasz się, dlaczego właśnie nam to
+
+01:08.790 --> 01:09.340
+powiedzieli.
+
+01:09.360 --> 01:11.430
+Dlaczego to ma znaczenie, jeśli jest posortowane, czy nie.
+
+01:11.730 --> 01:19.110
+I dlaczego firmy tak bardzo interesują się sortowaniem, czy mogę po prostu użyć wbudowanej metody sortowania w moim
+
+01:19.110 --> 01:19.950
+własnym języku.
+
+01:21.100 --> 01:28.710
+No cóż, sortowanie nie jest wielkim problemem, jeśli chodzi o małe dane wejściowe.
+
+01:28.750 --> 01:29.530
+Będziesz miał rację.
+
+01:29.530 --> 01:31.440
+Możesz po prostu zrobić coś takiego.
+
+01:31.810 --> 01:40.370
+Mielibyśmy tablicę liter, a ta tablica po prostu ma
+
+01:43.370 --> 01:46.280
+literę "D" Z.
+
+01:46.370 --> 01:47.520
+Dodajmy jeszcze kilka.
+
+01:47.550 --> 01:53.490
+R i wreszcie być.
+
+01:53.740 --> 02:00.510
+A jeśli ktoś powie, że dobrze to sortuje, możemy użyć czegoś w rodzaju metody sortowania, która jest
+
+02:00.600 --> 02:02.450
+dostępna w większości języków.
+
+02:02.650 --> 02:08.980
+A jeśli poprowadzę ten wygląd tak ładnie i łatwo, zacznę wszystko.
+
+02:08.980 --> 02:10.310
+Jestem geniuszem w porządku.
+
+02:11.550 --> 02:15.160
+Dlaczego firmy kiedykolwiek zadają nam tak proste pytanie?
+
+02:15.210 --> 02:23.260
+Widzisz, problem polega na tym, że wejścia stają się coraz większe, gdy mówię o big-o, nie
+
+02:23.260 --> 02:25.470
+dbamy o małe nakłady.
+
+02:26.210 --> 02:30.480
+Jest to łatwe do zrobienia, zwłaszcza w przypadku naszych nowoczesnych szybkich komputerów.
+
+02:30.490 --> 02:37.310
+Zaczyna kosztować firmy dużo pieniędzy, gdy musimy wykonywać operacje na większych i większych
+
+02:37.310 --> 02:38.620
+zbiorach danych.
+
+02:38.690 --> 02:43.150
+Wtedy sytuacja staje się trochę szalona i droga.
+
+02:43.490 --> 02:50.990
+Na przykład Google ma wiele zaindeksowanych stron internetowych Co zrobić, jeśli muszą sortować te witryny sieci Web
+
+02:51.410 --> 02:57.330
+w sposób, który może sortować artykuł na podstawie czasu, w którym został wydany.
+
+02:57.560 --> 03:01.310
+A ponieważ mówimy o Google tutaj, nie mówimy o 10
+
+03:01.310 --> 03:05.360
+artykułach, o których mówimy, o tysiącach milionów artykułów posortowanych według danych.
+
+03:05.720 --> 03:07.360
+A co z Amazonem?
+
+03:08.430 --> 03:15.620
+Amazon polega na sortowaniu produktów według kategorii na podstawie ceny opartej na ratingu.
+
+03:15.780 --> 03:19.120
+I mają miliony produktów.
+
+03:19.130 --> 03:20.160
+A co z Apple.
+
+03:20.270 --> 03:28.610
+Cóż, Apple ma sklep Apple i wymienia wszystkie swoje aplikacje, a niektóre na podcasty posortowane
+
+03:28.970 --> 03:31.270
+według uporządkowanej kolejności.
+
+03:31.280 --> 03:32.400
+A co z Microsoftem?
+
+03:32.480 --> 03:38.680
+Cóż, Microsoft musi sortować wszystkie swoje dzienniki, powiedzmy swoje centra danych na całym
+
+03:38.870 --> 03:45.980
+świecie, aby w razie incydentu wiedzieli, skąd się bierze, a potem Netflix, czego potrzebują, aby posortować
+
+03:45.980 --> 03:49.450
+swoje programy, pokazuje jak ich programy telewizyjne.
+
+03:49.480 --> 03:49.990
+Dobrze.
+
+03:51.280 --> 03:57.700
+Zwykle nie mogą korzystać z wbudowanej metody sortowania, która jest dostarczana wraz z
+
+03:57.700 --> 04:05.530
+językiem i zwykle wymagają niestandardowych posortowanych metod na podstawie danych, aby obniżyć koszty i obniżyć operacje
+
+04:05.530 --> 04:07.570
+wykonywane przez ich komputery.
+
+04:08.290 --> 04:16.330
+Większość miejsc sortuje dane lub przetwarza je wstępnie, a wszystkie te firmy, w tym małe, zwykle sortują dane, aby upewnić się,
+
+04:16.330 --> 04:21.030
+że są znaczące, jeśli są to losowe dane, które nie są sortowane.
+
+04:21.160 --> 04:23.340
+To naprawdę bardzo trudno uzyskać dostęp.
+
+04:23.410 --> 04:27.750
+Dlatego większość czasu sortujemy lub przetwarzamy dane.
+
+04:27.780 --> 04:34.280
+Przykłady, o których właśnie mówiłem, są trochę głupie, ale dowodzi to mojej racji.
+
+04:34.440 --> 04:40.380
+Dla tych firm, jeśli robią coś źle lub robią to w sposób nieefektywny, oznacza to utratę dużej
+
+04:40.380 --> 04:41.130
+ilości pieniędzy.
+
+04:41.280 --> 04:46.080
+Dlatego w pytaniu zadawali te pytania, aby upewnić się, że rozumiesz, jak
+
+04:46.080 --> 04:52.500
+ważny jest dany temat, i że możesz podjąć właściwą decyzję jako pracownik, który algorytm sortowania powinien zostać
+
+04:52.500 --> 04:54.520
+wykorzystany w oparciu o problem.
+
+04:55.360 --> 04:56.940
+To jest cel tej sekcji.
+
+04:57.190 --> 05:03.640
+Pokażę ci jak samemu zaimplementować sortowanie, ale co najważniejsze, porozmawiamy o różnych dostępnych algorytmach
+
+05:03.640 --> 05:09.490
+sortowania i o tym, jak może on podjąć właściwe decyzje dla Twojej
+
+05:09.490 --> 05:13.120
+firmy i oczywiście na początek uszkodzenie kodu.
+
+05:14.120 --> 05:21.650
+Teraz powodem, dla którego większość algorytmów sortowania staje się naprawdę nudna, jest tak
+
+05:21.650 --> 05:24.000
+wiele algorytmów sortowania.
+
+05:24.220 --> 05:33.580
+Jeśli przeszukiwamy algorytmy sortowania w Wikipedii, otrzymujemy dość dużą listę i samodzielne ich wdrażanie zajmuje dużo czasu, ale najprawdopodobniej
+
+05:33.640 --> 05:41.380
+nigdy nie wdrożysz własnego algorytmu sortowania w swoim życiu, z wyjątkiem może prostego w wywiadzie, ponieważ
+
+05:41.440 --> 05:48.100
+Większość z nich, szczególnie tych zaawansowanych, jest naprawdę szybka i jest wykonywana przez
+
+05:48.100 --> 05:55.180
+naukowców, którzy spędzają lata zastanawiając się, jaki jest najlepszy najbardziej optymalny sposób sortowania, a
+
+05:55.180 --> 06:01.610
+ankieterzy nie spodziewają się, że będą w stanie zaimplementować każdy algorytm sortowania.
+
+06:02.720 --> 06:09.470
+Moim celem w tej sekcji jest nauczenie wysokiego poziomu, dlaczego musisz wiedzieć, aby stać się lepszym inżynierem, a
+
+06:09.500 --> 06:15.360
+także wywiad z kodem, który pokażę ci, jak wdrożyć niektóre z biednych i algorytmów sortowania.
+
+06:15.380 --> 06:21.830
+Ale co ważniejsze, będziemy mówić o kompromisach między nimi, abyście mogli inteligentnie
+
+06:21.830 --> 06:26.880
+porozmawiać o nich podczas wywiadu dla kilku następnych filmów.
+
+06:26.910 --> 06:34.200
+Porozmawiamy o tych algorytmach sortowania, a także o kilku bonusach pod koniec, ale kluczową rzeczą do zapamiętania
+
+06:34.200 --> 06:41.490
+jest to, że coraz więcej danych jest przetwarzanych przez nasze komputery, co jest dużym trending computing sortowania
+
+06:41.490 --> 06:47.970
+i wyszukiwania są dwa z największe problemy związane z informatyką w świecie oprogramowania, w
+
+06:48.870 --> 06:51.260
+której przejdziemy do następnej sekcji.
+
+06:51.330 --> 06:57.140
+Ale sortowanie to coś, co będziemy mieć dla mistrza na końcu tych filmów.
+
+06:57.240 --> 07:00.820
+Więc nauczmy się, jak podejmować dobre decyzje, jeśli chodzi o sortowanie.

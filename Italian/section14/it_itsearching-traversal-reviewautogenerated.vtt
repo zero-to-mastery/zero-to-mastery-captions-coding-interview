@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.210 --> 00:02.510
+Santo Moly.
+
+00:02.520 --> 00:04.340
+Un'altra sezione fatta.
+
+00:04.390 --> 00:11.410
+E ci stiamo avvicinando tanto alla fine in questa sezione che abbiamo imparato a cercare e
+
+00:11.410 --> 00:19.690
+attraversare alcuni degli algoritmi più popolari e importanti che abbiamo appreso sulla ricerca lineare e come può essere buono
+
+00:19.690 --> 00:25.490
+per alcuni casi ma non il più efficiente perché ha una linearità tempo.
+
+00:25.650 --> 00:34.350
+E abbiamo anche parlato della ricerca binaria in cui siamo in grado di cercare tra le cose nel registro
+
+00:34.350 --> 00:41.270
+di un salto sostanziale di molti dei nodi che dovremmo cercare dividendo l'albero a metà.
+
+00:41.280 --> 00:47.890
+Abbiamo poi parlato di come attraversare un albero e un grafico che è quello di visitare ogni singola nota.
+
+00:48.540 --> 00:55.020
+E nel modo più efficiente possibile abbiamo parlato della prima ricerca della profondità che va nel
+
+00:55.020 --> 01:04.440
+modo più profondo possibile in un albero o grafico e respiro per una ricerca che ricerca o attraversa un albero o un grafico livello
+
+01:04.440 --> 01:04.900
+per
+
+01:08.000 --> 01:14.780
+livello e se ce ne rendiamo conto o no Ho completato un sacco di questa mappa mentale che
+
+01:15.290 --> 01:18.950
+sembrava così intimidatoria all'inizio di questo corso che vedi.
+
+01:18.980 --> 01:29.100
+Ora, quando guardiamo una gara, per esempio, capiamo bene che quando array è necessario cercare attraverso un array,
+
+01:29.100 --> 01:35.900
+possiamo porre la domanda hey è ordinata perché se è allora sì.
+
+01:36.000 --> 01:42.990
+In tal caso dovremmo dividere e conquistare e organizzare quella matrice in una struttura ad albero come dati, in
+
+01:42.990 --> 01:51.040
+modo che possiamo fare una ricerca binaria e ottenere un aumento di velocità di tutti i log e l'array non è ordinato.
+
+01:51.150 --> 02:00.420
+Bene, no, in realtà è più efficiente ordinare l'array anche se ci vuole tutto e accedere come sappiamo qui
+
+02:00.420 --> 02:09.310
+e poi fare una ricerca binaria dopo che abbiamo ordinato e ci sono molti programmi che lo fanno.
+
+02:10.170 --> 02:17.250
+Anche se può sembrare dispendioso in termini di tempo fare l'ordinamento e quindi cercarlo è più veloce di
+
+02:17.250 --> 02:20.600
+fare una ricerca lineare più e più volte.
+
+02:20.690 --> 02:27.870
+Possiamo anche completare questa parte del grafico dove arriviamo a grafici e alberi.
+
+02:27.870 --> 02:34.500
+Quando eseguiamo gli attraversamenti, proviamo a visitare un nodo in un albero o un grafico o tutti i nodi in un
+
+02:34.500 --> 02:35.850
+albero su un grafico.
+
+02:35.930 --> 02:40.640
+Sappiamo che prenderà il sopravvento e che dobbiamo visitare ogni nodo.
+
+02:40.660 --> 02:49.970
+Sarà un tempo lineare, ma ci sono modi per attraversare questi alberi usando la prima ricerca del respiro e la prima ricerca della
+
+02:49.970 --> 02:57.490
+profondità e abbiamo imparato che la prima ricerca del respiro è ottima per il percorso più breve.
+
+02:57.900 --> 03:05.350
+Algoritmi mentre la prima ricerca di profondità è davvero grande a Maiz che risolve problemi o forse trova se esiste
+
+03:05.350 --> 03:06.850
+persino un nodo.
+
+03:07.890 --> 03:15.050
+E la morte per una ricerca ci permette di fare ordini in ordine e ordinamento preordinato.
+
+03:15.190 --> 03:23.400
+E abbiamo persino programmato tutto da soli e impariamo come funziona il codice usando la ricorsione con la prima ricerca di
+
+03:23.430 --> 03:24.040
+profondità.
+
+03:24.190 --> 03:33.720
+E anche con la prima ricerca di Brett utilizzando sia iterativo che ricorsivo usando una struttura dati chiave.
+
+03:33.740 --> 03:40.760
+Infine, abbiamo anche imparato un po 'sui problemi di percorso più brevi, come quello che Google Maps userebbe quando ci
+
+03:40.760 --> 03:47.630
+sono attese tra i nodi in un grafico in cui possiamo usare qualcosa come Belman Ford o l'algoritmo
+
+03:47.660 --> 03:50.000
+di diasters per risolvere un problema.
+
+03:51.230 --> 03:52.380
+Congratulazioni.
+
+03:52.530 --> 04:03.340
+Questa è la tua mappa mentale e hai coperto ogni singola cosa su questa mappa con l'eccezione di una e questa
+
+04:03.340 --> 04:05.420
+è proprio qui.
+
+04:05.470 --> 04:07.080
+Programmazione dinamica.
+
+04:07.570 --> 04:14.610
+È una breve sezione per completare la nostra mappa mentale generale e prepararti all'intervista.
+
+04:14.690 --> 04:16.490
+Quindi ci vediamo nella prossima sezione.
+
+04:16.490 --> 04:17.270
+Congratulazioni.
+
+04:17.270 --> 04:18.300
+Arrivare così lontano.
+
+04:18.380 --> 04:19.460
+Ci sei quasi.

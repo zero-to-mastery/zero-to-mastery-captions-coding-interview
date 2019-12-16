@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.640 --> 00:09.130
+Witamy ponownie, skonwertuj strukturę danych stosu, aby użyć tablic, a to będzie dość proste.
+
+00:09.370 --> 00:17.770
+Wszystko, co mamy zamiar zrobić, to usunąć to wszystko w konstruktorze i mieć przechowywaną tablicę równą
+
+00:17.770 --> 00:19.170
+pustej tablicy.
+
+00:19.240 --> 00:25.700
+Nie potrzebujemy właściwości length, ponieważ jest ona wbudowana w tablice i JavaScript.
+
+00:25.780 --> 00:31.180
+Oczywiście może to być inne dla różnych języków programowania, ale na razie mamy to
+
+00:31.180 --> 00:34.440
+dostępne w naszym języku, którego używamy teraz.
+
+00:34.450 --> 00:35.890
+Więc to mamy.
+
+00:35.950 --> 00:37.960
+To nasz konstruktor.
+
+00:38.010 --> 00:40.340
+A co z olejem szczytowym?
+
+00:40.410 --> 00:43.800
+Szczyt oznacza po prostu, że chcemy zobaczyć koniec tablicy.
+
+00:43.980 --> 00:47.890
+Pamiętaj, że przy stosie jest on na samym początku.
+
+00:47.910 --> 00:50.580
+Więc kiedy robimy szczyt, chcemy zobaczyć to, co najlepsze.
+
+00:50.580 --> 00:59.100
+Najnowszą rzeczą, którą dodaliśmy w naszym przypadku, możemy po prostu powiedzieć, że ta tablica jest kropka, a my zamierzamy
+
+00:59.100 --> 01:06.750
+uzyskać dostęp do tej tablicy za pomocą BRAC i notacji, i powiemy, że ta kropka tablicy
+
+01:06.750 --> 01:14.550
+punktów jest równa długości czynszowej tablicy. minus jeden, ponieważ robimy minus jeden, ponieważ nasz indeks zaczyna się
+
+01:14.700 --> 01:20.820
+od zera do 1, a długość zaczyna się od 1 do 2.
+
+01:20.840 --> 01:21.440
+to jest to!
+
+01:21.440 --> 01:23.420
+Mamy wdrożony szczyt.
+
+01:23.570 --> 01:33.820
+Po prostu skomentuj to i upewnij się, że szczyt działa z tego powodu, że jesteśmy niezdefiniowani.
+
+01:34.230 --> 01:40.000
+Cóż, ponieważ nie ma nic w tablicy i prawdopodobnie możemy dać lepsze błędy, jeśli chcemy usłyszeć.
+
+01:40.040 --> 01:41.990
+Ale na razie myślę, że to w porządku.
+
+01:43.390 --> 01:47.340
+A co z pushem, który warto popchnąć.
+
+01:47.450 --> 01:59.400
+Usuwamy cały ten kod i po prostu wypowiadamy tę wartość punktową.
+
+01:59.520 --> 02:00.670
+Jakie to miłe.
+
+02:00.680 --> 02:03.510
+Teraz jest ładnie i czysto, jest fabrycznie zbudowany z wyścigu.
+
+02:03.540 --> 02:05.660
+Możemy po prostu użyć push.
+
+02:05.690 --> 02:16.070
+Więc jeśli robię mój stos, pstrykam i klikam, uruchamiam, podczas gdy peek tutaj daje mi Google, ale tylko legalizuję, pcham,
+
+02:16.460 --> 02:20.670
+tylko dostaję stos, który ma tablicę z Google.
+
+02:20.720 --> 02:30.620
+Jeśli popchnę do ciebie Dammy, dodałem cię Dammy, jeśli popchnę ten sznur Dodałem tę kwartę i jeśli
+
+02:30.620 --> 02:36.450
+zerknę tutaj, powinienem dostać Dischorda, ponieważ jest to najnowszy wpis.
+
+02:36.450 --> 02:37.510
+Proszę bardzo.
+
+02:37.560 --> 02:39.610
+Jak proste jest to.
+
+02:39.620 --> 02:43.520
+Oznacza to, że pop będzie również bardzo prosty.
+
+02:44.400 --> 02:47.730
+Absolutnie czuje, że dobre usuwanie kodu nie jest.
+
+02:47.910 --> 02:55.620
+To, co robimy, to ta tablica kropkowa, która pojawia się już w javascript.
+
+02:55.620 --> 03:00.090
+Nie możemy tego po prostu zwrócić, jeśli chcemy.
+
+03:00.130 --> 03:04.190
+Jeśli kliknę, uruchom, ale będę musiał uruchomić pop tutaj, uciekajmy.
+
+03:04.360 --> 03:09.740
+Pop, który usuwa niezgodę z listy.
+
+03:09.860 --> 03:20.920
+Jeśli ponownie uruchomię pop, dostaję Google'a i jeśli to zrobię, klikniemy, że mamy pustą tablicę.
+
+03:20.970 --> 03:22.460
+Ładne i proste.
+
+03:22.480 --> 03:26.910
+Musimy używać klasy węzłów i to całkiem nieźle.
+
+03:27.860 --> 03:32.270
+Możesz więc łatwo używać tablic jako stosów.
+
+03:32.270 --> 03:39.080
+Omówiliśmy już plusy i minusy używania list połączonych w porównaniu do wymazania jednej z ładnych rzeczy związanych z
+
+03:39.080 --> 03:45.770
+używaniem tablicy, podczas gdy tablice przynajmniej w javascriptu działają już jak sterty i to sprawia, że rzeczy
+
+03:45.770 --> 03:50.060
+są dla nas bardzo proste, ale wystarczająco dużo o stosach.
+
+03:50.230 --> 03:51.790
+Zastosujmy własne.
+
+03:51.860 --> 03:55.380
+Q Tym razem zobaczę w następnym.

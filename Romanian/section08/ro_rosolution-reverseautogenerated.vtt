@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.900 --> 00:03.110
+Bine ai revenit.
+
+00:03.280 --> 00:10.370
+Avem lista noastră aici și dorim să putem rula lista mea legată.
+
+00:10.570 --> 00:15.900
+Reverse, care va inversa această listă pentru noi.
+
+00:15.900 --> 00:17.580
+Să vedem codul aici.
+
+00:19.300 --> 00:24.220
+Primul lucru pe care vrem să-l facem este să facem un cec.
+
+00:24.220 --> 00:29.040
+Imaginați-vă dacă am avea doar un singur articol în listă.
+
+00:29.290 --> 00:34.590
+Dacă există un nod sau un element în listă, atunci nu trebuie să-l inversăm cu adevărat.
+
+00:34.600 --> 00:35.610
+E deja acolo.
+
+00:35.620 --> 00:40.830
+Deci, dacă această listă conținea doar unul, întoarceți tot ceea ce avem acum.
+
+00:40.930 --> 00:49.450
+Deci, hai să verificăm aici și putem să spunem doar dacă acest tată a avut punctul următor și acest semn de exclamare
+
+00:49.840 --> 00:51.520
+înseamnă că nu există.
+
+00:51.600 --> 00:59.350
+Vreau să spun dacă acest lucru ar fi urmat dacă unul este doar unul și nu este tot acest semn de exclamare va transforma acest lucru
+
+00:59.350 --> 01:04.300
+în opusul pe care felul de funcționare a javascript-ului va transforma acest lucru în adevărat.
+
+01:04.480 --> 01:07.120
+Și este puțin confuz, dar sperăm că sunteți cu mine pe acel.
+
+01:07.120 --> 01:11.760
+Tot ce spunem este dacă acesta este singurul nod și aici este doar o notă.
+
+01:12.630 --> 01:16.890
+Aș putea face și asta verificând lungimea și avem proprietatea de lungime.
+
+01:17.090 --> 01:24.860
+Aș putea face ceva de genul că lungimea punctului este egală cu una religioasă păstrați-o așa cum este pentru moment
+
+01:25.340 --> 01:27.720
+dacă există doar un singur element.
+
+01:27.890 --> 01:35.500
+Pur și simplu returnați acest Dot avusese nodul sau putem doar să returnați acest lucru.
+
+01:35.570 --> 01:38.420
+În caz contrar, să intrăm în partea distractivă de codificare.
+
+01:38.420 --> 01:47.420
+Primul lucru pe care dorim să-l facem este să spunem că vrem să avem primul element egal cu acest punct
+
+01:47.420 --> 01:49.370
+și doar urmărim aici.
+
+01:49.460 --> 01:56.460
+Așa că vom spune că acum avem o referință la acest nod și avem de asemenea o
+
+01:56.490 --> 01:59.960
+referință acum la al doilea element din listă.
+
+02:00.360 --> 02:04.190
+Deci, acesta va fi primul punct.
+
+02:04.250 --> 02:08.620
+Deci, acum că avem primul și al doilea, putem face niște bucle.
+
+02:08.770 --> 02:21.800
+Putem spune că cel de-al doilea nod există, atâta timp cât al doilea nu este nul.
+
+02:21.960 --> 02:29.520
+Deci, atâta timp cât se întâmplă asta, vom crea o variabilă temporară care să dețină al doilea punct următor, astfel
+
+02:30.210 --> 02:36.880
+încât să putem numi această a treia dacă vrem, dar aleg temp deoarece aceasta se va schimba.
+
+02:36.970 --> 02:39.910
+Așadar, avem o referire la prima secundă și a treia.
+
+02:39.910 --> 02:54.150
+Deci unul 10 și 16 de aici putem spune acum că al doilea punct va fi egal cu primul element.
+
+02:56.050 --> 03:10.430
+În primul rând se va egala acest al doilea element și în al doilea rând acest lucru va fi egal cu elementul de sus Oh ce-mi sa
+
+03:10.430 --> 03:11.860
+întâmplat aici.
+
+03:11.950 --> 03:16.980
+Știu că a existat o mulțime de coduri fără o mulțime de explicații, dar să trecem prin linie.
+
+03:17.180 --> 03:26.680
+Lansăm aici, după ce am luat-o și am apucat 10 și acum am de gând să spun atâta timp cât această a
+
+03:26.770 --> 03:37.230
+doua variabilă are o valoare și este non-null că nu există atunci vreau să creați o variabilă temp care deține 16 de acolo, am
+
+03:37.440 --> 03:47.180
+de gând să apuc acea secundă făcută în continuare, care este proprietatea în interiorul celor 10 și am de gând să spun că
+
+03:48.030 --> 03:51.600
+la 10 acum merge punctul de rouă.
+
+03:51.630 --> 03:54.270
+Deci, al doilea pe X va indica primul.
+
+03:54.270 --> 04:04.200
+Deci, 10 are o săgeată îndreptată spre una, iar prima variabilă care a fost capul acum devine 10, iar
+
+04:04.290 --> 04:07.310
+al doilea element devine 16.
+
+04:08.150 --> 04:16.460
+Am schimbat indicatorii de la 1 la 10 acum merge de la 10 la 1 și am schimbat variabilele prima și a doua pentru
+
+04:16.550 --> 04:25.650
+a avea acum 10 și 16 și ne bucle și face același lucru în cazul în care avem indicatorul 10 la 16 inversat, astfel încât 16
+
+04:25.660 --> 04:31.400
+puncte la 10 și am modificat o variabilă astfel încât să fie 16 și 18.
+
+04:31.870 --> 04:37.420
+Așa că am buclele prin aceasta am buclele prin aceasta ne buclele prin acest lucru și apoi
+
+04:37.420 --> 04:46.230
+ultimul lucru pe care trebuie să facem este să spunem că acest tată a avut pentru că acest gând a avut încă valoarea de 1 în ea.
+
+04:46.340 --> 04:50.390
+Vom spune că următorul punct va fi egal cu doi.
+
+04:50.480 --> 05:06.370
+Nu vom avea un punct de a cunoaște și acest cap punct acum este, în schimb, va fi primul și amintiți-vă de timp vom
+
+05:06.370 --> 05:15.480
+buclele prin tot ce devine mai devreme 88 și al doilea devine Nr
+
+05:15.820 --> 05:20.920
+Deci, acum se schimbă la sfârșitul anului 88 pentru a fi egal cu capul.
+
+05:21.370 --> 05:28.510
+De asemenea, dorim să ne asigurăm că acea coadă este acum una și modul în care facem că trebuie să mergem
+
+05:28.510 --> 05:36.210
+înainte de bucla în timp și să vedem aici că acest câine a avut acest prim element ar trebui să fie coada în sus.
+
+05:36.280 --> 05:47.610
+Deci, la început, înainte de a face buclele, coada ar deveni acest câine avut dreptate.
+
+05:47.680 --> 05:51.850
+Știu că a fost confuz, dar să vedem dacă funcționează.
+
+05:51.850 --> 05:57.700
+Aceasta este una dintre problemele pe care trebuie să le usuci și doar dacă te uiți la acest cod este
+
+05:57.700 --> 06:00.500
+foarte greu pentru tine să înțelegi ce se întâmplă.
+
+06:00.700 --> 06:06.400
+Vă recomand să codificați acest lucru și să parcurgeți pas cu pas legea consolă pentru a înțelege ce se
+
+06:06.400 --> 06:06.840
+întâmplă.
+
+06:07.640 --> 06:14.820
+Dacă inversez această listă și dau clic pe executare, obțin undefined pentru că trebuie să întoarcem ceva, așa că să
+
+06:16.020 --> 06:16.880
+ne întoarcem.
+
+06:16.890 --> 06:21.930
+Aceasta a primit lista de tipărire care dorește să ruleze acest lucru.
+
+06:22.150 --> 06:22.710
+In regula.
+
+06:22.750 --> 06:26.200
+Permiteți-mi să mă asigur că vom inversa o să coment.
+
+06:26.290 --> 06:31.740
+Deci avem lista originală 1 10 16 88 dacă o inversăm.
+
+06:31.780 --> 06:40.170
+Avem 88 16 10 și 1 și doar pentru o măsură bună, în loc de listele de tipărire, să ne întoarcem doar în acest an, așa
+
+06:41.600 --> 06:46.370
+că vom obține întreaga listă legată pentru a ne asigura că totul funcționează corect.
+
+06:47.890 --> 06:55.710
+Am o listă legată care are o valoare a capului de 88 și o valoare coadă de 1.
+
+06:55.810 --> 06:58.660
+Se pare că funcționează.
+
+06:58.660 --> 06:59.610
+Minunat.
+
+06:59.860 --> 07:01.350
+Bună treabă să ajungi atât de departe.
+
+07:01.420 --> 07:08.710
+Și dacă ați reușit să înțelegeți acest lucru, cred că acesta este probabil cel mai dificil concept
+
+07:09.220 --> 07:11.800
+de înțeles în acest curs.
+
+07:11.860 --> 07:17.150
+Deci, dacă sunteți în măsură să obțineți această treabă bună, dacă nu ar putea fi necesar să vizionați acest videoclip de câteva ori.
+
+07:17.200 --> 07:23.830
+În cele din urmă și aceasta este frumusețea programării tot ceea ce facem este pași logici și indiferent de
+
+07:23.830 --> 07:29.080
+limba pe care o folosiți dacă este vorba de javascript ca și noi, în
+
+07:29.110 --> 07:35.710
+acest caz pașii de creare a unei liste legate sunt exact aceeași sintaxă poate diferi, logica este aceeași.
+
+07:35.790 --> 07:36.720
+Voi vedea în următorul.

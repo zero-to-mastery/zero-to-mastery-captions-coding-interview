@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.030 --> 00:02.460
+Welcome back.
+
+00:02.470 --> 00:10.120
+Let's continue our discussion with the most common tree data structure that is the binary search Street
+
+00:10.570 --> 00:18.290
+which is a subset of binary tree which we talked about what is a binary search tree
+
+00:22.140 --> 00:31.180
+a binary search tree are really really good as the name suggests at searching they're great for comparing
+
+00:31.180 --> 00:32.060
+things.
+
+00:32.110 --> 00:37.480
+Now why would this be better than let's say a hash table where we can just give it a key and get the
+
+00:37.480 --> 00:39.100
+item right away.
+
+00:39.100 --> 00:47.430
+Well this data structure preserves relationships just like you wouldn't want your folders on your computer
+
+00:47.760 --> 00:53.730
+to be in a hash table data structure because there is no sort of relationship.
+
+00:53.730 --> 01:00.840
+Instead you want your folders to have relationships to have a parent folder and a sub folder and in
+
+01:00.900 --> 01:08.960
+a sub folder a thing like binary search tree allows us to preserve these relationships when it comes
+
+01:08.960 --> 01:10.620
+to binary search trees.
+
+01:10.640 --> 01:12.120
+These are the rules.
+
+01:12.520 --> 01:23.760
+1 all child nodes in the tree to the right of the root node must be greater than the current node.
+
+01:23.780 --> 01:29.810
+That means if I keep going to the right the number or the value of the node constantly increases.
+
+01:29.810 --> 01:33.520
+You see over here I go from 1 to 1 1 2 5 1 44.
+
+01:33.590 --> 01:39.410
+If I keep going to the right let's say here 33 to 37 that is increasing.
+
+01:39.530 --> 01:45.520
+If I go to the left 1 to 1 33 9 that's always decreasing.
+
+01:45.530 --> 01:49.060
+Same with here 1 2 5 to 54.
+
+01:49.160 --> 01:52.190
+If I go to the left it decreases to the right.
+
+01:52.260 --> 02:00.510
+It increases and then the second rule is that a node can only have up to two children because it's a
+
+02:00.510 --> 02:02.260
+binary tree.
+
+02:02.280 --> 02:10.260
+The advantage of a binary search tree is that well it should be obvious with the name right searching
+
+02:10.260 --> 02:16.110
+and look up is very easy to find what you're looking for because if I'm looking for let's say number
+
+02:16.180 --> 02:21.130
+thirty seven I can start at 1 or 1 and say is thirty seven.
+
+02:21.150 --> 02:22.100
+Less than 1 to 1.
+
+02:22.200 --> 02:22.560
+Yes.
+
+02:22.590 --> 02:22.820
+Okay.
+
+02:22.830 --> 02:27.560
+Then go to the left is thirty three less than thirty seven.
+
+02:27.630 --> 02:28.040
+No.
+
+02:28.050 --> 02:30.870
+Then go to the right and I find thirty seven.
+
+02:30.870 --> 02:39.570
+I don't have to iterate in a linear fashion through each node and that is what Look up means look up
+
+02:39.570 --> 02:47.490
+simply means that I can search for an item a lot faster than let's say an array where I have to iterate
+
+02:47.550 --> 02:49.650
+and loop through every single item.
+
+02:49.650 --> 02:58.080
+But what about insert and delete in a hash table I can do insert and delete really fast at 0 1 or Constantine
+
+02:58.440 --> 03:06.360
+but with a binary search tree it looks like I can only do 0 log in and that should be obvious right.
+
+03:06.550 --> 03:13.210
+Because in order for us to insert or delete something in a binary search tree we need to figure out
+
+03:13.300 --> 03:20.260
+where to insert the item or where the item is before we delete it.
+
+03:20.360 --> 03:27.140
+For example with a one hundred and five let's say that we want to delete one or five.
+
+03:27.140 --> 03:34.100
+Well we have to first from the root note get to one hundred and five and then we have to decide which
+
+03:34.460 --> 03:36.540
+node is going to take its place.
+
+03:36.920 --> 03:46.210
+In this case because 54 is less than 144 144 is going to come up over here but as you can imagine this
+
+03:46.210 --> 03:48.480
+operation although Seems simple right now.
+
+03:48.490 --> 03:57.970
+If we had a lot of children and a lot of nested notes a lot of reordering needs to happen and shift
+
+03:58.000 --> 03:59.420
+our nodes around.
+
+03:59.650 --> 04:01.390
+And don't worry we're actually going to code this.
+
+04:01.390 --> 04:04.860
+You understand us just like we have in previous data structures.
+
+04:04.930 --> 04:12.130
+But I want to demonstrate instead of me just using my cursor here a nifty little tool to visualize how
+
+04:12.520 --> 04:20.750
+binary search trees work and how their operations are Oh log of n we're going to use visual go again
+
+04:20.990 --> 04:25.910
+and I'll link this and I highly recommend that you all play around with binary search trees.
+
+04:26.450 --> 04:33.100
+But let's do a couple of operations here see that it generated a random binary search tree for me.
+
+04:33.260 --> 04:42.470
+Let's say I wanted to do an answer and I want to insert let's say the number one 5 click go.
+
+04:42.650 --> 04:49.500
+It's going to traverse figure out where it wants to insert and it's going to insert 1 What if I want
+
+04:49.500 --> 04:59.520
+to insert perhaps number 44 this time around if I had go a traverses figures out where 44 should go
+
+05:01.320 --> 05:03.100
+and places it down here.
+
+05:03.540 --> 05:11.400
+So we're always traversing and figuring out using 0 log n where we should place the item.
+
+05:11.590 --> 05:13.110
+What about removing.
+
+05:13.330 --> 05:14.370
+Let's add one more.
+
+05:14.380 --> 05:17.290
+I'm going to insert fifty one this time
+
+05:21.280 --> 05:24.520
+so that it places it right over here.
+
+05:24.520 --> 05:25.470
+Perfect.
+
+05:25.480 --> 05:33.150
+Now let's say we want to delete 50 now five remove 50.
+
+05:33.360 --> 05:34.020
+I hate go
+
+05:37.290 --> 05:38.470
+I find 50.
+
+05:38.610 --> 05:44.590
+Remove it and then I have to replace with 51 and go up.
+
+05:44.670 --> 05:48.650
+So there's a bit of a tough little logic happening there.
+
+05:48.660 --> 05:54.770
+There we're gonna have to incorporate and we're gonna get to that but for now as I end this video I
+
+05:54.770 --> 06:02.060
+recommend that you go to visual go and play around with binary surgery so that you get accustomed to
+
+06:02.060 --> 06:08.300
+it and as you play with it see if you notice a problem that we might encounter with binary search tree
+
+06:08.660 --> 06:11.060
+because we're gonna discuss it in the next video.

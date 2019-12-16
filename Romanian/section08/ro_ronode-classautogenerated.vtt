@@ -1,0 +1,76 @@
+WEBVTT
+
+00:01.000 --> 00:09.460
+Bine ați venit înapoi în videoclipul precedent, am vorbit despre modul în care noadul de aici se repetă de două ori
+
+00:09.480 --> 00:11.340
+în anexă și pregătit.
+
+00:11.560 --> 00:18.960
+Și pe măsură ce creăm mai multe metode pe lista noastră legată, va trebui să continuăm să spunem în continuare valoarea valorii
+
+00:18.960 --> 00:20.110
+apelurilor nodului nou.
+
+00:20.130 --> 00:24.920
+Nu și de obicei vrem să păstrăm lucrurile uscate.
+
+00:25.280 --> 00:27.530
+Asta nu vă repetați în cod.
+
+00:28.530 --> 00:36.780
+Și multe implementări ale listei legate vor vedea așa ceva în cazul în care noul nod este de fapt
+
+00:36.780 --> 00:38.170
+o clasă nother.
+
+00:38.370 --> 00:45.100
+De exemplu, pot crea o nouă clasă aici și de aici funcționează de obicei modul de programare orientat pe obiecte.
+
+00:45.880 --> 00:51.610
+Avem clase care interacționează cu alte clase pentru a crea programele noastre.
+
+00:51.610 --> 00:57.150
+Deci, veți vedea o mulțime de implementări ale listelor legate care au o clasă de noduri.
+
+00:57.430 --> 01:05.800
+Și această notă va avea un constructor care are o valoare și această valoare
+
+01:06.850 --> 01:16.670
+va avea această valoare darte egală cu valoarea că va avea acest punct următor egal cu nu doar
+
+01:19.990 --> 01:20.750
+așa.
+
+01:22.370 --> 01:32.380
+În felul acesta, în loc să ne spunem nod constant nou și să creăm acest nou nod de fiecare
+
+01:32.380 --> 01:45.760
+dată când pot să spun doar de fiecare dată că vreau să creez un nod nou, putem spune că nodul lat sau Konst este egal cu
+
+01:46.150 --> 01:49.360
+noul nod și apoi cu valoarea.
+
+01:49.430 --> 02:02.040
+Deci, de fiecare dată când avem un nou nod, instanțiăm doar ceea ce numim creăm și executăm această nouă clasă de nod care creează
+
+02:02.670 --> 02:09.520
+un nod pentru noi cu o proprietate valoroasă și o proprietate următoare.
+
+02:09.550 --> 02:17.650
+Deci, s-ar putea să preferați să folosiți această sintaxă, dar pentru că văd că aceasta poate deveni puțin confuză, mai ales
+
+02:17.650 --> 02:24.010
+dacă acum sunteți obișnuiți cu clasele și doriți doar să păstrați lucrurile așa cum sunt.
+
+02:24.220 --> 02:32.000
+Ei bine, cred că este mai ușor de citit și cum ați văzut că este destul de ușor de implementat dacă doriți să
+
+02:32.030 --> 02:34.200
+faceți acest lucru pe cont propriu.
+
+02:34.460 --> 02:36.010
+Doar un segue rapid.
+
+02:36.260 --> 02:39.750
+Să ne întoarcem la terminarea listei noastre legate în următorul videoclip.

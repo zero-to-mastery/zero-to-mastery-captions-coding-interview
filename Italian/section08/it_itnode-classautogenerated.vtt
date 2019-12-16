@@ -1,0 +1,76 @@
+WEBVTT
+
+00:01.000 --> 00:09.460
+Bentornato nel video precedente abbiamo parlato di come il nuovo Noad qui venga ripetuto entrambe le volte in
+
+00:09.480 --> 00:11.340
+append e preparato.
+
+00:11.560 --> 00:18.960
+E siccome creiamo più metodi sulla nostra lista collegata, dovremo costantemente dire nuove value value per il valore dei
+
+00:18.960 --> 00:20.110
+nodi next.
+
+00:20.130 --> 00:24.920
+No e di solito vogliamo mantenere le cose asciutte.
+
+00:25.280 --> 00:27.530
+Questo non ti ripeti nel codice.
+
+00:28.530 --> 00:36.780
+E molte implementazioni della lista collegata vedrai qualcosa di simile a ciò in cui il nuovo nodo è in realtà
+
+00:36.780 --> 00:38.170
+una classe nother.
+
+00:38.370 --> 00:45.100
+Per esempio posso creare una nuova classe qui e questo è il modo in cui la programmazione orientata agli oggetti di solito funziona.
+
+00:45.880 --> 00:51.610
+Abbiamo classi che interagiscono con altre classi per creare i nostri programmi.
+
+00:51.610 --> 00:57.150
+Quindi vedrai molte implementazioni di liste collegate che hanno classe di Nodo.
+
+00:57.430 --> 01:05.800
+E questa nota avrà un costruttore che prende un valore e questo valore
+
+01:06.850 --> 01:16.670
+avrà questo valore darte uguale a valore che avrà questo punto prossimo uguale a no proprio
+
+01:19.990 --> 01:20.750
+così.
+
+01:22.370 --> 01:32.380
+In questo modo, invece di dire nuovo nodo costante e creare questo nuovo nodo ogni volta
+
+01:32.380 --> 01:45.760
+che posso dire ogni volta che voglio creare un nuovo nodo, possiamo dire che lat o Konst nuovo nodo equivale a nuovo
+
+01:46.150 --> 01:49.360
+nodo e quindi il valore.
+
+01:49.430 --> 02:02.040
+Quindi ogni volta che abbiamo un nuovo nodo, istanziamo semplicemente ciò che chiamiamo crea ed eseguiamo questa nuova classe nodo che crea un
+
+02:02.670 --> 02:09.520
+nodo per noi con una proprietà valore e una proprietà successiva.
+
+02:09.550 --> 02:17.650
+Quindi potresti preferire l'uso di questa sintassi, ma poiché trovo che ciò può creare un po 'di confusione, specialmente se
+
+02:17.650 --> 02:24.010
+ora sei abituato alle classi e vuoi semplicemente mantenere le cose come sono perché.
+
+02:24.220 --> 02:32.000
+Beh, penso che sia più facile da leggere e come hai visto è abbastanza facile da implementare se
+
+02:32.030 --> 02:34.200
+vuoi farlo da solo OK.
+
+02:34.460 --> 02:36.010
+Solo un rapido seguito.
+
+02:36.260 --> 02:39.750
+Torniamo a finire la nostra lista collegata nel prossimo video.

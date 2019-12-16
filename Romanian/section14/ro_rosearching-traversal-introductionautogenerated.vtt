@@ -1,0 +1,52 @@
+WEBVTT
+
+00:01.560 --> 00:07.400
+Am vorbit despre recursivitate și sortare, avem încă câțiva.
+
+00:07.560 --> 00:14.970
+Și în această secțiune vom vorbi despre căutarea și traversarea, inclusiv lărgimea primei căutări și a adâncimii
+
+00:15.180 --> 00:21.380
+primelor căutări de căutare este ceva ce facem foarte mult pe computerele noastre.
+
+00:21.380 --> 00:27.320
+Când am vorbit despre sortare, unii dintre voi s-ar putea să fi fost ca omul, care nu sună într-adevăr
+
+00:28.040 --> 00:29.320
+util, ci căutând.
+
+00:29.540 --> 00:32.210
+Folosim asta în fiecare zi, nu-i așa.
+
+00:32.210 --> 00:34.590
+Căutăm fișiere pe calculatorul nostru.
+
+00:34.970 --> 00:44.030
+WE RUN comanda af și căutarea lucrurilor căutarea cuvintelor și a documentelor căutăm Google căutăm pe youtube căutăm
+
+00:44.630 --> 00:51.220
+hashtags pe Twitter și Instagram căutarea este o mare parte a vieții noastre.
+
+00:51.350 --> 00:56.660
+Dar cum sunt toate aceste computere și programe capabile să caute lucruri atât de repede.
+
+00:57.660 --> 01:03.060
+Există tot mai multe date în această lume, din ce în ce mai multe site-uri Web pe care să le căutați.
+
+01:03.060 --> 01:06.180
+Cum putem să facem aceste lucruri atât de repede.
+
+01:06.180 --> 01:09.310
+Cum poate Google să facă aceste lucruri atât de repede.
+
+01:09.600 --> 01:14.130
+Ei bine, în această secțiune vom construi această bază a modului în care funcționează toate.
+
+01:15.470 --> 01:21.110
+Și vom vorbi despre câteva tipuri de căutări și traversări și, sperăm,
+
+01:21.110 --> 01:27.670
+până la sfârșitul anului tot veți înțelege cum funcționează locații precum Facebook Google și Google Maps.
+
+01:28.010 --> 01:33.000
+Când vine vorba de căutarea la un nivel fundamental, să începem.

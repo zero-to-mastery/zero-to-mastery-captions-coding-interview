@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.610 --> 00:01.460
+Witamy spowrotem.
+
+00:01.690 --> 00:09.220
+Nauczmy się, jak budować własne wykresy graficzne, gdy patrzysz na nie, wyglądają bardzo onieśmielająco.
+
+00:09.940 --> 00:19.540
+Ale oto rzeczy, których nauczyliśmy się narzędzi niezbędnych do tworzenia wykresów, ponieważ wykresy są
+
+00:19.540 --> 00:23.000
+zbudowane na innych strukturach danych.
+
+00:23.010 --> 00:29.880
+Zapamiętaj ten diagram skierowanego wykresu acyklicznego Wiele struktur danych, z którymi
+
+00:29.880 --> 00:37.740
+graliśmy do tej pory, może utworzyć coś takiego za pomocą drzew i list linków.
+
+00:37.740 --> 00:39.850
+Mam na myśli, że wygląda całkiem podobnie.
+
+00:39.870 --> 00:44.460
+Masz węzeł z dziećmi i różne wskaźniki korzystające z
+
+00:47.300 --> 00:48.330
+tej wiedzy.
+
+00:48.380 --> 00:55.350
+Porozmawiajmy o tym, jak zacząć myśleć o wykresach lub przynajmniej jak myśleć o ich budowaniu.
+
+00:56.540 --> 00:58.470
+Są trzy sposoby na przemyślenie tego.
+
+00:58.490 --> 01:05.930
+Pierwszy nazywa się listą krawędzi i mam dla ciebie przykład, którego możemy użyć do zbudowania
+
+01:05.930 --> 01:07.170
+czegoś takiego.
+
+01:07.180 --> 01:12.640
+Powiedzmy, że chcemy zbudować ten wykres, jak byśmy to zrobili.
+
+01:14.600 --> 01:24.850
+Z listą krawędzi możemy powiedzieć, że wykres Konst jest równy temu.
+
+01:24.850 --> 01:27.610
+Zobaczmy teraz, co tu zrobiłem.
+
+01:27.690 --> 01:36.240
+Mam tablicę iw tej tablicy mam jeden dwa trzy cztery elementy, które same w sobie.
+
+01:36.310 --> 01:38.070
+Są rasą.
+
+01:38.220 --> 01:43.630
+Ale jeśli spojrzymy na wykres, tablica po prostu stwierdza połączenia.
+
+01:43.860 --> 01:49.330
+To znaczy, że mamy zero i dwa jako pierwszy element w tablicy.
+
+01:49.450 --> 01:58.000
+Mamy dwie i trzy jako drugą tablicę wewnątrz tablicy, a następnie dwie i jedna i jedna i trzy lista krawędzi pokazuje
+
+01:58.310 --> 02:04.930
+po prostu, że połączenie, które jest połączone z 2 i 2, jest połączone z zero.
+
+02:06.950 --> 02:10.930
+Dwa połączone są z trzema trójkami połączonymi z 2 do 1 1 do 3.
+
+02:10.930 --> 02:14.620
+Tak i tak dalej, całkiem proste.
+
+02:14.880 --> 02:27.060
+Istnieje inny sposób nazywany sąsiedztwem lub sąsiednią listą iw tym przypadku możemy utworzyć wykres, w którym indeks jest notatką,
+
+02:27.120 --> 02:35.060
+a wartość jest w węzłach sąsiadujących z tym, co przez to rozumiem.
+
+02:35.390 --> 02:41.600
+Cóż, tutaj możemy użyć tablic, w których możemy używać obiektów, z których możemy korzystać Listy Połączone.
+
+02:41.630 --> 02:47.570
+Ale powiedzmy, że w indeksie 0 pierwsza pozycja 0 jest połączona z
+
+02:50.610 --> 03:04.410
+2 indeksem jednego, który jest węzłem jeden jest połączony z 2, a trzy indeksy z dwóch jest połączony z 0 1 i 3, a następnie w końcu
+
+03:04.410 --> 03:10.130
+indeks 3 lub No3 jest podłączony do 1 i 2.
+
+03:10.290 --> 03:15.450
+Możesz także wykonać powyższe czynności z obiektem, w którym może być jeszcze jaśniej.
+
+03:15.460 --> 03:21.730
+A jeśli wartość węzła jest czymś innym niż liczba, można ją podać.
+
+03:21.780 --> 03:23.250
+A więc klucz i wartość.
+
+03:23.520 --> 03:26.910
+I jest to niezwykle użyteczne z obiektem, jeśli masz.
+
+03:27.120 --> 03:30.970
+Tak jak nie powiedziałem numeru sekwencyjnego, jak to robimy w tym przykładzie.
+
+03:31.050 --> 03:35.850
+Kiedy zaimplementujemy własny wykres, użyjemy sąsiedniej listy przy użyciu obiektu.
+
+03:35.850 --> 03:36.930
+I zobaczysz, co mam na myśli.
+
+03:37.700 --> 03:42.910
+Na koniec chcę pokazać ostatnią metodę reprezentowania wykresów.
+
+03:42.990 --> 03:53.980
+Nazywa się to sąsiednią macierzą, a sąsiednia macierz będzie wyglądała tak, że ta macierz będzie miała po prostu
+
+03:54.010 --> 04:01.330
+zera i wskazuje, czy węzeł X ma połączenie z węzłem y.
+
+04:01.360 --> 04:04.570
+Zero oznacza, że nikt nie znaczy "tak".
+
+04:04.690 --> 04:09.910
+A jeśli masz sposób na wykres, możesz dodać ciężary tutaj zamiast 1 i 0.
+
+04:09.910 --> 04:12.120
+Więc mogą to być liczby.
+
+04:12.250 --> 04:17.620
+Nie zamierzam tego wypisać, ponieważ zamierzam zanudzić cię na śmierć, ale tutaj jest
+
+04:17.620 --> 04:23.140
+ta sama reprezentacja, którą zrobiliśmy z sąsiednią listą w tym samym czasie z sąsiednią matrycą.
+
+04:23.200 --> 04:24.670
+Co to znaczy.
+
+04:24.700 --> 04:33.500
+Indeks Well z 0 ma połączenie z 0 1 2 0 0 jest podłączony do dwóch.
+
+04:33.760 --> 04:47.550
+Wtedy nikt nie jest podłączony do dwóch i trzy węzły 2 jest podłączony do 0 1 i 3.
+
+04:47.550 --> 04:56.550
+Możesz zobaczyć, jak to jest bardzo podobne do tego, a węzeł 4 jest połączony z jednym i dwoma, tak
+
+04:56.550 --> 04:57.540
+jak tutaj.
+
+04:57.540 --> 05:05.270
+I znowu, zamiast wyścigu, można używać tutaj obiektów i faktycznie dać mu klucz i wartość.
+
+05:06.160 --> 05:17.610
+Aby to było, gdyby był obiektem, wynosiłoby zero jeden do trzech.
+
+05:17.690 --> 05:25.640
+I jeśli przejdziemy do wizualnego przejścia, zobaczysz, że mają trzy sposoby opisywania wykresów.
+
+05:25.690 --> 05:27.220
+Macierz sąsiedztwa.
+
+05:27.220 --> 05:28.200
+A ponieważ jest ważony.
+
+05:28.200 --> 05:31.900
+Widzisz tutaj liczby zamiast 1.
+
+05:32.050 --> 05:39.250
+Mamy listę przylegania, na której wygląda ona tak, że mają tabelę mieszającą z wartościami,
+
+05:39.250 --> 05:44.080
+a także listę krawędzi z dodatkową właściwością wag.
+
+05:44.110 --> 05:48.730
+Ponieważ jest to sposób na wykres i możesz zobaczyć wagi również na liście sąsiednich.
+
+05:48.940 --> 05:51.180
+Ale właśnie przyjrzeliśmy się wielu liczbom.
+
+05:51.190 --> 05:56.230
+Myślę, że nadszedł czas, abyśmy zbudowali własny wykres, aby sfinalizować nasze zrozumienie.
+
+05:56.290 --> 05:57.540
+Zobaczę w następnym.
+
+05:57.930 --> 05:58.160
+Konstabl.

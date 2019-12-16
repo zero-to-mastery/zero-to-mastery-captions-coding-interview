@@ -1,0 +1,817 @@
+WEBVTT
+
+00:01.220 --> 00:02.450
+Selamat datang kembali.
+
+00:02.450 --> 00:06.110
+Kita akan berbicara tentang beberapa konsep objek canggih.
+
+00:06.440 --> 00:13.790
+Sekarang seperti yang saya katakan dengan kedua array dan fungsi ini adalah konsep-konsep lanjutan Anda mungkin tidak
+
+00:13.790 --> 00:21.440
+akan mendapatkannya 100 persen saat pertama kali tetapi menggunakan video ini sebagai referensi untuk kembali ketika Anda maju
+
+00:21.440 --> 00:23.040
+melalui karir Anda.
+
+00:24.200 --> 00:29.970
+Sekarang di video ini saya akan berbicara tentang tiga hal yang penting dengan objek.
+
+00:30.060 --> 00:35.210
+Kita akan berbicara tentang tipe referensi.
+
+00:35.300 --> 00:38.000
+Kita akan berbicara tentang konteks.
+
+00:38.570 --> 00:41.300
+Dan akhirnya kita akan berbicara tentang instantiasi
+
+00:44.930 --> 00:51.870
+jadi mari kita mulai dengan referensi pertama tentang apa yang saya maksud ketika saya mengatakan jenis referensi apa yang ingin saya lihat
+
+00:51.870 --> 00:55.410
+jika Anda dapat menebak apa yang akan terjadi ketika saya melakukannya.
+
+00:55.550 --> 00:58.730
+Array sama dengan array.
+
+00:58.770 --> 01:00.510
+Menurut Anda apa jawabannya?
+
+01:00.540 --> 01:01.000
+Ayo lihat.
+
+01:02.660 --> 01:05.880
+Hmm menarik OK.
+
+01:05.880 --> 01:14.110
+Bagaimana jika saya melakukan array yang dia sebut itu menarik OK.
+
+01:14.210 --> 01:15.310
+Satu pertanyaan lagi.
+
+01:15.500 --> 01:18.320
+Bagaimana dengan sesuatu yang seperti ini.
+
+01:19.380 --> 01:20.660
+Bagaimana objeknya.
+
+01:21.010 --> 01:25.030
+Dia menyebut nilai 10
+
+01:29.180 --> 01:48.530
+dan kita akan mengatakan objek 2 sama dengan objek 1 dan akhirnya kita akan objek variabel 3 sama dengan nilai 10.
+
+01:49.400 --> 01:54.650
+Jadi melihat ini dan saya benar-benar akan menyalinnya di sini sehingga Anda dapat melihatnya juga.
+
+01:59.210 --> 02:00.130
+Melihat ini.
+
+02:00.260 --> 02:07.370
+Apa yang terjadi jika saya melakukan objek satu sama dengan objek 2.
+
+02:07.400 --> 02:08.460
+Apa yang kamu pikir akan terjadi.
+
+02:09.520 --> 02:10.010
+Benar.
+
+02:10.220 --> 02:10.690
+BAIK.
+
+02:10.840 --> 02:11.530
+Itu masuk akal.
+
+02:11.530 --> 02:15.500
+Maksud saya objek adalah objek 1.
+
+02:15.680 --> 02:22.710
+Tetapi bagaimana jika saya melakukan objek satu ia memanggil objek tiga.
+
+02:22.800 --> 02:25.650
+Di sini saya salah.
+
+02:25.840 --> 02:31.040
+Tapi mengapa kita memiliki nilai 10 dan keduanya sama.
+
+02:31.210 --> 02:32.390
+Kanan.
+
+02:32.410 --> 02:33.160
+Mari kita pilih yang lain.
+
+02:33.160 --> 02:36.950
+Bagaimana jika saya melakukan objek satu nilai.
+
+02:38.170 --> 02:42.370
+Sama dengan 15 OK.
+
+02:42.530 --> 02:45.290
+Dan sekarang saya keberatan dengan lembah gelap
+
+02:48.330 --> 02:49.970
+itu sama dengan 15.
+
+02:50.100 --> 02:59.880
+Tetapi jika saya melakukan objek 3 de-nilai saya mendapatkan 10 dengan baik bagaimana membingungkan grade.
+
+02:59.940 --> 03:02.090
+Mari kita lihat apa yang sebenarnya terjadi.
+
+03:02.370 --> 03:06.920
+Dan ini adalah topik pertama yang kita bicarakan yang merupakan tipe referensi.
+
+03:07.050 --> 03:08.200
+Mari kita lihat diagram.
+
+03:10.950 --> 03:18.300
+Objek adalah apa yang disebut tipe referensi dan Javascript pada saat ini.
+
+03:18.300 --> 03:24.950
+Semua jenis javascript lain yang telah kita pelajari termasuk
+
+03:27.480 --> 03:39.500
+angka tahu kita memiliki booleans strings bahkan simbol yang tidak ditentukan, mereka semua didefinisikan oleh bahasa pemrograman.
+
+03:39.520 --> 03:48.100
+Jadi Javascript orang yang menulis javascript dan ECMAScript standar mengatakan ini adalah tipe primitif.
+
+03:48.100 --> 03:57.910
+Kami memberi tahu Anda apa yang sekarang menjadi tipe referensi yang bukan tipe primitif tidak ditentukan
+
+03:57.910 --> 03:59.850
+oleh bahasa pemrograman.
+
+03:59.860 --> 04:06.330
+Artinya adalah bahwa mereka diciptakan oleh programmer.
+
+04:06.360 --> 04:08.730
+Jadi mari kita lihat di sini sebagai contoh.
+
+04:09.710 --> 04:10.880
+Ketika saya mengatakan variabel.
+
+04:10.880 --> 04:13.150
+Nomor satu sama dengan satu.
+
+04:13.280 --> 04:15.100
+Javascript tahu apa itu.
+
+04:15.100 --> 04:17.450
+Ini angka dan tipe primitif.
+
+04:17.450 --> 04:19.250
+Itu selalu hal yang sama.
+
+04:19.550 --> 04:22.010
+Itu abadi setiap kali menggunakan satu.
+
+04:22.220 --> 04:25.280
+Itu sama dengan yang diketahui tentang javascript.
+
+04:25.400 --> 04:33.150
+Ketika saya melakukan variabel nomor dua menggunakan nomor satu yang sama yang diketahui javascript.
+
+04:33.180 --> 04:40.910
+Namun ketika kita membuat objek Twan sama dengan nilai 10 di objek untuk sama dengan objek ketika sebuah objek
+
+04:40.910 --> 04:45.540
+3 memanggil nilai 10 dengan baik yang diciptakan oleh programmer.
+
+04:45.580 --> 04:47.020
+Ada tipe referensi.
+
+04:47.140 --> 04:55.240
+Jadi apa yang kami katakan adalah saya ingin objek Twan membuat objek baru akan mengatakan kotak ini di sini lemari
+
+04:56.510 --> 05:06.530
+arsip ini dan di dalamnya memberikan nilai 10 ke dalam objek kotak ini untuk mengatakan saya ingin Anda hanya referensi dan dari sanalah kata
+
+05:06.530 --> 05:07.650
+itu berasal.
+
+05:07.700 --> 05:15.020
+Referensi objek 1 mengatakan hei saya ingin apa pun yang ada di dalam kotak ini.
+
+05:16.150 --> 05:26.040
+Ketika objek 3 dibuat, itu adalah objek baru karena kita memiliki tanda kurung baru dan dikatakan memberi nilai 10
+
+05:26.040 --> 05:27.720
+pada kotak ini.
+
+05:27.720 --> 05:35.250
+Pada dasarnya apa yang kita lakukan adalah mengatakan ketika kita membuat objek variabel yang kita simpan hanya
+
+05:35.250 --> 05:40.460
+referensi ke alamat tempat kita menyimpan nilai 10 yaitu Kotak 1.
+
+05:40.470 --> 05:43.730
+Jadi kita katakan objek 1.
+
+05:43.920 --> 05:49.610
+Saya hanya memberi tahu Anda bahwa ini adalah alamat semua konten yang Anda
+
+05:49.680 --> 05:55.650
+inginkan dan objek mbox 1 mengatakan bahwa saya ingin apa pun yang menjadi objek 1.
+
+05:55.680 --> 06:01.200
+Dan kita melihat objek Twan objek Twan hanya memiliki informasi dari kotak 1.
+
+06:01.380 --> 06:08.060
+Jadi referensi bahwa objek 3 menciptakan objek baru.
+
+06:08.060 --> 06:15.110
+Jadi dikatakan saya akan memasukkan konten saya di Kotak 3 dan saya hanya akan memiliki alamat kotak yang mengatakan
+
+06:15.410 --> 06:17.860
+kotak 3 yang ada di sini.
+
+06:19.450 --> 06:21.040
+Jadi kembali ke contoh
+
+06:24.230 --> 06:27.990
+kita ini masuk akal ketika kita mengubah objek satu nilai menjadi 15
+
+06:28.040 --> 06:31.100
+Kami mengubah isi kotak 1.
+
+06:31.100 --> 06:39.290
+Jadi ketika kita melakukan keberatan terhadap nilai Daube yang mereferensikan kotak yang sama dengan objek 1 itu 15 tetapi nilai 3
+
+06:39.290 --> 06:45.680
+nilai Dog tidak berubah karena yang tertarik pada kotak yang sama sekali berbeda itu kotak 3
+
+06:46.670 --> 06:48.700
+dan kembali ke contoh pertama.
+
+06:50.760 --> 06:51.550
+Array.
+
+06:51.830 --> 06:59.020
+Seperti yang saya sebutkan dalam array video sebelumnya hanyalah objek yang mengakhiri hari.
+
+06:59.030 --> 07:05.130
+Jadi ketika Anda membuat array, itu sama dengan membuat kotak struktur data.
+
+07:05.450 --> 07:09.720
+Dan ini menciptakan struktur data kedua yang benar.
+
+07:09.800 --> 07:16.910
+Jadi itu adalah tipe referensi konsep yang sangat penting tapi saya pikir saya pikir Anda sudah benar.
+
+07:17.620 --> 07:18.930
+Mari kita lanjutkan ke yang berikutnya.
+
+07:18.940 --> 07:20.980
+Ini jadi sedikit rumit.
+
+07:21.010 --> 07:30.050
+Konteks dan konteks yang disebut ini banyak bingung dengan ruang lingkup.
+
+07:30.140 --> 07:37.180
+Jika Anda ingat kami mengatakan bahwa ruang lingkup dibuat ketika kurung kurawal benar.
+
+07:37.220 --> 07:44.990
+Kami mengatakan bahwa jika kami membuat fungsi segera setelah kami membuat fungsi itu ada ruang lingkup baru
+
+07:44.990 --> 07:46.050
+yang dibuat.
+
+07:46.400 --> 07:57.490
+Jadi kita dapat membiarkan yang sama dengan dan yang hidup di dalam alam semesta ini.
+
+07:57.500 --> 08:02.120
+Tidak tahu apa-apa tentang ruang lingkup root yang ada di sini.
+
+08:02.120 --> 08:06.630
+Jadi jika saya melakukan konsol log AA Yah itu tidak akan berhasil
+
+08:06.850 --> 08:12.190
+Oh dan kita harus benar-benar menetapkan sesuatu dan kita perlu menyebutkannya lebih besar katakanlah B.
+
+08:12.260 --> 08:20.760
+Jadi jika saya melakukan ini dengan baik konsol atau log, mereka hanya akan mengembalikan kesalahan referensi karena tidak ada.
+
+08:20.760 --> 08:22.290
+Jadi itu ruang lingkup.
+
+08:22.350 --> 08:31.470
+Sekarang bagaimana konteks konteks yang berbeda memberi tahu Anda di mana kita berada dalam objek.
+
+08:31.470 --> 08:32.560
+Biarkan saya jelaskan.
+
+08:32.910 --> 08:38.870
+Jika kita mengatakan konsol boneka mencatat ini.
+
+08:39.060 --> 08:44.910
+Yah Anda lihat saya mendapatkan beberapa sorotan dan ini adalah pertama kalinya kami melihat ini dan ini adalah
+
+08:44.910 --> 08:46.270
+kata khusus dalam javascript.
+
+08:46.290 --> 08:52.140
+Mungkin kata yang paling membingungkan bahwa banyak orang memiliki masalah dan bahkan orang yang sudah berkecimpung di industri
+
+08:52.140 --> 08:57.110
+ini selama bertahun-tahun masih mengalami kesulitan dengan hal ini, tetapi mari kita lihat apa itu.
+
+08:57.510 --> 09:03.900
+Ini karena Anda dapat melihat objek jendela.
+
+09:03.940 --> 09:14.550
+Jadi hanya untuk mengecek apakah saya melakukan konsol atau log ini sama dengan jendela saya benar.
+
+09:14.780 --> 09:23.950
+Dan saya dapat mengakses peringatan titik ini.
+
+09:23.980 --> 09:35.620
+Jadi apa artinya ini adalah apa lingkungan objek yang kita miliki saat ini Cara terbaik untuk
+
+09:35.620 --> 09:42.450
+memikirkannya adalah apa yang ada di sebelah kiri titik.
+
+09:42.460 --> 09:49.860
+Jadi sekarang saya bisa melakukan peringatan karena saya berada di dalam objek jendela.
+
+09:50.110 --> 09:53.960
+Jadi melakukan jendela atau melakukan ini adalah hal yang sama.
+
+09:54.160 --> 09:57.110
+Sekarang mengapa itu penting?
+
+09:57.270 --> 10:04.050
+Nah ketika kita sampai di instantiasi saya akan tunjukkan mengapa itu tapi itu konsep yang sangat penting bahwa Anda akan
+
+10:04.050 --> 10:05.430
+melihat lagi dan lagi
+
+10:05.490 --> 10:15.780
+Tapi ingat ini hanya merujuk pada objek apa itu dalam dua contoh lagi untuk menunjukkan yang satu
+
+10:17.200 --> 10:23.410
+ini adalah jika saya melakukan fungsi Withem a akan mengatakan
+
+10:26.190 --> 10:29.090
+konsol log anjing ini.
+
+10:29.120 --> 10:39.260
+Jadi jika saya menyebutnya apa yang Anda pikir terjadi Lucy masih objek jendela ini masih mengacu pada fungsinya.
+
+10:39.360 --> 10:46.710
+Dan jika Anda ingat itu karena saya katakan itu harus objek apa yang kita miliki sekarang.
+
+10:46.790 --> 10:47.910
+Secara teknis.
+
+10:47.970 --> 10:52.190
+Saya bisa membuka jendela hei dan menjalankan fungsinya.
+
+10:52.470 --> 11:02.890
+Jadi di sebelah kiri titik Nah itu jendela untuk membuat nilai baru untuk ini.
+
+11:03.020 --> 11:06.530
+Anda harus melakukan sesuatu seperti ini.
+
+11:10.370 --> 11:13.550
+Obyek fungsi a.
+
+11:13.550 --> 11:14.900
+Sekarang jika saya
+
+11:19.860 --> 11:22.730
+berfungsi dan di sini saya membuat log konsol.
+
+11:23.180 --> 11:32.500
+Ini baik dalam hal ini jika saya menyalin ini dan menjalankan objek untuk sementara
+
+11:35.540 --> 11:36.270
+waktu.
+
+11:36.560 --> 11:45.730
+Sekarang ini adalah objek untuk objek.
+
+11:45.800 --> 11:49.860
+Jadi mengapa itu penting bagi kami.
+
+11:50.030 --> 11:54.460
+Yah pertama-tama Anda akan melihatnya dan basis kode lainnya sangat baik untuk diketahui.
+
+11:54.680 --> 12:01.790
+Tetapi yang sangat penting ketika kita melakukan instantiasi adalah saat Anda membuat salinan suatu
+
+12:02.420 --> 12:05.270
+objek dan menggunakan kembali kodenya.
+
+12:05.270 --> 12:09.140
+Bayangkan Anda sedang membangun game multi-pemain besar secara online.
+
+12:09.590 --> 12:17.120
+Dan permainan ini akan memiliki banyak pemain yang bisa Anda miliki penyihir Anda dapat memiliki troll peri penyihir.
+
+12:17.150 --> 12:24.080
+Sekarang jika Anda harus membuat objek untuk setiap pemain yang memiliki kode berulang yang banyak merepotkan
+
+12:24.080 --> 12:30.040
+dan itu banyak waktu Anda dan itu tidak sangat efisien untuk menyelesaikannya.
+
+12:30.070 --> 12:32.070
+Anda dapat melakukan sesuatu yang disebut instantiation.
+
+12:32.260 --> 12:37.460
+Anda membuat instance atau banyak salinan suatu objek.
+
+12:37.480 --> 12:43.350
+Jadi izinkan saya menunjukkan kepada Anda bagaimana kami melakukan instantiasi dalam javascript lagi.
+
+12:43.410 --> 12:49.590
+Ini akan terlihat sedikit aneh pada awalnya seperti untuk loop lakukan seperti fungsi
+
+12:49.590 --> 12:54.320
+pada awalnya tetapi hanya sintaks dan Anda akan terbiasa.
+
+12:54.330 --> 12:59.200
+Jadi katakanlah kita memiliki kelas pemain.
+
+12:59.370 --> 13:05.460
+Sekarang Anda sudah melihat sintaks baru dan saya mengkapitalisasi sebuah kelas.
+
+13:05.510 --> 13:09.980
+Sekarang pikirkan kelas sebagai sesuatu yang ingin saya buat salinannya.
+
+13:10.160 --> 13:18.080
+Jika saya ingin membuat salinan objek, sebaiknya lakukan sesuatu seperti ini sehingga Anda akan melihat betapa
+
+13:18.080 --> 13:19.990
+mudahnya menyalin ini.
+
+13:20.000 --> 13:21.980
+Sekarang kita lakukan.
+
+13:21.980 --> 13:28.610
+Pemain kelas dan di dalam sini akan mengatakan konstruktor dan saya tahu ini
+
+13:31.300 --> 13:35.530
+terlihat aneh tetapi sekali lagi hanya sintaks.
+
+13:35.530 --> 13:45.580
+Mari kita berikan kepada pemain ini dapat memiliki nama dan tipe dan dalam konstruktor nama ini dia
+
+13:45.780 --> 13:51.300
+memanggil nama dan tipe ini dia panggil baru saja terjadi
+
+13:55.890 --> 13:58.110
+di sini konstruktor.
+
+13:58.110 --> 14:00.960
+Saat Anda membuat kelas, kata pemain.
+
+14:01.140 --> 14:08.280
+Setiap kali saya membuat salinan pemain, hal pertama yang dijalankan adalah fungsi
+
+14:08.280 --> 14:17.570
+konstruktor dan fungsi konstruktor ini akan membuat properti ini pada objek pemain jadi nama dan tipe.
+
+14:17.610 --> 14:21.450
+Dan sekarang saya dapat membuat apa pun yang saya inginkan untuk pemain.
+
+14:21.450 --> 14:30.670
+Katakanlah kita ingin membuat metode seperti memperkenalkan log
+
+14:33.600 --> 14:39.580
+konsol dengan taktik Hai saya.
+
+14:39.800 --> 14:54.140
+Dan lagi Anda akan ingat template Sendak ini berdering nama selesai ini saya tipe ini.
+
+14:54.230 --> 15:02.480
+Jadi sekarang saya mengatakan kelas ini setiap pemain yang saya buat akan selalu dapat memperkenalkan dirinya
+
+15:02.480 --> 15:07.760
+dan mereka juga akan memiliki nama dan tipe ini.
+
+15:07.850 --> 15:14.880
+Dan alasan kami menggunakan ini di sini adalah ketika kami membuat pemain, kami dapat mengakses properti nama dan tipe.
+
+15:14.930 --> 15:17.270
+Saya akan tunjukkan nanti tentang cara kerjanya.
+
+15:17.270 --> 15:25.070
+Tapi ini hanya sintaks yang akan Anda gunakan untuk mengakses pemain dan membuat salinannya.
+
+15:25.070 --> 15:29.240
+Anda harus menjalankan konstruktor yang berisi semua properti dan metode yang Anda
+
+15:29.240 --> 15:29.920
+inginkan.
+
+15:30.200 --> 15:38.630
+Anda juga dapat membuat metode yang bisa dimiliki pemain dan kapan pun Anda ingin mengakses properti di dalam
+
+15:38.630 --> 15:44.740
+konstruktor akan menggunakan nama ini karena ingin menggunakan perkenalan, saya harus melakukan ini.
+
+15:44.780 --> 15:47.100
+Memperkenalkan.
+
+15:47.130 --> 15:53.970
+OK jadi kami memiliki pemain tetapi ketika kami sedang membangun game multi-pemain kami ingin sekarang menyalin ini tetapi
+
+15:53.970 --> 15:54.580
+menambahkannya.
+
+15:54.690 --> 15:59.060
+Katakanlah kita memiliki apa yang ingin kita buat pemain penyihir pemain yang penyihir.
+
+15:59.460 --> 16:09.450
+Dalam hal ini ketika kita melakukan class wizard lagi huruf kapital meluas dan sekali lagi
+
+16:10.080 --> 16:13.330
+hanya pemain keyboard javascript.
+
+16:13.370 --> 16:19.270
+Jadi apa yang saya katakan saya ingin penyihir memperluas apa pun yang dimiliki pemain.
+
+16:19.280 --> 16:26.480
+Jadi saya ingin menambahkan di atas apa pun yang dimiliki pemain lagi karena kelas harus melakukan konstruktor.
+
+16:28.370 --> 16:35.630
+Dan penyihir ini akan menerima Knabe dan mengetik dan di sini ini adalah bagian yang sulit.
+
+16:35.630 --> 16:45.440
+Setiap kali kami memperluas sesuatu, kami juga perlu memanggil fungsi konstruktor pemain.
+
+16:45.440 --> 16:52.010
+Kita harus melakukan sesuatu yang disebut super dengan properti yang ingin kita sampaikan kepada konstruktor.
+
+16:52.010 --> 17:00.980
+Dalam hal ini nama dan tipe saya tahu ini membingungkan adalah sesuatu yang harus Anda lakukan setiap kali Anda
+
+17:01.280 --> 17:02.350
+memperpanjang kelas.
+
+17:02.570 --> 17:09.550
+Anda ingin menggunakan Soopers sehingga pada dasarnya Anda memiliki akses ke OK ini.
+
+17:09.580 --> 17:16.430
+Jadi katakanlah dengan wizard. Kami juga ingin memiliki fungsi putar dan fungsi putar
+
+17:16.430 --> 17:18.350
+hanyalah log konsol.
+
+17:19.000 --> 17:31.280
+Kami adalah tipe ini dan sekarang kami memiliki penyihir. Apa kekuatannya, apa alasan kami melakukan ini.
+
+17:31.310 --> 17:37.400
+Sekarang kita bisa melakukan ini daripada terus-menerus menciptakan pemain dan kemudian mengatakan bahwa mereka memiliki penyihir mereka dan
+
+17:37.400 --> 17:38.700
+mereka dapat bermain.
+
+17:38.720 --> 17:49.310
+Sekarang saya bisa mengatakan wizard 1 sama dengan wizard baru dan kami akan memanggil wizard pertama lagi.
+
+17:49.310 --> 17:58.260
+Kami mendapatkan nama dan tipe sehingga kami akan mengatakan Shelly dan dia akan menjadi tabib.
+
+18:00.160 --> 18:16.030
+Dan jika saya ingin membuat penyihir baru saya hanya akan mengatakan penyihir 2 sama dengan penyihir baru Sean dan dia adalah sihir gelap.
+
+18:16.290 --> 18:23.910
+Ada banyak sintaks baru jadi mari kita lalui dan pastikan kita memahami semuanya karena kita sudah belajar mari
+
+18:23.920 --> 18:28.930
+kita gunakan konsol log untuk benar-benar memahami apa yang kita lakukan.
+
+18:28.960 --> 18:34.280
+Saya akan menambahkan log konsol tepat di atas sini.
+
+18:36.210 --> 18:37.560
+Saya akan mengatakan ini.
+
+18:37.580 --> 18:39.730
+Apa ini.
+
+18:39.840 --> 18:48.010
+Saya akan menyimpan dan sebenarnya saya akan menyalin ini ke konsol mari kita salin.
+
+18:49.080 --> 18:51.520
+Dan lihat apa yang diberikan oleh konsol log kepada kita.
+
+18:51.520 --> 18:54.390
+Kami melihat bahwa kami mendapatkan Wizard.
+
+18:54.480 --> 18:54.840
+Baiklah.
+
+18:54.870 --> 18:56.160
+Mari kita lalui semuanya di sini.
+
+18:57.530 --> 19:02.410
+Saya katakan kita memiliki pemain kelas maka seorang penyihir kelas yang memperluas pemain.
+
+19:02.780 --> 19:07.390
+Dan kemudian kita memiliki dua variabel yang kita buat wizard 1 dan Wizard 2.
+
+19:07.430 --> 19:14.270
+Sekarang program akan melihat kata kunci baru dan setiap kali ia melihat kata
+
+19:14.270 --> 19:23.570
+kunci baru katanya oh kita membuat wizard baru dan wizard ini akan memiliki dua parameter Shelli dan healer.
+
+19:23.810 --> 19:30.230
+Jadi itu akan pergi ke kelas penyihir lagi karena memiliki kata baru ini
+
+19:30.260 --> 19:36.150
+Dia pergi ke kelas penyihir dan mengatakan seorang penyihir.
+
+19:36.210 --> 19:38.690
+Saya ingin Anda memperpanjang pemain.
+
+19:38.850 --> 19:47.940
+Jadi itu akan pergi ke konstruktor dan itu akan melihat super ini Dan apa yang dilakukannya
+
+19:47.940 --> 19:51.520
+adalah membawa kita ke konstruktor pemain.
+
+19:51.750 --> 19:59.420
+Dan Iran ini dan sekarang ini menempelkan ini sebagai penyihir.
+
+19:59.910 --> 20:03.870
+Dan itu memperkenalkan fungsi baru dan kemudian menambahkan fungsi bermain.
+
+20:03.870 --> 20:16.490
+Sekarang jika saya pergi ke penyihir 1 dan saya katakan bermain saya dapatkan kita saya seorang tabib karena Shelly tabib.
+
+20:16.710 --> 20:28.880
+Tapi saya juga punya akses ke anjing penyihir 1 memperkenalkan Hai Saya Shelly Saya seorang penyembuh dan kami juga memiliki akses ke
+
+20:30.230 --> 20:34.530
+penyihir untuk saya harus menjalankan ini lagi.
+
+20:34.660 --> 20:35.910
+Mari kita jalankan ini lagi.
+
+20:38.920 --> 20:42.510
+Dan saya tidak berpikir saya menyalin penyihir kedua terakhir kali.
+
+20:42.760 --> 20:47.320
+Jadi sekarang saya memiliki wizard untuk diperkenalkan.
+
+20:47.330 --> 20:48.370
+Hai, saya Sean.
+
+20:48.460 --> 20:50.820
+Um, aku sihir gelap.
+
+20:50.860 --> 20:54.070
+Kalimat itu tidak masuk akal bagi Sean, tetapi itu tidak masalah untuk saat ini.
+
+20:54.920 --> 20:57.200
+Mari kita coba sesuatu jika saya lakukan.
+
+20:57.200 --> 20:58.580
+Log konsol.
+
+21:01.270 --> 21:05.480
+Di sini dan kami hanya akan mengatakan penyihir dan di sini
+
+21:08.130 --> 21:09.420
+akan mengatakan pemain.
+
+21:09.420 --> 21:11.160
+Supaya kita bisa membedakan di antara mereka.
+
+21:12.660 --> 21:19.770
+Dan saya hanya akan menyalin penyihir pertama sehingga kita tidak menjalankan dua penyihir lagi karena kita membuat dua
+
+21:19.770 --> 21:25.760
+penyihir kita akan menjalankan ini dua kali tetapi hanya untuk kewarasan kita akan menjalankan
+
+21:25.770 --> 21:32.030
+Shelly Jadi saya akan menyegarkan dan menambahkan di sini saya lupa menambahkan koma
+
+21:35.270 --> 21:43.270
+dan mari menyegarkan dan saya mendapatkan kesalahan referensi Knerr kami harus memanggil super constructor dan kelas turunan
+
+21:43.280 --> 21:44.990
+sebelum mengakses ini.
+
+21:45.470 --> 21:54.380
+Apa yang dikatakannya adalah agar saya dapat mengakses ini dan mendapatkan tipe ini saya harus memanggil super yang
+
+21:54.830 --> 21:57.620
+menjalankan fungsi dan pemain konstruktor.
+
+21:57.680 --> 21:59.210
+Jadi itulah yang dilakukan super.
+
+21:59.210 --> 22:05.030
+Kedengarannya agak aneh tapi itu hanya sesuatu yang Anda butuhkan hanya naik di bagian bawah
+
+22:05.030 --> 22:08.660
+setelah kami memanggil super dan sekarang itu harus bekerja.
+
+22:08.780 --> 22:18.750
+Mari kita lihat saya mendapatkan wizard pemain pertama.
+
+22:19.160 --> 22:24.600
+Jadi kami memanggil super segera setelah kami mengatakan penyihir penyihir baru Shelli.
+
+22:24.880 --> 22:32.350
+Saya pergi ke pemain aksen wizard saya menjalankan fungsi konstruktor yang mengatakan super hey menjalankan fungsi
+
+22:32.350 --> 22:35.240
+konstruktor dan pemain dan saya menjalankannya.
+
+22:35.350 --> 22:44.520
+Dan itulah mengapa kita masuk konsol pemain log pertama dan kemudian kita pergi ke panduan dialog konsol dan kemudian
+
+22:44.520 --> 22:46.490
+menjalankan seluruh kelas.
+
+22:46.530 --> 22:48.130
+Sangat keren.
+
+22:48.340 --> 22:50.670
+Sekarang hanya untuk menunjukkan sesuatu padamu.
+
+22:50.710 --> 22:57.470
+Ini sebenarnya sintaks baru yang akan Anda lihat dan reaksi dan itu adalah bagian dari ESX.
+
+22:57.910 --> 23:07.040
+Tapi kembali pada hari ini adalah bagaimana kita biasa melakukannya dengan kode yang sama persis yang saya miliki di
+
+23:11.590 --> 23:12.560
+sana
+
+23:14.530 --> 23:21.190
+Ini disebut warisan klasik dan itu tidak terlihat terlalu buruk tetapi Anda melihat bahwa ada prototipe yang merupakan hal
+
+23:21.190 --> 23:26.440
+lain yang akan Anda lihat dalam javascript dan jujur dengan Anda Anda seharusnya tidak benar-benar
+
+23:26.440 --> 23:26.920
+menggunakannya.
+
+23:26.920 --> 23:28.430
+Itu tidak terlihat bagus.
+
+23:28.780 --> 23:37.090
+Dan Anda melihat bahwa kita harus memainkan kedua tongkat sihir dan Wizard 2 dan itu tidak terlihat
+
+23:37.840 --> 23:39.220
+sebagus ini.
+
+23:39.310 --> 23:41.890
+Dan begitu Anda terbiasa dengan segalanya.
+
+23:42.100 --> 23:43.760
+Itu tidak terlalu buruk.
+
+23:43.780 --> 23:49.540
+Yang kami katakan adalah segera setelah kami mengatakan kelas yang mengatakan hei kita mungkin akan membuat
+
+23:49.540 --> 23:51.000
+salinan dari objek ini.
+
+23:51.210 --> 23:56.760
+Jadi kami ingin membuat salinan pemain, kami ingin membuat salinan wizard dan itu disebut instantiation.
+
+23:56.760 --> 24:06.060
+Ketika saya melakukan kata kunci baru saya katakan membuat instance wizard dan wizard menggunakan beberapa fungsi dari
+
+24:06.060 --> 24:11.190
+pemain dan menambahkan fungsi bermain kecil sendiri juga.
+
+24:11.190 --> 24:18.720
+Moly suci yang sangat banyak seperti saya katakan ini adalah sesuatu yang Anda harus kembali ke dan Anda tidak akan
+
+24:18.720 --> 24:19.890
+segera mendapatkannya.
+
+24:19.890 --> 24:26.330
+Sangat sulit untuk sepenuhnya memahami topik tanpa harus menggunakannya dalam kehidupan nyata.
+
+24:26.370 --> 24:32.850
+Ingatlah hal ini setiap kali Anda mendengar seseorang berbicara tentang jenis referensi atau kontak atau bahkan
+
+24:33.240 --> 24:35.790
+ruang lingkup atau instantiasi sesuatu.
+
+24:35.790 --> 24:38.740
+Nah, inilah hal-hal yang mereka bicarakan.
+
+24:38.970 --> 24:40.930
+Objek benar-benar sangat rumit.
+
+24:40.950 --> 24:42.490
+Mereka sangat sulit.
+
+24:42.600 --> 24:45.660
+Tetapi dengan itu memberi kita banyak kekuatan.
+
+24:46.990 --> 24:51.220
+Jadi dengan keberuntungan itu dengan latihan saya akan melihat di yang berikutnya tetapi oleh.

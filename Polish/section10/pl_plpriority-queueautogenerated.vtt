@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.950 --> 00:08.050
+Teraz dowiedzieliśmy się o stertach binarnych i wspomnieliśmy, że w przeciwieństwie do binarnego drzewa wyszukiwania nie ma porządku
+
+00:08.050 --> 00:11.620
+od lewej do prawej tego 33 i 77.
+
+00:11.620 --> 00:16.920
+Możemy je zamieniać i nadal będą one binarnie tanie.
+
+00:16.930 --> 00:22.870
+Piękno binarnych hałd polega na tym, że zajmują one najmniej miejsca, ponieważ można je
+
+00:22.870 --> 00:25.770
+zawsze wstawiać od prawej do prawej.
+
+00:26.230 --> 00:29.800
+Więc nie ma koncepcji niezrównoważonego sterty binarnego.
+
+00:29.830 --> 00:34.780
+Nie musimy przywracać równowagi jak drzewo binarne z tego powodu, ponieważ tak robią.
+
+00:34.780 --> 00:38.970
+Od lewej do prawej, jak widzieliśmy w poprzednim filmie.
+
+00:39.100 --> 00:44.840
+Zachowują tę kolejność wstawiania, co jest dość niesamowite.
+
+00:44.910 --> 00:51.960
+I faktycznie możesz zaimplementować binarne stosy za pomocą wyścigu w porównaniu do tego, co robiliśmy wcześniej z
+
+00:51.960 --> 00:54.680
+drzewkami binarnymi, w których używaliśmy notatek.
+
+00:54.750 --> 01:01.380
+Tak więc jedyną gwarancją, jaką daje nam binarna kupa, jest to, o czym wspomniałem, że rodzic
+
+01:01.380 --> 01:03.580
+jest zawsze większy niż dzieci.
+
+01:03.640 --> 01:12.190
+Poza tym, że jest to pamięć wydajna i kompaktowa, ponieważ jest to zawsze kompletne dwójkowe sterty binarne, które są
+
+01:12.190 --> 01:16.130
+naprawdę użyteczne dla takich rzeczy, jak kolejki priorytetowe.
+
+01:16.980 --> 01:21.930
+I możesz zadawać sobie pytanie, czy kolejka priorytetowa nie była po prostu nauką o kolejkach i czy nie
+
+01:21.930 --> 01:23.760
+jest to ta sama struktura danych.
+
+01:23.760 --> 01:30.350
+No nie, ponieważ w przypadku kolejek po prostu zakładaliśmy, że był on pierwszy na początku.
+
+01:30.360 --> 01:36.720
+Byłaś pierwszą osobą w linii, do której powinieneś najpierw wsiąść do rollercoastera lub kolejka priorytetowa filmu
+
+01:36.720 --> 01:38.370
+jest czymś innym.
+
+01:38.370 --> 01:42.360
+Jest to rodzaj danych, w którym każdy element ma priorytet.
+
+01:43.470 --> 01:50.430
+Elementy o wyższym priorytecie są podawane przed elementami o większych priorytetach, które można
+
+01:50.430 --> 01:52.200
+uznać za klub.
+
+01:52.200 --> 02:00.150
+Załóżmy, że mamy klub nocny, który jest bardzo popularny i jest długi skład, a
+
+02:00.150 --> 02:02.490
+my wszyscy jesteśmy zadowoleni.
+
+02:02.490 --> 02:09.150
+Ale nagle okazało się, że mamy VIP-a, który pokazał, ile płacą o wiele więcej niż inni
+
+02:09.150 --> 02:11.410
+klienci, więc najpierw je wprowadzimy.
+
+02:11.430 --> 02:14.650
+Teraz mamy inny priorytet.
+
+02:14.700 --> 02:19.970
+Mimo że dotarli później, odejdą, kiedy mają wyższy priorytet.
+
+02:20.900 --> 02:23.960
+Kolejnym dobrym przykładem jest sala pogotowia.
+
+02:24.320 --> 02:30.700
+Chcesz leczyć pacjentów z najcięższymi objawami lub dolegliwościami.
+
+02:30.710 --> 02:31.750
+Dobrze.
+
+02:31.800 --> 02:37.500
+Innym sposobem, aby o tym pomyśleć, powiedzmy, że zbliżamy się do samolotu.
+
+02:38.380 --> 02:46.060
+Mamy pierwszą osobę zbliżającą się do kolejki, a potem nagle pojawia się kapitan, a
+
+02:46.150 --> 02:55.340
+ponieważ kapitan powinien wsiąść do samolotu przed normalnym pasażerem, kapitan dostaje teraz priorytet jako nuta, ponieważ wartość
+
+02:55.550 --> 03:02.680
+jest wyższa lub najmniej w tym przypadku wartość jest wyższa niż pasażera.
+
+03:02.690 --> 03:07.690
+Załóżmy, że pojawia się pasażer, ponieważ wprowadzamy od lewej do prawej.
+
+03:07.820 --> 03:10.340
+Ustawiamy pasażera na prawo.
+
+03:10.520 --> 03:15.440
+Teraz wiemy, że pozwolimy kapitanowi odejść, a potem pierwszemu pasażerowi.
+
+03:15.440 --> 03:21.150
+Potem drugi pasażer Dalej mamy stewardesę, która weszła.
+
+03:21.210 --> 03:26.470
+Powinien udać się przed pasażerów, ale nie przed kapitanem.
+
+03:26.930 --> 03:36.350
+W takim razie po raz kolejny stawiamy stewardessę poniżej kapitana, ale na prawo lub na lewo od pasażera,
+
+03:36.410 --> 03:40.650
+a potem mamy już obecnego pasażera, który przychodzi.
+
+03:40.670 --> 03:41.270
+My robimy.
+
+03:41.300 --> 03:42.640
+Od lewej do prawej.
+
+03:42.680 --> 03:44.690
+Widzimy tutaj właściwe miejsce.
+
+03:44.750 --> 03:47.970
+Więc umieściliśmy je tutaj.
+
+03:48.220 --> 03:55.720
+Widzimy więc, jak wszystko jest zrównoważone, co jest miłe, ale naprawdę bardzo łatwo jest nam teraz wprowadzić ludzi do samolotu, ponieważ
+
+03:56.230 --> 04:02.110
+wiemy, w jakiej kolejności jedziemy od góry, potem w lewo, potem w prawo, potem w lewo,
+
+04:02.110 --> 04:04.060
+a potem w prawo.
+
+04:04.060 --> 04:04.380
+Dobrze.
+
+04:04.390 --> 04:07.600
+A my po prostu idziemy dalej.
+
+04:07.600 --> 04:10.510
+Znamy ten priorytet bardzo łatwo.
+
+04:10.510 --> 04:13.930
+Jestem pewien, że widzisz, gdzie to może być przydatne w wielu sytuacjach.
+
+04:14.980 --> 04:18.390
+Aby sprawdzić, dowiedzieliśmy się, jakie drzewa wyszukiwania binarnego są.
+
+04:18.460 --> 04:24.780
+Są świetne, ale czasami binarne stosy lub priorytetowe kolejki są jeszcze lepsze.
+
+04:25.090 --> 04:30.730
+Chociaż przeszukiwanie binarnej sterty jest dużo wolniejsze niż binarne drzewo wyszukiwania.
+
+04:30.760 --> 04:39.520
+Masz pomysł priorytetowy, ponieważ wstawianie odbywa się w kolejności, abyś wiedział, kto powinien być pierwszym, który powinien być drugim, który
+
+04:39.520 --> 04:40.630
+powinien być.
+
+04:40.630 --> 04:47.430
+Trzeci i choć czasami musimy od czasu do czasu wstawiać wstawki, jeśli ktoś
+
+04:47.460 --> 04:49.740
+ma naprawdę wysoki priorytet.
+
+04:49.830 --> 04:56.730
+W większości przypadków dostajesz naprawdę szybkie wstawki z binarnymi stertami, a jak wspomnieliśmy, wyszukiwania są powolne, ale
+
+04:57.060 --> 05:02.870
+chcesz używać binarnych stert, gdy jesteś po prostu zainteresowany znalezieniem maksimum lub znalezieniem minimum.
+
+05:02.910 --> 05:09.450
+Jeśli jest to minowe sterty i wiele razy w binarnych hałdach w kolejkach priorytetowych, masz metodę o nazwie
+
+05:09.660 --> 05:11.530
+znajdź Maks lub znajdź mężczyzn.
+
+05:11.580 --> 05:19.050
+To wszystko jedno, ponieważ od razu wiesz, że górny węzeł główny to maksimum lub minimum.
+
+05:19.080 --> 05:23.120
+Tak więc dla tych operacji jest naprawdę szybki i świetny.
+
+05:23.350 --> 05:24.730
+I tam to masz.
+
+05:24.760 --> 05:26.140
+Do zobaczenia w następnym wideo.
+
+05:26.510 --> 05:26.800
+Buh-Bye.

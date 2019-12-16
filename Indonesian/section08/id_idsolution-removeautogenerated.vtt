@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.750 --> 00:01.640
+Selamat datang kembali.
+
+00:02.010 --> 00:04.100
+Bagaimana hasilnya dengan metode Hapus.
+
+00:05.470 --> 00:09.530
+Itu seharusnya cukup mudah karena kita memiliki instrumen yang benar.
+
+00:10.450 --> 00:19.720
+Yang perlu kita lakukan adalah pertama-tama memeriksa parameter dan kita mungkin ingin memeriksa apakah indeks memiliki angka positif
+
+00:19.720 --> 00:23.030
+apakah indeks lebih tinggi dari panjangnya.
+
+00:23.080 --> 00:25.130
+Tapi itu sesuatu yang sudah kita bicarakan.
+
+00:25.150 --> 00:28.130
+Jadi mari kita ke daging dan kentang.
+
+00:28.150 --> 00:35.920
+Bagian utama dari semua yang perlu kita lakukan adalah sekali lagi mendapatkan referensi kepada pemimpin kita.
+
+00:36.090 --> 00:44.530
+Jadi itu adalah jika kita ingin menghapus misalkan 99 sehingga indeks 0 1 2.
+
+00:44.660 --> 00:55.860
+Dalam hal ini kami ingin memastikan bahwa kami menghapus 10 hingga 99 pointer dan alih-alih menunjuk 10 ke lima dan karena cara
+
+00:55.860 --> 01:01.710
+kerja memori dan sampah bahasa yang dikumpulkan seperti javascript segera setelah
+
+01:01.710 --> 01:05.690
+kami menghapus referensi itu 99 akan dihapus.
+
+01:05.700 --> 01:17.490
+Jadi yang kami katakan sekarang adalah hapus pointer ini dan kemudian perbarui saja point ini ke daftar ini
+
+01:17.530 --> 01:19.380
+Dan ini akan dihapus.
+
+01:19.740 --> 01:22.390
+Saya harap diagram kecil saya di sana masuk akal.
+
+01:22.450 --> 01:23.510
+Mari kita kode ini.
+
+01:23.960 --> 01:31.420
+Yah pertama-tama kita menemukan pemimpin sama seperti yang kita lakukan pada fungsi insert dengan menggunakan dot traverse
+
+01:31.420 --> 01:32.710
+untuk mengindeks.
+
+01:32.710 --> 01:39.090
+Jadi saya akan mengatakan titik ini melintasi indeks Indeks minus satu.
+
+01:39.310 --> 01:41.620
+Dan kita memiliki pemimpinnya.
+
+01:41.770 --> 01:48.430
+Sekarang kita memiliki pemimpin dan kita dapat menunjuk 10 ke sekarang menunjuk ke lima.
+
+01:48.640 --> 02:00.710
+Tapi kita perlu referensi ke Foth ini dan cara kita mendapatkan referensi itu adalah dengan mengatakan Konst pada catatan yang diinginkan
+
+02:00.950 --> 02:09.860
+yaitu simpul yang ingin kita hapus akan memiliki titik pemimpin berikutnya yang sedang ingin simpul akan
+
+02:09.860 --> 02:23.080
+memanggil pemimpin selesai X yang merupakan 99 dan kami mendapatkan yang sangat berani sehingga kita bisa melakukan leader dot di samping yang sama
+
+02:23.090 --> 02:26.880
+pada satu ke node dot berikutnya.
+
+02:26.900 --> 02:34.430
+Jadi kita ambil pemimpin dan kemudian kita katakan TIDAK ini yang saya tidak ingin saya ingin ambil di sini dengan
+
+02:34.430 --> 02:42.170
+menggunakan pemimpin dot berikutnya dan kemudian pastikan bahwa kita mendapatkan pointer yang 99 sampai 5 yang tidak diinginkan catatan dilakukan selanjutnya
+
+02:42.380 --> 02:44.320
+yang sama ke 5 lima.
+
+02:44.320 --> 02:49.280
+Catatan untuk sekarang akan diarahkan dari titik berikutnya.
+
+02:50.140 --> 02:57.160
+Dan tentu saja jadi kita jangan lupa kita harus mengurangi panjangnya karena
+
+02:57.160 --> 03:07.580
+kita menghapus sebuah simpul dengan melakukan minus minus dan kita bisa mengembalikan titik ini Crantz ke yang terlalu buruk, kan.
+
+03:07.580 --> 03:10.940
+Mari kita pergi ke sini dan memastikan ini berhasil.
+
+03:10.940 --> 03:19.450
+Saya akan mengatakan bahwa kami ingin menghapus dot daftar saya di indeks dua.
+
+03:19.490 --> 03:21.100
+Jadi mari kita hapus sembilan puluh sembilan.
+
+03:21.230 --> 03:23.340
+Saya akan menjalankan ini.
+
+03:23.530 --> 03:24.170
+Lihat itu.
+
+03:24.170 --> 03:25.880
+Kami telah menghapus sembilan puluh sembilan.
+
+03:26.120 --> 03:29.420
+Jika saya jalankan hapus lagi.
+
+03:29.450 --> 03:41.540
+Indeks dua yaitu untuk menghapus lima tetapi tidak mencetak daftar menghapus dan kami klik Jalankan 5 akan dihapus.
+
+03:41.580 --> 03:43.820
+Sangat sangat keren.
+
+03:44.220 --> 03:51.150
+Dan sekali lagi kita tahu mengapa delete adalah operasi dari semua dan karena kita harus
+
+03:52.780 --> 04:02.060
+melintasi untuk mengindeks dan kembali ke sini kita sekarang memiliki pemahaman yang lebih baik tentang bagaimana diagram ini bekerja, menggerakkan ekor.
+
+04:02.060 --> 04:08.840
+Kita harus menelusuri semuanya satu demi satu Satu demi satu sampai kita mencapai ujungnya dan kemudian lepaskan
+
+04:08.840 --> 04:10.600
+dan kita sudah mendapatkannya
+
+04:11.530 --> 04:15.480
+Dan saya mendorong Anda untuk bermain-main dengan animasi ini sedikit lebih banyak.
+
+04:15.580 --> 04:18.950
+Setelah daftar tertaut kami diimplementasikan.
+
+04:19.190 --> 04:24.950
+Ada metode lain yang bisa kita tambahkan, tetapi ini adalah metode utama dari daftar tertaut yang dapat Anda
+
+04:24.950 --> 04:25.480
+lihat.
+
+04:25.970 --> 04:31.370
+Dan ini seharusnya memberi Anda ide yang lebih baik tentang bagaimana kami menghitung notasi O Besar dengan
+
+04:31.370 --> 04:33.750
+daftar tertaut dan di mana beberapa kelemahannya.
+
+04:33.760 --> 04:40.060
+Maksud saya Anda dapat menjelaskan struktur data untuk waktu yang lama tetapi tanpa benar-benar mengkodekan
+
+04:40.060 --> 04:49.210
+diri Anda sendiri, sulit untuk melihat mengapa beberapa operasi membutuhkan waktu lebih lama daripada yang lain dan daftar tautan sangat populer dan pertanyaan wawancara.
+
+04:49.350 --> 04:55.890
+Dan sekarang Anda memiliki alat untuk membuat daftar panjang Anda sendiri dalam bahasa yang
+
+04:56.130 --> 04:58.500
+bahkan tidak memilikinya seperti javascript.
+
+04:58.520 --> 05:06.120
+Sampai sejauh ini di video berikutnya, kami akan memperkenalkan Anda pada tipe kedua dari daftar tertaut yang
+
+05:06.120 --> 05:08.350
+saya sebutkan di awal.
+
+05:08.460 --> 05:11.910
+Hingga saat ini kami telah membuat daftar yang terhubung sendiri.
+
+05:12.390 --> 05:16.050
+Tetapi ada juga daftar yang ditautkan dua kali lipat.
+
+05:16.050 --> 05:18.150
+Apa artinya itu untuk itu?
+
+05:18.240 --> 05:19.130
+Saya akan lihat di video berikutnya.

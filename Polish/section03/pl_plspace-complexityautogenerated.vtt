@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.180 --> 00:07.600
+Kiedy program jest uruchamiany, ma dwa sposoby na zapamiętanie rzeczy.
+
+00:07.600 --> 00:18.020
+Sterta i stos steru to zazwyczaj miejsce, w którym przechowujemy zmienne, do których przypisujemy wartości, a
+
+00:18.020 --> 00:24.790
+stos jest zwykle tam, gdzie śledzimy nasze wywołania funkcji.
+
+00:24.840 --> 00:32.600
+Czasami chcemy zoptymalizować wykorzystanie mniejszej ilości pamięci zamiast poświęcać mniej czasu na rozmowę o złożoności
+
+00:32.630 --> 00:34.220
+pamięci lub przestrzeni.
+
+00:34.340 --> 00:37.540
+Jest bardzo podobny do mówienia o kosztach czasu.
+
+00:37.610 --> 00:44.570
+Po prostu patrzymy na całkowity rozmiar w stosunku do rozmiaru danych wejściowych i sprawdzamy, ile nowych
+
+00:44.570 --> 00:47.150
+zmiennych lub nowej pamięci przydzielamy.
+
+00:47.360 --> 00:49.740
+Ile pamięci jest zużywanych.
+
+00:49.790 --> 00:51.850
+Spójrzmy więc na przykład.
+
+00:52.190 --> 00:58.640
+Do tej pory mówiliśmy o złożoności czasowej i jak chcemy kompresować, powiedzmy kilka pudełek, o których właśnie
+
+00:59.210 --> 01:03.640
+mówiliśmy, o tym, jak szybko i ile operacji to zajmie.
+
+01:03.950 --> 01:12.800
+Ale w prawdziwym życiu istnieje inny czynnik pamięci i mamy to różowe małe pudełko, jak bardzo ta funkcja
+
+01:12.980 --> 01:17.410
+może pochłonąć ile danych wejściowych jest w stanie.
+
+01:17.510 --> 01:25.790
+Na przykład, jeśli mamy osiemset pudełek, które musimy stworzyć, aby dobrze funkcjonować, to ma ona
+
+01:25.790 --> 01:29.320
+ograniczoną pojemność i może się przepełnić.
+
+01:29.480 --> 01:35.660
+Nawiasem mówiąc, takie rzeczy jak Stack Overflow są czymś, o czym będziemy rozmawiać i jak to
+
+01:35.660 --> 01:40.300
+jest problemem, jeśli chodzi o pamięć, którą obejmiemy, gdy dostaniemy rekurencję.
+
+01:41.310 --> 01:45.300
+Co powoduje złożoność tej przestrzeni.
+
+01:45.300 --> 01:50.060
+Na szczęście dla ciebie dodałem to do naszego chichi.
+
+01:50.250 --> 01:59.250
+Co powoduje złożoność przestrzeni przy dodawaniu zmiennych dodających struktury danych, takich jak tablice tablic mieszania
+
+01:59.250 --> 02:06.290
+obiektów tablicowych znowu rzeczy będą mówić o wywołaniach funkcji i przydziałach.
+
+02:06.460 --> 02:08.280
+Nie potrzebujesz tego PIERI.
+
+02:08.500 --> 02:14.290
+Ale zakodujmy coś i pokażmy przykład w następnym wideo.
+
+02:14.320 --> 02:21.010
+Przejdziemy przez ćwiczenia z zakresu złożoności kosmicznej i wymyślimy, w jaki sposób możemy nadać temu procesowi odpowiedni
+
+02:21.010 --> 02:21.520
+zapis.

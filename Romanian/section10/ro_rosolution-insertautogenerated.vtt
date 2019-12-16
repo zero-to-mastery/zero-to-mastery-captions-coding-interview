@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.780 --> 00:01.950
+Bine ai revenit.
+
+00:01.950 --> 00:04.370
+Sperăm că nu a fost prea rău.
+
+00:04.590 --> 00:09.720
+Rețineți că atunci când vine vorba de intervievarea intervievatorilor doriți să știți că
+
+00:09.720 --> 00:10.750
+înțelegeți conceptele.
+
+00:10.950 --> 00:14.890
+Nu va trebui neapărat să codiflați un fișier de căutare binar de la zero.
+
+00:14.970 --> 00:21.930
+De cele mai multe ori, cel puțin pentru că în viața reală aveți lucruri ca această bibliotecă pe care
+
+00:21.930 --> 00:29.220
+cineva a creat-o, care vă permite să utilizați tehnici de inversare și manipulare Treach, deoarece acest lucru a fost deja
+
+00:29.220 --> 00:36.720
+făcut înainte și puteți vedea prin utilizarea unei astfel de biblioteci pe care o puteți doar folosiți-l și creați copacul pe
+
+00:36.720 --> 00:38.240
+care îl doriți.
+
+00:38.250 --> 00:44.790
+Cel mai probabil nu o veți implementa din nou de la sine, ci vrem să
+
+00:44.790 --> 00:47.310
+înțelegem fundamentele și cum funcționează.
+
+00:47.310 --> 00:49.420
+Deci, dacă asta ți-a provocat-o.
+
+00:49.650 --> 00:50.570
+Nu fi frustrat.
+
+00:50.580 --> 00:54.350
+Asta nu te face un inginer rău sau un coder rău.
+
+00:54.570 --> 01:00.630
+Lucrezi doar pentru a construi aceste elemente fundamentale, astfel încât să poți utiliza în viitor instrumente precum acest lucru și să
+
+01:00.960 --> 01:03.140
+înțelegi în continuare modul în care funcționează.
+
+01:04.760 --> 01:05.660
+Dar vorbi destul.
+
+01:05.840 --> 01:07.180
+Hai să răspundem.
+
+01:07.580 --> 01:11.420
+Vreau să creez un copac care arată așa.
+
+01:12.720 --> 01:17.850
+Deci, primul lucru pe care o voi face este să lucrez la funcția de inserare.
+
+01:17.960 --> 01:24.110
+Acum, în cadrul acestei funcții, primul lucru pe care vreau să-l fac este să spun bine că
+
+01:24.110 --> 01:24.620
+vrem
+
+01:27.930 --> 01:32.960
+să creăm noul nod și vom spune că noul nod va fi valoarea.
+
+01:33.030 --> 01:37.650
+Deci, noi creăm doar o nouă clasă de joasă instanțiere cu valoarea.
+
+01:37.710 --> 01:39.290
+Și asta e noul nostru nu acum.
+
+01:39.600 --> 01:41.360
+Așa că avem o referință la aceasta.
+
+01:41.400 --> 01:42.910
+Primul lucru pe care vrem să-l verificăm.
+
+01:43.230 --> 01:49.830
+Ei bine, dacă arborele este gol și nu există nod Rudin Ei bine, ar trebui să adăugăm acest lucru ca nodul nostru rădăcină.
+
+01:49.860 --> 01:53.250
+Așa că am să spun că această rădăcină punct este egală cu nu.
+
+01:53.430 --> 02:01.790
+Dacă acesta este cazul, atunci pur și simplu facem nodul rădăcină nodul nostru curent pe care l-am inserat.
+
+02:01.860 --> 02:05.940
+Frumos și ușor și doar pentru a verifica dacă aceasta funcționează.
+
+02:06.040 --> 02:11.100
+Dacă am comentat toate aceste afară și faceți clic pe alerga.
+
+02:11.300 --> 02:12.510
+Acolo te duci.
+
+02:12.590 --> 02:20.930
+Nodul nostru rădăcină are o valoare de 9 stânga, deoarece nu este drept, deoarece este singura notă și pentru a
+
+02:20.930 --> 02:28.970
+vă arăta cum funcționează acest șir este foarte util pentru că dacă copiez acest lucru și doar subliniez aici
+
+02:28.970 --> 02:33.270
+că nu copiez ghilimele care îi fac o coardă.
+
+02:33.680 --> 02:35.750
+Și dacă deschid instrumentele
+
+02:39.630 --> 02:47.450
+de dezvoltare și Google Chrome și mă duc la consola mea, pot copia și lipi acest lucru.
+
+02:47.650 --> 02:55.060
+Apăsați pe Enter și acum am acces la acest copac și este mult mai ușor pentru mine să văd.
+
+02:55.180 --> 03:01.450
+Și odată ce introducem alte noduri, veți vedea că este foarte ușor să traversați acest arbore în acest fel și
+
+03:01.450 --> 03:02.750
+să vă verificați munca.
+
+03:02.850 --> 03:06.750
+De aceea am adăugat această funcție, astfel încât să revenim la asta.
+
+03:06.750 --> 03:14.180
+Deocamdată vedem că inserția noastră lucrează pentru că Olly este în cazul în care nodul rădăcină nu este, ci să continuăm.
+
+03:14.190 --> 03:18.450
+Dacă nu este cazul, vom spune.
+
+03:18.450 --> 03:30.360
+Altfel, dacă nodul rădăcină este deja umplut, se va spune că nodul curent va fi ruta stea, pentru că vom fi
+
+03:30.360 --> 03:38.440
+nevoiți să traversăm această notă și nu vom ști cât timp vom traversa zăpada.
+
+03:38.770 --> 03:43.470
+Vrem să păstrăm traversarea până găsim un loc pentru a introduce acest lucru.
+
+03:43.780 --> 03:48.620
+Și acest lucru este un pic dificil, dar ceva la care vă veți obișnui atunci când construiți copaci.
+
+03:48.730 --> 03:54.430
+Vrem să folosim o buclă în timp și condiția pe care o vom folosi este adevărată.
+
+03:54.760 --> 03:59.790
+Asta inseamna sa pastrati buchetele de fiecare data pentru ca adevarul este intotdeauna egal.
+
+03:59.800 --> 04:06.130
+Adevărat și trebuie să fim atenți aici, dacă facem asta, vrem să ne asigurăm că există o cale să
+
+04:06.400 --> 04:07.840
+ieșim din această bucla.
+
+04:07.840 --> 04:13.290
+În caz contrar, vom avea o buclă infinită și ne va prăbuși pagina mică.
+
+04:13.330 --> 04:15.580
+Deci, care sunt condițiile pe care le vom trece prin.
+
+04:15.580 --> 04:23.940
+Vrem să trecem prin copac Ei bine, prima verificare pe care o vom face este să spunem dacă valoarea este valoarea pe care am
+
+04:23.940 --> 04:25.860
+aminti-o în timp ce introducem.
+
+04:25.860 --> 04:30.540
+Dacă aceasta este mai mică decât valoarea curentă fără punct.
+
+04:30.660 --> 04:35.610
+Deci, vom începe de la nota rădăcină și să spunem că hei este valoarea pe care o introducem mai puțin decât valoarea
+
+04:35.610 --> 04:36.470
+actuală a nodului.
+
+04:36.810 --> 04:39.250
+Dacă acesta este cazul, știm regulile.
+
+04:39.390 --> 04:45.160
+Așa că o să mergem la stânga dacă devaluează mai puțin decât nota curentă.
+
+04:45.240 --> 04:59.920
+Acum, aici vrem să verificăm mai întâi dacă nodul curent nu a fost lăsat, există un element deja la stânga nodului rădăcină, deoarece dacă nu există în acest
+
+05:00.130 --> 05:08.620
+caz, putem să atribuiți punctul nodului curent la stânga știi că vrem să intrăm pentru că
+
+05:08.860 --> 05:17.900
+nu există nimic acolo și putem doar să ne întoarcem din această bucla și să ne întoarcem
+
+05:17.900 --> 05:23.450
+doar acest lucru, care este arborele binar de căutare.
+
+05:23.470 --> 05:29.730
+Cu toate acestea, dacă este ceva în partea stângă a notei, să spunem în acest caz 9.
+
+05:29.870 --> 05:37.190
+În acest caz, vom spune că nota curentă va fi egală cu nodul curent de la stânga.
+
+05:37.280 --> 05:43.640
+Așa că vom actualiza și vom schimba, astfel încât nodul curent nu mai este 9 este tot
+
+05:43.640 --> 05:49.430
+ceea ce este la stânga lui 9 și asta ne va păstra în buclă.
+
+05:49.690 --> 05:56.170
+Așa că vom continua să ne bifăm, să păstrăm buclă, până când vom lovi un
+
+05:56.260 --> 06:04.140
+nod care nu are o latură stângă, astfel încât să putem plasa nodul curent pentru nodul nostru în locul lui.
+
+06:04.290 --> 06:05.470
+Dar asta e pentru partea stângă.
+
+06:05.490 --> 06:14.420
+Dacă valoarea este mai mică decât nodul curent dacă valoarea este mai mare sau în acest caz egală cu nodul nostru curent
+
+06:14.420 --> 06:18.820
+și putem decide aici unde vrem să plasăm valori egale.
+
+06:18.860 --> 06:26.860
+Depinde de noi și de modul în care vrem să implementăm acest lucru vom spune că vom merge bine dacă valoarea este mai
+
+06:26.860 --> 06:28.980
+mare sau egală cu nodul curent.
+
+06:29.070 --> 06:34.540
+În acest caz, ceea ce vrem să facem mai întâi prima verificare, care este dacă NU curent.
+
+06:35.040 --> 06:35.540
+Dreapta.
+
+06:35.550 --> 06:41.700
+Nimic nu-i nimic în plus, nu-i nimic în partea dreaptă, în acel caz, ca o bară împotriva unui
+
+06:41.700 --> 06:42.380
+curent.
+
+06:42.420 --> 06:45.480
+Nici un punct nu este egal
+
+06:49.030 --> 06:54.430
+cu noul nod și vom reveni, de asemenea, pentru că vrem să ne
+
+06:57.740 --> 07:01.800
+oprim cu buclele, imediat ce avem un punct sau două.
+
+07:01.820 --> 07:09.590
+Nu, atunci când vrem să ieșim din această buclă sălbatică care o să se răsucească pentru totdeauna Altfel, pur și
+
+07:09.650 --> 07:13.870
+simplu, spunem că nodul curent va fi egal cu curentul.
+
+07:14.100 --> 07:19.610
+Nici un punct minunat.
+
+07:19.830 --> 07:20.960
+Și tu te duci.
+
+07:21.420 --> 07:23.570
+Sperăm că acest lucru funcționează.
+
+07:24.540 --> 07:28.400
+Dar înainte de a testa acest lucru și de a vedea dacă vom întâlni orice greșeli minore.
+
+07:28.620 --> 07:36.180
+Vreau să vă avertizez dacă doar codificați de-a lungul timpului Vă încurajez să întrerupeți videoclipul și gândiți-vă prin linii de linie
+
+07:36.450 --> 07:43.770
+poate chiar să desenați lucruri, poate folosind vizuale du-te pentru a vedea ce facem pentru că este foarte greu să
+
+07:43.770 --> 07:45.940
+păstrați acest lucru în cap.
+
+07:45.990 --> 07:48.660
+Chiar și eu pot codifica acest lucru de la zero.
+
+07:48.720 --> 07:55.830
+Îmi dă un pic de timp pentru a gândi lucrurile și pentru a vedea cum vrem să structurăm codul, așa că nu
+
+07:55.830 --> 08:02.130
+te simți frustrat dacă este un pic copleșitor Vă încurajez să întrerupeți videoclipul să încercați să codificați și să
+
+08:02.130 --> 08:04.810
+înțelegeți ce se întâmplă pas cu pas.
+
+08:04.810 --> 08:05.620
+In regula.
+
+08:05.620 --> 08:06.860
+Hai să încercăm asta.
+
+08:07.880 --> 08:11.420
+Am o notă de 9 aici dacă fac clic pe această rulare care funcționează.
+
+08:11.420 --> 08:14.470
+Dacă îi răspund.
+
+08:14.640 --> 08:14.960
+In regula.
+
+08:14.970 --> 08:16.630
+Se pare că patru au fost introduse.
+
+08:16.650 --> 08:18.830
+Dar șase.
+
+08:18.830 --> 08:19.120
+In regula.
+
+08:19.130 --> 08:23.650
+Voi comenta toate aceste lucruri și voi vedea dacă funcționează.
+
+08:23.660 --> 08:26.250
+Voi faceți clic pe rulați.
+
+08:26.260 --> 08:26.890
+In regula.
+
+08:26.950 --> 08:28.890
+Se pare că am deconectat totul.
+
+08:29.050 --> 08:34.930
+Dar vreau sa testez ca totul functioneaza asa cum era de asteptat.
+
+08:34.930 --> 08:40.630
+Deci, ceea ce am de gând să fac este să copiez și să lipesc acest lucru, fără a avea ghilimele de la sfârșit, pentru că
+
+08:40.630 --> 08:41.980
+nu vreau să copiez șirul.
+
+08:42.200 --> 08:52.530
+Vreau să copiez obiectul și o să-mi deschid din nou instrumentele pentru dezvoltatori. ștergeți codul meu și apoi copiați
+
+08:52.530 --> 08:54.330
+și lipiți.
+
+08:54.480 --> 08:55.530
+Hit enter.
+
+08:55.740 --> 09:00.500
+Și acum ne putem testa copacul și tu te duci aici jos.
+
+09:00.540 --> 09:02.430
+Acesta este pomul pe care îl dorim.
+
+09:02.430 --> 09:06.130
+Avem nouă din partea superioară spre stânga și spre dreapta.
+
+09:06.130 --> 09:07.830
+Avem patru și 20 de aspect.
+
+09:07.840 --> 09:08.920
+Asta e bine.
+
+09:09.040 --> 09:18.310
+Și două când mergem la cele patru pe care le-am lăsat este una dreaptă este de 6 minunat și unul ar trebui să aibă normal la
+
+09:18.310 --> 09:19.810
+dreapta și stânga perfectă.
+
+09:19.810 --> 09:21.390
+Același lucru cu șase.
+
+09:21.460 --> 09:22.310
+Perfect.
+
+09:22.660 --> 09:24.820
+Și dacă ne defilem să vedem 20.
+
+09:24.850 --> 09:32.790
+Ar fi trebuit să nu aibă doar 15 și 170 are acest Shulgin avem 59 170.
+
+09:32.790 --> 09:36.900
+Și amândoi spun că nu.
+
+09:37.010 --> 09:39.960
+Nu-i rău deloc rău.
+
+09:40.020 --> 09:44.720
+Nu a fost prea rău o dată ce ați atârnat de ea și codați-l pe cont propriu.
+
+09:44.870 --> 09:46.860
+Veți vedea că are sens.
+
+09:46.880 --> 09:54.410
+Totul este logic și ceva pe care l-am învățat când lucrăm cu liste legate în următorul videoclip pe care vom
+
+09:54.410 --> 09:55.950
+încerca să-l abordăm.
+
+09:55.980 --> 10:03.160
+Căutați dacă nu ați reușit să implementați inserați, încercați să faceți acest lucru înainte de a ajunge să căutați.
+
+10:03.260 --> 10:05.660
+În caz contrar, încercați să implementați.
+
+10:05.690 --> 10:09.770
+Priviți-vă singur și vă vom vedea în soluția video.
+
+10:09.850 --> 10:10.010
+Bobby.

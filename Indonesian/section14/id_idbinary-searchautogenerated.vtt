@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.430 --> 00:09.980
+Berjalan Saya kembali ke video terakhir yang kami ajukan pertanyaan apakah ada cara yang lebih baik untuk menemukan nomor dalam daftar yang disortir
+
+00:10.340 --> 00:15.340
+dan hanya untuk contoh ini, mari kita tambahkan nomor tambahan ke daftar kami.
+
+00:18.620 --> 00:19.640
+Itu lebih baik.
+
+00:19.730 --> 00:26.340
+Katakanlah saya sedang mencari 34 dan saya tahu bahwa daftar saya katakanlah array diurutkan.
+
+00:26.360 --> 00:33.350
+Apa cara yang lebih baik untuk melakukannya daripada memeriksa setiap item satu per satu dari kiri ke kanan.
+
+00:34.230 --> 00:41.290
+Yah kita dapat menggunakan sesuatu yang disebut pencarian biner karena kita tahu daftar diurutkan.
+
+00:41.460 --> 00:45.870
+Kami dapat membuang setengah item alih-alih satu per satu.
+
+00:46.750 --> 00:52.490
+Mari saya tunjukkan, kita bisa mulai di tengah daftar dan katakan adalah 9
+
+00:52.630 --> 00:59.520
+Lebih tinggi atau lebih rendah dari 34 dinding 34 lebih tinggi dari 9 jadi mari kita buang semuanya di sebelah kiri itu.
+
+01:01.040 --> 01:03.870
+Dan kemudian kita pergi ke indeks tengah lagi.
+
+01:03.980 --> 01:06.350
+Dalam hal ini tidak ada media yang secara teknis.
+
+01:06.350 --> 01:08.030
+Jadi mari kita pilih 12.
+
+01:08.130 --> 01:13.430
+Ke kiri media 12 lebih tinggi lebih rendah dari 34.
+
+01:13.530 --> 01:17.960
+Meskipun pasti lebih rendah. Jadi mari kita hapus semuanya di sebelah kiri.
+
+01:19.120 --> 01:27.100
+Dan kemudian mari kita cari indeks tengah dan oh kita baru saja menemukan 34 bukannya melalui item satu per satu.
+
+01:27.190 --> 01:29.900
+Kami melakukan itu dalam tiga operasi.
+
+01:30.220 --> 01:32.020
+Dan ini terlihat familier.
+
+01:32.050 --> 01:32.560
+Kanan.
+
+01:34.180 --> 01:41.700
+Dan itu adalah sesuatu yang kita pelajari ketika kita berbicara tentang pohon pohon pencarian biner khusus karena
+
+01:42.060 --> 01:51.120
+jika data kita diurutkan kita dapat melakukan lebih baik daripada O oven atau waktu linier karena daftar diurutkan ini mungkin
+
+01:51.120 --> 02:01.560
+mengingatkan Anda pada sesuatu yang pada dasarnya kita membuat pohon pencarian biner tidak seperti pencarian linier kita dapat membuang setengah item alih-alih satu
+
+02:01.560 --> 02:08.640
+per satu dan Anda mungkin berpikir dengan baik itu Andre konyol karena untuk kita bahkan
+
+02:08.910 --> 02:14.880
+pencarian kita harus mengurutkan daftar terlebih dahulu dan yang mengambil kekuatan komputasi.
+
+02:14.910 --> 02:15.640
+Kanan.
+
+02:15.870 --> 02:25.290
+Tetapi menyimpan data dalam struktur data seperti pohon bukannya struktur data linier seperti array
+
+02:25.290 --> 02:27.450
+sebenarnya lebih efisien.
+
+02:27.540 --> 02:34.010
+Dan ini adalah sesuatu yang sudah kita diskusikan dengan struktur data pohon saat kita memasukkan item jika
+
+02:34.010 --> 02:35.150
+kita mengurutkannya.
+
+02:35.150 --> 02:41.030
+Ini benar-benar memberi kita kinerja yang lebih baik kemudian menambahkannya pada daftar yang disortir yang
+
+02:41.030 --> 02:48.230
+harus kita cari satu hari dan karena di pohon di mana kita membuat keputusan Haruskah kita ke kiri atau kanan.
+
+02:48.340 --> 02:54.400
+Haruskah kita ke kiri atau kanan dan kita membuang setengah item setiap langkah ini
+
+02:54.400 --> 03:02.210
+harus memicu sesuatu di otak Anda mengatakan oh ini adalah pendekatan membagi dan menaklukkan yang memberi kita log dan
+
+03:02.240 --> 03:09.370
+waktu karena log kemudian datang dari fakta bahwa kita sekarang mengunjungi semua node setiap langkah di pohon kami
+
+03:09.370 --> 03:10.260
+menghilangkan node.
+
+03:10.720 --> 03:17.780
+Jadi ini adalah kesepakatan dengan pencarian biner Anda membagi daftar menjadi item yang diurutkan dan memutuskan dari sana apakah item
+
+03:17.800 --> 03:21.580
+yang Anda cari ada di sebelah kiri atau kanan daftar.
+
+03:22.440 --> 03:26.180
+Dan karena daftar diurutkan Anda dapat membuat keputusan itu dengan sangat mudah.
+
+03:26.220 --> 03:27.750
+Tapi hanya membandingkan beberapa hal.
+
+03:27.960 --> 03:32.410
+Dan kami terus berjalan sampai kami menemukan apa yang kami inginkan dalam kasus ini.
+
+03:32.490 --> 03:40.120
+Nomor 34 kita membuat keputusan 1 2 3.
+
+03:40.370 --> 03:48.260
+Dan ini masuk akal karena jika Anda seorang guru yang melihat setumpuk esai dan kertas oleh siswa jika tumpukan
+
+03:48.950 --> 03:55.070
+kertas mereka tidak terorganisir maka Anda harus menjalaninya satu per satu untuk menemukannya.
+
+03:55.100 --> 03:56.380
+Katakanlah Timmy.
+
+03:56.750 --> 04:04.670
+Tetapi jika tumpukan kertas diurutkan secara alfabetis maka Anda dapat menemukan saya dengan membagi kertas-kertas itu separuh setiap kali sampai
+
+04:04.700 --> 04:06.660
+Anda sampai ke temi.
+
+04:06.800 --> 04:09.380
+Sama seperti buku telepon.
+
+04:09.540 --> 04:18.320
+Kita mulai dengan sebuah elemen kemudian ketika kita mundur, kita memiliki pembagian dengan dua elemen yang tersisa.
+
+04:18.420 --> 04:24.300
+Dan ketika kita mundur, kita memiliki dan membagi dengan empat elemen yang tersisa dan kita
+
+04:24.300 --> 04:27.820
+terus berjalan terus sampai kita menemukan elemen kita.
+
+04:27.830 --> 04:34.070
+Dan di bagian pengurutan kita belajar bahwa menggabungkan pengurutan dan quicksort melakukan hal yang sama.
+
+04:34.290 --> 04:41.160
+Dan kami juga belajar bagaimana sebenarnya mencari melalui pohon ini di tingkat bagian struktur data kami dengan
+
+04:41.170 --> 04:42.000
+pencarian linier.
+
+04:42.000 --> 04:46.710
+Kami memiliki empat loop dengan pohon pencarian biner seperti ini.
+
+04:46.770 --> 04:55.110
+Kami memiliki metode penguncian di mana kami memeriksa simpul kiri dan simpul kanan dan membagi daftar menggunakan
+
+04:55.470 --> 04:58.720
+loop sementara menjadi setengah setiap kali.
+
+04:58.830 --> 05:03.480
+Jadi kita tahu bagaimana melakukan pencarian linear dan pencarian biner.
+
+05:03.480 --> 05:11.400
+Kita tahu bahwa pencarian biner akan menjadi log of dan kompleksitas waktu versus pencarian linier yang
+
+05:11.490 --> 05:20.780
+merupakan 0 dari dan tetapi apa yang keduanya baik-baik saja sampai saat ini yang telah kita bicarakan ketika kita
+
+05:20.780 --> 05:25.100
+mencari item di mana kita tahu bahwa ada
+
+05:25.100 --> 05:33.080
+Daftar kami diurutkan dalam pohon pencarian biner dan kami tahu ke mana harus pergi ke kiri atau ke kanan, tetapi
+
+05:33.080 --> 05:38.010
+kadang-kadang kita harus melakukan sesuatu yang disebut traversal dan traversal artinya.
+
+05:38.330 --> 05:46.040
+Baik beralih dari tidak ke simpul baik menemukan hal tertentu atau memastikan bahwa Anda menyentuh
+
+05:46.040 --> 05:53.270
+setiap node mungkin kami tidak ingin menambahkan atribut warna untuk setiap catatan di sini.
+
+05:53.380 --> 05:57.330
+Mungkin kami ingin memperbarui angka-angka ini dan mengalikannya dengan dua.
+
+05:57.370 --> 06:01.420
+Dalam hal ini kita harus mengunjungi setiap not.
+
+06:01.420 --> 06:02.980
+Bagaimana kita melakukannya?
+
+06:03.100 --> 06:04.470
+Mari cari tahu di video berikutnya.

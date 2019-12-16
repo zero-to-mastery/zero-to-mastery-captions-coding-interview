@@ -1,0 +1,76 @@
+WEBVTT
+
+00:01.000 --> 00:09.460
+Witamy w poprzednim filmie, w którym rozmawialiśmy o tym, jak nowy Noad tutaj jest powtarzany za każdym razem w
+
+00:09.480 --> 00:11.340
+dołączeniu i przygotowaniu.
+
+00:11.560 --> 00:18.960
+A ponieważ tworzymy więcej metod na naszej połączonej liście, będziemy musieli nieustannie wymawiać następną wartość wywołań
+
+00:18.960 --> 00:20.110
+wartości węzłów.
+
+00:20.130 --> 00:24.920
+Nie i zwykle chcemy, żeby wszystko było suche.
+
+00:25.280 --> 00:27.530
+To nie powtarzaj się w kodzie.
+
+00:28.530 --> 00:36.780
+I wiele implementacji połączonej listy zobaczysz coś takiego, gdzie nowy węzeł jest w rzeczywistości
+
+00:36.780 --> 00:38.170
+niższą klasą.
+
+00:38.370 --> 00:45.100
+Na przykład mogę stworzyć tutaj nową klasę i tak zazwyczaj działa programowanie obiektowe.
+
+00:45.880 --> 00:51.610
+Mamy klasy, które wchodzą w interakcje z innymi klasami, aby tworzyć nasze programy.
+
+00:51.610 --> 00:57.150
+Zobaczysz wiele implementacji połączonych list, które mają klasę węzła.
+
+00:57.430 --> 01:05.800
+I ta uwaga będzie miała konstruktor, który przyjmuje wartość i ta wartość
+
+01:06.850 --> 01:16.670
+będzie miała tę wartość darte równą wartości, która będzie miała tę kropkę obok równą
+
+01:19.990 --> 01:20.750
+nie.
+
+01:22.370 --> 01:32.380
+W ten sposób zamiast mówić o stałym nowym węźle i tworzyć ten nowy węzeł za każdym
+
+01:32.380 --> 01:45.760
+razem, gdy mogę powiedzieć za każdym razem, że chcę utworzyć nowy węzeł, możemy powiedzieć, że nowy węzeł lub Konst jest równy nowemu
+
+01:46.150 --> 01:49.360
+węzłowi, a następnie wartość.
+
+01:49.430 --> 02:02.040
+Za każdym razem, gdy mamy nowy węzeł, po prostu tworzymy instancję, którą nazywamy create i uruchamiamy tę nową klasę węzła, która
+
+02:02.670 --> 02:09.520
+tworzy dla nas węzeł z właściwością value i następną właściwością.
+
+02:09.550 --> 02:17.650
+Więc wolisz używać tej składni, ale ponieważ uważam, że może to być trochę mylące, szczególnie jeśli jesteś
+
+02:17.650 --> 02:24.010
+przyzwyczajony do zajęć i chcesz po prostu zachować rzeczy takimi, jakimi są.
+
+02:24.220 --> 02:32.000
+Cóż, myślę, że jest to łatwiejsze do przeczytania i jak widzisz, jest to dość łatwe do zrealizowania, jeśli chcesz
+
+02:32.030 --> 02:34.200
+to zrobić na własną rękę.
+
+02:34.460 --> 02:36.010
+Tylko szybka zmiana.
+
+02:36.260 --> 02:39.750
+Wróćmy do ukończenia naszej połączonej listy w następnym filmie.

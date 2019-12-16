@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.180 --> 00:07.600
+Când un program execută, are două moduri de a-și aminti lucrurile.
+
+00:07.600 --> 00:18.020
+Groapa și stiva de heap este, de obicei, în cazul în care stocăm variabilele pe care le atribuim valori, iar stiva
+
+00:18.020 --> 00:24.790
+este, de obicei, locul în care ținem evidența apelurilor noastre pentru funcții.
+
+00:24.840 --> 00:32.600
+Uneori ne dorim să optimizăm utilizarea mai puțină memorie decât să folosim mai puțin timp vorbind despre memorie sau
+
+00:32.630 --> 00:34.220
+despre complexitatea spațiului.
+
+00:34.340 --> 00:37.540
+Este foarte similar cu vorbirea despre costul de timp.
+
+00:37.610 --> 00:44.570
+Ne uităm pur și simplu la mărimea totală a dimensiunii intrării și să vedem câte variabile noi
+
+00:44.570 --> 00:47.150
+sau noi memorii le alocăm.
+
+00:47.360 --> 00:49.740
+Cât de multă memorie este utilizată.
+
+00:49.790 --> 00:51.850
+Deci, să aruncăm o privire la un exemplu.
+
+00:52.190 --> 00:58.640
+Până în acest moment am vorbit despre complexitatea timpului și cum, dacă vrem să comprimăm, să spunem niște cutii despre
+
+00:59.210 --> 01:03.640
+care am vorbit despre cât de repede și câte operațiuni ar fi nevoie.
+
+01:03.950 --> 01:12.800
+Dar în viața reală există și acest alt factor de memorie și avem această cutie roz de cât de mult această funcție
+
+01:12.980 --> 01:17.410
+poate lua cât de multă intrare este capabilă să o ia.
+
+01:17.510 --> 01:25.790
+De exemplu, dacă aveam opt sute de cutii pe care trebuie să le creăm pentru a executa această funcție,
+
+01:25.790 --> 01:29.320
+capacitatea sa este limitată și s-ar putea depăși.
+
+01:29.480 --> 01:35.660
+Apropo, lucrurile ca Stack Overflow sunt ceva despre care vom vorbi și cum este o problemă atunci când vine
+
+01:35.660 --> 01:40.300
+vorba de memoria pe care o vom acoperi când vom intra în recurs.
+
+01:41.310 --> 01:45.300
+Ce cauzează această complexitate a spațiului.
+
+01:45.300 --> 01:50.060
+Din fericire pentru tine am adăugat asta la chichi-ul nostru.
+
+01:50.250 --> 01:59.250
+Ceea ce determină complexitatea spațiului în timp ce se adaugă variabile adăugând structuri de date, cum ar fi tabelele de
+
+01:59.250 --> 02:06.290
+arhitecturi ale obiectelor, din nou lucrurile vor vorbi despre apelurile și alocările de funcții.
+
+02:06.460 --> 02:08.280
+Nu aveți nevoie de acest PIERI.
+
+02:08.500 --> 02:14.290
+Dar, de fapt, să codificăm ceva și să vă arătăm un exemplu în următorul videoclip.
+
+02:14.320 --> 02:21.010
+Vom trece prin exerciții de complexitate spațială și vom da seama cum putem da notiță de goate
+
+02:21.010 --> 02:21.520
+subiectului.

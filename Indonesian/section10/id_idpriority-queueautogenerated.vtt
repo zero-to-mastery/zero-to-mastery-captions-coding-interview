@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.950 --> 00:08.050
+Sekarang kami belajar tentang tumpukan biner dan kami menyebutkan bahwa tidak seperti pohon pencarian biner, tidak ada urutan
+
+00:08.050 --> 00:11.620
+dari kiri ke kanan 33 dan 77 ini.
+
+00:11.620 --> 00:16.920
+Kita bisa menukar mereka dan mereka akan tetap menjadi biner murah.
+
+00:16.930 --> 00:22.870
+Keindahan tumpukan biner adalah bahwa mereka mengambil jumlah ruang sekecil mungkin karena selalu ada penyisipan
+
+00:22.870 --> 00:25.770
+kiri seperti yang baru saja kita lihat.
+
+00:26.230 --> 00:29.800
+Jadi tidak ada konsep tumpukan biner yang tidak seimbang.
+
+00:29.830 --> 00:34.780
+Kita tidak perlu menyeimbangkannya seperti pohon pencarian biner karena ini karena mereka melakukannya.
+
+00:34.780 --> 00:38.970
+Sisipan dari kiri ke kanan seperti yang kita lihat di video sebelumnya.
+
+00:39.100 --> 00:44.840
+Mereka mempertahankan urutan penyisipan ini yang benar-benar menakjubkan.
+
+00:44.910 --> 00:51.960
+Dan Anda benar-benar dapat mengimplementasikan tumpukan biner menggunakan perlombaan versus apa yang kami lakukan sebelumnya dengan pohon
+
+00:51.960 --> 00:54.680
+penelusuran biner tempat kami menggunakan catatan.
+
+00:54.750 --> 01:01.380
+Jadi satu-satunya jaminan bahwa tumpukan biner itu memberi kita adalah apa yang saya sebutkan orang tua selalu
+
+01:01.380 --> 01:03.580
+lebih besar daripada anak-anak sekarang.
+
+01:03.640 --> 01:12.190
+Selain memori efisien dan hanya kompak karena selalu ada tumpukan biner pohon biner benar-benar sangat
+
+01:12.190 --> 01:16.130
+berguna untuk hal-hal seperti antrian prioritas.
+
+01:16.980 --> 01:21.930
+Dan Anda mungkin bertanya pada diri sendiri tentang antrian prioritas, bukankah kami hanya belajar tentang antrian
+
+01:21.930 --> 01:23.760
+dan bukankah struktur datanya sama.
+
+01:23.760 --> 01:30.350
+Yah tidak karena dengan antrian kami hanya berasumsi bahwa itu adalah yang pertama di atas.
+
+01:30.360 --> 01:36.720
+Anda adalah orang pertama yang harus Anda masuki pertama kali ke rollercoaster atau antrian prioritas film
+
+01:36.720 --> 01:38.370
+adalah sesuatu yang berbeda.
+
+01:38.370 --> 01:42.360
+Ini adalah tipe data di mana setiap elemen memiliki prioritas.
+
+01:43.470 --> 01:50.430
+Dan elemen dengan prioritas lebih tinggi dilayani sebelum elemen dengan prioritas lebih besar Anda dapat menganggap
+
+01:50.430 --> 01:52.200
+ini sebagai klub.
+
+01:52.200 --> 02:00.150
+Katakanlah kita memiliki klub malam yang sangat sangat populer dan ada barisan panjang dan kami membiarkan beberapa
+
+02:00.150 --> 02:02.490
+orang di semua orang bahagia.
+
+02:02.490 --> 02:09.150
+Tapi tiba-tiba kami memiliki beberapa VIP yang menunjukkan jumlah yang mereka bayarkan jauh lebih banyak daripada pelanggan lain,
+
+02:09.150 --> 02:11.410
+jadi kami akan mengutamakan mereka.
+
+02:11.430 --> 02:14.650
+Jadi sekarang kami memiliki prioritas yang berbeda.
+
+02:14.700 --> 02:19.970
+Kami meskipun mereka tiba kemudian mereka bisa pergi ketika mereka memiliki prioritas yang lebih tinggi.
+
+02:20.900 --> 02:23.960
+Contoh bagus lainnya adalah ruang gawat darurat.
+
+02:24.320 --> 02:30.700
+Anda ingin merawat pasien yang memiliki gejala atau kondisi paling parah.
+
+02:30.710 --> 02:31.750
+Kanan.
+
+02:31.800 --> 02:37.500
+Cara lain untuk memikirkannya adalah katakanlah kita sedang berbaris untuk naik ke pesawat.
+
+02:38.380 --> 02:46.060
+Kami memiliki orang pertama yang berbaris dan kemudian tiba-tiba kapten muncul dan karena
+
+02:46.150 --> 02:55.340
+kapten harus naik pesawat sebelum penumpang normal, kapten sekarang diprioritaskan sebagai catatan root karena nilainya lebih
+
+02:55.550 --> 03:02.680
+tinggi atau sama Setidaknya dalam hal ini nilainya lebih tinggi dari penumpang.
+
+03:02.690 --> 03:07.690
+Jadi misalkan seorang penumpang datang karena kita melakukan penyisipan dari kiri ke kanan.
+
+03:07.820 --> 03:10.340
+Kami menempatkan penumpang ke kanan.
+
+03:10.520 --> 03:15.440
+Jadi sekarang kita tahu kita akan membiarkan kapten pergi dan kemudian penumpang pertama.
+
+03:15.440 --> 03:21.150
+Lalu penumpang kedua Selanjutnya kita memiliki pramugari yang masuk.
+
+03:21.210 --> 03:26.470
+Dia harus pergi sebelum penumpang tetapi tidak sebelum kapten.
+
+03:26.930 --> 03:36.350
+Nah dalam kasus itu sekali lagi kita menempatkan pramugari di bawah kapten tetapi ke kanan atau ke kiri penumpang dan
+
+03:36.410 --> 03:40.650
+kemudian kita memiliki penumpang yang sekarang ada yang datang.
+
+03:40.670 --> 03:41.270
+Kami lakukan.
+
+03:41.300 --> 03:42.640
+Penyisipan kiri ke kanan.
+
+03:42.680 --> 03:44.690
+Kami melihat tempat yang tepat di sini.
+
+03:44.750 --> 03:47.970
+Jadi kami menempatkan mereka di sini.
+
+03:48.220 --> 03:55.720
+Jadi kita melihat bagaimana semuanya menjadi seimbang yang bagus tetapi juga sangat mudah bagi kita untuk sekarang mengarahkan orang ke pesawat karena
+
+03:56.230 --> 04:02.110
+kita tahu urutan kita naik dari atas lalu ke kiri lalu ke kanan lalu ke kiri
+
+04:02.110 --> 04:04.060
+kemudian ke kiri ke kanan.
+
+04:04.060 --> 04:04.380
+Kanan.
+
+04:04.390 --> 04:07.600
+Dan kita terus berjalan terus berjalan.
+
+04:07.600 --> 04:10.510
+Kami tahu prioritasnya dengan sangat mudah.
+
+04:10.510 --> 04:13.930
+Saya yakin Anda melihat di mana ini mungkin berguna dalam banyak situasi.
+
+04:14.980 --> 04:18.390
+Untuk mengulas, kami mempelajari apa itu pohon pencarian biner.
+
+04:18.460 --> 04:24.780
+Mereka hebat tetapi terkadang tumpukan biner atau antrian prioritas bahkan lebih baik.
+
+04:25.090 --> 04:30.730
+Meskipun pencarian melalui tumpukan biner jauh lebih lambat daripada pohon pencarian biner.
+
+04:30.760 --> 04:39.520
+Anda memiliki gagasan prioritas karena penyisipan dilakukan secara berurutan sehingga Anda tahu siapa yang harus menjadi yang pertama dan
+
+04:39.520 --> 04:40.630
+yang kedua.
+
+04:40.630 --> 04:47.430
+Ketiga dan meskipun kita mungkin harus menambahkan insert sesekali jika ada seseorang yang
+
+04:47.460 --> 04:49.740
+memiliki prioritas sangat tinggi.
+
+04:49.830 --> 04:56.730
+Sebagian besar waktu Anda mendapatkan sisipan sangat cepat dengan tumpukan biner dan seperti yang kami sebutkan pencarian lambat tetapi
+
+04:57.060 --> 05:02.870
+Anda ingin menggunakan tumpukan biner ketika Anda hanya tertarik untuk menemukan maks atau menemukan minimum.
+
+05:02.910 --> 05:09.450
+Jika tumpukan minimum dan banyak kali dalam tumpukan biner dalam antrian prioritas, Anda memiliki metode yang disebut find
+
+05:09.660 --> 05:11.530
+Max atau temukan pria.
+
+05:11.580 --> 05:19.050
+Itu semua adalah karena Anda langsung tahu bahwa simpul root teratas adalah maks atau minimum.
+
+05:19.080 --> 05:23.120
+Jadi untuk operasi itu sangat cepat dan hebat.
+
+05:23.350 --> 05:24.730
+Dan begitulah.
+
+05:24.760 --> 05:26.140
+Sampai jumpa di video berikutnya.
+
+05:26.510 --> 05:26.800
+Buh-Bye.

@@ -1,0 +1,211 @@
+WEBVTT
+
+00:01.390 --> 00:11.130
+Satu pertanyaan wawancara umum yang mungkin Anda dapatkan adalah sesuatu di sepanjang baris log semua pasangan horæ.
+
+00:11.150 --> 00:13.250
+Sekarang apa artinya itu sebenarnya.
+
+00:13.520 --> 00:24.690
+Nah jika kita memiliki array, katakan saja kotak dan array ini hanya berisi kotak bernomor 1
+
+00:24.690 --> 00:26.740
+sampai 5.
+
+00:26.750 --> 00:38.940
+Sekarang array ini jika saya ingin mencatat semua pasangan itu berarti saya ingin mencatat 1 2 lalu 1 3 1 4 1 5 lalu 2 1 kemudian
+
+00:39.180 --> 00:42.800
+2 2 2 3 2 4 2 5.
+
+00:42.990 --> 00:47.560
+Begitu seterusnya bagaimana kita akan melakukan itu.
+
+00:47.780 --> 00:52.030
+Dan jika mau, Anda dapat menjeda video dan mencoba untuk mencoba masalah ini sendiri.
+
+00:54.740 --> 01:06.890
+Sekarang dalam hal ini yang ingin kita lakukan adalah kita membuat suatu fungsi dan akan mengatakan log semua pasang array
+
+01:07.820 --> 01:10.340
+yang menerima array.
+
+01:10.610 --> 01:11.740
+Katakan saja array.
+
+01:11.750 --> 01:18.960
+Jadi kami deskriptif di sini dan di sini kami akan melakukan for for loop.
+
+01:19.420 --> 01:22.190
+Jadi untuk LET.
+
+01:22.360 --> 01:25.300
+Hai sama dengan nol.
+
+01:25.320 --> 01:38.440
+Dan kami telah melakukan ini sebelumnya jadi jika saya kurang dari panjang produk dan akan bertambah sekarang.
+
+01:38.460 --> 01:45.190
+Dan di sini kita ingin mengulang jadi sekarang di iterasi pertama dari for loop akan ambil satu.
+
+01:45.540 --> 01:52.750
+Tapi kemudian kita ingin mengulang-ulang kotak-kotak dan mencatat 1 1 1 2 1 3 1 4 1 5.
+
+01:53.040 --> 02:04.120
+Jadi kita memiliki loop lain dan kali ini akan mengatakan bahwa J sama dengan nol jika kita ingin loop dari awal.
+
+02:04.330 --> 02:12.550
+Atau saya bahkan bisa mengatakan 1 jika kita ingin memulai dengan 1 2 karena kita mulai dengan indeks 1
+
+02:12.550 --> 02:13.660
+di sini.
+
+02:13.660 --> 02:19.040
+Untuk sekarang kita bisa membiarkannya pada 0 dan kita akan mengatakan itu selama J.
+
+02:19.950 --> 02:23.390
+Panjangnya kurang dari redcoat.
+
+02:24.330 --> 02:28.390
+Dan kami akan meningkatkan JJ.
+
+02:28.490 --> 02:32.720
+Dan sekarang akhirnya di sini saya bisa mengatakan
+
+02:35.960 --> 02:38.720
+membatalkan log oleh dan
+
+02:38.830 --> 02:40.660
+Mari kita jalankan fungsi ini dan lihat apa yang terjadi.
+
+02:43.440 --> 02:50.650
+Jadi saya harus benar-benar memanggil fungsi ini jadi mari kita lakukan log semua pasang array dan saya
+
+02:50.830 --> 02:52.720
+akan memberikannya array kotak
+
+02:52.950 --> 03:00.080
+Oh dan kami ingin memastikan di sini bahwa kami keluar item yang sebenarnya dan bukan indeks array.
+
+03:00.430 --> 03:13.990
+Jadi kita hanya akan mengatakan kembali tinggi di sini dan array J di sini dan supaya Anda tidak bingung dengan angka.
+
+03:13.980 --> 03:20.650
+Mungkin dunia berubah menjadi huruf sehingga lebih jelas apa yang kita lakukan.
+
+03:22.330 --> 03:25.860
+Lihat Dee.
+
+03:26.050 --> 03:29.110
+Nasty dan kami akan mengatakan e.
+
+03:29.520 --> 03:37.070
+Jadi jika saya klik di sini kita melihat bahwa kita sedang mencatat semua pasangan a b a c d.
+
+03:37.300 --> 03:39.360
+Terus berjalan terus sampai e.
+
+03:39.700 --> 03:43.000
+Anda dapat melihat log di sini.
+
+03:43.030 --> 03:46.530
+Apa pertunjukan besar ini?
+
+03:46.660 --> 03:52.770
+Dan ini adalah sesuatu yang Anda akan melihat banyak dalam wawancara dan aturan
+
+03:52.770 --> 04:02.580
+praktis yang baik adalah jika Anda melihat loop bersarang itu berarti bukannya memiliki dua empat loop satu demi satu di mana kami
+
+04:03.210 --> 04:08.770
+menggunakan tambahan ketika Anda melihat loop yang bersarang kami menggunakan perkalian.
+
+04:08.880 --> 04:12.870
+Jadi ini menjadi tua zaman akhir.
+
+04:12.900 --> 04:13.700
+Oh dari
+
+04:13.710 --> 04:26.620
+Dan yang ketika kita kalikan mereka menjadi 0 dari dan kuadrat 0 sampai akhir dengan kekuatan dua.
+
+04:26.770 --> 04:29.040
+Dan itu aturan praktis yang bagus.
+
+04:29.930 --> 04:36.840
+Dan jika kita kembali ke grafik kita, fungsi ini baru saja kita buat dan saya menggunakan sintaks
+
+04:36.840 --> 04:44.350
+S-5 di sini alih-alih empat loop yang kita lakukan ini berulang dan kuadrat adalah apa yang kita sebut waktu kuadratik.
+
+04:44.490 --> 04:48.440
+Itu berarti setiap kali jumlah elemen bertambah.
+
+04:48.480 --> 04:50.370
+Jadi katakanlah kita memiliki dua elemen.
+
+04:50.490 --> 04:55.880
+Kami memiliki empat operasi yang kami lakukan jika kami memiliki tiga elemen.
+
+04:55.890 --> 04:58.880
+Ini sebenarnya meningkat secara kuadratik.
+
+04:58.980 --> 05:09.370
+Itu berarti alih-alih empat operasi kita sekarang memiliki 1 2 3 4 5 6 7 8 9 karena kita
+
+05:09.370 --> 05:12.760
+memiliki tiga elemen dengan kekuatan dua.
+
+05:12.980 --> 05:19.660
+Dan Anda lihat di sini bagaimana arti dari garis itu sekarang dan meningkat dengan cukup cepat.
+
+05:20.290 --> 05:27.990
+Jika kita kembali ke notasi O besar atau grafik O besar kita melihat bahwa kuadrat.
+
+05:28.070 --> 05:35.120
+Meskipun mengerikan karena cukup lambat karena jumlah elemen meningkat, jumlah operasi
+
+05:35.450 --> 05:38.030
+meningkat secara signifikan.
+
+05:38.510 --> 05:46.610
+Dan banyak pertanyaan wawancara adalah pertanyaan yang meminta Anda untuk menyelesaikan suatu masalah pada awalnya adalah semua ventura kuadrat
+
+05:46.610 --> 05:53.940
+dan membuatnya lebih cepat dengan mungkin membuatnya menjadi sesuatu yang sedikit lebih rendah di sini yang buruk.
+
+05:53.940 --> 05:57.310
+Cukup bagus, bagus tapi jelas tidak mengerikan.
+
+05:58.420 --> 06:06.900
+Jika kita kembali ke aturan nomor tiga bahwa kita sedang mendiskusikan istilah berbeda untuk input.
+
+06:07.240 --> 06:16.330
+Kembali ke contoh yang kami miliki di video sebelumnya, ingat ini juga kami katakan oh a plus
+
+06:16.330 --> 06:22.210
+b karena kami memiliki dua ras atau input yang berbeda.
+
+06:22.240 --> 06:31.100
+Sekarang jika loop ini benar-benar bersarang dan sekarang ada satu demi satu, pertunjukan besar
+
+06:31.130 --> 06:34.060
+akan selalu terjadi b.
+
+06:35.060 --> 06:42.950
+Dan itu adalah aturan nomor tiga yang memastikan untuk mengetahui bahwa kita memiliki array yang berbeda yang berarti notasi yang berbeda
+
+06:43.730 --> 06:50.840
+untuk setiap array karena kita tidak tahu lensa dan aturan praktis yang mudah adalah langkah apa pun yang terjadi
+
+06:50.840 --> 06:52.800
+dalam indentasi yang sama.
+
+06:52.850 --> 07:06.090
+Jadi satu demi satu Anda tambahkan dan apa pun yang terjadi dengan lekukan yang bersarang Anda berlipat ganda.
+
+07:06.140 --> 07:10.420
+Jadi sekali lagi input yang berbeda harus memiliki variabel yang berbeda.
+
+07:10.440 --> 07:12.930
+Mari beralih ke aturan terakhir di video berikutnya.

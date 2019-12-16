@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.050 --> 00:02.160
+Selamat datang kembali.
+
+00:02.220 --> 00:10.970
+CU adalah struktur data kami berikutnya dan cara terbaik untuk memikirkannya adalah seperti pintu masuk ke rollercoaster.
+
+00:11.030 --> 00:16.460
+Orang pertama yang tiba di barisan harus pergi pertama di roller coaster dan kemudian orang kedua
+
+00:16.460 --> 00:19.100
+harus pergi dan kemudian orang ketiga pergi.
+
+00:19.250 --> 00:23.950
+Dan yang keempat, kelima dan keenam akhirnya pergi.
+
+00:24.260 --> 00:34.730
+Jadi kebalikan dari tumpukan di mana kita mengakses pertama masuk pertama keluar item pertama dalam antrian mendapatkan akses
+
+00:34.940 --> 00:37.290
+pertama yang pertama.
+
+00:37.370 --> 00:45.690
+Kami menyebut bahwa FIFO dan antrian banyak digunakan lagi dalam masalah pemrograman dan pertanyaan wawancara.
+
+00:45.740 --> 00:53.660
+Misalnya jika Anda memiliki aplikasi daftar tunggu apa saja untuk membeli tiket konser yang menggunakan petunjuk bagaimana
+
+00:54.110 --> 01:01.690
+dengan aplikasi restoran tempat Anda memeriksa restoran untuk melihat apakah Anda bisa mendapatkan meja yang menggunakan
+
+01:01.690 --> 01:02.420
+Skewes.
+
+01:02.720 --> 01:08.380
+Bagaimana dengan Oubre atau angkat ketika Anda ingin mengambil tumpangan.
+
+01:08.750 --> 01:14.400
+Nah orang yang meminta tumpangan pertama akan mendapat prioritas dan kemudian Anda akan mendapatkan yang kedua.
+
+01:14.630 --> 01:18.980
+Dan akhirnya contoh antrian yang paling umum adalah hak printer.
+
+01:19.010 --> 01:24.060
+Jika Anda memiliki printer di rumah dan Anda memiliki tiga orang di tiga komputer yang berbeda atau di rumah Anda.
+
+01:24.110 --> 01:29.880
+Katakanlah anggota keluarga Anda dan Anda menekan cetak dan setiap orang mencetak item yang berbeda.
+
+01:29.990 --> 01:34.920
+Orang yang mengklik cetak pertama harus memiliki cetakan pertama.
+
+01:35.210 --> 01:37.610
+Dan hal yang sama untuk orang kedua yang terjadi selanjutnya.
+
+01:37.610 --> 01:44.750
+Dan kemudian orang ketiga sekarang di sini, saya punya beberapa kata yang berbeda lalu dorong dan pop
+
+01:44.810 --> 01:47.930
+dan saya menggunakan sedikit standar di sini.
+
+01:47.960 --> 01:55.640
+Anda dapat menggunakan push for dan cue yang berarti menambah isyarat yang ada pada seseorang di baris yang adalah
+
+01:55.650 --> 02:02.080
+0 1 dan dequeue yang dapat Anda anggap sebagai pop yang menghapus orang dari baris.
+
+02:02.240 --> 02:09.110
+Namun dequeue tidak seperti pop tidak mengambil orang terakhir dalam baris mengambil orang pertama.
+
+02:09.110 --> 02:11.970
+Jadi di situlah tumpukan dan isyarat berbeda.
+
+02:12.020 --> 02:18.290
+Dan kami memiliki nama-nama ini untuk memastikan bahwa kami memahami perbedaan tetapi kami memiliki
+
+02:18.290 --> 02:24.980
+puncak yang sekali lagi memberi tahu kami apa item pertama yang akan muncul yaitu orang pertama
+
+02:24.980 --> 02:30.520
+dalam daftar versus isyarat yang dimainkan terakhir yang merupakan terakhir masuk pertama.
+
+02:31.040 --> 02:37.490
+Dan sekali lagi mencari di Q Anda biasanya tidak melakukannya karena Anda hanya tertarik dan memberi isyarat
+
+02:37.490 --> 02:38.840
+dan Dijk lakukan.
+
+02:39.090 --> 02:42.850
+Anda dapat melihat di sini bahwa notasi O besar cukup cepat.
+
+02:42.990 --> 02:49.140
+Kami sebenarnya akan menunjukkan ini dalam kode tetapi saya ingin Anda mencoba dan menjawab
+
+02:49.620 --> 02:56.840
+pertanyaan ini mengapa Anda tidak ingin menggunakan array untuk membuat isyarat jeda video jika Anda ingin memikirkannya.
+
+02:57.800 --> 03:05.630
+Yah jawabannya adalah itu sangat tidak efisien karena kami menghapus item pertama dari daftar.
+
+03:05.690 --> 03:13.010
+Jika Anda ingat array jika Anda menggeser sesuatu, Anda menghapus item pertama yang harus Anda geser semua
+
+03:13.070 --> 03:14.290
+indeks itu.
+
+03:14.450 --> 03:21.140
+Jadi membuat antrian dari array meskipun Anda dapat melakukannya benar-benar buruk.
+
+03:21.330 --> 03:24.580
+Dan itu adalah sesuatu yang akan kita bicarakan sedikit lebih banyak ketika kita benar-benar kode itu.
+
+03:25.330 --> 03:25.920
+BAIK.
+
+03:26.270 --> 03:28.070
+Itu cukup untuk CU.
+
+03:28.070 --> 03:29.660
+Ayo lanjutkan latihan pertama kita.

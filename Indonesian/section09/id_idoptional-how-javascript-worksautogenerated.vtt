@@ -1,0 +1,889 @@
+WEBVTT
+
+00:01.700 --> 00:04.820
+Bagaimana cara kerja javascript sebenarnya.
+
+00:04.820 --> 00:08.340
+Bayangkan mendapatkan pertanyaan ini selama entri atau bagaimana dengan ini.
+
+00:08.360 --> 00:13.160
+Jelaskan perbedaan antara Javascript dan asinkron dan sinkron.
+
+00:13.220 --> 00:16.000
+Atau mungkin mereka meminta Anda untuk menjelaskan pernyataan itu.
+
+00:16.010 --> 00:19.540
+Javascript sebagai bahasa utas tunggal yang bisa non-pemblokiran.
+
+00:20.410 --> 00:24.960
+Oh boy di video ini kami akan membantu Anda menjawab pertanyaan-pertanyaan itu.
+
+00:24.960 --> 00:29.550
+Ini adalah video yang mungkin perlu Anda kunjungi beberapa kali seiring kemajuan Anda untuk benar-benar mendapatkannya.
+
+00:29.640 --> 00:32.850
+Jadi, jangan merasa kecil hati jika Anda tidak merasa 100 persen percaya diri.
+
+00:32.910 --> 00:35.520
+Terus menontonnya dan Anda akan mendapatkannya.
+
+00:35.520 --> 00:40.580
+Sekarang kita tidak perlu tahu bagaimana javascript bekerja secara internal untuk menulis sebuah program.
+
+00:40.950 --> 00:42.590
+Tetapi penting untuk dipelajari.
+
+00:42.900 --> 00:47.260
+Saya melihat banyak orang yang telah menjadi pengembang selama bertahun-tahun dan tidak ada yang tahu ini.
+
+00:47.280 --> 00:51.140
+Ini seperti menjadi pilot dan tidak tahu bagaimana pesawat terbang bisa terbang.
+
+00:51.510 --> 00:53.480
+OK itu sedikit dramatis di sana.
+
+00:53.500 --> 00:55.230
+Tapi Anda mengerti maksud saya.
+
+00:55.230 --> 01:00.210
+Jadi mari kita mulai dulu apa itu program.
+
+01:00.510 --> 01:03.490
+Ya, sebuah program harus melakukan beberapa hal sederhana.
+
+01:03.540 --> 01:05.550
+Itu harus mengalokasikan memori.
+
+01:05.580 --> 01:11.120
+Kalau tidak, kita akan dapat memiliki variabel atau bahkan memiliki file di komputer kita.
+
+01:11.130 --> 01:16.850
+Itu juga harus mengurai dan mengeksekusi skrip yang berarti membaca dan menjalankan perintah.
+
+01:17.190 --> 01:17.760
+BAIK.
+
+01:17.940 --> 01:26.270
+Sekarang kita juga tahu bahwa dari diskusi kita sebelumnya ada mesin javascript yang diimplementasikan setiap browser di Chrome
+
+01:26.280 --> 01:34.500
+itu adalah V8 dan mesin V8 membaca javascript yang kita tulis dalam perubahan menjadi instruksi yang dapat
+
+01:34.500 --> 01:36.900
+dieksekusi mesin untuk browser.
+
+01:37.440 --> 01:43.370
+Sekarang mesin terdiri dari dua bagian tumpukan memori dan tumpukan panggilan.
+
+01:43.440 --> 01:45.120
+Sekarang ingatannya menumpuk.
+
+01:45.270 --> 01:48.680
+Di sinilah alokasi memori terjadi.
+
+01:48.810 --> 01:50.680
+Dan jangan khawatir kita akan membicarakan ini.
+
+01:51.000 --> 01:52.230
+Dan kemudian tumpukan panggilan.
+
+01:52.260 --> 01:54.920
+Di sinilah kode Anda dibaca dan jalankan.
+
+01:54.960 --> 01:57.650
+Ini memberitahu Anda di mana Anda berada dalam program ini.
+
+01:59.070 --> 02:01.900
+Jadi mari kita sederhanakan ini dan tunjukkan apa yang saya maksud.
+
+02:04.370 --> 02:06.310
+Saya punya Sublime Text di sini.
+
+02:06.710 --> 02:16.650
+Dan bagi kita untuk mengalokasikan memori dan tumpukan memori Yah itu sesederhana melakukan Konst a Eco untuk yang baru
+
+02:17.060 --> 02:24.110
+saja kita mengalokasikan memori sekarang ketika kita menetapkan ini mesin javascript akan mengingat
+
+02:24.470 --> 02:28.070
+bahwa OIA A memiliki nilai 1.
+
+02:28.190 --> 02:34.540
+Kami baru saja menggunakan tumpukan memori dan saya bisa terus dan terus seperti ini kan.
+
+02:34.610 --> 02:41.570
+Saya bisa terus menyalin dan menempel dan mengubah variabel-variabel ini ke B dan C dan saya bisa mengubah nilai menjadi
+
+02:41.570 --> 02:44.480
+seratus dan mungkin di sini akan menjadi 10.
+
+02:45.560 --> 02:46.110
+Keren.
+
+02:46.160 --> 02:49.870
+Sekarang apa masalah yang kita lihat dengan ini.
+
+02:50.040 --> 02:55.750
+Ini adalah sesuatu yang disebut kebocoran memori yang akan Anda dengar saat Anda menjadi pengembang.
+
+02:56.110 --> 03:01.900
+Dan apa yang kami lakukan di sini adalah kami telah membuat semua variabel ini variabel global yang ada
+
+03:01.900 --> 03:05.350
+di tumpukan memori tetapi Anda melihat kotak ini dengan benar.
+
+03:05.530 --> 03:10.940
+Dan dengan semua memori kita memiliki jumlah terbatas yang sebenarnya bisa kita miliki.
+
+03:11.080 --> 03:17.950
+Jadi dengan meningkatkan jumlah variabel yang kita miliki Bayangkan jika saya memiliki halaman ini penuh dengan variabel dan
+
+03:17.950 --> 03:21.720
+bukan hanya angka mereka seperti array yang sangat besar.
+
+03:22.030 --> 03:28.450
+Nah kebocoran memori terjadi ketika Anda memiliki memori yang tidak digunakan seperti katakanlah kita sekarang menggunakan
+
+03:28.450 --> 03:36.310
+variabel a tapi itu berjalan dengan baik dengan memiliki memori yang tidak terpakai hanya berbaring di sekitarnya mengisi tumpukan memori ini.
+
+03:36.580 --> 03:40.050
+Dan itulah mengapa Anda mungkin mendengar mengapa variabel global buruk.
+
+03:40.150 --> 03:44.440
+Variabel global buruk karena kita tidak lupa membersihkan diri kita sendiri.
+
+03:44.560 --> 03:51.280
+Kami mengisi tumpukan memori ini dan akhirnya browser tidak akan dapat bekerja.
+
+03:51.300 --> 03:54.040
+Baiklah jadi itu memori.
+
+03:54.090 --> 03:56.100
+Mari kita bicara tentang tumpukan panggilan.
+
+03:56.220 --> 03:57.040
+Apa itu.
+
+03:58.210 --> 04:17.460
+Yah lagi dengan panggilan stack kita dapat memiliki sesuatu seperti ini log Mogo 1 konsol log untuk nama
+
+04:17.670 --> 04:23.260
+akhirnya konsol log 3.
+
+04:23.400 --> 04:28.400
+Jika saya menjalankan kode ini di terminal browser saya.
+
+04:28.600 --> 04:39.880
+Yah saya mendapatkan satu dua tiga tumpukan panggilan jika Anda ingat itulah yang dibaca dan menjalankan skrip kami.
+
+04:40.260 --> 04:45.950
+Jadi, apa yang dilakukan stack panggilan itu membaca dialog konsol baris pertama.
+
+04:46.140 --> 04:48.610
+Itu akan dimasukkan ke dalam tumpukan panggilan ini.
+
+04:48.890 --> 04:52.530
+Jadi mesin javascript mengatakan dialog konsol telah ditambahkan.
+
+04:52.680 --> 05:03.170
+Mari kita pop itu ke tumpukan panggilan ini dan kemudian menjalankannya dan menciptakan satu lalu berkata OK Saya menghapus kunci konsol pertama karena
+
+05:03.170 --> 05:09.920
+saya baru saja selesai menjalankannya saya akan menempatkan log konsol kedua ke dalam tumpukan panggilan
+
+05:09.920 --> 05:13.860
+saya menambahkannya di di sini dan mengatakan ya.
+
+05:13.990 --> 05:15.090
+Jalankan dua.
+
+05:15.680 --> 05:23.410
+Dan kemudian menghapus itu muncul dan kemudian mendapat Konsole lock 3 dan log Konst lock 3.
+
+05:23.420 --> 05:30.930
+Dan akhirnya menghapusnya, tetapi mari kita memiliki sedikit contoh kompleks di sini untuk menunjukkan poin
+
+05:30.930 --> 05:31.960
+ini.
+
+05:32.160 --> 05:34.750
+Bayangkan saya memiliki sesuatu seperti ini.
+
+05:37.450 --> 05:39.700
+Saya memiliki konsep fungsi
+
+05:44.430 --> 05:52.390
+satu dan di dalam fungsi ini kami memiliki fungsi kon lain untuk dan untuk saat
+
+05:52.420 --> 06:04.390
+ini itu tidak benar-benar akan melakukan banyak hal akan konsol dot log untuk dan di sini kita hanya akan mengatakan kita Rhondda berfungsi.
+
+06:04.410 --> 06:14.990
+Jadi jika saya salin dan tempel ini dan letakkan di konsol kami dan saya jalankan satu saya dapatkan empat dan abaikan kesalahan ini di sini.
+
+06:15.060 --> 06:17.400
+Itu hanya terkait dengan aplikasi saya di browser.
+
+06:17.510 --> 06:19.000
+Tapi Anda lihat kami mendapat empat.
+
+06:19.010 --> 06:21.920
+Jadi apa yang terjadi di sini sesuai dengan panggilan stack.
+
+06:22.310 --> 06:30.050
+Nah jika kita memiliki tumpukan panggilan di sini kita pertama kali menjalankan satu fungsi.
+
+06:30.050 --> 06:34.520
+Jadi di atas tumpukan panggilan satu fungsi dijalankan.
+
+06:34.760 --> 06:40.050
+Dan ketika kita masuk ke dalam tumpukan panggilan ini kita melihat bahwa kita menjalankan fungsi lain.
+
+06:40.190 --> 06:50.410
+Jadi dua berjalan di atas tumpukan panggilan dan sekarang kita menjalankan dua fungsi yaitu Konsole log.
+
+06:50.600 --> 07:00.100
+Jadi kami memiliki konsol Dom log yang dijalankan di dalam dua fungsi.
+
+07:00.130 --> 07:03.990
+Jadi sekarang kita telah membaca ini tumpukan panggilan akan berkata OK.
+
+07:04.030 --> 07:06.280
+Tidak ada hal lain di dalam ini.
+
+07:06.280 --> 07:11.410
+Saya akan menjalankan Konsole lock 4 sehingga akan mencetak nomor empat di sini.
+
+07:11.410 --> 07:22.280
+Ini akan menghapus itu dari tumpukan panggilan dan kemudian menghapus keduanya dan kemudian menghapus satu karena itu baru saja
+
+07:22.310 --> 07:23.440
+dipanggil
+
+07:26.050 --> 07:28.880
+dan tumpukan panggilan sekarang kosong.
+
+07:29.260 --> 07:30.020
+Baiklah.
+
+07:30.040 --> 07:30.590
+Luar biasa.
+
+07:30.700 --> 07:34.690
+Sekarang mari kita lihat kembali pernyataan dari awal video.
+
+07:34.910 --> 07:42.400
+Javascript adalah bahasa berulir tunggal yang dapat nonblocking berulir tunggal berarti ia hanya memiliki satu
+
+07:42.520 --> 07:43.690
+tumpukan panggilan.
+
+07:44.590 --> 07:48.340
+Dan satu tumpukan panggilan saja Anda hanya dapat melakukan satu hal pada suatu waktu.
+
+07:48.370 --> 07:52.870
+Dan seperti yang kita lihat, tumpukan panggilan adalah yang pertama keluar terakhir.
+
+07:53.110 --> 07:59.650
+Jadi, apa pun yang ada di atas tumpukan panggilan dijalankan terlebih dahulu kemudian di bawah yang di bawah
+
+07:59.650 --> 08:01.070
+tumpukan panggilan kosong.
+
+08:02.550 --> 08:05.810
+Sekarang bahasa lain dapat memiliki beberapa panggilan.
+
+08:05.940 --> 08:08.880
+Dan ini disebut multi-thread.
+
+08:08.900 --> 08:14.060
+Anda juga dapat melihat bagaimana itu mungkin bermanfaat untuk memiliki beberapa panggilan panggilan sehingga kami tidak terus
+
+08:14.060 --> 08:15.290
+menunggu untuk barang-barang.
+
+08:15.410 --> 08:18.230
+Mengapa javascript dirancang untuk berulir tunggal.
+
+08:19.170 --> 08:24.570
+Saat menjalankan kode pada utas tunggal bisa sangat mudah karena Anda tidak harus berurusan
+
+08:24.570 --> 08:27.920
+dengan skenario rumit yang muncul di lingkungan multithreaded.
+
+08:27.930 --> 08:29.720
+Anda hanya perlu satu hal untuk dikhawatirkan.
+
+08:29.940 --> 08:39.000
+Dan ketika saya mengatakan masalah dengan lingkungan multi-utas dapat mengalami kebuntuan sekarang.
+
+08:39.150 --> 08:47.500
+Coba tebak apa yang baru saja Anda pelajari apa artinya pemrograman sinkron.
+
+08:47.650 --> 08:53.750
+Jalur satu dieksekusi kemudian Jalur 2 dieksekusi dan kemudian Jalur 3 dieksekusi.
+
+08:55.100 --> 08:59.480
+Yang terakhir bisa mulai sebelum yang pertama selesai.
+
+08:59.480 --> 09:06.640
+Jadi kunci konsol 2 ini tidak mulai sampai kunci Konsole selesai dan dibatalkan 3 tidak mulai
+
+09:06.670 --> 09:12.380
+sampai sekitar selesai karena kami telah melihat tumpukan panggilan karena tumpukan panggilan.
+
+09:12.410 --> 09:16.620
+Sekarang Anda mungkin pernah mendengar tentang tumpukan situs melimpah.
+
+09:16.700 --> 09:20.250
+Jika Anda seorang pengembang, Anda menggunakannya setiap hari dan.
+
+09:20.270 --> 09:24.730
+Pernahkah Anda bertanya-tanya apa artinya Stack Overflow?
+
+09:26.020 --> 09:28.350
+Akan Menumpuk Overflow.
+
+09:28.500 --> 09:32.430
+Apakah ini ketika tumpukan meluap.
+
+09:32.430 --> 09:39.240
+Jenis seperti kita berbicara tentang kebocoran memori dan bagaimana tumpukan memori mesin javascript dapat
+
+09:40.080 --> 09:43.320
+meluap dengan baik dengan stack overflow.
+
+09:43.320 --> 09:48.000
+Ini terjadi ketika tumpukan panggilan semakin besar dan lebih besar dan lebih besar sampai tidak
+
+09:48.000 --> 09:49.380
+memiliki cukup ruang lagi.
+
+09:49.380 --> 09:52.200
+Bagaimana kita bisa melakukan itu.
+
+09:52.200 --> 09:54.590
+Bisakah kita membuat ulang stack overflow.
+
+09:54.930 --> 09:59.010
+Ya saya bisa menunjukkan kepada Anda dengan cepat bahwa untuk membuat stack overflow.
+
+09:59.010 --> 10:13.530
+Yang harus Anda lakukan adalah fungsi foo seperti yang kami miliki di sini dan fungsi ini hanya akan memiliki tangan foop.
+
+10:13.540 --> 10:17.940
+Kami hanya akan menjalankan fungsi makanan kami dengan benar.
+
+10:17.980 --> 10:21.800
+Itu terlihat membingungkan apa yang terjadi di sini.
+
+10:22.120 --> 10:24.610
+Ini sesuatu yang disebut rekursi
+
+10:27.290 --> 10:30.300
+dan rekursi berarti fungsi yang memanggil dirinya sendiri.
+
+10:30.700 --> 10:35.990
+Jadi jika Anda melihat apa fungsi ini kita jalankan foo dan foo dieksekusi.
+
+10:36.170 --> 10:39.610
+Apa yang dilakukan foo adalah kita menjalankan foo dengan baik.
+
+10:39.680 --> 10:44.900
+Jadi itu hanya terus berulang berulang-ulang.
+
+10:44.960 --> 10:46.960
+Tetapi tidak ada akhir yang terlihat benar.
+
+10:47.090 --> 10:50.540
+Kami terus menambahkan foo ke tumpukan panggilan.
+
+10:50.660 --> 10:58.220
+Kami terus menambahkannya berulang-ulang dan berulang-ulang dan kami memiliki tumpukan
+
+10:58.220 --> 10:59.720
+overflow.
+
+11:00.080 --> 11:07.280
+Jadi, jika Anda ingin bersenang-senang, masuklah ke browser Anda, masuk ke konsol Anda dan jalankan sesuatu seperti ini dan lihat apa
+
+11:07.280 --> 11:08.000
+yang terjadi.
+
+11:08.000 --> 11:10.170
+Anda akan mendapatkan stack overflow.
+
+11:11.080 --> 11:11.900
+Baiklah.
+
+11:11.920 --> 11:14.320
+Jadi semoga ini masuk akal.
+
+11:14.320 --> 11:20.470
+Mesin javascript yang merupakan mesin V-8 Ancrum memiliki chip memori dan tumpukan panggilan.
+
+11:20.530 --> 11:31.200
+Sekarang javascript adalah single threaded hanya satu pernyataan dieksekusi pada suatu waktu tetapi ada masalah sekarang
+
+11:31.200 --> 11:32.220
+bukan.
+
+11:32.220 --> 11:38.210
+Bagaimana jika y2 adalah tugas besar yang harus kami lakukan.
+
+11:38.380 --> 11:44.420
+Mungkin melalui array yang memiliki jutaan Aietes tetapi akan terjadi di sana.
+
+11:44.460 --> 11:52.020
+Yah kita akan menjalankan konsol log ini maka baris kedua maka itu adalah pekerjaan besar besar kita hanya akan
+
+11:52.020 --> 11:54.950
+bekerja di sana dan membatalkan seperti 3.
+
+11:54.950 --> 12:00.690
+Kami akan membutuhkan waktu yang sangat lama untuk tersesat dan dalam contoh kecil kami itu tidak berarti banyak tetapi
+
+12:00.690 --> 12:05.550
+jika ia memiliki ini di situs Web dengan baik pengguna tidak akan dapat melakukan apa pun.
+
+12:05.610 --> 12:11.330
+Situs web akan membeku sampai tugas itu selesai dan pengguna hanya menunggu di sana.
+
+12:11.370 --> 12:13.330
+Itu tidak terlalu bagus.
+
+12:13.500 --> 12:19.680
+Baik dengan tugas sinkron jika kita memiliki satu fungsi yang membutuhkan banyak waktu, itu akan
+
+12:19.680 --> 12:20.760
+menahan garis.
+
+12:20.790 --> 12:23.100
+Bayangkan sebuah restoran prasmanan tepat.
+
+12:23.190 --> 12:29.610
+Jika semua orang menginginkannya, tetapi Bobbie mengatakan Tunggu sebentar, orang-orang harus terus makan dan meletakkan bacon di piring saya.
+
+12:29.640 --> 12:31.870
+Yah semua orang harus mengantri.
+
+12:32.290 --> 12:38.520
+Jadi sepertinya kita perlu sesuatu yang nonblocking, ingat pernyataan pertama kami yang kami buat di
+
+12:38.820 --> 12:43.420
+video javascript ini sebagai bahasa berulir tunggal yang bisa nonblocking.
+
+12:43.740 --> 12:47.180
+Idealnya kita tidak menunggu hal-hal yang membutuhkan waktu.
+
+12:47.640 --> 12:52.930
+Jadi bagaimana kita melakukan semua ini secara sinkron dengan penyelamatan.
+
+12:53.000 --> 12:59.410
+Pikirkan asynchronous seperti perilaku eksekusi sinkronik sangat bagus karena dapat diprediksi.
+
+13:00.080 --> 13:02.510
+Kita tahu apa yang terjadi terlebih dahulu kemudian apa yang terjadi selanjutnya.
+
+13:02.510 --> 13:03.730
+Apa yang terjadi disana.
+
+13:04.070 --> 13:05.530
+Tapi itu bisa lambat.
+
+13:05.750 --> 13:12.020
+Jadi ketika kita harus melakukan hal-hal seperti pemrosesan gambar atau membuat permintaan melalui jaringan seperti panggilan API dan jangan khawatir
+
+13:12.380 --> 13:15.230
+kita akan membicarakan hal ini di video mendatang.
+
+13:15.230 --> 13:19.010
+Kami membutuhkan sesuatu yang lebih dari sekadar tugas yang disinkronkan, benar.
+
+13:19.100 --> 13:20.520
+Jadi kamu berpikir untuk dirimu sendiri.
+
+13:20.720 --> 13:23.540
+Andre Bagaimana kita melakukan pemrograman asinkron.
+
+13:24.110 --> 13:27.460
+Baiklah saya hapus beberapa kekacauan ini.
+
+13:28.070 --> 13:35.240
+Kita dapat melakukan pemrograman asinkron dengan melakukan sesuatu seperti ini mengatakan time out yang akan kita
+
+13:35.240 --> 13:44.800
+bicarakan adalah fungsi yang ada di dalam browser kita dan memungkinkan kita untuk membuat waktu dan kita dapat memberikan parameter pertama
+
+13:44.800 --> 13:47.750
+adalah fungsi yang ingin kita jalankan.
+
+13:47.860 --> 13:51.030
+Dan kemudian parameter kedua adalah berapa detik kita ingin menunggu.
+
+13:51.040 --> 13:53.300
+Jadi katakanlah saya ingin menunggu dua detik.
+
+13:53.320 --> 13:55.870
+Jadi 200 2000 mili detik.
+
+13:56.290 --> 14:00.750
+Jika saya melakukan ini sekarang, mari kita jalankan di konsol dan lihat apa yang terjadi.
+
+14:07.720 --> 14:10.180
+Nah apa yang baru saja memilikinya.
+
+14:10.560 --> 14:12.510
+Kami memiliki kontra ..
+
+14:12.690 --> 14:13.510
+Satu.
+
+14:14.530 --> 14:20.680
+Kemudian batalkan seperti tiga dan kemudian batalkan log ke dua detik kemudian.
+
+14:21.040 --> 14:28.450
+Sepertinya kita baru saja melewatkan seluruh langkah ini dan kemudian meletakkannya di bagian paling akhir.
+
+14:29.740 --> 14:36.770
+Yah Anda baru saja kayu pemrograman asinkron untuk memahami ini dan apa yang baru saja terjadi.
+
+14:36.970 --> 14:45.950
+Saya perlu membawa Anda ke bagian selanjutnya dan itu agar javascript seperti yang kita tahu dijalankan untuk mesin javascript dengan
+
+14:45.950 --> 14:49.550
+tumpukan memori dan panggil tumpukan untuk dijalankan.
+
+14:49.700 --> 14:57.920
+Kita membutuhkan lebih dari sekedar mesin javascript yang kita butuhkan yang kita sebut lingkungan runtime javascript dan lingkungan
+
+14:58.160 --> 15:03.480
+runtime Javascript juga merupakan bagian dari browser yang termasuk dalam browser.
+
+15:03.710 --> 15:06.640
+Mereka memiliki hal-hal tambahan di atas mesin.
+
+15:06.650 --> 15:12.760
+Mereka memiliki sesuatu yang disebut API web Mari kita panggil kembali Q Dan sebuah loop acara.
+
+15:13.130 --> 15:19.030
+Dan seperti yang Anda lihat di sini kata Time-Out adalah bagian dari API web.
+
+15:19.130 --> 15:22.890
+Secara teknis ini bukan bagian dari javascript.
+
+15:23.030 --> 15:26.250
+Itu apa tapi browser memberi kita untuk digunakan.
+
+15:26.300 --> 15:28.370
+Jadi kita bisa melakukan program asinkron.
+
+15:28.740 --> 15:29.160
+BAIK.
+
+15:29.240 --> 15:31.390
+Jadi perhatikan diagram ini.
+
+15:31.460 --> 15:34.940
+Lihat apakah kita dapat mengetahui apa yang dilakukan kode kita.
+
+15:36.610 --> 15:53.280
+Kita dapat membuat di sini tumpukan panggilan kita sendiri akan memiliki API web dan kemudian kita akan memiliki antrean panggilan balik dan kemudian loop seperti
+
+15:53.310 --> 15:59.320
+yang kita miliki di lingkungan runtime javascript kita.
+
+15:59.350 --> 16:00.560
+Jadi apa yang terjadi di sini.
+
+16:00.610 --> 16:07.470
+Yah pertama-tama kita memiliki konsol log yang masuk ke tumpukan panggilan.
+
+16:08.350 --> 16:10.730
+Dan itu dijalankan.
+
+16:10.960 --> 16:14.720
+Jadi kami masuk log konsol ke browser.
+
+16:15.100 --> 16:17.680
+Kami kemudian mengatur batas waktu.
+
+16:18.830 --> 16:23.190
+Ke dalam tumpukan panggilan kami karena kami menyelesaikan tugas pertama ini, kami akan pergi ke yang kedua.
+
+16:23.680 --> 16:29.390
+Dan apa yang dikatakan batas waktu apa yang akan terjadi dengan baik di tumpukan panggilan akan mengatakan OK saya
+
+16:29.470 --> 16:30.430
+telah mengatur waktu.
+
+16:30.890 --> 16:37.940
+Dan karena kata time out bukanlah bagian dari skrip Joe tetapi bagian dari API web, ia memiliki karakteristik khusus ini.
+
+16:37.940 --> 16:42.590
+Apa yang akan terjadi adalah itu memicu API web.
+
+16:43.840 --> 16:55.030
+Dan mengatakan hei mengatur batas waktu baru saja dipanggil dan karena kami memberi tahu orang besar kita dapat mengeluarkannya dari
+
+16:55.180 --> 16:56.450
+tumpukan panggilan.
+
+16:56.470 --> 17:02.280
+Sekarang web API memulai penghitung waktu di sini penghitung waktu dua detik.
+
+17:02.350 --> 17:06.440
+Ini akan tahu bahwa dalam dua detik Anda harus melakukan sesuatu.
+
+17:07.500 --> 17:18.970
+Dan karena tumpukan panggilan kosong, mesin javascript sekarang masuk ke konsol log 3 dan menjalankan ini.
+
+17:19.130 --> 17:24.510
+Jadi masuk akal saat ini kami telah melakukan satu dan tiga tetapi kami masih mengatakan batas waktu.
+
+17:24.680 --> 17:27.710
+Dua detik di API web.
+
+17:27.980 --> 17:36.620
+Sekarang setelah dua detik ketika batas waktu kami habis, API web akan mengatakan set out time yang oke harus
+
+17:36.620 --> 17:37.240
+dijalankan.
+
+17:37.280 --> 17:38.580
+Mari kita lihat apa isinya.
+
+17:38.690 --> 17:40.760
+Kami juga memiliki kunci konsol.
+
+17:41.000 --> 17:45.270
+Jadi apa yang akan terjadi adalah itu akan mengatakan hei mengatur waktu selesai.
+
+17:46.660 --> 17:56.230
+Kami memiliki panggilan balik dan panggilan balik ini mengatakan kami menambahkan panggilan kembali untuk mengatakan bahwa hei kami harus
+
+17:56.230 --> 18:05.180
+menjalankan sesuatu yang kami siap menjalankannya sekarang bagian terakhir dari peristiwa-peristiwa yang lingkaran acara di sini memeriksa dan
+
+18:05.300 --> 18:10.730
+mengatakan hei adalah tumpukan panggilan kosong dan terus menerus memeriksa.
+
+18:10.730 --> 18:16.220
+Jika tumpukan kosong dan jika tumpukan panggilan kosong dan tidak ada yang berjalan sekarang mesin
+
+18:16.220 --> 18:20.060
+javascript itu akan mengatakan hei kita punya panggilan balik.
+
+18:20.060 --> 18:25.280
+Ini akan memeriksa kode kembali kepada Anda dan mengatakan apa pun di sana karena tumpukan panggilan kosong.
+
+18:25.280 --> 18:28.170
+Kita bisa melempar sesuatu ke sana dan membuatnya bekerja.
+
+18:28.550 --> 18:31.390
+Dalam kasus kami, kami mengatakan oh ya saya lakukan.
+
+18:31.400 --> 18:34.440
+Biarkan saya memasukkan ini ke dalam konsep.
+
+18:34.490 --> 18:43.190
+Jadi sekarang kita memindahkan kode kembali ke tumpukan panggilan dan kemudian kembali ke kita dan dengan menjalankannya kita melihat bahwa
+
+18:43.190 --> 18:45.580
+kita juga memiliki log konsol.
+
+18:45.830 --> 18:55.260
+Jadi itu akan mengatakan membatalkan atau masuk ke itu akan menjalankan fungsi ini dan setelah selesai itu akan mengeluarkannya
+
+18:55.290 --> 18:56.840
+dari tumpukan panggilan.
+
+18:56.910 --> 19:02.900
+Dan lagi kita turun dengan panggilan balik sehingga kita menghapusnya dan itu dia.
+
+19:02.940 --> 19:03.590
+Dilakukan.
+
+19:03.600 --> 19:09.170
+Semuanya kosong dan kami baru saja menjalankan yang tiga ini.
+
+19:09.270 --> 19:15.060
+Ini akan melalui seluruh acara antrian callback API web Lou dan kemudian menjalankan
+
+19:15.120 --> 19:17.530
+log konsol menjadi true.
+
+19:17.700 --> 19:19.380
+Itu banyak informasi.
+
+19:19.470 --> 19:25.320
+Jadi Anda mungkin perlu menonton itu beberapa kali, tetapi mudah-mudahan itu masuk akal bagi Anda mengapa
+
+19:25.320 --> 19:26.920
+kami memperhatikan perilaku ini.
+
+19:27.480 --> 19:31.200
+Dan saya ingin menantang pemahaman Anda di sini.
+
+19:31.440 --> 19:37.110
+Mengetahui apa yang Anda ketahui dan apa yang saya katakan kepada Anda apa yang terjadi jika saya berubah menjadi nol.
+
+19:37.410 --> 19:39.370
+Itu berarti nol detik.
+
+19:40.270 --> 19:43.470
+Saya akan memberi Anda waktu sejenak untuk memikirkan apa yang akan terjadi.
+
+19:43.600 --> 19:45.510
+Dan kemudian kita akan mencoba ini.
+
+19:45.880 --> 19:54.320
+Ketika saya menghapus konsol salin dan tempel ini dan jalankan dengan baik satu tiga dan dua.
+
+19:54.400 --> 19:55.570
+Apakah Anda menebak dengan benar?
+
+19:56.440 --> 19:59.160
+Sekarang pikirkan mengapa itu terjadi.
+
+19:59.350 --> 20:04.610
+Meskipun ini nol detik, prosesnya masih berjalan.
+
+20:04.690 --> 20:11.970
+Itu masih masuk ke API web dan kemudian antrean panggilan balik dan kemudian mereka berakhir.
+
+20:12.070 --> 20:19.870
+Dan pada saat itu terjadi, tumpukan panggilan sudah pindah ke konsol berjalan tiga dan hanya setelah konsol
+
+20:19.870 --> 20:26.620
+log 3 dilakukan dan tumpukan panggilan kosong loop acara mengatakan oh yeah kita bisa
+
+20:26.620 --> 20:31.410
+memanggil membatalkan log ke mudah-mudahan itu masuk akal kamu.
+
+20:31.440 --> 20:36.580
+Dan jika Anda dapat memahami bahwa sebenarnya Anda akan memiliki banyak orang yang menyewa
+
+20:36.580 --> 20:41.830
+untuk peran javascript, ajukan pertanyaan seperti ini pada sebuah wawancara dan Anda harus menjelaskan mengapa demikian.
+
+20:41.830 --> 20:47.890
+Jadi saya harap itu masuk akal bagi Anda dan Anda dapat menggunakannya untuk keuntungan Anda pada wawancara berikutnya.
+
+20:47.920 --> 20:53.770
+Jadi mari kita rekap.
+
+20:53.980 --> 21:00.370
+Jika Anda ingin memuat tweet terbaru Anda ke halaman web dan Anda melakukan ini secara sinkron maka pengunjung ke situs
+
+21:00.370 --> 21:04.370
+Anda tidak akan dapat melakukan apa pun hingga tweet tersebut dimuat.
+
+21:04.630 --> 21:08.690
+Ini dapat menyebabkan penundaan yang lama bahkan sebelum mereka melihat isi situsnya.
+
+21:08.710 --> 21:12.610
+Mereka mungkin tidak dapat mengklik di mana saja dan halaman tersebut akan terasa beku
+
+21:12.760 --> 21:14.620
+Bukan pengalaman pengguna yang sangat bagus.
+
+21:15.440 --> 21:19.230
+Cara lain untuk memikirkan hal ini adalah memanggil guru Anda dengan sebuah pertanyaan.
+
+21:20.280 --> 21:23.160
+Cara sinkron adalah Anda memanggil guru.
+
+21:23.160 --> 21:30.450
+Anda menunggu di telepon sampai guru menjawab telepon dan mengajukan pertanyaan kepadanya dan mudah-mudahan mendapat
+
+21:30.450 --> 21:31.100
+jawaban.
+
+21:31.230 --> 21:33.950
+Jadi, Anda membiarkan telepon berdering sampai dia mengangkatnya.
+
+21:34.110 --> 21:37.420
+Tetapi sementara itu Anda tidak melakukan hal lain.
+
+21:37.710 --> 21:41.750
+Asinkron berarti Anda mengirim teks ke guru dengan pertanyaan.
+
+21:42.030 --> 21:48.450
+Dan kemudian ketika guru memiliki waktu atau akan menanggapi Anda dan memanggil Anda dengan jawaban
+
+21:48.450 --> 21:56.640
+sehingga Anda dapat melakukan hal-hal lain di antara javascript tidak sinkron ketika Anda dapat meninggalkannya pesan dan Colback memberi
+
+21:56.820 --> 22:00.420
+tahu Anda Hei Pak guru memiliki pesan untuk Anda saat Anda tidak terlalu sibuk.
+
+22:02.060 --> 22:07.760
+Dan itulah mengapa kami menyebutnya fungsi callback dan kubus panggilan balik yang kami panggil untuk memberi
+
+22:07.760 --> 22:11.140
+tahu mereka bahwa ada beberapa hal yang menunggu Anda.
+
+22:11.180 --> 22:16.410
+Sekarang kita lihat di sini bahwa kita memiliki batas waktu Dohm Ajax dan ada beberapa hal lainnya.
+
+22:16.580 --> 22:20.430
+Tetapi Anda juga melihat di Colback Anda memiliki kantong pada saat selesai.
+
+22:20.690 --> 22:25.350
+Apakah Anda ingat pendengar acara dengan baik dengan pendengar acara.
+
+22:25.370 --> 22:32.630
+Kami memiliki sesuatu seperti elemen dan kami menambahkan pendengar acara.
+
+22:33.290 --> 22:41.140
+Dan dalam saraf ini bisa mengatakan mendengarkan klik dan Anda akan memiliki fungsi yang mungkin
+
+22:41.340 --> 22:47.780
+hanya klik konsol log akan mirip dengan cara pemrograman yang tidak sinkron.
+
+22:47.790 --> 22:52.110
+Kami telah membuat fungsi klik ini dan sekarang kami hanya mendengarkannya.
+
+22:52.170 --> 22:55.410
+Dan setiap kali klik terjadi di halaman web.
+
+22:55.440 --> 23:06.210
+Jadi pada Dom Yah kita menjalankan fungsi callback yang konsol log klik kanan.
+
+23:06.510 --> 23:14.060
+Jadi untuk menyelesaikannya ketika asinkron terjadi, itu sering terjadi ketika Anda mencoba dan berbicara di antara mesin-mesin
+
+23:14.060 --> 23:21.170
+seperti berbicara dengan basis data membuat jaringan meminta pemrosesan gambar membaca file dan jangan khawatir kita
+
+23:21.170 --> 23:23.410
+akan melalui video impeach ini.
+
+23:23.690 --> 23:31.700
+Tetapi untuk merangkum apa yang baru saja kita pelajari, Javascript adalah bahasa berulir tunggal yang dapat nonblocking. Ia
+
+23:31.700 --> 23:39.410
+memiliki satu panggilan stack dan melakukan satu hal pada satu waktu agar tidak memblokir utas tunggal.
+
+23:39.410 --> 23:48.770
+Dapat asinkron dengan fungsi panggilan balik dan tindakan Colmar ini dijalankan di latar belakang melalui antrian panggilan balik
+
+23:48.770 --> 23:53.740
+dan kemudian diubah untuk membawanya kembali ke tumpukan panggilan.
+
+23:53.770 --> 24:00.720
+Jadi lain kali Anda ditanya apa perbedaan antara burger yang sinkron atau sinkron.
+
+24:00.940 --> 24:02.830
+Atau bagaimana cara kerja javascript.
+
+24:02.860 --> 24:06.290
+Anda harus memiliki sedikit lebih percaya diri untuk menjawab pertanyaan itu.
+
+24:06.690 --> 24:08.340
+Dan saya harap ini membantu.
+
+24:09.130 --> 24:10.260
+Saya melihat di video berikutnya.

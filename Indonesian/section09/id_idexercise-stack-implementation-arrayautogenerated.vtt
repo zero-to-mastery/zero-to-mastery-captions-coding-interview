@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.020 --> 00:02.310
+Selamat datang kembali.
+
+00:02.310 --> 00:10.440
+Kami baru saja mengimplementasikan tumpukan kami sendiri dan mudah-mudahan Anda juga dapat membuat kode bersama dalam bahasa Anda sendiri.
+
+00:10.440 --> 00:19.480
+Sekarang inilah tantangan saya berikutnya untuk Anda bagaimana jika kita menggunakan perlombaan untuk tumpukan ini sampai saat ini atau apa yang
+
+00:19.480 --> 00:24.580
+telah kami kodekan telah dengan daftar tertaut yang telah kami buat.
+
+00:24.580 --> 00:28.330
+Bagaimana Anda mengubah kode jika Anda ingin menerapkan ini dalam sebuah array.
+
+00:29.270 --> 00:35.360
+Dan petunjuknya di sini adalah bahwa itu akan menjadi super super sederhana itu akan melibatkan
+
+00:35.360 --> 00:40.560
+penghapusan banyak kode ini karena sementara array sudah memiliki PUSH dan POP.
+
+00:40.720 --> 00:48.260
+Jadi tantangan saya kepada Anda adalah mengubah struktur data tumpukan ini untuk menggunakan array alih-alih daftar yang ditautkan.
+
+00:49.040 --> 00:52.190
+Selamat mencoba dan saya akan melihat di video berikutnya.
+
+00:52.280 --> 00:52.550
+Buh-Bye.

@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.380 --> 00:02.610
+Welcome back.
+
+00:02.610 --> 00:09.550
+Up until this point we talked about singly linked list and we should have a good idea of how they work.
+
+00:09.990 --> 00:13.530
+But what is a doubly linked list.
+
+00:14.440 --> 00:19.500
+Doubly linked list is similar except that it links to the node before it.
+
+00:19.660 --> 00:21.730
+Let's have a look at a little animation here.
+
+00:22.670 --> 00:25.160
+We have a head node.
+
+00:25.220 --> 00:26.860
+Let's say we just have one node.
+
+00:26.900 --> 00:28.730
+You see that we have an extra block here.
+
+00:28.730 --> 00:30.670
+We're not really sure what this does yet.
+
+00:30.920 --> 00:36.300
+Now if we wanted to add a new block to this list a doubly linked list.
+
+00:36.500 --> 00:39.710
+And we wanted to add a node that contains the value 10.
+
+00:40.100 --> 00:46.210
+Well we would now have a pointer to the next node.
+
+00:46.670 --> 00:48.390
+We'd also have a pointer.
+
+00:48.470 --> 00:56.240
+This is the new part to the previous node and the new node is going to point to no.
+
+00:56.350 --> 01:02.900
+And this now becomes the tail if we added a nother node.
+
+01:03.500 --> 01:13.970
+Well we'd have the 10 node point to the new node we'd also have the new node point to the previous node
+
+01:14.810 --> 01:20.150
+and then finally that becomes a tail which means it points to no.
+
+01:20.290 --> 01:22.770
+And that's what a doubly linked list does.
+
+01:22.810 --> 01:31.240
+It has an extra little block here an extra piece of data that also links to the previous node.
+
+01:31.240 --> 01:34.540
+Now why do you think that's important.
+
+01:34.540 --> 01:39.640
+Doubly linked lists allow us to traverse our list backwards.
+
+01:40.000 --> 01:46.030
+So up until now we were only able to go from the beginning all the way to the end with a doubly linked
+
+01:46.030 --> 01:46.390
+list.
+
+01:46.390 --> 01:49.920
+I can start from the end and go backwards.
+
+01:50.850 --> 01:58.970
+In a singly linked list there is no way for me to know what comes before 10 what comes before this note.
+
+01:59.010 --> 02:01.800
+In a doubly linked list that is no problem.
+
+02:01.800 --> 02:09.150
+It's exactly the same as the singly linked list but contains this additional pointer to the previous
+
+02:09.150 --> 02:16.170
+node and searching through a doubly linked list can actually be a little bit more efficient.
+
+02:16.980 --> 02:23.730
+And look up can technically be all of and divide by two because we can start at both ends and if we
+
+02:23.730 --> 02:33.720
+know in which half of the list what we're looking for is we can pick the optimum place to start.
+
+02:33.720 --> 02:36.210
+Now look up here is still all of.
+
+02:36.240 --> 02:44.520
+And because if you remember with our rule book with 0 0 0 12 and divided by 2 is still all then but
+
+02:44.610 --> 02:47.810
+it's still technically a little bit faster.
+
+02:47.880 --> 02:53.940
+Now the downside to a doubly linked list as you can see is that we might have to hold a little bit more
+
+02:53.940 --> 03:00.930
+memory and additional block of memory and we have a video talking about when to use doubling list and
+
+03:00.930 --> 03:02.460
+a singly linked list.
+
+03:02.610 --> 03:09.410
+Later on but to understand this properly I think we should convert our singly linked lists that we created
+
+03:09.440 --> 03:13.210
+in the previous videos to a doubly linked list.
+
+03:13.280 --> 03:15.440
+So let's go have a look at how to do that.
+
+03:15.680 --> 03:17.060
+I'll see in the next one.
+
+03:17.180 --> 03:17.430
+Babai.

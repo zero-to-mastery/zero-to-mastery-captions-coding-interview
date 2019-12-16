@@ -1,0 +1,214 @@
+WEBVTT
+
+00:01.100 --> 00:02.000
+Selamat datang kembali.
+
+00:02.120 --> 00:05.920
+Mari kita terapkan satu fitur terakhir di tabel hash kita di sini.
+
+00:06.050 --> 00:18.290
+Saya ingin membuat sesuatu yang disebut KIIS dan kunci memungkinkan kita untuk beralih atau mengulangi semua kunci tabel hash
+
+00:18.290 --> 00:19.350
+kita.
+
+00:19.430 --> 00:23.990
+Dalam hal ini anggur dan apel dan mari tambahkan beberapa lagi hanya untuk bersenang-senang.
+
+00:23.990 --> 00:27.130
+Jadi kita lihat apa yang terjadi.
+
+00:27.330 --> 00:31.160
+Itu jeruk dan kami tidak terlalu menyukainya jadi kami hanya akan menambahkan dua.
+
+00:32.450 --> 00:45.030
+Sekarang jika kita menjalankan KIIS Idealnya itu akan beralih dan meludahkan apel dan jeruk anggur untuk kita lihat apa yang kita
+
+00:45.030 --> 00:47.460
+butuhkan untuk berbelanja.
+
+00:47.650 --> 00:50.090
+Bagaimana cara kita membangun ini.
+
+00:50.260 --> 00:53.250
+Yah karena kita akan melakukan semacam perulangan.
+
+00:53.350 --> 00:59.300
+Saya akan memulai dengan membuat konstanta mari kita menyebutnya array teaser.
+
+01:00.010 --> 01:04.030
+Dan ini akan menjadi array kosong di sini.
+
+01:04.050 --> 01:10.850
+Kita akan mengulang jadi untuk LeT saya menelepon 0 dan selama saya akan
+
+01:13.780 --> 01:18.040
+menjadi kurang dan panjang data ini kita akan
+
+01:20.990 --> 01:30.170
+bertambah pada akhirnya di sini kita mengatakan kita ingin mengulang semua 50 item spasi semua rak satu per
+
+01:30.170 --> 01:31.340
+satu.
+
+01:31.340 --> 01:32.550
+Kita akan mengulanginya.
+
+01:32.690 --> 01:34.700
+Ya itu banyak iterasi.
+
+01:35.120 --> 01:42.450
+Dan jika di rak ada semacam data.
+
+01:42.450 --> 01:48.600
+Jika itu tidak terdefinisi sepenuhnya kosong dan ada sesuatu yang berharga bagi kita yang ingin kita lihat.
+
+01:48.600 --> 01:56.730
+Karena ingat kami mengalokasikan 50 ruang di rak tetapi kami hanya menempatkan 3 item atau tiga titik data
+
+01:56.730 --> 01:58.040
+pada itu.
+
+01:58.050 --> 02:07.560
+Jadi jika ada sesuatu dalam ruang memori dalam kasus itu kita bisa mengatakan Kuzari dot
+
+02:07.560 --> 02:13.350
+mendorong data titik ini dan kita ambil indeksnya.
+
+02:13.350 --> 02:17.200
+Jadi IRA pertama atau array yang ada di sini.
+
+02:17.670 --> 02:20.350
+Dan kemudian kita ingin mengambil apel dengan benar.
+
+02:20.820 --> 02:28.670
+Nah jika saya lakukan nol di sini dan sekarang tekan menjalankan apa yang kita harus mengembalikan sesuatu.
+
+02:28.910 --> 02:30.620
+Ayo kembali ke sini.
+
+02:30.770 --> 02:33.360
+Kunci maaf di akhir semua ini.
+
+02:33.380 --> 02:44.460
+Jadi setelah semua loop kita hanya akan mengatakan array kembali kunci untuk menjalankan ini saya mendapatkan apel dan jeruk
+
+02:44.460 --> 02:45.440
+anggur.
+
+02:45.810 --> 02:46.770
+Itu luar biasa.
+
+02:46.780 --> 02:53.360
+Tapi saya hanya ingin apel anggur dan jeruk untuk melihat apa yang terjadi di sini
+
+02:53.460 --> 03:06.810
+Mari kita konsol log data titik tinggi ini yang sedang kita lakukan di sini sementara kita mendorong dan jika saya
+
+03:06.810 --> 03:19.020
+menjalankan ini kita melihat bahwa kita mendapatkan kenaikan dalam array karena ingat kita memiliki satu array besar.
+
+03:19.060 --> 03:26.440
+Dan setiap kali kita membuat ruang rak baru kita harus memiliki array baru yang kita buat dan
+
+03:26.440 --> 03:27.410
+kita mendorongnya.
+
+03:27.490 --> 03:30.300
+Jadi sedikit gotcha di sini.
+
+03:30.340 --> 03:31.480
+Kita
+
+03:34.890 --> 03:39.050
+harus mengatakan nol yang menghilangkan ganjil atau ulang.
+
+03:39.300 --> 03:46.220
+Dan sekarang nol untuk mengambil indeks pertama array ini.
+
+03:50.210 --> 03:59.110
+Jadi jika kita menambahkan nol sekarang di sana untuk mengakses indeks pertama dari array kita klik run.
+
+03:59.190 --> 03:59.770
+Lihat itu.
+
+03:59.910 --> 04:02.560
+Kami mendapat apel dan jeruk anggur.
+
+04:02.970 --> 04:03.600
+Sudah selesai dilakukan dengan baik.
+
+04:03.600 --> 04:06.930
+Kami baru saja mengimplementasikan tabel hash.
+
+04:07.160 --> 04:11.790
+Dan Anda mungkin telah memperhatikan sesuatu kelemahan dari tabel hash.
+
+04:11.960 --> 04:14.770
+Kami harus mengulang di sini, benar.
+
+04:14.810 --> 04:21.540
+Kami memiliki perulangan for loop melalui seluruh ruang memori untuk menemukan kunci kami.
+
+04:21.680 --> 04:26.840
+Itu jauh lebih mudah dengan balapan dengan kenaikan gaji kami hanya akan memiliki tiga
+
+04:26.840 --> 04:29.850
+item dan kami akan mengulang tiga kali.
+
+04:29.900 --> 04:32.570
+Di sini kami berputar lebih dari 50 kali.
+
+04:32.570 --> 04:35.100
+Bayangkan jika kita punya 500.
+
+04:35.120 --> 04:36.830
+Itu bahkan lebih.
+
+04:36.830 --> 04:38.190
+Betapa asyiknya ini.
+
+04:38.210 --> 04:46.370
+Kita mulai belajar bagaimana berbagai hal bekerja di bawah tenda sehingga sekarang kita memiliki ide hmm
+
+04:46.640 --> 04:53.210
+mungkin jika kita menggunakan jenis objek metode ini mungkin bukan ide terbaik.
+
+04:53.210 --> 04:57.450
+Dan itu satu kelemahan dari objek atau tabel hash di javascript.
+
+04:57.520 --> 05:08.450
+Kita dapat menggunakan sesuatu seperti dalam loop untuk mengulang item dalam objek yang sekali lagi sangat lambat.
+
+05:09.250 --> 05:21.060
+Dan seperti yang Anda sadari tidak ada jaminan pemesanan setiap kali kami hanya menambahkan sesuatu ke alamat kami.
+
+05:21.210 --> 05:29.310
+Tetapi ketika kami mengambil item dari alamat kami hanya pergi dari 0 hingga 50 meskipun item hanya ditempatkan secara acak
+
+05:29.310 --> 05:30.930
+di rak yang berbeda.
+
+05:30.990 --> 05:34.460
+Tapi saya harap sekarang Anda benar-benar bisa melihat cara kerjanya.
+
+05:34.500 --> 05:39.240
+Kami menempatkan barang-barang secara acak di rak, tetapi ketika kami mengambilnya, barang-barang itu sudah dipesan.
+
+05:41.290 --> 05:48.520
+Dan itu sebabnya menguraikan hal-hal meskipun Anda kemungkinan besar tidak akan mendapatkan ini diminta dalam sebuah wawancara.
+
+05:48.610 --> 05:55.660
+Mengetahui cara kerja memungkinkan Anda untuk membicarakannya dengan cerdas dan saya berharap latihan ini telah melakukannya
+
+05:55.660 --> 05:56.920
+untuk Anda.
+
+05:56.950 --> 06:03.640
+Saya akan membiarkan ini untuk Anda mainkan dan mungkin menambahkan metode berbeda seperti nilai
+
+06:03.910 --> 06:06.550
+yang mengambil nilai alih-alih kunci.
+
+06:06.550 --> 06:10.990
+Tetapi untuk sekarang mari kita selesaikan pembicaraan kita tentang tabel hash dengan membandingkannya dengan ras.

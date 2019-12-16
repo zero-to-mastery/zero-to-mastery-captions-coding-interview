@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.980 --> 00:01.820
+Ben tornato.
+
+00:02.190 --> 00:09.540
+Iniziamo con l'approccio iterativo che non è ricorsivo se vogliamo eseguire la funzione diciamo
+
+00:09.540 --> 00:20.940
+find factorial iterative five mentre possiamo creare una variabile diciamo il cancro e per ora questa risposta sarà una e tutto
+
+00:20.940 --> 00:31.980
+quello che faremo è fare un ciclo for dirà che ho un costo zero o nel nostro caso per semplificare
+
+00:31.980 --> 00:33.510
+le cose.
+
+00:33.570 --> 00:43.040
+Partiamo alle due e spiegherò in un secondo perché vogliamo iniziare un due per
+
+00:43.040 --> 00:50.580
+dire che è inferiore al numero e quindi incrementeremo di 1.
+
+00:50.640 --> 00:55.480
+Ora, perché stiamo iniziando a aggiungere.
+
+00:55.600 --> 00:57.510
+Potresti notare una scorciatoia qui.
+
+00:58.250 --> 01:08.520
+1 fattoriale è solo un due fattoriale è due volte 1 che è solo due.
+
+01:08.560 --> 01:11.210
+Quindi questi ultimi due bit.
+
+01:11.290 --> 01:18.790
+Se qualcuno dice un fattoriale o due fattoriali che semplicemente restituiscono il numero che hanno inserito perché
+
+01:18.790 --> 01:22.890
+non c'è un vero calcolo che dobbiamo fare.
+
+01:22.960 --> 01:33.440
+Quindi questa è una piccola scorciatoia, quindi evitiamo loop extra, ma solo dicendo che se il numero che l'utente
+
+01:33.440 --> 01:36.200
+inserisce è diciamo 2.
+
+01:36.200 --> 01:39.750
+Quindi questo è due non è maggiore del numero due.
+
+01:41.080 --> 01:49.960
+Il modo in cui ce l'abbiamo adesso se qualcuno entra in modo fattoriale iterativo 2 torneremo 1,
+
+01:49.990 --> 02:00.520
+ma possiamo solo dire forse un semplice controllo condizionale che dice che se il numero è uguale a due, diremo semplicemente
+
+02:00.520 --> 02:04.530
+che la risposta è uguale a 2.
+
+02:04.630 --> 02:14.210
+In questo modo, se eseguo questa funzione e dico solo ne ottengo due se dico uno ne ottengo uno e ci sono altri
+
+02:14.210 --> 02:16.740
+controlli che possiamo fare ovviamente.
+
+02:17.180 --> 02:19.490
+Ma per il nostro caso questo è abbastanza buono.
+
+02:19.490 --> 02:22.270
+Diamo un'occhiata a cosa possiamo fare all'interno di qui.
+
+02:23.270 --> 02:33.740
+Bene, il modo in cui funziona factorial è semplicemente dire che la risposta equivale a tempi di risposta.
+
+02:33.960 --> 02:41.950
+In modo che se clicco Quraan qui e facciano cinque ottengo 24 che in realtà non
+
+02:42.190 --> 02:50.970
+è la risposta giusta perché cinque volte quattro è 20 volte tre è chiaramente chiaramente superiore a 24.
+
+02:51.370 --> 02:56.800
+E questo a causa di un piccolo errore, qui vogliamo assicurarci che questo sia uguale perché
+
+02:56.800 --> 02:58.900
+vogliamo includere il numero cinque.
+
+02:59.260 --> 03:09.800
+Quindi se corro di nuovo, ottengo centoventi che è la risposta giusta cinque volte quattro è 20 volte.
+
+03:09.940 --> 03:20.940
+Il numero tre è 60 volte due è 120 volte uno è solo 120 perfetto.
+
+03:21.280 --> 03:24.650
+Quindi spero che la risposta sia corretta.
+
+03:25.570 --> 03:27.540
+Che dire dell'approccio ricorsivo.
+
+03:29.750 --> 03:41.910
+Nella versione ricorsiva faremo un semplice controllo dicendo se il numero è uguale a 2 e possiamo fare anche altri
+
+03:41.910 --> 03:42.550
+controlli.
+
+03:42.570 --> 03:46.590
+Ma per ora dovrebbe essere sufficiente per noi creare un caso base.
+
+03:46.590 --> 03:55.570
+Quindi, se il numero arriva a 2, ritorneremo solo al nostro caso base.
+
+03:55.600 --> 03:57.120
+È così che ci fermiamo.
+
+03:57.190 --> 04:09.360
+In seguito, restituiremo la nostra versione ricorsiva che sarà semplicemente il numero moltiplicato per la funzione.
+
+04:09.470 --> 04:16.050
+E in questa funzione diremo solo il numero uno.
+
+04:16.460 --> 04:17.830
+E questa è la chiave qui.
+
+04:18.020 --> 04:25.500
+Vogliamo sempre scendere sempre più in basso fino a raggiungere il caso base.
+
+04:25.520 --> 04:29.870
+Quindi se premo correre qui facciamo ricorsivo
+
+04:33.010 --> 04:41.570
+questa volta, ho intenzione di spostarlo qui e se avessi corso ne ho anche 120.
+
+04:41.750 --> 04:44.380
+E questo è un po 'difficile da avvolgere.
+
+04:44.450 --> 04:50.540
+Quindi potresti voler copiare questo codice e aprire gli strumenti per gli sviluppatori di Google Chrome come ti ho mostrato
+
+04:50.540 --> 04:52.190
+e procedi passo dopo passo.
+
+04:52.280 --> 04:57.680
+Ma se iniziamo con il numero cinque qui bene ce ne sono cinque uguali.
+
+04:57.750 --> 04:58.280
+No.
+
+04:58.400 --> 05:11.330
+Quindi diremo cinque volte fattoriali per essere la nostra risposta, proprio come il diagramma che ti ho mostrato.
+
+05:11.740 --> 05:22.810
+E continuiamo ad andare avanti fino a quando non colpiamo il caso base del numero uguale a.
+
+05:22.930 --> 05:29.430
+Ora un ultimo bit, cosa ne pensi della complessità temporale di queste due funzioni.
+
+05:30.590 --> 05:38.740
+Bene, si usa un ciclo for con il ciclo che è il numero associato ad esso.
+
+05:39.020 --> 05:44.970
+E qui stiamo facendo un po 'di scorciatoia, quindi è tecnicamente meno che e, ma
+
+05:45.140 --> 05:48.530
+a causa delle nostre grandi regole, questa sarà comunque
+
+05:51.350 --> 05:52.730
+una funzione ricorsiva.
+
+05:52.750 --> 05:55.280
+Se guardiamo a questo stiamo procedendo in loop.
+
+05:55.330 --> 05:56.540
+Quante volte.
+
+05:57.130 --> 06:03.640
+Bene, stiamo chiamando la funzione funzione trovare ricorsivo ricorsivo fattoriale lo stesso numero di
+
+06:03.700 --> 06:05.760
+volte del numero stesso.
+
+06:05.770 --> 06:12.350
+Quindi anche questo diventa così se hai questa domanda.
+
+06:12.370 --> 06:13.080
+Buon lavoro.
+
+06:13.090 --> 06:14.010
+È difficile.
+
+06:14.020 --> 06:17.430
+Se non ti sei preoccupato ne abbiamo un altro in arrivo.
+
+06:17.500 --> 06:18.830
+Vedrò nel prossimo.
+
+06:18.960 --> 06:19.190
+Babai.

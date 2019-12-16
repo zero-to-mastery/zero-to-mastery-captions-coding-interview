@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.910 --> 00:07.810
+Selamat datang kembali seperti yang saya sebutkan di video sebelumnya sebenarnya ada dua jenis perlombaan.
+
+00:07.830 --> 00:13.820
+Satu disebut statis dan yang lainnya dinamis.
+
+00:13.830 --> 00:16.940
+Sekarang apa bedanya keduanya.
+
+00:16.940 --> 00:26.950
+Yah satu-satunya batasan statis atau ras adalah bahwa mereka tetap dalam ukuran yang berarti Anda perlu menentukan jumlah
+
+00:26.950 --> 00:30.940
+elemen yang akan disimpan array Anda sebelumnya.
+
+00:31.810 --> 00:39.490
+Jadi dalam hal ini jika ini adalah array statis saya akan mengatakan membuat array tujuh
+
+00:39.760 --> 00:50.740
+item mengetahui sebelumnya bahwa dalam daftar belanjaan saya, saya hanya akan memiliki Max tujuh item karena array dialokasikan di blok memori yang
+
+00:50.740 --> 00:53.390
+berdekatan ketika mereka dibuat .
+
+00:53.720 --> 01:01.810
+Tidak ada jaminan bahwa setelah kami mengalokasikan 7 rak memori yang Anda dapat terus
+
+01:02.680 --> 01:10.830
+menambahkan hal-hal terutama untuk menyelesaikan masalah ini dengan array statis yang mengharuskan kami untuk mengatakan sebelumnya.
+
+01:10.910 --> 01:21.500
+Hei, saya hanya ingin 7 rak memori dengan ras dinamis dan array dinamis memungkinkan kami untuk menyalin dan membangun kembali
+
+01:21.560 --> 01:26.690
+array di lokasi baru yang memiliki lebih banyak memori.
+
+01:26.690 --> 01:34.590
+Jika kita menginginkan lebih banyak memori, misalnya dengan array statis kita jika kita menyadari bahwa kita lupa item lain dalam daftar kita
+
+01:34.590 --> 01:36.820
+dan kita membutuhkan 8 item.
+
+01:37.050 --> 01:42.080
+Apa yang terjadi adalah kita menyalin seluruh array ini.
+
+01:42.180 --> 01:53.380
+Kami mengalokasikan 14 blok memori dan menempelkan daftar ini ditambah item kedelapan ke lokasi baru itu.
+
+01:53.460 --> 02:00.130
+Biarkan saya menunjukkan kepada Anda bagaimana ini bekerja dengan kode yang Anda lihat dalam bahasa seperti C ++.
+
+02:00.180 --> 02:08.130
+Biarkan saya gulir ke bawah di sini di C ++ yang memiliki array statis untuk membuat array.
+
+02:08.130 --> 02:09.770
+Anda melakukan sesuatu seperti ini.
+
+02:11.360 --> 02:18.460
+Anda akan mengatakan int a.
+
+02:18.560 --> 02:24.900
+Dan ini mengatakan saya ingin array baru yang memiliki ruang 20 item.
+
+02:26.690 --> 02:28.180
+Atau kita bisa melakukan sesuatu seperti.
+
+02:28.240 --> 02:33.140
+Int b.
+
+02:33.290 --> 02:40.750
+Dan kemudian mengisi array lima item dengan 1 2 3 4 5 integer.
+
+02:40.850 --> 02:42.830
+Itu adalah singkatan dari angka.
+
+02:43.770 --> 02:51.420
+Dan karena ini dan karena ini adalah array statis agar kita dapat menambahkan enam
+
+02:51.510 --> 03:00.560
+item di sini, kita perlu menyalin seluruh array ini dan memindahkannya ke area memori yang sama sekali berbeda.
+
+03:01.220 --> 03:03.680
+Untuk menciptakan ruang untuk itu.
+
+03:03.830 --> 03:11.460
+Sekarang untungnya bagi kami ketika saya menunjukkan kepada Anda dengan javascript bagaimana melakukan ini dengan baik, kami tidak perlu
+
+03:11.460 --> 03:18.640
+khawatir tentang hal itu, apakah kita dalam contoh javascript kami tidak pernah benar-benar mengalokasikan memori dan itu
+
+03:18.700 --> 03:27.850
+karena dalam javascript dan bahasa lain seperti Python di mana Anda memiliki daftar dan daftar susunan di Jawa mereka bekerja seperti array dinamis.
+
+03:28.060 --> 03:35.070
+Mereka secara otomatis mengalokasikan memori sesuai dengan peningkatan ukuran array.
+
+03:35.500 --> 03:40.470
+Jadi langsung saja Anda berpikir array dinamis jauh lebih baik lebih mudah.
+
+03:40.480 --> 03:46.800
+Saya tidak perlu berpikir tentang memori karena pengubahan ukuran otomatis dan itu menjadi diskusi mengelola
+
+03:46.800 --> 03:51.570
+memori yang diizinkan oleh bahasa tingkat rendah seperti C ++.
+
+03:51.750 --> 03:57.780
+Sementara bahasa tingkat yang lebih tinggi seperti javascript memungkinkan kami untuk tidak memikirkan memori dan
+
+03:57.780 --> 03:59.790
+membiarkan mesin mengurusnya untuk Anda.
+
+03:59.790 --> 04:06.750
+Ada saat-saat di mana Anda mungkin ingin mengelola memori Anda dan saat-saat di mana Anda tidak perlu berdasarkan
+
+04:06.750 --> 04:07.970
+pada kebutuhan Anda.
+
+04:08.280 --> 04:13.950
+Jelas memiliki lebih banyak kontrol atas memori memungkinkan Anda untuk benar-benar men-tweak hal-hal dan membuat segalanya lebih cepat dan itu
+
+04:13.950 --> 04:18.420
+sebabnya bahasa seperti C ++ bisa jauh lebih cepat daripada bahasa yang lebih tinggi.
+
+04:18.420 --> 04:23.820
+Bahasa tingkat yang lebih tinggi seperti javascript tetapi kita tidak perlu membahasnya.
+
+04:24.170 --> 04:29.230
+Apa yang ingin kita dapatkan dari pelajaran ini adalah bahwa array dinamis berkembang saat Anda menambahkan lebih banyak elemen.
+
+04:29.330 --> 04:35.660
+Jadi Anda tidak perlu menentukan ukuran sebelumnya, tetapi Anda mungkin telah memperhatikan sesuatu dengan array
+
+04:35.660 --> 04:36.270
+dinamis.
+
+04:37.810 --> 04:45.130
+Anda lihat di sini bagaimana saya ada benarnya sama dengan perintah push yang kita lakukan
+
+04:45.130 --> 04:46.660
+dalam pelajaran sebelumnya.
+
+04:46.930 --> 04:52.670
+Tapi saya punya bintang di sini yang mengatakan itu bisa menjadi 0 mengapa itu.
+
+04:53.030 --> 05:01.560
+Nah jika kita mengingat array kita dan mari kita hapus item tambahan di sini yang
+
+05:01.560 --> 05:15.460
+tidak kita butuhkan, jadi katakan saja abcd jika di bawah tudung javascript dan mesin kami hanya membuat empat blok memori untuk array ini dan
+
+05:15.460 --> 05:23.170
+kami menambahkan huruf lain di bawah kap karena ini adalah array dinamis.
+
+05:23.270 --> 05:26.140
+Ini akan berulang item ini.
+
+05:26.330 --> 05:31.360
+Salin dan pindahkan ke lokasi lain dengan.
+
+05:31.390 --> 05:34.310
+Sekarang delapan blok ruang.
+
+05:35.200 --> 05:37.660
+Sehingga kita dapat terus menambahkan ke sini.
+
+05:39.450 --> 05:47.850
+Dan Anda lihat di sini karena kami melakukan perulangan ini operasi jadi berakhir dan itu sesuatu yang perlu
+
+05:47.850 --> 05:50.750
+diingat meskipun itu detail kecil
+
+05:51.030 --> 05:56.070
+Adalah baik untuk mengetahui bagaimana berbagai hal bekerja di bawah tenda
+
+05:56.070 --> 06:03.330
+dan sebagian besar waktu dengan bahasa yang Anda gunakan dan selama wawancara Anda akan berbicara tentang array dinamis
+
+06:03.660 --> 06:10.020
+dan Anda tidak perlu khawatir tentang mengalokasikan memori dan memikirkan kemungkinan Anda mungkin harus menyalin array.
+
+06:10.110 --> 06:16.830
+Itu level yang sangat rendah tetapi saya ingin menunjukkan kepada Anda bagaimana mereka bekerja sehingga Anda memiliki dasar-dasar itu
+
+06:16.850 --> 06:17.400
+maju.
+
+06:17.670 --> 06:24.180
+Dan saya mengerti bahwa ketika datang ke kenaikan hanya karena Anda menambahkan pada akhirnya menggunakan
+
+06:24.180 --> 06:31.770
+perintah push Anda dapat mengasumsikan bahwa itu 0 dari 1 sebagian besar waktu atau waktu yang konstan tetapi
+
+06:31.830 --> 06:37.190
+setiap sesekali Anda mungkin menghadapi situasi di mana itu semua waktu linier.
+
+06:37.300 --> 06:38.290
+Saya akan lihat di video berikutnya.

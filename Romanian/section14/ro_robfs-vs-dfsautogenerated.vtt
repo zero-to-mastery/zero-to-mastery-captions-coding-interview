@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.820 --> 00:06.040
+Îmi place să mă gândesc la respirație caută prima dată ca o inundație de apă de sus.
+
+00:06.160 --> 00:10.120
+Cam așa, unde verificăm de sus în jos.
+
+00:10.360 --> 00:17.110
+Și îmi place să mă gândesc la respirație pentru o căutare ca aceste mici linii care merg la
+
+00:17.110 --> 00:22.200
+fel de adânci cât pot și apoi continuă să meargă spre dreapta.
+
+00:22.260 --> 00:26.010
+Dar care este avantajul față de celălalt.
+
+00:26.160 --> 00:28.650
+Amândoi fac același traversal.
+
+00:28.650 --> 00:32.120
+Dar fiecare este folosit din diferite motive.
+
+00:32.280 --> 00:38.070
+Și în interviuri veți primi întrebări cu privire la tipul de traversal de făcut.
+
+00:38.070 --> 00:42.290
+De obicei, veți avea unul dintre aceste două răspunsuri pe care trebuie să le spuneți.
+
+00:42.360 --> 00:46.890
+Deci, atunci când ar trebui să utilizați unul peste altul și vom explora acest lucru pe parcursul următoarelor
+
+00:46.890 --> 00:47.550
+două videoclipuri.
+
+00:47.640 --> 00:53.480
+Dar vreau să încep cu principalele argumente pro și contra complexitatea de timp pentru respirație.
+
+00:53.490 --> 00:56.980
+Prima căutare și prima căutare DEP este același drept.
+
+00:57.000 --> 00:59.820
+Toți vizitează nodurile cel puțin o dată.
+
+00:59.820 --> 01:03.840
+Deci totul este un versal al altarului.
+
+01:04.050 --> 01:09.750
+Așa că atunci când încercăm să traversăm printr-un copac sau un grafic pe care încercăm să-l
+
+01:09.750 --> 01:17.110
+facem este să umblăm prin copac fără să ne repetăm ​​niciodată și ordinea este chestia care contează atunci când vine vorba
+
+01:17.110 --> 01:20.120
+de respirație pentru căutare și profunzime prima căutare.
+
+01:20.130 --> 01:25.360
+Acum, hai să vorbim despre prima căutare cu o lățime de căutare în primul rând.
+
+01:25.360 --> 01:33.700
+Este foarte bine să găsim calea cea mai scurtă dintre un punct de plecare și orice alt nod accesibil deoarece întotdeauna începem cu
+
+01:33.790 --> 01:41.170
+nodul rădăcină și apoi căutăm mai întâi nodurile cele mai apropiate și apoi nodurile mai departe și apoi mai departe
+
+01:41.290 --> 01:43.060
+și apoi mai departe.
+
+01:43.180 --> 01:48.550
+Și acest lucru va deveni mai evident atunci când vorbim despre traversarea graficului și
+
+01:48.640 --> 01:55.570
+avem niște videoclipuri special pentru această discuție, dar cea mai dezavantajată cu prima căutare în lățime este că
+
+01:55.690 --> 01:59.380
+necesită mai multă memorie decât prima căutare de adâncime.
+
+01:59.500 --> 02:03.600
+Din nou, vom discuta mai multe despre momentul când începem să o codificăm.
+
+02:04.120 --> 02:11.890
+Dar o regulă bună este că dacă aveți informații suplimentare despre locația nodului țintă și știți că nodul
+
+02:12.700 --> 02:20.860
+este probabil în nivelul superior al unui copac, atunci lățimea primei căutări este mai bună deoarece va căuta
+
+02:20.860 --> 02:24.930
+mai întâi prin nodurile cele mai apropiate .
+
+02:25.860 --> 02:30.290
+Pe de altă parte, prima căutare de profunzime este opusul.
+
+02:30.300 --> 02:36.630
+Dacă știți că nodul este probabil la nivelul inferior al unui copac, probabil moartea pe căutare este mai bună în
+
+02:36.810 --> 02:37.700
+acest caz.
+
+02:39.110 --> 02:42.620
+Și prima căutare a morții este foarte bună la întrebarea.
+
+02:42.620 --> 02:48.680
+Există calea spre noi sau nu dintr-o sursă care știe la o notă țintă din nou ceva la care vom
+
+02:48.680 --> 02:50.980
+ajunge mai mult când vorbim despre grafice.
+
+02:51.080 --> 02:58.350
+Marele avantaj cu prima căutare în adâncime este că utilizează mai puțină memorie, apoi lărgește prima căutare.
+
+02:58.550 --> 03:04.580
+Dezavantajul cu prima căutare de adâncime este acela că poate deveni lent mai ales dacă arborele sau graficul este cu adevărat
+
+03:04.580 --> 03:08.340
+adânc și nu este neapărat bun să găsești calea cea mai scurtă.
+
+03:08.540 --> 03:11.430
+Ca suflare pentru căutare.
+
+03:11.510 --> 03:17.990
+Acum că avem o idee despre când să folosim ceea ce știu că nu este 100%, totuși ajungem acolo.
+
+03:17.990 --> 03:19.980
+Dar mai întâi vreau să fac un exercițiu.

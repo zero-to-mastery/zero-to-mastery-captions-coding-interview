@@ -1,0 +1,127 @@
+WEBVTT
+
+00:01.550 --> 00:05.010
+Cum este destul de greu Merse?
+
+00:05.360 --> 00:13.070
+Am răspunsul pentru tine aici și nu o să mă duc să văd, pentru că asta este una dintre acele coduri pe
+
+00:13.070 --> 00:20.150
+care doar le scriu și le scriu într-un film de 30 de minute nu prea îți va ajuta să înțelegi.
+
+00:20.150 --> 00:25.000
+Vă recomandăm să treceți prin această linie de cod pentru a înțelege pe deplin.
+
+00:25.180 --> 00:33.580
+Dar dacă aruncăm o privire aici tot ceea ce facem în prima trecere în funcția de sortare a
+
+00:33.580 --> 00:40.690
+îmbinării este că vom obține lungimea matricei care va găsi mijlocul matricei și apoi vom
+
+00:41.110 --> 00:51.970
+aluneca matricea pe partea stângă și pe partea dreaptă, astfel că dacă consolez aici și dau clic pe Run, vedem că pentru prima oară
+
+00:51.970 --> 00:59.850
+în jurul nostru doar împărțim elementul în jos, în mijlocul căruia avem nouăzeci și nouă, până la
+
+00:59.850 --> 01:04.420
+1 secundă partea stângă și 5 până la zero.
+
+01:04.570 --> 01:13.060
+Și partea dreaptă în următoarea trecere, pentru că nu uita că facem recursivi și asta este chemat
+
+01:13.060 --> 01:15.930
+din nou când ajungem aici.
+
+01:16.130 --> 01:25.400
+Acum împărțim nouăzeci și nouă și patruzeci și șase la unu în propria sa trecere, apoi nouăzeci și nouă și patruzeci și
+
+01:25.520 --> 01:33.860
+patru în articole individuale șase și una în stânga și în dreapta până când avem totul într-un singur element.
+
+01:35.410 --> 01:38.460
+Și apoi începem să ne despărțim și de asta.
+
+01:39.220 --> 01:41.230
+Acum cum rămâne cu funcția de îmbinare.
+
+01:44.070 --> 01:50.360
+Funcția de îmbinare va fi puțin greu de citit, dar dacă aruncăm o privire aici tot ce spunem
+
+01:50.480 --> 01:57.590
+este că avem o matrice de rezultate pe care o vom umple cu totul și vom avea un index stâng și
+
+01:57.620 --> 01:58.830
+un indice corect.
+
+01:59.120 --> 01:59.960
+Și o să comparăm.
+
+01:59.960 --> 02:12.130
+Aici este indicele stâng mai mic decât lungimea stânga spre dreapta și indicele drept mai mic decât lungimea matricei
+
+02:12.130 --> 02:18.750
+potrivite, ceea ce înseamnă că avem elemente în matricea noastră.
+
+02:18.840 --> 02:24.440
+Dacă este cazul, atunci comparați elementul din stânga cu elementul potrivit.
+
+02:25.570 --> 02:31.450
+Și împingeți într-o nouă matrice în rezultatele noastre re element mai puțin.
+
+02:31.450 --> 02:36.840
+În acest caz, va fi elementul din stânga și apoi vom crește.
+
+02:37.000 --> 02:44.050
+În caz contrar, dacă elementul din stânga este mai mare decât elementul corect, facem opusul și dreptul la el merge în
+
+02:44.050 --> 02:45.060
+rezultatul nostru.
+
+02:47.540 --> 02:56.890
+Amintiți-vă că această funcție de îmbinare face ceea ce am văzut în animație, unde împărțim funcția în jos în prima parte
+
+02:57.550 --> 03:04.620
+a funcției și apoi în fuzionarea pe care o vom lua la stânga și la dreapta
+
+03:04.620 --> 03:07.700
+comparăm-o și plasăm-o în matricea rezultatelor.
+
+03:08.600 --> 03:16.240
+Apoi, du-te la următorul și continuați să faceți acest lucru de peste și peste și de a crea matrice noastre de rezultate.
+
+03:17.590 --> 03:25.250
+Dacă eu Konsole lot aici la stânga și dreapta și am faceți clic pe alerga vedem exact ceea ce facem.
+
+03:25.250 --> 03:31.390
+Avem nouăzeci și nouă și 44, apoi două și una.
+
+03:31.400 --> 03:39.670
+Astfel, pe partea din stânga și pe partea dreaptă, nouăzeci și nouă, în comparație, devine 44 și nouăzeci și nouă și
+
+03:41.240 --> 03:51.440
+apoi se compară două și una care devine 1 și 2, apoi 6 și 1 și 2 care devin 1 2 6 și continuăm să continuăm
+
+03:51.440 --> 03:59.030
+continuați până la ultimul pas în care avem două liste aici și le comparăm cu 0 și cu 1
+
+03:59.030 --> 04:07.520
+vom plasa 0 și rezultatele sunt a și apoi vom plasa 1 2 și vom continua să mergem și vom continua
+
+04:07.820 --> 04:10.670
+să mergem exact ca animația noastră.
+
+04:10.670 --> 04:16.250
+Acum vă încurajez să jucați cu acest lucru și, probabil, mergeți pas cu pas.
+
+04:16.420 --> 04:23.610
+Este un algoritm foarte greu pentru a obține vestea proastă este că următorul algoritm este și mai complicat.
+
+04:24.280 --> 04:29.990
+Dar din fericire pentru tine, așa cum am spus că nu trebuie să faci asta într-un interviu.
+
+04:30.050 --> 04:40.740
+Trebuie doar să știți că un fel de îmbinare este un algoritm excelent de utilizat deoarece avem un jurnal și un bingo.
+
+04:40.990 --> 04:43.280
+Să aruncăm o privire la un alt algoritm de sortare.

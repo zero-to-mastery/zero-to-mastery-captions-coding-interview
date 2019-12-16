@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.890 --> 00:01.750
+Ben tornato.
+
+00:02.150 --> 00:06.040
+Proviamo a implementare una funzione di ricerca o la funzione di ricerca.
+
+00:06.110 --> 00:12.440
+Vogliamo verificare se un oggetto o un nodo esiste nel nostro albero.
+
+00:12.490 --> 00:14.920
+Vediamo come andiamo su questo.
+
+00:14.980 --> 00:19.930
+La prima cosa che vorrei fare è verificare se esiste una cosa come un nodo radice.
+
+00:19.960 --> 00:22.470
+Se è vuoto.
+
+00:22.610 --> 00:25.280
+Quindi sto usando che avrei potuto farlo.
+
+00:25.310 --> 00:27.650
+Uguali è uguale a n.
+
+00:27.980 --> 00:32.220
+Per verificare se il percorso è vuoto o posso usare il punto esclamativo in Javascript.
+
+00:34.070 --> 00:40.600
+E diremo semplicemente return false perché se la radice non esiste, allora non ha molta importanza.
+
+00:40.610 --> 00:43.470
+Non troveremo quella nota.
+
+00:44.680 --> 00:55.030
+Altrimenti diremo ancora una volta che la nota corrente è uguale a questa radice di punti molto simile a ciò che abbiamo
+
+00:55.030 --> 00:56.380
+fatto sopra.
+
+00:56.380 --> 01:03.780
+Ricorda noi qui e noterai alcune somiglianze con ciò che abbiamo fatto quando abbiamo fatto la risposta.
+
+01:03.930 --> 01:12.390
+Dobbiamo ancora attraversare il nostro albero, ma il nostro ciclo while si fermerà ogni volta che il nodo corrente non
+
+01:12.420 --> 01:21.570
+esiste più o non abbiamo più un nodo da attraversare perché una volta che abbiamo attraversato il nostro albero di ricerca binario ed
+
+01:21.570 --> 01:26.390
+è nullo ciò significa non abbiamo trovato quello che stiamo cercando.
+
+01:27.180 --> 01:34.670
+Quindi in questo caso dirò semplicemente se il valore che stiamo cercando è inferiore al valore
+
+01:34.850 --> 01:36.140
+del nodo
+
+01:39.790 --> 01:46.420
+corrente, in quel caso il nodo corrente sta per essere uguale alla corrente.
+
+01:46.450 --> 01:52.670
+Nota il punto a sinistra perché ora vogliamo andare a sinistra se il valore è inferiore al valore del nodo corrente.
+
+01:52.720 --> 01:55.930
+Ciò significa che non è lo stesso, non è il no che stiamo cercando.
+
+01:56.050 --> 02:02.170
+Quindi vai a sinistra perché è lì che posso trovare qualcosa che potrebbe essere inferiore alla nota corrente altrimenti.
+
+02:02.230 --> 02:07.120
+E userete una dichiarazione IF ELSE qui che dice un'altra condizione.
+
+02:07.150 --> 02:17.560
+Quindi se questo non corrisponde se il corrente Se il valore è maggiore del valore attuale Daut cosa pensi che
+
+02:17.560 --> 02:18.660
+facciamo qui.
+
+02:18.850 --> 02:20.600
+Bene, andiamo a destra.
+
+02:20.890 --> 02:26.480
+Quindi stiamo per dire che il nodo Curren ora sarà il nodo corrente Daut.
+
+02:26.620 --> 02:31.520
+Quindi continuiamo a controllare a destra e poi finalmente.
+
+02:31.520 --> 02:43.730
+Altrimenti se questa è un'altra condizione e non possiamo dire se il nodo corrente è il valore è uguale al valore effettivo
+
+02:43.730 --> 02:45.500
+che stiamo cercando.
+
+02:45.500 --> 02:46.730
+Ciò significa che abbiamo una partita.
+
+02:46.730 --> 02:48.680
+Ciò significa che il nodo esiste.
+
+02:48.770 --> 02:52.300
+Quindi stiamo solo per restituire la nota corrente.
+
+02:52.610 --> 02:53.690
+Bello e semplice
+
+02:54.000 --> 03:00.020
+Infine, poiché non restituiamo nulla, passeremo il ciclo while fino a quando non troviamo
+
+03:00.020 --> 03:07.150
+il nodo corrente in cui restituiamo il nodo corrente o Kerno diventa null perché non riusciamo a
+
+03:07.160 --> 03:10.070
+trovare nulla se non troviamo nulla.
+
+03:10.120 --> 03:12.470
+Basta restituire falso.
+
+03:12.520 --> 03:20.190
+L'unico modo in cui restituiamo qualcosa di diverso da false è quando troviamo la nostra nota con il valore corrispondente.
+
+03:20.290 --> 03:21.240
+Quindi vediamo questo.
+
+03:21.460 --> 03:33.000
+Se ora eseguo il punto dell'albero, guardo su 9 e ho intenzione di commentare questo perché non abbiamo bisogno di controllare che il nostro albero sia
+
+03:33.000 --> 03:34.160
+stato creato.
+
+03:34.260 --> 03:36.740
+Se corro lì, tu vai.
+
+03:36.750 --> 03:42.890
+Ottengo il nodo 9 che ha riferimento a tutti gli altri nodi sottostanti.
+
+03:42.930 --> 03:47.250
+Se guardo su, ottengo false perché non esiste.
+
+03:47.270 --> 03:51.000
+Che ne dici di 20 che esiste? Abbiamo trovato 20.
+
+03:51.000 --> 03:56.250
+Che ne dici 170 Sì, ne abbiamo trovati 170.
+
+03:56.250 --> 04:04.230
+È un nodo ma non ha riferimenti a sinistra e a destra perché è un leafnode e quindi, infine,
+
+04:04.380 --> 04:07.850
+171 è falso perché non esiste Walden.
+
+04:07.930 --> 04:08.980
+Arrivare così lontano.
+
+04:08.980 --> 04:12.820
+Spero che tu sia in grado di implementare il tuo albero di ricerca binario.
+
+04:12.970 --> 04:16.150
+Una volta capito, non è poi così male.
+
+04:17.650 --> 04:23.470
+Alla fine della giornata ogni linea dovrebbe avere senso e attraversare un albero dovrebbe aver senso per
+
+04:23.470 --> 04:24.250
+te ormai.
+
+04:24.250 --> 04:33.160
+Comprendiamo anche il motivo per cui abbiamo un registro di grandi dimensioni e sebbene abbiamo loop in questo modo come i loop non
+
+04:33.190 --> 04:37.870
+stiamo effettivamente iterando attraverso ogni singolo nodo che stiamo solo utilizzando.
+
+04:37.900 --> 04:41.140
+Dividi e conquista qualcosa che sentirai molto.
+
+04:41.200 --> 04:46.910
+Dividere e conquistare significa semplicemente che stiamo dividendo in modo da non visitare tutte le note.
+
+04:46.960 --> 04:52.200
+Ogni nodo che visitiamo prende la decisione di andare a sinistra oa destra.
+
+04:52.270 --> 04:53.690
+Vedrò nel prossimo.
+
+04:53.920 --> 04:54.150
+Bobby.

@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.330 --> 00:02.270
+Selamat datang kembali.
+
+00:02.620 --> 00:07.840
+Sekarang kami telah menerapkan pohon pencarian biner kami, saya ingin berbicara sedikit tentang
+
+00:07.840 --> 00:10.300
+menyeimbangkan pohon kami biasanya dalam produksi.
+
+00:10.300 --> 00:13.570
+Anda ingin memiliki pohon pencarian seimbang.
+
+00:13.630 --> 00:17.000
+Ada dua jenis pohon yang sangat populer dalam hal ini.
+
+00:17.110 --> 00:23.640
+Meskipun kami membangun pohon pencarian biner kami sendiri, kemungkinan besar Anda dalam produksi menggunakan sesuatu seperti
+
+00:23.650 --> 00:31.360
+pohon asli atau pohon merah-hitam yang secara otomatis menyeimbangkan kembali dirinya sendiri sehingga kami tidak memiliki kasing tepi tempat
+
+00:31.690 --> 00:36.400
+pohon seimbang kami berubah menjadi pohon tidak seimbang linear. .
+
+00:36.400 --> 00:42.730
+Sekarang topik-topik ini kita tidak perlu mengkodekan diri kita sendiri karena itu sedikit rumit dan
+
+00:42.730 --> 00:46.580
+sebagian besar waktu Anda menggunakan semacam perpustakaan yang mengimplementasikannya.
+
+00:46.840 --> 00:49.280
+Tapi saya ingin Anda mengerti cara kerjanya.
+
+00:49.300 --> 00:56.560
+Jadi saya akan meninggalkan sumber daya untuk Anda baik pohon merah hitam maupun pohon Avi di mana jika Anda mengklik di sini
+
+00:56.620 --> 01:01.320
+Anda akan melihat bahwa visual go juga harus menunjukkan kepada Anda cara kerjanya.
+
+01:01.330 --> 01:11.020
+Jika saya ingin memasukkan katakanlah tujuh puluh tujuh ke avi saya Peltry tidak ada yang berbeda.
+
+01:11.020 --> 01:13.910
+Kami menambahkan 77 ke pohon.
+
+01:15.160 --> 01:23.810
+Tetapi jika saya sekarang menambahkan katakanlah 80 yang akan membuat pohon kita sedikit tidak seimbang jika saya tekan
+
+01:28.300 --> 01:36.520
+go, Anda akan melihat bahwa saya sedang traverse ke bawah traverse ke bawah saya menambahkan 80
+
+01:36.790 --> 01:46.750
+dan kemudian tiba-tiba oh itu terdengar seimbang itu akan pergi kembali dan lakukan sedikit pergantian atau rotasi untuk menyeimbangkan pohon untuk
+
+01:46.750 --> 01:57.030
+memastikan bahwa level yang kita miliki di pohon selalu terpental dan kemudian kita memiliki pohon hitam REPP juga yang melakukan hal-hal
+
+01:57.420 --> 01:59.110
+yang sedikit berbeda.
+
+01:59.250 --> 02:05.820
+Jika katakanlah kita memasukkan 9 di sini maka katakanlah kita
+
+02:08.570 --> 02:15.060
+memasukkan 10 dan akhirnya mari kita memasukkan 11.
+
+02:15.150 --> 02:16.000
+Anda akan memperhatikan itu.
+
+02:16.030 --> 02:17.810
+Oh itu tidak seimbang.
+
+02:17.850 --> 02:26.730
+Kita perlu menyeimbangkannya dan sekali lagi secara otomatis memastikan bahwa pohon kita benar-benar seimbang dengan sesuatu yang
+
+02:26.730 --> 02:28.880
+disebut pohon merah-hitam.
+
+02:28.950 --> 02:33.780
+Seperti yang Anda lihat, hidungnya merah dan hitam di sini dan itu adalah sesuatu yang kita
+
+02:33.780 --> 02:35.910
+gunakan untuk melacak kapan kita perlu melakukannya.
+
+02:36.000 --> 02:39.220
+Saya akan meninggalkan sumber daya untuk Anda jika Anda ingin mempelajari lebih lanjut tentang mereka.
+
+02:39.240 --> 02:45.090
+Perlu diingat bahwa keduanya biasanya paling populer untuk menyeimbangkan pohon pencarian biner dan dalam
+
+02:45.090 --> 02:47.590
+wawancara Anda tidak perlu menerapkannya.
+
+02:47.640 --> 02:51.380
+Anda hanya perlu bisa membicarakannya dan mengapa itu berguna.
+
+02:51.420 --> 02:53.770
+Sesuatu yang harus kita ketahui sekarang.
+
+02:53.850 --> 02:55.340
+Saya akan melihat yang berikutnya.
+
+02:55.500 --> 02:55.740
+Bob

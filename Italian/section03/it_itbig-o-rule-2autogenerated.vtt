@@ -1,0 +1,220 @@
+WEBVTT
+
+00:01.910 --> 00:02.990
+Ben tornato.
+
+00:02.990 --> 00:07.510
+Diamo un'occhiata alla regola numero due che è rimuovere le costanti.
+
+00:07.910 --> 00:08.770
+Vediamo cosa intendo.
+
+00:10.230 --> 00:14.400
+Ho scritto qui la funzione più ridicola di sempre.
+
+00:14.400 --> 00:21.520
+La funzione è stampa prima voce poi prima metà poi saluta cento volte.
+
+00:21.630 --> 00:28.920
+Probabilmente non è la funzione con il miglior nome mai, ma come il
+
+00:28.930 --> 00:40.400
+nome descrive tutto ciò che stiamo facendo è che cancelleremo il primo elemento dell'array e quindi stamperemo la prima metà degli articoli.
+
+00:40.430 --> 00:44.340
+Quindi sto trovando l'indice medio degli articoli.
+
+00:44.360 --> 00:52.730
+Quindi sto dicendo che gli articoli hanno la lunghezza divisa per due e io uso il piano di matematica qui in javascript come
+
+00:52.730 --> 00:58.830
+un modo per assicurarci che otteniamo un numero intero e stiamo per dire indici variabili 0.
+
+00:58.840 --> 01:08.480
+Qui sto usando un loop ampio invece di un ciclo for e sto dicendo che l'indice medio è maggiore
+
+01:08.690 --> 01:09.970
+di zero.
+
+01:10.130 --> 01:12.920
+Voglio che tu consista la registrazione degli articoli.
+
+01:12.920 --> 01:19.160
+Ciò significa che la console registra la prima metà dell'articolo che conteneva 10 articoli.
+
+01:19.160 --> 01:22.200
+Vado a registrare i primi cinque elementi.
+
+01:23.610 --> 01:32.790
+E poi farò un altro ciclo for e direi che la registrazione di Konsole è 100 volte piuttosto carina,
+
+01:32.790 --> 01:33.790
+inutile direi.
+
+01:33.840 --> 01:35.300
+Non è una funzione molto utile.
+
+01:36.420 --> 01:38.980
+Qual è il grande vantaggio di questa funzione.
+
+01:39.270 --> 01:48.680
+Beh, guardandoci qui sarà grande O di uno qui.
+
+01:48.970 --> 02:00.430
+Quindi ne abbiamo uno solo per registrare i primi elementi, quindi abbiamo la metà di qualunque cosa siano.
+
+02:00.540 --> 02:07.440
+Quindi in tal caso e dividerlo per due perché, anche se abbiamo un ciclo for o un ciclo WHILE,
+
+02:07.500 --> 02:10.230
+registriamo solo metà degli elementi ogni volta.
+
+02:10.230 --> 02:13.010
+Quindi potremmo fare e dividere per due.
+
+02:13.260 --> 02:16.390
+E poi finalmente stiamo facendo un ciclo for.
+
+02:16.410 --> 02:18.310
+Ma di nuovo questo è un po 'un trucco.
+
+02:18.420 --> 02:21.070
+Non stiamo eseguendo il ciclo sull'array degli elementi.
+
+02:21.180 --> 02:24.920
+Abbiamo solo 100, non importa quanto sia grande l'array di elementi.
+
+02:25.080 --> 02:27.090
+Questo sarà sempre 100.
+
+02:27.180 --> 02:29.200
+Quindi dico solo un centinaio.
+
+02:29.310 --> 02:37.730
+Questo è un altro passo, perché di nuovo stiamo solo aggiungendo ciascuno dei passaggi che vediamo qui.
+
+02:37.740 --> 02:46.720
+Quindi questa è la nostra O grande per questa funzione, ma la regola numero due afferma che vogliamo eliminare le costanti.
+
+02:46.720 --> 02:57.630
+Semplicemente stiamo dicendo che non ci interessa davvero che questo O grande sia effettivamente e dividi per due più 101.
+
+02:57.820 --> 03:02.660
+Ricorda in un'intervista che ci interessano solo le cose che abbiamo visto sul grafico.
+
+03:03.130 --> 03:04.790
+Niente di specifico come questo.
+
+03:04.810 --> 03:07.250
+Quindi questo si trasforma in uno.
+
+03:07.630 --> 03:16.030
+E questo anche se è diviso per metà nel grande schema di cose a cui importa solo quando scala
+
+03:16.330 --> 03:19.940
+quando gli input diventano sempre più grandi.
+
+03:19.960 --> 03:27.490
+Quindi, man mano che si ingrandisce, non ci interessa aggiungere 100 in più perché se n è un milione aggiungendo
+
+03:27.490 --> 03:31.630
+un centinaio di extra, altri 100 passaggi non contano davvero.
+
+03:31.870 --> 03:40.270
+E lo stesso con il dividere il bianco in quanto e diventa sempre più grande dividendolo per due ha un effetto
+
+03:40.270 --> 03:41.020
+decrescente.
+
+03:41.050 --> 03:49.820
+Quindi rilasciamo le costanti in questo modo in modo che questo diventi un plus uno OK.
+
+03:49.990 --> 03:56.320
+E perché uno se e fosse un milione è molto insignificante.
+
+03:56.650 --> 03:58.090
+Possiamo semplicemente abbandonare anche questo.
+
+03:58.150 --> 04:01.150
+Questa funzione diventa semplicemente oh over.
+
+04:01.570 --> 04:13.010
+Cosa accadrebbe se avessimo un'altra funzione che diceva di avere un plus 50 o un 50 con una tonnellata di zeri.
+
+04:13.010 --> 04:14.080
+Non importa.
+
+04:14.090 --> 04:17.360
+Abbiamo lasciato cadere le costanti.
+
+04:17.480 --> 04:21.570
+Andrà tutto bene, ok, per l'altra situazione.
+
+04:23.150 --> 04:24.940
+Cosa succede se abbiamo questa funzione qui.
+
+04:25.130 --> 04:32.600
+Comprimi due volte le caselle in cui questa funzione ha in realtà due quattro loop in cui fa la stessa
+
+04:32.600 --> 04:34.880
+cosa ma sono due quattro loop.
+
+04:34.880 --> 04:38.880
+Quindi siamo stati tutti in questo ciclo.
+
+04:38.930 --> 04:47.480
+E poi di un ciclo IN THIS FOR e poiché questi sono due passaggi separati mentre
+
+04:48.410 --> 04:54.130
+li sommiamo, diventa un plus di un call di due.
+
+04:54.140 --> 05:01.790
+E, ma di nuovo in un'intervista questo non ha molta importanza perché rilasciamo le costanti e se
+
+05:01.790 --> 05:05.500
+rilasciamo le costanti, a cosa corrisponde questa funzione.
+
+05:05.600 --> 05:11.050
+Beh, è solo un evento per dimostrare che non ti sto mentendo.
+
+05:11.080 --> 05:20.020
+Se guardiamo a questa funzione sul nostro grafico vediamo che gli elementi come gli elementi aumentano.
+
+05:20.020 --> 05:23.860
+Abbiamo due operazioni perché abbiamo due quattro anelli.
+
+05:24.040 --> 05:29.350
+Se abbiamo due elementi in quel caso, facciamo quattro operazioni.
+
+05:30.230 --> 05:37.390
+Se ne abbiamo tre, facciamo uno due tre quattro cinque sei e vediamo come aumenta.
+
+05:37.490 --> 05:43.870
+Ma alla fine della giornata, anche se la linea è più ripida, abbiamo molte più operazioni da fare.
+
+05:44.150 --> 05:53.120
+Il modo in cui la linea aumenta è ancora lineare e questa è la chiave qui con big-O a noi non interessa
+
+05:53.330 --> 05:55.860
+davvero quanto sia ripida la linea.
+
+05:55.940 --> 06:05.000
+Ci interessa come la linea si muove mentre i nostri input aumentano, rendendo le nostre vite molto più semplici, no?
+
+06:05.820 --> 06:08.100
+Quindi ricorda di eliminare le costanti.
+
+06:08.100 --> 06:12.960
+Non vedrai mai i numeri nella notazione Big O.
+
+06:12.960 --> 06:21.560
+Molto probabilmente le notazioni che abbiamo visto in passato sul nostro grafico Solitamente queste e l'unica volta che
+
+06:21.560 --> 06:32.050
+vedete i numeri è quando ne avete uno di e al quadrato o di due alla potenza di uno che otterremo in
+
+06:32.050 --> 06:32.980
+seguito.
+
+06:32.990 --> 06:35.750
+Non preoccuparti, vedrò nel prossimo video.

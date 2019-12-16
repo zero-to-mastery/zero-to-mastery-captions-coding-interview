@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.850 --> 00:08.350
+There are times when we want to do something called traversal and the name traversal and search is often
+
+00:08.350 --> 00:13.800
+used interchangeably sometimes meaning the same thing sometimes not.
+
+00:14.080 --> 00:19.320
+Up until now we talked about binary search trees and we knew what we're looking for.
+
+00:19.330 --> 00:27.050
+And we always knew where to go left or right but other times we want to do some operations on the same
+
+00:27.050 --> 00:32.410
+note as I mentioned before we might want to add a color property to this note.
+
+00:32.690 --> 00:41.090
+Perhaps if we had a user node we want to add an H property to all our users that are in a tree structure.
+
+00:41.210 --> 00:45.700
+Brewhouse do you want to add a shape property to these nodes.
+
+00:45.900 --> 00:51.020
+Or perhaps we don't have a sorted tree.
+
+00:51.120 --> 00:58.290
+It's not a binary search tree or we have a graph that has no order to it in which case we have to visit
+
+00:58.380 --> 00:59.650
+every node.
+
+00:59.910 --> 01:06.420
+Or maybe we're working on google and our boss asked us to hey can we check if our binary search stream
+
+01:06.990 --> 01:13.530
+we entered into our database is correct and that it's actually valid and making sure that the left item
+
+01:13.560 --> 01:16.410
+is always lower than the right item.
+
+01:17.330 --> 01:24.240
+And in order for us to check that we have to touch every single note but how would we go about doing
+
+01:24.240 --> 01:24.840
+this.
+
+01:24.870 --> 01:32.250
+You can think of traversals as visiting every note and as you can imagine because we're visiting every
+
+01:32.250 --> 01:36.930
+node that's an owner of an operation linear time.
+
+01:36.930 --> 01:45.420
+Up until now we did loops to visit all of our other data structures like arrays linked lists hash tables
+
+01:46.110 --> 01:48.310
+queues stacks.
+
+01:48.330 --> 01:57.260
+So how do we go about doing this in a data structure like a tree or even a graph.
+
+01:57.290 --> 02:01.510
+Luckily for us there's two ways of doing this that we need to learn.
+
+02:01.740 --> 02:05.230
+One it's right over here.
+
+02:05.390 --> 02:12.050
+Do we have to do a tree traversal or do we have to do a graph traversal.
+
+02:12.160 --> 02:18.480
+In that case our two options are the exact same.
+
+02:18.590 --> 02:25.700
+We have breadth first search and depth first search and sometimes this is called traversal instead of
+
+02:25.700 --> 02:29.840
+search as you can see both with trees and crafts.
+
+02:29.870 --> 02:31.710
+It's the same thing.
+
+02:31.900 --> 02:39.790
+The big O is o of and because we have to visit every single node using these two techniques.
+
+02:39.790 --> 02:46.570
+But let's review why this is important and why we don't store everything and just lists which are simpler
+
+02:46.570 --> 02:47.440
+to understand.
+
+02:48.250 --> 02:57.060
+Well the main benefit of why we don't put complex data into just lists like arrays that are sorted is
+
+02:57.060 --> 03:02.430
+that we get the O of log n searching.
+
+03:02.580 --> 03:04.110
+What about hash tables.
+
+03:04.110 --> 03:05.130
+Those are easy.
+
+03:05.370 --> 03:11.730
+Well remember that hash tables aren't order and at the end of the day when you represent data with different
+
+03:11.730 --> 03:19.110
+data structures based on their needs and trees and grass worked really well for a lot of cases which
+
+03:19.200 --> 03:25.440
+we've already discussed when we search for things we have the benefit but also when we insert or delete
+
+03:25.440 --> 03:31.180
+items we have better performance than something like an array.
+
+03:31.410 --> 03:37.230
+But we also maintain the order that we wouldn't have otherwise with hash tables trees and graphs used
+
+03:37.290 --> 03:45.540
+a lot when we want to search nodes or visit every node and it represents a lot of data that models the
+
+03:45.540 --> 03:46.920
+real world.
+
+03:46.920 --> 03:52.160
+Now let's explore how these two traversal techniques work.
+
+03:52.890 --> 03:53.840
+I'll see in the next one.

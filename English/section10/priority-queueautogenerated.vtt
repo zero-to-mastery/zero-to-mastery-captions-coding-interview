@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.950 --> 00:08.050
+Now we learned about binary heaps and we mentioned that unlike a binary search tree there is no order
+
+00:08.050 --> 00:11.620
+from left to right this 33 and 77.
+
+00:11.620 --> 00:16.920
+We can swap them and they'll still be a binary cheap.
+
+00:16.930 --> 00:22.870
+The beauty of binary heaps is that they take up the least amount of space possible because it's always
+
+00:22.870 --> 00:25.770
+left to right insertion as we just saw.
+
+00:26.230 --> 00:29.800
+So there's no concept of an unbalanced binary heap.
+
+00:29.830 --> 00:34.780
+We don't have to rebalance it like a binary search tree because of this because they do.
+
+00:34.780 --> 00:38.970
+Left to right insertion as we saw in the previous video.
+
+00:39.100 --> 00:44.840
+They preserve this order of insertion which is pretty amazing right.
+
+00:44.910 --> 00:51.960
+And you can actually implement binary heaps using a race versus what we did before with binary search
+
+00:51.960 --> 00:54.680
+trees where we used notes.
+
+00:54.750 --> 01:01.380
+So the only guarantee that binary heap it gives us is what I mentioned the parent is always greater
+
+01:01.380 --> 01:03.580
+than the children now.
+
+01:03.640 --> 01:12.190
+Besides being memory efficient and just compact because it's always a complete binary tree binary heaps
+
+01:12.190 --> 01:16.130
+are really really useful for things such as priority queues.
+
+01:16.980 --> 01:21.930
+And you might be asking yourself priority queue didn't we just learn about queues and isn't that the
+
+01:21.930 --> 01:23.760
+same data structure.
+
+01:23.760 --> 01:30.350
+Well no because with queues we just assumed that it was first in first up.
+
+01:30.360 --> 01:36.720
+You were the first person in line you should get to go first into the rollercoaster or the movie's priority
+
+01:36.720 --> 01:38.370
+queue is something different.
+
+01:38.370 --> 01:42.360
+It is a type of data where each element has a priority.
+
+01:43.470 --> 01:50.430
+And elements with a higher priority are served before elements with larger priorities you can think
+
+01:50.430 --> 01:52.200
+of this as a club.
+
+01:52.200 --> 02:00.150
+Let's say we have a nightclub that is very very popular and there's a long lineup and we let some people
+
+02:00.150 --> 02:02.490
+in everybody's happy.
+
+02:02.490 --> 02:09.150
+But then all of a sudden we have some VIP that showed up what they pay a lot more money than the other
+
+02:09.150 --> 02:11.410
+customers so we're going to put them in first.
+
+02:11.430 --> 02:14.650
+So now we have a different priority.
+
+02:14.700 --> 02:19.970
+We're even though they arrived later they get to go when they have higher priority.
+
+02:20.900 --> 02:23.960
+Another good example is an emergency room.
+
+02:24.320 --> 02:30.700
+You want to treat the patients that have the most severe symptoms or conditions.
+
+02:30.710 --> 02:31.750
+Right.
+
+02:31.800 --> 02:37.500
+Another way to think about it is let's say we're lining up to get into an airplane.
+
+02:38.380 --> 02:46.060
+We have the first person coming in lining up and then all of a sudden the captain shows up and because
+
+02:46.150 --> 02:55.340
+the captain should get on the airplane before a normal passenger the captain gets now put as priority
+
+02:55.550 --> 03:02.680
+as the root note because the value is higher or at least in this case the value is higher than the passenger.
+
+03:02.690 --> 03:07.690
+So let's say a passenger comes on because we're doing left to right insertion.
+
+03:07.820 --> 03:10.340
+We put the passenger to the right.
+
+03:10.520 --> 03:15.440
+So now we know we're going to let the captain go and then the first passenger.
+
+03:15.440 --> 03:21.150
+Then the second passenger Next we have a stewardess that came in.
+
+03:21.210 --> 03:26.470
+He or she should get to go before the passengers but not before the captain.
+
+03:26.930 --> 03:36.350
+Well in that case once again we place the stewardess below the captain but to the right or to the left
+
+03:36.410 --> 03:40.650
+of the passenger and then we have a now there passenger that comes.
+
+03:40.670 --> 03:41.270
+We do.
+
+03:41.300 --> 03:42.640
+Left to right insertion.
+
+03:42.680 --> 03:44.690
+We see a right spot down here.
+
+03:44.750 --> 03:47.970
+So we placed them down here.
+
+03:48.220 --> 03:55.720
+So we see how everything gets balanced which is nice but it's also really really easy for us to now
+
+03:56.230 --> 04:02.110
+lead people into the airplane because we know the order we go from the top then left then right then
+
+04:02.110 --> 04:04.060
+left then right left.
+
+04:04.060 --> 04:04.380
+Right.
+
+04:04.390 --> 04:07.600
+And we just keep going keep going keep going.
+
+04:07.600 --> 04:10.510
+We know the priority very easily.
+
+04:10.510 --> 04:13.930
+I'm sure you see where this might be useful in a lot of situation.
+
+04:14.980 --> 04:18.390
+To review we learned what binary search trees are.
+
+04:18.460 --> 04:24.780
+They're great but sometimes binary heaps or priority queues are even better.
+
+04:25.090 --> 04:30.730
+Although searching through a binary heap is a lot slower than a binary search tree.
+
+04:30.760 --> 04:39.520
+You have an idea of priority because insertion is done in order so you know who should be first who
+
+04:39.520 --> 04:40.630
+should be second who should be.
+
+04:40.630 --> 04:47.430
+Third and although we might have to bubble up inserts every once in a while if there is somebody that
+
+04:47.460 --> 04:49.740
+is has really high priority.
+
+04:49.830 --> 04:56.730
+Most of the time you get really fast inserts with binary heaps and as we mentioned lookups are slow
+
+04:57.060 --> 05:02.870
+but you want to use binary heaps when you're just interested in finding the max or finding minimum.
+
+05:02.910 --> 05:09.450
+If it's a min heap and a lot of the times in binary heaps in priority queues you have a method called
+
+05:09.660 --> 05:11.530
+find Max or find men.
+
+05:11.580 --> 05:19.050
+That is all of one because you know right away that the top root node is the max or the minimum.
+
+05:19.080 --> 05:23.120
+So for those operations it's really really fast and great.
+
+05:23.350 --> 05:24.730
+And there you have it.
+
+05:24.760 --> 05:26.140
+I'll see you in the next video.
+
+05:26.510 --> 05:26.800
+Buh-Bye.

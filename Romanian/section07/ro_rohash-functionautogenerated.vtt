@@ -1,0 +1,172 @@
+WEBVTT
+
+00:01.020 --> 00:10.930
+Ce este o funcție hash este ceva care este folosit în întreaga știință a informaticii o funcție hash este pur și
+
+00:11.080 --> 00:18.920
+simplu o funcție care generează o valoare de lungime fixă ​​pentru fiecare intrare care devine.
+
+00:19.130 --> 00:20.850
+În regulă, ce înseamnă asta.
+
+00:21.260 --> 00:29.240
+Ei bine, am aici un M. D hash generat și cinci este tipul de funcție hash și există multe
+
+00:29.240 --> 00:30.020
+multe tipuri.
+
+00:30.200 --> 00:37.570
+S-ar putea să fi auzit despre Schwann Shaw 2:56 și multe altele folosind această funcție hash.
+
+00:37.570 --> 00:39.980
+Să vedem ce se întâmplă dacă o fac.
+
+00:40.420 --> 00:42.590
+Salut.
+
+00:42.630 --> 00:53.250
+Vedeți asta imediat și cei cinci au șirul și o transformă în acest jbberish.
+
+00:53.390 --> 00:55.540
+Asta face o funcție hash.
+
+00:55.580 --> 01:03.470
+Îi oferim o intrare și funcția generează un tipar aleatoriu.
+
+01:03.470 --> 01:07.540
+Acum există câteva aspecte cheie ale funcțiilor hash.
+
+01:07.550 --> 01:16.670
+În primul rând, este o modalitate în sensul că, dacă le dau pe cineva, nu au nicio idee despre ce a fost de
+
+01:16.670 --> 01:17.410
+intrare.
+
+01:17.990 --> 01:24.820
+Și este practic imposibil pentru mine să am idee despre ce este de intrare.
+
+01:24.830 --> 01:31.560
+Al doilea este că, indiferent de câte ori am pus Hello acolo, va fi același lucru.
+
+01:31.790 --> 01:38.470
+Dar, curând, când schimb un singur lucru, se va schimba complet producția.
+
+01:38.840 --> 01:46.280
+Dacă mă întorc la salut și mă spală doar trec la capitalul H chiar o scrisoare de capital.
+
+01:46.320 --> 01:53.680
+Deci, incepe cu 5 d pentru daca fac capitalul H este din nou complet diferit.
+
+01:54.610 --> 02:00.840
+Și mă uit la asta putem cel puțin să spunem că nu știu pentru ce este util acest lucru.
+
+02:00.880 --> 02:06.550
+Dar singurul lucru pe care îl știu este că, indiferent dacă îi dau aceeași
+
+02:06.550 --> 02:13.530
+contribuție, îmi va da același rezultat, dar nu am nici o idee cum să convertesc acest lucru în salut.
+
+02:13.690 --> 02:20.110
+Aceasta este ceea ce numim conținut în profunzime sau în Dempo și există pronunții diferite.
+
+02:20.110 --> 02:26.350
+Nu sunt sigur care dintre ele este, dar este un mod fantezist de a spune că o
+
+02:26.440 --> 02:29.800
+funcție dată unei intrări întotdeauna scoate aceeași ieșire.
+
+02:29.810 --> 02:37.700
+Acum, beneficiul unic și de ce am vrea să folosim această structură și o structură a datelor este
+
+02:37.880 --> 02:51.230
+că obținem acces rapid la date deoarece tot ceea ce trebuie să facem pentru a găsi struguri sau struguri Baskett este să treci strugurii într-un fel de cinci hașuri goale pe
+
+02:51.230 --> 02:58.500
+care le generează acest număr pentru mine și eu imediat știu unde este în memoria mea
+
+02:58.890 --> 03:00.410
+pe calculatorul nostru.
+
+03:00.600 --> 03:03.160
+Dar asta nu arata ca o adresa nu o face.
+
+03:04.580 --> 03:09.050
+Din punct de vedere tehnic, o funcție hash pe care o folosim pentru tabelele hash va lua.
+
+03:09.050 --> 03:18.650
+Struguri generează un fel de jibberish și apoi convertit într-un spațiu index sau un spațiu de adresă pe
+
+03:18.650 --> 03:22.310
+care le-a bazat pe acest număr.
+
+03:22.410 --> 03:32.210
+Vezi, spre deosebire de tablourile în care tocmai am comandat indecșii cu tabelele hash, tot ce trebuie să facem este să-i dăm o
+
+03:32.210 --> 03:36.740
+cheie și știm exact unde este elementul în memoria noastră.
+
+03:37.260 --> 03:44.340
+Dar s-ar putea să vă întrebați că această funcție de tip hash nu numai că încetinește lucrurile, pentru că de
+
+03:44.340 --> 03:54.050
+fiecare dată când dorim să adăugăm o proprietate și o valoare de struguri și 10000 la o tabelă hash, trebuie să o executăm prin funcția hash astfel
+
+03:54.050 --> 03:58.220
+încât să putem decide unde pentru a le pune în memorie.
+
+03:58.640 --> 04:05.240
+Și dacă ați observat acel lucru bun, care este un factor important, nu doriți ca acest
+
+04:05.240 --> 04:14.150
+lucru să dureze foarte mult, pentru că de fiecare dată când adăugați o proprietate în memorie sau regăsiți o proprietate în memorie, deoarece din
+
+04:14.210 --> 04:21.430
+nou ambele vremuri trimiteam cheie de struguri în funcție de hash pentru a găsi de unde să-l de la.
+
+04:21.470 --> 04:25.840
+Avem nevoie ca acest lucru să fie într-adevăr foarte rapid și sub capotă.
+
+04:25.880 --> 04:33.970
+Amintiți-vă deoarece tabelele hash există în toate limbile în care sunt implementate cu o funcție optimă de hash.
+
+04:34.040 --> 04:41.720
+Este într-adevăr foarte rapid ca o funcție de hash de notă laterală ca Shah 2:56.
+
+04:41.830 --> 04:50.760
+Ia-o foarte mult timp pentru a genera un hash și este o funcție excesiv de complexă de hash care este folosită foarte
+
+04:50.760 --> 04:59.970
+mult și locuri ca criptografia în cazul în care doriți ca acest lucru să dureze mai mult, dar acest lucru este în afara
+
+04:59.970 --> 05:02.090
+scopului discursului dacă sunteți interesat.
+
+05:02.100 --> 05:08.880
+Vă recomand să verificați diferențele dintre aceste două pentru a le revizui.
+
+05:08.910 --> 05:11.760
+Avem o cheie care este struguri.
+
+05:11.760 --> 05:18.240
+Îi trimitem printr-o funcție hash care are de gând să hash ceva într-adevăr foarte
+
+05:18.240 --> 05:29.300
+rapid și apoi harta orice hash a ieșit să fie într-o adresă de memorie în cazul în care dorim să stocăm datele noastre struguri noastre 10000.
+
+05:29.440 --> 05:34.950
+Iar când vine vorba de funcțiile de hash, de obicei, lăsați acest lucru în orice cadru sau limbă pe
+
+05:34.960 --> 05:35.900
+care o utilizați.
+
+05:36.100 --> 05:44.670
+Și de obicei presupunem o complexitate de timp sau o notare Big-O de 0, deoarece acest lucru se întâmplă foarte repede.
+
+05:44.740 --> 05:45.270
+In regula.
+
+05:45.340 --> 05:51.580
+Acum că înțelegem ce înseamnă această cutie neagră să vorbim mai mult despre tabelele de tip hash de ce sunt utile
+
+05:51.580 --> 05:55.580
+și de ce, în unele cazuri, sunt mai bune decât o cursă.

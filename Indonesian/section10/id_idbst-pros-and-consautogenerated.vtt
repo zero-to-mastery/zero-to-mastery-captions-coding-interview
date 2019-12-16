@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.410 --> 00:07.580
+Kembalikan mereka sebelum kita membuat kode pohon pencarian biner kita sendiri, mari kita membahas implikasi kinerja dan mengapa
+
+00:07.730 --> 00:11.310
+kita mungkin ingin menggunakannya di atas struktur data lainnya.
+
+00:11.440 --> 00:16.430
+Kekuatannya adalah bahwa ia memiliki kinerja yang sangat baik secara keseluruhan.
+
+00:16.490 --> 00:22.590
+Anda melihat bahwa sebagian besar operasi atau semua operasi di pohon pencarian biner lebih baik dari 0.
+
+00:22.640 --> 00:27.620
+Acara dengan asumsi bahwa pohon pencarian biner adalah mengalah.
+
+00:27.730 --> 00:36.690
+Ini juga dipesan dan karena kita dapat menempatkan node di mana saja dalam memori kita hanya dapat memiliki ukuran yang fleksibel.
+
+00:36.690 --> 00:40.070
+Kita bisa terus menumbuhkan pohon kita.
+
+00:40.080 --> 00:46.460
+The downside adalah bahwa karena Anda mungkin telah memperhatikan tidak memiliki operasi 0 1.
+
+00:46.590 --> 00:53.770
+Kita biasanya harus melakukan semacam traversal melalui pohon untuk setiap jenis operasi sehingga dibandingkan dengan array, misalnya mencari akan jauh
+
+00:53.770 --> 01:02.080
+lebih cepat karena kita memiliki semua log n untuk pencarian vs. jika kita beralih melalui seluruh array jika
+
+01:02.080 --> 01:09.480
+array tidak dimasukkan sisipan dan penghapusan juga lebih cepat array yang lebih sempit
+
+01:09.480 --> 01:12.920
+kecuali array menambahkan ke akhir.
+
+01:12.970 --> 01:18.790
+Jika tidak, array harus menggeser semua indeks vs pohon pencarian biner.
+
+01:18.790 --> 01:23.350
+Itu hanya 0 log in dibandingkan dengan tabel hash.
+
+01:23.540 --> 01:32.030
+Yah meskipun tabel hash memungkinkan kita untuk menyisipkan dan mencari pada waktu yang konstan dengan pohon pencarian biner, kita
+
+01:32.030 --> 01:40.490
+telah mengurutkan data dan kita juga memiliki struktur hubungan anak induk ini yang tidak dapat Anda dapatkan banyak dengan
+
+01:40.490 --> 01:47.300
+tabel hash hal yang baik untuk disimpan dalam pikiran adalah bahwa pohon pencarian biner
+
+01:47.300 --> 01:50.240
+bukan yang tercepat untuk apa pun.
+
+01:50.280 --> 01:57.420
+Ingat operasi mereka biasanya selalu 0 log dan rata-rata sebuah array atau objek akan memiliki operasi
+
+01:57.420 --> 01:59.040
+yang lebih cepat.
+
+01:59.310 --> 02:07.520
+Tetapi ada kondisi tertentu di mana mereka melakukan objek dan array sehingga pohon pencarian biner melakukan dengan
+
+02:07.520 --> 02:08.950
+sangat baik.
+
+02:09.140 --> 02:14.780
+Selama Anda memastikan bahwa Anda tinggal jauh dari kasus-kasus yang kami diskusikan dan kami
+
+02:14.780 --> 02:22.620
+menyeimbangkan pohon pencarian biner kami, tetapi cukup banyak slide slide, saya pikir untuk sepenuhnya memahami dan memahami cara kerja pohon.
+
+02:22.620 --> 02:23.860
+Kita harus membuat kode kita sendiri.
+
+02:24.240 --> 02:25.930
+Saya akan melihat yang berikutnya.

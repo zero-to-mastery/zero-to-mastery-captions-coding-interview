@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.960 --> 00:02.120
+Ben tornato.
+
+00:02.320 --> 00:09.440
+Ora nell'esercizio precedente e nell'esercizio abbiamo appena visto che dovevamo fare un po 'di calcoli, era piuttosto fastidioso dove
+
+00:09.450 --> 00:16.800
+dovevamo aggiungere le cose, poi questo lo sai più cinque e più quattro nelle interviste non sei mai andando a
+
+00:17.040 --> 00:22.380
+fare questo e ti stai chiedendo Andre Perché mi hai appena insegnato questo
+
+00:22.380 --> 00:23.760
+e hai ragione.
+
+00:23.760 --> 00:28.160
+Ma ora quando meno comprendi quanto viene calcolato il grosso O.
+
+00:28.590 --> 00:34.650
+Ma la maggior parte delle volte che entri in interviste c'è il set di regole che seguirai dove
+
+00:35.220 --> 00:40.680
+non hai bisogno di farlo e puoi semplicemente dare un'occhiata a questa funzione e dire immediatamente
+
+00:40.680 --> 00:42.730
+che tipo di bego è .
+
+00:42.870 --> 00:53.650
+Ad esempio, questa funzione in realtà si trasforma in una riga di una funzione che di nuovo si trasforma in appena 0 di
+
+00:53.920 --> 00:57.610
+un e questo è un piccolo trucchetto.
+
+00:57.900 --> 01:05.460
+Quando parliamo di big-O nelle interviste, la maggior parte delle volte tu darai solo una di
+
+01:06.890 --> 01:14.420
+queste risposte, probabilmente non calcolerai mai esattamente 0 3 e o tre e più due più
+
+01:14.480 --> 01:15.470
+uno.
+
+01:15.470 --> 01:20.750
+Quindi, come sono stato in grado di semplificare i nostri esercizi e solo dire che sono dentro
+
+01:21.190 --> 01:27.770
+E fortunatamente per te ci sono solo alcune regole che possiamo seguire quando arrivano.
+
+01:28.190 --> 01:29.630
+E ci sono solo quattro di loro.
+
+01:30.390 --> 01:36.060
+Seguendo queste quattro regole invece di fare quei piccoli calcoli che abbiamo fatto fino a questo
+
+01:36.060 --> 01:42.790
+momento, puoi semplicemente semplificare la tua vita in modo che il vecchio grande possa essere davvero molto facile da calcolare.
+
+01:43.170 --> 01:48.330
+Affrontiamo il primo che è la regola numero uno nel caso peggiore.
+
+01:48.420 --> 01:50.050
+Ne parliamo nel prossimo video.

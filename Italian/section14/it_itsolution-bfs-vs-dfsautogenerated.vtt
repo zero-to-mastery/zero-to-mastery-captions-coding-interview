@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.240 --> 00:02.980
+Torneremo.
+
+00:03.050 --> 00:05.170
+Com'è stato questo esercizio.
+
+00:05.180 --> 00:07.020
+Spero che non sia stato troppo difficile.
+
+00:08.720 --> 00:14.270
+Se sei in grado di rispondere a queste domande, è molto probabile che sarai in OK in un'intervista se ti
+
+00:14.270 --> 00:18.310
+viene mai chiesto di fare la prima ricerca o la ricerca del respiro.
+
+00:18.380 --> 00:19.790
+Quindi andiamo oltre le risposte.
+
+00:20.800 --> 00:24.710
+Se sapesse che una soluzione non è lontana dalla radice dell'albero.
+
+00:24.850 --> 00:26.520
+Bene, abbiamo parlato di questo.
+
+00:26.620 --> 00:34.660
+Vogliamo utilizzare il respiro per la ricerca perché inizia a cercare prima i nodi più
+
+00:34.720 --> 00:36.470
+vicini al genitore.
+
+00:36.590 --> 00:41.460
+Se l'albero è molto profondo e le soluzioni sono rare.
+
+00:41.470 --> 00:47.630
+Bene, questa è una domanda un po 'più difficile, ma useremmo un respiro per una ricerca.
+
+00:47.820 --> 00:54.660
+E la ragione per cui facciamo qualcosa di simile alla prima ricerca della profondità è che la prima
+
+00:54.660 --> 01:01.710
+ricerca della profondità impiegherà molto tempo con questo tipo di albero perché l'albero è molto profondo che andrà ad
+
+01:01.710 --> 01:04.950
+uno ad uno andando davvero molto in basso.
+
+01:04.950 --> 01:10.530
+E poiché le soluzioni sono rare, è molto probabile che lo ripeterà ancora e ancora e ancora.
+
+01:10.590 --> 01:16.410
+E come vedrai con la prima ricerca di profondità, usiamo le funzioni ricorsive.
+
+01:16.570 --> 01:20.910
+E con quella prima ricerca che può richiedere davvero molto tempo.
+
+01:21.220 --> 01:25.620
+Anche se con questo abbiamo anche alcuni problemi di memoria con la ricerca del respiro.
+
+01:25.690 --> 01:32.190
+Quindi le tue risposte possono variare, ma questo è ciò che userò finché puoi spiegare che
+
+01:32.400 --> 01:36.930
+per l'intervistatore troverai quello che succede se l'albero è molto bianco.
+
+01:37.000 --> 01:39.460
+Questo è un sacco di note.
+
+01:39.550 --> 01:45.280
+Non è un albero binario ha solo una tonnellata di nodi sotto ogni genitore.
+
+01:45.340 --> 01:52.420
+Di nuovo questo è un po 'più difficile, ma vogliamo usare la morte per una ricerca perché un bagno prima cerca e
+
+01:52.420 --> 01:55.290
+sto per dire che è veloce da ora.
+
+01:55.430 --> 01:58.390
+Beh, avrà bisogno di
+
+02:01.560 --> 02:03.150
+troppa memoria.
+
+02:03.450 --> 02:10.830
+Il modo in cui la prima ricerca del respiro funziona è che deve tenere traccia dei nodi e del livello corrente
+
+02:10.920 --> 02:12.550
+in qualcosa chiamato coda.
+
+02:12.640 --> 02:18.290
+Vedremo così perché potrebbe occupare troppa memoria.
+
+02:19.130 --> 02:20.070
+Che mi dici del prossimo.
+
+02:20.090 --> 02:27.350
+Se le soluzioni sono frequenti ma situate in profondità nell'albero, in questo caso utilizziamo la profondità per la ricerca.
+
+02:27.530 --> 02:31.790
+Quindi speriamo di riuscire a trovare una risposta più rapida del respiro per una ricerca.
+
+02:32.760 --> 02:37.340
+Che dire del prossimo che determina se esiste un percorso tra due note.
+
+02:37.470 --> 02:42.900
+È così che viene costruita la prima chiesa della morte per Audubon che trova la via più breve.
+
+02:43.170 --> 02:44.790
+Questo è per respiro.
+
+02:44.800 --> 02:47.940
+Prima ricerca
+
+02:48.160 --> 02:56.260
+Ora tieni presente questo documento e rivisitalo mentre impariamo sempre di più su questi due algoritmi, perché le cose
+
+02:56.410 --> 02:59.410
+cominceranno ad avere sempre più senso.
+
+02:59.800 --> 03:06.040
+Ma questo è un buon foglio da tenere a mente prima di andare a un colloquio nel caso in cui vieni chiesto a queste
+
+03:08.110 --> 03:09.430
+domande abbastanza parlare per ora.
+
+03:09.430 --> 03:12.950
+Penso che sia tempo per noi di iniziare a codificare questi algoritmi.
+
+03:13.090 --> 03:14.440
+Vedrò nel prossimo.
+
+03:14.830 --> 03:15.060
+Bob.

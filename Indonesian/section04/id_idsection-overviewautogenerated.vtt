@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.320 --> 00:02.350
+Baiklah.
+
+00:02.370 --> 00:09.140
+Jadi kami memiliki ide tentang bagaimana meningkatkan persentase peluang kami untuk mendapatkan wawancara.
+
+00:09.150 --> 00:16.020
+Kami juga belajar tentang notasi Big-O dan bagaimana kami dapat menggunakannya untuk melihat kode kami dan menganalisis apakah
+
+00:16.020 --> 00:17.710
+itu efisien atau tidak.
+
+00:18.540 --> 00:23.740
+Menggunakan pengetahuan kita sampai sekarang, mari kita beralih ke topik penting lainnya.
+
+00:23.910 --> 00:29.250
+Pada akhirnya, wawancara adalah cara bagi perusahaan untuk mengetahuinya.
+
+00:29.430 --> 00:33.710
+Dapatkah Anda memecahkan masalah yang dimiliki perusahaan atau majikan.
+
+00:33.780 --> 00:40.680
+Karena jika Anda dapat menyelesaikan masalah mereka maka Anda berharga dan Anda akan menghasilkan lebih banyak nilai
+
+00:40.680 --> 00:44.920
+kepada mereka daripada gaji yang mereka bayar kepada Anda.
+
+00:44.940 --> 00:49.760
+Itulah yang coba dijawab oleh wawancara teknis.
+
+00:49.780 --> 00:55.050
+Sekarang kita bisa menjadi pintar dan strategis tentang di mana kita melamar dan bagaimana kita berlaku pada suatu perusahaan.
+
+00:55.120 --> 00:57.630
+Dan kami belajar tentang itu di bagian sebelumnya.
+
+00:57.880 --> 01:00.140
+Tapi inilah tantangan besar.
+
+01:00.190 --> 01:01.990
+Anda punya wawancara.
+
+01:02.180 --> 01:06.330
+Apa yang Anda lakukan selama beberapa bagian berikutnya.
+
+01:06.330 --> 01:11.750
+Kami akan menangani pertanyaan ini dan membuat Anda siap untuk wawancara pengkodean.
+
+01:12.000 --> 01:13.860
+Dan kita akan menjadi sangat teknis.
+
+01:13.860 --> 01:18.290
+Saya tahu sampai sekarang kita belum melihat kode sebanyak itu tetapi kita akan masuk ke
+
+01:18.300 --> 01:20.120
+rincian sepele selama beberapa bagian berikutnya.
+
+01:20.280 --> 01:27.090
+Tetapi sebelum kita masuk ke dalam masalah pengkodean struktur data dan algoritma dan semua detail pengkodean
+
+01:27.300 --> 01:37.570
+FAAN ini kita harus terlebih dahulu memahami prinsip yang satu ini bagaimana menyelesaikan masalah yang Anda lihat jika kami tahu setiap algoritma tunggal di dunia
+
+01:37.630 --> 01:44.300
+luar dan dalam, Anda tahu semua struktur data yang Anda miliki. Adalah pembuat kode terbaik di
+
+01:44.300 --> 01:44.960
+dunia.
+
+01:45.170 --> 01:49.740
+Yah itu tidak menjamin bahwa Anda akan berhasil dalam wawancara teknis.
+
+01:50.680 --> 01:56.860
+Bagian ini dimaksudkan untuk mempersiapkan Anda sehingga Anda memiliki fondasi yang ditetapkan sehingga setelah ini semua
+
+01:56.860 --> 02:02.920
+yang Anda butuhkan untuk berhasil dalam wawancara teknis adalah aspek pengkodean aktual dari pertanyaan-pertanyaan.
+
+02:02.920 --> 02:08.470
+Anda tahu itu bukan pewawancara paling pintar yang dipekerjakan sebagian besar waktu
+
+02:08.470 --> 02:14.300
+itu adalah pewawancara yang mampu menjawab pertanyaan mendasar ini akan Anda memecahkan masalah perusahaan.
+
+02:15.300 --> 02:21.960
+Jika Anda seorang jenius tetapi Anda tidak dapat berbicara dengan orang-orang yang tidak bekerja dengan baik dengan orang lain atau Anda
+
+02:21.960 --> 02:29.000
+menulis kode jelek yang tidak dimengerti orang atau Anda tidak dapat mengomunikasikan solusi untuk suatu masalah maka Anda tidak akan mendapatkan sebuah pekerjaan.
+
+02:29.520 --> 02:35.880
+Anda lihat itu belum tentu tentang solusi untuk masalah dalam wawancara pengkodean ini
+
+02:35.880 --> 02:42.990
+tentang proses pemikiran dan mengetahui pertukaran antara struktur data dan algoritma ruang dan kompleksitas waktu.
+
+02:42.990 --> 02:46.520
+Sama seperti dalam pengkodean kehidupan nyata Anda tidak menghafal sesuatu.
+
+02:46.680 --> 02:52.050
+Anda harus sangat memahami mereka memahami pengorbanan.
+
+02:52.050 --> 02:53.660
+Jadi itulah yang kami lakukan di sini.
+
+02:53.670 --> 02:59.040
+Saya tahu saya perlu waktu lama untuk mencapai poin saya, tetapi kami mencoba membangun dasar-dasarnya sebelum
+
+02:59.040 --> 03:03.050
+kami menyelam lebih dalam sehingga kami memahami mengapa dari setiap hal.
+
+03:03.330 --> 03:10.110
+Kami sedang membangun fondasi ini dengan terlebih dahulu memahami big-O yang kami lakukan di bagian sebelumnya
+
+03:10.560 --> 03:14.000
+dan kemudian belajar bagaimana menyelesaikan masalah ini.
+
+03:14.400 --> 03:21.510
+Pada bagian ini saya akan menunjukkan kepada Anda langkah demi langkah apa yang perlu kita lakukan untuk menyelesaikan masalah dengan
+
+03:21.510 --> 03:25.940
+cara yang sangat disukai perusahaan sehingga Anda berhasil dalam wawancara pengkodean ini.
+
+03:26.010 --> 03:33.210
+Kita akan melihat beberapa sampel wawancara pengkodean dari Google dan melihat apa yang mereka lakukan dan apa proses
+
+03:33.210 --> 03:36.120
+yang ideal untuk mempercepat wawancara ini.
+
+03:36.740 --> 03:43.550
+Sehingga sekali kita memiliki fondasi ini kita dapat menggunakan struktur data dan algoritma untuk menyelesaikan masalah
+
+03:44.300 --> 03:50.440
+kita karena wawancara itu bukan tentang kemampuan Anda untuk menghafal struktur data dan algoritma.
+
+03:50.570 --> 03:57.830
+Sebagian besar orang melakukan kesalahan itu dan pewawancara dapat langsung mendeteksi siapa yang sebenarnya mengetahui hal-hal
+
+03:57.890 --> 04:01.670
+ini dibandingkan hanya menghafalnya seminggu sebelum wawancara.
+
+04:01.760 --> 04:08.720
+Jadi, bagaimana Anda dapat melakukan wawancara pengodean di bagian ini kita akan berbicara tentang wawancara teknis dan bagaimana
+
+04:08.990 --> 04:11.300
+cara untuk berhasil di dalamnya.
+
+04:11.360 --> 04:17.060
+Saya akan menunjukkan kepada Anda seperti apa wawancara sukses di Google dan kemudian memecah semuanya.
+
+04:17.060 --> 04:19.790
+Selangkah demi selangkah mengapa Anda perlu melakukannya.
+
+04:19.820 --> 04:25.340
+Saya juga akan memberi Anda lembar contekan kecil yang bagus untuk merangkum semua yang ada di bagian ini sehingga
+
+04:25.400 --> 04:27.480
+Anda selalu dapat melihatnya sebelum wawancara.
+
+04:28.300 --> 04:34.690
+Pada akhirnya kita akan menyelesaikan sendiri masalah pengkodean seperti yang Anda lakukan dalam wawancara dan menganalisis berbagai
+
+04:34.750 --> 04:36.520
+solusi untuk masalah itu.
+
+04:36.610 --> 04:42.210
+Berdasarkan apa yang telah kita pelajari sampai sekarang kita akan mencari cara terbaik
+
+04:42.520 --> 04:48.640
+untuk menyelesaikan masalah tetapi juga menganalisis solusi big-O yang berbeda dalam hal ruang dan waktu.
+
+04:48.850 --> 04:52.440
+Pada akhir bagian ini, Anda akan memiliki momen aha besar.
+
+04:52.600 --> 04:55.780
+Saya jamin di mana kita akan mengambil semua yang telah kita pelajari.
+
+04:55.780 --> 05:02.540
+Sampai sekarang menjadi bagian struktur data dan algoritma kami untuk benar-benar memahami pengorbanan. Mari kita
+
+05:02.550 --> 05:03.010
+mulai.
+
+05:03.010 --> 05:03.370
+Yg mirip kerang.

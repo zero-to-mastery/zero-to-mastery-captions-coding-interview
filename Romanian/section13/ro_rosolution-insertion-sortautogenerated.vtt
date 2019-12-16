@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.670 --> 00:05.160
+Bine ați venit înapoi unde sunteți în măsură să dau seama de inserție.
+
+00:06.050 --> 00:10.030
+Am răspunsul aici pentru tine, la fel ca în animație.
+
+00:10.170 --> 00:20.540
+Prima buclă peste matrice și dacă elementul pentru care suntem în buclă este mai mic decât primul element din matrice
+
+00:21.630 --> 00:25.400
+în timp ce noi mutăm elementul respectiv.
+
+00:25.680 --> 00:31.810
+Utilizați metoda de schimbare în matrice și adăugați la primul index din matrice.
+
+00:32.970 --> 00:41.880
+În caz contrar, dacă elementul pe care îl batem în prezent nu este mai mic decât primul indice, în acest caz trebuie să ne dăm
+
+00:41.880 --> 00:44.340
+seama unde trebuie să meargă numărul.
+
+00:44.340 --> 00:50.430
+Așa că vom trece prin lucruri făcând o declarație dacă să vedem unde ar trebui să meargă numerele.
+
+00:50.610 --> 00:57.600
+Și apoi mutăm acel număr la locul potrivit folosind metoda de îmbinare, astfel încât dacă faceți
+
+00:57.930 --> 01:06.350
+clic pe rulați aici avem lista noastră sortată voi renunța din nou la această funcție aici pentru a vă juca cu.
+
+01:06.640 --> 01:11.390
+Dar vreau să vorbesc repede despre complexitatea mare a tipului de inserție.
+
+01:11.440 --> 01:16.470
+Există momente în care sortarea inserției poate funcționa într-adevăr foarte bine.
+
+01:16.660 --> 01:23.760
+Cel mai bun scenariu de caz pentru sortarea inserției atunci când lista este aproape sortită sau datele sunt într-adevăr mici.
+
+01:23.800 --> 01:25.510
+Poate fi foarte rapid.
+
+01:25.780 --> 01:35.180
+Dacă ne întoarcem la micile noastre animații aici și ne uităm la sortarea inserției într-o listă de date sortată și fac clic pe redare,
+
+01:35.190 --> 01:40.730
+veți observa că este primul care se va termina destul de repede în comparație
+
+01:40.730 --> 01:41.940
+cu toate celelalte.
+
+01:41.990 --> 01:42.920
+Să vedem asta din nou.
+
+01:45.860 --> 01:53.600
+Veți vedea că este primul făcut destul de repede și cum vom discuta în următoarele videoclipuri când vine vorba de seturi
+
+01:53.600 --> 02:01.020
+de date mici sau seturi de date care sunt aproape de genul în care doriți să utilizați sortarea inserției peste majoritatea
+
+02:01.040 --> 02:02.840
+altor algoritmi de sortare.
+
+02:02.960 --> 02:03.600
+Foarte bine.
+
+02:03.710 --> 02:06.020
+Să trecem la următorul algoritm de sortare.

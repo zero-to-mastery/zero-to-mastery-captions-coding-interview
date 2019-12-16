@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.980 --> 00:01.820
+Welcome back.
+
+00:02.190 --> 00:09.540
+Let's start off with the iterative approach that is no recursion if we want to run the function let's
+
+00:09.540 --> 00:20.940
+say find factorial iterative five while we can create a variable let's say cancer and for now this answer
+
+00:20.940 --> 00:31.980
+will be one and all we're going to do is do a for loop will say Let i have cost zero or in our case
+
+00:31.980 --> 00:33.510
+to simplify things.
+
+00:33.570 --> 00:43.040
+Let's start at two and I'm going to explain in a second why we want to start a two to say I is less
+
+00:43.040 --> 00:50.580
+than the number and then we're going to increment by 1.
+
+00:50.640 --> 00:55.480
+Now why are we starting add to.
+
+00:55.600 --> 00:57.510
+You might notice a short cut here.
+
+00:58.250 --> 01:08.520
+1 factorial is just one two factorial is two times 1 which is just two.
+
+01:08.560 --> 01:11.210
+So these last two bits.
+
+01:11.290 --> 01:18.790
+If somebody says one factorial or two factorial which is just simply return the number that they've
+
+01:18.790 --> 01:22.890
+entered because there's no real calculation that we need to do.
+
+01:22.960 --> 01:33.440
+So this is a little shortcut so we avoid extra loops but just saying that if the number that the user
+
+01:33.440 --> 01:36.200
+enters is let's say 2.
+
+01:36.200 --> 01:39.750
+So that is two is not greater than number two.
+
+01:41.080 --> 01:49.960
+The way we have it now if somebody enters find factorial iterative 2 we're going to return 1 but instead
+
+01:49.990 --> 02:00.520
+we can just say maybe a simple conditional check saying that if number equals two we'll just say that
+
+02:00.520 --> 02:04.530
+answer equals to 2.
+
+02:04.630 --> 02:14.210
+So that if I ran this function and just say to I get two if I say one I get one and there's other checks
+
+02:14.210 --> 02:16.740
+that we can do obviously.
+
+02:17.180 --> 02:19.490
+But for our case this is good enough.
+
+02:19.490 --> 02:22.270
+Let's look at what we can do inside of here.
+
+02:23.270 --> 02:33.740
+Well the way factorial works is to simply say answer is going to equal answer times by.
+
+02:33.960 --> 02:41.950
+So that if I click Quraan here and let's do five I get 24 which is actually not the right answer because
+
+02:42.190 --> 02:50.970
+five times four is 20 times three is well clearly higher than 24.
+
+02:51.370 --> 02:56.800
+And that's because of a little mistake here we want to make sure that this is equals because we want
+
+02:56.800 --> 02:58.900
+to include the number five.
+
+02:59.260 --> 03:09.800
+So if I run this again I get a hundred and twenty which is the right answer five times four is 20 times.
+
+03:09.940 --> 03:20.940
+Times three is 60 times two is 120 times one is just 120 perfect.
+
+03:21.280 --> 03:24.650
+So hopefully you got that answer correct.
+
+03:25.570 --> 03:27.540
+What about the recursive approach.
+
+03:29.750 --> 03:41.910
+In the recursive version we'll just do a simple check saying if number is equal to 2 and we can do other
+
+03:41.910 --> 03:42.550
+checks as well.
+
+03:42.570 --> 03:46.590
+But that should be enough for now for us to create a base case.
+
+03:46.590 --> 03:55.570
+So if the number gets to 2 we'll just return to there's our base case.
+
+03:55.600 --> 03:57.120
+That's how we stop.
+
+03:57.190 --> 04:09.360
+Next we're going to return our recursive version which will simply be number times the function.
+
+04:09.470 --> 04:16.050
+And in this function we're just going to say number minus one.
+
+04:16.460 --> 04:17.830
+And that's the key here.
+
+04:18.020 --> 04:25.500
+We want to always get lower and lower until we hit the base case.
+
+04:25.520 --> 04:29.870
+So if I hit run here let's do recursive this time
+
+04:33.010 --> 04:41.570
+I'm going to move this up over here and if I had run I also got 120.
+
+04:41.750 --> 04:44.380
+And this is a little hard to wrap your mind around.
+
+04:44.450 --> 04:50.540
+So you might want to copy this code and open up Google Chrome developer tools like I showed you and
+
+04:50.540 --> 04:52.190
+go step by step.
+
+04:52.280 --> 04:57.680
+But if we start with the number five here well there's five equal.
+
+04:57.750 --> 04:58.280
+No.
+
+04:58.400 --> 05:11.330
+Then we'll say five times fine factorial for be our answer just like the diagram that I showed you.
+
+05:11.740 --> 05:22.810
+And we keep going and keep going until we hit the base case of does the number equal to.
+
+05:22.930 --> 05:29.430
+Now one last bit what do you think the time complexity of these two functions are.
+
+05:30.590 --> 05:38.740
+Well one uses a for loop with the loop being the number associated with it.
+
+05:39.020 --> 05:44.970
+And we're doing a bit of a shortcut here so it's technically less than of and but because of our big
+
+05:45.140 --> 05:48.530
+rules this is still going to beat all of an
+
+05:51.350 --> 05:52.730
+the recursive function.
+
+05:52.750 --> 05:55.280
+If we look at this we are looping.
+
+05:55.330 --> 05:56.540
+How many times.
+
+05:57.130 --> 06:03.640
+Well we're calling the function function find factorial recursive recursive the same number of times
+
+06:03.700 --> 06:05.760
+as the number itself.
+
+06:05.770 --> 06:12.350
+So this also becomes so of an if you've got this question.
+
+06:12.370 --> 06:13.080
+Good job.
+
+06:13.090 --> 06:14.010
+It's a tough one.
+
+06:14.020 --> 06:17.430
+If you didn't don't worry we have another one coming up.
+
+06:17.500 --> 06:18.830
+I'll see in the next one.
+
+06:18.960 --> 06:19.190
+Babai.

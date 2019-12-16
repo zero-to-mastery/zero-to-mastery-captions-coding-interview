@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.780 --> 00:01.950
+Welcome back.
+
+00:01.950 --> 00:04.370
+Hopefully that wasn't too bad.
+
+00:04.590 --> 00:09.720
+Keep in mind that when it comes to interviewing interviewers want you to know that you understand the
+
+00:09.720 --> 00:10.750
+concepts.
+
+00:10.950 --> 00:14.890
+You won't necessarily have to code a binary search sheaf from scratch.
+
+00:14.970 --> 00:21.930
+Most of the time at least because in real life you have things like this library that somebody else
+
+00:21.930 --> 00:29.220
+created that allows you to use Treach reversal and manipulation techniques because this has already
+
+00:29.220 --> 00:36.720
+been done before and you can see by using a library like this that you can just use it and create the
+
+00:36.720 --> 00:38.240
+tree that you want.
+
+00:38.250 --> 00:44.790
+Most likely you're not going to implement it from scratch by yourself but we do want to understand the
+
+00:44.790 --> 00:47.310
+fundamentals and how it works.
+
+00:47.310 --> 00:49.420
+So if this was challenging to you.
+
+00:49.650 --> 00:50.570
+Don't get frustrated.
+
+00:50.580 --> 00:54.350
+This doesn't make you a bad engineer or a bad coder.
+
+00:54.570 --> 01:00.630
+You're just working towards building those fundamentals so that you can use tools like this in the future
+
+01:00.960 --> 01:03.140
+and still understand how they work.
+
+01:04.760 --> 01:05.660
+But enough talk.
+
+01:05.840 --> 01:07.180
+Let's get to the answer.
+
+01:07.580 --> 01:11.420
+I want to create a tree that looks something like this.
+
+01:12.720 --> 01:17.850
+So the first thing I'm going to do is work on the insert function.
+
+01:17.960 --> 01:24.110
+Now within this entire function the very first thing I want to do is to say well we want to create the
+
+01:24.110 --> 01:24.620
+new node
+
+01:27.930 --> 01:32.960
+and we'll say new node will be the value.
+
+01:33.030 --> 01:37.650
+So we're just creating a new low class instantiating it with the value.
+
+01:37.710 --> 01:39.290
+And that's our new no now.
+
+01:39.600 --> 01:41.360
+So we have a reference to it.
+
+01:41.400 --> 01:42.910
+The first thing we want to check.
+
+01:43.230 --> 01:49.830
+Well if the tree is empty and there's no Rudin node Well we should add this as our root node.
+
+01:49.860 --> 01:53.250
+So I'm going to say this dot root equals no.
+
+01:53.430 --> 02:01.790
+If that's the case then simply make the root node our current node that we inserted.
+
+02:01.860 --> 02:05.940
+Nice and easy and just to check that this is working.
+
+02:06.040 --> 02:11.100
+If I comment all of this out and click run.
+
+02:11.300 --> 02:12.510
+There you go.
+
+02:12.590 --> 02:20.930
+Our root node has a value of 9 left as nil right is no because it's the only note and by the way to
+
+02:20.930 --> 02:28.970
+show you how this string works it's really really useful because if I copy this and just point out here
+
+02:28.970 --> 02:33.270
+that I'm not copying the quotation marks which makes it a string.
+
+02:33.680 --> 02:35.750
+And if I open up developer tools
+
+02:39.630 --> 02:47.450
+and Google Chrome and I go to my console tab I can copy and paste this.
+
+02:47.650 --> 02:55.060
+Press enter and now I have access to this tree and it's a lot easier for me to view.
+
+02:55.180 --> 03:01.450
+And once we insert other nodes you'll see that it's very easy to traverse this tree this way and check
+
+03:01.450 --> 03:02.750
+your work.
+
+03:02.850 --> 03:06.750
+Which is why I added this function so we'll come back to that.
+
+03:06.750 --> 03:14.180
+For now we see that our insert is working Olly's for if the root node is no but let's continue.
+
+03:14.190 --> 03:18.450
+If that's not the case we'll say.
+
+03:18.450 --> 03:30.360
+Else if the root node is already filled will say that the current node will be the star route because
+
+03:30.360 --> 03:38.440
+we're going to have to traverse this note and we won't know how long we're going to traverse the snowfall.
+
+03:38.770 --> 03:43.470
+We want to keep traversing until we find a place to insert this.
+
+03:43.780 --> 03:48.620
+And this is a bit tricky but something you'll get used to when you're building trees.
+
+03:48.730 --> 03:54.430
+We want to use a while loop and the condition we're going to use is true.
+
+03:54.760 --> 03:59.790
+That means just keep looping every time because true is always going to equal.
+
+03:59.800 --> 04:06.130
+True and we have to be careful here if we do this we want to make sure that there is a way for us to
+
+04:06.400 --> 04:07.840
+exit out of this loop.
+
+04:07.840 --> 04:13.290
+Otherwise we're going to have an infinite loop and will crash our little page here.
+
+04:13.330 --> 04:15.580
+So what are the conditions that we're going to loop through.
+
+04:15.580 --> 04:23.940
+We want to traverse through the tree Well the first check we're going to do is say if value is remember
+
+04:23.940 --> 04:25.860
+value is while we insert.
+
+04:25.860 --> 04:30.540
+If that is less than the current no dot value.
+
+04:30.660 --> 04:35.610
+So we'll start from the root note and say hey is the value that we are entering less than the current
+
+04:35.610 --> 04:36.470
+node value.
+
+04:36.810 --> 04:39.250
+If that's the case we know the rules.
+
+04:39.390 --> 04:45.160
+So we're going to go left if it devalues less than the current note.
+
+04:45.240 --> 04:59.920
+Now in here we want to check first of all if there is no current node got left is there an element already
+
+05:00.130 --> 05:08.620
+to the left of the root node because if there isn't in that case we can just assign the current node
+
+05:08.860 --> 05:17.900
+dot left to our you know that we want to enter because there's nothing there and we can just return
+
+05:17.900 --> 05:23.450
+out of this loop and just return our this which is the binary search tree.
+
+05:23.470 --> 05:29.730
+However if there is something to the left of our note let's say in this case 9.
+
+05:29.870 --> 05:37.190
+In that case we'll say current note is going to equal current node dot left.
+
+05:37.280 --> 05:43.640
+So we're going to update and shift over so that the current node is no longer 9 it's whatever is to
+
+05:43.640 --> 05:49.430
+the left of 9 and that's going to keep us looping.
+
+05:49.690 --> 05:56.170
+So we're going to keep looping keep looping keep looping until we hit a node that doesn't have a left
+
+05:56.260 --> 06:04.140
+hand side so that we can place the current node for our node into its place.
+
+06:04.290 --> 06:05.470
+But that's for the left side.
+
+06:05.490 --> 06:14.420
+If the value is less than the current node if the value is greater or in this case equal to our current
+
+06:14.420 --> 06:18.820
+node and we can decide here where we want to place values that are equal.
+
+06:18.860 --> 06:26.860
+That's up to us and how we want to implement it will say that we'll go right if value is greater or
+
+06:26.860 --> 06:28.980
+equal to current node.
+
+06:29.070 --> 06:34.540
+In that case what we want to do the first check first which is if current NO.
+
+06:35.040 --> 06:35.540
+Right.
+
+06:35.550 --> 06:41.700
+There's nothing to it there's nothing next to it to the right of it in that case just like a bar against
+
+06:41.700 --> 06:42.380
+a current.
+
+06:42.420 --> 06:45.480
+No dot right equals the new node
+
+06:49.030 --> 06:54.430
+and we're also going to return this because we want to stop looping
+
+06:57.740 --> 07:01.800
+remember as soon as we have a point or two.
+
+07:01.820 --> 07:09.590
+No that's when we want to exit out of this wild loop that's going to loop forever Otherwise we simply
+
+07:09.650 --> 07:13.870
+say the current node is going to equal current.
+
+07:14.100 --> 07:19.610
+No dot great.
+
+07:19.830 --> 07:20.960
+And there you go.
+
+07:21.420 --> 07:23.570
+Hopefully this works.
+
+07:24.540 --> 07:28.400
+But before we test this out and see if we meet any minor mistakes.
+
+07:28.620 --> 07:36.180
+I do want to warn you if you are just coding along I encourage you to pause the video and think through
+
+07:36.450 --> 07:43.770
+line by line maybe even drawing things out maybe using visual go to see what we're doing because it's
+
+07:43.770 --> 07:45.940
+really hard to keep this in your head.
+
+07:45.990 --> 07:48.660
+Even myself I can code this from scratch.
+
+07:48.720 --> 07:55.830
+It takes me a bit of time to think things through and see how we wanna structure the code so don't feel
+
+07:55.830 --> 08:02.130
+frustrated if this is a bit overwhelming I encourage you to pause the video try to code along and understand
+
+08:02.130 --> 08:04.810
+what's happening step by step.
+
+08:04.810 --> 08:05.620
+All right.
+
+08:05.620 --> 08:06.860
+Let's test this.
+
+08:07.880 --> 08:11.420
+I have an insert of 9 here if I click this run that's working.
+
+08:11.420 --> 08:14.470
+If I answer it for.
+
+08:14.640 --> 08:14.960
+All right.
+
+08:14.970 --> 08:16.630
+Looks like four got inserted.
+
+08:16.650 --> 08:18.830
+What about six.
+
+08:18.830 --> 08:19.120
+All right.
+
+08:19.130 --> 08:23.650
+I'm just going to comment all this out and see if that works.
+
+08:23.660 --> 08:26.250
+I'm going to click run.
+
+08:26.260 --> 08:26.890
+All right.
+
+08:26.950 --> 08:28.890
+Looks like we've logged out everything.
+
+08:29.050 --> 08:34.930
+But I want to test make sure that everything is working as expected.
+
+08:34.930 --> 08:40.630
+So what I'm going to do is I'm going to copy and paste this remember without the quotes at the end because
+
+08:40.630 --> 08:41.980
+I don't want to copy the string.
+
+08:42.200 --> 08:52.530
+I want to copy the object and I'm going to again open my developer tools go to cons. clear my code and
+
+08:52.530 --> 08:54.330
+then just copy and paste.
+
+08:54.480 --> 08:55.530
+Hit enter.
+
+08:55.740 --> 09:00.500
+And now we can test our tree and you scroll down here.
+
+09:00.540 --> 09:02.430
+This is the tree that we want.
+
+09:02.430 --> 09:06.130
+We have nine of the top to the left and to the right.
+
+09:06.130 --> 09:07.830
+We have four and 20 look of that.
+
+09:07.840 --> 09:08.920
+That's good.
+
+09:09.040 --> 09:18.310
+And two when we go to the four we have left is one right is 6 awesome and one should have normal to
+
+09:18.310 --> 09:19.810
+the right and left perfect.
+
+09:19.810 --> 09:21.390
+Same with six.
+
+09:21.460 --> 09:22.310
+Perfect.
+
+09:22.660 --> 09:24.820
+And if we scroll down let's look at 20.
+
+09:24.850 --> 09:32.790
+It should have not only should have 15 and 170 has this Shulgin we have 59 170.
+
+09:32.790 --> 09:36.900
+And both of those are pointing to no.
+
+09:37.010 --> 09:39.960
+Not bad not bad at all.
+
+09:40.020 --> 09:44.720
+Wasn't too bad once you get a hang of it and code this on your own.
+
+09:44.870 --> 09:46.860
+You'll see that it makes sense.
+
+09:46.880 --> 09:54.410
+It's all just logic and something that we've learned when working with linked lists in the next video
+
+09:54.410 --> 09:55.950
+we're going to try and tackle.
+
+09:55.980 --> 10:03.160
+Look up if you weren't able to implement insert please try and do that now before we get to look up.
+
+10:03.260 --> 10:05.660
+Otherwise try to implement.
+
+10:05.690 --> 10:09.770
+Look up on your own and I'll see you in the solution video.
+
+10:09.850 --> 10:10.010
+Bobby.

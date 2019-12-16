@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.960 --> 00:04.100
+Welcome back while playing with visual go.
+
+00:04.100 --> 00:10.870
+Did you notice a problem with binary search trees if not let me demonstrate something to you.
+
+00:10.870 --> 00:15.960
+Let's say I keep inserting here let's say 86
+
+00:20.720 --> 00:24.070
+and then while that's going I'll also insert 90
+
+00:28.420 --> 00:37.260
+and finally I'll insert ninety nine.
+
+00:37.380 --> 00:38.050
+All right.
+
+00:38.250 --> 00:41.160
+What is the problem with this.
+
+00:41.160 --> 00:49.710
+Well you can imagine a situation where we have this really unbalanced binary search tree where all the
+
+00:49.710 --> 00:53.250
+nodes just keep getting added to the right to the right to the right to the right.
+
+00:54.210 --> 00:59.970
+If we imagine that we deem and have this section this all of a sudden turns into a Link List where we're
+
+00:59.970 --> 01:04.780
+just looping through every single note.
+
+01:05.000 --> 01:08.180
+This is a big problem that comes with binary search trees.
+
+01:08.240 --> 01:13.600
+That is you can have balanced search trees like the one right here.
+
+01:13.610 --> 01:21.920
+That gives us this log and performance but then also have unbalanced ones where it sort of turns into
+
+01:21.920 --> 01:30.470
+a long linked list where instead of being able to do the log and operations you now have to move through
+
+01:30.530 --> 01:39.680
+every single note and look up and searches become o event or linear time and you even saw in our visual
+
+01:39.680 --> 01:45.650
+go demonstration how slow it took to insert items because they had to loop through so many things.
+
+01:45.680 --> 01:50.750
+One of the keys that you'll have to remember and this is a question that you might get asked in interviews
+
+01:51.200 --> 01:56.060
+is why an unbalanced binary search tree is bad.
+
+01:56.060 --> 01:59.770
+And I hope this demonstrates why it's not a good idea.
+
+01:59.780 --> 02:08.150
+Ideally we want to balance our search trees so that we can have this performance optimization if we
+
+02:08.150 --> 02:10.220
+go to our big O Chichi.
+
+02:10.340 --> 02:19.670
+We see that with binary search trees that we have all log of N for most things which is average.
+
+02:19.760 --> 02:26.420
+But when it comes to worst case when we have an unbalanced tree that all operations are O then or linear
+
+02:26.420 --> 02:27.160
+time.
+
+02:27.350 --> 02:34.240
+So you might be asking yourself how do you balance a tree and luckily for us there's algorithms that
+
+02:34.240 --> 02:36.170
+help us do that.
+
+02:36.250 --> 02:42.250
+It is really advanced and we will talk about it after we build our own tree and some of the options
+
+02:42.250 --> 02:43.300
+that we have.
+
+02:43.480 --> 02:50.110
+For example we have things like a V L trees and red black trees that allow us to make sure that our
+
+02:50.110 --> 02:56.910
+binary search tree is going to be balanced luckily for us they are built in most programming languages
+
+02:57.330 --> 03:04.620
+and an interview questions they won't really ask you to balance a binary circuitry because well it can
+
+03:04.620 --> 03:10.710
+get pretty complicated and time consuming and interviews usually don't have enough time to get you to
+
+03:10.710 --> 03:11.130
+do that.
+
+03:11.130 --> 03:17.790
+The idea is to be able to talk about it and know that there are ways to balance a surgery and be able
+
+03:17.790 --> 03:20.730
+to talk about the tradeoffs just like we did.
+
+03:20.790 --> 03:27.150
+Now we're going to talk about these two ways of balancing this surgery in an upcoming video but for
+
+03:27.150 --> 03:31.990
+now let's just focus on the basics in the next video.
+
+03:31.990 --> 03:36.230
+I want to talk about the pros and cons of using something like a binary search tree.
+
+03:36.340 --> 03:41.410
+And then finally implement our own I'll see in the next one by.

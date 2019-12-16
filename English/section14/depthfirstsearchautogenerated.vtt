@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.860 --> 00:09.250
+Welcome back let's implement depth first search using in order preorder and post order and we're going
+
+00:09.250 --> 00:12.700
+to start off with in order.
+
+00:12.700 --> 00:13.040
+First
+
+00:16.820 --> 00:21.560
+now let's name this let's call it depth first.
+
+00:22.740 --> 00:28.490
+Traversal or search in this case and we'll say in order.
+
+00:28.760 --> 00:35.570
+Now within here we're going to use recursion because while most of the time def first search is implemented
+
+00:35.600 --> 00:39.190
+using recursion because it's quite simple to do so.
+
+00:39.230 --> 00:45.900
+As you'll see but if you remember from implementing breadth first search with recursion because we're
+
+00:45.900 --> 00:48.030
+going to be calling this function over and over.
+
+00:48.030 --> 00:52.690
+We can't just declare variables inside of it because they'll be reset.
+
+00:52.800 --> 00:59.870
+So we're going to do the same thing as we did here but to keep things clean and to also show you how
+
+00:59.990 --> 01:06.300
+different ordered def for searches work because we're going to have three of them.
+
+01:06.560 --> 01:17.370
+We're going to have in order Post order and pre order I'm going to create three separate functions down
+
+01:17.370 --> 01:20.500
+here describing these.
+
+01:20.520 --> 01:29.240
+So all I'm going to say in here is we're going to have return to reverse in order function.
+
+01:29.340 --> 01:40.220
+This will be our recursive function and DFS in order method simply returns whatever gives us this result.
+
+01:40.530 --> 01:44.130
+So in our case we're going to add this Daut route.
+
+01:44.130 --> 01:52.780
+Start off with our root node and we're going to give it a list or our answers will be entered and we're
+
+01:52.780 --> 02:00.420
+going to do the same thing for post order and preorder just naming them.
+
+02:00.700 --> 02:05.530
+There are appropriate ways.
+
+02:05.640 --> 02:08.910
+So let's write the first function Cerveris.
+
+02:09.060 --> 02:14.350
+If I can spell traverse post order and preorder you.
+
+02:14.640 --> 02:16.280
+Let's start off with the first one.
+
+02:16.500 --> 02:21.920
+It's going to be a function called traverse in order that we created up above.
+
+02:21.960 --> 02:30.810
+That's going to get a node and some sort of data or we can call it list.
+
+02:30.830 --> 02:40.410
+In this case now remember that in order is going to give us the list of nodes in order in sorted order
+
+02:41.100 --> 02:49.390
+if we look at our tree we want to ideally have 1 4 6 9 15 20 170.
+
+02:49.830 --> 02:57.510
+And the way we go about doing that is well first of all we're going to check hey does the node have
+
+02:57.540 --> 02:58.690
+a left chop.
+
+02:58.950 --> 03:09.340
+If it does well then we're going to church verse all the way down using recursion to node dot laughed
+
+03:10.560 --> 03:14.890
+and pass data again.
+
+03:14.950 --> 03:22.340
+I know recursion can be tough to grasp at first but all we're saying here is that if the node especially
+
+03:22.340 --> 03:31.380
+the root node when we first start off it if it has a left child which 9 does then traverse all the way
+
+03:31.380 --> 03:38.790
+down keep going left it's going to call this function and it's going to keep going left until the node
+
+03:38.820 --> 03:44.170
+has no more children and we end up at one when we end up at 1.
+
+03:44.190 --> 03:52.840
+I want to well last dot push our answer node dot value.
+
+03:52.980 --> 04:00.930
+So once there's no more node left that is where at one thing go to the next step which is to push this
+
+04:00.930 --> 04:04.090
+value one to the list.
+
+04:04.110 --> 04:08.910
+After that we're going to do the same thing we did up here to the right.
+
+04:09.270 --> 04:15.450
+That is we want to go to check that right now and say hey go all the way to the right until there's
+
+04:15.450 --> 04:16.600
+no more children.
+
+04:17.690 --> 04:26.450
+And now we have six and we go through this function once again when we have six.
+
+04:26.600 --> 04:37.490
+There's no left child and it's going to push the current node value which is 6 to the right so let's
+
+04:37.550 --> 04:39.250
+actually console log this.
+
+04:39.530 --> 04:41.440
+And by the way we want to return.
+
+04:41.480 --> 04:45.920
+Remember we want to return the list at the end.
+
+04:46.160 --> 04:56.010
+So I'm going to console the log node dot thali and if I click run here or let's make sure this works
+
+04:56.060 --> 04:57.840
+I'm going to say Traverse in order
+
+05:01.110 --> 05:13.030
+I'm going to comment out these two and say tree dot D at fast in order and we're just going to run this
+
+05:15.590 --> 05:21.670
+file around this who I get data is not defined.
+
+05:21.670 --> 05:27.130
+Because what this has to be list over here past the LIST.
+
+05:27.340 --> 05:29.880
+Hey let's run and look at that.
+
+05:29.890 --> 05:39.040
+We have 1 4 6 9 15 20 170 and we see here the path that we took because I consol look to your right.
+
+05:39.130 --> 05:43.990
+We have 9 4 1 then 6.
+
+05:44.160 --> 05:54.970
+Then we go back to 20 15 then 170 but because we're pushing our answers to the list after we verified
+
+05:54.970 --> 06:01.560
+the left notes and traversed all the way down the lowest numbers get put into the list.
+
+06:01.570 --> 06:10.520
+Now the beauty of this is that implementing the other two now becomes extremely easy because they're
+
+06:10.530 --> 06:12.040
+very similar.
+
+06:12.040 --> 06:13.860
+Just the order changes.
+
+06:14.260 --> 06:17.800
+So the next one which is traverse let's say
+
+06:20.400 --> 06:22.660
+preorder.
+
+06:22.820 --> 06:29.720
+The only difference now is that well you've got to make sure that we recursively call the right name.
+
+06:30.950 --> 06:41.950
+The only difference is that with preorder we want to push at the very beginning before we get to the
+
+06:41.950 --> 06:43.360
+very left note.
+
+06:43.930 --> 06:54.330
+Because remember in a pre order traversal we go 9 4 1 6 then 20 15 170.
+
+06:54.340 --> 06:57.200
+We start with the parents first and that's the order.
+
+06:57.640 --> 07:01.820
+So we push the parent first which is 9.
+
+07:01.960 --> 07:07.740
+Then we got four then one then we get six and 20 and 50 than 170.
+
+07:08.630 --> 07:10.040
+Let's see if that works.
+
+07:10.160 --> 07:16.240
+I'm going to change this to pre order make sure I spell that right.
+
+07:17.170 --> 07:22.420
+Preorder purrfect and then head run and look at that.
+
+07:22.560 --> 07:32.830
+We went 9 4 1 6 20:15 170 in that order in the list.
+
+07:32.840 --> 07:37.360
+Now here you can pause the video and see if we can implement the last one yourself.
+
+07:37.370 --> 07:39.060
+It should be fairly simple.
+
+07:39.170 --> 07:40.160
+Right.
+
+07:40.250 --> 07:40.510
+All right.
+
+07:40.520 --> 07:41.630
+I'm going to get going.
+
+07:42.330 --> 07:45.700
+The Post order is going to be very similar.
+
+07:46.940 --> 07:57.360
+We'll say Traverse post order we'll have the last push at the very end.
+
+07:59.330 --> 08:01.000
+And why is that.
+
+08:01.190 --> 08:14.260
+Because we check 1 6 the left and the right and then the top four then 15 170 20 then 9.
+
+08:14.320 --> 08:18.410
+So the order as the name suggests is post is at the end.
+
+08:18.940 --> 08:22.140
+So if I changed just to post order now.
+
+08:24.370 --> 08:25.850
+And I hit Ron.
+
+08:26.200 --> 08:31.950
+We have her wrong order because I need to make sure I change the names so it's her cursive.
+
+08:32.020 --> 08:37.970
+So we say Traverse porous border posts border posts order not preorder.
+
+08:38.080 --> 08:40.860
+And if I had run that's much better.
+
+08:40.930 --> 08:44.650
+We go nine for one.
+
+08:45.420 --> 08:47.220
+And we start adding this to the list.
+
+08:47.330 --> 09:03.630
+I go 1 6 4 then 15 170 20 and then 9 and if we print all of this out and I click run well let's remove
+
+09:03.630 --> 09:06.090
+the console logs from here.
+
+09:09.930 --> 09:12.240
+And just console log each one of these
+
+09:17.400 --> 09:19.610
+for head run.
+
+09:19.770 --> 09:20.710
+There is our logs.
+
+09:20.740 --> 09:30.220
+We have the post order we have the pre order and now we have the in order.
+
+09:30.430 --> 09:36.370
+All of them are depth first search is just done in different orders.
+
+09:36.530 --> 09:41.750
+Now I'll leave the code for you to explore here because it is recursion.
+
+09:42.020 --> 09:48.050
+It might take a bit of time to get your mind wrapped around it but you see here that it wasn't that
+
+09:48.380 --> 09:50.060
+difficult.
+
+09:50.130 --> 09:56.850
+We implemented breadth first search both atre Tivoli and recursively and we also use depth for a search
+
+09:57.090 --> 10:00.830
+in order Post order and preorder.
+
+10:01.100 --> 10:04.440
+And if you think about it it starts to become more and more clear.
+
+10:04.740 --> 10:06.830
+Especially when it comes to death for search.
+
+10:06.990 --> 10:13.150
+All we're doing is we're checking the left element and the right element or the right note.
+
+10:13.200 --> 10:16.780
+So that is the left reference and right reference of each note.
+
+10:17.340 --> 10:23.610
+And sure we're doing these actions in different order sometimes depending on which ordering strategy
+
+10:23.610 --> 10:25.410
+we choose.
+
+10:25.500 --> 10:28.310
+But we're still doing the same three things.
+
+10:28.410 --> 10:35.470
+We're checking the left checking the right or we're just pushing a node to our list to our answer.
+
+10:35.790 --> 10:42.300
+And for those of you that may have realized we're using a stack data structure right here with the recursion.
+
+10:42.300 --> 10:50.620
+Each of these functions are added to our call stack and we'll start to return as they reach the end.
+
+10:51.930 --> 10:55.990
+That is there is no more left and right children.
+
+10:56.610 --> 11:02.860
+And this is important to understand because it shows the space complexity of death for search.
+
+11:03.030 --> 11:11.260
+The amount of space that we need in terms of memory unlike breadth first search which used the Q The
+
+11:11.260 --> 11:17.650
+height of the tree will tell us how much memory we'll need because the height of the tree will match
+
+11:17.710 --> 11:23.770
+the deepest recursive function and that's what's going to be added to the stack as memory.
+
+11:23.770 --> 11:30.910
+So our memory consumption is all of height of the tree which will give us the worst case scenario when
+
+11:30.940 --> 11:34.570
+using depth first search.
+
+11:34.650 --> 11:44.710
+So now that you understand better how these searches or traversal work I encourage you to go step by
+
+11:44.710 --> 11:47.080
+step code your own.
+
+11:47.080 --> 11:50.800
+See if you can add this to your tree data structure as well.
+
+11:50.800 --> 11:59.470
+Because the beauty is once you know how this works you also just learn how to traverse through a graph.
+
+11:59.580 --> 12:02.000
+Congratulations and I'll see you in the next video.

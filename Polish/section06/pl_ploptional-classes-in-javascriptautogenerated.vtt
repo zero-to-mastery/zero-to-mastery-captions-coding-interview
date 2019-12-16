@@ -1,0 +1,820 @@
+WEBVTT
+
+00:01.220 --> 00:02.450
+Witamy spowrotem.
+
+00:02.450 --> 00:06.110
+Porozmawiamy o niektórych zaawansowanych obiektach koncepcyjnych.
+
+00:06.440 --> 00:13.790
+Teraz, jak już powiedziałem, zarówno z tablicami, jak iz funkcjami, są to zaawansowane koncepcje, które prawdopodobnie nie
+
+00:13.790 --> 00:21.440
+pozwolą ci uzyskać 100% za pierwszym razem, ale wykorzystaj te filmy jako odniesienie, aby powrócić w miarę postępów
+
+00:21.440 --> 00:23.040
+w swojej karierze.
+
+00:24.200 --> 00:29.970
+Teraz w tym filmie omówię trzy rzeczy ważne z obiektami.
+
+00:30.060 --> 00:35.210
+Porozmawiamy o typie referencji.
+
+00:35.300 --> 00:38.000
+Porozmawiamy o kontekście.
+
+00:38.570 --> 00:41.300
+I na koniec porozmawiamy o tworzeniu
+
+00:44.930 --> 00:51.870
+instancji, więc zacznijmy od pierwszego odniesienia do tego, co mam na myśli, gdy mówię o typie referencji, co chciałem
+
+00:51.870 --> 00:55.410
+zobaczyć, czy potrafisz odgadnąć, co się stanie, kiedy to zrobię.
+
+00:55.550 --> 00:58.730
+Tablica równa się tablicy.
+
+00:58.770 --> 01:00.510
+Jak myślisz, jaka będzie odpowiedź.
+
+01:00.540 --> 01:01.000
+Zobaczmy.
+
+01:02.660 --> 01:05.880
+Hmm ciekawe, OK.
+
+01:05.880 --> 01:14.110
+Co jeśli zrobię tablicę, którą on nazwał jeden interesujący OK.
+
+01:14.210 --> 01:15.310
+Jeszcze jedno pytanie.
+
+01:15.500 --> 01:18.320
+Co powiesz na coś takiego.
+
+01:19.380 --> 01:20.660
+Jak obiekt.
+
+01:21.010 --> 01:25.030
+Nazywa wartość 10,
+
+01:29.180 --> 01:48.530
+a my powiemy, że obiekt 2 jest równy obiektowi 1, a ostatecznie obiekt zmienny 3 będzie miał wartość 10.
+
+01:49.400 --> 01:54.650
+Patrząc na nie, a ja zamierzam to skopiować tutaj, żebyś mógł to zobaczyć.
+
+01:59.210 --> 02:00.130
+Patrząc na to.
+
+02:00.260 --> 02:07.370
+Co się stanie, jeśli zobiektuję jeden równa się obiektowi 2.
+
+02:07.400 --> 02:08.460
+Jak myślisz, co się stanie.
+
+02:09.520 --> 02:10.010
+Prawdziwe.
+
+02:10.220 --> 02:10.690
+DOBRZE.
+
+02:10.840 --> 02:11.530
+To ma sens.
+
+02:11.530 --> 02:15.500
+Mam na myśli obiekt to przedmiot 1.
+
+02:15.680 --> 02:22.710
+Ale co, jeśli sprzeciwiam się jednemu, który nazywa obiektem trzecim.
+
+02:22.800 --> 02:25.650
+Tutaj otrzymuję fałsz.
+
+02:25.840 --> 02:31.040
+Ale dlaczego mamy wartość 10 i obie są tym samym.
+
+02:31.210 --> 02:32.390
+Dobrze.
+
+02:32.410 --> 02:33.160
+Wybierzmy coś innego.
+
+02:33.160 --> 02:36.950
+Co się stanie, jeśli sprzeciwiam się jednej wartości.
+
+02:38.170 --> 02:42.370
+Odpowiada 15 OK.
+
+02:42.530 --> 02:45.290
+A teraz sprzeciwiam się ciemnej dolinie,
+
+02:48.330 --> 02:49.970
+która wynosi 15.
+
+02:50.100 --> 02:59.880
+Ale jeśli zadaję 3 brak wartości, dostaję 10 dołka, jak myląca ocena.
+
+02:59.940 --> 03:02.090
+Spójrzmy, co się właściwie dzieje.
+
+03:02.370 --> 03:06.920
+I to jest pierwszy temat, o którym mówimy, który jest typem referencyjnym.
+
+03:07.050 --> 03:08.200
+Spójrzmy na diagram.
+
+03:10.950 --> 03:18.300
+Obiekty są w tym momencie nazywanymi typami referencyjnymi i Javascriptem.
+
+03:18.300 --> 03:24.950
+Wszystkie inne typy javascript, których nauczyliśmy się włączając
+
+03:27.480 --> 03:39.500
+liczby, wiedzą, że mamy nieokreślone ciągi znaków boolean, nawet symbole, które wszystkie są zdefiniowane przez język programowania.
+
+03:39.520 --> 03:48.100
+Więc JavaScript osoba, która napisała javascript i ECMAScript, standard mówi, że są to prymitywne typy.
+
+03:48.100 --> 03:57.910
+Mówimy Ci, czym są teraz typ odniesienia, który nie jest typem pierwotnym, nie są zdefiniowane przez
+
+03:57.910 --> 03:59.850
+języki programowania.
+
+03:59.860 --> 04:06.330
+Oznacza to, że są one tworzone przez programistę.
+
+04:06.360 --> 04:08.730
+Spójrzmy tutaj na przykład.
+
+04:09.710 --> 04:10.880
+Kiedy mówię zmienna.
+
+04:10.880 --> 04:13.150
+Numer jeden jest równy jeden.
+
+04:13.280 --> 04:15.100
+JavaScript wie, co to jest.
+
+04:15.100 --> 04:17.450
+Jest to liczba i jest to typ prymitywny.
+
+04:17.450 --> 04:19.250
+To zawsze to samo.
+
+04:19.550 --> 04:22.010
+Jest niezmienny za każdym razem, gdy używa jednego.
+
+04:22.220 --> 04:25.280
+To ta sama, o której wie javascript.
+
+04:25.400 --> 04:33.150
+Kiedy robię zmienną numer dwa, używa ona tego samego numeru, o którym wie javascript.
+
+04:33.180 --> 04:40.910
+Jednak gdy stworzyliśmy obiekt Twan jest równy wartości 10 w obiekcie, aby równać się obiektowi, gdy wywołania
+
+04:40.910 --> 04:45.540
+obiektu 3 o wartości 10 i zostały utworzone przez programistę.
+
+04:45.580 --> 04:47.020
+Istnieją typy referencyjne.
+
+04:47.140 --> 04:55.240
+Więc powiedzieliśmy, że chcę, aby obiekt Twan utworzył nowy obiekt, powie to okno tutaj, ta szafka na
+
+04:56.510 --> 05:06.530
+dokumenty, i włoży tam wartość 10 do tego obiektu z ramką, mówiąc, że chcę, żebyś po prostu odwoływał się i stąd pochodzi
+
+05:06.530 --> 05:07.650
+to słowo.
+
+05:07.700 --> 05:15.020
+Obiekt referencyjny 1 z informacją, że chcę, aby wszystko znajdowało się w tym polu.
+
+05:16.150 --> 05:26.040
+Kiedy obiekt 3 zostanie utworzony, jest to nowy obiekt, ponieważ mamy nowe nawiasy klamrowe i w tej skrzynce
+
+05:26.040 --> 05:27.720
+wypowiadamy wartość 10.
+
+05:27.720 --> 05:35.250
+Zasadniczo to, co robimy, to mówiąc, że kiedy tworzymy obiekt zmienny, przechowujemy tylko odniesienie do adresu
+
+05:35.250 --> 05:40.460
+do miejsca, w którym przechowujemy wartość 10, czyli Pole 1.
+
+05:40.470 --> 05:43.730
+Więc mówimy obiekt 1.
+
+05:43.920 --> 05:49.610
+Po prostu informuję, że jest to adres wszystkich treści, które chcesz i to
+
+05:49.680 --> 05:55.650
+jest obiekt w mbox 1, który mówi, że chcę coś, co jest obiektem 1.
+
+05:55.680 --> 06:01.200
+I patrzymy na obiekt Twan obiekt Twan właśnie ma informacje z pola 1.
+
+06:01.380 --> 06:08.060
+Więc odnosi się do tego, że obiekt 3 tworzy nowy obiekt.
+
+06:08.060 --> 06:15.110
+Tak więc mówię, że mam zamiar umieścić moją zawartość w polu 3, a ja po prostu będę miał adres skrzynki
+
+06:15.410 --> 06:17.860
+z napisem 3, która jest tutaj.
+
+06:19.450 --> 06:21.040
+Wracając do naszego przykładu,
+
+06:24.230 --> 06:27.990
+ma to sens, gdy zmieniamy obiekt o jedną wartość na 15.
+
+06:28.040 --> 06:31.100
+Zmieniamy zawartość pola 1.
+
+06:31.100 --> 06:39.290
+Kiedy więc sprzeciwiamy się wartości Daube, która odwołuje się do tego samego pudełka, co obiekt 1, który ma 15, ale obiekt 3
+
+06:39.290 --> 06:45.680
+Wartość psa nie zmienia się, ponieważ to jest zainteresowane zupełnie innym polem, to jest pole 3
+
+06:46.670 --> 06:48.700
+i wraca do pierwszego przykładu.
+
+06:50.760 --> 06:51.550
+Tablice.
+
+06:51.830 --> 06:59.020
+Jak już wspomniałem w poprzednich filmach tablice są tylko obiektami, które zakończyły dzień.
+
+06:59.030 --> 07:05.130
+Więc kiedy tworzysz tablicę, to samo tworzy skrzynkę z strukturą danych.
+
+07:05.450 --> 07:09.720
+A to tworzy drugą prawidłowość struktury danych.
+
+07:09.800 --> 07:16.910
+To jest typ odniesienia, ale bardzo ważna, ale myślę, że dobrze ci idzie.
+
+07:17.620 --> 07:18.930
+Przejdźmy do następnego.
+
+07:18.940 --> 07:20.980
+To staje się trochę trudniejsze.
+
+07:21.010 --> 07:30.050
+Ten nazywa się kontekstem i kontekstem bardzo się myli z zasięgiem.
+
+07:30.140 --> 07:37.180
+Jeśli pamiętasz, powiedzieliśmy, że zakres jest tworzony, gdy widzi nawiasy klamrowe.
+
+07:37.220 --> 07:44.990
+Powiedzieliśmy, że jeśli utworzymy funkcję, gdy tylko stworzymy tę funkcję, powstanie nowy
+
+07:44.990 --> 07:46.050
+zakres.
+
+07:46.400 --> 07:57.490
+Tak więc możemy pozwolić, aby równy a, i który żyje w tym wszechświecie.
+
+07:57.500 --> 08:02.120
+Nie wie nic na temat zakresu głównego, który jest tutaj.
+
+08:02.120 --> 08:06.630
+Więc jeśli robię konsolę log AA, to nie zadziała.
+
+08:06.850 --> 08:12.190
+No i musimy coś przypisać, a my musimy nazwać to większym powiedzeniem B.
+
+08:12.260 --> 08:20.760
+Więc jeśli zrobię to dobrze konsoli lub dziennika, po prostu zwróci błąd odniesienia, ponieważ nie istnieje.
+
+08:20.760 --> 08:22.290
+To jest zakres.
+
+08:22.350 --> 08:31.470
+Teraz, jak kontekst różni się kontekstem, mówi ci, gdzie jesteśmy w obiekcie.
+
+08:31.470 --> 08:32.560
+Pozwól mi wyjaśnić.
+
+08:32.910 --> 08:38.870
+Jeśli powiemy, że konsola lalka rejestruje to.
+
+08:39.060 --> 08:44.910
+Cóż, widzę, że wyróżniam się i po raz pierwszy widzimy to i jest to specjalne
+
+08:44.910 --> 08:46.270
+słowo w javascript.
+
+08:46.290 --> 08:52.140
+Prawdopodobnie najbardziej mylące słowo, że wiele osób ma kłopoty, a nawet ludzie, których jestem w branży
+
+08:52.140 --> 08:57.110
+od lat, wciąż mają z tym trudny czas, ale zobaczmy, co to jest.
+
+08:57.510 --> 09:03.900
+To jest tak, jak widać obiekt okna.
+
+09:03.940 --> 09:14.550
+Tak więc, aby dokładnie sprawdzić, czy robię konsolę lub loguję to okno równości, staje się prawdą.
+
+09:14.780 --> 09:23.950
+I mam dostęp do tego powiadomienia o kropkach.
+
+09:23.980 --> 09:35.620
+To, co to oznacza, jest tym, czym jest obiekt, w którym obecnie się znajdujemy, najlepiej jest myśleć
+
+09:35.620 --> 09:42.450
+o tym, co znajduje się po lewej stronie kropki.
+
+09:42.460 --> 09:49.860
+W tej chwili jestem w stanie zrobić alert, ponieważ jestem wewnątrz obiektu okna.
+
+09:50.110 --> 09:53.960
+Czynienie okna lub robienie tego jest tą samą rzeczą.
+
+09:54.160 --> 09:57.110
+Dlaczego tak jest ważne.
+
+09:57.270 --> 10:04.050
+Cóż, gdy będziemy tworzyć instancję, pokażę ci, dlaczego tak jest, ale jest to bardzo ważna koncepcja, którą zobaczysz
+
+10:04.050 --> 10:05.430
+raz za razem.
+
+10:05.490 --> 10:15.780
+Ale pamiętaj, że to właśnie odnosi się do tego, jaki przedmiot znajduje się w jeszcze dwóch innych przykładach, aby zademonstrować,
+
+10:17.200 --> 10:23.410
+że jest to funkcja, w której działa funkcja Withem, a powiedzą,
+
+10:26.190 --> 10:29.090
+że pies konsolowy rejestruje to.
+
+10:29.120 --> 10:39.260
+Więc jeśli nazywam to, co myślisz, dzieje się Lucy nadal obiekt okna to nadal odnosi się do funkcji.
+
+10:39.360 --> 10:46.710
+A jeśli pamiętasz, to dlatego, że powiedziałem, że to musi być ten obiekt, w którym teraz jesteśmy.
+
+10:46.790 --> 10:47.910
+Technicznie.
+
+10:47.970 --> 10:52.190
+Mogę przejść przez okno i uruchomić funkcję.
+
+10:52.470 --> 11:02.890
+Więc na lewo od kropki Cóż, to jest okno, aby stworzyć dla tego nową wartość.
+
+11:03.020 --> 11:06.530
+Musisz zrobić coś takiego.
+
+11:10.370 --> 11:13.550
+Obiekt a funkcja.
+
+11:13.550 --> 11:14.900
+Teraz jeśli
+
+11:19.860 --> 11:22.730
+działam i tu działam, robię dziennik konsoli.
+
+11:23.180 --> 11:32.500
+To dobrze w tym przypadku, jeśli skopiuję to i uruchomię obiekt na jakiś
+
+11:35.540 --> 11:36.270
+czas.
+
+11:36.560 --> 11:45.730
+Teraz jest to obiekt, który jest przedmiotem.
+
+11:45.800 --> 11:49.860
+Dlaczego to dla nas ważne.
+
+11:50.030 --> 11:54.460
+Przede wszystkim zobaczysz to i inny kod źródłowy, więc dobrze jest wiedzieć.
+
+11:54.680 --> 12:01.790
+Ale jest to naprawdę ważne, gdy wykonujemy tworzenie instancji, kiedy tworzymy kopię obiektu
+
+12:02.420 --> 12:05.270
+i ponownie wykorzystujemy kod.
+
+12:05.270 --> 12:09.140
+Wyobraź sobie, że budujesz wielką grę wieloosobową przez Internet.
+
+12:09.590 --> 12:17.120
+W tej grze będzie wielu graczy, do których możesz mieć czarodziejów, do których możesz mieć trolle, elfów.
+
+12:17.150 --> 12:24.080
+Teraz, gdybyś musiał stworzyć obiekt dla każdego gracza, który zawiera wiele powtarzających się kodów, jest dużo kłopotów
+
+12:24.080 --> 12:30.040
+i to dużo czasu i nie jest to zbyt skuteczne, aby to rozwiązać.
+
+12:30.070 --> 12:32.070
+Możesz zrobić coś, co nazywa się tworzeniem instancji.
+
+12:32.260 --> 12:37.460
+Tworzysz instancje lub wiele kopii obiektu.
+
+12:37.480 --> 12:43.350
+Pozwól, że pokażę ci, jak ponownie tworzymy instancję w javascript.
+
+12:43.410 --> 12:49.590
+Na początku będzie to wyglądało trochę dziwnie, tak samo jak w przypadku pętli, które podobnie jak
+
+12:49.590 --> 12:54.320
+poprzednie funkcjonowały, ale to tylko składnia i przyzwyczaisz się do tego.
+
+12:54.330 --> 12:59.200
+Załóżmy, że mamy klasę gracza.
+
+12:59.370 --> 13:05.460
+Teraz już widzisz nową składnię i kapitalizuję klasę.
+
+13:05.510 --> 13:09.980
+Teraz pomyśl o klasie jako o czymś, co chcę zrobić kopię.
+
+13:10.160 --> 13:18.080
+Jeśli kiedykolwiek chciałbym zrobić kopię obiektu, dobrze jest zrobić coś takiego, żeby dobrze było zobaczyć, jak łatwo
+
+13:18.080 --> 13:19.990
+jest to skopiować.
+
+13:20.000 --> 13:21.980
+Teraz tak robimy.
+
+13:21.980 --> 13:28.610
+Gracz klasy i tutaj powie "konstruktor" i wiem, że to wygląda dziwnie,
+
+13:31.300 --> 13:35.530
+ale znowu jest to po prostu składnia.
+
+13:35.530 --> 13:45.580
+Dajmy temu graczowi może mieć nazwę i typ, aw konstruktorze to imię nazywa on
+
+13:45.780 --> 13:51.300
+imię, a ten typ, który nazywa, był właśnie
+
+13:55.890 --> 13:58.110
+tutaj konstruktorem.
+
+13:58.110 --> 14:00.960
+Kiedy tworzysz klasę A, mówi klasa gracza.
+
+14:01.140 --> 14:08.280
+Za każdym razem, gdy robię kopię odtwarzacza, pierwszą rzeczą, która zostanie uruchomiona, jest
+
+14:08.280 --> 14:17.570
+funkcja konstruktora, a ta funkcja konstruktora będzie tworzyć te właściwości na obiekcie odtwarzacza, a więc nazwę i typ.
+
+14:17.610 --> 14:21.450
+Teraz mogę stworzyć wszystko, co chcę dla gracza.
+
+14:21.450 --> 14:30.670
+Powiedzmy, że chcemy stworzyć metodę, taką jak wprowadzenie logów
+
+14:33.600 --> 14:39.580
+konsoli z taktyką Hi jestem.
+
+14:39.800 --> 14:54.140
+I znowu przypomnisz sobie, że ten szablon Sendaka dzwoni do tej zrobionej nazwy, że jestem tego typu.
+
+14:54.230 --> 15:02.480
+Więc teraz mówię, że ta klasa, którą stworzyłem, zawsze będzie w stanie się przedstawić, a
+
+15:02.480 --> 15:07.760
+oni również będą mieli tę nazwę i ten typ.
+
+15:07.850 --> 15:14.880
+A powodem, dla którego używamy tego tutaj, jest to, że kiedy tworzymy gracza, możemy uzyskać dostęp do nazwy i właściwości type.
+
+15:14.930 --> 15:17.270
+Pokażę ci później, jak to działa.
+
+15:17.270 --> 15:24.530
+Ale to tylko składnia, do której będziesz się przyzwyczajał, aby uzyskać dostęp do odtwarzacza i zrobić jego
+
+15:24.530 --> 15:25.070
+kopie.
+
+15:25.070 --> 15:29.240
+Musisz uruchomić konstruktor, który zawiera wszystkie właściwości i metody, które ma posiadać
+
+15:29.240 --> 15:29.920
+gracz.
+
+15:30.200 --> 15:38.630
+Możesz także tworzyć metody, które mogą mieć gracze, a kiedy chcesz uzyskać dostęp do właściwości w
+
+15:38.630 --> 15:44.740
+konstruktorze, użyjesz tej nazwy, aby użyć wprowadzić. Muszę to zrobić.
+
+15:44.780 --> 15:47.100
+Przedstawiać.
+
+15:47.130 --> 15:53.970
+OK, więc mamy gracza, ale kiedy budujemy naszą grę wieloosobową, chcemy ją teraz skopiować, ale dodać do
+
+15:53.970 --> 15:54.580
+niej.
+
+15:54.690 --> 15:59.060
+Powiedzmy, że mamy to, co chcemy stworzyć, jako czarodzieja gracza, który jest czarodziejem.
+
+15:59.460 --> 16:09.450
+W takim przypadku, kiedy robimy kreatora klasy, znowu wielka litera się rozciąga i znowu jest
+
+16:10.080 --> 16:13.330
+tylko odtwarzaczem klawiatury javascript.
+
+16:13.370 --> 16:19.270
+Więc co to za powiedzenie mówię, że chcę, aby czarownik przedłużył to, co gracz ma.
+
+16:19.280 --> 16:26.480
+Dlatego chcę dodać do tego, co gracz ma ponownie, ponieważ jest to klasa, która będzie musiała wykonać konstruktora.
+
+16:28.370 --> 16:35.630
+A ten czarodziej zaakceptuje Knabe i wpisz, a tutaj jest to trudna część.
+
+16:35.630 --> 16:45.440
+Za każdym razem, gdy coś rozszerzamy, musimy również wywołać funkcję konstruktora odtwarzacza.
+
+16:45.440 --> 16:52.010
+Musimy zrobić coś, co nazywa się super z właściwościami, które chcemy przekazać do konstruktora.
+
+16:52.010 --> 17:00.980
+W tym przypadku nazwa i typ wiem, że jest to mylące, to tylko coś, co musisz zrobić, gdy
+
+17:01.280 --> 17:02.350
+rozszerzasz klasę.
+
+17:02.570 --> 17:09.550
+Chcesz użyć Soopers, abyś miał dostęp do tych OK.
+
+17:09.580 --> 17:16.430
+Powiedzmy, że przy pomocy kreatora Chcemy mieć funkcję odtwarzania, a funkcja odtwarzania była
+
+17:16.430 --> 17:18.350
+tylko logiem konsoli.
+
+17:19.000 --> 17:31.280
+Jesteśmy tego typu i teraz, kiedy mamy naszego czarodzieja. Jaka jest moc, po co właśnie to zrobiliśmy.
+
+17:31.310 --> 17:37.400
+Teraz możemy to zrobić zamiast ciągle tworzyć graczy, a następnie mówić, że mają swoich czarodziejów
+
+17:37.400 --> 17:38.700
+i mogą grać.
+
+17:38.720 --> 17:49.310
+Teraz mogę powiedzieć, że kreator 1 jest nowym kreatorem i ponownie nazwiemy pierwszego czarodzieja.
+
+17:49.310 --> 17:58.260
+Otrzymujemy nazwisko i typ, więc powiemy Shelly, a ona będzie uzdrowicielką.
+
+18:00.160 --> 18:16.030
+A jeśli chcę stworzyć nowego czarodzieja, po prostu powiem, że kreator 2 to nowy czarodziej Sean, a on jest mroczną magią.
+
+18:16.290 --> 18:23.910
+Było dużo nowej składni, więc przejrzyjmy ją i upewnij się, że rozumiemy wszystko, jak się
+
+18:23.920 --> 18:28.930
+dowiedzieliśmy, użyjmy logu konsoli, aby naprawdę zrozumieć, co robimy.
+
+18:28.960 --> 18:34.280
+Zamierzam dodać tutaj log konsoli na górze.
+
+18:36.210 --> 18:37.560
+Powiem to.
+
+18:37.580 --> 18:39.730
+Co to jest.
+
+18:39.840 --> 18:48.010
+Zamierzam zapisać i faktycznie mam zamiar skopiować to do konsoli, skopiujmy to.
+
+18:49.080 --> 18:51.520
+Zobacz, co daje nam dziennik konsoli.
+
+18:51.520 --> 18:54.390
+Widzimy, że otrzymujemy Czarodzieja.
+
+18:54.480 --> 18:54.840
+W porządku.
+
+18:54.870 --> 18:56.160
+Przejdźmy przez wszystko tutaj.
+
+18:57.530 --> 19:02.410
+Mówię, że mamy klasowego gracza, a następnie czarodzieja klasy, który rozszerza gracza.
+
+19:02.780 --> 19:07.390
+Następnie mamy dwie zmienne, dla których stworzyliśmy kreator 1 i Kreator 2.
+
+19:07.430 --> 19:14.270
+Teraz program zobaczy nowe słowo kluczowe i za każdym razem, gdy zobaczy
+
+19:14.270 --> 19:23.570
+nowe słowo kluczowe, mówi: "tworzymy nowego kreatora, a ten kreator będzie miał dwa parametry: Shelli i uzdrowiciel.
+
+19:23.810 --> 19:30.230
+Więc znowu pójdzie do klasy czarnoksiężnika, ponieważ ma to nowe słowo.
+
+19:30.260 --> 19:36.150
+Idzie do klasy czarodziejów i mówi czarodzieja.
+
+19:36.210 --> 19:38.690
+Chcę, żebyś rozszerzył gracza.
+
+19:38.850 --> 19:47.940
+Więc pójdzie do konstruktora i zobaczymy to super A to, co to zrobi,
+
+19:47.940 --> 19:51.520
+zabierze nas do konstruktora gracza.
+
+19:51.750 --> 19:59.420
+I Iran to i teraz przywiązuje to do czarodzieja.
+
+19:59.910 --> 20:03.870
+Następnie wprowadza nową funkcję, a następnie dodaje funkcję odtwarzania.
+
+20:03.870 --> 20:16.490
+Teraz, gdy pójdę do czarodzieja 1, a ja mówię, że gram, jestem uzdrowicielką, ponieważ Shelly jest uzdrowicielką.
+
+20:16.710 --> 20:28.880
+Ale mam też dostęp do psa czarodzieja 1, który wprowadza Cześć Jestem Shelly Jestem uzdrowicielem i mamy również dostęp
+
+20:30.230 --> 20:34.530
+do czarodzieja, muszę znów to uruchomić.
+
+20:34.660 --> 20:35.910
+Zróbmy to jeszcze raz.
+
+20:38.920 --> 20:42.510
+I nie sądzę, że ostatnim razem skopiowałem drugiego czarodzieja.
+
+20:42.760 --> 20:47.320
+Teraz mam czarodzieja do wprowadzenia.
+
+20:47.330 --> 20:48.370
+Cześć, jestem Sean.
+
+20:48.460 --> 20:50.820
+Um, jestem mroczną magią.
+
+20:50.860 --> 20:54.070
+To zdanie nie ma sensu, Sean, ale na razie jest OK.
+
+20:54.920 --> 20:57.200
+Po prostu spróbujmy, jeśli to zrobię.
+
+20:57.200 --> 20:58.580
+Dziennik konsoli.
+
+21:01.270 --> 21:05.480
+Tutaj i po prostu powiemy czarodziejem, a tutaj
+
+21:08.130 --> 21:09.420
+powiedzą gracz.
+
+21:09.420 --> 21:11.160
+Po prostu możemy je rozróżnić.
+
+21:12.660 --> 21:19.770
+Zamierzam tylko skopiować pierwszego czarodzieja, abyśmy nie powtórzyli dwóch z nich, ponieważ tworzymy dwóch czarodziejów,
+
+21:19.770 --> 21:25.760
+których dwa razy będziemy biegać, ale tylko dla naszego zdrowia psychicznego.
+
+21:25.770 --> 21:32.030
+Shelly Więc mam zamiar odświeżyć i dodać tutaj Zapomniałem dodać przecinek
+
+21:35.270 --> 21:43.270
+i odświeżmy i otrzymuję błąd odniesienia Knerr musi wywołać super konstruktor i klasy pochodnej przed uzyskaniem
+
+21:43.280 --> 21:44.990
+dostępu do tego.
+
+21:45.470 --> 21:54.380
+To, co mówię, polega na tym, że aby uzyskać dostęp do tego i uzyskać ten typ, muszę zadzwonić super, który
+
+21:54.830 --> 21:57.620
+uruchamia funkcję konstruktora i odtwarzacza.
+
+21:57.680 --> 21:59.210
+Więc to właśnie robi super.
+
+21:59.210 --> 22:05.030
+Brzmi to trochę dziwnie, ale jest to coś, czego potrzebujesz po prostu na samym
+
+22:05.030 --> 22:08.660
+dole, gdy zadzwonimy super, a teraz powinno działać.
+
+22:08.780 --> 22:18.750
+Zobaczmy, że dostałem kreatora pierwszego gracza.
+
+22:19.160 --> 22:24.600
+Więc nazywamy super tak szybko, jak mówimy o nowym czarodzierzu uzdrowicielem Shelli.
+
+22:24.880 --> 22:32.350
+Idę do odtwarzacza akcentu czarodzieja Uruchomiłem funkcję konstruktora, która mówi, że super hej uruchamia funkcję konstruktora,
+
+22:32.350 --> 22:35.240
+a odtwarzacz i ja to uruchamiam.
+
+22:35.350 --> 22:44.520
+Właśnie dlatego najpierw logujemy odtwarzacz logu konsoli, a następnie przechodzimy do kreatora dialogu konsoli, a następnie
+
+22:44.520 --> 22:46.490
+uruchamiamy resztę klasy.
+
+22:46.530 --> 22:48.130
+Bardzo fajny.
+
+22:48.340 --> 22:50.670
+Teraz, żeby ci coś pokazać.
+
+22:50.710 --> 22:57.470
+Jest to właściwie nowa składnia, którą zobaczysz i zareagujesz, i która była częścią ESX.
+
+22:57.910 --> 23:07.040
+Ale w tamtych czasach tak właśnie robiliśmy ten sam kod, który mam
+
+23:11.590 --> 23:12.560
+tutaj.
+
+23:14.530 --> 23:21.190
+To się nazywa klasyczne dziedziczenie i nie wygląda zbyt źle, ale widzisz, że istnieje prototyp, który jest
+
+23:21.190 --> 23:26.440
+kolejną rzeczą, którą zobaczysz w javascript i szczerze mówiąc, nie powinieneś go
+
+23:26.440 --> 23:26.920
+używać.
+
+23:26.920 --> 23:28.430
+To nie wygląda bardzo ładnie.
+
+23:28.780 --> 23:37.090
+I widzisz, że musimy grać dla czarodzieja czarodzieja i Czarodzieja 2 i to po prostu nie wygląda
+
+23:37.840 --> 23:39.220
+tak ładnie.
+
+23:39.310 --> 23:41.890
+A kiedy już przywykniesz do wszystkiego.
+
+23:42.100 --> 23:43.760
+Nie jest aż tak źle.
+
+23:43.780 --> 23:49.540
+Wszystko, co mówimy, to tak szybko, jak mówimy klasie, która mówi, że prawdopodobnie zrobimy
+
+23:49.540 --> 23:51.000
+kopię tego obiektu.
+
+23:51.210 --> 23:56.760
+Chcemy tworzyć kopie odtwarzacza, które chcemy skopiować do kreatora, a to nazywa się instancją.
+
+23:56.760 --> 24:06.060
+Kiedy robię nowe słowo kluczowe, mówię, że instancja kreatora i kreatora używa pewnej funkcjonalności odtwarzacza
+
+24:06.060 --> 24:11.190
+i dodaje też własną, małą funkcję odtwarzania.
+
+24:11.190 --> 24:18.720
+Święty Moly, który był bardzo podobny do tego, co powiedziałem, jest to coś, do czego będziesz musiał wrócić i nie dostaniesz
+
+24:18.720 --> 24:19.890
+go od razu.
+
+24:19.890 --> 24:26.330
+Naprawdę trudno jest w pełni zrozumieć temat bez konieczności używania go w prawdziwym życiu.
+
+24:26.370 --> 24:32.850
+Pamiętaj o tym za każdym razem, gdy słyszysz kogoś, kto mówi o typie referencyjnym lub kontaktach, a
+
+24:33.240 --> 24:35.790
+nawet o zasięgu lub tworzeniu czegoś.
+
+24:35.790 --> 24:38.740
+Cóż, to są rzeczy, o których oni mówią.
+
+24:38.970 --> 24:40.930
+Obiekty są naprawdę bardzo skomplikowane.
+
+24:40.950 --> 24:42.490
+Są naprawdę trudne.
+
+24:42.600 --> 24:45.660
+Ale dzięki temu daje nam to dużo mocy.
+
+24:46.990 --> 24:51.220
+Więc z tym szczęściem z ćwiczeń, które zobaczę w następnym, ale przez.

@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.640 --> 00:07.330
+După cum am văzut că există multe tipuri de grafice, dar există anumite caracteristici care ne permit să descriem
+
+00:07.330 --> 00:07.990
+grafice.
+
+00:08.200 --> 00:09.790
+Să trecem peste ele.
+
+00:09.790 --> 00:15.880
+Un lucru cu care vă doriți cu adevărat să vă familiarizați este ideea de a regiza un grafic
+
+00:15.880 --> 00:16.840
+pe direcție.
+
+00:16.930 --> 00:23.440
+Aceste tipuri de grafice sunt utile pentru descrierea fluxului de trafic, de exemplu, a unui tip
+
+00:23.440 --> 00:27.140
+de sistem în care mișcarea nu este bidirecțională.
+
+00:27.220 --> 00:34.180
+Asta inseamna ca aici, unde pot merge inainte si inapoi intre note, pot merge intr-o singura directie.
+
+00:35.770 --> 00:43.210
+O modalitate buna de a gandi pe un grafic directionat este sa te gandesti ca o autostrada intre doua orase unde poti merge inainte si
+
+00:43.210 --> 00:49.480
+inapoi pe de alta parte directionata va fi o strada cu o singura cale in care poti merge doar intr-o singura
+
+00:49.480 --> 00:50.100
+cale.
+
+00:50.470 --> 00:57.150
+Un alt mod de a te gandi la asta este Facebook ce fel de grafic crezi ca are Facebook.
+
+00:58.080 --> 01:06.120
+Ei bine, are un grafic pe direcție, deoarece atunci când sunt conectat la un prieten pe care prietenul meu este, de asemenea, conectat
+
+01:06.120 --> 01:08.530
+la mine nu este o modalitate.
+
+01:08.580 --> 01:09.570
+Ce zici de Twitter?
+
+01:10.570 --> 01:20.120
+Twitter este mai îndreptat, deoarece dacă am profilul meu, oamenii pot să mă urmărească și să pot urma oamenii.
+
+01:20.230 --> 01:23.770
+Dar dacă cineva mă urmează, nu-i urmăresc automat.
+
+01:23.770 --> 01:32.460
+Deci, Twitter este mai mult regizat un alt mod de a descrie grafice este ideea de grafice ponderate pe grafice așteptate
+
+01:32.550 --> 01:41.110
+și așteptate și după cum puteți vedea din imaginile valorile pot fi aplicate la diferite aspecte ale unui grafic.
+
+01:41.220 --> 01:47.670
+Nu doar notele amintesc că notele pot purta orice fel de informații, dar cu grafice puteți avea
+
+01:47.670 --> 01:53.490
+și informații în margini și conexiuni, poate că vă aflați într-o călătorie și încercați să găsiți
+
+01:53.490 --> 01:58.490
+cel mai eficient mod de a vizita site-urile care vă interesează .
+
+01:58.650 --> 02:05.370
+Ei bine, în acest caz, Google Maps ar folosi un grafic ponderat pentru a decide care este calea cea
+
+02:05.370 --> 02:13.060
+mai scurtă pentru a ajunge acolo și aceste tipuri de grafice sunt folosite mult în calcularea căilor optime cea mai rapidă modalitate
+
+02:13.060 --> 02:16.790
+de a ajunge să spunem de la 1 la 6.
+
+02:16.800 --> 02:27.430
+În cele din urmă, o altă modalitate de a descrie graficul este ciclică sau aciclică atunci când aveți vârfuri conectate într-un
+
+02:27.610 --> 02:28.630
+mod circular.
+
+02:28.780 --> 02:33.970
+Se numește un ciclu când puteți trece de la un nod la altul în altul și
+
+02:33.970 --> 02:40.550
+apoi înapoi la acel nod original față de aciclic, unde puteți face acest lucru și graficele cu cod C sunt foarte frecvente.
+
+02:40.590 --> 02:49.150
+Grafice deosebit de ponderate, cum ar fi hărțile Google, pentru că de cele mai multe ori există o modalitate de revenire.
+
+02:49.180 --> 02:57.480
+Deci, acum că înțelegem câteva moduri de a descrie grafice. Permiteți-mi să vă arăt graficul meu preferat al tuturor timpurilor.
+
+02:57.570 --> 02:59.820
+Acesta este graficul meu preferat.
+
+03:00.900 --> 03:05.990
+Este prin proiectul opti și este o hartă parțială a Internetului.
+
+03:06.300 --> 03:12.680
+Dacă priviți aici, veți vedea că avem adrese IP care se conectează la adrese IP.
+
+03:12.810 --> 03:17.580
+Și acestea sunt toate nodurile conectate pentru a crea internetul.
+
+03:17.730 --> 03:19.210
+Destul de spectaculos.
+
+03:19.230 --> 03:24.290
+Acesta este cel mai bun exemplu al unui grafic.
+
+03:24.310 --> 03:31.600
+Deci, acum că înțelegem sau cel puțin avem o înțelegere de bază a graficelor, să facem un exercițiu plăcut de distracție.

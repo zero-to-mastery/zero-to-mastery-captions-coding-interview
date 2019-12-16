@@ -1,0 +1,190 @@
+WEBVTT
+
+00:01.800 --> 00:10.500
+Struktur data lain di tabel hash sekarang Anda harus benar-benar menyukainya karena mereka sangat
+
+00:10.500 --> 00:13.510
+berguna digunakan di mana-mana.
+
+00:13.680 --> 00:21.940
+Dan lucunya itu mungkin pertanyaan wawancara yang paling umum di mana Anda menggunakan
+
+00:22.180 --> 00:30.790
+tabel hash untuk mengoptimalkan sesuatu seperti yang kita lihat dalam pertanyaan wawancara kami dengan menggunakan
+
+00:30.790 --> 00:39.420
+tabel hash. Kami mengoptimalkan loop bersarang yang semuanya ketika kuadrat untuk dilewati secara linear waktu.
+
+00:39.420 --> 00:45.420
+Ini adalah pertanyaan yang muncul berulang-ulang bahwa saya berjanji kepada Anda jika kita melihat pola ini
+
+00:45.540 --> 00:52.050
+akan sangat berguna bagi Anda dalam sebuah wawancara dan tidak diragukan lagi Anda akan memiliki contoh di
+
+00:52.050 --> 00:57.190
+mana Anda harus menggunakannya dan mengikuti langkah yang sama persis di bagian ini.
+
+00:57.210 --> 01:04.830
+Kami belajar bahwa tabel hash memiliki penguncian yang sangat cepat, tetapi ingat bahwa kami memerlukan resolusi tabrakan yang
+
+01:04.830 --> 01:11.640
+baik, perlu biasanya kami tidak perlu khawatir tentang ini karena bahasa kami di komputer di bawah
+
+01:11.670 --> 01:13.830
+tenda menjaga itu untuk kami.
+
+01:13.830 --> 01:22.020
+Hal ini memungkinkan kita untuk melakukan jawaban cepat dan tergantung pada jenis tabel hash seperti peta
+
+01:22.290 --> 01:31.840
+di javascript kita dapat memiliki tombol fleksibel bukan array yang memiliki 0 1 2 3 hanya indeks yang diberi nomor.
+
+01:31.850 --> 01:35.950
+The downside dengan tabel hash adalah bahwa itu adalah pesanan.
+
+01:35.990 --> 01:39.440
+Sulit untuk benar-benar menjalani semuanya secara berurutan.
+
+01:39.440 --> 01:42.560
+Dan juga memiliki iterasi kunci yang lambat.
+
+01:42.590 --> 01:49.550
+Itu jika saya ingin mengambil semua kunci dari tabel hash saya harus melalui seluruh
+
+01:49.880 --> 01:58.300
+ruang memori seperti yang kita lihat ketika kita membangun tabel hash kita sendiri melihat OTTF besar kita dapat melihat
+
+01:58.300 --> 02:05.420
+bahwa tabel hash memiliki sisipan pencarian penghapusan satu tetapi dalam kasus terburuk karena tabrakan ada beberapa.
+
+02:05.470 --> 02:09.200
+Semua operasi itu bisa terjadi.
+
+02:09.420 --> 02:16.550
+Dan jika kita pergi ke peta pikiran kita sekarang kita dapat mencoret tabel hash dari daftar kita.
+
+02:16.700 --> 02:19.920
+Kami memahami kompleksitas big-O.
+
+02:20.010 --> 02:26.550
+Kami juga memahami bahwa dengan tabrakan kami mungkin ingin menggunakan sesuatu seperti daftar tertaut yang akan
+
+02:26.550 --> 02:29.390
+kami bicarakan segera dalam latihan kami.
+
+02:29.400 --> 02:32.190
+Kami hanya menggunakan array.
+
+02:32.230 --> 02:40.480
+Kami juga mempelajari ide bahwa tabel hash dalam wawancara biasanya berguna untuk meningkatkan kompleksitas waktu
+
+02:40.840 --> 02:43.620
+terutama dari loop bersarang.
+
+02:43.650 --> 02:54.780
+Pengorbanannya adalah kita dapat memiliki akses cepat tetapi lebih banyak memori kembali ke pertanyaan kita bahwa kita memiliki beberapa pelajaran yang lalu di mana
+
+02:55.530 --> 03:03.440
+kita harus menemukan item umum dari dua array kita punya satu array dan array dua dan kita
+
+03:04.050 --> 03:08.930
+harus melihat apakah ada array ini mengandung item serupa.
+
+03:09.000 --> 03:10.360
+Kami punya satu yang tidak.
+
+03:10.650 --> 03:17.570
+Dan versi kedua di mana x dan x kedua array berisi X itu akan mengembalikan true.
+
+03:17.760 --> 03:25.320
+Iterasi pertama kami dari latihan itu kami harus menggunakan 2 untuk loop yang bersarang.
+
+03:25.470 --> 03:38.210
+Sehingga menciptakan kompleksitas beberapa kali namun menggunakan peta hash kami hanya bisa melakukan satu untuk loop dan
+
+03:38.840 --> 03:41.780
+mengoptimalkan fungsi ini.
+
+03:41.880 --> 03:49.590
+Seperti yang saya katakan sebelumnya, ini adalah pola umum yang akan kita bicarakan nanti di kursus.
+
+03:49.590 --> 03:57.200
+Ketika kita berbicara tentang pemrograman dinamis jika kita kembali ke lembar contekan yang saya bagikan dengan Anda di awal
+
+03:57.200 --> 04:02.510
+kursus ini, kita sekarang dapat mencoret beberapa hal dari daftar yang belum kita
+
+04:03.440 --> 04:05.950
+bicarakan dalam daftar kode yang baik.
+
+04:06.440 --> 04:15.040
+Kami berbicara tentang penggunaan yang baik dari struktur data kapan harus menggunakan tabel hash mungkin perlombaan gagasan penggunaan kembali kode
+
+04:15.040 --> 04:21.430
+dan tidak mengulangi diri sendiri adalah sesuatu yang kita ikuti dan harus akrab bagi kita
+
+04:21.430 --> 04:22.210
+semua
+
+04:23.350 --> 04:29.530
+Kami juga berbicara tentang kode modular dan membuat kode lebih mudah dibaca yang memungkinkan kode menjadi lebih mudah
+
+04:29.530 --> 04:30.770
+dikelola dan diuji.
+
+04:30.790 --> 04:39.730
+Kami berbicara tentang bagaimana biasanya dalam sebuah wawancara kami ingin menghindari pertunjukan dan operasi kuadrat dan kami melihat bahwa
+
+04:39.730 --> 04:41.810
+kami dapat melakukannya dengan
+
+04:44.610 --> 04:53.250
+tabel hash tetapi kami melihat bahwa dengan tabel hash kami harus meningkatkan kompleksitas ruang kami untuk semua .
+
+04:53.250 --> 04:59.850
+Dan karena kami membuat variabel baru ini yang melacak semua item dalam array.
+
+05:00.090 --> 05:01.480
+Jadi itu adalah tradeoff.
+
+05:03.210 --> 05:09.030
+Dan kemudian kita dapat mencoret beberapa heuristik untuk mereka yang tidak tahu. Kesalahan
+
+05:09.420 --> 05:17.430
+pasti adalah semacam aturan atau trik sederhana yang akan muncul berulang-ulang yang dapat Anda gunakan dalam wawancara peta
+
+05:17.430 --> 05:23.180
+hash atau tabel hash adalah biasanya jawaban untuk meningkatkan kompleksitas waktu.
+
+05:23.470 --> 05:28.080
+Sekali lagi tabel hash adalah beberapa cara terbaik untuk mengoptimalkan kode Anda.
+
+05:28.990 --> 05:35.230
+Dan melihat time versus space tradeoff terkadang menyimpan status dan memori ekstra seperti yang kita lakukan
+
+05:35.230 --> 05:38.440
+dengan tabel hash dapat membantu waktu atau runtime.
+
+05:39.260 --> 05:41.750
+Dan akhirnya pengorbanan Ruang-Waktu.
+
+05:41.750 --> 05:43.770
+Tabel hash biasanya menyelesaikan ini.
+
+05:43.820 --> 05:52.290
+Banyak waktu menggunakan lebih banyak ruang tetapi Anda bisa mendapatkan optimasi waktu untuk proses tersebut.
+
+05:52.300 --> 05:58.930
+Saya tahu kami hanya berbicara tentang dua struktur data tetapi saya pikir keduanya adalah langkah maju yang paling penting
+
+05:58.930 --> 06:02.400
+yang akan kami gunakan untuk mempelajari tentang yang lain.
+
+06:02.440 --> 06:03.790
+Kerja bagus sejauh ini.
+
+06:03.790 --> 06:08.300
+Beristirahat sejenak sambil minum kopi dan sampai jumpa di video berikutnya.
+
+06:08.450 --> 06:08.690
+Buh-Bye.

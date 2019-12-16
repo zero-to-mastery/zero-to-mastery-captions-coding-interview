@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.630 --> 00:08.240
+Bentornato, vedi nella nostra mappa mentale che siamo ora nella sezione selezione e questo grande spettacolo e
+
+00:08.300 --> 00:12.950
+di nuovo qualcosa di cui non abbiamo parlato sta mostrando.
+
+00:12.980 --> 00:15.280
+Ci arriveremo in questa sezione.
+
+00:16.010 --> 00:17.770
+Ma voglio aggiungere una breve nota qui.
+
+00:17.870 --> 00:23.840
+Guardando tutti questi algoritmi di ordinamento e c'è molto di più è importante notare che
+
+00:23.840 --> 00:32.060
+non è necessario scrivere un algoritmo di ordinamento da zero molto probabilmente nei nostri schemi di carriera di solito lo fanno
+
+00:32.060 --> 00:32.920
+per noi.
+
+00:33.810 --> 00:39.660
+Ma devi comunque sapere come funzionano, mentre uno probabilmente ti verrà chiesto in
+
+00:39.840 --> 00:44.390
+un'intervista e due perché ti rende un ingegnere migliore.
+
+00:44.580 --> 00:47.670
+Ma questa sezione riguarda anche l'efficienza.
+
+00:47.670 --> 00:53.070
+Vedi che puoi dedicare molto tempo a ciascuna di queste sezioni per
+
+00:53.070 --> 01:00.060
+implementare le tue e discuterne profondamente perché non penso di aver mai sentito qualcuno dover implementare alcun
+
+01:00.290 --> 01:01.280
+codice manualmente.
+
+01:01.400 --> 01:06.900
+Gli algoritmi di ordinamento per la maggior parte del tempo puoi solo parlarne o l'intervistatore ti
+
+01:06.900 --> 01:13.350
+dice che l'array è ordinato e devi sapere cosa fare con esso ma implementarlo da zero che in realtà
+
+01:13.350 --> 01:14.130
+non succede.
+
+01:14.340 --> 01:19.090
+Ma l'ho incluso in questa sezione perché è bello sapere come funzionano.
+
+01:20.050 --> 01:25.430
+E non mi piacerà nemmeno che gli algoritmi di ordinamento per la codifica non siano i miei preferiti.
+
+01:25.450 --> 01:26.850
+Non lasciarti scoraggiare.
+
+01:27.880 --> 01:34.240
+Ti incoraggio a guardare il prossimo paio di video e persino a esercitarti nella codifica dei tuoi algoritmi di
+
+01:34.690 --> 01:36.860
+ordinamento perché aiuterà il tuo apprendimento.
+
+01:36.970 --> 01:42.940
+Ma la cosa principale che otterremo da questa sezione non è come implementarli, voglio dire che
+
+01:42.940 --> 01:43.960
+lo faremo.
+
+01:44.110 --> 01:51.480
+Ma la chiave è il compromesso, vedete che qui abbiamo il grosso imbroglione che sicuramente sappiamo bene.
+
+01:51.490 --> 01:54.720
+Abbiamo parlato delle strutture dati e di come ci siano i compromessi.
+
+01:55.090 --> 01:59.610
+Bene, quando si tratta di ordinare ci sono anche i compromessi.
+
+02:00.300 --> 02:06.180
+Vedete come vi sia una certa complessità di tempo, compromessi di complessità spaziale
+
+02:06.180 --> 02:09.950
+ed è importante sapere quando usare quale algoritmo.
+
+02:09.990 --> 02:12.010
+Questo è il nostro obiettivo di questa sezione.
+
+02:12.120 --> 02:19.110
+E prima di entrare nel nostro primo algoritmo di ordinamento voglio mostrarvi questo piccolo e ingegnoso strumento a
+
+02:19.110 --> 02:20.150
+cui collegherò.
+
+02:20.190 --> 02:22.710
+Abbiamo alcuni algoritmi di ordinamento.
+
+02:22.800 --> 02:29.430
+Disponiamo dell'opzione di ordinamento per l'inserimento, l'heap per la fusione di shell di ordinamento e quindi due diverse varianti
+
+02:29.430 --> 02:30.460
+di quicksort.
+
+02:31.830 --> 02:35.150
+E abbiamo anche diversi set di dati.
+
+02:35.160 --> 02:37.250
+Questo è un set di dati casuali.
+
+02:37.260 --> 02:39.700
+Guarda come si esibiscono quando clicco qui.
+
+02:40.580 --> 02:45.400
+Sulla base di un diverso algoritmo di ordinamento, si vede che funzionano tutti.
+
+02:45.650 --> 02:50.160
+E tutti finiscono in tempi diversi.
+
+02:50.220 --> 02:59.800
+Uno è molto più lento dell'altro e quasi lo smista di nuovo, ad esempio insertion sort, è davvero molto veloce mentre
+
+02:59.800 --> 03:08.170
+altri sono più lenti al contrario se gli oggetti sono invertiti e abbiamo bisogno di ordinarli completamente
+
+03:08.170 --> 03:11.750
+in ordine inverso di nuovo algoritmi diversi.
+
+03:12.810 --> 03:14.400
+Esegui in modo diverso.
+
+03:14.530 --> 03:18.750
+Non è mai uno che vince sull'altro a seconda degli input.
+
+03:18.810 --> 03:28.390
+Mentre abbiamo bisogno di fare le loro diverse abilità, iniziamo a conoscere questi diversi tipi di algoritmi di ordinamento in modo che
+
+03:28.390 --> 03:35.230
+alla fine di questi video possiamo prendere la decisione giusta quando usare ciò che vedrò nel
+
+03:35.230 --> 03:36.120
+prossimo.

@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.030 --> 00:09.740
+Apa yang baik kokas pada titik ini Anda harus dapat berbicara sedikit terutama tentang hak yang dapat diukur.
+
+00:09.980 --> 00:16.570
+Maksud saya bisa dibaca kita akan bicarakan di bagian berikutnya tetapi skala kita mengerti adalah besar-O
+
+00:17.170 --> 00:17.890
+benar.
+
+00:18.320 --> 00:27.290
+Nah, inilah hal yang tidak membenci saya, tetapi saya mungkin
+
+00:27.290 --> 00:33.920
+sedikit berbohong atau menyederhanakan hal-hal tetapi tidak
+
+00:33.950 --> 00:36.260
+begitu khawatir.
+
+00:36.260 --> 00:38.430
+Salah satunya adalah kecepatan.
+
+00:38.480 --> 00:41.090
+Itulah yang kami bicarakan sampai sekarang.
+
+00:41.180 --> 00:45.210
+Seberapa cepat runtime kami pada kode.
+
+00:45.290 --> 00:49.730
+Berapa banyak waktu yang dibutuhkan untuk menjalankan suatu fungsi.
+
+00:49.730 --> 00:52.820
+Berapa biaya operasi.
+
+00:53.270 --> 00:58.850
+Nah ada aspek lain dalam hal mesin untuk sumber daya yang berharga.
+
+00:58.850 --> 01:06.860
+Satu adalah waktu dan kecepatan kode kita dan yang lainnya adalah memori.
+
+01:06.860 --> 01:11.800
+Anda melihat komputer memiliki memori terbatas.
+
+01:11.860 --> 01:17.860
+Kembali pada hari ketika komputer baru saja dilahirkan, ingatannya sangat sangat mahal.
+
+01:17.860 --> 01:19.560
+Kami hanya punya sedikit.
+
+01:19.870 --> 01:25.280
+Dan seiring berjalannya waktu kita memiliki lebih banyak memori tetapi itu tidak terbatas.
+
+01:26.070 --> 01:36.090
+Komputer kami berjalan berdasarkan kecepatan yang biasanya ditentukan oleh CPQ dan memori berdasarkan pada seberapa banyak memori seperti RAM dan
+
+01:36.330 --> 01:40.000
+memori akses acak yang dimiliki komputer.
+
+01:40.260 --> 01:43.810
+Dan itu adalah dua sumber daya yang berharga.
+
+01:43.860 --> 01:46.110
+Jadi bagaimana kita bisa berbicara tentang ingatan.
+
+01:46.110 --> 01:47.770
+Kami sudah bicara tentang kecepatan.
+
+01:47.820 --> 01:53.010
+Bagaimana dengan memori dan kabar baiknya adalah bahwa memori itu cukup sederhana tidak serumit kecepatan dan
+
+01:53.190 --> 02:00.240
+tidak akan lama bagi kita untuk belajar sebanyak yang kita miliki tentang kecepatan sekarang kode mana yang terbaik dapat dijawab dengan tiga
+
+02:00.240 --> 02:05.820
+pilar kode sesuatu yang saya ingin Anda bawa bersama Anda selama sisa karier Anda dan sesuatu yang akan
+
+02:05.870 --> 02:10.440
+menumbuhkan Anda sebagai seorang insinyur karena mulai sekarang saat Anda menulis kode, Anda akan
+
+02:10.440 --> 02:12.810
+memiliki tiga hal ini dalam pikiran.
+
+02:12.810 --> 02:20.890
+Salah satunya adalah Anda akan menulis kode bersih yang dapat dibaca yang dapat dibaca orang lain yang dapat dipelihara.
+
+02:20.910 --> 02:30.270
+Yang lain adalah kecepatan jenis kode yang kita sebut kompleksitas waktu memiliki kompleksitas waktu besar yang
+
+02:30.270 --> 02:31.440
+efisien.
+
+02:31.440 --> 02:33.020
+Ini bersisik dengan baik.
+
+02:33.230 --> 02:39.910
+Tetapi kita akan membicarakan dengan cepat tentang pilar ketiga ini dan itu adalah memori.
+
+02:40.010 --> 02:44.700
+Apa penggunaan memori kode jika menggunakan banyak memori.
+
+02:44.780 --> 02:45.560
+Itu tidak baik.
+
+02:45.590 --> 02:49.430
+Kami mungkin memiliki memori terbatas pada mesin kami dengan yang ini.
+
+02:49.520 --> 02:54.830
+Kami menggunakan big-O sekali lagi untuk membicarakan kompleksitas ruang.
+
+02:54.830 --> 02:58.910
+Notasi yang sama tetapi topik yang berbeda.
+
+02:58.910 --> 03:00.080
+Satu adalah ruang.
+
+03:00.080 --> 03:02.220
+Yang lainnya adalah WAKTU. Satu adalah kecepatan.
+
+03:02.300 --> 03:04.670
+Yang lainnya adalah memori.
+
+03:04.670 --> 03:11.610
+Saya akan memberi Anda sedikit pratinjau sebagian besar solusi kode pemrograman.
+
+03:11.610 --> 03:14.830
+Biasanya ada tradeoff antara kecepatan dan memori.
+
+03:14.830 --> 03:22.220
+Anda ingin segalanya berjalan lebih cepat dengan baik maka Anda mungkin harus mengorbankan lebih banyak memori dan Anda ingin lebih sedikit memori.
+
+03:22.330 --> 03:27.120
+Kalau begitu Anda mungkin harus berkorban dengan kecepatan yang meningkat.
+
+03:27.290 --> 03:31.040
+Mari kita selidiki bagaimana kita mengukur kompleksitas ruang.

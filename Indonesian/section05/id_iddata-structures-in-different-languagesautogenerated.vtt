@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.930 --> 00:07.470
+Selamat datang kembali ada beberapa struktur data yang dapat Anda tanyakan dalam sebuah wawancara dan kami melihat berapa banyak
+
+00:07.470 --> 00:10.150
+dari mereka yang ada di halaman Wikipedia.
+
+00:10.320 --> 00:14.760
+Tetapi untungnya bagi Anda daftar itu tidak terlalu menakutkan.
+
+00:14.760 --> 00:18.420
+Yang perlu Anda pelajari adalah angsa-angsa ini di sini.
+
+00:18.420 --> 00:21.380
+Ini digunakan saya akan mengatakan 90 persen dari waktu.
+
+00:21.540 --> 00:25.310
+Dan inilah yang akan kita bicarakan dalam kursus kita.
+
+00:25.350 --> 00:30.800
+Sekarang mungkin ada yang spesifik dalam kelompok-kelompok ini dan masing-masing dari mereka memiliki tradeoff
+
+00:30.990 --> 00:36.780
+Tetapi selama Anda mempelajari ini dan Anda belajar kapan dan mengapa Anda harus menggunakannya maka Anda akan berada
+
+00:36.780 --> 00:38.570
+jauh di depan kebanyakan orang.
+
+00:38.790 --> 00:41.160
+Ini akan sangat menyenangkan.
+
+00:42.490 --> 00:44.400
+Sekarang sebelum kita mulai.
+
+00:44.410 --> 00:46.870
+Saya ingin mencatat satu hal terakhir.
+
+00:47.020 --> 00:56.530
+Anda melihat setiap bahasa memiliki tipe data sendiri atau javascript tipe data yang dibangun misalnya
+
+00:57.190 --> 01:09.570
+memiliki string angka memiliki boolean yang benar salah dan kemudian beberapa yang aneh seperti tidak terdefinisi dan setiap bahasa
+
+01:09.570 --> 01:15.150
+memiliki struktur data untuk mengatur tipe data ini.
+
+01:15.150 --> 01:23.960
+Jadi misalnya dalam javascript kita memiliki array dan objek yang kita gunakan dan mereka adalah tipe data.
+
+01:23.970 --> 01:32.250
+Hal ini memungkinkan kita untuk menyusun dan mengatur informasi seperti tipe data primitif kita atau bahkan menyimpan yang lebih
+
+01:32.250 --> 01:38.760
+kompleks seperti memiliki array yang berisi banyak objek dan kita akan membicarakan hal ini secara
+
+01:38.760 --> 01:39.660
+lebih rinci.
+
+01:39.750 --> 01:47.730
+Tetapi saya ingin menunjukkan kepada Anda bahwa kami memiliki bahasa yang berbeda yang memiliki akses berbeda ke beberapa struktur data.
+
+01:47.790 --> 01:55.080
+Anda dapat melihat di sini beberapa bahasa lain yang dapat kita gunakan dalam kursus ini dan
+
+01:55.080 --> 01:56.230
+apakah tersedia.
+
+01:56.310 --> 02:07.010
+Kami melihat bahwa Java memiliki array telah menautkan daftar tumpukan kami memiliki antrian prioritas dan banyak jenis lainnya.
+
+02:07.090 --> 02:14.540
+Sekarang apakah itu berarti bahwa jika kita menggunakan javascript kita hanya bisa menggunakan array dan objek.
+
+02:15.270 --> 02:22.050
+Yah tidak benar-benar meskipun bahasa-bahasa ini datang dengan struktur data bawaan.
+
+02:22.050 --> 02:30.690
+Kita juga dapat membangun sendiri dan sebagian besar bahasa memiliki struktur data dan tipe data yang cukup untuk kita bangun dan buat
+
+02:31.740 --> 02:33.770
+struktur data kita sendiri.
+
+02:34.690 --> 02:44.580
+Jadi jika javascript tidak memiliki tumpukan Yah kita bisa membangun satu sekarang untuk menyelesaikan bagian ini dan akhirnya menyelam ke
+
+02:44.580 --> 02:47.280
+dalam struktur data pertama kami.
+
+02:47.300 --> 02:53.480
+Saya hanya ingin mengingatkan Anda bahwa kami memiliki peta kecil di sini tentang apa yang perlu kami ketahui untuk
+
+02:53.480 --> 02:54.470
+wawancara coding.
+
+02:54.470 --> 03:02.090
+Sekarang di peta ini saya memiliki sedikit emoji di sebelah masing-masing struktur data yang akan kita
+
+03:02.090 --> 03:02.930
+bicarakan.
+
+03:03.930 --> 03:10.260
+Seperti yang Anda lihat tidak ada banyak dari mereka dan banyak dari mereka cukup terkait atau anak-anak
+
+03:10.260 --> 03:17.600
+dari yang lain tetapi gunakan ini sebagai referensi bagi Anda untuk hanya menggambar peta tentang bagaimana hal-hal terhubung dan apa
+
+03:17.600 --> 03:19.650
+struktur data kita akan bicarakan.
+
+03:20.570 --> 03:24.870
+Tapi mari kita menjadi kotor dengan struktur data pertama kami.
+
+03:24.950 --> 03:26.280
+Saya akan melihat yang berikutnya.
+
+03:26.600 --> 03:26.820
+Babai.

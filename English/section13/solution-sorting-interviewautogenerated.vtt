@@ -1,0 +1,274 @@
+WEBVTT
+
+00:01.180 --> 00:04.250
+Womack How is this exercise.
+
+00:04.470 --> 00:09.220
+Let's go step by step and see how your answers match up.
+
+00:09.300 --> 00:10.720
+First one sort.
+
+00:10.740 --> 00:14.030
+Ten schools around your house by distance.
+
+00:14.310 --> 00:16.370
+So the input is only 10.
+
+00:16.410 --> 00:18.430
+It's fairly small.
+
+00:18.450 --> 00:20.370
+We need something simple.
+
+00:20.550 --> 00:23.860
+In this case I'll probably use insertion sort.
+
+00:25.530 --> 00:28.750
+It's really fast on small sorts.
+
+00:28.800 --> 00:37.280
+It's easy to code and it has space complexity of of one.
+
+00:37.300 --> 00:44.860
+It also could be that these 10 schools are already presorted or nearly sorted on our list.
+
+00:44.920 --> 00:48.460
+So insertion is just the simplest for this type of small data.
+
+00:48.570 --> 00:52.090
+I like insertion sort for this type of things.
+
+00:52.140 --> 00:53.120
+What about this one.
+
+00:53.130 --> 01:01.920
+This one's a tough one ebay sorts of listings on their Web site by the current bid amount.
+
+01:01.940 --> 01:05.750
+So what would you use for this wall for this.
+
+01:05.750 --> 01:15.710
+I would actually use something like radix or counting sort because well a bid is usually a number between
+
+01:16.310 --> 01:21.600
+let's say $1 to let's say 50000.
+
+01:21.710 --> 01:23.550
+Probably even less.
+
+01:23.690 --> 01:28.040
+When it comes to payment on eBay let's say $1 to $100.
+
+01:28.040 --> 01:31.190
+These are numbers that need to be sorted.
+
+01:31.310 --> 01:31.730
+Right.
+
+01:31.850 --> 01:35.900
+And because it's a fixed length of integers.
+
+01:35.930 --> 01:42.050
+Integers are most likely not going to be a hundred million because well hopefully nobody's bidding that
+
+01:42.050 --> 01:43.250
+much on eBay.
+
+01:43.250 --> 01:46.800
+So how do you use radix or counting sort to beat that.
+
+01:46.820 --> 01:55.110
+All of and log and time knowing that the bids are always going to be number within a certain range.
+
+01:55.270 --> 01:56.920
+What about that sort.
+
+01:56.920 --> 02:02.190
+Sports scores on ESPN sports scores can vary.
+
+02:02.190 --> 02:09.560
+There's decimal places sometimes there's there's different formats such as tennis and soccer and different
+
+02:09.560 --> 02:14.650
+things and there's definitely lots of sports and lots of scores to handle.
+
+02:14.880 --> 02:18.100
+In this case I'm going to use quick sort.
+
+02:18.810 --> 02:25.170
+It's going to be the most efficient and although we might have the worst case I doubt that the scores
+
+02:25.170 --> 02:28.690
+are going to be sorted because there are just so many different kinds.
+
+02:28.770 --> 02:33.070
+But I'm also worried about in-memory sorting.
+
+02:33.330 --> 02:40.740
+So if I used Myrt sort it might be a little too much for this because of our increase space complexity
+
+02:41.250 --> 02:47.500
+versus quicksort which if you remember has better space complexity.
+
+02:47.650 --> 02:50.410
+And by the way you might have your own answer for this.
+
+02:50.410 --> 02:56.330
+Maybe you thought that the sports scores on ESPN will be they input's would be a little bit different.
+
+02:56.380 --> 02:58.780
+You could you can have your different types of answers.
+
+02:58.780 --> 03:05.350
+The idea here in an interview situation is to explain yourself and if you know the principles then they
+
+03:05.350 --> 03:09.030
+interview your is going to say oh he or she knows what they're talking about.
+
+03:09.130 --> 03:14.980
+Number four massive database so we can fill all this data into memory to sort it.
+
+03:15.040 --> 03:22.000
+So we probably need to sort it out externally and let's say we need to sort through past years user
+
+03:22.000 --> 03:22.400
+data.
+
+03:22.450 --> 03:27.950
+So it's a ton of data and we need to sort it somehow let's say by some sort of a date.
+
+03:28.470 --> 03:33.100
+What based on the information that I got here it sounds like I need to do something called
+
+03:35.990 --> 03:38.480
+Mertz or my favorite type of sorting.
+
+03:39.990 --> 03:47.010
+And the reason I would pick this is because well it sounds that we're now going to be starting really
+
+03:47.010 --> 03:53.260
+in memory because the data is so big but because the data is so big I'm really worried about the performance.
+
+03:53.280 --> 03:56.920
+I don't want the worst case of quicksort of all and squared.
+
+03:57.000 --> 04:01.720
+I want to make sure that no matter what I'm going to get all of and log in.
+
+04:01.980 --> 04:03.510
+What about the fifth one.
+
+04:03.700 --> 04:10.370
+There is an almost sorted you Danny review data that needs to update and add two new reviews.
+
+04:10.530 --> 04:13.670
+So we have a massive list of your reviews.
+
+04:13.880 --> 04:21.650
+Let's say that you raided the course and this score say you're taking has 500 reviews and you've added
+
+04:21.660 --> 04:25.050
+you and your friend just added two new reviews to the scores.
+
+04:25.230 --> 04:30.100
+In this case I'm going to use insertion sort.
+
+04:30.130 --> 04:33.090
+And why is that well.
+
+04:33.140 --> 04:37.870
+Although this data might be huge and maybe I have a lot of reviews.
+
+04:39.010 --> 04:47.030
+I'm assuming that most of the previous data is already sorted and all I'm doing is adding two new reviews
+
+04:47.570 --> 04:48.600
+to this data.
+
+04:49.490 --> 04:56.730
+Insertion sort for pre ordered lists is going to work better than any other type presorted.
+
+04:56.880 --> 05:01.730
+Number six temperature records for the past 50 years in Canada.
+
+05:01.920 --> 05:04.240
+Oh boy what should we do with this one.
+
+05:04.300 --> 05:06.080
+And this is a little tricky.
+
+05:06.360 --> 05:13.450
+I would say that our First I would use something like radix or counting sort if the temperatures have
+
+05:13.450 --> 05:14.520
+no decimal places.
+
+05:14.530 --> 05:25.240
+If we're saying you know it's minus 30 to let's say 40 degrees that's a integer number between a small
+
+05:25.300 --> 05:32.050
+range down my workwell but if I want to sort through data that also has maybe temperatures that are
+
+05:32.050 --> 05:38.290
+really accurate and have decimal places which you can do with radix or counting sort then I'm probably
+
+05:38.290 --> 05:47.340
+going to use quick sort again just so we can do some in memory sorting and hopefully save on that space
+
+05:47.340 --> 05:48.880
+complexity.
+
+05:48.900 --> 05:54.930
+All right last to larger user name database or large user named database needs to be sorted.
+
+05:55.130 --> 05:57.890
+Data is very very random.
+
+05:59.120 --> 06:03.110
+All right so we have a user named database that needs to be sorted.
+
+06:03.140 --> 06:07.090
+I'm not really sure I don't have enough information to make a decision here.
+
+06:07.160 --> 06:17.130
+Maybe I would use merge sort if we have enough memory and memory isn't too expensive on the machine.
+
+06:17.130 --> 06:25.040
+Or maybe I'll use quicksort if I'm not too worried about worst case and that the user name databases
+
+06:25.210 --> 06:26.760
+that large.
+
+06:26.810 --> 06:33.750
+Maybe I'll just use quicksort just to save memory space and then finally number 8.
+
+06:33.930 --> 06:38.490
+You want to teach sir sorting for the first time so is a little fun question.
+
+06:38.520 --> 06:43.780
+I said the bubble sort just so I can add bubble sort to this list and selection sort.
+
+06:45.770 --> 06:46.420
+Hate.
+
+06:46.740 --> 06:49.270
+Hopefully you had fun with these questions.
+
+06:49.440 --> 06:50.900
+Sorting algorithms.
+
+06:50.970 --> 06:52.710
+This is probably the finest I can get it.
+
+06:52.710 --> 06:58.290
+Actually no I like the Hungarian dancing too sorting is the fun as you can have with sorting but I hope
+
+06:58.290 --> 07:03.710
+you have a good idea of how to answer these questions when they come to the interview.
+
+07:04.290 --> 07:05.800
+I'll see in the next video.
+
+07:06.130 --> 07:06.400
+Babay.

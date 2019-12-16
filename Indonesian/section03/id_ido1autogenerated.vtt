@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.540 --> 00:02.710
+Selamat datang kembali.
+
+00:02.710 --> 00:06.500
+Kami baru belajar notasi pertama kami Oh.
+
+00:06.580 --> 00:13.850
+Dan atau waktu linier dan kita lihat di sini bahwa kita memiliki beberapa yang tersisa.
+
+00:14.240 --> 00:16.690
+Jadi mari kita bicara tentang yang berikutnya.
+
+00:16.730 --> 00:22.640
+Notasi Big-O lain yang sangat umum bahwa Anda akan melihat apa yang terjadi jika kita memiliki fungsi seperti
+
+00:22.640 --> 00:23.230
+ini.
+
+00:24.690 --> 00:35.950
+Fungsi yang mengatakan kotak terkompresi pertama yang menerima array kotak dan fungsi ini hanya memiliki
+
+00:35.950 --> 00:39.160
+kotak dialog konsol nol.
+
+00:39.220 --> 00:45.520
+Jadi itu keluar hanya item pertama di dalam kotak.
+
+00:45.520 --> 00:54.750
+Apa yang akan Anda katakan Big O fungsi ini adalah berapa banyak langkah atau operasi yang dilakukan fungsi ini.
+
+00:54.750 --> 01:04.400
+Jika kotak meningkat dari 0 hingga mungkin 10 hingga 100 hingga 100.000, apa yang akan terjadi di sini.
+
+01:04.710 --> 01:11.890
+Siap untuk jawabannya dengan baik, inilah yang kami sebut waktu konstan.
+
+01:11.950 --> 01:20.050
+Ini adalah O dari yang tidak peduli berapa kali kotak bertambah tahun atau berapa banyak kotak yang
+
+01:20.410 --> 01:25.440
+kita miliki, kita selalu hanya meraih item pertama dalam array.
+
+01:25.480 --> 01:33.050
+Jika kita melihat ini dengan contoh jika kita memiliki array Buxus tahun dan kita jalankan melalui fungsi
+
+01:33.200 --> 01:36.830
+yang hanya mengambil item pertama dalam array
+
+01:37.750 --> 01:43.510
+Yah jumlah operasi adalah satu tidak peduli seberapa besar jumlah kotak ini.
+
+01:43.510 --> 01:46.400
+Kami hanya melakukan satu hal.
+
+01:46.520 --> 01:49.660
+Jadi ini adalah waktu yang konstan.
+
+01:49.930 --> 01:59.580
+Jika kita melihat ini pada grafik jika kita memiliki satu elemen atau satu kotak, kita melakukan satu operasi.
+
+01:59.780 --> 02:05.260
+Jika kita memiliki tiga lagi, kita masih melakukan hanya satu karena kita hanya mengambil item pertama dalam array.
+
+02:05.360 --> 02:08.220
+Jika kita katakan saja lima.
+
+02:08.240 --> 02:11.600
+Hal yang sama Tujuh hal yang sama.
+
+02:11.600 --> 02:16.460
+Dan bagaimana dengan sembilan lagi jumlah operasi yang sama.
+
+02:16.460 --> 02:21.030
+Dan ini saya tidak tahu apakah Anda dapat melihat garis tetapi ini hanya waktu yang konstan
+
+02:21.050 --> 02:26.720
+Ini bukan waktu linier seperti itu di mana ia meningkat dan meningkat dengan
+
+02:26.720 --> 02:29.900
+jumlah operasi, jumlah operasi tetap rata.
+
+02:32.840 --> 02:36.230
+Tapi saya punya pertanyaan di sini bagaimana jika kita melakukan sesuatu yang berbeda.
+
+02:36.350 --> 02:38.020
+Bagaimana jika kita melakukan sesuatu seperti ini.
+
+02:39.400 --> 02:47.070
+Bagaimana jika kita memiliki fungsi yang mengatakan fungsi log batang GRABBE.
+
+02:47.070 --> 03:04.710
+Dua kotak pertama dan ini mengambil array kotak dan akan menghibur atau mencatat item pertama dalam array dan itu akan ke
+
+03:06.110 --> 03:08.180
+dialog konsol.
+
+03:08.300 --> 03:15.200
+Juga item kedua dalam array.
+
+03:15.350 --> 03:17.740
+Bagaimana kita mengukur big-O dari fungsi ini.
+
+03:18.870 --> 03:25.770
+Baiklah, biarkan saya biasa menyelesaikan ini sebentar karena kita tidak memerlukan ini
+
+03:25.880 --> 03:36.050
+sekarang dan hanya membuat array yang disebut kotak dan kotak ini harus mengatakan 0 1 2 3 4 dan 5.
+
+03:36.120 --> 03:47.090
+Jadi 5 item atau 6 dalam hal ini karena kami menyertakan 0 dan jika kami menjalankan fungsi ini log dua kotak pertama dan
+
+03:47.090 --> 03:51.220
+kami berikan array kotak dan kami klik Jalankan.
+
+03:51.220 --> 03:54.890
+Di sini kita memiliki 0 dan 1.
+
+03:54.890 --> 04:00.470
+Jadi kami telah mencatat yang ini dan yang ini berapa jumlah operasi di sini.
+
+04:01.520 --> 04:09.030
+Ya, kita semua memiliki satu operasi di sini.
+
+04:09.030 --> 04:20.890
+Dan kemudian kita memiliki di sini jadi satu lagi setiap kali fungsi ini menjalankan dua operasi.
+
+04:20.930 --> 04:31.730
+Jadi fungsi ini secara total sebenarnya menjalankan 0 dari dua operasi setiap kali.
+
+04:31.730 --> 04:39.470
+Jadi, tidak peduli seberapa besar kotak mendapatkan jumlah operasi di sini akan menjadi terlalu jika kita
+
+04:39.470 --> 04:49.260
+melihat ini pada grafik alih-alih memiliki semua seperti yang kita miliki sebelum kita memiliki dua dan kemudian jika kita memiliki tiga operasi
+
+04:49.260 --> 04:52.210
+itu akan hanya 0 atau 3.
+
+04:52.290 --> 04:56.340
+Tapi secara keseluruhan itu masih garis datar.
+
+04:56.530 --> 04:59.650
+Dan ini adalah sesuatu yang akan kita bahas nanti.
+
+04:59.650 --> 05:08.920
+Tetapi jika menyangkut masalah biaya dan waktu, kita tidak peduli dengan seluk beluk salah satu dari dua atau tiga
+
+05:08.940 --> 05:10.020
+bahkan seratus.
+
+05:10.240 --> 05:17.060
+Kami membulatkannya ke hanya mengatakan oh salah satunya.
+
+05:17.170 --> 05:18.860
+Kami memiliki waktu yang konstan.
+
+05:18.880 --> 05:22.050
+Ini garis datar dalam hal skalabilitas.
+
+05:22.120 --> 05:28.520
+Tidak masalah seberapa besar input kita, kita akan selalu melakukan jumlah waktu konstan pada suatu
+
+05:30.840 --> 05:37.740
+fungsi dan jika kita melihat ini pada grafik kita melihat bahwa satu di sini adalah area hijau gelap.
+
+05:37.780 --> 05:39.070
+Ini luar biasa.
+
+05:39.070 --> 05:42.480
+Kami mencintai semua orang karena itu benar sangat scalable.
+
+05:42.520 --> 05:44.630
+Tidak masalah berapa banyak elemen yang kita miliki.
+
+05:44.640 --> 05:50.750
+Itu selalu akan menjalankan prediktabilitas yang sama ketika datang ke
+
+05:50.790 --> 05:56.120
+komputasi sangat bagus dan semuanya pasti sangat baik.
+
+05:56.220 --> 06:04.810
+Jadi kita telah belajar tentang waktu linear semua dan kemudian biaya dan waktu oh satu.
+
+06:04.970 --> 06:09.120
+Mari kita lakukan sedikit latihan yang menyenangkan untuk benar-benar memperkuat pengetahuan kita di sini.

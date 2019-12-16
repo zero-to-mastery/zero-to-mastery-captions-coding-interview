@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.680 --> 00:04.970
+Bawa mereka kembali. Saya punya sedikit latihan yang menyenangkan untuk Anda.
+
+00:04.970 --> 00:06.390
+Dan sekarang Anda bertanya pada diri sendiri.
+
+00:06.480 --> 00:08.660
+Andrea Anda mengatakan semua latihan itu menyenangkan.
+
+00:08.660 --> 00:10.750
+Anda pembohong besar.
+
+00:10.750 --> 00:11.300
+Baiklah.
+
+00:11.300 --> 00:14.000
+Poin yang adil tapi saya pikir yang ini akan menyenangkan.
+
+00:14.000 --> 00:15.100
+Jadi tetap dengan saya.
+
+00:16.020 --> 00:24.390
+Saya ingin Anda menulis fungsi sebenarnya dua fungsi yang menemukan faktorial dari angka apa pun.
+
+00:24.470 --> 00:26.030
+Sekarang mengapa dua fungsi.
+
+00:26.240 --> 00:34.820
+Nah satu fungsi akan menjadi rekursif menggunakan apa yang baru saja kita pelajari di mana kita harus membuat case dasar kita
+
+00:34.820 --> 00:37.030
+harus mengikuti langkah-langkah yang benar.
+
+00:37.100 --> 00:44.030
+Jika kita kembali, kita harus mengidentifikasi kasus dasar dan kasus rekursif dan akhirnya memastikan
+
+00:44.030 --> 00:46.970
+bahwa kita mengubah kedua kasus.
+
+00:47.110 --> 00:57.670
+Jadi fungsi rekursif ini akan mengembalikan jawaban tetapi apa yang merupakan faktorial cara yang baik untuk berpikir
+
+00:57.670 --> 00:59.510
+tentang faktorial.
+
+00:59.620 --> 01:10.030
+Apakah ini notasi lima tanda seru faktorial berarti mengalikan lima kali empat kali tiga kali
+
+01:10.150 --> 01:12.280
+dua kali satu.
+
+01:12.490 --> 01:18.540
+Anda terus turun satu per satu mengalikan setiap angka sampai Anda mendapatkan 1.
+
+01:18.790 --> 01:27.260
+Jadi enam faktorial akan menjadi enam kali lima kali empat kali tiga kali hingga 10 Amazon dan Anda akan
+
+01:27.260 --> 01:36.770
+melihat di sini bahwa ini adalah pola rekursi yang kami lakukan, kami sebut fungsi dan kami memiliki dua kasing yang dapat
+
+01:36.770 --> 01:37.630
+terjadi.
+
+01:37.670 --> 01:45.440
+Kami memiliki kasus dasar untuk menghentikan atau kasus rekursif dan seterusnya dan seterusnya dan kami terus
+
+01:45.440 --> 01:48.840
+berjalan terus sampai kami menekan 1.
+
+01:48.860 --> 01:52.620
+Jadi saya ingin membangun fungsi yang melakukan ini untuk kita.
+
+01:52.760 --> 01:56.840
+Saya akan menulis fungsi faktorial.
+
+01:56.840 --> 02:01.050
+Anda akan dimasukkan ke dalam lima dan itu akan berjalan melalui ini.
+
+02:01.490 --> 02:09.190
+Tapi ingat definisi kami tentang rekursi rekursi adalah ketika Anda mendefinisikan sesuatu dari segi itu sendiri.
+
+02:09.210 --> 02:19.490
+Sekarang cara yang baik untuk berpikir tentang faktorial adalah faktorial lima ini hanya faktorial lima kali empat.
+
+02:19.670 --> 02:24.260
+Anda lihat di sini lima kali empat faktorial adalah faktorial
+
+02:27.040 --> 02:34.510
+lima lima kali empat kali tiga faktorial empat kali tiga adalah faktorial karena empat kali faktorial
+
+02:34.510 --> 02:42.500
+sama dengan faktorial dan Anda lihat di sini bagaimana kita mungkin memiliki fungsi rekursi yang dapat kita
+
+02:43.010 --> 02:45.290
+tulis menggunakan pengetahuan ini.
+
+02:45.290 --> 02:50.110
+Lihat apakah Anda dapat membuat fungsi yang memungkinkan Anda melakukan ini.
+
+02:50.210 --> 02:54.500
+Sekarang ketika datang ke pertanyaan ini ada dua cara yang bisa Anda lakukan.
+
+02:54.560 --> 03:00.950
+Anda dapat melakukan pendekatan rekursif di mana fungsi memanggil dirinya sendiri atau Anda dapat melakukan
+
+03:01.010 --> 03:09.470
+pendekatan berulang yang berarti perulangan dan sebagian besar dari Anda mungkin akan menemukan lebih mudah untuk menyelesaikannya dengan cara ini
+
+03:09.470 --> 03:11.200
+hanya dengan for loop.
+
+03:11.270 --> 03:15.840
+Misalnya saya akan menyerahkan ini kepada Anda untuk mencari tahu.
+
+03:15.870 --> 03:19.540
+Lihat apakah Anda dapat melakukan kedua fungsi dan melihat apakah mereka memberi Anda nomor yang tepat.
+
+03:20.010 --> 03:23.000
+Dan di video berikutnya saya akan menunjukkan jawabannya.
+
+03:23.100 --> 03:24.230
+Saya akan melihat yang itu.
+
+03:24.240 --> 03:24.580
+Semoga berhasil.

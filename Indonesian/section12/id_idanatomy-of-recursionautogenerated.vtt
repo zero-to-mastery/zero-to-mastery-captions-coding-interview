@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.110 --> 00:09.220
+Setiap fungsi rekursif perlu memiliki sesuatu yang disebut kasus dasar atau titik berhenti.
+
+00:09.390 --> 00:16.380
+Ingat contoh saya di awal di mana saya menunjukkan kepada Anda bagaimana secara
+
+00:17.010 --> 00:26.490
+rekursif memeriksa semua folder di salah satu proyek kami, kami harus memberi tahu program ini hei jika subfolder ini kami
+
+00:26.490 --> 00:33.770
+tidak lagi memiliki folder lagi berhenti jika berhenti ini tidak t disana fungsinya tetap berjalan.
+
+00:33.940 --> 00:36.790
+Jadi fungsi rekursif memiliki dua jalur.
+
+00:37.570 --> 00:43.730
+Salah satunya adalah kasus rekursif yang memanggil fungsi lagi dan menjalankannya.
+
+00:44.080 --> 00:47.370
+Dan kemudian kasus dasar yang berhenti memanggil fungsi.
+
+00:47.530 --> 00:49.950
+Tidak ada yang lebih untuk mencari.
+
+00:50.000 --> 00:56.180
+Jadi bagaimana kita bisa menambahkan fitur ini untuk mengatakan fungsi. Hei, hentikan itu, kamu konyol sekarang.
+
+00:56.180 --> 00:57.350
+Kamu harus berhenti.
+
+00:57.830 --> 01:00.920
+Ya kita bisa melakukan sesuatu seperti ini.
+
+01:01.040 --> 01:04.610
+Kita dapat membuat penghitung dan kita akan mengatakan penghitung ini nol.
+
+01:06.960 --> 01:19.280
+Dan kita dapat menambahkan pernyataan bersyarat akan mengatakan bahwa jika penghitung lebih besar dari 3 dalam hal itu
+
+01:19.280 --> 01:21.390
+kembalikan saja selesai.
+
+01:24.480 --> 01:27.100
+Kalau tidak, kami akan memanggil awal.
+
+01:27.110 --> 01:31.360
+Tapi kami juga ingin menambah penghitung dengan 1.
+
+01:31.390 --> 01:41.190
+Jadi jika saya klik jalankan di sini dengan baik saya harus memanggil fungsi terlebih dahulu katakanlah permulaan jika saya memanggil fungsi ini sekarang
+
+01:41.350 --> 01:44.340
+apa yang Anda pikir akan terjadi
+
+01:45.210 --> 01:46.360
+Jeda video.
+
+01:46.360 --> 01:51.070
+Pikirkan tentang hal ini karena saya akan mengklik menjalankan dalam tiga sampai
+
+01:54.560 --> 01:56.700
+satu saya tidak terdefinisi.
+
+01:56.870 --> 02:00.220
+Itukah yang Anda harapkan.
+
+02:00.350 --> 02:07.670
+Hanya untuk menunjukkan sesuatu kepada Anda jika saya mengomentari kode ini dan kami
+
+02:07.670 --> 02:20.630
+hanya melakukan Inception ini di mana kami terus memanggil Inception awal dan mungkin melakukan log konsol di sini menyapa dan saya klik jalankan saya
+
+02:20.630 --> 02:24.610
+mendapatkan ukuran tumpukan panggilan maksimum melebihi OK.
+
+02:24.800 --> 02:30.660
+Kita tahu dengan melihat fungsi ini versi fungsi yang tidak akan pernah bisa masuk ke konsol
+
+02:30.850 --> 02:37.160
+log karena segera setelah menyentuh baris pertama fungsi itu akan kembali dan berkata oh saya memanggil ini
+
+02:37.160 --> 02:42.350
+dan kemudian jenis pergi di sini hanya akan bangkit bolak-balik tidak pernah sampai ke
+
+02:42.350 --> 02:43.280
+konsol log.
+
+02:43.580 --> 02:46.000
+Tetapi jika kita kembali ke apa yang kita miliki sebelumnya.
+
+02:46.400 --> 02:50.040
+Yah fungsi kita jelas telah berakhir.
+
+02:50.060 --> 02:58.860
+Itu tidak melakukan stack overflow dan pada satu titik itu berakhir karena kami menambah penghitung.
+
+02:58.900 --> 03:05.960
+Jadi izinkan saya menghibur semua log di sini adalah counter dan pastikan ini berfungsi.
+
+03:06.100 --> 03:12.670
+Jika saya mengklik menjalankan saya mendapatkan 0 1 2 3 4 ketika sampai 4.
+
+03:12.670 --> 03:15.160
+Penghitung lebih besar dari 3.
+
+03:15.430 --> 03:17.510
+Jadi kita kembali selesai.
+
+03:17.650 --> 03:20.860
+Tetapi mengapa tidak ada yang dilakukan di sini.
+
+03:22.200 --> 03:26.610
+Dan ini adalah ilustrasi yang bagus tentang bagaimana rekursi bekerja.
+
+03:26.670 --> 03:28.140
+Saya akan menyalin
+
+03:31.270 --> 03:34.600
+kode ini dan kembali ke browser kami di sini.
+
+03:34.750 --> 03:42.860
+Biarkan saya me-refresh halaman ini untuk memastikan bahwa Anda memiliki variabel global yang jelas dan saya akan menyalin
+
+03:42.860 --> 03:52.100
+dan menempelkan awal kali ini saya akan menambahkan kata kunci debugger sehingga kita dapat men-debug kode kami dan pergi langkah demi
+
+03:52.130 --> 03:53.690
+langkah saya t.
+
+03:55.340 --> 04:00.750
+Ayo jalankan awal dan lihat apa yang terjadi.
+
+04:00.750 --> 04:04.680
+Baiklah kita kembali ke debugger kita.
+
+04:04.730 --> 04:06.860
+Kami melihat bahwa kami memiliki tumpukan panggilan di sini.
+
+04:06.860 --> 04:14.720
+Inception baru saja dipanggil oleh saya dan saya juga membuka tab kecil ini yang disebut ruang lingkup untuk kasus kami.
+
+04:14.740 --> 04:19.740
+Kami hanya ingin membuka ruang lingkup skrip.
+
+04:19.940 --> 04:28.500
+Ini menunjukkan kepada kita variabel apa yang kami miliki untuk kami dalam hal ini kami memiliki penghitung yang merupakan milik Anda.
+
+04:28.640 --> 04:29.610
+Jadi saya akan klik.
+
+04:29.630 --> 04:36.460
+Melangkahlah dan itu akan mengatakan hei kita memiliki counter sama dengan nol.
+
+04:36.470 --> 04:38.130
+Apakah itu lebih dari tiga.
+
+04:38.160 --> 04:45.140
+Tidak, saya akan melewati konter Inkerman dan berlari dan memisahkan kita melihat bahwa itu terjadi.
+
+04:46.050 --> 04:51.770
+Penghitung sekarang telah bertambah karena kami telah melewati garis ini dan sekarang kami pergi ke Inception.
+
+04:51.810 --> 04:56.010
+Kita akan menjalankan fungsi lagi dan Anda akan melihat bahwa tumpukan panggilan ketika
+
+04:56.010 --> 04:56.510
+saya
+
+04:59.390 --> 05:05.670
+mengklik ini akan meningkat dan kita akan pergi sekali lagi negara-negara sekarang satu Tidak tidak mengembalikan apa-apa lagi tetapi menambah penghitung.
+
+05:05.750 --> 05:09.460
+Anda akan melihat penghitung menjadi dua dan kami akan menjalankan awal lagi.
+
+05:10.590 --> 05:18.620
+Dan kami terus sekali lagi melewati Connard menjadi tiga menambahkan awal ke tumpukan dan kemudian
+
+05:18.620 --> 05:23.230
+sekali lagi tiga tidak lebih besar dari tiga.
+
+05:23.230 --> 05:27.420
+Jadi kita pergi sekali lagi memanggil penambahan dengan memasukkan ke dalam stack.
+
+05:27.580 --> 05:36.700
+Kami sekarang memiliki banyak tumpukan counter di empat dan kemudian kami melangkah di sini counter sekarang empat yang lebih besar
+
+05:36.700 --> 05:37.760
+dari tiga.
+
+05:37.780 --> 05:43.210
+Kita akhirnya akan memasuki jika kondisi itu akan kembali dilakukan untuk kita.
+
+05:43.270 --> 05:44.690
+Mari kita lihat apa yang terjadi di sini.
+
+05:44.710 --> 05:46.590
+Saya akan klik berikutnya.
+
+05:48.650 --> 05:52.280
+Dan saya klik Next lagi.
+
+05:52.310 --> 05:53.330
+Lihat itu.
+
+05:53.480 --> 06:00.520
+Kami memiliki variabel lokal sekarang yang telah mengembalikan nilai.
+
+06:00.540 --> 06:10.090
+Kami sekarang telah kembali selesai dan kami tidak akan lagi menelepon awal, tumpukan panggilan sekarang akan mulai memadamkan
+
+06:10.150 --> 06:17.070
+fungsi-fungsi ini karena itu akan mengatakan oh kami memiliki kata kunci kembali.
+
+06:17.170 --> 06:22.020
+Saya akan menghentikan apa pun yang saya lakukan di bagian bawah sini dan kembali dari fungsi ini.
+
+06:22.060 --> 06:28.020
+Jadi fungsi awal ini akan kembali dilakukan tetapi perhatikan apa yang terjadi selanjutnya.
+
+06:31.070 --> 06:38.390
+Meskipun saya mendapatkan nilai kembali, undefined Azari muncul item atas dari awal dari tumpukan panggilan
+
+06:38.770 --> 06:46.010
+dan jika saya terus muncul hal-hal dari tumpukan panggilan nilai kembali tidak ditentukan.
+
+06:46.170 --> 06:48.590
+Dan itulah mengapa kita dapatkan.
+
+06:48.800 --> 06:50.870
+Sekarang kenapa begitu.
+
+06:51.230 --> 06:59.990
+Nah, jika kita kembali ke fungsi kita dengan baik, Anda baru saja melihat
+
+07:00.590 --> 07:11.500
+bahwa pada dasarnya kita melakukan ini, kita menyebutnya permulaan dua kali tiga kali dan kemudian empat kali.
+
+07:11.720 --> 07:15.910
+Dan di dalam sini ketika kami akhirnya sampai di sini kami berkata oh kembali selesai.
+
+07:16.130 --> 07:27.420
+Jadi fungsi awal ini berubah menjadi dun dan kemudian kita pergi ke fungsi ini.
+
+07:27.430 --> 07:34.680
+Sekarang masalah dengan ini dan saya tahu itu membingungkan adalah bahwa setelah kami kembali setelah kami muncul
+
+07:34.680 --> 07:41.530
+dari tumpukan dan kami sekarang di bagian awal tetapi awal ini tidak pernah mengembalikan apa pun.
+
+07:41.850 --> 07:46.270
+Ketika suatu fungsi tidak mengembalikan apa pun itu hanya mengembalikan untuk menemukan.
+
+07:46.290 --> 07:49.570
+Jadi kita harus terus mengatakannya untuk mengembalikan ini.
+
+07:50.070 --> 07:53.400
+Dan menggembungkannya sampai akhir.
+
+07:53.820 --> 07:58.320
+Dan ini adalah sesuatu yang harus Anda ingat dengan rekursi.
+
+07:58.410 --> 08:05.990
+Biasanya ada kasus dasar dan Anda selalu ingin memastikan Anda kembali sehingga nilai yang
+
+08:05.990 --> 08:09.860
+Anda inginkan menggelembung sepanjang jalan untuk berbicara.
+
+08:09.890 --> 08:19.490
+Dalam kasus kami, yang perlu kami lakukan adalah mengatakan pengembalian awal dengan cara ini awal ini tahu untuk mengembalikan apa pun
+
+08:19.490 --> 08:25.820
+hasilnya yang dilakukan dan awal ini tahu untuk mengembalikan apa pun hasil ini yang
+
+08:26.000 --> 08:27.200
+dilakukan lagi.
+
+08:27.500 --> 08:31.580
+Dan seterusnya dan seterusnya sampai kita selesai kembali.
+
+08:31.580 --> 08:33.160
+Mari kita jalankan ini lagi.
+
+08:34.850 --> 08:35.030
+Baiklah.
+
+08:35.180 --> 08:45.980
+Dan saya harus memanggil fungsi itu untuk kembali memulai dan menjalankan dan kami selesai dengan sangat baik.
+
+08:45.980 --> 08:53.730
+Jika saya kembali ke sini dan kembali ke kontra. Saya mendorong Anda untuk mencoba ini saat ini menambahkan
+
+08:53.730 --> 08:58.780
+kata kunci kembali ke Inception dan menjalankan debugger untuk melihat apa yang terjadi.
+
+08:59.970 --> 09:05.130
+Tapi yang baru saja saya tunjukkan kepada Anda adalah yang Anda butuhkan untuk membangun fungsi rekursif.
+
+09:05.130 --> 09:07.140
+Anda punya tiga aturan.
+
+09:07.170 --> 09:21.460
+Salah satunya adalah mengidentifikasi kasus dasar dua adalah mengidentifikasi kasus rekursif.
+
+09:21.500 --> 09:26.520
+Jadi kami telah mengidentifikasi kasus dasar pergi untuk menghentikan kasus rekursif.
+
+09:26.540 --> 09:30.080
+Saat itulah Konner kurang dari tiga.
+
+09:30.180 --> 09:41.510
+Dan akhirnya langkah ketiga kami adalah semakin dekat dan semakin dekat saat kembali diperlukan.
+
+09:42.210 --> 09:48.750
+Dan itu biasanya Anda memiliki dua pengembalian untuk kasus dasar dan kasus
+
+09:52.640 --> 09:58.330
+rekursif karena Anda ingin mengembalikan sesuatu di akhir fungsi.
+
+09:58.430 --> 10:01.000
+Jadi mari kita komentari ini.
+
+10:01.010 --> 10:08.690
+Kami memiliki gagasan tentang bagaimana rekursi bekerja, fungsinya semakin dekat dan semakin dekat dengan kasus
+
+10:08.690 --> 10:09.580
+dasar.
+
+10:09.740 --> 10:17.210
+Dan begitu sampai ke casing dasar akhirnya kembali dan muncul fungsi dari tumpukan tapi itu cukup berbicara
+
+10:17.210 --> 10:18.350
+untuk saya.
+
+10:18.350 --> 10:24.500
+Saya pikir ini saatnya bagi kita untuk melakukan beberapa latihan coding untuk benar-benar akrab dengan topik ini.
+
+10:24.530 --> 10:25.830
+Saya akan melihat yang berikutnya.
+
+10:26.180 --> 10:26.420
+Babai.

@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.010 --> 00:08.240
+Kembalilah di video sebelumnya kita berbicara tentang karakteristik khusus atau properti pohon biner.
+
+00:09.040 --> 00:15.190
+Dan karena cara pohon biner terstruktur ada cara tertentu bagi kita untuk menghitung jumlah
+
+00:15.190 --> 00:20.540
+catatan yang mereka miliki misalnya pada Level 0 dari pohon biner.
+
+00:20.620 --> 00:26.530
+Itu adalah tingkat paling atas di mana kita hanya memiliki satu simpul akar, kita dapat menghitung berapa
+
+00:26.530 --> 00:30.940
+banyak catatan yang ada dengan melakukan dua pangkat pada tingkat yang nol.
+
+00:30.940 --> 00:34.350
+Jadi jika saya melakukan dua dengan kekuatan nol itu akan sama dengan satu.
+
+00:34.390 --> 00:37.070
+Itu kita punya satu not.
+
+00:37.220 --> 00:41.880
+Jika kita turun level kita dan katakan bagaimana dengan Level 1 berapa level yang kita miliki.
+
+00:42.050 --> 00:48.700
+Kita memiliki dua kekuatan satu sama dengan dua.
+
+00:49.490 --> 00:50.330
+Baiklah, mari kita lanjutkan.
+
+00:50.330 --> 00:51.920
+Bagaimana dengan level 2.
+
+00:51.950 --> 00:54.670
+Berapa banyak node yang kita miliki pada level itu.
+
+00:54.800 --> 00:59.910
+Kita memiliki dua pangkat dua yang sama dengan empat.
+
+01:00.380 --> 01:03.350
+Dan kemudian satu level terakhir dari kata Level Tiga.
+
+01:03.410 --> 01:09.840
+Berapa banyak node yang akan kita miliki di level tiga dalam pohon biner seimbang sempurna.
+
+01:10.070 --> 01:15.990
+Nah dua pangkat tiga akan sama dengan delapan Oh boy.
+
+01:16.360 --> 01:20.120
+Kami hanya melakukan matematika di sini dan saya berjanji bahwa kursus ini akan menjadi matematika.
+
+01:20.140 --> 01:22.110
+Tapi bersabarlah di sini.
+
+01:22.180 --> 01:25.660
+Saya ingin menjelaskan kepada Anda apa log tua dan artinya.
+
+01:26.910 --> 01:33.180
+Mengetahui apa yang baru saja kita lakukan sekarang dan mengetahui bahwa ini
+
+01:33.480 --> 01:39.960
+adalah jumlah total node jika kita membayangkan bahwa data ini berada dalam array
+
+01:40.530 --> 01:48.380
+yang berarti kita memiliki delapan tempat yang perlu kita ulangi melalui delapan node yang perlu kita
+
+01:48.380 --> 02:00.630
+periksa mungkin untuk mencari sesuatu yang baik berdasarkan rumus ini di sini yang berarti bahwa kita tidak dapat menemukan jumlah node dalam pohon dengan melakukan
+
+02:00.630 --> 02:09.000
+dua pangkat H atau ketinggian yang tingkat jika kita tahu berapa banyak tingkatan pohon biner kita dapat
+
+02:09.000 --> 02:15.550
+cari tahu berapa jumlah total node yang ada dua dengan kekuatan H minus satu.
+
+02:15.560 --> 02:18.160
+Sekarang mengapa ini minus satu.
+
+02:18.170 --> 02:26.660
+Nah jika kita kembali ke diagram pohon biner ini, kita memiliki satu dua tiga empat lima enam tujuh.
+
+02:26.900 --> 02:33.440
+Kami memiliki tujuh simpul total dan pohonnya adalah satu hingga tiga.
+
+02:33.740 --> 02:38.080
+Ketinggian pohon sementara itu tiga tingkat dalam.
+
+02:38.200 --> 02:43.780
+Jadi dua pangkat tiga minus satu adalah tujuh node.
+
+02:43.780 --> 02:51.940
+Sekarang jika kita benar-benar menyederhanakan ini, kita cukup mengatakan bahwa log node akan sama
+
+02:52.240 --> 02:54.840
+dengan tinggi atau langkah-langkahnya.
+
+02:55.120 --> 03:04.490
+Dan saya menggunakan log di sini hanya berpikir log pengembaraan Anda berarti log 100 sama dengan dua
+
+03:05.210 --> 03:09.150
+karena 10 pangkat dua sama dengan 100.
+
+03:11.380 --> 03:22.000
+Jadi semua yang saya lakukan adalah menggunakan ini saya menyederhanakan dan mengatakan bahwa catatan log sama dengan tinggi dan kami
+
+03:22.330 --> 03:31.110
+telah menjatuhkan negatif di sini karena itu signifikan tetapi log log adalah jumlah langkah atau tinggi.
+
+03:31.140 --> 03:35.910
+Dan mari kita ubah hanya dua langkah yang akan kita gunakan dalam memperlakukan.
+
+03:35.920 --> 03:45.250
+Mari saya tunjukkan lagi pada diagram diagram kami dan sederhananya berdasarkan ketinggian, jumlah
+
+03:45.250 --> 03:46.780
+keputusan maksimum.
+
+03:46.870 --> 03:52.600
+Katakanlah kita sedang mencari simpul tertentu yang akan kita ambil akan berupa log.
+
+03:52.600 --> 03:55.890
+Dan itu artinya inilah simpul yang kami cari.
+
+03:55.900 --> 03:56.390
+Tidak.
+
+03:56.410 --> 04:02.520
+Lalu kita pergi ke kiri atau ke kanan kecuali kita ke kiri dan berkata Apakah ini yang tidak kita cari.
+
+04:02.740 --> 04:05.400
+Dan itu adalah langkah kedua kami.
+
+04:05.470 --> 04:06.590
+Jika jawabannya tidak.
+
+04:06.590 --> 04:10.910
+Mereka ke kiri atau ke kanan dan kami katakan ini tidak, kami sedang mencari.
+
+04:11.050 --> 04:11.540
+Iya nih.
+
+04:11.830 --> 04:20.020
+Jadi, kami memiliki maksimum tiga langkah tahun daripada jika Anda ingin satu dua tiga empat lima enam tujuh langkah.
+
+04:20.140 --> 04:23.590
+Anda lihat ada semacam efisiensi di sini.
+
+04:23.740 --> 04:29.470
+Dan mendatang kita akan belajar tentang pohon pencarian biner di mana kita dapat
+
+04:29.480 --> 04:32.860
+meminimalkan langkah-langkah itu daripada mengunjungi setiap catatan.
+
+04:33.250 --> 04:42.780
+Jadi, ketika Anda melihat notasi oh Lague dan tidak memulai semua yang dikatakan adalah bahwa pilihan elemen berikutnya yang
+
+04:42.780 --> 04:50.400
+akan melakukan beberapa jenis tindakan adalah salah satu dari beberapa kemungkinan dan hanya satu yang
+
+04:50.520 --> 04:52.110
+perlu dipilih.
+
+04:52.140 --> 05:00.020
+Kami tidak harus memeriksa keduanya dengan cara yang baik untuk berpikir tentang log dan ketika Anda melihat-lihat buku
+
+05:00.020 --> 05:00.680
+telepon.
+
+05:01.080 --> 05:05.490
+Anda sebenarnya tidak memeriksa setiap orang dalam buku telepon, bukan?
+
+05:05.490 --> 05:13.080
+Alih-alih, Anda cukup melakukan apa yang disebut membagi dan menaklukkan dengan melihat berdasarkan di mana nama mereka dimulai secara
+
+05:13.490 --> 05:14.140
+alfabet.
+
+05:14.400 --> 05:20.550
+Anda akan membuka buku ke tempat Anda pikir surat itu akan dimulai dengan nama akan mulai dengan
+
+05:20.550 --> 05:25.170
+dan kemudian terus membagi dan menaklukkan sampai Anda sampai ke orang itu.
+
+05:25.280 --> 05:32.030
+Anda hanya perlu menjelajahi subset dari setiap bagian sebelum akhirnya menemukan nomor telepon seseorang.
+
+05:33.170 --> 05:34.560
+Jadi pikirkan saja itu.
+
+05:34.850 --> 05:38.350
+Oh Lagann seperti melihat-lihat buku telepon.
+
+05:39.680 --> 05:45.880
+Dan alasan mengapa saya baru saja membicarakan semua Lagann dengan sangat rinci adalah karena ini adalah konsep yang penting.
+
+05:45.890 --> 05:53.420
+Ini benar-benar sangat cepat seperti yang Anda lihat di sini lagi, ini seperti area hijau yang bagus.
+
+05:53.420 --> 06:00.780
+Itu bahkan lebih baik daripada oh waktu linear karena kita tidak perlu memeriksa setiap elemen.
+
+06:01.070 --> 06:05.780
+Dan dalam video berikutnya kita akan berbicara tentang pohon paling umum yang akan
+
+06:05.780 --> 06:09.830
+Anda lihat di banyak tempat yang disebut pohon pencarian biner.
+
+06:09.890 --> 06:16.520
+Dan seperti namanya, ini memungkinkan kami untuk mencari dengan sangat efisien dan hanya dengan melihat grafik
+
+06:16.910 --> 06:24.290
+ini Anda mungkin dapat berpikir tentang bagaimana tempat seperti Google dan pencarian Google mungkin menemukan ini sangat
+
+06:24.380 --> 06:25.130
+berguna.
+
+06:25.130 --> 06:25.800
+Kanan.
+
+06:25.910 --> 06:33.000
+Ketika kami mencari melalui Google, mereka memiliki banyak situs Web yang ton untuk dicari.
+
+06:33.110 --> 06:42.200
+Bagaimana mereka dapat memberi kami jawaban untuk pencarian kami begitu cepat jika mereka menggunakan semua kompleksitas waktu Van, itu akan memakan
+
+06:42.620 --> 06:46.890
+banyak waktu dan itu akan sangat mahal bagi mereka.
+
+06:46.940 --> 06:54.170
+Jadi alih-alih mereka menggunakan struktur pohon atau struktur data pohon sehingga pencarian kami bisa jauh lebih cepat dengan
+
+06:54.350 --> 06:58.420
+sesuatu seperti oh masuk saya akan melihat di video berikutnya.

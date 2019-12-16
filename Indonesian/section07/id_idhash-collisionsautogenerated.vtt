@@ -1,0 +1,283 @@
+WEBVTT
+
+00:01.700 --> 00:08.660
+Melihat fungsi hash, Anda dapat mulai berpikir tentang tindakan apa yang mereka lakukan dan seberapa cepat dapat
+
+00:08.660 --> 00:09.220
+dilakukan.
+
+00:10.880 --> 00:18.080
+Ketika datang untuk memasukkan sesuatu ke dalam ruang memori kita Yah itu akan berlebihan.
+
+00:18.170 --> 00:26.570
+Kami hash kunci seperti anggur melalui fungsi hash dan menempatkannya secara otomatis ke
+
+00:26.570 --> 00:29.630
+ruang alamat yang muncul.
+
+00:29.720 --> 00:38.150
+Mencari adalah sama persis kita mengakses properti yang akan mendapatkan hash dan mengarahkan kita
+
+00:38.150 --> 00:41.860
+tepat ke alamat untuk menemukan nilai-nilai.
+
+00:41.890 --> 00:43.640
+Bagaimana dengan penghapusan.
+
+00:43.720 --> 00:53.740
+Hal yang sama kita langsung menggunakan kunci kita tahu di mana untuk menghapus item dan karena itu tidak
+
+00:53.770 --> 00:54.600
+dipesan.
+
+00:54.820 --> 00:58.630
+Kami tidak harus menggeser indeks seperti yang kami lakukan dengan array.
+
+00:58.690 --> 01:01.430
+Semuanya baik dan sederhana.
+
+01:01.540 --> 01:07.840
+Bagaimana dengan mencari jika kita ingin menemukan sesuatu di keranjang seperti apel.
+
+01:07.850 --> 01:09.590
+Yah itu mudah juga.
+
+01:09.690 --> 01:18.910
+Kami hanya menggunakan fungsi hash jika kami pergi ke taman bermain kami di javascript saya dapat membuat
+
+01:18.930 --> 01:26.250
+objek katakanlah biarkan pengguna dan pengguna ini akan memiliki properti masing-masing 54.
+
+01:26.300 --> 01:34.940
+Katakanlah namanya adalah sihir Kylie.
+
+01:35.080 --> 01:42.850
+Nah, katakanlah Kylie melakukan keterampilan sihir sehingga seluruh mengaturnya menjadi True
+
+01:43.480 --> 01:52.390
+dan untuk bersenang-senang katakanlah bahwa teriakan adalah fungsi yang hanya akan menghibur log jeritan.
+
+01:53.440 --> 02:00.800
+Itu bukan jeritan terkuat tapi saya tidak ingin menakut-nakuti orang di sekitar saya ketika saya menjalankan ini.
+
+02:00.930 --> 02:08.100
+Saya telah membuat objek pengguna dan usia 54 bernama Kylie magic.
+
+02:08.160 --> 02:16.790
+Jeritan dan disfungsi sejati semuanya akan ditempatkan di suatu tempat di memori berbagai alamat.
+
+02:16.990 --> 02:19.050
+Tetapi saya dapat mengakses ini dengan sangat cepat.
+
+02:19.060 --> 02:30.320
+Saya dapat mengatakan usia pengguna Daut yang akan memberi saya 54 sekaligus mungkin menambahkan properti baru.
+
+02:30.340 --> 02:38.790
+Saya hanya bisa mengatakan pengguna dot spell akan menyamai Habra Berra.
+
+02:39.570 --> 02:49.590
+Dan jika saya menjalankan ini dan mari kita periksa apa yang diberikan objek pengguna kepada kita, kita melihat bahwa kita
+
+02:49.650 --> 02:52.900
+sekarang memiliki mantra Habra cadabra ditambahkan.
+
+02:52.920 --> 03:03.460
+Ini lagi adalah akses semua satu adalah 0 dari satu karena kami membawanya melalui fungsi hash dan komputer memutuskan di mana
+
+03:03.460 --> 03:07.660
+harus meletakkan mantra dan abracadabra dalam memori.
+
+03:09.360 --> 03:17.780
+Dan pengguna senjata api ADOT menjerit hal yang sama tetapi saya tidak bisa mengeja menjerit.
+
+03:17.800 --> 03:19.500
+Hal yang sama saya dapatkan.
+
+03:19.870 --> 03:29.390
+Saya dapat mengakses fungsi ini dalam memori sangat sangat cepat, betapa menakjubkannya itu.
+
+03:29.800 --> 03:33.070
+Dan saya tahu di mana Anda berpikir tabel hash luar biasa.
+
+03:33.070 --> 03:38.720
+Kami harus menggunakannya setiap saat dan Anda benar kami harus menggunakannya dalam banyak kasus.
+
+03:38.980 --> 03:42.190
+Tapi seperti yang kita tahu selalu ada pro dan kontra.
+
+03:42.370 --> 03:48.370
+Sekarang izinkan saya berbicara dengan Anda tentang salah satu masalah utama dengan tabel hash.
+
+03:49.270 --> 03:51.920
+Dan saya punya visual yang bagus untuk menunjukkan ini untuk Anda.
+
+03:51.960 --> 03:57.290
+Saya akan menautkan ini dan video ini sehingga Anda dapat bermain dengannya nanti.
+
+03:57.300 --> 04:02.750
+Saya punya sedikit animasi di sini di mana kami memiliki 12 ruang memori.
+
+04:02.880 --> 04:12.420
+Ingat komputer kita memiliki ruang terbatas dan ketika kita membuat objek atau tabel hash, komputer memutuskan berapa banyak
+
+04:13.110 --> 04:14.900
+ruang untuk dialokasikan.
+
+04:14.940 --> 04:18.150
+Ini tidak akan mengalokasikan semua ruang ke tabel hash.
+
+04:18.270 --> 04:24.630
+Ini akan mengalokasikan sedikit dan saya akan tunjukkan nanti ketika kita menerapkan tabel hash kita sendiri.
+
+04:24.990 --> 04:31.150
+Bagaimana kita bisa menyesuaikan ukuran tetapi melihat bahwa hanya ada 12 ruang yang dapat Anda bayangkan.
+
+04:31.150 --> 04:37.890
+Jika saya menyisipkan di sini katakanlah satu melihat apakah saya dapat membuat ini lebih besar sehingga Anda dapat melihatnya.
+
+04:38.070 --> 04:47.070
+Nah, saya akan menjawab katakanlah nomor tiga dimasukkan di sini mari kita lakukan 55
+
+04:47.330 --> 04:48.060
+Masukkan itu.
+
+04:48.080 --> 04:49.550
+Oh apa yang terjadi di sana.
+
+04:50.660 --> 05:03.060
+Apakah Anda melihat fungsi hash secara acak memberikan ruang dalam memori dan memasukkannya ke dalam tiga.
+
+05:03.240 --> 05:09.010
+Tidak ada yang mengatakan fungsi hash untuk mendistribusikan secara merata sampai semuanya penuh.
+
+05:09.570 --> 05:15.640
+Meskipun fungsi hash dioptimalkan untuk mencoba mendistribusikan data ini ke seluruh
+
+05:15.860 --> 05:17.910
+Itu juga penting apa yang kita masukkan ke dalamnya.
+
+05:17.990 --> 05:27.550
+Jadi ketika 55 di-hash Nah fungsi hash ini menghasilkan lokasi alamat tiga untuk dimasukkan ke dalamnya.
+
+05:27.710 --> 05:31.630
+Dan karena kita sudah memiliki tiga di sana ia melakukan sesuatu yang lucu di sini.
+
+05:31.820 --> 05:33.910
+Mari terus menambahkan di sini dan lihat apa yang terjadi.
+
+05:33.950 --> 05:43.810
+Saya akan menambahkan dua mungkin menambah 12 dan akhirnya menambahkan 14 0.
+
+05:43.860 --> 05:46.130
+Itu melakukan hal yang sama lagi.
+
+05:46.340 --> 05:50.060
+Dan apa yang baru saja kita perhatikan di sini adalah
+
+05:53.260 --> 05:56.700
+sesuatu yang disebut Tabrakan dan tabrakan terlihat seperti ini.
+
+05:56.740 --> 05:58.350
+Kami memiliki kunci.
+
+05:58.600 --> 06:10.720
+Katakanlah kita memasukkan nama dan nomor telepon pengguna dan pada awalnya kita menempatkan John Smith kunci ini
+
+06:10.960 --> 06:16.790
+dipecah ditempatkan di ruang alamat 1:52 dan disimpan.
+
+06:16.900 --> 06:22.960
+Ingat bagaimana dia mengatakan itu benar-benar menyimpan kedua kunci dan nilai itu menyimpan dalam sesuatu yang disebut
+
+06:23.260 --> 06:27.480
+ember John Smith dengan nilai yang merupakan nomor teleponnya di sini.
+
+06:28.340 --> 06:35.980
+Dan kemudian kita terus dengan Lisa Smith lalu Sam doe daripada Sandra Oh tidak.
+
+06:35.990 --> 06:44.610
+Segera setelah kami menampung Sandra Dee, itu menjadi ruang alamat yang sama dengan John Smith dan kami memiliki tabrakan dan karena
+
+06:45.600 --> 06:53.700
+tabrakan ini kami membutuhkan cara untuk menyimpan kedua pengguna entah bagaimana di ruang alamat ini dan sesuatu yang funky
+
+06:53.700 --> 06:58.730
+terjadi di sini dengan lingkaran kecil ini dan kemudian sebuah poin.
+
+06:58.740 --> 07:01.530
+Dan Sandra Dee.
+
+07:01.530 --> 07:02.890
+Dan hanya sebuah petunjuk di sini.
+
+07:03.030 --> 07:09.880
+Ini sebenarnya adalah struktur data baru yang akan kita pelajari tentang daftar tautan yang disebut.
+
+07:10.230 --> 07:17.630
+Anda lihat dengan tabel hash kita tidak bisa menghindari tabrakan ini dengan data yang cukup dengan memori terbatas.
+
+07:17.640 --> 07:20.470
+Kami akan selalu mengalami tabrakan ini.
+
+07:20.610 --> 07:28.920
+Jadi ada kemungkinan jika kita kembali ke contoh kita dan saya me-refresh tahun untuk memulai dari awal
+
+07:30.900 --> 07:37.060
+yang kita terus tambahkan meskipun tabel hash kita benar-benar sangat cepat.
+
+07:38.100 --> 07:42.340
+Mahal terus menambah ruang memori yang sama.
+
+07:42.930 --> 07:52.350
+Yang memperlambat kemampuan kita untuk mengakses atau memasukkan informasi karena sekarang jika saya ingin memeriksa apa yang ada di ruang alamat
+
+07:52.350 --> 07:58.380
+ini saya harus pergi satu dua tiga empat lima dan seterusnya dan seterusnya.
+
+07:58.570 --> 08:11.270
+Secara teoritis ketika Anda memiliki tabrakan itu memperlambat membaca dan menulis dengan tabel hash dengan 0 dan dibagi dengan
+
+08:11.750 --> 08:18.350
+k di mana k adalah ukuran tabel hash Anda.
+
+08:18.430 --> 08:26.730
+Dan ingat karena kita menghilangkan konstanta dan menyederhanakan hal itu menjadi semua dan operasi.
+
+08:26.730 --> 08:31.290
+Sekarang koalisi kemungkinan akan terjadi dalam implementasi tabel hash.
+
+08:31.470 --> 08:38.130
+Dan untungnya bagi Anda, Anda tidak akan pernah harus benar-benar menerapkan diri Anda dan itu bukan pertanyaan wawancara yang
+
+08:38.340 --> 08:42.140
+sangat umum tetapi Anda ingin mengetahuinya sehingga Anda dapat membicarakannya.
+
+08:43.060 --> 08:47.170
+Ada dua cara umum untuk menangani tabrakan ini.
+
+08:47.170 --> 08:52.430
+Saya menunjukkan kepada Anda salah satu dari mereka dengan sesuatu yang disebut daftar tautan yang akan kita bicarakan nanti.
+
+08:52.960 --> 09:01.750
+Tetapi jika kita pergi ke halaman Wikipedia tabel hash dan melihat resolusi tabrakan Anda
+
+09:01.810 --> 09:07.480
+dapat melihat bahwa ada banyak cara untuk menyelesaikan tabrakan.
+
+09:07.730 --> 09:13.730
+Cara saya menunjukkan kepada Anda disebut Chaining terpisah tetapi ada metode yang berbeda seperti
+
+09:14.120 --> 09:20.240
+pengalamatan terbuka dan hashing Robinhood yang dapat Anda baca jika Anda benar-benar tertarik pada topik.
+
+09:20.660 --> 09:29.070
+Poin yang ingin saya sampaikan adalah bahwa ada sedikit kelemahan ketika kita berbicara tentang penguncian
+
+09:29.610 --> 09:34.870
+cepat dan tabel hash sesekali tergantung pada fungsi hash.
+
+09:35.010 --> 09:37.980
+Mungkin butuh satu.
+
+09:38.150 --> 09:43.160
+Baiklah, mari kita lanjutkan dan memperluas pengetahuan kita tentang tabel hash dan video berikutnya.

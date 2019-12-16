@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.700 --> 00:01.530
+Selamat datang kembali.
+
+00:01.720 --> 00:04.890
+Mari kita kode algoritma pengurutan gelembung kita sendiri.
+
+00:04.930 --> 00:13.700
+Saya akan membuat fungsi bernama Bubble sort yang akan mengambil dalam array dan saya memiliki array di
+
+00:13.700 --> 00:16.910
+sini untuk kita dari angka-angka ini.
+
+00:17.230 --> 00:23.290
+Dan idealnya ketika kita memasukkan array ini ke dalam fungsi ini ia mengeluarkan array yang diurutkan.
+
+00:24.280 --> 00:31.510
+Dan berdasarkan animasi yang kami lihat, kami idealnya mulai dari awal membandingkan item pertama
+
+00:31.510 --> 00:34.270
+dan kedua menukar item.
+
+00:34.300 --> 00:40.690
+Jika yang kiri lebih besar dari kanan dan terus berjalan terus terus sampai item terbesar
+
+00:41.380 --> 00:46.370
+berakhir di indeks terakhir dan kemudian kita mengulangi hal-hal lagi.
+
+00:46.630 --> 00:51.850
+Hal pertama yang ingin saya lakukan adalah mengatakan bahwa saya hanya akan membuat variabel
+
+00:51.850 --> 01:00.670
+jadi saya tidak harus terus mengulangi semua mendapatkan array dot lengthier akan menjadi panjang item ini yang seharusnya 10 Saya percaya 1 2 3
+
+01:00.670 --> 01:03.800
+4 5 6 7 8 9 10.
+
+01:03.820 --> 01:04.690
+Kamu menyukainya.
+
+01:04.720 --> 01:12.430
+Tidak masalah untuk belajar dan di sini kita akan melakukan for loop dan kita akan mengatakan biarkan aku.
+
+01:12.720 --> 01:16.110
+Biaya adalah 0 yang akan menjadi indeks pertama array.
+
+01:17.910 --> 01:22.070
+Saya kurang dari lenth.
+
+01:22.340 --> 01:26.890
+Plus plus dan di sini kita ambil item pertama.
+
+01:27.010 --> 01:33.220
+Kita sekarang ingin membandingkannya dengan 44 dan seterusnya dan seterusnya kita harus tahu ini sekarang.
+
+01:33.610 --> 01:36.530
+Kami ingin menambahkan yang lain untuk loop J.
+
+01:36.700 --> 01:39.760
+Itu akan disebut 0.
+
+01:39.960 --> 01:56.650
+J akan menjadi kurang dari lenth dan kita akan mengatakan J plus plus sekarang di sini kita akan mengatakan bahwa jika indeks kartu RE J kita
+
+01:56.720 --> 01:57.720
+0.
+
+01:57.800 --> 02:05.300
+Jadi itu sembilan puluh sembilan lebih besar dari Auray J plus 1.
+
+02:05.330 --> 02:06.920
+Itu adalah 44.
+
+02:06.920 --> 02:13.140
+Jadi, jika sembilan puluh sembilan lebih besar dari 44 pada loop pertama kita akan mengatakan
+
+02:16.600 --> 02:17.720
+angka bertukar.
+
+02:19.630 --> 02:29.740
+Jadi kita bisa melakukannya dengan mengatakan membuat variabel sementara yang menyimpan array J yang pass
+
+02:29.740 --> 02:39.450
+pertama akan menjadi sembilan puluh sembilan dan memberikan indeks pertama dari 0 ke Array.
+
+02:40.570 --> 02:48.920
+J plus 44 atau plus 1 yaitu 44 dan 99.
+
+02:48.920 --> 02:50.740
+Sekarang masuk ke indeks kedua.
+
+02:50.760 --> 02:58.990
+Jadi itu berarti Ray J plus 1 akan sama dengan ray j.
+
+03:00.900 --> 03:03.600
+Anda mungkin perlu menjeda video untuk benar-benar memahami ini.
+
+03:03.720 --> 03:05.580
+Tapi yang kami lakukan hanyalah bertukar angka.
+
+03:05.580 --> 03:16.080
+Jika sisi kiri lebih besar dari sisi kanan dan setelah selesai kita menambah J ke 1 sehingga kita membandingkan indeks 1 dan 2 dan
+
+03:16.080 --> 03:23.700
+kemudian kita membandingkan indeks 2 dan 3 3 dan 4 4 atau 5 sampai kita menggembungkan barang
+
+03:23.700 --> 03:24.530
+naik.
+
+03:24.630 --> 03:33.040
+Dan kemudian kita pergi ke atas dan membandingkan item lagi dan keluar untuk kita lihat apakah ini bekerja.
+
+03:33.560 --> 03:36.740
+Oh dan saya baru menyadari ini.
+
+03:36.840 --> 03:37.580
+J.
+
+03:39.230 --> 03:41.780
+Seharusnya Tampere.
+
+03:41.930 --> 03:44.080
+Jadi, ingat sembilan puluh sembilan.
+
+03:44.150 --> 03:52.710
+Kami menempatkannya dalam variabel sementara dan menugaskannya ke indeks di sebelah kanan sehingga kami membulatkan semacam
+
+03:52.710 --> 03:53.250
+gelembung.
+
+03:53.250 --> 04:04.710
+Sekarang kita akan mengatakan angka dan kita akan menghibur nomor log untuk melihat apakah diurutkan jika saya menekan Ron.
+
+04:05.320 --> 04:07.700
+Nomor log kausal memastikan saya bisa mengeja.
+
+04:07.780 --> 04:13.470
+Katakanlah saya menjalankan saya melihat daftar kami sekarang disortir.
+
+04:14.460 --> 04:18.120
+Itu semacam gelembung.
+
+04:18.240 --> 04:26.600
+Dan seperti yang dapat Anda dengar, kami memiliki dua nested for loop yang memberi kami semua ujung kuadrat, tetapi kami tidak
+
+04:26.600 --> 04:33.060
+benar-benar memegang variabel ke struktur data lain atau menahan angka ke dalam struktur data lainnya.
+
+04:33.110 --> 04:43.280
+Jadi kompleksitas ruang adalah satu-satunya yang dapat kita lihat pada gelembung besar-O Chichi kita mungkin bukan
+
+04:43.280 --> 04:48.640
+algoritma terbaik meskipun memiliki kompleksitas ruang yang baik.
+
+04:48.790 --> 04:53.880
+Anda dapat menggunakan kode yang Alief bagi Anda dan pelajaran ini untuk dimainkan.
+
+04:54.060 --> 04:57.930
+Tetapi untuk sekarang mari kita lanjutkan ke algoritma sorting kami berikutnya.
+
+04:57.930 --> 05:02.050
+Selamat Anda baru saja menyelesaikan algoritma penyortiran pertama Anda.
+
+05:02.070 --> 05:03.710
+Tetapi kita masih harus melanjutkan.
+
+05:03.780 --> 05:05.770
+Jadi mari kita pergi ke yang berikutnya.

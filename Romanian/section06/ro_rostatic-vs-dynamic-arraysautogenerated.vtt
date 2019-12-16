@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.910 --> 00:07.810
+Bine ați revenit, după cum am menționat în videoclipul anterior, există de fapt două tipuri de curse.
+
+00:07.830 --> 00:13.820
+Unul este numit static, iar celălalt dinamic o cursă.
+
+00:13.830 --> 00:16.940
+Care este diferența dintre cele două.
+
+00:16.940 --> 00:26.950
+Ei bine, singura limitare a staticului sau a rasei este că acestea sunt fixate în mărime, ceea ce înseamnă că trebuie să specificați numărul de elemente
+
+00:26.950 --> 00:30.940
+pe care matricea dvs. le va păstra înaintea timpului.
+
+00:31.810 --> 00:39.490
+Deci, în acest caz, dacă ar fi o matrice statică aș spune să creez un șir de șapte
+
+00:39.760 --> 00:50.740
+elemente care să știe în prealabil că în lista mea de produse alimentare voi avea doar șapte articole, deoarece array-urile sunt alocate în blocurile adiacente de
+
+00:50.740 --> 00:53.390
+memorie atunci când sunt create .
+
+00:53.720 --> 01:01.810
+Nu există nicio garanție că, după ce am alocat 7 rafturi de memorie, puteți continua să adăugați
+
+01:02.680 --> 01:10.830
+lucruri în special pentru a rezolva această problemă cu ajutorul unor elemente statice care necesită să spunem înainte.
+
+01:10.910 --> 01:21.500
+Hei vreau doar 7 rafturi de memorie cu cursa dinamică și dinamice arrays ne permit să copiați și să reconstruiască o
+
+01:21.560 --> 01:26.690
+matrice într-o locație nouă, care cu mai multă memorie.
+
+01:26.690 --> 01:34.590
+Dacă vrem mai multă memorie, de exemplu, cu ajutorul matricei noastre statice, dacă ne dăm seama că am uitat un alt element de pe lista
+
+01:34.590 --> 01:36.820
+noastră și avem nevoie de 8 articole.
+
+01:37.050 --> 01:42.080
+Ce se întâmplă este să copiem întreaga matrice.
+
+01:42.180 --> 01:53.380
+Am alocat 14 blocuri de memorie și inserați această listă, plus al optulea element în noua locație.
+
+01:53.460 --> 02:00.130
+Permiteți-mi să vă arăt cum funcționează acest lucru cu codul pe care îl vedeți în limbi precum C ++.
+
+02:00.180 --> 02:08.130
+Permiteți-mi să derulăm în jos în C ++ care are matrice statice pentru a crea o matrice.
+
+02:08.130 --> 02:09.770
+Tu faci ceva de genul asta.
+
+02:11.360 --> 02:18.460
+Ai spune int a.
+
+02:18.560 --> 02:24.900
+Și asta spune că vreau o nouă matrice care are un spațiu de 20 de elemente.
+
+02:26.690 --> 02:28.180
+Sau putem face ceva asemănător.
+
+02:28.240 --> 02:33.140
+Int b.
+
+02:33.290 --> 02:40.750
+Apoi completați matricea a cinci elemente cu 1 2 3 4 5 numere întregi.
+
+02:40.850 --> 02:42.830
+Asta înseamnă cifre.
+
+02:43.770 --> 02:51.420
+Și din acest motiv și pentru că aceasta este o matrice statică pentru ca noi să
+
+02:51.510 --> 03:00.560
+adăugăm un șase element aici, ar trebui să copiem întreaga matrice și să o mutăm într-o zonă complet diferită de memorie.
+
+03:01.220 --> 03:03.680
+Pentru a crea spațiul pentru el.
+
+03:03.830 --> 03:11.460
+Din fericire pentru noi cand am aratat cu javascript cum sa facem acest lucru bine nu trebuie sa ne facem
+
+03:11.460 --> 03:18.640
+griji pentru ca noi in exemplul nostru de javascript nu am alocat cu adevarat memoria si asta
+
+03:18.700 --> 03:27.850
+pentru ca in javascript si alte limbi precum Python unde ai liste si lista de tabele în Java funcționează ca niște tablouri dinamice.
+
+03:28.060 --> 03:35.070
+Ele alocă automat memoria în funcție de creșterea mărimii matricei.
+
+03:35.500 --> 03:40.470
+Deci, chiar de pe lilieci, te gândești că măștile dinamice sunt mult mai ușor de făcut.
+
+03:40.480 --> 03:46.800
+Nu trebuie să mă gândesc la memorie din cauza redimensionării automate și asta intră într-o discuție de gestionare
+
+03:46.800 --> 03:51.570
+a memoriei care limbi de nivel scăzut cum ar fi C ++ permit.
+
+03:51.750 --> 03:57.780
+În timp ce limbile de nivel superior precum javascript ne permit să nu ne gândim la memorie și să lăsăm
+
+03:57.780 --> 03:59.790
+mașina să aibă grijă de ea.
+
+03:59.790 --> 04:06.750
+Există momente în care poate doriți să vă gestionați memoria și momentele în care nu este nevoie să vă bazați
+
+04:06.750 --> 04:07.970
+pe nevoile dvs.
+
+04:08.280 --> 04:13.950
+Evident, având mai mult control asupra memoriei vă permite să optimizați lucrurile și să faceți lucrurile mai repede și de
+
+04:13.950 --> 04:18.420
+aceea limbile precum C ++ pot fi mult mai rapide decât limbile mai înalte.
+
+04:18.420 --> 04:23.820
+Limbi de nivel mai înalt ca javascript, dar nu trebuie să intrăm în asta.
+
+04:24.170 --> 04:29.230
+Ceea ce vrem să ieșim din această lecție este că matricea dinamică se extinde pe măsură ce adăugați mai multe elemente.
+
+04:29.330 --> 04:35.660
+Deci, nu este nevoie să determinați dimensiunea înainte de timp, dar este posibil să fi observat ceva cu matrice
+
+04:35.660 --> 04:36.270
+dinamice.
+
+04:37.810 --> 04:45.130
+Vedeți aici cum am un punct la unul care este același cu comanda de împingere pe care am făcut-o
+
+04:45.130 --> 04:46.660
+în lecția anterioară.
+
+04:46.930 --> 04:52.670
+Dar am o stea aici care spune că poate fi 0 de ce este asta.
+
+04:53.030 --> 05:01.560
+Ei bine, dacă ne amintim matricea noastră și să eliminăm elementele suplimentare de aici, că
+
+05:01.560 --> 05:15.460
+nu avem nevoie de așa ceva, spuneți abcd dacă sub javascript capota și mașina noastră a creat doar patru blocuri de memorie pentru această
+
+05:15.460 --> 05:23.170
+matrice și adăugăm o altă scrisoare sub capota, deoarece este o matrice dinamică.
+
+05:23.270 --> 05:26.140
+Va trece peste aceste elemente.
+
+05:26.330 --> 05:31.360
+Copiați-le și mutați-le într-o locație diferită cu.
+
+05:31.390 --> 05:34.310
+Acum opt blocuri de spațiu.
+
+05:35.200 --> 05:37.660
+Ca să putem continua să adăugăm aici.
+
+05:39.450 --> 05:47.850
+Și vedeți aici pentru că am făcut această operațiune de răsturnare, operațiunea devine finalizată și deci este ceva de
+
+05:47.850 --> 05:50.750
+reținut, deși este un detaliu minor.
+
+05:51.030 --> 05:56.070
+Este bine să știți cum funcționează lucrurile sub capotă și de cele mai multe ori
+
+05:56.070 --> 06:03.330
+cu limbile pe care le lucrați și în timpul interviurilor veți vorbi despre agende dinamice și nu va trebui să vă faceți griji
+
+06:03.660 --> 06:10.020
+cu privire la alocarea memoriei și să vă gândiți la posibilitatea ca este posibil să trebuiască să copiați matricea.
+
+06:10.110 --> 06:16.830
+Este un nivel foarte scăzut, dar am vrut să vă arăt cum funcționează, astfel încât să aveți aceleași
+
+06:16.850 --> 06:17.400
+fundamente.
+
+06:17.670 --> 06:24.180
+Și am înțeles că atunci când vine vorba de o majorare, doar pentru că adăugați la sfârșit folosind
+
+06:24.180 --> 06:31.770
+comanda push puteți presupune că este 0 din 1 de cele mai multe ori sau de timp constant, dar din
+
+06:31.830 --> 06:37.190
+când în când puteți întâlni o situație în care este tot timpul liniar.
+
+06:37.300 --> 06:38.290
+Voi vedea în următorul videoclip.

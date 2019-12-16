@@ -1,0 +1,211 @@
+WEBVTT
+
+00:03.250 --> 00:09.700
+Chcę pokazać wam ostatni przykład i jest to prawdopodobnie najlepszy przykład, dlaczego tak
+
+00:09.940 --> 00:12.380
+ważne jest programowanie dynamiczne.
+
+00:12.730 --> 00:17.540
+I jak będziesz pamiętać, kiedy mówię, dynamiczne programowanie, które brzmi trochę mylące.
+
+00:17.650 --> 00:23.900
+Wystarczy pomyśleć o buforowaniu optymalizacji czegoś przy użyciu pamięci podręcznej.
+
+00:23.920 --> 00:31.820
+Jednym z najlepszych przykładów, dlaczego programowanie dynamiczne jest tak dobre, jest nasza stara, dobra znajomość sekwencji Fibonacciego.
+
+00:32.320 --> 00:37.990
+Dowiedzieliśmy się o tym w naszej sekcji rekursji kursu, w której poprzednie dwie liczby sumują się
+
+00:37.990 --> 00:39.150
+do następnego numeru.
+
+00:39.640 --> 00:48.160
+Tak więc, że 13 to pięć plus Osiem trzydzieści cztery to 13 plus 21 i ciągle rośnie, a my wciąż się
+
+00:48.760 --> 00:51.750
+rozwijamy i uczymy się jak to obliczyć.
+
+00:51.820 --> 00:56.170
+Możemy łatwo obliczyć liczbę Fibonacciego.
+
+00:56.170 --> 00:57.700
+Mieliśmy funkcję
+
+01:00.010 --> 01:03.310
+Fibonacci, która jest naprawdę trudnym określeniem.
+
+01:03.430 --> 01:12.030
+Wierzę, że tak jest i wszystko, co zrobiliśmy, powiedzieliśmy, że użycie rekursji, w której mamy podstawowy przypadek, to mniej niż
+
+01:12.030 --> 01:12.770
+dwa.
+
+01:12.780 --> 01:18.210
+W takim przypadku zwrócę inaczej.
+
+01:18.250 --> 01:31.050
+Zrobiliśmy zabawną rekurencję, którą zwróci Fibonacci i minus jeden plus Fibonacciego i minus dwa.
+
+01:31.340 --> 01:41.460
+Więc jeśli chcę znaleźć numer Fibonacciego w indeksie powiedzmy 6 i ja to uruchomię.
+
+01:41.560 --> 01:44.950
+Notatka powinna być liczbą.
+
+01:44.950 --> 01:45.990
+Zróbmy to jeszcze raz.
+
+01:46.240 --> 01:53.830
+Otrzymuję 8, ponieważ 0 1 2 3 4 5 6 8 5 2 7.
+
+01:53.830 --> 01:57.640
+Powinienem dostać 13 niesamowitych.
+
+01:57.650 --> 01:59.830
+Jest to coś, co powinniśmy znać.
+
+02:00.060 --> 02:01.600
+Ale pozwól, że zadam ci pytanie.
+
+02:01.640 --> 02:04.550
+Jak efektywna jest ta funkcja.
+
+02:05.930 --> 02:07.810
+I rozmawialiśmy o tym, zanim zrobiliśmy to dobrze.
+
+02:07.820 --> 02:09.150
+To nie jest bardzo wydajne.
+
+02:09.260 --> 02:12.920
+Jeśli mam tutaj zmienną, nazwijmy ją obliczeniami
+
+02:15.460 --> 02:17.200
+równymi zeru.
+
+02:17.380 --> 02:24.130
+I będziemy to zwiększać za każdym razem, gdy ta funkcja zostanie wywołana.
+
+02:24.340 --> 02:27.940
+A ponieważ jest rekursywna, wiemy, że jest wywoływana wiele razy.
+
+02:28.210 --> 02:31.900
+Jeśli robię Fibonacciego 7, ile to jest obliczeń.
+
+02:31.960 --> 02:38.710
+To 13 obliczeń, więc 13 razy, że przeszliśmy przez darmową funkcję Bonacci.
+
+02:38.710 --> 02:45.840
+Co się stanie, jeśli zwiększę to do 8 21 Okay, co około dziewiątej trzydzieści cztery.
+
+02:45.870 --> 02:48.710
+Co około 10 pięćdziesięciu pięciu.
+
+02:48.710 --> 02:50.690
+W porządku, rośnie dość szybko.
+
+02:50.690 --> 02:52.720
+Co jeśli zrobiłem 12?
+
+02:52.780 --> 02:57.640
+Sto czterdzieści cztery obliczenia, aby uzyskać dwunasty indeks.
+
+02:57.640 --> 03:04.710
+Wow, jeśli zrobię 15 610 obliczeń.
+
+03:05.010 --> 03:07.530
+Co powiesz na 20.
+
+03:07.700 --> 03:09.200
+Święty Moly.
+
+03:09.200 --> 03:13.180
+Ponad 6000 obliczeń i tylko dla zabawy.
+
+03:13.190 --> 03:16.050
+Co jeśli zrobiłem 25 Oh chłopca.
+
+03:16.120 --> 03:18.040
+W porządku po raz ostatni, tylko dlatego, że dobrze się bawimy.
+
+03:18.040 --> 03:19.730
+30.
+
+03:19.810 --> 03:20.200
+W porządku.
+
+03:20.200 --> 03:21.900
+To dużo obliczeń.
+
+03:22.180 --> 03:28.760
+A tak przy okazji, jeśli wygraliście przeglądarkę, po prostu wpiszcie 50 lub 60 i zobaczcie, co się tam stanie.
+
+03:30.160 --> 03:39.250
+Niezależnie od tego, jeśli spojrzymy na to, ta ściana jest dość okropna, po prostu obliczyć 30
+
+03:39.250 --> 03:45.910
+liczbę lub indeks sekwencji Fibonacciego, wykonując tyle kroków, że wiele obliczeń.
+
+03:45.910 --> 03:47.680
+To dużo.
+
+03:47.680 --> 03:49.230
+To nie jest bardzo wydajne.
+
+03:49.490 --> 03:57.220
+Wiemy to dobrze, ponieważ w naszej sekcji rekurencji mówiliśmy o tym, że sekwencja Fibonacciego i sposób, w
+
+03:57.250 --> 04:04.480
+jaki używamy tej funkcji, to 0 z 2 do potęgi i bardzo złej złożoności czasu,
+
+04:05.580 --> 04:10.350
+ponieważ widzieliśmy, że 30 obliczeń wymaga dużo czasu kroków.
+
+04:10.440 --> 04:18.990
+I pamiętaj, że z rekurencją dodajemy każde zagnieżdżone wywołanie funkcji, które dodaje do stosu, co zwiększa złożoność
+
+04:18.990 --> 04:26.400
+pamięci i nigdy nie chcielibyśmy wykonywać operacji, która kosztuje tak wiele w prawdziwym życiu.
+
+04:26.430 --> 04:28.930
+Jak więc możemy sprawić, by był bardziej wydajny.
+
+04:29.100 --> 04:31.530
+Czy możemy sprawić, że będzie bardziej wydajny.
+
+04:31.530 --> 04:37.950
+Mam na myśli, jeśli nasza funkcja, jeśli napisałeś tę funkcję, to twój szef będzie cię strzelał, ponieważ to wszystko jest
+
+04:37.950 --> 04:38.790
+takie straszne.
+
+04:38.910 --> 04:45.000
+Mam na myśli, jeśli twój szef jest okropny Może, ale jeśli znasz dynamiczne programowanie,
+
+04:45.540 --> 04:54.300
+możesz tego uniknąć, bo co, jeśli powiem ci, że możemy to zrobić i dzięki tej funkcji, ponieważ dzięki dynamicznemu programowaniu możemy.
+
+04:54.600 --> 05:01.320
+To prawda, że możemy przejść od wszystkich do parku i do wszystkich.
+
+05:01.590 --> 05:03.900
+Brzmi jak magia, prawda?
+
+05:03.900 --> 05:07.370
+I tutaj przechodzimy do następnego kroku naszego programowania dynamicznego.
+
+05:07.440 --> 05:15.130
+Możemy zmniejszyć złożoność czasu i przestrzeni naszego algorytmu za pomocą zapamiętywania i możemy to zrobić,
+
+05:15.130 --> 05:20.470
+ponieważ rozwiązanie każdego problemu Suppe jest tym, co nazywamy optymalnym.
+
+05:20.470 --> 05:26.560
+Oznacza to, że powtarzamy wiele problemów, które są takie same w następnym filmie.
+
+05:26.560 --> 05:30.290
+Wyjaśnimy tę koncepcję i zobaczymy, jak możemy korzystać z funkcji zapamiętywania.
+
+05:30.650 --> 05:31.300
+Zobaczę na tym.

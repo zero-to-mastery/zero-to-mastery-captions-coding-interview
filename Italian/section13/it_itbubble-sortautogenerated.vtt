@@ -1,0 +1,151 @@
+WEBVTT
+
+00:01.370 --> 00:02.330
+Ben tornato.
+
+00:02.750 --> 00:06.620
+Iniziamo con il primo elemento della nostra lista.
+
+00:06.620 --> 00:07.540
+Bubble sort.
+
+00:07.850 --> 00:09.790
+Sembra un po 'giocoso e carino.
+
+00:09.800 --> 00:10.220
+Grande.
+
+00:11.180 --> 00:18.920
+Bubble sort fa parte di questi primi tre algoritmi di ordinamento che sono chiamati ordinamenti elementari.
+
+00:18.920 --> 00:25.880
+Sono algoritmi di ordinamento di base molto semplici che di solito penseresti se qualcuno ti chiedesse di ordinare
+
+00:25.880 --> 00:28.620
+qualcosa in cima alla tua testa.
+
+00:28.640 --> 00:34.790
+Il secondo elemento qui che entreremo più avanti nel breve e nel breve ordinamento di Merse sono algoritmi più complessi
+
+00:35.330 --> 00:39.390
+che la maggior parte delle volte può essere più efficiente dei primi.
+
+00:40.000 --> 00:44.060
+Ma per costruire quel blocco Lego iniziamo con il bubble sort.
+
+00:44.110 --> 00:46.270
+Come funziona bubble sort.
+
+00:47.650 --> 00:55.390
+Bene, ti faccio una domanda se ti ho dato una lista e ti chiedo di ordinarla nella tua testa immaginando
+
+00:55.390 --> 00:58.110
+di avere blocchi di queste lettere.
+
+00:58.210 --> 01:05.870
+Come li sposteresti in giro o come diresti a un computer di spostarli per ordinarli e farli scoppiare, signore
+
+01:05.870 --> 01:12.370
+potrebbe essere una delle prime cose che viene in mente è che il tipo di
+
+01:12.460 --> 01:19.550
+bolla viene dall'idea di ribollire il valore più grande usando più pastur Vediamo cosa intendo con quello.
+
+01:19.810 --> 01:25.930
+Guardiamo sei su cinque e diciamo che sei è più grande di cinque.
+
+01:26.360 --> 01:31.350
+E poi guardiamo il sesto e il tre e diciamo che sei è più grande di tre. Scambiamoli.
+
+01:31.400 --> 01:36.440
+Poi guardiamo sei e uno e ancora una volta sei è più grande di uno, ordiniamoli.
+
+01:36.470 --> 01:39.790
+Guardiamo sei e otto otto è più grande di sei.
+
+01:39.800 --> 01:43.020
+Quindi mantienilo com'è e passiamo al prossimo.
+
+01:43.130 --> 01:43.930
+Otto e sette.
+
+01:44.030 --> 01:44.830
+Cerchiamo di risolverli.
+
+01:44.840 --> 01:47.370
+Otto è più grande di sette otto in due.
+
+01:47.540 --> 01:49.870
+Scambiali per otto su quattro.
+
+01:49.940 --> 01:50.990
+Scambiali.
+
+01:51.000 --> 02:00.020
+Nuotiamo il numero più alto e poi andiamo dall'inizio cinque e tre cinque in uno, facciamo il massimo numero in
+
+02:00.020 --> 02:02.820
+modo che 7 venga dopo.
+
+02:04.400 --> 02:08.160
+Quindi continuiamo ad andare avanti fino al prossimo 6.
+
+02:08.270 --> 02:16.670
+Continuiamo quindi a fare il ciclo fino a quando non compariremo il numero più alto uno per uno Uno alla volta finché non avremo
+
+02:17.030 --> 02:19.630
+una lista ordinata che è bubble sort.
+
+02:19.640 --> 02:22.740
+Ora, prima ancora di scrivere questo codice, cosa ne pensate di bubble sort.
+
+02:23.680 --> 02:28.020
+Come avrete intuito non è il più efficiente è.
+
+02:28.090 --> 02:33.640
+Guarda quanti confronti abbiamo fatto e tutto è stato vinto da un looping, looping, looping e bubble
+
+02:33.640 --> 02:34.300
+sort.
+
+02:34.300 --> 02:41.710
+È uno dei più semplici algoritmi di ordinamento, ma anche uno dei meno efficienti, quindi non mi odiare per
+
+02:41.710 --> 02:43.090
+mostrarti come funziona.
+
+02:43.090 --> 02:48.990
+Solitamente viene utilizzato come strumento di apprendimento come primo passo per l'apprendimento di un determinato algoritmo.
+
+02:49.030 --> 02:55.320
+Cosa ne pensi della complessità temporale e della complessità spaziale di questo algoritmo è la risposta.
+
+02:55.750 --> 03:00.920
+Bene, possiamo semplicemente usare la grande Chichi se guardiamo al bubble sort.
+
+03:01.120 --> 03:08.410
+Vediamo che i casi a cui siamo più interessati è il caso medio e il caso peggiore che vediamo è o
+
+03:08.440 --> 03:09.580
+di un quadrato.
+
+03:10.550 --> 03:17.540
+Con una complessità spaziale di uno non stiamo realmente creando alcuna nuova struttura di dati, stiamo solo
+
+03:17.540 --> 03:21.670
+confrontando gli elementi in cicli annidati uno per uno.
+
+03:22.020 --> 03:28.950
+Ma vediamo in codice per capire perché questo è tutto finito e quadrato e voglio sfidarti qui
+
+03:28.950 --> 03:33.900
+nel prossimo video che andremo a codificare lungo l'algoritmo bubble sort.
+
+03:34.440 --> 03:41.370
+Ma se vuoi andare avanti e provare a implementarlo da solo e vedere come il tuo codice corrisponde a
+
+03:41.370 --> 03:43.250
+quello del mio prossimo video.
+
+03:43.320 --> 03:43.710
+HUTCHEON.

@@ -1,0 +1,157 @@
+WEBVTT
+
+00:01.580 --> 00:07.440
+Welcome back in this section we learned all about linked lists.
+
+00:07.520 --> 00:15.050
+We learned how it doesn't come pre-built in a lot of languages such as javascript but it does in others.
+
+00:15.170 --> 00:21.030
+That is because linked lists are low level data structures.
+
+00:21.040 --> 00:25.100
+It's used a lot actually in other data structures like hash tables.
+
+00:25.330 --> 00:31.390
+And as we will see in some of the upcoming ones such as stacks and Qs there we're going to talk about
+
+00:32.410 --> 00:40.090
+it is a fundamental data structure that is very very useful and computer science and also a very popular
+
+00:40.090 --> 00:42.050
+question when it comes to interviewing.
+
+00:42.490 --> 00:49.840
+We learned that when it comes to linked list there's no random access in the sense that when looking
+
+00:49.840 --> 00:56.380
+for something you have to actually traverse the list with hash tables we can't find things right away
+
+00:56.740 --> 01:00.200
+with arrays that we can find things through indexes.
+
+01:00.310 --> 01:05.930
+We have slow lookups we have to traverse through the list if we're searching for something.
+
+01:06.060 --> 01:13.280
+However they are ordered on like hash tables and linked lists allow us to have this sort of order.
+
+01:13.500 --> 01:21.780
+If we had a large number of items in and Ray and we keep adding to that array we'd have to have excessive
+
+01:21.810 --> 01:29.460
+overhead costs copying the array in memory and doubling up the space when it reaches the limit to create
+
+01:29.730 --> 01:38.370
+a larger array versus a linked list where we can have a fast insertion and fast deletion especially
+
+01:38.370 --> 01:43.240
+once we have a reference to where we want to insert or delete that note.
+
+01:44.240 --> 01:52.090
+This also becomes a really really fast when it's at the beginning of a list or the end of the list.
+
+01:52.310 --> 01:56.240
+And we're going to see that coming up when we talk about stacks and Qs.
+
+01:56.240 --> 02:02.450
+The primary reason to choose a linked list over something like an array is simplicity and ability to
+
+02:02.450 --> 02:04.250
+grow and shrink as needed.
+
+02:04.250 --> 02:10.820
+Now working with them as we saw can be a little bit weird and difficult to just manage all the pointers
+
+02:10.820 --> 02:18.080
+in your head but they are pretty lightweight and self-contained in that they can be quite flexible as
+
+02:18.080 --> 02:18.540
+well.
+
+02:19.940 --> 02:25.490
+That's all you're going to see linked lists and a lot of places like implementing file systems on your
+
+02:25.490 --> 02:28.740
+computer or even browser history right.
+
+02:28.820 --> 02:31.830
+When you go back and forth on a browser.
+
+02:32.690 --> 02:38.000
+You can think of that as a linked list because you can traverse one by one from one place to another
+
+02:39.220 --> 02:44.120
+and to remember with our hash tables how we had this issue of collision.
+
+02:44.410 --> 02:51.670
+And when we had a collision we had to do something like this where we combined John Smith and Sander
+
+02:51.670 --> 02:59.510
+D into two nodes and the first snow pointing to the second note.
+
+02:59.690 --> 03:08.150
+If we go back to our hash table data structure that we created if we scroll down to the set method where
+
+03:08.150 --> 03:18.220
+we set a key and a value in the hash table we did a check here to check if this address exists.
+
+03:18.300 --> 03:28.560
+And then afterwards we used an array to push our items in case we had multiple items when we had a collision
+
+03:29.250 --> 03:35.470
+because sometimes we can set our hash table memory size to be a lot smaller like two.
+
+03:35.940 --> 03:44.520
+And you might be able to see why now instead of using an array which every time we need to insert a
+
+03:44.520 --> 03:45.510
+new item.
+
+03:45.510 --> 03:47.680
+I mean it works because we're pushing to the end.
+
+03:47.790 --> 03:57.480
+But if we had to delete an item on the hash table we'd have to shift the array which as you know is
+
+03:57.690 --> 03:58.610
+very slow.
+
+03:58.860 --> 04:07.800
+So we can modify this now to something like a linked list so that a delete becomes a lot easier than
+
+04:07.800 --> 04:09.710
+if it was an array.
+
+04:09.810 --> 04:16.410
+And that's something that I'll leave up to you but you should have a good sense of why these data structures
+
+04:16.470 --> 04:20.990
+exist now and why you might want to use a linked list over an array.
+
+04:21.880 --> 04:28.020
+We also added a another piece of the puzzle in our mind map.
+
+04:28.110 --> 04:34.770
+We've talked about arrays about hash tables and now we talked about if you see over here linked lists
+
+04:35.340 --> 04:40.830
+are singly and doubly linked lists with their Big-O notation.
+
+04:42.360 --> 04:47.900
+And just a hint here as you can see the linked lists are related to something we're going to talk about
+
+04:47.910 --> 04:48.570
+coming up.
+
+04:49.480 --> 04:53.970
+That is trees and grass.
+
+04:54.180 --> 05:01.650
+But at the end of the day we've just managed to add another data structure to our toolbelt as engineers.
+
+05:01.650 --> 05:06.710
+Congratulations and let's learn about more data structures in the next video.
+
+05:06.820 --> 05:07.090
+Buh-Bye.

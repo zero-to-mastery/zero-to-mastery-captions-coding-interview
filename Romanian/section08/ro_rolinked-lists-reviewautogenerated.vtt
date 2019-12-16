@@ -1,0 +1,157 @@
+WEBVTT
+
+00:01.580 --> 00:07.440
+Bine ați venit în această secțiune am aflat toate despre listele legate.
+
+00:07.520 --> 00:15.050
+Am învățat cum nu vine pre-construit în multe limbi, cum ar fi javascript, dar face și în altele.
+
+00:15.170 --> 00:21.030
+Aceasta deoarece listele legate sunt structuri de date de nivel scăzut.
+
+00:21.040 --> 00:25.100
+Este folosit de multe ori în alte structuri de date, cum ar fi tabelele hash.
+
+00:25.330 --> 00:31.390
+Și cum vom vedea în unele dintre cele viitoare cum ar fi stivele și Qs acolo vom
+
+00:32.410 --> 00:40.090
+vorbi despre aceasta este o structură de date fundamentală, care este foarte utilă și informatică și, de asemenea, o întrebare foarte populară atunci
+
+00:40.090 --> 00:42.050
+când vine vorba de intervievare.
+
+00:42.490 --> 00:49.840
+Am aflat ca atunci cand vine vorba de o lista legata nu exista nici un acces aleatoriu in sensul ca atunci
+
+00:49.840 --> 00:56.380
+cand cautati ceva ce trebuie sa traversati de fapt lista cu tabele hash, nu putem gasi lucruri imediat cu
+
+00:56.740 --> 01:00.200
+arrays pe care le putem gasi lucrurile prin indexuri.
+
+01:00.310 --> 01:05.930
+Avem căutări lente, trebuie să trecem prin listă dacă căutăm ceva.
+
+01:06.060 --> 01:13.280
+Cu toate acestea, acestea sunt comandate pe ca tabelele hash și listele legate ne permit să aibă acest tip de ordine.
+
+01:13.500 --> 01:21.780
+Dacă am avea un număr mare de elemente în și Ray și vom continua să adăugăm la acea matrice ar trebui să
+
+01:21.810 --> 01:29.460
+avem costuri generale excesive copiind matricea în memorie și dublând spațiul când atinge limita pentru a crea o matrice mai
+
+01:29.730 --> 01:38.370
+mare față de o legătură listă în care putem avea o inserare rapidă și o ștergere rapidă, mai ales după ce ne referim
+
+01:38.370 --> 01:43.240
+la locul în care vrem să inserăm sau să ștergem acea notă.
+
+01:44.240 --> 01:52.090
+Acest lucru devine, de asemenea, într-adevăr foarte rapid atunci când este la începutul unei liste sau la sfârșitul listei.
+
+01:52.310 --> 01:56.240
+Și vom vedea că vine când vorbim despre stive și Qs.
+
+01:56.240 --> 02:02.450
+Motivul principal pentru a alege o listă legată de ceva asemănător unui matrice este simplitatea și capacitatea de a crește și de a
+
+02:02.450 --> 02:04.250
+se micșora după cum este necesar.
+
+02:04.250 --> 02:10.820
+Acum, lucrul cu ei așa cum am văzut poate fi un pic ciudat și dificil de a gestiona doar toate
+
+02:10.820 --> 02:18.080
+indicii din cap, dar sunt destul de ușoare și de sine stătător în faptul că acestea pot fi destul de flexibile, de
+
+02:18.080 --> 02:18.540
+asemenea.
+
+02:19.940 --> 02:25.490
+Asta e tot ce veti vedea listele legate si o multime de locuri cum ar fi implementarea
+
+02:25.490 --> 02:28.740
+sistemelor de fisiere pe computer sau chiar istoricul browserului.
+
+02:28.820 --> 02:31.830
+Când mergeți înainte și înapoi pe un browser.
+
+02:32.690 --> 02:38.000
+Vă puteți gândi la aceasta ca la o listă legată, deoarece puteți traversa unul câte unul dintr-un loc în altul
+
+02:39.220 --> 02:44.120
+și să vă amintiți cu ajutorul tabelelor noastre de hash cum am avut această problemă de coliziune.
+
+02:44.410 --> 02:51.670
+Și când am avut o coliziune, a trebuit să facem ceva de genul acesta, unde
+
+02:51.670 --> 02:59.510
+am combinat John Smith și Sander D în două noduri, iar prima zăpadă indicând cea de-a doua notă.
+
+02:59.690 --> 03:08.150
+Dacă ne întoarcem la structura de date a tabelului hash pe care am creat-o dacă defilam în jos la metoda
+
+03:08.150 --> 03:18.220
+setată unde am stabilit o cheie și o valoare în tabela hash, am făcut o verificare aici pentru a verifica dacă această adresă există.
+
+03:18.300 --> 03:28.560
+Apoi am folosit o matrice pentru a împinge articolele noastre în cazul în care aveam mai multe elemente atunci când am avut o coliziune deoarece,
+
+03:29.250 --> 03:35.470
+uneori, putem seta dimensiunea memoriei tabelului hash să fie mult mai mică ca două.
+
+03:35.940 --> 03:44.520
+Și ați putea vedea de ce acum, în loc să folosim o matrice, de fiecare dată când trebuie să inserăm un
+
+03:44.520 --> 03:45.510
+element nou.
+
+03:45.510 --> 03:47.680
+Vreau să spun că funcționează pentru că împingem până la capăt.
+
+03:47.790 --> 03:57.480
+Dar dacă trebuia să ștergem un element de pe masa de hash, ar fi trebuit să schimbăm matricea pe care, după cum știți, este
+
+03:57.690 --> 03:58.610
+foarte lentă.
+
+03:58.860 --> 04:07.800
+Deci, putem modifica acest lucru acum la ceva asemănător cu o listă legată, astfel încât o ștergere devine mult mai ușoară decât dacă
+
+04:07.800 --> 04:09.710
+ar fi o matrice.
+
+04:09.810 --> 04:16.410
+Și asta e ceva ce vă voi lăsa, dar ar trebui să aveți un sentiment bun de ce există acum aceste structuri
+
+04:16.470 --> 04:20.990
+de date și de ce ați putea dori să utilizați o listă legată într-o matrice.
+
+04:21.880 --> 04:28.020
+Am adăugat, de asemenea, o altă piesă a puzzle-ului în harta noastră de minte.
+
+04:28.110 --> 04:34.770
+Am vorbit despre tablouri despre tabelele de hash și acum am vorbit despre dacă vedeți aici,
+
+04:35.340 --> 04:40.830
+listele legate sunt liste singure și dublu legate cu notația lor Big-O.
+
+04:42.360 --> 04:47.900
+Și doar o sugestie aici că puteți vedea listele legate sunt legate de ceva despre care vom vorbi despre
+
+04:47.910 --> 04:48.570
+a veni.
+
+04:49.480 --> 04:53.970
+Acesta este copacii și iarba.
+
+04:54.180 --> 05:01.650
+Dar, la sfârșitul zilei, am reușit să adăugăm o altă structură de date platformei noastre de instrumente ca ingineri.
+
+05:01.650 --> 05:06.710
+Felicitări și să învățăm despre mai multe structuri de date în următorul videoclip.
+
+05:06.820 --> 05:07.090
+Buh-Pa.

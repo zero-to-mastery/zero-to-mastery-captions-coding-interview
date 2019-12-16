@@ -1,0 +1,250 @@
+WEBVTT
+
+00:01.260 --> 00:05.750
+Nu putem simți sfârșitul aproape că suntem în regula numărul patru.
+
+00:05.760 --> 00:13.130
+Regula finală din cartea noastră de reguli scapă de lipsa de poziție dominantă sau de renunțare la termenii non-dominanți.
+
+00:13.410 --> 00:14.300
+Ce înțelegem.
+
+00:14.400 --> 00:15.360
+Haideți să aruncăm o privire.
+
+00:16.760 --> 00:26.420
+Să presupunem că avem din nou o funcție cu un nume foarte lung, care spune că se imprimă toate numerele, apoi toate perechele
+
+00:26.590 --> 00:27.660
+de perechi.
+
+00:28.070 --> 00:30.080
+Poate nu este cel mai bun nume pentru funcția noastră.
+
+00:30.110 --> 00:34.950
+Probabil putem lucra la citire aici, dar să vedem ce funcționează bine această funcție.
+
+00:35.030 --> 00:40.670
+Această funcție are numere și aceste valori sunt variabile.
+
+00:40.670 --> 00:44.150
+Vom merge peste ele cu o buclă Pentru fiecare.
+
+00:44.510 --> 00:51.560
+Așa că, din nou, reluând și deconectând numerele și apoi avem un alt pas care ar trebui să
+
+00:51.560 --> 00:58.460
+vă reamintească că este probabil o adăugare pe care o facem, adăugăm un alt pas și aici
+
+00:59.150 --> 01:00.410
+însumăm sumele pereche.
+
+01:00.410 --> 01:07.290
+Aici se adaugă fiecare număr unul după altul.
+
+01:07.670 --> 01:11.610
+Să vă arătăm un pic de demo aici.
+
+01:11.840 --> 01:19.160
+Dacă spunem că vom crea efectiv Vom tipări doar numerele și vom termina aici pentru
+
+01:19.160 --> 01:26.290
+ca numerele să le dea doar o matrice de 1 2 3 4 5.
+
+01:26.400 --> 01:34.130
+Dacă fac clic pe greșit aici, vedem că acestea sunt numerele 1 2 3 4 5.
+
+01:34.160 --> 01:37.750
+Pentru că acesta este pasul în care vă deconectați.
+
+01:37.850 --> 01:39.210
+Nimic prea dificil.
+
+01:39.680 --> 01:43.190
+Și acestea sunt cămilele lor.
+
+01:43.190 --> 01:50.060
+Tot ce facem este să adăugăm unul cu unul, apoi unul cu doi, care este egal cu trei.
+
+01:50.330 --> 01:52.330
+Unu cu trei care este egal cu patru.
+
+01:52.460 --> 01:56.080
+Unul cu patru care este egal cu cinci și unul din cinci, care este egal cu șase.
+
+01:56.090 --> 02:03.520
+Apoi vom trece la următoarea buclă, care este de două și una care este egală cu trei două și două care este
+
+02:03.520 --> 02:07.710
+egală cu patru și continuă să meargă mai departe și mai departe.
+
+02:07.720 --> 02:14.260
+Așa că vedem buclele pe care le-am făcut aici și problemele de genul ăsta sunt ceva ce vom face mai
+
+02:14.260 --> 02:17.500
+târziu în curs, chiar acum ne îngrijorăm de big-O.
+
+02:17.770 --> 02:21.810
+Ce crezi că nota Big-O aici este bună.
+
+02:21.850 --> 02:27.690
+Încă o dată, dacă facem 0 din prima parte este buclă.
+
+02:27.760 --> 02:35.400
+Așa că putem spune că există o singură și apoi a doua parte, care este din nou
+
+02:35.400 --> 02:42.530
+un alt pas, așa că vom adăuga plus că acesta are două patru bucle imbricate.
+
+02:42.670 --> 02:46.650
+Asta înseamnă 0 la puterea a două.
+
+02:46.650 --> 02:47.020
+In regula.
+
+02:47.030 --> 02:49.120
+Deci asta e notația noastră Big-O.
+
+02:49.310 --> 02:55.200
+Prin regula numărul patru ne spune că dorim să renunțăm la termenii care nu sunt dominanți.
+
+02:55.260 --> 02:59.930
+Asta înseamnă că ne pasă de cel mai important termen din acest caz.
+
+02:59.940 --> 03:04.240
+De fapt, renunțăm la n și tocmai avem.
+
+03:04.270 --> 03:13.240
+Și la puterea a două, deoarece ca intrare crește mărimea N la puterea a două este mult
+
+03:13.240 --> 03:15.080
+mai important decât.
+
+03:15.140 --> 03:19.880
+Și astfel păstrăm întotdeauna termenul dominant.
+
+03:20.050 --> 03:21.510
+Permiteți-mi să vă dau un alt exemplu.
+
+03:22.330 --> 03:32.960
+Dacă am avea o funcție care avea un O mare de a spune X la puterea
+
+03:33.380 --> 03:46.070
+de 2 și apoi vom spune că are 3 x plus 1000 și poate vom spune plus X împărțit la doi.
+
+03:46.080 --> 03:46.920
+In regula.
+
+03:46.920 --> 03:49.470
+Este foarte confuz, asta e matematica.
+
+03:49.470 --> 03:51.960
+Ei bine, nu vom vrea să ne ocupăm prea mult de asta.
+
+03:51.960 --> 03:54.180
+Cum simplificăm acest lucru.
+
+03:54.180 --> 04:02.980
+Pe baza clauzelor non-dominante, cea de-a patra regulă afirmă că din nou ne îngrijorăm de cel mai important termen
+
+04:03.040 --> 04:08.790
+dominant, deoarece X la puterea a două este cel mai semnificativ.
+
+04:08.890 --> 04:19.340
+Aceasta este dacă X este de 5 5 la puterea a două este de douăzeci și cinci de cinci ori trei este de 15.
+
+04:19.360 --> 04:25.060
+Aceasta este o sută și cinci împărțită de două este de 2. 5.
+
+04:25.060 --> 04:28.180
+În acest caz termenul dominant este de o sută.
+
+04:28.360 --> 04:32.280
+Dar amintiți-vă cu mare-O suntem îngrijorați de scară.
+
+04:32.320 --> 04:35.740
+Și cum lucrurile merg mai mari și mai mari și mai mari.
+
+04:35.830 --> 04:48.590
+Deci, atunci când aceasta devine cinci mii Ei bine 5000 la puterea de două sau 500 la puterea de două care este de 250000.
+
+04:48.610 --> 04:58.220
+Dacă am făcut corect matematica de trei ori 500, doar o sută de mii cinci sute o sută este acum nesemnificativă și 500
+
+04:58.430 --> 05:01.310
+împărțită la două este de 250.
+
+05:01.310 --> 05:07.830
+Vedeți cum acest lucru a crescut din nou semnificativ mai mult pentru că suntem doar îngrijorați de scară aici.
+
+05:08.000 --> 05:11.690
+Lăsăm orice altceva și îl putem ignora complet.
+
+05:11.810 --> 05:14.830
+Și asta devine X la puterea lui 2.
+
+05:14.930 --> 05:19.250
+Cât de drăguț este că asta face lucrurile mult mai simple.
+
+05:20.600 --> 05:21.880
+Deci, tu o ai.
+
+05:22.010 --> 05:24.950
+Avem acum o modalitate de a simplifica totul.
+
+05:24.950 --> 05:28.870
+Dacă ne întoarcem la exemplele noastre din trecut, amintiți-vă acest lucru.
+
+05:29.030 --> 05:37.560
+Amintiți-vă de aceasta, acum are sens de ce tocmai am spus marele O și pentru că nu ne pasă
+
+05:37.560 --> 05:41.020
+de elementele nesemnificative numai cele mai importante.
+
+05:41.040 --> 05:46.520
+La fel și cu asta, prin felul în care o notă distractivă e aici.
+
+05:46.780 --> 05:54.090
+Dacă am avea o buclă mai mică în interiorul acestor două bucle, asta ar deveni o.
+
+05:55.130 --> 05:58.760
+Pentru puterea x cubată sau cubată.
+
+05:58.770 --> 06:03.450
+Nu contează cu adevărat ceea ce avem, dar va fi pentru puterea lui
+
+06:03.690 --> 06:07.750
+Thweatt pentru că avem trei straturi imbricate și puteți continua.
+
+06:07.770 --> 06:10.500
+Trebuie să ai puterea a patru până la puterea a cinci.
+
+06:10.590 --> 06:11.810
+Dar iată ce e.
+
+06:11.910 --> 06:13.750
+Dacă aveți trei bucle imbricate.
+
+06:13.800 --> 06:17.020
+Nouăzeci și nouă de puncte nouăzeci și nouă la sută din timp.
+
+06:17.220 --> 06:18.960
+Aceasta este de obicei o idee rea.
+
+06:18.960 --> 06:23.250
+Elimină cu adevărat foarte rău și probabil că faci ceva greșit.
+
+06:24.690 --> 06:25.520
+Și acolo aveți.
+
+06:25.530 --> 06:32.460
+Am trecut peste cele patru reguli și, având în vedere acest lucru, vom examina cheia de înșelăciune pe care am pregătit-o
+
+06:32.460 --> 06:33.330
+pentru dvs.
+
+06:33.330 --> 06:39.600
+Deci, de acum încolo, în loc să trebuiască să calculați totul și să vă uitați într-adevăr la
+
+06:39.600 --> 06:47.000
+fiecare detaliu al unei funcții, puteți imediat să descoperiți ce înseamnă big-O sau care este complexitatea de timp a unei funcții.

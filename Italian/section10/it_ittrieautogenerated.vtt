@@ -1,0 +1,121 @@
+WEBVTT
+
+00:01.110 --> 00:02.280
+Ben tornato.
+
+00:02.280 --> 00:09.270
+Abbiamo un ultimo albero di cui voglio parlare e questa è una pronuncia tri o tree qui varia a seconda
+
+00:09.270 --> 00:10.340
+di chi chiedi.
+
+00:10.500 --> 00:20.460
+Ma diamo un'occhiata a quello che è una prova è un albero specializzato utilizzato nella ricerca più spesso con il testo.
+
+00:20.590 --> 00:29.480
+Come puoi vedere qui, nella maggior parte dei casi può superare le tabelle hash degli alberi di ricerca binaria e la maggior parte delle altre strutture di dati di
+
+00:29.480 --> 00:33.590
+cui abbiamo parlato a seconda del tipo di ricerca che stai facendo.
+
+00:34.810 --> 00:43.120
+E solo guardando questa immagine potresti capire che cosa ti permette di sapere se una parola o parte
+
+00:43.240 --> 00:47.700
+di una parola esiste in un corpo di testo.
+
+00:48.070 --> 00:55.410
+Vedete una prova ha di solito un nodo radice vuoto che è il punto di partenza e da lì vengono aggiunte le
+
+00:55.410 --> 00:55.900
+lettere.
+
+00:55.950 --> 00:59.370
+Vedi che non è un albero binario può avere più figli.
+
+00:59.730 --> 01:06.390
+In questo caso, tutti probabilmente hanno 26 figli perché ci sono 26 lettere nell'alfabeto.
+
+01:06.540 --> 01:15.370
+Il potere del tentativo è quando cerchiamo qualcosa come un se abbiamo questo dizionario che sappiamo subito che
+
+01:15.370 --> 01:23.560
+ci sono due parole associate alla parola e un altro nome per una prova è qualcosa
+
+01:23.560 --> 01:25.690
+chiamato albero prefisso.
+
+01:25.860 --> 01:31.140
+Si tratta di una struttura dati ad albero che si è dimostrata abbastanza efficiente nel risolvere questi problemi specifici
+
+01:31.140 --> 01:31.970
+delle stringhe.
+
+01:32.070 --> 01:35.170
+Puoi pensare ad esso come completamento automatico.
+
+01:35.220 --> 01:35.840
+Destra.
+
+01:35.880 --> 01:42.300
+Quando cerchi qualcosa su Google, sa cosa potresti cercare o prova e completa la
+
+01:42.480 --> 01:44.130
+parola per te.
+
+01:44.220 --> 01:50.850
+E questo è ciò per cui è usato per cercare parole in un dizionario che fornisce suggerimenti automatici sui motori
+
+01:50.850 --> 01:53.200
+di ricerca o persino il routing IP.
+
+01:53.430 --> 02:01.540
+Se ho digitato in a so immediatamente che tutti i bambini sono legati ad A e posso stampare un albero e quindi A-S
+
+02:01.630 --> 02:06.760
+il vantaggio di questo tipo di struttura dati è la velocità e lo spazio.
+
+02:06.940 --> 02:12.530
+Cosa pensi che sia il grande spettacolo di trovare una parola nella struttura dei dati.
+
+02:12.550 --> 02:16.510
+Invece non passeremo attraverso ogni singolo nodo.
+
+02:16.600 --> 02:19.940
+Tutto quello che dobbiamo fare è trovare la lunghezza della parola.
+
+02:20.080 --> 02:27.390
+Quindi il big-O di una prova è 0 di lunghezza che è la lunghezza della parola.
+
+02:27.520 --> 02:31.460
+Se sto cercando la parola sono una scusa.
+
+02:31.510 --> 02:35.800
+Tutto ciò che faccio è cercare e quindi cercare il nostro.
+
+02:35.980 --> 02:38.110
+Quindi cerca il.
+
+02:38.240 --> 02:43.730
+Tutto quello che sto facendo è colpire tre note che sono associate alla lunghezza della parola.
+
+02:43.730 --> 02:48.300
+Quando si parla di complessità spaziale, anche i tentativi hanno un grande vantaggio.
+
+02:49.640 --> 02:52.970
+Perché usiamo prefissi come.
+
+02:52.970 --> 02:57.100
+E qui è usato in parole diverse e lo stesso con a.
+
+02:57.200 --> 02:59.830
+Non è necessario memorizzarlo più volte.
+
+02:59.990 --> 03:06.140
+È memorizzato in un'unica posizione e ci sono dei bambini che vi collegano a causa di questi prefissi.
+
+03:06.140 --> 03:12.140
+Si risparmia molto spazio perché non è necessario memorizzare la parola non in uso.
+
+03:12.320 --> 03:14.720
+Si evita di conservare quello extra e.

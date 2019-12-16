@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.180 --> 00:02.450
+Welcome back.
+
+00:02.560 --> 00:10.140
+It's time for an exciting interview question and this question comes straight from Google given energy.
+
+00:10.480 --> 00:13.080
+Let's say that looks like this.
+
+00:13.150 --> 00:16.110
+Tell me the first recurring character.
+
+00:16.450 --> 00:17.260
+What does that mean.
+
+00:17.500 --> 00:23.660
+Well if we look at this array over here I want a function that I can enter this array.
+
+00:23.920 --> 00:31.030
+This input is going to look through all the numbers and tell me which one gets repeated first.
+
+00:31.480 --> 00:40.980
+So we look at 2 5 1 and 2 and we say two has already been seen.
+
+00:41.080 --> 00:43.570
+Two is the recurring number.
+
+00:44.550 --> 00:49.360
+If we look at another example we see 2 1 1 and 0.
+
+00:49.410 --> 00:55.360
+We stop here because 1 we've already seen before we can say the first recurring character is 1.
+
+00:55.800 --> 01:03.560
+If we get an array that has all unique items we just return undefined.
+
+01:03.560 --> 01:06.980
+So how would you go about solving this.
+
+01:07.040 --> 01:09.590
+Give it a go see what you come up with.
+
+01:10.320 --> 01:16.530
+If you need help perhaps score on discord and chat with some of the community members and I'll see you
+
+01:16.680 --> 01:17.630
+in the solution video.

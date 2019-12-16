@@ -1,0 +1,100 @@
+WEBVTT
+
+00:01.500 --> 00:10.620
+În opinia mea, această secțiune este unul dintre cele mai importante subiecte pentru orice dezvoltator de software sau inginer.
+
+00:10.620 --> 00:17.850
+De asemenea, se întâmplă să fie secțiunea mea preferată, indiferent de ce companie lucrați în care locuiți sau chiar dacă codificați
+
+00:17.940 --> 00:24.360
+10 ani de acum, acesta este un concept care va fi în jur de mult timp și ceva care
+
+00:24.360 --> 00:27.780
+vă va face cu adevărat un dezvoltator mai bun.
+
+00:28.970 --> 00:35.480
+Big-O este ceva ce am învățat de la doi la trei ani în cariera mea de dezvoltator și este atât
+
+00:35.480 --> 00:36.500
+de important.
+
+00:36.500 --> 00:42.560
+Mi-a făcut un dezvoltator mai bun un inginer mai bun și va fi și pentru tine.
+
+00:42.590 --> 00:52.100
+Companiile mari precum Google Facebook Alibaba Amazon știu toate acestea și de aceea nu veți obține prin nici un interviu niciunul dintre
+
+00:52.100 --> 00:57.620
+interviurile telefonice niciunul dintre interviurile lor strigând fără a se confrunta cu acest
+
+00:57.620 --> 00:58.400
+subiect.
+
+00:59.230 --> 01:03.490
+Deci vom învăța totul despre acest subiect foarte important și de aceea
+
+01:03.490 --> 01:04.960
+este la începutul cursului.
+
+01:04.960 --> 01:05.530
+In regula.
+
+01:05.620 --> 01:07.110
+Ți-am luat suficient atenția.
+
+01:07.970 --> 01:10.480
+Deci, despre ce vorbim aici.
+
+01:10.490 --> 01:17.480
+Se numește Big O, iar termenul oficial este o analiză asimptomatică Big O.
+
+01:17.660 --> 01:22.150
+Dacă doriți să sunați super inteligent și impresionați-vă prietenii veți vedea orice coater.
+
+01:22.220 --> 01:24.610
+Având în vedere că suficient timp poate rezolva o problemă.
+
+01:24.980 --> 01:28.910
+Ceea ce contează este însă cât de bine rezolvă problema.
+
+01:29.330 --> 01:31.920
+Și aici e locul unde mare-O ne poate ajuta.
+
+01:31.970 --> 01:34.920
+Ne poate spune cât de bine este rezolvată o problemă.
+
+01:34.970 --> 01:37.130
+Vom afla ce înseamnă asta.
+
+01:37.130 --> 01:43.580
+În această secțiune vom vorbi despre big-O care este modul în care o definim și
+
+01:43.580 --> 01:52.900
+apoi o să folosim big-O și este o notație diferită pentru a distinge codul de codul bun de cod bun din codul mare.
+
+01:53.110 --> 01:57.950
+Vom deveni confortabil cu acest subiect că nu vom fi surprinși când vor
+
+01:57.950 --> 01:59.290
+apărea aceste interviuri.
+
+01:59.450 --> 02:05.090
+Dar vom construi, de asemenea, această fundație mare, care este importantă pentru a fi un mare dezvoltator.
+
+02:05.090 --> 02:10.160
+Motivul pentru care acest subiect este la începutul acestui curs este că veți vedea că această
+
+02:10.160 --> 02:16.160
+notație Big-O apare din nou și din nou pe măsură ce intrăm în subiecte precum structurile de date și algoritmi.
+
+02:16.160 --> 02:18.360
+Cum am spus că este secțiunea mea preferată.
+
+02:18.380 --> 02:21.170
+Așa că pregătește-te pentru că va fi foarte distractiv.
+
+02:21.200 --> 02:22.910
+Ne vedem în următorul videoclip.
+
+02:22.960 --> 02:23.150
+Bob.

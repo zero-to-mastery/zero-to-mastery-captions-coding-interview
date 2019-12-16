@@ -1,0 +1,148 @@
+WEBVTT
+
+00:01.150 --> 00:10.390
+Bine ați venit în această secțiune am finalizat înțelegerea algoritmilor cu programări dinamice și am
+
+00:10.480 --> 00:12.950
+finalizat toate acestea.
+
+00:13.150 --> 00:20.950
+Și acum, ultima piesă a puzzle-ului este o programare dinamică completă și în mod special folosind memoizarea pentru
+
+00:21.160 --> 00:23.260
+a ne optimiza problemele.
+
+00:23.970 --> 00:30.240
+Încheie întregul nostru diagrama sunt harta mea despre cum să stăpânești interviul.
+
+00:30.340 --> 00:32.610
+Deci, ce învățăm.
+
+00:32.680 --> 00:38.860
+Am aflat că, cu programare dinamică, putem identifica aceste tipuri de probleme, întâlnindu-ne
+
+00:39.340 --> 00:47.800
+mai întâi o problemă care poate fi împărțită în subproblemele unor piese mai mici, unde cel mai probabil
+
+00:47.800 --> 00:49.090
+folosiți recursivitatea.
+
+00:49.090 --> 00:56.350
+Dacă folosiți recursiunea, întrebați-vă. Există subprobleme sau sarcini repetitive pe care le fac din nou și
+
+00:56.740 --> 00:57.900
+din nou.
+
+00:58.120 --> 01:05.470
+În acest caz, putem memora subproblemele, astfel încât să nu recalculăm în mod constant lucrurile și să folosim această idee de
+
+01:05.470 --> 01:11.920
+programare dinamică, astfel încât să obținem o bună creștere de la șeful nostru pentru că am făcut codul
+
+01:12.010 --> 01:13.390
+atât de eficient.
+
+01:13.480 --> 01:19.750
+Memorizarea acum este o strategie comună pentru probleme de programare dinamică, probleme care tocmai
+
+01:19.750 --> 01:23.450
+am descris aici, cum ar fi problema Fibonacci.
+
+01:23.620 --> 01:31.180
+Există o altă modalitate de a încorpora programarea dinamică și se numește abordare de jos în sus și nu ne vom concentra prea mult
+
+01:31.180 --> 01:35.470
+pe ea, dar vreau să vă arăt rapid cum ar putea să arate.
+
+01:36.780 --> 01:43.620
+În cazul nostru, există de fapt oa treia modalitate de a rezolva această problemă, iar modul de a face acest lucru este bine că este într-adevăr
+
+01:43.620 --> 01:44.500
+destul de simplu.
+
+01:44.550 --> 01:46.530
+Putem face Fibonacci stăpânit
+
+01:49.590 --> 02:00.430
+și în această funcție vom avea răspunsul care va fi lista secvenței noastre Fibonacci care este chiar aici și o să o prefilling
+
+02:00.520 --> 02:08.920
+cu zero și una și apoi de acolo tot ceea ce facem este a pentru buclă și spun
+
+02:08.920 --> 02:16.110
+Let i egal cu două pentru că acum începem de la cel de-al doilea index.
+
+02:16.140 --> 02:22.650
+De ce este mai mică sau egală cu numărul și cu creșterea anuală.
+
+02:23.310 --> 02:33.920
+Și apoi, în cele din urmă, vom spune răspunsul care ne împinge și vom împinge la următorul punct din acest stack.
+
+02:34.200 --> 02:37.540
+Rezultatele primului și al doilea.
+
+02:37.770 --> 02:49.620
+Așadar, minus două plus plus de răspuns High minus unu și apoi putem doar să ne întoarcem răspunsul dot pop care ne va da
+
+02:49.620 --> 02:55.560
+ultimul element din listă în funcție de ceea ce indicele căutăm.
+
+02:56.750 --> 02:59.090
+Așa că dacă aș executa
+
+03:04.970 --> 03:06.440
+acest lucru
+
+03:12.670 --> 03:24.070
+aș spune că trebuie să mă ridice și trebuie să mă asigur că trec în să zic 100 dacă am fugit.
+
+03:24.080 --> 03:24.800
+Acolo te duci.
+
+03:24.800 --> 03:27.100
+Obținem ambele rezultate.
+
+03:27.970 --> 03:31.680
+Iar acest tip de abordare evită recursul.
+
+03:31.780 --> 03:38.170
+Unii ar spune că nu este la fel de curat, nu este la fel de ușor de înțeles, în timp ce alții vor spune că acest lucru are mult mai
+
+03:38.170 --> 03:38.770
+mult sens.
+
+03:38.770 --> 03:46.060
+Depinde într-adevăr de preferințele dvs. și acest tip de soluție se numește de jos în sus pentru că porniți de
+
+03:46.120 --> 03:53.170
+la cea mai simplă soluție din partea de jos și vă deplasați încet, în sus și în sus, spre
+
+03:53.170 --> 03:54.620
+probleme mai complexe.
+
+03:54.730 --> 04:00.280
+Dar aceste tipuri de probleme, deși mai ușor de văzut, sunt mai greu de crezut când să le folosiți.
+
+04:00.430 --> 04:10.070
+Așadar, prefer modul de abordare a memoriei din partea de sus a utilizării, dar vreau doar să vă arăt că există și un alt
+
+04:10.070 --> 04:12.240
+mod de a face lucrurile.
+
+04:13.240 --> 04:19.870
+Și într-un interviu este foarte rar că vi se va cere să implementeze ambele metode,
+
+04:19.870 --> 04:25.120
+dar la sfârșitul anului tot sper că vezi puterea programării dinamice.
+
+04:25.130 --> 04:32.030
+Simplul concept de a ne salva o mulțime de probleme gândindu-ne cum funcționează programele noastre și cum
+
+04:32.030 --> 04:37.380
+putem să o optimizăm astfel încât să nu facem nici o sarcină repetată.
+
+04:37.440 --> 04:43.100
+Dacă puteți observa aceste lucruri, atunci sunteți un inginer excelent.
+
+04:43.160 --> 04:44.090
+Ne vedem în următorul.

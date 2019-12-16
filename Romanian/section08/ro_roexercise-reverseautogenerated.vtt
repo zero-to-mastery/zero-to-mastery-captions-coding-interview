@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.480 --> 00:01.270
+Bine ai revenit.
+
+00:01.590 --> 00:06.420
+Am un mic exercițiu distractiv pentru tine și știu că numesc fiecare exercițiu bine.
+
+00:06.570 --> 00:09.810
+Dar cred că aceasta este deosebit de distractivă.
+
+00:10.960 --> 00:20.020
+Acum, una dintre cele mai populare întrebări de interviu atunci când vine vorba de listele legate este de a inversa
+
+00:20.350 --> 00:22.170
+o listă legată.
+
+00:22.190 --> 00:23.290
+Ce vreau să spun prin asta.
+
+00:23.570 --> 00:28.190
+Ei bine, un intervievator va spune că avem o listă de lungimi aici.
+
+00:28.190 --> 00:36.620
+Cum ai face inversarea acestei liste dacă am o listă aici, care este una 10 16 18.
+
+00:36.620 --> 00:39.500
+Cum puteți face lista cu lista de link-uri.
+
+00:40.340 --> 00:44.310
+Mergeți de la 88 la 16 la 10 la 1.
+
+00:44.330 --> 00:48.130
+Cum ai inversa și a te răsuci.
+
+00:48.370 --> 00:55.120
+Și vom folosi o singură listă legată de acest exercițiu și tot ce vrem să facem este să creăm o nouă
+
+00:55.120 --> 00:55.700
+metodă.
+
+00:56.620 --> 00:58.540
+Asta va spune invers
+
+01:01.330 --> 01:08.060
+și această metodă aici va trebui să facă niște magici care vor inversa acest lucru pentru noi.
+
+01:08.820 --> 01:15.720
+Amintiți-vă că nu imprimați doar o matrice dorită o listă legată inversă, care are acum 88
+
+01:15.720 --> 01:23.870
+de referință 16 care are o referință spunând sau indicând 10 și 10 indicând unul și unul indicând nu
+
+01:23.870 --> 01:26.030
+cum ați face asta.
+
+01:26.030 --> 01:29.830
+Mult noroc cu acest exercițiu și vă voi vedea în soluția video.
+
+01:29.830 --> 01:30.300
+Pa! Pa.

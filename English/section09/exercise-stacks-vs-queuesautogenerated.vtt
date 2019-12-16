@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.170 --> 00:02.490
+Welcome back.
+
+00:02.490 --> 00:09.270
+Let's do a quick exercise before we actually create our own stacks and Qs because javascript doesn't
+
+00:09.270 --> 00:13.810
+have its own stock or cues data structure.
+
+00:13.830 --> 00:18.950
+Now I mentioned that there's two ways that we can build stacks and Qs.
+
+00:19.150 --> 00:24.040
+If we talk about stacks we can think of it as our browser history.
+
+00:24.040 --> 00:33.430
+Let's say we visit Google first then we visit you Dammy dot com and then we visit let's say YouTube
+
+00:34.770 --> 00:39.130
+in a stack because Google was the first item.
+
+00:39.280 --> 00:43.240
+It would actually be placed on the stack like this.
+
+00:43.240 --> 00:52.170
+Then we go to you Dammy so we'd be placed on the stack on top and then we go to YouTube.
+
+00:52.240 --> 00:59.770
+Now if we want to go to a new website let's say we go to Twitter but then we decided no no no that's
+
+00:59.770 --> 01:00.700
+not what I want to do.
+
+01:00.700 --> 01:07.750
+I want to go back well we remove Twitter press backburn on our browser and we get to YouTube if we press
+
+01:08.110 --> 01:09.050
+back again.
+
+01:09.250 --> 01:19.940
+We get to Dammy and then back again we go back to Google so Stax has a top and a bottom and we can build
+
+01:19.940 --> 01:25.190
+it with either array's or linked lists.
+
+01:26.370 --> 01:35.940
+My question to you is why would we want to build stacks with arrays that is will create a class of stacks
+
+01:35.940 --> 01:43.120
+that has the data being held in arrays versus using linked lists and vice versa.
+
+01:43.910 --> 01:45.560
+Think about that.
+
+01:45.560 --> 01:46.840
+What about.
+
+01:48.840 --> 01:56.970
+Let's say we have a Q I'm creating a waitlist app and and here we have a couple of people that want
+
+01:56.970 --> 01:58.020
+to get on the waitlist.
+
+01:58.080 --> 02:01.680
+The first person that shows up is Tim.
+
+02:01.950 --> 02:04.690
+And then after Tim or you know what.
+
+02:04.770 --> 02:10.530
+Let's use our names let's use Matt and then Matt shows up.
+
+02:10.630 --> 02:20.550
+But all of a sudden joy comes and lines up and then perhaps we have something that comes and waits in
+
+02:20.550 --> 02:25.240
+line and then we have Pavol.
+
+02:25.460 --> 02:33.560
+In this case we want Matt to be first then Joy and sumir then Powell and with cues we can once again
+
+02:33.650 --> 02:40.160
+use our race and length lists to implement it.
+
+02:41.690 --> 02:44.900
+Which one do you think will be better for us.
+
+02:44.930 --> 02:47.480
+Is there one better or are they both equal.
+
+02:47.480 --> 02:50.210
+I want you to think about this in the next video.
+
+02:50.240 --> 02:56.180
+I'm going to answer this for you but I recommend taking time to think about what you know about arrays
+
+02:56.180 --> 03:01.430
+and linked lists and how they might benefit or might not benefit.
+
+03:01.490 --> 03:03.360
+Stacks and Qs.
+
+03:03.500 --> 03:04.360
+I'll see in the next video.

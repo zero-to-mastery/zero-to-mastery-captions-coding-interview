@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.020 --> 00:08.760
+Apa saja berbagai operasi yang dapat dilakukan pada struktur data yang berbeda karena seperti yang
+
+00:08.790 --> 00:17.570
+kita pelajari di kuliah sebelumnya, struktur data hanyalah cara untuk mengatur data di komputer dan struktur data
+
+00:17.570 --> 00:25.520
+yang akan kita lihat sepanjang kursus ini hanyalah variasi dari bagaimana kami menyimpan data ini di
+
+00:25.820 --> 00:27.350
+komputer kami.
+
+00:27.350 --> 00:33.680
+Informasi ini dan setiap struktur data memiliki pengorbanannya.
+
+00:33.730 --> 00:36.070
+Beberapa bagus dalam operasi tertentu.
+
+00:36.070 --> 00:38.990
+Lainnya bagus dalam operasi lain.
+
+00:40.020 --> 00:47.430
+Salah satu jenis tindakan yang akan kita lakukan dengan struktur data dengan baik adalah
+
+00:47.430 --> 00:56.220
+penyisipan menambahkan item data baru dalam koleksi item tertentu seperti kita menambahkan item apple dan memori di sini.
+
+00:57.270 --> 01:05.300
+Dan sekarang penghapusan satu file yang terkadang ingin kita hapus data seperti menghapus mangga dari daftar kita.
+
+01:05.300 --> 01:08.800
+Jenis tindakan lain mungkin traversal.
+
+01:09.140 --> 01:16.860
+Dan kita akan melihat banyak traversal ini berarti mengakses setiap item data tepat sekali
+
+01:17.190 --> 01:22.240
+sehingga dapat diproses dan yang berguna lainnya sedang mencari.
+
+01:22.310 --> 01:29.920
+Kami ingin mengetahui lokasi item data jika ada dalam koleksi yang diberikan dan kemudian kami juga
+
+01:29.920 --> 01:34.960
+memiliki hal-hal seperti pengurutan yang memiliki data yang mengurutkan.
+
+01:34.960 --> 01:41.890
+Jenis seperti itu ada di sisi kiri di sini versus sisi kanan di mana tidak banyak penyortiran
+
+01:41.890 --> 01:45.100
+terjadi setidaknya dari tempat kita bisa melihat.
+
+01:45.300 --> 01:51.390
+Dan jelas yang utama dan mungkin yang paling penting adalah akses.
+
+01:51.600 --> 01:56.170
+Bagaimana kita mengakses data ini yang kita miliki di komputer kita.
+
+01:56.950 --> 02:02.980
+Sekarang setiap struktur data yang akan kita lalui dalam kursus ini akan memiliki pro dan kontra
+
+02:02.980 --> 02:04.950
+yang berbeda untuk masing-masingnya.
+
+02:05.140 --> 02:12.240
+Dan jika kita melihat besar-O Chichi kita, kita sangat akrab dengan diagram ini di sini atau
+
+02:12.240 --> 02:19.510
+grafik ini dan jika kita gulir ke bawah, kita memiliki semua struktur data yang tercantum dan tidak membanjiri.
+
+02:19.590 --> 02:25.170
+Kita akan membahas sebagian besar struktur data ini dan Anda melihat bahwa setengah dari mereka
+
+02:25.200 --> 02:31.300
+sebagian besar adalah pohon dan variasi pohon dan di sini kita melihat bahwa masing-masing dari mereka memiliki akses.
+
+02:31.310 --> 02:38.510
+Cari rata-rata penghapusan penyisipan dalam kasus terburuk dan karena kami mengerti besar-O kita bisa melihatnya.
+
+02:38.620 --> 02:41.660
+Baiklah kita melihat mana yang bagus untuk apa.
+
+02:41.680 --> 02:44.080
+Dan apa yang buruk untuk apa.
+
+02:44.910 --> 02:50.590
+Dan saat kita mempelajari struktur data kita, kita akan membahas pro dan kontra ini
+
+02:50.590 --> 02:57.310
+sehingga Anda membangun fondasi untuk dapat memutuskan struktur data mana yang harus saya gunakan pada masalah Anda berikutnya.
+
+02:57.730 --> 03:02.080
+Kita akan mulai dengan struktur data pertama kami di lösen berikutnya.
+
+03:02.200 --> 03:02.990
+Saya akan melihat yang itu.

@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.840 --> 00:01.820
+Witamy spowrotem.
+
+00:02.220 --> 00:05.380
+Zobaczmy, jak możemy wdrożyć metodę odpowiedzi.
+
+00:06.380 --> 00:08.730
+I to było trudne, więc mam nadzieję, że go masz.
+
+00:08.780 --> 00:14.070
+Jeśli nie przynajmniej spróbowałeś, abyśmy mogli zobaczyć, jak chcemy poprawnie zastosować metodę wstawiania.
+
+00:15.280 --> 00:23.120
+Pierwszą rzeczą, którą chcę zrobić, jest przede wszystkim sprawdzenie moich parametrów i to jest coś, co zwykle chcę
+
+00:23.140 --> 00:25.340
+zrobić ze wszystkimi metodami.
+
+00:25.360 --> 00:31.120
+Wiem, że upraszczamy rzeczy i kiedy patrzymy na teraźniejszość i dołączamy Nigdy nie
+
+00:31.120 --> 00:37.410
+sprawdzaliśmy, czy wartość jest czymś, czego chcieliśmy, ale jeśli chodzi o wstawianie czegoś, chcemy się
+
+00:37.410 --> 00:43.630
+upewnić, że indeks jest wartością, którą rozumiemy, więc nasz program nie nie dają żadnych błędów.
+
+00:44.280 --> 00:51.130
+Jest wiele rzeczy, które możemy zrobić dla czeku, a pozostawiam to tobie, aby naprawdę zaimplementować naprawdę dobre
+
+00:51.130 --> 00:51.790
+sprawdzanie.
+
+00:51.880 --> 01:00.220
+Ale jednym ważnym sprawdzianem, który moim zdaniem powinniśmy mieć, jest to, czy indeks jest większy, czy równy
+
+01:00.930 --> 01:02.080
+tej długości.
+
+01:02.140 --> 01:09.820
+Więc jeśli podam wstawkę indeksu powiedzmy na 200, a nasza lista ma tylko trzy pozycje, chcę
+
+01:09.820 --> 01:11.680
+ją poprawnie obsłużyć.
+
+01:11.890 --> 01:19.590
+W tym przypadku mówię tak długo, jak indeks jest większy lub równy temu dominującemu.
+
+01:19.900 --> 01:24.490
+W takim przypadku po prostu dodaj go do końca listy.
+
+01:24.520 --> 01:31.870
+Więc jeśli powiem wartość wstawki 200 na dziewięćdziesiąt dziewięć, dodam dziewięćdziesiąt dziewięć do końca listy
+
+01:31.870 --> 01:35.020
+i możesz wprowadzić różne warianty tego.
+
+01:35.020 --> 01:41.450
+Może powinieneś zwrócić błąd, jeśli chcesz, ale uprościć wszystko, co moim zdaniem jest wystarczająco dobre i
+
+01:41.450 --> 01:46.280
+możemy po prostu powiedzieć, że zwracamy tę kropkę, którą już masz.
+
+01:46.280 --> 01:52.490
+Musimy powiedzieć, że to początek pióra, ponieważ odwołujemy się do metody z tej klasy, więc
+
+01:54.340 --> 01:57.320
+powiedzmy ten dodatek, a dodamy tylko wartość.
+
+01:57.370 --> 01:58.190
+No to jedziemy.
+
+01:58.570 --> 02:05.470
+Więc jeśli zrobię dwieście dziewięćdziesiąt dziewięć tutaj, to pozwólmy dodać listę Prynne na dole
+
+02:06.330 --> 02:12.380
+tutaj i jeśli kliknę uruchom, otrzymam 99 dodanych do końca listy.
+
+02:12.450 --> 02:20.830
+Ale co, jeśli indeks był, podczas gdy teraz jest częścią serca.
+
+02:20.860 --> 02:28.200
+Chcemy najpierw utworzyć nowy węzeł i pamiętać, że możemy utworzyć nową instancję klasy, jeśli chcemy, ale w
+
+02:28.250 --> 02:33.680
+naszym przypadku po prostu utworzymy nowy obiekt, który ma wartość wartości.
+
+02:34.820 --> 02:40.790
+A potem nic nowego, już to widzieliśmy.
+
+02:42.840 --> 02:48.360
+Jest to trudna część i lubię to komentować lub przynajmniej wizualizować, aby zrozumieć,
+
+02:48.360 --> 02:49.350
+co robimy.
+
+02:49.350 --> 02:58.160
+Mamy dwie notatki, które są ze sobą połączone, a potem mamy NOWĄ wiadomość, która przychodzi i mówi, że chcę,
+
+02:58.160 --> 03:00.950
+żebyś mi odpowiedział właśnie tutaj.
+
+03:00.950 --> 03:02.630
+Jakie powinny być kroki.
+
+03:03.990 --> 03:11.220
+Cóż, pierwszą rzeczą, którą musimy zrobić, to dowiedzieć się, który węzeł jest pierwszy, ponieważ pamiętaj, aby
+
+03:11.340 --> 03:15.020
+wstawić coś, co możemy wybrać, który indeks chcemy.
+
+03:15.030 --> 03:21.780
+Więc jeśli chcemy wstawić indeks dwóch, chcemy pobrać cokolwiek jest tym indeksem dwóch.
+
+03:21.900 --> 03:22.940
+Więc musimy.
+
+03:23.040 --> 03:30.990
+Musimy więc przejść przez naszą listę i powiedzieć 0 1, aby znaleźć ten węzeł i uzyskać odniesienie do niego.
+
+03:31.080 --> 03:33.450
+W przeciwnym razie nie mamy do tego odniesienia.
+
+03:33.480 --> 03:40.590
+Pamiętaj, że na liście linków znajduje się tylko odnośnik do tej głowy i tego ogona.
+
+03:40.620 --> 03:47.790
+Tak więc pierwszą rzeczą, którą chcemy zrobić, to dostać się do tej notatki i
+
+03:47.790 --> 03:55.250
+chcemy nazwać ten pierwszy węzeł liderem, ponieważ będzie to pierwsza uwaga, że połączymy ten nowy
+
+03:55.250 --> 04:04.100
+węzeł 2 i ten nowy węzeł będzie teraz wskazywał obok starego węzła lub nie był początkowo połączony z
+
+04:04.100 --> 04:05.520
+pierwszą nutą.
+
+04:05.930 --> 04:15.530
+Powiem więc, że ten węzeł wiodący będzie dobrze, jak możemy uzyskać, że musimy jakoś przemieścić się
+
+04:15.530 --> 04:22.730
+jeden po drugim, dopóki nie znajdziemy szukanego indeksu i nie usuniemy kodu.
+
+04:22.730 --> 04:24.280
+Zamierzam stworzyć nową metodę.
+
+04:24.370 --> 04:32.330
+Powiem, że ta kropka do indeksu będzie nową metodą.
+
+04:32.660 --> 04:41.290
+To po prostu uzyska indeks o wartości 0 1 2 i chcę zdobyć lidera.
+
+04:41.300 --> 04:51.350
+Więc jeśli chcę wstawić tu liczbę 99, muszę się upewnić, że 10 punktów do dziewięćdziesięciu dziewięciu i dziewięćdziesiąt dziewięć
+
+04:51.350 --> 04:53.170
+punktów do pięciu.
+
+04:53.600 --> 05:01.580
+Oznacza to, że muszę pobrać indeks nie tutaj i wskazać go liderowi, który jest 10 liderem, którego
+
+05:01.580 --> 05:03.510
+chcemy na liście.
+
+05:03.620 --> 05:10.980
+Więc mam zamiar zrobić minus jeden, więc wskażcie dowódcy i ten bieg do indeksu.
+
+05:11.000 --> 05:12.570
+Chociaż będziemy musieli go stworzyć.
+
+05:13.780 --> 05:21.010
+I mam tutaj to kluczowe słowo, ponieważ znowu jest to metoda na tę klasę, powiem, że
+
+05:21.040 --> 05:23.830
+przetestuję dwa indeksy, które uzyskają indeks.
+
+05:24.040 --> 05:28.040
+I tu właśnie wykonujemy naszą traversal lub pętlę.
+
+05:28.060 --> 05:33.460
+Możesz tutaj sprawdzić parametry i upewnić się, że jest to prawidłowy indeks i możesz
+
+05:33.460 --> 05:34.710
+to zrobić samodzielnie.
+
+05:34.720 --> 05:37.010
+Nie ma to większego znaczenia dla tego przykładu.
+
+05:38.300 --> 05:43.790
+Możemy założyć, że indeks będzie prawidłową liczbą i prawidłowym indeksem.
+
+05:43.790 --> 05:50.040
+A potem zrobimy najpierw coś w rodzaju licznika, który będzie równy zeru.
+
+05:51.620 --> 05:57.830
+Powiemy, że bieżący węzeł jest czymś, co zrobiliśmy podobnie do
+
+05:57.830 --> 06:04.330
+listy wydruków, będziemy zachowywać bieżący węzeł, tak jak to miało miejsce.
+
+06:04.470 --> 06:17.710
+I podczas gdy prąd lub licznik nie jest równy indeksowi, ponieważ mówimy, że kontynuuj przechodzenie od początku
+
+06:17.740 --> 06:25.950
+od głowy do końca, aż licznik będzie równy indeksowi.
+
+06:25.960 --> 06:30.870
+Więc dalej przechodź przez pętlę while, dopóki licznik nie jest równy indeksowi.
+
+06:30.910 --> 06:36.260
+Ale tak szybko, jak licznik staje się indeksem, więc gdy dojdziemy do punktu, który chcemy w naszym
+
+06:36.260 --> 06:41.440
+przypadku przejść do indeksu minus jeden, który oznacza, jak tylko dojdziemy do 10, a następnie przestać.
+
+06:41.440 --> 06:48.370
+Ale do tego czasu chcę, abyście przeszli przez to, więc aktualny węzeł będzie
+
+06:51.280 --> 06:53.990
+równy aktualnej kropce węzła.
+
+06:54.010 --> 07:00.680
+Więc będziemy przesuwać bieżący węzeł w prawo, a my będziemy zwiększać licznik jeden
+
+07:00.740 --> 07:01.920
+po drugim.
+
+07:02.090 --> 07:03.110
+to jest to!
+
+07:03.110 --> 07:05.510
+To nasza traversal.
+
+07:05.550 --> 07:11.610
+Wszystko, co musimy zrobić na końcu, ponieważ chcemy zwrócić coś z tej
+
+07:12.270 --> 07:18.670
+metody, to zwrócić bieżący węzeł, a następnie mamy go, aby przejść do indeksu.
+
+07:18.820 --> 07:23.060
+W naszym przypadku, jeśli wstawimy dwa dziewięćdziesiąt dziewięć.
+
+07:23.350 --> 07:27.120
+Otrzyma tu dwa dziewięćdziesiąt dziewięć.
+
+07:27.290 --> 07:34.100
+Zamierza utworzyć nowy węzeł i przejdzie do indeksu do minus jeden jest 1,
+
+07:34.100 --> 07:40.240
+więc powie "0 i 1", a licznik będzie równy indeksowi.
+
+07:40.250 --> 07:47.520
+Więc wyjdzie z pętli i zwróci bieżący węzeł, który ma 10.
+
+07:47.630 --> 07:50.510
+Chwytamy referencję do lidera.
+
+07:50.540 --> 07:52.330
+Gratulacje, ale jeszcze nie skończyliśmy.
+
+07:52.340 --> 07:53.460
+Dobrze.
+
+07:53.600 --> 07:57.040
+Kiedy zdobędziemy referencję do lidera, co robimy dalej.
+
+07:58.250 --> 08:05.660
+Cóż, następnym krokiem jest upewnienie się, że pobieramy następny element z tej oryginalnej
+
+08:05.660 --> 08:10.290
+listy, który chcemy ustawić na wskaźnik numer pięć.
+
+08:10.610 --> 08:12.200
+Znowu nie chcemy łamać tej listy.
+
+08:12.200 --> 08:19.130
+Chcemy się upewnić, że połączenia działają poprawnie, a Dziewięć-Dziewiątka pojawia się po 10, a po
+
+08:19.130 --> 08:21.080
+99 - po pięciu.
+
+08:21.500 --> 08:33.050
+Zatem następnym krokiem, który chcesz wykonać w naszej metodzie wstawiania, jest to, co nazywam "wstrzymaj" lub powiedzmy, że trzymasz wskaźnik.
+
+08:33.100 --> 08:38.930
+Mógłbym nazwać to lepiej, ale posiadanie Poitiera jest miłe i powiemy, że lider dalej.
+
+08:39.910 --> 08:46.260
+Leader Don next ma pięć, a ta piątka.
+
+08:46.470 --> 08:56.690
+Teraz mamy tę referencję w tej zmiennej, która będzie tymczasowo następna, ponieważ mamy pięć zapisanych w tej zmiennej, do której
+
+08:56.750 --> 08:59.300
+odnosi się ta zmienna.
+
+08:59.420 --> 09:06.240
+Możemy teraz zaktualizować linię odniesienia obok punktu do naszego nowego węzła.
+
+09:06.430 --> 09:17.610
+Mogę więc powiedzieć, że lider Dodd będzie teraz wskazywał na nowy węzeł i pamiętam, że z powodu działania odnośników
+
+09:17.610 --> 09:26.310
+usunęliśmy odniesienie do pięciu tutaj, więc 10 nie wskazuje już na pięć, ale zapisaliśmy tutaj
+
+09:26.310 --> 09:28.280
+odniesienie do niego.
+
+09:28.320 --> 09:30.420
+I ta zmienna.
+
+09:30.480 --> 09:40.670
+Więc jeśli teraz wrócimy do naszego przykładu, usunęliśmy odniesienie do tego, a
+
+09:40.670 --> 09:47.410
+teraz 10 punktów, teraz jest lepszy odstęp.
+
+09:47.410 --> 09:48.590
+Proszę bardzo.
+
+09:48.800 --> 09:50.440
+OK, co dalej.
+
+09:51.670 --> 09:59.240
+Teraz potrzebujemy tego węzła, który znasz 2. 2 ten jak ten i to całkiem proste.
+
+09:59.350 --> 10:09.530
+Po prostu mówimy, że nowa notka Don będzie równała się z trzymaniem wskaźnika piątki, którą przechowujemy
+
+10:09.620 --> 10:11.250
+w pamięci.
+
+10:11.450 --> 10:21.530
+I wreszcie mówimy o tej ziemi plus o plusie, ponieważ dodaliśmy do listy i możemy to zwrócić lub po prostu wiemy, że
+
+10:21.530 --> 10:22.990
+zrobiliśmy to poprawnie.
+
+10:22.990 --> 10:30.380
+Zamierzam powiedzieć tę listę wydruków myśli, gdy coś nieoczekiwanego zostanie wstawione, a my po prostu
+
+10:30.380 --> 10:31.820
+wydrukujemy listę.
+
+10:31.970 --> 10:33.850
+Zobaczmy, czy to działa.
+
+10:33.860 --> 10:39.590
+Chcę to usunąć, aby kod działał i nie musimy tego drukować.
+
+10:39.650 --> 10:43.000
+Uruchommy to polecenie.
+
+10:43.030 --> 10:44.220
+Hej, spójrz na to.
+
+10:44.230 --> 10:56.060
+Więc zanim mieliśmy tę listę, i tak naprawdę wydrukujmy Vestiaire, abyśmy mogli zobaczyć to na moim wydruku lub
+
+10:56.060 --> 11:00.020
+na mojej połączonej liście CLIST.
+
+11:00.080 --> 11:04.380
+Tak było wcześniej i dodaliśmy 99 tutaj.
+
+11:06.100 --> 11:07.310
+Właśnie tak.
+
+11:07.530 --> 11:13.240
+I po prostu przetestuj go jeszcze raz, jeśli ponownie dodaję wstawioną kropkę do listy i
+
+11:13.240 --> 11:19.760
+tym razem dasz mu 20, która nie istnieje, indeks 20 i 88, które powinny zostać dodane na końcu listy.
+
+11:22.200 --> 11:29.860
+A ponieważ przy tej wstawce, gdy robimy czek, dodajemy tylko ten dopisek, który nie
+
+11:30.130 --> 11:31.780
+drukuje listy.
+
+11:31.780 --> 11:37.350
+Dodajmy tu listę wydruków na dole, aby upewnić się, że to działa.
+
+11:37.360 --> 11:43.510
+Na końcu masz 88 bardzo, bardzo miłe.
+
+11:43.570 --> 11:50.530
+Wiem, że to było trudne, a wstawianie jest prawdopodobnie najtrudniejszą funkcją do implementacji lub metody do implementacji
+
+11:50.560 --> 11:54.190
+na liście połączonej, ale praktykuj to kilka razy.
+
+11:54.250 --> 11:56.690
+Naprawdę rozumiem, co robi każdy krok.
+
+11:56.710 --> 11:58.900
+Wyciągnij, jeśli potrzebujesz.
+
+11:59.170 --> 12:00.490
+Ale gratuluję.
+
+12:00.550 --> 12:04.580
+Właśnie wprowadziliśmy funkcję odpowiedzi do naszej listy długości list.
+
+12:05.050 --> 12:10.450
+I możesz zauważyć rok, kiedy musieliśmy przemierzać miejsce, w którym mieliśmy dziko.
+
+12:10.640 --> 12:12.440
+A teraz może mieć sens.
+
+12:13.690 --> 12:23.640
+Dlaczego mamy wstawkę jako całość, ponieważ musieliśmy przeglądać naszą listę, a wyszukiwanie, które można nazwać traversal, było również
+
+12:23.640 --> 12:27.990
+wydarzeniem, które było naszym ciągiem do indeksowania.
+
+12:27.990 --> 12:28.500
+Dobrze.
+
+12:28.530 --> 12:35.100
+Jeśli szukamy elementu o indeksie 10 na przykład, musimy sprawdzić w najgorszym przypadku, że
+
+12:35.130 --> 12:37.480
+musieliśmy przejrzeć całą listę.
+
+12:37.500 --> 12:39.200
+To samo dotyczy tensora.
+
+12:39.240 --> 12:40.060
+W porządku.
+
+12:40.090 --> 12:47.530
+Skoro już zrobiliśmy wkładkę, powinieneś być w stanie wykonać następną samodzielnie, czyli usunąć używając czegoś bardzo podobnego
+
+12:47.530 --> 12:50.240
+do tego, jak zrobiliśmy z insertem.
+
+12:50.710 --> 12:56.740
+Dodajmy lub usuń wywołanie tego usunięcia.
+
+12:56.830 --> 13:03.560
+Zróbmy usunięcie, które ma parametr i X tego, co chcesz usunąć.
+
+13:03.560 --> 13:06.360
+Powodzenia w kodowaniu tego, a do zobaczenia w wideo z rozwiązaniem.

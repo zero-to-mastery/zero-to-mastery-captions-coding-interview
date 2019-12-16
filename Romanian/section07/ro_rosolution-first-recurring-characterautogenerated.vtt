@@ -1,0 +1,517 @@
+WEBVTT
+
+00:00.950 --> 00:02.270
+Bine ai revenit.
+
+00:02.270 --> 00:03.190
+Cum a fost.
+
+00:03.260 --> 00:04.030
+Ai înțeles.
+
+00:04.040 --> 00:07.040
+A fost o întrebare dură.
+
+00:07.100 --> 00:12.890
+Nu fi prea dezamăgit dacă nu ați reușit să obțineți răspunsul la aceste întrebări, pentru a
+
+00:12.980 --> 00:14.120
+vă întinde mintea.
+
+00:14.330 --> 00:17.360
+Dacă ar fi fost prea simple, atunci nu ați învățat nimic.
+
+00:22.930 --> 00:28.900
+Să începem cu abordarea naivă care este abordarea care vine în minte.
+
+00:29.750 --> 00:36.280
+Pentru mine, primul dintre voi va fi o buclă imbricată.
+
+00:36.470 --> 00:37.660
+Hai să avem o funcție.
+
+00:37.700 --> 00:39.170
+O să-l sun mai întâi.
+
+00:42.530 --> 00:45.850
+Caracter recurent.
+
+00:46.060 --> 00:47.940
+Va primi o intrare.
+
+00:48.670 --> 00:53.140
+Și pentru că am vorbit deja despre asta, nu voi face nici o validare a intrărilor.
+
+00:53.140 --> 00:59.860
+Putem doar să presupunem că întotdeauna vom ajunge la un fel de număr numeric aici.
+
+00:59.870 --> 01:05.670
+Mă voi întoarce din nou și băiatul pe care l-am făcut de atâtea ori până acum.
+
+01:05.750 --> 01:09.310
+Sper că te îmbolnăvești și te-ai săturat să faci doar o buclă prin rețele.
+
+01:10.620 --> 01:19.240
+Dar acum, cel puțin suntem stăpâni ai buclelor.
+
+01:19.470 --> 01:20.700
+Plus plus.
+
+01:21.470 --> 01:27.890
+Deci aici, în prima buclă, vom lua primul element din matrice și vom numi această
+
+01:27.890 --> 01:28.330
+funcție.
+
+01:28.330 --> 01:30.920
+Așa că o avem aici.
+
+01:30.920 --> 01:32.080
+Simplu și ușor.
+
+01:33.300 --> 01:35.710
+Și ne dă o viziune frumoasă.
+
+01:35.830 --> 01:41.440
+Așa că voi trece prin primul element, apoi al cincilea sau cel de-al doilea, al treilea al patrulea și continuă
+
+01:41.440 --> 01:42.600
+să meargă continuu.
+
+01:43.000 --> 01:48.490
+Vreau să apuc acest element și apoi să fac o altă buclă și să verifice două versus cinci.
+
+01:48.610 --> 01:53.550
+Doi versus doi doi versus doi și apoi spuneți că acesta este unul.
+
+01:53.950 --> 02:01.930
+Dacă nu găsește nimic, va merge la următorii cinci și apoi va compara 5 la 1 1 la 2 2 2 3 și așa mai
+
+02:01.930 --> 02:02.520
+departe.
+
+02:03.370 --> 02:10.040
+Deci, încă o dată voi copia și lipi de data asta pentru că am făcut o
+
+02:10.040 --> 02:15.580
+mulțime de patru bucle și pur și simplu schimbăm variabila ca fiind j.
+
+02:15.620 --> 02:19.940
+Vom începe la 1 deoarece nu vrem să comparăm doi cu doi.
+
+02:19.940 --> 02:21.710
+Vrem să comparăm două până la cinci.
+
+02:21.770 --> 02:27.020
+Pentru a începe, așa că doar sărind peste o bucla care ne va ajuta.
+
+02:27.650 --> 02:39.570
+O să spun Jay aici și J plus plus Acum, unii dintre voi poate au fost prinși aici, pentru că dacă o avem așa cum
+
+02:39.570 --> 02:46.120
+se întâmplă acum și tu consoleză log această buclă vei vedea că nu
+
+02:46.180 --> 02:55.700
+va funcționa corect deoarece de fiecare dată când aceasta schimbă mișcările exterioare pentru buclă, să zicem zero la următoarea, un
+
+02:56.060 --> 02:59.880
+index Jay va fi resetat la 1.
+
+03:00.020 --> 03:05.950
+Deci, 5 va fi comparat cu 5 și funcția va presupune cinci.
+
+03:05.960 --> 03:08.850
+Caracterul reocurător.
+
+03:09.030 --> 03:21.030
+Deci, un mic truc aici este de a face pi plus unul care este întotdeauna mergem unul la dreapta de unde HIAS
+
+03:21.030 --> 03:22.260
+primul indici.
+
+03:22.590 --> 03:34.260
+Așadar, dacă ne întoarcem cu buclă și suntem aici, bucla imbricată se va uita la 1 plus 1.
+
+03:34.340 --> 03:42.360
+Deci, vom compara două până la trei două la cinci pentru a-i pentru că
+
+03:42.360 --> 03:46.830
+bine am comparat deja cu buclele anterioare.
+
+03:46.830 --> 03:47.400
+In regula.
+
+03:47.610 --> 03:49.700
+Am făcut asta aici.
+
+03:49.740 --> 03:54.120
+Putem pur și simplu face o declarație dacă spune parțial.
+
+03:54.510 --> 04:00.970
+Este egal cu valoarea de intrare J egală cu 5.
+
+04:01.040 --> 04:04.320
+Sunt două egale cu 1 prea egale cu 2.
+
+04:04.640 --> 04:08.150
+Dacă aceasta este egală atunci pur și simplu întoarceți-vă și puneți
+
+04:12.290 --> 04:12.860
+altfel.
+
+04:12.880 --> 04:17.590
+Dacă facem toate aceste lucruri și nu se întâmplă
+
+04:20.690 --> 04:22.940
+nimic, putem reveni undefined.
+
+04:23.020 --> 04:24.220
+Să vedem dacă funcționează.
+
+04:24.340 --> 04:34.310
+Am de gând să-l rulați și am două minunate Ce-ar fi dacă aș schimba acest lucru la unul dacă am rula acest lucru I a lua
+
+04:34.680 --> 04:44.030
+un perfect Ce se întâmplă dacă fac doar un singur element dintr-o matrice am nedefinit dacă fac o matrice goală am undefined .
+
+04:44.060 --> 04:44.990
+Asta e bine.
+
+04:45.230 --> 04:50.230
+Ce se întâmplă dacă fac 1 1 sau 1 1 primesc 1.
+
+04:50.230 --> 04:50.760
+Grozav.
+
+04:50.770 --> 04:55.250
+Dacă vreau să fiu nedefinit minunat.
+
+04:55.290 --> 05:03.410
+Acest lucru pare să fie de lucru frumos și simplu, dar după cum puteți vedea aici nu suntem foarte eficiente.
+
+05:03.480 --> 05:13.400
+Avem bucle imbricate care ar trebui să declanșeze Oh, toate acestea sunt și pătrată.
+
+05:13.480 --> 05:19.870
+Și, deși tehnic, de fapt, am întotdeauna o buclă puțin mai eficientă din cauză că eu
+
+05:19.930 --> 05:24.650
+și eu nu eram îndoit de două ori pe întreaga gamă.
+
+05:25.590 --> 05:32.510
+În cele din urmă, atunci când eliminați constantele și simplificați lucrurile, va fi încă 0 și pătrate.
+
+05:32.550 --> 05:36.100
+Deci, cum putem rezolva aceasta folosind tabelele hash.
+
+05:37.460 --> 05:41.830
+Ei bine, să creăm o nouă funcție.
+
+05:43.180 --> 05:46.690
+Vom numi această funcție cu același nume de data asta.
+
+05:46.690 --> 05:54.330
+Numărul doi versiunea 2 va primi o intrare.
+
+05:54.540 --> 05:59.340
+Și să schimbăm cazul nostru de testare pentru a avea același lucru ca
+
+06:03.420 --> 06:06.800
+și noi, ceea ce am putut face aici.
+
+06:07.680 --> 06:15.440
+Să folosim o masă de tip hash sau un obiect pentru a face ceva interesant.
+
+06:15.600 --> 06:23.610
+Asta înseamnă a avea toate aceste lucruri pe măsură ce iterăm unul câte unul, astfel încât bucla prin toate elementele să le adăugăm la o tabelă
+
+06:23.610 --> 06:24.870
+de tip hash.
+
+06:25.170 --> 06:32.670
+Și în timp ce facem asta, putem verifica dacă proprietatea există deja sau cheia există deja.
+
+06:33.520 --> 06:38.650
+Adăugăm două la masa de hash, apoi cinci la tabela hash, apoi una la tabela hash.
+
+06:38.680 --> 06:47.210
+Și când încercăm să adăugăm două, putem declanșa un avertisment spunând că avem deja două ca cheia, astfel încât folosind logica aceasta
+
+06:47.210 --> 06:50.010
+să vedem cum putem implementa aceasta.
+
+06:50.050 --> 06:52.770
+Voi crea o hartă.
+
+06:52.840 --> 06:58.980
+Vom numi o hartă hash pentru moment, deoarece cheile vor fi unice.
+
+06:58.990 --> 07:13.290
+Nu va lăsa cheile duplicate și putem pur și simplu să facem buclele noastre.
+
+07:13.690 --> 07:27.090
+Și în această buclă tot ce vom face este să spunem dacă hartă și putem verifica în această hartă dacă este goală acum
+
+07:27.090 --> 07:36.630
+prima verificare aici Vreau să spun dacă proprietatea sau dacă cheia există deja Vreau doar să
+
+07:38.160 --> 07:39.500
+revin articol.
+
+07:40.420 --> 07:42.880
+Pentru că nu mai trebuie să mai lucrăm.
+
+07:43.300 --> 07:52.800
+De îndată ce găsim o cheie care există deja în tabelul nostru de hash, opriți tot looping-ul și reveniți.
+
+07:52.840 --> 07:55.330
+În acest caz vrem să ne întoarcem.
+
+07:55.450 --> 08:08.970
+Deci la index 0 1 2 3 se va întoarce și va spune 2 deoarece această cheie există deja.
+
+08:09.150 --> 08:17.500
+Deci, modul în care facem acest lucru în verificarea IF este de a spune pur și simplu dacă și pune, deoarece amintesc că acest lucru
+
+08:17.500 --> 08:21.240
+va fi egal cu 2 atunci când vom buclele prin ea.
+
+08:23.400 --> 08:33.320
+Dacă există, atunci reveniți altfel, îl vom adăuga pe harta noastră.
+
+08:33.410 --> 08:41.400
+Așa că intrarea va fi egală, iar valoarea poate fi orice.
+
+08:41.400 --> 08:44.480
+Vom lăsa doar la mine care este indexul.
+
+08:44.820 --> 08:54.930
+Deci 2 va fi egal 0 5 va fi egal 1 1 va trebui să lăsăm doar consola log aici pentru a vedea
+
+08:54.930 --> 08:56.620
+ce se întâmplă.
+
+08:56.790 --> 09:07.240
+Dar vreau să revin, de asemenea, nedefinit la sfârșit, în caz că nu se întâmplă nimic în cazul în care nu există nici o potrivire.
+
+09:07.250 --> 09:12.220
+Deci, la sfârșitul buclăului for, vom anula înregistrarea punctuală.
+
+09:12.310 --> 09:15.850
+Să vedem ce avem.
+
+09:15.970 --> 09:20.230
+Mă duc să alerg și am cinci.
+
+09:20.520 --> 09:23.700
+Și nu există niciun jurnal ce sa întâmplat aici.
+
+09:24.150 --> 09:32.610
+Ei bine, dacă consolezem jurnalul Ophir și aruncăm o privire la ceea ce ne
+
+09:36.360 --> 09:43.460
+dă și ne conducem, obțin undefined undefined nedefinit zero nedefinit.
+
+09:43.500 --> 09:44.910
+Ce inseamna asta.
+
+09:44.910 --> 09:55.670
+Bineînțeles că ne întoarcem aici și spunem că există și el.
+
+09:55.790 --> 09:57.940
+Are intrare zero.
+
+09:57.980 --> 10:01.530
+Care trebuie să existe ca o cheie.
+
+10:02.030 --> 10:08.090
+Deci, pur și simplu spui lui Napp că nu există.
+
+10:08.190 --> 10:16.200
+Și pentru că asta nu există, ajungem pe definiți și va merge la următoarea. Hei nu există cinci.
+
+10:16.260 --> 10:17.210
+Nu, nu.
+
+10:17.220 --> 10:19.320
+Hei nu există.
+
+10:19.320 --> 10:20.220
+Nu, nu.
+
+10:20.340 --> 10:22.320
+Și el există.
+
+10:22.350 --> 10:25.290
+Și de îndată ce verifică
+
+10:28.140 --> 10:32.770
+din nou la asta va spune ah deja am.
+
+10:32.860 --> 10:37.640
+Este la indexul de 0.
+
+10:37.690 --> 10:40.390
+Deci, asta funcționează.
+
+10:40.630 --> 10:53.190
+Cu toate acestea, pentru că atunci când acest lucru devine zero la modul în care funcționează javascript, a pus zero aici, dar într-o declarație FI zero este ceea ce numim
+
+10:53.580 --> 11:00.600
+falsie și Javascript și care are de a face cu tipul coarsen și Javascript ceva despre care
+
+11:00.600 --> 11:03.930
+mulți oameni se enervează cu limba .
+
+11:03.930 --> 11:12.780
+Deci, ceea ce ar trebui să facem este să ne asigurăm că specificăm că ne dorim ca acest lucru să nu fie egal cu cel definit.
+
+11:12.840 --> 11:18.690
+Deci, de îndată ce nu este egal nedefinit, vreau să returnați acest element.
+
+11:18.710 --> 11:34.900
+Acum, dacă executăm acest lucru, obținem două, ceea ce este minunat dacă vom consoliza harta și vom rula acest lucru în partea de jos aici.
+
+11:34.900 --> 11:43.950
+Așa că vedem iterația reală care se întâmplă vedem că ea adaugă la un index de 0 apoi la un index de 0
+
+11:43.950 --> 11:46.280
+și 5 indice de 1.
+
+11:46.590 --> 11:54.870
+Deci, așa și așa mai departe până când se oprește după a treia buclă pentru că se întâlnește din nou, va verifica și
+
+11:54.870 --> 11:57.480
+va spune că 0 2 există deja.
+
+11:57.480 --> 11:59.930
+Doar returnează-l.
+
+11:59.950 --> 12:01.320
+Cat de tare e asta.
+
+12:01.360 --> 12:12.000
+Tocmai am făcut totul cu o singură bucla care este mult mai rapidă decât prima noastră versiune folosind tabelele
+
+12:12.000 --> 12:13.110
+hash.
+
+12:13.110 --> 12:21.000
+Cât de cool este că pentru mine fac lucruri de genul ăsta și când văd puterea învățării despre tabelele big-O și hash-urilor
+
+12:21.000 --> 12:27.750
+am îmbunătățit abilitatea noastră de a codifica doar mă face cu adevărat încântată și sper că și tu
+
+12:27.750 --> 12:29.300
+te vei face emoționat.
+
+12:29.370 --> 12:33.960
+Am făcut această funcție să aibă o complexitate de timp de peste tot.
+
+12:34.050 --> 12:43.530
+Am îmbunătățit-o cu un dezavantaj, am mărit complexitatea spațiului de memorie de către O, atunci pentru că creăm un obiect nou în această
+
+12:43.530 --> 12:51.180
+funcție care trebuie să țină evidența tuturor elementelor din matrice și, în cel mai rău caz, când există
+
+12:51.180 --> 12:57.870
+nici o potrivire va trece prin întreaga listă de elemente a matricei și va ține
+
+12:57.870 --> 12:59.850
+această informație pe hartă.
+
+12:59.850 --> 13:07.140
+Deci, de asemenea, vom avea spre deosebire de versiunea în care nu am creat nici o complexitate
+
+13:07.140 --> 13:11.640
+spațială, tocmai am avut o complexitate spațială a tuturor unora.
+
+13:11.700 --> 13:16.910
+Acum avem un pic mai mult, dar la rândul nostru avem o funcție mai rapidă.
+
+13:18.200 --> 13:19.730
+Foarte foarte rece.
+
+13:19.880 --> 13:24.440
+Acum, pentru a termina, vreau să vă dau o ultimă provocare.
+
+13:24.950 --> 13:35.850
+Priviți la aceste două implementări ceea ce se întâmplă dacă avem ceva de genul asta.
+
+13:35.930 --> 13:41.210
+Care credeți că este primul caracter recurent?
+
+13:41.270 --> 13:55.670
+Dacă execut acest lucru, primesc cinci, deoarece cinci apar mai devreme de două două, din cauza modului în care am implementat a
+
+13:55.670 --> 13:57.170
+doua funcție.
+
+13:57.170 --> 14:09.290
+Cu toate acestea, dacă mă duc la prima versiune a funcției noastre și conduc acest lucru ajung la Hmm de ce este bine dacă mergem la prima
+
+14:09.290 --> 14:16.250
+parte a funcției noastre vedem că felul în care facem lucrurile este că mergem unul câte
+
+14:16.250 --> 14:18.840
+unul în un mod diferit.
+
+14:19.160 --> 14:25.760
+Spunem că luăm două și apoi comparăm două cu cinci, apoi cinci, apoi două și
+
+14:25.760 --> 14:32.910
+trei, apoi cinci, apoi una și două, apoi apoi cinci, cinci, cinci și două, și așa mai departe.
+
+14:32.930 --> 14:40.400
+Și din cauza modului în care am pus în aplicare acest lucru va detecta
+
+14:40.730 --> 14:53.360
+două și două deoarece bucla exterioară are un indice de 0 și are două ochi trece prin bucla înainte de a compara cinci cu cinci versus.
+
+14:53.470 --> 15:02.420
+Cea de-a doua versiune, cu o tabelă de tip hash, în care aveam toate aceste elemente și am putut să le comparăm.
+
+15:02.560 --> 15:10.060
+Odată ce le-am apucat pe toate și asta e un alt lucru puternic când te gândești la tabelele de tabele și
+
+15:10.390 --> 15:18.340
+tabelele de tip hash și cum poți compara lucrurile și în funcție de ceea ce intervievatorul ți-a cerut să ai un răspuns greșit.
+
+15:18.340 --> 15:26.050
+Poate că vor să utilizeze pentru a detecta cinci și cinci înainte de a detecta două și două astfel încât întrebarea
+
+15:26.050 --> 15:35.110
+mea bonus pentru tine, dacă aveți timp și un pic de o provocare este de a converti această funcție, dacă doriți într-ceva care se potrivește
+
+15:35.110 --> 15:37.090
+cu răspunsul la acest lucru.
+
+15:37.090 --> 15:41.050
+Asta înseamnă să detectezi cinci și cinci.
+
+15:41.240 --> 15:43.930
+Cum ai face asta?
+
+15:44.100 --> 15:47.550
+Probabil că va trebui să faci ceva interesant aici.
+
+15:48.890 --> 15:50.980
+Deci, noroc cu asta.
+
+15:50.990 --> 15:56.360
+Discutați cu ceilalți despre discordie în comunitatea noastră și vedeți dacă vă puteți da seama și voi posta
+
+15:56.360 --> 15:58.440
+câteva soluții creative la această problemă.
+
+15:58.630 --> 16:05.280
+În timp ce elevii îi trimit să vadă modul în care alte persoane au implementat acest lucru.
+
+16:05.310 --> 16:08.300
+Dar pentru moment cred că merităm o pauză.
+
+16:08.310 --> 16:09.590
+Voi vedea în următorul.
+
+16:09.830 --> 16:10.250
+Pa! Pa.

@@ -1,0 +1,133 @@
+WEBVTT
+
+00:01.860 --> 00:05.440
+When shall we use recursion.
+
+00:05.660 --> 00:07.600
+This is the role that I like to use.
+
+00:08.530 --> 00:14.800
+When it gets to complicated problems like traversing or searching through trees or graphs something
+
+00:14.800 --> 00:21.070
+that we're going to talk about with graph for search and depth for search recursion is really really
+
+00:21.070 --> 00:27.400
+useful and better than iterative approaches and we're sorting through items.
+
+00:27.430 --> 00:35.890
+There's also cases that will see that recursion is preferred and when it comes to recursion these are
+
+00:35.890 --> 00:43.190
+the rules that I like to follow every time we're using a tree or converting something into a tree.
+
+00:43.190 --> 00:51.350
+Consider recursion and there's three key things in an interview question that might trigger a recursive
+
+00:51.920 --> 01:02.550
+solution one is that a problem can be divided into a number of subproblems that are smaller instances
+
+01:02.790 --> 01:09.430
+of that same problem such as the exercises we've done with Fibonacci numbers or factorial.
+
+01:09.450 --> 01:14.640
+We can break those down into little trees that break down to smaller and smaller pieces.
+
+01:14.670 --> 01:19.030
+Those are inherently recursive problems.
+
+01:19.030 --> 01:25.420
+Another factor is that each of these instances of problem is in identical in nature.
+
+01:25.570 --> 01:30.160
+That is the calculations that we need to do are pretty much the same.
+
+01:30.190 --> 01:35.550
+They may be smaller values but the actual calculations underneath it is all the same.
+
+01:35.550 --> 01:38.040
+Over and over and over.
+
+01:38.220 --> 01:45.660
+And then finally the third point is that those solutions if you solve the smaller problems those leaf
+
+01:45.690 --> 01:49.190
+nodes of that tree and you combine them.
+
+01:49.290 --> 01:54.800
+That solves the problem at hand then that is a recursive solution that you can use.
+
+01:55.170 --> 01:59.930
+And you'll see a lot of divide and conquer using recursion.
+
+02:00.060 --> 02:06.280
+Remember divide and conquer which we mentioned when we got to the tree data structure lesson's it's
+
+02:06.280 --> 02:12.030
+kind of like looking through a phone book when you're looking for Bell in the phone book.
+
+02:12.370 --> 02:19.290
+You're not going to start from a and simply go one page at a time from left to right.
+
+02:19.330 --> 02:25.630
+No you usually split the phonebook in the middle or try to go to the B section of the phone book and
+
+02:25.630 --> 02:33.780
+start dividing up the problem page by page until you get closer and closer this divide and conquer type
+
+02:33.780 --> 02:37.420
+of questions usually have recursion in them.
+
+02:37.800 --> 02:46.110
+And as we know the one thing they're recursions can do that looping can't is that they can make tasks
+
+02:46.200 --> 02:50.540
+super super easy such as these types of problems.
+
+02:50.700 --> 02:59.450
+As a matter of fact I encourage you to write your own traverse function that we use in our tree data
+
+02:59.450 --> 03:00.080
+structure.
+
+03:00.080 --> 03:05.600
+This is something that we're going to get to when we get to searching and the algorithm section but
+
+03:05.600 --> 03:06.890
+if you want to challenge yourself.
+
+03:06.890 --> 03:14.470
+See if he can write a traverse function like I did over here using recursion and then also tried to
+
+03:14.650 --> 03:16.590
+write code with loops.
+
+03:16.690 --> 03:21.310
+You'll see that with loops things like tree traversal is a headache.
+
+03:21.310 --> 03:24.720
+I can even do it on the top of my head with recursion.
+
+03:24.730 --> 03:32.650
+It's pretty straightforward with loops you usually have to maintain some sort of stack to keep track
+
+03:32.650 --> 03:33.290
+of things.
+
+03:33.550 --> 03:35.660
+And it really adds a lot of complexity.
+
+03:37.300 --> 03:44.470
+So use the rules below to notice when a recursive problem presents itself during an interview.
+
+03:44.920 --> 03:51.130
+I'll leave a few more exercises for you after this video but as we'll see we'll come back to this topic
+
+03:51.160 --> 03:57.320
+when we get into other algorithms sections and things will start to get clearer and clearer.
+
+03:57.610 --> 03:58.990
+I'll see in the next one.
+
+03:59.290 --> 03:59.480
+Bob.

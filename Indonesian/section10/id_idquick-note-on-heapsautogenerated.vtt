@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.060 --> 00:02.080
+Selamat datang kembali.
+
+00:02.080 --> 00:04.480
+Saya ingin menambahkan gotcha cepat.
+
+00:04.540 --> 00:13.030
+Ketika datang ke tumpukan adalah ketika Anda mendengar tumpukan memori itu tidak sama dengan struktur data domba Anda mungkin pernah mendengar
+
+00:13.660 --> 00:19.090
+tentang tumpukan memori dan sesuatu seperti mesin runtime javascript di mana kita memiliki tumpukan
+
+00:19.090 --> 00:20.300
+dan tumpukan.
+
+00:20.340 --> 00:24.190
+Ada dua lokasi di mana kami dapat menyimpan memori.
+
+00:24.190 --> 00:30.730
+Sekarang kapal ini dapat Anda anggap sebagai penyimpanan gratis adalah wilayah di memori kami tempat kami dapat menyimpan
+
+00:30.730 --> 00:31.560
+data sewenang-wenang.
+
+00:31.900 --> 00:35.610
+Bahasa seperti C juga memiliki tumpukan ini.
+
+00:35.710 --> 00:38.600
+Sekarang penamaannya hanya kebetulan.
+
+00:38.660 --> 00:45.060
+Dan dia tidak memiliki hubungan nyata dengan struktur data yang bernama heap.
+
+00:45.130 --> 00:45.980
+Ingatlah itu.
+
+00:46.030 --> 00:48.490
+Dia hanyalah tumpukan memori.
+
+00:48.490 --> 00:55.780
+Jika Anda berbicara tentang runtime bahasa misalnya versus struktur data tumpukan yang sedang kita bicarakan sekarang
+
+00:55.780 --> 01:01.030
+saya ingin menjelaskannya untuk Anda karena ketika saya belajar tentang tumpukan.
+
+01:01.030 --> 01:05.730
+Untuk beberapa alasan saya selalu berpikir mereka adalah hal yang sama tetapi mereka tidak hanya membuangnya ke sana.
+
+01:05.770 --> 01:07.230
+Saya akan melihatnya di video berikutnya.
+
+01:07.240 --> 01:07.740
+Sampai jumpa.

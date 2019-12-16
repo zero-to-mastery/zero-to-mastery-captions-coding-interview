@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.450 --> 00:02.500
+Welcome back.
+
+00:02.800 --> 00:06.930
+We've learned about singly and doubly linked lists.
+
+00:06.990 --> 00:10.620
+So let's talk about when you should use one over the other.
+
+00:10.620 --> 00:13.620
+Let's start with the singly linked list.
+
+00:14.260 --> 00:21.070
+The pro of a singly linked list is that it's a fairly simple implementation especially compared to the
+
+00:21.070 --> 00:22.590
+doubly one.
+
+00:22.840 --> 00:26.350
+It requires less memory as we can see here less Block.
+
+00:26.860 --> 00:34.030
+And because there's less memory when we do things like delete and insert because there is technically
+
+00:34.030 --> 00:37.300
+less operation we don't have to move around the previous property.
+
+00:37.300 --> 00:39.420
+It's a little bit faster.
+
+00:39.610 --> 00:47.950
+Now the downside with a singly linked list is that it cannot be iterated in reverse or traverse from
+
+00:48.190 --> 00:54.610
+back to front if we ever lose the reference to this Dot had node of the list.
+
+00:54.610 --> 01:02.080
+The list can actually be lost in memory forever so singly list is appropriate to use when you have less
+
+01:02.080 --> 01:04.030
+memory or memory is really expensive.
+
+01:04.030 --> 01:10.780
+You want to be careful of how much you use and your main goal is that you want to do fast insertion
+
+01:10.810 --> 01:12.070
+and deletion.
+
+01:12.280 --> 01:19.060
+And you don't really have that much searching especially when you have insertion at the beginning of
+
+01:19.060 --> 01:19.560
+a list.
+
+01:20.550 --> 01:21.710
+A doubly linked list.
+
+01:21.760 --> 01:29.490
+Well the good side of is that it can be iterated or traversed both from the front or from the back.
+
+01:29.490 --> 01:35.910
+Another beauty is that if you need to delete a previous node you don't need to traverse from the head
+
+01:35.910 --> 01:41.650
+node and find what the previous notice which a singly list linked list has no concept of.
+
+01:42.060 --> 01:45.620
+You can do that fairly easily with a doubly linked list.
+
+01:46.530 --> 01:54.270
+Now the downside is that it is fairly complex as we saw to implement and requires more memory and storage
+
+01:54.630 --> 02:01.050
+because of this extra property and there are some actual operations that we need to perform to make
+
+02:01.050 --> 02:06.640
+sure that we when we do insert and delete that the previous property is updated as well.
+
+02:06.900 --> 02:12.130
+So double linked lists are really good when you don't have that much limitation on memory.
+
+02:12.850 --> 02:19.510
+And when you want good operation for searching for elements such as searching backwards instead of just
+
+02:19.540 --> 02:25.760
+Fort's most of the time in interview situations you're going to see singly linked list.
+
+02:25.830 --> 02:32.490
+You may be asked a theoretical or broad question about the difference between singly and doubly linked
+
+02:32.490 --> 02:32.870
+list.
+
+02:33.120 --> 02:36.390
+But most of the time this is where you're going to see.
+
+02:36.490 --> 02:37.030
+All right.
+
+02:37.510 --> 02:39.200
+I'll see you in the next video.
+
+02:39.220 --> 02:39.490
+Buh-Bye.

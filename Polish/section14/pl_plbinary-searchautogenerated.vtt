@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.430 --> 00:09.980
+Spacer Wracam do ostatniego filmu, zadajemy pytanie, czy istnieje lepszy sposób na znalezienie numeru na posortowanej liście i
+
+00:10.340 --> 00:15.340
+właśnie dla tego przykładu dodajmy dodatkowy numer do naszej listy.
+
+00:18.620 --> 00:19.640
+Tak jest lepiej.
+
+00:19.730 --> 00:26.340
+Powiedzmy, że szukałem 34 i wiedziałem, że na mojej liście powiedzmy, że tablica została posortowana.
+
+00:26.360 --> 00:33.350
+Co to jest lepszy sposób na obejście tego, zamiast sprawdzać każdy pojedynczy element jeden po drugim od lewej do prawej.
+
+00:34.230 --> 00:41.290
+Możemy użyć czegoś, co nazywa się wyszukiwaniem binarnym, ponieważ wiemy, że lista jest posortowana.
+
+00:41.460 --> 00:45.870
+Możemy odrzucić połowę przedmiotów zamiast jednego na raz.
+
+00:46.750 --> 00:52.490
+Pozwól mi pokazać, że możemy zacząć na środku listy i powiedzieć, że jest 9.
+
+00:52.630 --> 00:59.520
+Wyżej lub poniżej 34 ściany 34 jest wyższa niż 9, więc odrzućmy wszystko po lewej stronie.
+
+01:01.040 --> 01:03.870
+A potem znowu idziemy do środkowego indeksu.
+
+01:03.980 --> 01:06.350
+W tym przypadku nie ma technicznie medium.
+
+01:06.350 --> 01:08.030
+Wybierzmy 12.
+
+01:08.130 --> 01:13.430
+Idź na lewo od mediów jest 12 wyżej niż 34.
+
+01:13.530 --> 01:17.960
+Chociaż jest zdecydowanie niższy. Usuńmy wszystko po lewej stronie.
+
+01:19.120 --> 01:27.100
+A potem znajdźmy środkowy indeks i, och, właśnie znaleźliśmy 34, zamiast przechodzić przez przedmiot jeden po drugim.
+
+01:27.190 --> 01:29.900
+Zrobiliśmy to w trzech operacjach.
+
+01:30.220 --> 01:32.020
+A to wygląda znajomo.
+
+01:32.050 --> 01:32.560
+Dobrze.
+
+01:34.180 --> 01:41.700
+I jest to coś, o czym dowiedzieliśmy się, gdy mówiliśmy o drzewach z drzewa binarnego,
+
+01:42.060 --> 01:51.120
+ponieważ jeśli nasze dane są posortowane, możemy zrobić to lepiej niż czas O piekarnika lub czas liniowy, ponieważ
+
+01:51.120 --> 02:01.560
+ta posortowana lista może przypominać o czymś, co zasadniczo tworzy drzewo binarne, w przeciwieństwie do wyszukiwanie liniowe możemy odrzucić połowę przedmiotów
+
+02:01.560 --> 02:08.640
+zamiast jednego naraz i możesz dobrze pomyśleć, że to niedorzeczny Andre, ponieważ abyśmy mogli
+
+02:08.910 --> 02:14.880
+nawet wyszukiwać, najpierw musimy posortować listę, a to wymaga mocy obliczeniowej.
+
+02:14.910 --> 02:15.640
+Dobrze.
+
+02:15.870 --> 02:25.290
+Jednak przechowywanie danych w strukturze danych, takich jak drzewo, zamiast liniowej struktury danych, takiej jak tablica, jest w
+
+02:25.290 --> 02:27.450
+rzeczywistości bardziej wydajne.
+
+02:27.540 --> 02:34.010
+I to jest coś, o czym już rozmawialiśmy z strukturami danych drzew, gdy wstawiamy elementy, jeśli
+
+02:34.010 --> 02:35.150
+je sortujemy.
+
+02:35.150 --> 02:41.030
+Daje nam to lepszą wydajność, a następnie dodaje ją do posortowanej listy, którą musimy przeszukać
+
+02:41.030 --> 02:48.230
+przez jeden dzień, a także dlatego, że na drzewie, gdzie podejmujemy decyzję, powinniśmy iść w lewo lub w prawo.
+
+02:48.340 --> 02:54.400
+Powinniśmy iść w lewo lub w prawo i odrzucamy połowę przedmiotów na każdym kroku,
+
+02:54.400 --> 03:02.210
+co powinno wywołać coś w waszym mózgu, mówiąc: to jest podejście polegające na dzieleniu i podrywaniu, które daje nam dziennik
+
+03:02.240 --> 03:09.370
+i czas, ponieważ log wynika z faktu, że jesteśmy teraz odwiedzając wszystkie węzły, każdy krok w dół drzewa
+
+03:09.370 --> 03:10.260
+eliminujemy węzły.
+
+03:10.720 --> 03:17.780
+Tak więc w przypadku wyszukiwania binarnego dzielisz listę na posortowany przedmiot i decydujesz, czy przedmiot, którego szukasz,
+
+03:17.800 --> 03:21.580
+znajduje się po lewej, czy po prawej stronie listy.
+
+03:22.440 --> 03:26.180
+A ponieważ lista jest posortowana, możesz bardzo łatwo podjąć tę decyzję.
+
+03:26.220 --> 03:27.750
+Ale porównywanie rzeczy.
+
+03:27.960 --> 03:32.410
+I po prostu kontynuujemy, dopóki nie znajdziemy tego, czego chcemy w tym przypadku.
+
+03:32.490 --> 03:40.120
+Numer 34 podejmujemy decyzje 1 2 3.
+
+03:40.370 --> 03:48.260
+Ma to sens, ponieważ jeśli jesteś nauczycielem, który przegląda stos esejów i dokumentów przez studentów, jeśli ich stos
+
+03:48.950 --> 03:55.070
+papieru nie jest zorganizowany, musisz przejść przez to jeden po drugim, aby znaleźć.
+
+03:55.100 --> 03:56.380
+Powiedzmy, Timmy.
+
+03:56.750 --> 04:04.670
+Ale jeśli stos papieru jest posortowany alfabetycznie, to możesz mnie znaleźć, dzieląc papiery po połowie za każdym razem,
+
+04:04.700 --> 04:06.660
+aż dojdziesz do temi.
+
+04:06.800 --> 04:09.380
+Podobnie jak książka telefoniczna.
+
+04:09.540 --> 04:18.320
+Zaczynamy od elementu, a kiedy zejdziemy, dzielimy się przez dwa pozostałe elementy.
+
+04:18.420 --> 04:24.300
+Po ustąpieniu mamy i dzielimy się pozostałymi czterema żywiołami, a my dalej
+
+04:24.300 --> 04:27.820
+będziemy szli dalej, aż znajdziemy nasz żywioł.
+
+04:27.830 --> 04:34.070
+W dziale sortowania dowiadujemy się, że sortowanie scalone i quicksort robią to samo.
+
+04:34.290 --> 04:41.160
+Nauczyliśmy się również, jak przeszukiwać to drzewo w naszej stawce struktury danych za pomocą wyszukiwania
+
+04:41.170 --> 04:42.000
+liniowego.
+
+04:42.000 --> 04:46.710
+Mieliśmy cztery pętle z drzewem binarnym, takim jak ten.
+
+04:46.770 --> 04:55.110
+Cóż, mieliśmy naszą metodę blokowania, w której sprawdzaliśmy lewy węzeł i prawy węzeł i podzieliliśmy listę używając pętli
+
+04:55.470 --> 04:58.720
+while za każdym razem o połowę.
+
+04:58.830 --> 05:03.480
+Dzięki temu wiemy, jak wykonywać wyszukiwanie liniowe i wyszukiwanie binarne.
+
+05:03.480 --> 05:11.400
+Wiemy, że wyszukiwanie binarne będzie logowaniem i złożonością czasu w porównaniu z wyszukiwaniem liniowym, które
+
+05:11.490 --> 05:20.780
+jest równe zeru i, ale jakie są te dwie wartości aż do tego punktu, o którym mówiliśmy, kiedy
+
+05:20.780 --> 05:25.100
+szukamy przedmiotu, w którym wiemy, że 34 istnieje.
+
+05:25.100 --> 05:33.080
+Nasza lista jest posortowana w drzewie wyszukiwania binarnego i wiemy, gdzie iść w lewo lub w prawo, ale
+
+05:33.080 --> 05:38.010
+czasami musimy zrobić coś, co nazywa się przejazdami i środkami transportu.
+
+05:38.330 --> 05:46.040
+Wracając z no do węzła znajdując konkretną rzecz lub upewniając się, że dotykasz każdego
+
+05:46.040 --> 05:53.270
+węzła, być może nie chcemy dodawać atrybutu koloru do każdej nuty tutaj.
+
+05:53.380 --> 05:57.330
+Być może chcemy zaktualizować te liczby i pomnożyć je przez dwa.
+
+05:57.370 --> 06:01.420
+W takim przypadku musimy odwiedzić każdą pojedynczą nutę.
+
+06:01.420 --> 06:02.980
+Jak to zrobimy.
+
+06:03.100 --> 06:04.470
+Dowiedzmy się w następnym filmie.

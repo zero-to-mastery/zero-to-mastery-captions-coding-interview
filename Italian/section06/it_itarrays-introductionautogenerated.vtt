@@ -1,0 +1,427 @@
+WEBVTT
+
+00:01.050 --> 00:09.210
+Woohoo è finalmente giunto il momento di imparare la nostra primissima struttura dati e quella che
+
+00:09.210 --> 00:20.070
+molto probabilmente ti è familiare con gli array di array che a volte vengono chiamati oggetti organizzati da Liszt in modo sequenziale.
+
+00:20.070 --> 00:23.280
+Ciò significa uno dopo l'altro in memoria.
+
+00:23.280 --> 00:33.030
+Un po 'come abbiamo qui abbiamo una sorta di dati a indice 0 diciamo succo e poi subito dopo
+
+00:33.390 --> 00:35.670
+l'indice 1 abbiamo qualcos'altro.
+
+00:35.670 --> 00:43.290
+Forse Apple forse questa è una lista della spesa nella memoria dei nostri computer sarà una dopo l'altra perché ricorda che
+
+00:43.290 --> 00:47.520
+la nostra RAM è molto più grande di solo sette slot.
+
+00:48.360 --> 00:53.710
+E gli array sono probabilmente le strutture dati più semplici e più usate.
+
+00:53.800 --> 00:59.440
+E fortunatamente per noi iniziamo con questo perché gli array hanno il minor numero di regole
+
+00:59.560 --> 01:04.240
+e perché sono memorizzati in una memoria contigua che è in ordine.
+
+01:04.240 --> 01:07.720
+Hanno anche l'impronta più piccola di qualsiasi struttura dati.
+
+01:08.710 --> 01:15.560
+Quindi, se tutto ciò di cui hai bisogno è di memorizzare alcuni dati e iterare su di esso, è necessario procedere passo dopo passo.
+
+01:15.790 --> 01:23.630
+Gli array sono la scelta migliore soprattutto se si conoscono gli indici che si trovano qui a sinistra degli elementi che
+
+01:23.630 --> 01:30.110
+si stanno archiviando e solo come una rapida occhiata e lo esamineremo più dettagliatamente nei video successivi.
+
+01:30.990 --> 01:37.190
+Ma guarda su o accedi cancellando la nostra Costantina da uno.
+
+01:37.200 --> 01:39.420
+È super super veloce.
+
+01:39.420 --> 01:44.090
+Anche altre azioni o metodi che andremo a fare sono semplicemente veloci.
+
+01:44.100 --> 01:49.830
+Ma poi inserimenti ed eliminazioni sono O di N o tempo lineare.
+
+01:49.950 --> 01:56.510
+Ma per dimostrare gli array, usiamo il codice per mostrarti un esempio.
+
+01:56.770 --> 01:58.900
+Abbiamo il nostro piccolo parco giochi qui.
+
+01:59.230 --> 02:01.710
+E ancora puoi usare qualsiasi lingua tu preferisca.
+
+02:01.750 --> 02:05.540
+Lo dimostrerò solo in javascript.
+
+02:05.590 --> 02:10.140
+Possiamo creare un array semplice.
+
+02:10.230 --> 02:13.560
+Chiamiamole stringhe e questo array.
+
+02:13.560 --> 02:24.220
+Di nuovo usando la notazione delle parentesi quadre avremo un B quindi C e D.
+
+02:25.100 --> 02:29.860
+E abbiamo appena creato un array in javascript.
+
+02:29.900 --> 02:36.080
+Ora osservando questo e sulla base di ciò che abbiamo imparato finora possiamo fare un paio di ipotesi.
+
+02:36.760 --> 02:42.900
+Ad esempio per memorizzare la lettera una lettera B lettera C lettera D.
+
+02:42.910 --> 02:47.230
+Quello è uno due tre quattro quattro elementi.
+
+02:47.230 --> 03:00.030
+Se siamo su un sistema a 32 bit, abbiamo 1 2 3 4 scaffali per memorizzare la lettera A in zeri e uno.
+
+03:00.050 --> 03:09.850
+Bene, se questo è il caso, ci siamo spostati di quattro volte per così quattro elementi e ogni oggetto occupava quattro scaffali nella
+
+03:10.030 --> 03:11.010
+nostra memoria.
+
+03:11.050 --> 03:24.000
+Ciò significa che stiamo utilizzando 20 o 16 byte di spazio di archiviazione se ricordiamo nel nostro piccolo esempio che con
+
+03:24.480 --> 03:34.490
+un sistema a 32 bit abbiamo 1 2 3 4 ripiani per memorizzare nuovamente questo numero.
+
+03:34.670 --> 03:40.670
+Questa è una versione semplificata di guardarlo ma spero che tu veda cosa stiamo facendo
+
+03:40.670 --> 03:48.550
+qui stiamo semplicemente memorizzando un b c d in ordine sequenziale nella nostra ram la nostra memoria ad accesso casuale.
+
+03:48.770 --> 03:53.260
+Quindi il computer ora sa dove trovare questi oggetti.
+
+03:53.280 --> 04:05.570
+Quindi, quando faccio le stringhe, dico al computer che va nell'arena chiamata forza, dovresti sapere dov'è.
+
+04:05.570 --> 04:12.400
+Perché sotto il cappuccio lo hai conservato per me e prendi il terzo oggetto.
+
+04:12.400 --> 04:16.570
+Ricorda che gli indici sono 0 1 2.
+
+04:16.670 --> 04:23.580
+Quindi prendi il terzo oggetto da dove viene archiviato l'array nella memoria.
+
+04:23.690 --> 04:32.360
+E se lo eseguo, vedrò che il computer mi prenderà queste informazioni perché qui è memorizzato per
+
+04:32.360 --> 04:33.360
+me.
+
+04:33.400 --> 04:36.170
+E qui lo sta afferrando per me.
+
+04:36.190 --> 04:41.520
+Va bene, facciamo altre operazioni con gli array e vediamo quali sono i pro ei contro.
+
+04:42.830 --> 04:47.180
+Bene, in javascript abbiamo alcuni metodi che possiamo usare con la gara.
+
+04:48.150 --> 04:54.510
+Uno è polacco e ci consente semplicemente di aggiungere qualcosa alla fine dell'array.
+
+04:54.810 --> 05:01.580
+Quindi le stringhe puntano il tasto.
+
+05:01.830 --> 05:09.830
+E se lo rimuoviamo e disponiamo di un registro Daut log di forza.
+
+05:09.950 --> 05:21.100
+Se lo eseguo, ottengo un B C D E questa operazione di stringa push perché la aggiunge appena alla fine dell'array.
+
+05:22.860 --> 05:25.780
+È un'operazione 0 1.
+
+05:28.000 --> 05:31.310
+Tutto quello che stiamo facendo è aggiungere qualsiasi cosa vogliamo alla fine.
+
+05:31.330 --> 05:33.310
+Non stiamo scorrendo attraverso nulla.
+
+05:33.310 --> 05:37.860
+Quindi spero che abbia senso capire perché sarebbe molto conveniente.
+
+05:38.260 --> 05:39.870
+Qual è un altro metodo che otteniamo.
+
+05:40.270 --> 05:53.930
+Possiamo anche usare pop e pop è l'opposto di push pop significherà semplicemente rimuovere l'ultimo elemento dalle
+
+05:53.930 --> 05:55.550
+stringhe dell'array.
+
+05:55.550 --> 05:58.820
+Se faccio clic su Esegui qui, si vede che l'e-mail è stata spostata.
+
+05:59.030 --> 06:12.410
+Se faccio degli spint di nuovo pop e colpisco Ron, vediamo che questa volta abbiamo aggiunto Lui, quindi abbiamo rimosso il.
+
+06:12.640 --> 06:16.930
+E poi alla fine è stato lasciato con una B e una C.
+
+06:17.080 --> 06:22.190
+Cosa pensi che sia la complessità temporale di questa operazione.
+
+06:22.390 --> 06:26.770
+Ancora una volta è 0 0 1 perché non passiamo attraverso nulla.
+
+06:26.770 --> 06:29.440
+Stiamo solo rimuovendo l'ultimo oggetto che ricordo.
+
+06:29.440 --> 06:34.110
+Il nostro computer sa dove è stato archiviato l'ultimo elemento.
+
+06:35.140 --> 06:40.130
+Diciamo semplicemente vai all'indice di diciamo 7.
+
+06:40.130 --> 06:42.810
+L'ultimo elemento e rimuovere il pane.
+
+06:44.920 --> 06:46.920
+Facciamo qualcosa di interessante qui ora.
+
+06:48.020 --> 06:52.200
+Cosa succede se vogliamo aggiungere un elemento all'inizio dell'array.
+
+06:52.340 --> 07:03.990
+Forse qui vogliamo aggiungere la lettera x Bene, abbiamo qualcosa chiamato shift in javascript e, a seconda della lingua,
+
+07:03.990 --> 07:07.040
+avrai qualcosa di diverso.
+
+07:07.170 --> 07:12.540
+Ma l'idea qui è che facciamo semplicemente stringhe punto-a-punto.
+
+07:12.760 --> 07:20.820
+E dal modo in cui vedi qui come REPL che I-T ti dà effettivamente i parametri che puoi inserire.
+
+07:20.950 --> 07:23.310
+In questo caso dice solo quali oggetti.
+
+07:23.350 --> 07:24.140
+Che è una stringa
+
+07:24.140 --> 07:25.420
+Dovrei entrare
+
+07:25.420 --> 07:31.690
+Nel nostro caso dirò che voglio spostare x, il che significa semplicemente aggiungere X all'inizio dell'array.
+
+07:32.110 --> 07:38.500
+Se clicco eseguo qui vediamo che x è stato aggiunto all'inizio del nostro rary.
+
+07:38.500 --> 07:41.970
+Cosa pensi che sia la complessità temporale di questa operazione.
+
+07:42.190 --> 07:49.780
+E dal modo in cui passiamo attraverso le strutture di dati e perché sappiamo che la notazione di Big-O ci sta benissimo che siamo in
+
+07:49.780 --> 07:56.020
+grado di pensare al codice al di là solo oh sto solo facendo questo possiamo pensare profondamente a ciò che
+
+07:56.020 --> 07:57.800
+sta accadendo sotto il cappuccio.
+
+07:58.150 --> 08:02.090
+Perché questa operazione potrebbe essere più lunga di questa operazione.
+
+08:02.110 --> 08:08.210
+Lo trovo affascinante e quando ho capito per la prima volta questo punto mi ha davvero reso un ingegnere migliore e spero che
+
+08:08.220 --> 08:12.790
+tu stia iniziando ad avere questo aha anche per te, specialmente se questa è la tua prima
+
+08:12.790 --> 08:14.490
+volta con le strutture dati.
+
+08:14.650 --> 08:18.070
+Ora in turno, cosa stiamo facendo qui.
+
+08:18.070 --> 08:27.840
+Beh, ricorda che le stringhe sono essenzialmente memorizzate se ho spostato questo in una nuova riga, il computer sa
+
+08:27.840 --> 08:30.500
+che questo è uno zero.
+
+08:30.550 --> 08:35.790
+Questo è quell'indice di 1.
+
+08:35.790 --> 08:46.910
+Questo è un indice di due e questo è a un indice di tre quando aggiungo X con il turno
+
+08:47.000 --> 08:51.400
+sto improvvisamente aggiungendo X nel nostro array.
+
+08:51.600 --> 09:00.810
+Ma ora dobbiamo spostare questi numeri perché gli indici sono ancora così.
+
+09:01.050 --> 09:15.990
+Ma questa volta dobbiamo dire che OK 0 ora è 8 x A è ora 1 B è ora 2 e C è quell'indice
+
+09:16.000 --> 09:19.850
+3 e D è quell'indice per.
+
+09:20.090 --> 09:27.380
+E solo facendo ciò, avresti potuto vedere qualcosa che abbiamo appena ripetuto in loop di tutto e
+
+09:27.470 --> 09:37.860
+riassegnato gli indici e ho fatto uno due tre quattro cinque o cinque operazioni per riallineare gli indici e questo dovrebbe darti un suggerimento
+
+09:38.520 --> 09:45.150
+che è questa operazione è 0 di e in base alla dimensione dell'array è quanto
+
+09:46.230 --> 09:50.890
+tempo ci vorrà per fare quell'operazione che stiamo eseguendo.
+
+09:50.970 --> 09:59.670
+Quindi, subito sappiamo che con il rilancio forse non è la migliore struttura dati per aggiungere
+
+09:59.670 --> 10:01.630
+elementi all'inizio dell'array.
+
+10:01.650 --> 10:08.530
+Che cosa succede se volessimo aggiungere qualcosa nel mezzo della matrice in modo da poter utilizzare il metodo splice qui.
+
+10:08.580 --> 10:18.610
+Lasciami scorrere verso il basso un po 'e con la giuntura posso dire stringhe dot splice e di nuovo ottengo un accenno a
+
+10:18.610 --> 10:20.260
+cosa posso fare.
+
+10:20.270 --> 10:22.330
+Il primo è il numero iniziale.
+
+10:22.340 --> 10:25.130
+Quindi voglio iniziare un indice di 2.
+
+10:25.540 --> 10:28.050
+Ricordo che abbiamo questo array qui.
+
+10:28.100 --> 10:29.690
+X A B C.
+
+10:29.690 --> 10:37.890
+Quindi iniziamo da B e il secondo parametro è il conteggio delle eliminazioni.
+
+10:38.070 --> 10:42.810
+Cosa vogliamo eliminare o quante cose da questo indice vogliamo eliminare.
+
+10:42.930 --> 10:45.560
+Nel nostro caso non vogliamo cancellare nulla che vogliamo aggiungere.
+
+10:45.690 --> 10:46.930
+Quindi dirò zero.
+
+10:47.070 --> 10:49.200
+E poi gli articoli che vogliamo aggiungere.
+
+10:49.200 --> 10:57.990
+Quindi aggiungiamo una stringa che dice alieno e rimuoviamo questa X dal nostro array originale.
+
+10:59.770 --> 11:00.340
+Così va meglio.
+
+11:00.370 --> 11:03.040
+Colpiamo Brian e eccoci.
+
+11:03.070 --> 11:17.020
+Abbiamo X perché abbiamo spostato un alieno b c quindi la giuntura ci ha detto di andare all'indice di 2 0 1 2 dove inizialmente era
+
+11:17.020 --> 11:23.490
+B e aggiungere alieno invece di B e spostare semplicemente le cose.
+
+11:23.890 --> 11:35.300
+Quindi quello che abbiamo fatto qui è se torniamo al nostro esempio, abbiamo la X nel nostro array.
+
+11:36.860 --> 11:48.940
+Abbiamo spostato questi indici di X e sono ancora gli stessi, ma abbiamo spostato B e abbiamo detto e qui voglio
+
+11:49.030 --> 11:51.400
+aggiungere Ilian e
+
+11:54.230 --> 11:59.060
+ora dovevamo esaminare tutto e dire alieno 3:58.
+
+11:59.190 --> 12:05.610
+Vogliamo tre fore quattro per C e cinque per D.
+
+12:05.640 --> 12:07.310
+Allora, qual è il nostro grande o qui.
+
+12:07.410 --> 12:13.310
+E non abbiamo bisogno di questo, va bene il nostro grosso O in questo caso lo abbiamo fatto.
+
+12:13.320 --> 12:19.960
+Metà delle operazioni, perché abbiamo cambiato metà dell'array, effettuiamo il ciclo attraverso la metà dell'array.
+
+12:20.040 --> 12:24.890
+Quindi sarebbe 0 di e diviso per due.
+
+12:25.020 --> 12:33.250
+Ma ricorda le nostre regole quando si tratta di grandi O rimuoviamo le costanti e semplifichiamo solo per chiamare allora.
+
+12:33.390 --> 12:36.870
+Nel peggiore dei casi sarà un'operazione.
+
+12:37.730 --> 12:39.960
+Va bene, lascerò questo per te.
+
+12:39.960 --> 12:48.910
+Può giocare e provare diversi metodi durante una gara, ma spero che tu capisca come funzionano e come
+
+12:49.140 --> 12:57.830
+ci sono alcune cose buone che possiamo fare come accedere all'array che è uno di loro.
+
+12:57.950 --> 13:05.960
+Dato che è molto veloce e strisciante, sappiamo esattamente dove si trova nella memoria e possiamo fare push e pop.
+
+13:06.050 --> 13:12.860
+Ma quando si tratta di spostare o di giuntare o addirittura di eliminare perché con lo splice possiamo persino fare delle eliminazioni.
+
+13:12.860 --> 13:14.620
+Sarà il nostro evento.
+
+13:15.050 --> 13:23.310
+E se torniamo al nostro grafico, ora abbiamo una migliore comprensione del perché gli array lookup sono estremamente
+
+13:23.310 --> 13:23.880
+veloci.
+
+13:23.880 --> 13:25.070
+Sappiamo dove sono.
+
+13:25.140 --> 13:32.610
+Sappiamo perché il push pad alla fine dell'array è estremamente veloce, ma perché inserire e cancellare potrebbe non essere il
+
+13:32.610 --> 13:36.850
+migliore o il più veloce quando si tratta di gareggiare.
+
+13:37.760 --> 13:40.250
+Ma ecco la cosa.
+
+13:40.300 --> 13:46.690
+In realtà ci sono due tipi di array e nel prossimo video parleremo di questi due tipi che
+
+13:48.210 --> 13:50.080
+vedrò in quello Bebai.

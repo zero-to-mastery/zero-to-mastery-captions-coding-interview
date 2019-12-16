@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.510 --> 00:11.110
+Selamat datang kembali ada teorema yang menyatakan apa pun yang dapat diimplementasikan secara rekursif dapat diimplementasikan secara
+
+00:11.630 --> 00:20.370
+interaktif yaitu Anda dapat menjalani seluruh hidup Anda tanpa menerapkan fungsi rekursif dan hanya menggunakan
+
+00:20.610 --> 00:21.450
+loop.
+
+00:21.880 --> 00:22.420
+BAIK.
+
+00:22.620 --> 00:29.650
+Jadi mengapa kita ingin membingungkan diri sendiri dengan topik seperti rekursi yang bisa sedikit membingungkan.
+
+00:30.870 --> 00:37.550
+Nah untuk beberapa masalah sebenarnya lebih mudah untuk menulis tetapi itu benar-benar tergantung pada situasinya.
+
+00:37.560 --> 00:40.990
+Perlu diingat bahwa selalu ada dua opsi.
+
+00:41.100 --> 00:48.300
+Dan sekarang Anda tahu bahwa dengan pemrograman selalu ada pro dan kontra dan insinyur yang baik adalah seseorang
+
+00:48.300 --> 00:52.770
+yang dapat membuat keputusan yang tepat berdasarkan pro dan kontra tersebut.
+
+00:52.940 --> 01:00.680
+Tetapi saya ingin mengingat hal ini untuk wawancara karena pewawancara akan meminta Anda untuk memecahkan masalah dan
+
+01:00.740 --> 01:06.730
+masalah yang dapat diselesaikan dengan rekursi biasanya dapat diselesaikan secara intuitif juga.
+
+01:09.770 --> 01:20.160
+Dan melihat fungsi Fibonacci kami, ini adalah contoh rekursi yang lebih sederhana tetapi ada kalanya rekursi
+
+01:20.370 --> 01:24.330
+dapat membuat kode Anda tetap kering.
+
+01:24.330 --> 01:26.360
+Itu jangan diulangi sendiri.
+
+01:26.430 --> 01:34.340
+Aturan besar ketika datang ke pemrograman dan ada banyak masalah ketika datang ke rekursi karena
+
+01:34.340 --> 01:42.200
+semakin sulit ketika menggunakan fungsi rekursif memungkinkan kode Anda menjadi lebih mudah dibaca dan juga
+
+01:42.210 --> 01:48.050
+kering sederhana memiliki loop lebih sedikit terjadi dengan kode membingungkan.
+
+01:48.540 --> 01:55.800
+Dan saya sedikit bias karena meskipun rekursi adalah teknik yang kuat menurut saya itu tidak selalu
+
+01:55.860 --> 01:57.670
+merupakan pendekatan terbaik.
+
+01:57.780 --> 02:07.560
+Jadi, Anda perlu memastikan karena atau kelemahan utamanya yaitu meskipun rekursi dapat menjaga kode Anda tetap kering dan
+
+02:07.650 --> 02:14.750
+membuat kode Anda lebih mudah dibaca juga membuat jejak memori ekstra ini.
+
+02:16.020 --> 02:23.190
+Karena setiap kali kita menambahkan fungsi ke tumpukan panggilan itu menambah sepotong memori tambahan.
+
+02:23.430 --> 02:31.020
+Jadi Anda memiliki kasus di mana Anda bisa mendapatkan stack overflows atau jika sistem Anda memiliki memori mahal Anda
+
+02:31.020 --> 02:38.060
+ingin menghindari membuat terlalu banyak panggilan rekursif dan bagi sebagian orang rekursi juga merupakan sesuatu yang sulit untuk
+
+02:38.060 --> 02:39.460
+menyelimuti pikiran mereka.
+
+02:39.500 --> 02:45.470
+Dan jika kita memiliki tim insinyur muda pengembang yang akrab dengan rekursi yang mungkin
+
+02:45.470 --> 02:46.870
+bukan pilihan terbaik.
+
+02:47.880 --> 02:52.770
+Tetapi kelemahan utama adalah ini bahwa pendekatan iteratif cenderung lebih efisien karena
+
+02:52.770 --> 03:00.510
+mereka tidak membuat panggilan fungsi tambahan yang mengambil ruang stack dengan downside adalah bahwa solusi iteratif mungkin tidak dapat
+
+03:00.510 --> 03:08.790
+dibaca dan aturan yang ingin saya ikuti adalah bahwa saya suka menggunakan rekursi ketika Anda sedang bekerja dengan struktur data
+
+03:09.250 --> 03:14.410
+yang Anda tidak benar-benar yakin seberapa dalam mereka di mana Anda tidak tahu
+
+03:14.410 --> 03:17.520
+berapa banyak loop yang harus dilalui.
+
+03:17.650 --> 03:24.370
+Dan seperti yang akan Anda lihat, rekursi sangat berguna untuk hal-hal seperti struktur data pohon dan melakukan
+
+03:24.370 --> 03:26.670
+traversal karena itu sering terjadi.
+
+03:27.770 --> 03:34.520
+Sekarang di video berikutnya saya ingin berbicara tentang topik ini sedikit lebih dalam dan kapan harus menggunakan rekursi.
+
+03:34.640 --> 03:37.500
+Tetapi saya ingin menunjukkan satu hal dengan cepat.
+
+03:38.380 --> 03:43.210
+Ada sesuatu yang disebut optimasi panggilan ekor dalam banyak bahasa.
+
+03:43.220 --> 03:51.510
+Dan misalnya dalam Javascript dengan 6 memungkinkan rekursi dipanggil tanpa menambah tumpukan panggilan.
+
+03:51.560 --> 03:57.940
+Anda dapat membaca lebih lanjut tentang itu di sumber daya yang disediakan untuk Anda di video ini tetapi dalam bahasa lain
+
+03:57.940 --> 03:58.500
+juga.
+
+03:58.510 --> 04:03.770
+Ada cara-cara tertentu untuk menulis rekursi Jadi ada lebih banyak memori yang efisien.
+
+04:03.940 --> 04:12.600
+Jadi masalah tumpukan besar ini sebenarnya dapat diselesaikan selama produksi tetapi mari kita bicara tentang panduan definitif kapan harus
+
+04:12.600 --> 04:15.070
+menggunakan rekursi dalam video berikutnya.

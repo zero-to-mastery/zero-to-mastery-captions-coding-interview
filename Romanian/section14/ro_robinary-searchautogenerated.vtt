@@ -1,0 +1,205 @@
+WEBVTT
+
+00:01.430 --> 00:09.980
+Merg înapoi în ultimul videoclip pe care îl întrebăm dacă există o modalitate mai bună de a găsi un număr într-o listă sortată
+
+00:10.340 --> 00:15.340
+și doar pentru acest exemplu să adăugăm un număr suplimentar la lista noastră.
+
+00:18.620 --> 00:19.640
+Asa e mai bine.
+
+00:19.730 --> 00:26.340
+Să spunem că am căutat 34 și știam că lista mea să spunem că matricea a fost sortată.
+
+00:26.360 --> 00:33.350
+Ce este o modalitate mai bună de a merge despre asta în loc de a verifica fiecare articol unu câte unul de la stânga la dreapta.
+
+00:34.230 --> 00:41.290
+Ei bine, putem folosi ceva numit căutare binară, deoarece știm că lista este sortată.
+
+00:41.460 --> 00:45.870
+Putem arunca jumătate din ele în loc de unul câte unul.
+
+00:46.750 --> 00:52.490
+Permiteți-mi să vă arăt că putem începe în mijlocul listei și să spunem că este 9.
+
+00:52.630 --> 00:59.520
+Mai mare sau mai mică decât 34 de perete 34 este mai mare decât 9, așa că să lăsăm totul la stânga.
+
+01:01.040 --> 01:03.870
+Și apoi mergem din nou la indexul de mijloc.
+
+01:03.980 --> 01:06.350
+În acest caz, nu există un mediu tehnic.
+
+01:06.350 --> 01:08.030
+Deci, să alegem doar 12.
+
+01:08.130 --> 01:13.430
+Mergi la stânga suportului este de 12 mai mare mai mică de 34.
+
+01:13.530 --> 01:17.960
+În timp ce este cu siguranță mai mică Deci, să eliminăm totul la stânga.
+
+01:19.120 --> 01:26.710
+Și apoi să găsim indexul de mijloc și oh am găsit doar 34 în loc de a trece prin element unul câte
+
+01:26.710 --> 01:27.100
+unul.
+
+01:27.190 --> 01:29.900
+Am făcut asta în trei operațiuni.
+
+01:30.220 --> 01:32.020
+Și asta pare familiar.
+
+01:32.050 --> 01:32.560
+Dreapta.
+
+01:34.180 --> 01:41.700
+Și este ceva ce am învățat atunci când am vorbit despre copaci în mod specific binar de căutare copaci, deoarece
+
+01:42.060 --> 01:51.120
+în cazul în care datele noastre este sortată putem face mai bine decât O cuptor sau timp liniar, deoarece această listă sortate ar putea
+
+01:51.120 --> 02:01.560
+să vă reamintească ceva ce suntem, în esență, crearea unui arbore binar de căutare, spre deosebire căutarea liniară, putem elimina jumătate din elementele în loc de unul
+
+02:01.560 --> 02:08.640
+câte unul și s-ar putea să vă gândiți bine că este ridicol Andre, pentru că pentru ca noi
+
+02:08.910 --> 02:14.880
+să căutăm chiar trebuie să ordonăm prima listă și care are putere de calcul.
+
+02:14.910 --> 02:15.640
+Dreapta.
+
+02:15.870 --> 02:25.290
+Dar stocarea datelor într-o structură de date ca un arbore în loc de o structură de date liniară ca o matrice este
+
+02:25.290 --> 02:27.450
+de fapt mai eficientă.
+
+02:27.540 --> 02:34.010
+Și acesta este un lucru pe care deja l-am discutat cu structurile de date ale copacilor pe măsură ce le inserăm elemente
+
+02:34.010 --> 02:35.150
+dacă le sortim.
+
+02:35.150 --> 02:41.030
+De fapt, ne dă o performanță mai bună, apoi o adăugăm într-o listă sortată pe care trebuie
+
+02:41.030 --> 02:48.230
+să o căutăm într-o zi și pentru că într-un copac unde luăm o decizie Trebuie să mergem la stânga sau la dreapta.
+
+02:48.340 --> 02:54.400
+Ar trebui să mergem la stânga sau la dreapta și să aruncăm jumătate din elementele de la fiecare pas,
+
+02:54.400 --> 03:02.210
+acest lucru ar trebui să declanșeze ceva în creierul tău spunând că aceasta este o abordare divizată și cuceritoare care ne dă un jurnal
+
+03:02.240 --> 03:09.370
+de timp și pentru că log vine apoi din faptul că suntem acum vizitând toate nodurile la fiecare pas în josul copacului,
+
+03:09.370 --> 03:10.260
+eliminăm nodurile.
+
+03:10.720 --> 03:17.780
+Deci, aceasta este afacerea cu căutarea binară pe care ați împărțit o listă peste elementul sortat și decideți de acolo dacă elementul
+
+03:17.800 --> 03:21.580
+pe care îl căutați este în stânga sau în dreapta listei.
+
+03:22.440 --> 03:26.180
+Și deoarece lista este sortată puteți face această decizie foarte ușor.
+
+03:26.220 --> 03:27.750
+Dar comparând lucrurile.
+
+03:27.960 --> 03:32.410
+Și vom continua să continuăm până vom găsi ceea ce vrem în acest caz.
+
+03:32.490 --> 03:40.120
+Numarul 34 facem 1 2 3 decizii.
+
+03:40.370 --> 03:48.260
+Și acest lucru are sens, deoarece dacă sunteți un profesor care se uită la un teanc de eseuri și lucrări de către studenți dacă
+
+03:48.950 --> 03:55.070
+nu este organizat coșul de hârtie, atunci trebuie să mergeți prin ea unul câte unul pentru a găsi.
+
+03:55.100 --> 03:56.380
+Să spunem Timmy.
+
+03:56.750 --> 04:04.670
+Dar dacă teancul de hârtie este sortat în ordine alfabetică, atunci mă poți găsi împărțind hârtiile pe jumătate de fiecare dată
+
+04:04.700 --> 04:06.660
+până ajungi la temi.
+
+04:06.800 --> 04:09.380
+Ca o carte telefonică.
+
+04:09.540 --> 04:18.320
+Începem cu un element, atunci când coborâm, avem o divizare cu două elemente rămase.
+
+04:18.420 --> 04:24.300
+Și pe măsură ce plecăm, avem și împărțită de patru elemente rămase și vom continua să
+
+04:24.300 --> 04:27.820
+continuăm să continuăm până vom găsi elementul nostru.
+
+04:27.830 --> 04:34.070
+Și în secțiunea de sortare, aflăm că tipul de îmbinare și rapiditate fac același lucru.
+
+04:34.290 --> 04:41.160
+Și, de asemenea, am învățat cum să căutăm de fapt prin acest copac în rata secțiunii structurii datelor noastre cu
+
+04:41.170 --> 04:42.000
+căutarea liniară.
+
+04:42.000 --> 04:46.710
+Am avut patru bucle cu un arbore binar de căutare ca acesta.
+
+04:46.770 --> 04:55.110
+Ei bine, am avut metoda noastră de blocare unde am verificat nodul stâng și nodul drept și l-am împărțit lista folosind o
+
+04:55.470 --> 04:58.720
+bucla în timp de jumătate de fiecare dată.
+
+04:58.830 --> 05:03.480
+Deci știm cum să facem căutare liniară și căutare binară.
+
+05:03.480 --> 05:11.400
+Știm că căutarea binară va fi logarea și complexitatea timpului în comparație cu căutarea liniară, care
+
+05:11.490 --> 05:20.780
+este de 0 și dar care sunt aceste două până la acest punct despre care am vorbit când căutăm
+
+05:20.780 --> 05:25.100
+un element în care știm că 34 există.
+
+05:25.100 --> 05:33.080
+Lista noastră este sortată într-un arbore binar de căutare și știm unde să mergem la stânga sau la dreapta, dar uneori
+
+05:33.080 --> 05:38.010
+trebuie să facem ceva numit traversals și traversals pur și simplu înseamnă.
+
+05:38.330 --> 05:46.040
+Ei bine, mergând de la nu la nod, fie găsind un anumit lucru sau asigurându-vă că atingeți
+
+05:46.040 --> 05:53.270
+fiecare nod, poate că nu vrem să adăugăm un atribut de culoare fiecărei note aici.
+
+05:53.380 --> 05:57.330
+Poate că vrem să actualizăm aceste numere și să le multiplicăm cu două.
+
+05:57.370 --> 06:01.420
+În acest caz, trebuie să vizităm fiecare notă.
+
+06:01.420 --> 06:02.980
+Cum facem asta?
+
+06:03.100 --> 06:04.470
+Să aflăm în următorul videoclip.

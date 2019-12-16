@@ -1,0 +1,112 @@
+WEBVTT
+
+00:01.270 --> 00:07.460
+Selamat datang kembali saatnya untuk menulis pohon pencarian biner kita sendiri.
+
+00:07.570 --> 00:14.070
+Dan dalam latihan ini saya akan menantang Anda untuk menulis sendiri sebelum Anda mencuci solusi saya.
+
+00:15.290 --> 00:23.030
+Sekarang perlu diingat bahwa seperti halnya dengan daftar tertaut itu akan mengharuskan kita untuk melacak node
+
+00:23.240 --> 00:27.160
+ke kiri dan ke kanan node saat ini.
+
+00:27.440 --> 00:31.400
+Dan juga kami memiliki nilai yang terkait dengan catatan.
+
+00:31.820 --> 00:37.370
+Saya sarankan Anda benar-benar menggambar ini di selembar kertas untuk memahami karena menyimpan
+
+00:37.370 --> 00:41.760
+semua di kepala Anda dan perhitungannya mungkin sedikit sulit.
+
+00:41.960 --> 00:45.910
+Tapi saya punya seseorang di sini dengan semua hal yang Anda butuhkan.
+
+00:45.950 --> 00:48.740
+Kami telah membuat kelas pohon pencarian biner.
+
+00:48.890 --> 00:51.130
+Kami tidak memiliki kelas yang dapat kami gunakan.
+
+00:51.170 --> 00:59.130
+Kami memulai pohon pencarian biner kami dengan akar bintang nol ini karena kami belum memiliki apa pun.
+
+00:59.250 --> 01:06.500
+Tapi ingat kita memiliki root yang merupakan simpul paling atas kita yang saat ini kosong.
+
+01:06.500 --> 01:13.220
+Kami akan menginisialisasi pohon pencarian biner kami dan mudah-mudahan kami dapat membuat dua metode.
+
+01:13.280 --> 01:16.470
+Satu dijawab dan satu terlihat.
+
+01:16.820 --> 01:23.370
+Dan tujuan kami adalah membuat pohon ini di sini sebagai simpul root.
+
+01:23.410 --> 01:32.140
+Kemudian empat dan dua puluh sebagai anak-anak dan kemudian empat memiliki satu dari enam anak-anak dan 20 memiliki 15 dan 170
+
+01:32.320 --> 01:33.310
+sebagai anak-anak.
+
+01:34.090 --> 01:51.900
+Jadi idealnya jika kita menerapkan insert dengan benar kita bisa mengatakan tree dot insert 9 lalu insert 4 lalu insert 6 lalu
+
+01:53.470 --> 01:56.560
+masukkan misalkan 20.
+
+01:56.860 --> 02:05.930
+Nah masukkan 170 dua terakhir akan menyisipkan 15 dan kami melihat kami memiliki satu kiri di sini
+
+02:09.790 --> 02:18.480
+Sllis untuk memasukkan dan idealnya setelah menjalankan perintah ini Anda dapat membuat struktur data pohon ini.
+
+02:18.510 --> 02:26.600
+Sekarang di bagian bawah di sini saya membuat fungsi kecil kecil untuk Anda dan untuk saat ini saya ingin Anda mengabaikannya
+
+02:26.600 --> 02:31.770
+karena kami menggunakan sesuatu yang disebut rekursi di sini yang belum kami bahas.
+
+02:32.120 --> 02:38.870
+Tapi saya hanya membuat fungsi ini agar Anda dapat menguji kode Anda untuk memastikan bahwa itu benar-benar
+
+02:38.870 --> 02:39.650
+berfungsi.
+
+02:41.260 --> 02:52.330
+Yang perlu Anda lakukan agar Anda dapat memverifikasi bahwa ini berfungsi adalah mengatakan Jason dot string phi yang merupakan
+
+02:52.330 --> 02:57.690
+cara khusus javascript untuk membuat pengejaran pada string.
+
+02:58.090 --> 02:59.920
+Dan kita akan
+
+03:03.580 --> 03:13.330
+mengatakan Traverse tree dot root, kita hanya memberinya simpul akar dari pohon kita dan itu akan melintasi dan mencetak semuanya menjadi string
+
+03:13.360 --> 03:21.690
+sehingga Anda dapat memeriksa dan menghibur bahwa pohon Anda benar-benar bekerja dan di solusi video Saya akan menunjukkan bagaimana
+
+03:21.690 --> 03:28.230
+ini bekerja tetapi saya telah menambahkan ini sebagai pembantu kecil untuk Anda jika Anda ingin
+
+03:28.590 --> 03:32.060
+memeriksa pekerjaan Anda untuk memastikan bahwa itu benar.
+
+03:33.100 --> 03:40.750
+Dan omong-omong metode mencari hanya harus mengembalikan simpul yang kita cari dan jika tidak menemukan simpul maka
+
+03:40.750 --> 03:45.570
+kita dapat mengembalikan normal atau salah mana yang Anda inginkan.
+
+03:46.000 --> 03:50.620
+Dan saya telah menambahkan metode Hapus di sini yang akan kita bicarakan nanti karena agak
+
+03:50.620 --> 03:51.180
+sulit.
+
+03:51.220 --> 03:56.650
+Jadi untuk sekarang hanya khawatir tentang memasukkan dan mencari dan saya akan melihat Anda di video solusi oleh.

@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.190 --> 00:04.840
+Now I've created for you a nice big O cheat sheet.
+
+00:05.240 --> 00:08.320
+Although we've taken a lot of time to go through everything.
+
+00:08.720 --> 00:14.570
+At the end of the day when it comes to preparing for an interview this is pretty much all you need to
+
+00:14.570 --> 00:20.150
+know and you can use this to review some of the topics we've covered as was what we're going to cover
+
+00:20.510 --> 00:22.560
+for future section.
+
+00:22.760 --> 00:27.150
+We see here that the big shows there mainly these ones over here.
+
+00:27.230 --> 00:30.990
+Now we haven't gone through everything we've gone through.
+
+00:31.000 --> 00:42.390
+Constantine but we haven't gone through something like oh log in or oh when log in or O to the two to
+
+00:42.390 --> 00:47.030
+the power of an or even this one with the exclamation mark.
+
+00:47.030 --> 00:48.110
+I wonder what that is.
+
+00:48.300 --> 00:50.090
+Well we're going to get into that.
+
+00:50.280 --> 00:56.370
+But the reason I haven't talked about them yet is because they're going to come up when we talk about
+
+00:56.370 --> 01:05.250
+data structures and algorithms these commented out big notations are very specific for certain algorithms
+
+01:05.460 --> 01:08.040
+and data structures to optimize code.
+
+01:08.220 --> 01:12.580
+So we're going to get into that when we talk about these topics because they'll make more sense to you
+
+01:13.140 --> 01:18.110
+such as Oh log again is used a lot when it comes to searching algorithms.
+
+01:18.870 --> 01:26.820
+Or O-N log in is used the law when it comes to sorting algorithms and something like 0 2 to the power
+
+01:26.820 --> 01:31.630
+of N comes into play when we talk about recursive algorithms.
+
+01:31.650 --> 01:33.540
+So again don't get overwhelmed.
+
+01:33.570 --> 01:40.420
+We've talked about these three major ones and we're going to come back to the rest throughout the course.
+
+01:41.360 --> 01:46.430
+Now when it comes to big shows I want you to keep in mind two things when you're iterating through half
+
+01:46.430 --> 01:51.590
+a collection it's still 0 to the part of or 0 to the end remember.
+
+01:51.920 --> 01:53.750
+Oh and divided by two.
+
+01:53.750 --> 01:55.690
+It's still the end of the day.
+
+01:56.010 --> 02:03.890
+When remember our rule book and again another trick that often comes up in interviews is that two separate
+
+02:03.890 --> 02:06.800
+collections should be a plus b.
+
+02:07.040 --> 02:09.770
+Or if they're nested a times b.
+
+02:09.830 --> 02:15.910
+So two separate inputs should have two separate variables and Big O notation.
+
+02:17.140 --> 02:22.170
+And just to keep in mind what causes time in a function because that's what we're measuring right now.
+
+02:22.330 --> 02:26.990
+Well operations comparison's looping.
+
+02:27.070 --> 02:32.620
+We know that takes a while and things like outside function calls when you have a function inside of
+
+02:32.620 --> 02:34.780
+a function.
+
+02:34.970 --> 02:41.390
+And then finally we talked about our rulebook always big O measures the worst case we want to remove
+
+02:41.390 --> 02:49.490
+constants we want to have different inputs that have different variables so A-plus B A and B are race
+
+02:49.820 --> 02:53.750
+if they're nested are a time speech against something that we've mentioned up here.
+
+02:54.050 --> 03:00.390
+The easy way to remember this is addition four steps in order and multiplication for nested steps.
+
+03:00.710 --> 03:05.630
+And then finally rule four is to drop non dominant terms.
+
+03:06.410 --> 03:07.700
+Pretty simple right.
+
+03:08.240 --> 03:14.210
+I'm going to bring this big-O cheat sheet back when we start talking and filling our gaps with the rest
+
+03:14.380 --> 03:15.840
+of the Big O notation.
+
+03:16.130 --> 03:18.160
+But for now let's get into the next lesson.

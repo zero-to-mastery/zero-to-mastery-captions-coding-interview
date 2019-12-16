@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.710 --> 00:01.750
+We'll come back.
+
+00:01.780 --> 00:04.690
+Let's get into some fun interview questions.
+
+00:04.690 --> 00:10.570
+We're going to start off with a very very common one and it shouldn't be too complicated to start us
+
+00:10.570 --> 00:11.860
+off.
+
+00:11.890 --> 00:18.780
+The interviewer asks you can you create a function that reverses a string.
+
+00:19.200 --> 00:23.040
+So if you passed into this function right here.
+
+00:23.280 --> 00:25.560
+Hi my name is Andre.
+
+00:25.830 --> 00:30.030
+It should return this jibberish that is.
+
+00:30.260 --> 00:36.670
+Oh and I forgot and here is jibberish.
+
+00:36.700 --> 00:39.520
+That is all backwards.
+
+00:39.700 --> 00:43.000
+It's just simply reversing a string.
+
+00:43.000 --> 00:51.280
+Now I want to go ahead and try this in your own REPL thought id or whichever text editor you use and
+
+00:51.280 --> 00:53.620
+see if he can think through the problem.
+
+00:54.420 --> 00:59.750
+Use what you know about arrays to solve this.
+
+00:59.760 --> 01:05.570
+Now keep in mind when it comes to questions like this there are many ways to do things.
+
+01:05.730 --> 01:12.630
+As programmers we know this rate there are so many ways to solve a problem and depending on our style
+
+01:12.720 --> 01:17.030
+our knowledge and time we're going to come up with different solutions.
+
+01:17.040 --> 01:22.660
+So if your answer is different than mine well that's not the worst thing.
+
+01:22.990 --> 01:28.150
+You want to be able to do is to think through a problem and understand why you made those decisions.
+
+01:28.170 --> 01:33.180
+So go ahead reverse a string and I'll see you in the solution video.

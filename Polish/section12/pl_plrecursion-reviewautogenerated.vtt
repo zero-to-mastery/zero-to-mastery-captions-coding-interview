@@ -1,0 +1,79 @@
+WEBVTT
+
+00:01.570 --> 00:10.240
+Kiedy mówimy o rekursji i informatyce, mówimy o funkcji, która sama się nazywa, ten rodzaj
+
+00:10.540 --> 00:18.670
+techniki jest naprawdę dobry w niektórych problemach z powodu jego zdolności do utrzymywania stanu
+
+00:18.850 --> 00:25.190
+innego poziomu rekurencji, tak jak nasi woźnicy oglądają telewizję tutaj.
+
+00:25.190 --> 00:32.430
+Rekursję można uważać za odrobinę szkła, która wypełnia się rekurencyjnymi wywołaniami funkcji,
+
+00:33.380 --> 00:41.070
+a następnie rozpoczynamy od góry, aż ostatnia funkcja zostanie zerwana i zwróci wartość.
+
+00:42.440 --> 00:48.310
+Jedną rzeczą, na którą chcemy uważać przy rekursji, był pomysł przepełnienia stosu.
+
+00:48.350 --> 00:56.750
+Ta dodatkowa przestrzeń pamięci, ponieważ wywołujemy tę samą funkcję w kółko, dopóki nie osiągniemy
+
+00:56.750 --> 01:00.900
+limitu i nie otrzymamy przepełnienia stosu.
+
+01:00.950 --> 01:07.130
+Zasada, której się nauczyliśmy, polega na tym, że powinniśmy używać rekursji, gdy kod stanie się bardziej czytelny.
+
+01:08.290 --> 01:13.130
+Ale czasami może być mniej wydajne niż rozwiązania iteracyjne lub pętlowe.
+
+01:13.150 --> 01:14.440
+Musimy więc być ostrożni.
+
+01:15.370 --> 01:23.310
+Nauczyliśmy się także zasady, że wszystko, co robisz z rekursją, można zrobić intuicyjnie, aw wywiadach zostaniesz
+
+01:23.670 --> 01:31.290
+zapytany o zalety i wady tego, dlaczego chcieliśmy użyć rekursywnego przez iteracyjny i wiem, że
+
+01:32.100 --> 01:35.810
+podniosłem to wcześniej ale warto to powtórzyć.
+
+01:36.210 --> 01:41.660
+Rekurencja jest interesująca i inteligentna, ale może być kosztowna.
+
+01:41.760 --> 01:48.650
+Więc musisz być bardzo ostrożny, ponieważ rekurencja i złożoność przestrzeni nie są przyjaciółmi.
+
+01:49.530 --> 01:56.760
+Ale jeśli chodzi o pewne problemy, takie jak sortowanie i przemierzanie drzew, zobaczysz, że będziemy
+
+01:56.760 --> 02:00.500
+musieli używać rekursywnych rozwiązań, aby uprościć sprawę.
+
+02:00.690 --> 02:06.970
+W szczególności, gdy mówimy o tych nadchodzących tematach, użyjemy rekursji.
+
+02:07.380 --> 02:15.200
+Tak więc przygotuj się na ten rodzaj scalania drzewa szybkiego przemieszczania wykresu, a wszystkie używają rekursji.
+
+02:15.230 --> 02:20.980
+Teraz jesteśmy znacznie lepiej przygotowani do radzenia sobie z tymi sytuacjami, które pojawią się.
+
+02:21.030 --> 02:30.300
+Zaczynamy powoli i powoli budować naszą mapę myśli i widzimy tutaj, że jeśli chodzi o strukturę
+
+02:30.300 --> 02:35.160
+danych drzewa, zadaj sobie pytanie. Powinniśmy użyć rekursji.
+
+02:35.220 --> 02:42.330
+Najczęściej chcesz używać rekurencji, ale pamiętaj, że może wystąpić złożoność przestrzeni lub przepełnienie
+
+02:42.660 --> 02:43.360
+stosu.
+
+02:44.240 --> 02:45.040
+Zobaczę w następnym.

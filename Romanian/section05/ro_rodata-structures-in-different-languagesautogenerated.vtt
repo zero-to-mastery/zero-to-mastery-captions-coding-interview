@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.930 --> 00:07.470
+Bine ați venit înapoi sunt câteva structuri de date pe care le puteți fi întrebuințate într-un interviu și am văzut
+
+00:07.470 --> 00:10.150
+câte dintre ele există pe acea pagină Wikipedia.
+
+00:10.320 --> 00:14.760
+Dar, din fericire pentru tine, lista nu este chiar intimidantă.
+
+00:14.760 --> 00:18.420
+Tot ce trebuie să înveți sunt aceste lebede de-aici.
+
+00:18.420 --> 00:21.380
+Acestea sunt folosite, aș spune 90 la sută din timp.
+
+00:21.540 --> 00:25.310
+Și despre asta vom vorbi în cursul nostru.
+
+00:25.350 --> 00:30.800
+Acum pot exista grupuri specifice în cadrul acestor grupuri și fiecare dintre ele are compromisuri.
+
+00:30.990 --> 00:36.780
+Dar atâta timp cât învăŃi aceste lucruri și când aflaŃi când și de ce ar trebui să le utilizaŃi, atunci veți fi la
+
+00:36.780 --> 00:38.570
+mai puŃine kilometri de majoritatea oamenilor.
+
+00:38.790 --> 00:41.160
+Va fi foarte distractiv.
+
+00:42.490 --> 00:44.400
+Acum, înainte să mergem.
+
+00:44.410 --> 00:46.870
+Vreau să notez un ultim lucru.
+
+00:47.020 --> 00:56.530
+Vedeți că fiecare limbă are propriile tipuri de date sau a fost construită în tipuri de date
+
+00:57.190 --> 01:09.570
+javascript, de exemplu, numerele de caractere au booleani care sunt adevărate false și apoi unele ciudate sunt nedefinite și fiecare limbă are structuri
+
+01:09.570 --> 01:15.150
+de date pentru a organiza aceste tipuri de date.
+
+01:15.150 --> 01:23.960
+De exemplu, în javascript avem matrice și obiecte pe care le folosim și sunt tipuri de date.
+
+01:23.970 --> 01:32.250
+Ne permite să structurăm și să organizăm informații cum ar fi tipurile de date primitive sau chiar să deținem elemente mai complexe,
+
+01:32.250 --> 01:38.760
+cum ar fi o matrice care conține mai multe obiecte și vom vorbi despre acest lucru
+
+01:38.760 --> 01:39.660
+mai detaliat.
+
+01:39.750 --> 01:47.730
+Dar vreau să vă arăt că avem diferite limbi care au acces diferit la unele structuri de date.
+
+01:47.790 --> 01:55.080
+Puteți vedea aici câteva dintre celelalte limbi pe care le putem folosi în acest curs și dacă le au
+
+01:55.080 --> 01:56.230
+la dispoziție.
+
+01:56.310 --> 02:07.010
+Vedem că Java are rețele care au legat stive de liste cu cozi de prioritate și multe alte tipuri.
+
+02:07.090 --> 02:14.540
+Acum inseamna ca daca folosim javascript putem folosi doar matrice si obiecte.
+
+02:15.270 --> 02:22.050
+Ei bine, nu chiar cu toate că aceste limbi vin cu structuri de date construite în.
+
+02:22.050 --> 02:30.690
+De asemenea, ne putem construi propriile noastre și majoritatea limbilor noastre au suficiente structuri de date și tipuri de date pentru a construi și a crea
+
+02:31.740 --> 02:33.770
+propriile noastre structuri de date.
+
+02:34.690 --> 02:44.580
+Deci, dacă javascript nu are stack-uri Ei bine, putem construi unul acum pentru a termina această secțiune și în cele din urmă se arunca cu capul
+
+02:44.580 --> 02:47.280
+în prima noastră structură de date.
+
+02:47.300 --> 02:53.480
+Voiam să vă reamintesc că avem o mică hartă despre ceea ce trebuie să știm pentru interviul
+
+02:53.480 --> 02:54.470
+de codificare.
+
+02:54.470 --> 03:02.090
+Acum, în această hartă, am o emoji prezentă lângă fiecare dintre structurile de date despre care vom
+
+03:02.090 --> 03:02.930
+vorbi.
+
+03:03.930 --> 03:10.260
+După cum puteți vedea, nu este faptul că mulți dintre ei și mulți dintre ei sunt destul de legați sau sunt copii
+
+03:10.260 --> 03:17.600
+ai celuilalt, dar folosesc acest lucru ca o referință pentru ca voi să trasați doar o hartă a modului în care sunt legate lucrurile și a structurilor
+
+03:17.600 --> 03:19.650
+de date care sunt o să vorbim.
+
+03:20.570 --> 03:24.870
+Dar hai să ne murdărim mâinile cu prima noastră structură de date.
+
+03:24.950 --> 03:26.280
+Voi vedea în următorul.
+
+03:26.600 --> 03:26.820
+Babai.

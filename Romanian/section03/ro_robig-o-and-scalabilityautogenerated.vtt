@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.500 --> 00:02.360
+Bine ai revenit.
+
+00:02.700 --> 00:07.990
+Să continuăm discuția despre ce înseamnă această idee scalabilă.
+
+00:08.050 --> 00:13.710
+Vă amintiți că am vorbit despre bucătărie și cât de asemănătoare cu o bucătărie trebuie să dăm
+
+00:13.980 --> 00:17.010
+instrucțiuni mașinilor noastre pentru a produce un rezultat.
+
+00:17.190 --> 00:20.450
+Și în videoclipul precedent am vorbit despre disfuncția Finding Nemo.
+
+00:20.610 --> 00:24.220
+Să măsuram performanța acestei funcții.
+
+00:25.210 --> 00:33.920
+Ei bine, javascript ne oferă o unealtă minuțioasă care vine în browserul în care executăm acest
+
+00:33.920 --> 00:34.980
+cod.
+
+00:35.060 --> 00:39.980
+Deci, în funcție de limba dvs., s-ar putea să nu aveți această opțiune, dar veți avea modalități diferite de a
+
+00:39.980 --> 00:40.930
+măsura acest lucru.
+
+00:40.940 --> 00:42.210
+Nu te mai agăța de asta.
+
+00:42.230 --> 00:47.460
+Vrem să folosim acest exemplu ca măsură pentru măsurarea duratei de funcționare a acestei funcții.
+
+00:47.540 --> 00:57.360
+Putem face acest lucru în javascript, spunând să spunem că timpul 0 va fi egal cu performanța care este
+
+00:57.360 --> 00:58.940
+inclusă în browser.
+
+00:59.340 --> 01:09.590
+Și noi doar spunem acum adăuga acest lucru la zero va începe acest cronometru înainte de bucla se întâmplă.
+
+01:09.790 --> 01:18.040
+Și atunci când se termină bucla, voi avea un alt cronometru numit T-1 și acum vor fi puncte de
+
+01:18.600 --> 01:19.810
+performanță egale.
+
+01:20.350 --> 01:25.600
+Deci, avem două timeri unul la început unul la
+
+01:25.600 --> 01:34.330
+sfârșitul după ce funcția trece prin bucla pentru a găsi Nimo și apoi la sfârșit vom face
+
+01:34.360 --> 01:49.790
+doar un dialog distractiv consolă puțin și vom spune că apelul de a găsi Nemo a luat și poate face doar un simplu Tiran minus zero și apoi vom spune
+
+01:50.480 --> 01:56.800
+milisecunde pentru că ne va da rezultatele și milisecunde Vom vedea dacă funcționează.
+
+01:56.900 --> 02:06.170
+Vreau să rulez acest cod și să-mi las un spațiu aici și vedem că a durat doar câteva milli-secunde pentru ca acest cod
+
+02:06.170 --> 02:07.080
+să ruleze.
+
+02:07.190 --> 02:12.770
+Permiteți-mi să rulez din nou zero secunde din nou zero secunde zero secunde.
+
+02:12.770 --> 02:17.280
+Și dacă continu să fac clic pe ea, văd că acum durează un pic mai mult.
+
+02:17.480 --> 02:20.200
+Și asta pentru că acest lucru este foarte rapid.
+
+02:20.210 --> 02:25.910
+Mașinile de calculatoare sunt extrem de rapide în această zi și de vârstă și pentru
+
+02:25.910 --> 02:33.990
+că suntem doar în buclă prin acest lucru odată bine, este nevoie de aproape zero milisecunde și de afișare doar sistem rotund.
+
+02:34.040 --> 02:41.470
+Dar dacă am avea o gamă mai mare, să spunem că avem o gamă de lucruri care costă fiecare și are toate
+
+02:41.630 --> 02:46.790
+personajele sau cel puțin o mulțime de personaje din filmul Găsirea Nemo, care dacă nu
+
+02:47.030 --> 02:48.100
+l-ai urmărit.
+
+02:48.150 --> 02:48.850
+Film uimitor.
+
+02:48.860 --> 02:50.510
+Vă recomandăm foarte mult.
+
+02:50.520 --> 02:54.640
+Oricum vedem că acum avem mult mai multe personaje.
+
+02:54.710 --> 03:04.620
+Deci, în loc de a avea doar o singură matrice, haideți să avem toată matricea aici și această matrice are acum mai multe elemente,
+
+03:04.710 --> 03:11.520
+are una două două trei patru cinci șase șapte opt nouă zece, care sunt zece bucle
+
+03:11.520 --> 03:15.760
+aici, pe care o vom face dacă executăm acest.
+
+03:16.040 --> 03:19.200
+Vedem că timpul este același.
+
+03:19.370 --> 03:21.290
+Destul de mult, zero milli secunde.
+
+03:21.410 --> 03:25.210
+Uneori, un pic mai mult și timpul se schimbă tot timpul.
+
+03:26.260 --> 03:29.590
+Dar nu vedem că avem o mare diferență.
+
+03:29.590 --> 03:35.970
+Vreau să spun că am fugit de la o buclă până acum la 10 bucle, dar este încă super super rapid.
+
+03:36.040 --> 03:40.150
+Și din nou, asta pentru că calculatoarele noastre în această zi și vârstă sunt destul de rapide.
+
+03:40.150 --> 03:44.590
+Diferența dintre o buclă și 10 bucle nu este atât de mare.
+
+03:45.560 --> 03:51.720
+Dar să facem un truc puțin interesant aici, în javascript, putem crea o gamă largă.
+
+03:51.760 --> 03:59.520
+Să spunem că este mare și putem crea o gamă masivă spunând doar o gamă nouă.
+
+04:00.520 --> 04:08.800
+Și îi vom da o sută de articole și aceste sute de elemente din matrice pe care le putem umple cu să
+
+04:08.800 --> 04:15.540
+spunem Nimo și asta va crea doar o matrice care are Nimo de o sută de ori, astfel
+
+04:19.190 --> 04:30.200
+încât în ​​loc de fiecare fățuit să facă mari și să lovească stâncă dreapta vedem aici că Nimo-ul a fost găsit de o sută de ori, pentru că bine ne-am
+
+04:30.200 --> 04:36.830
+umplut acolo cu Nimo și în partea inferioară vedem că a durat cinci momente Moli care au
+
+04:36.920 --> 04:38.720
+durat mult mai mult.
+
+04:38.730 --> 04:41.640
+Dinant să facem și mai mult.
+
+04:41.670 --> 04:47.150
+Să facem o mie de lovit Ron a luat 7 milisecunde.
+
+04:47.150 --> 04:49.740
+Și dacă le faci mai mari.
+
+04:49.740 --> 04:52.110
+Dacă am avea o serie masivă de 10000.
+
+04:52.410 --> 04:55.990
+Am rulat 46 de secunde.
+
+04:56.010 --> 04:57.480
+E încă destul de rapid.
+
+04:57.480 --> 04:59.340
+Și apoi doar pentru mai multă distracție.
+
+04:59.340 --> 05:07.890
+Dacă aș fi alergat, ai văzut întârzierea asta și cât durează asta, ceea ce a durat treizeci și
+
+05:07.890 --> 05:14.230
+trei de milisecunde sau trei puncte patru secunde acum ce vedem aici.
+
+05:14.230 --> 05:24.220
+Ei bine, vedem că, pe măsură ce contribuția noastră a crescut, funcția noastră a găsit că Nemo a devenit mai lent și mai lent și mai lent.
+
+05:24.280 --> 05:30.430
+Durata de derulare a cât timp este nevoie pentru a rula o anumită problemă printr-o funcție a crescut.
+
+05:30.490 --> 05:32.830
+Dar aici este problema aici.
+
+05:32.830 --> 05:40.030
+Dacă luați acest cod și îl rulați pe computer în timp ce timpul dvs. va fi diferit de al meu.
+
+05:40.570 --> 05:44.140
+Și voi lăsa acest cod la sfârșitul acestui videoclip pentru a putea juca cu el.
+
+05:44.290 --> 05:49.630
+Vei deveni frustrat pentru că de fiecare dată când ești pe acest cod va fi diferit
+
+05:49.840 --> 05:50.860
+de numărul meu.
+
+05:51.190 --> 05:53.910
+Ar putea fi mult mai rapid, mult mai lent.
+
+05:53.950 --> 06:00.040
+Vedeți că toate acestea depind de cât de puternic este C. P. pe care îl aveți în computer
+
+06:00.370 --> 06:06.660
+și despre ce alte programe rulează în limbile de programare pe care le folosiți și despre mulți alți factori.
+
+06:06.670 --> 06:11.370
+Deci, toți acești factori se joacă aici în timpul nostru de execuție.
+
+06:11.410 --> 06:17.110
+Prin urmare, dacă îmi accelerez prietenul din întreaga lume să-i numim Johnny și îi spunem Hey Johnny codul meu este atât
+
+06:17.110 --> 06:25.830
+de uimitor încât am creat această funcție fină Nimo și rulează în 3 secunde 3. 2 secunde cu sute de mii
+
+06:25.930 --> 06:27.820
+de intrări.
+
+06:27.820 --> 06:29.750
+Cât de bine sunt de un sfert
+
+06:29.800 --> 06:32.460
+Și apoi Johnny spune că Ha este foarte minunat.
+
+06:32.470 --> 06:33.610
+Dar tu stii ce.
+
+06:33.670 --> 06:36.670
+Mina rulează mult mai rapid în 1. 5 secunde.
+
+06:36.730 --> 06:37.990
+Așa că am plecat.
+
+06:38.290 --> 06:40.610
+Ce crezi că crezi că Johnny câștigă?
+
+06:41.450 --> 06:44.510
+Johnny are un cod mai bun decât mine.
+
+06:45.590 --> 06:47.450
+Ei bine, iată ce e.
+
+06:47.630 --> 06:49.230
+Nu neaparat.
+
+06:49.420 --> 06:51.340
+Acest lucru nu înseamnă prea mult.
+
+06:52.190 --> 06:56.330
+Pentru că contează ce tip de computer Johnny are ce alți factori.
+
+06:56.360 --> 07:00.410
+Așa cum am menționat înainte ca codul să ruleze.
+
+07:00.490 --> 07:02.470
+Cum putem determina cine câștigă?
+
+07:02.530 --> 07:04.280
+Câștig sau câștig Johnny.
+
+07:04.330 --> 07:06.230
+Cine are mai bun antrenor.
+
+07:06.290 --> 07:09.500
+Și acest lucru este foarte comun în lumea calculatoarelor.
+
+07:09.670 --> 07:16.030
+Codem pe laptop-urile noastre computerele, dar acest cod nu rulează neapărat pe acele dispozitive.
+
+07:16.300 --> 07:22.690
+Dacă avem ceva de genul unui server, este posibil ca acest cod să fie difuzat în altă parte pe un computer
+
+07:22.750 --> 07:24.160
+diferit din întreaga lume.
+
+07:24.160 --> 07:32.710
+Deci, cum putem să ne asigurăm că există o modalitate de a măsura din punct de vedere al eficienței ceea ce este un cod bun
+
+07:33.460 --> 07:41.260
+și care este codul rău și care este codul care poate să scadă acest număr, deoarece crește numărul de intrări sau matrice.
+
+07:41.260 --> 07:48.790
+Nu încetinește constant tot mai mult Notarea Big-O este limba pe care o folosim pentru a vorbi despre cât timp
+
+07:48.790 --> 07:51.590
+are loc un algoritm pentru a rula.
+
+07:51.940 --> 08:00.190
+Putem compara doi algoritmi diferiți sau în acest caz funcțiile folosind big-O și spunem care dintre ele este mai bun decât
+
+08:00.190 --> 08:05.060
+celălalt atunci când vine vorba de scară, indiferent de diferențele dintre calculatoare.
+
+08:05.410 --> 08:09.650
+Și putem măsura un spectacol mare ca acesta.
+
+08:09.760 --> 08:13.780
+Vă voi avertiza că la început va părea foarte confuz.
+
+08:13.870 --> 08:16.400
+Și aceasta este prima dată când vedem această diagramă.
+
+08:16.720 --> 08:21.760
+Și nu vă faceți griji până la sfârșitul acestei secțiuni, acest lucru are sens și veți fi complet fluent
+
+08:21.820 --> 08:22.710
+în acest sens.
+
+08:22.720 --> 08:24.280
+Deci, încredere în mine și în asta.
+
+08:24.310 --> 08:25.540
+Continuați să urmăriți aceste videoclipuri.
+
+08:25.540 --> 08:31.630
+Știu că mă învârt în jurul subiectului și că nu mă îndrept spre ceea ce înseamnă, dar vă promit că până
+
+08:31.630 --> 08:36.040
+la sfârșitul acestui lucru toate acestea vor avea sens și vei fi un ninja mare.
+
+08:37.460 --> 08:44.480
+Când vorbim despre big-O și scalabilitatea codului, noi pur și simplu înțelegem atunci când vom crește din ce în
+
+08:44.480 --> 08:49.470
+ce mai mare cu contribuția noastră. Cât de mult încetinește algoritmul sau funcția.
+
+08:50.430 --> 08:57.720
+În cazul în care lista de caractere sa spunem elemente aici, astfel încât este Nimo,
+
+08:57.720 --> 09:05.870
+astfel încât personajele în găsirea nemo în matrice noastre, care crește cât mai multe operațiuni trebuie să facem.
+
+09:05.930 --> 09:07.960
+Asta este tot ce este.
+
+09:08.020 --> 09:15.400
+Aceasta este ceea ce numim eficiență algoritmică big-O ne permite să explicăm acest concept.
+
+09:15.420 --> 09:21.690
+Amintiți-vă cum în funcția noastră am avut inițial o gamă de doar una care a fost nimo.
+
+09:21.750 --> 09:23.550
+Deci, este numărul de elemente.
+
+09:23.550 --> 09:26.190
+Numărul de intrări dintr-o funcție.
+
+09:26.460 --> 09:27.320
+A fost chiar aici.
+
+09:27.420 --> 09:33.420
+Dar atunci când creștem acea matrice pentru a avea mai multe personaje și apoi am creat acea matrice
+
+09:33.690 --> 09:34.780
+masivă de 100000.
+
+09:34.830 --> 09:41.490
+Deci, pe măsură ce creșteți, ați văzut că numărul de operațiuni sau numărul de lucruri pe care
+
+09:41.970 --> 09:49.020
+le facem în buclă a crescut din nou și peste și funcțiile diferite au complexități mari de O.
+
+09:49.020 --> 09:55.810
+Acesta este numarul acestor operatiuni poate creste cu adevarat foarte rapid ca acesta, care nu este bun.
+
+09:55.810 --> 10:02.770
+Puteți vedea aici că este oribil și lucruri care sunt destul de bune și nu cresc la fel de mult.
+
+10:02.880 --> 10:07.170
+Și ne vom uita la exemple de diferite și cum să
+
+10:07.440 --> 10:15.950
+măsuram efectiv acest lucru și ceea ce înseamnă întreaga notație înseamnă să încheiem acest videoclip pentru a ne putea arunca mai adânc în subiect.
+
+10:16.020 --> 10:23.190
+Doar amintiți-vă în acest moment când vorbim despre Big O și scalabilitatea codului pe care pur și simplu îl
+
+10:23.190 --> 10:31.620
+înțelegem atunci când devenim mai mari și mai mari cu ajutorul nostru. Cât de mult algoritmul încetinește, cu cât încetinește mai puțin sau
+
+10:31.770 --> 10:35.880
+cu cât încetinește mai lent, cu atât este mai bine.
+
+10:36.760 --> 10:45.550
+Deci, în loc să folosim performanța efectuată acum și să folosim timpul pentru a măsura eficiența funcției noastre,
+
+10:45.550 --> 10:52.600
+putem calcula câte operații are un computer, deoarece fiecare operație necesită timp pe un
+
+10:52.600 --> 10:53.600
+computer.
+
+10:53.950 --> 11:02.020
+Un spectacol atât de mare ne permite și ne preocupă cu câte etape are nevoie într-o funcție.
+
+11:02.020 --> 11:05.680
+Bine, să săpăm din ce în ce mai adânc în acest subiect.
+
+11:05.770 --> 11:07.450
+Voi vedea în următorul videoclip Bebai.

@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.840 --> 00:01.820
+Welcome back.
+
+00:02.220 --> 00:05.380
+Let's see how we can implement the answer method.
+
+00:06.380 --> 00:08.730
+And this was a tough one so hopefully you got it.
+
+00:08.780 --> 00:14.070
+If not at least you tried so that we can see how we want to implement the insert method properly.
+
+00:15.280 --> 00:23.120
+The very first thing I want to do is well first of all check my parameters and this is something that
+
+00:23.140 --> 00:25.340
+I usually want to do with all methods.
+
+00:25.360 --> 00:31.120
+I know we simplified things and when we looked at present and append We never checked whether the value
+
+00:31.120 --> 00:37.410
+was something that we wanted but when it comes to inserting something we want to make sure especially
+
+00:37.410 --> 00:43.630
+that the index is a value that we understand so our program doesn't give any errors.
+
+00:44.280 --> 00:51.130
+And there's many things that we can do for a check and I'll leave it up to you to really implement really
+
+00:51.130 --> 00:51.790
+good checking.
+
+00:51.880 --> 01:00.220
+But the one important check that I think we should have is if index is greater than or equal to this
+
+01:00.930 --> 01:02.080
+length.
+
+01:02.140 --> 01:09.820
+So if I give an insert of let's say index at 200 and our list is only three items long I want to be
+
+01:09.820 --> 01:11.680
+able to handle that properly.
+
+01:11.890 --> 01:19.590
+In this case I'm saying as long as the index is greater or equal to this dominant.
+
+01:19.900 --> 01:24.490
+In that case just add it to the end of the list.
+
+01:24.520 --> 01:31.870
+So if I say insert 200 value of ninety nine I'm just going to add the ninety nine to the end of the
+
+01:31.870 --> 01:35.020
+list and you can implement different variations of this.
+
+01:35.020 --> 01:41.450
+Maybe you can return an error if you want but to simplify things I think this is good enough and we
+
+01:41.450 --> 01:46.280
+can just say return this dot append which you already have.
+
+01:46.280 --> 01:52.490
+We have to say this start a pen because we're referencing a method in this class so say this append
+
+01:54.340 --> 01:57.320
+and we'll just add the value.
+
+01:57.370 --> 01:58.190
+There we go.
+
+01:58.570 --> 02:05.470
+So if I do two hundred ninety nine over here let's And let's add the Prynne list at the bottom here
+
+02:06.330 --> 02:12.380
+and if I click run I get 99 added to the end of the list.
+
+02:12.450 --> 02:20.830
+But what if index was to while this now is the heart part.
+
+02:20.860 --> 02:28.200
+We want to first create the new node and remember we can create a new class instance if we wanted to
+
+02:28.250 --> 02:33.680
+but in our case we'll just create a new object that has a value of value.
+
+02:34.820 --> 02:40.790
+And next of no nothing new here we've seen this before.
+
+02:42.840 --> 02:48.360
+Comes the tricky part and I like to comment this out or at least visualize it so we understand what
+
+02:48.360 --> 02:49.350
+we're doing.
+
+02:49.350 --> 02:58.160
+We have two notes that are connected and then we have a NEW know that comes along and says hey I want
+
+02:58.160 --> 03:00.950
+you to answer me right in between here.
+
+03:00.950 --> 03:02.630
+What should the steps be.
+
+03:03.990 --> 03:11.220
+Well the first thing we need to do is to actually figure out which node the first one is because remember
+
+03:11.340 --> 03:15.020
+to insert something we can pick whatever index we want.
+
+03:15.030 --> 03:21.780
+So if we want to insert an index of two we want to grab whatever is that index of two.
+
+03:21.900 --> 03:22.940
+So we need to.
+
+03:23.040 --> 03:30.990
+So we need to traverse our list and say 0 1 to to find this node and get a reference to it.
+
+03:31.080 --> 03:33.450
+Otherwise we don't really have a reference to it.
+
+03:33.480 --> 03:40.590
+Remember a link list only has reference to this head and this tail.
+
+03:40.620 --> 03:47.790
+So the very first thing we want to do is to actually get to that note and we're going to call this first
+
+03:47.790 --> 03:55.250
+node the leader because that's going to be the first one first note that we're going to connect this
+
+03:55.250 --> 04:04.100
+new node 2 and this new node is now going to point next to the old node or the no that was initially
+
+04:04.100 --> 04:05.520
+connected to the first note.
+
+04:05.930 --> 04:15.530
+So I'm going to say that this leader node is going to be well how can we get that we need to somehow
+
+04:15.530 --> 04:22.730
+traverse one by one until we find the index we're looking for and to keep the code clean.
+
+04:22.730 --> 04:24.280
+I'm going to create a new method.
+
+04:24.370 --> 04:32.330
+I'm going to say this dot traverse to index is going to be a new method.
+
+04:32.660 --> 04:41.290
+That's simply going to get the index that is 0 1 2 and I want to grab the leader.
+
+04:41.300 --> 04:51.350
+So if I want to insert the number 99 in here I have to make sure that 10 points to ninety nine and ninety
+
+04:51.350 --> 04:53.170
+nine points to five.
+
+04:53.600 --> 05:01.580
+So that means I need to grab the index not here and point it to the leader that is the 10 the leader
+
+05:01.580 --> 05:03.510
+that we want of the list.
+
+05:03.620 --> 05:10.980
+So I'm going to do is minus one so point to the leader and this traverse to index.
+
+05:11.000 --> 05:12.570
+While we're going to have to create it.
+
+05:13.780 --> 05:21.010
+And I have this key word here because again it's a method onto this class I'm going to say Traverse
+
+05:21.040 --> 05:23.830
+two index that's going to get an index.
+
+05:24.040 --> 05:28.040
+And this is where we do our traversal or looping.
+
+05:28.060 --> 05:33.460
+You might want to check for parameters here and make sure that it's a valid index and that's something
+
+05:33.460 --> 05:34.710
+that you can do on your own.
+
+05:34.720 --> 05:37.010
+It's not very important for this example.
+
+05:38.300 --> 05:43.790
+We can assume that the index is going to be a valid number a valid index.
+
+05:43.790 --> 05:50.040
+And then here we're going to first do something like a counter that's going to equal to zero.
+
+05:51.620 --> 05:57.830
+And we're going to say that the current node is something we did similar to the print list we're going
+
+05:57.830 --> 06:04.330
+to keep the current node as this had.
+
+06:04.470 --> 06:17.710
+And while the current or the of the counter doesn't equal the index because we're saying keep traversing
+
+06:17.740 --> 06:25.950
+go from the beginning from the head all the way until the counter is equal to the index.
+
+06:25.960 --> 06:30.870
+So keep going through the while loop as long as the counter doesn't equal the index.
+
+06:30.910 --> 06:36.260
+But as soon as the counter becomes the index so while we reach the point that we want in our case traverse
+
+06:36.260 --> 06:41.440
+to index minus one that means as soon as we get to 10 then stop.
+
+06:41.440 --> 06:48.370
+But until then I want you to traverse through this so current node is going to equal
+
+06:51.280 --> 06:53.990
+current node dot next.
+
+06:54.010 --> 07:00.680
+So we're going to keep moving the current node over to the right and we're going to increment the counter
+
+07:00.740 --> 07:01.920
+one by one.
+
+07:02.090 --> 07:03.110
+That's it.
+
+07:03.110 --> 07:05.510
+That's our traversal.
+
+07:05.550 --> 07:11.610
+All we need to do at the end because we want to return something from this method is to return the current
+
+07:12.270 --> 07:18.670
+node and then we have it we say traverse to the index.
+
+07:18.820 --> 07:23.060
+In our case if we do insert two ninety nine.
+
+07:23.350 --> 07:27.120
+It's going to receive two ninety nine here.
+
+07:27.290 --> 07:34.100
+It's going to create the new node and it's going to traverse to index to minus one is 1 so it's going
+
+07:34.100 --> 07:40.240
+to say 0 and 1 and the counter is going to equal index.
+
+07:40.250 --> 07:47.520
+So it's going to exit out of the loop and it's going to return the current node which is 10.
+
+07:47.630 --> 07:50.510
+We grab the reference to the leader.
+
+07:50.540 --> 07:52.330
+Congrats but we're not done yet.
+
+07:52.340 --> 07:53.460
+Right.
+
+07:53.600 --> 07:57.040
+Once we grab the reference to the leader what do we do next.
+
+07:58.250 --> 08:05.660
+Well the next thing is we want to make sure that we grab the next item in this original list that is
+
+08:05.660 --> 08:10.290
+we want to hold a pointer to number five.
+
+08:10.610 --> 08:12.200
+Again we don't want to break this list.
+
+08:12.200 --> 08:19.130
+We want to make sure that the connections are working properly and that Nine-Nine comes after 10 and
+
+08:19.130 --> 08:21.080
+after 99 comes five.
+
+08:21.500 --> 08:32.500
+So the next step you want to do in our insert method is to what I call hold or let's just call it holding
+
+08:32.500 --> 08:33.050
+pointer.
+
+08:33.100 --> 08:38.930
+I could probably name that better but holding Poitier's is nice and we'll say leader dot next.
+
+08:39.910 --> 08:46.260
+Leader Don next is five and this five.
+
+08:46.470 --> 08:56.690
+We now have it referenced in this variable that will have temporarily next because we have five saved
+
+08:56.750 --> 08:59.300
+to this variable referenced in this variable.
+
+08:59.420 --> 09:06.240
+We can now update the leader next to point to our new node.
+
+09:06.430 --> 09:17.610
+So I can say leader Dodd next is going to now point to new node and remember because of how references
+
+09:17.610 --> 09:26.310
+work we've deleted the reference of five here so 10 no longer points to five but we've saved the reference
+
+09:26.310 --> 09:28.280
+to it in here.
+
+09:28.320 --> 09:30.420
+And this variable.
+
+09:30.480 --> 09:40.670
+So right now if we go back to our example here we've removed the reference to this and now 10 points
+
+09:40.670 --> 09:41.120
+to
+
+09:46.520 --> 09:47.410
+now it's better spacing.
+
+09:47.410 --> 09:48.590
+There you go.
+
+09:48.800 --> 09:50.440
+OK what do we do next.
+
+09:51.670 --> 09:59.240
+Well we now need this node you know 2.2 this one like this and that's pretty simple right.
+
+09:59.350 --> 10:09.530
+We simply say new note Don next is going to equal the hold the pointer the five that we are keeping
+
+10:09.620 --> 10:11.250
+in memory.
+
+10:11.450 --> 10:21.530
+And then finally we say this land plus plus because we've added to the list and we can return this or
+
+10:21.530 --> 10:22.990
+just so we know we did it properly.
+
+10:22.990 --> 10:30.380
+I'm going to say this thought print list once we insense something insert something we're going to just
+
+10:30.380 --> 10:31.820
+print the list.
+
+10:31.970 --> 10:33.850
+Let's see if that works.
+
+10:33.860 --> 10:39.590
+I want to remove this so the code works and we don't need to print this out.
+
+10:39.650 --> 10:43.000
+Let's run this command.
+
+10:43.030 --> 10:44.220
+Hey look at that.
+
+10:44.230 --> 10:56.060
+So before we had this list and let's actually print Vestiaire so we can see it in my print or my linked
+
+10:56.060 --> 11:00.020
+list dot print CList.
+
+11:00.080 --> 11:04.380
+This is what we had before and we added 99 in here.
+
+11:06.100 --> 11:07.310
+Just like that.
+
+11:07.530 --> 11:13.240
+And just to test it out one more time if I do my linked list dot insert again and this time will give
+
+11:13.240 --> 11:19.760
+it 20 which doesn't exist index of 20 and at 88 that should be added to the end of the list.
+
+11:22.200 --> 11:29.860
+And because with this insert where when we do the check we're just adding this dot append which isn't
+
+11:30.130 --> 11:31.780
+printing the list.
+
+11:31.780 --> 11:37.350
+Let's just add a print list at the bottom here to make sure that that is working.
+
+11:37.360 --> 11:43.510
+There you go 88 at the end very very nice.
+
+11:43.570 --> 11:50.530
+I know that was challenging and insert is probably the toughest function to implement or method to implement
+
+11:50.560 --> 11:54.190
+in a linked list but practice this a couple times.
+
+11:54.250 --> 11:56.690
+Really understand what each step is doing.
+
+11:56.710 --> 11:58.900
+Draw it out if you need to.
+
+11:59.170 --> 12:00.490
+But congratulations.
+
+12:00.550 --> 12:04.580
+We just implemented an answer function into our list length list.
+
+12:05.050 --> 12:10.450
+And you might notice year that we had to traverse where we had a wildly.
+
+12:10.640 --> 12:12.440
+And this might make sense now rate.
+
+12:13.690 --> 12:23.640
+Why we had the insert as all of an Because we had to loop through our list and look up which can also
+
+12:23.640 --> 12:27.990
+be called traversal was also all event that was our traverse to index.
+
+12:27.990 --> 12:28.500
+Right.
+
+12:28.530 --> 12:35.100
+If we're looking for an item at index of 10 for example we'd have to look up in the worst case is that
+
+12:35.130 --> 12:37.480
+we had to go through the entire list.
+
+12:37.500 --> 12:39.200
+Same with tensor.
+
+12:39.240 --> 12:40.060
+All right.
+
+12:40.090 --> 12:47.530
+Now that we've done the insert you should be able to do the next one on your own that is delete using
+
+12:47.530 --> 12:50.240
+something very similar to how we did with insert.
+
+12:50.710 --> 12:56.740
+Let's add a delete or like to call this remove.
+
+12:56.830 --> 13:03.560
+Let's have a remove that has the parameter and X of what you want to remove.
+
+13:03.560 --> 13:06.360
+Good luck coding this and I'll see you in the solution video.

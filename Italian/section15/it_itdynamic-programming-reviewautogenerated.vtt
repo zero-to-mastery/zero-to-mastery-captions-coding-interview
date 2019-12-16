@@ -1,0 +1,148 @@
+WEBVTT
+
+00:01.150 --> 00:10.390
+Bentornati in questa sezione abbiamo finalizzato la nostra comprensione degli algoritmi con la programmazione dinamica e
+
+00:10.480 --> 00:12.950
+abbiamo completato tutto questo.
+
+00:13.150 --> 00:20.950
+E ora l'ultimo pezzo del puzzle è la completa programmazione dinamica e in particolare l'utilizzo della memoizzazione per
+
+00:21.160 --> 00:23.260
+ottimizzare i nostri problemi.
+
+00:23.970 --> 00:30.240
+Completa il nostro intero diagramma sono la mia mappa di come padroneggiare l'intervista.
+
+00:30.340 --> 00:32.610
+Quindi cosa impariamo.
+
+00:32.680 --> 00:38.860
+Abbiamo imparato che con la programmazione dinamica possiamo identificare questi tipi di problemi vedendo
+
+00:39.340 --> 00:47.800
+innanzitutto che c'è un problema che può essere suddiviso in sottoproblemi di parti più piccole dove molto probabilmente stai usando
+
+00:47.800 --> 00:49.090
+la ricorsione.
+
+00:49.090 --> 00:56.350
+Se stai usando la ricorsione, chiediti Ci sono dei sottoproblemi o compiti ripetitivi che sto facendo più e
+
+00:56.740 --> 00:57.900
+più volte.
+
+00:58.120 --> 01:05.470
+In questo caso possiamo memorizzare i sottoproblemi in modo da non ricalcolare costantemente le cose e utilizzare questa idea
+
+01:05.470 --> 01:11.920
+di programmazione dinamica in modo da ottenere un bel rilancio dal nostro capo perché abbiamo reso il
+
+01:12.010 --> 01:13.390
+codice così efficiente.
+
+01:13.480 --> 01:19.750
+Ora la memorizzazione è una strategia comune per problemi di programmazione dinamica che sono problemi che
+
+01:19.750 --> 01:23.450
+ho appena descritto qui come il problema di Fibonacci.
+
+01:23.620 --> 01:31.180
+C'è un altro modo di incorporare la programmazione dinamica e si chiama approccio bottom-up e non ci concentreremo troppo
+
+01:31.180 --> 01:35.470
+su di esso, ma voglio mostrarti rapidamente come potrebbe essere.
+
+01:36.780 --> 01:43.620
+Nel nostro caso c'è in realtà un terzo modo per risolvere questo problema e il modo per farlo è in realtà
+
+01:43.620 --> 01:44.500
+abbastanza semplice.
+
+01:44.550 --> 01:46.530
+Possiamo fare in modo
+
+01:49.590 --> 02:00.430
+che Fibonacci sia padroneggiato e in questa funzione avremo la risposta che sarà la lista della nostra sequenza di Fibonacci che è proprio qui
+
+02:00.520 --> 02:08.920
+e andremo a precompilare con zero e uno e poi da lì tutto ciò che facciamo è un ciclo
+
+02:08.920 --> 02:16.110
+for e diciamo Let i uguale a due perché ora stiamo iniziando dal secondo indice.
+
+02:16.140 --> 02:22.650
+Perché è inferiore o uguale al numero e all'incremento annuale.
+
+02:23.310 --> 02:33.920
+E poi alla fine diremo rispondi che spingiamo e spingeremo al prossimo elemento in questa pila.
+
+02:34.200 --> 02:37.540
+I risultati del primo e del secondo.
+
+02:37.770 --> 02:49.620
+Quindi io meno due più risposta Alta meno uno e poi possiamo solo restituire la risposta dot pop che ci
+
+02:49.620 --> 02:55.560
+darà l'ultimo elemento nell'elenco secondo l'indice che stiamo cercando.
+
+02:56.750 --> 02:59.090
+Quindi, se gestisco questo,
+
+03:04.970 --> 03:06.440
+lo
+
+03:12.670 --> 03:24.070
+chiamerei DP, dovrei ancora alzarmi e devo assicurarmi di passare a dire 100 se lo faccio.
+
+03:24.080 --> 03:24.800
+Ecco qua.
+
+03:24.800 --> 03:27.100
+Otteniamo entrambi gli stessi risultati.
+
+03:27.970 --> 03:31.680
+E questo tipo di approccio evita la ricorsione.
+
+03:31.780 --> 03:38.170
+Alcuni direbbero che non è così pulito e non facile da capire, mentre altri diranno di no. Questo ha molto più
+
+03:38.170 --> 03:38.770
+senso.
+
+03:38.770 --> 03:46.060
+Dipende molto dalle tue preferenze e questo tipo di soluzione si chiama bottom up perché si parte dalla
+
+03:46.120 --> 03:53.170
+soluzione più semplice dal basso e si procede lentamente verso l'alto sempre più in alto verso
+
+03:53.170 --> 03:54.620
+problemi più complessi.
+
+03:54.730 --> 04:00.280
+Ma questi tipi di problemi, sebbene più facili da vedere, sono più difficili da capire quando utilizzare.
+
+04:00.430 --> 04:10.070
+Quindi preferisco l'approccio top-down alla memoizzazione dell'uso di questo, ma voglio solo mostrarti che esiste un altro modo
+
+04:10.070 --> 04:12.240
+di fare le cose.
+
+04:13.240 --> 04:19.870
+E in un colloquio è molto raro che ti venga chiesto di implementare entrambi i metodi ma
+
+04:19.870 --> 04:25.120
+alla fine di tutto spero che tu veda il potere della programmazione dinamica.
+
+04:25.130 --> 04:32.030
+Il semplice concetto di risparmiare noi stessi un sacco di problemi a pensare a come i nostri
+
+04:32.030 --> 04:37.380
+programmi funzionano e come possiamo ottimizzarli in modo da non svolgere attività ripetute.
+
+04:37.440 --> 04:43.100
+Se sei in grado di notare queste cose, allora sei un grande ingegnere.
+
+04:43.160 --> 04:44.090
+Ci vediamo nel prossimo.

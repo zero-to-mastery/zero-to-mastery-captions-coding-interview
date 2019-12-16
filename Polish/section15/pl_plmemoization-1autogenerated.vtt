@@ -1,0 +1,238 @@
+WEBVTT
+
+00:01.170 --> 00:08.630
+Aby zrozumieć, jak działa dynamiczne programowanie, musimy zrozumieć, co oznacza buforowanie.
+
+00:09.000 --> 00:13.970
+Buforowanie to sposób na przechowywanie wartości, dzięki czemu można z nich korzystać później.
+
+00:14.310 --> 00:23.240
+Idealnie można pomyśleć o buforowaniu jako plecaku, który zabierają do szkoły, zamiast iść całą drogę do domu, gdy potrzebujesz
+
+00:23.360 --> 00:25.520
+czegoś na kształt ołówka.
+
+00:25.640 --> 00:34.940
+Masz małe pudełko na plecach, które zawiera przedmioty, których potrzebujesz, abyś mógł chodzić do
+
+00:34.940 --> 00:38.340
+szkoły szybko i wielokrotnie.
+
+00:38.350 --> 00:40.720
+To trochę głupi przykład.
+
+00:40.750 --> 00:48.700
+Buforowanie to dla nas sposób na przyspieszenie programów i trzymanie pewnych danych w łatwo dostępnym pudełku,
+
+00:48.700 --> 00:55.690
+a zapamiętywanie to specyficzna forma buforowania, o której będziemy mówić, ponieważ używamy jej
+
+00:55.690 --> 00:57.640
+w dynamicznym programowaniu.
+
+00:58.090 --> 01:06.270
+Ale zamiast po prostu mówić o tym, pokażmy to w kodzie tak, jak możemy cache'ować.
+
+01:06.550 --> 01:14.940
+Cóż, wyobraźmy sobie, że mamy funkcję, która mówi, że chcemy dodać do 80, a ta funkcja
+
+01:16.040 --> 01:21.310
+przyjmuje liczbę i wszystko, co robi, to zwraca wartość.
+
+01:21.330 --> 01:22.960
+I to jest parametr.
+
+01:22.960 --> 01:25.940
+Dajemy to i dodajemy osiemdziesiąt.
+
+01:26.870 --> 01:37.450
+Tak więc, gdy uruchomimy funkcję dodaj do 80 i powiedzmy, że umieścimy pięć, otrzymamy 85 ładną i prostą stawkę, ale jeśli
+
+01:38.030 --> 01:46.920
+ponownie uruchomię tę funkcję, będę musiał ponownie przejść przez ten krok i dodać 80 do tej odpowiedzi.
+
+01:46.970 --> 01:54.950
+I jeśli powtórzę to jeszcze raz, wykonaj to samo, co trzy razy, ale
+
+01:54.950 --> 01:59.160
+co, jeśli operacja trwała naprawdę długo.
+
+01:59.600 --> 02:06.540
+Co jeśli mam taką konsolę jak tutaj i możemy sobie wyobrazić, że ta operacja trwa kilka sekund.
+
+02:06.710 --> 02:07.990
+To zajmuje dużo czasu.
+
+02:08.800 --> 02:15.700
+Za każdym razem, gdy uruchomisz tę funkcję, będziemy musieli trzykrotnie działać długo i przejść przez krok jeden
+
+02:16.390 --> 02:17.440
+po drugim.
+
+02:17.620 --> 02:25.100
+Mimo że trzykrotnie dokonaliśmy tych samych obliczeń Czy istnieje sposób, aby zoptymalizować to.
+
+02:25.260 --> 02:34.140
+I tu możemy użyć buforowania i zapamiętywania, poprawmy powyższą funkcję, robiąc coś
+
+02:34.140 --> 02:35.230
+innego.
+
+02:35.280 --> 02:42.480
+Zamierzam stworzyć nowy obiekt o nazwie Cache, który będzie przechowywał pusty obiekt.
+
+02:42.480 --> 02:50.570
+Będziemy także mieć funkcję, która teraz będzie się nazywać zapamiętywaniem, a nie
+
+02:52.120 --> 03:01.590
+zapamiętanym zapamiętanym dodatkiem do DD, który ma numer i tutaj zrobimy coś nieco innego niż powyższe.
+
+03:01.600 --> 03:06.990
+Nadal będziemy dodawać 280, ale zamierzamy to zrobić w specjalny sposób.
+
+03:07.120 --> 03:18.460
+Powiem, że jeśli n jest w gotówce, jest to sposób sprawdzenia, czy właściwość istnieje w obiekcie w
+
+03:18.460 --> 03:19.220
+Javascript.
+
+03:19.270 --> 03:25.630
+Jest więc podobny do mnie, robiąc kropkę za pieniądze i sprawdzając nieruchomość.
+
+03:25.630 --> 03:27.730
+Ten właśnie czyta o utworze i zachowuje go w ten sposób.
+
+03:27.730 --> 03:30.170
+Więc jeśli istnieje w gotówce.
+
+03:30.250 --> 03:43.610
+Więc jeśli już to zrobiliśmy, po prostu zwróć kropkę pieniężną i lub gotówką, a następnie zwróć wartość buforowaną.
+
+03:44.020 --> 03:45.820
+Ale oczywiście jest pusty.
+
+03:45.820 --> 03:52.440
+Za pierwszym razem, to nie zadziała, jeśli w pamięci podręcznej nie ma nic, co dzieje się za
+
+03:52.440 --> 03:53.410
+pierwszym razem.
+
+03:53.490 --> 04:07.170
+Cóż, mamy inne zdanie i tutaj mamy gotówkę, która jeszcze nie istnieje, i przypiszmy jej
+
+04:07.170 --> 04:21.120
+plus 80, po czym, jeśli zrobimy coś takiego jak Moammar nighest do osiemdziesięciu pięciu, powiemy
+
+04:21.130 --> 04:24.260
+pięć plus 80.
+
+04:24.340 --> 04:33.860
+Więc tutaj mamy zamiar spieniężyć posiadłość pięć, aby mieć wartość osiemdziesięciu pięciu, co
+
+04:33.860 --> 04:40.870
+robimy tutaj, aby następnym razem robiliśmy coś takiego.
+
+04:41.150 --> 04:47.870
+Przechodzimy przez instrukcję if znajdującą fakt, że już wyliczyliśmy pięć i po prostu wykonujemy
+
+04:47.930 --> 04:55.960
+prosty dostęp do właściwości, który jak wiemy jest jednorazowy, jest super szybki z tablicą mieszającą, taką jak ta.
+
+04:56.090 --> 04:59.220
+Uzupełnijmy ten przykład, aby pokazać, jak to działa.
+
+04:59.360 --> 05:03.360
+Po prostu wrócę, ponieważ właśnie
+
+05:10.100 --> 05:12.140
+to wypełniamy.
+
+05:12.140 --> 05:19.160
+Miejmy tutaj po prostu dziennik konsoli, który zajmuje dużo czasu, aby przekonać się, że wykonujemy obliczenia, które
+
+05:19.160 --> 05:20.450
+zajmuje dużo czasu.
+
+05:21.380 --> 05:28.940
+Po uruchomieniu tej funkcji dostaję osiemdziesiąt pięć i mam gotówkę wstępnie wypełnioną.
+
+05:29.020 --> 05:30.940
+Tak to zrobiła i obliczyła długa.
+
+05:30.940 --> 05:32.020
+Spróbujmy jeszcze raz.
+
+05:32.290 --> 05:40.500
+Kliknij biegnij długo. Pierwsze przejście przez to przeszło tutaj i wykonało te obliczenia, które hipotetycznie zajmie
+
+05:40.500 --> 05:42.450
+naprawdę dużo czasu.
+
+05:42.450 --> 05:47.490
+Znowu używamy tutaj łatwego przykładu, ale można sobie wyobrazić, że jest to
+
+05:47.490 --> 05:54.470
+obliczenie, które trwa wiele sekund, a jeśli zrobimy to ponownie, możemy pocieszyć psa, tak jak tutaj,
+
+05:58.020 --> 06:01.440
+aby upewnić się, że przechwycimy te wartości.
+
+06:04.580 --> 06:12.700
+Oznaczymy je jedną i dwie, abyśmy mogli je odróżnić.
+
+06:12.700 --> 06:20.150
+Tak więc pierwszy cel i drugie połączenie, jeśli trafiam, sprawdzą się za pierwszym razem.
+
+06:20.180 --> 06:23.440
+Dzwonimy długo i obliczamy na 85.
+
+06:23.630 --> 06:31.400
+Ale za drugim razem, ponieważ ta wartość była w gotówce, musieliśmy wykonać te długie obliczenia i
+
+06:31.430 --> 06:33.870
+właśnie zwróciliśmy je natychmiast.
+
+06:35.300 --> 06:43.880
+Więc czym dokładnie jest zapamiętywanie, będzie to specyficzna forma buforowania, która obejmuje spieniężenie
+
+06:43.880 --> 06:45.220
+wartości zwracanej.
+
+06:46.260 --> 06:53.510
+Cała funkcja, która jest wartością zwracaną tej funkcji na podstawie jej parametrów.
+
+06:53.960 --> 07:03.260
+A jeśli parametr tej funkcji nie zmieni się tak jak tutaj, to jest zapamiętany.
+
+07:03.260 --> 07:09.800
+To znaczy, że używa pamięci podręcznej, ponieważ oblicza się to samo wcześniej z
+
+07:09.800 --> 07:14.410
+tym samym parametrem i zwróci buforowaną wersję funkcji.
+
+07:14.630 --> 07:18.960
+Jest zapamiętany, jeśli zmienia się parametr.
+
+07:19.340 --> 07:26.220
+Cóż, to inny parametr, którego nigdy wcześniej nie widziano, więc obliczy oba razy.
+
+07:27.060 --> 07:28.040
+Różne rzeczy.
+
+07:28.230 --> 07:30.930
+I właśnie zauważyłem, że nie powinno być pięciu problemów.
+
+07:31.190 --> 07:33.150
+I tutaj, więc jest dynamiczny.
+
+07:33.150 --> 07:33.770
+Proszę bardzo.
+
+07:33.840 --> 07:35.670
+Tak jest lepiej.
+
+07:35.670 --> 07:42.810
+Pamiętaj więc, że ta pamięć jest po prostu sposobem na zapamiętanie rozwiązania rozwiązanego problemu.
+
+07:42.990 --> 07:45.600
+Więc nie musisz tego wyliczać ponownie.

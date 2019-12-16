@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.950 --> 00:07.540
+Apa yang akan Anda katakan jika saya bertanya apa fungsi utama Finding Nemo?
+
+00:07.970 --> 00:13.760
+Nah untuk membuat ini sedikit lebih bersih, mari kita hilangkan kinerja yang dilakukan sekarang karena kita
+
+00:13.760 --> 00:18.940
+telah belajar bahwa itu tidak terlalu penting dan kita juga dapat menghapus log konsol.
+
+00:20.440 --> 00:27.500
+Dan melihat ini dan loop ini apa yang akan Anda katakan big-O dan video ini kita akan
+
+00:27.560 --> 00:30.260
+belajar tentang notasi Big-O pertama kami.
+
+00:30.620 --> 00:34.540
+Seperti yang kami katakan runtime hanya berapa lama untuk menjalankan sesuatu.
+
+00:34.700 --> 00:43.860
+Bagaimana fungsi ini dan runtime-nya bertumbuh seiring input kami meningkat seiring input kami beralih dari hanya satu item dalam
+
+00:44.190 --> 00:49.130
+array Nimo menjadi 10 item dalam array menjadi 100000.
+
+00:49.320 --> 00:53.780
+Bagaimana efisiensi fungsi ini meningkat.
+
+00:53.950 --> 01:01.180
+Jika kita melihat grafik ini dan kita katakan kita memiliki 4 item dalam array sementara
+
+01:01.180 --> 01:10.500
+jumlah operasi akan menjadi 4 benar karena kita akan mengulang setiap item dan mengatakan Apakah ini Nimo adalah nimo ini.
+
+01:10.500 --> 01:11.550
+Apakah ini nimo.
+
+01:11.850 --> 01:14.000
+Apakah ini Nimo empat kali.
+
+01:14.130 --> 01:19.650
+Tidak peduli apa yang kita perulangan setidaknya empat kali dengan cara kita mengatur kode
+
+01:19.980 --> 01:28.860
+ini jika kita memiliki lima item dalam array itu akan menjadi lima operasi lima loop enam adalah sama enam item sama dengan
+
+01:28.860 --> 01:30.030
+enam operasi.
+
+01:30.030 --> 01:34.070
+Tujuh adalah tujuh operasi dan delapan adalah delapan.
+
+01:34.090 --> 01:38.230
+Operasi kita melihat sedikit pola di sini.
+
+01:38.570 --> 01:40.410
+Kita bisa menggambar garis melaluinya.
+
+01:42.090 --> 01:51.640
+Ini adalah laju linier karena jumlah input kami meningkatkan jumlah operasi juga.
+
+01:51.840 --> 01:57.680
+Dan di sini saudara-saudari kita telah belajar notasi Big-O pertama kita.
+
+01:58.020 --> 02:11.480
+Kami mengatakan bahwa fungsi nemo temuan memiliki notasi O besar 0 dan itu agak aneh.
+
+02:11.490 --> 02:21.750
+Ini hanya sebuah notasi yang harus Anda gunakan tetapi kita katakan Big O of N atau yang kita sebut
+
+02:21.750 --> 02:27.280
+linear linear time. Butuh waktu linear untuk menemukan nimo.
+
+02:27.300 --> 02:29.980
+Sekarang dari mana tujuan ini datang.
+
+02:30.790 --> 02:33.100
+Ini bisa benar-benar apa saja.
+
+02:33.130 --> 02:34.680
+Saya bisa memasukkan x.
+
+02:34.900 --> 02:40.540
+Saya bisa menaruh ikan di sini jika saya mau hanyalah surat sewenang-wenang.
+
+02:40.840 --> 02:42.680
+Dan biasanya kita memberi.
+
+02:42.690 --> 02:50.100
+Dan ketika datang ke big-O, ini hanya standar yang akan Anda lihat di papan
+
+02:50.790 --> 02:56.790
+dan berarti O besar tergantung pada jumlah input, jumlah ikan.
+
+02:56.790 --> 03:06.130
+Jadi jika kita hanya memiliki array Nimo ini hanya akan menjadi satu jika kita memiliki setiap array ini akan menjadi
+
+03:06.340 --> 03:06.840
+10.
+
+03:07.090 --> 03:12.270
+Dan kami memiliki array besar Elby 100000.
+
+03:12.390 --> 03:23.090
+Tetapi ketika input meningkat Anda melihat bahwa jumlah operasi meningkat secara linear dengan itu 0 ketika mungkin notasi Big
+
+03:23.090 --> 03:30.830
+O paling umum Anda akan menemukan jika kita kembali ke grafik Anda dapat melihat
+
+03:30.920 --> 03:38.000
+bahwa ON ada di sini di wilayah kuning sejauh jumlah elemen meningkat.
+
+03:38.000 --> 03:40.250
+Anda lihat itu hanya garis lurus.
+
+03:40.370 --> 03:47.910
+Jumlah operasi meningkat dengan jumlah yang sama karena Ingatlah ini besar-O tidak mengukur dalam
+
+03:47.910 --> 03:49.170
+hitungan detik.
+
+03:49.260 --> 03:53.980
+Sebaliknya kami fokus pada seberapa cepat runtime kami tumbuh.
+
+03:54.150 --> 04:00.680
+Kami hanya melakukan ini dengan menggunakan ukuran input yang kami sebut atau apa pun yang benar-benar kami inginkan.
+
+04:00.930 --> 04:06.820
+Dan dibandingkan dengan jumlah operasi yang meningkatkan itulah yang berarti skalabilitas.
+
+04:06.870 --> 04:11.270
+Ketika hal-hal tumbuh semakin besar dan semakin besar Apakah itu berskala.
+
+04:11.390 --> 04:16.330
+Jadi fungsi find Nimo adalah o of dan linear time.
+
+04:16.500 --> 04:19.190
+Dan sekarang cara untuk memikirkannya adalah ini.
+
+04:19.620 --> 04:26.160
+Jika kita memiliki algoritma kompresi, katakanlah fungsi ini adalah kompresi kecil ini dan inputnya
+
+04:26.250 --> 04:31.640
+adalah kotak kecil ini apa oh notasi besar fungsi ini.
+
+04:31.860 --> 04:35.580
+Nah jika kita punya satu elemen itu hanya akan
+
+04:38.620 --> 04:39.960
+memampatkan satu item.
+
+04:40.090 --> 04:47.430
+Jika kami memiliki beberapa elemen lagi, kami masih harus menjalankan setiap kotak melalui
+
+04:47.430 --> 04:50.400
+algoritma kompresi untuk mengompresi kotak.
+
+04:50.450 --> 04:58.610
+Jika kita melihat fungsi untuk kotak kompres saat kita menggunakan E. S. dan sintaks ESX di sini tapi kami
+
+04:58.610 --> 05:04.130
+pada dasarnya mengulang melalui setiap kotak dan dalam kasus lain kami hanya membatalkan logging itu.
+
+05:04.280 --> 05:11.960
+Tetapi Anda dapat melihat di sini bahwa semua ini kami lakukan ketika input meningkatkan kotak, jumlah
+
+05:11.960 --> 05:18.100
+kotak meningkatkan jumlah operasi meningkat dan itu adalah waktu linear O-N.
+
+05:19.460 --> 05:26.270
+Selamat Anda baru saja belajar notasi O besar pertama Anda dan ini mungkin yang paling umum tetapi
+
+05:26.270 --> 05:28.090
+ada beberapa yang lain.
+
+05:28.220 --> 05:35.610
+Jadi apa notasi Big-O lain yang kita miliki selain waktu linear untuk itu Anda harus terus
+
+05:35.610 --> 05:36.460
+menonton.
+
+05:36.510 --> 05:38.360
+Saya akan melihat di video Bebai berikutnya.

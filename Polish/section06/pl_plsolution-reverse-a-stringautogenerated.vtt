@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.730 --> 00:08.450
+Witamy teraz, nie będę omawiać wszystkich naszych kroków, które wykorzystaliśmy w sekcji, w której mówiliśmy o
+
+00:08.450 --> 00:15.540
+tym, jak rozwiązywać problemy i jak rozmawiać o swoich problemach przed rozmową kwalifikacyjną.
+
+00:15.950 --> 00:21.620
+A my nawet oglądaliśmy Die google wideo o wszystkich rzeczach, które musisz zrobić, ponieważ to zajmie
+
+00:21.620 --> 00:22.870
+zbyt dużo czasu.
+
+00:22.880 --> 00:28.500
+Zamierzam przyspieszyć sprawę i porozmawiać o kluczowych punktach, w jaki sposób rozwiązać ten problem.
+
+00:28.760 --> 00:37.540
+Cóż, aby odwrócić strunę, pierwszą rzeczą, którą chcemy zrobić, jest pewnego rodzaju sprawdzanie naszego implantu.
+
+00:37.730 --> 00:43.340
+Nie możemy po prostu założyć, że zawsze otrzymamy ciąg znaków. Co
+
+00:43.340 --> 00:48.950
+jeśli ktoś wywoła funkcję zwrotną z dobrze niezdefiniowaną lub z liczbą.
+
+00:48.950 --> 00:50.050
+Co się wtedy stanie.
+
+00:50.480 --> 00:53.750
+Zawsze warto zacząć od sprawdzenia danych wejściowych.
+
+00:53.750 --> 00:56.360
+W moim przypadku zrobię prosty czek.
+
+00:56.390 --> 01:01.610
+Powiedzmy, że jeśli nie ma struny.
+
+01:01.850 --> 01:11.950
+To jest niezdefiniowane lub może długość kropki jest mniejsza niż 2.
+
+01:11.990 --> 01:22.160
+Oznacza to, że jeśli długość łańcucha jest mniejsza niż 2, oznacza to, że otrzymuję tylko jedną literę lub brak liter, w którym to
+
+01:22.250 --> 01:25.010
+przypadku nie musimy wykonywać żadnych operacji.
+
+01:25.010 --> 01:26.600
+Jest już trochę odwrotnie.
+
+01:27.860 --> 01:34.610
+Możemy dodać tutaj różne sprawdzanie poprawności danych wejściowych, np. Używając słowa kluczowego w javascriptu, aby sprawdzić, czy jest
+
+01:34.610 --> 01:36.110
+to typ łańcucha.
+
+01:36.440 --> 01:38.950
+Ale to jest coś, co możesz zrobić samemu.
+
+01:39.080 --> 01:42.000
+Tak naprawdę, zaimplementujmy to, skoro i tak tu jesteśmy, tylko po to, żeby wam pokazać.
+
+01:42.170 --> 01:53.790
+Mogę więc powiedzieć rodzaj ciągu, jeśli nie jest on równy typowi ciągu SDR, który jest parametrem, który otrzymujemy jako
+
+01:53.820 --> 01:56.280
+równy typowi łańcucha.
+
+01:56.280 --> 02:03.590
+W takim razie możemy po prostu wrócić.
+
+02:04.200 --> 02:04.970
+To
+
+02:10.070 --> 02:14.810
+nie w porządku, zróbmy operację, aby odwrócić ciąg znaków.
+
+02:15.290 --> 02:17.420
+Cóż, pomyślmy o tym.
+
+02:17.450 --> 02:20.780
+Chcemy przekonwertować go na tablicę.
+
+02:20.840 --> 02:29.260
+Tak więc zamierzam stworzyć tablicę wsteczną i właśnie to powrócimy z funkcji.
+
+02:29.400 --> 02:38.000
+Zamierzam zwrócić tablicę, która jest odwrócona, ale chcemy zwrócić ciąg znaków w prawo.
+
+02:38.000 --> 02:39.390
+Odwraca ciąg znaków.
+
+02:39.410 --> 02:40.980
+Powinno to zwrócić ciąg znaków.
+
+02:42.060 --> 02:48.120
+Mimo że na końcu chcemy przekonwertować wszystko, co otrzymamy, na tablicę, chcemy ją z powrotem przekształcić w
+
+02:48.120 --> 02:49.160
+ciąg znaków.
+
+02:49.500 --> 03:02.900
+Tak więc w javascript możemy zrobić dwie metody łańcuchowe lub metodę wspólną i mówimy, że łączymy wszystkie elementy w
+
+03:03.020 --> 03:04.020
+tablicy.
+
+03:04.100 --> 03:15.790
+Teraz zajmiemy się dnem tablicy lub ciągu, ponieważ będziemy go często używali i nie chcemy
+
+03:15.790 --> 03:18.180
+powtarzać kodu.
+
+03:18.330 --> 03:25.060
+Powiem więc, że dł. Minus jeden jest tym, ile pozycji mamy w ciągu.
+
+03:25.270 --> 03:26.980
+A może powinniśmy nazwać
+
+03:30.830 --> 03:33.330
+te przedmioty lub faktycznie wszystkie przedmioty.
+
+03:33.400 --> 03:34.820
+Lepsze imię.
+
+03:34.950 --> 03:36.800
+Teraz te wszystkie przedmioty.
+
+03:36.930 --> 03:44.310
+Więc przejdziemy do pętli nasz łańcuch powie "pozwól".
+
+03:44.460 --> 03:47.520
+Wzywa do wszystkich przedmiotów.
+
+03:50.100 --> 03:56.560
+Tak więc zamierzam równać się z wieloma postaciami, które mamy w naszym łańcuchu i
+
+03:56.560 --> 03:59.850
+będziemy kontynuować, dopóki nie będę równa zero.
+
+04:03.520 --> 04:10.030
+I wszystko, co mamy zamiar zrobić, ponieważ chcemy iść od tyłu do przodu.
+
+04:10.370 --> 04:13.620
+Zamierzamy to udokumentować.
+
+04:13.640 --> 04:18.950
+Więc zaczniemy od końca łańcucha, więc zaczniemy od
+
+04:18.980 --> 04:29.780
+I C R D i A i wstawimy je do tablicy, w której jeden po drugim tworzyliśmy tablicę wstecz.
+
+04:29.790 --> 04:40.760
+W tej pętli wszystko, co zamierzamy zrobić, to powiedzieć, że nie przesuwaj każdego przedmiotu, który zamierzamy stworzyć.
+
+04:40.770 --> 04:41.930
+Więc SDR i
+
+04:44.770 --> 04:46.380
+ja wiemy, o czym myślisz.
+
+04:46.620 --> 04:50.860
+No cóż, po prostu nie konwertujemy łańcucha na tablicę.
+
+04:50.890 --> 04:56.710
+Powiedziałeś mi o przekształceniu łańcuchów w tablicę i tak naprawdę nie zrobiliśmy tego.
+
+04:56.770 --> 05:06.860
+A javascript ma faktycznie podział punktów SDR lub możemy uruchomić polecenie split, aby dzielić rzeczy na tablicę, ale z
+
+05:06.860 --> 05:16.430
+javascript możemy po prostu używać łańcuchów jako tablic i uzyskiwać dostęp do każdej własności, tak jak w przypadku
+
+05:16.430 --> 05:21.480
+Braque'a i notacji, tak aby w zasadzie nasze tablice.
+
+05:21.800 --> 05:24.260
+Nie musimy więc uruchamiać żadnych poleceń dzielenia.
+
+05:24.260 --> 05:33.440
+To też działa i wszystko, co robimy, polega na tym, że cofamy się jeden po drugim i wciskamy
+
+05:33.440 --> 05:37.570
+każdy element naszego podanego łańcucha do naszej tablicy.
+
+05:38.060 --> 05:48.570
+Jeśli więc konsola zostanie zapisana tutaj, zanim uruchomimy wspólne polecenie, tablica wsteczna i odwrócenie
+
+05:51.580 --> 05:54.680
+Iranu i odwróćmy łańcuch,
+
+05:58.960 --> 06:01.440
+uruchommy to.
+
+06:01.680 --> 06:09.450
+Być może zauważyłeś, że ten daszek tak naprawdę nie pochodzi z niczego, co powinno być totalnymi przedmiotami.
+
+06:09.450 --> 06:15.580
+Więc to jest całkowita suma przedmiotów.
+
+06:15.580 --> 06:17.450
+To jest problem z kodowaniem życia.
+
+06:17.470 --> 06:23.290
+Starałem się pokazać, że wszyscy popełniają błędy nawet ja i jest to
+
+06:23.290 --> 06:33.730
+dobre, ponieważ w ten sposób przemyślisz problem, a te wszystkie elementy pamiętają, że chcemy kontynuować tak długo, jak długo jestem większy lub
+
+06:33.820 --> 06:35.330
+równy zeru.
+
+06:35.350 --> 06:43.450
+Więc jeśli teraz popatrzę na to, zobaczymy, że mamy tablicę z wszystkimi naszymi wstecznymi przedmiotami tutaj.
+
+06:44.250 --> 06:54.470
+Widzimy tutaj, że zwracana przez nas wartość jest ciągiem wstecznym, który otrzymujemy, ponieważ dołączyliśmy do
+
+06:54.740 --> 06:56.790
+niego na końcu.
+
+06:56.950 --> 06:57.740
+Bardzo fajny.
+
+06:57.940 --> 06:59.830
+Mam nadzieję, że dostałeś tę odpowiedź.
+
+07:00.590 --> 07:09.590
+A może masz lepszą odpowiedź niż ja, ponieważ to, co usłyszałem, niekoniecznie jest najczystszym sposobem i w
+
+07:09.590 --> 07:15.710
+zależności od tego, jakiego języka programowania używasz, mógłbyś zbudować metody, które
+
+07:15.710 --> 07:17.740
+uprościłyby ten krok.
+
+07:17.810 --> 07:18.890
+Pozwól, że ci pokażę, co mam na myśli.
+
+07:19.840 --> 07:26.470
+W javascript na przykład możemy użyć niektórych wbudowanych metod, które pochodzą z wyścigu, aby uprościć tę całość i
+
+07:26.470 --> 07:29.900
+sprawić, by nasz kod był dużo bardziej czytelny.
+
+07:29.920 --> 07:32.680
+Stwórzmy nową funkcję i
+
+07:36.170 --> 07:44.540
+zamierzam nazwać to odwrotem, a ten odwrócony gulasz znowu otrzyma jakiś sygnał wejściowy.
+
+07:44.660 --> 07:48.220
+Nie zrobię żadnego sprawdzenia poprawności danych wejściowych dla tego.
+
+07:48.260 --> 07:51.250
+Możesz po prostu założyć, że możemy po prostu skopiować i wkleić to tutaj.
+
+07:52.050 --> 07:55.940
+Ale tutaj możemy zrobić proste oświadczenie zwrotne.
+
+07:55.950 --> 08:05.550
+Chwyć za łańcuch polecenia split, ponieważ tym razem nie będziemy mieć dostępu do oka, tak jak
+
+08:05.550 --> 08:06.620
+tutaj.
+
+08:06.660 --> 08:14.730
+Zamierzamy przekształcić go w tablicę, abyśmy mogli użyć wbudowanej metody, która pochodzi z tablic javascript
+
+08:14.730 --> 08:19.310
+zwanych reverse, a ta odwrotność ma miejsce.
+
+08:19.410 --> 08:20.100
+Podczas gdy my właśnie robiliśmy.
+
+08:20.100 --> 08:24.740
+Tutaj dla nas, a teraz po prostu dołączyliśmy do tego na końcu.
+
+08:25.810 --> 08:34.300
+Używając wbudowanej metody o nazwie reverse, uniknąłem całej tej pracy.
+
+08:34.300 --> 08:35.450
+Jakie to miłe.
+
+08:35.470 --> 08:36.370
+Zobaczmy, czy to działa.
+
+08:36.370 --> 08:41.350
+Zamierzam powiedzieć odwrotnie, żeby pobiec i spojrzeć na to.
+
+08:41.350 --> 08:42.280
+Nadal działa.
+
+08:43.180 --> 08:45.220
+A co z innym rozwiązaniem.
+
+08:45.390 --> 08:47.300
+Znowu na wiele różnych sposobów.
+
+08:47.350 --> 08:55.200
+Powiedzmy, że ankieter mówi, że istnieje bardziej nowoczesny, czystszy sposób, w jaki można wykonać tę funkcję,
+
+08:56.430 --> 09:01.640
+a ponieważ w javascript znajduje się nowa składnia iOS 6.
+
+09:01.990 --> 09:11.910
+Możesz nawet utworzyć funkcję jednoliniową, wywołać ją w odwrotnej kolejności, która ma zamiar pobrać ciąg
+
+09:11.910 --> 09:16.170
+znaków, i zrobi podział na kropki.
+
+09:19.760 --> 09:25.130
+I ponownie wykonaj dokładnie to samo, używając wszystkich funkcji tym razem.
+
+09:25.240 --> 09:30.840
+A to powinno nadal wyglądać tak samo.
+
+09:30.920 --> 09:38.540
+A jeśli chcesz mieć ochotę, możesz ponownie użyć nowej funkcji javascript, która jest destrukturyzacją lub
+
+09:38.630 --> 09:41.290
+niezniszczeniem, to jest operator rozprzestrzeniania.
+
+09:41.360 --> 09:46.570
+Jeśli to zrobię, nie będziemy już potrzebować podziału.
+
+09:46.580 --> 09:49.880
+Mogę to uruchomić i otrzymuję to samo.
+
+09:51.100 --> 09:57.190
+Ponownie chcę tylko pokazać wam, że istnieje wiele różnych sposobów rozwiązania problemu, a
+
+09:57.190 --> 10:06.130
+osoba przeprowadzająca wywiad nie zamierza odrzucić cię za pracę tylko dlatego, że zastosowałeś ją w ten sposób w porównaniu do
+
+10:06.130 --> 10:07.030
+tego.
+
+10:07.090 --> 10:10.450
+To zależy od sposobu dostarczenia rozwiązania.
+
+10:10.450 --> 10:16.140
+I to jest coś, o czym rozmawialiśmy w naszym dziale, jak rozwiązywać problemy, w jaki sposób
+
+10:16.140 --> 10:19.760
+chcesz omówić problem, wyjaśnij osobie przeprowadzającej wywiad, dlaczego to zrobiłeś.
+
+10:19.970 --> 10:26.900
+I tak długo, jak rozumiesz plusy i minusy każdego rozwiązania, to właśnie dlatego jesteś świetnym inżynierem.
+
+10:27.960 --> 10:28.970
+Zobaczę w następnym.

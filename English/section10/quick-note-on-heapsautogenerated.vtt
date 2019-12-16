@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.060 --> 00:02.080
+Welcome back.
+
+00:02.080 --> 00:04.480
+I wanted to add a quick gotcha.
+
+00:04.540 --> 00:13.030
+When it comes to heaps that is when you hear memory heaps that's not the same as the sheep data structure
+
+00:13.660 --> 00:19.090
+you might have heard of memory heaps and something like a javascript runtime engine where we have a
+
+00:19.090 --> 00:20.300
+stack and a heap.
+
+00:20.340 --> 00:24.190
+There are two locations where we are able to keep memory.
+
+00:24.190 --> 00:30.730
+Now this ship you can think of as free storage is a region in our memory where we can store arbitrary
+
+00:30.730 --> 00:31.560
+data.
+
+00:31.900 --> 00:35.610
+Languages like C also have this heap.
+
+00:35.710 --> 00:38.600
+Now the naming is just coincidental.
+
+00:38.660 --> 00:45.060
+And he has no real relationship with the data structure that is named heap.
+
+00:45.130 --> 00:45.980
+Keep that in mind.
+
+00:46.030 --> 00:48.490
+He is simply a heap of memory.
+
+00:48.490 --> 00:55.780
+If you're talking about a language runtime for example versus a heap data structure which is what we're
+
+00:55.780 --> 01:01.030
+talking about now I want to clarify that for you because when I was learning about heaps.
+
+01:01.030 --> 01:05.730
+For some reason I always thought they were the same thing but they're not just throwing it out there.
+
+01:05.770 --> 01:07.230
+I'll see him the next video.
+
+01:07.240 --> 01:07.740
+Bye.

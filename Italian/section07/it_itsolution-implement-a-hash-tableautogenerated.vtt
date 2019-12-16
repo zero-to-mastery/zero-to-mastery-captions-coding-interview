@@ -1,0 +1,544 @@
+WEBVTT
+
+00:00.900 --> 00:02.010
+Ben tornato.
+
+00:02.010 --> 00:06.370
+È ora di passare attraverso la nostra implementazione della tabella hash.
+
+00:06.570 --> 00:12.030
+Ora, prima di iniziare, voglio menzionare qualcosa di cui forse ti starai chiedendo,
+
+00:12.120 --> 00:13.890
+è questa sottolineatura qui.
+
+00:13.890 --> 00:18.880
+Cosa significa questo nella maggior parte degli altri linguaggi come Java.
+
+00:19.780 --> 00:27.340
+Quando crei una classe, puoi avere proprietà private che sono proprietà a cui non posso accedere al di fuori di
+
+00:27.340 --> 00:28.150
+questa classe.
+
+00:28.270 --> 00:38.800
+Quindi non sarei in grado di eseguire il mio trattino di sottolineatura della tabella hash e accedere a questa proprietà o metodo.
+
+00:39.010 --> 00:43.800
+Ora con javascript E6 non è davvero possibile.
+
+00:44.040 --> 00:52.680
+E c'è uno standard comune che è quello di mettere underscore qui e il mondo javascript che dice che questa
+
+00:52.680 --> 00:54.770
+è una proprietà privata.
+
+00:54.900 --> 00:58.410
+Ora questo è davvero privo di significato.
+
+00:58.410 --> 01:07.350
+Posso ancora accedere al metodo hash ma è uno standard per sviluppatori e la comunità javascript per far sapere agli
+
+01:07.470 --> 01:14.760
+altri sviluppatori che non dovresti dirlo anche se tecnicamente non puoi e ci sono modi per
+
+01:14.760 --> 01:16.190
+farlo funzionare.
+
+01:16.380 --> 01:23.070
+E a metà proprietà private, ma richiede cose come simboli di chiusura o mappe deboli che ancora non rientrano
+
+01:23.070 --> 01:26.240
+nello scopo di questo corso e non dobbiamo preoccuparci.
+
+01:26.580 --> 01:28.850
+Ecco da dove viene il carattere di sottolineatura.
+
+01:28.950 --> 01:32.630
+Di solito non accediamo alla funzione di hash come questa.
+
+01:32.650 --> 01:37.080
+Proprio ora che ce l'abbiamo fatta parliamo un po 'di cosa fa questo.
+
+01:37.350 --> 01:45.430
+Se entro e qui le uve creiamo prima una nuova variabile che è un hash uguale a zero.
+
+01:45.790 --> 01:50.530
+E poi questa chiave Prenderemo il lenth o l'uva.
+
+01:50.530 --> 02:02.370
+Quindi questo è uno due tre quattro cinque sei e aggiungeremo zero che viene dal codice carattere hash Plus
+
+02:02.640 --> 02:04.160
+key in.
+
+02:04.450 --> 02:13.470
+E il codice carattere in javascript ci dà semplicemente un numero intero compreso tra 0 e questo numero che rappresenta il
+
+02:13.470 --> 02:15.120
+codice UTF 16.
+
+02:15.120 --> 02:23.420
+Quindi è solo una codifica che mi sta dicendo di darmi un codice di carattere perché ricorda che
+
+02:23.720 --> 02:28.920
+una stringa o una lettera è rappresentata come un numero.
+
+02:28.940 --> 02:35.890
+Quindi questo metodo ci consente di dire all'indice tutto ciò che inseriamo nel parametro.
+
+02:35.950 --> 02:41.330
+Quindi diciamo che stiamo guardando l'indice di I il primissimo su sarà g.
+
+02:41.620 --> 02:45.070
+Stiamo per ottenere il codice del personaggio per G.
+
+02:45.100 --> 02:50.790
+Questo è un numero in cui lo moltiplichiamo per indice.
+
+02:50.810 --> 02:59.900
+Ancora una volta solo per assicurarsi che s rende un unico e poi usiamo quello che viene chiamato
+
+02:59.900 --> 03:08.770
+l'operatore modulo per assicurarsi che questo rimanga entro la lunghezza di 50 la dimensione dei nostri dati.
+
+03:09.120 --> 03:10.650
+E poi restituiamo l'hash.
+
+03:10.770 --> 03:20.380
+Un modo semplice per vedere cosa sta succedendo qui è semplicemente il dialogo di console Passhe.
+
+03:20.380 --> 03:31.350
+Se corro questo, vediamo che attraverserà le nostre uve carattere per carattere.
+
+03:31.520 --> 03:41.500
+Sta per generare una sorta di hash e poiché questo hash viene costantemente riavviato includiamo qualsiasi cosa
+
+03:42.100 --> 03:43.310
+generata.
+
+03:43.310 --> 03:45.050
+Vediamo che il primo è zero.
+
+03:45.280 --> 03:49.190
+Dirà 0 più qualunque cosa sia.
+
+03:49.330 --> 03:55.210
+Quindi il prossimo hash iterazione sarà uguale a 14 e genererà qualcos'altro che è 8
+
+03:55.210 --> 03:59.080
+e continua andando continua fino ad arrivare a 23.
+
+03:59.130 --> 04:02.360
+Puoi prendere il tuo tempo e leggere questo codice se lo vuoi davvero.
+
+04:02.370 --> 04:05.350
+Ancora una volta questo non è l'obiettivo di questo video, quindi andiamo avanti.
+
+04:07.600 --> 04:09.000
+Usando la nostra funzione di hash.
+
+04:09.070 --> 04:12.180
+Facciamo il nostro primo metodo.
+
+04:13.290 --> 04:17.750
+Creiamo il metodo set.
+
+04:17.940 --> 04:25.720
+Questo metodo riceverà una chiave e un valore.
+
+04:25.870 --> 04:33.650
+E solo così possiamo vedere questo e quello che accadrà eseguiremo questo metodo qui dicendo che vogliamo che l'uva
+
+04:33.800 --> 04:35.650
+sia uguale a 10000.
+
+04:35.890 --> 04:38.420
+Un sacco di uva perché sono deliziosi.
+
+04:38.450 --> 04:45.620
+Se eseguo ciò, viene indefinito perché mentre questo non sta facendo nulla, la prima cosa
+
+04:45.620 --> 04:53.520
+che vogliamo fare è creare una variabile denominata Let address che rappresenterà dove vogliamo memorizzare queste informazioni.
+
+04:55.390 --> 04:57.070
+E diremo
+
+05:02.610 --> 05:14.590
+questo punto così tutto quello che stiamo dicendo è archiviare questi dati che inseriremo il valore chiave in questo spazio indirizzo
+
+05:15.130 --> 05:21.130
+creato dalla nostra funzione hash e gli diamo la chiave dell'uva.
+
+05:21.190 --> 05:23.050
+Ricorda la nostra piccola animazione.
+
+05:23.080 --> 05:28.900
+Stiamo mandando le uve in quella piccola scatola magica che ha la funzione di hash.
+
+05:29.380 --> 05:34.940
+Da lì, diciamo semplicemente se questo indirizzo di dati
+
+05:37.670 --> 05:49.060
+punto se non esiste e non c'è nulla perché ricordare in una tabella hash possiamo avere collisioni e poiché abbiamo solo
+
+05:49.390 --> 05:56.040
+50 spazi 50 shelf qui potremmo avere queste collisioni con dati sufficienti.
+
+05:56.440 --> 06:00.140
+Quindi controlleremo se non c'è niente lì.
+
+06:01.170 --> 06:04.060
+In tal caso, aggiungerò semplicemente quei dati.
+
+06:04.110 --> 06:06.130
+Stiamo andando
+
+06:08.950 --> 06:15.080
+a salvare questo indirizzo dati sarà una matrice.
+
+06:15.170 --> 06:21.960
+E in questo nuovo spazio nuovo spazio degli indirizzi
+
+06:30.190 --> 06:36.490
+stiamo semplicemente andando a fare valore chiave push.
+
+06:36.530 --> 06:38.420
+Quindi eseguiamo questo e vediamo cosa succede.
+
+06:39.500 --> 06:41.810
+E ho un indirizzo sbagliato qui.
+
+06:41.840 --> 06:43.360
+Facciamolo di nuovo.
+
+06:43.430 --> 06:52.290
+Vengo definito ma vediamo cosa succede se ho solo qui i dati di questo punto di Konsole dot.
+
+06:55.750 --> 06:57.000
+Beh, dai un'occhiata.
+
+06:57.610 --> 07:04.140
+Abbiamo 23 articoli vuoti sul 24 ° articolo.
+
+07:04.180 --> 07:11.530
+Abbiamo uva 10000 una matrice qui e poi 26 articoli vuoti dopo quello.
+
+07:11.570 --> 07:20.220
+Ricorda che abbiamo 50 gusci nella nostra memoria e abbiamo 23 24 più 26 che è 50.
+
+07:20.480 --> 07:23.330
+Tranne che le nostre uve sono state inserite da qualche parte e 50.
+
+07:23.330 --> 07:25.960
+Sembra il 24 spot.
+
+07:26.000 --> 07:26.730
+Molto bello
+
+07:27.920 --> 07:34.070
+Ma cosa succede se questo esiste già.
+
+07:34.130 --> 07:42.860
+Se cambio la tabella hash per dire solo due spazi di memoria e faccio clic su run here
+
+07:42.860 --> 07:52.790
+ne ottengo uno vuoto e uva e se cambio questo intorno oh vedete che se clicco di nuovo e diciamo torniamo
+
+07:53.060 --> 07:54.380
+solo all'uva.
+
+07:54.380 --> 07:57.920
+Guarda cosa succede al mio hash table.
+
+07:57.920 --> 08:04.790
+Ho fatto clic su Esegui e ho appena cancellato la mia voce precedente.
+
+08:04.920 --> 08:08.150
+Abbiamo una collisione ma non stiamo facendo nulla al riguardo.
+
+08:08.160 --> 08:13.970
+E abbiamo appena cancellato i nostri dati che avrebbero potuto essere davvero importanti per i dati degli utenti.
+
+08:13.980 --> 08:15.650
+Sicuramente non lo vogliamo.
+
+08:15.660 --> 08:25.900
+Quindi, per risolvere ciò, diciamo semplicemente se, perché stiamo controllando qui se non c'è nulla in quello spazio degli
+
+08:25.900 --> 08:27.650
+indirizzi, fare questo.
+
+08:27.910 --> 08:35.250
+Altrimenti, aggiungi semplicemente a quell'array.
+
+08:35.590 --> 08:37.090
+Quindi in realtà
+
+08:39.910 --> 08:47.690
+possiamo semplicemente eseguire lo stesso comando qui e il modo migliore e più pulito per farlo è quello di eliminare il
+
+08:48.740 --> 08:54.620
+resto perché, a prescindere dal fatto che continueremo a spingere la chiave e il valore, aggiungeremo
+
+08:54.830 --> 08:58.500
+sempre la chiave e valore che impostiamo aggiungiamo ai dati.
+
+08:58.940 --> 09:05.760
+Quindi tutto ciò che facciamo è rimuovere questo in modo che quando eseguo questo.
+
+09:05.970 --> 09:08.180
+E solo così sappiamo cosa sta succedendo.
+
+09:08.400 --> 09:14.040
+Ritorniamo questo pensiero che sono qui che ho intenzione di correre.
+
+09:14.550 --> 09:24.140
+E se aggiungiamo qui diciamo un altro articolo questa volta diremo mele e solo 54 mele.
+
+09:24.140 --> 09:27.290
+Se corro questo, vedi cosa è successo qui.
+
+09:28.870 --> 09:38.410
+Se guardi da vicino abbiamo un oggetto vuoto e poi un array che contiene al suo interno.
+
+09:38.410 --> 09:48.090
+Il primo indice che è un array e un secondo indice che è un altro tasso perché abbiamo appena inserito il nostro array
+
+09:48.370 --> 09:52.950
+esistente perché il nostro spazio di memoria è solo 2.
+
+09:53.190 --> 09:54.360
+Molto bello
+
+09:54.360 --> 09:56.070
+Non è stato male.
+
+09:56.070 --> 09:57.060
+Andiamo avanti.
+
+09:57.060 --> 10:04.920
+Il prossimo è bene, voglio essere in grado di afferrare uva e mele, possiamo usare il
+
+10:05.280 --> 10:11.030
+metodo get qui che riceverà una chiave e questo metodo funzionerà molto
+
+10:13.920 --> 10:16.230
+bene semplicemente dicendo get.
+
+10:16.270 --> 10:24.090
+E poi, mentre vogliamo afferrare quali saranno le uve, faremo esattamente la stessa cosa in quanto la
+
+10:24.090 --> 10:30.280
+passeremo attraverso quella scatola nera dove creeremo o useremo la funzione di hash per
+
+10:30.280 --> 10:33.320
+ottenere indirizzo di dove vogliamo andare.
+
+10:34.150 --> 10:41.290
+E ora abbiamo l'indirizzo da cui vogliamo prendere le nostre informazioni.
+
+10:41.300 --> 10:45.200
+Tuttavia ricorda che memorizziamo queste informazioni in un secchio.
+
+10:45.240 --> 10:48.400
+Quindi abbiamo uva e 10000.
+
+10:48.600 --> 10:49.570
+Come lo prendiamo?
+
+10:49.620 --> 10:51.100
+Sappiamo dove trovarlo da ora.
+
+10:51.120 --> 11:00.380
+Abbiamo l'indirizzo ma ora abbiamo bisogno di rompere il cavo e prendere l'uva e poi 10000 o mele e 954.
+
+11:00.660 --> 11:01.780
+Lascia che ti mostri cosa intendo.
+
+11:02.040 --> 11:07.590
+Beh, prima creare una variabile dice che dice il bucket corrente.
+
+11:08.010 --> 11:13.280
+Questo sarà solo questo duro dotto o indirizzo dati solo per non ripeterci.
+
+11:13.410 --> 11:20.760
+E abbiamo un riferimento a questo indirizzo o l'indirizzo e il valore dei dati.
+
+11:20.760 --> 11:31.920
+Quindi questo significa che se cancelliamo il log current bucket e lo faccio vedere che ho il bucket corrente.
+
+11:32.010 --> 11:34.140
+Anche se questo ha due elementi.
+
+11:34.140 --> 11:40.070
+Ricorda che è tecnicamente solo all'interno del proprio bucket all'interno di un array.
+
+11:40.200 --> 11:47.750
+Se aumentiamo questo spazio di memoria, diciamo 50, vediamo che questo secchio contiene uva.
+
+11:48.150 --> 11:53.250
+Quindi stiamo acquisendo queste informazioni, ma tutto ciò che vogliamo fare è restituire 10000.
+
+11:53.250 --> 12:03.090
+È così che funzionano le tabelle hash o la funzione di hash in entrata funziona bene, tutto quello che dobbiamo fare è
+
+12:03.090 --> 12:07.630
+dire se il bucket attuale e diremo Dot Glenn.
+
+12:07.770 --> 12:12.090
+Questo è se questo secchio attuale ha qualcosa in esso.
+
+12:12.090 --> 12:20.240
+In tal caso, faremo qualcosa altrimenti andremo solo indefiniti perché non c'è nulla
+
+12:20.260 --> 12:25.510
+nel secchio. Stiamo verificando se questo esiste realmente.
+
+12:25.520 --> 12:32.140
+Quindi se non c'è nulla nell'array se la lunghezza è 0 e l'array
+
+12:32.140 --> 12:39.160
+è vuoto, allora non ci interessa perché in realtà non abbiamo nemmeno bisogno della lunghezza
+
+12:39.160 --> 12:50.650
+dell'anno perché ricorda che inizialmente sarà solo un array vuoto con undefined e aggiungiamo una matrice a ogni slot ogni volta che impostiamo qualcosa.
+
+12:50.650 --> 12:57.490
+Ed è un indirizzo vuoto, quindi possiamo semplicemente lasciarlo così perché se è indefinito
+
+12:57.520 --> 13:01.150
+il male salta e torna indefinito ora.
+
+13:01.170 --> 13:10.920
+E qui faremo un ciclo for perché ricordiamo che potremmo avere più elementi in questo bucket come abbiamo visto quando
+
+13:10.920 --> 13:22.930
+abbiamo avuto spazi di memoria, nel qual caso permettetemi di dimostrarlo in modo tale che possiamo vedere in un run e in un bucket corrente rispetto
+
+13:24.040 --> 13:27.250
+all'esecuzione di policy che ancora .
+
+13:27.250 --> 13:36.680
+Va bene se cancelliamo il bucket corrente di dialogo e facciamo ciò, vediamo che abbiamo due elementi in quel bucket.
+
+13:36.820 --> 13:46.380
+Quindi avremo bisogno di ripetere il ciclo utilizzando il nostro ciclo preferito per il quale abbiamo fatto un sacco ormai.
+
+13:46.450 --> 13:50.760
+Stiamo andando a dire finché io sono meno del secchio della gru.
+
+13:50.780 --> 13:58.950
+Lenth incrementa appena e all'interno di qui.
+
+13:59.140 --> 14:01.480
+Questo è un po 'complicato quindi spero che tu segua.
+
+14:01.480 --> 14:11.310
+Dirò se il bucket attuale di cui è l'indice, quindi ricordo che dirà zero
+
+14:11.310 --> 14:21.450
+che sta per afferrare questo poi uno che sta per afferrare questo se Khurram indietro l'uva.
+
+14:21.460 --> 14:30.620
+Quindi se faccio zero qui significa che prendi il primo nel nostro caso il ghiaccio, quindi sarà a
+
+14:30.620 --> 14:39.450
+zero prima afferrare questo primo array quindi afferrare l'indice zero all'interno di questo array che sarà uva.
+
+14:39.630 --> 14:45.000
+E poi, una volta che lo loop la prossima volta intorno a un occhio è uno sarà mele.
+
+14:45.330 --> 14:49.790
+Controlla quello contro la chiave.
+
+14:49.810 --> 14:54.130
+Ricorda la chiave che riceviamo qui che stiamo cercando.
+
+14:54.160 --> 15:05.620
+Quindi se l'uva che è la chiave si abbina con questo oggetto in quel caso, appena restituito l'attuale tasca
+
+15:06.100 --> 15:11.180
+la cravatta e uno perché vogliamo restituire diecimila.
+
+15:11.410 --> 15:20.090
+Spero che tu cada qui perché se corro così ottengo diecimila l'uva è di 10000.
+
+15:20.260 --> 15:24.970
+Se succede qui, è 54.
+
+15:24.980 --> 15:26.670
+Quant'è fico.
+
+15:26.780 --> 15:34.040
+E guardando questo spero che tu capisca a un livello più profondo le implicazioni della complessità temporale
+
+15:34.040 --> 15:40.090
+delle tabelle hash anche se stiamo facendo un ciclo qui all'interno della funzione hash.
+
+15:40.190 --> 15:43.330
+Ricorda che le funzioni di hash sono davvero molto veloci.
+
+15:43.520 --> 15:48.210
+Stiamo semplicemente passandoci sopra la chiave in modo da non considerare questo come un evento completo.
+
+15:48.410 --> 15:49.870
+Questo è molto molto veloce.
+
+15:49.880 --> 15:55.560
+È uno di quelli quando impostiamo qualcosa che qui non ha loop.
+
+15:55.560 --> 15:57.960
+Lo stiamo solo aggiungendo ai nostri dati.
+
+15:58.170 --> 16:00.090
+Lo stiamo solo spingendo.
+
+16:00.190 --> 16:02.890
+Quindi questo è uno.
+
+16:03.120 --> 16:17.310
+E se andiamo a prendere la maggior parte del tempo se non ci sono collisioni sarà 0 0 1 e nella vita reale la maggior parte delle volte puoi considerare
+
+16:17.370 --> 16:20.160
+che è una cosa sola.
+
+16:20.400 --> 16:27.840
+Ma nel nostro pessimo esempio con solo due spazi di memoria e non un'ottima funzione di hash, questo
+
+16:27.840 --> 16:29.720
+può diventare tutto finito.
+
+16:31.580 --> 16:36.650
+Ma per ora perché siamo bravi programmatori che non accadrà bene.
+
+16:36.770 --> 16:38.180
+Tutto andrà bene.
+
+16:38.210 --> 16:42.180
+Abbiamo 0 di 1 get.
+
+16:42.380 --> 16:52.050
+Abbiamo il ciclo for qui che potrebbe creare quella lista che abbiamo visto nel nostro esempio vedere questa lista che abbiamo
+
+16:52.050 --> 16:52.580
+qui.
+
+16:52.620 --> 16:55.230
+Questo è il motivo per cui abbiamo creato e sarebbe tutto.
+
+16:55.230 --> 17:01.260
+E se questa lista continuava a crescere e continuava a crescere.
+
+17:01.330 --> 17:07.360
+Ma c'è un altro metodo che voglio che costruiamo e mostriamo a voi.
+
+17:07.360 --> 17:17.940
+Un altro aspetto negativo delle tabelle hash E se volessimo passare attraverso tutte le chiavi della tabella hash, come
+
+17:17.940 --> 17:18.760
+faremo.
+
+17:19.680 --> 17:21.660
+Proveremo a implementarlo nel prossimo video.

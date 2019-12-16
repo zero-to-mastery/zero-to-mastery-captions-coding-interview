@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.580 --> 00:07.440
+Witamy ponownie w tej sekcji dowiedzieliśmy się wszystkiego o połączonych listach.
+
+00:07.520 --> 00:15.050
+Dowiedzieliśmy się, że nie jest on wbudowany w wiele języków, takich jak javascript, ale robi to w innych.
+
+00:15.170 --> 00:21.030
+Wynika to z faktu, że połączone listy są strukturami danych niskiego poziomu.
+
+00:21.040 --> 00:25.100
+Jest często używany w innych strukturach danych, takich jak tabele mieszania.
+
+00:25.330 --> 00:31.390
+Jak zobaczymy w niektórych nadchodzących, takich jak stosy i Qs, będziemy mówić
+
+00:32.410 --> 00:40.090
+o podstawowej strukturze danych, która jest bardzo użyteczna i informatyczna, a także bardzo popularnym pytaniem, jeśli
+
+00:40.090 --> 00:42.050
+chodzi o rozmowy.
+
+00:42.490 --> 00:49.840
+Dowiedzieliśmy się, że jeśli chodzi o listę połączoną, to nie ma dostępu losowego w tym sensie,
+
+00:49.840 --> 00:56.380
+że szukając czegoś, trzeba przejść przez tablice mieszające, nie możemy od razu znaleźć odpowiednich
+
+00:56.740 --> 01:00.200
+tablic, które można znaleźć za pomocą indeksów.
+
+01:00.310 --> 01:05.930
+Mamy powolne wyszukiwania, które musimy przejrzeć, jeśli czegoś szukamy.
+
+01:06.060 --> 01:13.280
+Są one jednak zamawiane na podobnych tablicach hashowych, a połączone listy pozwalają nam na tego rodzaju zamówienia.
+
+01:13.500 --> 01:21.780
+Gdybyśmy mieli dużą liczbę elementów i Ray i dodawalibyśmy do tej tablicy, musielibyśmy mieć nadmierne koszty
+
+01:21.810 --> 01:29.460
+ogólne, kopiować tablicę w pamięci i podwajając przestrzeń, kiedy osiągnie limit, aby utworzyć większą tablicę
+
+01:29.730 --> 01:38.370
+w porównaniu do lista, w której możemy szybko wstawić i szybko usunąć, szczególnie gdy mamy odniesienie do
+
+01:38.370 --> 01:43.240
+miejsca, w którym chcemy wstawić lub usunąć tę notatkę.
+
+01:44.240 --> 01:52.090
+Staje się to naprawdę bardzo szybkie, gdy znajduje się na początku listy lub na końcu listy.
+
+01:52.310 --> 01:56.240
+I zobaczymy, że nadejdzie, kiedy będziemy rozmawiać o stosach i Qs.
+
+01:56.240 --> 02:02.450
+Podstawowym powodem wyboru połączonej listy na coś podobnego do tablicy jest prostota i możliwość powiększania się i
+
+02:02.450 --> 02:04.250
+zmniejszania w razie potrzeby.
+
+02:04.250 --> 02:10.820
+Teraz praca z nimi, jak widzieliśmy, może być trochę dziwna i trudna do zarządzania
+
+02:10.820 --> 02:18.540
+wszystkimi wskaźnikami w twojej głowie, ale są one dość lekkie i niezależne, ponieważ mogą być również bardzo elastyczne.
+
+02:19.940 --> 02:25.490
+To wszystko, zobaczysz powiązane listy i wiele miejsc, takich jak wdrażanie systemów
+
+02:25.490 --> 02:28.740
+plików na komputerze lub nawet historia przeglądarki.
+
+02:28.820 --> 02:31.830
+Kiedy idziesz do przodu i do tyłu w przeglądarce.
+
+02:32.690 --> 02:38.000
+Możesz myśleć o tym jako o połączonej liście, ponieważ możesz przechodzić jeden po drugim z jednego miejsca
+
+02:39.220 --> 02:44.120
+do drugiego i pamiętać przy pomocy naszych tabel mieszania, jak mieliśmy ten problem kolizji.
+
+02:44.410 --> 02:51.670
+A kiedy mieliśmy kolizję, musieliśmy zrobić coś takiego, kiedy połączyliśmy Johna
+
+02:51.670 --> 02:59.510
+Smitha i Sandera D w dwa węzły, a pierwszy śnieg wskazał drugą nutę.
+
+02:59.690 --> 03:08.150
+Jeśli wrócimy do naszej struktury danych tablicy mieszającej, którą utworzyliśmy, jeśli przewiniemy do
+
+03:08.150 --> 03:18.220
+metody zestawu, w której ustawiliśmy klucz i wartość w tabeli mieszającej, sprawdziliśmy tutaj, czy ten adres istnieje.
+
+03:18.300 --> 03:28.560
+Później użyliśmy tablicy do wypychania naszych przedmiotów na wypadek, gdybyśmy mieli wiele przedmiotów, gdy mieliśmy kolizję, ponieważ czasami możemy ustawić
+
+03:29.250 --> 03:35.470
+rozmiar pamięci tabeli mieszającej, by był o wiele mniejszy niż dwa.
+
+03:35.940 --> 03:44.520
+Możesz teraz zobaczyć, dlaczego teraz zamiast korzystać z tablicy, za każdym razem, gdy musimy wstawić nowy
+
+03:44.520 --> 03:45.510
+element.
+
+03:45.510 --> 03:47.680
+Mam na myśli, że działa, ponieważ dążymy do końca.
+
+03:47.790 --> 03:57.480
+Ale jeśli musielibyśmy usunąć element z tabeli mieszającej, musielibyśmy przesunąć tablicę, która jak wiadomo jest bardzo
+
+03:57.690 --> 03:58.610
+powolna.
+
+03:58.860 --> 04:07.800
+Możemy teraz zmienić to na coś podobnego do listy połączonej, aby usunięcie stało się dużo łatwiejsze niż
+
+04:07.800 --> 04:09.710
+gdyby było tablicą.
+
+04:09.810 --> 04:16.410
+I to jest coś, co pozostawiam tobie, ale powinieneś dobrze wiedzieć, dlaczego te struktury danych istnieją
+
+04:16.470 --> 04:20.990
+teraz i dlaczego możesz chcieć użyć połączonej listy w tablicy.
+
+04:21.880 --> 04:28.020
+Dodaliśmy kolejny element układanki na naszej mapie myśli.
+
+04:28.110 --> 04:34.770
+Rozmawialiśmy o tablicach o tabelach mieszających, a teraz rozmawialiśmy o tym, jeśli zobaczycie, że połączone
+
+04:35.340 --> 04:40.830
+listy są pojedynczymi i podwójnie połączonymi listami z ich notacją Big-O.
+
+04:42.360 --> 04:47.900
+I tylko podpowiedź tutaj, jak widać powiązane listy są powiązane z czymś, o czym będziemy
+
+04:47.910 --> 04:48.570
+mówić.
+
+04:49.480 --> 04:53.970
+To są drzewa i trawa.
+
+04:54.180 --> 05:01.650
+Ale na koniec dnia udało nam się dodać kolejną strukturę danych do naszego paska narzędziowego jako inżynierów.
+
+05:01.650 --> 05:06.710
+Gratulujemy i poznajmy więcej struktur danych w następnym wideo.
+
+05:06.820 --> 05:07.090
+Buh-Bye.

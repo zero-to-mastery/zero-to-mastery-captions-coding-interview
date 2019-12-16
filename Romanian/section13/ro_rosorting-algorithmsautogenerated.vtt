@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.630 --> 00:08.240
+Bine ați venit înapoi pe care îl vedeți în harta noastră de minte aici că suntem acum în secțiunea de sortare și acest
+
+00:08.300 --> 00:12.950
+mare spectacol din nou și ceva despre care nu am vorbit este prezentat.
+
+00:12.980 --> 00:15.280
+Vom ajunge la asta în această secțiune.
+
+00:16.010 --> 00:17.770
+Dar vreau să adaug o notă rapidă aici.
+
+00:17.870 --> 00:23.840
+Privind la toți acești algoritmi de sortare și este mult mai important să rețineți că nu
+
+00:23.840 --> 00:32.060
+aveți nevoie să scrieți un algoritm de sortare de la zero cel mai probabil vreodată în cadrele de carieră, de obicei, faceți asta
+
+00:32.060 --> 00:32.920
+pentru noi.
+
+00:33.810 --> 00:39.660
+Dar trebuie sa stii cum functioneaza, pentru ca in timp ce unul va fi cel mai probabil
+
+00:39.840 --> 00:44.390
+intrebat intr-un interviu si doi, pentru ca te face un inginer mai bun.
+
+00:44.580 --> 00:47.670
+Dar această secțiune este, de asemenea, despre a fi eficientă.
+
+00:47.670 --> 00:53.070
+Vedeți că puteți petrece mult timp pe fiecare dintre aceste secțiuni, implementându-vă propria dvs.
+
+00:53.070 --> 01:00.060
+și discutând profund despre ea, deoarece nu cred că am auzit vreodată că cineva trebuie să implementeze manual
+
+01:00.290 --> 01:01.280
+vreun cod.
+
+01:01.400 --> 01:06.900
+Algoritmii de sortare, de cele mai multe ori, puteți vorbi despre el sau intervievatorul vă spune că matricea
+
+01:06.900 --> 01:13.350
+este sortată și trebuie să știți ce să faceți cu ea, dar implementați-o de la zero, ceea ce nu se întâmplă
+
+01:13.350 --> 01:14.130
+cu adevărat.
+
+01:14.340 --> 01:19.090
+Dar l-am inclus în această secțiune deoarece este bine să știți cum funcționează.
+
+01:20.050 --> 01:25.430
+Și nu vreau ca algoritmii de sortare de codare să nu fie favoritul meu.
+
+01:25.450 --> 01:26.850
+Nu lăsa să te descurajeze.
+
+01:27.880 --> 01:34.240
+Vă încurajez să urmăriți următoarele două videoclipuri și chiar să practici codarea propriilor algoritmi de sortare, deoarece
+
+01:34.690 --> 01:36.860
+vă va ajuta să învățați.
+
+01:36.970 --> 01:42.940
+Dar principala chestie pe care o vom obține din această secțiune nu este cum să le punem în aplicare. Vreau să spun că
+
+01:42.940 --> 01:43.960
+vom face asta.
+
+01:44.110 --> 01:51.480
+Dar cheia este compromisul pe care îl vedeți că avem aici cheia mare aici pe care cu siguranță știm despre dreptate.
+
+01:51.490 --> 01:54.720
+Am vorbit despre structurile de date și cum există compromisuri.
+
+01:55.090 --> 01:59.610
+Ei bine, când vine vorba de sortare, există și compromisuri.
+
+02:00.300 --> 02:06.180
+Vedeți cum există o anumită complexitate de timp compromisuri de complexitate a spațiului și este
+
+02:06.180 --> 02:09.950
+important să știți când să utilizați ce algoritm.
+
+02:09.990 --> 02:12.010
+Acesta este scopul nostru din această secțiune.
+
+02:12.120 --> 02:19.110
+Și înainte de a intra în primul nostru algoritm de sortare, vreau să vă arăt acest instrument minunat pe care
+
+02:19.110 --> 02:20.150
+voi lega.
+
+02:20.190 --> 02:22.710
+Avem câțiva algoritmi de sortare.
+
+02:22.800 --> 02:29.430
+Avem sortare de inserție sortare sortare bule sortare coajă heap fuzionare și apoi două variații diferite
+
+02:29.430 --> 02:30.460
+de quicksort.
+
+02:31.830 --> 02:35.150
+Și avem, de asemenea, seturi diferite de date.
+
+02:35.160 --> 02:37.250
+Acesta este un set de date aleatoriu.
+
+02:37.260 --> 02:39.700
+Vedeți cum funcționează atunci când fac clic aici.
+
+02:40.580 --> 02:45.400
+Pe baza algoritmului diferit de sortare, vezi că toți lucrează.
+
+02:45.650 --> 02:50.160
+Și toți se termină la momente diferite.
+
+02:50.220 --> 02:59.800
+Una este mult mai lentă decât cealaltă, ceea ce pare să fie aproape sortită din nou, cum ar fi tipul de inserție este într-adevăr
+
+02:59.800 --> 03:08.170
+foarte rapid, în timp ce altele sunt mai lent inversate în cazul în care elementele sunt inversate și trebuie să o
+
+03:08.170 --> 03:11.750
+sortare complet inversată lista din nou alți algoritmi.
+
+03:12.810 --> 03:14.400
+Efectuați altfel.
+
+03:14.530 --> 03:18.750
+Nu este niciodată una care să câștige peste cealaltă, în funcție de intrări.
+
+03:18.810 --> 03:28.390
+În timp ce trebuie să facem abilitățile diferite, să începem să învățăm despre aceste tipuri diferite de algoritmi de sortare, astfel încât până
+
+03:28.390 --> 03:35.230
+la sfârșitul acestor videoclipuri să putem lua decizia corectă când să folosim ceea ce voi vedea
+
+03:35.230 --> 03:36.120
+în următorul.

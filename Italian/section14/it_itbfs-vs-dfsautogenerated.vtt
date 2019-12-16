@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.820 --> 00:06.040
+Mi piace pensare alla prima ricerca del respiro come un'alluvione dell'acqua dall'alto.
+
+00:06.160 --> 00:10.120
+Un po 'come questo dove controlliamo dall'alto verso il basso.
+
+00:10.360 --> 00:17.110
+E mi piace pensare al respiro per una ricerca come queste piccole battute che vanno
+
+00:17.110 --> 00:22.200
+il più profondo possibile e poi continuano a andare a destra.
+
+00:22.260 --> 00:26.010
+Ma qual è il vantaggio rispetto all'altro.
+
+00:26.160 --> 00:28.650
+Entrambi fanno la stessa cosa attraversando.
+
+00:28.650 --> 00:32.120
+Ma ognuno viene usato per diversi motivi.
+
+00:32.280 --> 00:38.070
+E nelle interviste riceverai domande su quale tipo di attraversamento fare.
+
+00:38.070 --> 00:42.290
+E di solito avrai una di queste due risposte che devi dire.
+
+00:42.360 --> 00:46.890
+Quindi, quando dovresti usarne uno sull'altro, lo esploreremo nei prossimi due
+
+00:46.890 --> 00:47.550
+video.
+
+00:47.640 --> 00:53.480
+Ma voglio iniziare con i principali pro e contro la complessità del tempo per il respiro.
+
+00:53.490 --> 00:56.980
+La prima ricerca e la prima ricerca della DEP sono uguali.
+
+00:57.000 --> 00:59.820
+Tutti visitano i nodi almeno una volta.
+
+00:59.820 --> 01:03.840
+Quindi è tutto su un versetto d'altare è tutto allora.
+
+01:04.050 --> 01:09.750
+Quindi, quando stiamo cercando di attraversare un albero o un grafico che stiamo davvero cercando di
+
+01:09.750 --> 01:17.110
+fare è camminare attraverso l'albero senza mai ripeterci e l'ordine è la cosa che conta quando si tratta di respirare per
+
+01:17.110 --> 01:20.120
+la ricerca e la profondità prima ricerca.
+
+01:20.130 --> 01:25.360
+Ora parliamo di ampiezza prima ricerca con ampiezza prima ricerca.
+
+01:25.360 --> 01:33.700
+È molto utile per trovare il percorso più breve tra un punto di partenza e qualsiasi altro nodo raggiungibile perché iniziamo
+
+01:33.790 --> 01:41.170
+sempre con il nodo radice, quindi cerchiamo prima i nodi più vicini e poi i nodi ulteriormente,
+
+01:41.290 --> 01:43.060
+quindi ulteriormente e successivamente.
+
+01:43.180 --> 01:48.550
+E questo diventerà più evidente quando parliamo di traversal grafico e abbiamo
+
+01:48.640 --> 01:55.570
+alcuni video specifici per questa discussione, ma l'unico lato negativo con la prima ricerca è
+
+01:55.690 --> 01:59.380
+che richiede più memoria di prima profondità.
+
+01:59.500 --> 02:03.600
+Di nuovo qualcosa di cui discuteremo di più quando iniziamo a codificarlo.
+
+02:04.120 --> 02:11.890
+Ma una buona regola è che se si dispone di ulteriori informazioni sulla posizione del nodo di destinazione e si
+
+02:12.700 --> 02:20.860
+sa che il nodo è probabile nel livello superiore di un albero, allora la prima ricerca della larghezza è migliore
+
+02:20.860 --> 02:24.930
+perché prima cercherà attraverso i nodi più vicini .
+
+02:25.860 --> 02:30.290
+D'altra parte la prima ricerca della profondità è l'opposto.
+
+02:30.300 --> 02:36.630
+Se sai che il nodo è probabilmente al livello più basso di un albero, forse la morte per ricerca è migliore in
+
+02:36.810 --> 02:37.700
+quel caso.
+
+02:39.110 --> 02:42.620
+E la prima ricerca della morte è davvero brava a fare la domanda.
+
+02:42.620 --> 02:48.680
+Il percorso esiste per noi o no da una fonte nota a una nota di destinazione, qualcosa di cui
+
+02:48.680 --> 02:50.980
+andremo di più quando parliamo di grafici.
+
+02:51.080 --> 02:58.350
+Il grande vantaggio con la prima ricerca di profondità è che utilizza meno memoria, quindi amplia la prima ricerca.
+
+02:58.550 --> 03:04.580
+Il rovescio della medaglia con la prima ricerca di profondità è che può rallentare, specialmente se l'albero o il grafico sono
+
+03:04.580 --> 03:08.340
+veramente profondi e non è necessariamente buono nel trovare il percorso più breve.
+
+03:08.540 --> 03:11.430
+Come il respiro per la ricerca.
+
+03:11.510 --> 03:17.990
+Ora che abbiamo un'idea di quando usare quello che so, non è ancora al 100%, ma ci stiamo arrivando.
+
+03:17.990 --> 03:19.980
+Ma prima voglio fare un po 'di esercizio.

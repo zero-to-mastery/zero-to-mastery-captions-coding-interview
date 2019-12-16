@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.990 --> 00:02.220
+Selamat datang kembali.
+
+00:02.220 --> 00:09.210
+Mari kita bicara tentang quicksort algoritma penyortiran kelima kami bahkan hanya dari nama yang Anda pikirkan ya.
+
+00:09.360 --> 00:11.250
+Ini akan cepat.
+
+00:11.250 --> 00:15.810
+Sortir cepat seperti sortir gabungan adalah algoritme divide and conquer.
+
+00:17.040 --> 00:23.400
+Yang berarti dan harus membunyikan lonceng di kepala Anda mengatakan bahwa mungkin akan ada semuanya dan
+
+00:23.510 --> 00:26.840
+masuk dan jika Anda berpikir bahwa Anda benar.
+
+00:27.880 --> 00:33.900
+Anda melihat quicksort menggunakan sesuatu yang disebut teknik pivot untuk memecah daftar utama menjadi daftar yang lebih
+
+00:34.620 --> 00:39.690
+kecil dan daftar yang lebih kecil ini menggunakan teknik pivot sampai mereka diurutkan.
+
+00:40.120 --> 00:42.290
+Tapi saya akan tunjukkan animasi quicksort.
+
+00:43.420 --> 00:47.040
+Quicksort berfungsi seperti ini.
+
+00:47.160 --> 00:51.770
+Dan jika Anda melihat diagram ini seperti saya dan Anda benar-benar bingung dengan apa
+
+00:52.350 --> 00:55.310
+yang terjadi, ini menggambarkan quicksort dengan cukup baik.
+
+00:55.320 --> 00:59.040
+Cukup rumit untuk dipahami.
+
+00:59.080 --> 01:01.400
+Jadi, saya tunjukkan demonstrasi yang lebih baik.
+
+01:03.910 --> 01:05.630
+Saya punya diagram kecil di sini.
+
+01:05.890 --> 01:09.960
+Katakanlah kita memiliki daftar yang terlihat seperti ini.
+
+01:10.090 --> 01:19.290
+Kami memiliki 3 7 8 9 5 2 1 9 5 4 yang kami lakukan di sini adalah kami memilih poros acak.
+
+01:19.420 --> 01:23.540
+Katakanlah 4 akan menjadi poros kita.
+
+01:23.600 --> 01:31.610
+Setelah kita memilih item pivot ini kita akan mengatakan baik-baik saja. Saya ingin semua angka yang kurang dari 4
+
+01:31.610 --> 01:37.540
+datang ke kiri dan semua angka yang lebih besar dari 4 datang ke kanan.
+
+01:39.470 --> 01:40.500
+Jadi apa yang kita lakukan.
+
+01:40.700 --> 01:45.430
+Kita mulai membandingkan angka yang kita lihat pada tiga dan empat.
+
+01:45.580 --> 01:45.990
+Baiklah.
+
+01:46.010 --> 01:48.020
+Tiga di sebelah kiri empat tidak apa-apa.
+
+01:48.020 --> 01:50.370
+Bagaimana dengan 7 m untuk.
+
+01:50.610 --> 01:54.650
+Tujuh lebih tinggi dari empat jadi seharusnya benar.
+
+01:54.650 --> 02:04.200
+Kami akan memindahkan empat ke posisi kiri untuk memberi ruang bagi tujuh tujuh lompatan ke
+
+02:04.710 --> 02:11.990
+kanan dan kami menukar lima yang empat masuk ke posisi tujuh.
+
+02:12.200 --> 02:14.440
+Dan sekarang kita periksa lima dan empat.
+
+02:14.710 --> 02:15.950
+Kita harus melakukan hal yang sama.
+
+02:15.980 --> 02:22.130
+Kami menempatkan lima di kanan empat dan jadi sembilan di sana sekali lagi sembilan lebih tinggi dari empat.
+
+02:22.130 --> 02:24.600
+Jadi 9 muncul di sebelah kanan 4.
+
+02:24.710 --> 02:26.120
+Lalu kita melihat delapan.
+
+02:26.120 --> 02:27.460
+Sama halnya dengan kebencian.
+
+02:27.470 --> 02:29.910
+Dan akhirnya lima dan empat.
+
+02:30.120 --> 02:34.610
+Nah empat dan lima tempat ganti.
+
+02:34.850 --> 02:39.280
+Dan sekarang kita memiliki daftar yang memiliki empat sebagai poros.
+
+02:39.440 --> 02:46.280
+Dan kita tahu bahwa empat akan berada di posisi dalam array dan yang lainnya di sebelah kiri
+
+02:46.280 --> 02:49.490
+dan di sebelah kanan masih perlu diurutkan.
+
+02:49.670 --> 02:55.290
+Tapi setidaknya kita tahu di mana empat berdiri dari sana menggunakan membagi dan menaklukkan.
+
+02:55.550 --> 02:59.130
+Kami sekarang membagi daftar dan kami melakukan hal yang sama.
+
+02:59.150 --> 03:06.950
+Kami mendapatkan pivot di daftar kiri yang akan menjadi 2 dan kami mengatakan segalanya di kanan 2 harus lebih tinggi.
+
+03:06.950 --> 03:08.970
+Segala sesuatu di sebelah kiri dua harus lebih rendah.
+
+03:09.170 --> 03:17.010
+Dan kami memiliki daftar kiri ini diurutkan di sebelah kanan kami melakukan hal yang sama sampai kami membagi daftar dengan
+
+03:17.010 --> 03:22.190
+7 di tengah dan kami terus memecah hal-hal terus memecah hal-hal seperti pohon.
+
+03:22.320 --> 03:24.230
+Dan dari sinilah kita membelah dan menaklukkan berasal.
+
+03:24.390 --> 03:30.150
+Sampai kita memiliki semua daftar individu diurutkan dan kita gabungkan.
+
+03:30.210 --> 03:35.360
+Sekarang Anda mungkin memiliki dua pertanyaan untuk saya melihat ini.
+
+03:35.580 --> 03:39.990
+Salah satunya adalah bagaimana kita bahkan memilih titik pivot ini.
+
+03:40.350 --> 03:42.070
+Dan itu agak acak.
+
+03:42.090 --> 03:44.210
+Itu benar-benar tergantung pada situasinya.
+
+03:44.220 --> 03:51.150
+Tetapi seperti yang Anda lihat di sini, kita hanya mengambil titik pivot sebagai item terakhir dalam array.
+
+03:51.210 --> 03:56.900
+Yang kedua adalah bagaimana saya akan kode ini.
+
+03:57.020 --> 04:00.210
+Dan ini sangat menantang dan saya tidak berharap Anda mendapatkannya.
+
+04:00.280 --> 04:06.980
+Saya akan meninggalkan kode untuk Anda dan Anda dapat mencobanya jika Anda mau, tetapi
+
+04:07.280 --> 04:12.890
+cara terbaik untuk memahami quicksort adalah tarian Hongaria favorit saya.
+
+04:12.920 --> 04:14.470
+Saya tidak akan memainkan ini untuk Anda.
+
+04:14.480 --> 04:18.770
+Anda dapat memainkannya sendiri tetapi saya bersumpah saya bisa menonton ini sepanjang hari.
+
+04:18.770 --> 04:20.240
+Saya pikir menari itu luar biasa.
+
+04:20.360 --> 04:21.700
+Musiknya mengagumkan.
+
+04:21.880 --> 04:25.420
+Dan jika Anda mempercepatnya hingga dua kali lebih baik.
+
+04:26.760 --> 04:29.640
+Di sini, di video ini, izinkan saya membisukan ini.
+
+04:29.640 --> 04:36.780
+Anda akan melihat bahwa orang ini di Black Hat akan menjadi pivot dan semua orang membandingkan orang di
+
+04:36.780 --> 04:45.530
+Red Hat adalah pointer yang saya kira atau item yang dibandingkan dengan pivot dan Anda akan melihat di sini bahwa segera ketika
+
+04:45.530 --> 04:51.620
+kita sampai ke orang ini adalah nomor tiga mereka akan berkata baik Anda harus ke
+
+04:51.620 --> 04:53.060
+kiri kepada saya.
+
+04:53.150 --> 04:55.080
+Jadi mereka akan menari.
+
+04:55.130 --> 04:56.900
+Ngomong-ngomong tarian besar bergerak.
+
+04:56.930 --> 04:58.150
+Saya perlu mempelajari langkah-langkah ini.
+
+04:58.550 --> 05:03.880
+Dan dua dan tiga sekarang berada di lokasi yang berbeda.
+
+05:05.880 --> 05:09.050
+Dan sekarang kita membandingkan 0 dan tiga.
+
+05:09.140 --> 05:15.550
+Sekarang implementasi ini dan visual yang baru saja saya tunjukkan kepada Anda sedikit berbeda.
+
+05:15.920 --> 05:19.630
+Tetapi idenya adalah quicksort yang sama dapat diimplementasikan dengan cara yang berbeda.
+
+05:19.760 --> 05:22.310
+Tetapi gagasan tentang poros adalah sama.
+
+05:22.310 --> 05:30.290
+Saya mendorong Anda untuk menonton video ini untuk sepenuhnya memahami cara kerjanya di bawah tenda tetapi mari kita membahas
+
+05:30.290 --> 05:31.580
+konsep-konsep utama.
+
+05:32.610 --> 05:40.040
+Quicksort benar-benar sangat berguna dan antara quicksort dan Merceron saya akan mengatakan itu adalah algoritma
+
+05:40.100 --> 05:42.980
+pengurutan yang paling banyak digunakan.
+
+05:43.150 --> 05:45.520
+Anda akan memperhatikan dua hal Anda.
+
+05:45.610 --> 05:51.320
+Salah satunya adalah kompleksitas jenis yang diputar dengan cepat benar-benar bagus.
+
+05:51.370 --> 05:57.580
+Maksud saya tidak sebagus jenis gelembung atau jenis penyisipan atau jenis pilihan tapi
+
+05:57.600 --> 06:06.410
+masih lebih baik daripada Murchu pada kasus terburuknya adalah 0 dari dan persegi itu karena bisa berakhir ketika kuadrat
+
+06:06.410 --> 06:13.890
+ketika pivot adalah item terkecil atau terbesar daftar karena Anda tidak benar-benar membagi daftar menjadi dua.
+
+06:14.000 --> 06:19.420
+Dan karena ini Anda benar-benar ingin memastikan bahwa Anda memilih inden yang baik untuk quicksort.
+
+06:19.610 --> 06:25.040
+Anda akan mendapatkan kompleksitas ruang yang lebih baik tetapi kasus terburuk bisa jadi buruk.
+
+06:25.070 --> 06:31.420
+Jadi dalam kasus-kasus semacam itu penggabungan mungkin lebih baik jika daftar Anda didahului dengan alasan apa pun.
+
+06:31.580 --> 06:37.350
+Dan dalam daftar itu jika kita memilih pivot untuk menjadi item pertama atau item terakhir maka
+
+06:37.560 --> 06:43.940
+rutinitas penyortiran kita akan memakan waktu yang sangat lama karena sekali lagi daftar tidak akan benar-benar terbelah dua
+
+06:43.940 --> 06:48.710
+dan idealnya dalam jenis cepat Anda memilih pivot cerdas berdasarkan daftar Anda.
+
+06:48.890 --> 06:55.310
+Quicksort sekarang ada banyak varians untuk itu dan ada implementasi yang berbeda.
+
+06:55.480 --> 06:58.350
+Tapi saya ingin Anda mengambil ini dari video ini.
+
+06:58.370 --> 07:05.970
+Quicksort biasanya yang tercepat rata-rata tetapi satu-satunya downside adalah bahwa ia memiliki beberapa perilaku terburuk
+
+07:05.980 --> 07:07.660
+yang cukup buruk.
+
+07:07.660 --> 07:14.800
+Jadi, jika Anda harus menjamin tidak ada data yang buruk atau Anda dapat menjamin bahwa poros akan menjadi baik maka
+
+07:14.830 --> 07:16.600
+Anda harus menghindari quicksort.
+
+07:16.630 --> 07:21.940
+Tapi rata-rata itu biasanya algoritma penyortiran terbaik.
+
+07:22.000 --> 07:22.590
+Baiklah.
+
+07:22.670 --> 07:30.420
+Jadi kami telah belajar lima algoritma penyortiran yang berbeda tetapi bagian terpenting adalah kapan saya harus menggunakan apa yang
+
+07:30.590 --> 07:37.820
+ada di video berikutnya yang akan kita bahas dengan tepat diikuti dengan sedikit latihan yang menyenangkan.
+
+07:38.090 --> 07:38.930
+Saya akan melihat yang itu.

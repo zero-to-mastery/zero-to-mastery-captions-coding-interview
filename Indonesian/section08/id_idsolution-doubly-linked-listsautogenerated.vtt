@@ -1,0 +1,289 @@
+WEBVTT
+
+00:01.270 --> 00:02.190
+Selamat datang kembali.
+
+00:02.390 --> 00:12.290
+Kami memiliki daftar panjang asli kami dan kami baru tahu bahwa daftar tertaut kami sebenarnya adalah daftar yang ditautkan sendiri
+
+00:12.290 --> 00:18.320
+tetapi kami ingin mengubahnya sekarang menjadi daftar yang ditautkan dua kali lipat.
+
+00:19.090 --> 00:25.300
+Jadi kita menambahkan fitur X dari pointer tambahan.
+
+00:25.510 --> 00:27.670
+Bagaimana kita akan melakukan itu.
+
+00:28.120 --> 00:33.210
+Baiklah mari kita pergi baris demi baris dan untungnya bagi kita itu tidak sulit.
+
+00:34.810 --> 00:41.970
+Seperti yang dapat Anda bayangkan jika kita pergi baris demi baris dan masuk ke konstruktor, satu informasi
+
+00:41.970 --> 00:49.140
+tambahan yang perlu kita tambahkan sekarang adalah bahwa kita juga memiliki pointer sebelumnya sekarang dan pointer sebelumnya
+
+00:49.260 --> 00:50.630
+tidak akan memulai.
+
+00:50.640 --> 00:52.910
+Jadi kepala akan menunjuk ke no.
+
+00:53.460 --> 00:55.960
+Dan yang lainnya tetap sama.
+
+00:56.930 --> 01:00.730
+Tetapi apa yang terjadi ketika kita menambahkan sesuatu dengan baik.
+
+01:00.770 --> 01:08.240
+Sekali lagi kita akan menambahkan catatan baru yang juga memiliki properti sebelumnya properti baru yang menunjuk ke nol
+
+01:08.240 --> 01:14.440
+dan kita masih akan memiliki titik ekor di samping yang sama dengan simpul baru.
+
+01:14.590 --> 01:23.980
+Dan ini tidak berubah tetapi satu-satunya baris yang berubah adalah kita perlu menambahkan properti sebelumnya karena
+
+01:23.980 --> 01:28.060
+ingat append menambahkan di akhir daftar.
+
+01:28.060 --> 01:35.380
+Kami ingin menambahkan properti sebelumnya sama dengan apa pun yang ada di akhir daftar asli sebelum kami
+
+01:35.380 --> 01:36.640
+melakukan pembaruan.
+
+01:36.700 --> 01:46.240
+Jadi yang perlu kita lakukan adalah mengatakan simpul baru yang sebelumnya akan sama dengan titik ini sampai item
+
+01:46.930 --> 01:51.700
+terakhir sebelum diperbarui di sini ke simpul baru.
+
+01:51.720 --> 01:54.260
+Mari kita lihat apakah append berfungsi seperti yang kita miliki.
+
+01:54.780 --> 02:04.550
+Saya akan gulir ke bawah di sini dan komentar semua kode ini kecuali untuk dua baris pertama.
+
+02:05.350 --> 02:07.320
+Tambahkan lima dan tambahkan 16.
+
+02:07.390 --> 02:15.020
+Jika saya klik di sini saya mendapatkan daftar tertaut ganda yang memiliki kepala nilai 10.
+
+02:15.050 --> 02:23.590
+OK yang menunjuk ke berikutnya yang merupakan simpul berikutnya kita melihat nilai 5 yang menunjuk ke
+
+02:23.590 --> 02:30.220
+objek yang kita belum benar-benar tahu dan juga menunjuk ke objek sebelumnya.
+
+02:30.430 --> 02:39.050
+Dan dalam 10 simpul ini kita melihat bahwa poin sebelumnya tahu karena tidak ada apa-apa sebelum kepala.
+
+02:39.190 --> 02:48.730
+Jika kita melihat ekor itu, kita melihat bahwa ekor sekarang memiliki nilai 16 berikutnya bukan karena
+
+02:48.730 --> 02:59.710
+itu adalah ekor itu akhir tetapi simpul sebelumnya juga menunjuk ke simpul ini 5 dan daftar yang ditautkan
+
+02:59.710 --> 03:02.660
+ganda memiliki panjang tiga.
+
+03:02.700 --> 03:03.240
+Sangat keren.
+
+03:03.240 --> 03:07.260
+Jadi yang kami tambahkan adalah referensi sebelumnya ini.
+
+03:07.410 --> 03:09.490
+Mari kita lakukan hal yang sama untuk Prebend.
+
+03:09.570 --> 03:12.090
+Itu adalah menambahkan di awal daftar.
+
+03:12.090 --> 03:22.560
+Kami gulir ke atas untuk prebend sekali lagi kami ingin menambahkan properti baru yang akan menjadi yang sebelumnya sama dengan yang tahu
+
+03:22.590 --> 03:24.080
+untuk saat ini.
+
+03:24.480 --> 03:32.850
+Dan kami ingin menjaga semuanya dengan cara yang sama kami ingin memastikan bahwa simpul titik baru berikutnya akan
+
+03:32.850 --> 03:36.340
+menunjuk ke apa pun kepala saat ini.
+
+03:36.450 --> 03:43.950
+Tetapi kami juga ingin mengatakan bahwa Dot ini memiliki dot sebelumnya yang sebelumnya sekarang harus menunjuk ke simpul baru
+
+03:44.250 --> 03:46.410
+kami karena tidak lagi kepala.
+
+03:46.860 --> 03:53.730
+Dan kemudian kita dapat memperbarui harus menjadi simpul kita dan dot lenth ini akan meningkat dan kita akan
+
+03:53.730 --> 03:54.880
+mengembalikan ini.
+
+03:55.410 --> 04:00.210
+Jika saya klik jalankan di sini, ingat di mana prapengisian 1.
+
+04:00.220 --> 04:03.140
+Jadi kami menambahkan 1 ke awal daftar.
+
+04:03.320 --> 04:10.400
+Kita melihat bahwa daftar yang ditautkan dua kali lipat sekarang memiliki kepala dengan satu nilai yang
+
+04:10.400 --> 04:16.950
+menunjuk ke nilai berikutnya yaitu 10 dan ekor kita masih sama dengan 16.
+
+04:16.970 --> 04:20.310
+Itu menunjuk ke nilai lima.
+
+04:20.780 --> 04:29.150
+Jadi jika kita mencetak tahun lalu lagi 10 10:16 seperti yang kita harapkan.
+
+04:29.160 --> 04:31.620
+Bagaimana dengan sisipan.
+
+04:31.770 --> 04:32.720
+Bagaimana cara kerjanya?
+
+04:33.650 --> 04:41.960
+Jika kita pergi untuk memasukkan metode di sini dan pergi baris demi baris bagian pertama ini semuanya OK.
+
+04:42.080 --> 04:43.000
+Kami memiliki simpul baru.
+
+04:43.010 --> 04:50.800
+Jadi sekali lagi kami akan menambahkan properti sebelumnya yang akan diketahui untuk saat ini kami masih meraih pemimpin
+
+04:50.800 --> 04:52.190
+dan melintasi indeks.
+
+04:53.100 --> 04:56.260
+Tetapi sekarang kita harus melakukan sesuatu dengan sedikit berbeda.
+
+04:56.800 --> 05:02.310
+Kita perlu merebut pemimpin dan juga pengikut.
+
+05:02.320 --> 05:11.550
+Jadi jika Anda ingin menambahkan sembilan puluh sembilan di sini kita perlu mengambil referensi ke 10 pemimpin dan juga pengikut
+
+05:11.830 --> 05:12.590
+5.
+
+05:13.140 --> 05:16.100
+Jadi saya akan mengubah nama pemimpin Don selanjutnya.
+
+05:16.110 --> 05:22.390
+Itu 5 di sini untuk mengatakan pengikut.
+
+05:22.840 --> 05:30.430
+Jadi pemimpin simpul baru kami dan pengikut kami, Anda tahu sekarang pengikut sekarang akan menjadi lima yang akan kami
+
+05:31.480 --> 05:33.970
+perbarui pemimpin yang dilakukan selanjutnya.
+
+05:33.970 --> 05:41.860
+Jadi itu adalah lima atau pemimpin yang dilakukan selanjutnya yaitu apa yang datang setelah 10 menjadi simpul baru adalah sembilan
+
+05:42.960 --> 05:47.970
+puluh sembilan dan kemudian TIDAK baru dilakukan selanjutnya akan sama dengan pengikut.
+
+05:48.240 --> 05:50.480
+Itu lima.
+
+05:50.630 --> 05:59.920
+Tapi kami juga ingin memastikan bahwa simpul baru kami sebelumnya akan sama dengan pemimpin.
+
+06:00.290 --> 06:10.960
+Itu adalah 10 dan juga memastikan bahwa pengikut lima adalah memiliki nilai sebelumnya yang
+
+06:10.960 --> 06:15.070
+menunjuk ke simpul baru kami.
+
+06:15.080 --> 06:22.800
+Jadi jika saya mencetak daftar di sini dengan insert kami, saya telah memasukkan nilainya hanya untuk memeriksa apakah
+
+06:22.800 --> 06:23.680
+semuanya berfungsi.
+
+06:23.730 --> 06:35.460
+Saya akan menghibur Daut log ini yang merupakan daftar tautan kami jika saya klik jalankan Saya melihat bahwa daftar tertaut kami memiliki angka 5 dan saya akan mengubah
+
+06:36.030 --> 06:42.420
+hanya untuk mengindeks satu sehingga kami dapat melihatnya di output kami di sini .
+
+06:42.450 --> 06:49.470
+Dan ketika saya mengatakan indeks satu dengan klik jalankan saya melihat bahwa kepala sekarang nilai satu berikutnya dan item
+
+06:49.470 --> 06:50.820
+adalah nilai 99.
+
+06:51.240 --> 06:59.730
+Seperti yang kami harapkan dan memiliki properti berikutnya dan sebelumnya dan itu tidak terlalu buruk selama
+
+07:00.030 --> 07:04.200
+Anda memvisualisasikan langkah-langkah dan menggambar diagram Anda.
+
+07:04.200 --> 07:11.220
+Yang kami lakukan hanyalah mengatakan tambahkan simpul baru atau minta pemimpin untuk menunjuk ke kemudian
+
+07:11.230 --> 07:19.470
+Anda perhatikan maka Anda tahu sekarang menunjuk ke pemimpin dan simpul baru harus menunjuk setelah itu di sebelah
+
+07:19.650 --> 07:24.430
+pengikut dan pengikut sekarang akan menunjuk kembali ke simpul baru.
+
+07:24.530 --> 07:30.560
+Anda mungkin harus melalui ini dalam topi Anda atau mengering di atas kertas tetapi itu harus masuk akal sekarang
+
+07:30.560 --> 07:37.010
+dan pada akhir hari daftar yang terhubung secara tunggal dan daftar yang dikaitkan dua kali lipat tidak berbeda seperti yang Anda lihat.
+
+07:37.010 --> 07:41.700
+Yang kami lakukan hanyalah mengelola pointer lain yang menunjuk ke catatan sebelumnya.
+
+07:42.520 --> 07:50.110
+Saya akan membiarkan daftar hapus yang terhubung terserah Anda untuk menerapkan milik Anda sendiri.
+
+07:50.110 --> 07:56.590
+Dan daftar tertaut ganda seperti yang Anda pelajari sampai sekarang harus sangat berbeda dari
+
+07:56.730 --> 07:59.600
+apa yang kami lakukan di sisipan.
+
+08:00.040 --> 08:03.870
+Tapi saya harap Anda memiliki pemahaman tentang cara kerja daftar tautan.
+
+08:03.870 --> 08:11.230
+Sekarang pewawancara suka mengajukan pertanyaan dari semua daftar yang ditautkan karena memerlukan banyak informasi untuk disimpan di kepala Anda
+
+08:11.230 --> 08:16.420
+dan seperti yang Anda lihat mereka bisa sangat rumit jika Anda bukan
+
+08:16.420 --> 08:21.740
+tipe orang yang berpikir jernih melalui langkah-langkah mereka dan memahami sedang mereka lakukan.
+
+08:21.760 --> 08:25.640
+Satu per satu dan langkah-langkahnya sangat penting.
+
+08:25.660 --> 08:29.940
+Itu sebabnya pewawancara menyukai pertanyaan ini karena mereka benar-benar bisa melihat pendapat Anda.
+
+08:31.220 --> 08:37.810
+Dan dengan daftar tautan selama Anda menarik mengapa Anda melakukan langkah demi langkah menjadi sangat mudah.
+
+08:37.820 --> 08:42.200
+Selama Anda tidak hanya mulai mengkodekannya dari memori.
+
+08:42.200 --> 08:43.730
+Gambar saja langkah-langkahnya.
+
+08:43.730 --> 08:47.010
+Pikirkan langkah-langkah Anda dan pewawancara akan terkesan.
+
+08:47.800 --> 08:48.760
+Saya akan melihat yang berikutnya.

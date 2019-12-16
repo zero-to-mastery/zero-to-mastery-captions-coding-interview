@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.780 --> 00:01.950
+Selamat datang kembali.
+
+00:01.950 --> 00:04.370
+Semoga itu tidak terlalu buruk.
+
+00:04.590 --> 00:09.720
+Ingatlah bahwa ketika berbicara tentang pewawancara, pewawancara ingin Anda tahu bahwa Anda
+
+00:09.720 --> 00:10.750
+memahami konsepnya.
+
+00:10.950 --> 00:14.890
+Anda tidak perlu harus kode kode pencarian biner dari awal.
+
+00:14.970 --> 00:21.930
+Sebagian besar waktu setidaknya karena dalam kehidupan nyata Anda memiliki hal-hal seperti perpustakaan ini yang
+
+00:21.930 --> 00:29.220
+dibuat orang lain yang memungkinkan Anda untuk menggunakan teknik pembalikan dan manipulasi Treach karena ini telah dilakukan
+
+00:29.220 --> 00:36.720
+sebelumnya dan Anda dapat melihat dengan menggunakan perpustakaan seperti ini yang Anda bisa cukup gunakan dan buat pohon
+
+00:36.720 --> 00:38.240
+yang Anda inginkan.
+
+00:38.250 --> 00:44.790
+Kemungkinan besar Anda tidak akan menerapkannya sendiri dari awal, tetapi kami ingin memahami
+
+00:44.790 --> 00:47.310
+dasar-dasarnya dan cara kerjanya.
+
+00:47.310 --> 00:49.420
+Jadi jika ini menantang bagi Anda.
+
+00:49.650 --> 00:50.570
+Jangan frustrasi.
+
+00:50.580 --> 00:54.350
+Ini tidak menjadikan Anda insinyur yang buruk atau pembuat kode yang buruk.
+
+00:54.570 --> 01:00.630
+Anda hanya berusaha membangun dasar-dasar itu sehingga Anda dapat menggunakan alat seperti ini di masa depan
+
+01:00.960 --> 01:03.140
+dan masih memahami cara kerjanya.
+
+01:04.760 --> 01:05.660
+Tapi cukup bicara.
+
+01:05.840 --> 01:07.180
+Mari kita jawab.
+
+01:07.580 --> 01:11.420
+Saya ingin membuat pohon yang terlihat seperti ini.
+
+01:12.720 --> 01:17.850
+Jadi hal pertama yang akan saya lakukan adalah bekerja pada fungsi insert.
+
+01:17.960 --> 01:24.110
+Sekarang dalam seluruh fungsi ini hal pertama yang ingin saya lakukan adalah mengatakan baik kita
+
+01:24.110 --> 01:24.620
+ingin
+
+01:27.930 --> 01:32.960
+membuat simpul baru dan kita akan mengatakan simpul baru akan menjadi nilainya.
+
+01:33.030 --> 01:37.650
+Jadi kami hanya membuat kelas rendah baru yang memberi nilai.
+
+01:37.710 --> 01:39.290
+Dan itu tidak baru kami sekarang.
+
+01:39.600 --> 01:41.360
+Jadi kami punya referensi untuk itu.
+
+01:41.400 --> 01:42.910
+Hal pertama yang ingin kita periksa.
+
+01:43.230 --> 01:49.830
+Jika pohonnya kosong dan tidak ada simpul Rudin, kita harus menambahkan ini sebagai simpul akar.
+
+01:49.860 --> 01:53.250
+Jadi saya akan mengatakan bahwa root titik ini sama dengan tidak.
+
+01:53.430 --> 02:01.790
+Jika itu yang terjadi maka cukup buat simpul akar simpul kita saat ini yang kita sisipkan.
+
+02:01.860 --> 02:05.940
+Bagus dan mudah dan hanya untuk memeriksa apakah ini berfungsi.
+
+02:06.040 --> 02:11.100
+Jika saya berkomentar semua ini dan klik jalankan.
+
+02:11.300 --> 02:12.510
+Ini dia.
+
+02:12.590 --> 02:20.930
+Node root kami memiliki nilai 9 kiri sebagai nihil tepat bukan karena itu satu-satunya catatan dan dengan cara menunjukkan
+
+02:20.930 --> 02:28.970
+kepada Anda bagaimana string ini bekerja itu benar-benar berguna karena jika saya menyalin ini dan tunjukkan di sini bahwa
+
+02:28.970 --> 02:33.270
+saya tidak menyalin tanda kutip yang membuatnya menjadi string.
+
+02:33.680 --> 02:35.750
+Dan jika saya membuka
+
+02:39.630 --> 02:47.450
+alat pengembang dan Google Chrome dan saya pergi ke tab konsol saya, saya dapat menyalin dan menempel ini.
+
+02:47.650 --> 02:55.060
+Tekan enter dan sekarang saya memiliki akses ke pohon ini dan jauh lebih mudah bagi saya untuk melihatnya.
+
+02:55.180 --> 03:01.450
+Dan setelah kami memasukkan node lain Anda akan melihat bahwa sangat mudah untuk melintasi pohon ini dengan cara ini dan
+
+03:01.450 --> 03:02.750
+memeriksa pekerjaan Anda.
+
+03:02.850 --> 03:06.750
+Itulah sebabnya saya menambahkan fungsi ini sehingga kami akan kembali ke sana.
+
+03:06.750 --> 03:14.180
+Untuk saat ini kita melihat bahwa insert kita berfungsi untuk Olly jika simpul root tidak ada, tetapi mari kita lanjutkan.
+
+03:14.190 --> 03:18.450
+Jika bukan itu masalahnya, kami akan mengatakan.
+
+03:18.450 --> 03:30.360
+Lain jika simpul akar sudah diisi akan mengatakan bahwa simpul saat ini akan menjadi rute bintang karena kita harus melintasi catatan
+
+03:30.360 --> 03:38.440
+ini dan kita tidak akan tahu berapa lama kita akan melintasi salju turun.
+
+03:38.770 --> 03:43.470
+Kami ingin terus melintasi hingga kami menemukan tempat untuk memasukkan ini.
+
+03:43.780 --> 03:48.620
+Dan ini agak sulit tetapi Anda akan terbiasa ketika sedang membangun pohon.
+
+03:48.730 --> 03:54.430
+Kami ingin menggunakan loop sementara dan kondisi yang akan kami gunakan benar.
+
+03:54.760 --> 03:59.790
+Itu berarti teruslah mengulang-ulang setiap saat karena true akan selalu sama.
+
+03:59.800 --> 04:06.130
+Benar dan kita harus berhati-hati di sini jika kita melakukan ini, kita ingin memastikan bahwa ada cara bagi kita untuk
+
+04:06.400 --> 04:07.840
+keluar dari lingkaran ini.
+
+04:07.840 --> 04:13.290
+Kalau tidak, kita akan memiliki loop tak terbatas dan akan crash halaman kecil kami di sini.
+
+04:13.330 --> 04:15.580
+Jadi apa saja kondisi yang akan kita lewati.
+
+04:15.580 --> 04:23.940
+Kami ingin melintasi pohon Ya, cek pertama yang akan kami lakukan adalah mengatakan jika nilai adalah mengingat nilai
+
+04:23.940 --> 04:25.860
+saat kami menyisipkan.
+
+04:25.860 --> 04:30.540
+Jika itu kurang dari nilai saat ini tidak ada titik.
+
+04:30.660 --> 04:35.610
+Jadi kita akan mulai dari catatan root dan mengatakan hei adalah nilai yang kita masukkan kurang dari nilai
+
+04:35.610 --> 04:36.470
+simpul saat ini.
+
+04:36.810 --> 04:39.250
+Jika itu masalahnya kita tahu aturannya.
+
+04:39.390 --> 04:45.160
+Jadi kita akan pergi ke kiri jika mendevaluasi kurang dari not saat ini
+
+04:45.240 --> 04:59.920
+Sekarang di sini kita ingin memeriksa pertama-tama jika tidak ada simpul saat ini yang tersisa apakah sudah ada elemen di sebelah kiri simpul root karena jika tidak ada
+
+05:00.130 --> 05:08.620
+dalam hal ini kita hanya dapat menetapkan titik simpul saat ini kiri ke kita Anda tahu
+
+05:08.860 --> 05:17.900
+bahwa kami ingin masuk karena tidak ada apa-apa di sana dan kami hanya bisa kembali dari loop
+
+05:17.900 --> 05:23.450
+ini dan hanya mengembalikan ini yang merupakan pohon pencarian biner.
+
+05:23.470 --> 05:29.730
+Namun jika ada sesuatu di sebelah kiri catatan kita, katakanlah dalam kasus ini 9.
+
+05:29.870 --> 05:37.190
+Dalam hal ini kita akan mengatakan bahwa catatan saat ini akan sama dengan simpul titik saat ini yang tersisa.
+
+05:37.280 --> 05:43.640
+Jadi kita akan memperbarui dan bergeser sehingga node saat ini tidak lagi 9 itu adalah
+
+05:43.640 --> 05:49.430
+apa pun di sebelah kiri 9 dan itu akan membuat kita tetap berulang.
+
+05:49.690 --> 05:56.170
+Jadi kita akan terus mengulang-ulang terus mengulang-ulang sampai kita mencapai titik yang
+
+05:56.260 --> 06:04.140
+tidak memiliki sisi kiri sehingga kita dapat menempatkan titik saat ini untuk titik kita ke tempatnya.
+
+06:04.290 --> 06:05.470
+Tapi itu untuk sisi kiri.
+
+06:05.490 --> 06:14.420
+Jika nilainya kurang dari node saat ini jika nilainya lebih besar atau dalam hal ini sama dengan simpul kami saat ini dan kami dapat
+
+06:14.420 --> 06:18.820
+memutuskan di sini di mana kami ingin menempatkan nilai yang sama.
+
+06:18.860 --> 06:26.860
+Itu terserah kita dan bagaimana kita ingin mengimplementasikannya akan mengatakan bahwa kita akan benar jika nilai lebih besar atau
+
+06:26.860 --> 06:28.980
+sama dengan node saat ini.
+
+06:29.070 --> 06:34.540
+Dalam hal ini yang ingin kita lakukan pengecekan pertama dulu yaitu jika saat ini TIDAK.
+
+06:35.040 --> 06:35.540
+Kanan.
+
+06:35.550 --> 06:41.700
+Tidak ada apa-apa di sana, tidak ada di sebelahnya di sebelah kanan dalam hal itu seperti bar melawan
+
+06:41.700 --> 06:42.380
+arus.
+
+06:42.420 --> 06:45.480
+Tidak ada titik yang tepat sama
+
+06:49.030 --> 06:54.430
+dengan simpul baru dan kami juga akan mengembalikan ini karena kami ingin menghentikan
+
+06:57.740 --> 07:01.800
+perulangan mengingat segera setelah kami memiliki satu atau dua titik.
+
+07:01.820 --> 07:09.590
+Tidak saat itulah kita ingin keluar dari lingkaran liar ini yang akan berulang selamanya Jika tidak kita hanya
+
+07:09.650 --> 07:13.870
+mengatakan simpul saat ini akan sama dengan saat ini.
+
+07:14.100 --> 07:19.610
+Tidak ada titik yang bagus.
+
+07:19.830 --> 07:20.960
+Dan begitulah.
+
+07:21.420 --> 07:23.570
+Semoga ini berhasil.
+
+07:24.540 --> 07:28.400
+Tetapi sebelum kita menguji ini dan melihat apakah kita menemukan kesalahan kecil.
+
+07:28.620 --> 07:36.180
+Saya ingin memperingatkan Anda jika Anda hanya membuat kode bersama, saya mendorong Anda untuk menghentikan video dan memikirkannya satu per
+
+07:36.450 --> 07:43.770
+satu, bahkan mungkin menggambar semuanya mungkin menggunakan visual go untuk melihat apa yang kami lakukan karena sangat sulit untuk
+
+07:43.770 --> 07:45.940
+menyimpannya di video Anda. kepala.
+
+07:45.990 --> 07:48.660
+Bahkan saya sendiri bisa mengkodekan ini dari awal.
+
+07:48.720 --> 07:55.830
+Butuh sedikit waktu untuk memikirkan semuanya dan melihat bagaimana kami ingin menyusun kode, jadi jangan merasa frustrasi
+
+07:55.830 --> 08:02.130
+jika ini agak berlebihan. Saya mendorong Anda untuk menjeda video, coba kode bersama dan memahami
+
+08:02.130 --> 08:04.810
+apa yang terjadi langkah demi langkah.
+
+08:04.810 --> 08:05.620
+Baiklah.
+
+08:05.620 --> 08:06.860
+Mari kita coba ini.
+
+08:07.880 --> 08:11.420
+Saya memiliki 9 sisipan di sini jika saya klik proses ini berfungsi.
+
+08:11.420 --> 08:14.470
+Jika saya jawab.
+
+08:14.640 --> 08:14.960
+Baiklah.
+
+08:14.970 --> 08:16.630
+Sepertinya empat dimasukkan.
+
+08:16.650 --> 08:18.830
+Bagaimana dengan enam.
+
+08:18.830 --> 08:19.120
+Baiklah.
+
+08:19.130 --> 08:23.650
+Saya hanya akan berkomentar semua ini dan melihat apakah itu berhasil.
+
+08:23.660 --> 08:26.250
+Saya akan klik run.
+
+08:26.260 --> 08:26.890
+Baiklah.
+
+08:26.950 --> 08:28.890
+Sepertinya kami sudah keluar semuanya.
+
+08:29.050 --> 08:34.930
+Tetapi saya ingin menguji memastikan bahwa semuanya berfungsi seperti yang diharapkan.
+
+08:34.930 --> 08:40.630
+Jadi yang akan saya lakukan adalah saya akan menyalin dan menempelkan ingat ini tanpa tanda kutip pada akhirnya karena saya
+
+08:40.630 --> 08:41.980
+tidak ingin menyalin string.
+
+08:42.200 --> 08:52.530
+Saya ingin menyalin objek dan saya akan membuka lagi alat pengembang saya pergi ke kontra. hapus kode saya dan kemudian salin
+
+08:52.530 --> 08:54.330
+dan tempel.
+
+08:54.480 --> 08:55.530
+Tekan enter.
+
+08:55.740 --> 09:00.500
+Dan sekarang kita dapat menguji pohon kami dan Anda gulir ke sini.
+
+09:00.540 --> 09:02.430
+Ini pohon yang kita inginkan.
+
+09:02.430 --> 09:06.130
+Kami memiliki sembilan dari atas ke kiri dan ke kanan.
+
+09:06.130 --> 09:07.830
+Kami memiliki empat dan 20 tampilan itu.
+
+09:07.840 --> 09:08.920
+Itu bagus.
+
+09:09.040 --> 09:18.310
+Dan dua ketika kita pergi ke empat yang kita miliki adalah satu kanan adalah 6 dahsyat dan satu seharusnya normal ke kanan
+
+09:18.310 --> 09:19.810
+dan kiri sempurna.
+
+09:19.810 --> 09:21.390
+Sama dengan enam.
+
+09:21.460 --> 09:22.310
+Sempurna.
+
+09:22.660 --> 09:24.820
+Dan jika kita gulir ke bawah mari kita lihat 20.
+
+09:24.850 --> 09:32.790
+Seharusnya tidak hanya memiliki 15 dan 170 memiliki Shulgin ini kita memiliki 59 170
+
+09:32.790 --> 09:36.900
+Dan keduanya menunjuk ke no.
+
+09:37.010 --> 09:39.960
+Tidak buruk tidak buruk sama sekali.
+
+09:40.020 --> 09:44.720
+Tidak terlalu buruk setelah Anda terbiasa dan mengkodekannya sendiri.
+
+09:44.870 --> 09:46.860
+Anda akan melihat bahwa itu masuk akal.
+
+09:46.880 --> 09:54.410
+Itu semua hanya logika dan sesuatu yang kami pelajari ketika bekerja dengan daftar tertaut di video berikutnya yang akan kami
+
+09:54.410 --> 09:55.950
+coba dan atasi.
+
+09:55.980 --> 10:03.160
+Cari jika Anda tidak dapat menerapkan sisipan, silakan coba dan lakukan sekarang sebelum kita dapat melihat.
+
+10:03.260 --> 10:05.660
+Kalau tidak, coba implementasikan.
+
+10:05.690 --> 10:09.770
+Cari sendiri dan saya akan melihat Anda di video solusi.
+
+10:09.850 --> 10:10.010
+Polisi.

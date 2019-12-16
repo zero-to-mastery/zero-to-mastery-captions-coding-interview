@@ -1,0 +1,277 @@
+WEBVTT
+
+00:01.020 --> 00:07.650
+Witamy ponownie, użyjmy programowania dynamicznego i zapamiętywania, aby ulepszyć tę funkcję.
+
+00:08.420 --> 00:16.540
+Tak jak zrobiliśmy, gdy dowiedzieliśmy się o zapamiętywaniu, jest to dość proste, usuńmy to na razie.
+
+00:16.540 --> 00:27.050
+Zatrzymam to na górze, a następnie utworzę nową funkcję, którą nazwiemy Fibonacci master, ta funkcja
+
+00:27.080 --> 00:37.320
+będzie zawierała tablicę mieszania pamięci podręcznej lub obiekt do przechowywania naszych wstępnie obliczonych odpowiedzi.
+
+00:37.480 --> 00:43.780
+A jeśli pamiętasz, ponieważ chcemy się upewnić, że nie zresetujemy tego za każdym razem, gdy
+
+00:44.110 --> 00:51.130
+uruchomimy tę funkcję, ponownie zwrócę tutaj funkcję Nothera, używając zamknięć i Javascript, a w innych językach może
+
+00:51.160 --> 00:53.360
+być konieczne użycie różnych technik.
+
+00:54.010 --> 01:01.320
+I tutaj możemy po prostu mieć funkcję, którą możemy nazwać w czymkolwiek, nazwijmy to kłamstwem.
+
+01:01.440 --> 01:03.820
+I to jest liczba, którą dajemy.
+
+01:04.210 --> 01:11.840
+A tutaj zrobimy coś bardzo podobnego do powyższego, ale sprawdzimy to dla nas.
+
+01:12.070 --> 01:15.540
+Powiemy, że jeśli cache znajduje się w
+
+01:19.680 --> 01:27.330
+pamięci podręcznej, tak jak zrobiliśmy to w filmach z powiadomieniami, sprawdzimy, czy pamięć podręczna istnieje, a jeśli
+
+01:27.420 --> 01:29.510
+tak, to zwrócimy gotówkę.
+
+01:30.340 --> 01:35.940
+I po raz pierwszy wokół tego będzie pusta, więc to nie zadziała, to
+
+01:35.940 --> 01:37.990
+wejdzie w inny stan.
+
+01:40.040 --> 01:44.270
+A tutaj mamy dwa warunki, tak jak tutaj.
+
+01:46.360 --> 01:51.800
+I jest mniej niż dwóch, które musimy zwrócić.
+
+01:51.930 --> 02:00.850
+I tak jak zrobiliśmy to powyżej, inaczej uruchomilibyśmy naszą sekwencję.
+
+02:01.040 --> 02:10.010
+Więc robimy kłamstwo i minus jeden plus kłamstwo i minus 2.
+
+02:10.260 --> 02:13.290
+Ale chcemy zachować tę wartość w naszej gotówce.
+
+02:13.500 --> 02:24.030
+Powiemy więc gotówkę i wyrównamy jej wynik.
+
+02:24.090 --> 02:33.910
+I na koniec chcemy zwrócić tę wartość, ponieważ używamy tutaj rekursji i zwracamy gotówkę,
+
+02:34.110 --> 02:39.170
+którą właśnie ustawiliśmy i to wszystko.
+
+02:39.250 --> 02:41.310
+To nie było takie trudne prawo.
+
+02:41.570 --> 02:51.590
+Mam na myśli kilka dodatkowych kroków, ale wszystko, co zrobiliśmy, to po prostu dodać wynik do naszego tabeli
+
+02:51.680 --> 02:59.580
+mieszania, więc teraz, jeśli zrobię to, to powiedzmy, że szybszy kłuc będzie równy Fibonacci.
+
+02:59.630 --> 03:08.210
+M. pamiętaj, kiedy pierwszy raz uruchomimy tę funkcję i stworzymy zmienną gotówkową.
+
+03:09.110 --> 03:16.680
+Znowu i utwórz zmienną gotówkową, a ona po prostu zwróci tę funkcję.
+
+03:17.030 --> 03:26.240
+Więc jest to podobne do tego, że mówię, że szybszy kibel jest teraz równy tej funkcji.
+
+03:26.370 --> 03:36.460
+Poza tym, że teraz mamy dostęp do zmiennej gotówkowej, więc teraz mogę spakować cały dziennik i
+
+03:36.460 --> 03:49.580
+nazwijmy to DP dla programowania dynamicznego, a my powiemy, że szybsze kłamstwo i dajmy na to 10, jeśli to zrobię, dostaję
+
+03:49.670 --> 03:58.700
+55 0 1 2 3 4 5 6 7 8 9 10 55.
+
+03:58.830 --> 04:00.030
+To całkiem dobrze.
+
+04:00.960 --> 04:07.920
+Ale zróbmy tutaj coś zabawnego, żeby sprawdzić, czy działa ta kalkulacja,
+
+04:07.920 --> 04:20.750
+którą użyliśmy w numerze Fibonacciego, przenieśmy ją do Fibonacciego M. lub zamiast tutaj w tej funkcji, ponieważ jest to ta, którą
+
+04:20.750 --> 04:30.010
+powtarzamy i zobaczmy, ile razy to obliczenie się dzieje, jeśli to uruchomię i musimy anulować
+
+04:30.010 --> 04:32.500
+zapisywanie tych obliczeń.
+
+04:32.500 --> 04:35.780
+A więc na dole tutaj
+
+04:38.940 --> 04:40.710
+mamy log
+
+04:44.790 --> 04:49.820
+konsoli, a my powiemy, że zrobiliśmy takie obliczenia.
+
+04:50.040 --> 05:02.790
+Więc jeśli to zrobię, zobaczymy, że zrobiliśmy 19 obliczeń z Fibonacci M. Kiedy weszliśmy do 10, jeśli
+
+05:03.060 --> 05:09.480
+cofnęliśmy obliczenia aż do naszej starej wersji.
+
+05:09.780 --> 05:12.100
+I rzeczywiście musimy uruchomić tę funkcję.
+
+05:12.240 --> 05:20.760
+A więc, po prostu włączmy blokadę konsoli, więc zacznijmy od wszystkiego, co powiemy, anuluj lub zaloguj.
+
+05:20.760 --> 05:28.060
+Będzie to nazywane powolnym i będzie się nazywać Fibonacci.
+
+05:28.260 --> 05:34.100
+Więc po prostu wykonamy naszą oryginalną funkcję Fibonacci z 10.
+
+05:34.140 --> 05:34.820
+Zobaczmy.
+
+05:34.830 --> 05:45.070
+I Ron, mamy te same odpowiedzi 55, ale potrzebowaliśmy stu siedemdziesięciu siedmiu obliczeń, aby
+
+05:45.070 --> 05:47.080
+uzyskać 10.
+
+05:47.160 --> 05:48.000
+Święty Moly.
+
+05:48.000 --> 05:51.930
+A więc 19 kontra sto siedemdziesiąt siedem obliczeń.
+
+05:52.230 --> 05:53.880
+A jeśli
+
+05:56.880 --> 06:01.900
+zrobimy tutaj 20, mamy tak wiele obliczeń, a właściwie 35.
+
+06:01.920 --> 06:06.490
+Sprawdź, czy to możliwe, zobaczymy 35.
+
+06:06.490 --> 06:07.270
+Proszę bardzo.
+
+06:07.270 --> 06:17.140
+Zobacz, ile obliczeń musieliśmy wykonać w porównaniu do tego, czy wykonuję 35 z naszą zminimalizowaną funkcją, przenieś tutaj
+
+06:17.730 --> 06:18.490
+obliczenia.
+
+06:23.830 --> 06:28.320
+I przeprowadziliśmy to sześćdziesiąt dziewięć.
+
+06:28.340 --> 06:29.490
+Obliczenia.
+
+06:29.610 --> 06:36.110
+Zamiast tego, gdybym wprowadził tutaj Fibonacciego 50, to spowodowałoby to awarię przeglądarki,
+
+06:36.410 --> 06:41.090
+ponieważ wykonalibyśmy tak wiele obliczeń za pomocą tej.
+
+06:41.150 --> 06:45.940
+Mogę nawet Achia sto i nie mam problemu.
+
+06:45.950 --> 06:48.020
+Zobacz, jak szybko to obliczyli.
+
+06:48.020 --> 06:49.030
+To naprawdę niesamowite.
+
+06:49.040 --> 06:52.110
+Obliczono tylko 199.
+
+06:52.460 --> 06:56.760
+Mam nadzieję, że widzisz moc programowania dynamicznego i nie jest to takie trudne.
+
+06:56.840 --> 06:57.440
+Dobrze.
+
+06:57.770 --> 07:00.130
+Wszystko, czego potrzebujesz, to zapamiętać ten wzór.
+
+07:00.230 --> 07:08.630
+A jeśli są jakieś powtarzające się obliczenia, aby zapamiętać wynik funkcji, tak, że jeśli parametr jest
+
+07:08.630 --> 07:13.800
+taki sam, najpierw sprawdzamy w pamięci podręcznej dla wyniku.
+
+07:13.880 --> 07:21.830
+Ale porozmawiajmy o złożoności czasu i przestrzeni tutaj, ponieważ robimy tylko
+
+07:21.830 --> 07:24.190
+niezbędne obliczenia.
+
+07:24.420 --> 07:36.020
+W tym przypadku wszystkie nasze obliczenia będą i słuszne, wykonamy jeden dwa trzy cztery pięć sześć siedmiu obliczeń w porównaniu do tych,
+
+07:36.260 --> 07:38.430
+które zrobiliśmy wcześniej.
+
+07:39.320 --> 07:46.330
+Tak więc nasza złożoność czasowa dla tego jest pełna i przeciwstawna.
+
+07:46.340 --> 07:53.790
+Z tym, który miał dwa do potęgi 10, zrobiliśmy olbrzymie oszczędności.
+
+07:55.440 --> 08:01.970
+Jedyną wadą jest to, że znacznie zwiększyliśmy złożoność przestrzeni.
+
+08:01.980 --> 08:02.600
+Dobrze.
+
+08:02.970 --> 08:12.140
+Chodzi mi o to, że z pierwszym numerem Fibonacciego musieliśmy dodać funkcje do stosu i te funkcje.
+
+08:12.180 --> 08:14.330
+Im głębiej to dodaliśmy do stosu.
+
+08:14.400 --> 08:21.870
+Ale kiedy dotarliśmy na dół, wyskoczyliśmy ze stosu, tak że stos był tak głęboki jak drzewo.
+
+08:22.470 --> 08:29.130
+Ale z zapamiętywaną wersją mieliśmy również tę nową zmienną tę tablicę skrótów pamięci podręcznej, którą musimy przechowywać
+
+08:29.130 --> 08:30.020
+w pamięci.
+
+08:30.020 --> 08:37.290
+Ale jak wiemy, czasami potrzebujemy wymieniać złożoność przestrzeni, aby uzyskać lepszą złożoność czasu.
+
+08:37.380 --> 08:39.100
+I właśnie to robimy w tym przypadku.
+
+08:39.330 --> 08:44.520
+W tym przypadku oszczędności czasu są bardzo duże.
+
+08:44.520 --> 08:47.880
+W porządku Mam nadzieję, że cieszę się z programowania dynamicznego.
+
+08:47.910 --> 08:52.020
+To bardzo interesujące i nie tak przytłaczające, jak ci się wydaje.
+
+08:52.130 --> 08:53.450
+Dobrze.
+
+08:53.460 --> 09:00.030
+Zostawię kilka problemów, abyś mógł się przyzwyczaić do programowania dynamicznego, ale zalecam, abyś zajął
+
+09:00.090 --> 09:07.760
+się kodem tego liścia i możesz go po prostu pobrać z zasobów i bawić się z nim.
+
+09:08.570 --> 09:11.620
+W przeciwnym razie zobaczę w następnym wideo przez.

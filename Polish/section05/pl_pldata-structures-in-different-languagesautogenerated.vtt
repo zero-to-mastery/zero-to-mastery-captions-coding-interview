@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.930 --> 00:07.470
+Witamy z powrotem istnieje kilka struktur danych, które mogą być zadawane w wywiadzie i widzieliśmy, ile
+
+00:07.470 --> 00:10.150
+ich jest na tej stronie Wikipedii.
+
+00:10.320 --> 00:14.760
+Ale na szczęście dla ciebie lista nie jest tak naprawdę onieśmielająca.
+
+00:14.760 --> 00:18.420
+Wszystko, czego potrzebujesz, to te łabędzie tutaj.
+
+00:18.420 --> 00:21.380
+Są używane, powiedziałbym w 90 procentach.
+
+00:21.540 --> 00:25.310
+I o tym właśnie będziemy mówić w naszym kursie.
+
+00:25.350 --> 00:30.800
+Teraz mogą istnieć określone w tych grupach i każda z nich ma kompromisy.
+
+00:30.990 --> 00:36.780
+Ale tak długo, jak się ich uczysz, a dowiesz się, kiedy i dlaczego powinieneś ich używać, będziesz miał
+
+00:36.780 --> 00:38.570
+dużo mil przed większością ludzi.
+
+00:38.790 --> 00:41.160
+Będzie dużo zabawy.
+
+00:42.490 --> 00:44.400
+Zanim zaczniemy.
+
+00:44.410 --> 00:46.870
+Chcę zwrócić uwagę na ostatnią rzecz.
+
+00:47.020 --> 00:56.530
+Zobaczysz, że każdy język ma swoje własne typy danych lub wbudowane typy danych javascript na przykład
+
+00:57.190 --> 01:09.570
+ma łańcuchy liczb, które mają wartości logiczne, które są prawdziwe, a następnie niektóre dziwne, takie jak niezdefiniowane, a każdy język
+
+01:09.570 --> 01:15.150
+ma struktury danych do organizowania tych typów danych.
+
+01:15.150 --> 01:23.960
+Na przykład w javascript mamy tablice i obiekty, których używamy i są to typy danych.
+
+01:23.970 --> 01:32.250
+Pozwala nam to na porządkowanie i organizowanie informacji, takich jak nasze podstawowe typy danych, a nawet utrzymywanie
+
+01:32.250 --> 01:38.760
+bardziej złożonych, takich jak tablica zawierająca wiele obiektów i będziemy mówić o tym bardziej
+
+01:38.760 --> 01:39.660
+szczegółowo.
+
+01:39.750 --> 01:47.730
+Ale chcę wam pokazać, że mamy różne języki, które mają odmienny dostęp do niektórych struktur danych.
+
+01:47.790 --> 01:55.080
+Możesz zobaczyć tutaj inne języki, których możemy używać w tym kursie i czy mają
+
+01:55.080 --> 01:56.230
+je dostępne.
+
+01:56.310 --> 02:07.010
+Widzimy, że Java ma tablice połączonych list zestawów mamy kolejek priorytetowych i wiele innych typów.
+
+02:07.090 --> 02:14.540
+Teraz oznacza to, że jeśli używamy javascript, możemy używać tylko tablic i obiektów.
+
+02:15.270 --> 02:22.050
+No nie, nie, chociaż te języki mają wbudowane struktury danych.
+
+02:22.050 --> 02:30.690
+Możemy również zbudować własne i większość języków ma wystarczającą ilość struktur danych i typów danych, abyśmy mogli budować i
+
+02:31.740 --> 02:33.770
+tworzyć własne struktury danych.
+
+02:34.690 --> 02:44.580
+Więc jeśli javascript nie ma stosów, możemy go teraz zbudować, aby ukończyć tę sekcję i wreszcie zagłębić się w
+
+02:44.580 --> 02:47.280
+naszą pierwszą strukturę danych.
+
+02:47.300 --> 02:53.480
+Chciałem ci tylko przypomnieć, że mamy tu małą mapę z informacjami, które powinniśmy znać podczas wywiadu
+
+02:53.480 --> 02:54.470
+z kodowaniem.
+
+02:54.470 --> 03:02.090
+Teraz na tej mapie mam mały emoji prezentu obok każdej ze struktur danych, o których będziemy
+
+03:02.090 --> 03:02.930
+mówić.
+
+03:03.930 --> 03:10.260
+Jak widać, nie ma ich zbyt wiele i wiele z nich jest dość powiązanych lub jest dziećmi
+
+03:10.260 --> 03:17.600
+innych, ale używa tego jako punktu odniesienia, aby po prostu narysować mapę tego, jak rzeczy są połączone i jakie są
+
+03:17.600 --> 03:19.650
+struktury danych porozmawiamy o tym.
+
+03:20.570 --> 03:24.870
+Ale niech nasze ręce zabrudzą się z naszą pierwszą strukturą danych.
+
+03:24.950 --> 03:26.280
+Zobaczę w następnym.
+
+03:26.600 --> 03:26.820
+Babai.

@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.670 --> 00:05.160
+Witaj ponownie, gdzie możesz dowiedzieć się, jak wstawić sortowanie.
+
+00:06.050 --> 00:10.030
+Mam dla ciebie odpowiedź, tak jak to się stało w animacji.
+
+00:10.170 --> 00:20.540
+Najpierw przechodzimy przez pętlę nad tablicą, a jeśli przedmiot, którego szukamy, jest mniejszy niż pierwszy element tablicy, podczas
+
+00:21.630 --> 00:25.400
+gdy my właśnie przenosimy ten element.
+
+00:25.680 --> 00:31.810
+Użyj metody on shift w tablicy i dodaj do pierwszego indeksu w tablicy.
+
+00:32.970 --> 00:41.880
+W przeciwnym razie, jeśli przedmiot, nad którym obecnie pracujemy, jest nie mniejszy niż pierwszy indeks, wówczas musimy ustalić, gdzie
+
+00:41.880 --> 00:44.340
+powinien iść ten numer.
+
+00:44.340 --> 00:50.430
+Będziemy więc przeglądać rzeczy, wykonując instrukcję if, aby zobaczyć, gdzie powinny iść liczby.
+
+00:50.610 --> 00:57.600
+A potem przesuniemy tę liczbę we właściwe miejsce, używając metody splice, więc
+
+00:57.930 --> 01:06.350
+jeśli klikniemy tutaj, posortujemy naszą listę, jeszcze raz zostawię tę funkcję tutaj, abyś mógł się bawić.
+
+01:06.640 --> 01:11.390
+Ale chcę szybko mówić o dużej złożoności sortowania wstawek.
+
+01:11.440 --> 01:16.470
+Są chwile, w których sortowanie wstawek może działać naprawdę dobrze.
+
+01:16.660 --> 01:23.760
+Najlepszy scenariusz dla sortowania wstawiania, gdy lista jest prawie posortowana lub dane są naprawdę małe.
+
+01:23.800 --> 01:25.510
+Może być naprawdę szybki.
+
+01:25.780 --> 01:35.180
+Jeśli wrócimy do naszych małych animacji i spojrzymy na sortowanie w prawie posortowanych danych i kliknę grę, zauważysz, że
+
+01:35.190 --> 01:40.730
+jest to pierwsza, która zakończy się dość szybko w porównaniu do
+
+01:40.730 --> 01:41.940
+wszystkich innych.
+
+01:41.990 --> 01:42.920
+Zobaczmy to jeszcze raz.
+
+01:45.860 --> 01:53.600
+Zobaczysz, że jest to pierwsze, zrobione dość szybko i jak omówimy w następnych filmach, jeśli chodzi o małe
+
+01:53.600 --> 02:01.020
+zestawy danych lub zestawy danych, które są prawie w porządku, chcesz użyć sortowania wtrącania w porównaniu do
+
+02:01.040 --> 02:02.840
+większości innych algorytmów sortowania.
+
+02:02.960 --> 02:03.600
+Dobra robota.
+
+02:03.710 --> 02:06.020
+Przejdźmy do następnego algorytmu sortowania.

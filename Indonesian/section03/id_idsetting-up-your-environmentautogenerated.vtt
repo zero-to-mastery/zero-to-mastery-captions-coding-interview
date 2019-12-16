@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.390 --> 00:08.340
+Dalam kursus ini saya tidak ingin membatasi Anda hanya pada satu bahasa karena kami semua kode dalam berbagai
+
+00:08.430 --> 00:13.490
+bahasa dan sepanjang karier Anda, Anda kemungkinan besar akan menggunakan banyak bahasa.
+
+00:13.530 --> 00:20.430
+Sekarang kursus ini secara khusus saya harus menggunakan bahasa untuk menunjukkan kode dan menulis beberapa kode
+
+00:20.430 --> 00:27.000
+dan saya akan menggunakan javascript untuk ini karena mirip dengan banyak bahasa umum dan itu juga
+
+00:27.000 --> 00:28.650
+yang paling terkenal.
+
+00:28.830 --> 00:36.330
+Namun Anda dapat menggunakan bahasa apa pun yang Anda inginkan dalam kursus ini dan mengikuti bahkan latihan akan
+
+00:36.330 --> 00:39.300
+memberi Anda solusi dalam berbagai bahasa.
+
+00:39.300 --> 00:45.570
+Jadi pilih yang mana saja yang Anda inginkan tetapi bagaimana kita akan menjalankan semua bahasa yang berbeda ini ketika
+
+00:45.570 --> 00:46.380
+Anda mengikuti.
+
+00:46.500 --> 00:51.810
+Mungkin saya mendemonstrasikan sesuatu dalam javascript dan Anda mengkode bersama Python apa yang akan kita
+
+00:51.810 --> 00:54.770
+gunakan beberapa alat online kecil yang rapi.
+
+00:54.840 --> 00:59.710
+Yang pertama akan saya tunjukkan kepada Anda dan yang akan kami gunakan dalam kursus ini adalah membungkus semua
+
+01:00.360 --> 01:02.260
+dot I-T REPL sesuai keinginan saya.
+
+01:02.550 --> 01:07.200
+Dan Anda dapat memilih bahasa apa pun yang Anda inginkan di sini untuk kode bersama.
+
+01:07.590 --> 01:13.710
+Dan seperti saya katakan saya akan menggunakan javascript untuk kursus ini, tetapi yang perlu Anda
+
+01:13.770 --> 01:22.110
+lakukan adalah mendaftar dengan akun get habbe Anda dan Anda akan memiliki sedikit ID yang dapat Anda jalankan kode Anda dan Anda
+
+01:22.200 --> 01:30.350
+akan melihat saya menggunakan ini di seluruh kursus dan sekarang yang saya sangat suka adalah galat IO dan itu open source yang
+
+01:30.350 --> 01:36.680
+saya penggemar dan Anda dapat melihat di sini bahwa kami memiliki banyak bahasa berbeda yang dapat kami
+
+01:36.680 --> 01:37.150
+gunakan.
+
+01:38.550 --> 01:45.730
+Sekali lagi jika saya pergi ke Javascript itu memberi saya area kecil yang bagus bagi saya untuk menulis kode dan menjalankannya.
+
+01:45.880 --> 01:53.960
+Pilihan lain terutama jika Anda menggunakan javascript adalah pergi ke Lihat
+
+01:54.430 --> 02:06.880
+pengembang dan alat pengembang dan Google Chrome dan ini memungkinkan Anda di tab konsol untuk hanya menulis javascript.
+
+02:06.890 --> 02:08.550
+Jadi itu pilihan bagus lainnya.
+
+02:08.690 --> 02:15.920
+Atau jika Anda mau, Anda selalu dapat menggunakan editor teks favorit Anda untuk menulis kode Anda dan kemudian
+
+02:15.920 --> 02:17.970
+jalankan sesuai keinginan Anda.
+
+02:17.990 --> 02:23.310
+Sekali lagi ingat bahwa kursus ini adalah agnostik bahasa yang berarti tidak masalah bahasa apa yang Anda
+
+02:23.370 --> 02:23.960
+gunakan.
+
+02:23.970 --> 02:29.010
+Apa yang kami pelajari dari prinsip-prinsip dasar ilmu komputer kami mengatakan Anda dapat membawa
+
+02:29.010 --> 02:35.910
+kemana saja sepanjang karier Anda dan ketika Anda akan melihat apakah Anda tahu javascript atau tidak, saya akan menjaga kode
+
+02:35.940 --> 02:42.600
+ini sangat umum dan sederhana sehingga mudah untuk mereplikasi ke bahasa lain dan juga memberi Anda sumber daya dan sumber
+
+02:42.900 --> 02:44.000
+dengan bahasa lain.
+
+02:44.010 --> 02:46.700
+Ketika kita masuk ke lebih banyak seluk beluk coding.
+
+02:46.850 --> 02:48.980
+Baiklah, atur lingkungan Anda.
+
+02:49.050 --> 02:50.500
+Bersiaplah untuk beberapa kode.
+
+02:50.790 --> 02:52.770
+Saya akan lihat di video berikutnya.

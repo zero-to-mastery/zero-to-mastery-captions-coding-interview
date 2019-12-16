@@ -1,0 +1,811 @@
+WEBVTT
+
+00:03.050 --> 00:08.450
+Wróćmy do miejsca, w którym chcemy zacząć pisać nasz kod, pamiętając, że im więcej
+
+00:08.450 --> 00:13.500
+przygotujesz i zrozumiesz, czego potrzebujesz, aby kodować, tym lepiej pójdzie biała tablica.
+
+00:13.550 --> 00:18.050
+Więc nigdy nie rozpoczynaj wywiadu z białą tablicą, nie mając pewności, jak się sprawy potoczą.
+
+00:19.020 --> 00:21.400
+Więc rozmawialiśmy o tym.
+
+00:21.450 --> 00:23.440
+Mamy na myśli plan.
+
+00:23.730 --> 00:24.690
+Zacznijmy to zakodować.
+
+00:24.690 --> 00:26.600
+Zróbmy tutaj pierwszą pętlę.
+
+00:27.650 --> 00:33.910
+Chcemy przetestować pierwszą tablicę i usunąć ten kod, aby był nieco bardziej
+
+00:33.910 --> 00:34.930
+przejrzysty.
+
+00:34.960 --> 00:40.360
+Chcemy przechodzić przez pierwszą tablicę, aby utworzyć obiekt, w którym właściwości będą pasować do elementów w
+
+00:40.450 --> 00:41.120
+tablicy.
+
+00:42.120 --> 00:47.130
+Zamierzam stworzyć obiekt, nazwijmy tę mapę i
+
+00:51.750 --> 00:57.620
+tę mapę, którą stworzyliśmy, ale chcemy przechodzić przez naszą tablicę.
+
+00:57.630 --> 00:59.980
+To znaczy, pozwólcie mi.
+
+01:00.700 --> 01:04.560
+Woła 0 i już to robiliśmy.
+
+01:04.860 --> 01:12.100
+Jest mniejszą kropką tablicową lub tablicą o długości jednej kropki.
+
+01:12.480 --> 01:17.400
+Będziemy teraz zwiększać tutaj.
+
+01:17.470 --> 01:29.570
+Najpierw powiemy, że nie ma właściwości, więc chcemy sprawdzić, czy mapa A istnieje, a nie jest mapowana. Część
+
+01:29.570 --> 01:33.110
+B istnieje. Mapa Dotsie istnieje.
+
+01:33.190 --> 01:35.020
+X istnieje.
+
+01:35.020 --> 01:45.220
+Jeśli więc nie istnieje w Javascript, możesz po prostu użyć tej składni, którą możemy powiedzieć, jeśli nie ma zastosowania żadna mapa.
+
+01:45.220 --> 01:51.470
+Więc znowu, jeśli mapa I, która za pierwszym razem będzie.
+
+01:51.620 --> 01:57.380
+Więc jeśli mapa kropka A jest odwrotnie.
+
+01:57.380 --> 02:02.760
+Zatem ten znak wykrzyknika javascript oznacza przeciwieństwo, jeśli mapa a istnieje.
+
+02:02.930 --> 02:08.770
+Zwróci true, jeśli nie istnieje.
+
+02:08.770 --> 02:11.880
+To będzie fałszywe.
+
+02:11.900 --> 02:14.080
+To może być trochę mylące.
+
+02:14.090 --> 02:20.880
+Ale chcemy powiedzieć, że jeśli nie istnieje w tym przypadku, chcemy coś zrobić.
+
+02:21.000 --> 02:28.200
+Teraz sposób, w jaki instrukcje działają w JavaScript, musi być prawdziwy, aby wykonać to, co tu
+
+02:28.200 --> 02:28.840
+jest.
+
+02:28.890 --> 02:36.020
+Dodajemy tutaj wykrzyknik, aby zmienić fałszywe w prawdziwe.
+
+02:36.030 --> 02:37.720
+Wiem, że to może być nieco mylące.
+
+02:37.830 --> 02:38.990
+Możesz przeczytać na ten temat.
+
+02:39.090 --> 02:44.600
+Ale zasadniczo to, co robimy, sprawdzamy po prostu, czy istnieje, czy nie.
+
+02:45.030 --> 02:48.710
+Jeśli nie istnieje, dodamy to.
+
+02:48.780 --> 02:56.320
+Więc powiem, że pozycja Konst równa się tablice 1 I.
+
+02:56.550 --> 03:09.540
+To jest a, a ten element będzie miał element mapy równy true.
+
+03:09.800 --> 03:11.060
+Co właśnie tutaj robimy.
+
+03:11.240 --> 03:23.600
+Co powiedzieliśmy, jeśli mapa a nie istnieje, utwórzmy tablicę I, która jest równa pozycji, więc element mapy
+
+03:23.690 --> 03:25.880
+będzie równy 2.
+
+03:25.880 --> 03:29.340
+Wszystko, co mówimy, to mapa a.
+
+03:29.350 --> 03:31.590
+W tym przypadku jest to prawda.
+
+03:31.690 --> 03:41.700
+Tak więc pod koniec tego będziemy mieli obiekt, który będzie miał właściwość prawdziwą i będziemy
+
+03:41.700 --> 03:50.430
+go przeglądać, dopóki nie znajdziemy obiektu zwanego mapą, który ma wszystkie te elementy.
+
+03:50.430 --> 03:58.950
+Mapuj mapę b mapę c mapę X jest zgodna z prawdą. Wygląda na to, że jesteśmy w stanie to osiągnąć i
+
+03:58.950 --> 04:03.480
+możemy po prostu pocieszyć nasze prawo, aby sprawdzić, co mamy.
+
+04:03.480 --> 04:07.470
+Zamierzam powiedzieć mapę dialogową Konsole.
+
+04:07.610 --> 04:22.450
+Jeśli uruchomię tę funkcję, zróbmy wspólny element do tablicy, a trochę zminimalizujmy to.
+
+04:22.460 --> 04:29.230
+Możemy to zobaczyć i jeśli to uruchomię, zamierzam upewnić się, że wypisuję odpowiednią tablicę.
+
+04:29.460 --> 04:30.950
+Biegnijmy.
+
+04:31.170 --> 04:35.430
+Widzimy, że prawdziwe prawdziwe C prawdziwe X jest prawdziwe.
+
+04:35.550 --> 04:36.270
+Niesamowite.
+
+04:36.300 --> 04:38.080
+Teraz mamy to działa.
+
+04:38.220 --> 04:47.960
+Przejdźmy przez drugi krok i właśnie zauważyłem, że tak właśnie teraz jest sprawdzanie I,
+
+04:48.020 --> 04:52.640
+które wynosi 0 1 2 3.
+
+04:52.640 --> 04:56.260
+Ale zamiast tego chcemy sprawdzić b c na X ..
+
+04:56.300 --> 05:05.930
+Więc zamiast tu powinienem być tablicą 1 i notacją I.
+
+05:06.410 --> 05:13.490
+A zatem b c x ma właściwość mapy.
+
+05:13.680 --> 05:16.340
+Wiele nawiasów tutaj, ale mam nadzieję, że ma to sens.
+
+05:16.350 --> 05:18.920
+Więc jeśli to zrobię, powinniśmy uzyskać tę samą odpowiedź.
+
+05:18.930 --> 05:20.060
+Idealny.
+
+05:20.070 --> 05:22.270
+Teraz spójrzmy na drugą część tutaj.
+
+05:22.290 --> 05:28.440
+Chcesz przejść przez drugą tablicę i sprawdzić, czy element w drugiej macie istnieje
+
+05:28.620 --> 05:30.140
+w obiekcie utworzonym.
+
+05:30.150 --> 05:31.700
+To powinno być dość proste.
+
+05:31.890 --> 05:35.420
+Wszystko, co musimy zrobić, i usuńmy tutaj mapę dialogową konsoli.
+
+05:36.620 --> 05:39.660
+Wszystko, co musimy zrobić, to zapętlić drugą tablicę.
+
+05:42.790 --> 05:46.710
+Niech J jest równe zero.
+
+05:47.570 --> 05:51.910
+J powinno być mniejsze niż długość dwóch kropek.
+
+05:53.060 --> 05:55.320
+A potem będziemy zwiększać J.
+
+05:56.980 --> 06:02.030
+I wszystko, co zamierzamy powiedzieć, to MAPA Co chcemy sprawdzić.
+
+06:02.080 --> 06:11.200
+Co chcemy sprawdzić, czy zawiera on pierwszy element w drugiej tablicy, który jest Z jako częścią jego właściwości.
+
+06:11.230 --> 06:16.030
+Pamiętaj, że nasz obiekt mapy zawiera te właściwości.
+
+06:16.120 --> 06:22.290
+Więc powiemy tylko, że sprawdzimy tablicę.
+
+06:22.780 --> 06:25.240
+I sprawdzimy indeks J.
+
+06:25.330 --> 06:29.460
+Zatem pierwszy indeks 0 powyżej 80 będzie łatwy.
+
+06:29.470 --> 06:31.330
+Dlaczego więc a.
+
+06:31.450 --> 06:37.930
+I jeśli to prawda, jeśli zawiera te rzeczy, ponieważ pamiętaj, że kiedy oceniamy,
+
+06:37.930 --> 06:40.450
+to powróci true jeśli istnieje.
+
+06:40.540 --> 06:43.900
+Jeśli teraz będziemy po prostu niezdefiniowani.
+
+06:44.050 --> 06:48.350
+Powiemy, że zwrot jest prawdą inaczej.
+
+06:48.550 --> 06:53.530
+Na samym końcu możemy po prostu powiedzieć return false.
+
+06:53.710 --> 06:57.340
+Zobaczmy, czy to faktycznie działa Vonta, po
+
+07:00.820 --> 07:03.480
+prostu kliknij i przejdę OK.
+
+07:03.690 --> 07:13.570
+Widzę więc, że w meczu, jeśli zmienię to na coś, co nie istnieje, tak jak nasze jezioro Ron.
+
+07:13.740 --> 07:15.450
+Dostaję fałszywe.
+
+07:15.590 --> 07:30.300
+Co się stanie, jeśli zmienię to, aby zobaczyć, że się zgadzam, jeśli otrzymam to do X, otrzymam prawdę, jeśli zmienię to na W. Dostaję fałszywe niesamowite.
+
+07:30.330 --> 07:41.200
+Więc właśnie zakodowaliśmy coś nowego, nową funkcją, która, jeśli spojrzymy na to, czyni wszystko lepiej.
+
+07:41.220 --> 07:41.820
+Dobrze.
+
+07:42.030 --> 07:52.290
+Ponieważ mamy dwie cztery pętle jedna po drugiej, która zawsze jest plusem b versus wcześniej, gdzie zagnieździliśmy się dla
+
+07:52.350 --> 07:53.910
+tych przełączników.
+
+07:53.960 --> 08:00.870
+Och, w tym momencie możemy powiedzieć ankieterowi, czy tablice są znacznie większe i możemy
+
+08:00.870 --> 08:07.410
+uzyskać naprawdę duże tablice, wtedy to rozwiązanie, jeśli chodzi o złożoność czasu, jest
+
+08:11.250 --> 08:12.150
+lepsze.
+
+08:12.600 --> 08:13.510
+Jakie to jest świetne.
+
+08:14.370 --> 08:19.040
+Teraz przejdźmy do kolejnych kroków, ponieważ jeszcze nie skończyliśmy.
+
+08:20.540 --> 08:22.970
+Zróbmy to trochę większym.
+
+08:22.970 --> 08:26.970
+Numer 11 jest pomyślany o próbach lotniczych i o tym, jak możesz złamać ten kod.
+
+08:27.170 --> 08:30.350
+Nigdy nie przyjmuje założeń dotyczących danych wejściowych.
+
+08:30.350 --> 08:35.120
+Załóżmy, że ludzie próbują złamać twój kod i że Darth Vader używa twojej funkcji.
+
+08:35.120 --> 08:39.260
+Jak będziesz go chronić, więc zawsze sprawdzaj fałszywe dane wejściowe.
+
+08:39.270 --> 08:46.570
+Nie chcą, ale w zasadzie teraz patrzę na ten kod i mówię, jak mogę to przełamać.
+
+08:46.580 --> 08:52.270
+Cóż, pomyślmy o tym.
+
+08:52.340 --> 08:58.510
+Jeśli przejdę przez ten kod i powiedzmy, co mam zrobić, jeśli będę musiał Asiera i ja biegnę.
+
+08:58.610 --> 09:00.380
+Czy to nadal działa poprawnie.
+
+09:00.500 --> 09:03.070
+Co jeśli mam.
+
+09:03.120 --> 09:05.270
+I tu co się dzieje.
+
+09:05.480 --> 09:07.730
+W porządku, widzę, że to prawda.
+
+09:08.240 --> 09:14.290
+Ale co jeśli mam tu numer zamiast łańcucha.
+
+09:14.300 --> 09:20.040
+Po prostu zakładamy, że tablice będą zawierać ciągi, które otrzymam jako fałszywe.
+
+09:20.040 --> 09:22.360
+OK, co jeśli zrobię tutaj.
+
+09:24.150 --> 09:26.600
+Przejdę przez OK, żeby działało.
+
+09:26.600 --> 09:29.060
+Co zrobić, jeśli zrobię pustą
+
+09:31.970 --> 09:36.230
+tablicę tutaj otrzymam fałsz, ale jeśli zrobię inną tablicę tutaj OK,
+
+09:41.430 --> 09:47.540
+otrzymam prawdę, co jeśli wiem tutaj i javascript, który jest trochę podstępny OK dostaję fałsz.
+
+09:47.550 --> 09:55.980
+Co się stanie, jeśli wiem, że to prawda, że działa bezproblemowo, wróć do tego, co mieliśmy wcześniej.
+
+09:56.250 --> 10:01.060
+Chcemy teraz poinformować osobę przeprowadzającą wywiad, w jaki sposób możemy złamać ten kod.
+
+10:01.200 --> 10:04.660
+Na przykład, jeśli nie otrzymamy stawki.
+
+10:04.770 --> 10:08.790
+Co jeśli ta funkcja zostanie wywołana tylko z jedną tablicą.
+
+10:08.970 --> 10:09.640
+Co się dzieje.
+
+10:09.750 --> 10:16.620
+Och, zaczynamy, chcemy zacząć myśleć o tym, jak mogą powstać błędy.
+
+10:16.710 --> 10:19.970
+Chcemy, aby te funkcje były jak najbardziej wolne od błędów.
+
+10:20.160 --> 10:25.740
+Podczas intro zwykle nie będziemy mieć czasu na wykonanie wszystkich czeków,
+
+10:25.740 --> 10:31.380
+ale możesz chcieć powiedzieć ankieterowi, że możliwe rozwiązania to możliwe sposoby obejścia tego.
+
+10:31.560 --> 10:32.380
+Jak na przykład.
+
+10:32.580 --> 10:45.160
+Czy możemy zakładać, że zawsze dwa parametry w funkcji to, co się dzieje, jeśli w drugim parametrze
+
+10:45.320 --> 10:47.620
+I-PASS 0 OK.
+
+10:47.640 --> 10:48.950
+Nadal jestem fałszywy.
+
+10:48.950 --> 10:50.360
+Co jeśli przekażę.
+
+10:50.850 --> 10:57.180
+Nie dostaję błędu, który mówi, że nie potrafię odczytać wartości równej "nie".
+
+10:57.580 --> 11:03.850
+Więc chcesz zacząć myśleć i być może rozmawiać z osobą przeprowadzającą wywiad o tym, jak
+
+11:03.850 --> 11:10.720
+możesz przerwać tę funkcję i jak możesz ją poprawić, na przykład sprawdzając takie instrukcje, aby upewnić
+
+11:10.780 --> 11:15.020
+się, że to, co dostajesz, jest tym, czego oczekujesz.
+
+11:15.030 --> 11:20.020
+Teraz przychodzi czas na testowanie i testowanie kodu przychodzi podczas większości wywiadów.
+
+11:20.020 --> 11:25.110
+To zwykle wykracza poza zakres wywiadu i masz ograniczony czas, więc możesz to zrobić.
+
+11:25.210 --> 11:28.880
+Ale dobrze jest powiedzieć rozmówcy, co byś zrobił.
+
+11:28.930 --> 11:31.360
+Jest to jedna z tych rzeczy, które są dość proste.
+
+11:31.360 --> 11:33.290
+Mogą po prostu powiedzieć rozmówcy.
+
+11:33.400 --> 11:39.020
+Właśnie dlatego robiłbyś to wbrew kodowaniu, a oni w istocie dadzą ci pełne oceny.
+
+11:41.140 --> 11:42.210
+Spójrzmy na następny krok.
+
+11:43.330 --> 11:46.370
+Nie używaj źle mylących nazw, takich jak i i j.
+
+11:46.430 --> 11:48.880
+Idź napisz kod, który dobrze się czyta.
+
+11:48.940 --> 11:53.480
+Teraz, kiedy patrzę na tę funkcję, jest OK.
+
+11:53.920 --> 12:01.510
+Teraz mówię, nie używaj zmiennych takich jak i i j i chociaż nie używasz i i j.
+
+12:01.510 --> 12:03.070
+Dokładnie tutaj.
+
+12:03.070 --> 12:11.080
+To jest używane dla pętli i dla pętli za pomocą Słyszę, że jest OK,
+
+12:11.080 --> 12:19.660
+ponieważ jest nieco standardem, szczególnie w javascript i są to po prostu indeksy, ale może jeśli
+
+12:19.780 --> 12:29.890
+te parametry mają znaczenie takie jak może to była tablica użytkownika i to było tablica elementów nazywająca je bardziej
+
+12:29.890 --> 12:34.150
+przydatnymi zmiennymi lub parametrami może być lepsza.
+
+12:34.150 --> 12:42.330
+Może ta zmienna mapy może być nazwana tally lub coś bardziej znaczącego specyficznego dla kodu.
+
+12:42.330 --> 12:46.630
+Ponownie jest to jedna z tych rzeczy, o których możesz porozmawiać z osobą
+
+12:46.630 --> 12:51.240
+przeprowadzającą rozmowę i dać im znać, że myślisz o tych rzeczach i to jest bardzo ważne.
+
+12:51.250 --> 12:56.380
+Znów tak długo, jak długo o nim myślisz i mówisz rozmówcy, że zastanawiasz się
+
+12:56.380 --> 12:59.090
+nad zlewem, dostajesz za to pełne oceny.
+
+12:59.350 --> 13:00.640
+Tak trzymaj.
+
+13:00.640 --> 13:05.850
+Przetestuj sprawdzanie kodu pod kątem braku zerowego parametru Paramo, bez masywnych tablic.
+
+13:05.920 --> 13:06.960
+Kod asynchroniczny.
+
+13:07.390 --> 13:08.640
+Itd. itp.
+
+13:09.010 --> 13:13.510
+W pewnym stopniu to omówimy na poprzednim etapie, ale chcesz po prostu sprawdzić u ankietera,
+
+13:13.510 --> 13:17.080
+czy robimy pewne założenia, ale dajmy im znać, że myślisz o
+
+13:17.080 --> 13:21.460
+tym i myślisz o tym, że funkcja ta może nie działać. zawsze biegnij z wyścigiem.
+
+13:21.460 --> 13:26.650
+W jaki sposób możemy przetestować tę funkcję i jak przetestować tę funkcję, aby upewnić się, że
+
+13:26.650 --> 13:30.430
+daje oczekiwany rezultat, że zawsze zwracamy wartość true lub false.
+
+13:30.490 --> 13:35.350
+I tu możesz powiedzieć, że masz zamiar przetestować swój kod i przeprowadzić kilka testów jednostkowych.
+
+13:35.410 --> 13:38.630
+Wreszcie, chociaż mówię w końcu, jest jeszcze inny punkt.
+
+13:38.710 --> 13:42.920
+Ale w końcu porozmawiaj z ankieterem, gdzie poprawisz kod.
+
+13:43.090 --> 13:43.900
+Czy to działa.
+
+13:43.900 --> 13:45.760
+Czy istnieją różne podejścia?
+
+13:45.760 --> 13:47.140
+Czy to jest czytelne.
+
+13:47.140 --> 13:50.560
+Co byś zrobił lub co ulepszyłbyś Google.
+
+13:50.620 --> 13:52.490
+Jak można poprawić wydajność.
+
+13:52.870 --> 13:58.030
+Dobrze patrząc na ten kod, mogę zacząć mówić rozmówcy, że OK.
+
+13:58.180 --> 14:05.800
+Minusem tego rozwiązania jest to, że dobrze można używać tylko liczb i łańcuchów
+
+14:05.800 --> 14:12.550
+oraz bajtów, ponieważ używamy obiektu, szczególnie w javascript i dodawania właściwości.
+
+14:13.790 --> 14:16.420
+A B C obok tego obiektu.
+
+14:16.580 --> 14:24.320
+Teraz właściwości obiektu, szczególnie sposób, w jaki używamy obiektu javascript Saray może teraz nie działać, jeśli
+
+14:24.320 --> 14:26.520
+używamy wartości nie literalnych.
+
+14:26.570 --> 14:33.830
+Być może nie siła jest może wyrażeniem javascript i możesz również argumentować, że ten
+
+14:33.860 --> 14:43.280
+kod może być nieco bardziej czytelny na przykład, chociaż ten kod jest lepszy pod względem złożoności czasu, jeśli chodzi
+
+14:43.280 --> 14:44.720
+o javascript.
+
+14:44.720 --> 14:48.560
+W rzeczywistości jest bardziej czytelny sposób na zrobienie tego.
+
+14:48.590 --> 14:52.820
+Pozwól, że ci pokażę, że jest to specyficzne dla języka.
+
+14:52.820 --> 14:58.580
+Oznacza to, że w zależności od tego, ile wiesz o języku, z którym pracujesz, możesz
+
+14:58.580 --> 15:02.930
+użyć metod, aby uprościć ten proces, abyś mógł powiedzieć rozmówcy.
+
+15:03.030 --> 15:10.250
+Chciałbym zastosować specjalne metody Google, na przykład wyścig, aby sprawdzić, czy mogę po prostu wyczyścić kod i uczynić
+
+15:10.250 --> 15:11.140
+go czytelnym.
+
+15:11.240 --> 15:14.920
+Na przykład mogę zrobić dokładnie tę samą funkcję.
+
+15:18.340 --> 15:20.650
+A my nazwiemy to wspólnym elementem 3.
+
+15:20.890 --> 15:29.970
+To wymaga tablicy tablicowej 1 w jednej linii mogę po prostu zwrócić tablicę,
+
+15:33.030 --> 15:38.020
+a dostałem coś, co jest nową funkcją.
+
+15:38.640 --> 15:45.990
+Myślę, że seks z javascript i mogę powiedzieć, że przedmiot używa funkcji błędów, które
+
+15:45.990 --> 15:56.850
+pochodzą z sześciu i mogę powiedzieć, że pętla przez tablicę do kropki obejmuje i sprawdzić, czy zawiera element wygląda na ten przedmiot.
+
+15:59.160 --> 16:00.990
+Co teraz robimy?
+
+16:02.450 --> 16:09.080
+No cóż, używamy niektórych wbudowanych metod javascript, aby zrobić to, co
+
+16:09.080 --> 16:17.360
+zrobiliśmy powyżej, sprawdzając, czy pierwsza tablica przechodzi przez każdy element tablicy i czy niektóre
+
+16:17.360 --> 16:22.190
+z nich zawierają elementy w naszej tablicy,
+
+16:25.660 --> 16:31.960
+aby zwrócić true lub false, jeśli sprawdzamy to z naszą tablicą.
+
+16:32.210 --> 16:37.960
+I uruchomię to i skomentujmy pierwsze.
+
+16:38.110 --> 16:46.490
+Jeśli uderzę tutaj, muszę się upewnić, że nie obejmuje to, że otrzymuję fałsz, ponieważ nasza tablica nie ma
+
+16:47.300 --> 16:48.360
+żadnych dopasowań.
+
+16:48.380 --> 16:54.000
+Jeśli ma on dopasowanie do nazwy, mogę na to spojrzeć.
+
+16:54.030 --> 16:57.910
+Po prostu tworzę fajną małą funkcję za pomocą javascript tutaj.
+
+16:57.920 --> 16:58.880
+Jakie to jest świetne.
+
+16:58.880 --> 17:02.760
+O tym właśnie mówimy, gdy mówimy, że istnieją różne rozwiązania problemu.
+
+17:03.200 --> 17:08.590
+Mamy teraz sposób na zmierzenie różnych rozwiązań problemu.
+
+17:09.580 --> 17:14.620
+Można powiedzieć, że istnieje inne rozwiązanie wykorzystujące niektóre wbudowane metody dostarczane z javascript,
+
+17:14.620 --> 17:18.790
+które niektórzy twierdzą, że są bardziej czytelne i zwięzłe.
+
+17:18.820 --> 17:26.260
+Jeśli pracujesz nad zespołem, który naprawdę zna ich javascript, jest to o wiele łatwiejsze do odczytania.
+
+17:26.260 --> 17:26.890
+Dobrze.
+
+17:27.040 --> 17:29.700
+Więc ważniejsza może być czytelność.
+
+17:31.000 --> 17:33.300
+Można powiedzieć, że jest to lepsze rozwiązanie.
+
+17:34.190 --> 17:38.660
+Inną rzeczą, którą mogłeś zauważyć, jest to, że mówiliśmy tutaj o złożoności czasu.
+
+17:40.450 --> 17:45.820
+I tak naprawdę nie rozmawialiśmy o złożoności przestrzeni, a to idzie do ostatniego punktu.
+
+17:45.940 --> 17:50.780
+Jeśli Twój ankieter jest zadowolony z twojego rozwiązania, zwykle odpowiada on tutaj.
+
+17:50.830 --> 17:56.390
+Często zdarza się również, że osoba przeprowadzająca wywiad prosi o przedłużenie pytania: Jak
+
+17:56.390 --> 18:03.420
+poradziłbyś sobie z problemem, gdyby cały wkład był zbyt duży, aby zmieścić się w pamięci. Jeśli mówimy
+
+18:03.420 --> 18:07.860
+o złożoności przestrzeni, widzimy, że w pierwszym rozwiązaniu mieliśmy .
+
+18:07.860 --> 18:10.670
+Pozwól, że to skomentuję.
+
+18:10.770 --> 18:17.550
+Mamy złożoność przestrzeni jednego, ponieważ nie tworzymy żadnych
+
+18:21.950 --> 18:24.400
+nowych zmiennych.
+
+18:24.410 --> 18:26.830
+Używamy tylko tablic wejść.
+
+18:28.170 --> 18:32.730
+Technicznie dodatkowa złożoność przestrzeni dla naszej funkcji jest jedna.
+
+18:32.820 --> 18:34.210
+Jest stały.
+
+18:34.230 --> 18:43.830
+Ale jeśli przejdziemy do tego dobrze, tworzymy tutaj nowy obiekt i dodajemy pierwszą tablicę do
+
+18:45.280 --> 18:48.240
+obiektu, który zajmuje pamięć.
+
+18:48.490 --> 18:58.050
+To rozwiązanie ma w rzeczywistości złożoność przestrzeni OK, która jest pierwszą złożonością przestrzeni promieni.
+
+18:58.240 --> 19:02.990
+Więc jeśli ankieter mówi, że jest ograniczona pamięć lub pamięć jest droga.
+
+19:03.010 --> 19:04.860
+Możesz po prostu powiedzieć mu.
+
+19:04.870 --> 19:13.090
+Chociaż to rozwiązanie, chociaż jest szybsze pod względem złożoności czasu, jest bardziej szczęśliwe pod względem złożoności szybkości, to o
+
+19:15.810 --> 19:21.630
+tym, że zapomnieliśmy wspomnieć, jest czymś, o czym naprawdę dobrze jest wspominać podczas
+
+19:21.630 --> 19:24.810
+wywiadu, modularyzować swój kod od samego początku.
+
+19:24.810 --> 19:29.930
+Podziel swój kod na piękne małe kawałki i dodaj tylko komentarze, jeśli potrzebujesz.
+
+19:30.360 --> 19:31.340
+Co to znaczy.
+
+19:31.650 --> 19:37.270
+Mamy tu rozwiązanie, nad którym pracowaliśmy, i zobowiązaliśmy się to zrobić.
+
+19:37.290 --> 19:43.920
+Modularyzowaliśmy mówiąc, że ten pierwszy blok kodu zrobi coś, a ten blok kodu zrobi
+
+19:43.950 --> 19:45.320
+coś innego.
+
+19:45.420 --> 19:52.440
+Ale ponieważ kod staje się coraz bardziej złożony, coraz ważniejsze staje się pisanie w
+
+19:52.440 --> 20:01.470
+sposób modułowy, czyli małe fragmenty, które czytają jak angielski, który wydaje się długi, naprawdę trudny do odczytania kod,
+
+20:01.530 --> 20:07.400
+kosztuje wiele firm, ponieważ nie tylko pracujesz nad baza kodów.
+
+20:07.470 --> 20:14.950
+To najprawdopodobniej dziesiątki lub setki, jeśli nie tysiące programistów i inżynierów, więc firmy chcą
+
+20:14.950 --> 20:22.720
+zatrudniać kogoś, kto jest w stanie napisać czysty kod, który jest czytelny i łatwy do odczytania
+
+20:22.960 --> 20:24.050
+i kodowania.
+
+20:24.190 --> 20:31.750
+Na przykład tutaj, co możemy chcieć zrobić, to oddzielić je
+
+20:31.750 --> 20:44.980
+na różne funkcje, być może tworząc tutaj funkcję, która prawdopodobnie mówi tablicę map do obiektu, który odbiera w pierwszej
+
+20:46.450 --> 20:56.460
+Saray ITA, a następnie może tutaj jest funkcją zewnętrzną, która mówi porównaj tablicę z obiektem.
+
+20:56.470 --> 21:01.870
+Teraz nie musisz tego robić podczas wywiadu, ale dobrze jest o tym wspomnieć i
+
+21:01.870 --> 21:04.640
+porozmawiać o idei modularyzacji w swoim kodzie.
+
+21:04.750 --> 21:09.730
+Jeśli funkcja robi zbyt wiele rzeczy, które nie są idealne.
+
+21:09.730 --> 21:15.010
+Kiedy mówimy modułowo, chcemy zbudować SMALLPEICE kod, który wykonuje jedną rzecz, a
+
+21:15.430 --> 21:24.190
+jedną rzecz doskonale najlepiej, gdy funkcja pobiera dane wejściowe i zwraca dane wyjściowe, a wewnątrz tego bloku robi jedną rzecz, jeśli
+
+21:24.570 --> 21:26.580
+musi wykonać dodatkowe czynności.
+
+21:26.670 --> 21:35.700
+Cóż, być może masz funkcję, która żyje w świecie zewnętrznym i ta funkcja naprawdę dobrze działa, a
+
+21:35.700 --> 21:41.140
+to tworzy naprawdę sprawdzalny, czysty kod, który jest modułowy.
+
+21:41.310 --> 21:46.550
+Znowu coś, o czym dobrze jest wspomnieć i porozmawiać w swoim wywiadzie.
+
+21:46.740 --> 21:47.630
+W porządku.
+
+21:47.820 --> 21:54.840
+Wiem, że to dużo i dużo jest do myślenia, ponieważ zaczynasz myśleć, że będę musiał się martwić
+
+21:55.140 --> 21:59.820
+o każdy kod, który jest właściwy i zanalizować to głęboko.
+
+21:59.850 --> 22:00.410
+Nie.
+
+22:00.450 --> 22:02.660
+W twoim codziennym życiu nie zamierzasz tego robić.
+
+22:02.790 --> 22:08.130
+Ale chciałem wam zademonstrować, że jest to proces myślowy, do którego mają naprawdę
+
+22:08.130 --> 22:11.510
+dobrzy programiści i do jakich firm udzielają wywiadów.
+
+22:11.730 --> 22:17.910
+Jeśli jesteś w stanie jasno przemyśleć te kroki, tak jak to nakreśliłem dla ciebie i potrafisz
+
+22:17.910 --> 22:25.080
+rozwiązywać problemy w ten sposób, widzisz, o ile bardziej imponujące jest to, niż gdybym po prostu zapisał to rozwiązanie
+
+22:25.500 --> 22:27.010
+bez żadnego wyjaśnienia.
+
+22:27.770 --> 22:34.580
+Nawet jeśli nie dostaniesz się do tej części i skończy się czas podczas rozmowy,
+
+22:34.580 --> 22:41.460
+zademonstrowałeś swojemu rozmówcy, że jesteś w stanie jasno myśleć, że masz podstawy, by myśleć jak inżynier.
+
+22:41.780 --> 22:49.030
+A to są wielkie cechy, które firmy lubią najmować i umiejętności, które są bardzo rzadkie.
+
+22:49.040 --> 22:50.790
+Mam nadzieję, że dobrze się bawiłeś przy tym ćwiczeniu.
+
+22:50.960 --> 22:54.540
+Być może będziesz musiał później wrócić do tych filmów.
+
+22:54.800 --> 22:58.160
+Ale na razie zobaczę w następnym Buh-Bye.

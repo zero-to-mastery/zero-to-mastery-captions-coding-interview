@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.110 --> 00:01.910
+Ben tornato.
+
+00:02.170 --> 00:09.610
+Volevo parlare di un ultimo pezzo del puzzle, specialmente quando si tratta di grafici, anche se abbiamo
+
+00:09.610 --> 00:13.250
+parlato di traversal grafico fino ad ora.
+
+00:13.390 --> 00:18.340
+E anche l'inversione di Treach usano DFS e DFS.
+
+00:18.370 --> 00:25.480
+C'è anche un'altra cosa che dovresti prendere in considerazione ora in un'intervista che probabilmente
+
+00:25.480 --> 00:31.100
+implementerai questi algoritmi perché sono estremamente complicati e richiedono molto tempo.
+
+00:31.150 --> 00:39.040
+Tuttavia un intervistatore potrebbe aspettarsi che tu sappia di loro e sappi che useresti l'algoritmo di Belman Ford
+
+00:39.190 --> 00:44.120
+o diasters per capire un problema di percorso più breve.
+
+00:44.290 --> 00:45.810
+Ma potresti chiedertelo.
+
+00:46.010 --> 00:52.940
+Beh, Andre mi hai appena detto che la prima ricerca di ampiezza è usata per il problema del percorso più breve.
+
+00:52.990 --> 00:53.980
+Perché abbiamo bisogno di questi.
+
+00:54.010 --> 00:56.790
+X certi algoritmi so già come farlo.
+
+00:56.980 --> 01:00.090
+E questo è in realtà un caso speciale.
+
+01:00.220 --> 01:06.540
+Vedete l'ampiezza La prima ricerca è ottima per il problema del percorso più breve, ma c'è una cosa
+
+01:06.540 --> 01:11.960
+che una lattina assume che ogni salto a un altro nodo in un grafico.
+
+01:11.960 --> 01:22.240
+Se torniamo qui, si presume che ogni percorso abbia lo stesso peso con una prima ricerca di profondità in un respiro.
+
+01:22.340 --> 01:29.590
+Prima ricerca non ci interessa davvero che tipo di peso ha un bordo.
+
+01:29.730 --> 01:37.670
+Ad esempio nella vita reale come Google Maps alcune strade sono più veloci delle altre.
+
+01:37.770 --> 01:38.790
+Destra.
+
+01:38.890 --> 01:44.730
+Abbiamo forse più traffico su una strada, forse la distanza da una nota all'altra.
+
+01:44.740 --> 01:51.730
+È più corto dell'altro e questi grafici ponderati di cui abbiamo parlato hanno un numero associato
+
+01:51.970 --> 01:53.420
+ai loro bordi.
+
+01:53.440 --> 02:01.210
+Ricorda che un nodo è chiamato vertice in un grafico e che la connessione tra due nodi è un margine
+
+02:01.240 --> 02:07.990
+e la prima ricerca di profondità non ci consente realmente di prendere in considerazione questi pesi.
+
+02:08.020 --> 02:09.870
+Abbiamo bisogno di qualcos'altro.
+
+02:10.150 --> 02:16.150
+E in un'intervista se qualcuno ti ha chiesto questa tua risposta dovrebbe essere Belman Ford
+
+02:16.180 --> 02:27.180
+o algoritmo diasters che ci permettono di trovare il percorso più breve tra due note di un grafo ponderato ora Belman e dicer sono due persone reali che
+
+02:27.180 --> 02:35.640
+sono accademici accademici molto molto intelligenti che è venuto fuori con il proprio algoritmo per risolvere il problema del percorso più
+
+02:35.850 --> 02:41.910
+breve di un modo per digraph come Google Maps cercando di capire quale sia il
+
+02:41.940 --> 02:46.140
+modo più vicino per ottenere il tuo burrito, ad esempio.
+
+02:46.140 --> 02:48.660
+E solo un fatto divertente.
+
+02:48.720 --> 02:51.060
+Questo è Richard Belman.
+
+02:51.360 --> 02:58.880
+Ed è la stessa persona che ha scritto sulla programmazione dinamica, che è una sezione imminente nel nostro corso.
+
+02:58.890 --> 03:02.060
+Diciamo solo che entrambe queste persone sono molto molto intelligenti.
+
+03:03.370 --> 03:11.110
+Ora entrambi questi algoritmi sono piuttosto complessi e richiede molto tempo per essere veramente codificato.
+
+03:11.290 --> 03:17.170
+Quindi lascerò le risorse per te se vuoi saperne di più su questi algoritmi perché
+
+03:17.470 --> 03:22.380
+in un'intervista è molto raro che tu debba mai codificare questi algoritmi.
+
+03:22.390 --> 03:26.520
+La maggior parte delle volte devi solo sapere che esistono e quando usarli.
+
+03:26.530 --> 03:36.330
+Quindi esaminiamo che l'algoritmo di Belman Ford è molto efficace nel risolvere il percorso più breve rispetto all'algoritmo
+
+03:36.360 --> 03:40.070
+diasters perché può contenere pesi negativi.
+
+03:40.290 --> 03:49.110
+Quindi, se un grafico ponderato ha pesi negativi o un numero negativo, l'algoritmo di Belman Ford sarà in grado di risolvere il
+
+03:49.110 --> 03:51.210
+problema del percorso più breve.
+
+03:51.360 --> 03:54.090
+Mentre Daxter non sarà in grado di farlo.
+
+03:54.170 --> 04:01.900
+Ora, perché mai dovresti usare i diasters, se l'algoritmo di Belman Ford può fare meglio, non entreremo nel calcolo di
+
+04:01.900 --> 04:02.980
+tutto questo.
+
+04:03.370 --> 04:10.870
+Ma l'algoritmo di Belman Ford può richiedere molto tempo per essere eseguito in termini di complessità e non è
+
+04:10.900 --> 04:12.150
+l'algoritmo più efficiente.
+
+04:12.250 --> 04:19.460
+Il caso peggiore per l'algoritmo forward di Belman è solitamente la complessità temporale di tutti e di squit.
+
+04:19.810 --> 04:21.720
+Quindi non è molto efficiente.
+
+04:21.730 --> 04:29.020
+L'algoritmo di Diasters d'altra parte è un po 'più veloce di quello e un po' più efficiente
+
+04:29.320 --> 04:35.470
+con il lato negativo che può contenere le attese negative tra i nodi.
+
+04:35.560 --> 04:43.540
+Se un intervistatore ti mostra questo diagramma e ti dice che voglio trovare il percorso più breve da 0 a 4 in
+
+04:43.960 --> 04:48.320
+questo modo per rappresentare graficamente ora sai perché dovresti dire bene.
+
+04:48.730 --> 04:50.830
+Quale algoritmo hai intenzione di utilizzare.
+
+04:50.830 --> 04:52.030
+Hai intenzione di usare un respiro.
+
+04:52.150 --> 04:58.130
+Prima ricerca algoritmo di Belman Ford o algoritmo diasters.
+
+04:58.330 --> 05:03.010
+La risposta bene dovrebbe essere l'algoritmo di diasters.
+
+05:03.040 --> 05:05.580
+Non ci sono pesi negativi su questo grafico.
+
+05:05.590 --> 05:06.610
+È un peso un grafico.
+
+05:06.760 --> 05:09.710
+Quindi il dicer è che l'algoritmo risolverà il problema.

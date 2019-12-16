@@ -1,0 +1,124 @@
+WEBVTT
+
+00:01.190 --> 00:04.840
+Ora ho creato per te un bel foglio di trucchi O.
+
+00:05.240 --> 00:08.320
+Anche se abbiamo impiegato molto tempo per affrontare tutto.
+
+00:08.720 --> 00:14.570
+Alla fine della giornata, quando si tratta di prepararsi per un colloquio, questo è praticamente tutto quello che devi sapere
+
+00:14.570 --> 00:20.150
+e puoi usare questo per rivedere alcuni degli argomenti trattati, così come lo sono stati quelli che verranno
+
+00:20.510 --> 00:22.560
+trattati per la sezione futura .
+
+00:22.760 --> 00:27.150
+Vediamo qui che i grandi spettacoli lì principalmente questi qui.
+
+00:27.230 --> 00:30.990
+Ora non abbiamo attraversato tutto ciò che abbiamo vissuto.
+
+00:31.000 --> 00:42.390
+Costantino ma non abbiamo attraversato qualcosa come oh accedi o oh quando accedi o O ai due al potere di
+
+00:42.390 --> 00:47.030
+un o anche questo con il punto esclamativo.
+
+00:47.030 --> 00:48.110
+Mi chiedo cosa sia.
+
+00:48.300 --> 00:50.090
+Bene, ci arriveremo.
+
+00:50.280 --> 00:56.370
+Ma la ragione per cui non ho ancora parlato di loro è che stanno per
+
+00:56.370 --> 01:05.250
+venire fuori quando parliamo di strutture dati e algoritmi che hanno commentato grandi notazioni sono molto specifici per determinati algoritmi e strutture
+
+01:05.460 --> 01:08.040
+dati per ottimizzare il codice.
+
+01:08.220 --> 01:12.580
+Quindi ne parleremo quando parliamo di questi argomenti perché avranno più senso per
+
+01:13.140 --> 01:18.110
+te, come ad esempio Oh, il registro è usato molto quando si tratta di cercare algoritmi.
+
+01:18.870 --> 01:26.820
+O il log O-N è usato per legge quando si tratta di ordinare algoritmi e qualcosa come 0 2 per
+
+01:26.820 --> 01:31.630
+la potenza di N entra in gioco quando parliamo di algoritmi ricorsivi.
+
+01:31.650 --> 01:33.540
+Quindi di nuovo non essere sopraffatto.
+
+01:33.570 --> 01:40.420
+Abbiamo parlato di questi tre principali e torneremo al resto del corso.
+
+01:41.360 --> 01:46.430
+Ora, quando si tratta di grandi spettacoli, voglio che tu tenga a mente due cose quando
+
+01:46.430 --> 01:51.590
+stai filando attraverso una mezza collezione è ancora 0 per la parte o 0 per la fine ricorda.
+
+01:51.920 --> 01:53.750
+Oh e diviso per due.
+
+01:53.750 --> 01:55.690
+È ancora alla fine della giornata.
+
+01:56.010 --> 02:03.890
+Quando ricordi il nostro regolamento e di nuovo un altro trucco che spesso emerge nelle interviste è che due
+
+02:03.890 --> 02:06.800
+raccolte separate dovrebbero essere un plus b.
+
+02:07.040 --> 02:09.770
+O se sono nidificati a volte b.
+
+02:09.830 --> 02:15.910
+Quindi due input separati dovrebbero avere due variabili separate e notazione Big O.
+
+02:17.140 --> 02:22.170
+E solo per tenere a mente che cosa causa tempo in una funzione perché è quello che stiamo misurando in questo momento.
+
+02:22.330 --> 02:26.990
+Beh, il ciclo di comparazione delle operazioni.
+
+02:27.070 --> 02:32.620
+Sappiamo che ci vuole un po 'di tempo e cose come chiamate di funzioni esterne quando si ha
+
+02:32.620 --> 02:34.780
+una funzione all'interno di una funzione.
+
+02:34.970 --> 02:41.390
+E poi finalmente abbiamo parlato del nostro regolamento sempre grande O misura il caso peggiore in cui vogliamo
+
+02:41.390 --> 02:49.490
+rimuovere le costanti vogliamo avere input diversi che hanno variabili diverse quindi A-plus BA e B sono race se sono annidati sono
+
+02:49.820 --> 02:53.750
+un discorso di tempo contro qualcosa che abbiamo menzionato qui.
+
+02:54.050 --> 03:00.390
+Il modo semplice per ricordare questo è l'aggiunta di quattro passaggi in ordine e moltiplicazione per i passaggi annidati.
+
+03:00.710 --> 03:05.630
+E poi, infine, la regola numero quattro è di abbandonare i termini non dominanti.
+
+03:06.410 --> 03:07.700
+Semplicemente semplice.
+
+03:08.240 --> 03:14.210
+Porterò questo imbroglio da grande O quando inizieremo a parlare e colmeremo le nostre lacune con il resto
+
+03:14.380 --> 03:15.840
+della notazione Big O.
+
+03:16.130 --> 03:18.160
+Ma per ora entriamo nella prossima lezione.

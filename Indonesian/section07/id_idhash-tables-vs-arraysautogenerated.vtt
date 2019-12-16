@@ -1,0 +1,70 @@
+WEBVTT
+
+00:01.060 --> 00:09.560
+Selamat datang kembali mengapa tabel hash tabel hash bagus ketika Anda ingin akses cepat ke nilai-nilai tertentu.
+
+00:09.580 --> 00:14.930
+Ingatlah bahwa mencari melalui array untuk suatu item membutuhkan waktu yang sangat lama.
+
+00:14.930 --> 00:21.380
+Kita harus mengulang setiap item dan melihat apakah string atau angka tertentu ada dalam array dengan
+
+00:21.380 --> 00:22.300
+tabel hash.
+
+00:22.310 --> 00:24.950
+Itu sangat cepat.
+
+00:25.100 --> 00:29.410
+Dan inilah mengapa Anda melihat tabel hash di tempat-tempat seperti database dengan benar.
+
+00:29.450 --> 00:33.500
+Kami ingin mencari sesuatu di database dan segera mengembalikannya kepada kami.
+
+00:34.360 --> 00:44.620
+Demikian pula memasukkan item dan tabel hash tidak seperti array yang mungkin menggeser indeks biasanya
+
+00:45.020 --> 00:46.020
+satu.
+
+00:46.450 --> 00:50.260
+Anda cukup hash dan buat kuncinya.
+
+00:50.260 --> 00:55.450
+Meskipun kami sering mengalami kasus tabrakan itu adalah sesuatu yang tidak perlu kami khawatirkan terlalu
+
+00:55.450 --> 00:56.170
+banyak.
+
+00:56.170 --> 00:59.940
+Dan kita dapat mengasumsikan dan menjawab semuanya.
+
+01:00.120 --> 01:05.430
+Lalu ada aspek lain yang sangat mirip antara dua array yang memungkinkan
+
+01:05.430 --> 01:12.870
+Anda dengan cepat mencari nilai untuk kunci tombol yang diberikan disebut indeks dalam array dan kami tidak
+
+01:12.870 --> 01:21.170
+bisa mengambilnya selalu 0 1 2 3 dalam tabel hash yang kami bisa memilih mereka sehingga tabel hash adalah
+
+01:21.170 --> 01:31.860
+jenis seperti hack di atas array untuk membiarkan kita menggunakan kunci fleksibel daripada terjebak dengan 0 1 2 3 masalah tabel hash yang kita bahas
+
+01:32.010 --> 01:36.120
+adalah ide tidak ada konsep urutan dalam array.
+
+01:36.120 --> 01:40.810
+Setiap item ditempatkan bersebelahan di rak di memori.
+
+01:40.930 --> 01:43.800
+Meja hash adalah jenis ditempatkan di semua tempat.
+
+01:45.560 --> 01:51.590
+Sekarang kita memiliki gagasan tentang perbedaan antara keduanya, saya pikir sudah waktunya bagi
+
+01:51.590 --> 01:58.490
+kita untuk benar-benar mengerjakan beberapa latihan dan pertanyaan wawancara yang akan kita gunakan tabel hash dan jawabannya.
+
+01:58.520 --> 01:59.350
+Saya akan lihat yang itu.

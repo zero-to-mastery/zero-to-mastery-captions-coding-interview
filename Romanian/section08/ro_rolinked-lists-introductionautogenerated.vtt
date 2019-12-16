@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.740 --> 00:09.210
+Este timpul să vorbim despre cea de-a treia structură de date și vom vorbi despre două
+
+00:09.210 --> 00:19.360
+tipuri de liste legate în următoarele videoclipuri viitoare, în mod singular și dublu legate de liste, la ce problemă întâlnim cu o
+
+00:20.580 --> 00:22.980
+cursă bine cu machete statice.
+
+00:23.010 --> 00:30.220
+Am avut doar o anumită cantitate de date sau memorie care pot fi alocate una lângă cealaltă în
+
+00:30.220 --> 00:36.490
+memorie, dar apoi atât matricele dinamice, cât și matricele statice pot spori memoria lor.
+
+00:36.490 --> 00:43.080
+Odată ce atinge o anumită limită și dublează acea memorie într-o altă locație, dar această
+
+00:43.080 --> 00:50.940
+operațiune, din când în când, de dublare a matricei pentru a crea mai multă memorie a avut o implicare
+
+00:51.390 --> 01:00.060
+în performanță și ne-a costat toate într-un mod suplimentar, pentru orice fel de operații cum ar fi inserarea și ștergerea, care
+
+01:00.360 --> 01:07.560
+au trebuit să treacă indexurile în special atunci când ați inserat sau șters orice cuvânt care nu
+
+01:07.560 --> 01:09.390
+a fost sfârșitul matricei.
+
+01:10.670 --> 01:12.640
+Și apoi au venit mese de hash.
+
+01:12.650 --> 01:13.580
+Ei au fost grozavi.
+
+01:13.700 --> 01:19.160
+Am fost destul de mult magazin lucruri oriunde vrem și de memorie și tabele hash ar pur și simplu să aibă grijă de ea
+
+01:19.160 --> 01:21.430
+pentru noi și știu unde să-l aducă în memorie.
+
+01:22.440 --> 01:25.680
+Nu trebuia să ne facem griji pentru unele probleme care au venit cu cursa.
+
+01:25.680 --> 01:30.710
+Viața era bună, dar, din nefericire, nu erau într-adevăr ordonate.
+
+01:30.810 --> 01:33.260
+Deci, cum putem rezolva această problemă.
+
+01:33.480 --> 01:35.480
+Linked Listează la salvare.
+
+01:35.850 --> 01:41.910
+Deci, acest lucru înseamnă că toți ar trebui să folosim mereu liste de linkuri, fără a ține cont de matrice și tabele
+
+01:41.910 --> 01:45.750
+de hash, deoarece listele de linkuri sunt cele mai bune structuri de date.
+
+01:45.840 --> 01:46.370
+Nu.
+
+01:46.710 --> 01:50.490
+Ca întotdeauna există compromisuri atunci când vine vorba de structurile de date.
+
+01:50.520 --> 01:56.430
+În următoarele videoclipuri, să vedem mai multe despre ele, astfel încât să putem obține o imagine mai clară.
+
+01:57.810 --> 02:05.060
+Apropo, amintiți-vă această diagramă pe care v-am arătat-o ​​în videoclipurile de tabele de tip hash și am spus că atunci când am
+
+02:05.060 --> 02:06.440
+avut o coliziune.
+
+02:06.440 --> 02:10.210
+O modalitate de a rezolva aceasta a fost utilizarea unui astfel de lucru.
+
+02:11.710 --> 02:14.590
+Și nu aveam nicio idee despre structura de date.
+
+02:14.740 --> 02:22.230
+Ei bine, acest John Smith către Sandra Dee și această săgeată mică indicând că este o listă legată.
+
+02:22.300 --> 02:25.240
+Deci, să începem și să aflăm care sunt listele de link-uri.
